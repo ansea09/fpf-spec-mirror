@@ -6,12 +6,12 @@ section_id: "B.3.5:7"
 section_title: "Author Standard (at a glance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__009_author-standard-at-a-glance.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:7 — Author Standard (at a glance)"
-line_start: 39418
-line_end: 39432
+line_start: 38244
+line_end: 38258
 dependencies:
   - "B.3"
   - "C.13"
@@ -29,14 +29,14 @@ keywords:
 
 When you add or import a relation edge:
 
-1. **Pick a Working‑Model relation** (ComponentOf/MemberOf/…); avoid raw `ut:PartOf` unless you are drafting meta‑level axioms.
+1. **Pick a Working‑Model relation** (ComponentOf/MemberOf/…); avoid raw `ut:PartOf` unless you are drafting meta‑level axioms. If no current publication choice or requirement elects CT2R-LOG, publish that direct claim and stop.
 
-2. **Attach `tv:groundedBy`**:
+2. **When CT2R-LOG is elected, attach `tv:groundedBy`**:
 
-   * Structural? → **must** be a `Γ_m` trace ID.
+   * Structural and covered by the profile? → **must** be a `Γ_m` trace ID.
    * Epistemic? → `Γ_m` trace *or* evidence object.
-3. **Declare `tv:validationMode`** (**postulate** / **inferential** / **axiomatic**).
+3. **For a covered claim, declare `tv:validationMode`** (**postulate** / **inferential** / **axiomatic**).
 
 > **What managers see:** nothing new in the graph picture.
-> **What auditors get:** a reliable trail from every published edge back to a principled constructor or an evidence pack.
+> **What auditors get:** a reliable trail from every edge covered by the elected profile back to its inspectable construction or evidence account.
 

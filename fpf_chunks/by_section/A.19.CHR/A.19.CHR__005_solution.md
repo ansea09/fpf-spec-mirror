@@ -6,12 +6,12 @@ section_id: "A.19.CHR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:4 — Solution"
-line_start: 30703
-line_end: 31111
+line_start: 30252
+line_end: 30660
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -315,7 +315,7 @@ that acts as the **planned baseline** for all suite‑level pinned refs/editions
 
 This is the mandatory bridge between:
 
-* *selection* (G.* set‑return choice of candidates/policies), and
+* *selection* (`G.*` set‑return choice of candidates/policies), and
 * *WorkEnactment* (FinalizeLaunchValues witness + gate execution + logs).
 
 #### A.19.CHR:4.7 - Canonical concept card fragments
@@ -420,7 +420,7 @@ Downstream continuation (outside `suite_protocols`): publication/telemetry via `
 
 **Show.**
 
-* The same CHR suite is used, but the selected `SelectorMechanism` specialization (via G.* extension) returns an **Archive** retained set.
+* The same CHR suite is used, but the selected `SelectorMechanism` specialization (via `G.*` extension) returns an **Archive** retained set.
 * WorkPlanning plan item additionally pins:
 
   * `DescriptorMapRef@edition(…)` and `DistanceDefRef@edition(…)` (QD/illumination configuration),

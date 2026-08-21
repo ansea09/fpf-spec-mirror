@@ -6,12 +6,12 @@ section_id: "E.18.NET:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:4 — Solution"
-line_start: 85615
-line_end: 85755
+line_start: 82949
+line_end: 83091
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -113,7 +113,9 @@ An n-ary relation remains n-ary. Do not decompose it into invented binary arrows
 
 `U.Transfer` remains E.18's internal relation kind for one TFS. It is not a universal relation between network members. For any production, use, participation, evaluation, correspondence, feedback, dependency, supply, or other cross-flow relation, the relation kind must already be admitted. Use its applicable relation pattern to recover the participant meanings, predicate, applicability, and occurrence-identity rule; current case facts or constituting history must satisfy the predicate affirmatively. Only then does one world-side occurrence obtain. Use A.6.REL only when a named use must distinguish that occurrence from another. For ordinary network selection, the PatternID and exact relation occurrence are enough; add `relationFunctionClaimRef` to the defining or constraining `ClaimGraph` only when comparison, migration, or reliance depends on that exact rule identity. The network selects only the exact already-obtaining occurrence ref.
 
-If no admitted relation kind and applicable predicate cover the intended participants and use, return `missing-governor`. If an applicable predicate exists but current facts do not decide it, keep a proposed network description and return the exact missing facts or information-sufficiency boundary. If the predicate is false, no occurrence fills the network. If the occurrence obtains but an endpoint position binding is missing, return that missing binding. A row, graph edge, or episteme neither admits the kind nor creates the occurrence. In none of these branches substitute `creates`, `produces`, `uses`, `input`, `output`, `result`, `handoff`, or `transfer` as a generic edge.
+If no admitted relation kind and applicable predicate cover the intended participants and use, carry `missing-governor` from the pattern governing the relation claim. If required case facts are unavailable, carry its `missing-information` result; if the available basis is sufficient to apply the positive test but that test fails, carry `factually unsupported`. Neither result by itself establishes a negative. Carry an inapplicable or negative result only when the governing pattern defines that outcome and its current basis establishes it. Only a positive obtaining occurrence may fill `selectedCrossFlowRelationOccurrenceRefs[]`.
+
+After a positive occurrence is established, test the E.18.NET endpoint and position bindings separately. A missing binding blocks network selection but does not change the relation result. Missing members, applied constraints, and use-frame values are likewise separate network-selection blockers. A row, graph edge, or episteme neither admits a relation kind nor creates an occurrence. In none of these branches substitute `creates`, `produces`, `uses`, `input`, `output`, `result`, `handoff`, or `transfer` as a generic edge.
 
 #### E.18.NET:4.6 - Record the network without replacing it
 
@@ -177,5 +179,5 @@ Use A.22.CGUS and E.18.3 for an admitted network-aware `DemonstrativeUnfoldingSl
 
 Use C.30.TFS-REL when architecture uses the selected network. Name one exact containing holon whose `ArchitectureOf@Context` selects the network, or explicitly state the inter-holon use and its participating architecture claims without inventing a bearer. Use C.32.CONWAY only for its one-pair architecture-influence reading; the pair neither acts nor becomes the network.
 
-Only admitted Systems perform Work. Selecting a network, writing its record, or drawing its graph may be Work when A.15.1 admits the occurrence; none is performance by the network. Keep the Method, performer, dated selection Work, result episteme, selection or decision relation, and any C.11 choice result separate. State accountability, duty, responsibility, or authority only through the direct relation that actually obtains; otherwise omit the stronger word or return the missing governor.
+Only admitted Systems perform Work. Selecting a network, writing its record, or drawing its graph may be Work when A.15.1 admits the occurrence; none is performance by the network, and no Work claim is needed merely to select or discuss the network. When selection Work is material, cite the independently established A.15.1/F.6 result and leave its assignment and attribution proof with those patterns. Keep the Method, performer, dated Work, result episteme, selection or decision relation, and any C.11 choice result separate. A result episteme is not a decision or accountability relation by form; state accountability, duty, responsibility, or authority only through the exact direct relation that obtains.
 

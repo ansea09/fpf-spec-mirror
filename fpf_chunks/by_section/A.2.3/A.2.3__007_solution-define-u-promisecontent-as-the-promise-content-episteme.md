@@ -6,12 +6,12 @@ section_id: "A.2.3:4"
 section_title: "Solution - Define U.PromiseContent as the promise-content episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__007_solution-define-u-promisecontent-as-the-promise-content-episteme.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:4 — Solution - Define U.PromiseContent as the promise-content episteme"
-line_start: 3897
-line_end: 4091
+line_start: 3902
+line_end: 4103
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -75,7 +75,7 @@ PromiseContentIdentity = <
 >
 ```
 
-`promisedOutcomeSpecRef` is a `U.EpistemeRef` field that designates the exact A.7 `OutcomeSpec` episteme about which the promise claims are made; that episteme is the exact EntityOfConcern of this PromiseContent episteme. The field is not `EntityOfConcernSlot`: that SlotKind names the participant meaning only inside the reusable C.2.1 constitution `RelationSignature`. `OutcomeSpec` is a specification-use episteme form, not a separately admitted U-kind. The exact `claimScope` qualifies where the promise-content claims hold and remains outside the identity tuple. A selected model-use structure is not an episteme constituent or generic identity qualifier: it may be designated only by a receiving assertion or use whose interpretation actually depends on that structure. A direct dependent species may strengthen identity only when the pattern that defines that species explicitly adds the discriminator.
+`promisedOutcomeSpecRef` is a `U.EpistemeRef` field that designates the exact A.2.3:4.1.1 `OutcomeSpec` episteme about which the promise claims are made; that episteme is the exact EntityOfConcern of this PromiseContent episteme. The field is not `EntityOfConcernSlot`: that SlotKind names the participant meaning only inside the reusable C.2.1 constitution `RelationSignature`. `OutcomeSpec` is a specification-use episteme form, not a separately admitted U-kind. The exact `claimScope` qualifies where the promise-content claims hold and remains outside the identity tuple.
 
 * **FPF kind:** `U.Episteme`.
 * **Time stance:** the promise content can be authored before delivery; later exact delivery-work facts, affected entities, post-work states, and any current delivery or acceptance relations are tested against the declared outcome and acceptance predicates. Evaluation work and the actual operation-result binding remain separate; when a verdict episteme is constituted, C.2.1 and A.15.PROD govern its identity and inception, while A.10 evidence relations support the relied-on assertions.
@@ -100,75 +100,81 @@ U.PromiseContent : U.Episteme {
 
 * `content` carries the promised-outcome, eligibility, and acceptance claims together with the optional `accessSpec` value when an access-method description is current; it is not an untyped text slot.
 * `providerSystemRoleKindRef` and `consumerSystemRoleKindRef` are promise-content fields typed by the existing `U.KindRef`; each resolves to one exact local system-role kind. `accessSpec`, `acceptanceSpec`, and `unitOfDelivery` are episteme values carried by value in the claim graph; a publication or other declared representation may express them through `U.EpistemeRef` values that resolve to those same epistemes without changing their kinds. Changing one of these content values or resolved kind references changes `content` and therefore the promise-content identity.
-* `promisedOutcomeSpecRef` resolves to the A.7 `OutcomeSpec` episteme. It is neither a `U.Work` occurrence, an affected or delivered entity, an actual operation-result binding, nor a verdict episteme.
+* `promisedOutcomeSpecRef` resolves to the A.2.3:4.1.1 `OutcomeSpec` episteme. It is neither a `U.Work` occurrence, an affected or delivered entity, an actual operation-result binding, nor a verdict episteme.
 * `effectiveReferenceScheme` makes the claim graph and its references interpretable.
 * `providerSystemRoleKindRef` and `consumerSystemRoleKindRef` identify local work-facing kinds; actual providers and consumers enter only through named occurrences of directly declared species under `U.SystemRoleAssignment`. A kind reference neither admits a holder nor creates an assignment or Work.
 * `claimScope` is the exact `U.ClaimScope` over which the promise claims hold; it states the applicable operating conditions, populations, locales, and other admitted slices instead of leaving extent implicit.
 * `accessSpec` describes the access method enacted when the admitted holder system of an eligible consumer system-role assignment requests access; an access-point system remains separate.
-* `acceptanceSpec` states the acceptance criteria, identifies the evaluation method through its `U.MethodDescription`, and states evidence-admissibility conditions for supported assertions; actual evidence relations remain separate.
+* `acceptanceSpec` states the acceptance criteria and selects the exact evaluation Method. It cites a MethodDescription edition only when the acceptance claim depends on that episteme's claims. Evidence-admissibility conditions may be stated there; actual evidence-use relations remain separate.
 * `unitOfDelivery` states how accepted delivery work is counted when counting is current.
 * There is no generic `modelUseStructureRef` field. When an independently selected `BoundedModelUseStructure` changes one actually model-local receiving interpretation, the receiving assertion or use designates that structure separately; the structure neither identifies the promise content nor becomes an optional participant of `PromiseContentUse`. A genuinely structure-dependent relation species would require its own direct pattern, mandatory structure participant, stronger predicate, and occurrence-identity rule.
 * An internal delivery method remains `U.Method`. An already identified episteme is a `U.MethodDescription` only when its exact `EntityOfConcern` resolves to that Method and at least one claim says how that Method is done. A promise-content or acceptance claim may cite that episteme for one named use; Method-selection work, performed work, and `PromiseContentUse` remain separately governed.
 
-#### A.2.3:4.1.1 - Promised outcome spec (disambiguation: work vs post-work result)
+#### A.2.3:4.1.1 - OutcomeSpec - promised Work, post-work result, or both
 
-`promisedOutcomeSpecRef` points to an A.7 `OutcomeSpec` episteme that makes explicit **what is promised** in kind form and specification form without collapsing it into either:
+This section is the authoritative FPF locus for the promise-facing `OutcomeSpec` shape. A.7 supplies the strict distinction among the specification episteme, Work occurrence, affected referent, post-work state, counting rule, and evidence; it does not define another schema.
 
-* the **promise content clause** itself (`U.PromiseContent`),
-* the **delivery work** that happens at run‑time (`U.Work`), or
-* the **post-work state or affected referent** after the work.
+`promisedOutcomeSpecRef` resolves to an independently identified specification-use episteme that says **what is promised** without becoming the promise-content clause, delivery Work, affected entity, post-work state, operation-result binding, or verdict episteme. `OutcomeSpec` is a specification-use episteme form, not a separately admitted U-kind.
 
-This is a controlled **semantic precision restoration** for the everyday metonymy "outcome" or "service outcome", which different communities use to mean (i) the work performed, (ii) the achieved result, or (iii) both.
-
-**Terminology bridge (informative).**
-In loose agreement or SLA wording people say **promiseOutcomeSpec** (the description of what will be delivered) and **promiseOutcome** (what was actually delivered). Those lexical forms are metonymic: sometimes they mean “the work performed”, sometimes “the post-work result”, and sometimes the pair.
-
-In FPF:
-
-* **promiseOutcomeSpec** -> A.7 `OutcomeSpec`, referenced via `promisedOutcomeSpecRef`.
-* **promiseOutcome** -> an **extensional delivered outcome instance**. It does not have one kernel kind; it is the run-time reality that satisfies the outcome specification, interpreted according to `OutcomeSpec.mode`:
-
-  * `WorkOnly` → the **set of delivery `U.Work` episode(s)** that satisfy `workSpec` (and, if present, the promised `methodConstraintRef`).
-  * `ResultOnly` → the **post‑work state of the described referent(s)** on the declared `statePlaneRef` that satisfies `resultSpec.postConditionRef` (regardless of how it was achieved).
-  * `Composite` → the pair: **(delivery Work episode(s), post‑work state)**.
-
-  FPF identifies the extensional delivered outcome by citing the relevant `U.Work` occurrences, exact affected or delivered entities, applicable actual-change and delivery relations, and the selected Delta expression for affected referents together with their pre-work and post-work states on the declared state plane (A.15.1:4.2 item 10). Evidence epistemes derived from telemetry may enter A.10 evidence relations supporting claims about those facts and states and about later evaluation-result epistemes; neither an evidence episteme nor the `U.PresentationCarrier` that bears its publication form through `PublicationFormBearingRelation` is the delivered outcome.
-
-When bundling, invoicing, or dispute handling needs a downstream claim to identify the delivered instance, that claim's episteme separately references the delivery-work occurrences, affected entities, post-work states, evidence epistemes, and A.10 evidence-relation occurrences. Each object or relation keeps its own identity and defining or constraining rule. It does not create a local `OutcomeInstance` kind, collapse the delivered reality into `OutcomeSpec`, or let an invoice, dispute record, other record form, or `U.PresentationCarrier` become either the episteme or the delivered instance.
-
-A conforming `OutcomeSpec` uses this explicit-RefKind reading of the specification-use shape in A.7:5.10.2:
-
-```
+```text
 OutcomeSpec : U.Episteme ::= {
   mode: WorkOnly | ResultOnly | Composite,
 
   workSpec?: {
-    methodConstraintRef?: U.EpistemeRef,          // resolves to the U.MethodDescription constraining the promised work
-    workPredicateRef: U.EpistemeRef               // resolves to a predicate on selected facts about U.Work occurrences
+    methodConstraintRef?: U.MethodRef,            // resolves directly to an admitted U.Method
+    methodDescriptionRef?: U.EpistemeRef,         // only when exact claims in one A.3.2-admitted edition are used
+    workPredicateRef: U.EpistemeRef                // predicate on selected facts about delivery Work
   },
 
   resultSpec?: {
-    entityOfConcernRef?: U.EntityRef,             // affected referent whose declared FPF kind is named
-    statePlaneRef?: StatePlaneRef,                // where the predicate lives (A.7:3 pins)
-    postConditionRef: U.EpistemeRef               // resolves to the post-state predicate; evidence supports the resulting claim separately
+    entityOfConcernRef?: U.EntityRef,              // promised affected referent or its declared kind
+    statePlaneRef?: StatePlaneRef,                 // where the post-condition is interpreted, when current
+    postConditionRef: U.EpistemeRef                // predicate on the required post-work state
   }
 }
 ```
 
-* `workSpec` corresponds to the **work-as-promised** facet: it states the consumer-facing *kind* of work (optionally constraining method) and the work predicate (e.g., duration, method ban, safety limit).
-* `resultSpec` corresponds to the **result-as-promised** facet: `entityOfConcernRef` identifies the affected entity, `statePlaneRef` identifies the state plane when current, and `postConditionRef` identifies the required post-work state predicate.
-* **Counting is not part of `OutcomeSpec`.** Counting lives in `U.PromiseContent.unitOfDelivery` as the `countingRule` mini-schema (A.7:5.10.3). Outcome specifications say what counts as delivery; unit-of-delivery specifications say how much to count and how to avoid double counting.
+Mode completeness is exact:
 
-**Examples (informative):**
+* `WorkOnly` requires `workSpec` and omits `resultSpec`;
+* `ResultOnly` requires `resultSpec` and omits `workSpec`; and
+* `Composite` requires both.
 
-* “Work 5 minutes” → `mode=WorkOnly`; `workPredicateRef` states duration ≥ 5 min; `methodConstraintRef` may be omitted.
-* “Dig a hole” → `mode=ResultOnly`; `postConditionRef` describes the hole’s target state; method choice remains provider‑autonomous.
-* “Hairstyle in ≤ 20 min, must be haircut+styling (not a wig)” → `mode=Composite`; `workSpec` expresses time + method constraint; `resultSpec` expresses the target hairstyle state.
+`workSpec` constrains selected facts about delivery Work. A Method constraint resolves directly to the Method; a separate MethodDescription reference is optional and edition-specific. `resultSpec` constrains the exact affected referent selected for the delivery and its required post-work state. At fulfilment time, state any actual-change, production, delivery, acceptance, or receiving-use relation under its own predicate. An optional mathematical Delta expression remains a separate lens only when a named comparison uses it; no `U.Work.Delta` field or universal change record is required.
 
-**Naming note (normative).**
-The head noun **outcome** is intentionally broad. Do **not** replace it with **result** when referring to the combined work-and-result specification. If a passage means the affected entity, name that entity and link it to `resultSpec.entityOfConcernRef`. If it means the required post-work state, name the state predicate and link it to `resultSpec.postConditionRef`. If it means the promised work occurrences, say **work as promised** and link them to `workSpec`.
+In ordinary agreement wording, *outcome* may mean Work, achieved state, or both. Recover the intended mode instead of inventing one `OutcomeInstance` kind. A downstream bundling, invoicing, or dispute claim separately references the actual Work occurrences, affected entities, post-work states, direct relations, evidence epistemes, and evidence-use relations it needs. A record form or presentation carrier is none of those objects.
 
-#### A.2.3:4.1.2 - Recommended `acceptanceSpec` mini‑schema *(informative, non‑kernel)*
+**Examples.** `Work for at least five minutes` is WorkOnly. `A hole at least one metre deep exists at the stated site` is ResultOnly. `Cut and style the client's hair within twenty minutes, with the resulting hairstyle satisfying the evening-style condition` is Composite. In the last example, the exact Method constraint, delivery Work facts, client or hairstyle referent, post-work state, and evidence-use relations remain separate.
+
+The head noun *outcome* is intentionally broad. When the passage means Work, affected entity, or required post-work state, name that object directly. Counting is not part of OutcomeSpec; A.2.3:4.1.2 governs `unitOfDelivery`.
+
+#### A.2.3:4.1.2 - Unit-of-delivery counting
+
+Use `unitOfDelivery` only when a receiving use counts accepted delivery. It is a specification-use episteme carried in the promise content, not a Work field, delivered object, invoice row, charging relation, or new U-kind.
+
+An ordinary rule may say: `Count one accepted delivery per appointment; rework under the same appointment does not add another unit.` When replay or measurement needs a structured representation, use only the fields that rule requires:
+
+```text
+UnitOfDeliverySpec : U.Episteme ::= {
+  unitDesignator: U.NameToken,
+  countingRule: {
+    selectorRef: U.EpistemeRef,                   // selects only delivery Work for which fulfilment obtains
+    quantityRuleRef: U.EpistemeRef,               // maps selected facts to the count or measured quantity
+    aggregationRef?: U.EpistemeRef,
+    dedupeKeyRef?: U.EpistemeRef,
+    countingPolicyRef?: U.EpistemeRef,
+    measurementMethodRef?: U.MethodRef,
+    measurementMethodDescriptionRef?: U.EpistemeRef,
+    evidenceAdmissibilityRef?: U.EpistemeRef
+  }
+}
+```
+
+The selector admits only Work occurrences for which the promise's delivery and acceptance predicates are satisfied. When one Work occurrence can satisfy several promise contents or rework can repeat one delivery, `dedupeKeyRef` or the cited counting policy states the intended boundary. A measurement Method, its description, evidence-admissibility rule, evidence epistemes, and evidence-use relations appear only when the count depends on a measurement reading or relied-on evidence. Pure counting needs none of that apparatus.
+
+If `unitOfDelivery` is absent, the local default is one unit per obtaining `PromiseContentFulfilmentRelation` occurrence. A separately governed charging relation may consume the resulting quantity but does not define this counting rule.
+
+#### A.2.3:4.1.3 - Recommended `acceptanceSpec` mini-schema *(informative, non-kernel)*
 
 Projects may express `acceptanceSpec` with the following small schema when downstream evaluation work requires replayable criteria and verdict semantics:
 
@@ -176,7 +182,8 @@ Projects may express `acceptanceSpec` with the following small schema when downs
 AcceptanceSpec (recommended) ::= {
   targetOutcomeSpecRef?: U.EpistemeRef,          // resolves to OutcomeSpec; default is SC.promisedOutcomeSpecRef
   criterionRefs: [U.EpistemeRef],                // each resolves to one evaluation-criterion episteme
-  evaluationMethodDescriptionRef: U.EpistemeRef, // resolves to the U.MethodDescription for evaluation work
+  evaluationMethodRef: U.MethodRef,               // resolves directly to the evaluation Method
+  evaluationMethodDescriptionRef?: U.EpistemeRef, // only when exact claims in one A.3.2-admitted edition are used
   verdictScaleDescriptionRef: U.EpistemeRef,     // resolves to one declared scale description
   GammaTimePolicyRef?: U.EpistemeRef             // resolves to the policy selecting the evaluation window
 }
@@ -184,7 +191,7 @@ AcceptanceSpec (recommended) ::= {
 
 * **`targetOutcomeSpecRef`** makes explicit *which* promised outcome is being judged; if omitted, it is the containing promise content’s `promisedOutcomeSpecRef`.
 * **`criterionRefs`** resolve to evaluation-criterion epistemes. Their predicates are evaluated over the same selected work facts and post-work state references used for the targeted `OutcomeSpec`; direct evidence relations separately support assertions about those facts and states.
-* **`evaluationMethodDescriptionRef`** resolves to the `U.MethodDescription` for the method enacted by evaluation work. The description does not perform the evaluation.
+* **`evaluationMethodRef`** resolves directly to the evaluation Method. **`evaluationMethodDescriptionRef`**, when present, cites one A.3.2-admitted episteme edition whose claims constrain or explain that Method; the description is neither the Method nor the evaluation Work.
 * **`verdictScaleDescriptionRef`** resolves to one scale-description episteme governed by the characteristic and scale patterns. That description states the admitted verdict values and how non-delivery is represented. Informative examples include Boolean `pass/fail`, trichotomy `pass/partial/fail`, or named graded values, with non-delivery represented as `fail`, `N/A`, or `Inconclusive`; these values are examples, not defaults.
 * **`GammaTimePolicyRef`** keeps temporal selection explicit and non-retroactive (F.10 and F.12): it resolves to the policy stating whether judgement is per work occurrence, reporting window, or another named temporal selection. Population and locale remain in `U.ClaimScope`; they are not temporal-policy values.
 
@@ -209,7 +216,7 @@ This mini-schema is a recommendation only: it does not admit another U-kind. An 
 * **Run‑time:**
   The admitted holder system `S = consumerRA.HolderSystemSlot` of the named consumer `U.SystemRoleAssignment` performs request or visit `U.Work` under that assignment. When the attribution is stated explicitly, use `performedUnderAssignment(requestWork, consumerRA)`.
   The admitted holder system `S = providerRA.HolderSystemSlot` of the named provider `U.SystemRoleAssignment` performs delivery `U.Work` under that assignment. When the attribution is stated explicitly, use `performedUnderAssignment(deliveryWork, providerRA)`.
-  A system performing evaluation work enacts the evaluation method described by `acceptanceSpec`; the actual evaluation-operation application carries its exact argument bindings and evaluation-result value. When another use needs a durable verdict episteme, C.2.1 governs that episteme and A.15.PROD governs any current entity-identity-inception claim. The counting rule stated by `unitOfDelivery` maps admitted fulfilment occurrences to unit counts.
+  A System performing evaluation Work enacts the exact Method selected by `acceptanceSpec`; cite its optional MethodDescription only when the evaluation claim depends on that edition. The actual evaluation-operation application carries its exact argument bindings and result value. When another use needs a durable verdict episteme, C.2.1 governs that episteme and A.15.PROD governs any current identity-inception claim. The counting rule stated by `unitOfDelivery` maps admitted fulfilment occurrences to unit counts.
   The verdict episteme may assert whether a named service-level objective or another acceptance criterion was satisfied during the declared window. When a separately obtaining `U.Commitment` has the same `U.PromiseContent` in its referents position, the supported assertion concerns fulfilment of content that is also a referent of the obligation. Neither the operation-result binding, verdict episteme, nor commitment is a property of the promise-content episteme.
 
   In each `performedUnderAssignment(W, RA)` occurrence, `WorkOccurrenceSlot` is filled by `W` and the declaration-local `SystemRoleAssignmentSlot` by the named A.2.1 assignment occurrence `RA`; the admitted holder system `S = RA.HolderSystemSlot` is the actual performer. The assignment does not act, and no provider-assignment or consumer-assignment pseudo-kind is introduced.
@@ -246,7 +253,7 @@ flowchart LR
 * In the A.2.8 **commitment relation**, the actual duty-bearer position is filled directly and the referents position contains the promise-content clause. The exact constitutive rule and its required instituting basis must obtain before that individual relation is asserted.
 * The **provider system-role assignment** is an occurrence of a declared assignment species. The species defines the holder, assigned-kind, and any other identity-bearing participant meanings; the occurrence identifies the provider System, its assigned local kind, and any other participant values. The assertion has exact claim content, EntityOfConcern, and effective ReferenceScheme; its ClaimScope, selected slice, normative-frame edition, qualification window, or operating condition is stated separately when it changes interpretation or validity. None is a world-side assignment participant.
 * A.6.P:4.11a recovers the concrete referent or relation denoted by *service* wording. It adds no service-situation participant: provider assignment, access description, access-point system, delivery system, delivery method, promise content, and work occurrence remain distinct and keep their own kinds. Use A.10 for the evidence relations.
-* **Delivery work** is what happened. Evidence relations support claims about selected facts concerning that occurrence and any post-work state expressed by its selected effect Delta. A system performing evaluation work enacts the declared evaluation method over those facts and states; the actual evaluation operation has its own result binding, and a separately constituted evaluation-result episteme may carry the verdict assertion.
+* **Delivery Work** is what happened. Exact affected referents, pre-work and post-work states, and any actual-change, production, delivery, or acceptance relations remain separately identified. Evidence-use relations support assertions about those facts. A System performing evaluation Work enacts the selected evaluation Method; the application result and any verdict episteme remain separate.
 
 **Litmus rule (addressability).**
 If the current claim is about invocation, connection, visitation, restart, or scaling, first use A.6.P:4.11a to recover the exact process, deployed component, endpoint, application, host, cluster, desk, or other bearer. That cue establishes neither `U.System` nor a whole delivery-system boundary. Apply A.1 or A.1.SCR only when the repaired claim depends on systemhood; after recognition, call the entity a **service access point** or **service delivery system** only when that exact boundary claim is current. Otherwise keep the exact bearer and keep promise content separate.

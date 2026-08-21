@@ -6,12 +6,12 @@ section_id: "C.36:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__007_worked-slices.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:5 — Worked Slices"
-line_start: 68045
-line_end: 68103
+line_start: 65254
+line_end: 65315
 dependencies:
   - "A.1"
   - "A.10"
@@ -25,6 +25,7 @@ dependencies:
   - "A.3.2"
   - "A.3.3"
   - "A.3.4"
+  - "A.6.1"
   - "A.6.RCD"
   - "B.3"
   - "C.11"
@@ -61,7 +62,7 @@ keywords:
 
 An engineering lead has an archive of candidate cooling-module designs, a Q-front over energy use and maintainability, competitor product families, and a roadmap pressure to keep more than one line current. The first C.36 question is not "which module is best?" but whether the project is shaping a product-family culture: shared methods, work products, review criteria, memory epistemes, exact local system-role kinds and any obtaining assignments needed for Work attribution, architecture-candidate generation, selection regimes, and refresh rhythm.
 
-If the question is only archive or front treatment, use `C.18` and `C.19`. If the team is changing how the engineering organization generates, recognizes, retains, compares, and learns from module variants, write a `CulturalEvolutionCaseCard@Context` and then use `E.18.1` to carry the accepted problem-side distinction into the next governed use. When that work yields a generated or discovered carrier that carries or describes selected structure and may enter architecturing, use `C.35` for carrier admission before `C.32`; the cultural-evolution case remains governed here.
+If the question is only archive or front treatment, use `C.18` and `C.19`. If the team is changing how the engineering organization generates, recognizes, retains, compares, and learns from module variants, write a `CulturalEvolutionCaseCard@Context` and then use `E.18.1` to carry the accepted problem-side distinction into the next use. When that work yields a generated or discovered carrier that carries or describes selected structure and may enter architecturing, use `C.35` for carrier admission before `C.32`; the cultural-evolution case remains in C.36.
 
 #### C.36:5.2 - Music And Dance Style Engineering
 
@@ -71,8 +72,8 @@ A dance community uses the same label for a battle practice, a theater style, a 
 StyleTraditionTermBridgeTable@Context:
   SourceLabel: "contemporary"
   SourceContext: festival choreography lab
-  GovernedFPFValueOrSlot: method family plus work family plus canon episteme plus recognition regime
-  SubjectPatternLocator: C.36, F.17, F.18, F.9, A.3.1, C.20
+  RecoveredFPFValueOrRelation: method family plus work family plus canon episteme plus recognition regime
+  ApplicablePatternRef: C.36, F.17, F.18, F.9, A.3.1, C.20
   AdmissibleUse: compare variants inside this festival context and state what is being changed
   BlockedUse: treat the word as one root style kind across all dance contexts
   CurrentnessCondition: refresh when the festival, judging, pedagogy, or platform mediation changes
@@ -83,7 +84,7 @@ The bridge row is not enough when the project is changing the style ecology. The
 ```text
 CulturalEvolutionCaseCard@Context:
   CaseRef: festival-contemporary-2026
-  BoundedContext: festival choreography lab and its short-video circulation context
+  CaseScopeOrModelUseBoundary: festival choreography lab and its short-video circulation scope
   CollectiveHolonRefs: choreographer collective, dancers, teachers, judges, platform-mediated audience
   RoleWordRecoveryRefs: E.10.ROLE recovery for dancer, choreographer, teacher, judge, and viewer in this festival case
   DirectParticipationOrPositionRelationRefs: festival-performance, choreography-contribution, teaching, judging, and mediated-viewing relations when their domain predicates obtain; otherwise the corresponding row is missing-governor
@@ -95,20 +96,23 @@ CulturalEvolutionCaseCard@Context:
   MethodFamilyRefs: floorwork method family, improvisation method family, duet-lift method family
   CanonOrMemoryEpistemeRefs: festival archive, teaching syllabus, exemplar video set
   SelectionOrRecognitionRegimeRefs: jury recognition, peer copying, platform recommendation, class adoption
-  MediationSystemOrArchitectureRefs: short-video platform and festival publication forms
+  MediationSystemOrArchitectureRefs: short-video recommendation System
+  PublicationRefs: festival programme form and published-video form under E.24.PUB
   MeasurementOrVisibilityRelationRefs: jury scores, replay counts, class adoption counts
   VariantSetRefs: choreography variants and teaching variants from the lab archive
   CharacteristicSpaceRefs: musical timing, body vocabulary, risk, teachability, audience recognizability
   LevelOrScopeRefs: festival scene, teaching network, platform circulation scope
   StyleOrTraditionTermRows: "contemporary" bridge row above
   CurrentEvolutionaryQuestion: change recognition and teaching methods without collapsing the style label into one root kind
-  CurrentPatternLocators: C.36, C.18, C.19, G.5, F.17, F.18, F.9, A.3.1, G.11
+  ApplicablePatternRefs: C.36, C.18, C.19, G.5, F.17, F.18, F.9, A.3.1, G.11
   RefreshRefs: refresh when platform mediation, judging, canon, or teaching adoption changes
 ```
 
 The next project move may be `C.18` archive generation, `C.19` current-pool treatment, `G.5` selected-set result declaration, or an intervention card that targets recognition, pedagogy, canon, or platform mediation. If publication is current, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability. The card alone does not prove that the targeted change occurred.
 
-If this case also claims a new level, new holon, context reframe, feedback-down relation, whole reidentification, cross-scope frustration residual, or interlevel ethical conflict, keep the C.36 case card as cultural-evolution context and apply the subject pattern for that claim. For example, use `B.2` or `B.2.P` for MHT and whole-reidentification wording, `A.1` or the direct system or holon pattern for holon-kind and boundary claims, `B.2.5` for supervisor-subholon feedback when that relation is current, `C.30.ILC` and `C.29` for cross-scope architecture residual or mathematical-lens use, and `D.2`, `D.3`, or `D.4` when value, harm, responsibility, or admissible sacrifice across levels is current.
+If the case also claims a new level, new holon, model-use or scope reframe, feedback-down relation, whole reidentification, cross-scope frustration residual, or interlevel ethical conflict, keep the C.36 result and test the additional claim separately.
+
+For example, use B.2 or B.2.P for MHT and whole reidentification; A.1 or the applicable System or holon pattern for kind and boundary claims; B.2.5 for an obtaining supervisor-subholon feedback relation; C.30.ILC and C.29 for cross-scope architecture residual or mathematical-lens use; and D.2, D.3, or D.4 for value, harm, responsibility, or admissible sacrifice across levels.
 
 #### C.36:5.3 - AI-Agent Framework Culture
 

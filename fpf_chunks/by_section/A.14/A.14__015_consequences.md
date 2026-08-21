@@ -6,12 +6,12 @@ section_id: "A.14:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__015_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:12 — Consequences"
-line_start: 23865
-line_end: 23879
+line_start: 23299
+line_end: 23313
 dependencies:
   - "A.1"
   - "A.15"
@@ -40,8 +40,8 @@ keywords:
 
 **Benefits**
 
-* **Predictable composition.** Σ‑additivity for portions and identity‑through‑time for phases make Γ‑proofs straightforward.
-* **History without confusion.** Temporal slicing is explicit and audit‑ready; no paradoxical overlaps.
+* **Predictable composition.** Σ‑additivity for portions, same-carrier temporal parthood, and explicit partition rules make Γ‑proofs inspectable.
+* **History without confusion.** Temporal slicing is explicit; nested and overlapping windows remain legal, while non-overlap and coverage are claimed only for a selected partition.
 * **Cleaner integration with roles and recipes.** The firewall prevents “functional object” creep into structure.
 * **Compatibility with engineering practice.** Mirrors *product breakdown* (components) vs *functional breakdown* (roles) vs *material stocks* (portions) vs proper temporal restrictions of one enduring carrier (phases), while leaving episteme editions and Work segmentation to their subject patterns.
 

@@ -6,12 +6,12 @@ section_id: "E.18:6.1"
 section_title: "Bias-Annotation (per E.8 SG-bias slot)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__008_bias-annotation-per-e-8-sg-bias-slot.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:6.1 — Bias-Annotation (per E.8 SG-bias slot)"
-line_start: 84077
-line_end: 84086
+line_start: 81387
+line_end: 81396
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -45,5 +45,5 @@ keywords:
 * **Over-formalization risk.** Category-theoretic formalisms can obscure operational guard-rails; ordinary E.18 states each crossing in readable prose, while replay-facing use keeps exact positions, per-binding accounts, one separate A.21 gate decision, and `CrossingRef` (CC-E18-11, -23).
 * **Retrospective rewrite risk.** Global rewrites break replay; E.18 confines them to edition bumps and slice-local refresh (CC-E18-16).
 
-**Mitigations.** Profile-gated publication, audit of `DecisionLog`, mandatory edition pins, Lean-to-Core upgrade conditions, and conformance tests tied to PathSlice replay.
+**Mitigations.** Select checks from the current use before applying a profile. Require edition pins when a current comparison or publication depends on them, inspect the `GateDecisionResult` for a current decision and an optional `DecisionLog` only when audit, history, replay, or reuse depends on it, and keep refresh tests within the affected `PathSlice`.
 

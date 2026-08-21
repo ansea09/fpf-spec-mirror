@@ -6,12 +6,12 @@ section_id: "C.3.2:13"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__015_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:13 — Conformance Checklist"
-line_start: 45022
-line_end: 45038
+line_start: 43824
+line_end: 43840
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -31,16 +31,16 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-C32-1` | Local kind, `KindSignature` episteme, exact four-input judgment, and optional extension representation are separately recoverable. |
-| `CC-C32-2` | The signature's exact EntityOfConcern is the local kind, and its content names candidate domain, criterion, slice conditions, reference scheme, assumptions, dependencies, formality, and any current extent rule. |
-| `CC-C32-3` | Formality characterizes the declaration episteme only. |
-| `CC-C32-4` | Direct governed candidate features make the criterion hold or fail; evidence supports an assertion and does not create membership. |
-| `CC-C32-5` | Missing evidence, unavailable dependency, or out-of-domain input yields `unknown`, distinct from known `false`. |
-| `CC-C32-6` | No A.14 `MemberOf`, `U.EntitySet`, collection holon, or direct classification occurrence is inferred from the judgment or extension. |
-| `CC-C32-7` | Any separate classification assertion is a C.2.1 episteme and creates neither candidate nor kind; a value classification need not fabricate a value-shaped EntityOfConcern. |
-| `CC-C32-8` | Subkind monotonicity is tested over defined judgments for the same candidate and slice; counterexamples repair links, editions, or bridges rather than extension rows. |
-| `CC-C32-9` | Bounded-context crossing, signature-edition change within one context, C.3.1 kind continuity, candidate-state change, slice change, and extension change remain distinct. |
-| `CC-C32-10` | The kind carries no scope; the context slice is an evaluation input, and declaration/assertion scopes stay on their own epistemes. |
-| `CC-C32-11` | The five required cases and the `U.Work`/W/episteme distinction all close under the same four-object architecture. |
-| `CC-C32-12` | Ordinary use stays readable, and reusable declarations or extensions have named receiving uses. |
+| `CC-C32-1` | Kind, `KindSignature`, pre-judgment admissibility, admissible three-valued judgment, and optional extension remain separately recoverable. |
+| `CC-C32-2` | The signature's EntityOfConcern is the kind, and its content names candidate ValueKind/domain, criterion, applicability, scheme, assumptions, dependencies, formality, and any extent rule. |
+| `CC-C32-3` | Candidate mismatch or slice outside applicability yields `not-applicable` and no judgment; only admissible requests return `true`, `false`, or `unknown`. |
+| `CC-C32-4` | The directly governed condition named by the criterion decides satisfaction. Evidentiary use alone does not constitute an independently governed condition; an episteme, relation, status, or publication occurrence may be the condition when its direct pattern says so. |
+| `CC-C32-5` | Missing support or unavailable dependency for an admissible request yields `unknown`, distinct from known `false`. |
+| `CC-C32-6` | No A.14 `MemberOf`, `U.EntitySet`, collection holon, or direct classification occurrence is inferred from judgment or extension. |
+| `CC-C32-7` | A separate classification assertion is a C.2.1 episteme and creates neither candidate nor kind. |
+| `CC-C32-8` | Subkind checks compare admissible judgments and use C.3.1's criterion-entailment or exhaustive closed-domain branch; samples only support an assertion. |
+| `CC-C32-9` | Locality change triggers kind-definition comparison. Only independently identified distinct kinds with an obtaining correspondence use C.3.3; receiving judgments remain fresh. |
+| `CC-C32-10` | The kind carries no scope; the slice is an evaluation input and declaration/assertion scopes stay on their epistemes. |
+| `CC-C32-11` | Physical, episteme/publication, value, schema, unavailable-support, not-applicable, registration-status, and Work cases respect the same architecture. |
+| `CC-C32-12` | Ordinary use stays readable, and declarations or extensions appear only for named receiving uses. |
 

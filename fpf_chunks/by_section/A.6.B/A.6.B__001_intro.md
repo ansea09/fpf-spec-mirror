@@ -6,12 +6,12 @@ section_id: "A.6.B:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:intro — Intro"
-line_start: 10519
-line_end: 10527
+line_start: 10554
+line_end: 10562
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -40,7 +40,7 @@ keywords:
   - "(MUST"
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
-  - "Keeps claim text"
+  - "Keeps normative content"
   - "MAY"
   - "MUST"
   - "MUST NOT"
@@ -51,6 +51,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
+  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
@@ -65,7 +66,7 @@ keywords:
   - "entry predicates"
   - "evaluated findings"
   - "evaluation"
-  - "institutional obtaining"
+  - "individual institution"
   - "laws"
   - "may"
   - "not a duty.)"
@@ -77,7 +78,6 @@ keywords:
   - "or observation that settles it and any evidence used for reliance"
   - "responsibility"
   - "they report adjudicable results rather than obligations"
-  - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"

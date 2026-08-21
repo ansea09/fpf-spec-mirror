@@ -6,12 +6,12 @@ section_id: "B.2.4:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__008_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:5.1 — Bias-Annotation"
-line_start: 38131
-line_end: 38140
+line_start: 37302
+line_end: 37311
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,9 +39,9 @@ keywords:
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
-| Capability as emergence | A new capability label or supporting report declares a new whole. | Recover the exact capability facts and direct owner, separate their evidence, and apply B.2's existing-whole check. |
+| Capability as emergence | A new capability label or supporting report declares a new whole. | Recover the exact capability facts and direct pattern, separate their evidence, and perform B.2's ordinary existing-whole comparison. |
 | Function as part | A function block or functioning relation becomes physical or organizational parthood. | Separate functioning relation, bearer allocation, selected structure, and part-whole claims. |
-| Method chain as whole | A sequence of methods or work stages is called a new holon. | Keep method, method description, work plan, and work occurrence with direct owners. |
-| Diagram as flow structure | A diagram or graph is treated as the in-life transformation-flow structure. | Use mathematical, description, publication, and selected-structure owners before B.2. |
+| Method chain as whole | A sequence of methods or work stages is called a new holon. | Keep method, method description, work plan, and work occurrence with subject patterns. |
+| Diagram as flow structure | A diagram or graph is treated as the in-life transformation-flow structure. | Use the mathematical, description, publication, and selected-structure patterns before B.2. |
 | Metric jump as MHT | A benchmark, KPI, robustness, or threshold gain declares whole reidentification. | Use C.16, A.19, A.10, and B.2 existing-whole explanation before MHT. |
 

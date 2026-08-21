@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "C.19.1"
 pattern_title: "Bitter‑Lesson Preference (BLP)"
 section_id: "C.19.1:6"
-section_title: "Payload — exports"
+section_title: "Payload - exports"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__008_payload-exports.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
-  - "C.19.1:6 — Payload — exports"
-line_start: 49779
-line_end: 49786
+  - "C.19.1:6 — Payload - exports"
+line_start: 48576
+line_end: 48583
 dependencies:
   - "A.0"
   - "A.10"
@@ -43,11 +43,11 @@ keywords:
   - "slope vector"
 ---
 
-### C.19.1:6 - Payload — exports
+### C.19.1:6 - Payload - exports
 
-`BLP.Policy@Context` (UTS row; editioned):
-`<PreferenceDefault, alpha and delta tolerances plus CI, Scale-Audit recipe (G.9 link; DoE), WaiverRegister{reason, reviewSystemRef, waiverReviewResponsibilityRelationRef or responsibilityMissingGovernor, expiry}, E-LOG lens policy-ids, ATC.PolicyRef? (agentic), G.11.TelemetryPins>`.
+`BLP.Policy@Context` is an editioned local policy row, not a universal kind. It records:
 
-**UTS row template (conceptual; pencil‑ready).**
-`BLP.Policy@Context := PreferenceDefault=(prefer-general or neutral), tolerances=(alpha=..., delta=..., CI=...), Scale-Audit=(parity=G.9; sweep=S={...}; DoE=factorial or LHD; kneeTest=policy-tau), WaiverRegister=[{reason=..., reviewSystemRef=..., waiverReviewResponsibilityRelationRef=... or responsibilityMissingGovernor=..., expiry=...}], E-LOG=(policyIds=...), ATC.PolicyRef=(...), TelemetryPins=(edition=..., seeds=..., comparatorSet=...)`.
+`<scopeBranch={empirical-computational | declared-local-analogy}, PreferenceDefault={neutral | declared-prefer-general}, alpha?, delta?, scaleProbeResult?, proportionateComparisonMethod?, fullScaleAuditRef?, WaiverRegister?, E-LOG policyIds?, G.11 telemetryPins?>`.
+
+The row omits fields that are not current. `PreferenceDefault=declared-prefer-general` identifies a local tie-break policy, not an empirical conclusion. A full audit reference appears only after the risk-selected audit exists.
 

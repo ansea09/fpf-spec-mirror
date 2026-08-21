@@ -6,31 +6,36 @@ section_id: "C.21:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__013_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:11 — Consequences"
-line_start: 50543
-line_end: 50548
+line_start: 49344
+line_end: 49351
 dependencies:
+  - "A.10"
   - "A.17"
+  - "A.17-A.18"
   - "A.18"
+  - "A.19"
   - "A.2.6"
   - "B.3"
   - "C.16"
   - "C.2"
+  - "C.2.1"
   - "C.20"
-  - "E.10"
-  - "F.17"
+  - "C.I"
+  - "E.24.PUB"
   - "F.9"
   - "G.0"
   - "G.10"
   - "G.11"
   - "G.12"
   - "G.2"
+  - "G.4"
   - "G.5"
+  - "G.6"
   - "G.9"
-  - "U.Discipline"
 keywords:
   - "alignment"
   - "discipline"
@@ -42,7 +47,9 @@ keywords:
 
 ### C.21:11 - Consequences
 
-**Benefits.** Scale-admissible comparisons; freshness-aware governance; explicit cross-tradition alignment; dashboard views that do not lie by averaging ranks.
-**Costs.** Some ceremony (scales, windows, lanes, bridges), offset by template macros and UTS automation.
-**Risks avoided.** “Phlogiston disciplines” (charisma-driven fields) surface as unhealthy in DHC readings; **No-Free-Lunch** preserved by G.5 (selector returns sets, not universal scalars).
+**Benefits.** Field-health claims remain readable, scale-admissible, comparable when justified, and reusable without turning a dashboard or standard into authority.
+
+**Costs.** A numerical or reused claim must expose its definition and comparison basis. A cross-local comparison must additionally expose the exact relation and loss.
+
+**Risks avoided.** False maturity ladders, hidden polarity reversal, scope substitution, Bridge inflation, stale trends, publication-as-result, and assurance-by-record are blocked.
 

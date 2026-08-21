@@ -6,12 +6,12 @@ section_id: "A.19:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__012_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:8 — Consequences"
-line_start: 28718
-line_end: 28726
+line_start: 28220
+line_end: 28228
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,11 +20,14 @@ dependencies:
   - "A.19.CHR"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.19.UNM"
   - "A.2.6"
   - "A.6.5"
+  - "B.1"
   - "C.16"
   - "C.2.1"
   - "E.24"
+  - "F.17"
   - "F.9"
   - "G.11"
   - "G.4"
@@ -47,8 +50,8 @@ keywords:
 
 | Consequence | Benefit | Cost or boundary |
 | --- | --- | --- |
-| Coordinate claims become inspectable | A reader can recover slot, characteristic, scale, value set, missingness, window, and normalization references. | Declaring the space takes more work than naming a feature vector or dashboard column. |
-| Predicate meaning remains reusable | A criterion survives description, evaluation, scope, and window changes when its semantic components are unchanged. | Authors must name coordinates, scales, operator, cut or band, polarity, and normalization or Bridge basis. |
+| Coordinate and observation claims become inspectable | A reader can recover the subject/input tuple, slot, Characteristic, Scale, value set, actual Coordinate, partial-input status, window, and mapping references. | Declaring the space and its use takes more work than naming a feature vector or dashboard column. |
+| Predicate meaning remains reusable | A criterion survives description, evaluation, scope, and window changes when its semantic components are unchanged. | Authors must name coordinates, scales, operator, cut or band, polarity, and normalization or coordinate-mapping basis. Any semantic Bridge and plane relation are cited separately by the consumer; the bounded-use claim and reliance remain separate from both. |
 | Consumer patterns stay bounded | Gates, evaluations, comparisons, selectors, assurance claims, and dashboards use declared spaces and predicates without redefining them. | Each consumer must still declare its own scope, slice, plane, window, result, and evidence use. |
 | Dynamics has a typed state space | A dynamics model can say which space its state belongs to without letting A.19 define the dynamic law or time base. | Dynamic laws, evidence, and work consequences must still be governed elsewhere. |
 

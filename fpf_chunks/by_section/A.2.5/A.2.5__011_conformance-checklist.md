@@ -6,12 +6,12 @@ section_id: "A.2.5:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__011_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:8 — Conformance Checklist"
-line_start: 4863
-line_end: 4879
+line_start: 4875
+line_end: 4891
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -37,7 +37,7 @@ keywords:
 | Check | Question |
 |---|---|
 | `CC-A2.5-01` | Is the current object one `SystemRoleAssignmentStateRelation : U.Relation`, rather than a system-role kind, assignment, capability, assertion episteme, evidence relation, diagram, gate outcome, or Work occurrence? |
-| `CC-A2.5-02` | Does `SystemRoleAssignmentSlot` resolve to the assignment occurrence being evaluated and its declared `U.SystemRoleAssignment` species, with the holder and extent established under A.2.1? |
+| `CC-A2.5-02` | Does `SystemRoleAssignmentSlot` use a `U.RelationRef` constrained to `U.SystemRoleAssignment` and resolve to the exact assignment occurrence being evaluated, with its declared species, holder, and extent established under A.2.1? |
 | `CC-A2.5-03` | Is `StatePredicateSlot` present by value with exact system-role-kind domain, normalized truth clauses, temporal reading, applicability, and only meaning-bearing semantic-basis refs? |
 | `CC-A2.5-04` | Is actual state extent derived from uninterrupted predicate truth while the assignment obtains, with any target evaluation window kept separate? |
 | `CC-A2.5-05` | When occurrence identity is needed, does it use the fixed assignment, fixed predicate value, and maximal continuous truth interval rather than a representation key? |

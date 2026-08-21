@@ -6,12 +6,12 @@ section_id: "A.6.B:0"
 section_title: "Conventions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__002_conventions.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:0 — Conventions"
-line_start: 10528
-line_end: 10558
+line_start: 10563
+line_end: 10593
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -40,7 +40,7 @@ keywords:
   - "(MUST"
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
-  - "Keeps claim text"
+  - "Keeps normative content"
   - "MAY"
   - "MUST"
   - "MUST NOT"
@@ -51,6 +51,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
+  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
@@ -65,7 +66,7 @@ keywords:
   - "entry predicates"
   - "evaluated findings"
   - "evaluation"
-  - "institutional obtaining"
+  - "individual institution"
   - "laws"
   - "may"
   - "not a duty.)"
@@ -77,7 +78,6 @@ keywords:
   - "or observation that settles it and any evidence used for reliance"
   - "responsibility"
   - "they report adjudicable results rather than obligations"
-  - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
@@ -103,15 +103,15 @@ These labels are **claim-classification labels for statements**, not MVPK face k
 
 **Atomic claim.** An **atomic claim** is a sentence (or bullet) that performs exactly one logical role and is classifiable under exactly one quadrant. If a sentence mixes roles, it is **not atomic** and **MUST** be split before it can be classified.
 
-**Adjudication substrate (for classification).** For the purposes of this square, an atomic claim is classified by where its own truth condition or governance content is settled. This tells you how to classify the sentence; it does not make a commitment, grant, or finding exist.
+**Adjudication substrate (for classification).** For the purposes of this square, an atomic claim is classified by where its own truth condition or governance content is settled. This tells you how to classify the sentence; it does not make an individual commitment, grant, or finding exist.
 
-* **In-description or in-theory**: an `L-*` truth condition is settled by inspecting, proving, or type-validating the description; for a `D-*` claim, the description fixes the normative content and names the duty, commitment, or grant that the claim concerns.
+* **In-description or in-theory**: an `L-*` truth condition is settled by inspecting, proving, or type-validating the description; a generic `D-*` claim states exact normative content, while an individual `D-*` claim names the commitment or grant it concerns.
 * **In-work or in-execution**: deciding satisfaction requires observing executed work, inspecting carriers produced in work, or both.
 
-**Note (important).** Writing a `D-*` claim records what the boundary says; it does not make the named duty, commitment, or grant exist or establish compliance. When the wording is about permission, use the permission-word branch in §8.4.1 to recover the exact object, what makes it obtain, and the evidence needed before reliance.
+**Note (important).** Writing a `D-*` claim records either generic normative content or a claim about an individual duty, commitment, or grant; it does not institute an individual relation or establish compliance. When the wording is about permission, use the permission-word branch in §8.4.1 to recover the exact object, what makes it obtain, and the evidence needed before reliance.
 
 **Modality family.** A claim is either:
 
 * **Truth‑conditional**: definitions, invariants, typing rules (“is”, “iff”, “∀”).
-* **Governance**: governance conditions, obligations, commitments, and exclusions (the RFC keywords `MUST`, `SHOULD`, and `MAY`, “is admissible”, “is blocked”, “commits to”).
+* **Governance**: prescriptions, individual obligations or commitments, grants, and exclusions (the RFC keywords `MUST`, `SHOULD`, and `MAY`, “is admissible”, “is blocked”, “commits to”).
 

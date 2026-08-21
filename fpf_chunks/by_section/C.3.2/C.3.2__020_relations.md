@@ -6,12 +6,12 @@ section_id: "C.3.2:18"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__020_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:18 — Relations"
-line_start: 45068
-line_end: 45073
+line_start: 43871
+line_end: 43876
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -30,6 +30,6 @@ keywords:
 ### C.3.2:18 - Relations
 
 - **Builds on:** `C.3`, `C.3.1`, A.6.0 declaration identity, C.2.1 episteme identity, A.2.6 context slices and claim scope, and direct patterns for candidate identity and features.
-- **Coordinates with:** `C.3.3` cross-context bridges, `C.3.4` local adaptations, `C.29` mathematical representations, C.2.3 formality, F-G-R evidence and assurance, A.14 collection membership, and `E.24.UK` durable U-kind admission.
+- **Coordinates with:** `C.3.3` correspondence between independently identified distinct kinds, `C.3.4` local adaptations, `C.29` mathematical representations, C.2.3 formality, F-G-R evidence and assurance, A.14 collection membership, and `E.24.UK` durable U-kind admission.
 - **Does not replace:** the direct subject pattern, evidence-use relation, collection membership, claim-scope governor, guard decision, public-kind admission, or a separately justified durable classification-relation pattern.
 

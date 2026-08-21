@@ -6,13 +6,14 @@ section_id: "C.25:17"
 section_title: "Repair and Boundary Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__018_repair-and-boundary-notes.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:17 — Repair and Boundary Notes"
-line_start: 52987
-line_end: 53025
+line_start: 51764
+line_end: 51802
 dependencies:
+  - "A.10"
   - "A.15"
   - "A.16.0"
   - "A.18"
@@ -56,13 +57,13 @@ Bare phrases such as *quality requirement*, *security requirement*, or *availabi
 
 `C.16.Q` may still be the entry repair for overloaded quality wording, and `C.16.P` may repair characteristic, scale, score, metric, or proxy wording inside the same statement; `C.25` is the resting place only after the engineering quality family has been made explicit.
 
-#### C.25:17.2 - Boundary to assurance penalties
+#### C.25:17.2 - Boundary to cross-context use and reliance
 
-Cross-context transport, bridge loss, or plane mismatch do not change whether the endpoint is one characteristic or one bundle. Those effects apply to `R` and its penalties. `C.25` therefore should not be used to hide assurance degradation inside the quality-family ontology.
+Cross-context comparison does not change whether the endpoint is one characteristic or one bundle and does not modify any bundle slot. Align the exact bundle heads or slots, resolve their exact `F.17` local senses, and test the direct `F.9` predicate. If a Bridge obtains, state the proposed direction, correspondence rule, tolerated loss, and polarity in a separate bounded-use claim. Observed loss remains evidence; permitted loss remains that claim's tolerance. Use `A.10` for ordinary bounded reliance and open `B.3` only when an actual named assurance claim is current.
 
 #### C.25:17.3 - Boundary to publication convenience
 
-A report, summary publication, or executive summary may expose only one slice of a Q-Bundle, but the underlying authoring structure remains the bundle. Publication convenience is not a reason to collapse the ontology at the source.
+A report, summary publication, or executive summary may express only one slice of the selected quality-claim episteme. Keep the selected episteme and any exact `ClaimAddress` distinct from its publication occurrence, form, and carrier under `E.24.PUB`. A coarser form does not collapse the source claim content, while changed Q-Bundle claim content identifies another episteme even when the file or layout stays the same.
 
 #### C.25:17.4 - Serviceability and supportability
 

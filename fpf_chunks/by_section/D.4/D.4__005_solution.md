@@ -6,12 +6,12 @@ section_id: "D.4:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:2 — Solution"
-line_start: 68801
-line_end: 68856
+line_start: 66100
+line_end: 66155
 dependencies:
   - "A.10"
   - "A.20"
@@ -30,11 +30,11 @@ keywords:
 
 ### D.4:2 - Solution
 
-Record an `EthicalMediationDecisionUse@Context`:
+Record an `EthicalMediationDecisionUse`:
 
 ```text
-EthicalMediationDecisionUse@Context:
-  conflictStructureRef
+EthicalMediationDecisionUse:
+  conflictDescriptionRef: exact C.2.1 U.Episteme identified through D.3
   affectedEntityOfConcernRef
   affectedSystemRefs?
   valueFrameEditionRefs
@@ -54,7 +54,7 @@ EthicalMediationDecisionUse@Context:
   decisionRecordRefs?
   decisionOrRepairSystemRefs?: independently admitted U.System refs
   localSystemRoleKindRefs?: exact local U.Kind refs
-  systemRoleClassificationJudgmentRefs?: exact direct classification refs
+  systemRoleClassificationAssertionRefs?: FinSet(U.EpistemeRef)
   intendedWorkPlanOrCommitmentRefs?: prospective plan or commitment content
   intendedAssignmentRequirementRefs?: prospective requirement content; creates no assignment occurrence
   performedWorkRows?:

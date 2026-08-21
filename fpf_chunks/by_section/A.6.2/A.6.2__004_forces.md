@@ -1,32 +1,31 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.2"
-pattern_title: "U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
+pattern_title: "Effect-free episteme morphing"
 section_id: "A.6.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__004_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
+  - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:3 — Forces"
-line_start: 12974
-line_end: 12990
+line_start: 13008
+line_end: 13024
 dependencies:
-  - "A.1"
   - "A.6.0"
   - "A.6.1"
   - "A.6.3"
   - "A.6.4"
   - "A.6.5"
   - "C.2.1"
+  - "C.29"
   - "C.3"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
   - "E.18"
-  - "U.EpistemicRetargeting"
-  - "U.EpistemicViewing"
+  - "F.9"
   - "U.Mechanism"
   - "U.Signature"
 keywords:
@@ -35,17 +34,17 @@ keywords:
 ### A.6.2:3 - Forces
 
 * **Epistemic purity vs operational power.**
-  Effect-free episteme transforms are attractive precisely because they can be reasoned about algebraically and composed freely. But the more operational power they are given (IO, solver calls, measurements), the less they remain “pure” and the more they belong under `U.Mechanism` or performed `U.Work` as defined in A.15.
+  Effect-free episteme arrows are useful because their laws can be reasoned about algebraically and composed. If a use needs I/O, solver calls, measurements, or another effect, identify the operation application and Work separately instead of giving that activity to the arrow.
 
 * **Preserve vs retarget.**
-  Viewing is entityOfConcern‑preserving; reinterpretation along a KindBridge is entityOfConcern-retargeting. Both are important, but **they must be distinguished and witnessed differently**.
+  A viewing arrow has endpoint epistemes with the same EntityOfConcern; a retargeting arrow has independently different ones. A separate A.6.4 use assertion states the invariant, visible loss, receiving use, conditions, support, and polarity.
 
 * **Conservativity vs usefulness.**
-  EFEM should be **conservative**: no new commitments about the EntityOfConcern beyond what input epistemes already entail. At the same time, transformations may *factor*, *aggregate*, or *normalise* content, which may drop information or change representation when the loss and interpretation rule are explicit.
+  EFEM should be **conservative**: no new commitments about the EntityOfConcern beyond what input epistemes already entail. The receiving ClaimGraph may factor, aggregate, normalize, or re-express source content and may use a different representation when the loss and interpretation rule are explicit. Any operation or Work that produces that receiving episteme remains separate.
 
 * **Locality vs reference planes and Bridges.**
-  Epistemes live on **reference planes** (C.2.1). When a use relates distinct source-local senses or crosses a reference plane, apply the exact F.9 Bridge or plane relation and its reliance consequences. EFEM cannot hide either change inside a “pure” content rewrite.
+  Epistemes are interpreted on **reference planes** (C.2.1). When a use relates two exact source-local senses, test the direct F.9 predicate and cite a Bridge only when it obtains; state the bounded-use claim and any reliance separately. When a use crosses a ReferencePlane, cite its applicable plane relation. EFEM cannot hide either relation inside a “pure” content rewrite, and a local-sense or plane difference alone creates neither one.
 
 * **EntityOfConcern and Description-episteme boundary and specification-use refinement.**
-  The EntityOfConcern is not identical to the Description episteme produced by this use; it may itself be `U.Episteme` when an episteme is under concern. `...Description` names a Description episteme, and `...Spec` names a Description episteme admitted for specification use only when its claims are checkable and the named harness or validation relation can test them. When a describing use selects a viewpoint, name that use and exact viewpoint separately; selection is neither an episteme constituent nor conformance. EFEM states whether claim content, EntityOfConcern, grounding, effective scheme when material, and any selected use-level viewpoint are preserved or changed, while keeping EntityOfConcern, Description episteme, specification use, publication form, publication unit, carrier, and rendering distinct (A.7, E.10.D2).
+  The EntityOfConcern is not identical to the Description episteme produced by this use; it may itself be `U.Episteme` when an episteme is under concern. `...Description` names a Description episteme, and `...Spec` names one admitted for specification use only when its claims are checkable and the named harness or validation relation can test them. EFEM compares what the two epistemes say, what they concern, and their effective schemes; it states what remains the same and what differs. When grounding or a describing-use viewpoint matters, name the exact relation occurrence or use qualification on each side and compare its facts. The arrow neither changes that occurrence nor establishes viewpoint selection or conformance (A.7, E.10.D2).
 

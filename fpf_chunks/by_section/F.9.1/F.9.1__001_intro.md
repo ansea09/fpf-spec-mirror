@@ -6,12 +6,12 @@ section_id: "F.9.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.9.1 — Bridge Stance Note"
   - "F.9.1:intro — Intro"
-line_start: 93488
-line_end: 93509
+line_start: 90879
+line_end: 90900
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -48,7 +48,7 @@ keywords:
 
 **Start here when.** You already have the Bridge and its bounded-use claim, but a reader may still overread a phrase such as “operationalizes”, “projection”, or “roughly analogous”.
 
-**First useful move.** Point to the exact bounded-use claim and write one ordinary sentence: “For this named use, read the relation as ___; do not infer ___.” Choose a stance word only if it makes that sentence shorter and clearer.
+**First useful move.** Point to the exact bounded-use claim and write one ordinary sentence: “For this named use, read the relation as `___`; do not infer `___`.” Choose a stance word only if it makes that sentence shorter and clearer.
 
 **What goes wrong if missed.** A friendly gloss starts acting like proof of equivalence, permission to substitute, or evidence that a use happened. The opposite failure also occurs: authors build a second bridge taxonomy merely to explain how one already warranted use should be read.
 

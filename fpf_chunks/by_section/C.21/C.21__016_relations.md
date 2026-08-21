@@ -6,31 +6,36 @@ section_id: "C.21:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__016_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:13 — Relations"
-line_start: 50565
-line_end: 50569
+line_start: 49366
+line_end: 49371
 dependencies:
+  - "A.10"
   - "A.17"
+  - "A.17-A.18"
   - "A.18"
+  - "A.19"
   - "A.2.6"
   - "B.3"
   - "C.16"
   - "C.2"
+  - "C.2.1"
   - "C.20"
-  - "E.10"
-  - "F.17"
+  - "C.I"
+  - "E.24.PUB"
   - "F.9"
   - "G.0"
   - "G.10"
   - "G.11"
   - "G.12"
   - "G.2"
+  - "G.4"
   - "G.5"
+  - "G.6"
   - "G.9"
-  - "U.Discipline"
 keywords:
   - "alignment"
   - "discipline"
@@ -42,6 +47,7 @@ keywords:
 
 ### C.21:13 - Relations
 
-* **Builds on:** **A.17–A.18** (Characteristic/CSLC), **A.2.6** (USM scopes), **B.3** (assurance lanes), **C.16** (MM-CHR templates).
-* **Coordinates with:** **C.20** (what a `U.Discipline` *is*), **G.2** (SoTA palettes and relation matrices), **G.12** (dashboard publication), and **G.9** (parity harness for fair comparisons). **Constrains:** **G.10** (pack ships DHC rows plus method ids), **G.11** (refresh windows and decay), and **G.5** (selector may reference DHC only via admissible predicates; no cross-ordinal scalarisation). **Coordinates with F.9** only when a comparison actually consumes a relation between distinct F.17 cells.
+* **Builds on:** C.20 for the discipline, A.17-A.18 for Characteristic and Scale, C.16 for measurement and direct comparability, A.2.6 for ClaimScope and optional selected slices, and C.2.1 for result and series epistemes.
+* **Coordinates with:** F.9 for actual cross-local sense relations; G.0 and A.19 for numerical operation, comparison, or aggregation; G.4 for target bands and acceptance; G.9 for parity; G.11 for currentness and refresh; G.12 for dashboard representations; A.10/G.6 and B.3 only for named evidence-reliance or assurance uses; E.24.PUB for publication availability.
+* **Constrains:** G.5 and G.10 when they consume a DHC coordinate: they carry the same active DHC replay basis rather than a generic method-spec or metric-edition pin.
 

@@ -1,24 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.S"
-pattern_title: "U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
+pattern_title: "TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
 section_id: "A.6.S:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__005_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
+  - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:3 — Forces"
-line_start: 20663
-line_end: 20673
+line_start: 20324
+line_end: 20334
 dependencies:
-  - "A.12"
-  - "A.3"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.2"
+  - "A.2.1"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6"
   - "A.6.0"
-  - "A.6.2"
-  - "A.6.3"
-  - "A.6.4"
+  - "A.6.2-A.6.6"
   - "A.6.5"
   - "A.6.6"
   - "A.6.B"
@@ -26,29 +30,19 @@ dependencies:
   - "C.2.1"
   - "E.10"
   - "E.17"
+  - "E.17.0"
   - "E.18"
-  - "E.19"
+  - "F.6"
 keywords:
-  - "ConstructorSignature"
-  - "EFEM"
-  - "MVPK views (no new semantics)"
-  - "TargetSignature"
   - "appear"
-  - "claim register"
-  - "editioning"
-  - "no epistemic agency"
   - "quadrant classification is governed by A.6.B)"
-  - "retargeting"
-  - "signature engineering"
-  - "slot/base change lexicon"
-  - "two-signature arrangement"
 ---
 
 ### A.6.S:3 - Forces
 
 * **Stability vs evolution.** TargetSignatures must be stable enough to coordinate, yet change as understanding improves.
 * **Explicitness vs overhead.** Unpacking slots/bases/views increases clarity but also increases authoring effort.
-* **Effect‑free operators vs enacted work.** The construction-and-change language should be expressible as effect-free epistemic morphisms (no measurement or actuation), yet applying constructor operations to signature epistemes is still `U.Work` performed by an admitted System and must be auditable. F.6 identifies the assignment under which each performer acted; a short account may omit an unused assignment identifier.
+* **Arrow law vs enacted work.** An A.6.2 arrow may state the effect-free relation between source and successor signature epistemes. Applying a described constructor operation, creating the successor, and writing a carrier are separately identified operation application and Work performed by an admitted System. F.6 identifies the assignment when a later claim uses it.
 
 * **Multi‑view richness vs semantic coherence.** Views help stakeholders, but they risk becoming divergent “versions of truth”.
 * **Local meaning vs cross-local reuse.** Signature claim content pins its effective ReferenceScheme where interpretation matters. The local kind and any source-local meaning remain separate values; an actual relation between distinct F.17 cells uses F.9 with its declared limits.

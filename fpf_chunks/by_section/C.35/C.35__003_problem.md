@@ -6,12 +6,12 @@ section_id: "C.35:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__003_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:2 — Problem"
-line_start: 67697
-line_end: 67704
+line_start: 64900
+line_end: 64907
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -59,9 +59,9 @@ keywords:
 
 ### C.35:2 - Problem
 
-Modern architecture work receives outputs that carry or describe selected structure from many production and discovery practices: DSM clusters, MDM slices, MBSE queries, generated views, graph grammars, model transformations, LLM architecture proposals, AI-assisted ADD, code-agent relation graphs, NAS graphs, DSE traces, Pareto fronts, QD archives, benchmark traces, simulations, and source-corpus mining.
+Modern architecture work receives claim-bearing outputs, representations, publication items, and other results from DSM clusters, MDM slices, MBSE queries, generated views, graph grammars, model transformations, LLM architecture proposals, AI-assisted ADD, code-agent relation graphs, NAS graphs, DSE traces, Pareto fronts, QD archives, benchmark traces, simulations, and source-corpus mining.
 
-These outputs can be extremely useful. They can expose candidate decompositions, relation gaps, hidden invariants, feasible search regions, trade-off points, source labels, or overlooked structure. But they are not automatically architecture, selected candidate structures, realized holon structures, eval results, evidence sufficiency, or decision authority.
+These results can expose candidate decompositions, relation gaps, hidden invariants, feasible search regions, trade-off points, source labels, or overlooked organization. They are not automatically obtaining A.22 structures, realized holon structures, eval results, evidence sufficiency, or decision authority.
 
-C.35 handles the gap between produced carrier and architecture use. It asks which exact generation or discovery Method was used; whether one independently admitted Work occurrence actually enacted it; which exact production, discovery-use, or work-to-change claim connects that Work to the carrier or change, if any; which independently selected source and described structures are recoverable; what is preserved and lost; what validation or comparison is available; what bearer or realization boundary is open; and what condition and rule must be met before the output can feed C.32 or another architecture claim.
+C.35 handles the gap between exact result identity and architecture use. It first asks what the result is; which claim, represented object, or proposed organization it carries; whether representation or publication distinctions matter; and which architecture use is proposed. It then asks only the questions belonging to the actual branch. A transformation names its exact source and result objects, trace, preservation, and loss. A discovery names its observation or extraction basis, what is observed, inferred, or unknown, the covered and unexplored region, uncertainty, and validation. A generative proposal names its constraints, proposed organization or claim content, known omissions, and validation needs; source and preservation enter only when an actual baseline is declared. Method, performed Work, attribution, bearer feasibility, and publication detail enter only when the receiving use relies on them.
 

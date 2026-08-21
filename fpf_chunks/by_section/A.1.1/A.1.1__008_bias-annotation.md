@@ -6,7 +6,7 @@ section_id: "A.1.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__008_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:6 — Bias-Annotation"
@@ -43,5 +43,5 @@ This pattern has a DDD lineage bias because bounded context is the source term. 
 
 It has a structure-selection bias. The lightweight stop rule prevents mere local terminology, model mention, or implementation and organizational partition from becoming a structure without the required model-use relation organization.
 
-It also has a model-coherence bias. Actual systems, work, methods, transformations, epistemes, and role assignments keep their own identities and can remain the referents designated by receiving epistemes when the joint relation organization is not the subject of the receiving use.
+It also has a model-coherence bias. Actual systems, work, methods, transformations, epistemes, and system-role-assignment occurrences keep their own identities and can remain the referents designated by receiving epistemes when the joint relation organization is not the subject of the receiving use.
 

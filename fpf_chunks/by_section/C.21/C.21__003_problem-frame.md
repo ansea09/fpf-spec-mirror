@@ -6,31 +6,36 @@ section_id: "C.21:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__003_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:1 — Problem Frame"
-line_start: 50358
-line_end: 50361
+line_start: 49153
+line_end: 49158
 dependencies:
+  - "A.10"
   - "A.17"
+  - "A.17-A.18"
   - "A.18"
+  - "A.19"
   - "A.2.6"
   - "B.3"
   - "C.16"
   - "C.2"
+  - "C.2.1"
   - "C.20"
-  - "E.10"
-  - "F.17"
+  - "C.I"
+  - "E.24.PUB"
   - "F.9"
   - "G.0"
   - "G.10"
   - "G.11"
   - "G.12"
   - "G.2"
+  - "G.4"
   - "G.5"
+  - "G.6"
   - "G.9"
-  - "U.Discipline"
 keywords:
   - "alignment"
   - "discipline"
@@ -42,5 +47,7 @@ keywords:
 
 ### C.21:1 - Problem Frame
 
-FPF treats *disciplines* as first-class holons (see **C.20**): they aggregate epistemes, practices, standards, institutions, and observed Work. Teams routinely say “the field is fragmented,” “standards are converging,” or “replication is improving,” but these claims are rarely **typed** (scale/unit/polarity) or **replayable** (evidence lanes, freshness, scope). C.21 supplies the CHR vocabulary: named Characteristics with CSLC typing, so discipline-health claims can be compared admissibly (CG-Spec) and monitored through time (G.12) when a project needs that use. Each published value declares ReferencePlane ∈ {world|concept|episteme} and DisciplineId (U.Discipline@UTS); cross-plane use applies CL^plane in Assurance (penalty to R_eff only).
+Disciplines aggregate changing epistemes, practices, standards, institutions, and Work. Teams routinely say “replication is improving,” “the field is fragmented,” or “standards are converging.” Such a sentence can be useful before it becomes a dashboard row, but any relied-on comparison needs exact Characteristic, Scale, measurement, scope, and basis semantics.
+
+C.21 therefore treats health as a vector of separately typed coordinate claims. It does not imply one scalar health value. A threshold or target band is an acceptance declaration under G.4, not part of the Characteristic. A dashboard is a representation over already constituted claims, not their ontology or authority.
 

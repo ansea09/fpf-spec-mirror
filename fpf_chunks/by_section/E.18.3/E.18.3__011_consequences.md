@@ -6,12 +6,12 @@ section_id: "E.18.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__011_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:9 — Consequences"
-line_start: 85500
-line_end: 85507
+line_start: 82831
+line_end: 82838
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,7 +36,6 @@ dependencies:
   - "E.23"
   - "G.11"
   - "G.5"
-  - "U.Transfer"
 keywords:
 ---
 
@@ -44,7 +43,7 @@ keywords:
 
 This profile lets E.18 keep its strength without swallowing every route-shaped pattern. P2W, P2S, agent-loop, gate, evidence, architecture, and currentness cases may use the same selected A.22 structure and exact transformation-flow relations. Each stronger neighboring claim obtains only when current facts or evidence satisfy its applicable definition, constraint, predicate, test, evidence rule, or assurance rule. A Method may contribute a reusable way of doing and its applicability or bounds, but any claim that using it produces, supports, evaluates, evidences, or assures a result remains separately testable under its own rule and current basis.
 
-The cost is explicit recovery only when the current use claims E.18.3 qualification, comparison, publication, or stronger reliance. A selected CGUS qualifies for E.18.3 only when its E.18 or E.18.NET case, subject rows, admitted position mappings, exact selected occurrences, and any applied-claim, E.18-event, or independently defined relation condition branches are discriminated and recoverable together with preserved/lost structure, concrete neighboring contributions, and reconsideration conditions. Before that, the visible card or explanation remains provisional; constitute a C.2.1 episteme only when its narrower claim must persist or be replayed, and constitute a separate demonstrative episteme only after admission.
+The cost is explicit recovery only when qualification, comparison, publication, or stronger reliance requires it. A selected CGUS qualifies for E.18.3 through its E.18 substrate case, subjects, locus-to-flow mappings, and obtaining occurrences. Current continuation judgements, description loss, publication, and stronger claims remain separate results or uses. An ordinary card can stop after naming the subject, alternatives, conditions, and missing fact or rule.
 
 The benefit is change locality. A changed demonstration, valuation, path slice or tag usually changes only that use; it does not reidentify the selected structure. A changed selected constituent, occurrence, applied constraint or named selection-use frame changes an A.22 discriminator and therefore requires a different structure selection.
 

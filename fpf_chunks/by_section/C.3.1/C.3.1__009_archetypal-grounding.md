@@ -6,12 +6,12 @@ section_id: "C.3.1:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__009_archetypal-grounding.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:7 — Archetypal Grounding"
-line_start: 44780
-line_end: 44792
+line_start: 43570
+line_end: 43584
 dependencies:
   - "A.1"
   - "A.11"
@@ -46,12 +46,14 @@ keywords:
 
 | Situation | C.3.1 move | Boundary |
 | --- | --- | --- |
-| `CoolingPumpKind` is below `PumpKind`. | State that the direct `U.SubkindOf` relation obtains for the two kinds under the named reference scheme; create a C.2.1 assertion episteme only when that assertion is separately needed. | Test the aligned candidate/slice judgments; do not infer a durable `U.CoolingPump` or treat an edge as the occurrence. |
-| A signature edition adds a clarified unit conversion but preserves the declared cooling-pump identity. | Keep the kind, identify the new signature edition, and retain edition-specific judgments. | Do not rewrite earlier judgments as if the new edition had been used. |
-| A signature changes from physical cooling performance to a schema label. | Treat the declaration as changed and reject automatic kind continuity unless an explicit local identity case survives. | Do not hide the mismatch by editing the extension. |
-| Pump #14 changes state in a later plant slice. | Re-evaluate the candidate and allow the represented extension to change. | Candidate-state change alone does not create a new kind or signature. |
-| `InspectionWorkKind` is used locally. | Classify only an independently identified `W : U.Work`. | `U.Work`, a work plan, or a log row cannot occupy W's candidate position. |
-| `WorkPlan` depends on Work. | Use the governing work or E.24.UK relation. | Do not encode dependency as `U.SubkindOf` unless a real kind partial order is being claimed. |
-| Safety-critical function is a kind of function. | Use a local `U.Kind` and subkind order for the current typed claim. | Use C.3.2 for intent and candidate judgment; public FPF naming follows governed U-kind admission. |
-| A project proposes public `U.CoolingPump`. | Take the recovered local kind to `E.24.UK`, then use `A.11`, `A.8`, and the applicable Part F naming pattern as needed. | Local `U.SubkindOf` does not admit or publish the durable kind. |
+| `CoolingPumpKind` is below `PumpKind`. | Use criterion entailment: the cooling-pump condition already requires the governed pump condition. State the readable relation and its applicability. | Do not infer a public `U.CoolingPump`, and do not use current extension rows as the truth-maker. |
+| A closed inspection lot has five cabinets. | If the declared candidate domain is exactly those five cabinets, check admissibility and evaluate every candidate. The domain-bounded `InspectedCabinetKind` subkind claim can obtain when every narrower `true` is broader `true`. | The same observations do not establish an open-ended order over all future cabinets. |
+| `MorningShiftQualifiedOperatorKind` and `UnionRosteredOperatorKind` happen to select the same people in a closed current roster. | Mutual domain-bounded subkind facts may obtain, giving classification equivalence for this roster. | The kinds remain distinct because their operative membership conditions differ; antisymmetry does not merge them. |
+| A signature adds an aligned unit conversion. | Apply section 6, keep the kind, identify the new signature edition, and retain edition-specific judgments. | Do not rewrite earlier judgments as if the new edition had been used. |
+| A signature changes from physical cooling performance to a schema label. | The boundary probes expose a changed candidate domain and discriminator; identify another kind. | Do not hide the mismatch by editing the extension. |
+| Pump #14 changes state in a later plant slice. | Re-evaluate the admissible candidate and allow the extension to change. | Candidate-state change alone does not create a kind, signature, or relation occurrence. |
+| `InspectionWorkKind` is used locally. | Classify only an independently identified `W : U.Work`. | `U.Work`, a plan, or a log row cannot occupy W's candidate position. |
+| `WorkPlan` depends on Work. | Use the governing work or E.24.UK relation. | Do not encode dependency as `U.SubkindOf`. |
+| `SafetyCriticalFunctionKind` is proposed as a subkind of `FunctionKind`. | First recover both function senses under A.6.F, then use exact criterion entailment or the deliberately closed-domain branch. | The word *function*, a risk label, or current examples establish neither the kinds nor the subkind fact; another public `U.*` name still requires E.24.UK. |
+| A project proposes public `U.CoolingPump`. | Take the recovered kind to `E.24.UK`, then apply naming patterns if admitted. | Local typed use and `U.SubkindOf` do not admit or publish another durable kind. |
 

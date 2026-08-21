@@ -6,12 +6,12 @@ section_id: "E.17.2:8"
 section_title: "Pattern contributions and boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__009_pattern-contributions-and-boundaries.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:8 — Pattern contributions and boundaries"
-line_start: 80750
-line_end: 80761
+line_start: 78126
+line_end: 78137
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -37,7 +37,7 @@ keywords:
 - Use **C.2.1** to identify every constituent episteme, Q, P, candidate E, assertion, and description.
 - Use **C.13** to construct exact collections and **A.22** to select structures.
 - Use **A.6.3** only for optional source-to-receiving viewing construction; that construction does not grant view membership.
-- Use **A.3.1/A.3.2** for Methods and MethodDescriptions, **A.3.4** for transformations, **A.2/C.3.2** for local system-role kinds and classification judgments, **A.2.1** for exact `U.SystemRoleAssignment` species and occurrences, **A.2.2** for capabilities, **A.2.7** for relations among system-role kinds, the direct responsibility pattern for responsibility, **E.18** for transformation flows, and **B.1.1** plus applicable module or interface patterns for dependency, module, and interface relations.
+- Use **A.3.1/A.3.2** for Methods and MethodDescriptions, **A.3.4** for transformations, **A.2** for local system-role kinds, **C.3.2** for their `KindSignature` declarations, four-input classification judgments, and optional extensions, **A.2.1** for exact `U.SystemRoleAssignment` species and occurrences, **A.2.2** for capabilities, **A.2.7** for relations among system-role kinds, the direct responsibility pattern for responsibility, **E.18** for transformation flows, and **B.1.1** plus applicable module or interface patterns for dependency, module, and interface relations.
 - Use **E.24.PUB** for publication objects and relations and **C.29** for representations of independently recovered objects or relations.
 - Use **A.6.RCD** to state or derive a needed relation claim, or return its exact blocker, when current predicates are insufficient.
 

@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.6.3"
-pattern_title: "U.EpistemicViewing - EntityOfConcern-preserving episteme construction"
+pattern_title: "Episteme viewing - EntityOfConcern-preserving episteme construction"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.3 — U.EpistemicViewing - EntityOfConcern-preserving episteme construction"
-line_start: 13356
-line_end: 13588
+  - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
+line_start: 13373
+line_end: 13606
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -19,22 +19,16 @@ dependencies:
   - "A.6.3.CR"
   - "A.6.3.RT"
   - "A.6.4"
-  - "A.6.5"
-  - "A.7"
-  - "B.5.3"
-  - "C.2"
   - "C.2.1"
   - "C.29"
-  - "E.10.D2"
   - "E.17"
   - "E.17.0"
-  - "E.17.1"
-  - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
 keywords:
 ---
 
-## A.6.3 - `U.EpistemicViewing` - EntityOfConcern-preserving episteme construction
+## A.6.3 - Episteme viewing - EntityOfConcern-preserving episteme construction
 > **Status:** Stable
 
 **Use this when.** You need to derive a smaller, reorganized, or differently expressed body of claims from existing claims while keeping the same thing under discussion. In FPF terms, the source and result are independently identifiable epistemes with the same `EntityOfConcern`. The result may select, reorganize, normalize, translate, or combine claims from the named sources, but it must not add a claim those sources do not support.
@@ -43,7 +37,7 @@ keywords:
 
 > `Result Y is made from source X. Both are about the same named thing. Y keeps [named claims], omits [named claims], and adds no claim unsupported by [named sources].`
 
-Then name or show the rule that selects, rewrites, or combines the claims. Do not call the relation an A.6.3 viewing unless X and Y can be identified separately and this rule can be inspected.
+Then name or show the rule that selects, rewrites, or combines the claims. Do not call the construction an A.6.3 viewing unless X and Y can be identified separately and this rule can be inspected.
 
 **What this does not decide.** A.6.3 says how Y is licensed by named sources about the same thing. It neither proves the claims true nor makes Y a `U.View`; use E.17.0 for view membership. Use A.15.1 for the work that produced Y, A.15.PROD if first constitution matters, and E.24.PUB for publication, but only when those separate facts matter.
 
@@ -104,19 +98,18 @@ If the supposed receiving item has no recoverable claim content or EntityOfConce
 
 #### A.6.3:4.2 - Declare the viewing construction
 
-`U.EpistemicViewing` is the EntityOfConcern-preserving species of A.6.2 `U.EffectFreeEpistemicMorphing`. In the mathematical lens, one concrete viewing is written `v : X -> Y`.
+A.6.3 viewing is the EntityOfConcern-preserving branch of A.6.2's local effect-free arrow class. In the selected formal substrate, one viewing arrow is written `v : X -> Y` and has exact source episteme X and exact receiving episteme Y.
 
-The reusable A.6.0 declaration keeps these direct components:
+The reusable A.6.0 declaration describes the admitted local arrow family, rather than turning one arrow or endpoint pair into a kind:
 
 ```text
-SubjectKind     = U.EpistemicViewing
-RangedValueKind = ordered pair of exact U.Episteme values <X,Y>
-ResultKind      = EpMorphism
-SliceSet        = the declared ContextSlice set when applicability varies by slice
-ExtentRule      = the admissible viewing morphisms in each selected slice
+SubjectKind      = local A.6.2 EpMorphism type restricted to preserve-mode viewing arrows
+RangedValueKind = admitted ordered-pair range over exact U.Episteme values satisfying the declared endpoint-kind constraints
+ResultKind       = omitted; v is the declared subject and Y is its exact receiving endpoint
+Applicability    = selected formal substrate, admitted endpoint kinds, viewing-rule conditions, and preserve mode
 ```
 
-`EpMorphism` is the local mathematical-lens arrow value. It represents the governed construction; it is not the system that acts, the work occurrence, the receiving episteme, or a world-side transformation by spelling.
+`EpMorphism` is a local mathematical type in the selected substrate, not a durable FPF U-kind. The arrow records the declared construction. It is not the system that acts, an operation application, the work occurrence, the receiving episteme, or a world-side transformation.
 
 A concrete viewing declaration states:
 
@@ -126,6 +119,8 @@ A concrete viewing declaration states:
 4. how the source and receiving reference schemes are related;
 5. preserved claim components, admitted omissions or losses, and prohibited strengthening;
 6. applicability conditions and any fixed configuration needed for replay.
+
+A separate assertion says whether this arrow supports one named receiving use and states any use-specific loss or conditions. When a system actually applies a query, rewrite, model, or other method, identify that application and any performed Work separately; neither the arrow nor `v : X -> Y` asserts that they occurred.
 
 #### A.6.3:4.3 - Apply the same-EntityOfConcern and conservativity laws
 
@@ -166,7 +161,7 @@ The viewing declaration cites the exact source epistemes and exact correspondenc
 
 #### A.6.3:4.6 - Keep mathematical construction, work, production, and publication distinct
 
-The viewing morphism performs no work. When a tool or person executes a query, rewrites text, runs a model, or renders a face, a system performs dated `U.Work` under A.15.1 by an exact method. The source epistemes, parameters, tools, and receiving entities participate only through their direct relations or A.6.1 operation bindings.
+The viewing arrow performs no work. When a tool or person executes a query, rewrites text, runs a model, or renders a face, a system performs dated `U.Work` under A.15.1 by an exact method. The source epistemes, parameters, tools, and receiving entities participate only through their direct relations or A.6.1 operation bindings.
 
 If that work first constitutes exact episteme Y and the identity-inception claim matters, A.15.PROD governs the local work/change/identity claim. Neither work nor inception establishes conservativity or E.17.0 conformance.
 

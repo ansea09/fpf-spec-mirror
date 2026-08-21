@@ -6,12 +6,12 @@ section_id: "C.3.2:5"
 section_title: "KindSignature Declaration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__007_kindsignature-declaration.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:5 — KindSignature Declaration"
-line_start: 44898
-line_end: 44916
+line_start: 43694
+line_end: 43708
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -29,20 +29,16 @@ keywords:
 
 ### C.3.2:5 - KindSignature Declaration
 
-Author a reusable `KindSignature` only when a named receiving use needs the criterion and assumptions to persist across more than one classification.
+Author a reusable `KindSignature` only when a named receiving use needs the criterion and assumptions to persist across more than one classification. Its claim content declares:
 
-Its claim content declares:
-
-- the exact local kind that is its `EntityOfConcern`;
-- the candidate `ValueKind`: the direct kind or value interpretation admitted as candidate input;
-- the membership criterion in terms of direct governed candidate qualities, relations, constructive grounding, or other features;
-- the exact `U.ContextSlice` conditions under which the criterion can be evaluated;
+- the exact kind that is its `EntityOfConcern`;
+- the candidate `ValueKind` or exact value interpretation admitted as input;
+- the membership condition in terms of directly governed candidate qualities, relations, constructive grounding, epistemes, registrations, certifications, publications, legal statuses, or other exact conditions;
+- the exact `U.ContextSlice` applicability in which the evaluation may be formed;
 - the effective `U.ReferenceScheme`;
 - named assumptions, dependencies, standards, versions, units, and temporal policy;
-- its `U.Formality`;
-- an optional `ExtentRule` stating how repeated candidate evaluations feed an extension when a varying extension is current.
+- its `U.Formality`; and
+- an optional `ExtentRule` for a named extension-consuming use.
 
-In A.6.0 terms, `SubjectKind` is the broad candidate kind and `RangedValueKind` is the finite judgment value kind `{true, false, unknown}`. `ExtentRule` is declaration content, not a new ontic relation. Formality characterizes the declaration episteme—not the local kind, candidate, candidate value, judgment truth, or extension. A claim that relies on the signature content evaluates that dependency on its own F–G–R support path; raising signature formality does not upgrade an unrelated claim.
-
-A changed membership criterion, evaluation-domain declaration, `EntityOfConcern` referent, or effective reference scheme identifies another `U.Signature` episteme edition. C.3.1 separately decides whether the same local kind continues across that declaration change.
+In A.6.0 terms, `SubjectKind` is the broad candidate kind and `RangedValueKind` is `{true, false, unknown}`. `not-applicable` is returned before this ranged evaluation. `ExtentRule` is declaration content, not a new ontic relation. Formality characterizes the declaration episteme, not the kind, candidate, truth, or extension. A changed membership condition, candidate-domain declaration, `EntityOfConcern`, applicability, or effective scheme identifies another signature edition; C.3.1 separately decides kind continuity.
 

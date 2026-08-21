@@ -6,16 +6,21 @@ section_id: "B.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__004_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:3 — Forces"
-line_start: 39661
-line_end: 39668
+line_start: 38487
+line_end: 38494
 dependencies:
   - "A.12"
+  - "A.15.1"
   - "A.4"
+  - "B.3"
+  - "B.4"
   - "B.4.1"
+  - "B.5"
+  - "B.5.1"
 keywords:
   - "DesignRunTag feedback"
   - "drift repair"
@@ -30,7 +35,7 @@ keywords:
 
 | Force | Tension |
 | :--- | :--- |
-| **Stability vs. Change** | How to evolve a holon continuously while maintaining its core identity and assurance guarantees. |
-| **Learning vs. Operating** | How to balance the need for a holon to be stable in its operational context with the need to gather data and learn from its performance. |
-| **Top-Down Intent vs. Bottom-Up Reality** | How to reconcile strategic, top-down refinement goals with emergent, bottom-up feedback from operational reality. |
+| **Stability vs. Change** | How to adapt continuously while retaining the identity and assurance commitments that still hold. |
+| **Learning vs. Operating** | How to keep use stable enough to serve its purpose while gathering and acting on evidence. |
+| **Top-Down Intent vs. Bottom-Up Reality** | How to connect intended improvement with what actual use reveals. |
 

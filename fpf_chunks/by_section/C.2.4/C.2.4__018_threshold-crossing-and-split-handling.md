@@ -6,24 +6,31 @@ section_id: "C.2.4:17"
 section_title: "Threshold Crossing and Split Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__018_threshold-crossing-and-split-handling.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:17 — Threshold Crossing and Split Handling"
-line_start: 43613
-line_end: 43623
+line_start: 42379
+line_end: 42400
 dependencies:
+  - "A.15"
+  - "A.15.1"
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.16.2"
   - "A.18"
+  - "A.3.1"
+  - "A.6.3.RT"
   - "A.6.P"
   - "B.4.1"
   - "B.5.2.0"
+  - "C.16.P"
+  - "C.2.1"
   - "C.2.2a"
   - "C.2.5"
   - "C.2.LS"
+  - "C.2.P.DR"
 keywords:
   - "articulation explicitness"
   - "early repair readiness"
@@ -34,8 +41,19 @@ keywords:
 
 ### C.2.4:17 - Threshold Crossing and Split Handling
 
-#### C.2.4:17.1 - Admissible entry into relational repair
-Entry into `A.6.P` is admissible when the local articulation threshold is met and the note already exposes enough relation structure for precision restoration to operate on a real relation-like episteme. Entry into `B.5.2.0` is admissible when the open question is explicit enough for prompt-species publication even if relation structure is still too thin for `A.6.P`. If the threshold is borderline, keep the episteme in `B.4.1` or `A.16.1` and state what anchor or slot is still missing.
+#### C.2.4:17.1 - Branch-aware high-articulation exits
+At `AE3+`, use the local threshold of the direct branch rather than one universal destination:
+
+- for an actual relation claim, use `A.6.P` to restore relation precision and then return the claim to its direct relation pattern;
+- for a plan or intended activity, use `A.15`;
+- for a Method, use `A.3.1`, while its MethodDescription remains an episteme under `C.2.1`;
+- for an admitted dated Work occurrence, use `A.15.1`;
+- for a representation claim, use `C.2.P.DR`, adding `A.6.3.RT` only when a representation transition is current;
+- for an abductive prompt or explicit open question, use `B.5.2.0` or the direct question pattern;
+- for a Characteristic or Scale claim, use `A.17` and `A.18`, with `C.16.P` when its scalar wording hides the construction;
+- for an ordinary domain claim, keep the episteme publication under `C.2.1` and use the direct domain pattern that governs its subject.
+
+If the branch or threshold is unresolved, keep the episteme in `B.4.1` or `A.16.1` and state what is still missing. `AE` reports recoverable articulation; it does not itself choose the branch or authorize the receiving use.
 
 #### C.2.4:17.2 - High-articulation, low-closure cases
 A note may reach `AE4+` while remaining low or mid in `CD`. In such cases state that articulation is sufficient for precise handling while closure still leaves rival routes or frames live.

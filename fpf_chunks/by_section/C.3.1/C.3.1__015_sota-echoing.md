@@ -6,12 +6,12 @@ section_id: "C.3.1:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__015_sota-echoing.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:13 — SoTA-Echoing"
-line_start: 44834
-line_end: 44837
+line_start: 43626
+line_end: 43629
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,5 +44,5 @@ keywords:
 
 ### C.3.1:13 - SoTA-Echoing
 
-Type theory, ontology engineering, and versioned schema practice distinguish partial-order laws, intensional declarations, interpretation editions, and their extensions. C.3.1 keeps the useful order law but grounds its practical consequence in C.3.2 judgments and leaves declaration identity to A.6.0 and C.2.1, cross-local use to C.3.3, and public U-kind admission to `E.24.UK`. That admission remains separate because it carries ontic identity, membership criteria, construction, naming, and parsimony obligations that a local subkind order does not.
+Type theory, ontology engineering, and versioned schema practice distinguish intensional identity, preorders, equivalence classes, interpretation editions, and extensions. C.3.1 keeps that distinction but gives practitioners two replayable obtaining branches and a before/after continuity test; C.3.2 owns admissibility and judgment, C.3.3 owns distinct-kind correspondence, and E.24.UK owns the exact public admissions.
 

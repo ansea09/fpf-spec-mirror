@@ -6,12 +6,12 @@ section_id: "E.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.1 — Vision & Mission: “Operating System for Thought”"
   - "E.1:intro — Intro"
-line_start: 69122
-line_end: 69124
+line_start: 66424
+line_end: 66426
 dependencies:
   - "E.2"
 keywords:

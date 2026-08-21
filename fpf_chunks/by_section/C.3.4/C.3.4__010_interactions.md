@@ -6,12 +6,12 @@ section_id: "C.3.4:8"
 section_title: "Interactions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__010_interactions.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:8 — Interactions"
-line_start: 45400
-line_end: 45420
+line_start: 44197
+line_end: 44217
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -38,9 +38,9 @@ Use an adaptation declaration for procedural tailoring. If the criterion becomes
 
 #### C.3.4:8.3 - With KindBridge
 
-Cross-context use needs an obtaining `KindBridge`, its separate Bridge assertion, the target adaptation declaration, and—when constraints or bindings differ—a separate correspondence declaration. R receives justified penalties while F, G, and the target judgment remain unchanged. If the target constraint is a stable conceptual refinement, consider a target-side local kind and an independently obtaining `U.SubkindOf` relation.
+A locality change first prompts kind-identity comparison. When the same base kind continues, select the receiving signature and adaptation declaration and evaluate a fresh candidate result without a `KindBridge`. When two independently identified kinds are distinct and an exact directional correspondence is relied on, establish the C.3.3 `KindBridge`, its assertion, the receiving declaration, and any needed adaptation-correspondence declaration. Only justified bridge penalties affect R; F, G, admissibility, and classification truth remain unchanged.
 
 #### C.3.4:8.4 - With Guards
 
-`Guard_KindUseAdaptation` designates the exact adaptation-declaration and base `KindSignature` editions, evaluates `J_kindUse` for the exact candidate and slice, checks A.2.6 Scope separately, and preserves `unknown` when classification cannot settle. For cross-context use, it composes with `Guard_XContext_Typed` only after the `KindBridge`, Bridge assertion, target declarations, and any correspondence declaration are recoverable. The guard applies justified `Phi(CL)` and `Psi(CL^k)` effects to R and then makes its separate use decision; it changes neither F, G, nor classification truth.
+`Guard_KindUseAdaptation` designates exact adaptation and base-signature editions, checks admissibility, evaluates an admissible candidate, checks Scope separately, and keeps `not-applicable`, `unknown`, and refusal distinct. For distinct-kind cross-local use, it composes with the C.3.3 guard only after the bridge and receiving declarations are recoverable. For same-kind reuse, it performs the fresh receiving evaluation without inventing a bridge.
 

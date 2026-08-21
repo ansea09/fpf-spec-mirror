@@ -6,12 +6,12 @@ section_id: "A.2.3:8"
 section_title: "Promise-content use, delivery, evaluation, and evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__012_promise-content-use-delivery-evaluation-and-evidence.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:8 — Promise-content use, delivery, evaluation, and evidence"
-line_start: 4201
-line_end: 4257
+line_start: 4213
+line_end: 4269
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -73,17 +73,17 @@ PromiseContentUse : U.Relation
 
 Its occurrence key is `<DeliveryWorkOccurrenceSlot, PromiseContentSlot, PromiseUseIntervalSlot>`. Obtaining of this relation implies neither successful delivery nor intention, judgement, or claim-making by either participant.
 
-**`PromisedOutcomeDeliveryRelation : U.Relation`.** This derived relation obtains between one delivery-work occurrence and the A.7 `OutcomeSpec` resolved from the `PromiseContentUse` occurrence in which that work participates, when the conditions below hold.
+**`PromisedOutcomeDeliveryRelation : U.Relation`.** This derived relation obtains between one delivery-work occurrence and the A.2.3:4.1.1 `OutcomeSpec` resolved from the `PromiseContentUse` occurrence in which that work participates, when the conditions below hold.
 
 ```text
 PromisedOutcomeDeliveryRelation : U.Relation
   DeliveryWorkOccurrenceSlot: U.Work, U.EntityRef
-  PromisedOutcomeSpecificationSlot: U.Episteme, U.EpistemeRef constrained to A.7 OutcomeSpec
+  PromisedOutcomeSpecificationSlot: U.Episteme, U.EpistemeRef constrained to A.2.3:4.1.1 OutcomeSpec
 ```
 
-The relation obtains only when one `PromiseContentUse` occurrence has the delivery work and a promise-content edition as participants, that edition's `promisedOutcomeSpecRef` resolves to the same `OutcomeSpec`, and the specification's mode-specific conditions hold. When `workSpec` is present, selected work facts satisfy `workSpec.workPredicateRef`. When `resultSpec` is present, the exact affected referent and post-work state expressed by the selected effect Delta satisfy `resultSpec.postConditionRef`; any current production, delivery, or acceptance relation remains separately governed. Its occurrence key is `<DeliveryWorkOccurrenceSlot, PromisedOutcomeSpecificationSlot>`. The readable predicate is `deliversPromisedOutcome(W, OS)`, where `OS` denotes that resolved `OutcomeSpec`. An episteme may assert that this relation obtains, and evidence may support that assertion; neither the assertion nor the evidence makes the work facts or post-work state satisfy the specification.
+The relation obtains only when one `PromiseContentUse` occurrence has the delivery Work and promise-content edition as participants, that edition resolves the same `OutcomeSpec`, and the mode-specific conditions hold. `workSpec` tests selected Work facts. `resultSpec` tests the exact affected referent and selected post-work state; any actual-change, production, delivery, acceptance, receiving-use, or optional Delta-lens claim remains separately governed. Its occurrence key is `<DeliveryWorkOccurrenceSlot, PromisedOutcomeSpecificationSlot>`. The readable predicate is `deliversPromisedOutcome(W, OS)`. An episteme may assert that this relation obtains and evidence may support the assertion; neither makes the underlying facts satisfy the specification.
 
-**Acceptance evaluation result.** A holder system performs evaluation `U.Work` by the evaluation method described in `acceptanceSpec`, using the same selected facts about delivery work and post-work states. The actual evaluation-operation application carries exact argument bindings and the verdict value in its declared result binding. When another use needs a durable evaluation-result episteme, C.2.1 governs that episteme, and A.15.PROD governs any current identity-inception claim linking exact work, actual change, and episteme identity. A.10 evidence relations support the relied-on assertions. The promise content does not perform the evaluation or compute the verdict; the operation-result binding, result episteme, and evidence relations support the assertion rather than making the fulfilment relation obtain.
+**Acceptance evaluation result.** A holder System performs evaluation Work by the exact Method selected in `acceptanceSpec`; a MethodDescription is cited only when its edition-specific claims are used. The operation application, result binding, optional verdict episteme, any identity-inception claim, and A.10 evidence-use relations remain separate. They support the assertion rather than making fulfilment obtain.
 
 **`PromiseContentFulfilmentRelation : U.Relation`.** This derived relation obtains between one delivery-work occurrence and one promise-content edition when the conditions below hold.
 
@@ -104,7 +104,7 @@ The explicit `RelationSignature` declarations are warranted only when `unitOfDel
 
 Let `W(SC, T)` be the set of delivery-work occurrences for which `PromiseContentUse` obtains with `SC` during interval `T`. Let `W✓(SC, T)` be the subset for which `PromiseContentFulfilmentRelation` obtains with `SC`.
 
-* **Delivered units:** `delivered(SC, T)` is computed from the set `W✓(SC, T)` using `unitOfDelivery`’s **countingRule** (A.7:5.10). Default (when `unitOfDelivery` is absent): `delivered(SC, T) = |W✓(SC, T)|` (one unit per accepted delivery work).
+* **Delivered units:** `delivered(SC, T)` is computed from `W✓(SC, T)` using the A.2.3:4.1.2 counting rule. When `unitOfDelivery` is absent, `delivered(SC, T) = |W✓(SC, T)|`, one unit per obtaining fulfilment occurrence.
 * **Rejection rate:** `rejectRate(SC, T) = 1 − |W✓(SC,T)| / |W(SC,T)|` (declare handling of `partial`).
 * **Lead time:** declare the characteristic definition and aggregation separately. The definition may use work duration or request-to-completion delta; the aggregation may use an average or named percentile.
 * **Availability and uptime claims:** select one declared characteristic instead of treating the labels as synonyms. Derive its observed characteristic value from selected work facts and telemetry observations through its C.16 measurement template, `Gamma_time` policy, and evidence relations; cite a `U.MethodDescription` when a particular measurement method affects the reading.

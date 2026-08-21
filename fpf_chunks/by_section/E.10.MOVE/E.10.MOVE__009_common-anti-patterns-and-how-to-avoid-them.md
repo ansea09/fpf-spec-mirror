@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 75825
-line_end: 75834
+line_start: 73105
+line_end: 73114
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -44,5 +44,5 @@ keywords:
 | Imported MOVE kind | TameFlow source wording becomes FPF ontology. | Recover intended work, readiness, gate, preparation work, or performed work. |
 | Readiness as gate passage | A ready label becomes `GateDecision=pass`. | Use A.21 only when gate fields are present. |
 | Path as work-authorization route | Evidence path or source-reference path becomes a way to authorize work by resemblance. | Recover evidence relation, source relation, graph path, gate relation, work authorization, or deontic permission separately. |
-| Local expression generalized | A bounded local phrase is generalized to unrelated project work. | Keep `mantra move` bound to one `DemonstratedPatternUseRow@Context`; restore every other phrase through its own governed value and direct pattern. |
+| Local expression generalized | A bounded local phrase is generalized to unrelated project work. | Keep `mantra move` bound to one E.11.PUA practice-continuation description shown inside a post-qualification demonstrative slice; restore every other phrase through its own governed value and direct pattern. |
 

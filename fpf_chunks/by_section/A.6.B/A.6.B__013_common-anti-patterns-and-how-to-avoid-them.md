@@ -6,12 +6,12 @@ section_id: "A.6.B:11"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:11 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 11155
-line_end: 11165
+line_start: 11190
+line_end: 11200
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -40,7 +40,7 @@ keywords:
   - "(MUST"
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
-  - "Keeps claim text"
+  - "Keeps normative content"
   - "MAY"
   - "MUST"
   - "MUST NOT"
@@ -51,6 +51,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
+  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
@@ -65,7 +66,7 @@ keywords:
   - "entry predicates"
   - "evaluated findings"
   - "evaluation"
-  - "institutional obtaining"
+  - "individual institution"
   - "laws"
   - "may"
   - "not a duty.)"
@@ -77,7 +78,6 @@ keywords:
   - "or observation that settles it and any evidence used for reliance"
   - "responsibility"
   - "they report adjudicable results rather than obligations"
-  - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
@@ -89,9 +89,9 @@ keywords:
 | Anti‑pattern                 | Symptom                                            | Why it fails                                                | Repair (square‑consistent)                                                                  |
 | ---------------------------- | -------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | **Gate‑as‑law**              | Preconditions written as “laws”                    | Collapses signature or mechanism boundary; breaks substitution | Move to `A-*` in Mechanism.AdmissibilityConditions; reference `L-*` terms.                  |
-| **Deontics in predicates**   | “MUST” inside definitions or gates                 | Confuses governance with truth or admissibility                | Rewrite as `L-*`/`A-*` predicate; add `D-*` duty referencing it.                            |
-| **Interface‑as‑promiser**    | “The API promises or guarantees …”                    | Category error: interface descriptions do not commit              | Identify the actual duty bearer, exact separately obtaining `U.Commitment`, measured property (`E-*`), and metric definition (`L-*`); cite an assignment only as a rule ground when current, and use `A.6.C` when promise-content or agreement-like boundary wording is live. |
-| **Evidence‑free guarantees** | “Guaranteed p95 latency” with no measurement story | Unadjudicable; turns into marketing                         | Create `E-*` with carriers + conditions; link commitment as `D-* → E-*`.                    |
+| **Deontics in predicates**   | “MUST” inside definitions or gates                 | Confuses governance with truth or admissibility                | Rewrite the definition or gate as `L-*`/`A-*`; add a generic `D-*` prescription or an independently established individual-duty claim when current. |
+| **Interface‑as‑promiser**    | “The API promises or guarantees …”                    | Category error: interface descriptions do not commit              | Recover the exact policy and generic prescription, or the actual bearer and separately obtaining `U.Commitment` when an individual duty is claimed; keep measured property (`E-*`) and metric definition (`L-*`) separate, and use `A.6.C` for promise-content or agreement-like wording. |
+| **Evidence‑free guarantees** | “Guaranteed p95 latency” with no measurement story | Unadjudicable; turns into marketing | Create `E-*` with carriers and conditions; link the exact generic prescription or individual-duty claim as `D-* → E-*`. |
 | **Paraphrase drift**         | Same rule restated across faces                    | Divergence becomes invisible                                | Use IDs; faces cite IDs; optional Claim Register.                                           |
 | **View‑fork semantics**      | A face introduces new L/A/D/E content              | Violates “no new semantics” publication discipline          | Move new claim into canonical layer (L/A/D/E) or mark as informative only.                  |
 

@@ -6,12 +6,12 @@ section_id: "A.15.PROD:13"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__014_lowering-repair-and-refresh-conditions.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:13 — Lowering, Repair, and Refresh Conditions"
-line_start: 26892
-line_end: 26901
+line_start: 26519
+line_end: 26534
 dependencies:
   - "A.1"
   - "A.15.1"
@@ -30,7 +30,13 @@ keywords:
 
 ### A.15.PROD:13 - Lowering, Repair, and Refresh Conditions
 
-An ordinary production-work claim lowers when exact Work identity, enacted method, method applicability, intended production effect, affected referent, work-part relation, named Work-to-change predicate or filled local claim, shared applicability, or the deciding receiver criterion is missing. An inception claim lowers when its exact identity specification, named applicability predicate or filled local claim, identity-closing Work, actual effects, named Work-to-change and change-to-identity predicates or compound bases, or exact after-side entity cannot be recovered; a claim that this is the first satisfying boundary additionally needs an ordered candidate-boundary domain and earliest-satisfying rule. A completion claim lowers when production Work, applicable criterion, its named applicability predicate or filled local claim, boundary, actual boundary-state facts, or criterion-satisfaction predicate is missing. An ordinary positive claim does not lower merely because no substrate document is materialized. A negative claim needs the selected substrate's applicable negation law, and a pin-triggering or earliest-boundary use needs the constructor, witness, polarity, or time semantics it actually consumes; absence of those required semantics yields the exact missing-substrate blocker. Punctuation, a project, plan, label, result record, log, certificate, or publication supplies no substitute.
+An ordinary production-work claim lowers when its exact Work, Method enactment and applicability, intended production effect, affected referent, Work-part relation, Work-to-change predicate or local claim, shared applicability, or receiver's deciding criterion is missing.
+
+An inception claim lowers when its exact identity specification and applicability, identity-closing Work, actual effects, Work-to-change and change-to-identity bases, or after-side entity cannot be recovered. A claim that this is the first satisfying boundary additionally needs an ordered candidate-boundary domain and an earliest-satisfying rule.
+
+A completion use preserves a valid state-satisfaction claim whenever possible. That claim lowers only when its completion subject, criterion and applicability, boundary, boundary-state facts, or state-satisfaction predicate is missing. The separate Work-completion claim lowers when exact production Work or its closure predicate or local claim is absent; loss of that link does not erase the state-satisfaction claim.
+
+An ordinary positive claim needs no materialized substrate document. A negative claim needs the selected substrate's applicable negation law. A pin-triggering or earliest-boundary use needs only the constructor, witness, polarity, ordering, or time semantics it actually consumes; missing required semantics yields the exact missing-substrate blocker. A project, plan, label, result record, log, certificate, publication, or punctuation supplies no substitute.
 
 A maintainer **MUST** repair only the affected local claim when later information changes work identity or parthood, a direct work-to-change fact, the exact identity-specification episteme or its applicability basis, the exact completion-criterion episteme or applicability relation, a boundary state, a relied-on base-predicate edition, or the selected substrate edition or constructor semantics. An earlier inception or completion claim remains indexed by the exact specification or criterion episteme and applicability basis used at its boundary. An obtaining C.2.1 `EpistemeEditionRelation` can trigger lineage-aware refresh of current dependent uses but does not rewrite that claim; a non-continuing replacement opens a new independent applicability question. A later transformation, delivery, acceptance, release, publication, or availability claim does not by itself repair or invalidate an earlier production claim.
 

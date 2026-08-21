@@ -6,12 +6,12 @@ section_id: "E.8:11"
 section_title: "SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__016_sota-echoing-normative-lineage-and-deltas-to-contemporary-state-of-the-art.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:11 — SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
-line_start: 72682
-line_end: 72718
+line_start: 69983
+line_end: 70019
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -67,13 +67,13 @@ keywords:
 **Minimum contents (authoring requirements).**
 1) **Evidence binding (no duplicate SoTA).** If a **SoTA Synthesis Pack** exists (G.2), this section **SHALL cite** its **ClaimSheet IDs, CorpusLedger entries, and BridgeMatrix rows** as the governing evidence source for claims and report `adopt`, `adapt`, or `reject` **consistent with those IDs**. Avoid forking an untracked SoTA narrative.
 1a) **Accepted decision and source material set, not DRR-only narrowing.** When a pattern is drafted under an accepted `DRR` and other accepted decision or source materials also exist by value, the `DRR` remains the decision and placement record, but `SoTA-Echoing`, neighboring-pattern relations, and any minimal modeling or mathematical lens **MAY** and **SHOULD** inherit non-conflicting material from that accepted material set.
-2) **Sources (current problem-solving source refs, not prestige refs).** For **Architectural patterns**, cite at least 3 primary SoTA source refs that carry current best-known answers for the named practice question, with at least **two independent Traditions** when more than one serious tradition currently answers that question. For **Definitional patterns**, cite at least 1 current source or practice ref for the reduced issue being governed: terminology work, ambiguity or sense recovery, separation between constraint and ontology, controlled-vocabulary caution, or a comparable definitional problem. If the best source is older but still current, mark why it still answers the named practice question rather than treating source age, standard status, or popularity as SoTA by itself.
+2) **Sources (current problem-solving source refs, not prestige refs).** Use the smallest source set that can compare the serious current answers to the named practice question by value. Include independent traditions when more than one serious tradition actually answers that question; do not add a weak tradition to satisfy a count. A definitional pattern may need only one current source or practice line for its reduced issue. An older source may carry a current answer when the pattern says why later work has not displaced that contribution. Age, count, official status, popularity, and publication form are search cues, not SoTA verdicts.
 3) **Best-known, not merely popular.** Authors **SHALL** distinguish best-known currently defensible practice from merely widespread or fashionable defaults. If the pattern adopts, adapts, or rejects a popular but less defensible practice, that divergence **MUST** be stated explicitly.
 3a) **Currentness and lineage status.** Older standards, early papers, and historically important examples may be cited as lineage only when later practice has materially changed the answer. They may carry a SoTA row only when the pattern states why the source ref is still current for the named practice question or pairs it with a current source that supplies the current practice.
 3b) **Problem-domain and practice answerability.** The selected SoTA source family **MUST** answer the governed working problem and the relevant domain or practice tradition. It **MUST NOT** be selected only because it makes package placement, naming neatness, or pattern clustering easier to justify.
 4) **Practice alignment.** For each cited item, state **what is adopted, adapted, or rejected** and **why** in 2 to 4 sentences.
 5) **Scale admissibility.** If numeric operations are implied, bind to ComparatorSet or CG-Spec and declare partial-order stance with no hidden scalarization.
-6) **Actual cross-local relation.** When a use actually relates distinct F.17 local senses or ReferencePlanes, expose the exact F.9 relation, CL, admitted use, loss notes, and applicable plane policy; penalties affect only `R_eff`. Do not invent a Bridge for a shared word or ordinary source import.
+6) **Actual cross-local or plane relation.** When a use relies on an obtaining Bridge, expose the two exact F.17 local senses, the F.9 relation, and a separate bounded-use claim; `CL` is optional evidence shorthand. For a ReferencePlane use, expose the applicable plane relation. Add a penalty only under a named current policy that applies to the exact use. Do not invent a Bridge, `CL`, plane relation, or penalty from a shared word, source import, context, or plane difference.
 7) **Lexical hygiene.** Avoid “mapping” unless you mean an explicit Bridge, translation relation, or other named relation with loss notes.
 
 **Writing guidance (readability).**
@@ -83,7 +83,7 @@ keywords:
 
 #### E.8:11.1 - SoTA alignment for this pattern (E.8 self-echo)
 
-| Claim (E.8 need) | SoTA practice (post-2015) | Use of source | Primary source (post-2015) | Alignment with E.8 | Adoption status |
+| Claim (E.8 need) | Current or still-current practice answer | Use of source | Primary source or lineage anchor | Alignment with E.8 | Adoption status |
 |---|---|---|---|---|---|
 | Pattern texts must be teachable, not just correct. | Use a stable skeleton with problem frame, problem, forces, solution, actions, and consequences, plus illustration and checks, to keep patterns readable and actionable. | **Current-practice writing-guidance use.** This row is used for E.8's canonical pattern skeleton and didactic ordering; it is not treated as external authority over FPF ontology. | Iba (2021), “How to Write Patterns: A Practical Guide for Creating a Pattern Language on Human Actions” (PLoP 2021 PLoPourri). | Canonical Template mirrors the skeleton and adds Archetypal Grounding plus Conformance Checklist as first-class sections. | **Adopt and adapt.** Adopt the skeleton; adapt by making bias and conformance explicit sections. |
 | Pattern quality needs explicit validation beyond folklore. | Critique of ad hoc validation, including the rule of three, and push toward more rigorous discovery and validation methods. | **Current-best source use for pattern discovery and validation rigor in this row's narrow use.** The source changes E.8 by requiring validation to be explicit rather than folklore-based. | Riehle, Harutyunyan, Barcomb (2020), “Pattern Discovery and Validation Using Scientific Research Methods”. | E.8 encodes validation as Conformance Checklist plus SoTA-Echoing with adoption status and evidence binding. | **Adopt.** Adopt auditability goals; keep the mechanism lightweight through checks and evidence binding. |

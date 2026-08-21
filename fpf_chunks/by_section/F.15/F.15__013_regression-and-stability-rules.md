@@ -6,12 +6,12 @@ section_id: "F.15:11"
 section_title: "Regression and stability rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__013_regression-and-stability-rules.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:11 — Regression and stability rules"
-line_start: 95323
-line_end: 95379
+line_start: 92714
+line_end: 92770
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,7 +55,7 @@ The RSCR family compares exact earlier and later refs for each changed member. E
 #### F.15:11.1 - Schemes, versions, and known confusions
 
 **RSCR-F15-E1 (Exact before/after and no silent replacement).**
-For each changed member, resolve exact `@t0` and `@t1` refs and versions. A changed effective ReferenceScheme changes interpretation-bearing content; an unchanged label or shared designator does not prove continuity. State the subject-pattern identity, continuity, split, retirement, or replacement claim explicitly.
+For each changed member, resolve exact `@t0` and `@t1` refs and versions. A changed effective ReferenceScheme changes interpretation-bearing content; an unchanged label or shared designator does not prove continuity. State the exact identity, continuity, split, retirement, or replacement claim and cite the rule that defines or tests it.
 
 **RSCR-F15-E2 (Known confusion check).**
 Recheck or explicitly retire every prior confusion, blocked use, and nearest counterexample affected by the change. A new edition does not erase an old trap.
@@ -79,10 +79,10 @@ When a changed value, sense, or use alters row support, preserve the exact earli
 #### F.15:11.4 - SystemRoleKindDescriptions and names
 
 **RSCR-F15-E7 (`SystemRoleKindDescription` continuity).**
-Compare exact F.4 description epistemes, described local system-role kinds, their named practice or source boundaries and stable work-facing contribution distinctions, current `KindSignature` editions, effective schemes, and claim content. A label-only change cannot prove that the described kind or description episteme stayed the same.
+Compare exact F.4 description epistemes and the described kinds' candidate domains, operative membership conditions, intended member/non-member boundaries, continuity rules, current `KindSignature` editions, effective schemes, and claim content. Source or practice provenance is a cue to compare those definitions, not an identity key. A label-only change cannot prove that the described kind or description episteme stayed the same.
 
 **RSCR-F15-E8 (Alias for expression change; direct recovery for meaning change).**
-If only a selected expression changes while the exact value, scheme, sense, and use are preserved, F.13 and F.18 may record an alias or rename. A changed described system-role kind, constituting practice or source boundary, stable contribution distinction, current criterion, scheme, local sense, or description claim requires the corresponding new object or episteme and a fresh naming settlement.
+If only a selected expression changes while the exact value, scheme, sense, and use are preserved, F.13 and F.18 may record an alias or rename. A changed described kind, candidate domain, operative membership distinction, member/non-member boundary, continuity rule, scheme, local sense, or description claim requires the corresponding new object or episteme and a fresh naming settlement. A practice or source change by itself triggers comparison; it proves neither continuity nor a split.
 
 #### F.15:11.5 - Bridges and bounded uses
 
@@ -95,7 +95,7 @@ A later equivalence claim requires an exact Equivalence profile, true predicate,
 #### F.15:11.6 - Status and system-role-kind relation structure
 
 **RSCR-F15-E11 (Status-window and status-use stability).**
-Compare the exact subject-pattern family/value, target, scope, window, source condition, and intended use at `@t0` and `@t1`. Changed time, scale, confidence, or edition does not create a new family or preserve an old result automatically.
+Compare the exact status family and value definitions, target, scope, window, source condition, and intended use at `@t0` and `@t1`. Changed time, scale, confidence, or edition does not create a new family or preserve an old result automatically.
 
 **RSCR-F15-E12 (System-role-kind relation stability).**
 Preserve, retire, or restate each exact incompatibility, monotonic kind order, residual qualification, bundle, requirement, or selected `SystemRoleKindRelationStructure` before using it in a naming, assignment, or Work claim. No later description or fused label substitutes for the relation occurrence.

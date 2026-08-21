@@ -6,12 +6,12 @@ section_id: "A.16.2:21"
 section_title: "Comparative Retreat Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__022_comparative-retreat-rule.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:21 — Comparative Retreat Rule"
-line_start: 28028
-line_end: 28038
+line_start: 27543
+line_end: 27553
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,11 +36,11 @@ keywords:
 ### A.16.2:21 - Comparative Retreat Rule
 
 #### A.16.2:21.1 - Retreat kinds are not interchangeable
-`reopen`, `sketchBackoff`, `respecify`, and `retire` solve different problems. Comparing them as if they all meant "we stepped back" erases the specific authority change each one makes.
+`reopen`, `sketchBackoff`, `respecify`, and `retire` solve different problems. Comparing them as if they all meant "we stepped back" erases the particular closure, framing, route, endpoint-use, publication, or current-use change each one makes.
 
 #### A.16.2:21.2 - Honest recovery over softening prose
-A context may prefer softening language such as "refined further" or "adjusted slightly" even when a real retreat or retirement occurred. `A.16.2` rejects that habit. If authority fell, closure dropped, framing was withdrawn, or a branch was retired, the move should be named directly.
+A context may prefer softening language such as "refined further" or "adjusted slightly" even when a real retreat or retirement occurred. `A.16.2` rejects that habit. If closure dropped, framing was withdrawn, route selection or endpoint use changed, or a branch was retired, name the move directly.
 
 #### A.16.2:21.3 - Boundary to silent editing
-If a publication is simply rewritten and no continuity or authority story is preserved, that is editing, not `A.16.2`. Retreat is a reviewable move only when the earlier high-closure form or form with endpoint authority claim remains part of the visible history.
+If a publication is simply rewritten and no continuity account is preserved, that is editing, not `A.16.2`. Retreat is a reviewable move only when the earlier high-closure form or the form that had passed a named endpoint test remains part of the visible history.
 

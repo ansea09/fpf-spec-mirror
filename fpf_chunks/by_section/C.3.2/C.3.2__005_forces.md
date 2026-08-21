@@ -6,12 +6,12 @@ section_id: "C.3.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__005_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:3 — Forces"
-line_start: 44875
-line_end: 44886
+line_start: 43669
+line_end: 43680
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -32,10 +32,10 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Readable use vs reusable declaration | One case should stay ordinary, while repeated classification needs a stable criterion and assumptions. |
-| Direct feature vs evidence | Candidate features make the criterion hold; evidence only supports an assertion about them. |
-| False vs unknown | Known criterion failure differs from unavailable evidence, missing dependency, or out-of-domain input. |
-| Intent vs extension | A declaration can stay fixed while candidate state or the selected slice changes the true-candidate set. |
+| Admissibility vs uncertainty | Candidate or slice mismatch means no judgment; missing knowledge for an admissible request means `unknown`. |
+| Criterion condition vs evidentiary use | The direct condition named by the criterion can be physical, relational, epistemic, institutional, or publication-dependent; use as evidence alone creates none of them. |
+| False vs unknown | Known criterion failure differs from unavailable support or dependency. |
+| Intent vs extension | A declaration can stay fixed while candidate state or selected slice changes the true-candidate set. |
 | Set use vs ontology | A query may need a set without creating a collection holon, direct relation occurrence, or `U.EntitySet`. |
-| Local kind vs public kind | A project kind can be useful without durable FPF U-kind admission. |
-| Scope vs evaluation input | Claims may be scoped; the kind is not. The context slice is an input to classification. |
+| Scope vs evaluation input | Claims may be scoped; the kind is not. The context slice is an explicit input. |
 

@@ -6,12 +6,12 @@ section_id: "A.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__004_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:3 — Forces"
-line_start: 23988
-line_end: 23997
+line_start: 23422
+line_end: 23431
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -61,6 +61,6 @@ keywords:
 | Structure and enactment | Stable structural decomposition must remain distinct from system classification, assignment, Method, plan, capability, and dated Work. |
 | Simple and specialized assignments | A simple assignment should remain light, while a real commission, position, or locus must retain the participant that distinguishes its species and occurrence. |
 | Method, plan, and occurrence | A reusable Method, its description, intended Work, and performed Work must stay connected without becoming one record. |
-| Clarity and precision | Practitioners need ordinary readable claims, while reliance-bearing use may need exact occurrence identity and support. |
+| Clarity and precision | Practitioners need ordinary readable claims, while reliance-bearing use may need exact occurrence identity, evidence use, source currentness, or assurance. |
 | Accountability and proportionality | Auditability may require a full trace, but ordinary orientation should stop at the shortest sufficient relation chain. |
 

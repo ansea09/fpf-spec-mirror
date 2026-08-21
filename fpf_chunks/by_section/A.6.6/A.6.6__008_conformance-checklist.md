@@ -1,104 +1,50 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
+pattern_title: "Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
 section_id: "A.6.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__008_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
+  - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:7 — Conformance Checklist"
-line_start: 19644
-line_end: 19698
+line_start: 19352
+line_end: 19369
 dependencies:
   - "A.10"
   - "A.14"
   - "A.2.4"
-  - "A.2.6"
   - "A.6.0"
   - "A.6.3"
-  - "A.6.3-A.6.4"
   - "A.6.4"
   - "A.6.5"
-  - "A.6.P"
-  - "A.7"
+  - "A.6.6"
+  - "A.6.REL"
   - "C.2.1"
-  - "C.3.3"
   - "E.10"
-  - "E.18"
-  - "E.8"
-  - "F.15"
+  - "F.17"
   - "F.18"
   - "F.9"
 keywords:
-  - "SWBD"
-  - "anchoring"
-  - "base declaration"
-  - "baseRelation"
-  - "basedness"
-  - "rebase"
-  - "rescope"
-  - "retime"
-  - "scope"
-  - "support-as-basedness"
-  - "witnesses"
-  - "Γ_time"
 ---
 
 ### A.6.6:7 - Conformance Checklist
 
-A carrier (pattern, spec, schema, code carrier, or publication) conforms to A.6.6 iff:
+A carrier conforms to A.6.6 when the checks relevant to its actual use pass:
 
-1. **CC‑BD‑1 — Base relation kind is explicit.**
-   Every base-declaration-like statement SHALL name an explicit `baseRelation` token (a declared vocabulary element). No umbrella metaphor SHALL substitute for a relation kind.
-
-2. **CC‑BD‑2 — Dependent and base are explicit and typed.**
-   Every based declaration SHALL make both `dependent` and `base` explicit, and SHALL be SlotKind/ValueKind/RefMode disciplined per A.6.5.
-
-3. **CC‑BD‑3 — Scope is explicit.**
-   Every based declaration SHALL include an explicit `scope` (Claim scope (**G**) / Work scope / Publication scope).
-
-4. **CC‑BD‑4 — `Γ_time` is explicit when time matters.**
-   If any time-dependent assumption exists, the based declaration SHALL include an explicit `Γ_time`; implicit “latest/current” SHALL NOT be used as a substitute.
-
-5. **CC‑BD‑5 — Decision use is witnessed.**
-   If a base declaration participates in assurance, gating, or admissibility decisions, it SHALL include a non-empty, resolvable `witnesses` set (pins).
-
-6. **CC‑BD‑6 — No silent kind edits.**
-   Changing `baseRelation` SHALL be treated as a semantic change: it SHALL be represented as a new declaration plus explicit continuity, not as an edit-in-place.
-
-7. **CC‑BD‑7 — Grounding is disambiguated.**
-   Any use of “grounding/grounded” SHALL be disambiguated to a specific declared relation kind or moved to source-local meaning recovery under F.0.1 and, when needed, F.17.
-
-8. **CC‑BD‑8 — Actual cross-local use is explicit.**
-   If the declaration consumes a relation between different exact local kinds, distinct F.17 cells, translated scopes, or ReferencePlanes, it SHALL cite the applicable C.3.3, F.9, scope, or plane relation and its admitted-use limits. Different sources alone do not require or establish a Bridge.
-
-9. **CC‑BD‑9 — `Γ_time` is not treated as freshness.**
-   When witness freshness/decay matters, it SHALL be expressed explicitly through evidence-use timespans, witness qualification windows, or explicit freshness predicates, not by treating `Γ_time` as a proxy.
-
-10. **CC‑BD‑10 — Edition fence for decision/publication.**
-   If a base declaration is used for decision or cited in PublicationScope, it SHALL be immutable per edition: updates SHALL mint a new declaration and connect it via explicit continuity/withdrawal.
-
-11. **CC‑BD‑11 — Slot suffix discipline is respected.**
-   The `*Slot` suffix SHALL be used only for SlotKinds/positions, never for endpoint values or references.
-
-12. **CC‑BD‑12 — No “anchor” relapse.**
-   `anchor*` / `ground*` / `attach*` SHALL NOT be used as surrogates for a source, local meaning, F.17 cell, local-sense basis relation, or unnamed dependence kind. Authors SHALL either use the reserved primitive sense (where explicitly defined elsewhere) or rewrite into explicit `baseRelation(dependent, base)` form. Metaphor-head tokens SHALL NOT be minted as new relation-specific `baseRelation` vocabulary entries; if quoted source wording must be retained, record it as source wording against the specific non-metaphor token.
-
-13. **CC‑BD‑13 — BaseRelation declarations are explicit.**
-    Every `baseRelation` token used in an SWBD SHALL resolve to a vocabulary entry that declares at least polarity; typing expectations (ValueKind + `refMode`) for `DependentSlot` and `BaseSlot`; admissible repair options (KindBridge, narrowing, or explicit retargeting); scope class; time discipline (`Γ_time` required, optional, or forbidden); witness discipline; admissible change classes; and any cross-local or cross-plane policy with the exact applicable relation, admitted use, and loss or limit.
-
-14. **CC‑BD‑14 — Authoring voice is explicit.**
-    In Tech / normative prose, based declarations SHALL be written as `baseRelation(dependent, base)` or `dependent --baseRelation--> base`. Base-view prose SHALL be used only if polarity is preserved via explicit inverse-token use; implicit polarity flips SHALL NOT be used.
-
-15. **CC‑BD‑15 — Meaning lane separation.**
-    Semantic meaning assignment SHALL begin with the exact source, edition, effective ReferenceScheme, local expression, and local-sense claim under F.0.1; an F.17 cell or basis relation is added only when that stronger use is current. It SHALL NOT be modeled as SWBD. SWBD SHALL be used only for non-semantic base-dependence (admissibility, calibration, attribution, policy gating, constructive grounding, and viewing and retargeting specialisations).
-
-16. **CC‑BD‑16 — Reserved “bind” discipline.**
-    `bind/binding` SHALL be reserved for **name binding** (LEX discipline) and SHALL NOT be used as a synonym for declaring/refreshing/changing a base declaration. Authors SHALL use the base‑change lexicon (`declareBase`, `rebase`, `rescope`, `retime`, `refreshWitnesses`, …) and explicit continuity/withdrawal relations instead.
-
-17. **CC‑BD‑17 — Support wording is classified before base declaration.**
-    A support-looking statement SHALL pass the support wording selection test before it is modeled as SWBD. If the reading is not base-dependence, the text SHALL name the ontology of the subject pattern for that claim or keep the phrase as ordinary help/orientation; it SHALL NOT mint a support-headed baseRelation or record as a generic container.
+1. **CC-BD-1 - Direct assertion first.** The actual dependent, base, direct relation, and readable affirmative or negative assertion are recoverable. The direct pattern supplies the predicate; a record or label does not.
+2. **CC-BD-2 - Ordinary stop.** If that assertion answers the receiving question, no SlotSpecs, declaration record, witnesses, edition, occurrence identity, or assurance package is required.
+3. **CC-BD-3 - Reusable declaration is demand-driven.** A `RelationSignature` appears only for an already admitted relation kind and at least two named consumers of the same participant meanings, predicate, laws, and applicability.
+4. **CC-BD-4 - Assertion and occurrence stay separate.** A scoped witnessed record, when used, is a C.2.1 assertion or description episteme. It neither is nor creates the world-side relation occurrence.
+5. **CC-BD-5 - Qualifiers are local.** Scope and time are explicit when the selected predicate or named receiving use depends on them; they are not a universal field kit. `Gamma_time` is not used as a proxy for evidence freshness.
+6. **CC-BD-6 - Evidence ontology is direct.** Evidence use follows A.2.4 and A.10. Work, operation result, result episteme, carrier, provenance, evidence-use relation, and reliance remain separate; no generic `verifiedBy` or `validatedBy` edge is minted.
+7. **CC-BD-7 - Crossings are conditional.** An actual relation between two exact F.17 cells uses F.9 only when its predicate obtains and keeps the bounded-use claim separate. A ReferencePlane crossing uses its applicable plane relation. One creates neither the other.
+8. **CC-BD-8 - No silent retyping or direction flip.** Participant kinds and direction follow the direct relation. A mismatch is repaired by the applicable narrowing, Bridge, retargeting, or direct relation rule, not by renaming an endpoint.
+9. **CC-BD-9 - Plain language remains sufficient.** Ordinary relation-specific prose is preferred. Functional or arrow notation is optional and may not replace the readable assertion.
+10. **CC-BD-10 - Metaphors do not become ontology.** `anchor`, `ground`, `attach`, and `support` remain source-word triggers unless they name an already reserved primitive; no metaphor-headed fallback kind or relation is minted.
+11. **CC-BD-11 - Meaning lane stays separate.** Source-local meaning starts with F.0.1 and uses F.17 only when a durable sense address or basis relation is needed; it is not a base-declaration record.
+12. **CC-BD-12 - Change claims name the changed object.** Editing an assertion or reusable declaration changes that episteme. An actual relation change requires the direct relation's own change predicate and any separately current Work.
+13. **CC-BD-13 - Optional history is proportional.** `declareBase`, `rebase`, `rescope`, `retime`, or `refreshWitnesses` is used only when a named receiver needs that declaration history. The label establishes no world-side fact.
 

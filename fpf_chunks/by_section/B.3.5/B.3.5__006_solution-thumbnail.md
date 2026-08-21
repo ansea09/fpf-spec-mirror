@@ -6,12 +6,12 @@ section_id: "B.3.5:4"
 section_title: "Solution (thumbnail)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__006_solution-thumbnail.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:4 — Solution (thumbnail)"
-line_start: 39334
-line_end: 39382
+line_start: 38160
+line_end: 38208
 dependencies:
   - "B.3"
   - "C.13"
@@ -33,13 +33,13 @@ CT2R‑LOG introduces a **two‑link discipline** around each canonical edge:
    **Working-Model relations** (e.g., `ut:ComponentOf`) are the public names for their exact direct relation principles. **`tv:AliasOf`** may point from the public relation kind to that principle for comparison and reuse; the alias defines neither an occurrence nor a whole.
 
 2. **Grounding link (evidence‑level).**
-   Each **edge instance** carries **`tv:groundedBy`**:
+   Each **edge instance covered by this elected profile** carries **`tv:groundedBy`**:
 
-   * **MANDATORY** for **all published structural edges** (sub-properties of `ut:StructPartOf`): the target is one current C.2.1 construction-trace episteme in the `sum`, `set`, or `slice` form. It names the exact participants, direct relation occurrences, applicable construction rule, and identity or reidentification conditions already grounded under their direct patterns. **Set** `validationMode=axiomatic`; **`postulate` SHALL NOT be used for structural edges**. Neither the link nor the mode makes those facts obtain.
+   * **REQUIRED** for each **published structural edge covered by the profile** (a sub-property of `ut:StructPartOf`): the target is one current C.2.1 construction-trace episteme in the `sum`, `set`, or `slice` form. It names the exact participants, direct relation occurrences, applicable construction rule, and identity or reidentification conditions already grounded under their direct patterns. **Set** `validationMode=axiomatic`; **`postulate` SHALL NOT be used for a structural edge within this profile**. Neither the link nor the mode makes those facts obtain.
    * **Optional** for **epistemic edges** (e.g., `ConstituentOf`, `RepresentationOf`): if no `Γ_m` trace is appropriate, attach an **evidence object** whose admissibility is governed by the declared **`validationMode ∈ {inferential, postulate}`** (assurance rules).
 
 2. **Validation flag (author intent).**
-   Every declared edge or aggregation rule carries **`tv:validationMode`** with one of:
+   Every edge or aggregation rule covered by this profile carries **`tv:validationMode`** with one of:
    * **`postulate`** — pragmatic working claim backed by observations;
    * **`inferential`** — reasoned consequence (proof outline);
    * **`axiomatic`** — the author declares that one inspectable construction account is the assurance basis for the assertion. This is an assurance posture, not a species of world-side relation and not an identity or timelessness guarantee.

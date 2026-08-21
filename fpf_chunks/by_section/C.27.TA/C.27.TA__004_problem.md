@@ -6,12 +6,12 @@ section_id: "C.27.TA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__004_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:2 — Problem"
-line_start: 56705
-line_end: 56714
+line_start: 53994
+line_end: 54003
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,6 +50,6 @@ Without C.27.TA:
 1. **Cadence and rhythm become decorative words.** A text says "release cadence" or "team rhythm" without naming bearer, interval, timing reference, or use.
 2. **Freshness becomes a vague virtue.** A source, benchmark, dashboard, or claim is called current without a validity window or refresh relation.
 3. **Recovery and stabilization hide their interval.** A claim says "recover faster" or "stabilize" without saying over which window, after which disturbance, and for which bearer.
-4. **Effort and inertia float free.** A text speaks about momentum, residue, stored work, adaptation cost, or resistance without linking it to a temporal window and governed object.
+4. **Effort and inertia float free.** A text speaks about momentum, residue, stored work, adaptation cost, or resistance without linking it to a temporal window and exact object.
 5. **Transformation absorbs time silently.** A transformation statement names a change but leaves timing and ordering implicit, so method, mechanism, work, evidence, and temporal claims get tangled.
 

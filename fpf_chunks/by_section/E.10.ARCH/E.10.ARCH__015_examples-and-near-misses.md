@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:9"
 section_title: "Examples and near misses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_examples-and-near-misses.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:9 — Examples and near misses"
-line_start: 76165
-line_end: 76187
+line_start: 73445
+line_end: 73467
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.10.MOVE"
   - "E.11"
   - "E.18"
   - "E.19"

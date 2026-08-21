@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.6.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
-line_start: 91866
-line_end: 92225
+line_start: 89258
+line_end: 89617
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -230,7 +230,7 @@ InspectionWork-17 was performed by Robot-7 under InspectionAssignment-17.
 
 Expose declarations and occurrence keys only when a dependent use must distinguish occurrences, cite one as a participant, compare assertions, or preserve provenance. If the assignment cannot be recovered, lower the claim to “Robot-7 is named as performer in record R” and state the source, reliance, and evidence claims under their direct predicates.
 
-Another pattern may require a **complete A.15.1/F.6 basis** and point here instead of repeating this declaration and check sequence. Its local prose then names only the Work or attribution distinctions that its own reader uses. The complete basis still recovers the Work's Method, extent, and containing System and, for every performer, the exact assignment species, obtaining occurrence, actual participant values, coverage, and F.6 relation.
+Another pattern may require a **complete A.15.1/F.6 basis** and point here instead of repeating this declaration and check sequence. Its local prose then names only the Work or attribution distinctions that its own reader uses. The complete basis still recovers at least one obtaining `enactsMethod` relation, the Work extent, at least one obtaining locally declared A.15.1 Work-to-System containment relation, and, for every performer, the exact assignment species, obtaining occurrence, actual participant values, coverage, and F.6 relation. Another enactment or containing-system relation is named only when the receiving use relies on it.
 
 ### F.6:5 - Invariants
 

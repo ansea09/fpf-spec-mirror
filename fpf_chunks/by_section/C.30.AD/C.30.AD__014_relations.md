@@ -6,12 +6,12 @@ section_id: "C.30.AD:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__014_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:11 — Relations"
-line_start: 60311
-line_end: 60327
+line_start: 57501
+line_end: 57517
 dependencies:
   - "A.1"
   - "A.10"
@@ -51,6 +51,7 @@ dependencies:
   - "C.32.PAD"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.D2"
   - "E.10.MOVE"
   - "E.11.PUR"
   - "E.17"
@@ -76,18 +77,18 @@ keywords:
 
 ### C.30.AD:11 - Relations
 
-- `C.2.1` governs the exact identity of every architecture-description episteme.
-- `C.30` governs obtaining architecture relations, selected-structure adequacy, and bounded architecture claims.
+- Use `C.2.1` to identify every architecture-description episteme.
+- Use `C.30` for obtaining architecture relations, selected structures, and bounded architecture claims.
 - `C.30.P` normalizes overloaded architecture or structure wording before this pattern is used.
-- `C.30.ASV` governs architecture structural-view adequacy, while `E.17.0` alone admits the same episteme as `U.View` through exact viewpoint conformance.
-- `C.33` governs capture and loss of selected structure when an architecture description, generated relation graph, ADR-like record, or view set carries only part of the architecture content for a declared use.
-- `C.34` governs preservation or correspondence adequacy when the architecture description is being compared with another view, source model, generated output, candidate, or realized structure.
-- `A.6.3.NAR` governs a reader-facing narrative rendering made from an architecture description, description set, view set, or architecture-decision route. `C.30.AD` governs architecture-description adequacy; `A.6.3.NAR` governs only the structure-to-sequence relation, selected-source carry-through, lost structure, reader-use boundary, and applicable source-return condition.
-- `C.30.TFS-REL`, `C.30.LCA`, and `C.30.ILC` govern architecture structure-relation subcases named by value.
-- `C.32.P2S` governs the connected architecturing flow when the description carries only part of selected structure, decision handoff, method expectation, source-to-use continuity, an applicable source-return condition, or actual-structure feedback.
-- `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, and `E.24.PUB` govern generic EntityOfConcern, view, viewpoint, representation, publication occurrence, form, carrier, and MVPK machinery.
+- Use `C.30.ASV` to test architecture structural-view adequacy; only E.17.0 conformance admits the same episteme as `U.View`.
+- Use `C.33` to account for captured and lost structure when a description, generated relation graph, ADR-like record, or view set carries only part of the needed architecture content.
+- Use `C.34` to test preservation or correspondence when comparing a description with another view, source model, generated output, candidate, or realized structure.
+- Use `A.6.3.NAR` for a reader-facing narrative made from a description, view set, or decision route. C.30.AD tests description adequacy; A.6.3.NAR handles structure-to-sequence, source carry-through, lost structure, reader use, and return conditions.
+- Use `C.30.TFS-REL`, `C.30.LCA`, and `C.30.ILC` for their named architecture-relation subcases.
+- Use `C.32.P2S` for a connected architecturing flow when the description carries only part of the selected structure, decision handoff, method expectation, source continuity, return condition, or feedback from actual structure.
+- Use `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, and `E.24.PUB` for generic EntityOfConcern, view, viewpoint, representation, publication occurrence, form, carrier, and MVPK machinery.
 - `C.2.P` normalizes source-expression, source-to-use, publication-form, and publication-currentness relation-set overreads.
-- `E.11.PUR` governs recommended FPF pattern use after an architecture description has been read; C.30.AD only records the description-use boundary.
-- `A.15.5` governs work-entry readiness and full-kit condition for intended architecture work; the A.15 family governs Work and project-use relations. C.30.AD records only exact descriptions and their view conformance, description-set use, correspondence, source-to-use paths, applicable source-return conditions, freshness, representation, publication use, and specification use.
+- Use `E.11.PUR` for recommended FPF pattern use after reading a description; C.30.AD records only the description-use boundary.
+- Use `A.15.5` for work-entry readiness and full-kit condition; use the A.15 family for Work and project-use relations. C.30.AD records only descriptions and their view conformance, set use, correspondence, source paths and returns, freshness, representation, publication use, and specification use.
 - `E.10.MOVE` restores move-like wording when source prose about an architecture description does not mean a C.30 architecture move or a C.30.AD remaining architecture candidate use.
 

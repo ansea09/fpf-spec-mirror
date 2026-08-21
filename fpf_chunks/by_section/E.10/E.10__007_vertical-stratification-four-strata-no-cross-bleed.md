@@ -6,12 +6,12 @@ section_id: "E.10:5"
 section_title: "Vertical Stratification (four strata; no cross-bleed)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__007_vertical-stratification-four-strata-no-cross-bleed.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:5 — Vertical Stratification (four strata; no cross-bleed)"
-line_start: 74737
-line_end: 74753
+line_start: 72003
+line_end: 72019
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,7 +69,7 @@ keywords:
 
 **V‑2 (Strata and authoring stances).** The four lexical strata above constrain **tokens**. They are independent of a claim-bearing unit's **stance** (its `CtxState` pins such as `DesignRunTag`, `ReferencePlane`, and `Locus`). Strata answer “what words mean here”; stance answers “where this claim is situated” and which evidence-lane expectations apply.
 
-**V-3 (Citation style).** When a local Tech designation changes interpretation or action, its first use names the source or practice boundary and effective scheme that carry that meaning—for example `ReviewerSystemRole@JournalReview-2026`. Reuse under another local meaning names both exact values and uses F.9 only if a direct Bridge between their exact cells actually obtains. The suffix establishes neither kind admission nor assignment.
+**V-3 (Citation style).** When a local Tech designation changes interpretation or action, its first use names the source or practice provenance and effective scheme needed to read that use—for example, `ReviewerSystemRole` under the JournalReview-2026 definition. Reuse under another local meaning first compares the exact governed values; use F.9 only if a direct Bridge between distinct exact cells actually obtains. A suffix may serve as a locator, but it establishes neither kind identity, admission, nor assignment.
 
 **V-4 (Firewall).** Tooling and Pedagogy idioms remain outside Kernel prose (DevOps Lexical Firewall). CI/CD jargon, file formats, and API names are not admitted in Core definitions. Pedagogy may use them only as Plain-register examples with Tech anchors present.
 

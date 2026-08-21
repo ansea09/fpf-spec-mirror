@@ -6,12 +6,12 @@ section_id: "A.2.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:4 — Solution"
-line_start: 5961
-line_end: 6163
+line_start: 5973
+line_end: 6179
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -39,14 +39,18 @@ Build a structure only when several exact relation occurrences must be selected 
 ```text
 SystemRoleKindRelationStructure : U.Structure
   systemRoleKindSubstrate:
-    exact finite set of context-local system-role kinds, by value
+    exact finite set of independently identified context-local system-role kinds, by value
   selectedSystemRoleKindRelationOccurrenceRefs:
     finite set of references to exact obtaining relation occurrences
-  admissibleUse:
-  nonAdmissibleUse:
+  appliedConstraintClaimRefs:
+    exact constraint claims applied in this selection; an empty set is stated explicitly
+  namedSelectionUseFrame:
+    question:
+    admissibleAction:
+    stopOrNonAdmissibleOverread:
 ```
 
-The structure's identity is the exact system-role-kind substrate plus the exact identities of its selected obtaining relations. A changed rendering, identifier, publication, table, or graph changes no structure. A change that changes one selected `C.3.1 U.SubkindOf` occurrence or another selected relation does change the structure.
+The structure specializes A.22's four-part identity: the exact system-role-kind constituents, the exact selected obtaining relation occurrences, the exact constraint claims applied, and one named selection-use frame stating the question, admissible action, and stop or non-admissible overread. A changed rendering, identifier, selecting Work, publication, table, or graph changes no structure while all four values remain unchanged. Replacing a constituent, selected relation occurrence, applied constraint, or use frame identifies another structure. Without a required constraint or named frame, the material is still an arrangement or description rather than an admitted `SystemRoleKindRelationStructure`.
 
 #### A.2.7:4.1 - Direct Relation and Declaration Discipline
 
@@ -166,7 +170,7 @@ An affirmative assertion or occurrence description may state the known `systemRo
 
 For `U.SubkindOf`, use C.3.1's own obtaining and identity law, including its exact effective-reference-scheme edition. Do not replace it with the generic A.2.7 interval rule.
 
-`SystemRoleKindRelationStructure` identity follows the exact substrate and selected relation identities. A scheme change that changes one selected relation changes the structure. No blanket scheme-insensitive continuity is asserted.
+`SystemRoleKindRelationStructure` identity follows all four A.22 discriminators: exact kind constituents, exact selected relation occurrences, exact applied constraint claims, and the named selection-use frame. A scheme change that changes a constituent, selected relation, applied constraint, or use frame changes the structure; selecting System, Method, Work, result episteme, and publication remain outside identity. No blanket scheme-insensitive continuity is asserted.
 
 #### A.2.7:4.7 - Assertion and Receiving Check
 
@@ -218,7 +222,7 @@ A graph, table, matrix, algebra, embedding, policy file, taxonomy, or organizati
 
 Reference an independently selected `BoundedModelUseStructure` only when interpretation depends on that model-use organization. Keep it with the receiving assertion or use unless one direct relation predicate truly depends on its exact edition; only then does that edition enter the predicate's semantic basis. It never becomes a generic participant merely for context.
 
-When a comparison, translation, or reuse crosses schemes, first recover the exact F.17 sense cells and exact obtaining F.9 Bridge. Then state a separate C.2.1 bounded-use assertion naming direction, correspondence rule, tolerated loss, polarity, use, and effective scheme. Below B.3's material-reliance threshold and with no assurance claim, use A.10 and require the exact current evidence-provenance relation and a passing reliance disposition for that same use. When an assurance claim is made or the threshold is met, B.3 requires a current positive assurance claim carrying that use and a sufficient reliance-safety assurance record; otherwise narrow, reject, abstain from, or block the use. Neither branch supplies authorization.
+When a comparison, translation, or reuse crosses schemes, first recover the exact F.17 sense cells and obtaining F.9 Bridge. Then state a separate C.2.1 bounded-use assertion naming direction, correspondence rule, tolerated loss, polarity, use, and effective scheme. Ordinary reliance requires the current A.10 evidence-provenance relation and a passing disposition for that use. Use B.3 only when an actual named assurance claim is current; require its result for the same bounded assurance use. Neither branch supplies authorization.
 
 A Bridge, profile, or card alone establishes neither bounded-use suitability nor an A.2.7 relation, assignment, authorization, receiving-check outcome, or performed Work. A local relation that obtains keeps the participant set and identity declared here.
 
@@ -231,5 +235,5 @@ For pump pressure-test Work, an assignment to SeniorHydraulicsTechnicianSystemRo
 may satisfy the condition written for HydraulicsTechnicianSystemRole.
 ```
 
-Add an exact direct-species `RelationSignature` when reusable participant typing matters. Individuate an occurrence only when another claim depends on its identity. Assign a stable reference only when another episteme needs it. Build a `SystemRoleKindRelationStructure` only when several selected relations must be used together. Completeness is not a reason to materialize every layer.
+Add an exact direct-species `RelationSignature` when reusable participant typing matters. Individuate an occurrence only when another claim depends on its identity. Assign a stable reference only when another episteme needs it. Build a `SystemRoleKindRelationStructure` only when several selected relations must be used together and all four A.22 discriminators are recoverable. Completeness is not a reason to materialize every layer.
 

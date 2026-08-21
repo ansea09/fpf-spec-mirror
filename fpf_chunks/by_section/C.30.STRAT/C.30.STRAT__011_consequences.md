@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__011_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:9 — Consequences"
-line_start: 61073
-line_end: 61080
+line_start: 58238
+line_end: 58245
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 
 | Benefit | Trade-off or mitigation |
 | --- | --- |
-| Source labels remain usable recognition cues without becoming root kinds. | The reader pays one recovery-row cost only when FPF-governed use is being made; ordinary prose closes cheaply. |
-| Subject patterns avoid copied trigger registries. | Subject patterns need accurate thin pointers to `C.30.STRAT` and still keep their own invariants precise. |
-| Source-label wording no longer captures non-source-label claims by sound. | The repair may name several subject patterns when one sentence compresses several claims; the benefit is that each claim remains governed by its subject pattern. |
+| Local labels remain usable without becoming root kinds. | The reader pays a recovery cost only when the word carries a technical claim; ordinary prose closes immediately. |
+| One cue table replaces copied local catalogues. | Other patterns need accurate thin pointers and must still state their own invariants. |
+| A compressed sentence no longer smuggles several claims under one word. | The repair may name several applicable patterns, but only for branches that the sentence actually contains. |
 

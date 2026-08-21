@@ -6,12 +6,12 @@ section_id: "C.36:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__003_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:1 — Problem Frame"
-line_start: 67909
-line_end: 67916
+line_start: 65097
+line_end: 65106
 dependencies:
   - "A.1"
   - "A.10"
@@ -25,6 +25,7 @@ dependencies:
   - "A.3.2"
   - "A.3.3"
   - "A.3.4"
+  - "A.6.1"
   - "A.6.RCD"
   - "B.3"
   - "C.11"
@@ -59,7 +60,9 @@ keywords:
 
 Many current projects no longer develop one isolated object. They shape evolving sets, for example product families, methods, research directions, medical and pedagogical practices, AI-agent frameworks, artistic styles, engineering traditions, canons, archives, frontiers, and recognition regimes. The project often generates variants cheaply, while the hard work shifts to the relations that determine what is produced, recognized, retained, selected, used, changed, or kept current. That work can include, for example, problem production, characterization, archive stewardship, comparison, selected-set result declaration, actual publication, local choice, performed Work, effect measurement, and refresh.
 
-Cultural evolution is current when the changing set is collective-holon or discipline-facing: admitted Systems may perform independently identified dated Work; those Work occurrences enact exact Methods; memory or canon epistemes preserve what can be recognized and transmitted; recognition, selection, comparison, platform mediation, or algorithmic mediation can affect which variants survive or spread; and method families can evolve. Keep all facts required by A.15.1, A.2.1, and F.6 recoverable for each Work occurrence. A local system-role kind, separate System-classification judgment, assignment species, assignment occurrence, Work occurrence, Method, effect claim, responsibility relation, and family description remain different objects.
+Cultural evolution is current when the question is how a collective or discipline generates, transmits, recognizes, selects, retains, or changes variants. Memory or canon epistemes, recognition and selection relations, comparison, platform or algorithmic mediation, and changing Method families may all matter.
 
-This pattern gives FPF a first-use cultural-evolution object without adding a new top-level part or a root ontology of culture. The same pattern can serve engineering product families, scientific research programs, medical disciplines, pedagogy, music styles, dance styles, organizational cultures, and AI-agent framework evolution because it starts from values governed by existing FPF patterns rather than from domain labels.
+When the case says that Work was performed, identify the admitted System, dated Work occurrence, enacted Method, and all facts required by A.15.1, A.2.1, and F.6. A local system-role kind, System-classification judgment, assignment species, assignment occurrence, Work occurrence, Method, effect claim, responsibility relation, and family description remain separate.
+
+This pattern gives FPF a first-use cultural-evolution case without adding a new top-level part or a root ontology of culture. The same pattern can serve engineering product families, scientific research programs, medical disciplines, pedagogy, music styles, dance styles, organizational cultures, and AI-agent framework evolution because it begins with existing FPF objects and relations rather than domain labels.
 

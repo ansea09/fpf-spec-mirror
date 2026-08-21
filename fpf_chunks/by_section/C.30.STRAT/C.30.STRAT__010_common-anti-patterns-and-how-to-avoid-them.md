@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 61063
-line_end: 61072
+line_start: 58228
+line_end: 58237
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,9 +52,9 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Source label as ontology | `layer`, `block`, `expert`, `cache`, or `gate` is treated as a kind by label. | Complete the `StratificationSourceLabelRepairNote` and select the subject pattern from the recovered neighborhood. |
-| C.30 takeover | Any structure-like word is treated as governed by C.30 because it sounds architectural. | Choose by selected `ontologicalNeighborhood`; non-source-label claims are governed by the patterns named in `C.30.STRAT:4.2`. |
-| Local trigger fanout | `A.6.M`, `C.30.LCA`, `C.31`, or another subject pattern copies a growing label table. | Keep one thin pointer to `C.30.STRAT` and keep the subject pattern to its own invariant. |
-| Expert-as-role false positive | `expert` in MoE prose becomes a system-role kind, assignment, Work-attribution claim, or responsibility claim by word alone. | Treat it as a source label for submodel, transformation, path selection, candidate selection, or ordinary non-use. If unresolved claim-bearing *role* remains, use `E.10.ROLE` and recover only the independent branches that obtain: local system-role kind; separate System-classification judgment; exact assignment species and occurrence; complete actual-Work basis; responsibility or authority under its direct predicate or exact A.6.RCD missing governor; or another direct relation. No conjunction is required and no branch implies another. |
-| Gate-as-gate-decision false positive | A gating function, UI label, or source word becomes gate passage. | Use `A.20` or `A.21` only for actual constraint-validity or gate-decision claims; otherwise use the function, flow, publication, or ordinary-label disposition named by value. |
+| Source label as ontology | `layer`, `block`, `expert`, `cache`, or `gate` is treated as a kind by name. | Recover the actual object or relation, or keep ordinary source wording. |
+| C.30 takeover | Every structure-like word is treated as an architecture claim. | Choose from the recovered meaning; use the rule for the actual control, module, flow, scale, publication, state, evidence, work, or decision claim. |
+| Local trigger fanout | C.30.LCA, A.6.M, C.31, or another pattern copies this label catalogue. | Keep one thin pointer here and the other pattern's own invariant there. |
+| Expert-as-role false positive | `expert` in mixture-of-experts prose becomes a system-role kind, assignment, performer, Work, responsibility, or authority by word alone. | First test submodel, transformation, path selection, candidate selection, or ordinary non-use. If a claim-bearing use of *role* remains, use E.10.ROLE; admit each system-role, classification, assignment, performer, Work, responsibility, authority, or other relation only when it independently obtains. |
+| Gate-as-decision false positive | A gating function, UI label, or source word becomes gate passage. | Use A.20 or A.21 only for actual constraint-validity or gate-decision claims; otherwise use the applicable function, flow, publication, or ordinary-label result. |
 

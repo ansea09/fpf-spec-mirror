@@ -6,31 +6,36 @@ section_id: "C.21:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__004_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:2 — Problem"
-line_start: 50362
-line_end: 50369
+line_start: 49159
+line_end: 49168
 dependencies:
+  - "A.10"
   - "A.17"
+  - "A.17-A.18"
   - "A.18"
+  - "A.19"
   - "A.2.6"
   - "B.3"
   - "C.16"
   - "C.2"
+  - "C.2.1"
   - "C.20"
-  - "E.10"
-  - "F.17"
+  - "C.I"
+  - "E.24.PUB"
   - "F.9"
   - "G.0"
   - "G.10"
   - "G.11"
   - "G.12"
   - "G.2"
+  - "G.4"
   - "G.5"
+  - "G.6"
   - "G.9"
-  - "U.Discipline"
 keywords:
   - "alignment"
   - "discipline"
@@ -42,9 +47,11 @@ keywords:
 
 ### C.21:2 - Problem
 
-Narrative health claims cause three recurrent failure modes:
+Five recurrent failures make discipline-health claims unreliable:
 
-1. **Scale inadmissibility.** Averaging ordinals, mixing units, or comparing values produced under incompatible characteristic, scale, method, or distance editions yields nonsense roll-ups.
-2. **Staleness.** Health “scores” rarely declare **freshness windows** or evidence lanes (TA/VA/LA).
-3. **Scope and basis slippage.** “The field” and the comparison basis are left implicit; values from different corpora, traditions, cohorts, or schemes are treated as commensurable without an obtaining relation. Any numeric comparison or aggregation cites a **CG-Spec** row (characteristics, **ScaleComplianceProfile (SCP)**, **Γ-fold**, MinimalEvidence) and the exact input editions before computation.
+1. **Object collapse.** A definition set, Method, MethodDescription, measurement Work, result episteme, series episteme, publication occurrence, form, and carrier are called one “DHC artefact.”
+2. **Scope slippage.** `ClaimScope` and a selected `TargetSlice` are treated as interchangeable, although the scope states where the claim holds and the slice is only an optional computation or publication input.
+3. **False crossing.** Different sources or editions are assumed to require a Bridge even when C.16 direct-comparability conditions hold; conversely, distinct local senses are compared without their obtaining F.9 relation and loss account.
+4. **Scale collapse.** Formal recognition is ordered with adoption, alternative ratios are called one Characteristic, or entropy and HHI are placed in one field despite opposite directions.
+5. **Assurance inflation.** A cheap readable claim is forced through evidence graphs, registries, dashboard pins, and publication machinery that its receiving use does not consume.
 

@@ -6,12 +6,12 @@ section_id: "A.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__007_archetypal-grounding.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:5 — Archetypal Grounding"
 line_start: 2923
-line_end: 3011
+line_end: 3016
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -43,15 +43,20 @@ keywords:
 
 #### A.2:5.1 - Reviewer Membership and a Non-Circular Subkind
 
-The JournalReview practice declares one local kind from its practice boundary, contribution distinction, and direct holder features:
+The JournalReview practice records one local kind under C.3. The source label locates the definition; the kind itself is recovered through its system-candidate domain, substantive-review condition, boundary probes, and continuity rule:
 
 ```text
 ReviewerSystemRole : U.Kind
-  localPracticeOrSourceBoundary: JournalReview-2026
-  localIdentityBasis:
-    the assignable contribution distinction “can supply a substantive review judgment
-    meeting the current JournalReview acceptance conditions”
-
+  definitionProvenance: JournalReview-2026 (comparison cue only)
+  candidateValueKind: U.System
+  operativeMembershipDistinction:
+    can supply a substantive review judgment that meets the current
+    JournalReview acceptance conditions
+  intendedBoundary:
+    a system that applies those conditions is a member; a report or a
+    system that merely comments without applying them is not
+  continuityRule:
+    continue the kind only while that candidate range and distinction continue
 KindSignature@ReviewerSystemRole/e3:
   EntityOfConcern: ReviewerSystemRole
   candidateValueKind: U.System
@@ -81,7 +86,7 @@ For `RoboticsEngineerSystemRole U.SubkindOf EngineerSystemRole`, evaluate the tw
 
 #### A.2:5.2 - Pump in a Cooling Loop
 
-`CoolingCirculatorSystemRole` is a local kind in `PlantOperations-2026`. Its identity is the assignable plant-operation contribution, while its `KindSignature` tests the directly governed circulation features needed by that contribution. `PumpUnit-3` is judged against that exact edition and slice; the judgment does not change pump identity.
+`CoolingCirculatorSystemRole` names a local kind whose candidates are admitted systems. Its membership condition requires the governed circulation features needed for the plant-operation contribution; member/non-member probes and the continuity rule expose the boundary. `PlantOperations-2026` locates the current definition but does not identify the kind. `PumpUnit-3` is judged against that exact signature edition and slice; the judgment does not change pump identity.
 
 When the plant also claims an assignment, it uses a directly declared species:
 
@@ -118,11 +123,11 @@ The publication neither counts under the system-role kind nor performs the Work.
 
 #### A.2:5.4 - The Same Label in Two Local Practices
 
-An editorial-review practice and a safety-assurance practice can each declare a `ReviewerSystemRole`. They remain two local kinds because the constituting practice boundary and stable contribution distinction together form each identity basis. A shared label, vocabulary source, or reference-scheme spelling establishes neither sameness nor a Bridge.
+An editorial-review practice and a safety-assurance practice can each use `ReviewerSystemRole`. Compare their exact C.3 definitions before deciding whether one kind continues. In this case the safety-assurance condition admits a materially different contribution and member/non-member boundary, so two kinds are present. The practice names help locate those definitions; a shared label, vocabulary source, or reference-scheme spelling establishes neither sameness nor a Bridge.
 
 Suppose a staffing dashboard proposes `u-reviewer-display`: show assignments from both practices in one `Reviewer` column. First recover the two exact local kinds and any F.17 cells needed by the displayed expressions; then establish only the C.3.3 kind relation and F.9 local-sense relation that the display actually consumes. State a separate C.2.1 bounded-use assertion with direction `d-safety-to-editorial-display`, rule `r-preserve-reviewer-differences`, and tolerance `t-shared-label-only`, plus polarity and effective scheme. The rule keeps the practices' admission, independence, evidence, and completion fields separate and tolerates only the shared display label.
 
-Current A.10 provenance and `RelianceDisposition=pass` can support that display use. They do not justify substitution between assignments or merge the two kinds. If the use makes an assurance claim or crosses B.3's material-reliance threshold, only a current positive B.3 claim carrying this same use and sufficient minimum reliance safety assurance supports it; no-assurance, insufficient-record, narrowed, rejected, withdrawn, abstaining, or blocked dispositions stop or narrow the use. A Bridge Card can package the Bridge, bounded-use assertion, evidence, and disposition, but it grants no assignment, eligibility, capability, use suitability, or performed-Work inference. A selected `BoundedModelUseStructure` is cited only in the receiving use whose interpretation it changes.
+Current A.10 provenance and `RelianceDisposition=pass` can support that display use. They do not justify substitution between assignments or merge the two kinds. If an actual named assurance claim about that use is current, only its B.3 result can support that bounded assurance use; a non-positive disposition stops or narrows it. Consequence alone creates no assurance claim. A Bridge Card can package the Bridge, bounded-use assertion, evidence, and disposition, but it grants no assignment, eligibility, capability, use suitability, or performed-Work inference. A selected `BoundedModelUseStructure` is cited only in the receiving use whose interpretation it changes.
 
 #### A.2:5.5 - A Relation Participant Slot Named `role`
 

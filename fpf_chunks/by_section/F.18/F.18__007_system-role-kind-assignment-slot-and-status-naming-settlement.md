@@ -6,12 +6,12 @@ section_id: "F.18:5"
 section_title: "System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__007_system-role-kind-assignment-slot-and-status-naming-settlement.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:5 — System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
-line_start: 97473
-line_end: 97587
+line_start: 94682
+line_end: 94796
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,7 +49,7 @@ This settlement keeps naming aligned with the object already recovered. Bare *ro
 
 #### F.18:5.1 - System-Role-Kind Names
 
-A durable system-role-kind name designates one exact local kind admitted through C.3 and A.2 and identified by its named practice or source boundary plus stable assignable contribution. Its candidates are entities already admitted under A.1 as `U.System`, including a person, team, organization, or non-human technical object. The Tech designation normally ends in `...SystemRole`, for example `ReviewerSystemRole`, `ShipbuilderSystemRole`, or `ServiceProviderSystemRole`. `SystemRole` is compound morphology, not a universal governed value. The name creates no system admission, kind membership, assignment, agency, capability, or Work.
+A durable system-role-kind name designates one exact local kind admitted through C.3 and A.2. Recover that kind through its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. A practice or source reference can locate the definition or signal that two definitions should be compared; it does not identify the kind. Candidates are entities already admitted under A.1 as `U.System`, including a person, team, organization, or non-human technical object. The Tech designation normally ends in `...SystemRole`, for example `ReviewerSystemRole`, `ShipbuilderSystemRole`, or `ServiceProviderSystemRole`. `SystemRole` is compound morphology, not a universal governed value. The name creates no system admission, kind membership, assignment, agency, capability, or Work.
 
 A system-role-kind name must not include:
 
@@ -109,7 +109,7 @@ First recover what the name is for:
 | `R1 incompatibleWith R2` | one exact symmetric incompatibility relation occurrence between two independently admitted local system-role kinds, identified by the unordered pair, same- or different-holder rule, Work identity, overlap test, applicability, and only meaning-changing semantic basis | Name or cite the exact relation occurrence or a selected `SystemRoleKindRelationStructure`, not another system-role kind. Exact assignments and the receiving Work remain separate inputs and do not replace the two kind participants. |
 | `R1 and R2` | two independently admitted system-role kinds; any assignment occurrences are separate and are required only when the receiving sentence also claims them | Use “and” in ordinary prose. Keep the two kind claims recoverable, and do not infer assignments or make a compound kind by hyphenating the labels. |
 | `R1 bundle R2`, or quoted source shorthand `RoleBundle := R1 and R2` | one order-insensitive finite-set relation among exact system-role kinds, with a joint-admission and holder-allocation predicate | Keep it as a bundle relation. A convenient bundle name does not admit a compound system-role kind; such a kind would need its own independent C.3 identity and use. |
-| `R1` qualified by a domain, practice, Method family, or ordinary work field | either one independently admitted local system-role kind or a residual A.2.7 qualification relation between two kinds | Before naming a kind, state its stable assignable contribution distinction and apply the current C.3 criterion to features of the candidate system established under their own patterns. A domain, practice, ordinary work field, Method, Work family, or performed Work occurrence remains a separate value. Keep a non-monotonic restriction as its exact relation and do not infer admission substitution. |
+| `R1` qualified by a domain, practice, Method family, or ordinary work field | either one independently admitted local system-role kind or a residual A.2.7 qualification relation between two kinds | Before naming a kind, recover its C.3 candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. A domain, practice, ordinary work field, Method, Work family, or performed Work occurrence remains a separate value or comparison cue. Keep a non-monotonic restriction as its exact relation and do not infer admission substitution. |
 | Method-like phrase derived from a system-role label | Method, Method family, MethodDescription, WorkPlan, or Work occurrence | Name the recovered object through `A.3.1`, `A.3.2`, or `A.15`; cite the exact system-role-kind relation separately when it constrains admission or performance. |
 | algebraic, graph, matrix, embedding, distributed, or neural representation of system-role kinds or their relations | mathematical or representation description of a selected `SystemRoleKindRelationStructure` | Name the lens only when the representation itself is the object being named; otherwise name the recovered kind, relation occurrence, selected structure, Method, assignment, or Work. |
 | Method algebra, Method graph, Method matrix, process calculus, selector calculus, or Method embedding | mathematical or representation description of exact method-side relations or their selected `MethodRelationStructure` | Name the lens only when the representation itself is the object being named; otherwise name the exact relation, selected structure, Method family, MethodDescription, WorkPlan, Work occurrence, or neighboring relation. |

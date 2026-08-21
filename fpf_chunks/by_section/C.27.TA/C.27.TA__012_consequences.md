@@ -6,12 +6,12 @@ section_id: "C.27.TA:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__012_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:10 — Consequences"
-line_start: 56918
-line_end: 56925
+line_start: 54212
+line_end: 54219
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -48,6 +48,6 @@ keywords:
 - C.27 can be narrowed to adequacy and supported use of authored temporal claims.
 - A.3.4 gains a clean temporal reference slot without carrying the whole temporal ontology.
 - A.3.3 stays the dynamics episteme pattern.
-- Work planning, actual work, source currentness, benchmark parity, and evidence use keep their own governing patterns.
-- Users gain a small positive statement for temporal aspects before heavier adequacy, dynamics, causal, benchmark, or assurance patterns are needed.
+- Use the direct patterns for work planning, actual work, source currentness, benchmark parity, and evidence use.
+- Users gain one positive temporal-aspect claim before heavier adequacy, dynamics, causal, benchmark, or assurance patterns are needed.
 

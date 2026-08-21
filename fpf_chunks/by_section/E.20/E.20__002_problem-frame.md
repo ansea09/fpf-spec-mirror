@@ -6,12 +6,12 @@ section_id: "E.20:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:1 — Problem frame"
-line_start: 86746
-line_end: 86795
+line_start: 84093
+line_end: 84142
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -48,7 +48,7 @@ FPF is intentionally **open-ended**: new `U.Mechanism` definitions, suite compos
 
 * semantics appear in the wrong governing locus (e.g., Part G wiring starts carrying mechanism meaning),
 * suites degrade into “meta‑mechanisms” or hidden gates,
-* planned baselines (WorkPlanning) are conflated with execution witnesses (WorkEnactment),
+* planned baselines in exact `U.WorkPlan` content are conflated with dated performed Work,
 * token drift breaks public references, or
 * the corpus accumulates dangling references and non-normative drafting commitments without a governing definition.
 
@@ -86,7 +86,7 @@ This pattern provides a **repeatable, governing-definition assignment protocol**
 
 **Generative side.** E.20 preserves open-ended action by allowing new mechanism definitions, suite variants, wiring, and citeable tokens to enter FPF with a named governing definition; the discipline prevents semantic drift so new work can be added rather than merely blocked.
 
-**What goes wrong if missed.** A suite can start defining mechanism meaning, a plan item can start carrying enactment witnesses or gate decisions, a wiring module can carry kernel semantics, or a token rename can break citations while looking like harmless cleanup.
+**What goes wrong if missed.** A suite can start defining mechanism meaning, declaration-local WorkPlan rows can start carrying enactment witnesses or gate decisions, a wiring module can carry kernel semantics, or a token rename can break citations while looking like harmless cleanup.
 
 **What this buys.** E.20 gives the reader one current authoring move: assign the change to the right governing definition and keep mechanism, suite, planning, wiring, and lexical continuity distinct.
 

@@ -6,12 +6,12 @@ section_id: "C.3.4:10"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__012_worked-examples.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:10 — Worked Examples"
-line_start: 45432
-line_end: 45447
+line_start: 44229
+line_end: 44244
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -27,15 +27,15 @@ keywords:
 
 #### C.3.4:10.1 - `Vehicle@ABSOnly` Constraint Use
 
-`VehicleABSUse-2026 : KindUseAdaptationDeclaration` designates `Vehicle`, pins its `KindSignature` edition, and adds the direct candidate-feature predicate `hasABS(candidate)=true`. For one vehicle and `TargetSlice`, evaluate `J_kindUse(vehicle, Vehicle, vehicleEdition, absUseEdition, TargetSlice)`. Surface, speed, rig, and time remain Scope predicates. Missing ABS evidence gives `unknown`; a guard may decline use. If ABS becomes a stable conceptual distinction, identify local kind `VehicleWithABS` and establish an obtaining `U.SubkindOf` relation separately.
+`VehicleABSUse-2026` designates `Vehicle`, pins its signature, and adds the governed candidate condition that the vehicle has ABS. A physical vehicle in the declared slice is admissible; missing ABS support yields `unknown`, while a non-vehicle input is `not-applicable`. Surface, rig, and time conditions used only to bound the claim remain Scope. If ABS becomes a stable classification distinction, recover another kind and test its subkind relation separately.
 
 #### C.3.4:10.2 - `AuthenticatedRequest@Frontend` Vocabulary Use
 
-`FrontendAuthHeaderUse-2026 : KindUseAdaptationDeclaration` binds `authHeader` to local spelling `X-Auth` and adds no candidate criterion. Its judgment therefore equals the base `J(request, AuthenticatedRequest, authEdition, slice)`. Another spelling, row, or field does not classify the request. Cross-context kind use still requires the exact `KindBridge`; local aliases need no correspondence declaration unless their correspondence is relied on across contexts.
+`FrontendAuthHeaderUse-2026` binds `authHeader` to local spelling `X-Auth` and adds no candidate condition. Its judgment therefore equals the admissible base judgment. Moving the same exact request kind to another team requires a fresh receiving evaluation but no `KindBridge` merely because the team or spelling changed. If two independently identified request kinds differ, establish any bridge separately.
 
 #### C.3.4:10.3 - `AdultPatient@Clinic` Composite Use
 
-`ClinicAdultPatientUse-2026 : KindUseAdaptationDeclaration` pins the base adult-patient signature edition and adds the direct candidate-feature criterion `ageAt(patient, slice) >= 21`; `EHR system = X` remains Scope. A date-of-birth record may support the age claim, but record availability is not the patient feature or adaptation criterion.
+`ClinicAdultPatientUse-2026` pins the base adult-patient signature and adds the candidate condition `ageAt(patient, slice) >= 21`; the chosen clinic and claim window remain separately governed scope/applicability values. A person in the declared candidate domain is admissible; unavailable birth support yields `unknown`.
 
-In Jurisdiction Y, establish the `KindBridge` to the independently identified target kind and use a target adaptation declaration. If the age threshold or interpretation differs, add a `KindUseAdaptationCorrespondenceDeclaration` whose endpoints are the two exact adaptation declarations and whose content states direction, rule, loss, and definedness. That declaration creates no Bridge or target truth. Evaluate the target `J_kindUse`; an unavailable date-of-birth dependency yields `unknown`, the guard declines use separately, and R receives only justified Bridge penalties.
+In Jurisdiction Y, first compare the exact patient-kind membership distinctions. If the same kind continues, use the Y declaration and evaluate afresh without a bridge. If the threshold or interpretation makes a distinct target kind and a directional correspondence is relied on, establish the `KindBridge`. A separate adaptation-correspondence declaration may then state how the two exact use declarations differ. Neither object transfers source truth.
 

@@ -6,12 +6,12 @@ section_id: "C.19:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__013_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:7 — Conformance Checklist"
-line_start: 49604
-line_end: 49623
+line_start: 48386
+line_end: 48405
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -55,16 +55,16 @@ keywords:
 - **C19-4** Promotion of `Surprise` or `Illumination` into dominance MUST be explicit in policy.
 - **C19-5** A pool-policy record creates no `SystemRoleAssignmentStateRelation`, system-role assignment, permission, plan, budget, or Work occurrence. When implementation follows, cite the independently obtaining context and scope, exact system-role-kind classification, assignment or assignment-state condition, and direct planning or Work pattern; none of those facts follows from the pool-policy record.
 - **C19-6** Each pool-treatment lens **MUST** document the pipeline `Eligibility (ConstraintFit=pass) → Dominance (declared set) → Tie-breakers (declared)`. For every tie-breaker actually used, cite a constituted result with the compatible basis required above; unused optional tie-breakers need no result. Any promotion of Surprise or Illumination into the dominance set **MUST** be named by lens or policy id and recorded in provenance.
-- **C19-7 (LEX-AUTH trigger).** When a practitioner adopts or changes an `EmitterPolicy` profile for a stated use that includes domain-family quotas or a sampler, or changes `DescriptorMap` family coordinates, `DistanceDef`, or a `δ_family` threshold, author that local change via **E.15 LEX-AUTH**. No default heterogeneity quota or sampler is defined here. Any resulting **LAT** lives in the relevant LAT and evidence authority; the DRR need only carry the content decision itself plus any decisive evidence or validation consequence by value when that consequence materially shaped the choice (see **CC-DRR.6**). Record policy and card ids in SCR.
+- **C19-7 (pattern-change boundary).** A project-local choice or revision of an `EmitterPolicy`, `DescriptorMap`, `DistanceDef`, sampler, quota, or `δ_family` threshold stays under C.19 and the decision or result that consumes it; it does not invoke E.15 merely because a profile changed. When the definition is changed in an existing FPF pattern edition, use E.15 to compare the exact predecessor and candidate, classify the actual effect, and repair dependent consumers. Use C.18/C.19 candidate generation only when several materially plausible definitions remain. No default heterogeneity quota or sampler is defined here. Keep the policy and card ids in the existing decision, change, or SCR result that actually needs them; create no separate authoring trace.
 
 - **C19-8** When a heterogeneity-first profile is used, provenance **MUST** name each admitted heterogeneity constraint and its governing policy id. If a family or subfamily quota applies, record the exact quota vector and family-definition id; if sampling applies, record the sampler class, seed when relevant, and sampler-policy id. Do not fabricate a default triad, quota, or sampler.
 - **C19-9** A `PoolPolicyResult` **MUST** identify `livePool`, `governingLens`, `changeTrigger`, and exactly one `currentTreatment` token from `widen | keep_frontier | narrow_to_subset | sunset_line`; `lens` and space-separated treatment spellings are not alternate record fields or values.
 - **C19-10** If the question under repair is local option choice, an enactment-facing plan, selector-facing result declaration, or publication availability, `C.19` **MUST** name the applicable pattern rather than restate it: `C.11`, `C.24`, `G.5`, `E.17`, or `E.24.PUB`.
 - **C19-11** If autotelic or capability-discovery evidence is used, the record **MUST** name `goalSpaceExpansionPolicyRef` when one governs widening and the `learningProgressSignal`, `competenceModelRef`, or `goalSpaceExpansionCue` that supports the pool treatment, and it **MUST** keep those signals outside default dominance unless an explicit promotion policy is recorded.
-- **C19-12** If an exploration and exploitation policy collects data for a causal claim, changes intervention budget, learns a causal policy, evaluates a policy from behavior data or logging data, or treats counterfactual replay as support, `PoolPolicyResult.causalUseSpec?` **MUST** carry `targetCausalityLadderRung`, `causalUseClaimKind: CausalUseClaimKind`, causal evidence support basis when known, supported use and unsupported use, and relevant `C.28` support refs.
+- **C19-12** If exploration collects data for a causal claim, learns or evaluates a causal policy, or treats counterfactual replay as support, `PoolPolicyResult.causalUseSpec?` **MUST** carry the target rung, claim kind, available support-component refs, supported use, unsupported use, and the C.28 support-result ref when one is consumed.
 - **C19-13** A pool-policy record for still-live loop-engineering candidates—for example, loops, agent harnesses, workflows, or DPF seeds—names the pool, governing lens, current treatment, and change trigger. Fresh generation, archive work, or front recomputation uses `C.18` as the pool-policy pass specifies. Any other next-result question uses the exact transfer in `C.19:4.4`; C.19 does not absorb improvement, declaration or publication, choice, Work, or refresh.
 - **C19-14** A pool-policy record, its evidence, and its treatment constitute neither an actual Problem nor `ProblematicForRelation`, improvement result, work result, project Work or parthood, `ChoiceResult`, public selected set, work permission, nor refreshed edition.
-- **C19-15** If graduation, scaling, or widening relies on assurance, `assuranceResultRef?` **MUST** cite the exact B.3 assurance result, and `changeTrigger` **MUST** name the satisfied condition and the bounded scope that result supports. A C.19 policy threshold or label does not create that assurance result.
+- **C19-15** Graduation, scaling, or widening **MUST** cite its direct `graduationConditionRef`. If that judgement relies on assurance, `assuranceResultRef?` cites the exact B.3 result and `changeTrigger` names the satisfied condition and bounded supported scope. A policy threshold or label does not create an assurance result.
 
 
 

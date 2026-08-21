@@ -1,48 +1,41 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.20"
-pattern_title: "Flow Constraint Validity — Eulerian"
-section_id: "A.20:11"
+pattern_title: "Constraint Validity for Transformation Steps"
+section_id: "A.20:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__014_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.20 — Flow Constraint Validity — Eulerian"
-  - "A.20:11 — Relations"
-line_start: 33777
-line_end: 33786
+  - "A.20 — Constraint Validity for Transformation Steps"
+  - "A.20:12 — Relations"
+line_start: 33242
+line_end: 33251
 dependencies:
-  - "A.19.SelectorMechanism"
+  - "A.10"
+  - "A.15"
   - "A.21"
-  - "C.18"
-  - "C.19"
+  - "A.6.1"
+  - "A.6.4"
+  - "B.3"
+  - "C.2.1"
+  - "C.27"
   - "E.17"
   - "E.18"
-  - "F.17"
+  - "E.20"
   - "F.9"
   - "G.11"
-  - "G.5"
-  - "G.6"
 keywords:
-  - "ConstraintValidity"
-  - "Eulerian"
-  - "GateFit"
-  - "MVPK"
-  - "PathSlice"
-  - "Sentinel"
-  - "SquareLaw"
-  - "TransformationFlowStructure"
-  - "flow"
 ---
 
-### A.20:11 - Relations
+### A.20:12 - Relations
 
-* **Governed by `E.18` transformation-flow structure.** Loci are graph-positioned positions for atomic transformations and adjacent governed values; only `U.Transfer` edges; **open-world species over a minimum locus baseline**; CV=>GF activation; MVPK faces; SquareLaw on crossings; CC-E18-06-EX for `StructuralReinterpretation`.
-* **A.21 (GateProfilization).** Sole point for GateFit checks and `GateProfile`-bound folds.
-* **E.18 (flow valuation and PathSlice currentness).** Declares the graph and valuation semantics used by this flow family.
-* **F.9, F.17, E.17, and E.18 (Bridge+UTS loci).** Boundary-publication requirement whenever faces cite editions.
-* **A.19.SelectorMechanism, C.18, C.19, G.5, and G.11.** Comparability, set-return, archive, and refresh discipline; CV does not compare; it only checks internal readiness for declared comparison.
-* **A.21, G.6, and G.11.** Gate decision stability, equivalence witness references, A.10 evidence relation visibility, and refresh implications when gate decisions consume CV-adjacent publications.
-* **E.10 (LEX).** Token classes and ASCII Tech names; twin labels and aliasing for Γ, CL, and Φ as per LEX‑BUNDLE.
+- `E.18` places independently defined transformation and adjacent values in a selected transformation-flow structure.
+- `A.6.1` and `E.20` define operation and mechanism content whose named constraints may be tested.
+- `A.6.4` defines the retargeting arrow r and the separate use assertion q whose exact proposition A.20 may test; any operation application remains separate.
+- `A.21` consumes exact check results and defines gate-policy consequences without suppressing independent applicable results.
+- `E.17`, `G.11`, `C.27`, `A.10`, `B.3`, and `A.15` define publication, refresh, temporal, evidence, assurance, and Work claims.
+- `F.9` applies only when an additional semantic correspondence is current.
+- `C.2.1` supplies result-episteme identity.
 

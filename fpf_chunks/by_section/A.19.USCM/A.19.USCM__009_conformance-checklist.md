@@ -6,12 +6,12 @@ section_id: "A.19.USCM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__009_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:7 — Conformance Checklist"
-line_start: 32242
-line_end: 32265
+line_start: 31791
+line_end: 31814
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

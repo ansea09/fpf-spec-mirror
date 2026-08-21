@@ -6,12 +6,12 @@ section_id: "A.7.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__009_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:7 — Conformance Checklist"
-line_start: 22140
-line_end: 22153
+line_start: 21585
+line_end: 21598
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -37,7 +37,7 @@ keywords:
 |---|---|
 | `CC-A7.2-1` | The conflict names exact receiving claims, practical consequences, contexts, scopes, and current editions. |
 | `CC-A7.2-2` | Vocabulary difference or unlike source function alone does not trigger reconciliation. |
-| `CC-A7.2-3` | The reader, Method episteme, admitted performing `U.System`, assignment occurrence and its declared `U.SystemRoleAssignment` species, dated reconciliation `U.Work`, source uses, and returned result are distinct; F.6 alone connects the Work to its covering assignment. |
+| `CC-A7.2-3` | The reader, `U.MethodDescription` episteme, described `U.Method`, admitted performing `U.System`, any separately declared assignment species and actual assignment occurrence used by the case, obtaining F.6 attribution, dated reconciliation `U.Work`, source uses, and returned result are distinct. A short result may omit an assignment identifier unused by its receiver without denying an otherwise established assignment or attribution. |
 | `CC-A7.2-4` | Every load-bearing common claim is cited from `A.7.CP` through an actual reasoning-basis occurrence. |
 | `CC-A7.2-5` | Every source-use occurrence has the three exact participants, source and receiving-claim editions, function, claim scope, and maximal continuous actual-use interval. It includes only content-slice, model-use, currentness, evidence, disposition, blocked-overread, or claim-change qualifiers actually used or asserted in this reconciliation. |
 | `CC-A7.2-6` | Evidence, publication, formal semantics, and currentness remain with subject patterns. |

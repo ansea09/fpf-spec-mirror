@@ -6,12 +6,12 @@ section_id: "A.2.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__011_conformance-checklist-normative.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:7 — Conformance Checklist (normative)"
-line_start: 4129
-line_end: 4200
+line_start: 4141
+line_end: 4212
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -78,7 +78,7 @@ When the promised use relies on a request-facing access Method, `accessSpec` **M
 
 **CC‑A2.3‑6 (Unit of delivery + counting rule).**
 When fulfilment work is counted, declare `unitOfDelivery` (for example, one request, kWh, or case). The resulting count may fill a declared quantity position in a separately governed charging relation; that charging relation does not determine the unit-of-delivery specification.
-When declared, `unitOfDelivery` **MUST** include a **countingRule** that maps accepted delivery work episodes (`W✓`) to unit counts (A.7:5.10). If omitted, the default is “1 unit per accepted delivery work episode”.
+When declared, `unitOfDelivery` includes the A.2.3:4.1.2 counting rule that maps fulfilment Work to unit counts without silent double counting. If omitted, the default is one unit per obtaining `PromiseContentFulfilmentRelation` occurrence.
 
 **CC‑A2.3‑7 (No actuals on Promise Content).**
 Resource and time actuals belong to the performed `U.Work` occurrence under A.15.1. An incident-log episteme may describe that occurrence and may separately participate in an evidence relation for a stated claim; neither the log nor its participation in that evidence relation fills a `U.PromiseContent` slot.
@@ -95,36 +95,36 @@ Apply E.10 **L-SERV** and **A.6.P:4.11a** only when *service* or access-like wor
 Do **not** place a promise content clause in PBS or SBS, or treat it as a part or component. Structural assemblies live in PBS and SBS; the promise clause is an episteme (A.2.3). When relied-on *service* wording still hides a concrete referent or relation, recover that hidden choice through A.6.P:4.11a; clear, quoted, historical, illustrative, and harmless ordinary wording creates no additional recovery duty.
 
 **CC-A2.3-12 (Plan, work, and evidence stay distinct).**
-Windows and calendars belong to `U.WorkPlan` (A.15.2). Performed delivery belongs to `U.Work` (A.15.1). Evidence epistemes and evidence relations support claims about selected facts concerning that work and any post-work state expressed by its selected effect Delta; they are not slots or parts of the work occurrence.
+Windows and calendars belong to `U.WorkPlan` (A.15.2). Performed delivery belongs to `U.Work` (A.15.1). Exact affected referents, pre-work and post-work states, and direct actual-change, production, delivery, or acceptance relations remain separate. Evidence epistemes and evidence-use relations support assertions about those facts; they are not slots or parts of the Work occurrence.
 
 **CC-A2.3-13 (Claim scope, work scope, and promise-use interval).**
 The promise-content episteme names one exact `U.ClaimScope`; an intended maximal extent is stated as that scope rather than represented by omission. A provider capability instance separately names `U.WorkScope`. `PromiseUseIntervalSlot` is the temporal qualifier of each `PromiseContentUse` occurrence. The `ScopeCoverage` predicate is satisfied only when the selected context slice is covered under an explicit `Gamma_time` selector; neither temporal extent nor capability scope replaces claim scope.
 
 **CC-A2.3-14 (Scheme and scope bridges).**
-Cross-scheme reuse first names the exact obtaining F.9 Bridge occurrence. A separate current C.2.1 claim with affirmative polarity must say that this Bridge is suitable for the named bounded promise-content use, in the stated direction, under the use-specific correspondence rule, and within the permitted-loss tolerance. Positive reliance then branches by use. Ordinary below-threshold use with no assurance claim requires the exact A.10 evidence-provenance graph relation with `RelianceDisposition=pass` for that same use. When an assurance claim is made or B.3's material-reliance threshold is met, use B.3 and first determine whether a current assurance claim exists. Positive B.3 reliance is available only when a positive current assurance claim carries the same bounded assurance use together with its sufficient minimum reliance safety assurance record; otherwise state the exact `no-assurance-claim`, `insufficient-record`, `narrowed`, `rejected`, `withdrawn`, `abstaining`, or `blocked` disposition and stop or narrow that use. Cross-scope reuse separately names the mapped `U.ClaimScope` and its A.2.6 scope relations. A Bridge, its profile, a Bridge Card, a label, or a publication establishes none of `PromiseContentUse`, delivery, fulfilment, evidence, assurance, work, result, or publication occurrence; a missing premise stops positive reuse without mutating the original promise content.
+Cross-scheme reuse first names the exact obtaining F.9 Bridge occurrence. A separate current C.2.1 claim with affirmative polarity must say that this Bridge suits the named bounded promise-content use, in the stated direction, under the use-specific correspondence rule, and within the permitted-loss tolerance. Ordinary reliance requires the exact A.10 evidence-provenance relation with `RelianceDisposition=pass` for that use. Use B.3 only when an actual named assurance claim is current; its result supports, narrows, or blocks only that bounded assurance use. Cross-scope reuse separately names the mapped `U.ClaimScope` and its A.2.6 relations. A Bridge, profile, card, label, or publication establishes none of `PromiseContentUse`, delivery, fulfilment, evidence, assurance, Work, result, or publication occurrence.
 **CC-A2.3-15 (OutcomeSpec typing).**
-`promisedOutcomeSpecRef` MUST be a `U.EpistemeRef` resolving to an A.7 `OutcomeSpec` specification-use episteme. It MUST NOT point at a concrete `U.Work` occurrence, affected or delivered entity, actual operation-result binding, verdict episteme, or downstream effect, and `OutcomeSpec` MUST NOT be written as an independently admitted `U.OutcomeSpec`.
+`promisedOutcomeSpecRef` MUST be a `U.EpistemeRef` resolving to an A.2.3:4.1.1 `OutcomeSpec` specification-use episteme. It MUST NOT point at a concrete `U.Work` occurrence, affected or delivered entity, actual operation-result binding, verdict episteme, or downstream effect, and `OutcomeSpec` MUST NOT be written as an independently admitted `U.OutcomeSpec`.
 
 **CC-A2.3-16 (OutcomeSpec is explicit and mode‑complete).**
-`promisedOutcomeSpecRef` MUST be present and MUST reference an `OutcomeSpec` that declares `mode in {WorkOnly, ResultOnly, Composite}` and satisfies A.7:5.10 mode completeness:
+`promisedOutcomeSpecRef` MUST be present and MUST reference an `OutcomeSpec` that declares `mode in {WorkOnly, ResultOnly, Composite}` and satisfies A.2.3:4.1.1 mode completeness:
 * `WorkOnly` → `workSpec` present, `resultSpec` absent
 * `ResultOnly` → `resultSpec` present, `workSpec` absent
 * `Composite` → both `workSpec` and `resultSpec` present
 
 **CC-A2.3-17 (OutcomeSpec predicates and delivery-work relations).**
-For any delivery `U.Work` occurrence named by `PromiseContentUse`, let `OS` be the A.7 `OutcomeSpec` resolved from `SC.promisedOutcomeSpecRef`.
+For any delivery `U.Work` occurrence named by `PromiseContentUse`, let `OS` be the A.2.3:4.1.1 `OutcomeSpec` resolved from `SC.promisedOutcomeSpecRef`.
 
 * If `OS.workSpec` is present, the selected facts about the work occurrence satisfy `OS.workSpec.workPredicateRef`; when `methodConstraintRef` is present, the enacted method is compatible with that constraint.
-* If `OS.resultSpec` is present, the exact affected referent and post-work state expressed by the selected effect Delta satisfy `OS.resultSpec.postConditionRef` on its declared state plane; any production, delivery, acceptance, or receiving-use claim remains separately governed.
+* If `OS.resultSpec` is present, the exact affected referent and selected post-work state satisfy `OS.resultSpec.postConditionRef` on its declared state plane. Any actual-change, production, delivery, acceptance, receiving-use, or optional mathematical Delta-lens claim remains separately governed.
 * A.10 evidence relations obtain between each relied-on satisfaction assertion and its supporting evidence epistemes. Those evidence epistemes are neither delivery-work occurrences, affected or delivered entities, operation-result bindings, verdict epistemes, nor values of `OutcomeSpec.workSpec` or `OutcomeSpec.resultSpec`.
 
 Explicitly individuate `PromisedOutcomeDeliveryRelation` only when a downstream relation or claim must refer to its occurrence identity and only after these mode-specific conditions are established; otherwise retain the readable `deliversPromisedOutcome(W, OS)` assertion.
 **CC-A2.3-18 (Acceptance evaluation supports rather than constitutes fulfilment).**
-A holder system performs evaluation work by the evaluation method described in `acceptanceSpec` over the same selected work facts and post-work states used to test delivery under `SC.promisedOutcomeSpecRef`. The actual evaluation-operation application carries its exact argument and result bindings. When a durable verdict episteme is needed, C.2.1 governs its identity and A.15.PROD governs any current entity-identity-inception claim. That episteme may assert an admitted fulfilment verdict only when the selected work facts and post-work state satisfy the acceptance criteria. A.10 evidence relations support the relied-on assertions; the operation-result binding, verdict episteme, and evidence relations support knowledge of `PromiseContentFulfilmentRelation` but do not make it obtain. A multi-grade verdict-scale description states how non-delivery is represented.
+A holder System performs evaluation Work by the exact evaluation Method selected in `acceptanceSpec`, over the same selected Work facts and post-work states used to test delivery. Cite a MethodDescription only when the claim depends on that exact edition. The actual operation application carries its argument and result bindings. Any durable verdict episteme, identity-inception claim, and evidence-use relation remains separate and supports the fulfilment assertion without constituting the relation.
 
 **CC-A2.3-19 (OutcomeSpec ↔ unitOfDelivery coherence).**
 If `unitOfDelivery` is present, its counting rule states a `selectorRef` that selects only work occurrences eligible to satisfy `SC.promisedOutcomeSpecRef` in the declared mode. When one occurrence can fulfil several promise contents, the rule states either `dedupeKeyRef` or cites the counting-policy episteme that defines the counting rule. A selector may denote work occurrences filling `FulfilmentWorkOccurrenceSlot` in obtaining `PromiseContentFulfilmentRelation` occurrences; it does not count work for which fulfilment has not been established.
 
 **CC-A2.3-20 (Unit-of-delivery is computable from work facts).**
-If `unitOfDelivery` is present, it MUST declare its counting rule over selected facts about fulfilment work, cite the `U.DHCMethod` used for any measurement reading, name the `U.MethodDescription` when a particular measurement method constrains that reading, state evidence-admissibility conditions, and refer to the evidence epistemes and A.10 evidence relations used, per A.7:5.10.3. The default "1 unit per fulfilment work occurrence" is permitted only for a pure count of fulfilment occurrences.
+If `unitOfDelivery` is present, it follows A.2.3:4.1.2. A pure count needs only its selector, quantity rule, and any deduplication boundary. Add a measurement Method, MethodDescription, evidence-admissibility condition, evidence epistemes, and evidence-use relations only when the count actually depends on a measurement reading or relied-on evidence.
 

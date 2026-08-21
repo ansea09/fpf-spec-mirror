@@ -6,47 +6,42 @@ section_id: "C.24:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__009_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:3 — Forces"
-line_start: 52384
-line_end: 52392
+line_start: 51224
+line_end: 51232
 dependencies:
-  - "A.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
-  - "A.15.5"
   - "B.1.6"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.24"
+  - "C.19.1"
   - "C.28"
   - "C.5"
-  - "E.10.MOVE"
-  - "E.11.PUR"
+  - "E.17"
   - "E.23"
-  - "E.3"
-  - "E.5"
+  - "E.24.PUB"
   - "G.5"
   - "G.6"
   - "G.9"
   - "U.PromiseContent"
-  - "U.WorkPlan"
 keywords:
 ---
 
 ### C.24:3 - Forces
 
-| Force                                    | Tension                                                                                                                 |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **General methods vs. bespoke local heuristics**       | Scalable, model-centric search ↔ short-term wins of bespoke scripts (guarded by **Bitter-Lesson Preference**).        |
-| **Assurance vs. Autonomy**               | F-G-R gates & CL penalties ↔ system latitude to sequence calls and learn online.                                       |
-| **Exploration vs. Delivery**             | Exploration share for illumination ↔ delivery SLAs and cost ceilings (E/E-LOG policy).                                |
-| **Method vs. route vs. plan vs. execution** | exact `U.Method` ↔ separate `U.MethodDescription` ↔ `U.WorkPlan` ↔ dated `U.Work` ↔ service promises (`U.PromiseContent`). |
+| Force | Tension |
+| --- | --- |
+| General method vs local shortcut | A scalable approach may improve with data or compute, while a narrow route may be safer or cheaper in the present task. |
+| Exploration vs delivery | A bounded probe may reduce uncertainty, while service and cost limits require commitment or stop. |
+| Assurance vs autonomy | A named high-consequence use may need a bounded assurance result, while ordinary planning should not inherit assurance apparatus. |
+| Description vs enactment | A callable route description helps planning, but it is not the Method, plan, call, or evidence of performance. |
 

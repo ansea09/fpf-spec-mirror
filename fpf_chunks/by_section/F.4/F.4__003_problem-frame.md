@@ -6,12 +6,12 @@ section_id: "F.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__003_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:1 — Problem Frame"
-line_start: 91294
-line_end: 91301
+line_start: 88680
+line_end: 88687
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 
 ### F.4:1 - Problem Frame
 
-A local system-role kind often needs a recognizable description before people can classify a candidate, assign a system, compare local kinds, or use the kind in a Method condition. A name such as `InspectorSystemRole` is not self-explanatory. Readers need the practice or source boundary in which the kind is constituted, its stable work-facing contribution distinction, current `KindSignature`, effective scheme, first recognition cues, and boundary to neighboring claims.
+A local system-role kind often needs a recognizable description before people can classify a candidate, assign a system, compare kinds, or use the kind in a Method condition. A name such as `InspectorSystemRole` is not self-explanatory. Readers need to know which systems are candidates, what condition distinguishes intended members from relevant non-members, when that distinction continues, which `KindSignature` states it, and where neighboring claims begin. Source or practice provenance can help them locate and compare that definition; it cannot decide kind identity.
 
 The recurring failure is to make the description carry too much. A compact card is tempting: put kind, status, permission, responsibility, evidence, capability, Method, assignment, Work, and publication cues into one “assignable” template. That convenience creates duplicate ontology. A standard used as a requirement source becomes a “standard role”; a report used as evidence becomes an “evidence role”; an access-control label becomes a system-role kind; a kind name becomes proof of capability or performed Work.
 

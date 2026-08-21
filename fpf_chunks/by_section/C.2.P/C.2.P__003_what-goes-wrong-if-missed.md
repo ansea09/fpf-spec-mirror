@@ -6,12 +6,12 @@ section_id: "C.2.P:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__003_what-goes-wrong-if-missed.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:0.1 — What goes wrong if missed"
-line_start: 41667
-line_end: 41672
+line_start: 40551
+line_end: 40555
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,6 @@ keywords:
 ---
 
 ### C.2.P:0.1 - What goes wrong if missed
-
 Episteme-publication-heavy text starts to build a parallel ontology. A generic publication face becomes a `U.View`, a file becomes an episteme, a dashboard tile becomes evidence, a pattern name becomes a procedure, or a slash list becomes a group kind. A broad word such as `source` is especially dangerous because it can hide several different recovery fields: an FPF pattern or `DRR`; a publication field; a document named for source, evidence, architecture, or review use; a reviewed publication, review packet, review record, or review state; a project-side FPF kind and reference named by value; or a relation.
 
 The immediate cost is not only ugly terminology. Engineers and FPF authors start making action, evidence, gate, decision, or engineering-justification claims from the wrong entity, publication, record, relation, or carrier.

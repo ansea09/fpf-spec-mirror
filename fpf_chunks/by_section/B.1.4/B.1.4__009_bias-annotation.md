@@ -6,12 +6,12 @@ section_id: "B.1.4:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__009_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:5.1 — Bias-Annotation"
-line_start: 36308
-line_end: 36316
+line_start: 35477
+line_end: 35485
 dependencies:
   - "A.1.1"
   - "A.14"

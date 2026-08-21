@@ -6,12 +6,12 @@ section_id: "E.24.CD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:4 — Solution"
-line_start: 89217
-line_end: 89289
+line_start: 86604
+line_end: 86674
 dependencies:
   - "A.1"
   - "A.14"
@@ -78,7 +78,7 @@ Plain `situation`, `incident`, `current configuration`, `operating <system>`, an
 | Words such as `relation`, `slot`, `field`, `interface`, bare *role*, `function`, or `endpoint` still leave the object or claim unclear. | Use E.10.ROLE first for bare *role*; continue to A.6.RSIR when it denotes relation participation, a declaration place, an interface place, or a representation position. Use A.6.F for function wording and A.6.P or the pattern for the recovered relation. Then stop at that pattern. | An engineering word creates no subject kind, relation kind, participant, declaration, system-role kind, or assignment. |
 | The subject and governing claim are already clear, but a word or phrase compresses them. | Repair the bounded wording through `E.10`, `E.10.ARCH`, or the applicable precision-restoration pattern. | A clearer name does not create a new subject, relation, or kind. |
 | An already governed value needs a stable reusable name rather than a repaired sentence. | Use `F.18` after recovering the value, its kind and subject pattern, its effective reference scheme, and the local sense to be named. For relation-facing wording, settle any missing direct relation through `A.6.RCD` first. | A label or `NameCard` neither admits the value or a public kind nor makes a relation obtain. |
-| Several named dependent patterns genuinely need one reusable subject identity and the same minimal set of direct relation rules. | Open `E.24` and apply its existing-governor, identity, relation, dependent-use, and non-duplication checks. | E.24.CD establishes only that `E.24` is the applicable next pattern. `E.24` decides whether a durable ontic is admitted. |
+| One blocked use concerns an independently recoverable candidate, proposal, or source construct; named consumers show concrete cross-pattern duplication or disagreement pressure; and one obvious direct route does not close it. | Open `E.24` and transfer only those detection facts. Let E.24 test identity, the minimal relation set, dependent reliance, non-duplication, and non-use. | E.24.CD neither requires those settlement results nor admits or rejects the ontic. A still-missing identity or relation rule can reach E.24's unresolved branch. |
 | The subject, needed claim, or subject pattern cannot yet be recovered. | Keep the inquiry attached to the source expression or blocked work and name what is missing. | Do not hide non-settlement inside a candidate record, score, provisional `U.*` name, or “future ontology” list. |
 
 When a durable public `U.*` kind is also proposed, `E.24.UK` returns its separate admission result. If the ontic and kind are both new, use the atomic co-decision already defined by E.24 and E.24.UK; neither result proves the other.
@@ -96,21 +96,19 @@ For a project card, row, schema, or diagram, inspect only what the current work 
 
 A field label is not a `SlotSpec`. `A.6.5` governs the declaration: a reusable `SlotSpec` appears only inside a `RelationSignature` for an already recovered direct relation and only when a named later use needs that declaration. A row value is not an actual relation participant merely because it occupies a column.
 
-#### E.24.CD:4.3 - Apply E.24 only when several patterns need the same subject rules
+#### E.24.CD:4.3 - Open E.24 when cross-pattern pressure is concrete
 
-Applying E.24 is warranted only when all of these are recoverable:
+Open E.24 when these detection facts are recoverable:
 
-- one primary governed subject kind;
-- its direct identity, constitution, or recognition rule;
-- two or more named dependent patterns whose work depends on the same subject identity or relation rule;
-- the smallest set of independently governed direct relations those uses must keep coherent;
-- how a changed participant or direct-relation fact would change what those uses may claim, compare, rely on, repair, or stop;
-- confirmation that every already governed value keeps its own kind, identity, direct relations, and subject pattern;
-- the practical difference that this reusable coordination makes;
-- why direct-pattern use, a bounded episteme, local typed projection, publication handling, and wording repair do not close the case; and
-- the nearest case that must remain outside the proposed ontic.
+- one blocked use or decision;
+- one independently recoverable candidate entity, proposal episteme, or source-construct entity that carries the inquiry without presupposing a durable ontic;
+- concrete duplication or disagreement pressure in more than one current pattern description;
+- the named consumers that make shared coordination plausible; and
+- why one obvious direct-pattern route does not already close the blocked use.
 
-These facts tell the author to open E.24; they do not admit an ontic. Repeated words, several source forms, copied fields, or a useful schema can prompt inspection, but none substitutes for those facts.
+Transfer those facts to E.24. E.24—not E.24.CD—tests the complete identity or constitution rule, minimal direct-relation set, dependent reliance, non-duplication, practical gain, and nearest non-use boundary. If one of those facts cannot be established, E.24 may return its unresolved result. Detection therefore does not require the author to settle the candidate before opening the settlement pattern.
+
+A plainly direct case still stops at its subject pattern. Repeated words, several source forms, copied fields, or a useful schema can prompt inspection, but without a blocked use, an independently recoverable inquiry subject, concrete cross-pattern pressure, named consumers, and failure of an obvious direct route, they do not open E.24.
 
 #### E.24.CD:4.4 - State one result and stop
 

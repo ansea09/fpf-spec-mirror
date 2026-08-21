@@ -6,12 +6,12 @@ section_id: "A.16.2:20"
 section_title: "Required Downstream Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__021_required-downstream-repairs.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:20 — Required Downstream Repairs"
-line_start: 28017
-line_end: 28027
+line_start: 27532
+line_end: 27542
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,10 +36,10 @@ keywords:
 ### A.16.2:20 - Required Downstream Repairs
 
 #### A.16.2:20.1 - Stale downstream publication/work-target rule
-A retreat or retirement often leaves stale downstream publications or work targets behind: prompts, `A.6.A`-governed invitations, evaluative notes, requirement candidates, or work hooks that were admissible only under the prior state with higher closure state, route authority state, or endpoint authority claim. A conforming retreat should therefore name which downstream publications or work targets remain valid, which must be revised, and which must be withdrawn.
+A retreat or retirement often leaves stale downstream publications or Work targets behind: prompts, `A.6.A`-governed invitations, evaluative notes, requirement candidates, or Work hooks that were admissible only under the prior closure, route selection, or endpoint-use disposition. A conforming retreat should therefore name which downstream publications or Work targets remain valid, which must be revised, and which must be withdrawn.
 
 #### A.16.2:20.2 - Narrow retreat propagation
-Retreat propagation should be as narrow as truth permits. If only one framing scaffold failed, then only the downstream publications or work targets that depend on that scaffold need revision. Over-broad rollback is wasteful; under-broad rollback leaves false authority in circulation.
+Retreat propagation should be as narrow as truth permits. If only one framing scaffold failed, then only the downstream publications or Work targets that depend on that scaffold need revision. Over-broad rollback is wasteful; under-broad rollback leaves false route, endpoint, publication, or current-use claims in circulation.
 
 #### A.16.2:20.3 - Retreat timestamping and witness continuity
 Where several revisions exist, the retreat note should make clear which earlier publication it revises and which witness set still carries continuity across the revision. Without that linkage, readers may not know whether two nearby texts are alternative drafts or a genuine retreat sequence.

@@ -1,49 +1,42 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.20"
-pattern_title: "Flow Constraint Validity — Eulerian"
+pattern_title: "Constraint Validity for Transformation Steps"
 section_id: "A.20:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__004_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.20 — Flow Constraint Validity — Eulerian"
+  - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:2 — Problem"
-line_start: 33516
-line_end: 33526
+line_start: 33040
+line_end: 33050
 dependencies:
-  - "A.19.SelectorMechanism"
+  - "A.10"
+  - "A.15"
   - "A.21"
-  - "C.18"
-  - "C.19"
+  - "A.6.1"
+  - "A.6.4"
+  - "B.3"
+  - "C.2.1"
+  - "C.27"
   - "E.17"
   - "E.18"
-  - "F.17"
+  - "E.20"
   - "F.9"
   - "G.11"
-  - "G.5"
-  - "G.6"
 keywords:
-  - "ConstraintValidity"
-  - "Eulerian"
-  - "GateFit"
-  - "MVPK"
-  - "PathSlice"
-  - "Sentinel"
-  - "SquareLaw"
-  - "TransformationFlowStructure"
-  - "flow"
 ---
 
 ### A.20:2 - Problem
 
-Without a clear CV core:
+How can FPF report internal constraint validity without:
 
-* internal step laws (declared domains and ranges, invariants, units coherence, and Lipschitz-bound or stability claims) are mistaken for `GateProfile` fit;
-* plane or comparator declarations sneak into mechanisms;
-* freshness and DesignRunTag concerns appear inside mechanisms;
-* reproducibility suffers because transfers start carrying hidden semantics beyond `⟨L,P,E⃗,D⟩`.
-
-Under this pattern, CV is evaluated **inside** transformations. **If** a check declares planes, units, or comparators or depends on a declared `GateProfile`, **then** it is treated as **GateFit at gates** and the CV explanation **does not apply**.
+- inventing a world-side `FlowConstraintValidity` relation whose participants are unspecified;
+- using one status value for not applicable, not run, unknown, policy degradation, and gate blocking;
+- requiring every specialist constraint for every transformation;
+- suppressing independently useful gate-fit results after one local failure;
+- copying publication, path, refresh, gate, or retargeting architecture into A.20; or
+- treating an entity reference as a semantic bridge or requiring every retargeting to be reversible?
 

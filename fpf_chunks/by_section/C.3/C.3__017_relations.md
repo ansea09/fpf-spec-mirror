@@ -6,12 +6,12 @@ section_id: "C.3:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__017_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:15 — Relations"
-line_start: 44688
-line_end: 44693
+line_start: 43471
+line_end: 43476
 dependencies:
   - "A.1"
   - "A.11"

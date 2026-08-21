@@ -6,12 +6,12 @@ section_id: "C.3:6"
 section_title: "Decision Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__008_decision-split.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:6 — Decision Split"
-line_start: 44598
-line_end: 44616
+line_start: 43380
+line_end: 43399
 dependencies:
   - "A.1"
   - "A.11"
@@ -47,18 +47,19 @@ keywords:
 
 | Current question | Subject pattern |
 | --- | --- |
-| What local kind does this claim quantify over? | `C.3` and `C.3.1` |
-| Is one local kind a subkind of another, or does the same kind continue across a declaration change? | `C.3.1` |
-| Does this exact candidate satisfy this local kind under this declaration edition and context slice? | `C.3.2` |
+| What kind does this claim quantify over, and what makes it the same kind later? | `C.3` and `C.3.1`; use candidate domain, membership distinction, and continuity rule |
+| Does one kind count as a subkind of another for this declared applicability? | `C.3.1`; distinguish criterion entailment, exhaustive closed-domain evaluation, classification equivalence, and kind identity |
+| May this candidate be evaluated under this declaration and slice? | `C.3.2` admissibility; `not-applicable` forms no three-valued judgment |
+| Does this admissible candidate satisfy this kind under this declaration edition and slice? | `C.3.2` returns `true`, `false`, or `unknown` |
 | Does a receiving use need the represented set of true members? | `C.3.2`; `C.29` when the representation itself changes a claim-bearing use |
 | Does the assertion hold in a target slice? | `A.2.6` for its `U.ClaimScope`; do not attach that scope to the kind |
-| Does a typed claim cross into another local practice or source boundary? | `C.3.3` for the `KindBridge` between the exact local kinds; add F.9 only when the source-local senses also need an explicit relation |
-| Did only the effective reference scheme change within one local kind boundary? | `C.3.2` for another `KindSignature` edition and `C.3.1` for the same-kind continuity decision; the scheme change alone is not a kind bridge |
-| Did only the context slice change? | `C.3.2` for another judgment input and possible `KindExtension`; the slice change alone is not a context bridge |
-| Is the local kind being proposed as a durable public FPF `U.*` kind? | `E.24.UK`, followed by the applicable naming patterns |
-| Is a candidate, quality, relation, construction, or work occurrence being identified? | The direct subject pattern; C.3 consumes the governed result and does not create it |
+| Did the practice, source, team, or other locality change? | Compare exact kind definitions. Reuse the same kind when its distinction continues. Use `C.3.3` only after two distinct kinds and a proposed correspondence are independently present |
+| Did only the reference-scheme edition change? | `C.3.2` for another `KindSignature` edition and `C.3.1` for continuity and any renewed subkind test; the scheme is not a kind or relation-occurrence identity key |
+| Did only the context slice change? | `C.3.2` for another applicability check, judgment input, and possible extension; the slice alone creates no bridge |
+| Is this kind proposed as another durable public FPF `U.*` kind? | `E.24.UK`, followed by applicable naming patterns |
+| Is a candidate, quality, relation, construction, episteme, status, publication occurrence, or Work being identified? | Its direct subject pattern; C.3 consumes that result and does not create it by classification notation |
 
-When typed reasoning is part of a structural construction-to-representation passage from a constructive representation or working model to a target kind or logical representation, cite `StructuralCT2RTypingGroundingUnfoldingStructureBlock` from `B.3.5`. C.3 contributes only the local kind, judgment, subkind, and bridge loci inside that B.3.5-governed local `A.22.CGUS` specialization. It does not create separate unfolding-structure authority and does not make a constructive trace, working-model relation, proof, evidence relation, or classification true by label. For general diagnostic recovery from an inadequate working account to the exact subject construction, use `A.7.1`; classification remains one possible locus rather than a general ontology-return method.
+When typed reasoning is part of a structural construction-to-representation passage from a constructive representation or working model to a target kind or logical representation, cite `StructuralCT2RTypingGroundingUnfoldingStructureBlock` from `B.3.5`. C.3 contributes only the kind, admissibility and judgment, subkind, and bridge loci inside that B.3.5-governed local `A.22.CGUS` specialization. It does not create separate unfolding-structure authority and does not make a constructive trace, working-model relation, proof, evidence relation, or classification true by label. For general diagnostic recovery from an inadequate working account to the exact subject construction, use `A.7.1`; classification remains one possible locus rather than a general ontology-return method.
 
 The unfolding is admitted only when the block names the starting representation, target kind or logical representation, current bridge when one is used, preserved structure, lost or collapsed structure, `CL` or `CL^k`, admissible reuse, blocked substitution, and the proof or evidence subject pattern when that stronger claim is current.
 

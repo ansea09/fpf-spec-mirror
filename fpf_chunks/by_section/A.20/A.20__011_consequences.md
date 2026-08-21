@@ -1,50 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.20"
-pattern_title: "Flow Constraint Validity — Eulerian"
-section_id: "A.20:8"
+pattern_title: "Constraint Validity for Transformation Steps"
+section_id: "A.20:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__011_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.20 — Flow Constraint Validity — Eulerian"
-  - "A.20:8 — Consequences"
-line_start: 33750
-line_end: 33761
+  - "A.20 — Constraint Validity for Transformation Steps"
+  - "A.20:9 — Consequences"
+line_start: 33225
+line_end: 33228
 dependencies:
-  - "A.19.SelectorMechanism"
+  - "A.10"
+  - "A.15"
   - "A.21"
-  - "C.18"
-  - "C.19"
+  - "A.6.1"
+  - "A.6.4"
+  - "B.3"
+  - "C.2.1"
+  - "C.27"
   - "E.17"
   - "E.18"
-  - "F.17"
+  - "E.20"
   - "F.9"
   - "G.11"
-  - "G.5"
-  - "G.6"
 keywords:
-  - "ConstraintValidity"
-  - "Eulerian"
-  - "GateFit"
-  - "MVPK"
-  - "PathSlice"
-  - "Sentinel"
-  - "SquareLaw"
-  - "TransformationFlowStructure"
-  - "flow"
 ---
 
-### A.20:8 - Consequences
+### A.20:9 - Consequences
 
-**Benefits.**
-*Clarity & composability.* Mechanism descriptions remain limited to internal laws; gates are the sole policy junction.
-
-*Replayability.* With valuation plus MVPK pins, re-runs under fixed `E⃗` are comparable and slice-scoped through `E.18`, `A.20`, and `G.11` when refresh wiring is present.
-*Didactic hygiene.* Readers can see what is step-local mechanism constraint plus `CV.Status` vs. gate policy.
-
-**Trade‑offs.**
-
-* Two places to look (CV vs. GF) impose placement discipline; mitigated by the activation predicate and MVPK links.
+The result is smaller and more reusable. A missing check can no longer disappear as success, and a gate can retain useful independent findings even after one internal failure. The cost is that a consequence-bearing use must name its required constraint set and cannot hide policy inside A.20 status words.
 

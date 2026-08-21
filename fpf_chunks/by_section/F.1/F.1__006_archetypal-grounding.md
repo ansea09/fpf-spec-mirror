@@ -6,12 +6,12 @@ section_id: "F.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__006_archetypal-grounding.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:5 — Archetypal Grounding"
-line_start: 90616
-line_end: 90692
+line_start: 88002
+line_end: 88078
 dependencies:
   - "A.10"
   - "A.7"
@@ -69,7 +69,7 @@ Reopen if: the use adds physical transformation or service commitments, a relied
 Search policy: none needed for this bounded question.
 ```
 
-The resulting `SourceCutNote` is identified by that ClaimGraph, the stated receiving question, and the named reading scheme. F.0.1 or F.17 recovers local meanings only where later work needs them.
+The resulting `SourceCutNote` is identified by that ClaimGraph, the stated receiving question, and the named reading scheme. Because this cut turns on the difference between a designed workflow and a performed occurrence, the project recovers any disputed *process* reading through ordinary F.0.1 while inspecting source roles, before stabilizing the cut. It adds an F.17 cell afterward only if later reuse, a claim, a named receiver, or an actual relation needs one.
 
 #### F.1:5.3 - Portable first-hour case — function-to-module allocation
 

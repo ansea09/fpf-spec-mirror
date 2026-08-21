@@ -6,12 +6,12 @@ section_id: "C.2.7:13"
 section_title: "Worked Examples and Factor Interaction Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__014_worked-examples-and-factor-interaction-notes.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:13 — Worked Examples and Factor Interaction Notes"
-line_start: 44105
-line_end: 44115
+line_start: 42884
+line_end: 42894
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -22,6 +22,7 @@ dependencies:
   - "C.2.2a"
   - "C.2.6"
   - "C.2.LS"
+  - "F.9"
   - "F.9.1"
 keywords:
   - "factor bundle"

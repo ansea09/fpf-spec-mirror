@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.Q.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
-line_start: 47621
-line_end: 48471
+line_start: 46408
+line_end: 47258
 dependencies:
   - "A.10"
   - "A.16"
@@ -497,7 +497,7 @@ A conforming quality-term repair publication SHALL narrate changes with a stable
 * **`refreshWitnessRefs(...)`** — refresh witness bindings without silently changing an evidence-provenance path or grounding relation.
 * **`replaceEvidenceProvenancePath(...)`** — replace the cited A.10 path of exact direct relations without manufacturing a quality result.
 * **`replaceEmpiricalGroundingRelationRef(...)`** — cite another independently obtaining C.2.1 grounding occurrence; a record edit cannot make it obtain.
-* **`retargetBridgeOccurrenceRef(...)`** — retarget an exact F.9 occurrence ref; it does not retarget a Card, overlay, or bounded-use claim by implication.
+* **`retargetBridgeOccurrenceRef(...)`** — retarget an exact F.9 occurrence ref; it does not retarget a bounded-use claim, optional Bridge Card, or optional stance note by implication.
 * **`exitQualityAscription(...)`** — end use of the quality-ascription form and continue with the pattern for the recovered non-quality claim; never silently retype the old record.
 
 A silent **sense rewrite** is a breaking semantic change.

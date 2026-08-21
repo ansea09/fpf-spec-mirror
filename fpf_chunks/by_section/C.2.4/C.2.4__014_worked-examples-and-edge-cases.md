@@ -6,24 +6,31 @@ section_id: "C.2.4:13"
 section_title: "Worked Examples and Edge Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__014_worked-examples-and-edge-cases.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:13 — Worked Examples and Edge Cases"
-line_start: 43557
-line_end: 43567
+line_start: 42318
+line_end: 42331
 dependencies:
+  - "A.15"
+  - "A.15.1"
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.16.2"
   - "A.18"
+  - "A.3.1"
+  - "A.6.3.RT"
   - "A.6.P"
   - "B.4.1"
   - "B.5.2.0"
+  - "C.16.P"
+  - "C.2.1"
   - "C.2.2a"
   - "C.2.5"
   - "C.2.LS"
+  - "C.2.P.DR"
 keywords:
   - "articulation explicitness"
   - "early repair readiness"
@@ -35,11 +42,14 @@ keywords:
 ### C.2.4:13 - Worked Examples and Edge Cases
 
 #### C.2.4:13.1 - High formality, low articulation
-A template may be syntactically precise and therefore high in `F`, yet still low in `AE` because the actual relation participant, field meaning, representation position, bearer, intended activity or plan, admitted Work occurrence, reliance move, or ordinary domain meaning remains unclear. A local system-role kind, classification, or assignment is selected only after evidence supports that branch. This is the classic case where formal-looking language overstates semantic readiness.
+A template may be syntactically precise and therefore high in `F`, yet still low in `AE` because the actual participants, field meanings, bearer, planned action, admitted Work occurrence, reliance move, evaluator, or ordinary domain meaning remains unclear. A local system-role kind, classification, or assignment is selected only after evidence supports that branch. Formal-looking language does not make its semantic route recoverable.
 
-#### C.2.4:13.2 - Low formality, high articulation
-A short, plain note may be low in `F` yet already high in `AE` because the relation skeleton is explicit enough for `A.6.P`. This case matters because it shows that `AE` is not a stylistic measure.
+#### C.2.4:13.2 - Plain plan, high articulation
+The note `At 14:00, Maintenance Team 2 will isolate Pump P-17, replace Seal S-4, and restore service only after Leak Test LT-9 passes` uses ordinary language and little formal notation. It can still reach `AE4`: the planned actor, affected entity, ordered actions, time, and completion condition are explicit enough for the planning branch. It routes to `A.15`; it is not yet an `A.15.1` Work occurrence and needs no relation repair merely to count as explicit.
 
-#### C.2.4:13.3 - Threshold edge case
-A cue with stable trigger span and candidate anchors may still sit between `AE2` and `AE3`. A Context should then publish its local threshold rule explicitly rather than pretending that entry into `A.6.P` is obvious by tone.
+#### C.2.4:13.3 - Relation-looking but wrongly routed
+A row `Maintenance Team 2 | Pump P-17 | isolate | 14:00` looks slot-shaped. If it records intended action, however, it is a compact plan row rather than proof of a durable relation. Its layout does not raise `AE` until the planning meaning and conditions are recoverable, and it does not select `A.6.P`.
+
+#### C.2.4:13.4 - Threshold edge case
+A cue with a stable trigger and candidate anchors may still sit between `AE2` and `AE3` because its direct branch is unresolved. Keep it in `B.4.1` or `A.16.1`, state what is missing, and apply the threshold of the branch eventually selected rather than a universal relation threshold.
 

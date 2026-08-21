@@ -1,50 +1,49 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.4"
-pattern_title: "U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
-section_id: "A.6.4:9"
+pattern_title: "EntityOfConcern retargeting"
+section_id: "A.6.4:12"
 section_title: "Mini-checklist (for use)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__013_mini-checklist-for-use.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
-  - "A.6.4:9 — Mini-checklist (for use)"
-line_start: 15603
-line_end: 15624
+  - "A.6.4 — EntityOfConcern retargeting"
+  - "A.6.4:12 — Mini-checklist (for use)"
+line_start: 15380
+line_end: 15391
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
   - "A.6.5"
   - "A.7"
+  - "B.3"
   - "C.2"
   - "C.2.1"
+  - "C.29"
   - "C.3"
   - "E.10.D2"
-  - "E.18"
+  - "E.17"
+  - "E.24.PUB"
   - "F.9"
 keywords:
 ---
 
-### A.6.4:9 - Mini-checklist (for use)
+### A.6.4:12 - Mini-checklist (for use)
 
-When you think you need "retargeting" in FPF, ask:
+When you think you need retargeting, ask:
 
-1. **Does `entityOfConcernRef` change?**
-   If no, this is Viewing (A.6.3), not Retargeting.
-
-2. **Is there a `KindBridge` between source and receiving entities?**
-   If not, add or select the bridge in Part F, or revise the EntityOfConcern instead of treating the relation as retargeting.
-
-3. **What invariant are you preserving?**
-   Write it down in KD-CAL/LOG-CAL terms. If you cannot, retargeting is underspecified.
-
-4. **How do grounding, effective scheme, scope or operating conditions, and any selected describing-use viewpoint behave?**
-   State whether they stay the same, move along Bridges, or are out of scope.
-
-5. **Can the operation be factored as Mechanism + pure retargeting?**
-   If the step needs computation such as FFT or model fitting, separate the Mechanism from the EpistemicRetargeting.
-
-6. **What remains admissible for the reader?**
-   State the remaining reader action, and name source-bearing reopen or a neighboring pattern when the bridge, invariant, or source/bridge/invariant witness is insufficient for the intended use.
+1. **Does the EntityOfConcern change?** If no, use A.6.3 or another preserving pattern.
+2. **Which two epistemes and EntitiesOfConcern are involved?** Name them before naming a mapping technology.
+3. **What invariant remains supported?** State the exact claim and its case assumptions.
+4. **What is lost, and which receiving use tolerates that loss?** A broad "same meaning" answer is insufficient.
+5. **What witnesses the invariant and loss judgement?** If the witness is missing or contradicted, stop or reopen.
+6. **Is a relation between two local senses also claimed?** Only then test F.9 separately; no Bridge follows merely from retargeting.
+7. **Was computation or other Work performed?** Identify the operation application and Work separately from r and q.
 

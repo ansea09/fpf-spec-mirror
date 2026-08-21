@@ -6,18 +6,20 @@ section_id: "C.36.P:6"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__008_boundaries.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:6 — Boundaries"
-line_start: 68295
-line_end: 68302
+line_start: 65525
+line_end: 65534
 dependencies:
   - "A.1"
+  - "A.1.1"
   - "A.15"
   - "A.3.1"
   - "A.3.2"
   - "A.3.3"
+  - "A.6.RCD"
   - "B.2"
   - "B.2.2"
   - "B.2.3"
@@ -41,6 +43,7 @@ dependencies:
   - "D.4"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "E.18.1"
   - "F.17"
@@ -53,9 +56,11 @@ keywords:
 
 ### C.36.P:6 - Boundaries
 
-This pattern does not define the cultural-evolution subject. Use `C.36` for the cultural-evolution case and cultural-evolution engineering intervention.
+This pattern does not define the cultural-evolution case or intervention. Use C.36 for those questions.
 
-Use this pattern for one repeatable recovery line that names subject patterns. Once the subject pattern is named, stop the wording repair and return to the project question.
+Use C.36.P to recover one ordinary claim. Keep the optional recovery line only when a handoff or repeated use needs it. Once the meaning and applicable rule are clear, stop the wording repair and return to the project question.
+
+Earlier retrieval text may call the optional line `CulturalEvolutionWordingRecoveryLine@Context`. In this edition that name resolves to `CulturalEvolutionWordingRecoveryLine`; the suffix supplies no Context object, scope, relation, or field.
 
 This pattern does not create `U.Culture`, `U.Style`, `U.Tradition`, `U.Practice`, `U.Genre`, `U.Scene`, `U.Technique`, `U.Platform`, `U.PlatformRegime`, `U.MeasurementRegime`, or `U.DevelopmentalMachine`.
 

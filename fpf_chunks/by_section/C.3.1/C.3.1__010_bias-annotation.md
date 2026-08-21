@@ -6,12 +6,12 @@ section_id: "C.3.1:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__010_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:8 — Bias-Annotation"
-line_start: 44793
-line_end: 44796
+line_start: 43585
+line_end: 43588
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,5 +44,5 @@ keywords:
 
 ### C.3.1:8 - Bias-Annotation
 
-C.3.1 counters hierarchy bias, assertion-as-world bias, label continuity bias, and table-repair bias. A stronger-looking relation is not automatically an obtaining `U.SubkindOf` occurrence; an edge, predicate expression, or affirmative assertion does not make it obtain; same spelling or higher formality does not settle kind identity; and an extension table is an output representation, not the place to repair a contradictory order.
+C.3.1 counters hierarchy, sample-as-law, assertion-as-world, locality, and table-repair bias. A stronger-looking edge is not automatically an obtaining relation; a sample does not close an open domain; mutual classification does not identify two intensional kinds; a changed source does not split one; and an extension remains an output representation rather than the place to repair the rule.
 

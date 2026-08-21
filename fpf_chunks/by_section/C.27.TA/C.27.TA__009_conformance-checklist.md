@@ -6,12 +6,12 @@ section_id: "C.27.TA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__009_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:7 — Conformance Checklist"
-line_start: 56886
-line_end: 56897
+line_start: 54178
+line_end: 54191
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,11 +47,13 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-C27TA-1` | The temporal aspect statement names bearer, governing pattern, bounded context, aspect kind, temporal reference, and window or interval. |
-| `CC-C27TA-2` | The statement distinguishes positive temporal aspect from temporal-claim adequacy. |
-| `CC-C27TA-3` | Rhythm or cadence statements name bearer, timing reference, and window; cross-bearer terms appear only with a named relation. |
-| `CC-C27TA-4` | Currentness or freshness statements name reference time, validity window, and refresh or reopen condition when one changes the use. |
-| `CC-C27TA-5` | Recovery, stabilization, inertia, and effort-over-time statements name bearer, interval, and governing use relation. |
-| `CC-C27TA-6` | The statement does not infer evidence, permission, value, gate passage, work completion, or causal use from a temporal aspect. |
-| `CC-C27TA-7` | Measurement construction, dynamics laws, transformations, work, benchmark parity, and source or evidence use stay with their governing patterns. |
+| `CC-C27TA-1` | The first result names one exact EntityOfConcern, temporal predicate, temporal reference, and interval or window. A materialized result is ClaimGraph content in one `C.2.1` episteme. |
+| `CC-C27TA-1a` | No generic context value is required. Measurement, effective scheme or scope, selected Structure, source or use boundary, local-use condition, currentness, reopen, coupling, direct relation, PatternID citation, and blocked overread appear only when changing that value could change the claim or receiving action. |
+| `CC-C27TA-2` | The aspect label is a predicate or qualifier in claim content, not an identified temporal-aspect object, and the statement distinguishes the positive claim from C.27 adequacy. |
+| `CC-C27TA-3` | When present, PatternID citations are ordinary rule locators. Any direct relation uses a separate exact declaration reference and cites an obtaining occurrence only after its own predicate passes. |
+| `CC-C27TA-4` | Rhythm or cadence claims use the four-part minimum; cross-bearer fields appear only when an independently established relation changes the receiving use. |
+| `CC-C27TA-5` | Currentness or freshness claims add a source-use boundary, currentness, refresh, or reopen condition only when it changes the receiving use. |
+| `CC-C27TA-6` | Recovery, stabilization, inertia, and effort-over-time claims begin with the four-part minimum; disturbance, measurement, effort, relation, and rule fields are conditional. |
+| `CC-C27TA-7` | The claim does not infer evidence, permission, value, gate passage, work completion, causal use, or a relation occurrence from a temporal predicate. |
+| `CC-C27TA-8` | Measurement construction, dynamics laws, transformations, work, benchmark parity, and source or evidence use stay with their direct patterns; publication occurrence, form, and carrier do not reidentify unchanged claim content. |
 

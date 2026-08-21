@@ -6,12 +6,12 @@ section_id: "C.3.4:11"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__013_authoring-and-review-guidance.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:11 — Authoring and Review Guidance"
-line_start: 45448
-line_end: 45469
+line_start: 44245
+line_end: 44266
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -25,23 +25,23 @@ keywords:
 
 ### C.3.4:11 - Authoring and Review Guidance
 
-#### C.3.4:11.1 - Authoring a Declaration Card
-
-A card or catalog row may represent the adaptation declaration's designator, base kind, pinned kind-signature edition, declaration edition, type, intended use, candidate-feature constraints, separately routed Scope expectations, bindings, definedness, examples, known Bridge and correspondence declarations, and any stable-distinction review note. The card is not the declaration episteme or a new ontic object.
+An adaptation card may show its declaration designator, base kind, effective scheme, pinned base-signature and declaration editions, adaptation type, intended use, candidate constraints, bindings, separately routed Scope, applicability, examples, known bridge or correspondence declarations, and a stable-distinction review note when current. A correspondence card shows its source declaration as EntityOfConcern and names target, direction, rule, definedness, loss, and effective scheme. A card represents the declaration; it is not the declaration or another kind.
 
 Rules of thumb:
 
-- Keep candidate predicates small and testable.
-- Put context predicates in Scope, not in the adaptation judgment.
-- If several teams reuse the same stable conceptual constraint, review whether a separately identified local kind and an obtaining `U.SubkindOf` relation are warranted; declaration reuse establishes neither.
+- Keep candidate conditions small and governed.
+- Check ValueKind and applicability before the three-valued judgment.
+- Put claim-scope conditions in Scope, not kind identity.
+- Treat locality as a comparison cue. Require a bridge only for distinct kinds with an obtaining correspondence.
+- If several teams reuse one stable conceptual constraint, review whether another kind is warranted; reuse alone establishes none.
 
-#### C.3.4:11.2 - Reviewer Checklist
+Reviewer questions:
 
-1. Is the adaptation declaration durably identified and versioned?
-2. Is its type—constraint, vocabulary, or composite—stated correctly?
-3. Are candidate features and context conditions separated?
-4. Is evaluation deterministic, with no implicit `latest`?
-5. Does the guard evaluate the exact three-valued judgment, check Scope separately, and keep refusal distinct?
-6. Does every cross-context use recover the `KindBridge`, Bridge assertion, target declarations, any correspondence declaration, target judgment, and only justified R penalties?
-7. Is declaration consolidation sufficient, or does a stable conceptual distinction warrant a separately identified local kind and independently obtaining subkind relation?
+1. Are the exact base kind and declaration editions recoverable?
+2. Is the type—constraint, vocabulary, or composite—correct?
+3. Are candidate conditions, applicability, and ClaimScope separated?
+4. Does evaluation distinguish `not-applicable`, `true`, `false`, `unknown`, and guard refusal?
+5. On locality change, was kind identity compared before any bridge was claimed?
+6. For distinct-kind use, do the bridge predicate, receiving declaration, fresh judgment, any adaptation correspondence, and only justified R consequence remain separate?
+7. Does a stable conceptual distinction warrant another kind, or is the declaration sufficient?
 

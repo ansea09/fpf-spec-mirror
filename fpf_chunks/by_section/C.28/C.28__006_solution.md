@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.28"
-pattern_title: "CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+pattern_title: "CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
 section_id: "C.28:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+  - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:4 — Solution"
-line_start: 57105
-line_end: 57678
+line_start: 54350
+line_end: 54873
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,13 +30,14 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
+  - "CausalUseSupportResult"
   - "Pearl Causal Hierarchy"
   - "Structural Causal Model"
   - "association"
   - "causal diagram"
   - "causal estimand"
-  - "causal evidence support basis"
   - "causal fairness"
+  - "causal support components"
   - "causal-RL evaluation"
   - "causal-use question"
   - "causality ladder"
@@ -50,58 +51,66 @@ keywords:
 
 ### C.28:4 - Solution
 
-Use a three-level causal-use escalation:
+Use the smallest result that answers the current question:
 
-1. Start with `CausalUseTriageRecord`.
-2. Escalate to `LocalCausalUseQuestionCard` or `DurableCausalUseQuestionCard` only when the claimed use needs a reusable causal-use record.
-3. Add profiles or specialized records only when the claim triggers that exact need: identification, realizability, evidence design, fairness, policy evaluation, transportability, estimation validity, causal-variable representation, or parity.
+1. triage the claim;
+2. stabilize the question in a small card when it must be reused;
+3. run the common threat screen;
+4. add only the specialist result needed now; and
+5. issue a small `CausalUseSupportResult` when another pattern must consume the conclusion.
 
-The default move is cheap. The heavy move is triggered.
+#### C.28:4.0 - Public contract and support components
 
-| Record or profile kind | Ordinary size | Trigger |
+C.28 uses references to actual objects. It introduces no universal kind for a causal-use question, estimand, or potential-outcome contrast.
+
+- `CausalUseQuestionRef` identifies the exact question content, normally a C.2.1 episteme.
+- `CausalEstimandRef` identifies the mathematical target or the episteme that describes it under its direct pattern.
+- `PotentialOutcomeContrastRef` identifies the exact contrast or its description.
+- `CausalUseSupportResultRef` identifies one C.2.1 result episteme defined below.
+
+Support is composable. A real result may use several components:
+
+```text
+CausalSupportComponentRefs:
+  evidencePathRefs?
+  empiricalDataRegimeRefs?
+  identificationResultRef?
+  estimateResultRef?
+  counterfactualSamplingRealizabilityResultRef?
+  simulationResultRef?
+  targetTrialMappingResultRef?
+  offPolicyCausalEvaluationResultRef?
+  causalVariableRepresentationRecordRef?
+  transportabilityResultRef?
+```
+
+These fields answer different questions. Do not compress them into one exclusive value. Each optional specialist ref identifies the exact result or record actually used. Keep a component's own assumptions, uncertainty or sensitivity, supported and unsupported uses, and reopen information with that component when its defining contract requires them; do not copy fields merely to complete a standard list. The common `CausalUseSupportResult` still states its own `supportedUse`, `unsupportedUse`, `limits`, optional evidence window, and `reopenCondition`. Naming a specialist subject in prose does not make its result available to a consumer.
+
+| Component | Question it answers | Does not establish |
 | --- | --- | --- |
-| `CausalUseTriageRecord` | one short record; usually `5-8` lines covering activation, rung, comparator or counterfactual, causal support-basis triage value, supported use and unsupported use pair, and next supported use | any live causal wording or suspected causal laundering |
-| `LocalCausalUseQuestionCard` | one small card; usually one causal-use question, one rung, optional comparator or estimand, one support basis, one supported use and unsupported use pair, and one next supported use | the team needs a reusable local record but not a publication, release, fairness, benchmark, or assurance object |
-| `DurableCausalUseQuestionCard` | one durable card with causal-use kind, estimand, timing and outcome when needed, assumptions, rival causes, support basis, supported use and unsupported use pair, next supported use, and stop-or-reopen condition | the claim is decision-bearing, publication-bearing, fairness-bearing, benchmark-bearing, assurance-bearing, or reusable |
-| heavy profile or specialized record | only the fields needed for the named triggered question or work item; absent fields remain absent rather than becoming implied dossier requirements | identification, realizability, target-trial emulation, parameter estimation, transportability, off-policy evaluation, causal representation, evidence design, fairness audit, or causal parity is materially needed |
+| evidence path and data regime | What observations, assignments, or samples are available, and where did they come from? | identification or a valid estimate |
+| identification result | Can the estimand be expressed or bounded from those data and assumptions? | a numerical estimate or direct sampling |
+| estimate result | What value and uncertainty were obtained under an identification or design basis? | identification by the number alone |
+| counterfactual-sampling realizability result | Can samples from the declared target distribution be obtained under the stated constraints, and how was that decided? | a WorkPlan, performed sampling, resulting data, or identification of every target |
+| simulation result | What did the model produce under its assumptions and validation? | realized evidence or an intervention effect |
+| target-trial mapping result | How does the declared trial protocol map to one observational data source, and which gaps, residual-confounding risks, and sensitivity checks remain? | identification, low risk of bias, or a valid estimate by reporting completeness alone |
+| off-policy evaluation result | What does logged behaviour support about one evaluation policy under the stated history, confounding, overlap, endpoint, estimator, and uncertainty conditions? | authority to deploy or unqualified policy optimality |
+| causal-variable representation record | Which learned, selected, or abstracted variables preserve the interventions, invariances, and queries needed for this use? | causal validity for every query, shift, or domain |
+| transportability result | Which support transfers between exact endpoints, under which assumptions? | transfer by a shared label or population name |
 
-#### C.28:4.0 - Causal-use governance and consumer carry-through boundary
+`CausalEmpiricalDataRegime` is a local classification used only when it helps distinguish evidence:
 
-`C.28` governs causal-use objects, `CausalEvidenceSupportBasis` values, causal-use support and unsupported-use statements, identification and realizability profiles, and causal-use verdicts.
+```text
+CausalEmpiricalDataRegime =
+  observationalOrNaturalBehaviorData |
+  randomizedInterventionData |
+  governedInterventionData |
+  realizedCounterfactualSamplingData
+```
 
-Neighbor patterns keep their local authority and consume only the causal-use pieces they need: measurement, evidence path, assurance, fairness, decision, exploration, call-planning, dispatch, parity, and refresh records do not become causal-use governing patterns by carrying `C.28` fields.
-
-| Object or decision | `C.28` governs | Neighbor may carry | Neighbor must not do |
-| --- | --- | --- | --- |
-| Causal-use kind and rung | `CausalUseClaimKind`, `CausalityLadderRung`, causal-use question, comparator or counterfactual, estimand, supported use, unsupported use | `causalUseSpec?`, `causalActionUseSpec?`, method dispatch spec, parity record, fairness audit card | Infer causal-use kind from local vocabulary alone or publish a higher `CausalityLadderRung` without C.28 support |
-| Causal evidence support basis | `CausalEvidenceSupportBasis` and its five values | Evidence path refs in `A.10`, A.2.4 evidence-use relation slots for episteme-as-evidence use, consumer fields in `B.3`, `C.19`, `D.5`, `G.5`, and `G.9` | Mint another support-basis value set, add assumption-only values or no-support values, or let simulation-only output become realized evidence by name |
-| Identification and realizability | `CausalIdentificationProfile`, `CounterfactualSamplingRealizabilityProfile`, their verdicts, and supported use and unsupported use | Evidence, assurance, decision, exploration, call-planning, fairness, dispatch, and parity refs to those profiles | Treat identification as direct sampling, or treat direct-sampling infeasibility as absence of all possible causal support |
-| Graph and calculus naming | `CausalGraphRepresentationKind`, `GraphSeparationCriterionKind`, `CausalInferenceCalculusKind`, `StructuralCausalModel`, `CausalDiagramRef` | Named graph refs and calculus refs when the neighbor records the causal-use support basis and cited formalism | Use generic graph prose where the causal-use claim depends on a graph formalism or calculus |
-| Assurance consequence | `CausalUseSupportVerdict` as causal-use action grammar | `B.3` degrade, block, or abstain consequences for `F-G-R/CL` assurance | Let assurance prose certify causal identification, realizability, or fairness |
-| Fairness, policy, and parity specialization | Causal-use question, rung, estimand, support basis, and support verdict for fairness, policy, and causal method comparison | `D.5` ethical audit card or fairness audit card, `C.11` choice result, `C.19` pool policy, `C.24` call plan, `G.5` method dispatch spec, `G.9` parity report with local refs to consumed `C.28` support | Collapse metric disparity, policy replay, method dispatch, or benchmark score into a causal-use verdict |
-
-A neighbor may quote the `C.28` values it consumes for by-value readability. Quoting the values does not transfer governing authority. A neighbor pattern governs only its local record and must cite `C.28` when the causal-use question or causal-support basis is live.
-
-Compact crosswalk:
-
-| Field or decision slot | Question answered | Typical values | Do not confuse with |
-| --- | --- | --- | --- |
-| `CausalityLadderRung` | What kind of causal question or use is being claimed? | observational association, interventional action, counterfactual comparison | the evidence source or the method family |
-| `CausalEvidenceSupportBasis` | What support-basis value is being used for that causal use? | observational association, interventional action, realized counterfactual sample, identified counterfactual estimate, simulation-only output | the rung itself, a raw evidence-source label, a local evidence-use label, or a no-support verdict |
-| `supportedUse` and `unsupportedUse` | What may the reader do next, and what must they not do? | `CausalUseSupportStatement`, `CausalUseUnsupportedStatement` | a confidence score, a graph name, a method name, or a neighboring governing pattern |
-
-Rung-support-use examples:
-
-| Rung | Support basis | Supported use | Unsupported use |
-| --- | --- | --- | --- |
-| `observationalAssociationRung` | `observationalAssociationSupportBasis` | association report, descriptive risk comparison, probe selection | intervention-effect claim, causal fairness certification, policy optimality |
-| `interventionalActionRung` | `interventionalActionSupportBasis` | declared action-effect use inside assignment, follow-up, and outcome limits | counterfactual sample claim, cross-population policy claim without transportability |
-| `counterfactualComparisonRung` | `identifiedCounterfactualEstimateSupportBasis` | identified or bounded counterfactual estimate under assumptions and profile refs | realized sample wording or assumption-free counterfactual certainty |
-| `counterfactualComparisonRung` | `simulationOnlyCounterfactualOutputBasis` | bounded model-supported simulation use | realized counterfactual sample evidence, intervention-effect evidence |
+`realizedCounterfactualSamplingData` is used only when an A.10 evidence path cites dated sampling Work and the resulting sample or data. A realizability result or WorkPlan alone establishes no empirical regime. Model output is recorded separately through `simulationResultRef`, not as an empirical regime.
 
 #### C.28:4.1 - Causality-Ladder Rung
-
-`CausalityLadderRung` is a controlled value set:
 
 ```text
 CausalityLadderRung =
@@ -110,15 +119,13 @@ CausalityLadderRung =
   counterfactualComparisonRung
 ```
 
-- `observationalAssociationRung` means passive observation, natural behavior, association, or seeing-only case.
-- `interventionalActionRung` means `do(x)`, intervention, action setting, experiment, policy change, or action-effect case.
-- `counterfactualComparisonRung` means counter-to-fact comparison, unit-history-conditioned comparison, potential-outcome contrast, or counterfactual-imagination case.
+- observational: passive observation, natural behaviour, or association;
+- interventional: action setting, experiment, policy change, or action effect;
+- counterfactual: counter-to-fact, potential-outcome, or unit-history-conditioned comparison.
 
-A higher causal-use rung is not supported by lower-rung data unless a `CausalIdentificationProfile`, `CounterfactualSamplingRealizabilityProfile`, or bounded-use statement says exactly what is supported and what is not.
+Lower-rung data may contribute to a higher-rung result only through a replayable identification, bound, or other specialist result. The rung label itself supplies no support.
 
 #### C.28:4.1a - Causal-Use Claim Kind
-
-`CausalUseClaimKind` is the controlled value set for the local causal-use claim being made:
 
 ```text
 CausalUseClaimKind =
@@ -131,274 +138,287 @@ CausalUseClaimKind =
   causalAssuranceSupportClaim
 ```
 
-- `causalEffectClaim` means a result is used as an effect, improvement, harm, intervention claim, or outcome claim.
-- `counterfactualComparisonClaim` means a counter-to-fact, potential-outcome, or unit-history-conditioned comparison is being used.
-- `causalFairnessClaim` means fairness is claimed through a causal path, intervention, counterfactual, or causal estimand rather than only a metric.
-- `causalPolicyClaim` means a policy, action rule, exploration rule, or agentic strategy is claimed as causally preferable.
-- `causalBenchmarkParityClaim` means causal methods are compared for parity, superiority, or benchmark consumption.
-- `causalEvidenceSupportClaim` means an evidence path is being used as causal-use support.
-- `causalAssuranceSupportClaim` means an assurance tuple or support verdict is being used for a causal-use claim.
+Choose the kind by the claim being supported, not by the tool or source. Simulation for a causal claim uses the appropriate claim kind plus `simulationResultRef`; it does not need a simulation-only claim kind.
 
-Simulation-only causal use stays inside the existing claim-kind set. `simulationOnlyCounterfactualOutputBasis` is a support-basis value, with bounded use written through supported-use and unsupported-use statements; it is not a new `CausalUseClaimKind`. Use the relevant claim kind, usually `counterfactualComparisonClaim`, `causalPolicyClaim`, `causalBenchmarkParityClaim`, or `causalEvidenceSupportClaim`, and set `CausalEvidenceSupportBasis = simulationOnlyCounterfactualOutputBasis` with bounded model-supported use and unsupported use. Bounded model-supported simulation use does not become realized counterfactual sample evidence or intervention-effect evidence. Do not mint a separate simulation-only claim kind merely to avoid naming the support basis value.
+#### C.28:4.2 - Question cards and support result
 
-Encoding rule: choose the causal-use claim kind by the question being answered, then choose `simulationOnlyCounterfactualOutputBasis` as the support basis and write `CausalUseSupportStatement` and `CausalUseUnsupportedStatement` for the bounded simulation use.
-
-#### C.28:4.2 - Causal-Use Cards
-
-Use a local card when the claim needs a small working record:
+Use a local card when the question must survive beyond the current sentence:
 
 ```text
 LocalCausalUseQuestionCard:
-  causalUseQuestionRef: U.CausalUseQuestion
+  causalUseQuestionRef: CausalUseQuestionRef
   targetCausalityLadderRung: CausalityLadderRung
-  causalUseClaimKind?: CausalUseClaimKind
+  causalUseClaimKind?
   comparatorOrCounterfactualRef?
-  estimandRef?
-  causalEvidenceSupportBasis: CausalEvidenceSupportBasis
-  supportedUse: CausalUseSupportStatement
-  unsupportedUse: CausalUseUnsupportedStatement
-  nextCausalUseAction: CausalUseNextAction
+  causalEstimandRef?
+  supportedUse
+  unsupportedUse
+  nextCausalUseAction
 ```
 
-Use a durable card when the claim is decision-bearing, publication-bearing, fairness-bearing, benchmark-bearing, assurance-bearing, or reusable:
+Use a durable card only for a reusable or consequential claim:
 
 ```text
 DurableCausalUseQuestionCard:
-  causalUseQuestionRef: U.CausalUseQuestion
+  causalUseQuestionRef: CausalUseQuestionRef
   targetCausalityLadderRung: CausalityLadderRung
-  causalUseClaimKind: CausalUseClaimKind
-  causalInterventionSpecRef?
+  causalUseClaimKind
   comparatorOrCounterfactualRef?
-  estimandRef: U.CausalEstimand
-  potentialOutcomeContrastRef?
-  targetTrialProtocolRef?
-  assignmentOrInterventionWindowRef?
-  causalFollowUpWindowRef?
+  causalEstimandRef: CausalEstimandRef
+  potentialOutcomeContrastRef?: PotentialOutcomeContrastRef
+  interventionOrAssignmentWindowRef?
+  followUpWindowRef?
   outcomeMeasureRef?
-  causalAssumptionSetRef
-  rivalCauseSetRef?
-  causalEvidenceSupportBasis: CausalEvidenceSupportBasis
-  causalIdentificationProfileRef?
-  counterfactualSamplingRealizabilityProfileRef?
-  causalParameterEstimationProfileRef?
-  causalTransportabilityProfileRef?
-  causalVariableRepresentationRef?
-  falsificationOrNegativeControlRef?
-  sensitivityAnalysisRef?
-  rivalCauseStressTestRef?
-  supportedUse: CausalUseSupportStatement
-  unsupportedUse: CausalUseUnsupportedStatement
-  nextCausalUseAction: CausalUseNextAction
+  causalAssumptionRefs
+  rivalCauseRefs?
+  causalSupportComponentRefs
+  commonThreatScreenRef?
+  supportedUse
+  unsupportedUse
   stopOrReopenCondition
 ```
 
-The durable card is not the default. It is the record used when a causal note without the required `C.28` support basis would be unsafe.
-
-#### C.28:4.3 - Causal Evidence Support Basis
-
-`CausalEvidenceSupportBasis` is a controlled value set:
+When another pattern needs a stable conclusion, issue this small C.2.1 result episteme:
 
 ```text
-CausalEvidenceSupportBasis =
-  observationalAssociationSupportBasis |
-  interventionalActionSupportBasis |
-  realizedCounterfactualSampleSupportBasis |
-  identifiedCounterfactualEstimateSupportBasis |
-  simulationOnlyCounterfactualOutputBasis
+CausalUseSupportResult:
+  causalUseQuestionRef: CausalUseQuestionRef
+  causalUseClaimKind: CausalUseClaimKind
+  targetCausalityLadderRung: CausalityLadderRung
+  causalEstimandRef?: CausalEstimandRef
+  causalSupportComponentRefs: CausalSupportComponentRefs
+  commonThreatScreenRef?
+  verdict: supported | bounded | unsupported | undecided
+  supportedUse
+  unsupportedUse
+  limits
+  evidenceWindowRef?
+  reopenCondition
 ```
 
-This is the `C.28`-governed value set for causal evidence support basis. `causalAssumptionOnlySupport` and `noCausalEvidenceSupport` are not values of `CausalEvidenceSupportBasis`: assumption-only support condition belongs in `causalAssumptionSetRef` plus supported use and unsupported use; no-support basis value belongs in `CausalUseSupportVerdict`, `unsupportedUse`, or `abstain`.
+Its identity and reference follow C.2.1. The result states causal support only. A downstream pattern may cite it as one basis and then make its own decision. `undecided` supplies no causal conclusion; the downstream pattern decides whether to abstain, seek evidence, or use a non-causal result.
 
-Simulation-only output never becomes realized counterfactual-rung evidence by name alone. It may support model-based use only when assumptions, validation, and supported use and unsupported use are declared.
+#### C.28:4.3 - Common causal-validity screen
 
-`CausalEvidenceSupportBasis` names a support-basis value. It is distinct from an evidence source, an `A.2.4` evidence-use relation, and an `A.10` evidence-provenance path. Some support bases are direct empirical support-basis classes, such as observational or interventional support. Other support bases are inferential support-basis classes, such as identified counterfactual estimate support. Do not read this value set as only a raw evidence-source kind.
-
-`realizedCounterfactualSampleSupportBasis` does not mean observing two incompatible outcomes for the same unit in one realized world. It means physically obtaining samples from the declared target counterfactual distribution under the profile's physical, ethical, operational, unit-history, and graph constraints.
-
-#### C.28:4.4 - Identification Profile
-
-`CausalIdentificationProfile` answers whether a causal or counterfactual estimand can be expressed from available data plus assumptions, graph representation, and inferential calculus.
+Run only the questions relevant to the current claim. A live threat either points to an existing specialist field/result or lowers the support result; it does not trigger a mandatory dossier.
 
 ```text
-CausalIdentificationProfile:
-  causalUseQuestionRef: U.CausalUseQuestion
-  estimandRef: U.CausalEstimand
-  targetCausalityLadderRung: CausalityLadderRung
-  sourceCausalEvidenceSupportBasis?: CausalEvidenceSupportBasis
-  structuralCausalModelRef?: StructuralCausalModelRef
-  causalDiagramRef?: CausalDiagramRef
-  causalGraphRepresentationKind?: CausalGraphRepresentationKind
-  graphSeparationCriterionKind?: GraphSeparationCriterionKind
-  causalInferenceCalculusKind?: CausalInferenceCalculusKind
-  causalAssumptionSetRef
-  availableDataRegimeSetRef: AvailableCausalDataRegimeSetRef
-  realizedCounterfactualDataRefs?: RealizedCounterfactualDataRefSet
-  counterfactualDataIdentificationMethodRef?: CounterfactualDataIdentificationMethodRef
-  counterfactualDataBoundRef?: CounterfactualDataBoundRef
-  causalBoundOrPartialIdentificationRef?
+CommonCausalThreatScreen:
+  causalUseQuestionRef
+  interventionWellDefinedOrConsistency?: clear | liveThreat | notApplicable
+  temporalOrdering?: clear | liveThreat | notApplicable
+  exchangeabilityOrConfounding?: clear | liveThreat | notApplicable
+  positivityOrOverlap?: clear | liveThreat | notApplicable
+  interferenceOrSpillover?: clear | liveThreat | notApplicable
+  selectionCensoringOrMissingness?: clear | liveThreat | notApplicable
+  measurementErrorOrConstructShift?: clear | liveThreat | notApplicable
+  transportToTarget?: clear | liveThreat | notApplicable
+  routedThreatRefs?
+  resultingSupportBoundary
+```
+
+**Ordinary effect case.** A randomized treatment study records `interventionWellDefinedOrConsistency=clear`, `temporalOrdering=clear`, `positivityOrOverlap=clear`, `interferenceOrSpillover=notApplicable`, `selectionCensoringOrMissingness=clear`, and `measurementErrorOrConstructShift=clear` for its declared target and window. The screen points to the trial and estimate results; it does not repeat them.
+
+**Countercase.** An observational cohort has the right rung label and a plausible estimand, but records `exchangeabilityOrConfounding=liveThreat` and `positivityOrOverlap=liveThreat` because severity is unmeasured and one treatment region has no comparator. The resulting support boundary is `unsupported` until a suitable design, bound, or new evidence closes those threats. “Observational data” was classified correctly; that label does not establish validity.
+
+#### C.28:4.4 - Identification result
+
+Identification answers whether the estimand can be expressed or bounded from the available data and assumptions. The conclusion must be replayable:
+
+```text
+CausalIdentificationResult:
+  causalUseQuestionRef: CausalUseQuestionRef
+  causalEstimandRef: CausalEstimandRef
+  availableDataRegimeRefs
+  causalAssumptionRefs
+  modelOrDiagramRefs?
+  calculusOrDerivationMethodRef?
+  status: identified | bounded | nonidentified | unclear
+  identifyingExpressionOrDerivationRef?   # required when identified
+  boundResultRef?                         # required when bounded
+  obstructionOrFailureWitnessRef?         # required when nonidentified
   falsificationOrNegativeControlRef?
   sensitivityAnalysisRef?
-  rivalCauseStressTestRef?
-  verdict: identified | nonidentified | bounded | unknown
   supportedUse
   unsupportedUse
 ```
 
-Identification is inferential support. It is not direct physical sampling.
+An `identified` label without an identifying expression or derivation is incomplete. A `bounded` result cites the bound. A `nonidentified` result exposes the obstruction or failure witness. Identification is neither a numerical estimate nor direct physical sampling.
 
-Realized counterfactual data may change an identification derivation, tighten a bound, or change which assumptions are still needed. When it does, the profile names the data refs, identification method, and bound ref that changed the result. It does not erase the distinction between identification and direct sampling; the profile must still state what is identified, bounded, unknown, or not identified.
+**Replayable identified case.** For `treatment_effect_in_population_P`, `AdjustmentSet_Z` is justified as blocking the relevant back-door paths. `backdoor_adjustment_derivation_7` states the identifying expression in ordinary terms: compare treated and untreated outcomes within each Z group, then average those differences using the target population's Z distribution. The result cites the data regime, assumptions, expression, and the confounding or overlap change that would reopen it.
 
-#### C.28:4.5 - Counterfactual Sampling Realizability Profile
+**Replayable nonidentified case.** In a treatment cohort, unmeasured severity affects both treatment and outcome, and no valid adjustment set, instrument, proxy, or useful bound is available. `unmeasured_severity_obstruction_3` is the failure witness. The result is `nonidentified`; reporting an adjusted number does not change that status.
 
-`CounterfactualSamplingRealizabilityProfile` answers whether samples from a counterfactual-comparison target distribution can be physically obtained through admissible actions under physical, ethical, operational, unit-history, and graph constraints.
+#### C.28:4.5 - Counterfactual sampling realizability
+
+Use this result to answer whether a declared target distribution can be sampled under current constraints. It is prospective: it does not say that sampling was planned, performed, or yielded data.
 
 ```text
-CounterfactualSamplingRealizabilityProfile:
-  causalUseQuestionRef: U.CausalUseQuestion
+CounterfactualSamplingRealizabilityResult:
+  causalUseQuestionRef: CausalUseQuestionRef
   targetCounterfactualDistributionRef
   targetCausalityLadderRung: counterfactualComparisonRung
-  structuralCausalModelRef?: StructuralCausalModelRef
-  causalDiagramRef?: CausalDiagramRef
-  causalGraphRepresentationKind?: CausalGraphRepresentationKind
-  graphSeparationCriterionKind?: GraphSeparationCriterionKind
-  causalInferenceCalculusKind?: CausalInferenceCalculusKind
-  graphChildInterventionConstraintRef?
+  modelOrDiagramRefs?
   sameUnitConflictCheck
   ancestorRegimeConflictCheck
-  physicalConstraintSetRef
-  ethicalConstraintSetRef
-  operationalConstraintSetRef
+  physicalConstraintRefs
+  ethicalConstraintRefs
+  operationalConstraintRefs
   unitHistoryAvailabilityRef?
-  counterfactualSamplingActionSetRef
-  counterfactualRandomizationCapabilityRef?
-  counterfactualSamplingWorkPlanRef?
-  verdict: realizable | nonrealizable | bounded | unknown
+  decisionMethodRef
+  decisionDerivationRef?
+  positiveSamplingConstructionRef?  # required when realizable
+  boundResultRef?                   # required when bounded
+  obstructionOrFailureWitnessRef?   # required when nonrealizable
+  status: realizable | bounded | nonrealizable | unclear
   supportedUse
   unsupportedUse
 ```
 
-Realizability is operational. It asks what work can be done, by which system, with which action primitives, under which constraints.
+A `realizable` result cites the sampling construction that the decision Method accepts. A `bounded` result cites its bound. A `nonrealizable` result exposes the obstruction or failure witness. `unclear` names what remains unresolved. “Realized counterfactual sampling” never means observing incompatible outcomes for one unit in one realized world.
 
-#### C.28:4.6 - Applied Causal-Inference Profiles
+If the team plans to draw samples, use a separate A.15.2 WorkPlan. If sampling occurs, cite the dated Work and A.15.1/F.6 attribution. If the samples are used as evidence, cite the resulting data through an A.10 evidence path. Actual sampling support requires both the dated Work and resulting data or evidence ref; neither `realizable` nor a WorkPlan can stand in for them. Identification from those data, when claimed, is another `CausalIdentificationResult`.
 
-Target-trial and potential-outcomes claims use `TargetTrialProtocolRecord` and `U.PotentialOutcomeContrast` when the causal-use claim is an applied intervention-effect claim.
+#### C.28:4.6 - Applied profiles
+
+**Target trial.**
 
 ```text
 TargetTrialProtocolRecord:
-  causalUseQuestionRef: U.CausalUseQuestion
-  targetPopulationRef?
-  eligibilityCriteriaRef?
-  treatmentStrategySetRef
-  treatmentAssignmentProcedureRef?
-  timeZeroAlignmentRef?
-  causalFollowUpWindowRef
-  outcomeMeasureRef
-  potentialOutcomeContrastRef?
-  estimandRef: U.CausalEstimand
-  causalAnalysisPlanRef?
-```
-
-Target-trial emulation from observational data adds a mapping and reporting record. `TargetTrialEmulationMappingRecord` records the fit between the protocol and the observed data; `TargetTrialProtocolRecord` alone does not state emulation adequacy.
-
-```text
-TargetTrialEmulationMappingRecord:
-  targetTrialProtocolRef: TargetTrialProtocolRecord
-  observationalDataSourceRef: ObservationalDataSourceRef
-  eligibilityMappingRef: TargetTrialEligibilityMappingRef
-  treatmentStrategyMappingRef: TargetTrialTreatmentStrategyMappingRef
-  assignmentOrTimeZeroMappingRef: TargetTrialAssignmentOrTimeZeroMappingRef
-  followUpMappingRef: TargetTrialFollowUpMappingRef
-  outcomeMappingRef: TargetTrialOutcomeMappingRef
-  emulationGapRef?: TargetTrialEmulationGapRef
-  residualConfoundingAssessmentRef?: ResidualConfoundingAssessmentRef
-  sensitivityOrAdditionalAnalysisRef?: TargetTrialSensitivityOrAdditionalAnalysisRef
-  supportedEmulationUse: CausalUseSupportStatement
-  unsupportedEmulationUse: CausalUseUnsupportedStatement
-```
-
-Numerical causal estimates use `CausalParameterEstimationProfile` when estimation validity is live:
-
-```text
-CausalParameterEstimationProfile:
-  estimandRef: U.CausalEstimand
-  causalIdentificationProfileRef?
-  estimatorRef
-  nuisanceModelSetRef?
-  orthogonalScoreRef?
-  crossFittingPlanRef?
-  positivityOrOverlapCheckRef?
-  sensitivityAnalysisRef?
-  uncertaintyIntervalRef?
-  supportedEstimateUse
-  unsupportedEstimateUse
-```
-
-Transported support uses `CausalTransportabilityProfile`:
-
-```text
-CausalTransportabilityProfile:
-  causalUseQuestionRef: U.CausalUseQuestion
-  sourcePopulationRef
+  causalUseQuestionRef: CausalUseQuestionRef
   targetPopulationRef
-  selectionAssumptionSetRef?
-  selectionDiagramRef?
-  domainShiftAssumptionSetRef?
-  sourcePopulationWindowRef?
-  targetPopulationWindowRef?
-  populationOverlapEvidenceRef?
-  sourceEffectiveSchemeRef?
-  targetEffectiveSchemeRef?
-  transportComparatorRef?
-  transportFormulaRef?
-  semanticBridgeRef?
-  supportedTransportUse
-  unsupportedTransportUse
-  unresolvedTransportAssumptionRefs?
+  eligibilityCriteriaRef
+  treatmentStrategyRefs
+  assignmentProcedureRef?
+  timeZeroRef
+  followUpWindowRef
+  outcomeMeasureRef
+  potentialOutcomeContrastRef?: PotentialOutcomeContrastRef
+  causalEstimandRef: CausalEstimandRef
+  analysisPlanRef
 ```
 
-Start with the two populations, the causal question, and the proposed target use. Add only the assumptions, windows, evidence, comparator, or formula that the transport claim needs. Name effective schemes only when an expression changes meaning between the exact sources; in that case establish the required F.9 relation separately and cite it through `semanticBridgeRef`. A source or target context identifier is not a substitute for any transport condition.
-
-Off-policy causal evaluation uses `OffPolicyCausalEvaluationProfile` when a policy is evaluated from data generated by another behavior or logging policy:
+An observational emulation keeps the protocol and its mapping to available data as separate results:
 
 ```text
-OffPolicyCausalEvaluationProfile:
+TargetTrialMappingResult:
+  causalUseQuestionRef: CausalUseQuestionRef
+  targetTrialProtocolRef
+  observationalDataSourceRef
+  eligibilityCriteriaMappingRef
+  treatmentStrategyMappingRefs
+  assignmentAndTimeZeroMappingRef
+  followUpWindowMappingRef
+  outcomeMeasureMappingRef
+  identifyingAssumptionRefs
+  protocolToDataGapAccountRef
+  residualConfoundingAssessmentRef
+  sensitivityMappingRefs
+  supportedUse
+  unsupportedUse
+  reopenCondition
+```
+
+Every mapping field identifies the actual mapping. `protocolToDataGapAccountRef` points to one account that lists the observed gaps or explicitly states that none was found within the declared source and window. The residual-confounding and sensitivity fields remain present even when their bounded result is favourable. Reporting completeness is not a risk-of-bias, identification, or estimate verdict.
+
+**Filled target-trial mapping.** `HypertensionEmulationMap-2025` maps `HypertensionTargetTrial-1` to `ClinicRecords-2022-2024`: age and diagnosis fields implement eligibility; prescription records distinguish the two treatment strategies; the prescription date supplies assignment and time zero; encounter records map the twelve-month follow-up; and the recorded systolic-pressure field maps the outcome. `GapRecord-17` states that adherence after prescription is not observed, `ResidualConfoundingAssessment-17` retains unmeasured severity as a live threat, and `SensitivityMap-17` points to the negative-control and quantitative-bias analyses. The result supports construction and review of this emulation. It does not by itself establish identification, low bias, or a transportable effect; new severity or adherence data reopens it.
+
+**Estimation.**
+
+```text
+CausalEstimateResult:
+  causalEstimandRef: CausalEstimandRef
+  identificationResultRef?: CausalIdentificationResultRef
+  designBasedIdentificationResultRef?
+  dataRef
+  estimatorMethodRef
+  diagnosticRefs?
+  uncertaintyResultRef
+  sensitivityAnalysisRef?
+  estimationConsistencyResultRef?  # when consistency is a live support condition
+  methodSpecificDetailRefs?        # only for the selected estimator family
+  supportedUse
+  unsupportedUse
+```
+
+At least one identification or explicit design-based basis is required before the estimate supports a causal use. Orthogonal scores, nuisance models, and cross-fitting belong in `methodSpecificDetailRefs` only when a DML Method is selected. `estimationConsistencyResultRef` points to the consistency result defined by the selected estimation Method or its direct evaluation pattern; C.28 introduces no universal consistency-result kind.
+
+**Counterfactual fairness.** Before D.5 uses a counterfactual-fairness support result, its C.28 components cite the identification result and the extra assumptions needed to connect the available data to that counterfactual question. When the fairness conclusion depends on an estimate, they also cite the estimate and its `estimationConsistencyResultRef`. Without those conditions, return `bounded` or `unsupported`; more data, even an unlimited amount of the same data, does not repair missing counterfactual identification or an inconsistent estimator. Associative or interventional fairness claims use their own rung and do not inherit this stronger branch by label.
+
+**Non-DML estimate.** A randomized trial cites `random_assignment_identification_4`, `trial_data_8`, `DifferenceInMeansMethod_2`, `standard_error_result_5`, and its attrition sensitivity check. It needs no orthogonal-score, nuisance-model, or cross-fitting fields. The estimate supports only the declared population, outcome, assignment, and follow-up window.
+
+**Transport.**
+
+```text
+CausalTransportabilityResult:
+  causalUseQuestionRef: CausalUseQuestionRef
+  sourcePopulationRef?
+  targetPopulationRef?
+  sourceDomainRef?
+  targetDomainRef?
+  sourceEnvironmentRef?
+  targetEnvironmentRef?
+  sourceDataGeneratingRegimeRef?
+  targetDataGeneratingRegimeRef?
+  selectionAssumptionRefs?
+  domainShiftAssumptionRefs?
+  sourceWindowRef?
+  targetWindowRef?
+  overlapEvidenceRef?
+  transportComparatorOrFormulaRef
+  semanticBridgeRef?          # only when interpretation differs
+  supportedUse
+  unsupportedUse
+  unresolvedAssumptionRefs?
+```
+
+Identify every endpoint dimension that differs in the current claim. Population, domain, environment, data-generating regime, and semantic scheme answer different questions. A shared label proves nothing; a semantic Bridge is added only when its F.9 relation independently obtains.
+
+**Off-policy evaluation.**
+
+```text
+OffPolicyCausalEvaluationResult:
+  causalUseQuestionRef: CausalUseQuestionRef
   evaluationPolicyRef
   behaviorPolicyRef
-  causalUseQuestionRef: U.CausalUseQuestion
-  sequentialHorizonRef?: SequentialPolicyHorizonRef
-  adaptivePolicyClassRef?: AdaptivePolicyClassRef
-  unitHistoryConditioningRef?: UnitHistoryConditioningRef
-  confoundingAssumptionSetRef?
-  supportOrOverlapCheckRef?
-  policyTransportabilityRef?: CausalPolicyTransportabilityRef
-  offPolicyEstimatorRef?
-  uncertaintyIntervalRef?
-  supportedPolicyUse
-  unsupportedPolicyUse
+  sequentialHorizonRef?
+  unitHistoryConditioningRef?
+  confoundingAssumptionRefs?
+  overlapOrSupportCheckRef
+  policyTransportabilityResultRef?
+  estimatorRef?
+  uncertaintyResultRef?
+  supportedUse
+  unsupportedUse
+  reopenCondition
 ```
 
-Causal representation learning uses `CausalVariableRepresentationRecord` when abstract causal variables are learned, selected, abstracted, or represented from fine-grained observations rather than given by the domain:
+**Causal representation.** Use this record only when variables are learned, selected, or abstracted rather than supplied by the domain:
 
 ```text
 CausalVariableRepresentationRecord:
-  causalUseQuestionRef?: U.CausalUseQuestion
-  structuralCausalModelRef?: StructuralCausalModelRef
-  causalVariableSetRef
-  representationSourceRef
-  abstractionOrSelectionMethodRef?
-  interventionValidityRef?: CausalRepresentationInterventionValidityRef
-  mechanismInvarianceRef?: CausalRepresentationMechanismInvarianceRef
-  abstractionFidelityRef?: CausalRepresentationAbstractionFidelityRef
-  counterfactualQueryPreservationRef?: CausalRepresentationCounterfactualQueryPreservationRef
-  representationShiftRef?: CausalRepresentationShiftOrOODRef
-  validationRef?
-  supportedCausalVariableUse
-  unsupportedCausalVariableUse
+  causalUseQuestionRef: CausalUseQuestionRef
+  sourceRepresentationRef
+  selectionOrAbstractionMethodRef
+  representationAssumptionRefs
+  interventionValidityResultRef
+  invarianceResultRefs?
+  abstractionFidelityResultRef?
+  counterfactualQueryPreservationResultRef?
+  uncertaintyResultRef?
+  shiftLimitRefs?
+  supportedUse
+  unsupportedUse
+  reopenCondition
 ```
 
-#### C.28:4.7 - Causal Graph Representation Names
+The record states which interventions and queries the learned or abstracted variables preserve, not that they are causal variables for every query or domain.
 
-Use names that causal inference specialists can recognize:
+**Filled representation case.** `WardStateRepresentation-4` derives three state variables from monitor traces through `WardStateAbstractionMethod-2`. Its intervention-validity result covers dosage interventions, its invariance result covers the two hospitals in the training and hold-out comparison, and its query-preservation result passes the declared one-step counterfactual query but fails the long-horizon query. The record therefore supports the one-step policy comparison only; a new hospital, sensor scheme, intervention family, or long-horizon claim reopens it.
+
+#### C.28:4.7 - Graph and calculus names
+
+Use specialist names only when the result depends on them:
 
 ```text
 CausalGraphRepresentationKind =
@@ -408,11 +428,7 @@ CausalGraphRepresentationKind =
   structuralCausalModelTwinNetworkRepresentation |
   ancestralMultiWorldNetworkRepresentation |
   counterfactualGraphicalModelRepresentation
-```
 
-When graph separation or graphical calculus is part of the causal-use support, use controlled values rather than open prose:
-
-```text
 GraphSeparationCriterionKind =
   dSeparationCriterion |
   mSeparationCriterion |
@@ -427,198 +443,133 @@ CausalInferenceCalculusKind =
   gFormulaCalculus
 ```
 
-`CausalGraphRepresentationKind`, `GraphSeparationCriterionKind`, and `CausalInferenceCalculusKind` are formal-support classification values, not minted model objects. They classify the formal support form being used for causal support. Concrete `...Ref` fields point to actual models, diagrams, proof objects, assumptions, or epistemes and must be present when the causal-use claim depends on that formal support form. For example, `StructuralCausalModelRef` cites a concrete SCM object, while `structuralCausalModelTwinNetworkRepresentation` classifies a representation form.
+These values classify the formal support form. Concrete refs point to the model, diagram, derivation, assumptions, or proof. A graph-class label is not a proof and does not replace the plain statement of what was identified or bounded.
 
-`StructuralCausalModel` is the causal model kind with endogenous variables, exogenous variables, structural assignments, and intervention semantics. `structuralCausalModelTwinNetworkRepresentation` means the SCM twin-network representation used in counterfactual reasoning with shared exogenous variables. It is not a deep-learning twin network.
+#### C.28:4.8 - Causal evidence design and Work
 
-Acronyms such as SCM, DAG, ADMG, SWIG, and AMWN may appear as source labels, plain labels, and bridge notes. FPF Tech values expand the source name when expansion reduces alias risk.
-
-#### C.28:4.8 - Causal Use Evidence Design
-
-Use `CausalUseEvidenceDesignRecord` when the causal-use claim needs evidence planning, evidence graph support, experiment or quasi-experiment design, counterfactual randomization, mixed-design accountability, or simulation validation.
+Use `CausalUseEvidenceDesignRecord` when additional evidence could change the support boundary:
 
 ```text
 CausalUseEvidenceDesignRecord:
-  causalUseQuestionRef: U.CausalUseQuestion
-  targetCausalityLadderRung: CausalityLadderRung
-  estimandRef?
-  causalInterventionSpecRef?
-  targetTrialProtocolRef?
-  potentialOutcomeContrastRef?
-  causalIdentificationProfileRef?
-  causalParameterEstimationProfileRef?
-  counterfactualSamplingRealizabilityProfileRef?
-  causalTransportabilityProfileRef?
-  causalVariableRepresentationRef?
-  causalEvidenceSupportBasis: CausalEvidenceSupportBasis
-  causalEvidenceWorkRows?:
-    - causalEvidenceWorkRef: exact dated U.Work
-      performerSystemRefs: every actual performer U.System
-      enactedMethodRef: exact U.Method
-      temporalExtentRef:
-      containingSystemRef: exact U.System
-      performerAssignmentSpeciesRefs: exact directly declared U.SystemRoleAssignment species, positionally paired with performers
-      performerAssignmentOccurrenceRefs: obtaining covering occurrences with every identity-bearing participant value
-      performerAssignmentHolderEqualities: each performer equals its assignment HolderSystemSlot
-      performedUnderAssignmentRefs: exact F.6 pairs for this Work and each assignment
-  causalEvidenceUseRelationRefs?
-  causalEvidenceMethodDescriptionRefs?: separate U.MethodDescription refs only when used
+  causalUseQuestionRef: CausalUseQuestionRef
+  targetCausalityLadderRung
+  causalEstimandRef?
+  interventionOrProtocolRef?
+  plannedDataRegimeRefs?
+  identificationQuestionRef?
+  estimationQuestionRef?
+  samplingRealizabilityQuestionRef?
+  transportQuestionRef?
+  targetTrialMappingResultRef?
+  offPolicyCausalEvaluationResultRef?
+  causalVariableRepresentationRecordRef?
+  causalEvidenceMethodDescriptionRefs?
   causalEvidenceWorkPlanRef?
-  structuralCausalModelRef?
-  causalDiagramRef?
-  causalGraphRepresentationKind?: CausalGraphRepresentationKind
-  graphSeparationCriterionKind?: GraphSeparationCriterionKind
-  causalInferenceCalculusKind?: CausalInferenceCalculusKind
-  counterfactualGraphicalModelClassRef?
-  causalAssumptionSetRef
-  counterfactualModelAssumptionSetRef?
+  realizedCausalEvidenceWorkRefs?
+  workAttributionResultRefs?
+  evidencePathRefs?
+  modelAssumptionRefs?
   simulationValidationRef?
-  falsificationOrNegativeControlRef?
-  sensitivityAnalysisRef?
-  rivalCauseStressTestRef?
   decisionThresholdAffected?: yes | no | unclear
-  causalEvidenceDecisionImpactRef?: CausalEvidenceDecisionImpactRef
-  evidenceValueOrProbeWorthinessRef?: EvidenceValueOrProbeWorthinessRef
-  causalEvidenceCostRiskRef?: CausalEvidenceCostRiskRef
-  supportedUse
-  unsupportedUse
+  evidenceValueOrProbeWorthinessRef?
+  costOrRiskRef?
+  supportedUseIfSuccessful
+  unsupportedUseWithoutFurtherEvidence
 ```
 
-This record does not replace `A.10` or `B.3`. It gives them causal-use structure.
+The three optional specialist refs are included only when an existing target-trial mapping, off-policy evaluation, or causal-variable representation result shows what additional evidence could change the support boundary. Before execution, cite a MethodDescription or WorkPlan only when used. After execution, cite dated Work and the applicable attribution results from A.15.1 and F.6. If performed counterfactual sampling is used as evidence, also cite the resulting sample or data through `evidencePathRefs`; Work without output data and data without its Work and provenance path each remain incomplete for that claim. Do not copy performer species, holder equalities, assignment participants, or occurrence mechanics into this record unless one of those facts changes causal validity, safety, authorization, or supported use.
 
-Higher-requirement causal evidence is worth planning only when it can change a choice, deployment decision, fairness consequence, assurance consequence, or benchmark conclusion enough to justify its cost, risk, and delay. If additional support would not change the next action, keep the narrower supported use explicit and stop.
+Additional evidence is worth planning only when it can change a material causal statement or downstream decision enough to justify cost, risk, and delay, or when safety or release rules independently require it.
 
-#### C.28:4.9 - Verdicts
+#### C.28:4.9 - Support is not authority
 
-`CausalUseSupportVerdict` is the action grammar:
+`CausalUseSupportResult.verdict` has four values:
 
-- `supported` means proceed only under the named supported use.
-- `bounded` means proceed only inside the named limit and record `causalBoundedUseReason`.
-- `unsupported` means downgrade the claim or remove causal use.
-- `abstain` means no causal-use conclusion and records `causalAbstainReason`.
+- `supported`: the named causal statement or evidential reliance is supported under the stated limits;
+- `bounded`: only the narrower statement or reliance is supported;
+- `unsupported`: the claimed causal statement or reliance is not supported;
+- `undecided`: the available work does not establish a causal conclusion.
 
-No verdict is allowed to silently widen the claim beyond its evidence support basis.
+The result never authorizes publication, choice, deployment, certification, fairness approval, or assurance. The downstream pattern cites it as one basis, considers its own other conditions, and makes its own decision. Practical guidance such as “report association only” states the remaining evidence boundary; it is not a permission issued by C.28.
 
-#### C.28:4.10 - Causal Action Policy Class
+#### C.28:4.10 - Causal action policy class
 
-Use `CausalActionPolicyClass` when a decision, exploration policy, call plan, or agentic strategy depends on causal rung:
+Use this classification only when policy use changes the causal question:
 
 ```text
 CausalActionPolicyClass =
   naturalBehaviorPolicy |
   interventionalPolicy |
-  counterfactualPolicy
+  counterfactualPolicy |
+  mixedPolicy
 ```
 
-- `naturalBehaviorPolicy` follows observed or natural behavior.
-- `interventionalPolicy` chooses an action or `do(x)`.
-- `counterfactualPolicy` acts conditioned on natural action, unit history, or counterfactual response.
+`unknown` is an unresolved classification, not a fifth member. Omit the field when the distinction changes no support, comparison, or downstream decision.
 
-This distinction matters for `C.11`, `C.19`, and `C.24`; it does not make those patterns the authority for causal evidence, identification, or realizability.
+#### C.28:4.10a - Naming and ontology settlement
 
-`CausalActionPolicyClass` is a classification value for policy-use class: natural behavior, interventional action, counterfactual policy, mixed policy, or unknown policy. It is not the policy object, not `U.Policy`, not `C.19` pool policy, and not the executable policy used by an agent.
+The public `...Ref` names above are local reference contracts, not newly admitted universal kinds. Recover the actual object before choosing a reference:
 
-#### C.28:4.10a - Local `U.*` alignment
-
-`U.CausalUseQuestion` names the question whose answer would make a causal use admissible: association use, intervention-effect use, counterfactual-comparison use, causal fairness use, causal policy use, causal evidence support use, causal assurance use, or causal parity use. It governs the question-to-use relation, not the evidence path, estimator, policy object, graph object, or local neighbor pattern.
-
-`U.CausalEstimand` names the target quantity, contrast, distribution, or functional answer shape for a `U.CausalUseQuestion`. It binds the question to what would have to be estimated, identified, sampled, bounded, or emulated. It is not the estimator, not the observed metric, not the graph, not the policy object, and not the support verdict.
-
-The card and profile family relates to those heads this way: triage decides whether a `U.CausalUseQuestion` is live; local cards and durable cards stabilize the question, `U.CausalEstimand`, and supported use and unsupported use boundary; profiles and specialized records state what support basis, formal support form, operational work, assumptions, and admissible use the question-estimand pair can carry.
-
-Local name cards:
-
-| Name | Kind | Plain sense | Must not mean |
-| --- | --- | --- | --- |
-| `U.CausalUseQuestion` | question object for causal-use admissibility | the question-to-use object stabilized by triage, local cards, or durable cards before a claim is used causally | a whole research project, evidence path, graph, estimator, policy object, or neighboring-pattern application |
-| `U.CausalEstimand` | target causal quantity, contrast, distribution, or functional | the answer-shape object linked to a `U.CausalUseQuestion` before estimation, identification, sampling, bounding, or emulation is judged | estimator, metric reading, support verdict, policy object, or causal graph |
-
-Lexical tripwires:
-
-| Phrase | Use instead when the causal-use claim depends on it |
+| Wording cue | Recover |
 | --- | --- |
-| "causal evidence" | name `CausalEvidenceSupportBasis`, `A.10` evidence path refs, `CausalUseSupportRecordRef`, `CausalUseSupportStatement`, and `CausalUseUnsupportedStatement` |
-| "counterfactual data" | distinguish realized counterfactual data refs, `realizedCounterfactualSampleSupportBasis`, `identifiedCounterfactualEstimateSupportBasis`, and `simulationOnlyCounterfactualOutputBasis` |
-| "policy optimality" | name `causalPolicyClaim`, `CausalActionPolicyClass`, `OffPolicyCausalEvaluationProfile`, `CausalUseSupportStatement`, and unsupported unqualified optimality |
-| "fairness evidence" | distinguish metric fairness or evaluation fairness from `causalFairnessClaim` with rung, estimand, support basis, support record and verdict, and supported fairness use and unsupported fairness use |
-| "method improves" | name whether the claim is association, intervention effect, counterfactual comparison, or parity result, then name rung, support basis, and supported use and unsupported use |
-| "what would have happened" | name counterfactual comparison support, realized counterfactual sample support, identified estimate support, or simulation-only bounded model use |
+| “causal question” | the exact question content and its C.2.1 episteme |
+| “estimand” | the mathematical target or the episteme that describes it |
+| “causal evidence” | evidence paths, empirical data regimes, and the separate identification, estimate, sampling-realizability, performed-sampling, resulting-data, simulation, and transport results actually used |
+| “policy optimality” | policy class, off-policy result, support result, limits, and the downstream choice decision |
+| “fairness evidence” | causal question and support result here; `BiasAuditReport@Context` and audit decision in D.5 |
+| “what would have happened” | a sampling-realizability result, performed sampling with resulting data, an identified or bounded estimate, simulation, or an unsupported claim—named separately |
 
-#### C.28:4.11 - Neighbor Governing-Pattern Selection Table
+Do not create a universal object merely to preserve a familiar token. Do not replace plain practitioner sentences with a list of ontology fields when the shorter sentence carries the same distinction and stop condition.
 
-| If the issue under repair is... | Use... | `C.28` role |
+#### C.28:4.11 - Neighbor selection
+
+| Current issue | Use | C.28 contribution |
 | --- | --- | --- |
-| measured value, score, scale, indicator, or metric definition | `C.16` | Only active when the measure is used causally. |
-| temporal trend, rate, acceleration, inertia, or rhythm wording | `C.27` | Active when temporal wording is used as causal effect or intervention evidence. |
-| evidence graph reference or provenance | `A.10` | Carries evidence path or provenance path and C.28 support-basis refs, not causal-use support authority. |
-| assurance level, degrade, abstain, or trust or assurance result | `B.3` | Consumes C.28 support verdicts and applies assurance consequences. |
-| local decision among options | `C.11` | Provides causal action-policy hooks when value, regret, or optimality depends on causal rung. |
-| exploration and exploitation over live pools | `C.19` | Provides causal data-collection or causal policy-learning hooks when live. |
-| tool, call, or enactment plan | `C.24` | Provides optional causal action use spec when the call selects observation, intervention, counterfactual-rung evidence collection, or counterfactual policy conditioning. |
-| bias and fairness audit | `D.5` | Provides causal fairness rung and supported fairness use. |
-| method dispatch or selector-facing registry | `G.5` | Provides causal method-class declarations or causal policy-class declarations when causal methods are compared. |
-| benchmark or method parity | `G.9` | Provides causal method rung parity. |
-| quantum-like modeling cue | `C.26` | Receives only the residual QL cue after causal-use explanation has been tried. |
+| measurement or metric | `C.16` | causal support only when the measure is used causally |
+| temporal trend or rate | `C.27` | causal support only when time order is used as cause evidence |
+| evidence path and provenance | `A.10` | support-result and component refs |
+| assurance | `B.3` | one possible basis for a separate bounded assurance result |
+| local choice | `C.11` | question, support result, and policy class when needed |
+| live-pool policy | `C.19` | causal data or policy support when needed |
+| call plan | `C.24` | causal action-use field when planned calls serve a causal claim |
+| bias or fairness audit | `D.5` | causal question, rung, estimand, support result, and the additional counterfactual-identification and estimation-consistency conditions when that branch is current |
+| method dispatch | `G.5` | causal method-use classification and support refs |
+| benchmark parity | `G.9` | rung, estimand, support-component, transport, and support-result parity |
 
 #### C.28:4.12 - Non-Goals
 
-`C.28` does not:
+C.28 does not define physical causation, choose one causal school for every domain, certify a graph by naming it, replace domain intervention or outcome definitions, replace measurement/evidence/fairness/choice/assurance/parity patterns, or authorize a downstream action. It also does not require a durable card or specialist profile when triage already blocks the overclaim.
 
-- define physical causation or decide what causation is in the modeled world;
-- choose one causal school, such as SCM and PCH, potential outcomes, target-trial emulation, transportability, causal ML, causal RL, or causal fairness, for all FPF use;
-- certify a DAG, SCM, SWIG, AMWN, or other graph as true or sufficient causal support by naming it;
-- replace local domain science, domain intervention definitions, outcome definitions, or substantive rival-cause knowledge;
-- replace `C.16` measurement and metrics characterization, including metric construction, calibration, and non-causal score interpretation;
-- replace `A.10` evidence graph referring, provenance paths, A.2.4 evidence-use relations, source-use relations, publication-use relations, or evidence graph path discipline;
-- replace `B.3` trust and assurance calculus, assurance tuples, `F-G-R/CL` consequences, or assurance publication use;
-- replace `D.5` bias audit and ethical assurance, causal-fairness audit responsibility, human-impact review, or group-impact review;
+#### C.28:4.13 - Cheap downgrade library
 
-- replace `G.9` parity benchmark harness, causal-rung parity screen, or benchmark report structure;
-- replace `C.11` choice, `C.19` exploration and exploitation policy, or `C.24` call-planning patterns; it only supplies causal-use support boundaries consumed by those patterns.
-
-#### C.28:4.13 - Cheap Downgrade Library
-
-Use a downgrade sentence when a narrower admissible use is enough:
-
-Each sentence below is an admissible `cheapStop` wording. It closes the causal-use question for the named insufficient-support case unless the author keeps a publish, choose, deploy, assure, audit, benchmark, or support-treatment use that commits the text beyond the `cheapStop` boundary alive.
-
-| Case | Admissible downgrade wording |
+| Case | Plain bounded result |
 | --- | --- |
-| association-only case | "Observed association only; supported use = association report; unsupported use = intervention-effect claim." |
-| temporal-change-only case | "Temporal change or trend is recorded; supported use = temporal or rate description; unsupported use = causal-effect claim until a causal-use support basis is named." |
-| simulation-only case | "Simulation-only counterfactual output; supported use = bounded model-supported exploration or explanation; unsupported use = realized counterfactual sample evidence or intervention-effect claim." |
-| metric-only fairness case | "Metric disparity or metric improvement is recorded; supported use = metric-level fairness or disparity report; unsupported use = causal fairness claim without a causal rung, estimand, support basis, and supported fairness use." |
-| logged-policy bounded case | "Logged-policy evidence supports only the declared behavior-policy and evaluation-policy regime; supported use = bounded off-policy evaluation under named overlap and transportability limits; unsupported use = unqualified optimal-policy claim." |
-| cross-rung benchmark case | "Methods answer different causal rungs or support bases; supported use = publish bridge and loss, degraded parity, or abstain; unsupported use = one scalar causal winner." |
+| association only | “The evidence supports an association report; it does not support an intervention-effect claim.” |
+| temporal change only | “The change in time is recorded; a causal-effect claim remains unsupported.” |
+| non-causal simulation | “The simulator produced these traces; no causal use is claimed.” |
+| simulation used causally | “The validated model supports this bounded model-based comparison; it does not supply realized or interventional evidence.” |
+| metric-only fairness | “The metric disparity is reported; causal fairness is not established.” |
+| logged policy | “The evaluation supports only the named behaviour/evaluation-policy regime and overlap limits; unqualified optimality is unsupported.” |
+| cross-rung benchmark | “The methods answer different causal questions; publish the bridge and its loss, report degraded parity, or abstain instead of naming one causal winner.” |
 
-#### C.28:4.14 - Causal-use payoff check
+#### C.28:4.14 - Payoff check
 
-The causal-use payoff check keeps a causal-use record only when it changes the admissible next action or blocks a concrete overclaim. Keep the causal-use record only when at least one answer is "yes":
+Keep a causal-use record only when it changes the supported causal statement, blocks a concrete overclaim, changes evidence work, or supplies a real basis to a downstream decision. Remove fields that do none of those things. Prefer triage when it preserves the same boundary.
 
-| Question | If no |
+#### C.28:4.15 - Publication-unit boundary
+
+When only wording inside one publication unit is unclear, use the publication and wording patterns. Open C.28 only when the wording is relied on causally. A publication decision remains with the publication pattern even after C.28 returns a support result.
+
+#### C.28:4.16 - Causal-laundering cases
+
+| Case | Result |
 | --- | --- |
-| Did the record change the next action? | Remove fields until only the action-changing line remains. |
-| Did it block a concrete causal overclaim by naming the causal use governed by `C.28` as unsupported? | Use association, trend, simulation-only, or metric-only wording and stop. |
-| Did it support one concrete decision, evidence-work, fairness, assurance, benchmark-parity, or deployment action by changing `supportedUse` or `unsupportedUse`? | Keep the neighboring pattern and do not open a durable causal-use object. |
-| Was there a cheaper `nextCausalUseAction.cheapStop` that preserved the same admissible use boundary? | Use the cheaper stop. |
-| Is the problem only the word "causal" or "counterfactual", rather than an admissible causal use? | Repair wording locally or apply the neighboring language or authoring pattern. |
-
-#### C.28:4.15 - PublicationUnit Stability Relation
-
-When the live problem is only local wording pressure inside one `PublicationUnit`, local lexical-head repair under `E.17.AUD.LHR`, whole-unit primary entity-of-concern stabilization under `E.17.AUD.OOTD`, relational precision restoration, explanation faithfulness, or conservative retextualization, apply the governing publication-side FPF pattern rather than `C.28`. `C.28` opens at `CausalUseActivation`, when the wording makes publication, choice, deployment, assurance, audit, fairness, policy, or benchmark use depend on causal support.
-
-#### C.28:4.16 - Causal-Laundering Golden Cases
-
-| Case | Expected `C.28` output |
-| --- | --- |
-| Association laundering: "users who received X improved, so X works." | rung = `observationalAssociationRung`; support basis = `observationalAssociationSupportBasis`; supported use = association report; unsupported use = intervention-effect claim. |
-| Intervention overclaim: "we changed X once, so the policy will work everywhere." | rung = `interventionalActionRung`; support basis = `interventionalActionSupportBasis` inside the named assignment, population, ClaimScope, follow-up window, and transportability limits; unsupported use = cross-population or unbounded policy claim. |
-| Simulation laundering: "the simulator shows what would have happened." | claim kind = relevant existing `CausalUseClaimKind`; support basis = `simulationOnlyCounterfactualOutputBasis`; supported use = bounded model-supported use; unsupported use = realized counterfactual sample or intervention-effect evidence. |
-| Metric-only fairness laundering: "fairness improved because the metric improved." | supported use = metric-level fairness report or disparity report; unsupported use = causal fairness claim unless `causalFairnessClaim`, rung, estimand, support basis, and supported fairness use are declared. |
-| Policy replay overclaim: "logged replay says this policy is optimal." | claim kind = `causalPolicyClaim`; support basis = off-policy causal evaluation with behavior-policy refs and evaluation-policy refs and overlap checks and support checks; supported use = bounded policy evaluation; unsupported use = unqualified optimality. |
-| Cross-rung benchmark: "method A beats method B as a causal method." | claim kind = `causalBenchmarkParityClaim`; use `G.9` `CausalRungParityScreen`; supported use = within-rung parity or declared bridge and loss; unsupported use = one scalar causal winner when rungs and support bases differ. |
-| Temporal-cause wording: "after launch, recovery got faster, so launch caused resilience." | supported use = `C.27` temporal adequacy or rate adequacy; unsupported use = causal-effect claim until `C.28` names intervention timing, outcome window, assumptions, rival causes, and support basis. |
-| QL escape: "ordinary probability is hard here, so the effect is quantum-like." | supported use = causal-use triage and ordinary-neighbor explanation first; unsupported use = bypassing `C.28` with quantum-like vocabulary; `C.26` is retained only for residual quantum-like probe, frame, order, export, or coarsening issue. |
-| Target-trial name-drop: "we emulate a trial, so the effect is identified." | supported use = target-trial claim only with protocol plus emulation mapping, data source, assignment and time-zero, follow-up and outcome mapping, residual confounding, and sensitivity analysis and additional analysis; unsupported use = identification claim by target-trial label alone. |
-| Realized-counterfactual-data claim: "we observed both outcomes for the same unit." | supported use = samples from the declared target counterfactual distribution under the realizability profile's constraints; unsupported use = same-world incompatible-outcome wording for one unit. |
+| “Users who received X improved, so X works.” | Observational rung; association supported; intervention effect unsupported unless identification/design results close the gap. |
+| “We changed X once, so the policy works everywhere.” | Interventional result limited to its population/environment/window; transport requires exact endpoints and assumptions. |
+| “The simulator shows what would have happened.” | With no causal reliance, exit to model reporting. With causal reliance, cite the simulation result, assumptions, validation, supported model use, and unsupported realized/interventional use. |
+| “The trial was randomized, therefore the estimate is valid.” | Run the common threats: interference, attrition, measurement, adherence, and analysis can still lower the result. |
+| “The observational estimand is identified.” | Cite the identifying expression/derivation, bound, or nonidentification witness; the label alone is incomplete. |
+| “The fairness metric improved, therefore the intervention is fair.” | Report metric change. A counterfactual-fairness claim additionally needs its causal estimand, counterfactual-identifiability assumptions, estimate-consistency basis when used, and bounded C.28 support before D.5 audits it. |
+| “Logged replay says this policy is optimal.” | Cite behaviour/evaluation policies, overlap, confounding, transport, uncertainty, and bounded support; unqualified optimality is unsupported. |
+| “Method A beats Method B causally.” | Use G.9; different rungs, estimands, support components, endpoints, or windows require a bridge with stated loss, degraded parity, or abstention. |
 

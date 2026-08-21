@@ -1,53 +1,45 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.4"
-pattern_title: "U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
+pattern_title: "EntityOfConcern retargeting"
 section_id: "A.6.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__004_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
+  - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:3 — Forces"
-line_start: 15213
-line_end: 15237
+line_start: 15193
+line_end: 15200
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
   - "A.6.5"
   - "A.7"
+  - "B.3"
   - "C.2"
   - "C.2.1"
+  - "C.29"
   - "C.3"
   - "E.10.D2"
-  - "E.18"
+  - "E.17"
+  - "E.24.PUB"
   - "F.9"
 keywords:
 ---
 
 ### A.6.4:3 - Forces
 
-* **Changing the EntityOfConcern vs constructing something new.**
-  Retargeting expresses **“describing a different but bridge-related entity through an explicit bridge”**, not arbitrary construction of a new EntityOfConcern claim/episteme. The invariant holds **across** the pair of entities, not inside a single episteme.
-
-* **Invariants may be lossy but must be explicit.**
-  A retargeting is often **lossy** (e.g. data→model, signal→spectrum, structural→functional view), but:
-
-  * it must preserve an explicitly declared invariant (energy, behaviour, statistics),
-  * any additional commitment must be modelled as a new or changed EntityOfConcern claim with its own Description epistemes, including Description epistemes admitted for specification use, not as a hidden side-effect.
-
-* **Bridges and CL‑penalties.**
-  Retargeting often crosses:
-  * Kind‑planes (different `Kind(U.Entity)`),
-  * ReferencePlanes (different observability or abstraction regimes).
-    Part F already has `KindBridge`, plane Bridges and CL‑penalties; EpistemicRetargeting must **re‑use** them instead of introducing its own notion of “link”.
-
-* **Functors over `α : Ep → Ref`.**
-  In the fibred view of epistemes (C.2 / A.6.2), `α : Ep → Ref` maps each episteme to its EntityOfConcern. EpistemicViewing preserves α (`α(v) = id`). Retargeting must:
-  * change α in a controlled way (`α(r) = b : R₁→R₂` in `Ref`),
-  * align with `KindBridge` and plane Bridges used for those base reference arrows.
-
-* **Slot discipline and modularity.**
-  C.2.1 and A.6.5 give episteme constitution and direct relations precise participant and SlotSpec rules. Retargeting laws name the exact episteme values they change and keep grounding, scope, viewpoint selection, and other neighboring relations separate, so the laws can be reused across `E.18`, MVPK, and discipline packs.
+* **Different subject versus unsupported new claim.** Changing the EntityOfConcern is permitted only when the receiving claims are conservative with respect to the declared invariant.
+* **Useful loss versus hidden loss.** Retargeting may discard information, but the loss boundary and the use that tolerates it must be visible.
+* **Direct case versus universal apparatus.** A domain relation, mathematical map, semantic Bridge, or diagram is relevant only when the current case actually relies on it. None identifies the A.6.4 arrow or makes its separate use assertion true; a witness supports that assertion rather than identifying the arrow.
+* **Composition versus accidental equivalence.** Compatible retargetings may compose. Equality of two evaluation routes, reversibility, idempotency, or semantic correspondence requires its own stated conditions; it does not follow from the word *retargeting*.
+* **Modularity.** The retargeting arrow relates two epistemes, q states one bounded-use proposition, and a separate current-case judgement says whether the facts satisfy it, fail it, or leave it undecidable. Grounding, publication, Work, evidence, assurance, gate, flow structure, and cross-local-sense correspondence remain separate.
 

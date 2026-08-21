@@ -1,50 +1,33 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
+pattern_title: "Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
 section_id: "A.6.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__003_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
+  - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:2 — Problem"
-line_start: 19309
-line_end: 19345
+line_start: 19080
+line_end: 19116
 dependencies:
   - "A.10"
   - "A.14"
   - "A.2.4"
-  - "A.2.6"
   - "A.6.0"
   - "A.6.3"
-  - "A.6.3-A.6.4"
   - "A.6.4"
   - "A.6.5"
-  - "A.6.P"
-  - "A.7"
+  - "A.6.6"
+  - "A.6.REL"
   - "C.2.1"
-  - "C.3.3"
   - "E.10"
-  - "E.18"
-  - "E.8"
-  - "F.15"
+  - "F.17"
   - "F.18"
   - "F.9"
 keywords:
-  - "SWBD"
-  - "anchoring"
-  - "base declaration"
-  - "baseRelation"
-  - "basedness"
-  - "rebase"
-  - "rescope"
-  - "retime"
-  - "scope"
-  - "support-as-basedness"
-  - "witnesses"
-  - "Γ_time"
 ---
 
 ### A.6.6:2 - Problem
@@ -76,11 +59,11 @@ Typical failure modes this pattern is designed to eliminate:
    * source-local meaning recovery and, when needed, an F.17 `SchemeSenseCell` and `LocalSenseBasisRelation` (not a base declaration).
 
 8. **Slot/basing conflation.**
-   A.6.5 disambiguates positions in n-ary relations (SlotKind) vs fillers (ValueKind) vs stored references (RefKind). Umbrella basing language reintroduces confusion at the next layer: “why this link exists” (BaseRelation) is missing, and slot-edit operations are conflated with base-declaration edits.
+   A.6.5 distinguishes relation positions, their fillers, and stored references. Umbrella basing language can hide the direct relation at the next layer, while record-edit language can be mistaken for change in the relation itself.
 
 9. **Anchor relapse (source or meaning surrogate).**
    “Anchor/anchoring” is used to mean “the source”, “the meaning”, “the global reference”, or “the thing that makes this true”. This hides the exact source, scheme, expression, local claim, and any obtaining basis relation behind a metaphor and makes review impossible.
 
 10. **Support bucket relapse.**
-    “Support”, “support basis”, “support relation”, or “support record” is used as a generic container for unlike relations. Some cases are SWBD basedness; others are evidence polarity, assurance input, causal-use support basis, mathematical-lens use, work enablement, source-description, publication companion, or ordinary help. Treating all of them as one undifferentiated support relation recreates the same under-described dependence that A.6.6 exists to repair.
+    “Support”, “support basis”, “support relation”, or “support record” is used as a generic container for unlike relations. Some cases are direct base-dependence; others are evidence use, assurance input, causal-use support basis, mathematical-lens use, work enablement, source description, publication companionship, or ordinary help. Treating them as one support relation recreates the under-described dependence that A.6.6 is meant to repair.
 

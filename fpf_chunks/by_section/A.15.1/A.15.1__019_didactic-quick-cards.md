@@ -6,12 +6,12 @@ section_id: "A.15.1:15"
 section_title: "Didactic quick cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__019_didactic-quick-cards.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:15 — Didactic quick cards"
-line_start: 24832
-line_end: 24840
+line_start: 24260
+line_end: 24268
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -62,7 +62,7 @@ keywords:
 ### A.15.1:15 - Didactic quick cards
 
 * **What is Work?** *How it went this time* → dated, resourced, attributable.
-* **Separation aid:** Who performs? **System**. Under which assignment? **Use F.6 for each actual performer**. Can? **Capability**. How? **Method**. Which account of the Method? **MethodDescription**. Did it happen? **Work**. A short sentence may omit an assignment identifier that no later claim uses.
+* **Separation aid:** Who performs? **System**. Under which assignment? **Use F.6 for each actual performer**. Can? **Capability**. How? **Method**. Which account of the Method? **MethodDescription**. Did it happen? **Work**.
 * **Three-question result check:** Did the work occur? What separate result or consequence is claimed? Who judged or accepted what, by which criterion and evidence? Use §4.6 and stop after the last question the receiving use actually asks.
 * **Roll-ups:** A.15.1 supplies exact Work refs, intervals, parts, and performed resource-use facts; cite `B.1.4` for temporal aggregates and `B.1.6` for resource ledgers, each with its declared policy.
 * **Episodes vs retries:** record end, interruption, resumption, and later work-entry facts first; add a continuity policy only when a named use still has more than one defensible grouping.

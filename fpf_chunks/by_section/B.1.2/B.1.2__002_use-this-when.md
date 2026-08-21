@@ -6,12 +6,12 @@ section_id: "B.1.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:0 — Use This When"
-line_start: 35642
-line_end: 35669
+line_start: 34818
+line_end: 34845
 dependencies:
   - "A.1"
   - "A.10"

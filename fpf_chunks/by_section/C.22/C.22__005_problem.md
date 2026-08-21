@@ -6,12 +6,12 @@ section_id: "C.22:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__005_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:3 — Problem"
-line_start: 50660
-line_end: 50663
+line_start: 49465
+line_end: 49468
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -23,6 +23,7 @@ dependencies:
   - "C.32.P2S"
   - "E.10"
   - "E.18"
+  - "F.9"
   - "G.0"
   - "G.4"
   - "G.5"
@@ -31,5 +32,5 @@ keywords:
 
 ### C.22:3 - Problem
 
-Without typed descriptors, **Eligibility and Acceptance** degenerate into prose; **inadmissible operations** creep in (ordinal means; unit mixing); **cross-plane comparisons** lose **CL and Φ** penalty assignment (**penalties to R_eff only**).
+Without typed descriptors, **Eligibility and Acceptance** degenerate into prose and inadmissible operations creep in, such as ordinal means or mixed units. Without the F.9 split, a cross-scheme comparison can also equate unlike local meanings or import an assurance penalty even though no current assurance policy selected it.
 

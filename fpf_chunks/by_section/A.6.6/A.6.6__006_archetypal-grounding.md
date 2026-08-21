@@ -1,50 +1,33 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
+pattern_title: "Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
 section_id: "A.6.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__006_archetypal-grounding.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
+  - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:5 — Archetypal Grounding"
-line_start: 19571
-line_end: 19634
+line_start: 19293
+line_end: 19342
 dependencies:
   - "A.10"
   - "A.14"
   - "A.2.4"
-  - "A.2.6"
   - "A.6.0"
   - "A.6.3"
-  - "A.6.3-A.6.4"
   - "A.6.4"
   - "A.6.5"
-  - "A.6.P"
-  - "A.7"
+  - "A.6.6"
+  - "A.6.REL"
   - "C.2.1"
-  - "C.3.3"
   - "E.10"
-  - "E.18"
-  - "E.8"
-  - "F.15"
+  - "F.17"
   - "F.18"
   - "F.9"
 keywords:
-  - "SWBD"
-  - "anchoring"
-  - "base declaration"
-  - "baseRelation"
-  - "basedness"
-  - "rebase"
-  - "rescope"
-  - "retime"
-  - "scope"
-  - "support-as-basedness"
-  - "witnesses"
-  - "Γ_time"
 ---
 
 ### A.6.6:5 - Archetypal Grounding
@@ -53,61 +36,47 @@ keywords:
 
 **Tell.** A lab instrument channel `TC‑17` is described as “anchored to ITS‑90”. Later, the reference standard is swapped, the phrase “still anchored” is kept, and the applicability window silently expands. Downstream work disagrees and nobody can reconstruct what changed.
 
-**Show.** Express it as a base declaration:
+**Show.** First state the direct assertion: `TC-17 is calibrated to ITS-90 for rig R3 over 0–200 °C during the stated calibration interval.` Apply the calibration predicate and stop there if this answers the use. When a later publication or comparison needs the exact assertion edition, show the same claim in an optional scoped record:
 
 ```
 BD#Calib_TC17_v5 :=
 〈 dependent    = ThermocoupleChannelRef(TC-17),
 base         = StandardRef(ITS-90 / CalStd-2025-09),
-baseRelation = calibratedTo,
+directRelationKind = calibratedTo,
+assertionPolarity  = affirmative,
 scope        = WorkScope{rig=R3, range=[0..200]°C},
-Γ_time       = interval[2025-09-01, 2026-03-01],
-witnesses    = { WorkRef(CalibrationRun#8841), CertRef(CalCert@edition=5) } 〉
+gammaTime          = interval[2025-09-01, 2026-03-01] 〉
 ```
 
-**Show.** Disambiguate edits by operation class:
+When a later decision relies on this assertion, cite the exact A.2.4 evidence-use relation from the calibration-certificate episteme to the assertion. Use A.10 only if that decision also needs the producing Work, operation result, carrier, provenance, or currentness path. Then distinguish changes by what actually changed:
 
 * New standard ⇒ **rebase** + **refreshWitnesses**.
 * Wider applicability window ⇒ **retime** and likely **refreshWitnesses**.
-* Relation-kind change (“not calibration, just normalisation”) ⇒ **changeBaseRelation** is not an edit; mint a new declaration and relate via continuity.
+* Relation-kind change (“not calibration, just normalisation”) ⇒ **changeDirectRelationKind** is not an edit; mint a new assertion or declaration and relate it to the prior one through continuity.
 
-#### A.6.6:5.2 - Episteme archetype: claim admissibility via evidence relations
+#### A.6.6:5.2 - Episteme archetype: an evaluation result used as evidence
 
-**Tell.** A report asserts: “Model M improves accuracy by 4%.” The team says the claim is “anchored in an experiment”, but dataset version, evaluation harness, and time selector are unclear, and no resolvable evidence is linked.
+**Tell.** A report says that model M improved accuracy by 4%. The team points to `EvalRun-2025-10-12`, but that Work occurrence is neither the claim nor an evidence relation, and its log carrier does not become evidence merely by being attached.
 
-**Show.**
+**Show.** First identify the result episteme that states the measured comparison and the target claim about the 4% improvement. State the exact A.2.4 evidence-use relation between that episteme and claim, including the relevant ClaimScope, polarity, window, and receiving use. If the decision also needs replayable source, carrier, provenance, currentness, or bounded-reliance information, use A.10 to cite the evaluation Work, its actual operation-result binding, the result episteme, the log carrier, and their independently obtaining direct relations.
 
-```
-BD#AccGainClaim_2025Q4 :=
-〈 dependent    = ClaimRef(CG:Claim#acc_gain_4pct),
-base         = EvidenceCarrierRef(Work:EvalRun#2025-10-12),
-baseRelation = validatedBy,
-scope        = ClaimScope{dataset=BenchX@v3, metric=Top1, hardware=A100},
-Γ_time       = snapshot(2025-10-12),
-witnesses    = { ProvenanceRecordRef(EvalLog@edition=12), ComparatorSetRef@edition=7 } 〉
-```
-
-What becomes explicit is not “anchoring”, but:
-* the relation kind (`validatedBy`),
-* the scope slice,
-* the time selector,
-* the witness carriers that make the declaration admissible for decision use.
+Stop with the short evidence-use statement when it answers the question. No `validatedBy(claim, Work)` edge or scoped base-declaration record is required. If a project later needs a reusable evidence-relation declaration, that direct relation must first have its own participant meanings, predicate, applicability, and occurrence-identity rule.
 
 #### A.6.6:5.3 - Structural archetype: constructive grounding of a model edge
 
 **Tell.** A structural edge is published (“A componentOf B”) without a constructor trace. It becomes treated as “obvious”, while the construction chain is not recoverable.
 
-**Show.**
+**Show.** First state and test the direct `tv:groundedBy` assertion between the model edge and constructor trace. Stop when that assertion answers the use. If a publication needs a stable assertion edition with its current qualifiers, it may represent that C.2.1 episteme as:
 
 ```
 BD#EdgeGrounding_ComponentOf_17 :=
 〈 dependent    = WMEdgeRef(Edge:componentOf#17),
 base         = TraceRef(Γ_m:ComposeCAL#c17),
-baseRelation = tv:groundedBy,
+directRelationKind = tv:groundedBy,
+assertionPolarity  = affirmative,
 scope        = PublicationScope{view=WMCardLite, system=S, line=L3},
-Γ_time       = snapshot(2025-11-02),
-witnesses    = { WorkRef(AssemblyRun#7712), EditionPin(Γ_m:ComposeCAL@edition=4) } 〉
+gammaTime          = snapshot(2025-11-02) 〉
 ```
 
-This example shows why “grounding” must be disambiguated: here it is a declared constructive relation with an explicit base (trace), not a vague claim of “stability”.
+The exact trace reference names the relevant constructor trace. If another use relies on the assertion that the grounding relation obtains, cite its exact evidence-use and provenance relations separately. This example shows why “grounding” must be disambiguated: here it is a declared constructive relation with an explicit base (trace), not a vague claim of “stability”.
 

@@ -6,12 +6,12 @@ section_id: "C.3.2:14"
 section_title: "Common Anti-Patterns and Remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__016_common-anti-patterns-and-remedies.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:14 — Common Anti-Patterns and Remedies"
-line_start: 45039
-line_end: 45051
+line_start: 43841
+line_end: 43854
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -31,12 +31,13 @@ keywords:
 
 | Anti-pattern | Remedy |
 | --- | --- |
-| Treating a kind and its `KindSignature` as one object | Identify the local kind and the declaration episteme separately. |
-| Using a measurement, observation, schema label, or source row as membership | Recover the direct candidate features; use the item only as governed support. |
-| Returning `false` for missing or unusable information | Return `unknown`; let the receiving guard decide whether to decline use. |
-| Reusing A.14 `MemberOf` or minting a direct relation by notation | Keep the C.3.2 result as a classification judgment unless a domain-specific direct pattern is justified. |
-| Restoring `U.EntitySet` or treating braces as ontology | Describe the candidate domain and extension as a representation; use C.29 when claim-bearing. |
-| Attaching scope or formality to the kind | Keep scope and formality on the declaration or assertion episteme that owns them. |
-| Editing an extension to hide a subkind counterexample | Repair the link, incompatible editions, or missing bridge. |
-| Classifying a record as actual Work | Recover an independently grounded `W : U.Work`; keep its record as a separate episteme. |
+| Treating a kind and its `KindSignature` as one object | Identify the kind and declaration episteme separately. |
+| Returning `unknown` for a candidate outside ValueKind or applicability | Return `not-applicable` and form no judgment. |
+| Returning `false` for missing support | Preserve `unknown`; let the receiving guard decide whether to decline use. |
+| Treating any evidence item or record as membership | Ask whether the criterion directly concerns that governed episteme, relation, status, or publication occurrence. If not, keep it only as support. |
+| Reusing A.14 `MemberOf` or minting a relation by notation | Keep the result as a classification judgment unless a direct relation pattern is justified. |
+| Treating an extension or braces as ontology | Keep the candidate domain and extension as representations; use C.29 when claim-bearing. |
+| Attaching scope or formality to the kind | Keep them on their declaration or assertion epistemes. |
+| Editing an extension to hide a subkind counterexample | Repair the relation proposal, declaration alignment, or distinct-kind bridge. |
+| Classifying a record as actual Work | Recover an independently grounded `W : U.Work`; keep its record separate. |
 

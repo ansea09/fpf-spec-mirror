@@ -6,12 +6,12 @@ section_id: "F.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__009_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:7 — Conformance Checklist"
-line_start: 91783
-line_end: 91798
+line_start: 89172
+line_end: 89187
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 | `CC-F5-2` | The direct meaning source is explicit: E.24.UK or direct admission for a U-kind, A.2 with C.3 for a local system-role kind, F.4 for its description, or another exact relation. A Concept-Set row, card, or citation is not admission or identity. |
 | `CC-F5-3` | The Tech designation is no broader than the recovered meaning. |
 | `CC-F5-4` | The Plain designation points to the same value without widening it. |
-| `CC-F5-5` | Edition, source, witness provenance, local boundary, scheme, threshold, and window stay outside the main label unless one truly distinguishes the local value. |
+| `CC-F5-5` | Edition, source, witness provenance, local boundary, scheme, threshold, and window stay outside the main label. A locator may carry such metadata when navigation requires it, but the metadata does not identify the named kind or value unless its own direct recovery rule makes that distinction part of the object. |
 | `CC-F5-6` | A U-kind name is neutral across the named witness sources or practices. Shared source spelling establishes neither the governed value nor a local kind's identity; the direct admission and identity rules must already have done that work. Treat the term as genuinely shared only when evidence establishes the same referent. |
 | `CC-F5-7` | The system-role-kind designation, local kind, F.4 description, classification judgment, assignment species, and assignment occurrence remain distinct. For any assignment identity used, recover the occurrence and its declared A.2.1 species. The species defines the participant meanings, assigned-kind domain, predicate, applicability, and occurrence identity; the occurrence supplies the holder, assigned-kind value, case applicability, extent, and any other participant values. Otherwise the text does not invent an occurrence. |
 | `CC-F5-8` | Status, evidence, requirement, source, publication, assurance, gate, decision, responsibility, and relation-position names remain at their direct objects before durable naming. |

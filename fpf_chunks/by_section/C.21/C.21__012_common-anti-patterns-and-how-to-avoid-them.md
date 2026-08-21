@@ -6,31 +6,36 @@ section_id: "C.21:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 50535
-line_end: 50542
+line_start: 49332
+line_end: 49343
 dependencies:
+  - "A.10"
   - "A.17"
+  - "A.17-A.18"
   - "A.18"
+  - "A.19"
   - "A.2.6"
   - "B.3"
   - "C.16"
   - "C.2"
+  - "C.2.1"
   - "C.20"
-  - "E.10"
-  - "F.17"
+  - "C.I"
+  - "E.24.PUB"
   - "F.9"
   - "G.0"
   - "G.10"
   - "G.11"
   - "G.12"
   - "G.2"
+  - "G.4"
   - "G.5"
+  - "G.6"
   - "G.9"
-  - "U.Discipline"
 keywords:
   - "alignment"
   - "discipline"
@@ -42,9 +47,13 @@ keywords:
 
 ### C.21:10 - Common Anti-Patterns and How to Avoid Them
 
-* Treating discipline health as one scalar score before the typed characteristic vector is declared.
-* Averaging ordinal characteristics or mixing units because a dashboard wants one roll-up.
-* Reusing a discipline-health value outside its intended use, `ClaimScope`, comparison basis, freshness window, or declared edition alignment.
-* Treating a standard, source publication, or dashboard view as proof that the discipline is healthy.
-* Using engineering-grade or semio-substitution extension slots as evidence, assurance, gate passage, or project authority.
+* Treating discipline health as one scalar before separately typed coordinates exist.
+* Treating `ClaimScope` and `TargetSlice` as two spellings for one object.
+* Requiring a Bridge merely because sources, schemes, or editions differ.
+* Comparing distinct local senses without the exact obtaining F.9 relation and loss.
+* Ordering formal status and adoption on one universal maturity ladder.
+* Calling `claims/artifact` and `anchors/claim` alternative Units of one Characteristic.
+* Writing `<entropy/HHI>` as if either formula produced the same reading.
+* Treating a definition set, method description, Work record, series, dashboard row, or publication carrier as the measurement result.
+* Requiring publication and assurance machinery before one useful health claim exists.
 

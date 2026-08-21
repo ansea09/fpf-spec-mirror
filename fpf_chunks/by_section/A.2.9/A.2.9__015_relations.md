@@ -6,12 +6,12 @@ section_id: "A.2.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__015_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:12 — Relations"
-line_start: 7361
-line_end: 7374
+line_start: 7401
+line_end: 7414
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 
 **Uses / builds on**
 
-* Uses **A.15.1 (`U.Work`)** for the occurrence backbone: performer System, covering assignment occurrence and its declared species, enacted `U.Method`, temporal extent, containing System, and a separate optional `methodDescriptionRef`.
+* Uses **A.15.1 (`U.Work`)** for the occurrence backbone: performer System, covering assignment occurrence and its declared species, enacted `U.Method`, temporal extent, at least one obtaining locally declared containing-system relation, and a separate optional `methodDescriptionRef`.
 * Uses **A.7** for the strict actual-act≠record/description≠carrier split.
 * Coordinates with **A.2.6** for scope/window discipline.
 

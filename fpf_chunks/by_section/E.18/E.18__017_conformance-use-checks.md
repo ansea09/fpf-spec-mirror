@@ -6,12 +6,12 @@ section_id: "E.18:15"
 section_title: "Conformance Use Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__017_conformance-use-checks.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15 — Conformance Use Checks"
-line_start: 84262
-line_end: 84274
+line_start: 81569
+line_end: 81584
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -39,10 +39,13 @@ keywords:
 
 ### E.18:15 - Conformance Use Checks
 
-1. **Model lint:** run static checks for CC-E18-01...25 (transfer relation kind, gates on crossings, CV=>GF, guard aggregation assignment, UNM declaration locus, SquareLaw).
-2. **Publication audit:** sample a commuting square and a sentinel‑bounded subflow; verify pins and DecisionLog behavior on *block* or *degrade*.
-3. **Replay test:** hold editions fixed; re‑run selection on a PathSlice; observe identical return‑sets; apply a bump; see only affected `PathSlice`s refresh.
-4. **StructuralReinterpretation probe:** construct one exact A.6.4 retargeting candidate; confirm source and receiving subjects, invariant, direct applicability, witness, unchanged `CtxState`, and `PathSliceId` locality. If cross-semantic correspondence is also claimed, test an independent F.9 Bridge and bounded-use claim. If the use depends on the parked legacy `KindBridge`/`CL` interface, return `missing-governor`.
+Choose tests from the current use, then apply the selected profile to those tests. The full CC-E18 table is available for combined or high-assurance uses; it is not an instruction to run every row for every selected structure.
+
+1. **Ordinary selected-structure check:** verify the selected structure, independently grounded locus values, one internal `U.Transfer` relation kind, and only the current position, path, path slice, or valuation. The cooling-loop first-use slice can close here when it asserts no crossing, launch, publication, comparison or selection, cycle or refresh, or assurance branch; missing faces, `LaunchGate`, selector, `DecisionLog`, and SquareLaw are then not defects.
+2. **Crossing or launch check, when current:** for a `GateCrossing`, apply its crossing and gate rows, including the exact positions and changed-binding account; add launch rows only for a current `LaunchGate` or work-entry claim. Do not infer a Work occurrence from either gate.
+3. **Publication or assurance check, when current:** for a published face, apply the MVPK, pin, and no-new-claim rows. Inspect `DecisionLog`, evidence-lane, replay, or SquareLaw material only when the current decision, crossing, publication, or named downstream reliance needs it.
+4. **Comparison, selection, cycle, or refresh check, when current:** apply comparator and set-return tests to a current comparison or selection; apply budget, sentinel, edition, and slice-local replay tests to a current cycle or refresh. Hold editions fixed only for a replay claim, and test an edition bump only for a current refresh use.
+5. **Structural reinterpretation check, when current:** confirm one exact A.6.4 arrow r, an affirmative q, a separate current-case judgement of `satisfies`, unchanged `CtxState`, and `PathSliceId` locality. Apply A.20 only when q also raises a current internal constraint. Test an independent F.9 Bridge and its bounded-use claim only when cross-semantic correspondence is also claimed; keep optional `CL`, evidence, reliance, any application, and Work separate.
 
 [20]: https://webstore.ansi.org/preview-pages/ISO/preview_ISO%2B23247-1-2021.pdf?srsltid=AfmBOooAUXpg38IpkTlUFtcCpaMVOjivkewJWDIUd1VemIJO91abNEkG "INTERNATIONAL STANDARD ISO 23247-1"
 

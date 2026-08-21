@@ -6,12 +6,12 @@ section_id: "F.15:9"
 section_title: "Static conformance rules for composed material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__011_static-conformance-rules-for-composed-material.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:9 — Static conformance rules for composed material"
-line_start: 95269
-line_end: 95303
+line_start: 92660
+line_end: 92694
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -51,7 +51,7 @@ keywords:
 ### F.15:9 - Static conformance rules for composed material
 
 **SCR-F15-S7 (`SystemRoleKindDescription` boundary).**
-An F.4 `SystemRoleKindDescription` is one C.2.1 episteme about one exact local system-role kind under one effective ReferenceScheme. It names the practice or source boundary in which the kind is constituted, its stable work-facing contribution distinction, and current `KindSignature`; a taxonomy episteme may support recovery but does not identify the kind. The description is not the kind, NameCard, `SchemeSenseCell`, assignment, status, evidence template, method, or work; a cell is cited only when the naming use needs one.
+An F.4 `SystemRoleKindDescription` is one C.2.1 episteme about one exact local system-role kind under one effective ReferenceScheme. It makes the C.3 candidate domain, operative membership condition, intended member/non-member boundary, continuity rule, and current `KindSignature` recoverable. Practice or source provenance may locate the definition but does not identify the kind. The description is not the kind, NameCard, `SchemeSenseCell`, assignment, status, evidence template, method, or work; a cell is cited only when the naming use needs one.
 
 **SCR-F15-S8 (Name discipline without F.18 duplication).**
 Every candidate or selected name cites the recovered governed value and the pattern containing its defining or constraining rule. Apply the F.14 and F.8 criteria to decide whether naming work continues; use F.18 to form the NameCard and choose designations; use F.17 to constitute an admitted row. In an F.15 check, verify those exact references; do not choose a name.
@@ -72,12 +72,12 @@ A cited F.9 Bridge has two exact endpoint cells, one exact relation-semantic pro
 Use F.9 only for different `<ReferenceScheme, LocalSenseClaim>` projections and one named current correspondence use. Same-projection expression reuse stays with designation; different projections do not themselves establish a relation; when no current correspondence use exists, add no Bridge or bounded-use claim.
 
 **SCR-F15-S14 (Status honesty).**
-A status-shaped item resolves to the exact subject-pattern status family/value, target, scope, window, source condition, and intended use. Adjective, time/scale/phase/confidence variation, row presence, or display label creates no status family, value, assurance, gate decision, or evidence use.
+A status-shaped item resolves through F.10 or another applicable status rule to the exact family and value definitions, target, scope, window, source condition, and intended use. Adjective, time, scale, phase, confidence, row presence, or display label creates no status family, value, assurance, gate decision, or evidence use.
 
 **SCR-F15-S15 (System-role-kind relation preservation).**
 Every exact incompatibility, monotonic kind order, residual qualification, bundle, requirement, or selected `SystemRoleKindRelationStructure` remains an independently identified relation occurrence or selected structure. A description or convenient fused name creates neither another system-role kind nor an assignment or performed Work.
 
-**SCR-F15-S16 (Direct-pattern boundary for non-naming claims).**
+**SCR-F15-S16 (Rule and locator boundary for non-naming claims).**
 Assignment, work, result, evidence, source, publication, currentness, assurance, gate, decision, method, capability, policy, structure, and subject-relation claims cite the rule that defines or tests each exact claim and the PatternID that locates it. When a rule fails, re-evaluate that subject claim under the rule; an F.15 result neither decides nor absorbs the claim.
 
 **SCR-F15-S17 (Public naming and publication separation).**

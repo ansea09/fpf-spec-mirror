@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.28"
-pattern_title: "CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+pattern_title: "CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
 section_id: "C.28:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__004_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+  - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:2 — Problem"
-line_start: 57082
-line_end: 57093
+line_start: 54330
+line_end: 54339
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,13 +30,14 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
+  - "CausalUseSupportResult"
   - "Pearl Causal Hierarchy"
   - "Structural Causal Model"
   - "association"
   - "causal diagram"
   - "causal estimand"
-  - "causal evidence support basis"
   - "causal fairness"
+  - "causal support components"
   - "causal-RL evaluation"
   - "causal-use question"
   - "causality ladder"
@@ -50,13 +51,11 @@ keywords:
 
 ### C.28:2 - Problem
 
-Causal language is easy to overclaim because ordinary prose hides the difference between association, action, counterfactual comparison, realized counterfactual sample, identified estimate, and simulation.
+Three collapses produce most causal overclaim:
 
-Three collapses are especially dangerous:
+1. **Rung collapse:** observation, intervention, and counterfactual comparison are treated as the same question.
+2. **Support collapse:** data regime, identification, estimation, direct sampling, and simulation are treated as one alternative-valued “basis”.
+3. **Authority collapse:** an evidential conclusion is treated as publication, choice, deployment, fairness, or assurance authority.
 
-1. **Rung collapse.** Observational association, interventional action or effect, and counterfactual comparison are treated as one causality-ladder rung.
-2. **Support collapse.** Observed data, experimental data, direct counterfactual-rung samples, identified estimates, and simulations are treated as one evidence basis.
-3. **Use collapse.** A result that supports one use, such as association reporting, is reused for another use, such as causal fairness, policy optimality, or method superiority.
-
-`C.28` prevents those collapses by making rung, support, and use explicit before claims requiring higher causal support are admitted.
+C.28 keeps those distinctions visible while allowing a cheap stop.
 

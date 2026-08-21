@@ -6,12 +6,12 @@ section_id: "E.20:4"
 section_title: "Solution — the Mechanism Introduction Protocol (MIP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__005_solution-the-mechanism-introduction-protocol-mip.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:4 — Solution — the Mechanism Introduction Protocol (MIP)"
-line_start: 86816
-line_end: 87039
+line_start: 84163
+line_end: 84388
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -65,7 +65,7 @@ Only the third outcome uses the manifest in `E.20:4.2`. The first two still name
 * **MIP-run** — an authoring event that applies this protocol to a concrete change set, captured as a short manifest (recorded as a DRR-linked change record or an equivalent, explicitly citeable change record).
 
 **Reuses:**
-* A.6.1 `U.Mechanism` epistemes, their `MechanismDefinitionRef` designators, non-mechanism reference-reservation stubs, suite descriptions (`MechSuiteDescription` and specializations), WorkPlanning plan items (`SlotFillingsPlanItem` and specializations), alias docking (F.18), RSCR triggers (G.Core), and PQG profiles (E.19).
+* A.6.1 `U.Mechanism` epistemes, their `MechanismDefinitionRef` designators, non-mechanism reference-reservation stubs, suite descriptions (`MechSuiteDescription` and specializations), exact A.15.2 `U.WorkPlan` epistemes and their declaration-local A.15.3 planned-filling rows, alias docking (F.18), RSCR triggers (G.Core), and PQG profiles (E.19).
 
 #### E.20:4.1 - Step 1: Classify the introduction
 
@@ -75,7 +75,7 @@ A MIP-run SHALL first classify the change, because different classes have differ
 2. **New mechanism declaration or semantic edition.** One A.6.1 `U.Mechanism` episteme receives new identity-bearing content or a new effective `U.ReferenceScheme`.
 3. **Neighboring mechanism-relation change.** A realization, refinement, conservative extension, equivalence, bridge, evaluation, evidence-use, or publication relation changes while the mechanism content does not.
 4. **Suite change** (membership, obligations, spec pins, or suite protocols).
-5. **Planned-baseline change** (new or revised `SlotFillingsPlanItem` specialization, or changes to its pins).
+5. **Planned-baseline change** (new or revised declaration-local planned-filling rows inside one exact `U.WorkPlan`, or changes to their pins).
 6. **Wiring change** (new or revised Part-G extension modules, SoTA method packs, or selectors).
 7. **Terminology migration** (renames, token splits or merges, or register changes).
 8. **Deprecation, supersession, or retirement** (status change, successor relation, and preserved citeability; apply E.20:4.9.1).
@@ -100,7 +100,7 @@ Conditional manifest fields appear only when the corresponding claim is present:
 
 * the change class(es) from E.20:4.1 when needed to disambiguate the assignment,
 * new or changed citeable tokens, including a `MechanismDefinitionRef` or a public operation, argument, or result designator, when token denotation or citeability changes,
-* the best-known Delta-Class (`Δ-0` to `Δ-3`) and impact radius estimate (E.15) when the run is plausibly `Δ-2` or `Δ-3`,
+* the actual-effect Delta-Class (`Δ-0` to `Δ-3`) and affected-reach estimate from E.15 when the run is plausibly `Δ-2` or `Δ-3`,
 * intended RSCR trigger types when a refresh or regression-wiring claim is present, and
 * the PQG (E.19) profile set when the run crosses an E.19-governed review boundary.
 
@@ -112,7 +112,7 @@ Conditional manifest fields appear only when the corresponding claim is present:
 |---|---|---|---|
 | `U.Mechanism` identity and content: exact `EntityOfConcernRef`, effective reference scheme, direct subject and range fields, operation algebra, laws, admissibility, Applicability, and optional dependency manifest | **Mechanism-subject pattern under A.6.1** | Designated mechanism-subject pattern | A suite, plan, wiring module, card layout, or MIP manifest does not supply mechanism semantics; neighboring relations stay with their direct patterns. |
 | Suite membership, obligations, spec pins, and suite protocols | **Suite-subject pattern** | `A.6.7` or `A.6.7.<FamilyKey>` | SHALL NOT carry mechanism semantics, acceptance thresholds, gate criteria, DecisionLogs, or publication tails into the suite. |
-| Planned baseline pins (planned slot fillings, edition-pinned refs, explicit time selector) | **WorkPlanning subject pattern** | `A.15.3` plus suite-specific specialization when needed | SHALL NOT embed launch values, witnesses, or gate decisions in planning. |
+| Planned baseline pins (planned slot fillings, edition-pinned refs, explicit time selector) | **One `U.WorkPlan` and the planned-filling rows kept inside it** | `A.15.2` plus `A.15.3` rows that point to declaration members defined by their own patterns | SHALL NOT embed launch values, witnesses, or gate decisions in planning, or give a row independent identity. |
 | SoTA method, comparator, or generator **definitions**, including provenance and evaluation semantics | **SoTA-pack subject pattern** | `G.2` (SoTA synthesis packs) | SHALL NOT rephrase SoTA evolution as kernel semantics. |
 | Wiring that binds SoTA packs into flows or tasks | **Extension module governing definition** | `G.x:Ext.*` (`GPatternExtension` with explicit `PatternScopeId`) | SHALL NOT mint new semantics; SHALL bind only. |
 | Token renames and drift management | **Lexical subject pattern** | `F.18` (alias docking) plus registers per E.10/F.17 | SHALL NOT silently rewrite tokens or break citations. |
@@ -179,25 +179,27 @@ If the introduction changes a suite (`MechSuiteDescription` or specialization):
 
 #### E.20:4.7 - Step 7: Planned baseline & P2W planning-to-work boundary (if planning changes)
 
-If the mechanism introduction changes what a WorkPlanning baseline pins (e.g., selected comparator specs, method descriptions, time selector, guard pins):
+If the mechanism introduction changes what one exact `U.WorkPlan` pins, such as selected comparator specifications, method descriptions, a time selector, or guard pins, the WorkPlan edition is the identifiable planning object.
 
-1. Introduce or revise a `SlotFillingsPlanItem` specialization under the WorkPlanning subject pattern.
-2. The plan item SHALL remain planning-only:
-   * pins/refs only (ByValue or `<RefKind>`),
-   * no launch values,
-   * no `FinalizeLaunchValues` witnesses,
-   * no gate decisions or decision logs.
-   * time is explicit: include `Γ_time_selector` or `Γ_time_rule_ref` (XOR); implicit “latest/current” is nonconformant.
-3. The plan item SHALL target exactly one **Description-scoped, edition-addressable** slot-bearing description via `target_slot_bearing_description_ref` (typically a kit or suite) and SHALL NOT target a `MechanismDefinitionRef`. If a "standalone mechanism baseline" is needed, introduce an explicit Description-scoped slot-bearing description wrapper (e.g., a mech kit or a suite-of-one) and target that.
+1. Introduce or revise the `SlotFillingsPlanItem` rows as declaration-local ClaimGraph content inside that exact WorkPlan. Each row points to a declaration member whose own pattern defines its meaning and later actual-use rule.
+2. Give no row an independent kind, record identity, edition, specialization lineage, canonical target, or successor relation. Changing identity-bearing row content changes the WorkPlan's claim content and is handled as a WorkPlan-edition change under C.2.1 and A.15.2.
+3. Keep the declaration-local planned-filling content planning-only:
+   * pins and references only, whether ByValue or through the declared reference kind;
+   * no launch values;
+   * no `FinalizeLaunchValues` witnesses;
+   * no gate decisions or decision logs; and
+   * explicit time through `Γ_time_selector` or `Γ_time_rule_ref` (XOR); implicit “latest” or “current” wording is nonconformant.
+4. In this mechanism-baseline branch, the WorkPlan's planned-filling content SHALL target exactly one **Description-scoped, edition-addressable** slot-bearing description through `target_slot_bearing_description_ref`, typically a kit or suite. It SHALL NOT target a `MechanismDefinitionRef`. If a standalone mechanism baseline is needed, introduce an explicit Description-scoped slot-bearing description wrapper, such as a mechanism kit or suite-of-one, and target that.
+5. When a receiver needs one row, cite it only through the exact WorkPlan edition and a stable local-content locator. The locator does not make the row independently resolvable.
 
-This step exists to keep the P2W planning-to-work boundary crisp: planning defines **planned fillers**, enactment witnesses **actual runs**.
+This step keeps the P2W planning-to-work boundary crisp: the WorkPlan states **planned fillers**; enactment witnesses **actual runs**.
 
 #### E.20:4.8 - Step 8: Wiring & SoTA updates (keep method evolution out of kernel)
 
 If the introduction involves methods, comparators, selectors, or other SoTA-sensitive choices:
 
 1. Put method/comparator family semantics in **SoTA packs** (G.2) and reference them by edition-pinned refs.
-2. Pin the chosen SoTA refs for a baseline in WorkPlanning plan items (E.20:4.7); wiring consumes pins rather than silently overriding them.
+2. Pin the chosen SoTA refs in declaration-local rows inside the exact WorkPlan (E.20:4.7); wiring consumes those planned values rather than silently overriding them.
 3. Put flow/task binding logic in **wiring modules** (`GPatternExtension`), with an explicit `PatternScopeId` and declared subject pattern.
 4. Wiring may bind, select, dispatch, or cite SoTA method packs; it may not redefine the mechanism's identity-bearing A.6.1 content. A bridge, realization, evaluation, evidence-use, or publication claim named by wiring remains governed by its direct relation pattern.
 5. If a SoTA update changes a mechanism's signature/laws, that semantic change SHALL be performed in the mechanism-subject pattern, under the A.6.1 mechanism-definition template; the change SHALL emit RSCR triggers (E.20:4.10).
@@ -212,13 +214,13 @@ If the introduction renames any public token or changes canonical naming:
 
 #### E.20:4.9.1 - Deprecation / supersession / retirement (preserve citeability)
 
-If the change class includes deprecation/supersession/retirement (E.20:4.1 #8), the MIP-run SHALL preserve reference continuity while making the status change explicit:
+If the change class includes deprecation, supersession, or retirement (E.20:4.1 #8), the MIP-run SHALL preserve reference continuity while making the status change explicit:
 
-1. **Preserve the canonical target.** The deprecated `U.Mechanism` episteme, reference-reservation stub, suite description, plan item, or wiring module SHALL remain resolvable at its canonical location; deprecation MUST NOT be implemented by removal that would break citations.
-2. **Keep the public token citeable.** The deprecated token (`MechanismDefinitionRef`, suite token, plan-item token, etc.) SHALL remain citeable. If a successor token/name is introduced, the old token SHALL be alias-docked per F.18 (E.20:4.9).
-3. **Declare successor (or “no successor”).** The deprecated mechanism episteme, reference-reservation stub, suite description, plan item, or wiring module SHALL declare a successor relation or explicitly state that none is current, using the direct supersession or deprecation pattern.
-4. **Assign downstream updates to governing definitions.** Any needed suite denotation, closure, obligation, pin, protocol-semantic, WorkPlanning-pin, or wiring-semantic change SHALL be performed in its respective governing definition (E.20:4.2), preferably by introducing a suite variant rather than silently swapping kernel membership.
-5. **Emit RSCR triggers.** Deprecation/supersession SHALL emit typed RSCR triggers and extend the regression envelope (E.20:4.10), including checks for dangling refs and alias coverage.
+1. **Preserve each identifiable target.** A deprecated `U.Mechanism` episteme, reference-reservation stub, suite description, exact WorkPlan edition, or wiring module SHALL remain resolvable at its canonical location. Deprecation MUST NOT remove it and break citations. A declaration-local planned-filling row is not another canonical target.
+2. **Keep the public token citeable.** A deprecated token such as a `MechanismDefinitionRef`, suite token, WorkPlan token, public local-content locator, or wiring token SHALL remain citeable. If a successor token or name is introduced, alias-dock the old token under F.18 (E.20:4.9). A local-content locator still resolves only through its exact WorkPlan edition and creates no independent row identity or edition.
+3. **Declare a successor or state that none is current.** Apply that obligation to the deprecated mechanism episteme, reference-reservation stub, suite description, WorkPlan edition, wiring module, public locator, or alias under its direct supersession or deprecation pattern. A changed planned-filling row contributes to changed WorkPlan claim content; it has no separate successor relation.
+4. **Update the definition that owns each change.** Make each needed change to suite denotation, closure, obligation, pin, protocol semantics, WorkPlan content, or wiring semantics at its definition locus in E.20:4.2. Prefer a suite variant to silently swapping kernel membership.
+5. **Emit RSCR triggers.** Deprecation or supersession SHALL emit typed RSCR triggers and extend the regression envelope (E.20:4.10), including checks for dangling references and alias coverage.
 
 #### E.20:4.10 - Step 10: RSCR triggers + regression envelope
 

@@ -6,12 +6,12 @@ section_id: "C.3.4:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__005_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:3 — Problem"
-line_start: 45322
-line_end: 45328
+line_start: 44114
+line_end: 44121
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -25,8 +25,9 @@ keywords:
 
 ### C.3.4:3 - Problem
 
-1. **Kind sprawl.** Teams mint near-duplicate kinds such as `Account_PCI` and `Account_Ledger`, and alignment decays.
-2. **Hidden constraints.** Informal “we only accept …” statements leak into prose, so guards cannot check them deterministically.
-3. **Scope conflation.** Jurisdiction, API version, or another context condition is smuggled into type talk, blurring Scope and Kind.
-4. **Cross-context fragility.** Local declarations do not travel safely unless differences in constraints and bindings are stated explicitly.
+1. **Kind sprawl.** Teams mint near-duplicates for every procedure.
+2. **Hidden constraints.** Informal acceptance rules leak into prose and cannot be replayed.
+3. **Scope conflation.** Jurisdiction, API version, or another scope condition is smuggled into kind identity.
+4. **Automatic bridge pressure.** A changed source or team is treated as proof of another kind and a bridge.
+5. **Collapsed outcomes.** A non-applicable candidate, unsettled admissible candidate, and guard refusal are reported as one `unknown` or `false` result.
 

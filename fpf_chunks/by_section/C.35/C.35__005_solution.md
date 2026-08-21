@@ -6,12 +6,12 @@ section_id: "C.35:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:4 — Solution"
-line_start: 67716
-line_end: 67738
+line_start: 64919
+line_end: 64936
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -59,24 +59,19 @@ keywords:
 
 ### C.35:4 - Solution
 
-Create one `StructuralSynthesisDiscoveryAdequacyNote@Project` before admitting the output into candidate synthesis, evaluation, publication, decision, or realization claims.
+Start with the readable admission statement. Name the exact result, the organization it concerns, the one condition still required for the intended next use, and the forbidden overread or return. A sentence is enough; use the four-line form when separate lines make the boundary easier to see.
 
-Read the note as an admission check between generation and architecture work. The generated output can be useful only after the record says what it carries, what it drops, which next architecture use it may support, and under what rule.
+Use the smallest sufficient path:
 
-`carrierAdmissionReturnCondition` names the produced carrier or description, the described selected structure, preserved structure, lost structure, missing structure, the candidate-admission condition, and the next claim or question plus its required rule or test that must be revisited before the carrier can support the next architecture use.
+1. Write the sentence or four lines. If they let the receiver act safely, stop.
+2. When the obtaining-versus-proposed distinction affects use, identify the exact C.30 `ArchitectureClaim` or ClaimAddress for a proposal, or apply A.22's four discriminators for a positive structure. Add a C.29 representation only when correspondence or representation operations matter.
+3. When the receiving use relies on how the result arose, add exactly one applicable branch. A transformation adds exact source and result objects, trace, preservation, and loss. A discovery adds observation or extraction basis, what is observed, what is inferred, what remains unknown, the covered and unexplored region, uncertainty, and validation. A generative proposal adds constraints, proposed organization content, known omissions, and validation needs; source and preservation enter only for an exact declared baseline.
+4. When the admission claim relies on performed generation, discovery, production, or change, add the exact Method, dated `U.Work`, and the direct production, discovery-use, or Work-to-change claim. Otherwise omit them.
+5. Add bearer feasibility, realized structure, publication, archive or front policy, evaluation, measurement, decision, reusable-generator, or exact next-claim references only when the intended use relies on that exact claim. Use its direct pattern rather than copying its dossier into C.35.
+6. Stop when the receiver knows the admissible next move, the condition still open, and the limit or return. Materialize the optional full note only when those facts or their relied-on branch details need an independently reidentifiable result.
 
-Work in this order:
+Conditional exits remain direct: `C.32` for candidate-palette use; `C.32.ACE` for eval programs and results; `C.16` for measurement; `C.29` for mathematical-lens use; `C.30.AD` or `C.30.ASV` for descriptions and views; `G.5`, `C.18`, and `C.19` for selected-set, archive, front, and pool claims; `E.17` and `E.24.PUB` for publication; `C.32.PAD` or `C.32.ADR` for decisions; and `E.20`, `G.1`, `G.10`, or `G.11` only when a reusable generator or mechanism suite is actually current.
 
-1. Name the grounded architecture question and selected source structure refs. If no grounded architecture question exists, require `C.30`, `C.32.P2S`, or `C.32`.
-2. Name the generation or discovery Method and search or query space—for example, a DSM, MDM, MBSE query, graph grammar, model transformation, LLM proposal, NAS, DSE, QD archive, code-agent probe, simulation, benchmark, or source-mining method. When actual performed generation or discovery is part of the claim, separately name the dated `U.Work`, keep all facts required by A.15.1, A.2.1, and F.6 recoverable, and name the production, discovery-use, or work-to-change claim on which this note relies.
-3. Separate produced carrier or description from described structure. The carrier may be a diagram, table, graph, query result, cluster, model file, prompt output, or benchmark trace. Naming it as produced does not by itself establish which Work produced it, entity-identity inception, production completion, or a relation to an actual transformation; cite the predicate or local claim that establishes any such assertion.
-4. State preserved structure, lost structure, constraints, source-label recovery, observation and uncertainty refs, validation or comparison refs, and transformation trace when present. If an actual change is claimed, also cite the independently identified A.3.4 `U.Transformation`; the trace and the selected A.22 structures remain separate from that occurrence.
-5. State candidate-admission condition. Use `C.32` only when the described structure can be used as a candidate configuration or candidate-generation input under selected structures, architecture characteristics, constraints, gains, losses, and carrier-admission return.
-6. State bearer or realization boundary. Use `bearerFeasibilityQuestionRef?` only when a concrete software, physical, organizational, Method, or epistemic bearer-feasibility rule has opened that separate question. If the source says `role`, recover its actual bearer or relation through `E.10.ROLE`; a local kind or assignment bears no function merely by form. Name the function or feasibility predicate, conditions, and subject pattern, or return `missing-governor`.
-7. Use `G.5` for selected-set result declaration, `C.18` and `C.19` for archive, front, and pool policy, `E.17` for a source-backed publication face and source return, and `E.24.PUB` for the publication occurrence and audience availability.
-8. Handle eval programs and eval results under `C.32.ACE`; handle measurement under `C.16`; handle mathematical-lens use under `C.29`; handle descriptions and views under `C.30.AD` or `C.30.ASV`; handle decisions and ADR projections under `C.32.PAD` or `C.32.ADR`.
-9. Handle reusable-generator or mechanism-suite claims with `E.20`, `G.1`, `G.10`, `G.11`, or another pattern that defines or constrains the generator claim, only after that reusable-generator object is current.
-10. Stop when admissible use, non-admissible use, carrier-admission return condition, the next claim or question, and its required rule or test are named.
+CGUS-aware neighbor use: when a result is useful because it describes, compresses, or demonstrates a constraint-governed unfolding organization, C.35 admits only that exact result for the declared architecture use. Cite an A.22.CGUS structure only when its positive A.22 and A.22.CGUS basis already obtains; otherwise keep the organization as modal claim content. The structure itself, when it exists, remains with `A.22.CGUS`, `E.18.3`, `C.32.P2S`, `E.23`, or another direct structure pattern. If the encountered item is only a route card, narrative sequence, demonstrative slice, generated publication form, or presentation carrier, recover its claim-bearing result and represented object before making any positive structure claim. When it is a narrative sequence, `A.6.3.NAR` governs only the selected-source carry-through, ordering and connective account, loss, reader use, and return.
 
-CGUS-aware neighbor use: when the produced carrier is useful because it describes, compresses, or demonstrates a constraint-governed unfolding structure, C.35 admits only the produced carrier for the declared architecture use. The unfolding structure itself remains governed by `A.22.CGUS`, `E.18.3`, `C.32.P2S`, `E.23`, or another direct structure pattern. If the produced object is only a route card, narrative sequence, demonstrative slice, or generated framework carrier, name it as a carrier or `DemonstrativeUnfoldingSlice@Context` before making any selected-structure claim about the `U.Structure` it presents. When it is a narrative sequence, `A.6.3.NAR` governs only the selected-source carry-through, ordering and connective account, loss, reader use, and return.
 

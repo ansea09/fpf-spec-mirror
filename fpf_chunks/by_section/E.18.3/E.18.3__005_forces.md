@@ -6,12 +6,12 @@ section_id: "E.18.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__005_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:3 — Forces"
-line_start: 85120
-line_end: 85128
+line_start: 82432
+line_end: 82440
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,7 +36,6 @@ dependencies:
   - "E.23"
   - "G.11"
   - "G.5"
-  - "U.Transfer"
 keywords:
 ---
 

@@ -6,12 +6,12 @@ section_id: "F.17:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__007_minimal-vocabulary.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:5 — Minimal vocabulary"
-line_start: 95878
-line_end: 95965
+line_start: 93269
+line_end: 93356
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -134,7 +134,7 @@ When a selected row edition must be made available, E.24.PUB supplies three sepa
 
 `BridgeRefs` cites only actual F.9 occurrences between exact cells. Direction, use-specific rule, loss tolerance, polarity, evidence, reliance, permission, and receiving action remain in their own claims and relations. Local senses do not globalize; same spelling or a different scheme provides neither governed-value identity nor Bridge obtaining.
 
-The quoted tokens `DemonstrativeUnfoldingSlice@Context` and `DemonstratedPatternUseRow@Context` in F.17:12.4c retain the spelling fixed in A.22.CGUS. Their suffix is lineage in those governed tokens, not an F.17 identity constructor or permission to mint another `...@Context` value. New F.17 relation and row identities use the exact objects above.
+A.22.CGUS:4.4 permits a separately constituted demonstrative-slice episteme after CGUS qualification. The token `DemonstrativeUnfoldingSlice@Context` is neither a `U.Kind` nor an exact slice by itself. F.17 records a row only after one exact C.2.1 slice episteme and its current F.18 naming settlement are recoverable; a local phrase or seminar expression alone creates neither.
 
 `UnifiedTermSheet` is the reader-facing collection or layout through which rows are found. A selected table layout, optional block plan, or carrier is not the row episteme and does not prove that every needed decision is present.
 

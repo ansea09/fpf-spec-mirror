@@ -6,12 +6,12 @@ section_id: "A.16.1:19"
 section_title: "Cue-Pack Continuation and Comparative Preservation Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__020_cue-pack-continuation-and-comparative-preservation-rule.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:19 — Cue-Pack Continuation and Comparative Preservation Rule"
-line_start: 27791
-line_end: 27801
+line_start: 27306
+line_end: 27316
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -42,7 +42,7 @@ keywords:
 A cue pack should make it visible whether the preserved cue nucleus is being kept open, route-published later, split, merged, or retired.
 
 #### A.16.1:19.2 - Preservation worthiness test
-Keep a cue pack only when its nucleus would likely be lost or distorted without it. If the same cue already lives stably in a later receiving form with a more closed state, route authority, or endpoint authority, the cue pack has become redundant.
+Keep a cue pack only when its nucleus would likely be lost or distorted without it. If the same cue already lives stably in a later receiving form with more closure, a published route selection, and any needed endpoint-use disposition, the cue pack may have become redundant.
 
 #### A.16.1:19.3 - Comparative preservation rule
 Compare cue packs only when nuclei, primary witness choice, primary anchor choice, and any early directional hints are explicit. Emotional intensity, rhetorical urgency, or author confidence are not admissible comparison proxies.

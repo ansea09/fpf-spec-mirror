@@ -6,18 +6,20 @@ section_id: "C.36.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__005_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:3 — Forces"
-line_start: 68224
-line_end: 68233
+line_start: 65444
+line_end: 65454
 dependencies:
   - "A.1"
+  - "A.1.1"
   - "A.15"
   - "A.3.1"
   - "A.3.2"
   - "A.3.3"
+  - "A.6.RCD"
   - "B.2"
   - "B.2.2"
   - "B.2.3"
@@ -41,6 +43,7 @@ dependencies:
   - "D.4"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "E.18.1"
   - "F.17"
@@ -56,8 +59,9 @@ keywords:
 | Force | Tension |
 |---|---|
 | Local language usefulness | Communities need familiar words such as style, tradition, scene, platform, canon, and technique. |
-| FPF composability | Downstream work needs method, work, discipline, episteme, bridge, archive, pool, selected-set, architecture, measurement, choice, and refresh subject patterns named by value. |
+| FPF composability | Downstream work needs the applicable Method, Work, discipline, episteme, bridge, archive, pool, selected-set, architecture, measurement, choice, or refresh rule without turning that rule into package-routing prose. |
 | Source fidelity | Some labels should remain visible because they are source terms or project terms. |
 | Ontological economy | The same labels must not mint root U-kinds or local ontologies. |
-| Subject-pattern focus | `C.36` must remain a positive cultural-evolution pattern, not a repair table. |
+| Precision vs readable action | The repair must preserve distinctions that change truth or action without making the reader complete an ontological form before doing the work. |
+| C.36 focus | C.36 must remain a positive cultural-evolution pattern, not a wording-repair catalogue. |
 

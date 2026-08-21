@@ -6,12 +6,12 @@ section_id: "C.27.TA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:4 — Solution"
-line_start: 56725
-line_end: 56831
+line_start: 54014
+line_end: 54120
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,9 +47,9 @@ keywords:
 
 #### C.27.TA:4.1 - Definition
 
-A temporal aspect is a time-bearing or order-bearing aspect of a governed object, claim, or relation. It is not automatically a temporal claim, dynamics law, work trace, method, mechanism, gate, evidence relation, or permission.
+A temporal-aspect claim says that one exact object or exact claim has a time-bearing or order-bearing property under a stated temporal reference and interval. The property is claim content, not automatically a temporal claim-adequacy result, dynamics law, work trace, method, mechanism, gate, evidence relation, or permission.
 
-Typical temporal aspects include:
+Typical temporal predicates and qualifiers include:
 
 - `timeWindow`;
 - `duration`;
@@ -67,35 +67,42 @@ Typical temporal aspects include:
 - `inertiaOrResidue`;
 - `refreshOrReopenCondition`.
 
-These names are aspect labels inside a statement, not new `U.*` kinds.
+These names are predicates or qualifiers inside claim content, not new `U.*` kinds or locally identified aspect objects.
 
 #### C.27.TA:4.2 - Temporal Aspect Statement
 
-Use this compact statement when the temporal aspect changes the governing pattern use relation:
+Use this fuller statement only when the four-part first result is not enough for the receiving use:
 
 ```text
-TemporalAspectStatement:
-  bearerRef:
-  bearerGoverningPattern:
-  boundedContext:
-  aspectKind:
+TemporalAspectStatementClaimContent:
+  entityOfConcernRef:
+  aspectPredicate:
   temporalReference:
   windowOrInterval:
+  entityRulePatternCitation?:
+  effectiveReferenceSchemeRef?:
+  claimOrWorkScopeRef?:
+  selectedStructureRef?:
+  sourceOrUseBoundaryRef?:
+  localUseCondition?:
   measuredReadingRef?:
-  relationToGovernedObjectOrClaim:
-  governingUseRelationRef:
+  directRelationDeclarationRef?:
+  obtainingRelationOccurrenceRef?:
+  receivingUseRulePatternCitation?:
   validityOrCurrentnessCondition?:
   refreshOrReopenCondition?:
-  blockedLocalOverread:
+  blockedLocalOverread?:
 ```
 
-`bearerRef` names the object or claim that has the temporal aspect. `temporalReference` states the clock, event order, cycle, sprint, epoch, release train, sampling interval, follow-up interval, or domain-local timing reference. `blockedLocalOverread` names one local overread blocked by this aspect statement: for example, "this cadence statement does not prove recovery", "this freshness window does not create permission", or "this rhythm statement is not yet a C.27 adequacy card".
+When this statement is materialized, the record is ClaimGraph content in one `C.2.1` episteme. `entityOfConcernRef` resolves the exact bearer or exact claim being qualified. `aspectPredicate` says what is asserted of it; the label does not identify a temporal-aspect object. The first four fields are the normal minimum.
 
-#### C.27.TA:4.3 - Governing Use Relation
+Every remaining field is conditional. Add it only when changing that value could change the claim or the receiving action. PatternID citations tell the reader which rule to apply and assert no relation. If the claim relies on another direct relation, cite its exact declaration and cite an obtaining occurrence only after its predicate passes. There is no generic context field; each optional scheme, scope, Structure, source or use boundary, or local-use condition keeps the identity and test supplied by its direct pattern.
 
-| Temporal use | Governing pattern |
+#### C.27.TA:4.3 - Direct Use and Rule Citation
+
+| Temporal use | Direct pattern or rule citation |
 | --- | --- |
-| positive temporal aspect of an object or claim | `C.27.TA` |
+| positive temporal-aspect claim about an object or claim | `C.27.TA` |
 | adequacy or supported use of an authored temporal claim | `C.27` |
 | bounded transformation under conditions with temporal reference | `A.3.4` plus `C.27.TA` |
 | state-space or transition-law model | `A.3.3` |
@@ -106,47 +113,40 @@ TemporalAspectStatement:
 | benchmark freshness, baseline window, comparator edition, or parity window | `G.9` |
 | source currentness, evidence decay, provenance, or assurance refresh | evidence, source, provenance, assurance, and refresh patterns |
 
+This table supplies rule citations, not relation occurrences. When another relation is part of the temporal claim, cite that relation's declaration and independently established occurrence through the fields above.
+
 #### C.27.TA:4.4 - Rhythm, Cadence, And Synchronization
 
-Rhythm and cadence require bearer, timing reference, and window. Coupling, phase, synchronization, entrainment, dependency, or coordination wording appears only when the claim depends on a cross-bearer temporal relation.
+A minimal rhythm or cadence claim still needs only the exact EntityOfConcern, temporal predicate, temporal reference, and window. Coupling, phase, synchronization, entrainment, dependency, or coordination wording appears only when the claim depends on a cross-bearer temporal relation.
 
-Compact rhythm statement:
+Escalation form:
 
 ```text
-RhythmAspect:
-  rhythmBearerRef:
+RhythmAspectClaimContent:
+  entityOfConcernRef:
+  aspectPredicate: rhythm | cadence | synchronization
   timingReference:
   rhythmWindowRef:
-  intervalStructure:
-  governingUseRelationRef:
-  couplingRelation?:
+  intervalStructure?:
+  rulePatternCitation?:
+  directCouplingRelationDeclarationRef?:
+  obtainingCouplingOccurrenceRef?:
   validityWindowRef?:
 ```
+
+The optional fields appear only when the receiving use relies on them. A PatternID citation identifies the rule used to judge a claim; it is not the coupling relation.
 
 A plain "release cadence" or "workshop rhythm" may remain ordinary prose. It needs C.27.TA when cadence or rhythm changes transformation, work planning, benchmark, source, assurance, coordination, or claim-use decisions.
 
 #### C.27.TA:4.5 - Currentness, Freshness, And Validity Window
 
-Currentness and freshness need a reference time and a validity window. A source, benchmark, model, dashboard, or claim may be fresh enough for one use and stale for another.
+A currentness or freshness claim uses the same four-part minimum: exact EntityOfConcern, *current* or *fresh* predicate, reference time or edition, and validity interval or window. A source, benchmark, model, dashboard, or claim may be fresh enough for one use and stale for another.
 
-Use C.27.TA to name:
-
-- what object or claim is current;
-- relative to which reference time or edition;
-- for which window or use;
-- which refresh or reopen condition changes the temporal aspect.
-
-Use source, evidence, benchmark, assurance, or refresh patterns for the actual evidence, provenance, parity, assurance, or refresh work.
+Add a source-use boundary, currentness condition, refresh condition, or reopen condition only when the receiving use changes when that value changes. Use the direct source, evidence, benchmark, assurance, or refresh pattern for the separate provenance, parity, assurance, or refresh-work claim.
 
 #### C.27.TA:4.6 - Recovery, Stabilization, Inertia, And Effort Over Time
 
-Recovery, stabilization, inertia, and effort over time are temporal aspects when they name timing, interval, persistence, residue, or reversal cost for a governed object. They become C.27 temporal-claim adequacy only when an authored claim uses them to carry a practical use.
+A recovery, stabilization, inertia, or effort-over-time claim first names the exact EntityOfConcern, temporal predicate, temporal reference, and interval. It becomes a C.27 adequacy question only when an authored claim uses that result for a practical action.
 
-Use C.27.TA to name:
-
-- disturbance or starting condition;
-- bearer;
-- recovery or stabilization window;
-- effort, resistance, residue, or inertia relation;
-- governing pattern relation that carries transformation, work, evidence, value, or assurance.
+Add the disturbance or starting condition, measured reading, effort, resistance, residue, inertia relation, rule-pattern citation, or direct-relation reference only when the receiving use relies on that distinction. These values do not turn the temporal predicate into a transformation, Work, evidence, value, or assurance relation.
 

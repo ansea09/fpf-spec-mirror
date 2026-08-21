@@ -6,12 +6,12 @@ section_id: "A.16.1:18"
 section_title: "Worked Cue Complexes and Practitioner Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__019_worked-cue-complexes-and-practitioner-tests.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:18 — Worked Cue Complexes and Practitioner Tests"
-line_start: 27780
-line_end: 27790
+line_start: 27295
+line_end: 27305
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,5 +45,5 @@ A cue pack may combine trace refs, embodiment refs, model-state refs, and exempl
 A practitioner may ask: if all candidate anchors and witnesses were removed, would anything remain that justifies preserving this pack at all? If the answer is still unclear what is being preserved, the pack is under-specified and should be rewritten, retired, or not published yet.
 
 #### A.16.1:18.3 - Practitioner test for covert endpoint capture
-A practitioner should also ask whether every sentence in the pack would remain true if no endpoint claim, publication form, or authority had yet been established. If not, use the applicable endpoint pattern or rewrite the sentence back into preservation language.
+A practitioner should also ask whether every sentence in the pack would remain true if no endpoint test had passed, no later publication were available, and no actual authority relation had been established. If not, use the applicable endpoint, publication, or authority pattern, or rewrite the sentence back into preservation language.
 

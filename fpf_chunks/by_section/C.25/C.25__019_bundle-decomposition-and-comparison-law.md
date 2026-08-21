@@ -6,13 +6,14 @@ section_id: "C.25:18"
 section_title: "Bundle Decomposition and Comparison Law"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__019_bundle-decomposition-and-comparison-law.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:18 — Bundle Decomposition and Comparison Law"
-line_start: 53026
-line_end: 53036
+line_start: 51803
+line_end: 51813
 dependencies:
+  - "A.10"
   - "A.15"
   - "A.16.0"
   - "A.18"
@@ -51,8 +52,8 @@ keywords:
 A family label may remain stable while its internal slots differ materially across contexts. Conforming comparison therefore starts by aligning the bundle decomposition: scope slots with scope slots, measure slots with measure slots, mechanism/status slots with their own kinds, and evidence/window slots with their own kinds. Comparing one bundle's measure directly to another bundle's mechanism claim is a category error even if both sit under the same family label.
 
 #### C.25:18.2 - Narrow slice versus whole family
-A context may admissibly extract one narrow slice from a broader Q-Bundle and publish that slice as a single CHR characteristic, but the publication should say that the slice is only one member of the broader family. What is not admissible is to report the slice as though it exhausted the entire family claim.
+A publication may expose one narrow Characteristic claim from a broader Q-Bundle-shaped claim episteme, but it must identify that addressed claim as only one contributor to the broader family. It must not cite the slice as though it exhausted or reidentified the source episteme.
 
 #### C.25:18.3 - Cross-context family comparison
-Cross-context comparison of quality families should proceed through explicit bundle alignment and, where needed, `F.9` bridge discipline on the relevant heads or slots. The bundle ontology stays in `C.25`; bridge loss, translation-relation adequacy, and cross-context penalties remain outside the bundle itself.
+Cross-context comparison of quality families starts with explicit bundle alignment: compare scope with scope, measures with corresponding measures, mechanisms or statuses with their own kinds, and windows or evidence only when the receiving comparison uses them. For each meaning that crosses local schemes, resolve the two exact `F.17` senses and test the direct `F.9` predicate. Cite a Bridge only when it obtains, then state the proposed use separately with its direction, correspondence rule, tolerated loss, and polarity. Keep observed loss in evidence, use `A.10` for ordinary reliance, and open `B.3` only on its own assurance trigger. None of this changes the Q-Bundle or supplies an automatic penalty.
 

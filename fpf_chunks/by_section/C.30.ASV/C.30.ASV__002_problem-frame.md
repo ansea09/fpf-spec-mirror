@@ -6,12 +6,12 @@ section_id: "C.30.ASV:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:1 — Problem frame"
-line_start: 61116
-line_end: 61154
+line_start: 58277
+line_end: 58317
 dependencies:
   - "A.1"
   - "A.10"
@@ -58,14 +58,16 @@ keywords:
 
 ### C.30.ASV:1 - Problem frame
 
-Use this pattern when an architecture discussion needs a structural description of one exact selected architecture-relevant `U.Structure`, and the receiving use must decide whether that description is also a `U.View` under one exact viewpoint.
+Use this pattern when you have a structural description of one selected architecture-relevant `U.Structure` and need to decide whether that same description is also a `U.View` under one exact viewpoint.
 
-The first useful move is `ArchitectureStructureKindTriage@Project`: name the exact described holon or actual `ArchitectureRelation` occurrence when known, the smallest useful `ArchitectureStructureKindRef` set, the selected structure under consideration, the use qualifiers that actually change interpretation, and the next admissible architecture move.
+The first useful move is small. In ordinary prose, name the described holon or actual `ArchitectureRelation` when known, the selected structure, the smallest useful structure-kind set, any qualifier that changes interpretation, and the next architecture move. If one or two sentences make those values clear, stop.
+
+For example: “The failover diagram describes runtime-interaction and control structures, but it hides the actual failover relation. Recover that relation before relying on the diagram as a view.” This is already a usable triage result. Use `ArchitectureStructureKindTriage@Project` only when the result must be retained, compared, or handed on.
 
 ```text
 ArchitectureStructureKindTriage@Project:
   projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
-  architectureStructuralViewProjectUseRelationRef?: U.RelationRef defined by the applicable triage-use or view-use pattern
+  architectureStructuralViewProjectUseRelationRef?: U.RelationRef, only when a named pattern defines this project-use relation and the occurrence obtains
   architectureClaimRef?: U.EpistemeRef constrained to ArchitectureClaim
   architectureRelationOccurrenceRef?: ArchitectureRelationRef
   describedHolonRef?: U.HolonRef
@@ -78,20 +80,20 @@ ArchitectureStructureKindTriage@Project:
   candidateStructureKindRefs: FinSet(ArchitectureStructureKindRef)
   smallestUsefulStructureKindRefs: FinSet(ArchitectureStructureKindRef)
   selectedStructureRefs?: FinSet(U.StructureRef)
-  primaryGoverningPatternApplicationRef:
+  claimPatternRefs?: FinSet(PatternRef), if another claim is being made
   admissibleArchitectureMove:
   stopCondition:
 ```
 
-`@Project` is a compatibility and retrieval cue for a project-side use record. It supplies no project identity, authority, context, viewpoint, parthood, or Work occurrence. When one actual project matters to this triage, `projectWorkOccurrenceRef` identifies the composite `U.Work` recovered under `A.15.6`, and `architectureStructuralViewProjectUseRelationRef` identifies the exact obtaining relation by which the triage or structural-view use concerns that work. A Work reference without that direct relation does not establish project locality.
+`@Project` is a compatibility and retrieval cue for a project-side use record. It supplies no project identity, authority, context, viewpoint, parthood, or Work occurrence. When one actual project matters to this triage, `projectWorkOccurrenceRef` identifies the composite `U.Work` recovered under `A.15.6`. Include `architectureStructuralViewProjectUseRelationRef` only when a named pattern defines the relation by which this use concerns that Work and an occurrence of the relation obtains. A Work reference alone does not establish project locality. If locality matters but that relation is not yet defined, use A.6.RCD before filling the field; otherwise omit both project-local fields. `claimPatternRefs` points only to patterns that define or test separate claims; it does not identify a pattern-application occurrence.
 
 Start with `C.30` when the actual architecture relation, exact selected structure, or architecture claim is unclear. Use C.30.ASV only when a structural description over selected architecture-relevant structure changes the next architecture use. Use the full `ArchitectureStructuralView` record only when one exact description episteme passes E.17.0 conformance to an exact viewpoint and the view changes action, selected reliance relation, correspondence, source return, publication, comparison, or another non-ASV claim or use.
 
 What goes wrong if C.30.ASV is missed: one favored diagram, module view, TEVB viewpoint, generated relation graph, control sketch, or neural-network block diagram is treated as the architecture, selected structure, `U.View`, or proof without naming the exact description episteme, selected structure kind, viewpoint-conformance occurrence, hidden or lost structure, correspondence, and next architecture use.
 
-What C.30.ASV buys in practice: the practitioner can keep description identity, selected structure kind, exact viewpoint conformance, construction history, selected relations, hidden or lost structure, correspondence, source-return condition, representation, publication, and admissible use separately inspectable before relying on the view.
+What C.30.ASV buys in practice: the practitioner can distinguish description identity, selected structure and structure kind, exact viewpoint conformance, representation, and publication before relying on a view. Construction history, hidden or lost structure, correspondence, source return, and admissible use remain separately inspectable.
 
-Not this pattern when the question under repair is only the general architecture claim, subject-side `ArchitectureRelation`, structure as such, selected transformation-flow relation, mathematical graph description, transformation-flow path relation, or crossing relation. Use `C.30`, `A.22`, `E.18`, `E.18.2`, `C.29`, or `C.30.TFS-REL` as appropriate. If the view is used for another claim, use the applicable pattern for that claim and keep C.30.ASV only to the view portion.
+Do not use C.30.ASV when the question is only about a general architecture claim, subject-side `ArchitectureRelation`, structure as such, selected transformation-flow relation, mathematical graph description, transformation-flow path relation, or crossing relation. Use `C.30`, `A.22`, `E.18`, `E.18.2`, `C.29`, or `C.30.TFS-REL` as appropriate. If the view is used for another claim, use the applicable pattern for that claim and keep C.30.ASV only for the view portion.
 
 Thin precision-restoration pointer: if the issue under repair is still whether *view*, *architecture view*, *architecture structural view*, *diagram*, *model*, *graph*, *layer*, or *functional architecture* names a structural description, a `U.View`, an architecture description, a representation, a publication occurrence, a publication form, a source relation, or another claim or relation named by value, use `C.30.P` first. Do not copy the `C.30.P` trigger table here; apply C.30.ASV only after the architecture structural-view claim or non-ASV claim named by value is recoverable.
 

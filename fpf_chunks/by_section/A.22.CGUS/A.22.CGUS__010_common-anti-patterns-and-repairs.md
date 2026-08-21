@@ -6,38 +6,39 @@ section_id: "A.22.CGUS:8"
 section_title: "Common Anti-Patterns And Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__010_common-anti-patterns-and-repairs.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:8 — Common Anti-Patterns And Repairs"
-line_start: 35127
-line_end: 35141
+line_start: 34313
+line_end: 34323
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.21"
   - "A.22"
-  - "A.6.3.NAR"
-  - "B.3.5"
-  - "B.5.2"
-  - "C.13"
-  - "C.18"
-  - "C.19"
-  - "C.2.P.DR"
-  - "C.3"
+  - "A.3"
+  - "A.6.5"
+  - "A.6.P"
+  - "B.3"
+  - "C.29"
+  - "C.30"
+  - "C.32"
   - "C.32.P2S"
   - "C.33"
   - "C.35"
-  - "E.10.MOVE"
   - "E.11"
   - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.18.3"
   - "E.18.NET"
-  - "E.18.NET-conforming"
   - "E.23"
-  - "E.24.PUB"
   - "F.17"
+  - "F.18"
+  - "F.9"
   - "G.11"
-  - "G.5"
 keywords:
 ---
 
@@ -45,14 +46,10 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| **Pretty route as ontology** | A graph, table, route card, or slide deck is treated as the structure, or its declared use is treated as sufficient admission. | Keep the artifact as a C.2.1 provisional episteme while an A.22 discriminator is unresolved. After admission, use a whole-structure description or a separate demonstrative-slice episteme only for the selected traversal. |
-| **Network locator as admission shortcut** | A network graph supplies raw positions, edge labels, a duplicated position list, or one global tag and is treated as an admitted slice. | Select and verify the E.18.NET-conforming network first, then admit the E.18.3 positions and relation-reference epistemes. Then map to those exact values through the mutually exclusive network locator; otherwise keep the graph provisional. |
-| **Valuation or detail mints structure** | Another `FlowValuation` is called another TFS, or a detailed portion is called an independent flow. | Keep the valuation on its exact TFS and the internal portion as one E.18 `SubflowRef`. |
-| **One giant flow** | Independently selected flows, nested networks, and their local Work, transformations, valuations, or boundaries are flattened into one TFS. | Restore each member identity and select an E.18.NET network only from exact cross-boundary relation occurrences. |
-| **Universal cross-flow edge** | `creates`, `produces`, `uses`, `result`, `handoff`, or `transfer` labels stand in for different relations. | Apply the exact relation definition and occurrence test; retain a missing definition, unresolved predicate, false predicate, or missing endpoint binding instead of inventing an edge. |
-| **Universal P2W parent** | P2W is used as the parent for architecture, narrative, abduction, grounding, and refresh. | Use E.18 as the rich transformation-flow family; use CGUS for the shared constraint-governed unfolding structure and the relevant concrete pattern contributions for each family. |
-| **Loop word as improvement** | A retry loop or prompt loop is called improvement. | Open `E.22` and `E.23`; improvement-loop admission depends on an object version, evaluation frame, exact candidate proposal rows, scale-qualified expected evaluation-result changes, one loop-decision value, and re-evaluation. |
-| **README route authority** | A public practical-use card is treated as a fixed FPF procedure. | Use its E.11 expansion and express each continuation through its current object, condition, any material concrete pattern contribution, expected result claim, and stop or reconsideration question. Keep any wider route-shaped claim provisional until A.22 admission; a later slice demonstrates only one traversal. |
-| **Diffusion ontology import** | The diffusion analogy becomes mathematical diffusion, fixed point, CSP, sheaf, or category semantics. | Keep the analogy explanatory only; open `C.29` by a new decision if a mathematical lens is claimed. |
-| **Solver or agent as ontology** | An execution artifact, such as a solver run, compiler output, or AI-assisted model edit, is treated as the governed unfolding structure. | Separate the reusable model structure from the execution or publication artifact. Use CGUS for the relation and constraint structure; use the direct mathematical, currentness, evaluation, evidence, publication, or domain pattern for the stronger claim. |
+| **Pretty route as ontology** | A card or graph is treated as the structure. | Keep it as an explanation; qualify the structure independently. |
+| **Condition label as result** | A label or claim reference is treated as proof that a continuation is enabled. | Apply the test or recover the obtaining relation and facts; otherwise return `unknown`. |
+| **One enabled branch as one-branch structure** | The present result erases other potential continuations. | Keep potential topology and the case result separate. |
+| **Formal package or field count first** | A simple correction requires replay fields, or authors add references merely to raise schema completion. | Use the ordinary branch and stop when it answers the question. In formal use, retain only fields consumed by qualification or replay and test whether readers recover the right alternatives and smallest repair. |
+| **Displayed order as Work** | A teaching slice becomes a project procedure or authorization. | Use the applicable Method, work-plan, Work, or gate pattern only when that claim is actually made. |
+| **Consumer architecture copied inward** | CGUS repeats transformation-flow locators, naming procedures, or catalogs of neighboring claims. | Keep the local structural rule and exit directly to the pattern that defines or tests the other claim. |
 

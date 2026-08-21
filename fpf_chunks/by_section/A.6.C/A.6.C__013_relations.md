@@ -6,12 +6,12 @@ section_id: "A.6.C:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__013_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:12 — Relations"
-line_start: 11563
-line_end: 11579
+line_start: 11599
+line_end: 11615
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,7 +39,8 @@ keywords:
   - "OPTIONAL"
   - "SHOULD"
   - "a mechanism entry predicate enters A"
-  - "and SHOULD NOT enter D only for an individual duty"
+  - "an individual duty"
+  - "and SHOULD NOT enter D for a generic prescription or"
   - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
@@ -56,6 +57,7 @@ keywords:
   - "rewrite it or mark it informative"
   - "separate result and evidence"
   - "speech-act Work"
+  - "when separately instituted for an actual bearer"
 ---
 
 ### A.6.C:12 — Relations

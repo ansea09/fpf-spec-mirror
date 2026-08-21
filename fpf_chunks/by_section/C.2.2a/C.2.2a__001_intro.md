@@ -6,12 +6,12 @@ section_id: "C.2.2a:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:intro — Intro"
-line_start: 42636
-line_end: 42655
+line_start: 41397
+line_end: 41418
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -53,9 +53,11 @@ keywords:
 **Used by.**
 `C.2.LS`, `C.2.3`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `A.16.0`, `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `F.9.1`, `A.6.P`, `C.16.Q`, `A.6.A`.
 
-**Use this pattern when.** Use C.2.2a when a governed `U.Episteme` publication needs a language-state position before an endpoint pattern can honestly govern it.
+**Use this pattern when.** A team is about to route, compare, or publish a note by calling it `early`, `ready`, or `settled`, and the next action depends on what is actually known.
 
-**What goes wrong if missed.** Teams flatten articulation, closure, anchoring, representation factors, route-bearing publication forms, faces, and carriers into one vague maturity label such as `early`, `ready`, or `settled`.
+**First question.** What is known or uncertain about each of these five aspects, which readings clear the local threshold, and what may happen next: formality, articulation, closure, anchoring, and representation?
 
-**What this buys.** A slot-explicit chart position for the episteme publication, with threshold notes and bearer-lane distinctions kept visible before routing, prompt entry, bridge comparison, or endpoint use.
+**What goes wrong if missed.** Teams flatten those five aspects, the grounds for judging them, and the publication lane into one maturity adjective. A polished document can then look ready although the claim is still open, or a useful early cue can be rejected because it is not yet polished.
+
+**What this buys.** One small chart row that shows only the distinctions needed by the next action while keeping the episteme publication separate from its grounds, form, face, and carrier.
 

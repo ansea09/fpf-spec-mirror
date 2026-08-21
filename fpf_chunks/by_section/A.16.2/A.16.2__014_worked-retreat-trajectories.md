@@ -6,12 +6,12 @@ section_id: "A.16.2:13"
 section_title: "Worked Retreat Trajectories"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__014_worked-retreat-trajectories.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:13 — Worked Retreat Trajectories"
-line_start: 27912
-line_end: 27929
+line_start: 27427
+line_end: 27444
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,7 +43,7 @@ An over-specified `A.6.A`-governed invitation may later prove premature. The adm
 
 `actionInvitation -> sketchBackoff -> U.PreArticulationCuePack`
 
-with explicit withdrawal of route authority that no longer holds.
+with explicit withdrawal of the route selection and endpoint-use claim that no longer hold. Any actual authority relation is updated separately only if its own predicate changes.
 
 #### A.16.2:13.3 - Respecify without repair-pattern drift
 A route-bearing publication may keep the same broad family but replace one framing scaffold or route specification with another. That is `respecify`, not silent editing, and not slot-explicit epistemic precision repair.

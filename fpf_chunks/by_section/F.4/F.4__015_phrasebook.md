@@ -6,12 +6,12 @@ section_id: "F.4:13"
 section_title: "Phrasebook"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__015_phrasebook.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:13 — Phrasebook"
-line_start: 91553
-line_end: 91573
+line_start: 88942
+line_end: 88962
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -49,7 +49,7 @@ keywords:
 
 Prefer:
 
-- “description of `ReviewerSystemRole@JournalReview-2026`, one local system-role kind”;
+- “description of the local kind currently named `ReviewerSystemRole`; JournalReview-2026 locates the definition”;
 - “candidate-system admission is established under A.1; classification and any assignment are separate”;
 - “capability requirement cited by the description”;
 - “Method requirement cited by the description”;

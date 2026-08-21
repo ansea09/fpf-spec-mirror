@@ -6,16 +6,17 @@ section_id: "D.3:3"
 section_title: "Collection and Episteme Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__006_collection-and-episteme-cases.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:3 — Collection and Episteme Cases"
-line_start: 68686
-line_end: 68691
+line_start: 65959
+line_end: 65964
 dependencies:
   - "A.1"
   - "A.10"
   - "A.14"
+  - "A.6.RCD"
   - "B.1"
   - "B.3"
   - "C.13"
@@ -30,12 +31,13 @@ dependencies:
   - "D.5"
   - "E.10.ROLE"
   - "E.17"
+  - "E.24.PUB"
 keywords:
 ---
 
 ### D.3:3 - Collection and Episteme Cases
 
-A collection is ethically current only when whole-level characteristics, membership relations, environment-mediated effects, or aggregate consequences matter. Use `A.14` for part-whole and membership relation vocabulary and `C.13` for constructive grounding. Do not assign responsibility to a collection merely because it has a plural name.
+A collection is ethically current only when whole-level characteristics, membership relations, environment-mediated effects, or aggregate consequences matter. Use `A.14` for part-whole and membership relations and `C.13` for constructive grounding. A plural or institutional name does not make the collection an acting or responsible System.
 
-An episteme is ethically current when its claim-bearing structure, source-use relation, publication relation, described EntityOfConcern, or model family changes affected systems or decisions. Use C.2.1 for episteme identity and for the exact constitution, empirical-grounding, or edition relation that the claim actually uses, and E.17 for publication claims. Do not turn every ethical conflict over a theory, standard, architecture description, or policy description into a problem about wording.
+An episteme is ethically current when its claim content, source use, publication, described EntityOfConcern, or model use changes the affected systems or decisions. Use C.2.1 for episteme identity and exact edition claims, and E.17 with E.24.PUB for publication. The D.3 conflict description is a separate episteme about the selected case; it does not become identical to the policy, model, standard, or architecture description involved in one of its sides.
 

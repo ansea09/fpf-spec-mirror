@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.28"
-pattern_title: "CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+pattern_title: "CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
 section_id: "C.28:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+  - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:intro — Intro"
-line_start: 56934
-line_end: 56947
+line_start: 54229
+line_end: 54242
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,13 +30,14 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
+  - "CausalUseSupportResult"
   - "Pearl Causal Hierarchy"
   - "Structural Causal Model"
   - "association"
   - "causal diagram"
   - "causal estimand"
-  - "causal evidence support basis"
   - "causal fairness"
+  - "causal support components"
   - "causal-RL evaluation"
   - "causal-use question"
   - "causality ladder"
@@ -48,7 +49,7 @@ keywords:
   - "target trial"
 ---
 
-## C.28 - CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability
+## C.28 - CausalUse-CAL: Causal-Use Questions, Identification, and Realizability
 
 > **Type:** Calculus (C)
 > **Status:** Stable
@@ -56,9 +57,9 @@ keywords:
 
 **Plain-name.** Causal-use calculus.
 
-**Intent.** Govern live causal questions and decision-bearing causal use: improvement, intervention effect, causal fairness, counterfactual comparison, causal policy optimality, realized counterfactual-rung evidence, identified counterfactual estimate, or simulation-only counterfactual output.
+**Intent.** Help a practitioner decide what a causal-looking claim is supported to say, under which limits, and which narrower statement remains when the support is insufficient.
 
-**Primary EntityOfConcern.** A causal-use question or claim together with the causal-use basis and follow-on records needed to use it admissibly: causality-ladder rung, estimand or contrast, evidence basis, identification status, counterfactual sampling realizability status, supported use, unsupported use, and next supported use.
+**Primary EntityOfConcern.** One exact causal-use question. The claim, estimand or contrast, evidence paths, identification result, estimate, sampling-realizability result, performed sampling and resulting data, simulation result, support result, and downstream decision remain separately identified.
 
-**Not a physical ontology.** `C.28` governs how FPF authors, reviewers, and operators use causal models, evidence, and counterfactual reasoning in records, policy claims, fairness claims, method comparisons, and work plans. It does not define physical causality in general and does not replace local domain science.
+**Not a physical ontology.** This pattern does not define causation in the world or replace domain science. It supplies a practical interface for using causal evidence and models without promoting association, simulation, or a graph label into a stronger causal claim.
 

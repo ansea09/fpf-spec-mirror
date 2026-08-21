@@ -6,46 +6,68 @@ section_id: "C.24:0.4"
 section_title: "First output"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__006_first-output.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:0.4 — First output"
-line_start: 52353
-line_end: 52360
+line_start: 51179
+line_end: 51213
 dependencies:
-  - "A.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
-  - "A.15.5"
   - "B.1.6"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.24"
+  - "C.19.1"
   - "C.28"
   - "C.5"
-  - "E.10.MOVE"
-  - "E.11.PUR"
+  - "E.17"
   - "E.23"
-  - "E.3"
-  - "E.5"
+  - "E.24.PUB"
   - "G.5"
   - "G.6"
   - "G.9"
   - "U.PromiseContent"
-  - "U.WorkPlan"
 keywords:
 ---
 
 ### C.24:0.4 - First output
 
-The first useful output is either one enactment-facing `CallPlan` with the current objective, planned call steps selecting exact `U.Method` refs, any separately cited route descriptions, the planned budget envelope, the stop or replan condition, and the next planned action stated explicitly in one place, or one bounded `CheckpointReturn` with the current objective or task family, the exact Methods and descriptions tested when recovered, the burned and residual actual budget, the commit trigger, and the recommended next action stated explicitly in one place.
+The first useful output is one of these:
 
-In C.24, move-like wording is plan-local shorthand only when it means `nextPlannedAction` inside a `CallPlan` or `recommendedNextAction` inside a `CheckpointReturn`. It does not name a general project move, pattern-use recommendation, work-entry readiness relation, performed work, or a whole `U.WorkPlan`. If the current source wording asks which FPF pattern use is recommended, use `E.11.PUR`; if it asks whether intended work is ready to start, use `A.15.5`; if it uses move-like wording outside C.24 call planning, restore the project concern with `E.10.MOVE`.
+```text
+CallPlan:
+  upstreamChoiceResultRef
+  objective
+  plannedCallsInOrder:
+    - methodRef
+      methodDescriptionRef?          # only when the route description is needed
+      dependsOnPlannedStepRefs?      # only when dependency changes the route
+      mayRunInParallelWithStepRefs?  # only when safe parallelism matters
+  plannedBudgetEnvelope
+  stopOrReplan
+  nextPlannedAction
+```
 
-If that first output still cannot be written honestly, the current planning result is not finished `C.24` planning yet.
+```text
+CheckpointReturn:
+  upstreamChoiceResultRef
+  objectiveOrTaskFamily
+  testedMethodRefs
+  testedMethodDescriptionRefs?
+  evidenceRefs
+  burnedBudget
+  residualBudget
+  recommendedNextAction
+  commitTrigger
+```
+
+`nextPlannedAction` and `recommendedNextAction` are local fields, not claims that Work has occurred. Add one of the branch-specific refs in C.24:4.4 only when that exact constraint still affects the plan. A plan with no current policy branch needs no policy placeholder. If neither output can cite the accepted upstream result and state what happens next, the C.24 work is unfinished.
+
+If that upstream result changes, is withdrawn, or no longer fixes the option or route, reopen the plan and return to `C.11` or `C.19` as applicable. Do not revise the route as though the choice were still settled.
 

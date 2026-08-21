@@ -6,12 +6,12 @@ section_id: "F.4:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__009_worked-cases.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:7 — Worked Cases"
-line_start: 91446
-line_end: 91479
+line_start: 88832
+line_end: 88865
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -49,7 +49,7 @@ keywords:
 
 #### F.4:7.1 - Pump Inspector System Role
 
-`PumpInspectorSystemRoleKindDescription` is a C.2.1 episteme whose EntityOfConcern is `PumpInspectorSystemRole@PlantAMaintenance`. Its contribution identity is supplying the pump-condition inspection judgment used before a Plant A maintenance decision. The description names `PlantA-PumpInspector-KindSignature-v4` and `Plant-A-Maintenance-Scheme`. Under that signature, a candidate counts only when it is already admitted as a `U.System` and two Plant A domain claims obtain: the reading predicate says that this System obtains readings for the named pump and declared condition characteristics in the applicable inspection situation; the judgment predicate says that this System returns the named pre-maintenance judgment from those readings. Each predicate declaration supplies participant meanings and applicability, and the current case supplies the satisfying facts. Use `A.6.F` only if source wording first hides those claims behind *function*; it establishes neither predicate. If either predicate or its case facts cannot be recovered, record the exact A.6.RCD `missing-governor` or missing-information result instead of classifying the candidate. A maintenance technician, inspection robot, or service team is only an example until those same conditions are checked.
+`PumpInspectorSystemRoleKindDescription` is a C.2.1 episteme whose EntityOfConcern is the kind currently named `PumpInspectorSystemRole`. The practical distinction is simple: an admitted system counts when it obtains readings for the named pump and declared condition characteristics in the applicable inspection situation and returns the named pre-maintenance judgment from those readings. A maintenance technician, inspection robot, or service team can be a member; a report, or a system missing either condition, is a relevant non-member. `PlantA-PumpInspector-KindSignature-v4` and `Plant-A-Maintenance-Scheme` state the current definition and interpretation. Plant A provenance locates that definition; it does not identify the kind. The same kind continues through an aligned edition while the candidate range and two-part distinction continue; a material change to either calls for another kind. Each predicate declaration supplies participant meanings and applicability, and the current case supplies the satisfying facts. Use `A.6.F` only if source wording first hides those claims behind *function*; it establishes neither predicate. If either predicate or its case facts cannot be recovered, record the exact A.6.RCD `missing-governor` or missing-information result instead of classifying the candidate.
 
 The description says the kind concerns pump-condition inspection and does not itself denote repair. It may cite pump-inspection capability conditions or an inspection Method when a receiving Work claim needs them. Its boundary says that an inspection report is an episteme used through evaluation, evidence, source, or publication relations, not a system-role holder.
 
@@ -57,7 +57,7 @@ The description makes `PumpInspectorSystemRole` recognizable. It does not say th
 
 #### F.4:7.2 - Reviewer System Role and Review Report
 
-`ReviewerSystemRoleKindDescription` may describe `ReviewerSystemRole@PatternReview-2026`, the local kind identified by the contribution of supplying a reasoned pattern-review judgment against the declared scales. Under `PatternReview-2026-Reviewer-KindSignature-v2`, a candidate counts only when it is already admitted as a `U.System` and two review-domain claims obtain: the comparison predicate says that this System compares the named pattern claims with each selected scale in the applicable review situation; the result predicate says that it returns the named reasoned judgment with the assessed values or defects. Each declaration supplies participant meanings and applicability, and the current case supplies the satisfying facts. `A.6.F` is used only to unpack still-ambiguous function wording and establishes neither claim. If a predicate is missing, record the A.6.RCD `missing-governor`; if case facts are missing, record the corresponding unresolved result. This condition can be checked without asserting that any review appointment or dated review Work already exists.
+`ReviewerSystemRoleKindDescription` may describe the kind currently named `ReviewerSystemRole`. An admitted system counts when it compares the named pattern claims with each selected scale in the applicable review situation and returns the named reasoned judgment with the assessed values or defects. A person, team, or review service satisfying both conditions can be a member; a review report, or a system that merely comments without applying the scales, is a relevant non-member. `PatternReview-2026-Reviewer-KindSignature-v2` states the current condition. The PatternReview source locates that definition; it does not identify the kind. The same kind continues only while the candidate range and substantive-review distinction continue under aligned editions. `A.6.F` is used only to unpack still-ambiguous function wording and establishes neither claim. If a predicate is missing, record the A.6.RCD `missing-governor`; if case facts are missing, record the corresponding unresolved result. This condition can be checked without asserting that any review appointment or dated review Work already exists.
 
 Alice's classification under that kind, any review appointment she holds, any dated review Work she performs, and any report used as evidence remain four separate claims. This compact description names none of their occurrence identities.
 

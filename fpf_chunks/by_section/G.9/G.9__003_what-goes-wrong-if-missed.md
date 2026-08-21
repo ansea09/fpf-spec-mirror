@@ -6,14 +6,15 @@ section_id: "G.9:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__003_what-goes-wrong-if-missed.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:0.1 — What goes wrong if missed"
-line_start: 102794
-line_end: 102799
+line_start: 100008
+line_end: 100013
 dependencies:
   - "A.19"
+  - "A.2.6"
   - "A.21"
   - "C.18"
   - "C.19"
@@ -35,6 +36,7 @@ dependencies:
   - "G.6"
   - "G.7"
   - "G.Core"
+  - "U.ClaimScope"
 keywords:
   - "adaptation parity"
   - "benchmark plan"
@@ -47,6 +49,6 @@ keywords:
 ### G.9:0.1 — What goes wrong if missed
 
 - benchmark numbers mix different windows, baselines, or comparator editions and still pretend to be comparable
-- cross-context reuse or normalization mapping stays hidden until a disagreement appears downstream
+- reuse across distinct source-local meanings, a reference-plane crossing, or a normalization mapping stays hidden until a disagreement appears downstream
 - parity flattens a partial order into one scalar winner and silently changes what the comparison means
 

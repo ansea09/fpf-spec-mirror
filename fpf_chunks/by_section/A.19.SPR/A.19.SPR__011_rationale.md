@@ -6,12 +6,12 @@ section_id: "A.19.SPR:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__011_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:9 — Rationale"
-line_start: 29209
-line_end: 29214
+line_start: 28758
+line_end: 28763
 dependencies:
   - "A.10"
   - "A.16"
@@ -45,7 +45,7 @@ keywords:
 
 ### A.19.SPR:9 - Rationale
 
-The repeated problem is not a bad word. The repeated problem is an untyped state-like claim. FPF needs finite state-like fields, but each field must be over a bearer and a state frame. Placing this pattern under the `A.19` neighborhood keeps the general repair near state-space and state-comparability discipline without making semio the home for every status word and without turning `E.10` into an omnibus ontology.
+The problem is not the word `state`. The problem is a sentence that hides what has changed, what is being judged, or which rule makes the judgment meaningful. Recovering those facts first lets FPF keep short engineering language without creating a general status ontology.
 
-The pattern also protects local fields named by value. `LensUseAdmissibilityValue` and `dynClaimPosture` are acceptable when their subject patterns declare value sets and boundaries. Specification wording is acceptable only as a Description episteme admitted for specification use or refinement under a specification-granting neighbouring pattern named by value; it is not a reusable posture field. Broad `source posture`, `evidence posture`, `assurance posture`, `publication posture`, `release posture`, and administrative forms are not acceptable unless they are repaired into FPF kinds named by value or moved to the project-side administrative, review, dispatch, release or admission, or source-control record that actually governs them.
+Local fields such as `LensUseAdmissibilityValue` and `dynClaimPosture` remain useful when their object, possible values, and rule are clear. Broad phrases such as `source posture`, `evidence posture`, or `release posture` should instead become the direct sentence or project record the reader actually needs.
 

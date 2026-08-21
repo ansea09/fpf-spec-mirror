@@ -6,12 +6,12 @@ section_id: "A.2.6:21"
 section_title: "Relations - Cross-Pattern Coordination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__023_relations-cross-pattern-coordination.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:21 — Relations - Cross-Pattern Coordination"
-line_start: 5859
-line_end: 5886
+line_start: 5871
+line_end: 5898
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -51,7 +51,7 @@ keywords:
 
 #### A.2.6:21.4 - With exact F.9 Bridge occurrences
 
-* **Translation boundary.** Use an exact F.9 Bridge only for exact local-sense translation. State the translation's direction, rule, tolerated loss, and polarity in a separate C.2.1 claim, then recover the exact passing A.10 or positive B.3 reliance branch before the receiving use proceeds; none makes membership true or false by itself.
+* **Translation boundary.** Use an exact F.9 Bridge only for exact local-sense translation. State the translation's direction, rule, tolerated loss, and polarity in a separate C.2.1 claim. Before the receiving use proceeds, require A.10 `pass` for ordinary reliance or, when an actual named assurance claim is current, a B.3 `AssuranceResult` for the same use with `disposition=supported-for-use`; none makes membership true or false by itself.
 * **Best practice.** Return an explicitly narrower scope when the bounded-use claim's rule and tolerance support only a proper subset; do not turn observed mapping loss into a Bridge identity field or a generic R penalty.
 
 #### A.2.6:21.5 - With Capability governance (A.2.2)

@@ -6,17 +6,19 @@ section_id: "B.1.5:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:5 — Archetypal Grounding — Worked Slices"
-line_start: 36632
-line_end: 36671
+line_start: 35801
+line_end: 35840
 dependencies:
   - "A.1"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
+  - "A.2"
+  - "A.2.1"
   - "A.22"
   - "A.3.1"
   - "A.3.2"
@@ -38,6 +40,7 @@ dependencies:
   - "E.24"
   - "E.24.PUB"
   - "E.24.UK"
+  - "F.6"
   - "G.5"
   - "U.MethodDescription"
   - "U.PresentationCarrier"
@@ -77,7 +80,7 @@ The composite qualification additionally requires the candidate's generic partic
 
 This review is deliberately hypothetical and non-load-bearing. It compares the four Methods and the two claims but does not assert a persisted `U.Structure` or a selection judgment. If a later receiving use needs an A.22-selected structure, its selection must identify the exact selecting system, selection Method, dated selection Work and bindings, and—where the result must persist—the result episteme. The structure itself is then identified by all four A.22 discriminators: exact constituents, exact independently admitted obtaining relation occurrences, applied constraints, and use frame. The present local claims cannot be relabelled as such occurrences merely to fill that list.
 
-The comparison still discriminates the non-composite case. No reusable whole action, complete precondition-to-result boundary, response to every guard conflict, or whole reidentification rule has been established. A wall poster may be a carrier bearing a publication form; an exact `U.MethodDescription` edition is a different claim-bearing episteme, and an actual publication occurrence is what makes that edition available to an audience. A system performing intake Work is separately checked for its role assignment and any capability or admission claim consumed by the work-entry decision. None of these facts is a Method part.
+The comparison still discriminates the non-composite case. No reusable whole action, complete precondition-to-result boundary, response to every guard conflict, or whole reidentification rule has been established. A wall poster may be a carrier bearing a publication form; an exact `U.MethodDescription` edition is a different claim-bearing episteme, and an actual publication occurrence is what makes that edition available to an audience. For a System performing intake Work, separately check the actual assignment occurrence under which it acted, that occurrence's declared `U.SystemRoleAssignment` species, the obtaining F.6 attribution, and any capability or admission claim consumed by the Work-entry decision. None of these facts is a Method part.
 
 If a later hospital protocol first identifies an exact A.3.1 Method such as `EmergencyIntakeMethod-v4` with the missing whole semantics, B.1.5 can test its composite-method qualification. Neither a poster, the one-off comparison, nor a later selected structure turns into that Method.
 

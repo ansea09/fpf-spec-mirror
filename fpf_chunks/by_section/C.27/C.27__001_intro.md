@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.27"
-pattern_title: "Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
+pattern_title: "Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
 section_id: "C.27:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
+  - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:intro — Intro"
-line_start: 54692
-line_end: 54719
+line_start: 53470
+line_end: 53475
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -27,11 +27,8 @@ dependencies:
   - "C.25"
   - "C.26"
   - "C.26.3"
-  - "C.27"
   - "C.27.TA"
-  - "C.28"
   - "G.9"
-  - "U.Rhythm"
 keywords:
   - "braking"
   - "coasting"
@@ -51,31 +48,9 @@ keywords:
   - "throughput"
 ---
 
-## C.27 - Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change
+## C.27 - Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change
 
 > **Type:** Claim-adequacy pattern
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
-
-**Plain-name.** Temporal claim adequacy.
-
-**Primary EntityOfConcern.** C.27 concerns authored temporal claims: prose, plans, benchmark lines, dashboards, method notes, promises, or explanations that treat state, rate, rhythm, recovery, braking, coasting, redirection, stabilization, or rate-change as sufficient for some practical use.
-
-**Use this pattern when** a claim about speed, rhythm, throughput, recovery, convergence, rollout, adoption, braking, coasting, redirection, or stabilization is being used to change action and therefore must name the temporal reading, effort or intervention, window, resistance or cost, evidence relation or assumption relation, supported use, unsupported use, and reopen condition.
-
-**What this buys.** The reader can separate state readings, rate readings, and intervention-sensitive temporal-change claims before a trend, cadence, benchmark, or speed claim starts authorizing work, gates, promises, budgets, or comparisons.
-
-**Do not use this pattern when** the wording is ordinary prose, a positive temporal aspect with no adequacy question, a state reading or rate reading whose measurement construction is enough, a formal `U.Dynamics` model, an actual work trace, a benchmark harness, a service promise, a quality judgement, or a residual quantum-like probe case without an intervention-sensitive temporal claim.
-
-**C.27 in 60 seconds.** A trend is not yet an intervention model. Use C.27 only if:
-
-1. temporal wording is used to justify action, comparison, budget, gate, promise, assurance, or an explicit relation to another FPF pattern;
-2. the difference between state, rate, and rate-change changes supported use;
-3. a small card can name the temporal reading or bearer, intervention, window, resistance or cost, evidence relation or assumption relation, supported use, and unsupported downstream claim, effect, use, or reopen trigger.
-
-For local diagnosis or planning, C.27 usually ends with one `Dyn2TemporalClaimAdequacyCard`. Plain references are enough while the use stays local. Boundary-crossing use can require a `Dyn2TemporalClaimProfile`, but the profile remains a pattern-local authored temporal-claim adequacy record, not the dynamic system, not the work trace, not a publication role, and not the default output.
-
-**Split boundaries.** Use `C.27.TA` to name positive temporal aspects such as time window, freshness, cadence, rhythm, trajectory, recovery timing, stabilization timing, effort over time, inertia, or refresh condition. Use `A.3.4` when the question under repair is the bounded transformation itself. C.27 may judge an authored temporal claim about a transformation, but it does not identify the `U.Transformation` value, supply its slot relation, or turn a temporal reading into evidence, permission, or work.
-
-**Description and support discipline.** The described system, work, practice, method, service, or benchmark is not the C.27 record. A `Dyn2TemporalClaimAdequacyCard` or `Dyn2TemporalClaimProfile` is an authored description of temporal-claim adequacy; a document, table, page, report, or card may carry that description. `supportedUse` and `unsupportedUse` state the pragmatic reach of that authored temporal-claim description. Use an evidence relation, model assumption, source-use reference, planning assumption, or named FPF pattern relation for the reason a reading is credible; do not let bare "support" do hidden ontology work.
 

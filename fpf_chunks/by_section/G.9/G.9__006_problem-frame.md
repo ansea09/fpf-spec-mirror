@@ -6,14 +6,15 @@ section_id: "G.9:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__006_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:2 — Problem frame"
-line_start: 102816
-line_end: 102828
+line_start: 100030
+line_end: 100042
 dependencies:
   - "A.19"
+  - "A.2.6"
   - "A.21"
   - "C.18"
   - "C.19"
@@ -35,6 +36,7 @@ dependencies:
   - "G.6"
   - "G.7"
   - "G.Core"
+  - "U.ClaimScope"
 keywords:
   - "adaptation parity"
   - "benchmark plan"
@@ -48,10 +50,10 @@ keywords:
 
 Parity claims become non‑reproducible or non‑comparable when any of the following are implicit:
 
-* evidence window / freshness regime,
-* comparator semantics (including any normalization / comparability mapping),
-* method‑family “measurement” edition pins (incl. DHC method/spec),
-* cross‑Context reuse (Bridge refs, crossing pins, and CL penalty placement),
+* evidence window and freshness regime,
+* comparator semantics, including any normalization or comparability mapping,
+* the active C.21 replay basis when DHC coordinates are compared, including the exact Characteristic, Scale, measurement definition, Method, MethodDescription or model, and time or population basis,
+* reuse across distinct F.17 source-local meanings or ReferencePlanes (the obtaining relation, crossing pins, and CL penalty placement),
 * dominance and `PortfolioMode` interpretation rules,
 * gate outcomes (why a run abstained or degraded).
 

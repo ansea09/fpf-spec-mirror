@@ -6,12 +6,12 @@ section_id: "D.4:3"
 section_title: "Mediation Moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__006_mediation-moves.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:3 — Mediation Moves"
-line_start: 68857
-line_end: 68867
+line_start: 66156
+line_end: 66166
 dependencies:
   - "A.10"
   - "A.20"
@@ -32,10 +32,10 @@ keywords:
 
 | Current situation | Admissible D.4 move | Neighboring subject pattern |
 | --- | --- | --- |
-| A compromise is proposed but the conflict structure has missing levels, scopes, or affected holons. | Use `D.3` and complete the conflict structure. | `D.3` |
+| A compromise is proposed but the D.3 description omits a side, affected entity, scope, value frame, consequence, or horizon. | Return to `D.3` and complete the affected side or tension. | `D.3` |
 | Harm claim depends on causal effect. | Demand the C.28 causal-use evidence value and verdict before ethical decision use. | `C.28` |
 | Evidence is too weak or outdated. | Demand stronger or fresher evidence before mediation. | `A.10`, `C.27` |
 | Assurance claim is being used as ethical permission. | Keep assurance as an assurance or evidence relation, not moral authorization. | `B.3`, `D.5` |
 | Architecture move reduces one residual but creates ethical conflict elsewhere. | Return the architecture residual and keep the ethical conflict distinct. | `C.30.ILC`, `D.3` |
-| A decision must proceed with residual harm. | Record the accepted residual, admitted decision or repair Systems, prospective plan, commitment, permission, authority, or assignment requirements, direct responsibility relations or exact missing governors, evidence limits, and return condition. If Work has actually occurred, add its complete A.15.1/F.6 basis. | `C.11`, `B.3`, `D.5`, A.2.1, A.15.1, and F.6 as applicable |
+| A decision must proceed with residual harm. | Record the accepted residual, admitted decision or repair Systems, prospective plan, commitment, permission, authority, or assignment requirements, direct responsibility relations or exact missing governors, evidence limits, and return condition. If Work has actually occurred, add its complete A.15.1 and F.6 basis. | `C.11`, `B.3`, `D.5`, A.2.1, A.15.1, and F.6 as applicable |
 

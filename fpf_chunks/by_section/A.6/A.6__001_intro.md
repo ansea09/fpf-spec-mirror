@@ -6,12 +6,12 @@ section_id: "A.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:intro — Intro"
-line_start: 9526
-line_end: 9613
+line_start: 9561
+line_end: 9648
 dependencies:
   - "A.10"
   - "A.15"
@@ -95,7 +95,7 @@ keywords:
 
 | Branch ID | Ask this plain question | Placement and subject pattern | Stop / near-miss |
 | --- | --- | --- | --- |
-| `A6-AW-NORM-GRANT` | Does a named subject owe an action, or may a named beneficiary perform one under stated conditions? | **D**: `A.2.8 U.Commitment` for a duty or prohibition; `A.2.8.PER GrantedPermissionRelation@Context` for a grant, including beneficiary, action, scope/window, and policy-valid A.2.9 instituting act. | A policy sentence, permit, or badge alone establishes neither object. |
+| `A6-AW-NORM-GRANT` | Does an exact policy prescribe an action, does one actual bearer have that duty, or may a named beneficiary perform one under stated conditions? | **D**: `A.2.8` for a generic prescription or, when separately instituted, one `U.Commitment`; `A.2.8.PER` for one `GrantedPermissionRelation@Context`, including beneficiary, action, scope/window, and policy-valid A.2.9 instituting act. | A policy sentence may state a generic prescription but by itself establishes neither an individual commitment nor a grant. |
 | `A6-AW-GATE` | Is a mechanism deciding whether this application may enter? | **A**: the A.6.1 mechanism entry predicate; use A.21 only for an actual gate decision. | A checked grant or finding is an input, not the gate and not proof of passage. |
 | `A6-AW-EXERCISE` | Did this dated Work match the beneficiary and action of a current grant? | **E**: A.15.1 for the Work and `A.2.8.PER PermissionExerciseRelation@Context` for exercise. | A grant, plan, or green gate does not show that Work occurred or exercised it. |
 | `A6-AW-WEAK` | Did a current, sufficiently complete frame find no prohibition before action or no violation in actual Work? | **E**: the exact A.2.8.PER `NonProhibitionFinding@Context` or `NonViolationFinding@Context`. | A stale or incomplete frame returns `unresolved`, not permission. |
@@ -114,11 +114,11 @@ When the wording is agreement-like, use `A.6.C` to separate promise content, the
 
 **Conflicting-source boundary.** When classified boundary wording, a display, copied summary, current source, gate decision, credential status, register entry, status-source display, recency signal, or provenance label disagree, do not resolve by wording emphasis, visual salience, color, or apparent freshness. Name the source order, decision source, freshness policy, and supersession rule; until those are resolved, keep only cue use, source-finding, or bounded reversible probes available.
 
-**Adversarial wording guard.** Intentionally ambiguous authority wording does not choose a quadrant or owner. Split the sentence, select one `A6-AW-*` row per permission-looking claim, and keep every other work, evidence, gate, or assurance use with its own source.
+**Adversarial wording guard.** Intentionally ambiguous authority wording does not choose a quadrant or repair destination. Split the sentence, select one `A6-AW-*` row per permission-looking claim, and keep every other work, evidence, gate, or assurance use with its own source.
 
 **Lint trigger.** In boundary, API, schema, or policy text, authority-looking wording triggers the `A6-AW-*` table. A conforming repair names the selected row and source before the claim guides work or reliance.
 
-**Boundary and source repair assignment.** If the split exposes a missing claim or source, assign that exact claim ID or selected `A6-AW-*` branch to the accountable boundary or source maintainer. Keep only cue use, source-finding, or a bounded reversible probe until the source is exposed or repaired.
+**Boundary and source repair assignment.** If the split exposes a missing claim or source, give that exact claim ID or selected `A6-AW-*` branch to the identified boundary or source maintainer. Keep only cue use, source-finding, or a bounded reversible probe until the source is exposed or repaired.
 
 Practitioner prompts for boundary wording use:
 

@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 51490
-line_end: 51653
+line_start: 50299
+line_end: 50462
 dependencies:
   - "A.10"
   - "A.15"
@@ -105,7 +105,7 @@ The Solution turns observed signal material into one C.2.1 episteme and one gove
 
 #### C.22.2:2.3 - Relation Boundary Aid
 
-Use this aid only after the Thin `ProblemCard` is legible: signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, not-wish reason, improvement check or acceptance probe, and honest next use. It is not a second writing order and not a catalogue of other patterns. It answers one question:
+Use this aid only after the Thin `ProblemCard` is legible: signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, claim family, not-wish reason, improvement check or acceptance probe, and honest next use. It is not a second writing order and not a catalogue of other patterns. It answers one question:
 
 > Which claim being made, relation, or boundary changes the problem-card use, and which FPF pattern defines or constrains that claim, relation, or boundary?
 
@@ -120,9 +120,9 @@ If the claim, relation, or boundary does not change the current problem-card use
 | First-principles or mathematical structure cue | Candidate structure, preserved and lost structure when current, practical payoff for problem formulation, problem-formulation follow-up reason, and stop condition. | `C.29` for mathematical-lens use; `A.6.0` for a `FormalSubstrate` `U.Signature` declaration when that signature declaration is current. |
 | Agentic safe probe or world-affecting next action | Probe need, risk condition, bounded next action, and the safety named by value, autonomy, gate, work, evidence, or assurance claim kind that blocks local action. | `C.24`, `E.16`, `A.21`, `A.15`, `A.10`, `G.6`, or `B.3` according to the relation named by value. |
 
-Over-capture symptom: the practitioner spends the pattern use classifying FPF patterns while the signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, improvement check, acceptance probe, and next use remain unstable.
+Over-capture symptom: the practitioner spends the pattern use classifying FPF patterns while one or more core Thin items in `C.22.2:2.1` remain unstable.
 
-Repair: return to the Thin problem-side action. State the signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, why this is not merely a wish, ticket, slogan, or preselected work request, the improvement check or acceptance probe, and the honest next use. Reopen this aid only for the claim, relation, or boundary that changes that move.
+Repair: return to the exact Thin form in `C.22.2:2.1` and complete only its core items. Reopen this aid only for the claim, relation, or boundary that changes the honest next use.
 
 #### C.22.2:2.4 - Use Boundaries and Record Budgets
 
@@ -132,7 +132,7 @@ Use another pattern directly when the question under repair is already that patt
 
 Use record budgets:
 
-- Thin record budget: signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, not-wish, not-slogan, not-ticket, or not-preselected-work reason, provisional improvement check or acceptance probe, and one honest next use.
+- Thin record budget: signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, exact claim family, not-wish, not-slogan, not-ticket, or not-preselected-work reason, provisional improvement check or acceptance probe, and one honest next use.
 - Standard record budget: Thin fields plus the current comparison, acceptance, risk, validation, freshness, unknown-handling, or P2W-readiness fields needed for downstream use.
 - High-relation record budget: Standard fields plus only the relation references needed when public, disputed, high-risk, set-derived, cross-scheme, cross-use-boundary, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, temporal, causal, representation, or Part-G relations are current.
 
@@ -191,13 +191,13 @@ Anti-pattern checks start from the local card use:
 - card-as-executable-work request: the card is treated as executable work while method, plan, and work occurrence remain undecided;
 - form-completion: every field is filled because the template exists, even though the Thin next use would be truthful;
 - readiness shortcut: `P2W-ready` is declared from signal and scope alone, without improvement check or acceptance probe;
-- source-claim shortcut: a preselected solution, work request, proof-looking reference, gate-looking cue, or authority-looking cue replaces the problem-side signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, acceptance probe, and next use;
+- source-claim shortcut: a preselected solution, work request, proof-looking reference, gate-looking cue, or authority-looking cue replaces one or more core Thin items in `C.22.2:2.1`;
 - scalar shortcut: archive, set-return, Goldilocks, NQD, OEE, partial-order, stepping-stone, or indicator material collapses into one readiness score;
 - prestige shortcut: first-principles or mathematical wording is kept without practical payoff, preserved and lost structure when current, problem-formulation follow-up reason, and stop condition.
 
 Local stop rule: if the encountered material tries to carry a claim outside `C.22.2`, the card keeps only the cue or reference that changes problem formulation or the next use, then names the governing FPF pattern and claim kind named by value to use before that claim is relied on.
 
-A conforming `C.22.2` use is testable against at least one Thin worked slice, such as repeated task rework or another compact problem signal, showing signal, EntityOfConcern, ReferenceScheme, ClaimScope, not-preselected-work reason, improvement check, and next use. It is also testable against at least one High-relation worked slice from a set, archive, pool, front, shortlist, selected set, or portfolio source, showing `sourceSetRef`, candidate acceptance criterion, risk condition, and the claim, relation, or boundary without creating a local portfolio or archive kind.
+A conforming `C.22.2` use is testable against at least one Thin worked slice, such as repeated task rework or another compact problem signal, showing signal, EntityOfConcern, ReferenceScheme, ClaimScope, exact claim family, not-preselected-work reason, improvement check, and honest next use. It is also testable against at least one High-relation worked slice from a set, archive, pool, front, shortlist, selected set, or portfolio source, showing `sourceSetRef`, candidate acceptance criterion, risk condition, and the claim, relation, or boundary without creating a local portfolio or archive kind.
 
 #### C.22.2:2.7 - Conformance Checklist Requirements
 

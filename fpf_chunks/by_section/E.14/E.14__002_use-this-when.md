@@ -6,12 +6,12 @@ section_id: "E.14:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:0 — Use This When"
-line_start: 78705
-line_end: 78716
+line_start: 76002
+line_end: 76013
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -35,7 +35,7 @@ Use this pattern when FPF text needs to stay readable as one human working model
 
 **What this buys.** A working reader sees one small model first, while assurance readers can still recover mapping, logical, constructive, and empirical grounding without forcing that machinery back into the Working-Model vocabulary.
 
-**Ordinary route.** Write the shortest practitioner sentence that names the governed object, the bounded claim, and the use it supports. If no assurance-bearing reliance question is current, let the reader stop there. When such a question is current, place only the needed Mapping, Logical, Constructive, or Empirical support underneath that same sentence and keep every cited value under its subject pattern.
+**Ordinary route.** Write the shortest practitioner sentence that says what the claim is about, what it claims, and what use it supports. If no assurance-bearing reliance question is current, let the reader stop there. When one is current, place only the needed Mapping, Logical, Constructive, or Empirical support underneath that sentence and cite the pattern that defines or tests each supporting claim.
 
-**Not this pattern when.** Do not use E.14 to decide whether a relation obtains, Work occurred, a result was constituted, evidence or assurance passes, a method applies, work is ready, a gate passed, or permission is current. Use the pattern that defines or tests that exact claim. Use E.14 for the human-first publication order and the recoverability of support; it supplies none of those domain results.
+**Not this pattern when.** Do not use E.14 to decide whether a relation obtains, Work occurred, a result was constituted, evidence or assurance passes, a method applies, work is ready, a gate passed, or permission is current. Use the pattern that defines or tests that claim. Use E.14 for the human-first publication order and the recoverability of support; it supplies none of those domain results.
 

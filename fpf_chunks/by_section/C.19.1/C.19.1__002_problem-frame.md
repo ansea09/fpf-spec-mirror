@@ -6,12 +6,12 @@ section_id: "C.19.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:1 — Problem frame"
-line_start: 49698
-line_end: 49701
+line_start: 48488
+line_end: 48493
 dependencies:
   - "A.0"
   - "A.10"
@@ -45,5 +45,7 @@ keywords:
 
 ### C.19.1:1 - Problem frame
 
-Bespoke heuristics can win locally while failing to scale. General solution bearers, including search, learning, planning, platforms, reusable modules, organization forms, and evidence-bearing episteme/work arrangements, can improve with scale and transfer across declared bridges and planes. Without a standing policy, selectors drift toward bespoke local heuristics and single-winner leaderboards, violating parity and admissible order relations.
+Bespoke computational heuristics can win locally while failing to exploit larger compute, data, or search budgets. General methods can improve across a declared scale window, but the empirical record is strongest for computational search, learning, and planning. A module organization, institution, work arrangement, or episteme does not inherit that empirical result by analogy. A project may still adopt a broader policy, but it must state the bearer-specific scale relation and evidence rather than treating all growth, reuse, or generality as one phenomenon.
+
+Without this separation, teams either repeat the Bitter Lesson as a slogan or impose a costly machine-learning experiment recipe on bearers for which seeds, FLOPs, compute slopes, or data sweeps have no meaning.
 

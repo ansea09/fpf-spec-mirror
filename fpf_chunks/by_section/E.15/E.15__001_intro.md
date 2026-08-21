@@ -1,34 +1,42 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.15"
-pattern_title: "Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
+pattern_title: "Pattern Change, Edition Continuity, and Impact Analysis"
 section_id: "E.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
+  - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:intro — Intro"
-line_start: 79055
-line_end: 79058
+line_start: 76352
+line_end: 76361
 dependencies:
-  - "A.10"
-  - "B.3"
-  - "B.4"
   - "C.18"
   - "C.19"
   - "E.10"
+  - "E.19"
+  - "E.21"
+  - "E.22"
+  - "E.23"
+  - "E.24.PUB"
+  - "E.8"
   - "E.9"
+  - "F.0.1"
+  - "F.1"
   - "F.15"
+  - "F.9"
 keywords:
-  - "LAT"
-  - "delta-classes"
-  - "evolution protocol"
-  - "lexical authoring"
 ---
 
-## E.15 - Lexical Authoring & Evolution Protocol  (LEX‑AUTH)
+## E.15 - Pattern Change, Edition Continuity, and Impact Analysis
 
-> *Author patterns as evidence‑bearing epistemes, evolve them via governed open‑ended search, and publish an auditable trace that improves quality—not just compliance.*
+**Pattern type.** Method pattern.
+
+**Status.** Stable.
+
+**Normativity.** Normative unless a passage is marked informative.
+
+> **One-sentence summary.** Compare one exact predecessor pattern edition with its proposed successor, describe the actual change before naming its class, repair only the uses that depend on it, and use a wider search only when a real design choice remains.
 

@@ -1,68 +1,45 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3"
-pattern_title: "Trust and Assurance Calculus (F-G-R with Congruence)"
+pattern_title: "Trust and Assurance Calculus"
 section_id: "B.3:6.5"
-section_title: "Bias-Annotation"
+section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__008_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
-  - "B.3:6.5 — Bias-Annotation"
-line_start: 38961
-line_end: 38964
+  - "B.3 — Trust and Assurance Calculus"
+  - "B.3:6.5 — Bias annotation"
+line_start: 37822
+line_end: 37831
 dependencies:
   - "A.10"
-  - "A.15"
   - "A.15.1"
-  - "A.15.PROD"
   - "A.2.4"
   - "A.2.6"
-  - "A.20"
   - "A.21"
-  - "A.6"
+  - "A.22"
   - "A.6.1"
-  - "B.1"
-  - "B.1.1"
-  - "B.3"
-  - "B.3.5"
-  - "B.4"
-  - "C.13"
   - "C.16"
   - "C.16.Q"
   - "C.2.1"
-  - "C.26"
-  - "C.26.1"
-  - "C.26.2"
-  - "C.26.3"
   - "C.28"
   - "C.29"
-  - "D.4"
-  - "E.14"
   - "E.17"
-  - "E.17.EFP"
   - "E.24.PUB"
   - "F.10"
-  - "F.9"
   - "G.11"
   - "G.6"
 keywords:
-  - "F-G-R"
-  - "assurance"
-  - "authority-looking labels"
-  - "claim-support posture"
-  - "congruence"
-  - "dashboard tiles"
-  - "evidence"
-  - "formality"
-  - "probe/distributed/export/causal assurance"
-  - "reliability"
-  - "scope"
-  - "trust"
 ---
 
-### B.3:6.5 - Bias-Annotation
+### B.3:6.5 - Bias annotation
 
-B.3 deliberately biases assurance toward conservative aggregation and explicit reliance use. This prevents dashboards, labels, badges, credentials, model cards, provenance marks, or generated confidence phrases from raising trust by appearance. The cost is that assurance claims need typed evidence, scope, limitations, decay, and contestability when they are used for readiness, safety, compliance, release confidence, or other material reliance.
+| Risk | Countermeasure |
+| --- | --- |
+| Formal prestige | Ask what uncertainty or verification need the formalization closes. |
+| One-number preference | Keep unlike characteristics separate unless an applicable model combines them. |
+| Visible-authority bias | Resolve the exact claim and property established by the artifact. |
+| Record completion bias | Add only fields the named use consumes. |
+| Consequence inflation | Use direct domain rules; consequence alone creates no assurance claim. |
 

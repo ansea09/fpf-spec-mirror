@@ -6,12 +6,12 @@ section_id: "C.22:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:0 — Use This When"
-line_start: 50606
-line_end: 50615
+line_start: 49411
+line_end: 49420
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -23,6 +23,7 @@ dependencies:
   - "C.32.P2S"
   - "E.10"
   - "E.18"
+  - "F.9"
   - "G.0"
   - "G.4"
   - "G.5"
@@ -35,7 +36,7 @@ Use this pattern when one stabilized problem-side episteme must be related to a 
 
 The working moment often sounds like this: "We are about to compare possible ways of doing, but which facts about this problem make a method family eligible, comparable, or unacceptable for this use?" Construct the smallest A.6.0 TaskSignature that a later selector can consume without selecting a method in advance, then assign it to the exact problem-side episteme and receiving use. If problem framing remains contested or stale, use `C.22.2`. If a sufficient signature and assignment already exist and the current question is selection, use `G.5`. If a method is selected and dated enactment is being prepared, use `A.15.2`.
 
-**What goes wrong if missed.** A problem remains a paragraph: selector inputs drift, ordinals and units get mixed, unknowns are coerced, acceptance thresholds leak into CHR fields, and reuse happens by name rather than through exact scheme, scope, currentness, and any required Bridge.
+**What goes wrong if missed.** A problem remains a paragraph: selector inputs drift, ordinals and units get mixed, unknowns are coerced, acceptance thresholds leak into CHR fields, and reuse proceeds from a shared name, scheme, plane, or package instead of two exact local senses, a tested F.9 relation, and a separate claim about the proposed use.
 
-**What this buys.** The downstream selection question gets one separately constituted TaskSignature with typed vocabulary, laws, applicability, unknown handling, evidence relations, ClaimScope, freshness, and crossing conditions visible before any method family is admitted or compared. Its assignment is replayable while publication and serialization can vary without changing the signature.
+**What this buys.** The downstream selection question gets one separately constituted TaskSignature with typed vocabulary, laws, applicability, unknown handling, and ClaimScope. Evidence, freshness, and cross-semantic relations are added only when that receiving use actually needs them. Its assignment is replayable while publication and serialization can vary without changing the signature.
 

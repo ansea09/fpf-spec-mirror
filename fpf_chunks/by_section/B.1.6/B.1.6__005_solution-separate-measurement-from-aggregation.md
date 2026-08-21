@@ -6,12 +6,12 @@ section_id: "B.1.6:2"
 section_title: "Solution — separate measurement from aggregation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_solution-separate-measurement-from-aggregation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:2 — Solution — separate measurement from aggregation"
-line_start: 36800
-line_end: 36862
+line_start: 35969
+line_end: 36031
 dependencies:
   - "A.1"
   - "A.10"
@@ -107,7 +107,7 @@ A ledger, dashboard, policy, profile, clause, citation, or graph edge may repres
 | Dated aggregation work, performer, method enactment, and actual inputs | `A.15.1` and `A.6.1` |
 | Work temporal part, episode, operational part, partition, overlap, retry, resumption, or later occurrence | `A.15.1` and the exact Work relation pattern; use `B.1.4` only to aggregate already recovered temporal relations |
 | Proper temporal restriction of another enduring carrier | that carrier's direct identity pattern plus `A.14` `PhaseOf`; never a substitute for Work relations |
-| Overlap, shared-stock, boundary, and deduplication facts | exact stock, resource-use, boundary, work-overlap, or accounting relation pattern |
+| Overlap, shared-stock, boundary, and deduplication facts | C.27.TA for interval overlap; the exact stock, resource-use, boundary, or accounting relation pattern for the other fact |
 | Aggregation policy and typed aggregation result | `B.1.6` |
 | Measurement-result and aggregation-result epistemes | `C.2.1`; A.15.PROD only when their inception through work matters |
 | Source recovery and provenance | `A.10` and `G.6`; `E.17` for publication |

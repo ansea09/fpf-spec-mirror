@@ -6,12 +6,12 @@ section_id: "B.2.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:0 — Use This When"
-line_start: 38008
-line_end: 38027
+line_start: 37179
+line_end: 37198
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,9 +37,9 @@ keywords:
 
 ### B.2.4:0 - Use This When
 
-Use this pattern when exact capability, functioning, or transformation-flow facts, already established under their direct owners, make a B.2 whole-reidentification question live.
+Use this pattern when exact capability, functioning, or transformation-flow facts, already established under their subject patterns, make a B.2 whole-reidentification question live.
 
-The first useful question is whether those facts can still be explained by the existing whole. If they can, keep that whole and use the direct capability, functioning, transformation, method, work, module, characteristic, or architecture owner. If they cannot, return the residual question to B.2. Evidence and measurement separately support, challenge, or leave unresolved the claims about those facts; they create neither the facts nor B.2 selection.
+The first useful question is whether those facts can still be explained by the existing whole. If they can, keep that whole and use the direct pattern for the capability, functioning relation, transformation, Method, Work, module, characteristic, or architecture claim. If they cannot, use B.2 for the residual question. Evidence and measurement separately support, challenge, or leave unresolved the claims about those facts; they create neither the facts nor B.2 selection.
 
 **What goes wrong if missed.** A genuine new whole is hidden under ordinary capability improvement; or every impressive capability, function, method chain, module allocation, or metric gain is overclaimed as emergence.
 
@@ -51,7 +51,7 @@ The first useful question is whether those facts can still be explained by the e
 - If the claim is function-like wording or functioning relation without whole reidentification, use `A.6.F`.
 - If the claim is transformation or transformation-flow structure, use `A.3.4`, `E.18`, and `C.30.TFS-REL`.
 - If the claim is method, method relation, method description, work plan, or work occurrence, use `A.15`, `A.3.1`, `A.3.2`, `A.15.2`, and `A.15.1`.
-- If the claim is module allocation or bearer allocation, use `A.6.M` and architecture owners.
-- If the claim is measurement, threshold, score, robustness, quality, or whole-level characteristic, use `C.16`, `A.19`, and evidence owners.
+- If the claim is module allocation or bearer allocation, use `A.6.M`, `C.30`, `A.22`, and `C.30.ASV` according to whether the live claim concerns the module, architecture, selected structure, or architectural structural view.
+- If the claim is measurement, threshold, score, robustness, quality, or a whole-level characteristic, use `C.16` and `A.19` for that claim and `A.10` only when evidence use is current.
 - If the wording is ambiguous emergence, synergy, or title-mnemonic language, use `B.2.P` before selecting B.2.4.
 

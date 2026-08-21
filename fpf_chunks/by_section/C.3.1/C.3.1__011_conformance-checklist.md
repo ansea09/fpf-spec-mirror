@@ -6,12 +6,12 @@ section_id: "C.3.1:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__011_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:9 — Conformance Checklist"
-line_start: 44797
-line_end: 44811
+line_start: 43589
+line_end: 43603
 dependencies:
   - "A.1"
   - "A.11"
@@ -46,14 +46,14 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-C31-1` | Each local `U.Kind` names its explicit practice or source boundary and stable subject distinction. Each `U.SubkindOf` obtaining claim names the exact effective reference-scheme edition and aligned signatures used to interpret the order; cross-local use goes through C.3.3. |
-| `CC-C31-2` | `U.SubkindOf` is an admitted direct relation kind with narrower-kind and broader-kind participants, a recoverable obtaining predicate and applicability, and participant-plus-reference-scheme occurrence identity. |
-| `CC-C31-2a` | A predicate expression, C.2.1 assertion episteme, evidence item, representation edge, and optional `R_sub` occurrence designator are kept distinct; none makes the relation obtain. |
-| `CC-C31-2b` | Reflexivity, transitivity, and antisymmetry constrain obtaining relation facts and are not overloaded with dependency, construction, system-role assignment, declaration-slot, or admission relations. |
-| `CC-C31-3` | The judgment-level monotonicity implication is checked for the same candidate and slice under explicit compatible signature editions; `unknown` neither refutes nor establishes the universal relation predicate. |
-| `CC-C31-4` | A monotonicity counterexample diagnoses a non-obtaining link, incompatible editions, or missing bridge; no extension row is silently changed. |
-| `CC-C31-5` | Signature-edition identity and kind continuity are decided separately, and old judgments retain their cited edition. |
-| `CC-C31-6` | Candidate-state or slice-driven extension change does not by itself change the signature, kind, or a still-obtaining subkind relation. |
-| `CC-C31-7` | Scope is absent from the kind; a context slice is an evaluation input rather than a third subkind participant; durable public U-kind admission remains with `E.24.UK`. |
-| `CC-C31-8` | `U.Work`, one `W : U.Work`, and any episteme about W remain distinct in every typed example. |
+| `CC-C31-1` | Each `U.Kind` individual has a recoverable candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. Practice/source provenance is a comparison cue, not an automatic identity discriminator. |
+| `CC-C31-2` | `U.SubkindOf` cites `E24UK-AR-USUBKINDOF-R5-01`, has exact ordered kind participants, declared applicability, one valid obtaining branch, and participant-determined occurrence identity. |
+| `CC-C31-2a` | Predicate content, C.2.1 assertion, evidence item, representation edge, scheme and signature editions, and optional occurrence designator remain distinct; none makes the relation obtain by form. |
+| `CC-C31-2b` | Obtaining facts form a preorder. Mutual facts between distinct kinds record classification equivalence for the alignment; a partial order is formed only over equivalence groups when needed. |
+| `CC-C31-3` | Criterion entailment compares exact membership rules under aligned interpretation, or exhaustive evaluation covers a deliberately closed finite domain. Non-exhaustive observations support only the assertion. |
+| `CC-C31-4` | Only candidates admissible under both declarations enter the comparison. `unknown` neither establishes nor refutes a universal proposal; `not-applicable` forms no judgment. |
+| `CC-C31-5` | Reference schemes and declaration editions qualify interpretation, applicability, and assertions but do not identify the relation occurrence. An aligned edition change triggers reevaluation of the same participant-determined relation. |
+| `CC-C31-6` | Kind continuity uses before/after candidate-domain, membership-discriminator, member/non-member probes, and receiving-use tests; old judgments retain their cited edition. |
+| `CC-C31-7` | A locality change prompts the continuity test; C.3.3 is used only after two distinct kinds and a correspondence proposal exist. |
+| `CC-C31-8` | Scope is absent from the kind, and `U.Work`, one `W : U.Work`, and any episteme about W remain distinct. |
 

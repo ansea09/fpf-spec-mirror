@@ -6,13 +6,14 @@ section_id: "C.25:19"
 section_title: "Gate, Proxy, and Reporting Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__020_gate-proxy-and-reporting-discipline.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:19 — Gate, Proxy, and Reporting Discipline"
-line_start: 53037
-line_end: 53047
+line_start: 51814
+line_end: 51824
 dependencies:
+  - "A.10"
   - "A.15"
   - "A.16.0"
   - "A.18"
@@ -48,11 +49,11 @@ keywords:
 ### C.25:19 - Gate, Proxy, and Reporting Discipline
 
 #### C.25:19.1 - Report-only summary proxy
-A context may publish a summary proxy for reporting convenience, but the proxy remains secondary to the Q-Bundle. The proxy should state what it summarizes and what it leaves out. No report-only proxy may replace the bundle in norms, gates, or endpoint ontology.
+A summary proxy remains a separate downstream claim. It identifies the source quality-claim episteme or exact `ClaimAddress`, states what it summarizes and omits, and never replaces that source in a norm, gate, or endpoint classification.
 
 #### C.25:19.2 - Gate binding rule
-When a gate uses a quality family, the gate should bind to explicit bundle slots: declared scope, specific measures, qualification window, and any required mechanism or status slots. Gate authors should not rely on the family label alone, because labels invite different local decompositions.
+When a gate uses a quality family, its decision claim cites the exact quality-claim episteme or addressed claims and names only the bundle slots on which the decision relies: for example declared scope, specific measures, a qualification window, or required mechanisms or statuses. The gate does not bind to a family label or raw record, and `C.25` does not define the gate decision.
 
 #### C.25:19.3 - Roll-up caution
-A summary publication or review may aggregate several bundle instances, but the roll-up must remain visibly downstream from the underlying bundle structure. If the roll-up begins to drive local engineering decisions directly, the governing bundle slots should be made explicit again rather than hiding them behind one summary score.
+A roll-up is another claim-bearing episteme. It cites the exact source epistemes or ClaimAddresses being combined, states the admissible aggregation or summary rule, and remains distinct from them. If the roll-up begins to drive local engineering action directly, reopen the source claims and the exact Q-Bundle slots on which that action relies instead of treating the summary score as the bearer or bundle.
 

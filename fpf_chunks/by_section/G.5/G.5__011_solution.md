@@ -6,12 +6,12 @@ section_id: "G.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__011_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:4 — Solution"
-line_start: 100885
-line_end: 101411
+line_start: 98096
+line_end: 98626
 dependencies:
   - "C.11"
   - "C.18"
@@ -56,19 +56,16 @@ keywords:
 ### G.5:4 - Solution
 #### G.5:4.6a - Causal method dispatch declarations
 
-Method selection involving causal methods must declare whether a compared method is an observational predictor, an intervention optimizer, a counterfactual strategy, a causal fairness estimator, a causal-RL policy, or a simulation-only method.
-
-Optional `MethodFamily.causalUseDispatchSpec?`:
+When method dispatch compares causal uses, each compared Method declares its causal question/rung and whether it is being used as an observational predictor, intervention optimizer, counterfactual strategy, causal fairness estimator, causal-RL policy, or simulation-only Method.
 
 ```text
-MethodFamily.causalUseDispatchSpec? {
+MethodFamily.causalUseDispatchSpec?:
   causalUseQuestionRef?: CausalUseQuestionRef
   targetCausalityLadderRung: CausalityLadderRung
   causalUseClaimKind: CausalUseClaimKind
   causalActionPolicyClass?: CausalActionPolicyClass
-  causalEvidenceSupportBasis?: CausalEvidenceSupportBasis
-  causalUseSupportRecordRef?: CausalUseSupportRecordRef
-  causalUseSupportVerdict?: CausalUseSupportVerdict
+  causalSupportComponentRefs?: CausalSupportComponentRefs
+  causalUseSupportResultRef?: CausalUseSupportResultRef
   causalMethodUseClassification:
     observationalPredictor |
     interventionOptimizer |
@@ -76,18 +73,13 @@ MethodFamily.causalUseDispatchSpec? {
     causalFairnessEstimator |
     causalRLPolicy |
     simulationOnlyMethod
-  supportedUse: CausalUseSupportStatement
-  unsupportedUse: CausalUseUnsupportedStatement
-}
+  supportedUse
+  unsupportedUse
 ```
 
-`CausalUseQuestionRef` is a local reference to the causal-use question governed by the causal, evidence, intervention, or simulation pattern current for the case. It is not admitted here as a durable root U-kind.
+`CausalUseQuestionRef` identifies the question content used by C.28; it is not a durable root U-kind. `causalMethodUseClassification` describes the Method's proposed selector-facing use and supplies no system-role assignment, responsibility, authority, or causal certification.
 
-`causalMethodUseClassification` classifies a Method's proposed selector-facing use. It is not a local system-role kind or C.3.2 classification, identifies no `U.SystemRoleAssignment` occurrence, does not designate the System that performs selection Work, and supplies no responsibility or authority relation. `simulationOnlyMethod` maps to `CausalEvidenceSupportBasis = simulationOnlyCounterfactualOutputBasis`, bounded simulation-supported use, and unsupported intervention-effect or realized-counterfactual-sample use unless another `C.28` support basis is cited.
-
-What changes in practice: a selector must not compare "methods that improve outcome" unless each causal method declares the causality-ladder rung, causal method-use classification, and `C.28` support record and verdict when causal-use support is being consumed.
-
-Do not use `G.5` for causal-use support. This excludes, for example, identifying causal effects, deciding fairness, certifying off-policy causal evaluation, or comparing cross-rung causal methods as one undifferentiated improvement set. Use `G.5` for method dispatch and selector-facing result declaration and `C.28` for causal-use support.
+A simulation-only Method cites `simulationResultRef` inside its support components and states bounded model use plus unsupported realized/interventional use. G.5 declares the dispatch result; C.28 supplies the causal-support result. A selector may still abstain even when a C.28 result is supported.
 
 #### G.5:4.1 - G.Core linkage (normative)
 
@@ -108,12 +100,13 @@ Effective obligations, pins, and triggers are computed by union expansion of the
   * `GCorePinSetId.PartG.CrossingVisibilityPins` *(crossing‑aware use; pins from this set may be intentionally strengthened (optional→required) via `CorePinsRequired`)*
 * `CorePinsRequired :=` *(delta over PinSets; pins and refs are id-only; prefer strengthening optional-to-required over restating pins already covered by PinSets)*
 
-  * `TaskSignatureRef` *(see `G.5:4.2`, S2)*
-  * `MethodFamilyId[]` *(registry keys in scope)*
+  * `TaskSignatureRef` *(the C.22 TaskSignature edition; see `G.5:4.2`, S2)*
+  * `TaskMapRef?` *(exact G.4 map edition, only when this selection uses G.4 CAL gates)*
+  * `MethodFamilyRowRef[]` *(exact `<MethodFamilyId, rowEdition>` values in scope)*
   * `MethodRef[]` *(exact A.3.1 Methods resolved from every method-bearing registry row in scope)*
   * `SelectedStructureRef[]?` *(exact independently selected A.22 Structures consumed only when their organization changes this selector use)*
 
-  * `GeneratorFamilyId[]?` *(when generator families are in scope)*
+  * `GeneratorFamilyRowRef[]?` *(exact `<GeneratorFamilyId, rowEdition>` values when generator families are in scope)*
   * `PathId[]` *(audit citations for “why” and for evidence)*
   * `PathSliceId[]` *(audit citations for “why” and for evidence)*
   * `UTSRowId[]` *(published identities for selected families, registered families, and selector policy records)*
@@ -127,7 +120,7 @@ Effective obligations, pins, and triggers are computed by union expansion of the
 * `RSCRTriggerSetIds :=`
 
   * `GCoreTriggerSetId.RefreshOrchestration`
-    *(payload pins: `TaskSignatureRef`, `CGSpecRef.edition`, `CNSpecRef.edition`, `MethodFamilyId[]`, `GeneratorFamilyId[]?`, `AcceptanceClauseId[]?`, `SoSLogBranchId?`, `FailureBehaviorPolicyId?`, `DescriptorMapRef.edition?`, `DistanceDefRef.edition?`, `TransferRulesRef.edition?`, `InsertionPolicyRef?`, `PathId`, `PathSliceId`, `SCRId`, `DRRId`, `RSCRTestId[]`)*
+    *(payload pins: `TaskSignatureRef`, `TaskMapRef?`, `CGSpecRef.edition`, `CNSpecRef.edition`, `MethodFamilyRowRef[]`, `GeneratorFamilyRowRef[]?`, `AcceptanceClauseId[]?`, `SoSLogBranchId?`, `FailureBehaviorPolicyId?`, `DescriptorMapRef.edition?`, `DistanceDefRef.edition?`, `TransferRulesRef.edition?`, `InsertionPolicyRef?`, `PathId`, `PathSliceId`, `SCRId`, `DRRId`, `RSCRTestId[]`)*
 
 #### G.5:4.2 - Dispatcher and Registry object set (notation‑independent)
 
@@ -136,46 +129,57 @@ G.5 defines the **object-set components** below. Their purpose is to make dispat
 **S1 — `MethodFamily Registry` (design‑time; per CG‑Frame).**
 A registry row represents *a family*, not a single implementation. Minimal fields (conceptual, notationally independent):
 
-* `Identity`: `MethodFamilyId`, `ContextId`, lineage and Tradition notes, `UTSRowId` (twin labels where applicable).
+* `Identity and continuity`: `MethodFamilyId` names the continuing row lineage; `rowEdition` names one immutable edition; `MethodFamilyRowRef := <MethodFamilyId, rowEdition>` designates that edition. Lineage and Tradition notes and `UTSRowId` remain descriptive or publication values.
 * `Exact method members`: non-empty `MethodRef[]`, each resolving to one `U.Method` already admitted under A.3.1.
 * `Grouping basis`: exact claim, criterion, or direct relation reference that justifies this row's grouping for the current selector use; if no ontic family or membership relation is directly governed, the basis is explicitly project-local and creates none.
+
+One exact row edition fixes its method members, grouping basis, and every selection-changing pin. Changing any of those values creates a new `rowEdition`; retain the `MethodFamilyId` only while the declared grouping remains the same continuing row lineage. Old `MethodFamilyRowRef` values continue to resolve their old editions. Add task, eligibility, policy, scheme, source, `ClaimScope`, validity, or intended-use pins only when they change selection or a named receiver needs them; none replaces the members or grouping basis.
 
 * `EligibilityStandardRef`: a typed predicate record (tri‑state per `G.Core`), expressed in CHR and CAL terms and pinned to the relevant editions.
 * `AssuranceProfileRef`: evidence‑lane expectations and assurance-lane pins (SCR‑addressable).
 * `AdmissibilityBindings`: explicit references to the **single** governance card and admissibility gate (`CNSpecRef`, `CGSpecRef`) and to any required admissibility constraints, for example scale and unit admissibility via CSLC.
 * `EvidencePins`: citations to `G.6` (`PathId`, `PathSliceId`) for claims or guarantees where such claims are asserted.
-* `CrossingAllowance`: references to the exact F.17 endpoint senses, one obtaining F.9 Bridge, the separate C.2.1 bounded-use proposition, and the current A.10 or B.3 reliance basis, plus CL or observed-loss evidence when material, **only** if cross-semantic-context operation is claimed. These are audit references; the field makes none of the referenced facts obtain.
+* `CrossingAllowance`: references to the exact F.17 endpoint senses, one obtaining F.9 Bridge, the separate C.2.1 bounded-use proposition, and the current A.10 or B.3 reliance basis, plus CL or observed-loss evidence when material, **only** when expressions with distinct recovered source-local meanings are actually related for this selector use. These are audit references; the field makes none of the referenced facts obtain.
 
 For an actual crossing, first resolve both exact F.17 `SchemeSenseCell` endpoints and establish the two-participant F.9 Bridge under its own predicate profile. Then identify a separate C.2.1 episteme whose exact `EntityOfConcern` is that Bridge and whose ClaimGraph states the proposed use `u`, direction `d`, use-specific rule `r`, tolerated loss `t`, and polarity. For ordinary reliance require the matching current A.10 evidence-provenance relation and local `RelianceDisposition`; when an assurance claim or B.3 material-reliance threshold is current, use B.3's separate assurance branch instead. Observed loss and CL are evidence, defeater or assurance-policy material, not Bridge participants or permission. Authorization and the actual `Select` application remain with their subject patterns. A Bridge id, `CrossingAllowance`, registry row, policy pin, `CrossingBundle`, DRR or SCR entry cannot substitute for any step.
 
 * `PolicyHooksRef?`: optional pointers to policy records (not defined here; wired via Extensions).
 
-Here “a registry row represents a family” means that the row is the auditable selector-facing record for one declared grouping. It does not identify the grouped Methods, make a membership relation obtain, or turn a common label, shared description, lineage note, eligibility rule, maturity card, evidence record, or policy into a method-family fact. Changing a row or its `MethodFamilyId` changes the registry artifact; it changes a Method or a separately governed family relation only when that object's direct identity or obtaining rule independently says so.
+Here “a registry row represents a family” means that the row is the auditable selector-facing record for one declared grouping. The family id preserves that row lineage; the row ref selects one immutable edition for replay. Neither value identifies the grouped Methods, makes a membership relation obtain, or turns a common label, shared description, lineage note, eligibility rule, maturity card, evidence record, or policy into a method-family fact. Changing a row edition changes the registry artifact; it changes a Method or a separate family relation only when that object's direct identity rule or the relation's predicate independently says so.
 
 
 **S1′ — `GeneratorFamily Registry` (design‑time; optional; per CG‑Frame).**
 A registry row for families that generate tasks and environments, and may co-evolve solver families. G.5 carries the registry-entry shape, not the generator semantics:
 
-* `Identity`: `GeneratorFamilyId`, `ContextId`, `UTSRowId`.
+* `Identity and continuity`: `GeneratorFamilyId` names the continuing row lineage; `rowEdition` names one immutable edition; `GeneratorFamilyRowRef := <GeneratorFamilyId, rowEdition>` designates that edition. `UTSRowId` remains its publication value.
+* `Exact generator members`: non-empty references, each resolving to a generator already identified under its subject pattern.
+* `Grouping basis`: the independently established classification, membership relation, or explicit project-local criterion that groups those generators for this selector.
 * `GeneratorSignatureRef`: conceptual input and output semantics plus budget semantics.
 * `EnvironmentValidityRegionRef?`: pinned constraints for generated environments or tasks.
 * `TransferRulesRef.edition?`: required when the Open-Ended mode is enabled (semantics come from the cited extension refs).
-* `CouplerRefs?`: which `MethodFamilyId[]` can be coupled with this generator family.
+* `CouplerRefs?`: exact `MethodFamilyRowRef[]` values that may be coupled with this generator-row edition.
 
-**S2 — `TaskSignature` record (design‑time and run‑time).**
-A minimal typed record the dispatcher consumes. Its function is **pinning and auditability**, not over-specification. It must be CHR and CAL typed and provenance-aware.
-G.5 treats `TaskSignatureRef` as an input record; it does not define CHR or CAL semantics.
+Changing generator members, grouping basis, or another selection-changing pin creates a new generator `rowEdition`; old `GeneratorFamilyRowRef` values continue to resolve their old editions.
+
+**S2 — C.22 `TaskSignature` input and conditional G.4 map.**
+C.22 constitutes the `TaskSignature` episteme and defines its edition rule. G.5 consumes its `TaskSignatureRef` and does not reconstruct it from a task, CAL pack, or map. Its function here is pinning and auditability, not over-specification.
+
+When this selector actually uses G.4 CAL gates, it also consumes one exact `TaskMapRef`. Resolve that immutable map edition, require its `taskSignatureRef` to equal the C.22 `TaskSignatureRef` supplied to this selector, and follow its exact `CALCharterRef` and edition-bearing clause, operator, flow, and evidence-profile refs. The map supplies no TaskSignature field and no threshold value. If no G.4 gate is current, omit `TaskMapRef`; an ordinary selector does not need a CAL pack merely to return a truthful bounded result.
+
+For the G.4 safety example, G.5 receives `TaskSignatureRef=SafetyPortfolioTaskSignature-E4` and `TaskMapRef=<SafetySelectionMap, E3>`. The map resolves `CALCharterRef=<SafetyCALCharter, E2>` and the cited gate declarations. A different signature ref or an unresolved charter or component blocks only that gated selector use.
 
 **S3 — `Selection kernel boundary` (run‑time; policy‑governed).**
 A notation‑independent selector that:
 
-* consumes `TaskSignatureRef`, registry entries, and pinned spec refs,
+* consumes `TaskSignatureRef`, exact method- or generator-family row refs, pinned spec refs, and an exact matching `TaskMapRef` only when G.4 CAL gates are current,
 * applies eligibility and assurance gating (tri-state),
 * computes an admissible (possibly partial) order,
 * returns one declared selector outcome over the exact Method candidates admitted through this kernel: most often `Shortlist` or `RankedShortlist`, and `JointUseSet` only when every returned Method candidate is included for one named use; otherwise it returns one `SpecialistHandoff`, one other narrowed handoff, one abstain outcome, or one escalation outcome (per `DefaultId.PortfolioMode` and explicit overrides),
 * emits audit records with pins addressable by DRR and SCR records.
 
-For every `MethodFamilyId` consumed here, dereference the row to its exact A.3.1 `MethodRef[]` and grouping basis before admitting the candidate. The selector may compare or return registry rows as auditable selector-facing addresses, but row selection neither creates its Methods nor proves that every listed Method belongs, is admissible, is selected, or will be enacted. An unresolved Method reference or missing grouping basis blocks that row's method-bearing use; it is not repaired by a label, description, UTS identity, policy, or evidence pin.
+When `TaskMapRef` is present, resolve its exact immutable G.4 map edition before applying any cited gate. Its `taskSignatureRef` must match this selector's C.22 `TaskSignatureRef`; its `CALCharterRef` must recover the CG frame, EntityOfConcern, ReferencePlane, specification editions, and assumption envelope; and each cited clause, operator, flow, and evidence profile must resolve at its exact edition. Carry the exact map ref among the result basis and refresh pins. Do not copy thresholds or acceptance semantics into G.5.
+
+For every `MethodFamilyRowRef` consumed here, resolve the exact immutable row edition and then its A.3.1 `MethodRef[]`, grouping basis, and selection-changing pins before admitting the candidate. Apply the same rule to `GeneratorFamilyRowRef`. The selector may compare or return exact row refs as auditable selector-facing addresses, but row selection neither creates its members nor proves that every listed member belongs, is admissible, is selected, or will be enacted. An unresolved Method reference or missing grouping basis blocks that row's method-bearing use; it is not repaired by a label, description, UTS identity, policy, or evidence pin.
 
 When a selector consumes an organization among Methods, cite an exact `SelectedStructureRef` only after A.22 has independently identified the `U.Structure` from exact constituents, exact already-obtaining relation occurrences, applied constraints, and one named use frame. G.5 neither supplies those discriminators nor selects the Structure by listing it. If the organization instead constitutes one composite Method, consume the exact A.3.1 Method only after B.1.5 has qualified that candidate from its independent parts and whole-forming basis.
 
@@ -230,9 +234,9 @@ Method- and generator-specific pressures such as `QD` archives, open-ended decla
 
 | Selector relation                 | Consumes                                                                                                                                                     | Produces                                                                                                                                                                                                                                                   |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **G.5-1 RegisterFamily**          | `SoTA` family card (from `G.2`), non-empty exact already admitted A.3.1 `MethodRef[]`, exact independently governed classification or membership-relation ref or explicit project-local grouping criterion, CHR and CAL pins (from `G.3` and `G.4`), `CNSpecRef.edition`, `CGSpecRef.edition`, `ContextId` | A `MethodFamily` registry row (`MethodFamilyId`, `MethodRef[]`, `GroupingBasisRefOrCriterion`, `EligibilityStandardRef`, `AssuranceProfileRef`, `UTSRowId`, pinned refs). The G.2 card and CHR/CAL/spec/context pins are metadata or evidence inputs and cannot supply either the exact Methods or the grouping fact. |
-| **G.5-2 RegisterGeneratorFamily** | `SoTA` generator family cards (from `G.2`), `ContextId`, pinned refs (including `TransferRulesRef.edition` when applicable)                                  | A `GeneratorFamily` registry row (`GeneratorFamilyId`, `GeneratorSignatureRef`, `UTSRowId`, pinned refs)                                                                                                                                                   |
-| **G.5-3 Select**                  | `TaskSignatureRef`, `MethodFamilyId[]` in scope whose rows dereference to non-empty exact A.3.1 `MethodRef[]` and exact grouping bases, pinned `CNSpecRef` and `CGSpecRef` editions, policy refs if any, audit citation pins (`PathId` and `PathSliceId`) | `CandidateSet` (set-returning), declared selector result with `PortfolioMode` recorded, `DRR` and `SCR` pins; if no admissible candidate exists: return `CandidateSet = EMPTY` plus an escalation hint (`ActionHint`) and the pins required to plan next steps (P2W split applies) |
+| **G.5-1 RegisterFamily**          | one continuing `MethodFamilyId`; non-empty already admitted A.3.1 `MethodRef[]`; a reference to one independently established classification or membership relation, or an explicit project-local grouping criterion; new immutable row edition; CHR and CAL pins (from `G.3` and `G.4`); `CNSpecRef.edition`; `CGSpecRef.edition`; optional G.2 family card; and task, scheme, source, `ClaimScope`, validity, or intended-use pins only when they change this selection | One immutable `MethodFamily` registry row and its `MethodFamilyRowRef = <MethodFamilyId, rowEdition>`, fixing `MethodRef[]`, `GroupingBasisRefOrCriterion`, `EligibilityStandardRef`, `AssuranceProfileRef`, `UTSRowId`, and the applicable pinned refs. The G.2 card and the CHR, CAL, specification, and use pins are metadata or evidence inputs and cannot supply either the Methods or the grouping fact. |
+| **G.5-2 RegisterGeneratorFamily** | one continuing `GeneratorFamilyId`; non-empty exact generator refs resolved under their subject patterns; exact independently established classification, membership relation, or explicit project-local grouping criterion; new immutable row edition; optional G.2 generator-family cards; and pinned refs, including `TransferRulesRef.edition` when applicable and separate task, scheme, source, `ClaimScope`, validity, or intended-use pins when action-changing | One immutable `GeneratorFamily` registry row and its `GeneratorFamilyRowRef = <GeneratorFamilyId, rowEdition>`, fixing the generator refs, grouping basis, `GeneratorSignatureRef`, `UTSRowId`, and applicable pinned refs. Cards, labels, policies, and pins create neither a generator nor its family membership. |
+| **G.5-3 Select**                  | `TaskSignatureRef`; exact matching `TaskMapRef` when G.4 CAL gates are current; exact `MethodFamilyRowRef[]` in scope whose immutable editions resolve to non-empty exact A.3.1 `MethodRef[]` and exact grouping bases; optional exact `GeneratorFamilyRowRef[]`; pinned `CNSpecRef` and `CGSpecRef` editions; policy refs if any; audit citation pins (`PathId` and `PathSliceId`) | `CandidateSet` (set-returning), declared selector result with `PortfolioMode` recorded, exact row refs and any current `TaskMapRef` among the result basis pins, and `DRR` and `SCR` pins; if no admissible candidate exists: return `CandidateSet = EMPTY` plus an escalation hint (`ActionHint`) and the pins required to plan next steps (P2W split applies) |
 | **G.5-4 Compose**                 | `CandidateSet`, composition template refs, pinned admissibility constraints                                                                                       | Composite strategy template (template-level; admissibility-checked; pinned)                                                                                                                                                                                      |
 | **G.5-5 Telemetry**               | run outcomes, citations, and policy or edition pins                                                                                                               | refresh cues (typed RSCR causes and payload pins), parity deltas (if parity harness is in use), telemetry pins (selector-side; orchestration governing definition is `G.11`)                                                                                              |
 | **G.5-6 DeclareSetResult**        | one exact `SetResultFamily`; exact already identified `memberRef[]`; `namedUse` for `JointUseSet`; ordering; inclusion or selection conditions; and sufficient `basisPins` to the already current choice, pool treatment, accepted decision, or other governed inclusion basis | one `SelectorOutcome` with `SelectorOutcomeKind = SetResultOutcome` and the exact membership form required by that family. For `JointUseSet`, it emits keyed unique `memberEntries`, `ordering = unordered`, the named use, inclusion conditions, and basis pins without a method-family row or `Select` pass. |
@@ -516,7 +520,7 @@ All blocks below are extension declarations: they declare `Uses` and required pi
   * `DistanceDefRef.edition`
   * `InsertionPolicyRef`
   * `TaskSignatureRef` *(when QD is enabled via TaskSignature flags or traits)*
-  * `DHCMethodRef.edition?` *(when diversity and coverage telemetry is pinned to a DHC method)*
+  * active fields from C.21's DHC replay basis *(only when this telemetry consumes a C.21 DHC coordinate; carry exactly the fields that coordinate used)*
 * `RSCRTriggerKindIds`: `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.FreshnessOrDecayEvent}`
 * `Notes (extension discipline; semantics cited):`
 
@@ -533,7 +537,7 @@ All blocks below are extension declarations: they declare `Uses` and required pi
 * `⊑` and `⊑⁺`: `∅`
 * Required pins, edition pins, and policy pins (minimum):
 
-  * `GeneratorFamilyId[]`
+  * `GeneratorFamilyRowRef[]`
   * `TransferRulesRef.edition` *(mandatory when Open‑Ended is enabled)*
   * `EnvironmentValidityRegionRef?`
   * `CoEvoCouplerRef[]?`
@@ -573,7 +577,7 @@ All blocks below are extension declarations: they declare `Uses` and required pi
 - If one selected result comes from one declared source set, state that `SourceSetFamily` rather than asking the reader to infer it from one mode flag.
 - `PromotionPolicy` is required when tie-break or telemetry signals are promoted into dominance.
 - The selector may consume one declared source set and one declared choice lens without trying to explain the whole reason why another probe was worth its cost.
-- When `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, `backstop_confidence`, or sequencing pressures matter, keep them explicit in the surrounding choice doctrine instead of smuggling them into set-result declaration fields.
+- When `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, a direct graduation condition, or sequencing pressure matters, keep it explicit in the surrounding choice doctrine instead of smuggling them into set-result declaration fields.
 - A `JointUseSet` uses keyed `memberEntries`; every exact `memberRef` is unique, no per-member contribution or basis field is added, and any top-level `members` is only the derived unique set projection of those keys.
 - **Well-formedness constraint:** every exact framework-edition or other non-Method `memberRef` resolves under its existing identity; joint-use membership adds no `MethodRef` value or registry row for that member.
 - Candidate-pool and excluded-candidate records remain separate from the emitted `JointUseSet`; actual choice and selection Work remain with C.11 and the applicable A.6/A.15 occurrence patterns.

@@ -6,12 +6,12 @@ section_id: "C.27.TA:8"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__010_common-anti-patterns.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:8 — Common Anti-Patterns"
-line_start: 56898
-line_end: 56907
+line_start: 54192
+line_end: 54201
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,9 +47,9 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Cadence without bearer | "Weekly cadence" appears without saying what has the cadence. | Name bearer, timing reference, interval, and governing use relation. |
-| Freshness without window | A source is called current without reference time or validity window. | Write currentness/freshness with reference time, validity window, and refresh condition. |
-| Recovery without disturbance | A claim says "recovery improved" without starting condition or interval. | Name disturbance, bearer, recovery window, and governing use. |
-| Rhythm as value | A rhythm is treated as good by default. | Keep value, assurance, quality, or proxy claims with their governing patterns. |
+| Cadence without bearer | "Weekly cadence" appears without saying what has the cadence. | Name the exact EntityOfConcern, cadence predicate, temporal reference, and interval; add other fields only when the receiving use needs them. |
+| Freshness without window | A source is called current without reference time or validity window. | Name the exact source, current or fresh predicate, reference time or edition, and validity window; add a refresh condition only when the next use depends on it. |
+| Recovery without an adequate temporal claim | A claim says "recovery improved" without an exact bearer, temporal reference, or interval. | State the four-part minimum; add a disturbance, measure, rule citation, or relation only when the receiving use depends on it. |
+| Rhythm as value | A rhythm is treated as good by default. | Use the direct value, assurance, quality, or proxy pattern for those separate claims. |
 | Timing as transformation | A time window is treated as if it specified the change. | Use `A.3.4` for the transformation relation and C.27.TA for the temporal aspect. |
 

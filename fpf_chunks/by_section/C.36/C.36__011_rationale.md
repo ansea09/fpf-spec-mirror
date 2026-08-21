@@ -6,12 +6,12 @@ section_id: "C.36:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__011_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:9 — Rationale"
-line_start: 68151
-line_end: 68154
+line_start: 65363
+line_end: 65366
 dependencies:
   - "A.1"
   - "A.10"
@@ -25,6 +25,7 @@ dependencies:
   - "A.3.2"
   - "A.3.3"
   - "A.3.4"
+  - "A.6.1"
   - "A.6.RCD"
   - "B.3"
   - "C.11"
@@ -57,5 +58,5 @@ keywords:
 
 ### C.36:9 - Rationale
 
-C.36 follows the same ontological economy as the episteme and transformation settlements: a complex practical situation is made usable by naming a small relation bundle over existing FPF values rather than by minting a root kind for every source word. This preserves the working gain from cultural-evolution and open-ended-engineering sources while keeping method, Work, system-role kind and assignment, discipline, episteme, selection, architecture, publication, and refresh questions with their subject patterns.
+C.36 keeps a complex practical situation usable by naming a small bundle of existing FPF objects and relations instead of minting a root kind for every source word. This preserves the gain from cultural-evolution and open-ended-engineering sources while leaving Method, Work, system-role kind and assignment, discipline, episteme, selection, architecture, publication, and refresh claims with the patterns that define or test them.
 

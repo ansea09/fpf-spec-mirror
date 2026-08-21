@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:4"
 section_title: "Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__005_solution-entityofconcernref-preserving-textual-re-expression-under-a-6-3.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:4 — Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
-line_start: 13984
-line_end: 14129
+line_start: 14002
+line_end: 14147
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -40,7 +40,7 @@ keywords:
 >
 > It preserves `entityOfConcernRef`, keeps the transform effect-free, and allows only claim-preserving or explicitly loss-declared rewriting of already available content.
 >
-> It may change register, ordering, textual density, language, emphasis, or local wording. It may not silently introduce new claims, new bridge licences, new work, evidence, gate, release, policy, assurance, adjudication force, or a changed EntityOfConcern.
+> It may change register, ordering, textual density, language, emphasis, or local wording. It may not silently introduce new claims, an F.9 Bridge, bounded-use suitability, current reliance, authorization, actual receiving use, new Work, evidence, gate, release, policy, assurance, adjudication force, or a changed EntityOfConcern.
 
 #### A.6.3.CR:4.1.a - Pattern, case, and publication distinction
 
@@ -160,20 +160,20 @@ A case under `ConservativeRetextualization` preserves the same EntityOfConcern l
 A reviewed case makes explicit what is omitted, shortened, foregrounded, or carried only through a declared source-loss mode by the rewrite. Reliability transport may remain source-bounded or be explicitly downgraded, but it must never be silently widened by cleaner prose, more forceful rhetoric, or management-facing polish.
 
 ##### A.6.3.CR:4.5.c. Authority and changed-claim boundary
-A case reviewed under this pattern stays about the same entity and remains an episteme-to-episteme textual rewrite. It does not establish explanation faithfulness, Bridge suitability, retargeting, gate authority, or work enactment. If the rewrite becomes explanatory, Bridge-bearing, gate-bearing, or world-facing, state the attempted claim and use the pattern that defines, constrains, or tests it.
+A case reviewed under this pattern stays about the same entity and remains an episteme-to-episteme textual rewrite. It does not establish explanation faithfulness, an F.9 Bridge or bounded-use suitability, retargeting, current reliance, authorization, or actual receiving use. If the rewrite becomes explanatory, Bridge-bearing, gate-bearing, or world-facing, state the attempted claim and use the pattern that defines, constrains, or tests it. Take an exact cross-context relation or use claim to F.9, a current reliance question to triggered A.10 or B.3, authorization to the pattern that directly constrains the receiving act, and occurrence to evidence of that act. Do not create those records when their branches are not live.
 
 ##### A.6.3.CR:4.5.d. Composition and reopen rule
 Repeated direct rewrite over the same source line may be idempotent, but heterogeneous rewrites and correspondence-mediated rewrites are generally order-sensitive. A reviewed case must reopen whenever correspondence witness, source pins, provenance, admissible-face assumptions, or entityOfConcernRef-preserving conservativity stop being explicit.
 
 ##### A.6.3.CR:4.5.e. Non-collapse note for correspondence
-Correspondence-mediated retextualization does **not** by itself grant bridge licence, substitution licence, or comparative-review licence. If the case needs those required admissibility records, they must be declared separately rather than being smuggled in through correspondence language.
+Correspondence-mediated retextualization does **not** by itself establish an F.9 Bridge, bounded-use suitability, current reliance, authorization, or actual receiving use. When an exact cross-context relation or use is claimed, apply F.9. When reliance is current, apply triggered A.10 or B.3. The pattern for the receiving act handles authorization, and evidence of that act shows whether it occurred. These are independent questions, not a mandatory record bundle for every rewrite.
 
 ##### A.6.3.CR:4.5.f. Local conservativity witness for borderline textual cases
 For borderline textual rewrites, the user treats the case as no longer conservative under this pattern unless each point below remains visibly preserved or its loss is declared together with the changed claim and the pattern that defines, constrains, or tests it.
 - **Modality and force.** A rewrite may not silently turn possibility, uncertainty, permission, obligation, recommendation, decision status, bounded scope, temporal window, or hypothesis language into a wider commitment.
 - **Caveats and qualifications.** A rewrite may not quietly remove conditions, exception notes, uncertainty markers, or temporal qualifiers that still matter for interpreting the same source.
 - **Reliability assessment.** Cleaner prose, better ordering, or manager-facing polish may not silently raise confidence, warrant claim, or readiness for action.
-- **Bridge and substitution admissibility record.** Same-entity textual fluency may not import cross-context equivalence, substitution, or comparative-review licence unless that admissibility record is declared elsewhere.
+- **Bridge and receiving-use boundary.** Same-entity textual fluency may not establish a cross-context relation, bounded-use suitability, current reliance, authorization, or a comparative-review occurrence. Open only the F.9, A.10 or B.3, authorization, or occurrence branch that the actual later use needs.
 - **Alternative preservation.** A rewrite may not collapse open alternatives, rival hypotheses, or declared plurality into one apparently settled interpretation unless the loss is stated and still admissible under this pattern.
 
 This witness is local to `ConservativeRetextualization`. It does not replace the broader conservativity invariants of `A.6.3`; it makes them inspectable for textual rewrites where fluent prose can otherwise hide strengthening.

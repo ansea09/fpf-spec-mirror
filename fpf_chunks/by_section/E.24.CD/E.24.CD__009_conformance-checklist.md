@@ -6,12 +6,12 @@ section_id: "E.24.CD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__009_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:7 — Conformance Checklist"
-line_start: 89401
-line_end: 89423
+line_start: 86786
+line_end: 86808
 dependencies:
   - "A.1"
   - "A.14"
@@ -62,7 +62,7 @@ keywords:
 | `CC-E24CD-5` | One C.2.1 episteme requires one exact ClaimGraph, one truthful exact EntityOfConcern, and one effective ReferenceScheme. Otherwise epistemes remain separate, and co-use or co-publication supplies no shared identity. |
 | `CC-E24CD-6` | Local classification uses C.3.2's kind, signature, judgment, and optional extension distinction and does not imply a public `U.*` kind or direct classification relation. |
 | `CC-E24CD-7` | Episteme, view membership, publication form, representation, carrier, and publication occurrence remain separate and use their subject patterns only when current. |
-| `CC-E24CD-8` | Applying E.24 requires one primary subject kind, identity rule, dependent uses, minimal direct-relation set, practical gain, rejected simpler applications, and nearest non-use. |
+| `CC-E24CD-8` | E.24 opens from a blocked use, an independently recoverable candidate, proposal, or source construct, concrete duplication or disagreement pressure across named patterns, named plausible consumers, and failure of one obvious direct route. E.24.CD does not require the identity rule, minimal relation set, dependent-use proof, non-duplication result, practical gain, or nearest non-use; E.24 owns those judgments and may return unresolved. |
 | `CC-E24CD-9` | Any public U-kind question is handled by E.24.UK as a separate admission result; E.24.CD admits neither ontic nor kind. |
 | `CC-E24CD-10` | No candidate cluster, registry, scorecard, or mandatory disposition form is created. |
 | `CC-E24CD-11` | The result names the exact pattern applied to the exact subject or claim, or a precise unresolved stop, and blocks the strongest tempting overread. |

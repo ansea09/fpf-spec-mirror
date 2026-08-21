@@ -6,12 +6,12 @@ section_id: "C.3.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:intro — Intro"
-line_start: 44847
-line_end: 44852
+line_start: 43639
+line_end: 43644
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -29,7 +29,7 @@ keywords:
 
 ## C.3.2 - Kind Intent, Membership Judgment, and Extension
 
-> **Type:** Local kind declaration and classification pattern
+> **Type:** Kind declaration and classification pattern
 > **Status:** Stable
 > **Normativity:** Normative unless a section is explicitly informative
 

@@ -6,12 +6,12 @@ section_id: "F.9:11"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__013_micro-examples.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:11 — Micro-examples"
-line_start: 93150
-line_end: 93159
+line_start: 90542
+line_end: 90551
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,7 +60,7 @@ The labels below are readable aliases. An actual case resolves exact F.17 cells 
 
 1. **Participant versus Agent.** A `Partial-overlap` Bridge may obtain between the exact BPMN and PROV senses. A separate claim may affirm use of the label "actor" in one orientation table under a rule that preserves the stated participation distinction. That claim creates no local system-role kind or assignment occurrence.
 2. **Process design versus Activity occurrence.** A `Design-spec-to-run-occurrence` Bridge may explain the semantic connection. A separate claim can bound an explanatory use; it does not identify a run occurrence from a design artefact.
-3. **Observation versus SLO fulfilment.** A `Measurement-evidence-for` Bridge can relate the exact senses. A separate claim asks whether the observation sense is suitable for interpreting one named SLO comparison; A.10 or B.3 governs reliance on the evidence.
+3. **Observation versus SLO fulfilment.** A `Measurement-evidence-for` Bridge can relate the exact senses. A separate claim asks whether the observation sense is suitable for interpreting one named SLO comparison. A.10 handles ordinary evidence reliance; when an actual named assurance claim is current, B.3 supplies its bounded result for that use.
 4. **Subtype across OWL and a curated taxonomy.** An `Equivalence` Bridge obtains only under a profile whose relation condition includes the required class-level invariants. A separate claim asks whether one exact type-structure row may use that Bridge under its stated rule and zero material-loss tolerance.
 5. **Accuracy in metrology versus data quality.** A `Partial-overlap` Bridge can make the shared word intelligible. A bounded-use claim may affirm that the label is suitable in one explanatory table while rejecting transfer of measurement methods or values.
 

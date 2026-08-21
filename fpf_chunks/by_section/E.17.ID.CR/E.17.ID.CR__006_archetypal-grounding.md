@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__006_archetypal-grounding.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:5 — Archetypal grounding"
-line_start: 82273
-line_end: 82509
+line_start: 79649
+line_end: 79885
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -268,10 +268,10 @@ Why it is invalid here:
 - bridge-mediated comparison is being implied without an explicit obtaining Bridge and bounded-use claim;
 - blocked substitution and authority claims are being smuggled in through soft phrasing.
 
-**Minimal repair.** `Under Bridge B-12 and bounded-use claim UC-12, both notes foreground the same operator-timing concern for this review task, but they are not substitution-equivalent and the source episteme or source publication set remains primary. Card BC-12 may be cited when that optional package is useful.`
+**Minimal repair.** `Under Bridge B-12, bounded-use claim UC-12 has B-12 as its EntityOfConcern and says, with affirmative polarity, that the source-note-to-receiving-note direction is suitable for comparing only the operator-timing concern in this review task; the remaining source distinctions are tolerated loss, not substitution. A current A.10 result supports relying on UC-12 for that exact use. Both notes foreground the concern, but they are not substitution-equivalent and the source episteme or source publication set remains primary. The pattern for the proposed review decides authorization, and evidence of the review Work says whether it occurred. Card BC-12 may be cited when that optional package is useful.`
 
 What the repair does:
-- restores the source references, `bridgeOccurrenceRef`, and `boundedUseClaimRef`, while keeping any `bridgeCardRef` optional;
-- narrows the claim back to bounded comparison;
+- restores the source references and verifies `bridgeOccurrenceRef`, the bounded-use claim's `EntityOfConcern`, its use/direction/rule/loss/polarity tuple, and current A.10 reliance for that exact positive use, while keeping any `bridgeCardRef` optional;
+- narrows the claim back to bounded comparison and leaves authorization and the occurrence of comparative-review Work to their own patterns and evidence;
 - reasserts the blocked downstream claim or effect.
 

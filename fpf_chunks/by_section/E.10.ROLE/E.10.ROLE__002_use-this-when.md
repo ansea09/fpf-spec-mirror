@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:0 — Use This When"
-line_start: 76306
-line_end: 76326
+line_start: 73589
+line_end: 73609
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -52,5 +52,5 @@ For example:
 
 **Not this pattern when.** Keep ordinary or quoted wording unchanged when no FPF claim relies on the word. When the object and its direct pattern are already clear, use that pattern directly. Use `A.6.RSIR` when the unresolved question is specifically about participation in a direct relation, a relation declaration, an interface, or a representation position.
 
-`ROLE` remains in this PatternID because it is the ambiguous source word that opens the route. It is not a Tech designation for one governed object and is not a naming precedent.
+`ROLE` remains in this PatternID because it is the ambiguous source word that opens this recovery. It is not a Tech designation for one governed object and is not a naming precedent.
 

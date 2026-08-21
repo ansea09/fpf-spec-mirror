@@ -6,48 +6,44 @@ section_id: "C.24:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 52646
-line_end: 52655
+line_start: 51413
+line_end: 51423
 dependencies:
-  - "A.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
-  - "A.15.5"
   - "B.1.6"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.24"
+  - "C.19.1"
   - "C.28"
   - "C.5"
-  - "E.10.MOVE"
-  - "E.11.PUR"
+  - "E.17"
   - "E.23"
-  - "E.3"
-  - "E.5"
+  - "E.24.PUB"
   - "G.5"
   - "G.6"
   - "G.9"
   - "U.PromiseContent"
-  - "U.WorkPlan"
 keywords:
 ---
 
 ### C.24:8 - Common Anti-Patterns and How to Avoid Them
 
-- **Treating route description as plan.** Avoid by keeping callable logic in `ATC.CallRouteDescription` and keeping `ATC.CallPlan` as one `U.WorkPlan` whose steps select exact Methods and cite descriptions separately.
-- **Treating MethodDescription as enacted Method.** A route document, schema or endpoint description is an episteme, not the world-side way of doing and not what a call enacts. Recover the exact `methodRef`; otherwise keep the candidate in probe state or exit with a missing Method relation.
-- **Treating CallGraph or service response as Work.** A graph row and response carrier may evidence a call but do not establish its occurrence, performer, assignment, interval or `enactsMethod`; recover those A.15.1 facts independently.
-- **Treating planning as execution.** Avoid by recording actual burn only through `CheckpointReturn`, `Work`, and `CallGraph`, not inside the `CallPlan` field set.
-- **Burning enactment budget while the question under repair is still upstream choice or pool policy.** Avoid by rerouting unresolved fixed-option choice to `C.11` and unresolved live-pool governance to `C.19` before building one call plan.
-- **Counting a successful probe as committed rollout.** Avoid by emitting one `CheckpointReturn` with a visible commit trigger instead of smuggling rollout through a positive scout result.
-- **Hiding stop conditions or replan triggers.** Avoid by making them part of the public `CallPlan` field set rather than one private implementer intuition.
+- **Planning the whole tool lifecycle.** Keep candidate generation, selection, execution, scoring, and publication outside C.24.
+- **Route description as Method.** Recover the Method or keep the route in probe state.
+- **Plan as execution.** Put actual burn and call facts in Work-side results and the trace.
+- **BLP slogan as comparison.** Use C.19.1's probe and any selected comparison; keep a waiver separate or return no scale claim or no scale-based preference.
+- **Catch-all policy or profile ref.** Cite the actual PoolPolicyResult, EmitterPolicy, C.19.1 result, B.3 result, or domain-defined constraint, or omit the branch.
+- **Confidence threshold as assurance.** Use a direct condition and cite B.3 only for a named assurance use.
+- **Executable adaptation by implication.** Store the binding in a route description; identify any executable adaptation independently.
+- **Successful probe as commitment.** Require a checkpoint with a commit trigger.
 

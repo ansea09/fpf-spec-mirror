@@ -6,7 +6,7 @@ section_id: "A.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__005_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:3 — Forces"
@@ -45,7 +45,7 @@ keywords:
 | --- | --- |
 | Stable system identity vs changing contribution | The candidate remains one system while classifications, assignments, participation, and Work change. |
 | Local typed use vs public ontology growth | A project needs reusable work-facing kinds without admitting `U.Role` or another universal root. |
-| Kind identity vs membership | The continuing contribution distinction identifies the kind; a current criterion decides whether one system counts under it in a slice. |
+| Kind identity vs membership | Candidate domain, operative membership distinction, boundary probes, and continuity recover the kind; a current criterion application decides whether one system counts under it in a slice. |
 | Classification vs assignment | A judgment classifies a system. An assignment is a direct relation occurrence and can exist or end independently. |
 | Readable wording vs exact technical claims | “Alice is reviewer” is useful; a receiving decision may still need the exact kind, judgment, assignment, or Work attribution. |
 | Useful factorization vs false role mereology | Capability, responsibility, commitment, state, and Work remain separately governed rather than becoming parts of a role. |

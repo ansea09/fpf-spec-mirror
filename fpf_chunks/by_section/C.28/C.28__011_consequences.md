@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.28"
-pattern_title: "CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+pattern_title: "CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
 section_id: "C.28:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__011_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+  - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:9 — Consequences"
-line_start: 57742
-line_end: 57761
+line_start: 54934
+line_end: 54937
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,13 +30,14 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
+  - "CausalUseSupportResult"
   - "Pearl Causal Hierarchy"
   - "Structural Causal Model"
   - "association"
   - "causal diagram"
   - "causal estimand"
-  - "causal evidence support basis"
   - "causal fairness"
+  - "causal support components"
   - "causal-RL evaluation"
   - "causal-use question"
   - "causality ladder"
@@ -50,21 +51,5 @@ keywords:
 
 ### C.28:9 - Consequences
 
-`C.28` makes causal use slower only when the claim commitment, consequence risk, or evidence demand warrants it. Cheap causal triage remains cheap.
-
-Positive consequences:
-
-- Causal claims become inspectable by rung, support basis, and admissible use.
-- Counterfactual sampling realizability becomes operational rather than merely philosophical.
-- Identification and realizability no longer collapse.
-- Fairness, policy, and benchmark claims stop borrowing causal-use authority beyond what their evidence supports.
-- Adjacent patterns use narrow causal hooks without becoming general causal authorities.
-
-Costs:
-
-- Authors must learn a small causal vocabulary.
-- Some attractive claims will be downgraded to association, bounded use, simulation-only, or abstain.
-- Higher-rung claims need more evidence, assumptions, or work-plan detail.
-
-The cost is intended. It is cheaper than publishing an unsupported causal use.
+The pattern makes unsupported causal claims easier to lower while keeping ordinary triage cheap. Consequential claims become replayable across question, support components, threats, limits, and source window. The cost is additional specialist work only where a stronger causal statement or downstream decision genuinely depends on it.
 

@@ -6,12 +6,12 @@ section_id: "F.18:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__012_sota-echoing.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:10 — SoTA-Echoing"
-line_start: 97818
-line_end: 97830
+line_start: 95027
+line_end: 95039
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,7 +45,7 @@ keywords:
 
 ### F.18:10 - SoTA-Echoing
 
-Source use was checked on 2026-07-23. F.18 uses only the following lines in this decision; source prestige does not select an FPF value or name.
+Source use was checked on 2026-08-20. F.18 uses only the following lines in this decision; source prestige does not select an FPF value or name.
 
 | Current source and status | Adopted or adapted move | Exact F.18 effect | Limitation and smallest reopen condition |
 | --- | --- | --- | --- |
@@ -54,5 +54,5 @@ Source use was checked on 2026-07-23. F.18 uses only the following lines in this
 | Zhu, Reinecke, and Mitra, [*Language Scent: Exploring Cross-Language Information Navigation*](https://arxiv.org/abs/2604.03604), arXiv:2604.03604, 2026 preprint | Adapt contextual cues and in-situ recognizability as evidence for reader ergonomics; reject any inference from recognizability to cross-context equivalence. | Changes the reader-ergonomics probe in 4.3 and supports the conditional local labels in 7.2 and 7.5 while leaving exact value, local sense, and Bridge recovery mandatory. | The study is small, cross-language, and navigation-focused. Reopen only those probes and examples if stronger reader evidence reverses the observed value of contextual cues or exposes a new loss. |
 | Current FPF `C.18` front and archive discipline | Keep non-dominated candidates, archive members, and selection reasons distinct; expose dimensions and dominance when those methods are actually used. | Supplies the optional ordinal-comparison rule in 4.3; it does not require QD apparatus for an ordinary four-candidate naming decision. | This is comparison discipline, not proof that a label is ontologically correct. Reopen only 4.3 if the FPF front, dominance, or protected-dimension rule changes. |
 
-Currentness rule: when a direct value subject pattern, `C.2.1`, `F.9`, `A.10`, `B.3`, or `E.24.PUB` changes the value, card, sense, Bridge, bounded-use claim, reliance, or publication boundary, reopen only the affected invariant, field, case, or check. A future F.17 edition is consumed only through section 4.4; its change does not reopen local NameCards unless their supported public citation use or object references change.
+Currentness rule: when the pattern containing a value's direct rule, `C.2.1`, `F.9`, `A.10`, `B.3`, or `E.24.PUB` changes the value, card, sense, Bridge, bounded-use claim, reliance, or publication boundary, reopen only the affected invariant, field, case, or check. A future F.17 edition is consumed only through section 4.4; its change does not reopen local NameCards unless their supported public citation use or object references change.
 

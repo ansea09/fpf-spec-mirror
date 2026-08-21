@@ -6,12 +6,12 @@ section_id: "B.3.5:9"
 section_title: "Rule‑set — CT2R‑LOG (conceptual, human‑first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__011_rule-set-ct2r-log-conceptual-human-first.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:9 — Rule‑set — CT2R‑LOG (conceptual, human‑first)"
-line_start: 39439
-line_end: 39528
+line_start: 38265
+line_end: 38354
 dependencies:
   - "B.3"
   - "C.13"
@@ -27,7 +27,7 @@ keywords:
 
 ### B.3.5:9 - Rule‑set — CT2R‑LOG (conceptual, human‑first)
 
-**Intent (one line).** Make **Working-Model** relations the canonical relation vocabulary for authors, while providing a clean, purpose-selected bridge to assurance through aliasing and grounding semantics; the bridge is required for published structural assertions under this pattern.
+**Intent (one line).** Make **Working-Model** relations the canonical relation vocabulary for authors, while providing a clean, purpose-selected bridge to assurance through aliasing and grounding semantics; the bridge is required only for the published assertions covered by an elected B.3.5 profile or named current requirement.
 
 #### B.3.5:9.1 - Vocabulary and meanings in this pattern
 
@@ -58,13 +58,13 @@ keywords:
 #### B.3.5:9.2 - Normative rules (MUST/SHALL clauses for thinking‑and‑writing)
 
 **S‑1 (Working-Model first).**
-Authors **SHALL** publish structural claims in the **Working-Model** form (`ut:*Of` relations). This is the canonical relation vocabulary for human readers and cross-disciplinary teams. Assurance accounts remain below that public layer; this pattern separately requires a trace link for published structural assertions.
+Authors **SHALL** state structural claims in the **Working-Model** form (`ut:*Of` relations). This is the canonical relation vocabulary for human readers and cross-disciplinary teams. Assurance accounts remain below that public layer. Electing this profile adds its trace and mode obligations to the covered assertions; it is not a precondition for direct relation use.
 
 **S‑2 (Alias declaration).**
 If a Working‑Model relation follows a known general principle, the author **SHOULD** declare `tv:AliasOf <Principle>`, thereby making the intended *use‑pattern* explicit for reviewers and future readers. (This improves comparability without introducing extra formality.)
 
 **S‑3 (Grounding by mode).**
-For every relation instance the author **MUST** set `validationMode` and follow the corresponding grounding stance:
+For every relation instance covered by an elected B.3.5 profile, the author **MUST** set `validationMode` and follow the corresponding grounding stance:
 
 * **S‑3.a `postulate`.** The author **MAY** omit `Γ_m` grounding; the relation stands as a pragmatic working claim within a stated scope. The author **SHOULD** supply brief empirical cues (where the claim tends to hold) to ease later validation. (Empirical Validation is tracked in B.3.)
 
@@ -72,10 +72,10 @@ For every relation instance the author **MUST** set `validationMode` and follow 
 
 * **S‑3.c `axiomatic`.** The author **SHALL** provide a constructive grounding account in one of the `Γ_m.sum | Γ_m.set | Γ_m.slice` forms and **SHALL** link the published assertion to its current C.2.1 trace episteme with `tv:groundedBy`. A competent peer must be able to recover the exact participants, direct relation occurrences, applicable construction rule, and identity or reidentification conditions without introducing new primitives. The account supports inspection; it creates none of those facts.
 
-* **S-3.d Structural constraint.** For **published structural assertions**, `tv:groundedBy → Γ_m.*` is **REQUIRED** and `postulate` **MUST NOT** be used. This is an assurance-publication requirement, not a rule that the trace or mode makes the direct relation obtain.
+* **S-3.d Structural constraint.** For **published structural assertions covered by this profile**, `tv:groundedBy → Γ_m.*` is **REQUIRED** and `postulate` **MUST NOT** be used. This is an assurance-publication requirement inside the elected profile, not a rule that the trace or mode makes the direct relation obtain.
 
 **S-4 (Relation-kind sense-making).**
-* For **structural** subtypes of `ut:StructPartOf` (Component/Portion/Aspect), a published assertion requires one linked construction account and cannot use `postulate` (see S-3.d). The direct relation pattern still governs whether the occurrence obtains and how it is identified.
+* For **structural** subtypes of `ut:StructPartOf` (Component/Portion/Aspect), an assertion covered by the elected profile requires one linked construction account and cannot use `postulate` (see S-3.d). A direct assertion outside the profile remains usable without those assurance fields. In either case, the direct relation pattern governs whether the occurrence obtains and how it is identified.
 
 * For **epistemic/constitutive** links (e.g., representation, usage), constructive grounding is **OPTIONAL** in all stances; authors prefer *inferential* or *postulate* with empirical cues.
 
@@ -105,7 +105,7 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 #### B.3.5:9.4 - Author’s working moves (micro‑playbook, notation‑free)
 
 **M‑1.** State the relation in **Working‑Model** form (e.g., “Impeller `ComponentOf` Pump”).
-**M‑2.** Pick `validationMode`:
+**M‑2.** If a publication choice or named current requirement elects this profile, pick `validationMode`; otherwise keep the direct relation claim and stop:
 
 * For a **non-structural** claim that is still exploratory → choose **postulate**; add one-sentence scope and the empirical cues that would challenge it.
 * If you’re justifying from known statements → choose **inferential**; list the 2–4 steps in plain language.

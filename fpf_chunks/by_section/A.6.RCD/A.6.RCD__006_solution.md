@@ -6,12 +6,12 @@ section_id: "A.6.RCD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:4 — Solution"
-line_start: 16707
-line_end: 16883
+line_start: 16462
+line_end: 16638
 dependencies:
   - "A.11"
   - "A.6.0"
@@ -87,7 +87,7 @@ A constructor probe is usable only when the selected substrate defines its input
 
 Stop there when those independent uses close the named decision or work question. Open a separate joint predicate only when the decision genuinely depends on a joint condition that the independent use relations cannot express; then name that condition and use A.6.RCD to derive exactly it. Do not add a generic joint-use relation or record merely because one decision cites results from two algebras.
 
-When a consumed result actually relies on a relation between distinct F.17 cells or ReferencePlanes, cite for that result the applicable `F.9` Bridge id, `CL`, loss notes, admitted-use statement, and the applicable ReferencePlane policy pin when planes differ. F.9 defines that declared relation and its admitted use; it creates neither the relation by which the decision uses the result nor a joint predicate. Any assurance penalty from that relation reduces only `B.3` `R_eff`; it does not change `F` or `G`. Use within one recovered local sense and one ReferencePlane requires no fictitious Bridge.
+When a consumed result relies on an obtaining F.9 Bridge between two exact F.17 `SchemeSenseCell` values, cite that Bridge and the separate bounded-use claim; add `CL` or a loss note only when the receiving use needs it. When the result instead crosses exact ReferencePlanes, cite the applicable plane relation and policy. If both facts are current, state both under their own predicates. A cell or plane difference alone creates neither relation, and one branch never fabricates the other. Any assurance penalty from an obtaining Bridge affects only the applicable B.3 `R_eff` judgment; it does not change `F` or `G`.
 
 A local compound claim needs recoverable constructor semantics, but it does not need a separately materialized substrate document. Authors MUST name and pin the substrate when the derivation is nontrivial, intended for interoperability, used as proof, or becomes a reusable predicate definition. If no current substrate supplies the proposed operator, return a missing-substrate blocker rather than improvising a universal constructor algebra.
 

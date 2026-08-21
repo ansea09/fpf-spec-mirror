@@ -6,12 +6,12 @@ section_id: "A.15.PROD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:4 — Solution"
-line_start: 26556
-line_end: 26723
+line_start: 26047
+line_end: 26237
 dependencies:
   - "A.1"
   - "A.15.1"
@@ -40,7 +40,7 @@ The practitioner **MUST** choose one of the three production questions, name the
 | --- | --- | --- | --- |
 | Production-work participation | exact `currentWork` is itself `productionWork`, or exact `currentWork` is a declared proper work part of exact `productionWork` | one local positive or negative compound claim, or an exact work-grounding blocker | entity inception, completion, delivery, acceptance, or a universal production-work kind |
 | Entity-identity inception | governed actual effects of exact `identityClosingWork` made exact `producedEntity` satisfy the rule in exact applicable `productIdentitySpecification` for the first time at exact `inceptionBoundary` | one local inception claim after the entity exists, plurality of incomparable minimal claims, or an exact blocker | production completion, later persistence, acceptance, or a reusable binary relation kind |
-| Production completion | exact subject-state facts satisfied exact `productionCompletionCriterion`, applicable to exact `productionWork`, at exact `completionBoundary` | one historically indexed local completion claim or an exact blocker | entity inception, delivery, acceptance, release, publication, or availability |
+| Production completion | exact `completionSubject` satisfies exact applicable `productionCompletionCriterion` at `completionBoundary`, and a separate declared closure predicate or local claim connects that satisfaction to exact `productionWork` | one state-satisfaction claim plus, when asserted, one historically indexed Work-completion claim; otherwise the exact closure blocker | entity inception, delivery, acceptance, release, publication, or availability |
 
 The three claims may cite overlapping facts. They remain different claims because they answer different receiving questions and can have different boundaries, criteria, and truthful C.2.1 `EntityOfConcern` values.
 
@@ -54,12 +54,14 @@ The practitioner **MUST** use only objects needed by the selected branch:
 | identity-specification applicability basis | one named applicability predicate with its actual participants and boundary facts, or one filled local compound claim selected under A.6.RCD disposition 2 | applies the exact specification episteme to the candidate basis, subject context, and candidate `inceptionBoundary`; it introduces no universal applicability relation |
 | `producedEntity` | one exact `U.Entity`, designated only after inception | is the entity whose identity rule first became true |
 | `productionMethod` | one exact `U.Method` under A.3.1 | states the governed way of doing, intended production effect, applicability, and relevant identity or completion criterion meaning |
-| `currentWork` | one exact Work individual admitted under `U.Work` by A.15.1 | designates the world-side dated occurrence; name the actual performer `U.System`, the obtaining `U.SystemRoleAssignment` under which it performs, actual `enactsMethod`, extent, bindings, resources, affected referent, and containing system only through their independently obtaining facts rather than as fields stored in the occurrence |
+| `currentWork` | one exact Work individual admitted under `U.Work` by A.15.1 | designates the world-side dated occurrence; name each actual performer `U.System`, the obtaining occurrence of an exact directly declared `U.SystemRoleAssignment` species under which it performs, F.6 attribution, at least one obtaining `enactsMethod` relation, extent, and at least one obtaining locally declared containing-system relation. Name an additional enactment, binding, resource-use, or affected-referent relation only when the production claim uses that independently obtaining fact; none is a field stored in the occurrence. |
 | `productionWork` | one exact Work individual admitted under `U.Work` by A.15.1 | designates either the same occurrence as `currentWork` or the exact larger Work occurrence of which `currentWork` is a declared proper part |
 | `actualTransformation` | one or more independently identified `U.Transformation` occurrences under A.3.4 | names what changed without becoming the work or the produced entity |
 | work-to-change basis | one named domain predicate with exact Work and transformation participants and obtaining case facts, or one filled local compound claim selected under A.6.RCD disposition 2 | establishes that selected actual changes are effects of exact work; coincidence is insufficient |
-| `productionCompletionCriterion` | one exact C.2.1 predicate-definition episteme whose subject pattern states the completion rule; any continuing-edition relation to another criterion episteme is stated separately | states the criterion applicable to exact production work at the candidate completion boundary |
-| local assertion | one C.2.1 episteme | carries only the compound claim needed for one selected question |
+| `completionSubject` | the exact state-bearing entity or continuing referent judged by the completion criterion | keeps the criterion's subject explicit instead of applying a product-state test to Work |
+| `productionCompletionCriterion` | one exact C.2.1 predicate-definition episteme whose subject pattern states the state-satisfaction rule; any continuing-edition relation to another criterion episteme is stated separately | states what state of `completionSubject` counts as satisfying the production requirement at the candidate boundary |
+| production-work closure governor | one declared subject predicate or one filled local A.6.RCD claim that connects exact criterion satisfaction for `completionSubject` to closure of exact `productionWork` at the boundary | states why the Work is complete; criterion satisfaction alone does not supply this link |
+| local assertion | one C.2.1 episteme | carries only the state-satisfaction claim or the production-work-completion claim needed by the selected question |
 
 A method description, work plan, objective, commitment, product specification, evaluation result, or publication enters only when a named predicate or filled local claim connects it to the selected Work, entity, or claim and omitting that connection would change the named action or decision. Otherwise keep it separate. None is constitutive of every production occurrence.
 
@@ -97,23 +99,29 @@ A delta expression, method description, work plan, log, post-state image, identi
 
 **Regulated-identification boundary.** A persistent identifier is not an inception criterion. A current subject practice that allocates an identifier at build or registration while keeping allocation separate from entity status supplies designation and continuity only. First existence requires a separately applicable subject-identity rule; its absence yields the exact identity-governor blocker. An assigned number does not make the candidate basis the after-side entity.
 
-#### A.15.PROD:4.6 - Recover historically indexed production completion
+#### A.15.PROD:4.6 - Recover state satisfaction and historically indexed production completion
 
-A production-completion claim designates:
+Completion wording often hides two claims. First ask whether the exact state-bearing subject satisfied the applicable criterion. Then ask whether the subject practice makes that satisfaction sufficient to close the exact production Work.
 
-- exact `productionWork`;
-- exact `completionBoundary` inside or at the end of that occurrence;
-- exact `productionCompletionCriterion` episteme applicable to that occurrence at that boundary;
-- the named applicability predicate or filled local claim that applies that criterion episteme to the production Work and boundary; and
-- the actual boundary-state facts and the criterion predicate they satisfy at that boundary.
+The **state-satisfaction claim** names:
 
-Completion is historical. Later damage, loss, destruction, delivery, rejection, acceptance, release, publication, or unavailability does not erase an earlier true completion claim. A later or replacement criterion episteme does not rewrite the earlier claim, whether or not an exact C.2.1 `EpistemeEditionRelation` connects it to the criterion used then. Rework or later production work that satisfies an applicable criterion at a later boundary receives a separate local completion claim.
+- exact `completionSubject` whose state is judged;
+- exact `completionBoundary`;
+- exact `productionCompletionCriterion` episteme applicable to that subject and boundary;
+- the named applicability predicate or filled local claim; and
+- the actual boundary-state facts and the criterion predicate they satisfy.
 
-Entity-identity inception and production completion remain separate claims even when they share a boundary. The identity-specification episteme says when this exact entity first exists only together with the named applicability predicate or local claim that selects its candidate basis, subject context, and boundary; the completion-criterion episteme says when the separately applicable production requirement was satisfied. A later evaluation-result episteme may support either assertion under a direct evidence-use relation, but it creates neither the boundary nor the subject state.
+When persisted, this C.2.1 episteme has `completionSubject` as its exact EntityOfConcern. It says nothing yet about whether Work is complete.
 
-Past work, entity-identity inception, and production completion remain addressable after later destruction or evidence decay. A later assertion carries its own evidence currentness and reliance status. The produced entity, measurement or evaluation result, delivered entity, acceptance verdict, release, publication, availability, and downstream effect remain separately governed objects and claims.
+The separate **production-work-completion claim** names exact `productionWork`, the exact state-satisfaction claim, the same boundary, and the declared closure predicate or filled local A.6.RCD claim that makes this criterion satisfaction sufficient to close that Work. Its exact EntityOfConcern is `productionWork`. If no closure governor is available, keep the positive state-satisfaction claim and return `missing-governor[production-work-completion]`; do not apply a subject-state predicate to Work by metonymy.
 
-**Practice-specific completion criteria stay local.** In current NASA systems-engineering practice, product implementation or integration, verification, validation, and product transition are distinct processes; a local completion claim therefore names the exact tailored product-layer criterion and does not substitute transition or delivery for verification or validation. In current Scrum practice, the applicable Definition of Done is a product-specific quality-state criterion and an Increment is born when a Product Backlog item first meets it; Sprint Review and release remain separate. These practice answers can supply an exact criterion or boundary only in their own applicability context. They supply neither the exact A.15.1 work occurrence nor a cross-domain universal completion rule.
+Completion is historical. Later damage, loss, destruction, delivery, rejection, acceptance, release, publication, or unavailability does not erase an earlier true state-satisfaction or Work-completion claim. A later or replacement criterion episteme does not rewrite the earlier claim. Rework or later production Work that closes under an applicable criterion at a later boundary receives another local Work-completion claim.
+
+Entity-identity inception, criterion satisfaction, and production-Work completion remain separate even when they share a boundary. A later evaluation-result episteme may support one of these claims under a direct evidence-use relation, but it creates neither the boundary, the subject state, nor Work closure.
+
+Past Work and the two completion claims remain addressable after later destruction or evidence decay. A later assertion carries its own evidence currentness and reliance status. The produced entity, measurement or evaluation result, delivered entity, acceptance verdict, release, publication, availability, and downstream effect remain objects and claims defined and tested separately.
+
+**Practice-specific criteria stay local.** NASA systems-engineering guidance, Scrum's Definition of Done, and similar authoritative practice sources can supply a criterion for the exact subject and practice use they address. They do not by themselves identify the A.15.1 Work or state that criterion satisfaction closes it. A subject-practice closure predicate or local claim must provide that second step; transition, delivery, review, or release remains separate.
 
 #### A.15.PROD:4.7 - Publish local claims, not an omnibus relation
 
@@ -132,11 +140,11 @@ This ordinary positive branch does not require the practitioner to name a substr
 | --- | --- | --- |
 | production-work participation | one typed conjunction over exact A.15.1 work identity, actual method enactment, method applicability and intended production effect, affected referent, direct work-to-change facts, the receiver's current criterion, and either exact work identity or one exact A.15.1 proper-part relation | every participant and conjunct remains named; no projection hides work, transformation, or criterion witnesses; a negative result requires the selected substrate's explicit negation law rather than absence of a base assertion |
 | entity-identity inception | one time-indexed conjunction over identity-specification applicability, exact work and governed effects, direct work-to-change and change-to-identity links, and satisfaction of the applicable identity predicate, followed by the substrate's earliest-satisfying-boundary selection over its declared ordered candidate-boundary domain | the candidate basis remains distinct from the after-side entity; work parts and actual transformations remain named or follow the substrate's explicit witness policy; incomparable minimal work composites remain plural, and A.15.PROD supplies no arbitrary minimization rule |
-| production completion | one boundary-indexed conjunction over exact production work, exact criterion episteme and applicability, and governed subject-state satisfaction at exact `completionBoundary` | the claim stays indexed by that boundary and criterion episteme; no earliest-boundary operator is implied unless the receiving use separately requires and the selected substrate defines it; negative polarity again requires an explicit substrate law |
+| production completion | one boundary-indexed conjunction first states criterion satisfaction for exact `completionSubject`; a second conjunction states exact `productionWork`, that satisfaction claim, and the declared closure predicate or local closure rule | the claims keep their different entities of concern; no earliest-boundary operator is implied unless separately required, and missing closure semantics preserves satisfaction while blocking only Work completion |
 
 For DPF or FPF authoring and every other pin-triggering use, the responsible author or modeler **MUST** name the exact selected substrate and edition and replay its constructor inputs, output claim, applicability, hidden witnesses, polarity law, and temporal policy. A negative or earliest-boundary claim **MUST** recover the specific negation, witness, ordering, or selection semantics it consumes even when no broader replay is needed. If no current substrate supplies semantics that the claim actually requires, return the exact **missing-substrate blocker**. A.15.PROD supplies no fallback operator.
 
-For an ordinary positive result, the truthful `EntityOfConcern` is usually exact `currentWork` for production-work participation, exact `producedEntity` for entity-identity inception, and exact `productionWork` for production completion. A modeler **MUST** split claim content that cannot truthfully concern one exact entity and **MUST NOT** manufacture a union concern from work, method, transformations, criteria, evidence, and receivers.
+For an ordinary positive result, the truthful `EntityOfConcern` is exact `currentWork` for production-work participation and exact `producedEntity` for entity-identity inception. Completion uses exact `completionSubject` for the state-satisfaction episteme and exact `productionWork` for a separate Work-completion episteme. A modeler **MUST** split claim content that cannot truthfully concern one exact entity and **MUST NOT** manufacture a union concern from work, method, transformations, criteria, evidence, and receivers.
 
 Repeated use within one subject practice may justify one predicate-definition episteme, with the subject pattern locating the ClaimGraph that defines those participant meanings. Consider a subject-specific derived relation kind only when a named later action must also refer again to the same obtaining relation occurrence. The subject definition must then state obtaining, applicability, base dependencies, recurrence, and occurrence identity. A.6.RCD defines that candidate-construction branch; A.15.PROD defines no such kind admission by itself.
 
@@ -150,9 +158,24 @@ Repeated use within one subject practice may justify one predicate-definition ep
 
 A positive local answer can stop at that readable conjunction. It does not require substrate vocabulary. Open only the specific semantic replay needed when the answer is negative, when first existence requires an ordered earliest-boundary judgment, or when A.6.RCD:4.2 triggers a substrate pin. The practitioner **MUST** stop when the local answer is readable and grounded and **MUST NOT** fill the rest of this pattern as a record.
 
-**Assurance branch for authors and high-consequence use.** Authors and high-consequence users **MUST** additionally replay the exact work identity and part relations; the actual `enactsMethod` relation; method applicability and intended production effect; every work-to-change and change-to-identity predicate; every criterion-applicability and boundary-state satisfaction fact; the exact identity-specification and completion-criterion epistemes; the named applicability predicate or filled local claim for each episteme at its claimed boundary; any separately current C.2.1 `EpistemeEditionRelation`; positive and discriminating cases; C.2.1 identity; evidence-use relations; and the explicit transformation-composition non-inference. DPF and FPF authors **MUST** record the selected substrate and edition when A.6.RCD:4.2 requires a pin, and **MUST** expose direct base predicates, applicability, hidden participants, polarity law, boundary domain and ordering, witness policy, and any earliest-boundary rule used by the claim. Assurance may warrant reliance on the claim; it does not constitute work, change, entity inception, or completion.
+**Assurance branch for authors and high-consequence use.** Replay the exact basis in six visible groups:
 
-**Assurance scope by use.** A modeler whose declaration or model carries one local claim **MUST** check exact claim content, one truthful `EntityOfConcern`, reference scheme, participants, declared predicates, polarity, and boundary indexing. A practitioner or conformance reviewer **MUST** verify that the three-question first move reaches either one grounded local answer or one exact blocker and then stops. A pattern author or reviewer **MUST** also replay the worked and discriminating cases, neighbor-authority boundaries, checklist, and no-mint disposition. None of these assurance uses widens the recognition claim or adds a world-side production fact.
+- **Work and Method.** Check exact work identity and every relied-on work-part relation, the actual `enactsMethod` relation, method applicability, and the intended production effect.
+- **Actual change and entity inception.** Check every work-to-change and change-to-identity predicate and retain the explicit non-inference from work or method composition to transformation composition.
+- **State satisfaction and Work closure.** Check every criterion-applicability fact and boundary-state satisfaction fact. Keep the state-satisfaction claim separate from the closure predicate or local claim that closes the Work.
+- **Claim epistemes and their current basis.** Check the exact identity-specification and completion-criterion epistemes, the named applicability predicate or filled local claim for each episteme at its claimed boundary, any separately current C.2.1 `EpistemeEditionRelation`, C.2.1 identity, and the evidence-use relations actually relied on.
+- **Positive and discriminating cases.** Replay both, so removal of one deciding fact blocks only the claim that consumes it.
+- **Pinned author substrate.** When A.6.RCD:4.2 requires a pin, DPF and FPF authors **MUST** record the selected substrate and edition and expose direct base predicates, applicability, hidden participants, polarity law, boundary domain and ordering, witness policy, and every earliest-boundary rule used by the claim.
+
+Assurance may warrant reliance on the claim; it does not constitute work, change, entity inception, or completion.
+
+**Assurance scope by use.** Match the replay to the actual use:
+
+- A modeler whose declaration or model carries one local claim **MUST** check exact claim content, one truthful `EntityOfConcern`, reference scheme, participants, declared predicates, polarity, and boundary indexing.
+- A practitioner or conformance reviewer **MUST** verify that the three-question first move reaches either one grounded local answer or one exact blocker and then stops.
+- A pattern author or reviewer **MUST** also replay the worked and discriminating cases, neighbor-authority boundaries, checklist, and no-mint disposition.
+
+None of these assurance uses widens the recognition claim or adds a world-side production fact.
 
 #### A.15.PROD:4.9 - Run the recovery sequence and stop deliberately
 

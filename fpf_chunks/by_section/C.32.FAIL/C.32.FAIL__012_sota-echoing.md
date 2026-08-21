@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__012_sota-echoing.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:11 — SoTA-Echoing"
-line_start: 66312
-line_end: 66328
+line_start: 63479
+line_end: 63495
 dependencies:
   - "A.10"
   - "A.15.1"

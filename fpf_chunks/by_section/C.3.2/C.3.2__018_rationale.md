@@ -6,12 +6,12 @@ section_id: "C.3.2:16"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__018_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:16 — Rationale"
-line_start: 45060
-line_end: 45063
+line_start: 43863
+line_end: 43866
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -29,5 +29,5 @@ keywords:
 
 ### C.3.2:16 - Rationale
 
-The kind, the declaration used to evaluate it, one candidate judgment, and a set representation change for different reasons. Treating them as one object makes evidence, time, scope, and notation rewrite ontology. Their separation preserves ordinary reasoning while supporting exact review when a repeated or safety-relevant use needs it.
+The kind, its declaration, pre-judgment applicability, one admissible candidate judgment, and a representation of current true candidates answer different questions. Their separation prevents evidence, locality, time, scope, and notation from rewriting ontology while still allowing a criterion to concern a directly governed episteme, status, or relation when that is the actual classification condition.
 

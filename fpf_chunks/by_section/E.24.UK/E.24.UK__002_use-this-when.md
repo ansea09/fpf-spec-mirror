@@ -6,20 +6,18 @@ section_id: "E.24.UK:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:0 — Use This When"
-line_start: 89770
-line_end: 89800
+line_start: 87155
+line_end: 87185
 dependencies:
   - "A.1.1"
   - "A.11"
   - "A.2.6"
   - "A.22"
-  - "A.3.2"
   - "A.6.0"
-  - "A.6.3"
   - "A.6.5"
   - "A.6.RCD"
   - "A.6.REL"
@@ -34,12 +32,11 @@ dependencies:
   - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
-  - "E.24.UK"
+  - "F.17"
   - "F.18"
-  - "U.MethodDescription"
-  - "U.Structure"
-  - "U.View"
-  - "U.Viewpoint"
+  - "F.8"
+  - "U.Kind"
+  - "U.SubkindOf"
 keywords:
 ---
 
@@ -56,7 +53,7 @@ Typical moments:
 - a `RelationSignature` SlotKind, an assertion or description field, a `C.29` representation element, or an `E.24.PUB` reusable form has acquired a `U.*` spelling;
 - a single E.24 ontic settlement appears to govern one root U-kind plus several dependent durable U-kinds.
 
-**Primary EntityOfConcern.** Identify the exact object the admission decision is about before filling the card: an already recoverable C.3 `U.Kind`, the proposal episteme for an unadmitted distinction, or the source-construct entity being translated. Put the proposed criterion, candidate individuals, intended extent and non-member boundary, spelling, and dependent claims in the ClaimGraph. If no decision subject is identifiable, keep the inquiry open. An extension, member list, rule bundle, title, or spelling cannot fill this position.
+**Primary EntityOfConcern.** Identify the exact object the admission decision is about before filling the shared E.24-family decision: an already recoverable C.3 `U.Kind`, the proposal episteme for an unadmitted distinction, or the source-construct entity being translated. Put the proposed criterion, candidate individuals, intended extent and non-member boundary, spelling, and dependent claims in the decision's ClaimGraph. If no decision subject is identifiable, keep the inquiry open. An extension, member list, rule bundle, title, or spelling cannot fill this position.
 
 **Primary working reader.** The first reader is an FPF pattern author or reviewer deciding whether a public FPF name should remain `U.*`. The downstream reader is the practitioner who uses public pattern titles, headings, ToC rows, and names as orientation cues and needs those cues to point to the real governed object.
 

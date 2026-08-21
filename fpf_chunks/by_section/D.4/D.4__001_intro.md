@@ -6,12 +6,12 @@ section_id: "D.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:intro — Intro"
-line_start: 68767
-line_end: 68780
+line_start: 66066
+line_end: 66079
 dependencies:
   - "A.10"
   - "A.20"
@@ -34,11 +34,11 @@ keywords:
 > **Status:** Stable
 > **Pattern role:** This compact pattern contains the defining content for the ethical use of an already mapped conflict: mediation, refusal, evidence demand, bounded decision use, and residual handling.
 
-**Use this when.** Use this pattern when an interlevel ethical conflict structure from `D.3` must be used for mediation, refusal, decision, evidence demand, causal return, assurance return, or architecture return.
+**Use this when.** Use this pattern when an `InterlevelEthicalConflictDescription` from `D.3` must support mediation, refusal, a decision, an evidence demand, or a return to causal, assurance, or architecture work.
 
-**Not this pattern when.** If the conflict structure is not yet mapped, use `D.3`. If the issue is only value plurality, use `D.1`. If the issue is only entry recognition, use `D.2`. If the current work is bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
+**Not this pattern when.** If the conflict has not yet been described, use `D.3`. If the issue is only value plurality, use `D.1`. If the issue is only entry recognition, use `D.2`. If the current work is bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
 
 **What goes wrong if missed.** A mapped ethical conflict is treated as solved, blocked, or decision-ready without naming mediation, refusal, evidence demand, return, accepted residual, or bounded decision use.
 
-**What this buys.** The practitioner can use a `D.3` conflict structure for one admissible mediation action or bounded decision use while keeping evidence, causality, assurance, architecture, and bias-audit claims with their subject patterns.
+**What this buys.** The practitioner can use one exact `D.3` conflict-description episteme for an admissible mediation action or bounded decision use while keeping evidence, causality, assurance, architecture, and bias-audit claims with their subject patterns.
 

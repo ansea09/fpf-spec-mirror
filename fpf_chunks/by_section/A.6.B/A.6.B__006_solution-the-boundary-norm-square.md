@@ -6,12 +6,12 @@ section_id: "A.6.B:4"
 section_title: "Solution — the Boundary Norm Square"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__006_solution-the-boundary-norm-square.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:4 — Solution — the Boundary Norm Square"
-line_start: 10588
-line_end: 10626
+line_start: 10623
+line_end: 10661
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -40,7 +40,7 @@ keywords:
   - "(MUST"
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
-  - "Keeps claim text"
+  - "Keeps normative content"
   - "MAY"
   - "MUST"
   - "MUST NOT"
@@ -51,6 +51,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
+  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
@@ -65,7 +66,7 @@ keywords:
   - "entry predicates"
   - "evaluated findings"
   - "evaluation"
-  - "institutional obtaining"
+  - "individual institution"
   - "laws"
   - "may"
   - "not a duty.)"
@@ -77,7 +78,6 @@ keywords:
   - "or observation that settles it and any evidence used for reliance"
   - "responsibility"
   - "they report adjudicable results rather than obligations"
-  - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
@@ -102,7 +102,7 @@ The square yields four quadrants that are *mutually exclusive for atomic claims*
 | **In-description or in-theory** | **L — Laws & Definitions**                       | **D — Deontics & Commitments**             |
 | **In-work or in-execution**     | **E — Work‑Effects & Evidence**                  | **A — Admissibility & Gates**              |
 
-**Clarification (classify the claim, not its claim family).**
+**Clarification (classify the claim by its job, not by its subject pattern).**
 
 * Classify the exact atomic claim by what its sentence states and by the conditions that let a reader decide it.
 * The exact ClaimGraph located through the subject pattern supplies the referenced object's predicate and obtaining conditions; it does not choose the claim's quadrant.
@@ -118,7 +118,7 @@ The quadrants have canonical placements in the boundary stack:
 
 * **L → Signature layer:** `U.Signature.Laws` (and mechanism‑local semantic laws if present).
 * **A → Mechanism layer:** `U.Mechanism.AdmissibilityConditions` (entry gates / runtime admissibility predicates).
-* **D → Deontics & Commitments layer:** atomic governance claims that state a duty, recommendation-as-duty, prohibition, or commitment for one actual bearer. When permission wording is live, §8.4.1 decides whether its claim also belongs here.
+* **D → Deontics & Commitments layer:** atomic claims about a generic prescription or about one separately obtaining individual duty, recommendation-as-duty, prohibition, or commitment. When permission wording is live, §8.4.1 decides whether its claim also belongs here.
 * **E → Work-Effects & Evidence layer:** truth-conditional claims whose satisfaction requires actual work, evaluation, observation, or produced carriers.
 
 A published view **MUST NOT** introduce new semantic claims outside this L/A/D/E-classified claim set. **E.17 (MVPK)** is a specialization that enforces this rule for a fixed set of publication face kinds.

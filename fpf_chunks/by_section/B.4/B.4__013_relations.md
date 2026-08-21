@@ -6,16 +6,21 @@ section_id: "B.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__013_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:11 — Relations"
-line_start: 39771
-line_end: 39778
+line_start: 38628
+line_end: 38638
 dependencies:
   - "A.12"
+  - "A.15.1"
   - "A.4"
+  - "B.3"
+  - "B.4"
   - "B.4.1"
+  - "B.5"
+  - "B.5.1"
 keywords:
   - "DesignRunTag feedback"
   - "drift repair"
@@ -28,9 +33,12 @@ keywords:
 
 ### B.4:11 - **Relations**
 
-*   **Implements:** `P-10 Open-Ended Evolution`, `A.4 Temporal Duality`.
-*   **Orchestrates:** `B.5 Canonical Reasoning Cycle` (provides the cognitive engine for the *Observe* and *Refine* phases) and `B.3 Trust & Assurance Calculus` (provides the metrics for the *Evidence* sub-phase).
-*   **Is detailed by:** `B.4.1 Observe -> Notice -> Stabilize -> Route` for early cue routing, together with B.4.x instantiation patterns for specific holon families.
+* **Operationalizes:** `P-10 Open-Ended Evolution`.
+* **Uses:** `A.4 Temporal Duality` for design-time/run-time distinctions; `A.12` for external or reflexively split acting sides; `A.15.1` for dated Work; and the direct subject patterns named in B.4:4.1 for identity and continuity.
+* **Coordinates with:** `B.5 Canonical Reasoning Cycle`, `B.5.1` development states, and `B.3 Trust & Assurance Calculus`. B.4 does not implement the B.5.1 states one-for-one, and evidence is not a B.4 phase.
+* **Is detailed by:** `B.4.1 Observe -> Notice -> Stabilize -> Route` for optional early cue routing, together with B.4.x instantiation patterns for specific subject families.
 
 #### B.4:11.1 - Pre-abductive seam compatibility
-For early language-state routing, `Observe` does not have to jump directly into anomaly or hypothesis forms. `Observe` may publish `U.PreArticulationCuePack` and a `RoutedCueSet` via `B.4.1`, after which downstream loops consume that routed cue publication directly or a downstream typed publication such as `U.AbductivePrompt`, as appropriate.
+
+For early language-state routing, Observe does not have to jump directly into anomaly or hypothesis forms. Observe may publish a `U.PreArticulationCuePack` and a `RoutedCueSet` through `B.4.1`; a selected route then enters Refine or another fitting pattern. A downstream loop consumes the routed cue publication directly or a later typed publication such as `U.AbductivePrompt`, as appropriate.
+

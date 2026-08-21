@@ -6,12 +6,12 @@ section_id: "A.7:9"
 section_title: "Anti‑patterns (with fixes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__011_anti-patterns-with-fixes.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:9 — Anti‑patterns (with fixes)"
-line_start: 21717
-line_end: 21760
+line_start: 21156
+line_end: 21199
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,13 +42,13 @@ keywords:
 ### A.7:9 - Anti‑patterns (with fixes)
 
 1. **System-role-kind-as-behaviour** — calling the **system-role kind** a function or saying it acts.
-   **Fix:** Name the system-role kind, exact assignment occurrence when current, holder system, Method, Capability, and Work without making the kind or assignment act.
+   **Fix:** Name the acting System and direct behaviour or Work first. Add the local kind, assignment, Method, or Capability only when that stronger claim is current; none of them acts.
 
 2. **Episteme‑as‑system** — “the model routed traffic”.
-   **Fix:** Name the **System or acting holon**, its assignment occurrence and declared species when relevant, the Work that used the model, and the carriers touched.
+   **Fix:** Name the System that used the model. Add Work, carrier, assignment, evidence, or source details only when the receiving claim uses them.
 
 3. **Triad everywhere** — omitting **Work** entirely.
-   **Fix:** Add the Work position: timestamps, outcomes, Γ_time coverage.
+   **Fix:** Add a Work occurrence only when performed action is claimed; a design-time distinction diagram need not pretend that Work occurred.
 
 4. **Operator blur** — using one “process operator” for everything.
    **Fix:** Choose among **Γ\_method**, **Γ\_time**, **Γ\_work**, **Γ\_sys**.
@@ -72,7 +72,7 @@ keywords:
    **Fix:** State whether the **episteme content** changed; if only a carrier was renamed, say so.
 
 11. **Publication-as-mechanism** — modelling “publication” as if it were a Method or Mechanism.
-   **Fix:** Separate **describing** (`Describe_EoC_DescEp`), specification-use refinement, and **publication** (MVPK Description-episteme-to-publication face, form, unit, carrier, and rendering availability). If there is operational toil (build, render, upload), model it as **Work** by a **system** on **carriers**; do not change the `EntityOfConcern` value, the Description episteme, specification-use gate/refinement, or the publication relation being presented.
+   **Fix:** Identify the Description episteme directly through C.2.1 and keep specification use and publication separate. Name an actual authoring, measurement, observation, model, source-use, representation, or refinement relation only when current; operational build, render, or upload activity is separate Work by a System on carriers.
 
 12. **Form-first MethodDescription** — “this is an SOP/algorithm/script, therefore it is a MethodDescription.”
    **Fix:** Identify the C.2.1 episteme, resolve one admitted Method as its exact EntityOfConcern, and find at least one substantive way-of-doing claim; otherwise retain only the source cue.

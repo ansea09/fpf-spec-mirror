@@ -6,14 +6,15 @@ section_id: "G.9:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__014_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:10 — Relations"
-line_start: 103266
-line_end: 103286
+line_start: 100516
+line_end: 100536
 dependencies:
   - "A.19"
+  - "A.2.6"
   - "A.21"
   - "C.18"
   - "C.19"
@@ -35,6 +36,7 @@ dependencies:
   - "G.6"
   - "G.7"
   - "G.Core"
+  - "U.ClaimScope"
 keywords:
   - "adaptation parity"
   - "benchmark plan"
@@ -62,6 +64,6 @@ keywords:
 
 **Builds on:** `G.Core`, `G.5`, `G.6`, `G.4`, `F.15`, `E.17`, `E.18`, `A.21`, `F.17`, `E.5.2`, `E.10`.
 **Publishes to:** **UTS** (plan/report ids), **G.11** (refresh wiring), **G.10** (shipping publication form; parity records are cited records).
-**Uses:** **G.0**, **A.19**, **F.9**, and `C.28` when parity compares causal methods or causal-use claims.
+**Uses:** **G.0**, **A.19**, `A.2.6` for exact `U.ClaimScope`, **F.9**, and `C.28` when parity compares causal methods or causal-use claims.
 **Uses (optional, via Extensions):** **G.7**, **C.18 and C.19** (QD/OEE wiring), **C.23** (SoS‑LOG narration and failure‑policy pins).
 

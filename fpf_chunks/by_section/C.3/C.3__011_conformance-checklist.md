@@ -6,12 +6,12 @@ section_id: "C.3:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__011_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:9 — Conformance Checklist"
-line_start: 44632
-line_end: 44646
+line_start: 43415
+line_end: 43429
 dependencies:
   - "A.1"
   - "A.11"
@@ -47,14 +47,14 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-C3-1` | The local `U.Kind` and any `U.SubkindOf` order remain distinct from durable FPF U-kind admission. |
-| `CC-C3-2` | Kind, `KindSignature`, classification judgment, and optional `KindExtension` are separately recoverable; the effective reference scheme is claim content of the exact signature edition, not a property stored on the kind. |
-| `CC-C3-3` | The judgment names an exact candidate, kind, signature edition, context slice, and one of `true`, `false`, or `unknown`. |
-| `CC-C3-4` | Direct governed candidate features decide classification; evidence or representation does not create membership. |
-| `CC-C3-5` | Missing evidence, unavailable dependency, and out-of-domain input yield `unknown`, not `false`. |
-| `CC-C3-6` | Kind scope is absent; declaration and assertion scopes remain on their own epistemes, and `U.ContextSlice` remains an evaluation input. |
-| `CC-C3-7` | An extension is a representation of true candidates, not `U.EntitySet`, A.14 `MemberOf`, a collection holon, or a direct relation occurrence. |
-| `CC-C3-8` | Public `U.*` admission uses `E.24.UK`; cross-local kind use uses `C.3.3`. |
-| `CC-C3-9` | `U.Work`, an exact `W : U.Work`, and any episteme about W remain distinct. |
-| `CC-C3-10` | A change of the explicit practice or source boundary or of the stable subject distinction triggers a C.3.3 continuity or bridge question. A shared scheme or equivalent slices do not remove that boundary; a scheme-edition or slice change within the same identity basis does not create a bridge by itself. |
+| `CC-C3-1` | `U.Kind` and `U.SubkindOf` rely on exact accepted E.24.UK results; another public kind name still requires its own admission. |
+| `CC-C3-2` | Kind, `KindSignature`, admissibility result, admissible three-valued judgment, and optional extension remain distinct; scheme and locality are not stored on the kind. |
+| `CC-C3-3` | Kind identity is tested through candidate domain, membership distinction, intended member/non-member boundary, and continuity rule. A practice/source change is a comparison cue, not proof. |
+| `CC-C3-4` | Candidate and slice applicability is checked before judgment; `not-applicable` is distinct from admissible `unknown`. |
+| `CC-C3-5` | The governed condition named by the criterion decides membership. Evidentiary use alone does not constitute an independent condition, while directly criterion-bearing epistemes, statuses, and relations keep their own governors. |
+| `CC-C3-6` | Subkind facts follow C.3.1's criterion-entailment or exhaustive closed-domain branch and form a preorder; classification equivalence does not merge kind identities. |
+| `CC-C3-7` | Kind scope is absent; declaration and assertion scopes remain on their epistemes, and the slice remains an evaluation input. |
+| `CC-C3-8` | An extension is a representation of admissible true candidates, not `U.EntitySet`, A.14 `MemberOf`, a collection holon, or a direct relation occurrence. |
+| `CC-C3-9` | C.3.3 is used only after distinct kinds and a proposed correspondence are independently established; same-kind reuse still gets a fresh receiving judgment. |
+| `CC-C3-10` | `U.Work`, exact `W : U.Work`, and any episteme about W remain distinct. |
 

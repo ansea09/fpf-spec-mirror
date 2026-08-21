@@ -6,12 +6,12 @@ section_id: "C.22.2:4"
 section_title: "Problem, Task, Method, Work, and Result Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__005_problem-task-method-work-and-result-split.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:4 — Problem, Task, Method, Work, and Result Split"
-line_start: 51674
-line_end: 51692
+line_start: 50483
+line_end: 50501
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 
 ### C.22.2:4 - Problem, Task, Method, Work, and Result Split
 
-`ProblemCard` remains usable while a method is unknown, contested, or not yet selected. A known method does not make the card ready when signal, EntityOfConcern, ClaimScope, claim family, or acceptance probe remains unstable. If the problem-side episteme and method are accepted and only planned execution remains, apply A.15.
+`ProblemCard` remains usable while a method is unknown, contested, or not yet selected. A known method does not make the card ready while any core Thin item in `C.22.2:2.1` remains unstable. If the problem-side episteme and method are accepted and only planned execution remains, apply A.15.
 
 | Term or local name | Current FPF recovery | Local disposition |
 |---|---|---|
@@ -69,7 +69,7 @@ keywords:
 | `TaskSignatureAssignmentRelation` | Obtaining relation among exact problem-side episteme, TaskSignature, and receiving-use episteme | Separate from all three participants and from card fields. |
 | Method-family selection claim | G.5 comparison or selection result | Not a card field and not PFR cessation. |
 | `U.Method`, `U.MethodDescription` | Method and method-description values | Governed by their direct method patterns. |
-| `U.WorkPlan`, `SlotFillingsPlanItem` | Intended Work and plan item | Governed by A.15; not TaskSignature or ProblemCard. |
+| `U.WorkPlan` and its declaration-local `SlotFillingsPlanItem` content | Intended Work and planned-filling rows addressed only through that WorkPlan | Defined and tested by A.15.2 and A.15.3; not a TaskSignature or ProblemCard. |
 | `U.Work` | Performed dated Work | Governed by A.15.1; its record or evidence is separate. |
 | Result, measurement, assertion, evidence, or reliance | Exact output under C.16, C.2.1, A.10, G.6, B.3, G.11, or the direct result pattern | Can support a card claim but neither constitutes the card nor makes PFR obtain. |
 

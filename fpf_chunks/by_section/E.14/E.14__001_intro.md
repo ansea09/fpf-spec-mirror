@@ -6,12 +6,12 @@ section_id: "E.14:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:intro — Intro"
-line_start: 78701
-line_end: 78704
+line_start: 75998
+line_end: 76001
 dependencies:
   - "B.3.5"
   - "C.13"

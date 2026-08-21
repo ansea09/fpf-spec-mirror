@@ -1,39 +1,41 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.15"
-pattern_title: "Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
+pattern_title: "Pattern Change, Edition Continuity, and Impact Analysis"
 section_id: "E.15:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__003_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
+  - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:2 — Problem"
-line_start: 79063
-line_end: 79071
+line_start: 76376
+line_end: 76384
 dependencies:
-  - "A.10"
-  - "B.3"
-  - "B.4"
   - "C.18"
   - "C.19"
   - "E.10"
+  - "E.19"
+  - "E.21"
+  - "E.22"
+  - "E.23"
+  - "E.24.PUB"
+  - "E.8"
   - "E.9"
+  - "F.0.1"
+  - "F.1"
   - "F.15"
+  - "F.9"
 keywords:
-  - "LAT"
-  - "delta-classes"
-  - "evolution protocol"
-  - "lexical authoring"
 ---
 
 ### E.15:2 - Problem
 
-Without a disciplined authoring protocol:
+Two failure modes pull pattern change in opposite directions.
 
-* **One‑shot generation** dominates; there is no *evolutionary* path from vN → vN+1.
-* “Trace” degenerates into a proof‑of‑work: *a method ran*, not *quality improved*.
-* Pattern edits blur **lexicon vs. norms vs. examples**, breaking didactics and tool‑independence.
-* SoTA content is cited but not **integrated** via Bridges & CL; claims get over‑ported.
+* A quick patch can preserve the visible sentence while losing a predecessor idea, changing a direct consumer, or leaving an old instruction elsewhere.
+* A safety-minded author can turn a small repair into a full search, scoring, evidence, and publication programme whose records cost more than the decision and still do not prove that the chosen text is better.
+
+Labels do not solve the problem. Calling an edit “lexical”, “minor”, “refresh”, or “refactor” does not say whether practitioner entry, inputs, action, conditions, result, ontology, or assurance changed. A version number communicates an already made compatibility judgment; it does not make that judgment true.
 

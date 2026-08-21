@@ -6,12 +6,12 @@ section_id: "C.35:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__011_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:10 — Rationale"
-line_start: 67801
-line_end: 67808
+line_start: 65008
+line_end: 65014
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -59,9 +59,8 @@ keywords:
 
 ### C.35:10 - Rationale
 
-Architecture synthesis increasingly receives outputs from search, model transformation, LLM proposal, code-agent mapping, DSM modularization, NAS, simulation, benchmark, and source discovery. Refusing those outputs would waste useful structure. Accepting them as architecture would create false authority. C.35 occupies the middle position: admission of a produced carrier for a declared architecture use.
+Architecture synthesis increasingly receives results from search, model transformation, LLM proposal, code-agent mapping, DSM modularization, NAS, simulation, benchmark, and source discovery. Refusing those results would waste useful structure. Accepting them as architecture would create false authority. Four readable facts are normally enough to hold the middle position: exact result, actual or proposed organization, next-use condition, and limit or return. The larger record is justified only by a receiving use that depends on its additional distinctions.
 
-The separation of produced carrier, described structure, selected candidate structure, bearer boundary, eval return, and decision authority is the core ontology of the pattern. Without that separation, C.35 would duplicate C.32, PAD, ADR, ACE, C.16, C.18, C.19, G.5, and the patterns that define the neighboring evidence, assurance, gate, release, method, or work claims.
-
-The source families explain the chain. MBSE query practice and generated views show why produced descriptions can reveal and omit structure. Graph grammars and model transformations show why transformation trace and preserved structure matter. DSM and MDM work shows semantic-alignment risk between structural optimization and functional priors. Multi-objective NAS shows why Pareto fronts and generated architecture graphs need search-space, criteria, and bearer recovery. Sapunov, ToCS, and GonzoML show why agent maps and neural architecture labels need observation, uncertainty, and source-label recovery before candidate admission.
+The separation among claim-bearing result, modal architecture claim, obtaining A.22 structure, represented object, C.29 representation, publication occurrence or form, presentation carrier, bearer boundary, eval result, and decision authority is the core ontology of the pattern. Without that separation, C.35 would duplicate C.29, C.32, PAD, ADR, ACE, C.16, C.18, C.19, G.5, E.24.PUB, and the patterns for evidence, assurance, gates, release, methods, and Work.
+The source families explain why the branches differ. MBSE query practice, DSM and MDM work, and code-agent mapping expose discovery questions about extraction basis, observation, inference, unexplored regions, uncertainty, and validation. Graph grammars and model transformations expose the distinct need for exact source and result objects, trace, preservation, and loss. Multi-objective NAS and LLM-assisted design expose proposal questions about constraints, proposed organization, omissions, and validation without inventing a source structure. GonzoML shows why source labels still need recovery before any branch can support candidate admission.
 

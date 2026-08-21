@@ -6,12 +6,12 @@ section_id: "C.36:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:4 — Solution"
-line_start: 67944
-line_end: 68044
+line_start: 65134
+line_end: 65253
 dependencies:
   - "A.1"
   - "A.10"
@@ -25,6 +25,7 @@ dependencies:
   - "A.3.2"
   - "A.3.3"
   - "A.3.4"
+  - "A.6.1"
   - "A.6.RCD"
   - "B.3"
   - "C.11"
@@ -57,19 +58,21 @@ keywords:
 
 ### C.36:4 - Solution
 
-Recover the cultural-evolution case first, then identify the governing FPF pattern for each current value.
+First state the cultural-evolution case in ordinary language: what collective or discipline-facing activity is changing, which variants are in play, which relations transmit, recognize, select, retain, or mediate them, and what next action follows. Then use the applicable FPF pattern only for a claim whose definition or test matters.
 
-A cultural-evolution case is a collective-holon and discipline-facing situation. Admitted Systems may perform independently identified dated Work, and those Work occurrences may enact exact Methods. Separately identified work and method families may organize comparison. Memory or canon epistemes, recognition and selection regimes, mediation systems or architectures, measurement or visibility relations, and publication forms preserve, transmit, select, suppress, or refresh variants. Keep all facts required by A.15.1, A.2.1, and F.6 recoverable for each Work occurrence. The case card records the constellation without making a family, assignment, Method, episteme, or selected structure act.
+An admitted System may perform dated Work, and that Work may enact a Method. Work and Method families may organize comparison. Canon or memory epistemes, recognition and selection relations, mediation systems or architectures, measurement or visibility relations, and publication forms may preserve, transmit, select, suppress, or refresh variants.
 
-Cultural-evolution engineering proposes or performs deliberate intervention concerning one or more of those relations. The intended intervention may target generation, transmission, selection, recognition, memory, method-family, work-family, system-role-assignment, mediation, architecture, work-plan, performed-Work, measurement, or refresh relations. A card or intention establishes none of the performed Work, actual transformation, effect, measurement, selected structure, responsibility, or authority; each positive claim needs its direct predicate or the exact missing-governor result.
+These are separate facts. Keep the complete A.15.1, A.2.1, and F.6 basis for every claimed Work occurrence. A case card does not make a family, assignment, Method, episteme, or selected structure act.
 
-Keep three record forms available:
+Cultural-evolution engineering proposes or performs a deliberate change to one or more of these relations. Proposal, performed Work, actual transformation, measured effect, responsibility, authority, selected structure, and publication are different claims. Name each only when its own predicate obtains.
 
-- `CulturalEvolutionCaseCard@Context` names the case.
-- `StyleTraditionTermBridgeTable@Context` maps local labels to governed FPF values and bridges.
-- `CulturalEvolutionInterventionCard@Project` names the intervention and the next subject pattern.
+Use only the smallest form the current task needs:
 
-These forms assemble current FPF values. They do not mint `U.Culture`, `U.Style`, `U.Tradition`, `U.Practice`, `U.Genre`, `U.Scene`, `U.Technique`, `U.Platform`, `U.PlatformRegime`, `U.MeasurementRegime`, or `U.DevelopmentalMachine`.
+- `CulturalEvolutionCaseCard@Context` keeps a multi-relation case together;
+- `StyleTraditionTermBridgeTable@Context` keeps a familiar local label connected to the recovered FPF value or relation;
+- `CulturalEvolutionInterventionCard@Project` retains an intervention when proposal, Work, effect, or later comparison needs explicit identity.
+
+These forms assemble existing FPF values. They do not mint `U.Culture`, `U.Style`, `U.Tradition`, `U.Practice`, `U.Genre`, `U.Scene`, `U.Technique`, `U.Platform`, `U.PlatformRegime`, `U.MeasurementRegime`, or `U.DevelopmentalMachine`.
 
 #### C.36:4.1 - Style And Tradition Term Bridge
 
@@ -79,8 +82,8 @@ Use a term bridge when a source or project label must remain usable across conte
 StyleTraditionTermBridgeTable@Context:
   SourceLabel:
   SourceContext:
-  GovernedFPFValueOrSlot:
-  SubjectPatternLocator:
+  RecoveredFPFValueOrRelation:
+  ApplicablePatternRef:
   SenseCellRefs:
   BridgeRefs:
   AdmissibleUse:
@@ -88,18 +91,22 @@ StyleTraditionTermBridgeTable@Context:
   CurrentnessCondition:
 ```
 
-The table is a term-and-bridge table. `F.17` governs durable term rows, `F.18` governs naming restoration, and `F.9` governs bridge relations. C.36 uses the table only to keep cultural-evolution work connected to those subject patterns.
+The table records term use and any actual bridge. F.17 supplies durable term rows, F.18 supplies naming restoration, and F.9 defines bridge relations. C.36 uses the result only to keep the cultural-evolution case connected to those exact contributions.
 
 For music and dance, a label such as `prog`, `post-prog`, `contemporary`, `hip-hop`, `battle`, `TikTok dance`, `canon`, `school`, or `technique` may point to different FPF values in different contexts. The bridge row says which one is current before the project relies on the label.
 
 #### C.36:4.2 - Intervention Card
 
-Use an intervention card when one project proposes or performs a deliberate intervention concerning part of the cultural-evolution case. Keep proposal and performance separate. If actual performance is claimed, name the `U.Work` occurrence and keep all facts required by A.15.1, A.2.1, and F.6 recoverable; add actual change and a direct Work-to-change relation only when each independently obtains. If only an effect is claimed, use its own direct predicate and participants without manufacturing a performer, assignment, or Work. Recover unresolved claim-bearing *role* wording through `E.10.ROLE`; keep a local system-role kind and any separate System-classification judgment independently optional.
+Use an intervention card when a project must retain the identity of a proposed or performed intervention. First write the ordinary claim: what relation will change, by what proposed action, what effect is expected, how it will be measured, and what would stop or redirect the attempt. For example: `The festival will change jury feedback timing; adoption in the next teaching cycle is the measured effect; use A.15.2 for the plan and A.3.4 only if an actual change later obtains.`
+
+Keep proposal and performance separate. The full card below is an assurance expansion, not a first-use form.
+
+Open its Work, assignment, transformation, effect, architecture, and publication fields only when those identities matter. `AffectedMediationSystemOrArchitectureRefs` names actual mediating Systems or architectures only. When a publication distinction matters, `PublicationRefs` names only the exact E.17 source-backed face or exact E.24.PUB publication occurrence, publication form, presentation carrier, audience-declaration episteme, bounded-use-declaration episteme, or availability claim needed by this intervention; omit it otherwise. The optional row does not require a complete publication record. Actual access, reliance, use, and Work stay outside this field unless their own direct relations or occurrences are separately current. If actual performance is claimed, name the `U.Work` occurrence and keep all facts required by A.15.1, A.2.1, and F.6 recoverable. Add actual change and a Work-to-change relation only when each independently obtains. An effect can obtain without manufacturing a performer, assignment, or Work. Recover unresolved claim-bearing *role* wording through E.10.ROLE; a local system-role kind and System-classification judgment remain independently optional.
 
 ```text
 CulturalEvolutionInterventionCard@Project:
   ProjectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
-  InterventionCardProjectUseRelationRef?: U.RelationRef governed by the exact intervention-use or work-use pattern
+  InterventionCardProjectUseRelationRef?: U.RelationRef, only when a named pattern defines this project-use relation and the occurrence obtains
   InterventionRef:
   CulturalEvolutionCaseRef:
   ProblemCardRef?:
@@ -111,6 +118,7 @@ CulturalEvolutionInterventionCard@Project:
   AffectedCanonOrMemoryEpistemeRefs?:
   AffectedSelectionOrRecognitionRegimeRefs?:
   AffectedMediationSystemOrArchitectureRefs?:
+  PublicationRefs?: refs to the exact E.17 source-backed face or E.24.PUB publication occurrence, publication form, presentation carrier, audience-declaration episteme, bounded-use-declaration episteme, or availability claim needed by this intervention
   VariantSetOrPortfolioRefs?:
   TransformationFlowStructureRef?: exact independently selected E.18 TransformationFlowStructure
   P2WCarryThroughRef?:
@@ -127,13 +135,25 @@ CulturalEvolutionInterventionCard@Project:
   RefreshRef?:
 ```
 
-Here `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the intervention card is genuinely used in one actual project, `ProjectWorkOccurrenceRef` identifies the exact composite `U.Work` and `InterventionCardProjectUseRelationRef` identifies the direct relation by which that exact project Work uses the card. The suffix or either reference alone establishes no project locality. The intended intervention, card, and composite project Work remain separately identifiable.
+`@Project` is part of the card's retrieval name. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood.
 
-When performed intervention Work is current, `PerformedInterventionWorkRef` names the independently identified `U.Work` occurrence. All facts required by A.15.1, A.2.1, and F.6 remain recoverable. A short card may omit only an unused assignment identifier. The local system-role kind and any System-classification judgment remain separate optional facts. Assignment establishes no Work, capability, functioning, authority, or responsibility.
+When the card is used in an actual project, `ProjectWorkOccurrenceRef` identifies the composite `U.Work`, and `InterventionCardProjectUseRelationRef` identifies the direct relation by which that Work uses the card. The suffix or either reference alone establishes no project locality. The proposed intervention, card, and project Work remain separate.
 
-A positive responsibility claim uses an admitted domain predicate through `TargetedRelation` or `EffectClaimOrRelationRefs`; without one, return the A.6.RCD missing-governor result. `ActualTransformationRefs` may cite only independently identified A.3.4 bounded changes. `TransformationFlowStructureRef` instead cites one E.18 transformation-flow structure selected under A.22; adjacency or membership in it proves neither actual change nor Work-to-change. Any positive link from intervention Work to an actual transformation or other effect must cite its declared predicate, an admitted A.6.RCD local claim, or the relevant A.15.PROD branch; otherwise return `missing-governor`. An effect that does not require Work stays on its own direct relation; observing a value neither creates nor proves it.
+Use the expanded identity fields only when a later claim or comparison needs them. For performed intervention Work, `PerformedInterventionWorkRef` names the independently identified `U.Work`, and the A.15.1, A.2.1, and F.6 facts remain recoverable. A proposal omits Work and assignment fields. A local system-role kind and System-classification judgment remain optional and separate. Assignment establishes no Work, capability, functioning, authority, or responsibility.
 
-The intervention card does not authorize Work, and its targeted relation is not an obtaining-effect claim. It names the proposed intervention, the relation being targeted, and the next applicable pattern. Use `E.18.1` for P2W carry-through, `A.15.2` for work planning, `A.15.1` and `F.6` for performed Work, `A.3.4` for actual change, `A.15.PROD` or a direct local claim for production or Work-to-change, `C.18` or `C.19` for archive and pool treatment, `G.5` for selected-set result declaration, `C.11` for local choice, `C.35` when a generated or discovered structure-bearing carrier needs admission before architecture use, `C.30` for a direct architecture question, or `G.11` for refresh. If audience availability is current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
+**Responsibility and change.** A positive responsibility claim needs an admitted domain predicate through `TargetedRelation` or `EffectClaimOrRelationRefs`; otherwise return A.6.RCD's `missing-governor`. `ActualTransformationRefs` may cite only changes independently identified under A.3.4.
+
+**Flow representation.** `TransformationFlowStructureRef` may cite an E.18 transformation-flow structure selected under A.22. Membership or adjacency in that structure proves neither actual change nor a Work-to-change link.
+
+**Work-to-change.** A positive link from intervention Work to an actual transformation or effect needs a direct predicate that obtains for those participants, an exact A.6.1 application binding when that declaration supplies the link, or an admitted A.6.RCD local claim. If none applies, return the reason-specific non-assertability result.
+
+**Effects and production.** A.15.PROD answers only its production-work, entity-inception, or completion question; it does not supply the Work-to-change link. An effect that does not require Work stays on its own direct relation. Observing a value neither creates nor proves the effect.
+
+The intervention card does not authorize Work, and its targeted relation does not assert that an effect obtains. It keeps the proposed intervention, targeted relation, and next applicable pattern together.
+
+For planning and performance, use E.18.1 for P2W carry-through, A.15.2 for work planning, A.15.1 and F.6 for performed Work, and A.3.4 for actual change. A.15.PROD may answer one current production-work, entity-inception, or completion question; the Work-to-change link still uses the direct predicate, A.6.1 binding, A.6.RCD local claim, or non-assertability result above.
+
+For archive or pool treatment use C.18 or C.19; for a selected-set result use G.5; for local choice use C.11; for carrier admission before architecture use C.35; for an architecture question use C.30; and for refresh use G.11. If audience availability is current, use E.17 for a source-backed publication face and return to source, and E.24.PUB for the publication occurrence, form, carrier, audience, bounded use, and availability.
 
 #### C.36:4.3 - Evolution Sense Split
 
@@ -152,7 +172,7 @@ An engineering development loop may use C.36, but it does not automatically beco
 
 Recover the current object before accepting platform, regime, or attractor wording.
 
-- Platform, recommendation environment, visibility infrastructure, algorithmic mediator, or platform-regime wording may name a system, a system classified under an exact local system-role kind, another governed relation participant, a system architecture, product architecture, recognition regime, selection regime, measurement relation, visibility relation, publication relation, bounded context, or source-currentness relation.
+- Platform, recommendation environment, visibility infrastructure, algorithmic mediator, or platform-regime wording may name a System, a System classified under a local system-role kind, another relation participant, a system or product architecture, recognition or selection relation, measurement or visibility relation, publication relation, model-use boundary, project scope, or source-currentness relation.
 - Measurement regime wording may name a characteristic space, measurement relation, visibility relation, publication relation, dashboard relation, source-currentness relation, or comparison setup.
 - Attractor, basin, stable-dynamics, state-transition-law, and mathematical-model wording uses `A.3.3`, `C.27`, and `C.29` when that claim is current. Loose style metaphor remains term and bridge work through `F.17`, `F.18`, and `F.9`.
 

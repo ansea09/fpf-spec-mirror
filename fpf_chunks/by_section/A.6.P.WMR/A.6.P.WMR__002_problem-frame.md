@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:1 — Problem Frame"
-line_start: 16215
-line_end: 16242
+line_start: 15971
+line_end: 15998
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -42,13 +42,13 @@ The primary EntityOfConcern is one relation-bearing claim in an episteme. The tr
 
 **First useful result.** Start at the boundary-word sentence and answer three ordinary questions: what exact thing is being named, relative to what exact method, plan, work, operation application, transformation, delivery, or receiving use, and what direct verb can safely be said now—or why can it not yet be said.
 
-For example, a note says, `inspection report R-17 is the result of inspection`. `R-17` is an exact report episteme. If the current related object is independently identified inspection application `P-17` and its declaration-local result-binding predicate actually holds, write: `Inspection application P-17 returned report R-17.` Then stop unless the receiver separately asks about report inception, inspection Work, evidence, publication, delivery, or acceptance.
+For example, a note says, `inspection report R-17 is the result of inspection`. `R-17` is an exact report episteme. If the current related object is independently identified inspection application `P-17` and its declaration-local result-binding predicate actually holds, write: `Inspection application P-17 returned report R-17.` Then stop unless the current use separately asks about report inception, inspection Work, evidence, publication, delivery, or acceptance.
 
 The nearest three failures keep the same thing and related object while changing only the deciding deficit:
 
 - if the binding governor is known and the case facts fail its positive predicate, the proposed positive binding is `factually unsupported`;
 - if the governor is known but the fact needed to decide whether P-17 returned R-17 is unavailable, return `missing-information`;
-- if no current result-binding predicate or direct report relation governs that pair, return `missing-governor` and name the missing predicate and the pattern or declaration that would make the claim assertable; otherwise retain the exact non-assertability result.
+- if no current result-binding predicate or direct report relation governs that pair, return `missing-governor` and name the exact participants, proposed predicate, affected use, and absent definition; name a future pattern or declaration need only when one is actually identifiable.
 
 Only when another reading could change the answer should the practitioner make the formal distinctions explicit: reusable declaration versus intended, committed, current, or historical subject relation; exact extent; polarity; and whether the claim is assertable. A direct relation additionally names its exact `RelationKind` and resolving direct pattern or relation-declaration episteme. An operation binding or local claim instead names its declaration-local or admitted predicate and defining declaration. These assurance details check the ordinary answer; they are not prerequisites for understanding a simple positive past-tense sentence.
 

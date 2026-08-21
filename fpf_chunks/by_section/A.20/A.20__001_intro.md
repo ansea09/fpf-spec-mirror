@@ -1,49 +1,41 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.20"
-pattern_title: "Flow Constraint Validity — Eulerian"
+pattern_title: "Constraint Validity for Transformation Steps"
 section_id: "A.20:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.20 — Flow Constraint Validity — Eulerian"
+  - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:intro — Intro"
-line_start: 33452
-line_end: 33462
+line_start: 33001
+line_end: 33010
 dependencies:
-  - "A.19.SelectorMechanism"
+  - "A.10"
+  - "A.15"
   - "A.21"
-  - "C.18"
-  - "C.19"
+  - "A.6.1"
+  - "A.6.4"
+  - "B.3"
+  - "C.2.1"
+  - "C.27"
   - "E.17"
   - "E.18"
-  - "F.17"
+  - "E.20"
   - "F.9"
   - "G.11"
-  - "G.5"
-  - "G.6"
 keywords:
-  - "ConstraintValidity"
-  - "Eulerian"
-  - "GateFit"
-  - "MVPK"
-  - "PathSlice"
-  - "Sentinel"
-  - "SquareLaw"
-  - "TransformationFlowStructure"
-  - "flow"
 ---
 
-## A.20 - Flow Constraint Validity — Eulerian
+## A.20 - Constraint Validity for Transformation Steps
 
 > **Type:** Architectural (A)
 > **Status:** Stable
-> **Normativity:** Normative for flow valuations used by `E.18` `TransformationFlowStructure` under the Eulerian operational interpretation.
+> **Normativity:** Normative unless explicitly marked informative
 
-**Tech-name.** `FlowConstraintValidity` for transformation-flow valuations
-**Plain-name.** Flow constraint validity (Eulerian interpretation)
+**Plain name.** Internal-constraint check.
 
-**E.24.UK settlement.** A.20 does not admit `U.Flow` or `U.Flow.ConstraintValidity` as durable U-kinds. It governs the non-U constraint-validity relation for E.18 transformation-flow valuations. `U.Transfer` remains the single relation kind selected by E.18; `FlowConstraintValidity` is a pattern-local technical label for the step-local CV claim, status, and witness discipline.
+**Technical result name.** `ConstraintValidityResult`.
 

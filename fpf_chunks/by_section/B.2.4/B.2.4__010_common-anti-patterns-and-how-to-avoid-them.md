@@ -6,12 +6,12 @@ section_id: "B.2.4:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 38152
-line_end: 38161
+line_start: 37323
+line_end: 37332
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,9 +39,9 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Capability by declaration | A leader names a new capability, but the exact capability facts remain component-level or unknown. | Use A.2.2 and C.16 for the facts and A.10 for support; return to B.2 only if the existing-whole explanation fails. |
-| Function as part | A function block is treated as a physical or organizational part. | Use A.6.F, C.30.TFS-REL, A.6.M, and architecture allocation owners. |
-| Method chain as whole | A sequence of methods is called a new holon. | Recover method relation and work occurrence; return to B.2 only when a result holon is current. |
-| Diagram as flow structure | A diagram or graph is treated as the transformation-flow structure itself. | Use C.29, E.17, C.30.AD, or publication owners unless the selected structure is recovered. |
+| Capability by declaration | A leader names a new capability, but the exact capability facts remain component-level or unknown. | Use A.2.2 and C.16 for the facts and A.10 for support; use B.2 only if the existing-whole explanation fails. |
+| Function as part | A function block is treated as a physical or organizational part. | Use A.6.F for function-like wording, C.30.TFS-REL for the transformation-flow relation, A.6.M for the module, and C.30, A.22, or C.30.ASV for the current architecture, selected structure, or structural-view claim. |
+| Method chain as whole | A sequence of methods is called a new holon. | Recover method relation and work occurrence; use B.2 only when a result holon is current. |
+| Diagram as flow structure | A diagram or graph is treated as the transformation-flow structure itself. | Use the applicable description, publication, mathematical-lens, or selected-structure pattern; use B.2.4 only after the selected structure is recovered and a whole-reidentification question remains. |
 | Metric jump as whole | A KPI improves and MHT is declared. | Use C.16, A.10, and existing-whole explanation first. |
 

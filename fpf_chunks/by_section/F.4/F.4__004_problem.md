@@ -6,12 +6,12 @@ section_id: "F.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__004_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:2 — Problem"
-line_start: 91302
-line_end: 91315
+line_start: 88688
+line_end: 88701
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -57,5 +57,5 @@ Without this pattern:
 6. **Description and performed Work collapse.** A card is treated as evidence that Work happened.
 7. **Status and episteme uses become system roles.** Publications, standards, datasets, claims, and statuses acquire fake system-role classifications because they matter to reasoning.
 8. **Relation positions become system roles.** Participant meanings, declaration slots, interface places, and representation positions are mistaken for system-role kinds.
-9. **Same-spelled local kinds collapse.** Shared spelling is treated as one kind although two named practices or sources constitute two exact local kinds and no C.3.3 relation between them has been established.
+9. **Same-spelled kinds collapse or fragment.** Shared spelling is treated as proof of one kind, or a changed practice or source as proof of two, without comparing the candidate domains, operative membership conditions, member/non-member boundaries, and continuity rules.
 

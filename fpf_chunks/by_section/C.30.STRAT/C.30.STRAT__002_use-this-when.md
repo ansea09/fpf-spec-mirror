@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:0 — Use this when"
-line_start: 60856
-line_end: 60872
+line_start: 58046
+line_end: 58059
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,18 +50,15 @@ keywords:
 
 ### C.30.STRAT:0 - Use this when
 
-Use this pattern when stratification or architecture-operation wording is doing FPF-governed work but the selected `ontologicalNeighborhood` and subject pattern for the source-label use are not yet recoverable by value.
+Use this pattern when a source uses a compact architecture or stratification label and that word alone does not tell you what technical claim is being made.
 
-Typical source labels:
+Typical labels are `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, and architecture-operation words such as `block`, `expert`, `cache`, `router`, and `gate`.
 
-- `layer`, `level`, `tier`, `stack`, `ladder`, `rung`;
-- `block`, `expert`, `cache`, `router`, `gate` when architecture-operation prose uses them as recognition labels before the FPF kind is known.
+**What goes wrong if missed.** A useful local label starts acting as ontology. A `layer` is assumed to be a holon level, control layer, publication layer, scale window, or module boundary without deciding which. A `stack` becomes architecture by name; a `block` becomes a module; an `expert` becomes a system-role kind or performer; a `cache` becomes a state or memory relation; a `router` becomes a decision policy; a `gate` becomes a gate decision. Word shape establishes none of these.
 
-**What goes wrong if missed.** A source label starts acting as ontology. `Layer` may be taken as a holon level, control layer, publication layer, scale window, or module boundary without saying which ontological neighborhood is being used. `Stack` may become architecture by label. `Block` may become a module. `Expert` may be overread as a local system-role kind, classification, assignment, performer, or responsibility bearer. `Cache` may become a memory relation or state. `Router` may become a decision policy. `Gate` may become a gate decision. None of those interpretations is admissible by word shape alone.
+**What this buys.** The reader can keep the source word while making its actual meaning and safe use explicit. Once the object, relation, or claim is clear, use the pattern that defines, constrains, or tests it.
 
-**What this buys.** The practitioner can keep useful source language while recovering the selected `ontologicalNeighborhood` and applying the subject pattern, instead of replacing the source label with another umbrella word.
+**First useful move.** Copy the sentence and ask: “What does this label name here, what may I infer from it, and what must I do next?” If it is ordinary wording, keep it and stop. If the answer is already clear, use the applicable pattern directly. Otherwise write one line: `label -> recovered meaning; allowed use; blocked overread; next pattern or blocker`. Do not fill an author-facing E.10.ARCH routing row during ordinary project work.
 
-**First useful move.** Treat the word as a `sourceLabel` and complete the recovery row: source label, bounded text, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, relation to that `EntityOfConcern`, recovered kind, relation, or claim-use, subject pattern, admissible use, non-admissible use, and remaining reader use.
-
-**Not this pattern when.** If the subject pattern is already recoverable by value, use it directly. Do not use `C.30.STRAT` merely because a familiar word appears. If the wording is only ordinary source prose with no FPF-governed use, keep ordinary prose or quote-only wording and stop.
+**Not this pattern when.** Do not detour through C.30.STRAT when the object, relation, or claim is already clear. Do not use it merely because a familiar word appears. Ordinary source prose with no FPF claim remains ordinary prose or a quotation.
 

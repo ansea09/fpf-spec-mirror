@@ -6,12 +6,12 @@ section_id: "A.2.8:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 6642
-line_end: 6654
+line_start: 6676
+line_end: 6688
 dependencies:
   - "A.10"
   - "A.15.1"

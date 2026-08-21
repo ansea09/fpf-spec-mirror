@@ -6,12 +6,12 @@ section_id: "C.19:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__009_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:3 — Forces"
-line_start: 49357
-line_end: 49361
+line_start: 48144
+line_end: 48148
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -49,7 +49,7 @@ keywords:
 ---
 
 ### C.19:3 - Forces
-• Trust gates vs. discovery — graduation requires backstop confidence while maintaining explore_share.
+• Graduation vs. discovery — a direct policy condition must be satisfied while `explore_share` keeps discovery alive; assurance is cited only when the condition actually depends on a named assurance use.
 • Heterogeneity vs. focus — fairness quotas by family vs. depth on proven lines.
 • Lens expressiveness vs. audit — scalarised choices must not be called 'the frontier' and MUST record lens ids.
 

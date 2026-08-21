@@ -6,12 +6,12 @@ section_id: "E.17.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:1 — Problem frame"
-line_start: 80487
-line_end: 80497
+line_start: 77855
+line_end: 77865
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -35,7 +35,7 @@ Engineering descriptions repeatedly ask four different questions about one holon
 
 1. **Functional:** what transformations, capabilities, and effects characterize what the holon can or is intended to do?
 2. **Procedural:** what methods, orders, states, concurrency, failures, and recovery rules characterize how relevant behavior unfolds?
-3. **Allocation-responsibility:** which admitted Systems, exact local system-role kinds or obtaining assignments, capabilities, transformations, and separately governed responsibility relations or selected structures are related to the holon's behavior?
+3. **Allocation-responsibility:** which admitted Systems, exact local system-role kinds, current C.3.2 judgments that one System counts under a kind for one `KindSignature` edition and context slice, obtaining assignments, capabilities, transformations, and separately governed responsibility relations or selected structures are related to the holon's behavior?
 4. **Module-interface:** what constituent holons, interfaces, dependency structures, substitutability conditions, and change rules characterize its construction?
 
 The questions recur across hardware, software, organizations, and mixed systems. Their answers may appear as prose, models, diagrams, cards, or publications, but those forms do not identify the viewpoints or make an episteme a view.

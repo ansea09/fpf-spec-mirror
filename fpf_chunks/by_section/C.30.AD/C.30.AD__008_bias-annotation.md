@@ -6,12 +6,12 @@ section_id: "C.30.AD:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__008_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:5.1 — Bias-Annotation"
-line_start: 60245
-line_end: 60254
+line_start: 57433
+line_end: 57442
 dependencies:
   - "A.1"
   - "A.10"
@@ -51,6 +51,7 @@ dependencies:
   - "C.32.PAD"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.D2"
   - "E.10.MOVE"
   - "E.11.PUR"
   - "E.17"
@@ -79,8 +80,8 @@ keywords:
 | Bias | How C.30.AD prevents it |
 | --- | --- |
 | Description-as-architecture bias | `ArchitectureDescription` is a C.2.1 episteme about one exact holon, architecture-relation occurrence, or selected structure; it does not become that object or create it. |
-| View-as-structure bias | The same description episteme is a `U.View` only through an independently obtaining E.17.0 conformance relation to one exact viewpoint. `C.30.ASV` governs selected-structure adequacy; C.30.AD records description-set use and correspondence without minting membership. |
+| View-as-structure bias | The same description episteme is a `U.View` only through an E.17.0 conformance relation that actually holds. Use `C.30.ASV` to test selected-structure adequacy; C.30.AD records set use and correspondence without inventing membership. |
 | Publication-as-authority bias | Representation, publication occurrence, publication form, carrier, dashboard polish, model-card form, or report label does not establish description truth, empirical grounding, evidence, assurance, gate, decision, work authorization, or release authorization. |
 | Freshness-as-evidence bias | A freshness claim bounds admissible use; it does not make the description evidence-sufficient or publication-current. |
-| Semio-bias in architecture work | `C.30` governs obtaining architecture relations, exact selected structures, and architecture claims. `C.30.AD` opens when work must create, inspect, or rely on an exact description episteme with its own ClaimGraph, one EntityOfConcern, and effective `U.ReferenceScheme`. |
+| Semio-bias in architecture work | Use `C.30` for obtaining architecture relations, selected structures, and architecture claims. Open C.30.AD only when work must create, inspect, or rely on a description episteme with its own ClaimGraph, EntityOfConcern, and reference scheme. |
 

@@ -6,12 +6,12 @@ section_id: "F.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:4 — Solution"
-line_start: 97077
-line_end: 97472
+line_start: 94275
+line_end: 94681
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -117,7 +117,7 @@ Names such as "foundational principle pattern set", "FPF Core", "domain principl
 
 #### F.18:4.2a - Current Bounded-Model-Use NameCards
 
-The four expanded cards below are the current `FPFCoreReferenceScheme` naming settlements consumed by F.17:12.4d-12.4e. Each resolves to one exact current scheme-based F.17 cell and its separately governed local-sense basis relation. They publish designations for already governed values; they create no kind, structure, relation occurrence, assertion, Work, Bridge, use, reliance, row-availability occurrence, or other receiving action.
+The four expanded cards below are the current `FPFCoreReferenceScheme` naming settlements consumed by F.17:12.4d-12.4e. Each resolves to one exact current scheme-based F.17 cell and its separately governed local-sense basis relation. They select, record, and make recoverable designations for already governed values; they create no kind, structure, relation occurrence, assertion, Work, Bridge, use, reliance, row-availability occurrence, or other receiving action.
 
 ```text
 NameCard:
@@ -393,9 +393,15 @@ NameCard:
 
 Each card has one exact governed value and one selected Tech/Plain pair. No card is created for the `SystemRole` morphology, `J_kindUse`, a declaration-local slot, or a context field.
 
-#### F.18:4.2c - Pending R7 rule-content NameCard candidates
+#### F.18:4.2c - Demonstrative wording without a fabricated value or scheme
 
+A.22.CGUS:4.4 permits one exact C.2.1 episteme to show a traversal through an already qualified CGUS. It does not define a demonstrative-slice `U.Kind`, and `DemonstrativeUnfoldingSlice@Context` does not identify an exact slice by itself. The current sources also do not constitute `FPFSeminarTeachingReferenceScheme-2026-07-11` as a second by-value scheme whose interpretation differs from `FPFCoreReferenceScheme`.
 
+Keep *demonstrative walkthrough* as ordinary readable wording when a sentence already makes the exact shown slice clear. Keep *mantra* as bounded seminar or pattern-local recall wording when repetition and attention are the point. Do not manufacture two NameCards, SenseCells, a Bridge, a bounded-use claim, or current F.17 rows from those phrases. No naming settlement or public-row status is current here.
+
+If a later use needs stable citation of one exact slice, first recover that C.2.1 episteme from its claim content, the qualified CGUS it concerns, and its effective scheme. Then make one NameCard only if durable naming is useful. Add another card and a Bridge only if a second exact scheme-and-sense projection materially changes interpretation and one named correspondence use is current. Availability remains a separate E.24.PUB operation. `mantra move` stays E.10.MOVE Plain wording for a shown E.11.PUA continuation description; it is not a durable value or a second scheme.
+
+#### F.18:4.2d - Pending R7 rule-content NameCard candidates
 The following are candidate inputs, not current `NameCard` epistemes. Each uses the exact by-value `FPFCoreReferenceScheme`, keeps the governed `U.NameToken` separate from the R7 predicate or designation value it names, and creates no Bridge because the current comparison is within one scheme. E.10's exact TokenClass, reserved-name, and allowed-scope prerequisites remain unresolved, so `PublicRowStatus = pending` for all three and no `UnifiedTermRowRef` exists.
 
 | Candidate expression | Exact local sense and governed value | Covered head families and rejected overread | Three-arena invariance | Reopen/close condition |
@@ -422,20 +428,25 @@ One candidate can win even when it is not perfect, but the `SelectionRationale` 
 
 #### F.18:4.4 - Public Term Rows
 
-A durable local name needs no row. When public, Core-facing, durable-across-context, or cross-context reuse is current, test the then-current F.17 entry with the exact objects already recovered here. Public or durable reuse alone creates no Bridge. The entry must accept separate references to the governed value and its kind, direct pattern, NameCard episteme, selected Tech and Plain designations, effective by-value reference scheme, exact F.17 scheme-based SenseCell, any separate local-sense basis relation, and any actual F.9 Bridge. When the row use relates different `<ReferenceScheme, LocalSenseClaim>` projections, its rationale or notes must separately cite the affirmative C.2.1 claim for the row's exact action, direction, rule, and tolerance and that claim's current A.10 or B.3 reliance. Its result must contain one row for one naming decision with the supported and blocked citation uses visible. If it cannot, keep the durable name and NameCard local and mark the public row pending. Do not repair or emulate the missing row inside F.18.
+A durable local name needs no row. When public, Core-facing, durable-across-context, or cross-context reuse is current, test the then-current F.17 entry with the exact objects already recovered here. Public or durable reuse alone creates no Bridge.
 
-When that gate passes, keep these positions distinct:
+The F.17 entry must be able to recover:
 
-- `GovernedValueRef`: the exact already-governed value;
-- `GovernedValueKindRef`: its exact kind, never an alternative to the value reference;
-- subject pattern;
-- NameCard episteme and selected designation expressions;
-- exact local-sense and basis-relation references;
-- any actual Bridge occurrence;
-- for reuse between different semantic-context projections, the separate affirmative C.2.1 claim about that Bridge and its current A.10 or B.3 reliance, cited in the row rationale or notes rather than absorbed into the NameCard;
-- the row or row episteme, its edition, supported citation use, blocked use, and currentness condition.
+- the governed value and its kind;
+- the locator for the pattern containing its defining or testing rule;
+- the NameCard episteme and selected Tech and Plain designations;
+- the effective by-value reference scheme, exact F.17 scheme-based SenseCell, and any separate local-sense basis relation;
+- any F.9 Bridge that actually obtains.
 
-The row is neither the governed value nor an agent of publication. When availability is needed, an `E.24.PUB` `EpistemePublicationRelation` occurrence makes the exact row-episteme edition available to a declared audience for a bounded use through a distinct publication form and presentation carrier. The form does not publish itself, and the row's currentness claim or relation remains separate from the availability occurrence.
+If the row use relates different `<ReferenceScheme, LocalSenseClaim>` projections, its rationale or notes must cite the separate affirmative C.2.1 claim for the exact action, direction, rule, and tolerance, plus that claim's current A.10 or B.3 reliance. The result must contain one row for one naming decision and show both supported and blocked citation uses. If the entry cannot do this, keep the durable name and NameCard local and mark the public row pending. Do not repair or emulate the missing row inside F.18.
 
-A row for `ReviewerSystemRole` points to one exact local system-role kind and its selected names; it neither admits the kind nor makes an assignment obtain. A row for `EvidenceUseRelation` points to the admitted relation kind or other exact governed object; it does not make an episteme into a system-role holder or make the relation obtain. A row for `SlotKind` or `EndpointSlot` carries or designates selected vocabulary only after the exact slot object is governed; it neither makes that row edition available nor creates a generic interface ontology.
+#### F.18:4.4.1 - Cross-Projection Use and Reliance
+
+Open this branch only when one named reuse must relate different `<ReferenceScheme, LocalSenseClaim>` projections. Compare the exact F.17 cells. Another expression under the same projection is a designation question and gets no Bridge. Different projections open the F.9 question; a different scheme is only one way projections can differ and proves no relation. Test the F.9 predicate and cite a Bridge only when it actually obtains. With no current correspondence use, create no Bridge or use claim regardless of scheme count.
+
+State the proposed naming use in a separate current C.2.1 claim whose EntityOfConcern is that Bridge. Record the action, direction, correspondence rule, tolerated loss, and polarity.
+
+Then choose the reliance route. For ordinary bounded reliance below B.3's threshold and with no assurance claim, use the exact A.10 evidence-provenance relation and `RelianceDisposition=pass`. When an assurance claim is made or the B.3 threshold is met, follow B.3's first-claim decision: require a current positive claim with sufficient record or a disposition that stops or narrows the use. The threshold creates no positive claim. Neither route authorizes the use or proves that it occurred.
+
+If the reuse did occur, recover its actual Work under A.15.1, assertion episteme under C.2.1, publication occurrence under E.24.PUB, direct relation under its own predicate, operation application under A.6.1, or other exact result under its direct rule. Name a `BoundedModelUseStructure` only when that selected structure changes the sense or naming use. Until the Bridge, separate claim, and required reliance are current, keep the names local or record the unresolved alignment. A reference-scheme or model-use-structure difference alone supplies neither a premise nor governed-value identity.
 

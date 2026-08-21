@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:intro — Intro"
-line_start: 75604
-line_end: 75619
+line_start: 72870
+line_end: 72885
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -44,7 +44,7 @@ keywords:
 
 **At a glance.** `E.10.MOVE` restores the exact FPF value or relation hidden by move-like, movement-like, and readiness-like wording. It distinguishes an A.22.CGUS demonstrated row from a Plain local-mantra result and a Plain long-mantra map location, restores evaluation-result change wording to an E.23 prediction, and requires its subject pattern for every stronger claim.
 
-**Use this when.** Use this pattern when wording such as move, movement, step, action, readiness, route, workflow, or process is doing more than ordinary prose and a reader could mistake a demonstrated continuation, recommendation, prediction, transformation, readiness relation, gate decision, publication relation, or performed work for another kind.
+**Use this when.** Use this pattern when wording such as move, movement, step, action, readiness, route, workflow, or process is doing more than ordinary prose and a reader could mistake a demonstrated continuation, recommendation, prediction, transformation, readiness claim or result, gate decision, publication relation, or performed Work for another kind.
 
 **Primary EntityOfConcern.** One wording-use restoration over a bounded text span whose move-like or readiness-like wording has an FPF-governed use.
 

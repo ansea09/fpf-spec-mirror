@@ -6,12 +6,12 @@ section_id: "A.6.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__004_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:3 — Forces"
-line_start: 12435
-line_end: 12446
+line_start: 12471
+line_end: 12482
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -60,5 +60,5 @@ keywords:
 | Light use and typed reuse | One readable operation sentence is often enough, while repeated use may need exact argument and result declarations; a receiving claim about one use may additionally need a particular application and its bindings. |
 | Domain breadth and kind precision | The same form serves physical engineering, medicine, learning, and software without treating code or documents as the default object. |
 | Mathematical precision and ontology | Algebraic notation can expose preservation claims, but a mathematical lens does not decide the FPF kind by form. |
-| Recall and executable continuation | A short mantra helps a reader remember the distinctions; only CGUS states condition-governed entries, branches, returns, and stops. |
+| Recall and conditional structure | A short mantra helps a reader remember the distinctions; A.22.CGUS applies only when selected relations and constraints define one reusable structure with at least two potential continuations. |
 

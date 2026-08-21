@@ -6,12 +6,12 @@ section_id: "A.19.SPR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__004_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:2 — Problem"
-line_start: 29062
-line_end: 29072
+line_start: 28552
+line_end: 28562
 dependencies:
   - "A.10"
   - "A.16"
@@ -45,12 +45,12 @@ keywords:
 
 ### A.19.SPR:2 - Problem
 
-How can FPF repair state-family wording without:
+How can FPF keep useful words such as `state`, `status`, and `ready` without:
 
-- defining a general `Posture` kind;
-- replacing one broad word with another broad word such as `basis`, `support`, `state`, or `status`;
-- treating every state-like word as a `CharacteristicSpace` position;
-- treating publication, source, evidence, assurance, gate, decision, work, release or admission, and administrative states as one source, publication, or language-state case;
-- duplicating the state-family recovery algorithm inside every subject pattern;
-- demoting finite local fields such as `LensUseAdmissibilityValue` or `dynClaimPosture` when they are already well-formed, or erasing a real specification use or refinement gate that names its neighboring pattern governing the claim and value set.
+- creating one general `Posture` or readiness kind;
+- replacing one broad status word with another;
+- treating every state statement as a `CharacteristicSpace` position or predicate;
+- merging source use, evidence, assurance, publication, assignment state, work entry, gate decisions, performed Work, and project records;
+- copying the same wording-repair procedure into every pattern; or
+- deleting a useful local finite field whose object, values, rule, and practical use are already clear?
 

@@ -6,44 +6,45 @@ section_id: "A.22.CGUS:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__003_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:1 — Problem Frame"
-line_start: 34735
-line_end: 34740
+line_start: 34047
+line_end: 34052
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.21"
   - "A.22"
-  - "A.6.3.NAR"
-  - "B.3.5"
-  - "B.5.2"
-  - "C.13"
-  - "C.18"
-  - "C.19"
-  - "C.2.P.DR"
-  - "C.3"
+  - "A.3"
+  - "A.6.5"
+  - "A.6.P"
+  - "B.3"
+  - "C.29"
+  - "C.30"
+  - "C.32"
   - "C.32.P2S"
   - "C.33"
   - "C.35"
-  - "E.10.MOVE"
   - "E.11"
   - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.18.3"
   - "E.18.NET"
-  - "E.18.NET-conforming"
   - "E.23"
-  - "E.24.PUB"
   - "F.17"
+  - "F.18"
+  - "F.9"
   - "G.11"
-  - "G.5"
 keywords:
 ---
 
 ### A.22.CGUS:1 - Problem Frame
 
-FPF often needs to explain how several admitted records, current structures, typed positions, and relations jointly constrain several admissible next forms without turning that explanation into a workflow. A problem card, `G.2` source pack, architecture concern, candidate set, evaluation result, cue publication, and current `U.Structure` can participate through exact relations in pattern-use recommendations, candidate structures, rival hypotheses, evidence work, repair proposals, reader-facing narratives, or structure-use reconsideration conditions. The point is the recoverable constraint structure, including relation signatures, guards, preserved structures, C.33 loss notes, neighboring stronger claims, and their reconsideration conditions, not a one-input-one-output conversion.
+FPF often needs to explain how several identified things and relations constrain what may follow without turning that explanation into a workflow. The shared object is one A.22 structure. CGUS adds local loci and a membership test for potential branching; a continuation judgement then evaluates one case.
 
-These structures can be architecture-facing, reasoning-facing, narrative-facing, improvement-facing, typing-grounding-facing, evidence-facing, currentness-facing, or first-use-facing. They share one structural need: typed positions are connected by relations and constrained together, so admissible continuations are recoverable only while the relevant structures, C.33 adequacy notes, guards, exits, needed relation definitions or claim rules, and reconsideration boundaries remain visible.
+Descriptions, publication forms, evidence, assurance, authorization, work plans, performed Work, architecture claims, and mathematical models can be used alongside that structure. They remain separate objects and claims under the patterns that define or test them.
 

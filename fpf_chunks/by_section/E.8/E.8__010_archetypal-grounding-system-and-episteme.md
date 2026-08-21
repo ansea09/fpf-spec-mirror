@@ -6,12 +6,12 @@ section_id: "E.8:5"
 section_title: "Archetypal Grounding (System and Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__010_archetypal-grounding-system-and-episteme.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:5 — Archetypal Grounding (System and Episteme)"
-line_start: 72581
-line_end: 72590
+line_start: 69882
+line_end: 69891
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -58,7 +58,7 @@ keywords:
 
 | Template element | `U.System` illustration | `U.Episteme` illustration |
 |------------------|------------------------|---------------------------|
-| Section order | Pump‑assembly pattern follows sections **1–12** (and, optionally, **13**). | Meta‑analysis pattern follows the same sections. |
+| Section order | Pump‑assembly pattern follows sections **1–13** and ends with its required `:End` sentinel. | Meta‑analysis pattern follows the same sections and sentinel rule. |
 | S-1 Density w/o Jargon | “The pump casing seals at this face.” | “This episteme raises **F (Formality)** by making falsifiers testable.” |
 | Hook‑Weave‑Ground | Opens with field anecdote → weaves in Γ‑core → ties the claim to motor torque. | Opens with historical paradox → weaves in **A.10** evidence refs → ties the claim to peer‑review data. |
 

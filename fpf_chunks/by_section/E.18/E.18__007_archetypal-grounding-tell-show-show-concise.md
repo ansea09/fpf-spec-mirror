@@ -6,12 +6,12 @@ section_id: "E.18:6"
 section_title: "Archetypal Grounding (Tell–Show–Show; concise)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__007_archetypal-grounding-tell-show-show-concise.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:6 — Archetypal Grounding (Tell–Show–Show; concise)"
-line_start: 84061
-line_end: 84076
+line_start: 81371
+line_end: 81386
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -49,7 +49,7 @@ keywords:
 
 *Show-D (FPF pattern development and use - network case).* Pattern development, application to an `EntityOfConcern`, and use-found evaluation keep separately identified TFS values when each has its own identified object, Work, positions, and local state. Apply `E.18.NET` and cite the exact use, evaluation, evidence-return, or repair-trigger relation that connects their positions, together with the pattern or declaration that defines its predicate and occurrence identity; if no such rule is available, return `missing-governor`. E.18 defines each member's internal structure and smallest reopened `PathSlice`. A reader-facing *role* label remains ordinary wording until E.10.ROLE recovers its meaning; neither that label nor a feedback arrow makes the members one TFS or supplies the cross-member relation.
 
-**Cross-pattern boundary slice (QD archive).** A QD selector returns an archive. Under `E.18`, the selection occurrence and returned archive may be positioned along one `PathSlice` in one `TransformationFlowStructure`; the archive is the entity returned by the exact selector relation, not the slice, and selection returns a set or archive rather than a hidden scalar. Under `A.20`, the archive insertion or update step has a current CV class, `CV.Status`, and witness or refusal; no acceptance is inferred. Under `A.21`, a comparability gate or `LaunchGate` can publish a `GateDecision` only when that gate relation is current and consumes the relevant CV result. Under `E.20`, if a new selector mechanism-governing definition is introduced, that definition is the locus for the meaning while suites and wiring only cite or bind it. These are four identified loci, not one prescribed work order.
+**Cross-pattern boundary slice (QD archive).** A QD selector returns an archive. Under `E.18`, the selector occurrence and returned archive may occupy positions on one `PathSlice`; the archive is returned by the exact selector relation, not by the slice, and remains a set or archive rather than a hidden scalar. Under `A.20`, an archive insertion or update step may have exact constraint-validity results and a complete required-set summary; no acceptance is inferred. Under `A.21`, a comparability gate or `LaunchGate` publishes a decision only when its gate relation consumes the declared independent check results. Under `E.20`, a newly introduced selector-mechanism definition remains the meaning locus. These are four identified loci, not one prescribed work order.
 
 > *Post-2015 SoTA echoes (illustrative):* **TAMP and MPC**, **MAP-Elites and QD (incl. CMA-ME)**, **refinement-typed stacks**, **profunctor optics**. Worked examples and Tell-Show-Show vignettes for P2W, comparator and archive, network cases over separately identified development and application TFS members, and one-TFS refresh specializations stay outside this selected-structure core unless a current pattern explicitly selects them.
 

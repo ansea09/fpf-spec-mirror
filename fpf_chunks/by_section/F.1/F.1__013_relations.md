@@ -6,12 +6,12 @@ section_id: "F.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__013_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:12 — Relations"
-line_start: 90778
-line_end: 90795
+line_start: 88164
+line_end: 88181
 dependencies:
   - "A.10"
   - "A.7"
@@ -36,8 +36,8 @@ keywords:
 **Builds on.**
 
 - `C.2.1` identifies the `SourceCutNote` from its ClaimGraph, the exact receiving question as EntityOfConcern, and its effective ReferenceScheme, and distinguishes that episteme from its representation.
-- `F.0.1` recovers one source-local meaning after the source is selected.
-- `F.17` supplies a durable local-sense cell only when the receiving work needs one.
+- `F.0.1` supplies a plain local reading during selection when a candidate's answer-changing role depends on a disputed expression.
+- `F.17` supplies a durable local-sense cell after selection only when later reuse, a claim, a named receiver, or an actual relation needs one.
 - `A.11` supplies the parsimony test; finiteness does not replace relevance with a fixed count.
 - `E.15` supplies affected-premise reopening across source editions.
 

@@ -6,12 +6,12 @@ section_id: "B.2.4:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__007_archetypal-grounding-worked-cases.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:5 — Archetypal Grounding (Worked Cases)"
-line_start: 38113
-line_end: 38130
+line_start: 37284
+line_end: 37301
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,11 +45,11 @@ Use A.6.F for function-like wording, A.3.4 for transformations, C.30.TFS-REL for
 
 #### B.2.4:5.2 - CI/CD Capability
 
-A team may have methods for coding, testing, and releasing. That does not by itself create a new whole. Use method and work owners for the method relations and performed release work.
+A team may have methods for coding, testing, and releasing. That does not by itself create a new whole. Use the direct Method and Work patterns for the method relations and performed release work.
 
 B.2.4 becomes current only if exact capability, coordination, commitment, and work facts leave a result-holon question that the existing team or platform cannot explain. Evidence may support that claim; an automated delivery label or score does not decide the ontology.
 
 #### B.2.4:5.3 - Theory Explains New Phenomena
 
-A new theory may explain phenomena that the source portfolio did not explain. B.2.4 can route the exact explanatory-capability fact into the existing-whole check, while evidence separately supports or challenges its claim. B.2.3 owns the episteme-result specialization if the exact candidate is `U.Episteme`; C.2.1 owns its constitution; C.29 owns any mathematical-lens use.
+A new theory may explain phenomena that the source portfolio did not explain. B.2.4 can supply the exact explanatory-capability fact to B.2's ordinary existing-whole comparison, while evidence separately supports or challenges its claim. B.2.3 supplies the episteme-result specialization if the exact candidate is `U.Episteme`; C.2.1 defines its constitution; C.29 handles any mathematical-lens use.
 

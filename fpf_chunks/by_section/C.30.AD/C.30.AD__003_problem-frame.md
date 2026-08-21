@@ -6,12 +6,12 @@ section_id: "C.30.AD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__003_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:1 — Problem frame"
-line_start: 59946
-line_end: 59961
+line_start: 57141
+line_end: 57156
 dependencies:
   - "A.1"
   - "A.10"
@@ -51,6 +51,7 @@ dependencies:
   - "C.32.PAD"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.D2"
   - "E.10.MOVE"
   - "E.11.PUR"
   - "E.17"
@@ -76,17 +77,17 @@ keywords:
 
 ### C.30.AD:1 - Problem frame
 
-Architecture practice needs durable descriptions: multi-view documents, view models, generated relation graphs, architecture transformation-flow views, LCA control sketches, module or interface diagrams, deployment views, model cards, system cards, and architecture decision description sets. These descriptions let teams compare, reuse, refresh, inspect, and use architecture claims across viewpoint families and working concerns. When the project also claims a system-role assignment, Work attribution, authority, or responsibility, each remains a separate object: use A.2.1 and F.6 for assignment and Work, and an admitted direct domain predicate or exact A.6.RCD missing governor for responsibility. `VP.AllocationResponsibility` is only a viewpoint cue.
+Architecture practice needs descriptions that remain useful over time: multi-view documents, view models, generated relation graphs, transformation-flow views, control sketches, module or interface diagrams, deployment views, model cards, system cards, and architecture-decision description sets. Teams use them to compare, reuse, refresh, and inspect architecture claims. If a project also claims a system-role assignment, Work attribution, authority, or responsibility, keep that as a separate claim: use A.2.1 and F.6 for assignment and Work, and an admitted domain relation or an A.6.RCD missing governor for responsibility. `VP.AllocationResponsibility` is only a clue to the concern.
 
-The difficulty is that a description is not the architecture, an obtaining architecture relation, or its selected structure. The same holon and architecture-relation occurrence can have several descriptions. A description set can contain several separately identified epistemes. One such episteme is a `U.View` only while an exact `EpistemeViewpointConformanceRelation` obtains between that same episteme and one exact viewpoint episteme. Each view can hide, lose, coarsen, or emphasize different structure. A view can describe functional structure, flow or transformation-flow structure, control structure, module or interface structure, placement structure, information custody, evidence-reuse relation, assurance relation, scale or coarsening relation, or another declared architecture-relevant structure.
+A description is not the architecture, an architecture relation that actually holds, or the selected structure. The same holon or relation occurrence can have several descriptions, and a description set can contain several separately identified epistemes. A description counts as `U.View` only while the E.17.0 conformance relation actually holds between that same episteme and one viewpoint episteme. Different views can hide, lose, coarsen, or emphasize different structures: for example functional, flow, control, module, interface, placement, information-custody, evidence-reuse, assurance, or scale structure.
 
 The first-minute practitioner can ask:
 
-- What exact holon, obtaining `ArchitectureRelation` occurrence, or selected structure is this description episteme about?
-- What exact claim graph, one EntityOfConcern, and effective `U.ReferenceScheme` keep that episteme identifiable?
-- Which selected structures or structure kinds does this description carry?
-- Which exact viewpoint episteme and conformance relation, if any, make this same episteme a `U.View`?
-- What correspondence connects this description to architecture claims and other view epistemes without inventing a subject relation?
-- Which source episteme, source view, representation, or publication enters this use through which source-to-use path, and what stronger use would activate a source-return condition?
-- What admissible architecture move remains after the description has been used?
+- What holon, obtaining `ArchitectureRelation` occurrence, or selected structure is this description about?
+- Which ClaimGraph, EntityOfConcern, and reference scheme identify the description?
+- Which structures and structure kinds does it describe?
+- If it is called a `U.View`, which viewpoint and which conformance relation make that true?
+- What claim or relation connects it to architecture claims and other views without pretending that proximity creates correspondence?
+- Which sources, representations, or publications enter this use, by what path, and when must stronger use return to a source?
+- After using the description, what architecture move remains admissible?
 

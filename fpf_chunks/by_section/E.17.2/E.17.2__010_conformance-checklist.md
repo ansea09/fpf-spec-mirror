@@ -6,12 +6,12 @@ section_id: "E.17.2:9"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__010_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:9 — Conformance checklist"
-line_start: 80762
-line_end: 80778
+line_start: 78138
+line_end: 78154
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -39,7 +39,7 @@ keywords:
 6. Each concern episteme has one independently recoverable EntityOfConcern. Every relation claim names its exact predicate, participants, obtaining test, and applicable pattern; a multi-subject phrase is split or retained as a constraint claim, never promoted to a hidden group kind.
 7. Candidate E has one exact holon H as EntityOfConcern and becomes `U.View` only through obtaining `EpistemeViewpointConformanceRelation(E,P)`.
 8. A singular describing-use reference selects P without entering E/P identity or conformance; A.6.3 construction, declaration membership, naming, evaluation, rendering, and publication grant no membership.
-9. Every procedural failure or recovery claim has an exact operational subject and admitted Method, state-transition, or transformation-flow basis. A safety-analysis episteme, A.10 evidence path, or B.3 assurance branch appears only for a safety-bearing claim or named reliance. Procedural views remain distinct from MethodDescriptions and Work; allocation-responsibility views remain distinct from local system-role kinds, assignments, performer Systems, and responsibility relations; module-interface views remain distinct from direct module relations or functional views.
+9. Every procedural failure or recovery claim has an exact operational subject and admitted Method, state-transition, or transformation-flow basis. A safety-analysis episteme, A.10 evidence path, or B.3 assurance branch appears only for a safety-bearing claim or named reliance. Procedural views remain distinct from MethodDescriptions and Work; allocation-responsibility views keep the local system-role kind, any four-input C.3.2 classification judgment, optional extension, assignment, performer System, and responsibility relation distinct; module-interface views remain distinct from direct module relations or functional views.
 10. DDD Context Mapping remains a `U.Method`; a product called Context Map is a separately identified episteme and becomes a View only through exact E/P conformance.
 11. Every cross-view relation names its exact predicate, participants, obtaining test, and applicable pattern; a diagram edge, correspondence label, citation, shared holon, or common template is insufficient.
 12. Form expression, carrier bearing, five-participant publication and recurrence, rendering work, C.29 representation, and any publication-side viewpoint remain distinct and make no represented world-side relation obtain.

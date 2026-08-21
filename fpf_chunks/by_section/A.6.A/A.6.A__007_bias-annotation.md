@@ -6,12 +6,12 @@ section_id: "A.6.A:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__007_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:6 — Bias-Annotation"
-line_start: 17882
-line_end: 17896
+line_start: 17637
+line_end: 17651
 dependencies:
   - "A.15"
   - "A.16"
@@ -53,7 +53,7 @@ Lenses tested: **Gov**, **Arch**, **Ontology and episteme**, **Prag**, **Did**. 
 * **Arch bias:** this pattern prefers one stable relation family over loose action talk.
   *Mitigation:* allow Plain exploratory prose before Tech prose or normative publication.
 * **Ontology and episteme bias:** this pattern insists on separating invitation from evaluation, capability, commitment, and work.
-  *Mitigation:* explicit F.9 Bridge and bounded-use claims, optional F.9.1 reading notes, and mixed-sentence split rules.
+  *Mitigation:* first separate a direct contrast from a cross-context semantic-correspondence claim; test F.9 only for the latter, and keep any bounded-use claim and optional F.9.1 reading note separate.
 * **Prag bias:** it favors enactor, site, and action explicitness, which raises authoring cost.
   *Mitigation:* small starter set, normal-form discipline, and copyable rewrites.
 * **Did bias:** repeated rewrites make the pattern teachable, but may over-formalize early cues.

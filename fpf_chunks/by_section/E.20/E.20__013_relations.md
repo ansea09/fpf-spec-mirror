@@ -6,12 +6,12 @@ section_id: "E.20:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__013_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:12 — Relations"
-line_start: 87119
-line_end: 87138
+line_start: 84468
+line_end: 84487
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -48,12 +48,12 @@ keywords:
 * **E.8** (pattern structure and normative authoring discipline)
 * **E.10 / F.17–F.18** (lexical registers, twin labels, alias docking)
 * **E.19** (PQG/PCP profile-based review)
-* **E.15** (evolution discipline; DRR/edition thinking)
+* **E.15** (change between exact pattern editions, actual-delta classification, affected reach, and edition continuity)
 
 **Coordinates with:**
 * **A.6.1** (`U.Mechanism` definition template governance)
 * **A.6.7** (`MechSuiteDescription` integrity)
-* **A.15.3** (`SlotFillingsPlanItem` and planned baseline seam)
+* **A.15.2/A.15.3** (exact `U.WorkPlan` identity and declaration-local planned-filling content)
 * **E.18** (`TransformationFlowStructure` values that cite planned baselines)
 * **G.Core** (RSCR trigger catalogue)
 * **G.2** (SoTA synthesis packs)

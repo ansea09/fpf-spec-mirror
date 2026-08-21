@@ -6,12 +6,12 @@ section_id: "C.2.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__009_archetypal-grounding.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:5 — Archetypal Grounding"
-line_start: 42088
-line_end: 42118
+line_start: 40852
+line_end: 40891
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,21 +52,30 @@ keywords:
 
 ### C.2.P:5 - Archetypal Grounding
 
-| Scenario | Show - failure without C.2.P | Show - repair with C.2.P |
-| --- | --- | --- |
-| FPF pattern prose | A pattern section, row, or source line appears to support an action. The reader cannot tell whether the sentence is about applying a pattern, a section as `PublicationUnit`, a document, a file, or a relation. | Name the object and sentence function that matter. Keep an ordinary pattern-use claim when that is all the sentence says; narrow it to source-finding when the publication only helps navigation; use the named FPF pattern when its definition, constraint, or test carries the action claim. |
-| Engineering project publication | A green dashboard tile, certificate badge, or generated explanation is treated as evidence, gate passage, engineering justification, assurance, or permission for work. | The engineer names the generic publication face, MVPK face under E.17 constraints, or carrier, then names the one project-side FPF kind and reference that carries the downstream claim: evidence record, `A.20` constraint or adjudication decision record, `A.21` `GateDecision`, `A.21` `DecisionLogRef`, `B.3` assurance or engineering-justification record, `C.11` `ChoiceResult`, `C.11` decision record, `A.6.A` action invitation, `A.15` `U.WorkPlan`, `A.15.1` dated `U.Work` occurrence, `U.Method`, or `U.MethodDescription`. The next action is orientation or source-finding only, or finding or creating the named evidence, gate, decision, assurance, plan, work, method, or invitation before work or reliance proceeds. Choose one current value, not the list. |
-| Source-wording or source-relation text | A source note says that material supplies a claim without naming the recovered field: pattern application, selected source `U.Episteme`, publication occurrence when availability matters, publication form or carrier, relation record, or project-side FPF kind and reference. | State the recovered field and sentence function. Apply the relevant FPF pattern or cite the selected source episteme, publication occurrence, or relation. If the meaning remains unclear, reduce the phrase to source-finding or block its claim-bearing use. |
-| Pattern-control wording | A text says that one pattern routes into another, calls another pattern, exits to a pattern, or chains patterns. The reader may treat pattern application as executable process control. | If the sentence is about applicability, say that a practitioner uses or applies the pattern in the problem situation. If it is about project activity, name the action, work, method, decision, or invitation needed for that claim. Add the acting `U.System`, `U.MethodDescription`, `U.Method`, dated `U.Work`, or separate decision and invitation identities only when their distinction changes the claim or its later use. |
-| Architecture or structure wording | A source says an architecture description, structure representation, design rationale, or structural view carries a claim, but the sentence does not show whether the use under repair is a described holon, architecture description, structure, structural view, relation, publication face, or carrier. | `C.2.P` first recovers the source expression, source-relation function, and publication and carrier relation set. If the architecture claim, structure kind, structure relation, view, publication relation, or source relation is still hidden, use `C.30.P`; if it is already recoverable, use `C.30`, `C.30.ASV`, `A.22`, `C.31`, or the applicable architecture or structure pattern. Use `A.6.P` for relation-like wording. |
+#### C.2.P:5.0.1 - Cheap case: ordinary reader help
+
+**Starting sentence:** “The note supports the reader.”
+
+**Questions:** What does the note let the reader do? Does the sentence claim evidence, authority, gate passage, work permission, or assurance?
+
+**Result:** It only helps navigation. Rewrite: “The note helps the reader find section 4.2.” The recovered function is ordinary reader help. No FPF kind, relation, compact row, or full check is needed. Stop after the sentence.
+
+#### C.2.P:5.0.2 - Mixed case: display and decision
+
+**Starting sentence:** “The dashboard approves launch.”
+
+**Questions:** Is the dashboard the decision, or does it display one? Which exact project object carries the approval claim?
+
+**Result when a decision exists:** “The dashboard shows `GateDecision GD-17` for release candidate R; the decision, not the display, records that the gate passed.” E.17 and E.24.PUB keep the dashboard on the publication side; A.21 supplies the gate-decision meaning. The reader may find and cite GD-17, but must use the direct release or permission rule for launch. Stop.
+
+**Result when no decision resolves:** “The dashboard is only a cue; launch approval is unresolved.” Block approval-bearing use until the exact decision exists.
 
 #### C.2.P:5.1 - Boundary and Anti-Cases
-
 | Boundary case | C.2.P result | Why this protects use |
 | --- | --- | --- |
 | Ordinary reader help | The sentence says a note helps a reader find another section, with no evidence, authority, use-boundary, work, gate, decision, or project reliance claim. Leave ordinary wording ordinary or make one local wording repair. | Keeps ordinary prose affordable; `support` as ordinary help is not forced into a record. |
-| Relation-only support wording | The sentence says one claim, source description, grounding relation, evidence record, assurance record, causal-use relation, mathematical-lens relation, characteristic relation, declared-use boundary, work relation, or publication-companion use warrants another claim, and source-relation use or publication construction is already clear. Apply `A.6.P`; no C.2.P recovery is needed. | Prevents this pattern from absorbing relation precision restoration. |
-| Known FPF kind named by value | The sentence already names the project-side FPF kind and reference, such as an evidence path, gate decision, decision record, work occurrence, assurance record, or architecture pattern application. Apply the named pattern without an intermediate C.2.P step. | Avoids a needless logical hop and keeps the relevant neighboring-pattern application intact. |
+| Relation-only support wording | The sentence says one claim, source description, grounding relation, evidence record, `B.3` `AssuranceResult`, engineering-justification result, causal-use relation, mathematical-lens relation, characteristic relation, declared-use boundary, work relation, or publication-companion use bears on another claim, and source-relation use or publication construction is already clear. Apply `A.6.P`; no C.2.P recovery is needed. | Prevents this pattern from absorbing relation precision restoration. |
+| Known FPF kind named by value | The sentence already names the project-side FPF kind and reference, such as an evidence path, gate decision, decision record, Work occurrence, `B.3` `AssuranceResult`, or architecture pattern application. Apply the named pattern without an intermediate C.2.P step. | Avoids a needless logical hop and keeps the relevant neighboring-pattern application intact. |
 | Source phrase without recovered FPF-governed use | Source wording is interesting but its FPF kind, relation, or use disposition cannot be recovered. Keep it as reduced-use cue or block its FPF use. | Preserves source meaning without guessing FPF meaning. |
 | Replacement head is another umbrella | A proposed repair changes `support` to `basis`, `display` to `face`, or `route` to `path` while the kind and relation are still hidden. Mark repair incomplete. | Blocks lexical churn and forces the kind named by value, relation, and declared use boundary to be recovered. |
 | Apparatus too heavy | A one-sentence local repair is replaced by a full record, checklist, and source note with no additional declared use boundary. Use the local sentence or compact row instead. | Keeps first-use cost and maintenance cost inside the quality claim. |

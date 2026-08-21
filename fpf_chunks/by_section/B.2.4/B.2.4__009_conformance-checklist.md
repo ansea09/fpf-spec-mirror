@@ -6,12 +6,12 @@ section_id: "B.2.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__009_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:6 — Conformance Checklist"
-line_start: 38141
-line_end: 38151
+line_start: 37312
+line_end: 37322
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,10 +39,10 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B2.4-1` | B.2.4 is used only when exact capability, functioning, or selected in-life transformation-flow facts leave a B.2 whole-reidentification question after direct-owner explanations are tested. |
-| `CC-B2.4-2` | Ordinary capability, function, functioning, transformation, method, work, module, characteristic, evidence, and architecture claims return to direct owners. |
+| `CC-B2.4-1` | B.2.4 is used only when exact capability, functioning, or selected in-life transformation-flow facts leave a B.2 whole-reidentification question after subject-pattern explanations are tested. |
+| `CC-B2.4-2` | Ordinary capability, function, functioning, transformation, method, work, module, characteristic, evidence, and architecture claims return to subject patterns. |
 | `CC-B2.4-3` | No generic `U.Emergence`, `U.Function`, `U.MetaMethod`, or capability-root kind is created. |
 | `CC-B2.4-4` | Method, method description, work plan, and work occurrence remain separate. |
 | `CC-B2.4-5` | Mathematical or publication descriptions of transformation-flow structure do not replace the in-life structure. |
-| `CC-B2.4-6` | If B.2 remains current, it owns the one exact candidate new whole, complete recognition, whole comparison, and any optional record; B.2.4 introduces no result species. |
+| `CC-B2.4-6` | If B.2 remains current, it handles the one exact candidate new whole, complete recognition, whole comparison, and any optional record; B.2.4 introduces no result species. |
 

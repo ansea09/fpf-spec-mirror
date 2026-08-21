@@ -6,12 +6,12 @@ section_id: "A.6.C:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:4 — Solution"
-line_start: 11290
-line_end: 11396
+line_start: 11325
+line_end: 11432
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,7 +39,8 @@ keywords:
   - "OPTIONAL"
   - "SHOULD"
   - "a mechanism entry predicate enters A"
-  - "and SHOULD NOT enter D only for an individual duty"
+  - "an individual duty"
+  - "and SHOULD NOT enter D for a generic prescription or"
   - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
@@ -56,6 +57,7 @@ keywords:
   - "rewrite it or mark it informative"
   - "separate result and evidence"
   - "speech-act Work"
+  - "when separately instituted for an actual bearer"
 ---
 
 ### A.6.C:4 — Solution
@@ -72,7 +74,7 @@ Whenever a text uses “contract”, “guarantee”, “promise”, “SLA”, 
  * In FPF terms (A.2.3), **`U.PromiseContent` is promise content**—a **promise content**, not an execution event (`U.Work`) and not, by itself, an obtaining individual deontic relation (`U.Commitment`).
  * **Prose head rule (normative).** When referring to `U.PromiseContent` in normative prose, authors SHALL use the head phrase **promise content** (or **service offering clause** or **service promise clause**) and SHALL NOT rely on the bare head noun *service*. If the surrounding text also talks about endpoints, systems, and operations, apply **A.6.P:4.11a** only when the current relied-on use still hides which concrete subject or relation is meant; examples include a service access point, service delivery system, or service-delivery Work occurrence. Mere proximity to those words creates no additional claim or recovery duty.
    * **Recommendation:** give the promise-content a stable local ID (e.g., `SVC-*`) so it can be cited from commitments, gates, evidence, and MVPK faces without paraphrase drift.
- * **Claim-classification discipline:** keep meanings and definitions of the promised behavior in **L**. If an actual system or separately governed party has a duty concerning that promise content, state a separate **D** claim about the exact `U.Commitment`, plus any `A-*` and `E-*` references needed by that claim.
+ * **Claim-classification discipline:** keep meanings and definitions of the promised behavior in **L**. A generic prescription about that behavior is a separate **D** claim about its exact normative source and applicable rule content. If an actual System or separately governed party has that duty, state a separate **D** claim about the exact `U.Commitment`, plus any `A-*` and `E-*` references needed by that claim.
 
 2. **What was said, published, or instituted?**
 
@@ -85,9 +87,10 @@ Whenever a text uses “contract”, “guarantee”, “promise”, “SLA”, 
 
 3. **What governance or permission-looking claim exists?**
 
-   * When the model asserts or relies on an individual obligation, recommendation-as-duty, or prohibition, write a separate atomic D claim whose direct object is the exact separately obtaining `U.Commitment` defined by A.2.8. The claim describes that relation for use; it neither institutes it nor proves that it obtains.
+   * A generic prescription states what one exact policy or other normative episteme requires; it does not create an individual duty bearer or commitment occurrence. A claim that one actual System or separately governed party has that duty instead cites one separately obtaining A.2.8 `U.Commitment`. Here the normative episteme may be a contract, SLA, protocol, or policy, and the generic claim also states where its rule applies.
+   * When the model asserts or relies on an individual obligation, recommendation-as-duty, or prohibition, write a separate atomic D claim whose direct object is that exact separately obtaining `U.Commitment`. The claim describes that relation for use; it neither institutes it nor proves that it obtains.
    * For permission-looking wording, select one A.6 `A6-AW-*` row. Only `A6-AW-NORM-GRANT` enters D; `A6-AW-GATE` enters A; exercise, weak evaluation, conflict, and observed-source claims enter E when their closing facts are present. Classification under A.2.8.PER alone selects no quadrant.
-   * **Commitment-branch checklist (A.2.8 minimal structure):**
+   * **Individual-commitment checklist (use only for the individual branch):**
      * identify one exact `U.Commitment` occurrence and the separate D-claim or `CommitmentAssertion` about it;
      * select exactly one actual bearer branch: an admitted `U.System` or separately governed party;
      * name non-empty exact duty referents, any actual counterparties, normalized modality, scope, and validity window;
@@ -110,10 +113,10 @@ After unpacking, classify each **atomic** statement using the Boundary Norm Squa
   * Put meanings, invariants, and metric definitions for what is promised in **L** (`L-*` in signature laws and definitions).
   * Put “eligible, covered, or valid iff …” predicates as **A** (`A-*` admissibility or gate predicates), not as deontic obligations.
 * **Governance and permission-looking claims → claim-specific quadrant.**
-  * Put “MUST, SHALL, or commits to …” statements as **D** (`D-*`) claims about exact separately obtaining `U.Commitment` relations (A.2.8); do not use a completed record as the relation.
-  * For authority-looking wording, select one A.6 `A6-AW-*` row: norm/grant → **D**, gate → **A**, and actual exercise or evaluated finding/conflict/source → **E**. Cite the exact A.2.8.PER object only where that row requires it; do not let its claim family choose the quadrant.
-  * If compliance requires satisfying or enforcing a gate, the commitment **MUST** reference the relevant `A-*` ID(s) (D→A).
-  * If reliance on the commitment needs evidence, cite the relevant `E-*` claim from the separate `CommitmentAssertion` or evidence-use relation (D→E); evidence does not become a field that makes `U.Commitment` obtain.
+  * Put a generic contract, SLA, protocol, or policy prescription in **D** as a claim about its exact normative source and applicable rule content. Put an individual-duty claim in **D** only when it cites an exact separately obtaining `U.Commitment` under A.2.8; do not use a completed record as the relation.
+  * For authority-looking wording, select one A.6 `A6-AW-*` row: norm/grant → **D**, gate → **A**, and actual exercise or evaluated finding/conflict/source → **E**. Cite the exact A.2.8.PER object only where that row requires it; the selected subject pattern or kind of direct object does not choose the sentence's quadrant.
+  * If a generic prescription or individual duty requires satisfying or enforcing a gate, its `D-*` claim **MUST** reference the relevant `A-*` ID(s) (D→A).
+  * If reliance on either D branch needs evidence, cite the relevant `E-*` claim or evidence-use relation (D→E); for the individual branch, a `CommitmentAssertion` may carry that reference. Evidence does not make `U.Commitment` obtain.
 * **Performed Work → E (did it happen?).**
   * Name the exact A.15.1 Work occurrence and its performer, assignment, method, extent, and containing system. Do not add an output or delivery field.
 * **Result or consequence → E when current (what else happened?).**
@@ -121,7 +124,7 @@ After unpacking, classify each **atomic** statement using the Boundary Norm Squa
 * **Evidence → E when relied on (how can the claim be used?).**
   * Name the exact A.10 path, observation conditions, and carrier for the Work or consequence claim being supported. Carrier presence establishes none of those objects.
 **Keyword placement rule (canonical claim set).**
-Within the canonical L-, A-, D-, or E-classified claim set, BCP-14 keywords are statement operators, not ontology or quadrant selectors. `MUST`, `MUST NOT`, `SHOULD`, and `SHOULD NOT` enter D only for an individual duty, recommendation-as-duty, or prohibition. `MAY`, `OPTIONAL`, and authority-looking synonyms trigger the A.6 `A6-AW-*` branch: a current norm or grant enters D, a mechanism entry predicate enters A, and an actual exercise or evaluated finding enters E. If the wording does not expose the branch and direct object, rewrite it or mark it informative.
+Within the canonical L-, A-, D-, or E-classified claim set, BCP-14 keywords are statement operators, not ontology or quadrant selectors. `MUST`, `MUST NOT`, `SHOULD`, and `SHOULD NOT` enter D for a generic prescription or, when separately instituted for an actual bearer, an individual duty, recommendation-as-duty, or prohibition. `MAY`, `OPTIONAL`, and authority-looking synonyms trigger the A.6 `A6-AW-*` branch: a current norm or grant enters D, a mechanism entry predicate enters A, and an actual exercise or evaluated finding enters E. If the wording does not expose the branch and direct object, rewrite it or mark it informative.
 
 A helpful rewrite rule:
 
@@ -159,7 +162,7 @@ Use the **A.6.B Claim Register** (IDs, statements, quadrant, and canonical locat
 
 * `bundleId` (optional local ID grouping atomic claims discussed together)
 * `questionRef` (optional pointer `Q1`, `Q2`, `Q3`, or `Q4` to the four questions above; it selects no kind, subject predicate, or quadrant)
-* `directObjectRef` (the exact `U.EntityRef(...)`, or the canonical claim ID when the row's direct object is itself a claim)
+* `directObjectDesignation` (use `U.RelationRef` constrained to the exact relation family for a relation occurrence, the applicable `U.EpistemeRef` for a whole episteme, or the admitted reference kind for another independently identified entity. When one claim inside an episteme is the direct object, use `C.2.1 ClaimAddress`: exact episteme-edition reference plus intrinsic claim identity declared by that edition's ClaimGraph. The entity-reference branches designate independently identified objects; the claim branch designates content inside the named edition. Neither carries the designated content.)
 * `directObjectPatternLocator` (the exact pattern-description locator for the ClaimGraph that defines or constrains that direct object; it asserts no ownership relation)
 * `faceRefs` (optional mapping from `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane` to where this same claim is rendered)
 

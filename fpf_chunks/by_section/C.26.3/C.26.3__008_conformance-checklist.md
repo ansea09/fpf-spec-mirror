@@ -6,12 +6,12 @@ section_id: "C.26.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__008_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:7 — Conformance Checklist"
-line_start: 54615
-line_end: 54633
+line_start: 53393
+line_end: 53411
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,12 +43,12 @@ keywords:
 
 | ID | Check |
 | --- | --- |
-| CC-C26.3.1 | The local viability-bearer position points to one exact object already identified under its subject pattern; the position introduces no kind or relation. |
+| CC-C26.3.1 | The viability bearer is one exact System under A.1, one exact A.22 `U.Structure` under all four identity discriminators, or another exact subject under its direct identity rule; the local position introduces no kind, relation, or configuration object. |
 | CC-C26.3.2 | The protected promise or function is named. |
 | CC-C26.3.3 | Envelope variables or quality-bundle dimensions and the viable region / bounds are named. |
 | CC-C26.3.4 | Disturbance class and scenario/window are named. |
 | CC-C26.3.5 | Sensors/probes and their possible behavior-changing or dimension-hiding effects are named when measurement carries the envelope claim. |
-| CC-C26.3.6 | Each candidate intervention is recovered as a proposal about an exact Method, description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description; any dated Work, actual transformation or other change, obtaining relation occurrence, or resulting state is identified separately, and applicable authority and latency are stated without coercing the other objects into Work. |
+| CC-C26.3.6 | Each candidate intervention is recovered as a proposal about an exact Method, description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description; dated Work, actual change, obtaining relation occurrence, and resulting state remain separate. A fixed F.9 Bridge is never the object revised or ended by Work; an endpoint/profile change opens a new candidate that must pass F.9 independently. |
 | CC-C26.3.7 | Boundary condition, trade-off condition, and adaptation cost are stated. |
 | CC-C26.3.8 | Failure mode and re-probe/destabilization condition are stated. |
 | CC-C26.3.9 | Metrics or dashboards are not treated as the envelope itself. |

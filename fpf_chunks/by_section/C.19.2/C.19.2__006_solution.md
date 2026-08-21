@@ -6,12 +6,12 @@ section_id: "C.19.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:4 — Solution"
-line_start: 49847
-line_end: 49904
+line_start: 48644
+line_end: 48701
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -40,11 +40,11 @@ Use this minimal lens before taking a branch:
 
 1. **Declared use:** the practical question, direct result kind, claimed guarantee, non-negotiable constraints, and horizon.
 2. **Selected or candidate direct-kind object:** the method description, model, ontology module, formal technique, or other governed object being considered.
-3. **Application method episteme:** this pattern's `U.MethodDescription`, which guides the work but does not perform it.
-4. **Performer and work:** an admitted `U.System` performs dated configuration and application `U.Work`. Name the assignment occurrence that covers the Work and its declared species; the occurrence's holder is that System, and F.6 states that the System performed the Work under the assignment.
+3. **Application MethodDescription:** this pattern's `U.MethodDescription` episteme and the admitted `U.Method` it describes. A practitioner uses its claims to guide the Work; neither the episteme nor the Method performs it.
+4. **Performer and work:** an admitted `U.System` performs dated configuration and application `U.Work` using the described Method. The complete A.15.1/F.6 assignment and attribution basis must obtain. In the short account, point to that basis and show assignment identity, species, participants, or attribution detail only when the present use relies on it, attribution is ambiguous, or source wording must be repaired.
 5. **Problem-facing result:** the domain, engineering, assurance, architecture, or other subject-pattern result inspected after the work.
 
-The intended reader may also be the person-system that performs the work, but reader position and performer relation remain different. A plan, checklist, method episteme, option row, or publication cannot occupy the performer position.
+The intended reader may also be the person-system that performs the Work, but reader position and performer relation remain different. A plan, checklist, `U.MethodDescription` episteme, described Method, option row, or publication cannot occupy the performer position.
 
 #### C.19.2:4.2 - Select the truthful application branch
 

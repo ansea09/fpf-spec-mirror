@@ -6,12 +6,12 @@ section_id: "C.30.ILC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:4 — Solution"
-line_start: 62291
-line_end: 62395
+line_start: 59448
+line_end: 59552
 dependencies:
   - "A.10"
   - "A.22"
@@ -114,7 +114,7 @@ CrossScopeArchitectureResidualTriageRecord@Context ::= {
 
 **Multilevel optimization boundary.** First establish whether local optimization in one declared holon level or scope degrades another declared holon level or scope. This triage neither optimizes the architecture nor proves that one global function exists. Use `C.29` with `MLU.Description@MultilevelLearningFrustration` only when the mathematical representation supplies a recoverable mapping between declared levels, scopes, scale windows, or coarse-graining steps and states what structure is preserved and lost. Conflicting structures can enter this lens only when each structure is assigned to a declared holon level, scope, scale window, or coarse-graining step and the mapping shows why the conflict is interlevel. If scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope becomes an architecture scale-preference claim, use `C.31.ASAP` and keep any mathematical-lens claim in `C.29`. If the practitioner needs to generate or compare residual-reducing candidate architecture moves, apply `C.32.MLAO` for the residual-reducing multilevel candidate frame and `C.32` for the candidate palette. Use `G.5` only when selected-set result declaration is current and `C.11` when final local choice is current. For audience publication, use `E.17` for a source-backed face and return to source and `E.24.PUB` for the publication occurrence and audience availability. Use `C.32.PAD` when a project architecture decision is current. Stop the C.30.ILC use at the residual and first admissible move. If the case is only a conflict between two selected structures with no declared multilevel or scale mapping, keep it in `C.30`, `C.30.ASV`, `D.3`, `D.4`, `C.28`, evidence, assurance, or decision patterns as applicable.
 
-Anti-collapse rule: no generic frustration score, no risk-matrix residual, no ethical-mediation takeover, no physics or biology ontology transfer, no global-optimizer proof, no causal proof, and no assurance proof. A frustration or risk label does not govern the case until declared holon levels or declared scopes, the selected structure or structure kind that carries them, residual-bearing locus, and first architecture move are recoverable; `D.3` applies only when interlevel ethical conflict structure is current; `D.4` applies only when mediation or decision use of that structure is current.
+Anti-collapse rule: no generic frustration score, no risk-matrix residual, no ethical-mediation takeover, no physics or biology ontology transfer, no global-optimizer proof, no causal proof, and no assurance proof. A frustration or risk label does not govern the case until declared holon levels or declared scopes, the selected structure or structure kind that carries them, residual-bearing locus, and first architecture move are recoverable; `D.3` applies only when an interlevel ethical conflict needs an inspectable description; `D.4` applies only when mediation or decision use of that D.3 description is current.
 
 **Stop condition.** Stop after `CrossScopeArchitectureResidualTriageRecord@Context` when it names the residual and the first admissible architecture move. It does not measure scale preference, generate candidate architectures, mediate ethical conflict, or select a decision. Apply a subject pattern only when a claim kind being made exists:
 
@@ -127,9 +127,9 @@ Anti-collapse rule: no generic frustration score, no risk-matrix residual, no et
 | final local choice | `C.11` |
 | causal outcome claim | `C.28` |
 | evidence or assurance | `A.10`, `B.3`, or `G.6` |
-| ethical conflict structure, mediation, or decision use | `D.3` for interlevel ethical conflict structure; `D.4` for mediation and decision use of that structure |
+| ethical conflict description, mediation, or decision use | `D.3` for the interlevel ethical conflict description; `D.4` for mediation and decision use of that description |
 
-**D.3 and D.4 boundary.** `D.3` handles interlevel ethical conflict structure: affected holons, systems, epistemes, collections, declared levels or scopes, interests or concerns, value frames, agency or responsibility thresholds, methods, work, transformations, evidence, uncertainty, and consequence horizons. `D.4` handles mediation and decision use of that `D.3` structure: mediation, refusal, evidence demand, causal return, assurance return, architecture return, accepted residual, and bounded decision use. `C.30.ILC` handles architecture-specific recognition: whether the conflict or residual is borne by declared holon levels or declared scopes inside a selected structure such as structural views, allocation, interfaces, control rates, work reuse, evidence reuse, scale windows, or coarse-graining loss. It is a triage and architecture-move pattern, not an ethical mediation pattern.
+**D.3 and D.4 boundary.** A D.3 use identifies an interlevel ethical conflict-description episteme: it connects each ethical claim to the affected entity, declared level relation or scope, value-frame edition, expected consequence, horizon, and evidence use or uncertainty when current, then states the tension among the sides. A D.4 use takes that description into mediation, refusal, evidence demand, causal return, assurance return, architecture return, accepted residual, or bounded decision use. `C.30.ILC` handles architecture-specific recognition: whether the conflict or residual is borne by declared holon levels or declared scopes inside a selected structure such as structural views, allocation, interfaces, control rates, work reuse, evidence reuse, scale windows, or coarse-graining loss. It is a triage and architecture-move pattern, not an ethical mediation pattern.
 
 **Architecture-move examples.**
 

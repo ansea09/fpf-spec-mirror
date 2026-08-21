@@ -6,12 +6,12 @@ section_id: "A.19:4"
 section_title: "Forces (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__006_forces-informative.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:4 — Forces (Informative)"
-line_start: 28407
-line_end: 28415
+line_start: 27926
+line_end: 27934
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,11 +20,14 @@ dependencies:
   - "A.19.CHR"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.19.UNM"
   - "A.2.6"
   - "A.6.5"
+  - "B.1"
   - "C.16"
   - "C.2.1"
   - "E.24"
+  - "F.17"
   - "F.9"
   - "G.11"
   - "G.4"
@@ -45,10 +48,10 @@ keywords:
 
 ### A.19:4 - Forces (Informative)
 
-- **F1 - Scale integrity at product size.** Every coordinate retains its own characteristic, scale, unit, admissible domain, and missingness meaning.
+- **F1 - Scale integrity at product size.** Every Coordinate retains its own Characteristic, Scale, unit, and admissible domain, while an observation's missing or censored status remains separate.
 - **F2 - Transdisciplinarity with lexical clarity.** Quantitative, qualitative, intrinsic, and relational characteristics must compose without replacing the canonical A.17-A.18 vocabulary.
 - **F3 - Minimal core with explicit overlays.** Order, topology, distance, normalization, scalarization, and aggregation are available only when declared under their subject patterns.
 - **F4 - Predicate reuse without consumer collapse.** One semantic predicate should be reusable across state, comparison, acceptance, selection, and improvement uses, while each use retains its own scope, slice, plane, window, evaluation, result, and evidence relations.
-- **F5 - Safe composition.** Projection, embedding, product, and Bridge-based alignment must preserve exact coordinate and scale meaning and make losses explicit.
+- **F5 - Safe composition.** Projection, embedding, product, and declared coordinate transport must preserve exact coordinate and scale meaning and make losses explicit. Any semantic Bridge or plane relation remains separate from coordinate transport and is cited only by a consumer that needs it.
 - **F6 - Ordinary usability.** An engineer should be able to state a space and criterion without first creating a publication record, evaluation occurrence, or generic result relation.
 

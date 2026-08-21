@@ -6,44 +6,44 @@ section_id: "C.24:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:0 — Use this when"
-line_start: 52322
-line_end: 52327
+line_start: 51140
+line_end: 51150
 dependencies:
-  - "A.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
-  - "A.15.5"
   - "B.1.6"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.24"
+  - "C.19.1"
   - "C.28"
   - "C.5"
-  - "E.10.MOVE"
-  - "E.11.PUR"
+  - "E.17"
   - "E.23"
-  - "E.3"
-  - "E.5"
+  - "E.24.PUB"
   - "G.5"
   - "G.6"
   - "G.9"
   - "U.PromiseContent"
-  - "U.WorkPlan"
 keywords:
 ---
 
 ### C.24:0 - Use this when
 
-- one concrete choice result already exists and the next task is now how to plan, gate, sequence, and replan tool calls admissibly
-- the next admissible output should be one enactment-facing `CallPlan` or one `CheckpointReturn`, not one more local choice result or pool-policy result
-- budget, assurance, and stop conditions must be visible before calls are burned
+Use `C.24` when one choice has already been fixed and the practical question is now:
+
+- which admitted Methods to call, in what order;
+- which time, compute, cost, and risk budget to reserve;
+- what stops or replans the route; and
+- whether the useful output is a `CallPlan` or a `CheckpointReturn`.
+
+Do not use it to generate candidates, keep a live pool, choose among unresolved options, execute calls, or score completed Work.
 

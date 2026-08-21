@@ -6,12 +6,12 @@ section_id: "C.3.4:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__006_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:4 — Forces"
-line_start: 45329
-line_end: 45337
+line_start: 44122
+line_end: 44132
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -27,8 +27,10 @@ keywords:
 
 | Force | Tension to resolve |
 | --- | --- |
-| Local specialization versus common core | A context needs local tailoring without forking the base kind. |
-| Expressivity versus determinism | The declaration must express real constraints and remain reproducibly checkable at guard time. |
-| Context versus entity constraints | Conditions over `U.ContextSlice` belong to Scope; conditions over the candidate belong to the classification judgment. |
-| Reuse versus proliferation | Reuse is useful, but a stable conceptual distinction may warrant a separately identified local kind and independently obtaining `U.SubkindOf` relation. |
+| Local specialization vs common core | A use needs tailoring without forking the base kind. |
+| Expressivity vs determinism | Real constraints must remain reproducibly checkable. |
+| Applicability vs uncertainty | Candidate/slice mismatch stops before the judgment; missing facts preserve `unknown`. |
+| Scope vs candidate constraints | Conditions on ClaimScope stay under A.2.6; conditions on the candidate enter classification. |
+| Reuse vs proliferation | Stable conceptual distinctions may warrant a separately identified kind, but declaration reuse alone does not. |
+| Locality vs identity | A changed locality prompts comparison of membership distinctions, not automatic bridging. |
 

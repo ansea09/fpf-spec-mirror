@@ -6,12 +6,12 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how occurrences form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-occurrences-form-holarchies.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:5 — Work mereology (how occurrences form holarchies)"
-line_start: 24456
-line_end: 24530
+line_start: 23881
+line_end: 23951
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -61,17 +61,17 @@ keywords:
 
 ### A.15.1:5 - Work mereology (how occurrences form holarchies)
 
-Work identity is occurrence-grounded and 4D. Start from the actual performance history: work-entry and end events, occupied spatiotemporal extent, performer systems and assignments, enacted method, containing system, any direct work-to-referent relations, actual bindings, resource use, and exact work-part or temporal relations. A distinct actual work-entry after an established completion or termination identifies a later occurrence; a proper work part and its parent are distinct individuals; independently grounded concurrent performances are distinct. A record, trace, policy episteme, or later judgment creates none of them. A continuity policy is needed only when a named use must decide how to group that already existing history across an interruption, resumption, mode or method switch, performer replacement, referent or binding change, or composite boundary.
+Work identity is occurrence-grounded and 4D. Start from the actual performance history: work-entry and end events, occupied spatiotemporal extent, performer systems and assignments, enacted Methods, the exact locally declared containing-system relations needed by the use, any direct work-to-referent relations, actual bindings, resource use, and exact work-part or temporal relations. A distinct actual work-entry after an established completion or termination identifies a later occurrence; a proper work part and its parent are distinct individuals; independently grounded concurrent performances are distinct. A record, trace, policy episteme, or later judgment creates none of them. A continuity policy is needed only when a named use must decide how to group that already existing history across an interruption, resumption, mode or method switch, performer replacement, referent or binding change, or composite boundary.
 
 #### A.15.1:5.1 - Parts and wholes of Work (occurrence facts)
 
-* **Temporal-part (`TemporalPartOf_work`).** A proper **time-slice relation** over one selected Work occurrence or work phase. The selected part is grounded by parent work identity plus interval and, when needed, a named aspect such as resource use, telemetry, SLA coverage, or interval-local evidence. A temporal part is useful for monitoring, utilization, lead time, and interval-local evidence. It has no independent method-switch identity by that fact.
-* **Episode-part (`EpisodeOf_work`).** A named, event-bounded fragment selected inside one parent Work occurrence because a named use needs that fragment. Entry, resumption, mode switch, switch-to-method, interruption, switch-away, completion, or a declared pause may supply the candidate boundary. The direct episode predicate also cites an exact `workContinuityPolicyRef` only when the use needs that policy to decide whether the fragment remains under the parent; timestamps or an episode-looking label alone establish no episode relation.
+* **Temporal-part (`TemporalPartOf_work`).** Both participants are independently admitted Work individuals. The first is a proper temporal sub-occurrence of the second under the §4.1a predicate, with its own exact extent and performed content. Use it when a later resource, evidence, KPI, acceptance, repair, or aggregation claim needs that Work part as an individual. A bare interval, telemetry window, or evidence slice stays a C.27.TA temporal aspect or its direct domain object; it is not the first participant of `TemporalPartOf_work`.
+* **Episode-part (`EpisodeOf_work`).** Both participants are independently admitted Work individuals. The first is an event-bounded performed sub-occurrence of the second under the §4.1a predicate. Entry, resumption, mode switch, switch-to-method, interruption, switch-away, completion, or a declared pause may supply candidate boundary events. Cite an exact `workContinuityPolicyRef` only when direct facts permit more than one grouping for the named use; timestamps, a policy, or an episode-looking label alone establish no episode relation.
 
 `workContinuityPolicyRef` designates the exact C.2.1 episteme whose claims state the named use, boundary events, tolerated variation, and branch criterion. Interpret those claims under that episteme's effective `U.ReferenceScheme`. Add a `U.ClaimScope`, temporal qualification window, or model-use structure only when changing it changes the segmentation assertion; otherwise omit it. The policy episteme classifies the already existing history for that use. A later or competing policy episteme can support another identity or segmentation assertion. Call it an **edition** only when an exact C.2.1 `EpistemeEditionRelation` obtains between the exact earlier and later epistemes; without that relation it is a non-continuing replacement. Either way, the policy neither becomes a `U.MethodDescription` by policy form nor changes the occurrence, its parts, or their actual facts.
 
 * **Operational-part (`OperationalPartOf_work`).** A **work-part occurrence** that may enact a factor of a recovered `U.Method`, for example, an incision occurrence within an appendectomy occurrence, possibly **overlapping** with others in time. If a method-description reference is used, it identifies, describes, constrains, or evidences that method factor; the referenced `U.MethodDescription` is not enacted. If no `U.Method` factor is recovered, keep the material as the work part, evidence segment, telemetry segment, mechanism material, system-component behavior, or missing-source-relation note that was actually identified; do not infer a method factor from its label.
-* **Concurrent work parts (derived use-side reading; no fourth parthood relation).** First state each exact work-part relation to the same parent and then state the independently governed interval `overlaps` fact. If a claim also says that the parts were coordinated, name its declared coordination predicate and actual participants. Shared parentage and overlap do not by themselves establish coordination, and `ConcurrentPartOf_work` is not introduced as a primitive work-part relation.
+* **Concurrent work parts (derived use-side reading; no fourth parthood relation).** First state each exact work-part relation to the same parent. Then use C.27.TA to state the exact temporal-overlap predicate, reference, intervals, and use. If a claim also says that the parts were coordinated, name its declared coordination predicate and actual participants. Shared parentage and overlap do not by themselves establish coordination, and `ConcurrentPartOf_work` is not introduced as a primitive work-part relation.
 
 **Naming threshold.** Do not mint a durable public U-kind, durable named work object, or separate work occurrence for every interval, telemetry segment, pause, or episode-looking wording. Use a derivative part relation unless the downstream use needs a named work part with its own resources, evidence, KPI, acceptance, repair, aggregation, cross-context reliance, or source-relation return use. Otherwise keep the temporal relation, evidence slice, telemetry segment, method-description constituent, missing-source-relation note, or other concrete neighboring object that the task actually needs.
 
@@ -79,24 +79,20 @@ Work identity is occurrence-grounded and 4D. Start from the actual performance h
 
 **Quick choice test.**
 
-- Ask **"which interval or aspect of the parent work do I need?"** If that is enough, use `TemporalPartOf_work`.
+- Ask **"do I need only an interval or aspect, or an independently admitted Work sub-occurrence?"** Use C.27.TA or the direct temporal object for the first. Use `TemporalPartOf_work` only for the second, after its proper-sub-occurrence predicate passes.
 - Ask **"does this named use need an event-bounded fragment of the parent?"** If yes, recover the candidate boundary events. Cite `workContinuityPolicyRef` only when interruption, resumption, switch, replacement, or pause leaves the grouping ambiguous for that use; then use `EpisodeOf_work` only when its direct predicate is satisfied.
 - Ask **"which performed sub-occurrence has its own actual performer System, covering assignment, temporal extent, enacted Method, affected referent, bindings, resource use, or separately consumed place in an aggregation?"** If that is current, use `OperationalPartOf_work` or another declared Work-part relation. A neighboring evaluation or effect claim does not establish Work parthood by itself.
 - Ask **"which way-of-doing part is being composed?"** If the answer needs preconditions, effects, interface, and whole-method relation, recover a `U.Method` submethod under `A.3.1` and `B.1.5`; do not make the work part itself carry the method identity.
 
 #### A.15.1:5.2 - Key relations among Work
 
-* **`precedes` or `happensBefore`** — strict partial order on Work windows.
-* **`overlaps`** — intervals intersect but neither contains the other.
-* **`contains` or `within`** — one Work's window contains another's.
-* **Causal-use relation reference** — if one work occurrence is claimed to explain, trigger, or cause another, keep the work-occurrence link separate from the causal-use claim governed by `C.28` or another causal-use pattern named by value.
-* **`retryOf`** — a later Work occurrence that starts after the earlier occurrence ended and re-attempts the same named objective or enacted Method under the exact predicate of the retry relation. Similar wording or revised bindings alone do not establish the link.
-* **`resumptionOf`** — an event-bounded episode or later Work occurrence that continues after interruption. Cite a continuity policy only when the named use must decide whether the later performance remains under the same parent or is a distinct occurrence linked to the earlier one.
+**Temporal order and overlap.** A.15.1 supplies each Work occurrence and its exact extent; it does not declare `precedes`, `happensBefore`, `overlaps`, `contains`, and `within` as interchangeable relation names. Use C.27.TA to name the temporal bearer, reference, exact intervals, direct temporal predicate, and use that needs it. A differently named predicate is used only when its own declaration gives the same participant meanings and law. Use B.1.4 after those temporal facts are recovered when the task asks for a roll-up.
 
-These relations are **occurrence facts**, not method-design assumptions.
+**Retry and resumption.** Use only a locally declared retry or resumption species that passes §4.1a. Name that predicate and the actual later–earlier Work pair. Bare `retryOf` or `resumptionOf` wording is a prompt to recover the local relation, not a positive claim.
+
+**Causal use.** If one Work occurrence is claimed to explain, trigger, or cause another, keep the Work-to-Work relation separate from the causal-use claim. Use `C.28` or the pattern that defines and tests that causal use.
 
 #### A.15.1:5.3 - Work-occurrence relations used by Part B roll-ups
-
 `A.15.1` supplies the identity of each independently identified Work occurrence or Work part and makes its exact temporal and performed resource-use relations recoverable. It does not itself return a temporal aggregate or resource ledger.
 
 * **Temporal coverage.** When a receiving use needs utilization, elapsed time, phase coverage, or another roll-up over Work intervals, open `B.1.4`. Its recovered `ContextTemporalAggregation@Context`, coverage and non-overlap conditions, aggregation policy, and optional `Gamma_time` notation govern union, hull, or another admitted temporal aggregate. The work intervals remain A.15.1 facts.
@@ -109,18 +105,18 @@ These relations are **occurrence facts**, not method-design assumptions.
 Two descriptions, assertions, records, or traces resolve to the same Work occurrence only when they designate the same actual world-side performance history, not merely the same name, policy label, similar policy content, or later date. First compare the direct facts at the selected grain:
 
 * the same actual work-entry or start and compatible occupied spatiotemporal extent;
-* the same performance history, with each performer system, covering assignment, enacted method, and containing system, plus every actually obtaining work-to-referent, binding, and resource-use fact used by the identity claim, placed at the interval where it obtains;
+* the same performance history, with each performer system, covering assignment, enacted Method, and the locally declared containing-system relations used by the identity claim, plus every actually obtaining work-to-referent, binding, and resource-use fact used by that claim, placed at the interval where it obtains;
 * compatible work-part and temporal relations; and
 * no fact that already identifies distinct individuals: a proper part versus its parent, independently grounded concurrent performances, or a later work-entry after the first occurrence's established completion or termination.
 
-A corrected or later description of the same actual start, open end, or completed end can refine the assertion without changing the occurrence. A change of performer, assignment, method, referent, binding, resource use, or containing system during an otherwise unended performance history is an actual change to state explicitly; that change alone neither splits nor preserves the Work occurrence.
+A corrected or later description of the same actual start, open end, or completed end can refine the assertion without changing the occurrence. A change of performer, assignment, enacted Method, referent, binding, resource use, or obtaining containing-system relation during an otherwise unended performance history is an actual change to state explicitly; that change alone neither splits nor preserves the Work occurrence.
 
 When a named receiving use must decide whether an interruption, resumption, method or mode switch, performer replacement, retune, rework, referent or binding change, or composite boundary stays inside one parent, cite the exact continuity-policy episteme, its effective reference scheme, applicable scope and window, and the branch criterion it applies to those facts. The selected policy can support one identity or segmentation assertion for that use. A later or competing policy episteme may support another assertion; call it a later edition only when the exact C.2.1 `EpistemeEditionRelation` obtains, and otherwise treat it as a non-continuing replacement. Neither branch retroactively changes what occurred.
 
 #### A.15.1:5.5 - Interruptions, retries, resumptions, and description changes
 
 * **Established end and later entry:** identify a later Work occurrence when the first occurrence has actually completed or terminated and another work-entry occurs. A larger composite Work may contain both only through explicit work-part relations.
-* **Retry:** identify the later Work occurrence independently and add `retryOf` only when that relation's own predicate connects it to the ended attempt.
+* **Retry:** identify the later Work occurrence independently. Add a retry relation only through a locally declared species whose exact predicate connects it to the ended attempt and whose participant meanings, identity, cardinality, and applicability are stated; bare `retryOf` remains only a route cue.
 * **Ambiguous interruption or resumption:** preserve the actual boundary events and facts. If a named use must decide same-parent versus separate-occurrence grouping, apply its exact `workContinuityPolicyRef`; without that criterion, return an unresolved segmentation rather than making the policy implicit.
 * **Performer, assignment, method, referent, binding, retune, or mode change:** state the actual change where it occurs. Split or retain the parent only when the direct facts already decide the boundary or a policy current to the named identity, episode, retry, resumption, or aggregation use supplies the criterion.
 * **Method-description episteme change:** record the newly selected description episteme separately. That selection neither splits nor preserves Work by itself; only an accompanying actual occurrence change enters the boundary judgment. Call the two descriptions editions only when their exact C.2.1 `EpistemeEditionRelation` obtains.

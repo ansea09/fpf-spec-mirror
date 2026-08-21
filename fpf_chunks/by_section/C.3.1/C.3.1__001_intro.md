@@ -6,12 +6,12 @@ section_id: "C.3.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:intro — Intro"
-line_start: 44696
-line_end: 44701
+line_start: 43479
+line_end: 43484
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,7 +44,7 @@ keywords:
 
 ## C.3.1 - U.Kind and U.SubkindOf Core
 
-> **Type:** Typed reasoning core pattern
+> **Type:** Kind identity, subkind relation, and continuity pattern
 > **Status:** Stable
 > **Normativity:** Normative unless a section is explicitly informative
 

@@ -1,24 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.S"
-pattern_title: "U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
+pattern_title: "TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
 section_id: "A.6.S:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__003_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
+  - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:1 — Problem frame"
-line_start: 20638
-line_end: 20653
+line_start: 20297
+line_end: 20314
 dependencies:
-  - "A.12"
-  - "A.3"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.2"
+  - "A.2.1"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6"
   - "A.6.0"
-  - "A.6.2"
-  - "A.6.3"
-  - "A.6.4"
+  - "A.6.2-A.6.6"
   - "A.6.5"
   - "A.6.6"
   - "A.6.B"
@@ -26,37 +30,29 @@ dependencies:
   - "C.2.1"
   - "E.10"
   - "E.17"
+  - "E.17.0"
   - "E.18"
-  - "E.19"
+  - "F.6"
 keywords:
-  - "ConstructorSignature"
-  - "EFEM"
-  - "MVPK views (no new semantics)"
-  - "TargetSignature"
   - "appear"
-  - "claim register"
-  - "editioning"
-  - "no epistemic agency"
   - "quadrant classification is governed by A.6.B)"
-  - "retargeting"
-  - "signature engineering"
-  - "slot/base change lexicon"
-  - "two-signature arrangement"
 ---
 
 ### A.6.S:1 - Problem frame
 
-Boundary descriptions rarely arrive as fully formed signatures. They show up as “half‑signatures”: an n‑ary relation in natural language, a few overloaded markers (“binding”, “anchoring”, “contract”), and implicit assumptions about bases, scope, and viewpoints. Teams then evolve the boundary through incremental edits, reviews, and partial publications.
+Boundary descriptions often arrive as “half-signatures”: an n-ary relation in ordinary prose, overloaded markers such as *binding*, *anchoring*, or *contract*, and unstated assumptions about participants, applicability, and publication. Teams then revise the boundary through edits, reviews, and partial publications.
 
-FPF already provides local disciplines that help unpack such text into well‑formed components: slot discipline (A.6.5) and explicit base declarations (A.6.6). What is usually missing is a *first‑class* description of the signature-engineering boundary that turns half-signatures into stable, publishable boundary-signature descriptions (“contracts” in Plain shorthand; see §0 guards)—an explicit ConstructorSignature for constructing and evolving a TargetSignature.
+A.6.5, A.6.6, A.6.2-A.6.4, and E.17 already govern several different moves that may occur during that work. The missing discipline is not a universal engineering container. It is a proportional choice:
 
-When signature construction is not explicitly modeled, three failures recur:
+1. state the actual edit, relation, arrow, application, Work, edition, or view and stop when that answers the use; or
+2. when a named receiver needs the same constructor vocabulary and laws again, identify a separate ConstructorSignature and state the exact dependency or use that connects it to the work.
 
-1. the TargetSignature and the ConstructorSignature engineering work get conflated;
-2. semantic changes happen without being made explicit as retargeting or edition changes;
-3. published faces (views) drift into adding semantics, making TargetSignature meaning ambiguous.
+Without that choice, two opposite failures recur:
 
-Additionally, authors often (implicitly) treat a signature as if it *acts* (“the constructor builds the signature”).
-In FPF this is a category error: an Episteme describes; an admitted `U.System` performs Work. A.15.1 admits that Work, and F.6 identifies the assignment under which each performer acted. The assignment does not act. A short explanation may omit an assignment identifier that no later claim uses.
-A.6.S therefore must keep **operator descriptions** separate from their **enactment as work**.
+1. the TargetSignature, constructor-operation description, application, and performed Work are conflated;
+2. a one-off revision is inflated into a durable two-signature apparatus;
+3. semantic changes hide behind generic edit language instead of a new episteme edition and its actual continuity or reference change; and
+4. publication views acquire claims not present in the described signature.
+
+An episteme does not act. An admitted `U.System` may apply a described operation and perform Work. Identify an F.6 assignment only when a receiving attribution claim needs the exact assignment under which that System acted; the assignment itself does not act.
 

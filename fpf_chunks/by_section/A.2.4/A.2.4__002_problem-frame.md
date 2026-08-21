@@ -6,12 +6,12 @@ section_id: "A.2.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:1 — Problem Frame"
-line_start: 4322
-line_end: 4343
+line_start: 4334
+line_end: 4355
 dependencies:
   - "A.10"
   - "A.2"
@@ -46,7 +46,7 @@ Use it when the working question is:
 
 * which episteme is being used;
 * which claim, theory statement, status assertion, use, or causal-use question the episteme is being used for;
-* which effective source scheme when interpretation matters, claim scope, grounding holon, polarity, relevance window, assurance use, weight model, and provenance constraints are current;
+* which effective source scheme (when interpretation depends on it), ClaimScope, grounding holon, polarity, relevance window, assurance use, weight model, and provenance constraints are current;
 * whether source wording such as "evidence role", "status role", "standard role", or "the report plays a role" hides an evidence-use, status-use, source-use, publication-use, assurance-use, gate-use, or causal-use relation;
 * whether the evidence-use or status-use relation is sufficiently specified for the intended reliance, or only enough for orientation, source-finding, a reversible probe, or a narrowed use.
 

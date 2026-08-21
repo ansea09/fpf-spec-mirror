@@ -6,12 +6,12 @@ section_id: "G.11:4"
 section_title: "Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__006_solution-rscr-driven-refresh-as-a-p2w-scoped-orchestration-kit.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:4 — Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
-line_start: 103766
-line_end: 104010
+line_start: 101016
+line_end: 101261
 dependencies:
   - "A.6.RCD"
   - "B.3.4"
@@ -77,7 +77,7 @@ keywords:
     DeprecationNoticeId?,
     EditionBumpLogId?,
 
-    SlotFillingsPlanItemRef[]?
+    WorkPlanRef[]?
   },
 
   DefaultsConsumed := ∅,
@@ -96,34 +96,32 @@ By the `G.Core` **Expansion rule**, the **effective** conformance ids, trigger k
    A queue of refresh candidates keyed by scope (`PathSliceId` preferred; `PatternScopeId` permitted).
    Ordering, prioritization, and batching are policy-bound (and therefore extension-scoped), but every queue item carries canonical trigger kind ids.
 
-2. **`RefreshPlan@Context` (WorkPlanning plan item).**
-   A planned refresh is a WorkPlanning object that **does not execute Work** and **does not embed gate decisions**. It declares:
+2. **`RefreshPlan@Context` (one exact `U.WorkPlan`).**
+   A planned refresh is one `U.WorkPlan` episteme under A.15.2. It **does not execute Work** and **does not embed gate decisions**. `RefreshPlan@Context` is only this pattern's application name for the plan; it declares:
 
-* `RefreshPlanId` (UTS-published id; editioned)
-* `EntityOfConcernRef` and `ReferencePlane` pins (by ref; no implicit widening)
-* `TargetScope := PathSliceId[] | PatternScopeId[]`
-* `PlannedTriggers := RSCRTrigger[]` (canonical trigger kind ids, scope, and payload pins)
-* `PlannedActions := RefreshAction[]` (each action delegates to a subject pattern)
-* `RequiredPins := {EditionPins, PolicyPins, UTS pins, Path pins}` for replayability
-* `PlanItemRefs := SlotFillingsPlanItemRef[]` (when planning baselines or reruns requires explicit planned slot fillings)
-
+   * `RefreshPlanId` (UTS-published id; editioned)
+   * `EntityOfConcernRef` and `ReferencePlane` pins (by ref; no implicit widening)
+   * `TargetScope := PathSliceId[] | PatternScopeId[]`
+   * `PlannedTriggers := RSCRTrigger[]` (canonical trigger kind ids, scope, and payload pins)
+   * `PlannedActions := RefreshAction[]` (each action delegates to a subject pattern)
+   * `RequiredPins := {EditionPins, PolicyPins, UTS pins, Path pins}` for replayability
+   * `PlannedFillingRows[]?` as ClaimGraph content kept inside the WorkPlan under A.15.3 when a value must be pinned against a declaration member defined by its own pattern. A row is addressed only through the WorkPlan and has no separate reference or identity.
 3. **`RefreshReport@Context` (Work or audit artefact).**
    An execution report (Work or Audit artefact) that records:
 
-* `RefreshReportId` (UTS-published id; editioned)
-* `ExecutedActions[]` with links to cited artefacts governed by cited patterns (e.g., new parity report id, new pack id)
-* `ObservedDeltas` (telemetry deltas, admissibility changes, evidence-relation or source-relation changes) as refs and pins, not as untyped prose
-* `RSCRRefs[]` (any RSCR or regression harness artefacts invoked)
-* `EmittedNotices[] := DeprecationNoticeId[]` and `EditionBumpLogId[]`
-* the canonical trigger kinds actually applied (not only aliases)
-
+   * `RefreshReportId` (UTS-published id; editioned)
+   * `ExecutedActions[]` with links to cited artefacts governed by cited patterns (e.g., new parity report id, new pack id)
+   * `ObservedDeltas` (telemetry deltas, admissibility changes, evidence-relation or source-relation changes) as refs and pins, not as untyped prose
+   * `RSCRRefs[]` (any RSCR or regression harness artefacts invoked)
+   * `EmittedNotices[] := DeprecationNoticeId[]` and `EditionBumpLogId[]`
+   * the canonical trigger kinds actually applied (not only aliases)
 4. **`DeprecationNotice@Context` and `EditionBumpLog@Context`.**
    Controlled evolution artefacts that preserve ID-continuity:
 
-* **DeprecationNotice** explains scope, reason class (canonical trigger kind ids), and successor refs.
-* **EditionBumpLog** records edition increments and the pins that justify them.
+   * **DeprecationNotice** explains scope, reason class (canonical trigger kind ids), and successor refs.
+   * **EditionBumpLog** records edition increments and the pins that justify them.
 
-> *Note (normative by delegation).* ID continuity and alias discipline are governed by `G.Core` (do not restate as local rules here).
+   > *Note (normative by delegation).* ID continuity and alias discipline are governed by `G.Core` (do not restate as local rules here).
 
 #### G.11:4.2a - Selected-set, archive, and cultural-variant currentness
 
@@ -190,23 +188,26 @@ Gating outcomes (admit, degrade, or abstain) follow `G.Core` tri-state semantics
 
 #### G.11:4.3a - Causal-use refresh sentinels
 
-When a shipped pack, parity report, evidence relation, source relation, dashboard slice, fairness audit, policy evaluation, or selector output consumes `C.28`, refresh planning includes causal-use sentinel causes when they can change supported use, unsupported use, support verdict, or downstream assurance:
+When a shipped result consumes C.28, refresh planning watches the causes that can change a supported use, unsupported use, support-result verdict, limits, or downstream decision basis:
 
-| Causal-use sentinel | Typical affected C.28 result or related claim | Refresh payload pins |
+| Sentinel | Affected result | Refresh pins |
 | --- | --- | --- |
-| counterfactual-realizability shift | `CounterfactualSamplingRealizabilityProfile`, `realizedCounterfactualSampleSupportBasis`, causal evidence design | profile refs, action-primitive refs, work-plan refs, physical, ethical, and operational constraint refs, target counterfactual distribution refs, admissible-use refs, and unadmissible-use refs |
-| counterfactual-data identification and bounding shift | `CausalIdentificationProfile`, `identifiedCounterfactualEstimateSupportBasis`, bounds or partial-identification result | available data regime set refs, realized counterfactual data refs, counterfactual-data identification method refs, counterfactual-data bound refs, assumption refs |
-| target-trial reporting shift | `TargetTrialProtocolRecord`, `TargetTrialEmulationMappingRecord`, applied intervention-effect support verdict | protocol refs, observational data source refs, eligibility, treatment, time-zero, and assignment mappings, follow-up and outcome mappings, emulation-gap refs, residual-confounding and sensitivity refs and additional-analysis refs |
-| causal-fairness shift | `CausalFairnessUseAuditCard`, causal fairness support verdict, fairness assurance | protected-variable refs, decision-variable refs, and outcome-variable refs, permitted-path refs and prohibited-path refs, fairness estimand refs, causal-use question refs, support basis refs, support record refs and verdict refs |
-| causal-representation-validation shift | `CausalVariableRepresentationRecord`, learned causal-variable admissible use | intervention-validity, mechanism-invariance, abstraction-fidelity, counterfactual-query-preservation, representation-shift refs, OOD refs, supported-causal-variable-use refs, and unsupported-causal-variable-use refs |
-| off-policy or causal-RL evaluation shift | `OffPolicyCausalEvaluationProfile`, causal action-policy admissible use, policy parity | behavior-policy refs and evaluation-policy refs, sequential horizon refs, adaptive policy class refs, unit-history conditioning refs, overlap refs and support-basis refs, policy transportability refs, estimator and uncertainty refs |
-| simulation-validation shift | `simulationOnlyCounterfactualOutputBasis`, bounded model-supported counterfactual use | counterfactual model assumption refs, simulation validation refs, `CausalUseSupportStatement` and `CausalUseUnsupportedStatement` refs, sensitivity and rival-cause refs |
+| sampling-realizability shift | `CounterfactualSamplingRealizabilityResult` | target distribution, decision Method and any derivation, physical, ethical, operational, and history constraints, required construction, bound, or obstruction, status, supported use, and unsupported use |
+| performed sampling or resulting-data shift | dated sampling Work plus A.10 evidence path and empirical data regime | WorkPlan when used; performer, Method, window, attribution, resulting sample or data, provenance, and currentness; a realizability result cannot substitute |
+| identification or bound shift | `CausalIdentificationResult` | data-regime refs, assumptions, identifying derivation, bound or failure witness, sensitivity |
+| estimate shift | `CausalEstimateResult` | identification or design basis, data, estimator Method, diagnostics, uncertainty, sensitivity, and any live estimation-consistency result |
+| target-trial practice shift | `TargetTrialMappingResult` | question/estimand, protocol-to-data mapping, assumptions, estimate/precision, sensitivity and reporting source edition |
+| causal-fairness shift | C.28 support result plus D.5 `BiasAuditReport@Context` | fairness estimand, extra counterfactual-identification assumptions, estimate and consistency result when used, support components and result, affected population, audit limits, and decision |
+| causal-representation shift | `CausalVariableRepresentationRecord` | intervention validity, invariance, abstraction fidelity, query preservation, shift and use limits |
+| off-policy or causal-RL shift | `OffPolicyCausalEvaluationResult` | behaviour/evaluation policies, horizon/history, confounding, overlap, endpoints, estimator and uncertainty |
+| simulation-validation shift | `simulationResultRef` in `CausalSupportComponentRefs` | model assumptions, validation, sensitivity, supported model use and unsupported realized/interventional use |
+| transport-endpoint shift | `CausalTransportabilityResult` | source/target population, domain, environment and data-generating regime, assumptions, windows, formula and unresolved limits |
 
-These sentinels do not mint new `RSCRTriggerKindId` values. They are domain-facing payload distinctions carried under the canonical trigger kinds governed by `G.Core`, usually evidence-publication edit, edition-pin change, policy-pin change, telemetry delta, freshness or decay event, or tokenization or name change.
+These are payload distinctions under existing G.Core trigger kinds, not new trigger kinds. Reopen only the affected result and downstream uses that consumed it.
 
 #### G.11:4.4 - Extensions (pattern-scoped; non-core)
 
-Discipline-specific refresh strategies and generator-specific wiring live as `GPatternExtension` blocks. Scheduling, ordering, priority, and budget policy for the refresh queue are not separate extension semantics: `G.11` governs the required policy pins on `RefreshQueue` and `RefreshPlan@Context`, while `A.15` keeps WorkPlanning separate from executed Work.
+Discipline-specific refresh strategies and generator-specific wiring live as `GPatternExtension` blocks. Scheduling, ordering, priority, and budget policy for the refresh queue are not separate extension semantics: `G.11` defines the required policy pins on `RefreshQueue` and `RefreshPlan@Context`, while A.15.2 and A.15.3 keep the WorkPlan and its local content separate from dated Work.
 
 ##### G.11:Ext.TriggerAliases
 
@@ -286,7 +287,7 @@ Scheduling strategies (bandit-style allocation, queueing, cadence policies, earl
 * `RefreshPriorityPolicyIdRef` names the policy used to order or prioritize queue items.
 * `BudgetDeclRef` names the time, compute, cost, risk, or cadence boundary for the planned refresh.
 * `RSCRTriggerKindId[]` still comes from `G.Core`; scheduling policy does not mint trigger kinds.
-* planned refresh remains `RefreshPlan@Context` under WorkPlanning; executed refresh remains `RefreshReport@Context` or Work-bound audit.
+* planned refresh remains the exact `U.WorkPlan` locally called `RefreshPlan@Context`; executed refresh remains `RefreshReport@Context` or Work-bound audit.
 
 If no priority or budget policy is declared, no scheduling heuristic is admissible by appearance; the plan must either use the ordinary queue order or state the missing policy pin as a blocker.
 

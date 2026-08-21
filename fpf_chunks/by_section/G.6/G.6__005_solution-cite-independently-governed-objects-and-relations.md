@@ -6,12 +6,12 @@ section_id: "G.6:4"
 section_title: "Solution — cite independently governed objects and relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__005_solution-cite-independently-governed-objects-and-relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:4 — Solution — cite independently governed objects and relations"
-line_start: 101657
-line_end: 101816
+line_start: 98871
+line_end: 99030
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -63,8 +63,8 @@ Create an `EvidenceGraph` only after the relied-on claim or bounded use and its 
 | Represented claim or object | Subject pattern before G.6 represents it |
 | --- | --- |
 | Reusable method, generic participants, parameters, effects, and conditions | exact `U.Method`; `A.3.2` for its `U.MethodDescription` |
-| Admitted dated Work, its actual performer Systems and F.6 attribution, any assignment identifier consumed by the path, enactment, resources, and direct participation or binding facts | `A.15.1`, `A.2.1`, and `F.6` under the Work-recovery rule below; the exact direct participation or resource relation; and `A.6.1` for operation-application bindings |
-| Production or inception of an entity or episteme | the exact production relation and `A.15.PROD` when its entry condition is met |
+| Independently admitted dated Work, its actual performer refs and obtaining F.6 relation refs, any assignment occurrence ref consumed by the path, enactment, resources, and direct participation or binding facts | `A.15.1` and `F.6` for the already-established Work and attribution; `A.2.1` only when the path consumes the assignment occurrence itself; the exact direct participation or resource relation; and `A.6.1` for operation-application bindings |
+| Production or inception of an entity or episteme | one exact local A.15.PROD claim when its entry condition is met, or a direct subject predicate under its own pattern |
 | Measurement result and its measurement-specific basis | `C.16` |
 | Acceptance-clause application or other runtime evaluation result | `G.4` or the exact formal, conformance, diagnostic, causal, comparison, selection, gate, or decision governor |
 | Work-resource aggregation result | `B.1.6` |
@@ -80,7 +80,7 @@ G.6 does not substitute for any row. If the subject pattern or relation cannot b
 
 Do not add a local `U.EvidenceRole` or turn proof, measurement, benchmark, source, or status labels into system-role kinds. For any claim that a producer, verifier, laboratory, issuer, or maintainer participates, recover the exact direct relation, the participants it declares, and the place each actual participant fills. Other nearby facts—for example, a local system-role kind, assignment, Work occurrence, responsibility, authority, or permission—are separate and may be cited only when they independently obtain; none establishes participation. Do not infer that a passive laboratory or produced entity performs Work merely because the path cites it.
 
-**Work recovery and compact citation.** Before G.6 represents an occurrence admitted under `U.Work`, its subject account must already establish the actual performer System or Systems, enacted Method, temporal extent, and containing System. For each performer, name the assignment occurrence that covers the Work and its declared `U.SystemRoleAssignment` species. Name every participant that determines the assignment's identity, show that its predicate holds throughout the Work interval, identify its holder as that performer, and establish the F.6 `performedUnderAssignment` relation for the Work–assignment pair. A compact G.6 path may omit an assignment identifier when no receiving use consumes it; the omission changes only the citation, not the assignment or attribution facts. Merely listing an assignment beside Work establishes no relation between them.
+**Work recovery and compact citation.** Before G.6 represents dated `U.Work`, its subject account must already admit that Work under `A.15.1` and establish the actual performer refs and applicable obtaining `F.6` relation refs. Include an assignment occurrence ref only when the receiving use consumes it. If a required Work, performer, or F.6 ref is absent or unresolved, record a gap rather than an obtaining graph edge. G.6 neither re-admits the Work nor retests assignment-species content, occurrence identity, holder, predicate duration, or interval coverage. Merely listing an assignment beside Work establishes no relation between them.
 
 #### G.6:4.2 - EvidenceGraph as a representation
 
@@ -116,7 +116,7 @@ RepresentedNodeRecord:
   RepresentationRef
 ```
 
-The node set may cite exact Work occurrences and their actual performer Systems. It may also cite, for example, local system-role kinds, assignment occurrences whose identities the path uses, direct participation and binding facts, produced entities, subject results, C.2.1 result epistemes, outcomes, source publications, carriers, currentness results, reliance dispositions, and later Work. Every cited Work occurrence still depends on the complete A.15.1 and F.6 account stated in §4.1. Co-listing creates no relation among Work, assignments, passive participants, bindings, results, epistemes, sources, or graph projections.
+The node set may cite exact Work occurrences and their actual performer Systems. It may also cite, for example, local system-role kinds, assignment occurrences whose identities the path uses, direct participation and binding facts, produced entities, subject results, C.2.1 result epistemes, outcomes, source publications, carriers, currentness results, reliance dispositions, and later Work. Every cited Work occurrence uses the independently established Work, performer, and F.6 refs described in §4.1. Co-listing creates no relation among Work, assignments, passive participants, bindings, results, epistemes, sources, or graph projections.
 
 An asserted edge is also a projection:
 
@@ -167,7 +167,7 @@ PathCitationRecord:
   ReopenTrigger
 ```
 
-`NotCarried` names every stronger use that the path does not establish: Work occurrence, participation, production, claim truth, assurance, approval, permission, gate passage, release, causal identification, benchmark superiority, acceptance, or decision. Actual downstream use requires an admitted dated Work account under §4.1's Work-recovery rule and one exact premise, reference, operation-argument, decision-use, or other direct relation; path availability or citation is not actual use.
+`NotCarried` names every stronger use that the path does not establish: Work occurrence, participation, production, claim truth, assurance, approval, permission, gate passage, release, causal identification, benchmark superiority, acceptance, or decision. Actual downstream use requires one independently admitted dated Work ref, its applicable established attribution refs, and one exact premise, reference, operation-argument, decision-use, or other direct relation; path availability or citation is not actual use.
 
 #### G.6:4.4 - Provenance ledger
 
@@ -201,8 +201,8 @@ If the direct relation no longer obtains or its proof becomes unavailable, remov
 | Current phrase or artifact | Required recovery before G.6 representation |
 | --- | --- |
 | method, protocol, algorithm, clause, or policy | exact reusable declaration; when the path cites dated Work, recover it separately under §4.1; when it cites actual operation bindings, recover them under A.6.1 |
-| work trace, run, test, audit, measurement, or evaluation | admitted dated Work and actual performer Systems under §4.1's Work-recovery rule; enacted Method, resources, exact direct participation facts, and A.6.1 binding facts remain separate; expose an assignment identifier only when the receiving use consumes it |
-| produced carrier, model, report, or episteme | exact produced entity and production/inception relation |
+| work trace, run, test, audit, measurement, or evaluation | independently admitted dated Work ref, actual performer refs, and applicable obtaining F.6 relation refs under §4.1; enacted Method, resources, exact direct participation facts, and A.6.1 binding facts remain separate; expose an assignment occurrence ref only when the receiving use consumes it |
+| produced carrier, model, report, or episteme | exact produced entity and either its subject-specific direct production relation, when the subject pattern declares one, or the one local A.15.PROD production-work or inception claim that the current use needs |
 | reading, score, verdict, estimate, aggregate, diagnosis, or outcome | exact domain result and direct governor; distinct C.2.1 episteme when durably stated |
 | publication, view, export, or graph rendering | exact source/publication relation and C.29 representation correspondence when current |
 | evidence, provenance, currentness, reliance, or assurance | A.2.4/A.10, G.11, and B.3 under their separate entry conditions |

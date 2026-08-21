@@ -6,12 +6,12 @@ section_id: "C.2.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 44087
-line_end: 44091
+line_start: 42866
+line_end: 42870
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -22,6 +22,7 @@ dependencies:
   - "C.2.2a"
   - "C.2.6"
   - "C.2.LS"
+  - "F.9"
   - "F.9.1"
 keywords:
   - "factor bundle"

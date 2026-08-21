@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:4 — Solution"
-line_start: 60903
-line_end: 61035
+line_start: 58082
+line_end: 58202
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,134 +50,122 @@ keywords:
 
 ### C.30.STRAT:4 - Solution
 
-Produce a `StratificationSourceLabelRepairNote` or an equivalent local rewrite. The note records the recovered `E.10.ARCH` row fields for this source-label use. It is not itself the selected structure, relation, source publication, neighboring claim record, or subject-pattern result.
+Write the direct local repair first. For example: `Here “gate” names the neural-network path selector, not a project gate decision; use E.18 to describe the selected path.` That sentence can be the complete result.
+
+When the repair must be compared, handed on, or revisited, retain a compact note:
 
 ```text
 StratificationSourceLabelRepairNote:
   sourceLabel:
-  boundedTextSpanOrPublicationUnit:
-  localSentenceRole:
-  encounteredSourceContext:
-  semanticAreaBaseConcept:
-  semanticAreaSenseFamily:
-  selectedOntologicalNeighborhood:
-  primaryEntityOfConcernKind:
-  encounteredFPFKindOrReference:
-  relationToPrimaryEntityOfConcern:
-  recoveredKindRelationOrClaimUse:
+  boundedTextSpan:
+  recoveredObjectRelationOrClaim:
+  actualParticipantsOrBearer?:
   sourceUseDisposition:
-  relationFunctionClaimRef:
+  patternRef?:
+  repairedWordingOrDemotion:
   admissibleUse:
-  nonAdmissibleUse:
+  blockedOverread:
   remainingReaderUse:
-  disposition:
-    subject-pattern-ref | local-rewrite | ordinary-source-label |
+  disposition: direct-pattern-use | local-rewrite | ordinary-source-label |
     quote-only | reduced-use-cue | blocked-use | incomplete-rewrite
 ```
 
+The note is neither the selected structure nor the relation, claim, publication, or pattern result it points to. Omit it when the direct sentence is enough.
+
 #### C.30.STRAT:4.1 - Recovery sequence
 
-1. **Bound the text and label.** Name the sentence, table row, diagram label, publication unit, or source span; copy the source label; and state the local sentence function.
-2. **Check cheap closure.** If there is no FPF-governed use, keep ordinary prose or quote-only wording and stop. If one small local rewrite restores the intended non-FPF use, close locally under `E.10`.
-3. **Recover candidate ontology.** Recover candidate primary `EntityOfConcern` kinds, candidate encountered FPF kinds or references, relation candidates, claim-use candidates, source-use candidates, scope, time, viewpoint, and context facets. Include literal and intended candidates when metonymy or compression is plausible.
-4. **Select the ontological neighborhood.** Select the first applicable neighborhood by recovered relation, claim-use, source-use disposition, formal apparatus, or subject-pattern field set, not by the source label.
-5. **State the apparatus that makes the repair checkable.** Use relation slots, direct control relations and participant meanings, rate bands, module-interface fields, flow fields, transformation-flow fields, characteristic and scale construction, publication relation set, source-use disposition, mathematical-lens fields, evidence relation, assurance argument, gate record, work occurrence, decision record, causal-use record, or ordinary non-use disposition, with scope, time, viewpoint, and context facets only where the recovered claim or use needs them.
-6. **Project back to wording.** Produce the repaired wording, compact note, subject pattern application, or non-use disposition. The replacement candidate is accepted only after it passes `E.10`.
-7. **State use and move.** State admissible use, non-admissible wider or adjacent use, and one remaining reader use. If no reader use remains, the disposition is reduced-use, quote-only, blocked use, or incomplete rewrite.
+1. **Copy the sentence and label.** Keep enough source context to tell what the sentence is doing.
+2. **Try the cheap exits.** If the word carries no FPF claim, keep ordinary prose or quote it and stop. If one local rewrite makes the meaning clear, write it and stop.
+3. **Recover plausible meanings.** Ask which object, relation, participants or bearer, claim, scope, time, and source use the sentence could be compressing. Include literal and metonymic readings when both are plausible.
+4. **Choose by the recovered meaning.** Use the first matching row in C.30.STRAT:4.2; never choose from the label alone.
+5. **Open only the needed rule.** Name the actual participants, relation, structure, characteristic, state, publication, evidence, work, decision, or other object that makes the claim true or false. Do not copy every possible field into the result.
+6. **Return to ordinary wording.** Write the shortest sentence that preserves the recovered claim and names the next pattern only when its contribution matters.
+7. **State the stop.** Give the allowed use, the tempting stronger reading that remains blocked, and the next action. If no useful action survives, use quote-only, reduced-use, blocked, or incomplete-rewrite disposition.
 
-#### C.30.STRAT:4.2 - Ontological-neighborhood subject-pattern applications
+#### C.30.STRAT:4.2 - Recovered meanings and patterns to use
 
-| Ontological neighborhood selected by recovery | Common source labels | Required recovery apparatus | Subject pattern application |
+| Recovered meaning | Common source labels | What must become clear | Pattern to use |
 | --- | --- | --- | --- |
-| Control-structure neighborhood | `layer`, `level`, `tier`, sometimes `gate` | Exact control-participant meaning, direct control relation, rate band, bounded model-use structure or other recovered locality, and, when current, the B.2.5 supervisor-subholon relation. | `C.30.LCA` for control-structure view; `B.2.5`, dynamics, temporal, evidence, assurance, or gate patterns only when those claims are being made separately. |
-| Selected-structure or structural-view neighborhood | `layer`, `level`, `stack`, `block`, `view` | Selected structure, hidden structure, lost structure, preserved structure, structural-view selection, correspondence or source-return boundary, and `ArchitectureOf@Context` relation when that relation is being made. | `A.22`, `C.30`, `C.30.ASV`, or named C.30 subpattern. |
-| Module-interface and substitution neighborhood | `block`, `cache`, `router`, `expert`, sometimes `layer` or `stack` | Module boundary, interface specification, substitutability relation, variation point, conformance relation, or module-interface reliance boundary. | `A.6.M`; not `C.30.STRAT` once the module-interface relation is recovered. |
-| Function-like or transformation-flow neighborhood | `block`, `expert`, `cache`, `router`, `gate`, sometimes `layer` | Transformation or effect claim, path-selection relation, graph node, graph path, graph crossing, architecture-to-transformation-flow relation, or flow valuation under E.18. | `A.6.F`, `E.18`, or `C.30.TFS-REL`. |
-| Characteristic, scale, or mathematical-lens neighborhood | `level`, `tier`, `ladder`, `rung`, `layer`, `stack`, `block` | Characteristic, scale, coordinate, value plus declared scoring method, comparison criterion or declared comparability relation, scale window, resolution, coarse-graining, preserved structure, lost structure, C.29 mathematical-lens result, and stop condition when the lens-use claim is being made. | `C.16.P`, characterization pattern governing the claim, or `C.29`. |
-| Episteme, publication, view, or source-use neighborhood | `stack`, `layer`, `section`, `view`, `cache`, `gate` | Description episteme, publication unit, publication face, publication form, carrier, source-currentness relation, source-use disposition, source-return condition, or publication label. | `C.2.P`, `E.17`, or the publication or source-use pattern governing the claim. |
-| State, currentness, temporal, or dynamics neighborhood | `cache`, `stable`, `level`, `readiness`, sometimes `gate` | Bearer kind, state frame, value set, validity window, currentness relation, dynamics claim, temporal-aspect or rate-band claim, authored temporal-claim adequacy, or reopen condition. | `A.19.SPR`, `A.3.3`, `C.27.TA`, `C.27`, or a state pattern or temporal pattern named by value. |
-| Evidence, assurance, gate, work, decision, or causal-use neighborhood | `gate`, `proof`, `safety`, `decision`, `work`, `effect`, sometimes any source label used as authority | Evidence path, assurance argument, constraint-validity record, gate decision, work occurrence, decision record, causal-use record, and non-admissible overread. | `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, or neighboring pattern governing that claim. |
-| Ordinary source-label non-use | any source label | No FPF-governed claim after context check; optional quote-only or reduced-use cue. | No precision-restoration pattern application is needed; stop with ordinary wording, quote-only wording, or blocked use. |
+| Control structure | `layer`, `level`, `tier`, sometimes `gate` | The obtaining control relation, what its participants do, any rate band or locality boundary, and a B.2.5 supervisor-subholon relation only when it obtains. | `C.30.LCA`; use B.2.5, dynamics, temporal, evidence, assurance, or gate patterns only for their separate claims. |
+| Selected structure or structural view | `layer`, `level`, `stack`, `block`, `view` | The selected, hidden, lost, or preserved structure; view selection; correspondence; source return; an `ArchitectureClaim` when claim content is needed; and a separate `ArchitectureRelation` only when that direct relation obtains. | `A.22`, `C.30`, `C.30.ASV`, or the applicable C.30 subpattern. |
+| Module, interface, or substitution | `block`, `cache`, `router`, `expert`, sometimes `layer` or `stack` | Module boundary, interface specification, substitutability relation, variation point, conformance relation, or reliance boundary. | `A.6.M`; stop using C.30.STRAT once that relation is clear. |
+| Function or transformation flow | `block`, `expert`, `cache`, `router`, `gate`, sometimes `layer` | Transformation or effect, path selection, graph node, path or crossing, architecture-to-flow relation, or E.18 flow valuation. | `A.6.F`, `E.18`, or `C.30.TFS-REL`. |
+| Characteristic, scale, or mathematical lens | `level`, `tier`, `ladder`, `rung`, `layer`, `stack`, `block` | Characteristic and bearer, coordinate or value, scoring method, comparison criterion, scale window, resolution, coarse-graining, preserved or lost structure, lens-use result, and stop condition only where the claim needs them. | `C.16.P`, the applicable characterization pattern, or `C.29`. |
+| Episteme, publication, view, or source use | `stack`, `layer`, `section`, `view`, `cache`, `gate` | Description episteme, publication unit, face, form, carrier, source-currentness or source-use relation, source-return condition, or ordinary publication label. | `C.2.P`, `E.17`, or the pattern for the publication or source-use claim. |
+| State, currentness, time, or dynamics | `cache`, `stable`, `level`, `readiness`, sometimes `gate` | Bearer, state frame and values, validity window, currentness relation, dynamics, temporal aspect or rate band, authored temporal-claim adequacy, and reopen condition. | `A.19.SPR`, `A.3.3`, `C.27.TA`, `C.27`, or the applicable state or temporal pattern. |
+| Evidence, assurance, gate, work, decision, or causal use | `gate`, `proof`, `safety`, `decision`, `work`, `effect`, or any label used as authority | Evidence path, assurance argument, constraint-validity record, gate decision, Work occurrence, decision record, causal-use record, and the stronger readings that remain blocked. | `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, or the applicable neighboring pattern. |
+| Ordinary source-label non-use | any source label | No FPF claim remains after the sentence is read in context. | No precision-restoration pattern; keep ordinary wording, quote it, reduce its use, or block reliance. |
 
 #### C.30.STRAT:4.2a - Same-sentence claim boundary
 
-When one sentence uses a source label to carry another FPF-governed claim, do not repeat a local "not proof, not gate, not work" catalogue at every occurrence. Keep the source-label repair in `C.30.STRAT` and apply the subject pattern for each recovered non-source-label claim. `C.30.STRAT:4.2` names the common choices; worked cases keep only local false positives that the source label itself makes tempting.
+One sentence may use a source label while making several claims. Split them instead of adding a local catalogue of everything the label does not prove. C.30.STRAT repairs the label; the applicable pattern defines, constrains, or tests each separate claim. The table above lists common destinations, not a mandatory reading list.
 
 #### C.30.STRAT:4.3 - Source-label cue table
 
 | Source label family | Recovery discipline |
 | --- | --- |
-| `layer` | Do not choose by the word. Test control-structure, selected-structure or structural-view, module-interface, scale or mathematical-lens, and publication or source-use neighborhoods. |
-| `level` | Test holon-level or aggregation use only when declared by a subject pattern; otherwise test characteristic or scale, ordinal classification, organization scope, work scope, evidence scope, publication grouping, or ordinary source-label non-use. |
-| `tier` | Test deployment, service, organization, classification, aggregation, and publication neighborhoods. Deployment or service claims named by value are governed by their subject patterns rather than by `tier` as ontology. |
+| `layer` | Do not choose by the word. Test control structure; selected structure or structural view; module or interface; scale or mathematical lens; and publication or source-use meanings. |
+| `level` | Test holon-level or aggregation use only when a named relation or structure pattern defines it; otherwise test characteristic or scale, ordinal classification, organization scope, Work scope, evidence scope, publication grouping, or ordinary source-label non-use. |
+| `tier` | Test deployment, service, organization, classification, aggregation, and publication meanings. When one of those claims is current, use the pattern that defines or tests it; `tier` itself is not the ontology. |
 | `stack` | Test signature or slot construction, relation set or relation chain, architecture or control arrangement, aggregation arrangement, virtualization arrangement, deployment arrangement, publication-section ordering, or ordinary source-label non-use. A stack is not architecture by itself. |
 | `ladder` and `rung` | Test ordinal or classification scale, declared maturity or readiness progression, C.28 causal-use ladder or rung, publication taxonomy, or ordinary source-label non-use. Do not use ladder wording for an undeclared progression scale. |
-| `block` | Test module-interface or substitution, selected-structure or structural-view, function-like or transformation-flow, mathematical-lens or coarse-graining, evidence, causal-use, gate, and decision neighborhoods. |
+| `block` | Test module or interface, selected structure or structural view, function or transformation flow, mathematical lens or coarse-graining, evidence, causal use, gate, and decision meanings. |
 | `expert` | In MoE-like prose, first test submodel, subholon, specialized transformation, path-selection relation, candidate-selection relation, ordinary wording, or source-label non-use. If claim-bearing wording still means only “role,” use `E.10.ROLE`; then recover independently any local system-role kind, separate System-classification judgment, obtaining assignment, performer System and complete Work-attribution basis, responsibility or authority relation, or another direct subject relation. Infer none from `expert`. |
 | `cache` | Test module-interface, flow buffer or path, state or currentness, capacity characteristic, latency characteristic, memory characteristic, reuse characteristic, source-currentness, publication cache, temporal-aspect or rate-band claim, authored temporal-claim adequacy, or ordinary source-label non-use. |
 | `router` | Test path selection, flow relation, transformation function or selection function, module-interface relation, candidate selection, decision, ordinary label, local system-role kind, separate System-classification judgment, obtaining assignment, or actual Work only when that exact claim is being made. |
 | `gate` | Test constraint-validity record or gate-decision record, gating function, path selection, flow relation, publication label, or ordinary source-label non-use. A source label `gate` is not gate passage. |
 
-#### C.30.STRAT:4.4 - Placement discipline
+#### C.30.STRAT:4.4 - Author-facing placement note
 
-`semanticAreaBaseConcept`: stratification wording and architecture-operation source labels.
+This subsection maintains the E.10.ARCH applicability row; it is not part of the ordinary project result.
 
-`semanticArea`: the Part-F semantic row-set used for `layer`, `level`, `tier`, `stack`, `ladder`, and `rung` plus architecture-operation labels such as `block`, `expert`, `cache`, `router`, and `gate` when they are used as source labels before the governing FPF pattern recovers their selected kind, relation, or publication-use boundary.
+- `semanticAreaBaseConcept` is stratification wording and architecture-operation source labels.
+- `semanticArea` is the Part-F row-set for `layer`, `level`, `tier`, `stack`, `ladder`, and `rung`, plus `block`, `expert`, `cache`, `router`, and `gate` when they appear before their technical meaning is known.
+- `semanticAreaSenseFamily` is source-label wording for stratification, ordering, aggregation, and architecture-operation recognition. It is not a topic, workstream, or pattern grouping.
+- `ontologicalNeighborhood` is the author-facing applicability family selected from C.30.STRAT:4.2. It is neither a second ontology nor a field that an engineer adds to the project object.
 
-
-`semanticAreaSenseFamily`: source-label wording for stratification, ordering, aggregation, and architecture-operation recognition; not a topic label, pattern-placement claim, or pattern-nest grouping.
-
-`ontologicalNeighborhood`: the applicability neighborhood selected by the recovery row, not a second ontology. The admissible neighborhoods are the rows in `C.30.STRAT:4.2`: control structure; selected structure or structural view; module-interface and substitution; function-like or transformation-flow; characteristic, scale, or mathematical-lens use; episteme, publication, view, or source-use; state, currentness, temporal, or dynamics; evidence, assurance, gate, work, decision, or causal-use; and ordinary source-label non-use.
-
-The pattern nest is `C.30.*` because the recurring first failure is architecture or structure wording in architecture-operation prose. That placement does not make `C.30` the subject pattern for non-source-label claims named in `C.30.STRAT:4.2`. The selected `ontologicalNeighborhood` and subject-pattern row decide which pattern defines or constrains the case.
+The pattern is placed under `C.30.*` because architecture and structure prose is the recurring entry. Placement does not decide the recovered meaning. After recovery, use the rule that defines, constrains, or tests the actual object or claim.
 
 #### C.30.STRAT:4.5 - Worked cases
 
 | Wording | Repair |
 | --- | --- |
-| `The module layer is stable.` | Copy `layer` as source label. Test whether the selected neighborhood is module-interface, scale or comparison, publication or view, or state or temporal. Use `A.6.M`, `C.16.P` or `C.29`, `C.2.P`, `A.19.SPR`, `A.3.3`, `C.27.TA`, or `C.27` only after the neighborhood and apparatus are recovered. |
-| `The expert routes the token.` | In MoE prose, `expert` is not a human or system-role term by default. Test submodel or subholon, specialized transformation, path-selection relation, architecture-to-transformation-flow relation, candidate selection, ordinary wording, or source-label non-use. If unresolved claim-bearing *role* remains, use `E.10.ROLE` and branch independently to a local system-role kind, a separate System-classification judgment, assignment, complete Work basis, responsibility or authority, or another direct relation. Use `A.6.F`, `E.18`, `C.30.TFS-REL`, `G.5`, `C.11`, `A.2`, or `A.15` only for the branch actually recovered. |
-| `The cache proves the architecture scales.` | `cache` may belong to module-interface, flow buffer or path, state or currentness, characteristic, source-currentness, or temporal neighborhoods. `Proves` and `scales` are separate evidence, assurance, and scale or mathematical-lens claims. Use subject patterns for each recovered claim-use; do not let `cache` carry proof. |
-| `The LCA upper layer guarantees safety.` | Use `C.30.STRAT` only to recover whether `layer` belongs to the control-structure neighborhood. Then `C.30.LCA` records the control relations and participant meanings, rate band, and bounded context. Use `B.3`, `A.10`, `G.6`, and the relevant dynamics, temporal, or gate pattern for any safety proof or assurance claim. |
-| `This gate selects the winning architecture.` | If `gate` is a neural-network gating function or router, use `A.6.F` or `E.18`; if it is a project gate decision, use `A.20` or `A.21`; if it is candidate selection, use `G.5` or `C.11`. The label alone decides none of these. |
+| `The module layer is stable.` | Keep `layer` as a source label until the sentence reveals a module or interface relation, scale or comparison, publication or view, state, dynamics, or temporal claim. Use only the matching pattern: for example `A.6.M`, `C.16.P`, `C.29`, `C.2.P`, `A.19.SPR`, `A.3.3`, `C.27.TA`, or `C.27`. |
+| `The expert routes the token.` | In mixture-of-experts prose, first test submodel or subholon, specialized transformation, path selection, architecture-to-flow relation, candidate selection, ordinary wording, or non-use. Only an unresolved claim-bearing use of *role* opens `E.10.ROLE`; any system-role kind, classification, assignment, performer, Work, responsibility, or authority claim must then obtain independently. |
+| `The cache proves the architecture scales.` | Split three questions: what `cache` names, whether an evidence or assurance relation exists, and what measurable scale or lens-use claim is being made. Use `A.6.M`, `A.6.F`, E.18, state or temporal patterns, `C.16.P`, C.29, A.10, B.3, or G.6 only for the branch that is actually present. |
+| `The LCA upper layer guarantees safety.` | First decide whether `layer` names a control relation. If so, C.30.LCA records the relation, participant meanings, rate band, and relevant locality or model-use boundary. Safety, evidence, assurance, dynamics, temporal, and gate claims remain separate. |
+| `This gate selects the winning architecture.` | A neural-network gate or router uses `A.6.F` or E.18; a project gate decision uses A.20 or A.21; candidate selection uses G.5 or C.11. The label alone decides none of these. |
 
 #### C.30.STRAT:4.5a - Filled repair note
+
+For `The cache proves the architecture scales`, do not hide the split inside one formal record. Read it as three candidate claims:
+
+1. `cache` may name a state-bearing module, interface arrangement, flow buffer, or ordinary source label; the sentence does not yet decide which;
+2. `proves` requires an actual evidence relation or assurance argument; otherwise lower that wording;
+3. `scales` requires a characteristic and bearer, comparison or scale construction, architecture scale-preference claim, or mathematical-lens use.
+
+A retained note can remain compact:
 
 ```text
 StratificationSourceLabelRepairNote:
   sourceLabel: cache
-  boundedTextSpanOrPublicationUnit: "The cache proves the architecture scales."
-  localSentenceRole: architecture-operation source label plus separate proof and scale claims
-  encounteredSourceContext: inference-service architecture prose where cache names a reusable state or buffer mechanism
-  semanticAreaBaseConcept: stratification wording and architecture-operation source labels
-  semanticAreaSenseFamily: cache/state/buffer/reuse source-label wording
-  selectedOntologicalNeighborhood:
-    cache label: state or currentness, module-interface, or flow-buffer neighborhood only after apparatus is recovered
-    proves wording: evidence or assurance neighborhood only if an evidence relation or assurance argument is present
-    scales wording: characteristic, scale, architecture scale-preference, or mathematical-lens neighborhood only if those fields are present
-  primaryEntityOfConcernKind: ArchitectureOf@ServiceContext with a cache-related selected structure or state-bearing module candidate
-  encounteredFPFKindOrReference: source label only; no `U.Cache`, no proof record, and no scale claim by word shape
-  relationToPrimaryEntityOfConcern: cache is a candidate architecture-relevant structure or state-bearing item; proof and scale are adjacent claim uses
-  recoveredKindRelationOrClaimUse: split into cache-structure/state candidate, evidence or assurance overread, and scale or lens-use candidate
-  sourceUseDisposition: keep `cache` as source label until the field set named by value is recoverable; lower `proves` if no evidence relation is present
-  relationFunctionClaimRef: `A.6.M`, `A.6.F`, `E.18`, `A.19.SPR`, or `A.3.3` for cache apparatus when recovered; `C.16.P`, `C.29`, or `C.31.ASAP` for scale or lens use when recovered; `A.10`, `B.3`, or `G.6` for evidence or assurance only when that claim is being made
-  admissibleUse: use the sentence to start the field split and then cite only the recovered subject pattern results
-  neighboringClaimBoundary: proof, assurance, scale-success, module-substitutability, and architecture-quality claims apply the subject pattern for the recovered claim being made
-  remainingReaderUse: write the smallest subject-pattern result for the recovered scale, state, module-interface, flow, evidence, or assurance claim; otherwise keep ordinary source wording or quote-only wording
-  disposition: local-rewrite plus subject-pattern-ref application for each recovered claim being made; blocked or reduced-use cue for the rest
+  boundedTextSpan: “The cache proves the architecture scales.”
+  recoveredObjectRelationOrClaim: cache meaning unresolved; proof and scale are separate claims
+  sourceUseDisposition: keep cache as a source label until its relation or bearer is known
+  patternRef?: A.6.M, A.6.F, E.18, A.19.SPR, or A.3.3 for the cache;
+    C.16.P, C.29, or C.31.ASAP for scale; A.10, B.3, or G.6 for proof or assurance
+  repairedWordingOrDemotion: “The response cache is a candidate state-bearing part of the architecture; no proof or scaling claim has yet been established.”
+  admissibleUse: start the three-way investigation
+  blockedOverread: cache does not prove scaling, substitutability, or architecture quality
+  remainingReaderUse: state the smallest result for each recovered claim, or keep ordinary source wording
+  disposition: local-rewrite; direct-pattern-use only for branches that become current
 ```
 
-A compact local rewrite can therefore say: `The response cache is a candidate state-bearing architecture structure. Architecture scaling, mathematical-lens use, proof, and assurance claims are separate claims; apply C.16.P, C.29, C.31.ASAP, A.10, B.3, or G.6 only when one of those claims is being made.`
+The note preserves every live branch without requiring a project engineer to reproduce E.10.ARCH authoring coordinates.
 
 #### C.30.STRAT:4.6 - Lowering and reopen conditions
 
-A `StratificationSourceLabelRepairNote` remains admissible only while its source span, selected `ontologicalNeighborhood`, subject pattern, and remaining reader use stay recoverable. Reopen or lower the repair when:
+A repair remains usable only while its source span, recovered meaning, applicable rule, allowed use, and next action remain clear. Reopen or narrow it when the label begins carrying another relation or claim, the actual object becomes clear and makes this detour unnecessary, the interpretation was chosen from word similarity rather than evidence, or the repair is precise but leaves no useful reader action.
 
-- the source label starts carrying a new relation, characteristic, publication, evidence, assurance, gate, work, decision, causal-use, or mathematical-lens claim;
-- a subject pattern becomes recoverable and `C.30.STRAT` no longer buys action guidance;
-- the selected neighborhood was chosen by label similarity rather than by recovered apparatus;
-- the repair preserves kind recovery but leaves no useful admissible reader use;
-- `E.10.ARCH` changes the required recovery fields, `C.30.P` changes architecture-wording repair law, `F.19` changes apparatus-vs-usability policy, or a more source-label realization pattern now governs a label family currently repaired here.
-
-Lower the result to quote-only, reduced-use cue, blocked use, or incomplete rewrite when the subject pattern, admissible use, non-admissible use, or remaining reader use cannot be stated.
+Also reopen the affected authoring row when E.10.ARCH changes its internal coordinates, C.30.P changes architecture-wording repair, F.19 changes the plain-language boundary, or another realization pattern now handles this wording family. Lower the result to ordinary wording, quotation, reduced-use cue, blocked use, or incomplete rewrite when the object, applicable rule, allowed use, blocked overread, or next action cannot be stated.
 

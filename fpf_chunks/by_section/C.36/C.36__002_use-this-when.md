@@ -6,12 +6,12 @@ section_id: "C.36:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:0 — Use This When"
-line_start: 67844
-line_end: 67908
+line_start: 65050
+line_end: 65096
 dependencies:
   - "A.1"
   - "A.10"
@@ -25,6 +25,7 @@ dependencies:
   - "A.3.2"
   - "A.3.3"
   - "A.3.4"
+  - "A.6.1"
   - "A.6.RCD"
   - "B.3"
   - "C.11"
@@ -64,7 +65,7 @@ Typical first-use situations:
 - an engineering group treats its product family, toolchain, platform family, research program, or AI-agent framework as an evolving set of variants rather than one fixed system;
 - a scientific, medical, pedagogical, engineering, music, dance, organizational, or AI-agent discipline is changing through related methods, work products, training forms, memory epistemes, recognition regimes, and selected variants;
 - a music or dance steward needs to compare style, genre, technique, scene, canon, platform, or tradition labels without assuming that the label names one root kind;
-- a project lead wants an intervention that changes generation, transmission, selection, recognition, memory, method-family, work-family, system-role-assignment, mediation, architecture, measurement, or refresh relations.
+- a project lead wants to influence the evolving practice—for example by changing how variants are generated, transmitted, recognized, selected, remembered, measured, or refreshed, or by changing a Method family, Work family, assignment, mediating architecture, or performed intervention.
 
 #### C.36:0.1 - What Goes Wrong If Missed
 
@@ -72,51 +73,33 @@ The team treats culture as shared vocabulary, treats style as a genre tree, trea
 
 #### C.36:0.2 - What This Buys
 
-The practitioner gets one small cultural-evolution case that names the collective holons, exact local system-role kinds and any obtaining assignments that matter, work families, method families, canon or memory epistemes, recognition and selection regimes, mediation systems or architectures, variant sets, term bridges, current intervention, measurement, and refresh relation. After that, the project can apply the subject pattern for the next claim.
+The practitioner gets one small statement of what is changing, which relations transmit, recognize, select, retain, or mediate variants, what intervention is current, and what to do next. Add collective holons, local system-role kinds, classifications, assignments, Work and Method families, canon or memory epistemes, architectures, measurements, and refresh relations only when the current claim actually needs them.
 
 #### C.36:0.3 - First Useful Move
 
-Write a compact `CulturalEvolutionCaseCard@Context`. It names what is changing, which FPF values and exact subject assertions are current, and which candidate pattern description locates the defining or constraining `ClaimGraph` for the next question.
+Start with one ordinary sentence. For example: `In this dance school, teachers and the festival archive transmit variants, jury recognition and peer copying select them, and the current intervention changes how new variants enter the syllabus.` Add the next pattern only when its definition or test changes the action.
+
+When the result must be retained or handed on, use a small card:
 
 ```text
 CulturalEvolutionCaseCard@Context:
   CaseRef:
-  BoundedContext:
-  CollectiveHolonRefs:
-  RoleWordRecoveryRefs?: E.10.ROLE results for every role-like source label used by the case
-  DirectParticipationOrPositionRelationRefs?: obtaining direct relations when a label resolves to a participant or organization or representation position
-  SystemRoleKindRefs?: U.KindRef, each resolving to one exact local system-role kind
-  SystemRoleClassificationJudgmentRefs?: U.RelationRef, each resolving a separate judgment about an admitted System
-  SystemRoleAssignmentSpeciesRefs?: U.RelationKindRef, each resolving to one directly declared species under U.SystemRoleAssignment
-  SystemRoleAssignmentOccurrenceRefs?: U.RelationRef, each resolving to one obtaining occurrence of a cited species
-  WorkFamilyRefs:
-  MethodFamilyRefs:
-  MethodRelationStructureRefs?:
-  MethodDescriptionRefs?:
-  CanonOrMemoryEpistemeRefs:
-  DisciplineRefs?:
-  SelectionOrRecognitionRegimeRefs:
-  MediationSystemOrArchitectureRefs?:
-  MeasurementOrVisibilityRelationRefs?:
-  VariantSetRefs:
-  CharacteristicSpaceRefs?:
-  LevelOrScopeRefs?:
-  StyleOrTraditionTermRows?:
+  CaseScopeOrModelUseBoundary:
+  CollectiveHolonOrDisciplineScope:
+  VariantRefsOrDescription:
+  TransmissionRecognitionSelectionOrMemoryRelations:
+  MediationOrMeasurementRefs?:
+  PublicationRefs?:
   CurrentEvolutionaryQuestion:
-  CurrentPatternLocators:
-  RefreshRefs?:
+  ApplicablePatternRefs?:
+  NextActionOrStop:
 ```
 
-Field glosses for first use:
+`@Context` is part of the card's retrieval name; it names no universal Context. `CaseScopeOrModelUseBoundary` names the actual project, discipline, scene, product-family, publication, or model-use boundary. This boundary stops a local trend from becoming the whole culture merely by wording. `PublicationRefs` is optional: when a publication distinction matters, name only the exact E.17 source-backed face or exact E.24.PUB publication occurrence, publication form, presentation carrier, audience-declaration episteme, bounded-use-declaration episteme, or availability claim needed by this case. The card does not require a complete publication record. Actual access, reliance, use, and Work stay outside this field unless their own direct relations or occurrences are separately current.
 
-| Field | Meaning in the card |
-|---|---|
-| `VariantSetRefs` | Generated, retained, inherited, or observed variants whose cultural or engineering evolution is being considered; archive or front authority still comes from `C.18` or `C.19`. |
-| `CharacteristicSpaceRefs` | The feature, descriptor, quality, constraint, or value space in which variation and selection become comparable; several feature spaces may be current in one style or tradition case. |
-| `LevelOrScopeRefs` | The holon level, discipline scope, scene, product-family scope, team scope, or publication scope in which the case is being judged; this prevents one local trend from becoming the whole culture by wording. |
-| `StyleOrTraditionTermRows` | Bridge rows for labels such as style, tradition, genre, school, canon, technique, scene, or platform format; these rows keep familiar terms usable without making them root kinds. |
-| `CurrentEvolutionaryQuestion` | The live question. Examples include generation, transmission, recognition, selection, retention, mediation, method-family change, work-family change, architecture-candidate treatment, measurement, intervention, and refresh. |
-| `CurrentPatternLocators` | The FPF patterns that define or constrain the current values. Use C.36 to keep the cultural-evolution case together; use the applicable patterns for archive, front, selected-set result declaration, actual publication, decision, work, evidence, architecture, term bridge, or refresh. |
+Variants may be generated, retained, inherited, or observed. An archive or front claim still uses C.18 or C.19.
 
-The card is optional and thin. It is not a root U-kind, lifecycle step, evidence record, decision record, publication authority, or replacement for the named subject patterns.
+Expand the card only when later use needs more detail. Possible additions include direct participation or position relations; local system-role kinds, separate System-classification judgments, assignment species and obtaining occurrences; Work and Method families; Method relation structures and descriptions; canon or memory epistemes; recognition and selection regimes; mediation systems or architectures; characteristic spaces; style or tradition term rows; publication relations; measurement; and refresh. Each addition identifies its own object or obtaining relation; the card creates none of them.
+
+The card is optional. It is not a root U-kind, lifecycle step, evidence, decision, publication authority, or substitute for the patterns that define or test its referenced claims.
 

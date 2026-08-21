@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__013_sota-echoing.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:11 — SoTA-Echoing"
-line_start: 61087
-line_end: 61094
+line_start: 58252
+line_end: 58257
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,9 +50,7 @@ keywords:
 
 ### C.30.STRAT:11 - SoTA-Echoing
 
-Reduced SoTA is sufficient for this precision-restoration pattern. The source practice being adopted is not a new external ontology; it is the observed architecture and engineering habit of using compact labels such as `layer`, `level`, `tier`, `stack`, `block`, `expert`, `cache`, `router`, and `gate` as local recognition language. FPF adapts that practice by keeping labels as source labels and requiring ontology-first recovery before they carry FPF-governed use.
+This pattern does not import a new external stratification ontology. It responds to a widespread engineering practice: local fields use compact words such as `layer`, `level`, `tier`, `stack`, `block`, `expert`, `cache`, `router`, and `gate` for different objects and relations. FPF keeps that useful recognition language and requires the technical meaning to be recovered before the word carries a stronger claim.
 
-Internal FPF current practice is the governing source here: `E.10` supplies trigger handling, `E.10.ARCH` supplies the recovery architecture, `C.30.P` supplies architecture and structure wording repair, `F.19` supplies apparatus-vs-usability discipline, and subject patterns carry recovered cases. The `Solution`, checklist, worked cases, and relations in this pattern change because that source-use disposition rejects lexical replacement and trigger-table fanout.
-
-**Currentness front.** Recheck this pattern when `E.10.ARCH` changes the recovery row fields, `C.30.P` changes architecture or structure wording repair, `F.19` changes apparatus policy, or a more source-label realization pattern now governs a label family currently repaired here. The smallest changed locus is the affected row field, Relations entry, worked case, or subject-pattern thin pointer; do not rebuild a local trigger registry.
+E.10 supplies the cheap wording trigger, E.10.ARCH keeps the author-facing applicability architecture, C.30.P handles broader architecture wording, F.19 supplies the plain-language test, and the applicable technical patterns define or test the recovered claims. Recheck only the affected cue, table row, worked case, or pointer when one of those sources changes; do not rebuild a local trigger registry.
 

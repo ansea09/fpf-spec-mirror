@@ -1,42 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.20"
-pattern_title: "Flow Constraint Validity — Eulerian"
-section_id: "A.20:9"
+pattern_title: "Constraint Validity for Transformation Steps"
+section_id: "A.20:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__012_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.20 — Flow Constraint Validity — Eulerian"
-  - "A.20:9 — Rationale"
-line_start: 33762
-line_end: 33765
+  - "A.20 — Constraint Validity for Transformation Steps"
+  - "A.20:10 — Rationale"
+line_start: 33229
+line_end: 33232
 dependencies:
-  - "A.19.SelectorMechanism"
+  - "A.10"
+  - "A.15"
   - "A.21"
-  - "C.18"
-  - "C.19"
+  - "A.6.1"
+  - "A.6.4"
+  - "B.3"
+  - "C.2.1"
+  - "C.27"
   - "E.17"
   - "E.18"
-  - "F.17"
+  - "E.20"
   - "F.9"
   - "G.11"
-  - "G.5"
-  - "G.6"
 keywords:
-  - "ConstraintValidity"
-  - "Eulerian"
-  - "GateFit"
-  - "MVPK"
-  - "PathSlice"
-  - "Sentinel"
-  - "SquareLaw"
-  - "TransformationFlowStructure"
-  - "flow"
 ---
 
-### A.20:9 - Rationale
+### A.20:10 - Rationale
 
-`E.18` transformation-flow structure coordinates A.20 and A.21 as orthogonal neighboring cores: CV **inside** transformations; GF **at** gates with join‑aggregation and DecisionLog. This mirrors effects and handlers (signature vs. handler), and reproducible build vs. release or deployment criteria separation.
+Constraint truth, knowledge about that truth, and a policy response are different. A.20 records the evaluation result. The constraint's own pattern defines the truth condition. A.21 or another consumer decides what follows. Keeping those steps separate removes evaluation-order dependence and prevents a local validity pattern from becoming a second architecture for flows, publication, refresh, and gates.
 

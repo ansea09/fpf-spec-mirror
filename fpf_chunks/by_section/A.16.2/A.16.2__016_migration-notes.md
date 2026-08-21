@@ -6,12 +6,12 @@ section_id: "A.16.2:15"
 section_title: "Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__016_migration-notes.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:15 — Migration Notes"
-line_start: 27947
-line_end: 27954
+line_start: 27462
+line_end: 27469
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,8 +36,8 @@ keywords:
 ### A.16.2:15 - Migration Notes
 
 #### A.16.2:15.1 - Migration from regression language
-Older language often talks about "going backwards" or "regressing". The preferred migration is to name whether the change is reopen, sketch-backoff, respecify, or retire, and what boundary or authority consequence follows.
+Older language often talks about "going backwards" or "regressing". The preferred migration is to name whether the change is reopen, sketch-backoff, respecify, or retire, and which route, endpoint, publication, current-use, or actual relation claim changes.
 
 #### A.16.2:15.2 - Integration reminder
-When retreat affects governing patterns such as `A.6.P`, `A.6.A`, `C.16.Q`, or `A.15`, those governing patterns should be updated explicitly rather than left to drift on stale authority.
+When retreat affects governing patterns such as `A.6.P`, `A.6.A`, `C.16.Q`, or `A.15`, update the exact endpoint result, invitation, evaluation, Work hook, or current-use claim instead of leaving a stale downstream assertion.
 

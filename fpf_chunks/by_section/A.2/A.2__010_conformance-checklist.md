@@ -6,12 +6,12 @@ section_id: "A.2:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__010_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:8 — Conformance Checklist"
-line_start: 3039
-line_end: 3058
+line_start: 3044
+line_end: 3063
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -44,7 +44,7 @@ keywords:
 | ID | Check |
 | --- | --- |
 | `CC-A2.1` | Every system-role kind is one local `U.Kind`; no `U.Role` or universal `U.SystemRole` is introduced. |
-| `CC-A2.2` | The explicit local practice or source boundary, stable assignable contribution distinction, and `U.System` candidate kind are recoverable and jointly identify the local kind. |
+| `CC-A2.2` | The `U.System` candidate domain, operative work-facing membership condition, intended member/non-member boundary, and continuity rule recover the kind; practice or source provenance only locates or prompts comparison of the definition. |
 | `CC-A2.3` | Kind identity, `KindSignature`, classification judgment, extension, vocabulary episteme, and reference scheme remain distinct. |
 | `CC-A2.4` | Each judgment names one system, system-role kind, signature edition, slice, and `true`/`false`/`unknown` result. |
 | `CC-A2.5` | Membership clauses use directly governed candidate features; labels, records, judgments, extensions, and proposed subkind edges are not features by form. |

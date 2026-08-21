@@ -1,52 +1,49 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.4"
-pattern_title: "U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
+pattern_title: "EntityOfConcern retargeting"
 section_id: "A.6.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
+  - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:1 — Problem frame"
-line_start: 15162
-line_end: 15185
+line_start: 15169
+line_end: 15180
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
   - "A.6.5"
   - "A.7"
+  - "B.3"
   - "C.2"
   - "C.2.1"
+  - "C.29"
   - "C.3"
   - "E.10.D2"
-  - "E.18"
+  - "E.17"
+  - "E.24.PUB"
   - "F.9"
 keywords:
 ---
 
 ### A.6.4:1 - Problem frame
 
-Many important operations on descriptions **change the EntityOfConcern** while preserving a structural or behavioural invariant:
+Several familiar moves can hide a real change of EntityOfConcern, but none proves that change merely by its name or notation:
 
-* **Physical vs functional reinterpretation.**
-  An episteme about a physical module (cabinet, rack, device) is re‑interpreted as an episteme about a function‑holon it realises. This is precisely what `E.18` `StructuralReinterpretation` loci express when a transformation-flow structure records this reinterpretation.
+* **Physical module and realized function.** An episteme about cabinet `Cab-7` and one about routing function `Route-A` concern different exact entities when C.2.1 identifies the cabinet and the function independently. The obtaining realization relation can then help support a bounded retargeting claim.
+* **Signal and spectrum.** The ordinary Fourier case often concerns one signal in two representations. That is a C.29 mathematical-lens use followed by A.6.3.RT when the EntityOfConcern is preserved. A.6.4 opens only if the receiving episteme concerns a separately identified spectrum object and the use explains why that object, rather than the original signal under another representation, is current.
+* **Observations and fitted model.** A dataset and a learned model can be different exact entities. The fit and held-out test may support a named prediction use, while individual observations and unmodelled distinctions remain visible losses. Model fitting itself is separate Work.
 
-* **Signal vs spectrum.**
-  A time‑domain signal description is re‑targeted to a description of its frequency‑domain spectrum. The underlying invariant (typically energy or inner‑product) is preserved, but the EntityOfConcern changes from `time→value` trajectories to `frequency→amplitude/phase` distributions.
+For a case used positively, the local arrow r relates two identified epistemes with different EntitiesOfConcern, q affirmatively states the bounded-use proposition, and the current case facts satisfy it. If a system produced or changed an episteme, identify that application and Work separately.
 
-* **Data vs model.**
-  An episteme about raw observations (dataset) is turned into an episteme about a learned or estimated model, keeping an invariant such as likelihood, sufficient statistics, or predictive performance.
-
-All of these are **Ep→Ep transforms** that:
-* operate on Description epistemes, including Description epistemes admitted for specification use rather than mutating the EntityOfConcern itself,
-* do **not** merely slice or re-express an episteme with the same EntityOfConcern (that would be EpistemicViewing, A.6.3),
-* but **do change** the exact EntityOfConcern under a formal bridge between its source and receiving kinds, while stating separately whether any current empirical-grounding relation or use qualification is preserved or changed.
-
-We need a single, reusable notion of **“epistemic retargeting”** that captures these operations as:
-* **effect‑free** at the level of Work/Mechanism (EFEM discipline),
-* **EntityOfConcern retargeting** in a controlled way,
-* **invariant‑conservative** (no violation of the declared invariant between kinds),
-* and **functorial** (retargetings compose cleanly and align with Bridges).
+A domain relation, mathematical transform, or F.9 Bridge may support one case, but none is a universal admission field and none substitutes for the independent EntityOfConcern test.
 

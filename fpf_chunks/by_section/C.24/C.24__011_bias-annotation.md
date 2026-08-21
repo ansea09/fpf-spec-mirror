@@ -6,42 +6,37 @@ section_id: "C.24:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__011_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:6 — Bias-Annotation"
-line_start: 52626
-line_end: 52629
+line_start: 51395
+line_end: 51398
 dependencies:
-  - "A.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
-  - "A.15.5"
   - "B.1.6"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.24"
+  - "C.19.1"
   - "C.28"
   - "C.5"
-  - "E.10.MOVE"
-  - "E.11.PUR"
+  - "E.17"
   - "E.23"
-  - "E.3"
-  - "E.5"
+  - "E.24.PUB"
   - "G.5"
   - "G.6"
   - "G.9"
   - "U.PromiseContent"
-  - "U.WorkPlan"
 keywords:
 ---
 
 ### C.24:6 - Bias-Annotation
 
-Lexical firewall and notation independence apply; no vendor tokens; mixed-scale characteristics are never averaged; exact `U.Method`, route-description `U.MethodDescription`, `U.WorkPlan`, actual `U.Work`, CallGraph evidence, and service promise remain distinct; a successful probe remains distinct from committed rollout until the commit trigger is satisfied.
+Keep notation and vendors out of the conceptual contract. Do not average unlike scales. Do not let a route description, plan, trace, response, or confidence label stand in for a Method, performed Work, evidence result, or assurance result.
 

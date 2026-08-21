@@ -6,12 +6,12 @@ section_id: "C.3.2:7"
 section_title: "Extension as Representation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__009_extension-as-representation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:7 — Extension as Representation"
-line_start: 44936
-line_end: 44947
+line_start: 43733
+line_end: 43744
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -31,11 +31,11 @@ keywords:
 
 Materialize `KindExtension(k, slice)` only when a named query, quantification, comparison, review, or publication needs the current true-candidate set.
 
-- Pin the `KindSignature` edition used by the representation even though the compact name shows only `k` and `slice`.
-- State the declared candidate domain without inventing `U.EntitySet`.
-- Include exactly the candidate values whose pinned judgment is `true`; do not insert `unknown` candidates as false or silently omit their unresolved status when the receiving use needs it.
-- Treat braces, rows, indexes, or database results as representations. They do not create a collection holon, an A.14 membership occurrence, a direct classification relation, or the candidate features.
-- Use C.29 when the mathematical lens or represented set changes a claim-bearing use. Otherwise the extension may remain a local calculation.
+- Pin the signature edition even though the compact name shows only `k` and `slice`.
+- State the candidate domain without inventing `U.EntitySet`.
+- Include exactly admissible candidates whose judgment is `true`. Keep `unknown` and `not-applicable` distinct when the receiver needs those exclusions explained.
+- Treat braces, rows, indexes, or database results as representations. They create neither a collection holon, A.14 membership occurrence, direct classification relation, nor criterion condition.
+- Use C.29 when the represented set changes a claim-bearing use; otherwise the extension may remain a local calculation.
 
-A changed candidate state or later context slice can change `KindExtension(k, slice)` without changing the signature or local kind. A changed extension row cannot repair an inconsistent declaration or subkind link.
+Candidate state or a later slice can change an extension without changing the signature or kind. An extension row cannot repair an inconsistent declaration or subkind fact.
 

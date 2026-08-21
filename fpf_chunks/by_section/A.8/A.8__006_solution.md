@@ -6,12 +6,12 @@ section_id: "A.8:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:3 — Solution"
-line_start: 22447
-line_end: 22473
+line_start: 21892
+line_end: 21918
 dependencies:
   - "A.11"
   - "C.3"
@@ -42,7 +42,7 @@ Use this compact record:
 ```text
 UniversalCoreProjection:
   CandidateUKind:
-  E24UKDecisionRef:
+  UKindAdmissionResultRef: exact accepted E.24.UK output; follow it to the shared decision only when common inputs or decision mode are needed.
   DomainFamily:
   DomainTerm:
   LocalEoC:

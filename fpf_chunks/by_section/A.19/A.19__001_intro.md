@@ -6,12 +6,12 @@ section_id: "A.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:intro — Intro"
-line_start: 28338
-line_end: 28348
+line_start: 27853
+line_end: 27863
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,11 +20,14 @@ dependencies:
   - "A.19.CHR"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.19.UNM"
   - "A.2.6"
   - "A.6.5"
+  - "B.1"
   - "C.16"
   - "C.2.1"
   - "E.24"
+  - "F.17"
   - "F.9"
   - "G.11"
   - "G.4"
@@ -48,7 +51,7 @@ keywords:
 > **Type:** Kernel characteristic-space and dynamics-typing pattern
 > **Status:** Stable
 
-**Use this when.** Use this pattern when the current object is either a declared `CharacteristicSpace` or a reusable by-value `CharacteristicSpacePredicate` over that space: characteristics, scales, value sets, coordinate bindings, optional overlays, predicate operators and cuts, comparability boundaries, normalization boundaries, missingness, and the `U.Dynamics.stateSpace` hook.
+**Use this when.** Use this pattern when the current object is either a declared `CharacteristicSpace` or a reusable by-value `CharacteristicSpacePredicate` over that space: characteristics, scales, value sets, coordinate bindings, optional overlays, predicate operators and cuts, comparability and normalization boundaries, partial-observation handling, and the `U.Dynamics.stateSpace` hook.
 
 **What goes wrong if missed.** Teams compare raw numbers from different scales, treat dashboards or scores as the space, hide thresholds inside state labels, silently change a predicate use's scope or evaluation window, smuggle method sequences into checklists, or give consumer patterns private space and predicate kinds.
 

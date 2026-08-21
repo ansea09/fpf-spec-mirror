@@ -6,12 +6,12 @@ section_id: "A.2:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__008_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:6 — Bias Annotation"
-line_start: 3012
-line_end: 3026
+line_start: 3017
+line_end: 3031
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -43,7 +43,7 @@ keywords:
 
 | Bias risk | Failure | Repair |
 | --- | --- | --- |
-| Lexical bias | A familiar role label is treated as a kind, judgment, or assignment. | Recover the named practice or source boundary, stable contribution distinction, signature, candidate, and slice; keep ordinary wording Plain when no technical object is needed. |
+| Lexical bias | A familiar role label is treated as a kind, judgment, or assignment. | Do not let the familiar word decide. Say which systems can count, which work-facing condition separates members from relevant non-members, and what preserves that distinction; keep ordinary wording Plain when no technical object is needed. |
 | Document bias | A taxonomy, description, card, or publication is treated as the kind or assignment. | Keep the episteme and publication relation separate from the governed world-side values. |
 | Episteme-as-agent drift | A standard, report, dataset, or model is said to perform Work. | Name the performer system and Work occurrence; keep the episteme in its evidence, reliance, external-rule, source-use, or publication relation. |
 | Global-label bias | Matching names are treated as matching kinds or sufficient permission for cross-local use. | Keep local identities separate and establish only the C.3.3 kind relation, any F.9 local-sense relation, and the bounded-use claim that actually obtain. |

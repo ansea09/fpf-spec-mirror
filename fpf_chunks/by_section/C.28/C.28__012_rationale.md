@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.28"
-pattern_title: "CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+pattern_title: "CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
 section_id: "C.28:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__012_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+  - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:10 — Rationale"
-line_start: 57762
-line_end: 57775
+line_start: 54938
+line_end: 54943
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,13 +30,14 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
+  - "CausalUseSupportResult"
   - "Pearl Causal Hierarchy"
   - "Structural Causal Model"
   - "association"
   - "causal diagram"
   - "causal estimand"
-  - "causal evidence support basis"
   - "causal fairness"
+  - "causal support components"
   - "causal-RL evaluation"
   - "causal-use question"
   - "causality ladder"
@@ -50,15 +51,7 @@ keywords:
 
 ### C.28:10 - Rationale
 
-FPF needs this pattern because causal language changes what a reader may do.
+Temporal change, a higher metric, a convincing graph, or a plausible simulator can all be useful without supporting a causal effect. Conversely, observational data can support a causal estimate when an explicit identification result closes the inferential gap. C.28 therefore separates the question from the components that support it and separates that evidential conclusion from downstream authority.
 
-Temporal language can say that something changed. Measurement language can say that a score is higher. Assurance language can say that evidence has more or less support. None of those alone says that an action caused a result, that a counterfactual comparison is supported, or that a causal policy should be deployed.
-
-`C.28` therefore uses a semantic-authority split:
-
-- `C.28` governs causal-use question, rung, estimand, identification, realizability, causal evidence support basis, and causal-use verdict.
-- Neighbor patterns keep their own authority and cite `C.28` only when causal use is live.
-- `C.26` applies only after C.28 causal-use triage leaves a residual quantum-like issue: intervention, causal effect, causal fairness, causal policy, and counterfactual-rung-data realizability are ordinary causal-use questions before they are quantum-like modeling questions.
-
-The pattern is not Pearl-only. SCM and PCH provide the rung discipline, but potential outcomes, target-trial emulation, causal ML estimation, transportability, causal representation learning, causal RL, and causal fairness all change the fields that FPF must preserve.
+The integrated contract is deliberately plural: SCM and graphical methods, potential outcomes, target-trial practice, design-based identification, causal ML, transport, causal representation learning, causal RL, and causal fairness may supply different specialist results. None is installed as the universal method.
 

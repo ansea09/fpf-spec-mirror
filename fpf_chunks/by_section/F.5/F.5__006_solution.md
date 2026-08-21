@@ -6,12 +6,12 @@ section_id: "F.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:4 — Solution"
-line_start: 91663
-line_end: 91741
+line_start: 89052
+line_end: 89130
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,7 +59,7 @@ Make these facts recoverable in the prose, direct admission, F.4 description, Co
 
 - the exact named value and its admitted kind;
 - the direct source of its meaning;
-- for a local system-role-kind designation, the practice or source boundary in which the kind is constituted, its stable work-facing contribution distinction, current `KindSignature`, and effective scheme;
+- for a local system-role-kind designation, the candidate domain, operative membership condition, intended member/non-member boundary, continuity rule, current `KindSignature`, and effective scheme, with source or practice provenance kept as a locator or comparison cue;
 - for a description name, the separate F.4 `SystemRoleKindDescription` and its exact EntityOfConcern;
 - the selected Tech and Plain designations;
 - aliases or predecessor labels with lineage;
@@ -70,8 +70,8 @@ Make these facts recoverable in the prose, direct admission, F.4 description, Co
 
 | Name family | Meaning source | Naming rule |
 | --- | --- | --- |
-| Public U-kind or durable cross-local value name | Public U-kind admitted through E.24.UK, or another exact value that satisfies its defining membership rule; a Concept-Set row may retain witness comparison but supplies neither identity nor admission | Use a neutral Tech head at minimal generality. Do not let one witness's private vocabulary win by spelling alone. |
-| Concrete local system-role-kind designation | Exact C.3 kind admitted under A.2, with a named practice or source boundary, stable work-facing contribution distinction, direct criterion, and local sense | Use a concrete `...SystemRole` Tech designation. `SystemRole` is morphology, not a universal value; do not add `Kind` when `: U.Kind` is already explicit. |
+| Public U-kind or durable cross-local value name | Public U-kind admitted through E.24.UK, or another exact value already recovered through the direct rule for that kind of value; a Concept-Set row may retain witness comparison but supplies neither identity nor admission | Use a neutral Tech head at minimal generality. Do not let one witness's private vocabulary win by spelling alone. |
+| Concrete local system-role-kind designation | Exact C.3 kind admitted under A.2, recovered through its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule; source or practice provenance only locates or helps compare the settlement | Use a concrete `...SystemRole` Tech designation. `SystemRole` is morphology, not a universal value; do not add `Kind` when `: U.Kind` is already explicit. |
 | `SystemRoleKindDescription` designation | F.4 description episteme whose exact EntityOfConcern is one local system-role kind | Name the description separately, for example `PumpInspectorSystemRoleKindDescription`; never use the description name as the kind or assignment name. |
 | Relation among system-role kinds or a system-role–Method expression | Exact relation under A.2.7 and, when current, a separately recovered Method, MethodDescription, or Work | Name the recovered relation or neighboring object. Ordinary phrasing may stay compact but must not hide independent classifications or assignments. |
 | Method, Method family, Method relation structure, WorkPlan, or Work name | A.3, A.15, G.5, and the exact composition or Work pattern | Name that object directly. Shared words with a system-role-kind label create no relation or identity. |
@@ -79,7 +79,7 @@ Make these facts recoverable in the prose, direct admission, F.4 description, Co
 | Status, evidence, requirement, source, standard, publication, assurance, gate, or decision name | Exact direct relation or value | Do not treat it as a `SystemRoleKindDescription` branch. Use F.18 only after the direct object is recovered. |
 | Relation slot or argument-position name | A.6.RSIR, A.6.5, and the exact relation or signature declaration | Name the participant meaning, slot, or argument position. Do not use `SystemRole` morphology unless the value is independently a local system-role kind. |
 
-For every system-role-facing naming use, keep these objects distinct: selected designation `L`, local system-role kind `K`, optional F.4 description episteme `D`, and any assignment occurrence `A` that the current use actually needs. Under the effective scheme, `L` designates `K`; under C.2.1, `D` has `K` as EntityOfConcern. Under A.2.1, `A` must be an occurrence whose species is declared under `U.SystemRoleAssignment`, not an occurrence admitted by a generic two-place signature. That species declares a holder slot for an admitted `U.System`, one declaration-local assigned-kind slot whose domain is the exact local system-role-kind domain containing `K`, its own predicate and applicability, its uninterrupted occurrence-identity rule, and any real additional identity-bearing participant. In `A`, the holder slot identifies the admitted holder system and the assigned-kind slot identifies `K`. If assignment identity is not part of the naming use, stop with the naming objects and say only that any assignment remains a separate A.2.1 claim; do not invent `A`. Spelling, suffix, NameCard, public row, description, or citation creates none of the other objects or any dated Work, result episteme, provenance record, or publication occurrence.
+Keep four things separate: the chosen name, the local system-role kind it names, an optional F.4 description of that kind, and any assignment that the current use actually needs. The name designates the kind; the description describes it. An assignment is a separate A.2.1 occurrence of a directly declared species under `U.SystemRoleAssignment`. That species says which systems may be holders, which exact local kinds may fill the assigned-kind place, what the assignment predicate means, when it applies, how an uninterrupted occurrence keeps its identity, and whether another real participant matters. The occurrence supplies the actual holder, assigned kind, and any other participant values. If the naming use needs no assignment identity, do not invent an assignment. Spelling, a suffix, a NameCard, a public row, a description, or a citation creates none of these objects, nor any dated Work, result episteme, provenance record, or publication occurrence.
 
 #### F.5:4.2 - Tech and Plain Designations
 
@@ -95,7 +95,7 @@ For a concrete local system-role kind, the Tech designation normally ends in `..
 
 For the description episteme, name the description rather than the described kind: `PumpInspectorSystemRoleKindDescription` may have Plain designation “description of the pump-inspector system-role kind”. `SystemRoleKindDescription` identifies the construction; `Kind` identifies the EntityOfConcern and `Description` already identifies the episteme.
 
-For a coupled system-role–Method phrase, recover the local kind and Method separately before naming either one. Recover and name a MethodDescription, WorkPlan, or dated Work only when that exact object is already admitted and the naming use consumes it; a shared phrase does not require any of them to exist. `RoboticsEngineerSystemRole` may designate one admitted local kind; `RobotEngineeringMethod` names a Method or Method family. Ordinary *engineer-roboticist* may remain the Plain expression for the local kind when its named practice or source boundary and criterion are recoverable. It replaces neither a qualifying MethodDescription nor any description of planned or performed Work.
+For a coupled system-role–Method phrase, recover the local kind and Method separately before naming either one. Recover and name a MethodDescription, WorkPlan, or dated Work only when that exact object is already admitted and the naming use consumes it; a shared phrase does not require any of them to exist. `RoboticsEngineerSystemRole` may designate one admitted local kind; `RobotEngineeringMethod` names a Method or Method family. Ordinary *engineer-roboticist* may remain the Plain expression when nearby project wording makes the intended kind clear and the C.3 candidate domain, membership distinction, boundary probes, and continuity remain recoverable. The wording helps the reader; it does not identify the kind. It replaces neither a qualifying MethodDescription nor any description of planned or performed Work.
 
 When a later naming use actually consumes one dated Work identity, that Work must already be constituted before F.5 naming begins. The admitting claim must already recover the performer System, exact semantic Method, time, containing System, the assignment occurrence that covers the Work and its declared species, equality of performer and assignment holder, and the F.6 performed-under-assignment relation. Otherwise keep the activity in ordinary wording and do not mint a Work identifier merely to support a name.
 
@@ -111,7 +111,7 @@ For a U-kind, the Tech designation should be neutral enough that no witness wins
 6. **Keep coupled names typed.** A compact phrase may help a reader, but one label must not carry several independently governed objects—for example, kind, assignment, capability, Method, Work, and description—at once.
 7. **Do not encode thresholds or windows in the name.** Put time, state, threshold, capability envelope, or admission window in the direct claim.
 8. **Use aliases only with lineage.** A source term, predecessor term, symbol, or translation does not become a second selected Tech label.
-9. **Escalate only for actual reuse.** Use F.18 and F.17 for durable or public naming. When an actual cross-local relation is consumed, name the exact obtaining C.3.3 relation between local kinds or F.9 relation between distinct F.17 cells, as applicable, and keep the separate current C.2.1 claim that it suits the named receiving use. For ordinary below-threshold use with no assurance claim, require the exact A.10 evidence-provenance relation and local `RelianceDisposition=pass`. When an assurance claim is made or B.3's material-reliance threshold is met, first decide whether a current assurance claim exists; positive reliance needs that positive claim for the same bounded assurance use and a sufficient minimum reliance-safety assurance record. An exact non-positive disposition—such as no assurance claim, insufficient record, narrowed, rejected, withdrawn, abstaining, or blocked—stops or narrows the use. None of the cross-local relation, receiving-use claim, evidence path, assurance record, NameCard, row, designation, or publication establishes assignment, Work, result, provenance, assurance, or publication occurrence.
+9. **Escalate only for actual reuse.** Use F.18 and F.17 for durable or public naming. When an actual cross-local relation is consumed, name the exact obtaining C.3.3 relation between local kinds or F.9 Bridge between distinct F.17 cells and keep the separate C.2.1 claim that it suits the named use. Ordinary reliance requires the exact A.10 evidence-provenance relation and `RelianceDisposition=pass`. Use B.3 only when an actual named assurance claim is current. None of the cross-local relation, use claim, evidence path, assurance result, NameCard, row, designation, or publication establishes assignment, Work, result, provenance, assurance, or publication occurrence.
 
 #### F.5:4.4 - Neighboring Use Boundary
 

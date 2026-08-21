@@ -6,44 +6,45 @@ section_id: "A.22.CGUS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__011_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:9 — Consequences"
-line_start: 35142
-line_end: 35147
+line_start: 34324
+line_end: 34329
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.21"
   - "A.22"
-  - "A.6.3.NAR"
-  - "B.3.5"
-  - "B.5.2"
-  - "C.13"
-  - "C.18"
-  - "C.19"
-  - "C.2.P.DR"
-  - "C.3"
+  - "A.3"
+  - "A.6.5"
+  - "A.6.P"
+  - "B.3"
+  - "C.29"
+  - "C.30"
+  - "C.32"
   - "C.32.P2S"
   - "C.33"
   - "C.35"
-  - "E.10.MOVE"
   - "E.11"
   - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.18.3"
   - "E.18.NET"
-  - "E.18.NET-conforming"
   - "E.23"
-  - "E.24.PUB"
   - "F.17"
+  - "F.18"
+  - "F.9"
   - "G.11"
-  - "G.5"
 keywords:
 ---
 
 ### A.22.CGUS:9 - Consequences
 
-CGUS gives FPF a way to preserve route-shaped usefulness without turning route-shaped artifacts into workflows. A practitioner can see admitted starting records, current starting structures, constraints, possible next forms, alternatives, and return conditions while still knowing which direct pattern defines or constrains method, work, evidence, gate, decision, architecture, publication, refresh, or mathematical use.
+CGUS preserves the usefulness of a route-shaped explanation without making it a workflow. Ordinary use is cheap: decision, alternatives, conditions, facts, honest result, and stop. Formal use costs more because structure identity, CGUS membership, the case result, and any description or neighboring claim must remain separately checkable.
 
-The cost is extra kind discipline. CGUS admission depends on named typed positions, exact relation references, cross-position constraints, preserved structures, C.33 adequacy notes where the presentation omits relevant structure, non-admissible overreads, neighboring stronger claims, and their reconsideration conditions. If that is too heavy, the right result is a compact provisional demonstration description; an admitted demonstrative slice becomes available only after the wider CGUS exists.
+This separation prevents a changed fact from reidentifying a stable structure and prevents a missing publication, evidence, or assurance value from erasing a useful ordinary answer.
 

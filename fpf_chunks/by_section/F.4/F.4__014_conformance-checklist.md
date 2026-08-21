@@ -6,12 +6,12 @@ section_id: "F.4:12"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__014_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:12 — Conformance Checklist"
-line_start: 91536
-line_end: 91552
+line_start: 88925
+line_end: 88941
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -50,7 +50,7 @@ keywords:
 | Check | Question |
 | --- | --- |
 | `CC-F4-01` | Is the exact C.2.1 EntityOfConcern one local system-role kind? |
-| `CC-F4-02` | Are the practice or source boundary in which the kind is constituted, its stable work-facing contribution distinction, current `KindSignature`, and effective scheme recoverable? |
+| `CC-F4-02` | Are the candidate domain, operative membership condition, intended member/non-member boundary, continuity rule, current `KindSignature`, and effective scheme recoverable, with source or practice provenance used only to locate or compare definitions? |
 | `CC-F4-02a` | Are the description episteme, local kind, `KindSignature`, effective scheme, optional F.17 cell and basis relation, and candidate-classification judgment kept separate, with optional values added only when the receiving use needs them? |
 | `CC-F4-03` | Is the description separate from the kind, classification judgment, NameCard, public row, publication form, and carrier? |
 | `CC-F4-04` | Does first entry preserve the full A.1 range of possible systems rather than imply only non-human technical systems? |

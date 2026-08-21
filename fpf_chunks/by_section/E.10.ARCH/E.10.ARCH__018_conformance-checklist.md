@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__018_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:10 — Conformance Checklist"
-line_start: 76201
-line_end: 76225
+line_start: 73481
+line_end: 73505
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.10.MOVE"
   - "E.11"
   - "E.18"
   - "E.19"
@@ -75,9 +75,9 @@ keywords:
 | `CC-E10ARCH-5` | Each subject description keeps its primary `EntityOfConcern` and first useful move central and retains only thin first-use cues to precision restoration when wording is hidden. Generic guards about description and publication use stay in a named boundary section or in exact description/publication-use rule content; they do not become the subject Solution. |
 | `CC-E10ARCH-6` | `reading`, `read`, and `quality-read` wording remains trigger wording and does not mint `ReadingPrecisionRestoration`. |
 | `CC-E10ARCH-6a` | EntityOfConcern-like hidden fields follow the selected rule-content split: `E.10` recognizes the wording-use row; the defining `ClaimGraph` located at `C.2.1` states episteme identity and the identified `EntityOfConcern` participant; A.6.5 rule content defines `EntityOfConcernSlot` only as a `SlotSpec` inside a reusable constitution `RelationSignature`; direct-reference `ClaimGraph` sources define or constrain `entityOfConcernRef`, `EntityOfConcernRef`, and related reference uses; `C.2.P` supplies the recovery rule and practical guidance for episteme, publication, source-wording, and source-relation wording; `F.18` settles durable heads and source-string decisions; `E.17.AUD.OOTD` rule content states publication-unit primary entity of concern; and every remaining claim or admissible-use boundary is a separate exact subject assertion. Neither declaration nor designation constitutes the participant, and selecting `C.2.P` establishes neither a `U.Method` nor a `U.MethodDescription`. |
-| `CC-E10ARCH-6b` | State-family wording follows the selected distribution: `E.10` recognizes the wording-use row, `A.19.SPR` supplies the recovery rule and practical guidance for hidden bearer, state frame, value, and use, and exact subject assertions state already-recovered evidence, assurance, gate, work, decision, temporal, mathematical-lens, pattern-quality, source-relation, or process cases directly. Selecting `A.19.SPR` establishes no Method, MethodDescription, performer, or Work. |
+| `CC-E10ARCH-6b` | State-family wording follows one path: E.10 recognizes it; E.10.MOVE first resolves ambiguous readiness-like wording; A.19.SPR repairs only a remaining hidden object or state frame; and the direct pattern states the recovered relation, assertion, result, decision, or field. A predicate appears only when that direct pattern defines or needs one. |
 | `CC-E10ARCH-6c` | Stratification and source-label wording follows the selected distribution: `E.10` recognizes the wording-use row, `C.30.STRAT` supplies the recovery rule and practical guidance for recurring source-label repair, and exact subject assertions state already-recovered control-layer, module-interface, architecture-to-`TransformationFlowStructure`, scale or coarse-graining, publication relation set, gate, work, decision, or ordinary non-use cases directly. Selecting `C.30.STRAT` establishes no Method, MethodDescription, performer, or Work. |
-| `CC-E10ARCH-6d` | Admissibility-like, legal, lawful, validity, pass-looking, fail-looking, readiness, conformance, and authority wording does not mint a generic admissibility object. The repair recovers bearer, claim kind, source relation, value frame, admissible use, non-admissible overread, and the claim's defining or testing rule; use `A.19.SPR` only when hidden state-family wording remains. |
+| `CC-E10ARCH-6d` | Admissibility-like, legal, lawful, validity, pass-looking, fail-looking, readiness, conformance, and authority wording mints no generic admissibility or readiness object. E.10.MOVE resolves ambiguous readiness-like wording; A.19.SPR is used only for a remaining hidden object or state frame; otherwise use the claim's direct rule. |
 | `CC-E10ARCH-6e` | Method-like wording may recover one `U.Method` or one or more exact method-side relations. Only when a named use depends on their organization should the practitioner use A.22's criterion to select a structure that may be locally designated `MethodRelationStructure`; a `U.MethodDescription` separately describes one admitted Method. Mechanism, plan, dated Work, transformation, production, inception, completion, result, delivery or acceptance, architecture relation, architecture description, and representation remain separate objects or relations under their defining or testing rules. One source label may expose several such values, but none gains dual `U.Method` and `U.Mechanism` typing, and no declaration-local `SlotSpec` or participant label becomes a second ontology without independent admission. |
 | `CC-E10ARCH-6f` | Declarative representation overread follows `C.2.P.DR` unless a direct graph, evidence, publication, method, work, gate, authority, or pattern-relation pattern already defines or constrains the recovered claim by value. Graph paths remain legitimate graph relations when that is the current claim; evidence-path wording is legitimate only after recovery as an evidence or provenance relation. They become repair triggers when read as routes, calls, dispatches, permissions, releases, work sequences, or evidence results by metaphor. |
 | `CC-E10ARCH-6g` | Terminology-source audit is bounded: recover source-ontology labels only when they affect the governed object, direct relation kind, participant meaning, actual participant kind, declaration-local SlotSpec, assertion-side participant designation, exact use, admissible use, or selection of the claim's defining or testing rule; otherwise stable ordinary prose stays ordinary. Relation-shaped material follows the relation-use recovery rule, and `interface` is used only under a boundary, module-interface, signature, port, publication, or source-label disposition named by value. |

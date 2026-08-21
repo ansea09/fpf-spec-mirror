@@ -6,12 +6,12 @@ section_id: "C.2.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:intro — Intro"
-line_start: 41068
-line_end: 41105
+line_start: 39928
+line_end: 39965
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -60,7 +60,7 @@ keywords:
 
 **Plain name.** Episteme constitution.
 
-**Mint or reuse.** This pattern reuses `U.Episteme`, `U.ClaimGraph`, `U.Entity`, `U.ReferenceScheme`, `U.Holon`, `U.Signature`, `RelationSignature`, and `SlotSpec`. It introduces the direct relation names `EpistemeConstitutionRelation`, `EpistemeEmpiricalGroundingRelation`, and `EpistemeEditionRelation`; it introduces no U-kind. Each named `...RelationSignature` below is the relation-facing use of one declaration episteme for which the `A.6.0` membership predicate obtains; `A.6.0` therefore recognizes that same individual as a `U.Signature`, not as another identity. The signature-local SlotKinds named below identify participant meanings only inside their stated signatures. An episteme itself has no slots, and repeated slot spelling in another signature establishes no shared SlotKind by spelling alone.
+**Mint or reuse.** This pattern reuses `U.Episteme`, `U.ClaimGraph`, `U.Entity`, `U.ReferenceScheme`, `U.Holon`, `U.Signature`, `RelationSignature`, and `SlotSpec`. It introduces the direct relation names `EpistemeConstitutionRelation`, `EpistemeEmpiricalGroundingRelation`, and `EpistemeEditionRelation`. It also defines the reusable non-entity value `C.2.1 ClaimAddress` for one intrinsically identified claim inside one exact episteme edition and states the `U.EpistemeRef` resolution rule it consumes. Each named `...RelationSignature` below is the relation-facing use of one declaration episteme for which the `A.6.0` membership predicate obtains; `A.6.0` therefore recognizes that same individual as a `U.Signature`, not as another identity. The signature-local SlotKinds named below identify participant meanings only inside their stated signatures. An episteme itself has no slots, and repeated slot spelling in another signature establishes no shared SlotKind by spelling alone.
 
 **One-line summary.** A `U.Episteme` is a knowledge holon identified by exact claim content, one exact EntityOfConcern, and the effective `U.ReferenceScheme` that makes those claims interpretable as claims about that entity. `EpistemeConstitutionRelation` is the core direct relation of the episteme ontic. Empirical grounding, viewpoint, view, scope, model use, edition succession, description, publication, carrier, and mathematical representation remain neighboring objects and relations.
 

@@ -1,75 +1,59 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.4"
-pattern_title: "U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
-section_id: "A.6.4:8"
+pattern_title: "EntityOfConcern retargeting"
+section_id: "A.6.4:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__008_conformance-checklist-normative.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
-  - "A.6.4:8 — Conformance Checklist (normative)"
-line_start: 15508
-line_end: 15554
+  - "A.6.4 — EntityOfConcern retargeting"
+  - "A.6.4:7 — Conformance Checklist (normative)"
+line_start: 15324
+line_end: 15345
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
   - "A.6.5"
   - "A.7"
+  - "B.3"
   - "C.2"
   - "C.2.1"
+  - "C.29"
   - "C.3"
   - "E.10.D2"
-  - "E.18"
+  - "E.17"
+  - "E.24.PUB"
   - "F.9"
 keywords:
 ---
 
-### A.6.4:8 - Conformance Checklist (normative)
+### A.6.4:7 - Conformance Checklist (normative)
 
-**CC‑A.6.4‑1 - EFEM species and EntityOfConcernChangeMode.**
-Any pattern that claims to define `U.EpistemicRetargeting` **SHALL**:
+**CC-A.6.4-1 - Exact endpoints and changed EntityOfConcern.** C.2.1 identifies X and Y and their exact EntitiesOfConcern; the two entities differ. A changed kind, frame, predicate set, domain, or notation alone does not pass this check.
 
-* declare itself a species of `U.EffectFreeEpistemicMorphing` (A.6.2),
-* fix `entityOfConcernChangeMode = retarget`,
-* and state the EntityOfConcern kind pair, invariant, and any grounding, scheme, scope, operating condition, describing-use viewpoint, or representation relation that constrains its applicability.
+**CC-A.6.4-2 - Arrow identity.** The selected formal substrate supplies r's exact endpoints, arrow rule or designator, and equivalence criterion. Same endpoints, a diagram, or a use claim alone does not identify r.
 
-**CC-A.6.4-2 - Value-and-relation read/change discipline.**
-Each species of EpistemicRetargeting **MUST**:
-* list the C.2.1 values it reads or changes: at least EntityOfConcern, claim content, and effective ReferenceScheme;
-* state that the exact EntityOfConcern changes and whether claim content, effective ReferenceScheme, or separately identified edition or metadata values also change;
-* state explicitly how grounding behaves and, separately, how any viewpoint selected for a named describing use is preserved or changed,
-* use A.6.5 SlotSpecs only when an exact reusable relation declaration is current, keeping those SlotKinds local to that `RelationSignature`.
+**CC-A.6.4-3 - Separate use proposition and case judgement.** One C.2.1 assertion q names r, one receiving use, the invariant, visible loss, conditions, and affirmative or negative polarity. A separate current-case judgement reports `satisfies`, `fails`, or `cannot decide` from exact current facts. The same r may have another q and judgement for another use.
 
-**CC‑A.6.4‑3 - Bridge & invariant declaration.**
-Each species SHALL:
-* identify the relevant `KindBridge` species (and, where applicable, plane Bridges),
-* declare the invariant(s) it preserves (in KD‑CAL/LOG‑CAL terms),
-* sketch how invariant preservation is checked or approximated (e.g. through proofs, tests, or statistical guarantees).
+**CC-A.6.4-4 - Conservative receiving claim.** A `satisfies` judgement requires enough current case basis for q's invariant and stated use, and the receiving episteme adds no unsupported commitment about that invariant. Contrary facts yield `fails`; a missing deciding fact yields `cannot decide` plus that fact and the reopen condition. Neither result changes q's polarity.
 
-**CC‑A.6.4‑4 - SquareLaw‑retargeting witnesses.**
-Retargeting species that interact with `E.18` transformation-flow structures or other graph-level transformation structures **MUST**:
-* describe the commutative squares (or more general diagrams) that express “evaluate then retarget = retarget then evaluate” up to equivalence,
-* identify the corresponding SquareLaw‑retargeting witnesses and how they are represented as epistemes.
+**CC-A.6.4-5 - Triggered additions only.** For a Description or specification-use episteme, name every material change to claim content, effective scheme, grounding, scope, operating condition, or selected viewpoint under A.7 and E.10.D2. Add those values, evidence, currentness, a route-equivalence test, or a reopen condition only when they change q or the reader's action.
 
-**CC-A.6.4-5 - Description-episteme and describing-use behaviour.**
-For retargetings over `...Description` or `...Spec` epistemes:
-* X and Y MUST each be identified through their exact C.2.1 claim content, EntityOfConcern, and effective scheme;
-* the EntityOfConcern MUST change consistently with the declared `KindBridge`;
-* every material change to grounding, effective scheme, claim scope, model-use structure, operating condition, or specification-use basis MUST be stated separately;
-* when a named describing use selects a viewpoint, the source and receiving selections MUST be preserved or changed explicitly through exact references resolving exact P editions; any catalogue-family restriction bounds eligible references but does not replace the retargeting witness; and
-* an F.9 Bridge is required only for an actual relation between distinct local senses. No generic context reference or universal context bridge is introduced.
-**CC‑A.6.4‑6 - Separation from Viewing and Mechanisms.**
-* Any species that leaves `entityOfConcernRef` unchanged is **not** a conformant EpistemicRetargeting; it belongs to `U.EpistemicViewing` (A.6.3) or another EFEM species.
-* Any species that performs measurement, actuation, or another world-side effect is not an EpistemicRetargeting. Identify a mechanism and its application through A.6.1 and E.20, dated Work through A.15.1, and an actual changed referent through A.3.4 whenever those claims are current.
+**CC-A.6.4-6 - Separate semantic correspondence.** Test an F.9 Bridge only when the case also claims a relation between two exact local senses. The Bridge, its bounded-use claim, optional `CL`, evidence, and reliance remain separate from r and q.
 
-**CC-A.6.4-7 - Retargeting witness and reopen discipline.**
-For every FPF-governed retargeting use, the source EntityOfConcern, receiving EntityOfConcern, `KindBridge`, invariant, preserved commitments, withdrawn or new commitments, admissible predicate changes, admissibility value, retargeting witness, and source-bearing reopen condition are recoverable. If bridge or invariant witnessing is insufficient for the intended use, the case records source-bearing reopen, bridge-only comparison, controlled coarsening, report-only use, exploratory use, or named neighboring-pattern handoff.
+**CC-A.6.4-7 - Separate application and Work.** Measurement, computation, actuation, model fitting, authoring, and other effects use their exact operation application and Work patterns. The arrow statement `r : X -> Y` neither identifies that occurrence nor proves a production relation.
 
-**CC-A.6.4-8 - Neighboring-pattern handoff.**
-Retargeting wording carries no work authority, evidence force, assurance force, gate passage, abductive selection, temporal adequacy, dynamics law, control relation, bridge substitution, or transformation-flow path currentness unless the pattern that defines or constrains that claim and the project-side FPF kind or reference are named by value.
+**CC-A.6.4-8 - Fourier boundary.** A same-signal time/frequency change routes to C.29 and A.6.3.RT. A.6.4 is used only after the receiving spectrum or other mathematical object is independently identified as a different EntityOfConcern.
 
-**CC-A.6.4-9 - StructuralReinterpretation boundary.**
-When `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is used, the graph, path, constraint, and gate relations stay with `E.18`, `A.20`, or `A.21`. A.6.4 defines the retargeting conditions used for `StructuralReinterpretation`; it is not proof of `entityOfConcernRef` continuity and not an `E.18`-local retargeting kind.
+**CC-A.6.4-9 - StructuralReinterpretation boundary.** E.18 governs structure position, path, crossing, and gate relations. A.20 tests q's exact proposition only when an internal constraint is current, and A.21 governs any gate decision. None identifies r or supplies a `satisfies` judgement merely by reference or placement.
+
+**CC-A.6.4-10 - Honest stop and light ordinary use.** A missing deciding fact yields `cannot decide` and names the fact and reopen condition; contrary facts yield `fails`. Otherwise one short paragraph answering the six practical questions is enough. No separate evidence, assurance, publication, currentness, or reusable declaration is required unless its own use condition is current.
 

@@ -6,12 +6,12 @@ section_id: "C.13:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__011_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:8 — Consequences"
-line_start: 47000
-line_end: 47018
+line_start: 45787
+line_end: 45805
 dependencies:
   - "A.1"
   - "A.14"
@@ -41,7 +41,7 @@ keywords:
 **Costs and mitigations**
 
 - A truthful trace needs more than a parts list: exact relations, assembly, and identity conditions must be named. Reuse a direct pattern's existing facts rather than duplicating them.
-- A world-side construction can obtain before anyone writes a trace. When a structural Working-Model edge is published, however, B.3.5 requires the trace link and validation mode; materialize the account without treating publication as the cause of construction.
+- A world-side construction can obtain before anyone writes a trace, and its direct relation claim can remain usable without an assurance profile. When its publication elects B.3.5 or a named current requirement demands it, materialize the required trace and validation mode without treating publication as the cause of construction.
 - The same inputs can support different assemblies, and one whole can survive permitted replacements. Always carry the direct reidentification rule.
 
 > **One-line takeaway.** `sum`, `set`, and `slice` explain an already grounded construction; they do not create its entities, relations, identity, evidence, or holonhood.

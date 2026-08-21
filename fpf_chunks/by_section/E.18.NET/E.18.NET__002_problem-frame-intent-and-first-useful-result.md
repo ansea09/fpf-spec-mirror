@@ -6,12 +6,12 @@ section_id: "E.18.NET:1"
 section_title: "Problem frame — intent and first useful result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__002_problem-frame-intent-and-first-useful-result.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:1 — Problem frame — intent and first useful result"
-line_start: 85548
-line_end: 85589
+line_start: 82879
+line_end: 82923
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -48,7 +48,7 @@ Start with the practical choice, not with a graph:
 2. identify each candidate member independently;
 3. name the exact obtaining relation occurrences that connect positions in different members;
 4. select only the members, relations, boundary exposures, and constraints needed for the current question; and
-5. return one exact network reference, or stop at the proposed description and name the absent identity discriminator or exact relation-status result.
+5. return one exact network reference, or stop at the proposed description and name either the exact relation-claim result returned by its governing pattern or the separate missing network discriminator.
 
 The first useful result is therefore small. It is either:
 
@@ -68,15 +68,18 @@ or an exact stop such as:
 ```text
 proposedNetworkDescriptionRef: current diagram or record
 blockedClaim: "the compiler-building flow produces the compiler-use flow input"
-directRelationStatus:
-  missing-governor: no admitted relation kind and predicate apply to these participants and use
-  unresolved-grounding: an applicable relation predicate exists, but current facts do not decide it
-  false-predicate: current facts fail the predicate, so no occurrence fills the network
-  missing-endpoint-binding: an occurrence obtains but one required position binding is absent
-result: exactly one applicable status above
+exactRelationClaimResultRefOrOutcome: exact result returned by the pattern that governs this claim
 ```
 
-If any `directMemberRefs[]`, `selectedCrossFlowRelationOccurrenceRefs[]`, `selectedNetworkConstraintRefs[]`, or `networkUseFrame` value is absent or unresolved, keep `proposedNetworkDescriptionRef` and name that exact missing discriminator. Use `directRelationStatus` only for the relation branch shown above; a missing member, applied constraint, or use frame keeps its own stop. Do not assert `selectedNetworkRef` until all four discriminators are recoverable.
+When the relation claim has a positive obtaining result but a network endpoint is not bound, keep that positive result and state a separate E.18.NET selection blocker:
+
+```text
+obtainingRelationOccurrenceRef: exact positive occurrence returned by its governing pattern
+networkSelectionBlocker:
+  missingEndpointOrPositionBinding: exact participant, member, position, or binding that is absent
+```
+
+An unavailable fact yields the governing pattern's `missing-information` outcome; a sufficient case basis that fails its positive test yields `factually unsupported`. Neither outcome alone asserts a negative. Carry an inapplicable or negative result only when that pattern's applicable rule and case basis establish it. A missing member, applied constraint, or `networkUseFrame` remains its own network-selection blocker and never becomes a relation result. Keep `proposedNetworkDescriptionRef` until all four A.22 discriminators—members, selected obtaining relation occurrences, applied constraints, and use frame—are recoverable; only then assert `selectedNetworkRef`.
 
 Do not use E.18.NET merely because one flow branches, contains a detailed portion, has several valuations, or is drawn as a network. Use E.18 for one selected `TransformationFlowStructure`, its valuations and internal `U.Transfer` relations; use E.18's `SubflowRef` for one parent-relative internal portion. Use E.18.2 when the current object is a graph, wiring diagram, tuple, category-theory expression, or another mathematical description. Use A.22.CGUS and E.18.3 when the current object is an admitted demonstrative traversal rather than the network itself.
 

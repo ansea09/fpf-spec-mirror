@@ -1,67 +1,48 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
+pattern_title: "Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
 section_id: "A.6.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__010_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
+  - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:9 — Consequences"
-line_start: 19714
-line_end: 19731
+line_start: 19385
+line_end: 19400
 dependencies:
   - "A.10"
   - "A.14"
   - "A.2.4"
-  - "A.2.6"
   - "A.6.0"
   - "A.6.3"
-  - "A.6.3-A.6.4"
   - "A.6.4"
   - "A.6.5"
-  - "A.6.P"
-  - "A.7"
+  - "A.6.6"
+  - "A.6.REL"
   - "C.2.1"
-  - "C.3.3"
   - "E.10"
-  - "E.18"
-  - "E.8"
-  - "F.15"
+  - "F.17"
   - "F.18"
   - "F.9"
 keywords:
-  - "SWBD"
-  - "anchoring"
-  - "base declaration"
-  - "baseRelation"
-  - "basedness"
-  - "rebase"
-  - "rescope"
-  - "retime"
-  - "scope"
-  - "support-as-basedness"
-  - "witnesses"
-  - "Γ_time"
 ---
 
 ### A.6.6:9 - Consequences
 
 **Benefits**
-* Disambiguation by construction: base-dependence becomes explicit via `baseRelation`.
-* Cross-domain reuse: one stable record shape works for calibration, evidence admissibility, attribution, policy gating, and constructive grounding.
-* Determinism where required: explicit scope and `Γ_time` prevent silent “latest/current” assumptions.
-* Reduced “grounding” confusion: multiple grounding senses become distinguishable relation kinds.
 
-**Trade-offs / mitigations**
-* More explicit metadata and vocabulary: mitigated by defining each selected local `baseRelation` vocabulary entry once and reusing it.
-* Authoring overhead for witnesses in decision contexts: mitigated by pointing to already-existing `U.Work` refs and witness pins instead of creating new documents.
+- A readable direct assertion can close an ordinary question without record-first work.
+- Reusable declarations remain available when several consumers need the same participant meanings and laws.
+- Scope, time, evidence, and continuity are explicit exactly where they change a predicate or receiving use.
+- Evidence use, source-local meaning, semantic Bridges, plane crossings, and ordinary help keep their own ontologies.
 
-**Adoption test (informative).**
-A team has adopted A.6.6 if, for any decision-relevant “relative-to” statement, it can produce a resolvable tuple
-`〈dependent, base, baseRelation, scope, Γ_time?, witnesses?〉`
-and can classify any update as one of:
-`declareBase`, `withdrawBaseDecl`, `rebase`, `repointDependent`, `rescope`, `retime`, `refreshWitnesses`, and `changeBaseRelation`.
+**Trade-offs and mitigation**
+
+- The author must identify the direct relation instead of hiding it behind *support* or *anchor*. The mitigation is one ordinary sentence and the direct predicate, not a universal form.
+- A later replay or publication use may require more detail. Add only the missing declaration, qualifier, assertion, evidence, or occurrence identity at that point.
+
+**Adoption test (informative).** A team has adopted A.6.6 when it can answer three questions in order: What are the actual participants and direct relation? Does its predicate hold for this case? Does a named later use require a reusable declaration, occurrence identity, scope, time, evidence, or history? A negative answer to the third question is a valid stop.
 

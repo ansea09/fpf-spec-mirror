@@ -6,12 +6,12 @@ section_id: "A.16.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__007_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:6 — Bias-Annotation"
-line_start: 27645
-line_end: 27647
+line_start: 27160
+line_end: 27162
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,5 +37,5 @@ keywords:
 ---
 
 ### A.16.1:6 - Bias-Annotation
-This pattern biases authors toward preserving low-articulation meaningful cues instead of discarding them or disguising them as later publication forms with higher closure state, route authority state, or endpoint authority claim. The counter-bias is deliberate as well: a cue pack must still name what is being preserved and why.
+This pattern biases authors toward preserving low-articulation meaningful cues instead of discarding them or disguising them as later publication forms with higher closure, a selected route, or a passed endpoint test. The counter-bias is deliberate as well: a cue pack must still name what is being preserved and why.
 

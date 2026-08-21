@@ -6,16 +6,21 @@ section_id: "B.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:1 — Problem Frame"
-line_start: 39649
-line_end: 39652
+line_start: 38475
+line_end: 38478
 dependencies:
   - "A.12"
+  - "A.15.1"
   - "A.4"
+  - "B.3"
+  - "B.4"
   - "B.4.1"
+  - "B.5"
+  - "B.5.1"
 keywords:
   - "DesignRunTag feedback"
   - "drift repair"
@@ -28,5 +33,5 @@ keywords:
 
 ### B.4:1 - **Problem Frame**
 
-The FPF is built on the **Principle of Open-Ended Evolution (P-10)**. This is not merely a philosophical stance, but a pragmatic recognition that a useful holon, whether a physical `U.System` or a knowledge-bearing `U.Episteme`, can change under continuing contact with evidence, use, and context. A static model is a dead model when the project keeps relying on it after the situation changes. The framework therefore requires a shared evolution loop for holons. Methods, work plans, and work occurrences participate through method descriptions, work use, and evidence relations; they are not treated as holons by default.
+The FPF is built on the **Principle of Open-Ended Evolution (P-10)**: continued use can reveal reasons to adapt a System, an episteme, a Method, or a description. The useful commonality is a repeated move from use through an observed basis and an explicit change back to use. The identity question is not common. The same subject may continue through a change, a successor may be identified, or later dated Work may be a distinct occurrence rather than a revision of earlier Work. B.4 therefore supplies a shared cycle only after the relevant subject pattern has supplied that distinction.
 

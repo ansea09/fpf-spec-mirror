@@ -6,12 +6,12 @@ section_id: "A.2.5:6"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__009_worked-slices.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:6 — Worked Slices"
-line_start: 4791
-line_end: 4850
+line_start: 4803
+line_end: 4862
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -51,7 +51,7 @@ The bearing-inspection method description declares `InspectionReady`, whose clau
 ```text
 SystemRoleAssignmentStateAssertion:
   directClaimFamilyRef: A.2.5 SystemRoleAssignmentStateRelation
-  SystemRoleAssignmentSlot: Robot7InspectionShiftAssignment-17
+  SystemRoleAssignmentSlot: U.RelationRef(Robot7InspectionShiftAssignment-17)
   StatePredicateSlot:
     systemRoleKindRef: U.KindRef(InspectorSystemRole)
     NormalizedTruthConditionClaimGraph:

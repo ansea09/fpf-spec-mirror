@@ -6,12 +6,12 @@ section_id: "A.15.1:13.0"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__016_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:13.0 — Rationale"
-line_start: 24810
-line_end: 24813
+line_start: 24238
+line_end: 24241
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -61,5 +61,5 @@ keywords:
 
 ### A.15.1:13.0 - Rationale
 
-`U.Work` is retained as the admitted kind for dated Work occurrences because performer System, local system-role kind, system-role assignment, Method, MethodDescription, WorkPlan, affected entity, actual change, evaluation-result episteme, delivered entity, and downstream effect are different FPF objects. One Work individual is the world-side occurrence. Every actual performer is an admitted `U.System`; F.6 identifies the assignment under which that System performed the Work. An assertion or description about the Work is a separate episteme and may omit assignment identifiers not needed by its receiving use. Performed-Work claims need occurrence grounding, temporal bounds, actual performer System, F.6 attribution, enacted Method, and containing System. Add direct Work-to-referent, binding, resource-use, or change facts only when their own relations obtain.
+`U.Work` is retained as the admitted kind for dated Work occurrences because performer System, local system-role kind, system-role assignment, Method, MethodDescription, WorkPlan, affected entity, actual change, evaluation-result episteme, delivered entity, and downstream effect are different FPF objects. One Work individual is the world-side occurrence. Every actual performer is an admitted `U.System`; F.6 identifies the assignment under which that System performed the Work. An assertion or description about the Work is a separate episteme. Performed-Work claims need occurrence grounding, temporal bounds, actual performer System, F.6 attribution, at least one obtaining `enactsMethod` relation, and at least one obtaining local containing-system relation. Add direct Work-to-referent, binding, resource-use, or change facts only when their own relations obtain.
 

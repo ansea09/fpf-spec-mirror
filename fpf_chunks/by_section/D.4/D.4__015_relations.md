@@ -6,12 +6,12 @@ section_id: "D.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__015_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:11 — Relations"
-line_start: 68926
-line_end: 68932
+line_start: 66225
+line_end: 66231
 dependencies:
   - "A.10"
   - "A.20"
@@ -30,7 +30,7 @@ keywords:
 
 ### D.4:11 - Relations
 
-- Builds on `D.3` for the mapped conflict structure.
+- Builds on `D.3` for the exact conflict-description episteme used by this mediation or decision.
 - Coordinates with `D.1` and `D.2` when value frame or multilevel entry is incomplete.
 - Coordinates with `D.5` when bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance is current.
 - Coordinates with `A.10`, `B.3`, `C.11`, `C.28`, `C.29`, and `C.30.ILC` when evidence, assurance, decision, causal, mathematical-lens, or architecture-residual claims are current.

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.1.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
-line_start: 3122
-line_end: 3469
+line_start: 3127
+line_end: 3474
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -289,7 +289,7 @@ Alice is independently admitted as `U.System`. `Commission-A` and `Commission-B`
 
 #### A.2.1:5.6 - Reviewer and Review Report
 
-`ReviewService-4` holds an exact review assignment and performs `ReviewWork-82` under it through F.6. `ReviewReport-82` is a separately identified `U.Episteme`. When the Work first constitutes that episteme and the inception claim matters, A.15.PROD recovers the relation among Work, change, and identity. A later evidence relation can use the report; the report never fills `HolderSystemSlot` merely because it is useful.
+`ReviewService-4` holds an exact review assignment and performs `ReviewWork-82` under it through F.6. `ReviewReport-82` is a separately identified `U.Episteme`. When the Work first constitutes that episteme and the inception claim matters, A.15.PROD recovers one local entity-inception claim from the exact Work, change, and identity bases. A later evidence relation can use the report; the report never fills `HolderSystemSlot` merely because it is useful.
 
 ### A.2.1:6 - Bias Annotation
 

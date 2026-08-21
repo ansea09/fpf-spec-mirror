@@ -6,12 +6,12 @@ section_id: "E.18.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__004_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:2 — Problem"
-line_start: 85114
-line_end: 85119
+line_start: 82426
+line_end: 82431
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,7 +36,6 @@ dependencies:
   - "E.23"
   - "G.11"
   - "G.5"
-  - "U.Transfer"
 keywords:
 ---
 
@@ -44,5 +43,5 @@ keywords:
 
 Transformation-flow artifacts are easy to overread. A path diagram becomes a workflow. A flow card becomes performed work. A P2W chain becomes work authorization. A graph expression becomes the whole structure. A gate, evidence path, architecture decision, or publication face becomes part of the transformation-flow ontology by visual adjacency.
 
-The repair cannot be lexical. E.18.3 qualification depends on one exact A.22-selected structure, the correct E.18 or E.18.NET case, independently identified and typed transformation subjects, admitted position mappings, exact already-obtaining relation occurrences, exact relation references and separately supported subject-use classifications when needed, preserved structures, C.33 adequacy notes, and distinct ordinary stop and reconsideration conditions.
+The repair cannot be lexical. E.18.3 qualification depends on one A.22-selected structure, its CGUS-local loci and potential topology, the correct E.18 or E.18.NET case, typed transformation subjects, flow-position mappings, and obtaining occurrences. The case- and time-indexed continuation result separately cites each candidate, its applicable test or obtaining-relation basis, case inputs, facts or evidence, dependent occurrences, window, and outcome. Description adequacy and stronger uses are separate decisions.
 

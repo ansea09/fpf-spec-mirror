@@ -6,12 +6,12 @@ section_id: "C.22.2:22"
 section_title: "First Practical Entry Aid"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__023_first-practical-entry-aid.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:22 — First Practical Entry Aid"
-line_start: 52031
-line_end: 52060
+line_start: 50848
+line_end: 50877
 dependencies:
   - "A.10"
   - "A.15"
@@ -80,7 +80,7 @@ Direct-entry cues that are not `C.22.2`:
 
 First-use Thin-card test:
 
-Given a messy signal, a practitioner can produce a Thin `ProblemCard` in under one page and correctly choose one governed next use: `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstainOrNoChange`, or apply the FPF pattern that defines or constrains the claim being made, relation, or boundary outside the card.
+Given a messy signal, a practitioner can produce a Thin `ProblemCard` in under one page with the exact core from `2.1`: signal; one joint EntityOfConcern, effective ReferenceScheme, and ClaimScope; exact claim family; not-wish or not-preselected-Work reason; improvement check or acceptance probe; and one honest governed next use. That use may be `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstainOrNoChange`, or apply the FPF pattern that defines or constrains the claim, relation, or boundary outside the card.
 
 Entry relation:
 

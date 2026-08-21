@@ -6,12 +6,12 @@ section_id: "A.6.A:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:intro — Intro"
-line_start: 17303
-line_end: 17355
+line_start: 17058
+line_end: 17110
 dependencies:
   - "A.15"
   - "A.16"
@@ -88,7 +88,7 @@ A.6.A is the precision-restoration realization pattern for action-invitation wor
 **Non-goal.**
 This pattern does **not** assert that physical affordances, interface affordances, social affordances, epistemic probe moves, articulation-closure moves, latent policy cues, and control opportunities are one concept.
 
-Its job is to publish a disciplined **bridge interpretation** across those traditions while preventing false identity by shared language.
+Its job is to publish a disciplined treatment of action-first language across those traditions, using a direct contrast when that is enough and an F.9 Bridge only for an exact cross-context semantic-correspondence claim, while preventing false identity by shared language.
 
 It also does **not** assert that every trigger use of action-first language is admissibly repaired by `actionInvitation(...)`:
 

@@ -6,12 +6,12 @@ section_id: "E.24.PUB:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:4 — Solution"
-line_start: 89541
-line_end: 89662
+line_start: 86926
+line_end: 87047
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -83,7 +83,7 @@ The audience-declaration episteme identifies the audience criterion; it is not t
 
 One occurrence is reidentified by those five fixed participants and their maximal continuous interval of availability. Changing any participant yields another publication occurrence. Demonstrated loss of availability followed by restoration yields a later occurrence. Missing or stale evidence leaves current obtaining unresolved; it does not prove a gap.
 
-Rendering, printing, uploading, indexing, or granting access are publication activities. Admit one as dated `U.Work` only when its A.15.1 and F.6 account names the performer, Method, time, containing System, a covering assignment held by each performer, and the F.6 relation linking the Work to that assignment. Those facts must obtain even when a short publication sentence omits an assignment identifier that no receiving claim uses. The Work and its result remain separate from the publication-relation participants.
+Rendering, printing, uploading, indexing, or granting access are activities separate from the publication occurrence. If one is independently claimed as dated Work, apply its direct Work and attribution patterns; E.24.PUB does not restate their admission, assignment, or compact-reporting rules. The activity and any result remain separate from the publication-relation participants.
 
 #### E.24.PUB:4.2 - Recover expression and bearing only when needed
 
@@ -145,7 +145,7 @@ The answers can be jointly positive because they concern different objects or re
 - a C.29 representation stands in a declared correspondence to independently recovered objects;
 - a presentation carrier bears a publication form;
 - a publication occurrence makes one selected episteme edition available;
-- a system performs publication activity and may later access or rely on the published episteme through separate direct relations; when that activity is admitted as `U.Work`, the A.15.1 and F.6 facts stated above also obtain.
+- a system may perform publication activity and may later access or rely on the published episteme, but those are separate claims under their direct patterns; publication availability establishes none of them;
 
 A designator designates and a governed reference resolves to a referent. Neither operation publishes, bears, represents, or makes the subject-side predicate obtain.
 

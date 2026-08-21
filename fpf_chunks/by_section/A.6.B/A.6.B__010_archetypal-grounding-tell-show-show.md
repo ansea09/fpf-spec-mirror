@@ -6,12 +6,12 @@ section_id: "A.6.B:8"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__010_archetypal-grounding-tell-show-show.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:8 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 10828
-line_end: 11134
+line_start: 10863
+line_end: 11169
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -40,7 +40,7 @@ keywords:
   - "(MUST"
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
-  - "Keeps claim text"
+  - "Keeps normative content"
   - "MAY"
   - "MUST"
   - "MUST NOT"
@@ -51,6 +51,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
+  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
@@ -65,7 +66,7 @@ keywords:
   - "entry predicates"
   - "evaluated findings"
   - "evaluation"
-  - "institutional obtaining"
+  - "individual institution"
   - "laws"
   - "may"
   - "not a duty.)"
@@ -77,7 +78,6 @@ keywords:
   - "or observation that settles it and any evidence used for reliance"
   - "responsibility"
   - "they report adjudicable results rather than obligations"
-  - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
@@ -138,24 +138,24 @@ Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence�
 * **A** if it is an *in‑work* **gate predicate**: what the mechanism admits at application time (“admissible iff …”). It is not a duty and MUST NOT be phrased as one.
   **Guardrails:** `A-*` SHOULD be written in predicate form and MUST NOT (i) use RFC deontic keywords as if it were an agent obligation, (ii) claim that evidence carriers exist (that is `E-*`), or (iii) assign responsibility or enforcement (that is `D-*`).
   *(Do not confuse this with `Signature.Applicability`: applicability scopes intended meaning and intended use; it is not a runtime entry gate.)*
-* **D** if the exact atomic statement states a duty, recommendation-as-duty, prohibition, or commitment for one actual bearer. A permissive sentence enters D only through the **Grant or norm** row below.
-  **Guardrails:** a duty or commitment claim names its actual duty bearer and satisfies the direct A.2.8 predicate; a grant claim instead follows the participant and ground test in the **Grant or norm** row. A system-role kind or assignment may be a rule ground but is neither bearer nor deontic relation. Writing either claim does not make its object obtain.
+* **D** if the exact atomic statement states either a generic prescription or an individual duty, recommendation-as-duty, prohibition, or commitment. A permissive sentence enters D only through the **Grant or norm** row below.
+  **Guardrails:** a generic claim names the exact normative episteme and applicable rule content without inventing an individual relation. An individual-duty claim names its actual bearer and exact separately obtaining A.2.8 commitment. A grant claim instead follows the participant and ground test in the **Grant or norm** row. A system-role kind or assignment may be a rule ground but is neither bearer nor deontic relation. Writing any claim does not make its object obtain.
 * **E** if it is an *in-work* truth-conditional claim whose satisfaction requires actual work, evaluation, observation, or produced carriers.
   **Predicate-specific minimum:** name the exact `E-*` predicate and object, then the actual work, evaluation, or observation, scope/window, comparison frame, and other settling conditions that this predicate needs. Add an evidence or source-use relation, carrier/schema, viewpoint, or consumer only when the receiving gate, plan, audit, assurance, or other reliance decision depends on that support.
   **Guardrails:** `E-*` SHOULD NOT use RFC deontic keywords, MUST NOT hide a gate predicate (that is `A-*`), and MUST NOT cite `D-*`.
-  *(If the source sentence is “Role SHALL measure, retain, or expose …”, recover the actual bearer and classify the obligation to **D**, even if it is about evidence.)*
+  *(If the source sentence is “Role SHALL measure, retain, or expose …”, first decide whether it is a generic prescription about an exact system-role kind or a claim about one actual bearer. Classify either as **D**, but assert an individual commitment only on the second route.)*
 
-**Step 3 — Triangle decomposition.** If the original sentence mixes (i) an entry condition, (ii) an obligation or commitment for an actual bearer, and (iii) an observability expectation (a common failure mode with “guarantee, ensure, approved, or aligned”), decompose it into:
+**Step 3 — Triangle decomposition.** If the original sentence mixes (i) an entry condition, (ii) a generic prescription or an individual obligation or commitment, and (iii) an observability expectation (a common failure mode with “guarantee, ensure, approved, or aligned”), decompose it into:
 
 * **A**: the admissibility predicate (what must be true to treat the claim as applicable),
-* **D → A**: which actual bearer has a duty to keep or enforce the predicate; any responsibility relation is stated separately under its direct domain predicate
+* **D → A**: which exact policy prescribes keeping or enforcing the predicate, or which actual bearer has that separately instituted duty; any responsibility relation is stated separately under its direct domain predicate
 * **E → A**: what evidence or traces are used to adjudicate the predicate.
 
 **Permission-word branch (use only when the sentence sounds permissive).** Choose the row by the job the sentence performs, not by the word *may*, *approved*, *authorized*, or *permitted*.
 
 | Branch | Ask this plain question | Square result | Subject pattern and what closes the row |
 |---|---|---|---|
-| **Grant or norm** | Does the sentence tell a named subject what it must or must not do, or tell a named beneficiary which action it is permitted to perform and under what conditions? | **D** | Use `A.2.8` for the duty/prohibition/commitment. For a grant use `A.2.8.PER`: name the exact grant occurrence, beneficiary, action, scope/window, and the policy-valid `A.2.9` act with its performer and assignment; confirm that the policy conditions still hold, and that no valid revocation or supersession ended the grant; cite the evidence needed before reliance. |
+| **Grant or norm** | Does the sentence state a generic prescription, claim that one actual bearer has an individual duty, or tell a named beneficiary which action is permitted and under what conditions? | **D** | Use `A.2.8` for the generic-prescription or individual-duty route; only the individual route cites one separately obtaining commitment. For a grant use `A.2.8.PER`: name the exact grant occurrence, beneficiary, action, scope/window, and policy-valid A.2.9 act with its performer and assignment; confirm current policy conditions and absence of valid revocation or supersession; cite evidence needed before reliance. |
 | **Gate** | Is a mechanism deciding whether this application may enter by checking the grant, finding, or conflict named by another row? | **A** | Use the mechanism or gate pattern and name its entry predicate. The named object is an input; the gate neither creates nor resolves it. |
 | **Actual exercise** | Did this dated Work match the named grant's action and beneficiary while that grant was in force? | **E** | Use `A.2.8.PER PermissionExerciseRelation@Context`: name the exact Work, grant occurrence, performer/assignment or on-behalf-of ground, scope, and interval. A failed match means that exercise relation does not obtain. |
 | **Weak evaluation or non-violation** | Did an evaluation of a current, sufficiently complete normative frame find no applicable prohibition before action, or no violation in the actual Work? | **E** | Use the exact `NonProhibitionFinding@Context` or `NonViolationFinding@Context`, its evaluation Work, frame, subject/action or Work, scope, and window. A stale or incomplete frame returns `unresolved`. |
@@ -178,7 +178,7 @@ Choose one row. If one sentence answers two questions, split it before classific
 **Step 5 — Bind references (minimal A.7 discipline).**
 
 * Place **L** claims in `Signature.Laws` (and mechanism-local semantic laws if present), and **A** claims in `Mechanism.AdmissibilityConditions`.
-* Bind each **D** claim to its actual duty-bearing System or separately governed party and exact `U.Commitment`; cite an exact system-role assignment only when the constitutive rule uses it as an applicability ground. State responsibility and authority, when claimed, through their own admitted direct relations or exact missing governors. Prefer ID references rather than restating `L-*` or `A-*` content.
+* Bind a generic **D** claim to its exact normative episteme and applicable rule content. Bind an individual-duty **D** claim to its actual duty-bearing System or separately governed party and exact `U.Commitment`; cite an assignment only when the constitutive rule uses it as a ground. State responsibility and authority, when claimed, through their own admitted direct relations or exact missing governors. Prefer ID references rather than restating `L-*` or `A-*` content.
 * Bind each **E** claim first to its exact predicate/object and to the actual work, evaluation, observation, scope/window, comparison frame, and other conditions that settle that predicate. Add a carrier/schema, evidence or source-use relation, viewpoint, and consumer only when a receiving reliance decision depends on them; a claim about a carrier's own existence or condition names the carrier as its object.
 
 **Optional drift-control.** Add each L/A/D/E-classified claim verbatim to a Claim Register row (A.6.B:7) with canonical location + references so faces can cite by ID without paraphrase.
@@ -357,7 +357,7 @@ As of `Γ_time=snapshot(t)`, a resolvable gate-status carrier (e.g., `GateCheckl
 
 ###### A.6.B:8.4.5.4 - Filled permission case (each sentence classified)
 
-**E-CAL-01 (Instituting communicative Work).** Admitted system `MaintenanceCoordinator-A` performed dated `CalibrationGrantAct-17 : U.SpeechAct` under `MaintenanceCoordinator-A@DayShift`; that obtaining assignment has the system as holder and covers the act. Separately obtaining `PlantCalibrationGrantAuthority-17` authorizes `MaintenanceCoordinator-A` to issue this grant in the stated context. The assignment supplies no authority and performs no act. `CalibrationGrantAct-17` satisfies `CalibrationGrantPolicy-v4` in `PlantCalibrationContext` and is the actual instituting Work, not a document or assignment acting in its place.
+**E-CAL-01 (Instituting communicative Work).** Admitted system `MaintenanceCoordinator-A` performed dated `CalibrationGrantAct-17 : U.SpeechAct` under `MaintenanceCoordinator-A@DayShift`; that obtaining assignment has the system as holder and covers the act. In this filled case, `CalibrationGrantPolicy-v4` does not require a separate authority relation, so none is asserted. The assignment supplies no authority and performs no act. `CalibrationGrantAct-17` satisfies the policy in `PlantCalibrationContext` and is the actual instituting Work. A policy variant that does require grant authority must cite one exact obtaining authority relation under its direct predicate or stop at `missing-governor[grant authority]`.
 
 **D-CAL-01 (Grant position).** `MaintenanceCalibrationGrant-17 : GrantedPermissionRelation@Context`, instituted by `CalibrationGrantAct-17`—the actual speech act stated in `E-CAL-01`—permits beneficiary `MaintenanceTechnicianSystemRole` to run `CalibrationProcedure-v3` in Zone 8 during `ServiceWindow-17`. `CalibrationGrantPolicy-v4` remains current, the grant still covers that system-role kind, procedure, zone, and window, and no valid revocation or supersession has ended this occurrence; this `D-*` claim records the grant but does not institute it.
 
@@ -365,9 +365,9 @@ As of `Γ_time=snapshot(t)`, a resolvable gate-status carrier (e.g., `GateCheckl
 
 **E-CAL-02 (Actual Work and actor).** During the early part of `ServiceWindow-17`, admitted system `Tech-17` performed dated `CalibrationWork-17B : U.Work` under obtaining assignment `Tech-17@Shift-B`, whose holder is `Tech-17` and whose extent covers the Work. `Tech-17` performed the Work; the assignment only grounds F.6 Work attribution.
 
-**E-CAL-03 (Optional exercise claim).** Because this case asks whether the grant was used, `CalibrationExercise-17B : PermissionExerciseRelation@Context` connects `CalibrationWork-17B` to `MaintenanceCalibrationGrant-17`: the Work instantiates `CalibrationProcedure-v3`; `Tech-17@Shift-B` is an assignment occurrence whose declared species uses `MaintenanceTechnicianSystemRole` as its assigned-kind domain; and the Work occurs in Zone 8 within `ServiceWindow-17` while the grant is current. If the action or beneficiary test failed, this exercise relation would not obtain.
+**E-CAL-03 (Optional exercise claim).** Because this case asks whether the grant was used, `CalibrationExercise-17B : PermissionExerciseRelation@Context` connects `CalibrationWork-17B` to `MaintenanceCalibrationGrant-17`: the Work instantiates `CalibrationProcedure-v3`; `Tech-17@Shift-B` is an assignment occurrence whose declared species uses `MaintenanceTechnicianSystemRoleKindDomain` as its assigned-kind domain, and the occurrence supplies `MaintenanceTechnicianSystemRole` as the value admitted by that domain; and the Work occurs in Zone 8 within `ServiceWindow-17` while the grant is current. If the action or beneficiary test failed, this exercise relation would not obtain.
 
-**D-CAL-02 (Exercise non-use boundary).** The boundary author **SHOULD** add `E-CAL-03` only when the reader needs to know whether the grant was exercised; otherwise the author stops with the separately named grant and Work rather than asserting an exercise relation by habit.
+**D-CAL-02 (Exercise non-use boundary).** The authoring rule says to add `E-CAL-03` only when the reader needs to know whether the grant was exercised; otherwise stop with the separately named grant and Work. This is a generic prescription for boundary text, not a claim that one particular author bears an individual `U.Commitment`.
 
 **E-CAL-04 (Later non-violation finding).** Admitted system `ComplianceEvaluator-4` performed dated `CalibrationComplianceEvaluation-17B : U.Work` under covering assignment `ComplianceEvaluator-4@QualityShift`; that Work checked `CalibrationWork-17B` against current `PlantCalibrationNormativeFrame-17`, explicitly complete enough for this technician, procedure, zone, and evaluation window, and returned `CalibrationNonViolation-17B : NonViolationFinding@Context(result=nonViolating)`. A stale or insufficient frame would return `unresolved`, even though the grant and exercise remain separately inspectable.
 
@@ -385,9 +385,9 @@ As of `Γ_time=snapshot(t)`, a resolvable gate-status carrier (e.g., `GateCheckl
 
 ###### A.6.B:8.4.6.1 - Tech register (2–5 lines)
 
-> “This boundary claim is defined by **L-…**, is applicable only under **A-…**, names its actual duty bearer and duty under **D-…**, and is adjudicated using evidence carriers **E-…**. Observed status or value is **E-…** for `Γ_time=…`.”
+> “This boundary claim is defined by **L-…** and applies only under **A-…**. **D-…** states either the exact generic prescription or the separately instituted duty of **[actual bearer]**. **E-…** states the evidence and observed status or value for `Γ_time=…`.”
 
 ###### A.6.B:8.4.6.2 - Plain register (1 paragraph)
 
-> “We mean **[short label]** in the sense of **L-…**. It is meant to be used only when **A-…** holds. **[Actual duty bearer]** has the stated duty to maintain that condition under **D-…**. Whether the condition holds is checked using **E-…**, and the latest recorded status or value is **E-…**. If responsibility is also claimed, cite its direct relation separately.”
+> “We mean **[short label]** in the sense of **L-…**, and use it only when **A-…** holds. **D-…** either states what the named policy requires or, when an individual duty was separately instituted, names its actual bearer. **E-…** states how the condition is checked and the latest status or value. If responsibility is also claimed, cite its direct relation separately.”
 

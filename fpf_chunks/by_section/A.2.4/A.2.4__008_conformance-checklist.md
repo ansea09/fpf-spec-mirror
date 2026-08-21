@@ -6,12 +6,12 @@ section_id: "A.2.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__008_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:7 — Conformance Checklist"
-line_start: 4529
-line_end: 4545
+line_start: 4541
+line_end: 4557
 dependencies:
   - "A.10"
   - "A.2"
@@ -52,6 +52,6 @@ keywords:
 | `CC-A2.4-8` Receiving use | The later dated work and exact premise/reference/decision-use/operation-argument relation are named; citation or availability does not establish actual use. |
 | `CC-A2.4-9` Reliance/assurance | A.10 defines the bounded `RelianceDisposition`; use B.3 only for an assurance claim or material reliance. |
 | `CC-A2.4-10` Publication/display | Publication face, generated explanation, credential view, evidence profile, ledger edge, or dashboard cell does not establish status, result, work, gate, permission, or decision by presence. |
-| `CC-A2.4-11` Causal boundary | C.28 is the pattern for causal-support classes and verdicts; source wording cannot promote simulation-only or observational evidence. |
+| `CC-A2.4-11` Causal boundary | C.28 is the pattern for causal-support components and results; source wording cannot promote simulation or observational evidence. |
 | `CC-A2.4-12` Unsupported overread | The stronger claim not carried by this first-use classification and its reopen condition are stated. |
 

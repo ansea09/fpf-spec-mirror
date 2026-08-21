@@ -6,13 +6,14 @@ section_id: "C.25:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__017_authoring-and-review-guidance.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:16 — Authoring and Review Guidance"
-line_start: 52947
-line_end: 52986
+line_start: 51733
+line_end: 51763
 dependencies:
+  - "A.10"
   - "A.15"
   - "A.16.0"
   - "A.18"
@@ -49,18 +50,16 @@ keywords:
 
 #### C.25:16.1 - For authors
 
-Authors should begin with the question: *what is the actual head of this quality claim?* If the truthful answer is "several measures plus scope plus mechanism constraints," start with a bundle and narrow only if a later slice genuinely deserves one CHR head.
+Begin with *what would make this claim false?* Then:
 
-A useful authoring order is:
+1. identify the exact bearer and the quality-family label used in the claim;
+2. if one measure on one declared Scale carries the claim, state that Characteristic and stop;
+3. otherwise add only the differently typed contributors that jointly carry the claim;
+4. omit scope, window, mechanisms, status, or evidence when changing that slot would change neither the claim nor the receiving action;
+5. identify the enclosing C.2.1 episteme through its claim content, bearer, and effective ReferenceScheme; and
+6. add a proxy, gate, publication, evidence relation, or assurance result only when its own receiving question is current.
 
-1. name the family label,
-2. identify the bearer,
-3. publish scope,
-4. publish measures,
-5. add mechanism/status slots,
-6. publish qualification window,
-7. bind evidence,
-8. and only then consider whether a report-only summary proxy is needed.
+The schema remains available for a demanding case; it is not the authoring order for every bundle.
 
 #### C.25:16.2 - For assessors
 
@@ -76,12 +75,5 @@ In practice, most defects are visible as soon as the checking reader asks what e
 
 #### C.25:16.3 - For gate designers and assurance leads
 
-Gate designers should resist writing guards against vague family labels such as *resilience must be high*. A conforming gate should instead name the relevant bundle slots:
-
-- coverage over the target slice,
-- threshold satisfaction on declared measures,
-- qualification-window validity,
-- and any required mechanism or status slots.
-
-This keeps the gate auditable and prevents later disputes about what the family label was supposed to mean.
+Resist a guard such as *resilience must be high*. Cite the exact quality-claim episteme or addressed claim and name only the slots the decision actually uses—for example one scope, one measure threshold, a load-bearing window, or a required mechanism. Do not require an absent slot merely because the source claim uses Q-Bundle-shaped content.
 

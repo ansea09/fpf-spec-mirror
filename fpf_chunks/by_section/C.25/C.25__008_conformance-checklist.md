@@ -6,13 +6,14 @@ section_id: "C.25:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__008_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:7 — Conformance Checklist"
-line_start: 52782
-line_end: 52790
+line_start: 51562
+line_end: 51571
 dependencies:
+  - "A.10"
   - "A.15"
   - "A.16.0"
   - "A.18"
@@ -48,9 +49,10 @@ keywords:
 ### C.25:7 - Conformance Checklist
 
 - `CC-C.25-1` If an engineering quality claim is intended as one measurement characteristic, the publisher **SHALL** bind it to one named `U.Characteristic` with one declared scale.
-- `CC-C.25-2` If the claim requires multiple measures, scope slots, mechanism slots, status slots, or qualification windows, the publisher **SHALL** use a Q-Bundle rather than an undeclared scalar surrogate.
+- `CC-C.25-2` If the claim requires multiple measures, scope slots, mechanism slots, status slots, or qualification windows, the publisher **SHALL** use Q-Bundle-shaped ClaimGraph content rather than an undeclared scalar surrogate.
 - `CC-C.25-3` `ClaimScope` and `WorkScope` **SHALL** remain USM set-valued scope objects; they **MUST NOT** be treated as ordinal or numeric quality levels.
 - `CC-C.25-4` Mechanism or status slots **MUST NOT** be conflated with `Measures[CHR]`.
 - `CC-C.25-5` Any scalar comparison or thresholding inside a Q-Bundle **SHALL** apply only to declared CHR measures, not to scope slots.
-- `CC-C.25-6` Cross-context penalties and bridge losses **SHALL** apply to `R` per `B.3` / `F.9`; they **MUST NOT** silently alter the type of the bundle's `F`, scope, or CHR type authority.
+- `CC-C.25-6` When cross-context comparison is current, the publisher **SHALL** align the exact bundle heads or slots, resolve the two exact `F.17` local senses, test the direct `F.9` Bridge predicate, and state a separate bounded-use claim only if that Bridge obtains. The comparison and its reliance **MUST NOT** change any Q-Bundle slot; ordinary reliance uses `A.10`, while `B.3` opens only when an actual named assurance claim is current.
+- `CC-C.25-7` A materialized Q-Bundle **SHALL** be recoverable as content of one exact `C.2.1` episteme with one independently identified QualityBearer as EntityOfConcern and one effective ReferenceScheme. A gate, publication, comparison, proxy, or roll-up **MUST NOT** cite a field list as though it were an independently identified bundle object.
 

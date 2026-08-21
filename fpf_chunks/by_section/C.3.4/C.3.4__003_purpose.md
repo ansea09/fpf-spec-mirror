@@ -6,12 +6,12 @@ section_id: "C.3.4:1"
 section_title: "Purpose"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__003_purpose.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:1 — Purpose"
-line_start: 45299
-line_end: 45309
+line_start: 44098
+line_end: 44101
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -25,12 +25,5 @@ keywords:
 
 ### C.3.4:1 - Purpose
 
-Teams often need a local projection of a widely used kind:
-
-- **Constraint:** “For our procedure, take `Vehicle` with ABS only.”
-- **Vocabulary:** “Here, `AuthHeader` is called `X-Auth`.”
-
-Cloning a kind for every local use fragments catalogs and multiplies bridges. A declaration of a local use keeps the base-kind identity, makes constraints and bindings explicit, and gives a guard one named, versioned episteme to designate. The declaration is not a new U-kind, record ontology, or classification occurrence.
-
-The practical gains are fewer near-duplicates, cleaner cross-context reuse, deterministic guards, and auditable narrowing instead of an unexplained “this is the version we mean.”
+Teams often need a local projection of a widely used kind: `Vehicle` with ABS for one procedure, or local spelling `X-Auth` for `AuthHeader`. Cloning a kind for every use fragments catalogs and creates false bridge pressure. A local-use declaration keeps the base-kind identity, makes constraints and bindings explicit, and gives a guard one versioned episteme to designate. It is not another kind, classification occurrence, or record ontology.
 

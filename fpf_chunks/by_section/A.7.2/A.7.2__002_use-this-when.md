@@ -6,12 +6,12 @@ section_id: "A.7.2:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:0 — Use this when"
-line_start: 21991
-line_end: 22000
+line_start: 21436
+line_end: 21445
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -39,5 +39,5 @@ The first useful move is to name the smallest receiving ontology claim and, for 
 
 **Not this pattern when.** A vocabulary difference, unlike source function, or different subject with no shared practical consequence is not a premise conflict. Use `A.7.1` for one engineering ontology defect, `C.2.P`/`E.10` for wording use, direct evidence-use or formal patterns for missing warrant, and source-currentness patterns for stale editions.
 
-The primary reader is an FPF maintainer, architecture steward, or pattern author responsible for a material cross-pattern contradiction. This pattern is a `U.MethodDescription`; an admitted `U.System` performs dated reconciliation `U.Work` under a current `FPFMaintainerAssignment` occurrence. Its species is declared under `U.SystemRoleAssignment` for `FPFMaintainerSystemRole`. The pattern episteme, reader, performing System, assignment, Work, source uses, and returned FPF decision remain distinct.
+The primary reader is an FPF maintainer, architecture steward, or pattern author responsible for a material cross-pattern contradiction. This pattern is a `U.MethodDescription` episteme that describes a `U.Method`. An admitted `U.System` performs the dated reconciliation `U.Work`. When the actual case relies on an assignment, that assignment is one obtaining occurrence of a separately declared `U.SystemRoleAssignment` species, and an obtaining F.6 attribution connects the exact Work to that exact assignment. A short receiving result may omit an assignment identifier it does not use, but the assignment and attribution remain world-side facts. The pattern episteme, described Method, reader, performing System, assignment species, assignment occurrence, attribution, Work, source uses, and returned FPF decision remain distinct.
 

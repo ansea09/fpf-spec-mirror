@@ -6,12 +6,12 @@ section_id: "A.6.B:6"
 section_title: "Cross‑quadrant link discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__008_cross-quadrant-link-discipline.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:6 — Cross‑quadrant link discipline"
-line_start: 10736
-line_end: 10813
+line_start: 10770
+line_end: 10848
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -40,7 +40,7 @@ keywords:
   - "(MUST"
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
-  - "Keeps claim text"
+  - "Keeps normative content"
   - "MAY"
   - "MUST"
   - "MUST NOT"
@@ -51,6 +51,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
+  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
@@ -65,7 +66,7 @@ keywords:
   - "entry predicates"
   - "evaluated findings"
   - "evaluation"
-  - "institutional obtaining"
+  - "individual institution"
   - "laws"
   - "may"
   - "not a duty.)"
@@ -77,7 +78,6 @@ keywords:
   - "or observation that settles it and any evidence used for reliance"
   - "responsibility"
   - "they report adjudicable results rather than obligations"
-  - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
@@ -98,13 +98,14 @@ If a claim’s meaning materially depends on another L/A/D/E-classified claim, t
 
 These patterns are valid (and common). The square becomes operational when these links are used systematically.
 
-##### A.6.B:6.2.1 - (D → A) Duty-to-gate linkage
+##### A.6.B:6.2.1 - (D → A) Prescription-or-duty-to-gate linkage
 
-When governance requires someone to comply with a gate:
+When governance says that a gate must be satisfied or enforced:
 
-* `D-*`: “Actual bearer **MUST** satisfy or enforce `A-*`.”
+* generic `D-*`: “`Policy-P` requires covered subjects to satisfy or enforce `A-*`”; or
+* individual `D-*`: “Actual bearer `S` has commitment `C` to satisfy or enforce `A-*`.”
 
-This separates **what is admissible** (A) from the separately instituted duty (D). If responsibility is also claimed, state its admitted direct domain predicate or exact missing governor rather than inferring it from the duty.
+This separates **what is admissible** (A) from generic normative content and any separately instituted individual duty (D). If responsibility is also claimed, state its admitted direct domain predicate or exact missing governor rather than inferring it from the duty.
 
 ##### A.6.B:6.2.2 - (E → A) Evidence-for-gate linkage
 
@@ -114,14 +115,14 @@ When gate decisions must be observable:
 
 This separates **gate semantics** (A) from **evidence semantics** (E).
 
-##### A.6.B:6.2.3 - (D → E) Duty-to-evidence linkage
+##### A.6.B:6.2.3 - (D → E) Prescription-or-duty-to-evidence linkage
 
-When governance requires evidence production, retention, or exposure or commits to measured properties:
+When governance prescribes evidence production, retention, exposure, or a measured property:
 
-* `D-*`: “Actual bearer **MUST** retain or expose carrier class `C` used by `E-*` …”
-* `D-*`: “Provider **SHALL** meet `E-*` under exclusions …”
+* generic `D-*`: “`Policy-P` requires covered subjects to retain or expose carrier class `C` used by `E-*` …”; or
+* individual `D-*`: “Actual bearer `S` has commitment `CMT` to meet `E-*` under exclusions …”
 
-This separates **obligation or commitment** (D) from **adjudication** (E).
+This separates a **generic prescription or individual duty** (D) from its **adjudication** (E).
 
 ##### A.6.B:6.2.4 - (A/E → L) Semantic grounding linkage
 
@@ -133,7 +134,7 @@ This prevents “metric drift” and “definition drift” across views.
 
 ##### A.6.B:6.2.5 - (D → L) Governance-to-definition linkage
 
-When an obligation or commitment relies on precise term or metric meanings:
+When a generic prescription or individual obligation relies on precise term or metric meanings:
 
 * `D-*` references `L-*` that define the terms or metrics it uses.
 
@@ -141,11 +142,11 @@ This keeps governance text from accidentally redefining semantics in prose.
 
 #### A.6.B:6.3 — The “triangle decomposition” for mixed sentences
 
-**Normative rule (decomposition).** A conforming boundary text **SHALL** decompose any mixed sentence that expresses (i) an entry condition, (ii) an obligation to satisfy or enforce it, and (iii) an observability expectation into the three quadrants:
+**Normative rule (decomposition).** A conforming boundary text **SHALL** decompose any mixed sentence that expresses (i) an entry condition, (ii) a generic prescription or individual obligation to satisfy or enforce it, and (iii) an observability expectation into the three quadrants:
 
 * **A:** admissibility predicate (`A-*`)
-* **D:** duty or commitment referencing the gate (`D-* → A-*`)
-* **E:** evidence binding referencing the gate (and carriers) (`E-* → A-*`)
+* **D:** generic prescription or individual-duty claim referencing the gate (`D-* → A-*`)
+* **E:** evidence binding referencing the gate and carriers (`E-* → A-*`)
 
 This is the canonical repair for “contract soup” around validity, authorization, compliance, audit, and security boundaries.
 

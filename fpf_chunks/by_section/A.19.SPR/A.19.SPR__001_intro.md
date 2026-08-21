@@ -6,12 +6,12 @@ section_id: "A.19.SPR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:intro — Intro"
-line_start: 29009
-line_end: 29027
+line_start: 28511
+line_end: 28518
 dependencies:
   - "A.10"
   - "A.16"
@@ -50,15 +50,4 @@ keywords:
 > **Normativity:** Normative unless explicitly marked informative
 
 **Plain-name.** State-wording repair.
-
-**Intent.**
-Recover `state`, `status`, `posture`, `readiness`, and close state-family wording whose bearer, state frame, value set, admissible use, or receiving FPF pattern is hidden.
-
-This pattern does not define a general `Posture` kind. It repairs wording that acts like a state-like claim before a reader treats the word as evidence, assurance, gate passage, release permission, source authority, maturity, or work completion.
-
-**Builds on.** `E.10`, `E.10.ARCH`, `A.19`, `A.3.3`, `C.2.2a`, `A.16.*`, `A.10`, `B.3`, `A.20`, `A.21`, `C.27`, `C.29`, `E.17`, `E.9.DA`, `E.21`, `F.18`, and project-side administrative, review, dispatch, release or admission, or source-control records when the state-like claim is administrative rather than FPF-content-bearing.
-
-**Coordinates with.** `A.17`, `A.18`, `C.16`, `C.16.P`, `C.16.Q`, `A.6.P`, `C.2.P`, `C.30.P`, `E.8`, `E.19`, and `E.11`.
-
-**E.10.ARCH subject-pattern relation.** When `E.10` encounters state-family wording such as `state`, `status`, `posture`, `readiness`, `stance`, `currentness`, `validity`, `stable`, `ready`, `accepted`, `blocked`, `candidate`, or close compounds whose bearer, state frame, value set, admissible use, validity window, reopen condition, or subject pattern is hidden, `E.10.ARCH` assigns the repair to `A.19.SPR` only until those values are recovered or the claim being made belongs to `C.2.P`, `A.10`, `B.3`, `A.20`, `A.21`, `C.27`, `C.29`, `E.9.DA`, `E.21`, `A.6.P`, `A.15`, or the project-side administrative, review, dispatch, release or admission, or source-control record.
 

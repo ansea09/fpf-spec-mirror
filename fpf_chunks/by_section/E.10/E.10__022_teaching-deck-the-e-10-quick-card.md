@@ -6,12 +6,12 @@ section_id: "E.10:20"
 section_title: "Teaching deck — the E.10 quick card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__022_teaching-deck-the-e-10-quick-card.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:20 — Teaching deck — the E.10 quick card"
-line_start: 75570
-line_end: 75582
+line_start: 72836
+line_end: 72848
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,9 +59,9 @@ keywords:
 ### E.10:20 - Teaching deck — the E.10 quick card
 
 > **Say it cleanly, once (memorise):**
-> A **system role** is one exact local kind for entities already admitted under A.1 as `U.System`; its identity rests on an explicit source or practice boundary and the stable contribution that makes the distinction useful. A person, team, organization, or non-human technical object may qualify. A **system-role assignment** is one exact occurrence under `U.SystemRoleAssignment`. Bare *role* identifies neither and has no default Tech reading. **Method** = one admitted way of doing - **MethodDescription** = one claim-bearing episteme about that exact method with at least one substantive way-of-doing claim - **`U.Work`** = admitted kind - **one Work individual** = one world-side dated occurrence admitted under it - **work assertion, description, log, or record** = a separate `U.Episteme`; occurrence facts obtain through their direct relations.
+> A **system role** is one exact local kind for entities already admitted under A.1 as `U.System`. C.3 recovers it through the candidate domain, operative work-facing membership condition, member/non-member boundary, and continuity rule; source or practice provenance only locates the definition. A person, team, organization, or non-human technical object may qualify. A **system-role assignment** is one exact occurrence under `U.SystemRoleAssignment`. Bare *role* identifies neither and has no default Tech reading. **Method** = one admitted way of doing - **MethodDescription** = one claim-bearing episteme about that exact method with at least one substantive way-of-doing claim - **`U.Work`** = admitted kind - **one Work individual** = one world-side dated occurrence admitted under it - **work assertion, description, log, or record** = a separate `U.Episteme`; occurrence facts obtain through their direct relations.
 > **Capability** = can-do within bounds (envelope + measures) - service or access wording = recover the subject or relation through L-SERV and A.6.P:4.11a, then use the pattern for that recovered claim; no default service bundle
-> **EntityOfConcern and Description-episteme boundary separates the EntityOfConcern from Description epistemes; specification use is a gated use of a Description episteme**; **publication faces, forms, units, and carriers do not act**. Source-local meaning is stated under the exact source or practice and effective scheme. An F.9 Bridge is asserted only for an actual relation between identified cells, with direction, congruence, loss, and scope; proposed use and reliance remain separate.
+> **EntityOfConcern and Description-episteme boundary separates the EntityOfConcern from Description epistemes; specification use is a gated use of a Description episteme**; **publication faces, forms, units, and carriers do not act**. Source-local meaning is stated under the exact source or practice and effective scheme. An F.9 Bridge is asserted only for an actual relation between identified cells under the applicable F.9 relation profile. When a receiving use is current, a separate C.2.1 claim states the proposed action, use direction, correspondence rule, tolerated loss, and polarity; reliance, assurance, and any action that occurred remain separate.
 
 **Name forms (allowed morphology):**
 * **System-role kinds and other local kinds:** use `<Noun>SystemRole` only for a local system-role kind admitted under A.2 and C.3, and `<Noun><Kind>` for another local kind (`IncidentCommanderSystemRole`, `ShiftOperatorSystemRole`, `WorkItemKind`). Standards, evidence, requirements, statuses, relation participants, declaration places, and representation positions do not become system roles by suffix.

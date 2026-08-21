@@ -6,12 +6,12 @@ section_id: "C.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__005_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:3 — Forces"
-line_start: 44559
-line_end: 44570
+line_start: 43338
+line_end: 43350
 dependencies:
   - "A.1"
   - "A.11"
@@ -47,11 +47,12 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Local typed reasoning vs public ontology growth | A project needs typed claims now, but not every useful local kind deserves a durable FPF `U.*` name. |
-| Kind vs declaration | A kind must remain usable across compatible declaration editions without becoming identical to the episteme that declares its criterion. |
-| Truth vs support | Direct candidate features make classification true or false; evidence can support an assertion about those features but cannot create them. |
-| False vs unknown | A known failed criterion differs from missing evidence, unavailable dependency, or out-of-domain input. |
-| Extent vs ontology | A set of true members can be useful for a query without becoming a collection holon, entity-set kind, or direct relation occurrence. |
+| Bounded typed use vs public ontology growth | A project needs typed claims now, but not every useful kind needs its own durable public `U.*` name. |
+| Kind vs declaration | A kind can continue across compatible declaration editions without becoming identical to the episteme that declares its criterion. |
+| Identity vs locality | A changed practice or source warns that the membership distinction may differ, but cannot prove sameness or difference. |
+| Admissibility vs uncertainty | An ill-typed or out-of-applicability request must not look like an admissible candidate whose relevant facts are unsettled. |
+| Condition vs evidentiary use | The governed condition named by the criterion makes membership hold; an item's use as evidence alone does not. The criterion may itself concern an episteme, status, or relation. |
+| Extent vs ontology | A set of true members can serve a query without becoming a collection holon, entity-set kind, or direct classification relation. |
 | Scope vs kind | A claim can have narrow scope without creating a narrower kind or storing scope on the kind. |
 | Formal discipline vs ordinary use | Repeated typed use may need a declaration; one readable case should not require a card or extension table. |
 

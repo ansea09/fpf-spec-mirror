@@ -6,7 +6,7 @@ section_id: "A.1.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__011_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:9 — Consequences"
@@ -43,5 +43,5 @@ keywords:
 
 **Costs.** A load-bearing structure claim must recover three direct relation families, exact applied constraints, and one question/action/overread frame. Semantic transfer sometimes stops at a subject pattern that still cannot express the claim without a generic context field; that stop is preferable to inventing a participant or claiming false parity.
 
-**Limits.** A.1.1 does not decide model truth, role assignment, rule validity, measurement, status, evidence, claim-scope membership, reference-scheme construction, system parthood, Work performance, release authority, or publication currentness. It selects only the bounded model-use organization after those direct claims are available.
+**Limits.** A.1.1 does not decide model truth, local system-role-kind classification, system-role-assignment occurrence or state, a relation among system-role kinds, rule validity, measurement, status, evidence, claim-scope membership, reference-scheme construction, system parthood, Work performance, release authority, or publication currentness. It selects only the bounded model-use organization after those direct claims are available.
 

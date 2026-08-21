@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__008_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:7 — Conformance Checklist"
-line_start: 14221
-line_end: 14239
+line_start: 14239
+line_end: 14257
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -45,7 +45,7 @@ keywords:
 5. **CC-CR-5 — Correspondence witness is named where needed.**
    If correspondence-mediated, `CorrespondenceModelRef` is declared.
 6. **CC-CR-6 — Local conservativity witness remains satisfied.**
-   The reviewed case does not silently widen modality, remove caveats, raise reliability assessment, import bridge or substitution licence, or collapse declared alternatives beyond stated loss notes.
+   The reviewed case does not silently widen modality, remove caveats, raise reliability assessment, add an F.9 Bridge or bounded-use suitability claim, establish current reliance or authorization, claim that receiving use occurred, or collapse declared alternatives beyond stated loss notes.
 7. **CC-CR-7 — Changed claim and next pattern are explicit on failure.**
    If the case fails any of the checks above, state the changed claim and name the pattern to use next (`ExplanationFaithfulnessProfile`, `RepresentationSchemeTransition`, `A.6.4`, `B.5.2`, or another applicable pattern).
 8. **CC-CR-8 — Working-model first remains intact.**

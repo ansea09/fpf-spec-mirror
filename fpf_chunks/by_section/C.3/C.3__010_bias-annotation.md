@@ -6,12 +6,12 @@ section_id: "C.3:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__010_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:8 — Bias-Annotation"
-line_start: 44628
-line_end: 44631
+line_start: 43411
+line_end: 43414
 dependencies:
   - "A.1"
   - "A.11"
@@ -45,5 +45,5 @@ keywords:
 
 ### C.3:8 - Bias-Annotation
 
-C.3 counters lexical bias, document bias, and ontology-growth bias. A familiar type word or schema label does not supply the declared criterion. A record or evidence item does not create the candidate feature. A displayed set does not create a collection holon. The mitigation is the four-object split, direct-feature judgment, three-valued result, and progressive elaboration from one readable sentence.
+C.3 counters lexical, locality, document, and ontology-growth bias. A familiar word, source label, or practice boundary supplies neither kind identity nor membership. A record used as evidence does not create an independently governed condition, while an episteme, status, or relation directly named by the criterion keeps its own governor. The kind/declaration/admissibility/judgment/extension split and the readable first move keep the remedy usable.
 

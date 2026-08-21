@@ -6,31 +6,36 @@ section_id: "C.21:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__014_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:12 — Rationale"
-line_start: 50549
-line_end: 50552
+line_start: 49352
+line_end: 49355
 dependencies:
+  - "A.10"
   - "A.17"
+  - "A.17-A.18"
   - "A.18"
+  - "A.19"
   - "A.2.6"
   - "B.3"
   - "C.16"
   - "C.2"
+  - "C.2.1"
   - "C.20"
-  - "E.10"
-  - "F.17"
+  - "C.I"
+  - "E.24.PUB"
   - "F.9"
   - "G.0"
   - "G.10"
   - "G.11"
   - "G.12"
   - "G.2"
+  - "G.4"
   - "G.5"
+  - "G.6"
   - "G.9"
-  - "U.Discipline"
 keywords:
   - "alignment"
   - "discipline"
@@ -42,5 +47,5 @@ keywords:
 
 ### C.21:12 - Rationale
 
-C.21 reads discipline health through typed characteristics rather than one global health score. This keeps reproducibility, freshness, disruption, standardization, bridge density, engineering-claim recoverability, and semio-substitution pressure inspectable without turning any dashboard or source tradition into authority by itself.
+Discipline health is not one thing. Reproducibility, formal recognition, adoption, alignment, disruption, evidence resolution, and diversity answer different questions and can move independently. Their definitions, measurement results, series, representations, and publications also change for different reasons. Keeping those distinctions explicit makes the result both more precise and easier to use.
 

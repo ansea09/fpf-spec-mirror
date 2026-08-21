@@ -6,12 +6,12 @@ section_id: "A.16.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__008_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:7 — Conformance Checklist"
-line_start: 27884
-line_end: 27890
+line_start: 27399
+line_end: 27405
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -35,8 +35,8 @@ keywords:
 
 ### A.16.2:7 - Conformance Checklist
 - `CC-A.16.2-1` Retreat or retirement moves **SHALL** cite the trigger or counter-evidence that justifies them.
-- `CC-A.16.2-2` A retreat or retirement move **SHALL NOT** silently preserve endpoint authority if the target form no longer supports it.
+- `CC-A.16.2-2` A retreat or retirement move **SHALL NOT** silently preserve a passed endpoint test, stronger-use disposition, gate result, publication availability, or current-use claim when the target form no longer supports it.
 - `CC-A.16.2-3` Reopen / backoff / respecify / retire moves **SHOULD** preserve witnesses and trace links whenever still valid.
-- `CC-A.16.2-4` The target articulation, closure, and route-authority state **SHALL** be explicit when the move substantively changes any of them.
+- `CC-A.16.2-4` Target articulation, closure, route selection, endpoint-use disposition, publication availability, and current-use or retirement status **SHALL** remain separate and be explicit when the move substantively changes them.
 - `CC-A.16.2-5` `respecify` **SHALL NOT** be used to smuggle slot-explicit epistemic precision repair out of governing patterns.
 

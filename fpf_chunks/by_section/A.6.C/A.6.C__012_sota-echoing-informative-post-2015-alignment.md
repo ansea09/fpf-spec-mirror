@@ -6,12 +6,12 @@ section_id: "A.6.C:11"
 section_title: "SoTA‑Echoing (informative; post‑2015 alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__012_sota-echoing-informative-post-2015-alignment.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:11 — SoTA‑Echoing (informative; post‑2015 alignment)"
-line_start: 11554
-line_end: 11562
+line_start: 11590
+line_end: 11598
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,7 +39,8 @@ keywords:
   - "OPTIONAL"
   - "SHOULD"
   - "a mechanism entry predicate enters A"
-  - "and SHOULD NOT enter D only for an individual duty"
+  - "an individual duty"
+  - "and SHOULD NOT enter D for a generic prescription or"
   - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
@@ -56,13 +57,14 @@ keywords:
   - "rewrite it or mark it informative"
   - "separate result and evidence"
   - "speech-act Work"
+  - "when separately instituted for an actual bearer"
 ---
 
 ### A.6.C:11 — SoTA‑Echoing (informative; post‑2015 alignment)
 
 > **Informative.** Alignment notes; not normative requirements.
 
-* **Adopt — BCP 14 (RFC 2119 + RFC 8174) keyword discipline.** The visible keyword does not select a quadrant: claims about individual duties and current grants enter D, entry predicates enter A, and actual exercise or evaluated findings enter E.
+* **Adopt — BCP 14 (RFC 2119 + RFC 8174) keyword discipline.** The visible keyword does not select a quadrant: generic prescriptions, separately instituted individual duties, and current grants enter D; entry predicates enter A; actual exercise or evaluated findings enter E.
 * **Adopt — behavioural and session types for protocol boundaries (post‑2015 practice).** Protocols as typed interactions emphasize separating safety and progress properties (L) from runtime admission (A) and from implementer obligations (D), with trace-based evidence (E).
 * **Adopt or adapt — algebraic effects and handlers plus effect systems.** The operation-signature/handler distinction helps separate utterance substrate from dated Work, but application result, production, delivery, evidence, and acceptance still require their own direct relations; handler vocabulary does not bundle them into Work.
 * **Adapt — ISO/IEC/IEEE 42010:2022 viewpoint discipline.** Multi-view publication is treated as viewpoint claims constraining view construction; A.6.C applies this to contract talk to avoid face-level semantic forks.

@@ -6,12 +6,12 @@ section_id: "C.32.PAD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__013_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:12 — Relations"
-line_start: 66683
-line_end: 66696
+line_start: 63850
+line_end: 63863
 dependencies:
   - "A.10"
   - "A.15"

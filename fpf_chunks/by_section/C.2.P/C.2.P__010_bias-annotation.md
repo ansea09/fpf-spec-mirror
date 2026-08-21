@@ -6,12 +6,12 @@ section_id: "C.2.P:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__010_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:6 — Bias-Annotation"
-line_start: 42119
-line_end: 42127
+line_start: 40892
+line_end: 40900
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 | Lens | Risk | Mitigation |
 | --- | --- | --- |
 | Ontology | Precise-looking words become a new parallel ontology. | Require recovery to current FPF kinds and relations before reuse. |
-| Usability | The rule becomes too heavy for ordinary edits. | Use the smallest sufficient rewrite mode; reserve the full check for FPF-governed wording. |
+| Usability | The rule becomes too heavy for ordinary edits. | Use the smallest sufficient rewrite mode. Reserve the full check for several interacting unresolved fields, contested source-to-FPF use, or a reusable ontological or naming decision. |
 | Preservation | Source-relation or source-ref target text is mistaken for direct pattern authority. | Keep source-related statements separate from the ordinary pattern guidance. |
 | Checklist ritual | The rule becomes a form to satisfy rather than a wording action to perform. | Put the action in `Solution`; use row evidence only when wording has FPF-governed use. |
 

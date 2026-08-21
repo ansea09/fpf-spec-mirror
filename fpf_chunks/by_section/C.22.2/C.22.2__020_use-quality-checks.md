@@ -6,12 +6,12 @@ section_id: "C.22.2:19"
 section_title: "Use-Quality Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__020_use-quality-checks.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:19 — Use-Quality Checks"
-line_start: 51954
-line_end: 51965
+line_start: 50763
+line_end: 50774
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,7 @@ These checks protect the card's practical use; they do not add fields.
 | Check | Quality question |
 |---|---|
 | Recognition | Can the practitioner recognize the working situation before outside-governed relation material appears? |
-| Thin affordance | Can a truthful card fit under one page when only Thin fields are current? |
+| Thin affordance | Can the exact Thin contract in `C.22.2:2.1` fit under one page when only its core items are current? |
 | Next use | Does the card choose `P2W-ready`, characterize, compare, search, refresh, retire, archive, `abstainOrNoChange`, or the FPF pattern governing the named claim kind, relation kind, or boundary? |
 | Record budget | Are heavier fields present only because they change the current move? |
 | P2W export | Does the card state what P2W may use now and which subject-pattern cues remain outside the card? |

@@ -6,12 +6,12 @@ section_id: "C.16:5"
 section_title: "Solution — recover one complete measurement chain (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__006_solution-recover-one-complete-measurement-chain-normative.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:5 — Solution — recover one complete measurement chain (Normative)"
-line_start: 47126
-line_end: 47197
+line_start: 45913
+line_end: 45984
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -85,7 +85,7 @@ If any noun in that sentence cannot be grounded, return that exact gap rather th
 
 **M‑CAL‑1.** Name the calibration basis required for the use: reference standard or comparison basis, dated calibration work and result when current, calibration coefficients or corrections, applicable interval, and uncertainty contribution. A calibration certificate or ledger row cites these facts; it does not establish them by being stored.
 
-**M‑WORK‑1.** `MeasurementWork` is one exact dated `U.Work` with an occurrence designator, temporal extent, performer through `U.SystemRoleAssignment`, `enactsMethod`, exact measurand or affected referent, actual resources, and concrete participants through direct subject relations or A.6.1 operation-application bindings. A plan, compatible signature, method description, instrument type, or retained reference establishes none of those actual bindings.
+**M‑WORK‑1.** `MeasurementWork` is one exact dated `U.Work` with a complete A.15.1/F.6 basis: occurrence designator, temporal extent, every performer and its covering assignment and attribution, at least one obtaining `enactsMethod` relation, and at least one obtaining locally declared containing-system relation. Name the exact measurand through its direct subject relation or an A.6.1 operation-application binding. Name another enacted Method, resource, or concrete participant only when the measurement claim uses its independently obtaining relation or binding. A plan, compatible signature, method description, instrument type, or retained reference establishes none of those actual facts.
 
 #### C.16:5.4 - Recover input quantities, output quantity, and uncertainty
 

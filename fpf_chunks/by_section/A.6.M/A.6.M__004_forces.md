@@ -6,12 +6,12 @@ section_id: "A.6.M:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__004_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:3 — Forces"
-line_start: 18544
-line_end: 18556
+line_start: 18302
+line_end: 18314
 dependencies:
   - "A.10"
   - "A.20"
@@ -56,7 +56,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Engineering convenience vs relation precision | Practitioners need short words such as module and interface, but claim-bearing use must recover both holons, the boundary, interface specification, admissible use, and whether an independently admitted direct relation is actually current. |
-| Module claim vs root or relation kind | A candidate module keeps its direct holon kind. Neither the source word nor `moduleIn(...)` admits `U.Module` or a general direct module relation; a reusable relation needs its own A.6.RCD settlement. |
+| Module claim vs root or relation kind | A candidate module keeps its direct holon kind. Neither the source word nor a `ModuleInterfaceClaim` record admits `U.Module` or a general direct module relation; a reusable relation needs its own A.6.RCD settlement. |
 | Interface label vs interface specification | An API name, port label, connector label, or signature may substantiate an interface claim, but it is not by itself substitutability or conformance. |
 | Function-flow-module proximity vs false identity | Functions, E.18 flow relations, control relations, mechanisms, and module interfaces often meet at the same artifact, but each has a different subject pattern. |
 | Open architecture payoff vs open label overread | MOSA and open-system practice make open interfaces useful only with standards, conformance expectations, replacement or change policy, and data or access constraints when those conditions are part of the claim being made. |

@@ -6,12 +6,12 @@ section_id: "F.15:6"
 section_title: "Objects under check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__008_objects-under-check.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:6 — Objects under check"
-line_start: 95186
-line_end: 95202
+line_start: 92577
+line_end: 92593
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,12 +54,12 @@ A practitioner applying F.15 may check these exact objects together but redefine
 
 1. effective `U.ReferenceScheme` values and exact prior/later editions;
 2. independently governed local-sense claims and F.17 `SchemeSenseCell` coordinates;
-3. exact governed values and relation occurrences under their direct patterns;
+3. exact governed values and relation occurrences together with the rules that identify each value or say when each relation obtains, and the PatternIDs that locate those rules;
 4. F.4 `SystemRoleKindDescription` epistemes and their exact local system-role kinds;
 5. F.18 NameCard epistemes, selected Tech/Plain designations, aliases, and lineage;
 6. F.17 UnifiedTermRow epistemes and exact row editions, including admissible one-cell rows;
 7. actual F.9 Bridge occurrences, with Bridge descriptions or Cards referenced separately when current;
-8. subject-pattern status-family/value/use/window objects;
+8. status families, values, targets, scopes, windows, source conditions, and uses recovered through F.10 or another applicable status rule;
 9. selected bounded-model-use Structures and their separate descriptions only when structural organization changes the checked use;
 10. exact source, evidence, currentness, and publication relation occurrences needed by the result's receiving use.
 

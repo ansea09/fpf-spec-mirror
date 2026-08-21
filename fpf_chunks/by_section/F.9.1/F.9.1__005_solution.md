@@ -6,12 +6,12 @@ section_id: "F.9.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.9.1 — Bridge Stance Note"
   - "F.9.1:4 — Solution"
-line_start: 93537
-line_end: 93593
+line_start: 90928
+line_end: 90984
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -79,7 +79,7 @@ A stance word carries no direction by itself. Direction belongs to the bounded-u
 - The bounded-use claim says whether that Bridge suits one named use.
 - A practitioner uses A.10 or B.3 to judge whether current evidence or assurance supports relying on that claim.
 - The stance note says how to read that one claim.
-- Evidence about a comparison, translation, publication, Work occurrence, or other downstream act says whether that act occurred; the stance note does not.
+- The pattern that directly constrains a proposed comparison, translation, publication, Work occurrence, or other downstream act decides its authorization; evidence about that act says whether it occurred. The stance note does neither.
 
 A Bridge Card is optional claim-bearing packaging. A Card may publish the Bridge description, bounded-use claim, evidence references, reliance result, and stance note together, but the Card is not a prerequisite for any of them. The Card's layout and edition, and any publication occurrence or file carrying it, remain separate from the objects it brings together.
 

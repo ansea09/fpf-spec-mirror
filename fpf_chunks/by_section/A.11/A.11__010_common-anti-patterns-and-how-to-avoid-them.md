@@ -6,12 +6,12 @@ section_id: "A.11:5"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:5 — Common Anti-Patterns and How to Avoid Them"
-line_start: 23130
-line_end: 23138
+line_start: 22561
+line_end: 22569
 dependencies:
   - "A.6.P"
   - "A.6.RCD"

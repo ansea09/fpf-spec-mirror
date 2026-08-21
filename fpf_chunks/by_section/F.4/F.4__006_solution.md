@@ -6,12 +6,12 @@ section_id: "F.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:4 — Solution"
-line_start: 91326
-line_end: 91399
+line_start: 88712
+line_end: 88785
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,14 +47,14 @@ keywords:
 
 ### F.4:4 - Solution
 
-Constitute one `SystemRoleKindDescription` through C.2.1. Its ClaimGraph describes one exact local system-role kind, and that kind is its EntityOfConcern. The ClaimGraph names the practice or source boundary in which the kind is constituted, its stable work-facing contribution distinction, current `KindSignature` edition, and effective `U.ReferenceScheme`. The description gives readers enough to recognize and check the kind while routing neighboring claims to their direct rules.
+Constitute one `SystemRoleKindDescription` through C.2.1. Its ClaimGraph describes one exact local system-role kind, and that kind is its EntityOfConcern. It makes the kind's candidate domain, operative membership condition, intended member/non-member boundary, continuity rule, current `KindSignature`, and effective `U.ReferenceScheme` recoverable. It may record source or practice provenance so readers can find and compare definitions, but provenance is not a kind-identity key. The description gives readers enough to recognize and check the kind while routing neighboring claims to their direct rules.
 
 The following is a content checklist, not a relation signature or mandatory record.
 
 **Always make recoverable:**
 
 - the described local system-role kind;
-- the practice or source boundary in which it is constituted and its stable work-facing contribution distinction;
+- the candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule;
 - the current `KindSignature` edition and effective reference scheme;
 - a short recognition explanation;
 - the full A.1 range of possible candidate systems, using examples only when helpful;
@@ -70,14 +70,14 @@ The following is a content checklist, not a relation signature or mandatory reco
 - C.3.3 or F.9 Bridge references; and
 - a selected `BoundedModelUseStructure` only when that structure changes the described interpretation or receiving use.
 
-These are claims or references in an episteme. They are not `SlotSpec` declarations and add no participant to `U.SystemRoleAssignment` or another relation. A card, table row, Method appendix, or pattern section may publish the description; the publication form and carrier remain separate from the episteme.
+These are claims or references in an episteme. They are not `SlotSpec` declarations and add no participant to `U.SystemRoleAssignment` or another relation. A card, table row, Method appendix, or pattern section may express the description. When availability matters, a separate E.24.PUB occurrence makes the exact description edition available through its publication form and carrier.
 
 #### F.4:4.1 - Content Meanings
 
 | Content element | Meaning |
 | --- | --- |
 | Described system-role kind | The exact local `U.Kind` that is the episteme's EntityOfConcern. |
-| Local identity basis | The named practice or source boundary and stable work-facing contribution distinction that distinguish this kind from same-spelled local kinds. |
+| Kind recovery basis | The candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule that distinguish this kind. Source or practice provenance may locate the definition but does not decide identity. |
 | Kind criterion | The exact current `KindSignature` edition used to judge candidates directly. |
 | Effective scheme | The by-value interpretation scheme used for the description's vocabulary; it is not a kind-identity authority. |
 | Recognition explanation | A first-minute explanation that distinguishes this kind from neighboring kinds and objects. |
@@ -111,7 +111,7 @@ Keep the description episteme, the exact local system-role kind it describes, th
 
 Write a description in this order:
 
-1. Name the described local system-role kind, the practice or source boundary in which it is constituted, and its stable work-facing contribution distinction.
+1. Name the described local system-role kind and state its candidate domain, operative membership distinction, one useful member/non-member boundary, and continuity rule. Record source or practice provenance only when it helps the reader locate or compare the definition.
 2. Name the current `KindSignature` edition and effective reference scheme.
 3. Give one short recognition paragraph, including the broad A.1 system range when a cold reader could narrow it incorrectly.
 4. State the smallest direct criteria or invariants that distinguish the kind.

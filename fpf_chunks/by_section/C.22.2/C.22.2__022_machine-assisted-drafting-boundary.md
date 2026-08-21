@@ -6,12 +6,12 @@ section_id: "C.22.2:21"
 section_title: "Machine-Assisted Drafting Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__022_machine-assisted-drafting-boundary.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:21 — Machine-Assisted Drafting Boundary"
-line_start: 52018
-line_end: 52030
+line_start: 50833
+line_end: 50847
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,12 +60,14 @@ keywords:
 
 Machine-assisted `ProblemCard` drafting is only a drafting aid. Before the draft is used for P2W or selector-facing work, a practitioner checks the card's local fields and any subject-pattern cues for claims outside `C.22.2`.
 
-Required practitioner checks for a machine-assisted draft:
+Required practitioner checks for a machine-assisted draft reuse the exact Thin contract:
 
 - problem signal;
-- improvement check or acceptance probe;
-- problem-formulation follow-up reason;
-- unknown handling;
-- freshness or expiry disposition;
-- subject-pattern cues for claims being made, relations, or boundaries outside `C.22.2`.
+- one joint EntityOfConcern, effective ReferenceScheme, and ClaimScope;
+- exact claim family;
+- reason this is not merely a wish, ticket, slogan, label, or preselected Work request;
+- improvement check or acceptance probe; and
+- one honest next use.
+
+Check problem-formulation follow-up reason, validation boundary, freshness or expiry, unknown handling, source-set reference, representation or retargeting relation, and outside-pattern cues only when that content is current for the chosen next use. Omit a non-current field; do not invent a value or write `unknown` merely because the drafting aid exposes that field.
 

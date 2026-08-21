@@ -6,12 +6,12 @@ section_id: "C.22:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__014_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:12 — Rationale"
-line_start: 50941
-line_end: 50944
+line_start: 49750
+line_end: 49753
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -23,6 +23,7 @@ dependencies:
   - "C.32.P2S"
   - "E.10"
   - "E.18"
+  - "F.9"
   - "G.0"
   - "G.4"
   - "G.5"
@@ -31,5 +32,5 @@ keywords:
 
 ### C.22:12 - Rationale
 
-C.22 exists because method selection before eligibility, acceptance, evidence, unknown-handling, and admissible comparison relations are explicit invalidates the selector-facing problem record.
+Selecting a method before the relevant eligibility, acceptance, unknown-handling, and admissible-comparison relations are explicit invalidates the selector-facing problem record. When the selection use relies on evidence, provenance, currentness, or assurance, those separate relations and results must also be explicit; C.22 does not require them otherwise.
 

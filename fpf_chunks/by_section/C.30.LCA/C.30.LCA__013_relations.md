@@ -6,12 +6,12 @@ section_id: "C.30.LCA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__013_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:12 — Relations"
-line_start: 62215
-line_end: 62225
+line_start: 59372
+line_end: 59382
 dependencies:
   - "A.10"
   - "A.20"
@@ -43,7 +43,7 @@ keywords:
 
 ### C.30.LCA:12 - Relations
 
-* Builds on `C.30` for direct architecture relation and selected-structure adequacy, `C.30.AD` for description identity/use, `E.17.0` for direct viewpoint conformance, and `C.30.ASV` for structural-view adequacy.
+* Builds on `C.30` for direct architecture relations and selected-structure adequacy, `C.30.AD` for description identity and use, `E.17.0` for direct viewpoint conformance, and `C.30.ASV` for structural-view adequacy.
 * Uses `A.22` for exact structure identity and structure-kind discipline.
 * Coordinates with `C.30.STRAT` when layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or similar source labels must be recovered before control-specific use.
 * Coordinates with `B.2.5` for supervisor-subholon feedback relation recognition.

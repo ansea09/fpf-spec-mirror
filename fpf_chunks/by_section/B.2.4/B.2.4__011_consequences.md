@@ -6,12 +6,12 @@ section_id: "B.2.4:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__011_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:8 — Consequences"
-line_start: 38162
-line_end: 38175
+line_start: 37333
+line_end: 37346
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,12 +40,12 @@ keywords:
 Positive consequences:
 
 - Exact capability and functioning facts can make real whole reidentification current, while evidence bears only on the associated claims.
-- Direct owners remain visible, so local improvements are not overclaimed.
-- Method, work, function, module, and architecture distinctions survive high-pressure capability language; each claim remains with its governing pattern.
+- Subject patterns remain visible, so local improvements are not overclaimed.
+- Method, work, function, module, and architecture distinctions survive high-pressure capability language; each claim remains with its subject pattern.
 
 Costs:
 
-- Teams must do the direct-owner test before using B.2.4.
+- Teams must do the subject-pattern test before using B.2.4.
 - Many impressive capability claims will stay outside MHT.
 - B.2.4 depends on B.2 for the final whole-reidentification record.
 

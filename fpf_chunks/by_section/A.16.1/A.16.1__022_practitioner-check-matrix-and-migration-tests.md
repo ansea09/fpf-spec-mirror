@@ -6,12 +6,12 @@ section_id: "A.16.1:21"
 section_title: "Practitioner Check Matrix and Migration Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__022_practitioner-check-matrix-and-migration-tests.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:21 — Practitioner Check Matrix and Migration Tests"
-line_start: 27813
-line_end: 27822
+line_start: 27328
+line_end: 27337
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,7 +41,7 @@ keywords:
 A practitioner can test a cue pack with four questions:
 
 1. **What exactly is being preserved?** If the nucleus is unclear, the pack is under-specified.
-2. **Why this pack rather than a later receiving form with a more closed state, route authority, or endpoint authority?** If the answer is only habit, the pack may be redundant.
+2. **Why this pack rather than a later receiving form with more closure, a published route selection, or a passed endpoint test for the needed use?** If the answer is only habit, the pack may be redundant.
 3. **Which witness or anchor is primary?** If none can be named where triage matters, the pack may be storage rather than preservation.
 4. **Which downstream directions remain live, if any?** If the publication hides them, later `B.4.1` route publication will be distorted.
 

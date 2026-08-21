@@ -6,12 +6,12 @@ section_id: "A.6.C:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__004_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:3 — Forces"
-line_start: 11279
-line_end: 11289
+line_start: 11314
+line_end: 11324
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,7 +39,8 @@ keywords:
   - "OPTIONAL"
   - "SHOULD"
   - "a mechanism entry predicate enters A"
-  - "and SHOULD NOT enter D only for an individual duty"
+  - "an individual duty"
+  - "and SHOULD NOT enter D for a generic prescription or"
   - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
@@ -56,6 +57,7 @@ keywords:
   - "rewrite it or mark it informative"
   - "separate result and evidence"
   - "speech-act Work"
+  - "when separately instituted for an actual bearer"
 ---
 
 ### A.6.C:3 — Forces
@@ -66,6 +68,6 @@ keywords:
 | Ontological correctness    | “Contract” is a metaphor unless we explicitly locate who promises or commits and what can be evidenced.                                              |
 | Boundary diversity         | Software APIs, hardware connectors, protocols, and SLAs share the “contract” word but differ in what is adjudicated and how.                      |
 | Multi-view publication     | Faces are necessary for audience fit, but rephrasing easily creates new commitments.                                                              |
-| Adjudicability | “Guarantee” or authority wording must resolve to a semantic truth, a claim about an exact individual commitment or current grant, an entry predicate, or an observed or evaluated claim with evidence; otherwise it is empty rhetoric. |
+| Adjudicability | “Guarantee” or authority wording must resolve to a semantic truth, an exact generic prescription, a claim about an individual commitment or current grant, an entry predicate, or an observed or evaluated claim with evidence; otherwise it is empty rhetoric. |
 | Minimality                 | The unpacking should be lightweight enough to apply during routine authoring and review.                                                          |
 

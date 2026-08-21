@@ -6,12 +6,12 @@ section_id: "B.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 37172
-line_end: 37232
+line_start: 36342
+line_end: 36402
 dependencies:
   - "A.1"
   - "A.10"
@@ -63,7 +63,7 @@ HolonReidentificationRecord@Control : U.Episteme
   content:
     existingWholeRef: plant-plus-devices configuration
     selectedTriggerProfileRef: MHTTriggerProfile@Control
-    existingWholeExplanationCheckRef: ClosedLoopExistingWholeCheck
+    existingWholeExplanationResultRef: ClosedLoopExistingWholeResult
     resultHolonRef: regulated control system
     resultHolonKindRef: U.System
     resultHolonClassificationAssertionRef: RegulatedControlSystemClassificationAssertion
@@ -77,7 +77,7 @@ The exact EntityOfConcern is an actual participant in the C.2.1 `EpistemeConstit
 
 A collection of results can remain a catalogue. B.2 becomes current only when the knowledge body is reidentified as an episteme whole with its own claim-bearing structure, explanatory objective, reference scheme, and evidence relations.
 
-`B.2.3` specializes this case when the exact candidate new holon named by the MHT claim is recognized under the already admitted `U.Episteme` kind. `C.2.1` and the episteme family own episteme constitution, publication, source use, and claim-bearing structure.
+`B.2.3` specializes this case when the exact candidate new holon named by the MHT claim is recognized under the already admitted `U.Episteme` kind. C.2.1 defines episteme constitution and identity; E.17 and E.24.PUB define publication occurrences, forms, and carriers; C.2.P recovers source-expression and source-to-use distinctions; A.10 and G.6 supply evidence-provenance relations when the receiving use relies on them.
 
 #### B.2:5.3 - Capability Envelope Appears
 
@@ -95,7 +95,7 @@ Replacing Pump #37's seal is an ordinary constituent change when the pump's reid
 
 Closing a controller-sensor-actuator loop can yield a new regulated-system whole only when the exact candidate assembly, supervision and coordination relations, boundary, objective, whole-level capability, admitted `U.System` kind, and reidentification rule satisfy A.1 and the system criterion. Its actual boundary, interfaces, relevant characteristics, and identity-preservation conditions must also satisfy at least one applicable governed larger-assembly construction method or rule under which the regulated system can remain a constituent. If that condition fails, the candidate fails A.1; if the needed evidence or dependency is unavailable, evaluation returns `unknown`. A wiring diagram, commissioning record, loop closure, or capability measurement alone supplies none of those construction or compatibility facts.
 
-If the support for the reidentification assertion is present and its edition is current, receiving work may rely on it. If the same evidence is unavailable, evaluation can return `unknown`; if the record is stale, G.11 can disqualify that edition; and receiving work may decline, defer, or reopen. None of those branches changes whether the regulated-system whole actually exists or whether the prior configuration remains the same whole.
+If the support for the reidentification assertion is present and its edition is current, a person or system performing receiving work may rely on it. If the same evidence is unavailable, evaluation can return `unknown`; use G.11 to test whether the edition is current for this use; and the actor may decline, defer, or reopen. None of those branches changes whether the regulated-system whole actually exists or whether the prior configuration remains the same whole.
 
 #### B.2:5.6 - Selected Structure And Transformation Stops
 

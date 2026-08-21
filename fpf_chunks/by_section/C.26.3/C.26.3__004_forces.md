@@ -6,12 +6,12 @@ section_id: "C.26.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__004_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:3 — Forces"
-line_start: 54402
-line_end: 54411
+line_start: 53178
+line_end: 53187
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,6 +46,6 @@ keywords:
 | Bundle vs scalar | Viability usually concerns a bundle, but dashboards often expose one or two proxies. |
 | Stability vs change | The system may preserve function by changing internal settings, external environment, boundary conditions, or operating regime. |
 | Sensing vs intervention | A measurement value is not a change or Work. Its use may report, probe, or participate in a separately grounded behavior-changing Work, interaction, or governance claim. |
-| Ordinary control vs QL lens | `C.25`, `U.Dynamics`, `A.6`, `A.15`, and `C.16` remain primary patterns; QL enters only for probe, frame, export, or coarsening cue. |
+| General envelope regulation vs optional QL coordination | Use C.26.3 for the envelope-regulation claim and `C.25`, `U.Dynamics`, `A.6`, `A.15`, and `C.16` for its exact constituent claims and objects. Add `C.26` / QL only when a probe, frame, export, coarsening, order, or incompatible-representation issue remains load-bearing. |
 | Light use vs dynamics detail | Rate, inertia, damping, latency, and effort of the recovered intervention object or resulting change matter only when load-bearing. |
 

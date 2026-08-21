@@ -6,12 +6,12 @@ section_id: "C.2.1:7"
 section_title: "Episteme morphing, viewing, and retargeting  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__008_episteme-morphing-viewing-and-retargeting-normative.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:7 — Episteme morphing, viewing, and retargeting  (normative)"
-line_start: 41445
-line_end: 41473
+line_start: 40333
+line_end: 40371
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -61,11 +61,15 @@ C.2.1 governs episteme identity discriminators and neighboring relations. A.6.2-
 For a morphism from episteme `X` to episteme `Y`, state by value:
 
 1. which of claim content, EntityOfConcern, and effective reference scheme are preserved, restricted, bridged, or changed;
-2. which viewpoint, empirical-grounding, claim-scope, model-use, evidence, or representation relations are read or changed;
+2. which exact viewpoint selection the use names, which exact empirical-grounding, claim-scope, model-use, evidence, or representation occurrences the arrow rule reads, and which endpoint facts it compares; the arrow changes none of those occurrences and makes none obtain or cease;
 3. which claims in `Y` are preserved from or supported by `X` under the named morphism, the exact correspondence or retargeting relation governed by that morphism pattern, and any `F.9` Bridge that governs cross-context sense use when current;
-4. whether the operation changes only epistemes or also entails separately governed work or transformation.
+4. whether a separate operation application or Work actually produced or changed an episteme, and which direct pattern governs that occurrence.
 
-The morphism declaration and any categorical notation are epistemic or mathematical objects. Only systems perform exact authoring, query, translation, or other work. `A.6.1` declares typed argument and result positions. When an exact operation application is current, each application binding relates one exact entity to its declared argument or result position; every bound entity retains its independently governed kind, identity, and any domain-result algebra. Identify the affected or newly constituted entity, the actual change facts, and the C.2.1 discriminators independently. No bare A.6.1 `result`, generic work result, universal work-result relation, or universal production relation is inferred from a morphism arrow, declaration, or application.
+The morphism declaration and its mathematical arrows are different objects. The declaration is a C.2.1 episteme, normally an A.6.0 FormalSubstrate signature, whose EntityOfConcern is the local mathematical family and whose claim content declares vocabulary, laws, and applicability. One arrow `f : X -> Y` is a C.29-local mathematical object identified inside that substrate by its exact endpoints, arrow rule or designator, and declared formal equivalence.
+
+The mathematical statement `f : X -> Y` names no execution. When an exact operation application is current, A.6.1 separately identifies its argument and result bindings. Identify the system and performed Work, the affected or newly constituted episteme, its C.2.1 discriminators, and any production or change relation under their direct governors. The same arrow may be used in several applications, and an arrow may relate already existing epistemes. No bare result, generic work result, or universal production relation follows from an arrow or declaration.
+
+A claim that one arrow is suitable for one exact use is another C.2.1 assertion. Its complete claim content names the arrow, use, conditions, and polarity. Evidence and reliance qualify that assertion; they do not identify the arrow or operation application.
 
 #### C.2.1:7.2 - Epistemic viewing
 
@@ -77,7 +81,13 @@ Empirical grounding continues only while every mapped direct relation required b
 
 #### C.2.1:7.3 - Epistemic retargeting
 
-`U.EpistemicRetargeting` is an effect-free morphism relating epistemes with different exact EntitiesOfConcern. `A.6.4` governs the exact correspondence, reinterpretation, or retargeting relation that states what is preserved across the change. When the move also crosses context-local senses, `F.9` governs the exact Bridge occurrence and does not replace the subject-side retargeting relation. A separate C.2.1 assertion says whether that Bridge is suitable for the retargeting use in direction `d`, under rule `r`, within tolerance `t`, with explicit polarity; A.10 or B.3 separately governs reliance. A system may perform exact retargeting work; identify its enacted method, any exact A.6.1 operation application and binding, affected or newly constituted entity, and actual change facts separately. The retargeting morphism itself performs no work, and no bare A.6.1 `result`, generic work result, or universal production relation is inferred.
+`A.6.4` governs a local class of effect-free arrows `r : X -> Y` whose exact endpoint epistemes concern different exact entities. It does not admit a durable `U.EpistemicRetargeting` kind. The A.6.0 FormalSubstrate signature that declares the class, one arrow r, a bounded-use assertion q, a current-case judgement, and any actual operation application remain different objects.
 
-Examples include retargeting from a module to a function it realizes, from observations to a learned model, or from one holon to a meta-holon or subholon with a different EntityOfConcern. A Fourier representation change is not automatically retargeting: use C.29 first to decide whether the signal remains the EntityOfConcern and only its representation changes. This test prevents mathematical notation from deciding ontology.
+For one receiving use, q states one proposition with affirmative or negative polarity: whether r preserves the named invariant and makes the stated loss acceptable under named conditions. A separate current-case judgement compares exact current facts with that proposition and reports `satisfies`, `fails`, or `cannot decide`. The same r can have different q assertions and case results for different uses without changing arrow identity. A missing deciding fact yields `cannot decide`, names that fact, and states what would reopen the question; it does not create unresolved assertion polarity or require an assurance record.
+
+Use A.20 only when the proposition is an internal constraint, A.10 only when an evidence-use claim is current, and B.3 only when an actual named assurance claim is current. Otherwise the named predicate and direct facts supply the case judgement. If the case also asserts a semantic relation between exact F.17 local senses, F.9 defines that separate Bridge and its bounded-use claim.
+
+A system may perform exact retargeting work. Identify its enacted method, any exact A.6.1 operation application and binding, affected or newly constituted episteme, and actual change facts separately. The arrow itself performs no work, and the mathematical statement `r : X -> Y` infers no bare result or universal production relation.
+
+Examples include retargeting from a module to a function it realizes, or from observations to a learned model, when the independently identified source and receiving entities really differ. A Fourier representation change is not automatically retargeting: use C.29 first to decide whether the signal remains the EntityOfConcern and only its representation changes. This test prevents mathematical notation from deciding ontology.
 

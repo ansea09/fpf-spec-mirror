@@ -6,12 +6,12 @@ section_id: "A.15:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:1 — Problem frame"
-line_start: 23960
-line_end: 23974
+line_start: 23394
+line_end: 23408
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,7 +65,7 @@ A.15 brings these already defined values together without creating a new process
 * **F.6** relates one dated Work occurrence to one exact assignment occurrence through `performedUnderAssignment` and projects the actual performer from `RA.HolderSystemSlot`.
 * **A.3.1 and A.3.2** keep `U.Method` distinct from `U.MethodDescription`.
 * **A.15.1 and A.15.2** keep actual dated Work distinct from intended WorkPlan and from every record about either.
-* **A.2.2, A.10, and neighboring direct patterns** keep capability, capability support, evidence, source use, publication, responsibility, authority, access, result, and currentness outside assignment and Work identity.
+* **A.2.2, A.10, and neighboring direct patterns** keep capability-fit claims, evidence use, source currentness, publication, responsibility, authority, access, results, and assurance outside assignment and Work identity.
 
 Use `E.10`, `E.10.ARCH`, and `E.10.ROLE` when source wording such as *process*, *workflow*, *action*, *activity*, *schedule*, or *role* has not yet been resolved. The wording chooses no FPF object by itself. Recover the exact Method, MethodDescription, WorkPlan, Work, Transformation, Dynamics, evidence, gate, source, publication use, participation relation, declaration slot, or ordinary non-technical use that the claim actually needs.
 

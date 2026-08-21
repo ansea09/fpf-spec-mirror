@@ -6,16 +6,21 @@ section_id: "B.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__008_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:7 — Conformance Checklist"
-line_start: 39737
-line_end: 39744
+line_start: 38592
+line_end: 38601
 dependencies:
   - "A.12"
+  - "A.15.1"
   - "A.4"
+  - "B.3"
+  - "B.4"
   - "B.4.1"
+  - "B.5"
+  - "B.5.1"
 keywords:
   - "DesignRunTag feedback"
   - "drift repair"
@@ -28,9 +33,11 @@ keywords:
 
 ### B.4:7 - **Conformance Checklist**
 
-*   **CC-B4.1 (Loop Integrity):** Any evolutionary change to a holon **MUST** be documented as a full traversal of the four-phase loop. Ad-hoc changes that bypass a phase (e.g., deploying a refinement without a documented observation and evidence phase) are a process violation.
-*   **CC-B4.2 (Temporal Scope Mandate):** The *Refine* phase **MUST** operate on `design-time` epistemes such as specifications, theories, source code, or method descriptions, while the *Operate* phase involves the `run-time` holon-in-operation. The *Observe* and *Deploy* phases are the only permissible bridges between these scopes.
-*   **CC-B4.3 (Transformer Mandate):** The *Observe*, *Refine*, and *Deploy* transitions admitted as dated Work **MUST** be performed by an explicitly identified external System (Pattern A.12). Use F.6 to identify the assignment under which each performer acted; a short loop account may omit an unused assignment identifier. A holon cannot observe, refine, or deploy itself.
-*   **CC-B4.4 (Adaptive-specialization anchoring):** When the knowledge-instantiation or method-instantiation slice carries a bounded-specialization claim, that claim **MUST** name the declared `TaskFamily` or `TaskSignature`, the work-measure threshold target, the adaptation budget, and the freshness or provenance basis for reuse.
-*   **CC-B4.5 (Adaptive-specialization boundary):** The knowledge-instantiation and method-instantiation slices **SHALL NOT** silently re-govern selector or parity semantics. If transfer, retention, downstream exploitation efficiency, corridor entry, or downside cost are comparison-relevant, the pattern-local note **MUST** leave those fields recoverable by the downstream `C.22.1`, `G.5`, and `G.9` governing patterns.
+* **CC-B4.1 (Proportional loop integrity):** Record the actual path from observed basis through change to renewed use. A complete phase-by-phase trace is required only when a named relying decision, assurance case, audit, or replay needs it. Do not invent a phase or claim completion merely to fill a loop.
+* **CC-B4.2 (Subject identity):** Name the exact subject kind and apply its direct continuity rule: System continuity or transformation; episteme predecessor, successor, or edition; Method identity, refinement, substitution, or successor; MethodDescription edition; or separate dated Work occurrences.
+* **CC-B4.3 (Acting-side distinction):** Work that observes or changes a subject **MUST** have an identified performing System distinct from the changed subject in that Work account. Internal adaptation is permitted when `A.12` establishes exact distinct subsystems or parts and their independently obtaining parthood. Every particular dated `U.Work` keeps its complete A.15.1/F.6 basis recoverable; its short B.4 account may omit an assignment identifier unused by the receiver.
+* **CC-B4.4 (Adaptive-specialization anchoring):** When the knowledge-instantiation or method-instantiation slice carries a bounded-specialization claim, that claim **MUST** name the declared `TaskFamily` or `TaskSignature`, the work-measure threshold target, the adaptation budget, and the freshness or provenance basis for reuse.
+* **CC-B4.5 (Adaptive-specialization boundary):** The knowledge-instantiation and method-instantiation slices **SHALL NOT** silently re-govern selector or parity semantics. If transfer, retention, downstream exploitation efficiency, corridor entry, or downside cost are comparison-relevant, the pattern-local note **MUST** leave those fields recoverable by the downstream `C.22.1`, `G.5`, and `G.9` patterns.
+* **CC-B4.6 (Phase and transition separation):** Operate, Observe, Refine, and Deploy **MUST** have the distinct outputs and transition conditions stated in B.4:4.3. Evidence use and optional B.4.1 cue routing do not become duplicate phases.
+* **CC-B4.7 (No success inference):** Deployment or publication establishes neither acceptance nor successful renewed use. Record failure, reopening, fallback, or another iteration when that is what occurred.
 

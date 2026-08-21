@@ -6,13 +6,14 @@ section_id: "C.25:20a"
 section_title: "Viability-envelope, quantum-like, and temporal-claim relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__022_viability-envelope-quantum-like-and-temporal-claim-relation-note.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:20a — Viability-envelope, quantum-like, and temporal-claim relation note"
-line_start: 53060
-line_end: 53099
+line_start: 51837
+line_end: 51873
 dependencies:
+  - "A.10"
   - "A.15"
   - "A.16.0"
   - "A.18"
@@ -51,19 +52,16 @@ Use `C.25` when the question under repair is a quality bundle, "-ility" decompos
 
 Practical reading:
 
-1. Decide whether the quality claim is one admissible Characteristic or a Q-Bundle.
-2. If it is a bundle, name bearer, scope, measures, qualification window, mechanisms/status, and evidence.
-3. Ask whether the claim is really viability-envelope work: protected promise/function, viable region/bounds, several variables, disturbance, sensors/probes, actuators, boundary conditions, adaptation cost, and failure mode.
-4. If one proxy or bundle is enough, stay in `C.25`.
-5. If the envelope reading depends on a probe, sensor, frame, export, action, coarsening, or boundary interaction that changes what can be said admissibly, the remaining viability-envelope question belongs with `C.26.3`.
-6. If the sentence is an intervention-sensitive temporal claim about rate-change under effort, window, resistance, or cadence, inspect `C.27` for the smallest honest temporal-claim adequacy card before using the quality label for action.
-7. State viable region/bounds, trade-off, admissible use, non-admissible use, and failure mode before viability language is used for action.
-
+1. Decide whether one Characteristic answers the quality question; if it does, stop there.
+2. If several differently typed contributors are load-bearing, identify the bearer and include only those measures, scopes, windows, mechanisms, statuses, or evidence anchors.
+3. If one proxy or this proportional bundle answers the receiving question, stay in `C.25`.
+4. Open `C.26.3` only when the current question concerns a viable region, disturbance, boundary condition, intervention, adaptation cost, or failure mode.
+5. Open `C.27` only when rate-change under effort, window, resistance, recovery, or cadence changes the admissible use of a temporal claim.
 Minimum viability-envelope note:
 
 | Field | Required content |
 | --- | --- |
-| Bearer | System, service, organization, team, model, process, or configuration of system-role kinds and assignments whose viability is at stake |
+| Bearer | One exact `U.System` under A.1 when that System is the subject; or one exact `A.22` `U.Structure` when selected organization is the subject, with independently identified constituents, selected obtaining relations, applied constraints, and one selection-use frame. A service label, team label, or list of system-role kinds and assignment occurrences does not identify the bearer by itself. |
 | Protected promise / function | The promise, function, use, operating regime, or stakeholder value the envelope protects |
 | Variables | Which qualities, constraints, resources, risks, or state descriptors define the envelope |
 | Viable region / bounds | What counts as inside, near edge, degraded, or outside the envelope for this use |
@@ -76,12 +74,12 @@ Minimum viability-envelope note:
 
 Useful outputs:
 
-- a Q-Bundle when the issue is quality decomposition;
+- one `C.2.1` quality-claim episteme with Q-Bundle-shaped content when the issue is quality decomposition;
 - a `C.26.3` envelope-regulation note when probes/actuators/boundary conditions change the admissible viability reading;
 - a `C.27` temporal-claim adequacy card when rate-change, effort, window, resistance, or cadence changes the admissible use;
 - no QL wording when ordinary quality-bundle, proxy, feedback, or control tuning carries the work.
 
 #### C.25:20b - Architecture-decision Q-Bundle boundary
 
-`C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite Q-Bundles as architecture-characteristic inputs, accepted-loss structure, guardrail rows, feedback concerns, or adequacy concerns. C.25 keeps composite quality-family slots, bearer, scope, measures, mechanisms, qualification window, and evidence distinct from the problem-to-structure architecturing flow, project architecture decision relation, and ADR-like publication projection.
+`C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite exact C.25 quality-claim epistemes or ClaimAddresses as architecture-characteristic inputs, accepted-loss structure, guardrail rows, feedback concerns, or adequacy concerns. C.25 keeps their Q-Bundle claim content, bearer, scope, measures, mechanisms, qualification window, and evidence distinct from the problem-to-structure architecturing flow, project architecture decision relation, and ADR-like publication projection.
 

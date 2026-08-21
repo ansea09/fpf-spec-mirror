@@ -6,12 +6,12 @@ section_id: "F.15:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__003_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:2 — Problem frame"
-line_start: 95133
-line_end: 95146
+line_start: 92524
+line_end: 92537
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,7 +50,7 @@ keywords:
 
 ### F.15:2 - Problem frame
 
-Unification work fails when composition is claimed before locality, subject patternship, and continuity are checked:
+Unification work fails when composition is claimed before local meaning, exact object recovery, and continuity are checked:
 
 1. **Locality leak.** Same spelling is treated as one meaning without comparing exact `<ReferenceScheme, LocalSenseClaim>` projections.
 2. **Row sprawl.** F.17 rows or F.18 NameCards multiply although an existing governed value and admitted naming use already suffice.

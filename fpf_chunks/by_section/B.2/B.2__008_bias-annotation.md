@@ -6,12 +6,12 @@ section_id: "B.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__008_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:6 — Bias-Annotation"
-line_start: 37233
-line_end: 37242
+line_start: 36403
+line_end: 36412
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,8 +46,8 @@ keywords:
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
-| Emergence rhetoric | A gain, surprise, or synergy label declares a new whole. | Run `ExistingWholeExplanationCheck` before B.2. |
-| Record as ontology | Trigger profiles, result fields, or checklist labels become U-kinds. | Keep profile, check, and record as `U.Episteme` values; let `E.24.UK` govern public-kind admission and A.1 govern recognition of the candidate new whole. |
+| Emergence rhetoric | A gain, surprise, or synergy label declares a new whole. | Perform the ordinary existing-whole comparison before B.2. |
+| Record as ontology | Trigger profiles, result fields, or checklist labels become U-kinds. | Keep the trigger profile, optional explanation result, and reidentification record as `U.Episteme` values; keep the ordinary comparison as an action. Let `E.24.UK` handle public-kind admission and A.1 recognize the candidate new whole. |
 | Math as MHT | Graph, RG-like, MSPD, benchmark, scaling, or morphism expression declares whole reidentification. | Use `C.29`; recover holon identity and existing-whole explanation first. |
 | Binary agency | Agency threshold crossing is treated as a root kind or binary status. | Use the direct characteristic-space and threshold patterns; use B.2 only when whole identity changes. |
 | Transformation as containment | A system changes another holon and is treated as its part or containing whole without a separately obtaining part-whole relation. | Use A.12, A.3.4, A.15.1, and the direct crossing relation pattern; apply B.2 only when separately grounded facts make whole reidentification current. |

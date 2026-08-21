@@ -6,16 +6,17 @@ section_id: "D.3:4"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__007_boundaries.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:4 — Boundaries"
-line_start: 68692
-line_end: 68701
+line_start: 65965
+line_end: 65975
 dependencies:
   - "A.1"
   - "A.10"
   - "A.14"
+  - "A.6.RCD"
   - "B.1"
   - "B.3"
   - "C.13"
@@ -30,6 +31,7 @@ dependencies:
   - "D.5"
   - "E.10.ROLE"
   - "E.17"
+  - "E.24.PUB"
 keywords:
 ---
 
@@ -37,9 +39,10 @@ keywords:
 
 | Do this in D.3 | Do not do this in D.3 |
 | --- | --- |
-| State the declared levels or scopes that make the conflict interlevel. | Invent `U.Level`, `U.Frustration`, or `U.Emergence`. |
-| Name affected holons, Systems, epistemes, collections, Methods, actual Work, transformations, evidence, and value concerns. Recover role wording through `E.10.ROLE`, and keep local kind, System-classification judgment, assignment species and occurrence, agency threshold, responsibility, commitment, permission, authority, and participation separate. | Treat a source label such as "society", "organization", "AI", "ecosystem", "role", or "standard" as enough. |
-| Keep conflict structure separate from mediation and decision use. | Choose the compromise, refusal, or override. |
-| Use `C.30.ILC for architecture residuals` when architecture structure is current. | Route every cross-scope architecture problem to ethics. |
-| Use `D.5 for bias, fairness, impact audit, and ethical assurance`. | Rebuild D.5 inside the conflict map. |
+| Derive the declared levels and scopes from the case. | Invent `U.Level`, `U.Frustration`, `U.Emergence`, or a fixed moral ladder. |
+| Connect every side's claim, affected entity, scope, value frame, consequence, and horizon. | Present flat bags of entities, values, evidence, and relations as if their connections were obvious. |
+| Keep the conflict description, the situation it describes, and its narrative, table, graph, form, carrier, and publication separate. | Treat a file or diagram as the conflict, or treat description content as proof that a direct relation obtains. |
+| Add Method, Work, assignment, classification, evidence use, agency, responsibility, publication, assurance, causal, or architecture detail only when current. | Require assurance-like apparatus before the first useful map exists. |
+| Stop at an inspectable tension and next-use question. | Choose the compromise, refusal, override, or accepted residual; those are D.4 uses. |
+| Use `C.30.ILC` when an architecture residual is also current. | Route every cross-scope architecture problem to ethics. |
 

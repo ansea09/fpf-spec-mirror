@@ -6,16 +6,21 @@ section_id: "B.4:End"
 section_title: "B.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__014_b-4-end.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:End — B.4:End"
-line_start: 39779
-line_end: 39780
+line_start: 38639
+line_end: 38640
 dependencies:
   - "A.12"
+  - "A.15.1"
   - "A.4"
+  - "B.3"
+  - "B.4"
   - "B.4.1"
+  - "B.5"
+  - "B.5.1"
 keywords:
   - "DesignRunTag feedback"
   - "drift repair"

@@ -6,12 +6,12 @@ section_id: "A.2.9:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__008_archetypal-grounding-tell-show-show.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 7214
-line_end: 7289
+line_start: 7253
+line_end: 7328
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,8 +51,8 @@ When governance or gating depends on “someone said or did X”, identify that 
 **Conformant modeling sketch.** The first line names the actual communicative Work. The record then states claims about that occurrence; the assignment, Method, recognition classification, policy and grant must each obtain independently.
 
 * Actual occurrence: `SA-Approve-4711 : U.SpeechAct`.
-* Performer and assignment: `ChangeControlApproverAssignment` is a declared `U.SystemRoleAssignment` species. It defines the holder and assigned-kind participant meanings, predicate, applicability, and occurrence identity. Occurrence `CAB_Chair_A_ApproverAssignment_2026` has admitted System `CAB_Chair_A` as holder, `ApproverSystemRole` as assigned-kind value, and an extent covering the act. `CAB_Chair_A` performs `SA-Approve-4711` under that assignment. Taxonomy `ChangeControlSystemRoles_v3` and `ChangeControlReferenceScheme_2026` interpret the assertion rather than becoming assignment participants. The assignment grounds attribution; it does not act or confer authority by form.
-* Actual method relation: `enactsMethod(SA-Approve-4711, ChangeApprovalMethod_v3)` independently obtains, with `ChangeApprovalMethod_v3 : U.Method`.
+* Performer and assignment: `ChangeControlApproverAssignment` is a declared `U.SystemRoleAssignment` species. Under A.2.1 it declares the ordered holder and assigned-kind positions, their domains `U.System` and `ChangeControlApproverSystemRoleKindDomain`, its direct predicate and applicability, and its occurrence-identity rule. Occurrence `CAB_Chair_A_ApproverAssignment_2026` has admitted System `CAB_Chair_A` as holder, `ApproverSystemRole` as the assigned-kind value admitted by that domain, and an extent covering the act. `CAB_Chair_A` performs `SA-Approve-4711` under that assignment. Taxonomy `ChangeControlSystemRoles_v3` and `ChangeControlReferenceScheme_2026` interpret the assertion rather than becoming assignment participants. The assignment grounds attribution; it does not act or confer authority by form.
+* Actual Method and containing-system relations: `enactsMethod(SA-Approve-4711, ChangeApprovalMethod_v3)` independently obtains, with `ChangeApprovalMethod_v3 : U.Method`. `ChangeControlWorkBoundaryRelations` declares `ApprovalWorkOccursWithinBoardBoundary(work, system)` for the board-system delimitation and act window; occurrence `ApprovalWorkWithinBoardBoundary-4711` obtains for `SA-Approve-4711` and `ChangeControlBoardSystem`.
 * `SA-Approve-4711-Record : SpeechActRecord` states:
   * `speechActOccurrenceRef = SpeechActRef(SA-Approve-4711)`;
   * `performedBy = U.EntityRef(CAB_Chair_A)`;
@@ -64,10 +64,10 @@ When governance or gating depends on “someone said or did X”, identify that 
   * `policyOrProcedureRef = EpistemeRef(ChangeControlApprovalPolicy_v3)`, current for this approval and grant use;
   * `channelRef = U.EntityRef(CAB_TicketChannel)`;
   * `actTypes = {SpeechActTypeRef(Approval)}` under that taxonomy and scheme;
-  * `reliancePosture = relianceReady`, `executedWithin = ChangeControlBoardSystem`, and `window = [2026-06-12T10:03Z, 2026-06-12T10:04Z]`;
+  * `reliancePosture = relianceReady`, `workContainmentRelationRefs = {U.RelationRef(ApprovalWorkWithinBoardBoundary-4711)}`, and `window = [2026-06-12T10:03Z, 2026-06-12T10:04Z]`;
   * `utteranceSubjectRefs = {ChangeRequestId(4711)}`;
   * `institutionalTargetRefs = {GrantedPermissionRelationRef@Context(PER-Deploy-4711)}`;
-  * `utteranceRefs = {EpistemeRef(ChangeTicket#4711)}` and `carrierRefs = {CarrierRef(TicketSystemRecord#4711)}`;
+  * `utteranceDescriptionLocators = {U.EpistemeRef(ChangeTicket#4711)}` and `carrierRefs = {CarrierRef(TicketSystemRecord#4711)}`;
   * `institutes.permissions = {GrantedPermissionRelationRef@Context(PER-Deploy-4711)}`.
 
 `PER-Deploy-4711 : GrantedPermissionRelation@Context` obtains separately under A.2.8.PER:
@@ -93,9 +93,9 @@ This case retains kind versus occurrence versus record, utterance versus carrier
 **Situation (anti-pattern):**
 “The interface spec declares MUST/SHALL requirements.”
 
-**Conformant modeling sketch.** `SA-Publish-API-v12 : U.SpeechAct` is the act. `StandardsPublicationAssignment` is a declared `U.SystemRoleAssignment` species; it defines the holder and assigned-kind participant meanings and uses `PublisherSystemRole` as the local assigned-kind domain. Occurrence `StandardsEditor_A_PublisherAssignment_v12` has admitted System `StandardsEditor_A` as holder, `PublisherSystemRole` as assigned-kind value, and an extent covering the act. `StandardsEditor_A` performs the act under that assignment. Taxonomy `StandardsSystemRoles_v12` and `APISpecReferenceScheme_v12` interpret the assertion but are not assignment participants. The Work enacts Method `SpecPublicationMethod_v12`; `SpecReleaseProcedure_v12` is only a separate description of that Method.
+**Conformant modeling sketch.** `SA-Publish-API-v12 : U.SpeechAct` is the act. `StandardsPublicationAssignment` is a declared `U.SystemRoleAssignment` species. Under A.2.1 it declares the ordered holder and assigned-kind positions, their domains `U.System` and `PublisherSystemRoleKindDomain`, its direct predicate and applicability, and its occurrence-identity rule. Occurrence `StandardsEditor_A_PublisherAssignment_v12` has admitted System `StandardsEditor_A` as holder, `PublisherSystemRole` as the assigned-kind value admitted by that domain, and an extent covering the act. `StandardsEditor_A` performs the act under that assignment. Taxonomy `StandardsSystemRoles_v12` and `APISpecReferenceScheme_v12` interpret the assertion but are not assignment participants. The Work enacts Method `SpecPublicationMethod_v12`; `SpecReleaseProcedure_v12` is only a separate description of that Method.
 
-`SA-Publish-API-v12-Record : SpeechActRecord` states:
+`SpecPublicationWorkBoundaryRelations` declares `PublicationWorkOccursWithinSpecSystemBoundary(work, system)` for the publication-system delimitation and act window; occurrence `PublicationWorkWithinSpecSystemBoundary-v12` obtains for `SA-Publish-API-v12` and `SpecPublicationSystem`. `SA-Publish-API-v12-Record : SpeechActRecord` states:
 
 * `speechActOccurrenceRef = SpeechActRef(SA-Publish-API-v12)`;
 * `performedBy = U.EntityRef(StandardsEditor_A)` and `performedUnderSystemRoleAssignmentRef = U.RelationRef(StandardsEditor_A_PublisherAssignment_v12)`;
@@ -103,8 +103,8 @@ This case retains kind versus occurrence versus record, utterance versus carrier
 * `recognitionTaxonomyRef = EpistemeRef(APISpecSpeechActTaxonomy_v12)` and `effectiveReferenceScheme = APISpecReferenceScheme_v12`;
 * `policyOrProcedureRef = EpistemeRef(APISpecPublicationPolicy_v12)` and optional `channelRef = U.EntityRef(StandardsReleaseChannel)`;
 * `actTypes = {SpeechActTypeRef(Publish), SpeechActTypeRef(DeclareNorms)}` under that taxonomy and scheme;
-* `reliancePosture = relianceReady`, `executedWithin = SpecPublicationSystem`, and `window = [2026-06-14T09:00Z, 2026-06-14T09:06Z]`;
-* `utteranceSubjectRefs = {EpistemeRef(APISpec_v12)}`, `institutionalTargetRefs = {EpistemeRef(APISpec_v12)}`, `utteranceRefs = {EpistemeRef(APISpec_v12)}`, and `carrierRefs = {CarrierRef(GitTag:v12), CarrierRef(SignedReleaseArtifact:v12)}`;
+* `reliancePosture = relianceReady`, `workContainmentRelationRefs = {U.RelationRef(PublicationWorkWithinSpecSystemBoundary-v12)}`, and `window = [2026-06-14T09:00Z, 2026-06-14T09:06Z]`;
+* `utteranceSubjectRefs = {EpistemeRef(APISpec_v12)}`, `institutionalTargetRefs = {EpistemeRef(APISpec_v12)}`, `utteranceDescriptionLocators = {U.EpistemeRef(APISpec_v12)}`, and `carrierRefs = {CarrierRef(GitTag:v12), CarrierRef(SignedReleaseArtifact:v12)}`;
 * `institutes.publicationRelations = {EpistemePublicationRelationRef(APISpec-v12-Publication)}`.
 
 `APISpec-v12-Publication : EpistemePublicationRelation` separately names the selected `APISpec_v12` edition, audience declaration, bounded-use declaration, publication form, exact carrier, availability interval and governing publication conditions under E.24.PUB. It obtains only while that exact edition remains available under those conditions. Its interval need not equal the six-minute publishing act. The same episteme can be both utterance subject and publication object without those relations becoming identical.

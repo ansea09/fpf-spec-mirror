@@ -6,12 +6,12 @@ section_id: "D.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__011_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:7 — Conformance Checklist"
-line_start: 69073
-line_end: 69081
+line_start: 66375
+line_end: 66383
 dependencies:
   - "A.10"
   - "B.3"
@@ -34,5 +34,5 @@ keywords:
 | CC-D5-1 | The audited EntityOfConcern, intended use, any affected populations or Systems, bias, fairness, impact, or ethical claim, evidence, assurance use when current, repair return, and admissible use are named. ClaimScope and qualification window are explicit when they delimit the audit. | Keeps audit scope inspectable. |
 | CC-D5-2 | Metric, causal fairness, evidence, assurance, publication, and architecture-residual claims use their direct owners. | Prevents D.5 from swallowing neighboring patterns. |
 | CC-D5-3 | Ethical assurance is recorded as assurance or evidence relation, not moral permission. | Keeps assurance from becoming ethical authorization. |
-| CC-D5-4 | If the audit exposes interlevel conflict, D.3 and D.4 become the owners for conflict structure and decision use. | Keeps D.5 connected to the D cluster without replacing it. |
+| CC-D5-4 | If the audit exposes interlevel conflict, use D.3 for the conflict description and D.4 for mediation or decision use. | Keeps D.5 connected to the D cluster without replacing it. |
 

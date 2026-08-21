@@ -6,12 +6,12 @@ section_id: "F.9:17"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__019_acceptance-tests.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:17 — Acceptance tests"
-line_start: 93334
-line_end: 93363
+line_start: 90725
+line_end: 90754
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -63,7 +63,7 @@ keywords:
 * **SCR-F9-S03 (Profile boundary).** The profile contains only kind, symmetry or orientation, endpoint readings, relation condition, applicability and as-of basis, Boolean truth condition, and stop dependencies.
 * **SCR-F9-S04 (Obtaining).** Current endpoint facts satisfy the exact profile and all required dependencies are present. Scheme difference, spelling, implementation, evidence score, card, registry, or publication alone fails this test.
 * **SCR-F9-S05 (Separate bounded use).** Every use claim identifies exact Bridge `b`, names `u`, `d`, `r`, `t`, polarity, and an effective ReferenceScheme under C.2.1.
-* **SCR-F9-S06 (Reliance branch).** The same bounded use has either the exact A.10 relation plus a passing local disposition, or the exact B.3 positive-claim or non-positive branch required by its trigger.
+* **SCR-F9-S06 (Reliance branch).** The same bounded use has the exact A.10 relation plus a passing local disposition or, when an actual named assurance claim is current, its exact B.3 `AssuranceResult`; only `supported-for-use` supports the attempted assurance use, while `narrowed` supports only its stated narrower use.
 * **SCR-F9-S07 (No authorization overread).** Semantic fit, A.10 reliance, and B.3 assurance are not described as legal, policy, or deontic permission.
 * **SCR-F9-S08 (Receiving-object boundary).** A named proposed use is never treated as performed Work, assertion, publication, relation, or operation application.
 * **SCR-F9-S09 (Card truthfulness).** An actual card concerns an already individuated occurrence; a candidate or negative card concerns the admitted relation kind and has no positive occurrence ref.
@@ -76,11 +76,11 @@ keywords:
 
 * **RSCR-F9-E01 (Same Bridge, changed use).** Reversing direction, changing the use rule, or changing tolerance reidentifies the C.2.1 claim, not the Bridge.
 * **RSCR-F9-E02 (Same claim, changed evidence).** Stale or stronger evidence changes the A.10 relation or disposition, or the B.3 branch, without reidentifying the fixed claim.
-* **RSCR-F9-E03 (Threshold without positive assurance).** Meeting the B.3 threshold can yield a required record and explicit no-assurance or insufficient-record disposition; it does not manufacture a positive assurance claim.
+* **RSCR-F9-E03 (Required but missing assurance claim).** If a direct domain rule requires an assurance claim and none is current, return `RelianceDisposition=assurance-needed` or block the use. Do not manufacture a positive claim or a generic safety-case record.
 * **RSCR-F9-E04 (Profile change).** A changed relation condition or endpoint reading identifies another profile and occurrence candidate.
 * **RSCR-F9-E05 (Packaging change).** A changed card, registry entry, publication, form, or carrier leaves the Bridge and fixed bounded-use claim unchanged unless their own discriminators changed.
 * **RSCR-F9-E06 (Positive proposal versus occurrence).** An affirmative claim with passing reliance proves no comparison Work, assertion, publication, direct relation, or operation application.
 * **RSCR-F9-E07 (Polarity versus reliance).** Negative claim polarity and a non-passing reliance disposition remain different facts.
-* **RSCR-F9-E08 (Reliance versus authorization).** Passing A.10 reliance or positive B.3 assurance does not imply permission.
+* **RSCR-F9-E08 (Reliance versus authorization).** A.10 `pass` or B.3 `supported-for-use` does not imply permission.
 * **RSCR-F9-E09 (No inverse or composition).** Neither an asymmetric inverse nor a direct A-to-C Bridge follows without its own profile and obtaining test.
 

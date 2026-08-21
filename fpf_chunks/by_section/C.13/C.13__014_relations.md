@@ -6,12 +6,12 @@ section_id: "C.13:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__014_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:10 — Relations"
-line_start: 47041
-line_end: 47071
+line_start: 45828
+line_end: 45858
 dependencies:
   - "A.1"
   - "A.14"
@@ -36,7 +36,7 @@ keywords:
 
 **Coordinates with**
 
-- **B.3.5.** Governs the required trace link and validation mode for a published structural Working-Model edge. Its publication and assurance apparatus does not create the construction or decide whole identity.
+- **B.3.5.** Governs the required trace link and validation mode only for a structural Working-Model edge covered by an elected profile or named current requirement. Its publication and assurance apparatus does not create the construction or decide whole identity.
 - **A.1 and B.2.** A.1 consumes constructive assembly as one component of holon recognition; B.2 consumes exact construction and direct reidentification facts when the question is whether the existing whole continues or a new whole must be identified. C.13 decides neither public-kind recognition nor whole reidentification.
 - **B.1.5 and direct method-composition patterns.** Supply exact submethods, whole-forming relations, constraints, and whole-method reidentification before a method construction is narrated.
 - **A.15 and direct work-mereology patterns.** Supply exact work parts and whole-forming relations before a dated work construction is narrated.

@@ -6,12 +6,12 @@ section_id: "A.7.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:4 — Solution"
-line_start: 21862
-line_end: 21912
+line_start: 21307
+line_end: 21357
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -32,7 +32,7 @@ keywords:
 
 #### A.7.1:4.1 - Retain the complete application boundary
 
-This A.7.1 description narrows the method claims stated by `C.19.2` for consequence-guided ontology analysis. When applying A.7.1, retain the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, and separation among Method, reader, performer System, the F.6 attribution, Work, and result, as well as the positive stop and reopen rule. A short result may omit an assignment identifier that no later claim uses. This is description-level claim reuse; it adds no relation occurrence between the described Methods.
+This A.7.1 `U.MethodDescription` episteme narrows the method claims stated by `C.19.2` for consequence-guided ontology analysis. When applying A.7.1, retain the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, and separation among the MethodDescription episteme, described Method, reader, performing System, separately declared assignment species, actual assignment occurrence, obtaining F.6 attribution, dated Work, and result, as well as the positive stop and reopen rule. A short result may omit an assignment identifier that no later claim uses without denying an otherwise established assignment or attribution. This is description-level claim reuse; it adds no relation occurrence between the described Methods.
 
 The normal short path uses the already selected A.7.1 analysis method as its one current apparatus. It begins from one exact engineering subject, exact subject predicate, and the pattern description locating that predicate; subject and predicate are inputs and constraints, not apparatus candidates. Use `C.18` only when the team must generate or reframe alternative analysis methods, models, formalisms, or other direct-kind apparatuses for the same declared use. Use `C.11` only when two or more already-available apparatuses are eligible for that same use and guarantee, making a real local-choice question current. After selection, use the planning Method described in `A.15.2` and identify dated Work under the predicate defined in `A.15.1`; `C.24` enters only for tool-call enactment planning.
 
@@ -77,5 +77,5 @@ Create a durable ontology result only when reuse, dispute, high consequence, aut
 
 Reopen on a consequential counterexample, changed guarantee, failed use, projection loss, changed occurrence identity, or a newly admitted subject-pattern distinction. Reopen only the affected engineering and ontology decisions.
 
-A short domain/wording/typed-account/constructive-ground presentation may be kept as a `ProvisionalUnfoldingDemonstrationDescription@Context`. It is a teaching episteme, not an admitted CGUS, method, plan, work occurrence, or result. A reusable structure requires the full `A.22.CGUS` admission coordinates.
+A short domain, wording, typed-account, or constructive-ground presentation may remain an ordinary explanation or, when persistence matters, a C.2.1 episteme about the question and proposed alternatives. It is not a CGUS, method, plan, Work occurrence, or result. A reusable CGUS requires one identified A.22 structure, local locus bindings, selected relations and applied constraints, and at least two potential continuations; its present-case continuation results remain separate.
 

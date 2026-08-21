@@ -1,42 +1,37 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.20"
-pattern_title: "Flow Constraint Validity — Eulerian"
+pattern_title: "Constraint Validity for Transformation Steps"
 section_id: "A.20:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__003_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.20 — Flow Constraint Validity — Eulerian"
+  - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:1 — Problem frame"
-line_start: 33512
-line_end: 33515
+line_start: 33034
+line_end: 33039
 dependencies:
-  - "A.19.SelectorMechanism"
+  - "A.10"
+  - "A.15"
   - "A.21"
-  - "C.18"
-  - "C.19"
+  - "A.6.1"
+  - "A.6.4"
+  - "B.3"
+  - "C.2.1"
+  - "C.27"
   - "E.17"
   - "E.18"
-  - "F.17"
+  - "E.20"
   - "F.9"
   - "G.11"
-  - "G.5"
-  - "G.6"
 keywords:
-  - "ConstraintValidity"
-  - "Eulerian"
-  - "GateFit"
-  - "MVPK"
-  - "PathSlice"
-  - "Sentinel"
-  - "SquareLaw"
-  - "TransformationFlowStructure"
-  - "flow"
 ---
 
 ### A.20:1 - Problem frame
 
-In `E.18`, transformation-flow loci are graph-positioned loci for atomic `U.Transformation` values and transformation-adjacent governed slot fillers, and the graph uses a *single edge kind* (`U.Transfer`). A locus relation may be expressed as a morphism only when the mathematical lens is current; that lens is not the locus kind. **GateFit** checks aggregate only in `OperationalGate(profile)` with the activation predicate **CV => GF**: until aggregated **`CV.Status=pass`**, all **GateFit** checks return **abstain**. Equivalently, while **`CV.Status != pass`**, any GateFit-oriented explanation **does not apply**. To keep flows comparable and auditable, this pattern delimits **internal step constraints** (CV) from **external gate fit** (GF), preventing any second process order beside the graph.
+An E.18 transformation-flow structure may place a transformation beside signatures, mechanism descriptions, work-planning material, Work, checks, and retargeting material. Those neighboring values do not all have the same internal constraints.
+
+A.20 addresses a narrower question: one identified subject is tested against one identified constraint under stated assumptions and case facts. The result may later be used by a gate or assurance argument, but it is not itself a gate decision or policy consequence.
 

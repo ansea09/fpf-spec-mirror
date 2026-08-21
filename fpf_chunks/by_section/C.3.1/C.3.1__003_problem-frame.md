@@ -6,12 +6,12 @@ section_id: "C.3.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__003_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:1 — Problem Frame"
-line_start: 44716
-line_end: 44719
+line_start: 43499
+line_end: 43504
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,5 +44,7 @@ keywords:
 
 ### C.3.1:1 - Problem Frame
 
-FPF needs kind compatibility without making every project category part of its durable ontology. `U.Kind` therefore supplies a typed-reasoning value identified by an explicit local practice or source boundary together with a stable subject distinction, and `U.SubkindOf` orders those values. The effective reference scheme is claim content of the aligned `KindSignature` editions and qualifies interpretation of the order; it is not stored on either kind. A `KindSignature` edition can declare how one kind is evaluated, but the declaration episteme is not the kind. Candidate state, a context slice, a declaration edition, and the kind's own continuity can change independently.
+A practice/source boundary is provenance and a comparison cue. It affects the continuity decision only when comparison exposes a real difference in the candidate domain or membership distinction.
+
+`U.SubkindOf` is separately admitted by `E24UK-AR-USUBKINDOF-R5-01` as a same-individual dependent kind under `U.Relation`. Its participants are an exact narrower kind and broader kind. An effective reference scheme and aligned `KindSignature` editions make the criteria interpretable and qualify applicability; they are not relation participants or occurrence-identity discriminators. Candidate state, context slice, declaration edition, kind identity, and one obtaining subkind relation can therefore change for different reasons.
 

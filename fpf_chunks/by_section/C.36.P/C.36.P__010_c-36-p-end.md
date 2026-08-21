@@ -6,18 +6,20 @@ section_id: "C.36.P:End"
 section_title: "C.36.P:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__010_c-36-p-end.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:End — C.36.P:End"
-line_start: 68309
-line_end: 68312
+line_start: 65541
+line_end: 65544
 dependencies:
   - "A.1"
+  - "A.1.1"
   - "A.15"
   - "A.3.1"
   - "A.3.2"
   - "A.3.3"
+  - "A.6.RCD"
   - "B.2"
   - "B.2.2"
   - "B.2.3"
@@ -41,6 +43,7 @@ dependencies:
   - "D.4"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "E.18.1"
   - "F.17"

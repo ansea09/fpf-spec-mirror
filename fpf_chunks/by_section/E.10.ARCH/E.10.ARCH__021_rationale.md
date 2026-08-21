@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__021_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:13 — Rationale"
-line_start: 76256
-line_end: 76271
+line_start: 73536
+line_end: 73551
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.10.MOVE"
   - "E.11"
   - "E.18"
   - "E.19"
@@ -71,12 +71,12 @@ This distribution is selected because the recurring failure is not "too few word
 
 #### E.10.ARCH:13.1 - SoTA-Echoing
 
-| Source or practice line | Source-use function or relation | What the line changes in `E.10.ARCH` |
+| Recoverable source or practice line | Decision and effect in `E.10.ARCH` | Limit or reopen boundary |
 | --- | --- | --- |
-| Current FPF distribution: `E.10`, `E.10.ARCH`, `E.4.DPF`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `F.18`, `F.19`, `E.8`, `E.19`, `E.11`, and `I.2`. | Current FPF-internal architecture source line for the selected distribution. | Keeps `E.10` compact, puts the shared recovery algorithm in `E.10.ARCH`, uses the recurring-problem entry condition defined in `E.4.DPF` for DPF-local application, assigns relation, source-relation, architecture, stratification-source-label, characteristic, quality, state-family, function-like, naming, entry-distribution, and expanded entry-disambiguation cases to realization or subject patterns named by value, and gives `E.19` a distribution-preservation check. |
-| Pattern-language locality and FPF primary-EntityOfConcern discipline in `E.8` and `E.19`. | Current FPF authoring and review source line; not an external standard imported as ontology. | Forces thin subject-pattern pointers and blocks local wording-recognition-table copies inside patterns of concern whose real work is architecture, structure, characteristic, quality, evidence, gate, work, decision, state-family precision, or release. |
-| Terminology and controlled-vocabulary practice named in `E.10:11a` only where it concerns designations, labels, discoverability, and controlled vocabulary publication. | Current-standard and reference-use source line; it does not define FPF kind ontology. | Provides explicit recovered heads and reusable-name discipline, but rejects a central word list or controlled vocabulary as the solution to every wording-use repair. |
-| Current subject-pattern coverage in FPF. | Applicability boundary for this architecture, not evidence that E.10.ARCH settles every wording-use case. | Uses the existing rule when it already defines, constrains, or tests the EntityOfConcern under repair, relation, claim, or local field; reopens E.10.ARCH only when the shared distribution rule itself no longer fits. |
+| FPF August 2026 edition distribution: `E.10`, `E.10.ARCH`, `E.10.MOVE`, `E.4.DPF`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `F.18`, `F.19`, `E.8`, `E.19`, `E.11`, and `I.2`. | **Adopt as the internal architecture basis.** Keep local recognition in `E.10`, the shared recovery algorithm here, DPF-local entry in `E.4.DPF`, and each stable subject family in the named realization or subject pattern. | This internal distribution is not external SoTA evidence. Reopen it when a named pattern changes its contribution or the shared recovery split no longer fits. |
+| FPF August 2026 `E.8` and `E.19` rules for pattern locality and the primary `EntityOfConcern`. | **Adopt as the internal authoring and review basis.** Keep subject-pattern references thin and keep copied trigger tables out of patterns whose practical concern is architecture, structure, characteristic, quality, evidence, gate, work, decision, state-family precision, or release. | These internal rules do not supply a terminology ontology or an external practice claim. |
+| `E.10:18` external-practice row for Miles and Bechhofer (eds.), *SKOS Simple Knowledge Organization System Reference*, W3C Recommendation, 18 August 2009. | **Adapt narrowly.** Use SKOS for controlled-vocabulary publication, designations, labels, and label relations when those are the actual objects; use F.18 and the relevant subject pattern for reusable FPF names and claims. | This stable reference is not the current-best answer to every wording repair and does not define FPF kinds. Reject a central word list or controlled vocabulary as the universal solution. |
+| FPF August 2026 subject-pattern coverage named in `E.10.ARCH:4` and `E.10.ARCH:14`. | **Adopt as the applicability boundary.** Use the existing pattern when it already defines, constrains, or tests the object, relation, claim, or local field being repaired. | Existing coverage does not prove that this architecture settles every wording-use case; reopen it only when the shared distribution rule itself no longer fits. |
 
 The selected architecture is lowered or reopened when one of those source lines changes: if `E.10` can close the issue locally, if a new subject pattern removes the need for a restoration row, if a realization pattern needs a different stable field set, or if subject patterns again start carrying duplicated first-stage trigger registries.
 

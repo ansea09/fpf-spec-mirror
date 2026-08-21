@@ -6,12 +6,12 @@ section_id: "A.15.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:intro — Intro"
-line_start: 25947
-line_end: 25966
+line_start: 25391
+line_end: 25410
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,9 +55,9 @@ keywords:
 
 **Use this when.** Use this pattern when a team is about to commit, release, launch, or admit intended work and needs to know whether the needed inputs, currentness refs, publication refs, resources, planned fillers, constraints, and gate conditions are ready enough for that work entry.
 
-**Primary EntityOfConcern.** One exact intended performance designated inside one exact `U.WorkPlan` and `PlanItem`, together with the work-entry readiness claim currently being made about it. Preserve the plan's exact intended-work kind or work-family classification when that distinction is current; it remains plan content and does not instantiate a dated `U.Work`. The plan names the target `U.Method`; cite a separately constituted `U.MethodDescription` episteme only when the readiness criterion or planned use relies on that exact description edition. The intended-performance designator, intended-work kind, plan, method, and description are not a dated target `U.Work` occurrence.
+**Primary EntityOfConcern.** The persisted readiness result is one C.2.1 episteme whose exact EntityOfConcern is the `U.WorkPlan` being judged. Its ClaimGraph designates the relevant `PlanItem`, intended performance, criterion, evaluated facts, verdict, and applicability window. Preserve the plan's exact intended-work kind or work-family classification when that distinction is current; it remains ClaimGraph content and does not instantiate a dated `U.Work`. The plan names the target `U.Method`; cite a separately constituted `U.MethodDescription` episteme only when the readiness criterion or planned use relies on that exact description edition. The intended-performance designator, intended-work kind, plan item, method, and description are not a dated target `U.Work` occurrence.
 
-**First output.** One readable work-entry readiness result naming the exact WorkPlan, PlanItem and intended performance; criterion; checking Work; local readiness value; every input proposition and qualification interval used; reliance window; and stop or recheck condition. Planned fillings, resources, assignments, commitments, current permission facts, gate decisions, provenance, and assurance remain separately governed inputs or neighboring claims; they are not bundled into the readiness result's identity.
+**First output.** One readable work-entry readiness result naming the WorkPlan, PlanItem and intended performance; criterion; checking Work; local readiness value; every input proposition and qualification interval used; reliance window; and stop or recheck condition. Planned fillings, resources, assignments, commitments, current permission facts, gate decisions, provenance, and assurance remain inputs or neighboring claims defined and tested separately; they are not bundled into the readiness result's identity.
 
 **Ordinary route.** Name the exact WorkPlan, PlanItem, intended performance, any current intended-work kind, criterion, and evaluation time. Perform and identify the checking Work when the check actually occurs; apply the criterion only to its named current inputs; return `ready`, `readyWithKnownGaps`, `notReady`, or `unknown` with the reliance window and stop or recheck condition. Stop there unless a separate receiver actually needs a persisted result episteme, gate decision, permission result, performed target Work, provenance path, or assurance claim.
 

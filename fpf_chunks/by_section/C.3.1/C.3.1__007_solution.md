@@ -6,12 +6,12 @@ section_id: "C.3.1:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__007_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:5 — Solution"
-line_start: 44754
-line_end: 44765
+line_start: 43540
+line_end: 43551
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,13 +44,13 @@ keywords:
 
 ### C.3.1:5 - Solution
 
-1. **Bound the typed-reasoning use.** Name the local practice or source boundary, stable subject distinction, local kind values, exact effective `U.ReferenceScheme` edition in the aligned `KindSignature`s, and applicability in which the order is asserted. Do not infer a public `U.*` name or store the scheme on either kind.
-2. **State the direct order relation.** Use `U.SubkindOf` only for an obtaining relation whose narrower-kind and broader-kind participants satisfy `SubkindOfObtains` under that scheme. Keep the predicate, any `R_sub` occurrence designator, and any C.2.1 assertion episteme separate.
-3. **Keep a partial order over obtaining facts.** Reflexivity, transitivity, and antisymmetry constrain the obtaining `U.SubkindOf` relations among local kind values; they do not make a diagram edge or affirmative assertion true by form.
-4. **Test the obtaining predicate over judgments.** For the aligned signature editions, if both C.3.2 judgments are defined for the same candidate and context slice and the judgment for `k1` is `true`, then the judgment for `k2` must be `true`. A universal proof or adequate domain basis establishes the implication; `unknown` remains non-settlement.
-5. **Diagnose counterexamples against the actual rules.** Use C.3.2 judgments to test the proposed `U.SubkindOf` relation and C.3.3 when a relation across local boundaries is needed. A counterexample indicates that the proposed relation does not obtain, that the signature editions are incompatible, or that a required cross-local relation is undeclared. Do not repair it by silently adding or deleting a row in `KindExtension`.
-6. **Separate signature change from kind continuity.** A changed criterion, evaluation domain, `EntityOfConcern` referent, or effective reference scheme creates another `U.Signature` episteme edition under A.6.0 and C.2.1. Apply the C.3.1 continuity test independently to determine whether the same local kind continues.
-7. **Record the continuity consequence.** If both the explicit local practice or source boundary and the stable subject distinction are preserved, the same kind may continue while every classification still cites the edition actually used; the new edition does not retroactively rewrite old judgments. If either identity component is not preserved, identify a different local kind and state any genuinely obtaining `U.SubkindOf` relation or C.3.3 bridge separately.
-8. **Do not infer change from the extension alone.** A changed candidate state or later `U.ContextSlice` can change `KindExtension(k, slice)` without changing the signature, kind, or a still-obtaining subkind relation.
-9. **Keep scope and Work outside the kind.** A kind carries no claim scope. `U.Work` is the admitted U-kind, whereas `W : U.Work` is one independently grounded, world-side, dated 4D work occurrence; a plan, log, card, or row about W is a separate episteme and does not establish either W or a local subkind classification.
+1. **Recover each kind before comparing it.** For each kind, state the candidate domain, membership condition, intended member/non-member contrast, and continuity rule. Use practice/source provenance to locate the declaration, not to decide identity.
+2. **Check admissibility first.** Compare only candidates admissible under both aligned declarations and the stated applicability. `not-applicable` forms no C.3.2 judgment.
+3. **Select one obtaining branch.** Use exact criterion entailment when the membership rules can be compared directly. Use exhaustive evaluation only for a deliberately closed finite domain. State which branch and where it applies.
+4. **Keep observations in their proper role.** A non-exhaustive sample, test run, or extension can support the subkind assertion and expose a counterexample. It cannot close an open-domain obtaining claim.
+5. **Keep a preorder over obtaining facts.** Reflexivity and transitivity apply. Mutual facts between distinct kinds record classification equivalence for that alignment; they do not imply kind identity. Use the equivalence groups only when a receiver needs a partial order.
+6. **Separate relation, predicate, and assertion.** Use the readable relation sentence first. Add `R_sub`, a C.2.1 assertion, evidence, or publication only when a named receiver consumes that object.
+7. **Diagnose counterexamples at the rule.** Repair a false relation proposal, incompatible declaration alignment, or missing distinct-kind bridge. Do not edit an extension row to make the order appear true.
+8. **Decide kind continuity independently.** Apply the before/after test in section 6 whenever criterion, candidate domain, assumptions, dependencies, effective scheme, or locality changes. Another `KindSignature` edition neither proves nor denies kind continuity.
+9. **Keep scope and Work outside the kind.** A kind carries no claim scope. An exact `W : U.Work` remains a dated work occurrence under its direct pattern; a plan, log, label, or classification record is a separate episteme.
 

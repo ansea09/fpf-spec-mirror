@@ -6,12 +6,12 @@ section_id: "E.17.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:1 — Problem frame"
-line_start: 79512
-line_end: 79529
+line_start: 76872
+line_end: 76889
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -40,7 +40,7 @@ Those uses involve different objects and relations:
 4. an obtaining `EpistemeViewpointConformanceRelation` occurrence;
 5. dependent `U.View` membership of the same episteme individual;
 6. an optional A.6.3 viewing relation recording how one episteme was constructed from another;
-7. a viewpoint selected for one current describing use;
+7. an optional viewpoint selected for one current describing use when it changes what that use reads or checks or may conclude;
 8. exact correspondence relations and epistemes that assert or describe them;
 9. publication occurrences, forms, carriers, and representations.
 

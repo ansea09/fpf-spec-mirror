@@ -6,12 +6,12 @@ section_id: "E.18.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__003_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:1 — Problem Frame"
-line_start: 85110
-line_end: 85113
+line_start: 82422
+line_end: 82425
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,11 +36,10 @@ dependencies:
   - "E.23"
   - "G.11"
   - "G.5"
-  - "U.Transfer"
 keywords:
 ---
 
 ### E.18.3:1 - Problem Frame
 
-`E.18` already gives FPF a rich language for transformation-flow structure: transfers, dependencies, paths, crossings, guards, valuations, publication faces, comparability, slice-local refresh, and structure-positioned slot fillings. `A.22.CGUS` gives the broader A.22 specialization of `U.Structure` for constraint-governed unfolding structures. A practitioner needs the narrow bridge between them: when is an unfolding structure a transformation-flow unfolding structure, and which independently identified neighboring values or neighboring claims already shown to obtain connect to its positions? When replay or a stronger claim needs the basis, keep any cited definition, constraint, predicate, test, evidence rule, or assurance rule distinct from the current facts or evidence that satisfy it. A Method instead contributes a reusable way of doing and its applicability or bounds; a MethodDescription may state that content, but neither supplies a truth, evidence, or assurance criterion merely by being cited.
+`E.18` already gives FPF a rich language for transformation-flow structure: transfers, dependencies, paths, crossings, guards, valuations, publication faces, comparability, slice-local refresh, and structure-position bindings. `A.22.CGUS` supplies the broader constraint-governed structure. E.18.3 answers the narrow question: when does that CGUS use one E.18 substrate's positions, bindings, and obtaining occurrences in its potential continuation topology? Current continuation results and neighboring stronger claims remain separately testable.
 

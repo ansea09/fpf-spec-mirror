@@ -6,24 +6,31 @@ section_id: "C.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:4 — Solution"
-line_start: 43487
-line_end: 43522
+line_start: 42245
+line_end: 42281
 dependencies:
+  - "A.15"
+  - "A.15.1"
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.16.2"
   - "A.18"
+  - "A.3.1"
+  - "A.6.3.RT"
   - "A.6.P"
   - "B.4.1"
   - "B.5.2.0"
+  - "C.16.P"
+  - "C.2.1"
   - "C.2.2a"
   - "C.2.5"
   - "C.2.LS"
+  - "C.2.P.DR"
 keywords:
   - "articulation explicitness"
   - "early repair readiness"
@@ -33,7 +40,7 @@ keywords:
 ---
 
 ### C.2.4:4 - Solution
-`U.ArticulationExplicitness` is an ordinal characteristic over how explicit the semantic shape is in a published position claim in the declared language-state chart over `U.CharacteristicSpace`, for publication, route-governance claims, and repair.
+`U.ArticulationExplicitness` is an ordinal characteristic of how much of a governed episteme publication's semantic shape a reader can recover for publication, routing, repair, or direct use. The common direction is independent of the semantic branch.
 
 #### C.2.4:4.0a - Kind and characteristic boundary
 
@@ -50,21 +57,22 @@ keywords:
 #### C.2.4:4.2 - Starter anchor set
 | Anchor | Reading | Typical admissible publication state |
 |---|---|---|
-| `AE0` | felt, latent, or low-articulation cue only | still preservable, but not yet anchor-explicit |
-| `AE1` | stable cue span, contrast, or disturbance cue is nameable | `U.PreArticulationCuePack` becomes natural |
-| `AE2` | candidate anchors or partial field meanings are visible | cue pack with candidate anchors and route candidates |
-| `AE3` | minimally relation-like skeleton exists | entry to `A.6.P` becomes possible if local threshold allows |
-| `AE4` | slot-explicit normal form is publishable | explicit relation or characteristic form |
-| `AE5` | articulation is explicit enough for stable endpoint classification and downstream bridge work | endpoint-pattern-governed publication becomes straightforward |
+| `AE0` | a cue is felt or observed but cannot yet be stated as a stable question or contrast | preserve the source or cue without claiming a route |
+| `AE1` | a stable cue, question, contrast, or disturbance is nameable | an early cue publication becomes useful |
+| `AE2` | candidate anchors, participants, actions, fields, or meanings are visible, but the branch or structure remains partial | route candidates and missing pieces can be stated |
+| `AE3` | the governed claim structure is recoverable enough to choose its direct semantic branch | the relevant repair or authoring pattern may receive it if the local threshold is met |
+| `AE4` | a complete branch-appropriate form is publishable with the participants, conditions, and bounds needed by the current use | the direct subject pattern can check or use the publication |
+| `AE5` | the meaning remains stable in one named receiving use, and a later change can be reviewed without reconstructing it from the source | the receiving use is straightforward, though not automatically true, closed, trusted, or authorized |
 
-The anchors are a starter set; a Context may refine them locally, but it shall keep the ordinal direction and the distinction from `F` intact.
+The anchors are a starter set. A local use may refine them, but it shall keep the common direction and the distinction from `F` intact. A refined anchor may be branch-relative; it may not make relation structure the universal measure of articulation.
 
 #### C.2.4:4.3 - Use discipline
-- `AE` may be used to state entry conditions for `A.6.P`.
-- `AE` may be used to justify why an episteme remains in `A.16.1` or `B.4.1`.
-- `AE` shall not be used as a surrogate for closure, confidence, or truth.
-- High `F` shall not be taken to imply high `AE`, and high `AE` shall not be taken to imply high `F`.
+- `AE` may state an entry threshold for the direct semantic branch named by the current use.
+- `A.6.P` is only the relational branch. A note does not enter it merely because a table, arrow, or sentence looks relation-shaped.
+- `AE` may justify why an episteme remains in `A.16.1` or `B.4.1` while its branch or required structure is still unresolved.
+- A local threshold shall name both the intended receiving pattern and the branch-appropriate structure it requires.
+- `AE` shall not stand in for closure, confidence, truth, trust, or authorization. High `F` does not imply high `AE`, and high `AE` does not imply high `F`.
 
 #### C.2.4:4.4 - Change discipline
-Raising `AE` requires additional explicit anchors, slots, or normal-form structure. Lowering `AE` is admissible under `A.16.2` when a prior articulation proves over-committed or misleading.
+Raising `AE` requires additional recoverable anchors, participants, actions, conditions, bounds, or stable receiving-use structure appropriate to the current branch. Lowering `AE` is admissible under `A.16.2` when a prior articulation proves over-committed, misleading, or routed to the wrong branch.
 

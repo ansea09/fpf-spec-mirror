@@ -6,12 +6,12 @@ section_id: "C.3.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:0 — Use This When"
-line_start: 44702
-line_end: 44715
+line_start: 43485
+line_end: 43498
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,15 +44,15 @@ keywords:
 
 ### C.3.1:0 - Use This When
 
-Use this pattern when one typed-reasoning use needs a locally constituted kind, a subkind order, or a decision about whether the same local kind continues across editions of its declaration.
+Use this pattern when work must recover one reusable kind, decide whether one kind is a subkind of another, or decide whether the same kind continues across a changed `KindSignature` edition.
 
-**What goes wrong if missed.** `U.SubkindOf` starts carrying dependency, construction, scope, public kind admission, or extension-table maintenance. A changed declaration is mistaken either for a new kind automatically or for a harmless rewrite automatically, and old classifications are silently reinterpreted.
+**What goes wrong if missed.** A source or practice label becomes an identity key, `U.SubkindOf` carries dependency or construction, a finite sample is mistaken for a universal order, mutually classifying kinds are silently merged, or a changed declaration is treated as automatically new or automatically harmless.
 
-**What this buys.** The user gets a small local partial order, a judgment-level monotonicity law, and an explicit kind-continuity decision while durable U-kind admission, classification, declaration identity, and cross-local bridging remain separate and use their own definitions and checks.
+**What this buys.** The user gets an operational kind-continuity test, a replayable subkind test, and a small preorder that remains distinct from declaration identity, current extension, evidence, bridging, and public naming.
 
-**Primary EntityOfConcern.** One local `U.Kind` identity, its explicit practice or source boundary and stable subject distinction, and any `U.SubkindOf` order interpreted through the exact `U.ReferenceScheme` named by the aligned declaration editions.
+**Primary EntityOfConcern.** One `U.Kind` individual recovered through its candidate domain, operative membership condition, intended member/non-member distinction, and continuity rule; or one proposed `U.SubkindOf` relation between exact kind participants within declared applicability.
 
-**First useful move.** Write the ordinary order claim first: `CoolingPumpKind is a subkind of PumpKind for the Plant-7 practice, interpreted through PlantScheme-7.` Then identify the declaration editions used to evaluate candidates and test whether the order is monotone for the same candidate and slice.
+**First useful move.** Write the ordinary claim first: `CoolingPumpKind is a subkind of PumpKind because every candidate that satisfies the declared cooling-pump condition also satisfies the pump condition.` Then name the exact criteria and applicability that make that statement true. Introduce an occurrence designator or formal equivalence grouping only when a receiver uses it.
 
-**Not this pattern when.** Use C.3.2 for the declaration, one candidate classification, or an extension representation; C.3.3 for use across local practice or source boundaries; and `E.24.UK` when a local kind is proposed as a durable public FPF U-kind.
+**Not this pattern when.** Use C.3.2 for a declaration, admissibility result, candidate classification, or extension; C.3.3 only for a claimed correspondence between independently identified distinct kinds; and `E.24.UK` when admitting another durable public kind rather than using an already admitted `U.Kind` individual.
 

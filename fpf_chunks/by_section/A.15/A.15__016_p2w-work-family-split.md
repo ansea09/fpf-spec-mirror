@@ -6,12 +6,12 @@ section_id: "A.15:12c"
 section_title: "P2W Work-Family Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__016_p2w-work-family-split.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12c — P2W Work-Family Split"
-line_start: 24282
-line_end: 24287
+line_start: 23695
+line_end: 23700
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -56,7 +56,7 @@ keywords:
 
 ### A.15:12c - P2W Work-Family Split
 
-When an E.18.1 P2W use reaches `WorkPlanning` or work-entry readiness, keep the selected Method, `U.WorkPlan`, `SlotFillingsPlanItem`, `WorkEntryReadiness@Context`, dated Work occurrence, and separate result records distinct. A principle scheme, functional diagram, or scenario may guide Method inspection and planning only after the current work-family value is named.
+When an E.18.1 P2W use reaches work planning or work-entry readiness, keep the selected Method, one `U.WorkPlan` with any declaration-local `SlotFillingsPlanItem` content, `WorkEntryReadiness@Context`, dated Work occurrence, and separate result records distinct. A planned-filling row is addressable only through that WorkPlan and gains no independent identity. A principle scheme, functional diagram, or scenario may guide Method inspection and planning only after the current work-family value is named.
 
-Work planning may cite evidence and currentness requests for the direct relation under repair. A.15.5 may cite WorkPlan and plan-item baselines when readiness is current. Name evidence, gate passage, performed Work, result measurement, assurance, or refresh before relying on a planning or readiness record for that stronger claim.
+Work planning may cite evidence and currentness requests for the direct relation under repair. A.15.5 may cite the exact WorkPlan and designate declaration-local PlanItem content when its readiness criterion uses that content. Name evidence, gate passage, performed Work, result measurement, assurance, or refresh before relying on a planning or readiness record for that stronger claim.
 

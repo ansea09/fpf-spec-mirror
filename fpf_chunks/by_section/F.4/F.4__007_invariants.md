@@ -6,12 +6,12 @@ section_id: "F.4:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__007_invariants.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:5 — Invariants"
-line_start: 91400
-line_end: 91413
+line_start: 88786
+line_end: 88799
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -48,7 +48,7 @@ keywords:
 ### F.4:5 - Invariants
 
 1. **One described kind.** A `SystemRoleKindDescription` describes exactly one local system-role kind.
-2. **Direct kind identity.** The practice or source boundary and stable work-facing contribution distinction remain recoverable; taxonomy rows and schemes are evidence or interpretation aids, not identity authorities.
+2. **Direct kind identity.** The candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule remain recoverable. A source, practice, taxonomy row, signature edition, or scheme helps locate, state, or interpret that basis; none decides identity by itself.
 3. **Description boundary.** The description is a `U.Episteme`; it is not the kind, candidate, classification judgment, assignment, holder system, capability, Method, Work, or status-use relation.
 4. **System range.** A candidate must independently pass A.1 as `U.System`. No description or kind name performs that admission, and `SystemRole` does not narrow the candidate to non-human technical systems.
 5. **No hidden assignment.** Classification under a local kind neither creates nor proves a `U.SystemRoleAssignment` occurrence.

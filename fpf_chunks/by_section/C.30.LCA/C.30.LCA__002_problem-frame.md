@@ -6,12 +6,12 @@ section_id: "C.30.LCA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:1 — Problem frame"
-line_start: 61920
-line_end: 61965
+line_start: 59083
+line_end: 59118
 dependencies:
   - "A.10"
   - "A.20"
@@ -43,9 +43,11 @@ keywords:
 
 ### C.30.LCA:1 - Problem frame
 
-Use this pattern when a selected control structure or an exact control relation changes the next architecture move: source prose says that a controller regulates a plant, an observer or estimator changes what can be known, a planner provides references to lower-rate control, a supervisor constrains a subsystem, or a policy loop changes allowed behavior. Treat those labels as cues to recover the direct relation and participant meanings first. A participating System, local system-role kind, separate System-classification judgment, assignment, Method, or Work is a separate fact included only when it independently obtains.
+Use this pattern when a control diagram, control-language source, or selected control structure changes the next architecture move. Start with an ordinary question: what actually controls what, through which observation, command, reference, supervision, or feedback relation? A label such as controller, plant, observer, planner, supervisor, or policy loop is only a cue; identify the relation and what each participant does in it before relying on the diagram.
 
-The first-minute working situation is ordinary engineering talk: a diagram says the supervisor watches a subsystem, a controller regulates a plant, an observer estimates state, a planner gives references to a lower-rate controller, or a policy or control relation changes allowed controller behavior. The useful first move is to recover a `ControlStructureViewNote`: which holon, architecture relation or bounded architecture claim is current; which selected control structure and obtaining control relations are present; what each participant means in those relations; which rate bands or recovered control-layer relations are claimed; which feedback or externality boundaries are named; and which subject assertion and defining or constraining `ClaimGraph` state each additional claim. Then add an admitted System, optional local kind, separate optional System-classification judgment, optional obtaining assignment, Method, and complete Work-attribution basis only when each is separately current. If the source only says `layer`, `level`, `tier`, or `stack` without a control-specific relation, use `C.30.STRAT` first.
+A participating System, local system-role kind, System-classification judgment, assignment, Method, or Work is a separate fact. Add it only when it independently obtains and changes the use of the control-structure result.
+
+The first useful result can be one sentence: “Supervisor S sends allowed-mode commands to controller C and receives status feedback; this diagram does not yet establish stability or safety.” The small note below retains that result and the next action. If the source says only `layer`, `level`, `tier`, or `stack` without a control-specific relation, use `C.30.STRAT` first.
 
 What goes wrong if C.30.LCA is missed: a control diagram becomes the control structure, `U.View`, or proof; stratification labels bypass `C.30.STRAT` and carry undeclared scope; and `B.2.5`, E.18 transformation-flow prose, or Layered Control Architecture prose is overread as control adequacy.
 
@@ -53,35 +55,23 @@ What C.30.LCA buys in practice: the practitioner can keep useful controller, pla
 
 Not this pattern when the issue under repair is generic stratification or source-label repair, only an E.18 transformation-flow path slice, function description, module boundary, measurement head, causal intervention, or safety case. Use `C.30.STRAT`, `C.30.TFS-REL`, `A.6.F`, `A.6.M`, `C.16`, `C.28`, or the applicable assurance or evidence pattern to state or test the current claim.
 
-The primary EntityOfConcern for a full C.30.LCA description or view is one exact selected control `U.Structure`. The description, selected structure, controlled holon, actual architecture relation, bounded architecture claim, exact viewpoint, conformance occurrence, direct control relations and participant meanings, any participating Systems, local classifications, assignments, Methods or Work, diagram, representation, proof claims, and publication remain separate. Ordinary use may stop with a typed note:
+The primary EntityOfConcern for a full C.30.LCA description or view is one exact selected control `U.Structure`. The description, selected structure, controlled holon, architecture relation, architecture claim, viewpoint, conformance occurrence, control relations and their participants, any participating Systems, classifications, assignments, Methods or Work, diagram, representation, proof claims, and publication remain separate. Start with the smallest useful note:
 
 ```text
 ControlStructureViewNote ordinary minimum:
-  architectureRelationOccurrenceRef?: ArchitectureRelationRef
-  architectureClaimRef?: U.EpistemeRef constrained to ArchitectureClaim
-  describedHolonRef?: U.HolonRef
-  selectedControlStructureRef?:
   controlledHolonRef:
-  candidateViewEpistemeRef?: U.EpistemeRef
-  exactViewpointRef?: U.ViewpointRef
-  viewpointConformanceRelationRef?: EpistemeViewpointConformanceRelationRef
+  selectedControlStructureRef?:
+  structureGap?:
   selectedControlRelationRef:
-  selectedControlParticipantRefs:
-  controllerSystemRef?: U.EntityRef constrained to U.System
-  controllerSystemRoleKindRef?: U.KindRef
-  controllerSystemRoleClassificationJudgmentRef?: U.RelationRef
-  controllerAssignmentSpeciesRef?: U.RelationKindRef constrained under U.SystemRoleAssignment
-  controllerAssignmentOccurrenceRef?: U.RelationRef constrained to an obtaining occurrence of controllerAssignmentSpeciesRef
-  actualControlWorkRef?: U.EntityRef constrained to U.Work
+  controlRelationParticipantRefs:
   feedbackClosureState: closed | oneWay | unclear
-  controlLayerRelationRef?:
-  rateBandRef?:
-  stratificationRepairRef?:
   nextPatternUseRef?:
   stopCondition:
 ```
 
-The ordinary note requires an exact described or controlled holon plus one selected control structure or honest structure gap and at least one direct control relation when a positive relation claim is made. `architectureRelationOccurrenceRef` is filled only when that direct C.30 occurrence obtains; `architectureClaimRef` remains optional claim content or trace. The note does not become a C.2.1 episteme or `U.View` by its field names.
+Use either `selectedControlStructureRef` or an honest `structureGap`. A positive control claim also names at least one obtaining control relation and its participants. This note is enough when those values make the next action clear; its fields do not turn it into a C.2.1 episteme or `U.View`.
+
+Add a described holon, an architecture-relation occurrence or claim, rate bands, control-layer relations, boundaries, view and viewpoint-conformance facts, source return, representation, or publication only when they change the intended use. Add participating Systems, local classifications, assignments, Methods, Work, and F.6 attribution only when those neighboring facts are independently current.
 
 When either form includes actual control Work, each Work ref names an independently identified `U.Work` occurrence. All facts required by A.15.1, A.2.1, and F.6 remain recoverable; the note or view creates none of them.
 

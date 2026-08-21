@@ -6,12 +6,12 @@ section_id: "A.19.SPR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__003_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:1 — Problem frame"
-line_start: 29052
-line_end: 29061
+line_start: 28544
+line_end: 28551
 dependencies:
   - "A.10"
   - "A.16"
@@ -45,11 +45,9 @@ keywords:
 
 ### A.19.SPR:1 - Problem frame
 
-FPF needs state-like wording. Engineers say that a system is ready, a source is current, an evidence path is incomplete, an assurance claim has decayed, a lens use is admissible, or a pattern is stable. Those compact words are useful when the state frame is declared.
+FPF needs compact state words. Engineers reasonably say that a pump is stable, a source is current, an evidence path is incomplete, an assurance claim has expired, or an intended performance is ready for work entry.
 
-The defect appears when the word substitutes for the frame. `Posture` is the current visible symptom, but the same failure appears with `state`, `status`, `readiness`, `stance`, `currentness`, and similar words. The repair question is:
+The words work when the reader can recover the item, the actual claim or value, and the rule behind it. Trouble begins when the word replaces those facts. “Ready” may mean a patient condition, an assignment satisfying a condition, an A.15.5 work-entry result, an A.21 gate decision, or merely a green display. Those are different claims.
 
-> What state-like predicate is being asserted over which bearer, under which FPF pattern, for which use, and with which blocked overread?
-
-The state-like bearer under repair may be a holon in a `CharacteristicSpace`, a `SystemRoleAssignmentStateAssertion`, a language-state position, a source-use relation, an evidence path, an assurance claim, a publication use, a gate or constraint record, a temporal claim, a mathematical-lens use, a `DRR` decision-adequacy result, a pattern-quality result, or a project-side administrative, review, dispatch, release, admission, or source-control record. Those are not one kind. They only share the need for a state-like predicate named by value.
+A repaired sentence may therefore name an ordinary domain condition, an obtaining relation, an assertion episteme, an evaluation result, a decision result, or a project-side record field. It introduces a predicate only when the rule for that claim defines or needs one.
 

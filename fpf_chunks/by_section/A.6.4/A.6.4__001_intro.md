@@ -1,57 +1,55 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.4"
-pattern_title: "U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
+pattern_title: "EntityOfConcern retargeting"
 section_id: "A.6.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
+  - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:intro — Intro"
-line_start: 15133
-line_end: 15161
+line_start: 15151
+line_end: 15168
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
   - "A.6.5"
   - "A.7"
+  - "B.3"
   - "C.2"
   - "C.2.1"
+  - "C.29"
   - "C.3"
   - "E.10.D2"
-  - "E.18"
+  - "E.17"
+  - "E.24.PUB"
   - "F.9"
 keywords:
 ---
 
-## A.6.4 - `U.EpistemicRetargeting` — EntityOfConcern retargeting morphism
+## A.6.4 - EntityOfConcern retargeting
 > **Status:** Stable
-> **Type:** Definitional ontic pattern
+> **Type:** Definitional pattern
 
-**One-line summary.** `U.EpistemicRetargeting` is the EntityOfConcern-retargeting species of `U.EffectFreeEpistemicMorphing`: an effect-free episteme-to-episteme morphism that intentionally changes the exact C.2.1 EntityOfConcern under a declared `KindBridge` and invariant while remaining conservative with respect to that invariant.
-**EntityOfConcern retargeting discipline.** A.6.4 names the retarget branch of the C.2.1 EntityOfConcern retargeting law: `entityOfConcernRef(Y) != entityOfConcernRef(X)` only under a declared `KindBridge`, invariant, loss boundary, and admissible use. Source-side spellings are source wording only; conformant text normalizes them to `EntityOfConcern*` before use.
+**One-line summary.** Use EntityOfConcern retargeting when one episteme concerns one entity and another concerns a different entity, yet a stated invariant remains useful across that change for one named purpose.
 
-**Placement.** After **A.6.3 `U.EpistemicViewing`**, before **A.6.5 relation-declaration slot discipline**.
+**Retargeting in plain terms.** The two epistemes are not merely different descriptions of the same thing. They concern different things, and the receiving use keeps only what a stated invariant supports.
 
-**Builds on.**
-A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.3 `U.EpistemicViewing`; A.6.5 relation-declaration SlotSpec discipline; A.7 and E.10.D2 for the EntityOfConcern, Description-episteme, describing-use, and specification-use boundary; C.2.1 for episteme identity and direct constitution, empirical-grounding, and edition relations; C.2 and C.3 for KD-CAL, LOG-CAL, ReferencePlane, and kind-level reasoning; and F.9 for exact Bridge, `KindBridge`, CL, and SquareLaw witnesses.
+**Use this when.** Use this pattern only after C.2.1 identifies the two epistemes and shows that their exact EntitiesOfConcern differ. A changed model kind, ontology frame, predicate set, coordinate system, or notation is a cue to repeat that identity test, not proof of retargeting.
 
-**Used by.**
-E.18 (`StructuralReinterpretation` loci and other transformation-flow reinterpretation loci); discipline packs for signal/spectrum transforms, data↔model retargetings, abstraction/refinement under kind‑invariants; KD‑CAL/LOG‑CAL retargeting rules; additional species for architecture and governance reinterpretations.
+**What goes wrong if missed.** A changed EntityOfConcern is treated as “the same thing in another form”, so claims, evidence, gate results, work authority, or currentness are carried into a use they do not support. The opposite error is to demand a semantic Bridge or reversible mapping when the case needs neither.
 
-**Body-level U-kind settlement.** `U.EpistemicRetargeting` is the durable value defined here. It reuses `U.EffectFreeEpistemicMorphing`, `U.EpistemicViewing`, and `U.Episteme`; episteme card, view, and publication names are dependent values under C.2.1 or E.17, as applicable. `ClaimGraph`, `ReferenceScheme`, and representation values retain their separate definitions and constraints. `SubjectRef` is only legacy source wiring: recover the exact episteme and EntityOfConcern, then name any material scheme, grounding, scope, operating condition, or selected describing-use viewpoint separately. `EpMorphism` is the local mathematical-lens arrow value for retargeting, not a root U-kind.
+**First useful move.** Name both epistemes and both EntitiesOfConcern. Then say what remains supported, what is lost, the receiving action for which that loss is acceptable, and what supports that judgement.
 
-**Retargeting in plain terms.** One effect-free episteme-to-episteme retargeting in which the source and receiving epistemes intentionally concern different entities whose kinds are related by a declared `KindBridge`.
+**What this buys.** The reader can decide one receiving use without pretending that every source claim survives, that the arrow performed Work, or that a mathematical representation decided what the epistemes concern.
 
-**First retargeting move in plain terms.** Change the exact EntityOfConcern under a declared `KindBridge` and invariant while making preserved commitments, withdrawn commitments, admissible predicate changes, and source-bearing reopen conditions visible.
-
-**Use this when.** Use this pattern when a representation, view, functional description, model, diagram, `StructuralReinterpretation`, or other episteme-facing item no longer preserves `entityOfConcernRef`, but a declared bridge and invariant make a controlled retargeting admissible.
-
-**What goes wrong if missed.** A changed EntityOfConcern is treated as "the same thing in another form", so users inherit claims, gates, evidence, work authority, or transformation-flow path currentness that the receiving EntityOfConcern does not make admissible.
-
-**What this buys.** One honest retargeting relation: the reader can see the source entity, receiving entity, bridge, invariant, preserved commitments, lost or new commitments, and the specific admissible use that remains.
-
-**Not this pattern when.** Not this pattern when the EntityOfConcern is preserved and the main change is wording (`A.6.3.CR`), representation scheme or reasoning medium (`A.6.3.RT`), controlled coarsening (`A.6.3.CSC`), explanation mode (`E.17.EFP`), an F.9 Bridge or bounded-use claim without retargeting, an optional F.9.1 stance note about such a claim, work (`A.15`), evidence (`A.10`), assurance (`B.3`), gate decision (`A.21`), temporal adequacy (`C.27`), or dynamics/control law (`A.3.3`).
+**Not this pattern when.** If the EntityOfConcern is preserved, use the pattern for the change that actually occurred: A.6.3.CR for wording, A.6.3.RT for representation scheme or reasoning medium, A.6.3.CSC for controlled coarsening, or E.17.EFP for explanation mode. A normal time-to-frequency description of the same signal is first a C.29 and A.6.3.RT case. Use F.9 for a separately claimed Bridge between two local senses; use A.6.1, A.15, A.10, B.3, A.21, C.27, A.3.3, or E.24.PUB only when an operation application, Work, evidence, assurance, a gate, temporal adequacy, dynamics, control, or publication is actually claimed.
 

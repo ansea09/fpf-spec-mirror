@@ -6,12 +6,12 @@ section_id: "B.3.5:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__002_intent.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:1 — Intent"
-line_start: 39303
-line_end: 39317
+line_start: 38129
+line_end: 38143
 dependencies:
   - "B.3"
   - "C.13"
@@ -32,8 +32,8 @@ keywords:
 **What you get (manager/engineer view).**
  The same relations you already know (e.g., **ComponentOf**) remain the **public relation vocabulary**.
 
-**What changes (auditor/ontologist view).**
-* Each published edge carries two additional commitments:
+**What changes when the profile is elected (auditor/ontologist view).**
+* Each covered published edge carries two additional commitments:
 
   1. **`tv:groundedBy`** → points to a **reconstructible trace** (e.g., `Γ_m.sum`) whenever the edge is *structural*.
   2. **`validationMode ∈ {axiomatic, inferential, postulate}`** → declares how the author justifies the assertion.

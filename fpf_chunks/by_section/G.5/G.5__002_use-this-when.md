@@ -6,12 +6,12 @@ section_id: "G.5:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:0 — Use this when"
-line_start: 100721
-line_end: 100741
+line_start: 97930
+line_end: 97950
 dependencies:
   - "C.11"
   - "C.18"
@@ -64,7 +64,7 @@ For ordinary method-family dispatch, open `G.5` when two or more already admitte
 
 
 
-Before opening G.5 for Method dispatch, resolve every selectable `MethodRef` to an exact `U.Method` already admitted under A.3.1. A `MethodFamilyId` is a selector-facing registry designator for a declared grouping: its row must cite the exact Methods it groups and the independently established classification claim, membership relation, or local grouping criterion used for this selector. Neither the row, its label, a family card, a `U.MethodDescription`, an eligibility or maturity record, a policy, an evidence pin, a shortlist, nor a publication makes a candidate a Method or makes family membership obtain. Where no exact ontic-family or membership predicate is defined, keep the row as a project-local selector grouping under its declared criterion. If only labels, descriptions, cards, or unresolved references are available, state the blocker and use A.3.1, C.2.1, or the exact family-relation subject pattern only as a locator before selection.
+Before opening G.5 for Method dispatch, resolve every selectable `MethodRef` to an exact `U.Method` already admitted under A.3.1. A `MethodFamilyId` names the continuing selector-row lineage for one declared grouping; it does not by itself select an exact edition. `MethodFamilyRowRef := <MethodFamilyId, rowEdition>` designates one immutable row edition, which cites the exact Methods it groups and the independently established classification claim, membership relation, or local grouping criterion used for this selector. Neither the row, its label, a family card, a `U.MethodDescription`, an eligibility or maturity record, a policy, an evidence pin, a shortlist, nor a publication makes a candidate a Method or makes family membership obtain. Where no exact ontic-family or membership predicate is defined, keep the row as a project-local selector grouping under its declared criterion. If only labels, descriptions, cards, or unresolved references are available, state the blocker and use A.3.1, C.2.1, or the exact family-relation subject pattern only as a locator before selection.
 
 Also say whether the current claim is only a reusable registry, selector, policy, template, or result-content declaration, or whether an actual selection and publication occurred. An actual selection requires its exact acting system, dated A.15.1 Work, and actual A.6.1 `Select` application with effective argument and `SelectionSlot` bindings under A.19.SelectorMechanism. Any persisted result episteme, A.10 evidence-provenance relation, B.3 assurance claim, authorization, and E.24.PUB publication occurrence remain separate. A row, declaration, record, telemetry pin, or selected-set label supplies none of them by appearance.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.28"
-pattern_title: "CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+pattern_title: "CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
 section_id: "C.28:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__007_archetypal-grounding.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+  - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:5 — Archetypal Grounding"
-line_start: 57679
-line_end: 57696
+line_start: 54874
+line_end: 54891
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,13 +30,14 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
+  - "CausalUseSupportResult"
   - "Pearl Causal Hierarchy"
   - "Structural Causal Model"
   - "association"
   - "causal diagram"
   - "causal estimand"
-  - "causal evidence support basis"
   - "causal fairness"
+  - "causal support components"
   - "causal-RL evaluation"
   - "causal-use question"
   - "causality ladder"
@@ -50,19 +51,19 @@ keywords:
 
 ### C.28:5 - Archetypal Grounding
 
-**Tell.** A causal-use claim is a promise about what a reader may do with a result. The claim is safe only when the rung, contrast, support basis, and allowed use are named.
+**System.** A product team observes better outcomes among recipients of X. Triage returns association support. If the team needs an effect claim, it opens identification or evidence-design work; C.28 does not let the observation decide deployment.
 
-**Show (System).** A product team observes that users who received an intervention had better outcomes. `C.28` first records an observational association unless the team can name an interventional-action design, target trial protocol, identification profile, or evidence design that supports intervention-effect use. If the team only has observational association, the next supported use is to publish association or build evidence, not to claim causal improvement.
+**Fairness.** A report claims counterfactual fairness after a policy change. C.28 identifies the rung and estimand, exposes the additional counterfactual-identifiability assumptions, and cites an estimate with its consistency result when the audit relies on that estimate. Missing identification or consistency lowers the support result even with more of the same data. D.5 carries the `BiasAuditReport@Context` and makes the audit conclusion.
 
-**Show (Episteme).** A fairness report says one model is fair because a metric improved after a policy change. `C.28` asks whether the fairness claim is associative, interventional, or counterfactual. If it is interventional-action-rung only, it cannot be published as counterfactual fairness without identification or realizability support.
+**Policy.** Logged behaviour data are used to evaluate a new policy. The result names both policies, horizon, confounding and overlap checks, transport endpoints when changed, estimate and uncertainty, supported regime, and unsupported unqualified optimality. C.11 or another policy pattern makes the choice.
 
-**Show (Policy).** A team wants to deploy a causal policy learned from logged behavior data. `C.28` records `causalPolicyClaim`, `interventionalActionRung` or `counterfactualComparisonRung` as appropriate, `CausalActionPolicyClass`, `OffPolicyCausalEvaluationProfile`, support checks and overlap checks, uncertainty, supported policy use, and unsupported policy use. If the behavior policy cannot support the target policy, the admissible output is bounded use or abstain rather than "the policy is optimal".
+**Causal RL.** An online learner combines logged behaviour, interventions, and a counterfactual-data source. The sampling-realizability result explains whether that source can be produced; dated Work and the resulting data path show whether it was produced; a separate identification or estimate result says what follows from it. Replay reward does not become an optimal-action claim.
 
-**Show (Causal RL).** An online learner uses behavior-policy logs and counterfactual data-fusion to choose a treatment, ranking, or action policy. `C.28` records the natural behavior policy, evaluation policy, `CausalActionPolicyClass`, target rung, confounding assumptions and support assumptions, `OffPolicyCausalEvaluationProfile`, uncertainty, supported policy use, and unsupported policy use. The learner may publish bounded causal policy support only for the declared regime; it must not turn replay reward, exploration success, or counterfactual strategy output into an unqualified optimal-action claim.
+**Evidence Work.** A lab's `CounterfactualSamplingRealizabilityResult` cites its decision Method and positive construction. That result supports planning but claims no sample. The later WorkPlan remains prospective. After sampling, the lab cites dated Work, attribution, and the resulting data in an A.10 evidence path before using `realizedCounterfactualSamplingData`. Identification from those data remains a separate result.
 
-**Show (Evidence Work).** A lab can physically run a counterfactual-rung sampling procedure by assigning compatible action regimes to matched units under ethical and operational constraints. `C.28` separates `CounterfactualSamplingRealizabilityProfile` from `CausalIdentificationProfile`: the realized sampling work becomes `U.Work` with `A.10` evidence path refs, `A.2.4` evidence-use relations, and guards, while identification remains the inferential derivation from assumptions, graph, calculus, and available data.
+**Simulation.** A simulator supports rehearsal and sensitivity analysis under named assumptions and validation. The support result blocks realized-sample and intervention-effect wording. A pure simulator-output report exits C.28 earlier.
 
-**Show (Simulation-Only).** A simulator produces "what would have happened" traces for a rollout decision. `C.28` can allow useful model-supported use without calling the traces realized counterfactual-rung evidence: the record uses `simulationOnlyCounterfactualOutputBasis`, names `counterfactualModelAssumptionSetRef`, `simulationValidationRef`, supported simulation use, and unsupported use. The output may support rehearsal, sensitivity exploration, or model-based explanation inside declared limits; it does not support direct counterfactual sample wording or intervention-effect publication by vocabulary alone.
+**Transport.** The population is unchanged but the care environment and measurement mechanism differ. The transport result names source and target environments and data-generating regimes, then states the assumptions and formula. A population ref alone would miss the shift.
 
-**Show (Benchmark).** A benchmark compares one observational predictor, one intervention optimizer, and one counterfactual strategy. `C.28` does not ban the comparison, but it requires `CausalMethodRungParityRecord` through `G.9`: if rung, `estimandRef`, interventional-action basis, support basis, consumed `C.28` support record and verdict, transportability, follow-up window, and estimation-validity basis are not comparable, the benchmark publishes bridge and loss relation, degraded use, or abstain instead of one superiority claim.
+**Benchmark.** G.9 compares an observational predictor, intervention optimizer, and counterfactual policy only after it checks rung, estimand, support components, window, and endpoints. The admissible result may be a selected set or abstention rather than a scalar winner.
 

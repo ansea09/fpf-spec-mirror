@@ -6,12 +6,12 @@ section_id: "E.10:10"
 section_title: "Reference routine for turning messy language into E.10-clean prose (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__012_reference-routine-for-turning-messy-language-into-e-10-clean-prose-informative.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:10 — Reference routine for turning messy language into E.10-clean prose (informative)"
-line_start: 75385
-line_end: 75430
+line_start: 72651
+line_end: 72696
 dependencies:
   - "A.10"
   - "A.15"
@@ -98,7 +98,7 @@ Mark the disposition `preserved`, `split`, `intentionally changed`, or `blocker`
 #### E.10:10.4 - Pass 3 — *Stitch and publish*
 
 3.1 Add **safe rewrites** for any anti‑patterns you found (use § 9.2 quick table).
-3.2 If sameness or mapping between two exact local senses is being claimed, identify both senses and create their F.17 cells when stable addresses are needed. Cite an F.9 Bridge only if its direct relation actually obtains, and state direction, congruence, loss, and scope; keep use and reliance separate. Apply **A.6.9 (RPR-XCTX)** when quoted or imported wording such as “same”, “equivalent”, “align”, or “map” still hides the relation.
+3.2 If sameness or mapping between two exact local senses is being claimed, identify both senses and create their F.17 cells when stable addresses are needed. Cite an F.9 Bridge only if its direct relation actually obtains under the applicable F.9 relation profile. When a receiving use is current, state a separate C.2.1 claim with the proposed action, use direction, correspondence rule, tolerated loss, and polarity. Use A.10 or B.3 only when reliance or assurance is actually current, and recover any action that occurred under its own pattern. Apply **A.6.9 (RPR-XCTX)** when quoted or imported wording such as “same”, “equivalent”, “align”, or “map” still hides the relation.
 3.3 Publish an F.17 row or compact UTS only when readers need a durable term address. State the value it names, effective scheme, source expression, local sense, Tech and Plain designations when both exist, and warnings. The row creates no Bridge, equivalence, use, or reliance.
 3.4 Log a short **DRR** when renames or aliases occur (F.13), linking to grep results that motivated the change.
 

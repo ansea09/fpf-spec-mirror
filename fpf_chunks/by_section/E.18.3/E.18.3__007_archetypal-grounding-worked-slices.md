@@ -6,12 +6,12 @@ section_id: "E.18.3:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__007_archetypal-grounding-worked-slices.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:5 — Archetypal Grounding — Worked Slices"
-line_start: 85306
-line_end: 85456
+line_start: 82626
+line_end: 82787
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,7 +36,6 @@ dependencies:
   - "E.23"
   - "G.11"
   - "G.5"
-  - "U.Transfer"
 keywords:
 ---
 
@@ -48,81 +47,92 @@ keywords:
 
 **P2W carry-through.** Accepted problem-side records may name distinctions, constraints and unresolved relation positions that guide later Method selection, planning, Work, interpretation and reconsideration. E.18.3 may organize independently current objects only after the selected A.22 structure, E.18 position bindings and direct relations are recovered. It does not authorize launch or performed Work, does not admit any MethodDescription from intended use, and does not replace E.18.1 carry-through.
 
-**Recursive build-the-builder demonstration.** After a four-level network is selected and verified under E.18.NET and the relevant E.18.3 position mappings and relation-reference epistemes are current, a demonstrative slice follows one finite member path to an already admitted leaf position. The network mapping points to the same included `CGUSPositionLocator`, and every cross-member row cites an already-current relation-reference episteme with matching participant positions and bindings. The leaf path slice and tag stay in its member-local row. The cross-member relation is recovered from its exact ordered endpoint bindings in different selected network members; an E.18 `GateCrossing` would remain outside the relation reference. Before those facts are recovered, the same graph remains a provisional episteme rather than a network-aware slice.
+**Recursive build-the-builder demonstration.** After a network and its E.18.3 mappings are established, a slice follows one finite member path to an established leaf position. The network mapping points to the same included `CGUSLocusBinding`, and every cross-member row cites a relation-reference episteme with matching participant positions and bindings. The leaf path slice and tag stay in its member-local row. Before those facts are recovered, the graph remains an explanation rather than a network-aware slice.
 
-**Complete compact high-reliance case — edition-current comparison basis.** Suppose the following exact objects, facts, and occurrences have already been identified for one replayable comparison use. The condition branch is one applied claim; no E.18 guard event or independently defined guard relation is asserted.
+**Complete compact high-reliance case — edition-current comparison basis.** This replayable comparison has two potential continuations: recalculate with the admitted edition, or stop and replace the edition. The exact objects and occurrences below have already been identified.
 
 ```text
-selectedCGUSRef: EditionComparisonUnfolding@Review-2026-07
+selectedCGUSRef: EditionComparisonUnfolding@Review-2026-08
 A22IdentityBasis:
   selectedConstituentRefs[]:
-    ReferenceEditionChangeConstituent@Review-2026-07
-    ComparisonRecalculationConstituent@Review-2026-07
+    ReferenceEditionChangeConstituent@Review-2026-08
+    ComparisonRecalculationConstituent@Review-2026-08
+    RecalculateWithV2Continuation@Review-2026-08
+    ReplaceReferenceEditionContinuation@Review-2026-08
   selectedObtainingRelationOccurrenceRefs[]:
     ComparisonBasisDependsOnEdition@ReferencePublicationEdition-v2
   appliedConstraintClaimRefs[]:
-    - claimRef: ReferenceEditionCurrentForComparison@ReferencePublicationEdition-v2
-      predicateOrTestRef: G11-ReferencePublicationEditionCurrentTest@Review-2026-07
-      currentFactOrEvidenceRefs[]:
-        ReferencePublicationEdition-v2-IsAdmitted@Review-2026-07
-        ReferencePublicationEdition-v2-IsNotDeprecated@Review-2026-07
+    UseEditionOnlyWhenCurrent@Review-2026-08
+    ReplaceEditionWhenCurrentnessFailsOrIsUnknown@Review-2026-08
   namedSelectionUseFrame:
-    questionOrAction: may the v2 edition be used as the current comparison basis?
-    forbiddenOverread: no displayed order, gate decision, MethodDescription, plan, Work, or comparison result follows
+    questionOrAction: may v2 remain the basis for this comparison?
+    forbiddenOverread: no displayed order, gate decision, plan, Work, or comparison result follows
+constraintGovernedProfileBasis:
+  locusBindingRows[]:
+    - <EditionComparisonUnfolding@Review-2026-08, edition-change, edition under review, ReferenceEditionChangeConstituent@Review-2026-08>
+    - <EditionComparisonUnfolding@Review-2026-08, recalculate, comparison recalculation, ComparisonRecalculationConstituent@Review-2026-08>
+  potentialContinuationRows[]:
+    - RecalculateWithV2Continuation@Review-2026-08
+    - ReplaceReferenceEditionContinuation@Review-2026-08
 flowCase: oneTFS
-transformationFlowStructureRef: CandidateSetRepairTFS@Review-2026-07
+transformationFlowStructureRef: CandidateSetRepairTFS@Review-2026-08
 transformationSubjectRows[]:
-  - subjectRef: CandidateSetComparisonBasis@Review-2026-07
+  - subjectRef: CandidateSetComparisonBasis@Review-2026-08
     subjectKindRef: U.Episteme
 transformationPositionMappingRows[]:
-  - admittedCGUSPositionLocator: EditionComparisonUnfolding@Review-2026-07 / ReferenceEditionChangePosition / ReferenceEditionChangeConstituent@Review-2026-07
-    flowPositionRef: CandidateSetRepairTFS@Review-2026-07 / ReferenceEditionChangeFlowPosition
-    exactPositionBindingRef: ReferenceEditionChangeToEdition-v2Binding@Review-2026-07
-  - admittedCGUSPositionLocator: EditionComparisonUnfolding@Review-2026-07 / ComparisonRecalculationPosition / ComparisonRecalculationConstituent@Review-2026-07
-    flowPositionRef: CandidateSetRepairTFS@Review-2026-07 / ComparisonRecalculationFlowPosition
-    exactPositionBindingRef: ComparisonRecalculationToBasisBinding@Review-2026-07
-continuationConditionBranch: appliedConstraintClaim  # Plain recovery discriminator, not a kind
+  - admittedCGUSLocusBindingRef: EditionComparisonUnfolding@Review-2026-08 / edition-change / ReferenceEditionChangeConstituent@Review-2026-08
+    flowPositionRef: CandidateSetRepairTFS@Review-2026-08 / ReferenceEditionChangeFlowPosition
+    exactPositionBindingRef: ReferenceEditionChangeToEdition-v2Binding@Review-2026-08
+  - admittedCGUSLocusBindingRef: EditionComparisonUnfolding@Review-2026-08 / recalculate / ComparisonRecalculationConstituent@Review-2026-08
+    flowPositionRef: CandidateSetRepairTFS@Review-2026-08 / ComparisonRecalculationFlowPosition
+    exactPositionBindingRef: ComparisonRecalculationToBasisBinding@Review-2026-08
+appliedConstraintClaimRefs[]:
+  - claimRef: ReferenceEditionCurrentForComparison@ReferencePublicationEdition-v2
+    predicateOrTestRef: G11-ReferencePublicationEditionCurrentTest@Review-2026-08
+    applicabilityResult: applicable to the selected comparison basis and ReviewWindow-2026-08
+    caseInputRefs[]: [ReferencePublicationEdition@v2, CandidateSetComparisonBasis@Review-2026-08]
+    currentFactOrEvidenceRefs[]: [ReferencePublicationEdition-v2-IsAdmitted, ReferencePublicationEdition-v2-IsNotDeprecated]
+continuationJudgementResults[]:
+  - continuationCandidateRef: RecalculateWithV2Continuation@Review-2026-08
+    conditionPredicateOrTestRef: G11-ReferencePublicationEditionCurrentTest@Review-2026-08
+    applicabilityResult: applicable to CandidateSetComparisonBasis@Review-2026-08 in ReviewWindow-2026-08
+    caseInputRefs[]: [ReferencePublicationEdition@v2, CandidateSetComparisonBasis@Review-2026-08]
+    currentFactOrEvidenceRefs[]: [ReferencePublicationEdition-v2-IsAdmitted, ReferencePublicationEdition-v2-IsNotDeprecated]
+    requiredPolarity: current
+    observedOutcome: satisfied
+    dependentSelectedRelationOccurrenceRefs[]: [ComparisonBasisDependsOnEdition@ReferencePublicationEdition-v2]
+    qualificationWindow: ReviewWindow-2026-08
+    result: enabled
+  - continuationCandidateRef: ReplaceReferenceEditionContinuation@Review-2026-08
+    conditionPredicateOrTestRef: ReplaceEditionWhenCurrentnessFailsOrIsUnknown@Review-2026-08
+    applicabilityResult: applicable to CandidateSetComparisonBasis@Review-2026-08 in ReviewWindow-2026-08
+    caseInputRefs[]: [ReferencePublicationEdition@v2, CandidateSetComparisonBasis@Review-2026-08]
+    currentFactOrEvidenceRefs[]: [ReferencePublicationEdition-v2-IsAdmitted, ReferencePublicationEdition-v2-IsNotDeprecated]
+    requiredPolarity: currentness failed or unknown
+    observedOutcome: notSatisfied
+    dependentSelectedRelationOccurrenceRefs[]: [ComparisonBasisDependsOnEdition@ReferencePublicationEdition-v2]
+    qualificationWindow: ReviewWindow-2026-08
+    result: disabled
+currentContinuationSetResult: enabled [RecalculateWithV2Continuation]; disabled [ReplaceReferenceEditionContinuation]; unknown []
 relationReferenceEpistemeRefs[]:
-  - epistemeRef: ComparisonBasisDependsOnEditionReference@Review-2026-07
+  - epistemeRef: ComparisonBasisDependsOnEditionReference@Review-2026-08
     entityOfConcernRef: ComparisonBasisDependsOnEdition@ReferencePublicationEdition-v2
-    effectiveReferenceSchemeRef: CandidateSetRepairReferenceScheme@Review-2026-07
     claimContent:
-      selectedCGUSRef: EditionComparisonUnfolding@Review-2026-07
-      exactRelationOccurrenceRef: ComparisonBasisDependsOnEdition@ReferencePublicationEdition-v2
-      exactRelationKindRef: ComparisonBasisDependencyRelationKind@Review-2026-07
-      predicateDefinitionRef: ComparisonBasisDependsOnEditionPredicate@Review-2026-07
-      exactParticipantRefsInPredicateOrder[]:
-        ReferencePublicationEdition@v2
-        CandidateSetComparisonBasis@Review-2026-07
-      currentFactOrEvidenceRefs[]:
-        ReferencePublicationEdition-v2-IsAdmitted@Review-2026-07
-        ComparisonBasisPinsReferencePublicationEdition-v2@Review-2026-07
+      predicateDefinitionRef: ComparisonBasisDependsOnEditionPredicate@Review-2026-08
+      exactParticipantRefsInPredicateOrder[]: [ReferencePublicationEdition@v2, CandidateSetComparisonBasis@Review-2026-08]
+      currentFactOrEvidenceRefs[]: [ComparisonBasisPinsReferencePublicationEdition-v2@Review-2026-08]
 neighboringValueUseRows[]:
-  - admittedTransformationPositionLocator: EditionComparisonUnfolding@Review-2026-07 / ComparisonRecalculationPosition / ComparisonRecalculationConstituent@Review-2026-07
-    neighboringValueKindRef: U.Episteme
+  - admittedCGUSLocusBindingRef: EditionComparisonUnfolding@Review-2026-08 / recalculate / ComparisonRecalculationConstituent@Review-2026-08
     neighboringValueRef: ReferencePublicationEdition@v2
     connectionQuestion: which admitted edition is used by this comparison basis?
     exactSupportingRelationOccurrenceRef: ComparisonBasisUsesReferencePublicationEdition@v2
-    connectionRationaleClaimRef: ComparisonBasisPinsReferencePublicationEdition-v2@Review-2026-07
-    supportingRelationKindRef: ComparisonBasisSourceUseRelationKind@Review-2026-07
-    predicateDefinitionRef: ComparisonBasisUsesReferencePublicationEditionPredicate@Review-2026-07
-    exactParticipantRefsInPredicateOrder[]:
-      CandidateSetComparisonBasis@Review-2026-07
-      ReferencePublicationEdition@v2
-    currentFactOrEvidenceRefs[]:
-      ComparisonBasisPinsReferencePublicationEdition-v2@Review-2026-07
-preservedTransformationStructureRefs[]:
-  EditionToComparisonDependencyStructure@Review-2026-07
-stopCondition: stop stronger use if the edition-current claim, dependency occurrence, either binding, or source-use occurrence is not current
-reconsiderationConditions[]:
-  - conditionClaimRef: ReferencePublicationEditionChangedAfter-v2@Review-2026-07
-    affectedStructureRef: EditionComparisonUnfolding@Review-2026-07
-    nextQuestion: does the comparison basis still use an admitted current edition?
-    relevantPatternRef: G.11, because its currentness test is used
+    connectionRationaleClaimRef: ComparisonBasisPinsReferencePublicationEdition-v2@Review-2026-08
+preservedTransformationStructureRefs[]: [EditionToComparisonDependencyStructure@Review-2026-08]
+stopCondition: stop recalculation if the currentness result, dependency occurrence, either flow binding, or source-use occurrence is unavailable
+reconsiderationCondition: re-evaluate both candidates when the edition or currentness facts change
 ```
 
-This is complete for the bounded high-reliance question it asks: two admitted positions, one dependency occurrence with one relation-reference episteme, one applied-constraint branch with its test and current facts, one neighboring source-use occurrence anchored at the admitted comparison-recalculation position with its exact rationale claim, and one preserved transformation structure are recoverable by value. `ComparisonBasisDependsOnEditionPredicate@Review-2026-07` makes the current comparison basis depend on the admitted edition, and the ordered participants fix the direction from edition to basis; no separate functional label is needed. The neighboring row makes no stronger contribution claim, so it carries no `concreteContribution`. The applied claim remains a claim. It is not inserted into `relationReferenceEpistemeRefs[]` and is not redescribed as an E.18 guard event.
-
+This case is complete for its bounded question. The structure has two potential candidates, while the present window enables one. The currentness claim remains a condition claim with a test, applicability, inputs, and facts; it is not inserted into `relationReferenceEpistemeRefs[]`. If those facts disappear, the recalculation candidate becomes unknown and the replacement candidate is judged under its own condition; the topology and structure do not change merely because the enabled set does.
 **Partial candidate-set recovery display.** The larger four-position account below preserves the broader teaching slice but intentionally leaves several exact values unresolved. It is a scaffold for recovery, not a worked conformance proof:
 
 ```text

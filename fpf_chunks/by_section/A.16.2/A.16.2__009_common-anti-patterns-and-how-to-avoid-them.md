@@ -6,12 +6,12 @@ section_id: "A.16.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 27891
-line_end: 27897
+line_start: 27406
+line_end: 27412
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -35,7 +35,7 @@ keywords:
 
 ### A.16.2:8 - Common Anti-Patterns and How to Avoid Them
 - **Shame-driven concealment.** Teams hide the retreat. Publish the move.
-- **Silent downgrade.** The publication loses closure state, route authority state, or endpoint authority claim but no one updates the route or authority state.
+- **Silent downgrade.** The publication loses closure, a selected route, a passed endpoint test, publication availability, or current use, but no one updates the exact affected claim.
 - **Retreat as erasure.** Earlier witnesses disappear even though they remain valid.
 - **Respecify as silent repair.** `respecify` is used to hide a real epistemic precision restoration that belongs to later repair governing patterns.
 - **Silent branch disappearance.** A branch stops mattering, but no retirement or supersession note is published.

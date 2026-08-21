@@ -1,50 +1,33 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
+pattern_title: "Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
 section_id: "A.6.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__007_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
+  - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:6 — Bias-Annotation"
-line_start: 19635
-line_end: 19643
+line_start: 19343
+line_end: 19351
 dependencies:
   - "A.10"
   - "A.14"
   - "A.2.4"
-  - "A.2.6"
   - "A.6.0"
   - "A.6.3"
-  - "A.6.3-A.6.4"
   - "A.6.4"
   - "A.6.5"
-  - "A.6.P"
-  - "A.7"
+  - "A.6.6"
+  - "A.6.REL"
   - "C.2.1"
-  - "C.3.3"
   - "E.10"
-  - "E.18"
-  - "E.8"
-  - "F.15"
+  - "F.17"
   - "F.18"
   - "F.9"
 keywords:
-  - "SWBD"
-  - "anchoring"
-  - "base declaration"
-  - "baseRelation"
-  - "basedness"
-  - "rebase"
-  - "rescope"
-  - "retime"
-  - "scope"
-  - "support-as-basedness"
-  - "witnesses"
-  - "Γ_time"
 ---
 
 ### A.6.6:6 - Bias-Annotation
@@ -52,7 +35,7 @@ keywords:
 | Lens | Bias introduced by this pattern |
 | --- | --- |
 | **Governance / assurance** | Prefers explicit witnesses and explicit time selectors for decision-relevant declarations; increases auditability but adds authoring overhead. |
-| **Architecture** | Encourages reifying “relative-to” facts as first-class records rather than implicit prose. |
-| **Onto-epistemic** | Treats “kind of base relation” as first-order; pushes authors to mint explicit baseRelation tokens instead of hiding semantics in adjectives. |
-| **Didactic** | Introduces a new stable vocabulary (“dependent/base/baseRelation”) and requires authors to maintain it consistently across views. |
+| **Architecture** | Prefers the direct assertion and predicate first. It permits a reusable declaration or scoped assertion record only for a named receiver, reducing both hidden relations and record-first over-formalization. |
+| **Onto-epistemic** | Makes the actual relation kind and direct predicate explicit; resists both metaphor-only wording and a universal base-relation kind. |
+| **Didactic** | Teaches the short dependent–base–direct-relation question first; the optional record vocabulary appears only for a named later use. |
 

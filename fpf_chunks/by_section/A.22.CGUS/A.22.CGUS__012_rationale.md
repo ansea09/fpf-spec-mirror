@@ -6,46 +6,45 @@ section_id: "A.22.CGUS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__012_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:10 — Rationale"
-line_start: 35148
-line_end: 35155
+line_start: 34330
+line_end: 34335
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.21"
   - "A.22"
-  - "A.6.3.NAR"
-  - "B.3.5"
-  - "B.5.2"
-  - "C.13"
-  - "C.18"
-  - "C.19"
-  - "C.2.P.DR"
-  - "C.3"
+  - "A.3"
+  - "A.6.5"
+  - "A.6.P"
+  - "B.3"
+  - "C.29"
+  - "C.30"
+  - "C.32"
   - "C.32.P2S"
   - "C.33"
   - "C.35"
-  - "E.10.MOVE"
   - "E.11"
   - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.18.3"
   - "E.18.NET"
-  - "E.18.NET-conforming"
   - "E.23"
-  - "E.24.PUB"
   - "F.17"
+  - "F.18"
+  - "F.9"
   - "G.11"
-  - "G.5"
 keywords:
 ---
 
 ### A.22.CGUS:10 - Rationale
 
-The selected design is a thin A.22 specialization of `U.Structure` because the recurring object is real but not a new root ontology. Constraint-based process modeling, case-management practice, artifact-centric modeling, acausal modeling, architecture-description practice, and FPF's own pattern use all separate a constraint-bearing structure from a performed trace, work order, view, publication, solver run, or example path. FPF adopts that separation as a constraint-governed unfolding structure and refuses to import one universal process calculus.
+The recurring object is a thin specialization of A.22 `U.Structure`, not a new root kind. Constraint-based process modeling, object-centric querying, artifact-centric modeling, acausal modeling, and FPF pattern use all distinguish a constraint-bearing structure from a performed trace, work order, view, publication, solver run, or example path.
 
-Physical modeling makes the same distinction concrete. In acausal modeling, component relations, quantities conserved across connections, and mode conditions can be declared before the model is compiled and solved in one chosen direction. The FPF import is only the general architecture of the move: structure and constraints first; derived calculation, demonstration, calibration, publication, or work use later under the patterns that define or constrain those claims.
-
-CGUS is deliberately close to A.22. It is one selected `U.Structure` with the four A.22 identity discriminators and a constraint-governed unfolding use. It has no ambient context field. Descriptions, views, graph renderings, route cards, README entries, demonstrations, and examples help humans use it; they do not become it.
+The same distinction appears in acausal engineering models: component relations and constraints can be stated before an analysis chooses a calculation direction. FPF adopts only that general separation. Mathematical models, analyses, executions, results, and publications keep their own kinds and rules.
 

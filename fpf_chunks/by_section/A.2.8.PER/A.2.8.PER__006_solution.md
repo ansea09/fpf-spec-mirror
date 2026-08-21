@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:4 — Solution"
-line_start: 6732
-line_end: 6918
+line_start: 6766
+line_end: 6954
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -76,26 +76,28 @@ NonProhibitionFinding@Context <: U.Episteme
   scope: U.ClaimScope
   intendedUse:
   evaluationWindow: QualificationWindowPolicy
-  checkedProhibitionRefs: set<ClaimIdRef>
+  checkedProhibitionAddresses: set<ClaimAddress>
   result: nonProhibited | unresolved
   evaluationWorkRef: WorkRef
 
 NonViolationFinding@Context <: U.Episteme
   workRef: WorkRef
   performerSystemRoleAssignmentRefs: set<U.RelationRef constrained to U.SystemRoleAssignment>
-  onBehalfOfRelationOccurrenceRef?: U.EntityRef
+  onBehalfOfRelationOccurrenceRef?: U.RelationRef constrained to the direct on-behalf-of relation kind
   normativeFrameRef: U.EpistemeRef
   frameCurrentnessResultRef: U.EpistemeRef
   frameCompletenessForUseResultRef: U.EpistemeRef
   scope: U.ClaimScope
   intendedUse:
   evaluationWindow: QualificationWindowPolicy
-  checkedProhibitionRefs: set<ClaimIdRef>
+  checkedProhibitionAddresses: set<ClaimAddress>
   result: nonViolating | unresolved
   evaluationWorkRef: WorkRef
 ```
 
 `nonProhibited` and `nonViolating` are admissible only when the named frame is current and explicitly sufficiently complete for the intended use. Otherwise the finding is `unresolved`. Neither finding institutes permission, proves absence outside its frame, or becomes a world-side relation.
+
+Every `ClaimAddress` in this pattern means the reusable `C.2.1 ClaimAddress`: an exact episteme-edition reference plus an intrinsic claim identity declared by that edition's ClaimGraph. A heading, row number, file location, or printed token is insufficient.
 
 For `NonViolationFinding@Context`, recover the performer Systems from the named Work and cite each covering assignment occurrence and its declared `U.SystemRoleAssignment` species. If the checked norm instead turns on Work done for a `PartyRef`, cite the obtaining on-behalf-of relation defined in its pattern. These are case facts used by the evaluation, not a new `beneficiaryPerformanceBinding` episteme. Omit the on-behalf-of reference when no such branch is used.
 
@@ -144,14 +146,14 @@ RelationSignature:
   GrantedPermissionOccurrenceSlot:
     SlotKind: GrantedPermissionOccurrenceSlot
     ValueKind: U.Relation
-    refMode: U.EntityRef
-      // resolves to one GrantedPermissionRelation@Context occurrence
+    refMode: U.RelationRef constrained to GrantedPermissionRelation@Context
+      // resolves to one exact obtaining grant occurrence
 
 semanticDirection: ExercisingWorkSlot -> GrantedPermissionOccurrenceSlot
 
 RelationOccurrenceQualifiers:
   beneficiarySystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment
-  onBehalfOfRelationOccurrenceRef?: U.EntityRef
+  onBehalfOfRelationOccurrenceRef?: U.RelationRef constrained to the direct on-behalf-of relation kind
   exerciseScope: U.ClaimScope
   exerciseInterval: QualificationWindowPolicy
 ```
@@ -176,36 +178,36 @@ PermissionConflictResolutionResult@Context <: U.Episteme
   resolutionWorkRef: WorkRef
   deciderSystemRef: U.EntityRef
   deciderSystemRoleAssignmentRef: U.RelationRef constrained to U.SystemRoleAssignment
-  decisionAuthorityRelationOccurrenceRef: U.EntityRef
-  selectedGrantOccurrenceRef?: U.EntityRef
-  selectedNormClaimRef?: ClaimIdRef
+  decisionAuthorityRelationOccurrenceRef: U.RelationRef constrained to the direct decision-authority relation kind
+  selectedGrantOccurrenceRef?: U.RelationRef constrained to GrantedPermissionRelation@Context
+  selectedNormClaimAddress?: ClaimAddress
   effectiveScope: U.ClaimScope
   effectiveWindow: QualificationWindowPolicy
-  reopenConditionRef: ClaimIdRef
+  reopenConditionClaimAddress: ClaimAddress
 
 PermissionNormConflictFinding@Context <: U.Episteme
-  grantedPermissionOccurrenceRef: U.EntityRef
-  conflictingNormClaimRef: ClaimIdRef
+  grantedPermissionOccurrenceRef: U.RelationRef constrained to GrantedPermissionRelation@Context
+  conflictingNormClaimAddress: ClaimAddress
   overlapScope: U.ClaimScope
   overlapWindow: QualificationWindowPolicy
   governingPrecedencePolicyRef: U.EpistemeRef
-  applicablePrecedenceRuleRef?: ClaimIdRef
-  decisionAuthorityRelationOccurrenceRef?: U.EntityRef
+  applicablePrecedenceRuleAddress?: ClaimAddress
+  decisionAuthorityRelationOccurrenceRef?: U.RelationRef constrained to the direct decision-authority relation kind
   resolutionWorkRef?: WorkRef
   resolutionResultRef?: PermissionConflictResolutionResultRef
   blockedWorkOrRelianceRef: U.EntityRef
   disposition: unresolved | settledByApplicableRule | settledByDecisionResult
-  reopenConditionRef: ClaimIdRef
+  reopenConditionClaimAddress: ClaimAddress
 ```
 
 Create the finding only when the grant and current prohibition or commitment concern the same beneficiary/action content, overlapping scope/window, and incompatible practical conclusions. Check that match directly from the two claims and their participants; do not require a `beneficiaryAndActionMatchFinding` wrapper. Permission and an obligation to perform the same action are not automatically in conflict.
 
 Resolve the conflict through exactly one of two branches:
 
-1. **The current policy already decides.** `applicablePrecedenceRuleRef` cites the policy claim whose stated conditions match this beneficiary, action, scope, and window. Set `settledByApplicableRule` only when that rule itself selects which claim governs the blocked use.
+1. **The current policy already decides.** `applicablePrecedenceRuleAddress` cites the policy claim whose stated conditions match this beneficiary, action, scope, and window. Set `settledByApplicableRule` only when that rule itself selects which claim governs the blocked use.
 2. **A decision is required.** Name the admitted `U.System` that decides, the covering assignment under which it performs the dated `resolutionWorkRef`, and the independently obtaining authority relation whose predicate is defined by its subject pattern and which authorizes this decision. The direct result relation for that decision must connect the Work to a current `PermissionConflictResolutionResult@Context` selecting either the grant occurrence or the conflicting norm claim for the stated scope/window. The system decides; neither its assignment, authority relation, policy, nor organizational label performs the work.
 
-`PermissionConflictResolutionResult@Context` is the exact decision result for this conflict, not a generic owner record. Exactly one of `selectedGrantOccurrenceRef` or `selectedNormClaimRef` is filled. Its `deciderSystemRoleAssignmentRef` must cover `resolutionWorkRef` and have `deciderSystemRef` as holder; `decisionAuthorityRelationOccurrenceRef` must independently authorize that decision. If no policy rule decides and no such current result exists, the disposition remains `unresolved`, even when a responsible office or system-role kind is named. Permit text, readiness, or a passing gate does not silently defeat the prohibition.
+`PermissionConflictResolutionResult@Context` is the exact decision result for this conflict, not a generic owner record. Exactly one of `selectedGrantOccurrenceRef` or `selectedNormClaimAddress` is filled. Its `deciderSystemRoleAssignmentRef` must cover `resolutionWorkRef` and have `deciderSystemRef` as holder; `decisionAuthorityRelationOccurrenceRef` must independently authorize that decision. If no policy rule decides and no such current result exists, the disposition remains `unresolved`, even when a responsible office or system-role kind is named. Permit text, readiness, or a passing gate does not silently defeat the prohibition.
 
 #### A.2.8.PER:4.7 - Keep the handshakes narrow
 

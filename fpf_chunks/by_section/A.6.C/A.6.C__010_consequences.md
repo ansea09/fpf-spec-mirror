@@ -6,12 +6,12 @@ section_id: "A.6.C:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__010_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:9 — Consequences"
-line_start: 11535
-line_end: 11547
+line_start: 11571
+line_end: 11583
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,7 +39,8 @@ keywords:
   - "OPTIONAL"
   - "SHOULD"
   - "a mechanism entry predicate enters A"
-  - "and SHOULD NOT enter D only for an individual duty"
+  - "an individual duty"
+  - "and SHOULD NOT enter D for a generic prescription or"
   - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
@@ -56,6 +57,7 @@ keywords:
   - "rewrite it or mark it informative"
   - "separate result and evidence"
   - "speech-act Work"
+  - "when separately instituted for an actual bearer"
 ---
 
 ### A.6.C:9 — Consequences
@@ -63,7 +65,7 @@ keywords:
 **Benefits**
 
 * Category mistakes (“contract soup”) become systematically repairable.
-* Individual commitments become distinguishable and adjudicable: the actual bearer, rule, instituting basis, scope, validity, and any evidence needed for reliance are explicit without turning an assignment into the duty or responsibility relation.
+* Generic prescriptions remain usable without invented occurrences, while individual commitments remain distinguishable and adjudicable through their actual bearer, rule, instituting basis, scope, validity, and any evidence needed for reliance.
 * Boundaries remain evolvable: laws, gates, governance, and evidence can evolve with controlled coupling.
 
 **Trade-offs and mitigations**

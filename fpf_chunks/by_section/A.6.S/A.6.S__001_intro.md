@@ -1,24 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.S"
-pattern_title: "U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
+pattern_title: "TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
 section_id: "A.6.S:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
+  - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:intro — Intro"
-line_start: 20609
-line_end: 20623
+line_start: 20264
+line_end: 20282
 dependencies:
-  - "A.12"
-  - "A.3"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.2"
+  - "A.2.1"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6"
   - "A.6.0"
-  - "A.6.2"
-  - "A.6.3"
-  - "A.6.4"
+  - "A.6.2-A.6.6"
   - "A.6.5"
   - "A.6.6"
   - "A.6.B"
@@ -26,36 +30,30 @@ dependencies:
   - "C.2.1"
   - "E.10"
   - "E.17"
+  - "E.17.0"
   - "E.18"
-  - "E.19"
+  - "F.6"
 keywords:
-  - "ConstructorSignature"
-  - "EFEM"
-  - "MVPK views (no new semantics)"
-  - "TargetSignature"
   - "appear"
-  - "claim register"
-  - "editioning"
-  - "no epistemic agency"
   - "quadrant classification is governed by A.6.B)"
-  - "retargeting"
-  - "signature engineering"
-  - "slot/base change lexicon"
-  - "two-signature arrangement"
 ---
 
-## A.6.S - U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature
+## A.6.S - TargetSignature and optional ConstructorSignature - demand-driven signature engineering
 
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Mixed (normative where RFC 2119 keywords appear; quadrant classification is governed by A.6.B)
-> **One-liner:** **explicitly modelling signature engineering as a two-signature arrangement** (TargetSignature + ConstructorSignature), with strict separation between **operator description** and **Work performed by admitted Systems**. F.6 identifies the assignment under which each performer acted; a short account may omit an unused assignment identifier.
+> **One-liner:** Start from the actual signature assertion, revision, relation, operation application, or Work. Add a separate ConstructorSignature only when a named receiving use needs reusable constructor vocabulary, laws, and applicability. Keep an operation description, any mathematical arrow, its application, performed Work, and publication faces distinct.
 
-**E.24.UK settlement.** `U.SignatureEngineeringPair` is retained as a dependent durable arrangement value under the `U.Signature` and A.6 slot-relation settlement, not as a root U-kind. Its identity is the paired TargetSignature and ConstructorSignature relation used to engineer one boundary signature while keeping operator descriptions, enacted Work, publication faces, and system-role assignments separate. A local pair of documents, work procedure, or editing practice does not become `U.SignatureEngineeringPair` unless the two signature epistemes and their constructor relation are named.
+**E.24.UK settlement.** A.6.S admits no `U.SignatureEngineeringPair` kind or durable arrangement individual. The spelling is retired. `TargetSignature` and `ConstructorSignature` are use-specific designations for two independently identified `U.Signature` epistemes; neither designation adds another kind, constitution relation, or identity discriminator. Merely pairing two documents or naming both signatures establishes no relation between them.
 
-**Use this pattern when** a boundary signature is being engineered through a TargetSignature and a ConstructorSignature, and the project must keep operator descriptions, performed Work and its F.6 attribution, publication faces, and proportional reporting of assignment identity separate.
+**Use this pattern when** a project already has, or genuinely needs, a reusable signature that declares how another signature is to be authored or revised, and at least one named receiving use needs that declaration to remain stable across applications, editions, or publishers.
 
-**What goes wrong if missed.** The signature being engineered, the constructor operation description, and the work that enacts publication or edition change collapse into one “contract/editing” story.
+**Do not use this pattern** merely because one signature is edited, one direct relation is stated, one view is prepared, or one work occurrence changes a carrier. Apply that direct rule and stop. A one-off revision needs no ConstructorSignature, pair record, shared slot vocabulary, base-declaration history, arrow metadata, assignment identity, or publication package unless its own receiving claim requires one.
 
-**What this buys.** The relation between TargetSignature and ConstructorSignature becomes explicit: constructor operators stay effect-free episteme morphisms, while performed Work and its F.6 attribution, carriers, and publication faces stay with their own direct patterns. Short accounts expose an assignment identifier only when the receiving claim uses it.
+**First useful move.** Say what changes in ordinary language: for example, `The editor added the refund law to PaymentBoundarySignature and issued edition 4.` Identify the changed signature episteme and, when current, the operation application, System, Work, result, or edition relation. Only then ask whether a later receiver needs a reusable declaration of the constructor operations.
+
+**What goes wrong if missed.** At one extreme, the signature, the operation description, and the Work that changes or publishes it collapse into one “contract/editing” story. At the other, every small edit acquires a second signature, a pair object, two operation lexicons, and a full attribution package.
+
+**What this buys.** The light path stays light. Where repeatable constructor language has real users, the ConstructorSignature can preserve that language while the TargetSignature, operation description, A.6.2 arrow, application, Work, assignment, carrier, and publication view keep their own identities and direct relations.
 

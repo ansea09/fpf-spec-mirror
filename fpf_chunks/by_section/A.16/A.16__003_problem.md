@@ -6,13 +6,18 @@ section_id: "A.16:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__003_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:2 — Problem"
-line_start: 26925
-line_end: 26927
+line_start: 26565
+line_end: 26568
 dependencies:
+  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.5"
+  - "A.15.PROD"
   - "A.16"
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -20,19 +25,26 @@ dependencies:
   - "A.16.2"
   - "A.18"
   - "A.19"
+  - "A.2"
+  - "A.2.1"
   - "A.6.A"
   - "A.6.P"
   - "B.4.1"
   - "B.5.2.0"
   - "C.16.Q"
+  - "C.2.1"
   - "C.2.2a"
   - "C.2.4"
   - "C.2.5"
   - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "C.25"
   - "E.10.MOVE"
+  - "E.11.PUR"
   - "E.18"
+  - "E.24.PUB"
+  - "F.6"
 keywords:
   - "admissible language-state move"
   - "language-state"
@@ -45,5 +57,6 @@ keywords:
 ---
 
 ### A.16:2 - Problem
-Without a dedicated coordination pattern, authors either misuse `F0-F9`, force every cue into anomaly/problem language too early, let reopen and backoff happen informally with no explicit guards, or over-wrap every local move in a meta-account that should have remained optional.
+
+Without one coordination rule, authors force cues into anomaly or requirement language too early, describe every change as maturation, hide reopen and backoff, confuse a new form with a new episteme, treat route selection or publication as authority, or wrap every move in a trajectory account.
 

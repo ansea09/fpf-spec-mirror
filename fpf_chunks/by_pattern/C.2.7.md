@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.7.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
-line_start: 44010
-line_end: 44184
+line_start: 42789
+line_end: 42963
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -21,6 +21,7 @@ dependencies:
   - "C.2.2a"
   - "C.2.6"
   - "C.2.LS"
+  - "F.9"
   - "F.9.1"
 keywords:
   - "factor bundle"
@@ -124,7 +125,7 @@ This factorization fits current work on sparse distributed representations, hybr
 
 ### C.2.7:12 - Relations
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
-- Coordinates with: `C.2.6`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `F.9.1`.
+- Coordinates with: `C.2.6`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `F.9` for any Bridge and bounded-use claim, and `F.9.1` only for an optional stance note about that claim.
 - Constrains: language-state position publication and bridge loss notes around representation shifts.
 ### C.2.7:13 - Worked Examples and Factor Interaction Notes
 

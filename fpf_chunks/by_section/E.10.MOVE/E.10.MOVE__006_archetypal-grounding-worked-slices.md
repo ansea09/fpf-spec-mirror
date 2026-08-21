@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__006_archetypal-grounding-worked-slices.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:5 — Archetypal Grounding - Worked Slices"
-line_start: 75731
-line_end: 75801
+line_start: 73011
+line_end: 73081
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -42,19 +42,19 @@ keywords:
 
 Source sentence: "The next mantra move is to compare the two patterns."
 
-Keep `mantra move` only when the sentence presents one row inside a named `DemonstrativeUnfoldingSlice@Context`. The row names its public template or project candidate, direct PatternID and name, Solution, expected result, result-flow position, and continuation condition. That PatternID is a locator; neither it nor the referenced Solution establishes a `U.Method` or `U.MethodDescription`. If the pattern choice is unresolved, the row points to a separate nested pattern-selection slice. The phrase does not claim a recommendation, method, work plan, performed work, or operation merely by being readable.
+Keep `mantra move` only when the sentence presents one E.11.PUA practice-continuation description inside a named post-qualification demonstrative slice. The description states its proposed use, expected result and kind, direct PatternID and name, current condition, and continuation disposition. That PatternID is a locator; neither it nor the referenced Solution establishes a `U.Method` or `U.MethodDescription`. If the pattern choice is unresolved, the description may point to a separate nested selection question. The phrase does not claim a recommendation, method, work plan, performed work, or operation merely by being readable.
 
 ```text
 WordingUseDispositionValue: boundedDemonstratedContinuation
-SubjectPatternLocator: A.22.CGUS
-RecoveredGovernedValueRef: DemonstratedPatternUseRow@SeminarArchitectureUse
-RecoveredGovernedValueKindRef: DemonstratedPatternUseRow@Context
+SubjectPatternLocator: E.11.PUA
+RecoveredGovernedValueRef: PatternUsePracticeContinuationDescription@SeminarArchitectureUse
+RecoveredGovernedValueKindRef: PatternUsePracticeContinuationDescription@Context
 RetainedPlainWording: mantra move, only in the bounded CGUS-demonstrative context
 BlockedOverread: no U.Move; no actual work or universal sequence
 RemainingReaderUse: inspect the shown candidate, Solution, expected result, and condition
-QualificationWindow: published A.22.CGUS and E.10.MOVE pattern editions dated 2026-07-11
-CurrentnessBasis: A.22.CGUS admits this named seminar slice and row; E.10.MOVE admits the bounded Plain wording
-ReopenCondition: the enclosing slice loses CGUS admission, the demonstrated-row schema changes, or readers use the phrase as Work, recommendation, or universal sequence
+QualificationWindow: the current E.11.PUA continuation description and the named A.22.CGUS demonstrative slice
+CurrentnessBasis: the enclosing structure qualifies under A.22.CGUS, the slice shows this E.11.PUA description, and E.10.MOVE admits the bounded Plain wording
+ReopenCondition: the enclosing structure or slice boundary changes, the E.11.PUA description changes, or readers use the phrase as Work, recommendation, or universal sequence
 ```
 
 #### E.10.MOVE:5.2 - Expected evaluation-result change
@@ -73,7 +73,7 @@ If this is a project-local recommendation, restore `PatternUseRecommendation@Con
 
 Source sentence: "The MOVE is full-kitted and ready."
 
-Preserve `MOVE` as imported source wording. Restore the target WorkPlan or PlanItem, full-kit condition, work-entry readiness relation, and any actual gate decision under their direct patterns. Do not claim target work occurred unless a dated A.15.1 occurrence is current.
+Preserve `MOVE` as imported source wording. Restore the target WorkPlan or PlanItem, full-kit criterion, A.15.5 work-entry readiness result, and any actual gate decision under their direct patterns. Do not claim target Work occurred unless a dated A.15.1 occurrence is current.
 
 #### E.10.MOVE:5.5 - Workflow diagram
 
@@ -103,7 +103,7 @@ When `ready` hides a patient-state claim, use A.19.SPR to recover the patient as
 
 Initial sentence: "The next mantra move is: name the thing."
 
-An initial repair classified the phrase as `boundedDemonstratedContinuation`. Inspection then shows that the enclosing text is A.6.P's local RPR mantra: a short rendering of the A.6.P Solution. It has no named wider `ConstraintGovernedUnfoldingStructure@Context`, no admitted `DemonstrativeUnfoldingSlice@Context`, and no complete `DemonstratedPatternUseRow@Context`.
+An initial repair classified the phrase as `boundedDemonstratedContinuation`. Inspection then shows that the enclosing text is A.6.P's local RPR mantra: a short rendering of the A.6.P Solution. It has no qualifying wider `ConstraintGovernedUnfoldingStructure@Context`, no post-qualification `DemonstrativeUnfoldingSlice@Context`, and no E.11.PUA practice-continuation description with the required proposed use, expected result, pattern, condition, and disposition.
 
-That evidence overturns the initial disposition. Remove the demonstrated-row claim, retain the local RPR mantra as Plain didactic wording, use the A.6.P Solution and its direct relation-recovery guidance, and write: "Apply the first clause of the local RPR mantra: name the thing; then recover the relation or comparison." The `A.6.P` locator and Solution establish neither a `U.Method` nor a `U.MethodDescription`. Establish a separate `U.Method`, a qualifying `U.MethodDescription` episteme, and any Method-use relation only if A.3.1 and A.3.2 independently admit them and the receiving claim depends on those identities. Reopen CGUS admission only if a later demonstration supplies the enclosing slice and complete row positions.
+That evidence overturns the initial disposition. Remove the demonstrated-continuation claim, retain the local RPR mantra as Plain didactic wording, use the A.6.P Solution and its direct relation-recovery guidance, and write: "Apply the first clause of the local RPR mantra: name the thing; then recover the relation or comparison." The `A.6.P` locator and Solution establish neither a `U.Method` nor a `U.MethodDescription`. Establish a separate `U.Method`, a qualifying `U.MethodDescription` episteme, and any Method-use relation only if A.3.1 and A.3.2 independently admit them and the receiving claim depends on those identities. Reopen the demonstrative-slice question only if a later qualified structure and slice actually show a complete E.11.PUA practice-continuation description.
 

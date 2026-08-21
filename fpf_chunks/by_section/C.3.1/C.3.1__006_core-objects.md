@@ -6,12 +6,12 @@ section_id: "C.3.1:4"
 section_title: "Core Objects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__006_core-objects.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:4 — Core Objects"
-line_start: 44734
-line_end: 44753
+line_start: 43520
+line_end: 43539
 dependencies:
   - "A.1"
   - "A.11"
@@ -46,19 +46,19 @@ keywords:
 
 | Object | Meaning | Boundary |
 | --- | --- | --- |
-| `U.Kind` | A kind value identified by an explicit local practice or source boundary together with a stable subject distinction; typed claims use `KindSignature` editions whose content names the effective `U.ReferenceScheme`. | It is not automatically a durable public FPF U-kind, and the scheme is not stored on the kind. |
-| `U.SubkindOf` | The admitted direct relation kind that orders two local `U.Kind` values under one effective reference scheme. Its participants are the narrower kind and the broader kind. | It is not a predicate expression, assertion episteme, dependency, part-whole, slot-filling, construction, system-role assignment, or admission relation. |
-| `SubkindOfObtains(k1, k2; RS)` | The relation-obtaining predicate: under exact reference-scheme edition `RS`, the aligned kind interpretations make every defined `true` judgment for `k1` imply `true` for `k2` over the declared candidate domain and applicable slices. | The predicate is rule content; it is not the obtaining occurrence. An unresolved required judgment leaves an assertion about obtaining unresolved rather than making the relation false. |
-| `R_sub : U.SubkindOf` | One obtaining direct relation occurrence between exact narrower kind `k1` and broader kind `k2` under `RS`. | Expose an occurrence designator only when a named receiver needs to distinguish or refer to the occurrence. Participant identities plus the exact effective reference-scheme edition determine its identity. |
-| subkind assertion episteme | A C.2.1 episteme whose content affirms, denies, or leaves unresolved `SubkindOfObtains(k1, k2; RS)` and cites the aligned signature editions and support used. | The assertion neither makes the relation obtain nor creates `R_sub`; a negative or unresolved assertion designates no obtaining occurrence. |
-| local kind-identity criterion | The declared basis for deciding whether two kind references, including references across signature editions, designate the same local kind. | It is not the membership criterion itself. |
-| `KindSignature` edition | The C.3.2 declaration episteme used to judge candidates for a kind. | It is neither the kind nor the order relation. |
+| `U.Kind` | The admitted meta-kind whose individuals are reusable intensional classification distinctions. One individual is recovered through its candidate domain, operative membership condition, intended member/non-member distinction, and continuity rule. | A `KindSignature`, label, source boundary, reference scheme, current extension, or receiving use is not the kind. |
+| `U.SubkindOf` | The admitted direct relation kind whose occurrences relate exact narrower and broader `U.Kind` participants within declared applicability. Its obtaining facts form a preorder. | It is not a predicate expression, assertion episteme, dependency, part-whole relation, construction, system-role assignment, or admission relation. |
+| `SubkindOfObtains(k1, k2)` | The relation-obtaining condition. It holds either because the exact membership criterion for `k1` entails the criterion for `k2` under an aligned interpretation and applicability, or because every candidate in a deliberately closed finite domain has been evaluated and every admissible `true` result for `k1` is also `true` for `k2`. | The first branch is criterion-based. The second is explicitly domain-bounded. Non-exhaustive observations support a separate assertion but do not make the relation obtain. |
+| `R_sub : U.SubkindOf` | One obtaining relation occurrence between exact narrower kind `k1` and broader kind `k2`. | Use a designator only when a receiver needs it. The ordered kind participants determine occurrence identity; schemes, signatures, evidence, assertions, and publications do not. |
+| subkind assertion episteme | A C.2.1 episteme that affirms, denies, or leaves unresolved the obtaining condition and cites its interpretation, applicability, branch, and support. | The assertion does not make the relation obtain; a negative or unresolved assertion designates no obtaining occurrence. |
+| classification equivalence for an alignment | Mutual obtaining `U.SubkindOf` facts between two kinds within the same declared applicability. | It says that the two membership distinctions classify alike there. It does not identify the kinds. A consumer that needs a partial order may order these equivalence groups. |
+| `KindSignature` edition | The C.3.2 declaration episteme used to interpret and evaluate one kind. | It is neither the kind nor the subkind relation. |
 
-#### C.3.1:4.1 - Direct `U.SubkindOf` Relation Boundary
+#### C.3.1:4.1 - Direct U.SubkindOf Relation Boundary
 
-`U.SubkindOf` is the C.3.1 direct relation kind, not the name of a claim. A readable sentence such as `CoolingPumpKind is a subkind of PumpKind in PlantScheme-7` states that the direct relation obtains for those two kind participants under the named scheme. It needs no occurrence identifier when no receiver depends on occurrence identity.
+A readable sentence such as `CoolingPumpKind is a subkind of PumpKind for this declared plant use` states that the direct relation obtains. It needs no occurrence identifier when no receiver distinguishes or refers to the occurrence.
 
-The relation obtains only when the exact effective reference-scheme edition and the compatible `KindSignature` editions make the monotonic implication hold throughout the declared candidate domain and applicable context slices. A known counterexample refutes obtaining for that alignment. Missing evidence, an unavailable dependency, an out-of-domain candidate, or another `unknown` judgment does not count as a counterexample, but it cannot by itself establish the universal obtaining predicate. `U.ContextSlice` is an input quantified by the predicate and by each C.3.2 judgment; it is neither a third relation participant nor scope stored on either kind.
+The criterion-entailment branch obtains when the exact narrower membership condition entails the broader one under the aligned interpretation and applicability. The closed-domain branch obtains only when the candidate domain is deliberately finite and closed, every candidate's admissibility has been checked, and exhaustive evaluation leaves no narrower `true` without a broader `true`. A counterexample refutes either proposal. A missing dependency or `unknown` judgment cannot establish either branch; a `not-applicable` request is outside the comparison.
 
-When a named receiving assertion, description, or relation needs one occurrence recoverably distinguished, use `R_sub : U.SubkindOf` only after obtaining is established. Its identity is participant-determined by the exact narrower kind, broader kind, and effective reference-scheme edition. A new signature edition prompts reevaluation of obtaining but does not by itself create another occurrence when C.3.1 preserves both kind identities and the same relation continues to obtain. Any affirmative, negative, or unresolved statement about the predicate is a separate C.2.1 assertion episteme; assertion polarity, evidence, publication, or editioning never substitutes for the direct relation.
+When a receiver needs one occurrence, `R_sub` is participant-determined by the ordered pair of kind identities. The effective scheme, aligned signatures, and applicability qualify how obtaining is tested and asserted. A scheme-edition change therefore prompts an alignment and renewed test; it does not create another relation occurrence. If the same participants still satisfy the condition, the same relation continues to obtain. If they no longer do, the prior obtaining claim is no longer current; another assertion may record that change without inventing a scheme-keyed occurrence.
 

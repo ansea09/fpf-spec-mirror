@@ -6,12 +6,12 @@ section_id: "F.1:4"
 section_title: "Solution — select by answer-changing role"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__005_solution-select-by-answer-changing-role.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:4 — Solution — select by answer-changing role"
-line_start: 90535
-line_end: 90615
+line_start: 87921
+line_end: 88001
 dependencies:
   - "A.10"
   - "A.7"
@@ -54,7 +54,7 @@ Say what answer is needed, what later use it serves, and which source difference
 Use identified sources whose relevant claims can be inspected. A discipline or domain-family label may help discovery but is not a source.
 
 **Step 3 — Inspect the answer-changing role of each candidate.**
-Ask what claim or limit from that edition can change the answer. Look deliberately for intended-use contributions, rival explanations, action-changing counterexamples, transfer limits, and material non-fit. One source may serve several roles.
+Ask what claim or limit from that edition can change the answer. If that role depends on a disputed expression, pause selection only long enough to use F.0.1's ordinary branch: name the exact source, edition, and passage, and say in plain language what the expression means there. Then return to source selection. Do not run this branch for every candidate. Look deliberately for intended-use contributions, rival explanations, action-changing counterexamples, transfer limits, and material non-fit. One source may serve several roles.
 
 **Step 4 — Take the smallest sufficient cut.**
 Retain sources that cover distinct answer-changing roles. Exclude a candidate when no inspected claim from it changes the stated question or use. Do not optimize for a fixed count, diversity score, canonical status, or exhaustive appearance.
@@ -65,7 +65,7 @@ Name deliberate exclusions and why they do not change this answer. State a load-
 **Step 6 — Return one `SourceCutNote`.**
 Identify it under C.2.1 by three values: the ClaimGraph produced by Steps 1–5, the exact receiving question from Step 1 as EntityOfConcern, and the named effective ReferenceScheme that resolves the question, cited editions, and role claims. Keep the intended use in the ClaimGraph. Use a one-screen representation when it helps the receiver hold the result in view. Detailed source analysis stays with the receiving comparison, synthesis, or evidence method.
 **Step 7 — Recover only the meanings the work needs.**
-After the cut is stable, use F.0.1 and F.17 only for expressions whose readings affect the work. Do not manufacture a local-sense cell for every retained source.
+After the cut is stable, create an F.17 local-sense cell only for a retained expression that later reuse, a claim, a named receiver, or an actual relation needs. Do not postpone a meaning needed by Step 3 to this stage, and do not manufacture a cell for every retained source.
 
 #### F.1:4.3 - The `SourceCutNote`
 
@@ -107,7 +107,7 @@ Inspect the underlying source claims before changing the cut. A descriptor match
 - **Answer-change test.** What can each retained source change in the answer or action? If nothing, exclude it or state the missing role.
 - **Rival-and-limit test.** Is a known rival explanation, counterexample, or transfer limit still hidden? Add the source that makes it inspectable or return the source gap.
 - **One-source test.** Does one already identified source close the question? If yes, stop without using additional F.1 steps.
-- **Locality test.** Have two sources been treated as saying the same thing merely because they use the same word? Recover their meanings separately.
+- **Locality test.** Have two sources been treated as saying the same thing merely because they use the same word? If so, use the ordinary F.0.1 branch on the exact passages before deciding their roles, then return to selection.
 - **Search-policy test.** Did a score decide membership before source claims were inspected? Undo that decision.
 - **Memory test.** Can the receiver hold the cut and each source's role in view? Remove non-changing material or split genuinely different questions.
 - **Reopen test.** Can the note say what future change would require selection again?

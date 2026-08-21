@@ -6,12 +6,12 @@ section_id: "B.2.2:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 37745
-line_end: 37754
+line_start: 36916
+line_end: 36925
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,5 +48,5 @@ keywords:
 | Component certificate transfer | Individual part certificates are used as result-system assurance. | Re-base assurance through B.2.2:4.5 and evidence-use patterns. |
 | Controller as containing whole | A controller or external system is treated as the new whole because it changes the parts. | Use A.12, A.3.4, B.2.5, and part-whole patterns separately. |
 | Dashboard as system | A monitoring model is treated as the operating system. | Use episteme, publication, source-use, C.30.AD, or digital-twin description patterns. |
-| Capability jump as system MHT | A metric improves and the result is called a new system. | Use B.2's `ExistingWholeExplanationCheck`; return to capability, characteristic, method, work, or architecture patterns if the existing whole remains sufficient. |
+| Capability jump as system MHT | A metric improves and the result is called a new system. | Perform B.2's ordinary existing-whole comparison; return to capability, characteristic, Method, Work, or architecture patterns if the existing whole remains sufficient. |
 

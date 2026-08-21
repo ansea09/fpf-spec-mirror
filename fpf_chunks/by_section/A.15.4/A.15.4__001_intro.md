@@ -6,12 +6,12 @@ section_id: "A.15.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:intro — Intro"
-line_start: 25476
-line_end: 25525
+line_start: 24911
+line_end: 24968
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,47 +56,55 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** Use `A.15.4` when a dashboard tile, credential view, copied approval, generated explanation, publication face, API response, source pointer, or weak indication is about to justify one exact work or reliance use, but a prerequisite for that use is not yet recoverable. Name the attempted use first. Then add one `RequiredPositionEntries` row for each independently required direct object; a one-position repair has one row, while a use with several prerequisites keeps them in separate rows. Each row names its `SubjectPatternLocator`—the pattern whose content defines, constrains, or tests the prerequisite—plus the direct-object kind, native project-side reference, required posture or currentness, and dependency on the attempted use. The repair record does not turn appearances or prerequisite rows into a new umbrella kind.
+**At a glance.** Use `A.15.4` when a dashboard tile, credential view, copied approval, generated explanation, publication face, API response, source pointer, or weak indication is about to justify work or reliance, but the prerequisite for that use is unclear. Ask three questions: **What am I about to do or rely on? Which exact fact, relation, decision, or result would warrant that use? Can I open it and confirm that it covers this case and time now?** Keep the appearance at the lightest safe use until that prerequisite can be checked.
 
-**Use this when.** Use this pattern when an acting user is ready to plan, start, continue, stop, or rely because a visible or copied appearance looks approved, current, safe, evidenced, delegated, released, or ready, but one exact attempted use still lacks one or more required relations or results. Record every independently required prerequisite as its own `RequiredPositionEntries` row; do not place several patterns, kinds, or project refs into one field.
+**Use this when.** Use this pattern only while appearance hides the direct object and test needed for one attempted use. If the direct question and the pattern that defines or tests it are already known, apply that pattern directly.
 
-**First output.** One compact `A.15.4` local repair record:
+**First output.** Start with one ordinary sentence:
+
+> This green tile points to `GateDecision-42`, but its link is stale. Use the tile only to find the current decision; do not deploy `Release-42` until that decision says `pass` for this release, target, scope, and window.
+
+That sentence is a complete first result for this one-prerequisite use: it names the attempted use, the appearance, the missing prerequisite, the safe use now, the overread to block, and the observation that permits return. It is not a relation, record kind, U-kind, assignment, or project authority and needs no independent identity. If the prerequisite is recovered immediately, omit the note and use the direct relation or result.
+
+When a short worksheet is useful, unpack the same result without adding ontology:
 
 ```text
-A.15.4 local repair record:
-  RelianceAppearanceRef:
-  RelianceAppearanceKind:
-  WorkOrRelianceUseKind:
-  WorkOrRelianceUseRef:
-  RequiredPositionEntries:
-    - EntryId:
-      SubjectPatternLocator:
-      DirectObjectKind:
-      ProjectSideObjectRef:
-      RequiredPostureOrCurrentness:
-      DependencyOnAttemptedUse:
-  AllowedUseNow:
-  AppearanceOverreadBlocked:
-  RecoveryOrStopCondition:
+Attempted use:
+Appearance:
+Missing prerequisite:
+Safe use now:
+Blocked overread:
+Return when:
 ```
 
-`RequiredPositionEntries` is a local row set, not a new record kind, prerequisite U-kind, or generic `U.EntityRef` list. Each `SubjectPatternLocator` names the pattern whose content defines, constrains, or tests that row's `DirectObjectKind`; `ProjectSideObjectRef` then uses the native reference form required for that object. A navigation or proxy pattern does not substitute for that rule or test, and heterogeneous prerequisites remain separate rows.
+Use structured `RequiredPositionEntries` only when the attempted use has several independent prerequisites, when release, safety, compliance, external impact, or irreversibility makes the distinctions load-bearing, or when another person or system must inspect the result later. Then add one row per direct object:
 
-**First repair use in practice.** Name what the encountered display, publication face, copied text, credential view, API response, pointer, or indication may safely do now: keep attention oriented, help find the required relation or result and its test in the §3 prerequisite lookup (including the permission and authority branch when that is the live claim), preserve a weak indication through `A.16.1`, support planning only through a `U.WorkPlan`, proceed inside a recovered relation, or block only the unsupported work or reliance claim.
+```text
+RequiredPositionEntries:
+  - SubjectPatternLocator:
+    DirectObjectKind:
+    ProjectSideObjectRef:
+    RequiredPostureOrCurrentness:
+    DependencyOnAttemptedUse:
+```
 
-**What goes wrong if missed.** The reliance appearance starts acting as if it already proves approval, gate passage, evidence, assurance, performed work, currentness, or release authorization. Work then proceeds or stops while the relation or result that must support the claim is missing, stale, revoked, or contradicted.
+These are rows in the local note, not relation participants or a new prerequisite ontology. If the analysis itself must persist as a reusable claim, publish one bounded C.2.1 episteme whose exact EntityOfConcern is the subject of the attempted use and whose ClaimGraph contains the needed rows and disposition. Split it when the claims have different entities of concern.
 
-**Primary EntityOfConcern in plain terms.** One local repair relation for one exact attempted work or reliance use. It connects the reliance appearance and that attempted use to the smallest set of independent prerequisites, plus the safe current use and blocked appearance overread. The entries point to existing direct objects; they are not one new umbrella object.
+**First repair use in practice.** State what the appearance may safely do now: orient attention, help find the required relation or result, preserve an early cue through `A.16.1`, support planning only through a `U.WorkPlan`, permit a bounded reversible probe, or block only the unsupported use.
+
+**What goes wrong if missed.** The appearance starts acting as if it already proves approval, gate passage, evidence, assurance, performed Work, currentness, or release authorization. Work then proceeds or stops while the relation or result that must support the claim is missing, stale, revoked, or contradicted.
+
+**Subject of the repair in plain terms.** The pattern handles one attempted-use question. It does not introduce a local repair relation. The appearance, attempted use, direct prerequisites, safe current use, and blocked overread retain the kinds and relations supplied by their own patterns.
 
 **First repair checks.**
-1. Name the reliance appearance's actual kind and publication position without treating its appearance as the required relation, result, or source relation itself.
-2. Decide the live working moment: early attention to preserve, intended work to plan, reliance on already-performed work or a decision, or another operative relation for action now.
-3. Fill `WorkOrRelianceUseKind` and `WorkOrRelianceUseRef`: the use being justified can be intended work, reliance on a claim, reliance on a performed-work occurrence, a work-relevant P2W claim, or a P2W chain position.
-4. Create one `RequiredPositionEntries` row for each independently required direct object. This typed row set is the sole prerequisite set: a claim, instituted effect, gate decision, exact system-role-assignment occurrence, evidence relation, currentness relation, plan, or other prerequisite each receives its own row. If permission or authority is current, first choose its exact object in the §3 branch, then fill `SubjectPatternLocator`, the direct-object kind, native project-side ref, required posture and currentness, and dependency on the attempted use. Never put comma-separated patterns, kinds, or refs into one field.
-5. Follow dependencies through those direct objects. For permission or authority, use the dependency stated by the selected §3 row. An instituting act, enduring grant, conflict finding, gate decision, and work plan remain separate prerequisites; none substitutes for another row or inherits another row's posture.
-6. Before allowing the attempted work or reliance, open every prerequisite through its typed reference. Check that the referenced relation actually obtains or the referenced result satisfies the criterion defined for it; that it is current and covers this beneficiary, action, target, scope, and time window; and that any evidence or source relation required for this reliance is present. When a relevant permission/norm conflict exists, give its exact `PermissionNormConflictFinding@Context` a separate row: an `unresolved` or norm-selecting disposition blocks this use but does not make the grant cease to obtain. When policy separately requires an A.21 gate or A.15.5 work-entry-readiness relation, give each its own row and require a current passing or ready result. Naming a record is only the first recovery step. If any check fails, keep `AllowedUseNow` at the safe narrowed use.
+1. Name the appearance by its actual kind without treating it as the required relation or result.
+2. Name the exact attempted use and the subject that use concerns.
+3. Name the first direct prerequisite and the pattern that defines or tests it. For an ordinary one-prerequisite case, stop with the plain note.
+4. Add typed rows only under the structured-use conditions above. Keep each independently required claim, instituted effect, relation occurrence, result, decision, assignment, evidence relation, currentness relation, or plan in its own row.
+5. Before allowing the attempted use, check that every required relation obtains or every result passes its defined criterion, is current, covers the actual beneficiary, action, target, scope, and window, and has any evidence-use, source-currentness, or other source relation required by this reliance.
+6. A relevant permission or norm conflict, gate decision, or work-entry-readiness result remains a separate prerequisite. An unresolved conflict blocks only the affected use and does not make an independently obtaining grant cease.
 
-**Not this pattern when.** Stay in A.15 when the question under repair is only separation among the acting System, exact local system-role kind, classification judgment, direct `U.SystemRoleAssignment` species, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`. Stay in `A.15.2` for WorkPlan construction, `A.15.3` for planned slot-filling baselines, and `A.15.5` when the question is full-kit condition or work-entry readiness rather than a reliance appearance being used as a reason for work or reliance. Stay in `A.16.1` and `C.2.4` when the honest current value is pre-articulation cue preservation and articulation level. Stay in `C.16.Q` when dynamic-quality or evaluative wording is the current claim. Stay in `A.6.A` when the current claim is action invitation. Stay in E.17 when the question under repair is only publication-face exposure or multi-view publication. When the direct evidence, gate, constraint, boundary, permission, authority, work, or other claim is already known, use the pattern and test selected by the §3 lookup instead of A.15.4.
+**Not this pattern when.** Stay in A.15 when the question is only separation among the acting System, local system-role kind, classification judgment, direct `U.SystemRoleAssignment` species, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`. Stay in `A.15.2` for WorkPlan construction, `A.15.3` for declaration-local planned-filling content, and `A.15.5` for full-kit condition or work-entry readiness. Stay in `A.16.1` and `C.2.4` for pre-articulation cue preservation, `C.16.Q` for a dynamic-quality claim, `A.6.A` for an action invitation, and E.17 for publication-face exposure. When the direct evidence, gate, constraint, boundary, permission, authority, Work, or other claim is already known, use the pattern and test selected by the §3 lookup instead of A.15.4.
 
 **What this buys.** The acting engineer-manager can keep work moving without trusting appearances: use the reliance appearance for orientation or source-finding when that is all it can carry, proceed only inside the recovered relation when that relation exists, and turn repeated ambiguity into source-relation repair work rather than repeated manual reconstruction.
 

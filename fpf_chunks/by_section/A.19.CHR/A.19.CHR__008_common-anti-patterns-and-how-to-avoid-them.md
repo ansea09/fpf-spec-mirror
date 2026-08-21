@@ -6,12 +6,12 @@ section_id: "A.19.CHR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__008_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 31241
-line_end: 31252
+line_start: 30790
+line_end: 30801
 dependencies:
   - "A.15.3"
   - "A.19"

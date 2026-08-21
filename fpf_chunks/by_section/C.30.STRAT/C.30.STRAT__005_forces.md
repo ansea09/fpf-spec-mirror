@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__005_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:3 — Forces"
-line_start: 60893
-line_end: 60902
+line_start: 58072
+line_end: 58081
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,9 +52,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Source-language usability vs ontology | Practitioners need compact local words; FPF needs selected `ontologicalNeighborhood`, relation named by value or claim-use, source-use disposition, and use boundary. |
-| Pattern placement vs ontological neighborhood | The placement is in the `C.30` pattern nest because the recurring first confusion is architecture or structure wording, but recovered claims and relations are governed by the pattern named in `C.30.STRAT:4.2`. |
-| Thin repair vs shadow registry | Subject patterns need one pointer, not copied trigger lists. |
-| Subject pattern vs detour | If the relation, function-like use, control use, scale use, publication use, evidence use, or decision use is already recovered by value, apply the subject pattern directly. |
-| Didactic payoff vs sterile precision | The repair is complete only when it leaves one useful move: subject-pattern application, local rewrite, source return, ordinary source label, or blocked use. |
+| Source-language usability vs ontology | Practitioners need compact local words; a technical claim needs the actual object or relation, its participants or bearer, its scope, and its allowed use. |
+| Pattern placement vs applicable rule | This pattern sits under `C.30` because architecture prose is the usual entry, but the recovered claim may belong to control, modules, flow, scale, publication, state, evidence, work, or decision. |
+| Thin repair vs shadow registry | One shared cue table is useful; copied local trigger lists are not. |
+| Known meaning vs detour | When the current object or relation is already clear, use its pattern directly. |
+| Precision vs action | A type-correct result is still a failure if the reader cannot see what to do next. |
 

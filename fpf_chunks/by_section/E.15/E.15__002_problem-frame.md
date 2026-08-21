@@ -1,34 +1,46 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.15"
-pattern_title: "Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
+pattern_title: "Pattern Change, Edition Continuity, and Impact Analysis"
 section_id: "E.15:1"
-section_title: "Problem frame"
+section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
-  - "E.15:1 — Problem frame"
-line_start: 79059
-line_end: 79062
+  - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
+  - "E.15:1 — Problem Frame"
+line_start: 76362
+line_end: 76375
 dependencies:
-  - "A.10"
-  - "B.3"
-  - "B.4"
   - "C.18"
   - "C.19"
   - "E.10"
+  - "E.19"
+  - "E.21"
+  - "E.22"
+  - "E.23"
+  - "E.24.PUB"
+  - "E.8"
   - "E.9"
+  - "F.0.1"
+  - "F.1"
   - "F.15"
+  - "F.9"
 keywords:
-  - "LAT"
-  - "delta-classes"
-  - "evolution protocol"
-  - "lexical authoring"
 ---
 
-### E.15:1 - Problem frame
+### E.15:1 - Problem Frame
 
-FPF patterns are the **canon**: they define the generative rules that other artifacts depend on. Teams need to **change** patterns as the SoTA moves, but ad‑hoc edits lead to drift, low comparability, and brittle downstream updates. We need a **method** that (a) *generates* better alternatives, (b) *selects* them against explicit quality/assurance targets, and (c) *publishes* a machine‑ and human‑checkable **trace** that can be replayed, audited, and re‑run. (Built to cohere with **DRR (E.9)**, **LEX‑BUNDLE (E.10)**, **Canonical Evolution Loop (B.4)**, **NQD/E‑E (C.18 and C.19)**, **Evidence Graph Referring (A.10)**, **Trust (B.3)**, **F‑Suite validation (F.15)**.)
+Use this pattern when an existing FPF pattern is being corrected, clarified, reorganized, refreshed from current sources, split, merged, renamed, or changed semantically, and someone needs to know what may continue and what must be reconsidered.
+
+The primary `EntityOfConcern`—the thing being changed—is one exact existing FPF pattern edition. The candidate is its proposed successor. The useful result is that candidate plus a bounded account of what actually changed, which uses may be affected, which predecessor ideas remain, and which checks were rerun. Put that account in the decision, review, campaign, or landing result that needs it; this pattern does not require a separate trace object.
+
+**First useful move.** Put the predecessor and candidate side by side and finish this sentence in ordinary language:
+
+> A reader or user who relied on `<predecessor passage>` may now read, do, check, or conclude `<difference>`.
+
+If the truthful answer is “nothing”, test that claim against the affected passages and stop after the smallest adequate repair and check. If the answer is uncertain because several materially different repairs remain plausible, open the alternative-comparison branch.
+
+Not this pattern when authoring a first pattern seed with no predecessor; use E.8 and the subject-owning patterns. Do not use E.15 merely to run a wording check, make a design decision, perform a quality review, publish a pattern, or land a candidate: E.10, E.9, E.19 or E.21, E.24.PUB, and the landing process own those distinct questions. Return here when one of those activities changes an existing pattern edition and edition continuity or affected use is in question.
 

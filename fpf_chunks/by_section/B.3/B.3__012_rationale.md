@@ -1,68 +1,39 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3"
-pattern_title: "Trust and Assurance Calculus (F-G-R with Congruence)"
+pattern_title: "Trust and Assurance Calculus"
 section_id: "B.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__012_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
+  - "B.3 — Trust and Assurance Calculus"
   - "B.3:10 — Rationale"
-line_start: 39015
-line_end: 39018
+line_start: 37878
+line_end: 37881
 dependencies:
   - "A.10"
-  - "A.15"
   - "A.15.1"
-  - "A.15.PROD"
   - "A.2.4"
   - "A.2.6"
-  - "A.20"
   - "A.21"
-  - "A.6"
+  - "A.22"
   - "A.6.1"
-  - "B.1"
-  - "B.1.1"
-  - "B.3"
-  - "B.3.5"
-  - "B.4"
-  - "C.13"
   - "C.16"
   - "C.16.Q"
   - "C.2.1"
-  - "C.26"
-  - "C.26.1"
-  - "C.26.2"
-  - "C.26.3"
   - "C.28"
   - "C.29"
-  - "D.4"
-  - "E.14"
   - "E.17"
-  - "E.17.EFP"
   - "E.24.PUB"
   - "F.10"
-  - "F.9"
   - "G.11"
   - "G.6"
 keywords:
-  - "F-G-R"
-  - "assurance"
-  - "authority-looking labels"
-  - "claim-support posture"
-  - "congruence"
-  - "dashboard tiles"
-  - "evidence"
-  - "formality"
-  - "probe/distributed/export/causal assurance"
-  - "reliability"
-  - "scope"
-  - "trust"
 ---
 
 ### B.3:10 - Rationale
 
-B.3 combines a conservative weakest-supported-part calculus with current assurance-case and assurance-documentation practice. The current comparators below govern only the decisions B.3 actually imports; older and popular sources remain lineage rather than authority by recency, prestige, or display.
+Assurance-case practice supports explicit claims, arguments, evidence, and maintenance. Reliability engineering supports calculations tied to dependency structure and assumptions. Neither supports one universal `F-G-R-CL` score across unlike subjects. B.3 therefore standardizes the boundaries and the minimum result while leaving characteristics and aggregation with the exact models that define them.
 

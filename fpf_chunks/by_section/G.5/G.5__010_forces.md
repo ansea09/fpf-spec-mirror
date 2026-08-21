@@ -6,12 +6,12 @@ section_id: "G.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__010_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:3 — Forces"
-line_start: 100876
-line_end: 100884
+line_start: 98087
+line_end: 98095
 dependencies:
   - "C.11"
   - "C.18"
@@ -57,7 +57,7 @@ keywords:
 
 * **Pluralism vs. forced totalisation.** Many selection regimes are inherently partial-order; forcing a scalar winner often creates inadmissible semantics.
 * **Evidence realism vs. hard gates.** Eligibility and acceptance frequently depend on incomplete evidence; selection must remain auditable under tri-state unknowns.
-* **Reuse vs. leakage.** Cross‑semantic-context reuse remains valuable, but it starts from exact F.17 local senses and an obtaining F.9 Bridge, then keeps the proposed use, direction, rule, tolerated loss, reliance or assurance, and actual selector use separate. Bridge, CL, loss, registry, bundle, or policy pins cannot silently re-ground semantics.
+* **Reuse vs. leakage.** Reuse across distinct source-local meanings remains valuable, but it starts from exact F.17 cells and an obtaining F.9 Bridge, then keeps the proposed use, direction, rule, tolerated loss, reliance or assurance, and actual selector use separate. Bridge, CL, loss, registry, bundle, or policy pins cannot silently re-ground semantics.
 
 * **Exploration vs. exploitation.** Dispatch sometimes must probe alternatives under explicit policy envelopes and risk envelopes, but probing must not become an implicit fourth status.
 * **Evolvability vs. churn.** Registries evolve (new families, deprecations, edition bumps); continuity must not be broken by “rename by meaning”.

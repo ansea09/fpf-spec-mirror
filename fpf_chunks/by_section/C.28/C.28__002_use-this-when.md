@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.28"
-pattern_title: "CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+pattern_title: "CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
 section_id: "C.28:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+  - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:0 — Use This When"
-line_start: 56948
-line_end: 57061
+line_start: 54243
+line_end: 54323
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,13 +30,14 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
+  - "CausalUseSupportResult"
   - "Pearl Causal Hierarchy"
   - "Structural Causal Model"
   - "association"
   - "causal diagram"
   - "causal estimand"
-  - "causal evidence support basis"
   - "causal fairness"
+  - "causal support components"
   - "causal-RL evaluation"
   - "causal-use question"
   - "causality ladder"
@@ -50,115 +51,82 @@ keywords:
 
 ### C.28:0 - Use This When
 
-Use `C.28` when a claim is being used causally:
+Use `C.28` when a result is offered as support for a causal effect, intervention, counterfactual comparison, causal fairness claim, causal policy, causal benchmark, or causal explanation. Common cues include:
 
-- "method A improves result";
-- "users who received intervention X had better outcomes";
-- "this practice is fair";
-- "the agent chose optimally";
-- "the model simulates what would have happened";
-- "the system can collect counterfactual data";
-- "this benchmark shows a causal method is better";
-- "this policy should be deployed because it would have changed the outcome".
+- “method A improves the outcome”;
+- “users who received X did better, so X works”;
+- “this policy would have prevented the failure”;
+- “the model shows what would have happened”;
+- “this fairness metric proves the intervention is fair”; and
+- “this benchmark shows that one causal method is better”.
 
-Use `C.28` especially when the claim must distinguish:
+The cue opens a question, not a verdict. Ask what claim is being supported and what use of the evidence depends on that support.
 
-- observed association;
-- intervention or action effect;
-- counterfactual comparison;
-- direct counterfactual-rung data collection;
-- identified counterfactual estimate;
-- simulation-only counterfactual output;
-- causal policy class;
-- causal fairness use;
-- causality-ladder parity in method comparison.
+**Not this pattern when.** If no causal statement or causal evidential reliance is current, stay with the direct pattern: `C.16` for measurement, `C.27` for temporal change, `A.10` for an evidence path, `C.11` for choice, `C.19` for live-pool policy, `C.24` for call planning, `D.5` for bias or fairness audit, or `G.9` for ordinary parity.
 
-**Not this pattern when.** If no causal use is claimed, keep the work in the neighboring pattern: `C.16` for measurement, `C.27` for temporal trend or rate-change adequacy, `B.3` for assurance result, `A.10` for evidence graph reference, `G.9` for ordinary parity, `C.11` for local choice, `C.19` for pool policy, `C.24` for call planning, or `C.26` for a surviving quantum-like modeling cue after ordinary causal explanations have been tried.
+**Activation condition.** C.28 is needed when causal support changes the statement relied on by a downstream publication, choice, deployment, audit, assurance, policy evaluation, or benchmark. C.28 decides only the causal-support boundary. The downstream pattern still decides whether to publish, choose, deploy, certify, assure, or abstain.
 
-**Activation boundary.** `C.28` activates at `CausalUseActivation`: causal wording changes what the claim makes admissible for publication, choice, deployment, assurance, audit, benchmark, or support treatment. The trigger is admissible downstream use, not the presence of a causal-looking word. If the wording is only exploratory prose and no causal use governed by `C.28` is made, rewrite to association, trend, measurement, or simulation-only wording and stop.
-
-Exploratory causal-looking prose is not a `CausalUseActivation` by itself. A note may say that a relation is plausible, worth probing, or suggested by traces and still remain in `C.16`, `C.27`, `A.10`, `C.11`, `C.19`, `C.24`, `G.5`, or `G.9` until the text makes a causal use governed by `C.28` admissible. The moment the text makes publication, choice, deployment, assurance, audit, benchmark, or support treatment depend on causal support, `C.28` governs the causal-use boundary.
+**Simulation boundary at entry.** A report that only describes simulator output and makes no causal use exits to ordinary model or simulation handling. Simulator output offered as support for an effect, counterfactual, policy, fairness, benchmark, or evidence claim stays in C.28 and must name the model, assumptions, validation, supported causal use, and unsupported use.
 
 #### C.28:0.1 - What Goes Wrong If Missed
 
-A causal-looking phrase backed only by association, proxy, simulation-only, or rhetorical support gets promoted into a causal use that requires a named `C.28` support basis and verdict.
-
-Correlation becomes intervention effect. Interventional proxy becomes counterfactual fairness. A simulation becomes realized counterfactual-rung evidence. A benchmark compares methods across different causality-ladder rungs and still publishes one scalar superiority claim. An agentic policy is called optimal without saying whether it is a natural behavior policy, an interventional policy, or a counterfactual policy.
-
-The practical error is laundering: the reader sees causal language but cannot recover what rung, estimand, evidence basis, and supported use are actually admissible.
+- association becomes an intervention-effect claim;
+- a changed metric becomes causal fairness;
+- a simulated trace becomes realized counterfactual evidence;
+- an estimated number is treated as proof that its estimand was identified;
+- support for one population or environment is transported to another without an endpoint or assumption; or
+- a support verdict is mistaken for permission to publish, deploy, or certify.
 
 #### C.28:0.2 - What This Buys
 
-`C.28` gives FPF one cheap first stop for causal use.
-
-The first useful result is not a heavy record. It is one small causal-use triage that says whether causal use is present, which causality-ladder rung is being used, what comparator or counterfactual is in play, what causal support-basis triage value supports it, and what the next supported use is.
-
-Durable cards and profiles appear only when the claim needs them. The pattern buys explicit causal discipline without turning every causal word into a paperwork exercise.
+The cheap result states the question, rung, available support components, the common validity threat that matters now, the causal statement supported, the statement not supported, and the next useful step. Heavy profiles appear only when identification, estimation, counterfactual-sampling realizability, actual sampling evidence, transport, target-trial emulation, causal policy evaluation, representation learning, or fairness work is actually current.
 
 #### C.28:0.3 - First-Minute Questions
 
-`C.28` in 60 seconds is the operational entry into `CausalUseTriageRecord`:
-
-1. Detect whether the claim reaches `CausalUseActivation`: it changes what publication, choice, deployment, assurance, audit, benchmark, or support treatment is admissible.
-2. Stop with `nextCausalUseAction.cheapStop` if the claim only reports association, trend, description, measurement, or simulation-only output.
-3. If causal use is live, fill `targetCausalityLadderRung`, `comparatorOrCounterfactualRef`, and `causalSupportBasisTriageValue`.
-4. Fill `supportedUse: CausalUseSupportStatement` and `unsupportedUse: CausalUseUnsupportedStatement` as one action pair.
-5. Fill `nextCausalUseAction: CausalUseNextAction`: choose `cheapStop` or escalate only when the claim is decision-bearing, publication-bearing, assurance-bearing, fairness-bearing, benchmark-bearing, or reusable.
+1. What exact causal-use question is being asked, and which claim-bearing episteme states it?
+2. Is the intended statement observational, interventional, or counterfactual?
+3. What is actually available: an evidence path and empirical data regime, an identification or bound result, an estimate, a prospective counterfactual-sampling realizability result, dated sampling Work plus resulting data, or a simulation result?
+4. Which common validity problem could overturn the use: intervention definition or consistency, time order, confounding, overlap, interference, selection or missingness, measurement, or transport?
+5. What causal statement or evidential reliance is supported now, and what stronger statement is not?
+6. Does the downstream pattern have enough basis to make its own decision, or should it abstain, downgrade, or request more evidence?
 
 #### C.28:0.4 - First Output
 
-The first output is a `CausalUseTriageRecord`:
+The first output may be only this triage:
 
 ```text
 CausalUseTriageRecord:
+  causalUseQuestionRef?: CausalUseQuestionRef
   causalUse: yes | no | unclear
   targetCausalityLadderRung?: CausalityLadderRung
   comparatorOrCounterfactualRef?
-  causalSupportBasisTriageValue: CausalSupportBasisTriageValue
-  supportedUse?: CausalUseSupportStatement
-  unsupportedUse?: CausalUseUnsupportedStatement
-  nextCausalUseAction: CausalUseNextAction
+  availableSupportCues?
+  liveThreats?
+  supportedUse?
+  unsupportedUse?
+  nextCausalUseAction
 ```
+
+`supportedUse` means the causal statement or evidential reliance supported under the named limits. It is not a permission or command. `unsupportedUse` states the nearby stronger causal statement or reliance that the evidence does not support.
 
 ```text
-CausalUseNextAction:
-  cheapStop:
-    stopNoCausalUse |
-    publishAssociationOnly |
-    rewriteAsTrendOrAssociation |
-    keepSimulationOnlyModelUse |
-    downgradeCausalWording |
-    abstainFromCausalUse |
-    selectNeighborPattern
-  escalateOnlyIfUseDependsOnCausalSupport:
-    openLocalCausalUseQuestionCard |
-    openDurableCausalUseQuestionCard |
-    buildCausalIdentificationProfile |
-    buildCounterfactualSamplingRealizabilityProfile |
-    planCausalUseEvidenceDesign |
-    openCausalFairnessUseAuditCard |
-    openCausalMethodRungParityRecord
+nextCausalUseAction =
+  stopNoCausalUse |
+  reportAssociationOnly |
+  keepNonCausalSimulationUse |
+  downgradeCausalWording |
+  requestIdentificationOrBound |
+  requestEstimate |
+  requestCounterfactualSamplingRealizabilityCheck |
+  requestPerformedSamplingEvidence |
+  requestTransportCheck |
+  requestEvidenceDesign |
+  sendFairnessUseToD5BiasAuditReport |
+  sendParityUseToG9 |
+  abstainDownstream
 ```
 
-```text
-CausalSupportBasisTriageValue =
-  observationalAssociationSupportBasis |
-  interventionalActionSupportBasis |
-  realizedCounterfactualSampleSupportBasis |
-  identifiedCounterfactualEstimateSupportBasis |
-  simulationOnlyCounterfactualOutputBasis |
-  missing
-```
+Triage may be the final result when it blocks the overclaim and names the narrower statement. Do not open a durable object merely because a causal word appears.
 
-`cheapStop` values are terminal or downgrade actions. They close the local causal-use question for now by saying what narrower use remains admissible, what exact subject assertion states the remaining non-causal question and where its defining or constraining `ClaimGraph` is located, or that causal use is declined. `escalateOnlyIfUseDependsOnCausalSupport` values are record-opening actions. They are admissible only when the supported-use and unsupported-use boundary cannot safely carry the reader's next action by itself.
-
-If this first output cannot be written honestly, the causal-use claim is not ready.
-
-`CausalUseSupportStatement` is one concrete causal-use action the current support makes admissible, such as publish association-only wording, use a bounded interventional estimate for a named decision, deploy only under a named policy constraint, run a fairness audit under a named causal estimand, or compare methods only inside one declared causality-ladder rung. It is not a confidence label, graph name, method name, or generic "evidence exists" phrase.
-
-`CausalUseUnsupportedStatement` is the matching concrete causal-use action the current support does not make admissible, such as intervention-effect wording, realized counterfactual sample wording, causal fairness certification, causal policy optimality, cross-rung benchmark superiority, or release use or deployment use. The supported and unsupported statements travel as a pair so the reader can act without inferring the boundary from prose tone.
-
-The triage record may be the final causal-use record. Triage lines are enough when they block the overclaim and tell the reader what narrower use remains admissible. Do not open a local card merely because the word "cause", "effect", or "counterfactual" appears.
-
-The triage `causalSupportBasisTriageValue` field is the first-pass local field for `CausalEvidenceSupportBasis | missing`. If a claim escalates beyond triage, the value must be refined to `CausalEvidenceSupportBasis`; `missing` becomes `unsupportedUse`, `CausalUseSupportVerdict = unsupported`, or `abstain`.
+**Adjacent simulation examples.** “The simulator produced these traces” with no causal reliance returns `keepNonCausalSimulationUse`. “The simulated traces support what would happen under policy P” remains inside C.28 and needs `simulationResultRef`, model assumptions, validation, supported use, and unsupported use.
 

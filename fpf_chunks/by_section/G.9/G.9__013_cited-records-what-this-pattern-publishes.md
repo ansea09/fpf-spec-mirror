@@ -6,14 +6,15 @@ section_id: "G.9:9"
 section_title: "Cited Records (what this pattern publishes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__013_cited-records-what-this-pattern-publishes.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:9 — Cited Records (what this pattern publishes)"
-line_start: 103257
-line_end: 103265
+line_start: 100507
+line_end: 100515
 dependencies:
   - "A.19"
+  - "A.2.6"
   - "A.21"
   - "C.18"
   - "C.19"
@@ -35,6 +36,7 @@ dependencies:
   - "G.6"
   - "G.7"
   - "G.Core"
+  - "U.ClaimScope"
 keywords:
   - "adaptation parity"
   - "benchmark plan"
@@ -48,8 +50,8 @@ keywords:
 
 **Exports (UTS‑publishable, edition‑pinned):**
 
-* `ParityPlan@Context` (WorkPlanning plan item)
-* `ParityReport@Context` (UTS publication record; work-result or audit-facing publication record only when the neighboring source relation is live)
-* DRR+SCR refs (by id) and (when applicable) `PortfolioPackRef?`/selector output refs (by id), for downstream consumption.
-* Telemetry pins/events (by id), for refresh wiring (`G.11`) and RSCR harnesses (`F.15`).
+* `ParityPlan` and its exact `ParityPlanRef` (one `U.WorkPlan` episteme and immutable edition reference; any planned-filling rows remain declaration-local content)
+* `ParityReport` (UTS publication record carrying the exact plan and baseline-binding refs; work-result or audit-facing publication record only when the neighboring source relation is live)
+* DRR and SCR refs by id and, when applicable, `PortfolioPackRef?` and selector-output refs by id, for downstream consumption.
+* Telemetry pins and events by id, for refresh wiring (`G.11`) and RSCR harnesses (`F.15`).
 

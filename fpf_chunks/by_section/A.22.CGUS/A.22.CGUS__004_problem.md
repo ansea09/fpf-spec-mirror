@@ -6,46 +6,45 @@ section_id: "A.22.CGUS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__004_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:2 — Problem"
-line_start: 34741
-line_end: 34748
+line_start: 34053
+line_end: 34058
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.21"
   - "A.22"
-  - "A.6.3.NAR"
-  - "B.3.5"
-  - "B.5.2"
-  - "C.13"
-  - "C.18"
-  - "C.19"
-  - "C.2.P.DR"
-  - "C.3"
+  - "A.3"
+  - "A.6.5"
+  - "A.6.P"
+  - "B.3"
+  - "C.29"
+  - "C.30"
+  - "C.32"
   - "C.32.P2S"
   - "C.33"
   - "C.35"
-  - "E.10.MOVE"
   - "E.11"
   - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.18.3"
   - "E.18.NET"
-  - "E.18.NET-conforming"
   - "E.23"
-  - "E.24.PUB"
   - "F.17"
+  - "F.18"
+  - "F.9"
   - "G.11"
-  - "G.5"
 keywords:
 ---
 
 ### A.22.CGUS:2 - Problem
 
-The problem is that a constraint-governed unfolding structure becomes unrecoverable when one route-shaped or loop-shaped description stands in for it.
+A route-shaped explanation can hide the relations and constraints that make an alternative available. Readers then follow the displayed order as if it were a required procedure, or they treat a condition label as proof that the condition is true now.
 
-First, the structure's typed positions, exact relations, constraints, preserved structures, C.33 adequacy notes, stop boundary, and needed definitions, tests, methods, or claim rules disappear behind decorative prose. Words such as "flow", "move", "unfold", "loop", or "route" remain, but no reader can recover what constrains a continuation.
-
-Second, one demonstration of the structure becomes a fake workflow. A teaching sequence, diagram, README entry, prompt example, or happy path is treated as the order of real project work. Method, work plan, performed work, evidence, gate, decision, publication, and architecture claims then become unsupported inferences from displayed order.
+The opposite repair is also harmful: authors replace the simple decision question with a large admission, replay, publication, and assurance package. The formal package becomes harder to use than the misleading card it was meant to correct.
 

@@ -6,16 +6,17 @@ section_id: "D.3:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__004_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:1.1 — Forces"
-line_start: 68633
-line_end: 68642
+line_start: 65867
+line_end: 65877
 dependencies:
   - "A.1"
   - "A.10"
   - "A.14"
+  - "A.6.RCD"
   - "B.1"
   - "B.3"
   - "C.13"
@@ -30,6 +31,7 @@ dependencies:
   - "D.5"
   - "E.10.ROLE"
   - "E.17"
+  - "E.24.PUB"
 keywords:
 ---
 
@@ -37,9 +39,10 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Conflict structure vs. decision use | The conflict must be inspectable before D.4 can mediate, refuse, or authorize a bounded decision. |
-| Level and scope plurality vs. fixed ladder | The case may involve persons, teams, organizations, communities, systems, epistemes, or environments without one universal hierarchy. |
-| Ethical object vs. representation | Tables, graphs, narratives, and formal predicates can describe a conflict, but are not the conflict itself. |
-| Agency threshold vs. responsibility relation | Evidence may support an agency characteristic or threshold. Responsibility still needs its independently obtaining direct predicate and participants; no agency score or label supplies it. |
-| Architecture residual vs. ethical conflict | A cross-scope structure can be architectural, ethical, or both. Use `C.30.ILC` to triage the architecture residual and D.3 to record the ethical conflict structure; when both apply, keep both claims explicit. |
+| Conflict description vs. decision use | The sides and their tension must be inspectable before D.4 can mediate, refuse, or support a bounded decision. |
+| Level and scope plurality vs. fixed ladder | A case may involve persons, teams, organizations, communities, systems, epistemes, or environments without one universal hierarchy. |
+| Conflict vs. description | A narrative, table, graph, or formal expression can describe the conflict but is not the situation, claims, harms, or relations it describes. |
+| Cheap first result vs. reusable precision | Most cases first need two clear sides and one tension statement; later reuse may need an identified episteme and typed supporting relations. |
+| Agency evidence vs. responsibility | Evidence may support an agency characteristic or threshold. Responsibility still needs its own direct predicate and actual participants; no score, label, collection name, or assignment supplies it. |
+| Architecture residual vs. ethical conflict | A cross-scope structure can be architectural, ethical, or both. `C.30.ILC` triages the architecture residual; D.3 describes the ethical conflict. |
 

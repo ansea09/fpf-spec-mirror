@@ -6,7 +6,7 @@ section_id: "A.1:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__007_archetypal-grounding-worked-cases.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:5 — Archetypal Grounding (Worked Cases)"
@@ -45,7 +45,7 @@ Pump #37 is first an exact `U.Entity`. Its actual construction satisfies the A.1
 - the installed-assembly reidentification rule distinguishes Pump #37 and permits specified maintenance replacements;
 - pump-level flow, pressure, and operating characteristics arise from the composition rather than from one constituent;
 - its actual boundary, inlet and outlet interfaces, load envelope, and identity-preservation conditions satisfy the applicability and compatibility conditions of the governed plant-installation method by which the pump can remain one constituent of a larger cooling-water system;
-- `U.System` already has an accepted E.24.UK admission result, while the A.1 common holon criterion and its `U.System` clause supply acting eligibility.
+- `U.System` is already an admitted public U-kind in FPF; `E.24.UK` governs admission of public U-kinds, while the A.1 common holon criterion and its `U.System` clause supply acting eligibility.
 
 Those world-side facts make the criterion true whether or not the current project has enough evidence to determine it. Classification work with adequate inputs can return `true` and support a separate C.2.1 assertion. If evidence or one dependency is unavailable, evaluation returns `unknown`; Pump #37 and its criterion satisfaction do not change. Replacing the seal preserves Pump #37 only when the reidentification rule admits that maintenance phase.
 
@@ -62,7 +62,7 @@ Newtonian gravitation in one exact selected edition is first a C.2.1 `U.Episteme
 - the selected-edition identity rule distinguishes this theory episteme; different claim content identifies another episteme, and any historical continuity is stated through the applicable C.2.1 edition relation;
 - inferential and explanatory characteristics arise from the organized claim-bearing whole rather than from one constituent;
 - its actual inferential interfaces, effective reference scheme, applicability conditions, and identity-preservation conditions satisfy the applicability and compatibility conditions of at least one governed method for composing it as a constituent of a larger explanatory or educational episteme;
-- `U.Episteme` already has an accepted E.24.UK admission result, while C.2.1 supplies the kind-specific constitution condition.
+- `U.Episteme` is already an admitted public U-kind in FPF; `E.24.UK` governs admission of public U-kinds, while C.2.1 supplies the kind-specific constitution condition.
 
 A textbook publication can make this edition available, but the publication form and the episteme that describes the composition method do not create the theory's compatibility or holonhood. Classification work may evaluate the criterion and a separate C.2.1 assertion may state the result; evidence, warrant, edition currentness, receiving reliance, and any B.2 whole-reidentification question remain separately governed.
 

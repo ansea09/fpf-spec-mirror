@@ -6,12 +6,12 @@ section_id: "F.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:0 — Use This When"
-line_start: 91586
-line_end: 91624
+line_start: 88975
+line_end: 89013
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ keywords:
 
 Use F.5 when a project needs a durable name for either:
 
-- a public U-kind already admitted through E.24.UK, or another durable cross-local value whose defining membership rule is satisfied; a Concept-Set row may cite comparison evidence but does not admit the value; or
+- a public U-kind already admitted through E.24.UK, or another durable cross-local value already recovered through the direct rule for that kind of value—for example, episteme constitution or relation obtaining; a Concept-Set row may cite comparison evidence but does not recover the value; or
 - one exact local system-role kind and, when needed, the separate `SystemRoleKindDescription` episteme that describes it.
 
 Typical moments:
@@ -73,7 +73,7 @@ Typical moments:
 
 **First useful move.** Recover the exact named value and its direct meaning source before choosing the label. For a U-kind, use its accepted E.24.UK admission result or its direct admission rule. For a local system-role kind, use its A.2 and C.3 identity and criterion; use F.4 for the separate description episteme. Then choose one Tech label and one short Plain explanation whose scope does not exceed the recovered meaning.
 
-**Smallest useful result and stop.** Stop with one already identified value, one Tech label, and one Plain explanation as soon as they resolve unambiguously for the named local use. Do not create a NameCard, public row, Bridge, description episteme, or new kind merely to complete a form. If the value or kind is unresolved, apply its admission or relation-defining rule. Use F.18 or F.17 only for the durable or public use they address. Use C.3.3 only for an actual relation between exact local kinds and F.9 only for an actual relation between distinct F.17 cells. If the label starts carrying assignment, Work, result, provenance, assurance, responsibility, or publication claims, stop naming and recover those objects first.
+**Smallest useful result and stop.** Stop with one already identified value, one Tech label, and one Plain explanation as soon as they resolve unambiguously for the named local use. Do not create a NameCard, public row, Bridge, description episteme, or new kind merely to complete a form. If the value or kind is unresolved, apply its direct recovery rule. Use F.18 or F.17 only for the durable or public use they address. Use C.3.3 only for an actual relation between exact local kinds and F.9 only for an actual relation between distinct F.17 cells. If the label starts carrying assignment, Work, result, provenance, assurance, responsibility, or publication claims, stop naming and recover those objects first.
 
 **What goes wrong if missed.** Names become arguments. A system-role-kind label smuggles in neighboring claims—for example, assignment, permission, responsibility, or capability. A status phrase becomes a system-role kind. A U-kind name imports one practice's or source's private ontology. A polished global word hides disagreement among witnesses. Downstream patterns then repair semantics that naming already broke.
 

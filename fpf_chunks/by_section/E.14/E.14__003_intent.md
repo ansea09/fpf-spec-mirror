@@ -6,12 +6,12 @@ section_id: "E.14:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__003_intent.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:1 — Intent"
-line_start: 78717
-line_end: 78723
+line_start: 76014
+line_end: 76020
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -30,7 +30,7 @@ keywords:
 ### E.14:1 - Intent
 
 Establish a **single, human‑centric Working‑Model** that practitioners can read, discuss, and evolve **without exposure to formal machinery**.
-Each statement **declares an author's assurance posture** (`validationMode`) and, when assurance is sought, attaches **appropriate grounding** through one or more assurance shoulders — **Mapping**, **Logical**, **Constructive** — and may additionally attach **Empirical Validation** as defined by the Trust & Assurance calculus. The posture and its supports justify or challenge the published claim; they create neither the governed value nor a world-side relation occurrence. Empirical Validation can accompany any posture and is **required** when the posture is *postulate*. Assurance shoulders sit **beneath** the Working-Model and **never define its vocabulary**.
+A direct Working-Model statement needs no assurance field simply because it is published. When a publication elects `B.3.5` or another named current assurance requirement applies, the author declares the posture that requirement calls for and attaches only the needed assurance shoulders — **Mapping**, **Logical**, **Constructive**, or **Empirical Validation**. Under `B.3.5`, covered claims declare `validationMode`; covered structural claims also carry the profile's constructive grounding. The posture and its supports justify or challenge the published claim; they create neither the chosen model value nor a world-side relation occurrence. A `postulate` remains a pragmatic working claim within its stated scope: the author should add brief empirical cues that would help later validation. Choosing it does not say that evaluation or measurement Work occurred or that a result exists. The complete Work, result, and provenance account enters only when evaluation or measurement actually occurred and the current assurance use relies on that result; another named current requirement keeps its own obligations. Assurance shoulders sit **beneath** the Working-Model and **never define its vocabulary**.
 
 Put bluntly: *one model people work in; three assurance shoulders — plus empirical checks when the world is the judge.*
 

@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "C.19.1"
 pattern_title: "Bitter‑Lesson Preference (BLP)"
 section_id: "C.19.1:4"
-section_title: "Anti‑patterns & remedies"
+section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__005_anti-patterns-remedies.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
-  - "C.19.1:4 — Anti‑patterns & remedies"
-line_start: 49756
-line_end: 49761
+  - "C.19.1:4 — Anti-patterns & remedies"
+line_start: 48549
+line_end: 48558
 dependencies:
   - "A.0"
   - "A.10"
@@ -43,9 +43,13 @@ keywords:
   - "slope vector"
 ---
 
-### C.19.1:4 - Anti‑patterns & remedies
+### C.19.1:4 - Anti-patterns & remedies
 
-Single‑winner leaderboards; hidden budget mixing; promoting illumination into dominance **without policy**; missing edition pins; heuristics without expiry; slope estimates without CI or with aliased designs → **remedy** with G.9 parity + edition pins, explicit **policy‑ids**, DRR publication, **Heuristic‑Debt** entries, and BLP‑1f DoE discipline.
-
-**Elegant-math override.** A specialized or elegant mathematical lens is selected over a more general or scale-amenable alternative because of elegance or prestige while scale advantage is live. Remedy: use BLP scale-audit when the claim is scale advantage; otherwise mark the lens as local and bounded by `C.29` stop condition.
+- **Slogan as evidence.** `General`, `agentic`, or `Bitter Lesson` is treated as proof. Repair with the cheap probe and an actual comparison basis.
+- **Analogy as empirical result.** A module relation, organization, or episteme is assigned compute/data scaling semantics. State a local analogy or policy and use a bearer-appropriate predicate and evidence form.
+- **Universal experiment recipe.** Every claim receives seeds, FLOPs, and a multi-factor design. Select the smallest method that can answer the actual risk-bearing claim.
+- **General wins by non-dominance.** Error bars overlap, so the more general option is declared superior. Return no empirical scale preference or cite a separate tie-break policy.
+- **Single-winner leaderboard.** Hidden budget mixing or scalarization replaces Pareto comparison. Restore comparable windows, objective coordinates, uncertainty, and policy identifiers.
+- **Debt without trigger.** A local bounded tactic is entered into Heuristic Debt. Apply the `BLP-4` trigger before creating the entry.
+- **Elegant-math override.** A specialized mathematical lens is selected because of elegance or prestige while scale advantage is live. Use the proportionate BLP comparison; otherwise keep the lens local under the `C.29` stop condition.
 

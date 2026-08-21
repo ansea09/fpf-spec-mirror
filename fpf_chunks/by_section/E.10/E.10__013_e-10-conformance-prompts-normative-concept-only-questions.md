@@ -6,12 +6,12 @@ section_id: "E.10:11"
 section_title: "E.10 conformance prompts (normative, concept-only questions)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__013_e-10-conformance-prompts-normative-concept-only-questions.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:11 — E.10 conformance prompts (normative, concept-only questions)"
-line_start: 75431
-line_end: 75453
+line_start: 72697
+line_end: 72719
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,7 +72,7 @@ keywords:
 10. **Promise, ability, access, and performance split.** Are service promise or acceptance content, service-access relation, **Capability** (ability), and **Work** (performance) distinct and defined by their patterns?
 11. **Plan and execution split.** Are planning cues and `U.WorkPlan` kept separate from performed `U.Work`? For each actual Work, do A.15.1 and F.6 identify its Method, time, containing System, performers, and assignments, while affected-referent, binding, resource-use, assertion, and description claims remain separate?
 12. **Evidence prompt.** Do documents, epistemes, and publications stay in source-use, evidence-use, specification-use, or publication-use relations? When performed Work is current, is its actor an admitted `U.System`, and do A.15.1 and F.6 identify the Work, performer, and assignment? Does any bare *role* wording first pass `E.10.ROLE` rather than assigning the episteme?
-13. **Bridge prompt.** If the text asserts a relation between two local senses, are the exact cells identified and does the F.9 Bridge actually obtain with its direction, congruence, loss, and scope? Are proposed use and reliance stated separately?
+13. **Bridge prompt.** If the text asserts a relation between two local senses, are the exact cells identified, and does the F.9 Bridge actually obtain under its applicable relation profile? When a receiving use is current, does a separate C.2.1 claim state the proposed action, use direction, correspondence rule, tolerated loss, and polarity? Are reliance, assurance, and any action that occurred kept separate and opened only when current?
 14. **Collision prompt.** Were full-text and Reserved-Names checks completed, with no other meaning of this token anywhere in FPF?
 15. **Naming-procedure prompt.** If one durable reusable name is needed because no admissible existing token carries the needed meaning beyond one local repair, was the governed value settled first, was the applicable **F.8** decision recorded, and were the **F.18** NameCard and any required **F.17** public term row completed rather than picking a label by intuition or filling publication apparatus around an unresolved object?
 16. **Value-substitution prompt.** After the repair, can the declared reader still see the remaining admissible reader use, and did the repair preserve usability, affordability, semantic composability, fit with the rule governing the claim, and local action guidance? If not, narrow the repair, keep ordinary wording with a recovery note naming the recovered kind and use, or leave the issue blocking instead of optimizing for lexical purity.

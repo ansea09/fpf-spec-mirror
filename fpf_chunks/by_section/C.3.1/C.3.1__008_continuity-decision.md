@@ -6,12 +6,12 @@ section_id: "C.3.1:6"
 section_title: "Continuity Decision"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__008_continuity-decision.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:6 — Continuity Decision"
-line_start: 44766
-line_end: 44779
+line_start: 43552
+line_end: 43569
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,15 +44,19 @@ keywords:
 
 ### C.3.1:6 - Continuity Decision
 
-Ask these questions in order:
+Compare the old and proposed declarations in this order:
 
-| Question | If yes | If no |
-| --- | --- | --- |
-| Is this another edition of the declaration episteme rather than merely a publication form? | Continue to the kind-identity question. | Publication-form change leaves both signature edition and kind untouched. |
-| Does the new edition preserve the locally declared kind identity despite its explicit content change? | Keep the local kind identity; cite the actual edition in every later judgment. | Identify another local kind. |
-| Are judgments under the editions compared in one subkind argument? | Declare the edition alignment and rerun monotonicity. | Do not compare their extensions as if one criterion were current throughout. |
-| Does the use cross into another local practice or source boundary? | Use C.3.3 and declare preservation or loss between the exact source and target local kinds. | Continue within the same local kind boundary. |
-| Within the same local identity basis, did the effective `U.ReferenceScheme` change? | Create another `KindSignature` edition, decide kind continuity here, and rerun monotonicity under an explicit edition alignment when the order remains claimed. | Keep the current scheme alignment; a slice-only change creates no bridge. |
+| Question | Continuity consequence |
+| --- | --- |
+| What candidate domain and operative membership condition did the old kind use? | Write at least one intended member and one relevant non-member or boundary case that exposes the discriminator. |
+| What exact criterion, domain, assumption, dependency, or interpretation changed? | Separate a wording, unit, source, or scheme change from a changed membership law. |
+| Under an explicit alignment, do the old and new conditions classify the boundary probes alike for the receiving typed use, and does the operative discriminator keep the same meaning? | If yes, the same kind may continue; cite the actual declaration edition in each judgment. If no, identify another kind. |
+| Did only the practice, source, team, or publication locality change? | Run the same comparison. Locality alone supplies no result and no `KindBridge`. |
+| Are two distinct kinds now being related? | State an obtaining `U.SubkindOf` fact when its criterion or closed-domain branch passes. Use C.3.3 only for a separately justified directional correspondence. |
 
-A higher `U.Formality` value alone does not prove kind continuity or discontinuity. It characterizes the declaration episteme. The content and the local identity decision do the work.
+**Preserving change.** `CoolingPumpSignature-3` replaces litres-per-second with an exactly aligned SI expression, preserves the pump candidate domain, cooling-performance discriminator, intended member and non-member probes, and maintenance use. The same `CoolingPumpKind` continues; new judgments cite edition 3.
+
+**Identity-breaking change.** A proposed edition replaces physical cooling performance with the presence of schema label `CoolingPump`. A physical pump without the row changes from member to non-member and a labelled non-performing row can appear to qualify. The operative distinction and candidate domain changed; identify another kind rather than continuing `CoolingPumpKind`.
+
+**Locality change.** Journal and grant teams may reuse one exact `ReviewerSystemRole` when candidate Systems, required contribution, and acceptance condition remain aligned. If grant review requires a different contribution or admits a materially different candidate boundary, identify another kind. The two labels decide neither case.
 

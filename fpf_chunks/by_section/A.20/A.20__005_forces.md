@@ -1,46 +1,41 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.20"
-pattern_title: "Flow Constraint Validity — Eulerian"
+pattern_title: "Constraint Validity for Transformation Steps"
 section_id: "A.20:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__005_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.20 — Flow Constraint Validity — Eulerian"
+  - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:3 — Forces"
-line_start: 33527
-line_end: 33534
+line_start: 33051
+line_end: 33060
 dependencies:
-  - "A.19.SelectorMechanism"
+  - "A.10"
+  - "A.15"
   - "A.21"
-  - "C.18"
-  - "C.19"
+  - "A.6.1"
+  - "A.6.4"
+  - "B.3"
+  - "C.2.1"
+  - "C.27"
   - "E.17"
   - "E.18"
-  - "F.17"
+  - "E.20"
   - "F.9"
   - "G.11"
-  - "G.5"
-  - "G.6"
 keywords:
-  - "ConstraintValidity"
-  - "Eulerian"
-  - "GateFit"
-  - "MVPK"
-  - "PathSlice"
-  - "Sentinel"
-  - "SquareLaw"
-  - "TransformationFlowStructure"
-  - "flow"
 ---
 
 ### A.20:3 - Forces
 
-* **Separation of concerns.** Internal mechanism laws are distinct from external `GateProfile` fit.
-* **Auditability.** MVPK faces include pins and references only; no new numeric claims; editions and Γ are pinned where applicable.
-* **Graph discipline.** One edge kind; all crossings mediated by gates; SquareLaw on every crossing.
-* **Reproducible valuation.** Flow = valuation over `U.Transfer`, with slice‑local refresh bounded by sentinels.
-* **LEX hygiene.** ASCII Tech labels, twin Tech and Plain registers, registered tokens.
+| Need | Tension |
+| --- | --- |
+| Small local result | A user needs one check result, while later replay needs its constraint, case, and window. |
+| Open constraint families | Different transformations carry different laws; a fixed universal checklist would create false requirements. |
+| Truth and policy separation | Whether a constraint holds is not the same as what a gate does with the result. |
+| Missing information | Not applicable, not run, unknown, and error lead to different next actions. |
+| Reuse without fanout | A reusable result must be precise without copying every possible consumer's record and policy. |
 

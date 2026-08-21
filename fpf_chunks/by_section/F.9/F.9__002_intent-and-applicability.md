@@ -6,12 +6,12 @@ section_id: "F.9:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__002_intent-and-applicability.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:1 — Intent and applicability"
-line_start: 92910
-line_end: 92931
+line_start: 90302
+line_end: 90323
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -62,7 +62,7 @@ keywords:
 
 **Primary EntityOfConcern in plain terms.** One actual correspondence or difference between two exact local senses. This pattern concerns the direct `Bridge` occurrence, not a card, context, transport chain, work process, local system-role kind, assignment occurrence, evidence item, or global meaning layer.
 
-**Admissible move in plain terms.** First resolve the two local senses. Then state what semantic correspondence or difference holds between them and test that relation. If it obtains, identify the Bridge. Only after that, state the proposed use separately: what the reader will do, in which direction, by which correspondence rule, and how much semantic loss that use tolerates. A current affirmative C.2.1 claim answers whether this Bridge is suitable for that bounded use. Check the evidence for relying on that claim under A.10, or use B.3 when an assurance claim is made or its material-reliance threshold is met. If the use actually happened, recover the resulting Work, assertion, publication, relation, operation application, or other object under its subject pattern. Add a Bridge Card only when a reusable package is worth maintaining.
+**Admissible move in plain terms.** First resolve the two local senses. Then state and test the correspondence or difference between them. If the Bridge obtains, state the proposed use separately: what the reader will do, direction, correspondence rule, and tolerated loss. A current C.2.1 claim answers whether the Bridge suits that bounded use. Check ordinary reliance under A.10; use B.3 only when an actual named assurance claim is current. If the use happened, recover its Work, assertion, publication, relation, operation application, or other object under its subject pattern. Add a Bridge Card only when a reusable package is worth maintaining.
 
 **Primary working reader.** An author, checker, or practitioner deciding first whether a cross-local semantic relation actually obtains and then whether it supports one named use.
 
@@ -74,5 +74,5 @@ keywords:
 
 **Not this pattern when.** Not F.9 when the case is still inside one semantic context, or when the live question is a local system-role kind, assignment occurrence, performed-work attribution, evidence use, status use, source use, publication, assurance, authorization, a gate, a decision, or a mathematical-lens operation. Use the subject pattern for that object; cite F.9 only when cross-context semantic correspondence is also needed.
 
-**Recognition versus assurance note.** Resolving the endpoint senses and testing the direct Bridge predicate recognizes the semantic relation. A separate C.2.1 claim judges one bounded use. A.10 or B.3 governs whether a reader may rely on that claim for the named use. None of those steps supplies legal, policy, or deontic authorization.
+**Recognition versus assurance note.** Resolving the endpoint senses and testing the direct Bridge predicate recognizes the semantic relation. A separate C.2.1 claim judges one bounded use. A.10 states whether ordinary evidence reliance passes. When an actual named assurance claim is current, B.3 supplies its bounded result for the same use. None of those steps supplies legal, policy, or deontic authorization.
 

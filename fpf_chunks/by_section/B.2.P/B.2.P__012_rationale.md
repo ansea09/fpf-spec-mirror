@@ -6,12 +6,12 @@ section_id: "B.2.P:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__012_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:9 — Rationale"
-line_start: 37545
-line_end: 37550
+line_start: 36716
+line_end: 36721
 dependencies:
   - "A.1.1"
   - "A.10"

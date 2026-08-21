@@ -6,18 +6,20 @@ section_id: "C.36.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:0 — Use This When"
-line_start: 68174
-line_end: 68206
+line_start: 65386
+line_end: 65426
 dependencies:
   - "A.1"
+  - "A.1.1"
   - "A.15"
   - "A.3.1"
   - "A.3.2"
   - "A.3.3"
+  - "A.6.RCD"
   - "B.2"
   - "B.2.2"
   - "B.2.3"
@@ -41,6 +43,7 @@ dependencies:
   - "D.4"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "E.18.1"
   - "F.17"
@@ -53,34 +56,42 @@ keywords:
 
 ### C.36.P:0 - Use This When
 
-Use this pattern when source or project prose uses cultural-evolution wording and the FPF object under concern is still hidden.
+Use this pattern when source or project prose uses cultural-evolution wording and a current claim or action depends on what that wording means here. If the word is only ordinary or quoted language and no FPF claim relies on it, leave it alone.
 
-Trigger words include culture, cultural evolution, style, tradition, genre, scene, technique, practice, platform, platform regime, measurement regime, attractor, developmental machinery, lineage, canon, school, and close local labels.
+Trigger expressions include, for example, culture, cultural evolution, style, tradition, genre, scene, technique, practice, platform, platform regime, measurement regime, attractor, developmental machinery, lineage, canon, and school. They are recognition cues, not a lexical taxonomy.
 
 #### C.36.P:0.1 - What Goes Wrong If Missed
 
-The repair becomes a synonym swap. `Style` becomes `method`, `platform regime` becomes `context`, `practice` becomes a generic process label, or `attractor` becomes `dynamics` before the sentence says which FPF value, relation, claim, or bridge is current. The result looks cleaner but still carries an accidental ontology.
+The repair becomes a synonym swap. `Style` becomes `method`, `platform regime` becomes `context`, `practice` becomes a generic process label, or `attractor` becomes `dynamics` before the sentence says which object, relation, or claim is current. The result looks cleaner but still carries an accidental ontology.
 
 #### C.36.P:0.2 - What This Buys
 
-The practitioner records one recovery line: current wording, recovered object or relation, applicable pattern, admissible use, blocked use, and next use. Use `C.36` for cultural-evolution case work. For a method, Work, discipline, bridge, archive, pool, selected-set result declaration, publication, architecture, dynamics, measurement, choice, or refresh claim, use the pattern that defines and tests that claim.
+The first result is a short ordinary statement: what the expression means in this use and which pattern supplies the next needed definition or test. For example: `Here “platform” refers to the short-video recommendation System and to the visibility and recognition relations around it. The claim is that changes in those relations altered which dance variants were copied; use C.36 for the cultural-evolution case and C.18 only if archive retention is the next question.`
+
+Use C.36 for a cultural-evolution case. For a Method, Work, discipline, bridge, archive, pool, selected-set result declaration, publication, architecture, dynamics, measurement, choice, or refresh claim, use the pattern that defines or tests that claim.
 
 #### C.36.P:0.3 - First Useful Move
 
-Write one `CulturalEvolutionWordingRecoveryLine@Context`.
+Write the short ordinary statement first. Stop when it makes the next project action clear.
+
+When a handoff or repeated use needs durable memory, keep the same result in this optional line:
 
 ```text
-CulturalEvolutionWordingRecoveryLine@Context:
+CulturalEvolutionWordingRecoveryLine:
   triggerSpan:
-  sourceOrProjectContext:
-  recoveredCurrentObject:
-  recoveredRelationOrSlot:
-  subjectPatternLocator:
-  retainedSourceLabelUse:
-  admissibleUse:
-  blockedUse:
-  nextUse:
+  wordingUse:
+  sourceRef?:
+  claimScope?:
+  modelUseBoundary?:
+  recoveredObjects?:
+  recoveredRelations?:
+  recoveredClaim:
+  applicablePatternRefs:
+  retainedSourceLabelUse?:
+  admissibleUse?:
+  blockedUse?:
+  nextUseOrStop:
 ```
 
-If `recoveredCurrentObject`, `recoveredRelationOrSlot`, or `subjectPatternLocator` cannot be filled, keep the label as quoted source wording, ordinary prose, or a blocked-use cue. Do not repair it by choosing a smoother umbrella word.
+Fill only the fields the receiving use needs. If the object, relation, claim, or applicable rule cannot yet be recovered, keep the label as quoted source wording, ordinary prose, or a blocked-use cue. Do not choose a smoother umbrella word merely to fill the line.
 

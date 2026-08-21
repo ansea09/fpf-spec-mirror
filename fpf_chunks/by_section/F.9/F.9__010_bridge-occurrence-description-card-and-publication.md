@@ -6,12 +6,12 @@ section_id: "F.9:8"
 section_title: "Bridge occurrence, description, Card, and publication"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__010_bridge-occurrence-description-card-and-publication.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:8 — Bridge occurrence, description, Card, and publication"
-line_start: 93086
-line_end: 93116
+line_start: 90478
+line_end: 90508
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -72,16 +72,16 @@ BridgeCard:
   ProposedBridgePredicateProfile?: by-value profile
   BoundedUseClaims?: each with u, d, r, t, polarity, and effective ReferenceScheme
   A10EvidenceUse?: exact evidence-provenance relation plus local RelianceDisposition
-  B3Use?: positive assurance claim plus sufficient record, or exact non-positive disposition
+  B3Use?: exact AssuranceResult for the same bounded assurance use
   ObservedLossAndCounterexamples?:
   EvidenceWarrantAndCurrentness?:
   NearestNonUse?:
   CardReferenceScheme:
 ```
 
-For `ClaimMode: actual`, the description/Card episteme's exact EntityOfConcern is the already individuated Bridge occurrence. It may package the Bridge assertion, one or more bounded-use propositions, their evidence and polarity, the exact A.10 relation and local disposition or selected B.3 branch, currentness, and nearest non-use. Its C.2.1 identity is not the occurrence identity.
+For `ClaimMode: actual`, the description/Card episteme's exact EntityOfConcern is the already individuated Bridge occurrence. It may package the Bridge assertion, one or more bounded-use propositions, their evidence and polarity, the exact A.10 relation and local disposition, or the exact B.3 `AssuranceResult` when an actual named assurance claim is current, plus currentness and nearest non-use. Its C.2.1 identity is not the occurrence identity.
 
 For `ClaimMode: candidate` or `negative`, no positive occurrence reference exists. The modal description/Card episteme's EntityOfConcern is the admitted F.9 direct `Bridge` relation kind; its ClaimGraph designates the proposed endpoints and profile. `candidate` says the proposed Bridge may obtain; `negative` says its predicate does not obtain. Any bounded-use proposition in the same graph keeps its own polarity. Completing, approving, registering, or publishing the description/Card creates no Bridge.
 
-The exact `<ClaimGraph, EntityOfConcern, effective ReferenceScheme>` triple identifies each description/Card episteme. A changed description or Card edition, evidence path, reliance disposition, assurance claim or disposition, registry record, E.24.PUB publication occurrence, publication form, carrier, or layout does not reidentify a fixed Bridge. Publish only the selected description/Card edition needed by the named audience and bounded use; publication changes availability, not relation truth.
+The exact `<ClaimGraph, EntityOfConcern, effective ReferenceScheme>` triple identifies each description/Card episteme. A changed description or Card edition, evidence path, reliance disposition, B.3 `AssuranceResult`, registry record, E.24.PUB publication occurrence, publication form, carrier, or layout does not reidentify a fixed Bridge. Publish only the selected description/Card edition needed by the named audience and bounded use; publication changes availability, not relation truth.
 

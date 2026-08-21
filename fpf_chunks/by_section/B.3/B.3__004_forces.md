@@ -1,73 +1,45 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3"
-pattern_title: "Trust and Assurance Calculus (F-G-R with Congruence)"
+pattern_title: "Trust and Assurance Calculus"
 section_id: "B.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__004_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
+  - "B.3 — Trust and Assurance Calculus"
   - "B.3:3 — Forces"
-line_start: 38470
-line_end: 38478
+line_start: 37633
+line_end: 37642
 dependencies:
   - "A.10"
-  - "A.15"
   - "A.15.1"
-  - "A.15.PROD"
   - "A.2.4"
   - "A.2.6"
-  - "A.20"
   - "A.21"
-  - "A.6"
+  - "A.22"
   - "A.6.1"
-  - "B.1"
-  - "B.1.1"
-  - "B.3"
-  - "B.3.5"
-  - "B.4"
-  - "C.13"
   - "C.16"
   - "C.16.Q"
   - "C.2.1"
-  - "C.26"
-  - "C.26.1"
-  - "C.26.2"
-  - "C.26.3"
   - "C.28"
   - "C.29"
-  - "D.4"
-  - "E.14"
   - "E.17"
-  - "E.17.EFP"
   - "E.24.PUB"
   - "F.10"
-  - "F.9"
   - "G.11"
   - "G.6"
 keywords:
-  - "F-G-R"
-  - "assurance"
-  - "authority-looking labels"
-  - "claim-support posture"
-  - "congruence"
-  - "dashboard tiles"
-  - "evidence"
-  - "formality"
-  - "probe/distributed/export/causal assurance"
-  - "reliability"
-  - "scope"
-  - "trust"
 ---
 
 ### B.3:3 - Forces
 
-| Force                                    | Tension                                                                                                                             |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| **Conservatism vs. Synthesis**           | Avoid overclaiming (WLNK) ↔ recognize real gains from better integration (raise CL) or true emergence (B.2).                            |
-| **Universality vs. Domain nuance**       | One calculus for systems and epistemes ↔ physics and epistemology use different primitives; keep them comparable but not identical. |
-| **Simplicity vs. Fidelity**              | Keep the assurance tuple small and typed (A.11) ↔ capture enough structure to be informative and improvable by KD-CAL moves.           |
-| **Static clarity vs. Dynamic evolution** | A score must be reproducible today ↔ tomorrow it should legitimately rise after formalization, replication, or reconciliation.      |
+| Force | Tension |
+| --- | --- |
+| Small result vs inspectability | A practitioner needs a quick result, while a consequential or reusable claim may need a replayable argument. |
+| Shared discipline vs domain meaning | Assurance needs common boundaries, while each characteristic and aggregation rule gets its meaning from its subject and domain. |
+| Conservatism vs useful synthesis | The result must avoid overstatement without discarding justified combination or independent lines of support. |
+| Formal clarity vs warranted belief | Formalization can improve inspectability and checking while leaving truth or empirical adequacy unchanged. |
+| Current use vs change over time | An assurance conclusion must be usable now and reopen when its basis, scope, or conditions change. |
 

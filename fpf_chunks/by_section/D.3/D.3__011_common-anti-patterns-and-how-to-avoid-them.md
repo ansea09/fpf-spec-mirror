@@ -6,16 +6,17 @@ section_id: "D.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 68728
-line_end: 68736
+line_start: 66021
+line_end: 66031
 dependencies:
   - "A.1"
   - "A.10"
   - "A.14"
+  - "A.6.RCD"
   - "B.1"
   - "B.3"
   - "C.13"
@@ -30,6 +31,7 @@ dependencies:
   - "D.5"
   - "E.10.ROLE"
   - "E.17"
+  - "E.24.PUB"
 keywords:
 ---
 
@@ -37,8 +39,10 @@ keywords:
 
 | Anti-pattern | What goes wrong | Repair |
 | --- | --- | --- |
-| Political label as structure | The conflict is named by a slogan such as society versus innovation. | Name the affected EntityOfConcern refs, levels or scopes, value frames, and evidence. |
-| Actor by plural noun | A collection is made responsible because its name is plural or institutional. | Recover membership, part-whole, participation, optional assignment, and agency evidence separately. Cite a direct responsibility relation with exact participants or return `missing-governor`. |
-| Description-only conflict | The case becomes a problem about wording of a report, model, or standard. | Use C.2.1 for episteme identity and E.17 or E.24.PUB for publication use while D.3 maps the affected systems or decisions. |
-| Mediation inside map | The conflict map chooses the compromise. | Stop at structure; D.4 is the pattern for mediation or decision use. |
+| Political label as structure | The conflict is named by a slogan such as society versus innovation. | Write the concrete sides, affected entities, scopes, value frames, consequences, and horizon. |
+| Flat inventory | The map lists values, entities, evidence, and relations without showing which belong together. | Use side rows and one tension statement. |
+| Actor by plural noun | A collection is made responsible because its name is plural or institutional. | Recover systemhood and each relation separately; cite an exact responsibility occurrence or missing governor. |
+| Description-only conflict | The case becomes only a wording problem about a report, model, or standard. | Keep episteme identity and publication with their patterns while D.3 describes the affected systems, decisions, and ethical tension. |
+| Mediation inside map | The description chooses the compromise. | Stop at the tension and next-use question; use D.4 for mediation or decision use. |
+| Ontology as prose tax | Every simple concern is expanded into specialist relation language. | State the ordinary side first; add a formal identity only when another use relies on the distinction. |
 

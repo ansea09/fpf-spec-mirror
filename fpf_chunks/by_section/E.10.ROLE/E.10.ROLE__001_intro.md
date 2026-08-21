@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:intro — Intro"
-line_start: 76300
-line_end: 76305
+line_start: 73581
+line_end: 73588
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -36,6 +36,8 @@ keywords:
 ## E.10.ROLE - Recovering What “Role” Means in the Current Claim
 
 > **Type:** Lexical and ontological precision restoration (E)
+>
+> **Status:** Stable
 >
 > **Plain name:** Recover what “role” means here
 

@@ -6,12 +6,12 @@ section_id: "F.18:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:0 — Use This When"
-line_start: 97021
-line_end: 97033
+line_start: 94213
+line_end: 94231
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,7 +52,13 @@ Use `F.18` when a name must become stable, public, Core-facing, reusable under m
 - one tempting head word is useful under one recovered local meaning but misleading under another;
 - a system-role-derived, method-derived, status-like, evidence-like, interface-like, or slot-like name risks creating a second ontology by wording alone.
 
-First useful move: recover the exact governed object or governed value before choosing the name. When relation-facing wording is current, distinguish a predicate-definition episteme, an admitted relation kind, an obtaining relation occurrence, a representation element, and a designator or reference; for a residual relation claim, cite the `A.6.RCD` settlement before naming. Other candidates—such as a system-role kind, assignment occurrence, method, work, characteristic, status value, architecture element, or claim-bearing episteme—stay under their direct patterns rather than being forced into that relation-facing list. When bare claim-bearing *role* still hides the object, use `E.10.ROLE` first. Then ask: under which effective by-value `U.ReferenceScheme`, by which direct pattern, for which use, and with which exact local sense is this object named? Only then decide whether a local expression is enough or a `NameCard` is needed. A public row is a later step: create one only when public, Core-facing, durable-across-context, or cross-context reuse is current and the `F.17` entry and result gate in section 4 passes.
+**First useful move.**
 
-Do not use `F.18` for one-off wording repair. If the phrase is local and not becoming a reusable name, use `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.RSIR`, `C.2.P`, or the subject pattern for the object being named. In particular, say in ordinary words whether one exact Bridge is suitable for one named use; do not create a `NameCard`, public claim kind, or durable CamelCase head merely to abbreviate that C.2.1 claim. Reopen F.18 for that claim only when an independent later use actually needs a reusable name beyond the local statement.
+1. Recover the exact value and the pattern containing its defining or testing rule.
+2. Decide whether ordinary local wording is enough or later use really needs a durable name.
+3. If a durable name is needed, compare the plausible names and record one Tech label, one Plain explanation, the selection reason, and the reopen condition in a `NameCard`.
+
+If bare claim-bearing *role* still hides the object, use `E.10.ROLE`; if relation, slot, interface, port, or signature wording hides it, use section 5.6. Open section 4.4 only for a genuinely public, Core-facing, durable-across-context, or cross-context use. A public row is a later result, never part of the first naming move.
+
+Do not use `F.18` for one-off wording repair. If the phrase is local and not becoming a reusable name, use `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.RSIR`, `C.2.P`, or the pattern containing the rule for the object being named. In particular, say in ordinary words whether one exact Bridge is suitable for one named use; do not create a `NameCard`, public claim kind, or durable CamelCase head merely to abbreviate that C.2.1 claim. Reopen F.18 for that claim only when an independent later use actually needs a reusable name beyond the local statement.
 

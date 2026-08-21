@@ -6,12 +6,12 @@ section_id: "C.22.2:20"
 section_title: "Worked Slices and Anti-Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__021_worked-slices-and-anti-cases.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:20 — Worked Slices and Anti-Cases"
-line_start: 51966
-line_end: 52017
+line_start: 50775
+line_end: 50832
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,30 +60,36 @@ keywords:
 
 #### C.22.2:20.1 - Five-Case Worked Slices
 
+These rows are recognition slices, not complete Thin cards. Before using one, complete the exact Thin contract in `C.22.2:2.1`; add the relation cues shown here only when they change that card's next use. The compact filled Thin example follows in `20.1a`.
+
 | Case | Problem-side signal | Repaired card use | Boundary preserved |
 |---|---|---|---|
 | AI and human task transfer rework | Repeated rework appears after transfer between human and agent. | Stabilize signal, EntityOfConcern, effective ReferenceScheme, ClaimScope, acceptance probe, and safe-call or Work relation before another delegation. | The card is not a prompt retry instruction and does not justify another delegation. |
 | Musical mastery tempo drift | Practice tempo drifts away from the intended mastery band. | State the temporal claim, practice scheme and scope, acceptance probe, and `C.27` relation when tempo, rhythm, recovery, or learning rate changes the next use. | A trend line is not an intervention model or evidence of mastery. |
 | Customer-service escalation after a policy or interface change | Escalation volume rises after the change. | Stabilize affected customer hand-off, acceptance probe, risk boundary, measurement relation, and causal-use relation when that relation is being made. | Escalation volume is not an automatic fix request, staffing plan, rollback order, or causal proof. |
 | Literature-synthesis anomaly before method selection | An anomaly does not fit current category labels. | Preserve rival formulation, EntityOfConcern, evidence need, bridge, representation, or mathematical-lens relation when that relation is being made, and next discrimination action. | The anomaly is not proof for a new theory or a selected research method. |
-| Selected-set candidate before P2W | A retained candidate from a front or pool looks promising. | Preserve `sourceSetRef`, source-set kind, selection or retention criterion, non-scalar next use, currentness, and window. | Set membership is not selected-solution proof, priority score, or work authorization. |
+| Selected-set candidate before P2W | A retained candidate from a front or pool looks promising. | Preserve `sourceSetRef`, source-set kind, selection or retention criterion, non-scalar next use, and only the currentness or window on which that use relies. | Set membership is not selected-solution proof, priority score, or work authorization. |
 
 #### C.22.2:20.1a - Compact P2W-ready Disposition Slice
 
 A support team sees repeated failed hand-offs after a new interface policy. The incoming request says "rewrite the escalation workflow." A conforming `ProblemCard` first repairs the problem-side record instead of accepting the work-shaped request.
 
-| Thin card field | Filled value |
+| Card field | Filled value |
 |---|---|
 | Source signal | Escalations reopen after hand-off from first-line support to specialist support. |
-| ReferenceScheme, ClaimScope, and qualification window | Effective scheme: support-interface hand-off under the new policy edition; ClaimScope: SupportOps-EU; qualification window: two-week incident window. |
 | Problem-side EntityOfConcern | The hand-off ambiguity at the support interface, not the whole escalation process. |
+| Effective ReferenceScheme and ClaimScope | Scheme: support-interface hand-off under the new policy edition. ClaimScope: SupportOps-EU. |
+| Claim family | Anticipated-condition claim: while the ambiguity remains under the current policy wording, reopened escalations are expected to continue. The card asserts no actual-PFR occurrence, causal-use result, or solvability result. |
+| Not-wish, not-ticket, and not-preselected-Work reason | The incoming request to "rewrite the escalation workflow" is a proposed Work request. It neither identifies the joint concern nor shows that a rewrite is the needed Method or Work. |
 | Improvement check or acceptance probe | Sample reopened cases; accepted improvement means fewer reopened hand-offs within that ClaimScope and window without increasing unresolved safety, compliance, or customer-impact exceptions. |
-| Problem-formulation follow-up reason | Separate interface wording, System, assignment, Method, and Work alignment, evidence and currentness, and possible policy-boundary relations before any Method or WorkPlan choice. |
-| Validation boundary | Same support interface, policy edition, ClaimScope, incident window, and source logs; refresh if the scheme, scope, source logs, window, or acceptance probe changes. |
-| Readiness disposition | `P2W-ready` only for the carried problem-side distinction: hand-off ambiguity under a declared interface policy and acceptance probe. |
-| Exported subject-pattern cues | `A.6` for policy or interface wording, `A.2`/`A.2.1`/`F.6`/`A.15` for System, assignment, Method, and Work alignment, `A.10` for evidence and currentness, `A.21` only if a gate claim later becomes current. |
+| Honest next use | Use E.18.1 to carry only the hand-off-ambiguity claim and acceptance probe into one next relation question. Do not select a method, approve a rewrite, pass a gate, or authorize Work. |
+| Qualification window (current here) | Two-week incident window under the stated policy edition. |
+| Problem-formulation follow-up reason (current here) | Separate interface wording, System, assignment, Method, and Work alignment, evidence, currentness, and possible policy-boundary relations before any Method or WorkPlan choice. |
+| Validation boundary (current here) | Same support interface, policy edition, ClaimScope, incident window, and source logs; refresh if the scheme, scope, source logs, window, or acceptance probe changes. |
+| Readiness disposition | `P2W-ready` only for the narrow next use above, because the card carries the ambiguity claim, rejects the preselected Work request, and supplies an acceptance probe. |
+| Subject-pattern cues (current here) | `A.6` for policy or interface wording; `A.2`, `A.2.1`, `F.6`, and `A.15` for System, assignment, Method, and Work alignment; `A.10` only if evidence reliance becomes current; `G.11` for currentness; `A.21` only if a gate claim later becomes current. |
 
-The P2W export is narrow: accepted problem-side material, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, improvement check, validation boundary, freshness condition, and subject-pattern cues. If the improvement check or acceptance probe is missing, the card stays reviewable-only or source-finding and cannot claim `P2W-ready`. If the next user wants evidence sufficiency, a gate decision, Work authorization, or selected method, the card preserves the cue and its direct governor carries that downstream claim.
+The P2W export is narrow: signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, claim family, not-wish or not-preselected-Work reason, improvement check or acceptance probe, and honest next use. In this case it also carries the qualification window, validation boundary, follow-up reason, and subject-pattern cues because the stated next use relies on them. Add freshness, unknown handling, source-set, representation, evidence, or other conditional content only when it is current. If the improvement check or acceptance probe is missing, the card stays reviewable-only or source-finding and cannot claim `P2W-ready`. If the next user wants evidence sufficiency, a gate decision, Work authorization, or selected method, the card preserves the cue and its direct governor carries that downstream claim.
 
 #### C.22.2:20.1b - Card/PFR Cardinality Replay
 

@@ -6,12 +6,12 @@ section_id: "E.18.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:4 — Solution"
-line_start: 84358
-line_end: 84634
+line_start: 81668
+line_end: 81944
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -80,7 +80,7 @@ The formula is neither `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U
 
 If a selected CGUS already exists, an A.22 demonstrative slice may include this display in its ClaimContent for a declared use. The table itself admits no structure, continuation-row kind, relation occurrence, MethodDescription, plan or Work.
 
-Here and elsewhere in this pattern, *move* is Plain wording for the exact current use action or continuation: stating a question, applying the pattern that answers it, keeping its returned result, stopping, splitting or reopening. In another current case it may instead refer to an independently defined recommendation, PlanItem, admitted CGUS continuation, dated Work or actual Transformation. No universal Move object or shared identity connects proposed, chosen and performed work, and wording performs nothing.
+Here and elsewhere in this pattern, *move* is Plain wording for the current use action or continuation: stating a question, applying the pattern that answers it, keeping its returned result, stopping, splitting, or reopening. In another current case it may instead refer to an independently defined recommendation, PlanItem, enabled continuation of a qualified CGUS, dated Work, or actual Transformation. No universal Move object or shared identity connects proposed, chosen, and performed work, and wording performs nothing.
 
 The decision aid below helps the practitioner choose the one relation question to answer now. Fill a compact carry-through or replay episteme only when another person or later action must recover the path. The aid shows the accepted claim, concrete question, relation and participants, pattern contribution that answers it, returned result or stop, and the smallest continuation to reopen after a relied-on result changes.
 
@@ -242,14 +242,14 @@ This example exercises the ordinary route: one carried distinction, one concrete
 
 #### E.18.1:4.3 - Direct-relation distinctions that change the branch
 
-P2W carries a returned value or stop; it does not restate the neighboring pattern's internal test. Keep a local distinction here only when it changes which branch the reader takes:
+P2W carries a returned value or stop; it does not restate the neighboring pattern's internal test. Keep a local distinction here only when it changes which question the reader asks:
 
 - **Lens or declaration?** Ask whether the current use judges a mathematical representation or declares a signature. Split the claims when both are present; the first-use case in `4.2` shows the difference.
-- **Mechanism or method?** Ask whether the claim states a law-governed operation application or a reusable way of doing. A shared noun supplies neither; split the questions and use the Relations map once for each current claim.
-- **Change or timing?** Ask whether the claim is one actual bounded change, one temporal aspect such as an interval or cadence, or a judgment that a temporal claim is adequate for use. A timestamp or before/after picture supplies none of those answers; split the questions before continuing.
-- **Work, change, or their connection?** Identify the dated `U.Work` occurrence and actual `U.Transformation` separately. Continue with a work-to-change claim only when a named subject predicate with those participants obtains or an `A.6.RCD` disposition-2 local compound claim is supported by the current base facts. If no current predicate or applicable constructor rule can state the claim, return `missing-governor`; if the governor exists and the available case basis is sufficient to apply its positive test but that test fails, return `factually unsupported`; if a fact needed to decide the test is unavailable, return `missing-information`. State a negative only under an applicable non-obtaining criterion or complete closure basis and satisfying facts. The BuildOps and current Pump 14 slices in `5.1` show positive results; Pump 14 also shows the explicitly earlier stop in a case record that lacks its project declaration.
-- **Approved, ready, released, or permitted?** State the intended result before looking it up: gate decision, permission result, work-entry readiness, release `U.Work` occurrence, or a subject release relation. Carry the one result that its pattern returns. If no predicate definition or occurrence rule can state the stronger subject claim, preserve the cue and return `missing-governor`; `authorization` is not a result type.
-- **Result or production?** Let `A.6.P.WMR` separate the concrete result claims. Open `A.15.PROD` only for a selected production-work, entity-inception, or production-completion question; its local claim remains separate from work, change, delivery, acceptance, and release.
+- **Mechanism or method?** Ask whether the claim concerns a law-governed operation application or a reusable way of doing. A shared noun supplies neither; split the questions and use the Relations map once for each current claim.
+- **Change or timing?** Ask whether the claim concerns an actual bounded change, a temporal aspect such as an interval or cadence, or the adequacy of a temporal claim for one use. A timestamp or a before-and-after picture supplies none of those answers.
+- **Work, change, or their connection?** Identify the dated `U.Work` occurrence and actual `U.Transformation` separately, then ask whether a work-to-change claim is current. Apply the pattern that defines or tests that claim, or the applicable A.6.RCD route, and carry only its positive or negative result or exact blocker. Shared timing does not answer the question. The BuildOps and Pump 14 slices in `5.1` show a positive result; Pump 14 also preserves an earlier `missing-governor` stop without copying the result's proof.
+- **Approved, ready, released, or permitted?** State which result is being sought: a gate decision, permission result, work-entry-readiness result, release `U.Work` occurrence, or subject-release relation. Apply the pattern that answers that question and carry its result or blocker; `authorization` is not a result type.
+- **Result or production?** Let `A.6.P.WMR` separate the concrete result questions. Open `A.15.PROD` only for a production-work, entity-inception, or production-completion question; its returned claim or blocker stays separate from work, change, delivery, acceptance, and release.
 
 For every other exceptional object, state the relation-specific question and consult the canonical map in Relations. A label, diagram, note, plan, trace, or familiar noun can trigger that question but cannot answer it.
 

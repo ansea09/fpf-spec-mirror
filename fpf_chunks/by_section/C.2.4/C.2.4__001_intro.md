@@ -6,24 +6,31 @@ section_id: "C.2.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:intro — Intro"
-line_start: 43460
-line_end: 43473
+line_start: 42218
+line_end: 42231
 dependencies:
+  - "A.15"
+  - "A.15.1"
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.16.2"
   - "A.18"
+  - "A.3.1"
+  - "A.6.3.RT"
   - "A.6.P"
   - "B.4.1"
   - "B.5.2.0"
+  - "C.16.P"
+  - "C.2.1"
   - "C.2.2a"
   - "C.2.5"
   - "C.2.LS"
+  - "C.2.P.DR"
 keywords:
   - "articulation explicitness"
   - "early repair readiness"
@@ -40,9 +47,9 @@ keywords:
 
 **Plain-name.** Articulation explicitness.
 
-**Use this pattern when.** Use C.2.4 when a governed `U.Episteme` publication must say how explicit its semantic shape already is before routing, repair, prompt entry, or endpoint classification.
+**Use this pattern when.** Use C.2.4 when the next move depends on how much of a governed `U.Episteme` publication's meaning a reader can already recover.
 
-**What goes wrong if missed.** A formal-looking sentence is treated as semantically ready, a real early cue is discarded as too vague, or `F` is misused as a proxy for whether anchors, slots, and relation-like structure are explicit enough.
+**What goes wrong if missed.** A formal-looking sentence is treated as semantically ready, a real early cue is discarded as too vague, or every partly explicit note is forced through relation repair even when it is a plan, MethodDescription, Work claim, representation, question, characteristic, or ordinary domain statement.
 
-**What this buys.** A separate ordinal characteristic for articulation explicitness, so teams can publish early cues, threshold entry into `A.6.P`, and keep articulation distinct from formality, closure, trust, and endpoint authority.
+**What this buys.** One branch-neutral ordinal characteristic: a stable cue can grow into recoverable governed structure, a complete form for its actual semantic branch, and a stable receiving use without confusing articulation with formality, closure, truth, trust, or endpoint authority.
 

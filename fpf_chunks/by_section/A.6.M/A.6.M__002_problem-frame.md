@@ -6,12 +6,12 @@ section_id: "A.6.M:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:1 — Problem frame"
-line_start: 18490
-line_end: 18526
+line_start: 18238
+line_end: 18284
 dependencies:
   - "A.10"
   - "A.20"
@@ -67,18 +67,28 @@ ModuleRelationRepairNote:
   moduleInterfaceViewpointRef?: VP.ModuleInterface
   selectedDependencyStructureRef?: U.StructureRef
   boundaryRef:
-  interfaceSpecificationRef or interfaceSpecificationGap:
+  interfaceSpecificationRef?: U.EpistemeRef constrained to InterfaceSpecification
+  interfaceSpecificationGap?: exact missing-specification result
   admissibilityConditions:
   substitutabilityPolicyRef?:
   changePolicyRef?:
   directModuleRelationDisposition:
-    claimOnly | admittedDirectOwnerAndOccurrenceRef | directOwnerStillNeeded
+    noDirectRelationClaimed | admittedRelationAndOccurrence | missingGovernor
+  admittedRelationKindOrDeclarationRef?:
+  obtainingRelationOccurrenceRef?: U.RelationRef
+  missingRelationParticipantRefs?:
+  proposedPredicate?:
+  affectedUse?:
+  futureDefinitionNeed?:
+  definingPatternLocator?: PatternID used only as a locator
   claimBoundary:
   notAModuleBecause:
   governedNonModuleClaimPatternRefs:
   stopCondition:
 ```
-Ordinary use stops when the whole, candidate module, boundary, interface specification, admissibility conditions, substitutability policy, change policy, blocked false interpretation, relation disposition, and neighboring work, procedural, role, or enactor subject-pattern choice are clear enough to choose the next architecture move. Use the fuller `moduleIn(...)` claim record only when substitutability, conformance, publication, evidence, assurance, change policy, repeated reuse, or cross-team coordination requires durable claim content.
+Exactly one of `interfaceSpecificationRef` and `interfaceSpecificationGap` is current. `noDirectRelationClaimed` leaves every direct-relation field empty. `admittedRelationAndOccurrence` requires an exact admitted relation kind or defining declaration plus one separately obtaining occurrence. `missingGovernor` names the actual participants, proposed predicate, affected use, and missing definition or declaration; a PatternID may locate an applicable rule but cannot fill any of those positions.
+
+Ordinary use stops when the whole, candidate module, boundary, interface specification, admissibility conditions, substitutability policy, change policy, blocked false interpretation, relation disposition, and neighboring work, procedural, role, or enactor subject-pattern choice are clear enough to choose the next architecture move. Use the fuller `ModuleInterfaceClaim` record only when substitutability, conformance, publication, evidence, assurance, change policy, repeated reuse, or cross-team coordination requires durable claim content.
 
 What goes wrong if A.6.M is missed: a functional link becomes a module interface; a signature becomes an implemented interface; a port label becomes proof of integration; "open" becomes a decoration; a platform label hides the actual extension rules; a stratification or architecture-operation source label bypasses `C.30.STRAT` and mints a false local kind; autonomy-like wording is confused with separate module change policy; and a module diagram starts being used for claims governed elsewhere.
 

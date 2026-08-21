@@ -6,16 +6,17 @@ section_id: "D.3:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__010_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:6 — Conformance Checklist"
-line_start: 68719
-line_end: 68727
+line_start: 66009
+line_end: 66020
 dependencies:
   - "A.1"
   - "A.10"
   - "A.14"
+  - "A.6.RCD"
   - "B.1"
   - "B.3"
   - "C.13"
@@ -30,6 +31,7 @@ dependencies:
   - "D.5"
   - "E.10.ROLE"
   - "E.17"
+  - "E.24.PUB"
 keywords:
 ---
 
@@ -37,8 +39,11 @@ keywords:
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| CC-D3-1 | The conflict names affected EntityOfConcern refs, declared levels or scopes, value frames, evidence, and consequence horizons. | Makes the conflict structure inspectable. |
-| CC-D3-2 | Episteme identity uses C.2.1; part-whole claims use A.14; Method uses A.3.1; dated Work uses A.15.1; transformation uses A.3.4. Collection membership and every other relation need their own direct predicate and actual participants. | Prevents ethical conflict from absorbing ontology. |
-| CC-D3-3 | `nextUseQuestionRef` points to D.4 for mediation or decision use, D.5 for bias, fairness, impact, or ethical assurance, C.28 for causal use, and C.30.ILC for an architecture residual. | Keeps D.3 separate from neighboring questions. |
-| CC-D3-4 | The representation of the conflict is not treated as the conflict itself. | Prevents semio-bias in ethical conflict maps. |
+| CC-D3-1 | A reusable result is one C.2.1 episteme with one exact EntityOfConcern, ClaimGraph, and effective ReferenceScheme. Edition, form, carrier, and publication remain separate. | Makes the reference used by D.4 reidentifiable. |
+| CC-D3-2 | At least two sides each connect one ethical claim, affected entity, declared level relation or applicable scope, value-frame edition, consequence, and horizon. Evidence use and uncertainty are added when current. | Shows what each claim affects rather than presenting a flat inventory. |
+| CC-D3-3 | Any ClaimScope on the whole description remains separate from side-specific ClaimScopes and Work extents. | Prevents the description's coverage from replacing the scope of a side. |
+| CC-D3-4 | The tension names the sides and states why they cannot all be met as stated. Any direct relation claim cites its definition and obtaining occurrence, or the exact A.6.RCD missing-governor result. | Prevents a reference field from manufacturing a fact in the situation. |
+| CC-D3-5 | Classification assertion, Method, Work, relation definition, relation occurrence, evidence episteme, evidence use, publication, form, and carrier remain separately typed when used. | Prevents the conflict description from absorbing neighboring objects. |
+| CC-D3-6 | The first useful result is readable without the optional enriched branches, and every added branch changes the conflict or its next use. | Keeps D.3 affordable in ordinary project work. |
+| CC-D3-7 | The next-use statement names D.4, D.5, C.28, C.30.ILC, evidence, assurance, or another receiving pattern by value. | Keeps mapping separate from mediation, decision, proof, and assurance. |
 

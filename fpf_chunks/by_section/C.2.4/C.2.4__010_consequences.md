@@ -6,24 +6,31 @@ section_id: "C.2.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__010_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:9 — Consequences"
-line_start: 43544
-line_end: 43546
+line_start: 42305
+line_end: 42307
 dependencies:
+  - "A.15"
+  - "A.15.1"
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.16.2"
   - "A.18"
+  - "A.3.1"
+  - "A.6.3.RT"
   - "A.6.P"
   - "B.4.1"
   - "B.5.2.0"
+  - "C.16.P"
+  - "C.2.1"
   - "C.2.2a"
   - "C.2.5"
   - "C.2.LS"
+  - "C.2.P.DR"
 keywords:
   - "articulation explicitness"
   - "early repair readiness"
@@ -33,5 +40,5 @@ keywords:
 ---
 
 ### C.2.4:9 - Consequences
-The benefit is admissible publication of early cues and clearer threshold setting for repair. The trade-off is that authors must distinguish "not yet explicit" from "already formal".
+The benefit is admissible publication of early cues and branch-aware threshold setting. The trade-off is that authors must distinguish `not yet explicit` from `already formal` and must name the receiving branch rather than treating relation repair as the universal destination.
 

@@ -1,77 +1,51 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3"
-pattern_title: "Trust and Assurance Calculus (F-G-R with Congruence)"
+pattern_title: "Trust and Assurance Calculus"
 section_id: "B.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__011_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
+  - "B.3 — Trust and Assurance Calculus"
   - "B.3:9 — Consequences"
-line_start: 39002
-line_end: 39014
+line_start: 37862
+line_end: 37877
 dependencies:
   - "A.10"
-  - "A.15"
   - "A.15.1"
-  - "A.15.PROD"
   - "A.2.4"
   - "A.2.6"
-  - "A.20"
   - "A.21"
-  - "A.6"
+  - "A.22"
   - "A.6.1"
-  - "B.1"
-  - "B.1.1"
-  - "B.3"
-  - "B.3.5"
-  - "B.4"
-  - "C.13"
   - "C.16"
   - "C.16.Q"
   - "C.2.1"
-  - "C.26"
-  - "C.26.1"
-  - "C.26.2"
-  - "C.26.3"
   - "C.28"
   - "C.29"
-  - "D.4"
-  - "E.14"
   - "E.17"
-  - "E.17.EFP"
   - "E.24.PUB"
   - "F.10"
-  - "F.9"
   - "G.11"
   - "G.6"
 keywords:
-  - "F-G-R"
-  - "assurance"
-  - "authority-looking labels"
-  - "claim-support posture"
-  - "congruence"
-  - "dashboard tiles"
-  - "evidence"
-  - "formality"
-  - "probe/distributed/export/causal assurance"
-  - "reliability"
-  - "scope"
-  - "trust"
 ---
 
 ### B.3:9 - Consequences
 
 **Benefits**
 
-* **Comparable, conservative, improvable.** The tuple ⟨F, G, R⟩ with **edge-scoped Congruence Level (`CL`) values** gives a compact, auditable view that improves monotonically under targeted moves (formalize, replicate, reconcile).
-* **Cross-scale coherence.** Works for assemblies and arguments, methods and histories, without leaking order, time, or cost into structure.
-* **Clear improvement moves.** It is obvious what to do to raise each component: raise `F`, `G`, or `R` locally, or raise `CL` on the integration edge.
+- Assurance remains explicit without forcing one cross-domain score.
+- A small local claim can stop after six fields.
+- Calculations become more trustworthy because assumptions and dependency structure are visible.
+- Domain safety, access, responsibility, status, and decision rules retain their own meaning.
+- Visible artifacts can contribute useful provenance or evidence without becoming authority.
 
-**Trade‑offs**
+**Trade-offs**
 
-* **More explicit metadata.** You must state scale kinds, cutsets, and mapping congruence; this is intentional transparency.
-* **Conservatism may feel pessimistic.** True synergy appears only via **MHT** or after raising CL—never by arithmetic optimism.
+- B.3 no longer supplies a convenient universal number. A project must use the domain model that gives its inputs meaning.
+- Some assurance questions return `unresolved` until a dependency model, calibrated mapping, or direct domain requirement is supplied.
+- Reusable replay records cost more than a compact result and therefore require an actual receiver.
 

@@ -6,12 +6,12 @@ section_id: "A.7:14"
 section_title: "Practitioner one-page review (copy-paste)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__016_practitioner-one-page-review-copy-paste.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:14 — Practitioner one-page review (copy-paste)"
-line_start: 21801
-line_end: 21821
+line_start: 21240
+line_end: 21266
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,22 +41,28 @@ keywords:
 
 ### A.7:14 - Practitioner one-page review (copy-paste)
 
-**Approval sentence template**
+**Ordinary approval sentence**
 
-> “`⟨assignment-occurrence⟩ : ⟨locally admitted direct U.SystemRoleAssignment species⟩` obtains with `HolderSystemSlot = ⟨system-or-acting-holon⟩` and `AssignedSystemRoleKindSlot = ⟨exact local ...SystemRole kind⟩`; the holder has **Capability** ⟨C⟩ to enact exact **Method** ⟨M⟩; the receiving `methodRef` resolves directly to ⟨M⟩ under its effective reference scheme; when this claim actually relies on separately admitted **MethodDescription** episteme ⟨S⟩, cite that edition separately; the holder performed **Work** ⟨W⟩ at ⟨time⟩ under the assignment and cites A.10 evidence-provenance, carrier, or source-currentness refs ⟨ids⟩; resources are accounted through the governing work-cost relation.”
+> `Engineer Dana repaired pump P-12. MaintenanceNote-e4 describes the repair. Carrier C bears publication form F.`
 
-**Six binary checks**
+Keep the sentence this short when the receiving use needs no stronger distinction. Contribution nouns such as *engineer*, *reviewer*, *pump*, *team*, or *service* are acceptable when the underlying System and contribution are recoverable and no decision, attribution, admission, or reliance depends on a hidden kind or assignment identity.
 
-1. **Bare acting-subject check:** No bare “actor” token in normative core claims; the exact acting system and one named occurrence of its locally admitted direct assignment species are present when a work-facing assignment is current.
-2. **Clear work-facing positions:** Exact Method, Capability and Work are named when current and not conflated. A MethodDescription is named only when its independently identified episteme and claims pass A.3.2 membership.
-3. **Direct reference and membership:** An identifier's designation of the Method and the receiving claim's resolved `methodRef` remain distinct; neither requires a MethodDescription. Any `methodDescriptionRef` points to a separate episteme whose exact EntityOfConcern is that Method and whose claims cross the substantive way-of-doing threshold.
-4. **Right Γ:** Γ\_method composes Method; Capability states a system ability/envelope under conditions; Γ\_time covers occurrences; Γ\_work accounts resources; Γ\_sys covers system properties.
-5. **Episteme handled:** Epistemes do not act; carriers or source-currentness refs are listed when evidence or source use is current.
-6. **Group clarity:** Acting group is a **collective system**, not a MemberOf set.
+**Reliance-bearing expansion, when needed**
+
+> `System S performed Work W under assignment A of admitted species AS; W enacted Method M. Capability C, local system-role kind K, method-description episteme D, carrier P, evidence-use relation R, time, and resources are named only where the receiving claim relies on them.`
+
+**Six checks**
+
+1. **Acting subject:** Is the acting System recoverable? If assignment identity is not used, do not invent it.
+2. **Current distinctions:** Are Method, Capability, Work, assignment, local kind, and MethodDescription named only for claims that actually use them?
+3. **Description boundary:** Is each Description episteme independently identified by claim content, EntityOfConcern, and effective scheme, with any authoring, measurement, source-use, representation, or refinement relation stated separately?
+4. **Right operator:** `Gamma_method` composes Method; time and resource actuals belong to Work or their direct relations.
+5. **Episteme and carrier:** Does the episteme remain non-acting and distinct from its publication form and carrier?
+6. **Grouping:** If a group acts, is it recoverable as a collective System rather than merely a set?
 
 **Diagram legend stub**
 
-* “process (domain)” ⇒ Method (design-time) / Work (run-time).
-* System-role-kind column lists exact local `...SystemRole` kinds and separate assignment references (for example, `CoolingCirculatorSystemRole@ThermalLoop-7` and `CoolingLoopCirculationAssignment-17`).
-* Behaviour column shows Method and Work, not the system-role kind or assignment itself.
+* `process` in source language may mean Method, Work, transformation, mechanism, or another direct object; recover the live claim.
+* A system-role-kind column lists local classifications, not behaviour.
+* A behaviour column shows the Method or Work actually current; it need not display a full assignment chain.
 

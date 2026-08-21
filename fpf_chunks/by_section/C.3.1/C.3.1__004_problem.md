@@ -6,12 +6,12 @@ section_id: "C.3.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__004_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:2 — Problem"
-line_start: 44720
-line_end: 44723
+line_start: 43505
+line_end: 43508
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,5 +44,5 @@ keywords:
 
 ### C.3.1:2 - Problem
 
-The statement `cooling pump is a pump` is useful only if candidate classifications respect it. Yet an extension table can hide a bad subkind link, two declaration editions can use incompatible criteria, and same spelling can conceal a change of practice boundary or subject distinction. Conversely, every editorial or formalization change need not create a new kind. The core needs both a monotonicity check and an explicit continuity decision without absorbing the declaration or extension into the kind.
+The sentence `cooling pump is a pump` is useful only when the membership conditions justify it. A current extension table can hide a bad proposal, and different intensional kinds can happen to classify the same candidates. Conversely, a unit rewrite, source move, or clearer declaration need not create another kind. The core needs an obtaining test for the relation and a before/after test for kind continuity without treating a signature, sample, locality, or extension as the kind.
 

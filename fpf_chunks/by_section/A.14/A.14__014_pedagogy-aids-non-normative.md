@@ -6,12 +6,12 @@ section_id: "A.14:11"
 section_title: "Pedagogy aids (non-normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__014_pedagogy-aids-non-normative.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:11 — Pedagogy aids (non-normative)"
-line_start: 23856
-line_end: 23864
+line_start: 23290
+line_end: 23298
 dependencies:
   - "A.1"
   - "A.15"
@@ -42,6 +42,6 @@ keywords:
 
 1. Do I see "process", "procedure", "policy", or "script" used to mean enactment? — then **A.15/A.15.1**. If it names an episteme, use A.14 only for its content parthood or a proper interval of the unchanged C.2.1 identity; use C.2.1 for another episteme and any edition-continuity claim.
 2. Does every PortionOf have a declared μ and unit?
-3. Do phases cover a lifetime without overlap for the same aspect?
+3. Is this an ordinary proper temporal restriction, where nesting or overlap is allowed, or one explicitly selected exhaustive partition, whose cells alone must not overlap and must cover the declared interval?
 4. Are any roles/recipes appearing as parts? If yes, stop and refactor.
 

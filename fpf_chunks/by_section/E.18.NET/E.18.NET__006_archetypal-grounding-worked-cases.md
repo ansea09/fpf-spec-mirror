@@ -6,12 +6,12 @@ section_id: "E.18.NET:5"
 section_title: "Archetypal Grounding — worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__006_archetypal-grounding-worked-cases.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:5 — Archetypal Grounding — worked cases"
-line_start: 85756
-line_end: 85835
+line_start: 83092
+line_end: 83182
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -65,23 +65,34 @@ networkUseFrame:
 returnCondition: either member, the supply occurrence, an endpoint or exposure, acyclicity, or the coffee-service question changes
 ```
 
-This filled basis is enough for the immediate selection; it is not a `TransformationFlowStructureNetworkRecord@Context`. Create that separate descriptive record only when the result must survive the current work. With no admitted supply-relation kind or applicable predicate, the same diagram remains a proposed description with `missing-governor`. With an applicable predicate but undecided facts, it remains proposed with the missing grounding or information-sufficiency boundary. With a false predicate, no supply occurrence fills the network. With a satisfied predicate but a missing endpoint binding, it remains proposed with that binding named.
+This filled basis is enough for the immediate selection; it is not a `TransformationFlowStructureNetworkRecord@Context`. Create that separate descriptive record only when the result must survive the current work. If the supply claim has no admitted relation kind or applicable predicate, carry the governing pattern's `missing-governor` result. If required facts are unavailable, carry `missing-information`; if a sufficient case basis fails the positive test, carry `factually unsupported`. Neither result asserts a negative. Only an applicable negative rule and satisfying case basis can supply a negative result. When the supply occurrence obtains but an endpoint binding is missing, keep the positive occurrence and name the missing binding as a separate E.18.NET selection blocker. A missing member, applied constraint, or coffee-service use frame is also a separate selection blocker.
 
 #### E.18.NET:5.2 - Project system-of-interest and recursive build-the-builder
 
-For one project question, practitioners ask which independently identified flow structures must be considered together to connect production and later operation of the project system-of-interest, and which builder branches must also be visible. The actual project remains composite `U.Work`; the selected network is a non-agentive `U.Structure`. Project designation and `U.System` identity remain separate from any local system-role kind, classification, or assignment. None follows from a project or network label.
+For one project question, practitioners ask which independently identified flow structures must be considered together to connect production and later operation of the project system-of-interest, and which builder branches must also be visible. The actual project remains composite `U.Work`; the selected network is a non-agentive `U.Structure`. Project designation and `U.System` identity remain separate from any local system-role kind, classification, assignment, selection Work, or result episteme. None follows from a project or network label.
 
-For a compiler-and-application use, practitioners independently identify five TFS values by the questions they answer:
+For the compiler-and-application use, identify five TFS values by the questions they answer:
 
-1. a TFS whose loci bind the compiler-edition preparation and the obtaining source-use relations needed by the build;
-2. a TFS whose loci bind Work and changes of pre-existing build substrates plus production and identity-inception claims for one bootstrap compiler;
-3. a TFS whose loci bind application-production Work and the exact use of that admitted compiler;
-4. a TFS selected for release-assurance questions; and
-5. a TFS selected for deployment and operation after the application system exists.
+1. `CompilerEditionPreparationTFS`, whose loci bind compiler-edition preparation and the obtaining source-use occurrences needed by the build;
+2. `BootstrapCompilerBuildTFS`, whose loci bind Work on pre-existing build substrates and the separately grounded production and identity-inception claims for one bootstrap compiler;
+3. `ApplicationBuildTFS`, whose loci bind application-production Work and the exact use of that admitted compiler;
+4. `ReleaseAssuranceTFS`, selected for release-assurance questions; and
+5. `DeploymentOperationTFS`, selected for deployment and operation after the application system exists.
 
-These descriptions are not TFS kinds or lifecycle phases, and they assert no transformation of a not-yet-existing compiler or application. Use E.18 for each TFS, A.15.1 for each Work occurrence, A.3.4 for a change of a continuing referent, and A.15.PROD for production, identity-inception, or completion claims. Use A.2.1 and F.6 for each performer's assignment; keep any local system-role kind and classification separate. Route unresolved *role* wording through E.10.ROLE. Use the applicable relation pattern for a later operation or use fact.
+These names designate independently identified TFS values, not lifecycle kinds. They assert no transformation of a not-yet-existing compiler or application. Use E.18 for each TFS, A.15.1 for any current Work occurrence, A.3.4 for a change of a continuing referent, A.15.PROD for production or identity inception, and the applicable relation pattern for each exact cross-member occurrence.
 
-In this worked use, `CompilerNetworkSelectionAssignment@CompilerProject-v1` is a directly declared species of `U.SystemRoleAssignment`. Its ordered participants are `<HolderSystemSlot, AssignedSystemRoleKindSlot>` under local domain `CompilerNetworkSelectionRoleKindDomain@CompilerProject-v1`; its predicate says that the holder is selected to supply the denoted compiler-network selection contribution over the covered interval. `CompilerNetworkSelectionAssignment-5` fixes `<CompilerArchitectureTeam-1, CompilerNetworkSelectorSystemRoleKind@CompilerProject-v1>` and obtains from 09:00 through 09:40. `CompilerArchitectureTeam-1`, independently admitted as a `U.System`, is the assignment holder and performs admitted Work `CompilerNetworkSelectionWork-5` over that interval. The Work enacts `CompilerNetworkSelectionMethod@CompilerProject-v1` within `CompilerProjectSystem-1`; F.6 occurrence `performedUnderAssignment(CompilerNetworkSelectionWork-5, CompilerNetworkSelectionAssignment-5)` obtains, and the performer equals the assignment's `HolderSystemSlot`. Any C.3.2 classification judgment remains separate. A compact explanation may omit only an assignment identifier unused by its receiving claim after this basis remains recoverable. The result episteme describes the selected structures and cites the selection or decision relation; it is not an accountable decision by form. If accountability is claimed, cite its direct predicate and participants or return the exact missing governor. During the Work, the team applies the Method only after the needed cross-member relations obtain and every endpoint is bound. `CompilerRealizationNetwork` is described by `directMemberRefs[]` for members 1 and 2 and the selected source-use, production, or other relation occurrences needed by its use. `ApplicationCompilerUseNetwork` has `directMemberRefs[]` for that network and member 3 plus a compiler-use relation or A.6.1 operation application with bound participants. `ReleaseAssuranceNetwork` has member 4 and its evaluation or assurance relation; `DeliveryOperationNetwork` has member 5 and its deployment, participation, application, or use relation. Each selected network keeps its applied constraints and own `networkUseFrame`. The names are local designators; no network value selects or adds a member. The project Work, networks, result episteme, team System, optional kind and classification, assignment, and selection Work remain different objects.
+Select the nested network values from those already established inputs:
+
+| Selected network | Direct members | Exact selected cross-member occurrence and ordered endpoint binding | Network use frame |
+|---|---|---|---|
+| `CompilerRealizationNetwork` | `CompilerEditionPreparationTFS`; `BootstrapCompilerBuildTFS` | `CompilerEditionSourceUsedByBootstrapBuild-1`: `CompilerSourceEditionReady` -> `BootstrapCompilerBuildInput` | connect the admitted source edition to the bootstrap-compiler build question |
+| `ApplicationCompilerUseNetwork` | `CompilerRealizationNetwork`; `ApplicationBuildTFS` | `BootstrapCompilerUsedByApplicationBuild-1`: exposed `ExecutableCompilerResult` -> `ApplicationCompilerUsePosition` | connect the admitted compiler to the application-build question |
+| `ReleaseAssuranceNetwork` | `ApplicationCompilerUseNetwork`; `ReleaseAssuranceTFS` | `ApplicationBuildEvaluatedForRelease-1`: exposed `ApplicationBuildResult` -> `ReleaseEvaluationSubject` | connect the application result to the release-assurance question |
+| `DeliveryOperationNetwork` | `ReleaseAssuranceNetwork`; `DeploymentOperationTFS` | `ReleasedApplicationUsedByDeployment-1`: exposed `ReleasedApplicationPosition` -> `DeploymentApplicationInput` | connect the released application to the deployment-and-operation question |
+
+Each named occurrence is independently established under its project predicate before selection. Each network applies its exact endpoint-binding and boundary-exposure constraints plus the acyclic direct-member constraint, and each keeps the use frame in its row. The local names select or add nothing by themselves.
+
+No claim about who selected these networks is required. If the case also needs `CompilerNetworkSelectionWork-5`, cite one independently established A.15.1/F.6 result identifying that Work and its performer; its assignment declaration and proof remain outside E.18.NET, and adding or removing the Work claim changes none of the four network identities above. The result episteme may describe the selected structures and cite a separate selection or decision relation, but it is not a decision or accountability relation by form. Any accountability claim needs its own exact predicate and participants.
 
 A compiler-production case can close on separately grounded identity inception, production completion or readiness, evidence, and decision while naming the application-build position as the downstream use outside that closed case. Project-level reasoning continues into the member where the compiler later participates. The same joint-selection question recurs for a builder system: select the TFS in which that admitted builder performs exact Work together with the independently identified TFS or nested network concerning production and identity inception of the builder, or its later change after it exists. Shared identity creates no edge; use obtaining production, inception, participation, application, use, or other relation occurrences and their endpoint bindings.
 
@@ -102,7 +113,7 @@ ExposedFlowPositionRef:
 
 Each path entry is a direct member of the preceding network, the final entry is the TFS named by `leafFlowPositionRef`, and no network repeats. `FlowValuation`, path slices, and `DesignRunTag` remain leaf-local. “Builds”, “uses”, “evaluates”, and “delivers” are ordinary cues until each link resolves to an admitted relation kind, complete participant signature, obtaining occurrence, and endpoint bindings.
 
-Before these identities and relations are grounded, A.1.STM may show the dependency only as a Plain provisional long-mantra map and must name the missing member, relation kind or predicate, false or unresolved predicate result, occurrence, or binding. It is not yet an E.18.NET selection. Once the network is admitted, a separate A.22.CGUS demonstrative slice may traverse admitted positions and relation-reference epistemes; it remains a demonstration, not the project, network, case, or Work order.
+Before these identities and relations are grounded, A.1.STM may show the dependency only as a Plain provisional long-mantra map and must name the missing member, the exact relation-claim result returned by its governing pattern, or the separate missing occurrence, endpoint, or position binding. It is not yet an E.18.NET selection. Once the network is admitted, a separate A.22.CGUS demonstrative slice may traverse admitted positions and relation-reference epistemes; it remains a demonstration, not the project, network, case, or Work order.
 
 #### E.18.NET:5.3 - N-ary relation and feedback cycle
 

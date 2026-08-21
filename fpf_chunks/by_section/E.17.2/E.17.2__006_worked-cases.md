@@ -6,12 +6,12 @@ section_id: "E.17.2:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__006_worked-cases.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:5 — Worked cases"
-line_start: 80669
-line_end: 80711
+line_start: 78037
+line_end: 78087
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -39,7 +39,7 @@ Exact plant `Plant_X : U.System` is the EntityOfConcern of four separately ident
 
 - E1 states transformations, capabilities, material-flow effects, and functional boundaries. `r_functional` resolves `P_functional`; E1 conforms to that P and is a functional `U.View`.
 - E2 states claims about exact admitted method `PlantOperation`, exact A.19.SPR operational-state structure `PlantRunState`, and exact E.18 transformation-flow structure `PlantRunFlow`; its order, failure, and recovery claims designate the exact transition conditions and flow relations in those structures. It conforms to `P_procedural`; it is not a method description because its EntityOfConcern is the plant. No safety-bearing claim or named reliance is present in this case, so no safety-analysis, A.10, or B.3 branch is opened.
-- E3 states exact admitted Systems, local system-role kinds, obtaining assignments, capabilities, transformations, and separately governed responsibility structures. It conforms to `P_allocation`; neither E3 nor `P_allocation` classifies or assigns a System, establishes responsibility, or performs Work.
+- E3 states that `PumpUnit-3` counts as local kind `CoolingCirculatorSystemRole` in the plant slice through a separate C.3.2 judgment over the exact candidate, kind, `KindSignature` edition, and slice; that claim needs no assignment. E3 separately states any obtaining assignments, capabilities, transformations, and governed responsibility structures that are current. It conforms to `P_allocation`; neither E3 nor `P_allocation` makes the classification criterion true, creates an assignment or responsibility relation, or performs Work.
 - E4 states constituent equipment holons, dependency structure, pipes, interfaces, substitutability, and change policy. It conforms to `P_module`; the diagram rendering E4 is published in remains separate.
 
 The four conformance occurrences make E1-E4 views. Their shared holon and common local declaration do not establish any cross-view realization or consistency relation. Those claims are tested separately.
@@ -60,7 +60,15 @@ Suppose a second claim says that restarting H after the same jam is safe for an 
 
 #### E.17.2:5.3 - Responsibility diagram and actual assignment
 
-A responsibility diagram episteme E concerns exact System H. Exact local reference `r_allocation : U.ViewpointRef` resolves exact `P_allocation`; `EpistemeViewpointConformanceRelation(E,P_allocation)` obtains. One box names `MaintainerSystemRole@Plant`. This mention establishes neither a C.3.2 classification judgment nor an assignment. If the current claim says admitted System S holds the assignment, recover exact `RA : MaintenanceWorkAssignment <: U.SystemRoleAssignment` under A.2.1, with S in `HolderSystemSlot` and declaration-local assigned-kind domain `MaintainerSystemRole@Plant`; E can assert or describe RA without becoming RA. Any responsibility of S remains a separately governed direct claim.
+A responsibility-diagram episteme E concerns exact System H. Exact local reference `r_allocation : U.ViewpointRef` resolves exact `P_allocation`; `EpistemeViewpointConformanceRelation(E,P_allocation)` obtains.
+
+**Diagram cue.** One box names `MaintainerSystemRole@Plant`. That spelling can help locate the plant-side definition; by itself it establishes neither an exact local system-role kind, an assigned-kind domain, a C.3.2 judgment, nor an assignment.
+
+**Classification-only claim.** If a current claim says `PumpUnit-3` counts as `CoolingCirculatorSystemRole` for exact `CoolingCirculatorKindSignature-2` and `PlantSlice-7`, recover `J(PumpUnit-3, CoolingCirculatorSystemRole, CoolingCirculatorKindSignature-2, PlantSlice-7) = true` under C.3.2. No assignment is required.
+
+**Assignment claim.** If a separate claim says admitted System S holds an assignment, first recover the exact local kind—here named `MaintainerSystemRole`—through C.3 and declare the exact assigned-kind domain—here named `PlantMaintenanceSystemRoleKindDomain`. The diagram cue identifies neither. Then recover exact `RA : MaintenanceWorkAssignment <: U.SystemRoleAssignment` under A.2.1, with S in `HolderSystemSlot`, `PlantMaintenanceSystemRoleKindDomain` as the declaration-local assigned-kind domain, and `MaintainerSystemRole` as RA's assigned-kind value.
+
+E can assert or describe RA without becoming RA. Any responsibility of S remains a separately governed direct claim.
 
 #### E.17.2:5.4 - One view, two publications
 

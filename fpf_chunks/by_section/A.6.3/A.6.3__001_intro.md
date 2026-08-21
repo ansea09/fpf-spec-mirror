@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3"
-pattern_title: "U.EpistemicViewing - EntityOfConcern-preserving episteme construction"
+pattern_title: "Episteme viewing - EntityOfConcern-preserving episteme construction"
 section_id: "A.6.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.3 — U.EpistemicViewing - EntityOfConcern-preserving episteme construction"
+  - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:intro — Intro"
-line_start: 13356
-line_end: 13372
+line_start: 13373
+line_end: 13389
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -20,22 +20,16 @@ dependencies:
   - "A.6.3.CR"
   - "A.6.3.RT"
   - "A.6.4"
-  - "A.6.5"
-  - "A.7"
-  - "B.5.3"
-  - "C.2"
   - "C.2.1"
   - "C.29"
-  - "E.10.D2"
   - "E.17"
   - "E.17.0"
-  - "E.17.1"
-  - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
 keywords:
 ---
 
-## A.6.3 - `U.EpistemicViewing` - EntityOfConcern-preserving episteme construction
+## A.6.3 - Episteme viewing - EntityOfConcern-preserving episteme construction
 > **Status:** Stable
 
 **Use this when.** You need to derive a smaller, reorganized, or differently expressed body of claims from existing claims while keeping the same thing under discussion. In FPF terms, the source and result are independently identifiable epistemes with the same `EntityOfConcern`. The result may select, reorganize, normalize, translate, or combine claims from the named sources, but it must not add a claim those sources do not support.
@@ -44,7 +38,7 @@ keywords:
 
 > `Result Y is made from source X. Both are about the same named thing. Y keeps [named claims], omits [named claims], and adds no claim unsupported by [named sources].`
 
-Then name or show the rule that selects, rewrites, or combines the claims. Do not call the relation an A.6.3 viewing unless X and Y can be identified separately and this rule can be inspected.
+Then name or show the rule that selects, rewrites, or combines the claims. Do not call the construction an A.6.3 viewing unless X and Y can be identified separately and this rule can be inspected.
 
 **What this does not decide.** A.6.3 says how Y is licensed by named sources about the same thing. It neither proves the claims true nor makes Y a `U.View`; use E.17.0 for view membership. Use A.15.1 for the work that produced Y, A.15.PROD if first constitution matters, and E.24.PUB for publication, but only when those separate facts matter.
 

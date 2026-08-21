@@ -6,12 +6,12 @@ section_id: "C.30.AD:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__009_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:6 — Conformance checklist"
-line_start: 60255
-line_end: 60267
+line_start: 57443
+line_end: 57455
 dependencies:
   - "A.1"
   - "A.10"
@@ -51,6 +51,7 @@ dependencies:
   - "C.32.PAD"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.D2"
   - "E.10.MOVE"
   - "E.11.PUR"
   - "E.17"
@@ -80,10 +81,10 @@ keywords:
 | --- | --- | --- |
 | **CC-C30AD-1 Episteme identity.** | Every architecture description has one exact claim graph, one exact EntityOfConcern—holon, obtaining `ArchitectureRelation` occurrence, or selected structure—and an effective `U.ReferenceScheme`. | Add the missing C.2.1 identity component or use `C.30`/`A.22` until the subject-side object is recoverable. |
 | **CC-C30AD-2 Subject and holon recovery.** | The one EntityOfConcern is supplied directly. If it is an architecture-relation occurrence or selected structure, its participant trace recovers the exact holon without copying that holon into description identity; architecture-claim refs remain optional content or trace. | Restore the exact EntityOfConcern and participant trace; remove derived identity from an optional architecture-claim field. |
-| **CC-C30AD-2a Traceable multi-view chain.** | The description use recovers working concern, exact viewpoint episteme, obtaining conformance relation, same episteme as `U.View`, one EntityOfConcern, selected structure, optional actual architecture relation, description-set use, and remaining admissible architecture move. When allocation, responsibility, source use, representation, publication, cross-view correspondence, project use, or a source-return condition activated by stronger use is current, its direct object or relation is added separately. A responsibility claim names its direct domain predicate and actual participants or the exact missing governor; assignment and viewpoint supply neither responsibility nor authority. | Add the missing exact object or direct relation, reduce admissible use, or apply the subject pattern that can recover it. |
+| **CC-C30AD-2a Traceable multi-view chain.** | The reader can recover the concern, viewpoint, conformance relation, same episteme as `U.View`, EntityOfConcern, selected structure, optional actual architecture relation, set use, and next architecture move. Add allocation, responsibility, source use, representation, publication, correspondence, project use, or stronger-use return only when it is current. Responsibility names its own predicate and participants or the missing governor; assignment and viewpoint establish neither responsibility nor authority. | Add the missing object or relation, narrow the allowed use, or use the pattern that defines how to recover it. |
 | **CC-C30AD-3 Viewpoint and structure kind.** | Every asserted architecture structural view identifies the candidate episteme, exact viewpoint episteme, independently obtaining five-part E.17.0 conformance relation, selected structure, and structure kind. | Use `E.17.0` and `C.30.ASV` before relying on the view; a label, query, bundle, diagram, or publication is insufficient. |
 | **CC-C30AD-4 Correspondence and source use.** | Cross-view use names a correspondence claim or independently obtaining relation; source-derived or reused use names its source-to-use path; a source-return condition is present only when stronger use opens return to the named source or exact defining or constraining ClaimGraph. | Add the missing claim or direct relation, or narrow the admissible use. |
-| **CC-C30AD-5 Representation and publication boundary.** | Diagram, rendering, publication occurrence, publication form, dashboard, card, file, or carrier is not treated as architecture, selected structure, `U.View`, description truth, decision claim, evidence, assurance, gate passage, performed work, work authorization, or release authorization. | Assign representation, publication, or source use to `C.2.P`, `E.17`, `E.24.PUB`, or its subject pattern and assign every non-description claim to its subject pattern. |
-| **CC-C30AD-6 Specification-use boundary.** | Specification use identifies the exact description episteme or publication. Actual project locality additionally names one composite `U.Work` and a separately obtaining project-use relation; subject pattern applications remain explicit for non-description claims. | Add the exact description, Work, and direct use relation as applicable, or demote to ordinary description use. |
-| **CC-C30AD-7 Remaining architecture candidate use.** | The description under its declared use boundary still identifies the next architecture move, view normalization, source-to-use repair, applicable source-return condition, or subject-pattern application. | Add the remaining architecture candidate use or reduce the record to source, representation, or publication use. |
+| **CC-C30AD-5 Representation and publication boundary.** | A diagram, rendering, publication occurrence or form, dashboard, card, file, or carrier is not treated as architecture, selected structure, `U.View`, truth, decision, evidence, assurance, gate passage, Work, authorization, or release. | Use `C.2.P`, `E.17`, `E.24.PUB`, or the pattern for the actual representation, publication, source-use, or other non-description claim. |
+| **CC-C30AD-6 Specification-use boundary.** | Specification use names the description episteme or publication. Project locality additionally names one composite `U.Work` and a project-use relation that actually holds; separate non-description claims cite their applicable patterns. | Add the description, Work, and use relation as needed, or keep the use non-project-specific. |
+| **CC-C30AD-7 Remaining architecture candidate use.** | Under the declared use boundary, the description still identifies the next architecture move, view repair, source repair, return condition, or pattern needed for a separate claim. | Add that remaining use or reduce the account to source, representation, or publication use. |
 

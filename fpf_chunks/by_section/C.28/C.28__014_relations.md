@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.28"
-pattern_title: "CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+pattern_title: "CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
 section_id: "C.28:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__014_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+  - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:12 — Relations"
-line_start: 57795
-line_end: 57816
+line_start: 54968
+line_end: 54983
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,13 +30,14 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
+  - "CausalUseSupportResult"
   - "Pearl Causal Hierarchy"
   - "Structural Causal Model"
   - "association"
   - "causal diagram"
   - "causal estimand"
-  - "causal evidence support basis"
   - "causal fairness"
+  - "causal support components"
   - "causal-RL evaluation"
   - "causal-use question"
   - "causality ladder"
@@ -50,23 +51,17 @@ keywords:
 
 ### C.28:12 - Relations
 
-- `C.16` governs measurement and metrics. `C.28` activates only when a measurement is used causally.
-- `C.27` governs temporal claim adequacy. `C.28` activates when temporal change is used as causal effect, intervention evidence, or counterfactual comparison.
-- `A.10` governs evidence graph referring. `C.28` supplies causal evidence support basis and causal-use support refs for evidence paths.
-- `A.2.4` governs episteme evidence-use and status-use relations. `C.28` requires causal support-basis and causal-use distinctions that keep `simulationOnlyCounterfactualOutputBasis`, `identifiedCounterfactualEstimateSupportBasis`, interventional evidence, and `realizedCounterfactualSampleSupportBasis` from being confused.
-- `A.6`, `A.6.B`, and `A.6.C` govern boundary, deontic, promise, commitment, utterance, contract-language, and L/A/D/E-classified claim language. `C.28` supplies only causal-use support when mixed boundary sentences claim causal effect or counterfactual support.
-- `A.15` governs role, method, plan, and work alignment. `C.28` supplies the causal-use semantics for intervention assignment, target-trial emulation, counterfactual sampling work, and causal evidence collection.
-- `B.3` governs trust and assurance. `C.28` supplies the causal-use verdict that `B.3` can degrade, bound, or abstain over.
-- `C.11` governs decision theory. `C.28` supplies causal-use question and causal action-policy class when value, utility, regret, or optimality depends on causal rung.
-- `C.19` governs explore/exploit pool policy. `C.28` supplies causal rung, policy fields, and regime fields when exploration collects causal data or learns causal policy.
-- `C.24` governs agentic tool use and call planning. `C.28` supplies `causalActionUseSpec` when calls select observation, intervention, counterfactual-rung evidence collection, or counterfactual policy conditioning.
-- `D.5` governs bias audit and ethical assurance. `C.28` supplies causal fairness rung, estimand, support, and supported fairness use.
-- `G.5` governs method dispatch and MethodFamily registry. `C.28` supplies causal method or policy class declarations when method dispatch compares causal methods.
-- `G.9` governs parity and benchmarks. `C.28` supplies causal method rung parity.
-- `G.11` governs refresh orchestration. `C.28` supplies causal-use support records whose realizability, identification, fairness, representation, off-policy, target-trial, and simulation-validation shifts can trigger refresh.
-- `C.26` governs quantum-like modeling. `C.28` must first triage causal use when the question under repair is intervention, causal effect, causal fairness, causal policy, counterfactual comparison, or counterfactual-rung-data realizability; `C.26` applies only to the residual quantum-like modeling issue.
+- `C.16` keeps measurements and scales; `C.27` keeps temporal-claim adequacy.
+- `A.10` keeps evidence paths and provenance and may cite C.28 support components and result.
+- `A.2.4` classifies how an episteme is used; it cannot promote simulation output or association into stronger causal evidence.
+- `A.15` keeps Method, plan, Work, and attribution for interventions, target trials, and sampling.
+- `B.3` may cite a C.28 result as one basis for a separate bounded assurance result.
+- `C.11`, `C.19`, and `C.24` keep choice, pool treatment, and call planning and consume only the needed causal refs.
+- `D.5` keeps bias/fairness audit and uses `BiasAuditReport@Context` when a causal fairness question is consequential or reusable.
+- `G.5` keeps method dispatch; `G.9` keeps parity and benchmark conclusions; `G.11` keeps refresh planning.
+- `C.26` is used only for a residual quantum-like modelling issue after ordinary causal explanations are tried.
 
-#### C.28:12.1 - C.29 Mathematical-Lens Use Relation
+#### C.28:12.1 - C.29 mathematical-lens relation
 
-> `C.29` may document that a mathematical mapping appears abstraction-like, quotient-like, coarse-graining-like, simulation-like, or macro-model-like. It does not decide causal-use support. When the supported use includes intervention, policy, counterfactual, causal explanation, or causal decision, apply `C.28`; otherwise record `CausalUseDisposition = noCausalUseClaim` or `causalUseBlocked`.
+`C.29` may describe a mapping as abstraction-like, quotient-like, coarse-graining-like, simulation-like, or macro-model-like. It does not decide causal support. When intervention, policy, counterfactual, causal explanation, or causal decision use is current, apply C.28; otherwise record no causal-use claim or the exact blocker.
 

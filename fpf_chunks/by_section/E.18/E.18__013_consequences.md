@@ -6,12 +6,12 @@ section_id: "E.18:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__013_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:10 — Consequences"
-line_start: 84183
-line_end: 84197
+line_start: 81490
+line_end: 81504
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -44,8 +44,8 @@ keywords:
 1. **Universality with discipline:** one transfer relation kind and explicit gates eliminate second hidden work and method orders and make cross-domain flows (ML, supply-chain, TAMP and MPC, scientific work structures) uniformly analyzable and auditable.
 2. **Comparability and replayability:** CSLC and edition‑pinned comparators prevent covert scalarization and enable declared set returns and reproducible decisions.
 3. **Locality of change:** sentinel subflows restrict refresh to affected `PathSlice`s; large selected structures remain stable under frequent edition bumps.
-4. **Clean DesignRunTag fold:** LaunchGate and `DesignRunTagConsistency` stop premature claims of actual launch values. Actual bindings obtain through exact direct relations or A.6.1 application bindings involving one exact Work occurrence; acceptance claims and telemetry records remain separate epistemes or relations that may designate that occurrence.
-5. **Assurance visibility:** MVPK makes GateProfile and DecisionLog records locally checkable and cacheable for the same `{PathSlice, GateChecks, Editions}`.
+4. **Clean work-entry boundary:** When an exact design-run-tag claim and applicable profile rule are current, a `LaunchGate` may consume the corresponding identified check result. The gate never establishes actual launch values. Those values obtain only through exact direct relations or A.6.1 application bindings involving one later Work occurrence; acceptance claims and telemetry records remain separate epistemes or relations that may designate that occurrence.
+5. **Assurance visibility:** When publication or reuse is current, MVPK can make the exact profile application, gate-decision result, optional audit record, and any sufficient reuse witness locally checkable without making them mandatory for an ordinary local structure use.
 
 **Trade‑offs.**
 a) **Higher upfront modeling cost:** exact crossing positions, per-binding replay accounts, gate refs, and optional durable crossing bundles demand care; mitigated by keeping ordinary local crossings in readable prose and unbundled when no downstream reliance needs replay.

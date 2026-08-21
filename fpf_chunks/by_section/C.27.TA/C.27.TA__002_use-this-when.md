@@ -6,12 +6,12 @@ section_id: "C.27.TA:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:0 — Use This When"
-line_start: 56668
-line_end: 56698
+line_start: 53953
+line_end: 53987
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,24 +45,28 @@ keywords:
 
 ### C.27.TA:0 - Use This When
 
-Use this pattern when a project needs to name a positive temporal aspect of a governed object, claim, transformation, work plan, evidence relation, architecture move, benchmark, source use, or publication use.
+Use this pattern when a project needs to state a positive temporal-aspect claim about one exact object or exact claim—for example, its time window, cadence, freshness, recovery timing, or currentness.
 
 Use it when the working question is:
 
 - which time window, interval, duration, latency, cadence, rhythm, synchronization, currentness, freshness, validity window, recovery timing, stabilization timing, trajectory, effort over time, inertia, or refresh condition matters;
-- which bearer has that temporal aspect: system, episteme, work plan, work occurrence, claim, source, benchmark, architecture-selected structure, method description, publication, or project-world object;
-- which temporal reference makes the statement reviewable: calendar time, clock time, event order, cycle, sprint, epoch, release train, sampling interval, follow-up interval, or domain-local timing reference;
-- whether the temporal aspect is merely named, measured, used in a temporal claim, used in a transformation claim, or used in a work, evidence, or decision relation.
+- which bearer has that temporal property: system, episteme, work plan, work occurrence, claim, source, benchmark, architecture-selected structure, method description, publication, or project-world object;
+- which temporal reference makes the statement reviewable: calendar time, clock time, event order, cycle, sprint, epoch, release train, sampling interval, follow-up interval, or domain-local timing reference; and
+- whether the property is merely stated, measured, used in a temporal claim, used in a transformation claim, or used in a work, evidence, or decision relation.
 
-**Primary EntityOfConcern.** The `EntityOfConcern` is a temporal aspect of a governed object or claim. `C.27.TA` introduces no new `U.TemporalAspect` kind; it supplies slot discipline for temporal aspects that fill relations in other patterns.
+**Primary EntityOfConcern.** The `EntityOfConcern` is the independently identified bearer or exact claim being qualified. A temporal label such as *cadence*, *freshness*, or *recovery timing* is a predicate or qualifier in the ClaimGraph; it is not a second entity.
 
-**E.24 ontic boundary.** C.27.TA follows `E.24` by refusing a new ontic root here. A temporal aspect is identified by its bearer, aspect kind, temporal reference, window or interval, relation to the governed object or claim, and governing use relation. Those slots make the aspect reviewable without claiming that `timeWindow`, `cadence`, `freshness`, `trajectory`, or `recoveryTiming` are standalone `U.*` kinds. If an authored temporal claim uses the aspect as sufficient for action, C.27 carries adequacy; if a transformation, dynamics model, work plan, evidence use, benchmark, or assurance claim is being made, the governing pattern for that use carries it.
+**C.2.1 and publication boundary.** A materialized temporal-aspect statement is record-shaped ClaimGraph content in one `C.2.1` episteme whose effective ReferenceScheme makes the temporal terms interpretable. Changing that claim content identifies another episteme. A changed layout, publication occurrence, form, or carrier can leave the episteme unchanged; those publication objects remain separate under `E.24.PUB` when availability matters. When the claim depends on another direct relation, cite that relation's exact declaration or independently established occurrence. A PatternID remains an ordinary rule citation and is never a relation reference.
 
-**First useful move.** Write a `TemporalAspectStatement`: bearer, aspect kind, bounded context, temporal reference, interval or window, relation to the governed object or claim, and the governing FPF pattern relation that carries the use.
+**First useful move.** State four things in one readable sentence: the exact bearer or claim, the temporal predicate, the temporal reference, and the interval or window.
+
+**First result.** `CheckoutSystem-1 had a weekly release cadence during release train R14.` This is enough when the receiving action needs no further distinction. Stop there.
+
+Open the fuller statement only when the receiving use also depends on measurement, an exact scheme or scope, a selected Structure, a source or use boundary, currentness, reopen conditions, coupling, another direct relation, or an explicit rule citation or blocked overread.
 
 **What goes wrong if missed.** Temporal words become vibe labels. A cadence is named without bearer, a freshness claim has no validity window, a rhythm has no timing reference, a recovery claim has no interval, an architecture trajectory has no changed structure, and a transformation claim smuggles timing into method, mechanism, or evidence.
 
-**What this buys.** A practitioner can name the temporal aspect as a positive subject before deciding whether `C.27`, `A.3.4`, `A.3.3`, `A.15.2`, `A.15.1`, `C.16`, `C.28`, `G.9`, evidence, source, gate, or assurance patterns carry the actual use.
+**What this buys.** A practitioner can state one positive temporal-aspect claim before selecting `C.27`, `A.3.4`, `A.3.3`, `A.15.2`, `A.15.1`, `C.16`, `C.28`, `G.9`, or the relevant evidence, source, gate, or assurance pattern for the receiving use.
 
 **Not this pattern when.**
 

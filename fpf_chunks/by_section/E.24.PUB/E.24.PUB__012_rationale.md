@@ -6,12 +6,12 @@ section_id: "E.24.PUB:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__012_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:10 — Rationale"
-line_start: 89737
-line_end: 89742
+line_start: 87122
+line_end: 87127
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -37,5 +37,5 @@ keywords:
 
 Publication does not change an episteme into a nested publication object. It is a real availability relation supported by an expression relation and a bearing relation. That architecture explains why one encountered card, diagram, or file can matter in several ways without admitting one umbrella presentation kind.
 
-The split also preserves agency. A System can render, upload, print, index, withdraw, or replace a carrier. Those are ordinary activities until an account admits one dated occurrence as `U.Work`; then the A.15.1 and F.6 account in section 4.1 applies. The resulting publication relation may obtain for a long interval with no continuing publication Work, and publication Work can fail while no publication occurrence begins. Separating enduring availability from the Work that establishes it makes both claims inspectable.
+The split also preserves agency. A System can render, upload, print, index, withdraw, or replace a carrier, but the publication occurrence is the enduring availability relation, not that activity. It may obtain with no continuing publication Work, and an attempted publication activity can fail while no publication occurrence begins. If an actual Work claim matters, its direct patterns govern it; E.24.PUB only keeps it and its result outside the publication-relation participants.
 

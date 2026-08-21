@@ -6,50 +6,46 @@ section_id: "C.24:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__016_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:12 — Relations"
-line_start: 52671
-line_end: 52682
+line_start: 51443
+line_end: 51455
 dependencies:
-  - "A.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
-  - "A.15.5"
   - "B.1.6"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.24"
+  - "C.19.1"
   - "C.28"
   - "C.5"
-  - "E.10.MOVE"
-  - "E.11.PUR"
+  - "E.17"
   - "E.23"
-  - "E.3"
-  - "E.5"
+  - "E.24.PUB"
   - "G.5"
   - "G.6"
   - "G.9"
   - "U.PromiseContent"
-  - "U.WorkPlan"
 keywords:
 ---
 
 ### C.24:12 - Relations
 
-**C.27 temporal-claim relation.**
-
-- C.27 may flag: a tool-use plan claiming that tool use changes debugging, learning, search, repair, rollout, narrowing, uncertainty reduction, stabilization, or stop/replan rate.
-- This pattern keeps: call planning, tool-use sequence, budget, stop/replan, and work trace.
-- Non-admissible use: tool-call count, a larger prompt or input window, or faster narrowing is effort evidence or input evidence at most; it is not task-success, reasoning-quality, evidence-quality, repair-success, cost, or validity-window evidence by itself.
-
-- Exit: a speed-up claim names task outcome, evaluation harness, repair-success evidence locus when claimed, cost or budget condition, validity window, stop or replan condition, and non-admissible use as a benchmark claim; C.24 remains the tool-use pattern.
-
-Builds on: `A.15` for the separation of Systems, any separately current classification or assignment, Method, plan, Work, and service; `B.3` Trust and Assurance (`F-G-R` with `CL`); and `A.15.1`, `A.15.2`, `B.1.6`, `C.16`, and `A.10` for dated Work, resource aggregation, measurement, cost, and provenance; planned `C.5 Resrc-CAL` is a future consolidation only. It also builds on `C.18 NQD-CAL` (candidate generation and declared set results) and `C.19 E/E-LOG` (policies). Coordinates with `C.28` when a call plan is used to observe, intervene, collect counterfactual-rung evidence, condition a counterfactual policy, or evaluate a policy for causal-use support. Coordinates with `E.23` when a repeated quality-improvement loop is enacted through tool-using Systems: `C.24` carries call plans, checkpoint returns, tool-call budgets, stop or replan conditions, and the separation among exact Method, `CallRouteDescription`, call plan, executed Work, CallGraph evidence, and service promise; it does not restate the `E.23` loop method, BLP comparison and cost discipline, or other object-under-improvement evaluations carried by their direct patterns. Coordinates with `E.10.MOVE`, `E.11.PUR`, and `A.15.5` when source wording about a move is not plan-local `nextPlannedAction` or `recommendedNextAction`. Constrains: any `U.PromiseContent` used as a tool MUST expose acceptance conditions and observation hooks sufficient for `B.3` reporting. Enables: human-facing Working-Model publication forms with policy and assurance disclosures while keeping design-time and run-time separated.
+- `A.3.1` supplies admitted Method identity; `C.11` supplies the fixed choice consumed through `upstreamChoiceResultRef`.
+- `C.18` supplies generated candidate or front material, and `C.19` supplies `PoolPolicyResult` or `EmitterPolicy` only when live-pool treatment still constrains the plan. Neither admits a Method.
+- `C.19.1` supplies the scale-claim probe, any selected comparison or Scale-Audit result, and any separate local policy or `BLP-waiver`; C.24 invents none of them.
+- `A.15`, `A.15.1`, `A.15.2`, `A.2.1`, and `F.6` keep Method, description, plan, Work, performer, and attribution distinct.
+- `G.6` supplies the trace representation cited by `ATC.CallGraphRef`.
+- `B.3` supplies one bounded assurance result only when a named assurance use is current.
+- `C.28` supplies causal-use support when the plan is used for causal evidence, intervention, policy, fairness, or counterfactual work.
+- `C.27` evaluates temporal claims about speed, narrowing, recovery, or stop/replan rate. More calls or faster narrowing is not success by itself.
+- `E.23` may use C.24 plans and checkpoints inside improvement Work; C.24 does not restate the improvement loop.
+- `E.10.MOVE`, `E.11.PUR`, and `A.15.5` recover project moves, pattern-use recommendations, and work-entry readiness when those questions are not plan-local.
 

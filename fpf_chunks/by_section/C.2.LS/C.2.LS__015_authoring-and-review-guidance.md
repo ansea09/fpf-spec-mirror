@@ -6,12 +6,12 @@ section_id: "C.2.LS:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__015_authoring-and-review-guidance.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:14 — Authoring and Review Guidance"
-line_start: 43372
-line_end: 43392
+line_start: 42130
+line_end: 42150
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -29,6 +29,7 @@ dependencies:
   - "C.2.6"
   - "C.2.7"
   - "E.18"
+  - "F.9"
   - "F.9.1"
 keywords:
   - "anchoring"

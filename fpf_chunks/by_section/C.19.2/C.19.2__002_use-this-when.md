@@ -6,12 +6,12 @@ section_id: "C.19.2:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:0 — Use this when"
-line_start: 49815
-line_end: 49824
+line_start: 48612
+line_end: 48621
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -40,5 +40,5 @@ The first useful move is to name the practical use, result kind, claimed guarant
 
 **Not this pattern when.** If candidate material does not yet exist, use `C.18` to generate or reframe it. If the live question is a local choice over an existing option set, `C.11` is the pattern for that choice. If the real blocker is an ontology conflation, use `A.7.1`; if it is a material conflict among FPF premises, use `A.7.2`.
 
-The primary working reader is an engineer, method or model selector, or technical lead. That reader position is not a system-role kind or assignment. The pattern describes a Method; an admitted `U.System` performs the dated configuration and application `U.Work`. Name the assignment occurrence that covers the Work and its declared species. The occurrence's holder is the performing System, and F.6 states that the System performed the Work under that assignment. The problem-facing result remains with the pattern that defines or tests it.
+The primary working reader is an engineer, method or model selector, or technical lead. That reader position is not a system-role kind or assignment. This pattern is a `U.MethodDescription` episteme whose claims describe one admitted `U.Method`. An admitted `U.System` performs dated configuration and application `U.Work` using that Method. The complete A.15.1/F.6 basis, including a covering assignment occurrence and attribution, must obtain. Show its assignment identifier, species, participants, and attribution detail only when the present use relies on them, attribution is ambiguous, or the source wording must be repaired. The problem-facing result remains with the pattern that defines or tests it.
 

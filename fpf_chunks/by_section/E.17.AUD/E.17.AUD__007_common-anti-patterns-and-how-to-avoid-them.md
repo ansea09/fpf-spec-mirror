@@ -6,12 +6,12 @@ section_id: "E.17.AUD:6"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__007_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:6 — Common Anti-Patterns and How to Avoid Them"
-line_start: 82816
-line_end: 82825
+line_start: 80192
+line_end: 80201
 dependencies:
   - "A.10"
   - "A.15"

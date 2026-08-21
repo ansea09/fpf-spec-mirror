@@ -6,12 +6,12 @@ section_id: "A.15.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__011_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:10 — Rationale"
-line_start: 26447
-line_end: 26454
+line_start: 25925
+line_end: 25932
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -37,9 +37,9 @@ keywords:
 
 ### A.15.6:10 - Rationale
 
-Apply `A.15.1` to admit and identify actual project Work: name every performer System, enacted Method, extent, containing System, Work parts, episodes, and continuity policy; use F.6 to identify the assignment under which each performer acted. A short project account may omit assignment identifiers its receiving claim does not use. State resource use, Work-to-referent facts, change, production, evaluation, delivery, acceptance, and later result use as separate claims, each under its direct relation predicate and case basis. The project-specific tests qualify that admitted Work; they do not constitute it. Adding a project kind would duplicate the Work identity while mixing it with plans, organizations, transformations, and descriptions.
+Apply `A.15.1` to admit and identify actual project Work: name every performer System, at least one obtaining `enactsMethod` relation, extent, at least one obtaining locally declared containing-system relation, and the Work-part relations that constitute the composite; use F.6 to identify the assignment under which each performer acted. Add an episode, continuity, or aggregation claim only when the project use needs it. A short project account may omit assignment identifiers or further valid boundaries its receiving claim does not use. State resource use, Work-to-referent facts, change, production, evaluation, delivery, acceptance, and later result use as separate claims, each under its direct relation predicate and case basis. The project-specific tests qualify that admitted Work; they do not constitute it. Adding a project kind would duplicate the Work identity while mixing it with plans, organizations, transformations, and descriptions.
 
 Process and case concerns reveal why one project container is insufficient. Repeatability belongs to `U.Method`; exact method-side relations remain direct until the structure's constituents are identified independently, its selected relations obtain, its constraints are applied, and one frame names the selection question, permitted action, and prohibited overread. Only then select one `U.Structure` under `A.22` and, if useful for that question, call it `MethodRelationStructure`. Transformation-flow organization belongs to `TransformationFlowStructure`. None is the unique dated Work occurrence. A case remains centered on the exact subject or claim named by its closure question, even when several Methods, structures, Work occurrences, systems, results, measures, and decisions are relevant. Direct recovery therefore preserves more engineering information than a three-label hierarchy.
 
-The project system-of-interest boundary follows the same economy. A plan or decision can directly designate why one System matters to this project, while A.2 separately answers whether the System is classified under an exact local system-role kind and `U.SystemRoleAssignment` answers which direct assignment occurrence obtains. Keep the plan designation and every actual classification, assignment, Work, change, or use fact usable on its own, but do not assert one compound selection claim until a selected substrate and edition supplies its conjunction semantics; until then return `missing-substrate[project-selection-conjunction]`. An intended future System remains claim content until inception. Reopen `A.6.RCD` only when repeated selection needs one reusable predicate, or when a named decision or action must re-identify the same selection occurrence; then state the participants, substrate, obtaining law, and occurrence-identity need.
+The project system-of-interest boundary follows the same economy. A plan or decision can directly designate why one System matters to this project, while A.2 separately answers whether the System is classified under an exact local system-role kind and `U.SystemRoleAssignment` answers which direct assignment occurrence obtains. Use that designation directly when it answers the question. For a one-case compound claim, recover the constructor semantics and direct facts; materialize or pin a substrate only for nontrivial derivation, interoperability, proof, or reuse. Return `missing-substrate` only for a needed stronger claim whose operator semantics are unavailable. An intended future System remains claim content until inception. Reopen A.6.RCD for a reusable predicate or relation kind only when a named receiver needs that stronger result.
 

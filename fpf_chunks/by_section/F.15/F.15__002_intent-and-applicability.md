@@ -6,12 +6,12 @@ section_id: "F.15:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__002_intent-and-applicability.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:1 — Intent and applicability"
-line_start: 95105
-line_end: 95132
+line_start: 92496
+line_end: 92523
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,7 +50,7 @@ keywords:
 
 ### F.15:1 - Intent and applicability
 
-**Intent.** Give one compact harness for checking whether a finite naming and unification slice is locally sound now and remains sound across exact changes. F.15 does not define schemes, local senses, cells, values, relation occurrences, descriptions, rows, system-role kinds or assignments, status families, aliases, names, evidence, or publication. Its application checks exact already-defined objects under their direct patterns and records result claims without duplicating F.18 naming settlement.
+**Intent.** Give one compact harness for checking whether a finite naming and unification slice is locally sound now and remains sound across exact changes. F.15 does not define schemes, local senses, cells, values, relation occurrences, descriptions, rows, system-role kinds or assignments, status families, aliases, names, evidence, or publication. Its application checks exact objects already recovered through their defining or testing rules and records result claims without duplicating F.18 naming settlement.
 
 **Applicability.** Use F.15 when one receiving use depends on several already recovered items: effective ReferenceSchemes, F.17 `SchemeSenseCell` values, F.18 NameCards and selected designations, F.17 rows, local system-role kinds or status values, actual F.9 Bridge occurrences, or exact prior and later editions. Include a selected bounded-model-use Structure and its description only when that structure's organization changes this check or receiving use.
 

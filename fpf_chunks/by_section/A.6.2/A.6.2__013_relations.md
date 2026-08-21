@@ -1,32 +1,31 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.2"
-pattern_title: "U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
+pattern_title: "Effect-free episteme morphing"
 section_id: "A.6.2:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__013_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
+  - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:11 — Relations"
-line_start: 13341
-line_end: 13353
+line_start: 13358
+line_end: 13370
 dependencies:
-  - "A.1"
   - "A.6.0"
   - "A.6.1"
   - "A.6.3"
   - "A.6.4"
   - "A.6.5"
   - "C.2.1"
+  - "C.29"
   - "C.3"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
   - "E.18"
-  - "U.EpistemicRetargeting"
-  - "U.EpistemicViewing"
+  - "F.9"
   - "U.Mechanism"
   - "U.Signature"
 keywords:
@@ -37,7 +36,7 @@ keywords:
 * **Specialises / is specialised by.**
 
   * Builds on A.6.0 `U.Signature` for direct subject, range, optional result, slice, and extent components together with Vocabulary, Laws, and Applicability; coordinates with A.6.1 `U.Mechanism` without making mechanism application part of EFEM.
-  * Specialised by A.6.3 `U.EpistemicViewing` (entityOfConcern‑preserving EFEM) and A.6.4 `U.EpistemicRetargeting` (entityOfConcern-retargeting EFEM).
+  * Refined by the A.6.3 EntityOfConcern-preserving viewing branch and the A.6.4 EntityOfConcern-retargeting branch.
 
 * **Constrained by.**
   A.6.5 declaration-local SlotSpec discipline; C.2.1 episteme constitution and any separately current empirical-grounding or edition relation; E.10.D2 for the EntityOfConcern, Description-episteme, describing-use, and specification-use boundary; Part F for exact local-sense or ReferencePlane relations; and E.10 for naming discipline.

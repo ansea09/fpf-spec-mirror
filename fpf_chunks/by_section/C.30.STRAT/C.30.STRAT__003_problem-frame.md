@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__003_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:1 — Problem frame"
-line_start: 60873
-line_end: 60882
+line_start: 58060
+line_end: 58067
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,11 +50,9 @@ keywords:
 
 ### C.30.STRAT:1 - Problem frame
 
-Architecture and engineering sources use compact labels because they work in local practice. Neural-network architecture prose says `block`, `expert`, `cache`, or `router`. Control architecture says `layer`. Organizations say `level` or `tier`. Documentation says `section`, `stack`, or `view`. Mathematical and scale prose says `level`, `resolution`, or `coarse-graining step`.
+Architecture and engineering sources use compact labels because they work in local practice. Neural-network prose says `block`, `expert`, `cache`, or `router`; control architecture says `layer`; organizations say `level` or `tier`; documentation says `section`, `stack`, or `view`; scale prose says `level`, `resolution`, or `coarse-graining step`.
 
-Those labels are useful recognition cues, but FPF cannot rely on them as kinds. A label is not enough to know whether the next admissible use is module-relation repair, structure selection, functional-structure record, control-structure view, scale-window naming, source-publication return, or non-source-label claim assignment named by value.
+These words are good recognition cues but poor stand-alone kinds. The same label can point to a selected structure, module relation, control relation, transformation-flow element, characteristic or scale, publication grouping, state, evidence claim, decision, or nothing beyond ordinary prose.
 
-The repair question is:
-
-> Which `ontologicalNeighborhood` does this source-label use belong to, and which subject pattern now governs the recovered kind, recovered relation, recovered claim-use, source-use disposition, or non-use disposition?
+The repair question is simple: what does the label name in this sentence, what stronger reading must be blocked, and which existing pattern supplies the needed definition, constraint, or test?
 

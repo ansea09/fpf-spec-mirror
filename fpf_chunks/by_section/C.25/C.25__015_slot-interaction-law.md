@@ -6,13 +6,14 @@ section_id: "C.25:14"
 section_title: "Slot Interaction Law"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__015_slot-interaction-law.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:14 — Slot Interaction Law"
-line_start: 52873
-line_end: 52900
+line_start: 51665
+line_end: 51686
 dependencies:
+  - "A.10"
   - "A.15"
   - "A.16.0"
   - "A.18"
@@ -65,11 +66,5 @@ A quality claim that depends on rolling windows, observation periods, maintenanc
 
 #### C.25:14.4 - Report-only summary proxies
 
-A publisher may compute a report-only summary proxy for convenience, for example a compact quality summary proxy value or an oversight-facing composite score. Such a proxy is admissible only if:
-
-- it is explicitly declared as a **report-only proxy**,
-- the underlying bundle slots remain visible,
-- and no norm, gate, or bridge silently substitutes the proxy for the bundle itself.
-
-This prevents a convenience summary from becoming a covert replacement for the typed quality claim.
+A publisher may compute a report-only summary proxy for convenience, for example a compact quality summary value or an oversight-facing composite score. State in claim content which exact Q-Bundle slots the proxy summarizes and what it leaves out. The proxy may be another Characteristic or claim under its direct pattern, but it does not replace the source quality-claim episteme or its addressed claims in a norm, gate, comparison, or cross-context use.
 

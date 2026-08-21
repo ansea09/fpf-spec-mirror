@@ -6,12 +6,12 @@ section_id: "E.10:7"
 section_title: "Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__009_minimal-generality-and-domain-anchoring-mg-da-names-neither-parochial-nor-vacuous.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:7 — Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
-line_start: 74923
-line_end: 75019
+line_start: 72189
+line_end: 72285
 dependencies:
   - "A.10"
   - "A.15"
@@ -123,7 +123,7 @@ The eight selected names below are `KernelToken` values under `FPFCoreReferenceS
 
 For all eight names, Plain wording that silently turns the token into a neighboring object is prohibited. Reuse under another local practice, source, scheme, or meaning uses that value's own identity and designation rules; when two exact cells are compared, any Bridge and use claim remain separately admitted. A change to the named value, TokenClass classification, or stable allowed-use rule reopens only the affected NameCard and row. A collision or conformance result for one dated corpus or candidate is evidence for its publication decision; it is not a reusable lexical rule or a currentness participant in the public pattern.
 
-`SystemRole` alone is not a universal token with its own FPF kind or a NameCard subject. It is common morphology inside a concrete local designation such as `ReviewerSystemRole`; C.3 and A.2 identify that kind through its explicit practice or source boundary and stable contribution distinction. `AssignedSystemRoleKindSlot`, `SystemRoleAssignmentSlot`, and fields ending in `...SystemRoleKindRef` or `...SystemRoleAssignmentRef` remain declaration-local `ContextToken` uses; the token-class name adds no Context object, and the fields are typed by existing `U.KindRef` or `U.RelationRef`, not by newly minted RefKinds. `J_kindUse` remains local notation. None receives a public row merely because the spelling recurs.
+`SystemRole` alone is not a universal token with its own FPF kind or a NameCard subject. It is common morphology inside a concrete local designation such as `ReviewerSystemRole`. C.3 and A.2 recover that kind through its system-candidate domain, operative work-facing membership condition, intended member/non-member boundary, and continuity rule; practice or source provenance only locates or prompts comparison of the definition. `AssignedSystemRoleKindSlot`, `SystemRoleAssignmentSlot`, and fields ending in `...SystemRoleKindRef` or `...SystemRoleAssignmentRef` remain declaration-local `ContextToken` uses; the token-class name adds no Context object, and the fields are typed by existing `U.KindRef` or `U.RelationRef`, not by newly minted RefKinds. `J_kindUse` remains local notation. None receives a public row merely because the spelling recurs.
 
 #### E.10:7.6 - Metaphor guidance (informative heuristics)
 

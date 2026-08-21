@@ -6,12 +6,12 @@ section_id: "A.15.2:10"
 section_title: "Lowering, repair, and refresh conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__016_lowering-repair-and-refresh-conditions.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:10 — Lowering, repair, and refresh conditions"
-line_start: 25145
-line_end: 25154
+line_start: 24580
+line_end: 24589
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 
 Lower a candidate `U.WorkPlan` claim when the reader cannot identify one present EntityOfConcern, the effective `U.ReferenceScheme`, the horizon, one substantive `PlanItem`, or its intended-performance designator well enough to coordinate the intended work. Split the claim content when several existing subjects have no one jointly identified EntityOfConcern. The acceptable lowered object is a planning cue, schedule or forecast representation, method-description note, missing-source-relation note, `A.15.4` repair request, publication-use cue, readiness-gap note for A.15.5, or evidence-reference note, not a conforming WorkPlan.
 
-When intended method, window, performer or role condition, capability requirement, resource budget, dependency, commitment, acceptance target, baseline, plan-content claim, local comparison policy, or exception policy changes, repair the exact ClaimGraph. If claim content, present EntityOfConcern, or effective reference scheme changes, C.2.1 identifies another episteme. Then ask separately whether `EpistemeEditionRelation` obtains between the two exact epistemes and name it only when it does. With no earlier plan episteme in scope, the result is a first plan. When another plan episteme is present but the edition predicate does not obtain, the result is a non-continuing replacement. A changed file, carrier, layout, publication, ticket key, revision label, or change note alone establishes neither reidentification nor continuity.
+When intended method, window, performer System or local system-role-kind condition, capability requirement, resource budget, dependency, commitment, acceptance target, baseline, plan-content claim, local comparison policy, or exception policy changes, repair the exact ClaimGraph. If claim content, present EntityOfConcern, or effective reference scheme changes, C.2.1 identifies another episteme. Then ask separately whether `EpistemeEditionRelation` obtains between the two exact epistemes and name it only when it does. With no earlier plan episteme in scope, the result is a first plan. When another plan episteme is present but the edition predicate does not obtain, the result is a non-continuing replacement. A changed file, carrier, layout, publication, ticket key, revision label, or change note alone establishes neither reidentification nor continuity.
 
 Do not rewrite an independently identified Work occurrence when only the plan changes, and do not make a revised plan evidence that Work occurred. Repair an actual participant, resource use, change, result, production, delivery, acceptance, evidence, or downstream effect under the pattern that defines that claim. When a one-case local fulfilment or variance assertion is no longer enough, use A.6.RCD disposition 3 if repeated predicate semantics are sufficient. Only when a named receiver needs distinguishable relation occurrences does kind admission open; if no truthful occurrence settlement or governing pattern is available, preserve the plan, local assertions, and reusable definition and return `missing-governor` for that stronger use.
 

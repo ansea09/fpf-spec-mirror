@@ -6,12 +6,12 @@ section_id: "B.3.5:12"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:12 — Common Anti-Patterns and How to Avoid Them"
-line_start: 39561
-line_end: 39569
+line_start: 38387
+line_end: 38395
 dependencies:
   - "B.3"
   - "C.13"
@@ -30,7 +30,7 @@ keywords:
 | Anti-pattern | What goes wrong | Repair |
 | --- | --- | --- |
 | Trace as relation or truth-maker | A `Gamma_m` trace is treated as the public relation, as proof that the relation obtains, or as the source of whole identity. | Keep the Working-Model relation canonical; recover the direct relation facts and reidentification rule independently; attach the trace only as their inspectable C.2.1 account. |
-| Unchecked relation label or mode | A familiar part-whole label or `axiomatic` flag is published as though either settled relation obtaining or identity. | State the direct relation claim, the author-declared mode, the linked construction account, and the direct identity or reidentification test; stop when any required world-side fact is missing. |
+| Unchecked relation label or mode | A familiar part-whole label or `axiomatic` flag is published as though either settled relation obtaining or identity. | State and test the direct relation claim first. When B.3.5 is elected, add the author-declared mode and linked construction account. Stop when any required world-side fact is missing. |
 | Order/time leakage | Assembly sequence, phase, or parallel work is encoded as a part-whole edge. | Keep order, method, and temporal claims adjacent to the structural edge; do not turn them into mereology. |
 | Assurance by notation | A diagram, graph display, or data format is treated as if it made the relation true. | Treat representations as publication forms; keep the relation claim, grounding relation, and validation mode explicit. |
 

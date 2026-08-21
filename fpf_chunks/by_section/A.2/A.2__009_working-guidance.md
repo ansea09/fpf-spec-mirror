@@ -6,12 +6,12 @@ section_id: "A.2:7"
 section_title: "Working Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__009_working-guidance.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:7 — Working Guidance"
-line_start: 3027
-line_end: 3038
+line_start: 3032
+line_end: 3043
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -42,7 +42,7 @@ keywords:
 ### A.2:7 - Working Guidance
 
 1. Identify the candidate and confirm its independent A.1 admission as `U.System`.
-2. Name the local practice or source boundary and one stable assignable contribution distinction that together identify the local kind.
+2. Recover the local kind by saying which systems can count, which work-facing condition separates members from relevant non-members, and what changes preserve that distinction. Record practice or source provenance only when it helps find or compare the definition.
 3. Declare or select the exact `KindSignature` edition and its direct governed feature criteria.
 4. Evaluate the candidate, kind, signature edition, and slice as `true`, `false`, or `unknown`.
 5. Add an assignment only when an occurrence of a declared assignment species actually obtains.

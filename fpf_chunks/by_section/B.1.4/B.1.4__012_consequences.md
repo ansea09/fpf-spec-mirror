@@ -6,12 +6,12 @@ section_id: "B.1.4:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__012_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:8 — Consequences"
-line_start: 36338
-line_end: 36343
+line_start: 35507
+line_end: 35512
 dependencies:
   - "A.1.1"
   - "A.14"

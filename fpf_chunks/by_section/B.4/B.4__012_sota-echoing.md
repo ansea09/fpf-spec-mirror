@@ -6,16 +6,21 @@ section_id: "B.4:10.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__012_sota-echoing.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:10.1 — SoTA-Echoing"
-line_start: 39765
-line_end: 39770
+line_start: 38622
+line_end: 38627
 dependencies:
   - "A.12"
+  - "A.15.1"
   - "A.4"
+  - "B.3"
+  - "B.4"
   - "B.4.1"
+  - "B.5"
+  - "B.5.1"
 keywords:
   - "DesignRunTag feedback"
   - "drift repair"
@@ -28,7 +33,7 @@ keywords:
 
 ### B.4:10.1 - **SoTA-Echoing**
 
-The loop echoes proven iterative cycles like the Deming Cycle (Plan-Do-Check-Act) and the OODA Loop (Observe-Orient-Decide-Act), but it enriches them with the FPF distinction between `design-time` and `run-time`, explicit external acting Systems and their dated Work, F.6 attribution, and separately current local system-role kinds.
+The phase rhythm has historical lineage in iterative cycles such as Plan-Do-Check-Act and Observe-Orient-Decide-Act. B.4 adapts that lineage rather than treating those labels as an ontology: it distinguishes design-time accounts from run-time use, applies a kind-specific identity rule, identifies actual Systems and dated Work, admits internal acting-side splits, and keeps evidence, deployment, publication, acceptance, and renewed use separate.
 
-By making the admitted acting System and its Work explicit in every phase, the pattern avoids treating systems or theories as if they evolve on their own. Evolution occurs through Work performed by a System on a holon. This externalist stance supports clear causal reasoning and auditable Work attribution. By making the loop canonical, FPF keeps holon evolution principled and traceable.
+The result is a practical review language for repeated adaptation. It avoids both agentless "self-evolution" stories and the opposite mistake of requiring every acting System to be external. Canonical means the four questions recur; it does not mean every subject or project follows one identical history.
 

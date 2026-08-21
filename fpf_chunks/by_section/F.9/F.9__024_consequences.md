@@ -6,12 +6,12 @@ section_id: "F.9:22"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__024_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:22 — Consequences"
-line_start: 93424
-line_end: 93431
+line_start: 90815
+line_end: 90822
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,7 +58,7 @@ keywords:
 
 **Benefits.** F.9 permits comparison, translation, and bounded reuse without collapsing local senses. One stable Bridge can support several differently directed or differently tolerant use claims, and evidence can change without silently changing relation identity.
 
-**Costs.** A reader must state two premises instead of one: the semantic relation and the bounded-use proposition. Material reliance can also require A.10 or B.3 work. This cost is paid only when a real cross-context use is proposed; a card remains optional.
+**Costs.** A reader must state two premises instead of one: the semantic relation and the bounded-use proposition. Ordinary evidence reliance may require A.10 work. An actual named assurance claim additionally requires a B.3 result. This cost is paid only when a real cross-context use is proposed; a Card remains optional.
 
 **Failure mode avoided.** A Bridge, score, or card can no longer act as a quiet substitute for a local system-role kind or assignment, status transfer, evidence authority, authorization, publication, or performed-work attribution.
 

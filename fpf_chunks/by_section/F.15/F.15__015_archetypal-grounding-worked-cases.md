@@ -6,12 +6,12 @@ section_id: "F.15:13"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__015_archetypal-grounding-worked-cases.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:13 — Archetypal Grounding - worked cases"
-line_start: 95411
-line_end: 95471
+line_start: 92802
+line_end: 92862
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -79,7 +79,7 @@ F.15 result:
 
 #### F.15:13.3 - Rename a SystemRoleKindDescription without changing the described kind
 
-`IncidentReviewerSystemRoleKindDescription@t0` and `ServiceIncidentReviewerSystemRoleKindDescription@t1` describe the same exact `IncidentReviewerSystemRole` only if F.4's named practice or source boundary, stable work-facing contribution distinction, current `KindSignature`, effective scheme, and description claims support that continuity. The names alone do not.
+`IncidentReviewerSystemRoleKindDescription@t0` and `ServiceIncidentReviewerSystemRoleKindDescription@t1` describe the same exact `IncidentReviewerSystemRole` only if F.4's candidate domain, operative membership condition, intended member/non-member boundary, continuity rule, current `KindSignature`, effective scheme, and description claims support that continuity. A changed source, practice, or name alone decides neither sameness nor difference.
 
 F.15 result:
 
@@ -105,7 +105,7 @@ A team proposes `PeakHoursAvailabilityStatus` as a new family because one existi
 
 F.15 result:
 
-* SCR-F15-S14 fails if exact subject-pattern recovery shows only a changed window or use.
+* SCR-F15-S14 fails if F.10 or the applicable status rule shows only a changed window or use.
 * RSCR-F15-E11 compares the exact family/value, target, scope, window, source condition, and use rather than the suffix.
 * Use F.10 or the applicable status pattern for the status claim; F.14/F.8/F.18 block a new durable name until a distinct governed value is independently recovered.
 

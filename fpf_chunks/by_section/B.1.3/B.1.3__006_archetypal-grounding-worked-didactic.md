@@ -6,25 +6,34 @@ section_id: "B.1.3:5"
 section_title: "Archetypal grounding (worked, didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__006_archetypal-grounding-worked-didactic.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:5 — Archetypal grounding (worked, didactic)"
-line_start: 36032
-line_end: 36076
+line_start: 35201
+line_end: 35245
 dependencies:
   - "A.1"
+  - "A.10"
   - "A.12"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.15.PROD"
+  - "A.6.1"
   - "B.1"
   - "B.1.1"
   - "B.1.4"
   - "B.1.6"
+  - "B.2"
   - "B.3"
   - "C.2"
   - "C.2.1"
+  - "E.17"
+  - "E.24.PUB"
+  - "F.6"
+  - "F.9"
+  - "U.Work"
 keywords:
   - "KD-CAL"
   - "epistemic"
@@ -45,12 +54,12 @@ keywords:
 
   * **Provenance preservation:** all study protocols, datasets, analysis scripts listed in the **SCR**.
   * **Object alignment:** “acute low‑back pain within 6 weeks” via taxonomy LCA; non‑aligned chronic cohorts excluded or mapped with low CL and flagged.
-  * **Concept integration:** compute provisional `R_eff` along each justification path, penalized by \*\*Φ(CL\_min(path))`; aggregate `R\_eff\` = min over paths.
+  * **Concept integration:** compute provisional `R_eff` along each justification path, penalized by **Φ(CL_min(path))**; aggregate `R_eff` as the minimum over paths.
   * **Conflict handling:** `E₂` contradicts `E₁` in a subgroup; kept as **provisional** with explicit conflict edge and scope note (different baseline severity).
 
-* **Γ\_epist^compile (journal context):**
-  Map outcomes to journal’s required measure, recalc F/G/R with mapping penalties; produce release **SCR** (hashes, versions) and context baseline.
-  Result: “Guidance Statement v1.0” with conservative `R`.
+* **Γ_epist^compile (target journal scheme):**
+  Map outcomes to the journal's required scheme through the exact sense mappings used by the fold, recalculate F/G/R with mapping penalties, and produce the compilation SCR and hashes. The result is the target-scheme episteme "Guidance Statement v1.0" with conservative `R`; any later journal publication is a separate publication occurrence.
+
 
 * **Why not averaging?**
   Averaging would inflate `R` and hide low‑CL outcome mappings; Γ\_epist enforces pathwise **min** + **CL** penalty.
@@ -65,8 +74,8 @@ keywords:
   * Concept integration: controller proof applies only under assumptions A; test logs violate A in edge case → **CL** low for mapping “test scenario ≡ proof assumption.”
   * `R_eff` bounded by the weakest justification path after **Φ(CL\_min)**; claim on “system‑level safety” marked **provisional** until assumption alignment is demonstrated.
 
-* **Γ\_epist^compile (certification context):**
-  Context re‑base to regulatory vocabulary; if the re‑base changes objective/boundary (e.g., from internal assurance to public certification), consider **MHT (Context Reframe)** per B.2.
+* **Γ_epist^compile (target certification scheme):**
+  Map the claims to the regulatory vocabulary. Where local meanings differ, identify exact source and receiving `SchemeSenseCell` values, test the F.9 Bridge, state the bounded certification use and permitted loss, and establish any relied-on use separately. C.2.1 identifies the resulting target-scheme episteme; a certification publication occurrence or acceptance verdict remains separate.
 
 #### B.1.3:5.3 - Contrast (didactic)
 

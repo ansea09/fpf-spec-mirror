@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__022_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:14 — Relations"
-line_start: 76272
-line_end: 76297
+line_start: 73552
+line_end: 73578
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.10.MOVE"
   - "E.11"
   - "E.18"
   - "E.19"
@@ -83,7 +83,8 @@ keywords:
 - `C.30.STRAT` realizes stratification and source-label wording recovery for `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, and close source labels before the recovered claim is handled under its defining or testing rule.
 - `C.16.P` realizes characteristic and scale wording recovery.
 - `C.16.Q` realizes quality characterization and evaluative characterization wording recovery.
-- `A.19.SPR` realizes state-family wording recovery when bearer, state frame, value set, admissible use, or the defining or testing rule is hidden.
+- `E.10.MOVE` resolves ambiguous readiness-like wording and exits to the direct pattern.
+- `A.19.SPR` realizes state-family wording recovery only while the exact object, state frame, value, or direct rule remains hidden.
 - Use `F.18` for durable reusable naming after the kind under repair or relation is known.
 - `F.19` supplies phrase-level ontology-first plain technical rewriting after the kind under repair is recovered or while proving it is still hidden.
 - `E.8` states the pattern-form and placement rules.

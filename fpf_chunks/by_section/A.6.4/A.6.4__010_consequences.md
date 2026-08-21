@@ -1,47 +1,45 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.4"
-pattern_title: "U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
-section_id: "A.6.4:6"
+pattern_title: "EntityOfConcern retargeting"
+section_id: "A.6.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__010_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
-  - "A.6.4:6 — Consequences"
-line_start: 15564
-line_end: 15582
+  - "A.6.4 — EntityOfConcern retargeting"
+  - "A.6.4:9 — Consequences"
+line_start: 15355
+line_end: 15362
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
   - "A.6.5"
   - "A.7"
+  - "B.3"
   - "C.2"
   - "C.2.1"
+  - "C.29"
   - "C.3"
   - "E.10.D2"
-  - "E.18"
+  - "E.17"
+  - "E.24.PUB"
   - "F.9"
 keywords:
 ---
 
-### A.6.4:6 - Consequences
+### A.6.4:9 - Consequences
 
-* **Clear separation of Viewing vs Retargeting.**
-  A.6.3 and A.6.4 now jointly distinguish:
-  * **views**: same `EntityOfConcernRef`, possible representation/viewpoint changes;
-  * **retargetings**: different `EntityOfConcernRef` under `KindBridge` and invariants.
-
-* **Retargeting semantics for StructuralReinterpretation.**
-  For E.18, the A.6.4 `U.EpistemicRetargeting` conditions define when a case may be called `StructuralReinterpretation`; an ad-hoc graph-position kind does not. This reduces duplication and clarifies how CL penalties and Bridges are used.
-
-* **Invariants become first‑class.**
-  Retargeting makes invariants explicit and type‑checked: every such morphism must state what it preserves and how that is expressed in KD‑CAL/LOG‑CAL.
-
-* **Safer cross‑plane reasoning.**
-  ReferencePlane crossings and kind‑level moves are handled via existing Bridges (Part F), with CL^plane/CL^k penalties and SquareLaw witnesses, instead of hidden in implementation details.
-
-* **Better integration with EntityOfConcern and Description-episteme boundary and specification-use gate.**
-  For `...Description` or `...Spec` epistemes, A.6.4 is the place to state a controlled EntityOfConcern change between exact source and receiving epistemes. Describe, specification-use refinement, and Viewing preserve that value; any material scheme, grounding, scope, operating-condition, or describing-use viewpoint change remains separately visible.
+* **Viewing and retargeting separate cleanly.** A viewing arrow preserves the EntityOfConcern. A retargeting arrow relates epistemes with independently different EntitiesOfConcern; q states one bounded-use proposition, and the separate current-case judgement says whether the facts satisfy it.
+* **StructuralReinterpretation receives one core rule.** E.18 can place r and q without duplicating their identities or treating graph position as support for q.
+* **Loss becomes usable information.** A lossy mapping can be admitted for a bounded purpose without pretending to be reversible or semantically identical.
+* **Optional apparatus stays optional.** F.9 enters only for cross-local-sense correspondence; route-equivalence, evidence, assurance, gate, publication, and Work branches enter only when their own claims are current.
+* **Description boundaries remain visible.** Claim content, scheme, grounding, scope, operating condition, and viewpoint changes do not disappear into one retargeting bundle.
 

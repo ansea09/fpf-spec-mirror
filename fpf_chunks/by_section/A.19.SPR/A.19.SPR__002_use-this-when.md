@@ -6,12 +6,12 @@ section_id: "A.19.SPR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:0 — Use this when"
-line_start: 29028
-line_end: 29051
+line_start: 28519
+line_end: 28543
 dependencies:
   - "A.10"
   - "A.16"
@@ -45,25 +45,26 @@ keywords:
 
 ### A.19.SPR:0 - Use this when
 
-Use `A.19.SPR` when state-family wording has FPF-governed use but does not yet say what is in which state, according to which state frame or subject pattern, with which value or classification, for which admissible use.
+Use this pattern when a phrase such as “the system is ready”, “the source is current”, or “the evidence status is incomplete” matters to an FPF claim but does not yet say which item the sentence is about, what is true of it, or which rule makes that statement meaningful.
 
-Typical triggers:
+**What goes wrong if missed.** A short status word starts carrying several claims at once. A source label becomes evidence, a readiness label becomes gate passage, or a project-side status leaks into pattern guidance.
 
-- `state`, `status`, `posture`, `readiness`, `stance`, `currentness`, `validity`, `degraded`, `accepted`, `admissible`, `blocked`, `candidate`, `stable`, `ready`, or close compounds;
-- local fields such as `source posture`, `evidence posture`, `assurance posture`, `publication posture`, `release posture`, `validation posture`, `readiness posture`, or `support posture`;
-- precision-looking local fields such as `LensUseAdmissibilityValue`, `dynClaimPosture`, or a specification-use label when their bearer, value set, subject pattern, use boundary, or reopen condition is not recoverable.
+**First question.** Ask:
 
-**What goes wrong if missed.** A broad state word becomes a miniature hidden ontology. A source gets called "current", "supporting", or "accepted" without a source-use relation. Evidence becomes assurance. A publication face becomes gate passage. A lens-use label becomes empirical truth. An external administrative status leaks into pattern prose. A readiness word implies work may proceed without the threshold, evidence path, gate, or decision record that would carry that claim.
+> What exact item is this sentence about, what does it say about that item, and which rule or criterion gives the statement its meaning?
 
-**What this buys.** The reader can recover the state-like claim named by value, the subject pattern, the allowed use, and the blocked adjacent overread before acting on the word.
+**Cheap direct repair.** Write the answer as one ordinary technical sentence. Name the item, the actual value, relation, result, or claim, and the rule or criterion only when the reader needs it to understand or act. If that sentence is clear and safe for the intended use, stop. Do not create a repair note or list every claim the sentence does not make.
 
-**First useful move.** Ask: what bearer has which state-like value under which state frame or subject pattern? If that cannot be answered, demote the wording to ordinary prose, quote-only source wording, a reduced-use cue, or a blocker.
+**What this buys.** A reader can understand the statement and its next practical use without learning a hidden status vocabulary.
+
+Typical triggers include `state`, `status`, `posture`, `stance`, `currentness`, `validity`, `stable`, `accepted`, `blocked`, `candidate`, `degraded`, `readiness`, `ready`, and similar compounds. A precise-looking field such as `LensUseAdmissibilityValue` or `dynClaimPosture` is also a trigger when its object, possible values, or rule cannot be recovered.
 
 **Not this pattern when.**
 
-- If the pattern governing the recovered claim and state-like field are already recoverable by value, use that pattern directly.
-- If the wording is ordinary prose and carries no FPF-governed use, keep it ordinary.
-- If the state-like claim concerns one `Characteristic`, `Scale`, coordinate, score, or metric, use `C.16.P` before state-family repair.
-- If the state-like claim concerns source-expression, publication, carrier, or source-use wording, use `C.2.P` first; use `A.19.SPR` only if a state-like claim remains.
-- If the claim being made is relation construction, architecture or structure wording, quality-term or evaluative characterization, function-like wording, or naming, use `A.6.P`, `C.30.P`, `C.16.Q`, `A.6.F`, or `F.18` as selected by `E.10`.
+- If the exact item, claim or value, and applicable rule are already clear, use that rule directly.
+- If `readiness` or `ready` still hides whether the sentence concerns a subject state, assignment condition, work entry, gate decision, publication use, permission, or performed Work, use `E.10.MOVE` first.
+- If the wording is ordinary prose and carries no FPF-governed claim, keep it ordinary.
+- If one `Characteristic`, Scale, Coordinate, score, or measurement construction is hidden, use `C.16.P` first.
+- If a source expression, publication, carrier, or source-use relation is hidden, use `C.2.P` first and return here only if a state-wording problem remains.
+- For relation, architecture, quality, function, or naming problems, use `A.6.P`, `C.30.P`, `C.16.Q`, `A.6.F`, or `F.18` as selected by `E.10`.
 

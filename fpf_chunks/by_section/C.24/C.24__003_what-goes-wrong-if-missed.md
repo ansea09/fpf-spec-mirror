@@ -6,44 +6,40 @@ section_id: "C.24:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__003_what-goes-wrong-if-missed.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:0.1 — What goes wrong if missed"
-line_start: 52328
-line_end: 52333
+line_start: 51151
+line_end: 51157
 dependencies:
-  - "A.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
-  - "A.15.5"
   - "B.1.6"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.24"
+  - "C.19.1"
   - "C.28"
   - "C.5"
-  - "E.10.MOVE"
-  - "E.11.PUR"
+  - "E.17"
   - "E.23"
-  - "E.3"
-  - "E.5"
+  - "E.24.PUB"
   - "G.5"
   - "G.6"
   - "G.9"
   - "U.PromiseContent"
-  - "U.WorkPlan"
 keywords:
 ---
 
 ### C.24:0.1 - What goes wrong if missed
 
-- calls get scheduled by ad-hoc heuristics, so the plan cannot say which budget is being burned or what event should stop or replan execution
-- planning quietly collapses into execution, or execution quietly inherits unresolved upstream choice and pool-policy questions
-- a successful probe is mistaken for committed rollout even though the commit trigger was never made explicit
+- a route is scheduled by an opaque heuristic, so nobody can see which budget is being burned or what should stop it;
+- unresolved choice or pool-policy work is smuggled into a plan;
+- a route description is mistaken for a Method, a plan for performed Work, or a successful probe for committed rollout; and
+- replanning loses the decision that made the route admissible in the first place.
 

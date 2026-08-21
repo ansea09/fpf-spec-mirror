@@ -6,12 +6,12 @@ section_id: "F.4:8"
 section_title: "Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__010_anti-patterns-and-repairs.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:8 — Anti-Patterns and Repairs"
-line_start: 91480
-line_end: 91494
+line_start: 88866
+line_end: 88880
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -58,5 +58,5 @@ keywords:
 | Episteme as system-role holder | A report, standard, dataset, theorem, dashboard, or publication is said to hold a role. | Recover the exact evidence, source, standard, requirement, publication, status, or assurance relation. |
 | Status-template fusion | A status, permission, or evidence standing becomes another kind-description branch. | Use the direct status, policy, permission, or evidence relation. |
 | Relation position as system role | “The subject role in this relation …” | Recover participant meaning, `SlotKind`, `ValueKind`, and `RefKind` under A.6.RSIR and A.6.5. |
-| Bridge by label | Shared spelling in two practices or sources is treated as one local kind. | Keep two kinds. Use C.3.3 only when an actual relation between those exact kinds obtains. If a separate wording or local-sense relation is current, address the exact F.17 cells and use F.9; shared spelling triggers neither relation. |
+| Bridge by label | Shared spelling, or a changed practice or source, is treated as proof of kind sameness or difference. | Compare the exact C.3 definitions first. Reuse one kind when its candidate domain and operative distinction continue; identify two only when those distinctions differ. Use C.3.3 only when an actual relation between two exact kinds obtains. Use F.9 only for an actual relation between distinct F.17 local-sense cells. |
 

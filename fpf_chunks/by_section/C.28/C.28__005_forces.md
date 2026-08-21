@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.28"
-pattern_title: "CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+pattern_title: "CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
 section_id: "C.28:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__005_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+  - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:3 — Forces"
-line_start: 57094
-line_end: 57104
+line_start: 54340
+line_end: 54349
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,13 +30,14 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
+  - "CausalUseSupportResult"
   - "Pearl Causal Hierarchy"
   - "Structural Causal Model"
   - "association"
   - "causal diagram"
   - "causal estimand"
-  - "causal evidence support basis"
   - "causal fairness"
+  - "causal support components"
   - "causal-RL evaluation"
   - "causal-use question"
   - "causality ladder"
@@ -52,10 +53,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Causal safety vs cognitive affordability | FPF must block causal laundering without forcing every causal word into a full causal dossier. |
-| Rung clarity vs ordinary language | Ordinary language says "improves", "causes", "fair", or "would have"; FPF must recover whether that means association, intervention, or counterfactual comparison. |
-| Identification vs realizability | A counterfactual estimand may be identifiable from other data but not directly sampleable, or directly sampleable under action constraints but not generally available. |
-| Graph and formalism precision vs reader usability | SCM, DAG, ADMG, SWIG, SCM twin network, AMWN, and counterfactual graphical model names matter, but they must not bury the first practical move. |
-| Domain plurality vs one FPF pattern | SCM and PCH, potential outcomes, target-trial emulation, causal ML, transportability, causal representation learning, causal RL, and causal fairness must all remain recognizable without making `C.28` a one-school vocabulary. |
-| Neighbor fit vs authority creep | Neighbor patterns need causal-use hooks, but they must not redefine causal-use question, rung, estimand, identification, or realizability. |
+| Causal safety vs affordability | Ordinary claims need a quick screen; consequential claims need replayable support. |
+| Formal precision vs readable practice | Graphs, estimands, assumptions, and proofs matter, but a cold reader still needs a clear first action. |
+| Identification vs estimation vs realizability | The target may be identifiable but not yet estimated, bounded but not point-identified, or directly sampleable only under special constraints. |
+| Domain breadth vs one pattern | Potential outcomes, SCMs, target trials, causal ML, transport, causal RL, representation learning, and fairness use different specialist methods. |
+| Shared support vs local authority | Neighbours need the result, but keep their own decision and publication rules. |
 

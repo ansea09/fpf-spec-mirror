@@ -6,12 +6,12 @@ section_id: "A.6.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__013_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:12 — Relations"
-line_start: 12884
-line_end: 12912
+line_start: 12918
+line_end: 12946
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -54,7 +54,7 @@ keywords:
 
 - **Builds on:** A.6.0, C.2.1, and A.2.6.
 - **Governs:** reusable `U.Mechanism` declaration epistemes, their mechanism-specific content, declaration-local application and binding semantics, exact particular operation applications and bindings when current, and direct realization claims.
-- **Coordinates with:** A.6.REL for explicit occurrence identity; A.6.RCD for local compound comparison claims, reusable predicate definitions, and relation-kind admission stops; A.6.5 for the contrasting RelationSignature SlotSpec boundary; C.3 for local operation ValueKinds; A.1 for recognition-criterion semantics; A.3.1 and A.3.2 for method and method description; A.15.2 and A.15.1 for planned and performed work; C.2.1 for mechanism-episteme identity, editions, any separately materialized result episteme, and the separate claim that one obtaining Bridge suits one named bounded use; A.19 for comparison; F.9 only for exact cross-context `SchemeSenseCell` correspondence; A.10 for ordinary below-threshold evidence reliance on the separate bounded-use claim; B.3 when an assurance claim is made or the material-reliance threshold is met; CHR for selected `CHR:ReferencePlane` values; A.1.1 and A.22 for selected model-use structure; C.29 for mathematical-lens use; E.20 for introduction; E.24.PUB for publication; A.22.CGUS for executable continuation; and G.11 for currentness.
+- **Coordinates with:** A.6.REL for occurrence identity; A.6.RCD for compound comparison claims and missing-relation stops; A.6.5 for RelationSignature SlotSpec discipline; C.3 for operation ValueKinds; A.1 for recognition criteria; A.3.1 and A.3.2 for Method and Method description; A.15.2 and A.15.1 for planned and performed Work; C.2.1 for mechanism epistemes, editions, result epistemes, and bounded Bridge-use claims; A.19 for comparison; F.9 for cross-scheme sense correspondence; A.10 for ordinary reliance; B.3 only for an actual named assurance claim; CHR for selected reference planes; A.1.1 and A.22 for selected model-use structure; C.29 for mathematical-lens use; E.20 for introduction; E.24.PUB for publication; A.22.CGUS for potential-continuation structure and case results; and G.11 for currentness.
 - **Described and published through:** C.2.1, A.6.3, A.6.3.RT, and E.24.PUB.
 - **Uses for precision restoration:** E.10, E.10.ARCH, and F.18 after the current object and relation positions have been recovered.
 
@@ -62,7 +62,7 @@ keywords:
 
 When E.18.1 reaches a mechanism question, A.6.1 supplies the reusable operation declaration and any current exact application, application binding, or realization relation. E.18.1 carries that governed object to the next locus; it does not define mechanism semantics, bind an actual value, choose a method, identify performed work, evaluate evidence, or pass a gate.
 
-When typed signature, mechanism, method, work, and evaluation positions are connected by condition-governed relations, admit the resulting executable continuation structure under A.22.CGUS. A presentation of one traversal through that admitted CGUS is a separate demonstrative slice. The local mechanism mantra remains Plain mnemonic wording unless that wider structure and slice have been admitted.
+When selected relations and applied constraints connect signature, mechanism, method, Work, and evaluation constituents into one independently identified A.22 structure with local loci and at least two potential continuations, apply A.22.CGUS to that structure. A presentation of one traversal through a qualified CGUS is a separate demonstrative slice. The local mechanism mantra remains Plain mnemonic wording unless that wider structure actually qualifies and the later presentation is about it.
 
 #### A.6.1:12.2 - Lowering and return conditions
 

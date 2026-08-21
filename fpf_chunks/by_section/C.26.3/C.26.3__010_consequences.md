@@ -6,12 +6,12 @@ section_id: "C.26.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__010_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:9 — Consequences"
-line_start: 54645
-line_end: 54650
+line_start: 53423
+line_end: 53428
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,5 +43,5 @@ keywords:
 
 This pattern helps architects see stability-through-change. It supports decisions about candidate interventions only after each throttling, staffing, routing, protocol, context-boundary, cache, measurement, or escalation proposal is recovered as its exact Method, description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description, while any dated Work, actual transformation or other change, obtaining relation occurrence, and resulting state remain separately grounded.
 
-The cost is that simple metric stories become less simple. That is acceptable when the metric story hides the actual viability relation.
+The cost is that simple metric stories become less simple. That is acceptable when the metric story hides another envelope dimension, an intervention cost, a boundary condition, or a failure mode.
 

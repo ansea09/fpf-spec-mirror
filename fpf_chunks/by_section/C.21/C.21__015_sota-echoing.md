@@ -6,31 +6,36 @@ section_id: "C.21:12.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__015_sota-echoing.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:12.1 — SoTA-Echoing"
-line_start: 50553
-line_end: 50564
+line_start: 49356
+line_end: 49365
 dependencies:
+  - "A.10"
   - "A.17"
+  - "A.17-A.18"
   - "A.18"
+  - "A.19"
   - "A.2.6"
   - "B.3"
   - "C.16"
   - "C.2"
+  - "C.2.1"
   - "C.20"
-  - "E.10"
-  - "F.17"
+  - "C.I"
+  - "E.24.PUB"
   - "F.9"
   - "G.0"
   - "G.10"
   - "G.11"
   - "G.12"
   - "G.2"
+  - "G.4"
   - "G.5"
+  - "G.6"
   - "G.9"
-  - "U.Discipline"
 keywords:
   - "alignment"
   - "discipline"
@@ -42,13 +47,11 @@ keywords:
 
 ### C.21:12.1 - SoTA-Echoing
 
-| SoTA/practice anchor | What it changes in C.21 | Adoption stance | Boundary of non-overread |
-|---|---|---|---|
-| Open Science Collaboration (2015), Munafò et al. (2017), and current reproducibility and metascience practice on replication, transparency, claim granularity, and freshness. | `ReproducibilityRate`, `EvidenceGranularity`, freshness windows, and evidence-lane tagging are live discipline-health characteristics rather than one global credibility score. | Adopt and adapt: use reproducibility as one typed characteristic with scope, window, and evidence lanes. | C.21 does not certify any single claim as true; claim evidence uses `A.10`, `G.6`, or another pattern that defines or constrains the evidence relation being asserted. |
-| Fortunato et al. (2018) science-of-science framing and Wu, Wang, and Evans (2019) disruption-index family. | `DisruptionBalance` is a banded characteristic, not a monotone novelty target; the method id and edition are declared before use. | Adapt: use disruption/consolidation as a typed reading over a declared corpus and method edition. | Disruption is not quality, truth, safety, or project usefulness by itself. |
-| Standards and ecosystem-convergence practice in engineering disciplines. | `StandardisationLevel` stays ordinal with comparison-only operations, and every comparison names the exact schemes and standard-status editions it uses. | Adopt lightly: use standardization as an ordinal characteristic and preserve local meanings. | Standard status is not SoTA proof, evidence sufficiency, gate passage, or assurance. |
-| Current plural-tradition and relation-mapping practice in mature fields. | `AlignmentDensity` counts obtaining F.9 relations per exact declared set of F.17 cells; it rewards recoverable substitutions without semantic collapse. | Adopt: name exact cells, relations, admitted uses, and loss notes, and keep penalties in `R` or `R_eff` only. | A high relation count is not a universal language, consensus, or authority claim. |
-| Engineering architecture and semio-bias control practice from the current FPF architecture workstream. | Adds `EngineeringClaimJustificationRecoverability` and `SemioSubstitutionPressure` as discipline-health extension slots. | Adopt for FPF-facing engineering disciplines: evaluate whether engineering claim kinds, admissible-use boundaries, and semio-substitution repairs remain recoverable and cite the patterns and rules that define or constrain them. | These slots do not replace mathematical-lens use, evidence, assurance, gate, release, work, or project certification patterns. |
-
-The practical consequence is that C.21 reads discipline health through typed characteristics. It can feed dashboards or time-series publications, but the dashboard is only a publication view over DHC readings; it is not the discipline-health ontology and not project authority.
+| SoTA or practice anchor | Contribution used here | Non-overread |
+| --- | --- | --- |
+| Open Science Collaboration (2015), Munafò et al. (2017), and current reproducibility and metascience practice | Reproducibility, claim resolution, support visibility, freshness, and population definition remain separate coordinates and bases. | A field-level rate does not certify one claim as true. |
+| Fortunato et al. (2018) and Wu, Wang, and Evans (2019) disruption-index work | Disruption and consolidation are read through a declared corpus, method edition, and target band rather than a monotone novelty target. | Disruption is not quality, truth, safety, or usefulness by itself. |
+| Standards lifecycle and ecosystem-adoption practice | Formal recognition and observed adoption are separate. | Official status, popularity, and convergence do not prove one another or SoTA. |
+| Plural-tradition and relation-mapping practice | AlignmentDensity counts exact obtaining directed relations with visible loss. | A relation count is not universal language, consensus, or authority. |
+| Diversity measurement practice | Entropy and concentration retain their separate constructions and directions. | Similar labels do not make their Scales interchangeable. |
 

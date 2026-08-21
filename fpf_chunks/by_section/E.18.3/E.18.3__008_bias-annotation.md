@@ -6,12 +6,12 @@ section_id: "E.18.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__008_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:6 — Bias-Annotation"
-line_start: 85457
-line_end: 85467
+line_start: 82788
+line_end: 82798
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,7 +36,6 @@ dependencies:
   - "E.23"
   - "G.11"
   - "G.5"
-  - "U.Transfer"
 keywords:
 ---
 
@@ -48,6 +47,6 @@ keywords:
 | Graph-as-structure-in-every-sense | Keep a pre-admission graph or flow card as an ordinary provisional explanation; constitute a C.2.1 episteme only when persistence or replay of its narrower claim is current. Keep a post-admission demonstrative episteme separate from the selected structure. |
 | Profile-as-second-structure | Keep the four A.22 discriminators as the one structure identity. E.18.3 qualification, records, descriptions, locators and reciprocal-looking references create no second structure. |
 | One TFS as universal parent | Classify several valuations, one internal `SubflowRef` and independently selected E.18.NET members before using a demonstration. |
-| Gate, evidence or subject-use absorption | Keep each claim separate: the applicable evidence, assurance, gate, or other concrete rule supplies its criterion, and current facts or evidence must show that the claim obtains even when a relation-reference episteme cites the same occurrence for transformation-flow replay. |
+| Gate, evidence, or stronger-use absorption | Keep each stronger claim separate: its exact independently governed claim or relation, applicable criterion, and current facts or evidence establish that use even when a relation-reference episteme cites the same occurrence for transformation-flow replay. |
 | Intended realization as MethodDescription or Work | Use the A.3.2 membership test or A.15.1 occurrence test on the exact independently identified object; pattern refs, imperatives, rows, and selected continuations neither identify that object nor show that the test is satisfied. |
 

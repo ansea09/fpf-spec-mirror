@@ -6,12 +6,12 @@ section_id: "F.18:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__003_context.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:1 — Context"
-line_start: 97034
-line_end: 97053
+line_start: 94232
+line_end: 94251
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 
 Names are handles for use, not creators of ontology. A good name lets people talk about a governed value without smuggling in an extra system-role kind, assignment, capability, method, work, status, evidence, interface, or cross-context claim.
 
-`FPFCoreReferenceScheme` is the by-value `U.ReferenceScheme` used to interpret current FPF Core Tech labels and relation names. A NameCard that uses it carries that reference-scheme value by value, consistent with `C.2.1`; F.18 does not introduce `U.ReferenceSchemeRef`. A name interpreted under another reference scheme carries that scheme by value. When a naming use must align two exact local senses, compare their `<ReferenceScheme, LocalSenseClaim>` projections. The same projection plus another expression is a designation question and gets no Bridge. Different projections—including the same scheme with different `LocalSenseClaim` values—open the F.9 question; a different scheme is only one such case and proves no Bridge. Test the exact F.17 cells and cite a Bridge only when its predicate actually obtains. State the proposed naming use separately in an exact current C.2.1 claim with that Bridge as EntityOfConcern and affirmative polarity; name the direction, correspondence rule, and tolerated loss. For ordinary bounded reliance below B.3's threshold and with no assurance claim, require the exact A.10 evidence-provenance graph relation plus `RelianceDisposition=pass` for that use. When an assurance claim is made or the threshold is met, follow B.3's first-claim decision and require either a current positive claim carrying that use with its sufficient record or an exact disposition that stops or narrows it; the threshold alone creates no positive claim. The named use is still claim content. Neither reliance route authorizes it or proves that it occurred. If it did occur, recover the actual Work under A.15.1, assertion episteme under C.2.1, publication occurrence under E.17, direct relation under its exact domain predicate and pattern locator, operation application under A.6.1, or another exact result or relation under its own predicate. Name a `BoundedModelUseStructure` only when that selected structure changes the sense or naming use. Until the Bridge, separate claim, and required reliance are current, keep the names local or record the unresolved alignment. When no semantic-correspondence use is current, create no Bridge or use claim regardless of scheme count. A reference-scheme or model-use-structure difference alone supplies neither premise, governed-value identity, nor `U.BoundedContext`.
+`FPFCoreReferenceScheme` is the by-value `U.ReferenceScheme` used to interpret current FPF Core Tech labels and relation names; a name under another scheme carries that scheme by value. Most naming work stays within one `<ReferenceScheme, LocalSenseClaim>` projection and needs no Bridge. If one named use must relate different projections, follow the later cross-projection branch in section 4.4.1. Shared spelling, another scheme, or a selected model-use structure alone creates no Bridge, use claim, reliance, governed-value identity, or `U.BoundedContext`.
 
 `F.18` supplies the naming discipline for Part F and for any FPF pattern that needs a durable public term. It coordinates with:
 

@@ -6,12 +6,12 @@ section_id: "F.0.1:4"
 section_title: "Solution — recover locally, strengthen only for use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__005_solution-recover-locally-strengthen-only-for-use.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:4 — Solution — recover locally, strengthen only for use"
-line_start: 90274
-line_end: 90337
+line_start: 87660
+line_end: 87723
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -53,7 +53,7 @@ When a source fixes a designed-versus-performed distinction or another time stan
 
 A shared label, close paraphrase, common superclass, table row, embedding score, or family membership does not establish identity or another relation. First recover each source-local meaning separately. Then use F.9 when a receiving use needs an actual relation between the two F.17 cells.
 
-The F.9 result states the exact endpoints, relation kind, direction, comparison basis, limits or losses, and intended use. A relation does not by itself permit translation, substitution, row membership, or reliance. A chain of relations does not silently create a direct endpoint relation.
+The F.9 result states which two cells are related, what kind of relation obtains, how its endpoints are oriented, and what relation profile makes it true. When a receiving use is current, state a separate C.2.1 claim: what action is proposed, in which direction, under which correspondence rule, how much loss it tolerates, and whether the Bridge is suitable for that use. Changing this use claim does not change the Bridge. Neither the relation nor the claim by itself permits translation, substitution, or row membership, establishes reliance or authorization, or shows that the action occurred. A chain of relations does not silently create a direct endpoint relation.
 
 #### F.0.1:4.4 - Recover old Context-shaped artifacts only for a current reliance
 
@@ -68,7 +68,7 @@ When a current claim or action actually relies on it, recover only the values th
 | Source-backed meaning statement | A plain answer tied to one exact source passage. | A new kind, container, relation, or assurance result. |
 | `SchemeSenseCell` | F.17's durable address for one expression and local sense claim under one effective ReferenceScheme. | The ordinary first result or a container of source doctrine. |
 | `LocalSenseBasisRelation` | A current direct support relation from an exact basis episteme to the cell. | Automatic provenance, reliance, or assurance. |
-| F.9 relation | An actual stated relation between distinct recovered cells for a named use. | Identity by wording, a search score, or a universal substitution licence. |
+| F.9 Bridge | An actual semantic relation between distinct recovered cells under its applicable relation profile. | A proposed use, a bounded-use claim, permission, reliance, authorization, or evidence that an action occurred. |
 | Short source note | An optional readable representation of already recovered source information. | A form whose presence establishes meaning or admission. |
 
 #### F.0.1:4.6 - Invariants
@@ -87,7 +87,7 @@ When a current claim or action actually relies on it, recover only the values th
 - **Local reading.** “This source passage uses *t* to mean *m*.”
 - **Durable address.** “This receiver will reuse that reading, so record it as an F.17 cell under the effective source scheme.”
 - **Basis.** “This exact source episteme supports the cell through a current `LocalSenseBasisRelation`.”
-- **Cross-source relation.** “The two recovered cells stand in this stated F.9 relation, under these limits, for this use.”
+- **Cross-source relation.** “The two recovered cells stand in this stated F.9 relation under this relation profile.” When a receiving use is current: “A separate C.2.1 claim says whether that Bridge is suitable for this action, direction, correspondence rule, and tolerated loss.”
 - **No transitive shortcut.** Two established relations through an intermediate meaning do not establish a direct third relation.
 - **Affected-only reopening.** A changed source premise reopens the claims that used it, not every claim that cites the edition.
 

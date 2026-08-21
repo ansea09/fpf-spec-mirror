@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__007_archetypal-grounding.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:5 — Archetypal Grounding"
-line_start: 61036
-line_end: 61043
+line_start: 58203
+line_end: 58210
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 
 | Template element | `U.System` illustration | `U.Episteme` illustration |
 | --- | --- | --- |
-| Source-label cue | A neural-network architecture source says that an `expert block` sits above a `router layer`. | A source-publication note says that a `cache layer` keeps a diagram or view current. |
-| Recovery result | `Expert`, `block`, `router`, and `layer` stay source labels until the repair recovers module-interface, function-like, path-selection, transformation-flow, or selected-structure apparatus. | `Cache` and `layer` stay source labels until the repair recovers publication source-currentness, view, state or currentness, or ordinary non-use apparatus. |
-| Admissible move | Apply `A.6.M`, `A.6.F`, `E.18`, `C.30.TFS-REL`, `G.5`, or `C.11` only after the ontological neighborhood is recovered by value. | Apply `C.2.P`, `E.17`, `A.19.SPR`, `A.3.3`, `C.27.TA`, or `C.27` only after the publication named by value, episteme, state, temporal-aspect/rate-band claim, or authored temporal-claim adequacy is recovered. |
+| Source-label cue | A neural-network source says an `expert block` sits above a `router layer`. | A publication note says a `cache layer` keeps a diagram or view current. |
+| Recovery result | The words stay source labels until module, function, path-selection, flow, or selected-structure facts become clear. | The words stay source labels until publication, view, state, currentness, temporal, or ordinary non-use facts become clear. |
+| Next move | Use `A.6.M`, `A.6.F`, E.18, C.30.TFS-REL, G.5, or C.11 only for the recovered claim. | Use C.2.P, E.17, A.19.SPR, A.3.3, C.27.TA, or C.27 only for the recovered claim. |
 

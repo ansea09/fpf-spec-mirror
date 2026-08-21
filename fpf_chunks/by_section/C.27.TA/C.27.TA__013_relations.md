@@ -6,12 +6,12 @@ section_id: "C.27.TA:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__013_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:11 — Relations"
-line_start: 56926
-line_end: 56931
+line_start: 54220
+line_end: 54226
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,5 +47,6 @@ keywords:
 
 - **Builds on:** `E.24`, `A.6.5`, `A.7`, `C.2.1`.
 - **Coordinates with:** `C.27`, `A.3.4`, `A.3.3`, `A.15.2`, `A.15.1`, `C.16`, `C.28`, `G.9`, evidence, source, assurance, refresh, and publication patterns.
-- **Used by:** patterns that need a positive temporal aspect without making a temporal-claim adequacy judgement.
+- **C.27 consumer boundary:** `C.27` consumes this exact temporal-aspect episteme or one exact `C.2.1 ClaimAddress` to its intrinsically identified claim; it adds only the adequacy-for-use claim and does not redefine the bearer, predicate, window, coupling, or currentness fields.
+- **Used by:** patterns that need a positive temporal-aspect claim without making a temporal-claim adequacy judgement.
 

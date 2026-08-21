@@ -6,12 +6,12 @@ section_id: "F.9:7"
 section_title: "Evidence about relation and use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__009_evidence-about-relation-and-use.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:7 — Evidence about relation and use"
-line_start: 93072
-line_end: 93085
+line_start: 90464
+line_end: 90477
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -62,7 +62,7 @@ Evidence must answer the question it actually bears on:
 | --- | --- | --- |
 | Do the endpoint meanings satisfy the fixed profile? | the claim that the Bridge obtains, is false, or remains unresolved | suitability for an unnamed use |
 | Does the Bridge suit `<u,d,r,t>`? | affirmative or negative polarity of the exact C.2.1 bounded-use claim | authorization or performance of the use |
-| May the reader rely on that claim now? | an A.10 local `RelianceDisposition`, or the B.3 claim or disposition selected for the same bounded use | the Bridge occurrence, legal permission, or a receiving occurrence |
+| May the reader rely on that claim now? | an A.10 local `RelianceDisposition`; when an actual named assurance claim is current, its B.3 `AssuranceResult` for the same bounded use | the Bridge occurrence, legal permission, or a receiving occurrence |
 
 `CL` may summarize evidence strength for a stated correspondence: `0` contradicted, `1` weakly comparable, `2` bounded support with explicit counterexamples, and `3` matched stated invariants with no current material counterexample. It is optional and never serves as a use threshold. A `CL=3` label does not make a type-structure use suitable; the separate claim must still name the rule and tolerance, and reliance must still pass under A.10 or B.3.
 

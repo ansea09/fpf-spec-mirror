@@ -6,12 +6,12 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__010_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 49362
-line_end: 49587
+line_start: 48149
+line_end: 48369
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -52,40 +52,35 @@ keywords:
 
 #### C.19:4.1a - Causal data and causal-policy exploration hook
 
-When an exploration and exploitation policy collects data to support a causal claim, changes intervention budget, learns a causal policy, evaluates a policy from behavior-policy data or logging-policy data, or treats a counterfactual strategy as a candidate line, the pool-policy claim remains within C.19's scope and cites `C.28` for causal-use support.
+When exploration collects data for a causal claim, learns or evaluates a causal policy, or uses counterfactual replay as a reason to treat a live line, the pool-policy result stays within C.19 and cites C.28 for the causal-support conclusion.
 
 Optional `PoolPolicyResult.causalUseSpec?`:
 
 ```text
-PoolPolicyResult.causalUseSpec? {
-  causalUseQuestionRef?: U.CausalUseQuestion
+PoolPolicyResult.causalUseSpec?:
+  causalUseQuestionRef?: CausalUseQuestionRef
   targetCausalityLadderRung: CausalityLadderRung
   causalUseClaimKind: CausalUseClaimKind
   causalActionPolicyClass?: CausalActionPolicyClass
-  causalEvidenceSupportBasis?: CausalEvidenceSupportBasis
+  causalSupportComponentRefs?: CausalSupportComponentRefs
   causalUseEvidenceDesignRef?
-  offPolicyCausalEvaluationProfileRef?
-  causalUseSupportRecordRef?: CausalUseSupportRecordRef
-  causalUseSupportVerdict?: CausalUseSupportVerdict
-  supportedUse: CausalUseSupportStatement
-  unsupportedUse: CausalUseUnsupportedStatement
-}
+  offPolicyCausalEvaluationResultRef?
+  causalUseSupportResultRef?: CausalUseSupportResultRef
+  supportedUse
+  unsupportedUse
 ```
 
-The causal-use support tail may be omitted only when the pool-policy result does not reach `CausalUseActivation`: it does not make, publish, rank, retire, deploy, or reuse a causal claim. If exploration or exploitation is justified by effect, counterfactual replay, causal policy support, or causal data collection, the support tail is present or the result is downgraded to a non-causal pool-policy reason.
+Omit this tail when the pool treatment makes no causal claim and consumes no causal-support result. Include it when effect, counterfactual replay, causal-policy support, or causal evidence changes the treatment. The C.28 result remains evidence support; it does not authorize ranking, retirement, deployment, or graduation. C.19 makes the pool-treatment decision under its own policy.
 
-What changes in practice: a frontier policy that explores "to learn what works", exploits a causal policy, or graduates a line because counterfactual replay looks better must declare the causal-use question, `CausalUseClaimKind`, causality-ladder rung, causal evidence support basis, and supported use and unsupported use before the pool-policy result can carry a causal claim.
+**Policy fields.** `EmitterPolicy` is a context-local, versioned policy with canonical fields:
+`{ emitterPolicyId, name?, regimeKey ∈ {UCB, Thompson, BO-EI, GP-UCB, PES, InformationGain, …}, params, explore_share∈[0,1], temperature τ≥0, rebalance_period, wild_bet_quota≥0, graduationConditionRef?, assuranceResultRef?, epsilon_dominance ε, cell_capacity K, insertionPolicyRef, dedupThreshold, deduplicationBasisRef, deduplicationUnit }`.
 
-What this does not authorize: use `C.19` only for pool treatment. Use `C.28` for causal-use support; no causal identification, causal fairness, off-policy causal evaluation, or counterfactual-realizability rule is supplied here.
-
-Define EmitterPolicy (regime key, params, ε, K, insertion policy, and deduplication threshold) and selection lenses with a fixed pipeline (Eligibility → Dominance → Tie‑breakers); bind provenance (policy id, lens id) and guard promotions of `Surprise` or `Illumination` to dominance to explicit policy declarations.
+`graduationConditionRef` cites the direct domain or policy condition that changes pool treatment. `assuranceResultRef` is present only when satisfying that condition relies on one exact B.3 result for a named assurance use and bounded scope. Neither field is an assurance level. `emitterPolicyId` is cited as `emitterPolicyRef`; the profile is not a U-kind, generation operator, staffing instruction, budget approval, or Work record.
 
 **Decision-subject clarification.** Attribute any later choice to one declared `DecisionSubject` at explicit `DecisionSubjectGranularity`. Record measurement spaces and admissible policies in the semantic-frame epistemes that state them. Use LOG to describe lenses and policies; that description does not enact a choice.
 
-**EmitterPolicy (named profile).** A context-local, versioned policy with canonical fields:
-`{ emitterPolicyId, name?, regimeKey ∈ {UCB, Thompson, BO-EI, GP-UCB, PES, InformationGain, …}, params, explore_share∈[0,1], temperature τ≥0, rebalance_period, wild_bet_quota≥0, backstop_confidence (assurance level), epsilon_dominance ε, cell_capacity K, insertionPolicyRef, dedupThreshold, deduplicationBasisRef, deduplicationUnit }`.
-`emitterPolicyId` is cited from a consuming record as `emitterPolicyRef`; `insertionPolicyRef` is a reference to the governed insertion policy; `dedupThreshold` is a declared scalar on the basis and unit named by `deduplicationBasisRef` and `deduplicationUnit`. Casing does not create a second field family.
-`EmitterPolicy` is a context-local named policy profile, not a U-kind or a generation operator. A C.18 generation or archive record cites it only when the current pool treatment or insertion and deduplication rules actually use that profile. Use C.18 for generation, archive, and front claims. The profile is not a staffing or budget instruction.
+**EmitterPolicy use.** The canonical profile and its assurance boundary are defined above. A C.18 generation or archive record cites it only when pool treatment, insertion, or deduplication actually uses that profile. The profile is not a staffing or budget instruction.
+
 Use the ordinary default tokens defined in `G.Core` and `G.5`. The rules below explain their pool-policy consequences without defining a rival default family.
 
 **Decision-theory bridge.** Use `C.11` for theory-side choice among already-available options and for the meaning of `ProbeBudget`, `ValueOfInformation`, and `ValueOfComputation`. A pool-policy record may use those outputs only as criteria for graduation, keep-frontier, or sunset treatment; it does not restate local choice doctrine.
@@ -109,21 +104,21 @@ Use the ordinary default tokens defined in `G.Core` and `G.5`. The rules below e
 
 **Promotion rules (policy).**
 - **Tie-breaks.** Use only the constituted and compatible results named by the current policy. Promotion of Surprise or Illumination into the dominance set MUST be declared by lens or policy id and captured in provenance.
-- **Graduation.** A candidate line or pool member moves from Explore to Exploit only when eligibility holds and `assuranceResultRef` cites the exact B.3 assurance result whose bounded use supports the applicable `backstop_confidence` threshold for the current scope. An optional profile or its coordinate results may supply evidence about the candidate; the payload itself does not graduate.
-- **Sunset or pivot.** A candidate line or pool member that fails the applicable VOI or backstop threshold receives the sunset or pivot treatment at `rebalance_period`. Its optional profile remains evidence, not the treated object.
+- **Graduation.** A candidate line or pool member moves from Explore to Exploit only when eligibility holds and the direct condition cited by `graduationConditionRef` is satisfied. When that condition relies on assurance, `assuranceResultRef` cites the exact B.3 result whose named use and bounded scope support the judgement. An optional profile may supply evidence; neither the profile nor a label graduates the line.
+- **Sunset or pivot.** A candidate line or pool member that fails the applicable VOI or direct graduation condition receives the sunset or pivot treatment at `rebalance_period`. Its optional profile remains evidence, not the treated object.
 **Policy logic is not generation or work.** In one C.19 use, compute and record a treatment over an already identified live pool. It does not recompute a C.18 front or archive, update a generator, seed a candidate, constitute dated `U.Work`, create or classify a local system-role kind, create or change an assignment occurrence or its state, establish responsibility, authority, or permission, approve a budget or plan, or authorize enactment. At enactment, recover only the branches that independently obtain; send unresolved claim-bearing “role” wording through `E.10.ROLE`.
 
 **Pool-policy pass (per `rebalance_period`).**
 1) Read the current C.18 archive/front reference and its replay boundary; do not recompute either object inside C.19.
 2) Record the governing lens and desired policy values, such as `explore_share`, emitter-profile preference, `wild_bet_quota`, or an admitted heterogeneity constraint. These are policy values, not generation actions.
-3) Apply eligibility and `backstop_confidence` to the pool-policy question: record graduation pressure and choose exactly one `currentTreatment` from `widen | keep_frontier | narrow_to_subset | sunset_line`. Record this graduation and treatment judgement under C.19.
+3) Apply eligibility and the direct condition cited by `graduationConditionRef`: record graduation pressure and choose exactly one `currentTreatment` from `widen | keep_frontier | narrow_to_subset | sunset_line`. If assurance is part of that judgement, cite the bounded B.3 result separately.
 4) If that judgement requires fresh candidates, a changed emitter mix or temperature, archive insertion, or front recomputation, set `nextQuestionPatternLocator = C.18` and pass only the desired emitter profile, quota or constraint, and the exact generation/archive/front reason. Apply C.18 to decide and record the generation, archive, and front operations.
 5) If carrying out the treatment requires dated implementation, planning, staffing, or budget use, pass the policy record to the A.15 family; the policy record itself grants none of them.
 6) Emit one `PoolPolicyResult` with `livePool`, `governingLens`, `currentTreatment`, `changeTrigger`, and any inputs required by the next subject pattern. The result may justify keeping, narrowing, graduating, or sunsetting a line without taking over the named next subject pattern's operation.
 
 **Named lenses (heuristics; policy‑level, not norms)**
 The following **lens profiles** are **illustrative heuristics**. Practitioners MAY reuse or modify them; they are **not** normative.
-• **Frontier‑sweeper** — maintain attention on the full front; promote only when `backstop_confidence` holds.
+• **Frontier‑sweeper** — maintain attention on the full front; promote only when the direct graduation condition holds.
 • **Barbell** — enforce `explore_share ≥ θ` with a `wild_bet_quota`; otherwise exploit top‑trust region.
 • **Spike‑first** — pick highest **Use‑Value** subject to `ConstraintFit=pass` and a small **Cost‑to‑Probe** cap.
 • **Safety‑first** — minimize **SafetyRisk** subject to `Use‑Value ≥ θ` and `ConstraintFit=pass`.
@@ -150,7 +145,7 @@ A compact result may therefore state, for example:
 - `livePool = frontier_F`
 - `governingLens = barbell_policy_v2`
 - `currentTreatment = keep_frontier`
-- `changeTrigger = backstop_confidence reaches L1 for one retained line`
+- `changeTrigger = graduation_condition_v3 is satisfied for one retained line`
 
 or, for one narrower family region:
 
@@ -168,7 +163,7 @@ A `C.19` pass may close only when one explicit pool and one explicit next treatm
 - Close as `widen` when the current frontier is too narrow for the declared exploration policy or when the evidence basis is too thin to justify current narrowing.
 - Close as `keep_frontier` when several lines must remain live under the current lens and no narrower admissible subset is yet justified.
 - Close as `narrow_to_subset` when one declared lens now justifies retaining one smaller internal live set without pretending that one scalar winner has already been chosen.
-- Close as `sunset_line` when one line or family region no longer clears the current lens, quota, or backstop requirements.
+- Close as `sunset_line` when one line or family region no longer clears the current lens, quota, or direct graduation condition.
 
 When the question has stopped being pool policy, finish the pool-policy result and use the exact handoff in `C.19:4.4`; the next pattern is recorded outside `currentTreatment`.
 
@@ -198,7 +193,7 @@ An admissible short record may therefore read:
 livePool = frontier_F
 governingLens = barbell_policy_v2
 currentTreatment = keep_frontier
-changeTrigger = backstop_confidence reaches L1 for one retained line
+changeTrigger = graduation_condition_v3 is satisfied for one retained line
 whyNotLocalChoice = several family regions remain live
 ```
 
@@ -219,12 +214,12 @@ When the point is to keep several lines active under one declared lens, the pool
 livePool = frontier_F
 governingLens = frontier_sweeper_v3
 currentTreatment = keep_frontier
-changeTrigger = one retained line reaches backstop_confidence L1
+changeTrigger = one retained line satisfies graduation_condition_v3
 whyNotLocalChoice = three family regions remain live
 ```
 
 **One region should now be sunset.**
-When a region's compatible cited Novelty coordinate result no longer clears the active floor, or the region no longer clears the backstop, state that treatment directly rather than leaving the retirement implicit:
+When a region's compatible cited Novelty coordinate result no longer clears the active floor, or the region no longer clears the direct graduation condition, state that treatment directly rather than leaving the retirement implicit:
 
 ```text
 livePool = family_region_beta
@@ -270,7 +265,7 @@ An internal subset retained by `narrow_to_subset` is still the live pool named b
 
 When the retained set must be declared for downstream comparison, registry use, or another selector-facing use, finish the pool-policy result and pass `G.5` the exact declared source set, lens or policy id, eligibility conditions, dominance set, tie-breakers, promotion policy, and provenance pins. Use `G.5` to declare the selected-set result and any stable public shortlist identity required by a named use. The C.19 record supplies only the preceding pool treatment and the reason result declaration is now current. If actual audience availability is also current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
 
-When the live question becomes which option to choose, finish the pool-policy result and pass the fixed option set and comparison basis to `C.11`; a C.19 subset is not a `ChoiceResult`. When the question becomes enactment or performed work, use `C.24` and the A.15 family. Resource bounds, `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, and `backstop_confidence` may explain a pool treatment, but they establish no budget, plan, Work occurrence, local system-role kind, separate System-classification judgment, assignment occurrence or state, responsibility, authority, permission, or enactment. Recover each needed fact independently, and send unresolved claim-bearing “role” wording through `E.10.ROLE`. When edition, source, descriptor, policy, or evidence currentness becomes the live question, use `G.11`; a change trigger in C.19 does not itself perform refresh or create a refreshed edition.
+When the live question becomes which option to choose, finish the pool-policy result and pass the fixed option set and comparison basis to `C.11`; a C.19 subset is not a `ChoiceResult`. When the question becomes enactment or performed work, use `C.24` and the A.15 family. Resource bounds, `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, and the direct graduation condition may explain a pool treatment, but they establish no budget, plan, Work occurrence, local system-role kind, separate System-classification judgment, assignment occurrence or state, responsibility, authority, permission, or enactment. Recover each needed fact independently, and send unresolved claim-bearing “role” wording through `E.10.ROLE`. When edition, source, descriptor, policy, or evidence currentness becomes the live question, use `G.11`; a change trigger in C.19 does not itself perform refresh or create a refreshed edition.
 
 The practical handoff is therefore small: preserve the exact C.18 archive or front reference, the C.19 live-pool treatment and change trigger, and the evidence needed by the named next pattern. Do not duplicate selector-result declaration, publication availability, choice, work, or refresh semantics inside C.19.
 

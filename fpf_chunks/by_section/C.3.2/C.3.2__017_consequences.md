@@ -6,12 +6,12 @@ section_id: "C.3.2:15"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__017_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:15 — Consequences"
-line_start: 45052
-line_end: 45059
+line_start: 43855
+line_end: 43862
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -29,9 +29,9 @@ keywords:
 
 ### C.3.2:15 - Consequences
 
-**Benefits.** Classification becomes inspectable without ontology growth, evidence-created truth, or two-valued coercion. Repeated criteria can be reused, and set-consuming uses can receive a bounded representation.
+**Benefits.** Classification becomes inspectable without ontology growth, evidence-created truth, or coercion among non-applicability, uncertainty, and falsity. Repeated criteria can be reused, and set-consuming uses can receive a bounded representation.
 
-**Costs.** Reliance-bearing uses must pin a signature edition and context slice and preserve `unknown` through the receiving decision.
+**Costs.** Reliance-bearing uses must pin a declaration and slice, check candidate/slice applicability, preserve `unknown`, and recover any criterion-bearing status or relation under its direct pattern.
 
-**Risks avoided.** Kind/declaration collapse, record ontology, implicit time, false-for-unknown, mathematical-set overread, silent subkind repair, and kind/individual substitution are blocked.
+**Risks avoided.** Kind/declaration collapse, locality-as-identity, record ontology, not-applicable-as-unknown, false-for-unknown, mathematical-set overread, silent subkind repair, and kind/individual substitution are blocked.
 

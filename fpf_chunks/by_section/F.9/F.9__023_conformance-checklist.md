@@ -6,12 +6,12 @@ section_id: "F.9:21"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__023_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:21 — Conformance Checklist"
-line_start: 93404
-line_end: 93423
+line_start: 90795
+line_end: 90814
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,7 +65,7 @@ An F.9 use conforms iff:
 5. the profile applies, its Boolean predicate is true, and its dependencies are present before a positive occurrence is cited;
 6. every proposed use is a separate C.2.1 claim naming `u`, `d`, `r`, `t`, polarity, and effective scheme;
 7. observed loss stays in evidence while permitted loss stays in the bounded-use claim;
-8. current reliance uses the exact A.10 or B.3 branch for the same bounded use;
+8. current ordinary reliance uses the exact A.10 branch for the same bounded use; when an actual named assurance claim is current, use its exact B.3 `AssuranceResult`;
 9. no reliance or assurance statement is read as authorization;
 10. any actual receiving object is recovered under its subject pattern;
 11. description episteme, Card, registry record, E.24.PUB publication occurrence, form, and carrier remain distinct from Bridge occurrence and receiving-use occurrence;

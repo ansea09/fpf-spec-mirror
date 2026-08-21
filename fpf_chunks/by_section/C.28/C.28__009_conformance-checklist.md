@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.28"
-pattern_title: "CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+pattern_title: "CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
 section_id: "C.28:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__009_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+  - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:7 — Conformance Checklist"
-line_start: 57711
-line_end: 57728
+line_start: 54896
+line_end: 54916
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,13 +30,14 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
+  - "CausalUseSupportResult"
   - "Pearl Causal Hierarchy"
   - "Structural Causal Model"
   - "association"
   - "causal diagram"
   - "causal estimand"
-  - "causal evidence support basis"
   - "causal fairness"
+  - "causal support components"
   - "causal-RL evaluation"
   - "causal-use question"
   - "causality ladder"
@@ -50,19 +51,22 @@ keywords:
 
 ### C.28:7 - Conformance Checklist
 
-| Check | Requirement |
-| --- | --- |
-| `CC-C28-0` Triage-only use | For triage-only use, causality-ladder rung is named or causal use is declined, supported use and unsupported use is named, and a causal-use claim beyond triage is not implied. |
-| `CC-C28-1` Causality-ladder rung declaration | Every causal-use claim declares its target causality-ladder rung: observational association question, interventional action or effect question, or counterfactual comparison question. |
-| `CC-C28-2` Durable causal estimand discipline | Every durable interventional-rung or counterfactual-rung causal-use claim names causal-use question, comparator or counterfactual, estimand, assignment or intervention window, follow-up window, outcome measure, assumptions, rival causes, and supported use and unsupported use. |
-| `CC-C28-3` No unsupported causality-ladder climb | A claim at interventional-action or counterfactual-comparison rung is not supported only by lower-rung causality-ladder data unless `CausalIdentificationProfile`, `CounterfactualSamplingRealizabilityProfile`, or bounded-use treatment is cited. |
-| `CC-C28-4` Realizability is not identification | `CausalIdentificationProfile` and `CounterfactualSamplingRealizabilityProfile` remain distinct. One supports inference from other data; the other supports direct sampling through feasible physical actions. |
-| `CC-C28-5` Counterfactual data collection is Work | Any realized counterfactual-rung-data procedure points to its complete A.15.1/F.6 basis. Optional `U.MethodDescription` and `U.WorkPlan` refs remain separate and appear only when the causal-evidence use consumes them. A merely planned or unrealized procedure is not admitted as `U.Work`. |
-| `CC-C28-6` Verdicts are action grammar | `supported`, `bounded`, `unsupported`, and `abstain` each change what the reader may do next. |
-| `CC-C28-7` No durable-card default | Escalate from triage to local card to durable card and profiles only when the claimed use triggers the durable causal-use object. |
-| `CC-C28-8` Heavy causal-use object payoff | Every selected heavy field or check changes a reader action, blocks a specific overclaim, or supports a concrete evidence decision, assurance decision, fairness decision, or parity decision. |
-| `CC-C28-9` Semantic-authority split | `C.28` governs causal-use value sets, identification profiles and realizability profiles, graph naming and calculus naming, and support verdicts; neighbors may consume or quote them but must not define competing causal-use value sets. |
-| `CC-C28-10` Simulation-only bounded use | Simulation-only output may support bounded model-supported use, but it never becomes interventional evidence or realized counterfactual sample evidence by vocabulary, validation, or role relabeling alone. |
-| `CC-C28-11` Decision-economics of evidence | A causal-evidence plan for deployment, assurance, audit, benchmark, policy, fairness, or support-treatment use names the decision threshold, evidence value or probe-worthiness, and cost condition or risk condition when escalation is not already mandatory by safety, release, or assurance constraints. |
-| `CC-C28-12` Transportability inputs | When transported support is claimed, name the source and target populations, needed selection and domain-shift assumptions, applicable windows, overlap evidence when needed, comparator or transport formula, and supported and unsupported uses. Name effective schemes and cite an F.9 relation only when interpretation differs between the sources. |
+1. One exact causal-use question remains identifiable from entry to result; question, claim, estimand, evidence, and records are not treated as one object.
+2. This edition introduces no universal causal-use-question, estimand, or potential-outcome-contrast kind; it uses local refs to actual objects instead.
+3. Data regime, identification, estimate, sampling realizability, performed sampling evidence, simulation, and transport remain distinct and may be combined.
+4. A support result states evidence support only; every publication, choice, deployment, fairness, or assurance decision remains with its direct pattern.
+5. An identified result cites an expression or derivation; a bounded result cites a bound; a nonidentified result cites an obstruction or witness.
+6. A causal estimate cites an identification or explicit design-based result. Method-family details appear only when that Method is selected.
+7. The common threat screen routes every live ordinary threat or lowers the result; it is not a mandatory dossier.
+8. Non-causal simulator reporting and simulation-supported causal use take different routes at first entry.
+9. A sampling-realizability result cites its decision Method, any derivation used, and the construction, bound, or obstruction required by its status; it claims no Work or data.
+10. Performed counterfactual-sampling support cites dated Work, attribution, and resulting data or evidence; a WorkPlan or `realizable` label cannot satisfy this branch.
+11. Evidence design cites A.15.1/F.6 results instead of copying their assignment schema.
+12. Transport identifies every changed population/domain/environment/data-generating-regime endpoint separately from semantic schemes.
+13. A counterfactual-fairness escalation exposes its additional identification assumptions and, when an estimate is used, estimation consistency before D.5 consumes it.
+14. `CausalActionPolicyClass` has the same four members in definition, examples, and consumers; unresolved classification is not a member.
+15. Every specialist field changes support, a downstream decision basis, evidence work, or a reopen condition.
+16. A target-trial mapping result identifies the observational source and every protocol-to-data mapping, gap, residual-confounding assessment, and sensitivity mapping needed for its bounded use.
+17. Every retained specialist result that can independently change support can enter `CausalSupportComponentRefs`; when it shapes further evidence, the evidence-design record can cite the same result without copying it.
+18. The whole pattern remains understandable to a practitioner without requiring the formal graph vocabulary on the ordinary path.
 

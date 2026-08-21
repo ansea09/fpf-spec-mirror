@@ -6,12 +6,12 @@ section_id: "A.3.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:4 — Solution"
-line_start: 8417
-line_end: 8561
+line_start: 8457
+line_end: 8596
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -165,14 +165,9 @@ Calibration Work and its domain result may support a later dynamics episteme who
 
 #### A.3.3:4.6 - Prediction use in comparison or gating
 
-When predicted coordinates from `U.Dynamics` are used for comparison, release, gate, assurance, or work-preparation use, one of these conditions must hold:
+A prediction used for comparison, release, gate, assurance, or work preparation states the exact dynamics edition, predicted Coordinates, operating region, horizon, time step, parameter regime, source-currentness condition, and relevant error or uncertainty. The direct consumer's policy then states which observation, validation, sensitivity, robustness, stability, or normalization-composition conditions that use requires.
 
-1. a fresh observation is available for the gate or comparison window; or
-2. the applied transition map `Phi_dt` is declared non-expansive under the declared distance structure, and the transition commutes with the invariantization or quotient step on the domain of use.
-
-If neither condition is satisfied, prediction does not carry the gate or comparison claim. Use observation, state currentness through `C.27.TA`, use `C.27` when authored temporal-claim adequacy is the concern, or move the gate claim to `A.20`, `A.21`, or the direct authority pattern.
-
-Every use of `Phi_dt` states its applicability window: operating region, horizon, scale band, time step, parameter regime, and source-currentness condition.
+A fresh observation may replace or check the prediction when the policy calls for it. A non-expansive bound, another sensitivity bound, or commutation with a normalization step is required only when the named use relies on that property. None of those properties is by itself sufficient for a gate or comparison claim. If the required conditions are absent or fail, the prediction cannot carry that use; state currentness through `C.27.TA`, use `C.27` for authored temporal-claim adequacy, and use A.20, A.21, G.4, or the direct authority pattern for the actual decision.
 
 #### A.3.3:4.7 - A.3.4, C.27.TA, C.27, and C.29 boundaries
 

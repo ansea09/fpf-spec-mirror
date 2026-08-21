@@ -6,12 +6,12 @@ section_id: "C.35:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__008_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:7 — Conformance checklist"
-line_start: 67762
-line_end: 67773
+line_start: 64970
+line_end: 64981
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -61,11 +61,11 @@ keywords:
 
 | Check | Pass condition |
 | --- | --- |
-| `CC-C35-1` | Grounded architecture question, independently selected source structures, generation or discovery Method, and produced carrier or description are named. When performed generation or discovery matters, name one dated Work occurrence and keep all facts required by A.15.1, A.2.1, and F.6 recoverable. |
-| `CC-C35-2` | Note, Method, dated generation or discovery Work, any actual transformation, production or work-to-change claim, produced carrier or description, described structure, selected candidate structure, realized holon structure, measurement return, eval return, decision authority, and composite project Work remain distinct. |
-| `CC-C35-3` | Preserved structure, lost structure, constraints, source-label recovery, observation refs, uncertainty refs, validation refs, comparison refs, and transformation trace are present when they affect use; none substitutes for the A.3.4 basis of an actual transformation or the four A.22 structure discriminators. |
-| `CC-C35-4` | Candidate admission condition names what must be true before C.32 can use the result. |
-| `CC-C35-5` | Bearer or realization boundary is stated, and any feasibility question uses the rule that defines or tests it. |
-| `CC-C35-6` | Each current archive, front, pool, publication, eval, measurement, mathematical-lens, decision, evidence, assurance, gate, release, method, or work claim uses the pattern that defines or tests it. |
-| `CC-C35-7` | Admissible use, non-admissible use, carrier-admission return condition, the next claim or question, and its required rule or test are named. |
+| `CC-C35-1` | A sentence or four-line statement names the exact result, the organization that already obtains or is only proposed, the one condition required for the next use, and the forbidden overread or return. This is a conforming first result. |
+| `CC-C35-2` | An optional materialized note has the exact result as its EntityOfConcern and repeats the readable minimum. It adds identity, representation, publication, project-use, branch, Method, Work, attribution, bearer, evaluation, or next-claim fields only when the receiving use relies on them. Any present publication-form, publication-occurrence, or presentation-carrier reference names its truthful object; absent publication apparatus creates no field-filling duty. |
+| `CC-C35-3` | When branch evidence is relied on, exactly one branch is selected. Transformation supplies exact source and result objects, trace, preservation, and loss; discovery supplies observation or extraction basis, what is observed, what is inferred, what remains unknown, coverage, uncertainty, and validation; generative proposal supplies constraints, proposed organization content, omissions, and validation needs, with source and preservation only for an exact declared baseline. |
+| `CC-C35-4` | A positive structure reference passes all four A.22 discriminators. Otherwise the organization remains modal architecture-claim content, which C.32 may receive as candidate input without treating it as obtaining architecture. |
+| `CC-C35-5` | Bearer or realization detail appears only when the intended use relies on feasibility or realization; any such question uses the rule that defines or tests it. |
+| `CC-C35-6` | Any current archive, front, pool, publication, eval, measurement, mathematical-lens, decision, evidence, assurance, gate, release, Method, or Work claim uses its direct pattern; an absent claim creates no C.35 field-filling duty. |
+| `CC-C35-7` | The first result states the next-use condition and limit or return. An exact next-claim or rule reference is added only when the receiving action relies on reidentifying it independently. |
 

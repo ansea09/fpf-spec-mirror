@@ -6,12 +6,12 @@ section_id: "A.2.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__006_archetypal-grounding.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:5 — Archetypal Grounding"
-line_start: 4498
-line_end: 4515
+line_start: 4510
+line_end: 4527
 dependencies:
   - "A.10"
   - "A.2"
@@ -54,5 +54,5 @@ A release dashboard displays `Ready`. A.2.4 may classify the cell as a status-us
 
 #### A.2.4:5.4 - Simulation-only output
 
-A simulation-output episteme is classified for one bounded C.28 claim. C.28 retains `simulationOnlyCounterfactualOutputBasis`, model assumptions, validation basis, causal-use verdict, supported use, and unsupported use. A.2.4 cannot relabel the episteme as realized-counterfactual or interventional evidence; producing simulation work, local simulator result, result episteme, provenance, and later reliance remain separate.
+A simulation-output episteme is classified for one bounded C.28 claim. C.28 retains `simulationResultRef`, model assumptions, validation, the causal-use support result, supported use, and unsupported use. A.2.4 cannot relabel the episteme as realized-counterfactual or interventional evidence; simulation Work, simulator result, result episteme, provenance, and later reliance remain separate.
 

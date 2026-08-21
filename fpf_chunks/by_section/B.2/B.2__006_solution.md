@@ -6,12 +6,12 @@ section_id: "B.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:4 — Solution"
-line_start: 37063
-line_end: 37171
+line_start: 36232
+line_end: 36341
 dependencies:
   - "A.1"
   - "A.10"
@@ -51,9 +51,9 @@ Use B.2 as a world-side whole-reidentification pattern. Start with the actual wh
 3. Test whether those facts can be explained as a change of the same whole. If repair, maintenance, changed characteristics, phase coverage, method or work correction, measurement, or architecture-view correction is enough under the existing reidentification rule, keep that whole and stop B.2.
 4. If the existing whole is not enough, identify the exact candidate new whole and execute the complete A.1 criterion. Recover its constituents, obtaining constructive relations, assembly, reidentification rule, and composition-grounded whole characteristic. Also show that the candidate's actual boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy the applicability and compatibility conditions of at least one governed larger-assembly construction method or rule under which it can remain a constituent. Then name its already admitted holon kind and satisfy the direct kind-specific criterion. If a required condition fails, the candidate fails A.1; if missing evidence or an unavailable dependency prevents a determination, evaluation returns `unknown`.
 5. State the whole-reidentification claim: why the existing whole no longer carries the current subject claim and why the candidate new whole is the EntityOfConcern. This comparison does not itself create, admit, or classify either whole.
-6. Materialize a trigger profile, explanation check, reidentification assertion, or record only when named receiving work must inspect, cite, compare, or preserve that claim.
+6. Materialize a trigger profile, optional explanation-result episteme, reidentification assertion, or record only when a named receiving use must inspect, cite, compare, or preserve that claim.
 
-The optional `MHTTriggerProfile`, `ExistingWholeExplanationCheck`, and `HolonReidentificationRecord` below are ordinary C.2.1 epistemes. Their content can designate exact wholes, facts, claims, and relation occurrences; the content fields are not world-side participants and supply no substitute for the preceding move.
+The optional `MHTTriggerProfile`, `ExistingWholeExplanationResult`, and `HolonReidentificationRecord` are ordinary C.2.1 epistemes. Their content can designate exact wholes, facts, claims, and relation occurrences; the content fields are not world-side participants and supply no substitute for the preceding move.
 
 #### B.2:4.1 - MHTTriggerProfile
 
@@ -77,32 +77,33 @@ The optional `MHTTriggerProfile`, `ExistingWholeExplanationCheck`, and `HolonRei
 
 The profile's effective `U.ReferenceScheme`, any current `U.ClaimScope`, and an independently selected model-use structure can qualify this episteme under C.2.1 when its receiving use needs them. They do not identify either whole, become MHT trigger facts, or make any referenced relation obtain. A single cue warrants attention; it does not establish whole reidentification.
 
-#### B.2:4.2 - ExistingWholeExplanationCheck
+#### B.2:4.2 - Existing-whole comparison and optional result
 
-`ExistingWholeExplanationCheck` is a `U.Episteme` whose EntityOfConcern is the same existing whole. It compares the observed change claim with direct explanations that preserve that whole.
+First perform an ordinary comparison: compare the observed change with direct explanations that preserve the existing whole. Consider better parts, corrected relations, improved measurement, method or Work repair, richer phase coverage, capability change, and architecture-view repair only when their direct patterns make those explanations current. If one explanation is sufficient for the receiving use, keep the existing whole, use that subject pattern, and stop B.2.
+
+When another use must inspect or cite the outcome, identify an optional `ExistingWholeExplanationResult` episteme whose EntityOfConcern is the existing whole:
 
 | Content field | Value kind and use |
-|---|---|
+| --- | --- |
 | `observedChangeClaimRef` | `U.EpistemeRef` resolving to the exact observed-gain or observed-shift claim. |
-| `candidateExplanationClaimRefs[]` | References to claims about better parts, corrected relations, measurement, source quality, method, work, temporal coverage, architecture view, capability, or functioning; each claim names its direct EntityOfConcern and subject pattern. |
-| `explanationEvidenceRelationRefs[]` | References to the exact evidence relation occurrences supporting or defeating those explanations. |
-| `existingWholeSufficiencyVerdictRef` | `U.EpistemeRef` resolving to the evaluation claim that the existing whole is or is not sufficient for the receiving use. |
-| `remainingWholeReidentificationQuestionRef?` | `U.EpistemeRef` resolving to the residual question when the verdict is not sufficient. |
+| `candidateExplanationClaimRefs[]` | Exact claims under their direct subject patterns. |
+| `explanationEvidenceRelationRefs[]` | Evidence relations actually used to assess those explanations. |
+| `existingWholeSufficiencyVerdict` | `sufficient | insufficient | unknown` for the named receiving use. |
+| `remainingWholeReidentificationQuestionRef?` | The exact residual question when the result is `insufficient` or `unknown`. |
 
-If the existing-whole verdict is sufficient, stop B.2 and use the subject pattern named by the selected explanation claim. The checklist does not perform the repair and its content fields do not create the referenced claims or relations.
+The comparison is an action a practitioner performs. The optional result records its claim-bearing outcome. Neither is a reusable checklist or Method unless an independent receiving use later requires and defines such an object. The episteme creates none of its referenced claims or relations.
 
 #### B.2:4.3 - HolonReidentificationRecord
-
-`HolonReidentificationRecord` is an optional `U.Episteme` whose EntityOfConcern is the exact new holon. Use it only when receiving work needs a durable account of why that new holon, rather than the prior whole, is the current EntityOfConcern. Candidate classification remains a separately governed judgment.
+`HolonReidentificationRecord` is an optional `U.Episteme` whose EntityOfConcern is the exact new holon. Use it only when a person or system performing later work needs a durable account of why that new holon, rather than the prior whole, is the current EntityOfConcern. Candidate classification remains a separately governed judgment.
 
 | Content field | Value kind and use |
 |---|---|
 | `existingWholeRef` | `U.HolonRef` resolving to the exact prior whole already recognized under an admitted holon kind. |
 | `selectedTriggerProfileRef` | `U.EpistemeRef` resolving to the selected `MHTTriggerProfile`. |
-| `existingWholeExplanationCheckRef` | `U.EpistemeRef` resolving to the completed check. |
+| `existingWholeExplanationResultRef?` | `U.EpistemeRef` resolving to the optional `ExistingWholeExplanationResult`; omit it when the ordinary comparison sentence is enough. |
 | `resultHolonRef` | `U.HolonRef` resolving to the exact candidate new whole. |
 | `resultHolonKindRef` | `U.KindRef` resolving to its exact admitted holon kind. |
-| `resultHolonClassificationAssertionRef?` | `U.EpistemeRef` resolving, only when downstream work must inspect or cite the judgment, to a C.2.1 assertion that the candidate new whole satisfies the A.1 criterion under the stated admitted holon kind. |
+| `resultHolonClassificationAssertionRef?` | `U.EpistemeRef` resolving, only when a person or system performing later work must inspect or cite the judgment, to a C.2.1 assertion that the candidate new whole satisfies the A.1 criterion under the stated admitted holon kind. |
 | `wholeReidentificationClaimRef` | `U.EpistemeRef` resolving to the claim that the candidate new whole, rather than the prior whole, now carries the subject claim. |
 | `changedClaimPatternLocators[]` | `U.EpistemeRef` values resolving to the direct patterns for each changed claim used in the rationale. |
 | `evidenceRelationRefs[]` | References to exact evidence relation occurrences supporting the reidentification claim. |
@@ -115,7 +116,7 @@ The record does not make the A.1 criterion true, admit a public kind, or create 
 
 Use one `resultHolonRef : U.HolonRef` for the candidate new whole and one `resultHolonKindRef : U.KindRef` for its kind. `E.24.UK` must already have admitted that public kind, and the candidate new whole must satisfy the A.1 constructive criterion plus any kind-specific membership condition. Neither the references nor the record establish those facts.
 
-When downstream work must inspect or cite the classification judgment, add the optional `resultHolonClassificationAssertionRef`. That C.2.1 assertion may report a governed evaluation of `true`, `false`, or `unknown`; its evidence, warrant, and G.11 currentness stay separate from world-side criterion satisfaction. B.2 still asks a different question: whether the existing whole can continue to carry the subject claim or a new whole must be identified.
+When a person or system performing downstream work must inspect or cite the classification judgment, add the optional `resultHolonClassificationAssertionRef`. That C.2.1 assertion may report a governed evaluation of `true`, `false`, or `unknown`; its evidence, warrant, and G.11 currentness stay separate from world-side criterion satisfaction. B.2 still asks a different question: whether the existing whole can continue to carry the subject claim or a new whole must be identified.
 
 Do not use `post*` field names as live governed names. They hide the candidate new whole and its kind and invite temporal shorthand. Name that whole and its admitted public kind; cite a classification assertion only when the receiving use needs that episteme.
 
@@ -137,7 +138,7 @@ Use `A.12` for acting-side externalization, `A.3.4` for bounded transformation, 
 
 Graph, algebra, RG-like, MSPD, benchmark, scaling, and morphism language can bear on MHT recognition only as mathematical or analytical expression.
 
-Use `C.29` when the mathematical lens is relied on for the current claim. Use B.2 only after the holon identity claim is recovered and the existing-whole explanation check leaves a whole-reidentification question.
+Use `C.29` when the mathematical lens is relied on for the current claim. Use B.2 only after the holon identity claim is recovered and the ordinary existing-whole comparison leaves a whole-reidentification question.
 
 #### B.2:4.8 - Keep Whole Identity, Evidence, Currentness, And Reliance Separate
 
@@ -147,7 +148,7 @@ Keep five results apart:
 - a B.2 whole-reidentification assertion is a C.2.1 episteme about those objects;
 - evidence and assurance relations support or warrant the assertion's claim content but create neither whole and decide neither identity rule;
 - use G.11 to determine whether the selected assertion or record edition is current for the receiving use;
-- receiving work decides whether to rely, decline to rely, defer, or reopen.
+- a person or system performing the receiving work decides whether to rely, decline to rely, defer, or reopen.
 
-Evidence present or missing, and a current or stale record, can change what an evaluation returns and whether receiving work relies. They cannot turn the same whole into a new whole or a new whole into the same one. Whether the existing whole continues or a new whole must be identified follows the direct identity and reidentification rules plus the actual construction facts. A.1 recognition of either candidate supplies no B.2 warrant and does not select B.2.
+Evidence present or missing, and a current or stale record, can change what an evaluation returns and whether a person or system relies while performing receiving work. They cannot turn the same whole into a new whole or a new whole into the same one. Whether the existing whole continues or a new whole must be identified follows the direct identity and reidentification rules plus the actual construction facts. A.1 recognition of either candidate supplies no B.2 warrant and does not select B.2.
 

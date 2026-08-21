@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__014_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:12 — Relations"
-line_start: 61095
-line_end: 61107
+line_start: 58258
+line_end: 58268
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,14 +50,12 @@ keywords:
 
 ### C.30.STRAT:12 - Relations
 
-- `E.10` catches the trigger and selects this pattern only when stratification or architecture-operation source-label recovery is needed.
-- `E.10.ARCH` supplies the recovery architecture, placement rule, and anti-fanout discipline.
-- `C.30.P` remains the broader architecture and structure wording repair. `C.30.STRAT` is the narrower stratification source-label realization when those labels recur with a stable recovery shape.
-- `A.6.M` governs only recovered module-interface relation and interface-specification cases.
-- Use `C.30.LCA` only for recovered control-structure view cases with control relations and participant meanings, rate bands, control-layer labels, and bounded context.
-- `C.31` and `C.31.RSA` govern only recovered characteristic, reusable-locus, bespoke-residue, `accountingBasisRef`, or report-only share cases.
-- `C.33`, `C.34`, and `C.35` carry recovered source-label cases when the label is used for architecture-specific captured structure, lost structure, preserved structure, lost structure in a preservation claim, generated carrier adequacy, or discovered carrier adequacy. `C.30.STRAT` only recovers the source label and receiving subject pattern.
-- `C.2.P`, `E.17`, `A.6.F`, `E.18`, `C.30.TFS-REL`, `C.16.P`, `A.19.SPR`, `C.29`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `A.2`, `G.5`, and `C.11` carry their recovered cases when the case is named by value.
+- E.10 catches the wording trigger; E.10.ARCH supplies the author-facing recovery architecture and anti-fanout rule.
+- C.30.P is the broader architecture and structure wording repair; C.30.STRAT is the narrow recurring source-label case.
+- Use A.22, C.30, C.30.ASV, C.30.LCA, C.30.TFS-REL, or C.30.ILC only for the selected structure, architecture relation, view, control, flow, or conflict question each pattern defines or tests.
+- Use A.6.M for recovered module and interface relations; A.6.F for recovered function claims; E.18 for graph, path, crossing, and transformation-flow claims; C.16.P, C.16, C.29, C.31, or C.31.RSA for recovered characteristic, scale, mathematical-lens, reusable-locus, bespoke-residue, or report-only-share claims.
+- Use C.2.P and E.17 for source and publication relations; A.19.SPR, A.3.3, C.27.TA, and C.27 for state, dynamics, temporal, and rate claims; C.28 for causal use; A.10 and G.6 for evidence; B.3 for assurance; A.20 and A.21 for constraint validity and gates; A.15 for Work; A.2 for system-role kinds; G.5 and C.11 for selection and decision.
+- C.33, C.34, and C.35 handle captured, lost, preserved, generated-carrier, or discovered-carrier structure when those claims are current.
 
-Neighboring claims stay with their subject patterns: `A.22` for selected-structure EntityOfConcern, `C.30` for grounded architecture and selected-structure adequacy, `C.30.P` for architecture and structure precision restoration, `C.30.ASV` for structural-view adequacy, `C.30.LCA` for control-structure view adequacy, `A.6.M` for module-interface repair, `A.6.F` for function-use repair, `E.18` for graph, path, crossing, and flow-valuation discipline, `C.16` for characterization, `C.29` for mathematical-lens use, `C.2.P` for source and publication relation repair, and the non-source-label subject patterns named in `C.30.STRAT:4.2`. `C.30.STRAT` governs stratification wording and architecture-operation source-label repair only.
+C.30.STRAT stops after repairing the source label and naming the next useful action. It creates none of the recovered objects or claims and carries no duplicate version of their rules.
 

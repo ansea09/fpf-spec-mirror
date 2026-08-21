@@ -6,12 +6,12 @@ section_id: "A.15.5:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:5 — Archetypal Grounding - Worked Slices"
-line_start: 26067
-line_end: 26096
+line_start: 25511
+line_end: 25540
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,9 +49,9 @@ keywords:
 
 #### A.15.5:5.1 - Fixture deformation test
 
-**Situation.** An accepted cooling-fixture ProblemCard has been carried through E.18.1 into `WorkPlan-LAB-043 : U.WorkPlan`; that P2W carry-through creates neither readiness nor target Work. Its `PlanItem-TEST-043` designates possible future performance `planned-fixture-deformation-test-043`, classifies the intended work as fixture-deformation testing under the plan's current scheme, selects `FixtureDeformationTestMethod-E2 : U.Method`, and relies on `FixtureDeformationTestProcedure-E5 : U.MethodDescription` only for the setup limits stated in that edition. The plan also carries specimen and instrument choices through `SlotFillingsPlanItem-SFI-043`, planned resource reservation `FixtureBayReservation-043`, and intended technician-role conditions. None is target test Work.
+**Situation.** An accepted cooling-fixture ProblemCard has been carried through E.18.1 into `WorkPlan-LAB-043 : U.WorkPlan`; that P2W carry-through creates neither readiness nor target Work. Its `PlanItem-TEST-043` designates possible future performance `planned-fixture-deformation-test-043`, classifies the intended work as fixture-deformation testing under the plan's current scheme, selects `FixtureDeformationTestMethod-E2 : U.Method`, and relies on `FixtureDeformationTestProcedure-E5 : U.MethodDescription` only for the setup limits stated in that edition. The plan also carries declaration-local planned-filling rows `SFI-043` for specimen and instrument choices, planned resource reservation `FixtureBayReservation-043`, and intended performer-system and `FixtureTestTechnicianSystemRole` conditions. The rows have no identity outside this WorkPlan. None is target test Work.
 
-`FixtureTestEntryCriterion-E2` requires, for the proposed start window, a resolved specimen identity, current heat-flow invariant claim, current boundary-condition plan, current sensor-calibration result, selected fixture-drawing edition, resource-availability claim, and an obtaining technician assignment that will cover the intended window. The A.15.3 rows preserve only the planned specimen and instrument choices; the calibration result, its A.10 evidence-provenance path and separate currentness result, and the E.17 drawing-edition publication use remain separately governed inputs. The criterion returns `notReady` when an explicitly required input is determined expired or unresolved; unavailable facts return `unknown`. Any input revision, assignment gap, resource loss, or start-window change ends reliance and requires recheck.
+`FixtureTestEntryCriterion-E2` requires, for the proposed start window, a resolved specimen identity, heat-flow invariant claim, boundary-condition plan, sensor-calibration result, selected fixture-drawing edition, resource-availability claim, and fixture-test-technician assignment, all current for this use. The assignment basis is explicit once: `FixtureTestTechnicianAssignment` is a directly declared `U.SystemRoleAssignment` species. It defines the holder and assigned-kind positions, uses `FixtureTestSystemRoleKindDomain`, requires `FixtureTestTechnicianSystemRole`, and applies to this laboratory test. Its obtaining occurrence `FixtureTestTechnicianAssignment-043` has `FixtureTechnicianSystem-043` as holder and covers the proposed start window. The A.15.3 rows preserve only the planned specimen and instrument choices. The calibration result, its A.10 evidence path and currentness result, and the E.17 drawing-edition publication use remain separate inputs. The criterion returns `notReady` when a required input is known to be expired or unresolved; unavailable facts return `unknown`. Any input revision, assignment gap, resource loss, or start-window change ends reliance and requires recheck.
 
 `CalibrationCurrentnessCheck-043 : U.Work` was performed by `LabMetrologySystem-2 : U.System` under obtaining `RA-LabMetrology-2-E7`, enacted `CalibrationCurrentnessCheckMethod-E1`, and determined that the cited sensor-calibration result expired before the proposed start. Separately, `FixtureEntryReadinessCheck-043 : U.Work` was performed by `LabOperationsCoordinatorSystem-1 : U.System` under obtaining `RA-LabOperationsCoordinator-1-E4`, enacted `FixtureEntryReadinessEvaluationMethod-E2`, and applied the criterion to the exact plan inputs.
 
@@ -63,7 +63,7 @@ The C.2.1 episteme `FixtureTestEntryReadinessResult-E1`, whose exact EntityOfCon
 
 Situation: an assisting agent can run a reversible documentation probe to find source-currentness gaps.
 
-For the probe itself, apply one exact readiness criterion to its WorkPlan and PlanItem and return the local readiness value with its relied-on inputs, window, and recheck condition. If the probe is actually run, identify that dated occurrence as `U.Work` under `A.15.1`, with its performer system, obtaining role assignment, enacted method, extent, and actual bindings; then run a separate readiness check for the target repair. The probe plan, probe readiness result, performed probe, and target-repair readiness result are four distinct claims.
+For the probe itself, apply one exact readiness criterion to its WorkPlan, using the designated declaration-local PlanItem content that the criterion needs, and return the local readiness value with its relied-on inputs, window, and recheck condition. If the probe is actually run, identify that dated occurrence as `U.Work` under `A.15.1`, with its performer System, an obtaining occurrence of an exact directly declared `U.SystemRoleAssignment` species, F.6 attribution, enacted Method, extent, and actual bindings; then run a separate readiness check for the target repair. The probe plan, probe readiness result, performed probe, and target-repair readiness result are four distinct claims.
 
 #### A.15.5:5.3 - Release screen with separate readiness, gate, and permission windows
 

@@ -6,12 +6,12 @@ section_id: "A.6.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__007_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:6 — Bias-Annotation"
-line_start: 12282
-line_end: 12296
+line_start: 12318
+line_end: 12332
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -48,8 +48,8 @@ keywords:
 - **Arch.** Favors a small declaration core with direct neighboring patterns. Counter-risk: the signature becomes a central container. Mitigation: keep realization, work, evaluation, and publication with their direct patterns.
 - **Onto-Epist.** Favors strict separation of declaration episteme, declared subject, obtaining occurrence, assertion, and representation. Counter-risk: excessive explicitness. Mitigation: stop at the direct assertion unless two named consumers share declaration content or one later claim must distinguish the occurrence.
 - **Prag.** Favors reusable named SlotSpecs and laws. Counter-risk: one-off work becomes formal paperwork. Mitigation: ordinary direct sentences remain sufficient.
-- **Did.** Favors the four content groups and local mantra. Counter-risk: readers mistake the mnemonic order for executable work. Mitigation: A.22.CGUS governs any claimed executable conditional continuation.
-- **Context transport.** A signature's claims mean only what their stated scope and effective reference scheme make them mean. Counter-risk: the same label in another context is treated as equivalent or safely substitutable. Mitigation: before cross-context or cross-scheme reuse, apply F.9 to name the local senses, Bridge kind and direction, declared loss, and admitted use; without that result, do not transport the claim by label alone.
+- **Did.** Favors the four content groups and local mantra. Counter-risk: readers mistake the mnemonic order for executable work. Mitigation: apply A.22.CGUS only to an independently identified structure of potential continuations; actual execution remains a separate Work or Transformation claim.
+- **Context transport.** A signature's claims mean only what their stated scope and effective ReferenceScheme make them mean. Counter-risk: the same label in another context is treated as equivalent or safely substitutable. Mitigation: when a proposed reuse relates two exact F.17 local senses, test the direct F.9 predicate and cite a Bridge only when it obtains; state direction, rule, tolerated loss, and polarity in a separate bounded-use claim. Different contexts or schemes alone establish no Bridge. Without the needed semantic relation and use claim, do not transport the claim by label alone.
 - **Comparability.** Two declarations do not become comparable because both expose numbers. Counter-risk: numeric appearance hides incompatible characteristics, measurement procedures, units, scales, comparators, or normalization. Mitigation: apply the current A.17/A.18/C.16 characteristic, measurement, and unit-and-scale patterns and A.19.CPM/A.19.UNM comparison and normalization patterns as the case requires, then state the resulting comparison boundary; keep their detailed legality and result-shape rules with those subject patterns.
 - **Register.** Begin each technical declaration block and worked case with, or immediately supply, an ordinary sentence naming what the practitioner asserts or does and what visible result follows; then map that sentence to the exact FPF terms. Counter-risk: a technically correct block remains unusable without private decoding. Mitigation: use E.10's Plain-intent step, scan the recovered wording, and rescan every replacement; keep the repair only when the same governed object, subject pattern, admissible use, and practical action remain clear.
 

@@ -6,12 +6,12 @@ section_id: "C.35:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__007_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:6 — Bias-Annotation"
-line_start: 67751
-line_end: 67761
+line_start: 64959
+line_end: 64969
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -61,10 +61,10 @@ keywords:
 
 | Bias | How C.35 counters it |
 | --- | --- |
-| Output authority bias | Require produced carrier, described structure, admission condition, bearer boundary, the next claim plus its required rule, and non-admissible use before any architecture claim relies on the output. |
-| Pareto-point admission bias | Treat a Pareto point, benchmark score, archive member, or search trace as a candidate input cue until selected structures, criteria, constraints, losses, and the concrete candidate-use rule are named. |
+| Output authority bias | Require only the readable minimum before another architecture claim relies on the result: exact result, actual or proposed organization, next-use condition, and forbidden overread or return. Add representation, publication, branch, or other detail only when the use depends on it. |
+| Pareto-point admission bias | Treat a Pareto point, benchmark score, archive member, or search trace as a candidate input cue until its branch-specific basis and the concrete candidate-use rule are named. |
 | Reusable-generator collapse | Keep one-case output admission in C.35; handle reusable-generator, mechanism-suite, model-family, or production-pipeline claims with `E.20`, `G.1`, `G.10`, `G.11`, or another pattern that defines or constrains those claims. |
 | Bearer-free synthesis bias | Require bearer or realization boundary before treating a discovered function, relation, or candidate form as architecturally feasible. |
 | Eval substitution bias | Handle eval programs and eval results under `C.32.ACE`; handle measurement under `C.16`; do not let good eval numbers act as candidate admission or decision authority. |
-| Currentness freeze | Reopen the admission note when source publication edition, source-use record, search space, query rule, validation trace, bearer constraints, realized structure, or eval return changes. |
+| Currentness freeze | Reopen when result identity or claim content, represented object or correspondence, source publication edition or source-use record, search space, query rule, validation trace, bearer constraints, realized structure, or eval return changes. A carrier-only change reopens C.35 only when availability or form changes the intended use. |
 

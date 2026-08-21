@@ -6,24 +6,31 @@ section_id: "C.2.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__004_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:3 — Forces"
-line_start: 43480
-line_end: 43486
+line_start: 42238
+line_end: 42244
 dependencies:
+  - "A.15"
+  - "A.15.1"
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.16.2"
   - "A.18"
+  - "A.3.1"
+  - "A.6.3.RT"
   - "A.6.P"
   - "B.4.1"
   - "B.5.2.0"
+  - "C.16.P"
+  - "C.2.1"
   - "C.2.2a"
   - "C.2.5"
   - "C.2.LS"
+  - "C.2.P.DR"
 keywords:
   - "articulation explicitness"
   - "early repair readiness"
@@ -37,5 +44,5 @@ keywords:
 |---|---|
 | **Early capture vs false precision** | Capture low-articulation cues without pretending they already have stable slots. |
 | **Comparability vs local nuance** | Keep a shared ordinal discipline while allowing context-local threshold declarations. |
-| **Repair readiness vs exploratory openness** | Name when an episteme is ready for `A.6.P` without forcing every cue into late forms. |
+| **Branch readiness vs exploratory openness** | Say when a direct semantic branch can receive the episteme without forcing every cue through relation repair. |
 

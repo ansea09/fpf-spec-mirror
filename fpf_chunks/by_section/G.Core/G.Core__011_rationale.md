@@ -6,12 +6,12 @@ section_id: "G.Core:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__011_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:10 — Rationale"
-line_start: 98519
-line_end: 98522
+line_start: 95728
+line_end: 95731
 dependencies:
   - "A.15.3"
   - "A.19"

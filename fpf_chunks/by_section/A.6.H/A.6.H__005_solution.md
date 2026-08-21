@@ -6,12 +6,12 @@ section_id: "A.6.H:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:4 — Solution"
-line_start: 21107
-line_end: 21220
+line_start: 20640
+line_end: 20753
 dependencies:
   - "A.1"
   - "A.10"
@@ -61,13 +61,13 @@ Enter with:
 - one exact sentence or decision that depends on wholeness-family wording;
 - the concrete candidate objects recovered under A.6.P:4.11;
 - the receiving use that would change if the wording were read differently; and
-- any already known subject pattern.
+- any already known definition, constraint, or test and its PatternID locator when that reference must travel.
 
 Return one of:
 
-1. one or more readable direct claims, each naming the predicate or claim family, ordered participants, material qualification, and subject pattern;
-2. an explicit subject-pattern return when a measurement, evidence-use, episteme, publication, Method, plan, Work, production, or completion pattern already defines or tests the question; or
-3. an A.6.RCD `missing-governor[...]` result after the exact participants and needed sentence are known but no current direct predicate closes the use.
+1. one or more readable direct claims, each naming the predicate or claim family, ordered participants, material qualification, and the PatternID locator when its defining or testing content must be cited;
+2. one concrete next action for a still-current measurement, evidence-use, episteme, publication, Method, plan, Work, production, or completion question: apply the named rule when its entry holds, or stop when no such question remains; or
+3. an A.6.RCD `missing-governor[...]` result naming the exact participants, proposed predicate, affected use, and absent definition, applicability, or occurrence-identity rule. Name a future pattern or declaration need only when one is actually identifiable.
 
 When evidence cannot yet select among several readings, keep the candidate objects, discriminating questions, and blocked receiving use explicit in ordinary prose. Do not turn that temporary uncertainty into a `wholenessSituation`, card, bundle, lifecycle record, or new U-kind.
 
@@ -78,12 +78,12 @@ Use the following sequence only as far as the current sentence requires:
 1. **Recover the working question.** State what a reader must decide, do, accept, measure, rely on, start, continue, or stop. The cue word selects no branch.
 2. **Name the subject and reference level.** Distinguish the referent entity, claim-bearing episteme, publication occurrence, publication form, presentation carrier, Method, MethodDescription, WorkPlan, performed Work, and evidence carrier. Keep only the subjects current in this case.
 3. **Recover a candidate whole only for an actual whole claim.** Identify the candidate individual, its direct identity pattern, relevant boundary or delimitation, environment, and at least one interaction, dependency, or constraint across that boundary when the use needs it.
-4. **Identify the alleged parts independently.** A label, location, list, graph node, file section, timestamp, or common name does not identify a part. Recover each component, constituent, member, portion, temporal restriction, Method factor, Work part, or other object under its own subject pattern.
+4. **Identify the alleged parts independently.** A label, location, list, graph node, file section, timestamp, or common name does not identify a part. Recover each component, constituent, member, portion, temporal restriction, Method factor, Work part, or other object using the rule that defines or tests that claim.
 5. **State every direct relation occurrence separately.** Name exact participants and test the direct predicate. A relation obtains neither because the whole was recognized nor because a trace, view, or record lists it.
 6. **Add construction or selected structure only when the receiving use consumes it.** `C.13` may report already recovered parts, relations, constraints, and a construction rule. `A.22` may identify one selected structure when its selection basis and identity discriminators are current. Neither creates the direct facts.
 7. **Recognize or reidentify the whole only when that question is current.** Use `A.1` for holon recognition and `B.2` for a remaining whole-reidentification question after direct existing-whole explanations have been tested. A changed adjective or part list alone decides neither.
-8. **Separate coverage, completion, and performed Work.** Name what is covered, under which scope and criterion, by which exact relation, and whether the claim concerns a MethodDescription, capability, plan, Work occurrence, production result, evidence set, or another subject. Use A.15.1/A.15.PROD or the exact subject pattern; do not treat a plan as performed Work.
-9. **Stop after unpacking.** Use A.6.H to unpack the overloaded wholeness wording, then take each recovered whole, relation, characteristic, Work, evidence, or verdict to its applicable pattern.
+8. **Separate coverage, completion, and performed Work.** Name what is covered, under which scope and criterion, by which exact relation, and whether the claim concerns a MethodDescription, capability, plan, Work occurrence, production result, evidence set, or another subject. Apply A.15.1/A.15.PROD or the rule for that exact subject; do not treat a plan as performed Work.
+9. **Stop after unpacking.** State each recovered whole, relation, characteristic, Work, evidence use, or verdict directly. Apply another named rule only when one exact question remains and its entry holds; otherwise stop with the completed claims or exact blocker.
 
 #### A.6.H:4.3 - Classify `integrity` by the claim it carries
 
@@ -138,18 +138,18 @@ The following recurring expressions are useful review cues, not a second trigger
 - *collection*, *group*, *team*, *set* — distinguish membership, acting system, system-role assignments, and selected collection structure;
 - *context*, *environment*, *discipline as a whole* — name the actual bounded context, episteme family, community, organization, or other subject before making a boundary or nesting claim.
 
-When a cue occurs inside a defined term of art, retain the definition and subject pattern. Open A.6.H only if the sentence also makes an unresolved whole, part, structure, coverage, or completion claim.
+When a cue occurs inside a defined term of art, retain the definition and its PatternID locator when needed. Open A.6.H only if the sentence also makes an unresolved whole, part, structure, coverage, or completion claim.
 
 #### A.6.H:4.7 - Describe change through the object that changed
 
 When a wholeness-looking story changes, name the exact object and direct relation:
 
-- a different boundary or interaction claim returns to the boundary or delimitation pattern;
-- an added, removed, or differently related part returns to the direct parthood, membership, portion, or structure pattern;
-- changed episteme content, EntityOfConcern, or effective ReferenceScheme identifies another episteme under C.2.1, with edition continuity tested separately;
-- a different publication form, occurrence, or carrier stays with publication and carrier patterns;
-- a changed Method, MethodDescription, WorkPlan, Work history, production result, or completion claim stays with its own subject pattern;
-- a changed coverage scope, criterion, evidence set, or assurance use repairs that direct claim rather than a generic completeness status.
+- for a different boundary or interaction claim, state the changed object and apply the applicable boundary or delimitation rule;
+- for an added, removed, or differently related part, test the exact parthood, membership, portion, or selected-structure claim;
+- for changed episteme content, EntityOfConcern, or effective ReferenceScheme, compare C.2.1 identity and test edition continuity separately;
+- for a different publication form, occurrence, or carrier, state that publication or carrier claim and apply its rule;
+- for a changed Method, MethodDescription, WorkPlan, Work history, production result, or completion claim, state that object and apply its rule;
+- for a changed coverage scope, criterion, evidence set, or assurance use, repair that direct claim rather than inventing a generic completeness status.
 
 Do not substitute a generic change lexicon for those objects and predicates. A readable verb is welcome when the exact direct claim remains recoverable.
 

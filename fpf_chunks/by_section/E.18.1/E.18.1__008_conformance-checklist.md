@@ -6,12 +6,12 @@ section_id: "E.18.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__008_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:7 — Conformance Checklist"
-line_start: 84744
-line_end: 84770
+line_start: 82055
+line_end: 82081
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -72,7 +72,7 @@ keywords:
 - `CC-E18.1-13` Every materialized replay identifies the changed value, occurrence, assertion, or description; its kind and `changedValuePatternRef`; what still carries and what no longer carries; the smallest reopened continuation; any current `G.11` currentness line; and `nextApplicablePatternRef`. If the changed object is relation-bearing, the cited result—not a P2W copy—retains its kind, participants, obtaining or claim basis, occurrence-identity rule, and any receiver-conditioned `RelationSignature` or typed SlotSpecs.
 - `CC-E18.1-14` When a generated DPF seed or cheap framework seed enters P2W, the record names the `G.2` source-use record, selected source `U.Episteme` reference, exact `EpistemePublicationRelation` occurrence reference when availability is material, source-pack cue, or source-pack return when that source use is current; the problem-side cue when that is current; the next concrete claim or relation-specific question, including its participants when a relation is asserted; the next applicable pattern selected from the canonical Relations map; and the stop condition that prevents the seed from becoming public authority by generation alone.
 - `CC-E18.1-15` An actual-transformation continuation carries only an exact current value or blocker returned by `A.3.4`; E.18.1 does not reconstruct the occurrence basis or infer actuality or composition from a method, plan, model, description, flow position, adjacency, shared work, or common referent.
-- `CC-E18.1-16` A work-to-change continuation carries a named subject predicate with its actual `U.Work` and `U.Transformation` participants, a positive `A.6.RCD` disposition-2 local compound claim over independently established base facts, or one exact A.6.RCD result: `missing-governor` for an absent predicate or applicable constructor rule, `factually unsupported` when the governor exists and the available case basis is sufficient to apply the positive test but that test fails, and `missing-information` when a fact needed to decide the test is unavailable. A negative additionally needs an applicable non-obtaining criterion or complete closure basis and satisfying facts. The BuildOps and current Pump 14 replays supply positive branches; Pump 14 also preserves the explicitly earlier `missing-governor` stage in a case record that lacks `P14-REL-2026`. A production continuation separately carries only the local result or blocker returned by `A.15.PROD`. E.18.1 reproduces none of those patterns' internal criteria.
+- `CC-E18.1-16` A work-to-change continuation cites the exact positive or negative claim or blocker already returned by the named subject predicate's defining pattern or the applicable `A.6.RCD` route. It keeps the actual `U.Work` and `U.Transformation` references when they are part of that result, but does not reconstruct occurrence proof, predicate tests, failure classification, or negative-claim closure. The BuildOps and Pump 14 slices show positive carry-through; Pump 14 also preserves the earlier `missing-governor` stop. A production continuation likewise carries only the result or blocker returned by `A.15.PROD`.
 - `CC-E18.1-17` A PatternID reference, selected or recommended continuation, imperative wording, intended realization, plan seed, graph or filled table admits no `U.MethodDescription`. Membership exists only for an independently identified C.2.1 episteme whose exact EntityOfConcern is one admitted `U.Method` and whose ClaimContent contains at least one substantive way-of-doing claim.
 - `CC-E18.1-18` *Move* remains Plain wording for the exact current object or use action. Proposed or chosen work remains distinct from dated performed Work; no universal Move kind, record or relation is introduced, and wording performs nothing.
 - `CC-E18.1-19` The local mantra is the compact formula in `4`, answers one stated decision, maps every term to independently identified values, has the filled cooling use, and stops at the applicable neighboring pattern. It is not the five-row display, a Method, MethodDescription, plan, Work, CGUS or structure identity.

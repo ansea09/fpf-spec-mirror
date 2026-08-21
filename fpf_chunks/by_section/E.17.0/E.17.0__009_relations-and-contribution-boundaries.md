@@ -6,12 +6,12 @@ section_id: "E.17.0:8"
 section_title: "Relations and contribution boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__009_relations-and-contribution-boundaries.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:8 — Relations and contribution boundaries"
-line_start: 79991
-line_end: 80006
+line_start: 77359
+line_end: 77374
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -36,7 +36,7 @@ keywords:
 - **C.3.2** admits the two optional local explicit-result ValueKinds and any exact local target or stakeholder KindSignature; their values do not determine direct judgments.
 - Use **A.22** to select `S_viewpoint` only when separately versioned convention organization changes a named action, and to select any separately current multi-view structure. E.17.0 supplies Q and candidate relation occurrences for that branch; no pattern or episteme acts.
 - **A.6.3** defines optional source-to-receiving viewing construction, including identity viewing; it does not define view membership.
-- **E.10.D2** defines Description epistemes and specification-use qualification; a describing-use viewpoint selection does not establish conformance.
+- **E.10.D2** defines description epistemes and specification use. A describing use is always named; it selects a viewpoint only when that choice changes reading, checking, or a permitted conclusion. Selection does not establish conformance.
 - **F.18** supplies the two relation-kind NameCards; naming metadata neither defines relation semantics nor grants admission. **F.9** applies only when an exact relation between distinct F.17 `SchemeSenseCell` values obtains.
 - **E.17.1** defines exact catalogue epistemes and local family declarations whose members are exact `U.ViewpointRef` values. **E.17.2** supplies the four-position project-local engineering viewpoint authoring template and, only after local materialization, its four exact bindings. A declaration, template position, or reference grants no viewpoint or view membership.
 - **E.24.UK** admits dependent `U.Viewpoint` and `U.View` once for public use; E.17.0 supplies their stable positive membership predicates.

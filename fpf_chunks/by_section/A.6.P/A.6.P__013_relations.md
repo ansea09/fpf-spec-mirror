@@ -6,12 +6,12 @@ section_id: "A.6.P:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__013_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:12 — Relations"
-line_start: 16183
-line_end: 16198
+line_start: 15939
+line_end: 15954
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -41,7 +41,7 @@ keywords:
 - The direct relation pattern defines or constrains obtaining, predicate satisfaction, and the occurrence-identity rule. After A.6.P recovers that relation, `A.6.REL` governs demand-driven explicit individuation, application of that identity rule, and occurrence-as-participant use.
 - `A.6.0` governs `U.Signature` and compatible `RelationSignature` declarations; `A.6.5` governs declaration-local `SlotSpec`, `SlotKind`, participant `ValueKind`, and receiving-episteme designation mode.
 - Use `A.6.RSIR` to distinguish direct participation, declaration, operation, assertion or description, and representation when interface, role, slot, field, parameter, or endpoint wording is the entry cue.
-- `A.6.B` separates L, A, D, and E claims after the direct relation is recovered. When the next task explicitly needs an operation on an episteme or representation, identify its input and output independently under `C.2.1`. Use `A.6.3` when its compatible EntityOfConcern-preserving viewing or construction conditions hold, `A.6.2` when its effect-free morphing entry and laws hold, and `A.6.4` when its retargeting bridge, invariant, loss, admissibility, and witness conditions hold. If the selected pattern lacks an actual entry or result condition for the case, stop with the explicit `unsupported-operation` result and name the missing condition. Use `A.15.1` for actual authoring, materialisation, checking, or publication Work, and assert an edition or successor relation only after its own predicate is satisfied. Ordinary A.6.P repair stops before these objects.
+- `A.6.B` separates L, A, D, and E claims after the direct relation is recovered. When the next task needs a relation between epistemes or an operation that produces a receiving episteme, identify both endpoints independently under `C.2.1`. Use `A.6.3` for its compatible same-EntityOfConcern construction, `A.6.2` for its local effect-free arrow, and `A.6.4` for an exact different-EntityOfConcern arrow `r` plus a separate use assertion `q`. If the selected pattern lacks an entry or result condition for the case, stop explicitly and name the missing arrow, use-claim, or application condition. Use `A.15.1` for actual authoring, materialisation, checking, or publication Work; keep the arrow, assertion, application, and Work distinct; and assert an edition or successor relation only after its own predicate is satisfied. Ordinary A.6.P repair stops before these objects.
 - `A.6.6` provides specialized recovery for basedness. Service/access wording stays in A.6.P:4.11a until the exact predicate is recovered; cite the pattern that states it when the reference must travel. A.1.SCR applies only after one exact bearer or arrangement claim has been recovered and the decision depends on systemhood; A.1.STM applies only after recovery when the separate question is contribution to use of a named project system-of-interest. Cross-context and whole-part wording may use `A.6.9` or `A.6.H` only when that pattern's entry accepts the objects named in 4.11 and its result states the direct predicate and participants or an explicit blocker. If either check fails, keep the 4.11 blocker and name the missing predicate or unmet entry condition. A situation record, Card, or bundle does not replace the direct relation, claim-bearing episteme, or representation.
 - `A.6.P.WMR` defines the method, work, result, production, delivery, acceptance, transfer, and receiving-use boundary and the four result families listed in 4.11.
 - Use `A.6.RCD` after the reader can name the participants and the sentence the next task needs, but no current pattern supplies its predicate. Broad wording alone is not a `missing-governor` result.

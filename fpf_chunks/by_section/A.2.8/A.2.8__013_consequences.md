@@ -6,12 +6,12 @@ section_id: "A.2.8:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__013_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:10 — Consequences"
-line_start: 6655
-line_end: 6670
+line_start: 6689
+line_end: 6704
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,5 +53,5 @@ keywords:
 
 - A positive individual-duty claim needs more than a policy sentence. This is the necessary cost of claiming a world-side relation; generic policy content remains cheap to state.
 - Domains with another instituting basis need the pattern that defines that basis. Until then, `missing-governor` is an honest usable result.
-- Conflict resolution remains outside this pattern; record the current relations and use the applicable governance or decision pattern.
+- Conflict resolution remains outside this pattern. Preserve each current commitment plus the exact source, independently obtaining authority relation, and selecting rule required by the named conflict or choice use; apply D.3/D.4 for an interlevel ethical conflict, C.11 for an explicit choice among available options, or return `missing-governor[commitment conflict resolution]` when no direct result rule exists.
 

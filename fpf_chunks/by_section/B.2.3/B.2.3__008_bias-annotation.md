@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "B.2.3"
 pattern_title: "Meta-Holon Transition With Episteme Result"
-section_id: "B.2.3:5.1"
+section_id: "B.2.3:5.4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__008_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
-  - "B.2.3:5.1 — Bias-Annotation"
-line_start: 37931
-line_end: 37940
+  - "B.2.3:5.4 — Bias-Annotation"
+line_start: 37102
+line_end: 37111
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,7 +34,7 @@ dependencies:
 keywords:
 ---
 
-### B.2.3:5.1 - Bias-Annotation
+### B.2.3:5.4 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |

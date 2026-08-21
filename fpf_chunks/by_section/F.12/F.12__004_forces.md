@@ -6,12 +6,12 @@ section_id: "F.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__004_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:3 — Forces"
-line_start: 94245
-line_end: 94253
+line_start: 91636
+line_end: 91644
 dependencies:
   - "A.10"
   - "A.15.1"

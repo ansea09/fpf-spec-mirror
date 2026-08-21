@@ -6,12 +6,12 @@ section_id: "C.3:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__013_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:11 — Consequences"
-line_start: 44658
-line_end: 44665
+line_start: 43441
+line_end: 43448
 dependencies:
   - "A.1"
   - "A.11"
@@ -47,7 +47,7 @@ keywords:
 
 **Benefits.** C.3 supports local typed claims, subkind reasoning, classification, and queryable extensions without premature ontology growth or evidence-created membership.
 
-**Costs.** Repeated uses must pin a declaration edition and context slice, and receiving uses must distinguish `false` from `unknown`.
+**Costs.** Reliance-bearing uses must recover the kind distinction, pin the declaration and slice, check admissibility, and keep `not-applicable`, `false`, and `unknown` distinct.
 
 **Risks avoided.** False sameness, implicit time, scope-on-kind, record ontology, accidental relation minting, kind/individual substitution, and mathematical-set overread are blocked at the first use.
 

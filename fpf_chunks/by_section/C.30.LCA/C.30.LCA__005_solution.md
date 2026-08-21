@@ -6,12 +6,12 @@ section_id: "C.30.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:4 — Solution"
-line_start: 61981
-line_end: 62152
+line_start: 59134
+line_end: 59309
 dependencies:
   - "A.10"
   - "A.20"
@@ -47,7 +47,7 @@ Treat LCA-like source descriptions as possible inputs to a control-structure des
 
 Add participating Systems, local kinds, separate System-classification judgments, assignment species and obtaining occurrences, Methods, and actual Work only when each independently obtains. Use A.22 to identify the selected structure from its constituents, selected obtaining relation occurrences, applied constraint claims, and receiving-use frame; a note, diagram, list, description, kind, or assignment creates none of them. If a source label is not yet control-specific, apply `C.30.STRAT` first. Then state admissible use and the next pattern to use.
 
-The ordinary minimum may stop with a compact `ControlStructureViewNote`:
+When the result must retain boundary, admissible-use, or handoff detail, expand the same `ControlStructureViewNote`:
 
 ```text
 ControlStructureViewNote:
@@ -55,8 +55,10 @@ ControlStructureViewNote:
   architectureClaimRef?: U.EpistemeRef constrained to ArchitectureClaim
   describedHolonRef?: U.HolonRef
   selectedControlStructureRef?:
+  structureGap?:
   controlledHolonRef:
   selectedControlRelationRef:
+  controlRelationParticipantRefs:
   feedbackClosureState: closed | oneWay | unclear
   controlLayerRelationRef?:
   rateBandRef?:
@@ -88,7 +90,7 @@ InterLayerControlRelationNote:
   nonAdmissibleUse:
 ```
 
-Use this note only when a recovered control-layer relation is used for decomposition, substitution, safety or stability claim, or architecture decision claim. It is not proof and does not make the relation obtain. Otherwise keep C.30.LCA at the small note or ordinary description form, or use `C.30.STRAT for the source label`.
+Use this note only when a recovered control-layer relation is used for decomposition, substitution, a safety or stability claim, or an architecture decision. It is not proof and does not make the relation obtain. Otherwise keep C.30.LCA at the small note or ordinary description form, or use `C.30.STRAT` to recover the source label.
 
 ```text
 ControlStructureView ::= ArchitectureDescription & U.View & {
@@ -154,7 +156,9 @@ The full view is the same C.2.1 episteme identified by its exact claim graph, se
 
 `controlledHolonRef` names the holon whose state is observed or changed by independently obtaining control relations and may be the described holon or one of its exact parts. Architecture claims, `ClaimScope`, model-use structure, concern, and empirical grounding remain optional neighboring objects or relations. `modelUseStructureRef` appears only when an independently selected DDD-style bounded-model-use structure changes interpretation or selection.
 
-For every positive control-relation reference, identify the actual occurrence and use the relevant pattern to recover the participant meanings. Any participating System, local kind classification, assignment, Method, Work, and F.6 attribution reference also identifies its own independently admitted fact. A classification or assignment establishes neither control nor action. The description, control note, view record, or diagram creates none of these occurrences and does not act. Representation, publication occurrence, form, and carrier likewise remain separate from the selected structure and view episteme.
+For every positive control-relation reference, identify the actual occurrence and use the relevant pattern to recover what its participants mean. Any participating System, local classification, assignment, Method, Work, or F.6 attribution also identifies its own independently admitted fact. A classification or assignment establishes neither control nor action.
+
+The description, control note, view record, and diagram create none of these occurrences and do not act. Representation, publication occurrence, form, and carrier likewise remain separate from the selected structure and view episteme.
 
 #### C.30.LCA:4.0a - Safety-loss control-structure note
 
@@ -211,5 +215,5 @@ The note gives a positive safety-triggered architecture move: find the loss-cont
 
 **Worked slice C - supervisor-subholon loop.** A subsystem is supervised by an external controller System. The C.30.LCA note records the supervisor-subholon relation and may reference `B.2.5`. If that System performs mode-change Work, name the Work, enacted Method, assignment occurrence and its declared species, and F.6 attribution. Authority, responsibility, gate passage, safety, stability, and policy-constraint results remain separate claims under their own patterns; the supervisor relation establishes none of them.
 
-**Currentness and smallest reopen.** When a decisive input changes, reopen only the control-structure locus and use conclusion that depend on it. A changed selected control structure or controlled holon reopens the affected `ControlStructureViewNote` or full description and view; a changed direct control relation or participant meaning reopens that occurrence and its dependent structure selection; a changed classification, assignment, Method, Work, or F.6 attribution reopens only that neighboring fact and any view use that relied on it. Changed feedback, rate, or control-layer relations reopen only their matching relation or boundary fields; changed view conformance reopens only the E.17.0 admission; and a changed source edition reopens its source-to-use and source-return locus. A changed authority, responsibility, safety, proof, evidence, assurance, or gate claim reopens only that neighboring claim unless a control-structure input also changed. Update the affected locus, demote full view use to a note or orientation, narrow use, or reopen the control-structure question; unrelated structures and claims stay closed.
+**Currentness and smallest reopen.** When a decisive input changes, reopen only the control-structure locus and the use conclusions that depend on it. A changed selected control structure or controlled holon reopens the affected `ControlStructureViewNote` or full description and view; a changed direct control relation or participant meaning reopens that occurrence and its dependent structure selection; a changed classification, assignment, Method, Work, or F.6 attribution reopens only that neighboring fact and any view use that relied on it. Changed feedback, rate, or control-layer relations reopen only their matching relation or boundary fields; changed view conformance reopens only the E.17.0 admission; and a changed source edition reopens its source-to-use and source-return locus. A changed authority, responsibility, safety, proof, evidence, assurance, or gate claim reopens only that neighboring claim unless a control-structure input also changed. Update the affected locus, demote full view use to a note or orientation, narrow use, or reopen the control-structure question; unrelated structures and claims stay closed.
 

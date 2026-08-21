@@ -6,12 +6,12 @@ section_id: "A.6.H:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__006_archetypal-grounding.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:5 — Archetypal Grounding"
-line_start: 21221
-line_end: 21263
+line_start: 20754
+line_end: 20798
 dependencies:
   - "A.1"
   - "A.10"
@@ -74,8 +74,10 @@ The repair produces several claims:
 - the reusable procedure is one exact Method or composite Method under A.3.1/B.1.5, with exact joins and exposed interactions;
 - its procedure document is a separate `U.MethodDescription` episteme under C.2.1/A.3.2;
 - “turnkey” becomes the exact specification, capability, Work, or evidence coverage claim needed by the receiving use;
-- identify the chemist under the admission required by the current claim, then name only the independently obtaining relations and their actual participant meanings: assignment holder, commitment bearer, permission beneficiary, or participant in a direct responsibility relation; none of these relations creates a generic holder, and commitment or permission alone does not admit a System; and
+- treat *owns* as a local wording cue. First state the decision that depends on it and the exact proposed sentence. Candidate readings include, for example, property or title, possession or custody, operational control, decision authority, stewardship or responsibility, assignment, commitment, and permission; they have different participants and predicates. Apply the direct rule when one exists, or return A.6.RCD `missing-governor[...]` naming the participants, proposed predicate, affected use, and absent definition; and
 - an actual laboratory run is dated Work under A.15.1.
+
+Thus “the laboratory owns the instrument,” “the chemist has custody during the run,” “the chemist may authorize disposal,” and “the chemist is responsible for calibration” are four different claims. None follows from team membership, classification, assignment, commitment, or permission merely by form.
 
 No one claim is a component relation merely because the source uses *pipeline* or *whole*.
 

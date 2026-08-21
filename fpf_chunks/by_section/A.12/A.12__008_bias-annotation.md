@@ -6,12 +6,12 @@ section_id: "A.12:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__008_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:5.1 — Bias-Annotation"
-line_start: 23389
-line_end: 23397
+line_start: 22820
+line_end: 22828
 dependencies:
   - "A.1"
   - "A.1.1"

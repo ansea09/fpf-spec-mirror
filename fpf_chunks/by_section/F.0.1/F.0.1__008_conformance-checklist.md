@@ -6,12 +6,12 @@ section_id: "F.0.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__008_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:7 — Conformance Checklist"
-line_start: 90420
-line_end: 90440
+line_start: 87806
+line_end: 87826
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -38,7 +38,7 @@ keywords:
 - **SCR-F03 (Conditional cell).** A `SchemeSenseCell` appears only for a named reuse, claim, receiver, or relation need and keeps ReferenceScheme, LocalExpression, and LocalSenseClaim distinct.
 - **SCR-F04 (Separate support).** A `LocalSenseBasisRelation` is asserted only when current; source identification, reliance, and assurance are not inferred from it.
 - **SCR-F05 (No string identity).** Shared wording, family, score, or row does not establish a relation between local senses.
-- **SCR-F06 (Explicit relation).** Every claimed cross-local relation uses exact F.17 endpoints and the applicable F.9 relation, direction, basis, limits, and use.
+- **SCR-F06 (Explicit relation and use).** Every claimed cross-local relation uses exact F.17 endpoints and the applicable F.9 relation profile. When a receiving use is current, a separate C.2.1 claim names the proposed action, use direction, correspondence rule, tolerated loss, and polarity.
 - **SCR-F07 (Temporal honesty).** Designed descriptions and performed occurrences remain distinct wherever the source fixes that difference.
 - **SCR-F08 (No subject capture).** The local gloss does not redefine the subject's behaviour, deontics, measurement, kind, proof, or work rules.
 

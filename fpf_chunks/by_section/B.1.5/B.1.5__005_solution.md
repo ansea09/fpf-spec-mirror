@@ -6,17 +6,19 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:4 — Solution"
-line_start: 36442
-line_end: 36631
+line_start: 35611
+line_end: 35800
 dependencies:
   - "A.1"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
+  - "A.2"
+  - "A.2.1"
   - "A.22"
   - "A.3.1"
   - "A.3.2"
@@ -38,6 +40,7 @@ dependencies:
   - "E.24"
   - "E.24.PUB"
   - "E.24.UK"
+  - "F.6"
   - "G.5"
   - "U.MethodDescription"
   - "U.PresentationCarrier"
@@ -141,7 +144,7 @@ State each whole-forming fact in ordinary domain language before choosing its re
 
 Then use A.6.RCD. Reuse an existing direct predicate when one already governs the needed claim. Otherwise stop at a local compound claim when it closes this use, or publish a reusable predicate-definition episteme when several uses need the same rule. Continue to a relation-kind candidate only when a named receiver needs stable occurrence semantics that claim content cannot supply; E.24 and E.24.UK decide admission. A label such as `precedesInMethod` is readable claim language, not admission evidence, and an ordinary composition claim needs no invented occurrence.
 
-Keep definition, signature, kind, and edition distinct. A predicate-definition episteme may independently satisfy ordinary A.6.0 `U.Signature` membership. It is not a `RelationSignature`; that specialization opens only for an admitted relation kind. Changed predicate-definition or signature content identifies another episteme under C.2.1. Treat and connect the two epistemes as editions through `EpistemeEditionRelation` only when C.2.1's historical-continuation test passes: an exact system performed revision, refinement, or supersession Work under a Method whose semantics establish continuation, the earlier episteme participated through the exact source-to-revision use, and governed change facts support the claim. Otherwise the later episteme is a non-continuing replacement. The changed content triggers review of dependent claims; it does not by itself prove another relation kind or relation occurrence. If a relation kind is independently admitted, its direct pattern or declaration defines applicability and occurrence identity, while current case facts establish obtaining, continuation, or cessation where relevant.
+Keep definition, signature, kind, and edition distinct. A predicate-definition episteme may independently satisfy ordinary A.6.0 `U.Signature` membership. It is not a `RelationSignature`; that specialization opens only for an admitted relation kind. Changed predicate-definition or signature content identifies another episteme under C.2.1. Treat and connect the two epistemes as editions through `EpistemeEditionRelation` only when C.2.1's historical-continuation test passes: exact source use and the applicable continuation rule identify which claim, EntityOfConcern, and scheme features must be preserved or may deliberately change, and the current facts satisfy that rule. Revision or supersession Work, Method, provenance, and change facts are evidence for this test; no label establishes continuity. Otherwise the later episteme is a non-continuing replacement. The changed content triggers review of dependent claims; it does not by itself prove another relation kind or relation occurrence. If a relation kind is independently admitted, its direct pattern or declaration defines applicability and occurrence identity, while current case facts establish obtaining, continuation, or cessation where relevant.
 
 When several admitted order occurrences must be reviewed together, use B.1.4's `OrderSpec`, exact ordered-relation designations, and join or independence conditions in a separate bounded-use aggregation record. The record and optional `Gamma_ctx` notation neither participate in Method identity nor make any relation obtain. When the order statements remain local claims rather than admitted relation occurrences, compare those claim contents directly and do not pretend that an `OrderSpec` has occurrences to aggregate.
 

@@ -6,12 +6,12 @@ section_id: "E.8:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__012_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:7 — Conformance Checklist"
-line_start: 72595
-line_end: 72634
+line_start: 69896
+line_end: 69935
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -71,8 +71,8 @@ Conformance Checklist items are authoring checks: they test whether the pattern 
 | **CC-SG.4** | Deontic normative sentences **MUST** use only RFC-style keywords (see **H-8**); RFC keywords **MUST NOT** appear inside `Definition:`/`Invariant:`/`Well-formedness constraint:` blocks. When enforceable, admissibility/validity predicates **SHOULD** be referenced by id from the Conformance Checklist (rather than duplicated as “X MUST ...”). Informal deontic verbs are prohibited in normative clauses. | Prevents ambiguity between obligation language and model validity; improves auditability. |
 | **CC-SG.5** | Pattern prose **SHOULD** demonstrate adherence to Style Principles **S-0 ... S-19**; reviewers are empowered to request revision when clarity or didactic quality suffers. | Embeds common narrative voice without rigid policing. |
 | **CC-SG.6 (SoTA-Echo required).** | Every pattern **SHALL** include a **SoTA-Echoing** section and clearly state divergence of its Solution from SoTA with explanation of why. Architectural patterns **SHALL** satisfy the full authoring requirements below. Definitional patterns **SHALL** carry reduced SoTA when a full comparison is not meaningful: name which current practice is adopted, adapted, or rejected for terminology work, ambiguity or sense recovery, separation between constraint and ontology, controlled-vocabulary caution, or a comparable definitional problem. Internal coherence alone is not enough. | Ensures explicit lineage, guards against vocabulary drift, and prevents definitional patterns from using internal coherence as zero SoTA. |
-| **CC-SG.7 (Post-2015, multi-Tradition).** | For Architectural patterns, SoTA-Echoing **SHALL** cite >= 3 post-2015 sources across >= 2 Traditions; each item **MUST** carry adoption status (adopt/adapt/reject) with reason. | Guards against monoculture; makes intent explicit. |
-| **CC-SG.8 (Actual cross-local relation).** | When SoTA-Echoing actually relates distinct F.17 local senses or ReferencePlanes, it **MUST** cite the exact F.9 relation, CL, admitted use, loss notes, and applicable plane policy; penalties affect `R_eff` only. Shared wording or a source import alone does not establish a Bridge. | Safe, auditable reuse without fictitious relations. |
+| **CC-SG.7 (Current-best, by-value SoTA).** | When external or internal practice changes the Solution, SoTA-Echoing **SHALL** compare the serious current answers to the named problem at comparable application effort and state their relevant failure modes. It must explain why the selected contribution is no worse on the relevant values and better on at least one (the relevant Pareto advance), or state the trade-off that justifies the choice. Mark each material move adopt, adapt, or reject with its receiving locus and reason. Source age, count, and tradition diversity are search heuristics or reopen signals, not truth criteria or quotas; when one serious line or an older still-current source carries the best answer, state why. | Prevents decorative research and makes the selected practice contribution replayable. |
+| **CC-SG.8 (Actual cross-local or plane relation).** | When SoTA-Echoing uses an obtaining semantic Bridge, it **MUST** identify the two exact F.17 local senses, the F.9 relation, and a separate bounded-use claim; `CL` remains optional evidence shorthand. A ReferencePlane use cites its applicable plane relation. Any penalty cites a named current policy and its applicability; none follows from context, plane, Bridge, or `CL` alone. | Safe, auditable reuse without fictitious relations or automatic penalties. |
 | **CC-SG.9 (Lexical hygiene).** | The term **mapping** **SHALL NOT** appear in SoTA-Echoing except in the precise E.10 sense; use **alignment/Bridge/relation** instead. | Avoids overloading reserved vocabulary. |
 | **CC-SG.10 (No keyword soup).** | SoTA-Echoing items **MUST** be written as sentences (not bare noun phrases); bullet lists are acceptable only with complete clauses. | Improves didactic quality and comparability. |
 | **CC-SG.11 (Anti-patterns).** | Every pattern **SHALL** include a **Common Anti-Patterns and How to Avoid Them** section with at least one local misuse, overread, boundary case, or neighboring-pattern misuse relation. A placeholder saying no anti-pattern applies is nonconforming. | Makes misuse cases explicit and reduces review churn without creating omission-as-content. |

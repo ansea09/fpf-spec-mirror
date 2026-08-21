@@ -6,12 +6,12 @@ section_id: "C.2.LS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__010_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:9 — Consequences"
-line_start: 43318
-line_end: 43320
+line_start: 42076
+line_end: 42078
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -29,6 +29,7 @@ dependencies:
   - "C.2.6"
   - "C.2.7"
   - "E.18"
+  - "F.9"
   - "F.9.1"
 keywords:
   - "anchoring"

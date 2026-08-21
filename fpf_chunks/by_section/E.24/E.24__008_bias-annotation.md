@@ -6,12 +6,12 @@ section_id: "E.24:5.6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__008_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5.6 — Bias-Annotation"
-line_start: 89036
-line_end: 89050
+line_start: 86423
+line_end: 86437
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -43,7 +43,7 @@ keywords:
 ### E.24:5.6 - Bias-Annotation
 
 Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**.
-Scope: the authoring decision about one candidate ontology unit. It selects durable `U.Ontic`, direct subject-assertion use, bounded local `U.Episteme`, or unresolved stop as the ontology disposition; it separately records source wording as not current, quote-only, reduced use, or selected stronger source use. The scope does not include the subject matter defined or constrained by the resulting `ClaimGraph`.
+Scope: the authoring decision about one candidate ontology unit. It selects durable `U.Ontic`, direct subject-assertion use, bounded local `U.Episteme`, or unresolved stop as the ontology disposition; when source wording is current, it separately records quote-only, reduced use, or selected stronger source use. The scope does not include the subject matter defined or constrained by the resulting `ClaimGraph`.
 
 This pattern intentionally biases toward explicit identity, direct relation rules, reusable declarations where needed, and subject-pattern reuse. It resists five recurring distortions:
 

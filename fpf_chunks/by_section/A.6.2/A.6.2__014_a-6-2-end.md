@@ -1,32 +1,31 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.2"
-pattern_title: "U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
+pattern_title: "Effect-free episteme morphing"
 section_id: "A.6.2:End"
 section_title: "A.6.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__014_a-6-2-end.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
+  - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:End — A.6.2:End"
-line_start: 13354
-line_end: 13355
+line_start: 13371
+line_end: 13372
 dependencies:
-  - "A.1"
   - "A.6.0"
   - "A.6.1"
   - "A.6.3"
   - "A.6.4"
   - "A.6.5"
   - "C.2.1"
+  - "C.29"
   - "C.3"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
   - "E.18"
-  - "U.EpistemicRetargeting"
-  - "U.EpistemicViewing"
+  - "F.9"
   - "U.Mechanism"
   - "U.Signature"
 keywords:

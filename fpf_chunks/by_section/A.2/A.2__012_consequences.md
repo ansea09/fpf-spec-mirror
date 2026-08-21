@@ -6,12 +6,12 @@ section_id: "A.2:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__012_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:10 — Consequences"
-line_start: 3073
-line_end: 3083
+line_start: 3078
+line_end: 3088
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -43,7 +43,7 @@ keywords:
 
 | Gain | Cost or tradeoff |
 | --- | --- |
-| Systems retain stable identity while contribution classifications and assignments change. | Relied-on classification must identify the local kind, its practice or source boundary, and the signature edition used. |
+| Systems retain stable identity while contribution classifications and assignments change. | Relied-on classification must identify the local kind, its current signature edition, and the C.3 distinction that makes the kind continuous; source or practice provenance is recorded when it helps locate the definition. |
 | Membership can be checked without circular assignment or hierarchy premises. | Direct candidate features and unavailable dependencies must be distinguished. |
 | Assignment identity remains available through direct species and uninterrupted obtaining. | A stronger appointment needs its real participants and predicate rather than a generic record. |
 | Local vocabularies remain reusable without a universal role root. | Cross-local sameness and use require explicit continuity, an obtaining C.3.3 kind relation, or an F.9 local-sense relation, as applicable. |

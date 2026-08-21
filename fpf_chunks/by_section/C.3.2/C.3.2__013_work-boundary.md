@@ -6,12 +6,12 @@ section_id: "C.3.2:11"
 section_title: "Work Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__013_work-boundary.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:11 — Work Boundary"
-line_start: 45001
-line_end: 45011
+line_start: 43803
+line_end: 43813
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -31,10 +31,10 @@ keywords:
 
 Classification does not weaken the work ontology:
 
-- `U.Work` is the admitted U-kind;
-- `W : U.Work` is one independently grounded, world-side, dated 4D work occurrence under the direct work pattern;
-- a plan, expected-work item, log, card, database row, field bundle, assertion, or description about W is a separate episteme;
+- `U.Work` is the admitted kind;
+- `W : U.Work` is one independently grounded dated 4D work occurrence under its direct pattern;
+- a plan, expected-work item, log, card, database row, assertion, or description about W is a separate episteme; and
 - performer assignment, enacted method, temporal extent, containing system, affected referent, material binding, resource use, transformation, production, result, delivery, and acceptance remain separately governed.
 
-A local kind may classify an already identified W. A formal kind symbol, work label, plan, or record never occupies W's individual position, and record existence does not make planned work actual.
+A kind may classify an already identified W. A kind symbol, work label, plan, or record never occupies W's individual position, and record existence does not make planned Work actual.
 

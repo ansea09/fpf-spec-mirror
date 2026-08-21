@@ -6,12 +6,12 @@ section_id: "A.19.SPR:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__010_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:8 — Relations"
-line_start: 29191
-line_end: 29208
+line_start: 28740
+line_end: 28757
 dependencies:
   - "A.10"
   - "A.16"
@@ -45,19 +45,19 @@ keywords:
 
 ### A.19.SPR:8 - Relations
 
-| Pattern | Relation |
+The dependency and distribution detail belongs here, after the working method. A.19.SPR builds on `E.10`, `E.10.ARCH`, `E.10.MOVE`, `A.19`, `A.3.3`, `A.2.5`, `A.15.5`, `C.2.2a`, `A.10`, `B.3`, `A.20`, `A.21`, `C.27`, `C.29`, `E.17`, `E.9.DA`, `E.21`, and `F.18`. It coordinates with `A.17`, `A.18`, `C.16`, `C.16.P`, `C.16.Q`, `A.6.P`, `C.2.P`, `C.30.P`, `E.8`, `E.19`, and `E.11` when those patterns define or test the recovered claim.
+
+| Pattern | Contribution |
 | --- | --- |
-| `E.10` | Catches state-family trigger wording and selects local repair, `A.19.SPR`, subject pattern assignment, controlled precision reduction, `F.18`, or fail-closed non-use. |
-| `E.10.ARCH` | Provides the shared wording-use restoration architecture. `A.19.SPR` is the realization pattern for recurring state-family hidden-field cases. |
-| `A.19` | Governs `CharacteristicSpace` and state-space typing. `A.19.SPR` uses A.19 only when the state-like claim is a characteristic-space position or comparable state. |
-| `A.3.3` | Governs dynamics and state-transition laws when reusable change semantics are being claimed. |
-| `C.2.P`, `C.2.2a`, `A.16.*`, `E.17` | Govern source-use and publication-use assignments, language-state positions, and admissible moves. |
-| `A.10` | Governs evidence path state and reliance disposition. |
-| `B.3` | Governs assurance result, assurance claim, and assurance-input use. |
-| `A.20`, `A.21` | Govern constraint or adjudication state and gate decisions. |
-| `C.27` | Governs temporal-claim state and retains `dynClaimPosture` when declared. |
-| `C.29` | Governs mathematical-lens use and retains `LensUseAdmissibilityValue` when declared. |
-| `E.9.DA`, `E.21`, `E.19` | Govern DRR adequacy status, pattern-quality status, and pattern review or admission profiles. |
-| `F.18` | Governs durable naming when a state-family field becomes reusable vocabulary. |
-| `E.11` | Places practical entry questions for hidden state-family wording in README scenarios, ToC query cues, local Problem frames, or expanded `I.2` entry-disambiguation cases instead of a duplicate index row. |
+| `E.10`, `E.10.ARCH` | Recognize the wording problem and keep one shared restoration architecture. |
+| `E.10.MOVE` | Resolves ambiguous readiness-like wording before it exits to A.19.SPR or a direct pattern. |
+| `A.2.5`, `A.15.5` | Distinguish assignment-state predicate, world-side relation, assertion episteme, and the separate work-entry readiness result. |
+| `A.19`, `A.3.3`, `C.16.P` | Define characteristic-space, dynamics, and characteristic or scale claims when those are the actual subject. |
+| `C.2.P`, `C.2.2a`, `A.16.*`, `E.17` | Define source, publication, and language-state claims. |
+| `A.10`, `B.3` | Define evidence-use and assurance claims. |
+| `A.20`, `A.21` | Define constraint or adjudication results and distinct gate decisions. |
+| `C.27`, `C.29` | Define temporal-claim and mathematical-lens uses, including their local fields. |
+| `E.9.DA`, `E.21`, `E.19` | Define DRR adequacy, pattern-quality results, and review or admission profiles. |
+| `F.18`, `F.19` | Settle durable names after the claim is known and rewrite the final practitioner path in plain technical language. |
+| `E.11` | Places first-use cues without creating a second routing table. |
 

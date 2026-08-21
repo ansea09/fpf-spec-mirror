@@ -6,12 +6,12 @@ section_id: "A.16.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__007_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:6 — Bias-Annotation"
-line_start: 27881
-line_end: 27883
+line_start: 27396
+line_end: 27398
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,5 +34,5 @@ keywords:
 ---
 
 ### A.16.2:6 - Bias-Annotation
-The pattern pushes against false linear progress narratives. The cost is that teams must expose when closure or route authority is being relaxed, reframed, or retired.
+The pattern pushes against false linear progress narratives. The cost is that teams must expose when closure, route selection, endpoint-use disposition, publication availability, or current use is being relaxed, replaced, or retired.
 

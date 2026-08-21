@@ -6,12 +6,12 @@ section_id: "A.7.CP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:4 — Solution"
-line_start: 22239
-line_end: 22320
+line_start: 21684
+line_end: 21765
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -36,7 +36,7 @@ The compact carries these stable claim contents:
 3. **`A7CP-03 Constitution and social objects`.** Constituting acts, admitted systems, and the relations they institute remain distinct from descriptions of those acts and relations.
 4. **`A7CP-04 Epistemic openness and fallibility`.** Evidence and reliance may remain unresolved without turning unresolved evidence into a third world-side obtaining mode.
 5. **`A7CP-05 Representation boundary`.** Descriptions, logical forms, database rows, graphs, and publications represent or carry claims under exact relations; their form does not prove the represented ontic.
-6. **`A7CP-06 Agency and work attribution`.** A method episteme describes a way of working; an admitted system under a role assignment performs dated work and produces results.
+6. **`A7CP-06 Agency and work attribution`.** A `U.MethodDescription` episteme describes an admitted `U.Method`; an admitted `U.System` performs dated `U.Work`. When an actual assignment occurrence and an F.6 attribution obtain for that Work, they identify the assignment under which the System acted; neither the system-role kind nor the assignment acts. A result follows only through its own separately established relation—for example, a production, operation-result, measurement, evaluation, decision, delivery, or acceptance relation—not from Work in general.
 7. **`A7CP-07 Kind discipline`.** Use direct existing kinds and local admission before proposing a universal kind, root relation, or role-like surrogate.
 8. **`A7CP-08 Scoped pluralism`.** Different source traditions or apparatuses may be useful for different receiving claims; compatibility is tested by consequences, not achieved through prestige hierarchy.
 9. **`A7CP-09 Structure and wholeness`.** A description of structure is not the structure; not every construction is mereology, and `C.13` alone defines constructional mereology.
@@ -72,7 +72,7 @@ semanticDirection: BasisClaimSlot -> ReceivingReasoningResultSlot
 ReasoningBasisPostureValue ::= adoptedPremise | conditionalAssumption
 
 RelationOccurrenceQualifiers:
-  basisClaimIdRef: ClaimIdRef
+  basisClaimAddress: ClaimAddress
   posture: ReasoningBasisPostureValue
   reasoningUseScope?: U.ClaimScope
   modelUseStructureRef?: U.StructureRef
@@ -86,7 +86,7 @@ OccurrenceIdentity:
    maximalContinuousRelianceInterval>
 ```
 
-`BasisClaimSlot` is the exact claim-bearing episteme and compact claim ID used. `ReasoningWorkSlot` is the dated reasoning, choice, ontology-analysis, or reconciliation `U.Work` that relies on it. `ReceivingReasoningResultSlot` is the claim, comparison, decision, or other claim-bearing result episteme whose content that work forms or revises using the basis claim. If the practical result is world-side, use the direct result claim that bears on it; the world-side object retains its subject pattern. The already admitted holder `U.System` performs the Work under one identified occurrence of a directly declared `U.SystemRoleAssignment` species that currently obtains. When the F.6 Work-attribution relation is cited, the assignment holder must be that same System. The assignment neither supplies the System nor performs the Work. Claim episteme, Work occurrence, use posture, receiving result, and any world-side result remain distinct; the words “premise” and “assumption” are not relation participants.
+`BasisClaimSlot` is the exact claim-bearing episteme used, and `basisClaimAddress` is a `C.2.1 ClaimAddress` selecting the exact claim inside that same edition by its intrinsic ClaimGraph identity. `ReasoningWorkSlot` is the dated reasoning, choice, ontology-analysis, or reconciliation `U.Work` that relies on it. `ReceivingReasoningResultSlot` is the claim, comparison, decision, or other claim-bearing result episteme whose content that Work forms or revises using the basis claim. If the practical result is world-side, use the direct result claim that bears on it; the world-side object retains its subject pattern. An admitted `U.System` performs the Work. If the case relies on an assignment, recover one actual occurrence of a separately declared `U.SystemRoleAssignment` species and the obtaining F.6 attribution for that exact Work-assignment pair; its holder must be the same System. The assignment's existence, holder, or interval does not establish that attribution, and the assignment neither supplies the System nor performs the Work. Claim episteme, described Method when one is used, Work occurrence, assignment occurrence, attribution, use posture, receiving result, and any world-side result remain distinct. The words “premise” and “assumption” are not relation participants.
 
 The relation obtains during the maximal continuous interval in which the named work actually relies on the exact basis claim to form or revise the exact receiving result. Access, citation, publication, co-location, or use of the claim elsewhere in the same work is insufficient. `reasoningUseScope` appears only when this premise use is narrower than or otherwise differs from the receiving result's declared claim scope; `modelUseStructureRef` appears only when an independently selected `BoundedModelUseStructure` changes interpretation. Source currentness, evidence, publication, work method, and the receiving result's own governance remain with their subject patterns.
 

@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__001_intro.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:intro — Intro"
-line_start: 60840
-line_end: 60855
+line_start: 58030
+line_end: 58045
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,11 +56,11 @@ keywords:
 
 **Plain-name.** Stratification and architecture-operation source-label repair.
 
-**Intent.** Recover source wording such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, and `gate` by completing the `E.10.ARCH` recovery row for that wording use: `semanticAreaBaseConcept`, `semanticAreaSenseFamily`, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, encountered FPF kind or reference, relation to the primary `EntityOfConcern`, recovered kind, relation, or claim-use, source-use disposition, subject pattern, admissible use, non-admissible use, and remaining reader use. No conforming `C.30.STRAT` use mints `U.Layer`, `U.Level`, `U.Tier`, `U.Stack`, `U.Ladder`, `U.Rung`, `U.Block`, `U.Expert`, `U.Cache`, or one universal `U.Stratification`.
+**Intent.** Help a reader decide what a source label such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` means in one current sentence. Keep useful local language, but recover the actual object, relation, or claim before relying on it. No use of this pattern mints `U.Layer`, `U.Level`, `U.Tier`, `U.Stack`, `U.Ladder`, `U.Rung`, `U.Block`, `U.Expert`, `U.Cache`, `U.Router`, `U.Gate`, or one universal `U.Stratification`.
 
 **Builds on.** `E.10`, `E.10.ARCH`, `E.8`, `F.18`, `C.30.P`, `A.22`, and `C.30`.
 
 **Coordinates with.** `C.30.ASV`, `C.30.LCA`, `C.30.TFS-REL`, `C.30.ILC`, `A.6.M`, `A.6.F`, `E.18`, `C.16.P`, `C.16`, `A.19.SPR`, `C.2.P`, `E.17`, `C.29`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `A.2`, `G.5`, and `C.11`.
 
-**E.10.ARCH recovery relation.** When `E.10` encounters a stratification or architecture-operation source label whose `ontologicalNeighborhood`, primary `EntityOfConcern` kind, recovered kind, relation, claim-use, source-use disposition, or subject-pattern locator is hidden, `E.10.ARCH` selects `C.30.STRAT` only until those row fields are recovered or the wording is lowered to ordinary source label, quote-only wording, reduced-use cue, blocked use, or incomplete rewrite. `C.30.STRAT` then stops at the source-label repair row; any recovered non-source-label claim or relation requires its own exact subject assertion and defining or constraining `ClaimGraph`.
+**Authoring boundary.** `C.30.STRAT` supplies one reusable E.10.ARCH applicability row for this wording family. Its `semanticArea*` and `ontologicalNeighborhood` coordinates help pattern authors maintain that row; they are not a project object or a form for ordinary engineers. A practitioner receives the shortest sentence or note that names the recovered object, relation, or claim, the allowed use, the blocked overread, and the next action.
 

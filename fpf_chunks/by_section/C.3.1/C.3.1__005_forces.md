@@ -6,12 +6,12 @@ section_id: "C.3.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__005_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:3 — Forces"
-line_start: 44724
-line_end: 44733
+line_start: 43509
+line_end: 43519
 dependencies:
   - "A.1"
   - "A.11"
@@ -46,9 +46,10 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Minimal typed reasoning vs ontology growth | A project needs local compatibility without admitting another durable FPF U-kind. |
-| Partial order vs actual classification | An order over kind values must constrain judgments, not merely arrange labels or extension rows. |
-| Stable kind vs changing declaration | A kind may continue across a corrected or strengthened declaration, but an incompatible redefinition must not inherit identity silently. |
-| Current extension vs kind identity | Candidate state and context slices can change current true members without changing either the kind or its signature. |
-| Local use vs cross-local reuse | Same spelling does not carry a kind across different constituting practices or sources. Within the same local identity basis, a changed reference-scheme edition creates another `KindSignature` and requires an explicit continuity decision, but does not by itself create a kind bridge. |
+| Small typed reasoning vs ontology growth | Projects need reusable kinds without a new public `U.*` name for each distinction. |
+| Preorder vs kind identity | Mutual subkind facts may hold for different intensional kinds; classification equivalence must not collapse their identities. |
+| Criterion entailment vs observed support | Exact rule entailment or an exhaustive closed domain can make the relation obtain; a non-exhaustive sample only supports an assertion. |
+| Stable kind vs changing declaration | A kind may continue across a compatible change, while a changed membership distinction must not inherit identity silently. |
+| Applicability vs uncertainty | A non-applicable classification request is not an `unknown` judgment and cannot establish or refute a subkind fact. |
+| Locality vs correspondence | A changed practice or source prompts comparison but does not establish another kind or a bridge. |
 

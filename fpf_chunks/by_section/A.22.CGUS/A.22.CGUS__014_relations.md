@@ -6,48 +6,49 @@ section_id: "A.22.CGUS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__014_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:12 — Relations"
-line_start: 35171
-line_end: 35180
+line_start: 34347
+line_end: 34356
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.21"
   - "A.22"
-  - "A.6.3.NAR"
-  - "B.3.5"
-  - "B.5.2"
-  - "C.13"
-  - "C.18"
-  - "C.19"
-  - "C.2.P.DR"
-  - "C.3"
+  - "A.3"
+  - "A.6.5"
+  - "A.6.P"
+  - "B.3"
+  - "C.29"
+  - "C.30"
+  - "C.32"
   - "C.32.P2S"
   - "C.33"
   - "C.35"
-  - "E.10.MOVE"
   - "E.11"
   - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.18.3"
   - "E.18.NET"
-  - "E.18.NET-conforming"
   - "E.23"
-  - "E.24.PUB"
   - "F.17"
+  - "F.18"
+  - "F.9"
   - "G.11"
-  - "G.5"
 keywords:
 ---
 
 ### A.22.CGUS:12 - Relations
 
-Specializes: the A.22 use of one selected `U.Structure` when exact constituents, selected obtaining relation occurrences, applied constraints, and a named selection-use frame support constraint-governed unfolding through typed position locators, preserved and lost structure, admissible next-form kinds, neighboring stronger claims, and their reconsideration conditions.
+Specializes: one A.22 `U.Structure` whose local locus bindings, obtaining relations, and constraints define at least two potential continuations across allowed cases. Continuation judgements, descriptions, slices, loss notes, and neighboring claims are separate results or uses.
 
-Specialized by: `E.18.3` when the same selected structure satisfies its transformation-flow unfolding membership condition and reuses exact E.18 positions and relation references; and by local A.22 applications in `E.18.1`, `C.32.P2S`, `B.5.2`, `E.23`, `C.13`, `B.3.5`, and `C.3` only when their own selected constituents, obtaining relations, constraints, and use frames are recoverable. `A.6.3.NAR` is a consumer rather than another structure specialization: it may order an independently selected structure into a narrative and state preservation, loss, use, and return without selecting or admitting that structure.
+Specialized by: `E.18.3` when the same structure also satisfies its transformation-flow condition. Local applications include architecture, abduction, improvement, narrative, grounding, currentness, and first-entry uses only when their own constituents, relations, constraints, and use frames are recoverable.
 
-Coordinates with: `E.18` for the complete one-TFS locator triple, `E.18.NET` for one selected E.18.NET-conforming TFS network and member paths, `E.11` for public practical-use card expansions, ordinary walkthroughs, and admitted CGUS-demonstrative walkthroughs, `E.10.MOVE` and `C.2.P.DR` for lexical and declarative-representation repair, `C.18`, `C.19`, and `G.5` for archive, front, live-pool, and selected-set claims, and `G.11` for currentness and refresh claims. When a provisional description or admitted demonstrative slice is published, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
+Coordinates with: `A.6.P` and A.6.5 for relation occurrence and reusable declaration precision; `E.18`, `E.18.NET`, and `E.18.3` for transformation-flow substrates; `A.3` and `A.15` for Method, plan, Work, and Transformation claims; `A.10`, `B.3`, `A.20`, and `A.21` for evidence, assurance, constraint decisions, and gates; `C.30` and C.32 for architecture; `E.23` for improvement; `G.11` for currentness; `C.29` for mathematical-lens use; `C.33` for material description loss; `E.11` and `E.17` for entry and publication; and `F.17`, `F.18`, and `F.9` for source-local sense, durable naming, and Bridge claims.
 
-Does not replace: `A.3.1`, `A.3.2`, `A.15`, `A.10`, `B.3`, `A.20`, `A.21`, `C.30`, `C.32.PAD`, `C.32.ADR`, `C.29`, `G.11`, or any pattern that supplies a needed definition, constraint, test, method, evidence rule, or assurance rule for a stronger claim.
+Does not replace any pattern that supplies the definition, constraint, test, method, evidence rule, or assurance rule for a neighboring claim.
 

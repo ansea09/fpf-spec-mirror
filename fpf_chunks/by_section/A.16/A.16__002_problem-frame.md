@@ -6,13 +6,18 @@ section_id: "A.16:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__002_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:1 — Problem frame"
-line_start: 26920
-line_end: 26924
+line_start: 26559
+line_end: 26564
 dependencies:
+  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.5"
+  - "A.15.PROD"
   - "A.16"
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -20,19 +25,26 @@ dependencies:
   - "A.16.2"
   - "A.18"
   - "A.19"
+  - "A.2"
+  - "A.2.1"
   - "A.6.A"
   - "A.6.P"
   - "B.4.1"
   - "B.5.2.0"
   - "C.16.Q"
+  - "C.2.1"
   - "C.2.2a"
   - "C.2.4"
   - "C.2.5"
   - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "C.25"
   - "E.10.MOVE"
+  - "E.11.PUR"
   - "E.18"
+  - "E.24.PUB"
+  - "F.6"
 keywords:
   - "admissible language-state move"
   - "language-state"
@@ -45,7 +57,8 @@ keywords:
 ---
 
 ### A.16:1 - Problem frame
-Once positions in the declared language-state `U.CharacteristicSpace` chart from `C.2.2a` are explicit, teams still need admissible move kinds for preserving or re-expressing selected `U.Episteme` content in publication forms, narrowing or reopening it, and docking it to a later use. Those moves must not collapse into a second formality-only climb, a generic one-pass process story, or invisible jumps into later pattern-based claims.
 
-A single local move note is often enough. Only some cases need a full trajectory account. The coordination pattern therefore has to stand independently while remaining compatible with `A.16.0` when lineage, branch structure, loss notes, or the history of an actual responsibility handoff must remain inspectable.
+The language-state `U.CharacteristicSpace` in `C.2.2a` makes positions explicit, but practitioners still need admissible moves for preserving, publishing, narrowing, reopening, or docking selected content to a later use. Those moves must not become a second formality-only climb, a generic one-pass process, or an invisible jump into a stronger pattern claim.
+
+A local note is usually enough. A heavier history is warranted only when lineage, branching, loss, supersession, or a history-dependent responsibility handoff changes what a later reader may conclude.
 

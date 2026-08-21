@@ -6,12 +6,12 @@ section_id: "C.2.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__013_consequences.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:9 — Consequences"
-line_start: 42165
-line_end: 42197
+line_start: 40938
+line_end: 40959
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,27 +59,16 @@ keywords:
 | Makes unclear meaning fail closed. | Some attractive phrases will not be accepted until their kind or relation is actually recovered. |
 | Improves DRR and pattern drafting discipline. | Authors must resist convenient lists and umbrellas when one kind named by value or relation is needed. |
 
-#### C.2.P:9.1 - Operating Consequence
-For new episteme-publication precision prose:
-- start from FPF kinds and relations, not from familiar publication nouns and document nouns;
-- use `PublicationUnit` for bounded publication units;
-- use the exact `EntityOfConcern` participant and its applicable reference when a claim-bearing episteme is current, and translate `describedEntity` source wording to the adopted EntityOfConcern family before FPF-governed use closure;
-- keep publication form, generic publication face, MVPK face under E.17 constraints, view, carrier, document named for source, evidence, architecture, or review use, reviewed publication, review packet, review record, or review state, and project-side FPF kind and reference named by value separate;
-- name `relationClaimSlice`, `declaredUseBoundary`, and `projectSideFPFRef` separately when more than one is current;
-- classify heterogeneous kind lists before writing a sentence that depends on them;
-- say that FPF patterns are applied in problem situations, not called or routed as procedures;
-- leave accepted FPF names untouched unless a separate accepted naming decision authorizes a rename.
+#### C.2.P:9.1 - Operating consequence
 
-Operationally, each rewrite should:
-- separate FPF-side epistemes and publication or use relations from project-side epistemes and their publication or use relations whenever both are present;
-- name `relationClaimSlice`, `declaredUseBoundary`, and `projectSideFPFRef` separately when a publication, display, cue, or explanation is treated as evidence, gate, constraint, adjudication, decision-making reliance, work permission, assurance, or engineering justification;
-- classify heterogeneous lists before naming them: one kind under repair, relation set, tuple-like record, alternative cases, not-triggered alternatives, or failed ontology;
-- say that FPF patterns are applied in problem situations, while project records, publications, views, carriers, and actions are worked with in project practice;
-- avoid strength metaphors unless the characteristic, scale, threshold, evidence class, or use-boundary relation is named.
+For each repair:
 
-For cleanup of existing conformant texts:
-- do not do a global string replacement;
-- classify each unclear term occurrence by the smallest sufficient rewrite mode;
-- use the full epistemic precision-restoration check only when ontology, reusable naming, FPF pattern text, or source-bearing project text is current;
-- do not rename accepted FPF patterns from this pattern alone.
+1. start from the sentence's function and practical consequence, not from a word list;
+2. preserve the E.10 result and recover only the one still-hidden episteme, publication, carrier, source-to-use, or use-disposition distinction;
+3. use the direct pattern as soon as it is known;
+4. choose direct repair before a compact row, and a compact row before a full check;
+5. keep the final sentence readable to a cold practitioner and state what action or non-use remains;
+6. reopen only when a material field or use changes.
+
+Do not perform global lexical replacement. Do not treat every FPF pattern edit as a full epistemic-restoration case. Do not retain a compatibility field whose only function is to remember a previous internal schema.
 

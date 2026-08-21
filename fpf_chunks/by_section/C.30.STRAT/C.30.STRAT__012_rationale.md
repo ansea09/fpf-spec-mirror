@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__012_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:10 — Rationale"
-line_start: 61081
-line_end: 61086
+line_start: 58246
+line_end: 58251
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 
 ### C.30.STRAT:10 - Rationale
 
-Stratification words are common because they compress local practice. That compression is useful at entry time and unsafe as ontology. FPF therefore keeps the word as a source label, recovers the `ontologicalNeighborhood`, and then uses the subject pattern for the recovered claim.
+Stratification words compress local practice. That compression is useful for recognition and unsafe as a substitute for an object, relation, or claim. C.30.STRAT therefore keeps the source word, recovers what it means in the current sentence, and returns the reader to the applicable technical rule.
 
-The pattern is placed under `C.30` because architecture and structure prose is the recurring entry point. The placement does not make `C.30` the subject pattern for every recovered case. If the recovery result is outside source-label repair, the subject pattern named in `C.30.STRAT:4.2` carries the recovered claim content.
+The pattern sits under C.30 because architecture and structure prose is the usual entry. That placement is a navigation choice, not an ontological claim and not authority over every recovered case.
 

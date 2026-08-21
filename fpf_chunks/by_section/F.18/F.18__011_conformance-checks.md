@@ -6,12 +6,12 @@ section_id: "F.18:9"
 section_title: "Conformance Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__011_conformance-checks.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:9 — Conformance Checks"
-line_start: 97792
-line_end: 97817
+line_start: 95001
+line_end: 95026
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,7 +51,7 @@ Use these checks before a durable name is reused in a pattern. If an F.17 row is
 | --- | --- |
 | Governed value | The named value is recoverable and belongs to a subject pattern. |
 | Interpretation | The effective `U.ReferenceScheme` is carried by value and the local sense is named; model-use structure, claim scope, project work, and other locality relations remain separate. |
-| Kind | The kind is stated as governed value kind, not inferred from spelling. |
+| Kind | The kind is not inferred from spelling, source, or practice. A system-role kind is already recoverable through its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. |
 | Candidate set | The smallest set covers at least two live head families and every plausible neighbouring-object reading; any forced untested exception is explicit in `CandidateCoverage` and `RefreshCondition`. |
 | System-role boundary | System-role kind, classification, assignment, holder, capability, Method, Work, evidence, status, participant meaning, declaration place, and representation position are not collapsed. |
 | Relation-object boundary | Predicate-definition episteme, admitted relation kind, obtaining occurrence, representation element, and designator are named only after their separate settlements; relation slot, interface, port, and signature names cite the applicable direct patterns. |
@@ -65,7 +65,7 @@ Use these checks before a durable name is reused in a pattern. If an F.17 row is
 Regression checks:
 
 - When either the effective reference-scheme edition or the `LocalSenseClaim` changes, compare the resulting semantic-context projections. Re-check any obtaining Bridge, the separate claim about the named use between different projections, and that claim's current reliance; same-projection expression changes stay with designation, and no current correspondence use creates no Bridge or use claim.
-- When a system-role-kind description changes, re-check the local kind name and any assignment name that actually depends on that description edition.
+- When a system-role-kind description changes in a way that may alter the C.3 candidate domain, membership distinction, member/non-member boundary, continuity, or the naming settlement's reader meaning, re-check the local kind name and any assignment name that depends on it. A provenance-only edit does not split the kind.
 - When a method, capability, work, evidence, or status pattern changes, re-check any name that borrowed morphology from that area.
 - When repeated reader errors occur, reopen candidate comparison instead of adding aliases indefinitely.
 

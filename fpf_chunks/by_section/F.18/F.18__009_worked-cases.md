@@ -6,12 +6,12 @@ section_id: "F.18:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__009_worked-cases.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:7 — Worked Cases"
-line_start: 97611
-line_end: 97777
+line_start: 94820
+line_end: 94986
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,7 +51,7 @@ A shipyard team wants one reusable name for the local system-role kind used in s
 
 Recovered values:
 
-- `ShipbuilderSystemRole@ShipyardProduction`, one local C.3 kind identified by the shipyard's stable assignable shipbuilding contribution; a system counts under it only when the features established under their own patterns satisfy the current `KindSignature`;
+- `ShipbuilderSystemRole`, one local C.3 kind whose admitted-system candidates count when they satisfy the current shipbuilding condition; the member/non-member probes and continuity rule expose the boundary, while the ShipyardProduction source only locates the definition;
 - one direct assignment occurrence under A.2.1 whose admitted holder system and assigned `ShipbuilderSystemRole` kind are explicit, while any work area, schedule, interpretation, or reference scheme remains separate unless that direct species needs it for occurrence identity;
 - `ShipbuildingCapability` with envelope and measures under the capability pattern;
 - `ShipbuildingMethod` or a method family under A.3.1; if a separately identified `ShipbuildingMethodDescription : U.MethodDescription` episteme is current, name it separately under A.3.2 only when its exact `EntityOfConcern` is that Method;
@@ -64,19 +64,19 @@ The local card is:
 ```text
 NameCard:
   NameCardId: NameCard.ShipbuilderSystemRole.ShipyardProduction.2026
-  GovernedValueRef: ShipbuilderSystemRole@ShipyardProduction
+  GovernedValueRef: ShipbuilderSystemRole
   GovernedValueKindRef: U.Kind
   SubjectPatternLocator: A.2 with C.3
   ReferenceScheme: Shipyard-Production-Scheme
   ClaimContent: NameCard.ShipbuilderSystemRole.ShipyardProduction.2026.ClaimGraph
-  LocalSenseRef: local expression `shipbuilder (system role)`; sense claim: the ShipyardProduction local kind identified by the stable shipbuilding contribution, with current membership decided by its `KindSignature` from system features established under their own patterns
+  LocalSenseRef: local expression `shipbuilder (system role)`; sense claim: the C.3 kind whose admitted-system candidates satisfy the current shipbuilding condition, member/non-member boundary, and continuity rule; ShipyardProduction provenance locates this settlement but does not identify the kind
   LocalSenseBasisRelationRef: absent; no independent local-sense basis relation is current
   TechLabel: ShipbuilderSystemRole
   PlainLabel: shipbuilder (system role)
   CandidateSet: ShipbuilderSystemRole; ShipbuilderRole; ShipbuilderSystemRoleKind; ShipbuildingCapability; HullAssemblyWorker; CertifiedShipbuilder
   CandidateCoverage: system-role-kind head; ambiguous role head; redundant kind suffix; capability head; holder-or-work head; certification-or-status head
   RejectedCandidates: ShipbuilderRole; ShipbuilderSystemRoleKind; ShipbuildingCapability; HullAssemblyWorker; CertifiedShipbuilder
-  SelectionRationale: the selected label identifies one local kind without claiming admission, assignment, capability, performed Work, or certification
+  SelectionRationale: the selected label designates the already recovered local kind without claiming admission, assignment, capability, performed Work, or certification
   BridgeRefs: absent; this local settlement makes no semantic-correspondence claim
   PublicRowStatus: localOnly
   UnifiedTermRowRef: absent
@@ -88,17 +88,17 @@ The candidates execute the section 4.3 stopping rule: each live head family is r
 
 #### F.18:7.1a - Reviewer in a Journal Context
 
-`ReviewerSystemRole@JournalReview-2026` is the local kind identified by the stable contribution of supplying a substantive review judgment that meets the current JournalReview acceptance conditions. A system counts under it only when its features, established under their own patterns, satisfy the current `KindSignature`. A review assignment, responsibility, authority, capability, permission, and performed review Work remain separate claims.
+`ReviewerSystemRole` designates the local kind whose admitted-system candidates count when they supply a substantive review judgment that meets the current JournalReview acceptance conditions. The candidate range, operative condition, member/non-member probes, and continuity rule recover the kind; JournalReview-2026 provenance only locates the definition. A review assignment, responsibility, authority, capability, permission, and performed review Work remain separate claims.
 
 ```text
 NameCard:
   NameCardId: NameCard.ReviewerSystemRole.JournalReview.2026
-  GovernedValueRef: ReviewerSystemRole@JournalReview-2026
+  GovernedValueRef: ReviewerSystemRole
   GovernedValueKindRef: U.Kind
   SubjectPatternLocator: A.2 with C.3
   ReferenceScheme: FPFCoreReferenceScheme
   ClaimContent: NameCard.ReviewerSystemRole.JournalReview.2026.ClaimGraph
-  LocalSenseRef: local expression `reviewer (system role)`; sense claim: the JournalReview-2026 local kind identified by the substantive-review contribution, with current membership decided by its `KindSignature` from system features established under their own patterns
+  LocalSenseRef: local expression `reviewer (system role)`; sense claim: the C.3 kind whose admitted-system candidates satisfy the current substantive-review condition, member/non-member boundary, and continuity rule; JournalReview-2026 provenance locates this settlement but does not identify the kind
   TechLabel: ReviewerSystemRole
   PlainLabel: reviewer (system role)
   CandidateSet: ReviewerSystemRole; ReviewerRole; ReviewerSystemRoleKind; ReviewerSystemWorkRole; reviewer
@@ -120,9 +120,9 @@ A lab says: “Vasya is an engineer, does robot engineering, is therefore an eng
 Recovered values:
 
 - Vasya as an admitted system; `MusicalRobotLab_2026` is the lab and Work locus in its direct relations, not a generic assignment participant;
-- `RoboticsEngineerSystemRole@MusicalRobotLab`, one local system-role kind identified by the stable assignable contribution of engineering robotic systems in the lab; a system counts under it only when the features established under their own patterns satisfy the current C.3 criterion;
+- `RoboticsEngineerSystemRole`, one local system-role kind whose admitted-system candidates count when they satisfy the current robotics-engineering condition, boundary probes, and continuity rule; MusicalRobotLab provenance locates the definition but does not identify the kind;
 - robotics as the qualification that distinguishes this local engineering kind, with any non-monotonic restriction retained as a separate A.2.7 relation;
-- `MusicianSystemRole@MusicalRobotLab` as another exact local kind when music performance matters separately;
+- `MusicianSystemRole` as another exact local kind when its own music-performance condition and boundary matter separately;
 - any current engineering or musician assignments as occurrences of their declared A.2.1 species;
 - robot-engineering Method or Work, music-performance Work, and robot-music-teaching Method or Work under their direct patterns;
 - an optional algebraic, graph, matrix, embedding, or neural representation only if the project actually uses that lens to describe the selected system-role-kind relation structure.
@@ -132,12 +132,12 @@ If the exact robotics-qualified local kind has been admitted, its local naming s
 ```text
 NameCard:
   NameCardId: NameCard.RoboticsEngineerSystemRole.MusicalRobotLab.2026
-  GovernedValueRef: RoboticsEngineerSystemRole@MusicalRobotLab
+  GovernedValueRef: RoboticsEngineerSystemRole
   GovernedValueKindRef: U.Kind
   SubjectPatternLocator: A.2 with C.3 and A.2.7 for the separately current qualification relation
   ReferenceScheme: MusicalRobotLab-Scheme
   ClaimContent: NameCard.RoboticsEngineerSystemRole.MusicalRobotLab.2026.ClaimGraph
-  LocalSenseRef: local expression `engineer-roboticist`; sense claim: the MusicalRobotLab local engineering system-role kind identified by the stable contribution of engineering robotic systems, with current membership decided by its `KindSignature` from system features established under their own patterns
+  LocalSenseRef: local expression `engineer-roboticist`; sense claim: the C.3 kind whose admitted-system candidates satisfy the current robotics-engineering condition, member/non-member boundary, and continuity rule; MusicalRobotLab provenance locates this settlement but does not identify the kind
   LocalSenseBasisRelationRef: absent; no separate source-bearing basis relation is current for this use
   TechLabel: RoboticsEngineerSystemRole
   PlainLabel: engineer-roboticist

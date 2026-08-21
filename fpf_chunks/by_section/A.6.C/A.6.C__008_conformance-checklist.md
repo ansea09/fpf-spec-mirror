@@ -6,12 +6,12 @@ section_id: "A.6.C:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__008_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:7 — Conformance Checklist"
-line_start: 11494
-line_end: 11522
+line_start: 11530
+line_end: 11558
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,7 +39,8 @@ keywords:
   - "OPTIONAL"
   - "SHOULD"
   - "a mechanism entry predicate enters A"
-  - "and SHOULD NOT enter D only for an individual duty"
+  - "an individual duty"
+  - "and SHOULD NOT enter D for a generic prescription or"
   - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
@@ -56,6 +57,7 @@ keywords:
   - "rewrite it or mark it informative"
   - "separate result and evidence"
   - "speech-act Work"
+  - "when separately instituted for an actual bearer"
 ---
 
 ### A.6.C:7 — Conformance Checklist
@@ -63,10 +65,10 @@ keywords:
 A boundary description conforms to A.6.C iff it satisfies all items below:
 
 1. **CC‑A.6.C‑1 (Four questions, atomic answers).**
-   If contract-language appears, the text **SHALL** answer the four questions only with atomic claims. Speech act, description/publication, commitment or selected permission-side claim, dated Work, each consequence, and each evidence claim **SHALL** retain its own direct object, exact subject assertion, non-semantic pattern locator, and quadrant.
+   If contract-language appears, the text **SHALL** answer the four questions only with atomic claims. Speech act, description/publication, generic prescription, individual commitment, selected permission-side claim, dated Work, each consequence, and each evidence claim **SHALL** retain its own direct object, exact subject assertion, non-semantic pattern locator, and quadrant.
 
 2. **CC‑A.6.C‑2 (No agency to epistemes).**
-   The text **MUST NOT** attribute promising, committing, or obligating agency to signatures, mechanisms, interfaces, documents, system-role kinds, or assignments. Any duty or commitment **SHALL** name its actual bearer and the exact separately obtaining `U.Commitment`; an assignment may appear only as an instituting rule's applicability ground.
+   The text **MUST NOT** attribute promising, committing, or obligating agency to signatures, mechanisms, interfaces, documents, system-role kinds, or assignments. A generic prescription **SHALL** name its exact normative source and applicable content without inventing an individual bearer. An individual duty or commitment **SHALL** name its actual bearer and exact separately obtaining `U.Commitment`; an assignment may appear only as an instituting rule's applicability ground.
 
 3. **CC‑A.6.C‑3 (Classify contract-language statements via A.6.B).**
    Contract-language statements **SHALL** be atomic L/A/D/E claims. Permission-looking wording **SHALL** select one A.6 `A6-AW-*` row; A.2.8.PER membership alone **MUST NOT** set the quadrant.
@@ -85,5 +87,5 @@ When *service* or access-like wording occurs in a relied-on boundary claim, reco
    If an MVPK face contains a BCP-14 keyword, each sentence **MUST** cite its classified claim ID, direct object, and selected `A6-AW-*` row when permission-looking. Only norm/grant claims cite D; gate claims cite A; exercise and evaluated findings cite E.
 
 8. **CC‑A.6.C‑8 (Obtaining is not representation).**
-   A `Publish` or `Approve` utterance, a document, carrier, or record does not by itself institute or prove a `U.Commitment` or `GrantedPermissionRelation@Context`. The exact obtaining predicate and cited context policy decide whether the relation obtains. A Claim Register row may assert or support reliance on it only when the row names the exact occurrence, predicate, `SubjectPatternLocator`, instituting act and policy, participants, scope/window, and current evidence required by that use; the row does not create the relation.
+   A `Publish` or `Approve` utterance, a document, carrier, or record does not by itself institute or prove a `U.Commitment` or `GrantedPermissionRelation@Context`. The exact obtaining predicate and cited context policy decide whether the relation obtains. A Claim Register row may assert or support reliance on it only when the row names the exact occurrence, predicate, `SubjectPatternLocator`, instituting act and policy, participants, scope/window, and current evidence required by that use; the row does not create the relation. When the grant occurrence is the row's direct object, `directObjectDesignation` **SHALL** be a `U.RelationRef` constrained to `GrantedPermissionRelation@Context`; an entity reference, `ClaimAddress`, display label, or arbitrary identifier cannot fill that branch.
 

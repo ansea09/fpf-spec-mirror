@@ -6,12 +6,12 @@ section_id: "E.14:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__016_relations.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:13 — Relations"
-line_start: 79031
-line_end: 79052
+line_start: 76328
+line_end: 76349
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -37,13 +37,13 @@ keywords:
 
 **Coordinates with.**
 
-* **CT2R‑LOG — Working‑Model Relations & Grounding** — label-meaning rules and `tv:groundedBy` Standard for edges grounded in Γₘ.
-* **Compose-CAL (Constructional Mereology)** — supplies the `sum`, `set`, and `slice` forms for a C.2.1 construction-trace episteme about independently grounded structural facts; the trace does not define the Working-Model relation or its identity.
+* **CT2R-LOG — Working-Model Relations and Grounding** — supplies the optional elected profile that adds `validationMode` and, for covered structural assertions, `tv:groundedBy`; direct relations outside the profile need neither field.
+* **Compose-CAL (Constructional Mereology)** — supplies the `sum`, `set`, and `slice` trace content when construction assurance is selected; the trace does not define the Working-Model relation or its identity.
 * **E.10 Lexical Discipline & Stratification** — ensures naming discipline and register hygiene when the human layer is published.
 
 **Constrains:**
 
-* All architectural patterns that publish relations **SHALL** present them in the Working-Model layer and **MAY** attach assurance only as needed, preserving relation-family separation and notational independence. (Template conformance as per E.8.)
+* All architectural patterns that publish relations **SHALL** present the readable Working-Model claim first. A direct relation outside an elected assurance profile needs no E.14 assurance field. When `B.3.5` or another named current requirement applies, attach only its required support below the claim while preserving relation-family separation and notational independence. (Template conformance as per E.8.)
 
 **Informs.**
 

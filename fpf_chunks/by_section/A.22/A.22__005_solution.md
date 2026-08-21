@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:4 — Solution"
-line_start: 34323
-line_end: 34624
+line_start: 33631
+line_end: 33932
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -134,7 +134,7 @@ Use description, publication, source-use, evidence, work, gate, decision, releas
 
 #### A.22:4.1b - Constraint-governed unfolding structure
 
-Use `A.22.CGUS` when the current A.22 structure is an organization among several identified loci and constraints: admitted starting records, already-current starting structures, relation signatures, constraints, invariants, guarded transitions, preserved and lost structure, admissible next forms, and conditions for stop, return, split, or currentness refresh. This structure specialization is still `U.Structure`; it is not a route, workflow, method, work plan, performed work, decision, evidence relation, gate, architecture description, or publication.
+Use `A.22.CGUS` when the current A.22 structure has several locally declared loci whose bindings identify the independently selected constituents for the unfolding question, and when the selected obtaining relation occurrences together with the applied constraint claims define at least two potential continuations across allowed cases. The loci are not free-standing A.6.5 slots. A separate case- and time-indexed result may enable zero, one, or several candidates. This specialization remains `U.Structure`; it is not a route, workflow, method, work plan, performed work, decision, evidence relation, gate, architecture description, or publication.
 
 Use `A.22.CGUS` only when the candidate has several loci and cross-locus constraints. A route card, table, graph, README entry, narrative, slide, or happy-path example may describe or demonstrate the unfolding structure, but it is not the structure itself.
 

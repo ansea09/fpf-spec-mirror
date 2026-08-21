@@ -6,12 +6,12 @@ section_id: "A.16.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__008_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:7 — Conformance Checklist"
-line_start: 27648
-line_end: 27656
+line_start: 27163
+line_end: 27171
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -40,8 +40,8 @@ keywords:
 - `CC-A.16.1-1` A cue pack **SHALL NOT** be presented as a claim, characteristic, method, work occurrence, or route-decision record.
 - `CC-A.16.1-2` A cue pack **SHALL** make `cueNucleus` explicit.
 - `CC-A.16.1-3` When preservation depends on privileged grounding, `primaryWitnessRef` or `primaryAnchor` **SHALL** be explicit.
-- `CC-A.16.1-4` `laneCandidates` and `routeCandidateHints` **MAY** be published early, but `selectedRoute`, `routeRationale`, and route authority state **SHALL NOT** be smuggled into the cue pack.
+- `CC-A.16.1-4` `laneCandidates` and `routeCandidateHints` **MAY** be published early, but `selectedRoute`, `routeRationale`, and route-selection status **SHALL NOT** be smuggled into the cue pack.
 - `CC-A.16.1-5` If route-candidate hints are not yet nameable, publication is still admissible only when `preservationRationale` and grounding make the preservation need explicit.
 - `CC-A.16.1-6` Language-state, anchoring, and representation-factor details **MAY** be referenced; use `C.2.LS` for the facet profile, `C.2.4` and `C.2.6` for anchoring, `C.2.5` for closure degree, and `C.2.7` for representation factors.
-- `CC-A.16.1-7` A cue pack **SHALL NOT** silently carry endpoint authority; use the applicable endpoint pattern to test and publish the later state.
+- `CC-A.16.1-7` A cue pack **SHALL NOT** claim that an endpoint test passed or that a stronger use is admitted; use the applicable endpoint pattern to test and publish that later result.
 

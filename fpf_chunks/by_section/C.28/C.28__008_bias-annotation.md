@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.28"
-pattern_title: "CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+pattern_title: "CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
 section_id: "C.28:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__008_bias-annotation.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+  - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:6 — Bias-Annotation"
-line_start: 57697
-line_end: 57710
+line_start: 54892
+line_end: 54895
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,13 +30,14 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
+  - "CausalUseSupportResult"
   - "Pearl Causal Hierarchy"
   - "Structural Causal Model"
   - "association"
   - "causal diagram"
   - "causal estimand"
-  - "causal evidence support basis"
   - "causal fairness"
+  - "causal support components"
   - "causal-RL evaluation"
   - "causal-use question"
   - "causality ladder"
@@ -50,15 +51,5 @@ keywords:
 
 ### C.28:6 - Bias-Annotation
 
-`C.28` is mainly a causal-discipline and anti-overclaim pattern for decision-bearing causal use. One part of that work is catching language laundering, but the larger job is to keep causal reasoning, evidence design, realizability, policy evaluation, fairness use, and benchmark parity from silently borrowing a `C.28` support basis, support verdict, or admissible-use value they do not actually have.
-
-Common biases:
-
-- **Causal prestige bias.** A result sounds more important when phrased causally, so under-supported evidence gets overused.
-- **Simulation laundering.** A simulated counterfactual is treated as observed or realized counterfactual-rung evidence.
-- **Metric proxy bias.** A fairness or performance proxy is treated as a causal result without rung and estimand.
-- **Benchmark scalarization bias.** A method comparison collapses different causal rungs, estimands, or transport assumptions into one score.
-- **Graph sufficiency bias.** A named graph is treated as enough without assumptions, data regime, calculus, and admissible use.
-
-The repair is not to ban causal language. The repair is to recover the live causal question, choose the least-committing admissible causal use supported by the available evidence, and then either downgrade, bound, design a causal-evidence plan with the required `C.28` support basis, open identification or realizability work, or abstain.
+Watch for causal prestige, simulation laundering, metric proxy substitution, graph sufficiency, feasibility-as-performance, data-without-Work, support-label substitution, and benchmark scalarization. The repair is not more formal vocabulary. Recover the question, support components, live threats, supported statement, unsupported statement, and reopen condition in the shortest form that remains replayable.
 

@@ -1,73 +1,45 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3"
-pattern_title: "Trust and Assurance Calculus (F-G-R with Congruence)"
+pattern_title: "Trust and Assurance Calculus"
 section_id: "B.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__003_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
+  - "B.3 — Trust and Assurance Calculus"
   - "B.3:2 — Problem"
-line_start: 38461
-line_end: 38469
+line_start: 37623
+line_end: 37632
 dependencies:
   - "A.10"
-  - "A.15"
   - "A.15.1"
-  - "A.15.PROD"
   - "A.2.4"
   - "A.2.6"
-  - "A.20"
   - "A.21"
-  - "A.6"
+  - "A.22"
   - "A.6.1"
-  - "B.1"
-  - "B.1.1"
-  - "B.3"
-  - "B.3.5"
-  - "B.4"
-  - "C.13"
   - "C.16"
   - "C.16.Q"
   - "C.2.1"
-  - "C.26"
-  - "C.26.1"
-  - "C.26.2"
-  - "C.26.3"
   - "C.28"
   - "C.29"
-  - "D.4"
-  - "E.14"
   - "E.17"
-  - "E.17.EFP"
   - "E.24.PUB"
   - "F.10"
-  - "F.9"
   - "G.11"
   - "G.6"
 keywords:
-  - "F-G-R"
-  - "assurance"
-  - "authority-looking labels"
-  - "claim-support posture"
-  - "congruence"
-  - "dashboard tiles"
-  - "evidence"
-  - "formality"
-  - "probe/distributed/export/causal assurance"
-  - "reliability"
-  - "scope"
-  - "trust"
 ---
 
 ### B.3:2 - Problem
 
-Without a disciplined calculus, four chronic failures appear:
+Five failures recur:
 
-1. **Trust inflation:** Averaging or summing heterogeneous “quality” tags yields aggregates that look better than their weakest parts, violating WLNK.
-2. **Scale confusion:** Mixing ordinal and ratio scales (e.g., averaging `F` ordinal scale values with numeric reliabilities) produces meaningless numbers.
-3. **Congruence blindness:** Integration quality (how well pieces fit) is invisible; brilliantly strong parts connected by weak mappings produce overconfident wholes.
-4. **Scope drift:** Design-time formalism and run-time evidence are composed into a single score; dashboards then claim “assurance” for a blueprint using run-time data, or vice versa.
+1. **Assurance by appearance.** A badge, dashboard, attestation, card, status, or publication is treated as the assurance conclusion.
+2. **One scale for unlike properties.** Formality, reliability, coverage, congruence, and evidence quality are placed in one tuple even though they have different bearers and scales.
+3. **Unsupported aggregation.** `min`, an average, a penalty, or another fold is called conservative without a dependency model and calibrated quantities.
+4. **Process burden by default.** Every result is required to name dated Work, Method, assignment, bindings, and a reusable record even when the claim's own basis closes the use.
+5. **Domain obligations absorbed into assurance.** Safety, rights, access, responsibility, contest, redress, status, or controlled-action rules are replaced by a generic assurance record.
 

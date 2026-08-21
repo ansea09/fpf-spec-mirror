@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.28"
-pattern_title: "CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+pattern_title: "CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
 section_id: "C.28:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__003_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
+  - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:1 — Problem Frame"
-line_start: 57062
-line_end: 57081
+line_start: 54324
+line_end: 54329
 dependencies:
   - "A.10"
   - "A.15"
@@ -30,13 +30,14 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
+  - "CausalUseSupportResult"
   - "Pearl Causal Hierarchy"
   - "Structural Causal Model"
   - "association"
   - "causal diagram"
   - "causal estimand"
-  - "causal evidence support basis"
   - "causal fairness"
+  - "causal support components"
   - "causal-RL evaluation"
   - "causal-use question"
   - "causality ladder"
@@ -50,21 +51,7 @@ keywords:
 
 ### C.28:1 - Problem Frame
 
-FPF already has dedicated neighboring patterns for measurement, evidence, assurance, temporal claims, decisions, exploration, call planning, fairness, method dispatch, parity, and quantum-like modeling. None of those neighbors should become the general authority for causal use.
+FPF already has patterns for measurement, temporal claims, evidence, assurance, choice, exploration, call planning, fairness, parity, and mathematical lenses. Each keeps its own result. Causal support cuts across them, so a small shared interface is needed without turning C.28 into a second version of those patterns.
 
-`C.28` exists because causal use cuts across those neighbors. The same sentence can be:
-
-- a measurement description handled by `C.16`;
-- a temporal trend handled by `C.27`;
-- an assurance claim handled by `B.3`;
-- an evidence graph reference handled by `A.10`;
-- a decision record handled by `C.11`;
-- a pool-policy record handled by `C.19`;
-- a call-planning record handled by `C.24`;
-- a fairness audit handled by `D.5`;
-- a parity report handled by `G.9`;
-- a quantum-like residual handled by `C.26`;
-- or a causal-use claim governed here.
-
-The first pattern task is therefore not to classify wording for its own sake. It is to recover the live causal question, the target causality-ladder rung, the support basis currently available, and the cheapest truthful next use. Sometimes that move is to downgrade the claim to association, temporal change, metric-only fairness, or simulation-only use. Sometimes it is to open identification, realizability, evidence-design, fairness, policy-evaluation, or benchmark-parity work. `C.28` exists to keep those moves distinct and to stop teams from acting as if an identification, realizability, or intervention-support basis had already been earned.
+The practical question is not “which causal vocabulary can we attach?” It is “what does this evidence support us to say about this causal question, and what would overturn that conclusion?”
 

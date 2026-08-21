@@ -6,12 +6,12 @@ section_id: "A.11:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__006_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:2 — Solution"
-line_start: 23068
-line_end: 23101
+line_start: 22499
+line_end: 22532
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -47,7 +47,7 @@ Use this compact record:
 ParsimonyAdmissionRecord:
   Candidate:
   RecoveredGovernedObject:
-  E24UKDecisionRef:
+  E24FamilySettlementDecisionRef: exact shared decision governed by E.24:4.0a; do not fill another E.24.UK decision form.
   ExistingExpressionAttempt:
   MaterialLossIfComposed:
   OverlapWithExistingValues:

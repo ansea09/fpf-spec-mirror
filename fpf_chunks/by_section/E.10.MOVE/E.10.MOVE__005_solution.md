@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__005_solution.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:4 — Solution"
-line_start: 75646
-line_end: 75730
+line_start: 72912
+line_end: 73010
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -44,10 +44,10 @@ Restore the governed target before choosing replacement wording:
 
 1. Name the exact `GovernedTextSpan`, the `ClaimBeingMade`, and the `ObjectUnderWordingRepair`.
 2. Decide whether the wording is ordinary prose, a quotation, or wording relied on for an FPF-governed claim. Ordinary and quotation uses can close without inventing a technical target.
-3. When the phrase is `mantra move`, first ask which use is present. For an A.22.CGUS-admitted `DemonstrativeUnfoldingSlice@Context`, recover one complete `DemonstratedPatternUseRow@Context`; keep the phrase only when its enclosing slice, question, subject-pattern locator, expected result, and continuation condition are recoverable. For a Plain local mantra, name the bounded result and restore the move-like wording through that result's exact predicate or constraint. For a Plain long mantra, name the intended final result and the particular map location whose answer or stop is current, then state the exact answer or blocker and use the subject pattern only as a locator. Do not invent a demonstrated row, collapse the long map into one pattern's Solution, or treat any branch as Work order.
+3. When the phrase is `mantra move`, first ask which use is present. In a post-qualification A.22.CGUS demonstrative slice that shows pattern use, recover the exact E.11.PUA `PatternUsePracticeContinuationDescription@Context`: its proposed use, expected result and kind, PatternID and name, current condition, and continuation disposition. Keep `mantra move` only as bounded Plain wording for that shown continuation. A.22.CGUS supplies the structure and slice boundary; it does not create a universal displayed-row kind. For a Plain local mantra, name the bounded result and restore the move-like wording through that result's exact predicate or constraint. For a Plain long mantra, name the intended final result and the particular map location whose answer or stop is current, then state the exact answer or blocker and use the subject pattern only as a locator. Do not invent a demonstrated row, collapse the long map into one pattern's Solution, or treat any branch as Work order.
 4. When `move`, `movement`, `direction`, or similar wording predicts a later evaluation result, recover `ExpectedEvaluationResultChange@Context` under `E.23`. That value is a coordinate-and-scale-qualified prediction episteme, not an operation, transition, movement, work occurrence, or proof of improvement.
 5. For every other governed use, name the exact recovered value or relation, its kind, and its subject pattern. For a relation claim, name the admitted direct predicate and actual participants. Add a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs that declaration. If the governed value is already clear, use its pattern directly.
-6. Split the text when one phrase carries more than one governed value. A recommendation, method, transformation, readiness relation, gate decision, publication relation, and performed work do not become one value because the same word was used for them.
+6. Split the text when one phrase carries more than one governed value. A recommendation, method, transformation, readiness claim or result, gate decision, publication relation, and performed Work do not become one value because the same word was used for them.
 7. Preserve `RemainingReaderUse`: the repair is complete only when a practitioner can still tell what can be inspected, selected, evaluated, planned, performed, or returned to next.
 
 #### E.10.MOVE:4.1 - MoveAndReadinessWordingRepairNote
@@ -87,6 +87,20 @@ Run this restoration when one of these wording groups carries an FPF-governed us
 
 The trigger group only opens the repair. It does not supply a replacement vocabulary or choose the governed-value kind.
 
+##### E.10.MOVE:4.2.1 - Readiness exits
+
+Stay in E.10.MOVE only while `readiness`, `ready`, `full kit`, `work entry`, or a similar cue still hides which governed value is meant. Once that value is recovered, use the direct pattern:
+
+| Recovered claim | Direct pattern |
+| --- | --- |
+| A patient, system, or other subject has a value in a still-hidden state frame | `A.19.SPR`, then the subject pattern that defines or tests the recovered value. |
+| An exact system-role assignment satisfies a by-value assignment-state condition | `A.2.5`; keep its predicate, world-side relation occurrence, and assertion episteme distinct. |
+| One intended performance satisfies a work-entry criterion | `A.15.5`; its local readiness result is not a gate decision or performed target Work. |
+| A distinct `OperationalGate(profile)` consumes declared checks and publishes a decision | `A.21`; a ready label or readiness result alone is not gate passage. |
+| A publication use, permission claim, preparation Work, or target Work is meant | `E.17`, the direct permission pattern, or `A.15.1` as applicable. Keep each claim separate. |
+
+If the direct pattern and value were already clear, bypass this table and use that pattern immediately.
+
 #### E.10.MOVE:4.2a - No synonym closure
 
 Replacing `move` with `step`, `action`, `use`, or `application` does not close the repair. Close only after recovering the governed value and its subject pattern. When responsibility is claimed, name the admitted System, direct domain predicate, actual participants, and applicability, or return the exact A.6.RCD missing governor; an assignment is not a responsibility result. Individuate the responsibility-relation occurrence separately only when a named receiving use needs to distinguish that occurrence. Ordinary-prose or quote-only use closes only when no FPF-governed value is claimed.
@@ -97,7 +111,7 @@ Replacing `move` with `step`, `action`, `use`, or `application` does not close t
 
 | `WordingUseDispositionValue` | Selected recovery |
 | --- | --- |
-| `boundedDemonstratedContinuation` | One `DemonstratedPatternUseRow@Context` governed by A.22.CGUS; for Plain `mantra move`, retain the complete bounded CGUS-demonstrative context and exit stronger claims to their direct patterns. |
+| `boundedDemonstratedContinuation` | One E.11.PUA `PatternUsePracticeContinuationDescription@Context` shown inside a post-qualification demonstrative slice. A.22.CGUS supplies the structure and slice boundary, not a wrapper-row kind. Retain the complete bounded use and send stronger claims to their direct patterns. |
 | `evaluationResultChangePrediction` | One E.23 `ExpectedEvaluationResultChange@Context` with evaluation pattern, coordinate, scale, current result, one expected value, range, or closed direction, proposal basis, and protected tradeoffs. |
 | `directGovernedUse` | The exact governed value or relation, its kind, and its subject pattern. For a relation claim, name the admitted direct predicate and actual participants; include a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs it. The wording disposition itself contributes no project ontology. |
 | `importedSourceWording` | Preserve the source expression only as source wording; recover every FPF use under its direct pattern. |

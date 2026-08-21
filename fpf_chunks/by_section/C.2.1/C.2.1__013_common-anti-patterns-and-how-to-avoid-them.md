@@ -6,12 +6,12 @@ section_id: "C.2.1:12"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:12 — Common Anti-Patterns and How to Avoid Them"
-line_start: 41558
-line_end: 41574
+line_start: 40457
+line_end: 40473
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -62,10 +62,10 @@ keywords:
 | Dependent kind as second identity | `U.MethodDescription`, `U.View`, or another dependent episteme kind is given an extra identity discriminator merely because its direct pattern supplies a membership condition. | Keep the C.2.1 identity of the same episteme individual. Apply the direct pattern only to judge dependent-kind membership; if work changes a C.2.1 discriminator, identify the resulting episteme through that changed discriminator. |
 | Context identifier in episteme identity by habit | A surrounding project or model-use context identifier is treated as identifying every episteme used there. | Keep the shared C.2.1 identity context-independent; add claim scope, viewpoint, or bounded model-use structure only through the direct relation on which the current use depends. |
 | Grounding by evidence presence | Stored evidence or one unrelated measurement is treated as grounding the whole episteme. | Select the exact covered claim subgraph, map every empirical claim in it to its required observation, intervention, measurement, or test relations involving the grounding holon, and test continuity of that complete coverage predicate. Evaluation or evidence supports the grounding assertion unless an exact evaluation relation is explicitly part of the empirical test; availability alone determines no world-side grounding state. |
-| Edition work as relation participant | Revision work is inserted into `EpistemeEditionRelation`, so two works appear to create two continuities between the same editions. | Keep earlier and later epistemes as the two participants; recover source-to-revision use, enacted-method semantics, change facts, evaluation, and evidence separately. Apply the shared 4.9 boundary only when first existence is an explicit premise. |
-| Edition by filename | `v2` or a later timestamp is taken as epistemic succession. | Recover the two episteme identities, then test edition continuity through identified revision work, source-to-revision use, enacted-method semantics, and actual change facts. A first-existence premise, when genuinely consumed, follows the shared 4.9 boundary rather than the filename. |
+| Edition work as relation participant | Revision Work is inserted into `EpistemeEditionRelation`, so two Work occurrences appear to create two continuities between the same editions. | Keep earlier and later epistemes as the two participants. Use Work, Method, source use, provenance, and change facts only as case facts for the independently stated continuity rule. |
+| Edition by filename or Method label | `v2`, a later timestamp, or a Method named `revision` is taken as continuity. | Recover both episteme identities, exact source use, the applicable continuity rule, its preserved and deliberately changed features, and its fork, translation, retargeting, and reconstruction failures. |
 | Published-episteme kind | Temporary participation in publication is treated as a second durable episteme kind. | Keep the episteme identity and state the exact publication occurrence; use Plain `published episteme` only for that contingent use. |
 | View as formatting, generation, or publication | A filtered table, diagram, query result, or published face is called a view because of appearance, construction history, or carrier, and a heading or edge is treated as cross-view correspondence. | Identify the receiving episteme under C.2.1 and apply `E.17.0` conformance for `U.View` membership. Add A.6.3 only for an actual source-to-receiving construction. Apply the exact direct subject-relation governor to correspondence; if none is recoverable, return an exact blocker naming the participants, required predicate and use, and missing governor. |
-| Bridge as use verdict | An obtaining Bridge, its predicate profile, or a card is treated as proving that one comparison, translation, publication, or other use is suitable, authorized, or already performed. | Keep the Bridge under F.9. State the proposed use in a separate ordinary C.2.1 assertion with the Bridge as EntityOfConcern and `<u,d,r,t>` plus polarity; recover A.10 or B.3 reliance and any actual receiving object under their subject patterns. |
+| Bridge as use verdict | An obtaining Bridge, its predicate profile, or a card is treated as proving that one comparison, translation, publication, or other use is suitable, authorized, or already performed. | Keep the Bridge under F.9. State the proposed use in a separate ordinary C.2.1 assertion with the Bridge as EntityOfConcern and `<u,d,r,t>` plus polarity; use A.10 for ordinary evidence reliance, B.3 only for an actual named assurance claim, and the direct pattern for any receiving object that actually exists. |
 | Mathematical identity leak | A tuple key or graph node identity becomes episteme identity. | Keep C.29 representation identity separate and use the C.2.1 identity triple. |
 

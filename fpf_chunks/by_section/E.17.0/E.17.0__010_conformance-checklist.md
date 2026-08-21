@@ -6,12 +6,12 @@ section_id: "E.17.0:9"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__010_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:9 — Conformance checklist"
-line_start: 80007
-line_end: 80020
+line_start: 77375
+line_end: 77388
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -36,7 +36,7 @@ keywords:
 4. Every dependency occurrence has only exact dependent/base epistemes as participants; assertion, description, D, J, evaluation, work, scope, time, scheme, representation, publication, and use remain conditional neighbors.
 5. `EpistemeViewpointConformanceRelation` has exactly E and P as participants, the fixed five-condition semantic predicate, and pair-determined positive-occurrence identity.
 6. `U.View` membership follows only from an obtaining conformance relation, never from authoring, identity viewing, query, selection, packaging, form, carrier, rendering, or publication.
-7. A singular viewpoint reference selects P for one describing use without becoming episteme identity or conformance; multi-selection uses a C.13 collection with exact membership.
+7. The current describing use is named. A singular viewpoint reference selects P only when that choice changes reading, checking, or a permitted conclusion; omission otherwise changes neither episteme identity nor conformance. Multi-selection uses a C.13 collection with exact membership.
 8. Optional local result values, evaluation, evidence, occurrence designation, decision-use D, and J exist only for a named receiving work or decision need; unsupported evaluation is not a third or negative value.
 9. For every multi-view collection, selected structure, or cross-view relation, apply the pattern that defines its identity or obtaining test; a table, graph, matrix, or shared subject proves none.
 10. Form expression, carrier bearing, five-participant publication availability and recurrence, rendering work, and C.29 representation remain distinct from E, P, view membership, and every represented world-side relation.

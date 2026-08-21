@@ -6,12 +6,12 @@ section_id: "E.10:9"
 section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
-line_start: 75262
-line_end: 75384
+line_start: 72528
+line_end: 72650
 dependencies:
   - "A.10"
   - "A.15"
@@ -108,7 +108,7 @@ A text **passes** LEX if all answers are **Green**:
 3. **Promise, ability, and performance split.** `PromiseContent` (promise clause), `Capability` (ability), `Work` (performance) are not conflated.
 4. **No anthropomorphism.** Documents, datasets, and models do not “do”; **Systems** do.
 5. **Scheduling hygiene.** No actuals belong in a `U.WorkPlan`. A performed occurrence is dated `U.Work` and points to its complete A.15.1/F.6 basis. Other direct facts, including affected referent, bindings, and resource use, remain separate. A short sentence may omit only an assignment identifier unused by its receiving claim; the underlying occurrence and attribution remain recoverable. An assertion, description, log, or record about the Work is a separate episteme, not the occurrence.
-6. **Cross-local relation.** When the text relates two different local senses, it identifies the exact F.17 cells and cites an F.9 Bridge only if that direct relation obtains, including direction, congruence, loss, and scope. Any proposed use and any A.10 or B.3 reliance remain separate. Apply **A.6.9 (RPR-XCTX)** when published wording such as “same”, “equivalent”, “align”, or “map” still hides that relation.
+6. **Cross-local relation.** When the text relates two different local senses, it identifies the exact F.17 cells and cites an F.9 Bridge only if that direct relation obtains under the applicable F.9 relation profile. When a receiving use is current, a separate C.2.1 claim says what action is proposed, its use direction, correspondence rule, tolerated loss, and polarity. That claim does not show that the action occurred. Use A.10 or B.3 only when reliance or assurance is actually current. Apply **A.6.9 (RPR-XCTX)** when published wording such as “same”, “equivalent”, “align”, or “map” still hides the relation.
 7. **MG-DA ok.** New or refactored tokens pass **§ 7 MG-DA** (anchored head noun; collision check; an enumeration names its closed value set, classified kind, and classification rule; use `U.Characteristic` and `CharacteristicSpace` only when the enumeration is the declared CSLC scale of that exact Characteristic).
 8. **Morphology ok.** Suffix, compound, prefix, and casing respect **§ 8 LEX.Morph** (for example, concrete `…SystemRole` kind designations, `MethodDescription`, `Work`, and reserved prefixes); bare `...Role` is not a default Tech form.
 9. **Banned tokens absent or recovered.** No *process*, *practice*, *function*, *task*, or *activity* in Kernel senses unless the sentence applies the selected recovery pattern (`A.3.4.P`, `A.6.F`, work patterns, method patterns, `C.36.P`, or another relevant pattern) and names the recovered value by value; no tooling or file suffixes in Kernel tokens.

@@ -6,12 +6,12 @@ section_id: "C.2.1:9"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_archetypal-grounding-worked-cases.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:9 — Archetypal Grounding — Worked Cases"
-line_start: 41486
-line_end: 41531
+line_start: 40384
+line_end: 40430
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -78,10 +78,11 @@ A theory episteme is recognized through its claim-bearing constitution and whole
 
 #### C.2.1:9.5 - Edition succession
 
-Episteme `E1` participates in revision work `W2` through the exact source-to-revision-use relation recovered by `C.2.P`; `E2` has changed claim content and a separately recovered C.2.1 identity. C.2.1 defines the edition-continuity predicate and pair-based occurrence-identity rule. The enacted revision method, source-to-revision use, and actual change facts supply the current case basis. **Inception contrast:** in the positive branch, the direct subject pattern already defines a first-existence predicate and the exact `W2` change facts satisfy it, so that separately governed fact may enter the edition assessment. In the blocked branch, no such governor exists; return the shared 4.9 `missing-governor` result and do not use first constitution as an edition premise. In either branch, changed C.2.1 discriminators identify `E2` independently. The edition assertion states polarity, separately governed evaluation or evidence use states reliance, and only positive case facts that satisfy the edition predicate let the pair rule individuate its occurrence. `W2` is not a third participant. Later repackaging or publication establishes neither another episteme nor edition continuity.
+Episteme `E1` is the exact source used to produce candidate edition `E2`. The applicable continuity policy says that the EntityOfConcern remains the same, specified core claims must remain traceable, listed claims may be corrected, and a translation into another reference scheme counts as a derivative rather than an edition. The current case identifies the preserved core claims, deliberately corrected claims, unchanged EntityOfConcern, and source-to-revision use. Those facts satisfy the policy, so the positive `EpistemeEditionRelation(E1,E2)` assertion is available.
+
+If the same Work instead retargets the claims to another EntityOfConcern, translates them under a rule that the policy classifies as a derivative, or reconstructs similar content without using E1 as source, the edition predicate fails even when the Method is named “revision.” Work, Method, provenance, change facts, evaluation, and evidence remain outside the two-participant relation. Later repackaging or publication establishes neither another episteme nor edition continuity.
 
 #### C.2.1:9.6 - Grounded identity across two observations
-
 A morning-observation episteme concerns observed object `M` under one reference scheme; an evening-observation episteme concerns observed object `E` under another. The exact direct identity or reidentification pattern for the observed entity must define the predicate and identity rule. The physically testable trajectory and observations supply the current case facts; they may satisfy or fail that predicate but the pattern itself establishes neither result. A separate identity-assertion episteme states affirmative or negative polarity, and exact evaluation or evidence-use relations make supported, refuted, or unresolved reliance inspectable. Only after positive case facts satisfy the predicate may its identity rule individuate an occurrence for designation. If no current direct governor is recoverable, keep reliance unresolved and return an exact missing-relation blocker naming `M`, `E`, the required predicate and use, and the missing governor. Even after both designations resolve to the same exact entity, the two observation epistemes need not merge: their claim graphs or effective reference schemes can keep their C.2.1 identities different. A shared label or grounding holon alone establishes neither world-side identity nor episteme identity.
 
 #### C.2.1:9.7 - Readable wiring diagram as a proxy

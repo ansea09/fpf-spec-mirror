@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 72184
-line_end: 72580
+line_start: 69485
+line_end: 69881
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -59,7 +59,7 @@ keywords:
 #### E.8:4.1 - Canonical Pattern Template
 Within each pattern, the **canonical** section headings **SHALL** appear in the order below.
 For each **canonical content section heading (1–12)**, the `<Title>` component (after the heading separator, e.g. ` - `) **MUST** start with the canonical section title (case-insensitive match; canonical capitalisation preferred); an optional clarifier after an em dash is allowed (e.g., `Solution — …`).
-The **Footer marker** (section **13**, if present) is a sentinel and is governed by **H-9** rather than the standard `<FullId> - <Title>` shape.
+The mandatory **Footer marker** (section **13**) is the final sentinel and is governed by **H-9** rather than the standard `<FullId> - <Title>` shape.
 
 **Extensibility.**
 Authors **MAY** add additional sections. Prefer expressing them as subsections under the nearest canonical section (e.g., `4.1`, `4.1.1` under *Solution*). If an additional pattern-level section is necessary, it **MUST NOT** delete or reorder the canonical sections and its title **MUST NOT** shadow a canonical title.
@@ -68,7 +68,7 @@ Authors **MAY** add additional sections. Prefer expressing them as subsections u
 * Canonical sections **1–13** are mandatory in every pattern.
 * Canonical sections carry content. Authors must not use omission placeholders as section substitutes; when a section is intrinsically small, write the smallest content-bearing grounding, misuse, boundary, or reduced-case statement that preserves the section's function.
 * **First substantive authoring seed.** The first non-empty authored body of a pattern **SHALL** already instantiate the canonical section frame by value: title line, header block, canonical sections **1–13**, and the footer marker.
-* **Seed is not maturity.** The canonical frame is a minimum authoring seed, not a mature pattern claim. Before a pattern is used for public, teaching, enterprise, reliance-bearing, landing-input, release-input, or ordinary practitioner guidance, each canonical section must carry enough recognition, action guidance, worked material, source/SoTA use, boundary, consequence, and relation content for the declared use, and the pattern-quality claim is checked through `E.21`. A file with correct headings, thin bullets, scenario labels, or compressed DRR recap remains a pattern seed until that content is present or the package explicitly marks it as `seedOnly`.
+* **Seed is not maturity.** The canonical frame is a minimum authoring seed, not a mature pattern claim. Before a pattern is used for public, teaching, enterprise, reliance-bearing, landing-input, release-input, or ordinary practitioner guidance, each canonical section must carry enough recognition, action guidance, worked material, source/SoTA use, boundary, consequence, and relation content for the declared use. A material maturity, readiness, admission, or landing claim also needs the independent complete `E.21` result selected for that conclusion; an author-side provisional pass or focused repair check does not supply it. A file with correct headings, thin bullets, scenario labels, or compressed DRR recap remains a pattern seed until that content is present or the package explicitly marks it as `seedOnly`.
 * Recognition openings and first-minute working guidance belong **inside** that canonical frame. Any retained pre-template entry material must also stay inside that same canonical frame rather than appearing as one pre-template opening memo. Authors **MUST NOT** seed one pre-template opening memo and postpone canonical sectioning, `Conformance Checklist`, or footer-marker installation to one separate `E.19`, assembly, or review-repair pass.
 
 **Template:**
@@ -84,7 +84,7 @@ Authors **MAY** add additional sections. Prefer expressing them as subsections u
 8. **Common Anti‑Patterns and How to Avoid Them** (at least one local misuse, overread, or exact boundary case; no placeholder)
 9. **Consequences**
 10. **Rationale**
-11. **SoTA-Echoing** (post-2015 practice alignment; terminology drift and deltas; full comparison or reduced SoTA required whenever external or internal practice changes the Solution)
+11. **SoTA-Echoing** (current-best problem answer; by-value comparison at comparable effort; explicit trade-off and adopt/adapt/reject decision whenever external or internal practice changes the Solution)
 12. **Relations**
 13. **Footer marker**
 
@@ -156,7 +156,7 @@ Resolution and checking are declaration-first and context-sensitive. Authors and
 *Unification note:* historic A‑ and D‑templates differed only by the presence/absence of **Bias‑Annotation** and **Relations**; the unified template keeps the headings everywhere and requires every heading to carry content-bearing grounding, boundary, consequence, rationale, source-use, relation, or reduced-case material rather than an omission placeholder.
 The Alexandrian pattern canon historically calls *Problem frame* “Context”. FPF uses *Problem frame* because generic `Context` and universal `U.BoundedContext` do not identify the actual value a claim needs.
 
-Route each use directly: recover source-local meaning through F.0.1 and, only when a durable address or basis relation is needed, F.17; select answer-changing sources through F.1; state `ClaimScope` through A.2.6; use A.1.1 for an admitted bounded model use; and retain a subject-specific context term only where that subject pattern defines it. F.9 is used only for an actual relation between distinct F.17 cells or ReferencePlanes. A shared word, imported source, or generic need for “more context” supplies none of these values.
+Route each use directly: recover source-local meaning through F.0.1 and, only when a durable address or basis relation is needed, F.17; select answer-changing sources through F.1; state `ClaimScope` through A.2.6; use A.1.1 for an admitted bounded model use; and retain a subject-specific context term only where that subject pattern defines it. Use F.9 only for an obtaining Bridge between two exact F.17 local senses. A ReferencePlane difference follows its applicable plane relation. A shared word, imported source, different context, different plane, or generic need for “more context” establishes neither relation.
 
 
 #### E.8:4.1.2 - Preserve Pattern Use Value Across Material Revisions
@@ -189,7 +189,7 @@ Test first-use affordability by checking whether the positive Solution supports 
 recognizable situation -> proposed action or judgement -> first useful result -> next action-changing condition or stop
 ```
 
-This rendering explains the pattern; it does not claim that actual work is linear. Use an optional local mantra only when it improves recall and an ordinary walkthrough only when several rows materially improve explanation; choose the smallest form that keeps the action, result, and boundary recoverable. Explanatory rows may fade as competence or task demand permits, but an independently action-changing condition or boundary may not. Use `DemonstrativeUnfoldingSlice` only after independent `A.22.CGUS` admission of that exact structure for the named pattern use. Put a subject-side check immediately before the continuation it changes, and keep authoring, review, quality, and release checks outside the subject Solution.
+This rendering explains the pattern; it does not claim that actual work is linear. Use an optional local mantra only when it improves recall, and show one ordinary traversal only when several rows materially improve explanation; choose the smallest form that keeps the action, result, and boundary recoverable. Explanatory rows may fade as competence or task demand permits, but an independently action-changing condition or boundary may not. If the traversal itself must be a durable governed object, use the exact published `DemonstrativeUnfoldingSlice@Context` designation only after `A.22.CGUS` admits that structure for the named pattern use. Put a subject-side check immediately before the continuation it changes, and keep authoring, review, quality, and release checks outside the subject Solution.
 
 **Resolve triggered enumerations semantically.** A list is triggered when wording or grammar asserts or implies one common kind, predicate, relation position, authority, action, or result; when its member set or membership rule changes; or when a noun sequence hides a claim or action. A locator or visual scan may find candidates but cannot close the judgment. Give every triggered list one of these resolutions:
 
@@ -216,11 +216,11 @@ Treat one triggered list as a small attention series. A member is a separate uni
 | S-6 | Quotable Closers | Finish Solution or Consequences with a memorable aphorism. |
 | S-7 | Generative over Prescriptive | Present rules as enabling constraints, not bureaucracy. |
 | S-8 | Trans-disciplinary Tie-ins | Illustrate using at least two distinct fields. |
-| S-9 | Physical Grounding Reference | Link abstractions to a `Transformer` or physical process. |
+| S-9 | Physical Grounding Reference | Tie an abstraction to the actual system doing the work and to the holon or physical process it changes. Mention a local transformer system-role classification or an obtaining assignment only when it changes the claim; ordinary *transformer* may remain readable metonymy for that system. |
 | S-10 | Punchy Blocks | <= 5 sentences per paragraph; lists for clarity. |
 | S-11 | Narrative Flow | Ensure sections read as a continuous story, not bullet soup. |
 | S-12 | Full sentences over tags | Avoid “keyword soup”. Each list item SHOULD contain a subject and a verb; prefer 2-4 sentence micro-paragraphs to bare tag lists. |
-| S-13 | SoTA-Echo structure | In the SoTA-Echoing section, present: **claim -> practice -> source -> alignment -> adoption status (adopt, adapt, or reject)**. When the claim actually relates distinct F.17 local senses or ReferencePlanes, cite the exact F.9 relation, CL, admitted use, and loss; importing a source alone creates no Bridge. |
+| S-13 | SoTA-Echo structure | In the SoTA-Echoing section, present: **claim -> practice -> source -> alignment -> adoption status (adopt, adapt, or reject)**. When the claim also uses an obtaining Bridge between two exact F.17 local senses, cite that relation and a separate bounded-use claim; `CL` is optional. Cite an applicable plane relation separately. A source import, context difference, or plane difference alone creates no Bridge or penalty. |
 | S-14 | Didactic-content sufficiency | New and substantially revised patterns carry enough didactic content to be teachable without nearby project notes. |
 | S-15 | Worked slices over scenario labels | Transform-like families show at least one concrete source and resulting-publication slice; scenario names alone are not enough. |
 | S-16 | Ordinary vs FPF-governed wording realism | Keep ordinary use light, and make heavier review records explicit only for disputed, high-risk, or higher-impact cases. |

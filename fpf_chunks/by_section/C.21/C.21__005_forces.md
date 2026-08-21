@@ -6,31 +6,36 @@ section_id: "C.21:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__005_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:3 — Forces"
-line_start: 50370
-line_end: 50378
+line_start: 49169
+line_end: 49180
 dependencies:
+  - "A.10"
   - "A.17"
+  - "A.17-A.18"
   - "A.18"
+  - "A.19"
   - "A.2.6"
   - "B.3"
   - "C.16"
   - "C.2"
+  - "C.2.1"
   - "C.20"
-  - "E.10"
-  - "F.17"
+  - "C.I"
+  - "E.24.PUB"
   - "F.9"
   - "G.0"
   - "G.10"
   - "G.11"
   - "G.12"
   - "G.2"
+  - "G.4"
   - "G.5"
+  - "G.6"
   - "G.9"
-  - "U.Discipline"
 keywords:
   - "alignment"
   - "discipline"
@@ -42,10 +47,13 @@ keywords:
 
 ### C.21:3 - Forces
 
-| Force                            | Tension                                                                                                                    |
-| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| **Comparability vs nuance** | Need wider pictures without erasing the exact schemes, corpora, traditions, cohorts, and local claims that make each reading meaningful. |
-| **Ordinal vs interval/ratio**    | Powerful stats tempt inadmissible operations on ranks and categories.                                                                  |
-| **Local evidence vs federation** | A reading is computed from a named evidence set and `ClaimScope`; federation requires an admitted comparison basis and any actually obtaining cross-local relation, with assurance penalties applied to **R** only. |
-| **Recency vs stability**         | Health evolves; time-series or dashboard views need **freshness**, not just cumulative history.                           |
+| Force | Tension |
+| --- | --- |
+| Comparability vs nuance | A wider field picture is useful, but exact definitions, populations, windows, schemes, and local meanings must survive. |
+| Readable minimum vs replay | One ordinary claim should be cheap; a numerical comparison or reusable series needs enough identity to be repeated. |
+| Ordinal vs interval or ratio | Ranks and categories invite illegal arithmetic. |
+| Formal status vs actual adoption | Approval by a standards body and use by a population can vary independently. |
+| Direct comparison vs cross-local relation | Compatible readings compare directly; distinct local senses add a directional relation and its loss. |
+| Recency vs stability | Health changes through time; a trend needs explicit windows and current definition editions. |
+| Evidence vs publication | Support, measurement, series content, dashboard representation, and audience availability answer different questions. |
 

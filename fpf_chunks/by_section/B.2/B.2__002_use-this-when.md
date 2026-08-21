@@ -6,12 +6,12 @@ section_id: "B.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__002_use-this-when.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:0 — Use This When"
-line_start: 37009
-line_end: 37035
+line_start: 36178
+line_end: 36204
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,7 +54,7 @@ Typical moments:
 - separately governed structure, functioning, method, and work facts support a capability envelope that the existing whole cannot explain; evidence separately supports the claim about those facts;
 - an architecture residual cannot be explained inside the existing whole.
 
-**First useful move.** Try `ExistingWholeExplanationCheck` first. If the observed gain or shift can be explained inside the existing whole by better parts, corrected relations, improved measurement, method or work repair, richer phase coverage, or architecture-view repair, stay with the existing whole and use the subject pattern for that explanation. Use B.2 only when the whole itself must be reidentified.
+**First useful move.** Compare the observed gain or shift with explanations that preserve the existing whole. If better parts, corrected relations, improved measurement, Method or Work repair, richer phase coverage, or architecture-view repair is sufficient, stay with the existing whole and use that subject pattern. Use B.2 only when the whole itself must be reidentified.
 
 **What goes wrong if missed.** Emergence becomes rhetoric, ordinary improvement is overclaimed as a new whole, or a genuinely new whole remains hidden under old part, evidence, assurance, architecture, or responsibility claims.
 

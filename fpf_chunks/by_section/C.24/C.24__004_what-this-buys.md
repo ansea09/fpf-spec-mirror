@@ -6,50 +6,46 @@ section_id: "C.24:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__004_what-this-buys.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:0.2 — What this buys"
-line_start: 52334
-line_end: 52345
+line_start: 51158
+line_end: 51170
 dependencies:
-  - "A.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
-  - "A.15.5"
   - "B.1.6"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.24"
+  - "C.19.1"
   - "C.28"
   - "C.5"
-  - "E.10.MOVE"
-  - "E.11.PUR"
+  - "E.17"
   - "E.23"
-  - "E.3"
-  - "E.5"
+  - "E.24.PUB"
   - "G.5"
   - "G.6"
   - "G.9"
   - "U.PromiseContent"
-  - "U.WorkPlan"
 keywords:
 ---
 
 ### C.24:0.2 - What this buys
 
-- one tool-agnostic planning record for admissible calls, budgets, stop conditions, and replan triggers
-- one explicit enactment-facing plan or bounded checkpoint with objective, budget, stop conditions, and next planned action, without presenting intent as actual Work
-- one replayable call graph and assurance record instead of one opaque chain of tool invocations
+- one small, tool-neutral plan that cites the accepted upstream result;
+- visible budgets, stop conditions, and replan triggers before calls are made;
+- one replayable call-trace reference after Work occurs; and
+- one bounded checkpoint when more route probing is justified but commitment is not.
 
-**Primary working object.** One `ATC.CallPlan : U.WorkPlan` for intended calls. Each planned call selects an exact independently admitted `U.Method`; a current route description is a separate C.2.1 `U.MethodDescription` episteme that describes and may help identify, constrain or justify that Method or intended Work. Actual tool-call Work, its performer System, obtaining assignment, interval, containing system and `enactsMethod` relation remain downstream A.15.1 facts.
+**Primary working object.** One `ATC.CallPlan : U.WorkPlan`. Each step selects a `U.Method`. A route description may help locate or constrain that Method, but remains a separate `U.MethodDescription`. Actual calls are dated `U.Work` and remain outside this planning result.
 
-**First useful move.** For each planned call, name the exact `methodRef` first, then cite an edition-pinned `methodDescriptionRef` only if its route description is needed. State order, budget, stop/replan condition and next action without claiming that Work occurred.
+**First useful move.** Cite `upstreamChoiceResultRef`, then write the ordered Method refs, budget, stop or replan condition, and next planned action. Add route-description refs only where the route cannot be understood without them.
 
-**Not this pattern when.** If the surviving option or pool policy is unresolved, use `C.11` or `C.19`. If selector-facing result declaration is current, use `G.5`. If that result already exists and actual audience availability is current, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability. If the question is only what a callable MethodDescription says, use `A.3.2` for its content and `C.2.1` for its episteme identity. If the question is whether a call actually occurred or what Method it enacted, use `A.15.1`; if work-entry readiness is the question, use `A.15.5`.
+**Not this pattern when.** Use `C.11` while fixed-option choice is unresolved, `C.19` while treatment of a live pool is unresolved, `G.5` when the current task is selector-facing result declaration, `A.15.5` for work-entry readiness, and `A.15.1` when the question is what Work actually occurred or which Method it enacted.
 

@@ -1,24 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.S"
-pattern_title: "U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
+pattern_title: "TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
 section_id: "A.6.S:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__004_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
+  - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:2 — Problem"
-line_start: 20654
-line_end: 20662
+line_start: 20315
+line_end: 20323
 dependencies:
-  - "A.12"
-  - "A.3"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.2"
+  - "A.2.1"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6"
   - "A.6.0"
-  - "A.6.2"
-  - "A.6.3"
-  - "A.6.4"
+  - "A.6.2-A.6.6"
   - "A.6.5"
   - "A.6.6"
   - "A.6.B"
@@ -26,22 +30,12 @@ dependencies:
   - "C.2.1"
   - "E.10"
   - "E.17"
+  - "E.17.0"
   - "E.18"
-  - "E.19"
+  - "F.6"
 keywords:
-  - "ConstructorSignature"
-  - "EFEM"
-  - "MVPK views (no new semantics)"
-  - "TargetSignature"
   - "appear"
-  - "claim register"
-  - "editioning"
-  - "no epistemic agency"
   - "quadrant classification is governed by A.6.B)"
-  - "retargeting"
-  - "signature engineering"
-  - "slot/base change lexicon"
-  - "two-signature arrangement"
 ---
 
 ### A.6.S:2 - Problem

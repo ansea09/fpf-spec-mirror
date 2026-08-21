@@ -1,24 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.S"
-pattern_title: "U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
+pattern_title: "TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
 section_id: "A.6.S:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__012_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
-  - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
+  - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:10 — Rationale"
-line_start: 20973
-line_end: 20988
+line_start: 20512
+line_end: 20521
 dependencies:
-  - "A.12"
-  - "A.3"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.2"
+  - "A.2.1"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6"
   - "A.6.0"
-  - "A.6.2"
-  - "A.6.3"
-  - "A.6.4"
+  - "A.6.2-A.6.6"
   - "A.6.5"
   - "A.6.6"
   - "A.6.B"
@@ -26,37 +30,21 @@ dependencies:
   - "C.2.1"
   - "E.10"
   - "E.17"
+  - "E.17.0"
   - "E.18"
-  - "E.19"
+  - "F.6"
 keywords:
-  - "ConstructorSignature"
-  - "EFEM"
-  - "MVPK views (no new semantics)"
-  - "TargetSignature"
   - "appear"
-  - "claim register"
-  - "editioning"
-  - "no epistemic agency"
   - "quadrant classification is governed by A.6.B)"
-  - "retargeting"
-  - "signature engineering"
-  - "slot/base change lexicon"
-  - "two-signature arrangement"
 ---
 
 ### A.6.S:10 - Rationale
 
-The two‑signature move mirrors a recurring engineering insight: stable interfaces often require an explicit description of the *enabling* interface that produces and maintains them. Without this, “engineering the TargetSignature” happens implicitly, and the project loses semantic accountability.
+Stable boundaries sometimes benefit from a reusable description of how they are revised. That is the useful two-signature technique: one `U.Signature` is the current target declaration, and another `U.Signature` declares constructor operations for a named reuse. It is not a universal architecture for editing and does not require a third pair object.
 
-A.6.S treats A.6.5 and A.6.6 as *constructor primitives* and makes them explicit in a ConstructorSignature. This yields a compositional change language: reviewers reason about a boundary’s evolution as sequences of named operations, instead of reverse‑engineering intent from prose.
+A.6.5, A.6.6, A.6.2-A.6.4, and E.17 supply distinct optional moves. Treating all of them as mandatory constructor primitives would recreate the ambiguity and overhead those patterns are meant to remove. The direct move comes first; the reusable ConstructorSignature packages only the operation language that has an actual receiver.
 
-Connecting signature engineering to A.6.2–A.6.4 provides a principled way to separate:
+The result keeps viewing, declaration edits, episteme succession, reference retargeting, EntityOfConcern retargeting, application, and Work distinct. A.6.B likewise keeps laws, gates, duties, and evidence-use claims from competing in one “contract” paragraph.
 
-* **Viewing**: change the view, keep the EntityOfConcern.
-* **Construction edits**: unpack structure without silently changing meaning.
-* **Retargeting**: acknowledge a new TargetSignature edition and make the transition explicit.
-
-Finally, classifying claims through A.6.B makes “contract” talk ontologically safe: laws, gates, norms, and evidence stop competing for the same paragraph.
-
-**SoTA source note (informative).** The separation between an operation signature and its effectful realization is adopted from modern algebraic effects/handlers; the `U.View` and `U.Viewpoint` responsibility discipline is adapted from ISO/IEC/IEEE 42010; and the “preservation under change” intuition is adapted from categorical optics (see A.6.S:11).
+**SoTA source note (informative).** Modern effect systems support the separation between an operation declaration and effectful realization; categorical optics inform explicit preservation claims; and architecture-description practice informs accountable views. A.6.S adopts those limited separations without importing a tool ontology or making a ConstructorSignature mandatory.
 

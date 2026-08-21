@@ -6,12 +6,12 @@ section_id: "A.19.SPR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__005_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:3 — Forces"
-line_start: 29073
-line_end: 29082
+line_start: 28563
+line_end: 28571
 dependencies:
   - "A.10"
   - "A.16"
@@ -45,11 +45,10 @@ keywords:
 
 ### A.19.SPR:3 - Forces
 
-| Force | Tension |
+| Need | Tension |
 | --- | --- |
-| Compact state words vs bearer named by value | Working prose needs short state words, but FPF claims need the bearer named. |
-| Local finite fields vs hidden ontology | Some pattern-local state fields are useful; others hide source, evidence, assurance, gate, release or admission, or administrative claims. |
-| A.19 state-space core vs many subject patterns | `A.19` gives `CharacteristicSpace`, but many state-like claims belong to evidence, assurance, publication, temporal, lens-use, or project-side administrative records. |
-| Semio precision vs semio-bias | Source or publication state wording may need semio repair, but not every state-like claim is a source, publication, or language-state case. |
-| Cheap repair vs reusable discipline | Many cases need one local rewrite; recurring state-family failures need one reusable realization pattern. |
+| Short working language | Practitioners need compact sentences, but a consequential claim must still identify what is being judged. |
+| Local fields | A finite field can be useful; a vague status field can hide several unrelated claims. |
+| Direct patterns | A.19 covers characteristic spaces, while evidence, assurance, publication, assignment state, readiness, gates, and project records keep their own rules. |
+| Small repair | Most cases need one rewritten sentence, while replayed or high-consequence cases may need a few additional fields. |
 

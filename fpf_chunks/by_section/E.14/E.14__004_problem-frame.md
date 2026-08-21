@@ -6,12 +6,12 @@ section_id: "E.14:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__004_problem-frame.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:2 — Problem Frame"
-line_start: 78724
-line_end: 78741
+line_start: 76021
+line_end: 76038
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -40,7 +40,7 @@ Both failure modes create friction between two audiences:
 
 E.14 resolves the impasse by **separating concerns**:
 
-* A **Working-Model layer**: curated kinds and relations expressed in plain terms, governed by simple human rules.
+* A **Working-Model layer**: curated kinds and relations expressed in plain terms, with simple human rules for using them.
 * An **Assurance stack** beneath it - **Mapping**, **Logical**, **Constructive** - that carries the heavy arguments and accounts (concept alignment, direct relation semantics, construction-trace epistemes) and **never leaks back** into the Working-Model narrative.
 
 This pattern dovetails with the framework's unification stance (**small Working-Model text, rigorous foundations**) and with the constructional-mereology discipline that `sum`, `set`, and `slice` provide inspectable accounts of independently grounded assembly, collection, and aspect facts. Those forms do not create a relation occurrence or decide whole identity. The Kernel stays minimal and meta-only.

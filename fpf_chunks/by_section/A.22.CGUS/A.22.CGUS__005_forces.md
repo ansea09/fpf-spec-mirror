@@ -6,38 +6,39 @@ section_id: "A.22.CGUS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__005_forces.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:3 — Forces"
-line_start: 34749
-line_end: 34758
+line_start: 34059
+line_end: 34068
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.21"
   - "A.22"
-  - "A.6.3.NAR"
-  - "B.3.5"
-  - "B.5.2"
-  - "C.13"
-  - "C.18"
-  - "C.19"
-  - "C.2.P.DR"
-  - "C.3"
+  - "A.3"
+  - "A.6.5"
+  - "A.6.P"
+  - "B.3"
+  - "C.29"
+  - "C.30"
+  - "C.32"
   - "C.32.P2S"
   - "C.33"
   - "C.35"
-  - "E.10.MOVE"
   - "E.11"
   - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.18.3"
   - "E.18.NET"
-  - "E.18.NET-conforming"
   - "E.23"
-  - "E.24.PUB"
   - "F.17"
+  - "F.18"
+  - "F.9"
   - "G.11"
-  - "G.5"
 keywords:
 ---
 
@@ -45,9 +46,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Useful unfolding vs workflow overread | A structured unfolding helps a practitioner see what can come next, but the project sequence may be nonlinear, partial, interrupted, iterative, or carried by different admitted methods or work arrangements. |
-| Reusable `U.Structure` specialization vs root-kind inflation | FPF needs a reusable A.22 specialization of `U.Structure` for constraint-governed unfolding without minting `U.Route`, `U.Workflow`, `U.Process`, `U.Architecture`, or another root kind by appearance. |
-| Description usefulness vs semio-bias | Route cards, graphs, tables, slides, narratives, and README lines can suggest the structure before admission or present it after admission, but provisional descriptions and admitted demonstrative slices are not the structure itself. |
-| Local claims vs universal calculus | P2W, P2S, abduction, narrative, improvement, grounding, refresh, and option selection need different concrete definitions, tests, methods, or claim rules; CGUS only carries the shared constraint-governed unfolding structure. |
-| Didactic entry vs shadow navigation | First-entry seed lines help new readers start while remaining publication aids rather than a second specification or navigation authority beside the pattern content they cite. |
+| Useful explanation vs workflow overread | A visible path helps a reader, but actual Work may be nonlinear, interrupted, iterative, or arranged by another Method or plan. |
+| Potential structure vs present result | The structure can retain several possible branches while the present case enables none, one, or several. |
+| Plain entry vs formal replay | An ordinary correction should be cheap; qualification and replay still need enough identity and relation detail to be checked later. |
+| Description vs described structure | A card, graph, table, or narrative can describe a structure without creating it. |
+| Reuse vs copied mini-patterns | CGUS needs direct exits to relation, transformation-flow, work, publication, and assurance patterns without copying their architectures. |
 

@@ -6,12 +6,12 @@ section_id: "E.24.PUB:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__009_conformance-checklist.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:7 — Conformance Checklist"
-line_start: 89704
-line_end: 89718
+line_start: 87089
+line_end: 87103
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -37,14 +37,14 @@ keywords:
 
 | Check | Observable conformance condition |
 | --- | --- |
-| `CC-E24PUB-1` | Before occurrence, the receiving use is named by the current plan, decision question, training or reference use, or other claim that states what is intended; it is not called `U.Work`. Any claimed dated Work satisfies A.15.1 and F.6: it names its performer, Method, time, containing System, a covering assignment held by that performer, and the F.6 relation linking the Work to that assignment. A short sentence may omit an assignment identifier it does not use. A claimed use of a published assertion names either the declared predicate, participant order, and actual values for a premise, reference, other participant, or work-to-referent use, or the identified A.6.1 application and declaration-local binding for an operation argument. Otherwise the text stops at publication availability or returns the applicable A.15.1 `missing-governor` result. Choice Work keeps its C.11 `ChoiceResult` separate from the Work and publication participants. |
+| `CC-E24PUB-1` | The bounded-use declaration itself names the intended receiving use. A separate plan, decision question, or `U.WorkPlan` is cited only when it independently exists and changes the publication claim. The publication statement names the selected edition, audience, bounded use, form, and carrier; it establishes no actual access, reliance, use, Work, or result. Any independently current stronger claim is routed to its direct pattern without reproducing that pattern's test here. |
 | `CC-E24PUB-2` | The selected episteme edition, audience declaration, bounded-use declaration, publication form, and presentation carrier are distinguishable. |
 | `CC-E24PUB-3` | `EpistemePublicationRelation` has the five exact participant meanings, the availability predicate, and the maximal-continuous-occurrence identity rule stated in section 4.1. |
 | `CC-E24PUB-4` | `PublicationFormExpressionRelation` and `PublicationFormBearingRelation` are recoverable when expression or carrier availability is load-bearing. |
 | `CC-E24PUB-5` | Plain `published episteme` is used only for contingent participation; `U.EpistemePublication` is not used as a durable kind. |
 | `CC-E24PUB-6` | A `U.View` remains a same-individual dependent specialization of `U.Episteme` under an obtaining E.17.0 conformance relation; graphical appearance and A.6.3 construction alone supply no membership. |
 | `CC-E24PUB-7` | C.29 representation elements and correspondence remain distinct from the publication form and direct subject-side objects. |
-| `CC-E24PUB-8` | Publication activity, actual access, reliance, evidence, decision, and performed Work remain under their direct patterns; any admitted Work satisfies the complete A.15.1 and F.6 account. |
+| `CC-E24PUB-8` | Publication activity, actual access, reliance, evidence, decision, performed Work, operation binding, and result remain under their direct patterns. E.24.PUB checks only that publication availability is not used as proof of those stronger claims. |
 | `CC-E24PUB-9` | A changed edition, form, carrier, audience, or bounded use leads to the smallest affected object or relation rather than a whole-stack rewrite. |
 | `CC-E24PUB-10` | Ordinary use stops at the readable sentence when the receiving use needs no fuller relation detail. |
 

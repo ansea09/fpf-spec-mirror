@@ -6,12 +6,12 @@ section_id: "A.15.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__012_sota-echoing.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:11 — SoTA-Echoing"
-line_start: 26455
-line_end: 26468
+line_start: 25933
+line_end: 25946
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -43,7 +43,7 @@ keywords:
 | [APM, What Is Project Management](https://www.apm.org.uk/resources/what-is-project-management/), current 2026 | Project practice describes a unique transient endeavor and discrete packages of work directed toward planned objectives. | **Adopt the work selection.** Use independently admitted transient composite Work and exact work-part relations, while separating the temporary performing organization. |
 | Winch, [An Action Theory of the Project](https://doi.org/10.1177/87569728241270574), 2025 issue | Current action theory distinguishes temporary organization, permanent organization, future-oriented action, intention, and intended future state. | **Adapt.** Keep organization, performed work, plan or intention, affected referent, and intended state as related objects with different identities. |
 | Sydow, Lundin, Ekstedt, and Braun, [The theory of temporary organization three decades later](https://doi.org/10.1016/j.scaman.2025.101405), 2025 | Project plasticity and continuity persist across changing organizational arrangements. | **Adopt as a continuity safeguard.** Let `A.15.1` episode and continuity policy decide project-work persistence instead of team identity or project label. |
-| FPF `A.3.1`, `A.22`, `A.15.1`, `A.6.1`, and `E.18` | Current FPF separates reusable method, an exact selected `U.Structure`, performed Work, reusable operation declaration, and `TransformationFlowStructure`. A.22 requires independently identified constituents, exact selected obtaining relations, applied constraints, and one frame that names the selection question, permitted action, and prohibited overread; A.15.1 requires the performer/assignment/method/extent/containing-system basis and exact work parthood. | **Adopt directly.** Process recovery selects the exact `U.Method`, A.22 `U.Structure`, or `TransformationFlowStructure`; project recovery first admits composite Work under A.15.1. Work becomes a method-enactment observation only through exact `enactsMethod`, or an operation-application observation only through the exact A.6.1 declaration and binding. |
+| FPF `A.3.1`, `A.22`, `A.15.1`, `A.6.1`, and `E.18` | Current FPF separates reusable Method, an exact selected `U.Structure`, performed Work, reusable operation declaration, and `TransformationFlowStructure`. A.22 requires independently identified constituents, exact selected obtaining relations, applied constraints, and one frame that names the selection question, permitted action, and prohibited overread; A.15.1 requires the performer, assignment, enacted Method, extent, local containing relation, and exact Work parthood. | **Adopt directly.** Process recovery selects the exact `U.Method`, A.22 `U.Structure`, or `TransformationFlowStructure`; project recovery first admits composite Work under A.15.1. Work becomes a method-enactment observation only through exact `enactsMethod`, or an operation-application observation only through the exact A.6.1 declaration and binding. |
 
 Taken together, these sources support the Solution's actions: apply A.15.1 to admit composite Work and exact parts before adding project qualifications and a continuity policy; select `U.Method`, an exact A.22 `U.Structure`, or `TransformationFlowStructure` for the process question; recover the case and description subjects from actual claim content; and keep temporary organization and descriptions separate.
 

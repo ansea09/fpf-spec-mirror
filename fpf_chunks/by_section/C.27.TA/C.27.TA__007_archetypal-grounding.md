@@ -6,12 +6,12 @@ section_id: "C.27.TA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__007_archetypal-grounding.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:5 — Archetypal Grounding"
-line_start: 56832
-line_end: 56873
+line_start: 54121
+line_end: 54165
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,9 +47,9 @@ keywords:
 
 #### C.27.TA:5.1 - Release Cadence
 
-A platform team says its release cadence changed from monthly to weekly.
+`CheckoutSystem-1 had a weekly release cadence during release train R14.`
 
-C.27.TA names the bearer, release-train timing reference, window, interval structure, and governing use relation. It does not by itself say that the change is good, that quality improved, that work happened, or that a promised service level was met.
+This is a complete first result: exact bearer, cadence predicate, release-train reference, and R14 window. It does not by itself say that the cadence is good, that quality improved, that particular Work occurred, or that a promised service level was met. Add further fields only when the next use depends on them.
 
 #### C.27.TA:5.2 - Source Freshness
 
@@ -61,27 +61,30 @@ C.27.TA names the source-currentness and validity windows. `G.9`, source-use, ev
 
 An architecture move is expected to reduce an interlevel conflict after two release cycles.
 
-C.27.TA names the recovery window, cycle reference, bearer, and trajectory. `A.3.4` names the structure transformation; architecture patterns govern the selected structure and characteristic; evidence and result patterns govern observed effects.
+C.27.TA states the recovery-timing claim about the exact architecture claim under the release-cycle reference and window. Use `A.3.4` for the structure-transformation relation, the direct architecture patterns to identify the selected structure and characteristic, and evidence/result patterns for an observed effect.
 
 ```text
-TemporalAspectStatement:
-  bearerRef: ArchitectureOf@PlantOperationsService selected interlevel conflict.
-  bearerGoverningPattern: C.30 plus the selected architecture-structure pattern.
-  boundedContext: pump-station operations-service architecture move during release train R14-R15.
-  aspectKind: recoveryTiming.
+TemporalAspectStatementClaimContent:
+  entityOfConcernRef: the exact C.30 architecture claim about the selected interlevel-conflict structure.
+  entityRulePatternCitation: C.30 plus the selected architecture-structure pattern.
+  claimOrWorkScopeRef?: exact A.2.6 claim scope for the pump-station operations-service architecture concern during release train R14-R15.
+  aspectPredicate: recoveryTiming.
   temporalReference: release train cycle.
   windowOrInterval: two release cycles after the accepted architecture move starts.
   measuredReadingRef?: operations-service conflict indicator, if C.16 measurement is being made.
-  relationToGovernedObjectOrClaim: temporal aspect of the expected conflict-reduction transformation; not the transformation relation itself.
-  governingUseRelationRef: A.3.4 for bounded transformation, C.30 for selected architecture structure, evidence/result pattern for observed effect.
+  directRelationDeclarationRef?: A.3.4 transformation declaration, if that relation is current.
+  obtainingRelationOccurrenceRef?: omitted here; the expected reduction is not an obtaining transformation occurrence.
+  receivingUseRulePatternCitation: A.3.4 for bounded transformation, C.30 for selected architecture structure, and the evidence/result pattern for an observed effect.
   validityOrCurrentnessCondition?: valid only while the same selected structure, release train, and conflict indicator remain in force.
   refreshOrReopenCondition?: reopen if the conflict indicator worsens, the release train changes, or the selected structure changes before R15 close.
-  blockedLocalOverread: this recovery-timing statement does not prove that the architecture move reduced the conflict.
+  blockedLocalOverread: this recovery-timing claim does not prove that the architecture move reduced the conflict.
 ```
 
 #### C.27.TA:5.4 - Work Rhythm
 
 A review practice depends on a two-day response rhythm across several review positions and participants. This is ordinary readable wording; it does not by itself admit Systems, classify local system-role kinds, create assignments, establish responsibility, or prove that response Work occurred.
 
-C.27.TA names the rhythm bearer, timing reference, rhythm window, and coupling relation when cross-bearer coordination matters. If an assignment claim is independently needed, recover its directly declared species and obtaining occurrence with actual participant values, holder, applicability, and extent under A.2.1. Add a local system-role kind and a separate System-classification judgment only when each is current. Only when dated response Work is claimed, point to its complete A.15.1/F.6 basis. An assignment may be current in a plan or availability statement before any response Work occurs; it does not imply completed Work.
+Name a local system-role kind or a separate System-classification judgement only when the receiving claim uses that distinction. If it relies on an assignment, cite the directly declared relation species and its obtaining occurrence with the actual participant values, holder, applicability, and extent under `A.2.1`. An assignment may be current in a plan or availability statement before any response Work occurs; it does not imply completed Work. Only when the claim says that a System performed dated response Work should it identify that System and the complete Work basis under `A.15.1` and `F.6`.
+
+C.27.TA names the exact EntityOfConcern, rhythm or cadence predicate, temporal reference, and window. When cross-bearer coordination matters, cite the direct coupling-relation declaration and an obtaining occurrence only after its predicate passes; keep the PatternID as a separate rule citation.
 

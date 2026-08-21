@@ -6,12 +6,12 @@ section_id: "C.30.AD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__004_problem.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:2 — Problem"
-line_start: 59962
-line_end: 59973
+line_start: 57157
+line_end: 57168
 dependencies:
   - "A.1"
   - "A.10"
@@ -51,6 +51,7 @@ dependencies:
   - "C.32.PAD"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.D2"
   - "E.10.MOVE"
   - "E.11.PUR"
   - "E.17"
@@ -76,7 +77,7 @@ keywords:
 
 ### C.30.AD:2 - Problem
 
-How can FPF govern architecture descriptions without:
+How can FPF keep architecture descriptions adequate without:
 
 - treating a description, model, view, diagram, graph, card, table, dashboard, file, publication occurrence, publication form, carrier, or rendering as the architecture, an obtaining relation, or a selected structure;
 - treating all architecture documentation as one generic description with no exact EntityOfConcern or selected-structure recovery;

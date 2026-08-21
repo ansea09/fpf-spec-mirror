@@ -6,12 +6,12 @@ section_id: "D.1:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 68413
-line_end: 68421
+line_start: 65645
+line_end: 65653
 dependencies:
   - "A.1"
   - "A.10"

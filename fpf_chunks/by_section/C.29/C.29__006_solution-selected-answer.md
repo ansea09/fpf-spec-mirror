@@ -6,12 +6,12 @@ section_id: "C.29:4"
 section_title: "Solution - selected answer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__006_solution-selected-answer.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:4 — Solution - selected answer"
-line_start: 57938
-line_end: 58629
+line_start: 55105
+line_end: 55798
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -215,6 +215,8 @@ A_l = (Holons_l, FunctionalRelations_l, FlowRelations_l, ControlRelations_l,
 
 R_l : A_l -> A_{l+1}
 ```
+
+`InterfaceSpecificationRefs_l` contains only governed `U.EpistemeRef` values that resolve independently identified `InterfaceSpecification` epistemes under the identifying rule located at A.6.M. The references, their resolution, and the specification content remain separate; changing a lens token or retargeting a reference does not edit the specification.
 
 The index `_l` is a declared aggregation-scope index inside this C.29 lens, not a generic level, tier, layer, or ladder. Each use names the aggregation scope, the coarse-graining rule, the lost structure, and the source-return condition.
 
@@ -575,7 +577,7 @@ Mathematical object or learned representation read as world structure: if a mode
 | dynamics state space and transition law | `A.3.3` | Assess imported or contested lens use; do not govern dynamics semantics. |
 | `CharacteristicSpace`, slots, topology, order, and metric-space distance overlays | `A.19` | Apply only when an overlay becomes a domain-transferring or publication-bearing lens. |
 | Decision, selector-result, benchmark-result, or publication-availability claim | `C.11` for a `ChoiceResult` or local choice record; `G.5` for selected-set result declaration; `G.9` for selector or benchmark result use; `E.17` for a source-backed publication face and return to source; and `E.24.PUB` for the publication occurrence and availability | Can contribute a lens-bounded prediction, distinction, obstruction, diagnostic boundary, or rival-lens note; it does not make the decision, result, or publication claim. |
-| selected method, method-family selection, `U.WorkPlan`, performed `U.Work`, work-result record, or work-relevant appearance-based reliance repair | `A.15`, `A.15.1`, `A.15.4` | Can contribute method-relevant lens use; method, plan, performed-work, and appearance-based reliance repair records stay with the A.15 family. |
+| selected method, method-family selection, `U.WorkPlan`, performed `U.Work`, work-result record, or work-relevant appearance-based reliance repair | `A.15`, `A.15.1`, `A.15.4` | Can contribute method-relevant lens use; method, plan, performed Work, and any result record stay with their direct patterns, while A.15.4 only repairs reliance on a misleading appearance. |
 | evidence relation, source currentness, provenance, evidence carrier, or model card or datasheet used as evidence | `A.10` | States `LensUseBoundaryValue` only; evidence relations and provenance remain A.10 matters. |
 | assurance, readiness, reliability, release confidence, safety, trust, or engineering justification | `B.3` plus relevant G patterns when the corresponding claim is being made | Treats declared lens use as possible input only; mathematical elegance does not raise assurance. |
 | measurement construction, scale, unit, or comparability, or evidence-stub adequacy | `C.16` | States measurement-dependent `LensUseBoundaryValue` only; measurement construction, scale, unit, or polarity, direct comparability, and evidence-stub adequacy stay with `C.16`. |
@@ -584,7 +586,7 @@ Mathematical object or learned representation read as world structure: if a mode
 | same-EntityOfConcern representation-scheme transition | `A.6.3.RT` | Applies only if the representation shift imports a contested or use-affecting mathematical lens. |
 | coarsened rendering with narrower declared lens use and source-bearing reopen | `A.6.3.CSC` | Applies only if the coarsening depends on mathematical abstraction, quotienting, or coarse-graining. |
 | cross-context meaning, bridge kind, direction, CL, loss, and substitution | `F.9` | Reference Bridge; do not duplicate Bridge Card semantics. |
-| causal-use question or verdict | `C.28` | Block causal overread or cite a `C.28` application or `CausalUseSupportRecordRef`. |
+| causal-use question or verdict | `C.28` | Block causal overread or cite a `C.28` application or `CausalUseSupportResultRef`. |
 | forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, temporal window, or rate-change used as sufficient for a use | `C.27` | Can state a prediction-relevant or distinction-relevant mathematical-lens use; temporal-claim adequacy stays with `C.27`. |
 | scale-law and Bitter-Lesson preference claims | `C.18.1`, `C.19.1`, `C.31.ASAP` | Cite scale-window, scale-law, BLP, or architecture scale-preference evidence when scale behavior, general method scale preference, or architecture scale preference is being claimed. |
 | quantum-like modeling | `C.26` | Treat `C.26` as C.29-compatible specialization, not as full-card inheritance for every QL-lite note. |
@@ -753,7 +755,7 @@ This is not a first-class causal abstraction card. It is a lightweight check: wh
 | `RivalLensRelation?` | Declared relation between the lens in this use and the principal rival or rival set being compared. Allowed local relation values include `ordinaryFallback`, `complementary`, `sameUseLowerCost`, `morePreservedStructureHigherCost`, `lowerErrorOnDeclaredEvaluationCriterion`, `clearerExplanationForDeclaredReader`, `bridgeNeedsF9`, `causalUseNeedsC28`, `differentScaleWindow`, `differentLossProfile`, `incomparableForCurrentUse`, `blockedByStopCondition`, and `unresolved`. Examples: a queueing lens and a causal lens can be complementary for different lens-use actions; a latent manifold and a causal graph can conflict when latent axes are read causally; an RG-like lens and a micro-dynamics lens can have different scale windows. | Names disagreement only; a C.29 output is not a winning-lens choice, literature review, selector result, benchmark result, or parity result. Any superiority claim names the evaluation criterion, reader, cost, scale window, or subject pattern that makes the comparison bounded for use. |
 | `LensUseBoundaryValue` | Local finite lens-use boundary field. | Not evidence, an EvidenceGraph, a PathId, or an assurance score. |
 | `BridgeRefSet?` | Reference to `F.9` Bridge material when context crossing is being claimed. | Bridge semantics stay with `F.9`. |
-| `CausalUseDisposition?` | One of `noCausalUseClaim`, `causalUseBlocked`, `C28ApplicationRef`, or `CausalUseSupportRecordRef`. | No causal-reference shortcut; no causal verdict from `C.29`. |
+| `CausalUseDisposition?` | One of `noCausalUseClaim`, `causalUseBlocked`, `C28ApplicationRef`, or `CausalUseSupportResultRef`. | No causal-reference shortcut; no causal verdict from `C.29`. |
 | `AssuranceUseDisposition?` | One of `noAssuranceUseClaim`, `assuranceUseBlocked`, `evidenceInputOnly`, `A10Ref`, or `B3ApplicationRef`. | No assurance verdict from mathematical elegance. |
 | `declaredLensUse` | Declared lens use in this C.29 application. | Matches evidence and validation regime. |
 | `blockedLensOverread` | Tempting neighboring use that is blocked or governed by another subject pattern. | Names the neighboring pattern when that neighboring claim is being made. |

@@ -6,12 +6,12 @@ section_id: "C.35:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__006_archetypal-grounding.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:5 — Archetypal Grounding"
-line_start: 67739
-line_end: 67750
+line_start: 64937
+line_end: 64958
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -59,13 +59,23 @@ keywords:
 
 ### C.35:5 - Archetypal Grounding
 
-Tell: C.35 is the pattern for admitting or rejecting a produced output or carrier before another architecture claim relies on the selected structure it describes. The output may be generated, searched, clustered, queried, learned, transformed, simulated, or discovered. C.35 does not search, select, decide, or realize architecture. It asks what was produced, what selected structure it describes, what is preserved and lost, what bearer boundary remains open, and what must be true before C.32 or another architecture use can rely on it.
+Tell: C.35 is the pattern for admitting or rejecting an exact generated or discovered result before another architecture claim relies on it. The result may come from search, clustering, query, learning, transformation, simulation, or discovery. C.35 does not search, select, decide, or realize architecture. It asks what the exact result is, whether the organization it concerns already obtains or is only proposed, what the intended use still requires, and what overread or return keeps it from acquiring false authority.
 
-Show - generated artifact not yet structure. An LLM produces a plausible architecture diagram for a medical device. C.35 records the prompt output as produced carrier, recovers described module, control, evidence, and placement structures where possible, records missing constraints and unknown bearers, and sets candidate admission condition "C.32 palette entry only after selected structures, characteristics, gains, losses, and carrier-admission return are named." The output is not a project decision or realized architecture.
+Show - generated claim and diagram not yet architecture. An LLM returns proposal claim `MedicalDeviceProposal-7` and diagram `MedicalDeviceDiagram-7`. The ordinary C.35 result is:
 
-Show - DSM and MDM clustering. A DSM modularization clusters components by co-change and interface hints. C.35 records the relation matrix, clustering method, preserved dependency structure, lost functional bearer semantics, semantic-alignment risk, and a carrier-admission condition that requires C.31 modularity and reuse checks plus C.32 candidate-synthesis checks before use. The cluster can seed candidate synthesis and modularity review, but it is not architecture adequacy by itself.
+```text
+Result: MedicalDeviceProposal-7.
+Organization: a proposed device organization; its constituents and relations do not yet obtain.
+Next-use condition: C.32 may use it after the missing safety constraint and bearer question are explicit.
+Limit and return: do not read the proposal or diagram as A.22 structure or decision; return to the claim when either gap changes.
+```
 
-Show - NAS result. A multi-objective NAS run returns a neural architecture graph and Pareto point. C.35 records search space, constraints, performance and resource criteria refs, generated carrier, described functional architecture structure, preserved dataflow, lost deployment and evidence structure, bearer boundary, and eval return. Use `C.32` for candidate-palette admission and `C.32.ACE` for evaluation results.
+This is enough for the immediate candidate-use boundary. Add the generative-proposal branch only if the receiver relies on its constraints, omissions, or validation needs. Treat `MedicalDeviceDiagram-7` as a separate C.29 representation only when graphical correspondence matters; no source or preservation account is invented without a declared baseline.
 
-Show - graph grammar or model transformation. A graph-grammar Method is applied in dated generation Work and returns a candidate-structure carrier for a product-line model. C.35 names the Method, exact Work when performed-work reliance is current, produced carrier, independently selected source and described structures, rules, preserved interfaces, lost manufacturing constraints, and transformation trace. If the use additionally asserts an actual formal or world-side change, it cites the exact A.3.4 occurrence and the separately governed Work-to-change or A.15.PROD claim; otherwise `model transformation` remains the Method or operation-family label and no `U.Transformation` is inferred. C.34 may check preservation; C.32 admits only after selected-structure and characteristic effects are recoverable.
+Show - DSM and MDM clustering. A DSM modularization returns a clustering result based on co-change and interface hints. This is the discovery branch: C.35 identifies the exact claim-bearing cluster result and its extraction basis and records which dependencies are observed, which modular interpretation is inferred, what remains unknown, which matrix region was covered or unexplored, the uncertainty, and the validation needed before use. The inferred modular organization stays in its exact architecture claim; it is not an A.22 structure until the constituents, obtaining relations, applied constraints, and named use frame resolve. When matrix operations matter, C.29 separately identifies the representation and represented dependency object. A comparison with an earlier modularization may add an exact declared baseline and preservation account, but clustering alone does not require one.
+
+
+Show - NAS result. A multi-objective NAS run returns a modal architecture claim about a proposed neural organization together with a graph representation and Pareto result. This is the generative-proposal branch: C.35 keeps those identities separate and records the search constraints, proposed organization content, known deployment and evidence omissions, bearer boundary, and validation and eval needs. The graph is a C.29 representation, not proof that the proposed relation occurrences obtain. C.35 does not invent a preserved-dataflow claim unless the run explicitly transforms or compares against a declared baseline. `C.32` may consume the proposal as candidate input; `C.32.ACE` handles evaluation results.
+
+Show - graph grammar or model transformation. A graph-grammar Method is applied in dated generation Work and returns a claim-bearing result plus a graph representation for a product-line model. This is the transformation branch: C.35 names the Method, exact Work when performed-work reliance is current, exact source and result objects, rules, preserved interfaces, lost manufacturing constraints, and transformation trace. If the resulting organization is only proposed, it remains modal content in an exact architecture claim and the graph remains its C.29 representation. Source or result A.22 structures are cited only when their four discriminators independently resolve. If the use additionally asserts an actual formal or world-side change, it cites the exact A.3.4 occurrence and the separately governed Work-to-change or A.15.PROD claim; otherwise `model transformation` remains the Method or operation-family label and no `U.Transformation` is inferred. C.34 may check preservation; C.32 may admit the proposal without actualizing it.
 

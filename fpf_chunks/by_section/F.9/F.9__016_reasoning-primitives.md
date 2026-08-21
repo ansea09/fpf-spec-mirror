@@ -6,12 +6,12 @@ section_id: "F.9:14"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__016_reasoning-primitives.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:14 — Reasoning primitives"
-line_start: 93210
-line_end: 93302
+line_start: 90602
+line_end: 90693
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -104,14 +104,13 @@ A non-passing or narrower disposition supplies no support for the attempted use.
 
 ```text
 C is current and affirmative for <u,d,r,t>
-and B.3 is triggered
-and a current positive assurance claim exists
-and its minimum record is sufficient
-and it carries the same bounded assurance use
-=> positive assurance supports that bounded use.
+and an actual named assurance claim about this use is current
+and its B.3 AssuranceResult carries the same bounded assurance use
+and disposition = supported-for-use
+=> assurance supports only that bounded use.
 ```
 
-A met threshold alone creates no positive claim. A no-assurance, insufficient-record, narrowed, rejected, withdrawn, abstaining, or blocked disposition stops or narrows the use as B.3 specifies.
+A `narrowed` disposition supports only its stated narrower use. `abstain`, `evidence-needed`, `reopen`, or `blocked` stops the attempted use. If no assurance claim is current, do not open B.3. A consequence, display, or local threshold creates no assurance claim.
 
 #### F.9:14.5 - Receiving occurrence stays separate
 

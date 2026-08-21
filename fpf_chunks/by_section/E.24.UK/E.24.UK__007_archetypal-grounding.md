@@ -6,20 +6,18 @@ section_id: "E.24.UK:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__007_archetypal-grounding.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:5 — Archetypal Grounding"
-line_start: 90063
-line_end: 90125
+line_start: 87465
+line_end: 87527
 dependencies:
   - "A.1.1"
   - "A.11"
   - "A.2.6"
   - "A.22"
-  - "A.3.2"
   - "A.6.0"
-  - "A.6.3"
   - "A.6.5"
   - "A.6.RCD"
   - "A.6.REL"
@@ -34,12 +32,11 @@ dependencies:
   - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
-  - "E.24.UK"
+  - "F.17"
   - "F.18"
-  - "U.MethodDescription"
-  - "U.Structure"
-  - "U.View"
-  - "U.Viewpoint"
+  - "F.8"
+  - "U.Kind"
+  - "U.SubkindOf"
 keywords:
 ---
 
@@ -49,14 +46,14 @@ keywords:
 
 Use the same five steps in every replay: (1) identify the decision's EntityOfConcern and named use; (2) test an existing durable kind, direct relation, and bounded C.3 classification; (3) state governed individuals, membership or identity, intended extent, and the nearest non-member; (4) run all eight conditions, the shared E.24-family settlement, and the A.11/A.8 branch when current; (5) record one result reference, naming result, non-use boundary, and reopen condition. A future genuinely new candidate must complete this sequence before its public name is admitted.
 
-In each closed replay, the `E24UK-*` result reference identifies the exact C.2.1 decision episteme, the five steps summarize its ClaimGraph, and its effective reference scheme is `FPFCoreReferenceScheme`. A stopped replay names the exact blocker instead of pretending that an admission result exists.
+In each closed replay, the `E24UK-*` reference identifies the exact admission-result episteme or reconstructed result. The five steps summarize that result and, when a current shared decision exists, point to its separate ClaimGraph; the effective reference scheme is `FPFCoreReferenceScheme`. A stopped replay names the exact blocker instead of pretending that an admission result exists.
 
 **Reconstructed root — `U.Relation`.**
 
 1. **Subject and use.** The EntityOfConcern is the A.6.REL source construct for the common kind of individuable obtaining relation occurrences. C.2.1 and receiving direct relations need to refer to one exact occurrence without turning an assertion, row, or graph edge into that occurrence.
 2. **Coverage.** No other admitted durable kind covers all and only those occurrences. A bounded C.3 kind would not supply the cross-pattern root used by direct relation patterns.
 3. **Membership.** An individual enters the extent only when its direct relation pattern establishes obtaining and supplies an occurrence-identity rule under A.6.REL. Predicate content, an assertion, description, designator, reference, tuple, or edge is the nearest non-member.
-4. **Eight tests and settlement.** Governed individuals, stable occurrence identity, direct-pattern witness, action-facing occurrence use, non-duplication, A.6.REL plus the direct relation pattern, `E24UK-AR-URELATION-R11-01#settlement`, and by-value reliance are all present. A.11 retains one common root rather than duplicating it for every direct relation; A.8 does not promote relation-specific names into additional universal roots.
+4. **Eight tests and settlement.** Governed individuals, stable occurrence identity, direct-pattern witness, action-facing occurrence use, non-duplication, A.6.REL plus the direct relation pattern, accepted result `E24UK-AR-URELATION-R11-01`, and by-value reliance are all present. A.11 retains one common root rather than duplicating it for every direct relation; A.8 does not promote relation-specific names into additional universal roots. This reconstructed result has no fabricated settlement suffix.
 5. **Result and flip.** `E24UK-AR-URELATION-R11-01` records `root`; `NC-U-RELATION` retains the Tech label `U.Relation`. Reopen when the common occurrence criterion, direct identity discipline, dependent use, or settlement law changes. If an already admitted kind is found with the same governed extent and use, the disposition changes to `reuse`.
 
 **Same-individual dependent — `U.WorkPlan`.**
@@ -64,7 +61,7 @@ In each closed replay, the `E24UK-*` result reference identifies the exact C.2.1
 1. **Subject and use.** The EntityOfConcern is A.15.2's WorkPlan kind-source construct; `MaintenancePlan_Q3` is a member witness, not the decision subject. Planning and readiness patterns need one durable way to recognize substantive intended-work epistemes.
 2. **Coverage.** `U.Episteme` already supplies individual identity, but it does not by itself distinguish epistemes that substantively coordinate intended work. A one-project classification would be tested under C.3 before durable admission.
 3. **Membership.** C.2.1 identifies `MaintenancePlan_Q3`; A.15.2's plan-membership predicate classifies that same individual as `U.WorkPlan` and implies its root `U.Episteme` membership. A calendar image or ticket title without substantive intended-work claims is the nearest non-member.
-4. **Eight tests and settlement.** Identified epistemes, C.2.1 identity, the A.15.2 membership witness, planning use, non-duplication, A.15.2 as direct locus, `E24UK-AR-UWORKPLAN-RG-01#settlement`, and by-value A.15 reliance are present. Under A.11's test, the result is a same-individual dependent kind rather than a second root or plan object; no new A.8 universal root is claimed.
+4. **Eight tests and settlement.** Identified epistemes, C.2.1 identity, the A.15.2 membership witness, planning use, non-duplication, A.15.2 as direct locus, accepted reconstructed result `E24UK-AR-UWORKPLAN-RG-01`, and by-value A.15 reliance are present. Under A.11's test, the result is a same-individual dependent kind rather than a second root or plan object; no new A.8 universal root is claimed. This replay does not invent a separate settlement identifier.
 5. **Result and flip.** `E24UK-AR-UWORKPLAN-RG-01` records `same-individual-dependent`; the existing Tech label `U.WorkPlan` is retained and this replay mints no new name. Reopen when C.2.1 identity, A.15.2 membership, the planning use, or settlement law changes. If only one bounded project needs the distinction and one exact C.3.2 declaration suffices, the disposition changes to `local-kind`.
 
 **Same-individual structure specializations — `BoundedModelUseStructure` and the A.22 conditional crossing-analysis rule.**

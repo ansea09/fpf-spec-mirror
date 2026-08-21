@@ -6,12 +6,12 @@ section_id: "C.2.P:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__014_rationale.md"
-commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
+commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:10 — Rationale"
-line_start: 42198
-line_end: 42207
+line_start: 40960
+line_end: 40968
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,10 +51,9 @@ keywords:
 ---
 
 ### C.2.P:10 - Rationale
-
 FPF already contains the relevant ontology. The recurring defect was not lack of concepts but ad hoc wording that bypassed them: `source`, `target`, `display`, `object`, `host`, `route`, `supported use`, and similar trigger terms packed several FPF kinds and relations into one convenient phrase; they are examples of wording to unpack, not current replacement vocabulary.
 
-The correct repair is therefore not a new umbrella. It is a disciplined recovery action: use `E.2`, `E.10`, `F.18`, `A.6.P`, `A.7`, `C.2.1`, `E.17.0`, `E.17`, and MVPK together until the sentence says which EntityOfConcern, relation, publication, view, carrier, record, work, action, or pattern application it means.
+The correct repair is therefore not a new umbrella. Start with `E.10`, then use only the pattern whose field remains unresolved: `F.18` for a reusable name, `A.6.P` for relation precision, and `A.7`, `C.2.1`, `E.17.0`, `E.17`, or MVPK for the relevant EntityOfConcern, episteme, view, publication, or carrier distinction. C.2.P stops as soon as the direct pattern and field are known.
 
 Because every normative FPF pattern must satisfy `E.2`, epistemic precision is not a value apart from `P-2 Didactic Primacy`. A stricter repair has not landed if it turns reader-facing problem text into a kind inventory with no working situation or first useful move. The remedy is recognition wording whose claim remains recoverable through the Tech interpretation or a named FPF pattern application, with a declared-use boundary when that boundary matters.
 
