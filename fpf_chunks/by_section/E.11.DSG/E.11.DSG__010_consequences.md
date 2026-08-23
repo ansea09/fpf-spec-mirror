@@ -6,12 +6,12 @@ section_id: "E.11.DSG:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__010_consequences.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.11.DSG — DPF Suite Guide"
   - "E.11.DSG:9 — Consequences"
-line_start: 77037
-line_end: 77042
+line_start: 77071
+line_end: 77076
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -31,7 +31,7 @@ keywords:
 
 ### E.11.DSG:9 - Consequences
 
-**Benefits.** Readers can start with a short cross-DPF answer, recover the exact products behind it, and see an honest product gap. Maintainers can refresh advice without silently changing membership, edition continuity, dependency, or compatibility.
+**Benefits.** Readers can start with a short cross-DPF answer, distinguish an actual maintained result from a MethodDescription, source evidence, or a missing result, recover the exact products behind the answer, and see an honest product gap. Maintainers can refresh advice without silently changing membership, edition continuity, dependency, or compatibility.
 
 **Costs.** The guide and suite need separate maintenance commitments and exact source-return paths. High-consequence answers may require more detail than ordinary lookups. Those costs appear only where the reader's action or later reliance needs them.
 

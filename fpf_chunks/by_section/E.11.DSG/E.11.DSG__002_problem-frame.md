@@ -6,12 +6,12 @@ section_id: "E.11.DSG:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__002_problem-frame.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.11.DSG — DPF Suite Guide"
   - "E.11.DSG:1 — Problem frame"
-line_start: 76870
-line_end: 76883
+line_start: 76904
+line_end: 76917
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -35,7 +35,7 @@ keywords:
 
 Use this pattern when a practitioner may need results from several DPFs, cannot yet tell which DPF applies, or needs a truthful stop because the current DPF ecosystem lacks part of the answer. The guide should let a cold reader begin from that working situation, recover the exact suite edition behind the guidance, and reach the needed DPF results or sources without treating co-listing as dependency or compatibility.
 
-**First useful result.** Give one short answer that names the situation, the exact resources needed now and what each contributes, and an ordinary stop or return. If a required result is missing, name that blocker instead of filling the gap with another title.
+**First useful result.** Give one short answer that names the situation and returns each needed item in its real use: an available maintained result, a maintained MethodDescription, direct-source evidence, or a named unavailable result. Say what each contributes and end with an ordinary stop or return. Do not fill a missing result with another title.
 
 **Primary `EntityOfConcern`.** One exact DPF suite guide edition: a non-framework `U.Episteme` that gives readers practical access to one DPF suite. Its continuity with earlier or later guide editions is established only by exact edition relations.
 

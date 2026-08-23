@@ -6,12 +6,12 @@ section_id: "E.11.DSG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__005_solution.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.11.DSG — DPF Suite Guide"
   - "E.11.DSG:4 — Solution"
-line_start: 76902
-line_end: 76974
+line_start: 76936
+line_end: 77008
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -31,7 +31,7 @@ keywords:
 
 ### E.11.DSG:4 - Solution
 
-Write the practical answer first. State the recognizable situation and question, name each exact result or source that the answer uses and its contribution, and end with the ordinary stop or return. Add exact identity, relation, evidence, warning, or reliance detail only when it changes the answer's truth, the reader's choice, or a named later use.
+Write the practical answer first. State the recognizable situation and question, then say what each returned item actually is and what it contributes: an available maintained result of its own kind and supplying product, a maintained MethodDescription used to select or perform its Method, direct-source evidence for a named claim or decision, or a named unavailable result with its blocker and retry. End with the ordinary stop or return. Add exact identity, relation, evidence, warning, or reliance detail only when it changes the answer's truth, the reader's choice, or a named later use.
 
 #### E.11.DSG:4.1 - Keep the guide line and each edition exact
 
@@ -64,7 +64,7 @@ Every problem-led entry keeps this small visible core:
 ```text
 recognizable situation and practical question
 first useful answer or honest blocker
-exact resources needed now and what each contributes
+available maintained result, maintained MethodDescription, direct-source evidence, or named unavailable result needed now, and what each contributes
 ordinary stop or return
 ```
 
@@ -78,7 +78,7 @@ A person, team, or assisting System may use one guide edition while doing lookup
 
 An ordinary answer may remain readable conversation. Persist one only when review, reuse, publication, or later reliance needs an addressable result. First identify the exact practical-question episteme `Q`. Then identify the answer episteme `A` under `C.2.1` as `<claim content = J_a, EntityOfConcern = Q, effective ReferenceScheme = R_a>`. `J_a` states the answer, exact guide edition used, every returned resource or blocker, and what each does in this answer. `R_a` resolves those values and the use-specific relation words. This is an ordinary episteme, not a new lookup-result kind.
 
-Say directly what each returned item does: use this result for this part of the question; compare these alternatives; rely on this source only for this stated fact; follow this already obtaining edition dependency; or stop because this result is missing. Recommendation, alternative, source use, dependency, compatibility, and blocker are different claims.
+Say directly what each returned item does. For an available maintained result, name the result's actual kind, supplying product and edition or current state, and the receiving use. For a MethodDescription, name the described Method and how the reader uses the description; do not present its expected result as already obtained. For direct-source evidence, name the supported claim or decision and the source limits. For an unavailable result, name the blocker and retry condition. Recommendation, alternative, dependency, compatibility, and co-listing remain separate claims and create none of these stronger relations.
 
 #### E.11.DSG:4.4 - Say “smallest” only when it can be tested
 
@@ -94,7 +94,7 @@ The guide points to one exact suite edition; it does not decide or copy suite me
 - for a guide projection, name the authoritative suite edition, captured membership and use, omissions or coarsening, as-of boundary, and working source return; or
 - for a combined carrier, identify every exact constituent and its form or route while keeping identities, editions, maintenance commitments, access, and currentness separate.
 
-A copied member table or locator without a working source return is orientation only. When a member DPF publishes a new edition, keep product membership only if the product identity, accepted inclusion basis, and exact basis pins remain valid. Then refresh only the guide advice, availability, compatibility, or warnings that actually changed. If the new edition defeats that basis or leaves it unresolved, warn readers and return to `E.4:4.2` and the applicable `E.4.PFAD` decision for a successor suite edition, removal, restoration, or retirement; the guide does not decide that architecture question. Temporary unavailability alone does not change membership, but it may require an action-changing warning or currentness update. If the suite loses its maintainer or edition-recovery route, or would fall below two qualifying member products, present no current-suite answer. Warn, return to the last exact edition, and route the architecture question to restoration or retirement.
+A copied member table or locator without a working source return is orientation only. When a member DPF publishes a new edition, keep product membership only if the product identity, accepted inclusion basis, and exact basis pins remain valid. Then refresh only the guide advice, availability, compatibility, or warnings that actually changed. If the new edition defeats that basis or leaves it unresolved, warn readers and return to `E.4:4.2` and the applicable `E.4.PFAD` decision to decide whether to constitute a new suite edition, remove or restore a member or the suite, or retire it; the guide does not decide that architecture question. Temporary unavailability alone does not change membership, but it may require an action-changing warning or currentness update. If the suite loses its maintainer or edition-recovery route, or would fall below two qualifying member products, present no current-suite answer. Warn, return to the last exact edition, and route the architecture question to restoration or retirement.
 
 #### E.11.DSG:4.6 - Distinguish expression, derivative, edition, and product
 

@@ -6,12 +6,12 @@ section_id: "E.18.NET:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__001_intro.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:intro — Intro"
-line_start: 84227
-line_end: 84234
+line_start: 84262
+line_end: 84269
 dependencies:
   - "A.1.STM"
   - "A.12"

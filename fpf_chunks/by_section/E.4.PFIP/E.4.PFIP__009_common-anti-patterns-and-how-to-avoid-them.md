@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 69664
-line_end: 69677
+line_start: 69671
+line_end: 69684
 dependencies:
   - "C.2.1"
   - "C.33"

@@ -6,12 +6,12 @@ section_id: "F.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__005_forces.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:3 — Forces"
-line_start: 91083
-line_end: 91093
+line_start: 91121
+line_end: 91131
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.0.2.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
-line_start: 89441
-line_end: 89646
+line_start: 89479
+line_end: 89684
 dependencies:
   - "A.2.4"
   - "C.2.1"

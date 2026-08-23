@@ -6,12 +6,12 @@ section_id: "E.11.DSG:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__006_archetypal-grounding.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.11.DSG — DPF Suite Guide"
   - "E.11.DSG:5 — Archetypal Grounding"
-line_start: 76975
-line_end: 77001
+line_start: 77009
+line_end: 77035
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -48,7 +48,7 @@ A Spanish translation of an English guide is a derivative episteme when its effe
 | Situation | Reader-facing result |
 | --- | --- |
 | Only one relevant DPF product exists. | Use that DPF or call it a suite seed; present no suite edition. |
-| A member DPF publishes a new edition. | If product identity, the accepted inclusion basis, and exact basis pins remain valid, keep membership and refresh only affected guide claims. If that basis is defeated or unresolved, warn and return to `E.4:4.2` and the applicable `E.4.PFAD` decision for a successor suite edition, removal, restoration, or retirement; the guide does not decide it. |
+| A member DPF publishes a new edition. | If product identity, the accepted inclusion basis, and exact basis pins remain valid, keep membership and refresh only affected guide claims. If that basis is defeated or unresolved, warn and return to `E.4:4.2` and the applicable `E.4.PFAD` decision to decide whether to constitute a new suite edition, remove or restore a member or the suite, or retire it; the guide does not decide it. |
 | A member is temporarily unavailable. | Keep membership and show the action-changing warning or return. |
 | Removal would leave one or no members. | Present no singleton or empty edition; mark current suite use unavailable and return to restoration or retirement. |
 | There is no identified capable System with an accepted maintenance commitment for the suite or guide. | Keep historical editions exact, but present no current maintained product. |

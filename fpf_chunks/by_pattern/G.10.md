@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.10.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
-line_start: 102315
-line_end: 102716
+line_start: 102353
+line_end: 102754
 dependencies:
   - "A.10"
   - "A.15.3"

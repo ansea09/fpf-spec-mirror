@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
 line_start: 67991
-line_end: 68041
+line_end: 68045
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -76,6 +76,10 @@ When the architecture question is open, the framework-specific part of the DRR s
 For a DPF suite answer, the same DRR selects the bounded common use, inclusion rule over managed DPF edition series, minimum of two members, continuity choice, alternatives, practical consequence, and reopen condition. If the result is to be presented as a current maintained suite, it also identifies the capable suite-maintaining System and its accepted commitment, the working route to each suite edition presented as current, the refresh response and what happens if that boundary is lost, and one exposure choice: independent suite route, bounded guide projection with source return, or neutral combined carrier. Keep the guide's maintaining System and commitment separate. A proposed result use or future constraint is not an obtaining dependency or compatibility relation; apply `E.4.PFR` only after both exact editions and the required case facts exist.
 
 For an existing-framework contribution, maintained non-framework product, thinner route, or stop, state only the parts needed to explain that outcome and the later-used boundary. A selected maintained product still names its direct subjects and the relations used; a proposed boundary with an unresolved kind says so. Do not fabricate a field assessment or package merely to fill the list.
+
+When the architecture keeps, merges, removes, reuses, or omits a load-bearing contribution, record the `E.8:4.1.3` same-situation disposition and the action or result that changed. A narrower label or example is not a difference. A difference that adds an unsupported or needless burden is not worth preserving merely because it changes action.
+
+When the answer treats a promised problem family as covered by a result maintained outside the framework, name the exact result, its direct kind, supplying product and edition or current state, receiving use, practical discovery route, and every currentness or availability condition that can change that use. State that the result remains external. If those facts are absent, or the result does not answer the promised use, record a gap or omission rather than relabelling the result as framework content, a MethodDescription, or source evidence. When the selected keep, merge, removal, profile, external reliance, or omission materially changes the stable set for a promised problem family, obtain a current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition. A matching current result remains usable when that edition and its exact basis are unchanged; the architecture answer does not ask D12 to prove that a revisit occurred.
 
 Keep the ordinary `E.9` grounds, sources, affected loci, rationale, and consequences in the same DRR. Add naming, quality, admission, currentness, or package details only when they change this answer or a named later use requires them. Use the pattern that defines, constrains, or tests each added claim; do not make it a standing PFAD field.
 

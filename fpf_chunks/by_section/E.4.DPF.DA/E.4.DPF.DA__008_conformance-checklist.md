@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__008_conformance-checklist.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:7 — Conformance Checklist"
-line_start: 69040
-line_end: 69059
+line_start: 69047
+line_end: 69066
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -68,7 +68,7 @@ keywords:
 | CC-DPFDA.6a Package-form subpass complete | `PFM1` through `PFM12` have explicit pass, fail, or not-applicable-with-reason dispositions against the exact reader-facing package form before D1, D2, D4, D5, D7, D8, D9, D10, D11, and D12 values are assigned. `PFM1` owns practitioner entry and navigation; `PFM12` owns only incremental common-form and edition-projection agreement. One observation and repair used by more than one PFM check are recorded and applied once rather than scored twice. Editable source-body conformance, a manifest, or a successful build run does not stand in for that subpass. |
 | CC-DPFDA.6b Reverse dependency blocked | The result checks that FPF Core and the main monolith do not depend on this DPF; any needed Core-level content returns through a Core amendment decision. |
 | CC-DPFDA.6c Structure-account checked | The result checks whether the Readme, Preface, ToC, all-in-one carrier, skill/index/response carrier, or MCP/search/retrieval/assistant front door states the reader, selected or exposed structure, controlled coarsening, abstraction, omission, loss, and return to fuller sources. A route identifies the first form-bearing artifact it reaches; it is not scored as that carrier. |
-| CC-DPFDA.6d Field and architecture evidence checked | `D12` tests the public field promise, selected problem-family pattern sets and how they actually work together, representative cross-problem use, omissions, and where later authors revisit important source-backed claims. It also checks that the first use includes every required pattern from this DPF and names each external edition, content, use, and refresh condition it relies on. The evidence preserves genuine first-then flow and genuine simultaneous contribution. A completed Method result may support the answer; its action sequence is not copied, and its use creates no edition dependency. |
+| CC-DPFDA.6d Field and architecture evidence checked | `D12` judges the exact current framework edition: its public field promise, selected problem-family pattern sets and how they actually work together, representative cross-problem use, omissions, and source returns. It checks that the first use includes every required pattern from this DPF. For each relied-on external result, it names the exact result, direct kind, supplying product and edition or current state, receiving use, discovery route, material currentness or availability, and externality, while keeping MethodDescription reference, source-evidence use, and unavailable-result statement separate. A completed Method result may support the answer; its action sequence is not copied, and its use creates no edition dependency. An earlier review act or ledger entry is not D12 evidence. |
 | CC-DPFDA.7 Improvement route concrete | Below-floor coordinates return smallest useful repair slices; above-floor improvement proposals are substantive or explicitly dominated. |
 | CC-DPFDA.8 Seed status honest | Seed, prompt-output, and generated candidates are not promoted to reliance-bearing package status without evidence, admission, quality, and refresh routes. |
 | CC-DPFDA.9 Status and receiving-use boundary | `DPFPackageAdequacyStatus` remains a local claim in the aggregate result. Any F.10 status use, E.19 admission/refresh decision, assurance, publication, or later improvement is a separate receiving relation or Work and does not follow from table order or a favorable value. |

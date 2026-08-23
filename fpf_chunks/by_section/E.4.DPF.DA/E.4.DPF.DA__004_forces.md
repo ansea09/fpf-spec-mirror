@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__004_forces.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:3 — Forces"
-line_start: 68779
-line_end: 68789
+line_start: 68786
+line_end: 68796
 dependencies:
   - "A.1.1"
   - "A.10"

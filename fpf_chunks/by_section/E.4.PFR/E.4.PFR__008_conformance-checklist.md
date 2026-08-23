@@ -6,12 +6,12 @@ section_id: "E.4.PFR:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__008_conformance-checklist.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:6 — Conformance Checklist"
-line_start: 69394
-line_end: 69414
+line_start: 69401
+line_end: 69421
 dependencies:
   - "A.10"
   - "A.6.0"

@@ -445,7 +445,7 @@ Bare claim-bearing *role* has no single FPF referent. Start with `E.10.ROLE`, th
 
 - **Situation:** One working question may need results from several independently maintained DPFs, or the applicable DPF is not yet clear.
 - **Question:** Which exact resources answer the question now, what does each contribute, and where is the honest gap?
-- **First useful result or honest blocker:** A short answer naming each needed result or source and its contribution, or a product-gap blocker for the missing result.
+- **First useful result or honest blocker:** A short answer that identifies each available maintained result, maintained MethodDescription, or direct source and says what it contributes; if a needed result is unavailable, it names the blocker and retry condition.
 - **Start with:** `E.11.DSG - DPF Suite Guide`.
 - **Stop or return:** Stop when the named contributions answer the question. Return to the exact DPF or source for substance, or to `E.4:4.2` and `E.4.PFAD` when suite membership, maintenance responsibility, edition continuity, or exposure must be decided.
 

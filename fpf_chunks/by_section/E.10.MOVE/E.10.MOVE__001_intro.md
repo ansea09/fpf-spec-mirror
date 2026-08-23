@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__001_intro.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:intro — Intro"
-line_start: 73810
-line_end: 73825
+line_start: 73844
+line_end: 73859
 dependencies:
   - "A.1.STM"
   - "A.10"

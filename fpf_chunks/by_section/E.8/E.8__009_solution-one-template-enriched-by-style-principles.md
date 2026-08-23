@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 70425
-line_end: 70821
+line_start: 70434
+line_end: 70853
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -170,18 +170,18 @@ A revision is material when the actual change can alter what a working reader re
 - the asserted commonality, member set, membership rule, order, or governing premise of a list; or
 - ordinary first-use affordability.
 
-A formatting correction, spelling repair, citation repair, exact mechanical rendering, or wording change is `not triggered` only when the smallest comparison of the actual predecessor and proposed text shows that all these values are preserved. A clean comparison needs no additional positive ledger, evidence table, or pattern section. Physical line count, file size, section count, inventory rows, and the author's label for the change do not establish materiality.
+For this comparison, the **earlier edition** is the exact accepted pattern edition that this candidate is intended to replace for the declared use. A formatting correction, spelling repair, citation repair, exact mechanical rendering, or wording change is `not triggered` only when the smallest comparison of the earlier edition and proposed text shows that all these values are preserved. A clean comparison needs no additional positive ledger, evidence table, or pattern section. Physical line count, file size, section count, inventory rows, and the author's label for the change do not establish materiality.
 
 **Use one bounded material-revision loop over the actual prose.** Before treating a materially revised pattern as authored:
 
-1. Recover the useful predecessor use at idea level: the recognizable situation and intended reader, first admissible action or judgement, first useful result, action-changing boundary or stop, and any domain claim, example, or relation needed to perform that move. Classify a changing or disappearing predecessor use only as retained, a valid outcome whose defective mechanism is repaired, an explicitly authorized retirement with a corrected action or boundary, or unsupported residue.
+1. Recover the useful earlier-edition use at idea level: the recognizable situation and intended reader, first admissible action or judgement, first useful result, action-changing boundary or stop, and any domain claim, example, or relation needed to perform that move. Classify a changing or disappearing earlier-edition use only as retained, a valid outcome whose defective mechanism is repaired, an explicitly authorized retirement with a corrected action or boundary, or unsupported residue.
 2. Draft the candidate's positive practitioner path in domain-recognizable language before guards: governed subject, recurring problem, action the reader can take, first useful result, and next action-changing condition or stop.
-3. Compare the actual predecessor and proposed text at comparable application effort. Preserve every useful predecessor move or deliberately replace it with an at-least-equally-usable action, result, or boundary; admit a candidate-only use only from an exact accepted decision, source/SoTA stance, finding, or working need.
+3. Compare the earlier edition and proposed text at comparable application effort. Preserve every useful earlier-edition move or deliberately replace it with an at-least-equally-usable action, result, or boundary; admit a candidate-only use only from an exact accepted decision, source/SoTA stance, finding, or working need.
 4. Remove exactness intensifiers, negative catalogues, ambiguous role and process wrappers, formal identities, and assurance apparatus that do not change the truth, action, boundary, or reliance claim. Keep ordinary “use this pattern” or “apply this pattern” wording; open the fuller pattern-application ontology only under `E.8:0.3` when its identities matter.
 5. Check that recognition, first action, and first useful result still precede optional modeling, evidence, conformance, and assurance work. Use `F.19` or `E.10` only for a residual phrase or word/head/use problem, not as a wrapper around the whole authoring path.
 6. For every changed public or consumed interface—entry wording, input or result, field or position meaning, action order, stop, return, or reconsideration condition—repair each determinate stale ToC or README cue, example, relation, and true direct consumer in the same authoring increment. Find consumers by the meaning they teach or use; a shared word, identifier, or nearby reference is not enough.
 
-Prior-edition and candidate-only uses remain different bases, and both may be present in one revision. Compare the exact predecessor and candidate editions. A prior-edition use keeps its predecessor basis and one of the four classifications above; a candidate-only use keeps its exact accepted basis and receives no old-use class or fabricated history. Treat a selected use as required when its loss changes action or boundary, and as optional when it demonstrates breadth only. Backward compatibility alone is not improvement, and a candidate-only promise is not improvement until the text supports its executable use. Use desk replay by default and escalate to a cold reader, AI-agent, or observed-work check only when ambiguity or consequence justifies it. If later independent review needs a recoverable note, use the smallest existing authoring source; do not create a card, score, universal schema, or one written row per idea.
+Earlier-edition and candidate-only uses remain different bases, and both may be present in one revision. Compare that exact earlier edition with the candidate edition. An earlier-edition use keeps its earlier-edition basis and one of the four classifications above; a candidate-only use keeps its exact accepted basis. Do not classify a candidate-only use as an earlier-edition use or invent history for it. Treat a selected use as required when its loss changes action or boundary, and as optional when it demonstrates breadth only. Backward compatibility alone is not improvement, and a candidate-only promise is not improvement until the text supports its executable use. Use desk replay by default and escalate to a cold reader, AI-agent, or observed-work check only when ambiguity or consequence justifies it. If later independent review needs a recoverable note, use the smallest existing authoring source; do not create a card, score, universal schema, or one written row per idea.
 
 Test first-use affordability by checking whether the positive Solution supports this short rendering:
 
@@ -202,6 +202,29 @@ This rendering explains the pattern; it does not claim that actual work is linea
 | Action or claim hidden in a noun list | Write the substantive proposition or action first, then retain examples only when they change recognition or use. |
 
 Treat one triggered list as a small attention series. A member is a separate unit when its membership can fail independently or require a different subject predicate. A genuinely small closed set may remain one predicate-level unit only when one explicit membership rule decides every member and none has an independent disposition. Nearby nouns that assert no common membership, and unchanged declared closed sets or named-kind example lists still covered by their exact rule, take the cheap positive-control path. A blanket claim that all lists are coherent is not evidence. `E.10` detects enumeration-as-kind and vague heads, `E.10.ARCH` requires exact predicates for recovered claims, and `F.18` settles durable names; this authoring method does not duplicate their recognition or naming architecture.
+
+#### E.8:4.1.3 - Decide Whether a Narrower Contribution Changes Practice
+
+Use this when a broader available contribution and a proposed narrower contribution both appear to answer the same recognizable working situation. State the intended reader, use, and scope. Apply both contributions at comparable effort and find the first difference in what the reader notices or decides, does, needs or checks, obtains, or uses as a stop, return, or retry. A narrower title, domain noun, paraphrase, or extra example is not enough by itself. If no action-changing difference remains, omit or merge the narrower text and point to what already answers the situation. If the two contributions address different situations, state that boundary before deciding their relation.
+
+An action-changing difference shows that the contribution is distinct; it does not show that the contribution is worth keeping. Retain or merge it only when the changed action, result, boundary, or saved source reconstruction is warranted and useful for the declared reader, use, and scope under the applicable domain, evidence, currentness, affordability, and architecture checks. Use only the checks that can change this decision. Repair or reject a distinct contribution that is wrong, stale, unsafe, unsupported, incompatible, or needlessly burdensome. Keep an explicit gap when no acceptable contribution answers the situation.
+
+Naming a dependency does not settle the comparison. Say which maintained result supplies the reusable part, what kind of result it is, which maintained product supplies it, and how the reader uses it. Then preserve any remaining domain problem, filling, constraint, relation, evidence limit, return, or discovery need without copying the general rule.
+
+When reuse or a gap closes the reader's question, state which of these is actually true:
+
+1. **Use an available maintained result.** Name the exact result, what kind of result it is, the maintained product and edition or current state that supplies it, and the receiving use. The supplying product may be an FPF, DPF, LPF, or a separately maintained non-framework product.
+2. **Use a maintained MethodDescription.** Name the public description, the Method it describes, and how the reader uses the description to select or perform that Method. Do not report the expected result as already obtained.
+3. **Use a direct source as evidence.** Name the source, the claim or decision it supports, the receiving use, its limits, and a usable locator. Source availability is not result production.
+4. **State a named unavailable result.** Name what is missing, the action or decision it blocks, the missing condition, and the observable condition for retry.
+
+For example, "feed the animals" may be true for both a mouse and a tiger yet fail to tell the feeder what food to give. Grain and meat change the action, so keep or link the animal-specific guidance when that difference is warranted for the declared use.
+
+By contrast, a pump-maintenance restatement of an available evidence-use contribution adds nothing if it changes only pump nouns and one example. Omit or merge the restatement, point to the maintained result that already answers the situation, and judge any promised maintenance-framework coverage separately.
+
+A tiger-feeding proposal may instead require manager approval and a laboratory certificate before every ordinary feeding. That proposal changes the feeder's action, but if no safety rule, evidence limit, law, or observed failure warrants the burden for the declared use, reject it or repair it to the smallest warranted check. Distinctness alone does not preserve it.
+
+A result maintained outside the receiving framework may answer the reader's use without becoming part of that framework. In a package-coverage account, count that external result only when the exact result and supplying product, receiving use, practical discovery route, and any material currentness or availability condition are explicit, and say that the result remains external. Otherwise keep the promised family as a gap or omission. When the resulting stable pattern set materially changes a promised problem family, obtain a current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition. Reuse a matching current result when the exact edition, promised families, declared use, relied-on results, and relevant conditions did not change; do not record proof that a revisit happened.
 
 #### E.8:4.2 - Stylistic Principles (S-0 ... S-19)
 

@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__005_solution.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:4 — Solution"
-line_start: 68790
-line_end: 69003
+line_start: 68797
+line_end: 69010
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -67,9 +67,9 @@ The first useful result is that aggregate episteme and its local status for the 
 
 For a new or substantially revised DPF, add four focused questions:
 
-- Do the selected pattern sets actually work together in one first use and one representative case across problem families well enough to make good on the public field promise? Record the answer as `D12DomainProblemFamilyCoverageAdequacy`; a pattern count is not evidence.
+- For this exact current framework edition, do the selected pattern sets and relied-on external results actually work together in one first use and one representative case across problem families well enough to make good on the public field promise? Record the answer as `D12DomainProblemFamilyCoverageAdequacy`; a pattern count or evidence that an earlier review occurred is not evidence.
 - Where the sources describe practice architecture, does the package preserve both genuine first-then flow and genuine simultaneous bounded contribution? Use a completed `C.32.MWA` result as evidence when several structures need reconciliation; do not repeat that Method's actions here. Use an `E.23.CDI` result only when capability development changes the package claim.
-- For the named first use, are all required patterns from this DPF present, and are relied-on external editions, content, use, and refresh conditions explicit? For each important source-backed claim, can a reviewer find the source and tell whether the evidence supports, suggests, or only motivates it?
+- For the named first use, are all required patterns from this DPF present? For every relied-on external result, are its exact identity, direct kind, supplying product and edition or current state, receiving use, discovery route, material currentness or availability, and externality explicit? For each important source-backed claim, can a reviewer find the source and tell whether the evidence supports, suggests, or only motivates it?
 - When the declared use includes a public presentation carrier, does that carrier bear the framework publication form defined by `E.11.PFP` while keeping its DPF-specific body and references under `E.4.DPF`? Keep `PFM1` responsible for practitioner entry and navigation; use `PFM12` only for the remaining common-form and edition-projection questions. Form conformance does not prove field coverage or package adequacy.
 
 These questions test the package and its evidence. They do not prescribe another Method to perform or turn use of a Method result into an edition dependency.
@@ -194,7 +194,7 @@ In this pattern, `known failure modes` means beginner mistakes and experienced-p
 | `D9EditionStateAndCurrentnessAdequacy` | Are framework episteme edition, any obtaining EpistemeEditionRelation, source currentness, dependency pins, qualification window, publication occurrence, form, and presentation-carrier availability, access-route currentness, and actual access or use currentness explicit and separately changeable? | Readers can tell which exact framework episteme they use, which edition/dependency relations obtain, what source, publication, and access state supports the use, and which separate change reopens it. |
 | `D10ImprovementAndRefreshAdequacy` | Can the package improve through `E.22` and `E.23` and refresh through `G.11` without giant reopen or process theatre? | Low values produce repair rows; source, edition, telemetry, and use failures have smallest reopen routes. |
 | `D11DomainSoTAAlignmentAdequacy` | Does current domain or local SoTA discipline pattern selection, solution, examples, boundaries, and reopen triggers? | Sources change the package content; they are not bibliography, claim theatre, or authority by citation. |
-| `D12DomainProblemFamilyCoverageAdequacy` | Do the selected pattern sets adequately answer the public field promise? Judge how they actually work together, whether the first use can proceed without unpublished authoring context, what a representative cross-problem case reveals, which important omissions remain, and why a later refresh may be needed. | The assessment shows what the current FPF and admitted DPFs already provide, what remains uncovered, how the selected pattern sets work together in the representative case, which omissions remain, where later authors can revisit each important source-backed claim, and what observation reopens the answer. It also checks that the first use includes every required pattern from this DPF and states each external edition, content, use, and refresh condition it relies on. Pattern count and carrier conformance are evidence only where they change this answer. |
+| `D12DomainProblemFamilyCoverageAdequacy` | Does this exact current framework edition adequately answer its public field promise through its selected pattern sets and relied-on external results? Judge how the patterns actually work together, whether the first use can proceed without unpublished authoring context, what a representative cross-problem case reveals, and which important omissions remain. | The assessment shows what the current FPF and admitted DPFs provide for this exact edition, what remains uncovered, how the selected pattern sets work together, which omissions remain, where later authors can revisit each important source-backed claim, and what observation reopens the answer. It checks that the first use includes every required pattern from this DPF. For every relied-on external result, it names the exact result, direct kind, supplying product and edition or current state, receiving use, discovery route, material currentness or availability, and honest externality; it keeps MethodDescription reference, source-evidence use, and unavailable-result statement separate. D12 records no proof that an author previously revisited coverage. |
 
 #### E.4.DPF.DA:4.3 - Result row shape
 
@@ -238,7 +238,7 @@ Use these sources and patterns instead of expanding this pattern into a package 
 | Evidence or defect | Evidence source or pattern to use |
 | --- | --- |
 | Source payload, rejected alternatives, source currentness, and source-use boundary | `G.2`, `G.11` |
-| Public field promise, selected problem-family pattern sets, representative use, every pattern required for the first use, and each relied-on external edition, content, use, and refresh condition | `E.4`, `E.4.PFAD`, `E.4.DPF`, `E.4.PFR` |
+| Public field promise, selected problem-family pattern sets, representative use, every pattern required for the first use, and each relied-on external result with its direct kind, supplying product, edition or current state, receiving use, discovery route, material currentness or availability, and externality | `E.4`, `E.4.PFAD`, `E.4.DPF`, `E.4.PFR` where a dependency or recorded relation actually obtains, and `E.8:4.1.3` for the four return boundaries |
 | First-then versus simultaneous contribution and several-structure synthesis | `B.1.5`, `A.22`, `A.22.CGUS`, `C.30.AD`, and a completed `C.32.MWA` result when several structures need reconciliation |
 | Common framework publication form | `E.11.PFP` and `E.4.DPF`; use `E.4.PFIP` separately when accepted-source integration or predecessor continuity is claimed |
 | Individual pattern quality | `E.21` |

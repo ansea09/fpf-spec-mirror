@@ -6,12 +6,12 @@ section_id: "E.11:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__008_conformance-checklist.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:7 — Conformance Checklist"
-line_start: 75750
-line_end: 75767
+line_start: 75784
+line_end: 75801
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -44,5 +44,5 @@ keywords:
 | `E11-10` | Thin projection and direct authority | ToC pattern rows expose the framework's declared retrieval fields, including a recognizable working-question cue, without copying a first move, result, or boundary mini-method. `E.11.PFP` defines the exact index fields and form grammar. ToC, query phrases, cards, and retrieval remain finding aids; a substantive claim returns to the direct pattern whose content defines, constrains, or tests it. |
 | `E11-11` | Grounded public range | Every benefit claim names a concrete need, imaginable result or blocker, and choice-changing pattern distinction; wording repair does not crowd out architecture, work, problem shaping, comparison, evidence, time, causal use, mathematics, quality, improvement, or framework authoring. |
 | `E11-12` | Smallest change reach | When a direct result or boundary changes, repair the smallest affected entry plus determinate README, Preface, ToC, example, relation, and true-consumer wording; unrelated publication units remain unchanged. |
-| `E11-13` | Cross-DPF guide route | A several-DPF or unclear-DPF situation routes to `E.11.DSG`, exposes a useful answer or product-gap blocker before detail, and does not treat the guide as a framework edition, as deciding the suite, as lookup Work, or as a stronger relation. |
+| `E11-13` | Cross-DPF guide route | A several-DPF or unclear-DPF situation routes to `E.11.DSG` and exposes, before detail, an available maintained result of its actual kind and supplying product, a maintained MethodDescription reference, direct-source evidence, or a named unavailable result with blocker and retry. It does not treat the guide as a framework edition, as deciding the suite, as lookup Work, or as a stronger relation. |
 

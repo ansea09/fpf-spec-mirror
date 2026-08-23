@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 75359
-line_end: 75701
+line_start: 75393
+line_end: 75735
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -47,7 +47,7 @@ The framework Readme is the single editable public entry set. If another publica
 
 Use `E.11.PFP` when one public FPF, DPF, or LPF edition needs the shared reader-facing publication form: a compact product-declared opening, separate exact title and Readme H1, Readme and Preface represented in the product's established ToC grammar before one logical pattern index, Readme entry fields, a front-only development-metadata boundary, language boundary, and deterministic source-hazard plus rendered-structure checks. E.11 still tells the reader how to state the practical question, obtain a first useful result, follow the direct-pattern route, and stop or return. Do not copy the form grammar here or treat a form-valid carrier as a usable framework.
 
-Use `E.11.DSG` when the reader may need results from several independently maintained DPFs or cannot yet tell which DPF applies. Start with the recognizable cross-DPF situation and a short answer that names each needed resource and its contribution, or an honest product-gap blocker. `E.11.DSG` carries the full guide form, exact suite-edition return, lifecycle warnings, and optional persisted-answer detail. It is a non-framework guide specialization, so do not apply `E.11.PFP` to it.
+Use `E.11.DSG` when the reader may need results from several independently maintained DPFs or cannot yet tell which DPF applies. Start with the recognizable cross-DPF situation and a short answer that separately names an available maintained result of its actual kind and supplying product, a maintained MethodDescription reference, direct-source evidence, or a named unavailable result with its blocker and retry. `E.11.DSG` carries the full guide form, exact suite-edition return, lifecycle warnings, and optional persisted-answer detail. It is a non-framework guide specialization, so do not apply `E.11.PFP` to it.
 
 Pattern count is only a diagnostic. A one-pattern edition asks whether the result is instead a seed, candidate, or contribution to an existing framework; a larger count still does not establish a pattern language. Use `E.4` and `E.4.PFAD` to decide framework architecture, `E.4.DPF.DA` or `E.2.DA` for the applicable package or whole-FPF adequacy, and `E.21` for pattern quality.
 
@@ -288,7 +288,7 @@ For each expanded candidate-use template, exactly one result promise or exact pu
 | `SYSTEM-RECOGNITION` | Decide whether the exact entity in the claim is a system |
 | `SYSTEM-DELIMITATION` | Decide which entities are parts of the system and which relations only cross its boundary |
 
-E.11 records one F.13-form historical read path: `splits(SYSTEM-IN-CONTEXT -> {SYSTEM-RECOGNITION, SYSTEM-DELIMITATION, WORDING, ARCHITECTURE})`. The unchanged F.13 body does not contain this row. The old card had no single surviving public-guidance identity: system recognition, system delimitation, lexical recovery, and architecture have different referents, relations or evaluations, receiving uses, first results, and direct governors. Older writing remains readable through this one read path; current card use names only the four successor keys. A.1.STM is a conditional continuation with a dedicated readable README guide, not a fifth successor key. The split creates no U-kind, relation kind, record kind, result kind, or generic `Context` claim.
+E.11 records one F.13-form historical read path: `splits(SYSTEM-IN-CONTEXT -> {SYSTEM-RECOGNITION, SYSTEM-DELIMITATION, WORDING, ARCHITECTURE})`. The unchanged F.13 body does not contain this row. The old card had no single surviving public-guidance identity: system recognition, system delimitation, lexical recovery, and architecture have different referents, relations or evaluations, receiving uses, first results, and direct governors. Older writing remains readable through this one read path; current card use names only the four resulting keys. A.1.STM is a conditional continuation with a dedicated readable README guide, not a fifth resulting key. The split creates no U-kind, relation kind, record kind, result kind, or generic `Context` claim.
 
 The FPF Readme carries the current public cards and their expansions. Preface explains why FPF's distinctions work together. ToC locates pattern families. Full patterns carry methods, conditions, costs, consequences, and exact result semantics. None is a second card store.
 

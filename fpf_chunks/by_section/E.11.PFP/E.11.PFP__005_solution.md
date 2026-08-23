@@ -6,12 +6,12 @@ section_id: "E.11.PFP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__005_solution.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:4 — Solution"
-line_start: 76685
-line_end: 76774
+line_start: 76719
+line_end: 76808
 dependencies:
   - "E.11"
   - "E.17"

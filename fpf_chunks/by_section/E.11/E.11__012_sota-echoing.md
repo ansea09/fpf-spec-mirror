@@ -6,12 +6,12 @@ section_id: "E.11:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__012_sota-echoing.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:11 — SoTA-Echoing"
-line_start: 75794
-line_end: 75808
+line_start: 75828
+line_end: 75842
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -35,7 +35,7 @@ keywords:
 | Information-foraging and information-scent practice | Put recognizable situation and expected information gain before internal navigation structure. | Adopt through situation-first cards and first-result differences. Do not infer ontology or a fixed shortlist size. |
 | Jin, Bai, and Oulasvirta, *Modeling Trial-and-Error Navigation With a Sequential Decision Model of Information Scent*, arXiv:2603.11759 (2026) | Treat inspection, premature selection, wrong turns, and backtracking as a bounded sequence under memory and time constraints. | Adapt through explicit stop, wrong-turn, and return boundaries. Materialize history only for named reliance; the preprint does not establish a universal discovery record. |
 | Zhu, Reinecke, and Mitra, *Language Scent: Exploring Cross-Language Information Navigation*, arXiv:2604.03604 (2026) | Keep contextual cues near the value being named while preserving the intended target behind a reader-facing expression. | Adapt to public cue and expansion design. The small study does not establish universal label equivalence or decide FPF ontology. |
-| Current FPF E.8, E.17, F.17, F.18, and E.11.PUA | Separate public recognition, publication, naming, and project pattern use. | E.11 uses their concrete contributions and defines only public guidance plus reliance-conditioned comparison; it does not recast every referenced pattern as one universal subject or method-description kind. |
+| Current FPF `E.8:4.1.3`, `E.11.DSG`, E.17, F.17, F.18, and E.11.PUA | Separate public recognition, publication, naming, and project pattern use; for a cross-DPF question, distinguish an available maintained result, a maintained MethodDescription, direct-source evidence, and a named unavailable result. | In the `E.11:4` route and `E11-13`, **adopt** those four readable returns before detail. **Reject** a universal resource kind, source availability as proof that a result exists, a public entry that decides suite architecture, and a guide that performs lookup Work. Reopen this choice if `E.8:4.1.3` or `E.11.DSG` changes what a truthful entry can return. E.11 still defines only public guidance plus reliance-conditioned comparison. |
 
 The practitioner implication is concrete: inspect a small plausible set, compare the first useful result or honest blocker each direct pattern can offer, and open exact identity or basis questions only when they change the choice or a named later reliance. Keep durable comparison history only when someone will use it.
 

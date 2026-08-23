@@ -6,12 +6,12 @@ section_id: "E.8:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__004_what-this-buys.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0.2 — What this buys"
-line_start: 70339
-line_end: 70365
+line_start: 70346
+line_end: 70374
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -60,7 +60,9 @@ keywords:
 
 **First useful move.** Put the working situation, first action-guiding move, practical payoff, ordinary boundary, and nearest heavier assurance condition into the recognition text before tightening template details or conformance material.
 
-**Move wording in pattern prose.** In `E.8`, phrases such as `first useful move`, `action-guiding move`, or `working move` are reader-facing guidance, not a root `U.Move` or local pattern-application ontology. In ordinary prose, say **recommend this pattern use**, **coordinate these uses**, or **show their total order**. When the durable governed object itself matters, use its exact published designation: `PatternUseRecommendation@Context`, `PatternUseCoordination@Context`, or `PatternUseSequence@Context` under `E.11.PUR`; the suffix is retrieval wording, not an identity constructor. The sequence designation applies only to an admitted total order for the named receiving use. Otherwise recover the direct work, plan, gate, transformation, publication, architecture, source, or language-state relation under its exact rule. State what the cited pattern contributes and use `E.10.MOVE` when the current value remains unclear.
+**Solution and working move.** `Solution` is the canonical section that gives the pattern's conditional answer to its `Problem frame`, `Problem`, and `Forces`. It tells the reader what to do or decide, under which conditions, what result to seek, and when to stop or return. One `Solution` may contain several such actions or judgements. A **working move** is ordinary reader-facing wording for one of those actions or judgements. It is not another section name, the whole `Solution`, a root `U.Move`, performed `U.Work`, or an actual `U.Transformation`. `E.11.PUA` governs use of one selected `Solution` to reach the first useful result. When alternatives are formally qualified under `A.22.CGUS`, call them `continuation candidates`; `E.18.3` applies only when the selected CGUS uses a qualifying transformation-flow substrate.
+
+**Move wording in pattern prose.** In ordinary prose, say **recommend this pattern use**, **coordinate these uses**, or **show their total order** when those are the actual claims. When the durable governed object itself matters, use its exact published designation: `PatternUseRecommendation@Context`, `PatternUseCoordination@Context`, or `PatternUseSequence@Context` under `E.11.PUR`; the suffix is retrieval wording, not an identity constructor. The sequence designation applies only to an admitted total order for the named receiving use. Otherwise recover the direct work, plan, gate, transformation, publication, architecture, source, or language-state relation under its exact rule. State what the cited pattern contributes and use `E.10.MOVE` when the current value remains unclear.
 
 **Cheap stop.** If the draft already gives a cold reader the working situation, first useful move, practical payoff, ordinary boundary, and nearest heavier assurance condition, do not add more authoring apparatus just to look mature. Use conformance material to verify that guidance; do not let it replace the guidance.
 

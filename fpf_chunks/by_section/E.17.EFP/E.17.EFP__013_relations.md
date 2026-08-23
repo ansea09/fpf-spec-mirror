@@ -6,12 +6,12 @@ section_id: "E.17.EFP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__013_relations.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:12 — Relations"
-line_start: 80633
-line_end: 80639
+line_start: 80668
+line_end: 80674
 dependencies:
   - "A.10"
   - "A.15"

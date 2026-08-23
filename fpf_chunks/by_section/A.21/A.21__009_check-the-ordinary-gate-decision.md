@@ -6,7 +6,7 @@ section_id: "A.21:7"
 section_title: "Check the ordinary gate decision"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__009_check-the-ordinary-gate-decision.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:7 — Check the ordinary gate decision"

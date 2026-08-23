@@ -6,12 +6,12 @@ section_id: "E.4.DPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__005_solution.md"
-commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:4 — Solution"
-line_start: 68209
-line_end: 68549
+line_start: 68214
+line_end: 68556
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -108,9 +108,11 @@ Before authoring a new edition, the `E.4.PFAD` architecture answer states:
 - one representative application that crosses the patterns and problem-family sets needed for the first use;
 - the selected first-edition patterns, every same-framework prerequisite needed for that use, and every relied-on external edition;
 - what the sources and evidence support, including whether each load-bearing claim is actual, proposed, or still untested, and what must be realized or tested before a stronger claim is made; and
-- where each contribution goes: into the new edition, back to an existing FPF or DPF, into an LPF or another maintained guide or source result, into direct source use, or into an explained decision to maintain nothing new together with the observation that would reopen the question.
+- where each contribution goes: into the new edition, back to an existing FPF or DPF, into an LPF or another maintained result of its actual kind and supplying product, into direct source use, or into an explained decision to maintain nothing new together with the observation that would reopen the question.
 
-The first-edition set is internally usable only when it contains every selected pattern and every prerequisite from the same framework needed for the named first use. Keep external FPF, DPF, and LPF dependencies external. For each one, name the depended-on edition and content, the use, dependency direction and reason, refresh condition, and any availability or compatibility result that the first use requires. A missing edition or required result blocks that first use; do not hide the gap behind the word *closed*.
+Before placing a proposed narrower contribution, apply `E.8:4.1.3` to it and the broader available contribution in one recognizable situation. Keep or merge a warranted difference that changes the reader's action or result; omit or merge a true duplicate; repair or reject an unwarranted difference. If something else answers the question, distinguish an available maintained result from a MethodDescription, direct-source evidence, and an unavailable result. This decides one contribution, not whether the package covers its public promise.
+
+The first-edition set is internally usable only when it contains every selected pattern and every prerequisite from the same framework needed for the named first use. Keep relied-on results from an FPF, DPF, LPF, or separate non-framework product external when they are not members of this framework. For each external result, name the exact result, its direct kind, supplying product and edition or current state, receiving use, discovery route, and any currentness or availability condition that can change the use; say that it remains external. When an edition dependency obtains, also name its direction, reason, and refresh condition. If these facts are missing or the result does not answer the promised use, keep the family as a gap or omission; do not hide it behind the word *closed*. When a keep, merge, removal, profile move, or external reliance materially changes the stable set for a promised problem family, obtain a current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition. Reuse a matching current result when that edition and its basis are unchanged; authoring history is not part of the D12 result.
 
 Several sources may describe the same practice through structures that do not line up one-for-one—for example Methods, Work, subjects, descriptions, capabilities, providers, and cultural processes. When those differences affect the framework architecture, use `C.32.MWA` to produce one readable synthesis for the `E.4.PFAD` answer; that synthesis does not choose whether to create a DPF or another maintained result. Use `E.23.CDI` only when the selected architecture includes developing capability for a named Work family, and use its result instead of copying its action sequence here.
 
@@ -252,7 +254,7 @@ This episteme's A.3.2 MethodDescription use and its result-and-use account are s
 
 One DPF cannot constitute a DPF suite. Membership in an exact suite edition does not enlarge the DPF's field, make its first edition adequate, create a dependency or compatibility relation, or assign responsibility for maintaining the suite or its guide. It also establishes no publication, access, recommendation, or actual guide use. A shared carrier, guide entry, author, or locator creates none of those claims either.
 
-An author may propose that a DPF product join or leave a suite, or that a guide entry use one of its results. Keep membership and removal as proposals until they are accepted in a suite-architecture decision. Return those proposals to `E.4:4.2` and `E.4.PFAD`, where the common use, inclusion rule, minimum cardinality, continuity, maintenance commitment, edition-recovery route, and exposure choice are decided. Keep a proposed guide entry separate until the guide product's content or refresh decision selects it; the first concrete application also needs the applicable `DPF-SUITE-00` project decision. Make and check the entry's direct claims about DPF results and sources under the patterns that define those claims. If removal would leave fewer than two qualifying products, also follow the guide-warning and suite restoration-or-retirement branch; do not declare a singleton or empty successor edition.
+An author may propose that a DPF product join or leave a suite, or that a guide entry use one of its results. Keep membership and removal as proposals until they are accepted in a suite-architecture decision. Return those proposals to `E.4:4.2` and `E.4.PFAD`, where the common use, inclusion rule, minimum cardinality, continuity, maintenance commitment, edition-recovery route, and exposure choice are decided. Keep a proposed guide entry separate until the guide product's content or refresh decision selects it; the first concrete application also needs the applicable `DPF-SUITE-00` project decision. Make and check the entry's direct claims about DPF results and sources under the patterns that define those claims. If removal would leave fewer than two qualifying products, also follow the guide-warning and suite restoration-or-retirement branch; do not declare a singleton or empty suite edition.
 
 Do not infer stronger relations from membership. Assert a dependency only when the dependent and relied-on editions, relied-on content, receiving use, and invalidation or reopen fact are known. Assert compatibility only for an exact edition pair with a named overlapping use, difference or interface, impact, and reopen condition. Until those facts satisfy `E.4.PFR`, describe only the proposed use, constraint, or question. Suite membership and guide navigation substitute for none of them.
 
@@ -264,7 +266,7 @@ Select the result whose condition is true now:
 2. **Framework-architecture answer.** A choice among the five outcomes in steps 7–8 must settle a later-used boundary. Use the `E.4.PFAD` profile and record the selected answer, including relations among initial patterns that change the architecture, in one `E.9` DRR. PFAD supplies no separate result or relation.
 3. **Organization-design proposal.** Candidate organization claims need their own review before an architecture answer is selected. Use the C.2.1 proposal episteme locally called `FrameworkOrganizationDesignProposal`. The proposal is optional and is not a prerequisite for the architecture question.
 4. **Architecture-description use.** The framework entity, architecture relation, and selected structures already exist, and the immediate question is how an architecture description may be used. Use `C.30.AD`; its `ArchitectureDescriptionUseCard@Project` name is retrieval-only. When project locality depends on a composite project `U.Work`, identify that Work under `A.15.6`, use `A.15.1` for its Work identity, and use `F.6` for applicable attribution. Keep the description-use relation separate.
-5. **Authoring-dependency description.** A named next authoring use needs a stable account of dependency availability and relevance. Use the C.2.1 episteme locally called `FrameworkAuthoringDependencyDescription`. It may cite the accepted answer and its `E.9` DRR when that basis matters, but it is neither a prerequisite nor an automatic successor to the architecture answer.
+5. **Authoring-dependency description.** A named next authoring use needs a stable account of dependency availability and relevance. Use the C.2.1 episteme locally called `FrameworkAuthoringDependencyDescription`. It may cite the accepted answer and its `E.9` DRR when that basis matters, but it is neither a prerequisite nor an automatic result of the architecture answer.
 
 Each result exists only when its own predicate and receiving use are current. List order neither produces the result nor turns these alternatives into stages.
 
