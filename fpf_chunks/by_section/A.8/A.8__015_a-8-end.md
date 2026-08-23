@@ -6,12 +6,12 @@ section_id: "A.8:End"
 section_title: "A.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__015_a-8-end.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:End — A.8:End"
-line_start: 21975
-line_end: 21976
+line_start: 22031
+line_end: 22032
 dependencies:
   - "A.11"
   - "C.3"

@@ -6,15 +6,17 @@ section_id: "E.11:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__013_relations.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:12 — Relations"
-line_start: 74872
-line_end: 74877
+line_start: 75809
+line_end: 75814
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
+  - "E.11.DSG"
+  - "E.11.PFP"
   - "E.11.PUA"
   - "E.11.PUR"
   - "E.17.AUD"
@@ -24,24 +26,11 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
-  - "& Search Queries"
-  - "& Search Queries includes at least one recognizable working-question cue"
-  - "Dependencies"
-  - "a substantive claim returns to the direct pattern whose content defines"
-  - "and Dependencies"
-  - "and retrieval are finding aids"
-  - "cards"
-  - "constrains"
-  - "or boundary mini-method. ToC"
-  - "or tests it"
-  - "query phrases"
-  - "result"
-  - "with a recognizable working-question cue and no copied first move"
 ---
 
 ### E.11:12 - Relations
 
 - **Builds on:** `E.8` for pattern recognition text, `E.17.AUD` for publication-unit discipline, `F.17` and `F.18` for published terms and naming, and `C.2.1` for public helper epistemes.
 - **Leads to:** `E.11.PUA` for applying one selected pattern and `E.11.PUR` for local applicability, recommendation, and coordination.
-- **Coordinates with:** `A.22.CGUS` for demonstrative slices, `E.18` for flow-local results, `G.11` for currentness orchestration, and each direct pattern cited by a public template.
+- **Coordinates with:** `A.22.CGUS` for demonstrative slices, `E.18` for flow-local results, `G.11` for currentness orchestration, `E.11.DSG` for a separately maintained DPF suite guide and cross-DPF entry, and each direct pattern cited by a public template.
 

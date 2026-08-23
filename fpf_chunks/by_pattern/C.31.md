@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
-line_start: 60060
-line_end: 60441
+line_start: 60182
+line_end: 60563
 dependencies:
   - "A.10"
   - "A.17"

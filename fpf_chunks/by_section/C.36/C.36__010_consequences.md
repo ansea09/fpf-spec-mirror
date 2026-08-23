@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "C.36"
 pattern_title: "Cultural Evolution and Cultural-Evolution Engineering"
-section_id: "C.36:8"
+section_id: "C.36:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__010_consequences.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
-  - "C.36:8 — Consequences"
-line_start: 65348
-line_end: 65362
+  - "C.36:9 — Consequences"
+line_start: 65723
+line_end: 65737
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,7 +56,7 @@ dependencies:
 keywords:
 ---
 
-### C.36:8 - Consequences
+### C.36:9 - Consequences
 
 Positive consequences:
 

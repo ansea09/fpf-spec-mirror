@@ -6,12 +6,12 @@ section_id: "E.8:11"
 section_title: "SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__016_sota-echoing-normative-lineage-and-deltas-to-contemporary-state-of-the-art.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:11 — SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
-line_start: 69983
-line_end: 70019
+line_start: 70923
+line_end: 70959
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -66,11 +66,11 @@ keywords:
 
 **Minimum contents (authoring requirements).**
 1) **Evidence binding (no duplicate SoTA).** If a **SoTA Synthesis Pack** exists (G.2), this section **SHALL cite** its **ClaimSheet IDs, CorpusLedger entries, and BridgeMatrix rows** as the governing evidence source for claims and report `adopt`, `adapt`, or `reject` **consistent with those IDs**. Avoid forking an untracked SoTA narrative.
-1a) **Accepted decision and source material set, not DRR-only narrowing.** When a pattern is drafted under an accepted `DRR` and other accepted decision or source materials also exist by value, the `DRR` remains the decision and placement record, but `SoTA-Echoing`, neighboring-pattern relations, and any minimal modeling or mathematical lens **MAY** and **SHOULD** inherit non-conflicting material from that accepted material set.
+   1a) **Accepted decision and source material set, not DRR-only narrowing.** When a pattern is drafted under an accepted `DRR` and other accepted decision or source materials also exist by value, the `DRR` remains the decision and placement record, but `SoTA-Echoing`, neighboring-pattern relations, and any minimal modeling or mathematical lens **MAY** and **SHOULD** inherit non-conflicting material from that accepted material set.
 2) **Sources (current problem-solving source refs, not prestige refs).** Use the smallest source set that can compare the serious current answers to the named practice question by value. Include independent traditions when more than one serious tradition actually answers that question; do not add a weak tradition to satisfy a count. A definitional pattern may need only one current source or practice line for its reduced issue. An older source may carry a current answer when the pattern says why later work has not displaced that contribution. Age, count, official status, popularity, and publication form are search cues, not SoTA verdicts.
 3) **Best-known, not merely popular.** Authors **SHALL** distinguish best-known currently defensible practice from merely widespread or fashionable defaults. If the pattern adopts, adapts, or rejects a popular but less defensible practice, that divergence **MUST** be stated explicitly.
-3a) **Currentness and lineage status.** Older standards, early papers, and historically important examples may be cited as lineage only when later practice has materially changed the answer. They may carry a SoTA row only when the pattern states why the source ref is still current for the named practice question or pairs it with a current source that supplies the current practice.
-3b) **Problem-domain and practice answerability.** The selected SoTA source family **MUST** answer the governed working problem and the relevant domain or practice tradition. It **MUST NOT** be selected only because it makes package placement, naming neatness, or pattern clustering easier to justify.
+   3a) **Currentness and lineage status.** Older standards, early papers, and historically important examples may be cited as lineage only when later practice has materially changed the answer. They may carry a SoTA row only when the pattern states why the source ref is still current for the named practice question or pairs it with a current source that supplies the current practice.
+   3b) **Problem-domain and practice answerability.** The selected SoTA source family **MUST** answer the governed working problem and the relevant domain or practice tradition. It **MUST NOT** be selected only because it makes package placement, naming neatness, or pattern clustering easier to justify.
 4) **Practice alignment.** For each cited item, state **what is adopted, adapted, or rejected** and **why** in 2 to 4 sentences.
 5) **Scale admissibility.** If numeric operations are implied, bind to ComparatorSet or CG-Spec and declare partial-order stance with no hidden scalarization.
 6) **Actual cross-local or plane relation.** When a use relies on an obtaining Bridge, expose the two exact F.17 local senses, the F.9 relation, and a separate bounded-use claim; `CL` is optional evidence shorthand. For a ReferencePlane use, expose the applicable plane relation. Add a penalty only under a named current policy that applies to the exact use. Do not invent a Bridge, `CL`, plane relation, or penalty from a shared word, source import, context, or plane difference.

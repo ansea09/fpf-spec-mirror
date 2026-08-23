@@ -6,12 +6,12 @@ section_id: "B.1.5:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:5 — Archetypal Grounding — Worked Slices"
-line_start: 35801
-line_end: 35840
+line_start: 35885
+line_end: 35932
 dependencies:
   - "A.1"
   - "A.15"
@@ -20,6 +20,7 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.22"
+  - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
@@ -101,4 +102,12 @@ A paper draft, workflow diagram, repository, or notebook may be a claim-bearing 
 `EvidenceSynthesisInterfaceDescription-v3 : U.MethodDescription` may state that the Method exposes `Submit()` and `ReleaseArtifacts()`, forwards `CrossValidate.Folds(k)`, and encapsulates ad hoc scrubbing utilities. Identify `SubmissionReleaseBoundaryAccountForm-v3` independently as the reusable arrangement entity selected as the boundary-account form. Identify `EvidenceSynthesisMethodsPage-2026-07 : U.PresentationCarrier` independently as the digital carrier. Identify `SubmissionAndArtifactReleaseUse : U.Episteme` as the bounded-use declaration whose claims state the supported submission and artifact-release operations, their conditions, and the excluded stronger use. Identify `SubmittingResearchersAudienceDeclaration-v1 : U.Episteme` as the audience declaration whose claims select the authorized submitting researchers; those researchers are the declared audience, not a participant substituted for the declaration episteme.
 
 `PublicationFormExpressionRelation(EvidenceSynthesisInterfaceDescription-v3, SubmissionReleaseBoundaryAccountForm-v3, SubmissionAndArtifactReleaseUse)` must obtain for that form use, and `PublicationFormBearingRelation(EvidenceSynthesisMethodsPage-2026-07, SubmissionReleaseBoundaryAccountForm-v3)` must obtain for that bearing claim. `ResearchPublicationSystem` performs the separate `EvidenceSynthesisInterfacePublicationWork-2026-07 : U.Work`, which may establish or restore availability. The distinct `EvidenceSynthesisInterfacePublication-2026-07` occurrence of `EpistemePublicationRelation` has the five fixed participants `<EvidenceSynthesisInterfaceDescription-v3, SubmittingResearchersAudienceDeclaration-v1, SubmissionAndArtifactReleaseUse, SubmissionReleaseBoundaryAccountForm-v3, EvidenceSynthesisMethodsPage-2026-07>` and carries the description edition's enduring availability to the audience selected by the audience declaration for the bounded use. Publication Work is not a participant of that occurrence. None of these description, declaration, form, carrier, Work, or publication-relation objects creates an interaction, `SlotSpec`, Method part, or composition fact.
+
+#### B.1.5:5.5 - Ordered Preparation And Simultaneous Performance
+
+A music-and-dance performance can contain both kinds of fact. Venue setup, safety checks, and interface checks may need a real order before the public performance starts; a failed safety check may stop the unfolding. Preserve that order when the exact Methods and conditions support it. It is not a level structure.
+
+During the performance, dancing, music making, sound mixing, lighting, and stage coordination may contribute at the same time. If the project identifies one performance Work whole, it may enact several exact Methods through separate relations. If it identifies several Work occurrences, state which overlap. Do not rewrite these contributions as five stages merely because a production plan or review lists them one by one. Conversely, do not erase real setup, cue, or handoff order merely because the overall performance is simultaneous.
+
+The same two-way check applies elsewhere. In engineering Work, a lifecycle or product order does not prove that architecture, realization, integration, assurance, and feedback form one sequence. In operating Work, a workflow line does not serialize queues, commitments, resources, measures, and improvement. In capability development, preparation Work may precede the target Work while several target Methods contribute together during the transfer check. Preserve every real continuation condition, but do not invent order among concurrent contributions.
 

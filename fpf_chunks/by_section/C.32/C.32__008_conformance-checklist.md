@@ -6,12 +6,12 @@ section_id: "C.32:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__008_conformance-checklist.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:7 — Conformance Checklist"
-line_start: 61411
-line_end: 61423
+line_start: 61534
+line_end: 61546
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,6 +44,7 @@ dependencies:
   - "C.32.FAIL"
   - "C.32.HCS"
   - "C.32.MLAO"
+  - "C.32.MWA"
   - "C.32.P2S"
   - "C.32.PAD"
   - "C.33"
@@ -61,7 +62,7 @@ keywords:
   - "candidate configurations"
   - "retained alternatives"
   - "selected structures"
-  - "synthesis structure map"
+  - "selected-structure contribution rows"
   - "trade-off front"
 ---
 
@@ -70,7 +71,7 @@ keywords:
 | ID | Requirement | Purpose |
 |---|---|---|
 | `CC-C32-1` | The use names one synthesis question, described holon, intended palette use, and the current architecture relations and selected structures that change the question; ClaimScope or a bounded model-use structure is added only when action-changing. | Keeps the palette local without a generic context premise. |
-| `CC-C32-2` | The synthesis structure map names the smallest useful set of selected structures and subject patterns. | Prevents one-structure optimization from masquerading as synthesis. |
+| `CC-C32-2` | The selected-structure contribution rows name the smallest useful set of selected structures and subject patterns and state what each contributes. | Prevents one-structure optimization from masquerading as synthesis. |
 | `CC-C32-3` | Architecture characteristics and any quality bundles are named before candidate comparison. | Keeps functional demand distinct from architecture trade-offs. |
 | `CC-C32-4` | Each candidate configuration names selected structure changes, expected gain, known loss, and constraint fit. | Makes the candidate actionable. |
 | `CC-C32-5` | Compressed, generated, or view-derived candidates carry a source-return condition. | Keeps later source-use or decision-use claims tied to recoverable sources. |

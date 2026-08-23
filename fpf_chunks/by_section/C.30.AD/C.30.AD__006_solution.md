@@ -6,12 +6,12 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 57181
-line_end: 57417
+line_start: 57278
+line_end: 57516
 dependencies:
   - "A.1"
   - "A.10"
@@ -205,6 +205,8 @@ Common architecture-description views:
 
 Before combining two views, establish whether they describe the same holon, the same architecture-relation occurrence, the same selected structure, related structures, or different subjects. State that correspondence as a claim or cite a direct relation that actually holds; merely placing views in one file, list, model, or publication creates no correspondence. When source material enters the current use, record its source-to-use path. Add a return condition only when stronger use must go back to a named source or defining or constraining ClaimGraph.
 
+**Coarse-graining check.** A coarser description groups, omits, or summarizes distinctions found in another description or source. Before relying on it, name the described subject, the finer and coarser description structures, the mapping or correspondence between them, the distinctions kept and lost, and the intended use. These are facts about the descriptions and their use. They do not show that the subject itself has matching levels, parts, or relations. If the decision needs that subject-side claim, establish it separately through the pattern that defines or tests the subject relation; otherwise say only that the description was coarsened.
+
 ```text
 ArchitectureDescriptionCorrespondenceClaim content:
   architectureDescriptionSetRef:
@@ -212,7 +214,7 @@ ArchitectureDescriptionCorrespondenceClaim content:
   toViewRef:
   correspondenceKind:
     sameDescribedHolon | sameArchitectureRelationOccurrence |
-    sameSelectedStructure | refinement | abstraction | projection |
+    sameSelectedStructure | refinement | abstraction | coarseGraining | projection |
     sourceDerived | conflict | declaredOther
   preservedStructureRefs?
   lostStructureRefs?

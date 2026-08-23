@@ -6,15 +6,17 @@ section_id: "E.11:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 74831
-line_end: 74844
+line_start: 75768
+line_end: 75781
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
+  - "E.11.DSG"
+  - "E.11.PFP"
   - "E.11.PUA"
   - "E.11.PUR"
   - "E.17.AUD"
@@ -24,19 +26,6 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
-  - "& Search Queries"
-  - "& Search Queries includes at least one recognizable working-question cue"
-  - "Dependencies"
-  - "a substantive claim returns to the direct pattern whose content defines"
-  - "and Dependencies"
-  - "and retrieval are finding aids"
-  - "cards"
-  - "constrains"
-  - "or boundary mini-method. ToC"
-  - "or tests it"
-  - "query phrases"
-  - "result"
-  - "with a recognizable working-question cue and no copied first move"
 ---
 
 ### E.11:8 - Common Anti-Patterns and How to Avoid Them
@@ -50,6 +39,6 @@ keywords:
 | Fixed three-card shortlist | Interface convenience becomes ontology. | Use any finite inspected set bounded by the current question and stop condition. |
 | Walkthrough as workflow | Presentation order becomes a fixed work sequence. | State continuation conditions and use CGUS only when its structure is actually admitted. |
 | README as pattern body | Public copy accumulates methods and conformance doctrine. | Link to the expansion and direct pattern; keep method authority there. |
-| Build manifest as reader front matter | Anchors, source paths, digests, machine identity fields, or generation warnings delay the first working choice and make the publication read like compiler output. | Keep reproducibility evidence in builder output, package evidence, or a separately justified manifest; expose only the short public edition and dependency note before the ToC. |
-| ToC as a mini-method catalogue | Separate `Use when`, first-move, result, and boundary columns copy changing pattern semantics into navigation and drift from the bodies. | Use the five-position pattern-row profile; put practical entry and first-result guidance in the Readme and authoritative method content in the pattern body. |
+| Build manifest as reader front matter | Anchors, source paths, digests, machine identity fields, or generation warnings delay the first working choice and make the publication read like compiler output. | Keep reproducibility evidence in builder output, package evidence, or a separately justified manifest; use `E.11.PFP` for the reader-facing edition and dependency fields and their position. |
+| ToC as a mini-method catalogue | Separate `Use when`, first-move, result, and boundary columns copy changing pattern semantics into navigation and drift from the bodies. | Use `E.11.PFP`'s index-row profile; put practical entry and first-result guidance in the Readme and authoritative method content in the pattern body. |
 

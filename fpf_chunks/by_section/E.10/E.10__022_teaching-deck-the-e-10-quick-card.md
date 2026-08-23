@@ -6,12 +6,12 @@ section_id: "E.10:20"
 section_title: "Teaching deck — the E.10 quick card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__022_teaching-deck-the-e-10-quick-card.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:20 — Teaching deck — the E.10 quick card"
-line_start: 72836
-line_end: 72848
+line_start: 73776
+line_end: 73788
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,7 +65,7 @@ keywords:
 
 **Name forms (allowed morphology):**
 * **System-role kinds and other local kinds:** use `<Noun>SystemRole` only for a local system-role kind admitted under A.2 and C.3, and `<Noun><Kind>` for another local kind (`IncidentCommanderSystemRole`, `ShiftOperatorSystemRole`, `WorkItemKind`). Standards, evidence, requirements, statuses, relation participants, declaration places, and representation positions do not become system roles by suffix.
-• **Statuses:** name them only under the exact state or status pattern (`ApprovedStatus` when that pattern admits it); a status is not a system-role kind and is not enactable by label.
-• **No suitcase nouns:** avoid `and`, `plus`, and `&` in names; recover one kind, explicit alternatives, relation, or bundle instead of creating a composite system-role-kind name.
-• **Acronyms:** first expansion + register; short‑form registered per **§ 7.7**.
+- **Statuses:** name them only under the exact state or status pattern (`ApprovedStatus` when that pattern admits it); a status is not a system-role kind and is not enactable by label.
+- **No suitcase nouns:** avoid `and`, `plus`, and `&` in names; recover one kind, explicit alternatives, relation, or bundle instead of creating a composite system-role-kind name.
+- **Acronyms:** first expansion + register; short‑form registered per **§ 7.7**.
 

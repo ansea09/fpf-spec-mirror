@@ -6,39 +6,44 @@ section_id: "E.4.DPF.DA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__002_problem-frame.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:1 — Problem frame"
-line_start: 68101
-line_end: 68110
+line_start: 68757
+line_end: 68766
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.19.ECS"
-  - "A.2"
-  - "A.2.1"
   - "A.2.6"
   - "A.22"
+  - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
   - "A.6.1"
+  - "B.1.5"
   - "C.2.1"
+  - "C.30.AD"
+  - "C.32.MWA"
   - "C.33"
   - "C.34"
   - "C.35"
   - "E.11"
+  - "E.11.PFP"
   - "E.17"
   - "E.19"
   - "E.2.DA"
   - "E.21"
   - "E.22"
   - "E.23"
+  - "E.23.CDI"
   - "E.24.PUB"
   - "E.4"
   - "E.4.DPF"
   - "E.4.PFAD"
+  - "E.4.PFIP"
   - "E.4.PFR"
   - "F.18"
   - "F.6"
@@ -52,9 +57,9 @@ keywords:
 
 Use this pattern when a framework author, reviewer, steward, or AI agent must decide whether one Domain Principle Framework or Local Practice Framework package is good enough for one declared domain or local use.
 
-Primary `EntityOfConcern`: one exact authored framework episteme edition checked for one declared package use. The visible package may be a DPF seed, selected pattern host set, all-in-one publication carrier, card set, skill pack, MCP-backed access service, source-pack-backed pattern family, enterprise local practice framework edition, or a mixed form. The evaluation configuration separately pins the package architecture, selected pattern set, source basis, architecture decisions, relation records, edition dependencies, publication occurrences, forms and carriers, access carriers and uses, quality evidence, and refresh route used for that package claim. The characteristic space and specification, semantic evaluation Method, any ordinary evaluator action, and—when the assessment is admitted as dated Work—the actual evaluator System, Work occurrence, containing System, covering assignment episode, F.6 attribution, and A.6.1 application and bindings remain different objects. The eleven coordinate claims, aggregate result episteme, witnesses and evidence use, optional record, local status, external admission or status use, and later repair are also separate. The first useful result is the aggregate C.2.1 result episteme; its coordinate table is one presentation of the claims, not the evaluation object or performed assessment.
+Primary `EntityOfConcern`: one exact authored framework episteme edition checked for one declared package use. Name the visible publication form, presentation carrier, access-facing presentation carrier, or access route being inspected without turning it into the framework edition or package architecture. The first useful result is one aggregate C.2.1 result episteme with all D1–D12 claims, its local status, and the smallest repair or explicit no-proposal disposition. The Solution gives the additional assurance detail only when a receiving use relies on it.
 
 Do not use `E.2.DA` directly as the ordinary DPF package evaluation. `E.2.DA` asks whether FPF-level objects realize the FPF Pillars for broad FPF use. A DPF package has a narrower burden: it must serve one declared domain or local use frame while depending on FPF Core without redefining it. Recover that frame through effective ReferenceScheme, ClaimScope, reader, use, non-use, qualification window, and only when interpretation depends on it an independently selected BoundedModelUseStructure. Use `E.2.DA` only when the DPF package changes or claims FPF-level Pillar adequacy.
 
-Use `E.21` for the quality of individual DPF pattern bodies. Use this pattern for the package as a whole: domain scope, source basis, Core dependency, DPF-wide publication-carrier form, pattern-set coverage, relation and edition records, local publication, evaluation route, refresh route, and adoption utility.
+Use `E.21` for the quality of individual DPF pattern bodies. Use this pattern for the package as a whole: domain scope, source basis, Core dependency, the framework publication form borne by its selected carrier, pattern-set coverage, relation and edition records, local publication, evaluation route, refresh route, and adoption utility.
 

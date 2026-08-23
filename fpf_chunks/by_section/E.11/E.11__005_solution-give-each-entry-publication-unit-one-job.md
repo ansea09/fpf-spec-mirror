@@ -6,15 +6,17 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 74419
-line_end: 74765
+line_start: 75359
+line_end: 75701
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
+  - "E.11.DSG"
+  - "E.11.PFP"
   - "E.11.PUA"
   - "E.11.PUR"
   - "E.17.AUD"
@@ -24,19 +26,6 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
-  - "& Search Queries"
-  - "& Search Queries includes at least one recognizable working-question cue"
-  - "Dependencies"
-  - "a substantive claim returns to the direct pattern whose content defines"
-  - "and Dependencies"
-  - "and retrieval are finding aids"
-  - "cards"
-  - "constrains"
-  - "or boundary mini-method. ToC"
-  - "or tests it"
-  - "query phrases"
-  - "result"
-  - "with a recognizable working-question cue and no copied first move"
 ---
 
 ### E.11:4 - Solution - Give Each Entry Publication Unit One Job
@@ -56,16 +45,11 @@ Use this distribution:
 
 The framework Readme is the single editable public entry set. If another publication form needs the same guidance, project it from that Readme rather than maintaining a second version. Put any unique cue in the publication unit whose job matches it, then remove the duplicate row or index.
 
-Keep one recognizable reader-facing front door across all-in-one FPF, DPF, and LPF Markdown publications. The public sequence is framework title with only a short human-readable edition and dependency note; `Table of Contents`; `<framework name> Readme`; `Preface`; the pattern-language Parts or pattern collection; then reference and maintenance material. The title is not preceded by an anchor or build marker. A separate edition H1, machine identity block, generated-source comment, source path, source-set digest, build command, or “do not edit” marker is maintainer or build evidence, not reader front matter; keep it in builder output, a package result, a manifest when one has an independent use, or the maintainer Readme. Detailed edition, relation, and refresh records may remain reachable after the pattern bodies without delaying the first reader choice.
+Use `E.11.PFP` when one public FPF, DPF, or LPF edition needs the shared reader-facing publication form: a compact product-declared opening, separate exact title and Readme H1, Readme and Preface represented in the product's established ToC grammar before one logical pattern index, Readme entry fields, a front-only development-metadata boundary, language boundary, and deterministic source-hazard plus rendered-structure checks. E.11 still tells the reader how to state the practical question, obtain a first useful result, follow the direct-pattern route, and stop or return. Do not copy the form grammar here or treat a form-valid carrier as a usable framework.
 
-Use one exact pattern-row profile inside the Table of Contents of an English full-body publication:
+Use `E.11.DSG` when the reader may need results from several independently maintained DPFs or cannot yet tell which DPF applies. Start with the recognizable cross-DPF situation and a short answer that names each needed resource and its contribution, or an honest product-gap blocker. `E.11.DSG` carries the full guide form, exact suite-edition return, lifecycle warnings, and optional persisted-answer detail. It is a non-framework guide specialization, so do not apply `E.11.PFP` to it.
 
-| § | ID & Title | Status | Keywords & Search Queries | Dependencies |
-| :--- | :--- | :--- | :--- | :--- |
-
-Translate those labels consistently when the publication language requires it, but preserve the five positions and their jobs. `Keywords & Search Queries` includes at least one recognizable working-question cue; `Dependencies` names only relations that can change what the reader opens next. The ToC does not repeat the pattern's first move, result, and boundary as three additional mini-method columns: those belong to the Readme entry and direct pattern body. Support sections may use a separate support table only when it has a different lookup job and is visibly not a second pattern index.
-
-Use `Table of Contents`, `<framework name> Readme`, and `Preface`; translate those labels consistently when the publication language requires it. Do not rename the Readme `Reader Guide`, split one ToC function into parallel `Table of Contents` and `Pattern Index` units, or add another synonymous first-entry unit. A second index is useful only when it has a genuinely different search order or query and returns to the one ToC or Readme that provides the entry.
+Pattern count is only a diagnostic. A one-pattern edition asks whether the result is instead a seed, candidate, or contribution to an existing framework; a larger count still does not establish a pattern language. Use `E.4` and `E.4.PFAD` to decide framework architecture, `E.4.DPF.DA` or `E.2.DA` for the applicable package or whole-FPF adequacy, and `E.21` for pattern quality.
 
 When discoverability has become use of one selected pattern, continue with `E.11.PUA`. When the live question is which applicable pattern use to recommend, how several uses relate, or whether an earlier result already answers the concern, continue with `E.11.PUR`. Neither continuation turns a public entry order into a universal workflow.
 
@@ -144,7 +128,7 @@ Keep the public set representative of FPF's range. Wording and description repai
 
 Some readers arrive before a practical-use key is recognizable: a familiar relation, project, process, case, context, or problem phrase is already blocking the work, but its direct object is not exact. Give such readers an ordinary-language recovery route before asking them to compare PatternIDs. These routes are independent entry alternatives, not stages, a required form, or another card set.
 
-Keep four moments distinct. **Recognition** says why the ordinary situation matches this route. **Selection** chooses the direct pattern whose `Solution` tells the practitioner how to obtain the expected first object. **Use** inspects and applies only the branch needed now. The **direct result** exists or the relation obtains only under that selected pattern; the entry cue returns either its smallest usable result or an exact blocker and creates neither.
+Keep four moments distinct. **Recognize** why the ordinary situation matches this route. **Select** the direct pattern whose `Solution` tells the practitioner how to obtain the expected first object. **Use** only the branch needed now. **Return** the smallest usable result or an exact blocker. A direct result exists, or a relation obtains, only when the subject pattern's conditions are satisfied; the entry cue creates neither.
 
 Apply the same compact route shape each time: recognizable situation; practical distinction; expected first object; exact direct pattern; smallest usable result or honest blocker; ordinary stop; and one neighboring exit. Stop before signatures, card schemas, full methods, pattern catalogues, or copied `Solution` prose.
 
@@ -295,10 +279,11 @@ For each expanded candidate-use template, exactly one result promise or exact pu
 | `TIME` | Make a time-dependent claim usable |
 | `CAUSAL-USE` | Decide what a causal claim may support |
 | `DESCRIPTION-USE` | Use a description or view without confusing it with its subject |
-| `NAMING` | Name a value so people can recover its meaning |
+| `NAMING` | Give an exact object or value a stable reader-facing name |
 | `WORDING` | Repair wording that hides the object, relation, or claim kind |
 | `MATHEMATICAL-MODELING` | Choose and bound a mathematical lens |
 | `SOTA-PORTFOLIO` | Build a current state-of-the-art synthesis pack |
+| `DPF-SUITE-GUIDE` | Find the needed results when several DPFs may apply |
 | `DPF-AUTHORING` | Build a domain or local FPF-grounded framework |
 | `SYSTEM-RECOGNITION` | Decide whether the exact entity in the claim is a system |
 | `SYSTEM-DELIMITATION` | Decide which entities are parts of the system and which relations only cross its boundary |

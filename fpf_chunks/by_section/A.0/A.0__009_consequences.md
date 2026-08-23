@@ -6,12 +6,12 @@ section_id: "A.0:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__009_consequences.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:8 — Consequences"
-line_start: 1347
-line_end: 1357
+line_start: 1400
+line_end: 1410
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
@@ -56,11 +56,11 @@ keywords:
 ### A.0:8 - Consequences
 
 **Benefits.**
-• **Immediate usability** for engineer‑managers (plain one‑liners) with **formal anchors** for auditors.
-• **Declared-set-first / typed portfolio-publication** culture (typed set results & illumination) instead of brittle leaderboards.
-• **Edition‑aware comparability**; parity/refresh is routine, not ad‑hoc.
+- **Immediate usability** for engineer‑managers (plain one‑liners) with **formal anchors** for auditors.
+- **Declared-set-first / typed portfolio-publication** culture (typed set results & illumination) instead of brittle leaderboards.
+- **Edition‑aware comparability**; parity/refresh is routine, not ad‑hoc.
 
 **Trade‑offs & mitigations.**
-• Slightly longer UTS rows → mitigated by consistent schema and copy‑paste snippets.
-• Requires discipline on units and scales → mitigated by CG‑frame templates.
+- Slightly longer UTS rows → mitigated by consistent schema and copy‑paste snippets.
+- Requires discipline on units and scales → mitigated by CG‑frame templates.
 

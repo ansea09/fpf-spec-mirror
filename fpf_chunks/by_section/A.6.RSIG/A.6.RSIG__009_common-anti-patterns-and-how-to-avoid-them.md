@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 10485
-line_end: 10501
+line_start: 10539
+line_end: 10555
 dependencies:
   - "A.6"
   - "A.6.P"

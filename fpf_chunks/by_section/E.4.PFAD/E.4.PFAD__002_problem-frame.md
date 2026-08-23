@@ -6,21 +6,30 @@ section_id: "E.4.PFAD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__002_problem-frame.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:1 — Problem frame"
-line_start: 67447
-line_end: 67454
+line_start: 67958
+line_end: 67969
 dependencies:
+  - "A.15.1"
+  - "A.22"
   - "A.6.RCD"
   - "A.6.REL"
+  - "B.1.5"
+  - "C.30.AD"
+  - "C.30.STRAT"
   - "C.32.ADR"
+  - "C.32.MWA"
   - "C.32.PAD"
+  - "C.36"
+  - "E.11.DSG"
   - "E.17"
   - "E.19"
   - "E.21"
   - "E.23"
+  - "E.23.CDI"
   - "E.24.PUB"
   - "E.4"
   - "E.4.DPF"
@@ -35,9 +44,13 @@ keywords:
 
 ### E.4.PFAD:1 - Problem frame
 
-Use this pattern when an author is choosing among a new or revised principle framework, a thinner publication or access route, and no new framework, and that choice will settle a boundary that later work must use. The boundary may concern the framework edition, dependencies, initial pattern placement or relations, or the publication or access consequence. Another author or reviewer must need the answer and its rationale for later action.
+Use this pattern when an author is choosing among a new or revised principle framework, a contribution to an existing framework, another maintained product that is not a framework, a thinner publication or access route, and no new maintained product, and that choice will settle a boundary that later work must use. The boundary may concern the public field and first use, framework edition, dependencies, initial pattern placement or relations, the kind and maintenance boundary of a non-framework product, or the publication or access consequence. Another author or reviewer must need the answer and its rationale for later action.
 
-If a cheap search, curated reading route, or stop answers the immediate need without settling such a boundary, use that result and stop. Do not open a framework-architecture DRR merely because `E.4.PFAD` exists.
+Here *product* has the Plain management meaning declared in `E.4:4.1`; it is not a technical kind. When a maintained non-framework alternative is selected, the answer names the direct subject—the thing being maintained—its kind, and the relations used for identity, current state, provision, and maintenance. If a kind or relation that can change the answer is unresolved, keep it as an explicit decision question and do not invent `U.Product`.
 
-When the architecture question is live, use `E.4.PFAD` to state the framework-specific content of one ordinary `E.9` DRR. The pattern is a practitioner-facing profile and locator; its result is that DRR. No PFAD relation or second decision record is created, and acceptance remains separate.
+A proposed new or substantially revised DPF also needs an answer about its field boundary. That answer says who can first use the framework and for what, which connected problem families and useful results it covers, what the current FPF and admitted DPFs already provide, and what remains uncovered. It compares serious alternatives, tests one representative case that crosses problem families, states where the evidence runs out, and names the change that will require a refresh. Together these must support one independently usable pattern language. One pattern or a narrow authoring slice is not a DPF merely because it has a broad title or a coherent carrier.
+
+If a cheap search, curated reading route, useful contribution to an existing framework, suitable non-framework product, or stop answers the immediate need without settling such a boundary, use that result and stop. Do not open a framework-architecture DRR merely because `E.4.PFAD` exists.
+
+When the architecture question is live, use `E.4.PFAD` to state the framework-specific content of one ordinary `E.9` DRR. Decision Work selects the answer; the DRR records it. This pattern is a practitioner-facing profile and locator. No PFAD relation or second decision record is created, and acceptance remains separate.
 

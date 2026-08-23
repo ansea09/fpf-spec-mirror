@@ -6,17 +6,16 @@ section_id: "E.4.DPF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__012_sota-echoing.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:11 — SoTA-Echoing"
-line_start: 68064
-line_end: 68081
+line_start: 68717
+line_end: 68737
 dependencies:
   - "A.1.1"
   - "A.15.1"
   - "A.15.PROD"
-  - "A.2.1"
   - "A.2.6"
   - "A.22"
   - "A.22.CGUS"
@@ -25,6 +24,7 @@ dependencies:
   - "A.6.1"
   - "C.2.1"
   - "C.30.AD"
+  - "C.32.MWA"
   - "C.33"
   - "C.33-C.35"
   - "C.34"
@@ -37,6 +37,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.23"
+  - "E.23.CDI"
   - "E.24.PUB"
   - "E.4"
   - "E.4.DPF.DA"
@@ -64,7 +65,8 @@ keywords:
 | A DPF needs one coordinated authoring method and Plain guidance that keep source-basis choice, bounded or heavy synthesis, architecture settlement, pattern methods, direct relation assertions, reader access, evaluation, improvement, and currentness distinct but connected. | Current FPF `F.0.1`, `F.1`, `F.0.2`, `G.2`, `E.4.PFAD`, `E.8`, `E.4.PFR`, `E.10.ARCH`, `E.11`, `E.17`, `E.4.DPF.DA`, `E.21`, `E.23`, and `G.11`. | The source-basis table, E.4.DPF MethodDescription, proportional-apparatus ladder, local repair map, first-result branches, carrier boundaries, and quality and currentness exits coordinate the separate contributions without importing one external framework-development lifecycle. | Adopt as the current FPF practice line. Recheck when a named pattern changes the result or boundary used here; vocabulary similarity to an external source does not replace that comparison. |
 | Language artifacts and their examples co-evolve, and missing examples weaken practical use and evolution work. | Zhang, Struber, Hebig, `Development and Evolution of Xtext-based DSLs on GitHub: An Empirical Investigation`, arXiv:2501.19222, 2025 empirical study of 226 developed Xtext languages across 18 application domains, `https://arxiv.org/abs/2501.19222`. | The source-pack, pattern-drafting, worked-case, heterogeneous-transfer, relation-and-edition, and local-repair steps keep examples and related artifacts current with the framework instead of publishing only names or definitions. | Adapt the observed co-evolution pressure. The study concerns software DSL repositories and grammar-driven or metamodel-driven development; it does not make a DPF a language grammar, parser, metamodel, or code-generator project. |
 | Reusable core and domain variation need explicit dependency, migration, tooling, and adoption work rather than clone-and-own packages. | Nazar, `Software Product Line Engineering: Adoption, Tooling and AI Era Challenges`, arXiv:2605.21353, 2026 single-author survey preprint synthesizing SPLE foundations, adoption models, tooling, variability-aware DevOps, empirical gaps, and AI-era challenges, `https://arxiv.org/abs/2605.21353`. | Architecture decision, E.4.PFR dependency and compatibility relations, Core-to-DPF direction, proportional carrier separation, and edition-change repair keep FPF Core, domain frameworks, and local frameworks distinct and migratable. | Adapt reusable-core, variation, migration, and adoption concerns. The source is software-product-line specific and survey-level; feature models, lifecycle schemes, product-line economics, and software tooling do not become default DPF ontology or authoring order. |
-| Pattern candidates need systematic validation pressure and use in practice, not only memorable problem-solution prose or a rule-of-three claim. | Riehle, Harutyunyan, Barcomb, `Pattern Discovery and Validation Using Scientific Research Methods`, arXiv:2107.06065, 2021 method paper with three exploratory studies, `https://arxiv.org/abs/2107.06065`; Iba, `Pattern Languages as Media for the Creative Society`, arXiv:1308.1178, 2013 historical lineage for pattern languages as practice media, `https://arxiv.org/abs/1308.1178`. | E.8 drafting, E.21 evaluation, heterogeneous cases, seed-versus-reliance boundary, and E.23 improvement replace rule-of-three confidence with declared FPF evaluation and repair. Local mantras remain attentional aids to a full Solution rather than substitutes for pattern validation. | Adapt qualitative survey, action-research, case-study, and practice-media pressure where suitable. The 2021 studies are exploratory and the 2013 paper is lineage, not current decision evidence; current FPF evaluation predicates and case facts determine adequacy for the declared use. |
+| Minimal viable framework architecture depends on connected scope, common and variable material, use, and lifecycle—not on a component count. | `ISO/IEC 26550:2015, Software and systems engineering — Reference model for product line engineering and management`, current edition, `https://www.iso.org/standard/69529.html`; and `ISO/IEC 26552:2019, Tools and methods for product line architecture design`, current edition, `https://www.iso.org/standard/43111.html`. | The framework-scale test asks for a declared field, connected problem-family sets and material relations, a representative application, an internally usable first-edition set, honest omissions, and maintenance. It applies unchanged at every pattern count. | **Adapt** explicit family scope, common/variable architecture, application use, and lifecycle comparison. **Reject** software-product ontology, feature-model machinery, tool burden, and any numeric pattern threshold. |
+| Pattern-language adequacy needs domain-use and validation evidence rather than a broad name, rule of three, or singleton veto. | Riehle, Harutyunyan, and Barcomb, `Pattern Discovery and Validation Using Scientific Research Methods`, final publication 2025, `https://doi.org/10.1007/978-3-662-70810-1_6`; Chuprina et al., `Towards an Approach to Pattern-based Domain-Specific Requirements Engineering`, 2024 academia-industry proof of concept, `https://arxiv.org/abs/2404.17338`; Iba, `Pattern Languages as Media for the Creative Society`, 2013 historical lineage, `https://arxiv.org/abs/1308.1178`. | E.8 drafting, E.21 evaluation, representative and heterogeneous cases, the domain-specific contribution question, seed-versus-reliance boundary, and E.23 improvement replace count folklore with declared use and repair. Local mantras remain attentional aids to a full Solution rather than substitutes for pattern validation. | **Adapt** qualitative survey, action research, case studies, practice-media pressure, and the question of what domain specificity changes. The 2024 line is a first attempt and Iba is lineage; neither establishes a universal grammar or minimum count. |
 
 **External-source currentness front.** The current-FPF row above keeps its own recheck trigger. Apply each external-source decision only within the role and qualification basis below. When the named smallest change occurs, use `G.11` to reopen only the affected authoring step, case, boundary, or adopted decision, then recheck the changed source role through the direct source, F.1, F.0.2, or G.2 route actually used; publication of a newer item alone is not a material trigger.
 
@@ -72,6 +74,8 @@ keywords:
 | --- | --- | --- |
 | Xtext empirical study | `current empirical input` for language-artifact/example co-evolution, qualified through the cited 2025 study edition, its 226 Xtext-language repositories and 18 application domains, and the explicit limit to software DSL evidence. | A later comparable empirical study contradicts the co-evolution pressure or identifies a different example/usability/evolution failure that would change the source-pack, pattern-drafting, worked-case, heterogeneous-transfer, relation/edition, or local-repair step. |
 | SPLE survey | `current survey input`, qualified through the cited 2026 arXiv preprint edition and its survey-level software-product-line scope; feature-model and lifecycle ontology remain rejected for default DPF use. | A corrected, withdrawn, or superseding survey or systematic review materially changes reusable-core dependency, migration, tooling, adoption, or evolution practice used by PFAD, E.4.PFR, Core-to-DPF direction, carrier separation, or edition-change repair. |
-| Pattern-validation method paper | `current validation-practice input`, qualified through the cited 2021 paper edition and its three exploratory-study limit. | Replication, comparative validation research, or a changed practice line materially alters the need for qualitative survey, action research, heterogeneous cases, seed-versus-reliance separation, or repair pressure in E.8, E.21, or E.23. |
+| Product-line architecture standards | `current normative comparison input`, qualified to the cited current ISO/IEC 26550:2015 and ISO/IEC 26552:2019 editions and their software product-line scope. Feature-model, software-product, lifecycle, and tooling ontology remain rejected for default DPF use. | A revision or replacement materially changes the family-scope, common/variable architecture, application-use, or lifecycle contribution used in the framework-scale test. |
+| Pattern-validation method | `current validation-practice input`, qualified to the cited final 2025 publication and the limits of its qualitative survey, action-research, and case-study evidence. | Replication, comparative validation research, or a changed practice line materially alters the evidence needed for E.8, E.21, representative cases, seed-versus-reliance separation, or E.23 repair. |
+| Domain-specific pattern approach | `current proof-of-concept input`, qualified to the cited 2024 edition, its requirements-engineering use, and its explicit first-attempt limit. | Later empirical evaluation or a competing current approach changes what domain-specific contribution, practitioner use, representative application, or source return the framework-scale test must expose. |
 | Iba practice-media paper | `lineage`, qualified to the cited 2013 edition only for the historical pattern-language-as-practice-media rationale; it is not current validation evidence. | A corrected or replacement lineage source changes that rationale, or current practice-media evidence materially changes how worked cases, use in practice, or local mantras support rather than replace full pattern validation. |
 

@@ -6,17 +6,16 @@ section_id: "E.4.DPF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__007_bias-annotation.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:6 — Bias-Annotation"
-line_start: 67985
-line_end: 67991
+line_start: 68619
+line_end: 68634
 dependencies:
   - "A.1.1"
   - "A.15.1"
   - "A.15.PROD"
-  - "A.2.1"
   - "A.2.6"
   - "A.22"
   - "A.22.CGUS"
@@ -25,6 +24,7 @@ dependencies:
   - "A.6.1"
   - "C.2.1"
   - "C.30.AD"
+  - "C.32.MWA"
   - "C.33"
   - "C.33-C.35"
   - "C.34"
@@ -37,6 +37,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.23"
+  - "E.23.CDI"
   - "E.24.PUB"
   - "E.4"
   - "E.4.DPF.DA"
@@ -59,8 +60,17 @@ keywords:
 
 ### E.4.DPF:6 - Bias-Annotation
 
+**Scope:** Limited to selecting, authoring, assembling, and refreshing FPF-grounded DPF or LPF editions and their first-use publication forms, presentation carriers, and access routes. It is not a universal framework-development lifecycle, product ontology, research method, or publication template.
 
-The first drift is source-summary confidence: a summary feels sufficient because it names the right domain terms. The repair is to choose the smallest route that keeps the relied claims, rejected readings, limits, and source editions recoverable, then carry them into pattern Solutions and examples. Use a `G.2` pack only when the question needs its broad, refreshable source frame and downstream handoffs.
+| Lens | Likely drift | Repair |
+| --- | --- | --- |
+| Gov | A framework name, package form, or authoring step is read as acceptance, authority, currentness, or maintenance responsibility. | Keep those claims under their own decisions and direct relations; the authoring route establishes none of them by order. |
+| Arch | The current authoring slice, file layout, carrier, or pattern count becomes the framework boundary. | Decide the field, connected problem families, material pattern relations, first use, support units, adjacent subjects, and maintenance boundary by content. |
+| Onto-Epist | Methods, descriptions, Work, patterns, editions, carriers, programmes, services, and product wording collapse into one convenient object. | Name only the direct subjects and relations used by the current decision; keep *product* Plain and return an unresolved kind as a question. |
+| Prag | Source, quality, relation, and publication apparatus grows before it changes a practitioner decision, or a thin extra pattern is added to satisfy a count. | Choose the smallest source and assurance route that closes the use; apply the same semantic framework-scale test at every count. |
+| Did | Ontological precision or package machinery displaces the recognizable domain problem, useful move, worked case, and stop or return. | Keep the first-hour route and pattern bodies in precise plain language; place heavier architecture and assurance after recognition and only where use needs them. |
 
-The second drift is publication-carrier-first authoring. The repair is not to delay publication forever; it is to publish after the architecture decision, direct assertions of material relations, and source-return notes are recoverable, together with any relation or edition records required by a current maintenance use.
+The first recurring drift is source-summary confidence: a summary feels sufficient because it names the right domain terms. Choose the smallest route that keeps the relied claims, rejected readings, limits, and source editions recoverable, then carry them into pattern Solutions and examples. Use a `G.2` pack only when the question needs its broad, refreshable source frame and downstream handoffs.
+
+The second recurring drift is publication-carrier-first authoring. The repair is not to delay publication forever; publish after the architecture decision, direct assertions of material relations, and source-return notes are recoverable, together with any relation or edition records required by a current maintenance use.
 

@@ -6,12 +6,12 @@ section_id: "C.32:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__010_consequences.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:9 — Consequences"
-line_start: 61439
-line_end: 61451
+line_start: 61579
+line_end: 61591
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,6 +44,7 @@ dependencies:
   - "C.32.FAIL"
   - "C.32.HCS"
   - "C.32.MLAO"
+  - "C.32.MWA"
   - "C.32.P2S"
   - "C.32.PAD"
   - "C.33"
@@ -61,7 +62,7 @@ keywords:
   - "candidate configurations"
   - "retained alternatives"
   - "selected structures"
-  - "synthesis structure map"
+  - "selected-structure contribution rows"
   - "trade-off front"
 ---
 

@@ -6,12 +6,12 @@ section_id: "F.18:5"
 section_title: "System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__007_system-role-kind-assignment-slot-and-status-naming-settlement.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:5 — System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
-line_start: 94682
-line_end: 94796
+line_start: 96451
+line_end: 96566
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -44,6 +44,7 @@ keywords:
 ---
 
 ### F.18:5 - System-Role-Kind, Assignment, Slot, and Status Naming Settlement
+
 
 This settlement keeps naming aligned with the object already recovered. Bare *role* is a trigger handled by `E.10.ROLE`, not a reusable kind head.
 

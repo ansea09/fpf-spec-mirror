@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.17.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "F.17 — Unified Term Sheet"
-line_start: 93195
-line_end: 94208
+line_start: 94965
+line_end: 95975
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -969,9 +969,6 @@ SenseCell.SystemRoleKindRelationStructure.FPFCore.2026-08-09:
 ```
 
 ### F.17:12.5 - Bias-Annotation
-
-
-
 
 F.17 blocks table-bias: a row does not make the named object real, global, reusable, equivalent, or authoritative. It also blocks label-bias: the public name is a designation for a governed value, relation, slot, or local concept, not a substitute for the rules that define or constrain it, the scheme-based local-sense coordinate, Bridge, admissible-use statement, or currentness condition.
 

@@ -6,13 +6,20 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/I.2.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
-line_start: 101989
-line_end: 102197
+line_start: 103759
+line_end: 103967
 dependencies:
+  - "E.10"
+  - "E.11"
+  - "F.17"
 keywords:
+  - "compact index"
+  - "disambiguation"
+  - "expanded comparison"
+  - "first entry"
 ---
 
 ## I.2 - Expanded Entry Disambiguation Cases

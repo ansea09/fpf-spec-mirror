@@ -6,18 +6,20 @@ section_id: "E.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__003_problem.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:2 — Problem"
-line_start: 67051
-line_end: 67062
+line_start: 67441
+line_end: 67452
 dependencies:
   - "C.33"
   - "C.34"
   - "C.35"
   - "E.1"
   - "E.11"
+  - "E.11.DSG"
+  - "E.11.PFP"
   - "E.11.PUR"
   - "E.17"
   - "E.19"
@@ -42,7 +44,7 @@ keywords:
 
 ### E.4:2 - Problem
 
-FPF has grown from a single core pattern set into an ecosystem of core rules, tools, companions, domain frameworks, local practice frameworks, source packs, decisions, quality records, publication carriers, and access carriers. If those objects are described only by file names, abbreviations, or reader-facing tables of contents, several different kinds collapse:
+FPF has grown from a single core pattern set into an ecosystem of core rules, tools, companions, domain frameworks, local practice frameworks, source packs, decisions, quality records, publication and access-facing presentation carriers, and access routes. If those objects are described only by file names, abbreviations, or reader-facing tables of contents, several different kinds collapse:
 
 - a pattern set is treated as a publication or access carrier;
 - a local practice framework is treated as an FPF Core amendment;

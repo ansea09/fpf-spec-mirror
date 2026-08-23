@@ -1,0 +1,43 @@
+---
+chunk_kind: "child"
+pattern_id: "E.11.DSG"
+pattern_title: "DPF Suite Guide"
+section_id: "E.11.DSG:3"
+section_title: "Forces"
+source_path: "FPF-Spec.md"
+output_path: "by_section/E.11.DSG/E.11.DSG__004_forces.md"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
+heading_path:
+  - "E.11.DSG — DPF Suite Guide"
+  - "E.11.DSG:3 — Forces"
+line_start: 76890
+line_end: 76901
+dependencies:
+  - "C.2.1"
+  - "C.2.P"
+  - "E.11"
+  - "E.11.PUA"
+  - "E.11.PUR"
+  - "E.17"
+  - "E.24.PUB"
+  - "E.4"
+  - "E.4.PFAD"
+  - "E.4.PFR"
+  - "F.9"
+  - "G.11"
+  - "G.5"
+keywords:
+---
+
+### E.11.DSG:3 - Forces
+
+| Force | Pressure on the solution |
+| --- | --- |
+| Fast first use | A reader needs an answer before a catalogue of internal distinctions. |
+| Exact return | The answer must still lead to the exact guide, suite, DPF, and source editions that support it. |
+| Independent products | Suite, guide, member DPFs, adjacent evidence products, and carriers change under different commitments. |
+| Honest combination | Several resources may be necessary, alternatives, or merely plausible; the guide must not overstate the relation. |
+| Current action | Date, status, warning, availability, and source return matter only when they change what the reader should do. |
+| Low record burden | Ordinary lookup may remain conversation; addressable answers are justified only by later review, reuse, publication, or reliance. |
+| Language reach | Translation and language-specific maintenance may change the episteme or the product boundary. |
+

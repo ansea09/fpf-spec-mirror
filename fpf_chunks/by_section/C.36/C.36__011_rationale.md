@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "C.36"
 pattern_title: "Cultural Evolution and Cultural-Evolution Engineering"
-section_id: "C.36:9"
+section_id: "C.36:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__011_rationale.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
-  - "C.36:9 — Rationale"
-line_start: 65363
-line_end: 65366
+  - "C.36:10 — Rationale"
+line_start: 65738
+line_end: 65741
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,7 +56,7 @@ dependencies:
 keywords:
 ---
 
-### C.36:9 - Rationale
+### C.36:10 - Rationale
 
 C.36 keeps a complex practical situation usable by naming a small bundle of existing FPF objects and relations instead of minting a root kind for every source word. This preserves the gain from cultural-evolution and open-ended-engineering sources while leaving Method, Work, system-role kind and assignment, discipline, episteme, selection, architecture, publication, and refresh claims with the patterns that define or test them.
 

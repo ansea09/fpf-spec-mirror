@@ -6,12 +6,12 @@ section_id: "E.18:7"
 section_title: "Conformance Checklist — Unified checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__009_conformance-checklist-unified-checklist-normative.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:7 — Conformance Checklist — Unified checklist (normative)"
-line_start: 81397
-line_end: 81463
+line_start: 82753
+line_end: 82819
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -93,7 +93,7 @@ The whole table remains available when a use actually combines many branches. Wh
 * **GateDecision, GateDecisionRationale, and GateDecisionExplanation (terminology).**
   - **GateDecision** - the lattice value inside one A.21 `GateDecisionResult`, derived from one exact profile application and its complete required set of identified check-application results.
   - **GateDecisionRationale** - the structured rationale inside that result: retained source outcomes, explicit mappings, aggregate, and action consequence. A current publication or optional `DecisionLog` may cite it; neither supplies the rationale or decision.
-  — **GateDecisionExplanation** — an optional human-readable narrative derived from the rationale; it carries no decision value. It may explain any retained result and mapping, including why an A.20 input prevented passage; absence of a narrative does not make a check inapplicable.
+  - **GateDecisionExplanation** — an optional human-readable narrative derived from the rationale; it carries no decision value. It may explain any retained result and mapping, including why an A.20 input prevented passage; absence of a narrative does not make a check inapplicable.
 > **Clarity note.** **GateDecision ≠ GateDecisionExplanation**; narratives are optional and derivative of GateDecisionRationale.
 
 * **GateFit (aspect, not an entity).** GateFit names the **aspect** of checks that evaluate **profile‑fit**; there is no separate GateFit entity. “Gate decision under GateFit” means “the gate’s decision computed from GateChecks with `aspect=GateFit`”.

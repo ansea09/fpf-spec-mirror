@@ -6,14 +6,21 @@ section_id: "I.2"
 section_title: ".8 - Causal-use and counterfactual-support repair"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__009_8-causal-use-and-counterfactual-support-repair.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2 — .8 - Causal-use and counterfactual-support repair"
-line_start: 102185
-line_end: 102196
+line_start: 103955
+line_end: 103966
 dependencies:
+  - "E.10"
+  - "E.11"
+  - "F.17"
 keywords:
+  - "compact index"
+  - "disambiguation"
+  - "expanded comparison"
+  - "first entry"
 ---
 
 ### I.2.8 - Causal-use and counterfactual-support repair

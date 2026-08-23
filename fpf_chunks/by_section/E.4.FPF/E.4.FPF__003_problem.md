@@ -6,17 +6,18 @@ section_id: "E.4.FPF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__003_problem.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:2 — Problem"
-line_start: 67269
-line_end: 67282
+line_start: 67737
+line_end: 67750
 dependencies:
   - "C.33"
   - "C.34"
   - "C.35"
   - "E.11"
+  - "E.11.PFP"
   - "E.17"
   - "E.2"
   - "E.2.DA"
@@ -38,15 +39,15 @@ keywords:
 
 ### E.4.FPF:2 - Problem
 
-After DPF and local-framework publication forms become explicit, FPF itself can fall into the opposite omission: DPF packages get careful carrier, relation, naming, quality, and refresh rules, while FPF is treated as if its form were self-evident because it is "the main spec".
+After DPF and local-framework publication forms become explicit, FPF itself can fall into the opposite omission: DPF packages get careful publication-unit, form, carrier, relation, naming, quality, and refresh rules, while FPF is treated as if its form were self-evident because it is "the main spec".
 
 That creates several failures:
 
-- `FPF-Spec.md`, README, Preface, ToC, host files, cards, skills, or MCP routes are mistaken for the FPF edition itself;
+- an all-in-one file or site, one of its Readme, Preface, ToC, pattern-body, card, or first-entry units, a skill-pack bundle, or an MCP route is mistaken for the FPF edition itself;
 - FPF is described as one more DPF, losing the first-principles and transdisciplinary burden that makes DPFs possible;
 - whole-FPF quality is checked by local pattern scores, landing status, or DPF package scales instead of `E.2.DA`;
-- adoption carriers grow user-facing explanations that quietly become shadow authority beside subject patterns;
-- skill or MCP access makes FPF look like a callable service, tool permission layer, or runtime dependency rather than a framework edition exposed through an access carrier.
+- adoption units, forms, or access surfaces grow user-facing explanations that quietly become shadow authority beside subject patterns;
+- skill or MCP access makes FPF look like a callable service, tool permission layer, or runtime dependency rather than a framework edition reached through an access route or borne by an exact access-facing presentation carrier.
 
 The repair is not to copy `E.4.DPF` under another name. FPF needs its own form rule because its burden is different: it must keep first-principles distinctions usable across domains while allowing domain and local frameworks to grow from it.
 

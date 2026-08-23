@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.0.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
-line_start: 1240
-line_end: 1487
+line_start: 1293
+line_end: 1540
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
@@ -162,13 +162,13 @@ Co‑evolve declared `{environment, method}` sets; publish **coverage/regret** a
 ### A.0:8 - Consequences
 
 **Benefits.**
-• **Immediate usability** for engineer‑managers (plain one‑liners) with **formal anchors** for auditors.
-• **Declared-set-first / typed portfolio-publication** culture (typed set results & illumination) instead of brittle leaderboards.
-• **Edition‑aware comparability**; parity/refresh is routine, not ad‑hoc.
+- **Immediate usability** for engineer‑managers (plain one‑liners) with **formal anchors** for auditors.
+- **Declared-set-first / typed portfolio-publication** culture (typed set results & illumination) instead of brittle leaderboards.
+- **Edition‑aware comparability**; parity/refresh is routine, not ad‑hoc.
 
 **Trade‑offs & mitigations.**
-• Slightly longer UTS rows → mitigated by consistent schema and copy‑paste snippets.
-• Requires discipline on units and scales → mitigated by CG‑frame templates.
+- Slightly longer UTS rows → mitigated by consistent schema and copy‑paste snippets.
+- Requires discipline on units and scales → mitigated by CG‑frame templates.
 
 ### A.0:9 - Rationale
 

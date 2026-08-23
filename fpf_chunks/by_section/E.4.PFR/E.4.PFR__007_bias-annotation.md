@@ -6,12 +6,12 @@ section_id: "E.4.PFR:5"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__007_bias-annotation.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:5 — Bias-Annotation"
-line_start: 68694
-line_end: 68703
+line_start: 69374
+line_end: 69393
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -48,6 +48,16 @@ keywords:
 ---
 
 ### E.4.PFR:5 - Bias-Annotation
+
+**Scope.** The assertion-first discipline is **Universal within this pattern's subject**: every claimed relation starts as a readable assertion with its subject, relation function, basis, polarity, and current facts. The reusable row, dependency record, package manifest, and high-cost basis analysis are **limited** tools for a named framework-maintenance use whose next action needs them; none is a prerequisite for ordinary relation prose.
+
+| Lens | Boundary |
+| --- | --- |
+| **Gov** | A row or analysis grants no authority, acceptance, permission, or reliance. |
+| **Arch** | Assertions, relations, records, editions, publications, carriers, and access routes stay distinct. |
+| **Onto/Epist** | A representation cites an assertion but neither creates the relation nor proves more than its bounded basis. |
+| **Prag** | Stop after the direct assertion unless a named next action needs more structure; keep high-cost analysis exceptional. |
+| **Did** | Lead with the readable assertion and introduce optional machinery only through a concrete receiving use. |
 
 The first drift is relation-word overread: words such as *depends*, *uses*, *supports*, *governs*, or *profiles* are treated as if they settled relation function. Recover the exact subject assertion and blocked stronger readings.
 

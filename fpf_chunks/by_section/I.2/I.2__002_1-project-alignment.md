@@ -6,14 +6,21 @@ section_id: "I.2"
 section_title: ".1 - Project alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__002_1-project-alignment.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2 — .1 - Project alignment"
-line_start: 102021
-line_end: 102041
+line_start: 103791
+line_end: 103811
 dependencies:
+  - "E.10"
+  - "E.11"
+  - "F.17"
 keywords:
+  - "compact index"
+  - "disambiguation"
+  - "expanded comparison"
+  - "first entry"
 ---
 
 ### I.2.1 - Project alignment

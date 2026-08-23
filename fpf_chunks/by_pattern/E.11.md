@@ -6,14 +6,16 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
-line_start: 74375
-line_end: 74879
+line_start: 75315
+line_end: 75816
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
+  - "E.11.DSG"
+  - "E.11.PFP"
   - "E.11.PUA"
   - "E.11.PUR"
   - "E.17.AUD"
@@ -23,19 +25,6 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
-  - "& Search Queries"
-  - "& Search Queries includes at least one recognizable working-question cue"
-  - "Dependencies"
-  - "a substantive claim returns to the direct pattern whose content defines"
-  - "and Dependencies"
-  - "and retrieval are finding aids"
-  - "cards"
-  - "constrains"
-  - "or boundary mini-method. ToC"
-  - "or tests it"
-  - "query phrases"
-  - "result"
-  - "with a recognizable working-question cue and no copied first move"
 ---
 
 ## E.11 - First-Practical Entry and Pattern-Use Discoverability Discipline
@@ -99,16 +88,11 @@ Use this distribution:
 
 The framework Readme is the single editable public entry set. If another publication form needs the same guidance, project it from that Readme rather than maintaining a second version. Put any unique cue in the publication unit whose job matches it, then remove the duplicate row or index.
 
-Keep one recognizable reader-facing front door across all-in-one FPF, DPF, and LPF Markdown publications. The public sequence is framework title with only a short human-readable edition and dependency note; `Table of Contents`; `<framework name> Readme`; `Preface`; the pattern-language Parts or pattern collection; then reference and maintenance material. The title is not preceded by an anchor or build marker. A separate edition H1, machine identity block, generated-source comment, source path, source-set digest, build command, or “do not edit” marker is maintainer or build evidence, not reader front matter; keep it in builder output, a package result, a manifest when one has an independent use, or the maintainer Readme. Detailed edition, relation, and refresh records may remain reachable after the pattern bodies without delaying the first reader choice.
+Use `E.11.PFP` when one public FPF, DPF, or LPF edition needs the shared reader-facing publication form: a compact product-declared opening, separate exact title and Readme H1, Readme and Preface represented in the product's established ToC grammar before one logical pattern index, Readme entry fields, a front-only development-metadata boundary, language boundary, and deterministic source-hazard plus rendered-structure checks. E.11 still tells the reader how to state the practical question, obtain a first useful result, follow the direct-pattern route, and stop or return. Do not copy the form grammar here or treat a form-valid carrier as a usable framework.
 
-Use one exact pattern-row profile inside the Table of Contents of an English full-body publication:
+Use `E.11.DSG` when the reader may need results from several independently maintained DPFs or cannot yet tell which DPF applies. Start with the recognizable cross-DPF situation and a short answer that names each needed resource and its contribution, or an honest product-gap blocker. `E.11.DSG` carries the full guide form, exact suite-edition return, lifecycle warnings, and optional persisted-answer detail. It is a non-framework guide specialization, so do not apply `E.11.PFP` to it.
 
-| § | ID & Title | Status | Keywords & Search Queries | Dependencies |
-| :--- | :--- | :--- | :--- | :--- |
-
-Translate those labels consistently when the publication language requires it, but preserve the five positions and their jobs. `Keywords & Search Queries` includes at least one recognizable working-question cue; `Dependencies` names only relations that can change what the reader opens next. The ToC does not repeat the pattern's first move, result, and boundary as three additional mini-method columns: those belong to the Readme entry and direct pattern body. Support sections may use a separate support table only when it has a different lookup job and is visibly not a second pattern index.
-
-Use `Table of Contents`, `<framework name> Readme`, and `Preface`; translate those labels consistently when the publication language requires it. Do not rename the Readme `Reader Guide`, split one ToC function into parallel `Table of Contents` and `Pattern Index` units, or add another synonymous first-entry unit. A second index is useful only when it has a genuinely different search order or query and returns to the one ToC or Readme that provides the entry.
+Pattern count is only a diagnostic. A one-pattern edition asks whether the result is instead a seed, candidate, or contribution to an existing framework; a larger count still does not establish a pattern language. Use `E.4` and `E.4.PFAD` to decide framework architecture, `E.4.DPF.DA` or `E.2.DA` for the applicable package or whole-FPF adequacy, and `E.21` for pattern quality.
 
 When discoverability has become use of one selected pattern, continue with `E.11.PUA`. When the live question is which applicable pattern use to recommend, how several uses relate, or whether an earlier result already answers the concern, continue with `E.11.PUR`. Neither continuation turns a public entry order into a universal workflow.
 
@@ -187,7 +171,7 @@ Keep the public set representative of FPF's range. Wording and description repai
 
 Some readers arrive before a practical-use key is recognizable: a familiar relation, project, process, case, context, or problem phrase is already blocking the work, but its direct object is not exact. Give such readers an ordinary-language recovery route before asking them to compare PatternIDs. These routes are independent entry alternatives, not stages, a required form, or another card set.
 
-Keep four moments distinct. **Recognition** says why the ordinary situation matches this route. **Selection** chooses the direct pattern whose `Solution` tells the practitioner how to obtain the expected first object. **Use** inspects and applies only the branch needed now. The **direct result** exists or the relation obtains only under that selected pattern; the entry cue returns either its smallest usable result or an exact blocker and creates neither.
+Keep four moments distinct. **Recognize** why the ordinary situation matches this route. **Select** the direct pattern whose `Solution` tells the practitioner how to obtain the expected first object. **Use** only the branch needed now. **Return** the smallest usable result or an exact blocker. A direct result exists, or a relation obtains, only when the subject pattern's conditions are satisfied; the entry cue creates neither.
 
 Apply the same compact route shape each time: recognizable situation; practical distinction; expected first object; exact direct pattern; smallest usable result or honest blocker; ordinary stop; and one neighboring exit. Stop before signatures, card schemas, full methods, pattern catalogues, or copied `Solution` prose.
 
@@ -338,10 +322,11 @@ For each expanded candidate-use template, exactly one result promise or exact pu
 | `TIME` | Make a time-dependent claim usable |
 | `CAUSAL-USE` | Decide what a causal claim may support |
 | `DESCRIPTION-USE` | Use a description or view without confusing it with its subject |
-| `NAMING` | Name a value so people can recover its meaning |
+| `NAMING` | Give an exact object or value a stable reader-facing name |
 | `WORDING` | Repair wording that hides the object, relation, or claim kind |
 | `MATHEMATICAL-MODELING` | Choose and bound a mathematical lens |
 | `SOTA-PORTFOLIO` | Build a current state-of-the-art synthesis pack |
+| `DPF-SUITE-GUIDE` | Find the needed results when several DPFs may apply |
 | `DPF-AUTHORING` | Build a domain or local FPF-grounded framework |
 | `SYSTEM-RECOGNITION` | Decide whether the exact entity in the claim is a system |
 | `SYSTEM-DELIMITATION` | Decide which entities are parts of the system and which relations only cross its boundary |
@@ -455,7 +440,7 @@ The reader can therefore imagine useful progress without inferring that publicat
 
 Suppose a new `A.6.3.RT` edition restores a progressive `DESCRIPTION-USE` result: an ordinary target representation plus source-comparison note first, exact `v : X -> Y` only when a named receiver makes endpoint identity material, and `RepresentationSchemeTransitionRelation@Context` only when actual transition Work and all six participants make the historical occurrence current. Repair only that candidate-use template so its first result and the two escalation triggers match the direct pattern. Name the occurrence predicate, participants, obtaining test, and identity question only in the later-specific branch. Recheck the linked walkthrough against the repaired context-free template; only a later project use names a project occurrence.
 
-The public card heading and question remain unchanged when readers still recognize the same situation. Preface and ToC remain unchanged when framework rationale and retrieval location did not move. The `A.6.3.RT` pattern body remains the authority for the relation; E.11 repairs only the public guidance that points to it.
+The public card heading and question remain unchanged when readers still recognize the same situation. Preface and ToC remain unchanged when framework rationale and retrieval location did not move. The `A.6.3.RT` pattern body remains the authority for the relation; when using E.11, the maintainer changes only the public guidance that points to it.
 
 #### E.11:5.5 - A better first-click rate can make discovery worse
 
@@ -483,16 +468,17 @@ Suppose a compact row combines “architecture and diagrams”, evidence, dashbo
 | --- | --- | --- |
 | `E11-1` | Situation first | Public wording begins with a recognizable working situation before PatternIDs, internal topology, or quality vocabulary. |
 | `E11-2` | Useful result before apparatus | The reader can recover the first useful result or honest blocker, direct pattern or plausible set, and ordinary stop or return before any optional exact expansion. |
-| `E11-3` | One publication job | README carries the public entries listed there; Preface explains cross-cutting ideas; ToC and retrieval locate; local `Problem frame` sections recognize; expanded cases disambiguate. An all-in-one carrier presents title and a short public edition and dependency note, ToC, Readme, Preface, pattern language, then references; machine build evidence is absent from that reader front door. None maintains a competing canon. |
+| `E11-3` | One publication job | README carries public first-entry situations and first results; Preface explains cross-cutting ideas; ToC and retrieval locate; local `Problem frame` sections recognize; expanded cases disambiguate. None maintains a competing canon. Use `E.11.PFP` for the common form, exact carrier order, and deterministic form checks rather than restating them here. |
 | `E11-4` | Progressive explicitness | Short prose passes when situation, first result or blocker, direct pattern, and stop or return are recoverable. The internal ladder only helps choose whether deeper expansion, exact basis, worked case, comparison history, or refresh evidence is warranted. |
 | `E11-5` | No fictitious context | Public entry, expansion, template, and walkthrough contain no fabricated reader-project `@Context` values. |
 | `E11-6` | Conditional expansion completeness | When an exact expansion is opened, each candidate branch has one truthful result promise or blocker and only the result, basis, boundary, and receiver positions that change that branch. |
 | `E11-7` | Bounded comparison | Comparison exposes the choice-changing first-result difference and a stop or return; a materialized shortlist names the later use that relies on its history. |
 | `E11-8` | Author and reader separation | An FPF author or maintainer publishes or refreshes the guidance; a practitioner, manager, or assisting agent reads it and opens a direct pattern without becoming the publisher. |
 | `E11-9` | Plain Preface and local recognition | Preface gives ordinary engineering meaning before strict FPF terms and explains cross-pattern ideas without becoming an index; each pattern's `Problem frame` keeps its own local recognition and first action. |
-| `E11-10` | Thin projection and direct authority | ToC pattern rows use five positions: `§`, `ID & Title`, `Status`, `Keywords & Search Queries`, and `Dependencies`, with a recognizable working-question cue and no copied first move, result, or boundary mini-method. ToC, query phrases, cards, and retrieval are finding aids; a substantive claim returns to the direct pattern whose content defines, constrains, or tests it. |
+| `E11-10` | Thin projection and direct authority | ToC pattern rows expose the framework's declared retrieval fields, including a recognizable working-question cue, without copying a first move, result, or boundary mini-method. `E.11.PFP` defines the exact index fields and form grammar. ToC, query phrases, cards, and retrieval remain finding aids; a substantive claim returns to the direct pattern whose content defines, constrains, or tests it. |
 | `E11-11` | Grounded public range | Every benefit claim names a concrete need, imaginable result or blocker, and choice-changing pattern distinction; wording repair does not crowd out architecture, work, problem shaping, comparison, evidence, time, causal use, mathematics, quality, improvement, or framework authoring. |
 | `E11-12` | Smallest change reach | When a direct result or boundary changes, repair the smallest affected entry plus determinate README, Preface, ToC, example, relation, and true-consumer wording; unrelated publication units remain unchanged. |
+| `E11-13` | Cross-DPF guide route | A several-DPF or unclear-DPF situation routes to `E.11.DSG`, exposes a useful answer or product-gap blocker before detail, and does not treat the guide as a framework edition, as deciding the suite, as lookup Work, or as a stronger relation. |
 
 ### E.11:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -505,8 +491,8 @@ Suppose a compact row combines “architecture and diagrams”, evidence, dashbo
 | Fixed three-card shortlist | Interface convenience becomes ontology. | Use any finite inspected set bounded by the current question and stop condition. |
 | Walkthrough as workflow | Presentation order becomes a fixed work sequence. | State continuation conditions and use CGUS only when its structure is actually admitted. |
 | README as pattern body | Public copy accumulates methods and conformance doctrine. | Link to the expansion and direct pattern; keep method authority there. |
-| Build manifest as reader front matter | Anchors, source paths, digests, machine identity fields, or generation warnings delay the first working choice and make the publication read like compiler output. | Keep reproducibility evidence in builder output, package evidence, or a separately justified manifest; expose only the short public edition and dependency note before the ToC. |
-| ToC as a mini-method catalogue | Separate `Use when`, first-move, result, and boundary columns copy changing pattern semantics into navigation and drift from the bodies. | Use the five-position pattern-row profile; put practical entry and first-result guidance in the Readme and authoritative method content in the pattern body. |
+| Build manifest as reader front matter | Anchors, source paths, digests, machine identity fields, or generation warnings delay the first working choice and make the publication read like compiler output. | Keep reproducibility evidence in builder output, package evidence, or a separately justified manifest; use `E.11.PFP` for the reader-facing edition and dependency fields and their position. |
+| ToC as a mini-method catalogue | Separate `Use when`, first-move, result, and boundary columns copy changing pattern semantics into navigation and drift from the bodies. | Use `E.11.PFP`'s index-row profile; put practical entry and first-result guidance in the Readme and authoritative method content in the pattern body. |
 
 ### E.11:9 - Consequences
 
@@ -539,7 +525,7 @@ The two 2026 studies are current preprint anchors rather than settled consensus.
 
 - **Builds on:** `E.8` for pattern recognition text, `E.17.AUD` for publication-unit discipline, `F.17` and `F.18` for published terms and naming, and `C.2.1` for public helper epistemes.
 - **Leads to:** `E.11.PUA` for applying one selected pattern and `E.11.PUR` for local applicability, recommendation, and coordination.
-- **Coordinates with:** `A.22.CGUS` for demonstrative slices, `E.18` for flow-local results, `G.11` for currentness orchestration, and each direct pattern cited by a public template.
+- **Coordinates with:** `A.22.CGUS` for demonstrative slices, `E.18` for flow-local results, `G.11` for currentness orchestration, `E.11.DSG` for a separately maintained DPF suite guide and cross-DPF entry, and each direct pattern cited by a public template.
 
 ### E.11:End
 

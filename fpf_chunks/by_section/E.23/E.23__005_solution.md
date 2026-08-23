@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 85455
-line_end: 85712
+line_start: 86817
+line_end: 87085
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -38,7 +38,29 @@ Keep a returned value, durable result episteme, changed object, and actual Trans
 
 The repeated organization changes the object, re-evaluates the changed version through the same declared method and quality model, checks trade-offs and cost, and exposes admissible stop, continue, switch, new-frame, information-hold, branch, and subject-pattern-return continuations. That organization is one current A.22 constraint-governed unfolding structure; use E.18 only when an independently selected transformation-flow structure is actually the EntityOfConcern. Neither the method, record, visible cycle, nor selected continuation is an enduring Work occurrence or context container.
 
-#### E.23:4.1 - Local names and kind settlement
+#### E.23:4.1 - Ordinary loop method
+
+For one quality-improvement loop:
+
+1. Name the exact object version and the evaluation that will judge it. Reuse the current `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration` when they still fit the purpose and receiving use. Keep the evaluator, evaluation pattern or Method, characteristic space, evidence basis, result form, ClaimScope, and qualification window separate.
+2. State the content change sought, protected trade-offs, cost and risk account, and local stop condition. Do not use `5`, all-`5`, or `5-defensible` as the target; say what should become better in practice.
+3. Reuse the exact current E.22 question frame, or open one when no frame binds the current object, purpose, scope, and result-consuming work or decision.
+4. Run the declared evaluation. When the evaluated object is one FPF pattern version, retain the complete E.21 result: every coordinate, `ShortRationale`, `PrecisionRestorationProfile`, evidence basis, coordinate payload, and status. A loop note, blocker summary, or "no blockers" statement is not a substitute. If dated evaluation Work is asserted, identify it and its result binding or direct result relation; keep any durable result episteme separate.
+5. Record each returned finding or proposal separately. A grouped memory summary does not close skipped items, and a proposal remains a proposed next action rather than performed Work.
+6. Select the next change. Selection does not perform it. If the change is performed, identify the improvement Work and connect it to a returned value or changed object only through an obtaining A.6.1 binding or declared Work-to-result or Work-to-change relation. If that relation is unavailable, keep proposal, Work, changed object, and Transformation separate and return the missing relation.
+
+   Repair below-floor findings first. Above the floor, prefer a substantive gain—such as clearer action, a missing case or countercase, current source support, restored predecessor content, cleaner relations, or a split of overloaded material. Do not add guards, catalogues, or quality proof merely to defend a higher score. Close with no change only after the evidence shows that no feasible non-dominated improvement remains under the protected trade-offs.
+
+   For a precision-restoration defect, use the selected restoration or subject pattern. Claim a Method or MethodDescription only when A.3.1 and A.3.2 admit it. Keep locator, Method, description, performer, assignment, Work, result, and responsibility separate, and run one bounded `KindRestorationCheck` over the distinctions actually at stake.
+7. Re-evaluate the changed object as a separate pass through the same declared evaluation and evidence basis, unless a stronger evaluation was explicitly selected. Keep the later Work, application or direct result relation, evidence, returned value, and result episteme distinct from the first pass.
+8. Record what improved, what stayed at the floor, what was unchanged by value, what became worse, and which findings moved outside this evaluation. Compare the two result epistemes rather than treating the later pass as a continuation field of the first Work.
+9. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdUntilInformationBasisSufficient`. When later replay depends on alternatives and guards, use the conditional structure block below. A decision or selected continuation neither authorizes nor performs the next Work.
+10. Leave an account that lets the next reader recover the object versions, evaluation, proposals, performed passes, result or change bases, evidence, trade-offs, cost and risk, continuation, stop and return boundaries, and the reason for the decision. Use the structured `QualityImprovementLoopRecord` only when a named replay, handoff, audit, or machine-facing use needs that form; otherwise a short result with the same recoverable facts is enough.
+
+Stop here when this route answers the current use. Open the names, record schemas, and unfolding-structure block below only when a named receiving use depends on that added assurance detail.
+
+#### E.23:4.2 - Conditional names and kind settlement
+
 Source and practitioner phrases such as "loop engineering", "agent loop", "harness loop", "prompt loop", and "workflow hardening loop" are entry phrases. Lower them into `ObjectUnderImprovementRef`, `QualityEvaluationQuestionFrame`, `QualityEvaluationUseDeclaration`, `ImprovementAim`, `MethodFamilySelection`, `CostAndRiskAccount`, and `QualityImprovementLoopRecord`, or else name the subject pattern for the live claim and leave `E.23` closed.
 
 Quick lowering map:
@@ -49,6 +71,8 @@ Quick lowering map:
 | Agent retry, monitor, or escalation cycle | Use `E.23` only when the retry changes an object version and re-evaluation can show a changed result on declared coordinates. | Performed execution and work plans use the A.15 family; gate passage uses `A.21`; transformation-flow cycle structure uses `E.18`. |
 | Harness engineering | The harness can be the object under improvement when its next version is evaluated against declared quality, cost, and risk conditions. | Running the harness is work; comparing harness variants is `G.9`; retaining variants is `C.18` or `C.19`; selected-set result declaration is `G.5`; for publication, use `E.17` for a source-backed face and return to source and `E.24.PUB` for the occurrence, form, carrier, audience, bounded use, and availability. |
 | Fast DPF seed hardening | A local DPF seed, pattern seed, relation record, or source pack can enter `E.23` after the object version and evaluation are declared. | Source-use and source-pack return use `G.2`; source decay, edition change, and refresh use `G.11`; PFAD and PFR decisions use `E.4.PFAD` and `E.4.PFR`; first-entry publication uses `E.11` only when publication is current. |
+
+The next table names the local values used after this routing choice.
 
 | Local name | Kind and function |
 |---|---|
@@ -139,7 +163,7 @@ The two record epistemes follow C.2.1 identity: claim content, exact EntityOfCon
 
 The retained `@Context` suffixes on support species such as `LoopEvaluationEvidenceBasis@Context`, `CandidateImprovementProposalRow@Context`, `TradeoffProtectionSet@Context`, and `ImprovementLoopBoundaryCondition@Context` are compatibility and retrieval spellings only. No suffix or context label supplies a container, participant, ClaimScope, applicability, or identity discriminator. The three identity-bearing interface names in this package are suffixless: `QualityEvaluationQuestionFrame`, `QualityEvaluationUseDeclaration`, and `QualityImprovementLoopRecord`.
 
-#### E.23:4.1a - Improvement Unfolding Structure Block
+#### E.23:4.2a - Conditional Improvement Unfolding Structure Block
 
 Use this block when a named review or replay use relies on the improvement loop's constraint-governed unfolding structure rather than only its method record. It keeps the proposal epistemes, predicted evaluation-result changes, independently identified pass Work and results, guarded alternatives, decision value, information-basis hold, stop, and neighboring returns exact instead of treating them as generic structural locations.
 
@@ -212,24 +236,11 @@ ExpectedEvaluationResultChange@Context <: U.Episteme:
 
 A visible cycle such as "draft -> evaluate -> repair -> re-evaluate" may be useful before execution. While any constituent, obtaining relation, guard, expected result change, protected trade-off, selected continuation, decision value, stop, or return needed for the wider improvement CGUS remains unresolved, keep that presentation as a `ProvisionalUnfoldingDemonstrationDescription@Context` about the object version and proposed continuation set. It may guide slot discovery, but it is not yet a structure or a slice. Admit the wider `ImprovementLoopUnfoldingStructure` first. Only then may a separate `DemonstrativeUnfoldingSlice@Context` select one traversal through that admitted structure and name it as EntityOfConcern. Neither episteme is a `QualityImprovementLoopRecord`, performed Work, actual Transformation, or proof of improvement.
 
-#### E.23:4.2 - Loop method
+#### E.23:4.2b - How the conditional detail supports the loop
 
-For one quality-improvement loop:
+The names and schemas in 4.2 and the unfolding-structure block in 4.2a support the ordinary steps above; they do not define a second loop. Use them only when a receiving use must inspect exact record identity, evidence positions, independently admitted Work and result relations, guarded alternatives, or replayable structure. Otherwise keep the ordinary account and do not manufacture a record or structure merely to complete the schema.
 
-1. Declare `ObjectUnderImprovementRef`, its kind and version, and one `QualityEvaluationUseDeclaration`; recover the current `QualityEvaluationQuestionFrame` when one already exists. Carry only evaluator conditions or intended identity that change the question or result admissibility. Keep the evaluation pattern, optional semantic Method, selected characteristic space, predicate and any comparator, ClaimScope, quality-model descriptions, expected evidence basis, result-form description, and qualification window separate. The question frame, not the declaration, names the work or decision that will consume the result.
-2. Declare `ImprovementAim`, declared floor or desired substantive evaluation-result change, protected trade-offs, cost and risk account, and local stop condition. Do not declare `5`, all-`5`, or `5-defensible` as the work target; name the content property to improve instead.
-3. Reuse the exact current E.22 question frame, or use `E.22` to open one for the first quality evaluation when no frame already binds the current purpose, scope, and result-consuming use.
-4. Run the declared evaluation. If the account asserts dated evaluation Work, identify it under the central §4 rule. Name its evaluation application and result binding or the direct evaluation-result relation; when a durable result claim is needed, identify a separate C.2.1 result episteme. For one FPF pattern version, that result has every E.21 coordinate, every `ShortRationale`, the `PrecisionRestorationProfile`, evidence basis, coordinate-specific payloads, and status. A loop record, profile pass, blocker summary, two-column table, or "no blockers" note is not a substitute.
-5. Record row-atomic findings or proposal rows when work is returned. A step is closed only after its finding or proposal row is written; do not rely on memory or a later grouped summary. Each row is still an episteme about a proposed next action, not the action's performance, Work, or Transformation.
-6. Select a proposal only as the next action. When it is performed, identify the improvement Work under the central §4 rule and any actual Transformation under A.3.4. Connect the Work to a returned value or change only through an A.6.1 binding or a declared Work-to-result or Work-to-change relation that obtains. If the relation is unavailable, keep the proposal, Work, changed object, and Transformation separate and return the missing governor.
-
-   Repair below-floor findings first. For exceptional improvement, look coordinate by coordinate for substantive gains—for example, better action guidance, a missing worked case or countercase, current sources, mature-content parity, cleaner relations, removal of displaced apparatus, or a split of overloaded content. Extra guards, catalogues, relation menus, or quality proof added only to defend a higher score are not improvements. Close with no change only when the evidence explains why no non-dominated improvement is available under the protected trade-offs.
-
-   For precision-restoration defects, use the selected restoration or subject pattern as rule or guidance. Claim a semantic Method or MethodDescription only after A.3.1 and A.3.2 admit it; keep locator, Method, description, performer, assignment, Work, result, and responsibility separate. Before closure, run one bounded `KindRestorationCheck` over the distinctions that are actually live. A no-op closes only as `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` with its evidence. Cite an existing defining `ClaimGraph` instead of copying it into E.23.
-7. Re-evaluate the changed object version as a separate pass. If dated Work is asserted, identify it under the central §4 rule. Use the same evaluation structure and evidence basis, then name the application or direct result relation and any separate result episteme. Do not treat the later pass as a continuation field of the first Work.
-8. Record what improved, what stayed floor-only, what was unchanged by value with its evaluation evidence basis, what became worse, and which rows were reclassified outside the evaluation. The before and after result epistemes remain distinct from both evaluation Work occurrences.
-9. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdUntilInformationBasisSufficient`. Keep current alternatives, exact guard or constraint claims, selected obtaining relation occurrences, selected continuation, stop, and subject-assertion reconsideration conditions in one admitted A.22 improvement unfolding structure. When transformation-flow membership is independently current, E.18/E.18.3 recognizes that same selected structure rather than another loop object. The decision and branch selection do not perform or authorize the next Work.
-10. Leave a `QualityImprovementLoopRecord` that lets the next reader replay the object versions, question frame, use declaration, selected proposals, evaluation and improvement Work with the central §4 account recoverable, application and result or change bases, evidence and result epistemes, relevant source-use and currentness results, limitations, trade-offs, cost and risk, continuation, stop and return boundaries, and the loop decision with its reason.
+For a structured use, the complete E.21 result belongs to step 4, proposal and Work separation to steps 5–7, before/after comparison to step 8, guarded continuation to step 9, and the replayable record to step 10. The central Work rule, direct result or change relation, and precision-restoration checks remain the same in both forms.
 
 #### E.23:4.3 - Stop, continue, and reopen
 

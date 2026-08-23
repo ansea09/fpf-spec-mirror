@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `f0b498ddfdf562242984ff7ab7a2557b55af6690`
+Commit SHA: `5801dc610c657ac7b1efee349b18e80ce6d7df6f`
 
 Chunking method: `pattern-aware`
 
-Patterns: `294`
+Patterns: `300`
 
 ## Patterns
 
@@ -194,6 +194,7 @@ Patterns: `294`
 - [C.32.ACE — Architecture Characteristic Eval Programs](by_pattern/C.32.ACE.md)
 - [C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence](by_pattern/C.32.CONWAY.md)
 - [C.32.MLAO — Multilevel Architecture Residual Optimization](by_pattern/C.32.MLAO.md)
+- [C.32.MWA — Practice Architecture Synthesis from Several Structures](by_pattern/C.32.MWA.md)
 - [C.32.FAIL — Architecture Failure Recognition and Repair](by_pattern/C.32.FAIL.md)
 - [C.32.PAD — Project Architecture Decision After Candidate Synthesis](by_pattern/C.32.PAD.md)
 - [C.32.ADR — Architecture Decision Record Projection](by_pattern/C.32.ADR.md)
@@ -218,6 +219,7 @@ Patterns: `294`
 - [E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly](by_pattern/E.4.DPF.md)
 - [E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace](by_pattern/E.4.DPF.DA.md)
 - [E.4.PFR — Pattern-Framework Relation and Edition Discipline](by_pattern/E.4.PFR.md)
+- [E.4.PFIP — Principle-Framework Publication Integration and Preservation](by_pattern/E.4.PFIP.md)
 - [E.5 — Four Guard‑Rails of FPF](by_pattern/E.5.md)
 - [E.5.1 — DevOps Lexical Firewall](by_pattern/E.5.1.md)
 - [E.5.2 — Notational Independence](by_pattern/E.5.2.md)
@@ -239,6 +241,8 @@ Patterns: `294`
 - [E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline](by_pattern/E.11.md)
 - [E.11.PUA — Pattern Use in a Working Situation and First Useful Result](by_pattern/E.11.PUA.md)
 - [E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination](by_pattern/E.11.PUR.md)
+- [E.11.PFP — Framework Publication Form Profile](by_pattern/E.11.PFP.md)
+- [E.11.DSG — DPF Suite Guide](by_pattern/E.11.DSG.md)
 - [E.12 — Didactic Primacy & Cognitive Ergonomics](by_pattern/E.12.md)
 - [E.13 — Pragmatic Utility and Value Alignment](by_pattern/E.13.md)
 - [E.14 — Human‑Centric Working‑Model](by_pattern/E.14.md)
@@ -263,11 +267,13 @@ Patterns: `294`
 - [E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace](by_pattern/E.21.md)
 - [E.22 — Improvement-Oriented Quality Evaluation Question Framing](by_pattern/E.22.md)
 - [E.23 — Quality Improvement Loop Method](by_pattern/E.23.md)
+- [E.23.CDI — Developing Capability for a Named Work Family](by_pattern/E.23.CDI.md)
 - [E.24 — U.Ontic and Ontic Introduction Discipline](by_pattern/E.24.md)
 - [E.24.CD — Ontic Candidate Detection and First-Use Disposition](by_pattern/E.24.CD.md)
 - [E.24.PUB — Ontic Description and Publication Discipline](by_pattern/E.24.PUB.md)
 - [E.24.UK — U-kind Admission and Ontic Settlement](by_pattern/E.24.UK.md)
 - [F.0.1 — Source-Local Meaning Recovery](by_pattern/F.0.1.md)
+- [F.0.2 — Conceptual Synthesis across Source Ontologies](by_pattern/F.0.2.md)
 - [F.1 — Question-Relative Source Selection](by_pattern/F.1.md)
 - [F.2 — Term Harvesting & Normalisation](by_pattern/F.2.md)
 - [F.3 — Source-Local Sense Clustering](by_pattern/F.3.md)

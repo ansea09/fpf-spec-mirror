@@ -6,17 +6,16 @@ section_id: "E.4.DPF:End"
 section_title: "E.4.DPF:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__014_e-4-dpf-end.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:End — E.4.DPF:End"
-line_start: 68093
-line_end: 68094
+line_start: 68749
+line_end: 68750
 dependencies:
   - "A.1.1"
   - "A.15.1"
   - "A.15.PROD"
-  - "A.2.1"
   - "A.2.6"
   - "A.22"
   - "A.22.CGUS"
@@ -25,6 +24,7 @@ dependencies:
   - "A.6.1"
   - "C.2.1"
   - "C.30.AD"
+  - "C.32.MWA"
   - "C.33"
   - "C.33-C.35"
   - "C.34"
@@ -37,6 +37,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.23"
+  - "E.23.CDI"
   - "E.24.PUB"
   - "E.4"
   - "E.4.DPF.DA"

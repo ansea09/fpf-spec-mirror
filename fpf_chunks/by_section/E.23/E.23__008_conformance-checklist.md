@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.23"
 pattern_title: "Quality Improvement Loop Method"
 section_id: "E.23:7"
-section_title: "Conformance checklist"
+section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__008_conformance-checklist.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
-  - "E.23:7 — Conformance checklist"
-line_start: 85740
-line_end: 85761
+  - "E.23:7 — Conformance Checklist"
+line_start: 87125
+line_end: 87146
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -28,7 +28,7 @@ dependencies:
 keywords:
 ---
 
-### E.23:7 - Conformance checklist
+### E.23:7 - Conformance Checklist
 
 | Check | Passing condition |
 |---|---|

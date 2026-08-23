@@ -6,21 +6,30 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
-line_start: 67472
-line_end: 67510
+line_start: 67991
+line_end: 68041
 dependencies:
+  - "A.15.1"
+  - "A.22"
   - "A.6.RCD"
   - "A.6.REL"
+  - "B.1.5"
+  - "C.30.AD"
+  - "C.30.STRAT"
   - "C.32.ADR"
+  - "C.32.MWA"
   - "C.32.PAD"
+  - "C.36"
+  - "E.11.DSG"
   - "E.17"
   - "E.19"
   - "E.21"
   - "E.23"
+  - "E.23.CDI"
   - "E.24.PUB"
   - "E.4"
   - "E.4.DPF"
@@ -37,28 +46,38 @@ keywords:
 
 #### E.4.PFAD:4.1 - Decide whether the architecture question is open
 
-Ask whether choosing a framework, a thinner route, or stop will settle at least one boundary used by later authoring or review:
+Ask whether choosing a framework, a maintained non-framework product, a thinner route, an existing-framework contribution, or stop will settle at least one boundary used by later authoring or review:
 
-- a governed or intended framework edition;
-- an FPF Core or other current dependency;
-- initial pattern placement or a relation among those patterns that changes the architecture; or
-- a publication or access consequence.
+- the public field promise, a first use that does not depend on unpublished authoring context, or the problem-family coverage of a proposed DPF;
+- an intended or existing framework edition;
+- an FPF Core or other current edition dependency;
+- initial pattern placement or a material relation among those patterns that changes the architecture;
+- the direct subjects and maintenance boundary for a continuing programme, an admitted service, or a separate editioned result when later work must maintain or use them;
+- a publication or access consequence; or
+- for a proposed DPF suite, the bounded common use, inclusion rule over managed DPF edition series, minimum of two members, continuity choice, maintenance and edition-recovery boundary, exposure choice, or a separate guide-maintenance boundary.
 
-If no such boundary and receiving use are present, close the exploratory use without `E.4.PFAD` or an `E.9` DRR. If they are present, record whichever answer is selected—including access-only or stop—in one `E.9` DRR. The cheap exit and the architecture decision are alternative entry outcomes, not serial stages.
+If no such boundary and receiving use are present, close the exploratory use without `E.4.PFAD` or an `E.9` DRR. If they are present, decision Work selects a framework, maintained non-framework product, thinner route, existing-framework contribution, or stop and one `E.9` DRR records that answer. The cheap exit and the architecture decision are alternative entry outcomes, not serial stages.
+
+For every maintained alternative, use *product* only as the first management cue. Then compare the direct subjects at the same grain: the exact framework or package episteme, System, service arrangement, Method, programme description, carrier, or other admitted result, and the relations that later work will rely on. A quality-management, service-management, publication, or content-management scheme may supply a useful probe, but it does not settle the FPF kind. If the unresolved kind can change the selected boundary, keep the boundary proposed and make that kind the next decision question.
 
 #### E.4.PFAD:4.2 - State the compact framework answer
 
-The framework-specific part of the DRR states:
+When the architecture question is open, the framework-specific part of the DRR states:
 
-1. the intended reader, recurring problem, and bounded architecture question;
-2. the selected outcome: a new or revised framework edition, a thinner publication or access route, or no new framework now;
-3. the governed edition, the intended-edition boundary before realization, or that no new edition is governed;
-4. the selected FPF Core dependency and only the other edition dependencies current for this answer;
-5. the first patterns, their placement, and only the relation choices among them that change the selected architecture;
-6. the publication or access consequence; and
-7. material alternatives, accepted costs or losses, practical consequences, the first authoring action or stop, and the reopen condition.
+1. the intended practitioner, public field name and promise, recurring problem, and bounded architecture question;
+2. the selected outcome: a new or revised framework edition, a contribution to an existing framework, a maintained non-framework product, a thinner publication or access route, or no new maintained product now; for a maintained non-framework product, also the direct subject kind and the identity, current-state, provision, or maintenance relations used by the decision;
+3. its field boundary: who can first use it without unpublished authoring context and for what; the connected problem families and useful results; what the current FPF and admitted DPFs already provide and what remains uncovered; serious alternatives, such as splitting or merging the proposed framework, using existing sources directly, contributing to an existing framework, selecting a programme or service boundary, selecting a separate evidence-package episteme, or keeping no maintained product; the limits of evidence; and what change will require a refresh;
+4. the selected problem-family pattern sets, first patterns and their material relations, representative cross-problem application, and important omissions;
+5. which practice structures change the answer and how their Methods, descriptions, patterns, direct subjects, and managed result boundaries fit together. When those structures do not line up one-for-one, use a completed `C.32.MWA` synthesis; use `E.23.CDI` only when capability development for a named Work family changes the answer;
+6. the existing or intended-edition boundary, selected FPF Core dependency, and only the other exact edition dependencies required by this answer;
+7. the sources to revisit for each important claim, whether the evidence supports, suggests, or only motivates it, the limits of that evidence, and the publication or access consequence; and
+8. material alternatives, accepted costs or losses, practical consequences, the first authoring action or stop, and the reopen condition.
 
-Keep the ordinary `E.9` grounds, sources, affected loci, rationale, and consequences in the same DRR. Add source-return, naming, quality, admission, currentness, or package details only when they change this answer or a named later use requires them. Use the pattern that defines, constrains, or tests each added claim; do not make it a standing PFAD field.
+For a DPF suite answer, the same DRR selects the bounded common use, inclusion rule over managed DPF edition series, minimum of two members, continuity choice, alternatives, practical consequence, and reopen condition. If the result is to be presented as a current maintained suite, it also identifies the capable suite-maintaining System and its accepted commitment, the working route to each suite edition presented as current, the refresh response and what happens if that boundary is lost, and one exposure choice: independent suite route, bounded guide projection with source return, or neutral combined carrier. Keep the guide's maintaining System and commitment separate. A proposed result use or future constraint is not an obtaining dependency or compatibility relation; apply `E.4.PFR` only after both exact editions and the required case facts exist.
+
+For an existing-framework contribution, maintained non-framework product, thinner route, or stop, state only the parts needed to explain that outcome and the later-used boundary. A selected maintained product still names its direct subjects and the relations used; a proposed boundary with an unresolved kind says so. Do not fabricate a field assessment or package merely to fill the list.
+
+Keep the ordinary `E.9` grounds, sources, affected loci, rationale, and consequences in the same DRR. Add naming, quality, admission, currentness, or package details only when they change this answer or a named later use requires them. Use the pattern that defines, constrains, or tests each added claim; do not make it a standing PFAD field.
 
 #### E.4.PFAD:4.3 - State initial pattern relations directly
 
@@ -68,7 +87,9 @@ An optional `E.4.PFR` row may later represent these assertions for maintenance. 
 
 #### E.4.PFAD:4.4 - Keep the answer, DRR, authoring, and publication distinct
 
-The `E.9` DRR records the selected answer and rationale. A separately governed decision accepts, redirects, rejects, or reopens that answer. Later authoring realizes an accepted answer. A framework edition is the resulting maintained pattern framework, not the DRR or the authoring work. An ADR-like document, site, PDF, or other carrier publishes or projects claims about these objects; its form does not create the answer, acceptance, authoring, edition, or pattern relations.
+Decision Work selects the answer. The `E.9` DRR records that answer and its rationale. An authorized acceptance decision accepts, redirects, rejects, or reopens it. Later authoring follows an accepted answer. A framework edition is the maintained pattern-language result assembled from accepted sources, not the DRR or the authoring Work. An ADR-like document, site, PDF, or other carrier publishes or projects claims about these things; its form creates none of them.
+
+When the answer uses `C.32.MWA` or `E.23.CDI`, keep each proposed Method distinct from the pattern that describes it, the Work that performs it, the result of that Work, the framework answer, the DRR, and the resulting edition. A proposal or evidence locator may help a reader find supporting material; it is none of those things.
 
 Use `C.32.PAD` only when the question is an exact project architecture decision about a named composite project Work, and use `C.32.ADR` only to project that project decision. For an ordinary framework answer, publish the selected decision episteme or a reader-specific projection through `E.17` and `E.24.PUB`. None of these is a mandatory stage of principle-framework authoring.
 

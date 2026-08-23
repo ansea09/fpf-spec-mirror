@@ -6,21 +6,30 @@ section_id: "E.4.PFAD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__003_problem.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:2 — Problem"
-line_start: 67455
-line_end: 67460
+line_start: 67970
+line_end: 67977
 dependencies:
+  - "A.15.1"
+  - "A.22"
   - "A.6.RCD"
   - "A.6.REL"
+  - "B.1.5"
+  - "C.30.AD"
+  - "C.30.STRAT"
   - "C.32.ADR"
+  - "C.32.MWA"
   - "C.32.PAD"
+  - "C.36"
+  - "E.11.DSG"
   - "E.17"
   - "E.19"
   - "E.21"
   - "E.23"
+  - "E.23.CDI"
   - "E.24.PUB"
   - "E.4"
   - "E.4.DPF"
@@ -35,7 +44,9 @@ keywords:
 
 ### E.4.PFAD:2 - Problem
 
-Framework authors repeatedly need to decide the intended edition boundary, FPF Core dependency, first patterns and their relations, and the publication or access consequence. Generic decision prose can hide those choices. A large framework-specific form creates the opposite problem: it makes proposal, acceptance, DRR, framework edition, authoring, quality review, and publication look like one extra decision object.
+Framework authors repeatedly need to decide whether a recurring practitioner problem calls for a new framework, an existing framework contribution, another maintained product such as a programme, service, or evidence package, a thinner access result, or no maintained product. When a framework is selected, later work needs its public field promise, first-edition boundary, FPF Core dependency, problem-family coverage, first patterns and their material relations, representative use, important omissions, and publication or access consequence. Generic decision prose can hide those choices.
 
-The useful result is one answer whose framework consequences are visible without adding a second decision stage or making cheap exploratory work produce decision paperwork.
+A small coherent authoring slice creates a common false positive: its few current patterns and neat structure are mistaken for a field-scale pattern language. Source diagrams create another: one list or hierarchy is copied into the DPF although Methods, Work, subjects, descriptions, capabilities, providers, and cultural change may have different structures. A large framework-specific form creates the opposite problem by making proposal, acceptance, DRR, edition, authoring, quality review, and publication look like one extra decision object.
+
+The useful result is one readable answer whose framework consequences and limits are visible without adding a second decision stage or making cheap exploratory work produce decision paperwork.
 

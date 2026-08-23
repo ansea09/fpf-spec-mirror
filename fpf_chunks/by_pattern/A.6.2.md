@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.2.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
-line_start: 12949
-line_end: 13372
+line_start: 13005
+line_end: 13428
 dependencies:
   - "A.6.0"
   - "A.6.1"

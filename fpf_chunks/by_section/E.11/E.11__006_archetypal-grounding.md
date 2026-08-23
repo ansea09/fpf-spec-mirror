@@ -6,15 +6,17 @@ section_id: "E.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Archetypal Grounding"
-line_start: 74766
-line_end: 74803
+line_start: 75702
+line_end: 75739
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
+  - "E.11.DSG"
+  - "E.11.PFP"
   - "E.11.PUA"
   - "E.11.PUR"
   - "E.17.AUD"
@@ -24,19 +26,6 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
-  - "& Search Queries"
-  - "& Search Queries includes at least one recognizable working-question cue"
-  - "Dependencies"
-  - "a substantive claim returns to the direct pattern whose content defines"
-  - "and Dependencies"
-  - "and retrieval are finding aids"
-  - "cards"
-  - "constrains"
-  - "or boundary mini-method. ToC"
-  - "or tests it"
-  - "query phrases"
-  - "result"
-  - "with a recognizable working-question cue and no copied first move"
 ---
 
 ### E.11:5 - Archetypal Grounding
@@ -65,7 +54,7 @@ The reader can therefore imagine useful progress without inferring that publicat
 
 Suppose a new `A.6.3.RT` edition restores a progressive `DESCRIPTION-USE` result: an ordinary target representation plus source-comparison note first, exact `v : X -> Y` only when a named receiver makes endpoint identity material, and `RepresentationSchemeTransitionRelation@Context` only when actual transition Work and all six participants make the historical occurrence current. Repair only that candidate-use template so its first result and the two escalation triggers match the direct pattern. Name the occurrence predicate, participants, obtaining test, and identity question only in the later-specific branch. Recheck the linked walkthrough against the repaired context-free template; only a later project use names a project occurrence.
 
-The public card heading and question remain unchanged when readers still recognize the same situation. Preface and ToC remain unchanged when framework rationale and retrieval location did not move. The `A.6.3.RT` pattern body remains the authority for the relation; E.11 repairs only the public guidance that points to it.
+The public card heading and question remain unchanged when readers still recognize the same situation. Preface and ToC remain unchanged when framework rationale and retrieval location did not move. The `A.6.3.RT` pattern body remains the authority for the relation; when using E.11, the maintainer changes only the public guidance that points to it.
 
 #### E.11:5.5 - A better first-click rate can make discovery worse
 

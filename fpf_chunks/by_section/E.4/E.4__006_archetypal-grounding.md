@@ -6,18 +6,20 @@ section_id: "E.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__006_archetypal-grounding.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:5 — Archetypal Grounding"
-line_start: 67161
-line_end: 67188
+line_start: 67605
+line_end: 67634
 dependencies:
   - "C.33"
   - "C.34"
   - "C.35"
   - "E.1"
   - "E.11"
+  - "E.11.DSG"
+  - "E.11.PFP"
   - "E.11.PUR"
   - "E.17"
   - "E.19"
@@ -46,13 +48,13 @@ Tell: A team creating a hydroponic-cucumber domain principle framework should no
 
 Mini-example:
 
-| Map field | Filled slice |
+| Record field | Filled slice |
 | --- | --- |
 | `ecosystemScopeRef` | `HydroponicCucumberPrincipleFramework@GreenhouseCropDomain` |
-| `intendedMapUse` | choose the framework-family, dependency, and publication architecture for the hydroponic-cucumber framework edition |
+| `intendedArchitectureUse` | choose the framework-family, dependency, and publication architecture for the hydroponic-cucumber framework edition |
 | `sourceRefs?` | source entries cited by `GreenhouseControlSourcePack@2026Q2` and `CropProductionSourcePack@2026Q2` |
 | `patternHostRefs?` | `DPF.GROW.NutrientSolutionMonitoring` and `DPF.GROW.ClimateControlInterpretation` |
-| `selectedArchitectureStructureRefs?` | recurring crop-growing problem situations, solution moves, dependency direction, and source-return structure used by this map |
+| `selectedArchitectureStructureRefs?` | recurring crop-growing problem situations, solution moves, dependency direction, and source-return structure used by this record |
 | `publicationRelationRefs?` | the publication relations from `HydroponicCucumberPF@2026Q3` to `GrowerCarrier@2026Q3` and `GrowerReadme@2026Q3` |
 | `frameworkFamilyMembers` | domain principle framework; local grower practice framework as a later dependent edition |
 | `selectedPatternSetRefs` | crop-growth problem framing, nutrient-solution monitoring, climate-control interpretation, harvest-quality feedback patterns |
@@ -67,4 +69,6 @@ Mini-example:
 Show: A Codex-process local practice framework may depend on FPF Core and selected architecture-domain patterns. Its handoff patterns, prelanding patterns, and process runbooks can be local framework material. They do not define the FPF Core merely because they use FPF vocabulary and are useful to this workspace.
 
 Show: A generated relation graph over pattern names can help inspect missing relation records. It becomes architecture input only after `C.35` admits the carrier and `E.4.PFR` records the relation functions. The graph's shape alone is not the ecosystem architecture.
+
+Show: In the cucumber DPF, the Readme, table of contents, pattern collection, and coverage account share one framework edition, reader use, access route, maintainer, and cadence, so they remain publication units in one managed boundary. A greenhouse-calibration source registry is revised separately and reused by another crop DPF, so its current registry edition is a separate episteme. One web carrier may expose both, but its links neither merge their identities nor create a generic Product relation.
 

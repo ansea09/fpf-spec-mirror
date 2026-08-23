@@ -6,12 +6,12 @@ section_id: "A.15.1:8"
 section_title: "Conformance Checklist (admission checks)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__010_conformance-checklist-admission-checks.md"
-commit_sha: "f0b498ddfdf562242984ff7ab7a2557b55af6690"
+commit_sha: "5801dc610c657ac7b1efee349b18e80ce6d7df6f"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:8 — Conformance Checklist (admission checks)"
-line_start: 24070
-line_end: 24157
+line_start: 24137
+line_end: 24227
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -146,4 +146,7 @@ Do not create a durable named work part for every interval, telemetry segment, p
 
 **CC-A15.1-31 (Method and work granularity are coupled but not isomorphic).**
 A work part may enact a recovered submethod, but the correspondence is not automatic. A temporal work part usually enacts the same whole method during a slice. An episode records continuity under one method or mode and may span several operational parts, repeat the same method fragment, or be split by evidence policy without changing method identity. An operational work part corresponds to a method factor only when that factor is recovered as `U.Method` under `A.3.1` and `B.1.5`; otherwise keep it as the work part, method-description node, evidence segment, mechanism material, or system-component behavior actually identified.
+
+**CC-A15.1-32 (Work rows do not create architecture).**
+Before a timetable, workflow, or architecture row supports a Work whole, part, overlap, or order claim, every Work occurrence has its actual performer System, covering assignment and attribution, enacted Method, actual interval, and required containing-System relation; every whole, part, and temporal relation is then established separately. Similar labels, shared rows, or planned co-occurrence establish none of these facts.
 
