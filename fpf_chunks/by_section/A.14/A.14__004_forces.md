@@ -6,42 +6,59 @@ section_id: "A.14:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__004_forces.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:3 — Forces"
-line_start: 23138
+line_start: 23137
 line_end: 23146
 dependencies:
   - "A.1"
   - "A.15"
   - "A.15.1"
+  - "A.19"
   - "A.2"
   - "A.2.1"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
+  - "A.6.5"
   - "A.7"
   - "B.1"
   - "B.1.1"
   - "B.2"
   - "B.3.5"
   - "C.13"
+  - "C.16"
+  - "C.27.TA"
+  - "C.29"
+  - "C.3"
+  - "E.17"
+  - "E.17.0"
+  - "E.17.1"
 keywords:
+  - "AspectOf"
   - "ComponentOf"
+  - "ConstituentOf"
   - "PhaseOf"
   - "PortionOf"
-  - "composition"
-  - "mereology"
-  - "part-of"
+  - "aspect"
+  - "belongs to"
+  - "component"
+  - "constituent"
+  - "member"
+  - "part"
+  - "phase"
+  - "portion"
 ---
 
 ### A.14:3 - Forces
 
-| Force                              | Tension                                                                                                         |
-| ---------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **Expressiveness vs. Parsimony**   | We need new relations (Portion, Phase) ↔ we must keep the catalogue minimal and orthogonal.                     |
-| **Universality vs. Domain nuance** | One set of rules must serve physical systems and epistemes ↔ measurement and time behave differently by domain. |
-| **Identity vs. Change**            | Preserve “the same carrier through change” ↔ allow explicit re‑identification when invariants fail.             |
-| **Static structure vs. Histories** | Part trees should be simple ↔ real work requires phased histories and measured slices.                          |
+| Force | Tension |
+| --- | --- |
+| **Expressiveness vs. parsimony** | Portion, aspect, and phase claims need usable direct relations, while the catalogue must not turn every concern word into a part kind. |
+| **World-side structure vs. analysis** | A real bearer-dependent aspect must be stateable, while Characteristics, views, projections, partitions, and time windows keep their own meanings. |
+| **Universality vs. domain nuance** | One relation discipline must serve physical systems and epistemes, while measurement, facet rules, and time behave differently by subject. |
+| **Identity vs. change** | Preserve the same bearer or carrier through allowed change, while making reidentification explicit when its rule fails. |
+| **Readable claim vs. assurance** | The ordinary relation sentence must stand on its own, while a named assurance use may require a `sum`, `slice`, or `set` account. |
 

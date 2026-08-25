@@ -6,12 +6,12 @@ section_id: "F.11:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__009_invariants.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:8 — Invariants"
-line_start: 93292
-line_end: 93302
+line_start: 93420
+line_end: 93430
 dependencies:
   - "A.15"
   - "A.15.1"

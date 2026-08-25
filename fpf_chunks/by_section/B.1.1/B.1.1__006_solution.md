@@ -6,12 +6,12 @@ section_id: "B.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__006_solution.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:4 — Solution"
-line_start: 34726
-line_end: 34796
+line_start: 34791
+line_end: 34861
 dependencies:
   - "A.1"
   - "A.10"
@@ -82,7 +82,7 @@ The graph may express acyclicity, reachability, cutsets, weak links, flow, or tr
 | If the edge means... | Recover... | Pattern that defines or tests the claim |
 | --- | --- | --- |
 | part of the whole | part-whole relation over admitted holons | `A.14`, `C.13`, `B.1` |
-| member of a collection | membership or collection-as-whole claim | `A.14`, `C.13`, `C.16` |
+| an entity belongs to a world-side collection | the collection's own belongs-to occurrence, or a separately grounded collection-as-whole claim | `A.14`, `C.13`, `C.16`, and the pattern that defines that collection's rule |
 | phase of the same carrier | temporal phase relation | the carrier's identity and phase rules, `A.14`, and `B.1.4` |
 | ordered step or branch | method, process-view, Work, or order relation | `A.3.1`, `A.3.2`, `A.15.1`, or the pattern that defines the order relation; `B.1.4`, and `C.29` when a lens is current |
 | performed work part | work occurrence relation with evidence and timing | `A.15.1` |

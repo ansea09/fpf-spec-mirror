@@ -6,13 +6,14 @@ section_id: "E.11.DSG:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__002_problem-frame.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.11.DSG — DPF Suite Guide"
   - "E.11.DSG:1 — Problem frame"
-line_start: 76904
-line_end: 76917
+line_start: 77020
+line_end: 77033
 dependencies:
+  - "A.14"
   - "C.2.1"
   - "C.2.P"
   - "E.11"
@@ -33,13 +34,13 @@ keywords:
 
 #### E.11.DSG:1.1 - Use this when
 
-Use this pattern when a practitioner may need results from several DPFs, cannot yet tell which DPF applies, or needs a truthful stop because the current DPF ecosystem lacks part of the answer. The guide should let a cold reader begin from that working situation, recover the exact suite edition behind the guidance, and reach the needed DPF results or sources without treating co-listing as dependency or compatibility.
+Use this pattern when a practitioner may need results from several DPFs, cannot yet tell which DPF applies, needs Suite-wide commonality or relations, or needs a truthful stop because the ecosystem lacks part of the answer. The Guide should let a cold reader begin from that situation, return to the Suite collection and the product series or states that change the answer, and reach the needed results or sources. Co-listing proves neither that a product series belongs to the Suite nor any dependency or compatibility.
 
 **First useful result.** Give one short answer that names the situation and returns each needed item in its real use: an available maintained result, a maintained MethodDescription, direct-source evidence, or a named unavailable result. Say what each contributes and end with an ordinary stop or return. Do not fill a missing result with another title.
 
-**Primary `EntityOfConcern`.** One exact DPF suite guide edition: a non-framework `U.Episteme` that gives readers practical access to one DPF suite. Its continuity with earlier or later guide editions is established only by exact edition relations.
+**Primary `EntityOfConcern`.** One DPF Suite Guide edition: a non-framework `U.Episteme` in the independently maintained Guide product series. Its continuity with another Guide edition and its belonging to that product series are separate direct relations.
 
-**What this buys.** A reader can act on a small answer and still return to the exact suite edition, member products, source facts, warnings, and stronger relations when those details change the action.
+**What this buys.** A reader can act on a small answer and still return to the Suite collection, the product series that belong to it, relevant editions or states, source facts, warnings, and stronger relations when those details change the action.
 
-**Not this pattern when.** Use `E.4:4.2` and `E.4.PFAD` to decide suite architecture, membership, maintenance, and exposure. Use one DPF directly when its result is already clear. Use `E.11.PFP` only for an FPF, DPF, or LPF edition; a suite guide is not a framework edition. A publication that compares several suites has its own product boundary. Use the direct patterns for lookup Work, publication, availability, dependency, compatibility, evidence, authority, or currentness claims.
+**Not this pattern when.** Use `E.4:4.2` and `E.4.PFAD` to decide product-series or Suite constitution, which editions belong to which product series, which product series belong to the Suite, maintenance, and exposure. Use one DPF directly when its result is already clear. The Guide is the problem-led entry only when selection, cross-DPF use, Suite-wide commonality or relations, or an ecosystem gap is current. An absent, unavailable, stale, or unneeded Guide neither erases the Suite nor prohibits direct DPF use, but it cannot supply a current cross-DPF route. Use `E.11.PFP` only for an FPF, DPF, or LPF edition; a Suite Guide is not a framework edition. A publication that compares several Suites has its own product boundary. Use the direct patterns for lookup Work, publication, availability, dependency, compatibility, evidence, authority, or currentness claims.
 

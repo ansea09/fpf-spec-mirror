@@ -6,13 +6,14 @@ section_id: "E.11.DSG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__005_solution.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.11.DSG — DPF Suite Guide"
   - "E.11.DSG:4 — Solution"
-line_start: 76936
-line_end: 77008
+line_start: 77052
+line_end: 77132
 dependencies:
+  - "A.14"
   - "C.2.1"
   - "C.2.P"
   - "E.11"
@@ -33,19 +34,23 @@ keywords:
 
 Write the practical answer first. State the recognizable situation and question, then say what each returned item actually is and what it contributes: an available maintained result of its own kind and supplying product, a maintained MethodDescription used to select or perform its Method, direct-source evidence for a named claim or decision, or a named unavailable result with its blocker and retry. End with the ordinary stop or return. Add exact identity, relation, evidence, warning, or reliance detail only when it changes the answer's truth, the reader's choice, or a named later use.
 
-#### E.11.DSG:4.1 - Keep the guide line and each edition exact
+#### E.11.DSG:4.1 - Keep the Guide product series, each edition, and Suite belonging distinct
 
-**DPF suite guide** is Plain relation-defined wording for exact guide editions connected by accepted `EpistemeEditionRelation` occurrences and maintained for one reader use; it names no separate line object or root kind. A **DPF suite guide edition** is one exact `U.Episteme`, identified under `C.2.1` as:
+A **DPF Suite Guide product series** is a continuing collection of Guide edition epistemes under its reader-use, content-selection, admission, maintenance, and reidentification rule. It begins only when a product-constitution decision under `E.4:4.2` admits the first Guide edition and its maintaining System accepts the Guide commitment. A title, date, language tag, file, carrier, or publication does not create the series.
+
+A later Guide edition belongs to that series only after its source-edition relation and the Guide admission rule pass and an admission decision takes effect. Supersession, unavailability, non-currentness, or edition retirement does not end that occurrence while the same Guide product series continues. If the series ends, current belonging ends with it. If its identity rule identifies another series, belonging to the old series ends when that reidentification takes effect. The past fact remains, and another Guide product series needs its own admission and occurrence. A fork, translation, retargeting, or reconstruction is not admitted by title or provenance alone. A changed-scheme derivative may remain in the same Guide product series only when it also qualifies as an edition and the shared reader, access, maintenance, warning, refresh, and retirement conditions still hold.
+
+The Guide product series belongs to its DPF Suite only after a separate Suite-inclusion decision takes effect. Belonging remains current only while the same Guide product series and Suite continue and no removal decision has taken effect. If either collection ends, current belonging ends with it. If its identity rule identifies another collection, belonging to the old collection ends when that reidentification takes effect. Neither case requires a prior removal decision, and the new Guide product series or Suite needs a new inclusion. The Guide product series, its Suite belonging, Guide availability, and Guide use are different claims. The Suite may exist before the Guide series is included, and a Guide may be temporarily unusable without ending the Suite or other belonging occurrences. This claim establishes no parthood or holonhood; any such claim needs the complete A.1 test and its own part relation.
+
+One exact **DPF Suite Guide edition** is identified under `C.2.1` as:
 
 ```text
 <claim content = J_g, EntityOfConcern = G, effective ReferenceScheme = R_g>
 ```
 
-`G` is that exact guide edition. `J_g` states its intended readers and use, one exact suite-edition reference, selected problem-led entries, the exact resource and blocker claims those entries make, and only the source, warning, availability, and currentness claims that change those entries. `R_g` resolves the guide and suite editions, cited DPF products and editions, results, adjacent products, direct sources, and relation words used in the entries. A title, date, language tag, file, carrier, or publication occurrence cannot replace this identity.
+`G` is that Guide edition. `J_g` states its intended readers and use, the Suite collection, selected problem-led entries, the resource and blocker claims those entries make, and only the product-series or edition state, source, warning, availability, and currentness claims that change those entries. `R_g` resolves the Guide edition, Suite collection, cited product series and editions, results, adjacent products, direct sources, and relation words used in the entries.
 
-The guide line continues only when a later edition actually uses an earlier edition as its source and preserves the intended readers, practical use, content-selection rule, and maintenance boundary. A new suite edition normally calls for a guide refresh, but does not create a new guide product. A fork, translation, retargeting, or independent reconstruction is not an edition successor merely because it keeps the title.
-
-The guide product has its own capable maintaining System, accepted maintenance commitment, access, refresh route, and retirement boundary. Suite maintenance does not supply guide maintenance, and guide maintenance does not supply suite or member-DPF maintenance. Authorship, publication, a locator, or the word *maintained* establishes none of those commitments.
+The Guide product has its own capable maintaining System, accepted maintenance commitment, access, refresh route, and retirement boundary. Suite maintenance does not supply Guide maintenance, and Guide maintenance does not supply maintenance of the DPF product series that belong to the Suite. Authorship, publication, a locator, or the word *maintained* establishes none of those commitments.
 
 #### E.11.DSG:4.2 - Make the public minimum immediately useful
 
@@ -54,8 +59,8 @@ Show these guide-level facts where a reader can see them before choosing an entr
 - title and exact guide-edition locator;
 - fixed edition date, intended readers, and practical use;
 - actionable status or an honest non-current, superseded, or retired warning, together with its as-of basis;
-- exact suite-edition locator and a working return to its authoritative source; and
-- a table of contents that locates guide sections and member DPFs without implying order or stronger relations.
+- Suite-collection locator, working return to its identity and inclusion/removal account, and any product-series state that changes the answer; and
+- a table of contents that locates guide sections and DPFs whose product series belong to the Suite without implying order or stronger relations.
 
 The edition date says when this edition was constituted. It is not a changing currentness claim or the date of every publication occurrence. Show the author when attribution, trust, contact, reliance, or source return changes what the reader should do. A byline does not identify the guide maintainer, suite maintainer, publisher, or authority.
 
@@ -68,7 +73,7 @@ available maintained result, maintained MethodDescription, direct-source evidenc
 ordinary stop or return
 ```
 
-Add a member's state, field promise, detailed locator, applicability, evidence, availability, dependency, compatibility, warning, author, or claim-local reopen condition only when it changes the choice, truth, stop, return, or named reliance. Put a genuinely shared boundary once at guide or section level. Do not repeat empty fields, and do not copy `E.11.PFP`'s framework pattern-index grammar into this non-framework guide.
+Add a DPF product series' or edition's state, field promise, detailed locator, applicability, evidence, availability, dependency, compatibility, warning, author, or claim-local reopen condition only when it changes the choice, truth, stop, return, or named reliance. Put a genuinely shared boundary once at guide or section level. Do not repeat empty fields, and do not copy `E.11.PFP`'s framework pattern-index grammar into this non-framework guide.
 
 Frame each entry around a real working question and the decision or action the reader needs next. Let the route branch, overlap, or offer several honest stops when the situation does; do not force a false linear procedure. Keep the action-changing guidance in the entry and link to detailed reference material instead of repeating it. At guide level, state whose information need is served, how the guidance is presented and made available, and how it will be maintained; do not turn that information-development discipline into software-only scope or a mandatory documentation process.
 
@@ -84,21 +89,25 @@ Say directly what each returned item does. For an available maintained result, n
 
 Call an answer the **smallest sufficient combination** only when the guide entry gives a recoverable candidate boundary, required result, and sufficiency rule, and removing any returned item makes that result insufficient. The boundary is the resources actually inspected through the entry and its direct source returns, not every publication that might exist.
 
-When that test cannot be completed, return a bounded plausible combination and name the uncertainty or missing item. Do not disguise a convenient shortlist as a `JointUseSet`. Use `G.5` only when every exact returned resource is required for one named use and the current inclusion basis supports the all-member claim.
+When that test cannot be completed, return a bounded plausible combination and name the uncertainty or missing item. Do not disguise a convenient shortlist as a `JointUseSet`. Use `G.5` only when every named returned resource is required for one named use and the current inclusion basis supports that all-items-needed claim.
 
-#### E.11.DSG:4.5 - Return to the suite and source when products change
+#### E.11.DSG:4.5 - Return to the Suite collection and exact sources when products change
 
-The guide points to one exact suite edition; it does not decide or copy suite membership. Use the exposure chosen under `E.4:4.2`:
+The Guide identifies the Suite collection; it does not decide or copy which product series belong. Its public return names:
 
-- for an independently exposed suite edition, provide its working publication or access route;
-- for a guide projection, name the authoritative suite edition, captured membership and use, omissions or coarsening, as-of boundary, and working source return; or
-- for a combined carrier, identify every exact constituent and its form or route while keeping identities, editions, maintenance commitments, access, and currentness separate.
+- the Suite collection and a working route to its identity, inclusion, and removal decisions;
+- each product series that belongs to the Suite, and each edition, result, state, or direct source that changes the answer;
+- when reproducibility needs one, the exact optional configuration description, its as-of scope, and its source return.
 
-A copied member table or locator without a working source return is orientation only. When a member DPF publishes a new edition, keep product membership only if the product identity, accepted inclusion basis, and exact basis pins remain valid. Then refresh only the guide advice, availability, compatibility, or warnings that actually changed. If the new edition defeats that basis or leaves it unresolved, warn readers and return to `E.4:4.2` and the applicable `E.4.PFAD` decision to decide whether to constitute a new suite edition, remove or restore a member or the suite, or retire it; the guide does not decide that architecture question. Temporary unavailability alone does not change membership, but it may require an action-changing warning or currentness update. If the suite loses its maintainer or edition-recovery route, or would fall below two qualifying member products, present no current-suite answer. Warn, return to the last exact edition, and route the architecture question to restoration or retirement.
+A Guide projection states which belongs-to claims it captures, omits, or coarsens and the time or scope for which that account applies. It does not become the authoritative collection account. A combined carrier identifies each constituent and keeps identities, editions, maintenance commitments, access, and currentness separate. A copied product table or locator without a working source return is orientation only.
+
+When a DPF publishes a new edition, test separately whether that edition belongs to its product series. Then refresh only the Guide advice, availability, compatibility, warning, or source return that changed. A superseded or unavailable edition still belonged to its product series while that series continued. If a product series in the Suite no longer qualifies under the inclusion rule, show the warning and return to `E.4:4.2` and `E.4.PFAD` for repair, removal, Suite change, or retirement. Until that decision, do not present the product as qualifying, current for the defeated common use, or recommended on that basis. Belonging continues until an effective removal only while the same product series and Suite continue; restoration before removal preserves the occurrence, while removal followed by inclusion creates another. If the product series ends or its identity rule identifies another series, belonging to the old Suite ends without a prior removal. The new product series needs a new inclusion.
+
+An absent, unavailable, stale, or unneeded Guide does not erase the Suite, end current belongs-to occurrences, or prohibit direct use of a known DPF result. It does prohibit a claim that the Guide currently supplies the cross-DPF route. If the Guide loses its maintainer or source return, present its historical editions, warn readers, and use a direct DPF where the result is already known. If the Suite temporarily contains one product series or none under an explicit preservation decision, present no current cross-DPF answer; return to restoration, review, or retirement. When a Suite end or retirement decision takes effect, every current belongs-to occurrence ends without separate removals. Keep the past fact that each product belonged to that Suite, but require another constitution decision and new inclusions for any later active ecosystem.
 
 #### E.11.DSG:4.6 - Distinguish expression, derivative, edition, and product
 
-Another layout, carrier, rendering, or faithful expression of the same exact claims under the same scheme presents the same guide episteme. A translation or other derivative that changes claims or effective scheme is a distinct episteme with an exact source-to-use path under `C.2.P`; when meanings cross schemes, test the `F.9` Bridge and bounded use separately. It is not an edition successor from title or provenance alone.
+Another layout, carrier, rendering, or faithful expression of the same exact claims under the same scheme presents the same Guide episteme. A translation or other derivative that changes claims or effective scheme is a distinct episteme with an exact source-to-use path under `C.2.P`; when meanings cross schemes, test the `F.9` Bridge and bounded use separately. Title or provenance alone establishes no `EpistemeEditionRelation`.
 
 A language-specific derivative stays within the same guide product only while readers and use, access, maintenance, warnings, refresh, and retirement share one boundary. If a language community needs an independently useful state or an independent boundary for any of those concerns, select another guide product. A multi-suite comparison publication also has another product boundary.
 

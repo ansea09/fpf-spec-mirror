@@ -6,13 +6,14 @@ section_id: "E.11.DSG:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__013_relations.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.11.DSG — DPF Suite Guide"
   - "E.11.DSG:12 — Relations"
-line_start: 77097
-line_end: 77103
+line_start: 77225
+line_end: 77231
 dependencies:
+  - "A.14"
   - "C.2.1"
   - "C.2.P"
   - "E.11"
@@ -32,7 +33,7 @@ keywords:
 ### E.11.DSG:12 - Relations
 
 - **Specializes:** `E.11` for one maintained cross-DPF guide product; it does not specialize `E.11.PFP`.
-- **Uses:** `E.4:4.2` and `E.4.PFAD` for suite architecture and decisions; `C.2.1` for guide, suite, and persisted-answer epistemes and exact edition continuity; and `G.5` only for an actual `JointUseSet` result.
+- **Uses:** `E.4:4.2` and `E.4.PFAD` for product-series and Suite constitution, edition-to-product belonging, Suite inclusion and removal, and their decisions; `A.14` for the distinction between collection belonging and constructive parthood; `C.2.1` for Guide and DPF editions and their continuity; and `G.5` only for an actual `JointUseSet`.
 - **Coordinates with:** `E.4.PFR` for exact edition dependency and compatibility; `C.2.P` and `F.9` for derivatives and cross-scheme use; `E.17`, `E.24.PUB`, and `G.11` for source return, publication, availability, and currentness; `E.11.PUA` and `E.11.PUR` for actual selected-pattern use and pattern-use coordination.
-- **Constrains:** public DPF suite guide entries, guide-level metadata and warnings, source-return projections, persisted lookup answers, and lifecycle returns.
+- **Constrains:** public DPF suite guide entries, guide-level metadata and warnings, source-return projections, persisted lookup answers, and returns after inclusion, availability, identity, or retirement changes.
 

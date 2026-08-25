@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "B.1.1"
 pattern_title: "Dependency Structure and Relation Grounding"
-section_id: "B.1.1:6"
+section_id: "B.1.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__009_conformance-checklist.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
-  - "B.1.1:6 — Conformance Checklist"
-line_start: 34826
-line_end: 34836
+  - "B.1.1:7 — Conformance Checklist"
+line_start: 34891
+line_end: 34901
 dependencies:
   - "A.1"
   - "A.10"
@@ -30,7 +30,7 @@ dependencies:
 keywords:
 ---
 
-### B.1.1:6 - Conformance Checklist
+### B.1.1:7 - Conformance Checklist
 
 | Check | Requirement |
 | --- | --- |

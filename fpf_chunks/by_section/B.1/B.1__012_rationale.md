@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "B.1"
 pattern_title: "Holon Aggregation and Part-Whole Construction"
-section_id: "B.1:9"
+section_id: "B.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__012_rationale.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
-  - "B.1:9 — Rationale"
-line_start: 34647
-line_end: 34652
+  - "B.1:10 — Rationale"
+line_start: 34712
+line_end: 34717
 dependencies:
   - "A.1"
   - "A.14"
@@ -29,7 +29,7 @@ dependencies:
 keywords:
 ---
 
-### B.1:9 - Rationale
+### B.1:10 - Rationale
 
 The practical force of B.1 is conservative. Whole-level reasoning is useful, but it must be grounded in accepted part-whole relations, constructional discipline, and use of the applicable direct patterns. This lets FPF speak across physical systems, epistemes, work occurrences, bounded contexts, disciplines, and collections without growing a new type for every composed expression.
 

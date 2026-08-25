@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "B.1"
 pattern_title: "Holon Aggregation and Part-Whole Construction"
-section_id: "B.1:10"
+section_id: "B.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__013_sota-echoing.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
-  - "B.1:10 — SoTA-Echoing"
-line_start: 34653
-line_end: 34661
+  - "B.1:11 — SoTA-Echoing"
+line_start: 34718
+line_end: 34726
 dependencies:
   - "A.1"
   - "A.14"
@@ -29,7 +29,7 @@ dependencies:
 keywords:
 ---
 
-### B.1:10 - SoTA-Echoing
+### B.1:11 - SoTA-Echoing
 
 | Source family | Current lesson for B.1 | FPF decision |
 | --- | --- | --- |

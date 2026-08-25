@@ -6,12 +6,12 @@ section_id: "E.4:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__012_sota-echoing.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:11 — SoTA-Echoing"
-line_start: 67694
-line_end: 67706
+line_start: 67793
+line_end: 67821
 dependencies:
   - "C.33"
   - "C.34"
@@ -43,6 +43,22 @@ keywords:
 ---
 
 ### E.4:11 - SoTA-Echoing
+
+#### E.4:11.1 - Continuing product-series and Suite collections
+
+`A.14:14` gives the general constructional comparison. This branch applies only its product-ecosystem consequences.
+
+| Question | E.4 answer |
+| --- | --- |
+| Current source pressure | The BORO constructional turn and C-FORS distinguish set, sum, tuple, and assembly constructions; Core Constructional Ontology requires explicit constructors and identity choices; Fine's composition work keeps the operation prior to a derived part claim; Fine's social-group account shows how structured subjects may keep identity while participants change. BORO is the implemented-lineage comparator; the 2024–2025 constructional applications remain research comparators rather than demonstrated applied maturity. |
+| Adopt or adapt | Keep each product series and Suite as a continuing subject under its declared identity rule while editions or included product series change. State edition admission, edition-to-product belonging, product-series inclusion or removal, and Suite identity as separate conditions. A.14 supplies the general belongs-to and parthood boundary. |
+| Reject | Do not use one generic `MemberOf`, a qualified generic collection predicate, a fixed-extent identity, or automatic constructive parthood. Those shortcuts hide the different product and Suite conditions or make change of constituents decide identity by itself. |
+| Present result and reach | `E.4:4.2` uses the two ordinary belongs-to sentences and their separate constitution and decision rules. The present definitions leave `A.1` matters 3, 5, and 6 unsettled, so product series and Suite remain collections with holonhood undecided, not prohibited. A later direct part claim remains possible after a complete `A.1` result. `CC-E4.9` checks that this identity, change, decision, and history account remains recoverable. |
+| Comparable-effort trade-off | The ordinary sentences plus the existing `E.10` and `A.14` route are no worse for correctness or temporal history and are cheaper for a cold reader and maintainer than a qualified generic relation or immediate technical names. They do not provide one immediate cross-domain query key; name a narrower reusable relation through `F.18` only when repeated query, comparison, or declaration use justifies the extra vocabulary. |
+
+E.4 uses the currentness and reopen rule stated in `A.14:14`. A change to that A.14 source decision reopens only the affected product-series or Suite rule in `E.4:4.2` and `CC-E4.9`. An ordinary new edition, admission, inclusion or removal, qualification warning, availability change, or updated trace follows `E.4:4.2` and reopens the affected ecosystem claim; it does not by itself reopen this architecture.
+
+The broader ecosystem source account follows.
 
 | Claim | Exact source ref and status | Pattern locus changed | Adoption status |
 | --- | --- | --- | --- |

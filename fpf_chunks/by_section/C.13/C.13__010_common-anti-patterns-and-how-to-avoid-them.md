@@ -6,12 +6,12 @@ section_id: "C.13:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 45872
-line_end: 45881
+line_start: 45962
+line_end: 45971
 dependencies:
   - "A.1"
   - "A.14"
@@ -31,7 +31,7 @@ keywords:
 
 * **Constructor as public relation.** A `Γ_m` trace is shown as the relation the working reader should use. Keep the exact direct relation in ordinary prose and use the trace only for the construction account.
 * **Trace as cause.** A diagram, formula, parts list, or trace publication is said to create the assembly. Recover the actual inputs, obtaining relations, assembly, and identity rule.
-* **Member as component.** A `set` construction is used to infer integrated assembly structure. Keep collection membership distinct; use `sum` only after exact constructive part relations obtain.
+* **Item in a collection treated as a component.** A `set` construction is used to infer integrated assembly structure. Keep collection belonging distinct; use `sum` only after constructive part relations and assembly independently obtain.
 * **Same parts, same whole.** Two assemblies with the same component names are treated as one whole. Compare their obtaining relations, assembly rules, boundaries, and identity conditions.
 * **Temporal constructor drift.** A phase, schedule, or assembly order is modeled as a Compose-CAL constructor. Keep temporal and method claims in their own planes.
 * **Method or work shortcut.** Recipe steps, plan items, or WBS rows are called parts of an actual method or work occurrence. Use the direct method- or work-composition owner first.

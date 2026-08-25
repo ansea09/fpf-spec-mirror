@@ -6,13 +6,14 @@ section_id: "E.11.DSG:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__004_forces.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.11.DSG — DPF Suite Guide"
   - "E.11.DSG:3 — Forces"
-line_start: 76924
-line_end: 76935
+line_start: 77040
+line_end: 77051
 dependencies:
+  - "A.14"
   - "C.2.1"
   - "C.2.P"
   - "E.11"
@@ -34,8 +35,8 @@ keywords:
 | Force | Pressure on the solution |
 | --- | --- |
 | Fast first use | A reader needs an answer before a catalogue of internal distinctions. |
-| Exact return | The answer must still lead to the exact guide, suite, DPF, and source editions that support it. |
-| Independent products | Suite, guide, member DPFs, adjacent evidence products, and carriers change under different commitments. |
+| Exact return | The answer must still lead to the Suite collection, the product series or edition that changes the action, the Guide edition, and the direct source. |
+| Separate managed boundaries | The Suite collection, Guide product series, DPF product series that belong to the Suite, adjacent evidence products, and carriers have distinct identity, edition or state, and maintenance claims. |
 | Honest combination | Several resources may be necessary, alternatives, or merely plausible; the guide must not overstate the relation. |
 | Current action | Date, status, warning, availability, and source return matter only when they change what the reader should do. |
 | Low record burden | Ordinary lookup may remain conversation; addressable answers are justified only by later review, reuse, publication, or reliance. |

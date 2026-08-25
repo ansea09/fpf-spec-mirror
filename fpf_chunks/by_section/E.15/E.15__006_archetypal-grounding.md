@@ -6,12 +6,12 @@ section_id: "E.15:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__006_archetypal-grounding.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:5 — Archetypal Grounding"
-line_start: 77883
-line_end: 77906
+line_start: 78011
+line_end: 78034
 dependencies:
   - "C.18"
   - "C.19"

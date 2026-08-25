@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "B.1.1"
 pattern_title: "Dependency Structure and Relation Grounding"
-section_id: "B.1.1:10"
+section_id: "B.1.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__013_sota-echoing.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
-  - "B.1.1:10 — SoTA-Echoing"
-line_start: 34868
-line_end: 34876
+  - "B.1.1:11 — SoTA-Echoing"
+line_start: 34933
+line_end: 34941
 dependencies:
   - "A.1"
   - "A.10"
@@ -30,12 +30,12 @@ dependencies:
 keywords:
 ---
 
-### B.1.1:10 - SoTA-Echoing
+### B.1.1:11 - SoTA-Echoing
 
 | Source line | Practical implication for this pattern |
 | --- | --- |
 | Systems engineering dependency modeling | Dependency views are useful only when edge meaning is declared and traceable to the current engineering concern. |
 | Graph theory and mathematical-lens practice | A graph property applies to the graph expression; it bears on the object only through an admitted mapping to the selected relation. |
-| Applied ontology relation discipline | Part-whole, membership, representation, evidence, source-use, and influence relations have different admissibility conditions. |
+| Applied ontology relation discipline | Part-whole, collection-specific belonging, representation, evidence, source-use, and influence relations have different admissibility conditions. |
 | FPF design-description and run-occurrence distinction | A design dependency expression and a performed-Work occurrence use separate patterns and evidence. |
 

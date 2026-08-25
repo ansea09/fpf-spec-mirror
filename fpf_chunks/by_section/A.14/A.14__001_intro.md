@@ -6,7 +6,7 @@ section_id: "A.14:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__001_intro.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:intro — Intro"
@@ -16,37 +16,53 @@ dependencies:
   - "A.1"
   - "A.15"
   - "A.15.1"
+  - "A.19"
   - "A.2"
   - "A.2.1"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
+  - "A.6.5"
   - "A.7"
   - "B.1"
   - "B.1.1"
   - "B.2"
   - "B.3.5"
   - "C.13"
+  - "C.16"
+  - "C.27.TA"
+  - "C.29"
+  - "C.3"
+  - "E.17"
+  - "E.17.0"
+  - "E.17.1"
 keywords:
+  - "AspectOf"
   - "ComponentOf"
+  - "ConstituentOf"
   - "PhaseOf"
   - "PortionOf"
-  - "composition"
-  - "mereology"
-  - "part-of"
+  - "aspect"
+  - "belongs to"
+  - "component"
+  - "constituent"
+  - "member"
+  - "part"
+  - "phase"
+  - "portion"
 ---
 
 ## A.14 - Advanced Mereology: Components, Portions, Aspects & Phases
 > **Type:** Kernel mereology and part-whole relation discipline pattern
 > **Status:** Stable
 
-**At a glance.** Use A.14 when a part-whole claim must distinguish component, member, portion, aspect, or phase before downstream architecture, work, assurance, or U-kind admission relies on that claim.
+**At a glance.** Use A.14 when wording such as *part*, *member*, *portion*, *aspect*, or *phase* could hide different claims. Recover whether the subject is a constructive part, belongs to a collection, is an amount of the same stuff, is one aspect, or is the same carrier during a proper time interval before downstream architecture, Work, assurance, or U-kind admission relies on it.
 
-**Use this when.** Use this pattern when a text says that something is part of something else, a collection member, some amount of the same stuff, an aspect of one holon, or the same holon during a time interval, and a wrong relation kind would change identity, aggregation, responsibility, evidence, or structural grounding.
+**Use this when.** Use this pattern when a text says that something is part of something else, belongs to a collection, is some amount of the same stuff, is an aspect of one holon, or is the same holon during a time interval, and choosing the wrong relation would change identity, aggregation, responsibility, evidence, or structural grounding.
 
 **What goes wrong if missed.** Teams count members as components, portions as components, aspects as separate wholes, or phases as separate objects; constructive traces and Working-Model relation claims then ground the wrong EntityOfConcern.
 
-**What this buys.** One human-facing mereology catalogue that lets B.3.5 and C.13 ground structural claims without inventing a new public relation vocabulary.
+**What this buys.** One human-facing relation catalogue that keeps constructive components and constituents, measured portions, bearer-dependent aspects, proper temporal phases, and collection belonging under each collection's own rule distinct without inventing a catch-all *aspect* or *member* vocabulary.
 
-**Not this pattern when.** Not this pattern when the current question is only a constructive trace (`C.13`), Working-Model assurance grounding (`B.3.5`), meta-holon transition (`B.2`), temporal dynamics without a phase-of claim, or a general U-kind admission question (`E.24.UK`).
+**Not this pattern when.** Not this pattern when the current question is only a selected Characteristic (`C.16`/`A.19`), viewpoint or view (`E.17.0`/`E.17.1`), representation or projection (`C.29` or its direct projection pattern), temporal claim without a `PhaseOf` relation (`C.27.TA`), constructive trace (`C.13`), Working-Model assurance grounding (`B.3.5`), meta-holon transition (`B.2`), or general U-kind admission (`E.24.UK`).
 

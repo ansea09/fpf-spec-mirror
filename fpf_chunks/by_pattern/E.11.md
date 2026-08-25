@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
-line_start: 75349
-line_end: 75850
+line_start: 75465
+line_end: 75966
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -90,7 +90,7 @@ The framework Readme is the single editable public entry set. If another publica
 
 Use `E.11.PFP` when one public FPF, DPF, or LPF edition needs the shared reader-facing publication form: a compact product-declared opening, separate exact title and Readme H1, Readme and Preface represented in the product's established ToC grammar before one logical pattern index, Readme entry fields, a front-only development-metadata boundary, language boundary, and deterministic source-hazard plus rendered-structure checks. E.11 still tells the reader how to state the practical question, obtain a first useful result, follow the direct-pattern route, and stop or return. Do not copy the form grammar here or treat a form-valid carrier as a usable framework.
 
-Use `E.11.DSG` when the reader may need results from several independently maintained DPFs or cannot yet tell which DPF applies. Start with the recognizable cross-DPF situation and a short answer that separately names an available maintained result of its actual kind and supplying product, a maintained MethodDescription reference, direct-source evidence, or a named unavailable result with its blocker and retry. `E.11.DSG` carries the full guide form, exact suite-edition return, lifecycle warnings, and optional persisted-answer detail. It is a non-framework guide specialization, so do not apply `E.11.PFP` to it.
+Use `E.11.DSG` when the reader may need results from several independently maintained DPFs, cannot yet tell which DPF applies, needs Suite-wide commonality or relations, or needs an honest ecosystem gap. Start with the recognizable situation and four truthful return classes. The specialization returns to the Suite collection and each product series, edition, result, state, or source that changes the answer; it uses an optional configuration description only when needed. When one DPF result is already known, use that DPF directly. An absent, unavailable, stale, or unneeded Guide neither erases the Suite nor blocks direct DPF use, but it cannot supply a current cross-DPF route. `E.11.DSG` is a non-framework Guide specialization; do not apply `E.11.PFP` to it.
 
 Pattern count is only a diagnostic. A one-pattern edition asks whether the result is instead a seed, candidate, or contribution to an existing framework; a larger count still does not establish a pattern language. Use `E.4` and `E.4.PFAD` to decide framework architecture, `E.4.DPF.DA` or `E.2.DA` for the applicable package or whole-FPF adequacy, and `E.21` for pattern quality.
 
@@ -181,7 +181,7 @@ Apply the same compact route shape each time: recognizable situation; practical 
 - **Problem-side material may describe a concern without identifying an actual Problem.** Open `C.22.PFR` only when the claim may concern one obtaining `ProblematicForRelation`: an exact actual-condition occurrence and exact problem-criterion-applicability occurrence whose selected input is actually adverse. Keep that occurrence distinct from the predicate, applicability occurrence, assessment or evaluation, assertion and reliance, `ProblemCard`, forecast or modal concern, and current-solvability or continuation claim. The smallest result is an ordinary actual-problem sentence naming condition and value, criterion, entity and use, and applicability window, or an honest non-PFR classification or blocker when the condition, applicability, adverse input, or required PFR rule is missing. Stop as soon as the later use can distinguish actuality from problem-side claim material. Use `C.22.2` when the useful object is a reviewable problem-side card or formulation rather than the world-side relation. One `ProblemCard` may describe no actual PFR; selecting or discovering a method changes only the current solvability or continuation claim, not PFR participants, obtaining, identity, or the adverse condition.
 
 #### E.11:4.2 - Public helper epistemes
-These helper epistemes are optional authoring or named-reliance support. Do not open them when the short public entry and direct pattern already make the result and boundary truthful. A pattern reference locates the exact FPF pattern episteme whose content is needed; it asserts `U.MethodDescription` membership only when A.3.2 establishes that membership and the current use depends on it.
+These helper epistemes are optional authoring or named-reliance support. Do not open them when the short public entry and direct pattern already make the result and boundary truthful. A pattern reference locates the FPF pattern episteme whose content is needed; classify it as a `U.MethodDescription` only when the A.3.2 criterion passes and the current use depends on that classification.
 
 ```text
 PublicPracticalUseQuestion@FPFReadme <: U.Episteme:
@@ -478,7 +478,7 @@ Suppose a compact row combines “architecture and diagrams”, evidence, dashbo
 | `E11-10` | Thin projection and direct authority | ToC pattern rows expose the framework's declared retrieval fields, including a recognizable working-question cue, without copying a first move, result, or boundary mini-method. `E.11.PFP` defines the exact index fields and form grammar. ToC, query phrases, cards, and retrieval remain finding aids; a substantive claim returns to the direct pattern whose content defines, constrains, or tests it. |
 | `E11-11` | Grounded public range | Every benefit claim names a concrete need, imaginable result or blocker, and choice-changing pattern distinction; wording repair does not crowd out architecture, work, problem shaping, comparison, evidence, time, causal use, mathematics, quality, improvement, or framework authoring. |
 | `E11-12` | Smallest change reach | When a direct result or boundary changes, repair the smallest affected entry plus determinate README, Preface, ToC, example, relation, and true-consumer wording; unrelated publication units remain unchanged. |
-| `E11-13` | Cross-DPF guide route | A several-DPF or unclear-DPF situation routes to `E.11.DSG` and exposes, before detail, an available maintained result of its actual kind and supplying product, a maintained MethodDescription reference, direct-source evidence, or a named unavailable result with blocker and retry. It does not treat the guide as a framework edition, as deciding the suite, as lookup Work, or as a stronger relation. |
+| `E11-13` | Cross-DPF Guide route and bypass | A several-DPF, unclear-DPF, Suite-wide, or ecosystem-gap situation routes to a current `E.11.DSG` Guide; a known sufficient DPF result routes directly to that DPF. The Guide returns to the Suite collection and the product series, editions, results, states, or sources that change the answer. It neither decides whether a product series belongs to the Suite, performs lookup Work, nor requires a Suite edition. |
 
 ### E.11:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -513,7 +513,7 @@ Public guidance remains weaker than the direct pattern. It helps a reader choose
 | Information-foraging and information-scent practice | Put recognizable situation and expected information gain before internal navigation structure. | Adopt through situation-first cards and first-result differences. Do not infer ontology or a fixed shortlist size. |
 | Jin, Bai, and Oulasvirta, *Modeling Trial-and-Error Navigation With a Sequential Decision Model of Information Scent*, arXiv:2603.11759 (2026) | Treat inspection, premature selection, wrong turns, and backtracking as a bounded sequence under memory and time constraints. | Adapt through explicit stop, wrong-turn, and return boundaries. Materialize history only for named reliance; the preprint does not establish a universal discovery record. |
 | Zhu, Reinecke, and Mitra, *Language Scent: Exploring Cross-Language Information Navigation*, arXiv:2604.03604 (2026) | Keep contextual cues near the value being named while preserving the intended target behind a reader-facing expression. | Adapt to public cue and expansion design. The small study does not establish universal label equivalence or decide FPF ontology. |
-| Current FPF `E.8:4.1.3`, `E.11.DSG`, E.17, F.17, F.18, and E.11.PUA | Separate public recognition, publication, naming, and project pattern use; for a cross-DPF question, distinguish an available maintained result, a maintained MethodDescription, direct-source evidence, and a named unavailable result. | In the `E.11:4` route and `E11-13`, **adopt** those four readable returns before detail. **Reject** a universal resource kind, source availability as proof that a result exists, a public entry that decides suite architecture, and a guide that performs lookup Work. Reopen this choice if `E.8:4.1.3` or `E.11.DSG` changes what a truthful entry can return. E.11 still defines only public guidance plus reliance-conditioned comparison. |
+| Current FPF `E.8:4.1.3`, `E.11.DSG`, E.17, F.17, F.18, and E.11.PUA | Separate public recognition, publication, naming, and project pattern use; for a cross-DPF question, distinguish the four truthful return classes and return to the Suite collection plus the product series, editions, results, states, or sources that change the answer. | Adopt those returns and the direct-known-DPF bypass. Reject a universal resource kind, Suite-edition identity, source availability as proof of a result, a public entry that decides whether a product belongs to a Suite, and a Guide that performs lookup Work. Reopen this choice if `E.8:4.1.3` or `E.11.DSG` changes what a truthful entry can return. E.11 still defines public guidance and reliance-conditioned comparison, not the direct result. |
 
 The practitioner implication is concrete: inspect a small plausible set, compare the first useful result or honest blocker each direct pattern can offer, and open exact identity or basis questions only when they change the choice or a named later reliance. Keep durable comparison history only when someone will use it.
 
@@ -525,7 +525,7 @@ The two 2026 studies are current preprint anchors rather than settled consensus.
 
 - **Builds on:** `E.8` for pattern recognition text, `E.17.AUD` for publication-unit discipline, `F.17` and `F.18` for published terms and naming, and `C.2.1` for public helper epistemes.
 - **Leads to:** `E.11.PUA` for applying one selected pattern and `E.11.PUR` for local applicability, recommendation, and coordination.
-- **Coordinates with:** `A.22.CGUS` for demonstrative slices, `E.18` for flow-local results, `G.11` for currentness orchestration, `E.11.DSG` for a separately maintained DPF suite guide and cross-DPF entry, and each direct pattern cited by a public template.
+- **Coordinates with:** `A.22.CGUS` for demonstrative slices, `E.18` for flow-local results, `G.11` for currentness orchestration, `E.11.DSG` for cross-DPF entry, direct-known-DPF bypass, and return to the Suite collection and the product series, editions, results, states, or sources that change the answer, and each direct pattern cited by a public template.
 
 ### E.11:End
 

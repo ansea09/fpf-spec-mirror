@@ -6,12 +6,12 @@ section_id: "C.13:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__011_consequences.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:8 — Consequences"
-line_start: 45882
-line_end: 45900
+line_start: 45972
+line_end: 45990
 dependencies:
   - "A.1"
   - "A.14"
@@ -33,7 +33,7 @@ keywords:
 
 - **Inspectable construction.** A practitioner can recover which exact inputs, relations, and rule support one assembly, collection, or aspect.
 - **Identity clarity.** The account distinguishes the input list from the assembly and keeps whole reidentification with the direct identity rule.
-- **Human-first use.** Ordinary ComponentOf, MemberOf, and AspectOf claims remain readable; notation is optional shorthand for a named construction use.
+- **Human-first use.** Ordinary ComponentOf, belongs-to, and AspectOf sentences remain readable; notation is optional shorthand for a named construction use.
 - **Plane separation.** Order, time, evidence, representation, kind admission, and receiving reliance keep their direct owners.
 - **Cross-domain reuse.** The same three forms can describe system, episteme, method, work, discipline, collection, and aspect cases without claiming one universal part relation.
 - **Truthful stops.** Missing direct part or transformation-composition governors remain visible instead of being hidden by a trace.

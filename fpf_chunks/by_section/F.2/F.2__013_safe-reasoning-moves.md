@@ -6,12 +6,12 @@ section_id: "F.2:12"
 section_title: "Safe reasoning moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__013_safe-reasoning-moves.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:12 — Safe reasoning moves"
-line_start: 90137
-line_end: 90147
+line_start: 90265
+line_end: 90275
 dependencies:
   - "A.11"
   - "A.7"

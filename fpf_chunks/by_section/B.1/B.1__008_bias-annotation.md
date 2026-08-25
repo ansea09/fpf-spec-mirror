@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "B.1"
 pattern_title: "Holon Aggregation and Part-Whole Construction"
-section_id: "B.1:5.1"
+section_id: "B.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__008_bias-annotation.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
-  - "B.1:5.1 — Bias-Annotation"
-line_start: 34600
-line_end: 34608
+  - "B.1:6 — Bias-Annotation"
+line_start: 34665
+line_end: 34673
 dependencies:
   - "A.1"
   - "A.14"
@@ -29,12 +29,12 @@ dependencies:
 keywords:
 ---
 
-### B.1:5.1 - Bias-Annotation
+### B.1:6 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
 | Apparatus as ontology | Graph, algebra, tuple, matrix, embedding, or Gamma notation decides the object kind by spelling. | Recover the holon, relation, selected structure, and mathematical-lens use separately. |
 | Decomposition as parthood | Source “role” factors, method steps, phases, or work episodes are treated as holonic parts by label. | Use `E.10.ROLE` when the role wording is unresolved, then the direct pattern for the recovered relation; use the Method, temporal, Work, or part-whole pattern for the other claims. |
-| Collection as acting whole | A set, list, batch, fleet, or community receives agency or responsibility by plural naming. | Recover collection grounding or an actual admitted collective System under A.1. State responsibility separately through its direct domain predicate, actual participants, applicability, and occurrence identity, or return the exact missing governor. |
+| Collection as acting whole | A set, list, batch, fleet, or community receives agency or responsibility by plural naming. | Recover who or what belongs under the collection's own rule and the collection account, or admit the actual collective System under A.1. State responsibility separately by naming its predicate, participants, applicability, and occurrence identity; if no pattern or rule defines the needed claim, return that gap. |
 | Emergence rhetoric | "More than the sum" replaces existing-whole explanation. | Test measurement, architecture, role, method, work, and evidence explanations before B.2 whole reidentification. |
 

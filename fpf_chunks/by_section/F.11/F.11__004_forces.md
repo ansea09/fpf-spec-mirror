@@ -6,12 +6,12 @@ section_id: "F.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__004_forces.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:3 — Forces"
-line_start: 93225
-line_end: 93233
+line_start: 93353
+line_end: 93361
 dependencies:
   - "A.15"
   - "A.15.1"

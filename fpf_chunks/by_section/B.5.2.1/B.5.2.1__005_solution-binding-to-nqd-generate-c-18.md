@@ -6,12 +6,12 @@ section_id: "B.5.2.1:4"
 section_title: "Solution — Binding to Γ_nqd.generate (C.18)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__005_solution-binding-to-nqd-generate-c-18.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:4 — Solution — Binding to Γ_nqd.generate (C.18)"
-line_start: 39673
-line_end: 39694
+line_start: 39763
+line_end: 39784
 dependencies:
   - "A.17"
   - "A.18"

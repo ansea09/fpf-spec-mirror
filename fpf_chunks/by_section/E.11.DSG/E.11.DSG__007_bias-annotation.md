@@ -6,13 +6,14 @@ section_id: "E.11.DSG:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__007_bias-annotation.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.11.DSG — DPF Suite Guide"
   - "E.11.DSG:6 — Bias-Annotation"
-line_start: 77036
-line_end: 77042
+line_start: 77164
+line_end: 77170
 dependencies:
+  - "A.14"
   - "C.2.1"
   - "C.2.P"
   - "E.11"
@@ -31,7 +32,7 @@ keywords:
 
 ### E.11.DSG:6 - Bias-Annotation
 
-- **Catalogue bias.** A longer member list looks more complete. Judge the entry by whether it returns the right contributions or blocker for the current question.
+- **Catalogue bias.** A longer list of included DPF product series looks more complete. Judge the entry by whether it returns the right contributions or blocker for the current question.
 - **Combination bias.** Co-use looks like dependency or compatibility. State those relations only after their exact edition-level predicates pass.
 - **Freshness-display bias.** A current-looking page or recent date looks maintained. Require the direct maintenance, source-return, status, and currentness facts.
 - **Precision-display bias.** Repeated fields and formal identities look safer. Keep the ordinary answer first and add only detail that changes truth or action.

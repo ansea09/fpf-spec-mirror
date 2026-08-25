@@ -6,11 +6,11 @@ section_id: "A.7:9"
 section_title: "Anti‑patterns (with fixes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__011_anti-patterns-with-fixes.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:9 — Anti‑patterns (with fixes)"
-line_start: 21212
+line_start: 21213
 line_end: 21255
 dependencies:
   - "A.1"
@@ -53,9 +53,8 @@ keywords:
 4. **Operator blur** — using one “process operator” for everything.
    **Fix:** Choose among **Γ\_method**, **Γ\_time**, **Γ\_work**, **Γ\_sys**.
 
-5. **Set‑as‑collective** — a MemberOf set “decides”.
-   **Fix:** Model a **collective system** with coordination Method.
-
+5. **Formal set, world-side collection, and collective collapse** — mathematical inclusion or collection belonging is used to make a grouping act or to infer constructive parthood.
+   **Fix:** Keep formal inclusion with its mathematical or representation rule; state world-side belonging under the collection's own rule; require all six `A.1` matters for a collective System; state any constructive part relation separately.
 6. **Evidence without carrier references** — citing ideas without carriers.
    **Fix:** Add A.10 carrier/source-currentness refs and tie claims to evidence or source relations.
 

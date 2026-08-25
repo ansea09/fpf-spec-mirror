@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "B.1.1"
 pattern_title: "Dependency Structure and Relation Grounding"
-section_id: "B.1.1:7"
+section_id: "B.1.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
-  - "B.1.1:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 34837
-line_end: 34846
+  - "B.1.1:8 — Common Anti-Patterns and How to Avoid Them"
+line_start: 34902
+line_end: 34911
 dependencies:
   - "A.1"
   - "A.10"
@@ -30,7 +30,7 @@ dependencies:
 keywords:
 ---
 
-### B.1.1:7 - Common Anti-Patterns and How to Avoid Them
+### B.1.1:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |

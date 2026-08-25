@@ -6,12 +6,12 @@ section_id: "B.3:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__009_conformance-checklist.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:7 — Conformance checklist"
-line_start: 37927
-line_end: 37943
+line_start: 37992
+line_end: 38008
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "B.1.1"
 pattern_title: "Dependency Structure and Relation Grounding"
-section_id: "B.1.1:5.1"
+section_id: "B.1.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__008_bias-annotation.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
-  - "B.1.1:5.1 — Bias-Annotation"
-line_start: 34817
-line_end: 34825
+  - "B.1.1:6 — Bias-Annotation"
+line_start: 34882
+line_end: 34890
 dependencies:
   - "A.1"
   - "A.10"
@@ -30,7 +30,7 @@ dependencies:
 keywords:
 ---
 
-### B.1.1:5.1 - Bias-Annotation
+### B.1.1:6 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |

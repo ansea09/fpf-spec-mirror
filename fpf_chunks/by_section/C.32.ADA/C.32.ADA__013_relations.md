@@ -6,12 +6,12 @@ section_id: "C.32.ADA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__013_relations.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:12 — Relations"
-line_start: 64722
-line_end: 64732
+line_start: 64814
+line_end: 64824
 dependencies:
   - "A.1.1"
   - "A.10"

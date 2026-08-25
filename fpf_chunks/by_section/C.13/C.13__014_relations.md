@@ -6,12 +6,12 @@ section_id: "C.13:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__014_relations.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:10 — Relations"
-line_start: 45923
-line_end: 45953
+line_start: 46015
+line_end: 46045
 dependencies:
   - "A.1"
   - "A.14"
@@ -31,7 +31,7 @@ keywords:
 
 **Builds on**
 
-- **A.14 and direct part-relation patterns.** They govern participant meanings, obtaining, recurrence, and occurrence identity for component, member, aspect, portion, constituent, and other part relations.
+- **A.14 and the patterns for each relation.** They define and test the participants, conditions, recurrence, and occurrence identity for component, collection-specific belongs-to, aspect, portion, constituent, and other constructive relations.
 - **C.2.1.** It governs the identity of a materialized construction-trace episteme.
 
 **Coordinates with**

@@ -6,12 +6,12 @@ section_id: "C.13:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__004_problem.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:2.1 — Problem"
-line_start: 45737
-line_end: 45740
+line_start: 45827
+line_end: 45830
 dependencies:
   - "A.1"
   - "A.14"
@@ -29,5 +29,5 @@ keywords:
 
 ### C.13:2.1 - Problem
 
-A bare list of `ComponentOf`, `MemberOf`, or `AspectOf` claims does not say which assembly, collection rule, or facet makes them one construction. But a bare `sum`, `set`, or `slice` expression is no better: the same constituents can participate in different assemblies, a collection need not be an integrated holon, and an arbitrary facet label does not establish an aspect. The construction account must therefore name exact world-side facts and preserve the candidate's direct identity or reidentification rule.
+A bare list of `ComponentOf`, collection-specific belongs-to, or `AspectOf` claims does not say which assembly, collection rule, or facet makes them one construction. But a bare `sum`, `set`, or `slice` expression is no better: the same constituents can participate in different assemblies, a collection need not be an integrated holon, and an arbitrary facet label does not establish an aspect. The construction account must therefore name world-side facts and preserve the candidate's direct identity or reidentification rule.
 

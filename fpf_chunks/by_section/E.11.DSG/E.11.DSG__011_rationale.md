@@ -6,13 +6,14 @@ section_id: "E.11.DSG:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__011_rationale.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.11.DSG — DPF Suite Guide"
   - "E.11.DSG:10 — Rationale"
-line_start: 77077
-line_end: 77082
+line_start: 77205
+line_end: 77210
 dependencies:
+  - "A.14"
   - "C.2.1"
   - "C.2.P"
   - "E.11"
@@ -31,7 +32,7 @@ keywords:
 
 ### E.11.DSG:10 - Rationale
 
-A suite answers which independently maintained DPF products belong together for one use. A guide answers how a reader starts from a situation and uses exact resources. Keeping those products separate permits one guide to be repaired, translated, warned, or retired without rewriting suite membership, and permits a suite edition to change without pretending the old guide stayed current.
+A Suite is a continuing collection of DPF product series and, once included, its Guide product series. The Guide answers how a reader starts when selection or a cross-DPF question is live. Keeping the Suite collection, Guide belonging, Guide availability, and Guide use separate permits direct use of a known DPF result and permits Guide repair or retirement without rewriting Suite identity.
 
 Progressive detail is not imprecision. The ordinary sentence carries the useful distinction first; exact episteme identity, edition continuity, source use, and stronger relation predicates remain available when they change the claim.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.18.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
-line_start: 96014
-line_end: 96870
+line_start: 96142
+line_end: 97000
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -632,6 +632,8 @@ Before naming a relation-facing object, keep these settlements distinct:
 One token may be reused only where the reference scheme and local sense preserve these distinctions; it cannot collapse definition, kind, occurrence, representation, and designator into one object.
 
 `F.18` can settle a durable name for the recovered value. It does not decide which value the interface word names, create a public row, or make that row available.
+
+Words such as *member*, *membership*, *belongs to*, and *in* do not by themselves identify one reusable relation. First use `E.10` to recover whether the sentence concerns mathematical inclusion, kind classification, relation participation, collection belonging, or constructive parthood. For a collection, an ordinary sentence such as “this edition belongs to this product series” is enough unless another use needs a reusable relation name. Name a reusable predicate only under the pattern that states who or what may belong, what makes belonging begin and end, and how recurrence and past belonging are handled. Do not create a `NameCard` or public name for generic `MemberOf` merely to abbreviate the ordinary sentence.
 
 ### F.18:6 - What Belongs In The Label
 

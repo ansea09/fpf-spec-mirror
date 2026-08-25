@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
-line_start: 67991
-line_end: 68045
+line_start: 68106
+line_end: 68160
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -54,7 +54,7 @@ Ask whether choosing a framework, a maintained non-framework product, a thinner 
 - initial pattern placement or a material relation among those patterns that changes the architecture;
 - the direct subjects and maintenance boundary for a continuing programme, an admitted service, or a separate editioned result when later work must maintain or use them;
 - a publication or access consequence; or
-- for a proposed DPF suite, the bounded common use, inclusion rule over managed DPF edition series, minimum of two members, continuity choice, maintenance and edition-recovery boundary, exposure choice, or a separate guide-maintenance boundary.
+- for a proposed DPF Suite, the ecosystem use, which product series may belong, constitution, inclusion and removal rules, identity through change, maintenance and source-return conditions, exposure choice, and any separate Guide-product decision.
 
 If no such boundary and receiving use are present, close the exploratory use without `E.4.PFAD` or an `E.9` DRR. If they are present, decision Work selects a framework, maintained non-framework product, thinner route, existing-framework contribution, or stop and one `E.9` DRR records that answer. The cheap exit and the architecture decision are alternative entry outcomes, not serial stages.
 
@@ -73,7 +73,7 @@ When the architecture question is open, the framework-specific part of the DRR s
 7. the sources to revisit for each important claim, whether the evidence supports, suggests, or only motivates it, the limits of that evidence, and the publication or access consequence; and
 8. material alternatives, accepted costs or losses, practical consequences, the first authoring action or stop, and the reopen condition.
 
-For a DPF suite answer, the same DRR selects the bounded common use, inclusion rule over managed DPF edition series, minimum of two members, continuity choice, alternatives, practical consequence, and reopen condition. If the result is to be presented as a current maintained suite, it also identifies the capable suite-maintaining System and its accepted commitment, the working route to each suite edition presented as current, the refresh response and what happens if that boundary is lost, and one exposure choice: independent suite route, bounded guide projection with source return, or neutral combined carrier. Keep the guide's maintaining System and commitment separate. A proposed result use or future constraint is not an obtaining dependency or compatibility relation; apply `E.4.PFR` only after both exact editions and the required case facts exist.
+For a DPF Suite answer, an architecture decision takes effect to constitute the continuing collection. It selects the ecosystem use, which product series may belong, inclusion and removal rules, identity through change, alternatives, practical consequences, and the reopen condition. The same `E.9` DRR records that answer. A current maintained-Suite claim also identifies the capable maintaining System and its accepted commitment, the working source return for product series and any product-series state presented as current, the refresh response, and one exposure choice: an independent Suite route, a bounded Guide projection with source return, or a neutral combined carrier. Guide constitution, inclusion, maintenance, and refresh remain separate decisions and claims. A proposed result use or future constraint is not an obtaining dependency or compatibility relation; apply `E.4.PFR` only after the edition-level case facts exist.
 
 For an existing-framework contribution, maintained non-framework product, thinner route, or stop, state only the parts needed to explain that outcome and the later-used boundary. A selected maintained product still names its direct subjects and the relations used; a proposed boundary with an unresolved kind says so. Do not fabricate a field assessment or package merely to fill the list.
 

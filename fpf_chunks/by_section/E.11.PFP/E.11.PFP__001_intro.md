@@ -6,12 +6,12 @@ section_id: "E.11.PFP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__001_intro.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:intro — Intro"
-line_start: 76686
-line_end: 76691
+line_start: 76802
+line_end: 76807
 dependencies:
   - "E.11"
   - "E.17"

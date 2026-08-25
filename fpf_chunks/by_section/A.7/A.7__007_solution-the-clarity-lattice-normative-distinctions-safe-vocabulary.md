@@ -6,12 +6,12 @@ section_id: "A.7:5"
 section_title: "Solution — The Clarity Lattice (normative distinctions & safe vocabulary)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__007_solution-the-clarity-lattice-normative-distinctions-safe-vocabulary.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:5 — Solution — The Clarity Lattice (normative distinctions & safe vocabulary)"
 line_start: 21017
-line_end: 21157
+line_end: 21158
 dependencies:
   - "A.1"
   - "A.10"
@@ -96,19 +96,20 @@ Safe rewrite for earlier "Holonic Duality (Substance vs Function)": **Holonic Du
 
 **Normative guard:** When you say “we updated the spec”, detail **which carriers** changed (A.10).
 
-#### A.7:5.6 - Collective vs Set, and MemberOf vs Component/Constituent/Portion/Phase (A.14)
+#### A.7:5.6 - Formal inclusion, world-side collection, and collective System
 
-* **Set / Collection (MemberOf)** — **mathematical or catalog** grouping; **no joint behaviour** implied.
-* **Collective System** — a **system** with boundary and coordination Method (e.g., a team).
-* **Use relations correctly:**
+- **Mathematical or representation inclusion** — say that an element is in a set, a value fills a tuple place, or a value lies in a coordinate domain under the applicable mathematical statement. Use `C.29`, with `A.19` when a characteristic scale or coordinate is current. No world-side belongs-to relation follows.
+- **World-side collection** — identify the collection and use its subject-specific belongs-to rule. That rule says who or what may belong, when belonging begins and ends, whether it may recur, and how past belonging is stated. Belonging alone establishes neither parthood nor holonhood, but it does not prohibit a separately grounded constructive part relation.
+- **Collective System** — treat a team or other grouping as an acting System only after the candidate passes all six `A.1` matters. A list, formal set, catalogue, or belongs-to statement does not establish that result.
+- **Use the direct relation for every stronger claim:**
 
-  * **ComponentOf** — mechanical/structural part in systems.
-  * **ConstituentOf** — logical/content part in epistemes.
-  * **PortionOf** — quantitative portion with conserved extensives.
-  * **PhaseOf** — temporal part/state across a continuous identity.
-  * **System-role assignment** — a **system or acting holon** is the `HolderSystemSlot` value in one obtaining occurrence of a directly admitted `U.SystemRoleAssignment` species.
+  - **ComponentOf** — mechanical or structural part in systems.
+  - **ConstituentOf** — logical or content part in epistemes.
+  - **PortionOf** — quantitative portion with conserved extensives.
+  - **PhaseOf** — temporal part of the same carrier over a proper interval.
+  - **System-role assignment** — a System is the `HolderSystemSlot` value in one obtaining occurrence of a directly admitted `U.SystemRoleAssignment` species.
 
-**Normative guard:** If a grouping is claimed to act, it must be recoverable as a collective System, not merely a set. Add a local system-role kind, assignment, Method, and Work only when each corresponding stronger claim is current.
+**Normative guard:** Formal inclusion establishes no world-side belonging. Collection belonging establishes neither constructive parthood nor holonhood and does not make either impossible. If a grouping is claimed to act, test it against all six `A.1` matters. Add a local system-role kind, assignment, Method, Work, or constructive part relation only when that separate claim obtains.
 
 #### A.7:5.7 - Operator alignment (required names)
 

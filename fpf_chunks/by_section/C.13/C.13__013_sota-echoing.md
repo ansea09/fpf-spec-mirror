@@ -6,12 +6,12 @@ section_id: "C.13:9.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__013_sota-echoing.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:9.1 — SoTA-Echoing"
-line_start: 45917
-line_end: 45922
+line_start: 46007
+line_end: 46014
 dependencies:
   - "A.1"
   - "A.14"
@@ -32,4 +32,6 @@ keywords:
 Constructional ontology and applied mereology both require explicit choices about constructors, dependence, identity, and the relation between a construction account and the object constructed. C.13 adopts that pressure by requiring exact inputs, obtaining direct relations, assembly, and reidentification. It rejects the stronger shortcut that a term, graph, extensional input set, or written constructor expression alone settles the existence or identity of the whole.
 
 Model-based engineering likewise separates a readable structural model from the physical, operational, informational, method, or work organization it describes. C.13 keeps that model useful while routing representation, evidence, assurance, and currentness to their direct patterns.
+
+`A.14:14` supplies the source decision used by the changed `set` and `slice` forms. For `set`, it requires the collection's own belongs-to rule and blocks both automatic parthood and the conclusion that separate parthood is impossible. For `slice`, it requires an obtaining `AspectOf` relation with its bearer, facet rule, and identity conditions; a Characteristic, view, projection, partition, or time window does not substitute. If that A.14 source account changes, recheck only the affected `set` or `slice` contract, normative row, and link to A.14 here. An ordinary change to a collection rule or occurrence, aspect or bearer, facet rule, identity condition, or materialized trace reopens only that construction account and the claim it reports.
 

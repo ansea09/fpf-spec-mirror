@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "B.1.1"
 pattern_title: "Dependency Structure and Relation Grounding"
-section_id: "B.1.1:11"
+section_id: "B.1.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__014_relations.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
-  - "B.1.1:11 — Relations"
-line_start: 34877
-line_end: 34882
+  - "B.1.1:12 — Relations"
+line_start: 34942
+line_end: 34947
 dependencies:
   - "A.1"
   - "A.10"
@@ -30,7 +30,7 @@ dependencies:
 keywords:
 ---
 
-### B.1.1:11 - Relations
+### B.1.1:12 - Relations
 
 - **Builds on:** `B.1`, `A.1`, `A.14`, `C.13`, and `A.6.5`.
 - **Coordinates with:** `A.15.1` for work occurrence, `B.1.4` for contextual and temporal aggregation, `C.29` for graph as mathematical lens, `A.22` and `C.30` for selected structure and architecture, `C.30.AD` and `C.30.AD.BA` for architecture description and digital-twin cases.

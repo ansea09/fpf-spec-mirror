@@ -6,12 +6,12 @@ section_id: "C.35:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__010_consequences.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:9 — Consequences"
-line_start: 65336
-line_end: 65350
+line_start: 65428
+line_end: 65442
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

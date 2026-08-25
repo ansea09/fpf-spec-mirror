@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "B.1"
 pattern_title: "Holon Aggregation and Part-Whole Construction"
-section_id: "B.1:6"
+section_id: "B.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__009_conformance-checklist.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
-  - "B.1:6 — Conformance Checklist"
-line_start: 34609
-line_end: 34621
+  - "B.1:7 — Conformance Checklist"
+line_start: 34674
+line_end: 34686
 dependencies:
   - "A.1"
   - "A.14"
@@ -29,13 +29,13 @@ dependencies:
 keywords:
 ---
 
-### B.1:6 - Conformance Checklist
+### B.1:7 - Conformance Checklist
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B1-1` | The current claim identifies whether it is part-whole, membership, collection-as-whole, an exact relation among local system-role kinds, classification, assignment, direct participation, method relation, work occurrence holarchy, selected structure, or mathematical description; unresolved claim-bearing “role” wording is sent through `E.10.ROLE`. |
+| `CC-B1-1` | The current claim identifies whether it is part-whole, collection belonging under the collection's own rule, collection-as-whole, a relation among local system-role kinds, classification, assignment, direct participation, method relation, work occurrence holarchy, selected structure, or mathematical description; unresolved claim-bearing “role” wording is sent through `E.10.ROLE`. |
 | `CC-B1-2` | Part-whole claims name the exact whole and part participants, identity or recognition rule, part relation, constructional predicate and its defining pattern, plus any aggregation policy, selected structure, ClaimScope, or qualification window that changes the claim. |
-| `CC-B1-3` | A.14 and C.13 remain subject patterns for relation vocabulary and constructive grounding. |
+| `CC-B1-3` | A.14 defines the relation vocabulary used here; C.13 defines the construction accounts. |
 | `CC-B1-4` | Relations among local system-role kinds, classifications, assignments, direct participation relations, and Method relation structures are not treated as holonic parts merely because a label, graph, algebra, or naming convention composes them. `A.2.7` is used only for the first of those branches. |
 | `CC-B1-5` | Performed work occurrence parts require A.15.1. |
 | `CC-B1-6` | Mathematical and representation apparatus is named as lens or expression, not as ontology by spelling. |

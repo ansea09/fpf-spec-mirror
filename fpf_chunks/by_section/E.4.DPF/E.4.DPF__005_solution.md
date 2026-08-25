@@ -6,12 +6,12 @@ section_id: "E.4.DPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__005_solution.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:4 — Solution"
-line_start: 68214
-line_end: 68556
+line_start: 68329
+line_end: 68671
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -252,11 +252,11 @@ This episteme's A.3.2 MethodDescription use and its result-and-use account are s
 
 #### E.4.DPF:4.0.1 - Return suite and guide proposals to their own decisions
 
-One DPF cannot constitute a DPF suite. Membership in an exact suite edition does not enlarge the DPF's field, make its first edition adequate, create a dependency or compatibility relation, or assign responsibility for maintaining the suite or its guide. It also establishes no publication, access, recommendation, or actual guide use. A shared carrier, guide entry, author, or locator creates none of those claims either.
+Being one DPF product does not by itself constitute a DPF Suite or make that product series belong to one. Suite constitution and each inclusion or removal are separate decisions under `E.4:4.2` and `E.4.PFAD`. Belonging to a Suite collection does not enlarge the DPF's field, make its edition adequate, create dependency or compatibility, or assign responsibility for maintaining the Suite or its Guide. It also establishes no publication, access, recommendation, or actual Guide use. A shared carrier, Guide entry, author, or locator creates none of those claims.
 
-An author may propose that a DPF product join or leave a suite, or that a guide entry use one of its results. Keep membership and removal as proposals until they are accepted in a suite-architecture decision. Return those proposals to `E.4:4.2` and `E.4.PFAD`, where the common use, inclusion rule, minimum cardinality, continuity, maintenance commitment, edition-recovery route, and exposure choice are decided. Keep a proposed guide entry separate until the guide product's content or refresh decision selects it; the first concrete application also needs the applicable `DPF-SUITE-00` project decision. Make and check the entry's direct claims about DPF results and sources under the patterns that define those claims. If removal would leave fewer than two qualifying products, also follow the guide-warning and suite restoration-or-retirement branch; do not declare a singleton or empty suite edition.
+An author may propose that a DPF product series join or leave a Suite, or that a Guide entry use one of its results. Keep inclusion and removal as proposals until the Suite decision takes effect. Return those proposals to `E.4:4.2` and `E.4.PFAD`, where the ecosystem purpose, the rule for which product series may belong, inclusion and removal rules, identity through change, maintenance, and exposure are decided. Keep a proposed Guide entry separate until the Guide product's content or refresh decision selects it; the first concrete application also needs the applicable `DPF-SUITE-00` project decision. Make and check the entry's direct claims about DPF results and sources under the patterns that define those claims. A state with one product series or none follows the Suite's explicit preservation, restoration, review, or retirement rule; a DPF edition does not decide that state from inside itself.
 
-Do not infer stronger relations from membership. Assert a dependency only when the dependent and relied-on editions, relied-on content, receiving use, and invalidation or reopen fact are known. Assert compatibility only for an exact edition pair with a named overlapping use, difference or interface, impact, and reopen condition. Until those facts satisfy `E.4.PFR`, describe only the proposed use, constraint, or question. Suite membership and guide navigation substitute for none of them.
+Do not infer stronger relations from belonging. Assert a dependency only when the dependent and relied-on editions, relied-on content, receiving use, and invalidation or reopen fact are known. Assert compatibility only for an edition pair with a named overlapping use, difference or interface, impact, and reopen condition. Until those facts satisfy `E.4.PFR`, describe only the proposed use, constraint, or question. Suite belonging and Guide navigation substitute for none of them. The current FPF treats product series and the Suite as continuing collections; it makes no holon or constructive-part claim because the complete A.1 test has not passed.
 
 #### E.4.DPF:4.1 - Select the current first result
 

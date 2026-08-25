@@ -6,12 +6,12 @@ section_id: "C.31.RSA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__004_forces.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:3 — Forces"
-line_start: 60618
-line_end: 60628
+line_start: 60710
+line_end: 60720
 dependencies:
   - "A.10"
   - "A.19"

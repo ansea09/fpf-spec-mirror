@@ -6,12 +6,12 @@ section_id: "C.3.2:8"
 section_title: "Subkind Comparison and Change"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__010_subkind-comparison-and-change.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:8 — Subkind Comparison and Change"
-line_start: 43840
-line_end: 43859
+line_start: 43930
+line_end: 43949
 dependencies:
   - "A.14"
   - "A.2.6"

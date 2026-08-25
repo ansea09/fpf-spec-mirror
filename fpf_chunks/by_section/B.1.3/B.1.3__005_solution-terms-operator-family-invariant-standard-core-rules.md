@@ -6,12 +6,12 @@ section_id: "B.1.3:4"
 section_title: "Solution — Terms, operator family, invariant Standard, core rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__005_solution-terms-operator-family-invariant-standard-core-rules.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:4 — Solution — Terms, operator family, invariant Standard, core rules"
-line_start: 35151
-line_end: 35273
+line_start: 35216
+line_end: 35338
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,7 +54,7 @@ keywords:
 
 > **Didactic reminders.**
 > • Knowledge does **not** act. A researcher or engineer may use it while performing Work. Recover the exact System and Work only when the receiving claim consumes them; use A.12 only when the acting-side distinction is itself current.
-> • **MemberOf** creates **collections**; it is not a semantic argument link. Use **ConstituentOf** for logical/evidential composition.
+> • A collection's own rule establishes which epistemes belong to it; belonging is not a semantic argument link and does not by itself make a holon. Use **ConstituentOf** for logical or evidential composition.
 > • `PhaseOf` is only a proper temporal restriction of one unchanged episteme. Changed C.2.1 discriminators identify another episteme; test `EpistemeEditionRelation` separately. Use MHT only for a remaining whole-reidentification question, not as a substitute for C.2.1 identity.
 
 #### B.1.3:4.2 - The operator family (companion flavours)
@@ -69,7 +69,7 @@ When one particular operation application matters, use A.6.1 for that applicatio
 Γ_epist^synth : ( D_know : DependencyGraph< U.Episteme > ) → U.Episteme
 ```
 
-* **Domain.** `D_know` designates exact source epistemes and their governed **ConstituentOf**, **UsageOf/ReferenceTo**, **evidences/derivesFrom**, and optional **MemberOf** relations, together with the mappings used by the fold. The graph represents those objects and relations; it does not make them obtain.
+* **Domain.** `D_know` designates exact source epistemes and the governed **ConstituentOf**, **UsageOf**, **ReferenceTo**, **evidences**, **derivesFrom**, and collection-specific belongs-to relations that obtain among them, together with the mappings used by the fold. The graph represents those objects and relations; it does not make them obtain.
 * **Result.** One synthesized episteme whose claim content, exact EntityOfConcern, and effective reference scheme satisfy C.2.1. Its ClaimGraph integrates the retained conceptual and symbolic content; its provenance and SCR keep every contributing source and carrier traceable; and its provisional F/G/R values use the declared CL inputs. **Gating:** at **M-mode** only tuple placeholders are required; numeric scoring may be omitted (`[M-0/M-1]`). At **F-mode** the tuple **MUST** be computable under the result's effective reference scheme (`[F-*,L1+]`). # [M/F]
 
 **Compilation (target-scheme fold).** Map one synthesized episteme into one exact target reference scheme.

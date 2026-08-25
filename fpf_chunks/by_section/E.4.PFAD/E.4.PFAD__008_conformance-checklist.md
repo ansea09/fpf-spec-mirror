@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__008_conformance-checklist.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:7 — Conformance Checklist"
-line_start: 68098
-line_end: 68115
+line_start: 68213
+line_end: 68230
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -58,5 +58,5 @@ keywords:
 | CC-PFAD.6 Object boundaries | Answer, acceptance, DRR, authoring Work, Method results, edition, and publication remain distinct; proposal locators identify none of them. For a programme answer, the exact persisting subjects, provider and maintaining Systems, any admitted service state, each bounded inquiry Work occurrence, and each evidence-package edition remain distinct. |
 | CC-PFAD.7 Conditional apparatus | Naming, quality, admission, currentness, and package details appear only when they change the answer or serve a named use. |
 | CC-PFAD.8 Reopen condition | The DRR states what change in field boundary, framework architecture, evidence, or receiving use requires reconsideration. |
-| CC-PFAD.9 DPF suite decision | A selected suite answer states the common use, inclusion rule over managed DPF edition series, minimum cardinality, continuity, maintenance commitment, edition-recovery and refresh boundary, exposure choice, alternatives, consequences, and reopen condition. Guide maintenance remains separate, and proposed uses or constraints remain distinct from obtaining edition relations. |
+| CC-PFAD.9 DPF Suite decision | A selected Suite answer states the ecosystem use, which product series may belong, Suite constitution, inclusion and removal rules, identity when product series change, maintenance commitment, source return and refresh conditions, exposure choice, alternatives, consequences, and reopen condition. It separately states edition-to-product belonging and whether the Guide product series has been constituted and included. Belonging establishes no holonhood, constructive parthood, dependency, or compatibility; a stronger claim needs its own complete predicate. |
 

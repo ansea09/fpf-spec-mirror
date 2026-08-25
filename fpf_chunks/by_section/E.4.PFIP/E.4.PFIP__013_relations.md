@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__013_relations.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:12 — Relations"
-line_start: 69714
-line_end: 69722
+line_start: 69829
+line_end: 69837
 dependencies:
   - "C.2.1"
   - "C.33"

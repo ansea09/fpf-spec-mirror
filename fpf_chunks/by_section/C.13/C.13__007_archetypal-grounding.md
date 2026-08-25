@@ -6,12 +6,12 @@ section_id: "C.13:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__007_archetypal-grounding.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:5 — Archetypal Grounding"
-line_start: 45806
-line_end: 45839
+line_start: 45896
+line_end: 45929
 dependencies:
   - "A.1"
   - "A.14"
@@ -39,9 +39,9 @@ The same parts unconnected on a pallet do not form the skid. A bill of materials
 
 #### C.13:5.2 - Collection And Aspect
 
-A fleet register can identify one collection and exact membership occurrences. `Γ_m.set{Vehicle-1, Vehicle-2, ...}` narrates that collection only after the collection identity and memberships are governed. It establishes no vehicle integration, collective agency, acting system, or A.1 holonhood.
+A fleet register can identify one collection and the vehicles that belong to it under the registration rule. `Γ_m.set{Vehicle-1, Vehicle-2, ...}` reports that collection only after the fleet identity, registration rule, and each belongs-to fact have been established. It creates neither the fleet nor those facts. It establishes no vehicle integration, constructive parthood, collective agency, acting system, or A.1 holonhood. If the same candidate later passes all six A.1 matters, a separate `sum` account may report its independently grounded constructive parts and assembly.
 
-An inspection aspect of PumpSkid #7 can use `Γ_m.slice(PumpSkid-7, inspection-facet)` only when the exact aspect, facet, and direct aspect relation are governed. A dashboard view, selected concern, or time window is not that aspect by display.
+Reuse the filled Reactor-7 case in `A.14:5.3`: `Γ_m.slice(Reactor-7, thermal-boundary)` reports ThermalEnvelope-7, the insulation panels, seals, and boundary interfaces picked out by the thermal-boundary rule, the obtaining `AspectOf` occurrence, and the enclosure identity and ending conditions. A permitted panel replacement can preserve the aspect while requiring a current trace; dismantling the enclosure, changing the facet rule, or reidentifying Reactor-7 ends the reported occurrence. The slice reports these facts and creates none of them. A dashboard view, selected concern, or time window is not that aspect by display.
 
 #### C.13:5.3 - Episteme, Method, Work, And Discipline Holons
 
@@ -59,5 +59,5 @@ Mounting, wiring, fluid-connection, and configuration changes may each be indepe
 
 #### C.13:5.5 - Scope Justification
 
-The three forms recur across mechanical, biological, informational, method, work, and discipline cases because they keep three questions apart: integrated assembly, collection membership, and aspect distinction. Their reuse does not erase subject ownership. Order and timing remain with method and temporal patterns; evidence and warrant remain with assurance patterns; public kind admission remains with E.24.UK; the decision whether the existing whole continues or a new whole must be identified remains with the direct identity rule and B.2 when reidentification is current.
+The same three forms work across mechanical, biological, informational, Method, Work, and Discipline cases because they keep three questions apart: integrated assembly, collection belonging, and aspect distinction. Using them does not replace the patterns that define the particular entities and relations. Order and timing remain with Method and temporal patterns; evidence and warrant remain with assurance patterns; public kind admission remains with E.24.UK; the direct identity rule decides whether the existing whole continues or a new whole must be identified, with B.2 used when reidentification is current.
 

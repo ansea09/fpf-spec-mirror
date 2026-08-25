@@ -6,12 +6,12 @@ section_id: "B.2.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__001_intro.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:intro — Intro"
-line_start: 37060
-line_end: 37065
+line_start: 37125
+line_end: 37130
 dependencies:
   - "A.1"
   - "A.10"

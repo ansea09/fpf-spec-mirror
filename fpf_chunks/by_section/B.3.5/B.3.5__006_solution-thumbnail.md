@@ -6,23 +6,17 @@ section_id: "B.3.5:4"
 section_title: "Solution (thumbnail)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__006_solution-thumbnail.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:4 — Solution (thumbnail)"
-line_start: 38255
-line_end: 38303
+line_start: 38320
+line_end: 38371
 dependencies:
   - "B.3"
   - "C.13"
   - "E.14"
 keywords:
-  - "CT2R"
-  - "Compose-CAL"
-  - "assurance layer"
-  - "constructive trace"
-  - "grounding"
-  - "working model"
 ---
 
 ### B.3.5:4 - Solution (thumbnail)
@@ -32,17 +26,20 @@ CT2R‑LOG introduces a **two‑link discipline** around each canonical edge:
 1. **Alias link (concept‑level).**
    **Working-Model relations** (e.g., `ut:ComponentOf`) are the public names for their exact direct relation principles. **`tv:AliasOf`** may point from the public relation kind to that principle for comparison and reuse; the alias defines neither an occurrence nor a whole.
 
-2. **Grounding link (evidence‑level).**
-   Each **edge instance covered by this elected profile** carries **`tv:groundedBy`**:
+2. **Grounding link (assurance level).**
+   Each relation assertion covered by this elected profile carries `tv:groundedBy` according to its direct relation kind:
 
-   * **REQUIRED** for each **published structural edge covered by the profile** (a sub-property of `ut:StructPartOf`): the target is one current C.2.1 construction-trace episteme in the `sum`, `set`, or `slice` form. It names the exact participants, direct relation occurrences, applicable construction rule, and identity or reidentification conditions already grounded under their direct patterns. **Set** `validationMode=axiomatic`; **`postulate` SHALL NOT be used for a structural edge within this profile**. Neither the link nor the mode makes those facts obtain.
-   * **Optional** for **epistemic edges** (e.g., `ConstituentOf`, `RepresentationOf`): if no `Γ_m` trace is appropriate, attach an **evidence object** whose admissibility is governed by the declared **`validationMode ∈ {inferential, postulate}`** (assurance rules).
+   * **Structural parthood** (`ComponentOf`, `PortionOf`, or `AspectOf`) requires one current C.2.1 construction-trace episteme in the applicable `sum` or `slice` form and `validationMode=axiomatic`. `postulate` is not available for this branch.
+   * **Collection belonging under the collection's own rule** requires one current C.2.1 `C.13 set` trace and `validationMode=axiomatic`. The trace reports the collection, the entity, the already established relation, the rule for belonging, and the identity conditions. It does not make the entity a constructive part, make belonging obtain, or prove that separately grounded parthood is impossible.
+   * **Other epistemic or constitutive edges** may use an admissible evidence object or logical argument under `validationMode ∈ {inferential, postulate}` when no constructive trace is appropriate.
 
-2. **Validation flag (author intent).**
-   Every edge or aggregation rule covered by this profile carries **`tv:validationMode`** with one of:
+3. **Validation flag (author intent).**
+   Every relation or aggregation rule covered by this profile carries `tv:validationMode` with one of:
    * **`postulate`** — pragmatic working claim backed by observations;
-   * **`inferential`** — reasoned consequence (proof outline);
-   * **`axiomatic`** — the author declares that one inspectable construction account is the assurance basis for the assertion. This is an assurance posture, not a species of world-side relation and not an identity or timelessness guarantee.
+   * **`inferential`** — reasoned consequence with a followable argument; or
+   * **`axiomatic`** — one inspectable construction account is the declared assurance basis.
+
+The direct branch above selects which modes and grounding targets are allowed. The flag is an assurance posture, not a species of world-side relation and not an identity or timelessness guarantee.
 
 > **F–G–R alignment.**
 > **F** (the published relation claim): `:PumpA ut:ComponentOf :Skid12`.

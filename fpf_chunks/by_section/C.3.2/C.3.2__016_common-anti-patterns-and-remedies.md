@@ -6,12 +6,12 @@ section_id: "C.3.2:14"
 section_title: "Common Anti-Patterns and Remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__016_common-anti-patterns-and-remedies.md"
-commit_sha: "7f7c592f4d633e54cdb202d622d6e0e05df41517"
+commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:14 — Common Anti-Patterns and Remedies"
-line_start: 43936
-line_end: 43949
+line_start: 44026
+line_end: 44039
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -35,7 +35,7 @@ keywords:
 | Returning `unknown` for a candidate outside ValueKind or applicability | Return `not-applicable` and form no judgment. |
 | Returning `false` for missing support | Preserve `unknown`; let the receiving guard decide whether to decline use. |
 | Treating any evidence item or record as membership | Ask whether the criterion directly concerns that governed episteme, relation, status, or publication occurrence. If not, keep it only as support. |
-| Reusing A.14 `MemberOf` or minting a relation by notation | Keep the result as a classification judgment unless a direct relation pattern is justified. |
+| Reusing a world-side belongs-to predicate or minting a relation by notation | Keep the result as a classification judgment unless a direct relation pattern is justified. |
 | Treating an extension or braces as ontology | Keep the candidate domain and extension as representations; use C.29 when claim-bearing. |
 | Attaching scope or formality to the kind | Keep them on their declaration or assertion epistemes. |
 | Editing an extension to hide a subkind counterexample | Repair the relation proposal, declaration alignment, or distinct-kind bridge. |
