@@ -6,12 +6,12 @@ section_id: "E.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__002_problem-frame.md"
-commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
+commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:1 — Problem frame"
-line_start: 75471
-line_end: 75488
+line_start: 75387
+line_end: 75404
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -21,6 +21,8 @@ dependencies:
   - "E.11.PUR"
   - "E.17.AUD"
   - "E.18"
+  - "E.4.DPF"
+  - "E.4.FPF"
   - "E.8"
   - "F.17"
   - "F.18"
@@ -32,11 +34,11 @@ keywords:
 
 #### E.11:1.1 - Use this when
 
-Use `E.11` when a README scenario, Preface explanation, ToC cue, retrieval card, lexical query row, expanded case, or pattern-local recognition passage could change which FPF pattern a working reader should inspect first.
+Use `E.11` when a README scenario, Preface explanation, ToC cue, retrieval cue, lexical query row, expanded case, or pattern-local recognition passage could change which FPF pattern a working reader should inspect first.
 
 The ordinary reader does not arrive with a PatternID. They arrive with a project question: architecture, a working document, a comparison, a vague concern, an improvement, evidence, timing, causal use, a description, a name, wording, mathematics, state of the art, a local framework, system recognition, or system delimitation. E.11 gives that reader a recognizable entry without turning entry material into a second pattern body or universal method sequence.
 
-**First useful result.** The reader can name the working situation, the first useful result or honest blocker, one direct pattern or small plausible set to inspect, and the ordinary stop or wrong-turn return. That is enough for ordinary entry; no card form, shortlist record, or project-local value is required.
+**First useful result.** The reader can name the working situation, the first useful result or honest blocker, one direct pattern or small plausible set to inspect, and the ordinary stop or wrong-turn return. That is enough for ordinary entry; no card form, comparison account, or project-local value is required.
 
 **Primary EntityOfConcern.** One public entry or discoverability publication unit: README first-entry guidance, Preface principle explanation, ToC query material, retrieval cue, expanded entry-disambiguation case, or a pattern-local `Problem frame`.
 

@@ -6,12 +6,12 @@ section_id: "C.28:11"
 section_title: "SoTA and lineage"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__013_sota-and-lineage.md"
-commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
+commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:11 — SoTA and lineage"
-line_start: 55131
-line_end: 55154
+line_start: 55003
+line_end: 55026
 dependencies:
   - "A.10"
   - "A.15"

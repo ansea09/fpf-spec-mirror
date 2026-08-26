@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
+commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 75509
-line_end: 75851
+line_start: 75425
+line_end: 75762
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -21,6 +21,8 @@ dependencies:
   - "E.11.PUR"
   - "E.17.AUD"
   - "E.18"
+  - "E.4.DPF"
+  - "E.4.FPF"
   - "E.8"
   - "F.17"
   - "F.18"
@@ -36,12 +38,12 @@ Use this distribution:
 
 | Publication unit | Job | Not its job |
 | --- | --- | --- |
-| Framework Readme | Public first-entry situations and practical first results; the current FPF semantic keys live in the FPF Readme, while a DPF or LPF Readme carries its domain- or practice-specific entries. | Pattern authority, full methods, conformance doctrine, or project-instance fields. |
+| Framework Readme | Public first-entry situations and practical first results; the FPF Readme renders the entries declared in `E.4.FPF`, while a DPF or LPF Readme renders its product's own declared entries. | Pattern authority, the key-and-form declaration, full methods, conformance doctrine, or project-instance fields. |
 | `Preface` | Plain-engineering narrative explaining the cross-cutting ideas behind those entries. | A second scenario table, PatternID catalogue, or conformance authority. |
 | Table of Contents | Search-oriented overview. Every pattern row exposes its PatternID and title plus at least one working-question locator: a `Use when` cue, query phrase, or discriminating keyword. State any domain or local PatternID prefix discipline that affects lookup. Add admission state or dependencies when either can change the reader's choice. | Public first-entry explanation, a prescribed use sequence, or durable pattern semantics. |
 | Pattern `Problem frame` | High-precision local recognition for that pattern's own `EntityOfConcern`, first action, result, and non-use boundary. | A related-pattern fanout list or package-placement rationale. |
 | `I.2` or another expanded case | Longer entry disambiguation only when README, ToC, and local recognition are insufficient. | A tutorial obligation for every pattern or a replacement pattern body. |
-| Retrieval cards and projections | Thin finding aids that point to the direct pattern and state what they cannot decide. | Evidence, gate, authorization, final interpretation, or shadow authority. |
+| Retrieval cues and projections | Thin finding aids that point to the direct pattern and state what they cannot decide. | Evidence, gate, authorization, final interpretation, or shadow authority. |
 
 The framework Readme is the single editable public entry set. If another publication form needs the same guidance, project it from that Readme rather than maintaining a second version. Put any unique cue in the publication unit whose job matches it, then remove the duplicate row or index.
 
@@ -53,7 +55,7 @@ Pattern count is only a diagnostic. A one-pattern edition asks whether the resul
 
 When discoverability has become use of one selected pattern, continue with `E.11.PUA`. When the live question is which applicable pattern use to recommend, how several uses relate, or whether an earlier result already answers the concern, continue with `E.11.PUR`. Neither continuation turns a public entry order into a universal workflow.
 
-For an FPF-grounded domain or local practice framework, README, Preface, ToC, cards, an all-in-one carrier, a skill pack, retrieval, or a callable access service may expose the entry. That publication or access use neither decides framework architecture nor supplies authority, and the carrier is not the pattern body merely because a reader reaches it first. Use `E.4` to identify the framework family and member. Only when a downstream-used framework-architecture question is live, record its selected answer in one `E.9` DRR using the `E.4.PFAD` profile; use `E.4.PFR` separately when a named relation or edition maintenance use needs its representation.
+For an FPF-grounded domain or local practice framework, README, Preface, ToC, practical entries, an all-in-one carrier, a skill pack, retrieval, or a callable access service may expose the entry. That publication or access use neither decides framework architecture nor supplies authority, and the carrier is not the pattern body merely because a reader reaches it first. Use `E.4` to identify the framework family and member. Only when a downstream-used framework-architecture question is live, record its selected answer in one `E.9` DRR using the `E.4.PFAD` profile; use `E.4.PFR` separately when a named relation or edition maintenance use needs its representation.
 
 #### E.11:4.1 - Public first-entry scenario and optional expansion
 
@@ -70,6 +72,15 @@ FirstEntryScenario:
 
 The semantic keys in `E.11:4.5` identify situations, not steps. A reader may inspect any finite plausible set and stop as soon as one direct pattern is worth opening or no remaining entry can change that starting choice.
 
+Keep three reader-facing jobs distinct. A compact locator points to a direct pattern when retrieval is enough and carries no mandatory mantra. An ordinary practical entry makes the five values above recoverable when one direct pattern or one bounded direct route can answer the difficulty, provide a first result or blocker, and say when to stop or return. A Practical-Use Card is a selected Readme example for a recurring complex difficulty whose useful answer normally spans several direct pattern contributions, checks, and returns. Its visible mantra keeps that longer dependency in attention during repeated or interrupted use. The card is a publication unit that publishes practical-use guidance: the guidance is what it tells the reader, while the card unit is the entry that carries it. Neither is the shared form, a pattern body, a Method, performed Work, a project result, authority, or a CGUS demonstration.
+
+The displayed entries are examples of how the pattern language can help, not a catalogue or coverage boundary. When both uses matter to discoverability, show at least one ordinary example of cheap direct help and a few cards that demonstrate extended cross-pattern use. Say plainly that many other questions can start from the index, a guide, search, or a small plausible set of direct patterns. Do not turn every useful topic, pattern, or reader-entry set into a public example merely to prove breadth.
+
+Before selecting a card, compare the proposed entry with the same truthful content but no mantra. If a cold reader can still recognize the situation, choose the direct pattern or bounded route, recover the first result or blocker, and return after interruption or repetition just as reliably, keep a locator or ordinary entry. Select a card only when, without the repeatable formula, the reader is materially more likely to lose a choice-changing question, intermediate result, check, branch, or return, and repeating the mantra restores that path. Immediate recognition, repeated exposure, fluent recitation, pattern count, heading depth, an existing label, a quota, or a wish to avoid validation is not evidence. If the mantra crowds out the first result or return, or adds no recall advantage over the same content without it, use the ordinary entry or locator instead. Check declared cards and plausible non-card entries under the same test; the number of cards is an outcome, not a target.
+
+Keep four claims separate. A product selects a card unit for a reader use. The unit publishes practical-use guidance. The product gives every selectable example one stable semantic key and assigns that key one ordinary-entry or card form in one product-wide declaration. The visible card applies the shared form from `E.11.PFP`. A key, heading, form, or mantra establishes none of the other claims by itself.
+
+A local mantra may keep one bounded result or one direct pattern contribution in attention. It belongs in the direct pattern, an ordinary entry, or other teaching material when useful; it does not by itself select a Practical-Use Card. A card mantra keeps the path from the recognizable difficulty to a more distant intended result in attention across several pattern contributions. Include only the intermediate questions, results, checks, branches, and return conditions that change where that path leads or how the reader continues. Phrase length does not decide either use. The mantra remains Plain, repeatable action or judgement wording. It does not replace a direct pattern's `Solution`, create Work, or establish a CGUS structure. An optional same-key expansion explains only the branch choice or exact result support that the compact card cannot omit truthfully; an ordinary walkthrough remains an explanation, and a demonstrative slice still requires independent `A.22.CGUS` admission. `E.11.PFP` defines the exact visible field and heading grammar rather than this section.
 When an entry must show how the first move may continue without prescribing a workflow, make only these values recoverable: the starting cue, direct pattern or plausible set, first result or blocker, likely next readable outputs, continuation condition, and stop or return. Name candidate loci or an unfolding-family reference only when they change the reader's route. Reference an `A.22.CGUS` `UF.*` family only when the represented conditional structure is actually admitted there; a readable continuation does not become a CGUS structure by being useful.
 
 Use this internal explicitness ladder only when it helps decide where the explanation belongs; do not persist a score for every entry:
@@ -95,7 +106,7 @@ PracticalUseGuidance@FPFReadme <: U.Episteme:
   publicPracticalQuestionRef: PublicPracticalUseQuestion@FPFReadme
   publicObstacleDescriptionRef?: PublicPatternUseObstacleDescription@FPFReadme
   publicFirstResultSummaryRef: U.Episteme
-  cardExpansionRef: PracticalUseCardExpansion@FPFReadme
+  cardExpansionRef?: PracticalUseCardExpansion@FPFReadme
 
 PracticalUseCardExpansion@FPFReadme <: U.Episteme:
   guidanceRef: PracticalUseGuidance@FPFReadme
@@ -111,7 +122,7 @@ PracticalUseCardExpansion@FPFReadme <: U.Episteme:
 PracticalUseCardPublicationUnit@FPFReadme:
   conformsTo: E.17.AUD
   publishes: PracticalUseGuidance@FPFReadme
-  linksTo: PracticalUseCardExpansion@FPFReadme
+  linksTo?: PracticalUseCardExpansion@FPFReadme
 ```
 
 Use `demonstrativeSliceRef` only when the example independently passes A.22.CGUS admission in its declared illustrative bounded context. Otherwise use an ordinary walkthrough; no rationale record is required merely to say that an explanation is not a CGUS slice.
@@ -241,6 +252,9 @@ Where an exact row is used, it carries one result template or public blocker. A 
 
 Read each published entry first in the form the public will see. A passing ordinary entry exposes the recognizable situation, practical question, first useful result or honest blocker, one direct pattern or small plausible set, and the stop or wrong-turn return. This check creates no project instance, applicability verdict, result entity, relation occurrence, receiving use, or separate positive record.
 
+For a selected card, also compare the same truthful entry without its mantra. The card passes only when repeating the mantra materially improves repeated or extended use under the test in `E.11:4.1`. After one read, a cold engineer or manager can repeat the formula in their own words, name the first useful result or honest blocker, follow `Start with` to the direct pattern or bounded route, and use the same key to recover any optional expansion. The direct pattern remains authoritative. A short slogan that loses a choice-changing distinction fails, and a form-valid card that provides no mnemonic gain returns to ordinary-entry or locator form.
+
+
 When an entry needs the optional exact expansion because a promise, ambiguity, or named reliance cannot otherwise remain truthful, use this conceptual view over the already published values:
 
 ```text
@@ -265,32 +279,15 @@ The view is not a form to complete or a durable check object. Inspect only posit
 
 For each expanded candidate-use template, exactly one result promise or exact public blocker is present. A promise identifies the direct pattern and `Solution`, potential-result kind, local identification question, the identity or obtaining basis and result-relative basis that actually make the promise true, the minimum usable result, and a receiver only when that continuation is current. A blocker states the missing rule or information and carries no fulfilled result template. A broad family, generic result relation, omitted value disguised as a weak promise, fabricated project occurrence, or PatternID list without selection conditions does not pass.
 
-#### E.11:4.5 - Stable practical-use keys
+#### E.11:4.5 - Stable practical-use keys and selected forms
 
+Give every selectable public entry one stable semantic key so the reader can return to the same situation after wording, grouping, or presentation changes. The product maintains one declaration that assigns each key exactly one ordinary-entry or card form. An optional expansion repeats its enclosing card key only to remain findable; it is not another selectable occurrence. This rule creates no universal entry kind or second key registry.
 
-| Key | Public situation heading |
-| --- | --- |
-| `ARCHITECTURE` | Shape an architecture from a problem and competing characteristics |
-| `WORKING-DOCUMENTS` | Create a working document that another participant can use |
-| `OPTION-COMPARISON` | Compare options without hiding trade-offs |
-| `PROBLEM-SHAPING` | Turn a vague concern into an accepted problem-side record |
-| `IMPROVEMENT` | Improve a named object under an explicit evaluation |
-| `COSTLY-ACTION` | Prepare a costly or hard-to-reverse action |
-| `TIME` | Make a time-dependent claim usable |
-| `CAUSAL-USE` | Decide what a causal claim may support |
-| `DESCRIPTION-USE` | Use a description or view without confusing it with its subject |
-| `NAMING` | Give an exact object or value a stable reader-facing name |
-| `WORDING` | Repair wording that hides the object, relation, or claim kind |
-| `MATHEMATICAL-MODELING` | Choose and bound a mathematical lens |
-| `SOTA-PORTFOLIO` | Build a current state-of-the-art synthesis pack |
-| `DPF-SUITE-GUIDE` | Find the needed results when several DPFs may apply |
-| `DPF-AUTHORING` | Build a domain or local FPF-grounded framework |
-| `SYSTEM-RECOGNITION` | Decide whether the exact entity in the claim is a system |
-| `SYSTEM-DELIMITATION` | Decide which entities are parts of the system and which relations only cross its boundary |
+`E.4.FPF` carries the current FPF example-key and form declaration plus its language-appropriate reading-burden measure and two maxima. A DPF or LPF carries its own product declaration under `E.4.DPF`. E.11 therefore does not maintain another FPF key list or treat displayed examples as product coverage.
 
-E.11 records one F.13-form historical read path: `splits(SYSTEM-IN-CONTEXT -> {SYSTEM-RECOGNITION, SYSTEM-DELIMITATION, WORDING, ARCHITECTURE})`. The unchanged F.13 body does not contain this row. The old card had no single surviving public-guidance identity: system recognition, system delimitation, lexical recovery, and architecture have different referents, relations or evaluations, receiving uses, first results, and direct governors. Older writing remains readable through this one read path; current card use names only the four resulting keys. A.1.STM is a conditional continuation with a dedicated readable README guide, not a fifth resulting key. The split creates no U-kind, relation kind, record kind, result kind, or generic `Context` claim.
+E.11 records one F.13-form historical read path: `splits(SYSTEM-IN-CONTEXT -> {SYSTEM-RECOGNITION, SYSTEM-DELIMITATION, WORDING, ARCHITECTURE})`. The unchanged F.13 body does not contain this row. The old card had no single surviving public-guidance identity: system recognition, system delimitation, lexical recovery, and architecture have different referents, relations or evaluations, receiving uses, first results, and direct governors. Older writing remains readable through this one read path; current entry use names only the four resulting keys. A.1.STM is a conditional continuation with a dedicated readable README guide, not a fifth resulting key. The split creates no U-kind, relation kind, record kind, result kind, or generic `Context` claim.
 
-The FPF Readme carries the current public cards and their expansions. Preface explains why FPF's distinctions work together. ToC locates pattern families. Full patterns carry methods, conditions, costs, consequences, and exact result semantics. None is a second card store.
+The FPF Readme carries a selected, explicitly non-exhaustive set of current public examples and their optional expansions. Preface explains why FPF's distinctions work together. ToC locates pattern families and remains the route for questions outside the examples. Full patterns carry methods, conditions, costs, consequences, and exact result semantics. None is a second entry store or a claim that the examples bound FPF use.
 
 #### E.11:4.5.1 - Preface, local recognition, and first-entry terminology
 
@@ -305,7 +302,7 @@ Keep these terms stable:
 | `first entry` | General entry from a working project or FPF artifact into the corpus. |
 | `first practical entry` | Public form selected by a real working question. |
 | `first-entry scenario` | README prose that starts from a recognizable question and names a first useful result and direct pattern family. |
-| `first-entry cue` | A phrase, query row, heading, retrieval card, or local recognition passage that helps recover a direct pattern. |
+| `first-entry cue` | A phrase, query row, heading, compact locator, or local recognition passage that helps recover a direct pattern. |
 | `first-entry pattern-comparison set` | A small case-relative set used only when the first choice is genuinely ambiguous; it is not a standing index. |
 | `expanded entry-disambiguation case` | A longer case used only when README, ToC, and local recognition are insufficient. |
 
@@ -315,12 +312,12 @@ ToC and lexical-query phrases remain finding aids, not alternate names, semantic
 
 
 
-When more than one card remains plausible, compare four things: recognizable-situation fit, difference among first results or exact public blockers, direct pattern, and stop or return condition. Keep the comparison in conversation for ordinary bounded use. Open the most promising direct pattern before constructing a project candidate.
+When more than one selectable entry remains plausible, compare four things: recognizable-situation fit, difference among first results or exact public blockers, direct pattern, and stop or return condition. Keep the comparison in conversation for ordinary bounded use. Open the most promising direct pattern before constructing a project candidate.
 
 Keep the rationale in conversation for ordinary comparison. Materialize it only when a named later use needs addressable comparison history; then it has one public-guidance subject and no fabricated project result:
 
 ```text
-PracticalUseCardComparisonRationale@Context <: U.Episteme:
+PracticalUseEntryComparisonRationale@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one PracticalUseGuidance@FPFReadme
   claimGraph: U.ClaimGraph by value
   effectiveReferenceSchemeRef: U.ReferenceSchemeRef
@@ -330,12 +327,12 @@ PracticalUseCardComparisonRationale@Context <: U.Episteme:
   comparisonRationaleDescriptionRef: U.Episteme
 ```
 
-Stop inspection when one card has enough recognition and first-result advantage to justify direct pattern inspection, when no remaining card can change the starting choice, or when the inspection budget opens an explicit return. No fixed maximum of three is inferred.
+Stop inspection when one entry has enough recognition and first-result advantage to justify direct pattern inspection, when no remaining entry can change the starting choice, or when the inspection budget opens an explicit return. No fixed maximum of three is inferred.
 
 Materialize comparison history only when a named receiving use relies on it:
 
 ```text
-PracticalUseCardShortlist@Context <: U.Episteme:
+PracticalUseEntryComparisonAccount@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact PracticalUseQuestion@Context being compared
   claimGraph: U.ClaimGraph by value
   effectiveReferenceSchemeRef: U.ReferenceSchemeRef
@@ -345,25 +342,25 @@ PracticalUseCardShortlist@Context <: U.Episteme:
   namedRelianceConditionRef: U.Episteme
   receivingUseDescriptionRef: U.Episteme
   receivingUsePatternLocator: U.EntityRef, locating one exact FPF pattern episteme only when its identity matters to the named reliance
-  comparisonRefs[1..*]: PracticalUseCardComparison@Context
+  comparisonRefs[1..*]: PracticalUseEntryComparison@Context
   selectedStartingGuidanceRef?: PracticalUseGuidance@FPFReadme
   inspectionStopBoundaryRef: PatternUseBoundaryCondition@Context
   returnBoundaryRef: PatternUseBoundaryCondition@Context
 
-PracticalUseCardComparison@Context <: U.Episteme:
+PracticalUseEntryComparison@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one PracticalUseGuidance@FPFReadme
   claimGraph: U.ClaimGraph by value
   effectiveReferenceSchemeRef: U.ReferenceSchemeRef
   editionId
-  shortlistRef: PracticalUseCardShortlist@Context
-  recognizableSituationFitRationaleRef: PracticalUseCardComparisonRationale@Context
+  comparisonAccountRef: PracticalUseEntryComparisonAccount@Context
+  recognizableSituationFitRationaleRef: PracticalUseEntryComparisonRationale@Context
   firstResultTemplateRefs[]: PublicPatternUseResultTemplate@FPFReadme
   resultPromiseBlockerRefs[]: PublicPatternUseBoundaryConditionTemplate@FPFReadme
-  firstResultDifferenceRationaleRef: PracticalUseCardComparisonRationale@Context
+  firstResultDifferenceRationaleRef: PracticalUseEntryComparisonRationale@Context
   inspectionDisposition: keep | defer | discard | startHere
 ```
 
-Guidance, practical question, compared result templates or blockers, first-result differences, named reliance, stop, and return remain ClaimGraph content or separate references under their direct patterns; none replaces the C.2.1 identity. Each comparison cites at least one result template or exact blocker from the guidance it evaluates. `claimScopeRef` or `modelUseStructureRef` is present only when the named scope or model-use structure changes the reliance being recorded. Several plausible cards alone do not make this record current. The named reliance may be a later review, replay, audit, automation, or another use that needs addressable comparison history. Retain only the rows that use needs.
+Guidance, practical question, compared result templates or blockers, first-result differences, named reliance, stop, and return remain ClaimGraph content or separate references under their direct patterns; none replaces the C.2.1 identity. Each comparison cites at least one result template or exact blocker from the guidance it evaluates. `claimScopeRef` or `modelUseStructureRef` is present only when the named scope or model-use structure changes the reliance being recorded. Several plausible entries alone do not make this record current. The named reliance may be a later review, replay, audit, automation, or another use that needs addressable comparison history. Retain only the rows that use needs.
 
 #### E.11:4.7 - Replay and currentness
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.18.md"
-commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
+commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
-line_start: 96142
-line_end: 97000
+line_start: 96098
+line_end: 96956
 dependencies:
   - "A.10"
   - "A.15.1"

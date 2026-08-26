@@ -6,12 +6,12 @@ section_id: "A.20:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__004_problem.md"
-commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
+commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:2 — Problem"
-line_start: 33178
-line_end: 33188
+line_start: 33050
+line_end: 33060
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "B.1.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__001_intro.md"
-commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
+commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:intro — Intro"
-line_start: 35463
-line_end: 35476
+line_start: 35335
+line_end: 35348
 dependencies:
   - "A.1.1"
   - "A.14"

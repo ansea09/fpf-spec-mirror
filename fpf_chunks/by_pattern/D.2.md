@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.2.md"
-commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
+commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
-line_start: 66167
-line_end: 66322
+line_start: 66039
+line_end: 66194
 dependencies:
   - "A.1"
   - "A.15"

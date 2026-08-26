@@ -6,12 +6,12 @@ section_id: "E.11:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__003_problem.md"
-commit_sha: "2124f3a0ea03125a5bf495c2ef99f5fbb4c73571"
+commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:2 — Problem"
-line_start: 75489
-line_end: 75494
+line_start: 75405
+line_end: 75410
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -21,6 +21,8 @@ dependencies:
   - "E.11.PUR"
   - "E.17.AUD"
   - "E.18"
+  - "E.4.DPF"
+  - "E.4.FPF"
   - "E.8"
   - "F.17"
   - "F.18"
@@ -30,7 +32,7 @@ keywords:
 
 ### E.11:2 - Problem
 
-Pattern libraries are difficult to enter from a working situation. A reader may see a long table of contents, search by a familiar word, or choose the first appealing pattern title. That choice can be premature because nearby cards may lead to different first results and different stop conditions.
+Pattern libraries are difficult to enter from a working situation. A reader may see a long table of contents, search by a familiar word, or choose the first appealing pattern title. That choice can be premature because nearby entries may lead to different first results and different stop conditions.
 
 Attempts to help can create a second problem. Public guidance becomes a numbered method, a shadow pattern body, or a form that asks the reader to fabricate project-local values before the direct pattern has been inspected. The discovery aid then competes with the patterns it should expose.
 
