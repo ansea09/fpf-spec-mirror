@@ -6,12 +6,12 @@ section_id: "B.1.3:8"
 section_title: "Anti‑patterns & repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__009_anti-patterns-repairs.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:8 — Anti‑patterns & repairs"
-line_start: 35714
-line_end: 35726
+line_start: 35738
+line_end: 35750
 dependencies:
   - "A.1"
   - "A.10"

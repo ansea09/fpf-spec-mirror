@@ -6,12 +6,12 @@ section_id: "B.3:10.1"
 section_title: "Decision-bearing SoTA account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__013_decision-bearing-sota-account.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:10.1 — Decision-bearing SoTA account"
-line_start: 38339
-line_end: 38349
+line_start: 38363
+line_end: 38373
 dependencies:
   - "A.10"
   - "A.15.1"

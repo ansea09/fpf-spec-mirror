@@ -6,12 +6,12 @@ section_id: "F.9.1:End"
 section_title: "F.9.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__014_f-9-1-end.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "F.9.1 — Bridge Stance Note"
   - "F.9.1:End — F.9.1:End"
-line_start: 93424
-line_end: 93425
+line_start: 93921
+line_end: 93922
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

@@ -6,17 +6,19 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__010_solution.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 48638
-line_end: 48858
+line_start: 48902
+line_end: 49140
 dependencies:
+  - "A.10"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
   - "B.3"
   - "C.11"
+  - "C.11.CRC"
   - "C.16"
   - "C.17"
   - "C.18"
@@ -27,6 +29,7 @@ dependencies:
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.10.LRN"
   - "E.17"
   - "E.24.PUB"
   - "G.11"
@@ -180,10 +183,10 @@ The smallest useful `C.19` record usually states:
 - `currentTreatment = widen | keep_frontier | narrow_to_subset | sunset_line`
 - `changeTrigger = ...`
 - `nextQuestionPatternLocator? = ...` only when the question is no longer pool policy
-- `learningProgressSignal? = ...` when an autotelic or capability-discovery reason materially supports widening, keeping the frontier live, or probing one goal region further
-- `competenceModelRef? = ...` when the pool policy depends on a model of what the system or method family can learn next
-- `goalSpaceExpansionCue? = ...` when the admissible next treatment widens the goal and task palette rather than merely re-ranking current candidates
-- `goalSpaceExpansionPolicyRef? = ...` when goal and task space growth is itself governed by one declared archive or curriculum expansion policy
+- one or more native direct-owner reference fields only when an already constituted result or claim supports the treatment; retain the field name, kind, identity, claim episteme when applicable, and subject-pattern locator supplied by that owner—for example the A.2.2 `capabilityInstanceRef` and its `capabilityStatementRef`; an information-gain or articulated-endpoint use keeps the ref name and kind defined by its own direct owner—rather than replacing them with one C.19 signal or cue
+- `a10RelianceRef? = ...` only when the pool treatment actually relies on one evidence-bearing or source-bearing claim; the cited A.10 account keeps the exact relied-on claim, bounded pool-treatment use, evidence-provenance path, window, and `RelianceDisposition`
+- `competenceModelRef? = ...` only when it cites one exact model episteme used by the pool policy; that model is neither the capability, the owner-defined result, nor proof that the treatment may rely on either
+- `goalSpaceExpansionPolicyRef? = ...` only when one independently declared archive or curriculum expansion policy governs goal- or task-space growth
 - `assuranceResultRef? = ...` when graduation, scaling, or widening relies on one exact B.3 assurance result and its bounded supported scope
 - `whyNotLocalChoice = ...` when the result might otherwise be mistaken for `C.11`
 
@@ -199,13 +202,13 @@ whyNotLocalChoice = several family regions remain live
 
 When `currentTreatment = narrow_to_subset`, `livePool` still names one internal retained subset or one live pool subset. It does not yet mint one public `Shortlist`, one public `RankedShortlist`, or one `ShortlistId`. If selector-facing result declaration is now required, the admissible `C.19` record leaves `currentTreatment` as the last pool treatment and fills `nextQuestionPatternLocator = G.5`, with the reason that result declaration rather than pool policy is now current.
 
-Goal and task space growth is one pool-policy doctrine over the archive or curriculum side. When autotelic or capability-discovery pressure is active, cite `goalSpaceExpansionPolicyRef` together with the supporting `learningProgressSignal`, `competenceModelRef`, or `goalSpaceExpansionCue`; that doctrine may justify `widen`, `keep_frontier`, or one further probe decision value, but it does not become default `Q`, does not rename the front, and does not declare one selector-facing shortlist without `G.5`.
+Goal and task space growth is one pool-policy doctrine over the archive or curriculum side. When autotelic or capability-discovery pressure is active, cite `goalSpaceExpansionPolicyRef` only for an independently declared policy. Retain every supporting information-acquisition, capability, novelty, objective, articulated-endpoint, or other result or claim through its native direct-owner reference and kind. Add `a10RelianceRef` only for an evidence-bearing or source-bearing claim on which this treatment actually relies. Use `competenceModelRef` only for one exact model episteme, never as an alternative name for the capability, result, or reliance account. These inputs may support `widen`, `keep_frontier`, `narrow_to_subset`, or `sunset_line`; none becomes a generic signal or cue, default `Q`, dominance coordinate, probe choice, or selector-facing shortlist by entering the record.
 
 If the record does not already state which pool remains live, which lens and policy apply, and what would change that treatment next, it is still one unfinished `C.19` result.
 
 #### C.19:4.3a - Worked closure slice
 
-Three short contrasts keep the closure law practical.
+Four short contrasts keep the closure law practical.
 
 **Several family regions remain live.**
 When the point is to keep several lines active under one declared lens, the pool-policy result must not imply that one local choice has already been made:
@@ -217,6 +220,23 @@ currentTreatment = keep_frontier
 changeTrigger = one retained line satisfies graduation_condition_v3
 whyNotLocalChoice = three family regions remain live
 ```
+
+**An exact capability claim supports pool treatment.**
+An A.2.2 capability instance for `diagnostic_agent_v4` is qualified for task region `alpha`, while its current statement does not establish transfer into region `beta`. A separately declared curriculum-expansion policy keeps both regions live until that transfer question changes. Because the pool treatment actually relies on the capability statement, the record cites its exact A.10 reliance account:
+
+```text
+livePool = diagnosis_task_regions_{alpha,beta}
+governingLens = curriculum_expansion_policy_v3
+currentTreatment = keep_frontier
+changeTrigger = capability_statement_CS-44 gains an evidence-qualified transfer claim for region_beta
+capabilityInstanceRef = diagnostic_agent_capability_v4
+capabilityStatementRef = capability_statement_CS-44
+a10RelianceRef = A10_CS-44_keep-frontier_W8
+goalSpaceExpansionPolicyRef = curriculum_expansion_policy_v3
+whyNotLocalChoice = both regions remain live; no individual task or probe is selected
+```
+
+`capabilityInstanceRef` retains the A.2.2 `U.Capability` identity; `capabilityStatementRef` retains its governed episteme identity; and `a10RelianceRef` qualifies only the stated bounded reliance. None is renamed as a signal or cue, entered into the declared dominance set, or emitted as a `ChoiceResult`.
 
 **One region should now be sunset.**
 When a region's compatible cited Novelty coordinate result no longer clears the active floor, or the region no longer clears the direct graduation condition, state that treatment directly rather than leaving the retirement implicit:
@@ -243,7 +263,8 @@ whyNotLocalChoice = pool governance is already complete
 
 #### C.19:4.3b - Cultural and style live pools
 
-Use the same minimal pool-policy record for cultural or style live pools when the current question is how several style, tradition, method-family, work-family, canon, scene, or technique variants remain live under one lens.
+Use the same minimal pool-policy record
+ for cultural or style live pools when the current question is how several style, tradition, method-family, work-family, canon, scene, or technique variants remain live under one lens.
 
 ```text
 PoolPolicyResult:

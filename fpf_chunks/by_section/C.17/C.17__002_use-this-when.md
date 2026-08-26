@@ -6,12 +6,12 @@ section_id: "C.17:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__002_use-this-when.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:0 — Use this when"
-line_start: 47756
-line_end: 47776
+line_start: 47993
+line_end: 48014
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -30,10 +30,12 @@ dependencies:
   - "B.3"
   - "B.4"
   - "C.11"
+  - "C.11.CRC"
   - "C.16"
   - "C.18"
   - "C.19"
   - "C.2.1"
+  - "E.10.LRN"
   - "F.18"
   - "F.6"
   - "F.9"
@@ -56,8 +58,9 @@ keywords:
 
 Use C.17 when someone must say whether a design, code change, theory, policy proposal, dated Work occurrence, or finite candidate set—the bearer being discussed—is new relative to a named comparison basis and useful for a stated objective or must-criterion.
 
-Begin with the smallest useful answer:
+If the claim arrives as *learning progress*, *learned novelty*, or information gain described as *learning*, and the bearer or result is still hidden, apply `E.10.LRN` and the direct result owner first. Enter C.17 only after the bearer and the novelty, use, surprise, creativity, or other characterization question are exact. Stop at the direct result when no such characterization is current.
 
+Begin with the smallest useful answer:
 1. identify the bearer being discussed;
 2. say what it is new compared with;
 3. say which objective, acceptance criterion, or must-constraint matters;

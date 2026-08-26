@@ -6,12 +6,12 @@ section_id: "A.2.8:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__011_conformance-checklist.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:8 — Conformance Checklist"
-line_start: 6605
-line_end: 6619
+line_start: 6616
+line_end: 6630
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "A.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__004_forces.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:3 — Forces"
-line_start: 23652
-line_end: 23661
+line_start: 23676
+line_end: 23685
 dependencies:
   - "A.10"
   - "A.15.1"

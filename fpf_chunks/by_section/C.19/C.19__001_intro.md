@@ -6,17 +6,19 @@ section_id: "C.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__001_intro.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:intro — Intro"
-line_start: 48565
-line_end: 48580
+line_start: 48827
+line_end: 48842
 dependencies:
+  - "A.10"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
   - "B.3"
   - "C.11"
+  - "C.11.CRC"
   - "C.16"
   - "C.17"
   - "C.18"
@@ -27,6 +29,7 @@ dependencies:
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.10.LRN"
   - "E.17"
   - "E.24.PUB"
   - "G.11"
@@ -62,5 +65,5 @@ keywords:
 
 **Depends on.** `C.18` for archive and front stewardship, `C.16` for characteristic and measurement claims, `A.19.CPM` and `A.19.SelectorMechanism` for comparison and selection kernels, `B.3` for assurance-sensitive confidence claims, and `G.5` for ordinary selector and default tokens.
 
-**Coordinates with.** `C.17` for compatible characteristic results and `G.9` for parity comparison. `C.19:4.4` names the exact next-pattern coordination when the live question changes.
+**Coordinates with.** `E.10.LRN` only while learning-family wording hides an input's exact identity; `C.17` for compatible characteristic results; `C.11.CRC` for a missing finite configuration-relative comparison; and `G.9` for parity comparison. `C.19:4.4` names the exact next-pattern coordination when the live question changes.
 

@@ -6,12 +6,12 @@ section_id: "E.17.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 79503
-line_end: 79511
+line_start: 80000
+line_end: 80008
 dependencies:
   - "A.16.0"
   - "A.22"

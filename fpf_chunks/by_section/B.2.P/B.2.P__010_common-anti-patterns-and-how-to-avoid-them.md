@@ -6,12 +6,12 @@ section_id: "B.2.P:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 37146
-line_end: 37158
+line_start: 37170
+line_end: 37182
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,23 +6,27 @@ section_id: "C.11:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 45973
-line_end: 45991
+line_start: 46009
+line_end: 46027
 dependencies:
+  - "A.10"
   - "A.13"
   - "A.18"
   - "A.19"
   - "A.6.5"
   - "A.6.P"
+  - "C.11.CRC"
+  - "C.17"
   - "C.18"
   - "C.19"
   - "C.24"
   - "C.26"
   - "C.9"
+  - "E.10.LRN"
   - "G.5"
 keywords:
   - "ChoiceResult"

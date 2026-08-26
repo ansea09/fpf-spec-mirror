@@ -6,19 +6,22 @@ section_id: "C.18:7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__009_bias-annotation.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:7 — Bias-Annotation"
-line_start: 48383
-line_end: 48386
+line_start: 48644
+line_end: 48647
 dependencies:
   - "A.15"
   - "A.19"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "C.11"
+  - "C.11.CRC"
   - "C.16"
   - "C.19"
+  - "C.28"
   - "C.30"
   - "C.32"
   - "C.32.P2S"

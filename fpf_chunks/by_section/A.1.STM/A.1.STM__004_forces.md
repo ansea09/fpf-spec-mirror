@@ -6,12 +6,12 @@ section_id: "A.1.STM:2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__004_forces.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:2 — Forces"
-line_start: 2512
-line_end: 2523
+line_start: 2523
+line_end: 2534
 dependencies:
   - "A.1"
   - "A.1.SCR"

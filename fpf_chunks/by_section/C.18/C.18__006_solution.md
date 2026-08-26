@@ -6,19 +6,22 @@ section_id: "C.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__006_solution.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:4 — Solution"
-line_start: 48203
-line_end: 48358
+line_start: 48441
+line_end: 48616
 dependencies:
   - "A.15"
   - "A.19"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "C.11"
+  - "C.11.CRC"
   - "C.16"
   - "C.19"
+  - "C.28"
   - "C.30"
   - "C.32"
   - "C.32.P2S"
@@ -188,7 +191,27 @@ Every optional field whose name ends in `Ref?` points to a separately identified
 
 Use this record when generation is current. `architectureCandidateRefs` become architecture moves only through `C.30`, `C.30.ASV`, or `C.30.AD`. `culturalVariantRefs` become cultural-evolution cases only through `C.36`. Local choice uses `C.11`; work planning and performed work use the A.15 family; effect measurement uses its direct measurement and evaluation patterns; refresh uses `G.11`. P2W carry-through uses `E.18.1` when an accepted problem-side distinction must be preserved into the next relation.
 
+#### C.18:4.3a - Distinguish exploration inside a space from change to the space
+
+Apply this branch only when whether the effective possibility space changed can alter retention, comparison, generation, architecture, or the next decision. Start by declaring the current space through the candidate grammar or type boundary, generator and operators, available building blocks, evaluator or comparator, retention or reproduction rule, goals or actions, and environment that matter for this case. The declaration may be ordinary domain content or a cited description; it does not create a universal `PossibilitySpace` kind.
+
+Then state the smallest supported mode:
+
+| Mode wording | Required claim | Blocked overread |
+| --- | --- | --- |
+| **exploratory** | The candidate, trajectory, or recombination is new or distant under the declared descriptors but remains admissible under the same effective generator, types/operators, evaluator, retention rule, and environment. | Archive distance, novelty, local learning progress, or rarity does not prove that the space expanded. |
+| **expansive** | A new dimension, candidate type, operator, building block, goal/action, or reachable region becomes admissible while the higher-order generation/evaluation regime remains sufficiently comparable for the stated use. | A newly visited region is not expansion unless it was unavailable under the earlier effective space. |
+| **transformational** | The rule or representation that generates, admits, evaluates, retains, reproduces, or environmentally enables candidates changes so that what counts as a candidate, successor, or acceptable result changes. | Rewording, a new score, or one surprising candidate does not establish a changed regime. |
+
+The first result is one ordinary `C.2.1` claim naming the earlier and candidate space declarations, exact changed component, mode wording, counterfactual or trajectory evidence, uncertainty, blocked stronger claim, and next governing relation. Use `C.28` for a causal claim that the component change produced the new reachability. Use `C.11.CRC` when a finite space-changing intervention must be compared with the current configuration, and `C.11` for the later choice.
+
+Stop at ordinary same-space exploration when no action depends on the stronger mode. Reopen only when the candidate grammar, generator, operator set, evaluator, retention/reproduction rule, goals/actions, environment, evidence, or receiving decision changes.
+
+**Worked micro-case.** A cooling-module search previously admits only fixed rectangular layouts assembled by the same connection operators and evaluated under the same thermal/maintainability comparator. A new layout far from the archive remains exploratory if those rules still admit it. Adding a validated curved-channel building block and operator is expansive only when the earlier generator could not express the resulting layouts and the comparison still uses a compatible higher-order regime. Replacing candidate admission and retention with a context-adaptive rule that changes which successors count is transformational only when the earlier/candidate rule mapping and observed reachability support that stronger claim. A higher novelty score alone establishes none of these transitions.
+
+
 #### C.18:4.4 - Front And Archive Are Different Returns
+
 
 - Start from one declared candidate or eligibility set.
 - Return the non-dominated front over the declared comparator, dominance set, or relation-token set.

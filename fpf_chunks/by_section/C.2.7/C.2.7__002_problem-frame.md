@@ -6,12 +6,12 @@ section_id: "C.2.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__002_problem-frame.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:1 — Problem frame"
-line_start: 43285
-line_end: 43287
+line_start: 43314
+line_end: 43316
 dependencies:
   - "A.16"
   - "A.16.0"

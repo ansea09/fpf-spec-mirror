@@ -6,17 +6,19 @@ section_id: "C.19:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__013_conformance-checklist.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:7 — Conformance Checklist"
-line_start: 48875
-line_end: 48894
+line_start: 49157
+line_end: 49176
 dependencies:
+  - "A.10"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
   - "B.3"
   - "C.11"
+  - "C.11.CRC"
   - "C.16"
   - "C.17"
   - "C.18"
@@ -27,6 +29,7 @@ dependencies:
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.10.LRN"
   - "E.17"
   - "E.24.PUB"
   - "G.11"
@@ -60,7 +63,7 @@ keywords:
 - **C19-8** When a heterogeneity-first profile is used, provenance **MUST** name each admitted heterogeneity constraint and its governing policy id. If a family or subfamily quota applies, record the exact quota vector and family-definition id; if sampling applies, record the sampler class, seed when relevant, and sampler-policy id. Do not fabricate a default triad, quota, or sampler.
 - **C19-9** A `PoolPolicyResult` **MUST** identify `livePool`, `governingLens`, `changeTrigger`, and exactly one `currentTreatment` token from `widen | keep_frontier | narrow_to_subset | sunset_line`; `lens` and space-separated treatment spellings are not alternate record fields or values.
 - **C19-10** If the question under repair is local option choice, an enactment-facing plan, selector-facing result declaration, or publication availability, `C.19` **MUST** name the applicable pattern rather than restate it: `C.11`, `C.24`, `G.5`, `E.17`, or `E.24.PUB`.
-- **C19-11** If autotelic or capability-discovery evidence is used, the record **MUST** name `goalSpaceExpansionPolicyRef` when one governs widening and the `learningProgressSignal`, `competenceModelRef`, or `goalSpaceExpansionCue` that supports the pool treatment, and it **MUST** keep those signals outside default dominance unless an explicit promotion policy is recorded.
+- **C19-11** If goal- or task-space expansion, autotelic pressure, or capability-discovery support is used, the record **MUST** cite `goalSpaceExpansionPolicyRef` only when one independently declared policy governs the treatment; retain each supporting result or claim under its native direct-owner reference, kind, identity, claim episteme when applicable, and subject-pattern locator; add `a10RelianceRef` only for an evidence-bearing or source-bearing claim on which the pool treatment actually relies; and use `competenceModelRef` only for one exact model episteme. None of these inputs becomes a generic signal or cue, default dominance coordinate, probe choice, or selector result merely by supporting the treatment; any actual dominance promotion still requires the explicit lens or policy rule and provenance required above.
 - **C19-12** If exploration collects data for a causal claim, learns or evaluates a causal policy, or treats counterfactual replay as support, `PoolPolicyResult.causalUseSpec?` **MUST** carry the target rung, claim kind, available support-component refs, supported use, unsupported use, and the C.28 support-result ref when one is consumed.
 - **C19-13** A pool-policy record for still-live loop-engineering candidates—for example, loops, agent harnesses, workflows, or DPF seeds—names the pool, governing lens, current treatment, and change trigger. Fresh generation, archive work, or front recomputation uses `C.18` as the pool-policy pass specifies. Any other next-result question uses the exact transfer in `C.19:4.4`; C.19 does not absorb improvement, declaration or publication, choice, Work, or refresh.
 - **C19-14** A pool-policy record, its evidence, and its treatment constitute neither an actual Problem nor `ProblematicForRelation`, improvement result, work result, project Work or parthood, `ChoiceResult`, public selected set, work permission, nor refreshed edition.

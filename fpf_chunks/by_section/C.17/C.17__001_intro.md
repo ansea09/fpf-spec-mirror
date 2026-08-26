@@ -6,12 +6,12 @@ section_id: "C.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__001_intro.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:intro — Intro"
-line_start: 47748
-line_end: 47755
+line_start: 47985
+line_end: 47992
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -30,10 +30,12 @@ dependencies:
   - "B.3"
   - "B.4"
   - "C.11"
+  - "C.11.CRC"
   - "C.16"
   - "C.18"
   - "C.19"
   - "C.2.1"
+  - "E.10.LRN"
   - "F.18"
   - "F.6"
   - "F.9"
@@ -58,5 +60,5 @@ keywords:
 
 **Depends on.** `A.17`, `A.18`, and `A.19` for Characteristics, Scales, and CharacteristicSpaces; `A.19.ECS` for the evaluation-space specification; `C.16` for measurement; `C.2.1` and `A.1.1` for claim-bearing results and models; `A.10` and `B.3` for evidence, reliance, and assurance; and the patterns that define the current objective, acceptance criterion, and must-constraints.
 
-**Coordinates with.** `C.18` for generation, Archive, and Front; `C.19` for pool policy and tie-break use; `G.5` for selector-facing declarations; `C.11` for choice; `F.9` for an actual cross-reference-scheme Bridge; `F.18` for naming-candidate diversity; `B.4` and `G.11` for evolution and refresh; `A.15.1`, `F.6`, and `A.3.1` for dated overall-assessment Work; `A.3.2` when a relied-on MethodDescription matters; and `A.6.1` only when the assessment also uses one exact operation declared by a separately admitted `U.Mechanism` and a claim needs that operation's application or bindings.
+**Coordinates with.** `E.10.LRN` when *learning progress* or related wording still hides the bearer or result; `C.18` for generation, Archive, Front, and possibility-space change; `C.19` for pool policy and tie-break use; `G.5` for selector-facing declarations; `C.11.CRC` for a missing finite configuration-relative comparison; `C.11` for choice; `F.9` for an actual cross-reference-scheme Bridge; `F.18` for naming-candidate diversity; `B.4` and `G.11` for evolution and refresh; `A.15.1`, `F.6`, and `A.3.1` for dated overall-assessment Work; `A.3.2` when a relied-on MethodDescription matters; and `A.6.1` only when the assessment also uses one exact operation declared by a separately admitted `U.Mechanism` and a claim needs that operation's application or bindings.
 

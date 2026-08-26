@@ -6,12 +6,12 @@ section_id: "A.6.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__002_problem-frame.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:1 — Problem frame"
-line_start: 13135
-line_end: 13151
+line_start: 13146
+line_end: 13162
 dependencies:
   - "A.6.0"
   - "A.6.1"

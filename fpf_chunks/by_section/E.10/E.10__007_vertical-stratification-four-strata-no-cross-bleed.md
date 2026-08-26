@@ -6,12 +6,12 @@ section_id: "E.10:5"
 section_title: "Vertical Stratification (four strata; no cross-bleed)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__007_vertical-stratification-four-strata-no-cross-bleed.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:5 — Vertical Stratification (four strata; no cross-bleed)"
-line_start: 73459
-line_end: 73475
+line_start: 73742
+line_end: 73758
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,6 +39,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.10.D1"
+  - "E.10.LRN"
   - "E.10.MOVE"
   - "E.10.ROLE"
   - "E.17"

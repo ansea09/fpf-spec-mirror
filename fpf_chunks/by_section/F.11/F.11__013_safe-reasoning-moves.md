@@ -6,12 +6,12 @@ section_id: "F.11:12"
 section_title: "Safe reasoning moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__013_safe-reasoning-moves.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:12 — Safe reasoning moves"
-line_start: 93891
-line_end: 93903
+line_start: 94388
+line_end: 94400
 dependencies:
   - "A.15"
   - "A.15.1"

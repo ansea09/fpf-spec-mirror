@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__014_archetypal-grounding-worked-cases.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:12 — Archetypal Grounding - worked cases"
-line_start: 95810
-line_end: 96455
+line_start: 96307
+line_end: 96958
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
+  - "E.10.LRN"
   - "E.10.MOVE"
   - "E.11"
   - "E.17.0"
@@ -61,6 +62,12 @@ The UTS row does not declare one universal reviewer kind. It creates two rows. O
 #### F.17:12.2 - Status label looks like a system-role-kind name
 
 A team proposes `BlockedReviewer` as a public label. F.17 does not accept it as a row until the two governed values are separated. `ReviewerSystemRole` is a local system-role kind; `blocked` is a status-family or status-window value. The sheet may record one system-role-kind row and one status row, with a note that a local UI may render their labels together. The table creates neither a `BlockedReviewerSystemRole` kind nor an assignment. If either exact row edition must later be made available, use a separate E.24.PUB publication package.
+
+#### F.17:12.2a - *Learning* is an anti-row and split prompt
+
+A DPF or dashboard proposes one public `Learning` row, perhaps with `LearningProgress` as its value. Apply `E.10.LRN` first. Teaching or practice Work, a holder's capability, a fitted model edition, an inference result, acquired information, a representation relation, cultural change, and a course or other product are independently governed values and claims. Performance, capability evidence, information gain, model fit, prediction error, compression, and representation change are likewise different progress coordinates; shared spelling does not make them one governed value, one `SchemeSenseCell`, or an F.9 Bridge.
+
+F.17 therefore creates no umbrella `Learning` or `LearningProgress` row. If one recovered value later needs a durable public designation, apply F.14 and F.18 to that exact value and create at most one row for its admitted use; another recovered value receives another row only under its own gate. When the direct claim is already readable or durable reuse is absent, stop with no UTS row.
 
 #### F.17:12.3 - Relation and slot names become reusable
 

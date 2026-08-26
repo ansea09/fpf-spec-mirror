@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9`
+Commit SHA: `d064720b072b822cbb2f1d41e555cf08e2904f11`
 
 Chunking method: `pattern-aware`
 
-Patterns: `302`
+Patterns: `304`
 
 ## Patterns
 
@@ -150,6 +150,7 @@ Patterns: `302`
 - [C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)](by_pattern/C.3.5.md)
 - [C.3.A — Typed Guard Macros for Kinds + USM (Annex)](by_pattern/C.3.A.md)
 - [C.11 — Decision Theory (Decsn-CAL)](by_pattern/C.11.md)
+- [C.11.CRC — Configuration-Relative Contribution Comparison](by_pattern/C.11.CRC.md)
 - [C.13 — Constructional Mereology (Compose‑CAL)](by_pattern/C.13.md)
 - [C.16 — Measurement & Metrics Characterization (MM‑CHR)](by_pattern/C.16.md)
 - [C.16.P — Characteristic and Scale Precision Restoration](by_pattern/C.16.P.md)
@@ -234,6 +235,7 @@ Patterns: `302`
 - [E.9 — Design‑Rationale Record (DRR) Method](by_pattern/E.9.md)
 - [E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace](by_pattern/E.9.DA.md)
 - [E.10 — Unified Lexical Rules for FPF](by_pattern/E.10.md)
+- [E.10.LRN — Recovering What “Learning” Means in the Current Claim](by_pattern/E.10.LRN.md)
 - [E.10.MOVE — Move and Readiness Wording Precision Restoration](by_pattern/E.10.MOVE.md)
 - [E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture](by_pattern/E.10.ARCH.md)
 - [E.10.ROLE — Recovering What “Role” Means in the Current Claim](by_pattern/E.10.ROLE.md)

@@ -6,12 +6,12 @@ section_id: "A.16.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 27607
-line_end: 27613
+line_start: 27631
+line_end: 27637
 dependencies:
   - "A.16"
   - "A.16.0"

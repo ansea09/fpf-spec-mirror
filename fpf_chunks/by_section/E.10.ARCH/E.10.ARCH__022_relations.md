@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__022_relations.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:14 — Relations"
-line_start: 75008
-line_end: 75034
+line_start: 75505
+line_end: 75531
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -67,7 +67,7 @@ keywords:
 ### E.10.ARCH:14 - Relations
 
 - `E.4.DPF` defines the DPF entry condition and the placement rule: each domain entry remains beside the DPF claim whose wording it restores; a separate local profile exists only for a named maintained multi-entry use, and any table that publishes it remains a publication form.
-- Use `E.10` to recognize and close local wording issues or select the applicable row; use `E.10.ROLE` for bare claim-bearing *role*, which has no default Tech reading.
+- Use `E.10` to recognize and close local wording issues or select the applicable row; use `E.10.LRN` only while claim-bearing learning wording hides the changed subject, Work, Method, result, evidence, or use; use `E.10.ROLE` for bare claim-bearing *role*, which has no default Tech reading.
 - `E.10.ROLE` provides the thin first entry from bare claim-bearing *role*. `A.6.RSIR` realizes first-level recovery for the narrower relation, signature, interface, assignment, declaration-slot, operation, and representation cluster only until the defining or testing rule for the recovered object is clear.
 - `A.6.P` realizes the shared algorithm for generic relation construction and retained relation specializations. An `A.6.P.WMR` application records exactly one result family for a current Work and Method boundary claim: an exact direct subject-relation claim, positive or governed negative; an exact `A.6.1` operation-application binding; a local `A.15.PROD` claim or another local relation-bearing claim selected under `A.6.RCD` disposition 2; or exact non-assertability as `factually unsupported`, `missing-information`, or `missing-governor`. Only the last names the affected receiving use and needed future relation rule or declaration. Use `A.6.RCD` only for the residual needed-claim derivation and relation-kind admission question after exact participants are known and no lighter current rule closes the receiver.
 

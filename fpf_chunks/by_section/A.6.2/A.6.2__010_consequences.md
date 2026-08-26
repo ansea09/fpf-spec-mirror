@@ -6,12 +6,12 @@ section_id: "A.6.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__010_consequences.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:9 — Consequences"
-line_start: 13470
-line_end: 13485
+line_start: 13481
+line_end: 13496
 dependencies:
   - "A.6.0"
   - "A.6.1"

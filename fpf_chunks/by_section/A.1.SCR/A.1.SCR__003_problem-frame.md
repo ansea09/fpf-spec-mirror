@@ -6,12 +6,12 @@ section_id: "A.1.SCR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__003_problem-frame.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:1 — Problem frame"
-line_start: 2252
-line_end: 2257
+line_start: 2263
+line_end: 2268
 dependencies:
   - "A.1"
   - "A.1.STM"

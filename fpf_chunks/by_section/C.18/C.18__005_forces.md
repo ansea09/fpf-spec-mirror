@@ -6,19 +6,22 @@ section_id: "C.18:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__005_forces.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:3 — Forces"
-line_start: 48192
-line_end: 48202
+line_start: 48430
+line_end: 48440
 dependencies:
   - "A.15"
   - "A.19"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "C.11"
+  - "C.11.CRC"
   - "C.16"
   - "C.19"
+  - "C.28"
   - "C.30"
   - "C.32"
   - "C.32.P2S"

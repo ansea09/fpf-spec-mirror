@@ -6,23 +6,27 @@ section_id: "C.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__005_solution.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:4 — Solution"
-line_start: 45454
-line_end: 45898
+line_start: 45483
+line_end: 45934
 dependencies:
+  - "A.10"
   - "A.13"
   - "A.18"
   - "A.19"
   - "A.6.5"
   - "A.6.P"
+  - "C.11.CRC"
+  - "C.17"
   - "C.18"
   - "C.19"
   - "C.24"
   - "C.26"
   - "C.9"
+  - "E.10.LRN"
   - "G.5"
 keywords:
   - "ChoiceResult"
@@ -106,7 +110,14 @@ A conforming `C.11` pass does not stop at naming schools of decision theory. It 
    If the result is `probe again`, name the next probe and the exact comparison defect it is supposed to repair.
    A `C.11` pass is done only when it names the lawful choice result and the reason that result is lawful.
 
+#### C.11:4.2a - Receive heterogeneous premises without relabeling them as signals
+
+An interesting observation, information-gain estimate, capability result, objective or reward, articulated former cue, or `C.17` characterization enters this pattern only under its exact source/result identity. Use `E.10.LRN` first when *learning* wording still hides that identity. Use `A.10` when an evidence-bearing or source-bearing claim is actually relied on: its existing `RelianceDisposition` qualifies only that bounded premise use. An objective, reward, preference, or loss enters as the `EvaluativeMeasure`, `PreferenceOrder`, or `ChoiceRule` input it actually supplies and is not evidence by numerical form. When an `A.16.1` cue pack remains current as a source or provenance episteme, preserve that source identity and route the separately articulated endpoint result through its direct claim owner. A `C.17` novelty, surprise, use, or creativity characterization remains a characterization and does not license a move by itself.
+
+No separate premise-qualification result sits between those owners and `C.11`. Use the qualified inputs in the live option/probe comparison and return only the existing `ChoiceResult`. When the missing comparison basis is specifically what a finite candidate contributes relative to the current configuration, use `C.11.CRC` to construct that ordinary comparison claim and return here. If every premise and the finite comparison are already explicit, proceed directly.
+
 #### C.11:4.2.1 - Well-formed comparison state
+
 
 Well-formedness constraint: a live `C.11` comparison state is usable only when the decision record states all of the following:
 

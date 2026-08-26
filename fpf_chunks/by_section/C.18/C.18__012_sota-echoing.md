@@ -6,19 +6,22 @@ section_id: "C.18:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__012_sota-echoing.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:10 — SoTA-Echoing"
-line_start: 48406
-line_end: 48419
+line_start: 48667
+line_end: 48681
 dependencies:
   - "A.15"
   - "A.19"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "C.11"
+  - "C.11.CRC"
   - "C.16"
   - "C.19"
+  - "C.28"
   - "C.30"
   - "C.32"
   - "C.32.P2S"
@@ -50,7 +53,7 @@ keywords:
 
 ### C.18:10 - SoTA-Echoing
 
-**Source-currentness boundary.** This source-use basis was reviewed through 2026-08-01. Mutable preprints are pinned below to the edition actually used; the Qin et al. survey is pinned to its DOI-fixed journal article. Reopen the affected source-use row through `G.11` when a cited revision changes the archive, front, generation, or evaluation claim used here; when a newer field survey materially changes the known QD/OEE boundary; or when contrary evidence changes what can be claimed about bounded archives, descriptor generalization, or open-ended evaluation. C.18 records that trigger and the affected row but does not itself perform refresh.
+**Source-currentness boundary.** This source-use basis was reviewed through 2026-08-26. Mutable preprints are pinned below to the edition actually used; the Qin et al. survey is pinned to its DOI-fixed journal article. Reopen the affected source-use row through `G.11` when a cited revision changes the archive, front, generation, or evaluation claim used here; when a newer field survey materially changes the known QD/OEE boundary; or when contrary evidence changes what can be claimed about bounded archives, descriptor generalization, or open-ended evaluation. C.18 records that trigger and the affected row but does not itself perform refresh.
 
 | Source or source family | Adopted FPF move | Rejected overread | Field or boundary changed |
 |---|---|---|---|
@@ -61,4 +64,5 @@ keywords:
 | Novikov et al., `AlphaEvolve`, arXiv:2506.13131v1 (2025-06-16). | Separate generated method text, method description, evaluator relation, selected set, source-use relation, performed work, and work result. | Generated algorithm text is proof, gate permission, accepted method selection, or performed work. | `evaluatorOrComparatorRef`, lineage, source refs, and `nextGoverningRelation` decide whether to use C.18, A.19, `G.5`, `C.11`, A.15, or `G.11`. |
 | Cultural-evolution and style-engineering source pressure from the music and dance intake. | Keep generated style or tradition variants as archive or front records until a cultural-evolution case or term bridge is current. | A cultural-style variant is a root cultural kind or a selected set by label. | `culturalVariantRefs` continue to `C.36`, `F.17`, `F.18`, or `F.9`; selected-set result declaration continues to `G.5`, with a stable public identity added only through its conditional UTS branch. |
 | Architecture-search and product-family work. | Treat retained structures as candidate architecture moves only after the architecture claim is named. | An archive of layouts is the architecture or the architecture decision. | Architecture candidates require `C.30`, `C.30.ASV`, `C.30.AD`, or `C.32.P2S` after C.18 records descriptor, archive or front relation, and telemetry. |
+| Taylor, [*Evolutionary Innovations and Where to Find Them*](https://arxiv.org/abs/1806.01883), 2019, read with Di Bona et al., [higher-order novelties](https://www.nature.com/articles/s41467-024-55115-y), 2025, and Kalambokidis et al., [diversity and open-ended evolution](https://www.nature.com/articles/s44260-026-00072-4), 2026. | Distinguish exploratory, expansive, and transformational claims; keep generator, evaluator, building blocks, retention/reproduction, environment, and opportunity structure explicit. | A taxonomy or high novelty/diversity result proves that a transferred non-evolutionary case changed its possibility space. | `C.18:4.3a` requires an exact earlier/candidate mapping and evidence limit; causal production uses `C.28`. |
 

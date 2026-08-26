@@ -6,23 +6,27 @@ section_id: "C.11:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__007_bias-annotation.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:6 — Bias-Annotation"
-line_start: 45943
-line_end: 45952
+line_start: 45979
+line_end: 45988
 dependencies:
+  - "A.10"
   - "A.13"
   - "A.18"
   - "A.19"
   - "A.6.5"
   - "A.6.P"
+  - "C.11.CRC"
+  - "C.17"
   - "C.18"
   - "C.19"
   - "C.24"
   - "C.26"
   - "C.9"
+  - "E.10.LRN"
   - "G.5"
 keywords:
   - "ChoiceResult"

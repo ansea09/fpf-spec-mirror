@@ -6,12 +6,12 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:0 — Use this when"
-line_start: 72534
-line_end: 73413
+line_start: 72816
+line_end: 73696
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,6 +39,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.10.D1"
+  - "E.10.LRN"
   - "E.10.MOVE"
   - "E.10.ROLE"
   - "E.17"
@@ -76,7 +77,7 @@ Ordinary `E.10` use is one bounded FPF-governed wording repair, not a full lexic
 
 1. `BoundedTextSpan`: the exact sentence, row, section, pattern version, `DRR` slice, or project text deliberately using FPF-governed terms, pattern references, relation names, or conformance claims under repair.
 2. `TriggerSpan`: the word or phrase that carries possible FPF-governed use.
-3. `SelectedInterpretation`: one applicable repair-path classification from this closed value set—ordinary no FPF-governed use, local head repair, register repair, morphology repair, context-word recovery through `E.10.D1`, bare-role meaning recovery through `E.10.ROLE`, relation-like precision restoration, episteme precision restoration, publication precision restoration, source-use relation or source-ref target recovery, durable naming, or not-triggered false positive.
+3. `SelectedInterpretation`: one applicable repair-path classification from this closed value set—ordinary no FPF-governed use, local head repair, register repair, morphology repair, context-word recovery through `E.10.D1`, learning-word recovery through `E.10.LRN`, bare-role meaning recovery through `E.10.ROLE`, relation-like precision restoration, episteme precision restoration, publication precision restoration, source-use relation or source-ref target recovery, durable naming, or not-triggered false positive.
 4. `FinalWordingOrBlocker`: the accepted local wording, the result returned by the selected repair or pattern, or the blocker that remains.
 5. `StopBackToSubstance`: once the final wording or blocker is written, return to the domain question that made the phrase matter. Further lexical classification is non-use unless another phrase still hides an FPF-governed claim.
 
@@ -141,6 +142,7 @@ Classification is not closure. A conforming result ends in one of these by-value
 | No FPF-governed use after the wording-use check | Keep ordinary prose, quote, didactic phrase, or not-triggered text. | No precision-restoration pattern is applicable. |
 | Local lexical or register ambiguity only | Local rewrite under `E.10`. | Repaired wording plus remaining reader use, or ordinary-prose demotion. |
 | *Context* wording that hides subject-defined content whose boundary changes the action—for example, a scheme, scope, model-use boundary, situation, design-time or run-time referent, architecture, environment, domain subject, or local-practice use | Apply `E.10.D1`; then apply only the pattern needed for the recovered value or relation. | One repaired statement names the content hidden by *context* and gives the next subject-matter action or stop. It creates no generic Context participant, `ContextId`, or two-part `SenseCell(Context, LocalSense)`. |
+| *Learn*, *learning*, *learned*, *taught*, or *trained* wording whose current participant, changed subject, Work, Method, result, evidence, or receiving use is hidden | Apply `E.10.LRN`; split unlike claims and then use each direct subject pattern. | Repaired or split ordinary claims naming the exact capability, teaching or training Work, model-fitting result, inference result, information-acquisition result, representation relation, cultural change, product, or ordinary non-use; no generic `LearningResult`, learner or teacher kind, progress scale, or UTS row. |
 | Modifier-without-head, vague compound head, or enumeration-as-kind wording whose governed head, declaration, direct relation, representation, alternatives, or applicable rule is hidden | Apply `E.10` head-kind recovery first, then use the relevant pattern if it is already known. Otherwise use the selected restoration branch: `A.6.P` for relation construction, `C.2.P` for source-ref target, publication, carrier, or project-side reference recovery, `E.10.MOVE` for move, step, action, or readiness wording, `E.10.ARCH` plus `C.30.P` or `C.30.STRAT` for architecture or stratification source-label wording, `E.24` when a real ontic candidate decision is current, or `F.18` only after the governed kind and use are recovered. | Selected FPF kind or alternative-case set; obtaining direct relation and actual participants; receiver-needed relation-occurrence identity; reusable `RelationSignature` with A.6.5 `SlotSpec` values only when declaration is current; claim-bearing episteme and participant designations only when an assertion is current; C.29 representation element and explicit correspondence only when representation is current; ordinary-prose demotion; reduced-use cue; blocked use; or incomplete-rewrite disposition. No list or compound head becomes a kind by itself. |
 | Relation-like wording or relation-bearing use | Apply `A.6.P` or a retained A.6 relation specialization. Only when exact participants are recovered and no current direct relation closes the named receiving claim, handle the residual under `A.6.RCD`. | State the obtaining named direct relation, actual participants, and qualifier values. Distinguish one relation occurrence only for a named receiving use; add a reusable `RelationSignature` and A.6.5 participant or qualifier `SlotSpec` values only when declaration is current; keep a row that states the claim as a claim-bearing episteme with participant designations, and keep any graph, tuple, field, or table element as a C.29 representation with explicit correspondence. Otherwise the exact residual is one of these `A.6.RCD` results: disposition 2, a local compound claim; disposition 3, a reusable predicate-definition episteme, optionally continuing to a derived-kind candidate plus its proposed direct subject settlement only when a named receiver additionally needs stable occurrence semantics; or disposition 4, a primitive-kind candidate plus its candidate standalone direct pattern. `E.24` and `E.24.UK` retain admission, and `A.6.0` declaration follows only after admission. Every branch preserves admissible relation use, blocked overread, and remaining reader use. |
 | Bare claim-bearing *role* whose current object or relation is not already clear | Apply `E.10.ROLE`. First write the ordinary sentence with its recognizable object and action or relation; then use `A.2` and C.3 for an exact local system-role kind, `A.2.1` for one exact direct assignment species, `A.6.RSIR` for direct participation, declaration, interface, operation, or representation recovery, or the direct pattern for another recovered object or relation. | One exact recovered object or relation and its pattern; ordinary or quoted non-use; or the exact blocker. Bare *role* has no default Tech reading and creates no system admission, classification, assignment, agency, capability, participation, responsibility, Work, or episteme use. |

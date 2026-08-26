@@ -6,12 +6,12 @@ section_id: "A.1.STM:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__015_relations.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:13 — Relations"
-line_start: 2641
-line_end: 2647
+line_start: 2652
+line_end: 2658
 dependencies:
   - "A.1"
   - "A.1.SCR"

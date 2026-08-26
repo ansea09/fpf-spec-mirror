@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.1.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
-line_start: 90219
-line_end: 90525
+line_start: 90716
+line_end: 91022
 dependencies:
   - "A.10"
   - "A.7"

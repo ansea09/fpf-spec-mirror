@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:2"
 section_title: "Distribution architecture"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__008_distribution-architecture.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:2 — Distribution architecture"
-line_start: 74724
-line_end: 74791
+line_start: 75220
+line_end: 75287
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -70,7 +70,7 @@ The standing construction is:
 
 1. The author uses `E.10` to recognize an FPF-governed wording use, close it locally when possible, or select a defining or testing rule, controlled precision-reduction pattern, durable-name application, or fail-closed non-use disposition.
 2. The `E.10.ARCH` text contains the shared recovery algorithm and the `WordingUseRestorationApplicabilityTable`.
-3. The author applies a bounded entry or realization pattern such as `E.10.ROLE`, `A.6.RSIR`, `A.6.P`, `A.6.P.WMR`, `A.6.RCD`, `A.6.F`, `C.2.P`, `C.2.P.DR`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, or `A.3.1`, or directly uses the rule for an evidence, graph, method, mechanism, work, gate, authority, release, or publication-use claim. The selected content unpacks the wording for one named `semanticArea` and its `ontologicalNeighborhood`. Use `E.10.ROLE` only for bare claim-bearing *role*. Use `A.6.P.WMR` after generic relation recovery only when one Method and Work boundary claim remains hidden; use `A.6.RCD` only after exact participants are recovered and no current direct relation or already admitted local relation-bearing claim closes the receiving claim.
+3. The author applies a bounded entry or realization pattern such as `E.10.LRN`, `E.10.ROLE`, `A.6.RSIR`, `A.6.P`, `A.6.P.WMR`, `A.6.RCD`, `A.6.F`, `C.2.P`, `C.2.P.DR`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, or `A.3.1`, or directly uses the rule for an evidence, graph, method, mechanism, work, gate, authority, release, or publication-use claim. The selected content unpacks the wording for one named `semanticArea` and its `ontologicalNeighborhood`. Use `E.10.LRN` only while claim-bearing learning wording hides the changed subject, Work, Method, result, evidence, or use. Use `E.10.ROLE` only for bare claim-bearing *role*. Use `A.6.P.WMR` after generic relation recovery only when one Method and Work boundary claim remains hidden; use `A.6.RCD` only after exact participants are recovered and no current direct relation or already admitted local relation-bearing claim closes the receiving claim.
 4. Additional applicability rows, and only when needed additional realization patterns, appear when repeated FPF-governed wording hides a stable primary-EntityOfConcern use field set, a stable recovery shape, and a useful remaining reader use that no existing subject pattern already carries.
 5. `E.8` defines pattern-form and placement requirements for wording such as `pattern nest`, and requires authoring prose that uses `ontologicalNeighborhood` to expose the relevant `semanticAreaBaseConcept`, `semanticArea`, and `semanticAreaSenseFamily` rather than treating neighborhood as the semantic unit.
 6. An author or reviewer uses `E.19` to check that authored pattern hosts preserve this distribution and do not keep rival first-stage repair doctrine.
@@ -102,7 +102,7 @@ When the governed object, exact direct relation, claim-bearing episteme, represe
 
 For bare claim-bearing *role*, use `E.10.ROLE` to recover the sentence's work-facing or use-facing object and stop when one exact object or relation and its defining rule are clear. Use `A.6.RSIR` only for the narrower relation-signature-interface-assignment-slot cluster, including direct-relation, declaration, interface, operation, and representation branches recovered under `E.10.ROLE`. Neither entry is a new ontology; after selection, the recovered object's rule defines the content and its pattern ID is only a locator.
 
-
+For claim-bearing *learn*, *learning*, *learned*, *taught*, or *trained* wording, use `E.10.LRN` only while the participant, changed subject, Work, Method, result, evidence, or receiving use is hidden. It returns corrected or split claims to their direct capability, Work, model-fitting, inference, information-acquisition, representation, cultural-change, product, evidence, or decision owners. It defines no generic learning process, result, role kind, progress scale, or UTS value.
 Use an ontic-level restoration pattern only when recurring wording hides a candidate durable ontology unit whose primary governed subject kind, stable identity, core direct relation, named neighboring direct relations, and subject patterns need joint recovery before wording repair. The restoration recovers the exact current governed objects and direct relation uses; it does not treat declaration-local SlotKinds or assertion-side participant designations as parts of the ontic.
 
 Use `E.24.CD` only when recurring wording exposes a candidate subject that may need an E.24 ontic-introduction decision: a potential primary governed subject kind, stable identity, core direct relation, named neighboring direct relations, and action-facing gain that no existing rule already carries. Use `E.24.PUB` only when the repair must distinguish ontic, ontic-description episteme, publication form, view, record, card, table, schema, data-structure expression, rendering, or source relation. If `A.22`, `A.19`, `C.30`, `A.3.4`, `C.2.1`, or another pattern already contains the defining or testing rule for the recovered object or claim, use that rule directly and cite `E.24.CD` or `E.24.PUB` only for the relevant thin boundary.

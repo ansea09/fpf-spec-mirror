@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.2.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
-line_start: 37197
-line_end: 37421
+line_start: 37221
+line_end: 37445
 dependencies:
   - "A.1"
   - "A.10"

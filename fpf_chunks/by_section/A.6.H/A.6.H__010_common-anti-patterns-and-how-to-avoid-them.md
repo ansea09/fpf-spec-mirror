@@ -6,12 +6,12 @@ section_id: "A.6.H:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 21005
-line_end: 21019
+line_start: 21016
+line_end: 21030
 dependencies:
   - "A.1"
   - "A.10"

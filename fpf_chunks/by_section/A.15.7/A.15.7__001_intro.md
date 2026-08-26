@@ -6,12 +6,12 @@ section_id: "A.15.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__001_intro.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:intro — Intro"
-line_start: 26202
-line_end: 26211
+line_start: 26226
+line_end: 26235
 dependencies:
   - "A.10"
   - "A.15"

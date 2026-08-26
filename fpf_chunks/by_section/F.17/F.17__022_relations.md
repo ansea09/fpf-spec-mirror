@@ -6,12 +6,12 @@ section_id: "F.17:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__022_relations.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:15 — Relations"
-line_start: 96534
-line_end: 96541
+line_start: 97037
+line_end: 97044
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
+  - "E.10.LRN"
   - "E.10.MOVE"
   - "E.11"
   - "E.17.0"
@@ -54,7 +55,7 @@ keywords:
 
 Builds on: `F.2` and `F.3` for local-sense discovery probes; `C.2.1` for row and NameCard epistemes plus exact `EpistemeEditionRelation`; `F.14` for the anti-explosion gate; `F.8` and `F.18` for naming disposition and settlement; `F.9` for actual cell-to-cell Bridges; `F.5` for designation form; and `F.7`/`F.15` for neighboring unification and conformance decisions.
 
-Coordinates with: `A.2`, `A.2.1`, `A.2.7`, `A.6.5`, `A.6.P`, `A.10`, `A.15.1`, `A.19.SPR`, `B.3`, `C.2.P`, `E.10`, `E.10.D2`, `E.17.0`, `E.24.UK`, `E.24.PUB`, `F.4`, `F.6`, and `F.10`, plus every row's `SubjectPatternLocator`. Row-local review after a changed value, membership or obtaining rule, designation, cell, Bridge, reference typing, edition, or availability rechecks the exact defining predicate and any neighboring subject assertion. Use G.11 only when an actual refresh plan, edition orchestration, telemetry, freshness, or decay claim is current. F.17 does not inherit a generic context-holon identity reading from earlier terminology practice.
+Coordinates with: `E.10.LRN` for the *learning* anti-row and split boundary; `A.2`, `A.2.1`, `A.2.7`, `A.6.5`, `A.6.P`, `A.10`, `A.15.1`, `A.19.SPR`, `B.3`, `C.2.P`, `E.10`, `E.10.D2`, `E.17.0`, `E.24.UK`, `E.24.PUB`, `F.4`, `F.6`, and `F.10`, plus every row's `SubjectPatternLocator`. Row-local review after a changed value, membership or obtaining rule, designation, cell, Bridge, reference typing, edition, or availability rechecks the exact defining predicate and any neighboring subject assertion. Use G.11 only when an actual refresh plan, edition orchestration, telemetry, freshness, or decay claim is current. F.17 does not inherit a generic context-holon identity reading from earlier terminology practice.
 
 Constrains: every public, Core-facing, durable, or cross-local term row that cites FPF values, local senses, relation names, slot names, system-role names, status names, or Bridge occurrences.
 

@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__001_intro.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:intro — Intro"
-line_start: 32340
-line_end: 32359
+line_start: 32364
+line_end: 32383
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

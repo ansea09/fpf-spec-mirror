@@ -6,12 +6,12 @@ section_id: "C.32.ACE:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__004_forces.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:3 — Forces"
-line_start: 62991
-line_end: 63001
+line_start: 63273
+line_end: 63283
 dependencies:
   - "A.10"
   - "A.15.1"

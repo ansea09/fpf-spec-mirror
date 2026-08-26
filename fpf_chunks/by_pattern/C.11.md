@@ -6,22 +6,26 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.md"
-commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
-line_start: 45386
-line_end: 46096
+line_start: 45415
+line_end: 46132
 dependencies:
+  - "A.10"
   - "A.13"
   - "A.18"
   - "A.19"
   - "A.6.5"
   - "A.6.P"
+  - "C.11.CRC"
+  - "C.17"
   - "C.18"
   - "C.19"
   - "C.24"
   - "C.26"
   - "C.9"
+  - "E.10.LRN"
   - "G.5"
 keywords:
   - "ChoiceResult"
@@ -173,7 +177,14 @@ A conforming `C.11` pass does not stop at naming schools of decision theory. It 
    If the result is `probe again`, name the next probe and the exact comparison defect it is supposed to repair.
    A `C.11` pass is done only when it names the lawful choice result and the reason that result is lawful.
 
+#### C.11:4.2a - Receive heterogeneous premises without relabeling them as signals
+
+An interesting observation, information-gain estimate, capability result, objective or reward, articulated former cue, or `C.17` characterization enters this pattern only under its exact source/result identity. Use `E.10.LRN` first when *learning* wording still hides that identity. Use `A.10` when an evidence-bearing or source-bearing claim is actually relied on: its existing `RelianceDisposition` qualifies only that bounded premise use. An objective, reward, preference, or loss enters as the `EvaluativeMeasure`, `PreferenceOrder`, or `ChoiceRule` input it actually supplies and is not evidence by numerical form. When an `A.16.1` cue pack remains current as a source or provenance episteme, preserve that source identity and route the separately articulated endpoint result through its direct claim owner. A `C.17` novelty, surprise, use, or creativity characterization remains a characterization and does not license a move by itself.
+
+No separate premise-qualification result sits between those owners and `C.11`. Use the qualified inputs in the live option/probe comparison and return only the existing `ChoiceResult`. When the missing comparison basis is specifically what a finite candidate contributes relative to the current configuration, use `C.11.CRC` to construct that ordinary comparison claim and return here. If every premise and the finite comparison are already explicit, proceed directly.
+
 #### C.11:4.2.1 - Well-formed comparison state
+
 
 Well-formedness constraint: a live `C.11` comparison state is usable only when the decision record states all of the following:
 
@@ -708,7 +719,7 @@ Worked-slice discipline from these rows:
 
 ### C.11:12 - Relations
 
-- **Builds on:** `A.6.P`, `A.6.5`, `A.13`, `A.18`, `A.19`; **coordinates with:** planned `C.9` only as a future agency-characteristic-profile consolidation
+- **Builds on:** `A.6.P`, `A.6.5`, `A.10`, `A.13`, `A.18`, `A.19`; **coordinates with:** `E.10.LRN` for learning-word recovery, `C.11.CRC` for a missing finite configuration-relative comparison claim, `C.17` for bounded characterization, and planned `C.9` only as a future agency-characteristic-profile consolidation
 - **Read next when this question leaves local choice:** `C.18` for candidate generation and open-ended search, `C.19` for one explicit pool-policy result over exploration or exploitation governance, `C.24` for one enactment-facing call plan or `CheckpointReturn`, `G.5` for the selector-facing result kind that is actually current—retained alternatives, all-member joint use, narrowed handoff, abstain, or escalation—and `C.28` when the choice result depends on causal-use support
 - **Keeps outside:** candidate generation, pool-wide exploration or exploitation policy, selector-facing set-result declaration, publication availability, and execution sequencing
 - **Aligns with:** classical evidential decision theory, causal decision theory, success-first or subjunctive repair, bounded-resource metareasoning and probe-cost doctrine, `C.28` causal-use question/rung/support vocabulary, active-inference-adjacent decision work, quantum-like contextual repair where context or order effects are real, and multilevel mathematical-lens pressure at the minimal-floor level only
