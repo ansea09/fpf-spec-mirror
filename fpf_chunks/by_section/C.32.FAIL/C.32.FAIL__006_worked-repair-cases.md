@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:5"
 section_title: "Worked Repair Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__006_worked-repair-cases.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:5 — Worked Repair Cases"
-line_start: 63710
-line_end: 63725
+line_start: 64158
+line_end: 64173
 dependencies:
   - "A.10"
   - "A.15.1"

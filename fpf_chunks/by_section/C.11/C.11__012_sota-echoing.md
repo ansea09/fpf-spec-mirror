@@ -6,12 +6,12 @@ section_id: "C.11:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__012_sota-echoing.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:11 — SoTA-Echoing"
-line_start: 45588
-line_end: 45620
+line_start: 46016
+line_end: 46050
 dependencies:
   - "A.13"
   - "A.18"
@@ -74,4 +74,6 @@ Worked-slice discipline from these rows:
 - the system grounding slice is disciplined primarily by the bounded-resource and classical-baseline rows, so the output must end in one explicit probe-or-choose result;
 - the episteme grounding slice is disciplined primarily by the bounded-resource and subjunctive-repair rows, so the output must say what comparison pass or predictor-coupled clarification could still reverse the result;
 - the collective and contextual grounding slice is disciplined primarily by the active-inference and quantum-like rows, so the output must name the embodied observation, framing stabilization, or reroute that now becomes lawful.
+
+**Qualification and smallest reopen.** The source uses above were checked on 2026-08-26. A newer publication does not by itself reopen `C.11`. Reopen only when it materially changes the current-option boundary, chooser, comparison basis, probe value or cost, or one branch-activation condition used by the `Solution`. Revise the affected source row and its matching procedure branch, worked slice, checklist item, or public entry cue; leave unrelated decision doctrine unchanged.
 

@@ -6,12 +6,12 @@ section_id: "A.15:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__002_problem-frame.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:1 — Problem frame"
-line_start: 23387
-line_end: 23401
+line_start: 23621
+line_end: 23638
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,6 +55,9 @@ keywords:
 ---
 
 ### A.15:1 - Problem frame
+
+When the alignment is already clear and ongoing Work still needs one next action chosen from current facts within an applicable domain Method, use `A.15.7`. It keeps the domain Method, steering Method, deciding System, intended performer, and any later WorkPlan or performed-action claim separate.
+
 
 Complex work requires several independent distinctions: what a System is; which local system-role kind classifies it; which assignment occurrence obtains and which declared `U.SystemRoleAssignment` species it instantiates; how Work is done through `U.Method`; whether an episteme is a `U.MethodDescription`; which holder capability is relied on; what `U.WorkPlan` states; which dated Work happened; and which separate assertions, records, results, and evidence concern that Work.
 

@@ -6,12 +6,12 @@ section_id: "E.17.1:19"
 section_title: "Bundle Projection and Comparative Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__020_bundle-projection-and-comparative-use.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:19 — Bundle Projection and Comparative Use"
-line_start: 79275
-line_end: 79288
+line_start: 79725
+line_end: 79738
 dependencies:
   - "A.16.0"
   - "A.22"

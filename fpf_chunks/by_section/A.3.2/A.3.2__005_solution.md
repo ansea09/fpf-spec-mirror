@@ -6,12 +6,12 @@ section_id: "A.3.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__005_solution.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:4 — Solution"
-line_start: 8065
-line_end: 8182
+line_start: 8296
+line_end: 8415
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -93,7 +93,7 @@ Then inspect the claim concerns that matter for that named use:
 
 | Claim concern | Question for the named receiving use |
 | --- | --- |
-| Method described | Which admitted `U.Method` is the exact `EntityOfConcern`, and under which effective reference scheme is it identified? |
+| Method described | Which admitted `U.Method` is the episteme's `EntityOfConcern`, and under which effective reference scheme is it identified? |
 | Transformation or enactment concern | What way of changing, producing, deciding, learning, or checking does the method organize? |
 | Generic participant and boundary meanings | Which kinds of entities, resources, conditions, or interfaces may participate in a future enactment, and what method-side meaning does each have? These are semantic claims, not `RelationSignature` SlotSpecs, `OperationAlgebra` positions, planned fillers, or actual participants. |
 | Preconditions | Under which states, guards, invariants, participant conditions, or environmental conditions can the method be used? |
@@ -152,6 +152,8 @@ This interpretation does not justify classifying every algorithm-looking express
 #### A.3.2:4.7 - Declarative representation boundary
 
 Some method descriptions use declarative representations: constraint sets, graph patterns, state predicates, SQL-like queries, policy rules, e-graphs, monoidal diagrams, or process constraints. Do not translate such representations into an imperative route unless the method claim actually states an ordered action structure.
+
+Even a representation that runs or is internally consistent may have more than one sound interpretation. If a comparison depends on variables and their bindings, surrounding context, or an e-graph kept across compiler stages, say what counts as equal. Agreement under one such rule does not by itself show whether the Method is the same, whether the claims are equivalent, or whether one episteme edition continued into another.
 
 If wording turns a graph path, evidence path, query plan, predicate, checklist, publication face, or neighboring-pattern relation into a route, first say what it represents and whether the source actually asserts an order. Use `C.2.P.DR` to stop layout from creating a dispatch, call, or work-control sequence; state a genuine ordered Method or WorkPlan only as its own subject assertion with the exact defining or constraining ClaimGraph.
 

@@ -6,12 +6,12 @@ section_id: "A.6.A:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__011_rationale.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:10 — Rationale"
-line_start: 17675
-line_end: 17701
+line_start: 17909
+line_end: 17935
 dependencies:
   - "A.15"
   - "A.16"

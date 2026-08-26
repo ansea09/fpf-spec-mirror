@@ -6,12 +6,12 @@ section_id: "F.16:18"
 section_title: "Closing distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__019_closing-distillation.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:18 — Closing distillation"
-line_start: 95081
-line_end: 95084
+line_start: 95531
+line_end: 95534
 dependencies:
   - "A.10"
   - "A.15"

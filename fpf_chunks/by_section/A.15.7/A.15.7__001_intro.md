@@ -1,0 +1,41 @@
+---
+chunk_kind: "child"
+pattern_id: "A.15.7"
+pattern_title: "Situation-Responsive Work Steering and Next-Action Selection"
+section_id: "A.15.7:intro"
+section_title: "Intro"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.15.7/A.15.7__001_intro.md"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
+heading_path:
+  - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
+  - "A.15.7:intro — Intro"
+line_start: 26202
+line_end: 26211
+dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.5"
+  - "A.15.6"
+  - "A.19"
+  - "A.3.1"
+  - "B.1.5"
+  - "C.11"
+  - "C.18"
+  - "C.24"
+  - "G.11"
+keywords:
+---
+
+## A.15.7 - Situation-Responsive Work Steering and Next-Action Selection
+
+> **Type:** Architectural (A)
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
+
+**Plain name.** Choose the next action while Work is under way and current facts matter.
+
+**Primary reader.** A person, team, robot, AI system, organization, or other deciding System that must choose what should happen next during ongoing Work, or someone supporting that choice.
+

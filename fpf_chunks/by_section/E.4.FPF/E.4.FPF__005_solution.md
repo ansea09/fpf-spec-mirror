@@ -6,12 +6,12 @@ section_id: "E.4.FPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__005_solution.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:4 — Solution"
-line_start: 67749
-line_end: 67852
+line_start: 68197
+line_end: 68302
 dependencies:
   - "C.33"
   - "C.34"
@@ -70,6 +70,8 @@ The name comparison covers `FPFEditionRebuildabilityRecord`, `FPFEditionAssembly
 | `CAUSAL-USE` | Ordinary practical entry |
 | `MEASUREMENT` | Ordinary practical entry |
 | `MATHEMATICAL-MODELING` | Ordinary practical entry |
+| `LIVE-WORK-STEERING` | Ordinary practical entry |
+| `METHOD-RECOVERY` | Ordinary practical entry |
 | `ARCHITECTURE` | Practical-Use Card |
 | `PRACTICE-ARCHITECTURE` | Practical-Use Card |
 | `WORKING-DOCUMENTS` | Practical-Use Card |
@@ -80,9 +82,9 @@ The name comparison covers `FPFEditionRebuildabilityRecord`, `FPFEditionAssembly
 | `SOTA-PORTFOLIO` | Practical-Use Card |
 | `SYSTEM-DELIMITATION` | Practical-Use Card |
 
-This is the one FPF declaration consumed by Readme authoring, assembly, and validation; do not maintain another ordinary-entry or card list. It declares six ordinary examples and nine cross-pattern cards, not the scope or limit of FPF help. The Readme must say that FPF and the applicable DPF or LPF can answer a much wider range of questions and must return a reader whose question fits no example to the Table of Contents, another finding aid, or the direct patterns.
+This is the one FPF declaration consumed by Readme authoring, assembly, and validation; do not maintain another ordinary-entry or card list. It declares eight ordinary examples and nine cross-pattern cards, not the scope or limit of FPF help. The Readme must say that FPF and the applicable DPF or LPF can answer a much wider range of questions and must return a reader whose question fits no example to the Table of Contents, another finding aid, or the direct patterns.
 
-The selection answers the declared current reader-use questions and passes the no-mantra comparison; it does not claim observation of reader behaviour and does not reproduce the historical fifteen seminar cards or the predecessor twenty-key list. Distinct predecessor questions remain recoverable without keeping one selectable entry for each topic: `CAPABILITY-DEVELOPMENT` is carried by `PRACTICE-ARCHITECTURE` and `IMPROVEMENT`; `COSTLY-ACTION` is carried by `OPTION-COMPARISON`; `DESCRIPTION-USE` is carried by `WORKING-DOCUMENTS`; and `DPF-AUTHORING` is carried by `SOTA-PORTFOLIO`. `TIME`, `CAUSAL-USE`, `MEASUREMENT`, and `MATHEMATICAL-MODELING` are ordinary examples because each direct pattern or bounded route answers its first difficulty without a cross-pattern mantra; no `MODELING-FOR-ACTION` card joins them. `PUBLICATION-FORM` and `DPF-SUITE-GUIDE` remain direct locators to `E.11.PFP` and `E.11.DSG`, not selected examples. Exact content stays in those direct patterns; the Readme carries only the recognition, cross-pattern dependency, and return needed for discoverability.
+The selection answers the declared current reader-use questions and passes the no-mantra comparison; it does not claim observation of reader behaviour and does not reproduce the historical fifteen seminar cards or the predecessor twenty-key list. Distinct predecessor questions remain recoverable without keeping one selectable entry for each topic: `CAPABILITY-DEVELOPMENT` is carried by `PRACTICE-ARCHITECTURE` and `IMPROVEMENT`; `COSTLY-ACTION` is carried by `OPTION-COMPARISON`; `DESCRIPTION-USE` is carried by `WORKING-DOCUMENTS`; and `DPF-AUTHORING` is carried by `SOTA-PORTFOLIO`. `TIME`, `CAUSAL-USE`, `MEASUREMENT`, and `MATHEMATICAL-MODELING` are ordinary examples because each direct pattern or bounded route answers its first difficulty without a cross-pattern mantra; no `MODELING-FOR-ACTION` card joins them. `LIVE-WORK-STEERING` and `METHOD-RECOVERY` are ordinary examples for the same reason: each begins at one direct pattern and may stop at its first useful result or honest blocker. `PUBLICATION-FORM` and `DPF-SUITE-GUIDE` remain direct locators to `E.11.PFP` and `E.11.DSG`, not selected examples. Exact content stays in those direct patterns; the Readme carries only the recognition, cross-pattern dependency, and return needed for discoverability.
 
 For every card row, keep the card and its practical-use guidance findable by the same key. The current English FPF counts whitespace-separated tokens and requires at most 80 for a card mantra and 220 for a complete compact card. These are maxima with no minimum length. They are calibrated publication envelopes for this English FPF, not psychometric thresholds or universal DPF, LPF, or translated-publication limits. Reopen the smallest affected declaration row and consumer when a cold-reader replay loses a choice-changing distinction, a useful card cannot fit without copying direct-pattern apparatus, or either ceiling can be lowered without losing use value. The optional `@FPFReadme` support records may carry FPF links but do not define shared conformance.
 Create the FPF edition rebuildability record with this shape when FPF itself is being assembled, republished, exposed, or evaluated:

@@ -6,12 +6,12 @@ section_id: "B.1.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 36157
-line_end: 36166
+line_start: 36582
+line_end: 36591
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "E.11:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__010_consequences.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:9 — Consequences"
-line_start: 75845
-line_end: 75850
+line_start: 76295
+line_end: 76300
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -32,7 +32,7 @@ keywords:
 
 ### E.11:9 - Consequences
 
-**Benefits.** FPF gains a human-readable route from working questions to direct patterns without losing exact result and boundary support where it matters. A few ordinary examples show that one pattern may answer a bounded difficulty; selected cards show that the language can sustain longer reasoning across pattern contributions. Readers can stop cheaply, inspect a small plausible set, and recover from wrong turns, while explicit non-exhaustive wording keeps the examples from becoming a coverage catalogue. README, Preface, ToC, local recognition, expanded cases, and retrieval keep distinct jobs, so useful entry value does not become a duplicate canon.
+**Benefits.** FPF gains a human-readable entry from working questions to direct patterns without losing the result and boundary support that matters. A few ordinary examples show that one pattern may answer a bounded difficulty; selected cards show that the language can sustain longer reasoning across pattern contributions. Readers can stop cheaply, inspect a small plausible set, and recover from wrong turns, while explicit non-exhaustive wording keeps the examples from becoming a coverage catalogue. README, Preface, ToC, local recognition, expanded cases, and retrieval keep distinct jobs, so useful entry value does not become a duplicate canon.
 
 **Costs.** Maintainers must keep each public entry aligned with the direct pattern's current result and boundary, and must repair its true consumers when those meanings change. A recurrent ambiguity or named later reliance may justify an exact expansion, worked case, or addressable comparison history; those deeper objects then need currentness care. Ordinary entries pay none of that record burden when readable prose is sufficient.
 

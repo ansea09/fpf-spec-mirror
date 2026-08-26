@@ -6,12 +6,12 @@ section_id: "C.22.PFR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__004_forces.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:3 — Forces"
-line_start: 50017
-line_end: 50029
+line_start: 50447
+line_end: 50459
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "F.8:12"
 section_title: "SoTA-Echoing - Source-Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__015_sota-echoing-source-use.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:12 — SoTA-Echoing - Source-Use"
-line_start: 92135
-line_end: 92155
+line_start: 92585
+line_end: 92605
 dependencies:
   - "A.11"
   - "A.15"

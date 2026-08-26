@@ -6,12 +6,12 @@ section_id: "A.6.B:8"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__010_archetypal-grounding-tell-show-show.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:8 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 10789
-line_end: 11095
+line_start: 11023
+line_end: 11329
 dependencies:
   - "A.10"
   - "A.2.3"

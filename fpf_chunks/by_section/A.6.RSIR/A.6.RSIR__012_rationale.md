@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__012_rationale.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:10 — Rationale"
-line_start: 16948
-line_end: 16955
+line_start: 17182
+line_end: 17189
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,17 +6,18 @@ section_id: "C.24:0.4"
 section_title: "First output"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__006_first-output.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:0.4 — First output"
-line_start: 51238
-line_end: 51272
+line_start: 51671
+line_end: 51710
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.7"
   - "B.1.6"
   - "B.3"
   - "C.11"
@@ -24,6 +25,7 @@ dependencies:
   - "C.18"
   - "C.19"
   - "C.19.1"
+  - "C.2.1"
   - "C.28"
   - "C.5"
   - "E.17"
@@ -42,7 +44,9 @@ The first useful output is one of these:
 
 ```text
 CallPlan:
-  upstreamChoiceResultRef
+  decisionBasis:
+    situationResponsiveDecisionEpistemeRef?  # A.15.7; only when this plan relies on the retained decision
+    fixedOptionChoiceResultRef?               # C.11; only a choose-now result
   objective
   plannedCallsInOrder:
     - methodRef
@@ -56,7 +60,9 @@ CallPlan:
 
 ```text
 CheckpointReturn:
-  upstreamChoiceResultRef
+  decisionBasis:
+    situationResponsiveDecisionEpistemeRef?  # A.15.7
+    fixedOptionChoiceResultRef?               # C.11 choose-now result
   objectiveOrTaskFamily
   testedMethodRefs
   testedMethodDescriptionRefs?
@@ -67,7 +73,8 @@ CheckpointReturn:
   commitTrigger
 ```
 
-`nextPlannedAction` and `recommendedNextAction` are local fields, not claims that Work has occurred. Add one of the branch-specific refs in C.24:4.4 only when that exact constraint still affects the plan. A plan with no current policy branch needs no policy placeholder. If neither output can cite the accepted upstream result and state what happens next, the C.24 work is unfinished.
 
-If that upstream result changes, is withdrawn, or no longer fixes the option or route, reopen the plan and return to `C.11` or `C.19` as applicable. Do not revise the route as though the choice were still settled.
+`nextPlannedAction` and `recommendedNextAction` are local fields, not claims that Work has occurred. Exactly one decision-basis reference is present. Add one of the branch-specific refs in C.24:4.4 only when that constraint still affects the plan. A plan with no current policy branch needs no policy placeholder. If neither output can cite its accepted decision basis and state what happens next, the C.24 work is unfinished.
+
+If the A.15.7 decision changes, is withdrawn, or no longer fixes the action, reopen the plan and return to A.15.7. If the C.11 `ChoiceResult` changes or no longer says `choose now`, return to C.11. A changed live-pool branch returns separately to C.19. Do not revise the call plan as though its decision basis were still settled.
 

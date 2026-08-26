@@ -6,12 +6,12 @@ section_id: "A.15:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__013_relations.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12 — Relations"
-line_start: 23650
-line_end: 23657
+line_start: 23887
+line_end: 23897
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,6 +55,9 @@ keywords:
 ---
 
 ### A.15:12 - Relations
+
+* `A.15.7` supplies the situation-responsive steering Method after current Work, its domain Method, and relevant facts are known; it returns the selected action, intended performer, and stop or feedback condition without making the answer into Work.
+
 
 * **Architecture-work boundary:** C.32.P2S and C.32.PAD may cite MethodDescriptions, pattern-use references, exact system-role assignments, separate responsibility or authority relations, readiness exits, and expected structure effects. C.32.ADR may publish those references. A.15 supplies only Method, description, plan, readiness, performed Work, and attribution distinctions.
 * **Uses:** `A.7` for strict distinction among system-role kind, assignment, Method, MethodDescription, plan, Work, and records.

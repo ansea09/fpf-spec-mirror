@@ -6,12 +6,12 @@ section_id: "C.2.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__004_forces.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:3 — Forces"
-line_start: 41131
-line_end: 41141
+line_start: 41556
+line_end: 41566
 dependencies:
   - "A.1.1"
   - "A.10"

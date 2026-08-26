@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__013_relations.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:12 — Relations"
-line_start: 61238
-line_end: 61244
+line_start: 61686
+line_end: 61692
 dependencies:
   - "A.1.1"
   - "A.10"

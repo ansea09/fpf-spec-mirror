@@ -6,12 +6,12 @@ section_id: "C.2.3:17"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__018_authoring-and-review-guidance.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:17 — Authoring and Review Guidance"
-line_start: 41987
-line_end: 42000
+line_start: 42412
+line_end: 42425
 dependencies:
   - "A.16"
   - "A.18"

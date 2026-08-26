@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.7.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
-line_start: 20834
-line_end: 21196
+line_start: 21068
+line_end: 21430
 dependencies:
   - "A.1"
   - "A.10"

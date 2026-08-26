@@ -6,12 +6,12 @@ section_id: "A.16:5"
 section_title: "Worked moves and recoveries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__006_worked-moves-and-recoveries.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:5 — Worked moves and recoveries"
-line_start: 26685
-line_end: 26718
+line_start: 27110
+line_end: 27143
 dependencies:
   - "A.15"
   - "A.15.1"

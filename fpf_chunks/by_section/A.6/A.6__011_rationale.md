@@ -6,12 +6,12 @@ section_id: "A.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__011_rationale.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:10 — Rationale"
-line_start: 9973
-line_end: 9985
+line_start: 10207
+line_end: 10219
 dependencies:
   - "A.10"
   - "A.15"

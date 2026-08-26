@@ -6,12 +6,12 @@ section_id: "C.32.PAD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__001_intro.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:intro — Intro"
-line_start: 63816
-line_end: 63821
+line_start: 64264
+line_end: 64269
 dependencies:
   - "A.10"
   - "A.15"

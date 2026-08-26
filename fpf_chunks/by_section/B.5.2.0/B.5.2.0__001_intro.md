@@ -6,12 +6,12 @@ section_id: "B.5.2.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__001_intro.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:intro — Intro"
-line_start: 39408
-line_end: 39423
+line_start: 39833
+line_end: 39848
 dependencies:
   - "A.16"
   - "A.16.0"

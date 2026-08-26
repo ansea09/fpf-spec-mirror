@@ -6,12 +6,12 @@ section_id: "G.11:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__009_conformance-checklist-normative.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:7 — Conformance Checklist (normative)"
-line_start: 103174
-line_end: 103190
+line_start: 103624
+line_end: 103640
 dependencies:
   - "A.6.RCD"
   - "B.3.4"

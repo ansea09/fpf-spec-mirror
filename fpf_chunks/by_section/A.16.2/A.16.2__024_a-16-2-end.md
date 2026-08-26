@@ -6,12 +6,12 @@ section_id: "A.16.2:End"
 section_title: "A.16.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__024_a-16-2-end.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:End — A.16.2:End"
-line_start: 27573
-line_end: 27574
+line_start: 27998
+line_end: 27999
 dependencies:
   - "A.16"
   - "A.16.0"

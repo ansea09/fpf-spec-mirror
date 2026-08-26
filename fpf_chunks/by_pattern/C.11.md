@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
-line_start: 44961
-line_end: 45666
+line_start: 45386
+line_end: 46096
 dependencies:
   - "A.13"
   - "A.18"
@@ -50,6 +50,9 @@ keywords:
 **At a glance.** `C.11` is the choice-calculus pattern for the moment when options already exist and the working question is which option to choose, including whether another probe is worth its cost before commitment.
 
 ### C.11:1 - Problem frame
+
+**When ongoing Work still needs a next action.** If admissible actions still have to be recovered from ongoing Work, its domain Method, and current facts, use `A.15.7` first. Return here only when a current chooser and `OptionSet` exist and comparison can change the result; a mandatory response or one familiar cue need not be inflated into an option set.
+
 
 **Use this when.** Use this pattern when one `DecisionSubject` already has an `OptionSet` in hand and the real question is how to choose among those already-available options under uncertainty, preference, causal or subjunctive dependence, and bounded probing or computation.
 
@@ -700,6 +703,8 @@ Worked-slice discipline from these rows:
 - the system grounding slice is disciplined primarily by the bounded-resource and classical-baseline rows, so the output must end in one explicit probe-or-choose result;
 - the episteme grounding slice is disciplined primarily by the bounded-resource and subjunctive-repair rows, so the output must say what comparison pass or predictor-coupled clarification could still reverse the result;
 - the collective and contextual grounding slice is disciplined primarily by the active-inference and quantum-like rows, so the output must name the embodied observation, framing stabilization, or reroute that now becomes lawful.
+
+**Qualification and smallest reopen.** The source uses above were checked on 2026-08-26. A newer publication does not by itself reopen `C.11`. Reopen only when it materially changes the current-option boundary, chooser, comparison basis, probe value or cost, or one branch-activation condition used by the `Solution`. Revise the affected source row and its matching procedure branch, worked slice, checklist item, or public entry cue; leave unrelated decision doctrine unchanged.
 
 ### C.11:12 - Relations
 

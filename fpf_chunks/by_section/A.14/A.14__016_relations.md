@@ -6,12 +6,12 @@ section_id: "A.14:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__016_relations.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:15 — Relations"
-line_start: 23319
-line_end: 23324
+line_start: 23553
+line_end: 23558
 dependencies:
   - "A.1"
   - "A.15"

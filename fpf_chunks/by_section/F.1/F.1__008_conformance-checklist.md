@@ -6,12 +6,12 @@ section_id: "F.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__008_conformance-checklist.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:7 — Conformance Checklist"
-line_start: 89980
-line_end: 90004
+line_start: 90430
+line_end: 90454
 dependencies:
   - "A.10"
   - "A.7"

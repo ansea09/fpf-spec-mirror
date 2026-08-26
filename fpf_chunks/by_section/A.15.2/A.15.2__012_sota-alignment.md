@@ -6,12 +6,12 @@ section_id: "A.15.2:7d"
 section_title: "SoTA Alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__012_sota-alignment.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:7d — SoTA Alignment"
-line_start: 24557
-line_end: 24565
+line_start: 24805
+line_end: 24815
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,10 +57,12 @@ keywords:
 
 ### A.15.2:7d - SoTA Alignment
 
-| Source tradition | Local invariant adopted | Shortcut rejected |
+| Source tradition and status, qualified 2026-08-26 | Local invariant adopted | Shortcut rejected |
 | --- | --- | --- |
-| ISO 21502:2020 project-management guidance and PMBOK Guide Eighth Edition (2025) | A plan is an intended-work coordination episteme: horizon, selected delivery approach or method family, baseline, dependencies, resource expectations, and acceptance targets are declared before performed work and compared with performed values after work occurs. | Treating a schedule, ticket, or baseline as evidence that the work already occurred. |
+| ISO 21502:2020 project-management guidance and PMBOK Guide Eighth Edition (2025), used as current planning-practice inputs | A plan is an intended-work coordination episteme: horizon, selected delivery approach or Method family, baseline, dependencies, resource expectations, and acceptance targets are declared before performed Work and compared with performed values after Work occurs. | Treating a schedule, ticket, or baseline as evidence that the Work already occurred. |
 | ISO 55000:2024 asset-management practice | Asset reservations, maintenance windows, lifecycle objectives, risk, and value expectations belong in planning until A.15.1 identifies the performed Work and the applicable change and resource-use predicates are satisfied. | Treating planned asset availability or reserved capacity as actual asset intervention or actual resource consumption. |
-| ISO 9001:2015 with Amendment 1:2024 quality-management practice | Planned quality objectives, acceptance targets, change notes, and performance evaluation stay replayable so variance can drive improvement. | Editing the plan after the fact so that quality, cost, or schedule variance disappears. |
-| Case-management and adaptive-work notation practice such as OMG CMMN 1.1 | Weakly structured or ad hoc Work can still be compared with exact plan content through a local assertion, or through a direct relation when one is actually governed. | Forcing every emergency, adaptive, or consolidated Work occurrence into the original plan shape, or minting a universal fulfilment relation from one comparison. |
+| [ISO 9001:2015](https://www.iso.org/standard/62085.html) with Amendment 1:2024 remains the published edition; [Edition 6](https://www.iso.org/standard/88464.html) is under publication and scheduled for September 2026 | Planned quality objectives, acceptance targets, change notes, and performance evaluation stay replayable so variance can drive improvement. The unpublished replacement is a refresh trigger, not yet a basis for silently changing the distinctions between plans and performed Work. | Editing the plan after the fact so that quality, cost, or schedule variance disappears, or treating a forthcoming edition as already applicable. |
+| Mature adaptive-work representation practice such as OMG CMMN 1.1 (2016) | Weakly structured or ad hoc Work can still be compared with identified plan content through a local assertion, or through a direct relation when one is actually defined. | Treating CMMN as current universal practice; forcing every emergency, adaptive, or consolidated Work occurrence into the original plan shape; or minting a universal fulfilment relation from one comparison. |
+
+**Qualification and smallest reopen.** Recheck the ISO 9001 row when Edition 6 is published and its changed requirements can be compared by value. Reopen only the plan-content, variance, acceptance-target, or worked-use passage whose practitioner action changes. A new notation edition or example with no such effect does not reopen the whole pattern.
 

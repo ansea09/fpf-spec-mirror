@@ -6,12 +6,12 @@ section_id: "E.5.3:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__010_relations.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.5.3 — Unidirectional Dependency"
   - "E.5.3:9 — Relations"
-line_start: 70083
-line_end: 70088
+line_start: 70533
+line_end: 70538
 dependencies:
   - "E.4"
   - "E.5"

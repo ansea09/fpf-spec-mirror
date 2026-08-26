@@ -6,12 +6,12 @@ section_id: "B.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__014_relations.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:12 — Relations"
-line_start: 36506
-line_end: 36512
+line_start: 36931
+line_end: 36937
 dependencies:
   - "A.1"
   - "A.10"

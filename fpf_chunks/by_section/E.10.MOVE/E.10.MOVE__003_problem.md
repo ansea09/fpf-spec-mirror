@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__003_problem.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:2 — Problem"
-line_start: 73898
-line_end: 73907
+line_start: 74348
+line_end: 74357
 dependencies:
   - "A.1.STM"
   - "A.10"

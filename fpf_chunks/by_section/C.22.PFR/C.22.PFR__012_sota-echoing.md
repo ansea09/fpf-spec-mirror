@@ -6,12 +6,12 @@ section_id: "C.22.PFR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__012_sota-echoing.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:11 — SoTA-Echoing"
-line_start: 50291
-line_end: 50305
+line_start: 50721
+line_end: 50735
 dependencies:
   - "A.10"
   - "A.15.1"

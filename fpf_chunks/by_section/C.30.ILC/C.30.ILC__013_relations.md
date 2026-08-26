@@ -6,12 +6,12 @@ section_id: "C.30.ILC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__013_relations.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:12 — Relations"
-line_start: 59712
-line_end: 59723
+line_start: 60160
+line_end: 60171
 dependencies:
   - "A.10"
   - "A.22"

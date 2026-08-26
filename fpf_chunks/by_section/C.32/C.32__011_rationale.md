@@ -6,12 +6,12 @@ section_id: "C.32:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__011_rationale.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:10 — Rationale"
-line_start: 61556
-line_end: 61565
+line_start: 62004
+line_end: 62013
 dependencies:
   - "A.10"
   - "A.15"

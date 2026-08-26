@@ -6,12 +6,12 @@ section_id: "A.2.4:10.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__012_sota-echoing.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:10.1 — SoTA-Echoing"
-line_start: 4506
-line_end: 4518
+line_start: 4525
+line_end: 4537
 dependencies:
   - "A.10"
   - "A.2"

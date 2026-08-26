@@ -6,12 +6,12 @@ section_id: "C.2.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__002_problem-frame.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:1 — Problem Frame"
-line_start: 40023
-line_end: 40043
+line_start: 40448
+line_end: 40468
 dependencies:
   - "A.1"
   - "A.1.1"

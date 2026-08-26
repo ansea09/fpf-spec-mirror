@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__006_solution.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:4 — Solution"
-line_start: 31359
-line_end: 31444
+line_start: 31784
+line_end: 31869
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

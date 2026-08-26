@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef`
+Commit SHA: `c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9`
 
 Chunking method: `pattern-aware`
 
-Patterns: `300`
+Patterns: `302`
 
 ## Patterns
 
@@ -28,6 +28,7 @@ Patterns: `300`
 - [A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)](by_pattern/A.2.9.md)
 - [A.3 — Transformer Constitution (Quartet)](by_pattern/A.3.md)
 - [A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability](by_pattern/A.3.1.md)
+- [A.3.1.MR — Candidate-Method Recovery from Work Evidence](by_pattern/A.3.1.MR.md)
 - [A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing](by_pattern/A.3.2.md)
 - [A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme](by_pattern/A.3.3.md)
 - [A.3.4 — U.Transformation: Bounded Change Under Conditions](by_pattern/A.3.4.md)
@@ -79,6 +80,7 @@ Patterns: `300`
 - [A.15.4 — Work-Relevant Appearance-Based Reliance Repair](by_pattern/A.15.4.md)
 - [A.15.5 — Work-Entry Readiness and Full-Kit Preparation](by_pattern/A.15.5.md)
 - [A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation](by_pattern/A.15.6.md)
+- [A.15.7 — Situation-Responsive Work Steering and Next-Action Selection](by_pattern/A.15.7.md)
 - [A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery](by_pattern/A.15.PROD.md)
 - [A.16 — Language-State Move Coordination](by_pattern/A.16.md)
 - [A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace](by_pattern/A.16.0.md)

@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__014_footer-marker.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:13 — Footer marker"
-line_start: 63363
-line_end: 63366
+line_start: 63811
+line_end: 63814
 dependencies:
   - "A.10"
   - "A.19.CPM"

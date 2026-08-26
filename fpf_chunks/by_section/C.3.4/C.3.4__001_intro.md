@@ -6,12 +6,12 @@ section_id: "C.3.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__001_intro.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:intro — Intro"
-line_start: 44130
-line_end: 44136
+line_start: 44555
+line_end: 44561
 dependencies:
   - "A.2.6"
   - "C.2.1"

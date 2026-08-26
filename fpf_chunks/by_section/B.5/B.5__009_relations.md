@@ -6,12 +6,12 @@ section_id: "B.5:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__009_relations.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:8 — Relations"
-line_start: 39018
-line_end: 39024
+line_start: 39443
+line_end: 39449
 dependencies:
   - "A.10"
   - "B.4"

@@ -6,17 +6,18 @@ section_id: "C.24:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__012_conformance-checklist.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:7 — Conformance Checklist"
-line_start: 51458
-line_end: 51471
+line_start: 51904
+line_end: 51917
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.7"
   - "B.1.6"
   - "B.3"
   - "C.11"
@@ -24,6 +25,7 @@ dependencies:
   - "C.18"
   - "C.19"
   - "C.19.1"
+  - "C.2.1"
   - "C.28"
   - "C.5"
   - "E.17"
@@ -38,10 +40,10 @@ keywords:
 
 ### C.24:7 - Conformance Checklist
 
-1. Every result cites the accepted upstream choice or decision basis that made planning current.
-2. Every planned step names an A.3.1-admitted Method fixed by the upstream C.11 result; route-description refs remain separate and optional.
+1. Every result cites exactly one accepted decision basis: the A.15.7 decision episteme or the C.11 `ChoiceResult` that made planning current.
+2. Every planned step names an A.3.1-admitted Method that realizes or supports the fixed action. The decision basis fixes the action or option; selecting it does not establish Method identity. Route-description refs remain separate and optional.
 3. The plan records time, compute, cost, and risk ceilings plus stop or replan conditions.
-4. C.18 candidates or front material and C.19 live-pool treatment may inform the upstream choice but do not admit Methods; C.24 owns only planning and replanning results.
+4. C.18 candidates or front material and C.19 live-pool treatment may inform the decision basis but do not admit Methods; C.24 owns only planning and replanning results.
 5. A scale branch first cites one actual C.19.1 probe result, then any selected comparison or Scale-Audit result; a `BLP-waiver` remains separate from evidence.
 6. Every vendor-bound `ATC.CallRouteDescription` identifies source scheme, exact edition, intended use, and selected Method; an arbitrary profile, adapter, or Bridge cannot substitute.
 7. Each current policy or constraint ref resolves to its actual C.19, C.19.1, B.3, or domain-defined object; a plan with no such branch remains valid.

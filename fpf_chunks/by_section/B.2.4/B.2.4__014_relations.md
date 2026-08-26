@@ -6,12 +6,12 @@ section_id: "B.2.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__014_relations.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:11 — Relations"
-line_start: 37394
-line_end: 37400
+line_start: 37819
+line_end: 37825
 dependencies:
   - "A.10"
   - "A.15"

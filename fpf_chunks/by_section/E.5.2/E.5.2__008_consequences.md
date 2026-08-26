@@ -6,12 +6,12 @@ section_id: "E.5.2:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__008_consequences.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:7 — Consequences"
-line_start: 69991
-line_end: 69997
+line_start: 70441
+line_end: 70447
 dependencies:
   - "E.5"
 keywords:

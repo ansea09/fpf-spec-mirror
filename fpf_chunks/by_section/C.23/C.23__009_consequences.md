@@ -6,12 +6,12 @@ section_id: "C.23:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__009_consequences.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:8 — Consequences"
-line_start: 51164
-line_end: 51169
+line_start: 51594
+line_end: 51599
 dependencies:
   - "A.10"
   - "B.3"

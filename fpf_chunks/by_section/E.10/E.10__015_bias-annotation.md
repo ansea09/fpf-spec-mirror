@@ -6,12 +6,12 @@ section_id: "E.10:13"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__015_bias-annotation.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:13 — Bias-Annotation"
-line_start: 73752
-line_end: 73762
+line_start: 74202
+line_end: 74212
 dependencies:
   - "A.10"
   - "A.15"

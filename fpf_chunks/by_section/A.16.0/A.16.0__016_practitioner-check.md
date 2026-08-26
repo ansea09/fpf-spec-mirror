@@ -6,12 +6,12 @@ section_id: "A.16.0:15"
 section_title: "Practitioner check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__016_practitioner-check.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:15 — Practitioner check"
-line_start: 27038
-line_end: 27048
+line_start: 27463
+line_end: 27473
 dependencies:
   - "A.16"
   - "A.16.1"

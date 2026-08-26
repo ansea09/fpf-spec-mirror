@@ -6,12 +6,12 @@ section_id: "A.7.CP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__003_problem-frame.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:1 — Problem frame"
-line_start: 21586
-line_end: 21591
+line_start: 21820
+line_end: 21825
 dependencies:
   - "A.7"
   - "A.7.1"

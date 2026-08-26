@@ -6,17 +6,18 @@ section_id: "C.24:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__016_relations.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:12 — Relations"
-line_start: 51502
-line_end: 51514
+line_start: 51948
+line_end: 51962
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.7"
   - "B.1.6"
   - "B.3"
   - "C.11"
@@ -24,6 +25,7 @@ dependencies:
   - "C.18"
   - "C.19"
   - "C.19.1"
+  - "C.2.1"
   - "C.28"
   - "C.5"
   - "E.17"
@@ -38,7 +40,9 @@ keywords:
 
 ### C.24:12 - Relations
 
-- `A.3.1` supplies admitted Method identity; `C.11` supplies the fixed choice consumed through `upstreamChoiceResultRef`.
+- `A.3.1` supplies admitted Method identity; neither decision branch admits a Method merely by selecting an action.
+- The steering Method in `A.15.7` is used to reach the situation-responsive decision cited through `situationResponsiveDecisionEpistemeRef`; when this plan relies on the decision, its episteme has the identity conditions defined in C.2.1.
+- A C.11 `ChoiceResult` whose result is `choose now` is cited through `fixedOptionChoiceResultRef`.
 - `C.18` supplies generated candidate or front material, and `C.19` supplies `PoolPolicyResult` or `EmitterPolicy` only when live-pool treatment still constrains the plan. Neither admits a Method.
 - `C.19.1` supplies the scale-claim probe, any selected comparison or Scale-Audit result, and any separate local policy or `BLP-waiver`; C.24 invents none of them.
 - `A.15`, `A.15.1`, `A.15.2`, `A.2.1`, and `F.6` keep Method, description, plan, Work, performer, and attribution distinct.

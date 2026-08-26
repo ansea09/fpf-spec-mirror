@@ -6,12 +6,12 @@ section_id: "E.15:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__013_relations.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:12 — Relations"
-line_start: 78057
-line_end: 78074
+line_start: 78507
+line_end: 78524
 dependencies:
   - "C.18"
   - "C.19"

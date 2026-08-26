@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.P.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
-line_start: 65729
-line_end: 65898
+line_start: 66177
+line_end: 66346
 dependencies:
   - "A.1"
   - "A.1.1"

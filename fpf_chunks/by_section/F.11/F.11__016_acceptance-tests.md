@@ -6,12 +6,12 @@ section_id: "F.11:15"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__016_acceptance-tests.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:15 — Acceptance tests"
-line_start: 93479
-line_end: 93496
+line_start: 93929
+line_end: 93946
 dependencies:
   - "A.15"
   - "A.15.1"

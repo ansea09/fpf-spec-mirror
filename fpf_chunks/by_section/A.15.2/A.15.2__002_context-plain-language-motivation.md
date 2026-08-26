@@ -6,12 +6,12 @@ section_id: "A.15.2:1"
 section_title: "Context (plain‑language motivation)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__002_context-plain-language-motivation.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:1 — Context (plain‑language motivation)"
-line_start: 24331
-line_end: 24341
+line_start: 24576
+line_end: 24589
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,6 +56,9 @@ keywords:
 ---
 
 ### A.15.2:1 - Context (plain‑language motivation)
+
+**Before and during Work.** Before Work begins, keep intended-work content in this WorkPlan. Use `A.15.5` when the question is whether that Work is ready to start, and use `C.11` only when a known chooser must compare an already formed `OptionSet`. Do not invent current Work for `A.15.7`. During Work, an `A.15.7` answer remains separate from the plan. Revise the WorkPlan only when the intended-work content actually changes, and identify any later performed action under `A.15.1` rather than back-filling the plan.
+
 
 Intended operations are coordinated in **time**. Even with suitable performers, capabilities, and methods, no intended performance begins merely because it is forecast or described: a system must decide when and by whom possible future work is intended, under what **constraints** and **budgets**. Teams need a first-class concept for **plans and schedules** that does **not** get confused with:
 

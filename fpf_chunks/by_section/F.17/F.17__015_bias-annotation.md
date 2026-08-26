@@ -6,12 +6,12 @@ section_id: "F.17:12.5"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__015_bias-annotation.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:12.5 — Bias-Annotation"
-line_start: 96006
-line_end: 96009
+line_start: 96456
+line_end: 96459
 dependencies:
   - "A.1.1"
   - "A.10"

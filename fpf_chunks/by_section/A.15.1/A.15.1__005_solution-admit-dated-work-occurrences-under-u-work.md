@@ -6,12 +6,12 @@ section_id: "A.15.1:4"
 section_title: "Solution — admit dated Work occurrences under U.Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__005_solution-admit-dated-work-occurrences-under-u-work.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:4 — Solution — admit dated Work occurrences under U.Work"
-line_start: 23774
-line_end: 23873
+line_start: 24014
+line_end: 24116
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -97,6 +97,9 @@ If the receiving sentence says that a referent changed, identify one exact `U.Tr
 > **Memory aid:** *Work = “how it went this time”* (dated, resourced, attributable).
 
 #### A.15.1:4.2 - Core occurrence references and neighboring links
+
+**When current Work also uses live steering.** One current Work occurrence may enact both its domain Method and the `A.15.7` steering Method, but only if each `enactsMethod` relation is independently grounded. Merely consulting the pattern or a MethodDescription, or admitting the steering Method as a submethod of a composite Method, proves neither enactment. The next-action answer says what should happen next; it neither creates another Work occurrence nor changes Work that has already occurred. Treat choosing as a smaller Work occurrence only when its own A.15.1 basis and its relation to the larger Work are both needed and grounded.
+
 When a separate assertion or description episteme describes one Work occurrence, recover the following content at the granularity required by the current use. Each item names an occurrence designator, a world-side relation or temporal fact, or a reference to another episteme; the list is not a slot or field schema for the Work individual:
 
 1. **Occurrence and extent** — one occurrence designator plus exact start and end, or an explicitly open end for in-flight work; add location only when the work claim depends on it.

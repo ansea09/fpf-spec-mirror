@@ -6,12 +6,12 @@ section_id: "A.2.3:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__009_bias-annotation.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:5.1 — Bias-Annotation"
-line_start: 4043
-line_end: 4048
+line_start: 4062
+line_end: 4067
 dependencies:
   - "A.1.1"
   - "A.10"

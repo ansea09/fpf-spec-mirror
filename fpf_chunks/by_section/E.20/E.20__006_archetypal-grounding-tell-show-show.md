@@ -6,12 +6,12 @@ section_id: "E.20:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 85867
-line_end: 85879
+line_start: 86317
+line_end: 86329
 dependencies:
   - "A.15.3"
   - "A.6.1"

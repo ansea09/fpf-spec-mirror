@@ -6,12 +6,12 @@ section_id: "C.20:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 49132
-line_end: 49149
+line_start: 49562
+line_end: 49579
 dependencies:
   - "A.1"
   - "A.14"

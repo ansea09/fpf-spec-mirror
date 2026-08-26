@@ -6,12 +6,12 @@ section_id: "C.31:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__012_sota-echoing.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:11 — SoTA-Echoing"
-line_start: 60485
-line_end: 60505
+line_start: 60933
+line_end: 60953
 dependencies:
   - "A.10"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "C.22:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__004_problem-frame.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:2 — Problem Frame"
-line_start: 49516
-line_end: 49523
+line_start: 49946
+line_end: 49953
 dependencies:
   - "A.6.0"
   - "C.16"

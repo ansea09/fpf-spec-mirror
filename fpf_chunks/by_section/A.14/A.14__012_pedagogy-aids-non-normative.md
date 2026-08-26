@@ -6,12 +6,12 @@ section_id: "A.14:11"
 section_title: "Pedagogy aids (non-normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__012_pedagogy-aids-non-normative.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:11 — Pedagogy aids (non-normative)"
-line_start: 23253
-line_end: 23263
+line_start: 23487
+line_end: 23497
 dependencies:
   - "A.1"
   - "A.15"

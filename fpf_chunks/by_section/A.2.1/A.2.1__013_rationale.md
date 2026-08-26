@@ -6,12 +6,12 @@ section_id: "A.2.1:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__013_rationale.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:11 — Rationale"
-line_start: 3372
-line_end: 3379
+line_start: 3391
+line_end: 3398
 dependencies:
   - "A.1.1"
   - "A.15"

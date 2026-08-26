@@ -6,12 +6,12 @@ section_id: "A.15.4:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__009_conformance-checklist.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:4 — Conformance Checklist"
-line_start: 25329
-line_end: 25338
+line_start: 25579
+line_end: 25588
 dependencies:
   - "A.10"
   - "A.15"

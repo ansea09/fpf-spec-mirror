@@ -6,12 +6,12 @@ section_id: "D.5:3.3"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:3.3 — Common Anti-Patterns and How to Avoid Them"
-line_start: 66738
-line_end: 66745
+line_start: 67186
+line_end: 67193
 dependencies:
   - "A.10"
   - "B.3"

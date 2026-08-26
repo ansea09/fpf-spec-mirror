@@ -6,12 +6,12 @@ section_id: "A.3.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__008_conformance-checklist.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:7 — Conformance Checklist"
-line_start: 8239
-line_end: 8270
+line_start: 8472
+line_end: 8503
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -69,7 +69,7 @@ keywords:
 
 **CC-A3.2-9 (Parameters and use time).** A method description may state parameter meanings and ranges. A `U.WorkPlan` names planned values against the declaration that gives them meaning. An actual participant or operation value requires an obtaining subject relation or A.6.1 application binding; otherwise keep it planned and return `missing-governor[actual-use]`.
 
-**CC-A3.2-10 (Same subject versus equivalent descriptions).** Two descriptions concern the same `U.Method` only when their `EntityOfConcern` references resolve to the same A.3.1 method identity. A scheme difference may require an F.9 Bridge to interpret a comparison, but the Bridge does not establish Method identity. Shared subject also does not make the epistemes equivalent: state which claims are preserved, absent, incompatible, or inaccurate for the proposed use. Notation or control structure alone establishes neither a different Method nor equivalent claim content.
+**CC-A3.2-10 (Same subject versus equivalent descriptions).** Two descriptions concern the same `U.Method` only when their `EntityOfConcern` references resolve to the same A.3.1 method identity. A scheme difference may require an F.9 Bridge to interpret a comparison, but the Bridge does not establish Method identity. Shared subject also does not make the epistemes equivalent: state which claims are preserved, absent, incompatible, or inaccurate for the proposed use. Do not use executable agreement, renaming of bound variables, graph equivalence, or persistence across stages by itself to decide whether the Method is the same or different or the claims are equivalent.
 
 **CC-A3.2-11 (Edition and refinement).** A later file or episteme edition does not by itself refine the Method. Use C.2.1 for the edition relation; state which description claims a comparison preserves or strengthens; and use A.3.1, B.1.5, or another admitted method relation only for an actual refinement claim. If no pattern or declaration defines refinement, keep the two Methods and stop at the edition or comparison result.
 

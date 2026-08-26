@@ -6,12 +6,12 @@ section_id: "A.15.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__007_bias-annotation.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:6 — Bias-Annotation"
-line_start: 25877
-line_end: 25884
+line_start: 26103
+line_end: 26110
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -39,7 +39,7 @@ keywords:
 
 This pattern has a project-recovery bias because project wording is widespread in FPF names. The process and case branches prevent that bias from making composite work the subject of every management claim.
 
-It has a 4D work-occurrence bias for actual projects. The guard is the two-stage recovery: first the complete A.15.1 admission basis and exact work parthood, then the five project-specific qualifications. A temporary organization, plan, transformation, product, dashboard, or time-contained occurrence remains a neighboring object unless those facts establish the composite Work and the claim is actually about it.
+It has a 4D work-occurrence bias for actual projects. The guard is the two-stage recovery: first the complete A.15.1 admission basis and obtaining work-parthood, then the five project-specific qualifications. A temporary organization, plan, Transformation, product, dashboard, or time-contained occurrence remains a neighboring object unless those facts establish the composite Work and the claim is actually about it.
 
-The examples include engineering, medicine, and learning to resist software-document bias. **Working product** is Plain recognition wording, not an episteme kind, result kind, or universal relation position. Recover the exact entity under the pattern that defines or constrains it, then state the production-work, entity-identity-inception, changed-referent, measurement, evaluation, delivery, acceptance, or later-use claim that the decision actually needs. Keep the Plain wording only while that exact relation or claim remains recoverable.
+The examples include engineering, medicine, and learning to resist software-document bias. **Working product** is Plain recognition wording, not an episteme kind, result kind, or universal relation position. Recover the entity under the pattern that defines or constrains it, then state the production-work, entity-identity-inception, changed-referent, measurement, evaluation, delivery, acceptance, or later-use claim that the decision actually needs. Keep the Plain wording only while the needed relation or claim remains recoverable.
 

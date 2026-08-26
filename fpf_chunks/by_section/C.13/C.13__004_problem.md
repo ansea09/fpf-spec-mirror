@@ -6,12 +6,12 @@ section_id: "C.13:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__004_problem.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:2.1 — Problem"
-line_start: 45699
-line_end: 45702
+line_start: 46129
+line_end: 46132
 dependencies:
   - "A.1"
   - "A.14"

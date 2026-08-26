@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__012_rationale.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:10 — Rationale"
-line_start: 6937
-line_end: 6940
+line_start: 6956
+line_end: 6959
 dependencies:
   - "A.10"
   - "A.15.1"

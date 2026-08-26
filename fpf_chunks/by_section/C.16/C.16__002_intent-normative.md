@@ -6,12 +6,12 @@ section_id: "C.16:1"
 section_title: "Intent (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__002_intent-normative.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:1 — Intent (Normative)"
-line_start: 45931
-line_end: 45944
+line_start: 46361
+line_end: 46374
 dependencies:
   - "A.10"
   - "A.15.1"

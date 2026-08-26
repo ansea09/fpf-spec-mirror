@@ -6,12 +6,12 @@ section_id: "E.10:10"
 section_title: "Reference routine for turning messy language into E.10-clean prose (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__012_reference-routine-for-turning-messy-language-into-e-10-clean-prose-informative.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:10 — Reference routine for turning messy language into E.10-clean prose (informative)"
-line_start: 73657
-line_end: 73702
+line_start: 74107
+line_end: 74152
 dependencies:
   - "A.10"
   - "A.15"

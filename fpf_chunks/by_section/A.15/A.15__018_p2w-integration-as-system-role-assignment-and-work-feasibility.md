@@ -6,12 +6,12 @@ section_id: "A.15:12e"
 section_title: "P2W Integration as System-Role Assignment and Work Feasibility"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__018_p2w-integration-as-system-role-assignment-and-work-feasibility.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12e — P2W Integration as System-Role Assignment and Work Feasibility"
-line_start: 23700
-line_end: 23705
+line_start: 23940
+line_end: 23945
 dependencies:
   - "A.10"
   - "A.15.1"

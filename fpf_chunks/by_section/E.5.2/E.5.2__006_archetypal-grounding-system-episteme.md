@@ -6,12 +6,12 @@ section_id: "E.5.2:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__006_archetypal-grounding-system-episteme.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:5 — Archetypal Grounding (System / Episteme)"
-line_start: 69975
-line_end: 69981
+line_start: 70425
+line_end: 70431
 dependencies:
   - "E.5"
 keywords:

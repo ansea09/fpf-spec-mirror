@@ -6,12 +6,12 @@ section_id: "A.3:End"
 section_title: "A.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__012_a-3-end.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:End — A.3:End"
-line_start: 7561
-line_end: 7562
+line_start: 7580
+line_end: 7581
 dependencies:
   - "A.10"
   - "A.12-A.15"

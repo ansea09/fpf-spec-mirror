@@ -6,12 +6,12 @@ section_id: "E.11:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__008_conformance-checklist.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:7 — Conformance Checklist"
-line_start: 75809
-line_end: 75829
+line_start: 76259
+line_end: 76279
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -46,7 +46,7 @@ keywords:
 | `E11-10` | Thin projection and direct authority | ToC pattern rows expose the framework's declared retrieval fields, including a recognizable working-question cue, without copying a first move, result, or boundary mini-method. `E.11.PFP` defines the exact index fields and form grammar. ToC, query phrases, compact locators, and retrieval remain finding aids. A selected card carries practical-use guidance; every substantive claim returns to the direct pattern whose content defines, constrains, or tests it. |
 | `E11-11` | Representative, non-exhaustive public examples | Every displayed example names a concrete need, imaginable result or blocker, and choice-changing direct-pattern distinction. When both uses matter, the set shows cheap direct help and extended cross-pattern help, says that many other questions remain in the product, and returns unmatched questions to the index, guide, search, or direct patterns. Example inventory is not product coverage. |
 | `E11-12` | Smallest change reach | When a direct result or boundary changes, repair the smallest affected entry plus determinate README, Preface, ToC, example, relation, and true-consumer wording; unrelated publication units remain unchanged. |
-| `E11-13` | Cross-DPF Guide route and bypass | A several-DPF, unclear-DPF, Suite-wide, or ecosystem-gap situation routes to a current `E.11.DSG` Guide; a known sufficient DPF result routes directly to that DPF. The Guide returns to the Suite collection and the product series, editions, results, states, or sources that change the answer. It neither decides whether a product series belongs to the Suite, performs lookup Work, nor requires a Suite edition. |
+| `E11-13` | Cross-DPF Guide entry and direct-use bypass | A several-DPF, unclear-DPF, Suite-wide, or ecosystem-gap situation uses a current `E.11.DSG` Guide; a known sufficient DPF result uses that DPF directly. The Guide returns to the Suite collection and the product series, editions, results, states, or sources that change the answer. It neither decides whether a product series belongs to the Suite, performs lookup Work, nor requires a Suite edition. |
 | `E11-14` | Honest card selection and distinct objects | Each declared card passes the same-content-without-mantra comparison, and at least one plausible direct entry is checked against the same test. Every card retains a real cross-pattern dependency; local reminders remain outside card selection. Card unit, published guidance, semantic key, selected form, optional expansion, direct pattern, ordinary walkthrough, and independently admitted CGUS demonstration remain distinct. |
 | `E11-15` | Cross-pattern mnemonic carry-through and same-key return | After one read, a cold reader can repeat the selected card's longer dependency in their own words, name the first result or blocker, identify the checks and returns that change continuation, reach the direct patterns, and recover the one optional same-key expansion. Form conformance alone does not satisfy this check. |
 

@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__007_bias-annotation.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:6 — Bias-Annotation"
-line_start: 69669
-line_end: 69682
+line_start: 70119
+line_end: 70132
 dependencies:
   - "C.2.1"
   - "C.33"

@@ -6,12 +6,12 @@ section_id: "E.11.DSG:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__007_bias-annotation.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.11.DSG — DPF Suite Guide"
   - "E.11.DSG:6 — Bias-Annotation"
-line_start: 77120
-line_end: 77126
+line_start: 77570
+line_end: 77576
 dependencies:
   - "A.14"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__008_conformance-checklist.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:7 — Conformance checklist"
-line_start: 10389
-line_end: 10410
+line_start: 10623
+line_end: 10644
 dependencies:
   - "A.6"
   - "A.6.P"

@@ -6,12 +6,12 @@ section_id: "B.4.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__001_intro.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:intro — Intro"
-line_start: 38698
-line_end: 38705
+line_start: 39123
+line_end: 39130
 dependencies:
   - "A.15"
   - "A.16"

@@ -6,12 +6,12 @@ section_id: "A.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__004_problem.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:2 — Problem"
-line_start: 1468
-line_end: 1478
+line_start: 1487
+line_end: 1497
 dependencies:
   - "A.1.1"
   - "A.1.STM"

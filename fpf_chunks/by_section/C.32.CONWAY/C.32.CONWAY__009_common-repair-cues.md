@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:8"
 section_title: "Common Repair Cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__009_common-repair-cues.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:8 — Common Repair Cues"
-line_start: 63029
-line_end: 63044
+line_start: 63477
+line_end: 63492
 dependencies:
   - "A.10"
   - "A.12"

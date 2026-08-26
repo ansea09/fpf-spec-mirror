@@ -6,12 +6,12 @@ section_id: "A.2.2:14"
 section_title: "Excluded Objects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__015_excluded-objects.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:14 — Excluded Objects"
-line_start: 3742
-line_end: 3758
+line_start: 3761
+line_end: 3777
 dependencies:
   - "A.15"
   - "A.2"

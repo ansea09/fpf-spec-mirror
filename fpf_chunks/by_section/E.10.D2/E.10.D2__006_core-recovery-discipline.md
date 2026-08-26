@@ -6,12 +6,12 @@ section_id: "E.10.D2:4.1"
 section_title: "Core recovery discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__006_core-recovery-discipline.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:4.1 — Core recovery discipline"
-line_start: 75041
-line_end: 75079
+line_start: 75491
+line_end: 75529
 dependencies:
   - "A.1.1"
   - "A.10"

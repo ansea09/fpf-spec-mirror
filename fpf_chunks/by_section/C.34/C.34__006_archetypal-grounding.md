@@ -6,12 +6,12 @@ section_id: "C.34:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__006_archetypal-grounding.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:5 — Archetypal Grounding"
-line_start: 65008
-line_end: 65021
+line_start: 65456
+line_end: 65469
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

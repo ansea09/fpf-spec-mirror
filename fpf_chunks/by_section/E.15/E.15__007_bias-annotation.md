@@ -6,12 +6,12 @@ section_id: "E.15:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__007_bias-annotation.md"
-commit_sha: "563f4c8e06a319cbd375b66cdbb2df27a5f8b9ef"
+commit_sha: "c7ac61bbaa8d3c10165b1a5a4a350956c87d77c9"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:6 — Bias-Annotation"
-line_start: 77991
-line_end: 77996
+line_start: 78441
+line_end: 78446
 dependencies:
   - "C.18"
   - "C.19"
