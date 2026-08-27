@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__008_conformance-checklist.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:7 — Conformance Checklist"
-line_start: 63742
-line_end: 63758
+line_start: 64058
+line_end: 64074
 dependencies:
   - "A.10"
   - "A.12"

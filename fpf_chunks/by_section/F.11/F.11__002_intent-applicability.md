@@ -6,12 +6,12 @@ section_id: "F.11:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__002_intent-applicability.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:1 — Intent & applicability"
-line_start: 94233
-line_end: 94247
+line_start: 94560
+line_end: 94574
 dependencies:
   - "A.15"
   - "A.15.1"

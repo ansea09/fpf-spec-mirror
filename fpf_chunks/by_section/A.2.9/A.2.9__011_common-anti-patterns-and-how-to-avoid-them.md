@@ -6,12 +6,12 @@ section_id: "A.2.9:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 7309
-line_end: 7326
+line_start: 7622
+line_end: 7639
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -31,9 +31,12 @@ keywords:
   - "authority-grounding assignment"
   - "evidence carrier"
   - "institutional target and effect"
+  - "named receiving use"
   - "optional SpeechActRecord"
   - "performing U.System"
   - "publication relation"
+  - "response versus achievement"
+  - "smallest repair or stop"
   - "utterance description"
 ---
 

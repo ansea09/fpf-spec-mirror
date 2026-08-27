@@ -6,12 +6,12 @@ section_id: "A.6.F:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__012_sota-echoing.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:11 — SoTA-Echoing"
-line_start: 18384
-line_end: 18394
+line_start: 18700
+line_end: 18710
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.36:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__008_conformance-checklist.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:7 — Conformance Checklist"
-line_start: 66389
-line_end: 66403
+line_start: 66707
+line_end: 66722
 dependencies:
   - "A.1"
   - "A.10"
@@ -70,4 +70,5 @@ keywords:
 | **CC-C36-8 — Separate effect test** | The intervention's expected effect, observed value, measurement relation, and effect claim are recoverable separately; observing a value does not manufacture the effect. |
 | **CC-C36-9 — Neighbor boundary** | Archive/front, pool, selected-set, local-choice, publication, architecture, currentness, transformation, Work, and mathematical-model claims use their direct patterns when current. |
 | **CC-C36-10 — Source and refresh** | Every adopted SoTA move retains its stated limit and currentness trigger; a source label or newer date alone does not establish a cultural relation. |
+| **CC-C36-11 — Possible development** | When the question is how the practice may develop, the answer keeps more than one serious hypothesis and names an observation that would distinguish them. It uses `B.5` and `B.5.2` for hypotheses and consequences, `A.3.3` only for a state-space-and-transition-law claim, and `C.28` only when the current use relies on a causal claim. It uses `A.15.7` for a next action during ongoing Work and `C.11` only for an already formed bounded choice; otherwise experiment or probe design stays with the applicable DPF or field Method. |
 

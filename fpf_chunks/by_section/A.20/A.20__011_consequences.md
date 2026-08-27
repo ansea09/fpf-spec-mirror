@@ -6,12 +6,12 @@ section_id: "A.20:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__011_consequences.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:9 — Consequences"
-line_start: 33684
-line_end: 33687
+line_start: 34000
+line_end: 34003
 dependencies:
   - "A.10"
   - "A.15"

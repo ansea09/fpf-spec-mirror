@@ -6,12 +6,12 @@ section_id: "A.2.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__004_problem-frame.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:1 — Problem frame"
-line_start: 7033
-line_end: 7049
+line_start: 7332
+line_end: 7350
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -31,9 +31,12 @@ keywords:
   - "authority-grounding assignment"
   - "evidence carrier"
   - "institutional target and effect"
+  - "named receiving use"
   - "optional SpeechActRecord"
   - "performing U.System"
   - "publication relation"
+  - "response versus achievement"
+  - "smallest repair or stop"
   - "utterance description"
 ---
 
@@ -44,6 +47,8 @@ FPF repeatedly needs to reference “someone said/did the approving/authorizing/
 * System-role-assignment eligibility and enactability checklists often depend on the **presence of an approval or authorization act** within a freshness window.
 * Governance patterns and boundary writing (A.6 stack) need **provenance**: “this obligation or commitment, or this separately represented granted permission, was instituted by *that* act”.
 * Operational patterns need auditable **notices** (“depletion notice”, “override invoked”) whose existence and timing matter.
+
+The same separation is needed before formal occurrence modeling. A reader may need to decide whether a report, answer, model, or message enabled one named use and what to repair. A visible response is not by itself achievement; a later action or change is not by itself evidence that the communication caused it; and the full occurrence-record apparatus should not be a prerequisite for this first bounded judgement.
 
 Without a first-class kind for such communicative Work and a separate way to describe each occurrence, authors tend to:
 

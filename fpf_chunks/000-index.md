@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `d064720b072b822cbb2f1d41e555cf08e2904f11`
+Commit SHA: `322625be006f38158e4e7d600f662558f03df77a`
 
 Chunking method: `pattern-aware`
 
-Patterns: `304`
+Patterns: `305`
 
 ## Patterns
 
@@ -14,6 +14,7 @@ Patterns: `304`
 - [A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)](by_pattern/A.1.md)
 - [A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery](by_pattern/A.1.1.md)
 - [A.1.SCR — Finding the Acting or Changed System](by_pattern/A.1.SCR.md)
+- [A.1.CSD — Discovering Systems That May Bear Consequences](by_pattern/A.1.CSD.md)
 - [A.1.STM — Using the System-Thinking Long Mantra](by_pattern/A.1.STM.md)
 - [A.2 — System-Role Kinds and Assignments](by_pattern/A.2.md)
 - [A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment](by_pattern/A.2.1.md)

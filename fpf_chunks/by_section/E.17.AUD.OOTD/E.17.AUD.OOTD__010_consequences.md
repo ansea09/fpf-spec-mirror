@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__010_consequences.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:9 — Consequences"
-line_start: 83372
-line_end: 83381
+line_start: 83699
+line_end: 83708
 dependencies:
   - "A.10"
   - "A.15"

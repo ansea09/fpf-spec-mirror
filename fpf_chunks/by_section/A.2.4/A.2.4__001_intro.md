@@ -6,12 +6,12 @@ section_id: "A.2.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__001_intro.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:intro — Intro"
-line_start: 4283
-line_end: 4288
+line_start: 4578
+line_end: 4583
 dependencies:
   - "A.10"
   - "A.2"

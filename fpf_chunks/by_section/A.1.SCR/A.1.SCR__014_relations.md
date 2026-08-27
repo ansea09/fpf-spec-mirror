@@ -6,14 +6,15 @@ section_id: "A.1.SCR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__014_relations.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:12 — Relations"
-line_start: 2479
-line_end: 2488
+line_start: 2506
+line_end: 2515
 dependencies:
   - "A.1"
+  - "A.1.CSD"
   - "A.1.STM"
   - "A.15.6"
   - "A.6.P"
@@ -30,6 +31,6 @@ keywords:
 - **Service/access first use:** A.6.P §4.11a; A.1.SCR applies only to a separate system-dependent claim about the exact entity recovered there—an exact bearer or access-providing arrangement.
 - **Uses for projects:** A.15.6 for the actual and intended system distinction, plan or decision designation of the project system-of-interest, separate tests of the system-role kind and assignment, project-relevant network selection, and `missing-substrate[project-selection-conjunction]`; A.1.STM only when the returned recognition result must re-enter the system-thinking long map.
 - **Uses for missing relations:** A.6.RCD with exact participants, receiving use, and `missing-governor[...]`.
-- **Coordinates with:** A.1.STM for the separate long-map use after recognition; E.10 for lexical triggers. Neither classifies a world-side subject.
+- **Coordinates with:** A.1.CSD when a returned bearer result opens the separate question of which other Systems may undergo relevant changes; A.1.STM for the separate long-map use after recognition; and E.10 for lexical triggers. None classifies a world-side subject.
 - **Does not replace:** A.1, direct kind patterns, relation patterns, A.6.P, or F.18 designation recovery.
 

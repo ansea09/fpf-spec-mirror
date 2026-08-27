@@ -6,13 +6,14 @@ section_id: "C.11.CRC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__005_forces.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:3 — Forces"
-line_start: 46172
-line_end: 46181
+line_start: 46488
+line_end: 46497
 dependencies:
+  - "A.1.CSD"
   - "A.10"
   - "A.15"
   - "A.19"

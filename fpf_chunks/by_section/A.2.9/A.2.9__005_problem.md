@@ -6,12 +6,12 @@ section_id: "A.2.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__005_problem.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:2 — Problem"
-line_start: 7050
-line_end: 7060
+line_start: 7351
+line_end: 7362
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -31,9 +31,12 @@ keywords:
   - "authority-grounding assignment"
   - "evidence carrier"
   - "institutional target and effect"
+  - "named receiving use"
   - "optional SpeechActRecord"
   - "performing U.System"
   - "publication relation"
+  - "response versus achievement"
+  - "smallest repair or stop"
   - "utterance description"
 ---
 
@@ -47,4 +50,5 @@ How can FPF represent communicative enactments so that:
 4. **The act is auditable:** it has at least one declared utterance description, evidence carrier, or both when used for gate checks or governance.
 5. **Institutional effects are linkable:** the act can institute or update commitments, system-role assignments, statuses, and other exact relations by reference only after each effect's direct obtaining conditions hold.
 6. **Ambiguity is handled pragmatically:** the model supports multi-function and multi-party communication without requiring full linguistic pragmatics.
+7. **Receiving use stays affordable:** a practitioner can name who should understand or do what, judge the available evidence, and repair the smallest blocker or stop without first constructing a complete occurrence record.
 

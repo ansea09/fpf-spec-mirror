@@ -6,13 +6,14 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.SCR.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
-line_start: 2235
-line_end: 2490
+line_start: 2259
+line_end: 2517
 dependencies:
   - "A.1"
+  - "A.1.CSD"
   - "A.1.STM"
   - "A.15.6"
   - "A.6.P"
@@ -135,7 +136,10 @@ Then apply the already admitted `U.System` condition: the whole has an actual ph
 | Proposed system reading rejected | Exact non-system subject or relation, its subject pattern, and the action that remains possible. |
 | Evaluation unresolved | Exact `U.Entity`, missing A.1 component or kind-specific condition, needed information, and the decision that stays blocked. |
 
-These are response forms, not a schema. Persist a classification assertion or evaluation-result episteme only when another use must inspect or cite it; C.2.1 is then the pattern for that episteme. `true | false | unknown` describes an evaluation and changes no kind extent.
+After one candidate bearer is recognized, rejected, or left unresolved, use `A.1.CSD` only when the current question is which other Systems may undergo relevant changes and that discovery can change a named decision or investigation. A.1.SCR does not generate the bearer set or qualify consequence paths; it supplies only the load-bearing recognition result or blocker.
+
+These are response forms, not a schema.
+ Persist a classification assertion or evaluation-result episteme only when another use must inspect or cite it; C.2.1 is then the pattern for that episteme. `true | false | unknown` describes an evaluation and changes no kind extent.
 
 #### A.1.SCR:4.5 - Add only the neighbors used now
 
@@ -273,7 +277,7 @@ The conditional method assembled here—state the decision, close with an exact 
 - **Service/access first use:** A.6.P §4.11a; A.1.SCR applies only to a separate system-dependent claim about the exact entity recovered there—an exact bearer or access-providing arrangement.
 - **Uses for projects:** A.15.6 for the actual and intended system distinction, plan or decision designation of the project system-of-interest, separate tests of the system-role kind and assignment, project-relevant network selection, and `missing-substrate[project-selection-conjunction]`; A.1.STM only when the returned recognition result must re-enter the system-thinking long map.
 - **Uses for missing relations:** A.6.RCD with exact participants, receiving use, and `missing-governor[...]`.
-- **Coordinates with:** A.1.STM for the separate long-map use after recognition; E.10 for lexical triggers. Neither classifies a world-side subject.
+- **Coordinates with:** A.1.CSD when a returned bearer result opens the separate question of which other Systems may undergo relevant changes; A.1.STM for the separate long-map use after recognition; and E.10 for lexical triggers. None classifies a world-side subject.
 - **Does not replace:** A.1, direct kind patterns, relation patterns, A.6.P, or F.18 designation recovery.
 
 ### A.1.SCR:End

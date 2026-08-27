@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.RSA.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
-line_start: 61258
-line_end: 61653
+line_start: 61574
+line_end: 61969
 dependencies:
   - "A.10"
   - "A.19"

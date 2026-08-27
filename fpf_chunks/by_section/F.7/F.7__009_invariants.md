@@ -6,12 +6,12 @@ section_id: "F.7:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__009_invariants.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:8 — Invariants"
-line_start: 92543
-line_end: 92554
+line_start: 92870
+line_end: 92881
 dependencies:
   - "A.6.9"
   - "B.3"

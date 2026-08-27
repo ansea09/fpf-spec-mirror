@@ -6,12 +6,12 @@ section_id: "E.10.D1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__006_archetypal-grounding.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:5 — Archetypal Grounding"
-line_start: 75822
-line_end: 75833
+line_start: 76149
+line_end: 76160
 dependencies:
   - "A.1.1"
   - "A.2.6"

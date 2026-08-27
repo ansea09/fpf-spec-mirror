@@ -6,12 +6,12 @@ section_id: "A.6.4:5"
 section_title: "Archetypal Grounding (Tell-Show-Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:5 — Archetypal Grounding (Tell-Show-Show)"
-line_start: 15481
-line_end: 15492
+line_start: 15797
+line_end: 15808
 dependencies:
   - "A.10"
   - "A.15"

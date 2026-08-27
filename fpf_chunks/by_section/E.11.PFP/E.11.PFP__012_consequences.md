@@ -6,12 +6,12 @@ section_id: "E.11.PFP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__012_consequences.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:9 — Consequences"
-line_start: 77888
-line_end: 77891
+line_start: 78215
+line_end: 78218
 dependencies:
   - "E.11"
   - "E.17"

@@ -6,14 +6,15 @@ section_id: "A.1.SCR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__005_forces.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:3 — Forces"
-line_start: 2279
-line_end: 2289
+line_start: 2303
+line_end: 2313
 dependencies:
   - "A.1"
+  - "A.1.CSD"
   - "A.1.STM"
   - "A.15.6"
   - "A.6.P"

@@ -6,12 +6,12 @@ section_id: "A.2.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__001_intro.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:intro — Intro"
-line_start: 3082
-line_end: 3087
+line_start: 3377
+line_end: 3382
 dependencies:
   - "A.1.1"
   - "A.15"

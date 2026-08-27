@@ -6,12 +6,12 @@ section_id: "C.3.1:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 44115
-line_end: 44124
+line_start: 44431
+line_end: 44440
 dependencies:
   - "A.1"
   - "A.11"

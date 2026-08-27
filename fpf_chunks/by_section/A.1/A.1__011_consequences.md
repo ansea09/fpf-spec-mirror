@@ -6,12 +6,12 @@ section_id: "A.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__011_consequences.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:9 — Consequences"
-line_start: 1748
-line_end: 1763
+line_start: 1772
+line_end: 1787
 dependencies:
   - "A.1.1"
   - "A.1.STM"

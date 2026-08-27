@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.21.md"
-commit_sha: "d064720b072b822cbb2f1d41e555cf08e2904f11"
+commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
-line_start: 33713
-line_end: 34006
+line_start: 34029
+line_end: 34322
 dependencies:
   - "A.10"
   - "A.15.5"
