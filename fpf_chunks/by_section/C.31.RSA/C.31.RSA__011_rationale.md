@@ -6,12 +6,12 @@ section_id: "C.31.RSA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__011_rationale.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:10 — Rationale"
-line_start: 61924
-line_end: 61931
+line_start: 62177
+line_end: 62184
 dependencies:
   - "A.10"
   - "A.19"

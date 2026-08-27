@@ -6,12 +6,12 @@ section_id: "A.3.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__013_relations.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:12 — Relations"
-line_start: 9205
-line_end: 9211
+line_start: 9224
+line_end: 9230
 dependencies:
   - "A.1.1"
   - "A.10"

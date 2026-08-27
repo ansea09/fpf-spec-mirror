@@ -6,12 +6,12 @@ section_id: "A.15.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__002_problem-frame.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:1 — Problem frame"
-line_start: 26552
-line_end: 26585
+line_start: 26577
+line_end: 26611
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,6 +54,7 @@ For a reversible local choice, ordinary project language is enough. Create a dur
 **Not this pattern when.** Use the nearest applicable pattern instead:
 
 - Before Work exists, use `A.15.2` for intended-work content and `A.15.5` for work-entry readiness.
+- When ongoing Work is blocked because an exact performer, support, or continuation-state relation is missing or unsupported—not because known candidates need choosing—use the actual-Work branch of `A.15.8` to repair that configuration or stop, then return here.
 - For a settled short procedure with no material branch, use the applicable domain Method; consult its `A.3.2` MethodDescription when a description is needed.
 - For a choice outside current Work when the chooser and `OptionSet` are already known, use `C.11`.
 - For missing action candidates, use a subject-specific generation Method; use `C.18` only for an actual open-ended candidate archive and front.

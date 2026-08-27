@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
-line_start: 36313
-line_end: 36731
+line_start: 36564
+line_end: 36984
 dependencies:
   - "A.1"
   - "A.15"
@@ -200,6 +200,8 @@ Only the first case can be a method part. Do not mint `U.StepSpec`, `U.StepMetho
 B.1.5 directly governs `MethodPartOfRelation`, expressed in Plain register as `methodPartOf(partMethod, wholeMethod)`. Both participants are exact `U.Method` values already identified under A.3.1. The predicate obtains exactly when the whole Method's stable construction rule names the part Method as a required contributor or as an admitted alternative for a required contribution, and that contribution participates in the whole's reusable action. It establishes neither A.14 structural-component parthood, a work part, nor a transformation part.
 
 One `methodPartOf` occurrence is determined by the ordered pair `<part Method, whole Method>`. Every bounded alternative already admitted by the whole's construction rule can stand in `methodPartOf` at the same time; dated Work selecting one alternative does not start, end, or recur the other occurrences. For the same two exact Methods, the relation is atemporal: there is no silent cessation and later recurrence. If the construction rule changes so that a part is newly admitted or no longer admitted, the composite Method must be reidentified or the claim remains unresolved; reidentifying either participant gives another pair. This is why the participant pair is sufficient for the narrow family defined in B.1.5 even when actual enactments vary.
+
+The same part Method may also stand in `methodPartOf` relations to several different whole Methods. Test every pair against the construction rule of its own whole. Each whole keeps its own reusable action, applicability, boundary, constraints, interfaces, accepted variations, and reidentification rule. One supported pair says nothing about another and creates no unique containing Method, discipline-wide whole, kind inheritance, transitivity, fusion, or common-whole closure.
 
 A source label, list membership, diagram containment, shared name, registry entry, description membership, plan position, or work decomposition does not make `methodPartOf` obtain. When the test fails, keep the apparent step under its subject pattern and do not add a negative part merely to complete a diagram.
 
@@ -402,7 +404,7 @@ The pattern intentionally biases toward explicit construction and boundary accou
 | --- | --- |
 | `CC-B1.5-1` | The candidate whole and every claimed Method part are independently identified as exact `U.Method` values under A.3.1 before B.1.5 tests the composite-method qualification. |
 | `CC-B1.5-2` | Step wording, description nodes, plan items, Work occurrences, file modules, graph edges, registries, source wording, mechanism material, formal substrates, mathematical lenses, and evidence or publication-use claims are not Method parts by position or label. Keep each with its direct governor unless it is independently identified as an exact `U.Method` and `methodPartOf` separately obtains. |
-| `CC-B1.5-3` | Every `methodPartOf(partMethod, wholeMethod)` occurrence passes the required-contribution or admitted-alternative test. Its ordered-pair identity is exact; all bounded alternatives may obtain simultaneously, Work selection does not toggle them, and a changed admitted-part set reidentifies the whole Method or leaves the claim open. |
+| `CC-B1.5-3` | Every `methodPartOf(partMethod, wholeMethod)` occurrence passes the required-contribution or admitted-alternative test. Its ordered-pair identity is exact; all bounded alternatives may obtain simultaneously, Work selection does not toggle them, and a changed admitted-part set reidentifies the whole Method or leaves the claim open. One part Method may have several whole Methods only through separately supported pairs and separately qualified whole constructions; no unique parent or closure property follows. |
 | `CC-B1.5-4` | Every serial, parallel, guarded, iterative, fallback, adapter, substitution, or typed-join use states a concrete decidable claim and selects A.6.RCD's lightest sufficient disposition. A relation kind and occurrence are required only after independent admission for a named occurrence-semantics use. |
 | `CC-B1.5-5` | The already identified candidate Method states whole-level participant meanings, applicability, preconditions, intended effects or preserved conditions, invariants, bounds, accepted inputs and outputs, failure and stop conditions, interface decisions, and reidentification rule before its composite qualification is accepted. |
 | `CC-B1.5-6` | Exposed, forwarded, and encapsulated interactions are distinguished because changing the reusable action or admissible boundary changes Method identity. A named caller system, planner system, auditor, substituting-method selection use, or assurance use determines whether the boundary account must be explicit or published; reliance does not create its identity effect. |

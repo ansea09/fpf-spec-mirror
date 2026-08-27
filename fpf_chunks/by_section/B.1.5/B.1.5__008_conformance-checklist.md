@@ -6,12 +6,12 @@ section_id: "B.1.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__008_conformance-checklist.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:7 — Conformance Checklist"
-line_start: 36647
-line_end: 36668
+line_start: 36900
+line_end: 36921
 dependencies:
   - "A.1"
   - "A.15"
@@ -69,7 +69,7 @@ keywords:
 | --- | --- |
 | `CC-B1.5-1` | The candidate whole and every claimed Method part are independently identified as exact `U.Method` values under A.3.1 before B.1.5 tests the composite-method qualification. |
 | `CC-B1.5-2` | Step wording, description nodes, plan items, Work occurrences, file modules, graph edges, registries, source wording, mechanism material, formal substrates, mathematical lenses, and evidence or publication-use claims are not Method parts by position or label. Keep each with its direct governor unless it is independently identified as an exact `U.Method` and `methodPartOf` separately obtains. |
-| `CC-B1.5-3` | Every `methodPartOf(partMethod, wholeMethod)` occurrence passes the required-contribution or admitted-alternative test. Its ordered-pair identity is exact; all bounded alternatives may obtain simultaneously, Work selection does not toggle them, and a changed admitted-part set reidentifies the whole Method or leaves the claim open. |
+| `CC-B1.5-3` | Every `methodPartOf(partMethod, wholeMethod)` occurrence passes the required-contribution or admitted-alternative test. Its ordered-pair identity is exact; all bounded alternatives may obtain simultaneously, Work selection does not toggle them, and a changed admitted-part set reidentifies the whole Method or leaves the claim open. One part Method may have several whole Methods only through separately supported pairs and separately qualified whole constructions; no unique parent or closure property follows. |
 | `CC-B1.5-4` | Every serial, parallel, guarded, iterative, fallback, adapter, substitution, or typed-join use states a concrete decidable claim and selects A.6.RCD's lightest sufficient disposition. A relation kind and occurrence are required only after independent admission for a named occurrence-semantics use. |
 | `CC-B1.5-5` | The already identified candidate Method states whole-level participant meanings, applicability, preconditions, intended effects or preserved conditions, invariants, bounds, accepted inputs and outputs, failure and stop conditions, interface decisions, and reidentification rule before its composite qualification is accepted. |
 | `CC-B1.5-6` | Exposed, forwarded, and encapsulated interactions are distinguished because changing the reusable action or admissible boundary changes Method identity. A named caller system, planner system, auditor, substituting-method selection use, or assurance use determines whether the boundary account must be explicit or published; reliance does not create its identity effect. |

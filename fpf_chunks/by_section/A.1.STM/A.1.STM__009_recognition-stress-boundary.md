@@ -6,12 +6,12 @@ section_id: "A.1.STM:7"
 section_title: "Recognition stress boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__009_recognition-stress-boundary.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:7 — Recognition stress boundary"
-line_start: 2886
-line_end: 2891
+line_start: 2887
+line_end: 2892
 dependencies:
   - "A.1"
   - "A.1.CSD"

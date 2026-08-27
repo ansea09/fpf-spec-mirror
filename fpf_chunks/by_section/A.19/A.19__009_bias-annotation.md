@@ -6,12 +6,12 @@ section_id: "A.19:5.6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__009_bias-annotation.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:5.6 — Bias-Annotation"
-line_start: 28924
-line_end: 28929
+line_start: 29175
+line_end: 29180
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,21 +6,23 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 71524
-line_end: 71943
+line_start: 71813
+line_end: 72236
 dependencies:
   - "E.10"
   - "E.10.MOVE"
   - "E.11"
+  - "E.11.PFP"
   - "E.11.PUR"
   - "E.13"
   - "E.19"
   - "E.21"
   - "E.23"
+  - "E.4.DPF"
   - "E.5.1"
   - "E.5.4"
   - "E.6"
@@ -103,11 +105,15 @@ FPF is often consumed through full‑text search and retrieval (RAG). A reader o
 **H-2 (Heading separator).** The canonical separator between `<FullId>` and `<Title>` is ` - ` (ASCII, space-hyphen-space).
 Previously authored text may use Unicode dash variants such as ` – ` or ` — ` as separators; tooling **SHOULD** treat those variants as migration candidates, and authors **SHOULD** migrate touched headings to ` - `.
 
-**H-3 (FullId).** `FullId` is the full hierarchical address.
-For a **pattern heading** it is the pattern ID (e.g., `A.2`, `E.10.D1`).
-For **headings inside a pattern**, append dot‑separated ordinal section numbers after the colon (`:`) (e.g., `A.2:4.4`, `E.10.D2:3`).
+**H-3 (FullId).** `FullId` is the complete address used by this heading grammar.
+For a **pattern heading** it is the PatternID (e.g., `A.2`, `E.10.D1`).
+For **headings inside a pattern**, append dot-separated ordinal section numbers after the colon (`:`) (e.g., `A.2:4.4`, `E.10.D2:3`).
 *Exception:* the Footer marker uses the reserved sentinel token `:End` as defined in **H-9**.
-The colon (`:`) is **reserved** for section paths and **MUST NOT** appear in pattern IDs.
+The colon (`:`) is **reserved** for section paths and **MUST NOT** appear in PatternIDs.
+
+PatternID segments may be numeric or mnemonic. When the surrounding text identifies the framework, the complete PatternID identifies one pattern in that framework; the shape of its segments does not by itself state the pattern's title, meaning, Part, publication position, dependency, Method relation, or use order. A mnemonic segment may help recognition but does not define the pattern.
+
+Whether a PatternID stays with a changed pattern is an authoring decision, not a grammar decision. For a DPF, use `E.4.DPF`; use `E.11.PFP` to show current publication position separately. When the surrounding text does not already identify the framework, name the framework together with the PatternID. Add the edition when the reference must select the body published in one edition.
 
 **H-4 (Ordinals).** Ordinals in section paths **SHOULD** track the canonical template numbering (**1 = Problem frame**, …, **13 = Footer marker**) to maximise cross‑pattern comparability. During refactors or in previously authored patterns, ordinals **MAY** be local. In that case, the **canonical section title at the start of `<Title>`** is the semantic key; readers and tools **MUST NOT** infer section semantics from the ordinal alone.
 *Note:* the Footer marker itself is exempt from ordinal encoding; it uses the reserved token `:End` (see **H-9**).
@@ -141,7 +147,7 @@ It is the only allowed heading *inside* a pattern whose section token is non‑n
 
 **H-10 (Publication-token classification and addressability).** Before emitting an FPF-governed token as a reference, authors **MUST** classify it under exactly one of these seven E.8-local publication-token classes and use the matching form:
 
-- `PatternRef` names one exact current pattern body. It is addressable only when the assembled publication carries one complete H2 body, one matching `:End`, and a truthful current ToC status for the same PatternID; a structural checker may verify and report that conformance but does not supply the status or normative authority.
+- `PatternRef` uses one PatternID to name a pattern that continues across editions of the framework identified by the surrounding text. In the assembled publication being checked, it resolves to one complete H2 body, one matching `:End`, and a truthful ToC status for that PatternID. A reference intended to select the body published in one edition also names that framework edition. A structural checker may verify and report publication conformance but does not establish the pattern's identity, status, or authority.
 - `PlannedCatalogEntry` names an explicit future catalogue commitment. It has no current pattern semantics, governing force, prerequisite force, or addressable body; a useful prose mention **MUST** say `planned` or `future`, and a current semantic dependency **MUST** cite existing content that supplies the needed definition, constraint, test, method, or other rule, or state the current gap.
 - `SectionRef` names one exact heading path inside one current pattern. Authors and tooling **MUST** read the complete section identifier before examining any substring.
 - `LocalDeclaredId` names an exact declaration within one pattern, such as a conformance clause, component, interface row, or predicate. Its scope is local unless an explicit stable anchor or a separate promotion decision establishes wider use.

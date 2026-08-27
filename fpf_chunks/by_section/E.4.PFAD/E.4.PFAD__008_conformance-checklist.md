@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__008_conformance-checklist.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:7 — Conformance Checklist"
-line_start: 69173
-line_end: 69190
+line_start: 69439
+line_end: 69456
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -51,7 +51,7 @@ keywords:
 | CC-PFAD.3 One decision record | Decision Work selects a new or revised framework, contribution to an existing framework, maintained non-framework product, thinner publication or access route, or no new maintained product now; one ordinary `E.9` DRR records it. |
 | CC-PFAD.3a Field boundary | A selected new or substantially revised DPF has a reviewed field-boundary assessment. It names the practitioner and a first use that needs no unpublished authoring context, connected problem families and results, what the FPF and admitted DPFs already provide, what remains uncovered, serious alternatives, representative cross-problem use, evidence limits, the decision that uses the assessment, and the later observation that reopens it. |
 | CC-PFAD.3b Coverage, contributions, and omissions | The answer names selected problem-family pattern sets, first patterns and material relations, one representative cross-problem application, important omissions, and the sources to revisit for important claims; no count or authoring slice proves adequacy. For each load-bearing contribution that it keeps, merges, removes, reuses, profiles, supplies externally, or omits, it applies `E.8:4.1.3` and names the resulting action. An external return names the exact result and kind, supplying product and edition or current state, receiving use, discovery route, and material currentness or availability conditions, and says that the result remains external; an insufficient return remains a gap or omission. After a material promised-family change, the answer obtains the current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition and reuses it only while the exact edition and basis remain unchanged, without asking for evidence that someone revisited it. |
-| CC-PFAD.3c Several structures | When practice structures do not line up one-for-one, a completed `C.32.MWA` result supports the answer. `E.23.CDI` appears only when capability development changes the answer. Methods, descriptions, patterns, managed product boundaries, decisions, and editions remain distinct. |
+| CC-PFAD.3c Several structures | When professional Method coverage changes the answer, the DRR names only the practice questions that affect first use and the pattern used for each, as stated in 4.2. It uses `C.32.MWA` only when several selected structures do not line up one-for-one and `E.23.CDI` only when capability development changes the answer. It never infers Method parthood from a contribution, transformation, performed Work, capability, provider contribution, or cultural change. A fixed view list, source layout, or Method hierarchy does not pass this check. |
 | CC-PFAD.3d Maintained-object boundary | *Product* remains Plain management wording. A selected maintained alternative names every direct subject and the identity, current-state, provision, or maintenance relation used by the answer. A programme case also separates provider and maintaining Systems, any admitted service state, bounded Work, and evidence-package epistemes. An unresolved kind remains an explicit question, not `U.Product`. |
 | CC-PFAD.4 Compact payload | The DRR carries only the applicable content groups in `E.4.PFAD:4.2` and ordinary E.9 grounds and rationale; a maintained non-framework product, thinner route, or stop answer does not fabricate irrelevant fields. |
 | CC-PFAD.5 Direct relation assertions | Relations among initial patterns are stated directly under their actual relation functions; no PFR row is required. |

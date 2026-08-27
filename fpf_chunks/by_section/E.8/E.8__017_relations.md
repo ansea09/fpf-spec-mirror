@@ -6,21 +6,23 @@ section_id: "E.8:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__017_relations.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:12 — Relations"
-line_start: 72084
-line_end: 72096
+line_start: 72379
+line_end: 72392
 dependencies:
   - "E.10"
   - "E.10.MOVE"
   - "E.11"
+  - "E.11.PFP"
   - "E.11.PUR"
   - "E.13"
   - "E.19"
   - "E.21"
   - "E.23"
+  - "E.4.DPF"
   - "E.5.1"
   - "E.5.4"
   - "E.6"
@@ -62,6 +64,7 @@ keywords:
 * **Coordinates with:** `E.21` when one authored FPF pattern version is evaluated as a scoped pattern-quality claim. `E.8` governs authoring shape, recognition text, action guidance, worked cases, SoTA grounding, and conformance material; `E.21` governs the pattern-quality evaluation, required coordinate values, `PatternQualityStatus`, and stop condition. Do not import `E.21` as a mandatory authoring section or full review card.
 * **Coordinates with:** `E.23` when an authored FPF pattern body is being improved through repeated passes. `E.8` still governs the authored pattern body; `E.23` governs the repeated quality-improvement method; the object-under-improvement evaluation such as `E.21` or `E.9.DA` supplies value meanings and stop meanings.
 * **Coordinates with:** `E.13` when an authored pattern claims practical payoff or uses a visible quality value, metric, checklist result, review result, or release posture as if it were the intended value. `E.8` keeps the payoff in user-facing prose; `E.13` repairs proxy-to-value substitution.
+* **Coordinates with:** `E.4.DPF` for choosing a DPF reference code, PatternID plan, continuity across editions, and reader return after split, merge, replacement, or retirement; and `E.11.PFP` for current Part, position, public order, and citation display. `E.8` owns only the common identifier grammar and reference wording; identifier form and checker success decide none of those authoring or publication questions.
 * **Coordinates with:** `E.11.PUR`, which supplies the recommended-pattern-use decision for a current concern, and `E.10.MOVE`, which disambiguates whether move-like wording names pattern-use recommendation, direct work, plan, gate, transformation, publication, source, architecture, call-planning, or language-state material. These references state concrete contributions; an exact assertion, claim-bearing episteme, or `ClaimGraph` is added only when the named receiving use depends on that identity.
 
 

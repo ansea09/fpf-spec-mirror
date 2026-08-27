@@ -6,12 +6,12 @@ section_id: "E.4.DPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 69757
-line_end: 69799
+line_start: 70044
+line_end: 70087
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -52,7 +52,6 @@ dependencies:
   - "G.11"
   - "G.2"
 keywords:
-  - "& Search Queries. If the package uses a domain or local PatternID prefix"
   - "and boundary into additional mini-method columns. Pattern bodies remain the main language of use"
   - "do not copy first move"
   - "result"
@@ -87,6 +86,7 @@ keywords:
 | Availability as relevance | A missing dependency is assumed blocking, or an available dependency is assumed current for next use. | Fill availability and use relevance independently; only the exact combined state determines the next-use consequence. |
 | Grounding or context as identity | A grounding holon, organization, project label, package boundary, or bare context word is inserted into episteme identity or used to force sameness. | Keep C.2.1 identity at ClaimGraph, EntityOfConcern, and effective ReferenceScheme; use separate empirical-grounding, ClaimScope, model-use, project-Work, and exact cross-context translation relations only when their predicates obtain. |
 | Authoring order as Method, Work, result, or CGUS | Numbered guidance, arrows, coordination rows, or document order is used as proof that a Method, Work occurrence, result relation, or conditional structure exists. | Recover the authoring Method and qualify a MethodDescription only through A.3.2. When dated Work is actually claimed, use `A.15.1` and `F.6` rather than reconstructing their tests here. Identify any A.6.1 application, direct result or use relation, or independently selected A.22.CGUS separately. Otherwise keep the sequence Plain. |
+| PatternID used as position or definition | Inserting or moving a pattern causes renumbering, or a mnemonic is treated as a title, dependency, Method relation, or compressed claim. | Keep the public address stable while the practical answer continues, show the current position separately, and state titles and relations in their own fields. Decide splits, merges, replacements, and retirements from content rather than identifier shape. |
 | Build manifest as public framework prose | An all-in-one carrier opens with generated comments, source paths, digests, machine identity fields, or builder warnings, so reproducibility apparatus displaces the working-question route. | Keep those values in builder output, package evidence, or a separately justified manifest; expose `E.11.PFP`'s short public edition line and only those additional cues whose selected reader use requires them before the ToC. |
 
 Adoption risk tripwires:

@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__012_sota-echoing.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:11 — SoTA-Echoing"
-line_start: 64382
-line_end: 64400
+line_start: 64635
+line_end: 64653
 dependencies:
   - "A.10"
   - "A.19.CPM"

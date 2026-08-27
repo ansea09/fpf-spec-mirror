@@ -6,21 +6,23 @@ section_id: "E.8:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 71999
-line_end: 72024
+line_start: 72292
+line_end: 72318
 dependencies:
   - "E.10"
   - "E.10.MOVE"
   - "E.11"
+  - "E.11.PFP"
   - "E.11.PUR"
   - "E.13"
   - "E.19"
   - "E.21"
   - "E.23"
+  - "E.4.DPF"
   - "E.5.1"
   - "E.5.4"
   - "E.6"
@@ -66,6 +68,7 @@ These failure modes recur in drafts and in downstream application. They are pred
 | **Tool-bound normativity** | A vendor tool, file format, or schema is described as required to apply the pattern. Data governance implied. | Violates Guard-Rails (lexical firewall; notation independence, data governance absence); reduces portability and conceptual clarity. | Keep normative content conceptual; move tooling and data governance into subject-specific project profiles. |
 | **Hidden trade-offs** | Solution sounds universally good; Consequences lists only benefits. | Removes decision-use value; applicability cannot be judged. | In Consequences, include at least one trade-off and a mitigation; if none exists, explain why. |
 | **Skeleton-only pattern** | The template is present, but the pattern gives only one compressed definition block and scenario labels. | Passes form while failing didactic sufficiency. | Add didactic content: local decomposition, concrete slices, reviewer cues, and neighboring-pattern or project-side FPF kind and reference named by value guidance. |
+| **PatternID read as definition or order** | A numeric or mnemonic segment is treated as the pattern's meaning, title, current position, dependency, Method relation, or semantic parent. | The address becomes a hidden claim and ordinary reordering threatens reference continuity. | Use the PatternID only as an address together with surrounding text that identifies the framework. Show title and current position separately, state relations directly, and use the applicable product-authoring rule to decide continuity across editions. |
 | **Project-context leakage** | A reader needs architecture memos or planning notes to understand the pattern. | The monolith stops being self-sufficient. | Move the essential problem framing, worked slices, and rationale into the pattern itself; keep project reviews informative only. |
 | **Repeated content, reference, and architecture boilerplate leakage** | Problem frame or Solution spends user-facing space repeating the same guard, distinction, mini-rule, reference, definition, caveat, related-pattern mapping, placement note, split rationale, or defer rationale without a new local action/case/evidence need. | The product text becomes an architecture memo or reference note instead of a pattern. Ordinary references, footnotes, README/ToC/E.11/I.2 entry cues, and `Relations` already carry cross-reference work; repeating it as prose hides the positive Solution. | Replace the boilerplate with a normal pattern id, citation, `Builds on`, `Coordinates with`, `Relations`, README/ToC/E.11/I.2 entry cue, or architecture/DRR note. Keep only a local boundary sentence when it changes the first admissible move. |
 | **Quality-carrier leakage** | Any host or monolith pattern text, including notes, appendices, `Relations`, `Rationale`, `SoTA-Echoing`, examples, tables, or checklist rows, talks about corpus projection, README, ToC, `E.11`, and `I.2` alignment, retrieval or cold-reader evidence, monolith parity, landing evidence, `PatternQualityStatus`, all-`4` or all-`5` posture, or Developer, Reviewer, and Executor correspondence as if that is pattern content. | The text is now about why the pattern can be evaluated, found, landed, or trusted, or about author or reviewer turn communication, rather than about what the intended user should do. | Move the quality or projection facts to `E.21`, `E.19`, README, ToC, `E.11`, `I.2`, projection, card, retrieval, release, or landing carriers. Keep only the user-facing action or boundary justified by that evidence. |

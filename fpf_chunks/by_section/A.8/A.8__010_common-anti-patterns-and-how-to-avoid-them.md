@@ -6,12 +6,12 @@ section_id: "A.8:4.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:4.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 22437
-line_end: 22445
+line_start: 22456
+line_end: 22464
 dependencies:
   - "A.11"
   - "C.3"

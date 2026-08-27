@@ -6,12 +6,12 @@ section_id: "A.15.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__001_intro.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:intro — Intro"
-line_start: 24878
-line_end: 24915
+line_start: 24899
+line_end: 24936
 dependencies:
   - "A.10"
   - "A.15"

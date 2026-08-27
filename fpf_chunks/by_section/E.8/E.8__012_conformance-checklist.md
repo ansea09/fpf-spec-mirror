@@ -6,21 +6,23 @@ section_id: "E.8:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__012_conformance-checklist.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:7 — Conformance Checklist"
-line_start: 71958
-line_end: 71998
+line_start: 72251
+line_end: 72291
 dependencies:
   - "E.10"
   - "E.10.MOVE"
   - "E.11"
+  - "E.11.PFP"
   - "E.11.PUR"
   - "E.13"
   - "E.19"
   - "E.21"
   - "E.23"
+  - "E.4.DPF"
   - "E.5.1"
   - "E.5.4"
   - "E.6"
@@ -92,6 +94,6 @@ Conformance Checklist items are authoring checks: they test whether the pattern 
 | **CC-SG.18c (Kind-preserving wording repair).** | A changed FPF-governed phrase **MUST** leave the pre-repair and post-repair primary `EntityOfConcern`, kind, relation or claim kind, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope recoverable when those items are live. Removing a trigger word, changing a head, or replacing a phrase is not a repair until the author can show that the kind and any live current ontic slot, relation position, use relation, or claim kind were preserved, split by accepted decision, or intentionally changed by accepted decision. When another pattern defines or constrains the kind, relation, claim, or position, state that concrete contribution and cite the pattern id; identify exact claim-bearing content only when the receiving use depends on that identity. | Prevents lexical cleanup from becoming ontology drift. |
 | **CC-SG.19 (Use-value carry-through in material revisions).** | For a materially changed candidate edition, authors **MUST** apply `E.8:4.1.2` once to the earlier edition and proposed prose: recover useful earlier-edition use at idea level; draft the positive practitioner path first; compare action, first useful result, boundary, and effort; remove non-discriminating exactness, negative-catalogue, ambiguous role and process, formal-identity, and assurance apparatus; keep assurance after the first useful result; and close every determinate discovery and true direct-consumer projection of a changed interface in the same authoring increment. Each candidate-only use **MUST** have an exact accepted basis and **MUST NOT** be classified as an earlier-edition use or be given invented history. A clean comparison requires no positive ledger, card, table, or row per idea. Authors **MUST** resolve each triggered enumeration semantically. | Makes preservation and improvement executable in the real text without turning rewrite size, labels, record production, or lexical scans into proxies for practical value. |
 | **CC-SG.19a (Distinctness is not worth).** | Under `E.8:4.1.3`, an action-changing difference **MUST NOT** by itself justify retain or merge. The changed action, result, boundary, or saved reconstruction **MUST** also be warranted and useful for the declared reader, use, and scope under the applicable domain, evidence, currentness, affordability, and architecture checks. A distinct but wrong, stale, unsafe, unsupported, incompatible, or needlessly burdensome contribution is repaired, rejected, or left as an explicit gap. | Prevents a specificity test from preserving harmful novelty while keeping ordinary comparison proportionate. |
-| **CC-SG.20 (Publication-token use discipline).** | Authors and publication tooling **MUST** apply H-10's exact seven-class inventory, emit current semantic references only to addressable targets, keep `PlannedCatalogEntry` mentions explicitly future-facing, preserve complete `SectionRef` and declared local or alias scope, use `<base>.*` for family selectors, and keep `NonReferenceToken` explicitly non-referential. A checker **MAY** verify and report these facts but **MUST NOT** become their normative source. | Lets people and deterministic tooling resolve the same token without inventing missing pattern semantics or hiding asserted-reference failures. |
+| **CC-SG.20 (Publication-token use discipline).** | Authors and publication tooling **MUST** apply H-10's seven-class inventory. A `PatternRef` **MUST** use a PatternID whose surrounding text identifies the framework and **MUST** resolve in the publication being checked to one complete addressable body; a reference selecting the body published in one edition **MUST** also name that edition. Authors **MUST** keep `PlannedCatalogEntry` mentions explicitly future-facing, preserve complete `SectionRef` and declared local or alias scope, use `<base>.*` for family selectors, and keep `NonReferenceToken` explicitly non-referential. A checker **MAY** verify and report these facts but **MUST NOT** decide pattern identity, status, or authority. | Lets people and deterministic tooling resolve the same token without treating identifier shape or current position as pattern meaning, inventing missing semantics, or hiding failed references. |
 | **CC-SG.20a (Part publication boundary).** | An assembled FPF publication **MUST** satisfy H-11 for every compact ToC Part label and corresponding body Part heading, including blank table/label separation and exact ASCII-separator/title agreement; it **MUST NOT** add an empty compact table merely for a reserved body Part. | Keeps Part boundaries portable across readers and Markdown/RAG parsers without duplicating the structural Part view. |
 

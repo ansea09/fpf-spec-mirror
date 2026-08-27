@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.ACE.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
-line_start: 63494
-line_end: 63711
+line_start: 63747
+line_end: 63964
 dependencies:
   - "A.10"
   - "A.15.1"

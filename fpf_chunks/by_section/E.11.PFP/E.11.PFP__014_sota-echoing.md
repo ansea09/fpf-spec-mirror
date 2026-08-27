@@ -6,12 +6,12 @@ section_id: "E.11.PFP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__014_sota-echoing.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:11 — SoTA-Echoing"
-line_start: 78223
-line_end: 78233
+line_start: 78526
+line_end: 78537
 dependencies:
   - "E.11"
   - "E.17"
@@ -33,6 +33,7 @@ keywords:
 
 | Current source or practice | Qualification and by-value decision | Contribution adopted here | Shortcut rejected and receiving loci |
 | --- | --- | --- | --- |
+| Current FPF `E.4.DPF:4.0.3` and its bounded `E.4.DPF:11` source comparison | Current FPF decision checked 2026-08-27. **Reuse by value:** E.4.DPF decides the DPF code, local locator, practical-answer continuity, and migration return; its source row qualifies W3C persistence and series/version guidance plus historical DITA local-identifier evidence. This profile does not repeat or extend that decision. | Section 4.2 and `CC-PFP.7` display PatternID, title, Part, current position, the framework designation when needed, and edition-specific body reference distinctly while leaving continuity with E.4.DPF. | Identifier syntax, numeric order, adjacency, Part, and form conformance are not identity evidence. The W3C/OASIS narrative is not duplicated here. Reopen only the affected display or citation rule if E.4.DPF changes or a real publication cannot retain the distinction. |
 | [ISO/IEC/IEEE 26514:2022, *Design and development of information for users*](https://www.iso.org/standard/77451.html) | Current published international standard checked 2026-08-22. **Adapt:** retain its user-needs, audience/task, presentation, packaging, version/change-control, and maintenance concerns without importing a universal document template. | Start from reader need; keep public information identifiable, presentable in different media, and maintainable across editions. | A complete maintainer record is not automatically the best front. Applied in 4.1, 4.3, 4.5, Grounding, and CC-PFP.2-5/10/14. |
 | [Diátaxis](https://diataxis.fr/start-here/) and its [how-to guidance](https://diataxis.fr/how-to-guides/) | Current maintained documentation architecture checked 2026-08-22. **Adapt:** organize entry around what the reader is trying to do and keep action-guiding routes concrete; do not force its four document modes into FPF product kinds. | Practical entries lead from situation and question to a first useful result, direct route, and stop or return; optional detail earns its place by use. | A metadata-first home page and one rigid document taxonomy are both rejected. Applied in 4.1, 4.3, Grounding, CC-PFP.2/4/9, and Consequences. |
 | [W3C Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/), especially multiple ways, headings and labels, and consistent navigation | Current W3C Recommendation checked 2026-08-22. **Adopt:** descriptive headings, consistent navigation, and more than one usable finding route where the carrier permits it. **Adapt:** the Markdown profile remains one source form, not a claim of full WCAG conformance. | Stable major headings, one authoritative ToC, practical entries, truthful labels, and explicit testing of translated and low-tool projections. | Parser success or canonical English alone is not accessibility. Applied in 4.2-4.5, Bias-Did, CC-PFP.7-10/14-15, and the accessibility anti-pattern. |

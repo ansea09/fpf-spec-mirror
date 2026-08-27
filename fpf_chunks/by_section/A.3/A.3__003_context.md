@@ -6,12 +6,12 @@ section_id: "A.3:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__003_context.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:2 — Context"
-line_start: 7695
-line_end: 7701
+line_start: 7696
+line_end: 7702
 dependencies:
   - "A.10"
   - "A.12-A.15"

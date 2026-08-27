@@ -6,12 +6,12 @@ section_id: "A.1.CSD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__007_solution.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:4 — Solution"
-line_start: 2600
-line_end: 2657
+line_start: 2601
+line_end: 2658
 dependencies:
   - "A.1"
   - "A.1.SCR"

@@ -6,12 +6,12 @@ section_id: "A.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.5/A.5__004_forces.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.5 — Open‑Ended Kernel & Extension Layering"
   - "A.5:3 — Forces"
-line_start: 10023
-line_end: 10030
+line_start: 10042
+line_end: 10049
 dependencies:
 keywords:
   - "FPF architecture"

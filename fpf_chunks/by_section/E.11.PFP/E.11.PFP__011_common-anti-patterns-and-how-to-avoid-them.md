@@ -6,12 +6,12 @@ section_id: "E.11.PFP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 78196
-line_end: 78214
+line_start: 78498
+line_end: 78517
 dependencies:
   - "E.11"
   - "E.17"
@@ -39,6 +39,7 @@ keywords:
 | Fresh navigation grammar | A generic mini-menu is inserted ahead of an established ToC, duplicating units and making one product unlike itself. | Extend the product's existing non-pattern ToC segment and make the checker recognize that exact grammar. |
 | Flat-index compulsion | Visible Part grouping is removed merely to satisfy one-table code. | Check one logical index across consistently headed, uniquely labelled segments. |
 | Index by cell guess | A relation or source-return table is rejected because it cites PatternIDs and titles. | Recognize only the closed authoritative and support-index grammars. |
+| Position used as PatternID | Patterns are renumbered when the ToC changes, or identifier order is read as dependency, Method order, or semantic hierarchy. | Keep PatternID stable while the pattern continues, show current `§` position separately, keep ToC and body order aligned, and state every substantive relation in its own field or claim. |
 | Readme as another edition | The standalone Readme mints its own designation or copies a full editable record. | Repeat only the shortest cue whose absence would change use or return when the Readme circulates independently; never duplicate the edition or rebuildability record. |
 | Outside the pattern set means another product | A Preface, coverage account, or refresh note is split into a product with no independent use. | Keep it as a named support unit when it shares the framework boundary. |
 | Shared use means one product | A cross-framework registry or service is absorbed into one DPF. | Treat shared use as a prompt to inspect the boundary; preserve an independent product when its own use and maintenance make that useful. |

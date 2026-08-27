@@ -6,12 +6,12 @@ section_id: "E.11.DSG:End"
 section_title: "E.11.DSG:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__014_e-11-dsg-end.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.11.DSG — DPF Suite Guide"
   - "E.11.DSG:End — E.11.DSG:End"
-line_start: 78462
-line_end: 78463
+line_start: 78766
+line_end: 78767
 dependencies:
   - "A.14"
   - "C.2.1"

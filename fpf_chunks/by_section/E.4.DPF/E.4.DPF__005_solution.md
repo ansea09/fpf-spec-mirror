@@ -6,12 +6,12 @@ section_id: "E.4.DPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__005_solution.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:4 — Solution"
-line_start: 69289
-line_end: 69641
+line_start: 69555
+line_end: 69923
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -52,7 +52,6 @@ dependencies:
   - "G.11"
   - "G.2"
 keywords:
-  - "& Search Queries. If the package uses a domain or local PatternID prefix"
   - "and boundary into additional mini-method columns. Pattern bodies remain the main language of use"
   - "do not copy first move"
   - "result"
@@ -115,6 +114,8 @@ Before placing a proposed narrower contribution, apply `E.8:4.1.3` to it and the
 The first-edition set is internally usable only when it contains every selected pattern and every prerequisite from the same framework needed for the named first use. Keep relied-on results from an FPF, DPF, LPF, or separate non-framework product external when they are not members of this framework. For each external result, name the exact result, its direct kind, supplying product and edition or current state, receiving use, discovery route, and any currentness or availability condition that can change the use; say that it remains external. When an edition dependency obtains, also name its direction, reason, and refresh condition. If these facts are missing or the result does not answer the promised use, keep the family as a gap or omission; do not hide it behind the word *closed*. When a keep, merge, removal, profile move, or external reliance materially changes the stable set for a promised problem family, obtain a current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition. Reuse a matching current result when that edition and its basis are unchanged; authoring history is not part of the D12 result.
 
 Several sources may describe the same practice through structures that do not line up one-for-one—for example Methods, Work, subjects, descriptions, capabilities, providers, and cultural processes. When those differences affect the framework architecture, use `C.32.MWA` to produce one readable synthesis for the `E.4.PFAD` answer; that synthesis does not choose whether to create a DPF or another maintained result. Use `E.23.CDI` only when the selected architecture includes developing capability for a named Work family, and use its result instead of copying its action sequence here.
+
+When the DPF promises professional Method coverage, use the accepted `E.4.PFAD` answer to decide which practice questions the first edition must cover. Supply the domain Methods, evidence, constraints, relation claims, and pattern contributions needed for those questions. One clear question stays with the pattern named in the PFAD answer. Use `C.32.MWA` only when the answer depends on correspondences or conflicts among several structures. Do not infer Method parthood from a required contribution, transformation, Work enactment, capability, provider contribution, or cultural change merely because a source lists them together.
 
 Keep the mapped objects distinct. A Method may be described by a MethodDescription, and a pattern may contain such a description only when `A.3.2` applies. Selected patterns and their material relations make up the pattern language; a framework edition contains one version of that language; an exact `U.PresentationCarrier` may bear a selected publication or access-facing form; and an access route may help a reader or System reach the edition or a named carrier. Publication, availability, and actual access remain separate claims. Conceptual synthesis may support a candidate architecture or distinction, but it is not evidence that a Method works or transfers.
 
@@ -179,7 +180,7 @@ Candidate first patterns, each with problem frame, positive solution, worked sli
 Field or practice promised by the public name, intended reader, first use, and non-use boundary:
 Recurring problem families, characteristic failures, useful result families, selected problem-family pattern sets, material relations, and honest omissions:
 Representative application crossing the patterns and problem-family sets needed for first use:
-Practice structures that do not line up one-for-one and whether `C.32.MWA` is needed:
+Professional Method coverage, when it changes the answer: the practice questions selected by `E.4.PFAD`, the pattern used for each, the domain content needed, and whether `C.32.MWA` is required because several structures do not line up one-for-one:
 Whether capability development for a named Work family makes `E.23.CDI` current:
 Patterns included in the first edition and same-framework prerequisites needed for first use:
 External FPF, DPF, or LPF editions: relied-on content, use, direction, reason, refresh, and required availability or compatibility result:
@@ -215,7 +216,7 @@ For an all-in-one DPF publication carrier, assemble the content in a reproducibl
 
 1. Public framework title: use a domain- or practice-specific framework name such as `<DomainOrPractice> Principles Framework`; `Principles Framework` alone is only the head or kind phrase, not an individual framework name. Do not put `local monolith`, `draft`, process status, or file-layout slang in the public title.
 2. Short public edition line directly under the title: name the stable public edition designation and a public edition-record locator. Add a dependency, language, access, product-declared maintenance status, support window, currentness window, or other short cue there only when the product-specific publication rule names the reader decision or action it changes. Do not create a separate edition H1 or put a machine identity block, source digest, source path, or build marker before the ToC; keep detailed edition and relation records after the pattern bodies or in maintainer evidence.
-3. Table of contents: place one search-oriented overview before the body collection and use `E.11.PFP`'s exact five-position pattern-row profile. Every pattern row exposes its PatternID and title and gives at least one recognizable working-question cue in `Keywords & Search Queries`. If the package uses a domain or local PatternID prefix, state that prefix discipline where a reader can disambiguate its namespace. Use `Status` and `Dependencies` for values that can change the reader's choice; do not copy first move, result, and boundary into additional mini-method columns. Pattern bodies remain the main language of use; support maps and any relation or edition records required by current maintenance remain reachable without becoming a universal first inspection sequence or prescribed use order.
+3. Table of contents: place one search-oriented overview before the body collection and use `E.11.PFP`'s five-position pattern-row profile. Every pattern row exposes its PatternID and title and gives at least one recognizable working-question cue in `Keywords & Search Queries`. State the DPF's declared reference code and local-locator form where a reader can disambiguate citations. Keep the displayed `§` position separate from PatternID; the current row order may be non-ascending by PatternID but must match the body order. Use `Status` and `Dependencies` for values that can change the reader's choice; do not copy first move, result, and boundary into additional mini-method columns. Pattern bodies remain the main language of use; support maps and any relation or edition records required by current maintenance remain reachable without becoming a universal first inspection sequence or prescribed use order.
 4. Framework Readme: present the public first-entry situations, practical questions, first useful results or honest blockers, direct pattern or small plausible set, ordinary stop or wrong-turn return, intended reader, non-use boundary, and a short statement of which selected domain or local structures this carrier exposes for that reader.
 5. Preface or framework context: cross-cutting ideas that make the pattern set cohere, plus the selected structure families the carrier foregrounds, deliberately coarsens, defers, or sends back to sources and pattern bodies.
 6. Package carrier structure-account: intended reader and use, selected source-structure denominator, recurring problem-situation structures, reusable solution-move structures, captured structure, deliberately coarsened, abstracted, omitted, or lost structure, source-return condition, and quality or epiplexity route. This may be a short subsection in the Readme or Preface when the carrier is compact.
@@ -267,6 +268,20 @@ Apply the `E.11` comparison to the same truthful content with and without a mant
 Keep one declaration for the product. It assigns every selectable example key exactly one ordinary-entry or card form. When the product selects cards, the declaration gives one measurable reading-burden rule plus mantra and compact-card maxima. Authors, builders, and validators use that same declaration and the shared visible grammar from `E.11.PFP`. A product may select no cards when locators, ordinary entries, or direct guide answers already support reliable choice and return; it then carries no card-form burden.
 
 Use examples selected for that product's readers and recurring questions. Say plainly that they are not a catalogue or coverage boundary and return unmatched questions to the product's index, guide, search, or direct patterns. When both simple direct use and extended cross-pattern use matter to adoption, show representative examples of both without turning every useful topic or pattern set into an entry. Do not copy the FPF key inventory, card count, whitespace-token limits, or optional `@FPFReadme` records, and do not create a rival local card grammar or second key registry. Keep a pattern-local mantra used to recall one pattern's `Solution`, a Readme card mantra used to retain a longer cross-pattern path, and an independently admitted CGUS demonstration distinct. None establishes a Method, performed Work, project result, or stronger relation by its wording or position.
+
+#### E.4.DPF:4.0.3 - Keep pattern addresses stable while publication order changes
+
+Before public references accumulate, declare a short, stable code for the DPF and assign one local locator to each pattern. Together the DPF code and local locator form the PatternID. Within that DPF, each PatternID is unique. The code is only a short reference to that named DPF; it need not be globally unique and does not identify an edition. Settle a new durable public abbreviation through `F.18`. If the public DPF code later changes while the same DPF continues, preserve old references through an explicit `F.13`/`F.18` rename or alias relation and a reader return; otherwise say where old-code use stops. Do not silently rewrite old citations. Do not assign the old code to another framework where readers may encounter both sets of citations without the full framework name.
+
+A PatternID lets readers refer to a pattern carried forward across editions. The identifier does not prove that two bodies are the same pattern and does not define the pattern's claims. Keep it when the recurring problem, distinguishing working move, useful result, and ordinary non-use boundary still describe the same practical answer. A title, wording, Part, publication position, or authoring work package may change while that answer continues. A `PlannedCatalogEntry` may reserve an unused locator, but it is not yet an addressable `PatternRef` or evidence that a continuing pattern exists. When a complete pattern is admitted and published, its author may adopt that locator as the pattern's PatternID. The publication may use it as a `PatternRef` only after the complete body exists and the continuity judgment has been made; the reservation alone establishes neither identity nor addressability.
+
+When the practical answer no longer continues, decide the split, merge, replacement, or retirement explicitly. Keep an earlier PatternID only for the answer that continues. Give each new pattern a new unused PatternID, and never reuse a retired PatternID for unrelated content. If readers still use an old public reference, publish one maintained migration assertion. It names the earlier PatternID, any current PatternID or PatternIDs, whether the practical answer continued, split, merged, was replaced, or was retired, the uses covered, and where readers continue or stop. Add a structured `E.4.PFR` row only when a named maintenance use needs it; otherwise the readable assertion is enough. If no migration assertion is maintained, say where use must stop.
+
+The local locator may use the numeric or mnemonic segments allowed by `E.8`. Prefer a numeric locator when it mainly needs to remain a durable address among many peers. Use a mnemonic segment only when it names an enduring distinction likely to outlast the title and publication position and materially helps recognition. A mnemonic is still an address aid, not a compressed definition. Do not restyle established PatternIDs merely to make the set look uniform.
+
+Keep current publication order separate. The ToC and body collection use the same Parts and the same within-Part order, while a `§` or position field shows that order separately from PatternID. Non-ascending PatternIDs are valid. State dependencies, Method relations, use order, and replacement relations in their own claims; do not infer them from identifiers, adjacency, Parts, or authoring work packages.
+
+To refer to a pattern, the PatternID is enough when the surrounding text identifies the DPF. Otherwise, name the framework together with the PatternID. A citation intended to select the body published in one edition also names that framework edition.
 
 #### E.4.DPF:4.1 - Select the current first result
 

@@ -6,12 +6,12 @@ section_id: "E.4.DPF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__012_sota-echoing.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:11 — SoTA-Echoing"
-line_start: 69812
-line_end: 69832
+line_start: 70100
+line_end: 70121
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -52,7 +52,6 @@ dependencies:
   - "G.11"
   - "G.2"
 keywords:
-  - "& Search Queries. If the package uses a domain or local PatternID prefix"
   - "and boundary into additional mini-method columns. Pattern bodies remain the main language of use"
   - "do not copy first move"
   - "result"
@@ -62,6 +61,7 @@ keywords:
 
 | Claim | Exact source ref and status | Pattern content changed | Adoption status |
 | --- | --- | --- | --- |
+| Durable public references should survive rearrangement, while one edition's body remains distinguishable from the pattern carried across editions. | W3C, [Data on the Web Best Practices](https://www.w3.org/TR/dwbp/), a 2017 Recommendation, especially persistent identifiers and separate identifiers for a series and its versions; W3C, [URI persistence policy](https://www.w3.org/policies/uri-persistence/), an institutional pledge limited to declared persistent W3C resources; and OASIS, [DITA 1.1 identifier rules](https://docs.oasis-open.org/dita/v1.1/OS/archspec/id.html), a 2007 historical comparison for identifiers unique inside one named document. Official comparisons checked 2026-08-27; none is treated as SoTA for pattern identity. | Section 4.0.3 separates the DPF code, local PatternID, current position, and edition-specific body. It preserves addresses through moves and ordinary revision, requires a content judgment for split or merge, and keeps old public references from being silently reassigned. | **Adapt.** Adopt persistence, local reference within a named framework, and series/version separation. Do not import URI or DITA document ontology, require a global registry, or let identifier syntax decide pattern identity. Reopen if a real cross-framework use cannot disambiguate references with framework designation, PatternID, and edition where needed. |
 | A DPF needs one coordinated authoring method and Plain guidance that keep source-basis choice, bounded or heavy synthesis, architecture settlement, pattern methods, direct relation assertions, reader access, evaluation, improvement, currentness, and the product's own practical-entry decision distinct but connected. | Current FPF `F.0.1`, `F.1`, `F.0.2`, `G.2`, `E.4.PFAD`, `E.8`, `E.4.PFR`, `E.10.ARCH`, `E.11`, `E.11.PFP`, `E.17`, `E.4.DPF.DA`, `E.21`, `E.23`, and `G.11`; plus current unlike use in the LPF compact question locator and the direct-answer DPF Suite Guide. Compared 2026-08-25. | The source-basis table, E.4.DPF MethodDescription, proportional-apparatus ladder, local repair map, first-result branches, carrier boundaries, and quality and currentness exits coordinate the separate contributions without importing one external framework-development lifecycle. Section 4.0.2, `CC-DPF.3f`, `CC-DPF.18`, `Card-per-pattern fanout`, and `FPF card application copied or declaration avoided` make each DPF or LPF compare the same content with and without a mantra, own one product-native example declaration, permit zero cards, and supply its own reading measure and two limits while reusing the shared field grammar. | **Adopt as the current FPF practice line, with product-use qualification.** The LPF locator and direct Guide answer are valid negative cases: neither needs a mantra merely because it helps first use. Reject card-per-pattern fanout, declaration avoidance, copied FPF keys or counts, whitespace-token measures, numeric limits, and `@FPFReadme` records. No FPF count, measure, or numeric limit becomes a DPF or LPF default. Reopen only the affected declaration, form consumer, or check when `E.11` or `E.11.PFP` changes, or actual DPF or LPF cold-reader use changes a card classification, exposes a missing product-language input, or shows that the zero-card or non-import boundary blocks reliable choice and return. |
 | Language artifacts and their examples co-evolve, and missing examples weaken practical use and evolution work. | Zhang, Struber, Hebig, `Development and Evolution of Xtext-based DSLs on GitHub: An Empirical Investigation`, arXiv:2501.19222, 2025 empirical study of 226 developed Xtext languages across 18 application domains, `https://arxiv.org/abs/2501.19222`. | The source-pack, pattern-drafting, worked-case, heterogeneous-transfer, relation-and-edition, and local-repair steps keep examples and related artifacts current with the framework instead of publishing only names or definitions. | Adapt the observed co-evolution pressure. The study concerns software DSL repositories and grammar-driven or metamodel-driven development; it does not make a DPF a language grammar, parser, metamodel, or code-generator project. |
 | Reusable core and domain variation need explicit dependency, migration, tooling, and adoption work rather than clone-and-own packages. | Nazar, `Software Product Line Engineering: Adoption, Tooling and AI Era Challenges`, arXiv:2605.21353, 2026 single-author survey preprint synthesizing SPLE foundations, adoption models, tooling, variability-aware DevOps, empirical gaps, and AI-era challenges, `https://arxiv.org/abs/2605.21353`. | Architecture decision, E.4.PFR dependency and compatibility relations, Core-to-DPF direction, proportional carrier separation, and edition-change repair keep FPF Core, domain frameworks, and local frameworks distinct and migratable. | Adapt reusable-core, variation, migration, and adoption concerns. The source is software-product-line specific and survey-level; feature models, lifecycle schemes, product-line economics, and software tooling do not become default DPF ontology or authoring order. |

@@ -6,12 +6,12 @@ section_id: "E.4.DPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__006_archetypal-grounding.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:5 — Archetypal Grounding"
-line_start: 69642
-line_end: 69710
+line_start: 69924
+line_end: 69996
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -52,7 +52,6 @@ dependencies:
   - "G.11"
   - "G.2"
 keywords:
-  - "& Search Queries. If the package uses a domain or local PatternID prefix"
   - "and boundary into additional mini-method columns. Pattern bodies remain the main language of use"
   - "do not copy first move"
   - "result"
@@ -100,6 +99,10 @@ Replayable authoring slice:
 | Quality cycle | `E.22` frames evaluation purpose; `E.21` scores first draft; `E.23` records the next improvement loop |
 | Local publication or access | framework readme, table of contents, skill pack, or MCP-backed access route exposes the framework after source-return notes are present |
 | Refresh route | `G.11` refresh when source pack, Core edition, or greenhouse-control practice changes |
+
+#### Pattern-address and reorder slice
+
+A Systems Engineering DPF edition gives `SYSE.22` a stable address and places it after `SYSE.2` because that order helps its readers. A later edition may move `SYSE.22` without renaming it when its recurring problem and working answer continue; the ToC and body order change together, while old citations still resolve through the same PatternID. If a later repair splits that working answer, only the continuing answer keeps `SYSE.22`; the other answer receives a new unused PatternID, and readers of the old reference get a short migration assertion or an explicit stop.
 
 #### Local-mantra authoring slice
 

@@ -6,12 +6,12 @@ section_id: "E.24.CD:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__013_sota-echoing.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:11 — SoTA-Echoing"
-line_start: 89807
-line_end: 89818
+line_start: 90111
+line_end: 90122
 dependencies:
   - "A.1"
   - "A.14"

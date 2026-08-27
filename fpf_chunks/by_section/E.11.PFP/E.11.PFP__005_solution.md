@@ -6,12 +6,12 @@ section_id: "E.11.PFP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__005_solution.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:4 — Solution"
-line_start: 78023
-line_end: 78075
+line_start: 78319
+line_end: 78375
 dependencies:
   - "E.11"
   - "E.17"
@@ -61,6 +61,10 @@ Place the one authoritative logical pattern index after those public-unit entrie
 ```
 
 Across all segments, every pattern body has exactly one row, every row resolves to exactly one body, and no PatternID appears twice. A Part label groups rows for navigation; it is not a pattern row, a semantic parent, or another index.
+
+PatternID, title, Part, and `§` position remain separate even when one row displays them together. PatternID supplies the stable public address within the named framework; the title explains the pattern; Part and `§` show where the current edition places it. Within each Part, the ToC rows and pattern bodies follow the same order. That order need not ascend by PatternID, and moving or retitling a pattern does not by itself change its PatternID.
+
+When the surrounding text does not already identify the framework, name the framework together with the PatternID. To select the body published in one edition, also name that framework edition. For a DPF, `E.4.DPF` supplies the choice of reference code and local locator, and the continuity decision; this profile only makes the selected distinctions visible in the publication.
 
 Reserve `Support index — <lookup job>` for a secondary pattern lookup. Its exact header is:
 

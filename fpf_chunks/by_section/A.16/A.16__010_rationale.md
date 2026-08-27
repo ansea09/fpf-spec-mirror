@@ -6,12 +6,12 @@ section_id: "A.16:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__010_rationale.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:9 — Rationale"
-line_start: 27527
-line_end: 27530
+line_start: 27778
+line_end: 27781
 dependencies:
   - "A.15"
   - "A.15.1"

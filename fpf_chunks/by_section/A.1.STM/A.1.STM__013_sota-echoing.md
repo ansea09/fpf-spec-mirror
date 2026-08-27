@@ -6,12 +6,12 @@ section_id: "A.1.STM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__013_sota-echoing.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:11 — SoTA-Echoing"
-line_start: 2928
-line_end: 2942
+line_start: 2929
+line_end: 2943
 dependencies:
   - "A.1"
   - "A.1.CSD"

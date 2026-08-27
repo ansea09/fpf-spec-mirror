@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
-line_start: 69066
-line_end: 69120
+line_start: 69319
+line_end: 69386
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -72,6 +72,19 @@ When the architecture question is open, the framework-specific part of the DRR s
 6. the existing or intended-edition boundary, selected FPF Core dependency, and only the other exact edition dependencies required by this answer;
 7. the sources to revisit for each important claim, whether the evidence supports, suggests, or only motivates it, the limits of that evidence, and the publication or access consequence; and
 8. material alternatives, accepted costs or losses, practical consequences, the first authoring action or stop, and the reopen condition.
+
+When professional Method coverage can change point 5, begin with the practice question and include only the branches whose answers can change first use. Common branches are:
+
+| Practice question | Pattern that supplies or tests the answer |
+| --- | --- |
+| What contribution or effect is required? | `A.6.F`; use `C.30.ASV` only when a selected architecture view changes the answer. |
+| Which Methods construct a larger Method, and which genuine interfaces matter? | `B.1.5`; use `A.6.M` only for a real module, port, or implemented-interface claim. |
+| What changed, and how are the transformation-flow positions related? | `A.3.4`, `E.18`, and `C.30.TFS-REL`. |
+| What Work occurred, which Method did it enact, and who performed it? | `A.15.1` and `F.6`. |
+| Which System has the needed capability, and what did a provider actually contribute? | `A.2.2` plus the applicable Work, provision, or service pattern. |
+| What cultural generation, transmission, reconstruction, recognition, selection, retention, or loss matters? | `C.36`. |
+
+If another question changes the answer, name it and the pattern that handles it instead of forcing it into these rows. Use `C.32.MWA` only when the decision depends on correspondences or conflicts among several selected structures. Do not infer Method parthood from a required contribution, transformation, performed Work, capability, provider contribution, or cultural change.
 
 For a DPF Suite answer, an architecture decision takes effect to constitute the continuing collection. It selects the ecosystem use, which product series may belong, inclusion and removal rules, identity through change, alternatives, practical consequences, and the reopen condition. The same `E.9` DRR records that answer. A current maintained-Suite claim also identifies the capable maintaining System and its accepted commitment, the working source return for product series and any product-series state presented as current, the refresh response, and one exposure choice: an independent Suite route, a bounded Guide projection with source return, or a neutral combined carrier. Guide constitution, inclusion, maintenance, and refresh remain separate decisions and claims. A proposed result use or future constraint is not an obtaining dependency or compatibility relation; apply `E.4.PFR` only after the edition-level case facts exist.
 

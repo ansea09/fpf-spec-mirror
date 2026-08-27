@@ -6,12 +6,12 @@ section_id: "A.3.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__005_solution.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:4 — Solution"
-line_start: 7960
-line_end: 8186
+line_start: 7961
+line_end: 8205
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -22,14 +22,18 @@ dependencies:
   - "A.3.2"
   - "A.6.1"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
   - "B.1.5"
   - "C.2.1"
   - "C.2.P.DR"
+  - "C.3.1"
+  - "C.3.2"
   - "E.18"
   - "E.18.1"
   - "E.20"
   - "F.9"
+  - "G.5"
 keywords:
 ---
 
@@ -227,15 +231,33 @@ Keep one method across parameter ranges, equipment envelopes, or representation 
 
 **No-extra-locality replay.** `EuclideanGCD` over positive integers closes as one method when the integer meanings, division-with-remainder rule, positivity precondition, decreasing-remainder invariant, and greatest-common-divisor result are stated. If those facts answer the comparison, add no claim scope, context slice, model-use structure, or other locality object.
 
-#### A.3.1:4.8 - Method relation structure, composition, and work enactment
+#### A.3.1:4.8 - Method relations, composition, and Work enactment
 
-First decide whether the question is about one reusable way, a composite way, or relations among already identified objects:
+Start with the practical question, not a graph or the umbrella word *specialization*. Ask what must be decided now.
 
-* one reusable way is a `U.Method`;
-* submethods assembled into a whole remain a `U.Method`, with B.1.5 used when order-sensitive composition is claimed;
-* relations among methods, descriptions, selectors, or Work occurrences remain those exact relations; select a `U.Structure` under A.22 only when their organization changes the next question or action.
+| Current question | First useful result |
+| --- | --- |
+| Does this reusable way meet one or more Method-kind criteria? | Use `C.3.2` for the admissibility check and a `true`, `false`, or `unknown` judgment. An out-of-scope request is `not-applicable` and forms no judgment. |
+| Does one Method kind have several broader kinds? | Check each broader-kind claim under `C.3.1`. Several broader kinds create no Method part or unique parent. |
+| Does one Method contribute to several larger Methods? | Use `B.1.5` for every part–whole pair and every whole construction. Each whole keeps its own action, boundary, interfaces, and reidentification rule. |
+| Are two Methods being compared for refinement or replacement? | First identify both Methods and the use that needs the comparison. State the direction, what remains, what changes, and the material guards or losses. A sentence or local claim is often enough for one use. |
+| Is this another question—for example, parameter variation, family grouping, fallback, dispatch, a description, a selected structure, performed Work, capability, provider contribution, or cultural change? | Use the pattern that defines or tests that claim. The label alone establishes no Method kind, Method part, or relation occurrence. |
 
-`MethodRelationStructure` is only a local designator for such an already selected A.22 `U.Structure`. It is not a durable U-kind, method holon, or relation type, and the label contributes nothing to identity. Candidate relation families—composition such as serial, parallel, choice, or iteration; method change such as refinement, substitution, decomposition, or parameterization; and selection or use such as family membership, fallback, or enactment—are recognition cues. Method-description membership is not one of those relations: A.3.2 judges the episteme itself. Every selected relation occurrence must already obtain under its direct pattern.
+Before claiming refinement or replacement, decide whether the changed account still identifies the same Method. If it does, state what was preserved and what changed; do not invent a relation between two Methods. If two Methods are identified, a refinement comparison states its direction and use, the semantics retained from the first Method, what the second narrows or strengthens, and the action or result that changes.
+
+A replacement comparison says which Method may replace which other Method, for what use, under which preconditions, with which intended result or preserved condition, and which bounds, interfaces, losses, and guards must remain visible. Do not infer the reverse direction. Shared kind criteria or similar descriptions do not prove replacement.
+
+A parameter change inside the Method's declared applicability and identity rule is variation of the same Method. A change to a participant meaning, result, bound, interface, or acceptance condition that matters to identity identifies another Method or leaves the identity question unresolved. The word *parameterization* creates no relation.
+
+A `G.5` family row cites already identified Methods and states why they are grouped for the current use. A fallback can belong to a `B.1.5` whole construction, a `G.5` selector rule or result, or a local relation-bearing claim. A dispatch rule says which selector branch applies; state the current branch and its basis. A family row or selector result creates no Method kind, Method part, refinement, or replacement relation.
+
+When FPF has no admitted predicate for refinement, replacement, fallback, or another relation-bearing claim, use `A.6.RCD` to choose the lightest sufficient result. For one use, a local claim may be enough; repeated use of the same rule may justify a reusable predicate definition. Continue through `E.24` and `E.24.UK` only when a named later use must treat the relation occurrences themselves as stable objects. A local claim or predicate definition cannot become an `A.22` edge.
+
+**Short positive.** `ChangeImpactReview` can meet two Method-kind criteria and also be required by the independent constructions of `ApproveControlSoftwareRelease` and `InvestigateFieldIncident`. Those judgments and two `methodPartOf` facts remain separate. Using the Methods together in dated Work creates none of them.
+
+**Selector anti-case.** A `RapidRecoveryMethods` row groups `RollbackRelease`, `DisableFeatureFlag`, and `ShiftTraffic` for one selector. Its stated grouping basis and fallback policy may support a `G.5` result, but they do not establish a Method kind, one composite Method, or a refinement or replacement relation. If the fallback condition is incomplete, return the missing fact instead of drawing an edge.
+
+`MethodRelationStructure` is only a local name for an `A.22` structure selected from independently identified constituents and relations that already obtain. It is not a durable kind, Method holon, or relation type. Composition, refinement, replacement, parameter variation, family grouping, fallback, dispatch, and enactment are recognition cues; the cue does not decide the claim.
 
 **Filled A.22 basis — enacted-method review.** For this one-off review, a practitioner selects only two A.15.1 `enactsMethod` occurrences. No durable selection judgment is asserted, and no composition, fallback, selector, or work-to-pump relation is created.
 

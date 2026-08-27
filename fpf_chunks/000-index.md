@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `322625be006f38158e4e7d600f662558f03df77a`
+Commit SHA: `3f6714ae3235e0d771dce32835be7696f626d2ee`
 
 Chunking method: `pattern-aware`
 
-Patterns: `305`
+Patterns: `306`
 
 ## Patterns
 
@@ -82,6 +82,7 @@ Patterns: `305`
 - [A.15.5 — Work-Entry Readiness and Full-Kit Preparation](by_pattern/A.15.5.md)
 - [A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation](by_pattern/A.15.6.md)
 - [A.15.7 — Situation-Responsive Work Steering and Next-Action Selection](by_pattern/A.15.7.md)
+- [A.15.8 — Work-Performance Configuration and Recovery Testing](by_pattern/A.15.8.md)
 - [A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery](by_pattern/A.15.PROD.md)
 - [A.16 — Language-State Move Coordination](by_pattern/A.16.md)
 - [A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace](by_pattern/A.16.0.md)

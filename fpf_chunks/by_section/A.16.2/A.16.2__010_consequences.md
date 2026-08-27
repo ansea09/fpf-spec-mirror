@@ -6,12 +6,12 @@ section_id: "A.16.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__010_consequences.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:9 — Consequences"
-line_start: 28188
-line_end: 28190
+line_start: 28439
+line_end: 28441
 dependencies:
   - "A.16"
   - "A.16.0"

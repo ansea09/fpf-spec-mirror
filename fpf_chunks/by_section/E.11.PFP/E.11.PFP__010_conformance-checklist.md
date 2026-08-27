@@ -6,12 +6,12 @@ section_id: "E.11.PFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__010_conformance-checklist.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:7 — Conformance Checklist"
-line_start: 78173
-line_end: 78195
+line_start: 78475
+line_end: 78497
 dependencies:
   - "E.11"
   - "E.17"
@@ -39,7 +39,7 @@ keywords:
 | CC-PFP.4 Extra cues earn their place | Every cue before the ToC is projected from its exact record and changes a named reader decision or action; no common optional field is required merely for completeness. |
 | CC-PFP.5 Development state excluded | Reader front matter contains no campaign or candidate identifier, local path, digest, Git identity, generated comment, build command, machine warning, or maintainer instruction. |
 | CC-PFP.6 Entries and order recognizable | The title, compact cues, ToC, Readme and Preface entries in the product's established ToC grammar, Readme, Preface, pattern collection, and product-declared reference tail occur in the selected order; every declared target resolves where links are used. |
-| CC-PFP.7 Logical index singular | One logical index may use several labelled segments, but aggregate row/body membership is bijective and PatternIDs are unique. |
+| CC-PFP.7 Logical index and order truthful | One logical index may use several labelled segments, but every pattern row resolves to one body, every body has one row, and PatternIDs are unique within the named framework. PatternID is separate from title, Part, and `§` position; ToC and body order agree within each Part even when PatternIDs are non-ascending. When the surrounding text does not identify the framework, a citation names the framework together with the PatternID; a citation selecting the body published in one edition also names that edition. |
 | CC-PFP.8 Other tables remain truthful | Only the closed authoritative and support-index grammars are treated as indexes; relation and reference tables are not reclassified from cell values. |
 | CC-PFP.9 One entry set and declaration | One `Practical entries` set contains every selectable ordinary entry and selected card. One declaration for the product assigns every key exactly one form; each key has exactly one selectable H3 ordinary-entry or H4 card occurrence, and no rival key list or entry set exists. |
 | CC-PFP.9a Ordinary entry usable | Every ordinary entry gives the five fields in order and retains any richer content needed for the first useful result and stop boundary. No mantra is forced onto a locator or ordinary entry. |

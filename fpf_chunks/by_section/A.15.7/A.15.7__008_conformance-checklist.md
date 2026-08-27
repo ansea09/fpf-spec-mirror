@@ -6,12 +6,12 @@ section_id: "A.15.7:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__008_conformance-checklist.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:7 — Conformance Checklist"
-line_start: 26680
-line_end: 26691
+line_start: 26706
+line_end: 26717
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "F.0.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__012_sota-echoing.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
   - "F.0.2:11 — SoTA-Echoing"
-line_start: 91020
-line_end: 91031
+line_start: 91324
+line_end: 91335
 dependencies:
   - "A.2.4"
   - "C.2.1"

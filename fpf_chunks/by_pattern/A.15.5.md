@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.5.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
-line_start: 25989
-line_end: 26202
+line_start: 26010
+line_end: 26227
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,6 +59,8 @@ keywords:
 **First output.** One readable work-entry readiness result naming the WorkPlan, PlanItem and intended performance; criterion; checking Work; local readiness value; every input proposition and qualification interval used; reliance window; and stop or recheck condition. Planned fillings, resources, assignments, commitments, current permission facts, gate decisions, provenance, and assurance remain inputs or neighboring claims defined and tested separately; they are not bundled into the readiness result's identity.
 
 **Ordinary route.** Name the exact WorkPlan, PlanItem, intended performance, any current intended-work kind, criterion, and evaluation time. Perform and identify the checking Work when the check actually occurs; apply the criterion only to its named current inputs; return `ready`, `readyWithKnownGaps`, `notReady`, or `unknown` with the reliance window and stop or recheck condition. Stop there unless a separate receiver actually needs a persisted result episteme, gate decision, permission result, performed target Work, provenance path, or assurance claim.
+
+When degraded support, handoff, or continuation-state evidence can change work entry, use the present-WorkPlan branch of `A.15.8` to test the proposed performer, support, and state configuration, then return here with its bounded result. Ordinary full-kit checking does not require `A.15.8`.
 
 **What this buys.** A team can decide the next bounded move—start no work yet, prepare an exact missing input, recheck, or submit declared checks to a gate—without turning a plan, green label, commitment, reservation, permission fact, or preparation activity into target Work or into one all-purpose readiness object.
 
@@ -228,7 +230,7 @@ If a dashboard shows green but the exact readiness result or its reliance window
 Benefits:
 
 - Teams can inspect work-entry readiness without flattening plan, preparation, gate, resource, and performed-work claims.
-- TameFlow full-kitting contributes useful criteria without importing TameFlow `MOVE` as an FPF kind.
+- The adapted pre-entry Full-Kitting distinctions supply a recognition palette for a local readiness criterion; neither TameFlow nor its source vocabulary governs FPF readiness.
 - Gate and work evidence remain auditable because readiness only cites them when they are current.
 
 Costs:
@@ -244,11 +246,13 @@ The local result is deliberately dependent on exact inputs defined in their subj
 
 ### A.15.5:11 - SoTA-Echoing
 
-| Source family | Use in this pattern | Local adoption |
+| Source family | Currentness and bounded source use | Local adoption |
 | --- | --- | --- |
-| TameFlow `MOVE` and Full-Kitting material | Supplies minimal outcome-value effort, target scope, commitment, WIP pressure, and pre-entry full-kit criteria. | Adopt the useful distinctions as inputs to an FPF-local readiness criterion and result; keep WorkPlan, PlanItem, gate, preparation Work, resource, assignment, permission, and performed-work claims under their subject patterns. |
-| Current A.15 work-family settlement | Separates intended work, planned baseline, and dated performed work. | Reuse the split directly; readiness cites but does not replace those values. |
-| Current A.21 gate-publication discipline | Separates readiness-looking displays from gate decisions. | Readiness may feed a gate, but gate passage belongs to A.21. |
+| Steve Tendon, [*The Book of TameFlow: Theory of Constraints Applied to Knowledge-Work Management*](https://leanpub.com/tameflow), current Leanpub edition accessed 2026-08-27 | Adapt only the pre-entry Full-Kitting distinctions used to recognize minimum outcome or value, target scope, commitment, WIP pressure, and preparation inputs. Reject source `MOVE` or Full-Kitting as an FPF kind or universal readiness ontology; the source remains scoped to knowledge-work management. | Use the adapted distinctions only as inputs to an FPF-local readiness criterion and result; keep WorkPlan, PlanItem, gate, preparation Work, resource, assignment, permission, and performed-Work claims under their subject patterns. |
+| Current A.15 work-family settlement | Current internal governing basis for intended work, planned baseline, dated performed Work, and readiness boundaries. | Reuse the split directly; readiness cites but does not replace those values. |
+| Current A.21 gate-publication discipline | Current internal governing basis for gate decisions and their publication. | Readiness may feed a gate, but gate passage belongs to A.21. |
+
+Correct a factual citation or publication-status label in its row without reopening the readiness action when the used distinction and limit are unchanged. Reopen only the TameFlow row and its Full-Kitting-dependent recognition and action passages in §§4.2 and 9 if a source-edition change alters a used distinction. Reopen the affected A.15.5 boundary if the current FPF A.15 or A.21 work/readiness settlement changes it. Another example, prestige change, or unused source-edition change does not reopen the whole pattern.
 
 ### A.15.5:12 - Relations
 

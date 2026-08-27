@@ -6,12 +6,12 @@ section_id: "E.4.DPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__011_rationale.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:10 — Rationale"
-line_start: 69806
-line_end: 69811
+line_start: 70094
+line_end: 70099
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -52,7 +52,6 @@ dependencies:
   - "G.11"
   - "G.2"
 keywords:
-  - "& Search Queries. If the package uses a domain or local PatternID prefix"
   - "and boundary into additional mini-method columns. Pattern bodies remain the main language of use"
   - "do not copy first move"
   - "result"

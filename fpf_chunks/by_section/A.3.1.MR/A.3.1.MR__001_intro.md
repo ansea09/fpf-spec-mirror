@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__001_intro.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:intro — Intro"
-line_start: 8352
-line_end: 8361
+line_start: 8371
+line_end: 8380
 dependencies:
   - "A.10"
   - "A.15.1"

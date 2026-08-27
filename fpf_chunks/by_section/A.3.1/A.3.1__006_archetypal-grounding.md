@@ -6,12 +6,12 @@ section_id: "A.3.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__006_archetypal-grounding.md"
-commit_sha: "322625be006f38158e4e7d600f662558f03df77a"
+commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:5 — Archetypal Grounding"
-line_start: 8187
-line_end: 8247
+line_start: 8206
+line_end: 8266
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -22,14 +22,18 @@ dependencies:
   - "A.3.2"
   - "A.6.1"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
   - "B.1.5"
   - "C.2.1"
   - "C.2.P.DR"
+  - "C.3.1"
+  - "C.3.2"
   - "E.18"
   - "E.18.1"
   - "E.20"
   - "F.9"
+  - "G.5"
 keywords:
 ---
 
