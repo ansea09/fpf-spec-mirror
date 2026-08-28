@@ -6,12 +6,12 @@ section_id: "A.3.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__008_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:7 — Conformance Checklist"
-line_start: 8818
-line_end: 8849
+line_start: 8831
+line_end: 8862
 dependencies:
   - "A.1.1"
   - "A.10"

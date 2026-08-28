@@ -6,12 +6,12 @@ section_id: "A.6.9:section-001"
 section_title: "E.24.UK settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__002_e-24-uk-settlement.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:section-001 — E.24.UK settlement"
-line_start: 20421
-line_end: 20435
+line_start: 20432
+line_end: 20446
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.36:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:4 — Solution"
-line_start: 66737
-line_end: 66860
+line_start: 66820
+line_end: 66944
 dependencies:
   - "A.1"
   - "A.10"
@@ -62,7 +62,7 @@ First state the cultural-evolution case in ordinary language: what collective or
 
 An admitted System may perform dated Work, and that Work may enact a Method. Work and Method families may organize comparison. Canon or memory epistemes, recognition and selection relations, mediation systems or architectures, measurement or visibility relations, and publication forms may preserve, transmit, select, suppress, or refresh variants.
 
-These are separate facts. Keep the complete A.15.1, A.2.1, and F.6 basis for every claimed Work occurrence. A case card does not make a family, assignment, Method, episteme, or selected structure act.
+These are separate facts. For every claimed Work occurrence, recover each exact actual performer through A.13 and let A.15.1 independently admit the Work. Add assignment and F.6 only when the case or receiving use expressly represents precise assignment-bound attribution. A case card does not make a family, assignment, Method, episteme, or selected structure act.
 
 Cultural-evolution engineering proposes or performs a deliberate change to one or more of these relations. Proposal, performed Work, actual transformation, measured effect, responsibility, authority, selected structure, and publication are different claims. Name each only when its own predicate obtains.
 
@@ -105,7 +105,7 @@ Use an intervention card when a project must retain the identity of a proposed o
 
 Keep proposal and performance separate. The full card below is an assurance expansion, not a first-use form.
 
-Open its Work, assignment, transformation, effect, architecture, and publication fields only when those identities matter. `AffectedMediationSystemOrArchitectureRefs` names actual mediating Systems or architectures only. When a publication distinction matters, `PublicationRefs` names only the exact E.17 source-backed face or exact E.24.PUB publication occurrence, publication form, presentation carrier, audience-declaration episteme, bounded-use-declaration episteme, or availability claim needed by this intervention; omit it otherwise. The optional row does not require a complete publication record. Actual access, reliance, use, and Work stay outside this field unless their own direct relations or occurrences are separately current. If actual performance is claimed, name the `U.Work` occurrence and keep all facts required by A.15.1, A.2.1, and F.6 recoverable. Add actual change and a Work-to-change relation only when each independently obtains. An effect can obtain without manufacturing a performer, assignment, or Work. Recover unresolved claim-bearing *role* wording through E.10.ROLE; a local system-role kind and System-classification judgment remain independently optional.
+Open its Work, assignment, transformation, effect, architecture, and publication fields only when those identities matter. `AffectedMediationSystemOrArchitectureRefs` names actual mediating Systems or architectures only. Publication refs name only the exact objects needed by the intervention; omit them otherwise. Actual access, reliance, use, and Work stay outside this field unless separately current. If actual performance is claimed, recover each exact performer through A.13 and let A.15.1 independently admit the `U.Work`. Add assignment and F.6 only when the card or receiving use expressly represents precise assignment-bound attribution; missing or failed F.6 leaves the Work intact. Add actual change and a Work-to-change relation only when each independently obtains. An effect can obtain without manufacturing a performer, assignment, or Work. Recover unresolved claim-bearing *role* wording through E.10.ROLE; a local system-role kind and classification judgment remain independently optional.
 
 ```text
 CulturalEvolutionInterventionCard@Project:
@@ -132,6 +132,7 @@ CulturalEvolutionInterventionCard@Project:
   InterventionAssignmentSpeciesRef?: U.RelationKindRef constrained under U.SystemRoleAssignment
   InterventionAssignmentOccurrenceRef?: U.RelationRef constrained to U.SystemRoleAssignment
   PerformedInterventionWorkRef?: U.EntityRef constrained to U.Work
+  PerformedInterventionWorkAttributionRefs?: refs to obtaining F.6 performedUnderAssignment relations only when the card or receiving use expressly represents attribution
   ActualTransformationRefs?:
   WorkToTransformationOrEffectClaimRefs?:
   MeasurementRefs?:
@@ -143,7 +144,7 @@ CulturalEvolutionInterventionCard@Project:
 
 When the card is used in an actual project, `ProjectWorkOccurrenceRef` identifies the composite `U.Work`, and `InterventionCardProjectUseRelationRef` identifies the direct relation by which that Work uses the card. The suffix or either reference alone establishes no project locality. The proposed intervention, card, and project Work remain separate.
 
-Use the expanded identity fields only when a later claim or comparison needs them. For performed intervention Work, `PerformedInterventionWorkRef` names the independently identified `U.Work`, and the A.15.1, A.2.1, and F.6 facts remain recoverable. A proposal omits Work and assignment fields. A local system-role kind and System-classification judgment remain optional and separate. Assignment establishes no Work, capability, functioning, authority, or responsibility.
+Use the expanded identity fields only when a later claim or comparison needs them. For performed intervention Work, recover each exact actual performer through A.13 and let `PerformedInterventionWorkRef` name an independently admitted A.15.1 `U.Work`. `PerformedInterventionWorkAttributionRefs`, assignment species, and assignment occurrence are optional and appear only when the card or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment. A proposal omits Work and attribution fields. A local system-role kind and classification judgment remain optional and separate. Assignment establishes no classification, Work, capability, functioning, authority, or responsibility.
 
 **Responsibility and change.** A positive responsibility claim needs an admitted domain predicate through `TargetedRelation` or `EffectClaimOrRelationRefs`; otherwise return A.6.RCD's `missing-governor`. `ActualTransformationRefs` may cite only changes independently identified under A.3.4.
 
@@ -155,7 +156,7 @@ Use the expanded identity fields only when a later claim or comparison needs the
 
 The intervention card does not authorize Work, and its targeted relation does not assert that an effect obtains. It keeps the proposed intervention, targeted relation, and next applicable pattern together.
 
-For planning and performance, use E.18.1 for P2W carry-through, A.15.2 for work planning, A.15.1 and F.6 for performed Work, and A.3.4 for actual change. A.15.PROD may answer one current production-work, entity-inception, or completion question; the Work-to-change link still uses the direct predicate, A.6.1 binding, A.6.RCD local claim, or non-assertability result above.
+For planning and performance, use E.18.1 for P2W carry-through, A.15.2 for work planning, A.13 and A.15.1 for exact actual performers and independently admitted Work, and A.2.1/F.6 only when precise assignment-bound attribution is expressly consumed. Use A.3.4 for actual change. A.15.PROD may answer one current production-work, entity-inception, or completion question; the Work-to-change link still uses the direct predicate, A.6.1 binding, A.6.RCD local claim, or non-assertability result above.
 
 For archive or pool treatment use C.18 or C.19; for a selected-set result use G.5; for local choice use C.11; for carrier admission before architecture use C.35; for an architecture question use C.30; and for refresh use G.11. If audience availability is current, use E.17 for a source-backed publication face and return to source, and E.24.PUB for the publication occurrence, form, carrier, audience, bounded use, and availability.
 

@@ -6,12 +6,12 @@ section_id: "C.26.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:4 — Solution"
-line_start: 54546
-line_end: 54734
+line_start: 54618
+line_end: 54806
 dependencies:
   - "A.10"
   - "A.15"
@@ -137,7 +137,7 @@ Envelope-regulation sequence:
 
 Ordinary output: produce a viability-envelope record with envelope variables and viable region, a disturbance/sensor/probe map, a candidate-intervention-to-direct-object recovery, and a trade-off, adaptation, and failure condition that tells the practitioner what changes in the work.
 
-The output should give one direct next move: revise a MethodDescription or policy episteme, amend a WorkPlan, perform exact Work under its assignment, change a setting through a separately grounded transformation, change an access or permission relation when its direct pattern permits, revise a local-sense claim, reference scheme, Bridge description, or bounded-use claim, test a new F.9 candidate after an endpoint/profile change, record the resulting state, or drop the envelope claim.
+The output should give one direct next move: revise a MethodDescription or policy episteme; amend a WorkPlan; use A.13 to identify the actual performer and A.15.1 to admit exact Work independently; if that Work account must also identify the assignment under which it was performed, check the relation separately through F.6; change a setting through a separately grounded transformation; change an access or permission relation when its direct pattern permits; revise a local-sense claim, reference scheme, Bridge description, or bounded-use claim; test a new F.9 candidate after an endpoint/profile change; record the resulting state; or drop the envelope claim.
 
 #### C.26.3:4.6 - Viability envelope record
 
@@ -184,7 +184,7 @@ Do not let one dashboard value stand for the whole envelope.
 | Boundary condition | Which access, ownership, context, interface, promise, environment, or information constraint shapes the envelope? |
 | Adaptation cost | Which latency, risk, effort, attention, support load, compliance exposure, energy, trust, or future flexibility is spent? |
 
-A metric value or dashboard carrier is neither Work nor an actual change. Its use, publication, or a surrounding governance routine may participate in a separately grounded behavior-changing claim. Name the exact Work and performer assignment when Work is asserted; name any changed setting, actual transformation, access or permission relation, or boundary relation separately. Repairing one envelope variable may still damage another.
+A metric value or dashboard carrier is neither Work nor an actual change. Its use, publication, or a surrounding governance routine may participate in a separately grounded behavior-changing claim. When Work is asserted, use A.13 to identify the actual performer and A.15.1 to admit the dated occurrence independently. If the claim must also identify the assignment under which the Work was performed, name that assignment and check the relation separately through F.6. Name any changed setting, actual transformation, access or permission relation, or boundary relation separately. Repairing one envelope variable may still damage another.
 
 #### C.26.3:4.8 - Homeostasis, allostasis, and architecture work
 

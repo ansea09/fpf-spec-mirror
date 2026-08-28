@@ -6,16 +6,17 @@ section_id: "A.15.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__011_rationale.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:10 — Rationale"
-line_start: 26523
-line_end: 26530
+line_start: 26605
+line_end: 26612
 dependencies:
   - "A.1"
   - "A.1.STM"
   - "A.12"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.PROD"
@@ -27,17 +28,20 @@ dependencies:
   - "A.6.1"
   - "A.6.P.WMR"
   - "A.6.RCD"
+  - "C.11"
+  - "C.18"
   - "C.2.1"
   - "E.17"
   - "E.18"
   - "E.18.NET"
   - "E.24.PUB"
+  - "F.6"
 keywords:
 ---
 
 ### A.15.6:10 - Rationale
 
-Apply `A.15.1` to admit and identify actual project Work: name every performer System, at least one Method the Work enacts through an obtaining relation, the Work extent, at least one obtaining locally declared containing-system relation, and the Work-part relations that constitute the composite; use F.6 to identify the assignment under which each performer acted. Add an episode, continuity, or aggregation claim only when the project use needs it. A short project account may omit assignment identifiers or further valid boundaries its receiving claim does not use. State resource use, Work-to-referent facts, change, production, evaluation, delivery, acceptance, and later result use as separate claims, each under its direct relation predicate and case basis. The project-specific tests qualify that admitted Work; they do not constitute it. Adding a project kind would duplicate the Work identity while mixing it with plans, organizations, Transformations, and descriptions.
+Apply A.13 and A.15.1 first to admit and identify actual project Work: recover every actual performer System's local agential kind and criterion, classification, obtaining assignment, scope, working situation, and window, with evidence adequate for those core claims and a characteristic profile only when conditionally consumed; name the exact performance history, at least one Method the Work enacts through an obtaining relation, the Work extent, at least one obtaining locally declared containing-System relation, and the Work-part relations that constitute the composite. Only after admission, use F.6 for each precise assignment-bound attribution. Add an episode, continuity, or aggregation claim only when the project use needs it. A short project account may omit assignment identifiers or further valid boundaries its receiving claim does not use. State resource use, Work-to-referent facts, change, production, evaluation, delivery, acceptance, and later result use as separate claims, each under its direct relation predicate and case basis. The project-specific tests qualify that admitted Work; they do not constitute it. Adding a project kind would duplicate the Work identity while mixing it with plans, organizations, Transformations, and descriptions.
 
 Process and case concerns reveal why one project container is insufficient. Repeatability belongs to `U.Method`; direct method-side relations remain unbundled until the structure's constituents are identified independently, its selected relations obtain, its constraints are applied, and one frame names the selection question, permitted action, and prohibited overread. Only then select one `U.Structure` under `A.22` and, if useful for that question, call it `MethodRelationStructure`. Transformation-flow organization belongs to `TransformationFlowStructure`. None is the unique dated Work occurrence. A case remains centered on the subject or claim named by its closure question, even when several Methods, structures, Work occurrences, Systems, results, measures, and decisions are relevant. Direct recovery therefore preserves more engineering information than a three-label hierarchy.
 

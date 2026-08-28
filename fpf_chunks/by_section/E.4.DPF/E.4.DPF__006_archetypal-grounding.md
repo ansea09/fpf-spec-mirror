@@ -6,14 +6,15 @@ section_id: "E.4.DPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__006_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:5 — Archetypal Grounding"
-line_start: 69924
-line_end: 69996
+line_start: 70046
+line_end: 70118
 dependencies:
   - "A.1.1"
+  - "A.13"
   - "A.15.1"
   - "A.15.PROD"
   - "A.2.6"
@@ -75,7 +76,7 @@ Enterprise local-practice slice:
 | Local setting | Which organization, product line, team, practitioner or audience position, and decision class are in scope? When a claim depends on a local system-role kind, classification, assignment occurrence, or another direct relation, state that claim separately through `E.10.ROLE` and its direct pattern. |
 | Internal sources | Which policies, standards, review records, incidents, templates, and examples are adopted or rejected? |
 | Constraints | Which regulatory, confidentiality, intellectual-property, tool-access, and security boundaries constrain publication? |
-| Stewardship and maintenance | Which Systems perform any framework-authoring, source-pack maintenance, relation-record maintenance, publication or access, or refresh occurrence that this account actually claims as `U.Work`? For each such claim, use `A.15.1` and cite the applicable `F.6` relations. Which separate local system-role classification, maintenance, responsibility, authority, access, or source-custody relation obtains, and which `missing-governor` result applies when one is required but absent? |
+| Stewardship and maintenance | Which Systems perform any framework-authoring, source-pack maintenance, relation-record maintenance, publication or access, or refresh occurrence that this account actually claims as `U.Work`? For each such claim, recover every precise performer's A.13 core and independently admit the Work under A.15.1. Add F.6 only when this account also needs precise assignment-bound attribution. Which separate local system-role classification, maintenance, responsibility, authority, access, or source-custody relation obtains, and which `missing-governor` result applies when one is required but absent? |
 | Approval route | Which management, engineering, safety, legal, or assurance reviews are needed before local use? |
 | Rollout and training | Which intended practitioners, audience groups, or independently classified Systems need first-use examples, training material, or migration support? The wording alone creates no system-role kind, assignment, training Work, responsibility, or authority. |
 | Dependency | Which FPF Core edition and domain framework edition are depended on, and which reverse dependency is blocked? |

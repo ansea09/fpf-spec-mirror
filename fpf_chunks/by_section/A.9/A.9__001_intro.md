@@ -6,12 +6,12 @@ section_id: "A.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__001_intro.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:intro — Intro"
-line_start: 22485
-line_end: 22488
+line_start: 22496
+line_end: 22499
 dependencies:
   - "A.1"
   - "A.8"

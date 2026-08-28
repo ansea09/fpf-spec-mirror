@@ -6,12 +6,12 @@ section_id: "C.27:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:3 — Solution"
-line_start: 54904
-line_end: 54991
+line_start: 54976
+line_end: 55063
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -101,7 +101,7 @@ Unknown resistance can support a local diagnosis or planning discussion. It cann
 
 Ordinary practitioner prose may say, for example, “the engineer slowed the rollout” when it recognizably names the System acting in the situation.
 
-If the receiving claim relies on performed Work, identify the actual System actor and use the complete A.15.1 and F.6 Work basis. If it relies on a local system-role kind, System classification, or assignment, add each distinction separately. An assignment does not act and does not supply authority; cite its directly declared relation species and exact obtaining occurrence while still naming the holder System.
+If the receiving claim relies on performed Work, identify the actual System actor, recover its A.13 core, and independently admit the dated Work under A.15.1. Add F.6 afterward only when the temporal claim also needs precise assignment-bound attribution. If the claim relies on a local system-role kind, System classification, or assignment, add each distinction separately. An assignment does not act and does not supply authority; cite its directly declared relation species and exact obtaining occurrence while still naming the holder System.
 
 A Method, policy episteme, tool, setting, physical condition, resource input, assignment, capability, or record is not another actor merely because it affects the situation. Name its actual direct relation to the temporal behavior, or keep it as an unresolved or source-side intervention claim. Keep authority, WorkPlan, capability, performed Work, and claimed effect separate.
 

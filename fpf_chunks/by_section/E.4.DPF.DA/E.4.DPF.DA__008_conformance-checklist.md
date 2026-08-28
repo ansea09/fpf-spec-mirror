@@ -6,17 +6,19 @@ section_id: "E.4.DPF.DA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__008_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:7 — Conformance Checklist"
-line_start: 70425
-line_end: 70444
+line_start: 70547
+line_end: 70566
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.19.ECS"
+  - "A.2.1"
   - "A.2.6"
   - "A.22"
   - "A.22.CGUS"
@@ -57,7 +59,7 @@ keywords:
 
 | Check | Passing condition |
 | --- | --- |
-| CC-DPFDA.0 Evaluation objects separated | Framework episteme edition, package architecture, PFAD decisions, pattern set, relation records, edition dependencies, publication units and occurrences, publication forms, exact presentation carriers, access-facing presentation carriers, access routes, actual access or use relations, characteristic space and specification, semantic Method, ordinary evaluator action, an optional A.6.1 application only when an exact operation declared by a separately admitted Mechanism is actually used, coordinate claims, aggregate result episteme, witnesses and evidence use, optional record, local status, F.10 status use, E.19 admission or refresh, assurance, publication, and later repair remain separately recoverable. When dated assessment `U.Work` is asserted, one independently valid A.15.1 Work account, the actual evaluator System, and the applicable F.6 relation occurrences are also recoverable; the assignment never acts as evaluator. |
+| CC-DPFDA.0 Evaluation objects separated | Framework episteme edition, package architecture, PFAD decisions, pattern set, relation records, edition dependencies, publication units and occurrences, publication forms, exact presentation carriers, access-facing presentation carriers, access routes, actual access or use relations, characteristic space and specification, semantic Method, ordinary evaluator action, an optional A.6.1 application only when an exact operation declared by a separately admitted Mechanism is actually used, coordinate claims, aggregate result episteme, witnesses and evidence use, optional record, local status, F.10 status use, E.19 admission or refresh, assurance, publication, and later repair remain separately recoverable. When dated assessment `U.Work` is asserted, the exact actual evaluator System is recoverable through A.13 and one independently valid A.15.1 Work account is cited. Assignment and F.6 references appear only when the result expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, missing or failed F.6 leaves the Work intact, and the assignment never acts as evaluator. |
 | CC-DPFDA.0a Coordinate results constituted | Every D1-D12 value is an ordinal content-evaluation quality ascription about the same exact framework edition with recoverable ReferenceScheme, characteristic, scale value, evaluation rule/probe, ClaimScope/use/window, assessment account and any asserted Mechanism-operation application, rationale, evidence locus, and repair/no-proposal. The aggregate C.2.1 result episteme carries the complete set; a table, record, witness, or evaluator identity creates no value. |
 | CC-DPFDA.1 Object and use declared | Exact authored framework episteme edition of concern, open plain description of the visible form or use being evaluated, package architecture and selected package refs, effective ReferenceScheme, ClaimScope, intended reader, declared use, non-use boundary, and qualification window are named. No file, manifest, list, or package boundary supplies identity, kind, or membership. |
 | CC-DPFDA.2 All coordinates evaluated | All twelve coordinates receive ordinal value, short rationale, evidence locus, and repair or no-proposal disposition inside the aggregate result episteme. |

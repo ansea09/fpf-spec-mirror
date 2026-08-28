@@ -6,16 +6,17 @@ section_id: "A.15.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__002_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:1 — Problem frame"
-line_start: 26238
-line_end: 26269
+line_start: 26263
+line_end: 26300
 dependencies:
   - "A.1"
   - "A.1.STM"
   - "A.12"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.PROD"
@@ -27,11 +28,14 @@ dependencies:
   - "A.6.1"
   - "A.6.P.WMR"
   - "A.6.RCD"
+  - "C.11"
+  - "C.18"
   - "C.2.1"
   - "E.17"
   - "E.18"
   - "E.18.NET"
   - "E.24.PUB"
+  - "F.6"
 keywords:
 ---
 
@@ -39,11 +43,17 @@ keywords:
 
 **Use this when.** Use this pattern when project, process, case, program, initiative, or situation wording is about Work and change, but the claim does not yet reveal whether it concerns one performed Work whole, a reusable way, a selected structure, or another named subject or claim being followed to a closure decision.
 
+Use it also when a team cannot keep its problem-development, solution-development, and development-platform questions connected without assuming one target noun, lifecycle, Method, or System. This branch recovers one revisable project account before the reader opens the patterns that define its selected subjects and relations.
+
+
 Use it also when a project names a **project system-of-interest** without showing whether that name denotes an already admitted `U.System` or only an intended future System in a plan, or when project designation is being inferred from a system-role label.
 
 An `@Project` name still establishes no locality, authority, parthood, or identity without a direct relation to performed project Work.
 
-**First useful move.** Ask what the next decision is about: the Work that happened, the reusable way of doing, the organization of particular Method-side objects and relations, a TransformationFlowStructure, the referent being changed, or the System whose change or later use organizes the project.
+**First useful move.** If the project focus itself is unresolved, state the sought outside difference, relying use, conflicting interests, comparison-and-acceptance conditions, receiving decision, evidence horizon, and main uncertainty. Compare candidate project subjects and materially different solution forms before designating a project system-of-interest or Method-of-interest.
+
+Otherwise ask what the next decision is about: the Work that happened, the reusable way of doing, the organization of particular Method-side objects and relations, a TransformationFlowStructure, the referent being changed, or the System whose change or later use organizes the project.
+
 
 In the process branch, choose `U.Method`, a `U.Structure` selected under `A.22`, or `TransformationFlowStructure` before choosing a viewpoint, record, suffix, dashboard, or publication.
 

@@ -6,12 +6,12 @@ section_id: "E.23.CDI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:4 — Solution"
-line_start: 88966
-line_end: 88998
+line_start: 89104
+line_end: 89136
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -54,5 +54,5 @@ The first useful result names the admitted holder System, target Work family, cu
 
 The exact `A.2.2` capability instance and the basis for relying on its current baseline must be recoverable. The practitioner-facing result can still remain the two short sentences above plus the evidence used for the baseline and transfer result. Expose record identifiers, a separate `E.22` evaluation frame, or detailed provider and service relations only when a receiving use needs them.
 
-Keep the selected intervention or plan, performed development Work, performed transfer Work, transfer evidence and result, pre- and post-intervention capability statements, a comparison claiming capability change, and any actual Transformation claim separate. A plan remains prospective, and performed Work requires `A.15.1` and `F.6`. A capability-change comparison needs commensurable measures, envelopes, windows, and current support; it does not by itself say that the development Work caused a world-side change. A causal Transformation claim additionally needs an independently identified `A.3.4` Transformation and a named obtaining Work-to-change predicate or a supported local claim under `A.6.RCD`. Completion of development or transfer Work alone establishes none of these later claims. If the direct relation is missing, retain the Work, evidence, capability statements, and comparison and return that exact blocker.
+Keep the selected intervention or plan, performed development Work, performed transfer Work, transfer evidence and result, pre- and post-intervention capability statements, a comparison claiming capability change, and any actual Transformation claim separate. A plan remains prospective. For performed Work, recover each exact actual performer through A.13 and let A.15.1 independently admit the occurrence; add F.6 only when the record or receiving use expressly consumes precise assignment-bound attribution. A capability-change comparison needs commensurable measures, envelopes, windows, and current support; it does not by itself say that the development Work caused a world-side change. A causal Transformation claim additionally needs an independently identified `A.3.4` Transformation and a named obtaining Work-to-change predicate or a supported local claim under `A.6.RCD`. Completion of development or transfer Work alone establishes none of these later claims. If the direct relation is missing, retain the Work, evidence, capability statements, and comparison and return that exact blocker.
 

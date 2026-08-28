@@ -6,12 +6,12 @@ section_id: "C.3.5:9"
 section_title: "Worked mini-examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__010_worked-mini-examples-informative.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:9 — Worked mini-examples (informative)"
-line_start: 45504
-line_end: 45510
+line_start: 45576
+line_end: 45582
 dependencies:
   - "A.2.6"
   - "C.2.2"

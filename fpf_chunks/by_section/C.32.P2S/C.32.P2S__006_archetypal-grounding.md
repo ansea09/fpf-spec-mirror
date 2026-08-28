@@ -6,12 +6,12 @@ section_id: "C.32.P2S:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__006_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:5 — Archetypal Grounding"
-line_start: 63148
-line_end: 63163
+line_start: 63222
+line_end: 63237
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -57,7 +57,7 @@ keywords:
 
 **Show A - built asset and technical system.** A clinic has rising instrument-turnaround delays and infection-control pressure. The first P2S move does not ask for a better diagram. It names the clinic service system as described holon, the turnaround-and-contamination architecture question, intended operating use, applicable scope and window, candidate structure kinds, architecture characteristics, and uncertainty: room layout, sterile and contaminated flows, equipment modules, tray interface, maintenance work, throughput, contamination isolation, maintainability, and surge adaptability. Candidate synthesis compares a centralized autoclave bay, distributed sterilization modules, and a reusable tray-interface change. Use `C.32.PAD` for the decision selecting one configuration, `C.30.AD` and `C.32.ADR` for its descriptions and publication, and A.15-family patterns for construction and operating work. During operation, measure actual turnaround, contamination events, maintenance burden, and actual-structure feedback triggers.
 
-**Show B - organization and Method structures.** Inspection work catches ontological errors late. The source may call the object a review practice and speak of checker roles, but P2S first restores the claim: the described holon is the review organization-as-system; if review Work is the subject instead, identify the exact `U.Work` occurrence separately. Use `E.10.ROLE` to separate any local checker kind, separate System-classification judgment, current assignment, direct review-relation position, function claim, organization position, and ordinary audience label. The adjacent structures include those recovered relations, Method relation structure, Method descriptions, evidence handoffs, decision records, and live attention cues. Candidate synthesis compares a single-checker assignment requirement, a split intake and ontology-checking relation structure, and a live-beat microstep Method structure; all stay modal until their direct facts obtain. The architecture decision connects the selected structures to Method descriptions and readiness checks. For later actual inspection Work, name the `U.Work` occurrence and keep all facts required by A.15.1, A.2.1, and F.6 recoverable; telemetry separately shows whether errors are caught earlier.
+**Show B - organization and Method structures.** Inspection work catches ontological errors late. The source may call the object a review practice and speak of checker roles, but P2S first restores the claim: the described holon is the review organization-as-system; if review Work is the subject instead, recover each exact performer through A.13 and identify the `U.Work` occurrence independently through A.15.1. Use `E.10.ROLE` to separate any local checker kind, classification, current assignment, direct review-relation position, function claim, organization position, and ordinary audience label. Candidate synthesis compares modal alternatives; it makes none obtain. For later actual inspection Work, add F.6 only when the flow or receiving use expressly represents precise assignment-bound attribution. Telemetry separately shows whether errors are caught earlier.
 
 **Show C - architecture-influence and transformed-side co-synthesis.** A team wants a modular product architecture but its toolchain, team communication, release method, and evidence workflow only support one tightly coupled build. The team uses `C.32.CONWAY` within the P2S flow: those typed influence sources and their direct relations remain separate from both exact C.30 architecture sides, the changed referent, any actual transformation, acting Systems, assignments, and Work. Candidate families include changing the product modules only, changing the influence-source structures only, changing both, or accepting a bounded mismatch while retaining a named correspondence-frame return condition. The decision states which side changes now, what architecture characteristics are protected, what Work and exact work-to-change relations realize the change, and what operation or delivery feedback can return to the `C.32.CONWAY` correspondence frame or to decision repair.
 

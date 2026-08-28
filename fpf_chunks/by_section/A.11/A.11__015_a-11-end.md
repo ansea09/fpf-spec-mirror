@@ -6,12 +6,12 @@ section_id: "A.11:End"
 section_title: "A.11:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__015_a-11-end.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:End — A.11:End"
-line_start: 23117
-line_end: 23118
+line_start: 23128
+line_end: 23129
 dependencies:
   - "A.6.P"
   - "A.6.RCD"

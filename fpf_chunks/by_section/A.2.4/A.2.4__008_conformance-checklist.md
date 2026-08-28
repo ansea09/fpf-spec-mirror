@@ -6,12 +6,12 @@ section_id: "A.2.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__008_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:7 — Conformance Checklist"
-line_start: 4792
-line_end: 4808
+line_start: 4802
+line_end: 4818
 dependencies:
   - "A.10"
   - "A.2"
@@ -45,7 +45,7 @@ keywords:
 | `CC-A2.4-1` First-use object | One exact episteme and one target claim or governed status assertion are named. |
 | `CC-A2.4-2` Admitted job | The statement is only an evidence-use or status-use classification; no `U.EvidenceRole`, episteme-as-system-role-kind classification, assignment holder, or generic result kind is created. |
 | `CC-A2.4-3` Scope and interpretation | Effective source scheme when material, grounding holon, claim or status scope, polarity or value, and relevance or status window are explicit when they change the use. |
-| `CC-A2.4-4` Work | Any source-producing, measurement, proof-checking, evaluation, transformation, or receiving Work is dated `U.Work` with an exact performer system, a system-role assignment when one obtains, Method, and direct-relation or A.6.1 bindings. The assignment does not act. |
+| `CC-A2.4-4` Work | For any source-producing, measurement, proof-checking, evaluation, transformation, or receiving Work, A.13 identifies the actual performer and A.15.1 independently admits the dated occurrence. Add F.6 only when the result must also identify the assignment under which that Work was performed. The Method and direct-relation or A.6.1 bindings remain separate, and the assignment does not act. |
 | `CC-A2.4-5` Local result | The domain-local result points to its exact formal, measurement, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, system-role-kind, assignment, or decision governor. |
 | `CC-A2.4-6` Result episteme | The C.2.1 episteme that states the local result remains distinct from that result, carrier, and work. |
 | `CC-A2.4-7` Provenance/currentness | Use A.10 and G.6 for source recovery and provenance; use G.11 for currentness when it affects use. |

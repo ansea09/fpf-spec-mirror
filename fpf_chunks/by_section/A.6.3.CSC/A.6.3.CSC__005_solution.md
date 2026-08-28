@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:4 — Solution"
-line_start: 14185
-line_end: 14320
+line_start: 14196
+line_end: 14331
 dependencies:
   - "A.15"
   - "A.20"
@@ -45,7 +45,7 @@ Use these Plain terms with that progressive boundary:
 - **Return trigger** means the condition that requires the source, local re-expansion, exact `X`, an exact source relation, or the pattern that supplies the needed definition, constraint, test, or method.
 - **Exact reuse or reliance case** means a coarsening result that will travel independently, be cited or disputed, cross schemes, support external reliance, or become policy-, bridge-, gate-, work-, privacy-, engineering-justification-, or assurance-facing.
 
-The construction performs no Work. Producing an ordinary candidate does not require a work record. Identify the capable system, system-role assignment, dated Work, enacted Method, source-use or A.6.1 bindings, and any A.15.PROD inception claim only when the current claim depends on who performed actual coarsening, when, by which admitted Method, or with which result. Work or generation does not prove conservativity or controlled loss.
+The construction performs no Work, and producing an ordinary candidate does not require a Work record. When the current claim needs the history of actual coarsening, use A.13 to identify who performed it and A.15.1 to admit the dated Work independently. Add F.6 only if that use must also state exactly under which assignment the Work was performed. Name a separate capability claim, enacted Method, source-use or A.6.1 bindings, and any A.15.PROD inception claim only when the current result depends on them. Work or generation does not prove conservativity or controlled loss.
 
 Publication also remains separate. E.24.PUB identifies an exact occurrence that makes one selected episteme edition available to a declared audience for a bounded use through one exact publication form and `U.PresentationCarrier`. Plain **published episteme** names that contingent use, not a durable kind. Publication does not become `X` or `Y`, establish `c`, or widen the admissible use.
 

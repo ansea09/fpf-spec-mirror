@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View"
-line_start: 30329
-line_end: 30823
+line_start: 30401
+line_end: 30895
 dependencies:
   - "A.0"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "C.32.P2S:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__002_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:1 — Problem frame"
-line_start: 62906
-line_end: 63026
+line_start: 62979
+line_end: 63100
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -114,6 +114,7 @@ ProblemToStructureArchitecturingFlowCard@Project:
     workPlanRefs?:
     readinessRefs?:
     performedWorkRefs?: refs to independently identified U.Work occurrences when performance is current
+    performedWorkAttributionRefs?: refs to obtaining F.6 performedUnderAssignment relations only when the flow or receiving use expressly represents attribution
 
     actualTransformationRefs?:
     workToChangeRelationRefs?: Work-to-change relations that actually obtain
@@ -160,7 +161,7 @@ ProblemToStructureArchitecturingFlowCard@Project:
 
 For `ProblemToStructureArchitecturingFlowCard@Project`, `flowId` designates the exact project-local P2S architecturing transformation flow that is the card's C.2.1 EntityOfConcern. The claims carried by the filled card and the effective `U.ReferenceScheme` for its designations remain recoverable; changed claim content, changed flow EntityOfConcern, or changed effective reference scheme identifies another card episteme. `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the card is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite Work occurrence admitted under `U.Work` and `architecturingFlowCardProjectUseRelationRef` identifies the direct relation by which architecturing work uses the card. The card, the architecturing work it helps coordinate, and the larger project work remain distinct.
 
-The problem, architecting-side, realization, and architecture refs point to independently established objects; they are not P2S relation kinds. `acceptedProblemCardRef` resolves to one C.22.2 C.2.1 episteme; the nested signal and pressure fields neither constitute that card nor make an actual Problem obtain. `actualProblematicForRelationRef` is present only for an independently obtaining C.22.PFR occurrence. An assignment claim uses `architectingAssignmentSpeciesRef` for the directly declared species and `architectingSystemRoleAssignmentRef` for its obtaining occurrence; the occurrence's holder must be `architectingSystemRef`. When performance is current, each `performedWorkRef` names an independently identified `U.Work` occurrence, and all facts required by A.15.1, A.2.1, and F.6 remain recoverable. Assignment, authority, responsibility, capability, Work, and result remain separate.
+The problem, architecting-side, realization, and architecture refs point to independently established objects; they are not P2S relation kinds. `acceptedProblemCardRef` resolves to one C.22.2 C.2.1 episteme; the nested signal and pressure fields neither constitute that card nor make an actual Problem obtain. An assignment claim uses `architectingAssignmentSpeciesRef` and `architectingSystemRoleAssignmentRef` for its separately declared species and obtaining occurrence; it supplies neither classification nor performance. When performance is current, each exact performer first has its A.13 core and each `performedWorkRef` names Work independently admitted through A.15.1. `performedWorkAttributionRefs` are optional and appear only when the flow or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work refs intact. Authority, responsibility, capability, Work, assignment, attribution, and result remain separate.
 
 `actualTransformationRefs` name independently identified actual changes under `A.3.4`. The Work-to-change fields pair each relation that actually obtains with the cited pattern or local claim used to check it. The three production refs resolve to separate local `A.15.PROD` claims and remain absent when their particular question is not current.
 

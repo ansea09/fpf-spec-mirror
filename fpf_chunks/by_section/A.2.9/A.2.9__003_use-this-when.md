@@ -6,14 +6,15 @@ section_id: "A.2.9:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__003_use-this-when.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:0 — Use This When"
-line_start: 7297
-line_end: 7332
+line_start: 7307
+line_end: 7342
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -26,17 +27,20 @@ dependencies:
   - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
-  - "actual communicative occurrence"
-  - "admitted speech-act Work kind"
-  - "authority-grounding assignment"
+  - "A.13-qualified actual performer"
+  - "containment"
+  - "enacted Method"
   - "evidence carrier"
+  - "independently admitted speech-act Work"
   - "institutional target and effect"
   - "named receiving use"
   - "optional SpeechActRecord"
-  - "performing U.System"
   - "publication relation"
   - "response versus achievement"
+  - "same obtaining assignment"
+  - "separate later performedUnderAssignment"
   - "smallest repair or stop"
+  - "time"
   - "utterance description"
 ---
 
@@ -60,16 +64,16 @@ Typical moments:
 - a commitment must cite the act that instituted it, rather than only pointing at a document;
 - a message, ticket, signed record, or API call log is being mistaken for the act itself.
 
-**Primary EntityOfConcern.** The EntityOfConcern is one actual act of communicating, admitted as communicative Work under `U.SpeechAct`. For a receiving-use question, identify that Work only far enough to say who should understand or do what and to keep the act distinct from its wording, representation, medium, response, and later effect. When exact occurrence identity, institutional force, audit, or reliance is current, recover the admitted performer System, covering assignment occurrence and declared `U.SystemRoleAssignment` species, enacted `U.Method`, time extent, recognition-taxonomy episteme, effective reference scheme, and any applicable policy or procedure. A `SpeechActRecord`, MethodDescription, utterance-description episteme, channel, and file, message, ticket, or log carrier remain separate objects.
+**Primary EntityOfConcern.** The EntityOfConcern is one actual act of communicating, admitted as communicative Work under `U.SpeechAct`. For a receiving-use question, identify that Work only far enough to say who should understand or do what and to keep the act distinct from its wording, representation, medium, response, and later effect. When exact occurrence identity, institutional force, audit, or reliance is current, first recover the exact actual performer System; its A.13 local agential kind and criterion, classification, obtaining assignment, scope, working situation, window, and adequate core evidence; a characteristic profile only when conditionally consumed; the exact communicative performance history; enacted `U.Method`; temporal extent; and an obtaining locally declared containing-System relation. A.15.1 admits the act from those facts. Only afterward, and only when exact assignment-bound attribution is current, use F.6 `performedUnderAssignment` through the same assignment. Also recover the recognition-taxonomy episteme, effective reference scheme, and any applicable policy or procedure. A `SpeechActRecord`, MethodDescription, utterance-description episteme, channel, and file, message, ticket, or log carrier remain separate objects.
 
-**First useful move.** State who should understand or do what because of the communication, including later self-use by its producer, and what evidence would be enough for the present judgement. Keep response, achievement, later action or change, causal contribution, authority, consent, permission, and admissibility separate. Repair the smallest blocker in the wording, representation, prerequisites, medium, interaction, or a future receiving use—or stop. Only when the named modeling, audit, institutional, or reliance use needs exact occurrence detail should you continue by naming the act, performer, Method, covering assignment and species, time extent, taxonomy, scheme, policy, optional channel, and any separate effect. Create a `SpeechActRecord` only when a receiving use needs a persistent claim about the occurrence.
+**First useful move.** State who should understand or do what because of the communication, including later self-use by its producer, and what evidence would be enough for the present judgement. Keep response, achievement, later action or change, causal contribution, authority, consent, permission, and admissibility separate. Repair the smallest blocker in the wording, representation, prerequisites, medium, interaction, or a future receiving use—or stop. Only when the named modeling, audit, institutional, or reliance use needs exact occurrence detail should you recover the A.13 performer core and independently admit the act through A.15.1; only after that admission should a precise assignment-bound claim open F.6. Recover taxonomy, scheme, policy, optional channel, and any separate effect only when the use needs them. Create a `SpeechActRecord` only when a receiving use needs a persistent claim about the already admitted occurrence. A record may omit exact assignment attribution when that use makes none; any guard, gate, or claim that relies on exact assignment-bound attribution requires `performedUnderAssignmentRef` to the separately established F.6 relation for the already admitted act and the same A.13 assignment.
 
 **Not this pattern when.** If the question is only what a document says, use A.7/C.2/E.17. If the question is only evidentiary support for a later claim or whether the communication caused a later effect, use A.10 or C.28 after identifying that claim. If the question is who is accountable under a deontic relation, use A.2.8. If the Work has no communicative effect, use A.15.1 directly.
 > **Type:** Definitional (D)
 > **Normativity:** Normative (unless explicitly marked informative)
 > **Placement:** Part A → **A.2 System-role kinds, assignments, and agency kernel**
 > **Refines:** A.2 (System-role kinds and assignments)
-> **Builds on:** A.2.1 (`U.SystemRoleAssignment` direct species), A.2.6 (`Γ_time` and windows), A.7 (EntityOfConcern, Description episteme, and carrier), A.10 (SCR/RSCR carrier discipline), A.15.1 (`U.Work`), and F.6 (performed-under-assignment attribution)
+> **Builds on:** A.2.1 (`U.SystemRoleAssignment` direct species), A.2.6 (`Γ_time` and windows), A.7 (EntityOfConcern, Description episteme, and carrier), A.10 (SCR/RSCR carrier discipline), A.13 (precise local agency basis), A.15.1 (`U.Work`), and F.6 (`performedUnderAssignment` attribution)
 > **Purpose (one line):** Admit communicative enactments under `U.SpeechAct`, make a named receiving use and its smallest evidence-backed repair usable before heavier occurrence detail, and provide a minimal optional `SpeechActRecord` while keeping the act, record, utterance description, and evidence carrier separate.
 
 > FPF already treats communicative acts as observable events used in system-role-assignment-state checklists and grounding (“presence of act: AuthorizationSpeechAct exists…”); those checks cite actual occurrences admitted under `U.SpeechAct`, not the kind itself.

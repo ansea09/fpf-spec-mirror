@@ -6,15 +6,16 @@ section_id: "C.32.CONWAY:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:4 — Solution"
-line_start: 64177
-line_end: 64261
+line_start: 64253
+line_end: 64338
 dependencies:
   - "A.10"
   - "A.12"
+  - "A.13"
   - "A.15.1"
   - "A.19.CPM"
   - "A.2.1"
@@ -50,7 +51,7 @@ Build the local synthesis frame first. Admit a relation kind only through the ap
 #### C.32.CONWAY:4.1 - Keep acting, influence, and correspondence facts separate
 
 1. **Name the domain action and changed referent.** Identify `changedReferentRef` independently. Add `actualTransformationRef` only when A.3.4 independently admits one bounded change of that same continuing referent; keep actor-side and Work-to-change relations under their subject patterns. Architecture influence identifies none of those facts.
-2. **Add acting and performance facts only when claimed.** Every actor or performer is one exact `U.System`. A claimed work-facing assignment requires one obtaining occurrence of a directly admitted `U.SystemRoleAssignment` species under A.2.1. Claimed performance requires one exact dated `U.Work`, the exact F.6 occurrence `performedUnderAssignment(W, RA)`, and `S = RA.HolderSystemSlot`, plus the exact actor-side or Work-to-change relation needed by the claim. Use A.15.1 `CC-A15.1-17` when several systems jointly perform the top-level Work or when the use instead needs a parent Work with separately performed child occurrences.
+2. **Add acting and performance facts only when claimed.** Every precise actual performer is one exact `U.System` recovered through A.13. Claimed performance requires one exact dated `U.Work` independently admitted through A.15.1 and the exact actor-side or Work-to-change relation needed by the claim. Add an obtaining occurrence of a directly admitted `U.SystemRoleAssignment` species under A.2.1 and F.6 `performedUnderAssignment(W, RA)` only when this frame or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; then compare `S` with `RA.HolderSystemSlot`. F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Use A.15.1 `CC-A15.1-17` when several systems jointly perform the top-level Work or when the use instead needs a parent Work with separately performed child occurrences.
 3. **Name every influence source by kind.** Architecture, selected structure, Work, communication, constraint, and candidate-synthesis results retain their kinds and direct influence relations. Influence alone supplies no system identity, system-role kind or assignment, Work, performer status, changed-referent identity, or transformation participation.
 4. **Select one architecture pair.** For an exact row, name one obtaining influence-source C.30 `ArchitectureRelation` and one obtaining transformed-side C.30 `ArchitectureRelation`, with each exact holon and selected-`U.Structure` participant. Their architecture-bearing holons may differ from every acting system. Record equality only when independent actor and architecture-bearer facts establish it. If either side is only candidate, required, desired, or expected, keep its exact `ArchitectureClaim` and the pair in the synthesis frame; do not assert an exact pair row.
 5. **Map only structures and characteristics that change the candidate.** Name the source-side selected structure, transformed-side selected structure, expected gain, known loss, evolution window, pattern for the next question, and source-return condition. For each affected characteristic, reference only the few current `C.32.ACS` criteria rows and any declared `C.25` Q-Bundle slots that make this trade-off real.
@@ -76,10 +77,11 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context <: U.Epist
   changedReferentRef: exact independently identified referent of the current change
   actualTransformationRef?: U.EntityRef constrained to U.Transformation, only when A.3.4 independently admits the bounded change of changedReferentRef
   performerRows[]?:
-    actingSystemRef: U.EntityRef constrained to U.System; for performance, this must equal actingSystemRoleAssignmentRef.HolderSystemSlot
-    actingSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment, required when an obtaining assignment is claimed and whenever performance is attributed under assignment
-    workOccurrenceRef?: U.EntityRef constrained to U.Work, required when performance is claimed
-    performedUnderAssignmentRelationRef?: U.RelationRef governed by F.6, required with workOccurrenceRef
+    actingSystemRef: U.EntityRef constrained to U.System; for performance, this is the exact actual performer recovered through performerA13CoreBasisRef
+    performerA13CoreBasisRef?: required with workOccurrenceRef; cites the exact local kind and criterion, classification, same obtaining assignment, scope, working situation, window, and adequate core evidence
+    workOccurrenceRef?: U.EntityRef constrained to U.Work, independently admitted by A.15.1 when performance is claimed
+    actingSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment, include when an obtaining assignment is separately represented and require the same A.13 assignment when attribution is represented
+    performedUnderAssignmentRelationRef?: U.RelationRef governed by F.6, include only when this row expressly represents precise assignment-bound attribution; omit otherwise; missing or failed F.6 leaves workOccurrenceRef intact
     actorSideOrWorkToChangeRelationRefs[]: U.RelationRef
   additionalInfluenceSourceRows[]?:
     influenceSourceRef:
@@ -116,7 +118,7 @@ Choose only pressures that change the candidate or protect against a concrete lo
 | Correspondence repair row | Use | Minimum repair against overread |
 |---|---|---|
 | `changedReferentRecovery` | The story names a team, line, tool, method, or organization but not what changes. | Identify the exact continuing changed referent; when actual change is asserted, identify its A.3.4 `U.Transformation`; keep actor-side and Work-to-change relations separately governed. |
-| `performerRecovery` | A source is said to build, design, repair, or operate. | Name the exact `U.System`, exact A.2.1 assignment, dated `U.Work`, F.6 `performedUnderAssignment` occurrence and holder equality, and direct actor-side or Work-to-change relations; use A.15.1 `CC-A15.1-17` when several systems perform. |
+| `performerRecovery` | A source is said to build, design, repair, or operate. | Recover each exact actual performer through A.13 and let A.15.1 independently admit the dated `U.Work`; add the exact A.2.1 assignment, F.6 `performedUnderAssignment` occurrence, and holder-equality check only when this frame or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. Add direct actor-side or Work-to-change relations separately; use A.15.1 `CC-A15.1-17` when several systems perform. |
 | `influenceSourceRecovery` | An architecture or structure is said to shape a candidate. | Name its exact kind and direct influence relation; otherwise keep it as a candidate cue. |
 | `architecturePairRecovery` | Two architectures are compared or linked. | Apply the direct relation pattern. With no kind/predicate, return `missing-governor`; with unresolved facts, keep the pair synthesis-local and name the missing grounding; with a false predicate, assert no occurrence; with a satisfied predicate, name the exact obtaining occurrence and pair. |
 | `inverseConwayRetargeting` | The desired transformed architecture is sound, but the current source-side arrangement cannot sustain it. | Change selected influence-source structures and record migration cost, new burden, and stop condition. |

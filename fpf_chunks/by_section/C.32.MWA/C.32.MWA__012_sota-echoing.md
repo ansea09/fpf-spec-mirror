@@ -6,12 +6,12 @@ section_id: "C.32.MWA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__012_sota-echoing.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:11 — SoTA-Echoing"
-line_start: 64843
-line_end: 64856
+line_start: 64922
+line_end: 64935
 dependencies:
   - "A.15.1"
   - "A.22"

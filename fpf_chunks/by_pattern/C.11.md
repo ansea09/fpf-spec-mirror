@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
-line_start: 45984
-line_end: 46701
+line_start: 46056
+line_end: 46773
 dependencies:
   - "A.10"
   - "A.13"

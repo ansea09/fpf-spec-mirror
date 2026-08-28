@@ -6,12 +6,12 @@ section_id: "C.26.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__007_bias-annotation.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:6 — Bias-Annotation"
-line_start: 54743
-line_end: 54750
+line_start: 54815
+line_end: 54822
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,7 +43,7 @@ keywords:
 
 This pattern biases authors against scalar comfort. That bias prevents "green dashboard" from replacing viability.
 
-It also biases authors toward actionable architecture work. The pattern asks which direct object a boundary, access, protocol, staffing, cache, throttle, bridge, or measurement proposal denotes and how quickly its separately governed effects can matter. It names a performer and assignment only for Work and grounds any actual transformation separately.
+It also biases authors toward actionable architecture work. The pattern asks which direct object a boundary, access, protocol, staffing, cache, throttle, bridge, or measurement proposal denotes and how quickly its separately governed effects can matter. For any precise Work claim, A.13 identifies the actual performer and A.15.1 independently admits the dated occurrence. An assignment and F.6 are added only if the account must also identify the assignment under which that Work was performed. Any actual transformation is grounded separately.
 
 The pattern may feel too broad if it is applied to every quality concern. It is not for every quality concern. Use `C.25` alone when one quality bundle or metric can be handled without envelope, disturbance, boundary condition, recovered candidate intervention, adaptation cost, or viability failure mode.
 

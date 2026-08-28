@@ -6,12 +6,12 @@ section_id: "F.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__006_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:4 — Solution"
-line_start: 92522
-line_end: 92600
+line_start: 92660
+line_end: 92738
 dependencies:
   - "A.10"
   - "A.15"
@@ -97,7 +97,7 @@ For the description episteme, name the description rather than the described kin
 
 For a coupled system-role–Method phrase, recover the local kind and Method separately before naming either one. Recover and name a MethodDescription, WorkPlan, or dated Work only when that exact object is already admitted and the naming use consumes it; a shared phrase does not require any of them to exist. `RoboticsEngineerSystemRole` may designate one admitted local kind; `RobotEngineeringMethod` names a Method or Method family. Ordinary *engineer-roboticist* may remain the Plain expression when nearby project wording makes the intended kind clear and the C.3 candidate domain, membership distinction, boundary probes, and continuity remain recoverable. The wording helps the reader; it does not identify the kind. It replaces neither a qualifying MethodDescription nor any description of planned or performed Work.
 
-When a later naming use actually consumes one dated Work identity, that Work must already be constituted before F.5 naming begins. The admitting claim must already recover the performer System, exact semantic Method, time, containing System, the assignment occurrence that covers the Work and its declared species, equality of performer and assignment holder, and the F.6 performed-under-assignment relation. Otherwise keep the activity in ordinary wording and do not mint a Work identifier merely to support a name.
+When a later naming use actually consumes one dated Work identity, that Work must already be constituted before F.5 naming begins. Recover every exact actual performer through A.13, and let A.15.1 independently admit the Work from its semantic Method, time, containing System, and other required direct facts. Add the assignment occurrence, holder equality, and F.6 relation only when the naming record or receiving use expressly represents precise assignment-bound attribution; missing or failed F.6 leaves the Work identity intact. Otherwise keep the activity in ordinary wording and do not mint a Work identifier merely to support a name.
 
 For a U-kind, the Tech designation should be neutral enough that no witness wins by vocabulary alone. If witnesses disagree between `Observation`, `Reading`, and `MeasurementResult`, a Concept-Set row preserves the comparison; the exact shared value and invariants must still pass E.24.UK admission or their direct defining rule before an author uses F.5 to choose a name.
 

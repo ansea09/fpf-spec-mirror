@@ -6,12 +6,12 @@ section_id: "F.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:4 — Solution"
-line_start: 97748
-line_end: 98156
+line_start: 97888
+line_end: 98296
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -182,7 +182,7 @@ NameCard:
   PublicRowStatus: current
   UnifiedTermRowRef: UTS.ModelUseRelation.FPFCore.2026-07-25
   LineageEntries: retains the A.1.1 relation-kind label; availability, mention, method application, performed Work, system-role assignment, and use-claim readings remain separate and are not aliases
-  RefreshCondition: reopen when A.1.1 changes the participant kinds, F.6 performed-under-assignment prerequisite, actual-use predicate, actor derivation, maximal-continuous-use identity, FPFCoreReferenceScheme, the current F.17 cell or row, or the public receiving use
+  RefreshCondition: reopen when A.1.1 changes the participant kinds, an expressly consumed F.6 performed-under-assignment attribution condition, actual-use predicate, actor derivation, maximal-continuous-use identity, FPFCoreReferenceScheme, the current F.17 cell or row, or the public receiving use
 ```
 
 ```text

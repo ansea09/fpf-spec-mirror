@@ -6,12 +6,12 @@ section_id: "C.19.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__006_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:4 — Solution"
-line_start: 49984
-line_end: 50041
+line_start: 50056
+line_end: 50113
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -41,7 +41,7 @@ Use this minimal lens before taking a branch:
 1. **Declared use:** the practical question, direct result kind, claimed guarantee, non-negotiable constraints, and horizon.
 2. **Selected or candidate direct-kind object:** the method description, model, ontology module, formal technique, or other governed object being considered.
 3. **Application MethodDescription:** this pattern's `U.MethodDescription` episteme and the admitted `U.Method` it describes. A practitioner uses its claims to guide the Work; neither the episteme nor the Method performs it.
-4. **Performer and work:** an admitted `U.System` performs dated configuration and application `U.Work` using the described Method. The complete A.15.1/F.6 assignment and attribution basis must obtain. In the short account, point to that basis and show assignment identity, species, participants, or attribution detail only when the present use relies on it, attribution is ambiguous, or source wording must be repaired.
+4. **Performer and work:** when an admitted `U.System` performs dated configuration or application `U.Work` using the described Method, recover its A.13 core and independently admit the Work under A.15.1. Add F.6 afterward only when the present use needs precise assignment-bound attribution. In a short account, expose assignment identity, species, participants, or attribution detail only when the use relies on them, attribution is ambiguous, or source wording must be repaired.
 5. **Problem-facing result:** the domain, engineering, assurance, architecture, or other subject-pattern result inspected after the work.
 
 The intended reader may also be the person-system that performs the Work, but reader position and performer relation remain different. A plan, checklist, `U.MethodDescription` episteme, described Method, option row, or publication cannot occupy the performer position.

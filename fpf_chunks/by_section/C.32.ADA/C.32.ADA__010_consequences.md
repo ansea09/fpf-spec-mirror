@@ -6,12 +6,12 @@ section_id: "C.32.ADA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__010_consequences.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:9 — Consequences"
-line_start: 65955
-line_end: 65963
+line_start: 66037
+line_end: 66045
 dependencies:
   - "A.1.1"
   - "A.10"

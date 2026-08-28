@@ -6,12 +6,12 @@ section_id: "C.33:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__003_problem.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:2 — Problem"
-line_start: 66072
-line_end: 66085
+line_start: 66154
+line_end: 66167
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

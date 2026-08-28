@@ -6,14 +6,15 @@ section_id: "A.15.4:3.2"
 section_title: "Archetypal Grounding - High-Impact Reliance-Repair Slice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__007_archetypal-grounding-high-impact-reliance-repair-slice.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.2 — Archetypal Grounding - High-Impact Reliance-Repair Slice"
-line_start: 25838
-line_end: 25933
+line_start: 25863
+line_end: 25958
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.15.5"
@@ -71,7 +72,7 @@ A.15.4 structured local note:
       SubjectPatternLocator: A.2.9
       DirectObjectKind: U.SpeechAct occurrence
       ProjectSideObjectRef: B17-GrantSpeechAct
-      RequiredPostureOrCurrentness: actual dated Work performed by an admitted system under the exact grantor assignment and recognized by the current grant policy
+      RequiredPostureOrCurrentness: actual performer identified through A.13; speech-act Work independently admitted through A.15.1; when this case must identify the grantor assignment, F.6 checks that assignment and compares its holder with the performer; recognized by the current grant policy
       DependencyOnAttemptedUse: grounds B17-InterventionGrant; the act itself is not permission
     - EntryId: B17-GRANT
       SubjectPatternLocator: A.2.8.PER

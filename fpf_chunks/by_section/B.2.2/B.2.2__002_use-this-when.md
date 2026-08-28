@@ -6,12 +6,12 @@ section_id: "B.2.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__002_use-this-when.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:0 — Use This When"
-line_start: 37796
-line_end: 37815
+line_start: 37868
+line_end: 37887
 dependencies:
   - "A.1"
   - "A.10"

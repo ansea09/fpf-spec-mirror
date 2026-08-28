@@ -6,12 +6,12 @@ section_id: "E.9.DA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__013_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:12 — Relations"
-line_start: 73407
-line_end: 73426
+line_start: 73538
+line_end: 73557
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -31,7 +31,7 @@ keywords:
 |---|---|
 | `E.9` | Defines the DRR decision method and ordinary minimum form, with optional exact work/result and C.2.1 identity when a current claim or named reliance needs them. E.9.DA checks one exact DRR; it is not a second DRR method or form. |
 | `A.19`, `A.19.ECS`, `A.17`, `A.18`, `C.16`, `C.16.Q`, `C.25` | Define or constrain the characteristic space, evaluation specification, characteristics, scales, measurement boundary, quality-ascription precision, declared-use floor, noncompensatory status meaning, and any separately selected Q-Bundle consumed here. E.9.DA supplies the DRR-specific coordinates and result rules. |
-| `A.15.1`, `F.6`, `A.6.1`, `A.2`, `A.2.1`, `C.3.2` | `A.15.1` and `F.6` define the full System-Method-Work and Work-attribution chain; `A.6.1` defines an exact application and its actual bindings; `A.2` and `A.2.1` supply the assignment species and occurrence; `C.3.2` is relevant only to an independently asserted local system-role classification. Method, application, and Work are independently conditional here. An asserted Work branch requires all of its defined facts; neither an application nor Method alone implies Work, and the E.9.DA specification and optional record perform none of them. |
+| `A.13`, `A.15.1`, `F.6`, `A.6.1`, `A.2`, `A.2.1`, `C.3.2` | `A.13` supplies every precise evaluator-performer's core and same obtaining assignment; `A.15.1` independently admits dated Work; `F.6` supplies a separate later relation only when precise assignment-bound attribution is current. `A.6.1` defines an exact application and its actual bindings; `A.2` and `A.2.1` supply the assignment species and occurrence; `C.3.2` is relevant only to an independently asserted local system-role classification. Method, application, Work, and attribution are independently conditional here. Neither an application nor Method alone implies Work, and the E.9.DA specification and optional record perform none of them. |
 | `C.2.1` | Constitutes an exact checked DRR or reusable coordinate/result/record episteme when that identity is current. An ordinary bounded review need not create those objects. |
 | `A.10`, `B.3` | Govern exact evidence use/provenance and any assurance or reliance on the result. Witness presence and a favorable value create neither relation. |
 | `F.10`, `G.11` | Govern any downstream status use/interpretation and currentness. A local E.9.DA status value does not authorize drafting by itself. |

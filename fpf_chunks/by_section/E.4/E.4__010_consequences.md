@@ -6,12 +6,12 @@ section_id: "E.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__010_consequences.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:9 — Consequences"
-line_start: 68960
-line_end: 68965
+line_start: 69044
+line_end: 69049
 dependencies:
   - "C.33"
   - "C.34"

@@ -6,16 +6,17 @@ section_id: "A.15.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__013_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:12 — Relations"
-line_start: 26547
-line_end: 26564
+line_start: 26629
+line_end: 26646
 dependencies:
   - "A.1"
   - "A.1.STM"
   - "A.12"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.PROD"
@@ -27,11 +28,14 @@ dependencies:
   - "A.6.1"
   - "A.6.P.WMR"
   - "A.6.RCD"
+  - "C.11"
+  - "C.18"
   - "C.2.1"
   - "E.17"
   - "E.18"
   - "E.18.NET"
   - "E.24.PUB"
+  - "F.6"
 keywords:
 ---
 
@@ -40,7 +44,7 @@ keywords:
 - `A.1` defines the identities of participating Systems, affected holons, and description-grounding holons.
 - `A.3.1` defines reusable `U.Method` identity and composition. Apply `A.22` to select a method-side `U.Structure`: identify its constituents, selected obtaining relations, applied constraints, selection question, permitted action, and prohibited overread. Use `MethodRelationStructure` only as a local designator after that selection.
 - Use `A.3.4` for one actual bounded change of one continuing referent. State actor-side participants only when the applicable dynamics, interaction, participation, or causal-use predicate obtains; Work-facing performer, assignment, Work, and work-to-change claims remain separate.
-- `A.15.1` supplies the admission and identity test for performed `U.Work`: performers, at least one enacted Method, extent, at least one obtaining locally declared containing-system relation, and the Work-part relations that constitute a composite; F.6 identifies the assignment under which each performer acted. Name another enacted Method, episode, continuity claim, or relation-specific aggregation only when the receiving use needs it. A short account may omit unused assignment identifiers or further valid boundaries. Project qualifications add no second Work identity or container-made parthood.
+- Apply `A.13` first to recover each actual performer's local agential kind and criterion, classification, obtaining assignment, scope, working situation, and window, with evidence adequate for those core claims; add a characteristic profile only when a Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use consumes it. `A.15.1` then independently supplies the admission and identity test for performed `U.Work`: performance history, actual performers, at least one enacted Method, extent, at least one obtaining locally declared containing-System relation, and the Work-part relations that constitute a composite. Only after admission does F.6 add any precise assignment-bound attribution through the same assignment. Name another enacted Method, episode, continuity claim, or relation-specific aggregation only when the receiving use needs it. A short account may omit unused assignment identifiers or further valid boundaries. Project qualifications add no second Work identity or container-made parthood.
 - Use `A.15.2` for intended work and `U.WorkPlan` before and during performance; a merely intended future System remains plan content rather than an actual holder.
 - Use `A.2` to identify and classify local system-role kinds from their feature criteria. When assignment identity matters, `A.2.1` adds an assignment occurrence and its declared `U.SystemRoleAssignment` species. The species defines participant meanings and the predicate; the occurrence supplies the participants and extent for the case. Neither classification nor assignment grounds project designation.
 - Use `A.15.PROD` only for the selected production-work, entity-identity-inception, or production-completion question; it supplies no universal project-result relation.

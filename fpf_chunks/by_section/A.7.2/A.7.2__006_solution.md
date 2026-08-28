@@ -6,12 +6,12 @@ section_id: "A.7.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__006_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:4 — Solution"
-line_start: 21976
-line_end: 22078
+line_start: 21987
+line_end: 22089
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -116,7 +116,7 @@ OccurrenceIdentity:
    sourceUseScope,
    maximalContinuousUseInterval>
 ```
-The source participant is the source episteme and edition consumed. The receiving participant is the ontology-claim episteme and edition being formulated, constrained, tested, interpreted, compared, or traced. The Work participant is the dated ontology-decision `U.Work`, performed by an admitted `U.System`. If the actual case relies on an assignment, recover one obtaining assignment occurrence whose species is separately declared under `U.SystemRoleAssignment`. An obtaining F.6 attribution, not the assignment's existence or interval alone, connects that Work to the assignment; the assignment holder must be the same System. The assignment neither supplies the System nor performs the Work.
+The source participant is the source episteme and edition consumed. The receiving participant is the ontology-claim episteme and edition being formulated, constrained, tested, interpreted, compared, or traced. For the Work participant, use A.13 to identify the actual performer and A.15.1 to admit the dated ontology-decision `U.Work` independently. If the case must also identify the assignment under which that Work was performed, F.6 checks the assignment used by A.13 and compares its holder with the already identified performer. The assignment neither supplies the System nor performs the Work, and an unused assignment check need not obtain.
 
 The minimal occurrence needs only those three exact participants, `useFunction`, `sourceUseScope`, and the derived maximal continuous interval during which the named work actually consumes content from that source episteme for that receiving claim. Citation, access, bibliography membership, prestige, publication status, or co-location alone is insufficient. If the work consumes only a separately identified claim or content episteme inside the source, `sourceContentSliceRef` names that slice; it does not duplicate the source participant under a bundle alias. Changing a source or receiving-claim edition, work occurrence, function, scope, or demonstrated actual-use interval identifies another occurrence. A changed optional qualifier identifies another occurrence only when it changes the content or direct use predicate; a later review record alone does not.
 

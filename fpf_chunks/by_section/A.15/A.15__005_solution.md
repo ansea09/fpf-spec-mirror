@@ -6,14 +6,15 @@ section_id: "A.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:4 — Solution"
-line_start: 24021
-line_end: 24120
+line_start: 24035
+line_end: 24134
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.3"
@@ -43,14 +44,18 @@ dependencies:
   - "F.6"
   - "U.SystemRoleAssignment"
 keywords:
+  - "A.13 core"
   - "Method"
   - "MethodDescription"
   - "WorkPlan"
-  - "assignment"
-  - "attribution"
+  - "conditional agency profile"
   - "dated Work"
+  - "independent A.15.1 Work admission"
+  - "performedUnderAssignment"
   - "readiness"
   - "result boundary"
+  - "same obtaining assignment"
+  - "separate later F.6 attribution"
   - "system-role kind"
 ---
 
@@ -90,7 +95,7 @@ graph TD
         Fit["capability-fit condition"] -- "tests" --> Cap
     end
 
-    W["W : U.Work"] -- "performedUnderAssignment<br/>actual performer = H" --> RA
+    W["W : U.Work"] -- "performedUnderAssignment<br/>holder equality check: RA.Holder = H" --> RA
     W -- "enactsMethod" --> M
     style K fill:#fff2cc,stroke:#d6b656,stroke-width:2px
     style Cap fill:#d5e8d4,stroke:#82b366,stroke-width:2px
@@ -107,11 +112,11 @@ The diagram shows a simple direct assignment species. A stronger appointment can
 * **Capability fit.** A MethodDescription, WorkPlan, or work-admission assertion may require a holder capability threshold. The fit condition tests the holder's `U.Capability` instance and may cite declared measures, `U.Characteristic` values, Q-Bundle slots, or architecture-characteristic criteria. It is neither an assignment participant nor a second capability kind.
 * **MethodDescription membership.** `D` is a `U.MethodDescription` only when A.3.2 recovers Method `M` as its exact EntityOfConcern and at least one substantive way-of-doing claim. “D describes M” is shorthand for that constitution and membership result, not another binary relation.
 * **`enactsMethod(W : U.Work, M : U.Method)`.** This relation states which exact Method the dated Work enacts. A.15.1 defines its participant order, predicate, occurrence identity, and multiplicity. It neither attributes a performer nor turns a description into the Method.
-* **`performedUnderAssignment(W : U.Work, RA : U.SystemRoleAssignment)`.** F.6 defines this relation. `RA` must be an occurrence of a declared assignment species; it must cover the Work interval while the species predicate obtains, and the performer is `RA.HolderSystemSlot`. The assignment is the attribution ground, not the actor. A record may state the relation without constituting it. Read an existing `performedBy(W, RA)` claim only through the F.6 compatibility boundary after resolving the holder System; do not author new claims with that spelling.
+* **`performedUnderAssignment(W : U.Work, RA : U.SystemRoleAssignment)`.** F.6 defines this relation. For a precise actual performer, `RA` is the same obtaining assignment used by A.13 for the exact action, scope, working situation, and window. It must be an occurrence of a declared assignment species, have the A.13-qualified System as holder, and cover the Work while the species predicate obtains. The assignment is the attribution ground, not the actor. A record may state the relation without constituting it. Read an existing `performedBy(W, RA)` claim only through the F.6 compatibility boundary after resolving the holder System; do not author new claims with that spelling.
 
 One assignment occurrence continues through the maximal uninterrupted interval in which its direct species predicate obtains for fixed participants. A declared interval, taxonomy, scheme, KindSignature, assertion, evidence item, or selected model-use structure can describe or interpret the claim but does not create the occurrence or become a generic participant.
 
-For a performed occurrence, trace `W` to `RA` through `performedUnderAssignment`, project the actual performer system from `RA.HolderSystemSlot`, and trace `W` to `M` through `enactsMethod`. Cite a MethodDescription, plan, capability claim, evidence item, taxonomy, or scheme separately only when the receiving use relies on it. The holder system acts; the kind, assignment, capability, Method, description, plan, evidence, and record do not.
+For a precise performed occurrence, first recover the A.13 core for the exact actual performer System and action, then admit `W : U.Work` under A.15.1 from its independent occurrence, Method, extent, and containment facts. Only afterward trace `W` to the same `RA` through F.6 `performedUnderAssignment` when the receiving use needs precise assignment-bound attribution, and compare `RA.HolderSystemSlot` with the already recovered performer; F.6 identifies neither. Trace `W` to `M` separately through `enactsMethod`. Cite a characteristic profile only when conditionally consumed; cite a MethodDescription, plan, capability claim, evidence item, taxonomy, or scheme separately only when the receiving use relies on it. The performer System acts; the kind, assignment, capability, Method, description, plan, evidence, and record do not.
 
 #### A.15:4.3 - Bounded specialization scouting and `CheckpointReturn`
 

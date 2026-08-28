@@ -6,12 +6,12 @@ section_id: "B.2.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__014_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:11 — Relations"
-line_start: 38213
-line_end: 38220
+line_start: 38285
+line_end: 38292
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.6.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__006_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:5 — Archetypal Grounding"
-line_start: 16273
-line_end: 16328
+line_start: 16284
+line_end: 16339
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -86,7 +86,7 @@ Add an occurrence designator only if the next decision must distinguish two conf
 
 #### A.6.P:5.4 - Method, Work, system-role objects, and agency
 
-The sentence `the inspection method checks Pump_P` uses active grammar. The repaired ontology says: admitted `System_S` is classified under local kind `InspectorSystemRole`. `MaintenanceInspectionAssignment` is a declared `U.SystemRoleAssignment` species. It declares two participant positions, holder and assigned kind, and limits the assigned kind to `InspectorSystemRole`. Occurrence `InspectionAssignment-17` has `System_S` as holder. `F.6` states that `System_S` performed `InspectionWork_W` under that assignment; `InspectionWork_W` enacts `InspectionMethod_M`; and the examination relation connects the Work to `Pump_P`. Taxonomy episteme and reference scheme may interpret the assertion but are not assignment participants. Each object keeps the identity and relations of its pattern. Only the holder System acts; the local kind and assignment do not.
+The sentence `the inspection method checks Pump_P` uses active grammar. The repaired ontology first says that admitted `System_S` has the A.13 core for inspection: it is independently classified under local kind `InspectorSystemRole` and holds obtaining `InspectionAssignment-17` of declared `MaintenanceInspectionAssignment` species for the stated scope and window. A.15.1 then independently admits `InspectionWork_W` and its `enactsMethod(InspectionWork_W, InspectionMethod_M)` relation; the examination relation separately connects the Work to `Pump_P`. Because this worked account expressly states under which assignment the inspection was performed, F.6 then establishes `performedUnderAssignment(InspectionWork_W, InspectionAssignment-17)` and checks the already recovered performer against the holder. If that F.6 relation were unsupported, the Work would remain and only its assignment-bound attribution would be unresolved. Taxonomy episteme and reference scheme may interpret the assertion but are not assignment participants. Only the holder System acts; the local kind and assignment do not.
 
 #### A.6.P:5.5 - Formal reduced case
 

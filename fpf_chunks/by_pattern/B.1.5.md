@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
-line_start: 36564
-line_end: 36984
+line_start: 36636
+line_end: 37056
 dependencies:
   - "A.1"
   - "A.15"
@@ -293,7 +293,7 @@ These prompts organize presentation; they are not direct-relation `SlotSpec`s, r
 
 B.1.5 evaluates and grounds the composite-method qualification of an exact `U.Method` already identified under A.3.1. A separately constituted `U.MethodDescription` may state that composition claim. Neither object creates performed Work.
 
-One dated `U.Work` occurrence enacts one exact `U.Method` only when the A.15.1 method-enactment relation obtains. A.15.1 identifies its performers, time, and containing System; F.6 identifies the assignment under which each System performed it. The System acts and the assignment does not. A short Method-enactment explanation may omit an assignment identifier that no later claim uses. An assertion or occurrence description may cite those facts and the MethodDescription used; the Work occurrence does not store a card or record.
+One dated `U.Work` occurrence enacts one exact `U.Method` only when the A.15.1 method-enactment relation obtains. Recover each exact actual performer through A.13; A.15.1 then independently identifies the Work, time, containing System, and enacted Method. F.6 enters only when the Method-enactment account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work and enactment intact. The System acts and the assignment does not. An assertion or occurrence description may cite those facts and the MethodDescription used; the Work occurrence does not store a card or record.
 
 Parameter bindings, affected referents, resource use, telemetry, retries, results, actual transformations, production, evidence, evaluation, delivery, and acceptance remain separate objects and direct relations under their own governors. They do not become method parts, method identity fields, or generic Work outcomes merely because a report places them beside the Work.
 
@@ -301,7 +301,7 @@ The composition link is not one-to-one. A Work occurrence may enact the whole me
 
 **Reader check.** Before saying that a work part enacts a submethod, name both sides:
 
-- the occurrence-side object: parent `U.Work`, obtaining work-part relation, interval or boundary, performer system, covering assignment, and any separately obtaining resource or evidence relation;
+- the occurrence-side object: parent `U.Work`, obtaining work-part relation, interval or boundary, and exact performer System recovered through A.13; only when this reader check expressly consumes precise assignment-bound attribution, also name the exact covering A.2.1 assignment and obtaining F.6 relation; add any separately obtaining resource or evidence relation only when used;
 - the method-side object: exact A.3.1 submethod, `methodPartOf` occurrence, whole-forming claim at its A.6.RCD disposition, preconditions, intended result or preserved condition, interface boundary, and whole-Method identity;
 - the cross-side fact: the exact `enactsMethod(workPart, submethod)` occurrence.
 
@@ -312,7 +312,7 @@ If any side is missing, lower only that side. Do not repair a missing submethod 
 B.1.5 has three common use positions, but they are positions in use, not U-kinds:
 
 - **Planning or description-side use.** A planner system performing planning Work recovers the exact Methods, `methodPartOf` occurrences, whole-forming claims at their A.6.RCD dispositions, any justified order aggregation, typed joins or adapters, interface boundary, invariants, and whole-level commitments. A resulting exact `U.WorkPlan` may cite the MethodDescription edition on which it relies; neither the planning Work nor the plan is the reader that defines Method identity.
-- **Performed-work use.** Recover the exact `enactsMethod` occurrence for the whole Work. Check the performer system and covering assignment, plus capability fit or admission only when the work-entry decision consumes those claims; then check preconditions, order conformance, and exposed or forwarded interactions through their subject patterns. State resource use, evidence, and results only through their own obtaining relations. None becomes part of the method.
+- **Performed-work use.** Recover each exact actual performer through A.13, let A.15.1 independently admit the Work, and recover the exact `enactsMethod` occurrence for the whole Work. Add the exact covering A.2.1 assignment and F.6 relation only when this use expressly consumes precise assignment-bound attribution; missing or failed F.6 leaves the Work and enactment intact. Check capability fit or admission only when the work-entry decision consumes those claims; then check preconditions, order conformance, and exposed or forwarded interactions through their subject patterns. State resource use, evidence, and results only through their own obtaining relations. None becomes part of the method.
 - **Assurance use.** Identify cutset submethods, fragile typed joins, adapter points, mapping congruence or CL-sensitive edges, and the envelope or scope in which the composite method is expected to hold. B.3 and related assurance patterns evaluate those hooks; B.1.5 only makes them visible.
 
 Useful invariants remain: a single recovered submethod composed alone does not create a surprising new Method; order is deterministic only under the exact order claims and conditions at their selected A.6.RCD dispositions; any throughput or quality bound must name its characteristic, critical path, and weakest-link basis; strengthening a submethod, adapter, or typed join should not make the composite Method worse unless a stated side condition changes.
@@ -356,7 +356,7 @@ The composite qualification additionally requires the candidate's generic partic
 
 This review is deliberately hypothetical and non-load-bearing. It compares the four Methods and the two claims but does not assert a persisted `U.Structure` or a selection judgment. If a later receiving use needs an A.22-selected structure, its selection must identify the exact selecting system, selection Method, dated selection Work and bindings, and—where the result must persist—the result episteme. The structure itself is then identified by all four A.22 discriminators: exact constituents, exact independently admitted obtaining relation occurrences, applied constraints, and use frame. The present local claims cannot be relabelled as such occurrences merely to fill that list.
 
-The comparison still discriminates the non-composite case. No reusable whole action, complete precondition-to-result boundary, response to every guard conflict, or whole reidentification rule has been established. A wall poster may be a carrier bearing a publication form; an exact `U.MethodDescription` edition is a different claim-bearing episteme, and an actual publication occurrence is what makes that edition available to an audience. For a System performing intake Work, separately check the actual assignment occurrence under which it acted, that occurrence's declared `U.SystemRoleAssignment` species, the obtaining F.6 attribution, and any capability or admission claim consumed by the Work-entry decision. None of these facts is a Method part.
+The comparison still discriminates the non-composite case. No reusable whole action, complete precondition-to-result boundary, response to every guard conflict, or whole reidentification rule has been established. A wall poster may be a carrier bearing a publication form; an exact `U.MethodDescription` edition is a different claim-bearing episteme, and an actual publication occurrence is what makes that edition available to an audience. For intake Work, recover each actual performer through A.13 and admit the Work independently through A.15.1. Only if this comparison also consumes which assignment covered that Work should it separately check the A.2.1 occurrence and obtaining F.6 attribution; capability or admission claims consumed by entry remain separate. None of these facts is a Method part.
 
 If a later hospital protocol first identifies an exact A.3.1 Method such as `EmergencyIntakeMethod-v4` with the missing whole semantics, B.1.5 can test its composite-method qualification. Neither a poster, the one-off comparison, nor a later selected structure turns into that Method.
 

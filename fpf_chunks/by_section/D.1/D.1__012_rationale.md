@@ -6,12 +6,12 @@ section_id: "D.1:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__012_rationale.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:8 — Rationale"
-line_start: 67319
-line_end: 67324
+line_start: 67403
+line_end: 67408
 dependencies:
   - "A.1"
   - "A.1.CSD"

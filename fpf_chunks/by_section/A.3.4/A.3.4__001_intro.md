@@ -6,12 +6,12 @@ section_id: "A.3.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__001_intro.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:intro — Intro"
-line_start: 9233
-line_end: 9238
+line_start: 9246
+line_end: 9251
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__001_intro.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:intro — Intro"
-line_start: 48554
-line_end: 48561
+line_start: 48626
+line_end: 48633
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -23,6 +23,7 @@ dependencies:
   - "A.18"
   - "A.19"
   - "A.19.ECS"
+  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
   - "A.6.1"
@@ -60,5 +61,5 @@ keywords:
 
 **Depends on.** `A.17`, `A.18`, and `A.19` for Characteristics, Scales, and CharacteristicSpaces; `A.19.ECS` for the evaluation-space specification; `C.16` for measurement; `C.2.1` and `A.1.1` for claim-bearing results and models; `A.10` and `B.3` for evidence, reliance, and assurance; and the patterns that define the current objective, acceptance criterion, and must-constraints.
 
-**Coordinates with.** `E.10.LRN` when *learning progress* or related wording still hides the bearer or result; `C.18` for generation, Archive, Front, and possibility-space change; `C.19` for pool policy and tie-break use; `G.5` for selector-facing declarations; `C.11.CRC` for a missing finite configuration-relative comparison; `C.11` for choice; `F.9` for an actual cross-reference-scheme Bridge; `F.18` for naming-candidate diversity; `B.4` and `G.11` for evolution and refresh; `A.15.1`, `F.6`, and `A.3.1` for dated overall-assessment Work; `A.3.2` when a relied-on MethodDescription matters; and `A.6.1` only when the assessment also uses one exact operation declared by a separately admitted `U.Mechanism` and a claim needs that operation's application or bindings.
+**Coordinates with.** `E.10.LRN` when *learning progress* or related wording still hides the bearer or result; `C.18` for generation, Archive, Front, and possibility-space change; `C.19` for pool policy and tie-break use; `G.5` for selector-facing declarations; `C.11.CRC` for a missing finite configuration-relative comparison; `C.11` for choice; `F.9` for an actual cross-reference-scheme Bridge; `F.18` for naming-candidate diversity; `B.4` and `G.11` for evolution and refresh; `A.13` and `A.15.1` for exact evaluator recovery and independently admitted dated overall-assessment Work; `A.2.1` and `F.6` only when exact assignment-bound attribution is expressly consumed; `A.3.1` for the enacted Method; `A.3.2` when a relied-on MethodDescription matters; and `A.6.1` only when the assessment also uses one exact operation declared by a separately admitted `U.Mechanism` and a claim needs that operation's application or bindings.
 

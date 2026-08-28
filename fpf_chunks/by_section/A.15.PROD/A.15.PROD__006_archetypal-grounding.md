@@ -6,12 +6,12 @@ section_id: "A.15.PROD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__006_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:5 — Archetypal Grounding"
-line_start: 27264
-line_end: 27450
+line_start: 27346
+line_end: 27522
 dependencies:
   - "A.1"
   - "A.15.1"
@@ -38,7 +38,7 @@ keywords:
 
 **Assignment occurrence rule.** The species applies to Car-42 fastening Work and says that its holder supplies the fastening contribution as `Car42FasteningPerformerSystemRole` throughout the declared interval. Holder, assigned-kind value, and that uninterrupted interval identify one occurrence.
 
-**Work and Method basis.** Obtaining occurrence `Car42FasteningAssignment-42` fixes `FasteningCell-7 : U.System` and `Car42FasteningPerformerSystemRole` and covers the whole Work interval. F.6 says that `NutFasteningWork-42` was performed under that occurrence, and the Work enacts the exact fastening Method.
+**Work and Method basis.** A.13 first recovers `FasteningCell-7 : U.System` as the exact actual performer through obtaining `Car42FasteningAssignment-42`, whose declared assigned-kind value is `Car42FasteningPerformerSystemRole` and whose interval covers the whole Work. A.15.1 independently admits `NutFasteningWork-42` with its exact enacted fastening Method. Because this filled branch expressly represents precise assignment-bound attribution, F.6 afterward relates the already admitted Work through that same assignment; F.6 identifies neither assignment nor performer.
 
 **Actual-change basis.** A.3.4 separately identifies `Car42FastenerAttachmentTransformation`. It concerns the same continuing car and does not bring Car 42 into existence.
 
@@ -52,7 +52,7 @@ keywords:
 
 **Cold-practitioner replay.** Ask only whether `NutFasteningWork-42` completed the narrowly bounded fastening:
 
-- the exact assignment and F.6 relation ground the performer side;
+- A.13 grounds the exact actual performer and same obtaining assignment, A.15.1 independently admits the Work, and—because this replay expressly represents assignment-bound attribution—the later F.6 relation grounds only that attribution;
 - the Work-to-change predicate connects the Work to the attachment change;
 - the car satisfies the finishing criterion; and
 - the separate closure rule makes that satisfaction sufficient to close the Work.
@@ -81,7 +81,7 @@ These case-local semantics introduce no universal production or completion relat
 
 **Continuing edition — assignment predicate.** The predicate applies to ship-identity revision Work in `Yard-27` under `ShipIdentityRuleRevisionMethod`. It obtains when the holder supplies that revision contribution throughout the declared interval. Holder, assigned-kind value, `Yard-27`, and that uninterrupted interval identify one occurrence.
 
-**Continuing edition — Work and Method.** Obtaining occurrence `ShipIdentityRuleReviserAssignment-2R` fixes holder `YardIdentityGovernanceSystem` and assigned-kind value `ShipIdentityRuleReviserSystemRole` from that domain. It covers the full extent of `ShipIdentityRuleRevisionWork-2R`; F.6 says that the Work was performed under it, and the Work enacts that Method.
+**Continuing edition — Work and Method.** A.13 first recovers `YardIdentityGovernanceSystem` as the exact actual performer through obtaining `ShipIdentityRuleReviserAssignment-2R`, whose assigned-kind value is `ShipIdentityRuleReviserSystemRole` and whose interval covers the full Work. A.15.1 independently admits `ShipIdentityRuleRevisionWork-2R` with the enacted revision Method. Because this continuing-edition branch expressly represents precise assignment-bound attribution, F.6 afterward relates the Work through that same assignment; F.6 identifies neither assignment nor performer.
 
 **Source expression and predicate.** C.2.P recovers the source expression *hull assembly closes Ship 27 identity* in `SHIP-ID-2`. Predicate-definition episteme `YardRevisionSourceUsePredicates-v1` declares case-local predicate `usesAsRevisionSource(work, sourceEpisteme)` with participant order `<revision Work, source episteme>`.
 
@@ -158,23 +158,13 @@ If only the closure rule is missing, the state-satisfaction claim remains and on
 
 **Actual transformation.** A spontaneous reaction or biological growth process may be independently grounded as one or more actual transformations under A.3.4. The transformed biological, chemical, or physical referent may itself be a `U.System`; that fact neither makes it the performer nor supplies production work.
 
-**Performer-side requirement.** A.15.PROD opens a production-through-Work claim only when all of the following are grounded:
+**Performer-side requirement.** A.15.PROD opens a production-through-Work claim only when A.13 has recovered every exact actual performer and A.15.1 has independently admitted one dated Work occurrence with an applicable enacted Method. Add the same obtaining A.13 assignment and F.6 only when the production claim or its receiving use expressly consumes precise assignment-bound attribution; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact.
 
-- an exact performing System holds the performer position in an obtaining occurrence of an exact directly declared `U.SystemRoleAssignment` species;
-- the Work has the F.6 attribution; and
-- one dated Work occurrence admitted under `U.Work` enacts an applicable Method.
+When the independent A.13/A.15.1 basis is absent, retain the transformed referent and transformations. Evaluate entity identity only with the biological practice's named identity predicate; if no such predicate is available, return the exact identity-governor blocker. `Batch B17`, a sample label, first observation, assignment, or process record supplies none of the performer-side basis, Work identity, or production claim.
 
-When that basis is absent, retain the transformed referent and transformations. Evaluate entity identity only with the biological practice's named identity predicate; if no such predicate is available, return the exact identity-governor blocker. `Batch B17`, a sample label, first observation, or process record supplies none of the performer-side basis, work identity, or production attribution.
+**Fixture result.** This case stipulates no exact A.13 actual performer basis and no independently admitted production Work. The production-through-Work branch therefore remains blocked; the absence of an assignment or F.6 relation is not itself a Work-membership failure.
 
-**Fixture result.** This case stipulates no exact biological production assignment species or obtaining occurrence. The production-through-Work branch therefore remains blocked.
-
-The branch may open only when the subject practice supplies all of the following:
-
-- a directly declared species with participant meanings, assigned system-role-kind domain and value, predicate, and applicability;
-- an exact obtaining occurrence with the performer System as holder and a covering interval;
-- F.6 attribution; and
-- actual Method enactment.
-
+The branch may open only when the subject practice supplies every actual performer's A.13 core, including its exact local kind and criterion, classification, same obtaining assignment, scope, situation, window, and evidence; and A.15.1 independently admits the dated Work with actual Method enactment, temporal extent, and containing-system relation. Add the assignment and F.6 relation to the published production account only when precise assignment-bound attribution is expressly consumed.
 Entity inception and completion then still need their own exact identity, state-satisfaction, and Work-closure governors. Do not turn observed growth into the missing performer-side basis.
 
 #### A.15.PROD:5.8 - Scrum Increment before review or release
@@ -193,7 +183,7 @@ BuildOps asks one question: **when did exact `ReleaseBinary_12` first exist?** V
 
 | Needed fact | Exact case fact |
 | --- | --- |
-| Work, performer, and method | A.15.1:6.7.1 supplies the complete A.15.1/F.6 basis for `ReleaseBinary12_BuildWork_2026-07-21T0900_0912 : U.Work`: `BuildRunner_A : U.System`, the exact direct assignment species and its obtaining occurrence `BuildRunnerAssignment_2026-07-21`, F.6 attribution, enacted method `ReproducibleBuild@BuildOps-v12`, interval 09:00–09:12, and the obtaining `BuildWorkOccursWithinServiceBoundary` relation to `BuildService_A`. The enacted method states the intended effect of producing an immutable binary. Method-applicability claim `ReproducibleBuildApplies-12` applies that method to exact build input and configuration `BuildInputSet_12`. |
+| Work, performer, and method | A.15.1:6.7.1 first reuses `BuildRunner_A : U.System`'s A.13 core for this action, including the exact direct assignment species and obtaining occurrence `BuildRunnerAssignment_2026-07-21`; A.15.1 then independently admits `ReleaseBinary12_BuildWork_2026-07-21T0900_0912 : U.Work` from its performance history, enacted method `ReproducibleBuild@BuildOps-v12`, interval 09:00–09:12, and the obtaining `BuildWorkOccursWithinServiceBoundary` relation to `BuildService_A`. Because this row also attributes the Work under that assignment, F.6 afterward establishes the exact relation. The enacted method states the intended effect of producing an immutable binary. Method-applicability claim `ReproducibleBuildApplies-12` applies that method to exact build input and configuration `BuildInputSet_12`. |
 | Application and candidate basis | After the produced entity exists, A.6.1 application `BuildApplication_12` has result binding `builtBinary -> ReleaseBinary_12`; that binding designates the returned entity but establishes neither its inception nor its boundary. The same identified application is an application of declared operation `storeWrite@BuildOps-v12` and has argument binding `storeTarget -> ArtifactStorePartition_12`; A.15.1:6.7.1 uses this application and binding in the obtaining test for the named Work-to-transformation predicate below. Before inception, `BuildOutputBasis_12` designates the candidate bytes, manifest, digest, and their positions in that partition, not a surrogate future binary. |
 | Actual transformation | A.3.4 independently identifies the one transformation consumed here: `ArtifactStorePopulationTransformation_12 : U.Transformation`, the change of `ArtifactStorePartition_12` from no complete candidate tuple at 09:00 to the written bytes, manifest, and digest at 09:11, after which that tuple remains fixed through build completion at 09:12. |
 | Work to change | A.15.1:6.7.1's BuildOps relation specification declares `BuildWorkPopulatedStore@BuildOps-v12(work, transformation)` with participant order `<work, transformation>`. Its stated test and the stipulated Work, application, target-binding, and transformation facts make `BuildWorkPopulatedStore@BuildOps-v12(ReleaseBinary12_BuildWork_2026-07-21T0900_0912, ArtifactStorePopulationTransformation_12)` obtain. Shared timing or the result binding alone would not establish this predicate. |

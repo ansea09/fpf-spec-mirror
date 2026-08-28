@@ -6,12 +6,12 @@ section_id: "G.5:0.3"
 section_title: "First-minute questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__005_first-minute-questions.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:0.3 — First-minute questions"
-line_start: 101445
-line_end: 101464
+line_start: 101607
+line_end: 101626
 dependencies:
   - "C.11"
   - "C.18"
@@ -64,7 +64,7 @@ keywords:
 - Which exact A.3.1 `MethodRef` values does every method-family row resolve to?
 - What independently governed classification, membership relation, or local grouping criterion justifies placing those Methods in that row for this selector use?
 - Is the current organization only a composition template, one B.1.5-qualified composite Method, or an independently selected A.22 Structure with all four identity discriminators?
-- Is this only selector declaration or result content, or is an actual selection claimed with an acting system, dated Work, actual `Select` application and bindings, and separately governed result and publication objects?
+- Is this only selector declaration or result content, or is an actual selection claimed with each precise performer's A.13 core, independently admitted dated Work, actual `Select` application and bindings, conditional exact F.6 attribution when consumed, and separately governed result and publication objects?
 - Does any consumed Method, claim, or selector criterion use expressions with distinct F.17 source-local meanings? If so, which cells are related, where does the F.9 Bridge obtain, what use, direction, correspondence, target, and polarity does the separate crossing claim state, and where is the matching A.10 or B.3 reliance result?
 - Which stronger branch is actually current—a new reusable registry row, crossing, evidence/reliance, assurance, stable public identity, or actual publication—and which can remain unopened?
 

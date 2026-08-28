@@ -6,18 +6,20 @@ section_id: "G.4:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__012_sota-echoing.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:11 — SoTA-Echoing"
-line_start: 101365
-line_end: 101380
+line_start: 101527
+line_end: 101542
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.18"
   - "A.19"
   - "A.2.1"
+  - "A.2.6"
   - "A.21"
   - "A.6.1"
   - "B.3"
@@ -44,6 +46,7 @@ dependencies:
   - "G.8"
   - "G.9"
   - "G.Core"
+  - "U.ClaimScope"
 keywords:
   - "CAL Pack@CG-Frame"
   - "Context charter"
@@ -67,5 +70,5 @@ Distributionally robust and broad multi-objective families are discovery leads, 
 
 #### G.4:11.1 - Maintainer-facing architecture and publication inventory
 
-G.4 is a design-time authoring pattern. It publishes a notation-independent `CAL Pack@CG-Frame` with charter, stable operator/clause/flow ids, evidence/currentness refs, proof-or-gap records, worked examples/tests, continuity notes, and a minimal `TaskMap`. It uses G.Core/G.0/G.1–G.3 for Part-G, Context, SoTA, CHR, and legality disciplines; A.6.1/A.15.1/C.2.1 for the declaration/runtime/result-episteme split; and A.10/G.11/B.3/C.11 for provenance, currentness, assurance, and decisions. G.6 is used only when `G.4:Ext.EvidenceGraphWiring` is present. Method-specific semantics remain in the applicable extension pattern. The detailed manifests, schemas, and interfaces above are maintainer-facing citation surfaces for this one practitioner path, not a second workflow.
+G.4 is a design-time authoring pattern. It publishes a notation-independent `CAL Pack@CG-Frame` with a charter for the exact CG frame, EntityOfConcern, ReferencePlane, specification editions, and assumption envelope; stable operator, clause, and flow ids; evidence and currentness refs; proof-or-gap records; worked examples and tests; continuity notes; and a minimal `TaskMap`. It uses G.Core, G.0, and G.1–G.3 for Part-G, CG-frame, SoTA, CHR, and legality disciplines; A.6.1 for declarations and actual bindings; A.13 and A.15.1 for precise performers and independently admitted runtime Work; F.6 only for a current assignment-bound attribution through the same obtaining assignment; C.2.1 for result epistemes; and A.10, G.11, B.3, and C.11 for provenance, currentness, assurance, and decisions. G.6 is used only when `G.4:Ext.EvidenceGraphWiring` is present. Method-specific semantics remain in the applicable extension pattern. The detailed manifests, schemas, and interfaces above are maintainer-facing citation surfaces for this one practitioner path, not a second workflow.
 

@@ -6,14 +6,15 @@ section_id: "A.2.9:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 7623
-line_end: 7640
+line_start: 7636
+line_end: 7653
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -26,17 +27,20 @@ dependencies:
   - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
-  - "actual communicative occurrence"
-  - "admitted speech-act Work kind"
-  - "authority-grounding assignment"
+  - "A.13-qualified actual performer"
+  - "containment"
+  - "enacted Method"
   - "evidence carrier"
+  - "independently admitted speech-act Work"
   - "institutional target and effect"
   - "named receiving use"
   - "optional SpeechActRecord"
-  - "performing U.System"
   - "publication relation"
   - "response versus achievement"
+  - "same obtaining assignment"
+  - "separate later performedUnderAssignment"
   - "smallest repair or stop"
+  - "time"
   - "utterance description"
 ---
 
@@ -44,10 +48,10 @@ keywords:
 
 | Anti-pattern                                                              | Why it fails                         | Repair                                                                                   |
 | ------------------------------------------------------------------------- | ------------------------------------ | ---------------------------------------------------------------------------------------- |
-| **Episteme- or assignment-as-actor** (“the specification or assignment approves”) | assigns agency to a description or relation | represent the act with `performedBy` naming the admitted system and `performedUnderSystemRoleAssignmentRef` naming its exact covering assignment; establish any required authority relation independently |
+| **Episteme- or assignment-as-actor** (“the specification or assignment approves”) | assigns agency to a description or relation | first admit the actual act through the independent A.13/A.15.1 route; then, only for a precise assignment-bound claim, use `actualPerformerSystemRef` for the A.13-qualified holder System and `performedUnderAssignmentRef` for the separately established F.6 relation; establish any required authority relation independently |
 | **Kind/occurrence/record collapse** (`U.SpeechAct` used for all three)     | a complete record is mistaken for actual Work | reserve `U.SpeechAct` for the kind, identify `SA : U.SpeechAct` as the occurrence, and use `SpeechActRecord` only for claims about it |
 | **Carrier-as-act** (“the signed PDF is the approval”)                     | conflates carrier with act           | identify the actual speech-act occurrence; let its separate `SpeechActRecord` cite the PDF carrier and any utterance-description episteme |
-| **Placeholder method as Work anchor**                                     | a fabricated description hides an unknown world-side relation | leave `enactsMethodRef` unresolved with source-gap provenance and `observationOnly`; recover the actual method relation before reliance |
+| **Placeholder method as Work anchor**                                     | a fabricated description hides an unknown world-side relation | keep the unresolved claim and source-gap provenance in a separate candidate observation stub; do not call it a `SpeechActRecord` or use it for reliance; recover the actual Method relation before A.15.1 admission and creation of the complete record |
 | **`affected` as aboutness, target, and effect**                            | one field makes mention look like world-side change | state the utterance subject and intended institutional target separately; cite an exact obtaining change/effect relation only when one exists |
 | **Status claim listed as instituted effect**                              | a claim ID is mistaken for the status it describes | cite the exact status or publication relation occurrence; keep the C.2.1 claim and A.10 evidence separate |
 | **Free-text type** (“type=‘approved-ish’”)                                | not lintable; drifts across schemes  | define `SpeechActTypeRef` in the exact recognition-taxonomy episteme and interpret it under the effective reference scheme |

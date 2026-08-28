@@ -6,23 +6,22 @@ section_id: "A.15.1:12"
 section_title: "Existing work-log repair applications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__014_existing-work-log-repair-applications.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:12 — Existing work-log repair applications"
-line_start: 24829
-line_end: 24840
+line_start: 24856
+line_end: 24867
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.4"
   - "A.15.5"
   - "A.15.PROD"
   - "A.2"
   - "A.2.1"
-  - "A.2.2"
   - "A.2.6"
   - "A.3.1"
   - "A.3.2"
@@ -35,25 +34,22 @@ dependencies:
   - "C.27.TA"
   - "C.32.P2S"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "F.6"
-  - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
   - "U.ReferenceScheme"
-  - "U.System"
-  - "U.SystemRoleAssignment"
-  - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "actual performer U.System"
-  - "admitted U.Work kind"
+  - "A.13-qualified actual performer U.System"
+  - "F.6 only after admission for precise assignment-bound attribution"
+  - "conditional agency profile"
   - "containing System"
-  - "covering U.SystemRoleAssignment"
   - "enacted Method"
+  - "exact performance history"
+  - "independent U.Work admission"
   - "optional direct bindings and resource use"
-  - "performedUnderAssignment"
   - "separate result or consequence"
   - "temporal extent"
   - "world-side dated occurrence"
@@ -61,7 +57,7 @@ keywords:
 
 ### A.15.1:12 - Existing work-log repair applications
 
-1. **Recover occurrence assertions.** For existing logs, identify the independently grounded Work occurrence and recover each actual performer System, the covering assignment occurrence, and its F.6 attribution, together with at least one obtaining `enactsMethod` relation, the extent, and at least one obtaining locally declared containing-system relation. Add optional `methodDescriptionRef` and only those independently obtaining work-to-referent, binding, and resource-use relations on which the receiving claim relies. Do not create Work by creating a record.
+1. **Recover occurrence assertions.** For existing logs, first recover the exact candidate action, every actual performer System's A.13 basis, at least one Method actually followed, the extent, and at least one obtaining locally declared containing-system relation; admit the Work only from those independent facts. If precise assignment-bound attribution is current, then recover the same covering assignment occurrence and its separate F.6 relation. Add optional `methodDescriptionRef` and only those independently obtaining work-to-referent, binding, and resource-use relations on which the receiving claim relies. Do not create Work by creating a record.
 2. **Recover the work-judgment basis.** Name the direct occurrence facts first. Add exact `workContinuityPolicyRef`, effective reference scheme, scope, or qualification window only when the identity, episode, retry, resumption, or aggregation judgment has more than one defensible branch. Keep any selected MethodDescription episteme, aggregation policy, criterion, and evidence-use relation outside the Work.
 3. **Record a continuity policy only for an actual ambiguity.** Cite exact `workContinuityPolicyRef` and its named use when an interruption, resumption, replacement, switch, or composite boundary could support more than one segmentation. If direct facts already close a simple uninterrupted case, omit the policy.
 4. **Separate temporal aspect, temporal Work part, episode, and operational part.** Keep a bare interval or aspect with C.27.TA or its direct domain object. Use `TemporalPartOf_work` only between independently admitted Work individuals when the proper temporal-sub-occurrence predicate passes; use `EpisodeOf_work` only for an independently admitted event-bounded Work sub-occurrence; and use `OperationalPartOf_work` only for an independently admitted performed constituent of the whole. Recover any Method factor separately.

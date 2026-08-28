@@ -6,12 +6,12 @@ section_id: "F.14:7"
 section_title: "Levers"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__008_levers.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:7 — Levers"
-line_start: 95744
-line_end: 95777
+line_start: 95884
+line_end: 95917
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,7 +55,7 @@ keywords:
 | Candidate shape | Likely recovery | Direct pattern |
 | --- | --- | --- |
 | `ReviewerSystemRole`, `OperatorSystemRole` | exact local system-role kind or its separate `SystemRoleKindDescription` episteme | A.2, F.4, F.5, F.18 |
-| `AliceAsReviewer` | ordinary wording for a candidate classification, system-role assignment, or performed-Work attribution | A.2 with C.3, A.2.1, F.6, A.15.1 |
+| `AliceAsReviewer` | ordinary wording for a candidate classification, system-role assignment, or precise performed-Work attribution | A.2 with C.3 for classification; A.2.1 for assignment; A.13 then independent A.15.1 for performer and Work; F.6 only for an expressly consumed precise assignment-bound attribution |
 | `SeniorReviewer` | a proposed system-role-kind name that may hide a qualifier, assignment-state condition, capability, or assurance claim | A.2, A.2.2, A.2.5, B.3, F.18 |
 | `RequestApproverSystemRole` | system-role-kind bundle expression or forbidden fused kind | A.2.7, F.8 |
 | `AtRisk`, `Grace`, `PreValidated` | status value, window, confidence, or presentation label | F.10 or direct status pattern |

@@ -6,12 +6,12 @@ section_id: "A.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__004_forces.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:3 — Forces"
-line_start: 9912
-line_end: 9919
+line_start: 9925
+line_end: 9932
 dependencies:
   - "B.4"
 keywords:

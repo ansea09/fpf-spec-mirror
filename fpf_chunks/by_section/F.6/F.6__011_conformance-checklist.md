@@ -6,15 +6,16 @@ section_id: "F.6:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__011_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:9 — Conformance Checklist"
-line_start: 93002
-line_end: 93022
+line_start: 93142
+line_end: 93162
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.15.4"
@@ -33,18 +34,22 @@ dependencies:
   - "F.5"
   - "F.9"
 keywords:
-  - "Work attribution"
-  - "exact assignment occurrence"
+  - "already admitted U.Work"
+  - "complete post-admission A.13/A.15.1/F.6 basis"
+  - "conditional profile"
+  - "deprecated performedBy compatibility only"
+  - "direct case fact"
+  - "exact Work-assignment relation"
   - "holder equality"
   - "performedUnderAssignment"
-  - "performer System"
+  - "same obtaining A.13 assignment"
   - "separate evidence"
   - "temporal coverage"
 ---
 
 ### F.6:9 - Conformance Checklist
 
-1. `WorkOccurrenceSlot` names one admitted dated `U.Work` occurrence.
+1. `WorkOccurrenceSlot` names one dated `U.Work` occurrence already admitted by A.15.1 without relying on F.6; its actual performers already have the A.13 core for the exact action, scope, working situation, and window, and any characteristic profile is required only by its own Grade, autonomy, criterion-dependent, profile, or assurance use.
 2. `SystemRoleAssignmentSlot` names one assignment occurrence of a declared species under `U.SystemRoleAssignment` through `U.RelationRef`.
 3. The assignment's declared species, all identity-bearing participants, rule, applicability, and uninterrupted occurrence identity remain recoverable. Each species keeps its SlotSpec `ValueKind` domains distinct from the participant values supplied by the occurrence; `AssignedSystemRoleKindSlot` takes one kind value from its declared local system-role-kind domain.
 4. The case establishes that W was performed under RA; the assignment's existence, matching holder, and temporal overlap do not establish that link.
@@ -52,7 +57,7 @@ keywords:
 6. The assignment predicate covers the selected Work interval; attribution to a Work part first identifies that part as `U.Work`.
 7. Checks 2, 3, 5, and 6 constrain a valid attribution but do not by themselves establish it.
 8. Overlapping assignments are distinguished by all their participants and by checking each Work–assignment link from the case; an unresolved case yields no blanket attribution.
-9. Every actual performer of top-level or child Work has its own covering assignment and F.6 link to that Work; lead, team, member, allocation, coordination, and responsibility claims do not substitute.
+9. Every positive precise attribution for a top-level or child Work occurrence has its own covering assignment and F.6 link to that already admitted Work; lead, team, member, allocation, coordination, and responsibility claims do not substitute.
 10. A passive assigned System receives no performer attribution from assignment or overlap; any claimed passive participation uses the rule that defines it or returns the A.6.RCD `missing-governor` result.
 11. F.6 uses `performedUnderAssignment` and introduces no `RoleEnactmentFact` or generic assignment duplicate.
 12. Assertions and evidence may support reliance on the attribution claim but do not make it true.

@@ -6,12 +6,12 @@ section_id: "B.3:5"
 section_title: "Proof obligations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__006_proof-obligations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:5 — Proof obligations"
-line_start: 38816
-line_end: 38837
+line_start: 38888
+line_end: 38909
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,5 +53,5 @@ A calculated result also names every bearer, characteristic, scale, unit, depend
 
 #### B.3:5.3 - Additional obligations for replay
 
-A replayable result adds only the Work and performance facts needed by the receiving use. Identify the assessment Work, the System that performed it, and any Method, assignment, application binding, witness, or timing fact on which competence, independence, reproducibility, contest, or redress actually depends. No record field stands in for an obtaining relation.
+A replayable result adds only the Work and performance facts needed by the receiving use. Follow the §4.5 replay route for each assessment Work. Add its Method, application binding, witness, timing fact, or separate F.6 assignment check only when competence, independence, reproducibility, contest, or redress actually depends on that fact. No record field stands in for an obtaining relation.
 

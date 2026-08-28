@@ -6,14 +6,15 @@ section_id: "G.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__013_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:12 — Relations"
-line_start: 102611
-line_end: 102617
+line_start: 102772
+line_end: 102778
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.PROD"
   - "A.2.1"
@@ -57,7 +58,7 @@ keywords:
 ### G.6:12 - Relations
 
 * **Builds on:** `A.10` for source recovery, provenance, bounded reliance, and graph-edge discipline; `A.2.4` for first-use evidence/status classification; `C.2.1` for claim and result epistemes; `C.29` for representation correspondence.
-* **Coordinates with:** `A.15.1` and `F.6` for already-established Work, performer, and attribution refs, and `A.2.1` only when the receiving path uses the assignment occurrence itself; `A.6.1` for actual operation bindings; the exact pattern for each participation relation; `A.15.PROD` for production or inception when current; `C.16` for measurement results; `G.4` for runtime evaluation results; `B.1.6` for work-resource aggregation results; `C.28` for causal use; `F.10` for status use; `F.9` for bridge and loss; `E.18` and `E.18.2` for transformation-flow structure; `G.11` for currentness; `B.3` for assurance; `E.17` for publication; and the pattern that defines each exact formal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, or decision claim cited by a path.
+* **Coordinates with:** `A.13` and `A.15.1` for already-established exact actual performers and Work; `F.6` and `A.2.1` only when the receiving path expressly consumes precise assignment-bound attribution; `A.6.1` for actual operation bindings; the exact pattern for each participation relation; `A.15.PROD` for production or inception when current; `C.16` for measurement results; `G.4` for runtime evaluation results; `B.1.6` for work-resource aggregation results; `C.28` for causal use; `F.10` for status use; `F.9` for bridge and loss; `E.18` and `E.18.2` for transformation-flow structure; `G.11` for currentness; `B.3` for assurance; `E.17` for publication; and the pattern that defines each exact formal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, or decision claim cited by a path.
 * **Used by:** selector, benchmark, replication, audit, refresh, assurance, maturity, and release patterns that need stable provenance-path citation, including `G.5`, `G.9`, and `G.11`.
 * **Does not govern:** any represented work occurrence, participation, production, local result, result episteme, outcome, source publication, representation correspondence, currentness result, assurance, later use, or stronger conclusion named in `NotCarried`.
 

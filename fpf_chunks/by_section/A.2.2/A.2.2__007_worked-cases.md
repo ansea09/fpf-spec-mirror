@@ -6,12 +6,12 @@ section_id: "A.2.2:6"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__007_worked-cases.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:6 — Worked Cases"
-line_start: 3907
-line_end: 3952
+line_start: 3917
+line_end: 3962
 dependencies:
   - "A.15"
   - "A.2"
@@ -54,7 +54,7 @@ If a Method step requires an obtaining `WeldingShiftAssignment` whose local kind
 
 Dispatch the phrase by claim: use A.2.2 only for the bounded ability; A.3.1 for the Method; a deployed-software or possession relation when that is the claim; and A.3.2 for candidate episteme `TurbineInspectionProcedure-v3` only after its `EntityOfConcern` resolves to that Method and one substantive claim says how it is done.
 
-Assignment and capability still do not prove execution. If `InspectionWork-17` actually occurs, admitted System `Robot-7` performs it under `InspectionAssignment-17` through F.6 `performedUnderAssignment(InspectionWork-17, InspectionAssignment-17)`; the Work occurrence separately stands in `enactsMethod(InspectionWork-17, TurbineInspection@Maintenance-2026)`. `InspectorSystemRole`, the assignment, capability instance, possession phrase, Method, and `TurbineInspectionProcedure-v3` do not act or perform the inspection.
+Assignment and capability still do not prove execution. If `InspectionWork-17` actually occurs, A.13 first recovers `Robot-7` as the exact actual performer through obtaining `InspectionAssignment-17`, and A.15.1 independently admits the Work. Because this example expressly states assignment-bound attribution, F.6 afterward establishes `performedUnderAssignment(InspectionWork-17, InspectionAssignment-17)` through that same assignment; F.6 identifies neither assignment nor performer, and failed attribution leaves the Work intact. The Work occurrence separately stands in `enactsMethod(InspectionWork-17, TurbineInspection@Maintenance-2026)`. `InspectorSystemRole`, the assignment, capability instance, possession phrase, Method, and `TurbineInspectionProcedure-v3` do not act or perform the inspection.
 
 #### A.2.2:6.2 - Software Service as Deployed System
 

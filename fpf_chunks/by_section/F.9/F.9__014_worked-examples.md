@@ -6,14 +6,15 @@ section_id: "F.9:12"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__014_worked-examples.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:12 — Worked examples"
-line_start: 94022
-line_end: 94051
+line_start: 94162
+line_end: 94191
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -72,7 +73,7 @@ When a later claim uses the RBAC source word *role*, apply `E.10.ROLE` and first
 
 A work-facing classification separately requires an admitted System, one exact local system-role kind with its `KindSignature`, and the C.3.2 classification judgment under A.2 and C.3. Use F.4 only when the receiving use separately needs a `SystemRoleKindDescription` episteme, and F.5 only when it needs a durable designation. An assignment claim then separately identifies an occurrence of a directly declared species under `U.SystemRoleAssignment` through A.2.1.
 
-If performed Work is also claimed, use A.15.1 and F.6 to identify the dated Work, its performer System, exact Method and containing System, an assignment held by that performer throughout the Work, and the case fact that directly links the Work to that assignment. The Bridge, bounded-use claim, and reliance result establish none of these facts.
+If performed Work is also claimed, recover every exact actual performer through A.13 and use A.15.1 to identify the dated Work, exact Method, time, and containing System independently. Add an assignment occurrence and F.6 only when the Bridge account or receiving use expressly represents precise assignment-bound attribution and can supply the direct case fact linking the exact Work-assignment pair. Missing or failed F.6 leaves the Work intact. The Bridge, bounded-use claim, and reliance result establish none of these facts.
 
 #### F.9:12.3 - Subtype notions in one structural row
 

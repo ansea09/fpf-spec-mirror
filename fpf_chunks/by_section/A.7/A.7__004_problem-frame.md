@@ -6,12 +6,12 @@ section_id: "A.7:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__004_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:2 — Problem frame"
-line_start: 21442
-line_end: 21452
+line_start: 21453
+line_end: 21463
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,7 +42,7 @@ keywords:
 ### A.7:2 - Problem frame
 
 * **Holons (A.1) and systems.** All holons are part-whole units; a System can act because its organization satisfies A.1. Add a local system-role-kind classification or assignment only when the receiving claim uses that stronger distinction.
-* **Transformation (A.3.4), Work, and optional assignment.** A claimed change names the affected entity and the direct transformation or Work facts used by the claim. An assignment occurrence is added only when assignment identity, participants, extent, or F.6 attribution is current; there is no self-magic.
+* **Transformation (A.3.4), Work, and optional assignment.** A claimed change names the affected entity and the direct transformation facts used by the claim. For a precise dated Work claim, use A.13 to identify the actual performer and A.15.1 to admit the Work independently. If the current claim must also identify the assignment under which the Work was performed, name that assignment and check the relation separately through F.6. F.6 identifies neither performer nor assignment, and a failed check leaves Work intact.
 * **Method and Work backbone (A.3.1, A.3.2, A.15).** Keep MethodDescription, Method, Capability, WorkPlan, and Work distinct. Name only the values used by the current claim. A System acts; a local kind, assignment, Method, or episteme does not.
 * **Evidence (A.10).** Knowledge claims cite evidence-provenance and carrier/source-currentness relations; epistemes never “act”; systems inspect, revise, publish, store, or rely on the carriers, publication forms, and project records that make an episteme available.
 

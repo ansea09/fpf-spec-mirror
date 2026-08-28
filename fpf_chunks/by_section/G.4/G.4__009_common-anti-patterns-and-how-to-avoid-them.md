@@ -6,18 +6,20 @@ section_id: "G.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 101319
-line_end: 101344
+line_start: 101481
+line_end: 101506
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.18"
   - "A.19"
   - "A.2.1"
+  - "A.2.6"
   - "A.21"
   - "A.6.1"
   - "B.3"
@@ -44,6 +46,7 @@ dependencies:
   - "G.8"
   - "G.9"
   - "G.Core"
+  - "U.ClaimScope"
 keywords:
   - "CAL Pack@CG-Frame"
   - "Context charter"
@@ -63,9 +66,9 @@ keywords:
   Avoid: operators with implicit units and untracked legality assumptions.
   Prefer: explicit CHR‑typed operator signatures + cited legality checks.
 
-* **Silent cross‑context reuse.**
-  Avoid: importing constructs across Contexts/planes/editions without published crossings.
-  Prefer: explicit crossing artifacts and citations; keep CAL pack Context‑local.
+* **Silent cross-sense or cross-plane reuse.**
+  Avoid: importing expressions with distinct source-local meanings, or values across ReferencePlanes or editions, without the obtaining relation and required crossing records.
+  Prefer: cite the exact F.17 cells and F.9 relation when meanings differ, cite the applicable plane or edition crossing records, and keep each clause bounded by its stated `ClaimScope` and window.
 
 * **Acceptance as implementation detail.**
   Avoid: acceptance embedded in tool logic.
@@ -77,5 +80,5 @@ keywords:
 
 * **Declaration mistaken for execution.**
   Avoid: treating a CAL card, `TaskMap`, proof-ledger row, worked example, or evidence edge as proof that an operator ran or a verdict obtained.
-  Prefer: ground the dated Work through its complete A.15.1/F.6 basis and recover actual direct bindings separately. Compact wording may omit only an unused assignment identifier. Keep the domain-local result and any result episteme separate from both.
+  Prefer: recover every precise performer's A.13 core, let A.15.1 independently admit the dated Work, and add F.6 only when exact assignment-bound attribution through the same obtaining assignment is current; recover actual direct bindings separately. Compact wording may omit only an unused assignment identifier and no consumed fact. Keep the domain-local result and any result episteme separate from both.
 

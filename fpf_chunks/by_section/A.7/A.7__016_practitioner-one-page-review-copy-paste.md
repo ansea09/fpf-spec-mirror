@@ -6,12 +6,12 @@ section_id: "A.7:14"
 section_title: "Practitioner one-page review (copy-paste)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__016_practitioner-one-page-review-copy-paste.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:14 — Practitioner one-page review (copy-paste)"
-line_start: 21748
-line_end: 21774
+line_start: 21759
+line_end: 21785
 dependencies:
   - "A.1"
   - "A.10"
@@ -49,7 +49,7 @@ Keep the sentence this short when the receiving use needs no stronger distinctio
 
 **Reliance-bearing expansion, when needed**
 
-> `System S performed Work W under assignment A of admitted species AS; W enacted Method M. Capability C, local system-role kind K, method-description episteme D, carrier P, evidence-use relation R, time, and resources are named only where the receiving claim relies on them.`
+> `A.13 identified System S as the actual performer, and A.15.1 independently admitted Work W. If the receiving account must also say under which assignment W was performed, F.6 checks that relation against assignment A and compares S with A's holder; W enacted Method M. Capability C, local system-role kind K, method-description episteme D, carrier P, evidence-use relation R, time, and resources are named only where the receiving claim relies on them.`
 
 **Six checks**
 

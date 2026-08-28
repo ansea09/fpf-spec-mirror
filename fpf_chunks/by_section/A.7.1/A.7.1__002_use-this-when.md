@@ -6,12 +6,12 @@ section_id: "A.7.1:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__002_use-this-when.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:0 — Use this when"
-line_start: 21783
-line_end: 21792
+line_start: 21794
+line_end: 21803
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -36,5 +36,5 @@ The first useful move is to state the affected engineering result and the smalle
 
 **Not this pattern when.** If the blocker is missing observation or evidence, reopen the exact domain or evidence question and its predicate. If wording alone hides the distinction, use `C.2.P` or `E.10`. If the problem is a material premise conflict between FPF methods, use `A.7.2`. If a missing distinction must become durable FPF ontology, require `E.24`/`E.24.UK`, `A.8`, and `A.11` rather than admitting it here.
 
-The primary reader is a domain engineer or ontology analyst responsible for the affected use. This pattern is a `U.MethodDescription`; an admitted `U.System` uses the described Method and performs the dated ontology-analysis `U.Work`. F.6 identifies the assignment under which that System acted. A short analysis result may omit an assignment identifier that no later claim uses. The reader, performer System, MethodDescription episteme, Method, assignment, Work, and returned engineering result remain separate.
+The primary reader is a domain engineer or ontology analyst responsible for the affected use. This pattern is a `U.MethodDescription`; it does not act. When actual ontology-analysis Work is claimed, recover the exact performing `U.System` through A.13 and let A.15.1 independently admit the dated `U.Work` and enacted Method. Add F.6 only when the analysis result also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact. The reader, performer System, MethodDescription episteme, Method, any assignment and attribution, Work, and returned engineering result remain separate.
 

@@ -6,12 +6,12 @@ section_id: "A.1:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__007_archetypal-grounding-worked-cases.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:5 — Archetypal Grounding (Worked Cases)"
-line_start: 1674
-line_end: 1727
+line_start: 1683
+line_end: 1736
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -51,7 +51,7 @@ Those world-side facts make the criterion true whether or not the current projec
 
 If instead an exact coupling, load-envelope, or boundary-interface fact violates a condition of the governed plant-installation method, the candidate fails the criterion even when the drawing and rule-description episteme are current. Governed evaluation returns `false` when that incompatibility is available to it and `unknown` when the needed input is unavailable; neither result changes the world-side failure. Renaming or republishing the cited criterion pattern changes its episteme designation, edition, or currentness, not Pump #37 or the candidate-side facts.
 
-Separate direct relations then state that Pump #37 fills the holder-system slot of its cooling-water circulation `U.SystemRoleAssignment`, has a flow-rate capability envelope, is attributed as performer of inspection work WO-1842, and participates in the water-moving transformation. No omnibus participation or candidate-classification relation is added. The pump can have selected structures; its maintenance model may participate in a separately selected `BoundedModelUseStructure`, but that structure neither identifies the pump nor makes it a holon.
+Separate direct relations then state that Pump #37 fills the holder-system slot of its cooling-water circulation `U.SystemRoleAssignment`, has a flow-rate capability envelope, and participates in the water-moving transformation. A separate inspection account may identify `WO-1842 : U.Work`, but the cooling-water assignment does not make Pump #37 its performer: the exact inspector System must have its own A.13 core, the Work must be independently admitted under A.15.1, and F.6 is added only if that account needs precise assignment-bound attribution through the inspector's same obtaining assignment. Pump #37 remains the inspected or participating subject unless another direct performer basis establishes otherwise. No omnibus participation or candidate-classification relation is added. The pump can have selected structures; its maintenance model may participate in a separately selected `BoundedModelUseStructure`, but that structure neither identifies the pump nor makes it a holon.
 
 #### A.1:5.2 - Scientific Theory As Episteme Holon
 

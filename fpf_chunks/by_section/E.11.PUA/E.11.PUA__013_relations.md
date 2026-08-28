@@ -6,14 +6,17 @@ section_id: "E.11.PUA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__013_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:12 — Relations"
-line_start: 77989
-line_end: 77994
+line_start: 78119
+line_end: 78124
 dependencies:
+  - "A.13"
   - "A.15"
+  - "A.15.1"
+  - "A.15.PROD"
   - "A.6.5"
   - "A.6.P.WMR"
   - "A.6.RCD"
@@ -27,13 +30,14 @@ dependencies:
   - "E.22"
   - "E.23"
   - "E.8"
+  - "F.6"
   - "G.11"
 keywords:
 ---
 
 ### E.11.PUA:12 - Relations
 
-- **Builds on:** `E.11` for public entry, `E.8` for action-guiding pattern form, `E.18` for each TFS-local position and local `DesignRunTag`, `E.18.NET` for a current network, `A.6.P.WMR` and `A.6.RCD` when a relation rule or direct claim cannot be recovered, A.15 for planning and work, C.2.1 for support epistemes, and A.6.5 for slot discipline.
+- **Builds on:** `E.11` for public entry, `E.8` for action-guiding pattern form, `E.18` for each TFS-local position and local `DesignRunTag`, `E.18.NET` for a current network, `A.6.P.WMR` and `A.6.RCD` when a relation rule or direct claim cannot be recovered, A.13 for every precise performer core, A.15.1 for independent dated-Work admission, F.6 only for current assignment-bound attribution, A.15.PROD for Work-attributed entity inception, A.15 for wider planning and work coordination, C.2.1 for support epistemes, and A.6.5 for slot discipline.
 - **Coordinates with:** `E.11.PUR` for applicability, recommendation, and coordination; `E.18.1` for accepted problem-to-work carry-through; `E.22` and `E.23` for evaluation and repeated improvement; `G.11` for currentness; and each direct pattern that defines, constrains, or tests the selected result.
 - **Use next when current:** `E.11` when no direct pattern is selected, `E.11.PUR` when recommendation or ordering among several uses is current, and the direct pattern for any result or work claim beyond PUA's boundary.
 

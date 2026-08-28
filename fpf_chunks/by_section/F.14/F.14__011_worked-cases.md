@@ -6,12 +6,12 @@ section_id: "F.14:10"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__011_worked-cases.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:10 — Worked cases"
-line_start: 95825
-line_end: 95888
+line_start: 95965
+line_end: 96028
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,7 +73,7 @@ Result after that premise:
 
 * Reuse the admitted `OperatorSystemRole` kind.
 * `night`, `remote`, and `on-call` are qualifiers in the proposed wording. Recover the claim each qualifies—for example, a schedule, location relation, `SystemRoleAssignmentStatePredicate`, WorkPlan, or policy condition—and use the pattern that defines, constrains, or tests that claim.
-* A new system-role kind is blocked unless A.2 with C.3 independently admits a distinct local kind from its bounded work-facing contribution identity and a non-circular `KindSignature`. Its criterion may use, for example, a capability, Work, or an assignment established separately, but assignment conditions, a Method, and Work implications are not universal requirements. The naming ReferenceScheme does not create the kind or its difference.
+* A new system-role kind is blocked unless A.2 with C.3 independently recovers a distinct local kind through its `U.System` candidate domain, operative work-facing membership condition, useful member/non-member boundary, and continuity rule. Its criterion may use, for example, a capability, Work, or an assignment established separately, but assignment conditions, a Method, and Work implications are not universal requirements. A practice, source, suffix, or naming ReferenceScheme does not create the kind or its difference.
 
 #### F.14:10.3 - SLO compliance labels
 
@@ -110,5 +110,5 @@ Result:
 * Ordinary prose may remain `robotics engineer and musician` or `engineer-musician` when the sentence is clear and no FPF claim relies on either noun as an exact classification. Create no Tech kind merely to explain the phrase, and do not require a `SystemRole` suffix in ordinary prose.
 * If the sentence supports a load-bearing FPF claim, apply E.10.ROLE and recover only the supported branch: for example, a local system-role kind and classification, an assignment occurrence, a capability, a participation or contribution relation, a Method or Work claim, or a finding that no pattern yet defines the needed claim. Do not infer two kinds from the two nouns.
 * Any claim about an engineering or music-teaching Method, robot-training Work, or performed music Work stays under its direct pattern and remains separate from the ordinary phrase. Such a claim does not by itself justify a system-role-kind name.
-* A durable qualified system-role-kind name becomes a candidate only after A.2 with C.3 independently admits that exact local kind and its bounded contribution identity. Differences in, for example, assignment conditions, capability expectations, incompatibilities, or Method or Work implications matter only when the `KindSignature` or named use actually consumes them. A readable suffix does not perform that admission.
+* A durable qualified system-role-kind name becomes a candidate only after A.2 with C.3 independently admits that exact local kind through its candidate domain, operative work-facing membership condition, member/non-member boundary, and continuity rule. Differences in, for example, assignment conditions, capability expectations, incompatibilities, or Method or Work implications matter only when the `KindSignature` or named use actually consumes them. A readable suffix does not perform that admission.
 

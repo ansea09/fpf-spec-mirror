@@ -6,12 +6,12 @@ section_id: "E.17.1:4"
 section_title: "Solution - one catalogue episteme with local bundle declarations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__005_solution-one-catalogue-episteme-with-local-bundle-declarations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:4 — Solution - one catalogue episteme with local bundle declarations"
-line_start: 80509
-line_end: 80604
+line_start: 80639
+line_end: 80734
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -66,7 +66,7 @@ Open the complete constitution below for the affected catalogue edition when aut
 - the exact `U.ViewpointRef` members and target-kind compatibility claim for each declaration; and
 - only maintenance claims currently needed, using the branch that matches the present claim:
   - for a current maintenance-System claim, cite the admitted maintenance `U.System`; cite an exact local system-role kind and its independently evaluated classification only when that classification is current;
-  - for actual maintenance Work, cite the dated `U.Work` and its performer, and use F.6 to identify the assignment under which that System acted; a short catalogue claim may omit identifiers its bounded use does not need;
+  - for actual maintenance Work, recover the exact actual performer through A.13 and let A.15.1 independently admit the dated `U.Work`; add F.6 only when the catalogue claim or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. F.6 identifies neither assignment nor performer, missing or failed F.6 leaves the Work intact, and a short catalogue claim may omit identifiers its bounded use does not need;
   - for current maintenance responsibility, cite its direct admitted predicate and actual participants or return the exact missing governor; assignment establishes no responsibility; and
   - for prospective maintenance guidance, retain only the change-control note, intended maintenance condition or `U.WorkPlan`, and scope tag; this content asserts no performed Work, current assignment, or responsibility.
 

@@ -6,12 +6,12 @@ section_id: "C.32.ACS:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__014_footer-marker.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:13 — Footer marker"
-line_start: 63741
-line_end: 63744
+line_start: 63815
+line_end: 63818
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,5 +49,5 @@ keywords:
 
 ### C.32.ACS:13 - Footer marker
 
-C.32.ACS closes when the project can name the starter-pack row or source-catalogue line, draft project criteria rows, optimization indicators, monitored guardrails, context-only rows, bearers, row claim scopes and selected context slices, reference schemes and planes, qualification or evaluation windows, scale forms, current reading or no-reading reason, protected counter-characteristics, receiving uses, and source-return conditions. Continue with the pattern whose use conditions match the next question. If later Work is asserted, name the performer System, dated Work, enacted Method, assignment occurrence and its declared species, and F.6 attribution; ACS itself creates none of them and establishes no responsibility or agency.
+C.32.ACS closes when the project can name the starter-pack row or source-catalogue line, draft project criteria rows, optimization indicators, monitored guardrails, context-only rows, bearers, row claim scopes and selected context slices, reference schemes and planes, qualification or evaluation windows, scale forms, current reading or no-reading reason, protected counter-characteristics, receiving uses, and source-return conditions. Continue with the pattern whose use conditions match the next question. If later precise Work is asserted, recover each exact actual performer System through A.13 and let A.15.1 independently admit the dated Work and enacted Method; add an assignment occurrence, its declared species, and F.6 only when the ACS account or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. F.6 identifies neither assignment nor performer, missing or failed F.6 leaves the Work intact, and ACS itself creates none of these facts or responsibility or agency.
 

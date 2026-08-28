@@ -6,23 +6,22 @@ section_id: "A.15.1:15"
 section_title: "Didactic quick cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__019_didactic-quick-cards.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:15 — Didactic quick cards"
-line_start: 24874
-line_end: 24882
+line_start: 24901
+line_end: 24909
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.4"
   - "A.15.5"
   - "A.15.PROD"
   - "A.2"
   - "A.2.1"
-  - "A.2.2"
   - "A.2.6"
   - "A.3.1"
   - "A.3.2"
@@ -35,25 +34,22 @@ dependencies:
   - "C.27.TA"
   - "C.32.P2S"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "F.6"
-  - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
   - "U.ReferenceScheme"
-  - "U.System"
-  - "U.SystemRoleAssignment"
-  - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "actual performer U.System"
-  - "admitted U.Work kind"
+  - "A.13-qualified actual performer U.System"
+  - "F.6 only after admission for precise assignment-bound attribution"
+  - "conditional agency profile"
   - "containing System"
-  - "covering U.SystemRoleAssignment"
   - "enacted Method"
+  - "exact performance history"
+  - "independent U.Work admission"
   - "optional direct bindings and resource use"
-  - "performedUnderAssignment"
   - "separate result or consequence"
   - "temporal extent"
   - "world-side dated occurrence"
@@ -61,10 +57,10 @@ keywords:
 
 ### A.15.1:15 - Didactic quick cards
 
-* **What is Work?** *How it went this time* → dated, resourced, attributable.
-* **Separation aid:** Who performs? **System**. Under which assignment? **Use F.6 for each actual performer**. Can? **Capability**. How? **Method**. Which account of the Method? **MethodDescription**. Did it happen? **Work**.
-* **Three-question result check:** Did the work occur? What separate result or consequence is claimed? Who judged or accepted what, by which criterion and evidence? Use §4.6 and stop after the last question the receiving use actually asks.
-* **Roll-ups:** A.15.1 supplies exact Work refs, intervals, parts, and performed resource-use facts; cite `B.1.4` for temporal aggregates and `B.1.6` for resource ledgers, each with its declared policy.
+* **What is Work?** *How it went this time* → dated, attributable, and actually enacted.
+* **Performer chain:** Who performs? **An admitted System with an A.13 agency basis at this grain.** Did dated performance occur? **A.15.1 independently admits Work.** When precise assignment-bound attribution is current, under which assignment? **The same obtaining A.13 assignment later tested by F.6; otherwise stop at admitted Work.** Can? **Capability.** How? **Method.** Intended? **WorkPlan.**
+* **Three-question result check:** Did the Work occur? What separate result or consequence is claimed? Who judged or accepted what, by which criterion and evidence? Use section 4.6 and stop after the last current question.
+* **Passive stop:** Containing equipment, affected subjects, causal participants, actor-like labels, and assignments do not perform by implication.
+* **Roll-ups:** A.15.1 supplies exact Work references, intervals, parts, and performed resource-use facts; cite B.1.4 for temporal aggregates and B.1.6 for resource ledgers, each with its declared policy.
 * **Episodes vs retries:** record end, interruption, resumption, and later work-entry facts first; add a continuity policy only when a named use still has more than one defensible grouping.
-* **Resource honesty:** relate performed resource use to exact Work individuals through separately obtaining resource-use relations; route any result or consequence through the one matching §4.6 row.
 

@@ -6,12 +6,12 @@ section_id: "A.19.CHR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__002_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:1 — Problem frame"
-line_start: 31246
-line_end: 31264
+line_start: 31318
+line_end: 31336
 dependencies:
   - "A.15.3"
   - "A.19"

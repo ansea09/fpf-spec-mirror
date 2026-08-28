@@ -6,12 +6,12 @@ section_id: "A.7.2:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__002_use-this-when.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:0 — Use this when"
-line_start: 21944
-line_end: 21953
+line_start: 21955
+line_end: 21964
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -39,5 +39,5 @@ The first useful move is to name the smallest receiving ontology claim and, for 
 
 **Not this pattern when.** A vocabulary difference, unlike source function, or different subject with no shared practical consequence is not a premise conflict. Use `A.7.1` for one engineering ontology defect, `C.2.P`/`E.10` for wording use, direct evidence-use or formal patterns for missing warrant, and source-currentness patterns for stale editions.
 
-The primary reader is an FPF maintainer, architecture steward, or pattern author responsible for a material cross-pattern contradiction. This pattern is a `U.MethodDescription` episteme that describes a `U.Method`. An admitted `U.System` performs the dated reconciliation `U.Work`. When the actual case relies on an assignment, that assignment is one obtaining occurrence of a separately declared `U.SystemRoleAssignment` species, and an obtaining F.6 attribution connects the exact Work to that exact assignment. A short receiving result may omit an assignment identifier it does not use, but the assignment and attribution remain world-side facts. The pattern episteme, described Method, reader, performing System, assignment species, assignment occurrence, attribution, Work, source uses, and returned FPF decision remain distinct.
+The primary reader is an FPF maintainer, architecture steward, or pattern author responsible for a material cross-pattern contradiction. This pattern is a `U.MethodDescription` episteme that describes a `U.Method`. For any precise dated reconciliation `U.Work`, use A.13 to identify the actual performer System and let A.15.1 independently admit the occurrence. If the case or receiving result must also identify the assignment under which the reconciliation Work was performed, check that relation separately through F.6 against the assignment used by A.13. A short result may omit an assignment identifier it does not use; no unused assignment or attribution is presumed. The pattern episteme, described Method, reader, performing System, any separately established assignment species and occurrence, optional assignment check, Work, source uses, and returned FPF decision remain distinct.
 

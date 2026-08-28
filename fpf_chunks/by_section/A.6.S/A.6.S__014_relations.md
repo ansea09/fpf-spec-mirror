@@ -6,12 +6,12 @@ section_id: "A.6.S:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__014_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:12 — Relations"
-line_start: 21044
-line_end: 21083
+line_start: 21055
+line_end: 21094
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
   * A.6 — Signature Stack & Boundary Discipline
   * A.6.0 — `U.Signature`
   * A.6.2 — effect-free episteme-arrow discipline, only when a constructor operation uses a mathematical arrow; endpoint facts are read or compared, not changed by the arrow
-  * A.2, A.2.1, and F.6 — local system-role kinds and the assignment under which each System performed the Work; classification, assignment, performer System, and proportional reporting remain separate
+  * A.13 and A.15.1 — exact actual-performer recovery and independent dated-Work admission; A.2 and A.2.1/F.6 enter separately only when the receiving use consumes local-kind classification or precise assignment-bound attribution
   * C.2.1 — episteme identity through claim content, exact EntityOfConcern, and effective ReferenceScheme, with empirical grounding and edition continuity kept as separate direct relations
   * (optional) E.18 — TransformationFlowStructure, when signature-construction work is represented as a transformation-flow structure
   * E.10 and LEX discipline — if the publication uses Plain twins (“SoI”) or shorthands, keep their exact Tech readings recoverable and keep Plain twins out of normative register
@@ -72,7 +72,7 @@ Grounding pointers in the current FPF draft (for alignment while integrating):
 * A.6.2 effect-free arrow boundary: the arrow relates epistemes; the operation description, application, and Work remain separate.
 * A.3.1/A.3.2/A.15/A.15.1/A.15.2 method, method-description, work-plan, and work separation for “constructor described vs enacted”.
 * A.7 strict distinction and Face/Surface separation (no object–description–carrier soup).
-* A.1 System admission, A.2 local system-role classification, A.2.1/F.6 exact system-role-assignment attribution, A.3.4 transformation, and A.15 Work discipline: an admitted System performs Work; epistemes, local kinds, and assignments do not act.
+* A.1 System admission, A.13 exact actual-performer recovery, and A.15 Work discipline establish the actor and independently admitted Work. A.2 local system-role classification and A.2.1/F.6 assignment-bound attribution enter only when those separate claims are current. An episteme, local kind, or assignment does not act.
 * Slot operation lexicon and naming guidance (A.6.5).
 * A.6.6 direct-first base-dependence discipline and its optional declaration-history labels.
 * MVPK faces as fixed view kinds with “no new semantics” intent (E.17).

@@ -6,12 +6,12 @@ section_id: "A.6.S:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__003_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:1 — Problem frame"
-line_start: 20805
-line_end: 20822
+line_start: 20816
+line_end: 20833
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -54,5 +54,5 @@ Without that choice, two opposite failures recur:
 3. semantic changes hide behind generic edit language instead of a new episteme edition and its actual continuity or reference change; and
 4. publication views acquire claims not present in the described signature.
 
-An episteme does not act. An admitted `U.System` may apply a described operation and perform Work. Identify an F.6 assignment only when a receiving attribution claim needs the exact assignment under which that System acted; the assignment itself does not act.
+An episteme does not act. When precise performed Work is current, recover each exact actual performer `U.System` through A.13 and let A.15.1 independently admit the dated occurrence; a System may separately apply a described operation. Add the exact A.2.1 assignment and F.6 Work-assignment relation only when a receiving claim expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and the assignment itself does not act.
 

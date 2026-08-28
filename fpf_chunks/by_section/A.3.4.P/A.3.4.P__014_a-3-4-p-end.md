@@ -6,12 +6,12 @@ section_id: "A.3.4.P:End"
 section_title: "A.3.4.P:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__014_a-3-4-p-end.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:End — A.3.4.P:End"
-line_start: 9886
-line_end: 9887
+line_start: 9899
+line_end: 9900
 dependencies:
   - "A.10"
   - "A.15.1"

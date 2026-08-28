@@ -6,12 +6,12 @@ section_id: "A.7:8"
 section_title: "Canonical rewrites (didactic library)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__010_canonical-rewrites-didactic-library.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:8 — Canonical rewrites (didactic library)"
-line_start: 21652
-line_end: 21664
+line_start: 21663
+line_end: 21675
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,7 +43,7 @@ keywords:
 
 | Instead of | Start with | Add only for the stronger claim |
 | --- | --- | --- |
-| “The process enforced the rule.” | `Control system CS-4 enforced Rule R during Run 12.` | Exact Method and Work; assignment and F.6 attribution only when the claim relies on them; evidence use only when reliance is claimed. |
+| “The process enforced the rule.” | `Control system CS-4 enforced Rule R during Run 12.` | If dated Work is current, use A.13 to identify the actual performer and A.15.1 to admit the occurrence independently. Add a Method only when that claim is current. If the account must also identify the assignment under which the Work was performed, check it separately through F.6. Add evidence use only when reliance is claimed. |
 | “The specification decided to tighten limits.” | `Design-control team D changed the limit in Specification-e4.` | The successor episteme, authoring Work, carrier and publication relations when current. The specification never acts. |
 | “Our role is pump; the role circulates coolant.” | `Pump P-12 circulates coolant in loop L.` | The local system-role kind for a classification claim; the assignment occurrence only for assignment or attribution; Capability, Method, and Work only for their respective claims. |
 | “We followed the blueprint, so it is done.” | `Team T used Method M; completion still requires evidence of the performed Work.` | Cite a MethodDescription only when its exact claims are used; keep the blueprint carrier, Work and evidence relations separate. |

@@ -6,12 +6,12 @@ section_id: "E.17:8.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__010_bias-annotation.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:8.1 — Bias-Annotation"
-line_start: 81680
-line_end: 81683
+line_start: 81810
+line_end: 81813
 dependencies:
   - "A.10"
   - "A.15.4"

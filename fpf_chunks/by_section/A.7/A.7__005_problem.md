@@ -6,12 +6,12 @@ section_id: "A.7:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__005_problem.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:3 — Problem"
-line_start: 21453
-line_end: 21460
+line_start: 21464
+line_end: 21471
 dependencies:
   - "A.1"
   - "A.10"

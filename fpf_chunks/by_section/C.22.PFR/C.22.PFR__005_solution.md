@@ -6,12 +6,12 @@ section_id: "C.22.PFR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:4 — Solution"
-line_start: 51311
-line_end: 51487
+line_start: 51383
+line_end: 51559
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -138,7 +138,7 @@ The selected direct consumer supplies the governed input projection or consumes 
 
 A Problem can therefore obtain unnoticed. Later detection produces work, evidence, and claims about the already obtaining relation; it does not create retroactive actuality.
 
-When evaluation is actually performed, name every performer `U.System`, the dated evaluation `U.Work`, and the selected `U.Method` or declared A.6.1 operation application. Use F.6 to identify the assignment under which each performer acted; neither a local system-role kind nor an assignment acts. A short PFR explanation may omit an assignment identifier that no later claim uses. That Work may return the separate evaluation result `true`, `false`, or `unknown` defined by the selected evaluation pattern; a C.2.1 assertion may state the result, A.10 and B.3 may warrant reliance on that assertion, G.11 may qualify its current edition, and the receiving Work may rely, decline, defer, or reopen. These are distinct objects and relations. `unknown` is an evaluation result, never a world-side PFR value; no evaluation Work, result, assertion, warrant, currentness judgment, or reliance disposition constitutes a PFR participant or makes the relation obtain.
+When evaluation is actually performed, recover every exact actual performer `U.System` through A.13, let A.15.1 independently admit the dated evaluation `U.Work`, and name the selected `U.Method` or declared A.6.1 operation application. Add F.6 only when the evaluation account or a receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, neither a local system-role kind nor an assignment acts, and missing or failed F.6 leaves the evaluation Work intact. A short PFR explanation may omit an assignment identifier that no later claim uses. That Work may return the separate evaluation result `true`, `false`, or `unknown` defined by the selected evaluation pattern; a C.2.1 assertion may state the result, A.10 and B.3 may warrant reliance on that assertion, G.11 may qualify its current edition, and the receiving Work may rely, decline, defer, or reopen. These are distinct objects and relations. `unknown` is an evaluation result, never a world-side PFR value; no evaluation Work, result, assertion, warrant, currentness judgment, or reliance disposition constitutes a PFR participant or makes the relation obtain.
 
 
 #### C.22.PFR:4.4 - Identify repeated adverse episodes from world-side continuity

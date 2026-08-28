@@ -6,23 +6,22 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how occurrences form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-occurrences-form-holarchies.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:5 — Work mereology (how occurrences form holarchies)"
-line_start: 24476
-line_end: 24559
+line_start: 24511
+line_end: 24594
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.4"
   - "A.15.5"
   - "A.15.PROD"
   - "A.2"
   - "A.2.1"
-  - "A.2.2"
   - "A.2.6"
   - "A.3.1"
   - "A.3.2"
@@ -35,25 +34,22 @@ dependencies:
   - "C.27.TA"
   - "C.32.P2S"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "F.6"
-  - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
   - "U.ReferenceScheme"
-  - "U.System"
-  - "U.SystemRoleAssignment"
-  - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "actual performer U.System"
-  - "admitted U.Work kind"
+  - "A.13-qualified actual performer U.System"
+  - "F.6 only after admission for precise assignment-bound attribution"
+  - "conditional agency profile"
   - "containing System"
-  - "covering U.SystemRoleAssignment"
   - "enacted Method"
+  - "exact performance history"
+  - "independent U.Work admission"
   - "optional direct bindings and resource use"
-  - "performedUnderAssignment"
   - "separate result or consequence"
   - "temporal extent"
   - "world-side dated occurrence"
@@ -61,7 +57,7 @@ keywords:
 
 ### A.15.1:5 - Work mereology (how occurrences form holarchies)
 
-Work identity is occurrence-grounded and 4D. Start from the actual performance history: work-entry and end events, occupied spatiotemporal extent, performer systems and assignments, enacted Methods, the exact locally declared containing-system relations needed by the use, any direct work-to-referent relations, actual bindings, resource use, and exact work-part or temporal relations. A distinct actual work-entry after an established completion or termination identifies a later occurrence; a proper work part and its parent are distinct individuals; independently grounded concurrent performances are distinct. A record, trace, policy episteme, or later judgment creates none of them. A continuity policy is needed only when a named use must decide how to group that already existing history across an interruption, resumption, mode or method switch, performer replacement, referent or binding change, or composite boundary.
+Work identity is occurrence-grounded and 4D. Start from the actual performance history: work-entry and end events, occupied spatiotemporal extent, actual performer Systems with their A.13 bases, enacted Methods, the exact locally declared containing-system relations needed by the use, any direct work-to-referent relations, actual bindings, resource use, and exact work-part or temporal relations. A separately asserted F.6 relation records which obtaining assignment covered the performance; it neither admits nor reidentifies the Work. A distinct actual work-entry after an established completion or termination identifies a later occurrence; a proper work part and its parent are distinct individuals; independently grounded concurrent performances are distinct. A record, trace, policy episteme, or later judgment creates none of them.
 
 #### A.15.1:5.1 - Parts and wholes of Work (occurrence facts)
 
@@ -81,7 +77,7 @@ Work identity is occurrence-grounded and 4D. Start from the actual performance h
 
 - Ask **"do I need only an interval or aspect, or an independently admitted Work sub-occurrence?"** Use C.27.TA or the direct temporal object for the first. Use `TemporalPartOf_work` only for the second, after its proper-sub-occurrence predicate passes.
 - Ask **"does this named use need an event-bounded fragment of the parent?"** If yes, recover the candidate boundary events. Cite `workContinuityPolicyRef` only when interruption, resumption, switch, replacement, or pause leaves the grouping ambiguous for that use; then use `EpisodeOf_work` only when its direct predicate is satisfied.
-- Ask **"which performed sub-occurrence has its own actual performer System, covering assignment, temporal extent, enacted Method, affected referent, bindings, resource use, or separately consumed place in an aggregation?"** If that is current, use `OperationalPartOf_work` or another declared Work-part relation. A neighboring evaluation or effect claim does not establish Work parthood by itself.
+- Ask **"which performed sub-occurrence has its own actual performer System with an A.13 basis, temporal extent, enacted Method, affected referent, bindings, resource use, or separately consumed place in an aggregation?"** If that is current, use `OperationalPartOf_work` or another declared Work-part relation. When precise assignment-bound attribution is also current, check the separate F.6 relation only after admitting the sub-occurrence. A neighboring evaluation or effect claim does not establish Work parthood by itself.
 - Ask **"which way-of-doing part is being composed?"** If the answer needs preconditions, effects, interface, and whole-method relation, recover a `U.Method` submethod under `A.3.1` and `B.1.5`; do not make the work part itself carry the method identity.
 
 #### A.15.1:5.2 - Key relations among Work
@@ -104,7 +100,7 @@ Work identity is occurrence-grounded and 4D. Start from the actual performance h
 
 A timetable, workflow row, or architecture table can help locate candidate Work. It does not establish a Work occurrence, whole, part, overlap, or order. Before relying on such rows in an architecture decision:
 
-1. identify each Work occurrence from its actual performer System, covering assignment and F.6 attribution, enacted Method, actual interval, and an obtaining relation to a containing System;
+1. identify each Work occurrence from every actual performer's A.13 basis, independently grounded performance history, enacted Method, actual interval, and an obtaining relation to a containing System; when precise assignment-bound attribution is current, apply F.6 separately after admission;
 2. if several rows are claimed as parts of one Work whole, identify that whole and every part independently, then state the exact Work-part relation that holds;
 3. if two occurrences are claimed to overlap or follow one another, state their actual intervals and the exact C.27.TA temporal relation; and
 4. state coordination, participation, resource use, result, or acceptance only through its own obtaining relation when the architecture decision needs it.
@@ -116,7 +112,7 @@ Two activities with similar names or one planned time window can still be distin
 Two descriptions, assertions, records, or traces resolve to the same Work occurrence only when they designate the same actual world-side performance history, not merely the same name, policy label, similar policy content, or later date. First compare the direct facts at the selected grain:
 
 * the same actual work-entry or start and compatible occupied spatiotemporal extent;
-* the same performance history, with each performer system, covering assignment, enacted Method, and the locally declared containing-system relations used by the identity claim, plus every actually obtaining work-to-referent, binding, and resource-use fact used by that claim, placed at the interval where it obtains;
+* the same performance history, with each actual performer System's A.13 basis, enacted Method, and the locally declared containing-system relations used by the identity claim, plus every actually obtaining work-to-referent, binding, and resource-use fact used by that claim, placed at the interval where it obtains; any separately asserted F.6 relation remains an attribution fact rather than a Work-identity discriminator;
 * compatible work-part and temporal relations; and
 * no fact that already identifies distinct individuals: a proper part versus its parent, independently grounded concurrent performances, or a later work-entry after the first occurrence's established completion or termination.
 

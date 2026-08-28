@@ -6,12 +6,12 @@ section_id: "F.3:13"
 section_title: "Safe reasoning moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__014_safe-reasoning-moves.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:13 — Safe reasoning moves"
-line_start: 92043
-line_end: 92055
+line_start: 92181
+line_end: 92193
 dependencies:
   - "A.11"
   - "A.7"

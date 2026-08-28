@@ -6,17 +6,19 @@ section_id: "E.4.DPF.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:4 — Solution"
-line_start: 70174
-line_end: 70388
+line_start: 70297
+line_end: 70510
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.19.ECS"
+  - "A.2.1"
   - "A.2.6"
   - "A.22"
   - "A.22.CGUS"
@@ -83,7 +85,7 @@ Keep the evaluation objects separate:
 3. the effective `U.ReferenceScheme`, A.2.6 `ClaimScope`, working reader, intended use, non-use boundary, qualification window, and optional independently selected `BoundedModelUseStructure` only when its organization changes interpretation;
 4. this E.4.DPF.DA characteristic space and evaluation specification;
 5. one exact semantic package-adequacy-evaluation `U.Method`;
-6. an ordinary evaluator action left outside Work admission; or, when dated assessment `U.Work` is asserted, references to one independently valid A.15.1 Work account, the actual evaluator System, and the applicable F.6 relation occurrences; and, independently, an A.6.1 application only when the assessment uses one exact operation declared by a separately admitted Mechanism and the receiving claim depends on its bindings;
+6. an ordinary evaluator action left outside Work admission; or, when dated assessment `U.Work` is asserted, references to the exact actual evaluator System recovered through A.13 and one independently valid A.15.1 Work account; only when the result expressly represents precise assignment-bound attribution, references to the same obtaining A.13 assignment and applicable F.6 relation occurrences; and, independently, an A.6.1 application only when the assessment uses one exact operation declared by a separately admitted Mechanism and the receiving claim depends on its bindings;
 7. twelve ordinal coordinate-result claims about the same exact framework edition;
 8. one aggregate C.2.1 result episteme carrying those claims, the local package-adequacy status, protected trade-offs, first repair or no-proposal disposition, non-use, and reopen condition;
 9. witnesses and A.10 evidence-use relations, plus an optional evaluation record that packages references without performing the assessment or granting authority; and
@@ -129,12 +131,11 @@ DPFPackageAdequacyEvaluationConfiguration:
     actually uses an operation declared by a separately admitted U.Mechanism and the receiving
     claim depends on its actual input and result bindings>
   AssessmentWorkAdmission?: <omit for an ordinary judgement or action not admitted as U.Work;
-    when present, cite the independently valid A.15.1 and F.6 accounts rather than redeclaring them>
+    when present, cite the exact A.13 actual-performer basis and independently valid A.15.1 Work account rather than redeclaring them; add assignment-bound attribution references only when this result expressly represents that attribution>
     AssessmentWorkAccountRef: <one independently valid A.15.1 Work account>
     AssessmentWorkRef: <the dated U.Work used by this result>
-    EvaluatorSystemRef: <the actual evaluator U.System used by this result>
-    PerformedUnderAssignmentRefs: <the applicable obtaining F.6 relation occurrences used by this result>
-
+    EvaluatorSystemRef: <the exact actual evaluator U.System already recovered through A.13>
+    PerformedUnderAssignmentRefs?: <the applicable obtaining F.6 relation occurrences through the same A.13 assignment, only when this result expressly represents precise assignment-bound attribution; omit otherwise; missing or failed F.6 leaves the Work account intact>
 DPFPackageAdequacyResultEpisteme:
   EntityOfConcern: <same exact FrameworkEpistemeEditionOfConcernRef>
   EffectiveReferenceScheme:
@@ -158,7 +159,7 @@ DPFPackageAdequacyEvaluationRecord: <optional packaging of configuration, assess
 
 These names are local record and claim shapes, not new U-kinds. `DeclaredVisiblePackageFormOrUse` is open plain wording for the exact form or use being checked; it neither types nor identifies the framework or package. The separately typed reference fields keep publication units, forms, `U.PresentationCarrier` values, access routes, and actual access or use relations distinct. If the visible material has no independently admitted single package entity, do not make a file set or list into one: keep the exact framework episteme edition as EntityOfConcern and cite its package architecture, records, contents, publication and access relations, forms, carriers, and routes separately in the configuration and evidence basis. A file boundary, manifest, directory, table order, publication, carrier, callable service, or endpoint establishes neither package architecture nor membership.
 
-The characteristic table and this specification describe how to evaluate; neither is the semantic Method, evaluator action, dated Work, A.6.1 application, or result. A practitioner may make an ordinary package-adequacy judgement without classifying it as `U.Work` or asserting an A.6.1 application. Such an application exists here only when one exact operation declared by a separately admitted Mechanism is actually used and the receiving claim depends on its bindings; Work admission neither creates nor requires it. If the account instead claims dated assessment Work, cite one independently valid A.15.1 Work account, the actual evaluator System, and the applicable obtaining F.6 relation occurrences. Those patterns retain the Work-identity, assignment, attribution, coverage, and omission tests. The evaluator System acts; an assignment does not. A local evaluator system-role classification is an optional neighboring claim. The local account exposes Work, evaluator, or F.6 references only when the result uses them. A favorable table row, witness, optional record, or local status supplies no Work, value, admission, assurance, or authority by itself.
+The characteristic table and this specification describe how to evaluate; neither is the semantic Method, evaluator action, dated Work, A.6.1 application, or result. A practitioner may make an ordinary package-adequacy judgement without classifying it as `U.Work` or asserting an A.6.1 application. Such an application exists here only when one exact operation declared by a separately admitted Mechanism is actually used and the receiving claim depends on its bindings; Work admission neither creates nor requires it. If the account instead claims dated assessment Work, recover the exact actual evaluator System through A.13 and cite one independently valid A.15.1 Work account. Only when the result expressly represents precise assignment-bound attribution does it also cite the same obtaining A.13 assignment and applicable F.6 relation occurrences. F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. The evaluator System acts; an assignment does not. A local evaluator system-role classification is an optional neighboring claim. The local account exposes assignment or F.6 references only for that attribution branch. A favorable table row, witness, optional record, or local status supplies no Work, value, admission, assurance, or authority by itself.
 
 Each coordinate value is an ordinal content-evaluation quality ascription about the same exact framework episteme edition under the declared ReferenceScheme, ClaimScope, use, and qualification window. It is not a `U.Measure`, measurement output, average, vote, maturity stage, or status use. The aggregate result episteme has its own C.2.1 identity; empirical grounding, witness presence, evidence use, publication, and evaluator identity remain neighboring relations or objects rather than identity slots.
 
@@ -250,7 +251,7 @@ Use these sources and patterns instead of expanding this pattern into a package 
 | Generated or searched package candidate | `C.35`, then `E.4.PFAD` or the pattern that defines, constrains, or tests the candidate content being used |
 | Carrier capture, loss, and preservation | `C.33`, `C.34` |
 | Improvement framing and repeated improvement | `E.22`, `E.23` |
-| Evaluation characteristic space and specification, semantic Method, ordinary evaluator action or references to an independently valid A.15.1 assessment-Work account and applicable F.6 relations, optional A.6.1 application when an operation declared by a separately admitted Mechanism is actually used, coordinate claims, aggregate result episteme, witnesses and evidence use, local status, and external admission or status use | `A.19.ECS`, this E.4.DPF.DA specification, `A.3.1` and `A.3.2`, `A.15.1` and `F.6`, `A.6.1`, `C.2.1`, `A.10`, `F.10`, and `E.19` respectively |
+| Evaluation characteristic space and specification, semantic Method, ordinary evaluator action or references to an exact A.13 actual evaluator and independently valid A.15.1 assessment-Work account, optional same-assignment A.2.1/F.6 attribution only when the result expressly represents it, optional A.6.1 application when an operation declared by a separately admitted Mechanism is actually used, coordinate claims, aggregate result episteme, witnesses and evidence use, local status, and external admission or status use | `A.19.ECS`, this E.4.DPF.DA specification, `A.3.1` and `A.3.2`, `A.13` and `A.15.1`, `A.2.1` and `F.6`, `A.6.1`, `C.2.1`, `A.10`, `F.10`, and `E.19` respectively |
 | FPF-level Pillar effect | `E.2.DA`, only when the package changes FPF-level adequacy |
 
 When a coordinate is below floor, return a finding or repair proposal. When a coordinate is at `4` and improvement is requested, search for a substantive non-dominated improvement. Do not raise a value by adding proof apparatus, more maps, more citations, or quality-status prose unless the package becomes easier to use, more source-grounded, more accurately bounded, or more refreshable.

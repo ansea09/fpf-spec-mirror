@@ -6,12 +6,12 @@ section_id: "A.2.6:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__006_forces.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:4 — Forces"
-line_start: 5298
-line_end: 5307
+line_start: 5308
+line_end: 5317
 dependencies:
   - "A.1.1"
   - "A.15.1"

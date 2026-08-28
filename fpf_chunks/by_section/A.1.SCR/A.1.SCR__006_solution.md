@@ -6,12 +6,12 @@ section_id: "A.1.SCR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__006_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:4 — Solution"
-line_start: 2315
-line_end: 2406
+line_start: 2324
+line_end: 2415
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -108,7 +108,7 @@ A project plan or decision may designate one system as the project system-of-int
 3. admit composite project Work only after A.15.1 and A.15.6 qualifications hold;
 4. state each actual work-to-referent, transformation, production, evaluation, delivery, acceptance, or later-use fact under its own governor;
 5. test any `SystemOfInterestSystemRole` interpretation and any A.2.1 system-role assignment separately; and
-6. when the recognized system must be reconnected to the long dependency from outside use through architecture, Work, change, and recursive builders, have the responsible system perform the applicable Work using the Method described in A.1.STM. Otherwise state the next exact subject assertion under its predicate.
+6. when the recognized system must be reconnected to the long dependency from outside use through architecture, Work, change, and recursive builders, identify each exact admitted performing System, recover its A.13 core, and identify the applicable Method described in A.1.STM before independently admitting each dated Work occurrence under A.15.1. Add F.6 only when the receiving claim also needs precise assignment-bound attribution through that performer's same obtaining assignment. Otherwise state the next exact subject assertion under its predicate.
 
 Infer no project designation from system recognition, affectedness, familiar wording, a system-role label, or shared realization. If the decision needs the unsupported compound project-selection truth, preserve `missing-substrate[project-selection-conjunction]` until one constructor substrate and edition define that claim.
 

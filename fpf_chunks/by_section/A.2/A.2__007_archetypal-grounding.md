@@ -6,12 +6,12 @@ section_id: "A.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__007_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:5 — Archetypal Grounding"
-line_start: 3174
-line_end: 3267
+line_start: 3183
+line_end: 3276
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -117,7 +117,7 @@ An engineering team uses RFC 9110 while designing an HTTP service. Keep these cl
 1. `DesignTeam-2` independently counts under `ProtocolDesignerSystemRole` in the current slice when its signature criterion is satisfied.
 2. One design-assignment occurrence may obtain as an instance of a declared `U.SystemRoleAssignment` species.
 3. The RFC publication is the source episteme in the direct source-use or external-rule relation selected by the design claim.
-4. Dated design Work is performed by `DesignTeam-2` under the exact assignment through F.6 and may produce a MethodDescription or SystemDescription.
+4. Recover `DesignTeam-2` as the exact actual performer through A.13, then let A.15.1 independently admit the dated design Work. Because this case expressly says the Work was performed under the exact design assignment, F.6 afterward establishes that relation through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact. The Work may separately produce a MethodDescription or SystemDescription only through the applicable production claim.
 
 The publication neither counts under the system-role kind nor performs the Work.
 

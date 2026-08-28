@@ -6,12 +6,12 @@ section_id: "E.24.PUB:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__007_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:5 — Archetypal Grounding"
-line_start: 90312
-line_end: 90341
+line_start: 90450
+line_end: 90479
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -59,7 +59,7 @@ An E.24 pattern host can be a publication form expressing an ontic-description e
 
 One instruction edition is available to a training group for studying a method. That `EpistemePublicationRelation` occurrence establishes availability to the declared audience for that bounded use; it establishes neither that anyone read the instruction nor that adjustment, inspection, acceptance, or release work occurred. The same availability alone does not support an acceptance commission's choice about releasing one named lot.
 
-If a commission later makes a release choice and that stronger claim is current, identify any actual choice Work under A.15.1 and F.6 and the resulting `ChoiceResult` under C.11. Keep both separate from the publication occurrence; the publication statement need not carry their identity, staffing, or omission rules.
+If a commission later makes a release choice and that stronger claim is current, recover each exact actual choice-work performer through A.13 and let A.15.1 independently admit any dated choice Work. Add F.6 only when the choice account or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the choice Work intact. Identify the resulting `ChoiceResult` separately under C.11. Keep both Work and result separate from the publication occurrence; the publication statement need not carry their identity, staffing, or omission rules.
 
 When the later claim says that the published instruction was actually used, state that exact use under its direct relation, or under A.6.1 only when a declared operation application is current. If no such route is established, stop at publication availability and let the receiving pattern identify its own blocker. The `ChoiceResult` is neither the choice Work, the bounded-use declaration, nor a participant of the publication occurrence.
 

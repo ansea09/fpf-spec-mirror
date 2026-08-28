@@ -6,15 +6,16 @@ section_id: "F.6:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__016_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:14 — Relations"
-line_start: 93070
-line_end: 93077
+line_start: 93210
+line_end: 93217
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.15.4"
@@ -33,11 +34,15 @@ dependencies:
   - "F.5"
   - "F.9"
 keywords:
-  - "Work attribution"
-  - "exact assignment occurrence"
+  - "already admitted U.Work"
+  - "complete post-admission A.13/A.15.1/F.6 basis"
+  - "conditional profile"
+  - "deprecated performedBy compatibility only"
+  - "direct case fact"
+  - "exact Work-assignment relation"
   - "holder equality"
   - "performedUnderAssignment"
-  - "performer System"
+  - "same obtaining A.13 assignment"
   - "separate evidence"
   - "temporal coverage"
 ---

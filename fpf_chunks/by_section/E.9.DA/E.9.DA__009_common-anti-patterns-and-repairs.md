@@ -6,12 +6,12 @@ section_id: "E.9.DA:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__009_common-anti-patterns-and-repairs.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:8 — Common anti-patterns and repairs"
-line_start: 73359
-line_end: 73379
+line_start: 73490
+line_end: 73510
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -30,7 +30,7 @@ keywords:
 | Anti-pattern | Repair |
 |---|---|
 | **Specification or record as evaluator.** A filled coordinate table, published record, or E.9.DA pattern is said to have assessed the DRR, issued assurance, accepted it, or authorized drafting. | Name the actual evaluator `U.System`; do not replace it with an evaluator-role label. Leave an ordinary review outside Work admission. Add Method, application, or Work identity only when the receiving claim uses it. If dated `U.Work` is asserted, use the complete branch in 4.2. An optional local system-role classification is separate, and neither an assignment nor the record acts. |
-| **Conditional branch collapsed into Work.** A reusable result is said to require assessment Work, or a Method or A.6.1 application is described as Work merely because all three can occur in one stronger case. | Keep Method, application, and Work independently conditional. Work requires the complete Method/application/A.15.1/F.6 account; Method or application alone implies no Work, and an application is related to Work only through a separately defined obtaining relation. |
+| **Conditional branch collapsed into Work.** A reusable result is said to require assessment Work, or a Method or A.6.1 application is described as Work merely because all three can occur in one stronger case. | Keep Method, application, and Work independently conditional. The Work branch requires the Method and application used here, every precise performer's A.13 core, and independent A.15.1 admission. Add F.6 only when precise assignment-bound attribution is also current. Method or application alone implies no Work, and an application is related to Work only through a separately defined obtaining relation. |
 | **Heading-complete DRR.** Headings exist but authors cannot tell what to write. | Return the missing selected answer, selected-locus obligation, and first drafting action for repair; in a complete reusable evaluation, lower the corresponding coordinates. |
 | **Question-complete around the wrong frame.** Every named question is answered, but the DRR omitted a question that changes the answer, architecture, source use, consumer obligation, first action, or stop. | Run the one bounded content-first omitted-question search before coordinate closure. Return the question as a finding and lower the coordinates whose claims it changes; do not narrow the frame to preserve the values. |
 | **Source packet in DRR clothing.** Sources are preserved but FPF decisions are absent. | State selected payload, rejected payload, and selected-locus obligations. |

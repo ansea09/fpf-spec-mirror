@@ -6,12 +6,12 @@ section_id: "A.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__006_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:4 — Solution"
-line_start: 3036
-line_end: 3173
+line_start: 3045
+line_end: 3182
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -128,7 +128,7 @@ Assignment does not prove classification unless the kind's signature uses that i
 | Capability | `A.2.2` | holder, capability instance, envelope, measures, currentness, and fit predicate |
 | Relations among system-role kinds | `A.2.7`, `C.3.1` | exact kind participants and substitution, incompatibility, bundle, or monotonic qualification relation |
 | Description and naming | `F.4`, `F.5`, `F.18` | kind, `SystemRoleKindDescription`, names, and publication or access carrier |
-| Method and Work | `A.3`, `A.15`, `F.6` | Method, MethodDescription, performer system, assignment, Work occurrence, and attribution |
+| Method and Work | `A.3`, `A.13`, `A.15.1`, `F.6` | Method and MethodDescription; exact actual performer recovered through A.13; independently admitted Work occurrence; assignment and F.6 attribution only when precise assignment-bound attribution is expressly consumed |
 | Responsibility, commitment, permission, or authority | direct domain pattern, `A.2.8`, `A.2.8.PER`, or `missing-governor` | actual bearer, exact relation participants, predicate, and instituting or permission basis |
 | Evidence, reliance, or publication | `A.10`, `A.15.4`, `B.3`, `C.2.1`, `E.17`, `F.10` | episteme, evidenced claim, reliance, provenance, currentness, and publication relation |
 

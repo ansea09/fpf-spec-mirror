@@ -6,12 +6,12 @@ section_id: "A.6:5"
 section_title: "Archetypal Grounding (Tell–Show–Show; System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__006_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:5 — Archetypal Grounding (Tell–Show–Show; System / Episteme)"
-line_start: 10442
-line_end: 10508
+line_start: 10455
+line_end: 10521
 dependencies:
   - "A.10"
   - "A.15"
@@ -86,7 +86,7 @@ A boundary description is evolvable iff its claims are separated across the sign
 
 * **Actual occurrence and work layer.**
 
-  * The payment-handling occurrence is `U.Work` only when it satisfies A.15.1 and F.6: name who performed it, the Method, time, containing System, and the assignment under which each performer acted. A short payment account may omit unused assignment identifiers.
+  * The payment-handling occurrence is `U.Work` only when its exact actual performer first has the A.13 core and A.15.1 independently admits the occurrence from its Method, time, containing System, and other required direct facts. If this payment account also asks under which assignment the performer acted, add F.6 through the same obtaining A.13 assignment; missing or failed attribution leaves the payment Work intact.
   * The ledger reservation change, event emission, timer transition, or retry effect is a separate actual-occurrence claim under A.3/A.3.4 or its exact interaction or causal-use pattern. Check each effect separately: knowing that the payment Work occurred does not show that the ledger changed, an event was emitted, or a retry happened.
   * Traces, logs, and metrics enter an A.10 evidence path for the exact effect being relied on; carrier presence creates neither Work nor change.
 * **Publication faces (MVPK).**

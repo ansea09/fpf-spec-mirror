@@ -6,12 +6,12 @@ section_id: "E.13:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__013_sota-echoing.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
   - "E.13:10 — SoTA-Echoing"
-line_start: 79031
-line_end: 79041
+line_start: 79161
+line_end: 79171
 dependencies:
   - "A.10"
   - "A.21"

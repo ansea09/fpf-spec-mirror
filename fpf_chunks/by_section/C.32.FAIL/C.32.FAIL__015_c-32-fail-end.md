@@ -6,14 +6,15 @@ section_id: "C.32.FAIL:End"
 section_title: "C.32.FAIL:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__015_c-32-fail-end.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:End — C.32.FAIL:End"
-line_start: 65113
-line_end: 65114
+line_start: 65192
+line_end: 65193
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

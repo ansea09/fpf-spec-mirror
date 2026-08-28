@@ -6,14 +6,17 @@ section_id: "E.11.PUA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__006_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:5 — Archetypal Grounding"
-line_start: 77863
-line_end: 77928
+line_start: 77993
+line_end: 78058
 dependencies:
+  - "A.13"
   - "A.15"
+  - "A.15.1"
+  - "A.15.PROD"
   - "A.6.5"
   - "A.6.P.WMR"
   - "A.6.RCD"
@@ -27,6 +30,7 @@ dependencies:
   - "E.22"
   - "E.23"
   - "E.8"
+  - "F.6"
   - "G.11"
 keywords:
 ---
@@ -57,7 +61,7 @@ If the recommendation participates in later planning, name its exact source and 
 
 An engineer asks an AI assistant to apply an already selected `A.19.ECS` pattern to a pump-comparison question. The needed result is one exact `EvaluationCharacteristicSpaceSpec` with admitted coordinates, scales, comparators, and evidence rules. No later use asks for a durable pattern-selection trace.
 
-The assistant returns the specification content in ordinary language and keeps the concern, pattern, and stop condition recoverable in the conversation. The text is the required specification only when it satisfies the A.19.ECS and C.2.1 identity rules. Successful ordinary use creates no candidate, fit, applicability, rationale, expectation, or closure record merely because AI helped. If the use also claims first constitution, first use A.15.1 and F.6 to identify the dated Work, performer, and assignment; then state the A.15.PROD inception claim. A short projection may omit identifiers that its receiving use does not need. Work is not a responsibility bearer. If the available basis cannot support the specification, name the unresolved coordinate, scale, comparator, or evidence-rule position, use `A.19.ECS` to resolve it, and leave the completed-specification expectation open. Materialize that return as `PatternUseBoundaryCondition@Context` only when a named reliance needs an addressable boundary; do not emit a complete meta-record stack.
+The assistant returns the specification content in ordinary language and keeps the concern, pattern, and stop condition recoverable in the conversation. The text is the required specification only when it satisfies the A.19.ECS and C.2.1 identity rules. Successful ordinary use creates no candidate, fit, applicability, rationale, expectation, or closure record merely because AI helped. If the use also claims first constitution, recover every precise performer's A.13 core and let A.15.1 independently admit the dated Work; add F.6 afterward only when the closure also consumes exact assignment-bound attribution through the same obtaining assignment, then state the A.15.PROD inception claim. A short attribution projection may omit only an assignment identifier unused by its receiving claim; every fact consumed by the A.13/A.15.1/F.6 basis remains recoverable. A Work-only account stops after A.13 and A.15.1. Work is not a responsibility bearer. If the available basis cannot support the specification, name the unresolved coordinate, scale, comparator, or evidence-rule position, use `A.19.ECS` to resolve it, and leave the completed-specification expectation open. Materialize that return as `PatternUseBoundaryCondition@Context` only when a named reliance needs an addressable boundary; do not emit a complete meta-record stack.
 
 #### E.11.PUA:5.2 - Physical result: work is still future
 
@@ -77,7 +81,7 @@ If the clinically relevant state existed before the current pattern use, return 
 
 #### E.11.PUA:5.3a - Learned capability and assessment remain separate
 
-Identify teaching as dated Work under A.15; use the applicable educational pattern for the educational claim. A later assessment episteme may support a claim that the learner demonstrated a bounded capability or skill only when an applicable educational, assessment, evidence-use, or subject predicate establishes that claim. The capability and the assessment episteme remain distinct. A completed lesson, assessment plan, or filled record cannot occupy the learned-capability position by itself; if no applicable capability predicate is available, return `missing-governor` rather than a generic learning result.
+For a precise teaching-performer claim, first recover every performer's A.13 core and let A.15.1 independently admit the dated teaching Work; add F.6 only when exact assignment-bound attribution through the same obtaining assignment is current. Use the applicable educational pattern for the educational claim. A later assessment episteme may support a claim that the learner demonstrated a bounded capability or skill only when an applicable educational, assessment, evidence-use, or subject predicate establishes that claim. The capability and the assessment episteme remain distinct. A completed lesson, assessment plan, or filled record cannot occupy the learned-capability position by itself; if no applicable capability predicate is available, return `missing-governor` rather than a generic learning result.
 
 #### E.11.PUA:5.4 - Pre-existing result: inspection does not reproduce it
 

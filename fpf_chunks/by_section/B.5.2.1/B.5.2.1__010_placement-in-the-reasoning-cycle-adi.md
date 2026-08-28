@@ -6,12 +6,12 @@ section_id: "B.5.2.1:8"
 section_title: "Placement in the Reasoning Cycle (ADI)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__010_placement-in-the-reasoning-cycle-adi.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:8 — Placement in the Reasoning Cycle (ADI)"
-line_start: 40740
-line_end: 40743
+line_start: 40812
+line_end: 40815
 dependencies:
   - "A.17"
   - "A.18"

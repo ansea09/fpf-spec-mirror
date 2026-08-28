@@ -6,12 +6,12 @@ section_id: "B.2.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__001_intro.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:intro — Intro"
-line_start: 38421
-line_end: 38426
+line_start: 38493
+line_end: 38498
 dependencies:
   - "A.1"
   - "A.10"

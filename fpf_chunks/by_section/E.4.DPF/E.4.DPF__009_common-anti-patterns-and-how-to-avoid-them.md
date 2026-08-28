@@ -6,14 +6,15 @@ section_id: "E.4.DPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70044
-line_end: 70087
+line_start: 70166
+line_end: 70210
 dependencies:
   - "A.1.1"
+  - "A.13"
   - "A.15.1"
   - "A.15.PROD"
   - "A.2.6"
@@ -63,6 +64,7 @@ keywords:
 | --- | --- | --- |
 | Checklist promoted to framework | Local tips are published as a principle framework without source, pattern, relation, or quality work. | Keep the checklist as local process text until the selected source route, `E.8` pattern work, material relation assertions, and `E.21` evaluation support a DPF. |
 | Source summary as SoTA | A literature narrative replaces adopted and rejected source payload and never returns a domain move. | Choose the smallest source route, recover load-bearing claims and limits, and carry them into a pattern Solution, boundary, worked case, contrast, or unresolved inquiry. |
+| Chapter-complete map as practice coverage | Every source chapter has a pattern destination, but the package has no decision-bearing account of recurring difficulties, receiving results, project and Method positions, several structures, pressure evidence, subtraction, or reopenable gaps. | Return to the accepted `E.4.PFAD` practice-architecture input, organize domain fillings by practitioner situation and receiving use, and leave a missing filling as a seed, gap, or omission. Source provenance remains evidence input rather than the coverage criterion. |
 | Earlier DPF as ecosystem law | A useful precedent is copied into another DPF or FPF without checking its subject, Context, edition, use, and transfer limits. | Reuse it through an explicit dependency when those fit; otherwise keep the new claim local or submit a separately reviewed FPF improvement. |
 | Lookup miss as absence | A search index or generated crosswalk returns nothing, so the author concludes that FPF, a DPF, or the literature has no relevant contribution. | Report partial coverage, return useful hits to authoritative bodies and editions, and widen the lookup when a known contribution is missing. |
 | Wording profile by default | Every DPF receives a trigger registry or profile although no recurring domain wording failure or maintained multi-entry use has been shown. | Write only the local entries needed by affected patterns; identify a separate profile only for a named maintained multi-entry use, and keep any table that publishes it as a publication form. |
@@ -85,7 +87,7 @@ keywords:
 | Coverage and acceptance union | One field mixes coverage criterion with WorkPlan acceptance target. | Keep the coverage node complete and cite the plan target separately. |
 | Availability as relevance | A missing dependency is assumed blocking, or an available dependency is assumed current for next use. | Fill availability and use relevance independently; only the exact combined state determines the next-use consequence. |
 | Grounding or context as identity | A grounding holon, organization, project label, package boundary, or bare context word is inserted into episteme identity or used to force sameness. | Keep C.2.1 identity at ClaimGraph, EntityOfConcern, and effective ReferenceScheme; use separate empirical-grounding, ClaimScope, model-use, project-Work, and exact cross-context translation relations only when their predicates obtain. |
-| Authoring order as Method, Work, result, or CGUS | Numbered guidance, arrows, coordination rows, or document order is used as proof that a Method, Work occurrence, result relation, or conditional structure exists. | Recover the authoring Method and qualify a MethodDescription only through A.3.2. When dated Work is actually claimed, use `A.15.1` and `F.6` rather than reconstructing their tests here. Identify any A.6.1 application, direct result or use relation, or independently selected A.22.CGUS separately. Otherwise keep the sequence Plain. |
+| Authoring order as Method, Work, result, or CGUS | Numbered guidance, arrows, coordination rows, or document order is used as proof that a Method, Work occurrence, result relation, or conditional structure exists. | Recover the authoring Method and qualify a MethodDescription only through A.3.2. When dated Work is actually claimed, recover every precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 only when precise assignment-bound attribution is also current. Identify any A.6.1 application, direct result or use relation, or independently selected A.22.CGUS separately. Otherwise keep the sequence Plain. |
 | PatternID used as position or definition | Inserting or moving a pattern causes renumbering, or a mnemonic is treated as a title, dependency, Method relation, or compressed claim. | Keep the public address stable while the practical answer continues, show the current position separately, and state titles and relations in their own fields. Decide splits, merges, replacements, and retirements from content rather than identifier shape. |
 | Build manifest as public framework prose | An all-in-one carrier opens with generated comments, source paths, digests, machine identity fields, or builder warnings, so reproducibility apparatus displaces the working-question route. | Keep those values in builder output, package evidence, or a separately justified manifest; expose `E.11.PFP`'s short public edition line and only those additional cues whose selected reader use requires them before the ToC. |
 

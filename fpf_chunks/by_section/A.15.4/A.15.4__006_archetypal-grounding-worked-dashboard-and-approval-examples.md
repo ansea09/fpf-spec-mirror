@@ -6,14 +6,15 @@ section_id: "A.15.4:3.1"
 section_title: "Archetypal Grounding - Worked Dashboard And Approval Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__006_archetypal-grounding-worked-dashboard-and-approval-examples.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.1 — Archetypal Grounding - Worked Dashboard And Approval Examples"
-line_start: 25757
-line_end: 25837
+line_start: 25782
+line_end: 25862
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.15.5"
@@ -63,12 +64,12 @@ A release dashboard shows a green approval-looking tile for `Release-2026.05.08-
 | Flow constraint-validity witness | Cite `A.20` `ConstraintValidity` status or witness only when the claim is about flow constraint validity, not about the gate decision itself. |
 | Evidence and currentness relation | Use `A.10` for the dashboard query, publication-carrier integrity, evidence refs, time, window, freshness field, revocation relation or revocation record, verifier context, relying context, and rival explanation such as stale display or copied status. |
 | Assurance claim | Use `B.3` only if the tile is being used to raise readiness, compliance, trust, safety, release confidence, `R`, `F`, `G`, or `CL`; otherwise no assurance tuple is being claimed. |
-| Repaired gate-use reliance | With the decision and evidence relation recovered, rely on gate passage only for the named release scope or work target, environment, gate profile, gate version, time, and window; a claim that deployment happened still needs a dated `A.15.1` work occurrence plus the evidence or provenance relation needed for the relying context. |
+| Repaired gate-use reliance | With the decision and evidence relation recovered, rely on gate passage only for the named release scope or work target, environment, gate profile, gate version, time, and window. A claim that deployment happened still needs its actual performer identified through A.13, the dated Work independently admitted through A.15.1, and the evidence or provenance relation needed for the relying context. If that claim must also identify the assignment under which deployment was performed, check the assignment separately through F.6. |
 | Blocked overreads | The dashboard color does not create approval, deontic permission, compliance proof, rollback success, work occurrence, or assurance by display. |
 
 Approval memo green-tile case:
 
-An approval memo may carry an approval claim when it exposes the `A.2.9` `SpeechActRef`, acting System, any exact `actingSystemRoleAssignmentRef : U.RelationRef constrained to U.SystemRoleAssignment` required for F.6 attribution or policy applicability, affected release scope or work target, judgement context, time, window, publication-carrier refs, evidence refs, and instituted effect being claimed. Authority remains a separate direct relation and is never supplied by the assignment. That supports only the bounded approval use defined in `A.2.9`. It does not prove that release, deployment, rollback, or other Work occurred; that performed-Work claim still needs the dated `A.15.1` Work occurrence plus any `A.10` evidence relation required for the relying context.
+An approval memo may carry an approval claim when it exposes the `A.2.9` `SpeechActRef`, the actual performer identified through A.13, and the A.15.1 account that independently admits the speech-act Work. If the approval use must also identify the grantor assignment, or that assignment changes policy applicability, add `actingSystemRoleAssignmentRef : U.RelationRef constrained to U.SystemRoleAssignment` and use F.6 to compare its holder with the already identified performer. Keep affected release scope or work target, judgement context, time, window, publication-carrier refs, evidence refs, and the instituted effect separate. Authority is never supplied by the assignment. The memo supports only the bounded approval use defined in `A.2.9`; release, deployment, rollback, or other performed Work needs its own A.13/A.15.1 basis and any A.10 evidence relation required for reliance.
 
 Credential-status and system-role-assignment-state green-tile case:
 
@@ -112,7 +113,7 @@ Lintable overread cues:
 | --- | --- |
 | `approved`, `authorized`, `allowed`, `recommended`, or `guaranteed` in boundary, API, schema, or policy wording | Split through `A.6` or `A.6.B`; when permission or authority is the live claim, use the single branch above instead of routing from the word. |
 | Dashboard tile, credential-status color, system-role-assignment-state color, or release tile used as release evidence or gate passage | Require `A.21` `GateDecision` or `DecisionLogRef` plus `A.10` evidence and currentness relations. A displayed assignment-state label is neither `SystemRoleAssignmentStateRelation` nor its assertion. |
-| Register screenshot, badge, or entry used as permission, authority, system-role-assignment, assignment-state, or gate evidence | Require five separate recoveries: register-entry episteme and its publication relation; constitutive rule; authorized entry-producing Work, actual exercised Work, or evaluation Work as the selected §3 row requires; direct relation or finding under that row; and `A.10` evidence and currentness. The entry may be authoritative source for the rule's exact claim or effect, but inscription creates neither actual exercise nor a non-violation finding. |
+| Register screenshot, badge, or entry used as permission, authority, system-role-assignment, assignment-state, or gate evidence | Require five separate recoveries: the register-entry episteme and its publication relation; the constitutive rule; every authorized entry-producing, exercised, or evaluation Work, with its performer identified through A.13 and the dated occurrence admitted independently through A.15.1; a separate F.6 check when the result must also identify the assignment under which that Work was performed; the direct relation or finding under the selected §3 row; and `A.10` evidence and currentness. The entry may be authoritative source for the rule's exact claim or effect, but inscription creates neither actual exercise nor a non-violation finding. |
 | Generated explanation uses `authorized`, `approved`, or similar wording | Use `E.17.EFP` for explanation/source-finding and `A.10` for the claim-bound source relation; if permission or authority is current, choose one row in the single branch above. |
 | Model card, datasheet, label, or note cited as readiness, safety, compliance, or release confidence | Require a typed `B.3` assurance claim, intended-use match, evaluation condition, limitations, and `A.10` evidence relation. Use `A.15.5` instead when the current claim is full-kit or work-entry readiness. |
 | Provenance or attestation label cited as truth, safety, release, permission, or authority | Require the bounded `A.10` provenance/process-trace claim plus the applicable pattern and test for the relied-on truth, safety, release, permission, or authority claim. For the last two, use the single branch above; the label is not its result. |
@@ -125,7 +126,7 @@ Stress cases for practice:
 | Green release dashboard tile with no `GateDecisionRef`. | Source-finding only; recover `A.21` decision or decision log plus `A.10` evidence before gate-passage reliance. |
 | Copied approval from last month. | Treat the copy as a source-finding cue; use the permission/authority branch above to choose the one live question, then recover currentness and evidence for that selected object. |
 | Credential badge screenshot after revocation. | Recover the register-entry episteme, its publication relation, named status rule, authorized entry-producing Work, direct status relation, and evidence/currentness/revocation relation separately. The revoked direct relation blocks reliance even when the entry remains visible. |
-| Register entry says `grant exercised; no violation`, but no dated matching Work or evaluation Work is recoverable. | Keep both claims blocked. For exercise, recover dated Work and show that its action and performer satisfy the obtaining grant. For non-violation, recover the evaluation Work and current sufficiently complete frame. Inscription establishes neither result. |
+| Register entry says `grant exercised; no violation`, but no dated matching Work or evaluation Work is recoverable. | Keep both claims blocked. For each exercise or evaluation occurrence, use A.13 to identify the actual performer and A.15.1 to admit the dated Work independently. If the claim must also identify the assignment under which either occurrence was performed, check that relation separately through F.6. Then test the action and beneficiary or the current sufficiently complete frame. Inscription establishes neither result. |
 | Generated explanation says `authorized by policy`. | Use `E.17.EFP` for explanation/source-finding and `A.10` for the claim-bound source relation; if permission or authority is current, choose and verify one row in the single branch above. |
 | Boundary wording says `guaranteed approved for production`. | Split the sentence through `A.6` or `A.6.B`; use `A.6.C` for agreement-like or promise-bearing content and the single permission/authority branch above only for the permission or authority claim that remains. |
 | Dashboard says green while decision log says blocked. | Treat as conflicting source relations; name source-relation order, the decision or rule establishing that order, freshness policy, and supersession rule before the work claim or reliance claim is used. |

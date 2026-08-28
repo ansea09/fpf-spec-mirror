@@ -6,12 +6,12 @@ section_id: "E.22:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__013_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:12 — Relations"
-line_start: 88452
-line_end: 88470
+line_start: 88590
+line_end: 88608
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -39,7 +39,7 @@ keywords:
 | `E.23` | Governs repeated improvement after framed evaluations return findings or proposal rows. |
 | `E.13` | Governs pragmatic utility and proxy-to-value alignment when framed values, visible measures, proposal counts, or all-`5` posture are being used as the intended improvement value. |
 | `A.19`, `A.19.ECS`, `A.19.CPM`, `A.2.6` | Govern the selected `CharacteristicSpace`, its construction description, predicate/comparator semantics and actual comparison application, and exact `U.ClaimScope`; E.22 binds their values for one question but does not redefine them. |
-| `A.15.1`, `F.6`, `A.2`, `A.2.1`, `A.6.1`, `C.2.1` | Define or constrain actual evaluation Work, its attribution, any operation application and result binding, and any durable result episteme. The direct evaluation pattern defines its typed result relation; E.22 mints no generic evaluation-result or Work-result relation. An ordinary frame may stop at an intended evaluator or planned condition without asserting actual Work. |
+| `A.13`, `A.15.1`, `A.2`, `A.2.1`, `F.6`, `A.6.1`, `C.2.1` | Define or constrain the exact evaluator, independently admitted evaluation Work, optional local classification and precise assignment-bound attribution, any operation application and result binding, and any durable result episteme. Assignment and F.6 refs are included only when the record or receiving use expressly represents attribution. The direct evaluation pattern defines its typed result relation; E.22 mints no generic evaluation-result or Work-result relation. An ordinary frame may stop at an intended evaluator or planned condition without asserting actual Work. |
 | `A.2.4`, `A.10`, `G.11` | Govern actual evidence use, provenance, and currentness separately from the expected evidence-basis description. |
 | `C.22.PFR` | Governs an actual Problem occurrence when the consuming use relies on one; evaluation need, finding, or floor failure alone establishes none. |
 | `E.10`, `E.10.ROLE`, `A.6.P`, `C.2.P`, `F.18` | Repair load-bearing wording and names introduced by frames or findings. `E.10.ROLE` resolves an ambiguous source *role* before E.22 cites a local system-role kind, assignment occurrence, relation participant, or ordinary non-system meaning. |

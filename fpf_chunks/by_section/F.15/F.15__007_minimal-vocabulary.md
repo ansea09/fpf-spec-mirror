@@ -6,15 +6,16 @@ section_id: "F.15:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__007_minimal-vocabulary.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:5 — Minimal vocabulary"
-line_start: 96035
-line_end: 96046
+line_start: 96175
+line_end: 96186
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -54,7 +55,7 @@ keywords:
 * **Static Conformance Rule (SCR)** - an F.15-local declared predicate over exact current inputs.
 * **Regression and Stability Conformance Rule (RSCR)** - an F.15-local declared predicate over exact earlier/later inputs plus the continuity or change claim and receiving use.
 * **Check application** - an actual A.6.1 operation application with exact rule and object bindings, when current.
-* **Dated assessment Work** - a specific `U.Work` occurrence used only for a replayable performance claim. Its complete A.15.1/F.6 basis must already be established.
+* **Dated assessment Work** - a specific `U.Work` occurrence used only for a replayable performance claim. Each performer must already have the A.13 core and the Work must already be independently admitted under A.15.1. F.6 is additionally required only when the receiving claim needs precise assignment-bound attribution.
 * **Result claim** - one C.2.1 episteme asserting `pass`, `fail`, or `undetermined` for one exact rule application, scope version, and use; not a general status value.
 * **Witness** - an exact example, counterexample, invariant, trace, or edition note cited by the result claim; its presence is not the result or an evidence-use relation.
 * **Conformance record** - an optional C.2.1 episteme that packages refs to the scope, applications/work, result claims, witnesses/evidence paths, non-admitted uses, and reopen conditions; it performs no check.

@@ -6,12 +6,12 @@ section_id: "C.32.ADA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__006_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:5 — Archetypal Grounding"
-line_start: 65906
-line_end: 65915
+line_start: 65988
+line_end: 65997
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 
 ### C.32.ADA:5 - Archetypal Grounding
 
-**Developer-work readiness.** A service architecture decision has strong candidate traceability and trade-off rationale, but the ADR only says “teams should use events.” ADA gives `MethodAndWorkDockingAdequacy = 2 partiallyExpressedForDeclaredUse` because the acting systems, exact system-role assignments and F.6 attribution, MethodDescription, expected structure effect, and readiness condition are not recoverable. Any responsibility claim must also cite its direct domain predicate or exact missing governor. The repair states only those exact assertions using PAD, A.15, and A.6.RCD before developers are instructed.
+**Developer-work readiness.** A service architecture decision has strong candidate traceability and trade-off rationale, but the ADR only says "teams should use events". ADA gives `MethodAndWorkDockingAdequacy = 2 partiallyExpressedForDeclaredUse` because the acting Systems, MethodDescription, expected structure effect, and readiness condition are not recoverable. In this case the ADR also expressly requires accountable implementation under an exact assignment, so the absent assignment species/current occurrence and F.6 relation are additional attribution defects; a Work-only instruction would not require them. Any responsibility claim must cite its direct domain predicate or exact missing governor.
 
 **ADR-publication readiness.** A manufacturing architecture decision is clear, but the trade-study memo omits status and supersession. ADA gives `PublicationProjectionAdequacy = 2 partiallyExpressedForDeclaredUse` and `EvolutionAndReopenConditionAdequacy = 3 sufficientlyExpressedForDeclaredUse`. The repair states the missing record-status and supersession assertions using C.32.ADR.
 

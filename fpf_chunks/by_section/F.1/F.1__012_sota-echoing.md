@@ -6,12 +6,12 @@ section_id: "F.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__012_sota-echoing.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:11 — SoTA-Echoing"
-line_start: 91622
-line_end: 91633
+line_start: 91760
+line_end: 91771
 dependencies:
   - "A.10"
   - "A.7"

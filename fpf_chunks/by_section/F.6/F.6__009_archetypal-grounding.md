@@ -6,15 +6,16 @@ section_id: "F.6:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__009_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:7 — Archetypal Grounding"
-line_start: 92945
-line_end: 92989
+line_start: 93085
+line_end: 93129
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.15.4"
@@ -33,11 +34,15 @@ dependencies:
   - "F.5"
   - "F.9"
 keywords:
-  - "Work attribution"
-  - "exact assignment occurrence"
+  - "already admitted U.Work"
+  - "complete post-admission A.13/A.15.1/F.6 basis"
+  - "conditional profile"
+  - "deprecated performedBy compatibility only"
+  - "direct case fact"
+  - "exact Work-assignment relation"
   - "holder equality"
   - "performedUnderAssignment"
-  - "performer System"
+  - "same obtaining A.13 assignment"
   - "separate evidence"
   - "temporal coverage"
 ---
@@ -81,7 +86,7 @@ An access directory says Alice has `DB-Admin`. That entry describes an access or
 
 #### F.6:7.6 - Distributed Performers and Child Work
 
-`ReviewTeam-9` and `Alice`, both admitted as `U.System`, perform `JointReviewWork-9`. `TeamReviewAssignment-9` covers the team; `MemberReviewAssignment-A9` covers Alice. The case establishes one F.6 attribution for each performer and assignment. Neither assignment can stand for the other performer. If `AliceFindingCheckWork-9` is separately admitted as child Work, it keeps Alice as performer, its own covering assignment and F.6 attribution, and its Work-part relation to `JointReviewWork-9`.
+A.13 first recovers `ReviewTeam-9` and `Alice` as the two exact actual performers through `TeamReviewAssignment-9` and `MemberReviewAssignment-A9`, and A.15.1 independently admits `JointReviewWork-9`. Because this example expressly represents assignment-bound attribution for each performer, F.6 afterward establishes one relation for each Work-assignment pair through those same assignments. Neither assignment identifies or stands for the other performer. If `AliceFindingCheckWork-9` is separately admitted as child Work after its own A.13/A.15.1 basis passes, add its covering assignment and F.6 link only because this example also expressly attributes that child Work, and keep its Work-part relation to `JointReviewWork-9` separate.
 
 #### F.6:7.7 - Passive Test Article
 

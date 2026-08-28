@@ -6,12 +6,12 @@ section_id: "E.15:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__002_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:1 — Problem Frame"
-line_start: 79415
-line_end: 79428
+line_start: 79545
+line_end: 79558
 dependencies:
   - "C.18"
   - "C.19"

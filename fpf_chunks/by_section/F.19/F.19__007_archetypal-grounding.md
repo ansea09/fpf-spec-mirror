@@ -6,12 +6,12 @@ section_id: "F.19:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__007_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:5 — Archetypal Grounding"
-line_start: 98690
-line_end: 98705
+line_start: 98830
+line_end: 98845
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -38,7 +38,7 @@ keywords:
 | Grounding slice | Before | F.19 repair |
 |---|---|---|
 | Pattern use, ordinary | "`A.15` handles the work-planning claim." | "Use `A.15` to plan the work." |
-| Pattern use, identity-bearing | "The pattern performed the planning." | "Engineer E performed planning Work W. Point to W's complete A.15.1/F.6 basis; use `A.3.2` only if a named episteme describes the enacted Method." |
+| Pattern use, identity-bearing | "The pattern performed the planning." | "Engineer E performed planning Work W. Point to W's basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution; use `A.3.2` only if a named episteme describes the enacted Method." |
 | Pattern and relation, ordinary | "The governing relation is `C.29`." | "Use `C.29` to test whether the mathematical lens is admissible for this task." |
 | Pattern and relation, identity-bearing | "`C.29` says so." | "If a comparison depends on the rule edition, cite the claim-bearing episteme and `ClaimGraph` that contain the admissibility rule." |
 | Pattern-text purpose | "Pattern text must not contain corpus projection evidence." | "A pattern must not contain projection evidence about itself." |

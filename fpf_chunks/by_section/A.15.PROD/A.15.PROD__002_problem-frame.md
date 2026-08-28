@@ -6,12 +6,12 @@ section_id: "A.15.PROD:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__002_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:1 — Problem Frame"
-line_start: 27003
-line_end: 27051
+line_start: 27085
+line_end: 27133
 dependencies:
   - "A.1"
   - "A.15.1"
@@ -55,12 +55,12 @@ The practitioner **MUST NOT** answer one question with evidence for another.
 | Recognition situation | First current question | Blocked overread |
 | --- | --- | --- |
 | A fastening step is said to have "produced Car 42". | Is the step whole production work or a proper part, did Car 42 already exist, and which completion criterion is current? | The last visible step establishes neither first existence nor completion by narrative order. |
-| A culture run or spontaneous biological process is said to have "produced Batch B17". | Is there an exact performing System, an obtaining occurrence of a directly declared assignment species, F.6 attribution, and Method enactment in dated Work; only then, which identity or completion branch is current? | Growth or reaction alone may ground actual transformation but establishes no Work occurrence admitted under `U.Work` and no production-through-work claim; a batch label, sample, or first observation closes none of those questions. |
+| A culture run or spontaneous biological process is said to have "produced Batch B17". | Does A.13 recover each exact actual performer and does A.15.1 independently admit dated Work with an enacted Method; only when this production claim also consumes precise assignment-bound attribution, does F.6 then relate the Work through the same obtaining assignment; only after that, which identity or completion branch is current? | Growth or reaction alone may ground actual transformation but establishes no Work occurrence admitted under `U.Work` and no production-through-work claim; a batch label, sample, first observation, assignment, or F.6 assertion closes none of those questions. |
 | A build pipeline is said to have "produced ReleaseBinary 12". | Which dated build work and governed effects first established the exact artifact identity, or satisfied the build-completion criterion? | Build success, publication, release, deployment, and availability remain different claims. |
 
 **First worked replay — Car 42.**
 
-- **Work and actor.** `FasteningCell-7 : U.System` performs `NutFasteningWork-42` as the holder of obtaining assignment `Car42FasteningAssignment-42`. The assignment is an occurrence of directly declared `Car42FasteningAssignmentSpecies`, covers the Work, and supplies its F.6 attribution. The Work enacts the applicable fastening Method.
+- **Work and actor.** A.13 first recovers `FasteningCell-7 : U.System` as the exact actual performer through obtaining `Car42FasteningAssignment-42`; A.15.1 independently admits `NutFasteningWork-42` and its enacted fastening Method. Because this replay expressly represents precise assignment-bound attribution, F.6 afterward relates the Work through that same assignment. F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact.
 - **Actual change.** The named Work-to-change predicate connects that Work to `Car42FastenerAttachmentTransformation`.
 - **State and closure.** At the fastening boundary, Car 42 satisfies the finishing-state criterion. `Car42FasteningClosureRule-v1` separately makes that satisfaction sufficient to close the fastening Work for this narrow use.
 - **Answer.** **The Work completed the required fastening; it did not bring Car 42 into existence.**

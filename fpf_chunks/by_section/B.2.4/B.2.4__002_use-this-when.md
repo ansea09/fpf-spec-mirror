@@ -6,12 +6,12 @@ section_id: "B.2.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__002_use-this-when.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:0 — Use This When"
-line_start: 38229
-line_end: 38248
+line_start: 38301
+line_end: 38320
 dependencies:
   - "A.10"
   - "A.15"

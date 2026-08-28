@@ -6,12 +6,12 @@ section_id: "E.18:7"
 section_title: "Conformance Checklist — Unified checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__009_conformance-checklist-unified-checklist-normative.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:7 — Conformance Checklist — Unified checklist (normative)"
-line_start: 84450
-line_end: 84516
+line_start: 84580
+line_end: 84646
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

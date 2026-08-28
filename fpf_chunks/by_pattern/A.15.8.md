@@ -6,19 +6,21 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.8.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
-line_start: 26766
-line_end: 26990
+line_start: 26848
+line_end: 27072
 dependencies:
   - "A.1"
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.4"
   - "A.15.5"
   - "A.15.7"
+  - "A.2.1"
   - "A.2.2"
   - "A.22"
   - "A.6.RCD"
@@ -103,7 +105,7 @@ An arrangement remains ordinary prose unless another use needs an exact `U.Struc
 3. **Recover concrete contributions and dependencies.** Translate words such as *attention*, *memory*, *computation*, and *checking* into exact sensing, selection, monitoring, operation, record, state, evaluation, communication, access, update, control, or other direct relations. For actual Work, retain only relations whose obtaining, loss, or change can alter continuation, result, or recovery of that occurrence. For a WorkPlan, retain only relations whose obtaining, loss, or change can alter the current plan, proposed configuration, or intended-performance content. For every attempted relation claim, name the exact participants and receiving use. When a current predicate definition, applicability condition, occurrence rule, or other governor can state or test it, apply that governor and preserve its result: use `factually unsupported` only when the available case basis is sufficient and the positive test fails, `missing-information` when a needed fact is unavailable, and an inapplicable or negative result only under the governor's own rule. Return `missing-governor` only when no current rule can state or test the attempted claim for those participants and that use. Name capability and authority only when their direct claims are current.
 4. **Expose the minimum continuation state.** For each value needed after interruption, handoff, support loss, or delay, state what it concerns, where it resides, who or what may update and use it, how currentness or consistency is determined, and which return condition makes it usable. Keep world state, claims, carriers, and cues distinct.
 5. **Select the weakest decision-changing condition.** Choose one representative interruption, handoff, degraded support, changed performer, changed tool or environment, or delayed-continuation condition. Apply it to the named Work occurrence in the actual branch. In the prospective branch, formulate it as a condition of the current WorkPlan, proposed configuration, or intended-performance content. If executing the probe creates actual test Work or a later performance, admit that occurrence separately under `A.15.1`; otherwise keep the condition in the plan or probe claim. Do not demand a ritual battery.
-6. **Run the direct domain probe and observe recovery.** Select an applicable human-factors, biological, software, robotics, operations, rehearsal, safety, or other domain `U.Method` only to define or constrain the probe, mechanism, thresholds, safety rules, and evidence rules. When the probe is executed, admit its dated probe Work separately under `A.15.1`, name the admitted performer System and F.6 attribution, and state that the Work enacts the Method. When it remains prospective, keep it as a condition in the WorkPlan or probe claim. Observe result recovery, time or burden where material, wrong continuation, missing or stale state, unsupported dependency, protected-condition loss, and fallback or stop. This pattern supplies no universal cue, timeout, checkpoint algorithm, intervention, or safety threshold.
+6. **Run the direct domain probe and observe recovery.** Select an applicable human-factors, biological, software, robotics, operations, rehearsal, safety, or other domain `U.Method` only to define or constrain the probe, mechanism, thresholds, safety rules, and evidence rules. When the probe is executed, recover each actual performer through A.13 and admit its dated probe Work separately under `A.15.1`; state that the Work enacts the Method. Add A.2.1 and F.6 only when this probe account expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. A missing or failed attribution leaves the probe Work intact. When the probe remains prospective, keep it as a condition in the WorkPlan or probe claim. Observe result recovery, time or burden where material, wrong continuation, missing or stale state, unsupported dependency, protected-condition loss, and fallback or stop. This pattern supplies no universal cue, timeout, checkpoint algorithm, intervention, or safety threshold.
 7. **Return one branch-specific account to direct owners.** State which exact Work occurrence or present WorkPlan is the focus, what configuration is supported for which occurrence or intended-performance content and window, what failed or remains unknown, and the next relation or configuration repair or stop. Return System identity to `A.1` or `B.2`, Structure to `A.22`, architecture to `C.30`, capability to `A.2.2`, actual Work and resumption identity to `A.15.1`, plan content and plan change to `A.15.2`, representations to their direct owners, evidence to `A.10`, and a receiving choice to `C.11` or `A.15.7`.
 
 #### A.15.8:4.3 - Return the first result in plain language
@@ -162,7 +164,7 @@ Recover the exact object or relation before relying on the umbrella word.
 
 #### A.15.8:6.1 - Literature qualification across a researcher, services, and files
 
-**Situation.** `LiteratureQualificationWork-2026-08-27-AM` is one admitted actual Work occurrence. `Researcher-17` is an actual performer under its separately established assignment and F.6 attribution. A search service, language-model service, repository, pinned papers, claim sheet, and unresolved-question note support the Work; none becomes a performer or constituent of a new whole merely by appearing in the configuration. A reviewer may continue later.
+**Situation.** `LiteratureQualificationWork-2026-08-27-AM` is one admitted actual Work occurrence. `Researcher-17` is first recovered as an actual performer through A.13, and A.15.1 admits the Work independently. This recovery account also compares accountability under one named assignment, so it separately establishes the exact A.2.1 occurrence and F.6 attribution; failure of that later relation would lower only the accountability attribution, not erase the Work. A search service, language-model service, repository, pinned papers, claim sheet, and unresolved-question note support the Work; none becomes a performer or constituent of a new whole merely by appearing in the configuration. A reviewer may continue later.
 
 **Probe.** The fresh-session and reviewer-handoff probe removes the original model session and asks the reviewer to recover the bounded question, exact source editions, accepted and rejected claim reasons, open uncertainty, and next probe.
 
@@ -174,7 +176,7 @@ Recover the exact object or relation before relying on the umbrella word.
 
 **Situation.** `SettlementComputationWork-2026-08-27-Run42` is one admitted long-running computation Work occurrence. Its separately grounded performer Systems exchange messages and use an object store, configuration values, intermediate results, completed-effect records, and provenance records. Another worker must continue without duplicating an irreversible settlement effect.
 
-**Probe.** `RecoveryTestController-Run42 : U.System` performs separately admitted `WorkerLossRecoveryProbeWork-Run42-P1 : U.Work` in a bounded representative environment under its separately established assignment and F.6 attribution. That probe Work enacts the selected computing `U.Method`: it removes one worker after a message has been emitted but before its local completion record is available, then attempts recovery from the selected state mechanism.
+**Probe.** `RecoveryTestController-Run42 : U.System` first has the A.13 core for the probe action; A.15.1 then independently admits `WorkerLossRecoveryProbeWork-Run42-P1 : U.Work` in the bounded representative environment. The recovery comparison expressly uses which controller assignment covered the probe, so the account separately establishes that A.2.1 occurrence and F.6 attribution through the same A.13 assignment. That probe Work enacts the selected computing `U.Method`: it removes one worker after a message has been emitted but before its local completion record is available, then attempts recovery from the selected state mechanism. If the F.6 link failed, the probe Work would remain and only its assignment-bound attribution would be unresolved.
 
 **Observation and result.** Process state is recoverable, but channel state and the completed-effect provenance relation are not mutually consistent. The branch-specific account names those state bearers and update/use relations and returns the missing idempotency or provenance condition. A Chandy-Lamport snapshot, event sourcing, transaction protocol, or another computing Method may be selected as the reusable way for the repair. If the repair is carried out, an admitted System performs the dated repair Work and that Work may enact the selected Method; this pattern selects neither.
 
@@ -184,7 +186,7 @@ Recover the exact object or relation before relying on the umbrella word.
 
 **Situation.** `ConcertPerformancePlan-2026-09-12` is one exact present `U.WorkPlan`. Its declaration-local content names a musician and a robotic prosthesis controller as intended performers for a proposed performance after device replacement. It also names an instrument, cue source, power support, control link, and allowed latency. None of this content is a future Work occurrence or obtaining assignment.
 
-**Probe.** The current plan proposes a rehearsal under changed latency and a degraded visual-cue condition. Its material, timing, control, threshold, and stop rules are taken from the applicable music-performance, robotics, human-factors, and safety Methods. If the rehearsal occurs, an admitted performer System performs that separately admitted actual Work under `A.15.1` and F.6.
+**Probe.** The current plan proposes a rehearsal under changed latency and a degraded visual-cue condition. Its material, timing, control, threshold, and stop rules are taken from the applicable music-performance, robotics, human-factors, and safety Methods. If the rehearsal occurs, first recover each actual performer through A.13 and admit the actual Work independently under `A.15.1`. Add F.6 only if the receiving rehearsal account also consumes precise assignment-bound attribution; missing or failed F.6 leaves the rehearsal Work intact.
 
 **Observation and result.** Current evidence does not support recovery after cue loss within the required timing window. The WorkPlan-focused account names the intended performers, support and control relations, return condition, uncertainty, and the planned probe. It returns a plan repair: restore a redundant cue/control relation or narrow the supported configuration. Capability claims for the musician, device, or any independently admitted whole stay separate.
 
@@ -199,7 +201,7 @@ A use conforms to this pattern only when it passes the checks that its claimed r
 3. Actual performers, intended performers, supports, values, and environmental conditions remain distinct. Every attempted relation claim names exact participants and the receiving use, applies a current direct governor when one exists, and preserves its `factually unsupported`, `missing-information`, inapplicable, negative, or other direct result; `missing-governor` is used only when no rule can state or test that claim.
 4. No arrangement becomes a System, performer, Agent, capability holder, Structure, architecture, or evidence merely by inclusion or wording.
 5. Continuation-critical state names its concern, bearer or carrier, update and use relations, currentness or consistency condition, and return condition when each matters.
-6. The probe is the weakest representative condition that can change the receiving decision; its mechanism, thresholds, safety rules, and evidence rules come from an applicable direct domain Method, while an admitted System performs any dated probe Work under `A.15.1` and F.6.
+6. The probe is the weakest representative condition that can change the receiving decision; its mechanism, thresholds, safety rules, and evidence rules come from an applicable direct domain Method. For any dated probe Work, recover the exact actual performer through A.13 and let A.15.1 independently admit the occurrence; add F.6 only for an expressly consumed precise assignment-bound attribution, whose failure leaves the Work intact.
 7. Actual test or later performance Work is admitted separately under `A.15.1`; a proposed condition remains a plan or probe claim.
 8. The result names one unsupported dependency and next repair or stop, or states that the selected probe found none within its declared window.
 9. A relied-on account has one truthful C.2.1 focus and effective ReferenceScheme; incompatible focuses split instead of forming a plural EntityOfConcern.
@@ -248,7 +250,7 @@ Use source traditions for the action they change and keep their scope limits. Th
 
 ### A.15.8:11 - Relations
 
-- **Builds on:** `A.1` for admitted Systems and boundaries; `A.15.1` and `F.6` for actual Work, assignments, performers, and attribution; `A.15.2` for present WorkPlans and declaration-local intended-performance content; `A.6.REL` and direct relation patterns for obtaining relations; `A.6.RCD` for the exact `missing-governor`, `factually unsupported`, and `missing-information` split; and C.2.1 when a result must persist as an account episteme.
+- **Builds on:** `A.1` and `A.13` for admitted Systems and exact actual-performer cores; `A.15.1` for independent actual-Work admission; `A.2.1` and `F.6` only for an expressly consumed precise assignment-bound attribution; `A.15.2` for present WorkPlans and declaration-local intended-performance content; `A.6.REL` and direct relation patterns for obtaining relations; `A.6.RCD` for the exact `missing-governor`, `factually unsupported`, and `missing-information` split; and C.2.1 when a result must persist as an account episteme.
 - **Coordinates with:** `A.15.5` for work-entry readiness; `A.15.7` for next-action selection after a configuration blocker is repaired; `A.2.2` and `E.23.CDI` for holder capability and capability development; `A.22` and `C.30` for selected Structure and architecture; `C.27.TA` for temporal/currentness claims; `C.2.P.DR` and direct representation patterns for carriers and representations; `A.10` for evidence reliance; `A.15.4` for appearance-based reliance repair; `C.11` for receiving decisions; direct domain patterns and Methods for probe mechanisms, thresholds, and safety rules; and direct subject patterns for authority and evidence.
 - **Informs:** domain patterns for equipped or joint performance, human capability development, organizational coordination, operations and service recovery, human factors, robotics, software and distributed systems, and biological Work when they retain their own quantities, mechanisms, evidence, and stops.
 

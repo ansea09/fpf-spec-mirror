@@ -6,12 +6,12 @@ section_id: "E.18.NET:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:4 — Solution"
-line_start: 86002
-line_end: 86144
+line_start: 86132
+line_end: 86274
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -179,5 +179,5 @@ Use A.22.CGUS and E.18.3 for an admitted network-aware `DemonstrativeUnfoldingSl
 
 Use C.30.TFS-REL when architecture uses the selected network. Name one exact containing holon whose `ArchitectureOf@Context` selects the network, or explicitly state the inter-holon use and its participating architecture claims without inventing a bearer. Use C.32.CONWAY only for its one-pair architecture-influence reading; the pair neither acts nor becomes the network.
 
-Only admitted Systems perform Work. Selecting a network, writing its record, or drawing its graph may be Work when A.15.1 admits the occurrence; none is performance by the network, and no Work claim is needed merely to select or discuss the network. When selection Work is material, cite the independently established A.15.1/F.6 result and leave its assignment and attribution proof with those patterns. Keep the Method, performer, dated Work, result episteme, selection or decision relation, and any C.11 choice result separate. A result episteme is not a decision or accountability relation by form; state accountability, duty, responsibility, or authority only through the exact direct relation that obtains.
+Only admitted Systems perform Work. Selecting a network, writing its record, or drawing its graph may be Work when A.15.1 independently admits the occurrence after each precise performer has an A.13 core; none is performance by the network, and no Work claim is needed merely to select or discuss the network. When selection Work is material, cite those already established A.13 and A.15.1 results. Cite F.6 only when the current network account also needs precise assignment-bound attribution, and leave its proof with F.6. Keep the Method, performer, dated Work, result episteme, selection or decision relation, and any C.11 choice result separate. A result episteme is not a decision or accountability relation by form; state accountability, duty, responsibility, or authority only through the exact direct relation that obtains.
 

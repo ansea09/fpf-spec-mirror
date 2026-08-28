@@ -6,14 +6,17 @@ section_id: "E.11.PUA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__004_forces.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:3 — Forces"
-line_start: 77479
-line_end: 77490
+line_start: 77610
+line_end: 77621
 dependencies:
+  - "A.13"
   - "A.15"
+  - "A.15.1"
+  - "A.15.PROD"
   - "A.6.5"
   - "A.6.P.WMR"
   - "A.6.RCD"
@@ -27,6 +30,7 @@ dependencies:
   - "E.22"
   - "E.23"
   - "E.8"
+  - "F.6"
   - "G.11"
 keywords:
 ---

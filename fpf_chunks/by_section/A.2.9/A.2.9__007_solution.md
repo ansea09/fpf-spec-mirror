@@ -6,14 +6,15 @@ section_id: "A.2.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__007_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:4 — Solution"
-line_start: 7376
-line_end: 7515
+line_start: 7386
+line_end: 7525
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -26,17 +27,20 @@ dependencies:
   - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
-  - "actual communicative occurrence"
-  - "admitted speech-act Work kind"
-  - "authority-grounding assignment"
+  - "A.13-qualified actual performer"
+  - "containment"
+  - "enacted Method"
   - "evidence carrier"
+  - "independently admitted speech-act Work"
   - "institutional target and effect"
   - "named receiving use"
   - "optional SpeechActRecord"
-  - "performing U.System"
   - "publication relation"
   - "response versus achievement"
+  - "same obtaining assignment"
+  - "separate later performedUnderAssignment"
   - "smallest repair or stop"
+  - "time"
   - "utterance description"
 ---
 
@@ -46,7 +50,7 @@ When a receiving use is current, state who should understand or do what because 
 
 Repair the smallest thing that blocks the stated use—for example, wording, representation, prerequisites, medium, interaction, or a future receiving use—or stop. Judge earlier communicative Work against the use stated for that occurrence. A revised use applies to later communication or to a separately named reevaluation; it does not turn the earlier response into achievement of the earlier declared use. Authority, consent, permission, and ethical or institutional admissibility remain separate questions.
 
-When exact occurrence identity, governance, modeling, audit, or reliance is current, use the admitted kernel kind `U.SpeechAct`. An individual `SA : U.SpeechAct` is performed by an admitted `U.System` under an assignment occurrence whose species is declared and enacts a `U.Method`. A separate recognition-taxonomy episteme and effective reference scheme make its act-type classification inspectable; an applicable policy or procedure defines any claimed institutional force. A `SpeechActRecord` may describe that occurrence and point to a MethodDescription, optional channel, utterance descriptions, or evidence carriers; none of those epistemic or representational objects is the act or the enacted Method.
+When exact occurrence identity, governance, modeling, audit, or reliance is current, use the admitted kernel kind `U.SpeechAct`. An individual `SA : U.SpeechAct` first passes the independent A.13/A.15.1 admission route: the exact actual performer System satisfies and is classified under one local agential system-role kind, holds one obtaining assignment, and has adequate core evidence; the communicative performance history, enacted Method, temporal extent, and containing-System relation are grounded. A characteristic profile is added only when conditionally consumed. If the use also claims the exact assignment under which the act occurred, F.6 then relates the already admitted `SA` to that same obtaining A.13 assignment. A separate recognition-taxonomy episteme and effective reference scheme make the act-type classification inspectable; an applicable policy or procedure defines any claimed institutional force. A `SpeechActRecord` may describe the occurrence and point to a MethodDescription, optional channel, utterance descriptions, or evidence carriers; none is the act or enacted Method.
 
 #### A.2.9:4.1 — Normative definition
 
@@ -60,13 +64,13 @@ When exact occurrence identity, governance, modeling, audit, or reliance is curr
 
 Per A.7 and A.15.1, the actual speech-act occurrence is a Work individual; its `SpeechActRecord` and **utterance descriptions** are epistemes, while its **carriers** are utterance carriers, publication carriers, or traces that allow observation and audit. *(Note: “Surface” is reserved for MVPK publication/interoperability surfaces; do not use it here.)*
 
-Occurrence identity specializes A.15.1. Start from one actual communicative performance history: several satisfied act types classify that one Work occurrence. Identify more than one occurrence only when distinct performance history, enacted Methods, institutional actions, or another admitted discriminator establishes distinct Work. A shared utterance, carrier, or interval decides neither sameness nor difference. If a named use still admits more than one defensible segmentation, cite its continuity or segmentation rule or leave the occurrence boundary unresolved.
+Occurrence identity specializes A.15.1. Admit a candidate as actual communicative Work from one exact communicative performance history, every actual performer's A.13 core, an enacted Method, temporal extent, and containing-System relation; do not use an F.6 conclusion as an admission premise. Several satisfied act types classify that one Work occurrence. Identify more than one occurrence only when distinct performance history, enacted Methods, institutional actions, or another admitted discriminator establishes distinct Work. A shared utterance, carrier, assignment, or interval decides neither sameness nor difference. If a named use still admits more than one defensible segmentation, cite its continuity or segmentation rule or leave the occurrence boundary unresolved. Check any precise assignment-bound attribution through F.6 only after admission.
 
 Whether a given act type institutes commitments, permissions, publication relations, or status changes depends on an exact current policy or procedure and on the direct obtaining conditions of the claimed effect. Absent that basis, treat `SA : U.SpeechAct` only as actual communicative Work; neither its kind membership, recognition classification, channel, MethodDescription, nor a complete-looking record licenses a deontic or status inference.
 
 #### A.2.9:4.2 — Minimal occurrence-description record (normative)
 
-Use the following declaration schema only when a receiving use needs a persistent claim about an actual or candidate speech-act occurrence. The record fields state claims about the referenced occurrence; they are not fields stored in the Work individual and do not make it occur.
+Use the following declaration schema only when a receiving use needs a persistent claim about one already admitted actual speech-act occurrence. The record fields state claims about the referenced occurrence; they are not fields stored in the Work individual and do not make it occur. A source that has only a candidate observation uses the separate non-conformant episteme/stub described under `SpeechActRef` discipline; it supplies neither a `SpeechActRef` nor a `SpeechActRecord`.
 
 ```
 U.SpeechAct <: U.Work
@@ -79,8 +83,8 @@ SpeechActRecord <: U.Episteme
 SpeechActRecord ::=
     {
       speechActOccurrenceRef: SpeechActRef,
-      performedBy: U.EntityRef,                     // resolves to the admitted U.System that acts
-      performedUnderSystemRoleAssignmentRef: U.RelationRef constrained to U.SystemRoleAssignment (covering occurrence; declared species named separately)
+      actualPerformerSystemRef: U.EntityRef,            // resolves to the A.13-qualified System projected as RA.HolderSystemSlot
+      performedUnderAssignmentRef: optional<U.RelationRef constrained to F.6 performedUnderAssignment>, // omit when the record makes no exact assignment-bound attribution; any present reference resolves after independent Work admission to the exact relation for this act and the same obtaining A.13 assignment
       enactsMethodRef: optional<U.EntityRef>,        // resolves to the exact U.Method enacted by the actual Work
       methodDescriptionRef: optional<U.EpistemeRef>, // separate C.2.1 episteme used only when it identifies, constrains, or justifies that Method or intended Work
       unresolvedEnactsMethodClaimAddress: optional<ClaimAddress>,
@@ -139,8 +143,8 @@ InstitutedEffects ::=
 
 **Occurrence-side constraints:**
 
-* **(SA‑C0) Actual Work conformance.** The individual referenced by `speechActOccurrenceRef` **MUST** independently satisfy `U.Work` conformance under A.15.1: actual performer System, exact covering assignment and any current F.6 attribution, actual `enactsMethod -> U.Method`, temporal extent, and at least one obtaining locally declared Work-to-System containment relation. A complete record neither creates those facts nor substitutes for them. `methodDescriptionRef`, when present, cites a separate C.2.1 episteme used to identify, constrain, or justify that Method or intended Work; the description is not enacted.
-* **(SA‑C1) The system performs; the assignment grounds attribution.** The performer **MUST** be an admitted `U.System`. Name the covering assignment occurrence and its declared `U.SystemRoleAssignment` species. The occurrence **MUST** have the performer as holder, supply every other participant, and cover the act while the species predicate obtains. Recover the species' participant meanings, applicability, and occurrence-identity rule under A.2.1. Taxonomy and reference-scheme epistemes may interpret an assertion but are not assignment participants. The assignment supplies neither authority nor action by form; it does not perform the act.
+* **(SA‑C0) Actual Work conformance.** The individual referenced by `speechActOccurrenceRef` **MUST** first satisfy independent A.15.1 admission: every actual performer has the A.13 core for the communicative action, scope, working situation, and window; the performance history is grounded; and the Work has an actual `enactsMethod -> U.Method` relation, temporal extent, and at least one obtaining locally declared Work-to-System containment relation. Add a characteristic profile only when a Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use consumes it. A complete record creates none of those facts. A record that makes no exact assignment-bound attribution **MAY** omit `performedUnderAssignmentRef`. Whenever that field is present or the record claims exact assignment-bound attribution, it **MUST** resolve to a separate F.6 relation established after admission for this already admitted act through the same obtaining A.13 assignment. `methodDescriptionRef`, when present, cites a separate C.2.1 episteme; the description is not enacted.
+* **(SA‑C1) The System performs; exact attribution reuses the same assignment.** The performer **MUST** be an admitted `U.System` that satisfies and is classified under one exact local agential system-role kind for this act. An observation-only or otherwise non-attribution record **MAY** omit `performedUnderAssignmentRef` and **MUST NOT** be used to satisfy a guard, gate, or claim that depends on exact assignment-bound attribution. If the field is present, it **MUST** resolve to the separately obtaining F.6 `performedUnderAssignment` relation for the already admitted act and the same obtaining assignment occurrence named by A.13, together with its declared `U.SystemRoleAssignment` species. If a guard, gate, or claim relies on exact assignment-bound attribution, the field **MUST** be present and that F.6 relation **MUST** obtain. The assignment **MUST** have the performer as holder, supply every other participant, cover the act, and satisfy its species predicate for the required scope, working situation, and window. Evidence supports those core facts; a characteristic profile enters only when conditionally consumed. Taxonomy and reference-scheme epistemes may interpret an assertion but are not assignment participants. The assignment supplies neither authority nor action by form; it does not perform the act.
 * **(SA‑C2) Act types are independently satisfied recognition classifications.** The occurrence **MUST** instantiate at least one `SpeechActTypeRef` defined by the exact `recognitionTaxonomyRef` under the stated `effectiveReferenceScheme`. A token written into a record does not establish that classification. If a policy or procedure supplies an additional recognition condition, cite its exact current episteme and satisfy that condition separately.
 * **(SA‑C3) Time honesty and interval separation.** The occurrence **MUST** have an actual temporal extent so freshness can be evaluated; the record's `window` is a claim about that act extent, not the extent itself. Every instituted commitment, grant, publication relation, status relation, or other effect keeps its own independently governed occurrence or validity interval. Coincident boundaries do not merge act and effect.
 * **(SA‑C3a) Policy, procedure, and channel remain neighbors.** A cited `policyOrProcedureRef` is a separate current C.2.1 episteme; its currentness, applicability, and any edition relation must be established under their subject patterns. An optional `channelRef` names an independently governed communication route or participating entity. Neither citation becomes the Method, the Work occurrence, an utterance description, a carrier, or an institutional effect merely by inclusion in the record.
@@ -159,7 +163,7 @@ A **`SpeechActRef`** resolves to one actual Work individual admitted as `SA : U.
 
 * If an A.2.8 commitment predicate or assertion cites this occurrence as its instituting basis, the referenced occurrence **MUST** satisfy occurrence-side **SA‑C0…SA‑C3a**. A gate, audit, or provenance use additionally needs the record and evidence basis in **SA‑C4** and needs **SA‑C6** only when its inference really crosses local taxonomies, schemes, or policies.
 * A `SpeechActRef` **MUST NOT** be replaced by an `EpistemeRef` (“see the document”) when occurrence provenance is needed. A `SpeechActRecord` or utterance-description episteme may make claims about the occurrence but is not the act.
-* If a source cannot complete a `SpeechActRecord`, it may create an observation stub with the candidate `speechActOccurrenceRef`, known claims, provenance for those claims, and explicit unknowns. When the actual `enactsMethod` relation is not recoverable, leave `enactsMethodRef` absent, cite the exact unresolved claim and source-gap provenance, and set `reliancePosture=observationOnly`. The stub does not make the candidate actual, satisfy occurrence-side conformance, or support gate/deontic provenance. It becomes reliance-ready only after the exact `enactsMethod -> U.Method` relation is recovered. Never mint an `AdHocCommunication` or other `U.MethodDescription` solely to fill the gap; a description neither is the method nor enacts itself.
+* If a source cannot yet establish A.15.1 admission for one actual occurrence, it may create a separate `U.Episteme` identified as a **candidate observation stub**. The stub is not a `SpeechActRecord`, supplies no `SpeechActRef` or `speechActOccurrenceRef`, and does not conform to the complete declaration schema or SA-C0. It carries a source-local candidate locator or C.2.1 `ClaimAddress`, known observation claims, provenance for those claims, and explicit unknowns. If the actual `enactsMethod -> U.Method` relation cannot yet be recovered, record that unresolved claim and its source-gap provenance in the stub; never mint an `AdHocCommunication` or other `U.MethodDescription` to close it. The stub makes no candidate actual, supports no gate or deontic provenance, and remains observation-only. After A.15.1 independently admits one exact actual occurrence, create a distinct conformant `SpeechActRecord`; do not promote or relabel the stub in place, though a separately governed provenance or evidence relation may cite it.
 
 #### A.2.9:4.4 — Separation rules with `U.Commitment`, `GrantedPermissionRelation@Context`, and `U.PromiseContent` (normative)
 

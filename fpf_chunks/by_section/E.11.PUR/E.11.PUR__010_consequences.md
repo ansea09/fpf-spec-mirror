@@ -6,12 +6,12 @@ section_id: "E.11.PUR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__010_consequences.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:9 — Consequences"
-line_start: 78251
-line_end: 78256
+line_start: 78381
+line_end: 78386
 dependencies:
   - "A.15"
   - "A.19"

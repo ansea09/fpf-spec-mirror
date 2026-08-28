@@ -6,12 +6,12 @@ section_id: "E.19:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 87042
-line_end: 87072
+line_start: 87172
+line_end: 87202
 dependencies:
   - "A.15.1"
   - "A.6.P"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.SCR.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
-line_start: 2260
-line_end: 2518
+line_start: 2269
+line_end: 2527
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -162,7 +162,7 @@ A project plan or decision may designate one system as the project system-of-int
 3. admit composite project Work only after A.15.1 and A.15.6 qualifications hold;
 4. state each actual work-to-referent, transformation, production, evaluation, delivery, acceptance, or later-use fact under its own governor;
 5. test any `SystemOfInterestSystemRole` interpretation and any A.2.1 system-role assignment separately; and
-6. when the recognized system must be reconnected to the long dependency from outside use through architecture, Work, change, and recursive builders, have the responsible system perform the applicable Work using the Method described in A.1.STM. Otherwise state the next exact subject assertion under its predicate.
+6. when the recognized system must be reconnected to the long dependency from outside use through architecture, Work, change, and recursive builders, identify each exact admitted performing System, recover its A.13 core, and identify the applicable Method described in A.1.STM before independently admitting each dated Work occurrence under A.15.1. Add F.6 only when the receiving claim also needs precise assignment-bound attribution through that performer's same obtaining assignment. Otherwise state the next exact subject assertion under its predicate.
 
 Infer no project designation from system recognition, affectedness, familiar wording, a system-role label, or shared realization. If the decision needs the unsupported compound project-selection truth, preserve `missing-substrate[project-selection-conjunction]` until one constructor substrate and edition define that claim.
 
@@ -177,7 +177,7 @@ Each row states whether the A.1.SCR trigger actually fires. The rows are example
 | Source phrase | First useful result and route | Next move and governed additions | Near miss or stop |
 | --- | --- | --- | --- |
 | “We develop the surgeon's mastery.” | Keep the surgeon's capability, training Work, and evaluation under their subject patterns. If the phrase instead proposes the physical or operational whole `SutureControl-M17`, identify that exact entity and use A.1 only when its systemhood changes the decision. | Add training Method, dated Work, evidence and evaluation, and any actual change only when the named decision needs those claims; keep the subsystem and capability distinct. | Curriculum, badge, report, system-role kind or assignment, capability, surgeon, and `SutureControl-M17` are not interchangeable; do not substitute the surgeon before evaluating the exact proposed whole. |
-| “We release a game session.” | Keep composite dated Work, interval, and session record under their subject patterns. If the phrase instead proposes `GameSessionWhole-GS204`, identify that exact operational whole and use A.1 when its boundary, persistence, or acting eligibility matters. | Admit Work only with the full A.15.1 basis and exact work-part relations; evaluate the operational whole through its constituents, assembly, authoritative-state continuity, larger-game compatibility, and acting eligibility. Keep player systems, deployed installation, rule episteme, interval, activities, and records separate. | A label, shared interval, lobby record, or rules document establishes neither systemhood, Work, parthood, nor identity between the Work and the operational whole. |
+| “We release a game session.” | Keep composite dated Work, interval, and session record under their subject patterns. If the phrase instead proposes `GameSessionWhole-GS204`, identify that exact operational whole and use A.1 when its boundary, persistence, or acting eligibility matters. | Recover every actual performer's A.13 core and admit Work only with the full independent A.15.1 basis and exact work-part relations; add F.6 afterward only when this claim also needs precise assignment-bound attribution. Evaluate the operational whole through its constituents, assembly, authoritative-state continuity, larger-game compatibility, and acting eligibility. Keep player systems, deployed installation, rule episteme, interval, activities, and records separate. | A label, shared interval, lobby record, or rules document establishes neither systemhood, Work, parthood, nor identity between the Work and the operational whole. |
 | “We sell internet access.” | Start in A.6.P with promise, permission, state, bearer, commercial relation, or other subject-pattern readings. If the phrase instead proposes `InternetAccessArrangement-CA17`, preserve that exact entity and use A.1 only when the arrangement's systemhood matters. | Add Method or MethodDescription, WorkPlan, permission, provisioning Work, system-role assignment, commitment, status, evidence and evaluation, fulfilment, and acceptance only when the named decision needs those claims; evaluate the arrangement separately from its gateway and status. | No `U.Access` or generic `AccessRelation`; credentials, system-role labels or assignments, endpoints, promises, plans, evidence, connections, states, and bearers remain distinct and cannot replace the exact arrangement before A.1 evaluation. |
 | “We develop a program.” | Distinguish code/episteme, computational Method, intended designator, deployed realization, and run. Use A.1.SCR only when a decision depends on the deployed realization acting, persisting, or changing as a system. | Add MethodDescription, planned or actual Work, transformations, and project system-of-interest designation only when the named decision separately asserts them. | Code, algorithm, deployed system, run, and project designation are not one object. |
 | “The salon creates a hairstyle.” | Name the client whose hair is affected and the selected hair structure/characteristics. Use A.1.SCR only if the client-as-changed-system boundary matters. | Add hairdressing Method, description, dated Work, transformation, affected-referent facts, and acceptance only when the named decision needs them. | Hairstyle creates no system, result kind, or project system-of-interest designation. |

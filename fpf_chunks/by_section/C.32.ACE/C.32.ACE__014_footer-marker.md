@@ -6,12 +6,12 @@ section_id: "C.32.ACE:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__014_footer-marker.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:13 — Footer marker"
-line_start: 63959
-line_end: 63962
+line_start: 64034
+line_end: 64037
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -48,5 +48,5 @@ keywords:
 
 ### C.32.ACE:13 - Footer marker
 
-C.32.ACE closes when the eval program names evaluated criteria, evaluated candidates or structures, exact claim scope and selected context slices, effective reference scheme and plane, evaluation window and input projections, parity frame, eval purpose, scope, intended eval operation, trigger mode, result form, method refs, proxy risks, protected counter-characteristics, receiving use, and refresh or retire condition. When actual evaluation is claimed, the record names its `U.Work` occurrence and keeps all facts required by A.15.1, A.2.1, and F.6 recoverable. Any separately obtaining operation application and the typed result remain independently identified.
+C.32.ACE closes when the eval program names evaluated criteria, evaluated candidates or structures, exact claim scope and selected context slices, effective reference scheme and plane, evaluation window and input projections, parity frame, eval purpose, scope, intended eval operation, trigger mode, result form, method refs, proxy risks, protected counter-characteristics, receiving use, and refresh or retire condition. When actual evaluation is claimed, each exact evaluator has its A.13 core and `evaluationWorkRefs` name independently admitted A.15.1 Work. Optional `evaluationWorkAttributionRefs` appear only when the record or receiving use expressly represents precise assignment-bound attribution. Any separately obtaining operation application and typed result remain independently identified.
 

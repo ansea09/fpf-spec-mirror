@@ -6,12 +6,12 @@ section_id: "E.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__016_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:12 — Relations"
-line_start: 87107
-line_end: 87140
+line_start: 87236
+line_end: 87269
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -46,12 +46,12 @@ keywords:
   * `E.9.DA` (content-first adequacy check for one exact DRR before pattern drafting or host amendment. An ordinary bounded check returns precise findings or repaired text; a full coordinate result and exact assessment identities are added only when explicitly requested or used by a named later reliance. An E.19 finding may expose an upstream DRR defect, but an E.19 pass, return, or absence is not E.9.DA evidence.)
   * `E.22` (improvement-oriented quality-evaluation question framing; distinguishes floor blocker review, exceptional-improvement review, Pareto trade-off inspection, open-question discovery, and absorption impact before an E.19 review result is formed.)
   * `E.23` (repeated quality-improvement method; an E.19 profile can supply questions and findings inside such a loop, but E.23 governs repeated absorption, object-under-improvement re-evaluation, method-family selection, and stop, continue, switch-method, open-new-frame, or hold decisions.)
-  * `E.15` (authoring/evolution protocol; harness mindset; refresh planning)
+  * `E.15` (change between exact pattern editions; actual-delta classification, affected-reach repair, predecessor preservation, and proportionate verification)
   * `A.6.5` (slot discipline; SlotKind/ValueKind/refMode invariants)
 
 * **Coordinates with:**
 
-  * `A.15.1`, `F.6`, `A.2`, and `A.2.1` (actual review, repair, or verification Work and the assignment under which each performer acted); `A.6.1` separately defines check applications and bindings
+  * `A.13` and `A.15.1` (exact actual-performer recovery and independent review, repair, or verification Work); `A.2`, `A.2.1`, and `F.6` only when local classification or precise assignment-bound attribution is expressly consumed; `A.6.1` separately defines check applications and bindings
   * `A.3.2` and `E.10.ROLE` (the full `U.MethodDescription` membership test and recovery of an ambiguous source *role* without forcing a system-role kind, assignment, participant, or representation position)
   * `C.2.1` (finding, focused-verification, aggregate review-result, and optional record epistemes)
   * `A.10` and `B.3` (evidence use/provenance and any assurance or reliance on an E.19 result)

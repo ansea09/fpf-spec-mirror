@@ -6,12 +6,12 @@ section_id: "E.2:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__009_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:8 — Relations"
-line_start: 68232
-line_end: 68236
+line_start: 68316
+line_end: 68320
 dependencies:
   - "A.10"
   - "A.15.1"

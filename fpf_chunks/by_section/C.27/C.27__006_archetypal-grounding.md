@@ -6,12 +6,12 @@ section_id: "C.27:4"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:4 — Archetypal Grounding"
-line_start: 54992
-line_end: 55113
+line_start: 55064
+line_end: 55185
 dependencies:
   - "A.10"
   - "A.3.3"

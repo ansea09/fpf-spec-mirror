@@ -6,12 +6,12 @@ section_id: "D.3:5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__008_archetypal-grounding-worked-slices.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:5 — Archetypal Grounding (Worked Slices)"
-line_start: 67637
-line_end: 67659
+line_start: 67721
+line_end: 67743
 dependencies:
   - "A.1"
   - "A.10"
@@ -52,7 +52,7 @@ Tension: performing the plan would advance Side A by enabling the harm named in 
 Next use: D.4 refusal or conditions; C.28 first if the harm claim needs causal support.
 ```
 
-This is enough to begin D.4 and does not decide who is responsible. If another reader must cite or revise the note, identify it as an `InterlevelEthicalConflictDescription` whose EntityOfConcern is the consulting-plan episteme. If consulting Work later occurs, add its A.15.1 basis. Add assignment, agency, responsibility, permission, or authority only through their independently obtaining relations or exact missing governors.
+This is enough to begin D.4 and does not decide who is responsible. If another reader must cite or revise the note, identify it as an `InterlevelEthicalConflictDescription` whose EntityOfConcern is the consulting-plan episteme. If consulting Work later occurs, use A.13 to identify its actual performer and A.15.1 to admit the dated occurrence independently. Add F.6 only if the note must also identify the assignment under which that Work was performed. Add agency, responsibility, permission, authority, or another assignment claim only through its independently obtaining relation or exact missing governor.
 
 **Conditional collection record.** A fleet-wide maintenance change lowers cost but may raise failure risk for a small subfleet operating in harsh conditions. The description has a fleet-cost side and a harsh-service safety side, each with its affected entity, scope, value-frame edition, consequence, and horizon. Add the exact fleet-membership relation because it locates the subfleet. Add the reliability evidence episteme and A.10 evidence use because the safety side relies on them. Return the causal question to C.28 if the risk claim depends on the proposed change. None of those additions makes the fleet an acting or responsible whole; use A.1 for systemhood and the exact responsibility predicate for responsibility.
 

@@ -6,12 +6,12 @@ section_id: "F.4:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__009_worked-cases.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:7 — Worked Cases"
-line_start: 92302
-line_end: 92335
+line_start: 92440
+line_end: 92473
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -66,7 +66,7 @@ Use:
 - A.2 with C.3 for the local kind and direct classification;
 - F.4 for the description episteme;
 - A.2.1 when a particular review assignment must be identified;
-- A.15.1 and F.6 when a particular dated review Work occurrence and the assignment under which it was performed must be identified; and
+- A.13 followed by independent A.15.1 admission when a particular dated review Work occurrence is identified, and F.6 afterward when the claim also identifies the assignment under which that Work was performed; and
 - A.10, B.3, G.6, or another direct relation for the report's evidence or assurance use.
 
 The report is not a system-role holder and does not acquire an “evidence role.”

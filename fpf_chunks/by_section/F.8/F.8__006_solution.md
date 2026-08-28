@@ -6,12 +6,12 @@ section_id: "F.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__006_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:4 — Solution"
-line_start: 93381
-line_end: 93525
+line_start: 93521
+line_end: 93665
 dependencies:
   - "A.11"
   - "A.15"
@@ -112,7 +112,7 @@ Use this order and stop at the first disposition that supports the proposed use 
 4. **Apply F.14 and try a local phrase.** If ordinary local wording supports the use, choose `localPhraseOnly` and stop.
 5. **Try an existing designation.** Reuse it only when the value, kind, scope, occurrence identity, local sense, and proposed use match.
 6. **Try an alias.** Use `aliasOnly` when the governed meaning is unchanged and lineage can expose the wording variation. An alias may not change kind, scope, occurrence identity, use, or authority.
-7. **Try the subject's existing name.** Use the name supplied for the governed subject. A.2 and C.3 govern a local system-role kind and F.5 governs its designation; use F.18 only for a durable settlement and F.4 only for a separately needed `SystemRoleKindDescription`. A.2.1, F.6, and A.15.1 continue to govern assignment and performed Work.
+7. **Try the subject's existing name.** Use the name supplied for the governed subject. A.2 and C.3 govern a local system-role kind and F.5 governs its designation; use F.18 only for a durable settlement and F.4 only for a separately needed `SystemRoleKindDescription`. A.2.1 continues to govern any assignment. For precise performed Work, A.13 first recovers each exact actual performer and A.15.1 independently admits the occurrence; F.6 follows only when the naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
 8. **Try one admitted F.17 row.** Reuse only the row's declared `AdmissibleUse`. Local-sense reuse does not imply cross-local sameness; a row and equal spelling create no F.9 Bridge.
 9. **Open only the next naming object that pays for itself.** A stable local address may justify a cell; an enduring naming settlement may justify a NameCard; a public/Core/durable/cross-local need may justify an F.17 row. None implies the next object.
 10. **Introduce a policy identifier only for a recovered policy specification.** A local identifier can stop with that specification and its scope. If the mint history is cited, replayed, normative, cross-local, or accountable, recover its decision or choice occurrence through the subject pattern; otherwise return `missing-governor` for that stronger history claim. Keep any C.11 result, decision-making Work, result episteme, and record separate.
@@ -142,7 +142,7 @@ After A.2 and C.3 have recovered `K`, apply the naming ladder. Keep a one-off ex
 | `EvidenceRole` | An episteme used as evidence | Use the evidence-use pattern; only then consider a name for the governed relation |
 | `AccessRole` | Permission or policy grouping | Use access, policy, status, or deontic pattern; do not mint a local system-role kind by suffix |
 | `ProviderRole` in a signature | Relation position | Use `A.6.5` SlotSpec discipline; name a slot only if needed |
-| `RoleEnactment` in source prose | Source wording around a `U.SystemRoleAssignment` plus a Work occurrence | Use `F.6`; do not mint `U.RoleEnactment` |
+| `RoleEnactment` in source prose | Source wording around a `U.SystemRoleAssignment` plus a Work occurrence | Recover the exact actual performer through A.13 and let A.15.1 independently admit the Work; use F.6 only when the naming case expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment, and do not mint `U.RoleEnactment` |
 
 #### F.8:4.4 - F.17 Row-Scope Consumption
 

@@ -6,12 +6,12 @@ section_id: "C.32.ADA:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__014_footer-marker.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:13 — Footer marker"
-line_start: 65996
-line_end: 65999
+line_start: 66078
+line_end: 66081
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,5 +56,5 @@ keywords:
 
 ### C.32.ADA:13 - Footer marker
 
-C.32.ADA closes when `ArchitectureDecisionAdequacyEvaluation@Project` declares the use and stop condition; binds the exact claim scope and selected context slices, reference scheme and plane, evaluation window, and decision-question input projection; cites the evaluated decision relation and optional projection; evaluates every coordinate with an E.21 value label and rationale or grounded not-triggered status; names weakest blocking coordinates, repair patterns, and repair instructions; avoids average-score replacement; and, when actual evaluation is claimed, keeps the evaluator system, direct system-role assignment species, dated Work, F.6 attribution, operation application, any responsibility relation, and result episteme separately identified.
+C.32.ADA closes when `ArchitectureDecisionAdequacyEvaluation@Project` declares the use and stop condition; binds the exact claim scope and selected context slices, reference scheme and plane, evaluation window, and decision-question input projection; cites the evaluated decision relation and optional projection; evaluates every coordinate with an E.21 value label and rationale or grounded not-triggered status; names weakest blocking coordinates, repair patterns, and repair instructions; avoids average-score replacement; and, when actual evaluation is claimed, keeps the A.13-qualified evaluator System, independently admitted A.15.1 Work, operation application, any responsibility relation, and result episteme separately identified. Assignment species, occurrence, and F.6 attribution are present only when the record expressly represents that precise attribution.
 

@@ -6,12 +6,12 @@ section_id: "F.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__007_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:5 — Archetypal Grounding"
-line_start: 92601
-line_end: 92632
+line_start: 92739
+line_end: 92770
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ keywords:
 
 A Concept-Set row compares SOSA `Observation`, metrology *measurement result*, ML practice *metric reading*, and a dashboard value exported for comparison. The row is a comparison and evidence surface, not admission or identity of a common result value.
 
-Keep the concrete objects at their direct loci. Pump 14 was measured before the reading was recorded, but this naming example does not identify a dated Work occurrence. If a use needs that occurrence, admit it separately under A.15.1 and attribute it under F.6.
+Keep the concrete objects at their direct loci. Pump 14 was measured before the reading was recorded, but this naming example does not identify a dated Work occurrence. If a use needs that occurrence, recover its exact actual performer through A.13 and admit it independently under A.15.1. Attribute it under F.6 only when that use also consumes precise assignment-bound attribution.
 
 C.16 constitutes the measurement result: a value attributed to the measurand together with the Characteristic, Scale, uncertainty, method, model, calibration basis, time stance, and measurement Work needed to interpret it. `Pump14PressureReading_2026-07-14T10-42Z` is one C.2.1 episteme that states that result; F.5 does not repeat either pattern's schema. The result and its episteme are distinct from raw output, indication, Pump 14's actual state, a later diagnosis, a criterion verdict, evidence, or a dashboard display. `Pump14CalibrationTrace_2026-07-14` is a provenance record whose G.6 and A.10 relations make the calibration and source path recoverable. A dashboard publication may cite the reading, and the Concept-Set row may cite the reading and trace; neither is the result, its episteme, provenance, or a generic relation that establishes them.
 

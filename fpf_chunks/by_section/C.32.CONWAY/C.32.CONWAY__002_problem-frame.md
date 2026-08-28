@@ -6,15 +6,16 @@ section_id: "C.32.CONWAY:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__002_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:1 — Problem frame"
-line_start: 63974
-line_end: 64157
+line_start: 64049
+line_end: 64233
 dependencies:
   - "A.10"
   - "A.12"
+  - "A.13"
   - "A.15.1"
   - "A.19.CPM"
   - "A.2.1"
@@ -87,7 +88,7 @@ Not this pattern when the current work is only bounded-change identification, sy
 Common exits by claim kind:
 
 - `A.3.4` or `A.3.4.P` for the bounded change and changed referent.
-- `A.12` for acting-side externalization, `A.2.1` for the exact system-role-assignment occurrence, `A.15.1` for dated Work and distributed performers, `F.6` for `performedUnderAssignment(W, RA)` and its actual-performer projection, and the pattern that defines any direct actor-side or Work-to-change relation needed by the current use.
+- `A.12` for acting-side externalization, `A.13` for exact actual-performer recovery, `A.15.1` for independent dated-Work admission and distributed-performer forms, `A.2.1` for an exact assignment occurrence when separately claimed, `F.6` for a later `performedUnderAssignment(W, RA)` relation only when precise assignment-bound attribution is expressly consumed, and the pattern that defines any direct actor-side or Work-to-change relation needed by the current use. F.6's holder projection only supports equality comparison with the already recovered performer; it identifies neither assignment nor performer.
 - `A.6.M` for module-interface repair.
 - `C.32.ACS` for current architecture-characteristic criteria rows and `C.25` for any composite Q-Bundle and exact slot used by the trade-off.
 - `C.29` and the project-selected structural-equivalence pattern for structural similarity.
@@ -157,10 +158,11 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
   changedReferentRef:
   actualTransformationRef?: U.EntityRef constrained to U.Transformation, only when A.3.4 independently admits the bounded change of changedReferentRef
   performerRows[]?:
-    actingSystemRef: U.EntityRef constrained to U.System; for performance, this must equal actingSystemRoleAssignmentRef.HolderSystemSlot
-    actingSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment, required when an obtaining assignment is claimed and whenever performance is attributed under assignment
-    workOccurrenceRef?: U.EntityRef constrained to U.Work, required when performance is claimed
-    performedUnderAssignmentRelationRef?: U.RelationRef governed by F.6, required with workOccurrenceRef
+    actingSystemRef: U.EntityRef constrained to U.System; for performance, this is the exact actual performer recovered through performerA13CoreBasisRef
+    performerA13CoreBasisRef?: required with workOccurrenceRef; cites the exact local kind and criterion, classification, same obtaining assignment, scope, working situation, window, and adequate core evidence
+    workOccurrenceRef?: U.EntityRef constrained to U.Work, independently admitted by A.15.1 when performance is claimed
+    actingSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment, include when an obtaining assignment is separately represented and require the same A.13 assignment when attribution is represented
+    performedUnderAssignmentRelationRef?: U.RelationRef governed by F.6, include only when this row expressly represents precise assignment-bound attribution; omit otherwise; missing or failed F.6 leaves workOccurrenceRef intact
     actorSideOrWorkToChangeRelationRefs[]: exact U.RelationRef values required by the current claim
   influenceSourceRows[]?: asserted influence facts only
     influenceSourceRef:

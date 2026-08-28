@@ -6,12 +6,12 @@ section_id: "C.30.LCA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__008_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:7 — Conformance Checklist"
-line_start: 60711
-line_end: 60724
+line_start: 60784
+line_end: 60797
 dependencies:
   - "A.10"
   - "A.20"

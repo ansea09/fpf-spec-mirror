@@ -6,12 +6,12 @@ section_id: "C.25:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__011_rationale.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:10 — Rationale"
-line_start: 52948
-line_end: 52951
+line_start: 53020
+line_end: 53023
 dependencies:
   - "A.10"
   - "A.15"

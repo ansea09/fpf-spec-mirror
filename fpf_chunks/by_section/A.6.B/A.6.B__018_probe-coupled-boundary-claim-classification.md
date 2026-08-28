@@ -6,12 +6,12 @@ section_id: "A.6.B:15a"
 section_title: "Probe-coupled boundary claim classification"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__018_probe-coupled-boundary-claim-classification.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:15a — Probe-coupled boundary claim classification"
-line_start: 11745
-line_end: 11776
+line_start: 11758
+line_end: 11789
 dependencies:
   - "A.10"
   - "A.2.3"

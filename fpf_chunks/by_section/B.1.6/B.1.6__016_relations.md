@@ -6,15 +6,16 @@ section_id: "B.1.6:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__016_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:10 — Relations"
-line_start: 37210
-line_end: 37219
+line_start: 37282
+line_end: 37291
 dependencies:
   - "A.1"
   - "A.10"
+  - "A.13"
   - "A.14"
   - "A.15.1"
   - "A.15.2"
@@ -34,6 +35,7 @@ dependencies:
   - "C.27"
   - "C.29"
   - "E.17"
+  - "F.6"
   - "G.11"
   - "G.6"
 keywords:
@@ -54,7 +56,7 @@ keywords:
 
 ### B.1.6:10 - Relations
 
-- Builds on `A.15.1` and `A.6.1` for dated measurement or aggregation work, system-role assignment, declarations, and actual bindings; C.2.1 for measurement-result and aggregation-result epistemes.
+- Builds on A.13 for actual performers, A.15.1 for independently admitted dated measurement or aggregation Work, F.6 when a result must also identify the assignment under which that Work was performed, and A.6.1 for declarations and actual bindings; C.2.1 governs measurement-result and aggregation-result epistemes.
 - Coordinates with `A.3.1`, `A.3.2`, and `A.15.2` for method, method description, and work plan.
 - Coordinates with `A.15.5` for work-entry readiness, full-kit condition, and resource readiness before work entry; B.1.6 may cite those refs but does not decide readiness.
 - Coordinates with `A.15.1` for exact Work temporal parts, episodes, operational parts, overlaps, retries, resumptions, and later occurrences; with `B.1.4` only for bounded aggregation of already recovered temporal relations; and with `C.27` for temporal-claim adequacy.

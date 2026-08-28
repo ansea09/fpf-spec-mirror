@@ -6,12 +6,12 @@ section_id: "F.14:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__015_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:14 — Relations"
-line_start: 95923
-line_end: 95931
+line_start: 96063
+line_end: 96071
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,7 @@ keywords:
 
 ### F.14:14 - Relations
 
-* **A.2, A.2.1, A.2.5, A.2.7, F.6, and A.15.1** define or constrain system-role kinds, assignments, assignment-state predicates and direct state relations, relations among system-role kinds, Work attribution, and Work. F.14 only blocks names that hide them.
+* **A.2, A.2.1, A.2.5, and A.2.7** define or constrain system-role kinds, assignments, assignment-state predicates and direct state relations, and relations among system-role kinds. For precise performed Work, **A.13** first recovers each exact actual performer and **A.15.1** independently admits the dated occurrence; **F.6** defines only the later assignment-bound attribution when that relation is expressly consumed. F.14 only blocks names that hide these distinctions.
 * Use **F.8** to make one candidate's smallest mint-or-reuse disposition after the F.14 stop test.
 * **F.9** defines only an actual relation between exact local senses. Shared spelling and cell presence establish none.
 * **F.17** defines the public term-row form and its entry threshold; **F.18** defines the durable naming-settlement NameCard form; neither defines the governed value.

@@ -6,12 +6,12 @@ section_id: "C.26.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__011_rationale.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:10 — Rationale"
-line_start: 54787
-line_end: 54792
+line_start: 54859
+line_end: 54864
 dependencies:
   - "A.10"
   - "A.15"

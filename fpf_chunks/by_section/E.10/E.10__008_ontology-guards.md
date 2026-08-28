@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 74382
-line_end: 74550
+line_start: 74513
+line_end: 74681
 dependencies:
   - "A.10"
   - "A.15"
@@ -78,7 +78,7 @@ keywords:
 **Onto3 — System-role kinds, assignments, and carrier-relation separation** *(ref. E.10.ROLE, A.2, A.2.1, F.4, F.5, C.2.1, C.2.P, E.17, E.24.PUB, A.10, and C.35)*
 * **Positive distinction:** A system role is an exact local kind for entities already admitted under A.1 as `U.System`. C.3 recovers it through the candidate domain, operative work-facing membership condition, intended member/non-member boundary, and continuity rule. A practice or source reference locates the definition or signals a comparison; it does not identify the kind. Its Tech designation ends in `...SystemRole`, for example `ReviewerSystemRole`. The name creates no admission, assignment, agency, capability, or Work.
 * **Assignment rule:** A system-role assignment is an obtaining occurrence of one directly declared species under `U.SystemRoleAssignment`. The species declaration defines `HolderSystemSlot`, the exact local system-role-kind domain of `AssignedSystemRoleKindSlot`, any other participant meanings, its predicate, applicability, and occurrence-identity rule. The occurrence supplies the actual holder System, assigned-kind value, any other participant values, and extent. A source, interpretation, taxonomy, scheme, description, or display is not automatically an assignment participant; name it separately only when the assignment claim actually depends on it.
-* **Readable example:** `Under the JournalReview practice, TeamAlpha is classified under ReviewerSystemRole because it can supply the substantive review judgment required by that practice.` Add `ReviewAssignment-42` only when the assignment itself matters and both its directly declared species and obtaining occurrence are recoverable. If performed Work is current, point to its complete A.15.1 occurrence basis and F.6 attribution basis. A short sentence may omit only an assignment identifier unused by the receiving claim; it does not omit a performer, Method, time, containing System, assignment occurrence, or F.6 attribution from the recoverable basis.
+* **Readable example:** `Under the JournalReview practice, TeamAlpha is classified under ReviewerSystemRole because it can supply the substantive review judgment required by that practice.` Add `ReviewAssignment-42` only when the assignment itself matters and both its directly declared species and obtaining occurrence are recoverable. If performed Work is current, point first to its independently complete A.15.1 occurrence basis. Add F.6 only for a separately claimed precise assignment-bound attribution. A short attribution sentence may omit only an assignment identifier unused by the receiving claim; it does not omit a performer, Method, time, containing System, assignment occurrence, or F.6 attribution from the recoverable attribution basis.
 * **Carrier rule:** **Carrier** is not a free holon or system kind. Recover the direct carrier relation: use `U.PresentationCarrier` only under E.17 and E.24.PUB publication and presentation discipline. If a reusable carrier-relation declaration is separately current, `PresentationCarrierSlot` remains the declaration-local `SlotKind` of one A.6.5 `SlotSpec` and is not the carrier or relation. Other exits are a file, transport, rendering, front-end, or access-carrier relation under E.17; evidence or source-currentness carriage under A.10 or G.11; generated or produced carriage under C.35; or a named episteme-symbol carrier relation independent of any system-role assignment.
 * **Source-word rule:** Job titles such as *reviewer*, *owner*, and *lead* remain Plain or quoted wording until the current claim is recovered. Use `E.10.ROLE` for an ambiguous claim-bearing *role*. Use `...SystemRole` only for an exact local system-role kind, and preserve *owner* when an actual architectural, organizational, policy, source, or responsibility ownership relation is what the sentence states.
 * **Do:** `ReviewerSystemRole`; `ReviewAssignment-42 : U.SystemRoleAssignment`; `LeanTraditionCarrier` only when its direct episteme-symbol carrier relation is declared.

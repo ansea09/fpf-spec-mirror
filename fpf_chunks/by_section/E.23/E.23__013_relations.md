@@ -6,12 +6,12 @@ section_id: "E.23:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__013_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:12 — Relations"
-line_start: 88892
-line_end: 88920
+line_start: 89030
+line_end: 89058
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -38,7 +38,7 @@ keywords:
 | `E.9.DA` | Supplies `DRR` decision-adequacy values for `DRR` loops. |
 | `E.2.DA` | Supplies FPF Pillar-adequacy values for corpus-level loops. |
 | `A.22.CGUS` | Defines the current improvement unfolding structure predicate: exact constituents, already-obtaining relations, guards, admissible alternatives, selected continuation, stop, and subject-assertion reconsideration conditions. The structure, visible cycle, record, and slice perform no Work. |
-| `A.15.1`, `F.6`, `A.2`, `A.2.1`, `A.6.1`, `C.2.1`, `A.3.4`, `A.15.PROD` | Define or constrain actual evaluation or improvement Work and its attribution, application and result binding, result episteme, actual Transformation, and any separately current production branch. E.23 mints no generic Work-result or Work-to-change relation. |
+| `A.13`, `A.15.1`, `A.2`, `A.2.1`, `F.6`, `A.6.1`, `C.2.1`, `A.3.4`, `A.15.PROD` | Define or constrain exact actual performers, independently admitted evaluation or improvement Work, optional local classification and precise assignment-bound attribution, application and result binding, result episteme, actual Transformation, and any separately current production branch. E.23 mints no generic Work-result or Work-to-change relation. |
 | `C.22.PFR` | Governs an actual Problem occurrence when one is used by an improvement claim; a finding, floor miss, evaluation need, or loop record does not establish its actuality or temporal identity. |
 | `E.13` | Governs pragmatic utility and proxy-to-value alignment when loop targets, quality values, metrics, or review results become substitutes for the intended value. |
 | `G.2` | Governs source-use and source-pack return before DPF seeds based on source-use records, admitted source publications, agent-practice claims, or source-composed improvement claims can be used as evidence. |

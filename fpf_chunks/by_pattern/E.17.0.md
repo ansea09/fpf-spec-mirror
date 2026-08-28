@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.0.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
-line_start: 79899
-line_end: 80443
+line_start: 80029
+line_end: 80573
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -397,7 +397,7 @@ When empirical interpretation or replay testing is current, identify separately:
 - `H_dependencyEvaluator : U.System` under A.1 as performer;
 - exact `RA_dependencyEvaluator : DependencyEvaluationWorkAssignment <: U.SystemRoleAssignment` under A.2.1, with `H_dependencyEvaluator` in `HolderSystemSlot`, declaration-local assigned-kind domain `DependencyEvaluatorSystemRoleKindDomain`, and `DependencyEvaluatorSystemRole` as RA's assigned-kind value admitted by that domain; the value, assignment, holder System, and Work remain distinct, and neither the value nor assignment acts;
 - `M_dependencyTest : U.Method` under A.3.1 and, when needed, `D_dependencyTest : U.MethodDescription` under A.3.2; D describes M but is neither method, work, RelationSignature, nor OperationAlgebra, and a separate A.6.1 operation declaration is cited only when typed application is current;
-- exact `W_dependencyTest : U.Work` performed by H under RA through F.6 and enacting M under A.15.1;
+- exact `W_dependencyTest : U.Work`: A.13 first recovers H as the exact actual performer through the already named obtaining RA; A.15.1 independently admits W as enacting M; because this branch expressly represents precise assignment-bound attribution, F.6 separately relates W to that same RA. F.6 identifies neither RA nor H, and a failed F.6 relation would leave W intact while removing only that attribution;
 - exact `B_dependencyEmpirical`, a C.2.1 episteme identifying the model, calibration, assumptions, and interpretation basis; and
 - exact result episteme `T_dependency = <G_dependencyTestResult,E_dependent,S_test>`, whose ClaimGraph designates exact `E_base`, predicate, method, conditions, basis, and positive or negative result.
 

@@ -6,12 +6,12 @@ section_id: "A.6.C:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__008_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:7 — Conformance Checklist"
-line_start: 12037
-line_end: 12066
+line_start: 12049
+line_end: 12077
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -76,7 +76,6 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
 4. **CC‑A.6.C‑4 (Promise content ≠ Work discipline).**
    A performed-work statement **SHALL** name the exact A.15.1 dated Work occurrence. A result, production, change, delivery/transfer, evidence, or acceptance statement **SHALL** use its own direct object and shall not be inferred from Work. Promise-content language remains about `U.PromiseContent`, not execution or consequence.
    When *service* or access-like wording occurs in a relied-on boundary claim, recommendation, decision, gate, assurance, publication, or reuse and hides the concrete subject, participant, predicate, kind, permission, Work occurrence, or next subject question, the text **SHALL** recover that hidden choice through E.10 **L-SERV** and **A.6.P:4.11a**, then state the exact assertion under the recovered predicate with its pattern locator. Quoted, historical, illustrative, and harmless ordinary wording remains outside this recovery rule; an actual `U.PromiseContent` referent still uses the head phrase **promise content**, not bare *service*.
-
 
 5. **CC‑A.6.C‑5 (Evidence hook for operational guarantees).**
    If a “guarantee” is operational (requires reality to decide), the text **SHALL** include an **E** claim that states what evidence would adjudicate it, with the evidence carrier or evidence claim named when current.

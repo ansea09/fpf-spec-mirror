@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.5.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
-line_start: 4862
-line_end: 5212
+line_start: 4872
+line_end: 5222
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -171,7 +171,7 @@ For a relied-on state claim, keep this order:
 5. use `A.2.4` for compact evidence use and `A.10` only when fuller evidence-basis detail changes the relied-on use; and
 6. let the direct consumer apply the supported assertion under its own subject pattern.
 
-When evaluation itself is current, name exact evaluation `W_eval : U.Work`, its admitted performer system, and any exact evaluator assignment through F.6 `performedUnderAssignment(W_eval, RA_eval)`. A separately constituted evaluation result is a `C.2.1` episteme whose ClaimGraph states the judgment about the assignment or established occurrence. Work, performer, assignment, result episteme, provenance, and receiving reliance remain neighboring objects; none becomes a state-relation participant or identity discriminator.
+When evaluation itself is current, recover the exact actual evaluator System through A.13 and let A.15.1 independently admit exact dated evaluation `W_eval : U.Work`. Add F.6 `performedUnderAssignment(W_eval, RA_eval)` through the same obtaining A.13 assignment only when this account or its receiving use expressly consumes precise assignment-bound attribution; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the evaluation Work intact. A separately constituted evaluation result is a `C.2.1` episteme whose ClaimGraph states the judgment about the assignment or established occurrence. Work, performer, assignment, result episteme, provenance, and receiving reliance remain neighboring objects; none becomes a state-relation participant or identity discriminator.
 
 The actual state extent, target evaluation window, and evidence-relevance interval answer different questions. Expired evidence lowers reliance without retroactively rewriting an earlier world-side occurrence.
 

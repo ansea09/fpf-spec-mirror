@@ -6,12 +6,12 @@ section_id: "D.3:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__009_bias-annotation.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:5.1 — Bias-Annotation"
-line_start: 67660
-line_end: 67669
+line_start: 67744
+line_end: 67753
 dependencies:
   - "A.1"
   - "A.10"

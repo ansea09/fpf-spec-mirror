@@ -6,14 +6,15 @@ section_id: "F.9:17"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__019_acceptance-tests.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:17 — Acceptance tests"
-line_start: 94195
-line_end: 94224
+line_start: 94335
+line_end: 94364
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.2"
   - "A.2.1"

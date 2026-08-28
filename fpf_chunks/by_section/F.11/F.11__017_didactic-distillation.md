@@ -6,12 +6,12 @@ section_id: "F.11:16"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__017_didactic-distillation.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:16 — Didactic distillation"
-line_start: 95075
-line_end: 95078
+line_start: 95215
+line_end: 95218
 dependencies:
   - "A.15"
   - "A.15.1"

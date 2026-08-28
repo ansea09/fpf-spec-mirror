@@ -6,18 +6,20 @@ section_id: "G.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__001_intro.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:intro — Intro"
-line_start: 100977
-line_end: 100988
+line_start: 101117
+line_end: 101128
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.18"
   - "A.19"
   - "A.2.1"
+  - "A.2.6"
   - "A.21"
   - "A.6.1"
   - "B.3"
@@ -44,6 +46,7 @@ dependencies:
   - "G.8"
   - "G.9"
   - "G.Core"
+  - "U.ClaimScope"
 keywords:
   - "CAL Pack@CG-Frame"
   - "Context charter"
@@ -57,11 +60,11 @@ keywords:
 
 **Use this when.** A team has typed characteristics and now needs to publish reusable operators, acceptance clauses, and legal compositions before any candidate is actually evaluated. The working object is one design-time `CAL Pack@CG-Frame`, not an evaluation run, verdict, selector outcome, assurance case, or decision.
 
-**First move.** Write one plain acceptance sentence for one task: “For subject `x` in Context `C`, apply declared operator `O` to named C.16 result episteme `E`; return `pass | fail | unknown` under clause `A`, threshold/policy `P`, and stated currentness window.” Then turn only the nouns needed by that sentence into stable CAL declarations.
+**First move.** Write one plain acceptance statement for one task: “For subject `x` within `ClaimScope` `S` and evaluation window `W`, apply operator `O` to a C.16 measurement result for Characteristic `K` that argument declaration `R` admits. In the actual application, bind current result episteme `E`; clause `A` returns `pass | fail | unknown` under threshold or policy `P` and its currentness rule.” Then turn only the reusable nouns into stable CAL declarations. `E` belongs to the later application, not to reusable clause `A`.
 
-**Smallest viable CAL pack.** Publish one Context charter, one typed operator card, one acceptance clause with unknown/failure behavior, one legal flow, one evidence/currentness profile, one proof-or-gap row, one worked declaration example, and a minimal `TaskMap` that cites their ids. Stop there when this pack answers the task; method-family extensions, archive surfaces, crossing records, and additional policy pins enter only when the case actually needs them.
+**Smallest viable CAL pack.** Publish one charter for the exact CG frame, one typed operator card, one acceptance clause with `ClaimScope`, evaluation window, and unknown or failure behavior, one legal flow, one evidence and currentness profile, one proof-or-gap row, one worked declaration example, and a minimal editioned `TaskMap` that cites the exact charter, the C.22 `TaskSignatureRef`, and the declaration refs used by selection. Stop there when this pack answers the task; method-family extensions, archive surfaces, crossing records, and additional policy pins enter only when the case actually needs them.
 
 **What changes in practice.** Thresholds and failure behavior stop hiding in code, illegal arithmetic becomes an authoring defect, and runtime workers can cite stable declarations without pretending that a card, flow, manifest, proof row, or stored evidence ref performed an evaluation.
 
-**Not this pattern.** Use C.16 for the measurement result, A.19 for comparison/selection, A.15.1 and A.6.1 for dated evaluation work and actual bindings, C.2.1 for the verdict episteme, A.10/G.6 for provenance, G.11 for currentness, B.3 for assurance, and C.11 for a decision. If the immediate question is whether a declared clause actually ran and what result obtained, go directly to the declaration-to-runtime boundary in §4.4a.
+**Not this pattern.** Use C.16 for the measurement result, A.19 for comparison or selection, A.13 and A.15.1 for each precise performer and independently admitted dated evaluation Work, F.6 only when exact assignment-bound attribution is current, A.6.1 for actual bindings, C.2.1 for the verdict episteme, A.10/G.6 for provenance, G.11 for currentness, B.3 for assurance, and C.11 for a decision. If the immediate question is whether a declared clause actually ran and what result obtained, go directly to the declaration-to-runtime boundary in §4.4a.
 

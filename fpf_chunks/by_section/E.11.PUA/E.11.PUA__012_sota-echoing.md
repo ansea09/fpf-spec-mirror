@@ -6,14 +6,17 @@ section_id: "E.11.PUA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__012_sota-echoing.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:11 — SoTA-Echoing"
-line_start: 77974
-line_end: 77988
+line_start: 78104
+line_end: 78118
 dependencies:
+  - "A.13"
   - "A.15"
+  - "A.15.1"
+  - "A.15.PROD"
   - "A.6.5"
   - "A.6.P.WMR"
   - "A.6.RCD"
@@ -27,6 +30,7 @@ dependencies:
   - "E.22"
   - "E.23"
   - "E.8"
+  - "F.6"
   - "G.11"
 keywords:
 ---

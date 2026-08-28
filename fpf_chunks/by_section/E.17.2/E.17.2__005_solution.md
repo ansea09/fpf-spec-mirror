@@ -6,12 +6,12 @@ section_id: "E.17.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:4 — Solution"
-line_start: 80944
-line_end: 81089
+line_start: 81074
+line_end: 81219
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -169,7 +169,7 @@ A materialized local TEVB instance provides four exact project references; the t
 4. use A.6.RCD when no existing direct or derived relation is sufficient;
 5. use C.29 only for a representation of the recovered relation.
 
-If a separate receiving claim asserts dated `U.Work`, use A.15.1 to establish its performer, Method, time, and containing System, and F.6 to identify the assignment under which the performer acted. Those Work facts are neither participants in the cross-view relation nor prerequisites for identifying it.
+If a separate receiving claim asserts dated `U.Work`, recover each exact actual performer through A.13 and use A.15.1 to establish the Work, Method, time, and containing System independently. Add F.6 only when that receiving claim also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact. Those Work and optional attribution facts are neither participants in the cross-view relation nor prerequisites for identifying it.
 
 E.17 and E.24.PUB may publish a selected TEVB view edition through three distinct relations: `PublicationFormExpressionRelation(selectedEdition,publicationForm,boundedUseDeclaration)`, `PublicationFormBearingRelation(presentationCarrier,publicationForm)`, and the five-participant `EpistemePublicationRelation(selectedEdition,audienceDeclaration,boundedUseDeclaration,publicationForm,presentationCarrier)`. Each retains its own participant set and maximal continuous obtaining interval; changing a participant or restoring availability after a gap yields another occurrence without reidentifying unchanged E or P.
 

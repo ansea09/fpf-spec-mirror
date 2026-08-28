@@ -6,12 +6,12 @@ section_id: "A.15.5:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:5 — Archetypal Grounding - Worked Slices"
-line_start: 26132
-line_end: 26161
+line_start: 26157
+line_end: 26186
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,7 @@ The C.2.1 episteme `FixtureTestEntryReadinessResult-E1`, whose exact EntityOfCon
 
 Situation: an assisting agent can run a reversible documentation probe to find source-currentness gaps.
 
-For the probe itself, apply one exact readiness criterion to its WorkPlan, using the designated declaration-local PlanItem content that the criterion needs, and return the local readiness value with its relied-on inputs, window, and recheck condition. If the probe is actually run, identify that dated occurrence as `U.Work` under `A.15.1`, with its performer System, an obtaining occurrence of an exact directly declared `U.SystemRoleAssignment` species, F.6 attribution, enacted Method, extent, and actual bindings; then run a separate readiness check for the target repair. The probe plan, probe readiness result, performed probe, and target-repair readiness result are four distinct claims.
+For the probe itself, apply one exact readiness criterion to its WorkPlan, using the designated declaration-local PlanItem content that the criterion needs, and return the local readiness value with its relied-on inputs, window, and recheck condition. If the probe is actually run, first recover the precise performer System's A.13 core for that action and independently admit the dated occurrence as `U.Work` under A.15.1 from its performance history, enacted Method, extent, and containing-System relation. Add F.6 afterward only when the target repair-readiness account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; otherwise leave F.6 unopened. Then run a separate readiness check for the target repair. The probe plan, probe readiness result, performed probe, and target-repair readiness result are four distinct claims.
 
 #### A.15.5:5.3 - Release screen with separate readiness, gate, and permission windows
 

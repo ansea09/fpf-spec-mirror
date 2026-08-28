@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:4 — Solution"
-line_start: 38693
-line_end: 38815
+line_start: 38765
+line_end: 38887
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -124,7 +124,7 @@ Several independent evidence lines may strengthen an argument only through the r
 
 **Calculated or model-bearing path.** Add the characteristic results, dependency structure, assumptions, aggregation rule, rival, calculation trace, and sensitivity or failure condition actually used.
 
-**Replay path.** Add Work, System, Method, assignment, application bindings, witnesses, and a reusable note only when the named assurance use depends on those identities. The System performs the assessment Work. The Work, Method, assignment, result, witness, note, and publication remain separate.
+**Replay path.** Add Work, performer, Method, application bindings, witnesses, and a reusable note only when those identities change the named assurance use. For any assessment Work, use A.13 to identify the actual performer and A.15.1 to admit the dated occurrence independently. Add F.6 only if the replay must also say exactly under which assignment the Work was performed. The Work, performer, Method, optional assignment check, result, witness, note, and publication remain separate.
 
 Do not select the replay path merely because the use is important. Importance may make more basis necessary, but every added field must change inspectability, contestability, or the decision.
 

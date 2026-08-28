@@ -6,14 +6,15 @@ section_id: "A.3.1.MR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__013_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:12 — Relations"
-line_start: 8567
-line_end: 8574
+line_start: 8580
+line_end: 8587
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.6"
   - "A.22"
@@ -27,7 +28,7 @@ keywords:
 
 ### A.3.1.MR:12 - Relations
 
-- **Builds on:** `C.2.1` for each account episteme, its EntityOfConcern, and effective scheme; `A.3.1` for the questions that shape a candidate without granting Method membership; `A.15.1` and F.6 for grounded Work occurrences; and `A.10` for bounded source reliance.
+- **Builds on:** `C.2.1` for each account episteme, its EntityOfConcern, and effective scheme; `A.3.1` for the questions that shape a candidate without granting Method membership; A.13 for each precise performer's local agency core; `A.15.1` for independent admission of grounded Work occurrences; F.6 only for a current precise assignment-bound attribution; and `A.10` for bounded source reliance.
 - **Coordinates with:** `A.3.2` for later MethodDescription membership; `A.15.6` for recovery of ambiguous process or case wording; `A.22` for a separately selected comparison structure only when a named use needs it; and `C.32.MWA` for prospective several-structure practice synthesis.
 - **Receives bounded evidence from:** process-data preparation, discovery, conformance, enhancement, object-centric mining, interviews, observations, artifacts, and measurements under their own Methods and claims.
 - **Hands off to:** `A.3.1` for Method identification or specialist `ME.18` for complete reconstruction; neither continuation is automatic.

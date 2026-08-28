@@ -6,12 +6,12 @@ section_id: "F.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__005_forces.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:3 — Forces"
-line_start: 93369
-line_end: 93380
+line_start: 93509
+line_end: 93520
 dependencies:
   - "A.11"
   - "A.15"

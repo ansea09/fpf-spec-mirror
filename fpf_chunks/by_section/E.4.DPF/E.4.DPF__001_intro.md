@@ -6,14 +6,15 @@ section_id: "E.4.DPF:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__001_intro.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:intro — Intro"
-line_start: 69522
-line_end: 69527
+line_start: 69624
+line_end: 69629
 dependencies:
   - "A.1.1"
+  - "A.13"
   - "A.15.1"
   - "A.15.PROD"
   - "A.2.6"

@@ -6,12 +6,12 @@ section_id: "F.8:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__016_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:13 — Relations"
-line_start: 93734
-line_end: 93750
+line_start: 93874
+line_end: 93890
 dependencies:
   - "A.11"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.1.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__001_intro.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:intro — Intro"
-line_start: 1824
-line_end: 1829
+line_start: 1833
+line_end: 1838
 dependencies:
   - "A.1"
   - "A.14"

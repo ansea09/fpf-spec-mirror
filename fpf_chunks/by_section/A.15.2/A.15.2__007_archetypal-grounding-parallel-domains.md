@@ -6,12 +6,12 @@ section_id: "A.15.2:6"
 section_title: "Archetypal grounding (parallel domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__007_archetypal-grounding-parallel-domains.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:6 — Archetypal grounding (parallel domains)"
-line_start: 25081
-line_end: 25119
+line_start: 25106
+line_end: 25144
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,7 +72,7 @@ keywords:
 | acceptance target | `procedureCompleteBy10:30`, compared under B.1.4 against the exact Work extent after Work occurs |
 | baseline | exact C.2.1 episteme `OR-DayBaseline-2025-08-05-E1` |
 
-* **Later Work:** A.15.1 independently identifies `AppendectomyWork-2025-08-12-Case1 : U.Work` with `workContinuityPolicyRef = SingleProcedureFromAnesthesiaStartToHandover-E1` and temporal extent `2025-08-12T09:04:00+03:00/2025-08-12T10:21:00+03:00`. F.6 `performedUnderAssignment` obtains for `RA-Surgeon-DrK-2025-08-12` and `RA-Anesthetist-DrM-2025-08-12`; A.15.1 `enactsMethod` obtains for `LaparoscopicAppendectomyMethod-E2`; B.1.4 supplies the exact within-window comparison. The plan created none of those facts.
+* **Later Work:** A.13 first recovers the surgeon and anesthetist as the exact actual performers through their respective obtaining assignments, and A.15.1 independently admits `AppendectomyWork-2025-08-12-Case1 : U.Work` with `workContinuityPolicyRef = SingleProcedureFromAnesthesiaStartToHandover-E1`, temporal extent `2025-08-12T09:04:00+03:00/2025-08-12T10:21:00+03:00`, and `enactsMethod` to `LaparoscopicAppendectomyMethod-E2`. Because the named one-case policy expressly consumes both assignment-bound attributions, F.6 afterward establishes `performedUnderAssignment` for `RA-Surgeon-DrK-2025-08-12` and `RA-Anesthetist-DrM-2025-08-12` through those same assignments. B.1.4 supplies the exact within-window comparison. The plan created none of those facts, and either failed F.6 relation would leave the Work intact while preventing this attribution-dependent fulfilment conclusion.
 * **Named one-case policy:** `ORCase1FulfilmentPolicy-E2` is one exact C.2.1 episteme about exact plan episteme `OR_DayPlan_2025-08-12-E3`, interpreted under `HospitalORPlanningScheme-E4`. Its ClaimGraph is limited to item `Case_1_Appendectomy` and states positive polarity only when the identified Work enacts the target Method, both required `performedUnderAssignment` relations obtain, and its extent lies inside the planned window. It uses only those four facts for this local conclusion, does not travel to another plan episteme, and admits no fulfilment relation kind.
 * **Visible result:** C.2.1 assertion episteme `OR-DayPlan-Case1-Fulfilment-Assertion-E1` has `OR_DayPlan_2025-08-12-E3` as its exact `EntityOfConcern`; its ClaimGraph names `AppendectomyWork-2025-08-12-Case1`, item `Case_1_Appendectomy`, policy `ORCase1FulfilmentPolicy-E2`, the four supporting facts, and positive polarity. The result says that this Work satisfies this plan item under that policy. It does not rewrite the plan and does not assert a universal relation.
 * **Nearest false shortcut:** a theatre log row carrying key `Case_1_Appendectomy` and start time `09:04` establishes neither `performedUnderAssignment` nor `enactsMethod`. Without those independently obtaining facts the local conclusion returns `missing-information`; matching labels and times produce neither negative polarity nor fulfilment.

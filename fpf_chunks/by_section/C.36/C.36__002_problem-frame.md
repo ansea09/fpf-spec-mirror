@@ -6,12 +6,12 @@ section_id: "C.36:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__002_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:1 — Problem frame"
-line_start: 66653
-line_end: 66709
+line_start: 66736
+line_end: 66792
 dependencies:
   - "A.1"
   - "A.10"
@@ -109,7 +109,7 @@ Many current projects no longer develop one isolated object. They shape evolving
 
 Cultural evolution is current when the question is how a collective or discipline generates, transmits, recognizes, selects, retains, or changes variants. Memory or canon epistemes, recognition and selection relations, comparison, platform or algorithmic mediation, and changing Method families may all matter.
 
-When the case says that Work was performed, identify the admitted System, dated Work occurrence, enacted Method, and all facts required by A.15.1, A.2.1, and F.6. A local system-role kind, System-classification judgment, assignment species, assignment occurrence, Work occurrence, Method, effect claim, responsibility relation, and family description remain separate.
+When the case says that Work was performed, recover each exact actual performer through A.13 and let A.15.1 independently admit the dated Work occurrence and enacted Method. Add A.2.1 and F.6 only when the case or receiving use expressly represents precise assignment-bound attribution; missing or failed F.6 leaves the Work intact. A local system-role kind, classification judgment, assignment species, assignment occurrence, Work occurrence, Method, effect claim, responsibility relation, and family description remain separate.
 
 This pattern gives FPF a first-use cultural-evolution case without adding a new top-level part or a root ontology of culture. The same pattern can serve engineering product families, scientific research programs, medical disciplines, pedagogy, music styles, dance styles, organizational cultures, and AI-agent framework evolution because it begins with existing FPF objects and relations rather than domain labels.
 

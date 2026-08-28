@@ -6,12 +6,12 @@ section_id: "A.6.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:4 — Solution"
-line_start: 12991
-line_end: 13226
+line_start: 13002
+line_end: 13237
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -195,7 +195,7 @@ One binding occurrence is identified by `<exactApplicationOccurrence, exactMecha
 
 The controlled phrase *operation-application binding* names this family of declaration-local binding occurrences; it is not a renamed universal work-participant, input, output, result, evidence, or production relation kind. A result binding says which value the application returned. It does not say that dated work produced or first constituted that entity, that a result episteme exists, or that another claim should rely on it.
 
-A dated performance is a separate Work individual admitted under `U.Work` by A.15.1. When a Work claim also relies on one already identified application and its bindings, identify the Work occurrence independently. Name the admitted performer System `S` and the obtaining assignment `RA`; verify that `S = RA.HolderSystemSlot`, that `RA` covers the attributed Work extent, and that F.6 `performedUnderAssignment(W, RA)` obtains. State the Work temporal extent, at least one obtaining `enactsMethod -> U.Method` relation, any additional enactment relation used by the application claim, and at least one obtaining locally declared A.15.1 Work-to-System containment relation with its exact boundary. Add a work-to-referent relation, performed resource use, continuity policy, or Work mereology only when the claim asserts that relation and its own predicate obtains. A.6.1 does not identify the Work occurrence. If neither a direct subject relation nor a truthful A.6.1 application binding establishes the claimed participation, retain the exact missing-governor blocker.
+A dated performance is a separate Work individual. When a Work claim also relies on one already identified application and its bindings, recover each exact actual performer through A.13 and let A.15.1 independently admit `W : U.Work` from its performance history, temporal extent, at least one obtaining `enactsMethod -> U.Method` relation, and at least one obtaining locally declared Work-to-System containment relation with its exact boundary. Add the same obtaining A.13 assignment and F.6 `performedUnderAssignment(W, RA)` only when this application account or its receiving use expressly consumes precise assignment-bound attribution; then check holder equality and assignment coverage. F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Add any additional enactment, work-to-referent, performed resource use, continuity policy, or Work-mereology relation only when the claim asserts it and its own predicate obtains. A.6.1 does not identify the Work occurrence. If neither a direct subject relation nor a truthful A.6.1 application binding establishes the claimed participation, retain the exact missing-governor blocker.
 
 #### A.6.1:4.6 - State realization as a direct relation
 

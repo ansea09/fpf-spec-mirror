@@ -6,12 +6,12 @@ section_id: "A.3.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__008_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:7 — Conformance Checklist"
-line_start: 8281
-line_end: 8308
+line_start: 8294
+line_end: 8321
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -47,7 +47,7 @@ keywords:
 
 **CC-A3.1-4 (Assignment-free Method).** A Method may state local system-role-kind admission conditions or capability-fit conditions. These are Method-side admissibility conditions, not deontic obligations by default. The Method does not bind named people, teams, organizations, or calendar allocations.
 
-**CC-A3.1-5 (Runtime-free method).** A dated run is a Work individual under `U.Work`, not a method field. A.15.1 separately grounds its performer system, covering assignment and attribution, enacted method, extent, containing system, and every participation or resource relation used by the claim. Telemetry, logs, measurements, evaluations, production, delivery, acceptance, and result records remain separate claims.
+**CC-A3.1-5 (Runtime-free method).** A dated run is a Work individual under `U.Work`, not a method field. Recover each exact actual performer through A.13; A.15.1 independently grounds the Work, enacted Method, extent, containing System, and every participation or resource relation used by the claim. Add a covering assignment and F.6 attribution only when the receiving use expressly represents precise assignment-bound attribution. Telemetry, logs, measurements, evaluations, production, delivery, acceptance, and result records remain separate claims.
 
 **CC-A3.1-6 (Plan-free method).** Work preparation, schedule, go or no-go date, work authorization, and planned work relation belong to `U.WorkPlan`, gate, authority, or commitment patterns.
 

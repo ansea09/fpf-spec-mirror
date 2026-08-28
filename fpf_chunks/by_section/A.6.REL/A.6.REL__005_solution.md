@@ -6,12 +6,12 @@ section_id: "A.6.REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:4 — Solution"
-line_start: 12180
-line_end: 12383
+line_start: 12191
+line_end: 12394
 dependencies:
   - "A.6.0"
   - "A.6.5"
@@ -168,7 +168,7 @@ When the same participants can enter more than one occurrence, the direct patter
 | A transformation occurrence rather than its producing work contributes to identity | participant identities together with that transformation occurrence determine occurrence identity, but only when the direct transformation and relation patterns include it in the relation occurrence-identity rule |
 | The relation kind uses another domain identity rule | the exact discriminator supplied by its subject pattern |
 
-When a relation occurrence is a constructed result under its direct construction rule, recover the constructing `U.System` and the performed construction Work. Use F.6 to identify the assignment under which each constructing System acted; a short occurrence-identity explanation may omit an assignment identifier that no later claim uses. Also recover the enacted constructor Method, input entities, and the identity contribution of that Work occurrence. An installed-part relation is only a hypothetical candidate here: installation Work may distinguish its occurrences only after an accepted pattern for that relation declares the participant meanings, obtaining predicate, applicability, and constitutive identity contribution. Until then, do not infer an installed-part occurrence from the Work, row, drawing, assertion, designation, or representation.
+When a relation occurrence is a constructed result under its direct construction rule, recover each exact constructing `U.System` through A.13 and let A.15.1 independently admit the performed construction Work. Add F.6 only when the occurrence-identity explanation or a later receiving claim expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 establishes that Work-assignment link and identifies neither the assignment nor the performer. A short explanation may omit an unused assignment identifier, and missing or failed F.6 leaves the construction Work intact. Also recover the enacted constructor Method, input entities, and the identity contribution of that Work occurrence. An installed-part relation is only a hypothetical candidate here: installation Work may distinguish its occurrences only after an accepted pattern for that relation declares the participant meanings, obtaining predicate, applicability, and constitutive identity contribution. Until then, do not infer an installed-part occurrence from the Work, row, drawing, assertion, designation, or representation.
 
 A changed episteme contributes to occurrence identity only when that episteme itself is a constitutive participant under the direct identity rule. A changed publication occurrence contributes only when that publication occurrence is itself a constitutive participant under the same rule. A system merely learning about the relation, describing it, or publishing an episteme about it changes no world-side occurrence.
 

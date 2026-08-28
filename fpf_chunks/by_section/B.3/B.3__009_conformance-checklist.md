@@ -6,12 +6,12 @@ section_id: "B.3:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__009_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:7 — Conformance checklist"
-line_start: 38882
-line_end: 38898
+line_start: 38954
+line_end: 38970
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,6 +47,6 @@ keywords:
 | `CC-B3-8` | A label, dashboard, card, provenance mark, attestation, or publication contributes only the exact property established through a cited relation. |
 | `CC-B3-9` | Safety, rights, access, responsibility, contest, redress, status, permission, release, and controlled action remain with their direct patterns. |
 | `CC-B3-10` | A causal-use premise cites the exact C.28 result; a Method-organization premise cites an A.22-selected structure only when that structure matters. |
-| `CC-B3-11` | Work, System, Method, assignment, bindings, witnesses, and reusable notes are added only for an actual replay, competence, independence, timing, contest, or redress need. |
+| `CC-B3-11` | Work, performer, Method, bindings, witnesses, reusable notes, and an optional F.6 assignment check are added only for an actual replay, competence, independence, timing, contest, or redress need. Every Work follows the §4.5 A.13 then independent A.15.1 route. |
 | `CC-B3-12` | A positive result states the unsupported stronger use and exact reopen condition. |
 

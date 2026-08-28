@@ -6,12 +6,12 @@ section_id: "G.1:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__011_rationale-informative.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:10 — Rationale (informative)"
-line_start: 100000
-line_end: 100006
+line_start: 100140
+line_end: 100146
 dependencies:
   - "A.10"
   - "A.15.3"

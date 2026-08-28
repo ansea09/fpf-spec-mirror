@@ -6,12 +6,12 @@ section_id: "E.22:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__009_common-anti-patterns-and-repairs.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:8 — Common anti-patterns and repairs"
-line_start: 88412
-line_end: 88427
+line_start: 88550
+line_end: 88565
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -35,8 +35,8 @@ keywords:
 | **"Review this" prompt.** The evaluator infers purpose. | Add a `QualityEvaluationQuestionFrame` with exact object version, space, criterion, ClaimScope, consumer, purpose, and boundary. |
 | **Context-labelled frame.** Project, domain, dashboard, cadence, or context label supplies identity or evaluation scope. | Identify the frame by its C.2.1 claim content and exact EntityOfConcern; bind the exact `U.ClaimScope` and other use values separately. |
 | **Floor pass sold as excellence.** Readiness is mistaken for exceptional improvement. | State `exceptionalImprovementEvaluation` if wanted. |
-| **Frame replaces result.** The question frame names a purpose but returns prose, a two-column value table, or proposal rows without the named evaluation's result form. | Re-run the named evaluation and return its declared coordinates, evidence basis, rationales, payload fields, and typed result binding or direct result relation. If the result asserts dated Work or an A.6.1 application, apply A.15.1 and F.6 and name the operation bindings; do not infer them from the frame. |
-| **Description performs evaluation.** A method description, characteristic-space specification, expected evidence basis, assignment occurrence, or result-form description is treated as evaluation Work or its result. | Keep each description and assignment separate. Identify the evaluator System and direct evaluation result; when dated Work is asserted, apply A.15.1 and F.6 and keep evidence use and result under their direct patterns. |
+| **Frame replaces result.** The question frame names a purpose but returns prose, a two-column value table, or proposal rows without the named evaluation's result form. | Re-run the named evaluation and return its declared coordinates, evidence basis, rationales, payload fields, and typed result binding or direct result relation. If the result asserts dated Work, recover the evaluator through A.13 and apply A.15.1 independently; add F.6 only for an expressly represented precise assignment-bound attribution. If it asserts an A.6.1 application, name the operation bindings. Do not infer any of them from the frame. |
+| **Description performs evaluation.** A method description, characteristic-space specification, expected evidence basis, assignment occurrence, or result-form description is treated as evaluation Work or its result. | Keep each description and assignment separate. Recover the evaluator System through A.13 and identify the direct evaluation result; when dated Work is asserted, apply A.15.1 independently and add F.6 only when the receiving account expressly consumes precise assignment-bound attribution. Keep evidence use and result under their direct patterns. |
 | **Scope laundering.** The frame asks one use, but the result answers an easier, local-only, diagnostic, or evaluator-selected use. | Re-run the named evaluation under the requested `U.ClaimScope`; if another use is needed, open a new frame rather than saving the current result. |
 | **Applied-count absorption.** Closure count replaces re-evaluation of the changed object. | Re-evaluate the changed object and classify impact. |
 | **Goodharted improvement.** Visible values rise while protected qualities worsen, or a `5` target makes the evaluator add apparatus instead of improving content. | Frame the expected evaluation effect as a substantive content change, add trade-off protection, reject dominated changes, apply E.13 when a visible value replaces the intended value, and admit `no proposal` only when checked positions show that no worthwhile content improvement remains. |

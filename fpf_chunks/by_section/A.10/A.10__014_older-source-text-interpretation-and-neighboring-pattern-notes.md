@@ -6,14 +6,15 @@ section_id: "A.10:10"
 section_title: "Older source text interpretation and neighboring-pattern notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__014_older-source-text-interpretation-and-neighboring-pattern-notes.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:10 — Older source text interpretation and neighboring-pattern notes"
-line_start: 22949
-line_end: 22960
+line_start: 22960
+line_end: 22971
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.PROD"
   - "A.19"
@@ -53,7 +54,7 @@ keywords:
 Treat legacy names such as `manifest`, `creator`, `observer`, `symbol register`, `SCR`, `RSCR`, `MIC`, `verifiedBy`, `validatedBy`, or evidence `path` as recovery prompts, not current relation names.
 
 - A manifest or source register is a carrier/publication or provenance description; recover the exact source, edition, claim, and direct relations it represents.
-- A `creator`, `observer`, producer, verifier, or maintainer participates as an admitted System only when the direct participation relation obtains. If dated Work is asserted, point to its complete A.15.1/F.6 basis and any exact direct or A.6.1 bindings used by the claim. Those labels and assignments supply neither participation, authority, nor responsibility.
+- A `creator`, `observer`, producer, verifier, or maintainer participates as an admitted System only when the direct participation relation obtains. If dated Work is asserted, recover every precise performer's A.13 core and independently admit the Work under A.15.1. Add F.6 afterward only when precise assignment-bound attribution is current. Name any exact direct relation or A.6.1 binding used by the claim separately. Those labels and assignments supply neither participation, authority, nor responsibility.
 - A method-instantiation note is not work. Recover the exact `U.Method`, generic MethodDescription claims, dated occurrence, enactment, ordering, participants, and result separately.
 - A `work result`, `measurement result`, `validation result`, or `verification result` label requires the exact domain result and a separate C.2.1 episteme; the legacy field name establishes neither.
 - Resource rosters remain separate from carriers and provenance records.

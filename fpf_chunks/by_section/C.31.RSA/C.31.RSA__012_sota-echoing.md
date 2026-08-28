@@ -6,12 +6,12 @@ section_id: "C.31.RSA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__012_sota-echoing.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:11 — SoTA-Echoing"
-line_start: 62185
-line_end: 62204
+line_start: 62258
+line_end: 62277
 dependencies:
   - "A.10"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "A.6.S:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__007_worked-cases.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:5 — Worked cases"
-line_start: 20941
-line_end: 20972
+line_start: 20952
+line_end: 20983
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -54,7 +54,7 @@ keywords:
 * a direct calibration, provenance, or other relation assertion under its own pattern, with an A.6.6 declaration-change label only when a receiver tracks its represented history; and
 * an E.17 view-producing operation for the repeated Plain, Tech, and interoperability publications.
 
-`PaymentSignatureEngineeringPipeline`, if admitted as a System, may apply those descriptions and perform dated authoring or publication Work. The ConstructorSignature does not act. State a local system-role classification, F.6 assignment, application binding, carrier, or evidence relation only when the receiving claim uses it.
+`PaymentSignatureEngineeringPipeline`, if admitted as a System, may apply those descriptions and perform dated authoring or publication Work. The ConstructorSignature does not act. State a local system-role classification, exact A.2.1 assignment, separate F.6 Work-assignment relation, application binding, carrier, or evidence relation only when the receiving claim uses it.
 
 The sentence `Charges are recorded in Ledger L for the external API` must first name and test its actual direct relation. Do not replace it with `declareBase`, a generic `baseRelation`, or a witness package. If later comparison needs a stable representation of that assertion and its scope, A.6.6 may add the optional declaration history.
 

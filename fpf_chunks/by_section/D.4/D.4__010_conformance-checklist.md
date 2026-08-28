@@ -6,12 +6,12 @@ section_id: "D.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__010_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:6 — Conformance Checklist"
-line_start: 67849
-line_end: 67857
+line_start: 67933
+line_end: 67941
 dependencies:
   - "A.10"
   - "A.20"
@@ -35,5 +35,5 @@ keywords:
 | CC-D4-1 | An exact `conflictDescriptionRef` identifies one C.2.1 episteme through D.3, or the use returns to D.3. | Prevents mediation without a reidentifiable conflict description. |
 | CC-D4-2 | The record names the affected EntityOfConcern, any affected Systems, value-frame editions, decision question and options, intended decision or Work use, and the current admissible move. ClaimScope and qualification window are explicit when they delimit that use. | Keeps ethical use explicit without relying on a generic context premise. |
 | CC-D4-3 | Evidence, causality, assurance, architecture, and decision claims use their subject patterns. | Prevents D.4 from becoming universal decision authority. |
-| CC-D4-4 | When proceeding under residual harm, name accepted residuals and admitted Systems; keep any local kind, C.2.1 System-classification assertion episteme, prospective plan or assignment requirement, and actual relation distinct. Every responsibility, authority, permission, or commitment claim has its independently obtaining direct relation or exact A.6.RCD missing governor. Every actual Work row separates the assignment species from its obtaining occurrence and carries the complete A.15.1 and F.6 basis. | Keeps bounded decision use reviewable without deriving responsibility or performance from an assignment or decision. |
+| CC-D4-4 | When proceeding under residual harm, name accepted residuals and admitted Systems; keep any local kind, C.2.1 System-classification assertion episteme, prospective plan or assignment requirement, and actual relation distinct. Every responsibility, authority, permission, or commitment claim has its independently obtaining direct relation or exact A.6.RCD missing governor. Every actual Work row first recovers each precise performer's A.13 core and independently admits the Work under A.15.1; it adds F.6 only when precise assignment-bound attribution is also current. | Keeps bounded decision use reviewable without deriving responsibility or performance from an assignment or decision. |
 

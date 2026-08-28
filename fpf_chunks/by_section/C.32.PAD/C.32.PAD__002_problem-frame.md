@@ -6,12 +6,12 @@ section_id: "C.32.PAD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__002_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:1 — Problem frame"
-line_start: 65121
-line_end: 65237
+line_start: 65200
+line_end: 65317
 dependencies:
   - "A.10"
   - "A.15"
@@ -150,6 +150,7 @@ ArchitectureDecisionRelation@Project:
       currentPerformerAssignmentOccurrenceRef?: U.RelationRef constrained to an obtaining occurrence of currentPerformerAssignmentSpeciesRef, with actual participants, applicability, extent, and intendedPerformerSystemRef as holder recoverable
       intendedAssignmentRequirementRef?: plan, policy, or decision-content ref stating a prospective assignment requirement; does not assert an assignment, commitment, or permission occurrence
       actualImplementationWorkRef?: U.EntityRef constrained to U.Work
+      actualImplementationWorkAttributionRef?: U.RelationRef constrained to one obtaining F.6 performedUnderAssignment relation, only when the instruction expressly represents attribution
       responsibilityRelationRef?: U.RelationRef resolving to an independently obtaining admitted domain relation
       responsibilityMissingGovernor?: exact A.6.RCD result when responsibility is required but no predicate is admitted
       authorityRelationRef?: U.RelationRef resolving to an independently obtaining admitted domain relation
@@ -176,5 +177,5 @@ The filled `ArchitectureDecisionRelation@Project` is the decision result. Its se
 
 The field names in this first-output form are publication-friendly filled-reference fields. Durable relation positions must be expressible through `A.6.5` SlotSpecs: each position has a local `SlotKind`, an admitted `ValueKind`, and a by-value or concrete `RefKind` filling mode. A field name such as `decisionSubjectRef` is not a SlotKind, not a U-kind, and not an ADR heading; it is the filled-reference field by which this relation record points to the value governed by the slot-bearing relation.
 
-When an instruction cites actual implementation Work, `actualImplementationWorkRef` names the independently identified `U.Work` occurrence. All facts required by A.15.1, A.2.1, and F.6 remain recoverable; the decision record creates none of them.
+When an instruction cites actual implementation Work, recover each exact actual performer through A.13 and let `actualImplementationWorkRef` name the `U.Work` occurrence independently admitted through A.15.1. Assignment species and occurrence fields remain optional neighboring claims. Add `actualImplementationWorkAttributionRef` only when the instruction or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work ref intact. The decision record creates none of these facts.
 

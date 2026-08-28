@@ -6,12 +6,12 @@ section_id: "E.24.CD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__007_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:5 — Archetypal Grounding"
-line_start: 89939
-line_end: 90035
+line_start: 90077
+line_end: 90173
 dependencies:
   - "A.1"
   - "A.14"
@@ -116,11 +116,11 @@ A separate C.2.1 description episteme may provide claim-bearing orientation. Its
 
 Pump #14 is operating while a sensor, valve, and controller are connected. `Operating` first cues a governed state claim; it does not establish `U.Work` or `U.Transformation`. Connectedness does not establish parthood. Identify the pump and connected entities, state the exact connection relations, and use `A.14` only for part relations whose predicates actually obtain.
 
-Add dated maintenance or control `U.Work` only when A.15.1 identifies its time, Method, containing System, and performers, and F.6 identifies the assignment under which each performer acted. A local system-role kind and its classification remain separate. A short situation-recovery sentence may omit identifiers its receiving use does not need. If maintenance or control is merely intended, keep it as an A.15.2 WorkPlan or other modal claim; it creates neither Work nor assignment. Add an actual bounded change under `A.3.4` only when its changed referent, boundary, conditions, and change facts obtain. No bundle of system, state, connection, work, and change becomes a situation entity.
+Add dated maintenance or control `U.Work` only after every precise performer has an A.13 core and A.15.1 independently identifies the Work's performance history, Method, time, containing System, and performers. Add F.6 only when the recovered situation account also needs precise assignment-bound attribution. A local system-role kind and its classification remain separate. A short situation-recovery sentence may omit identifiers its receiving use does not need. If maintenance or control is merely intended, keep it as an A.15.2 WorkPlan or other modal claim; it creates neither Work nor assignment. Add an actual bounded change under `A.3.4` only when its changed referent, boundary, conditions, and change facts obtain. No bundle of system, state, connection, work, and change becomes a situation entity.
 
 #### E.24.CD:5.7 - Multi-party emergency
 
-An emergency report mentions a leaking vessel, an overheated subsystem, a suppression system, and response teams. Recover each participating System and each actual change separately. For every dated response claimed as `U.Work`, apply A.15.1 and F.6 as stated in `E.24.CD:5.6`; keep any local system-role classification separate. Keep an intended response as a plan or other modal content until it occurs. State temporal relations through their temporal patterns and a causal relation through `C.28` only when that claim is current and supported.
+An emergency report mentions a leaking vessel, an overheated subsystem, a suppression system, and response teams. Recover each participating System and each actual change separately. For every dated response claimed as `U.Work`, recover each precise performer's A.13 core and independently admit the occurrence under A.15.1 as stated in `E.24.CD:5.6`; add F.6 only when the current account also needs exact assignment-bound attribution. Keep any local system-role classification separate. Keep an intended response as a plan or other modal content until it occurs. State temporal relations through their temporal patterns and a causal relation through `C.28` only when that claim is current and supported.
 
 Use a C.2.1 emergency-description episteme only when the receiving work needs claim-bearing orientation across those objects. The emergency word, the record, and the co-presence of several systems and works identify neither `U.IncidentSituation` nor another bundled whole. Stop decomposition once the response decision has the exact subjects and relations it needs.
 

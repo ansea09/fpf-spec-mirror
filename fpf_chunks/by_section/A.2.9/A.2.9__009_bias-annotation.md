@@ -6,14 +6,15 @@ section_id: "A.2.9:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__009_bias-annotation.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:6 — Bias-Annotation"
-line_start: 7598
-line_end: 7607
+line_start: 7611
+line_end: 7620
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -26,17 +27,20 @@ dependencies:
   - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
-  - "actual communicative occurrence"
-  - "admitted speech-act Work kind"
-  - "authority-grounding assignment"
+  - "A.13-qualified actual performer"
+  - "containment"
+  - "enacted Method"
   - "evidence carrier"
+  - "independently admitted speech-act Work"
   - "institutional target and effect"
   - "named receiving use"
   - "optional SpeechActRecord"
-  - "performing U.System"
   - "publication relation"
   - "response versus achievement"
+  - "same obtaining assignment"
+  - "separate later performedUnderAssignment"
   - "smallest repair or stop"
+  - "time"
   - "utterance description"
 ---
 

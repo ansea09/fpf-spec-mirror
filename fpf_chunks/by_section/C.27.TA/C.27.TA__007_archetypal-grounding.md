@@ -6,12 +6,12 @@ section_id: "C.27.TA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__007_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:5 — Archetypal Grounding"
-line_start: 55479
-line_end: 55523
+line_start: 55551
+line_end: 55595
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -84,7 +84,7 @@ TemporalAspectStatementClaimContent:
 
 A review practice depends on a two-day response rhythm across several review positions and participants. This is ordinary readable wording; it does not by itself admit Systems, classify local system-role kinds, create assignments, establish responsibility, or prove that response Work occurred.
 
-Name a local system-role kind or a separate System-classification judgement only when the receiving claim uses that distinction. If it relies on an assignment, cite the directly declared relation species and its obtaining occurrence with the actual participant values, holder, applicability, and extent under `A.2.1`. An assignment may be current in a plan or availability statement before any response Work occurs; it does not imply completed Work. Only when the claim says that a System performed dated response Work should it identify that System and the complete Work basis under `A.15.1` and `F.6`.
+Name a local system-role kind or a separate System-classification judgement only when the receiving claim uses that distinction. If it relies on an assignment, cite the directly declared relation species and its obtaining occurrence with the actual participant values, holder, applicability, and extent under `A.2.1`. An assignment may be current in a plan or availability statement before any response Work occurs; it neither classifies a System nor implies completed Work. Only when the claim says that a System performed dated response Work should it first recover that exact performer through A.13 and let A.15.1 independently admit the Work. Add F.6 only if the temporal account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact.
 
 C.27.TA names the exact EntityOfConcern, rhythm or cadence predicate, temporal reference, and window. When cross-bearer coordination matters, cite the direct coupling-relation declaration and an obtaining occurrence only after its predicate passes; keep the PatternID as a separate rule citation.
 

@@ -6,14 +6,15 @@ section_id: "C.32.FAIL:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__008_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:7 — Conformance Checklist"
-line_start: 65041
-line_end: 65052
+line_start: 65120
+line_end: 65131
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

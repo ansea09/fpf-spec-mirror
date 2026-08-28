@@ -6,12 +6,12 @@ section_id: "B.5.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__003_problem.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.5.1 — Explore → Shape → Evidence → Operate"
   - "B.5.1:2 — Problem"
-line_start: 40051
-line_end: 40054
+line_start: 40123
+line_end: 40126
 dependencies:
   - "B.5"
 keywords:

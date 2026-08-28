@@ -6,12 +6,12 @@ section_id: "D.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__014_sota-echoing.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:10 — SoTA-Echoing"
-line_start: 67483
-line_end: 67491
+line_start: 67567
+line_end: 67575
 dependencies:
   - "A.1"
   - "A.15"

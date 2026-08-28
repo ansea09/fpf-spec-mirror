@@ -6,12 +6,12 @@ section_id: "A.6.S:4"
 section_title: "Solution - start with the direct move; add a ConstructorSignature for named reuse"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__006_solution-start-with-the-direct-move-add-a-constructorsignature-for-named-reuse.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:4 — Solution - start with the direct move; add a ConstructorSignature for named reuse"
-line_start: 20843
-line_end: 20940
+line_start: 20854
+line_end: 20951
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -48,7 +48,7 @@ A **ConstructorSignature** is optional. When used, it is a `U.Signature` whose r
 
 If a constructor family also uses an A.6.2 mathematical arrow, identify that arrow separately. The arrow relates exact source and receiving epistemes. Its rule states how their claim content, EntityOfConcern, and effective ReferenceScheme compare. When it reads a neighboring grounding, representation, conformance, edition, or provenance occurrence, name that occurrence and the endpoint facts compared; the arrow neither changes the occurrence nor makes it obtain. A.6.3 and A.6.4 apply only to their exact viewing or EntityOfConcern-retargeting cases.
 
-When a System actually authors, derives, materializes, validates, stores, or publishes an episteme, identify only the objects current for the claim: the operation application and bindings when used, the admitted System, the dated Work, the resulting episteme, and any carrier or publication relation. A local system-role classification and an F.6 assignment remain separate and are added only when a later inference needs them.
+When a System actually authors, derives, materializes, validates, stores, or publishes an episteme, identify only the objects current for the claim: the operation application and bindings when used, the admitted System, the dated Work, the resulting episteme, and any carrier or publication relation. A local system-role classification, exact A.2.1 assignment, and separate F.6 Work-assignment relation remain optional and distinct; add each only when a later inference needs that claim.
 
 #### A.6.S:4.1 - Decide whether a second signature is needed
 
@@ -119,7 +119,7 @@ If a receiving use needs stable claim identifiers or A.6.B quadrant classificati
 If a team represents actual signature-construction Work as an E.18 `TransformationFlowStructure`, reference only the A.6.S objects and direct relations that the flow uses; do not convert them into a second graph ontology:
 
 * Declared constructor arrows may appear at transformation-flow loci as independently defined A.6.2 values over signature epistemes. An actual operation application and any performed Work remain separately identified.
-* Concrete carrier writes (commits, releases, registry writes, and carrier and source-currentness pinning) are performed-Work loci or Work occurrences identified with A.15 and A.15.1. Use A.2 for any separate local system-role classification and A.2.1 and F.6 for the assignment under which each performer acted; a short flow account may omit an unused assignment identifier. Use A.10 for evidence and provenance, E.17 for publication, and the relevant carrier patterns for carriers. None of these values is a constructor operation.
+* Concrete carrier writes (commits, releases, registry writes, and carrier and source-currentness pinning) are performed-Work loci or Work occurrences identified with A.15 and A.15.1 after each exact actual performer is recovered through A.13. Use A.2 for any separate local system-role classification. Add A.2.1 and F.6 only when the receiving flow account expressly consumes the assignment under which a performer acted; missing or failed attribution leaves the carrier-write Work intact. Use A.10 for evidence and provenance, E.17 for publication, and the relevant carrier patterns for carriers. None of these values is a constructor operation.
 * Validation and admission checks are gate/check loci governed by A.21, with `OperationalGate(profile)`, `GateProfile`, `GateCheckRef`, `GateDecision`, and `DecisionLogRef` named when a gate-decision relation is present.
 * Any `EntityOfConcernRef` change routes to A.6.4: identify the exact arrow r and separate q, then let E.18 place them only when a transformation-flow use is current. A kind change without that basis supplies no positive claim, and any actual operation application remains separate.
 

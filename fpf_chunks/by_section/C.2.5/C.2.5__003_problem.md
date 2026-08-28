@@ -6,12 +6,12 @@ section_id: "C.2.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__003_problem.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:2 — Problem"
-line_start: 43518
-line_end: 43520
+line_start: 43590
+line_end: 43592
 dependencies:
   - "A.16"
   - "A.16.0"

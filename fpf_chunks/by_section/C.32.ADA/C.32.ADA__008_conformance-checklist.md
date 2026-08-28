@@ -6,12 +6,12 @@ section_id: "C.32.ADA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__008_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:7 — Conformance Checklist"
-line_start: 65927
-line_end: 65941
+line_start: 66009
+line_end: 66023
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,6 +66,6 @@ keywords:
 | `CC-ADA-6` | Weak coordinates name repair pattern refs and repair instructions. |
 | `CC-ADA-7` | Evidence, assurance, gate, measurement, eval, publication, Method, Work, and pattern-quality claims remain distinct subject assertions and cite their exact defining or constraining ClaimGraphs. |
 | `CC-ADA-8` | A project-local ADA record names both `projectWorkOccurrenceRef` and `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's relation, the suffix, or either field alone asserts no locality. |
-| `CC-ADA-9` | A local evaluator kind and a System-classification judgment use separate refs and neither requires an assignment. An assignment claim names both its declared species and obtaining occurrence with actual participants, holder, applicability, and extent. Actual evaluation names its `U.Work` occurrence and keeps all facts required by A.15.1, A.2.1, and F.6 recoverable; an operation application is additional, and the result episteme remains separate. Kind, classification, assignment, Work, and responsibility imply none of the others. |
+| `CC-ADA-9` | A local evaluator kind and a System-classification judgment use separate optional refs and neither requires an assignment. Actual evaluation first recovers the evaluator through A.13 and names independently admitted A.15.1 Work. Assignment species, occurrence, and F.6 refs are optional and appear only when the ADA record or receiving use expressly represents precise assignment-bound attribution; a missing or failed relation leaves the Work intact. An operation application and result episteme remain separate. Kind, classification, assignment, Work, attribution, responsibility, application, and result imply none of the others. |
 | `CC-ADA-10` | Every evaluation binds one exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, evaluation window, and input projection; the declared-use label and coordinate table do not replace them. |
 

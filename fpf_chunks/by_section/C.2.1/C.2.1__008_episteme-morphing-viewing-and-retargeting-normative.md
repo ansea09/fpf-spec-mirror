@@ -6,12 +6,12 @@ section_id: "C.2.1:7"
 section_title: "Episteme morphing, viewing, and retargeting  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__008_episteme-morphing-viewing-and-retargeting-normative.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:7 — Episteme morphing, viewing, and retargeting  (normative)"
-line_start: 41408
-line_end: 41446
+line_start: 41480
+line_end: 41518
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -67,7 +67,7 @@ For a morphism from episteme `X` to episteme `Y`, state by value:
 
 The morphism declaration and its mathematical arrows are different objects. The declaration is a C.2.1 episteme, normally an A.6.0 FormalSubstrate signature, whose EntityOfConcern is the local mathematical family and whose claim content declares vocabulary, laws, and applicability. One arrow `f : X -> Y` is a C.29-local mathematical object identified inside that substrate by its exact endpoints, arrow rule or designator, and declared formal equivalence.
 
-The mathematical statement `f : X -> Y` names no execution. When an exact operation application is current, A.6.1 separately identifies its argument and result bindings. Identify the system and performed Work, the affected or newly constituted episteme, its C.2.1 discriminators, and any production or change relation under their direct governors. The same arrow may be used in several applications, and an arrow may relate already existing epistemes. No bare result, generic work result, or universal production relation follows from an arrow or declaration.
+The mathematical statement `f : X -> Y` names no execution. When an exact operation application is current, A.6.1 separately identifies its argument and result bindings. For any precise performed-Work claim, use A.13 to identify the actual performer and A.15.1 to admit the dated Work independently. If that claim must also identify the assignment under which the Work was performed, check that relation separately through F.6. Identify the affected or newly constituted episteme, its C.2.1 discriminators, and any production or change relation under their direct governors. The same arrow may be used in several applications, and an arrow may relate already existing epistemes. No bare result, generic Work result, or universal production relation follows from an arrow or declaration.
 
 A claim that one arrow is suitable for one exact use is another C.2.1 assertion. Its complete claim content names the arrow, use, conditions, and polarity. Evidence and reliance qualify that assertion; they do not identify the arrow or operation application.
 

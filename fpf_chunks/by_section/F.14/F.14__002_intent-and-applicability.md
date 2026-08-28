@@ -6,12 +6,12 @@ section_id: "F.14:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__002_intent-and-applicability.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:1 — Intent and applicability"
-line_start: 95643
-line_end: 95662
+line_start: 95783
+line_end: 95802
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -64,7 +64,7 @@ keywords:
 
 **What this buys.** A smaller vocabulary with stronger type separation and a short stopping path: no durable name, an existing designation, an alias, or a local expression whenever one suffices; only then the smallest justified durable naming object.
 
-**Not this pattern when.** Use F.8 to make the final naming disposition for one candidate expression only after its governed value or relation, exact kind, direct pattern, and proposed use have been recovered; F.14 supplies the preceding anti-explosion stop rather than a second decision record. Assignment and performed-Work claims go to A.2.1, F.6, and A.15.1. Status, evidence, authorization, publication, and other relation claims require exact predicates in their direct patterns. Add a reader-facing F.17 row only after kind recovery, the F.14 stop, any needed F.8 or F.18 naming decision, and satisfaction of the public-row threshold; treat publication availability as a separate E.24.PUB question.
+**Not this pattern when.** Use F.8 to make the final naming disposition for one candidate expression only after its governed value or relation, exact kind, direct pattern, and proposed use have been recovered; F.14 supplies the preceding anti-explosion stop rather than a second decision record. Assignment claims go to A.2.1. For precise performed Work, A.13 first recovers each exact actual performer and A.15.1 independently admits the dated occurrence; F.6 is added only when the naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. Status, evidence, authorization, publication, and other relation claims require exact predicates in their direct patterns. Add a reader-facing F.17 row only after kind recovery, the F.14 stop, any needed F.8 or F.18 naming decision, and satisfaction of the public-row threshold; treat publication availability as a separate E.24.PUB question.
 
 **Recognition versus assurance.** Recognition is the visible name-growth pressure plus the first kind-and-use recovery. Assurance is the optional record, invariants, worked countercases, and conformance tests. Neither turns F.14 into naming authority or ontology.
 

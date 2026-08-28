@@ -6,12 +6,12 @@ section_id: "B.2.3:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__007_archetypal-grounding-worked-cases.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:5 — Archetypal Grounding (Worked Cases)"
-line_start: 38125
-line_end: 38151
+line_start: 38197
+line_end: 38223
 dependencies:
   - "A.1"
   - "A.10"
@@ -59,5 +59,5 @@ If the change is only a new model publication or benchmark score, use publicatio
 
 A set of clauses, examples, and annexes can become a standard episteme when the result is one claim-bearing whole with terms, references, scope, conformance claims, and publication forms.
 
-The standard is not the committee, the PDF, or the Work of enforcement. The committee may be an acting System. If committee or enforcement Work is claimed, admit it under A.15.1 and use F.6 to identify the assignment under which each performer acted; a short account may omit unused assignment identifiers. The PDF is a publication form.
+The standard is not the committee, the PDF, or the Work of enforcement. The committee may be an acting System. If committee or enforcement Work is claimed, recover each exact performer through A.13 and admit the Work independently under A.15.1. Add F.6 only if the account expressly consumes precise assignment-bound attribution; a missing or failed relation leaves the Work intact. The PDF is a publication form.
 

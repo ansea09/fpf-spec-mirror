@@ -6,14 +6,15 @@ section_id: "A.15.7:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__007_bias-annotation.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:6 — Bias-Annotation"
-line_start: 26698
-line_end: 26705
+line_start: 26780
+line_end: 26787
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
@@ -25,6 +26,7 @@ dependencies:
   - "C.11"
   - "C.18"
   - "C.24"
+  - "F.6"
   - "G.11"
 keywords:
 ---

@@ -6,12 +6,12 @@ section_id: "A.3.4.P:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__008_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:7 — Conformance Checklist"
-line_start: 9823
-line_end: 9837
+line_start: 9836
+line_end: 9850
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,6 +55,6 @@ keywords:
 | `CC-A34P-6` | Function-like wording closes here only after the actual transformation, performed-work attribution or other exact actor-side relation, every influence source's exact kind and relation, and exact boundary relations are distinguished; detailed function-kind discrimination remains governed by `A.6.F`. |
 | `CC-A34P-7` | The repair leaves retained use, blocked overread, and remaining reader use by value. |
 | `CC-A34P-8` | The repair order is explicit: `E.10` recognizes the wording, `A.3.4.P` restores the transformation ontic neighborhood, and neighboring patterns define or constrain recovered objects and exact relations. |
-| `CC-A34P-9` | A performed-Work actor claim points to its complete A.15.1/F.6 basis and separately names the Work-to-change relation required by the use; a non-Work actor claim names another exact direct actor-side relation. Assignment or generic participation alone proves neither. |
+| `CC-A34P-9` | A performed-Work actor claim recovers each precise performer's A.13 core and independently admits the Work under A.15.1; it adds F.6 only when precise assignment-bound attribution is current and separately names the Work-to-change relation required by the use. A non-Work actor claim names another exact direct actor-side relation. Assignment or generic participation alone proves neither. |
 | `CC-A34P-10` | Possible, intended, planned, modelled, predicted, and merely asserted change stays claim content; any C.2.1 empirical grounding is optional, separate, and not the actual occurrence basis. |
 

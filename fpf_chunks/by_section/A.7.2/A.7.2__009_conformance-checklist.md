@@ -6,12 +6,12 @@ section_id: "A.7.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__009_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:7 — Conformance Checklist"
-line_start: 22093
-line_end: 22106
+line_start: 22104
+line_end: 22117
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -37,7 +37,7 @@ keywords:
 |---|---|
 | `CC-A7.2-1` | The conflict names exact receiving claims, practical consequences, contexts, scopes, and current editions. |
 | `CC-A7.2-2` | Vocabulary difference or unlike source function alone does not trigger reconciliation. |
-| `CC-A7.2-3` | The reader, `U.MethodDescription` episteme, described `U.Method`, admitted performing `U.System`, any separately declared assignment species and actual assignment occurrence used by the case, obtaining F.6 attribution, dated reconciliation `U.Work`, source uses, and returned result are distinct. A short result may omit an assignment identifier unused by its receiver without denying an otherwise established assignment or attribution. |
+| `CC-A7.2-3` | The reader, `U.MethodDescription` episteme, described `U.Method`, actual performer identified through A.13, independently admitted dated reconciliation `U.Work`, source uses, and returned result are distinct. A separately declared assignment species, obtaining occurrence, and F.6 check appear only when the case must also identify the assignment under which the Work was performed. A short result may omit unused identifiers without presuming those facts. |
 | `CC-A7.2-4` | Every load-bearing common claim is cited from `A.7.CP` through an actual reasoning-basis occurrence. |
 | `CC-A7.2-5` | Every source-use occurrence has the three exact participants, source and receiving-claim editions, function, claim scope, and maximal continuous actual-use interval. It includes only content-slice, model-use, currentness, evidence, disposition, blocked-overread, or claim-change qualifiers actually used or asserted in this reconciliation. |
 | `CC-A7.2-6` | Evidence, publication, formal semantics, and currentness remain with subject patterns. |

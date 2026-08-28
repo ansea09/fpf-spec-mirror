@@ -6,15 +6,16 @@ section_id: "F.15:16"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__023_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:16 — Relations"
-line_start: 96409
-line_end: 96420
+line_start: 96549
+line_end: 96560
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -56,7 +57,7 @@ keywords:
 * **F.9, C.2.1, A.10, and B.3.** Govern actual Bridge occurrences, separate bounded-use claims, evidence reliance, and assurance. Descriptions, Cards, `CL`, and witnesses are not relation truth or use authority.
 * **F.10 or the applicable status pattern.** Use it for status family, value, target, scope, window, source, and use claims.
 * **A.1.1 and A.22.** Supply an optional independently selected bounded-model-use Structure only when its organization changes the checked use; description and membership remain separate.
-* **A.15.1, F.6, and A.6.1.** Define the System–Method–Work facts, Work attribution, and exact rule application required only when those identities are asserted. Ordinary checking need not be admitted as `U.Work`.
+* **A.13, A.15.1, F.6, and A.6.1.** A.13 recovers each exact actual performer and A.15.1 independently admits dated Work; F.6 adds only an expressly consumed precise assignment-bound attribution through the same obtaining A.13 assignment, and A.6.1 governs exact rule application. Ordinary checking need not be admitted as `U.Work`, and missing or failed F.6 leaves any independently admitted Work intact.
 * **E.24.PUB and G.11.** Govern publication occurrence/form/carrier and currentness separately from the checked record.
 * **C.34.** Supplies architecture-specific preservation or equivalence adequacy when exact selected architecture structures and losses are the live subject; F.15 carries only the finite regression check and result refs.
 

@@ -6,23 +6,22 @@ section_id: "A.15.1:10"
 section_title: "Work-claim interpretation checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__012_work-claim-interpretation-checks.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:10 — Work-claim interpretation checks"
-line_start: 24803
-line_end: 24812
+line_start: 24830
+line_end: 24839
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.4"
   - "A.15.5"
   - "A.15.PROD"
   - "A.2"
   - "A.2.1"
-  - "A.2.2"
   - "A.2.6"
   - "A.3.1"
   - "A.3.2"
@@ -35,25 +34,22 @@ dependencies:
   - "C.27.TA"
   - "C.32.P2S"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "F.6"
-  - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
   - "U.ReferenceScheme"
-  - "U.System"
-  - "U.SystemRoleAssignment"
-  - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "actual performer U.System"
-  - "admitted U.Work kind"
+  - "A.13-qualified actual performer U.System"
+  - "F.6 only after admission for precise assignment-bound attribution"
+  - "conditional agency profile"
   - "containing System"
-  - "covering U.SystemRoleAssignment"
   - "enacted Method"
+  - "exact performance history"
+  - "independent U.Work admission"
   - "optional direct bindings and resource use"
-  - "performedUnderAssignment"
   - "separate result or consequence"
   - "temporal extent"
   - "world-side dated occurrence"
@@ -64,7 +60,7 @@ keywords:
 When another decision relies on a work occurrence, perform three quick checks:
 
 1. **Method-description interpretation.** Does `methodDescriptionRef` resolve to the selected `U.MethodDescription` episteme under the effective `U.ReferenceScheme` used by the receiving claim? If the claim also says this is an edition of an earlier description, does the exact C.2.1 `EpistemeEditionRelation` obtain? If two local senses must be related, test an F.9 Bridge and state the bounded use separately rather than treating the reference change as a Bridge.
-2. **Performer and assignment coverage.** For every admitted `U.System` named as performer, does F.6 recover the exact directly declared assignment species and one obtaining occurrence `RA` of that species? Does `RA` carry the actual participant values, have that System as holder, and cover the Work or exact performed part? If not, keep the Work occurrence, performer claim, assignment occurrence, and attribution claim separate until A.2.1 and F.6 repair them.
+2. **Performer and conditional assignment coverage.** For every admitted `U.System` named as performer, does section 4.0 recover its A.13 basis? If this receiving check expressly consumes precise assignment-bound attribution, does the account also cite the exact directly declared assignment species and the same obtaining occurrence `RA` already recovered through A.2.1 and A.13, and does F.6 obtain for the already admitted Work and that `RA`? Does `RA` carry the actual participant values, have that System as holder, and cover the Work or exact performed part? If no attribution is current, stop after the performer and Work checks. If the conditional attribution branch fails, retain the Work and performer and repair or reject only the assignment occurrence or F.6 attribution that failed.
 3. **Evaluation boundary.** Has separately performed evaluation or acceptance work applied the selected criterion episteme to the independently obtaining relations involving the Work occurrence, changed subject, measurement results, or delivered entity that the criterion actually requires? If not, no acceptance verdict follows. If yes, keep the evaluation work, result episteme, verdict content, evidence, and acceptance relation separate. Claim edition continuity only when the exact C.2.1 relation obtains.
 
 These checks tell the reader which description, assignment, criterion, evaluation, and relation to cite. They neither create one judgment-context object nor make acceptance part of work identity.

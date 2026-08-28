@@ -6,12 +6,12 @@ section_id: "F.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__013_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:11 — Relations"
-line_start: 92382
-line_end: 92394
+line_start: 92520
+line_end: 92532
 dependencies:
   - "A.15"
   - "A.15.1"

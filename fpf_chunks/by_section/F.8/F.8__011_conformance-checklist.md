@@ -6,12 +6,12 @@ section_id: "F.8:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__011_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:8 — Conformance Checklist"
-line_start: 93640
-line_end: 93658
+line_start: 93780
+line_end: 93798
 dependencies:
   - "A.11"
   - "A.15"
@@ -69,7 +69,7 @@ keywords:
 | `CC-F8-04` | Local phrase, existing designation, alias, subject-pattern name, and admitted F.17 row were tried before a stronger naming object. |
 | `CC-F8-05` | Reuse preserves kind, scope, occurrence identity, local-sense claim, admitted use, authority, and lineage. |
 | `CC-F8-06` | A system-role-kind designation follows A.2 and C.3 recovery of the kind and does not require an F.4 description. If the description is separately needed, its label remains distinct from the kind designation. |
-| `CC-F8-07` | Classification, assignment, and performed Work remain under C.3, A.2.1, F.6, and A.15.1 rather than being inferred from a name. |
+| `CC-F8-07` | Classification and assignment remain under C.3 and A.2.1. Any precise performed Work begins with the exact actual performer recovered through A.13 and independent A.15.1 admission; F.6 appears only for an expressly consumed precise assignment-bound attribution through the same obtaining A.13 assignment. None is inferred from a name. |
 | `CC-F8-08` | Any other governed subject—for example, a status, evidence use, access value, policy, publication use, or relation position—returns to its subject pattern before naming. |
 | `CC-F8-09` | F.17 row reuse stays within `AdmissibleUse`; spelling or local-sense reuse implies neither an F.9 Bridge nor equivalence. |
 | `CC-F8-10` | Ordinary use creates no decision object. The accountable branch resolves the decision or choice occurrence through the pattern that admits it or returns `missing-governor`, while any C.11 result, Work, result episteme, record, and naming object stays separate. |

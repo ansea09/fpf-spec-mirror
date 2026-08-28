@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__021_rationale.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:13 — Rationale"
-line_start: 76112
-line_end: 76127
+line_start: 76243
+line_end: 76258
 dependencies:
   - "A.10"
   - "A.15.1"

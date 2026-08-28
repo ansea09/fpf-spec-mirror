@@ -6,12 +6,12 @@ section_id: "E.23:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__008_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:7 — Conformance Checklist"
-line_start: 88825
-line_end: 88846
+line_start: 88963
+line_end: 88984
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -35,7 +35,7 @@ keywords:
 | `CC-E23-1` | Name the exact object version, exact object-under-improvement evaluation, one current `QualityEvaluationQuestionFrame`, and one `QualityEvaluationUseDeclaration` before claiming a changed evaluation result. |
 | `CC-E23-2` | Reuse an E.22 or equivalent exact frame only when it binds the current object version, selected characteristic space, predicate or comparator, ClaimScope, result-consuming work or decision, purpose, qualification window, and non-use boundary; otherwise open a new frame. |
 | `CC-E23-3` | Represent returned repair possibilities as row-atomic E.22 findings or proposal rows with closure tests; pair proposals selected for the next pass with scale-qualified `ExpectedEvaluationResultChange@Context` values. A grouped memory summary does not discharge skipped rows, and proposal selection does not establish performance. |
-| `CC-E23-4` | Every asserted evaluation or improvement A.15.1 `U.Work` names the occurrence, time, Method, containing System, every performer, and each independently grounded F.6 assignment; A.2.1 supplies assignment-occurrence identity. Then name the evaluation application and result binding or direct result or change relation, plus any separate result episteme. A compact rendering may omit only an assignment identifier unused by its receiving claim. Re-evaluate the changed object before claiming coordinate, status, `Q`, or front-relation change. |
+| `CC-E23-4` | Every asserted evaluation or improvement `U.Work` first recovers each exact actual performer through A.13, then uses A.15.1 to identify the occurrence, time, Method, and containing System independently. Add A.2.1 and F.6 only when the record or receiving use expressly represents precise assignment-bound attribution; their absence or failure leaves the Work intact. Then name the evaluation application and result binding or direct result or change relation, plus any separate result episteme. Re-evaluate the changed object before claiming coordinate, status, `Q`, or front-relation change. |
 | `CC-E23-5` | Record what became worse and protected trade-offs. |
 | `CC-E23-6` | Continue only when a scale-qualified expected evaluation-result change and the cost and risk account support another pass. |
 | `CC-E23-7` | Treat all-`5`, exceptional, or front-reaching results as local loop stops, not permanent maturity endings. |

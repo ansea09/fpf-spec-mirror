@@ -6,12 +6,12 @@ section_id: "C.32.ADA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__002_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:1 — Problem frame"
-line_start: 65710
-line_end: 65781
+line_start: 65790
+line_end: 65862
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -70,7 +70,7 @@ Typical entry phrases:
 "Do not average the decision; tell us what must be repaired."
 ```
 
-**First-minute use slice.** `ArchitectureReviewService-4` performs `DecisionAdequacyEvaluationWork-12` from 10:00 to 10:20 on 2026-08-12. `ArchitectureReviewerAssignment` is the directly declared assignment species; `ArchitectureReviewerAssignment-6` is its obtaining occurrence, held by that admitted System and covering the Work. The Work enacts `DecisionAdequacyEvaluationMethod-2` and occurs within `ProjectArchitectureReviewService-4`. One separate result episteme states the declared use, `ready for developer work and ADR publication`, and the coordinate outcomes: candidate traceability `4 wellExpressedForDeclaredUse`, architecture-characteristic trade-off `3 sufficientlyExpressedForDeclaredUse`, method docking `2 partiallyExpressedForDeclaredUse`, and publication projection `4 wellExpressedForDeclaredUse`. The result does not approve the decision. It directs repair to the method-use instruction, the exact acting Systems and assignments needed for later Work, any independently claimed responsibility relation, readiness exit, and expected structure effect before the decision can guide developer Work.
+**First-minute use slice.** `ArchitectureReviewService-4` first has the A.13 core for decision-adequacy evaluation, and A.15.1 independently admits `DecisionAdequacyEvaluationWork-12` from 10:00 to 10:20 on 2026-08-12. The Work enacts `DecisionAdequacyEvaluationMethod-2` and occurs within `ProjectArchitectureReviewService-4`. This slice expressly represents evaluator accountability: `ArchitectureReviewerAssignment-6` is an obtaining occurrence of directly declared species `ArchitectureReviewerAssignment`, held by the already recovered performer and covering the Work, and the separate F.6 relation is recorded. A Work-only ADA record would omit those assignment and attribution refs; failed F.6 would leave the evaluation Work intact. One separate result episteme states the declared use and coordinate outcomes. It does not approve the decision; it directs the exact bounded repairs needed before the decision can guide developer Work.
 
 The primary governed object is `ArchitectureDecisionAdequacyEvaluation@Project`: a C.32.ADA-local evaluation record over one `ArchitectureDecisionRelation@Project`, optional `ArchitectureDecisionRecordProjection@Project`, and declared use. It is not the evaluated decision, evaluation Work, or result episteme.
 
@@ -105,6 +105,7 @@ ArchitectureDecisionAdequacyEvaluation@Project:
   evaluatorAssignmentSpeciesRef?: U.RelationKindRef constrained under U.SystemRoleAssignment
   evaluatorAssignmentOccurrenceRef?: U.RelationRef constrained to U.SystemRoleAssignment
   evaluationWorkRef?: U.EntityRef constrained to U.Work
+  evaluationPerformedUnderAssignmentRef?: U.RelationRef constrained to one obtaining F.6 performedUnderAssignment relation
   evaluationOperationApplicationRefs?: subject-pattern relation or A.6.1 application references
   adequacyResultEpistemeRef?: U.EpistemeRef
   declaredUse:
@@ -124,5 +125,5 @@ ArchitectureDecisionAdequacyEvaluation@Project:
   reevaluationTrigger:
 ```
 
-Here `@Project` is a compatibility and retrieval cue only. A project-local ADA record names both the composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining record-use relation in `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's own project relation, the suffix, or either field alone is insufficient. `evaluatorSystemRoleKindRef` names the local kind when current; `evaluatorSystemRoleClassificationJudgmentRef` separately names a judgment classifying the evaluator System under that kind. An assignment claim needs both its directly declared species and obtaining occurrence. When actual evaluation is claimed, `evaluationWorkRef` names the independently identified `U.Work` occurrence, and all facts required by A.15.1, A.2.1, and F.6 remain recoverable; any operation application is additional. The result episteme is a separately identified C.2.1 claim-bearing object. Kind, classification judgment, assignment, Work, operation application, responsibility relation, and result do not substitute for one another, and no generic Work-to-result relation is inferred.
+Here `@Project` is a compatibility and retrieval cue only. A project-local ADA record names both the composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining record-use relation in `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's own project relation, the suffix, or either field alone is insufficient. `evaluatorSystemRoleKindRef` and `evaluatorSystemRoleClassificationJudgmentRef` remain optional and separate. When actual evaluation is claimed, the evaluator first has its A.13 core and `evaluationWorkRef` names Work independently admitted under A.15.1. Assignment species, occurrence, and `evaluationPerformedUnderAssignmentRef` are optional and appear only when the record or receiving use expressly represents precise assignment-bound attribution; any present F.6 ref uses the same obtaining A.13 assignment, and its absence or failure leaves the Work intact. Any operation application and result episteme remain separate. Kind, classification, assignment, Work, attribution, application, responsibility, and result do not substitute for one another.
 

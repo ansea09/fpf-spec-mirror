@@ -6,17 +6,19 @@ section_id: "E.4.DPF.DA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70445
-line_end: 70467
+line_start: 70567
+line_end: 70589
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.19.ECS"
+  - "A.2.1"
   - "A.2.6"
   - "A.22"
   - "A.22.CGUS"
@@ -74,5 +76,5 @@ keywords:
 | Process-state leakage | The package carrier includes `draft`, `DRR`, handoff, ledger, review, admission, or helper-state residue as package content. | Remove process state from package carriers and keep only durable user-facing package content, relation records, source-use boundaries, and refresh routes. |
 | Seed promotion | A fast prompt result is treated as public DPF. | Mark `seedOnly`, name missing coordinates, and run `E.23` hardening. |
 | Citation-driven `5` | Values rise because more sources, review proof, or maps were added. | Raise values only when action, source grounding, use of the applicable patterns, adoption, or refresh improves. |
-| Evaluation table as Method, Work, result, or admission | Coordinate order or a filled table is treated as the evaluation Method, performed assessment, aggregate result episteme, favorable status use, or admission. | Recover the semantic Method and keep an ordinary judgement outside Work admission. Cite an exact A.6.1 application only when the assessment actually uses an operation declared by a separately admitted Mechanism and the receiving claim depends on its bindings; Work admission does not create it. When dated assessment `U.Work` is asserted, cite one independently valid A.15.1 Work account, the actual evaluator System, and the applicable F.6 relation occurrences. Then recover the coordinate claims, aggregate C.2.1 result, and any separate F.10 or E.19 receiving use. |
+| Evaluation table as Method, Work, result, or admission | Coordinate order or a filled table is treated as the evaluation Method, performed assessment, aggregate result episteme, favorable status use, or admission. | Recover the semantic Method and keep an ordinary judgement outside Work admission. Cite an exact A.6.1 application only when the assessment actually uses an operation declared by a separately admitted Mechanism and the receiving claim depends on its bindings; Work admission does not create it. When dated assessment `U.Work` is asserted, recover the exact actual evaluator System through A.13 and cite one independently valid A.15.1 Work account. Add the same obtaining A.13 assignment and F.6 only when the result expressly represents precise assignment-bound attribution; missing or failed F.6 leaves the Work intact. Then recover the coordinate claims, aggregate C.2.1 result, and any separate F.10 or E.19 receiving use. |
 

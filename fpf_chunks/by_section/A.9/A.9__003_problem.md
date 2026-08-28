@@ -6,12 +6,12 @@ section_id: "A.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__003_problem.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:2 — Problem"
-line_start: 22493
-line_end: 22502
+line_start: 22504
+line_end: 22513
 dependencies:
   - "A.1"
   - "A.8"

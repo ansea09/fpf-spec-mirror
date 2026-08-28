@@ -6,12 +6,12 @@ section_id: "A.15.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:4 — Solution"
-line_start: 26058
-line_end: 26131
+line_start: 26083
+line_end: 26156
 dependencies:
   - "A.10"
   - "A.15"
@@ -93,7 +93,7 @@ For each input, name the subject pattern, exact proposition or relation occurren
 
 Full-kit preparation can include gathering information, coordinating intended performer Systems and local system-role-kind conditions, producing a missing source `U.Episteme` or source publication, reserving a resource, pinning a planned filling, or creating shared understanding. Those activities are `U.Work` only when actually performed. The plan can state them before occurrence; the readiness claim may cite them after occurrence; neither object becomes the other.
 
-For every cited preparation or readiness-checking Work occurrence, establish its complete A.15.1/F.6 basis once: the exact dated `U.Work`, each admitted performer `U.System`, the exact obtaining assignment and attribution under which that system performed it for the covered extent, at least one actual `enactsMethod` relation, temporal extent, and at least one obtaining locally declared containing-system relation. Name another enacted Method, boundary, direct participant relation, or A.6.1 binding only when the readiness claim uses it. The system performs the work; an assignment, plan, method description, checklist, criterion, readiness result, evidence path, or dashboard does not. A planned preparation task remains A.15.2 content until those occurrence facts obtain.
+For every cited preparation or readiness-checking Work occurrence, first recover each actual performer's A.13 core for the action and independently admit the exact dated `U.Work` under A.15.1 from its performance history, at least one actual `enactsMethod` relation, temporal extent, and at least one obtaining locally declared containing-system relation. Only when the readiness claim also needs precise assignment-bound attribution, establish F.6 afterward through the same obtaining A.13 assignment and keep its declared species, participants, holder, coverage, and exact Work-assignment link recoverable. Name another enacted Method, boundary, direct participant relation, or A.6.1 binding only when the readiness claim uses it. The system performs the work; an assignment, plan, method description, checklist, criterion, readiness result, evidence path, or dashboard does not. A planned preparation task remains A.15.2 content until the occurrence facts obtain.
 
 **Boundary with planned fillers and appearance-based reliance.** A missing planned value stays with A.15.3 as a planned-filling baseline or with the subject pattern when an evidence, currentness, publication, gate, permission, or assurance relation is already known. Use A.15.4 only when a reliance appearance, such as a dashboard label, copied approval, publication face, or credential view, is being used as the reason to treat the readiness or work-reliance claim as carried before that subject pattern relation has been recovered.
 

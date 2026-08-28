@@ -6,12 +6,12 @@ section_id: "C.2.P:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__016_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:12 — Relations"
-line_start: 42110
-line_end: 42115
+line_start: 42182
+line_end: 42187
 dependencies:
   - "A.10"
   - "A.15"

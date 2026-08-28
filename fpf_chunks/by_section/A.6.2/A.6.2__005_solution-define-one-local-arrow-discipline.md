@@ -6,12 +6,12 @@ section_id: "A.6.2:4"
 section_title: "Solution — define one local arrow discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__005_solution-define-one-local-arrow-discipline.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:4 — Solution — define one local arrow discipline"
-line_start: 13533
-line_end: 13701
+line_start: 13544
+line_end: 13712
 dependencies:
   - "A.6.0"
   - "A.6.1"

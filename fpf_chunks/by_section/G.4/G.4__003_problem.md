@@ -6,18 +6,20 @@ section_id: "G.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__003_problem.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:2 — Problem"
-line_start: 101005
-line_end: 101014
+line_start: 101145
+line_end: 101154
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.18"
   - "A.19"
   - "A.2.1"
+  - "A.2.6"
   - "A.21"
   - "A.6.1"
   - "B.3"
@@ -44,6 +46,7 @@ dependencies:
   - "G.8"
   - "G.9"
   - "G.Core"
+  - "U.ClaimScope"
 keywords:
   - "CAL Pack@CG-Frame"
   - "Context charter"
@@ -60,6 +63,6 @@ Teams repeatedly face drift and ambiguity in the CAL Pack that sits between “t
 * **Illicit operations** slip in (implicit cardinalization, unit laundering, ordinal arithmetic).
 * **Acceptance is scattered** (thresholds embedded in code or in CHR prose; predicates not typed; unknown handling inconsistent).
 * **Evidence wiring is underspecified** (which provenance anchors matter, what policy ids are in force, what is plane‑scoped, what changes must trigger refresh).
-* **Cross‑context imports are silent** (hidden reuse of constructs across contexts or planes/editions without published GateCrossings and loss accounting).
+* **Cross-sense or cross-plane imports are silent** (hidden reuse across distinct source-local meanings, ReferencePlanes, or editions without the obtaining relation, required crossing records, and loss accounting).
 * **Tooling artifacts become semantics** (vendor flags or implementation details substitute for a conceptual specification).
 

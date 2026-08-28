@@ -6,12 +6,12 @@ section_id: "A.1.STM:9"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__011_common-anti-patterns.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:9 — Common anti-patterns"
-line_start: 2908
-line_end: 2920
+line_start: 2917
+line_end: 2929
 dependencies:
   - "A.1"
   - "A.1.CSD"

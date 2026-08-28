@@ -6,12 +6,12 @@ section_id: "E.10:10"
 section_title: "Reference routine for turning messy language into E.10-clean prose (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__012_reference-routine-for-turning-messy-language-into-e-10-clean-prose-informative.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:10 — Reference routine for turning messy language into E.10-clean prose (informative)"
-line_start: 75013
-line_end: 75058
+line_start: 75144
+line_end: 75189
 dependencies:
   - "A.10"
   - "A.15"
@@ -76,14 +76,14 @@ keywords:
 
 #### E.10:10.3 - Pass 2 — *Recover Core anchors (not substitution)*
 
-Pass 2 is not a lexical replacement table. For each underlined word or phrase, first write one Plain-register sentence saying what the text is trying to assert or ask. Select the applicable `E.10:0.0a` branch when the use is relation-like; otherwise name the concrete object, applicable rule, admissible use, and scope. Compare the same object and claim before and after repair, then choose one disposition: keep with a guarded-head note, split into several kinds named by value, rewrite locally, record a durable naming case under `F.18`, apply the relevant pattern, or leave blocking. Name an exact predicate, assertion, `ClaimGraph`, Method, actor, assignment, or Work only when the current claim or a named later use depends on that identity. This proportional naming rule does not make a covering assignment or F.6 fact optional once performed Work is admitted. A replacement phrase is admissible only when it remains recoverable and introduces no umbrella flattening, semantic narrowing, accidental widening, declaration-participant collapse, representation-as-obtaining, or slot-as-kind substitution.
+Pass 2 is not a lexical replacement table. For each underlined word or phrase, first write one Plain-register sentence saying what the text is trying to assert or ask. Select the applicable `E.10:0.0a` branch when the use is relation-like; otherwise name the concrete object, applicable rule, admissible use, and scope. Compare the same object and claim before and after repair, then choose one disposition: keep with a guarded-head note, split into several kinds named by value, rewrite locally, record a durable naming case under `F.18`, apply the relevant pattern, or leave blocking. Name an exact predicate, assertion, `ClaimGraph`, Method, actor, assignment, or Work only when the current claim or a named later use depends on that identity. Proportional naming never makes F.6 a Work-admission premise: A.15.1 closes Work membership first, while a precise assignment-bound claim must still establish its separate F.6 relation. A replacement phrase is admissible only when it remains recoverable and introduces no umbrella flattening, semantic narrowing, accidental widening, declaration-participant collapse, representation-as-obtaining, or slot-as-kind substitution.
 
 2.1 Recover underlined words through **§ 9 L‑rules** table:
  • recipe -> the exact **`U.Method`** when the wording denotes one way of doing; **`U.MethodDescription`** only for a separately identified claim-bearing episteme whose exact EntityOfConcern is that admitted method and whose claims pass A.3.2; otherwise a C.29 representation, publication form, source wording, or ordinary wording under its applicable rule
  • planned work window or dated occurrence -> a planning cue, schedule representation, or `PlanItem` content until one exact episteme passes A.15.2's present-EntityOfConcern, horizon, `PlanItem`, and substantive-coordination predicate; only then **`U.WorkPlan`**. A dated performed individual is independently admitted as a **Work occurrence under `U.Work`** only on the A.15.1 basis
  • promise -> **`U.PromiseContent`**
  • ability -> **`U.Capability`**
- • For actor or doer wording, identify the entity that acts; admit it as **`U.System`** only when A.1 passes. When performed Work is current, use A.15.1 and F.6 to identify the dated Work, performer, and assignment. Use a `...SystemRole` designation only when that classification matters.
+ • For actor or doer wording, identify the entity that acts and admit it as **`U.System`** only when A.1 passes. Ordinary actor wording need not become a precise agency claim. When performed Work is current, apply the A.13 core and independently admit the occurrence through A.15.1; only afterward add F.6 if precise assignment-bound attribution is current. Add an A.13 characteristic profile only when conditionally consumed.
  • document or evidence-bearing publication cue → **`Episteme`** used in an evidence-use, source-use, status-use, constraint, commitment, gate, or publication-use relation named by its evidence, source, status, constraint, commitment, gate, or publication pattern
 2.2 Apply **LEX.Morph** (§ 8): compound and suffix gates such as concrete `...SystemRole` kind designations, `...Work`, `MethodDescription`, service-description episteme, service-access publication, or service-offer record labels, casing, and reserved prefixes. Bare `...Role` remains a trigger, not an accepted default form.
 2.3 Pass **EntityOfConcern and Description-episteme boundary and specification-use** check: name the EntityOfConcern directly; do not type a recipe, procedure, code expression, diagram, ETL label, document form, or relation-structure description as `U.MethodDescription` by appearance. Admit only a claim-bearing episteme whose exact EntityOfConcern is one admitted `U.Method` and whose claims pass A.3.2; use Spec only where a named specification-granting gate is present. Recover actual performed facts as independently obtaining relations involving a Work occurrence, and keep run records as separate epistemes.

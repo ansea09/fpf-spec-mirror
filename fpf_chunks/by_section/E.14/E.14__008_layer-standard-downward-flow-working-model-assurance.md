@@ -6,12 +6,12 @@ section_id: "E.14:5"
 section_title: "Layer Standard & Downward Flow (Working‑Model → Assurance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__008_layer-standard-downward-flow-working-model-assurance.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:5 — Layer Standard & Downward Flow (Working‑Model → Assurance)"
-line_start: 79168
-line_end: 79235
+line_start: 79298
+line_end: 79365
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -80,7 +80,7 @@ This section defines **what each layer is for**, **what it guarantees when selec
 
 **Purpose.** Make the empirical basis and bounded admissible use of one Working-Model claim inspectable without turning evidence, provenance, or an assurance record into the subject result.
 
-**Guarantee.** A `postulate` remains a scoped working claim: state its target and scope and supply the brief empirical cues that B.3.5 calls for. It does not establish that evaluation or measurement Work occurred or that a result exists. When evaluation or measurement did occur and the current assurance use relies on its result, name the target claim, `U.ClaimScope`, qualification window, and the pattern that defines or tests the result, and keep the complete A.15.1/F.6 basis recoverable. The assurance account then names the dated Work, every performer `U.System`, and the Method the Work enacted; it uses F.6 to check each Work-assignment link and A.2.1 for the assignment itself. Cite a relied-on `U.MethodDescription` only when current, test any local system-role-kind classification separately, and name the participants or A.6.1 bindings, domain-local result, and C.2.1 result episteme that the claim uses. Use A.10 for the evidence-provenance path and reliance disposition, and B.3 for any assurance claim. These objects can support or qualify the Working-Model claim but create neither the subject fact nor one another. Another named current assurance requirement retains its own obligations.
+**Guarantee.** A `postulate` remains a scoped working claim: state its target and scope and supply the brief empirical cues that B.3.5 calls for. It does not establish that evaluation or measurement Work occurred or that a result exists. When evaluation or measurement did occur and the current assurance use relies on its result, name the target claim, `U.ClaimScope`, qualification window, and the pattern that defines or tests the result; recover every performer `U.System`'s A.13 core and independently admit the dated Work under A.15.1 with the Method it enacted. Add F.6 only when the assurance use also needs each exact Work-assignment attribution; the assignment remains a separate A.2.1 claim. Cite a relied-on `U.MethodDescription` only when current, test any local system-role-kind classification separately, and name the participants or A.6.1 bindings, domain-local result, and C.2.1 result episteme that the claim uses. Use A.10 for the evidence-provenance path and reliance disposition, and B.3 for any assurance claim. These objects can support or qualify the Working-Model claim but create neither the subject fact nor one another. Another named current assurance requirement retains its own obligations.
 
 **Deliverable.** Keep the ordinary Working-Model sentence first. For a postulate with no relied-on completed result, state the scope and brief empirical cues, then stop. When the current use relies on an actual evaluation or measurement result, expose only the exact result, Work, provenance, currentness, and assurance relations that use consumes. Intended evaluation remains in `U.WorkPlan` until dated Work occurs. If a claim that evaluation Work first constituted the result episteme is separately current, A.15.PROD alone recovers that local entity-identity inception claim; no universal work-result, evidence-result, or production relation is implied. Expiry, evidence ageing, or changed source, method, calibration, result, qualification window, provenance, or assurance basis ends only the reliance that consumes that support and requires the affected reliance claim to be re-evaluated under its applicable pattern. In B.3 terms Empirical Validation contributes on the LA shoulder; B.3 alone computes any effect on reliability R or claim scope G, and G cannot extend beyond the exact supported scope and qualification window.
 

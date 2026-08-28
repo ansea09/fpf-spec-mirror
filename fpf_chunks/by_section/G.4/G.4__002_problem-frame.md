@@ -6,18 +6,20 @@ section_id: "G.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__002_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:1 — Problem frame"
-line_start: 100989
-line_end: 101004
+line_start: 101129
+line_end: 101144
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.18"
   - "A.19"
   - "A.2.1"
+  - "A.2.6"
   - "A.21"
   - "A.6.1"
   - "B.3"
@@ -44,6 +46,7 @@ dependencies:
   - "G.8"
   - "G.9"
   - "G.Core"
+  - "U.ClaimScope"
 keywords:
   - "CAL Pack@CG-Frame"
   - "Context charter"
@@ -57,14 +60,14 @@ keywords:
 
 A CG‑Frame has:
 
-* a declared `CG-FrameContext` (scope, EntityOfConcern, plane),
+* one exact `CG‑Frame` with its `EntityOfConcern`, `ReferencePlane`, task, and assumption envelope,
 * a plurality of method traditions and claims (SoTA inputs), and
 * CHR‑typed measurement constructs (`Characteristic/Scale/Coordinate` + legality guard macros).
 
 Before any run‑time selection, comparison, aggregation, or selected-set formation is executed downstream, the CG‑Frame needs an explicit, auditable **CAL Pack** that:
 
 1. defines *what operators exist* and what they are allowed to do over CHR types,
-2. externalizes *fit‑for‑purpose acceptance* as typed predicates (with Context‑local thresholds), and
+2. externalizes *fit-for-purpose acceptance* as typed predicates whose use is bounded by an exact `ClaimScope`, evaluation window, and any separate qualification window that limits use, and
 3. binds these choices to an evidence wiring surface (lanes, provenance anchors, policy pins, and refresh triggers) so that downstream selection, logging, parity, and shipping can cite *stable ids* rather than re‑inventing semantics.
 
 This pattern provides the design‑time authoring kit and the publication surface for CAL artifacts, while delegating Part‑G‑wide invariants to `G.Core` and CN-Spec and CG-Spec legality to `CG‑Spec`/`CN‑Spec`.

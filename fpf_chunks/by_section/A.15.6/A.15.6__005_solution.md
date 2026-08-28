@@ -6,16 +6,17 @@ section_id: "A.15.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:4 — Solution"
-line_start: 26291
-line_end: 26431
+line_start: 26322
+line_end: 26513
 dependencies:
   - "A.1"
   - "A.1.STM"
   - "A.12"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.PROD"
@@ -27,11 +28,14 @@ dependencies:
   - "A.6.1"
   - "A.6.P.WMR"
   - "A.6.RCD"
+  - "C.11"
+  - "C.18"
   - "C.2.1"
   - "E.17"
   - "E.18"
   - "E.18.NET"
   - "E.24.PUB"
+  - "F.6"
 keywords:
 ---
 
@@ -46,12 +50,62 @@ Recover the direct subject selected by the working concern. Use the pattern whos
 3. Add only the plan, system, assignment, change, result, description, evidence, or publication relations needed by the current question. A common label or record makes none of those relations obtain.
 4. Stop when the direct subject and the claim needed now are clear. Continue to section 4.1 for actual-project qualification, 4.2 for a process concern, or 4.3 for case closure only when that further question remains current. If a needed relation has no defining pattern, return its participants and `missing-governor` rather than inventing one.
 
+#### A.15.6:4.0a - Select or reopen one bounded project focus
+
+Use this branch only while the next decision still depends on selecting or reopening the problem, direct project subject, solution form, Method relation, or development-platform contribution. If one already identified Work, Method, System, transformation, structure, episteme, capability, population, relation, or other subject answers the current question, use its direct pattern and stop rather than completing a project template.
+
+**Project-focus decision** is Plain wording for one conforming C.11 `ChoiceResult` over an already-current `OptionSet`. It introduces no project-focus kind, project record, project-partition object, relation kind, or actual project occurrence. If options are still being invented, expanded, or reframed, use C.18 and return only after a current `OptionSet` exists; do not manufacture a winner to enter this branch.
+
+When the result must persist, identify one ordinary C.2.1 episteme through all three identity discriminators:
+
+| C.2.1 discriminator | Project-focus value |
+| --- | --- |
+| exact claim content | one `U.ClaimGraph` that states the current C.11 inventory and result together with the five project-focus content groups below |
+| exact `EntityOfConcern` | the exact `DecisionSubject` whose current choice result is being recorded, at the declared `DecisionSubjectGranularity` |
+| effective `U.ReferenceScheme` | one named project-decision scheme and edition whose designation, interpretation, comparison, and evaluation rules give the C.11 terms, alternatives, focus content, and result their meaning |
+
+This aboutness choice lets one chooser revise the selected problem without inventing a project-focus object. Authority, commitment, budget ownership, Agent status, and performed Work remain neighboring claims under their own governors; none changes the `EntityOfConcern` merely by appearing in the decision record.
+
+The minimally useful result carries the full C.11 choice discipline through five connected content groups:
+
+1. the observed situation, sought outside difference, and already-available bounded problem options in the current `OptionSet`;
+2. affected entities and interests, materially relevant alternatives, and one explicit comparison basis: a `PreferenceOrder` or `EvaluativeMeasure`, plus the current `BeliefState` and `OutcomeModel` and any decision-relevant dependence layer;
+3. the selected option's direct-subject disposition: one exact System, Method, capability, Work, episteme, population, relation, arrangement, or other admitted subject when that choice changes the decision, or an explicit unresolved-subject disposition;
+4. the identified `DecisionSubject` and `DecisionSubjectGranularity`, one explicit `ChoiceRule`, and the probe-worthiness account: `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, and the applicable `ValueOfInformation` or `ValueOfComputation`, or an explicit reason that no feasible probe remains worth its cost; and
+5. one explicit `ChoiceResult`—`choose now`, `reject current set`, `probe again`, or `reroute`—with the receiving decision or use, evidence horizon, principal uncertainty, next question, and observation that reopens the choice.
+
+An unresolved direct subject does not force a false selection. A `choose now` result may select a bounded problem whose option explicitly leaves that disposition unresolved and names the next question; otherwise return `probe again` with the exact next probe or `reroute` to the pattern that now owns the question. If the current set itself still needs reframing, reroute to C.18.
+
+Stop when the lawful `ChoiceResult` and the reason it is lawful are recoverable. Changing the selected problem, `OptionSet`, comparison or acceptance basis, direct-subject disposition, `ChoiceRule`, `ChoiceResult`, or receiving decision changes the identity-bearing `U.ClaimGraph` and therefore identifies another episteme even when the chooser remains the same. Another supporting item, evaluation, or publication does not reidentify the focus episteme unless claim content, `EntityOfConcern`, or effective scheme also changes.
+
+Call a later focus episteme another edition only when an exact C.2.1 `EpistemeEditionRelation` obtains under the named **project-focus continuation rule**: the later episteme actually uses the earlier one as its revision source; preserves the exact `DecisionSubject` as `EntityOfConcern`, the receiving-use lineage, and the scheme features that keep the decision interpretable; explicitly records every deliberately changed focus-defining claim or permitted scheme feature; and is not a fork, translation, retargeting, or independent reconstruction. Shared chooser, performers, organization, budget source, label, or calendar alone establishes neither episteme identity nor edition continuity. Focus succession decides no performed-Work identity question.
+
+Proceed by logical dependency, not by a compulsory Work sequence:
+
+1. problematize the situation and comparison basis;
+2. compare candidate direct subjects, designating a project system-of-interest only when one System boundary and systemhood change the decision;
+3. describe the use or operation in which the subject is expected to matter, keeping functioning, behaviour, interaction, causal participation, intended Work, actual Work, and Method enactment under their own governors;
+4. compare materially different solution forms, which may be Systems, Methods, epistemes, arrangements, or combinations;
+5. designate a project Method-of-interest only when that Method's identity, architecture, comparison, enactment, development, or maintenance is the current question; and
+6. recover the Methods and arrangements used to develop it and the other Methods whose change affects the selected problem or solution.
+
+Inspect the account through the lightest optional view that changes the decision:
+
+| View | Working question | First useful result | Boundary |
+| --- | --- | --- | --- |
+| Problem factory | Which problem merits attention and resources, for whom, and under what comparison and acceptance conditions? | A C.11 `ChoiceResult` over bounded problem options, including an honest unresolved, probe, or reroute result. | Not a System, Method, Work occurrence, phase, level, or organization. |
+| Solution factory | Which materially different System, Method, episteme, arrangement, or combined candidates should remain, be selected, or be rejected? | A `ChoiceResult` with alternatives, evidence needs, and reopen condition. | Selection performs no Work, realizes no candidate, and implies no Method. |
+| Factory of factories | Which provider Systems, Methods, capabilities, tools, assignments, organization arrangements, and cultural practices enable or distort the first two views? | One bounded platform or organization-change `ChoiceResult` and its receiving contribution claim. | A platform improvement is not project success without receiving contribution and outside consequence. |
+
+The development lemniscate is a didactic view of recurrent dependency and feedback among these questions. It is not a universal Method, lifecycle, calendar sequence, Work occurrence, level stack, or organization. For a mantra or diagram, state whether the order shown is teaching order, logical dependency, Method unfolding, planned Work order, observed Work order, or feedback; one order establishes none of the others.
+
+Return ordinary prose and add a small map only when it changes the decision. The account may be distributed across existing artifacts and may remain partly unresolved. A missing chooser, granularity, current option set, comparison basis, lawful choice result, direct-subject disposition, performer basis, pressure link, authority claim, or receiving decision is a named stop or reroute—not an invitation to fill a project template. An actual project occurrence still enters section 4.1 and receives its identity only as admitted composite `U.Work`.
+
 #### A.15.6:4.1 - Recover an actual project as composite `U.Work`
 
-In Plain use, **actual project** denotes one composite `U.Work` occurrence: the performed work whole. A temporary organization participates in or coordinates that work; a `U.WorkPlan` specifies intended work; a `U.Transformation` identifies bounded change of an affected referent; project cards, repositories, and dashboards describe or publish claims about these objects. None supplies a second identity for the work whole.
+In Plain use, **actual project** denotes one composite `U.Work` occurrence: the performed work whole. A project-focus decision, temporary organization, `U.WorkPlan`, authorization, schedule, budget, dashboard, or repository is a neighboring object or claim; none supplies another identity for the performed whole.
 
-First admit the candidate composite Work under `A.15.1`. Name every actual performer `U.System`, at least one Method the whole actually enacts, its temporal extent, and at least one locally declared Work-to-System relation whose declared temporal boundary contains the complete occurrence; use F.6 to identify the assignment under which each performer acted. A short project account may omit an assignment identifier or further valid boundary that no later claim uses. Admit each included Work occurrence independently and state the Work-part relation that connects it to the whole. A shared project label, plan membership, continuity policy, or temporal containment establishes neither the composite Work nor its parthood.
-
+First recover every actual performer System's A.13 core: the exact admitted System, local agential system-role kind and classification, obtaining assignment for the scope, working situation, and window, evidence adequate for the local criterion and classification, and any characteristic profile conditionally consumed by a Grade, autonomy, criterion-dependent, or assurance claim. Recover the exact composite performance history, Method actually followed, temporal extent, containing-System relation, and independently admitted Work parts. Use those facts to admit the candidate composite `W : U.Work` under A.15.1 and state the Work-part relations; do not use an F.6 conclusion as an admission premise. Only afterward, when precise assignment-bound attribution is current, use F.6 to relate that already admitted Work to each performer's same obtaining A.13 assignment, preserving direct case support, holder equality, species, participants, and coverage. A short attribution account may omit an unused identifier only when every required link remains recoverable. Admit each included Work occurrence independently. A shared project label, plan membership, focus decision, continuity policy, or temporal containment establishes neither the composite Work nor its parthood.
 Only then apply five project-specific qualification tests to the admitted Work:
 
 1. The composite work has a temporary or transient boundary with a start and a completion or termination condition.
@@ -158,17 +212,18 @@ When a record or relation is genuinely local to one actual project, name the obt
 
 Use `projectWorkOccurrenceRef` only for the identified project-work occurrence. Do not use a generic project reference when the relation actually concerns a `U.Method`, selected `U.Structure`, `TransformationFlowStructure`, affected referent, description, publication, viewpoint, source use, evidence, or authority.
 
-#### A.15.6:4.6 - Apply work continuity rather than label continuity
+#### A.15.6:4.6 - Apply work continuity rather than label or focus continuity
 
-For interrupted, resumed, split, merged, or performer-changing project work, apply the `A.15.1` work-part and continuity policy:
+Project-focus succession and actual-project Work continuity are different questions. A changed focus-defining claim, `EntityOfConcern`, or effective scheme identifies another C.2.1 episteme. It becomes another focus edition only through an obtaining `EpistemeEditionRelation` under the project-focus continuation rule in 4.0a; a same chooser or label is insufficient. Neither another focus episteme nor an edition relation continues or reidentifies performed Work. Conversely, one composite Work may continue under its declared A.15.1 policy while its focus episteme changes.
+For interrupted, resumed, split, merged, or performer-changing project Work, apply the A.15.1 work-part and continuity policy:
 
-- performer or team replacement changes participation relations but need not change parent-work identity;
-- interruption and resumption remain episodes of one parent work or become linked work occurrences according to the declared policy;
-- split and merge use work-part, containing-work, predecessor, successor, or new-work identities;
-- failed or terminated work remains actual project work even when its intended result is absent or adverse;
-- continuous operations qualify as a project only when one finite composite Work first passes the complete A.15.1 admission basis and obtaining work-parthood, then passes the five project-specific qualifications.
+- performer or team replacement changes participation and A.13/F.6 bases but need not change parent-Work identity;
+- interruption and resumption remain episodes of one parent Work or become linked Work occurrences according to the declared policy;
+- split and merge use work-part, containing-work, predecessor, successor, or new-Work identities;
+- failed or terminated Work remains actual project Work even when its intended result is absent or adverse; and
+- continuous operations qualify as a project only when one finite composite Work first passes independent A.15.1 admission and obtaining work-parthood, then passes the five project-specific qualifications; any precise assignment-bound performer attribution is a separate later F.6 result.
 
-The organization performing or coordinating project work is a neighboring `U.System`. Organization continuity does not decide project-work continuity.
+The organization performing or coordinating project Work is a neighboring `U.System`. Organization, project-focus, DecisionSubject, or label continuity does not decide project-Work continuity.
 
 #### A.15.6:4.7 - Use the recovered subject and stop
 

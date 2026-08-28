@@ -6,12 +6,12 @@ section_id: "C.19.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 50072
-line_end: 50082
+line_start: 50144
+line_end: 50154
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -40,6 +40,6 @@ keywords:
 | Invent a rival to make the method look comparative. | Use the one-apparatus path until candidate or choice work is genuinely current. |
 | Call candidate generation a choice. | Use `C.18 for generation/reframing`; let `C.11` operate only on an existing eligible set. |
 | Treat `ChoiceResult` as a plan or result. | Keep selected object, plan, dated work, application note, and domain result separate. |
-| Let a `U.MethodDescription` episteme, its described Method, a plan, option row, publication, or reader position perform Work. | State in ordinary language that an admitted System performs dated Work using the Method, and point to the complete A.15.1/F.6 basis. Expand assignment and attribution detail only when the present use needs it, attribution is ambiguous, or the source wording must be repaired. |
+| Let a `U.MethodDescription` episteme, its described Method, a plan, option row, publication, or reader position perform Work. | State in ordinary language that an admitted System performs dated Work using the Method. Recover its A.13 core and independently admit the Work under A.15.1; add F.6 only when the present use needs precise assignment-bound attribution. Expand assignment and attribution detail only when that use needs it, attribution is ambiguous, or the source wording must be repaired. |
 | Rank heterogeneous candidates under one hidden “depth” score. | Preserve direct kinds and compare only declared use-bearing dimensions without hidden scalarization. |
 

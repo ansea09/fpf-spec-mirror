@@ -6,12 +6,12 @@ section_id: "C.28:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__006_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:4 — Solution"
-line_start: 55708
-line_end: 56231
+line_start: 55780
+line_end: 56303
 dependencies:
   - "A.10"
   - "A.15"
@@ -277,7 +277,7 @@ CounterfactualSamplingRealizabilityResult:
 
 A `realizable` result cites the sampling construction that the decision Method accepts. A `bounded` result cites its bound. A `nonrealizable` result exposes the obstruction or failure witness. `unclear` names what remains unresolved. “Realized counterfactual sampling” never means observing incompatible outcomes for one unit in one realized world.
 
-If the team plans to draw samples, use a separate A.15.2 WorkPlan. If sampling occurs, cite the dated Work and A.15.1/F.6 attribution. If the samples are used as evidence, cite the resulting data through an A.10 evidence path. Actual sampling support requires both the dated Work and resulting data or evidence ref; neither `realizable` nor a WorkPlan can stand in for them. Identification from those data, when claimed, is another `CausalIdentificationResult`.
+If the team plans to draw samples, use a separate A.15.2 WorkPlan. If sampling occurs, recover every precise performer's A.13 core and independently admit the dated Work under A.15.1. Add F.6 only when the sampling claim also needs precise assignment-bound attribution. If the samples are used as evidence, cite the resulting data through an A.10 evidence path. Actual sampling support requires both the dated Work and resulting data or evidence ref; neither `realizable` nor a WorkPlan can stand in for them. Identification from those data, when claimed, is another `CausalIdentificationResult`.
 
 #### C.28:4.6 - Applied profiles
 
@@ -477,7 +477,7 @@ CausalUseEvidenceDesignRecord:
   unsupportedUseWithoutFurtherEvidence
 ```
 
-The three optional specialist refs are included only when an existing target-trial mapping, off-policy evaluation, or causal-variable representation result shows what additional evidence could change the support boundary. Before execution, cite a MethodDescription or WorkPlan only when used. After execution, cite dated Work and the applicable attribution results from A.15.1 and F.6. If performed counterfactual sampling is used as evidence, also cite the resulting sample or data through `evidencePathRefs`; Work without output data and data without its Work and provenance path each remain incomplete for that claim. Do not copy performer species, holder equalities, assignment participants, or occurrence mechanics into this record unless one of those facts changes causal validity, safety, authorization, or supported use.
+The three optional specialist refs are included only when an existing target-trial mapping, off-policy evaluation, or causal-variable representation result shows what additional evidence could change the support boundary. Before execution, cite a MethodDescription or WorkPlan only when used. After execution, cite every precise performer's A.13 core and the independent A.15.1 Work admission; cite F.6 only when precise assignment-bound attribution is also current. If performed counterfactual sampling is used as evidence, also cite the resulting sample or data through `evidencePathRefs`; Work without output data and data without its Work and provenance path each remain incomplete for that claim. Do not copy performer-kind, assignment, or occurrence mechanics into this record unless one of those facts changes causal validity, safety, authorization, or supported use.
 
 Additional evidence is worth planning only when it can change a material causal statement or downstream decision enough to justify cost, risk, and delay, or when safety or release rules independently require it.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.4.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
-line_start: 67727
-line_end: 67894
+line_start: 67811
+line_end: 67978
 dependencies:
   - "A.10"
   - "A.20"
@@ -126,7 +126,7 @@ Name the affected EntityOfConcern and any affected Systems, the value-frame edit
 | Evidence is too weak or outdated. | Demand stronger or fresher evidence before mediation. | `A.10`, `C.27` |
 | Assurance claim is being used as ethical permission. | Keep assurance as an assurance or evidence relation, not moral authorization. | `B.3`, `D.5` |
 | Architecture move reduces one residual but creates ethical conflict elsewhere. | Return the architecture residual and keep the ethical conflict distinct. | `C.30.ILC`, `D.3` |
-| A decision must proceed with residual harm. | Record the accepted residual, admitted decision or repair Systems, prospective plan, commitment, permission, authority, or assignment requirements, direct responsibility relations or exact missing governors, evidence limits, and return condition. If Work has actually occurred, add its complete A.15.1 and F.6 basis. | `C.11`, `B.3`, `D.5`, A.2.1, A.15.1, and F.6 as applicable |
+| A decision must proceed with residual harm. | Record the accepted residual, admitted decision or repair Systems, prospective plan, commitment, permission, authority, or assignment requirements, direct responsibility relations or exact missing governors, evidence limits, and return condition. If Work has actually occurred, recover each precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 only when the decision account also needs exact assignment-bound attribution. | `C.11`, `B.3`, `D.5`, A.2.1, A.13, A.15.1, and F.6 as applicable |
 
 ### D.4:4 - Archetypal Grounding (Worked Slices)
 
@@ -156,7 +156,7 @@ Do not name a mediation move "calculus" unless a mathematical lens is selected a
 | CC-D4-1 | An exact `conflictDescriptionRef` identifies one C.2.1 episteme through D.3, or the use returns to D.3. | Prevents mediation without a reidentifiable conflict description. |
 | CC-D4-2 | The record names the affected EntityOfConcern, any affected Systems, value-frame editions, decision question and options, intended decision or Work use, and the current admissible move. ClaimScope and qualification window are explicit when they delimit that use. | Keeps ethical use explicit without relying on a generic context premise. |
 | CC-D4-3 | Evidence, causality, assurance, architecture, and decision claims use their subject patterns. | Prevents D.4 from becoming universal decision authority. |
-| CC-D4-4 | When proceeding under residual harm, name accepted residuals and admitted Systems; keep any local kind, C.2.1 System-classification assertion episteme, prospective plan or assignment requirement, and actual relation distinct. Every responsibility, authority, permission, or commitment claim has its independently obtaining direct relation or exact A.6.RCD missing governor. Every actual Work row separates the assignment species from its obtaining occurrence and carries the complete A.15.1 and F.6 basis. | Keeps bounded decision use reviewable without deriving responsibility or performance from an assignment or decision. |
+| CC-D4-4 | When proceeding under residual harm, name accepted residuals and admitted Systems; keep any local kind, C.2.1 System-classification assertion episteme, prospective plan or assignment requirement, and actual relation distinct. Every responsibility, authority, permission, or commitment claim has its independently obtaining direct relation or exact A.6.RCD missing governor. Every actual Work row first recovers each precise performer's A.13 core and independently admits the Work under A.15.1; it adds F.6 only when precise assignment-bound attribution is also current. | Keeps bounded decision use reviewable without deriving responsibility or performance from an assignment or decision. |
 
 ### D.4:8 - Common Anti-Patterns and How to Avoid Them
 

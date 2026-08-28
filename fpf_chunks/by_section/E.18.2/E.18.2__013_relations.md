@@ -6,12 +6,12 @@ section_id: "E.18.2:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__013_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:10 — Relations"
-line_start: 85442
-line_end: 85452
+line_start: 85572
+line_end: 85582
 dependencies:
   - "A.10"
   - "A.15"

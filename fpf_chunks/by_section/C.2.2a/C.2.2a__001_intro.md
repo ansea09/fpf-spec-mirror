@@ -6,12 +6,12 @@ section_id: "C.2.2a:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__001_intro.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:intro — Intro"
-line_start: 42477
-line_end: 42498
+line_start: 42549
+line_end: 42570
 dependencies:
   - "A.16"
   - "A.16.0"

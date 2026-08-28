@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__008_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 86405
-line_end: 86982
+line_start: 86535
+line_end: 87112
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -52,7 +52,7 @@ For an ordinary bounded review, keep the reviewed edition or subset, question, s
 1. the exact reviewed FPF pattern edition or bounded subset and the declared admission/refresh question;
 2. the review configuration: baseline and risk-selected PCP declarations, exact question scope, use, qualification window, and stop boundary;
 3. the semantic review `U.Method`, when that identity matters; call an episteme its `U.MethodDescription` only after it passes A.3.2;
-4. for each actual review, repair, or verification occurrence asserted as dated `U.Work`, use A.15.1 to identify its time, Method, containing System, and every performer; use F.6 to identify the exact assignment under which each performer acted. The attribution must be independently grounded rather than inferred from holder identity or timing. A compact account may omit only an assignment identifier unused by the receiving claim; all world-side facts remain recoverable;
+4. for each actual review, repair, or verification occurrence asserted as dated `U.Work`, recover every exact actual performer through A.13 and use A.15.1 to identify its time, Method, containing System, and Work independently. Add F.6 only when the review account expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. That attribution must be independently grounded rather than inferred from holder identity or timing, and a missing or failed F.6 link leaves the Work intact;
 5. each exact PCP check application and A.6.1 binding only when the receiving use must replay those bindings;
 6. any distinct authoring/repair work, changed pattern edition, and focused verification work/application in inspect-repair-verify form;
 7. actionable finding or blocker claims, focused-verification claims, and one C.2.1 aggregate E.19 review-result episteme when a durable conclusion is required;
@@ -99,7 +99,7 @@ Formal or template defects (e.g. non-compliance with E.8 structure or not confor
 
 E.g. if the header block is missing or incomplete, **continue with ontology and semantic review first**. Treat missing header fields as one mechanical defect, not as a reason to stop (PCP-BASE #7).
 
-When a proposed or accepted change needs a best-known **Delta-Class (Δ-0…Δ-3)** and initial **impact radius**, place them in the governing change, decision, or landing result using existing definitions where available (e.g., the LEX-AUTH protocol). `E.19` repairs or reports an omission that matters to the selected gate; it does not copy a successful change account into a second review record.
+When a proposed or accepted pattern change needs a best-known **Delta-Class (Δ-0…Δ-3)** and initial **impact radius**, place them in the governing change, decision, or landing result using E.15's actual-effect and actual-dependency tests. `E.19` repairs or reports an omission that matters to the selected review; it does not copy a successful change account into a second review record.
 
 #### E.19:4.2 - Apply the baseline profile to every run
 
@@ -184,15 +184,15 @@ Checks include:
 * description-lane descriptions and their publications do not grow mechanism semantics; for an MVPK face or projected publication form, no-new-claim checks that it introduces no claim beyond the selected episteme and no-shadow-default checks that it introduces no undeclared default. Keep the selected episteme, optional projection/construction, face, publication form, publication occurrence, rendering, and carrier distinct. The selected episteme has `U.View` membership only when exact E.17.0 conformance independently obtains; face status, projection, profile selection, and compliance with these two checks establish no membership or truth,
 * slot-discipline hygiene for any ordered specialization set: SlotKind invariance is preserved and inherited operations do not gain new mandatory inputs (A.6.5 / A.6.1 specialization discipline).
 
-**PCP‑REFRESH (Staleness & compatibility refresh)** — Trigger: staleness signals are present (e.g., outdated SoTA rows, renamed/superseded Relations entries, terminology drift, or an explicit refresh window in LAT/DRR).
+**PCP‑REFRESH (Staleness & compatibility refresh)** — Trigger: staleness signals are present, for example an outdated SoTA claim, a renamed or superseded relation, terminology drift, or an explicit refresh window in a current source-use, change, or decision record.
 Checks include:
 
-* refresh‑sensitive claims are identified (time‑bounded or ecosystem‑bounded) and either (a) updated with post‑2015 evidence **and** matching Solution changes, or (b) explicitly scope‑limited and labeled as historical lineage,
+* refresh-sensitive claims are identified and either (a) updated from the best current problem-relevant source line with matching Solution changes, or (b) explicitly scope-limited and labeled as historical lineage; source date, count, official status, or novelty alone does not establish current-best use,
 * select living refresh only for a high-priority claim or pattern subset likely to change when new evidence or a changed neighbor appears. Monitor and reopen the smallest affected unit at a named trigger; return it to ordinary periodic review when continued surveillance no longer buys enough currentness for its cost,
 * Relations are updated to current pattern IDs; deprecations/renames are handled via explicit continuity notes (no silent relabeling),
 * when one new or substantially revised pattern subset is being prepared for send or landing, inspect the related patterns, the concrete constraints or tests they supply, companion patterns, Relations entries, and monolith-backed pattern sections that may require aligned edits. Repair an in-scope mismatch or return it as a finding. Successful alignment remains visible in the changed sources and the governing landing or release result, not in an E.19 pass recital,
 * any long-lived companion, profile, check sheet, pattern-local companion row, review harness, or analogous selected non-pattern FPF kind-reference pair kept with the reviewed pattern or subset states its use question, the concrete pattern contribution or selected non-pattern FPF kind-reference pair it serves, admissible companion-only use, one real breakage if absent, and demotion or deletion condition when no such breakage exists.
-* when the refresh causes Δ‑2/Δ‑3, verify that the governing change or decision result carries its Delta‑Class, impact radius, `DRR` pointer, and any refresh and Bridge obligations required by E.15/F.15/F.9; repair or report an omission rather than copying a successful account into E.19,
+* when the refresh causes Δ‑2/Δ‑3, verify that the governing change or decision result carries its actual-effect Delta-Class, actual dependent reach, and any DRR, focused verification, source-refresh, or F.9 consequence that the changed use really requires under E.15, F.15, and F.9; repair or report an omission rather than copying a successful account into E.19,
 
 Trigger overrides are permitted but intentionally rare. Override a triggered profile only when its risk is genuinely absent in this case and a compensating check covers the live concern. When the override changes an admission, refresh, or other governing decision, place its reason in that decision basis; otherwise E.19 requires no separate positive override account.
 
@@ -540,37 +540,37 @@ For `PCP-ENTRY`, the ordinary compact pattern-local change note remains enough w
 
 #### E.19:4.3.3 - Pattern-Edition Use-Value Replay
 
-Use this replay when an exact candidate pattern edition changes materially under `E.8:4.1.2`. Run it once on the stable candidate before acceptance or landing, not after each edit. Start with the bounded E.8 loop over the earlier edition and proposed prose, then open only each affected earlier-edition or candidate-only use whose result can differ, pinned to its exact basis and changed locus. Treat a change as mechanical only when the smallest relevant comparison shows that every materiality value named in `E.8:4.1.2` is preserved. A genuinely bounded local semantic edit opens only its affected use probe and changed wording group; physical rewrite size is not evidence.
+Use this replay when an exact candidate pattern edition changes materially under `E.8:4.1.2`. Run it once on the stable candidate before acceptance or landing, not after each edit. Start with the bounded E.8 loop over the actual predecessor and proposed prose, then open only each affected prior-edition or candidate-only use whose result can differ, pinned to its exact basis and changed locus. Treat a change as mechanical only when the smallest relevant comparison shows that every materiality value named in `E.8:4.1.2` is preserved. A genuinely bounded local semantic edit opens only its affected use probe and changed wording group; physical rewrite size is not evidence.
 
-When the candidate keeps, merges, removes, profiles, reuses, externally supplies, or omits a narrower contribution, apply the same-situation decision in `E.8:4.1.3`. If reuse or a gap answers the working question, verify which return is actually present: an available maintained result of its own kind and supplying product, a maintained MethodDescription reference, direct-source evidence, or a named unavailable result. For an external result, verify the receiving use, discovery route, material currentness or availability, and the statement that it remains outside the receiving framework; otherwise the package still has a gap or omission. When the resulting stable set materially changes a promised problem family, require a current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition. Reuse a matching current package result when its exact basis is unchanged; E.19 asks for neither a duplicate package evaluation nor evidence that a revisit occurred.
+When the candidate keeps, merges, removes, profiles, reuses, externally supplies, or omits a narrower contribution, apply the same-situation decision in `E.8:4.1.3`. If reuse or a gap answers the working question, verify which return is actually present: an available maintained result of its own kind and supplying product, a maintained MethodDescription reference, direct-source evidence, or a named unavailable result. For an external result, verify the receiving use, discovery route, material currentness or availability, and the statement that it remains outside the receiving framework; otherwise the package still has a gap or omission. When the resulting stable set materially changes a promised problem family, require a current D12 judgement for the exact successor package. Reuse a matching current package result when its exact basis is unchanged; E.19 asks for neither a duplicate package evaluation nor evidence that a revisit occurred.
 
-Judge each affected use probe separately when its result can differ by exact earlier-edition or candidate-only basis, working use or relying work, expected first useful result, boundary, necessity, or evidence mode. One review may contain probes from both bases. A grouped verdict such as `uses preserved or added` or `usability preserved` cannot substitute for those judgements. E.19 does not prescribe a per-probe progress store: inspect-repair-verify repairs and verifies failed probes, while independent findings records only regressions, insufficiencies, invalid transfers, unsupported decisions, and blockers. When `E.8`, `E.21`, or another governing evaluation requires reusable dispositions or values, keep them in that evaluation's result rather than copying them into E.19 findings.
+Judge each affected use probe separately when its result can differ by exact predecessor or candidate-only basis, working use or relying work, expected first useful result, boundary, necessity, or evidence mode. One review may contain probes from both bases. A grouped verdict such as `uses preserved or added` or `usability preserved` cannot substitute for those judgements. E.19 does not prescribe a per-probe progress store: inspect-repair-verify repairs and verifies failed probes, while independent findings records only regressions, insufficiencies, invalid transfers, unsupported decisions, and blockers. When `E.8`, `E.21`, or another governing evaluation requires reusable dispositions or values, keep them in that evaluation's result rather than copying them into E.19 findings.
 
-**Changed-wording check inside each affected earlier-edition probe.** Keep the selected use probe as the outer unit. When a candidate materially rewrites earlier-edition wording in a normative sentence or inseparable sentence group that carries the governed extension, action discriminator, first useful result, stop, or neighboring-pattern exit, give that wording group its applicable differential disposition below before closing the outer probe. Keep sentences together only when they serve one reader task and must receive one disposition; split them when their extension, action, result, or route can differ.
+**Changed-wording check inside each affected prior-edition probe.** Keep the selected use probe as the outer unit. When a predecessor-bearing candidate materially rewrites a normative sentence or inseparable sentence group that carries the governed extension, action discriminator, first useful result, stop, or neighboring-pattern exit, give that wording group its applicable differential disposition below before closing the outer probe. Keep sentences together only when they serve one reader task and must receive one disposition; split them when their extension, action, result, or route can differ.
 
 For each changed wording group:
 
-1. pin the earlier-edition and candidate wording and the exact use it serves;
+1. pin the old and candidate wording and the exact use it serves;
 2. state in plain language the subject, concrete action or choice, visible result, and stop or exit;
-3. compare the earlier-edition head and modifiers, modal force, admitted referents/actions, excluded near-misses, and local interpretation burden;
+3. compare the old head and modifiers, modal force, admitted referents/actions, excluded near-misses, and local interpretation burden;
 4. probe the nearest alien case the candidate might newly admit and the nearest valid case it might newly exclude, naming any case that crosses the boundary; and
 5. apply the differential disposition. `preserved` requires no unauthorized widening or narrowing and no greater decoding burden: a reader must not need campaign memory or an ontology-development memorandum to recover the action.
 
-For a new action-guiding paragraph with no earlier edition, do not invent history. Test one nearby alien case that must remain outside and verify that the local wording itself exposes a recognizable situation, concrete action or choice, visible first result, and non-use or neighboring-pattern exit.
+For a new action-guiding paragraph with no predecessor, do not invent history. Test one nearby alien case that must remain outside and verify that the local wording itself exposes a recognizable situation, concrete action or choice, visible first result, and non-use or neighboring-pattern exit.
 
 Keep the cheap path cheap. Formatting, typo, link, citation, or exact-reference corrections remain mechanical when the smallest comparison proves that no `E.8:4.1.2` materiality value changed. A bounded semantic edit checks only its affected wording group and use probe. Reuse an earlier hunk or lexical result only when the object and compared editions, changed scope, and assurance question match this extension, modal-force, near-miss, and interpretation-burden test; idea presence or broad-use preservation is not enough. This is one same-increment stable-candidate pass before acceptance or landing, not per-keystroke review, a new ledger, or a one-finding handoff.
 
-**Earlier-edition differential.** For one candidate pattern edition × one earlier-edition use probe, distinguish the applicable disposition when the governing decision needs it:
+**Prior-edition differential.** For one candidate pattern edition × one prior-edition use probe, distinguish the applicable disposition when the governing decision needs it:
 
 | Disposition | Semantic test and recoverability |
 | --- | --- |
 | `preserved` | The situation, action, result, and required boundary remain semantically available; every material changed wording group retains its head-and-modifier extension, modal force, admitted valid cases, excluded near-misses, and no-greater-decoding-burden condition. The declared use remains admissible and replayable from the pinned editions. |
-| `improved` | The required earlier-edition use and every required changed-wording boundary remain preserved, and a separate replay demonstrates an action, result, boundary, affordability, or interpretation-burden gain. |
+| `improved` | The required old use and every required changed-wording boundary remain preserved, and a separate replay demonstrates an action, result, boundary, affordability, or interpretation-burden gain. |
 | `transferred` | A discoverable handoff reaches one named neighboring pattern whose Solution carries the needed action guidance and exposes its result. A bare pattern ID or unreachable action is `regressed`. |
-| `intentionally retired` | An accepted decision drops a harmful or false earlier-edition action and supplies the corrected positive action or boundary as the recoverability endpoint. |
+| `intentionally retired` | An accepted decision drops a harmful or false old action and supplies the corrected positive action or boundary as the recoverability endpoint. |
 | `regressed` | A required action, result, risk disclosure, cheap exit, or usable handoff is absent; or changed wording admits an unauthorized alien case, excludes a valid case, changes modal force, or makes the reader decode more unstated ontology. Repair or an explicit retirement decision is required. |
 
-A use classified as unsupported historical residue before replay receives no differential disposition and supports no compatibility claim. New evidence of a valid earlier-edition use reopens that classification instead of restoring wording silently. A required `regressed` probe prevents a positive conclusion, but it does not stop inspection of the remaining independent probes.
+A use classified as unsupported historical residue before replay receives no differential disposition and supports no compatibility claim. New evidence of a valid old use reopens that classification instead of restoring wording silently. A required `regressed` probe prevents a positive conclusion, but it does not stop inspection of the remaining independent probes.
 
 **Candidate-only adequacy.** Review one candidate pattern edition × one new intended-use probe against its exact candidate-only basis, never against invented history. Distinguish these outcomes when the governing decision needs them:
 
@@ -579,7 +579,7 @@ A use classified as unsupported historical residue before replay receives no dif
 | **adequate for the candidate-only use** | The selected basis, recognizable situation, concrete action or choice, first useful result, action-changing boundary, intended reader, and one nearby alien case that stays outside are recoverable from the local candidate wording and executable enough for the declared use. |
 | **absent or insufficient for the candidate-only use** | The use is only promised, named, over-broad, ambiguous, or unsupported; the intended reader cannot perform the action, distinguish the first result, reject the nearby alien case, or recognize the non-use/neighbor exit from the local wording. |
 
-A missing candidate-only decision or basis is `absent or insufficient`; it never licenses a fabricated earlier edition. Absence for a required new use prevents a positive conclusion but does not stop the other independent probes. Absence for optional breadth is non-blocking by itself but cannot support breadth, transfer, or exceptional-expression claims. If no exact new intended use is selected, no candidate-only check opens.
+A missing candidate-only decision or basis is `absent or insufficient`; it never licenses a fabricated prior edition. Absence for a required new use prevents a positive conclusion but does not stop the other independent probes. Absence for optional breadth is non-blocking by itself but cannot support breadth, transfer, or exceptional-expression claims. If no exact new intended use is selected, no candidate-only check opens.
 
 **Replay the positive Solution separately.** Judge the following over the candidate edition when their answers can differ:
 

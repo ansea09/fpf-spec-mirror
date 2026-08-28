@@ -6,15 +6,17 @@ section_id: "A.13:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__003_problem.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:2 — Problem"
-line_start: 23428
-line_end: 23436
+line_start: 23442
+line_end: 23450
 dependencies:
   - "A.10"
   - "A.12"
+  - "A.15"
+  - "A.15.1"
   - "A.17"
   - "A.18"
   - "A.19"
@@ -23,13 +25,18 @@ dependencies:
   - "C.16"
   - "C.9"
   - "E.16"
+  - "F.6"
 keywords:
-  - "U.SystemRoleAssignment"
-  - "agency spectrum"
-  - "agential participation"
   - "autonomy grading"
-  - "local system-role kind"
-  - "substrate-neutral autonomy"
+  - "classification"
+  - "conditional characteristic profile"
+  - "evidence-backed core"
+  - "exact System"
+  - "local agential system-role kind and criterion"
+  - "obtaining assignment"
+  - "scope"
+  - "window"
+  - "working situation"
 ---
 
 ### A.13:2 - Problem

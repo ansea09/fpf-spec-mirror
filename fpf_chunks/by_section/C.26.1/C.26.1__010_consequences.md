@@ -6,12 +6,12 @@ section_id: "C.26.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__010_consequences.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:9 — Consequences"
-line_start: 54109
-line_end: 54114
+line_start: 54181
+line_end: 54186
 dependencies:
   - "A.1.1"
   - "A.10"

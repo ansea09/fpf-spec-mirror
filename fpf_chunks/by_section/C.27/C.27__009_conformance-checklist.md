@@ -6,12 +6,12 @@ section_id: "C.27:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__009_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:7 — Conformance Checklist"
-line_start: 55179
-line_end: 55197
+line_start: 55251
+line_end: 55269
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -59,7 +59,7 @@ keywords:
 | C27-5 | Dyn0, Dyn1, and Dyn2 classify claims, not Systems or other world objects. |
 | C27-6 | The local result is the one-screen card; a boundary-crossing profile contains only the small header and exact direct-result references. |
 | C27-7 | The card names claimed input, resistance or cost, reason for the reading, supported use, unsupported use, and reopen condition without implying causal effect, Work, authority, value, promise, or assurance. |
-| C27-8 | Performed Work names the actual System actor and complete A.15.1 and F.6 basis. An assignment remains a separate obtaining relation and never acts. |
+| C27-8 | Performed Work names the actual System actor, whose A.13 core precedes independent A.15.1 Work admission. F.6 follows only when precise assignment-bound attribution is current. An assignment remains a separate obtaining relation and never acts. |
 | C27-9 | A non-system input uses its actual direct relation or remains an unresolved or source-side intervention claim; no generic applier branch is created. |
 | C27-10 | A viability use cites an exact C.26.3 claim episteme or ClaimAddress and an exact System or A.22 Structure bearer; no generic viability or configuration relation is invented. |
 | C27-11 | Measurement, dynamics, Work, causality, benchmark, promise, value, quality, viability, scaling, adaptation, search, publication, assurance, and residual QL stay with their direct patterns. |

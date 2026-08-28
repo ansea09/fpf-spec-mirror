@@ -6,12 +6,12 @@ section_id: "C.16:End"
 section_title: "C.16:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__020_c-16-end.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:End — C.16:End"
-line_start: 47450
-line_end: 47451
+line_start: 47522
+line_end: 47523
 dependencies:
   - "A.10"
   - "A.15.1"

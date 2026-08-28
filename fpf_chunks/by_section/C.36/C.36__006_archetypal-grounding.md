@@ -6,12 +6,12 @@ section_id: "C.36:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__006_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:5 — Archetypal Grounding"
-line_start: 66861
-line_end: 66947
+line_start: 66945
+line_end: 67031
 dependencies:
   - "A.1"
   - "A.10"
@@ -97,7 +97,7 @@ CulturalEvolutionCaseCard@Context:
   SystemRoleKindRefs: omitted — the familiar dance labels do not establish local kinds without criteria
   SystemRoleClassificationJudgmentRefs: omitted — the familiar dance labels establish no classification judgment
   SystemRoleAssignmentSpeciesRefs: omitted — this family-level card asserts no assignment species
-  SystemRoleAssignmentOccurrenceRefs: omitted — this family-level card asserts no assignment occurrence or performed Work; any later Work claim names the `U.Work` occurrence and keeps all facts required by A.15.1, A.2.1, and F.6 recoverable
+  SystemRoleAssignmentOccurrenceRefs: omitted — this family-level card asserts no assignment occurrence or performed Work; any later Work claim first recovers each exact performer through A.13 and lets A.15.1 independently admit the Work, adding A.2.1/F.6 only when precise assignment-bound attribution is expressly consumed
   WorkFamilyRefs: performance, rehearsal, teaching, judging, remixing, platform publication
   MethodFamilyRefs: floorwork method family, improvisation method family, duet-lift method family
   CanonOrMemoryEpistemeRefs: festival archive, teaching syllabus, exemplar video set

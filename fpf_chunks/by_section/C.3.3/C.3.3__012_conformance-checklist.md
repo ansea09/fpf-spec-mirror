@@ -6,12 +6,12 @@ section_id: "C.3.3:11"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__012_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:11 — Conformance Checklist"
-line_start: 45132
-line_end: 45150
+line_start: 45204
+line_end: 45222
 dependencies:
   - "A.2.6"
   - "A.6.REL"

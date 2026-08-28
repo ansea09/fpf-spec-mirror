@@ -6,16 +6,17 @@ section_id: "A.15.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__012_sota-echoing.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:11 — SoTA-Echoing"
-line_start: 26531
-line_end: 26546
+line_start: 26613
+line_end: 26628
 dependencies:
   - "A.1"
   - "A.1.STM"
   - "A.12"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.PROD"
@@ -27,11 +28,14 @@ dependencies:
   - "A.6.1"
   - "A.6.P.WMR"
   - "A.6.RCD"
+  - "C.11"
+  - "C.18"
   - "C.2.1"
   - "E.17"
   - "E.18"
   - "E.18.NET"
   - "E.24.PUB"
+  - "F.6"
 keywords:
 ---
 
@@ -39,7 +43,7 @@ keywords:
 
 | Source line and status, qualified 2026-08-26 | What it contributes | FPF adoption |
 |---|---|---|
-| [PMI, What Is a Project](https://www.pmi.org/about/what-is-a-project), current practice wording checked 2026-08-26 | Practice terminology emphasizes a temporary endeavor producing a unique product, service, or result through structured activities. | **Adapt as vocabulary pressure.** After the complete A.15.1 admission basis obtains, qualify the actual referent as composite performed `U.Work`; keep intended product or result, task descriptions, and deliverables as related values rather than a project kind. |
+| [PMI, What Is a Project](https://www.pmi.org/about/what-is-a-project), current practice wording checked 2026-08-26 | Practice terminology emphasizes a temporary endeavor producing a unique product, service, or result through structured activities. | **Adapt as vocabulary pressure.** After A.13 and A.15.1 independently admit the actual referent as composite performed `U.Work`, qualify it as project Work; when precise assignment-bound attribution is current, add F.6 afterward. Keep intended product or result, task descriptions, and deliverables as related values rather than a project kind. |
 | [APM, What Is Project Management](https://www.apm.org.uk/resources/what-is-project-management/), current practice wording checked 2026-08-26 | Project practice describes a unique transient endeavor and discrete packages of work directed toward planned objectives. | **Adopt the work selection.** Use independently admitted transient composite Work and obtaining Work-part relations, while separating the temporary performing organization. |
 | Winch, [*An Action Theory of the Project*](https://doi.org/10.1177/87569728241270574), 2025 issue | Distinguishes temporary organization, permanent organization, future-oriented action, intention, and intended future state. | **Adapt.** Keep organization, performed Work, plan or intention, affected referent, and intended state as related objects with different identities. |
 | Sydow, Lundin, Ekstedt, and Braun, [*The theory of temporary organization three decades later*](https://doi.org/10.1016/j.scaman.2025.101405), 2025 | Project plasticity and continuity persist across changing organizational arrangements. | **Adopt as a continuity safeguard.** Let `A.15.1` episode and continuity policy decide project-Work persistence instead of team identity or project label. |

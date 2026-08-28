@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.17.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR‑NORM)"
-line_start: 28591
-line_end: 28726
+line_start: 28663
+line_end: 28798
 dependencies:
   - "A.17"
   - "A.18"

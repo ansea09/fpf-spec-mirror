@@ -6,12 +6,12 @@ section_id: "E.24.CD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__009_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:7 — Conformance Checklist"
-line_start: 90050
-line_end: 90072
+line_start: 90188
+line_end: 90210
 dependencies:
   - "A.1"
   - "A.14"
@@ -69,7 +69,7 @@ keywords:
 | `CC-E24CD-12` | A record-shaped false candidate keeps holder, status bearer and value, method, mechanism, plan, work, evidence item and use, result and relation, target and subject relation, and source and source-use relation distinct; absent fields and row shape establish none of them. |
 | `CC-E24CD-13` | Bare *role* uses E.10.ROLE and then the recovered branch; ambiguous relation, slot, interface, function, and endpoint wording uses its matching precision-restoration pattern. None becomes ontology by wording alone. |
 | `CC-E24CD-14` | Declarative-form agency is blocked through C.2.P.DR, and reusable naming starts in F.18 only after the governed value and any needed relation settlement are available. |
-| `CC-E24CD-15` | Wording such as `situation`, `incident`, `current configuration`, `operating <system>`, or `emergency` recovers only the Systems, claims, Work, change, and temporal or causal relations needed by the current use; their conjunction creates neither `U.Situation` nor `U.IncidentSituation`. Every asserted actual Work passes A.15.1 and F.6 for its performers, Method, time, containing System, and assignments; local system-role-kind classification remains separate. Intended action stays plan or other modal content until its predicates obtain. |
+| `CC-E24CD-15` | Wording such as `situation`, `incident`, `current configuration`, `operating <system>`, or `emergency` recovers only the Systems, claims, Work, change, and temporal or causal relations needed by the current use; their conjunction creates neither `U.Situation` nor `U.IncidentSituation`. Every asserted actual Work first recovers each precise performer's A.13 core and is independently admitted under A.15.1 from its performance history, Method, time, and containing System. F.6 is added only when precise assignment-bound attribution is also current; local system-role-kind classification remains separate. Intended action stays plan or other modal content until its predicates obtain. |
 | `CC-E24CD-16` | Arbitrary fusion, co-presence, connectedness, or a chosen boundary creates no whole. Only a surviving constructed-object candidate is tested for exact inputs, whole-forming relations, and identity under B.1, A.14, C.13, and B.2 when reidentification is current. |
 | `CC-E24CD-17` | Mathematical inconsistency names exact claims or epistemes, the declared formal substrate, and the direct inconsistency or consequence relation; it establishes no world event, causation, Work, Transformation, Problem, or situation. |
 | `CC-E24CD-18` | A ProblemCard, signal, forecast, scenario, formulation, actual Problem, and later problematization or work remain under C.22.2, C.22.PFR, and their exact continuation governors rather than one card-derived ontic. |

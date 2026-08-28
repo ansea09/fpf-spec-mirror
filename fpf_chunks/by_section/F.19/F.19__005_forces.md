@@ -6,12 +6,12 @@ section_id: "F.19:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__005_forces.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:3 — Forces"
-line_start: 98616
-line_end: 98626
+line_start: 98756
+line_end: 98766
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

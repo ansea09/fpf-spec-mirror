@@ -6,12 +6,12 @@ section_id: "B.2.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__006_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:4 — Solution"
-line_start: 38070
-line_end: 38124
+line_start: 38142
+line_end: 38196
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,7 +56,7 @@ The exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme are the thr
 - empirical grounding uses `EpistemeEmpiricalGroundingRelation` only when designated empirical claims have current claim-to-world mappings involving the exact grounding holon;
 - viewpoint selection and `U.View` recognition use their description-context and conformance patterns;
 - publication occurrence, publication form, carrier, source use, and C.29 representation remain distinct from the episteme and its constitution;
-- an admitted acting System performs the synthesis Work under a Method; F.6 identifies the assignment under which that System acted, while any actual transformation remains a separate claim; and
+- an exact acting System first has the A.13 core and A.15.1 independently admits its synthesis Work under a Method; F.6 enters only if the receiving transition account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment, while any actual transformation remains a separate claim; and
 - evidence and assurance support or challenge exact claims but do not enter episteme identity or establish constitution.
 
 Add only the neighboring object or relation required by the receiving use. Do not infer any of them from a publication set, and do not turn them into extra identity positions.
@@ -71,7 +71,7 @@ When a receiving use has materialized B.2's optional `MHTTriggerProfile`, interp
 | Objective or evaluation change | The result episteme answers or evaluates a question that the collection did not answer as one claim-bearing whole. | `C.2.1`, `C.16`, `E.21` or relevant evaluation pattern |
 | Supervision or coordination change | Principles, axioms, invariants, reference schemes, or claim-graph constraints organize how constituent claims are interpreted. | `C.2.1`, `A.6.0`, `A.6.1`, `C.29` when formal lens is current |
 | Capability or closure claim | The candidate episteme supports a new explanatory, predictive, specification, or coordination use; evidence for that claim remains separate. | `C.2.1`, `C.16`, `A.10` for evidence use, and the pattern for that use |
-| Agency threshold | Usually not applicable to the episteme itself. If agency is claimed, recover the acting System and test the agency characteristic independently; an agency characteristic does not require an assignment. If dated Work is also claimed, A.15.1 admits the Work and F.6 identifies the assignment under which each performer acted. | `A.12`, `A.2.1`, `A.13`, `A.19`, `C.16`, `A.15.1`, `F.6` |
+| Agency threshold | Usually not applicable to the episteme itself. If agency is claimed, recover the acting System and test the agency characteristic independently; an agency characteristic does not require an assignment. If dated Work is also claimed, recover each exact performer through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving claim expressly consumes precise assignment-bound attribution; missing or failed F.6 leaves the Work intact. | `A.12`, `A.2.1`, `A.13`, `A.19`, `C.16`, `A.15.1`, `F.6` |
 | Temporal consolidation | A field, standard, or theory becomes one current knowledge body after phase consolidation or source-currentness change. | `C.27`, `E.17`, source-use patterns |
 | Context reframe | New terms, reference schemes, or EntityOfConcern mapping reframe the knowledge body. | `C.2.1`, `A.6.3`, `A.6.4`, `F.18` |
 

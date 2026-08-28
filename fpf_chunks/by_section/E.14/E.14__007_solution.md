@@ -6,12 +6,12 @@ section_id: "E.14:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__007_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:4 — Solution"
-line_start: 79116
-line_end: 79167
+line_start: 79246
+line_end: 79297
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -53,7 +53,7 @@ Where episteme-publication-heavy or transform-heavy patterns need a compact onto
 This is a reading-order rule rather than a demand that every reader consume the assurance text first.
 The point is to keep the human-facing Working-Model text primary while preserving a recoverable, auditable assurance text beneath it.
 
-When empirical evaluation is current, keep the same reading order. Put the ordinary subject claim first. Keep an intended evaluation in its `U.WorkPlan`, name the selected `U.Method`, and cite a `U.MethodDescription` only when the plan, execution claim, or interpretation relies on that edition. If evaluation actually occurs, point to its complete A.15.1/F.6 basis. In the assurance account, name every performer, the assignment link checked with F.6, and the Method the Work enacted; use A.2.1 for the assignment itself and test any local system-role-kind classification separately. The first sentence may omit identifiers or basis details it does not use, provided the facts remain recoverable. Only the performer System acts. A working model, pattern, plan, criterion, Method, MethodDescription, assignment, record, result, evidence path, provenance value, or assurance claim does not become Work, and its availability does not make Work occur.
+When empirical evaluation is current, keep the same reading order. Put the ordinary subject claim first. Keep an intended evaluation in its `U.WorkPlan`, name the selected `U.Method`, and cite a `U.MethodDescription` only when the plan, execution claim, or interpretation relies on that edition. If evaluation actually occurs, recover every performer's A.13 core and independently admit the dated Work under A.15.1. Add F.6 only when the current assurance use also needs precise assignment-bound attribution; when it does, name every performer, the assignment link checked with F.6, and the Method the Work enacted, use A.2.1 for the assignment itself, and test any local system-role-kind classification separately. The first sentence may omit identifiers or basis details it does not use, provided every consumed fact remains recoverable. Only the performer System acts. A working model, pattern, plan, criterion, Method, MethodDescription, assignment, record, result, evidence path, provenance value, or assurance claim does not become Work, and its availability does not make Work occur.
 > **E.14-P.1 – Working-Model first, assurance when current.**
 > Operate one **Working-Model** for all human-facing discussion and state the direct claim first. If neither the publication nor a named current requirement calls for assurance, the author may stop there. When assurance is current, declare only the posture and shoulder or shoulders required by the applicable pattern: **Mapping** to align a term with the chosen model value it names; **Logical** to state label meaning, scope, constraints, and limits; **Constructive** to make independently grounded construction facts inspectable; or **Empirical Validation** to support a bounded reliance on a domain result. Under `B.3.5`, covered claims declare `validationMode`. For each selected shoulder, name only the objects, scope, and qualification window the current use consumes. None creates the model value, subject relation, Work occurrence, or result it supports.
 
@@ -74,7 +74,7 @@ When empirical evaluation is current, keep the same reading order. Put the ordin
 > No new Working‑Model relation types are introduced if the existing Logical label-meaning rules plus Constructive grounding suffice to capture the intended meaning.
 
 > **E.14‑P.7 – A postulate is not completed evaluation.**
-> When *postulate* is chosen, authors **SHALL** state the claim and its scope and **SHOULD** give brief empirical cues — where it tends to hold or what would challenge it — to ease later validation. This posture by itself requires no dated Work, result, complete A.15.1/F.6 basis, provenance path, or assurance claim. If evaluation or measurement actually occurred and the current assurance use relies on its result, authors **SHALL** name the scope and qualification window that use consumes, the domain result and result episteme, and the A.10 evidence-provenance relation; they keep the complete A.15.1/F.6 basis recoverable under §5.5. If an assurance claim is made or B.3's material-reliance threshold is met, the current B.3 assurance claim remains separate and required for that assurance-bearing use. Another named current assurance requirement supplies its own obligations.
+> When *postulate* is chosen, authors **SHALL** state the claim and its scope and **SHOULD** give brief empirical cues — where it tends to hold or what would challenge it — to ease later validation. This posture by itself requires no dated Work, result, A.13 performer core, A.15.1 Work admission, F.6 attribution, provenance path, or assurance claim. If evaluation or measurement actually occurred and the current assurance use relies on its result, authors **SHALL** name the scope and qualification window that use consumes, the domain result and result episteme, and the A.10 evidence-provenance relation; every performer keeps an A.13 core and the Work is independently admitted under A.15.1. F.6 is added only when the assurance use also consumes precise assignment-bound attribution. If an assurance claim is made or B.3's material-reliance threshold is met, the current B.3 assurance claim remains separate and required for that assurance-bearing use. Another named current assurance requirement supplies its own obligations.
 
 > **E.14‑P.8 – Working-model-first is not explanation-thin.**
 > Human-facing parsimony does **not** license under-explained pattern prose. When a pattern claims a Working‑Model benefit, it **SHALL** still provide enough problem framing, rationale, and worked slices that readers can tell what the model clarifies, what remains on the assurance shoulders, and when a heavier review path is required.

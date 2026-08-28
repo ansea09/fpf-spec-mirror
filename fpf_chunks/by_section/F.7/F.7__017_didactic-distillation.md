@@ -6,12 +6,12 @@ section_id: "F.7:16"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__017_didactic-distillation.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:16 — Didactic distillation"
-line_start: 93307
-line_end: 93310
+line_start: 93447
+line_end: 93450
 dependencies:
   - "A.6.9"
   - "B.3"

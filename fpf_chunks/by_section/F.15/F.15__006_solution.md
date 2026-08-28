@@ -6,15 +6,16 @@ section_id: "F.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__006_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:4 — Solution"
-line_start: 96022
-line_end: 96034
+line_start: 96162
+line_end: 96174
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -57,7 +58,7 @@ The harness has two rule families:
 
 Both families are F.15-local check declarations over already defined objects. A practitioner may apply their questions and obtain a local result without naming the checking activity as Tech `U.Work`. An exact rule application, when its identity is needed, uses A.6.1.
 
-If a replayable result or example asserts dated assessment `U.Work`, point to its complete A.15.1/F.6 basis. A short record may omit only an assignment identifier unused by its receiving claim. Name the A.6.1 application and bindings when that application is also asserted.
+If a replayable result or example asserts dated assessment `U.Work`, recover each actual performer's A.13 core and independently admit the Work under A.15.1. Add F.6 afterward only when the result also needs precise assignment-bound attribution. A short record may omit an assignment identifier unused by its receiving claim only when every relation it consumes remains recoverable. Name the A.6.1 application and bindings when that application is also asserted.
 
 C.2.1 separately constitutes the result claims and optional conformance-record episteme. A.10 and B.3 supply evidence-reliance and assurance rules; E.24.PUB supplies publication rules; G.11 supplies currentness rules.
 

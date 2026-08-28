@@ -6,12 +6,12 @@ section_id: "A.6.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__006_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:5 — Archetypal Grounding"
-line_start: 13227
-line_end: 13332
+line_start: 13238
+line_end: 13343
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -152,7 +152,7 @@ For this mechanism episteme, `ApplicationPredicate(P)` holds only when bounded e
 
 For the worked case, `Pump37RecognitionApplication-2026-07-21T100000Z` designates the evaluation act that began at 10:00:00 and returned at 10:00:04. It used `Pump_37_Ref -> Pump_37 : U.Entity`, admitted kind `U.System`, `A1-Holons-Criterion-E1_Ref`, `Pump37-Construction-Facts-E1_Ref`, `Pump37-Reidentification-Rule-E1_Ref`, and `Pump37-Interpretation-Basis-E1_Ref`. The six argument-binding predicates have maximal continuous extents from 10:00:00 through the terminal return. A required fastening-relation fact could not be resolved during this act, so the bound values could determine neither satisfaction nor failure. The act returned `unknown`; the extent of `recognitionJudgmentReturned(Pump37RecognitionApplication-2026-07-21T100000Z, unknown)` is the terminal return event at 10:00:04 and does not begin earlier. The application did occur; Pump #37's world-side satisfaction or failure did not change; and `unknown` is not an admission refusal.
 
-If the project also claims that dated classification Work occurred, identify a separate Work occurrence `W` under A.15.1. Name the admitted System `S` that performed it and the obtaining assignment `RA` under which it performed; verify `S = RA.HolderSystemSlot`, assignment coverage, and F.6 `performedUnderAssignment(W, RA)`, then state the Work temporal extent, at least one obtaining `enactsMethod -> U.Method` relation, any additional enactment relation used by the classification-work claim, and at least one obtaining locally declared containing-system relation with its exact boundary. The candidate application binding above can establish Pump #37's participation in the application; add a separate work-to-candidate or resource-use claim only when its declared predicate obtains, and add `workContinuityPolicyRef` only when an identity or segmentation question needs it. Any materialized classification-assertion or evaluation-result episteme remains under C.2.1. Evidence and assurance support or warrant its claim content through their own relations, and G.11 tests edition currentness. The result binding alone establishes none of Work, evidence, warrant, episteme identity, world-side criterion satisfaction, or B.2 whole reidentification.
+If the project also claims that dated classification Work occurred, first recover the exact actual performer `S : U.System` through A.13 and let A.15.1 independently admit a separate Work occurrence `W` from its performance history, temporal extent, at least one obtaining `enactsMethod -> U.Method` relation, and at least one obtaining locally declared containing-system relation with its exact boundary. Add the same obtaining A.13 assignment `RA` and F.6 `performedUnderAssignment(W, RA)` only when this classification-work claim or its receiving use expressly consumes precise assignment-bound attribution; then check `S = RA.HolderSystemSlot` and assignment coverage. F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves `W` intact. The candidate application binding above can establish Pump #37's participation in the application; add a separate work-to-candidate or resource-use claim only when its declared predicate obtains, and add `workContinuityPolicyRef` only when an identity or segmentation question needs it. Any materialized classification-assertion or evaluation-result episteme remains under C.2.1. Evidence and assurance support or warrant its claim content through their own relations, and G.11 tests edition currentness. The result binding alone establishes none of Work, evidence, warrant, episteme identity, world-side criterion satisfaction, or B.2 whole reidentification.
 
 Practical payoff: another evaluation can reuse the same typed operation while binding another candidate or basis, and evidence loss can change the returned value to `unknown` without rewriting the candidate or criterion.
 

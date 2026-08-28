@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 88517
-line_end: 88785
+line_start: 88655
+line_end: 88923
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -32,7 +32,7 @@ keywords:
 
 `E.23` guides repeated improvement of one object version under a current `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration`. The evaluation pattern defines the evaluation; restoration and subject patterns supply the relevant rules or guidance. A pattern body or locator does not by itself establish a semantic `U.Method` or qualify as its description. Claim Method or MethodDescription identity only after A.3.1 and A.3.2 admit it.
 
-When an evaluation or improvement pass is claimed as actual A.15.1 `U.Work`, identify that occurrence, its time, Method, containing System, every performer, and each independently grounded F.6 assignment; A.2.1 supplies assignment-occurrence identity. A proposed pass, intended performer, planned condition, or A.15.2 WorkPlan remains modal until its predicates obtain. A compact loop record may omit only an assignment identifier unused by the receiving claim; the complete world-side account remains recoverable.
+When an evaluation or improvement pass is claimed as actual A.15.1 `U.Work`, recover every exact actual performer through A.13 and independently identify the occurrence, time, Method, and containing System through A.15.1. Add A.2.1 assignment-occurrence identity and F.6 only when the loop record or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact. A proposed pass, intended performer, planned condition, or A.15.2 WorkPlan remains modal until its predicates obtain.
 
 Keep a returned value, durable result episteme, changed object, and actual Transformation separate. Connect a returned value through its A.6.1 binding or the evaluation's direct result relation. Connect Work to a result or change only through a declared direct relation or local claim that actually obtains; otherwise return the missing governor.
 

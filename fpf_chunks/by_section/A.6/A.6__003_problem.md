@@ -6,12 +6,12 @@ section_id: "A.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__003_problem.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:2 — Problem"
-line_start: 10177
-line_end: 10191
+line_start: 10190
+line_end: 10204
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,7 +71,7 @@ When boundaries are described without an L/A/D/E claim-classification discipline
 
 3. **Contract talk category errors.** “The interface promises…” is a metaphor. Use A.2.3 for promise content, A.2.9 for the instituting speech-act Work, A.2.8 and A.2.8.PER for the commitment or grant, and A.15.1 only to identify the dated Work occurrence. An application result, production, delivery/transfer, acceptance, and evidence use each follows its own row in `A.15.1:4.6` and is omitted when that claim is absent. A.6.C unpacks the boundary case; F.18 only names recovered terms when durable naming is current.
 
-4. **Effect claims without an actual occurrence.** A description, diagram, log, or metric can state or support an effect claim, but none creates the effect. Ground the actual occurrence first. Use `U.Work` only when A.15.1 identifies its performer, Method, time, and containing System and F.6 identifies the assignment under which each performer acted; a short boundary statement may omit an assignment identifier that no later claim uses. Use A.3 and A.3.4, or the pattern that defines the interaction or causal claim for natural, spontaneous, formal, or other non-Work change. Then name the observation and A.10 evidence path needed for reliance.
+4. **Effect claims without an actual occurrence.** A description, diagram, log, or metric can state or support an effect claim, but none creates the effect. Ground the actual occurrence first. Use `U.Work` only when each exact actual performer has its A.13 core and A.15.1 independently identifies the Work, Method, time, and containing System. Add F.6 only when the receiving boundary claim expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact. Use A.3 and A.3.4, or the pattern that defines the interaction or causal claim, for natural, spontaneous, formal, or other non-Work change. Then name the observation and A.10 evidence path needed for reliance.
 
 These confusions destroy evolvability: you cannot swap implementations behind a stable signature if the signature already smuggles mechanism gates, audit logistics, individual commitments, or assignment-based applicability conditions into “laws”.
 

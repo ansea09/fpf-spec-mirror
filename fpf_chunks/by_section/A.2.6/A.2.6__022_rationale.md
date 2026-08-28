@@ -6,12 +6,12 @@ section_id: "A.2.6:20"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__022_rationale.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:20 — Rationale"
-line_start: 6030
-line_end: 6121
+line_start: 6040
+line_end: 6131
 dependencies:
   - "A.1.1"
   - "A.15.1"

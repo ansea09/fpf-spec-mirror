@@ -6,12 +6,12 @@ section_id: "F.18:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__009_worked-cases.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:7 — Worked Cases"
-line_start: 98298
-line_end: 98464
+line_start: 98438
+line_end: 98604
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,7 +57,7 @@ Recovered values:
 - `ShipbuildingMethod` or a method family under A.3.1; if a separately identified `ShipbuildingMethodDescription : U.MethodDescription` episteme is current, name it separately under A.3.2 only when its exact `EntityOfConcern` is that Method;
 - `HullAssemblyWork` under the Work patterns.
 
-Here `HullAssemblyWork` is a work-family label or a label in a plan or assignment episteme. A designator such as `HullAssemblyWork-42@2026-07-15T09:10–11:35` names performed Work only when the record recovers the complete occurrence. Every named performer is an admitted system. For each performer, a current assignment covers the Work interval, names that system as its holder, and retains every participant required by its declared `U.SystemRoleAssignment` species. F.6 links the Work to that assignment. The record also recovers the Method actually used, temporal extent, containing system, affected hull referent, material bindings and resource-use facts, plus an applicable continuity policy when disambiguation is current. The compact naming account may cite only identities needed by the current use, but the omitted facts must still be true. A changed hull state, measurement result, evaluation verdict, delivery occurrence, or acceptance verdict remains a separately defined and separately named value.
+Here `HullAssemblyWork` is a work-family label or a label in a plan or assignment episteme. A designator such as `HullAssemblyWork-42@2026-07-15T09:10–11:35` names performed Work only when each exact actual performer has its A.13 core and A.15.1 independently admits the occurrence from the Method actually used, temporal extent, containing System, affected hull referent, material bindings, resource-use facts, and any current continuity policy. If the naming record also expressly represents which assignment covered that Work, it adds the exact A.2.1 occurrence and F.6 relation through the same A.13 assignment; missing or failed F.6 leaves the Work name intact. A changed hull state, measurement result, evaluation verdict, delivery occurrence, or acceptance verdict remains a separately defined and separately named value.
 
 The local card is:
 

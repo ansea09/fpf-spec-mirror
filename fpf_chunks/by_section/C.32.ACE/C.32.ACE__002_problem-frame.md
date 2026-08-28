@@ -6,12 +6,12 @@ section_id: "C.32.ACE:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__002_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:1 — Problem frame"
-line_start: 63753
-line_end: 63833
+line_start: 63827
+line_end: 63908
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,11 +60,11 @@ Typical entry phrases:
 "Two methods, roles, system variants, or AI workflows need fair comparison against the same architecture characteristics."
 ```
 
-**First-minute use slice.** A product-family team has ACS rows for substitutability, evidence reuse, and latency, plus safety as a monitored guardrail. Two candidate architectures look plausible. The practitioner writes one ACE program record with the same claim scope, selected context slices, reference scheme and plane, evaluation window, parity frame, and input projections for both candidates. `EvaluatorAssignment` is the directly declared assignment species; `EvaluatorAssignment-3` is its obtaining occurrence, held by admitted System `EvalService-7` and covering `CandidateEvalWork-42`. F.6 states that `EvalService-7` performed that dated Work under the occurrence. The Work enacts `ArchitectureCandidateEvaluationMethod-7`, has the stated evaluation window, and occurs within `ProductFamilyEvaluationService-7`; any operation application is additional. `CandidateLatencyReading-42` and `CandidateEvidenceScopeFinding-42` are typed results established through their result patterns, and any observed protected-safety loss remains explicit rather than being absorbed into one score. Those results can become inputs for `A.19.CPM` comparison or the next C.32 synthesis pass; neither the program record, Work, nor a result defines the criterion or decides the architecture.
+**First-minute use slice.** A product-family team has ACS rows for substitutability, evidence reuse, and latency, plus safety as a monitored guardrail. Two candidate architectures look plausible. The practitioner writes one ACE program record with the same claim scope, selected context slices, reference scheme and plane, evaluation window, parity frame, and input projections for both candidates. `EvalService-7` first has the A.13 core for candidate evaluation, and A.15.1 independently admits `CandidateEvalWork-42`, which enacts `ArchitectureCandidateEvaluationMethod-7` and occurs within `ProductFamilyEvaluationService-7`. This first-minute record expressly represents evaluator accountability under `EvaluatorAssignment-3`, an obtaining occurrence of directly declared species `EvaluatorAssignment`, so it also includes the separate F.6 relation through the same A.13 assignment. A Work-only ACE record would omit those assignment and attribution refs, and failed F.6 would leave `CandidateEvalWork-42` intact. `CandidateLatencyReading-42` and `CandidateEvidenceScopeFinding-42` are typed results established through their result patterns. Those results can become inputs for `A.19.CPM` comparison or the next C.32 synthesis pass; neither the program record, Work, nor a result defines the criterion or decides the architecture.
 
 This pattern concerns one architecture-characteristic eval-program record over declared criteria rows, Q-Bundle slots, candidates, bearers, or selected structures under a parity frame. It is a C.32.ACE-local record form, not a new `U.*` kind and not, by its `program` label, a `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, or evaluation result. When measurement validity, comparison policy, a selection result, G.5 result declaration, publication, or architecture decision is current, use the definition and test for that claim.
 
-Ordinary working move: choose the declared criteria rows, bind the claim scope, relevant context slices, reference scheme and plane, evaluation window, and input projections, and hold one parity frame for all variants. When evaluation actually occurs, name the `U.Work` occurrence and keep all facts required by A.15.1, A.2.1, and F.6 recoverable. Any A.6.1 operation application is an additional relation, not a substitute for the Method enacted by the Work. Return the typed results established through their result patterns as feedback for comparison or the next synthesis pass.
+Ordinary working move: choose the declared criteria rows, bind the claim scope, relevant context slices, reference scheme and plane, evaluation window, and input projections, and hold one parity frame for all variants. When evaluation actually occurs, recover each exact evaluator through A.13 and let A.15.1 independently admit the `U.Work` occurrence. Add `evaluationWorkAttributionRefs` only when the program or receiving use expressly represents precise assignment-bound attribution; missing or failed F.6 leaves the Work intact. Any A.6.1 operation application is an additional relation, not a substitute for the Method enacted by the Work. Return the typed results established through their result patterns as feedback for comparison or the next synthesis pass.
 
 The first useful output is an `ArchitectureCharacteristicEvalProgram@Project`. This C.32.ACE-local working record states how one bounded architecture evaluation is to be framed over declared criteria. When a reusable way of evaluating is current, identify that separate `U.Method` under A.3.1; when a claim-bearing episteme describes that exact Method, test the same episteme for `U.MethodDescription` under A.3.2. A planned evaluation belongs to A.15.2, an actual dated evaluation to A.15.1, and each result to its direct measurement, comparison, evaluation, or assertion pattern. The record reads characteristics through rows, slots, candidates, or structures; it is not any of those neighboring objects:
 
@@ -96,6 +96,7 @@ ArchitectureCharacteristicEvalProgram@Project:
   measurementOrObservationMethodRefs:
   methodDescriptionRefs?:
   evaluationWorkRefs?: FinSet(U.EntityRef constrained to U.Work)
+  evaluationWorkAttributionRefs?: FinSet(U.RelationRef constrained to obtaining performedUnderAssignment relations)
   evaluationOperationApplicationRefs?: subject-pattern relation or A.6.1 application references
   evaluationResultRefs?: typed result references accepted under the definition and test for each result
   uncertaintyAndMissingDataPolicy:
@@ -106,7 +107,7 @@ ArchitectureCharacteristicEvalProgram@Project:
   refreshOrRetireCondition:
 ```
 
-Here `@Project` is a compatibility and retrieval cue only. It supplies no project entity, composite-work identity, context, authority, viewpoint, or parthood. A program local to one actual project names both the composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining program-use relation in `architectureEvalProgramProjectUseRelationRef`; either field alone is insufficient. `evalOperation` states the intended operation family in the program record, not an actual run or application. Each `evaluationWorkRef` names one independently identified `U.Work` occurrence, and all facts required by A.15.1, A.2.1, and F.6 remain recoverable. Any A.6.1 application binding and each typed result remain under the applicable patterns. A program, Method, MethodDescription, Work occurrence, operation application, and result never substitute for one another.
+Here `@Project` is a compatibility and retrieval cue only. It supplies no project entity, composite-work identity, context, authority, viewpoint, or parthood. A program local to one actual project names both the composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining program-use relation in `architectureEvalProgramProjectUseRelationRef`; either field alone is insufficient. `evalOperation` states the intended operation family in the program record, not an actual run or application. Each `evaluationWorkRef` names one independently identified `U.Work` occurrence whose exact actual performers have A.13 cores and which A.15.1 admits independently. `evaluationWorkAttributionRefs` are optional and appear only when the record or receiving use expressly represents precise assignment-bound attribution; any present ref resolves through F.6 to the same obtaining A.13 assignment, and its absence or failure does not invalidate the Work ref. Any A.6.1 application binding and each typed result remain under the applicable patterns. A program, Method, MethodDescription, Work occurrence, operation application, assignment, attribution, and result never substitute for one another.
 
 What goes wrong if C.32.ACE is missed: a project has architecture-characteristic rows but treats a test, monitor, dashboard, or source-side "fitness function" as the criterion or as the decision. The team may then reject useful losing variants as errors, optimize one indicator, or choose a candidate without fair comparison.
 

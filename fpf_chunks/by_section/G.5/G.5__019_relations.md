@@ -6,12 +6,12 @@ section_id: "G.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__019_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:12 — Relations"
-line_start: 102262
-line_end: 102291
+line_start: 102423
+line_end: 102452
 dependencies:
   - "C.11"
   - "C.18"
@@ -68,7 +68,7 @@ keywords:
 * Evidence and crossings: `G.6` for EvidenceGraph citations; `F.17` for exact local senses; `F.9` for the direct Bridge; C.2.1 for the separate bounded-use proposition; and `A.10` or `B.3` for reliance or assurance. Add a `CrossingBundle` under `E.18` or a GateCheck under `A.21` only when that named downstream use requires one. A G.7 calibration artifact remains a cited policy or evidence input; it does not define the Bridge, bounded use, reliance, or selector actuality.
 
 * Planning and enactment boundary: `A.15.2` identifies the `U.WorkPlan` used as `plannedBaselineRef`; A.15.3 defines any planned-filling rows kept inside that WorkPlan. G.5 does not redefine them.
-* Actual selector use and result availability: `A.19.SelectorMechanism` and A.6.1 for the actual `Select` application and bindings; A.15.1, A.2.1, and F.6 for the complete Work basis; A.2 and C.3 for an exact local system-role kind when current; C.2.1 for any persisted result episteme; A.10 and B.3 for evidence reliance and assurance; the direct authority pattern for authorization; and E.24.PUB for an actual publication occurrence. A root-family assignment reference, temporal overlap, or omission from short wording supplies no attribution and removes no world-side fact. G.5 declarations and records create none of those neighboring facts.
+* Actual selector use and result availability: `A.19.SelectorMechanism` and A.6.1 for the actual `Select` application and bindings; A.13 for every precise performer's local-kind criterion, classification, same obtaining assignment, scope, situation, window, and evidence; A.15.1 for independent Work admission; A.2.1 for the assignment species and occurrence; and F.6 only for a current exact assignment-bound attribution. C.2.1 governs any persisted result episteme; A.10 and B.3 govern evidence reliance and assurance; the direct authority pattern governs authorization; and E.24.PUB governs an actual publication occurrence. A root-family assignment reference, temporal overlap, or omission from short wording supplies no attribution and removes no world-side fact. G.5 declarations and records create none of those neighboring facts.
 * Joint-use members outside Method dispatch: the direct identity pattern identifies every `memberRef`; `C.11` supplies a local choice result when one is current; another accepted decision or governed inclusion basis may establish all-member inclusion; E.4.PFR states framework-edition dependency or pairwise compatibility separately; `G.11` supplies currentness; and E.17/E.24.PUB plus the applicable access-carrier pattern supply exposure and source return. `G.5-6 DeclareSetResult` consumes the exact members and sufficient basis pins and emits only the selector-facing membership result.
 
 * Causal-use method dispatch: `C.28` when method selection involves causal effect, counterfactual comparison, causal fairness, causal policy, causal RL, or simulation-only causal-use claims.

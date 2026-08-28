@@ -6,12 +6,12 @@ section_id: "B.2.3:5.4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__008_bias-annotation.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:5.4 — Bias-Annotation"
-line_start: 38152
-line_end: 38161
+line_start: 38224
+line_end: 38233
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,7 +40,7 @@ keywords:
 | --- | --- | --- |
 | Library as theory | A repository, dashboard, or reading list is treated as one claim-bearing episteme. | Identify B.2's exact candidate, execute A.1, and test its C.2.1 ClaimGraph/EntityOfConcern/ReferenceScheme constitution. |
 | Publication as episteme | A PDF, report, standard document, model card, or dashboard is treated as the episteme itself. | Keep publication forms with E.17 and source-use patterns. |
-| Episteme agency | A theory, standard, or doctrine is described as performing Work or enforcement. | Recover every acting System and the admitted Work separately; use F.6 to identify the assignment under which each performer acted. A short account may omit unused assignment identifiers. |
+| Episteme agency | A theory, standard, or doctrine is described as performing Work or enforcement. | Recover every exact acting System through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving account expressly consumes precise assignment-bound attribution; a missing or failed attribution does not demote the Work. |
 | Morphing as MHT | View, translation, coarsening, or retargeting is called a new episteme whole. | Use A.6 episteme-morphism patterns unless B.2 whole reidentification remains current. |
 | Source trust transfer | Trust in constituent sources becomes assurance for the result episteme. | Rebuild assurance and source-use relations for the result episteme. |
 

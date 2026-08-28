@@ -6,12 +6,12 @@ section_id: "B.4.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__013_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:12 — Relations"
-line_start: 39837
-line_end: 39841
+line_start: 39909
+line_end: 39913
 dependencies:
   - "A.15"
   - "A.16"

@@ -6,16 +6,17 @@ section_id: "A.15.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 26494
-line_end: 26512
+line_start: 26576
+line_end: 26594
 dependencies:
   - "A.1"
   - "A.1.STM"
   - "A.12"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.PROD"
@@ -27,11 +28,14 @@ dependencies:
   - "A.6.1"
   - "A.6.P.WMR"
   - "A.6.RCD"
+  - "C.11"
+  - "C.18"
   - "C.2.1"
   - "E.17"
   - "E.18"
   - "E.18.NET"
   - "E.24.PUB"
+  - "F.6"
 keywords:
 ---
 
@@ -52,5 +56,5 @@ keywords:
 | Project-result field | Entities, values, conditions, choices, measurements, verdicts, decisions, relation occurrences, changed referents, and claim-bearing epistemes are grouped as one intrinsic result of the project. | Ask what the result is and what it is a result of or for. Keep that subject in the kind or claim already established for it, then choose one WMR outcome. If no positive assertion is available, return one non-assertability result marked `factually unsupported`, `missing-information`, or `missing-governor`; only the last is an ontology blocker. |
 | Network-is-project | A network of transformation-flow structures is treated as the project, workflow actor, or work-breakdown structure. | Keep the `E.18.NET` structure non-agentive and include Work in the project only through obtaining `A.15.1` work-parthood. |
 | Probe-is-constructor | The `A.6.RCD:4.2` conjunction row or a reference scheme is treated as if it supplied constructor semantics. | A simple one-case claim may use recoverable constructor semantics without a separately materialized substrate document. Pin the substrate for nontrivial, interoperable, proof-bearing, or reusable derivation; otherwise return `missing-substrate` only for the stronger unavailable claim. |
-| Actor invented or suppressed | Every Transformation is forced to have a Work performer, or project Work, a TFS or network, a Method, a record, or the changed subject is silently put in an acting position. | Ground the A.3.4 change first. Add a causal or interaction participant only when the applicable direct predicate and the case facts establish that position. For a Work-realized change, establish the performer System, F.6 attribution, Work, changed referent, and the relation that connects Work to the change; a short account may omit an unused assignment identifier. Otherwise invent no actor, assignment, Method, or Work. |
+| Actor invented or suppressed | Every Transformation is forced to have a Work performer, or project Work, a TFS or network, a Method, a record, or the changed subject is silently put in an acting position. | Ground the A.3.4 change first. Add a causal or interaction participant only when the applicable direct predicate and the case facts establish that position. For a Work-realized change, establish the performer System with its A.13 basis, F.6 attribution, Work, changed referent, and the relation that connects Work to the change; a short account may omit an unused assignment identifier. Otherwise invent no actor, assignment, Method, or Work. |
 

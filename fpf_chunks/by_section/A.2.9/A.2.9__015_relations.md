@@ -6,14 +6,15 @@ section_id: "A.2.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__015_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:12 — Relations"
-line_start: 7674
-line_end: 7687
+line_start: 7687
+line_end: 7700
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -26,17 +27,20 @@ dependencies:
   - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
-  - "actual communicative occurrence"
-  - "admitted speech-act Work kind"
-  - "authority-grounding assignment"
+  - "A.13-qualified actual performer"
+  - "containment"
+  - "enacted Method"
   - "evidence carrier"
+  - "independently admitted speech-act Work"
   - "institutional target and effect"
   - "named receiving use"
   - "optional SpeechActRecord"
-  - "performing U.System"
   - "publication relation"
   - "response versus achievement"
+  - "same obtaining assignment"
+  - "separate later performedUnderAssignment"
   - "smallest repair or stop"
+  - "time"
   - "utterance description"
 ---
 
@@ -44,7 +48,7 @@ keywords:
 
 **Uses / builds on**
 
-* Uses **A.15.1 (`U.Work`)** for the occurrence backbone: performer System, covering assignment occurrence and its declared species, enacted `U.Method`, temporal extent, at least one obtaining locally declared containing-system relation, and a separate optional `methodDescriptionRef`.
+* Uses **A.13** and **A.15.1 (`U.Work`)** for the independent actual-occurrence backbone: exact actual performer System; local agential kind and criterion; classification; obtaining assignment, scope, working situation, and window; adequate core evidence and only a conditionally consumed profile; grounded communicative history; enacted `U.Method`; temporal extent; and at least one obtaining locally declared containing-System relation. Uses **F.6** only afterward for a precise `performedUnderAssignment` claim through the same obtaining assignment. Uses a separate optional `methodDescriptionRef` only when the receiving claim needs that episteme.
 * Uses **A.7** for the strict actual-act≠record/description≠carrier split.
 * Coordinates with **A.2.6** for scope/window discipline.
 

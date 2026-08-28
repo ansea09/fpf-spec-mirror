@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__002_use-this-when.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:0 — Use this when"
-line_start: 59412
-line_end: 59425
+line_start: 59484
+line_end: 59497
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,23 +6,22 @@ section_id: "A.15.1:16"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__021_lowering-repair-and-refresh-conditions.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:16 — Lowering, Repair, and Refresh Conditions"
-line_start: 24889
-line_end: 24896
+line_start: 24915
+line_end: 24921
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.4"
   - "A.15.5"
   - "A.15.PROD"
   - "A.2"
   - "A.2.1"
-  - "A.2.2"
   - "A.2.6"
   - "A.3.1"
   - "A.3.2"
@@ -35,25 +34,22 @@ dependencies:
   - "C.27.TA"
   - "C.32.P2S"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "F.6"
-  - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
   - "U.ReferenceScheme"
-  - "U.System"
-  - "U.SystemRoleAssignment"
-  - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "actual performer U.System"
-  - "admitted U.Work kind"
+  - "A.13-qualified actual performer U.System"
+  - "F.6 only after admission for precise assignment-bound attribution"
+  - "conditional agency profile"
   - "containing System"
-  - "covering U.SystemRoleAssignment"
   - "enacted Method"
+  - "exact performance history"
+  - "independent U.Work admission"
   - "optional direct bindings and resource use"
-  - "performedUnderAssignment"
   - "separate result or consequence"
   - "temporal extent"
   - "world-side dated occurrence"
@@ -61,9 +57,8 @@ keywords:
 
 ### A.15.1:16 - Lowering, Repair, and Refresh Conditions
 
-Lower a candidate assertion that an individual is Work admitted under `U.Work` when the occurrence designator, any actual performer System, the F.6 attribution for that performer, temporal extent, at least one obtaining `enactsMethod` relation, or at least one required locally declared containing-system relation cannot be recovered. Lower an additional enactment claim separately when its exact relation cannot be recovered. If the receiving claim additionally relies on a Work-to-referent or resource-use relation, lower that dependent claim when its declared predicate, participants, or obtaining facts cannot be recovered. If it relies on an operation argument or result, lower that dependent claim when the identified A.6.1 application or exact binding is absent. Do not lower the Work occurrence merely because an unneeded affected referent, further containing boundary, or delta is absent. Require a continuity-policy basis only when an identity, episode, retry, resumption, or aggregation claim actually depends on ambiguous segmentation. Lower a candidate work-part claim when the downstream use does not need a named work part or when the candidate is only an interval, event-log row, telemetry segment, method-description constituent, component behavior, mechanism material, or wording cue. The acceptable lowered object is the exact temporal relation, plan episteme, readiness-gap claim, evidence episteme, telemetry slice, method-description reference, unresolved-segmentation note, missing-relation blocker, `A.15.4` repair request, or direct neighboring object, not a backdated Work occurrence or gratuitous work part.
-
-Repair the Work assertion or description when a subsequent source changes the resolved temporal extent, actual performer system, covering assignment or F.6 attribution, enacted Method, selected method-description reference, direct binding, resource-use claim, work-to-referent relation, obtaining containing-system relation, or work-part relation. Reidentify only when the direct A.15.1 boundary rules decide the change or the selected policy's branch criterion applies to a named ambiguous use. When the selected continuity-policy episteme changes, repair the dependent identity, episode, retry, resumption, or aggregation judgment and cite the newly selected exact episteme. Call it a changed edition only when the exact C.2.1 `EpistemeEditionRelation` obtains; otherwise record a non-continuing replacement. Neither route rewrites the Work occurrence or its actual history. Repair a result or consequence through the matching §4.6 row rather than editing Work.
+Lower a candidate Work assertion when any claimed actual performer lacks the complete A.13 basis for the action, scope, and window, or when the exact candidate-action history, occurrence designator, temporal extent, at least one Method actually followed, or one required locally declared containing-System relation cannot be recovered. Do not lower an independently admitted Work merely because F.6 is missing, unresolved, uses another assignment, or fails holder or coverage checks; lower only the precise `performedUnderAssignment` and assignment-bound performer claim. Lower an additional enactment, Work-to-referent, operation binding, or resource-use claim separately when its direct basis is missing. Do not lower supported System functioning, behaviour, causal participation, Transformation, plan, Method, evidence, or telemetry claims merely because the Agent, Work, or attribution branch fails.
+Repair the Work assertion or description when a subsequent source changes the resolved temporal extent, actual performance history, an actual performer System's A.13 basis, enacted Method, selected method-description reference, direct binding, resource-use claim, work-to-referent relation, obtaining containing-system relation, or work-part relation. Repair the separate F.6 attribution when the covering assignment, direct pair fact, holder equality, species, participants, or coverage changes; do not rewrite Work membership merely because attribution changes. Reidentify only when the direct A.15.1 boundary rules decide the change or the selected policy's branch criterion applies to a named ambiguous use. Repair a result or consequence through the matching §4.6 row rather than editing Work.
 
 Refresh before cross-context model use, aggregation, comparison, measurement, acceptance, release reliance, gate use, evidence use, assurance use, QD or OEE archive use, or P2W carry-through use. If the claim being made after refresh is no longer about performed work, use the direct pattern for that object or relation and retain a Work-occurrence reference only when the receiving claim actually depends on that occurrence.
 

@@ -6,12 +6,12 @@ section_id: "A.1.1:End"
 section_title: "A.1.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__015_a-1-1-end.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:End — A.1.1:End"
-line_start: 2258
-line_end: 2259
+line_start: 2267
+line_end: 2268
 dependencies:
   - "A.1"
   - "A.14"

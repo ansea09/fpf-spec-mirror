@@ -6,12 +6,12 @@ section_id: "C.30.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:4 — Solution"
-line_start: 60519
-line_end: 60694
+line_start: 60591
+line_end: 60767
 dependencies:
   - "A.10"
   - "A.20"
@@ -132,6 +132,7 @@ ControlStructureView ::= ArchitectureDescription & U.View & {
     assignmentOccurrenceRef: U.RelationRef constrained to an obtaining occurrence of assignmentSpeciesRef
   }),
   actualControlWorkRefs?: FinSet(U.EntityRef constrained to U.Work),
+  actualControlWorkAttributionRefs?: FinSet(U.RelationRef constrained to obtaining performedUnderAssignment relations),
 
   observationBoundaryRefs?: FinSet(BoundaryRef),
   actuationBoundaryRefs?: FinSet(BoundaryRef),
@@ -194,14 +195,14 @@ The note gives a positive safety-triggered architecture move: find the loss-cont
 | Source label | FPF recovery |
 |---|---|
 | Plant or controlled holon | `U.Holon` whose state evolves; reusable state-evolution claims use `A.3.3`. |
-| Regulator or controller | Recover the regulation or control relation and its participant meaning. If control Work is claimed, name the performer System, Work, Method, assignment occurrence and its declared species, and F.6 attribution. Add local classification only when relied on. |
+| Regulator or controller | Recover the regulation or control relation and its participant meaning. If control Work is claimed, recover the exact performer System through A.13 and admit the Work independently through A.15.1 with its enacted Method. Add an assignment occurrence and F.6 only when the control account expressly consumes precise assignment-bound attribution. Add local classification only when relied on; assignment supplies none. |
 | Planner | Recover the exact reference-provision, planning, or other direct relation. A planning System and planning Work are separate; for a plan, authority, or allowed-region result, use its own pattern. |
-| Observer or estimator | Recover the observation or estimation relation and participant meaning. If observation or estimation Work occurred, name the performer System, dated Work, enacted Method, assignment occurrence and its declared species, and F.6 attribution; a reading or evidence result remains separate. |
+| Observer or estimator | Recover the observation or estimation relation and participant meaning. If observation or estimation Work occurred, recover the exact performer System through A.13 and admit the dated Work and enacted Method independently through A.15.1. Add assignment and F.6 only when precise assignment-bound attribution is expressly consumed; a reading or evidence result remains separate. |
 | Supervisor | Recover the exact supervision or `B.2.5` supervisor-subholon relation. Use separate patterns for any constraining Work, policy change, authority, responsibility, gate, or control-mode change. |
 
 **Control-specific stratification gate.** `Layer`, `level`, `tier`, and `stack` enter C.30.LCA only after `C.30.STRAT` or the local sentence recovers a direct control relation, inter-layer control relation, rate band, or `B.2.5` supervisor-subholon relation. An assignment alone is insufficient, and the label by itself establishes neither control structure nor separation.
 
-**B.2.5 boundary.** Use `B.2.5` for the supervisor-subholon feedback relation. A `C.30.LCA` use may cite that relation as part of the selected control structure, but use the relevant patterns for stability, safety, causality, evidence, gate, and assurance claims. If an episteme appears in a control example, name the performing System, dated Work, enacted Method, assignment occurrence and its declared species, and F.6 attribution when action is claimed, plus any publication, source-to-use, or work-reliance relation. An episteme does not sense, decide, plan, adapt, or act.
+**B.2.5 boundary.** Use `B.2.5` for the supervisor-subholon feedback relation. A `C.30.LCA` use may cite that relation as part of the selected control structure, but use the relevant patterns for stability, safety, causality, evidence, gate, and assurance claims. If action involving an episteme is claimed, recover the exact performing System through A.13 and admit the dated Work and enacted Method independently through A.15.1. Add an assignment occurrence and F.6 only when the account expressly consumes precise assignment-bound attribution; keep publication, source-to-use, and work-reliance relations separate. An episteme does not sense, decide, plan, adapt, or act.
 
 **Transformation-flow boundary.** An `E.18` transformation-flow path slice may supply flow-structure, path, crossing, or transformation-flow-structure input to the control view when that relation is being used. The transformation-flow graph expression remains a mathematical description or view of transformation-flow structure. It does not become the functional architecture, the control structure, or proof of control adequacy.
 
@@ -213,7 +214,7 @@ The note gives a positive safety-triggered architecture move: find the loss-cont
 
 **Worked slice B - multi-rate controller.** A source says a control stack has a slow planner, a faster regulator, and an observer with a different update period. Apply `C.30.LCA` only after the stack label has been recovered as exact reference-provision, regulation, observation, or other control relations with their participant meanings and rate bands; otherwise use `C.30.STRAT` first. Systems, classifications, assignments, Methods, and Work are added only where independently current. A C.30.LCA description establishes no rate adequacy. If the rate relation matters for oscillation, latency, stability, or safety, next use `C.27.TA` for temporal aspect or rate-band structure, `C.27` when an authored temporal-claim adequacy question is under repair, and the dynamics or assurance pattern named by value when that claim kind is being made.
 
-**Worked slice C - supervisor-subholon loop.** A subsystem is supervised by an external controller System. The C.30.LCA note records the supervisor-subholon relation and may reference `B.2.5`. If that System performs mode-change Work, name the Work, enacted Method, assignment occurrence and its declared species, and F.6 attribution. Authority, responsibility, gate passage, safety, stability, and policy-constraint results remain separate claims under their own patterns; the supervisor relation establishes none of them.
+**Worked slice C - supervisor-subholon loop.** A subsystem is supervised by an external controller System. The C.30.LCA note records the supervisor-subholon relation and may reference `B.2.5`. If that System performs mode-change Work, recover it through A.13 and admit the Work and enacted Method independently through A.15.1. Add an assignment occurrence and F.6 only when this slice also expressly represents precise assignment-bound attribution; missing or failed F.6 leaves the mode-change Work intact. Authority, responsibility, gate passage, safety, stability, and policy-constraint results remain separate claims under their own patterns; the supervisor relation establishes none of them.
 
 **Currentness and smallest reopen.** When a decisive input changes, reopen only the control-structure locus and the use conclusions that depend on it. A changed selected control structure or controlled holon reopens the affected `ControlStructureViewNote` or full description and view; a changed direct control relation or participant meaning reopens that occurrence and its dependent structure selection; a changed classification, assignment, Method, Work, or F.6 attribution reopens only that neighboring fact and any view use that relied on it. Changed feedback, rate, or control-layer relations reopen only their matching relation or boundary fields; changed view conformance reopens only the E.17.0 admission; and a changed source edition reopens its source-to-use and source-return locus. A changed authority, responsibility, safety, proof, evidence, assurance, or gate claim reopens only that neighboring claim unless a control-structure input also changed. Update the affected locus, demote full view use to a note or orientation, narrow use, or reopen the control-structure question; unrelated structures and claims stay closed.
 

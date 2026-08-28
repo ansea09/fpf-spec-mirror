@@ -6,12 +6,12 @@ section_id: "C.28:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__009_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:7 — Conformance Checklist"
-line_start: 56254
-line_end: 56274
+line_start: 56326
+line_end: 56346
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,8 +60,8 @@ keywords:
 7. The common threat screen routes every live ordinary threat or lowers the result; it is not a mandatory dossier.
 8. Non-causal simulator reporting and simulation-supported causal use take different routes at first entry.
 9. A sampling-realizability result cites its decision Method, any derivation used, and the construction, bound, or obstruction required by its status; it claims no Work or data.
-10. Performed counterfactual-sampling support cites dated Work, attribution, and resulting data or evidence; a WorkPlan or `realizable` label cannot satisfy this branch.
-11. Evidence design cites A.15.1/F.6 results instead of copying their assignment schema.
+10. Performed counterfactual-sampling support cites independently admitted dated Work and resulting data or evidence; it cites exact assignment-bound attribution only when the receiving support claim uses it. A WorkPlan or `realizable` label cannot satisfy this branch.
+11. Evidence design cites each precise performer's A.13 core and the independent A.15.1 Work result; it cites F.6 only when exact assignment-bound attribution is current, rather than copying assignment mechanics.
 12. Transport identifies every changed population/domain/environment/data-generating-regime endpoint separately from semantic schemes.
 13. A counterfactual-fairness escalation exposes its additional identification assumptions and, when an estimate is used, estimation consistency before D.5 consumes it.
 14. `CausalActionPolicyClass` has the same four members in definition, examples, and consumers; unresolved classification is not a member.

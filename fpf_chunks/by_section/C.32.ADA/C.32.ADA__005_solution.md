@@ -6,12 +6,12 @@ section_id: "C.32.ADA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:4 — Solution"
-line_start: 65801
-line_end: 65905
+line_start: 65882
+line_end: 65987
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -91,7 +91,7 @@ Evaluate every coordinate. If a coordinate is not live, mark it `notTriggered` o
 | `CandidateBasisAndSelectionTraceability` | Candidate palette, residual frame, comparison, selection, selected set, or reason no candidate-set question is live is recoverable. | Repair the missing candidate, comparison, or selection assertion using the exact applicable content in `C.32`, `C.32.MLAO`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, or `C.11`. |
 | `AffectedStructureAndDescriptionAdequacy` | Affected selected structures, views, architecture descriptions, correspondence, structural-information lens uses, and source-return are recoverable. | Repair the exact missing structure, description, correspondence, or lens-use assertion using `C.30`, `C.30.ASV`, `C.30.AD`, `A.6.F`, `A.6.M`, or `C.29`. |
 | `ArchitectureCharacteristicTradeoffAdequacy` | Architecture characteristics, criteria rows, Q-Bundles, eval readings, accepted losses, and guardrails are explicit. | Repair the exact missing characteristic, criterion, reading, loss, or guardrail assertion using `C.32.ACS`, `C.32.HCS`, `C.25`, `C.32.ACE`, `C.16`, `C.31`, or `C.31.ASAP`. |
-| `MethodAndWorkDockingAdequacy` | Method-use instructions, acting systems and exact system-role assignments needed for Work, independently claimed responsibility relations, Work boundaries, readiness, and expected structure effects are usable. | Repair the exact missing MethodDescription, Method, direct assignment species, F.6 Work attribution, responsibility predicate or missing governor, readiness, or expected-effect assertion using `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `E.8`, `E.11.PUR`, `A.6.RCD`, or `C.24`. |
+| `MethodAndWorkDockingAdequacy` | Method-use instructions, exact intended or acting Systems, Work boundaries, readiness, and expected structure effects are usable. Intended assignment requirements remain modal; actual assignment and F.6 attribution are required only when the instruction or evaluation expressly consumes precise assignment-bound attribution. Responsibility remains independently governed. | Repair the exact missing MethodDescription, Method, A.13 performer basis, A.15.1 Work fact, optional direct assignment species and F.6 attribution, responsibility predicate or missing governor, readiness, or expected-effect assertion using `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `E.8`, `E.11.PUR`, `A.6.RCD`, or `C.24`. |
 | `ArchitectDeveloperSplitAdequacy` | Architect-owned structures, developer-owned refinement, holon-transition or BOSC-triggered boundary refs, and source-return condition are explicit. | Repair the exact split or claim-kind assertion using `C.32.PAD`, `A.15`, or `B.2.P`; use `B.2` only when whole reidentification is triggered. |
 | `PublicationProjectionAdequacy` | ADR-like or other publication projection carries the needed section functions for the declared readers. | Use `C.32.ADR` for the exact projection, `E.17` for a source-backed publication face and source return, and `E.24.PUB` for the publication occurrence, form, carrier bearing, audience, and availability. |
 | `EvidenceEvalAndGateExitAdequacy` | Eval, evidence, assurance, gate, or institutional-governance assertions are named only when live, with their exact predicates and subject-pattern locators. | Repair the exact assertion using `C.32.ACE`, `C.16`, `A.10`, `B.3`, `A.21`, or the named institutional-governance content. |
@@ -129,6 +129,7 @@ ArchitectureDecisionAdequacyEvaluation@OrderFlow:
   evaluatorAssignmentSpeciesRef: ArchitectureReviewerAssignment
   evaluatorAssignmentOccurrenceRef: ArchitectureReviewerAssignment-6
   evaluationWorkRef: DecisionAdequacyEvaluationWork-12
+  evaluationPerformedUnderAssignmentRef: performedUnderAssignment(DecisionAdequacyEvaluationWork-12, ArchitectureReviewerAssignment-6)
   adequacyResultEpistemeRef: DecisionAdequacyResult-12
   architectureDecisionRelationRef: PAD:order-flow-event-integration
   architectureDecisionRecordProjectionRef: ADR:order-flow-event-integration
@@ -146,7 +147,7 @@ ArchitectureDecisionAdequacyEvaluation@OrderFlow:
 | `CandidateBasisAndSelectionTraceability` | `4` | `wellExpressedForDeclaredUse` | Candidate palette and selected option are cited; `5` would need another team to replay the selection without local recovery. |
 | `AffectedStructureAndDescriptionAdequacy` | `4` | `wellExpressedForDeclaredUse` | Module and information structures plus C.30.ASV refs are usable; `5` would need a worked cross-team source-return case. |
 | `ArchitectureCharacteristicTradeoffAdequacy` | `3` | `sufficientlyExpressedForDeclaredUse` | Substitutability gain and latency loss are named, but guardrail eval rows are incomplete; repair through `C.32.ACS`, `C.32.ACE`, `C.25`, and `C.16`. |
-| `MethodAndWorkDockingAdequacy` | `2` | `partiallyExpressedForDeclaredUse` | The ADR says “use events” but lacks a method description, acting system, exact assignment and F.6 attribution, readiness boundary, and expected structure effect; any responsibility claim also lacks its direct predicate or exact missing governor. Repair the exact PAD decision assertion and the A.15 assertions about Method and Work. |
+| `MethodAndWorkDockingAdequacy` | `2` | `partiallyExpressedForDeclaredUse` | The ADR says "use events" but lacks a MethodDescription, exact acting System, readiness boundary, and expected structure effect. It also expressly requires accountable implementation under `ServiceTeamAssignment` while supplying neither the exact species/current occurrence nor an F.6 attribution for the already claimed Work. Repair those separate PAD and A.15 assertions; a Work-only instruction would not incur the attribution gap. |
 | `ArchitectDeveloperSplitAdequacy` | `3` | `sufficientlyExpressedForDeclaredUse` | The acting systems and their Work split are clear, but the developer-side schema-refinement instruction lacks a source-return threshold. If responsibility is part of the decision, cite its admitted direct predicate, participants, applicability, and identity or return its exact missing governor; repair the exact PAD assertion and, if level pressure is real, the exact B.2.P or B.2 assertion. |
 | `PublicationProjectionAdequacy` | `4` | `wellExpressedForDeclaredUse` | ADR section functions are mapped; `5` would need a replayed package-update or supersession case. |
 | `EvidenceEvalAndGateExitAdequacy` | `3` | `sufficientlyExpressedForDeclaredUse` | Evaluation and gate continuation conditions are named but not replayable enough for developer commitment; repair the exact predicates and assertions located through `C.32.ACE`, `C.16`, `A.10`, `B.3`, or `A.21` as triggered. |

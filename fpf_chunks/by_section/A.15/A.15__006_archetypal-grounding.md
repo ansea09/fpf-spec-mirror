@@ -6,14 +6,15 @@ section_id: "A.15:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__006_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:5 — Archetypal Grounding"
-line_start: 24121
-line_end: 24163
+line_start: 24135
+line_end: 24177
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.3"
@@ -43,14 +44,18 @@ dependencies:
   - "F.6"
   - "U.SystemRoleAssignment"
 keywords:
+  - "A.13 core"
   - "Method"
   - "MethodDescription"
   - "WorkPlan"
-  - "assignment"
-  - "attribution"
+  - "conditional agency profile"
   - "dated Work"
+  - "independent A.15.1 Work admission"
+  - "performedUnderAssignment"
   - "readiness"
   - "result boundary"
+  - "same obtaining assignment"
+  - "separate later F.6 attribution"
   - "system-role kind"
 ---
 
@@ -58,7 +63,7 @@ keywords:
 
 Use this alignment whenever the live question joins a holder system, exact local system-role kind, assignment occurrence, Method, plan, capability, or performed Work. Physical engineering, knowledge work, and socio-technical work can use the same distinctions without turning A.15 into a universal process ontology.
 
-**Boundary case — possessed algorithm versus enacted Method.** `Robot-7 : U.System` is classified under `InspectorSystemRole` and is the holder of `InspectionAssignment-17`, an occurrence of a direct maintenance-assignment species. A capability claim may say that Robot-7 can inspect turbines, and source prose may say it “possesses inspection algorithm A”. Neither claim is dated performance, and neither makes `TurbineInspectionProcedure-v3` a `U.MethodDescription`. If `InspectionWork-17` occurs, first establish its complete A.15.1 and F.6 basis. For this alignment, the Work was performed under `InspectionAssignment-17` and enacted `TurbineInspection@Maintenance-2026`. Use A.3.2 to decide whether the procedure episteme is a MethodDescription. Robot-7 acts; the kind, assignment, capability, algorithm wording, Method, and description do not.
+**Boundary case — possessed algorithm versus enacted Method.** `Robot-7 : U.System` is classified under `InspectorSystemRole` and is the holder of `InspectionAssignment-17`, an occurrence of a direct maintenance-assignment species. A capability claim may say that Robot-7 can inspect turbines, and source prose may say it “possesses inspection algorithm A”. Neither claim is dated performance, and neither makes `TurbineInspectionProcedure-v3` a `U.MethodDescription`. If `InspectionWork-17` occurs, first recover Robot-7's full A.13 core through that same obtaining assignment and let A.15.1 independently admit the Work. Then, because this alignment also expressly consumes precise assignment-bound attribution, establish F.6 through `InspectionAssignment-17`. The already recovered performer performed the Work under that assignment, and the Work enacted `TurbineInspection@Maintenance-2026`. Use A.3.2 to decide whether the procedure episteme is a MethodDescription. Robot-7 acts; the kind, assignment, capability, algorithm wording, Method, and description do not.
 
 | Alignment position | Manufacturing | Scientific peer review |
 | --- | --- | --- |

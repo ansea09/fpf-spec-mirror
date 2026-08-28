@@ -6,12 +6,12 @@ section_id: "C.33:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__006_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:5 — Archetypal Grounding"
-line_start: 66120
-line_end: 66133
+line_start: 66202
+line_end: 66215
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

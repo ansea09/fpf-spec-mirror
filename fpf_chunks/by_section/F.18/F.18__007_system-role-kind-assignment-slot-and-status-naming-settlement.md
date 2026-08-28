@@ -6,12 +6,12 @@ section_id: "F.18:5"
 section_title: "System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__007_system-role-kind-assignment-slot-and-status-naming-settlement.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:5 — System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
-line_start: 98157
-line_end: 98274
+line_start: 98297
+line_end: 98414
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -84,7 +84,7 @@ Treat an action nominal such as `testing`, `assembly`, `maintenance`, `evaluatio
 
 A durable name for performed Work points to one dated occurrence already grounded under `A.15.1`. An action word, plan row, local work-family label, or `U.WorkPlan` does not create that occurrence or an assignment.
 
-Every system claimed as a performer must already be admitted as a `U.System`. For each performer, a current assignment covers the Work interval, names that system as its holder, and retains every participant required by its declared `U.SystemRoleAssignment` species. F.6 links the Work to that assignment. The Method actually used, temporal extent, containing system, affected referent, and material bindings and resource-use facts are also recoverable. A compact naming account cites only the identities needed by its receiving use; leaving an identity out of the account does not make the underlying fact optional. Add a continuity policy only when interruption, retry, a changed Method or binding, or competing designators make occurrence identity material.
+Every System claimed as an actual performer must already have its A.13 core, and A.15.1 must independently admit the dated Work from its Method, temporal extent, containing System, and other required direct facts. Add an assignment occurrence and F.6 only when the naming account or receiving use expressly represents precise assignment-bound attribution; then the assignment covers the Work interval, names that already recovered performer as holder, and retains every participant required by its declared `U.SystemRoleAssignment` species. Missing or failed F.6 leaves the Work and its durable name intact. A compact naming account cites only the identities needed by its receiving use. Add a continuity policy only when interruption, retry, a changed Method or binding, or competing designators make occurrence identity material.
 
 Keep neighbouring direct subject and resource-use claims, `A.15.PROD` production claims, measurement-result epistemes, evaluation results, `C.11` choices or decisions, delivery occurrences, acceptance verdicts, and downstream-effect claims separately named under their direct patterns.
 When the underlying boundary wording still hides the relation, apply `A.6.P.WMR`. Use `F.18` only after an exact governed value and its use are recovered through a direct subject relation, an exact `A.6.1` application binding, or an exact local `A.15.PROD`/`A.6.RCD` claim. An exact non-assertability result independently records `factually unsupported`, `missing-information`, or `missing-governor`; none authorizes durable naming, and only `missing-governor` is an ontology blocker that names the affected use and future subject pattern or relation declaration. This section selects and tests a name. It does not define a second work-occurrence or work-result recovery algorithm.

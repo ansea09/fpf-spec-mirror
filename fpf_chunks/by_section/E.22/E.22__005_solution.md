@@ -6,12 +6,12 @@ section_id: "E.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:4 — Solution"
-line_start: 88163
-line_end: 88376
+line_start: 88301
+line_end: 88514
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -107,7 +107,7 @@ At least one of `selectedEvaluationPredicate` and `selectedComparatorSpecRef` is
 
 `evaluatorConditionRef` states only a condition that changes the evaluation question or admissibility of its result. `intendedEvaluatorSystemRef` is present only when the declared question depends on that exact intended System; neither field establishes assignment or performance. The actual evaluator System, every obtaining assignment, and dated evaluation Work belong to the separately identified evaluation application or result account. Keep any local evaluator system-role classification separate and route unresolved *role* wording through `E.10.ROLE`. `evaluationPatternLocator` locates the pattern that defines or constrains the evaluation; it is not the Method, performer, Work, or result. Claim Method or MethodDescription identity only after A.3.1 and A.3.2 admit it. Characteristic-space, Q-Bundle, rubric, profile, evidence-basis, and result-form references remain separate descriptions and supply no actor.
 
-None of these declaration fields is dated evaluation Work or an evaluation result. A pre-evaluation frame contains no actual-Work identifiers. An ordinary result that asserts no actual Work needs none. If a compact projection does assert dated evaluation Work, it follows the governing A.15.1 and F.6 account and may omit only the assignment identifier that account permits; performer, Method, time, containing System, Work identity, and the result relation remain recoverable. Keep any durable result episteme, evidence use, provenance, currentness, viewpoint, grounding, and Work-to-result or decision-use relation under their own patterns. A frame, declaration, description, assignment, dashboard, or carrier establishes none of them.
+None of these declaration fields is dated evaluation Work or an evaluation result. A pre-evaluation frame contains no actual-Work identifiers. An ordinary result that asserts no actual Work needs none. If a compact projection does assert dated evaluation Work, recover every exact actual performer through A.13 and follow A.15.1 for independent Work admission; performer, Method, time, containing System, Work identity, and the result relation remain recoverable. Add assignment and F.6 refs only when the projection or receiving use expressly represents precise assignment-bound attribution; missing or failed F.6 leaves the Work intact. Keep any durable result episteme, evidence use, provenance, currentness, viewpoint, grounding, and Work-to-result or decision-use relation under their own patterns. A frame, declaration, description, assignment, dashboard, or carrier establishes none of them.
 
 Two carriers may publish the same edition of either episteme. A `QualityEvaluationUseDeclaration` changes edition when its object version, claim graph, reference scheme, question-changing evaluator condition or intended-evaluator identity, evaluation pattern, semantic Method, selected characteristic space, predicate and comparator, ClaimScope, qualification window, quality-model descriptions, expected evidence-basis edition, or result-form description changes. Replacing one qualified actual evaluator with another does not change the declaration unless the declared condition or claim changes. An `ExpectedEvaluationEvidenceBasis@Context` changes edition when its object version, claim graph, reference scheme, evaluation pattern, selected space, predicate and comparator, ClaimScope, expected evidence positions or relation kinds, missingness rule, or qualification window changes. Carrier, context label, viewpoint, grounding record, or support serialization alone changes neither episteme. `TradeoffProtectionSet@Context` and `CandidateImprovementProposalPortfolio@Context` are set values, not records; an episteme may describe or publish either set without becoming the set.
 
@@ -159,7 +159,7 @@ The shortest floor frame names the object version, one `QualityEvaluationUseDecl
 
 The frame does not authorize post-hoc scope replacement. If the requested floor is landing-input, corpus-facing, `Stable`, release, external-review, or another stated use, the evaluator measures that use. If a different use becomes interesting, open a new `QualityEvaluationQuestionFrame`; do not report the current request as passed under an easier scope.
 
-The frame and declaration perform no evaluation. An intended evaluator or planned condition makes neither a current assignment nor Work obtain. When dated evaluation Work is asserted, keep its performer System, the A.15.1 and F.6 actual-Work account, evidence use, typed result binding or direct result relation, and optional result episteme separate. An expected result-form description is not the result, and the consuming work or decision does not become current merely because the frame names it.
+The frame and declaration perform no evaluation. An intended evaluator or planned condition makes neither a current assignment nor Work obtain. When dated evaluation Work is asserted, recover the exact evaluator through A.13 and let A.15.1 independently admit the Work; keep evidence use, typed result binding or direct result relation, and optional result episteme separate. Add F.6 only when the evaluation account expressly consumes precise assignment-bound attribution. An expected result-form description is not the result, and the consuming work or decision does not become current merely because the frame names it.
 
 #### E.22:4.4 - Finding and proposal rows
 

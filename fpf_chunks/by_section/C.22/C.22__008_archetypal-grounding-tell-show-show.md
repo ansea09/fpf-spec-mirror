@@ -6,12 +6,12 @@ section_id: "C.22:6"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__008_archetypal-grounding-tell-show-show.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:6 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 50997
-line_end: 51032
+line_start: 51069
+line_end: 51104
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -63,6 +63,6 @@ keywords:
 
 C.22 makes the comparison inputs explicit. It does not diagnose a person or recommend treatment; those claims use their clinical patterns. It does not establish evidence or benefit, pass a gate, grant permission to provide care, or establish decision authority. Use the evidence and evaluation patterns, the gate patterns, an obtaining `GrantedPermissionRelation@Context`, or an authority predicate, or return `missing-governor`.
 
-If clinical Work occurs, identify the performer System, dated Work, enacted Method, assignment occurrence and its declared species, and F.6 attribution. A local system-role kind, classification, or assignment can remain a neighboring fact, but it establishes none of the permission or authority relations above.
+If clinical Work occurs, recover each exact actual performer System through A.13 and let A.15.1 independently admit the dated Work and its enacted Method. Add an assignment occurrence, its declared species, and F.6 only when this clinical account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. A local system-role kind, classification, or assignment can remain a neighboring fact, but it establishes none of the permission or authority relations above.
 *Assignment.* `RehabilitationInterventionFamilyComparisonUse-E1 : U.Episteme` states the exact receiving comparison use. `TaskSignatureAssignmentRelation(CohortRehabilitationProblemCard-E3, RehabilitationFamilyComparisonSignature-E1, RehabilitationInterventionFamilyComparisonUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants. It obtains only while that receiving use actually adopts that exact signature for that exact card under `ClinicalRehabilitation-Scheme-C`, the declared cohort and care ClaimScope, the qualification window above, and the stated evidence-use conditions. Withdrawal of that adoption or loss of a participant or qualification ends this assignment occurrence; cohort labels, records, carriers, and organizations add no signature field or fourth participant.
 

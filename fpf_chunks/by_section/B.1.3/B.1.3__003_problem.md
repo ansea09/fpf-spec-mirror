@@ -6,16 +6,17 @@ section_id: "B.1.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__003_problem.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:2 — Problem"
-line_start: 36083
-line_end: 36093
+line_start: 36155
+line_end: 36165
 dependencies:
   - "A.1"
   - "A.10"
   - "A.12"
+  - "A.13"
   - "A.14"
   - "A.15"
   - "A.15.1"

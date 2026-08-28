@@ -6,12 +6,12 @@ section_id: "A.6.B:5"
 section_title: "Quadrant specifications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__007_quadrant-specifications.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:5 — Quadrant specifications"
-line_start: 11168
-line_end: 11275
+line_start: 11181
+line_end: 11288
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -182,7 +182,7 @@ When permission wording is current, use the branch in §8.4.1 for the exact occu
 
 * `E-*` statements **SHOULD NOT** use RFC deontic keywords; they report adjudicable results rather than obligations.
 * An `E-*` statement **MUST NOT** hide a gate predicate; gate predicates are `A-*`.
-* An `E-*` statement **MUST NOT** assign agency to an interface, record, or publication. Name the admitted system that performed any cited Work and keep its covering assignment separate; if enforceability or commitment is intended, express a separate `D-*` claim.
+* An `E-*` statement **MUST NOT** assign agency to an interface, record, or publication. For any precise cited Work, first recover each exact actual performer through A.13 and let A.15.1 independently admit the dated Work. Add an exact A.2.1 assignment reference and F.6 only when this claim or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither the assignment nor the performer, and missing or failed F.6 leaves the Work intact. If enforceability or commitment is intended, express a separate `D-*` claim.
 
 **A.7 EntityOfConcern binding.** An `E-*` claim episteme concerns the exact work effect, evaluated finding, evidence relation, or carrier condition named by its predicate. A record or carrier is a separate object and becomes the concern only when its existence or condition is itself the claim.
 

@@ -6,15 +6,16 @@ section_id: "F.15:13"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__015_archetypal-grounding-worked-cases.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:13 — Archetypal Grounding - worked cases"
-line_start: 96272
-line_end: 96332
+line_start: 96412
+line_end: 96472
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -62,7 +63,7 @@ F.15 result:
 * An `ExecutionSystemRoleKindDescription` remains an F.4 episteme about one exact local `ExecutionSystemRole` under one scheme; it does not describe both cells, assign a system, or prove work.
 * If a later `task` sense becomes cyclic while the `activity` sense remains non-periodic, RSCR-F15-E4 and E9 compare exact later cells and Bridge candidates; evidence may change the use claim or reliance without silently rewriting the prior Bridge.
 
-Suppose `CheckRun-17` is admitted dated assessment `U.Work`, `CheckMethod-17` is its semantic `U.Method`, `CheckInterval-17` is the Work interval, and `HarnessSystem-17` is the containing System. `Evaluator-17` is the admitted `U.System` that performs the Work using that Method during `CheckInterval-17`. `EvaluatorAssignmentSpecies-17` is a declared `U.SystemRoleAssignment` species; `EvaluatorAssignment-17` is one occurrence with every required participant value, is held by `Evaluator-17`, and covers `CheckInterval-17`. F.6 links `CheckRun-17` to that assignment.
+Suppose `CheckRun-17` is dated assessment `U.Work`, `CheckMethod-17` is its semantic `U.Method`, `CheckInterval-17` is the Work interval, and `HarnessSystem-17` is the containing System. `Evaluator-17` is the admitted `U.System` that performs the Work using that Method during `CheckInterval-17`. First recover Evaluator-17's A.13 core for this action, including declared assignment species `EvaluatorAssignmentSpecies-17` and one obtaining occurrence `EvaluatorAssignment-17` with every required participant value, Evaluator-17 as holder, and interval coverage. A.15.1 then independently admits `CheckRun-17` from its performance history, enacted Method, interval, and containing-System relation. Because this example also claims performance under `EvaluatorAssignment-17`, F.6 afterward links the already admitted Work to that same assignment.
 
 `ApplySCR-S12-17` is the exact A.6.1 rule application and bindings. `BridgeRuleResult-17` is a separate C.2.1 result claim; `WitnessTrace-17` and its A.10 path are separate again. `UnificationConformanceRecord-17` merely cites those admitted refs. Publishing the record requires its own E.24.PUB occurrence, form, and carrier.
 

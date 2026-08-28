@@ -6,15 +6,16 @@ section_id: "C.32.CONWAY:6"
 section_title: "Correspondence Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__007_correspondence-failure-modes.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:6 — Correspondence Failure Modes"
-line_start: 64292
-line_end: 64310
+line_start: 64371
+line_end: 64389
 dependencies:
   - "A.10"
   - "A.12"
+  - "A.13"
   - "A.15.1"
   - "A.19.CPM"
   - "A.2.1"
@@ -47,10 +48,10 @@ keywords:
 
 | Failure mode | C.32.CONWAY repair action |
 |---|---|
-| **Architecture-as-actor** | Replace the acting architecture with the exact `U.System`. When performance is claimed, point to its complete A.15.1/F.6 basis and state any actor-side or Work-to-change relation separately. Keep architecture relation, claim, holon, and selected structure as separately related influence-side objects. |
+| **Architecture-as-actor** | Replace the acting architecture with the exact `U.System`. When performance is claimed, recover every precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 only when precise assignment-bound attribution is current, and state any actor-side or Work-to-change relation separately. Keep architecture relation, claim, holon, and selected structure as separately related influence-side objects. |
 | **Influence-as-performance** | Remove system-role-kind, assignment, Work, performer, or transformation-participation inferences that came only from influence. Establish those facts independently or leave them absent. |
 | **Changed referent or transformation omitted** | Identify the exact continuing referent; when actual change is claimed, identify its A.3.4 `U.Transformation`; keep actor-side and Work-to-change relations under their subject patterns before deciding which architecture content is transformed. |
-| **Performer without Work basis** | When performance is claimed, point to its complete A.15.1/F.6 basis and add only the other direct relations used by the claim; use A.15.1 multiple-performer forms when needed. |
+| **Performer without Work basis** | When performance is claimed, recover every precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 only when precise assignment-bound attribution is current, and add only the other direct relations used by the claim. Use A.15.1 multiple-performer forms when needed. |
 | **Influence source without governor** | Apply the direct relation pattern. With no kind/predicate, keep the correspondence synthesis-local and return `missing-governor`; with unresolved facts, name the grounding boundary; with a false predicate, remove the influence occurrence. |
 | **Architecture-bearer equality with an actor inferred** | Keep the influence-source holon and acting system unequal unless independent actor and architecture-bearer facts establish equality. |
 | **Transformed-side-only inverse Conway** | If the text says inverse Conway but changes only the transformed architecture, name the exact influence-source selected structure that must change or stop using the inverse-Conway claim. |

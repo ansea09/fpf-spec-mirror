@@ -6,12 +6,12 @@ section_id: "A.6.REL:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__004_forces.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:3 — Forces"
-line_start: 12167
-line_end: 12179
+line_start: 12178
+line_end: 12190
 dependencies:
   - "A.6.0"
   - "A.6.5"

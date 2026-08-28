@@ -6,12 +6,12 @@ section_id: "C.17:1"
 section_title: "The practitioner route"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__003_the-practitioner-route.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:1 — The practitioner route"
-line_start: 48584
-line_end: 48613
+line_start: 48656
+line_end: 48685
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -23,6 +23,7 @@ dependencies:
   - "A.18"
   - "A.19"
   - "A.19.ECS"
+  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
   - "A.6.1"
@@ -80,7 +81,7 @@ Return only the missing premise that blocks the current coordinate or conclusion
 
 #### C.17:1.3 - Dated overall-assessment branch
 
-Open this branch only when the claim says that an overall assessment actually occurred and later reliance needs that fact. Identify the evaluator System, the obtaining `F.6` assignment, the dated Work, and the admitted Method enacted by that Work. Only the evaluator System performs the assessment Work. A separate MethodDescription may explain the reusable Method; it is not enacted. Coordinate-measurement Work remains its own `C.16` Work, and the aggregate result states claims.
+Open this branch only when the claim says that an overall assessment actually occurred and later reliance needs that fact. Recover the evaluator System through A.13, then let A.15.1 independently admit the dated Work and enacted Method. Add the exact A.2.1 assignment occurrence and F.6 relation only when later reliance expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the assessment Work intact. Only the evaluator System performs the Work. A separate MethodDescription may explain the reusable Method; it is not enacted. Coordinate-measurement Work remains its own `C.16` Work, and the aggregate result states claims.
 
 Do not infer an A.6.1 operation application from the Method, Work, configuration, or result. If a receiving claim separately asserts an exact operation application or binding, satisfy the current A.6.1 application account and cite that application. Otherwise retain only the C.17-local evaluator System, assignment, Method enactment, dated assessment Work, coordinate results, and aggregate result that the claim actually needs.
 

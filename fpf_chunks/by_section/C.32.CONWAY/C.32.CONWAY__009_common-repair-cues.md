@@ -6,15 +6,16 @@ section_id: "C.32.CONWAY:8"
 section_title: "Common Repair Cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__009_common-repair-cues.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:8 — Common Repair Cues"
-line_start: 64328
-line_end: 64343
+line_start: 64407
+line_end: 64422
 dependencies:
   - "A.10"
   - "A.12"
+  - "A.13"
   - "A.15.1"
   - "A.19.CPM"
   - "A.2.1"
@@ -50,7 +51,7 @@ keywords:
 | `ArchitectureActs` | An architecture, method, toolchain, organization chart, or episteme builds, decides, repairs, or performs. | Start with the domain action; name the exact system and Work when current, then state architecture influence separately. |
 | `InfluenceSourceUntyped` | A source “shapes” the candidate without kind or relation. | Apply the subject pattern: recover kind/predicate or return `missing-governor`; if facts are unresolved, keep a candidate cue; if false, remove the occurrence; if satisfied, name the obtaining occurrence. |
 | `ChangedReferentHidden` | The pair is named but the object or claimed actual transformation is not. | Identify the continuing changed referent and, when current, the A.3.4 `U.Transformation`; keep direct participation and Work-to-change relations separate. |
-| `PerformerBasisMissing` | A performer is named without exact System, assignment, dated Work, or F.6 attribution. | Apply A.12, A.2.1, A.15.1, and F.6; restore the exact performer basis and `CC-A15.1-17` form when several systems perform. |
+| `PerformerBasisMissing` | A performer is named without its A.13 core, independently admitted dated Work, or the F.6 relation required by a precise assignment-bound attribution. | Apply A.12 to separate acting and changed sides; recover every precise performer's A.13 core; independently admit the Work under A.15.1; add F.6 only when the receiving claim needs precise assignment-bound attribution; and use the `CC-A15.1-17` form when several systems perform. |
 | `TransformedArchitectureNoSourceFit` | The desired architecture cannot be sustained by the current influence-side structures. | Open source-side retargeting, transformed-architecture retargeting, joint change, and bounded mismatch as alternatives. |
 | `InverseConwayNoSourceChange` | The text says inverse Conway but names no selected influence-source structure change. | Name that exact structure, affected characteristic, migration burden, loss, and pattern for the next question or drop the inverse-Conway claim. |
 | `SourceChangeNoTransformedPressure` | A source-side organization, method, line, or toolchain change has no transformed architecture characteristic under pressure. | State the change under its direct Work or organization-governance predicate until the architecture pair is current. |

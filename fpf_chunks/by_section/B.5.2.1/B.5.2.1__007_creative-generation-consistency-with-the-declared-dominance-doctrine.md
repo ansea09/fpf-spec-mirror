@@ -6,12 +6,12 @@ section_id: "B.5.2.1:5.1"
 section_title: "Creative-generation consistency with the declared dominance doctrine"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__007_creative-generation-consistency-with-the-declared-dominance-doctrine.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:5.1 — Creative-generation consistency with the declared dominance doctrine"
-line_start: 40703
-line_end: 40711
+line_start: 40775
+line_end: 40783
 dependencies:
   - "A.17"
   - "A.18"

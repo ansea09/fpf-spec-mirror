@@ -6,12 +6,12 @@ section_id: "A.2.8:6"
 section_title: "Invariants and Reasoning Primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__009_invariants-and-reasoning-primitives.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:6 — Invariants and Reasoning Primitives"
-line_start: 6873
-line_end: 6900
+line_start: 6883
+line_end: 6910
 dependencies:
   - "A.10"
   - "A.15.1"

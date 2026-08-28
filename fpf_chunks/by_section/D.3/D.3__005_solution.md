@@ -6,12 +6,12 @@ section_id: "D.3:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:2 — Solution"
-line_start: 67539
-line_end: 67619
+line_start: 67623
+line_end: 67703
 dependencies:
   - "A.1"
   - "A.10"
@@ -102,7 +102,7 @@ The `plainStatement` must name the exact incompatibility, trade-off, parity, or 
 | Open this branch when... | Add... | Keep separate... |
 | --- | --- | --- |
 | A Method is part of a side's claim. | the exact `U.Method` under A.3.1 and, when cited, its MethodDescription under A.3.2 | Method identity from any dated performance |
-| Performance actually occurred. | the exact dated `U.Work`, performer System, Method, Work extent, and containing System under A.15.1 | a plan, intention, assignment, or capability from performed Work |
+| Performance actually occurred. | use A.13 to identify the actual performer System; use A.15.1 to admit the exact dated `U.Work` independently from its history, Method, extent, and containing System; if the conflict account must also identify the assignment under which the Work was performed, check that relation separately through F.6 | keep a plan, intention, assignment, capability, permission, authority, and responsibility separate from performed Work |
 | Assignment matters. | the exact assignment species and its obtaining occurrence under A.2.1, with actual participants and applicability | assignment from performance, responsibility, permission, or authority |
 | Role-shaped wording or classification matters. | one E.10.ROLE recovery, then the local kind and a separate C.2.1 classification assertion episteme under C.3.2 after the candidate passes its admissibility test | the word *role*, kind, assertion, assignment, and acting System from one another |
 | Evidence changes a side or its uncertainty. | the evidence episteme and the exact A.10 evidence-use or reliance result | stored evidence from reliance on it |

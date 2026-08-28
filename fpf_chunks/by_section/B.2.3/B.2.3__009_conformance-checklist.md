@@ -6,12 +6,12 @@ section_id: "B.2.3:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__009_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:6 — Conformance Checklist"
-line_start: 38162
-line_end: 38173
+line_start: 38234
+line_end: 38245
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,7 +42,7 @@ keywords:
 | `CC-B2.3-2` | B.2's one exact candidate new whole passes the complete A.1 criterion and is independently recognized under the already admitted `U.Episteme` kind through current C.2.1 constitution. |
 | `CC-B2.3-3` | No episteme-specific result reference, context-shaped slice, second result schema, or extra episteme identity positions are introduced. |
 | `CC-B2.3-4` | Publication, source-use, view, viewpoint, claim-bearing, and representation questions require C.2.1, E.17, C.2.P, C.2.P.DR, and direct episteme-family patterns. |
-| `CC-B2.3-5` | The episteme is non-agentive. Acting Systems, synthesis Work, and enforcement Work use A.12, A.2, A.15, and A.15.1; F.6 identifies the assignment under which each actual performer acted, although a short account may omit an unused assignment identifier. Agency-characteristic evaluation remains independent of assignment. |
+| `CC-B2.3-5` | The episteme is non-agentive. Acting Systems first satisfy A.13, and synthesis or enforcement Work is independently admitted through A.15.1. F.6 enters only for an expressly consumed precise assignment-bound attribution; missing or failed F.6 leaves the Work intact. Agency-characteristic evaluation remains independent of assignment. |
 | `CC-B2.3-6` | Assurance for the result episteme is not silently inherited from constituent epistemes or publications. |
 | `CC-B2.3-7` | Effect-free morphing, viewing, retargeting, and controlled coarsening are not treated as B.2.3 unless whole reidentification is current. |
 

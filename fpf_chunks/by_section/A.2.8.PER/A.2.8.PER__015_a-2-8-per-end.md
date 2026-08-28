@@ -6,14 +6,15 @@ section_id: "A.2.8.PER:End"
 section_title: "A.2.8.PER:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__015_a-2-8-per-end.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:End — A.2.8.PER:End"
-line_start: 7286
-line_end: 7287
+line_start: 7296
+line_end: 7297
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.5"
   - "A.2.8"

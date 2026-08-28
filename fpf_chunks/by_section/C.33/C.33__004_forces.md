@@ -6,12 +6,12 @@ section_id: "C.33:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__004_forces.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:3 — Forces"
-line_start: 66086
-line_end: 66096
+line_start: 66168
+line_end: 66178
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

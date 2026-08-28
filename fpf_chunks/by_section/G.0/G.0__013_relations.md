@@ -6,12 +6,12 @@ section_id: "G.0:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__013_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:12 — Relations"
-line_start: 99584
-line_end: 99589
+line_start: 99724
+line_end: 99729
 dependencies:
   - "A.10"
   - "A.17"

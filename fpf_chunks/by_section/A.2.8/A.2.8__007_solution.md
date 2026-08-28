@@ -6,12 +6,12 @@ section_id: "A.2.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__007_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:4 — Solution"
-line_start: 6706
-line_end: 6841
+line_start: 6716
+line_end: 6851
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -163,7 +163,7 @@ Evidence used only to measure or verify the duty belongs to the support for the 
 | Is the bearer responsible? | one admitted domain responsibility predicate and occurrence; otherwise the exact missing governor | responsibility from duty, assignment, position, or “owner” wording |
 | Is an action permitted or authorized? | the exact A.2.8.PER grant, exercise, non-prohibition, non-violation, or conflict result | permission from commitment or assignment |
 | Did access occur? | an exact domain access relation; otherwise `missing-governor` | access from permission, duty, or assignment |
-| Did the bearer perform Work? | one dated `U.Work` plus F.6 attribution when under assignment | Work from the duty alone |
+| Did the bearer perform Work? | recover the exact actual performer through A.13 and let A.15.1 independently admit one dated `U.Work`; add F.6 only when this duty account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment | Work or attribution from the duty alone |
 | Was the duty satisfied or violated? | a separately governed evaluation or compliance result using actual Work and evidence | compliance from publication or record completeness |
 | What resulted? | the separately identified result and its direct result relation, or A.15.PROD for production and inception | a generic result relation from duty or Work |
 

@@ -6,18 +6,20 @@ section_id: "G.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__004_forces.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:3 — Forces"
-line_start: 101015
-line_end: 101022
+line_start: 101155
+line_end: 101162
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.18"
   - "A.19"
   - "A.2.1"
+  - "A.2.6"
   - "A.21"
   - "A.6.1"
   - "B.3"
@@ -44,6 +46,7 @@ dependencies:
   - "G.8"
   - "G.9"
   - "G.Core"
+  - "U.ClaimScope"
 keywords:
   - "CAL Pack@CG-Frame"
   - "Context charter"
@@ -59,5 +62,5 @@ keywords:
 * **Pluralism vs comparability.** Multiple method traditions must coexist without forcing premature unification, yet remain cross‑citable and auditable.
 * **Decision support vs auditability.** CAL must support selection and selected-set formation while preserving explicit, reviewable assumptions and proofs.
 * **Exploration vs assurance.** CAL must support exploratory regimes (probing, novelty, open‑ended search) without letting un‑assured outputs silently become dominance claims.
-* **Locality vs portability.** CAL must be Context‑local by default but prepared for explicit reuse via Bridges and published crossing bundles.
+* **Locality vs portability.** Each CAL clause stays bounded by its declared `ClaimScope`, window, source meanings, and ReferencePlane; reuse beyond that boundary requires the exact relation and crossing records that the changed value calls for.
 

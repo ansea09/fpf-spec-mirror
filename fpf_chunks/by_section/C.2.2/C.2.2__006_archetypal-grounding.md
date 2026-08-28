@@ -6,12 +6,12 @@ section_id: "C.2.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__006_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:5 — Archetypal Grounding"
-line_start: 42359
-line_end: 42388
+line_start: 42431
+line_end: 42460
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "E.7:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__010_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.7 — Archetypal Grounding Principle"
   - "E.7:9 — Relations"
-line_start: 71698
-line_end: 71704
+line_start: 71820
+line_end: 71826
 dependencies:
   - "E.5.4"
   - "E.6"

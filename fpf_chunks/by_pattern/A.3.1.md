@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
-line_start: 7910
-line_end: 8370
+line_start: 7923
+line_end: 8383
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -187,7 +187,7 @@ Do not decide from words such as *method*, *algorithm*, *process*, or *mechanism
 | --- | --- |
 | What reusable way of observing, deciding, deriving, changing, or preserving is meant? | State the `U.Method` under A.3.1: participants, applicability, conditions, intended result or preserved condition, and boundary. |
 | What reusable family of operations and laws is declared? | State the separate `U.Mechanism` declaration under A.6.1: its concern, subject and range meanings, operation algebra, laws, admissibility conditions, and Applicability. |
-| What happened on this dated occasion? | Identify the Work occurrence under A.15.1. Its performer system, covering assignment, enacted method, extent, containing system, bindings, and resources are occurrence-side facts, not method or mechanism fields. |
+| What happened on this dated occasion? | Recover every exact actual performer through A.13 and identify the dated Work occurrence independently under A.15.1. Its enacted Method, extent, containing System, bindings, and resources are occurrence-side facts. Add a covering assignment and F.6 attribution only when the receiving claim expressly consumes precise assignment-bound attribution; their absence or failure does not erase the Work. |
 | What correspondence, realization, or support claim is being made around those objects? | Name the relation, its participants, exact predicate, current facts, and subject-pattern locator. If no such predicate is defined, keep the objects separate and stop rather than implying the relation. |
 
 A method statement may cite a mechanism episteme whose content declares operations used by that method. A shared concern or operation name does not make the two values identical. A selector may choose a method, and an A.6.1 application may bind a method as an actual value. State that use only when the selector outcome, application binding, or another admitted direct relation is present; otherwise keep the method and neighboring object separate. None authorizes Work merely by being named.
@@ -251,7 +251,7 @@ When a method concerns change, its statement says what change a future enactment
 
 The constructor-theory and process-theory source line supports this separation but does not supply a universal method ontology. FPF uses it as follows:
 
-* An admitted `U.System` performs dated Work; A.15.1 identifies the Work, at least one obtaining `enactsMethod` relation, time, and at least one obtaining locally declared containing-system relation; another enactment relation is named only when the receiving claim relies on it, while F.6 identifies the assignment under which each performer acted. The assignment neither acts nor enacts the Method. A short Method explanation may omit an assignment identifier or further valid boundary that no later claim uses.
+* An exact actual performer first has the A.13 core; A.15.1 then independently identifies the dated Work, at least one obtaining `enactsMethod` relation, time, and at least one obtaining locally declared containing-system relation. Another enactment relation is named only when the receiving claim relies on it. F.6 enters only when that claim also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact. The assignment neither classifies the System, acts, nor enacts the Method.
 * The `U.Method` is the reusable way under stated participant meanings, applicability, conditions, intended result or preserved condition, and bounds. A `U.MethodDescription` is an episteme that describes it.
 * A formal substrate or mathematical lens can make the method analyzable, and a `U.Mechanism` can declare the relevant operation family and laws. Neither becomes the method by providing a formula or implementation.
 * A cross-context Bridge, changed reference or model-use relation, mechanism realization, evaluation, or evidence-use claim remains a separately stated relation with its own participants.
@@ -417,7 +417,7 @@ Use one concrete test in every case: can the reader state the reusable action, i
 
 **CC-A3.1-4 (Assignment-free Method).** A Method may state local system-role-kind admission conditions or capability-fit conditions. These are Method-side admissibility conditions, not deontic obligations by default. The Method does not bind named people, teams, organizations, or calendar allocations.
 
-**CC-A3.1-5 (Runtime-free method).** A dated run is a Work individual under `U.Work`, not a method field. A.15.1 separately grounds its performer system, covering assignment and attribution, enacted method, extent, containing system, and every participation or resource relation used by the claim. Telemetry, logs, measurements, evaluations, production, delivery, acceptance, and result records remain separate claims.
+**CC-A3.1-5 (Runtime-free method).** A dated run is a Work individual under `U.Work`, not a method field. Recover each exact actual performer through A.13; A.15.1 independently grounds the Work, enacted Method, extent, containing System, and every participation or resource relation used by the claim. Add a covering assignment and F.6 attribution only when the receiving use expressly represents precise assignment-bound attribution. Telemetry, logs, measurements, evaluations, production, delivery, acceptance, and result records remain separate claims.
 
 **CC-A3.1-6 (Plan-free method).** Work preparation, schedule, go or no-go date, work authorization, and planned work relation belong to `U.WorkPlan`, gate, authority, or commitment patterns.
 

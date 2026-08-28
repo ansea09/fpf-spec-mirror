@@ -6,12 +6,12 @@ section_id: "A.2.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__007_archetypal-grounding.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:5 — Archetypal Grounding"
-line_start: 3585
-line_end: 3629
+line_start: 3595
+line_end: 3639
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -83,5 +83,5 @@ Alice is independently admitted as `U.System`. `Commission-A` and `Commission-B`
 
 #### A.2.1:5.6 - Reviewer and Review Report
 
-`ReviewService-4` holds an exact review assignment and performs `ReviewWork-82` under it through F.6. `ReviewReport-82` is a separately identified `U.Episteme`. When the Work first constitutes that episteme and the inception claim matters, A.15.PROD recovers one local entity-inception claim from the exact Work, change, and identity bases. A later evidence relation can use the report; the report never fills `HolderSystemSlot` merely because it is useful.
+A.13 first recovers `ReviewService-4` as the exact actual performer through its obtaining review assignment, and A.15.1 independently admits `ReviewWork-82`. Because this example expressly distinguishes which assignment covered the review, F.6 afterward establishes that Work-assignment relation through the same assignment. F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact. `ReviewReport-82` is a separately identified `U.Episteme`. When the Work first constitutes that episteme and the inception claim matters, A.15.PROD recovers one local entity-inception claim from the exact Work, change, and identity bases. A later evidence relation can use the report; the report never fills `HolderSystemSlot` merely because it is useful.
 

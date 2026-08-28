@@ -6,15 +6,16 @@ section_id: "B.1.6:2"
 section_title: "Solution — separate measurement from aggregation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_solution-separate-measurement-from-aggregation.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:2 — Solution — separate measurement from aggregation"
-line_start: 37019
-line_end: 37081
+line_start: 37091
+line_end: 37153
 dependencies:
   - "A.1"
   - "A.10"
+  - "A.13"
   - "A.14"
   - "A.15.1"
   - "A.15.2"
@@ -34,6 +35,7 @@ dependencies:
   - "C.27"
   - "C.29"
   - "E.17"
+  - "F.6"
   - "G.11"
   - "G.6"
 keywords:
@@ -92,7 +94,7 @@ These are separate objects and claims; the fields do not create one another:
 - a **resource Characteristic** says which quantity or property is accounted for;
 - **measurement work** and a **C.16 measurement-result episteme** supply each attributed resource value, Scale, Unit, uncertainty, model, calibration, and time stance;
 - the **aggregation policy** declares inclusion, conversion, weighting, missing-value, partition, overlap, and deduplication rules;
-- **aggregation work** is dated `U.Work` with performer, method, actual inputs through direct relations or A.6.1 bindings, resources, and temporal extent;
+- **aggregation work** has its actual performer identified through A.13 and is independently admitted as dated `U.Work` through A.15.1; if the aggregation account must also identify the assignment under which the Work was performed, F.6 checks that relation separately; Method, actual inputs through direct relations or A.6.1 bindings, resources, and temporal extent remain separate;
 - the **B.1.6 aggregation result** is the typed total, vector, interval, or bounded estimate obtained under that policy and work set;
 - a distinct **C.2.1 aggregation-result episteme** states the result, work set, policy, boundary, time window, qualifications, and uncertainty; and
 - **A.10/G.6 provenance** makes the measurement sources, transformations, aggregation work, and result episteme replayable.
@@ -103,8 +105,8 @@ A ledger, dashboard, policy, profile, clause, citation, or graph edge may repres
 
 | Current claim | Subject pattern |
 | --- | --- |
-| Resource Characteristic, Scale, Unit, measurement model/calibration, measurement work and result | `C.16` plus A.15.1/A.6.1 for work and bindings |
-| Dated aggregation work, performer, method enactment, and actual inputs | `A.15.1` and `A.6.1` |
+| Resource Characteristic, Scale, Unit, measurement model/calibration, measurement work and result | `C.16` for measurement; A.13 for each actual performer; A.15.1 for independent Work admission; F.6 when the result must also identify the assignment under which the Work was performed; and A.6.1 for actual bindings |
+| Dated aggregation Work and actual performer | A.13 identifies the actual performer, then A.15.1 independently admits the Work. Add F.6 only if the result must also identify the assignment under which the Work was performed. Method enactment and actual inputs remain separately governed, including A.6.1 bindings when used. |
 | Work temporal part, episode, operational part, partition, overlap, retry, resumption, or later occurrence | `A.15.1` and the exact Work relation pattern; use `B.1.4` only to aggregate already recovered temporal relations |
 | Proper temporal restriction of another enduring carrier | that carrier's direct identity pattern plus `A.14` `PhaseOf`; never a substitute for Work relations |
 | Overlap, shared-stock, boundary, and deduplication facts | C.27.TA for interval overlap; the exact stock, resource-use, boundary, or accounting relation pattern for the other fact |

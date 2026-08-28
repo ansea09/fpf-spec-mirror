@@ -6,12 +6,12 @@ section_id: "A.20:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__001_intro.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:intro — Intro"
-line_start: 34027
-line_end: 34036
+line_start: 34099
+line_end: 34108
 dependencies:
   - "A.10"
   - "A.15"

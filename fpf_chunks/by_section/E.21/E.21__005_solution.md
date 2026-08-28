@@ -6,12 +6,12 @@ section_id: "E.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:4 — Solution"
-line_start: 87587
-line_end: 87900
+line_start: 87716
+line_end: 88038
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -45,7 +45,7 @@ For one pattern-quality evaluation, keep independently recoverable the objects a
 2. the declared `ClaimScope`, working reader, intended receiving use, qualification window, evidence basis, and evaluation configuration;
 3. the selected `U.CharacteristicSpace`, this E.21 evaluation-specification episteme, every coordinate/scale binding, and the local result-form and status-value rules;
 4. when exact Method identity or actual assessment Work is asserted, one separately identified semantic evaluation `U.Method`;
-5. when actual dated assessment `U.Work` is asserted, its account cites a complete current `A.15.1` basis or names one locally declared Work-to-System predicate and establishes that its relation obtains for that exact Work and containing `U.System`; the predicate declaration states the exact system boundary and qualification window that make the complete Work lie within that System. The account also recovers the Work's temporal extent and every evaluator-performer; `A.3.1` identifies the exact `U.Method` enacted by that Work; for every evaluator-performer, `F.6` establishes an obtaining attribution through a covering assignment whose holder is that performer. A compact account may omit an assignment identifier unused by the receiving claim, but the assignment and attribution must still obtain;
+5. when actual dated assessment `U.Work` is asserted, first recover every evaluator-performer's A.13 core for the assessment action. A.15.1 then independently admits the Work from its performance history, enacted Method, temporal extent, and one obtaining locally declared relation to the containing `U.System`, under the exact system boundary and qualification window. Add F.6 only when the evaluation account also needs precise assignment-bound attribution, using the same obtaining A.13 assignment. A compact account may omit an identifier unused by the receiving claim only when every relation it consumes remains recoverable;
 6. every coordinate-result claim, their same-bearer non-arithmetic `PatternQualityQBundle` ClaimGraph payload, and one C.2.1 aggregate pattern-quality-result episteme when a durable result is needed;
 7. witnesses, comparator/source/case refs, exact A.10 evidence-use/provenance relations, and any B.3 assurance or reliance result;
 8. an optional evaluation-record episteme that packages those refs without performing assessment or creating the result;
@@ -123,12 +123,21 @@ PatternQualityEvaluationConfiguration:
   EvaluationEvidenceBasis: <checked pattern, corpus, source, comparator, case, and projection loci; missing or unchecked loci named explicitly when they affect values>
 
 When dated assessment Work is asserted:
-  AssessmentWorkRef: <the dated assessment U.Work>
+  AssessmentWorkRef: <the dated assessment U.Work independently admitted under A.15.1>
   EvaluatorSystemRefs: <every admitted U.System that performed AssessmentWorkRef>
+  EvaluatorA13CoreBasisRefs: <for every precise performer, exact local agential kind and
+    criterion, classification, same obtaining assignment, scope, working situation, window,
+    and adequate core evidence; add a characteristic profile only when separately consumed>
   AssessmentTemporalExtent: <exact extent of W>
-  WorkToSystemRelationBasis: <cite the complete current A.15.1 basis, or name one locally declared Work-to-System predicate and establish its obtaining relation; in either form identify AssessmentWorkRef, the exact containing U.System, exact system boundary, and qualification window>
+  WorkToSystemRelationBasis: <name one locally declared Work-to-System predicate and its
+    obtaining relation for AssessmentWorkRef, the exact containing U.System, system boundary,
+    and qualification window>
   EnactedMethodRef: <the exact A.3.1 U.Method enacted by AssessmentWorkRef>
-  PerformerAssignmentBasis: <for every evaluator-performer, one obtaining F.6 attribution through a covering assignment whose holder is that performer; show the assignment identifier only when the receiving claim uses its identity>
+  PreciseAssignmentAttributionRefs?: <only when the receiving claim needs exact
+    assignment-bound attribution; for every performer cite the direct case fact that it
+    performed AssessmentWorkRef under the same obtaining A.13 assignment, the declared
+    assignment species and participant values, holder equality, the obtaining assignment
+    predicate and interval, coverage of AssessmentTemporalExtent, and the resulting F.6 link>
   EvaluationConfigurationRef:
 When an exact declared-operation application is also asserted:
   ApplicationAndBindingAccount: <the separately admitted mechanism, exact declared operation and application occurrence, and actual declaration-local bindings required by the compact A.6.1 rule in E.21:4>

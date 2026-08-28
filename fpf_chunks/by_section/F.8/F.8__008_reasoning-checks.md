@@ -6,12 +6,12 @@ section_id: "F.8:6"
 section_title: "Reasoning Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__008_reasoning-checks.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:6 — Reasoning Checks"
-line_start: 93539
-line_end: 93555
+line_start: 93679
+line_end: 93695
 dependencies:
   - "A.11"
   - "A.15"
@@ -70,7 +70,7 @@ Use these as reading checks, not as a required notation or record.
 | A local phrase or existing designation is sufficient. | Stay local or reuse it; create no cell, NameCard, row, or identifier. |
 | An alias is proposed. | Preserve the governed kind, scope, occurrence identity, admitted use, and lineage to the selected designation. |
 | The same spelling appears under another ReferenceScheme or local-sense claim. | Infer neither sameness nor an F.9 Bridge. Use a Bridge only when its predicate obtains between the relevant F.17 cells. |
-| `L` is proposed for a local system-role kind `K`. | A.2 and C.3 govern `K`; F.5 governs `L`; F.18 opens only for a durable settlement. F.4 is used only for a separately needed description `D`, while A.2.1 governs any assignment `A` and A.15.1 with F.6 governs performed Work. |
+| `L` is proposed for a local system-role kind `K`. | A.2 and C.3 govern `K`; F.5 governs `L`; F.18 opens only for a durable settlement. F.4 is used only for a separately needed description `D`, while A.2.1 governs any assignment `A`. For precise performed Work, A.13 first recovers the exact actual performer and A.15.1 independently admits the Work; F.6 is added only when this naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. |
 | A role-like expression is actually about another governed use—for example, evidence, status, policy, source, publication, or a relation position. | Recover that subject through its pattern before selecting a durable designation. |
 | An F.17 row is proposed for reuse. | Reuse it only for its `AdmissibleUse`; the row supplies neither equivalence nor a wider use. |
 | A receiving claim needs the decision occurrence itself. | Use §4.5. Recover the decision or choice pattern, predicate, participants, applicability, and identity basis. If no such governor is available, return `missing-governor`; keep any C.11 result and decision-making Work separate. |

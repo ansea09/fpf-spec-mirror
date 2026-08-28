@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 74648
-line_end: 74889
+line_start: 74779
+line_end: 75020
 dependencies:
   - "A.10"
   - "A.15"
@@ -266,7 +266,7 @@ Example: use of a `KernelToken` in a locally scoped constraint is admitted only 
 
 #### E.10:8.8 - Autonomy lexicon (L‑AUTO )
 **Inadmissible in Core:** bare “validity”, bare “actor” or “agent” as free-standing nouns, “kill switch”, “process” for behavior, and “envelope” when used **as scope**.
-**Use instead:** *Scope (G)* for epistemic scope; *WorkScope* for capability bounds; an admitted `U.System` for the actor or doer. When performed Work is current, use A.15.1 and F.6 to identify the dated Work, performer, and assignment. Use a `...SystemRole` designation only when that classification itself matters. Use *SpeechAct* for overrides and *SafeStop* instead of “kill switch”.
+**Use instead:** *Scope (G)* for epistemic scope; *WorkScope* for capability bounds; an admitted `U.System` for an ordinary actor or doer. When a precise Agent or performed-Work claim is current, use A.13 for the exact local agential kind and criterion, classification, obtaining assignment, scope, working situation, window, and adequate core evidence; require a characteristic profile only when its Grade, autonomy, criterion-dependent, profile, or assurance use consumes it. Then let A.15.1 independently admit the dated Work from its actual performer, Method, time, and containment facts. Add F.6 only when the wording or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Use a `...SystemRole` designation only when that classification itself matters. Use *SpeechAct* for overrides and *SafeStop* instead of “kill switch”.
 **Named prefixes (policy and registry):**
 * `aut:` for AutonomyBudgetDecl fields (e.g., `aut:action_tokens`, `aut:risk_bands`);
 * `guard:` for guard checks bound to `AdmissibilityConditionsId`;

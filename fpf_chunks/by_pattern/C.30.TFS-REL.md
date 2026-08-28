@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.TFS-REL.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
-line_start: 61025
-line_end: 61444
+line_start: 61098
+line_end: 61517
 dependencies:
   - "A.10"
   - "A.15"

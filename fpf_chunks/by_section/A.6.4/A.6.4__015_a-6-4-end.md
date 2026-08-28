@@ -6,12 +6,12 @@ section_id: "A.6.4:End"
 section_title: "A.6.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__015_a-6-4-end.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:End — A.6.4:End"
-line_start: 15907
-line_end: 15908
+line_start: 15918
+line_end: 15919
 dependencies:
   - "A.10"
   - "A.15"

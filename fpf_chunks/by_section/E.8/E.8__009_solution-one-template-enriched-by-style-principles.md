@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 71813
-line_end: 72236
+line_start: 71935
+line_end: 72358
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -477,6 +477,6 @@ If a pattern or example claims **autonomy**, start with the bearer and the direc
 
 1. Identify the actual admitted `U.System` whose freedom of action is being evaluated. The System is the bearer. A system-role kind is used in classification; an assignment is a relation among its declared participants; a Method is a reusable way of acting; Work is a dated occurrence; and a budget, policy, or ledger is a declaration or record. None substitutes for the System or acts in its place.
 2. Use a current `E.16` pattern only when it defines or tests the autonomy or agency characteristic or relation being claimed. Keep classification, assignment, capability, responsibility, authority, permission, Method, Work, and evidence under their own direct claims. An assignment may cover performed Work under F.6; it supplies no autonomy by itself.
-3. Add extra autonomy material—for example, an **Autonomy** subsection, budget declaration, guard policy, override protocol, gate reference, or separate ledger record—only when that current E.16 claim uses it. If dated Work is also asserted, apply the complete A.15.1 and F.6 rule in `E.8:0.3`. If the current corpus cannot state the autonomy claim under E.16 or another direct pattern, return `A.6.RCD missing-governor` instead of reviving a Role, Method, or Service bundle.
+3. Add extra autonomy material—for example, an **Autonomy** subsection, budget declaration, guard policy, override protocol, gate reference, or separate ledger record—only when that current E.16 claim uses it. If dated Work is also asserted, apply the A.13-first and independent A.15.1 rule in `E.8:0.3`; add F.6 only when precise assignment-bound attribution is also current. If the current corpus cannot state the autonomy claim under E.16 or another direct pattern, return `A.6.RCD missing-governor` instead of reviving a Role, Method, or Service bundle.
 4. Add a worked depletion or override vignette only when it helps the reader use that exact autonomy claim. Apply `E.10` to wording after the claim is recovered; a lexical bundle must not choose its bearer or ontology.
 

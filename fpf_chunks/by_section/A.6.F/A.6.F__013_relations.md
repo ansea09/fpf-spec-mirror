@@ -6,12 +6,12 @@ section_id: "A.6.F:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__013_relations.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:12 — Relations"
-line_start: 18730
-line_end: 18737
+line_start: 18741
+line_end: 18748
 dependencies:
   - "A.10"
   - "A.15"

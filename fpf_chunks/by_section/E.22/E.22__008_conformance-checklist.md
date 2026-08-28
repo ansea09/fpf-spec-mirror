@@ -6,12 +6,12 @@ section_id: "E.22:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__008_conformance-checklist.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:7 — Conformance checklist"
-line_start: 88395
-line_end: 88411
+line_start: 88533
+line_end: 88549
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -42,6 +42,6 @@ keywords:
 | `CC-E22-8` | Use `E.23` for repeated improvement after one framed evaluation returns findings or proposals. |
 | `CC-E22-8a` | Do not frame `5`, all-`5`, or `5-defensible` as the work target. Frame below-floor repair separately from optional exceptional-improvement proposals. The optional proposal target is substantive content change, not score proof; allow checked `no proposal` or `stay at current value` only when further change would be dominated by apparatus growth, proof theatre, or protected-quality loss. |
 | `CC-E22-9` | Name the expected evidence basis and result-row shape from the object-under-improvement evaluation; `E.22` cannot authorize omitted coordinates, missing rationales, missing selected attention-discharge profiles, missing `PrecisionRestorationProfile` when `E.21` is used, unchecked evidence positions, inactive or triggered-coordinate shortcuts, scope narrowing, or a weaker result form. |
-| `CC-E22-10` | Keep the question frame separate from actual evaluation. An evaluator condition appears in the use declaration only when it changes the question or result admissibility; an intended evaluator identity appears only when identity is itself declared. The actual evaluator System, obtaining assignments, dated Work, application, and result relation belong to the separate evaluation account. A pre-evaluation frame has no actual-Work identifiers, and an ordinary non-Work result needs none. A compact Work-bearing result follows the governing A.15.1 and F.6 omission limit and keeps all required world-side facts recoverable. Keep the pattern locator, Method, any independently admitted method description, quality-model, evidence-basis, and result-form descriptions, evidence use, result binding, result episteme, and result-consuming work or decision distinct. Any `U.MethodDescription` membership requires an independent A.3.2 result; no locator, description, local system-role kind, or assignment performs the evaluation. |
+| `CC-E22-10` | Keep the question frame separate from actual evaluation. An evaluator condition appears in the use declaration only when it changes the question or result admissibility; an intended evaluator identity appears only when identity is itself declared. For actual dated Work, recover the evaluator through A.13 and admit the Work independently through A.15.1. Assignment occurrence and F.6 refs are optional and appear only when the record or receiving use expressly represents precise assignment-bound attribution; their absence or failure does not revoke Work. Keep the application, result relation, result episteme, pattern locator, Method, any independently admitted method description, quality model, evidence-basis and result-form descriptions, evidence use, and result-consuming work or decision distinct. No locator, description, local system-role kind, or assignment performs the evaluation or supplies classification. |
 | `CC-E22-11` | A low value, finding, failed floor, or improvement aim does not establish an actual Problem. Any actual Problem relied on by the consuming use resolves to one current C.22.PFR occurrence with its direct participants and temporal identity. |
 

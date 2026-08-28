@@ -6,15 +6,16 @@ section_id: "B.1.6:5"
 section_title: "Aggregation Rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__008_aggregation-rules.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:5 — Aggregation Rules"
-line_start: 37111
-line_end: 37142
+line_start: 37183
+line_end: 37214
 dependencies:
   - "A.1"
   - "A.10"
+  - "A.13"
   - "A.14"
   - "A.15.1"
   - "A.15.2"
@@ -34,6 +35,7 @@ dependencies:
   - "C.27"
   - "C.29"
   - "E.17"
+  - "F.6"
   - "G.11"
   - "G.6"
 keywords:
@@ -64,7 +66,7 @@ keywords:
 
 **Overlap and shared stocks.** Addition is admissible only for disjoint partitions or after an exact policy handles overlap. Shared people, tools, meters, inventories, datasets, ports, and time windows require the direct shared-use/overlap fact and a justified allocation or deduplication rule.
 
-**Aggregation work and result.** Ground dated aggregation work with performer, method, actual bindings, resources, and time. State the B.1.6 result as a typed total, vector, interval, or bounded estimate under the named policy and work set; then state it in a distinct C.2.1 episteme.
+**Aggregation work and result.** Use A.13 to identify the actual performer and A.15.1 to admit the dated aggregation Work independently. If the aggregation account must also identify the assignment under which the Work was performed, check that relation separately through F.6. Keep the Method, actual bindings, resources, and time separate. State the B.1.6 result as a typed total, vector, interval, or bounded estimate under the named policy and Work set; then state it in a distinct C.2.1 episteme.
 
 **Uncertainty and provenance.** Propagate measurement uncertainty and model/conversion uncertainty according to the exact aggregation policy. Provenance lists do not perform uncertainty propagation. A.10/G.6 paths cite the established work, measurements, policy application, transformations, result, and sources without creating them.
 
@@ -79,7 +81,7 @@ keywords:
 | Resource input | Resource Characteristic, Scale/Unit, subject, C.16 measurement work/result episteme, uncertainty, time, and provenance |
 | Work set | Dated Work occurrences, every A.15.1 Work-part relation used by this aggregation, and every C.27.TA overlap fact it uses; any non-Work carrier phase keeps its own identity rule and `PhaseOf` relation |
 | Policy | Edition, inclusion, conversions, weights, missing values, boundary allocation, uncertainty, overlap/deduplication, and output kind |
-| Aggregation execution | Dated `U.Work`, performer, method, resources, and actual direct/A.6.1 bindings |
+| Aggregation execution | Actual performer identified through A.13; dated `U.Work` independently admitted through A.15.1; a separate F.6 check when the result must also identify the assignment under which the Work was performed; separate Method, resources, and actual direct/A.6.1 bindings |
 | Aggregation result | Typed result, work set, policy, boundary, window, qualifications, and distinct C.2.1 episteme |
 | Provenance/currentness | A.10/G.6 paths and G.11 result when currentness affects use |
 | Later use | Exact receiving work and direct premise/reference/argument/decision-use relation |

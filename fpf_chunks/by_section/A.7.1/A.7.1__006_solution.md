@@ -6,12 +6,12 @@ section_id: "A.7.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__006_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:4 — Solution"
-line_start: 21815
-line_end: 21865
+line_start: 21826
+line_end: 21876
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -32,7 +32,7 @@ keywords:
 
 #### A.7.1:4.1 - Retain the complete application boundary
 
-This A.7.1 `U.MethodDescription` episteme narrows the method claims stated by `C.19.2` for consequence-guided ontology analysis. When applying A.7.1, retain the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, and separation among the MethodDescription episteme, described Method, reader, performing System, separately declared assignment species, actual assignment occurrence, obtaining F.6 attribution, dated Work, and result, as well as the positive stop and reopen rule. A short result may omit an assignment identifier that no later claim uses without denying an otherwise established assignment or attribution. This is description-level claim reuse; it adds no relation occurrence between the described Methods.
+This A.7.1 `U.MethodDescription` episteme narrows the method claims stated by `C.19.2` for consequence-guided ontology analysis. When applying A.7.1, retain the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, and separation among the MethodDescription episteme, described Method, reader, A.13-qualified performing System, independently admitted dated Work, and result. Add a separately declared assignment species, obtaining occurrence, and F.6 attribution only when the receiving analysis use expressly consumes that precise assignment-bound attribution. A missing or failed F.6 relation leaves the Work intact. This wording adds no relation occurrence between the described Methods.
 
 The normal short path uses the already selected A.7.1 analysis method as its one current apparatus. It begins from one exact engineering subject, exact subject predicate, and the pattern description locating that predicate; subject and predicate are inputs and constraints, not apparatus candidates. Use `C.18` only when the team must generate or reframe alternative analysis methods, models, formalisms, or other direct-kind apparatuses for the same declared use. Use `C.11` only when two or more already-available apparatuses are eligible for that same use and guarantee, making a real local-choice question current. After selection, use the planning Method described in `A.15.2` and identify dated Work under the predicate defined in `A.15.1`; `C.24` enters only for tool-call enactment planning.
 

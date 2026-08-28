@@ -6,20 +6,22 @@ section_id: "A.15.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__005_solution.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:4 — Solution"
-line_start: 26817
-line_end: 26873
+line_start: 26899
+line_end: 26955
 dependencies:
   - "A.1"
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.4"
   - "A.15.5"
   - "A.15.7"
+  - "A.2.1"
   - "A.2.2"
   - "A.22"
   - "A.6.RCD"
@@ -53,7 +55,7 @@ An arrangement remains ordinary prose unless another use needs an exact `U.Struc
 3. **Recover concrete contributions and dependencies.** Translate words such as *attention*, *memory*, *computation*, and *checking* into exact sensing, selection, monitoring, operation, record, state, evaluation, communication, access, update, control, or other direct relations. For actual Work, retain only relations whose obtaining, loss, or change can alter continuation, result, or recovery of that occurrence. For a WorkPlan, retain only relations whose obtaining, loss, or change can alter the current plan, proposed configuration, or intended-performance content. For every attempted relation claim, name the exact participants and receiving use. When a current predicate definition, applicability condition, occurrence rule, or other governor can state or test it, apply that governor and preserve its result: use `factually unsupported` only when the available case basis is sufficient and the positive test fails, `missing-information` when a needed fact is unavailable, and an inapplicable or negative result only under the governor's own rule. Return `missing-governor` only when no current rule can state or test the attempted claim for those participants and that use. Name capability and authority only when their direct claims are current.
 4. **Expose the minimum continuation state.** For each value needed after interruption, handoff, support loss, or delay, state what it concerns, where it resides, who or what may update and use it, how currentness or consistency is determined, and which return condition makes it usable. Keep world state, claims, carriers, and cues distinct.
 5. **Select the weakest decision-changing condition.** Choose one representative interruption, handoff, degraded support, changed performer, changed tool or environment, or delayed-continuation condition. Apply it to the named Work occurrence in the actual branch. In the prospective branch, formulate it as a condition of the current WorkPlan, proposed configuration, or intended-performance content. If executing the probe creates actual test Work or a later performance, admit that occurrence separately under `A.15.1`; otherwise keep the condition in the plan or probe claim. Do not demand a ritual battery.
-6. **Run the direct domain probe and observe recovery.** Select an applicable human-factors, biological, software, robotics, operations, rehearsal, safety, or other domain `U.Method` only to define or constrain the probe, mechanism, thresholds, safety rules, and evidence rules. When the probe is executed, admit its dated probe Work separately under `A.15.1`, name the admitted performer System and F.6 attribution, and state that the Work enacts the Method. When it remains prospective, keep it as a condition in the WorkPlan or probe claim. Observe result recovery, time or burden where material, wrong continuation, missing or stale state, unsupported dependency, protected-condition loss, and fallback or stop. This pattern supplies no universal cue, timeout, checkpoint algorithm, intervention, or safety threshold.
+6. **Run the direct domain probe and observe recovery.** Select an applicable human-factors, biological, software, robotics, operations, rehearsal, safety, or other domain `U.Method` only to define or constrain the probe, mechanism, thresholds, safety rules, and evidence rules. When the probe is executed, recover each actual performer through A.13 and admit its dated probe Work separately under `A.15.1`; state that the Work enacts the Method. Add A.2.1 and F.6 only when this probe account expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. A missing or failed attribution leaves the probe Work intact. When the probe remains prospective, keep it as a condition in the WorkPlan or probe claim. Observe result recovery, time or burden where material, wrong continuation, missing or stale state, unsupported dependency, protected-condition loss, and fallback or stop. This pattern supplies no universal cue, timeout, checkpoint algorithm, intervention, or safety threshold.
 7. **Return one branch-specific account to direct owners.** State which exact Work occurrence or present WorkPlan is the focus, what configuration is supported for which occurrence or intended-performance content and window, what failed or remains unknown, and the next relation or configuration repair or stop. Return System identity to `A.1` or `B.2`, Structure to `A.22`, architecture to `C.30`, capability to `A.2.2`, actual Work and resumption identity to `A.15.1`, plan content and plan change to `A.15.2`, representations to their direct owners, evidence to `A.10`, and a receiving choice to `C.11` or `A.15.7`.
 
 #### A.15.8:4.3 - Return the first result in plain language

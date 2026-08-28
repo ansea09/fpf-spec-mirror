@@ -6,14 +6,15 @@ section_id: "G.6:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__002_problem-frame.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:1 — Problem Frame"
-line_start: 102300
-line_end: 102324
+line_start: 102461
+line_end: 102485
 dependencies:
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.PROD"
   - "A.2.1"
@@ -60,7 +61,7 @@ Use this pattern when a later user must cite, replay, audit, or refresh a path t
 
 Use it when the working question is:
 
-* which admitted dated Work occurrences and actual performer Systems must remain addressable, together with their already-established F.6 attribution and any local system-role kind or assignment identifier that the path separately uses;
+* which admitted dated Work occurrences and A.13-qualified actual performer Systems must remain addressable, together with already-established F.6 attribution refs only when the selected path expressly consumes precise assignment-bound attribution, and any local system-role kind or assignment identifier that the path separately uses;
 * which direct participation or binding facts, produced entities, domain results, result epistemes, outcomes, source publications, carriers, and provenance relations must remain addressable;
 * which exact direct relations connect those objects, which pattern defines or constrains each relation, and whether each relation is already established as obtaining;
 * which bounded context, reference plane, time window, bridge, edition, policy, source-currentness result, or reliance boundary limits the cited path;

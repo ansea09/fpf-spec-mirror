@@ -6,12 +6,12 @@ section_id: "F.18:9"
 section_title: "Conformance Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__011_conformance-checks.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:9 — Conformance Checks"
-line_start: 98479
-line_end: 98504
+line_start: 98619
+line_end: 98644
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,7 +60,7 @@ Use these checks before a durable name is reused in a pattern. If an F.17 row is
 | Local-plain non-use | A one-off claim about whether an exact Bridge suits a named use stays in ordinary wording. No `NameCard`, public claim kind, or durable CamelCase name is created unless an independent later reuse need reopens F.18. |
 | Lineage and reopen | Rename, alias, split, merge, and retirement history is recorded under `F.13`, and the card names the smallest value, scheme, sense, subject pattern, use, or reader-error change that reopens this settlement. |
 | Reader use | A practitioner can tell what to say, what not to infer, and where to go if the name is not enough. |
-| Work-name boundary | An action nominal remains a morphology cue: a hidden claim-bearing function-like use goes through A.6.F, while an already recovered Method, MethodDescription, required-transformation or required-effect claim, actual `U.Transformation`, `TransformationFlowStructure` locus, functional-view record, plan content, or other value is named only under its direct pattern. A WBS or Work Package label remains plan- or assignment-episteme content. A performed-Work name is accepted only for one occurrence grounded under A.15.1 and attributed under F.6 as stated in section 5.3; a compact naming account may omit unused references, not the facts. Neighbouring production claims, measurement results, evaluation results, decisions, delivery occurrences, and acceptance verdicts stay under their direct patterns. |
+| Work-name boundary | An action nominal remains a morphology cue: a hidden claim-bearing function-like use goes through A.6.F, while an already recovered Method, MethodDescription, required-transformation or required-effect claim, actual `U.Transformation`, `TransformationFlowStructure` locus, functional-view record, plan content, or other value is named only under its direct pattern. A WBS or Work Package label remains plan- or assignment-episteme content. A performed-Work name is accepted only for one occurrence whose exact actual performers have A.13 cores and which A.15.1 independently grounds. Add assignment and F.6 refs only when the naming record or receiving use expressly represents precise assignment-bound attribution; missing or failed F.6 leaves the Work name intact. Neighbouring production claims, measurement results, evaluation results, decisions, delivery occurrences, and acceptance verdicts stay under their direct patterns. |
 
 Regression checks:
 

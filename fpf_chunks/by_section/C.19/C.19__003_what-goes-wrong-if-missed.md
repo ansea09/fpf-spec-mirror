@@ -6,12 +6,12 @@ section_id: "C.19:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__003_what-goes-wrong-if-missed.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0.1 — What goes wrong if missed"
-line_start: 49421
-line_end: 49426
+line_start: 49493
+line_end: 49498
 dependencies:
   - "A.10"
   - "A.19.CPM"

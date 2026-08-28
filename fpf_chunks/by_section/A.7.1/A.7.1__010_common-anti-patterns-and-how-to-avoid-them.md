@@ -6,12 +6,12 @@ section_id: "A.7.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 21895
-line_end: 21905
+line_start: 21906
+line_end: 21916
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -36,6 +36,6 @@ keywords:
 | Treat missing evidence as a missing kind. | Return to measurement/evidence with the exact blocked claim. |
 | Run constructive analysis for every typed relation. | Stop when direct kinds, positions, direction, time, and identity already determine the move. |
 | Treat a graph, predicate, or formal class as the world construction. | Recover CT2R loss and the direct subject construction before reverse inference. |
-| Let the MethodDescription episteme, reader designation, local system-role kind, or assignment do the Work. | Name the performing `U.System`, dated ontology-analysis `U.Work`, and Method; use F.6 to identify the assignment under which the System acted. A short repair may omit an unused assignment identifier. Neither the kind nor the assignment acts. |
+| Let the MethodDescription episteme, reader designation, local system-role kind, or assignment do the Work. | Recover the exact performing `U.System` through A.13, then let A.15.1 independently admit the dated ontology-analysis `U.Work` and enacted Method. Add F.6 only when the repair also consumes precise assignment-bound attribution; its absence or failure leaves the Work intact. Neither the kind nor the assignment acts or supplies classification. |
 | Copy the twelve compact claims into the method. | Cite exact `A7CP-*` IDs only when load-bearing; keep `A.7.CP` as the authoritative source. |
 

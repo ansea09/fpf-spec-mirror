@@ -6,12 +6,12 @@ section_id: "E.24.PUB:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__002_use-this-when.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:0 — Use This When"
-line_start: 90137
-line_end: 90157
+line_start: 90275
+line_end: 90295
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -39,7 +39,7 @@ Use this pattern when an ontic or another entity is encountered through a card, 
 
 **Primary working reader.** A practitioner or FPF author deciding whether a visible thing is a claim-bearing episteme, a `U.View`, a publication form, a C.29 representation, a `U.PresentationCarrier`, or evidence of one publication occurrence.
 
-**First useful move.** Put the intended receiving use in the bounded-use declaration itself. Then say, in one sentence, which episteme edition is available, to which declared audience, for which bounded use, in which publication form, and on which presentation carrier. Cite a separate plan, decision question, or `U.WorkPlan` only when it independently exists and changes the publication claim; it is not a second required statement of intended use. Availability establishes none of actual access, reliance, use, Work, or result. When one of those stronger claims is independently current, follow its direct pattern—A.15.1 and F.6 for Work attribution, A.6.1 for an operation binding, C.11 for a `ChoiceResult`, or the exact access, reliance, or use relation—without reproducing its test here. Open the heavier publication-relation declarations only when the receiving use depends on availability, its declared boundary, or publication-occurrence identity.
+**First useful move.** Put the intended receiving use in the bounded-use declaration itself. Then say, in one sentence, which episteme edition is available, to which declared audience, for which bounded use, in which publication form, and on which presentation carrier. Cite a separate plan, decision question, or `U.WorkPlan` only when it independently exists and changes the publication claim; it is not a second required statement of intended use. Availability establishes none of actual access, reliance, use, Work, or result. When a precise performed-Work claim is independently current, recover each exact actual performer through A.13 and let A.15.1 independently admit the dated Work; add F.6 only when that claim or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Follow A.6.1 for an operation binding, C.11 for a `ChoiceResult`, or the exact access, reliance, or use relation without reproducing its test here. Open the heavier publication-relation declarations only when the receiving use depends on availability, its declared boundary, or publication-occurrence identity.
 
 **What goes wrong if missed.** A visible layout is treated as the described subject, a file is treated as the claims it carries, a diagram is treated as a view merely because it is graphical, or a currently available episteme is turned into a durable `U.EpistemePublication` kind. The receiving work then cannot tell which object changed when claims, layout, carrier, audience, or use changes.
 

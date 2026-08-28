@@ -6,12 +6,12 @@ section_id: "A.6.5:8"
 section_title: "Common Failure Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__009_common-failure-modes-and-repairs.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:8 — Common Failure Modes and Repairs"
-line_start: 19439
-line_end: 19455
+line_start: 19450
+line_end: 19466
 dependencies:
   - "A.15.3"
   - "A.6.0"

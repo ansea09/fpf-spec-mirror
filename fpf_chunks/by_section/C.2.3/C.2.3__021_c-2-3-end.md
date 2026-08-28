@@ -6,12 +6,12 @@ section_id: "C.2.3:End"
 section_title: "C.2.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__021_c-2-3-end.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:End — C.2.3:End"
-line_start: 43047
-line_end: 43048
+line_start: 43119
+line_end: 43120
 dependencies:
   - "A.16"
   - "A.18"

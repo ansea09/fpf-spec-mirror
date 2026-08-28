@@ -6,12 +6,12 @@ section_id: "A.7.CP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__001_intro.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:intro — Intro"
-line_start: 22150
-line_end: 22155
+line_start: 22161
+line_end: 22166
 dependencies:
   - "A.7"
   - "A.7.1"

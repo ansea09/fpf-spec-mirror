@@ -6,12 +6,12 @@ section_id: "C.23:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__003_problem.md"
-commit_sha: "3f6714ae3235e0d771dce32835be7696f626d2ee"
+commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:2 — Problem"
-line_start: 52274
-line_end: 52283
+line_start: 52346
+line_end: 52355
 dependencies:
   - "A.10"
   - "B.3"
