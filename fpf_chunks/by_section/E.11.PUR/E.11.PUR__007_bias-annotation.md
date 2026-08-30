@@ -6,12 +6,12 @@ section_id: "E.11.PUR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__007_bias-annotation.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:6 — Bias-Annotation"
-line_start: 78347
-line_end: 78354
+line_start: 79303
+line_end: 79310
 dependencies:
   - "A.15"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "C.32.ADR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__008_conformance-checklist.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:7 — Conformance Checklist"
-line_start: 65711
-line_end: 65722
+line_start: 66251
+line_end: 66262
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 71935
-line_end: 72358
+line_start: 72881
+line_end: 73304
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -249,7 +249,7 @@ A result maintained outside the receiving framework may answer the reader's use 
 | S-10 | Punchy Blocks | <= 5 sentences per paragraph; lists for clarity. |
 | S-11 | Narrative Flow | Ensure sections read as a continuous story, not bullet soup. |
 | S-12 | Full sentences over tags | Avoid “keyword soup”. Each list item SHOULD contain a subject and a verb; prefer 2-4 sentence micro-paragraphs to bare tag lists. |
-| S-13 | SoTA-Echo structure | In the SoTA-Echoing section, present: **claim -> practice -> source -> alignment -> adoption status (adopt, adapt, or reject)**. When the claim also uses an obtaining Bridge between two exact F.17 local senses, cite that relation and a separate bounded-use claim; `CL` is optional. Cite an applicable plane relation separately. A source import, context difference, or plane difference alone creates no Bridge or penalty. |
+| S-13 | SoTA-Echo structure | Name the practice question, selected best-known line, serious alternative or default, defect overcome, exact pattern mutation, source roles and limits, and reopen condition. Assign roles from answer-changing content, not authority, prevalence, freshness, or praise: an official source may be the best-known line if its answer wins; lineage-only and identity/currentness-only material stays outside. |
 | S-14 | Didactic-content sufficiency | New and substantially revised patterns carry enough didactic content to be teachable without nearby project notes. |
 | S-15 | Worked slices over scenario labels | Transform-like families show at least one concrete source and resulting-publication slice; scenario names alone are not enough. |
 | S-16 | Ordinary vs FPF-governed wording realism | Keep ordinary use light, and make heavier review records explicit only for disputed, high-risk, or higher-impact cases. |

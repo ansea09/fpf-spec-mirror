@@ -6,12 +6,12 @@ section_id: "A.3.4.P:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__013_relations.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:12 — Relations"
-line_start: 9891
-line_end: 9898
+line_start: 9902
+line_end: 9909
 dependencies:
   - "A.10"
   - "A.15.1"

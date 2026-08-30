@@ -6,12 +6,12 @@ section_id: "E.10:19"
 section_title: "E.10 regression cues (concept-only “diff” triggers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__021_e-10-regression-cues-concept-only-diff-triggers.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:19 — E.10 regression cues (concept-only “diff” triggers)"
-line_start: 75311
-line_end: 75328
+line_start: 76261
+line_end: 76278
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:End"
 section_title: "A.19.ULSAM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__016_a-19-ulsam-end.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:End — A.19.ULSAM:End"
-line_start: 33297
-line_end: 33298
+line_start: 33833
+line_end: 33834
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

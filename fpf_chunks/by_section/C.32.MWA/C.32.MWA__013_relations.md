@@ -6,12 +6,12 @@ section_id: "C.32.MWA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__013_relations.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:12 — Relations"
-line_start: 64936
-line_end: 64942
+line_start: 65476
+line_end: 65482
 dependencies:
   - "A.15.1"
   - "A.22"

@@ -6,12 +6,12 @@ section_id: "F.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__005_forces.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:3 — Forces"
-line_start: 96152
-line_end: 96161
+line_start: 97133
+line_end: 97142
 dependencies:
   - "A.1.1"
   - "A.10"

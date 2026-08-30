@@ -6,12 +6,12 @@ section_id: "C.19.1:6"
 section_title: "Payload - exports"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__008_payload-exports.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:6 — Payload - exports"
-line_start: 49988
-line_end: 49995
+line_start: 50528
+line_end: 50535
 dependencies:
   - "A.0"
   - "A.10"

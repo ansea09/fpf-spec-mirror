@@ -6,12 +6,12 @@ section_id: "C.32.ADA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 66024
-line_end: 66036
+line_start: 66564
+line_end: 66576
 dependencies:
   - "A.1.1"
   - "A.10"

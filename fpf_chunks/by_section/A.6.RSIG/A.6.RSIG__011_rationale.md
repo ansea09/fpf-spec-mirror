@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__011_rationale.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:10 — Rationale"
-line_start: 11034
-line_end: 11046
+line_start: 11045
+line_end: 11057
 dependencies:
   - "A.6"
   - "A.6.P"

@@ -6,12 +6,12 @@ section_id: "A.7.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__008_bias-annotation.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:6 — Bias-Annotation"
-line_start: 21885
-line_end: 21890
+line_start: 21896
+line_end: 21901
 dependencies:
   - "A.7"
   - "A.7.2"

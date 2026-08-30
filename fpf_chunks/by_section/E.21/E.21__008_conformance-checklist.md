@@ -6,12 +6,12 @@ section_id: "E.21:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__008_conformance-checklist.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:6 — Conformance checklist"
-line_start: 88159
-line_end: 88183
+line_start: 89125
+line_end: 89150
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -51,7 +51,8 @@ keywords:
 | `CC-E21-6a` | Keep corpus-projection; README, ToC, `E.11`, and `I.2` alignment; retrieval or cold-reader evidence; monolith-parity; `PatternQualityStatus`; developer, reviewer, and executor correspondence; and other quality evidence out of the pattern unless the pattern's own `EntityOfConcern` and user-facing action are that evaluation or projection work. Part E patterns may define or guide FPF-pattern authoring, review, evaluation, entry, or publication as their subject matter; that does not license rationale or instructions about developing the same pattern version. Test what the sentence is doing, not whether it contains a listed word. If such material appears anywhere in the pattern, including notes, appendices, `Relations`, `Rationale`, `SoTA-Echoing`, examples, tables, conformance rows, or any other host or monolith pattern section, as development, review, projection, or quality-status content about the pattern, lower `CorpusEntryProjectionAndEcologyFit`, `EntityOfConcernPrimacyAndSemioBiasResistance`, and the affected action or usability coordinates. |
 | `CC-E21-7` | For any `5`, name the reinforcing evidence loci required by that coordinate's `5` meaning; otherwise lower the coordinate to `4` or below. |
 | `CC-E21-8` | For `MaturePatternParityAndSelectedContentSufficiency = 4` or `5`, include a compact maturity-discharge payload: comparator id, selected ingredient, current locus, and missing or lowering item if any; category lists without loci cap the coordinate at `3`. |
-| `CC-E21-9` | Apply E.8's source-family and incorporation tests to every retained source row. Compare current approaches against E.21's actual design problem, carry each adopted or rejected effect into a named Solution, evidence, calibration, case, checklist, or stop locus, and qualify any FPF-local synthesis that the sources do not validate. |
+| `CC-E21-9` | Invoke the canonical definition and positive comparison contract in `E.8:11` for every positive SoTA judgement; use `F.1` only to inspect whether its source cut can support that comparison. For `SoTABindingAndCurrentness = 4` or `5`, include one complete `E.8:11` comparison payload by value. A relevance/currentness table plus adopt/adapt/reject labels is below the ordinary floor when that comparison is absent. |
+| `CC-E21-9a` | Treat source identity and currentness as supporting traceability only. Official, popular, maintained, canonical, highly cited, recent, or academically praised status supplies zero positive evidence for `bestKnownLine`; a registry or publisher check cannot raise `SoTABindingAndCurrentness`. An official or widespread source can still fill `bestKnownLine` when its substantive answer independently wins the required comparison. A value `5` additionally names the replayable comparison and reinforcing loci that make `4` too weak rather than adding bibliography, prevalence, or freshness. |
 | `CC-E21-10` | Keep measurement, score, scale, formal, causal, mathematical, QL, simulation, representation, or learned-lens claims under `C.16`, `A.17`, `A.18`, `A.19`, or the pattern that defines, constrains, or tests the claim when the evaluated pattern makes those claims. |
 | `CC-E21-11` | State floor satisfaction, remaining bounded non-use, and lowering or reopen conditions in any stop claim. |
 | `CC-E21-12` | Keep coordinate rationale separate from improvement proposal rows. |

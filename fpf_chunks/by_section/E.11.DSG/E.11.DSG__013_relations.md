@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.DSG"
-pattern_title: "DPF Suite Guide"
+pattern_title: "DPF Suite Reference"
 section_id: "E.11.DSG:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__013_relations.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
-  - "E.11.DSG — DPF Suite Guide"
+  - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:12 — Relations"
-line_start: 78889
-line_end: 78895
+line_start: 79838
+line_end: 79844
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -32,8 +32,8 @@ keywords:
 
 ### E.11.DSG:12 - Relations
 
-- **Specializes:** `E.11` for one maintained cross-DPF guide product; it does not specialize `E.11.PFP`.
-- **Uses:** `E.4:4.2` and `E.4.PFAD` for product-series and Suite constitution, edition-to-product belonging, Suite inclusion and removal, and their decisions; `A.14` for the distinction between collection belonging and constructive parthood; `C.2.1` for Guide and DPF editions and their continuity; and `G.5` only for an actual `JointUseSet`.
+- **Specializes:** `E.11` for one maintained cross-DPF Reference product; it does not specialize `E.11.PFP`.
+- **Uses:** `E.4:4.2` and `E.4.PFAD` for product-series and Suite constitution, edition-to-product belonging, Suite inclusion and removal, and their decisions; `A.14` for the distinction between collection belonging and constructive parthood; `C.2.1` for Reference and DPF editions and their continuity; and `G.5` only for an actual `JointUseSet`.
 - **Coordinates with:** `E.4.PFR` for exact edition dependency and compatibility; `C.2.P` and `F.9` for derivatives and cross-scheme use; `E.17`, `E.24.PUB`, and `G.11` for source return, publication, availability, and currentness; `E.11.PUA` and `E.11.PUR` for actual selected-pattern use and pattern-use coordination.
-- **Constrains:** public DPF suite guide entries, guide-level metadata and warnings, source-return projections, persisted lookup answers, and returns after inclusion, availability, identity, or retirement changes.
+- **Constrains:** public DPF Suite Reference entries, Reference-level metadata and warnings, source-return projections, persisted lookup answers, and returns after inclusion, availability, identity, or retirement changes.
 

@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__008_conformance-checklist.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:7 — Conformance Checklist"
-line_start: 69541
-line_end: 69558
+line_start: 70521
+line_end: 70538
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -58,5 +58,5 @@ keywords:
 | CC-PFAD.6 Object boundaries | Answer, acceptance, DRR, authoring Work, Method results, edition, and publication remain distinct; proposal locators identify none of them. For a programme answer, the exact persisting subjects, provider and maintaining Systems, any admitted service state, each bounded inquiry Work occurrence, and each evidence-package edition remain distinct. |
 | CC-PFAD.7 Conditional apparatus | Naming, quality, admission, currentness, and package details appear only when they change the answer or serve a named use. |
 | CC-PFAD.8 Reopen condition | The DRR states what change in field boundary, framework architecture, evidence, or receiving use requires reconsideration. |
-| CC-PFAD.9 DPF Suite decision | A selected Suite answer states the ecosystem use, which product series may belong, Suite constitution, inclusion and removal rules, identity when product series change, maintenance commitment, source return and refresh conditions, exposure choice, alternatives, consequences, and reopen condition. It separately states edition-to-product belonging and whether the Guide product series has been constituted and included. Belonging establishes no holonhood, constructive parthood, dependency, or compatibility; a stronger claim needs its own complete predicate. |
+| CC-PFAD.9 DPF Suite decision | A selected Suite answer states the ecosystem use, which product series may belong, Suite constitution, inclusion and removal rules, identity when product series change, maintenance commitment, source return and refresh conditions, exposure choice, alternatives, consequences, and reopen condition. It separately states edition-to-product belonging and whether a DPF Suite Reference product series has been constituted and included. Belonging establishes no holonhood, constructive parthood, dependency, or compatibility; a stronger claim needs its own complete predicate. |
 

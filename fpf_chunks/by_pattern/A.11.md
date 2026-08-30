@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.11.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "A.11 — Ontological Parsimony"
-line_start: 22984
-line_end: 23129
+line_start: 23334
+line_end: 23479
 dependencies:
   - "A.6.P"
   - "A.6.RCD"

@@ -6,12 +6,12 @@ section_id: "E.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__005_solution.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:4 — Solution"
-line_start: 87716
-line_end: 88038
+line_start: 88666
+line_end: 89004
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -87,7 +87,7 @@ An E.21 result evaluates one exact edition for one declared use. It does not val
 | `WorkingReaderScope` | Working-reader family, viewpoint, and first-use situation the pattern must serve. |
 | `IntendedUse` | Action that may use the result: continue drafting, admit for declared use, repair, refresh, or compare candidates. |
 | `QualificationWindow` | Edition, SoTA, related-pattern, release, time, or comparison window in which the evaluation is current. |
-| `EvaluationEvidenceBasis` | Checked evidence loci named by value for the evaluation: pattern body version, host or monolith section, README scenario, ToC row, `E.11` entry-distribution locus, `I.2` expanded entry-disambiguation case when corpus-facing, card or retrieval cue when claimed, source-currentness locus when SoTA/currentness is valued, mature comparator set when maturity is valued, and worked case or absence of worked case when case coverage is valued. Inclusion here is neither a witness claim nor an evidence-use relation. |
+| `EvaluationEvidenceBasis` | Checked evidence loci named by value for the evaluation: pattern body version, host or monolith section, README scenario, ToC row, `E.11` entry-distribution locus, `I.2` expanded entry-disambiguation case when corpus-facing, card or retrieval cue when claimed, the best-known-line comparison and source-role loci when SoTA is valued, source-identity/currentness traces when replayability or the qualification window needs them, mature comparator set when maturity is valued, and worked case or absence of worked case when case coverage is valued. Inclusion here is neither a witness claim nor an evidence-use relation. |
 | `QualityEvaluationQuestionFrameRef` | `E.22` frame when purpose, floor, trade-offs, absorption, or proposal expectation needs to be declared. |
 | `PatternQualityEvaluationConfiguration` | Local input tuple binding the exact checked pattern, scope, use, reader, and window, characteristic space and specification, question frame when used, and evidence basis, plus the semantic evaluation Method only when its identity or actual assessment Work is asserted. It is neither a new U-kind nor performed work. |
 | `SemanticPatternQualityEvaluationMethodRef` | Reference to the exact semantic `U.Method` when Method identity or actual assessment Work is asserted. Exact assessment Work enacts that Method; the E.21 specification and coordinate table do not become the Method merely by being consulted. |
@@ -185,7 +185,7 @@ The result-bearing coordinate row has exactly this shape:
 
 A two-column coordinate-and-value table, a narrative paragraph, a table whose comment lacks adjacent-value comparison, or a result whose value depends on unchecked external loci is not an `E.21` result. It is only draft evaluation material until every coordinate has a `ShortRationale` row and the result names the `EvaluationEvidenceBasis` used for values that depend on source, comparator, corpus, projection, or worked-case evidence.
 
-A `ShortRationale` is allowed to be compact, but it is not allowed to be evidenceless. When the value depends on a source-currentness row, mature comparator, README scenario, ToC row, `E.11` entry-distribution locus, `I.2` expanded entry-disambiguation case, card, retrieval cue, monolith section, worked slice, near-miss, or anti-case, the rationale names that locus by value or says that the locus was missing or unchecked. "By value" means a recoverable section, row, case, checklist item, relation, source row, projection row, comparator id plus selected ingredient, or specific absent locus; a category list such as "entry, first move, boundaries, SoTA, checklist, relations" is not by-value discharge. Missing or unchecked evidence lowers the value for the coordinate that needs it; it does not create a separate "not evaluated" result.
+A `ShortRationale` is allowed to be compact, but it is not allowed to be evidenceless. When the value depends on a source-currentness row, mature comparator, README scenario, ToC row, `E.11` entry-distribution locus, `I.2` expanded entry-disambiguation case, card, retrieval cue, monolith section, worked slice, near-miss, or anti-case, the rationale names that locus by value or says that the locus was missing or unchecked. "By value" means a recoverable section, row, case, checklist item, relation, source row, projection row, comparator id plus selected ingredient, or specific absent locus; a category list such as "entry, first move, boundaries, SoTA, checklist, relations" is not by-value discharge. Missing or unchecked evidence lowers the value for the coordinate that needs it; it does not create a separate "not evaluated" result. For `SoTABindingAndCurrentness`, source identity and currentness support traceability only: one completed canonical `E.8:11` comparison determines the SoTA value.
 
 A `5` is not a reward for clear early wording, named neighbour relations, or a well-formed field set alone. It needs exceptional expression for the declared use: reinforcing loci, a worked or otherwise replayable slice where the coordinate demands one, and no hidden cost or neighbour loss. When the evaluator cannot say why `4` would understate the evidence, assign `4` or lower.
 
@@ -244,7 +244,7 @@ For every conforming E.21 result, an admitted evaluator `U.System` applies the e
 | `ClaimJustificationTraceabilityCurrentnessAndReplayability` | Whether the claim is replayable from pinned text, scope, evidence, currentness basis, limitations, status, and stop reason. |
 | `CaseCountercaseAndTransferCoverage` | Whether positive cases, near-misses, anti-cases, and transfer cases match the breadth claimed. |
 | `MaturePatternParityAndSelectedContentSufficiency` | Whether selected mature-pattern ingredients are present in the body or related patterns for this `EntityOfConcern` and use. |
-| `SoTABindingAndCurrentness` | Whether current best-known practice changes the pattern and has reopen and currentness discipline. |
+| `SoTABindingAndCurrentness` | Whether the pattern's positive SoTA claim satisfies the canonical definition and comparison contract in `E.8:11` and binds that selected answer into exact pattern loci. Source identity/currentness, officiality, prevalence, and praise are supporting context and cannot raise this coordinate; an official source may still win from its substantive answer. |
 | `FormalClaimAdmissibilityAndLensFit` | Whether measurement, scale, comparison, formal model, simulation, causal, mathematical, QL, or learned-lens claims are admissible for their stated use, connected to the pattern content that defines, constrains, or tests their admissibility at the precision the claim needs, or correctly absent. |
 | `FalsifiabilityAndLoweringCondition` | Whether coordinate values, status, and stop claims say what would raise, lower, or reopen the evaluation. |
 | `CorpusEntryProjectionAndEcologyFit` | Whether README scenarios, ToC query cues, Preface cues, `E.11` entry-distribution loci, `I.2` expanded entry-disambiguation cases, cards, summaries, retrieval snippets, durable names, relations, and corpus ecology preserve the scoped quality result without becoming authority-bearing publication faces, stale echoes, or pattern content. Corpus-entry and projection evidence belongs in the `E.21` result, `E.19` run record, README, ToC, `E.11`, `I.2`, retrieval or card publication locus, or other quality evaluation locus unless the pattern of concern's own `EntityOfConcern` and user-facing action are that projection or evaluation work. |
@@ -273,7 +273,7 @@ These rows calibrate common disagreements. They do not replace the coordinate de
 | `ClaimJustificationTraceabilityCurrentnessAndReplayability` | Fields or sources exist but replayability and currentness basis are incomplete. | The claim can be replayed from pinned text, evidence, currentness basis, status, and stop reason. | A filled evidence and currentness slice shows how the claim is replayed and when it reopens. |
 | `CaseCountercaseAndTransferCoverage` | Archetypes are listed, but no filled worked case or near-miss exercises the claim. | At least one filled worked case plus a near-miss or anti-case covers the declared use. | Heterogeneous cases, countercases, and transfer slices cover the breadth claimed. |
 | `MaturePatternParityAndSelectedContentSufficiency` | Mature comparators are named or implied, but selected mature ingredients are not discharged by value. | Mature comparators are named and selected ingredients are discharged by value in the body or related patterns named by value. | Mature parity is shown across reinforcing body sections, related patterns, omissions, cases, and lowering conditions without copying irrelevant apparatus. |
-| `SoTABindingAndCurrentness` | Sources are relevant and not decorative, but currentness, source-use status, or reopen conditions are compact or incomplete. | Decision-governing sources state adopt, adapt, or reject disposition, content mutation, currentness window, and reopen condition. | The pattern compares current best-known practice against popular, official, or lineage alternatives and carries the resulting source decisions into solution, cases, boundaries, and refresh. |
+| `SoTABindingAndCurrentness` | A source set or currentness account is relevant, but the positive claim does not yet satisfy the `E.8:11` comparison; identity/currentness alone remains below the ordinary floor. | One complete `E.8:11` comparison is present by value, its selected line defeats or bounds a serious alternative at comparable effort, and the decision changes exact governed pattern loci. | A replayable comparison across reinforcing loci shows why `4` understates the binding; a longer, newer, more official, or more popular bibliography supplies no increase. |
 | `FormalClaimAdmissibilityAndLensFit` | Formal, scale, lens, or measurement terms are bounded but not exercised. | Formal, lens, and measurement claims are admissible for their stated use, bounded, and connected to the concrete pattern content that defines, constrains, or tests their admissibility when the evaluated pattern makes such claims; exact predicates are required only when the claim or named reliance needs them. | A worked formal, lens, or scale comparison shows what is preserved, lost, admissible, and not proved. |
 | `FalsifiabilityAndLoweringCondition` | Stop, waiver, or non-use fields exist, but lowering and reopen triggers for the main claims are mostly implicit. | The pattern states explicit lowering and reopen triggers for its main claims; named fields alone do not reach `4` unless they say what evidence change lowers, overturns, rejects, or reopens the claim. | Worked lowering or overturn cases show how values, status, or use change. |
 | `CorpusEntryProjectionAndEcologyFit` | Host text is coherent, but README, ToC, `E.11`, `I.2`, card, retrieval, monolith, or projection evidence is absent for a corpus-facing claim, or that evidence is placed anywhere in the pattern as method, note, appendix, relation, rationale, or quality-status content about the pattern. | Corpus-facing entry or projection loci are named and aligned enough for the declared use, and their evidence stays in the evaluation, result, or projection locus rather than entering the pattern. | Retrieval, stale-projection, cold-reader, or projection-update evidence shows corpus ecology stays aligned after change without leaking into the pattern. |
@@ -336,6 +336,22 @@ E.21 result:
 | Coordinate | Value | ShortRationale |
 |---|---:|---|
 | `<all RequiredPatternQualityCoordinates rows>` | `<0..5>` | `<assigned-value basis; why not lower; why not higher or what would lower or reopen>` |
+
+When `SoTABindingAndCurrentness` is `4` or `5`, the result also includes one completed instance of the canonical `E.8:11` comparison contract in the rationale or immediately after the coordinate table. The form below records that result; it does not redefine its fields:
+
+```text
+E.8:11 SoTA comparison:
+  practiceQuestion: <exact practice question>
+  bestKnownLine: <selected best-known current answer>
+  seriousAlternativeOrDefault: <rival or default compared>
+  defectOvercome: <action-changing defect or trade-off>
+  patternMutation: <exact Solution, boundary, case, check, relation, evidence, stop, or reopen locus>
+  sourceRolesAndLimits: <best-known candidate, rival, failure evidence, explicit comparator, and what each does not establish>
+  reopenCondition: <smallest evidence, rival, failure, or use change that reopens the judgement>
+```
+
+Source identity, publication status, currentness, and maintenance evidence may support `ClaimJustificationTraceabilityCurrentnessAndReplayability` and the qualification window. They cannot fill `bestKnownLine`, raise this coordinate, or replace the comparison payload.
+
 
 ```text
 First repair or stop: <repair | hold | local stop>

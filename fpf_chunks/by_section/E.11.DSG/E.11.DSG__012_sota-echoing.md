@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.DSG"
-pattern_title: "DPF Suite Guide"
+pattern_title: "DPF Suite Reference"
 section_id: "E.11.DSG:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__012_sota-echoing.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
-  - "E.11.DSG — DPF Suite Guide"
+  - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:11 — SoTA-Echoing"
-line_start: 78875
-line_end: 78888
+line_start: 79830
+line_end: 79837
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -32,15 +32,9 @@ keywords:
 
 ### E.11.DSG:11 - SoTA-Echoing
 
-| Current line | Contribution used here | Boundary |
-| --- | --- | --- |
-| Current FPF `E.11` and `E.11.PUA` | Situation-first entry, first useful result, progressive explicitness, and ordinary stop or return. | A guide entry remains weaker than the direct pattern and does not become project Work or a universal workflow. |
-| `ISO/IEC/IEEE 26514:2022, Design and development of information for users`, current published edition, `https://www.iso.org/standard/77451.html` | Establish users' information needs, choose presentation, prepare and make information available, and maintain its design through the life cycle. | **Adapt** those guide-level questions. **Reject** software-only scope, the full information-development process, and any inference that a filled template proves a useful guide entry. |
-| Diátaxis, `How-to guides`, living practitioner documentation checked 2026-08-22, `https://diataxis.fr/how-to-guides/` | Start from a real-world goal; allow forks, overlap, and multiple entry or exit points; keep action central and link distracting reference detail. | **Adapt** problem-led routing and economy of detail. **Reject** a universal four-part documentation taxonomy for FPF, a forced linear route, and the claim that a guide performs the reader's Work. |
-| Current FPF `E.8:4.1.3`, with `A.3.2`, `A.10`, `A.15.1`, `A.15.PROD`, and `C.2.1` at their direct uses | Distinguish an available maintained result, a maintained MethodDescription, direct-source evidence, and a named unavailable result; keep result production, description use, source use, and result availability separate. | **Adapt** the four readable Guide returns in `E.11.DSG:1.1`, the Solution opening, `E.11.DSG:4.2–4.3`, `CC-DSG.5`, and the list-as-answer repair. **Reject** a universal resource kind, source availability as result production, and any inference from co-listing to Suite belonging or a stronger relation. Reopen this choice if those direct FPF boundaries change enough to alter what a Guide can truthfully return. |
-| Current FPF `E.4`, `A.14`, `C.2.1`, and `G.5` | Separate the Suite collection, the product series that belong to it, edition identity, and the all-items-needed-for-one-use test. | The Guide defines none of those predicates and cannot establish them by presentation. |
-| Current FPF `C.2.P`, `F.9`, `E.17`, `E.24.PUB`, and `G.11` | Source-linked derivatives, semantic Bridges when needed, source-backed publication, availability, and currentness. | Shared title, visible carrier, locator, or recent date proves none of those claims. |
-| Reviewed cross-domain Guide situations | Organization/operation, legal, configuration, commercial, language, and contested-problem cases expose different justified depths. | They test the transferable form; they do not select product series for a Suite, project answers, or domain authority. |
+| Practice question | Best-known line | Serious alternative or default | Defect overcome and E.11.DSG mutation | Source roles and limits | Reopen condition |
+| --- | --- | --- | --- | --- | --- |
+| How should a reader with one cross-DPF question receive a truthful first answer without being forced through instruction or lookup machinery? | The best-known line currently available for this bounded FPF question combines `E.11`/`E.11.PUA` situation-first entry with the four independently governed returns from `E.8:4.1.3`, `A.3.2`, `A.10`, `A.15.1`, `A.15.PROD`, and `C.2.1`: an available maintained result, a maintained MethodDescription, direct-source evidence, or a named unavailable result. | Instructional how-to guidance is the serious popular default. Diátaxis [*How-to guides*](https://diataxis.fr/how-to-guides/) is retained only as that comparator: it begins from a real-world goal, permits forks, and keeps action central, but its instructional form assumes a task and procedure rather than a cross-product answer publication. | The default can turn the Reference into a tutorial, a forced sequence, or the reader's Work and can hide honest gaps. **Adapt:** the opening, `E.11.DSG:4.2–4.5`, cases, `CC-DSG.5`, and anti-patterns make the first answer short, progressive, source-returning, and explicit about gaps; **reject** a universal documentation taxonomy, mandatory detour, and co-listing as Suite or dependency evidence. | The FPF patterns supply the selected internal best-known line for this exact product boundary; the linked Diátaxis page is a popular-practice comparator, not SoTA-bearing evidence; cross-domain cases are transfer and counterexample evidence, not authority. No external source validates the DPF Suite Reference form. | Reopen if a serious current alternative gives a more truthful or lower-effort cross-product answer, if cold-reader evidence still classifies the Reference as instruction or lookup Work, or if the direct FPF return kinds and source/currentness boundaries change. |
 
-Reopen only the affected section when a direct FPF pattern changes the identity, relation, publication, source-return, progressive-entry, or currentness result used here; when a newer ISO/IEC/IEEE 26514 edition changes the relevant guidance; when the maintained Diátaxis guidance materially changes; or when cold-reader evidence shows that the short answer no longer supports truthful action. These external lines remain comparison aids, not the guide's ontology or a substitute for project evidence.
+The Suite collection, Reference and DPF product series, editions, answer, lookup Work, publication, carrier, availability, and currentness remain governed by their direct FPF patterns. Their identity or currentness evidence cannot raise the source comparison or make the Reference's answer true.
 

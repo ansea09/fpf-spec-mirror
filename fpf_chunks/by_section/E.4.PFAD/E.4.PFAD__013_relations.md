@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__013_relations.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:12 — Relations"
-line_start: 69611
-line_end: 69621
+line_start: 70579
+line_end: 70589
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -45,7 +45,7 @@ keywords:
 ### E.4.PFAD:12 - Relations
 
 - **Uses:** `E.9` for the one bounded answer selected by decision Work and recorded in the DRR.
-- **Uses:** `E.4`, `E.4.DPF`, and `E.4.DPF.DA` for framework scale, authoring, field coverage, and package assurance; uses `E.4:4.2` when one decision selects a maintained DPF suite and `E.11.DSG` when that suite has a separately maintained guide.
+- **Uses:** `E.4`, `E.4.DPF`, and `E.4.DPF.DA` for framework scale, authoring, field coverage, and package assurance; uses `E.4:4.2` when one decision selects a maintained DPF Suite and `E.11.DSG` when that Suite has a separately maintained DPF Suite Reference product series.
 - **Uses:** `C.32.MWA` when several practice structures need one readable synthesis; uses `E.23.CDI` only when capability development for a named Work family changes the answer.
 - **Uses:** `A.6.RCD`, `A.6.REL`, and the exact relation patterns for material relation assertions among initial patterns.
 - **Coordinates with:** `A.22`, `C.30.STRAT`, `B.1.5`, `A.15.1`, `C.30.AD`, and `C.36` for selected structures and exact architecture distinctions.

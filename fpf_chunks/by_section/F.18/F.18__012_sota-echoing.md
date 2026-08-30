@@ -6,12 +6,12 @@ section_id: "F.18:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__012_sota-echoing.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:10 — SoTA-Echoing"
-line_start: 98645
-line_end: 98657
+line_start: 99691
+line_end: 99706
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,14 +45,17 @@ keywords:
 
 ### F.18:10 - SoTA-Echoing
 
-Source use was checked on 2026-08-20. F.18 uses only the following lines in this decision; source prestige does not select an FPF value or name.
+**Question and selected answer.** How should one already identified value receive a durable name without turning a convenient word into a different object or making every local phrase into a maintained record? Under `E.8:11`, the best-known answer for this bounded use is a local-first settlement: stop at sufficient ordinary wording; otherwise compare plausible head-term families against the same value and reader situation, keep one Tech/Plain pair, and record why it was chosen and what would reopen it.
 
-| Current source and status | Adopted or adapted move | Exact F.18 effect | Limitation and smallest reopen condition |
-| --- | --- | --- | --- |
-| [ISO 704:2022](https://www.iso.org/standard/79077.html), published International Standard, and [ISO 1087:2019](https://www.iso.org/standard/62330.html), confirmed current in 2025 | Distinguish objects, concepts, definitions, and designations; make term formation and terminology decisions inspectable. | Supplies the value-before-label rule in 0 and 4.1, the separate value, kind, and designation fields in 4.2, and the rejection of dictionary substitution in 8. | The standards guide terminology work, not FPF ontic identity. Reopen only 4.1-4.3 and affected cases if a superseding ISO edition changes the selected concept and designation or term-formation distinction. |
-| W3C, [*SKOS Simple Knowledge Organization System Reference*](https://www.w3.org/TR/skos-reference/), W3C Recommendation 2009, latest Recommendation checked 2026-07-23 | Keep concepts, preferred or alternative lexical labels, notes, collections, semantic relations, and mapping relations distinct. | Strengthens 4.2, 7.5, 8, and 9: a label, card, row, shared spelling, or generic mapping does not become the governed value or an F.9 Bridge. | SKOS is a stable web-vocabulary model, not the FPF naming method or a source of FPF kinds. Reopen those four loci if W3C supersedes the Recommendation or changes the label/mapping distinction used here. |
-| Zhu, Reinecke, and Mitra, [*Language Scent: Exploring Cross-Language Information Navigation*](https://arxiv.org/abs/2604.03604), arXiv:2604.03604, 2026 preprint | Adapt contextual cues and in-situ recognizability as evidence for reader ergonomics; reject any inference from recognizability to cross-context equivalence. | Changes the reader-ergonomics probe in 4.3 and supports the conditional local labels in 7.2 and 7.5 while leaving exact value, local sense, and Bridge recovery mandatory. | The study is small, cross-language, and navigation-focused. Reopen only those probes and examples if stronger reader evidence reverses the observed value of contextual cues or exposes a new loss. |
-| Current FPF `C.18` front and archive discipline | Keep non-dominated candidates, archive members, and selection reasons distinct; expose dimensions and dominance when those methods are actually used. | Supplies the optional ordinal-comparison rule in 4.3; it does not require QD apparatus for an ordinary four-candidate naming decision. | This is comparison discipline, not proof that a label is ontologically correct. Reopen only 4.3 if the FPF front, dominance, or protected-dimension rule changes. |
+**Serious alternative.** A compact preferred-label entry with alternatives and a scope note is a real low-cost rival, not a careless dictionary substitution. [SKOS Reference, lexical labels, documentation, and mapping properties](https://www.w3.org/TR/skos-reference/), supplies that comparator and the useful separation of labels, concepts, notes, and mappings. It can carry a careful explanation and does not claim that a shared label proves identity. F.18 does not reject it for lacking FPF field names or require a different storage format.
+
+The remaining choice is about the naming decision. A preferred label and scope note can state what a term means while leaving unclear why a neighbouring head was rejected, whether ordinary wording would suffice, and which later use needs a durable settlement. At the effort of one naming discussion and one short note, F.18 spends attention on those distinctions rather than accumulating more synonyms. The trade-off is a slightly longer decision note, needed only for a reusable name. When a terminology entry already carries the same value, candidate comparison, use boundary, and reopen reason, reuse that content; neither a second naming decision nor corpus-wide normalization is warranted.
+
+**Adapt and reject by value.** Section `0` and steps 1–3 of section `4` keep the value and ordinary-wording exit before the card. Sections `4.1–4.3` require semantic fidelity before reader familiarity and make candidate coverage and the remaining risk inspectable. Cases `7.1` and `7.2` expose the concrete cost of a short head that confuses a system-role kind with an assignment, capability, Method, or Work; `4.2e` compares Reference with instructional and registry readings for one product form. These are semantic countercases, not measured gains in naming speed. Section `7.5` and the public-use branch in `4.4/4.4.1` preserve local wording and test a needed correspondence separately; a label or generic mapping is not authority for that use. **Reject** choosing by familiarity alone, adding a card for every phrase, or treating a source's preferred label as the identity or admission rule for the named thing.
+
+Reader ergonomics in `4.3` is therefore a probe on the actual candidate and readers, not a claim that a navigation study has selected an FPF name. A shorter label wins when it preserves the same recovered object and admitted use. `C.18` supplies comparison discipline only if Pareto or quality-diversity methods are actually used; it is not independent evidence that this name wins.
+
+**Reopen.** Compare again if a lighter naming procedure preserves the same object distinctions and later reuse with less effort; if readers still infer the wrong object from the chosen head; or if the actual use needs linguistic or multilingual modeling that the simple settlement does not support. No current catalogue entry, later edition, popularity, or publisher status can discharge that comparison.
 
 Currentness rule: when the pattern containing a value's direct rule, `C.2.1`, `F.9`, `A.10`, `B.3`, or `E.24.PUB` changes the value, card, sense, Bridge, bounded-use claim, reliance, or publication boundary, reopen only the affected invariant, field, case, or check. A future F.17 edition is consumed only through section 4.4; its change does not reopen local NameCards unless their supported public citation use or object references change.
 

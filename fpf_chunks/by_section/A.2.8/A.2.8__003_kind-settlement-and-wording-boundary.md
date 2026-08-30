@@ -6,12 +6,12 @@ section_id: "A.2.8:0.1"
 section_title: "Kind Settlement and Wording Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__003_kind-settlement-and-wording-boundary.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:0.1 — Kind Settlement and Wording Boundary"
-line_start: 6676
-line_end: 6681
+line_start: 6687
+line_end: 6692
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.7.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
-line_start: 26649
-line_end: 26847
+line_start: 27003
+line_end: 27201
 dependencies:
   - "A.10"
   - "A.13"

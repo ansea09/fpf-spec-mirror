@@ -6,12 +6,12 @@ section_id: "E.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__008_conformance-checklist.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:7 — Conformance Checklist"
-line_start: 69013
-line_end: 69026
+line_start: 70020
+line_end: 70033
 dependencies:
   - "C.33"
   - "C.34"
@@ -54,5 +54,5 @@ keywords:
 | CC-E4.6 Source-return present | Any carrier used as architecture evidence states captured structure, lost structure, admissible use, and the source to return to. |
 | CC-E4.7 Framework carrier structure-account explicit | A Readme, Preface, ToC, all-in-one carrier, skill-pack carrier, or other form-bearing framework carrier states which framework structures its selected form exposes for whom. An MCP, retrieval, search, or assistant route identifies the first form-bearing carrier or response it reaches and returns to the same account; it is not scored as that carrier. Missing form or adequacy content is repaired as an exact assertion using `E.4.FPF`, `E.4.DPF`, or `E.4.DPF.DA` before adoption or adequacy claims are made. |
 | CC-E4.8 Product boundary proportional and typed | *Product* remains Plain management wording. Every boundary names its direct subjects and the identity, edition, current-state, provision, or maintenance relations used by the decision. Framework support units share one boundary only when their edition, use, access, maintainer, and cadence agree; an adjacent subject has an independent use and maintenance reason. Shared use and one carrier are only probes. An unresolved kind is returned as a question, not `U.Product`. |
-| CC-E4.9 DPF Suite truth | The Suite is one constituted collection of DPF product series and, after inclusion, the Guide product series. Product and Suite constitution, edition-to-product belonging, Suite inclusion and removal, decision effects while the same product and Suite continue, what happens when either ends or is reidentified, past belonging, identity anchors, maintenance, a temporary empty state, retirement, and any configuration description remain recoverable. No snapshot, list, Guide, carrier, or `JointUseSet` substitutes for them. |
+| CC-E4.9 DPF Suite truth | The Suite is one constituted collection of DPF product series and, after its separate inclusion, a DPF Suite Reference product series. Product and Suite constitution, edition-to-product belonging, Suite inclusion and removal, decision effects while the same product and Suite continue, what happens when either ends or is reidentified, past belonging, identity anchors, maintenance, a temporary empty state, retirement, and any configuration description remain recoverable. No snapshot, list, Reference entry or edition, carrier, or `JointUseSet` substitutes for them. |
 

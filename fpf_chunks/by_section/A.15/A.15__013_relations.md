@@ -6,12 +6,12 @@ section_id: "A.15:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__013_relations.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12 — Relations"
-line_start: 24260
-line_end: 24270
+line_start: 24612
+line_end: 24624
 dependencies:
   - "A.10"
   - "A.13"
@@ -60,6 +60,8 @@ keywords:
 ---
 
 ### A.15:12 - Relations
+
+* `A.15.9` coordinates one receiving decision or piece of Work with one bounded result governed by another practice. It first tests an already-available result, requests only a remaining gap, and preserves supplier Method and authority separately from receiver decision authority; it creates no new alignment object or result kind.
 
 * `A.15.7` supplies the situation-responsive steering Method after current Work, its domain Method, and relevant facts are known; it returns the selected action, intended performer, and stop or feedback condition without making the answer into Work.
 

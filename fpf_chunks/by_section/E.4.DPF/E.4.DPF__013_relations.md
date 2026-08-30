@@ -6,12 +6,12 @@ section_id: "E.4.DPF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__013_relations.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:12 — Relations"
-line_start: 70245
-line_end: 70255
+line_start: 71203
+line_end: 71213
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -67,5 +67,5 @@ keywords:
 - **Coordinates with:** `C.2.1` and `A.2.6` for framework/result episteme identity, effective ReferenceScheme, empirical-grounding relations, and ClaimScope; `A.1.1`/`A.22` only for an independently selected model-use structure; `A.22.CGUS` only for a genuinely admitted conditional unfolding; `E.4.PFR` for separately identified relation records and for dependency, edition, compatibility, deprecation, and supersession effects; `C.30.AD` for post-existence architecture-description use and its retrieval-only project card name; and `E.24.PUB` for publication occurrence, form, and carrier.
 - **Coordinates with:** `C.33`, `C.34`, and `C.35` for carrier preservation and admission.
 - **Coordinates with:** `E.22` for quality-evaluation framing when needed, `E.4.DPF.DA` for DPF package adequacy, `E.21` for pattern-quality evaluation, `E.23` for repeated improvement, `E.19` for admission or profile gating when claimed, and `G.11` for currentness.
-- **Use next when current:** `E.11.PFP` for the common framework publication form, `E.11` for practical-use discoverability, `E.11.DSG` for a separate DPF suite guide when one working question may need results from several independently maintained DPFs, and `E.17` for publication discoverability rather than framework authoring.
+- **Use next when current:** `E.11.PFP` for the common framework publication form, `E.11` for practical-use discoverability, `E.11.DSG` for a separate DPF Suite Reference when one working question may need results from several independently maintained DPFs, and `E.17` for publication discoverability rather than framework authoring.
 

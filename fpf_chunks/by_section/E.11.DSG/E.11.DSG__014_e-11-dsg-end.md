@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.DSG"
-pattern_title: "DPF Suite Guide"
+pattern_title: "DPF Suite Reference"
 section_id: "E.11.DSG:End"
 section_title: "E.11.DSG:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__014_e-11-dsg-end.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
-  - "E.11.DSG — DPF Suite Guide"
+  - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:End — E.11.DSG:End"
-line_start: 78896
-line_end: 78897
+line_start: 79845
+line_end: 79846
 dependencies:
   - "A.14"
   - "C.2.1"

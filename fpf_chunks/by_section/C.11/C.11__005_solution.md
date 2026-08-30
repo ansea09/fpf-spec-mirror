@@ -6,12 +6,12 @@ section_id: "C.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__005_solution.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:4 — Solution"
-line_start: 46124
-line_end: 46575
+line_start: 46662
+line_end: 47115
 dependencies:
   - "A.10"
   - "A.13"
@@ -70,7 +70,7 @@ Omit the tail when causal support changes neither the comparison nor the chosen 
 
 `C.11` governs theory-side choice among already-available options. Its selected decision result states what should be chosen from the current `OptionSet`, including whether further probing, information gathering, or computation is rational before the choice is fixed.
 
-The OptionSet choice question begins only after an option set already exists. It does not govern open-ended generation of options, and it does not govern the execution order of a plan after a choice has already been made.
+The OptionSet choice question begins only after an option set already exists. It does not form complete ways of obtaining one result, govern open-ended generation of options, or govern the execution order of a plan after a choice has already been made.
 
 #### C.11:4.2 - Decision discipline over a live option set
 
@@ -82,7 +82,7 @@ A conforming `C.11` pass does not stop at naming schools of decision theory. It 
 
 2. **Freeze the current option set.**
    State the already-available options being compared now as one `OptionSet`.
-   If the hard work is still inventing, expanding, or reframing the options, stop here and apply `C.18`.
+   If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. If the hard work is open-ended invention, expansion, or reframing, apply `C.18`.
 
 3. **Make the comparison basis explicit.**
    State one `PreferenceOrder` or one `EvaluativeMeasure`, plus one `BeliefState` and one `OutcomeModel`.
@@ -238,7 +238,8 @@ The comparison should close as `probe again` only when all of the following are 
 
 The comparison should close as `reroute` when the record has already learned that the governing decision question changed:
 
-- to `C.18` when the option set itself is still under invention or reframing;
+- to `C.38` when labels or fragments must first become complete-enough ways of obtaining the same result;
+- to `C.18` when the option set itself is under open-ended invention or reframing;
 - to `C.19` when the question is now how broadly to keep exploring or exploiting one candidate pool;
 - to `C.24` when one choice result already exists and the next task is now sequencing, enactment, or execution-path probe work;
 - to `G.5` when the next task is declaring or naming selector-facing selected-set content; when that result already exists, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and audience availability.
@@ -382,7 +383,8 @@ Use `C.11` while the question remains: from this current `OptionSet`, what shoul
 
 Reroute immediately when the question changes:
 
-- If the hard question is still what options should exist at all, or whether the current option set needs to be expanded or reframed, leave this pattern and work in `C.18` first.
+- If the current rows are labels or fragments and the hard question is how several complete ways could obtain the same result, leave this pattern and work in `C.38` first.
+- If the hard question is still what options should exist at all, or whether the current option set needs open-ended expansion or reframing, leave this pattern and work in `C.18` first.
 - If the options already exist but the question is how broadly to keep exploring or exploiting the candidate pool, leave this pattern and work in `C.19`, where the next useful output is one explicit pool-policy result rather than one local `ChoiceResult`.
 - If one option is already chosen and the question is how to sequence, budget, or enact that choice, leave this pattern and work in `C.24`, where the next useful output is one enactment-facing call plan or `CheckpointReturn`.
 - If the question has shifted from deciding to declaring or naming selector-facing selected-set content, leave this pattern and work in `G.5`. Its next useful output may be a `Shortlist` or `RankedShortlist` when alternatives remain for later choice, a `JointUseSet` when every named member is included for one bounded use, a narrowed handoff, abstain, or escalation. None is one more local `ChoiceResult`. If that result already exists and the current question is presentation or availability to an audience, use `E.17` for the source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.

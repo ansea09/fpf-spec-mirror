@@ -6,12 +6,12 @@ section_id: "B.1.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__013_relations.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:12 — Relations"
-line_start: 37033
-line_end: 37054
+line_start: 37569
+line_end: 37590
 dependencies:
   - "A.1"
   - "A.15"

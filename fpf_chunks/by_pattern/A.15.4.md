@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.4.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
-line_start: 25555
-line_end: 26034
+line_start: 25909
+line_end: 26388
 dependencies:
   - "A.10"
   - "A.13"

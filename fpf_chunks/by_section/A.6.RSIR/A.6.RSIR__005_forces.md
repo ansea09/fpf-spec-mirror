@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__005_forces.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:3 — Forces"
-line_start: 17360
-line_end: 17370
+line_start: 17371
+line_end: 17381
 dependencies:
   - "A.10"
   - "A.15"

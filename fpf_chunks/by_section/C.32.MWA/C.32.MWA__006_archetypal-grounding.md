@@ -6,12 +6,12 @@ section_id: "C.32.MWA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__006_archetypal-grounding.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:5 — Archetypal Grounding"
-line_start: 64854
-line_end: 64863
+line_start: 65394
+line_end: 65403
 dependencies:
   - "A.15.1"
   - "A.22"

@@ -6,12 +6,12 @@ section_id: "F.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 91721
-line_end: 91735
+line_start: 92701
+line_end: 92717
 dependencies:
   - "A.10"
   - "A.7"
@@ -35,7 +35,9 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| One-book domain | One influential source is treated as the whole answer despite a known rival or transfer limit. | State the question and add each source whose inspected claims change it. |
+| One-book domain | One influential source is treated as the whole answer despite a known rival or transfer limit. | State the question and add each source whose inspected claims change it. For a SoTA claim, the one source must itself critically compare the serious alternatives. |
+| Currentness laundering | A registry entry, official status, maintained label, citation count, or recent date promotes a source into the best-known line. | Record identity and currentness separately. Select rank only from the answer-changing comparison, or return the unresolved source gap. |
+| Source-role collapse | A lineage anchor, popular default, failure case, and best-known-line candidate are all reported as equivalent support. | Classify each retained source by its answer-changing role and prevent the last three non-positive roles from carrying SoTA rank. |
 | Reading-list cut | Many sources are retained without distinct roles. | Keep only answer-changing roles and record deliberate exclusions. |
 | Edition blur | A source is named without the edition that fixes the relied claim. | Identify the edition and reopen only affected claims when it changes. |
 | Domain-family inference | A shelf label is treated as evidence of meaning, relation, or relevance. | Use the label only to find sources; inspect their claims. |

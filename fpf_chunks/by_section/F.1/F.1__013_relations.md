@@ -6,12 +6,12 @@ section_id: "F.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__013_relations.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:12 — Relations"
-line_start: 91772
-line_end: 91789
+line_start: 92751
+line_end: 92770
 dependencies:
   - "A.10"
   - "A.7"
@@ -32,6 +32,8 @@ keywords:
 ---
 
 ### F.1:12 - Relations
+
+- `E.8:11` owns the canonical SoTA definition, comparison-role meanings, and positive comparison contract. F.1 prepares only the question-relative source cut and records those roles for the receiving comparison.
 
 **Builds on.**
 

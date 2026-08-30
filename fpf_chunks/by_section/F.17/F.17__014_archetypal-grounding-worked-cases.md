@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__014_archetypal-grounding-worked-cases.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:12 — Archetypal Grounding - worked cases"
-line_start: 97078
-line_end: 97729
+line_start: 98059
+line_end: 98744
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -629,16 +629,16 @@ ReferenceScheme: FPFCoreReferenceScheme
 UnificationThreadId: RoleOntologyAndWordingPrecision.2026-08-09
 Block: System-role assignments and kind-use precision
 GovernedValueRef: SystemRoleKindRelationStructure
-GovernedValueKindRef: U.Structure
+GovernedValueKindRef: U.Kind
 SubjectPatternLocator: A.2.7
 UnifiedTechName: SystemRoleKindRelationStructure
 UnifiedPlainName: structure of relations among system-role kinds
 NameCardRef: NC-SYSTEM-ROLE-KIND-RELATION-STRUCTURE
 SenseCellRefs: SenseCell.SystemRoleKindRelationStructure.FPFCore.2026-08-09
 BridgeRefs: none
-RowRationale: both designations name the selected U.Structure over exact local system-role kinds and exact admitted relations among those kinds
-AdmissibleUse: Core-facing citation of the A.2.7 selected structure construction
-BlockedUse: no assignment configuration, taxonomy episteme, graph, table, system collection, or structure occurrence follows from this row
+RowRationale: both designations name the relation-defined kind specified by A.2.7; each member is a selected U.Structure, not the kind itself
+AdmissibleUse: Core-facing designation of that A.2.7 kind; one selected member must instead be identified by its exact kind constituents, selected obtaining relation occurrences, applied constraints, and named selection-use frame
+BlockedUse: no new root kind, selected structure instance, assignment configuration, taxonomy episteme, graph, table, or system collection follows from this row
 RowEditionId: 2026-08-09
 CurrentnessCondition: reopen when A.2.7, the exact NameCard, FPFCoreReferenceScheme or sense cell, E.10:7.5b classification or allowed-use rule for SystemRoleKindRelationStructure, or the cited use changes
 ```
@@ -699,7 +699,41 @@ SenseCell.SystemRoleKindRelationStructure.FPFCore.2026-08-09:
   ReferenceScheme: FPFCoreReferenceScheme
   LocalSenseId: SystemRoleKindRelationStructure-core
   LocalExpression: SystemRoleKindRelationStructure
-  LocalSenseClaim: a selected U.Structure over exact local system-role kinds and admitted relations among those kinds; it is not an assignment configuration, taxonomy episteme, or system collection
+  LocalSenseClaim: the A.2.7 relation-defined kind of selected structures; each member is a U.Structure with exact system-role-kind constituents, selected obtaining relation occurrences, applied constraints, and one named selection-use frame; this cell names the kind, not one member, assignment configuration, taxonomy episteme, or system collection
   NameCardRef: NC-SYSTEM-ROLE-KIND-RELATION-STRUCTURE
 ```
+
+#### F.17:12.4i - DPF Suite Reference public row
+
+This row projects the current F.18 settlement for the product form already governed by `E.11.DSG`. The governed kind remains the relation-defined product form, not a newly minted root kind. The row makes the name reusable under `FPFCoreReferenceScheme`; it is neither the Reference product nor the operation that publishes one.
+
+```text
+UTSRowId: UTS.DPFSuiteReference.FPFCore.2026-08-28
+ReferenceScheme: FPFCoreReferenceScheme
+UnificationThreadId: DPFSuiteReferenceNaming.2026-08-28
+Block: DPF Suite public reference product form
+GovernedValueRef: E.11.DSG DPF Suite Reference product form
+GovernedValueKindRef: U.Kind
+SubjectPatternLocator: E.11.DSG
+UnifiedTechName: DPFSuiteReference
+UnifiedPlainName: DPF Suite Reference
+NameCardRef: NC-DPF-SUITE-REFERENCE
+SenseCellRefs: SenseCell.DPFSuiteReference.FPFCore.2026-08-28
+BridgeRefs: none
+RowRationale: both designations name the maintained non-framework product form that starts from a cross-DPF working question, returns a bounded answer or blocker, and points back to the exact Suite collection, product series, editions, results, states, and sources that change the answer
+AdmissibleUse: Core-facing designation of the E.11.DSG product form and readable title component for one exact continuing DPF Suite Reference series or admitted edition
+BlockedUse: no Suite, product series, edition, admission, Suite inclusion, currentness, availability, source authority, answer, lookup Work, framework status, instructional Guide, or publication occurrence follows from this row
+LineageEntries: DPF Suite Guide is the predecessor Plain designation only; DSG remains stable PatternID lineage residue and is not a current public expansion; no DSR or synonym family is admitted
+RowEditionId: 2026-08-28
+CurrentnessCondition: reopen when the E.11.DSG product function, boundary, or identity rule; the exact NameCard; FPFCoreReferenceScheme or sense cell; the selected public use; or repeated reader classification changes
+
+SenseCell.DPFSuiteReference.FPFCore.2026-08-28:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: DPFSuiteReference-core
+  LocalExpression: DPFSuiteReference
+  LocalSenseClaim: the E.11.DSG relation-defined product form for a maintained non-framework publication that answers bounded cross-DPF questions, returns exact sources and honest gaps, and leaves Suite constitution, product-series and edition identity, lookup Work, publication, availability, authority, and currentness to their direct claims
+  NameCardRef: NC-DPF-SUITE-REFERENCE
+```
+
+A product-specific title may qualify the Plain designation, for example *Engineering DPF Suite Reference*. That use still needs the exact product-series or edition claim; this row supplies only the shared product-form designation.
 

@@ -6,12 +6,12 @@ section_id: "F.11:End"
 section_title: "F.11:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__018_f-11-end.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:End — F.11:End"
-line_start: 95219
-line_end: 95220
+line_start: 96200
+line_end: 96201
 dependencies:
   - "A.15"
   - "A.15.1"

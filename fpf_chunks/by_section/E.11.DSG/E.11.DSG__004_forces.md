@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.DSG"
-pattern_title: "DPF Suite Guide"
+pattern_title: "DPF Suite Reference"
 section_id: "E.11.DSG:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__004_forces.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
-  - "E.11.DSG — DPF Suite Guide"
+  - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:3 — Forces"
-line_start: 78704
-line_end: 78715
+line_start: 79659
+line_end: 79670
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -35,9 +35,9 @@ keywords:
 | Force | Pressure on the solution |
 | --- | --- |
 | Fast first use | A reader needs an answer before a catalogue of internal distinctions. |
-| Exact return | The answer must still lead to the Suite collection, the product series or edition that changes the action, the Guide edition, and the direct source. |
-| Separate managed boundaries | The Suite collection, Guide product series, DPF product series that belong to the Suite, adjacent evidence products, and carriers have distinct identity, edition or state, and maintenance claims. |
-| Honest combination | Several resources may be necessary, alternatives, or merely plausible; the guide must not overstate the relation. |
+| Exact return | The answer must still lead to the Suite collection, the product series or edition that changes the action, the Reference edition, and the direct source. |
+| Separate managed boundaries | The Suite collection, Reference product series, DPF product series that belong to the Suite, adjacent evidence products, and carriers have distinct identity, edition or state, and maintenance claims. |
+| Honest combination | Several resources may be necessary, alternatives, or merely plausible; the Reference must state the actual relation or uncertainty. |
 | Current action | Date, status, warning, availability, and source return matter only when they change what the reader should do. |
 | Low record burden | Ordinary lookup may remain conversation; addressable answers are justified only by later review, reuse, publication, or reliance. |
 | Language reach | Translation and language-specific maintenance may change the episteme or the product boundary. |

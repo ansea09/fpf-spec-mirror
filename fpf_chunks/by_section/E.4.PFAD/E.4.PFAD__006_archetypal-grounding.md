@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__006_archetypal-grounding.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:5 — Archetypal Grounding"
-line_start: 69489
-line_end: 69518
+line_start: 70469
+line_end: 70498
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -64,9 +64,9 @@ A cross-domain inquiry need recurs, but practitioners do not need another patter
 
 Its first usable version is a current programme-description episteme that names the users and questions, inquiry Methods, project intake, result return, access, change, and retirement rules. Capable provider and maintaining Systems accept the needed commitments; when a service is claimed, the answer also names the admitted service state. Each bounded inquiry project is separate Work, and each returned result is a separate episteme. A subject pattern may instead admit the programme itself as a System or another exact arrangement, in which case the answer names it. A bounded project may end while the managed programme continues and evolves. The inquiry evidence package remains its own editioned episteme.
 
-#### DPF suite and guide
+#### DPF Suite and Reference
 
-Three independently maintained DPF product series already cover one recurring practitioner use. The architecture question is therefore not whether to merge them into another DPF. When one architecture decision takes effect, it constitutes the continuing Suite collection, states its ecosystem use, defines which product series may belong, selects inclusion and removal rules and identity through change, identifies the capable maintaining System and its accepted Suite-maintenance commitment, and chooses source return and exposure. Its `E.9` DRR records that answer and the initial inclusion decisions. Each DPF edition still belongs to its own product series under that series rule. The answer separately decides whether a Guide product series is constituted and included, identifies its capable maintaining System and commitment, and states its refresh route. It records any proposed cross-DPF result use but makes no dependency or compatibility claim until the edition-level predicates pass. A later author may propose inclusion or removal, but returns that proposal to the Suite decision; one DPF cannot settle it from inside its own edition.
+Three independently maintained DPF product series already cover one recurring practitioner use. The architecture question is therefore not whether to merge them into another DPF. When one architecture decision takes effect, it constitutes the continuing Suite collection, states its ecosystem use, defines which product series may belong, selects inclusion and removal rules and identity through change, identifies the capable maintaining System and its accepted Suite-maintenance commitment, and chooses source return and exposure. Its `E.9` DRR records that answer and the initial inclusion decisions. Each DPF edition still belongs to its own product series under that series rule. The answer separately decides whether a DPF Suite Reference product series is constituted and included, identifies its capable maintaining System and commitment, and states its refresh route. A Reference edition may then give a problem-led cross-DPF answer, but it neither constitutes the Suite nor decides which product series belong. The answer records any proposed cross-DPF result use but makes no dependency or compatibility claim until the edition-level predicates pass. A later author may propose inclusion or removal, but returns that proposal to the Suite decision; one DPF and one Reference edition cannot settle it from inside their own content.
 
 #### Existing framework
 

@@ -6,12 +6,12 @@ section_id: "B.2.P:End"
 section_title: "B.2.P:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__015_b-2-p-end.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:End — B.2.P:End"
-line_start: 37860
-line_end: 37861
+line_start: 38396
+line_end: 38397
 dependencies:
   - "A.1.1"
   - "A.10"

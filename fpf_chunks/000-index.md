@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `72222c13cc1bba009f1ee1f1aca47654db8e5716`
+Commit SHA: `8bb4989c9be7fa4b33f0bb7537e4611676ee3087`
 
 Chunking method: `pattern-aware`
 
-Patterns: `306`
+Patterns: `310`
 
 ## Patterns
 
@@ -70,6 +70,7 @@ Patterns: `306`
 - [A.8 — Universal Core Principle](by_pattern/A.8.md)
 - [A.9 — Cross‑Scale Consistency (C‑3)](by_pattern/A.9.md)
 - [A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph](by_pattern/A.10.md)
+- [A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes](by_pattern/A.10.1.md)
 - [A.11 — Ontological Parsimony](by_pattern/A.11.md)
 - [A.12 — Acting-Side Externalization and Reflexive Split](by_pattern/A.12.md)
 - [A.13 — The Agential Role & Agency Spectrum](by_pattern/A.13.md)
@@ -83,6 +84,7 @@ Patterns: `306`
 - [A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation](by_pattern/A.15.6.md)
 - [A.15.7 — Situation-Responsive Work Steering and Next-Action Selection](by_pattern/A.15.7.md)
 - [A.15.8 — Work-Performance Configuration and Recovery Testing](by_pattern/A.15.8.md)
+- [A.15.9 — Request and Use a Bounded Result from Another Practice](by_pattern/A.15.9.md)
 - [A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery](by_pattern/A.15.PROD.md)
 - [A.16 — Language-State Move Coordination](by_pattern/A.16.md)
 - [A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace](by_pattern/A.16.0.md)
@@ -208,6 +210,8 @@ Patterns: `306`
 - [C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy](by_pattern/C.34.md)
 - [C.35 — Structural Synthesis and Discovery Adequacy](by_pattern/C.35.md)
 - [C.36 — Cultural Evolution and Cultural-Evolution Engineering](by_pattern/C.36.md)
+- [C.37 — Use-Bounded Representation Selection and Co-Use](by_pattern/C.37.md)
+- [C.38 — Construct Comparable Ways to Obtain One Result](by_pattern/C.38.md)
 - [C.36.P — Cultural-Evolution Wording-Use Precision Restoration](by_pattern/C.36.P.md)
 - [D.1 — Ethical Value Plurality and FPF Boundary](by_pattern/D.1.md)
 - [D.2 — Multilevel Ethics For Holon Work](by_pattern/D.2.md)
@@ -248,7 +252,7 @@ Patterns: `306`
 - [E.11.PUA — Pattern Use in a Working Situation and First Useful Result](by_pattern/E.11.PUA.md)
 - [E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination](by_pattern/E.11.PUR.md)
 - [E.11.PFP — Framework Publication Form Profile](by_pattern/E.11.PFP.md)
-- [E.11.DSG — DPF Suite Guide](by_pattern/E.11.DSG.md)
+- [E.11.DSG — DPF Suite Reference](by_pattern/E.11.DSG.md)
 - [E.12 — Didactic Primacy & Cognitive Ergonomics](by_pattern/E.12.md)
 - [E.13 — Pragmatic Utility and Value Alignment](by_pattern/E.13.md)
 - [E.14 — Human‑Centric Working‑Model](by_pattern/E.14.md)

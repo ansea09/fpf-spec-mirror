@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.0.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
-line_start: 40498
-line_end: 40690
+line_start: 41034
+line_end: 41226
 dependencies:
   - "A.16"
   - "A.16.0"

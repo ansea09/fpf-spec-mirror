@@ -6,12 +6,12 @@ section_id: "G.5:0.5"
 section_title: "Minimum ordinary slice and bounded non-use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__007_minimum-ordinary-slice-and-bounded-non-use.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:0.5 — Minimum ordinary slice and bounded non-use"
-line_start: 101650
-line_end: 101697
+line_start: 102699
+line_end: 102746
 dependencies:
   - "C.11"
   - "C.18"

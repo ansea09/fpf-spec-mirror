@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.15.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
-line_start: 79535
-line_end: 79784
+line_start: 80484
+line_end: 80734
 dependencies:
   - "C.18"
   - "C.19"
@@ -271,6 +271,7 @@ The non-dominated contribution is therefore not a new authoring trace or scoring
 
 **Coordinates with:**
 
+* **A.10.1** for the general move from a changed source claim to bounded actual uses when cross-use discovery is needed. E.15 is the FPF-pattern-edition specialization of that move: its primary object remains one exact existing FPF pattern edition and its successor, and its Delta-Class, predecessor-function continuity, proportionate pattern checks, and candidate-plus-change-account result remain intact.
 * **E.19** for pattern review, **E.21/E.22** for quality evaluation, and **E.23** for repeated improvement.
 * **C.18 and C.19** for optional candidate generation and explore/exploit control when a real alternative-search branch is open.
 * **F.15** for applicable regression checks and **F.9** only when the changed use actually relates distinct local senses.

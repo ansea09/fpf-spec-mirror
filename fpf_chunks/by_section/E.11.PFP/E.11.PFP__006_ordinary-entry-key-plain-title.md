@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-005"
 section_title: "<ordinary-entry key> — <plain title>"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__006_ordinary-entry-key-plain-title.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:section-005 — <ordinary-entry key> — <plain title>"
-line_start: 78506
-line_end: 78517
+line_start: 79462
+line_end: 79473
 dependencies:
   - "E.11"
   - "E.17"

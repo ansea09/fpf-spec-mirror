@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.DSG"
-pattern_title: "DPF Suite Guide"
+pattern_title: "DPF Suite Reference"
 section_id: "E.11.DSG:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__010_consequences.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
-  - "E.11.DSG — DPF Suite Guide"
+  - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:9 — Consequences"
-line_start: 78863
-line_end: 78868
+line_start: 79818
+line_end: 79823
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -34,5 +34,5 @@ keywords:
 
 **Benefits.** Readers can start with a short cross-DPF answer, distinguish a maintained result from a MethodDescription, source evidence, or a missing result, recover the products behind the answer, and see an honest product gap. Maintainers can refresh advice without silently changing which editions belong to product series, which product series belong to the Suite, edition continuity, dependency, or compatibility.
 
-**Costs.** The guide and suite need separate maintenance commitments and exact source-return paths. High-consequence answers may require more detail than ordinary lookups. Those costs appear only where the reader's action or later reliance needs them.
+**Costs.** The Reference and Suite need separate maintenance commitments and exact source-return paths. High-consequence answers may require more detail than ordinary lookups. Those costs appear only where the reader's action or later reliance needs them.
 

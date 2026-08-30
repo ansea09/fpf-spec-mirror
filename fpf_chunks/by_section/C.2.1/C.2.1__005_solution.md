@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:4 — Solution"
-line_start: 41159
-line_end: 41445
+line_start: 41695
+line_end: 41983
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -92,6 +92,8 @@ Open a row below only when its first column names the reader's next sentence or 
 | A reader must assert that a later episteme revises, refines, or supersedes an earlier one. | one exact `EpistemeEditionRelation` occurrence | C.2.1:4.5 |
 | A publisher must make one selected episteme edition available to a declared audience for a bounded use. | the publication occurrence, publication form, and `U.PresentationCarrier` as distinct objects | `E.17` and `E.24.PUB` |
 | A user will calculate, infer, navigate, or inspect through a notation, diagram, mathematical structure, or tool representation whose available operations matter. | the exact C.29 representation, correspondence, representation scheme, and any current transition relation | `C.29` and the selected representation-transition pattern |
+| One receiving System must select, decline, or co-use candidate results of different kinds as representations for the same exact action or decision. | one C.37 use-bounded representation-selection account; keep each direct subject result, optional A.2.4 first-use classification, A.10 reliance path when material, and receiving result separately governed | `C.37`; the direct subject and receiving-result patterns remain authoritative |
+
 
 Stop when no row describes the next sentence or action. A readable sentence naming the claims, EntityOfConcern, and effective reference scheme is then enough. Do not complete the table as a record. Use section 4.10 only when a later sentence or action actually needs the full relation and neighboring-object reference.
 

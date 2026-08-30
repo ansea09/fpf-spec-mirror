@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.DSG"
-pattern_title: "DPF Suite Guide"
+pattern_title: "DPF Suite Reference"
 section_id: "E.11.DSG:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__011_rationale.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
-  - "E.11.DSG — DPF Suite Guide"
+  - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:10 — Rationale"
-line_start: 78869
-line_end: 78874
+line_start: 79824
+line_end: 79829
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -32,7 +32,7 @@ keywords:
 
 ### E.11.DSG:10 - Rationale
 
-A Suite is a continuing collection of DPF product series and, once included, its Guide product series. The Guide answers how a reader starts when selection or a cross-DPF question is live. Keeping the Suite collection, Guide belonging, Guide availability, and Guide use separate permits direct use of a known DPF result and permits Guide repair or retirement without rewriting Suite identity.
+A Suite is a continuing collection of DPF product series and, once included, its Reference product series. The Reference answers how a reader starts when selection or a cross-DPF question is live. Keeping the Suite collection, Reference belonging, Reference availability, and Reference use separate permits direct use of a known DPF result and permits Reference repair or retirement without rewriting Suite identity.
 
 Progressive detail is not imprecision. The ordinary sentence carries the useful distinction first; exact episteme identity, edition continuity, source use, and stronger relation predicates remain available when they change the claim.
 

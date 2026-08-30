@@ -6,12 +6,12 @@ section_id: "F.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__001_intro.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:intro — Intro"
-line_start: 94694
-line_end: 94699
+line_start: 95675
+line_end: 95680
 dependencies:
   - "A.10"
   - "A.15.1"

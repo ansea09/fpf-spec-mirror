@@ -6,12 +6,12 @@ section_id: "F.18:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__004_problem.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:2 — Problem"
-line_start: 97865
-line_end: 97877
+line_start: 98881
+line_end: 98893
 dependencies:
   - "A.10"
   - "A.15.1"

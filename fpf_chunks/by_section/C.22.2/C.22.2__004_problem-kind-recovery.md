@@ -6,12 +6,12 @@ section_id: "C.22.2:3"
 section_title: "Problem-Kind Recovery"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__004_problem-kind-recovery.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:3 — Problem-Kind Recovery"
-line_start: 51875
-line_end: 51894
+line_start: 52415
+line_end: 52434
 dependencies:
   - "A.10"
   - "A.15"

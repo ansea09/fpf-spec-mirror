@@ -6,12 +6,12 @@ section_id: "C.3.1:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__013_consequences.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:11 — Consequences"
-line_start: 44766
-line_end: 44773
+line_start: 45304
+line_end: 45311
 dependencies:
   - "A.1"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "E.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__004_forces.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:3 — Forces"
-line_start: 71250
-line_end: 71258
+line_start: 72196
+line_end: 72204
 dependencies:
   - "E.2"
   - "E.3"

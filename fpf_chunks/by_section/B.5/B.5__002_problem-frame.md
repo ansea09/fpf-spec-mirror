@@ -6,12 +6,12 @@ section_id: "B.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__002_problem-frame.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:1 — Problem Frame"
-line_start: 40019
-line_end: 40022
+line_start: 40555
+line_end: 40558
 dependencies:
   - "A.10"
   - "B.4"

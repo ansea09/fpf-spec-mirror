@@ -6,12 +6,12 @@ section_id: "E.21:5"
 section_title: "Archetypal Grounding - worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__006_archetypal-grounding-worked-slices.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:5 — Archetypal Grounding - worked slices"
-line_start: 88039
-line_end: 88154
+line_start: 89005
+line_end: 89120
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -102,7 +102,7 @@ PrecisionRestorationProfile:
 | `ClaimJustificationTraceabilityCurrentnessAndReplayability` | `4` | Title, edition, rule, effect, decision, and stop are recoverable, so `3` understates replayability; `5` lacks an actual replay across two source editions. |
 | `CaseCountercaseAndTransferCoverage` | `4` | The filled inspection-interval case and background-reading near-miss meet the declared small use, so `3` understates coverage; `5` would require heterogeneous transfer cases. |
 | `MaturePatternParityAndSelectedContentSufficiency` | `3` | `comparator=E.2.DA and G.11; selectedIngredient=pinned source use plus bounded currentness; currentLocus=sentences 2-3 and 7; missingOrLowering=sentence 7 lacks a material-change test`; this makes `2` too low, while the missing selected ingredient prevents `4`. |
-| `SoTABindingAndCurrentness` | `3` | The edition makes no universal current-best claim and exposes its currentness rule, so `2` is too low; `4` would require a current external comparison that this diagnostic example expressly lacks. |
+| `SoTABindingAndCurrentness` | `3` | The edition makes no positive SoTA claim and supplies no `E.8:11` comparison, so its source pin and currentness rule cannot raise this coordinate; `2` would understate the explicit non-overread, while `4` requires one complete comparison result that this diagnostic example expressly lacks. |
 | `FormalClaimAdmissibilityAndLensFit` | `4` | The edition makes no measurement, scalar, causal, or formal-model claim and says what a pin does not establish, so `3` understates the fit; `5` lacks a formal near-miss. |
 | `FalsifiabilityAndLoweringCondition` | `3` | Edition publication is an observable reopen trigger, so `2` is too low; `4` would overstate a trigger that does not distinguish material from irrelevant change. |
 | `CorpusEntryProjectionAndEcologyFit` | `3` | The declared diagnostic use is explicitly non-corpus-facing and the whole checked text is present, so `2` is too low; `4` would require the absent entry or projection evidence for a corpus-facing claim. |

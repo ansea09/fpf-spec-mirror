@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.DSG"
-pattern_title: "DPF Suite Guide"
+pattern_title: "DPF Suite Reference"
 section_id: "E.11.DSG:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__006_archetypal-grounding.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
-  - "E.11.DSG — DPF Suite Guide"
+  - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:5 — Archetypal Grounding"
-line_start: 78797
-line_end: 78827
+line_start: 79752
+line_end: 79782
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -34,30 +34,30 @@ keywords:
 
 #### E.11.DSG:5.1 - Organization change and continuing operation
 
-A manager asks how to reorganize a service without losing control of daily operation. A useful guide answer can be three sentences: name the organization-change result for the organizational change; name the operations result for continuing operation; stop when those two contributions answer the question, or return the missing result. Co-use establishes no dependency between the DPFs.
+A manager asks how to reorganize a service without losing control of daily operation. A useful Reference answer can be three sentences: name the organization-change result for the organizational change; name the operations result for continuing operation; stop when those two contributions answer the question, or return the missing result. Co-use establishes no dependency between the DPFs.
 
 If the decision is safety-critical or legally constrained, add the exact source date, jurisdiction or applicability, authority boundary, warning, and reopen condition because those values change the answer and action. The simple and expanded answers use the same distinctions; they carry different justified detail.
 
 #### E.11.DSG:5.2 - A non-engineering multilingual suite
 
-A narrative-practice guide may combine results from independently maintained narrative, language-practice, and pedagogical DPFs for one lesson-planning question. Include all three only if removing any one makes that result insufficient under the stated rule. Otherwise present alternatives or a bounded plausible combination.
+A narrative-practice Reference may combine results from independently maintained narrative, language-practice, and pedagogical DPFs for one lesson-planning question. Include all three only if removing any one makes that result insufficient under the stated rule. Otherwise present alternatives or a bounded plausible combination.
 
-A Spanish translation of an English guide is a derivative episteme when its effective scheme changes. It remains in the same guide product only while its reader, access, maintenance, warning, refresh, and retirement boundary remains shared. Independent Spanish maintenance selects another guide product, not another edition merely because the title and list of included product series remain recognizable.
+A Spanish translation of an English Reference is a derivative episteme when its effective scheme changes. It remains in the same Reference product only while its reader, access, maintenance, warning, refresh, and retirement boundary remains shared. Independent Spanish maintenance selects another Reference product, not another edition merely because the title and list of included product series remain recognizable.
 
 #### E.11.DSG:5.3 - Returns after inclusion, availability, identity, or retirement changes
 
 | Situation | Reader-facing result |
 | --- | --- |
-| One DPF result is already known and sufficient. | Use that DPF directly; do not require a Guide detour. |
-| Several DPFs may apply or the applicable DPF is unclear. | Use the Guide's problem-led route when a current trustworthy Guide is available. |
-| The Suite exists before the Guide product series is included. | Keep the Suite and the DPF product series that already belong to it identifiable. Make no claim that a Guide route is available; direct use remains allowed. |
-| A DPF whose product series belongs to the Suite publishes a later edition. | Test the edition-to-product-series admission, then refresh only affected Guide claims or warnings. Do not create a Suite edition. |
+| One DPF result is already known and sufficient. | Use that DPF directly; do not require a Reference detour. |
+| Several DPFs may apply or the applicable DPF is unclear. | Use the Reference's problem-led route when a current trustworthy Reference is available. |
+| The Suite exists before the Reference product series is included. | Keep the Suite and the DPF product series that already belong to it identifiable. Make no claim that a Reference route is available; direct use remains allowed. |
+| A DPF whose product series belongs to the Suite publishes a later edition. | Test the edition-to-product-series admission, then refresh only affected Reference claims or warnings. Do not create a Suite edition. |
 | A product series in the Suite no longer qualifies. | Warn and return to the decision branch. While the same product series and Suite continue, belonging remains until removal; restoration before removal keeps the occurrence, while removal followed by inclusion creates another. |
-| A DPF product or the Guide is temporarily unavailable or stale. | Keep the belongs-to occurrence when it still obtains, show the action-changing warning, and do not claim that the unavailable product currently supplies its route or result. |
+| A DPF product or the Reference is temporarily unavailable or stale. | Keep the belongs-to occurrence when it still obtains, show the action-changing warning, and do not claim that the unavailable product currently supplies its route or result. |
 | The Suite temporarily contains one product series or none under its preservation rule. | Present no current cross-DPF answer; name the restoration, review, or retirement return. |
 | A DPF product series has ended or its identity rule identifies another series. | End its current belonging to the Suite when the series ends or the reidentification takes effect; no prior removal is required. Show that the old product series belonged in the past. Include the new product series only through a new inclusion decision and occurrence. |
 | The Suite has ended or retired. | When the end or retirement decision takes effect, end every current belongs-to occurrence without separate removals. Keep the historical collection, products, editions, and past belonging identifiable, but require another constitution decision and new inclusions for later active Suite use. |
-| A Guide projection cannot return to the authoritative Suite and product-series account. | Label it orientation only; do not claim access to the authoritative belongs-to facts, availability, or currentness. |
+| A Reference projection cannot return to the authoritative Suite and product-series account. | Label it orientation only; do not claim access to the authoritative belongs-to facts, availability, or currentness. |
 | One carrier exposes several products. | Identify each constituent; infer no merged identity, edition, maintenance, or stronger relation. |
 | An answer needs a result the ecosystem does not supply. | Name the product gap and return to a direct source, an existing-DPF change, a new-DPF question, or an explicit stop. |
 

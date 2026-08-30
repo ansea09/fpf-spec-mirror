@@ -6,12 +6,12 @@ section_id: "A.14:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__014_rationale.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:13 — Rationale"
-line_start: 23887
-line_end: 23890
+line_start: 24237
+line_end: 24240
 dependencies:
   - "A.1"
   - "A.15"

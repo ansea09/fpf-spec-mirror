@@ -6,12 +6,12 @@ section_id: "F.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:4 — Solution"
-line_start: 97888
-line_end: 98296
+line_start: 98904
+line_end: 99342
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -371,7 +371,7 @@ NameCard:
 NameCard:
   NameCardId: NC-SYSTEM-ROLE-KIND-RELATION-STRUCTURE
   GovernedValueRef: SystemRoleKindRelationStructure
-  GovernedValueKindRef: U.Structure
+  GovernedValueKindRef: U.Kind
   SubjectPatternLocator: A.2.7
   ReferenceScheme: FPFCoreReferenceScheme
   ClaimContent: NC-SYSTEM-ROLE-KIND-RELATION-STRUCTURE.ClaimGraph
@@ -380,9 +380,9 @@ NameCard:
   PlainLabel: structure of relations among system-role kinds
   CandidateSet: RoleRelationStructure; SystemRoleRelationStructure; SystemRoleKindRelationStructure; SystemRoleAssignmentRelationStructure
   RejectedCandidates: RoleRelationStructure is ambiguous; SystemRoleRelationStructure loses the kind substrate; SystemRoleAssignmentRelationStructure names the wrong substrate
-  SelectionRationale: Kind identifies the substrate and Structure identifies the selected organization of exact obtaining relations
-  DeclaredUse: Core-facing citation of the selected A.2.7 U.Structure construction
-  NonAdmissibleUse: no assignment configuration, taxonomy episteme, graph, table, system collection, or structure occurrence follows from the name or card
+  SelectionRationale: the designation names A.2.7's relation-defined structure kind; Kind in the compound identifies its system-role-kind constituents, not one selected instance
+  DeclaredUse: Core-facing designation of the relation-defined kind specified by A.2.7; citing one member still requires its exact constituents, selected obtaining relation occurrences, applied constraints, and named selection-use frame
+  NonAdmissibleUse: no new root kind, selected structure instance, assignment configuration, taxonomy episteme, graph, table, or system collection follows from the name or card
   LexicalPrerequisiteRefs: E.10:7.5b KernelToken classification and allowed-use rule for SystemRoleKindRelationStructure; E.10:7.5a reserved-name collision rule
   BridgeRefs: none
   PublicRowStatus: current
@@ -412,6 +412,36 @@ The following are candidate inputs, not current `NameCard` epistemes. Each uses 
 | `evaluatedAgainstRuleContent` | predicate true only when an identified criterion-selection claim selected exact base content for one bounded evaluation claim concerning exact dependent content; governed node `evaluatedAgainstRuleContent@RuleContentBasisFindingDefinition-R7` | evaluated-against, assessed-under, governed-by, and checked-with families were compared; reject `governedBy` and generic `checkedWith` because they hide criterion selection and can imply authority, Work, or tool use | manufactured configuration evaluation; healthcare protocol-conformance evaluation; cloud release evaluation against deployment policy while operational Work stays separate | same lexical prerequisites as above, plus exact R7 predicate identity |
 
 A collision-free text search is useful evidence but does not substitute for the missing governed lexical values. Until closure, authors may quote these candidate spellings when discussing the R7 declaration, but must not cite a current NameCard or public term row.
+
+#### F.18:4.2e - Current DPF Suite Reference NameCard
+
+This card settles the public name of the relation-defined product form already governed by `E.11.DSG`. Its governed value is that product form, not a particular Suite, product series, edition, answer, lookup activity, or publication occurrence. The card and its row create none of those objects.
+
+```text
+NameCard:
+  NameCardId: NC-DPF-SUITE-REFERENCE
+  GovernedValueRef: E.11.DSG DPF Suite Reference product form
+  GovernedValueKindRef: U.Kind
+  SubjectPatternLocator: E.11.DSG
+  ReferenceScheme: FPFCoreReferenceScheme
+  ClaimContent: NC-DPF-SUITE-REFERENCE.ClaimGraph
+  LocalSenseCellRef: SenseCell.DPFSuiteReference.FPFCore.2026-08-28
+  TechLabel: DPFSuiteReference
+  PlainLabel: DPF Suite Reference
+  CandidateSet: Reference; Handbook; Overview; Companion; Manual; Guide; Using the DPF Suite; registry; index; catalogue
+  CandidateCoverage: publication-form, instructional-publication, activity-name, and registry-or-finding-aid readings were compared; no plausible current head family remains open for this use
+  RejectedCandidates: Handbook and Manual imply broad instruction or completeness; Overview and Companion understate the maintained answer-and-return function; Guide suggests instructional procedure; Using the DPF Suite names reader activity; registry, index, and catalogue hide the problem-led answer
+  SelectionRationale: Reference is the smallest head that fits a maintained non-framework publication readers consult for a bounded cross-DPF answer, exact source returns, and honest gaps; the E.11.DSG opening prevents the residual citation-list overread
+  DeclaredUse: Core-facing designation of the E.11.DSG product form and readable title component for one exact continuing DPF Suite Reference series or admitted edition
+  NonAdmissibleUse: no Suite, product series, edition, admission, Suite inclusion, currentness, availability, source authority, answer, lookup Work, or publication occurrence follows from the name, card, or row; the Reference is neither a framework nor an instructional Guide
+  BridgeRefs: none
+  PublicRowStatus: current
+  UnifiedTermRowRef: UTS.DPFSuiteReference.FPFCore.2026-08-28
+  LineageEntries: DPF Suite Guide is the predecessor Plain designation only; DSG remains stable PatternID lineage residue and is not a current public expansion; no DSR or synonym family is admitted
+  RefreshCondition: reopen if readers still classify the product as instruction, a design record, a registry, citation list, or lookup Work; if Reference hides the problem-led use; if the E.11.DSG product boundary or identity rule changes; if FPFCoreReferenceScheme, the exact F.17 sense cell or row, or the cited use changes; or if a better established product-form name proves clearer without losing the selected function
+```
+
+One `FPFCoreReferenceScheme` cell is sufficient, so this settlement adds no F.9 Bridge or separate correspondence-use claim. A qualified product title such as *Engineering DPF Suite Reference* identifies its exact series or edition through that product's own claims; the qualifier does not change this Core product-form card.
 
 #### F.18:4.3 - Candidate Selection
 

@@ -6,12 +6,12 @@ section_id: "A.14:14"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__015_sota-echoing.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:14 — SoTA-Echoing"
-line_start: 23891
-line_end: 23925
+line_start: 24241
+line_end: 24275
 dependencies:
   - "A.1"
   - "A.15"

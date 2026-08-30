@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
-line_start: 69404
-line_end: 69488
+line_start: 70384
+line_end: 70468
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -54,7 +54,7 @@ Ask whether choosing a framework, a maintained non-framework product, a thinner 
 - initial pattern placement or a material relation among those patterns that changes the architecture;
 - the direct subjects and maintenance boundary for a continuing programme, an admitted service, or a separate editioned result when later work must maintain or use them;
 - a publication or access consequence; or
-- for a proposed DPF Suite, the ecosystem use, which product series may belong, constitution, inclusion and removal rules, identity through change, maintenance and source-return conditions, exposure choice, and any separate Guide-product decision.
+- for a proposed DPF Suite, the ecosystem use, which product series may belong, constitution, inclusion and removal rules, identity through change, maintenance and source-return conditions, exposure choice, and any separate DPF Suite Reference product decision.
 
 If no such boundary and receiving use are present, close the exploratory use without `E.4.PFAD` or an `E.9` DRR. If they are present, decision Work selects a framework, maintained non-framework product, thinner route, existing-framework contribution, or stop and one `E.9` DRR records that answer. The cheap exit and the architecture decision are alternative entry outcomes, not serial stages.
 
@@ -103,7 +103,7 @@ Common practice questions include:
 | What cultural generation, transmission, reconstruction, recognition, selection, retention, or loss matters? | `C.36`. |
 
 If another question changes the answer, name it and the pattern that handles it instead of forcing it into these rows. Do not infer Method parthood from a required contribution, transformation, performed Work, capability, provider contribution, or cultural change.
-For a DPF Suite answer, an architecture decision takes effect to constitute the continuing collection. It selects the ecosystem use, which product series may belong, inclusion and removal rules, identity through change, alternatives, practical consequences, and the reopen condition. The same `E.9` DRR records that answer. A current maintained-Suite claim also identifies the capable maintaining System and its accepted commitment, the working source return for product series and any product-series state presented as current, the refresh response, and one exposure choice: an independent Suite route, a bounded Guide projection with source return, or a neutral combined carrier. Guide constitution, inclusion, maintenance, and refresh remain separate decisions and claims. A proposed result use or future constraint is not an obtaining dependency or compatibility relation; apply `E.4.PFR` only after the edition-level case facts exist.
+For a DPF Suite answer, an architecture decision takes effect to constitute the continuing collection. It selects the ecosystem use, which product series may belong, inclusion and removal rules, identity through change, alternatives, practical consequences, and the reopen condition. The same `E.9` DRR records that answer. A current maintained-Suite claim also identifies the capable maintaining System and its accepted commitment, the working source return for product series and any product-series state presented as current, the refresh response, and one exposure choice: an independent Suite route, a bounded projection in a current DPF Suite Reference edition with source return, or a neutral combined carrier. Constituting and including the Reference product series, admitting and maintaining its editions, and refreshing their answers remain separate decisions and claims. A proposed result use or future constraint is not an obtaining dependency or compatibility relation; apply `E.4.PFR` only after the edition-level case facts exist.
 
 For an existing-framework contribution, maintained non-framework product, thinner route, or stop, state only the parts needed to explain that outcome and the later-used boundary. A selected maintained product still names its direct subjects and the relations used; a proposed boundary with an unresolved kind says so. Do not fabricate a field assessment or package merely to fill the list.
 

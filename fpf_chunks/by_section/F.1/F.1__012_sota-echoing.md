@@ -6,12 +6,12 @@ section_id: "F.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__012_sota-echoing.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:11 — SoTA-Echoing"
-line_start: 91760
-line_end: 91771
+line_start: 92742
+line_end: 92750
 dependencies:
   - "A.10"
   - "A.7"
@@ -33,13 +33,10 @@ keywords:
 
 ### F.1:11 - SoTA-Echoing
 
-| Current method line and exact sources | Decision and effect in `F.1` | Limit retained |
-| --- | --- | --- |
-| Page et al., *The PRISMA 2020 statement: an updated guideline for reporting systematic reviews* (2021), and Rethlefsen et al., *PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews* (2021). | **Adapt as a boundary source.** When a systematic review is actually required, keep its eligibility, information sources, searches, updates, and reporting recoverable and continue with that domain method. | Reporting guidance does not select sources for an ordinary F.1 question or establish conceptual relevance. |
-| Ames, Glenton, and Lewin, *Purposive sampling in a qualitative evidence synthesis: a worked example from a synthesis on parental perceptions of vaccination communication* (2019), DOI 10.1186/s12874-019-0665-4. | **Adapt.** Fit a manageable selection to the stated objective while keeping variation and deliberate omissions visible; in F.1, retain sources only for inspected answer-changing roles. | The health-review frame and richness scale are not FPF admission rules. |
-| Dixon-Woods et al., *Conducting a critical interpretive synthesis of the literature on access to healthcare by vulnerable groups* (2006), read with Perlman, Ben-Sheleg, and Ellen, *Making sense of conducting a critical interpretive synthesis: A scoping review* (2026; online 2025). | **Adapt and bound.** Let a compass question and an emerging explanation reopen iterative selection across heterogeneous evidence. | F.1 stops with the source cut; it performs neither synthesis nor a saturation claim. |
-| Malterud, Siersma, and Guassora, *Sample Size in Qualitative Interview Studies: Guided by Information Power* (2016), DOI 10.1177/1049732315617444. | **Adapt only as a bounded analogy.** Reject a universal source quota and make sufficiency relative to the receiving question and use. | Interview samples and source selections are different objects; F.1 imports neither the information-power model nor a saturation rule. |
-| van de Schoot et al., *An open source machine learning framework for efficient and transparent systematic reviews* (2021), DOI 10.1038/s42256-020-00287-7. | **Adapt as optional search assistance.** Use active learning to prioritize candidate inspection under a named local search policy; decide membership only after inspecting source claims. | Ranking efficiency establishes neither relevance, truth, nor completeness. |
+| Practice question | Best-known line | Serious alternative or default | Defect overcome and F.1 mutation | Source roles and limits | Reopen condition |
+| --- | --- | --- | --- | --- | --- |
+| How should a small source cut remain question-led while exposing decisive heterogeneous rivals and limits? | Critical interpretive synthesis is the best-known-line candidate for this bounded comparison because it begins from a compass question, uses purposive iterative selection, critiques assumptions, and can synthesize heterogeneous evidence. Perlman, Ben-Sheleg, and Ellen's 2026 scoping review makes the method's recurring phases, variation, and gaps inspectable. | Protocol-first systematic-review reporting and one-canon selection are the serious defaults. PRISMA and PRISMA-S are retained only as an official/popular comparator when a protocol-defined review is actually required. | Fixed eligibility and reporting can preserve search history without deciding which conceptual claim changes the answer; one-canon selection hides rivals and transfer failure. **Adapt:** F.1 uses a stated question, inspected roles, iterative reopen, explicit gaps, and a separate `F.0.2` synthesis boundary. **Reject:** a saturation claim, health-domain appraisal rules, and an exhaustive protocol for every bounded question. | Perlman, Ben-Sheleg, and Ellen, [*Making sense of conducting a critical interpretive synthesis: A scoping review*](https://doi.org/10.1017/rsm.2025.10041) (2026), is the current critical synthesis; Dixon-Woods et al. (2006) is method lineage, not rank by age; PRISMA/PRISMA-S are the explicit protocol comparator; purposive-sampling studies support the variation problem but set no FPF quota. | Reopen if a stronger current source-selection synthesis offers a cheaper method that exposes the same action-changing rivals, counterexamples, limits, and gaps. |
+| How may search automation reduce effort without deciding the source cut? | Transparent active-learning screening is the best-known-line candidate for prioritizing inspection in a large candidate set when its corpus, model, and stopping interpretation remain recoverable. | Ranking, similarity, citation count, or an LLM answer used directly as the membership gate is the serious default. | The default converts an attention proxy into relevance, truth, or completeness. **Adapt:** `F.1:4.4`, invariants, self-checks, and regression checks let search readings order inspection but require the underlying claim before membership changes. | van de Schoot et al., [*An open source machine learning framework for efficient and transparent systematic reviews*](https://doi.org/10.1038/s42256-020-00287-7) (2021), supplies an efficient transparent-screening branch, not evidence that a retained source is relevant or sufficient. Search-tool documentation and latest-model status are identity/currentness only. | Reopen if a current method demonstrates lower inspection effort while preserving claim-level membership decisions and explicit omission risk. |
 
-The method remains question-relative, claim-inspecting, finite, and explicit about limits. Reopen the comparison when current source-selection practice offers a cheaper way to expose answer-changing omissions without turning a search proxy into a selection verdict.
+These comparisons change the source-selection method and its stops; they do not make a `SourceCutNote` a synthesis result or assurance claim.
 

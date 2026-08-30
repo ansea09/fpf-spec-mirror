@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.7.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "E.7 — Archetypal Grounding Principle"
-line_start: 71745
-line_end: 71828
+line_start: 72691
+line_end: 72774
 dependencies:
   - "E.5.4"
   - "E.6"

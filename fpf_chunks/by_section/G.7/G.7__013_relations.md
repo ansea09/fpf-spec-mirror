@@ -6,12 +6,12 @@ section_id: "G.7:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__013_relations.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:12 — Relations"
-line_start: 103158
-line_end: 103165
+line_start: 104207
+line_end: 104214
 dependencies:
   - "A.21"
   - "B.3"

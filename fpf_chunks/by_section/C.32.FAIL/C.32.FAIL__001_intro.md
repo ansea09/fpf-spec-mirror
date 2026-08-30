@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__001_intro.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:intro — Intro"
-line_start: 64949
-line_end: 64954
+line_start: 65489
+line_end: 65494
 dependencies:
   - "A.10"
   - "A.13"

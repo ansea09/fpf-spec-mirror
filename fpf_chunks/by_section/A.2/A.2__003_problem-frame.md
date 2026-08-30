@@ -6,12 +6,12 @@ section_id: "A.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__003_problem-frame.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:1 — Problem Frame"
-line_start: 3013
-line_end: 3020
+line_start: 3024
+line_end: 3031
 dependencies:
   - "A.1"
   - "A.1.1"

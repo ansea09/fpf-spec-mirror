@@ -6,12 +6,12 @@ section_id: "F.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__008_conformance-checklist.md"
-commit_sha: "72222c13cc1bba009f1ee1f1aca47654db8e5716"
+commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:7 — Conformance Checklist"
-line_start: 91696
-line_end: 91720
+line_start: 92673
+line_end: 92700
 dependencies:
   - "A.10"
   - "A.7"
@@ -47,6 +47,9 @@ keywords:
 - **SCR-F1-S10 (No algorithmic gate).** A search reading changes the cut only after inspection of source claims.
 - **SCR-F1-S11 (Reopen conditions).** The result says which question, use, edition, rival, counterexample, or transfer-boundary change reopens it.
 - **SCR-F1-S12 (Domain-method boundary).** A required systematic or appraisal-bearing review remains with its domain method.
+- **SCR-F1-S13 (SoTA source roles).** A cut used for a SoTA claim assigns every retained source one of the comparison roles defined in `E.8:11`, records it in plain wording, and says which retained contributions can change the answer. F.1 does not restate or supersede the E.8 definition.
+- **SCR-F1-S14 (No authority or currentness laundering).** Official status, popularity, maintained status, citation count, publication date, freshness, or academic praise does not promote a source into the best-known line. An official or widespread source may still earn that role from its substantive comparison. Catalogue and publisher pages support identity/currentness only unless their substantive claims independently enter the comparison.
+- **SCR-F1-S15 (SoTA one-source guard and gap).** A one-source SoTA cut is used only when that source critically synthesizes the serious alternatives and no known action-changing rival or counterexample remains hidden. Otherwise the cut retains the necessary comparison or returns a source gap.
 
 #### F.1:7.2 - Regression checks
 
