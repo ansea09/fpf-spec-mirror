@@ -6,7 +6,7 @@ section_id: "A.2.5:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__013_consequences.md"
-commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
+commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:10 — Consequences"

@@ -6,12 +6,12 @@ section_id: "F.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__006_solution.md"
-commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
+commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:4 — Solution"
 line_start: 99816
-line_end: 99878
+line_end: 99880
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -37,11 +37,13 @@ keywords:
 
 Use `OntologyFirstPlainRewrite` as a five-step repair over one bounded span.
 
-1. **Bound the span.** Name the sentence, row, paragraph, or small section under repair. Name visible apparatus candidates: pattern-application drift, role label, container word, status word, process trace, quality proof, negative catalogue, reference boilerplate, record, card, table, schema, data-structure wrapping, or other overwrap.
-2. **Separate content from apparatus by ontology.** For each phrase part, ask what object, head kind, claim or relation, current slot or relation position, use or publication relation, admissible use, participant, and relevant flow position it carries. A trigger-shaped phrase remains content until its actual claim is recovered. Use `E.10.ROLE` once for role-shaped wording: for example, *reviewer role* may name a local system-role kind or participation in a review relation. Use `A.6.F` once for function-shaped wording: for example, *pump function* may name an expected transformation, while *the pump is functioning* states a condition. Infer neither branch from the trigger word. If a phrase part changes a live value, keep it as content; if it only restates process, a label, negative catalogue, reference boilerplate, record, form, or quality proof, classify it as apparatus.
+1. **Bound the span.** Name the sentence, row, paragraph, or small section under repair. Name visible apparatus candidates: pattern-application drift, role label, container word, status word, process trace, quality proof, unsupported negative classification, reference boilerplate, record, card, table, schema, data-structure wrapping, or other overwrap.
+2. **Separate content from apparatus by ontology.** For each phrase part, ask what object, head kind, claim or relation, current slot or relation position, use or publication relation, admissible use, participant, and relevant flow position it carries. A trigger-shaped phrase remains content until its actual claim is recovered. Use `E.10.ROLE` once for role-shaped wording: for example, *reviewer role* may name a local system-role kind or participation in a review relation. Use `A.6.F` once for function-shaped wording: for example, *pump function* may name an expected transformation, while *the pump is functioning* states a condition. Infer neither branch from the trigger word. If a phrase part changes a live value, keep it as content; if it only restates process, a label, an unsupported negative classification, reference boilerplate, record, form, or quality proof, classify it as apparatus.
 3. **Remove or move apparatus.** Delete the apparatus or move it to the document, record, note, or publication relation where it belongs: `DRR`, review record, quality result, architecture note, README, ToC, `E.11`, or `I.2` entry locus, projection record, release or landing evidence document, or source-side note. Do not replace it with a smoother synonym, role label, container word, status word, record, card, table, schema, data-structure wrapper, or publication-form word.
 4. **Restore remaining content precision.** Restore every complement needed to determine the claim: what was selected, changed, compared, transformed, published, evaluated, or relied on. Use `E.10`, `E.10.ARCH`, `E.10.ROLE`, `A.6.F`, `F.18`, or the specific pattern that defines, constrains, or tests the remaining word, head, relation, claim, slot, use, name, or admissible-use boundary.
 5. **Rewrite and check loss.** Write the shortest plain technical sentence that preserves the repaired object, kind, claim, relation, action, current slot, relation position, use relation, any live system-role, function, ordinary-wording or flow distinction, established term, and admissible use. Also preserve only the action-guiding claim details consumed by the declared use: exact predicate and participants, polarity, quantity or threshold, temporal boundary and order, criterion, tolerance, exception, applicability condition, and other explicit operational detail. The rewrite fails if it changes a live value without an accepted semantic decision or becomes harder for the declared reader to use.
+
+A contrast of the form ‘X is not A but B’ is useful only when the text or working situation has already made A relevant: an earlier claim, an observed or source-backed confusion, a serious competing classification, or a safety or non-use condition that changes action. If A appears only so the author can reject it, remove A and state X's positive kind, relation, action, or result directly. Keep problematization of an observed failure, a fair dispute with stated grounds, ordinary negation whose polarity is content, and a documented anti-pattern; judge their actual claims rather than their negative grammar.
 
 Keep ontology visible only where it carries the sentence. A term-source or type annotation is needed only when it changes how the reader identifies the object, kind, relation, slot, use, publication boundary, admissible use, or applicable rule. A record, card, table, schema, data structure, dashboard, or named form remains apparatus unless it carries one of those values. If ordinary domain wording already preserves them, keep the ordinary sentence. "The aircraft flies" is better than a typed expansion unless the flight function, system kind, or slot relation is under repair.
 
@@ -60,7 +62,7 @@ Use the full result form when the repair must be inspectable; otherwise a local 
 | Field | Meaning |
 |---|---|
 | `TextSpanRef` | Bounded span under repair. |
-| `ApparatusCandidateSet` | Visible pattern-application, role, record, card, table, schema, data-structure wrapping, locus, flow, status, process, negative-catalogue, reference, or quality-proof apparatus candidates. |
+| `ApparatusCandidateSet` | Visible pattern-application, role, record, card, table, schema, data-structure wrapping, locus, flow, status, process, unsupported-negative-classification, reference, or quality-proof apparatus candidates. |
 | `ContentCandidateSet` | Phrase parts that carry an object, claim, relation, value in `KindAndClaimMap`, action-guiding claim detail, flow position, evidence-use value, or user-facing action. |
 | `ObjectOfConcern` | Object the span is about. |
 | `KindAndClaimMap` | Head kind, claim kind, relation kind, current slot, relation position, use relation, publication relation when it changes admissible use, scope, and—when another pattern contributes—the pattern id plus what its content defines, constrains, or tests. |

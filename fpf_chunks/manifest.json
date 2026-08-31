@@ -1,6 +1,6 @@
 {
   "source_path": "FPF-Spec.md",
-  "commit_sha": "8bb4989c9be7fa4b33f0bb7537e4611676ee3087",
+  "commit_sha": "e400eab3757d60a8d05196046bed002dff1839e0",
   "chunking_method": "pattern-aware",
   "pattern_count": 310,
   "deprecated_pattern_migrations": {
@@ -14997,7 +14997,7 @@
       "pattern_id": "F.19",
       "pattern_title": "Ontology-First Plain Technical Rewriting",
       "line_start": 99730,
-      "line_end": 99992,
+      "line_end": 99995,
       "parent_chunk": "by_pattern/F.19.md",
       "child_chunks": [
         "by_section/F.19/F.19__001_intro.md",
@@ -15040,8 +15040,8 @@
     {
       "pattern_id": "G.Core",
       "pattern_title": "Part G Core Invariants",
-      "line_start": 99993,
-      "line_end": 100435,
+      "line_start": 99996,
+      "line_end": 100438,
       "parent_chunk": "by_pattern/G.Core.md",
       "child_chunks": [
         "by_section/G.Core/G.Core__001_intro.md",
@@ -15083,8 +15083,8 @@
     {
       "pattern_id": "G.0",
       "pattern_title": "Frame Standard and Comparability Governance — CG‑Spec",
-      "line_start": 100436,
-      "line_end": 100780,
+      "line_start": 100439,
+      "line_end": 100783,
       "parent_chunk": "by_pattern/G.0.md",
       "child_chunks": [
         "by_section/G.0/G.0__001_intro.md",
@@ -15144,8 +15144,8 @@
     {
       "pattern_id": "G.1",
       "pattern_title": "CG‑Frame‑Ready Generator",
-      "line_start": 100781,
-      "line_end": 101213,
+      "line_start": 100784,
+      "line_end": 101216,
       "parent_chunk": "by_pattern/G.1.md",
       "child_chunks": [
         "by_section/G.1/G.1__001_intro.md",
@@ -15206,8 +15206,8 @@
     {
       "pattern_id": "G.2",
       "pattern_title": "SoTA Harvester & Synthesis",
-      "line_start": 101214,
-      "line_end": 101717,
+      "line_start": 101217,
+      "line_end": 101720,
       "parent_chunk": "by_pattern/G.2.md",
       "child_chunks": [
         "by_section/G.2/G.2__001_intro.md",
@@ -15266,8 +15266,8 @@
     {
       "pattern_id": "G.3",
       "pattern_title": "CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates",
-      "line_start": 101718,
-      "line_end": 102165,
+      "line_start": 101721,
+      "line_end": 102168,
       "parent_chunk": "by_pattern/G.3.md",
       "child_chunks": [
         "by_section/G.3/G.3__001_intro.md",
@@ -15333,8 +15333,8 @@
     {
       "pattern_id": "G.4",
       "pattern_title": "CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring",
-      "line_start": 102166,
-      "line_end": 102606,
+      "line_start": 102169,
+      "line_end": 102609,
       "parent_chunk": "by_pattern/G.4.md",
       "child_chunks": [
         "by_section/G.4/G.4__001_intro.md",
@@ -15400,8 +15400,8 @@
     {
       "pattern_id": "G.5",
       "pattern_title": "Multi‑Method Dispatcher and MethodFamily Registry",
-      "line_start": 102607,
-      "line_end": 103503,
+      "line_start": 102610,
+      "line_end": 103506,
       "parent_chunk": "by_pattern/G.5.md",
       "child_chunks": [
         "by_section/G.5/G.5__001_intro.md",
@@ -15470,8 +15470,8 @@
     {
       "pattern_id": "G.6",
       "pattern_title": "Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths",
-      "line_start": 103504,
-      "line_end": 103829,
+      "line_start": 103507,
+      "line_end": 103832,
       "parent_chunk": "by_pattern/G.6.md",
       "child_chunks": [
         "by_section/G.6/G.6__001_intro.md",
@@ -15536,8 +15536,8 @@
     {
       "pattern_id": "G.7",
       "pattern_title": "Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)",
-      "line_start": 103830,
-      "line_end": 104216,
+      "line_start": 103833,
+      "line_end": 104219,
       "parent_chunk": "by_pattern/G.7.md",
       "child_chunks": [
         "by_section/G.7/G.7__001_intro.md",
@@ -15598,8 +15598,8 @@
     {
       "pattern_id": "G.8",
       "pattern_title": "SoS‑LOG Bundles & Maturity Ladders",
-      "line_start": 104217,
-      "line_end": 104685,
+      "line_start": 104220,
+      "line_end": 104688,
       "parent_chunk": "by_pattern/G.8.md",
       "child_chunks": [
         "by_section/G.8/G.8__001_intro.md",
@@ -15651,8 +15651,8 @@
     {
       "pattern_id": "G.9",
       "pattern_title": "Parity and Benchmark Harness",
-      "line_start": 104686,
-      "line_end": 105232,
+      "line_start": 104689,
+      "line_end": 105235,
       "parent_chunk": "by_pattern/G.9.md",
       "child_chunks": [
         "by_section/G.9/G.9__001_intro.md",
@@ -15710,8 +15710,8 @@
     {
       "pattern_id": "G.10",
       "pattern_title": "SoTA Pack Shipping",
-      "line_start": 105233,
-      "line_end": 105634,
+      "line_start": 105236,
+      "line_end": 105637,
       "parent_chunk": "by_pattern/G.10.md",
       "child_chunks": [
         "by_section/G.10/G.10__001_intro.md",
@@ -15773,8 +15773,8 @@
     {
       "pattern_id": "G.11",
       "pattern_title": "Telemetry-Driven Refresh and Decay Orchestrator",
-      "line_start": 105635,
-      "line_end": 106067,
+      "line_start": 105638,
+      "line_end": 106070,
       "parent_chunk": "by_pattern/G.11.md",
       "child_chunks": [
         "by_section/G.11/G.11__001_intro.md",
@@ -15830,8 +15830,8 @@
     {
       "pattern_id": "G.12",
       "pattern_title": "DHC Dashboards (Discipline-Health Time Series and Views)",
-      "line_start": 106068,
-      "line_end": 106329,
+      "line_start": 106071,
+      "line_end": 106332,
       "parent_chunk": "by_pattern/G.12.md",
       "child_chunks": [
         "by_section/G.12/G.12__001_intro.md",
@@ -15890,8 +15890,8 @@
     {
       "pattern_id": "G.13",
       "pattern_title": "External Interop Hooks for SoTA Discipline Packs (conceptual)",
-      "line_start": 106330,
-      "line_end": 106679,
+      "line_start": 106333,
+      "line_end": 106682,
       "parent_chunk": "by_pattern/G.13.md",
       "child_chunks": [
         "by_section/G.13/G.13__001_intro.md",
@@ -15947,8 +15947,8 @@
     {
       "pattern_id": "I.2",
       "pattern_title": "Expanded Entry Disambiguation Cases",
-      "line_start": 106680,
-      "line_end": 106888,
+      "line_start": 106683,
+      "line_end": 106891,
       "parent_chunk": "by_pattern/I.2.md",
       "child_chunks": [
         "by_section/I.2/I.2__001_intro.md",

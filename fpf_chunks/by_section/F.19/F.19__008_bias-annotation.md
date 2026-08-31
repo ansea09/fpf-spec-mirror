@@ -6,12 +6,12 @@ section_id: "F.19:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__008_bias-annotation.md"
-commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
+commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:6 — Bias-Annotation"
-line_start: 99895
-line_end: 99903
+line_start: 99897
+line_end: 99905
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -39,6 +39,6 @@ keywords:
 
 `F.19` also protects against two common reviewer biases:
 
-- **negative-catalogue bias:** explaining a class by long lists of what it is not;
+- **unsupported-negative-classification bias:** introducing one or more alternative classes only so the sentence can reject them;
 - **apparatus-preservation bias:** replacing one process, role, record, card, table, schema, data-structure wrapper, locus, flow, status, or quality-proof phrase with another phrase that still hides the object.
 

@@ -6,7 +6,7 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "8bb4989c9be7fa4b33f0bb7537e4611676ee3087"
+commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
@@ -241,7 +241,7 @@ A result maintained outside the receiving framework may answer the reader's use 
 | S-2 | Internal Cohesion | Inline references to Pillars and related patterns. |
 | S-3 | Embedded Mini-Definitions | Gloss a new term in parentheses on first appearance. |
 | S-4 | Contextualisation | Brief historical or disciplinary lineage references. |
-| S-5 | Prophylactic Clarification | Pre-empt common misreadings inside the prose. |
+| S-5 | Grounded Clarification | State the positive object and move first. Pre-empt a misreading only when the source material, observed use, or stated working situation shows that readers actually make it or are led toward it; otherwise do not invent an alternative class merely to reject it. |
 | S-6 | Quotable Closers | Finish Solution or Consequences with a memorable aphorism. |
 | S-7 | Generative over Prescriptive | Present rules as enabling constraints, not bureaucracy. |
 | S-8 | Trans-disciplinary Tie-ins | Illustrate using at least two distinct fields. |
