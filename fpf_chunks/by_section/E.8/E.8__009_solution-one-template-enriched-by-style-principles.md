@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 72881
-line_end: 73304
+line_start: 72882
+line_end: 73305
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -215,12 +215,12 @@ Use this when a broader available contribution and a proposed narrower contribut
 
 An action-changing difference shows that the contribution is distinct; it does not show that the contribution is worth keeping. Retain or merge it only when the changed action, result, boundary, or saved source reconstruction is warranted and useful for the declared reader, use, and scope under the applicable domain, evidence, currentness, affordability, and architecture checks. Use only the checks that can change this decision. Repair or reject a distinct contribution that is wrong, stale, unsafe, unsupported, incompatible, or needlessly burdensome. Keep an explicit gap when no acceptable contribution answers the situation.
 
-Naming a dependency does not settle the comparison. Say which maintained result supplies the reusable part, what kind of result it is, which maintained product supplies it, and how the reader uses it. Then preserve any remaining domain problem, filling, constraint, relation, evidence limit, return, or discovery need without copying the general rule.
+Naming a dependency does not settle the comparison. Say which available result supplies the reusable part, what kind of result it is, which product and edition or current state supplies it, how the reader uses it, and which currentness or availability condition can change that use. State maintenance separately only when it changes the receiving use. Then preserve any remaining domain problem, filling, constraint, relation, evidence limit, return, or discovery need without copying the general rule.
 
 When reuse or a gap closes the reader's question, state which of these is actually true:
 
-1. **Use an available maintained result.** Name the exact result, what kind of result it is, the maintained product and edition or current state that supplies it, and the receiving use. The supplying product may be an FPF, DPF, LPF, or a separately maintained non-framework product.
-2. **Use a maintained MethodDescription.** Name the public description, the Method it describes, and how the reader uses the description to select or perform that Method. Do not report the expected result as already obtained.
+1. **Use an available result.** Name the result, what kind of result it is, the product and edition or current state that supplies it, the receiving use, and any currentness or availability condition that can change that use. The supplying product may be an FPF, DPF, LPF, or a separate non-framework product. If maintenance changes the use, state its separately established relation and evidence.
+2. **Use a MethodDescription.** Name the public description, the Method it describes, and how the reader uses the description to select or perform that Method. State availability, currentness, or a separately established maintenance fact only when it changes that use. Do not report the expected result as already obtained.
 3. **Use a direct source as evidence.** Name the source, the claim or decision it supports, the receiving use, its limits, and a usable locator. Source availability is not result production.
 4. **State a named unavailable result.** Name what is missing, the action or decision it blocks, the missing condition, and the observable condition for retry.
 

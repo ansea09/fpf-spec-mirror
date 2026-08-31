@@ -6,12 +6,12 @@ section_id: "E.4.DPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 71134
-line_end: 71178
+line_start: 71135
+line_end: 71179
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -69,8 +69,8 @@ keywords:
 | Lookup miss as absence | A search index or generated crosswalk returns nothing, so the author concludes that FPF, a DPF, or the literature has no relevant contribution. | Report partial coverage, return useful hits to authoritative bodies and editions, and widen the lookup when a known contribution is missing. |
 | Wording profile by default | Every DPF receives a trigger registry or profile although no recurring domain wording failure or maintained multi-entry use has been shown. | Write only the local entries needed by affected patterns; identify a separate profile only for a named maintained multi-entry use, and keep any table that publishes it as a publication form. |
 | Ontology catalog as framework | The package classifies the domain or defines terms, but it does not tell a practitioner what typical problem is live or what SoTA solution move avoids a known failure. | Keep ontology as support material; draft or repair DPF patterns around problem frames, positive solution moves, worked cases, anti-patterns, and refresh. |
-| Outside the pattern set means another product | A Preface, coverage account, registry snapshot, or refresh note is split or absorbed by file location rather than use and maintenance. | Keep units that share the framework edition, readers, access, maintainer, and cadence together. Keep an independently useful adjacent subject separate and point to its exact edition or state. |
-| Combined carrier merges products | A DPF and an adjacent catalogue, guide, evidence package, service, or programme receive one framework identity or index. | Keep the outer carrier neutral, apply `E.11.PFP` only to framework constituents, and retain each adjacent direct subject's own identity or state, form, access, and maintenance boundary. |
+| Outside the pattern set means another product | A Preface, coverage account, registry snapshot, or refresh note is split or absorbed by file location rather than shared edition, reader use, access, and change rule. | Keep units that share those facts together. Keep an independently useful adjacent subject separate and point to its edition or state; state maintenance only when it separately obtains. |
+| Combined carrier merges products | A DPF and an adjacent catalogue, guide, evidence package, service, or programme receive one framework identity or index. | Keep the outer carrier neutral, apply `E.11.PFP` only to framework constituents, and retain each adjacent direct subject's identity or state, form, access, change rule, and any separately established maintenance relation. |
 | Publication carrier as architecture | Publication occurrence, form, presentation carrier, package boundary, or access route is treated as framework episteme, edition continuity, package architecture, relation membership, or truth. | Recover E.4.PFAD architecture decisions, E.4.PFR relations and dependencies, C.2.1 framework identity, and E.24.PUB publication occurrence, form, and carrier separately before relying on the exposed content. |
 | Invisible framework story | A DPF carrier reads as a neutral list of principles, but the reader cannot tell what source or domain structures were selected, why this route is for them, what was deliberately coarsened, abstracted, omitted, or left to source return, or whether the carrier is a second-step coarsening after an architecture description or view. | Add a short carrier structure-account in the readme, Preface, or equivalent carrier, then evaluate it through `E.4.DPF.DA` rather than scattering explanation into every pattern body. |
 | Generated candidate authority | Search or LLM output becomes the framework because it is fluent. | Use `C.35` for admission, then decide candidate selection through `E.4.PFAD` or `C.32`. |

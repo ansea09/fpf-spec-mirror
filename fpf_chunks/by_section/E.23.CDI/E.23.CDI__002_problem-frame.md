@@ -6,12 +6,12 @@ section_id: "E.23.CDI:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__002_problem-frame.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:1 — Problem frame"
-line_start: 90031
-line_end: 90048
+line_start: 90035
+line_end: 90053
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -20,6 +20,7 @@ dependencies:
   - "C.36"
   - "E.22"
   - "E.23"
+  - "E.23.CAE"
 keywords:
 ---
 
@@ -36,6 +37,7 @@ Use this pattern when one named System must become more capable of performing a 
 **Not this pattern when.**
 
 - Use `A.2.2` when only the identity, envelope, measures, evidence, or currentness of one holder's capability is current.
+- Use `E.23.CAE` first when previous performance or failed transfer leaves it unclear whether the live issue is envelope, configuration, applicability selection, access or activation, context-dependent expression, adaptation, enactment, or actual capability change. Its disposition is a premise, not selection of development Work.
 - Use `E.22` when one evaluation question is current and no development Method is needed.
 - Use base `E.23` for repeated improvement of an arbitrary object version.
 - Use `C.32.MWA` first only when the target-practice architecture must itself be recovered or compared.

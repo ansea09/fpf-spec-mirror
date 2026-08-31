@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `e400eab3757d60a8d05196046bed002dff1839e0`
+Commit SHA: `0c3ef3d3921bb3176096e3e6102dd819c42f6446`
 
 Chunking method: `pattern-aware`
 
-Patterns: `310`
+Patterns: `311`
 
 ## Patterns
 
@@ -278,6 +278,7 @@ Patterns: `310`
 - [E.22 — Improvement-Oriented Quality Evaluation Question Framing](by_pattern/E.22.md)
 - [E.23 — Quality Improvement Loop Method](by_pattern/E.23.md)
 - [E.23.CDI — Developing Capability for a Named Work Family](by_pattern/E.23.CDI.md)
+- [E.23.CAE — Capability Access and Expression Differential Probe](by_pattern/E.23.CAE.md)
 - [E.24 — U.Ontic and Ontic Introduction Discipline](by_pattern/E.24.md)
 - [E.24.CD — Ontic Candidate Detection and First-Use Disposition](by_pattern/E.24.CD.md)
 - [E.24.PUB — Ontic Description and Publication Discipline](by_pattern/E.24.PUB.md)

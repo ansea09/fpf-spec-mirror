@@ -6,12 +6,12 @@ section_id: "E.11.DSG:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__006_archetypal-grounding.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:5 — Archetypal Grounding"
-line_start: 79752
-line_end: 79782
+line_start: 79753
+line_end: 79783
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -42,7 +42,7 @@ If the decision is safety-critical or legally constrained, add the exact source 
 
 A narrative-practice Reference may combine results from independently maintained narrative, language-practice, and pedagogical DPFs for one lesson-planning question. Include all three only if removing any one makes that result insufficient under the stated rule. Otherwise present alternatives or a bounded plausible combination.
 
-A Spanish translation of an English Reference is a derivative episteme when its effective scheme changes. It remains in the same Reference product only while its reader, access, maintenance, warning, refresh, and retirement boundary remains shared. Independent Spanish maintenance selects another Reference product, not another edition merely because the title and list of included product series remain recognizable.
+A Spanish translation of an English Reference is a derivative episteme when its effective scheme changes. It remains in the same Reference product only while it uses the same reader and use, access rule, warning rule, later-review rule, and retirement rule. A separately established maintenance relation changes product identity only when the identity rule says so. A different Spanish use or current state may select another Reference product even when the title and list of included product series remain recognizable.
 
 #### E.11.DSG:5.3 - Returns after inclusion, availability, identity, or retirement changes
 

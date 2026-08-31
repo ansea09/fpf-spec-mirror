@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.19.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
-line_start: 87417
-line_end: 88221
+line_start: 87418
+line_end: 88222
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -609,7 +609,7 @@ For `PCP-ENTRY`, the ordinary compact pattern-local change note remains enough w
 
 Use this replay when an exact candidate pattern edition changes materially under `E.8:4.1.2`. Run it once on the stable candidate before acceptance or landing, not after each edit. Start with the bounded E.8 loop over the actual predecessor and proposed prose, then open only each affected prior-edition or candidate-only use whose result can differ, pinned to its exact basis and changed locus. Treat a change as mechanical only when the smallest relevant comparison shows that every materiality value named in `E.8:4.1.2` is preserved. A genuinely bounded local semantic edit opens only its affected use probe and changed wording group; physical rewrite size is not evidence.
 
-When the candidate keeps, merges, removes, profiles, reuses, externally supplies, or omits a narrower contribution, apply the same-situation decision in `E.8:4.1.3`. If reuse or a gap answers the working question, verify which return is actually present: an available maintained result of its own kind and supplying product, a maintained MethodDescription reference, direct-source evidence, or a named unavailable result. For an external result, verify the receiving use, discovery route, material currentness or availability, and the statement that it remains outside the receiving framework; otherwise the package still has a gap or omission. When the resulting stable set materially changes a promised problem family, require a current D12 judgement for the exact successor package. Reuse a matching current package result when its exact basis is unchanged; E.19 asks for neither a duplicate package evaluation nor evidence that a revisit occurred.
+When the candidate keeps, merges, removes, profiles, reuses, externally supplies, or omits a narrower contribution, apply the same-situation decision in `E.8:4.1.3`. If reuse or a gap answers the working question, verify which return is actually present: an available result of its own kind and supplying product, a MethodDescription reference, direct-source evidence, or a named unavailable result. For an external result, verify the receiving use, discovery route, material currentness or availability, and the statement that it remains outside the receiving framework; state maintenance only when it changes that use. Otherwise the package still has a gap or omission. When the resulting stable set materially changes a promised problem family, require a current D12 judgement for the successor package. Reuse a matching current package result when its basis is unchanged; E.19 asks for neither a duplicate package evaluation nor evidence that a revisit occurred.
 
 Judge each affected use probe separately when its result can differ by exact predecessor or candidate-only basis, working use or relying work, expected first useful result, boundary, necessity, or evidence mode. One review may contain probes from both bases. A grouped verdict such as `uses preserved or added` or `usability preserved` cannot substitute for those judgements. E.19 does not prescribe a per-probe progress store: inspect-repair-verify repairs and verifies failed probes, while independent findings records only regressions, insufficiencies, invalid transfers, unsupported decisions, and blockers. When `E.8`, `E.21`, or another governing evaluation requires reusable dispositions or values, keep them in that evaluation's result rather than copying them into E.19 findings.
 

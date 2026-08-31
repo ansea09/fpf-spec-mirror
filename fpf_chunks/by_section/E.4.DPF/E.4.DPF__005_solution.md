@@ -6,12 +6,12 @@ section_id: "E.4.DPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__005_solution.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:4 — Solution"
-line_start: 70625
-line_end: 71013
+line_start: 70626
+line_end: 71014
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -68,7 +68,7 @@ Start here with the cold-reader route. It answers whether framework authoring sh
 4. Test a cheaper search, curated reading route, or access-only result.
 5. If a reusable problem-solution language still looks useful, sketch one to four provisional pattern candidates with recognizable problems and solution moves. These candidates are seeds or contributions; their number does not make a framework edition.
 6. State what field of practice the proposed framework promises to cover. Test whether its recurring problem families, pattern relations, and one representative first use need a new framework. If the current material is too narrow, retain it as, for example, a seed, a contribution to an existing framework, a guide, direct use of FPF and the sources, or another maintained result whose kind fits its use.
-7. Ask whether choosing among five outcomes—a new or revised framework, a contribution to an existing framework, a maintained non-framework product, a thinner publication or access route, or no new maintained product now—will settle a later-used edition, dependency, initial pattern placement or relation, or publication or access boundary whose rationale another author or reviewer needs.
+7. Ask whether choosing among five outcomes—a new or revised framework, a contribution to an existing framework, a non-framework product, a thinner publication or access route, or no new product now—will settle a later-used edition, dependency, initial pattern placement or relation, direct-subject identity or change rule, or publication or access decision whose rationale another author or reviewer needs.
 8. If no, take the useful contribution, thinner route, other maintained result, or stop without a DRR. If yes, use `E.4.PFAD` to state which of the same five outcomes was selected and its framework-specific consequences in one `E.9` DRR.
 
 These are alternative entry outcomes, not serial stages. A separate organization-design proposal is useful only when a named review use needs candidate organization claims. A separate dependency description is useful only when a named next authoring use needs a stable account of dependency availability and relevance. Neither is a prerequisite for recognizing or answering the architecture question.
@@ -108,9 +108,9 @@ Before authoring a new edition, the `E.4.PFAD` architecture answer states:
 - one representative application that crosses the patterns and problem-family sets needed for the first use;
 - the selected first-edition patterns, every same-framework prerequisite needed for that use, and every relied-on external edition;
 - what the sources and evidence support, including whether each load-bearing claim is actual, proposed, or still untested, and what must be realized or tested before a stronger claim is made; and
-- where each contribution goes: into the new edition, back to an existing FPF or DPF, into an LPF or another maintained result of its actual kind and supplying product, into direct source use, or into an explained decision to maintain nothing new together with the observation that would reopen the question.
+- where each contribution goes: into the new edition, back to an existing FPF or DPF, into an LPF or another available result of its actual kind and supplying product, into direct source use, or into an explained decision to add no new result, together with the observation that would reopen the question.
 
-Before placing a proposed narrower contribution, apply `E.8:4.1.3` to it and the broader available contribution in one recognizable situation. Keep or merge a warranted difference that changes the reader's action or result; omit or merge a true duplicate; repair or reject an unwarranted difference. If something else answers the question, distinguish an available maintained result from a MethodDescription, direct-source evidence, and an unavailable result. This decides one contribution, not whether the package covers its public promise.
+Before placing a proposed narrower contribution, apply `E.8:4.1.3` to it and the broader available contribution in one recognizable situation. Keep or merge a warranted difference that changes the reader's action or result; omit or merge a true duplicate; repair or reject an unwarranted difference. If something else answers the question, distinguish an available result from a MethodDescription, direct-source evidence, and an unavailable result; state maintenance only when it changes that use. This decides one contribution, not whether the package covers its public promise.
 
 The first-edition set is internally usable only when it contains every selected pattern and every prerequisite from the same framework needed for the named first use. Keep relied-on results from an FPF, DPF, LPF, or separate non-framework product external when they are not members of this framework. For each external result, name the exact result, its direct kind, supplying product and edition or current state, receiving use, discovery route, and any currentness or availability condition that can change the use; say that it remains external. When an edition dependency obtains, also name its direction, reason, and refresh condition. If these facts are missing or the result does not answer the promised use, keep the family as a gap or omission; do not hide it behind the word *closed*. When a keep, merge, removal, profile move, or external reliance materially changes the stable set for a promised problem family, obtain a current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition. Reuse a matching current result when that edition and its basis are unchanged; authoring history is not part of the D12 result.
 
@@ -208,7 +208,7 @@ External FPF, DPF, or LPF editions: relied-on content, use, direction, reason, r
 Which load-bearing claims are actual, proposed, or untested, and what must be realized or tested before stronger use:
 Destination or source return for every contribution not selected into the framework edition or another named maintained result:
 Candidate relation functions among the patterns:
-Current first result and selection condition: cheap route or stop with no DRR | one open architecture question answered by a new or revised framework, a contribution to an existing framework, a maintained non-framework product, a thinner publication or access route, or no new maintained product now in an E.9 DRR | optional organization-design proposal | post-existence architecture-description use | optional authoring-dependency description
+Current first result and selection condition: cheap route or stop with no DRR | one open architecture question answered by a new or revised framework, a contribution to an existing framework, a non-framework product, a thinner publication or access route, or no new product now in an E.9 DRR | optional organization-design proposal | post-existence architecture-description use | optional authoring-dependency description
 Dependency on FPF Core or a domain framework edition:
 Publication form and exact presentation carrier for first use; access route if one is needed:
 Quality route: which first drafts should be evaluated and improved:

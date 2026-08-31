@@ -6,12 +6,12 @@ section_id: "E.11.DSG:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__002_problem-frame.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:1 — Problem frame"
-line_start: 79639
-line_end: 79652
+line_start: 79640
+line_end: 79653
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -34,11 +34,11 @@ keywords:
 
 #### E.11.DSG:1.1 - Use this when
 
-Use this pattern when a practitioner may need results from several DPFs, cannot yet tell which DPF applies, needs a Suite-wide commonality or relation, or needs a truthful stop because the ecosystem lacks part of the answer. The DPF Suite Reference is the maintained non-framework publication for that situation. It gives a short useful answer or honest blocker, says what each returned result or source contributes, and returns the reader to the Suite collection and the product series or states that change the answer. It is not an instructional Guide, and co-listing proves neither Suite belonging nor dependency or compatibility.
+Use this pattern when a practitioner may need results from several DPFs, cannot yet tell which DPF applies, needs a Suite-wide commonality or relation, or needs a truthful stop because the ecosystem lacks part of the answer. The DPF Suite Reference is the editioned non-framework publication for that situation. It gives a short useful answer or honest blocker, says what each returned result or source contributes, and returns the reader to the Suite collection and the product series or states that change the answer. It is not an instructional Guide, and co-listing proves neither Suite belonging nor dependency or compatibility.
 
-**First useful result.** Give one short answer that names the situation and returns each needed item in its real use: an available maintained result, a maintained MethodDescription, direct-source evidence, or a named unavailable result. Say what each contributes and end with an ordinary stop or return. Do not fill a missing result with another title.
+**First useful result.** Give one short answer that names the situation and returns each needed item in its real use: an available result, a MethodDescription, direct-source evidence, or a named unavailable result. Say what each contributes and end with an ordinary stop or return. State maintenance only when it changes the use. Do not fill a missing result with another title.
 
-**Primary `EntityOfConcern`.** One DPF Suite Reference edition: a non-framework `U.Episteme` in an independently maintained Reference product series. The edition, its continuity with another edition, and its belonging to that series are separate claims.
+**Primary `EntityOfConcern`.** One DPF Suite Reference edition: a non-framework `U.Episteme` in a separately constituted Reference product series. The edition, its continuity with another edition, and its belonging to that series are separate claims.
 
 **What this buys.** A reader can act on a small answer and still return to the Suite collection, the product series that belong to it, relevant editions or states, source facts, warnings, and stronger relations when those details change the action.
 

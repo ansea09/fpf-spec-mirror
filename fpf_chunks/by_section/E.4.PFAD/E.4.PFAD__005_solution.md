@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
-line_start: 70384
-line_end: 70468
+line_start: 70385
+line_end: 70469
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -46,27 +46,27 @@ keywords:
 
 #### E.4.PFAD:4.1 - Decide whether the architecture question is open
 
-Ask whether choosing a framework, a maintained non-framework product, a thinner route, an existing-framework contribution, or stop will settle at least one boundary used by later authoring or review:
+Ask whether choosing a framework, a non-framework product, a thinner route, an existing-framework contribution, or stop will settle at least one decision used by later authoring or review:
 
 - the public field promise, a first use that does not depend on unpublished authoring context, or the problem-family coverage of a proposed DPF;
 - an intended or existing framework edition;
 - an FPF Core or other current edition dependency;
 - initial pattern placement or a material relation among those patterns that changes the architecture;
-- the direct subjects and maintenance boundary for a continuing programme, an admitted service, or a separate editioned result when later work must maintain or use them;
+- the direct subjects and identity or change rules for a continuing programme, an admitted service, or a separate editioned result, plus any maintenance relation when later work separately claims or uses it;
 - a publication or access consequence; or
-- for a proposed DPF Suite, the ecosystem use, which product series may belong, constitution, inclusion and removal rules, identity through change, maintenance and source-return conditions, exposure choice, and any separate DPF Suite Reference product decision.
+- for a proposed DPF Suite, the ecosystem use, which product series may belong, constitution, inclusion and removal rules, identity through change, source return, later-review and retirement conditions, exposure choice, any separate DPF Suite Reference product decision, and any maintenance relation only when separately claimed.
 
-If no such boundary and receiving use are present, close the exploratory use without `E.4.PFAD` or an `E.9` DRR. If they are present, decision Work selects a framework, maintained non-framework product, thinner route, existing-framework contribution, or stop and one `E.9` DRR records that answer. The cheap exit and the architecture decision are alternative entry outcomes, not serial stages.
+If none of these decisions and no receiving use are present, close the exploratory use without `E.4.PFAD` or an `E.9` DRR. If one is present, decision Work selects a framework, non-framework product, thinner route, existing-framework contribution, or stop and one `E.9` DRR records that answer. The cheap exit and the architecture decision are alternative entry outcomes, not serial stages.
 
-For every maintained alternative, use *product* only as the first management cue. Then compare the direct subjects at the same grain: the exact framework or package episteme, System, service arrangement, Method, programme description, carrier, or other admitted result, and the relations that later work will rely on. A quality-management, service-management, publication, or content-management scheme may supply a useful probe, but it does not settle the FPF kind. If the unresolved kind can change the selected boundary, keep the boundary proposed and make that kind the next decision question.
+For every product alternative, use *product* only as the first management cue. Then compare the direct subjects at the same grain: the framework or package episteme, System, service arrangement, Method, programme description, carrier, or other admitted result, and the relations that later work will rely on. A quality-management, service-management, publication, or content-management scheme may supply a useful probe, but it does not settle the FPF kind. If an unresolved kind can change the selected answer, keep the product proposed and make that kind the next decision question.
 
 #### E.4.PFAD:4.2 - State the compact framework answer
 
 When the architecture question is open, the framework-specific part of the DRR states:
 
 1. the intended practitioner, public field name and promise, recurring problem, and bounded architecture question;
-2. the selected outcome: a new or revised framework edition, a contribution to an existing framework, a maintained non-framework product, a thinner publication or access route, or no new maintained product now; for a maintained non-framework product, also the direct subject kind and the identity, current-state, provision, or maintenance relations used by the decision;
-3. its field boundary: who can first use it without unpublished authoring context and for what; the connected problem families and useful results; what the current FPF and admitted DPFs already provide and what remains uncovered; serious alternatives, such as splitting or merging the proposed framework, using existing sources directly, contributing to an existing framework, selecting a programme or service boundary, selecting a separate evidence-package episteme, or keeping no maintained product; the limits of evidence; and what change will require a refresh;
+2. the selected outcome: a new or revised framework edition, a contribution to an existing framework, a non-framework product, a thinner publication or access route, or no new product now; for a non-framework product, also the direct subject kind and the identity, current-state, provision, publication, availability, or maintenance relations actually used by the decision;
+3. its field: who can first use it without unpublished authoring context and for what; the connected problem families and useful results; what the current FPF and admitted DPFs already provide and what remains uncovered; serious alternatives, such as splitting or merging the proposed framework, using existing sources directly, contributing to an existing framework, selecting a programme or service, selecting a separate evidence-package episteme, or keeping no new product; the limits of evidence; and what change will require a refresh;
 4. the selected problem-family pattern sets, first patterns and their material relations, representative cross-problem application, and important omissions;
 5. which practice structures change the answer and how their Methods, descriptions, patterns, direct subjects, and managed result boundaries fit together. When those structures do not line up one-for-one, use a completed `C.32.MWA` synthesis; use `E.23.CDI` only when capability development for a named Work family changes the answer;
 6. the existing or intended-edition boundary, selected FPF Core dependency, and only the other exact edition dependencies required by this answer;
@@ -103,13 +103,13 @@ Common practice questions include:
 | What cultural generation, transmission, reconstruction, recognition, selection, retention, or loss matters? | `C.36`. |
 
 If another question changes the answer, name it and the pattern that handles it instead of forcing it into these rows. Do not infer Method parthood from a required contribution, transformation, performed Work, capability, provider contribution, or cultural change.
-For a DPF Suite answer, an architecture decision takes effect to constitute the continuing collection. It selects the ecosystem use, which product series may belong, inclusion and removal rules, identity through change, alternatives, practical consequences, and the reopen condition. The same `E.9` DRR records that answer. A current maintained-Suite claim also identifies the capable maintaining System and its accepted commitment, the working source return for product series and any product-series state presented as current, the refresh response, and one exposure choice: an independent Suite route, a bounded projection in a current DPF Suite Reference edition with source return, or a neutral combined carrier. Constituting and including the Reference product series, admitting and maintaining its editions, and refreshing their answers remain separate decisions and claims. A proposed result use or future constraint is not an obtaining dependency or compatibility relation; apply `E.4.PFR` only after the edition-level case facts exist.
+For a DPF Suite answer, an architecture decision takes effect to constitute the continuing collection. It selects the ecosystem use, which product series may belong, inclusion and removal rules, identity through change, alternatives, practical consequences, and the reopen condition. The same `E.9` DRR records that answer. Publication and availability of the first or a later edition are separate occurrences. A maintained-Suite claim separately identifies the maintenance relation, capable System, and any commitment that actually obtains. Constituting and including the Reference product series, admitting its editions, publishing them, making them available, maintaining them, and refreshing their answers remain separate decisions and claims. A proposed result use or future constraint is not an obtaining dependency or compatibility relation; apply `E.4.PFR` only after the edition-level case facts exist.
 
-For an existing-framework contribution, maintained non-framework product, thinner route, or stop, state only the parts needed to explain that outcome and the later-used boundary. A selected maintained product still names its direct subjects and the relations used; a proposed boundary with an unresolved kind says so. Do not fabricate a field assessment or package merely to fill the list.
+For an existing-framework contribution, non-framework product, thinner route, or stop, state only the parts needed to explain that outcome and the later-used decision. A selected product still names its direct subjects and the relations used; a proposed product with an unresolved kind says so. Do not fabricate a field assessment or package merely to fill the list.
 
 When the architecture keeps, merges, removes, reuses, or omits a load-bearing contribution, record the `E.8:4.1.3` same-situation disposition and the action or result that changed. A narrower label or example is not a difference. A difference that adds an unsupported or needless burden is not worth preserving merely because it changes action.
 
-When the answer treats a promised problem family as covered by a result maintained outside the framework, name the exact result, its direct kind, supplying product and edition or current state, receiving use, practical discovery route, and every currentness or availability condition that can change that use. State that the result remains external. If those facts are absent, or the result does not answer the promised use, record a gap or omission rather than relabelling the result as framework content, a MethodDescription, or source evidence. When the selected keep, merge, removal, profile, external reliance, or omission materially changes the stable set for a promised problem family, obtain a current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition. A matching current result remains usable when that edition and its exact basis are unchanged; the architecture answer does not ask D12 to prove that a revisit occurred.
+When the answer treats a promised problem family as covered by a result supplied from outside the framework, name the result, its direct kind, supplying product and edition or current state, receiving use, practical discovery route, and every currentness or availability condition that can change that use. State that the result remains external, and state maintenance only when it changes the receiving use. If those facts are absent, or the result does not answer the promised use, record a gap or omission rather than relabelling the result as framework content, a MethodDescription, or source evidence. When the selected keep, merge, removal, profile, external reliance, or omission materially changes the stable set for a promised problem family, obtain a current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting DPF or LPF edition. A matching current result remains usable when that edition and its basis are unchanged; the architecture answer does not ask D12 to prove that a revisit occurred.
 
 Keep the ordinary `E.9` grounds, sources, affected loci, rationale, and consequences in the same DRR. Add naming, quality, admission, currentness, or package details only when they change this answer or a named later use requires them. Use the pattern that defines, constrains, or tests each added claim; do not make it a standing PFAD field.
 

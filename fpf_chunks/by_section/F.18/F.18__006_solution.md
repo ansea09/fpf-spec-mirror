@@ -6,12 +6,12 @@ section_id: "F.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:4 — Solution"
-line_start: 98904
-line_end: 99342
+line_start: 99183
+line_end: 99621
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -430,8 +430,8 @@ NameCard:
   PlainLabel: DPF Suite Reference
   CandidateSet: Reference; Handbook; Overview; Companion; Manual; Guide; Using the DPF Suite; registry; index; catalogue
   CandidateCoverage: publication-form, instructional-publication, activity-name, and registry-or-finding-aid readings were compared; no plausible current head family remains open for this use
-  RejectedCandidates: Handbook and Manual imply broad instruction or completeness; Overview and Companion understate the maintained answer-and-return function; Guide suggests instructional procedure; Using the DPF Suite names reader activity; registry, index, and catalogue hide the problem-led answer
-  SelectionRationale: Reference is the smallest head that fits a maintained non-framework publication readers consult for a bounded cross-DPF answer, exact source returns, and honest gaps; the E.11.DSG opening prevents the residual citation-list overread
+  RejectedCandidates: Handbook and Manual imply broad instruction or completeness; Overview and Companion understate the problem-led answer-and-return function; Guide suggests instructional procedure; Using the DPF Suite names reader activity; registry, index, and catalogue hide the problem-led answer
+  SelectionRationale: Reference is the smallest head that fits an editioned non-framework publication readers consult for a bounded cross-DPF answer, source returns, and honest gaps; the E.11.DSG opening prevents the residual citation-list overread
   DeclaredUse: Core-facing designation of the E.11.DSG product form and readable title component for one exact continuing DPF Suite Reference series or admitted edition
   NonAdmissibleUse: no Suite, product series, edition, admission, Suite inclusion, currentness, availability, source authority, answer, lookup Work, or publication occurrence follows from the name, card, or row; the Reference is neither a framework nor an instructional Guide
   BridgeRefs: none

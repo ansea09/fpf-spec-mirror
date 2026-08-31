@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.8.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
-line_start: 6670
-line_end: 6998
+line_start: 6671
+line_end: 6999
 dependencies:
   - "A.10"
   - "A.15.1"

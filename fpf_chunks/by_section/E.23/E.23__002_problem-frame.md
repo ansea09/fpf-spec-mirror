@@ -6,12 +6,12 @@ section_id: "E.23:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__002_problem-frame.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:1 — Problem frame"
-line_start: 89579
-line_end: 89595
+line_start: 89580
+line_end: 89598
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -35,7 +35,9 @@ Use `E.23` when an object version will be improved through repeated passes under
 
 Not this pattern when one direct quality evaluation is enough. Use `E.22` to frame one evaluation and then run the named object-under-improvement evaluation. Use `A.19.ECS` first if the needed evaluation characteristic space does not exist.
 
-Use `E.23.CDI` instead when the live question is how one admitted holder System becomes more capable of performing a named Work family and the change must be checked in representative Work. That is a separate capability-development Method; E.23 points to its description without copying its actions. Use a population assessment when the question is a distribution across member capabilities, `C.36` when generation, transmission, recognition, selection, retention, or loss across a cultural population is current, and `C.32.MWA` first only when the target-practice architecture itself must be recovered or compared.
+Use `E.23.CAE` first when the apparent object to improve remains ambiguous because a holder's capability may be outside its claimed envelope, unavailable through the current configuration, not selected as applicable, inaccessible or inactive, context-dependently unexpressed, unadapted, unenacted, or actually changed. That separate probe returns observations, a qualified disposition, surviving rivals, and candidate routes; it does not choose the object under improvement.
+
+Use `E.23.CDI` instead when a separate applicable steering or choice result has made capability development current for one admitted holder System and named Work family, and the change must be checked in representative Work. That is a separate capability-development Method; E.23 points to its description without copying its actions. Use a population assessment when the question is a distribution across member capabilities, `C.36` when generation, transmission, recognition, selection, retention, or loss across a cultural population is current, and `C.32.MWA` first only when the target-practice architecture itself must be recovered or compared.
 
 First useful move: name the object version under improvement, the exact evaluation that will re-evaluate it, the improvement aim, protected trade-offs, cost and risk account, and local stop condition. Here *move* is Plain instruction wording: it names no `Move` kind, method, plan, performed Work, or actual Transformation.
 

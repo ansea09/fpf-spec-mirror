@@ -6,12 +6,12 @@ section_id: "A.6.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__007_bias-annotation.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:6 — Bias-Annotation"
-line_start: 13806
-line_end: 13815
+line_start: 13807
+line_end: 13816
 dependencies:
   - "A.6.0"
   - "A.6.1"

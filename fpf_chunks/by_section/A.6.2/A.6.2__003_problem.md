@@ -6,12 +6,12 @@ section_id: "A.6.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__003_problem.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:2 — Problem"
-line_start: 13520
-line_end: 13537
+line_start: 13521
+line_end: 13538
 dependencies:
   - "A.6.0"
   - "A.6.1"

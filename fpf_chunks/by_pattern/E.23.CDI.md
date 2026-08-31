@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.CDI.md"
-commit_sha: "e400eab3757d60a8d05196046bed002dff1839e0"
+commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
-line_start: 90023
-line_end: 90200
+line_start: 90027
+line_end: 90206
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -19,6 +19,7 @@ dependencies:
   - "C.36"
   - "E.22"
   - "E.23"
+  - "E.23.CAE"
 keywords:
 ---
 
@@ -43,6 +44,7 @@ Use this pattern when one named System must become more capable of performing a 
 **Not this pattern when.**
 
 - Use `A.2.2` when only the identity, envelope, measures, evidence, or currentness of one holder's capability is current.
+- Use `E.23.CAE` first when previous performance or failed transfer leaves it unclear whether the live issue is envelope, configuration, applicability selection, access or activation, context-dependent expression, adaptation, enactment, or actual capability change. Its disposition is a premise, not selection of development Work.
 - Use `E.22` when one evaluation question is current and no development Method is needed.
 - Use base `E.23` for repeated improvement of an arbitrary object version.
 - Use `C.32.MWA` first only when the target-practice architecture must itself be recovered or compared.
@@ -194,6 +196,7 @@ The comparison below asks which current practice changes the capability-developm
 | `A.19`, `C.2.1`, `A.10`, `B.3` | Govern comparison of declared measures, capability statements, and the evidence, ordinary reliance, or assurance relations that support their use. These epistemes and relations are not the capability instance, an actual Transformation, or a causal Work-to-change claim. |
 | `E.22` | Frames the capability or transfer evaluation when that question needs an explicit evaluation use. |
 | `E.23` | Supplies the general improvement boundary and routes here when capability development for named Work is the live question. |
+| `E.23.CAE` | Supplies an observation-qualified differential and candidate routes when apparent loss or failed transfer remains ambiguous. Capability development enters this pattern only after a separate applicable steering or choice result selects it. |
 | `C.32.MWA` | Supplies a practice-architecture result only when the target-practice Method architecture must first be recovered or compared. |
 | `C.36` | Governs distributed cultural generation, transmission, recognition, selection, retention, and loss; those relations do not make a population capable. |
 | `E.13` | Tests proxy-to-value alignment when attendance, scores, credentials, or another visible measure begins to replace the intended capability and transfer result. |
