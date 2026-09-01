@@ -6,12 +6,12 @@ section_id: "B.1.6:5"
 section_title: "Aggregation Rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__008_aggregation-rules.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:5 — Aggregation Rules"
-line_start: 37720
-line_end: 37751
+line_start: 37729
+line_end: 37760
 dependencies:
   - "A.1"
   - "A.10"
@@ -68,9 +68,9 @@ keywords:
 
 **Aggregation work and result.** Use A.13 to identify the actual performer and A.15.1 to admit the dated aggregation Work independently. If the aggregation account must also identify the assignment under which the Work was performed, check that relation separately through F.6. Keep the Method, actual bindings, resources, and time separate. State the B.1.6 result as a typed total, vector, interval, or bounded estimate under the named policy and Work set; then state it in a distinct C.2.1 episteme.
 
-**Uncertainty and provenance.** Propagate measurement uncertainty and model/conversion uncertainty according to the exact aggregation policy. Provenance lists do not perform uncertainty propagation. A.10/G.6 paths cite the established work, measurements, policy application, transformations, result, and sources without creating them.
+**Uncertainty and provenance.** Propagate measurement and model or conversion uncertainty through the exact aggregation policy. Use A.10/G.6 paths to record the established Work, measurements, policy application, transformations, result, and sources.
 
-**Plan/result separation.** Expected use from a method description or work plan remains planned. Resource readiness remains A.15.5. Neither proves performed work or a measured aggregation result.
+**Plan/result separation.** Keep expected use from a method description or WorkPlan as planned and resource readiness under A.15.5. Use A.15.1 and the measurement or aggregation predicates for performed Work and measured results.
 
 **Efficiency and yield.** A ratio or yield claim names its input resource results, exact output/domain result, measurement bases, aggregation work, and comparison policy. It does not use a generic output-result relation. Apparent free gain remains a measurement, accounting-boundary, substitution, or whole-reidentification question until its subject pattern is recovered.
 

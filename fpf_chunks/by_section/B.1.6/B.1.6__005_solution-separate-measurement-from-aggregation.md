@@ -6,12 +6,12 @@ section_id: "B.1.6:2"
 section_title: "Solution — separate measurement from aggregation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_solution-separate-measurement-from-aggregation.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:2 — Solution — separate measurement from aggregation"
-line_start: 37628
-line_end: 37690
+line_start: 37636
+line_end: 37699
 dependencies:
   - "A.1"
   - "A.10"
@@ -86,10 +86,11 @@ WorkResourceAggregation@Context:
   aggregationResultEpistemeRef
   provenancePathRefs
   admissibleUse
-  nonAdmissibleOverread
+  stopOrReturnCondition
+  groundedNonAdmissibleOverread?
 ```
 
-These are separate objects and claims; the fields do not create one another:
+Recover each of these objects and claims independently:
 
 - a **resource Characteristic** says which quantity or property is accounted for;
 - **measurement work** and a **C.16 measurement-result episteme** supply each attributed resource value, Scale, Unit, uncertainty, model, calibration, and time stance;

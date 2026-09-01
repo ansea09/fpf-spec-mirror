@@ -6,12 +6,12 @@ section_id: "E.4.DPF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__008_conformance-checklist.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:7 — Conformance Checklist"
-line_start: 71104
-line_end: 71134
+line_start: 71161
+line_end: 71191
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -27,7 +27,6 @@ dependencies:
   - "C.30.AD"
   - "C.32.MWA"
   - "C.33"
-  - "C.33-C.35"
   - "C.34"
   - "C.35"
   - "E.10"
@@ -49,6 +48,7 @@ dependencies:
   - "F.0.2"
   - "F.1"
   - "F.18"
+  - "F.19"
   - "F.6"
   - "G.11"
   - "G.2"
@@ -62,7 +62,7 @@ keywords:
 
 | Check | Passing condition |
 | --- | --- |
-| CC-DPF.1 Use frame declared | Intended reader, first use, non-use boundary, effective ReferenceScheme, ClaimScope, and qualification window are named; an optional selected BoundedModelUseStructure appears only when its organization changes interpretation. |
+| CC-DPF.1 Use frame declared | Intended reader, first use, stop or wrong-turn return, effective ReferenceScheme, ClaimScope, and qualification window are named. Any non-use boundary passes `F.19`'s grounded-contribution test; an optional BoundedModelUseStructure appears only when its organization changes interpretation. |
 | CC-DPF.2 Source basis and synthesis route | The DPF names the source situation and uses the smallest route that returns the needed result: direct reliance, a maintained synthesis or guide, `F.1`, `F.0.2`, an optional `G.2` pack, an earlier DPF, or a derived lookup. Adopted and rejected payload, source roles, examples, currentness, partial lookup limits, and reopen conditions are recoverable. Pack conformance, source counts, and lookup misses are not treated as domain-claim evidence. |
 | CC-DPF.3 Architecture answer when needed | A cheap route or stop closes without a DRR when it settles no later-used framework decision. Otherwise one `E.9` DRR guided by `E.4.PFAD` records one of five outcomes: a new or revised framework, a contribution to an existing framework, a non-framework product, a thinner publication or access route, or no new product now. For a framework answer it also records the field and practice promised by the public name; coverage, representative application, edition and dependency decisions, initial pattern placement and material relations; publication or access consequence; alternatives; action; and reopen condition. Answer, acceptance, DRR, relation records, edition dependencies, package architecture, authoring, and publications remain separate. |
 | CC-DPF.3a Framework scale and singleton diagnostic | `pattern_count = 1` is reported as a strong diagnostic, and the same semantic test is run at every count. A new first edition supplies an adequate pattern language for its declared field or practice: a coverage map, selected problem-family pattern sets and material relations, a representative application, an internally usable first-edition set, honest omissions and source returns, and a credible maintenance and refresh boundary. A candidate fails when these contributions are missing or do not work together, not because of its count. |
@@ -71,7 +71,7 @@ keywords:
 | CC-DPF.3d Support and adjacent-product decision | *Product* remains Plain management wording. Units kept inside the framework share its edition, declared readers and use, access, and change rule. Every separate adjacent result names its direct subject, identity or current state, use, rule saying what belongs, access, and later-review or retirement rule. Any maintenance relation is stated only when it separately obtains and changes use. Programme wording names the arrangement or description, provider and any maintaining Systems, any admitted service state, bounded Work, and result epistemes actually claimed; shared use and one carrier do not merge them. |
 | CC-DPF.3e Suite and Guide proposal return | A DPF product series does not constitute or join a Suite from inside its own edition. Inclusion and removal proposals return to the Suite decision. A Guide-entry proposal returns to the Guide product's content or refresh decision; its first concrete application also needs the applicable `DPF-SUITE-00` project decision, and its direct DPF-result and source claims use the patterns that define them. A state with one product series or none follows the Suite's explicit preservation, restoration, review, or retirement rule. Belonging establishes no framework scale, holonhood, constructive parthood, dependency, compatibility, maintenance responsibility, publication, access, or actual Guide use. |
 | CC-DPF.3f Practical examples and card declaration | The product's one declaration assigns every selectable Readme example key one ordinary-entry or card form and one selectable occurrence. The Readme says its examples are non-exhaustive and returns unmatched questions to the index, guide, search, or direct patterns. Each card passes `E.11`'s same-content-without-mantra test, preserves a real path through several direct pattern contributions, uses the product's measurable mantra/card guard, applies `E.11.PFP`, and returns to the direct patterns. A plausible direct entry is checked under the same test. Locators, local reminders, Readme card mantras, expansions, and CGUS demonstrations remain distinct, and no FPF example set or limits are copied as the common rule. |
-| CC-DPF.3g Pattern address and publication order separate | The DPF declares its stable reference code and local PatternID plan before public references accumulate. The same PatternID is retained only while the recurring problem, distinguishing working move, useful result, and ordinary non-use boundary still describe the same practical answer. Numeric or mnemonic locators follow the stated use test. ToC and body order agree, current position is shown separately, and dependencies, Method relations, Parts, and work packages are not inferred from the identifier or its position. A planned row remains a non-addressable `PlannedCatalogEntry` until a complete pattern is admitted. A split, merge, replacement, retirement, or DPF-code rename gives readers either the truthful maintained assertion needed to follow an old reference or an explicit stop; new patterns receive new unused PatternIDs. |
+| CC-DPF.3g Pattern address and publication order separate | The DPF declares its stable reference code and local PatternID plan before public references accumulate. The same PatternID is retained only while the recurring problem, distinguishing working move, useful result, and ordinary conditions for use, stopping, or returning still describe the same practical answer. Numeric or mnemonic locators follow the stated use test. ToC and body order agree, current position is shown separately, and dependencies, Method relations, Parts, and work packages are not inferred from the identifier or its position. A planned row remains a non-addressable `PlannedCatalogEntry` until a complete pattern is admitted. A split, merge, replacement, retirement, or DPF-code rename gives readers either the truthful maintained assertion needed to follow an old reference or an explicit stop; new patterns receive new unused PatternIDs. |
 | CC-DPF.4 Names prepared | Durable public names and abbreviations have `F.18` name-card work or are explicitly provisional source aliases. |
 | CC-DPF.5 Carriers and routes classified | Any all-in-one carrier, exact skill-pack/index/response carrier, graph, generated set, source summary, or transformed view used as evidence has `C.33`, `C.34`, or `C.35` treatment. Any MCP, endpoint, retrieval, search, or assistant route is kept separate from the exact form-bearing artifact it returns and from actual access or use. |
 | CC-DPF.6 Patterns drafted through E.8 | Pattern bodies carry recognition text for recurring domain or local problem situations, positive SoTA-informed solution moves, worked cases, known failure modes or local anti-patterns, checklist, SoTA-Echoing, and relations. Skeletons, prompt seeds, and compressed design notes are named as seeds rather than treated as normal DPF patterns. |

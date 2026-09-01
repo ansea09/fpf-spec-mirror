@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__005_solution.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:4 — Solution"
-line_start: 61740
-line_end: 61967
+line_start: 61752
+line_end: 61976
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,7 +68,8 @@ ArchitectureTransformationFlowStructureRelation minimum:
   actualTransformationRefs?: only with complete A.3.4 basis
   networkArchitectureUseBranch?: one complete branch from section 4.4a
   admissibleUse:
-  nonAdmissibleUse:
+  stopOrReturnCondition:
+  groundedNonAdmissibleUse?:
 ```
 
 At least one architecture-side field and at least one E.18 or E.18.NET field must be named by value. Network branch fields obey `C.30.TFS-REL:4.4a`; other optional fields stay `not used` unless they change inspection, correspondence, hidden relation-structure return, governing-pattern application, or stop.
@@ -129,7 +130,8 @@ relationObservationClassRef?:
 unexploredRegionRefs?:
 hiddenRelationStructureReturnCondition?:
 admissibleUse:
-nonAdmissibleUse:
+stopOrReturnCondition:
+groundedNonAdmissibleUse?:
 ```
 
 **Required-cooling-effect / later-actual-cooling countercase.** `RequiredCoolingEffect-1` can require exact Rack 7 to be below 30 °C and can correspond to a selected cooling-flow structure before any change occurs. In that first use, fill `requiredOrDesiredEffectClaimRefs` and the selected TFS fields; leave `actualTransformationRefs` empty. A later `Rack7CoolingTransformation-42` is actual only when A.3.4 fixes Rack 7 as the changed referent, its thermal boundary and operating/ambient conditions, actual 38 °C before facts, actual heat-removal during facts, actual 27 °C after facts, and continuity or reidentification of Rack 7. Even then, a separate satisfaction or realization predicate is needed before claiming that the actual transformation satisfies the earlier requirement.
@@ -155,7 +157,7 @@ When several transformation-flow variants are kept or compared as candidate arch
 | Interface, signature, or module compatibility | `A.6.M` module-and-interface repair plus `A.6.5` slot discipline, with `A.6.0` only when a signature declaration is being made |
 | Architecture decision | the project-side architecture decision pattern when the corresponding claim is being made |
 
-This table is the single boundary for generic non-flow claims. Elsewhere in this pattern, keep only blocked local overreads that the transformation-flow relation itself makes tempting: structure-as-architecture, graph-description-as-architecture, flow-as-work-log, crossing-as-gate, valuation-as-score, generated relation-graph proof, and prompt-data-tool flow as authority proof.
+Use this table as the single boundary for generic non-flow claims. Elsewhere retain a local guard only when the current representation or wording supplies one exact flow-to-architecture inference that changes use.
 
 #### C.30.TFS-REL:4.4 - E.18 selected-structure boundary statement
 
@@ -206,13 +208,8 @@ transformationFlowStructureViewRef: exact description/view episteme about the se
 transformationFlowStructureRef: TransformationFlowStructure@PaymentAuthorization
 selectedPathOrSliceRefs: path slices used for the architecture claim
 correspondenceClaimOrRelationRefs: bounded claim that the required effect corresponds to the flow path
-nonAdmissibleUse:
-  required effect as actual U.Transformation,
-  flow diagram as functional architecture itself,
-  selected transformation-flow structure as Work occurrence,
-  mathematical graph description as evidence sufficiency,
-  crossing as gate result,
-  flow relation as project decision
+stopOrReturnCondition: stop at the bounded correspondence claim; open actual transformation, Work, evidence, gate, or decision use only through its direct predicate
+groundedNonAdmissibleUse?: the phrase “required effect corresponds to the flow path” can invite identity with an actual transformation; keep it as correspondence until A.3.4 and the realization predicate obtain
 ```
 
 Filled use record:
@@ -248,7 +245,7 @@ relationObservationClassRef: observed, inferred, or unknown relation class when 
 unexploredRegionRefs: not used
 hiddenRelationStructureReturnCondition: reopen if mathematical-description edition, path slice, relation observation class, or required-effect declaration changes
 admissibleUse: inspect whether the functional structure view depends on the E.18 path slice and whether an architecture split or correspondence claim is needed
-nonAdmissibleUse: required effect as actual transformation; flow diagram as functional architecture itself; selected transformation-flow structure as Work occurrence; mathematical graph description as evidence sufficiency; crossing as gate result; flow relation as project decision
+stopOrReturnCondition: stop at the bounded architecture-to-flow correspondence and reopen when its source, path, observation class, or required-effect declaration changes
 ```
 
 Cooling countercase: a selected cooling-flow TFS and `RequiredCoolingEffect-1` may fill the required-effect and correspondence fields while `actualTransformationRefs` stays empty. Only a later A.3.4 occurrence with Rack 7 as exact changed referent, fixed thermal boundary and conditions, actual 38 °C before / heat-removal during / 27 °C after facts, and Rack 7 continuity can fill that field. A separate realization predicate is still needed to relate the actual cooling to the requirement.

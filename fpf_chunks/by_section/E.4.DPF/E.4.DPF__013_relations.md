@@ -6,12 +6,12 @@ section_id: "E.4.DPF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__013_relations.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:12 — Relations"
-line_start: 71204
-line_end: 71214
+line_start: 71261
+line_end: 71272
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -27,7 +27,6 @@ dependencies:
   - "C.30.AD"
   - "C.32.MWA"
   - "C.33"
-  - "C.33-C.35"
   - "C.34"
   - "C.35"
   - "E.10"
@@ -49,6 +48,7 @@ dependencies:
   - "F.0.2"
   - "F.1"
   - "F.18"
+  - "F.19"
   - "F.6"
   - "G.11"
   - "G.2"
@@ -68,4 +68,5 @@ keywords:
 - **Coordinates with:** `C.33`, `C.34`, and `C.35` for carrier preservation and admission.
 - **Coordinates with:** `E.22` for quality-evaluation framing when needed, `E.4.DPF.DA` for DPF package adequacy, `E.21` for pattern-quality evaluation, `E.23` for repeated improvement, `E.19` for admission or profile gating when claimed, and `G.11` for currentness.
 - **Use next when current:** `E.11.PFP` for the common framework publication form, `E.11` for practical-use discoverability, `E.11.DSG` for a separate DPF Suite Reference when one working question may need results from several DPF product series, and `E.17` for publication discoverability rather than framework authoring.
+
 

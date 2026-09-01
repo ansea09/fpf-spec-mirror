@@ -6,12 +6,12 @@ section_id: "E.10:19"
 section_title: "E.10 regression cues (concept-only “diff” triggers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__021_e-10-regression-cues-concept-only-diff-triggers.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:19 — E.10 regression cues (concept-only “diff” triggers)"
-line_start: 76262
-line_end: 76279
+line_start: 76011
+line_end: 76029
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,6 +39,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.10.D1"
+  - "E.10.DEV"
   - "E.10.LRN"
   - "E.10.MOVE"
   - "E.10.ROLE"
@@ -62,14 +63,15 @@ keywords:
 Re-review your prose when any of these happen:
 
 * **A source edition, effective scheme, or local meaning changes** → re-affirm any Tech-and-Plain twin mapping and first-use gloss; recheck an F.9 Bridge, use claim, reliance claim, or acceptance wording only when that exact changed value participates.
-* **A system-role-kind or other kind name grows** (“and”, “plus”, or “--”) -> apply MG-DA: recover the one kind, explicit alternatives, relation, or bundle before renaming. Bare *role* first uses `E.10.ROLE`.
-* **A slash, `and`, `plus`, `&`, or similar grouping mark appears in FPF-governed wording** -> classify the span before editing the mark. The trigger is the FPF-governed grouping use, not the character itself: LLM output, review text, intake notes, or draft prose often uses a slash as an unresolved alternative, an untyped bundle, or an attempt to point at a hidden kind. If the grouped words are claim-bearing heads, relation heads, kind candidates, an unresolved alternative, or an attempt to point at a hidden kind, apply MG-DA, `A.6.P`, or the selected restoration pattern: split, bundle, or recover the relation named by value and admissible use. If the mark is part of accepted notation or a conventional designation such as a source name, discipline abbreviation, established compound name, formula, ratio, fraction, unit, path-like quoted source token, title, product name, or URL, keep the notation and classify its use; do not rewrite `1/2` or similar conventional forms merely to remove the mark.
-* **A “service” statement broadens scope** → use L-SERV and A.6.P:4.11a to recover the hidden subject, relation, and receiving use. Update only that recovered claim; do not apply a fixed reading list or rewrite every nearby service-related claim.
+* **A system-role-kind or other governed name grows through coordination** → use `F.19` to ask whether a series is needed, then apply MG-DA only if the name still hides one kind, alternatives, a relation, or a bundle. Two members may already be excessive; a long required designation may be sound. Bare *role* first uses `E.10.ROLE`.
+* **A slash, `and`, `plus`, `&`, repeated pair, nested list, or modifier chain appears in FPF-governed wording** → read the natural span through `F.19` before editing the mark. Retain conventional notation and required sets. If an FPF kind, alternative, direct relation, declaration, or representation remains hidden, use the selected E.10 or subject route; do not infer the defect from the character or item count alone.
+* **A `service` statement broadens scope** → use L-SERV and A.6.P:4.11a to recover the hidden subject, relation, and receiving use. Update only that recovered claim; do not apply a fixed reading list or rewrite every nearby service-related claim.
 * **Recipes gain or lose steps** -> first recover the exact `U.Method`, the claim-bearing episteme, and the changed claim. Update **`U.MethodDescription`** only when that episteme has the method as its exact EntityOfConcern and passes A.3.2; a code, diagram, recipe, procedure, or document-form change remains under the pattern for that representation or publication unless claim content actually changes. Never move the change into service labels or system-role-kind names.
-* **Evidence verbs creep into actor sentences** → re-apply L-rules (documents do not act).
-* **A generic head or support-headed compound acquires an FPF claim or admissible use** (`comparative`, `safe`, `interactive`, `reliable`, `support`, `supported`, `supporting`, `support-looking`, and similar modifiers or heads) → restore the head kind first; then decide whether `support` states a direct subject relation or one of the common lexical alternatives, and route it as `E.10:0.2` requires before broader publication.
-* **Wording about a way of doing or one of its neighboring objects changes**—for example, wording with *method*, *practice*, *technique*, *algorithm*, *program*, *proof*, *solver*, *workflow*, *process*, *procedure*, *access path*, *query plan*, *control strategy*, *method algebra*, *method graph*, or *selector calculus* → recover the method-side object or relation before rewriting. The result may be `U.Method`; an exact composition, substitution, iteration, fallback, selection, family-membership, or other direct method-side relation; an A.22-selected `MethodRelationStructure` only when a named use depends on their organization; `U.MethodDescription`; formal-substrate declaration; C.29 mathematical-lens use and correspondence; `U.Mechanism`; `U.WorkPlan`; one dated Work occurrence admitted under `U.Work`; a separate episteme about it; exact system-role assignment or relation among system-role kinds; A.1.1 `BoundedModelUseStructure`; an exact source, practice, scope, situation, discipline, or cultural-evolution label; method-family registry or selector outcome; evidence relation; or quote-only source wording. Do not replace one umbrella with another.
-* **A declarative representation starts to sound imperative** (graph path, path slice, evidence-path wording, query, predicate, table, dashboard, publication face, mathematical representation, method-description representation, source-chain relation, carrier path, or FPF pattern relation `runs`, `routes`, `calls`, `dispatches`, `authorizes`, or `flows` without a recovered kind) → apply `C.2.P.DR` or the concrete pattern such as `E.18`, `A.10`, `A.19.SPR`, `E.17`, `C.29`, `A.3.1`, `A.3.2`, `A.15.2`, `A.15.1`, `E.8`, or `F.19`.
+* **An agentive or causal predicate is attached to a doubtful subject** → read the whole span through `F.19`, including negation and modality; retain established metonymy or state the capable participant or exact non-agentive relation positively.
+* **A verb or relational noun loses a needed participant** → restore the object, destination, source, bearer, or other operand when one value is not cheaply and uniquely recoverable; open a deeper FPF route only if that participant is itself governed.
+* **A generic head or support-headed compound acquires an FPF claim or bounded use** → restore the head kind first. If `support` still hides a direct predicate or participant, use the selected E.10 route; otherwise state the concrete sentence and apply its subject pattern.
+* **Wording about a way of doing or a neighboring object changes** → use the selected method-side rule in `E.10:0.2c` or section 9 to recover the exact object or relation. Do not replace one umbrella with `method`, `practice`, `mechanism`, `algorithm`, or `workflow`.
+* **A declarative representation starts to sound imperative** → recover the represented object and correspondence through `C.2.P.DR`, `C.29`, or the exact subject pattern. Treat a path, table, dashboard, formula, or pattern relation as action only when an action claim is actually established.
 * **New token minted** → ensure `LEX.TokenClass` is declared and perform collision checks. If an enumeration is current, name its closed value set, classified kind, and classification rule; add a `CharacteristicSpace` only when the enumeration is the declared CSLC scale of one named `U.Characteristic`.
 * **Suffix drift** (e.g., `…Work` on a plan) → fix via **LEX.Morph**.
 * **A label is reused across local sources, practices, or schemes** → recover each local meaning. Keep them distinct unless an F.9 Bridge actually obtains between exact cells; state any proposed use and reliance separately.

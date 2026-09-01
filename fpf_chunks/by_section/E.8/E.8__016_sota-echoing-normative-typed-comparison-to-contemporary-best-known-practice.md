@@ -6,16 +6,15 @@ section_id: "E.8:11"
 section_title: "SoTA-Echoing (normative; typed comparison to contemporary best-known practice)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__016_sota-echoing-normative-typed-comparison-to-contemporary-best-known-practice.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:11 — SoTA-Echoing (normative; typed comparison to contemporary best-known practice)"
-line_start: 73411
-line_end: 73451
+line_start: 73438
+line_end: 73478
 dependencies:
   - "E.10"
   - "E.10.MOVE"
-  - "E.11"
   - "E.11.PFP"
   - "E.11.PUR"
   - "E.13"
@@ -33,7 +32,6 @@ dependencies:
   - "E.9.DA"
   - "F.18"
   - "F.19"
-  - "I.2"
 keywords:
   - "). The key words MUST"
   - "MAY"
@@ -85,7 +83,7 @@ Mark material moves `adopt`, `adapt`, or `reject`. Explain which defect of the i
 
 **Honest gap and lightest sufficient evidence.** If an adequate best-known comparison cannot be established, say which rival, counterexample, or source role is missing and return that source gap. Do not fill the section with a current standard or recent paper. Use `F.1` for the smallest question-relative cut and its SoTA-specific role branch. Use `F.0.2` only when the conclusion actually needs cross-source synthesis. Use a broader `G.2` pack only when repeated refresh or a wider claim justifies that cost.
 
-**Evidence and relation discipline.** When a `G.2` pack already exists, reuse its exact ClaimSheet, corpus-ledger, and Bridge rows and their source roles rather than forking a second narrative. When an accepted `DRR` and other accepted source materials govern the draft, inherit their non-conflicting comparison content by value; the `DRR` remains the decision and placement record rather than becoming a second SoTA definition. When a use relies on an obtaining semantic Bridge, identify the two exact `F.17` local senses, the `F.9` relation, and a separate bounded-use claim; shared words, source imports, contexts, or dates create none of those relations. Keep numeric comparison under its applicable ComparatorSet or CG-Spec without hidden scalarization.
+**Evidence and relation discipline.** Reuse an existing `G.2` pack's exact ClaimSheet, corpus-ledger, Bridge rows, and source roles instead of forking a second narrative. Inherit non-conflicting comparison content from an accepted `DRR` and its source materials while keeping the `DRR` as the decision and placement record. For an obtaining semantic Bridge, identify the two exact `F.17` local senses, the `F.9` relation, and a separate bounded-use claim; otherwise leave that relation unasserted. Keep numeric comparison under its applicable ComparatorSet or CG-Spec without hidden scalarization.
 
 **Writing guidance.** Lead each row with the practice question and practical choice. Name the selected line and serious alternative, state the defect and pattern change, then give source roles, limits, and reopen condition. Complete sentences are preferred to tag lists. External terminology or tooling stays out unless the comparison itself needs it.
 

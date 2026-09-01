@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.1.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
-line_start: 41228
-line_end: 41401
+line_start: 41237
+line_end: 41410
 dependencies:
   - "A.17"
   - "A.18"

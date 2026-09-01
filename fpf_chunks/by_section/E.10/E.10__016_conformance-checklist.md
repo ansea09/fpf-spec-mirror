@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.10"
 pattern_title: "Unified Lexical Rules for FPF"
 section_id: "E.10:14"
-section_title: "Conformance Checklist"
+section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__016_conformance-checklist.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-  - "E.10:14 — Conformance Checklist"
-line_start: 76201
-line_end: 76216
+  - "E.10:14 — Conformance checklist"
+line_start: 75945
+line_end: 75955
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,6 +39,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.10.D1"
+  - "E.10.DEV"
   - "E.10.LRN"
   - "E.10.MOVE"
   - "E.10.ROLE"
@@ -57,19 +58,14 @@ dependencies:
 keywords:
 ---
 
-### E.10:14 - Conformance Checklist
+### E.10:14 - Conformance checklist
 
-Use this checklist for the accepted wording span, not for the whole corpus by reflex.
+Use this checklist when changing an E.10 rule, a governed token, or a durable lexical decision. Ordinary sentence correction returns repaired text and needs no recorded checklist.
 
-1. **Bounded span named.** The exact sentence, row, section, pattern, or project text under repair is recoverable.
-2. **Trigger and use separated.** The trigger word is identified, and the FPF-governed use carried by that word is stated separately from the word itself.
-3. **Plain result and applicable pattern recovered.** The repaired wording states the ordinary sentence or action first, selects one `E.10:0.0a` branch when the use is relation-like, and names that result's pattern and admissible use. A different governed object, source-use relation, explicit non-use, or blocker is named instead when no branch applies.
-4. **Applicable rule identified.** If the issue is no longer lexical, name the pattern or precision-restoration realization pattern and its concrete contribution.
-5. **The four relation-like branches remain distinct.** An obtaining world-side relation is not its reusable declaration, a report that claims it, or a field, table, graph, or formula that represents it. A declaration position, participant designation, label, or representation place creates no actual participant, obtaining relation, or new U-kind by itself.
-6. **Math lens kept separate from ontology.** Graphs, tuples, algebras, spaces, mappings, and similar mathematical expressions are used as mathematical lenses only when that is the current claim.
-7. **Final wording closes the local wording-use case.** The result is accepted wording, direct pattern use, controlled precision reduction, quote-only use, reduced-use cue, blocked use, incomplete rewrite, ordinary prose, or not-triggered disposition.
-8. **No umbrella replacement.** The repair does not replace one broad head with another broad head such as `basis`, `support`, `route`, `path`, `status`, `record`, `object`, `role`, `method`, `mechanism`, `flow`, or `structure` without the recovered object and relation.
-9. **Reader use remains visible.** The user can still see what to do next with the project object, relation, source, evidence, publication, method, work, architecture, characteristic, or other EntityOfConcern that made the wording important.
-10. **Work/method boundary words close through a governor.** `input`, `raw material`, `source data`, `source material`, `output`, `result`, `outcome`, `deliverable`, `handoff`, and work-name wording either retain an already exact direct pattern use or produce one `A.6.P.WMR` result family. Classification, a generic result relation, method-description filling, or a designation that merely type-checks against an A.6.5 `SlotSpec` is not closure.
-
+1. The cue is treated as a locator, not a ban or verdict.
+2. The complete natural span has been read through `F.19`; an ordinary repair stops there.
+3. Any deeper route is the smallest pattern that owns the unresolved FPF kind, relation, source use, register, morphology, or name.
+4. The replacement preserves the intended object, kind, relation, scope, and action and does not substitute another umbrella head.
+5. The accepted text contains the concrete sentence or selected pattern result, not a menu of possible interpretations or a mandatory rejected overread.
+6. The changed sentence and its meaning-dependent neighbors pass the local `F.19` reread.
 

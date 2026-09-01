@@ -6,12 +6,12 @@ section_id: "A.3.4.P:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__007_bias-annotation.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:6 — Bias-Annotation"
-line_start: 9836
-line_end: 9847
+line_start: 9840
+line_end: 9851
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,8 +50,8 @@ Lenses tested: **Onto**, **Arch**, **Prag**, **Epist**, **Gov**.
 This pattern intentionally biases toward kind recovery before wording repair. It resists:
 
 - **source-label ontology:** familiar labels such as pipeline, process, network, circuit, or workflow become FPF kinds;
-- **graph or path overread:** graph path, evidence path, and carrier path become action route, evidence sufficiency, assurance, deontic permission, work authorization, release authorization, or work sequence;
+- **graph or path overread:** ambiguous path wording is reused as an action, evidence, authority, or work-sequence claim without the predicate that would establish that claim;
 - **function collapse:** functioning, functional element, module allocation, mathematical function, software routine, and everyday purpose collapse into one "function";
 - **semio displacement:** descriptions and publications of transformations replace the transformation under concern;
-- **neighboring-object fusion:** a Method, mechanism, Work occurrence, System, influence source, or evidence record is inferred from wording and then treated as the transformation, its actor, or a transformation participant; generic participation is also treated as action although no precise performer has an A.13 core, no Work is independently admitted under A.15.1, no required later F.6 attribution or separate Work-to-change relation obtains, and no other direct actor-side relation is present.
+- **neighboring-object fusion:** wording is used to infer a Method, mechanism, Work occurrence, System, influence source, or evidence record and then to assign it a transformation-side role before its direct kind and relation are recovered.
 

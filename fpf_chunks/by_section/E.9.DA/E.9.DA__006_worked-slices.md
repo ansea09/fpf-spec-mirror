@@ -6,12 +6,12 @@ section_id: "E.9.DA:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__006_worked-slices.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:5 — Worked slices"
-line_start: 74394
-line_end: 74411
+line_start: 74421
+line_end: 74438
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -29,7 +29,7 @@ keywords:
 
 **Filled ordinary case — an overbroad wording DRR.** Exact DRR `DRR-ROLE-TRIGGER-03@2` selects this answer for an E.10 amendment and its named consumers: “replace every bare *role* with *system role*.” The required use is authoring input for that amendment; the review request supplies the use, and the E.9.DA default floor is `3`. Before assigning coordinates, the evaluator checks the wording problem, system-role practice, the strongest meaning-recovery alternative, misuse and recovery cases, and the actual predecessor `A.6.5` consumer. `A.6.5:1` and `A.6.5:4.1` expose the omitted question: does each occurrence denote a local system-role kind, or does it denote a relation-participant meaning, a declaration-local slot, an assignment, or an ordinary non-terminological use? That question changes the selected answer.
 
-The ordinary result is: `repairBeforeDrafting`. The substantive finding is that the blanket replacement would turn several distinct objects and uses into one term. The first repair is to make the DRR select meaning recovery: write *system role* where the text denotes the local kind, and name an assignment, participant meaning, SlotKind, or ordinary use where that is the actual subject. The most expansive non-admissible overread is that the finding neither rejects *system role* nor authorizes corpus-wide lexical replacement. Reopen when the revised DRR distinguishes those uses, names its true consumers, and the actual-host replay preserves both precision and readability. This ordinary result asserts no semantic Method, A.6.1 application, dated Work, result episteme, or record.
+The ordinary result is `repairBeforeDrafting`. The blanket replacement would turn several distinct objects and uses into one term. First repair the DRR so it selects meaning recovery: write *system role* where the text denotes the local kind, and name an assignment, participant meaning, SlotKind, or ordinary use where that is the actual subject. The DRR's proposed corpus-wide lexical replacement supplies a grounded competing reading, so the result states that this finding repairs the overbroad rule rather than rejecting every use of *system role*. Reopen when the revised DRR distinguishes those uses, names its true consumers, and the actual-host replay preserves precision and readability. This ordinary result uses the compact branch.
 
 **Small reliance-bearing extension.** Suppose a named later comparison needs one stable result episteme, `E9DA-Result-ROLE-03@1`, but no Method, application, or Work identity. The complete result would still cover every coordinate; the following one-row excerpt shows the required grain and the near-floor distinction:
 

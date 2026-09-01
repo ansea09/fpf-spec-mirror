@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.2.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
-line_start: 50559
-line_end: 50726
+line_start: 50568
+line_end: 50735
 dependencies:
   - "A.15.1"
   - "A.15.2"

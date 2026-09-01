@@ -6,24 +6,38 @@ section_id: "E.10.MOVE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__008_conformance-checklist.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:7 — Conformance Checklist"
-line_start: 76746
-line_end: 76761
+line_start: 76755
+line_end: 76771
 dependencies:
   - "A.1.STM"
   - "A.10"
   - "A.15"
+  - "A.15.2"
   - "A.15.5"
+  - "A.16.0"
   - "A.21"
   - "A.22.CGUS"
+  - "A.3.3"
+  - "A.3.4"
   - "A.3.4.P"
+  - "B.4"
+  - "C.11"
+  - "C.17"
+  - "C.19"
+  - "C.22.2"
   - "C.24"
+  - "C.27.TA"
+  - "C.29"
   - "C.30"
+  - "C.36"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.DEV"
+  - "E.11.PUA"
   - "E.11.PUR"
   - "E.17"
   - "E.18"
@@ -32,6 +46,7 @@ dependencies:
   - "E.24"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "G.11"
 keywords:
 ---
@@ -47,8 +62,9 @@ keywords:
 | `CC-E10MOVE-5` | preserves remaining reader use. | The repaired text still says what the practitioner can do or inspect next. |
 | `CC-E10MOVE-6` | splits change-situation wording from pattern-use or readiness wording. | `A.3.4.P` and `E.10.MOVE` are both used when both objects are current. |
 | `CC-E10MOVE-7` | avoids synonym tables. | The repair recovers object and relation, not a preferred vocabulary list. |
+| `CC-E10MOVE-8` | treats trajectory as a trigger and recovers bearer or represented subject, identity rule, ordering or reference domain, posture, direct owner, and receiving use; it adds a grounded non-use boundary only when the `F.19` plausible-intended-reader test requires one. | Actual, modelled, proposed, planned, population or lineage, archive or search, mathematical-lens, and specialized-account claims do not inherit one another's identity or evidence. |
 
 #### E.10.MOVE:7.1 - Lowering and Reopen Conditions
 
-Lower, block, or reopen the repair when the governed text span, claim being made, or object under wording repair is not recoverable, the wording-use disposition is uncertain, the proposed wording changes kind or relation without an accepted subject pattern, the subject pattern is missing, a change-situation claim was not separated from pattern-use or readiness wording, the repaired wording loses the remaining reader use, or a stronger source quote is present and remains preserved with quote-only status.
+Lower, block, or reopen the repair when the governed text span, claim being made, or object under wording repair is not recoverable, the wording-use disposition is uncertain, the proposed wording changes kind or relation without an accepted subject pattern, the subject pattern is missing, a change-situation claim was not separated from pattern-use or readiness wording, the repaired wording loses the reader use, or changed source wording invalidates the recorded source-licensed use.
 

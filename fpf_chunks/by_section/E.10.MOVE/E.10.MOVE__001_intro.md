@@ -6,24 +6,38 @@ section_id: "E.10.MOVE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__001_intro.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:intro — Intro"
-line_start: 76527
-line_end: 76542
+line_start: 76495
+line_end: 76510
 dependencies:
   - "A.1.STM"
   - "A.10"
   - "A.15"
+  - "A.15.2"
   - "A.15.5"
+  - "A.16.0"
   - "A.21"
   - "A.22.CGUS"
+  - "A.3.3"
+  - "A.3.4"
   - "A.3.4.P"
+  - "B.4"
+  - "C.11"
+  - "C.17"
+  - "C.19"
+  - "C.22.2"
   - "C.24"
+  - "C.27.TA"
+  - "C.29"
   - "C.30"
+  - "C.36"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.DEV"
+  - "E.11.PUA"
   - "E.11.PUR"
   - "E.17"
   - "E.18"
@@ -32,6 +46,7 @@ dependencies:
   - "E.24"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "G.11"
 keywords:
 ---
@@ -40,15 +55,15 @@ keywords:
 
 > **Type:** Part E precision-restoration pattern
 > **Status:** Stable
-> **Normativity:** Normative for move-like and readiness-like wording-use restoration.
+> **Normativity:** Normative for move-like, movement-like, readiness-like, route-like, path-like, and trajectory-like wording-use restoration.
 
-**At a glance.** `E.10.MOVE` restores the exact FPF value or relation hidden by move-like, movement-like, and readiness-like wording. It distinguishes an A.22.CGUS demonstrated row from a Plain local-mantra result and a Plain long-mantra map location, restores evaluation-result change wording to an E.23 prediction, and requires its subject pattern for every stronger claim.
+**At a glance.** `E.10.MOVE` restores the exact FPF value or relation hidden by move-like, movement-like, readiness-like, route-like, path-like, or trajectory-like wording. It preserves the demonstrated-continuation and readiness branches, distinguishes actual, modelled, proposed, planned, population, archive or search, mathematical-lens, and specialized-account uses where needed, and routes each additional claim to its direct owner; it admits no generic Move or Trajectory head.
 
-**Use this when.** Use this pattern when wording such as move, movement, step, action, readiness, route, workflow, or process is doing more than ordinary prose and a reader could mistake a demonstrated continuation, recommendation, prediction, transformation, readiness claim or result, gate decision, publication relation, or performed Work for another kind.
+**Use this when.** After the normal `F.19` reading and compact `E.10` routing, use this pattern only while move-like, movement-like, readiness-like, route-like, path-like, or trajectory-like wording still hides which demonstrated continuation, recommendation, prediction, transformation, ordered history, modelled path, plan, readiness claim or result, gate decision, publication relation, representation, or performed Work is current.
 
-**Primary EntityOfConcern.** One wording-use restoration over a bounded text span whose move-like or readiness-like wording has an FPF-governed use.
+**Primary EntityOfConcern.** One wording-use restoration over a bounded text span whose move-like, movement-like, readiness-like, route-like, path-like, or trajectory-like wording has an FPF-governed use.
 
-**First output.** One accepted wording repair, split, or blocker. When later replay relies on the repair, use a temporary `MoveAndReadinessWordingRepairNote` that names the governed span, claim, object under repair, wording-use disposition, subject pattern, exact governed value and kind, relation signature when applicable, blocked overread, final wording or blocker, and remaining reader use.
+**First output.** Repaired wording, a truthful split, or a blocker. When later replay relies on the repair, use a temporary `MoveAndReadinessWordingRepairNote` that names the governed span, claim, object under repair, wording-use disposition, subject pattern, exact governed value and kind, relation signature when applicable, repaired wording or blocker, and reader use. A grounded non-use boundary is optional under `F.19`; it is not a required repair field.
 
-**Not this pattern when.** Use `A.3.4.P` first when the wording is primarily about transformation, flow, path, process, workflow, operation, or change as a change-situation label. Use the subject pattern immediately when the current object is already known and no move-like or readiness-like wording problem remains.
+**Not this pattern when.** Use `A.3.4.P` first when the wording is primarily about a transformation or change situation. Use `E.10.DEV` first when *development* or *evolution* still hides the changed subject, continuity or membership, or direction or value claim; continue here only if an independent trajectory, route, ordering, posture, or representation ambiguity remains. Use `F.19` and the direct subject pattern immediately when the current object is already known. Generic *process*, *workflow*, *loop*, or *flow* wording stays outside unless it independently carries one of the governed move, readiness, route, path, or trajectory claims.
 

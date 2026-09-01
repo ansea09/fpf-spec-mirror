@@ -6,12 +6,12 @@ section_id: "E.9:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__015_sota-echoing.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:11 — SoTA-Echoing"
-line_start: 74045
-line_end: 74059
+line_start: 74072
+line_end: 74086
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,5 +49,5 @@ keywords:
 
 The practical gain is content-selection quality under semantic load: decision work selects the answer, alternatives, losses, boundary, and loci; the DRR episteme makes that result replayable before pattern drafting. Any durable rule, example, or obligation useful after realization belongs in the selected FPF pattern or non-pattern kind-reference pair, not in the DRR as permanent shadow canon.
 
-When a source document, workstream plan, queue, review packet, standard, article, ADR-like note, or prior decision shapes the answer, the DRR records how it is used and which payload is selected or left behind, including any material loss, locus, non-use boundary, and reopen condition. Name the exact source episteme, publication, and source-use relation when the decision or a named later reliance depends on those identities. Citation alone creates no doctrine, child DRR, review result, gate, evidence sufficiency, or landing source.
+When an identified source shapes the answer—for example a prior decision, standard, plan, or review packet—the DRR records how it is used and which payload is selected or left behind, including any material loss, destination locus, stop or return, reopen condition, and non-use boundary admitted by `F.19`'s grounded-contribution test. Name the exact source episteme, publication, and source-use relation when the decision or a named later reliance depends on those identities. A citation supplies traceability; every stronger receiving claim needs its direct result or relation.
 

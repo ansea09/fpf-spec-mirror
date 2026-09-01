@@ -6,12 +6,12 @@ section_id: "A.2.7:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__003_problem-frame.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:1 — Problem Frame"
-line_start: 6212
-line_end: 6221
+line_start: 6214
+line_end: 6223
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -36,7 +36,7 @@ A system applying a maintenance-admission Method may admit a current assignment 
 
 These uses all concern exact system-role kinds, but they do not concern the same relation. The assignment occurrences used by a receiving check are also not participants of the kind relation. They remain independently obtaining A.2.1 relations whose holder, exact assigned kind, extent, and any real domain participant are recovered under their direct species.
 
-A system-role-kind description or taxonomy episteme may state a relation claim. Its reference scheme may help interpret that claim. Neither episteme, scheme, row, indentation, nor accepted label makes the world-side relation obtain. When a `KindSignature`, scheme, Bridge, or other edition changes a relation rule, that edition belongs in the by-value predicate's semantic basis. When it does not change the rule, it is not an identity-bearing part of the relation.
+A system-role-kind description or taxonomy episteme may state a relation claim, and its reference scheme may help interpret that claim. The world-side relation obtains under its direct predicate. When a `KindSignature`, scheme, Bridge, or other edition changes the relation rule, include that edition in the predicate's semantic basis; otherwise keep it as interpretation material outside occurrence identity.
 
-`SystemRoleKindRelationStructure` is the selected organization among exact kinds and exact obtaining relations. It is not an assignment configuration. Only admitted systems act and perform checking Work; kinds, assignments, relation occurrences, selected structures, assertions, and representations do not.
+`SystemRoleKindRelationStructure` is the selected organization among exact kinds and exact obtaining relations. For any checking Work, identify the acting system and dated Work under their direct patterns; the selected structure supplies only the organization used by that check.
 

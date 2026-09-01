@@ -6,12 +6,12 @@ section_id: "E.21:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 89152
-line_end: 89170
+line_start: 89194
+line_end: 89212
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -39,7 +39,7 @@ keywords:
 
 | Anti-pattern | Repair |
 |---|---|
-| **Subject/action guidance reified or operationalized.** Plain first-use guidance is turned into a `SubjectActionSpine`, structural field, method, CGUS, or performed work; or `PrecisionRestorationProfile`, process proof, or guard catalogues substitute for judgment of the pattern's actual content. | Keep subject and action guidance Plain unless an exact admitted method or A.22.CGUS is genuinely current and cited by value; require dated `U.Work` independently when performance is claimed; judge the pattern's own `EntityOfConcern`, first useful move, practitioner action, practical delta, and bounded non-use; never raise a value by adding evaluation apparatus that worsens use, locality, affordability, or ecology. |
+| **Subject/action guidance reified or operationalized.** Plain first-use guidance is turned into a `SubjectActionSpine`, structural field, method, CGUS, or performed work; or `PrecisionRestorationProfile`, process proof, or guard catalogues substitute for judgment of the pattern's actual content. | Keep subject and action guidance Plain unless an exact admitted method or A.22.CGUS is genuinely current and cited by value; require dated `U.Work` independently when performance is claimed; judge the pattern's own `EntityOfConcern`, first useful move, practitioner action, practical delta, and next useful action, adding a guard only when a plausible intended reader has an independently grounded reason for that reading. |
 | **Score illusion.** `Pattern quality = 87 out of 100`. | Use ordinal coordinate values; no arithmetic aggregation. |
 | **Two-column table.** Coordinate-and-value table has no rationale. | Add `ShortRationale` for every coordinate. |
 | **Floor as omission.** A floor evaluation omits maturity, SoTA, formal, corpus, or evolution coordinates. | Keep floor low if needed; evaluate all coordinates. |

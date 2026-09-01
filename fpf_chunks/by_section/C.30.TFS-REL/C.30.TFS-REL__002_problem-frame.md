@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__002_problem-frame.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:1 — Problem frame"
-line_start: 61648
-line_end: 61722
+line_start: 61659
+line_end: 61734
 dependencies:
   - "A.10"
   - "A.15"
@@ -111,16 +111,17 @@ relationObservationClassRef?:
 unexploredRegionRefs?:
 hiddenRelationStructureReturnCondition?:
 admissibleUse:
-nonAdmissibleUse:
+stopOrReturnCondition:
+groundedNonAdmissibleUse?:
 ```
 
-This is a use/trace record, not a universal direct `U.Relation` declaration and not an obtaining-condition shortcut. Each positive `architectureRelationOccurrenceRef`, flow relation, cross-member relation, correspondence relation, empirical-grounding relation, publication occurrence, or project/work relation is admitted and made actual only by its direct owner. The record, diagram, description, or list creates none of them.
+This use/trace record connects an exact architecture-side reference to an exact flow-structure reference. Admit every positive architecture, flow, correspondence, grounding, publication, or project relation through its direct pattern before recording it here.
 
-Ordinary minimum: name at least one exact architecture-side reference (`architectureRelationOccurrenceRefs`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRefs`, `architectureDescriptionRefs`, or a bounded `architectureClaimRefs` entry) and at least one flow-structure reference (`transformationFlowStructureRef`, `transformationFlowStructureNetworkRef`, `transformationFlowUnfoldingStructureRef`, `selectedPathOrSliceRefs`, `crossingBundleRefs`, or `flowValuationRefs`), one blocked overread, and one stop or governing-pattern application. A network use also selects exactly one network architecture-use branch and supplies its required exact holon and relation/claim refs. Use the remaining fields only when they change the next architecture move; otherwise mark them `not used`.
+Ordinary minimum: name one exact architecture-side reference, one exact flow-structure reference, the admissible use, and one stop or governing-pattern application. A network use also selects one network architecture-use branch with its required holon and relation or claim refs. Add a grounded non-admissible use only when the current representation or wording makes that exact architecture/TFS confusion live.
 
-Use this record only when an actual architecture relation, selected architecture-relevant structure, exact structural-view episteme, functional-structure view, transformation-flow-structure claim, or conditional architecture-description use depends on an E.18 TFS, an E.18.NET network, or one of the selected TFS's paths, crossings, or valuations. Stop when that architecture-to-flow-structure use and its non-admissible overreads are clear. If another claim is being made, apply its governing pattern and keep this record to the architecture/flow boundary.
+Use this record when an actual architecture relation, selected structure, structural-view episteme, functional-structure view, transformation-flow claim, or conditional architecture-description use depends on an E.18 TFS, E.18.NET network, or one of its selected paths, crossings, or valuations. Stop when the architecture-to-flow use and its return condition are clear; route any other current claim to its direct pattern.
 
-What goes wrong if this pattern is missed: a transformation-flow diagram, graph-shaped mathematical description, path slice, flow valuation, requirement, or functional-view row becomes functional architecture, whole architecture ontology, actual `U.Transformation`, performed Work, work-result record, evidence, gate passage, or project decision by appearance.
+What goes wrong if this pattern is missed: a visible flow representation is reused as an architecture, Work, evidence, gate, or decision claim solely by appearance, so the reader can no longer recover the direct predicate that would support that claim.
 
 What this buys in practice: the practitioner can use E.18 for one TFS or E.18.NET for one network while C.30 remains the direct architecture-relation and selected-structure adequacy locus and C.30.ASV remains the architecture-structural-view locus.
 

@@ -6,16 +6,15 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 72882
-line_end: 73305
+line_start: 72937
+line_end: 73335
 dependencies:
   - "E.10"
   - "E.10.MOVE"
-  - "E.11"
   - "E.11.PFP"
   - "E.11.PUR"
   - "E.13"
@@ -33,7 +32,6 @@ dependencies:
   - "E.9.DA"
   - "F.18"
   - "F.19"
-  - "I.2"
 keywords:
   - "). The key words MUST"
   - "MAY"
@@ -162,7 +160,7 @@ Resolution and checking are declaration-first and context-sensitive. Authors and
 *Unification note:* historic A‑ and D‑templates differed only by the presence/absence of **Bias‑Annotation** and **Relations**; the unified template keeps the headings everywhere and requires every heading to carry content-bearing grounding, boundary, consequence, rationale, source-use, relation, or reduced-case material rather than an omission placeholder.
 The Alexandrian pattern canon historically calls *Problem frame* “Context”. FPF uses *Problem frame* because generic `Context` and universal `U.BoundedContext` do not identify the actual value a claim needs.
 
-Route each use directly: recover source-local meaning through F.0.1 and, only when a durable address or basis relation is needed, F.17; select answer-changing sources through F.1; state `ClaimScope` through A.2.6; use A.1.1 for an admitted bounded model use; and retain a subject-specific context term only where that subject pattern defines it. Use F.9 only for an obtaining Bridge between two exact F.17 local senses. A ReferencePlane difference follows its applicable plane relation. A shared word, imported source, different context, different plane, or generic need for “more context” establishes neither relation.
+Route each use directly. Recover source-local meaning through `F.0.1`, use `F.1` to select answer-changing sources, state `ClaimScope` through `A.2.6`, and use `A.1.1` for an admitted bounded-model use. Add `F.17` only when a durable address or basis relation is needed, `F.9` only for an obtaining Bridge between two exact local senses, and the applicable plane relation for a `ReferencePlane` claim. Otherwise leave the relation unasserted rather than inferring it from a shared word, source, or context.
 
 
 #### E.8:4.1.2 - Preserve Pattern Use Value Across Material Revisions
@@ -183,8 +181,8 @@ For this comparison, the **earlier edition** is the exact accepted pattern editi
 1. Recover the useful earlier-edition use at idea level: the recognizable situation and intended reader, first admissible action or judgement, first useful result, action-changing boundary or stop, and any domain claim, example, or relation needed to perform that move. Classify a changing or disappearing earlier-edition use only as retained, a valid outcome whose defective mechanism is repaired, an explicitly authorized retirement with a corrected action or boundary, or unsupported residue.
 2. Draft the candidate's positive practitioner path in domain-recognizable language before guards: governed subject, recurring problem, action the reader can take, first useful result, and next action-changing condition or stop.
 3. Compare the earlier edition and proposed text at comparable application effort. Preserve every useful earlier-edition move or deliberately replace it with an at-least-equally-usable action, result, or boundary; admit a candidate-only use only from an exact accepted decision, source/SoTA stance, finding, or working need.
-4. Remove exactness intensifiers, negative catalogues, ambiguous role and process wrappers, formal identities, and assurance apparatus that do not change the truth, action, boundary, or reliance claim. Keep ordinary “use this pattern” or “apply this pattern” wording; open the fuller pattern-application ontology only under `E.8:0.3` when its identities matter.
-5. Check that recognition, first action, and first useful result still precede optional modeling, evidence, conformance, and assurance work. Use `F.19` or `E.10` only for a residual phrase or word/head/use problem, not as a wrapper around the whole authoring path.
+4. Apply `F.19` to each changed natural span. Remove exactness intensifiers, invented counterreadings, role or process wrappers, formal identities, and assurance apparatus that fail its contribution test, while preserving every kind, relation, use, and action-changing detail. Keep ordinary pattern-use wording ordinary; open a deeper FPF route only for a genuinely unresolved value.
+5. Check that recognition, first action, and first useful result still precede optional modeling, evidence, conformance, and assurance work. `F.19` is the common semantic pass over the changed span; `E.10` is a cue and an exact route for residual FPF wording, not a second normal-pass algorithm.
 6. For every changed public or consumed interface—entry wording, input or result, field or position meaning, action order, stop, return, or reconsideration condition—repair each determinate stale ToC or README cue, example, relation, and true direct consumer in the same authoring increment. Find consumers by the meaning they teach or use; a shared word, identifier, or nearby reference is not enough.
 
 Earlier-edition and candidate-only uses remain different bases, and both may be present in one revision. Compare that exact earlier edition with the candidate edition. An earlier-edition use keeps its earlier-edition basis and one of the four classifications above; a candidate-only use keeps its exact accepted basis. Do not classify a candidate-only use as an earlier-edition use or invent history for it. Treat a selected use as required when its loss changes action or boundary, and as optional when it demonstrates breadth only. Backward compatibility alone is not improvement, and a candidate-only promise is not improvement until the text supports its executable use. Use desk replay by default and escalate to a cold reader, AI-agent, or observed-work check only when ambiguity or consequence justifies it. If later independent review needs a recoverable note, use the smallest existing authoring source; do not create a card, score, universal schema, or one written row per idea.
@@ -197,17 +195,9 @@ recognizable situation -> proposed action or judgement -> first useful result ->
 
 This rendering explains the pattern; it does not claim that actual work is linear. Use an optional local mantra only when it improves recall, and show one ordinary traversal only when several rows materially improve explanation; choose the smallest form that keeps the action, result, and boundary recoverable. Explanatory rows may fade as competence or task demand permits, but an independently action-changing condition or boundary may not. If the traversal itself must be a durable governed object, use the exact published `DemonstrativeUnfoldingSlice@Context` designation only after `A.22.CGUS` admits that structure for the named pattern use. Put a subject-side check immediately before the continuation it changes, and keep authoring, review, quality, and release checks outside the subject Solution.
 
-**Resolve triggered enumerations semantically.** A list is triggered when wording or grammar asserts or implies one common kind, predicate, relation position, authority, action, or result; when its member set or membership rule changes; or when a noun sequence hides a claim or action. A locator or visual scan may find candidates but cannot close the judgment. Give every triggered list one of these resolutions:
+**Resolve authoring lists with `F.19`.** When a list can change pattern use, apply the same connected `F.19` reading used for prose. `E.8` keeps only the authoring effect: put the practitioner's proposition or action before illustrative material; declare a genuinely normative closed set as closed under its governing rule; signal examples as non-exhaustive when a plausible reader could mistake them for a classification; and do not let a noun series or catalogue replace the `Solution`.
 
-| Resolution | Required semantic result |
-| --- | --- |
-| Declared closed value set | Name the governed value kind or field, state that the set is closed, and give one membership rule that covers every member. |
-| Illustrative examples of a named kind or proposition | Put the kind or proposition first, state that the list is non-exhaustive, and keep examples subordinate. |
-| Heterogeneous neighboring kinds | Reject the false common kind; split the list, retain explicitly heterogeneous neighbors, or route each alien member to its direct governing locus. |
-| Implicit unnamed kind, relation, or structure | Recover an existing value and the pattern passage that defines or constrains it. Use `F.18` only when the recovered name must be stable, public, Core-facing, durably reusable across local uses, or durable enough for later citation; block the claim when recovery fails. |
-| Action or claim hidden in a noun list | Write the substantive proposition or action first, then retain examples only when they change recognition or use. |
-
-Treat one triggered list as a small attention series. A member is a separate unit when its membership can fail independently or require a different subject predicate. A genuinely small closed set may remain one predicate-level unit only when one explicit membership rule decides every member and none has an independent disposition. Nearby nouns that assert no common membership, and unchanged declared closed sets or named-kind example lists still covered by their exact rule, take the cheap positive-control path. A blanket claim that all lists are coherent is not evidence. `E.10` detects enumeration-as-kind and vague heads, `E.10.ARCH` requires exact predicates for recovered claims, and `F.18` settles durable names; this authoring method does not duplicate their recognition or naming architecture.
+Do not add a second enumeration taxonomy or a per-member result form. `E.10` may cue a suspicious head or series, `F.19` decides its membership semantics and discourse load, and an exact subject pattern settles any unresolved kind, relation, or normative set.
 
 #### E.8:4.1.3 - Decide Whether a Narrower Contribution Changes Practice
 
@@ -236,45 +226,33 @@ A result maintained outside the receiving framework may answer the reader's use 
 
 | # | Principle | Guideline |
 |---|-----------|-----------|
-| S-0 | Narrative Flow Seven-Step Heuristic | Authors are encouraged to structure major paragraphs or subsections using the seven-step mnemonic. |
+| S-0 | Governing-claim flow | Begin with the recognisable working situation and governing claim or action. Add context, grounding, examples, and a closing line only when they help the reader understand or use that claim. |
 | S-1 | Density without Jargon | Short declarative sentences; tool names belong in Pedagogy/Tooling. |
 | S-2 | Internal Cohesion | Inline references to Pillars and related patterns. |
 | S-3 | Embedded Mini-Definitions | Gloss a new term in parentheses on first appearance. |
 | S-4 | Contextualisation | Brief historical or disciplinary lineage references. |
-| S-5 | Grounded Clarification | State the positive object and move first. Pre-empt a misreading only when the source material, observed use, or stated working situation shows that readers actually make it or are led toward it; otherwise do not invent an alternative class merely to reject it. |
-| S-6 | Quotable Closers | Finish Solution or Consequences with a memorable aphorism. |
+| S-5 | Grounded Clarification | State the pattern's positive object and move first. Apply the `F.19` plausible-reader guard test; retain a local negative boundary only for a grounded misreading that changes understanding or action. |
+| S-6 | Earned closing line | End when the result or boundary is clear. Add a memorable closing line only when it reinforces that result without introducing a new claim or displacing the practical close. |
 | S-7 | Generative over Prescriptive | Present rules as enabling constraints, not bureaucracy. |
-| S-8 | Trans-disciplinary Tie-ins | Illustrate using at least two distinct fields. |
+| S-8 | Grounded transfer examples | Use examples from other fields when the pattern claims transfer breadth and each example changes recognition, application, or a boundary. No fixed example count establishes breadth. |
 | S-9 | Physical Grounding Reference | Tie an abstraction to the actual system doing the work and to the holon or physical process it changes. Mention a local transformer system-role classification or an obtaining assignment only when it changes the claim; ordinary *transformer* may remain readable metonymy for that system. |
-| S-10 | Punchy Blocks | <= 5 sentences per paragraph; lists for clarity. |
-| S-11 | Narrative Flow | Ensure sections read as a continuous story, not bullet soup. |
-| S-12 | Full sentences over tags | Avoid “keyword soup”. Each list item SHOULD contain a subject and a verb; prefer 2-4 sentence micro-paragraphs to bare tag lists. |
+| S-10 | Readable blocks | Keep the governing claim with the explanation needed to use it. Split prose or use a list only when that structure makes the reader's work easier; no sentence or item count is a verdict. |
+| S-11 | Narrative Flow | Foreground the governing practitioner claim or action and let the section read as a continuous explanation. Apply `F.19` when coordination, catalogues, or modifiers create bullet soup or delay that message. |
+| S-12 | Full claims over tags | Use a clause when a list item carries a claim or action. Labels, values, and locally complete steps need no artificial subject-and-verb expansion; item count and sentence count are not verdicts. Use the `F.19` contribution and list tests. |
 | S-13 | SoTA-Echo structure | Name the practice question, selected best-known line, serious alternative or default, defect overcome, exact pattern mutation, source roles and limits, and reopen condition. Assign roles from answer-changing content, not authority, prevalence, freshness, or praise: an official source may be the best-known line if its answer wins; lineage-only and identity/currentness-only material stays outside. |
 | S-14 | Didactic-content sufficiency | New and substantially revised patterns carry enough didactic content to be teachable without nearby project notes. |
 | S-15 | Worked slices over scenario labels | Transform-like families show at least one concrete source and resulting-publication slice; scenario names alone are not enough. |
 | S-16 | Ordinary vs FPF-governed wording realism | Keep ordinary use light, and make heavier review records explicit only for disputed, high-risk, or higher-impact cases. |
 | S-17 | Self-contained monolith prose | A merged pattern must explain itself inside the monolith; planning shorthand and review-context dependencies are not admissible in pattern prose. |
 | S-18 | Intended-reader discipline | Keep every pattern host or monolith section addressed to the intended FPF user; move package-development, architecture-placement rationale, developer, reviewer, and executor correspondence, and quality or projection evidence to separate companion, evaluation, review, projection, or release carriers unless the sentence has been rewritten as the user's admissible move or boundary. |
-| S-19 | Precision before relaxation | In FPF-governed prose, restore the head kind named by a generic phrase before treating any qualifier as trustworthy claim guidance; then restore the claim kind or admissible-use boundary hidden in the qualifier before allowing any later plain, didactic, or coarsened restatement. |
+| S-19 | Precision before relaxation | Apply the connected `F.19` reading and kind/loss comparison before accepting a plain or didactic rewrite. Route only an unresolved FPF head, qualifier, relation, or admissible-use question to `E.10`, `E.10.ARCH`, or its subject pattern. |
 
 Authors use the principles as a *scaffold*, not a straitjacket: the goal
 is coherent, engaging insight. Engagement remains subordinate to semantic discipline: hooks, quotable lines, Plain restatements, and didactic images may improve recognition, but any ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim kind or admissible-use boundary they carry must be recoverable through the governed Tech reading or named neighboring pattern. Ordinary Plain prose without that claim kind or admissible-use boundary stays ordinary prose.
 
-**S-0 (Narrative Flow Seven-Step Heuristic) — explanation**
-Narrative flow is recommended to follow these steps: **Hook -> Frame -> Weave -> Ground -> Bridge -> Flow -> Close**.
+**S-0 (Governing-claim flow) — explanation**
 
-Brief explanations:
-| Step       | Purpose in a paragraph/section                             |
-| ---------- | ---------------------------------------------------------- |
-| **Hook**   | Open attention with a vivid but bounded image or paradox that maps back to the primary `EntityOfConcern` and claim. |
-| **Frame**  | State the specific question or problem space.              |
-| **Weave**  | Connect to earlier patterns or Pillars.                    |
-| **Ground** | Tie to a concrete system, episteme, or physical process.     |
-| **Bridge** | Show the implication for the upcoming claim or rule.       |
-| **Flow**   | Deliver the formal content or argument.                    |
-| **Close**  | End with a quotable line or payoff that reinforces memory. |
-
-Narrative Flow Heuristic also operationalises S-1 (Density w/o Jargon), S-2 (Internal Cohesion), S-4 (Contextualisation), and S-6 (Quotable Closers).
+Open with the recognisable working situation and the claim or action that governs the passage. Add history, related patterns, examples, imagery, or a recall line only when it helps the intended reader understand or use that claim. A prerequisite may come first when the reader needs it to interpret the claim or act safely. Apply `F.19` when atmosphere, coordination, or rhetorical scaffolding delays the governing message.
 
 #### E.8:4.2.1 - Recognition text and assurance text
 Every canonical pattern SHALL stabilise one primary `EntityOfConcern`, relation record, or claim record early enough that a cold reader can tell what kind of thing the pattern is actually governing. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must make explicit which of those are merely presentation forms of one primary selected EntityOfConcern, relation, or claim and which would instead name a different act, process, work-result record, or governing companion. Recognition and assurance texts may refine that selected item differently, but they must not silently swap the central kind.
@@ -327,9 +305,9 @@ Pattern density is therefore not “more metadata” and not “longer tag lists
 
 #### E.8:4.2.2 - Package-form and neighboring-pattern reference discipline
 
-FPF pattern prose is not free-form descriptive English. Package-form words and references to nearby patterns must keep stable semantic intent without inventing a generic relation in which a pattern contains the defining content for, governs, receives, or acts on content.
+FPF package-form words and neighbouring-pattern references carry stable meanings. State the actual relation used by the sentence, and use the exact subject pattern when that relation is not recoverable from ordinary wording.
 
-For an ordinary neighboring-pattern reference, state the concrete contribution—for example, defines a kind, constrains a relation, supplies a test or method, or provides a useful lookup—and cite the pattern id. An id, heading, file, or locator field merely helps find content; it is not a semantic owner, authority, actor, participant, or evidence that a claim is true. Identify the exact claim-bearing episteme and its `ClaimGraph`, edition, or relation assertion only when a named later use depends on that identity, such as interpretation, comparison, migration, conflict, publication, or reuse.
+For an ordinary neighbouring-pattern reference, state the concrete contribution and cite the PatternID. An identifier or locator only helps the reader find that content. Identify an exact claim-bearing episteme, `ClaimGraph`, edition, or relation assertion only when a named later use depends on that identity.
 
 A local `...PatternLocator` field may remain where an existing schema already uses it as a non-semantic convenience, but ordinary prose and entry cues do not require one. It never substitutes for the cited content's concrete contribution or, when the stronger identity branch is active, for the exact claim-bearing content. Changing only a locator without changing what it resolves is a representation change; changing the defining content or exact assertion may reopen the semantic object whose receiving use depends on it.
 
@@ -367,7 +345,7 @@ If a draft proposes a new precision-restoration pattern, the authoring claim mus
 #### E.8:4.2.3 - Intended-reader discipline for pattern prose
 
 A pattern is written for its intended FPF user: the person who will use the pattern to organise thought, inspect a case, publish a note, or review a result under that pattern.
-Its FPF-governed sections therefore explain what the pattern lets that user do, what it forbids, what it costs, and how it relates to neighbouring patterns in user terms. When neighbouring or companion patterns are named, the prose should answer one user question such as `which neighboring FPF pattern applies`, `which project-side FPF kind and reference named by value carries the claim`, `which nearby pattern is easy to confuse`, or `what must stay coordinated here`; it should not read as one explanatory aside about why the package architecture was split that way.
+Its FPF-governed sections explain the user's action, result, cost, and any grounded boundary that changes use. When neighbouring or companion patterns are named, answer the concrete reader question their contribution settles rather than narrating why the package architecture was divided that way.
 `E.8` reader and reviewer wording is FPF pattern-authoring wording. Project-side publication readers, explanation readers, comparative review units, and participants in named project-side review relations are governed by the publication or project-side patterns that name those publication units, explanation-use relations, comparative review units, evidence paths, work records, or gate records, such as `E.17`, `E.17.ID.CR`, `E.17.EFP`, `A.10`, `A.15.4`, `A.20`, or `A.21`.
 
 Authors must keep FPF-development or package-architecture material separate from that user-facing body.
@@ -426,9 +404,9 @@ frame` prose may be used as the first sentence or compact cue of this
 signature.
 It is not one separate required section.
 
-**Entry-cue authoring rule.** When a pattern needs a reader-facing entry cue, begin with one ordinary question about the user's actual object and claim, before any PatternID, card, template label, or internal taxonomy. In the same compact cue, state what any cited content contributes and cite the pattern id; name the smallest result kind usable now, the stop or return condition, and one tempting overread that remains non-admissible. Add the exact claim-bearing episteme and its `ClaimGraph` or edition only when the cue's named later use depends on that identity. The cue is reading guidance, not a section schema, method, plan, work occurrence, structure, or relation; it neither constitutes the result nor makes a routed relation obtain.
+**Entry-cue authoring rule.** Begin with one ordinary question about the user's object and claim, before any PatternID, card, template label, or internal taxonomy. In the same compact cue, state what cited content contributes, cite the pattern id, and name the smallest result usable now plus its stop or return condition. Add a tempting overread only when the `F.19` plausible-reader test finds independent local ground and an action-changing effect. Name an exact episteme, `ClaimGraph`, or edition only when a later use depends on that identity. The cue guides reading; it does not by itself constitute a result or relation.
 
-Resolve the current head before coarsening it. Keep an actual holon under the A.1 kind-admission rule and each direct relation under the predicate and occurrence test supplied by `A.6.REL` or the relevant relation pattern; an independently selected `U.Structure` under A.22; a boundary-description episteme, its effective `ReferenceScheme`, and any separately obtaining empirical-grounding relation under C.2.1, with the grounding holon separately admitted under A.1; a `U.View` under E.17.0; a `U.ClaimScope` under A.2.6; a `U.WorkPlan` under A.15.2; dated `U.Work` under A.15.1; architecture and architecture-description assertions under C.30 and C.30.AD; and a publication occurrence under E.24.PUB. Keep an FPF `Map` and a decision occurrence under the patterns that define or constrain those values. In an ordinary cue, state those concrete contributions and cite the ids. Identify exact predicate-definition content, a claim-bearing episteme, or a `ClaimGraph` only when its identity changes interpretation, comparison, migration, conflict, publication, or reuse. Actual, intended, selected, expected, described, viewed, mapped, grounded, published, and performed objects remain distinct. A cue, diagram, description, file, card, suffix, template label, or public coarsening creates none of them and establishes none of their relations.
+Resolve the current head and relation under the exact subject pattern before coarsening. In an ordinary cue, state that pattern's concrete contribution and cite its id; identify exact claim-bearing content only when its identity changes the receiving use. Preserve every live status distinction defined by the subject pattern. A cue or representation supports only the object, status, or relation admitted by its governing pattern.
 
 Compact candidate-pattern comparison belongs in `E.11`-distributed entry material; expanded entry-disambiguation cases belong in `I.2`.
 
@@ -473,10 +451,5 @@ Design-time and development-state referents are different objects. The current d
 
 Move that material to the authored-slice carrier, handoff, `DRR`, or companion architecture note. If a sentence is kept in the pattern, rewrite it so that its truth depends on the governed run-time/domain object or on the standard's declared normative claim set rather than on the current writing pass.
 
-If a pattern or example claims **autonomy**, start with the bearer and the direct claim:
-
-1. Identify the actual admitted `U.System` whose freedom of action is being evaluated. The System is the bearer. A system-role kind is used in classification; an assignment is a relation among its declared participants; a Method is a reusable way of acting; Work is a dated occurrence; and a budget, policy, or ledger is a declaration or record. None substitutes for the System or acts in its place.
-2. Use a current `E.16` pattern only when it defines or tests the autonomy or agency characteristic or relation being claimed. Keep classification, assignment, capability, responsibility, authority, permission, Method, Work, and evidence under their own direct claims. An assignment may cover performed Work under F.6; it supplies no autonomy by itself.
-3. Add extra autonomy material—for example, an **Autonomy** subsection, budget declaration, guard policy, override protocol, gate reference, or separate ledger record—only when that current E.16 claim uses it. If dated Work is also asserted, apply the A.13-first and independent A.15.1 rule in `E.8:0.3`; add F.6 only when precise assignment-bound attribution is also current. If the current corpus cannot state the autonomy claim under E.16 or another direct pattern, return `A.6.RCD missing-governor` instead of reviving a Role, Method, or Service bundle.
-4. Add a worked depletion or override vignette only when it helps the reader use that exact autonomy claim. Apply `E.10` to wording after the claim is recovered; a lexical bundle must not choose its bearer or ontology.
+If a pattern or example claims **autonomy**, name the admitted `U.System` whose freedom of action is being evaluated and use the current `E.16` pattern that defines or tests the claim. Add another relation only when it is current under its own governing pattern. Admit dated Work under the A.13-first and independent A.15.1 rule in `E.8:0.3`, adding `F.6` only for current assignment-bound attribution. Add autonomy apparatus or a vignette only when it helps the reader use that claim. Apply `F.19` after recovery; if the corpus supplies no direct governor, return `A.6.RCD missing-governor`.
 

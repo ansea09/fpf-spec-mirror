@@ -6,12 +6,12 @@ section_id: "F.8:7"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__009_archetypal-grounding-worked-cases.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:7 — Archetypal Grounding - worked cases"
-line_start: 94956
-line_end: 95004
+line_start: 94998
+line_end: 95046
 dependencies:
   - "A.11"
   - "A.15"
@@ -70,7 +70,7 @@ The source label `PatternReview_2026` is not a context object. Classify the actu
 - `PatternReviewReferenceScheme-2026` can be an effective by-value `U.ReferenceScheme` for interpreting review terminology; and
 - "used while deciding the label for the 2026 review method" can be claim content describing the decision-use setting without minting any context entity.
 
-If the recovered `ReviewerSystemRole` kind needs a durable local designation, F.8 returns `openDurableNamingSettlement`: A.2 and C.3 keep governing the kind, F.5 governs its designation, and F.18 supplies the settlement. This need does not require a `SystemRoleKindDescription`; use F.4 only when the practice separately needs that description. The review label defines no kind, assigns no reviewer system, and demonstrates no review Work.
+If the recovered `ReviewerSystemRole` kind needs a durable local designation, F.8 returns `openDurableNamingSettlement`: A.2 and C.3 keep governing the kind, F.5 governs its designation, and F.18 supplies the settlement. The recovered kind is the governed subject; F.4 enters only for a separately needed description, A.2.1 for an assignment, and A.15.1 for performed review Work.
 
 The expression "review report has reviewer role" is a different case. `ReviewReport-82` is an episteme. An evidence, source, or publication relation may later use it for an adequacy claim about a reviewed pattern; the report is not a `U.System`, is not classified by the review-system-role kind, and cannot enter its assignment relation. Its title establishes neither evidence use nor publication authority.
 
@@ -100,7 +100,7 @@ A team proposes `U.InfluenceEdge` because many documents use "influence". At F.8
 
 The `ReviewerRole` case closes with one readable result. The recovered kind is a local `U.Kind` for `U.System` candidates, distinguished by its stable review contribution and tested by its `KindSignature`; any assignment remains separate. The result is:
 
-> Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose. No existing designation or alias supports that use, so select `openDurableNamingSettlement`: A.2 and C.3 continue to govern the kind, F.5 governs its designation, and F.18 supplies the durable settlement. This result creates no `SystemRoleKindDescription`, assignment, review Work, evidence use, or publication. Reopen it if the proposed use becomes evidential, status-bearing, access-related, source-facing, published, or cross-local.
+> Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose. Select `openDurableNamingSettlement`: A.2 and C.3 govern the kind, F.5 governs its designation, and F.18 supplies the durable settlement. Reopen when the naming use or audience changes enough that this local settlement no longer supports it.
 
 That sentence is the F.8 result. It needs no decision occurrence or result episteme. If a later claim must cite, replay, or assign accountability to the decision, use §4.5. No naming-decision governor is available in this case, so that branch returns `missing-governor` rather than inventing `ReviewerSystemRoleNamingDecision-2026-07-31`. C.11 applies only to a genuine local choice among available options. For any precise decision-making Work, A.13 first recovers the exact actual performer and A.15.1 independently admits the dated Work; F.6 follows only when the later claim expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
 

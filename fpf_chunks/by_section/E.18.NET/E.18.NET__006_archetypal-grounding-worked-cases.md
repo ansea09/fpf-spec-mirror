@@ -6,12 +6,12 @@ section_id: "E.18.NET:5"
 section_title: "Archetypal Grounding — worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__006_archetypal-grounding-worked-cases.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:5 — Archetypal Grounding — worked cases"
-line_start: 87226
-line_end: 87316
+line_start: 87266
+line_end: 87356
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -61,7 +61,7 @@ selectedNetworkConstraintRefs[]:
   - AcyclicDirectMemberConstraint@RoasteryCafe
 networkUseFrame:
   questionOrAction: decide which accepted stock can enter the coffee-service brewing flow
-  forbiddenOverread: shared coffee does not make both members one TFS or make supply a generic edge
+  admissibleUse: use the selected supply relation to choose accepted coffee stock for the brewing flow
 returnCondition: either member, the supply occurrence, an endpoint or exposure, acyclicity, or the coffee-service question changes
 ```
 

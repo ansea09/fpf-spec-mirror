@@ -6,24 +6,38 @@ section_id: "E.10.MOVE:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__006_archetypal-grounding-worked-slices.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:5 — Archetypal Grounding - Worked Slices"
-line_start: 76668
-line_end: 76738
+line_start: 76665
+line_end: 76745
 dependencies:
   - "A.1.STM"
   - "A.10"
   - "A.15"
+  - "A.15.2"
   - "A.15.5"
+  - "A.16.0"
   - "A.21"
   - "A.22.CGUS"
+  - "A.3.3"
+  - "A.3.4"
   - "A.3.4.P"
+  - "B.4"
+  - "C.11"
+  - "C.17"
+  - "C.19"
+  - "C.22.2"
   - "C.24"
+  - "C.27.TA"
+  - "C.29"
   - "C.30"
+  - "C.36"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.DEV"
+  - "E.11.PUA"
   - "E.11.PUR"
   - "E.17"
   - "E.18"
@@ -32,6 +46,7 @@ dependencies:
   - "E.24"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "G.11"
 keywords:
 ---
@@ -50,7 +65,7 @@ SubjectPatternLocator: E.11.PUA
 RecoveredGovernedValueRef: PatternUsePracticeContinuationDescription@SeminarArchitectureUse
 RecoveredGovernedValueKindRef: PatternUsePracticeContinuationDescription@Context
 RetainedPlainWording: mantra move, only in the bounded CGUS-demonstrative context
-BlockedOverread: no U.Move; no actual work or universal sequence
+GroundedNonUseBoundary: this bounded source phrase does not license a `U.Move`, performed Work, or universal sequence in the demonstrated receiving use
 RemainingReaderUse: inspect the shown candidate, Solution, expected result, and condition
 QualificationWindow: the current E.11.PUA continuation description and the named A.22.CGUS demonstrative slice
 CurrentnessBasis: the enclosing structure qualifies under A.22.CGUS, the slice shows this E.11.PUA description, and E.10.MOVE admits the bounded Plain wording
@@ -106,4 +121,14 @@ Initial sentence: "The next mantra move is: name the thing."
 An initial repair classified the phrase as `boundedDemonstratedContinuation`. Inspection then shows that the enclosing text is A.6.P's local RPR mantra: a short rendering of the A.6.P Solution. It has no qualifying wider `ConstraintGovernedUnfoldingStructure@Context`, no post-qualification `DemonstrativeUnfoldingSlice@Context`, and no E.11.PUA practice-continuation description with the required proposed use, expected result, pattern, condition, and disposition.
 
 That evidence overturns the initial disposition. Remove the demonstrated-continuation claim, retain the local RPR mantra as Plain didactic wording, use the A.6.P Solution and its direct relation-recovery guidance, and write: "Apply the first clause of the local RPR mantra: name the thing; then recover the relation or comparison." The `A.6.P` locator and Solution establish neither a `U.Method` nor a `U.MethodDescription`. Establish a separate `U.Method`, a qualifying `U.MethodDescription` episteme, and any Method-use relation only if A.3.1 and A.3.2 independently admit them and the receiving claim depends on those identities. Reopen the demonstrative-slice question only if a later qualified structure and slice actually show a complete E.11.PUA practice-continuation description.
+
+#### E.10.MOVE:5.10 - Trajectory under changing constraints
+
+Source sentence from the R11 seminar guide *Development for Advanced*, section R11.5:12, edition for 1 February 2026: «Для семинара это важный предшественник: архитекторы уже умеют мыслить не одним окончательным состоянием, а траекторией под изменяющимися ограничениями.» Working English gloss: “For the seminar this is an important predecessor: architects already know how to think not in one final state, but as a trajectory under changing constraints.”
+
+Read the complete source span through `F.19` first. Keep the contrast with one final state only when a plausible intended reader has independent local grounds to expect that reading and rejecting it changes understanding or action. Otherwise state the positive claim directly—for example, “architects treat architecture as a sequence of changes under changing constraints.” When an FPF inference relies on the sentence, recover the exact architecture or system subject, the changing constraints and reference window, whether the sentence concerns actual architecture editions, a proposed evolution policy, or a modelled sequence, and the direct architecture, transformation, or model owner. A C.29 curve or ordered rendering may represent that history but does not identify the architecture, transformation, or evidence.
+
+If the intended claim is only that evolutionary-architecture practice supports incremental changes under changing constraints, preserve the domain label and stop at the domain Method and named source. Do not mint `Trajectory`, infer an actual transformation, or require a recovery note.
+
+Overlap example: `The development trajectory improved.` Start with `E.10.DEV` to recover the developed subject and the basis of *improved*. Open this branch only when a separately relied-on ordered path, model, plan, or representation remains. A direct capability or organization-change claim may close without a second pass.
 

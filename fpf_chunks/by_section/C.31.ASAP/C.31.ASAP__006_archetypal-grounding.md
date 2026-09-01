@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__006_archetypal-grounding.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:5 — Archetypal Grounding"
-line_start: 63045
-line_end: 63088
+line_start: 63054
+line_end: 63097
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -86,7 +86,7 @@ ScaleClaimTriage:
   stopCondition: stop at local scale-preference guidance unless comparator admission, evidence validity, and decision or selected-set governance are present
 ```
 
-Admissible move: prefer the platform alternative as a local scale-preference guide and start interface-grammar repair before deployment spread increases. Non-admissible move: treat the platform label, reusable-share number, or six-site probe as architecture selection, evidence sufficiency, assurance, gate passage, or final decision.
+Admissible move: use the platform alternative as a local scale-preference guide and start interface-grammar repair before deployment spread increases. Stop at local guidance; open the direct selector, evidence, assurance, gate, or decision pattern only when that downstream claim is current.
 
 #### C.31.ASAP:5.2 - Near-miss lowering slice
 

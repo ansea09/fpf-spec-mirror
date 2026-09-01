@@ -6,12 +6,12 @@ section_id: "B.1.6:4"
 section_title: "Ledger Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__007_ledger-discipline.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:4 — Ledger Discipline"
-line_start: 37702
-line_end: 37719
+line_start: 37711
+line_end: 37728
 dependencies:
   - "A.1"
   - "A.10"
@@ -66,7 +66,7 @@ The ledger is a replay surface, not the source of the aggregation claim. For eve
 - conversions, normalizations, imputations, and their declared method/policy refs;
 - the aggregation policy edition and actual aggregation work occurrence;
 - aggregation result and distinct C.2.1 result episteme; and
-- A.10/G.6 source and provenance refs, G.11 currentness when current, admissible use, unsupported overread, and reopen condition.
+- A.10/G.6 source and provenance refs, G.11 currentness when current, admissible use, stop or reopen condition, and one grounded source-use guard only when an actual source or ledger feature makes that error live.
 
 Measured, estimated, normalized, converted, allocated, and planned values remain visibly different. A planned value does not become a measurement result or performed-work resource use. A citation to a meter or invoice does not establish the measurement work; a ledger row does not establish work parthood or overlap.
 

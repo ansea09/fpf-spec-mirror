@@ -6,12 +6,12 @@ section_id: "A.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__002_problem-frame.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:1 — Problem frame"
-line_start: 35189
-line_end: 35234
+line_start: 35193
+line_end: 35239
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -92,7 +92,8 @@ StructureQuestionCard@Project:
   preserved structure:
   lost, hidden, or excluded structure:
   admissible action:
-  stop or non-admissible overread:
+  stop or return condition:
+  grounded non-admissible overread, optional:
   selecting system, method, and dated work, when selection is claimed:
   selection-result episteme, when a durable result is needed:
   claim scope or effective reference scheme of that claim, if current:

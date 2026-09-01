@@ -6,12 +6,12 @@ section_id: "E.10:13"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__015_bias-annotation.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:13 — Bias-Annotation"
-line_start: 76190
-line_end: 76200
+line_start: 75934
+line_end: 75944
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,6 +39,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.10.D1"
+  - "E.10.DEV"
   - "E.10.LRN"
   - "E.10.MOVE"
   - "E.10.ROLE"
@@ -63,8 +64,8 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: FPF-
 | Bias | How E.10 prevents it |
 | --- | --- |
 | Lexical-substitution bias | E.10 starts with trigger scan and governed-object recovery, not synonym replacement. |
-| Umbrella-to-umbrella bias | Broad heads such as support, basis, route, status, force, object, record, and posture are unpacked into the governed object, relation, bearer, value set, predicate or ordinary claim, admissible use, and blocked overread. Add an exact assertion, `ClaimGraph`, or pattern reference only when that identity changes truth, action, comparison, publication, reuse, or reliance. |
+| Umbrella-to-umbrella bias | Recover the recognizable object and relation, then name only the exact FPF value or pattern contribution that changes the sentence. |
 | Semio-bias | Wording-use repair does not displace the EntityOfConcern; descriptions, publications, and source-use relations stay separate from the object or claim under concern. |
-| Pattern-as-actor bias | Patterns supply rules or guidance; they do not write, decide, authorize, send, or repair project objects. |
+| Misallocated activity | Assign action to the capable participant, or state the pattern's defining, constraining, guiding, or descriptive relation positively. |
 | Source-provenance-as-prose bias | Source wording can be quoted or bounded as source-only, but live FPF prose states the current norm rather than narrating where a term came from. |
 

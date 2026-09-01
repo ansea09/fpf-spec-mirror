@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__006_archetypal-grounding.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:5 — Archetypal Grounding"
-line_start: 70470
-line_end: 70499
+line_start: 70518
+line_end: 70550
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -37,6 +37,7 @@ dependencies:
   - "E.4.PFR"
   - "E.9"
   - "F.18"
+  - "F.19"
   - "G.11"
   - "G.2"
 keywords:
@@ -47,6 +48,7 @@ keywords:
 #### Positive DPF
 
 A systems-management group considers a public DPF for recurring problems in service launch, cross-team coordination, incident response, and feedback-based improvement. A broad FPF route covers several shared distinctions, and an admitted neighboring DPF covers one specialist branch, but neither gives this practitioner group a coherent first use across the four problem families. The field assessment compares a new DPF with direct FPF-and-source use, a guide, contribution to the neighboring DPF, two existing DPF edition series, and no new product. It favors one DPF because a representative service-launch case needs patterns from several problem-family sets together and has its own later-review rule.
+
 
 The source accounts organize Methods, dated Work, service and equipment subjects, descriptions, provider capabilities, and cultural change differently. A completed `C.32.MWA` result makes those correspondences and conflicts readable without turning the source layout into the DPF structure. The `E.9` DRR records the public promise, selected problem-family sets and material relations, representative case, Core and other exact dependencies, omitted procurement and certification questions, the sources to revisit, which claims the evidence supports, suggests, or only motivates, the publication consequence, first authoring action, and reopen condition. `E.23.CDI` is absent because capability development does not change this answer. No PFAD relation, mandatory PFR row, or proposal locator substitutes for the selected answer.
 
@@ -62,11 +64,13 @@ A team needs a maintained choice among a DPF, an access route, and stop because 
 
 A cross-domain inquiry need recurs, but practitioners do not need another pattern language. The decision compares a DPF, an inquiry-programme product, a separate inquiry evidence-package episteme, a curated route, and no new product. It selects the programme because named users need continuing access to inquiry Methods, bounded-project intake, and result return. The answer does not invent a Programme or Product kind. Any maintenance relation is a separate claim.
 
+
 Its first usable version is a current programme-description episteme that names the users and questions, inquiry Methods, project intake, result return, access, change, and retirement rules. Capable provider and maintaining Systems accept the needed commitments; when a service is claimed, the answer also names the admitted service state. Each bounded inquiry project is separate Work, and each returned result is a separate episteme. A subject pattern may instead admit the programme itself as a System or another exact arrangement, in which case the answer names it. A bounded project may end while the managed programme continues and evolves. The inquiry evidence package remains its own editioned episteme.
 
 #### DPF Suite and Reference
 
 Three separately constituted DPF product series already cover one recurring practitioner use. The architecture question is therefore not whether to merge them into another DPF. When one architecture decision takes effect, it constitutes the continuing Suite collection, states its ecosystem use, defines which product series may belong, selects inclusion and removal rules and identity through change, and chooses source return and exposure. Its `E.9` DRR records that answer and the initial inclusion decisions. Each DPF edition still belongs to its own product series under that series rule. The answer separately decides whether a DPF Suite Reference product series is constituted and included and states its edition-admission, source-return, later-review, and retirement rules. Publication and availability are separate occurrences. A maintenance relation, maintaining System, or commitment is recorded only when it separately obtains; neither Suite nor Reference constitution creates it. A Reference edition may then give a problem-led cross-DPF answer, but it neither constitutes the Suite nor decides which product series belong. The answer records any proposed cross-DPF result use but makes no dependency or compatibility claim until the edition-level predicates pass. A later author may propose inclusion or removal, but returns that proposal to the Suite decision; one DPF and one Reference edition cannot settle it from inside their own content.
+
 
 #### Existing framework
 

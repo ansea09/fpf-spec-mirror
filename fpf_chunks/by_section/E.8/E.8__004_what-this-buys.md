@@ -6,16 +6,15 @@ section_id: "E.8:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__004_what-this-buys.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0.2 — What this buys"
-line_start: 72794
-line_end: 72822
+line_start: 72852
+line_end: 72880
 dependencies:
   - "E.10"
   - "E.10.MOVE"
-  - "E.11"
   - "E.11.PFP"
   - "E.11.PUR"
   - "E.13"
@@ -33,7 +32,6 @@ dependencies:
   - "E.9.DA"
   - "F.18"
   - "F.19"
-  - "I.2"
 keywords:
   - "). The key words MUST"
   - "MAY"
@@ -62,22 +60,22 @@ keywords:
 
 **First useful move.** Put the working situation, first action-guiding move, practical payoff, ordinary boundary, and nearest heavier assurance condition into the recognition text before tightening template details or conformance material.
 
-**Solution and working move.** `Solution` is the canonical section that gives the pattern's conditional answer to its `Problem frame`, `Problem`, and `Forces`. It tells the reader what to do or decide, under which conditions, what result to seek, and when to stop or return. One `Solution` may contain several such actions or judgements. A **working move** is ordinary reader-facing wording for one of those actions or judgements. It is not another section name, the whole `Solution`, a root `U.Move`, performed `U.Work`, or an actual `U.Transformation`. `E.11.PUA` governs use of one selected `Solution` to reach the first useful result. When alternatives are formally qualified under `A.22.CGUS`, call them `continuation candidates`; `E.18.3` applies only when the selected CGUS uses a qualifying transformation-flow substrate.
+**Solution and working move.** `Solution` gives the pattern's conditional answer to its `Problem frame`, `Problem`, and `Forces`: what the reader should do or decide, under which conditions, what result to seek, and when to stop or return. A **working move** is ordinary reader-facing wording for one such action or judgement. Reserve `U.Move`, dated `U.Work`, and `U.Transformation` for claims that actually assert those admitted objects. `E.11.PUA` governs use of one selected `Solution` to reach the first useful result. When alternatives are formally qualified under `A.22.CGUS`, call them `continuation candidates`; `E.18.3` applies only when the selected CGUS uses a qualifying transformation-flow substrate.
 
-**Move wording in pattern prose.** In ordinary prose, say **recommend this pattern use**, **coordinate these uses**, or **show their total order** when those are the actual claims. When the durable governed object itself matters, use its exact published designation: `PatternUseRecommendation@Context`, `PatternUseCoordination@Context`, or `PatternUseSequence@Context` under `E.11.PUR`; the suffix is retrieval wording, not an identity constructor. The sequence designation applies only to an admitted total order for the named receiving use. Otherwise recover the direct work, plan, gate, transformation, publication, architecture, source, or language-state relation under its exact rule. State what the cited pattern contributes and use `E.10.MOVE` when the current value remains unclear.
+**Move wording in pattern prose.** In ordinary prose, say **recommend this pattern use**, **coordinate these uses**, or **show their total order** when those are the actual claims. When the durable governed object matters, use its exact published designation under `E.11.PUR`: `PatternUseRecommendation@Context`, `PatternUseCoordination@Context`, or `PatternUseSequence@Context`; the suffix is retrieval wording, and the sequence designation requires an admitted total order for the named use. For any other claim, recover the actual relation under its governing pattern. State what cited content contributes and use `E.10.MOVE` when the current relation remains unclear.
 
 **Cheap stop.** If the draft already gives a cold reader the working situation, first useful move, practical payoff, ordinary boundary, and nearest heavier assurance condition, do not add more authoring apparatus just to look mature. Use conformance material to verify that guidance; do not let it replace the guidance.
 
-**FPF-governed wording extension.** Add heavier assurance, conformance, SoTA grounding, relation material, or related-pattern material only when the light recognition text would leave a false claim, unstable primary `EntityOfConcern`, missing definition, constraint, test, method, or other concrete contribution for a specific claim, relation, or boundary, unbacked practical payoff, or misleading admissible use.
+**FPF-governed wording extension.** Add heavier assurance, conformance, SoTA, or relation material only when it changes correctness or use: it repairs a false claim, stabilizes the primary `EntityOfConcern`, supplies a missing concrete contribution, grounds a practical payoff, or states an action-changing boundary. Cite the exact pattern that defines or constrains the live value.
 
 When an authoring pass claims quality improvement rather than ordinary drafting, keep these pattern responsibilities distinct: `E.22` frames the improvement-oriented quality-evaluation question, the object-under-improvement evaluation such as `E.21` or `E.9.DA` supplies value meanings and stop meanings, `C.16.Q` repairs overloaded quality and evaluative-characterization wording, `C.25` carries engineering quality-family endpoints when those endpoints are claimed, and `E.23` governs any repeated quality-improvement method. Closing checklist rows or satisfying a review profile is not by itself quality improvement.
 
-When a pattern claims practical payoff or uses a score, coordinate value, checklist result, benchmark, projection signal, review result, or release posture as evidence of value, name the intended value and the visible proxy relation. If the visible proxy is being treated as the value itself, apply `E.13` and repair the proxy-to-value substitution before the payoff claim is admitted.
+When a pattern claims practical payoff through a visible score or other proxy, name the intended value and the relation by which the proxy bears on it. If the proxy is being treated as the value itself, apply `E.13` before admitting the payoff claim.
 
 
-**Quality or projection evidence placement.** Pattern-quality status, corpus projection, README, ToC, `E.11`, and `I.2` alignment, card or retrieval evidence, cold-reader evidence, monolith parity, landing evidence, developer, reviewer, and executor correspondence, and other quality-carrier facts belong in the evaluation result, review run record, projection carrier, or release or landing evidence carrier. They do not belong anywhere in the pattern itself, including notes, appendices, `Relations`, `Rationale`, `SoTA-Echoing`, examples, tables, and checklist rows, unless the pattern's own `EntityOfConcern` and intended-reader use are that evaluation or projection work. Part E patterns may govern FPF-pattern authoring, review, evaluation, entry, or publication when that is their declared EntityOfConcern; that authoring scope does not admit rules or rationale about developing that same pattern version. This is a content-use test, not a lexical test: the same word may be user-facing content in an evaluation pattern and carrier leakage when it reports quality, landing, projection, or author or reviewer turn state for this pattern.
+**Quality or projection evidence placement.** Development, quality-review, projection, assembly, and landing evidence belongs in its own evaluation, review, projection, or release carrier rather than in the pattern body. Keep it in a pattern only when that work is the pattern's declared `EntityOfConcern` and intended-reader use. A Part E pattern may govern FPF authoring, review, evaluation, entry, or publication, but it does not narrate the development of its own current version. Judge placement by the sentence's use, not by a blacklist of words.
 
-**Pattern positions across coupled flows.** In authoring guidance, speak at the pattern level. An author may use `E.21` questions provisionally while drafting and may verify one focused repair; that is development evidence, not the independent complete `E.21` result, and it closes no maturity, readiness, admission, or landing claim. When one of those conclusions is current, an independent evaluator completes `E.21`, while the admission reviewer uses `E.19` and remains a separate judgment. A practitioner may later select and use the pattern, and a later evaluator may reopen it. These positions may be connected by the applicable flow relation—for example, transfer, feedback, return, projection, landing, edition change, or repair—inside one `TransformationFlowStructure`, but their `EntityOfConcern` assignments stay distinct. Development evidence may cause a rewrite; reviewer exchange, status, projection proof, landing proof, and use-found evidence remain in their carriers rather than becoming guidance in the pattern. A publication, principle scheme, WorkPlan, or self-evolving specification may help create or constrain later Work without becoming that Work, its project evidence, gate passage, assurance, edition bump, or applied content.
+**Pattern positions across coupled flows.** During drafting, `E.21` questions may guide a focused author-side check. A product-level conclusion still requires an independent `E.21` evaluation and the applicable `E.19` admission review. Keep their objects and evidence distinct even when an applicable flow relation connects drafting, review, publication, use, and later refresh. A publication may guide or constrain later Work; assert the actual Work and its evidence only through the patterns that admit those claims.
 
 **Maturity rule.** Section completeness is not pattern maturity. A pattern matures when its `Problem frame`, `Solution`, worked cases, boundaries, source/SoTA use, relations, consequences, and conformance checks all point to the same usable action guidance for the declared reader and use. If the reader still needs the DRR, source notes, campaign handoff, or author memory to know what to do, the pattern is not mature for that use.
 

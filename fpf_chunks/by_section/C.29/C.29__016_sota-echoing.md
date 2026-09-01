@@ -6,12 +6,12 @@ section_id: "C.29:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__016_sota-echoing.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13 — SoTA-Echoing"
-line_start: 58091
-line_end: 58208
+line_start: 58100
+line_end: 58217
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -81,20 +81,20 @@ Local `SourceUseRelation` slot discipline:
 - source-use disposition: adopt, adapt, reject, candidate stress test, recognition cue, source identity locator, checked source-text carrier, or historical background only;
 - currentness, supersession, contradiction, narrowing, or demotion condition;
 - output-change condition for the C.29 result;
-- blocked overread, especially source prestige becoming evidence, causal-use verdict, bridge semantics, assurance, release, selector, benchmark, or accepted law.
+- stop or output-change condition; add one grounded source-prestige overread only when the source presentation makes that exact inference live.
 
-| `SourceUseRelation` | Declared `C.29` use | Blocked `C.29` use |
+| `SourceUseRelation` | Declared `C.29` use | Use boundary or return |
 |---|---|---|
-| `recognitionCue` | Help the reader notice an invariant, obstruction, symmetry, duality, state variable, scale cue, or comparison cue. | Supply evidence, truth, ontology, causal-use verdict, assurance, or release confidence. |
-| `candidateLensPrompt` | Suggest a first candidate lens family or mathematical object to test against the problem cue being repaired. | Require a lens before the candidate changes the next lens-use action. |
-| `adequacyControlSource` | Discipline preserved structure, lost structure, stop condition, validation regime, or neighboring-pattern application. | Replace the C.29 fields or the neighboring subject pattern. |
-| `validationBoundarySource` | Constrain the declared validation regime, evaluation slice, uncertainty, failure case, or domain of applicability. | Become an evidence relation, assurance claim, benchmark result, or release confidence by source prestige alone. |
-| `acceptedDomainTheory` | Permit local use inside a domain where the theory is already the governing local formalism. | License cross-context ontology import or broader transfer without `F.9`, evidence, and stop condition. |
-| `proofUnderAssumptions` | Justify a formal property under stated assumptions. | Prove real-world adequacy unless assumptions, observations, bridge, and evidence relation are also present. |
-| `negativeExample` | Expose failure, obstruction, non-transfer, counterexample, or stop condition. | Act as a proof that the rival or source family is globally unusable. |
-| `rivalLensSource` | Name a principal rival lens or relation that changes the bounded lens-use action being made. | Become a literature review, selector result, or benchmark result. |
-| `sourceIdentityLocator` | Preserve source identity by value when a source is being cited or traced. | Carry substantive adequacy by itself. |
-| `historicalBackgroundOnly` | Explain lineage or terminology without carrying declared use being claimed. | Carry present-day prediction, decision, bridge, causal, assurance, or FPF-kind-governance use. |
+| `recognitionCue` | Help the reader notice an invariant, obstruction, symmetry, duality, state variable, scale cue, or comparison cue. | Stop at recognition; route any substantive claim to its direct pattern. |
+| `candidateLensPrompt` | Suggest a first candidate lens family or mathematical object to test against the problem cue being repaired. | Stop unless testing the candidate changes the next lens-use action. |
+| `adequacyControlSource` | Discipline preserved structure, lost structure, stop condition, validation regime, or neighboring-pattern application. | Keep the C.29 fields and direct subject pattern authoritative for the resulting claim. |
+| `validationBoundarySource` | Constrain the declared validation regime, evaluation slice, uncertainty, failure case, or domain of applicability. | Carry any evidence, benchmark, assurance, or release claim through its direct pattern. |
+| `acceptedDomainTheory` | Permit local use inside a domain where the theory is already the governing local formalism. | For cross-context use, apply `F.9`, the needed evidence relation, and a stop condition. |
+| `proofUnderAssumptions` | Justify a formal property under stated assumptions. | For real-world use, state the applicable assumptions, observations, bridge, and evidence relation. |
+| `negativeExample` | Expose failure, obstruction, non-transfer, counterexample, or stop condition. | Scope the result to the demonstrated failure and its return condition. |
+| `rivalLensSource` | Name a principal rival lens or relation that changes the bounded lens-use action being made. | Use the governing comparison or selection pattern when that broader claim is current. |
+| `sourceIdentityLocator` | Preserve source identity by value when a source is being cited or traced. | Carries identity and traceability for this use. |
+| `historicalBackgroundOnly` | Explain lineage or terminology. | A present-day claim requires its own current source-use relation and direct pattern. |
 | SoTA line | Selected action-guidance effect | Disposition |
 |---|---|---|
 | Applied category theory and compositionality | Use category-theoretic material for composition, interfaces, views, transformations, and transport discipline. Require named structure, preserved composition or interface, lost structure, and failed transfer. | **Adapt.** Useful for composition and interface questions when those structures matter to the stated use. |

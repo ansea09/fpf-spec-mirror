@@ -6,12 +6,12 @@ section_id: "E.9.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__005_solution.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:4 — Solution"
-line_start: 74114
-line_end: 74393
+line_start: 74141
+line_end: 74420
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -75,11 +75,11 @@ The following names support only the complete reusable-result branch. An ordinar
 | `DRRPrecisionRestorationProfile` | Compact scalar profile for DRR wording-use precision: word-use precision, phrase apparatus, repetition-and-distribution, ontic-slot clarity, description-publication-source boundary separation, and pattern-application ontology. It records overall effect, affected coordinates, selected concrete pattern or relation, and no-repair disposition with loci when clean. |
 | `DRRKindRestorationCheck` | Required pre-repair and post-repair object-kind, relation-or-claim-kind, current ontic slot, relation position, use relation, or claim kind, admissible-use, and scope check, or `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` disposition with loci, for any DRR wording, naming, or precision-restoration repair proposal. |
 | `DRROnticCandidateDisposition` | If the DRR selects, rejects, splits, or declines a candidate ontic, this names the candidate `EntityOfConcern`, sufficiency rationale, rejected alternatives, broad candidate-universe sanity sweep when the claim is broad, slot-relation boundary, description-publication boundary, and selected pattern placement by value. |
-| `CampaignProblemSolutionUnfoldingCheck` | Triggered carry-through check for DRRs that create or modify README entries, path-shaped patterns, pattern families, DPF entries, first-practical routes, or constraint-governed unfolding structures. It names admitted problem-side record refs or cues, accepted starting records, current starting structures, entry cues, selected solution architecture, affected unfolding families, loci and concrete-pattern or relation map added or changed, blocked overreads, and residue that must move from DRR or README into patterns or unfolding structures. |
-| `DRRDecisionAdequacyResultRef` | One C.2.1 result episteme whose EntityOfConcern is the exact checked DRR episteme and whose ClaimGraph states the required use and source, window, effective floor and its source, coordinate-result claims, bounded omitted-question-search disposition, local status, stop or repair condition, and bounded overread. It is not Method, application, Work, witness set, record, or authority. |
+| `CampaignProblemSolutionUnfoldingCheck` | Triggered carry-through check for DRRs that create or modify README entries, path-shaped patterns, pattern families, DPF entries, first-practical routes, or constraint-governed unfolding structures. It names admitted problem-side refs or cues, accepted starting records and structures, entry cues, selected solution architecture, affected unfolding families, changed loci and concrete-pattern or relation map, residue that must move from DRR or README into patterns, and any independently grounded overread that a plausible intended reader could make. |
+| `DRRDecisionAdequacyResultRef` | One C.2.1 result episteme whose EntityOfConcern is the exact checked DRR episteme and whose ClaimGraph states the required use and source, window, effective floor and source, coordinate-result claims, bounded omitted-question-search disposition, local status, first drafting action or repair, stop or return, reopen, and any grounded non-use boundary. Method, application, Work, witnesses, records, and later authority use remain separate objects or relations. |
 | `DRRDecisionAdequacyWitnessRefs` | Exact comparison, source, trace, case, or locus witnesses cited by result claims; witness presence is neither a value nor an evidence-use relation. |
 | `DRRDecisionAdequacyEvidenceUseRefs` | Exact A.10 evidence-use/provenance relations supporting reliance on result claims; they do not create those claims or the checked DRR. |
-| `DRRDecisionAdequacyRecordRef` | Optional C.2.1 record episteme that packages refs to the configuration and whichever of Method, application, Work admission, result, witness, evidence-use, non-use, and reopen values are actually current; it performs none of them and grants no status or authority. |
+| `DRRDecisionAdequacyRecordRef` | Optional C.2.1 record episteme that packages whichever configuration, Method, application, Work, result, witness, evidence-use, reopen, and grounded non-use refs are current. Its function is reference packaging; status and authority use their direct receiving relations. |
 | `DRRDecisionAdequacyStatus` | Local admissible-use value derived noncompensatorily from the required use and source, effective floor, coordinate values, and architecture or split blockers. Any F.10 status use or interpretation by a receiver is a separate relation. |
 
 These names are local evaluation positions and refs. They are not release state, review status, project evidence, gate result, assurance, work, publication, or pattern-quality values.
@@ -158,14 +158,14 @@ DRRDecisionAdequacyResultEpisteme:
     CampaignProblemSolutionUnfoldingCheck: <when triggered>
     DRRDecisionAdequacyStatus:
     FirstDraftingActionOrFirstRepair:
-    MostExpansiveNonAdmissibleOverread:
+    GroundedNonUseBoundary?: <only when an independent local ground makes one competing reading plausible and action-changing>
     StopOrRepairCondition:
     ReopenIf:
   WitnessRefs:
   EvidenceUseRelationRefs:
 ```
 
-An optional `DRRDecisionAdequacyRecordRef` may package refs to the configuration, semantic Method when used, assessment application when used, Work admission when asserted, result episteme, witnesses, evidence-use relations, publication, and currentness. Filling or publishing that record does not perform an application or Work, assign coordinate values, make evidence relevant, confer assurance, create an F.10 status use, accept the DRR, or authorize downstream drafting.
+An optional `DRRDecisionAdequacyRecordRef` packages the current references that its receiving use needs. Assessment, coordinate claims, status use, acceptance, and downstream authorization remain separate objects or relations.
 
 When a viewpoint or grounding claim matters to the reliance, name its basis separately. Evaluator identity, record packaging, and source labels do not by themselves give the result that viewpoint or grounding.
 
@@ -205,7 +205,7 @@ If an important omitted question is found, state it as a substantive finding bef
 | `DraftingActionability` | Does the DRR state the working problem, positive selected answer, practical change, selected-locus obligation, first drafting action, and nearest boundary plainly? For a broad authoring rule, does the actual predecessor/proposed host replay show that entry, action, result, and effort remain at least as usable? |
 | `LexicalAndNamingClosure` | Does actual proposed wording preserve the live kind, claim, relation, ordinary meaning, and first action under E.8 and F.19, using E.10, F.18, A.6.P, C.2.P, or the concrete defining or constraining pattern only where needed? |
 | `SoTAAndEvidenceUseInDecision` | Does each decision-governing source change a decision payload, and are non-SoTA source uses bounded? |
-| `ScopeBoundaryAndNonOverread` | Are outside-decision items, inadmissible overreads, source-use or missing-structure return conditions, and lost distinctions explicit without letting precision-restoration defects or architecture-memo leakage displace the selected answer? |
+| `ScopeBoundaryAndReturnClarity` | Are the selected decision scope, action-changing outside items, source-use or missing-structure return conditions, and lost distinctions explicit without letting precision-restoration defects or architecture-memo leakage displace the selected answer? When a specific competing reading is independently grounded and plausible, is the smallest needed correction stated? |
 | `ConsequencesAndRegressionCoverage` | Are costs, validation obligations, source-loss regressions, actual-host cases, preserved predecessor ideas, near misses, and true direct-consumer changes sufficient to protect drafting without demanding repeated full-corpus proof? |
 | `SiblingDecisionCoordination` | Is coordination with other `DRR`s, accepted decisions, or evaluation patterns explicit without duplication or weakening? |
 | `AdministrativeStateAndAuthoringHistorySeparation` | Are review logistics, packet state, landing, monolith placement, chat history, and authoring history kept out of decision evidence? |
@@ -238,7 +238,7 @@ The following are local conclusions for the exact checked DRR, required authorin
 
 | Status | Meaning |
 |---|---|
-| `admissibleForDeclaredAuthoringUse` | Every required coordinate meets its effective floor, no architecture or split blocker remains, and the bounded non-use is stated. The value alone neither accepts the DRR nor authorizes downstream work. |
+| `admissibleForDeclaredAuthoringUse` | Every required coordinate meets its effective floor, no architecture or split blocker remains, and the result states the first drafting action, stop or return, and reopen condition. Any downstream acceptance or authorization uses its own receiving relation. |
 | `newFrameRequired` | The DRR appears useful only for a different decision, authoring use, selected-locus set, source-use claim, or qualification window than the required one. This is not an admissible result for the current request; open a new `E.22` frame or repair the DRR. |
 | `repairBeforeDrafting` | One or more required coordinates fall below their effective floors for the required authoring use. |
 | `splitDecisionRequired` | Several coupled questions need separate decision records or explicit convergence before the current result can be admissible. |
@@ -246,7 +246,7 @@ The following are local conclusions for the exact checked DRR, required authorin
 
 The status rule is noncompensatory. A strong value on one coordinate cannot offset another required coordinate below its effective floor. An unresolved architecture blocker yields `holdForArchitectureDecision` regardless of the other values; a required split yields `splitDecisionRequired`; an easier or different use yields `newFrameRequired`. Otherwise any below-floor required coordinate yields `repairBeforeDrafting`. State the required-use source, effective floor, and floor source in either result form so another evaluator can reproduce the conclusion.
 
-A result carrying `admissibleForDeclaredAuthoringUse` states the first drafting action and most expansive non-admissible overread. A non-ready result states the first repair, split boundary, or architecture question. Neither an ordinary conclusion nor a separately constituted result episteme performs that repair or imposes a gate without a separately defined receiving relation.
+A result carrying `admissibleForDeclaredAuthoringUse` states the first drafting action, stop or return, and reopen condition. A non-ready result states the first repair, split boundary, or architecture question. Add a non-admissible reading only when an independent local ground makes it plausible and action-changing; any later gate or authorization uses a separately defined receiving relation.
 
 #### E.9.DA:4.6 - Compact result form
 
@@ -261,7 +261,7 @@ E.9.DA bounded review:
   Substantive result: <findings, including any answer-changing omitted question | repaired text | unchanged checked DRR when clean>
   Status:
   First drafting action or first repair:
-  Most expansive non-admissible overread:
+  Grounded non-use boundary?: <only when one is locally warranted>
   Reopen if:
 ```
 
@@ -283,7 +283,7 @@ E.9.DA reliance-bearing result:
   Coordinate table: <Coordinate | Value | ShortRationale | EvidenceLocus>
   Precision-restoration reading and triggered exact checks:
   Witness and evidence-use refs actually used by the reliance:
-  Status, first action or repair, bounded overread, and reopen condition:
+  Status, first action or repair, stop or return, reopen condition, and any grounded non-use boundary:
 ```
 
 Only this reliance-bearing branch requires every coordinate and the exact identities its receiving use consumes. Method, application, and Work refs remain independently conditional; asserting dated `U.Work` requires the Method, application, every precise performer's A.13 core, and independent A.15.1 admission from the branch in 4.2. F.6 is additionally required only when the result asserts precise assignment-bound attribution. A downstream status use, assurance, E.19 admission, authority, or drafting permission remains a separate claim with its own defining or constraining pattern.

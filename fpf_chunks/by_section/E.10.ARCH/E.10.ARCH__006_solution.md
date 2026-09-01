@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0.4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__006_solution.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:0.4 — Solution"
-line_start: 76891
-line_end: 76894
+line_start: 76916
+line_end: 76919
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,6 +47,7 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
+  - "E.10.DEV"
   - "E.10.MOVE"
   - "E.11"
   - "E.18"
@@ -66,5 +67,5 @@ keywords:
 
 ### E.10.ARCH:0.4 - Solution
 
-Use `E.10` for recognition and `E.10.ARCH` for the shared distribution architecture. Once the object, relation, or claim is recovered, use its defining, constraining, or testing rule and cite the pattern that contains it. Add an applicability row only when recurring wording hides a stable recovery shape and a useful surviving reader use that no existing rule already carries.
+Use `F.19` for the normal whole-span repair, `E.10` for compact recognition and routing, and `E.10.ARCH` only for the unresolved ontology that remains. Once the object, relation, or claim is recovered, use its defining, constraining, or testing rule and cite the pattern that contains it. Add an applicability row only when recurring wording hides a stable recovery shape and a useful reader use that no existing rule already carries.
 

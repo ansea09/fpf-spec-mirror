@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__018_conformance-checklist.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:10 — Conformance Checklist"
-line_start: 77139
-line_end: 77163
+line_start: 77168
+line_end: 77192
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,6 +47,7 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
+  - "E.10.DEV"
   - "E.10.MOVE"
   - "E.11"
   - "E.18"
@@ -69,10 +70,10 @@ keywords:
 | Check | Observable conformance condition |
 | --- | --- |
 | `CC-E10ARCH-1` | `E.10` remains the compact trigger-and-applicability description; the rule content located at `E.10.ARCH` states the shared algorithm and applicability-row architecture. |
-| `CC-E10ARCH-2` | Each applicability row is an authoring/publication construct whose minimum content is recurring wording, exact recovered object, exact claim or use, exact subject assertion, `subjectPatternLocator`, repaired wording, surviving reader use, and blocked stronger reading. Optional declaration, designation, reference, publication, and representation fields appear only when current. Ordinary engineers are not required to fill the row. |
+| `CC-E10ARCH-2` | Each applicability row is an authoring/publication construct whose minimum content is recurring wording, exact recovered object, exact claim or use, exact subject assertion, `subjectPatternLocator`, repaired wording, and reader use. Optional declaration, designation, reference, publication, and representation fields appear only when current. A negative boundary appears only when independent local evidence makes the exact rival reading plausible to the intended reader and deleting it changes use. Ordinary engineers are not required to fill the row. |
 | `CC-E10ARCH-3` | Direct known cases bypass restoration. The installed-bearing report, C.29 graph edge, reusable `ParticipantSlot`, and source-word `input` cases preserve direct relation, assertion, declaration, actual participant, representation, method/work/transformation/result, and subject-pattern boundaries. |
 | `CC-E10ARCH-4` | A new realization pattern is added only when no existing defining or constraining `ClaimGraph` and subject-pattern guidance supply the stable recovery shape without duplicating repair-only doctrine. Neither the locator nor that guidance establishes a `U.Method` or qualifying `U.MethodDescription`. |
-| `CC-E10ARCH-5` | Each subject description keeps its primary `EntityOfConcern` and first useful move central and retains only thin first-use cues to precision restoration when wording is hidden. Generic guards about description and publication use stay in a named boundary section or in exact description/publication-use rule content; they do not become the subject Solution. |
+| `CC-E10ARCH-5` | Each subject description keeps its primary `EntityOfConcern` and first useful move central and retains only thin first-use cues to precision restoration when wording is hidden. A guard about description or publication use appears only under the `F.19` plausible-intended-reader test and stays with the exact rule whose use it changes; it does not become the subject Solution. |
 | `CC-E10ARCH-6` | `reading`, `read`, and `quality-read` wording remains trigger wording and does not mint `ReadingPrecisionRestoration`. |
 | `CC-E10ARCH-6a` | EntityOfConcern-like hidden fields follow the selected rule-content split: `E.10` recognizes the wording-use row; the defining `ClaimGraph` located at `C.2.1` states episteme identity and the identified `EntityOfConcern` participant; A.6.5 rule content defines `EntityOfConcernSlot` only as a `SlotSpec` inside a reusable constitution `RelationSignature`; direct-reference `ClaimGraph` sources define or constrain `entityOfConcernRef`, `EntityOfConcernRef`, and related reference uses; `C.2.P` supplies the recovery rule and practical guidance for episteme, publication, source-wording, and source-relation wording; `F.18` settles durable heads and source-string decisions; `E.17.AUD.OOTD` rule content states publication-unit primary entity of concern; and every remaining claim or admissible-use boundary is a separate exact subject assertion. Neither declaration nor designation constitutes the participant, and selecting `C.2.P` establishes neither a `U.Method` nor a `U.MethodDescription`. |
 | `CC-E10ARCH-6b` | State-family wording follows one path: E.10 recognizes it; E.10.MOVE first resolves ambiguous readiness-like wording; A.19.SPR repairs only a remaining hidden object or state frame; and the direct pattern states the recovered relation, assertion, result, decision, or field. A predicate appears only when that direct pattern defines or needs one. |
@@ -85,7 +86,7 @@ keywords:
 | `CC-E10ARCH-6i` | Work and Method boundary wording uses `C.2.P` first for an epistemic source side, bypasses to a clear defining or testing rule, and otherwise uses `A.6.P.WMR` for exactly one of its four result families. Use `F.18` to name performed Work only after occurrence grounding. Classification, a generic result label, or a designation that merely type-checks against a declaration does not close the case. |
 | `CC-E10ARCH-7` | `function`, `functional`, `functionality`, and `effect` wording keeps `A.6.F` as first unpacker when the governed FPF object, direct relation, claim-bearing episteme, view, or defining or testing rule is hidden; it does not default to architecture. |
 | `CC-E10ARCH-8` | `semanticArea`, `ontologicalNeighborhood`, and `pattern nest` follow `E.8` placement discipline: `semanticArea` is the Part-F semantic unit, `ontologicalNeighborhood` is its applicability neighborhood, and `pattern nest` is placement. None of them becomes workstream, campaign, module, or authority-bearing record. |
-| `CC-E10ARCH-9` | Repair removes overread and preserves one useful admissible reader use. Type-correct but inert wording is not recovered by value. |
+| `CC-E10ARCH-9` | Repair states one useful reader use positively and adds a negative boundary only when the `F.19` plausible-intended-reader test warrants it. Type-correct but inert wording is not recovered by value. |
 | `CC-E10ARCH-10` | Validation covers duplicate recognition tables, broad placeholder heads, declaration/participant collapse, representation-as-obtaining, one-description/many-object collapse, optional apparatus without a receiver, practitioner-row bureaucracy, shadow restoration apparatus, and entry or index drift. |
 | `CC-E10ARCH-11` | A DPF-local entry begins only from a demonstrated recurring wording problem and identifies the DPF claim, DPF edition, defining or constraining rule, and the PatternID that locates that rule. The entry stays beside the claim whose wording it restores; `F.19` supplies the final rewrite. A separate profile is a claim-bearing episteme with a named receiving use and edition, and exists only when several entries are maintained together; any table that publishes it remains a publication form. No domain trigger is copied into the FPF-wide table, and wording repair does not establish or revise domain doctrine. |
 

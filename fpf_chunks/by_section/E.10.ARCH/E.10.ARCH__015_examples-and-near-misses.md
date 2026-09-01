@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:9"
 section_title: "Examples and near misses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_examples-and-near-misses.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:9 — Examples and near misses"
-line_start: 77103
-line_end: 77125
+line_start: 77132
+line_end: 77154
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,6 +47,7 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
+  - "E.10.DEV"
   - "E.10.MOVE"
   - "E.11"
   - "E.18"
@@ -66,7 +67,7 @@ keywords:
 
 ### E.10.ARCH:9 - Examples and near misses
 
-| Wording | Applicable result | Blocked overread |
+| Wording | Applicable result | Grounded distinction in this near-miss |
 | --- | --- | --- |
 | `MaintenanceReport_42` says “Bearing_B is installed in Pump_P.” | The exact mereology predicate is already clear, so bypass E.10.ARCH. State `Bearing_B isPartOf Pump_P`; keep `MaintenanceReport_42` as the claim-bearing episteme that asserts that exact predicate. If a named later use needs occurrence identity, identify the obtaining parthood occurrence or its temporal extent under the exact defining `ClaimGraph`. If it instead needs the installation act that established the condition, first identify a separate dated Work occurrence under A.15.1. Add an actual transformation under A.3.4 only when a current claim says that the installation changed a continuing referent, and state the exact direct relation between Work and transformation when that relation is also claimed. Neither object nor their coexistence is the parthood occurrence or supplies that relation. | report-as-relation; assertion-as-obtaining; report fields as world-side participants; parthood occurrence as installation Work or transformation. |
 | Graph edge `Edge_17(Bearing_B, Pump_P)` presents that assertion. | The representation use is already clear, so bypass E.10.ARCH to C.29. Keep `Edge_17` as a representation element with an explicit correspondence to the represented assertion or direct-relation claim; the edge does not make `Bearing_B isPartOf Pump_P` obtain or identify its occurrence. | edge-as-world-relation; adjacency-as-obtaining; graph identity as relation-occurrence identity. |

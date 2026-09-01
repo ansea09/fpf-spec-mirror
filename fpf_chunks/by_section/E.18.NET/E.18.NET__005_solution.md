@@ -6,12 +6,12 @@ section_id: "E.18.NET:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__005_solution.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:4 — Solution"
-line_start: 87083
-line_end: 87225
+line_start: 87123
+line_end: 87265
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -57,9 +57,9 @@ StructureIdentity(N) = <
 
 The four field names have the same meanings as in the first-use result: exact direct members, exact selected obtaining cross-flow occurrence refs, exact applied network constraints, and one concrete use frame. `returnCondition` is not a fifth identity discriminator; it records when the current use must return and reselect.
 
-The direct-member set contains at least two exact values. Each member is one independently identified `TransformationFlowStructure` or one independently identified E.18.NET-conforming `TransformationFlowStructureNetwork`. At least one selected relation occurrence binds positions in different direct members or in different leaf TFS members reached through them. The use frame says what the practitioner will decide or do with this selected organization and names the forbidden overread. “Current use”, “appropriate network”, and the title of a diagram are not use frames.
+The direct-member set contains at least two independently identified TFS or E.18.NET-conforming network values, and at least one selected relation occurrence binds positions across their member boundaries. The use frame states the practical question or action and admissible use; add a grounded forbidden overread only when the current representation supplies it.
 
-A row in a record does not create a member or make membership obtain. This profile needs no generic `networkMemberOf` relation. If a future receiver needs a separately re-identifiable world-side membership occurrence, reopen that relation question under A.6.RCD; do not infer it from the member list.
+Use the direct-member discriminator for network membership. Introduce a separately re-identifiable world-side membership relation only when a future receiver needs it and can supply its participants, predicate, and identity rule through A.6.RCD or a direct relation pattern.
 
 #### E.18.NET:4.2 - Reidentification and change locality
 

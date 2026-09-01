@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:1"
 section_title: "Primary EntityOfConcern and applicability-row scope"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__007_primary-entityofconcern-and-applicability-row-scope.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:1 — Primary EntityOfConcern and applicability-row scope"
-line_start: 76895
-line_end: 76924
+line_start: 76920
+line_end: 76950
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,6 +47,7 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
+  - "E.10.DEV"
   - "E.10.MOVE"
   - "E.11"
   - "E.18"
@@ -74,9 +75,10 @@ A row may use `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamil
 - the exact governed entity, value, episteme, obtaining direct relation, or representation exposed by that use;
 - the exact claim or use being made;
 - the rule that defines or constrains that object, relation, or representation, and the pattern ID that locates the rule;
-- the repaired wording;
-- the admissible reader use that survives; and
-- the blocked stronger reading.
+- the repaired wording; and
+- the reader use that the repair enables.
+
+A negative boundary is not row-minimum content. Add one only when independent local evidence makes the exact rival reading plausible to the intended reader and deleting the boundary would change understanding, selection, safety, reliance, stop, or action. State it once and in the smallest useful form.
 
 Declaration, designation, reference, publication, or representation fields are optional and appear only when the current repair needs them. A reusable relation declaration names its `RelationSignature` and A.6.5 `SlotSpec` values. A current assertion or relation-occurrence-description episteme may carry participant designations. A publication form or C.29 representation element names its represented object and explicit correspondence. An E.24 `onticSlotRelation` appears only when durable ontic settlement is itself current. None of these optional objects becomes a field of the governed entity merely because the authoring row cites it.
 

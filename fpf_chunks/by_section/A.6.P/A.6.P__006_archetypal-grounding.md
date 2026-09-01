@@ -6,12 +6,12 @@ section_id: "A.6.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__006_archetypal-grounding.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:5 — Archetypal Grounding"
-line_start: 16296
-line_end: 16351
+line_start: 16300
+line_end: 16355
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -86,7 +86,7 @@ Add an occurrence designator only if the next decision must distinguish two conf
 
 #### A.6.P:5.4 - Method, Work, system-role objects, and agency
 
-The sentence `the inspection method checks Pump_P` uses active grammar. The repaired ontology first says that admitted `System_S` has the A.13 core for inspection: it is independently classified under local kind `InspectorSystemRole` and holds obtaining `InspectionAssignment-17` of declared `MaintenanceInspectionAssignment` species for the stated scope and window. A.15.1 then independently admits `InspectionWork_W` and its `enactsMethod(InspectionWork_W, InspectionMethod_M)` relation; the examination relation separately connects the Work to `Pump_P`. Because this worked account expressly states under which assignment the inspection was performed, F.6 then establishes `performedUnderAssignment(InspectionWork_W, InspectionAssignment-17)` and checks the already recovered performer against the holder. If that F.6 relation were unsupported, the Work would remain and only its assignment-bound attribution would be unresolved. Taxonomy episteme and reference scheme may interpret the assertion but are not assignment participants. Only the holder System acts; the local kind and assignment do not.
+The sentence `the inspection method checks Pump_P` uses active grammar. Recover admitted `System_S` as the precise performer through its A.13 core, independently admit `InspectionWork_W` and `enactsMethod(InspectionWork_W, InspectionMethod_M)` under A.15.1, and state the examination relation from the Work to `Pump_P`. Because this account also needs assignment-bound attribution, F.6 tests `performedUnderAssignment(InspectionWork_W, InspectionAssignment-17)` against the already recovered performer and assignment. If that attribution remains unsupported, retain the Work and mark only the assignment-bound attribution unresolved. The actor claim names the holder System; the local kind and assignment supply classification and attribution.
 
 #### A.6.P:5.5 - Formal reduced case
 

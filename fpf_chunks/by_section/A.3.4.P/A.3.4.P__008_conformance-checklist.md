@@ -6,12 +6,12 @@ section_id: "A.3.4.P:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__008_conformance-checklist.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:7 — Conformance Checklist"
-line_start: 9848
-line_end: 9862
+line_start: 9852
+line_end: 9866
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,11 +50,11 @@ keywords:
 | `CC-A34P-1` | The repair names the encountered wording and the working concern before selecting a replacement. |
 | `CC-A34P-2` | If one actual bounded transformation is current, the repair names or blocks its exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification basis. |
 | `CC-A34P-3` | Each neighboring object keeps its own kind and is connected only by an exact current relation to the transformation, changed referent, work, architecture candidate, or receiving use. |
-| `CC-A34P-4` | `TransformationFlowStructure`, graph mathematical description, path mathematical description, and subject-domain network or circuit wording are kept distinct. The selected structure positions, relates, or locates transformation loci and adjacent governed values; selection or common membership establishes neither transformation composition, parthood, nor partlessness. |
+| `CC-A34P-4` | `TransformationFlowStructure`, graph mathematical description, path mathematical description, and subject-domain network or circuit wording are kept distinct. The selected structure positions, relates, or locates transformation loci and adjacent governed values; composition, parthood, and partlessness require their direct predicates. |
 | `CC-A34P-5` | Method, method description, mechanism, work plan, dated work, evidence, gate, decision, assurance, result, source, and publication claims remain with their subject patterns. |
 | `CC-A34P-6` | Function-like wording closes here only after the actual transformation, performed-work attribution or other exact actor-side relation, every influence source's exact kind and relation, and exact boundary relations are distinguished; detailed function-kind discrimination remains governed by `A.6.F`. |
-| `CC-A34P-7` | The repair leaves retained use, blocked overread, and remaining reader use by value. |
+| `CC-A34P-7` | The repair leaves retained use, stop or return condition, and remaining reader use by value; a grounded blocked overread appears only when the current wording supplies it. |
 | `CC-A34P-8` | The repair order is explicit: `E.10` recognizes the wording, `A.3.4.P` restores the transformation ontic neighborhood, and neighboring patterns define or constrain recovered objects and exact relations. |
-| `CC-A34P-9` | A performed-Work actor claim recovers each precise performer's A.13 core and independently admits the Work under A.15.1; it adds F.6 only when precise assignment-bound attribution is current and separately names the Work-to-change relation required by the use. A non-Work actor claim names another exact direct actor-side relation. Assignment or generic participation alone proves neither. |
+| `CC-A34P-9` | A performed-Work actor claim recovers each precise performer's A.13 core, independently admits the Work under A.15.1, adds F.6 only when assignment-bound attribution is current, and names the Work-to-change relation. A non-Work actor claim names another exact direct actor-side relation. |
 | `CC-A34P-10` | Possible, intended, planned, modelled, predicted, and merely asserted change stays claim content; any C.2.1 empirical grounding is optional, separate, and not the actual occurrence basis. |
 

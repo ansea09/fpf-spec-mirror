@@ -6,12 +6,12 @@ section_id: "E.4.FPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70298
-line_end: 70313
+line_start: 70334
+line_end: 70349
 dependencies:
   - "C.33"
   - "C.34"
@@ -31,6 +31,7 @@ dependencies:
   - "E.4.PFR"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
   - "G.11"
   - "G.2"
   - "I.2"

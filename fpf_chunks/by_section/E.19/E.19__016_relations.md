@@ -6,12 +6,12 @@ section_id: "E.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__016_relations.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:12 — Relations"
-line_start: 88187
-line_end: 88220
+line_start: 88228
+line_end: 88262
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -40,8 +40,9 @@ keywords:
 * **Builds on:**
 
   * `E.8` (authoring conventions; canonical section order; SoTA-Echoing authoring requirements)
-  * `E.10` (lexical discipline, trigger detection, and applicability)
-  * `E.10.ARCH` (distributed precision-restoration architecture and realization-pattern split)
+  * `F.19` (common whole-span precise-language repair, plausible-intended-reader guard test, coordination and list contribution, and local semantic reread after wording change)
+  * `E.10` (compact lexical cues and exact FPF routing)
+  * `E.10.ARCH` (deep-only ontological recovery architecture after `F.19` and `E.10` leave an unresolved FPF object or relation)
   * `E.9` (design rationale records for changes that affect semantics)
   * `E.9.DA` (content-first adequacy check for one exact DRR before pattern drafting or host amendment. An ordinary bounded check returns precise findings or repaired text; a full coordinate result and exact assessment identities are added only when explicitly requested or used by a named later reliance. An E.19 finding may expose an upstream DRR defect, but an E.19 pass, return, or absence is not E.9.DA evidence.)
   * `E.22` (improvement-oriented quality-evaluation question framing; distinguishes floor blocker review, exceptional-improvement review, Pareto trade-off inspection, open-question discovery, and absorption impact before an E.19 review result is formed.)

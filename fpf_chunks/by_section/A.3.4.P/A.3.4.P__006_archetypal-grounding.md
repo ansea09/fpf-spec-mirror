@@ -6,12 +6,12 @@ section_id: "A.3.4.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__006_archetypal-grounding.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:5 — Archetypal Grounding"
-line_start: 9792
-line_end: 9835
+line_start: 9796
+line_end: 9839
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -76,14 +76,14 @@ TransformationWordingRepair:
   EncounteredWording: "the refrigeration circuit moves heat through the cycle"
   WorkingConcern: recover whether the sentence is about one bounded heat-transfer change, a selected compound transformation-flow structure, a thermodynamic mechanism, a functional architecture view, or a schematic publication.
   RecoveredEntityOfConcern: `RefrigeratorHeatTransferFlowStructure-1`, the exact selected `TransformationFlowStructure` over the compressor, condenser, expansion, and evaporator transformation loci.
-  ActualTransformationDisposition: no actual bounded transformation is recovered; `RefrigeratorHeatTransferFlowStructure-1` is the exact current object, and its selection establishes neither transformation composition nor partlessness.
-  TransformationOccurrenceBasis: no component transformation occurrence is asserted; each remains unresolved until its exact changed referent, boundary, boundary conditions, actual subject facts, and continuity or reidentification basis are recovered.
-  ActingSystemDisposition: unresolved and not asserted; the circuit wording supplies no A.13 core for a precise performer, no independent A.15.1 Work admission, no required later F.6 attribution, no separate Work-to-change relation, and no non-Work direct actor-side relation.
-  ArchitectureInfluenceDisposition: no influence claim is current and no influence source is selected; any later source must first keep its exact kind and then receive only its exact architecture, work, communication, constraint, or candidate-synthesis relation.
+  ActualTransformationDisposition: no actual bounded transformation is recovered; the current object is the selected `RefrigeratorHeatTransferFlowStructure-1`, while transformation composition and partlessness remain unresolved.
+  TransformationOccurrenceBasis: unresolved; before asserting a component occurrence, recover its exact changed referent, boundary, boundary conditions, actual subject facts, and continuity or reidentification basis.
+  ActingSystemDisposition: unresolved; an actor-side claim requires a precise performer with its A.13 core and independently admitted Work plus the needed Work-to-change relation, or another direct actor-side relation.
+  ArchitectureInfluenceDisposition: no influence claim is current; when one becomes current, identify the source by its exact kind and relation.
   NeighboringClaimAndExactRelation: the four named transformation loci are positions in `RefrigeratorHeatTransferFlowStructure-1`; their exact transformation occurrences and structure-membership relations remain to be recovered under `E.18` and `A.3.4`. Thermodynamic-law material, functional view, and schematic publication remain unselected neighboring candidates.
   GoverningPattern: `E.18` governs `RefrigeratorHeatTransferFlowStructure-1`; `A.3.4` governs each component transformation only after its occurrence basis is recovered; mechanism, architecture-view, and publication patterns open only if one of those candidate objects becomes current.
   RetainedUse: "circuit" may remain ordinary domain wording for `RefrigeratorHeatTransferFlowStructure-1` after that exact selected structure is named.
-  BlockedOverread: `RefrigeratorHeatTransferFlowStructure-1` is not proof of functioning, an actor, dated work, a gate decision, one actual transformation, or transformation composition; its component loci do not establish component occurrences, parthood, or partlessness.
+  StopOrReturnCondition: keep the current use on `RefrigeratorHeatTransferFlowStructure-1`; return to A.3.4 only for a component with a recovered occurrence basis, and route any other stronger claim to its direct pattern.
   RemainingReaderUse: use `E.18` for `RefrigeratorHeatTransferFlowStructure-1`; open `A.3.4` only for a component whose exact occurrence basis is recovered, or the direct mechanism, architecture-view, or publication pattern only when that separate object becomes current.
 ```
 

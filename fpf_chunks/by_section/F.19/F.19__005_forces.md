@@ -6,12 +6,12 @@ section_id: "F.19:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__005_forces.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:3 — Forces"
-line_start: 100084
-line_end: 100094
+line_start: 100116
+line_end: 100127
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -37,10 +37,11 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| Plain wording vs ontology | Short prose helps readers, but careless simplification erases kinds, slots, relation positions, use relations, system-role kinds, classification judgments, assignment occurrences, function or functioning claims, ordinary meanings, or claim boundaries. |
-| Precision vs apparatus | Technical precision needs kind recovery, but extra role, record, card, table, schema, data-structure wrapping, locus, flow, status, and process words can bury the claim. |
-| Local repair vs semantic change | Some extra words are boilerplate; others carry a hidden kind, relation, current ontic slot, relation position, use relation, evidence-use relation, or admissible-use boundary. |
-| Flow separation vs readable prose | Development, evaluation, projection, and use flows must stay distinct without making every sentence narrate those flows. |
-| Reuse vs repetition | References to related patterns matter, but repeated "if X, apply Y" prose can become reference fanout. |
-| Plainness vs synonym churn | Plain prose should reduce apparatus, not create a new set of loose paraphrases for established FPF terms. |
+| Plain wording vs technical meaning | Shorter prose helps only if object kinds, relations, uses, claim boundaries, and action-changing detail survive. |
+| Local truth vs useful contribution | A clause can be true and type-compatible while answering no live question and displacing the positive path. |
+| Explicitness vs ordinary recovery | Missing operands and referents can make a puzzle, but repeating every complement or formal identity makes ordinary prose harder to think with. |
+| Guarding vs invented foils | A grounded warning or non-use boundary can prevent harm; an imaginable but unsupported mistake creates noise and teaches defensive style. |
+| Enumeration vs governing message | Lists can encode required membership or alternatives; accumulation can also replace the proposition or postpone the action. |
+| Portability vs local language needs | Predicate, participant, kind, referent, contribution, and list questions travel across languages; morphology and idiom remain local. |
+| Reviewability vs bureaucracy | A disputed or high-risk rewrite may need comparison evidence; ordinary correction should produce repaired text, not a ledger. |
 

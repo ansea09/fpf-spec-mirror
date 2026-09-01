@@ -6,12 +6,12 @@ section_id: "C.36:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__005_solution.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:4 — Solution"
-line_start: 67361
-line_end: 67485
+line_start: 67372
+line_end: 67499
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,6 +44,8 @@ dependencies:
   - "C.36.P"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.DEV"
+  - "E.10.MOVE"
   - "E.10.ROLE"
   - "E.18"
   - "E.18.1"
@@ -162,10 +164,13 @@ For archive or pool treatment use C.18 or C.19; for a selected-set result use G.
 
 #### C.36:4.3 - Evolution Sense Split
 
-Use this split before applying the pattern:
+When generic *development* or *evolution* wording still hides the changed or represented subject, needed continuity or membership, posture, direction or value basis, or direct owner, enter through `E.10.DEV` before this split. A recovered cultural-population or discipline-facing variant claim may continue here. A non-cultural population or lineage without an admitted owner remains the exact architecture gap returned by `E.10.DEV`; do not substitute C.36. Open `E.10.MOVE` afterward only when a separately relied-on trajectory, route, path, ordering, posture, or representation ambiguity remains.
+
+Then use this cultural split:
 
 | Current question | Use |
 |---|---|
+| Generic development or evolution wording still hides the changed or represented subject, continuity or membership, posture, direction or value basis, or direct owner. | Use `E.10.DEV` first; return to C.36 only if the recovered claim is cultural-population or discipline-facing cultural evolution. |
 | A bounded entity changes under conditions. | `A.3.4 U.Transformation`. |
 | A temporal aspect, currentness window, rhythm, cadence, or authored temporal claim is current. | `C.27.TA`, `C.27`, or `A.3.3` according to the claim. |
 | An engineering project manages an evolving archive, front, current pool, selected set, edition lineage, or family of variants. | `C.18`, `C.19`, `G.5`, `G.11`, and `E.18.1`. |

@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 75464
-line_end: 75632
+line_start: 75240
+line_end: 75408
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,6 +39,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.10.D1"
+  - "E.10.DEV"
   - "E.10.LRN"
   - "E.10.MOVE"
   - "E.10.ROLE"
@@ -214,8 +215,8 @@ Plain twins are **not portable by spelling**. Reuse under another local meaning 
 At first occurrence in a document or screen, show a plain twin as **“Plain twin [Tech designation] — local gloss”**, for example:
 “**Transformer (system role)** \[**TransformerSystemRole**] — *one local kind for systems already admitted under A.1 and eligible for the stated transformer assignments in `OR_2025`; classification creates neither an assignment nor Work. An assignment claim names both an A.2.1 occurrence and its declared `U.SystemRoleAssignment` species*”.
 
-**CC-TWIN-8 - Normative publication-form overread ban.**
-Plain twins are not admitted in **Conformance Checklists, predicates, type signatures, or acceptance clauses**. Only Tech names are normative; Plain twins are strictly didactic.
+**CC-TWIN-8 - Normative and didactic placement.**
+Use Tech names in **Conformance Checklists, predicates, type signatures, and acceptance clauses**. Reserve Plain twins for didactic use.
 
 **CC‑TWIN‑9 - Twin budget.**
 **At most one** plain twin per Tech designation for one stated local meaning and didactic use. Synonym piles are non-conformant because they create uncontrolled vocabulary sprawl (see F.14).

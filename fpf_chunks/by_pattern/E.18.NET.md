@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.NET.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
-line_start: 87005
-line_end: 87417
+line_start: 87044
+line_end: 87457
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -66,7 +66,8 @@ selectedCrossFlowRelationOccurrenceRefs[]: exact selected obtaining cross-flow r
 selectedNetworkConstraintRefs[]: exact applied endpoint, boundary-exposure, and acyclic direct-member constraints
 networkUseFrame:
   questionOrAction: the concrete question answered or action enabled
-  forbiddenOverread: what this selection does not establish
+  admissibleUse: how the selected organization is used
+  groundedForbiddenOverread?: only when the current representation supplies one exact inference
 returnCondition: the first member, relation, constraint, or use-frame change that reopens selection
 ```
 
@@ -134,9 +135,9 @@ StructureIdentity(N) = <
 
 The four field names have the same meanings as in the first-use result: exact direct members, exact selected obtaining cross-flow occurrence refs, exact applied network constraints, and one concrete use frame. `returnCondition` is not a fifth identity discriminator; it records when the current use must return and reselect.
 
-The direct-member set contains at least two exact values. Each member is one independently identified `TransformationFlowStructure` or one independently identified E.18.NET-conforming `TransformationFlowStructureNetwork`. At least one selected relation occurrence binds positions in different direct members or in different leaf TFS members reached through them. The use frame says what the practitioner will decide or do with this selected organization and names the forbidden overread. “Current use”, “appropriate network”, and the title of a diagram are not use frames.
+The direct-member set contains at least two independently identified TFS or E.18.NET-conforming network values, and at least one selected relation occurrence binds positions across their member boundaries. The use frame states the practical question or action and admissible use; add a grounded forbidden overread only when the current representation supplies it.
 
-A row in a record does not create a member or make membership obtain. This profile needs no generic `networkMemberOf` relation. If a future receiver needs a separately re-identifiable world-side membership occurrence, reopen that relation question under A.6.RCD; do not infer it from the member list.
+Use the direct-member discriminator for network membership. Introduce a separately re-identifiable world-side membership relation only when a future receiver needs it and can supply its participants, predicate, and identity rule through A.6.RCD or a direct relation pattern.
 
 #### E.18.NET:4.2 - Reidentification and change locality
 
@@ -281,7 +282,7 @@ selectedNetworkConstraintRefs[]:
   - AcyclicDirectMemberConstraint@RoasteryCafe
 networkUseFrame:
   questionOrAction: decide which accepted stock can enter the coffee-service brewing flow
-  forbiddenOverread: shared coffee does not make both members one TFS or make supply a generic edge
+  admissibleUse: use the selected supply relation to choose accepted coffee stock for the brewing flow
 returnCondition: either member, the supply occurrence, an endpoint or exposure, acyclicity, or the coffee-service question changes
 ```
 

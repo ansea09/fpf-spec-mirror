@@ -6,12 +6,12 @@ section_id: "F.19:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__012_rationale.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:10 — Rationale"
-line_start: 100232
-line_end: 100241
+line_start: 100261
+line_end: 100266
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -35,11 +35,7 @@ keywords:
 
 ### F.19:10 - Rationale
 
-Plain technical style in FPF is not a separate aesthetic layer. It is the visible result of ontology-first repair with less apparatus. The order matters:
+Precise plain language has two obligations. The sentence must be semantically complete enough to recover its predicates, participants, referents, kinds, and operational detail. Every additional structure must also earn its place by changing understanding or use for the intended reader. Either obligation alone is insufficient: a fully typed sentence can still be noise, and a short sentence can still hide its object.
 
-1. remove or move boilerplate;
-2. restore remaining wording, names, relations, slots, and uses through the specific pattern contribution needed by the claim;
-3. write the shortest sentence that keeps the recovered meaning.
-
-Putting `F.19` beside wording-use restoration keeps `E.10` from becoming a phrase-style super-pattern. `E.10` catches words and heads whose kind or use is hidden; `E.10.ROLE` and `A.6.F` recover the actual role- or function-shaped claim. `F.19` catches the earlier phrase-level problem: content may not be visible until process, label, status, reference, quality, or negative-catalogue apparatus is removed.
+The order of repair therefore matters: recover the governing message and relations, remove unsupported structure and displaced apparatus, then write the shortest ordinary sentence that preserves the live meaning. `E.10` remains a cue and a route for unresolved FPF wording; it is not a rival normal-pass algorithm. Attention management remains outside the language pattern.
 

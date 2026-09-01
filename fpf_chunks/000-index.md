@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `0c3ef3d3921bb3176096e3e6102dd819c42f6446`
+Commit SHA: `434e17ec848bb7f49e6da99dfc268effb2b5b9af`
 
 Chunking method: `pattern-aware`
 
-Patterns: `311`
+Patterns: `312`
 
 ## Patterns
 
@@ -242,6 +242,7 @@ Patterns: `311`
 - [E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace](by_pattern/E.9.DA.md)
 - [E.10 — Unified Lexical Rules for FPF](by_pattern/E.10.md)
 - [E.10.LRN — Recovering What “Learning” Means in the Current Claim](by_pattern/E.10.LRN.md)
+- [E.10.DEV — Recovering What Development or Evolution Means in the Current Claim](by_pattern/E.10.DEV.md)
 - [E.10.MOVE — Move and Readiness Wording Precision Restoration](by_pattern/E.10.MOVE.md)
 - [E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture](by_pattern/E.10.ARCH.md)
 - [E.10.ROLE — Recovering What “Role” Means in the Current Claim](by_pattern/E.10.ROLE.md)

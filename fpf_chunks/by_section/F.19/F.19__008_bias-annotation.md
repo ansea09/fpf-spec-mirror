@@ -6,12 +6,12 @@ section_id: "F.19:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__008_bias-annotation.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:6 — Bias-Annotation"
-line_start: 100176
-line_end: 100184
+line_start: 100213
+line_end: 100224
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -35,10 +35,13 @@ keywords:
 
 ### F.19:6 - Bias-Annotation
 
-`F.19` deliberately biases toward shorter, reader-facing prose. The protected value is kind-preserving clarity, not brevity by itself. A rewrite that removes terms while losing object kind, relation kind, current ontic slot, relation position, use relation, source-use relation, or admissible-use boundary is worse than the original.
+`F.19` deliberately biases toward direct, reader-usable technical prose. The protected value is kind-preserving clarity, not brevity by itself. A longer rewrite is better when it restores a participant, relation, boundary, or operational detail that the declared use needs.
 
-`F.19` also protects against two common reviewer biases:
-
-- **unsupported-negative-classification bias:** introducing one or more alternative classes only so the sentence can reject them;
-- **apparatus-preservation bias:** replacing one process, role, record, card, table, schema, data-structure wrapper, locus, flow, status, or quality-proof phrase with another phrase that still hides the object.
+| Likely bias | Failure | Countermove |
+|---|---|---|
+| Formal-completeness bias | Symmetrical contrasts, caveats, and lists look rigorous although they add no supported distinction. | Apply the contribution test and state the positive path first. |
+| Adversarial-reader bias | Any imaginable mistake is treated as a reason for a guard. | Require an independent ground and a plausible intended reader. |
+| Apparatus-preservation bias | A process, status, record, card, schema, or quality-proof phrase is replaced by another wrapper. | Recover the object and action, then remove or move the wrapper. |
+| Overformalization bias | Clear metonymy, ellipsis, or a PatternID citation expands into type labels and Work machinery. | Formalize only a live distinction or unresolved relation. |
+| Genre-flattening bias | Useful rhythm, evocation, or deliberate ambiguity is treated as defective technical accumulation. | Apply `F.19` only where precise technical recognition or action is the declared use. |
 

@@ -6,16 +6,15 @@ section_id: "E.8:5"
 section_title: "Archetypal Grounding (System and Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__010_archetypal-grounding-system-and-episteme.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:5 — Archetypal Grounding (System and Episteme)"
-line_start: 73306
-line_end: 73315
+line_start: 73336
+line_end: 73345
 dependencies:
   - "E.10"
   - "E.10.MOVE"
-  - "E.11"
   - "E.11.PFP"
   - "E.11.PUR"
   - "E.13"
@@ -33,7 +32,6 @@ dependencies:
   - "E.9.DA"
   - "F.18"
   - "F.19"
-  - "I.2"
 keywords:
   - "). The key words MUST"
   - "MAY"
@@ -62,7 +60,7 @@ keywords:
 |------------------|------------------------|---------------------------|
 | Section order | Pump‑assembly pattern follows sections **1–13** and ends with its required `:End` sentinel. | Meta‑analysis pattern follows the same sections and sentinel rule. |
 | S-1 Density w/o Jargon | “The pump casing seals at this face.” | “This episteme raises **F (Formality)** by making falsifiers testable.” |
-| Hook‑Weave‑Ground | Opens with field anecdote → weaves in Γ‑core → ties the claim to motor torque. | Opens with historical paradox → weaves in **A.10** evidence refs → ties the claim to peer‑review data. |
+| Governing-claim flow | Opens with the pump's working situation and required claim, then adds only context needed to act. | Opens with the research question and evidence claim, then adds only context needed to interpret it. |
 
 *Note:* Prefer examples that reuse FPF characteristics vocabulary (e.g., **F (Formality)** rather than “F‑score”) unless you explicitly mean an external metric and name it as such.
 

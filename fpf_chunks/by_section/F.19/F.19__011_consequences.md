@@ -6,12 +6,12 @@ section_id: "F.19:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__011_consequences.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:9 — Consequences"
-line_start: 100226
-line_end: 100231
+line_start: 100255
+line_end: 100260
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -35,7 +35,7 @@ keywords:
 
 ### F.19:9 - Consequences
 
-`F.19` makes technical prose easier to read because it removes apparatus before shortening the sentence. It also makes reviews stricter: a pleasant paraphrase does not count unless the pre-rewrite and post-rewrite kind, relation, current ontic slot, relation position, use relation, admissible use, and scope are preserved or deliberately changed by accepted decision.
+Technical prose becomes easier to trust and use because every asserted relation has supported participants, every retained guard answers a plausible question, and lists serve a visible proposition or action. The pattern also removes a source of stylistic copying: authors no longer see defensive truth, false symmetry, and exhaustive-looking catalogues presented as the normal shape of precision.
 
-The cost is that some edits need a short repair note before they look simple. That cost is intentional. Without the note, agents tend to do lexical replacement, narrow a graph into a sequence, widen a work occurrence into a method, turn a publication into evidence, or hide a pattern application under a route-like metaphor.
+The cost is one semantic reread of the changed wording and its meaning-dependent neighbours. That cost stays local. Ordinary correction produces repaired text; only a named high-risk or disputed decision needs comparison evidence.
 

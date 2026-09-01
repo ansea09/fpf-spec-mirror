@@ -6,12 +6,12 @@ section_id: "F.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__003_problem-frame.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:1 — Problem frame"
-line_start: 100052
-line_end: 100071
+line_start: 100099
+line_end: 100111
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -35,21 +35,14 @@ keywords:
 
 ### F.19:1 - Problem frame
 
-Mature technical languages accumulate enough ontology that many bad sentences are not bad because the terms are unknown. They are bad because a simple technical claim is wrapped in process language, role language, status language, quality-proof evidence, pattern-reference boilerplate, or alternative classes introduced only so the sentence can reject them.
+Local truth is necessary but not sufficient for useful technical prose. “A mouse is not the Eiffel Tower” is true, but it introduces an Eiffel-Tower reading that the reader had no reason to construct. “The evidence does not notice the error” is also locally true, yet the denial makes *evidence* the subject of an impossible noticing relation. “The result is not a final scheme of the world” invents a grand alternative before the sentence reaches its actual result.
 
-The repair question is:
+The same failure appears without negation. “Then pour” can omit the thing or destination that determines the operation. “Bearer” can leave the reader asking bearer of what. A grammatical series can give examples, methods, activities, and outcomes one false common head. Several individually valid pairs can create catalogue rhythm while never stating the proposition they are meant to support. Scenic or defensive detail can delay an urgent event or requested action.
 
-> What content remains when words that add no object, kind, relation, claim, system-role or function distinction, flow, evidence value, or user-facing action are removed?
+One connected repair therefore answers two questions:
 
-Examples inside FPF:
+1. **Semantic completeness:** can the reader recover the predicate, its required participants or operands, local referents, member kinds, and the relation actually asserted?
+2. **Pragmatic contribution:** does each explicit alternative, modifier, guard, list member, and extra proposition change what the plausible intended reader can recognize, understand, decide, or do?
 
-- "`A.15` handles the claim" when the text needs to say that `A.15` applies to a work-planning claim;
-- "pattern text" when the text means "the pattern" or "the pattern of concern";
-- "governing relation" when the named object is a pattern, not a relation;
-- long "not X, not Y, not Z" paragraphs when the text needs a positive object, action, and one stop condition;
-- corpus-projection proof written inside a pattern whose own user-facing action is not corpus projection.
-
-The same defect appears outside pattern prose. A system note may hide an evaluation claim inside process language; a project note may treat a dashboard as evidence authority when it is a publication form; an architecture memo may replace a scale-preference claim over alternatives with a platform label.
-
-These failures confuse coupled transformation flows. A pattern under development, a pattern being applied, a quality evaluation of that pattern, a project work occurrence, a source publication, and a projection record are different objects. They may influence one another; they do not become one another by being mentioned in the same paragraph.
+The defect is not a word class or a forbidden syntax. Negative polarity can be the claim. A documented anti-pattern can quote the real error. A visible diagram feature can make one overreading plausible. Ordinary metonymy and ellipsis can be clearer than formal expansion. Judge the supported relation and the receiving use, not the presence of `not`, a comma, or a particular verb.
 

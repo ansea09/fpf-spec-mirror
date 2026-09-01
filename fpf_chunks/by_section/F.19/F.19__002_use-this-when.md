@@ -6,12 +6,12 @@ section_id: "F.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__002_use-this-when.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:0 — Use this when"
-line_start: 100024
-line_end: 100051
+line_start: 100066
+line_end: 100098
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -35,29 +35,34 @@ keywords:
 
 ### F.19:0 - Use this when
 
-Use `F.19` when a bounded piece of technical prose is trying to say something precise, but the reader must pass through role labels, container words, status words, process traces, quality proof, an unsupported negative classification, reference boilerplate, or pattern-application metaphors before the object and action are visible.
+Use `F.19` when a bounded piece of technical prose is harder to understand or use than its intended claim requires. The sentence may be grammatical and every isolated statement may be true, yet the reader still has to invent a missing operand, accept an implausible relation, guess what a pronoun or relational noun refers to, interpret a list with no stated purpose, or wait through caveats and ornament before reaching the governing message.
 
-Typical in-scope prose includes:
+Common signs are:
 
-- FPF pattern prose;
-- `DRR` text and architecture notes;
-- review findings and quality-loop records;
-- project-facing FPF guidance;
-- source prose being rewritten for FPF use;
-- other technical prose whose accepted ontology, domain model, controlled vocabulary, or role model must survive simplification.
+- a verb or relational noun whose needed participant is not cheaply recoverable;
+- a grammatical subject that cannot bear the asserted predicate, even when that predicate appears inside a denial;
+- a contrast, warning, or guard against a reading that no plausible intended reader has reason to make;
+- one head or predicate imposed on unlike members;
+- examples presented as a classification, or a catalogue presented instead of a proposition; and
+- coordination repeated inside phrases and across clauses, or stacked modifiers, when one governing statement would do.
 
-**What goes wrong if missed.** Authors replace one official-sounding phrase with another. The text becomes smoother or shorter while the hidden kind error remains, or it becomes easy to read by losing the FPF kind, slot, relation position, system-role-kind or assignment distinction, function or functioning claim, claim boundary, or admissible-use boundary.
+Item count is only a cue. Two coordinated members can already be needless, while a long inventory can be exact and useful when its kind, membership rule, and closure matter. Matching kinds and individually relevant members do not by themselves justify a series: the reader must need to distinguish or retain the members together for the intended use.
 
-**What this buys.** Plain technical wording becomes an ontological discipline with less apparatus: fewer words, clearer objects, fewer invented alternatives to reject, and no loss of technical semantics.
+Apply the same method to FPF pattern prose and to other technical prose whose accepted domain terms, relations, claim boundaries, or use conditions must survive simplification.
 
-**First useful move.** Mark the span under repair. Split it into content candidates and apparatus candidates before rewriting either side.
+**What goes wrong if missed.** The prose looks careful while introducing relations, alternatives, or branches that the work does not need. A later author or generator may then copy that shape as an acceptable technical style.
+
+**What this buys.** The reader reaches the supported object, claim, and action sooner. Required technical distinctions remain; invented foils, false agency, reference puzzles, and catalogue rhetoric do not.
+
+**First useful move.** State in one plain sentence what the intended reader must recognize, understand, decide, or do. Then read the whole natural span against that sentence before changing individual words.
 
 **Not this pattern when.**
 
-- If the problem is only one overloaded word or head after the content is visible, apply `E.10`.
-- If the problem is a durable reusable name, apply `F.18`.
-- If the span already names the content-bearing relation, source-use relation, state-family value, architecture label, characteristic, quality term, function wording, evidence claim, gate claim, work claim, decision claim, or other FPF object named by value, use the specific pattern that defines, constrains, or tests that claim and say what it contributes.
-- If the source text is only being observed and not admitted into FPF-governed prose, keep the observation source-side.
+- If only one already-visible FPF word or head has an unresolved technical use, take the exact `E.10` route for it.
+- If the question is a durable reusable name, use `F.18`.
+- If source prose is only being observed and not admitted into governed technical prose, keep the observation source-side.
+- If evocation, rhythm, ambiguity, or parallelism is the declared work of a poem, quotation, ceremonial passage, or other expressive genre, do not flatten it into technical instruction. Apply `F.19` only to the technical claim or action that must remain recoverable.
+- If a language-specific grammar or idiom remains after the common semantic repair, use the applicable language profile.
 
-**Primary EntityOfConcern in plain terms.** One phrase-level, sentence-level, row-level, paragraph-level, or small-section technical-prose repair whose goal is kind-preserving plain expression.
+**Primary EntityOfConcern in plain terms.** One sentence, row, paragraph, list, or small coherent section being repaired into precise plain technical prose.
 

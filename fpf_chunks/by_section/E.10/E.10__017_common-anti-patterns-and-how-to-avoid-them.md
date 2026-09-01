@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.10"
 pattern_title: "Unified Lexical Rules for FPF"
 section_id: "E.10:15"
-section_title: "Common Anti-Patterns and How to Avoid Them"
+section_title: "Common anti-patterns and how to avoid them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__017_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-  - "E.10:15 — Common Anti-Patterns and How to Avoid Them"
-line_start: 76217
-line_end: 76225
+  - "E.10:15 — Common anti-patterns and how to avoid them"
+line_start: 75956
+line_end: 75965
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,6 +39,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.10.D1"
+  - "E.10.DEV"
   - "E.10.LRN"
   - "E.10.MOVE"
   - "E.10.ROLE"
@@ -57,12 +58,13 @@ dependencies:
 keywords:
 ---
 
-### E.10:15 - Common Anti-Patterns and How to Avoid Them
+### E.10:15 - Common anti-patterns and how to avoid them
 
 | Anti-pattern | Symptom | Correction |
 | --- | --- | --- |
-| Replace one umbrella with another | `support` becomes `basis`, `route` becomes `path`, or `posture` becomes `status` without recovering the kind. | Write the ordinary domain sentence, select one `E.10:0.0a` branch when relation-like, and name only the applicable pattern contribution and admissible use. If no branch or other governed object can be selected, keep ordinary wording or leave the repair blocked. |
-| Pattern does the work | A pattern is said to send, route, approve, authorize, or repair a project object. | Name the person or system that acts and the action it performs. If the sentence is instead about a resulting fact, declaration, report, or representation, use the matching `E.10:0.0a` branch and its pattern. The pattern supplies guidance or a rule; it does not act. |
-| Description becomes object | A description, diagram, publication face, source span, or dashboard is treated as the in-life object or authority. | Use A.7, C.2.1, E.17, publication patterns, and the pattern for the claim being made. |
-| Source label becomes FPF kind | A quoted term, acronym, legacy label, or local handle is kept as a live kind. | Treat it as source wording until the FPF kind or relation is recovered. |
+| Umbrella replacement | `support` becomes `basis`, `route` becomes `path`, or `posture` becomes `status` without a clearer claim. | State the ordinary object and relation; use one exact route only if an FPF question remains. |
+| Cue as verdict | A listed word is automatically banned, formalized, or counted as a defect. | Read the complete span through `F.19`; retain ordinary and already precise uses. |
+| Activity assigned for grammatical symmetry | A pattern, document, evidence item, or representation receives an agentive predicate because the sentence needs a subject. | State the capable participant's action or the exact non-agentive relation positively. Keep ordinary metonymy when it is established and clear. |
+| Mandatory neighboring overread | Every positive claim is followed by an imaginable but ungrounded non-use or stronger conclusion. | Keep a guard only when a plausible intended reader has independent local grounds for that reading and the correction changes use. |
+| Catalogue instead of result | The repair lists every possible kind, pattern, or interpretation without selecting the current one. | Write the governing sentence, select the one applicable route, or leave the unresolved meaning blocking. |
 

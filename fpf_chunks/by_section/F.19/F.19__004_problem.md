@@ -6,12 +6,12 @@ section_id: "F.19:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__004_problem.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:2 — Problem"
-line_start: 100072
-line_end: 100083
+line_start: 100112
+line_end: 100115
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -35,13 +35,5 @@ keywords:
 
 ### F.19:2 - Problem
 
-How can FPF make technical prose plain without:
-
-- treating plain language as a synonym-replacement exercise;
-- deleting content-bearing technical terms as "jargon";
-- replacing established terms with colourful synonyms or role nicknames;
-- letting process, review, projection, or quality proof become pattern content;
-- repeating the same boundary doctrine in every local pattern;
-- hiding current ontic slot, relation-position, use-relation, or claim-kind changes under a shorter phrase;
-- turning every phrase repair into a new local mini-ontology?
+How can a practitioner repair technically plausible prose that asserts unsupported relations or makes the reader invent missing structure, while preserving the kinds, claim boundaries, operational detail, and established terms that the intended use actually needs—without building a controlled language, a universal ontology of speech, a prohibited-word list, or a form for every correction?
 

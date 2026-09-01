@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__010_consequences.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
   - "E.8.ECSPF:9 — Consequences"
-line_start: 73664
-line_end: 73669
+line_start: 73691
+line_end: 73696
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -30,5 +30,5 @@ keywords:
 
 A conforming `E.8.ECSPF` publication form makes evaluation guidance findable, teachable, and reusable inside FPF. It lets a practitioner frame an evaluation with `E.22` or repeat improvement with `E.23` without re-inventing values. It also makes the cost visible: a reusable evaluation pattern must publish more than a local rubric, because it must prevent wrong-kind use, hidden value drift, neighbour theft, and proxy-for-value substitution.
 
-The pattern publication form does not certify the evaluated object, approve a release, prove evidence, or finish improvement. It only teaches a bounded evaluation and the form of its result.
+The pattern's output is bounded evaluation guidance and the form of its result. Any product certification, release approval, evidence claim, or improvement decision comes from the applicable receiving pattern.
 

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__002_use-this-when.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:0 — Use This When"
-line_start: 76837
-line_end: 76872
+line_start: 76861
+line_end: 76897
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,6 +47,7 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
+  - "E.10.DEV"
   - "E.10.MOVE"
   - "E.11"
   - "E.18"
@@ -66,11 +67,11 @@ keywords:
 
 ### E.10.ARCH:0 - Use This When
 
-Use this pattern when a recurring FPF-governed wording-use problem cannot be closed by one local `E.10` rewrite because the wording hides a stable primary-EntityOfConcern use field set, a stable recovery shape, and a useful remaining reader use.
+Use this pattern when a recurring FPF-governed wording-use problem survives the normal `F.19` reading and compact `E.10` routing because the wording still hides a stable primary-EntityOfConcern use field set, a stable recovery shape, and a useful reader use.
 
 **Early failure cue.** FPF accumulates many small local wording-recognition lists, and subject patterns start teaching repair doctrine instead of their own EntityOfConcern, invariants, and first useful move.
 
-**Early gain cue.** `E.10.ARCH` gives one architecture for distributing wording-use repair: `E.10` recognizes the row, an author uses the recovery architecture described here, and every recovered object remains the subject of its own exact assertion under its defining or constraining `ClaimGraph`.
+**Early gain cue.** `F.19` repairs the normal span, `E.10` locates the unresolved FPF use, and `E.10.ARCH` supplies shared ontological recovery only for what remains. Every recovered object returns to its own exact assertion under its defining or constraining `ClaimGraph`.
 
 Use it especially when a subject or adequacy pattern contains repeated first-stage repair prose such as:
 
@@ -81,6 +82,7 @@ Use it especially when a subject or adequacy pattern contains repeated first-sta
 - admissibility-like, legal, lawful, authority, validity, readiness, pass-looking, fail-looking, or conformance wording before bearer, claim kind, source relation, value frame, bounded use, and the defining or testing rule are recovered;
 - method, algorithm, program, proof, solver, workflow, process, procedure, access path, query plan, control strategy, or programming-paradigm wording before one exact method, one-method description episteme, method-side relation, mechanism, plan, dated Work, transformation, result, structure, architecture, representation, and their exact direct relations are recovered;
 - input, raw-material, source-data, source-material, output, result, outcome, deliverable, handoff, or work-name wording before the exact entity, related object, four orthogonal claim dimensions (claim subject; modality and exact temporal extent; polarity; recovery/support state), governor or reason-specific non-assertability basis, and any performed-work occurrence basis are recovered;
+- development or evolution wording before the changed or represented subject, continuity or membership, posture, direction or value basis, direct owner, and any independent trajectory or path ambiguity are recovered; `E.10.DEV` is the bounded first entry;
 - bare claim-bearing *role* before its work-facing or use-facing object is recovered; `E.10.ROLE` is the bounded first entry. For relation, signature, interface, assignment, enactment, slot, field, parameter, argument, endpoint, port, API, protocol, connector, capability, affordance, method, function, concern, or interest wording, use `A.6.RSIR` only while the direct relation, declaration, interface, operation, representation position, or defining or testing rule remains hidden;
 
 - graph, path, query, table, dashboard, checklist predicate, publication face, evidence-path wording, or pattern-relation wording overread as a route, call, dispatch, invocation, work sequence, permission, release, evidence result, or pattern application;
@@ -89,13 +91,13 @@ Use it especially when a subject or adequacy pattern contains repeated first-sta
 
 **Failure shape.** FPF accumulates many small local wording-recognition lists. One pattern says "architecture is not a diagram", another says "metric is not proof", another says "quality is not one scalar", another says "a path is not a route", and a reader cannot tell which pattern carries the repair. The text looks more precise, but the reader does not get a stable first move.
 
-**Architecture gain.** `E.10.ARCH` gives one architecture for distributing wording-use repair: use `E.10` to recognize the wording-use row; use `E.10.ARCH` to select the row and extraction criterion; use the defining, constraining, or testing rule for the recovered object together with its practical guidance; and state the exact subject assertion, primary `EntityOfConcern`, and first useful move. Cite the PatternID only to locate that rule.
+**Architecture gain.** `F.19` carries the common semantic and pragmatic repair; `E.10` supplies compact cues and routing; `E.10.ARCH` selects shared ontological recovery only when the object or relation remains unresolved; the defining, constraining, or testing rule then supplies the exact subject assertion and first useful move. Cite the PatternID only to locate that rule.
 
-**First useful move.** Decide whether `E.10` can close the wording locally, whether the recovered object or claim already has a defining, constraining, or testing rule, or whether one applicability row is needed with stable `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, `ontologicalNeighborhood`, recovery apparatus, and remaining reader use.
+**First useful move.** Decide whether `F.19` and compact `E.10` routing can close the wording, whether the recovered object or claim already has a defining, constraining, or testing rule, or whether one shared applicability row is needed with stable `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, `ontologicalNeighborhood`, recovery apparatus, and reader use.
 
 **Not this pattern when.**
 
-- If a sentence is repaired locally under `E.10`, stop there.
+- If a sentence is repaired locally under `F.19` with compact `E.10` routing, stop there.
 - If the governed object, exact direct relation, or claim-bearing episteme and its defining or testing rule are already recoverable by value, state the claim under that rule and cite the pattern containing it.
 - If the kind under repair is evidence, assurance, gate, Work, decision, causal-use, release, mathematical-lens use, grounded architecture adequacy, structural-view adequacy, characteristic-space construction, Q-bundle construction, pattern-quality evaluation, one exact Method, a one-method description episteme, mechanism, formal substrate, graph path, evidence or provenance relation, publication face, or another FPF kind named by value, state the exact assertion under its invariant or predicate and cite the pattern containing that rule. `E.10.ARCH` defines only the wording-use restoration distribution.
 - If the wording problem is phrase-level apparatus around an already recoverable kind, use `F.19` rather than creating a new wording-use restoration row.

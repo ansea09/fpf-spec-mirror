@@ -6,24 +6,38 @@ section_id: "E.10.MOVE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__005_solution.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:4 — Solution"
-line_start: 76569
-line_end: 76667
+line_start: 76537
+line_end: 76664
 dependencies:
   - "A.1.STM"
   - "A.10"
   - "A.15"
+  - "A.15.2"
   - "A.15.5"
+  - "A.16.0"
   - "A.21"
   - "A.22.CGUS"
+  - "A.3.3"
+  - "A.3.4"
   - "A.3.4.P"
+  - "B.4"
+  - "C.11"
+  - "C.17"
+  - "C.19"
+  - "C.22.2"
   - "C.24"
+  - "C.27.TA"
+  - "C.29"
   - "C.30"
+  - "C.36"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.DEV"
+  - "E.11.PUA"
   - "E.11.PUR"
   - "E.17"
   - "E.18"
@@ -32,13 +46,14 @@ dependencies:
   - "E.24"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "G.11"
 keywords:
 ---
 
 ### E.10.MOVE:4 - Solution
 
-**Cheap ordinary use.** When the governed value and its direct pattern are already evident, name them, rewrite the phrase without changing the claim, confirm the remaining reader use, and stop. Do not materialize the repair note or traverse the disposition table. Open the fuller procedure only when the wording remains ambiguous, carries several governed values, imports a source term, or must be replayed later.
+**Cheap ordinary use.** When the governed value and its direct pattern are already evident, apply `F.19`, name the value, rewrite the phrase without changing the claim, confirm the reader use, and stop. Do not materialize the repair note or traverse the disposition table. Open the fuller procedure only when the wording remains ambiguous, carries several governed values, imports a source term, or must be replayed later.
 
 Restore the governed target before choosing replacement wording:
 
@@ -64,16 +79,16 @@ MoveAndReadinessWordingRepairNote:
   RecoveredGovernedValueKindRef?: U.KindRef
   RecoveredRelationSignatureRef?: U.EntityRef, referencing one RelationSignature
   RetainedPlainWording?:
-  BlockedOverread:
+  GroundedNonUseBoundary?:
   SplitDisposition?:
-  FinalWordingOrBlocker:
+  RepairedWordingOrBlocker:
   RemainingReaderUse:
   QualificationWindow:
   CurrentnessBasis:
   ReopenCondition:
 ```
 
-The governed-value ref and kind ref are both present or both absent. The relation-signature ref is present only when an admitted reusable typed declaration is current and the receiving use needs that declaration. Otherwise a relation claim names the admitted direct predicate and actual participants without a signature ref. A governed use has a non-semantic `SubjectPatternLocator`: an ordinary PatternID that identifies the pattern whose content defines, constrains, or tests the recovered value. The locator creates no `U.Method`, `U.MethodDescription`, or Method-use relation. Ordinary prose and quote-only uses may leave those positions absent and record why no FPF object is being claimed. The `...Ref` fields carry references of the declared RefKinds; they do not carry the referenced values or kinds. A materialized note also states the edition, source, context, or time window in which the repair is relied on, the current pattern or source basis for that interpretation, and the smallest change that reopens it. Use `G.11` only when actual refresh orchestration is current; the note merely records its own currentness boundary. The note is a temporary wording-restoration aid, not a project result, method, plan, gate decision, or work occurrence. Ordinary immediate repair need not materialize the note.
+The governed-value ref and kind ref are both present or both absent. `GroundedNonUseBoundary?` appears only when independent local evidence makes the exact rival reading plausible to the intended reader and deleting the boundary would change understanding, selection, safety, reliance, stop, or action. The relation-signature ref is present only when an admitted reusable typed declaration is current and the receiving use needs that declaration. Otherwise a relation claim names the admitted direct predicate and actual participants without a signature ref. A governed use has a non-semantic `SubjectPatternLocator`: an ordinary PatternID that identifies the pattern whose content defines, constrains, or tests the recovered value. The locator creates no `U.Method`, `U.MethodDescription`, or Method-use relation. Ordinary prose and quote-only uses may leave those positions absent and record why no FPF object is being claimed. The `...Ref` fields carry references of the declared RefKinds; they do not carry the referenced values or kinds. A materialized note also states the edition, source, context, or time window in which the repair is relied on, the current pattern or source basis for that interpretation, and the smallest change that reopens it. Use `G.11` only when actual refresh orchestration is current; the note merely records its own currentness boundary. The note is a temporary wording-restoration aid, not a project result, method, plan, gate decision, or work occurrence. Ordinary immediate repair need not materialize the note.
 
 #### E.10.MOVE:4.2 - Trigger groups
 
@@ -82,7 +97,7 @@ Run this restoration when one of these wording groups carries an FPF-governed us
 - `move`, `step`, `action`, `application`, `solution`, and `next action`;
 - `readiness`, `ready`, `full kit`, `work entry`, and `launch-ready`;
 - `movement`, `direction`, or `shift` used for an expected evaluation-result change;
-- `route`, `workflow`, `process`, `path`, `loop`, or `flow` used for a demonstrated continuation, selected structure, transformation, method, work, gate, publication, decision, or currentness claim;
+- `route`, `workflow`, `process`, `path`, `trajectory`, `loop`, or `flow` used for an ordered history, prediction, proposed continuation, selected structure, transformation, Method, Work, gate, publication, decision, currentness, population or lineage, archive or front, or representation claim;
 - imported source wording such as TameFlow `MOVE`.
 
 The trigger group only opens the repair. It does not supply a replacement vocabulary or choose the governed-value kind.
@@ -105,18 +120,47 @@ If the direct pattern and value were already clear, bypass this table and use th
 
 Replacing `move` with `step`, `action`, `use`, or `application` does not close the repair. Close only after recovering the governed value and its subject pattern. When responsibility is claimed, name the admitted System, direct domain predicate, actual participants, and applicability, or return the exact A.6.RCD missing governor; an assignment is not a responsibility result. Individuate the responsibility-relation occurrence separately only when a named receiving use needs to distinguish that occurrence. Ordinary-prose or quote-only use closes only when no FPF-governed value is claimed.
 
+#### E.10.MOVE:4.2b - Trajectory wording recovery
+
+Use this branch when *trajectory* or close path wording remains claim-bearing after any primary transformation wording has been recovered. The first result is an ordinary repaired claim or exact gap, not a trajectory record.
+
+Ask only the questions the receiving use needs:
+
+1. What exact bearer or represented subject is positioned or ordered?
+2. What identity, continuity, membership, lineage, or edition rule matters?
+3. Which declared position space, state space, configuration space, or possibility space and edition is relied on, if any?
+4. What is the ordering or reference domain—time, event, generation, plan order, graph order, or another index?
+5. What counts as a position, segment, branch, interval, generation, or edge for this use?
+6. Is the posture actual, observed, reconstructed, predicted, simulated, proposed, recommended, or planned?
+7. Which direct pattern owns the resulting claim, what receiving use is allowed, and is any grounded non-use boundary needed under the `F.19` plausible-intended-reader test?
+
+These are recovery questions, not fields of a new `Trajectory`, `TrajectoryAccount`, relation head, Method, or mandatory card.
+
+| Recovered trajectory use | Direct exit and boundary |
+| --- | --- |
+| Actual or reconstructed history of one identified subject | `A.3.4`, `A.3.4.P`, `B.4`, `C.27.TA`, and A.10 as applicable. A plotted sequence or intervention does not establish actual change or continuity. |
+| Predicted or simulated state history | `A.3.3`, `A.19`, `C.27`, and `C.29`; name model edition, state space or position space, transition law, validity boundary, and posture. Model output is not actual history. |
+| Proposed, recommended, or planned route | `C.22.2`, `C.11.CRC`, `C.11`, A.15.2, and the domain Method. Recommendation, choice, WorkPlan, performed Work, and effect remain separate. |
+| Population or lineage history | `C.36` only for the cultural case; otherwise use an admitted domain owner or return the named non-cultural population or lineage architecture gap. Do not model membership turnover as one-holder continuity. |
+| NQD/OEE search history, archive or front succession, or possibility-space projection | `C.17`–`C.19`, `G.5`, `G.11`, and `C.29` as applicable. An archive is not automatically a population. |
+| Language-state move responsibility | `A.16.0` for its exact language-state bearer, position space, move lineage, branching, merging, or loss, and responsibility use. The specialized account is not a general template. |
+| Mathematical trajectory lens | `C.29` for the selected representation and explicit correspondence, with declared losses; keep the represented subject under its direct owner. |
+| Ordinary or quote-only wording | Preserve it and stop unless a later FPF use relies on a stronger claim. |
+
+For *development trajectory*, open `E.10.DEV` first when the action-changing doubt is what develops, what remains identifiable, or whether improvement is asserted. Continue here only if trajectory still carries an independent claim about position, ordering, posture, or representation. If the bearer and development claim are already clear and only path posture is unresolved, start here and open `E.10.DEV` afterward only for a remaining separate ambiguity. Do not require two notes or two full passes by spelling alone.
+
 #### E.10.MOVE:4.3 - Wording-use dispositions
 
 `WordingUseDispositionValue` is a local finite enumeration for choosing a repair branch. It is not a U-kind, relation kind, state frame, or claim about the project value being repaired.
 
 | `WordingUseDispositionValue` | Selected recovery |
 | --- | --- |
-| `boundedDemonstratedContinuation` | One E.11.PUA `PatternUsePracticeContinuationDescription@Context` shown inside a post-qualification demonstrative slice. A.22.CGUS supplies the structure and slice boundary, not a wrapper-row kind. Retain the complete bounded use and send stronger claims to their direct patterns. |
+| `boundedDemonstratedContinuation` | One E.11.PUA `PatternUsePracticeContinuationDescription@Context` shown inside a post-qualification demonstrative slice. A.22.CGUS supplies the structure and slice boundary, not a wrapper-row kind. Retain the complete bounded use and route any other current claim to its direct pattern. |
 | `evaluationResultChangePrediction` | One E.23 `ExpectedEvaluationResultChange@Context` with evaluation pattern, coordinate, scale, current result, one expected value, range, or closed direction, proposal basis, and protected tradeoffs. |
 | `directGovernedUse` | The exact governed value or relation, its kind, and its subject pattern. For a relation claim, name the admitted direct predicate and actual participants; include a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs it. The wording disposition itself contributes no project ontology. |
 | `importedSourceWording` | Preserve the source expression only as source wording; recover every FPF use under its direct pattern. |
 | `ordinaryProse` | Keep or lightly rewrite after recording that no FPF-governed value is being asserted. |
-| `quoteOnly` | Preserve the quotation and block stronger project use not licensed by the quoted source. |
+| `quoteOnly` | Preserve the quotation and its source-licensed use. State a grounded project-side non-use boundary only when that boundary changes the receiving use. |
 
 #### E.10.MOVE:4.4 - Relation to A.3.4.P
 
@@ -131,7 +175,7 @@ A durable name states the recovered subject value or relation; it does not retai
 | `localMoveLocus` | Name the exact local value or relation and its subject pattern. Do not preserve `locus` as a cross-pattern grouping head. |
 | `ExpectedEvaluationMovement` | Use `ExpectedEvaluationResultChange@Context` only when the E.23 prediction positions are recoverable. |
 | `FirstMoveRecord@Context` | Name the actual first result or relation governed by the direct pattern. |
-| `Pattern-Use Sequence` | Use `PatternUseCoordination@Context` or `PatternUsePairwiseOrderingRelation@Context` when that exact relation is current. |
+| `Pattern-Use Sequence` | Use `PatternUseCoordination@Context` for the coordination judgement, `PatternUseOrderingRelation@Context` for one justified pairwise precedence relation inside it, and `PatternUseSequence@Context` only for the bounded total-order specialization under a named receiving use. Keep conversational coordination or ordering unmaterialized when no later reliance needs an addressable object. |
 
 These are repair demonstrations, not a global replacement table.
 

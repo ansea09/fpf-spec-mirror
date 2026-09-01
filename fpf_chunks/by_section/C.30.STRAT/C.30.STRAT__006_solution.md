@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__006_solution.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:4 — Solution"
-line_start: 60061
-line_end: 60185
+line_start: 60070
+line_end: 60196
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,7 +64,8 @@ StratificationSourceLabelRepairNote:
   patternRef?:
   repairedWordingOrDemotion:
   admissibleUse:
-  blockedOverread:
+  stopOrReturnCondition:
+  groundedOverread?:
   remainingReaderUse:
   disposition: direct-pattern-use | local-rewrite | ordinary-source-label |
     quote-only | reduced-use-cue | blocked-use | incomplete-rewrite
@@ -158,9 +159,10 @@ StratificationSourceLabelRepairNote:
   sourceUseDisposition: keep cache as a source label until its relation or bearer is known
   patternRef?: A.6.M, A.6.F, E.18, A.19.SPR, or A.3.3 for the cache;
     C.16.P, C.29, or C.31.ASAP for scale; A.10, B.3, or G.6 for proof or assurance
-  repairedWordingOrDemotion: “The response cache is a candidate state-bearing part of the architecture; no proof or scaling claim has yet been established.”
+  repairedWordingOrDemotion: “The response cache is a candidate state-bearing part of the architecture. Its scaling and evidence claims remain unresolved.”
   admissibleUse: start the three-way investigation
-  blockedOverread: cache does not prove scaling, substitutability, or architecture quality
+  stopOrReturnCondition: state the smallest result for each recovered claim or retain ordinary source wording
+  groundedOverread?: the source sentence says the cache “proves” that the architecture scales; test that proof and scale claim under their direct patterns
   remainingReaderUse: state the smallest result for each recovered claim, or keep ordinary source wording
   disposition: local-rewrite; direct-pattern-use only for branches that become current
 ```
@@ -171,5 +173,5 @@ The note preserves every live branch without requiring a project engineer to rep
 
 A repair remains usable only while its source span, recovered meaning, applicable rule, allowed use, and next action remain clear. Reopen or narrow it when the label begins carrying another relation or claim, the actual object becomes clear and makes this detour unnecessary, the interpretation was chosen from word similarity rather than evidence, or the repair is precise but leaves no useful reader action.
 
-Also reopen the affected authoring row when E.10.ARCH changes its internal coordinates, C.30.P changes architecture-wording repair, F.19 changes the plain-language boundary, or another realization pattern now handles this wording family. Lower the result to ordinary wording, quotation, reduced-use cue, blocked use, or incomplete rewrite when the object, applicable rule, allowed use, blocked overread, or next action cannot be stated.
+Reopen the affected authoring row when E.10.ARCH, C.30.P, F.19, or another realization pattern changes how this wording family is handled. Lower the result when the recovered object, applicable rule, allowed use, next action, or stop condition cannot be stated; require a grounded overread only when the current wording supplies one.
 

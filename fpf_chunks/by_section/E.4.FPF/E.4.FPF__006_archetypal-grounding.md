@@ -6,12 +6,12 @@ section_id: "E.4.FPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__006_archetypal-grounding.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:5 — Archetypal Grounding"
-line_start: 70240
-line_end: 70267
+line_start: 70277
+line_end: 70303
 dependencies:
   - "C.33"
   - "C.34"
@@ -31,6 +31,7 @@ dependencies:
   - "E.4.PFR"
   - "E.9.DA"
   - "F.18"
+  - "F.19"
   - "G.11"
   - "G.2"
   - "I.2"
@@ -63,5 +64,4 @@ Mini-map:
 | `selectedAccessCarrierRefs` | an optional exact skill-pack bundle, retrieval-index file, or response document that bears an access-facing form |
 | `selectedAccessRouteRefs` | an optional MCP service, retrieval route, search function, or assistant integration, with the edition or named carrier it reaches |
 | `qualityAndImprovementRefs` | `E.2.DA` for whole-FPF adequacy, `E.21` for pattern bodies, `E.23` for improvement cycles |
-| `blockedOverreadRefs` | Readme-as-spec, skill-as-framework, DPF-as-FPF, local-score-as-whole-FPF |
 

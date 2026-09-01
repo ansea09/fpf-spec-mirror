@@ -6,12 +6,12 @@ section_id: "E.10:11"
 section_title: "E.10 conformance prompts (normative, concept-only questions)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__013_e-10-conformance-prompts-normative-concept-only-questions.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:11 — E.10 conformance prompts (normative, concept-only questions)"
-line_start: 76141
-line_end: 76163
+line_start: 75883
+line_end: 75905
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,6 +39,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.10.D1"
+  - "E.10.DEV"
   - "E.10.LRN"
   - "E.10.MOVE"
   - "E.10.ROLE"
@@ -59,20 +60,20 @@ keywords:
 
 ### E.10:11 - E.10 conformance prompts *(normative, concept-only questions)*
 
-> Use these **prompts** during review. They reference § 7 (MG-DA) and § 8 (LEX.Morph) instead of repeating them.
+> Use only the prompt selected by the compact route. Do not answer all prompts for every wording repair; § 7 and § 8 retain their own exact conformance uses.
 
 1. **Local-use prompt.** When *context* changes interpretation or the next action, has E.10.D1 recovered the exact source, scheme, scope, model-use structure, situation, frame, referent, or practice that matters?
 2. **EntityOfConcern and Description-episteme boundary and specification-use prompt.** Does each sentence use the correct boundary (the EntityOfConcern named directly; Description-episteme use for descriptions; specification use only where a direct gate pattern grants it; run: actuals)?
 3. **Token prompt.** For new or renamed tokens, is **`LEX.TokenClass`** declared and consistent with where the token appears?
 4. **Head-kind prompt.** Does the head noun name what the phrase is actually about—for example, a Method, Work, Characteristic, Capability, constraint claim, commitment, publication form, service-access relation, service-offer record, interpretation, local kind, `U.Transformation`, `TransformationFlowStructure`, authority use, source or practice boundary, or another exact object? If bare *role* is claim-bearing, use `E.10.ROLE`; a concrete `...SystemRole` compound is admissible only for an exact local system-role kind. A narrowing qualifier alone does not answer this question.
 5. **Qualifier-claim prompt.** If an adjective, participle, genitive, or comparative modifier carries a claim being made, comparison criterion, relation, or admissible-use boundary, has that use been restored explicitly rather than left inside the modifier alone?
-6. **Direct relation, declaration, designation, and representation prompt.** Can a reader select exactly one `E.10:0.0a` branch from the sentence and point to its visible result? If yes, name the pattern for that branch and preserve only the objects it needs. If no branch fits, state the other governed object or ordinary non-use. If the sentence still mixes branches or only lists possible patterns, rewrite it before applying `E.10.ARCH` or another pattern.
-7. **Support interpretation prompt.** If `support`, `supported`, `supporting`, or a support-headed compound appears, keep it unchanged when it is ordinary or quoted wording and no FPF claim relies on it. Otherwise ask whether it already states a direct domain fact. If so, name the things and relation and use the pattern that defines that relation; apply `A.6.P` only when the predicate or a participant is unclear, and `A.6.RCD` only when both are clear but no current pattern defines or constrains the predicate. If it is not a direct relation, choose the matching common alternative in `E.10:0.2`, write the concrete sentence, and use the pattern for that alternative. Thus `Test T supports claim C` reaches `A.10`, `Index I supports readers` can remain bounded reader help, and `Column C supports roof R` reaches a structural relation or a missing-governor result; none is forced into another bucket. For base, anchor, or basedness, apply `A.6.6` and state `dependent`, `base`, `baseRelation`, `scope`, applicable `Γ_time`, witnesses, `admissibleUse`, and `nonAdmissibleUse`. Do not mint `SupportRelation` or ask `A.6.P` to choose among the common alternatives.
+6. **Relation and representation prompt.** Does the sentence state its ordinary relation and participants? If the distinction among an obtaining fact, reusable declaration, claim or report, and representation remains unresolved, use `E.10.ARCH`; if it is already clear, use the exact subject pattern without inventorying the other branches.
+7. **Support interpretation prompt.** Write the concrete relation first. Keep ordinary or quoted `support`; otherwise use the direct subject pattern, `A.6.P` only for an unclear predicate or participant, `A.6.RCD` only after both are clear but no current pattern supplies the rule, and `A.6.6` for basedness. Section `E.10:0.2c.18` carries the examples; do not recreate its alternatives in the repaired sentence.
 8. **Comparison-basis prompt.** If the sentence compares, ranks, escalates, or downgrades something, is the comparison basis ontologically homogeneous after head-kind and qualifier restoration?
 9. **Morphology prompt.** Do suffix, compound, prefix, and casing pass **LEX.Morph** gates (for example, concrete `…SystemRole` kind designations, `MethodDescription`, and `Work`), with no default bare-`Role` Tech reading?
 10. **Promise, ability, access, and performance split.** Are service promise or acceptance content, service-access relation, **Capability** (ability), and **Work** (performance) distinct and defined by their patterns?
 11. **Plan and execution split.** Are planning cues and `U.WorkPlan` kept separate from performed `U.Work`? For each actual performer, does A.13 supply the local kind and criterion, classification, same obtaining assignment, scope, working situation, window, and adequate core evidence, with a profile only when conditionally consumed? Does A.15.1 then independently admit the Work from its performance history, Method, time, and containing System? When precise assignment-bound attribution is claimed, does F.6 separately relate that already admitted Work through the same assignment? Do affected-referent, binding, resource-use, assertion, and description claims remain separate?
-12. **Evidence prompt.** Do documents, epistemes, and publications stay in source-use, evidence-use, specification-use, or publication-use relations? When precise agency or performed Work is current, is the actor an admitted `U.System` with the A.13 core, is the Work independently admitted by A.15.1, and is any precise assignment-bound attribution separately established by F.6 through the same obtaining assignment? Does any bare *role* wording first pass `E.10.ROLE` rather than assigning the episteme?
+12. **Predicate-compatibility cue.** When evidence, a document, publication, pattern, representation, or method is the grammatical subject of an agentive or causal predicate, read the complete span through `F.19`, including negation and modality. Retain clear ordinary metonymy; otherwise state the capable participant's action or the exact non-agentive relation positively. Open A.1, A.13, A.15.1, or F.6 only when precise agency, Work, or attribution is part of the claim.
 13. **Bridge prompt.** If the text asserts a relation between two local senses, are the exact cells identified, and does the F.9 Bridge actually obtain under its applicable relation profile? When a receiving use is current, does a separate C.2.1 claim state the proposed action, use direction, correspondence rule, tolerated loss, and polarity? Are reliance, assurance, and any action that occurred kept separate and opened only when current?
 14. **Collision prompt.** Were full-text and Reserved-Names checks completed, with no other meaning of this token anywhere in FPF?
 15. **Naming-procedure prompt.** If one durable reusable name is needed because no admissible existing token carries the needed meaning beyond one local repair, was the governed value settled first, was the applicable **F.8** decision recorded, and were the **F.18** NameCard and any required **F.17** public term row completed rather than picking a label by intuition or filling publication apparatus around an unresolved object?

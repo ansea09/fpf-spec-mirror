@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__021_rationale.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:13 — Rationale"
-line_start: 77194
-line_end: 77209
+line_start: 77223
+line_end: 77248
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,6 +47,7 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
+  - "E.10.DEV"
   - "E.10.MOVE"
   - "E.11"
   - "E.18"
@@ -66,17 +67,27 @@ keywords:
 
 ### E.10.ARCH:13 - Rationale
 
-This distribution is selected because the recurring failure is not "too few word rules". The failure is that repair-only trigger prose migrates into subject patterns and begins to compete with their primary `EntityOfConcern` and first useful moves. A common symptom is a non-semio pattern whose Solution mainly teaches that a description, view, publication, record, card, diagram, source, or file is not a permission, promise, prescription, evidence record, assurance verdict, decision, gate passage, release, work occurrence, or authority source. Those guards are often correct, but their ontology is publication pragmatics, description pragmatics, and neighboring-pattern assignment, not the subject matter of the architecture, method, role, evidence, or characterization pattern. A workable FPF answer therefore needs three separations at once: a cheap shared trigger scan in `E.10`, a shared recovery architecture in `E.10.ARCH`, and local realization only where a named `semanticArea` has stable row identity, a stable field set, an `ontologicalNeighborhood`, and a remaining reader use.
+This distribution is selected because the recurring failure is not "too few word rules". Repair-only trigger prose migrates into subject patterns and begins to compete with their primary `EntityOfConcern` and first useful moves. One symptom is a Solution organized around a catalogue of things that a description, view, publication, record, card, diagram, source, or file supposedly might be mistaken for. Unless an independent local ground makes one exact rival reading plausible to the intended reader and the distinction changes use, that catalogue is itself a wording defect. The workable split is a normal whole-span repair in `F.19`, compact recognition and routing in `E.10`, shared ontological recovery here only when needed, and local realization only where a named `semanticArea` has stable row identity, a stable field set, an `ontologicalNeighborhood`, and a useful reader use.
 
 
 #### E.10.ARCH:13.1 - SoTA-Echoing
 
-| Recoverable source or practice line | Decision and effect in `E.10.ARCH` | Limit or reopen boundary |
-| --- | --- | --- |
-| FPF August 2026 edition distribution: `E.10`, `E.10.ARCH`, `E.10.MOVE`, `E.4.DPF`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `F.18`, `F.19`, `E.8`, `E.19`, `E.11`, and `I.2`. | **Adopt as the internal architecture basis.** Keep local recognition in `E.10`, the shared recovery algorithm here, DPF-local entry in `E.4.DPF`, and each stable subject family in the named realization or subject pattern. | This internal distribution is not external SoTA evidence. Reopen it when a named pattern changes its contribution or the shared recovery split no longer fits. |
-| FPF August 2026 `E.8` and `E.19` rules for pattern locality and the primary `EntityOfConcern`. | **Adopt as the internal authoring and review basis.** Keep subject-pattern references thin and keep copied trigger tables out of patterns whose practical concern is architecture, structure, characteristic, quality, evidence, gate, work, decision, state-family precision, or release. | These internal rules do not supply a terminology ontology or an external practice claim. |
-| `E.10:18` external-practice row for Miles and Bechhofer (eds.), *SKOS Simple Knowledge Organization System Reference*, W3C Recommendation, 18 August 2009. | **Adapt narrowly.** Use SKOS for controlled-vocabulary publication, designations, labels, and label relations when those are the actual objects; use F.18 and the relevant subject pattern for reusable FPF names and claims. | This stable reference is not the current-best answer to every wording repair and does not define FPF kinds. Reject a central word list or controlled vocabulary as the universal solution. |
-| FPF August 2026 subject-pattern coverage named in `E.10.ARCH:4` and `E.10.ARCH:14`. | **Adopt as the applicability boundary.** Use the existing pattern when it already defines, constrains, or tests the object, relation, claim, or local field being repaired. | Existing coverage does not prove that this architecture settles every wording-use case; reopen it only when the shared distribution rule itself no longer fits. |
+**Practice question.** When the same wording problem recurs across subject patterns, what distribution keeps the repair reusable while letting practitioners reach the exact object, relation, claim, and defining or testing rule without filling an authoring form?
 
-The selected architecture is lowered or reopened when one of those source lines changes: if `E.10` can close the issue locally, if a new subject pattern removes the need for a restoration row, if a realization pattern needs a different stable field set, or if subject patterns again start carrying duplicated first-stage trigger registries.
+**Selected best-known line.** Use ISO 704's object, concept, definition, and designation discipline for terminology work; use SKOS only when a controlled-vocabulary or knowledge-organization object is current; and distribute each FPF claim to its direct subject rule through one shared trigger scan and one shared recovery architecture. Keep a local realization only when a stable recovery shape and remaining reader use recur.
+
+**Serious alternative or default.** A central preferred-word list makes labels consistent but cannot establish obtaining relations, actual participants, claim-bearing epistemes, or direct rule ownership. Copied local warning tables stay close to each subject but duplicate recognition, drift independently, and displace the subject pattern's working problem. The selected line keeps the useful locality of direct owners and the reuse of one shared entry.
+
+**Defect overcome and comparable effort.** A clear claim bypasses restoration and uses its direct rule, so the selected line adds no extra form. An unresolved recurring phrase takes one trigger selection and one bounded realization, comparable to consulting a glossary and cheaper than searching several local warning tables; it is better because it ends in a direct claim, truthful non-use, exact gap, or blocker.
+
+**Mutation and evidence of fit.** The answer changes the distribution steps in `E.10.ARCH:2`, the DEV row in `E.10.ARCH:4`, the direct-known-rule bypass in `E.10.ARCH:5`, the extraction criterion, and Relations. The unlike worked and near-miss cases test local closure, direct-owner return, and the non-use boundary. Internal FPF patterns are governing local sources, while ISO 704 and SKOS are external comparison sources with bounded roles.
+
+| Source or practice line | Source role and contribution used | Limit | Smallest reopen condition |
+| --- | --- | --- | --- |
+| Current FPF distribution: `E.10`, `E.10.ARCH`, `E.10.LRN`, `E.10.DEV`, `E.10.ROLE`, `E.10.MOVE`, `E.4.DPF`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `F.18`, `F.19`, `E.8`, `E.19`, `E.11`, and `I.2` | Governing local architecture: shared recognition, bounded recovery, DPF-local entry, direct-owner return, and practitioner bypass when the rule is already known | It is not external evidence that the same distribution is best for every terminology system | Reopen only the affected distribution step when a named pattern changes its contribution or when one recurring case cannot reach a direct claim or exact gap at comparable effort |
+| [ISO 704:2022, *Terminology work — Principles and methods*](https://www.iso.org/standard/79077.html), edition 4, 2022-07 | Current external terminology-work line: preserve links among objects, concepts, definitions, and designations; adapt that object-first discipline before term formation | It does not define FPF kinds, make project relations obtain, or prescribe this framework's pattern distribution | Reopen the object-first terminology contribution only if a later edition changes the used object, concept, definition, or designation relation |
+| Miles and Bechhofer (eds.), [*SKOS Simple Knowledge Organization System Reference*](https://www.w3.org/TR/skos-reference/), W3C Recommendation, 18 August 2009 | Stable external knowledge-organization line: use concepts, labels, notations, schemes, and mappings when those publication objects are current | It is not a universal wording-repair ontology and does not define FPF world-side kinds or direct claims | Reopen only if the Recommendation or its current successor changes the label, concept-scheme, collection, or mapping contribution used here |
+| Current `E.8` and `E.19` pattern-locality and primary-EntityOfConcern rules, together with the subject-pattern coverage named in `E.10.ARCH:4` and `E.10.ARCH:14` | Governing local evaluation basis: keep subject patterns centered on their working object and use an existing defining or testing rule when it already closes the claim | Existing coverage does not prove that every future wording family fits this architecture | Reopen when subject patterns again need copied first-stage doctrine, a realization needs a different stable field set, or an existing subject rule absorbs the same entry, result, and stop |
+
+A source-locator, publication-status, popularity, or unused-example change alone does not reopen this architecture. Lower only the affected row when `E.10` can close it locally or a subject rule absorbs the same recovery at equal or lower effort.
 

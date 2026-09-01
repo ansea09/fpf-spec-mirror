@@ -6,12 +6,12 @@ section_id: "E.18.NET:1"
 section_title: "Problem frame — intent and first useful result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__002_problem-frame-intent-and-first-useful-result.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:1 — Problem frame — intent and first useful result"
-line_start: 87013
-line_end: 87057
+line_start: 87052
+line_end: 87097
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -59,7 +59,8 @@ selectedCrossFlowRelationOccurrenceRefs[]: exact selected obtaining cross-flow r
 selectedNetworkConstraintRefs[]: exact applied endpoint, boundary-exposure, and acyclic direct-member constraints
 networkUseFrame:
   questionOrAction: the concrete question answered or action enabled
-  forbiddenOverread: what this selection does not establish
+  admissibleUse: how the selected organization is used
+  groundedForbiddenOverread?: only when the current representation supplies one exact inference
 returnCondition: the first member, relation, constraint, or use-frame change that reopens selection
 ```
 

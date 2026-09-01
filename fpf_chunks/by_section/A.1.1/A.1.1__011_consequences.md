@@ -6,12 +6,12 @@ section_id: "A.1.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__011_consequences.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:9 — Consequences"
-line_start: 2229
-line_end: 2236
+line_start: 2231
+line_end: 2238
 dependencies:
   - "A.1"
   - "A.14"
@@ -41,7 +41,7 @@ keywords:
 
 **Benefits.** Teams can compare model-use boundaries without inventing an enclosing whole. Competing models over one subsystem and one model across several loci become expressible through complete structure bases. Local vocabulary, rules, inferences, units, evidence use, and status use remain recoverable through subject patterns rather than a context proxy.
 
-**Costs.** A load-bearing structure claim must recover three direct relation families, exact applied constraints, and one question/action/overread frame. Semantic transfer sometimes stops at a subject pattern that still cannot express the claim without a generic context field; that stop is preferable to inventing a participant or claiming false parity.
+**Costs.** A load-bearing structure claim must recover three direct relation families, exact applied constraints, and one question/action/stop-or-return frame. Semantic transfer sometimes stops at a subject pattern that still cannot express the claim without a generic context field; that stop preserves the known participants and relations while the missing predicate is repaired.
 
 **Limits.** A.1.1 does not decide model truth, local system-role-kind classification, system-role-assignment occurrence or state, a relation among system-role kinds, rule validity, measurement, status, evidence, claim-scope membership, reference-scheme construction, system parthood, Work performance, release authority, or publication currentness. It selects only the bounded model-use organization after those direct claims are available.
 

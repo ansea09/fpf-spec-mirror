@@ -6,12 +6,12 @@ section_id: "E.19:11"
 section_title: "SoTA-Echoing — problem-first comparison of review approaches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__015_sota-echoing-problem-first-comparison-of-review-approaches.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:11 — SoTA-Echoing — problem-first comparison of review approaches"
-line_start: 88169
-line_end: 88186
+line_start: 88210
+line_end: 88227
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -51,5 +51,5 @@ keywords:
 
 **Selected current front.** Ordinary E.19 use combines a lightweight stable-candidate review with cheap bounded automation, then scales review depth by likely harm, novelty, reuse breadth, and source volatility. It preserves independent findings as a real review form, tests breadth with practitioner evidence only when the claim warrants it, and refreshes the smallest triggered unit. A universal exhaustive checklist costs more without reliably finding contextual defects; tool-only review costs less but misses semantics, practical use, and current-source decisions. Reopen this choice when another approach demonstrates equal or better detection of those four defect families at lower comparable effort.
 
-Action result from the pattern-review and validation practice grounding: a favorable, cautionary, or return-for-repair E.19 result episteme, clean checklist, or clean retrieval-entry check does not become project certification, project evidence, safety/compliance assurance, gate input, release justification, work authority, publication truth, or project refusal/approval. Its EntityOfConcern is the exact reviewed FPF pattern edition or subset; its ClaimGraph states the review scope, applicable profiles, findings or aggregate cleared boundary, conclusion, non-use, and reopen condition. Review/repair/verification work, witnesses and evidence use, F.10 status use, B.3 assurance, publication/currentness, and any authority-bearing admission or refresh decision remain separate. Reopen the result when the reviewed text, accepted-source-material decision, SoTA grounding, a related pattern or concrete constraint it supplies, selected companion/projection function, profile trigger, review boundary, or attempted project-side reuse changes.
+Action result from the pattern-review and validation practice grounding: an E.19 result governs one exact FPF pattern edition or subset. Its EntityOfConcern, ClaimGraph, scope, applicable profiles, findings or aggregate cleared boundary, conclusion, and reopen condition state that pattern-quality claim. Any project-side reuse supplies its own governing relation, evidence or assurance, and decision under the relevant project rule. Review, repair, verification, result publication, admission or refresh decision, and project-side reuse remain separately recoverable. Reopen the E.19 result when the reviewed text, accepted source, SoTA grounding, related pattern contribution, selected companion or projection function, profile trigger, review boundary, or claimed downstream use changes.
 

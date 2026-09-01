@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:5"
 section_title: "Complete Worked Case"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__007_complete-worked-case.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:5 — Complete Worked Case"
-line_start: 35846
-line_end: 35925
+line_start: 35853
+line_end: 35932
 dependencies:
   - "A.10"
   - "A.15"
@@ -75,7 +75,7 @@ A22IdentityBasis:
     RepairIfAnyCheckViolatedAndProposalTargetsCandidate
   namedSelectionUseFrame:
     questionOrAction: which review continuation is available now?
-    forbiddenOverread: the display is not performed Work or authorization
+    groundedForbiddenOverread?: because the displayed order can look executable, require the direct Work or authority predicate before using it as work history or authorization
 constraintGovernedProfileBasis:
   locusBindingRows[]:
     - <DesignReviewAlternatives@DR-27, candidate, design under review, DesignCandidate-A>

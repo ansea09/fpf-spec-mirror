@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__010_consequences.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:9 — Consequences"
-line_start: 71549
-line_end: 71554
+line_start: 71607
+line_end: 71612
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -48,6 +48,7 @@ dependencies:
   - "E.4.PFIP"
   - "E.4.PFR"
   - "F.18"
+  - "F.19"
   - "F.6"
   - "G.11"
   - "G.2"

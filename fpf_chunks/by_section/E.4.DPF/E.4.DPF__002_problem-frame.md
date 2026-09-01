@@ -6,12 +6,12 @@ section_id: "E.4.DPF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__002_problem-frame.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:1 — Problem frame"
-line_start: 70599
-line_end: 70606
+line_start: 70652
+line_end: 70659
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -27,7 +27,6 @@ dependencies:
   - "C.30.AD"
   - "C.32.MWA"
   - "C.33"
-  - "C.33-C.35"
   - "C.34"
   - "C.35"
   - "E.10"
@@ -49,6 +48,7 @@ dependencies:
   - "F.0.2"
   - "F.1"
   - "F.18"
+  - "F.19"
   - "F.6"
   - "G.11"
   - "G.2"
@@ -62,7 +62,7 @@ keywords:
 
 Use this pattern when a group needs to create a domain principle framework or local practice framework grounded in FPF: for example a hydroponic-cucumber framework, a neural-network architecture framework, or a Codex-process framework.
 
-This pattern describes the reusable way of authoring or revising an FPF-grounded framework, not the files that happen to carry it. Start by writing one paragraph that names the intended reader, first use, ordinary non-use boundary, and the domain or local situation. That paragraph is the first useful move: it is enough to enter the first-hour route before the framework architecture, durable names, or publication package are settled.
+This pattern describes the reusable way of authoring or revising an FPF-grounded framework, not the files that happen to carry it. Start by writing one paragraph that names the intended reader, the domain or local situation, the first useful action, and the ordinary stop or wrong-turn return. Add a non-use boundary only when an independently grounded competing use is plausible for that reader and changes action. That paragraph is enough to enter the first-hour route before the framework architecture, durable names, or publication package are settled.
 
 Use this pattern when the work creates or revises the framework itself. Use `E.11` or `E.17` when an existing framework remains unchanged and the work only changes how readers or agents find or access it.
 

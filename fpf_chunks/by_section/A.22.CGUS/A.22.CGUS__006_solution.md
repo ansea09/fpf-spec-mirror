@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__006_solution.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:4 — Solution"
-line_start: 35704
-line_end: 35845
+line_start: 35710
+line_end: 35852
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,7 +70,7 @@ Use the four A.22 discriminators to identify one `U.Structure`:
 - its constituent references;
 - the obtaining relation occurrences it selects;
 - the applied constraint claims;
-- the named selection-use frame: the question or action and the overread it forbids.
+- the named selection-use frame: the question or action and the stop or return condition; add a grounded forbidden overread only when the visible structure supplies that exact inference.
 
 CGUS membership adds locally declared loci and bindings that expose how those constituents matter to the unfolding question. The selected relations and constraints must define at least two potential continuation candidates across allowed cases. The current continuation result, a description, or a publication field adds no structure-identity discriminator.
 
@@ -82,7 +82,8 @@ A22IdentityBasis:
   appliedConstraintClaimRefs[]
   namedSelectionUseFrame:
     questionOrAction
-    forbiddenOverread
+    stopOrReturnCondition
+    groundedForbiddenOverread?
 constraintGovernedProfileBasis:
   locusBindingRows[]:
     locusRef: <selectedCGUSRef, locusId>

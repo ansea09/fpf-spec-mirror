@@ -6,12 +6,12 @@ section_id: "E.4.DPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__006_archetypal-grounding.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:5 — Archetypal Grounding"
-line_start: 71015
-line_end: 71087
+line_start: 71072
+line_end: 71144
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -27,7 +27,6 @@ dependencies:
   - "C.30.AD"
   - "C.32.MWA"
   - "C.33"
-  - "C.33-C.35"
   - "C.34"
   - "C.35"
   - "E.10"
@@ -49,6 +48,7 @@ dependencies:
   - "F.0.2"
   - "F.1"
   - "F.18"
+  - "F.19"
   - "F.6"
   - "G.11"
   - "G.2"
@@ -87,7 +87,7 @@ Replayable authoring slice:
 
 | Authoring output | Filled slice |
 | --- | --- |
-| Domain or local use-frame declaration | `GreenhouseCropDomain`; effective scheme and ClaimScope named; intended reader: crop-system architect and senior grower; first use: decide first pattern set for cucumber production guidance; non-use and qualification window explicit |
+| Domain or local use-frame declaration | `GreenhouseCropDomain`; effective scheme and ClaimScope named; intended reader: crop-system architect and senior grower; first use: decide the first pattern set for cucumber-production guidance; stop or wrong-turn return and qualification window explicit |
 | Selected source basis and synthesis route | `G.2` pack selected because the four-pattern framework needs a broad, refreshable source basis: greenhouse climate-control sources, crop nutrition sources, and local production logs; rejected source: generic gardening advice without controlled-environment evidence |
 | Architecture answer | One `E.9` DRR guided by `E.4.PFAD` records the field promised by the public name, the connected problem families and selected problem-family pattern sets, four candidate first patterns and their material relations, one representative application, honest omissions and source returns, and a one-way dependency on FPF Core; no PFAD relation or mandatory PFR row is created. |
 | Framework-scale boundary | The four patterns count as a candidate first-edition language only if their coverage map, material relations, representative application, and maintenance and refresh boundary make a new DPF edition more useful than contributing them to an existing framework, using FPF and the sources directly, publishing a guide, or maintaining no new result. One useful pattern would trigger the same test and would usually remain a seed or contribution. |

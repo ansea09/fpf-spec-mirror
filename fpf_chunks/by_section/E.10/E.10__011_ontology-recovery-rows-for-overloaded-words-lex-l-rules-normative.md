@@ -6,12 +6,12 @@ section_id: "E.10:9"
 section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "0c3ef3d3921bb3176096e3e6102dd819c42f6446"
+commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
-line_start: 75972
-line_end: 76094
+line_start: 75748
+line_end: 75870
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,6 +39,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.10.D1"
+  - "E.10.DEV"
   - "E.10.LRN"
   - "E.10.MOVE"
   - "E.10.ROLE"
@@ -87,12 +88,12 @@ keywords:
 
 #### E.10:9.2 - Diagnostic examples, not substitutions
 
-Use these rows as compact diagnostics for common ontology recoveries, not as a replacement table. A proposed repaired sentence is accepted only after the `EntityOfConcern`, head kind, relation or claim kind, admissible use, and scope under repair are recovered and the transformed sentence passes **§ 7 MG-DA**, **§ 8 LEX.Morph**, and the `KindRestorationCheck` from `E.10:10.2`. If the example row would change the kind in the local sentence, split the sentence or leave a blocker; do not copy the example as a ready-made rewrite.
+Use these rows only after the compact cue surface selects the named lexical problem. Accept a repaired sentence when its object, head kind, relation or claim, use, and scope are preserved, the applicable § 7 or § 8 rule passes, and the changed sentence passes the local `F.19` reread. If an example would change the kind in the current sentence, split the claim or leave a blocker; do not copy it as a ready-made rewrite.
 
 | **Trigger symptom**             | **Recovered ontology example**                                                         |
 | ------------------------------- | --------------------------------------------------------------------------------------- |
 | “the process owner approves” | Start with `E.10.ROLE` for the title-like wording. If *owner* names an architectural or responsibility relation, keep that relation instead of forcing a system-role reading. State `ApproverSystemRole` separately only when the classification matters. If approval is precise performed Work, recover `ApprovalSystem` through A.13 and let A.15.1 independently admit the dated Work. Add F.6 only when the sentence or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Keep the approval speech act, authority, and decision separate. |
-| “the document enforces policy” | `Policy_vN` is an episteme used in the gate, constraint, commitment, or evidence relation named by its pattern; it does not act. If enforcement Work is current, recover every exact actual performer through A.13 and let A.15.1 independently admit the dated Work. Add F.6 only when precise assignment-bound attribution is expressly consumed through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Add `PolicyEnforcementSystemRole` only when that classification matters. A compact rewrite may omit only an unused assignment identifier after any attribution is established. |
+| “the document enforces policy” | `Policy_vN` states the policy used by the applicable gate, constraint, commitment, or evidence relation. When enforcement Work is current, name its actual performer, admit the dated Work through A.13 and A.15.1, and add F.6 only for a precise assignment-bound attribution. Add `PolicyEnforcementSystemRole` only when that classification changes the claim. |
 | “our service runs nightly jobs” | Apply `L-SERV` and A.6.P:4.11a first. If the sentence means dated service-provision Work performed by a scheduler system, recover that exact actual performer through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the sentence or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Add `SchedulerSystemRole` only when that classification matters. Promise content remains separate. |
 | "the API is the service" | Apply `L-SERV` and A.6.P:4.11a. A reusable way of access may be `API_Access_Method : U.Method`; a claim-bearing interface specification is an episteme and becomes `U.MethodDescription` only under A.3.2; an addressable endpoint is a separate bearer; use A.1.SCR for it only when the claim depends on systemhood. Any API publication form/carrier remains separate, and **promise content** states the promised result and acceptance criteria. The source wording chooses none of these by itself. |
 | “capability assigned to team Y” | Split the claims. `TeamY` may be an admitted System that has Capability C within envelope E. If the wording also means a work-facing classification, name its local system-role kind; if it means an assignment, name the occurrence with `TeamY` as holder and its declared `U.SystemRoleAssignment` species. Capability, classification, and assignment do not establish one another. |
