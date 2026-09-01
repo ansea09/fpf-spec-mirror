@@ -6,12 +6,12 @@ section_id: "G.13:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__014_relations.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:13 — Relations"
-line_start: 106960
-line_end: 106966
+line_start: 106988
+line_end: 106994
 dependencies:
   - "A.18"
   - "A.19"

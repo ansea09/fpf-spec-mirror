@@ -6,12 +6,12 @@ section_id: "F.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__001_intro.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:intro — Intro"
-line_start: 96297
-line_end: 96305
+line_start: 96325
+line_end: 96333
 dependencies:
   - "A.15"
   - "A.15.1"

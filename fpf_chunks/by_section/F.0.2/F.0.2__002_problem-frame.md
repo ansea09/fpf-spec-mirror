@@ -6,12 +6,12 @@ section_id: "F.0.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__002_problem-frame.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
   - "F.0.2:1 — Problem frame"
-line_start: 92568
-line_end: 92579
+line_start: 92596
+line_end: 92607
 dependencies:
   - "A.2.4"
   - "C.2.1"

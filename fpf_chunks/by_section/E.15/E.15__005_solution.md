@@ -6,12 +6,12 @@ section_id: "E.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__005_solution.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:4 — Solution"
-line_start: 80568
-line_end: 80663
+line_start: 80596
+line_end: 80691
 dependencies:
   - "C.18"
   - "C.19"

@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__006_archetypal-grounding.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:5 — Archetypal Grounding"
-line_start: 70518
-line_end: 70550
+line_start: 70524
+line_end: 70567
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -75,4 +75,15 @@ Three separately constituted DPF product series already cover one recurring prac
 #### Existing framework
 
 A local practice framework already has an accepted architecture answer and a source record. Changing an example or publication carrier creates no new PFAD stage. Reopen only when its selected edition boundary, dependencies, initial pattern architecture, or publication or access consequence changes.
+
+#### Candidate recognition before product form
+
+These cases apply the same contribution comparison before carrier or count can close the question.
+
+| Incoming material | Preliminary comparison | Framework result |
+| --- | --- | --- |
+| A MethodDescription for composing recommendations covers a receiving question and authority, qualified supplier results, alternative formation, a declared comparison, a bounded recommendation, later-choice separation, and affected-premise refresh. | Compare those contributions with current framework content; one file, one admitted MethodDescription, or a broad decision-support framework title cannot settle their ownership. Planned or unavailable pattern content leaves the corresponding contribution unresolved. | Keep the architecture comparison open until exact current contributions support an outcome; the carrier alone selects no owner. |
+| One long-mantra Card keeps several recurring problem–move–result contributions, material relations, representative cross-use, a plausible field, and a refresh boundary in attention. | Treat the Card and mantra as evidence and run the same exact subtraction as for a larger carrier set. | Reach the unchanged field-scale test. One Card is neither proof nor disproof of a DPF. |
+| A practitioner working in one professional role combines contributions from several current DPFs and FPF. | Recover the role meaning and the exact contributions. Every action, result, return, and refresh duty is carried, and no coherent independent remainder or distinct field promise survives. | Reuse the cross-DPF composition, with a role-centred view when needed; no new DPF is warranted. |
+| One composite Method or local procedure has several ordered steps for one recurring problem/result family. | Keep the Method, MethodDescription, carrier, Work, and listed steps distinct; no connected field-scale language or independent maintenance boundary survives. | Return the smallest exact non-framework result or stop without unnecessary PFAD work. |
 

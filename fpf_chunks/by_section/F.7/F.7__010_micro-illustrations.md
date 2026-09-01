@@ -6,12 +6,12 @@ section_id: "F.7:9"
 section_title: "Micro-illustrations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__010_micro-illustrations.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:9 — Micro-illustrations"
-line_start: 94628
-line_end: 94649
+line_start: 94656
+line_end: 94677
 dependencies:
   - "A.6.9"
   - "B.3"

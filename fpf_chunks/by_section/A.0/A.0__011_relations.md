@@ -6,7 +6,7 @@ section_id: "A.0:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__011_relations.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:10 — Relations"

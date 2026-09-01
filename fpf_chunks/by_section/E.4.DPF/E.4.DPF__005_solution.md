@@ -6,12 +6,12 @@ section_id: "E.4.DPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__005_solution.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:4 — Solution"
-line_start: 70679
-line_end: 71071
+line_start: 70699
+line_end: 71097
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -66,11 +66,15 @@ Start here with the cold-reader route. It answers whether framework authoring sh
 2. State the useful move a domain or local principle framework might add.
 3. Inspect what FPF Core, existing domain or local frameworks, and current sources already provide.
 4. Test a cheaper search, curated reading route, or access-only result.
-5. If a reusable problem-solution language still looks useful, sketch one to four provisional pattern candidates with recognizable problems and solution moves. These candidates are seeds or contributions; their number does not make a framework edition.
-6. State what field of practice the proposed framework promises to cover. Test whether its recurring problem families, pattern relations, and one representative first use need a new framework. If the current material is too narrow, retain it as, for example, a seed, a contribution to an existing framework, a guide, direct use of FPF and the sources, or another maintained result whose kind fits its use.
-7. Ask whether choosing among five outcomes—a new or revised framework, a contribution to an existing framework, a non-framework product, a thinner publication or access route, or no new product now—will settle a later-used edition, dependency, initial pattern placement or relation, direct-subject identity or change rule, or publication or access decision whose rationale another author or reviewer needs.
+5. Before classifying the material by its carrier or a broad existing owner, recover candidate contributions as recurring practitioner problems, reusable moves or Methods, first useful results, ordinary stops or wrong-turn returns, and source or refresh boundaries.
+   - Treat a role or competence account, several independently reusable contributions, a Card or mantra spanning material relations, a plausible field and refresh boundary, a representative use across contributions, or visible action or result loss under one broad owner as a cue to compare, not as proof of a DPF.
+   - In one recognizable situation, compare each contribution with the exact current FPF or admitted-DPF action, first useful result, non-use or return boundary, and source or refresh obligation. Preserve whether it is carried by an exact current owner, supplied by an exact external result, an action-bearing remainder, or unresolved. A shared topic, role label, carrier form, missing product name, or missing PatternIDs cannot close the question.
+   - If this exact subtraction closes every contribution and no later-used field, edition, relation, direct-subject, publication, or access consequence remains, take the smallest useful result or stop. If exact ownership is unresolved, a coherent connected remainder survives, or closure would erase a material relation or field or refresh responsibility, keep the framework question open through the following steps.
+6. If a reusable problem-solution language still looks useful, sketch one to four provisional pattern candidates with recognizable problems and solution moves. These candidates are seeds or contributions; their number does not make a framework edition.
+7. State what field of practice the proposed framework promises to cover. Test whether its recurring problem families, pattern relations, and one representative first use need a new framework. If the current material is too narrow, retain it as, for example, a seed, a contribution to an existing framework, a guide, direct use of FPF and the sources, or another maintained result whose kind fits its use.
+8. Ask whether choosing among five outcomes—a new or revised framework, a contribution to an existing framework, a non-framework product, a thinner publication or access route, or no new product now—will settle a later-used edition, dependency, initial pattern placement or relation, direct-subject identity or change rule, or publication or access decision whose rationale another author or reviewer needs.
 
-8. If no, take the useful contribution, thinner route, other maintained result, or stop without a DRR. If yes, use `E.4.PFAD` to state which of the same five outcomes was selected and its framework-specific consequences in one `E.9` DRR.
+9. If no, take the useful contribution, thinner route, other maintained result, or stop without a DRR. If yes, use `E.4.PFAD` to state which of the same five outcomes was selected and its framework-specific consequences in one `E.9` DRR.
 
 These are alternative entry outcomes, not serial stages. A separate organization-design proposal is useful only when a named review use needs candidate organization claims. A separate dependency description is useful only when a named next authoring use needs a stable account of dependency availability and relevance. Neither is a prerequisite for recognizing or answering the architecture question.
 When a DPF answer is selected and authoring begins, grow the seed only as far as the next use requires: a source-pack stub; provisional public names; the first pattern candidates through `E.8`; ordinary assertions of the material relations among them; optional `E.4.PFR` rows for a named maintenance use; a publication or access consequence; and the first quality and currentness route. Add the effective ReferenceScheme, ClaimScope, qualification window, or a selected BoundedModelUseStructure only when those distinctions change interpretation for the receiving use.
@@ -83,7 +87,7 @@ If this account separately claims dated authoring or project `U.Work`, recover e
 
 The Work may use this description through an identified A.6.1 application and bindings. Local system-role classification, capability, authority, responsibility, maintenance, and access remain separate claims. A numbered list, imperative sentence, document order, file layout, or coordination table neither performs Work nor establishes a result.
 
-The first useful output closes the immediate question. It may be a cheap route or stop with no DRR; one `E.9` framework-architecture answer selecting one of the five outcomes in steps 7–8; an optional organization-design proposal whose candidate claims need separate review; a post-existence architecture-description use; or an optional dependency description needed by a named next authoring use. These results are selected by their conditions, not by list order, and they do not form a mandatory lifecycle.
+The first useful output closes the immediate question. It may be a cheap route or stop with no DRR; one `E.9` framework-architecture answer selecting one of the five outcomes in steps 8–9; an optional organization-design proposal whose candidate claims need separate review; a post-existence architecture-description use; or an optional dependency description needed by a named next authoring use. These results are selected by their conditions, not by list order, and they do not form a mandatory lifecycle.
 
 Choose the source route from the current question and the result it needs.
 
@@ -97,6 +101,8 @@ Choose the source route from the current question and the result it needs.
 | A search index, generated crosswalk, or other derived lookup proposes contributions | Resolve each useful result to the authoritative pattern or source body and edition. Report partial coverage and unresolved returns; widen the lookup when a known contribution is missing. | A derived hit aids discovery, and a miss does not show that the contribution is absent. |
 
 #### E.4.DPF:4.0 - Establish framework scale before edition authoring
+
+Run the candidate-recognition move in `E.4.DPF:4` before a public product name, PatternID, pattern body, or pattern count is available. One Card, file, admitted MethodDescription, role account, or absent PatternIDs neither proves nor disproves framework scale; each can only supply evidence for the same semantic test below.
 
 Do not infer a new DPF or LPF edition from the current authoring slice. One useful pattern is usually a seed, candidate, or contribution, so `pattern_count = 1` is a strong diagnostic: ask whether the candidate really supplies a connected pattern language rather than one useful result under a broad name. A few related patterns around one problem family may likewise form a useful selected problem-family pattern set inside an existing framework. In FPF, *pattern nest* remains the separate E.8 name for a publication and specialization placement grouping.
 
@@ -313,7 +319,7 @@ To refer to a pattern, the PatternID is enough when the surrounding text identif
 Select the result whose condition is true now:
 
 1. **Cheap route or stop.** Existing FPF or source material closes the immediate use and no later author or reviewer needs a settled edition, dependency, initial pattern-placement or relation, or publication/access boundary. Use the route or stop without `E.4.PFAD` or an `E.9` DRR.
-2. **Framework-architecture answer.** A choice among the five outcomes in steps 7–8 must settle a later-used boundary. Use the `E.4.PFAD` profile and record the selected answer, including relations among initial patterns that change the architecture, in one `E.9` DRR. PFAD supplies no separate result or relation.
+2. **Framework-architecture answer.** A choice among the five outcomes in steps 8–9 must settle a later-used boundary. Use the `E.4.PFAD` profile and record the selected answer, including relations among initial patterns that change the architecture, in one `E.9` DRR. PFAD supplies no separate result or relation.
 3. **Organization-design proposal.** Candidate organization claims need their own review before an architecture answer is selected. Use the C.2.1 proposal episteme locally called `FrameworkOrganizationDesignProposal`. The proposal is optional and is not a prerequisite for the architecture question.
 4. **Architecture-description use.** The framework entity, architecture relation, and selected structures already exist, and the immediate question is how an architecture description may be used. Use `C.30.AD`; its `ArchitectureDescriptionUseCard@Project` name is retrieval-only. When project locality depends on a composite project `U.Work`, identify that Work under `A.15.6`, recover every precise performer's A.13 core, and use A.15.1 for independent Work admission. Add F.6 only when precise assignment-bound attribution is also current. Keep the description-use relation separate.
 5. **Authoring-dependency description.** A named next authoring use needs a stable account of dependency availability and relevance. Use the C.2.1 episteme locally called `FrameworkAuthoringDependencyDescription`. It may cite the accepted answer and its `E.9` DRR when that basis matters, but it is neither a prerequisite nor an automatic result of the architecture answer.

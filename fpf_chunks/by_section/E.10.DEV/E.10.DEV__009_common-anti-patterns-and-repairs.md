@@ -6,12 +6,12 @@ section_id: "E.10.DEV:8"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__009_common-anti-patterns-and-repairs.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:8 — Common Anti-Patterns and Repairs"
-line_start: 76435
-line_end: 76446
+line_start: 76461
+line_end: 76472
 dependencies:
   - "A.15"
   - "A.2.2"

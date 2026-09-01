@@ -6,7 +6,7 @@ section_id: "A.19.SPR:6"
 section_title: "Conformance checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__008_conformance-checks.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:6 — Conformance checks"

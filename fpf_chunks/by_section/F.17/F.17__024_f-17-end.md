@@ -6,12 +6,12 @@ section_id: "F.17:End"
 section_title: "F.17:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__024_f-17-end.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:End — F.17:End"
-line_start: 99157
-line_end: 99158
+line_start: 99185
+line_end: 99186
 dependencies:
   - "A.1.1"
   - "A.10"

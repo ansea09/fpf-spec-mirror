@@ -6,12 +6,12 @@ section_id: "G.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__004_forces.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:3 — Forces"
-line_start: 101136
-line_end: 101144
+line_start: 101164
+line_end: 101172
 dependencies:
   - "A.10"
   - "A.15.3"

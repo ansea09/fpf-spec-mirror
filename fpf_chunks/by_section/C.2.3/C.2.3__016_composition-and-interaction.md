@@ -6,7 +6,7 @@ section_id: "C.2.3:15"
 section_title: "Composition and Interaction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__016_composition-and-interaction.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:15 — Composition and Interaction"

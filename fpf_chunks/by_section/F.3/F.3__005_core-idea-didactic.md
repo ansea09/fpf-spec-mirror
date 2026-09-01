@@ -6,12 +6,12 @@ section_id: "F.3:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__005_core-idea-didactic.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:4 — Core idea (didactic)"
-line_start: 93337
-line_end: 93345
+line_start: 93365
+line_end: 93373
 dependencies:
   - "A.11"
   - "A.7"

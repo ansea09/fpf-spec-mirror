@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__003_problem-frame.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:1 — Problem Frame"
-line_start: 77307
-line_end: 77312
+line_start: 77333
+line_end: 77338
 dependencies:
   - "A.2"
   - "A.2.1"

@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__012_sota-echoing.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:11 — SoTA-Echoing"
-line_start: 85144
-line_end: 85154
+line_start: 85172
+line_end: 85182
 dependencies:
   - "A.10"
   - "A.15"

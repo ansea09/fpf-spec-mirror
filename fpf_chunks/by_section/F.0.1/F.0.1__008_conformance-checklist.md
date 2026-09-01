@@ -6,12 +6,12 @@ section_id: "F.0.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__008_conformance-checklist.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:7 — Conformance Checklist"
-line_start: 92491
-line_end: 92511
+line_start: 92519
+line_end: 92539
 dependencies:
   - "E.10"
   - "E.10.D1"

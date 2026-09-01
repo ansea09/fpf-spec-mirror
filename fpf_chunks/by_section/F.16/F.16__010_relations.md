@@ -6,12 +6,12 @@ section_id: "F.16:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__010_relations.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:9 — Relations"
-line_start: 97986
-line_end: 97998
+line_start: 98014
+line_end: 98026
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
-line_start: 70424
-line_end: 70517
+line_start: 70425
+line_end: 70523
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -60,8 +60,9 @@ Ask whether choosing a framework, a non-framework product, a thinner route, an e
 - for a proposed DPF Suite, the ecosystem use, which product series may belong, constitution, inclusion and removal rules, identity through change, source return, later-review and retirement conditions, exposure choice, any separate DPF Suite Reference product decision, and any maintenance relation only when separately claimed.
 
 
-If none of these decisions and no receiving use are present, close the exploratory use without `E.4.PFAD` or an `E.9` DRR. If one is present, decision Work selects a framework, non-framework product, thinner route, existing-framework contribution, or stop and one `E.9` DRR records that answer. The cheap exit and the architecture decision are alternative entry outcomes, not serial stages.
+When `E.4.DPF` supplies a preliminary contribution account, use the contributions rather than their carrier as the input. If same-situation comparison shows that exact current FPF or admitted-DPF owners carry every action, first result, return, and source or refresh duty—or exact external results supply them—and no decision above remains, take the smallest useful result and close without PFAD. Keep the architecture question open when exact ownership remains unresolved, a coherent action-bearing remainder survives, or closure would erase a material relation or field or refresh responsibility that changes a later use. Carrier form, role label, shared topic, absent product name, absent PatternIDs, and counts neither choose an outcome nor close that question.
 
+If none of these decisions and no receiving use are present, close the exploratory use without `E.4.PFAD` or an `E.9` DRR. If one is present, decision Work selects a framework, non-framework product, thinner route, existing-framework contribution, or stop and one `E.9` DRR records that answer. The cheap exit and the architecture decision are alternative entry outcomes, not serial stages.
 
 For every product alternative, use *product* only as the first management cue. Then compare the direct subjects at the same grain: the framework or package episteme, System, service arrangement, Method, programme description, carrier, or other admitted result, and the relations that later work will rely on. A quality-management, service-management, publication, or content-management scheme may supply a useful probe, but it does not settle the FPF kind. If an unresolved kind can change the selected answer, keep the product proposed and make that kind the next decision question.
 
@@ -72,7 +73,7 @@ When the architecture question is open, the framework-specific part of the DRR s
 
 1. the intended practitioner, public field name and promise, recurring problem, and bounded architecture question;
 2. the selected outcome: a new or revised framework edition, a contribution to an existing framework, a non-framework product, a thinner publication or access route, or no new product now; for a non-framework product, also the direct subject kind and the identity, current-state, provision, publication, availability, or maintenance relations actually used by the decision;
-3. its field: who can first use it without unpublished authoring context and for what; the connected problem families and useful results; what the current FPF and admitted DPFs already provide and what remains uncovered; serious alternatives, such as splitting or merging the proposed framework, using existing sources directly, contributing to an existing framework, selecting a programme or service, selecting a separate evidence-package episteme, or keeping no new product; the limits of evidence; and what change will require a refresh;
+3. its field: who can first use it without unpublished authoring context and for what; the connected problem families and useful results; what the current FPF and admitted DPFs already provide and what remains uncovered; serious alternatives, such as splitting or merging the proposed framework, using existing sources directly, contributing to one existing framework, composing exact contributions across several admitted DPFs and FPF, selecting a programme or service, selecting a separate evidence-package episteme, or keeping no new product; the limits of evidence; and what change will require a refresh;
 
 4. the selected problem-family pattern sets, first patterns and their material relations, representative cross-problem application, and important omissions;
 5. which practice structures change the answer and how their Methods, descriptions, patterns, direct subjects, and managed result boundaries fit together. When those structures do not line up one-for-one, use a completed `C.32.MWA` synthesis; use `E.23.CDI` only when capability development for a named Work family changes the answer;
@@ -80,13 +81,17 @@ When the architecture question is open, the framework-specific part of the DRR s
 7. the sources to revisit for each important claim, whether the evidence supports, suggests, or only motivates it, the limits of that evidence, and the publication or access consequence; and
 8. material alternatives, accepted costs or losses, practical consequences, the first authoring action or stop, and the reopen condition.
 
+For any opened question, record only candidate contributions that can change the outcome. For each, state whether an exact current FPF or admitted-DPF owner carries its action, first result, return, and source or refresh duty; an exact external result supplies it; an action-bearing remainder survives; or ownership remains unresolved. A shared topic or broad framework name supplies none of these dispositions by itself.
+
 When professional Method coverage can change point 5, the same compact framework answer projects five connected claim groups from points 1, 3, 4, 5, 7, and 8. The projection is content of that one answer and its one ordinary `E.9` DRR, not a second architecture record, fixed schema, or later DPF invention. Fill each group only to the grain that changes first use:
 
 1. **Practice truth and first use:** identify every bounded practice claim or promised practice contribution by its exact subject and scope, mark that claim—not the answer as a whole—as obtaining or possible-future, and state practitioner, recurring or anticipated difficulty, sought result, first use, stop or wrong-turn return, qualification window, and receiving decision. Include only non-use boundaries admitted by `F.19`'s grounded-contribution test.
 2. **Project and Method positions:** name the direct project subjects, use and environment, materially different solution forms, and Methods under their actual operational, system-change, solution, Method-of-interest, or Method-development relations. Keep incumbent Work, development or trial Work, candidate-practice Work, and intended Work distinct.
 3. **Selected structures and correspondences:** include only the Method, Work, subject, transformation-flow, capability/provider, description, contribution, Method-development, and cultural structures whose correspondence, conflict, or non-isomorphism changes the answer.
 4. **Pressures and evidence:** keep constraints, conflicts, failures, environment or interest changes, and observed, source-supported, estimated, contradicted, and missing links distinct from causal history and temporal unfolding.
-5. **Contribution, subtraction, gaps, and reopen:** state what current FPF and admitted DPFs already supply, each receiving pattern and domain filling still needed, exact external results, honest omissions and gaps, and the observation that reopens the architecture.
+5. **Contribution, subtraction, gaps, and reopen:** apply the four dispositions above, then name each receiving pattern and domain filling still needed, honest omissions and gaps, and the observation that reopens the architecture.
+
+Within an existing-framework contribution or another answer that selects no new framework, distinguish one existing DPF receiving a contribution from a use that composes exact contributions supplied by several DPFs and FPF. The latter may justify a role-centred view or access route; it is not a sixth outcome, a new DPF, or a Suite membership claim.
 
 One answer may contain several bounded practice claims with different truth status. Every selected practice question names the claim or claims it consumes, so an obtaining incumbent-practice claim can coexist with a possible-future candidate-practice claim without backdating the candidate or erasing current incumbent coverage. Independently obtaining A.13 agency claims and actual development or trial Work keep their own status; neither proves that the candidate practice obtains. Public coverage is another claim and remains limited to the exact obtaining or prospective contribution and later package evaluation.
 

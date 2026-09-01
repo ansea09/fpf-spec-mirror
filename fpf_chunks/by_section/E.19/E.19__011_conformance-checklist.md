@@ -6,12 +6,12 @@ section_id: "E.19:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__011_conformance-checklist.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:7 — Conformance Checklist"
-line_start: 88132
-line_end: 88163
+line_start: 88160
+line_end: 88191
 dependencies:
   - "A.15.1"
   - "A.6.P"

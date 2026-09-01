@@ -6,12 +6,12 @@ section_id: "F.12:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__001_intro.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:intro — Intro"
-line_start: 96523
-line_end: 96530
+line_start: 96551
+line_end: 96558
 dependencies:
   - "A.10"
   - "A.15.1"

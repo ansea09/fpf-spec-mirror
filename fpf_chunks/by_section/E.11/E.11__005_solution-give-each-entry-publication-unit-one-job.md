@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 78116
-line_end: 78453
+line_start: 78142
+line_end: 78481
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -73,6 +73,8 @@ FirstEntryScenario:
 The semantic keys in `E.11:4.5` identify situations, not steps. A reader may inspect any finite plausible set and stop as soon as one direct pattern is worth opening or no remaining entry can change that starting choice.
 
 Keep three reader-facing jobs distinct. A compact locator points to a direct pattern when retrieval is enough and carries no mandatory mantra. An ordinary practical entry makes the five values above recoverable when one direct pattern, with at most a plainly conditioned next use, can answer the difficulty, provide a first result or blocker, and say when to stop or return. A Practical-Use Card is a selected Readme example for a recurring complex difficulty whose useful answer normally spans several direct pattern contributions, checks, and returns. Its visible mantra keeps that longer dependency in attention during repeated or interrupted use. The card is a publication unit that publishes practical-use guidance: the guidance is what it tells the reader, while the card unit is the entry that carries it. Neither is the shared form, a pattern body, a Method, performed Work, a project result, authority, or a CGUS demonstration.
+
+When a Card or mantra is useful because it keeps material dependencies among several independently reusable recurring problem–move–result contributions in attention, return to the candidate-recognition move in `E.4.DPF:4` before treating the Card as only an access front. Its form is a cue for that comparison, not proof of framework scale or product membership. When no live framework question remains, continue choosing or maintaining the entry form under the tests below.
 
 The displayed entries are examples of how the pattern language can help, not a catalogue or coverage boundary. When both uses matter to discoverability, show at least one ordinary example of cheap direct help and a few cards that demonstrate extended cross-pattern use. Say plainly that many other questions can start from the index, a guide, search, or a small plausible set of direct patterns. Do not turn every useful topic, pattern, or reader-entry set into a public example merely to prove breadth.
 

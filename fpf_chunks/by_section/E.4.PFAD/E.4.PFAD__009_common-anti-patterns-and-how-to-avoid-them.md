@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70592
-line_end: 70608
+line_start: 70611
+line_end: 70628
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -47,6 +47,7 @@ keywords:
 
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
+| Carrier-first closure or automatic escalation | A role, file, Card, mantra, MethodDescription, count, missing PatternIDs, or broad owner either dismisses a possible language before comparison or forces every multipart carrier into PFAD. An action-bearing remainder or cheap exit disappears. | Recover candidate contributions through `E.4.DPF:4` and compare exact actions, first results, returns, and source or refresh duties. Stop when subtraction closes and no later-used consequence remains; otherwise let the existing PFAD discriminator open the decision. The cue selects no outcome. |
 | PFAD as a second decision | Authors reconcile an E.9 answer with another PFAD result. | Keep one answer selected by decision Work and recorded in one E.9 DRR; use PFAD only as the framework-specific profile. |
 | Paperwork on the cheap exit | A curated route, suitable non-framework result or service, existing-framework contribution, or stop triggers a DRR without settling a later-used boundary. | Close the exploratory use directly. |
 | Programme erased by a result-kind test | A continuing inquiry programme is called no product because it is not an episteme or publication package. | Keep the Plain programme-product boundary when it is useful, but name what actually continues: an admitted programme System or arrangement, or the current programme description, provider and maintaining Systems, commitments, and any admitted service state. Keep bounded Work and evidence-package epistemes separate. |

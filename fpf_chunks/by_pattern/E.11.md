@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.md"
-commit_sha: "434e17ec848bb7f49e6da99dfc268effb2b5b9af"
+commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
-line_start: 78072
-line_end: 78577
+line_start: 78098
+line_end: 78605
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -116,6 +116,8 @@ FirstEntryScenario:
 The semantic keys in `E.11:4.5` identify situations, not steps. A reader may inspect any finite plausible set and stop as soon as one direct pattern is worth opening or no remaining entry can change that starting choice.
 
 Keep three reader-facing jobs distinct. A compact locator points to a direct pattern when retrieval is enough and carries no mandatory mantra. An ordinary practical entry makes the five values above recoverable when one direct pattern, with at most a plainly conditioned next use, can answer the difficulty, provide a first result or blocker, and say when to stop or return. A Practical-Use Card is a selected Readme example for a recurring complex difficulty whose useful answer normally spans several direct pattern contributions, checks, and returns. Its visible mantra keeps that longer dependency in attention during repeated or interrupted use. The card is a publication unit that publishes practical-use guidance: the guidance is what it tells the reader, while the card unit is the entry that carries it. Neither is the shared form, a pattern body, a Method, performed Work, a project result, authority, or a CGUS demonstration.
+
+When a Card or mantra is useful because it keeps material dependencies among several independently reusable recurring problem–move–result contributions in attention, return to the candidate-recognition move in `E.4.DPF:4` before treating the Card as only an access front. Its form is a cue for that comparison, not proof of framework scale or product membership. When no live framework question remains, continue choosing or maintaining the entry form under the tests below.
 
 The displayed entries are examples of how the pattern language can help, not a catalogue or coverage boundary. When both uses matter to discoverability, show at least one ordinary example of cheap direct help and a few cards that demonstrate extended cross-pattern use. Say plainly that many other questions can start from the index, a guide, search, or a small plausible set of direct patterns. Do not turn every useful topic, pattern, or reader-entry set into a public example merely to prove breadth.
 
@@ -531,7 +533,7 @@ For a cross-DPF entry, `E.11.DSG` supplies the direct four-return, exact-source,
 
 - **Builds on:** `E.8` for pattern recognition text, `E.17.AUD` for publication-unit discipline, `F.17` and `F.18` for published terms and naming, and `C.2.1` for public helper epistemes.
 - **Leads to:** `E.11.PUA` for applying one selected pattern and `E.11.PUR` for local applicability, recommendation, and coordination.
-- **Coordinates with:** `E.11.PFP` for the shared ordinary-entry and card forms; `E.4.FPF` and `E.4.DPF` for each product's selected non-exhaustive example keys and forms plus its reading-burden measure and two limits; `A.22.CGUS` for independently admitted demonstrative slices; `E.18` for flow-local results; `G.11` for currentness orchestration; `E.11.DSG` for cross-DPF entry, direct-known-DPF bypass, and return to the Suite collection and the product series, editions, results, states, or sources that change the answer; and each direct pattern cited by a public entry.
+- **Coordinates with:** `E.11.PFP` for the shared ordinary-entry and card forms; `E.4.FPF` and `E.4.DPF` for each product's selected non-exhaustive example keys and forms plus its reading-burden measure and two limits, with `E.4.DPF:4` governing the return from a contribution-spanning Card or mantra to candidate recognition; `A.22.CGUS` for independently admitted demonstrative slices; `E.18` for flow-local results; `G.11` for currentness orchestration; `E.11.DSG` for cross-DPF entry, direct-known-DPF bypass, and return to the Suite collection and the product series, editions, results, states, or sources that change the answer; and each direct pattern cited by a public entry.
 
 ### E.11:End
 
