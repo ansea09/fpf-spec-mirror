@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 75266
-line_end: 75434
+line_start: 75596
+line_end: 75764
 dependencies:
   - "A.10"
   - "A.15"

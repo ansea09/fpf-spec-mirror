@@ -6,12 +6,12 @@ section_id: "B.4.1:13"
 section_title: "Worked Route Sets"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__014_worked-route-sets.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:13 — Worked Route Sets"
-line_start: 40460
-line_end: 40485
+line_start: 40739
+line_end: 40764
 dependencies:
   - "A.15"
   - "A.16"

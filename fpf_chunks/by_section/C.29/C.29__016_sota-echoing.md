@@ -6,17 +6,18 @@ section_id: "C.29:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__016_sota-echoing.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13 — SoTA-Echoing"
-line_start: 58100
-line_end: 58217
+line_start: 58378
+line_end: 58495
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
   - "A.15.4"
   - "A.19"
   - "A.3.3"
@@ -46,6 +47,7 @@ dependencies:
   - "E.19"
   - "E.8"
   - "E.9"
+  - "F.19"
   - "F.9"
   - "G.10"
   - "G.2"
@@ -81,20 +83,20 @@ Local `SourceUseRelation` slot discipline:
 - source-use disposition: adopt, adapt, reject, candidate stress test, recognition cue, source identity locator, checked source-text carrier, or historical background only;
 - currentness, supersession, contradiction, narrowing, or demotion condition;
 - output-change condition for the C.29 result;
-- stop or output-change condition; add one grounded source-prestige overread only when the source presentation makes that exact inference live.
+- stop or return condition, and any blocked overread that passes F.19's plausible-reader test.
 
 | `SourceUseRelation` | Declared `C.29` use | Use boundary or return |
 |---|---|---|
-| `recognitionCue` | Help the reader notice an invariant, obstruction, symmetry, duality, state variable, scale cue, or comparison cue. | Stop at recognition; route any substantive claim to its direct pattern. |
-| `candidateLensPrompt` | Suggest a first candidate lens family or mathematical object to test against the problem cue being repaired. | Stop unless testing the candidate changes the next lens-use action. |
-| `adequacyControlSource` | Discipline preserved structure, lost structure, stop condition, validation regime, or neighboring-pattern application. | Keep the C.29 fields and direct subject pattern authoritative for the resulting claim. |
-| `validationBoundarySource` | Constrain the declared validation regime, evaluation slice, uncertainty, failure case, or domain of applicability. | Carry any evidence, benchmark, assurance, or release claim through its direct pattern. |
-| `acceptedDomainTheory` | Permit local use inside a domain where the theory is already the governing local formalism. | For cross-context use, apply `F.9`, the needed evidence relation, and a stop condition. |
-| `proofUnderAssumptions` | Justify a formal property under stated assumptions. | For real-world use, state the applicable assumptions, observations, bridge, and evidence relation. |
+| `recognitionCue` | Help the reader notice an invariant, obstruction, symmetry, duality, state variable, scale cue, or comparison cue. | For evidence, truth, ontology, a causal-use verdict, assurance, or release confidence, establish that separate claim and its basis through its subject pattern. |
+| `candidateLensPrompt` | Suggest a first candidate lens family or mathematical object to test against the problem cue being repaired. | Test a candidate cheaply when it could change the next lens-use action; require use of that lens only after its contribution is established. |
+| `adequacyControlSource` | Discipline preserved structure, lost structure, stop condition, validation regime, or neighboring-pattern application. | Satisfy C.29's field requirements and the applicable subject pattern for the resulting claim. |
+| `validationBoundarySource` | Constrain the declared validation regime, evaluation slice, uncertainty, failure case, or domain of applicability. | An evidence relation, assurance claim, benchmark result, or release confidence requires its own basis and subject-pattern result. |
+| `acceptedDomainTheory` | Permit local use inside a domain where the theory is already the governing local formalism. | For cross-context ontology import or broader transfer, apply `F.9`, the needed evidence relation, and a stop condition. |
+| `proofUnderAssumptions` | Justify a formal property under stated assumptions. | A formal proof can support a real-world-adequacy claim only when its assumptions, observations, Bridge, and evidence relation are also established. |
 | `negativeExample` | Expose failure, obstruction, non-transfer, counterexample, or stop condition. | Scope the result to the demonstrated failure and its return condition. |
-| `rivalLensSource` | Name a principal rival lens or relation that changes the bounded lens-use action being made. | Use the governing comparison or selection pattern when that broader claim is current. |
-| `sourceIdentityLocator` | Preserve source identity by value when a source is being cited or traced. | Carries identity and traceability for this use. |
-| `historicalBackgroundOnly` | Explain lineage or terminology. | A present-day claim requires its own current source-use relation and direct pattern. |
+| `rivalLensSource` | Name a principal rival lens or relation that changes the bounded lens-use action being made. | Keep the principal-rival choice bounded to the current lens-use action. Undertake a literature review, or establish a selector or benchmark result, only for that separately current question. |
+| `sourceIdentityLocator` | Preserve source identity by value when a source is being cited or traced. | Use a separate source-use relation and adequacy basis when the claim needs substantive support. |
+| `historicalBackgroundOnly` | Explain lineage or terminology. | For present-day prediction, decision, Bridge, causal, assurance, or FPF-kind-governance use, establish a current source-use relation and apply its subject pattern. |
 | SoTA line | Selected action-guidance effect | Disposition |
 |---|---|---|
 | Applied category theory and compositionality | Use category-theoretic material for composition, interfaces, views, transformations, and transport discipline. Require named structure, preserved composition or interface, lost structure, and failed transfer. | **Adapt.** Useful for composition and interface questions when those structures matter to the stated use. |
@@ -171,10 +173,10 @@ MathLensUse.OneLine@RodinP2W:
   LostStructure: world-facing detail, measurement condition, causal condition, bridge loss, or implementation detail not preserved by the formal relation
   VisiblePayoff: the reader can decide whether a formal declaration is needed before mechanism, method, or work reasoning
   NextLensUseAction: apply `A.6.0` if a `U.Signature(profile=FormalSubstrate)` declaration is needed; apply `E.18.1` if accepted problem-side material must be used through P2W in later FPF work
-  StopCondition: mathematical-to-mathematical exactness or near-sameness does not prove observation-bound world adequacy, causal use, evidence relation, Bridge-declared lens use, or work-start condition
+  StopCondition: return to the subject pattern when the needed claim concerns observation-bound world adequacy, causal use, an evidence relation, Bridge-declared lens use, or work-start conditions; use the formal result within its stated preservation and loss
 ```
 
-Read the slice by the exact governed object and claim. `C.29` governs the `CandidateMathObject` designation, the selected mathematical representation and explicit correspondence, and the preserved and lost structure stated for that bounded mathematical-lens-use claim or note. It does not assert a world-side participation or direct use relation; such a relation requires a separate direct relation settlement with participant meanings, an obtaining predicate, applicability, and an identity rule. `A.6.0` governs the separate formal-declaration episteme when a `U.Signature(profile=FormalSubstrate)` declaration of vocabulary, laws, imports, and applicability must be written. `E.18.1` governs P2W carry-through of the accepted problem-side distinction into the next declared FPF use. If the claim becomes measurement, evidence, causal use, Bridge semantics, mechanism realization, or work, apply `C.16`, `A.10`, `C.28`, `F.9`, `A.6.1`, or `A.15` to that claim being made.
+Read the slice by the exact governed object and claim. `C.29` governs the `CandidateMathObject` designation, the selected mathematical representation and explicit correspondence, and the preserved and lost structure stated for that bounded mathematical-lens-use claim or note. It does not assert a world-side participation or direct use relation; such a relation requires a separate direct relation settlement with participant meanings, an obtaining predicate, applicability, and an identity rule. `A.6.0` governs the separate formal-declaration episteme when a `U.Signature(profile=FormalSubstrate)` declaration of vocabulary, laws, imports, and applicability must be written. `E.18.1` governs P2W carry-through of the accepted problem-side distinction into the next declared FPF use. If the claim becomes measurement, evidence, causal use, Bridge semantics, mechanism realization, or work, apply `C.16`, `A.10`, `C.28`, `F.9`, `A.6.1`, or `A.15` to that claim being made. Use `A.15.5` when the needed result is work-entry readiness.
 
 #### C.29:13.4 - Applied category theory
 

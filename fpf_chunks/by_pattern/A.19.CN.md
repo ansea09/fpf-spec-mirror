@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.CN.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
-line_start: 31437
-line_end: 31826
+line_start: 31700
+line_end: 32089
 dependencies:
   - "A.19"
   - "A.6.1"

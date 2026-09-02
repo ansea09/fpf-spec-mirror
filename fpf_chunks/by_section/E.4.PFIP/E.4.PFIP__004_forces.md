@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__004_forces.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:3 — Forces"
-line_start: 72048
-line_end: 72059
+line_start: 72336
+line_end: 72347
 dependencies:
   - "C.2.1"
   - "C.33"

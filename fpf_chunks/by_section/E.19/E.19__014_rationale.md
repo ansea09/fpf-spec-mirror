@@ -6,12 +6,12 @@ section_id: "E.19:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__014_rationale.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:10 — Rationale"
-line_start: 88232
-line_end: 88237
+line_start: 88557
+line_end: 88562
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -27,17 +27,14 @@ dependencies:
   - "F.19"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled-world entities such as Earth"
-  - "a system-role kind"
-  - "an assignment"
   - "inside the predicate)"
-  - "or a holon"
+  - "under E.8 H-8 and CC-SG.4"
   - "where a non-deontic Invariant: predicate is required)"
 ---
 
 ### E.19:10 - Rationale
 
-Patterns are both **teaching publications** and **normative guidance publications**. A specification that grows without explicit quality gates becomes a patchwork: locally good, globally inconsistent. A profile-based gate is the smallest structure that keeps reviews repeatable while remaining sensitive to risk and pattern kind.
+Patterns are both **teaching publications** and **normative guidance publications**. A specification that grows without explicit quality gates can become a patchwork: locally good, globally inconsistent. A profile-based gate combines a short common baseline with depth selected for the live risk and pattern kind.
 
 The baseline profile protects cross-pattern comparability and editorial sanity. Risk-selected profiles keep depth where it matters: norms, SoTA claims, cross-context reuse, terminology changes, staleness refresh, and reader fit. A pattern that is admissible in package terms but speaks to the wrong reader is still a review defect.
 

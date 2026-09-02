@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:4 — Solution"
-line_start: 35271
-line_end: 35573
+line_start: 35534
+line_end: 35839
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -71,13 +71,13 @@ keywords:
 
 Select `U.Structure` as the A.22 ontic head: a dependent, non-agentive organization selected from independently identified constituents and exact obtaining relation occurrences under applied constraints for one named use frame.
 
-The constituents keep their own identities and kinds. Establish every participant and obtaining relation under its defining pattern before selecting the organization. A.22 then supplies the identity and boundary rule for that selected organization.
+The constituents keep their own identities and kinds. Every selected relation occurrence must already satisfy its defining predicate and retain identity under that predicate's occurrence rule. A system or practitioner selects their organization; A.22 supplies the identity and boundary rule for that selected organization.
 
-Use the exact constraint claims that enter the selection judgment; keep their carrying documents or rule cards outside structure identity. A usable frame states the question, admissible action, and stop or return condition. Add one grounded non-admissible overread only when a local representation feature, prior claim, observed mistake, serious alternative, or safety or applicability risk makes that exact inference live; it is use-boundary material, not an identity discriminator.
+The applied constraints are the exact constraint claims used in the selection judgment, not the identity of the document, table, rule card, or constraint episteme that carries them. A usable frame states the question, admissible action, and stop or return condition. A generic phrase such as “current use” or “appropriate structure” is not a use frame. Any optional explanatory overread follows F.19:4's plausible-reader test and remains outside structure identity.
 
-When structure selection is performed, identify the responsible system or practitioner, the exact method, and the dated Work. Record any durable result as a C.2.1 episteme. Keep the method, Work, binding or participation relation, decision, and result episteme as neighboring objects outside structure identity.
+A system may perform dated structure-selection work by an exact method and may create a result episteme about the selected structure. Recover that basis when a load-bearing selection claim is current. The method, work, A.6.1 binding or direct participation relation, decision, and C.2.1 result episteme are neighboring objects outside structure identity.
 
-A representation, description, view, or publication may designate or show the selected organization and its already identified constituents. Model that relation through C.29, C.2.1, E.17.0, or the exact publication or source-use pattern; the direct participant and relation predicates remain the obtaining basis.
+A diagram, graph, table, model, description, view, or publication may designate, represent, or describe the selected organization and its already identified constituents. Use C.29, C.2.1, E.17.0, and the exact publication or source-use patterns for those neighboring claims; the direct participant and relation predicates remain the obtaining basis.
 
 #### A.22:4.1 - Base `U.Structure` Identity and Selection
 
@@ -94,9 +94,9 @@ StructureIdentity(S) = <
 
 Base `U.Structure` identity has no ambient context field. A bounded-context label, `U.ContextSlice`, `U.ClaimScope`, project record, description, view, graph, table, or publication is not automatically an additional discriminator. If an exact scope is referenced by an applied constraint, that constraint contributes through the third discriminator. If a model-use structure is independently selected as a constituent of another structure, it contributes through the first discriminator.
 
-The first discriminator is an exact plurality, not a graph node set created by notation. A separately useful C.13 collection may designate the same constituents, but collection membership neither proves parthood nor replaces their direct identities. The second discriminator contains the exact relation occurrences chosen for this organization; a relation name, edge label, tuple position, or adjacency row is insufficient. The third contains the semantic constraints actually applied; changing only the rationale, formatting, or publication of an unchanged constraint claim does not change this discriminator. The fourth names the use question and its admissible action or stop.
+The first discriminator is an exact plurality, not a graph node set created by notation. A separately useful C.13 collection may designate the same constituents, but collection membership neither proves parthood nor replaces their direct identities. The second discriminator contains the exact relation occurrences chosen for this organization; a relation name, edge label, tuple position, or adjacency row is insufficient. The third contains the semantic constraints actually applied; changing only the rationale, formatting, or publication of an unchanged constraint claim does not change this discriminator. The fourth names the use question, admissible action, and stop or return condition.
 
-Two references resolve to the same `U.Structure` when all four discriminators resolve to the same values. A changed designator, selecting system, method, work occurrence, result episteme, description, graph, representation scheme, view, or publication leaves the structure unchanged when the four discriminators remain unchanged. Replacing a constituent, a selected relation occurrence, an applied constraint, or the named use frame can identify another structure. If a relation occurrence itself may have been reidentified, apply its direct relation pattern before reapplying A.22.
+Two references resolve to the same `U.Structure` when all four discriminators resolve to the same values. A changed designator, selecting system, method, work occurrence, result episteme, description, graph, representation scheme, view, or publication leaves the structure unchanged when the four discriminators remain unchanged. Replacing a constituent, a selected relation occurrence, an applied constraint, or the named use frame can identify another structure. If a relation occurrence itself may have been reidentified, apply its direct relation pattern before reapplying A.22. A change to an explanatory guard alone does not change identity. If its content changes an applied constraint or a frame value, compare that existing discriminator.
 
 If no current predicate definition, applicability condition, or occurrence rule can identify the required constituent or test the obtaining-relation claim for this use, stop at the exact description or representation and return `missing-governor`. If the governor exists and the available case basis is sufficient to apply its positive test but that test fails, return `factually unsupported`; if a fact needed to decide the test is unavailable, return `missing-information`. State a negative only when an applicable non-obtaining criterion or complete closure basis and satisfying facts establish it. If the constraints or named use frame are absent, name that exact gap: the material may show an arrangement, but it does not yet support the claimed selected `U.Structure`.
 
@@ -112,7 +112,7 @@ SelectedStructureBasis:
   preservedStructure:
   lostHiddenOrExcludedStructure:
   admissibleAction:
-  stopOrReturnCondition:
+  stopOrNonAdmissibleUse: exact stop or return condition
   groundedNonAdmissibleUse?:
 
 StructureSelectionUse:
@@ -125,7 +125,7 @@ StructureSelectionUse:
   selectionDecisionRef?, when an accountable choice is current:
 ```
 
-`StructureSelectionUse` records how a system performed the selection and reached the judgment. `SelectedStructureBasis` records the four identity discriminators plus the use-return boundary. Do not copy the system, work, method, result episteme, or decision into the structure basis. A `U.ClaimScope`, effective `U.ReferenceScheme`, or model-use structure that merely qualifies a claim about either record does not enter base identity. A scope referenced by an applied constraint or a model-use structure selected as a constituent enters only through that already declared discriminator.
+`StructureSelectionUse` records how a system performed the selection and reached the judgment. `SelectedStructureBasis` records the four identity discriminators plus the use-return boundary. Do not copy the system, work, method, result episteme, or decision into the structure basis. A `U.ClaimScope`, effective `U.ReferenceScheme`, or model-use structure that merely qualifies a claim about either record does not enter base identity. A scope referenced by an applied constraint or a model-use structure selected as a constituent enters only through that already declared discriminator. `stopOrReturnCondition` is another name for `stopOrNonAdmissibleUse`, not an independently filled value.
 
 A.22 structure-aspect names such as functional, mereological, modular, transformation-flow, control, semantic, causal, dynamical, algebraic, topological, geometric, or coarse-grained remain cues for which relations and constraints to recover. They do not identify a structure without the four discriminators. C.30.ASV `ArchitectureStructureKindRef` values remain architecture-local classifiers; a matching label does not imply identity.
 
@@ -170,14 +170,14 @@ DDD `Context Mapping` names a repeatable `U.Method`. A.15.2 defines the intended
 
 #### A.22:4.1d - Transformation-flow structure network profile
 
-Use `E.18.NET` when one engineering use selects two or more independently identified transformation-flow structures, or nested networks of them, together with exact obtaining relations across their boundaries. Apply the four A.22 discriminators directly: the exact TFS or nested-network members are the constituents; the exact cross-member relation occurrences satisfy their defining predicates and identity rules; the exact applied endpoint, boundary-exposure, and acyclic direct-member constraints are selected under E.18.NET; and the named network-use frame states the practical question or action and its stop or return condition. A grounded forbidden overread may be added when the representation or working situation supplies that exact inference, but it is not an identity discriminator. The return condition reopens selection when a member, relation, constraint, or use-frame value changes and is not a fifth identity discriminator. The result is one dependent, non-agentive `U.Structure` specialization. E.18.NET defines the network's detailed identity, reference, recursion, local-state, and conformance rules; A.22 does not copy those fields.
+Use `E.18.NET` when one engineering use selects two or more independently identified transformation-flow structures, or nested networks of them, together with exact obtaining relations across their boundaries. Apply the four A.22 discriminators directly: the exact TFS or nested-network members are the constituents; the exact cross-member relation occurrences satisfy their defining predicates and identity rules; the exact applied endpoint, boundary-exposure, and acyclic direct-member constraints are selected under E.18.NET; and the named network-use frame states the practical question, admissible action, and stop or return condition. Any optional explanatory overread follows F.19:4 and remains outside structure identity. The return condition reopens selection when a member, relation, constraint, or use-frame value changes and is not a fifth identity discriminator. The result is one dependent, non-agentive `U.Structure` specialization. E.18.NET defines the network's detailed identity, reference, recursion, local-state, and conformance rules; A.22 does not copy those fields.
 
 Use the first discriminator to record structure constituents. Introduce a separately re-identifiable world-side membership relation only when a receiving use needs it and can supply its participants, obtaining predicate, and identity rule.
 
 #### A.22:4.2 - Structure claim reliance relation selection
 
 
-When a structure claim relies on something beyond the selected structure itself, choose the reliance relation kind, name the relation record by value, and name the definition or test used for that relation:
+When a structure claim relies on something beyond the selected structure itself, choose the reliance relation kind, name the relation record by value, and name the definition or test used for that relation: Use that definition for the relation's required fields and use limits.
 
 | Current reliance relation kind | What is named | Definition or test to apply |
 | --- | --- | --- |
@@ -196,6 +196,8 @@ If no reliance relation kind can be selected, keep the wording as a source-findi
 
 Structural descriptions and views reuse existing episteme and view machinery. Architecture does not define a second ontology of descriptions, views, viewpoint bundles, multi-view descriptions, publications, publication forms, or source-pin sets. Every record whose name ends in `Description@Context` here designates an existing `U.Episteme`: C.2.1 supplies its identity and E.10.D2 constrains its describing use. Every record whose name ends in `View@Context` remains that same episteme and has `U.View` membership only when the E.17.0 conformance test to an exact viewpoint episteme passes. A.6.3 supplies only an optional source-to-receiving construction. The `@Context` suffix is a local retrieval convention; it does not add a context object or identity field.
 
+In the description and view forms below, `admissibleUse` states the actual use and its limits. `nonAdmissibleUse?`, also named `groundedNonAdmissibleUse?`, carries one optional explanatory guard under F.19:4's plausible-reader test; the two names do not introduce separate fields.
+
 ```text
 StructuralDescription@Context ::= {
   descriptionId,
@@ -207,7 +209,7 @@ StructuralDescription@Context ::= {
   structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidenceRelationRef | EvidenceProvenanceRelationRef | MathLensUseOutputRef | StructureUseReturnConditionRef | U.EpistemeRef),
   describingEpistemeRef,
   admissibleUse,
-  groundedNonAdmissibleUse?
+  nonAdmissibleUse?
 }
 
 StructuralView@Context ::= {
@@ -221,7 +223,7 @@ StructuralView@Context ::= {
   selectedRelationsOrOperations,
   hiddenOrLostStructure,
   admissibleUse,
-  groundedNonAdmissibleUse?
+  nonAdmissibleUse?
 }
 ```
 
@@ -246,7 +248,7 @@ ExtractedStructuralView@Context ::= {
   validationBoundary,
   structureUseReturnCondition,
   admissibleUse,
-  groundedNonAdmissibleUse?
+  nonAdmissibleUse?
 }
 
 StructureExtractionDescription@Context ::= {
@@ -263,7 +265,7 @@ StructureExtractionDescription@Context ::= {
   validationBoundary,
   structureUseReturnCondition,
   admissibleUse,
-  groundedNonAdmissibleUse?
+  nonAdmissibleUse?
 }
 
 StructuralAspectDescription@Context ::= {
@@ -276,7 +278,7 @@ StructuralAspectDescription@Context ::= {
   structureRefs: FinSet(U.StructureRef),
   structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidenceRelationRef | EvidenceProvenanceRelationRef | MathLensUseOutputRef | StructureUseReturnConditionRef | U.EpistemeRef),
   admissibleUse,
-  groundedNonAdmissibleUse?
+  nonAdmissibleUse?
 }
 
 StructuralCoarseningDescription@Context ::= {
@@ -292,7 +294,7 @@ StructuralCoarseningDescription@Context ::= {
   lostStructure,
   structureUseReturnCondition,
   admissibleUse,
-  groundedNonAdmissibleUse?
+  nonAdmissibleUse?
 }
 ```
 
@@ -354,12 +356,13 @@ structure-claim reliance relation: selected relation record named by value(
   validationBoundary = graph-path currentness boundary, slice currentness boundary, or crossing currentness boundary
 )
 next FPF pattern application: C.30.TFS-REL when this selected structure is used in an architecture-to-transformation-flow relation
-stop or return condition: return to the selected reliance relation's result whenever the graph is asked to support a stronger claim
+stop or return condition: stop at the selected reliance relation's result; for a Work, evidence, gate, or decision claim, apply its specific test in A.22:4.7
+non-admissible use: the graph as the whole architecture
 ```
 
 The practitioner can now use the graph through the selected source-description, base-dependence, evidence, or lens relation and route the architecture claim to C.30.TFS-REL.
 
-**Extracted code structure slice.** A code-agent relation graph or probe JSON qualifies as an extracted structural view when the source codebase or publication, extraction method, preserved structure, lost structure, validation boundary, and structure-use return condition are named. Its admitted use is the declared extraction result; any stronger claim uses its own evidence and governing pattern.
+**Extracted code structure slice.** A code-agent relation graph or probe JSON reports imports, calls, registry wiring, and data-flow links. A.22 treats it as an extracted structural view only when the source codebase or publication, extraction method, preserved structure, lost structure, validation boundary, and structure-use return condition are named. Its admitted use is the declared extraction result. When the intended use is a claim about the codebase architecture, internal agent belief, assurance, or release readiness, recover that claim's own evidence and governing predicate.
 
 ```text
 ExtractedStructuralView@Context:

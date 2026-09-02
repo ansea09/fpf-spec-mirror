@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__014_relations.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:12 — Relations"
-line_start: 35989
-line_end: 35998
+line_start: 36262
+line_end: 36273
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,4 +51,6 @@ Specialized by: `E.18.3` when the same structure also satisfies its transformati
 Coordinates with: `A.6.P` and A.6.5 for relation occurrence and reusable declaration precision; `E.18`, `E.18.NET`, and `E.18.3` for transformation-flow substrates; `A.3` and `A.15` for Method, plan, Work, and Transformation claims; `A.10`, `B.3`, `A.20`, and `A.21` for evidence, assurance, constraint decisions, and gates; `C.30` and C.32 for architecture; `E.23` for improvement; `G.11` for currentness; `C.29` for mathematical-lens use; `C.33` for material description loss; `E.11` and `E.17` for entry and publication; and `F.17`, `F.18`, and `F.9` for source-local sense, durable naming, and Bridge claims.
 
 Does not replace any pattern that supplies the definition, constraint, test, method, evidence rule, or assurance rule for a neighboring claim.
+
+Use `F.19` for ordinary precise-plain-language repair and the plausible-reader test for an optional explanatory overread.
 

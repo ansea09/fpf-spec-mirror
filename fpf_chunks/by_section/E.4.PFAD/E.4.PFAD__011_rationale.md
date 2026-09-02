@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__011_rationale.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:10 — Rationale"
-line_start: 70635
-line_end: 70642
+line_start: 70931
+line_end: 70938
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -45,9 +45,9 @@ keywords:
 
 ### E.4.PFAD:10 - Rationale
 
-Framework authors need a recurring set of framework-specific questions, so removing every PFAD locator would make the entry harder to discover. They do not need a separate PFAD relation or record: `E.9` already carries one bounded answer, alternatives, rationale, consequences, action, and reopen condition.
+The PFAD locator makes recurring framework-specific questions discoverable. One ordinary `E.9` DRR records the bounded answer, alternatives, rationale, consequences, action, and reopen condition.
 
-The field-boundary assessment prevents a coherent slice from acquiring a field-scale identity without the practitioner coverage and independent use that justify it. The several-structure branch prevents one source layout from standing in for the practice architecture. Direct assertions preserve selected initial pattern relations without making their representation authoritative.
+The field-boundary assessment reserves field-scale identity for a contribution with the practitioner coverage and independent use that justify it. The several-structure branch grounds the practice architecture in its actual Methods, Work, subjects, descriptions, capabilities, providers, and cultural relations. Direct assertions state each selected initial pattern relation under its own predicate; optional representations serve their named uses.
 
-PFAD is therefore a profile by practical question and content, not a new ontological kind or a second stage.
+PFAD is therefore the practitioner-facing profile for the framework-specific content of one ordinary `E.9` DRR.
 

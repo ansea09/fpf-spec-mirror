@@ -6,12 +6,12 @@ section_id: "A.16.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__008_conformance-checklist.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:7 — Conformance Checklist"
-line_start: 29038
-line_end: 29044
+line_start: 29301
+line_end: 29307
 dependencies:
   - "A.16"
   - "A.16.0"

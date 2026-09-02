@@ -6,12 +6,12 @@ section_id: "A.19.SPR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__004_problem.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:2 — Problem"
-line_start: 30191
-line_end: 30201
+line_start: 30454
+line_end: 30464
 dependencies:
   - "A.10"
   - "A.16"

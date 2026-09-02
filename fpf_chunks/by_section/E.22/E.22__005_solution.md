@@ -6,12 +6,12 @@ section_id: "E.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__005_solution.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:4 — Solution"
-line_start: 89334
-line_end: 89547
+line_start: 89665
+line_end: 89878
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -57,7 +57,7 @@ The remaining local support names ending in `@Context` are compatibility and ret
 | `QualityReviewFindingRow` | Actionable evaluation finding that identifies the observed issue, affected evaluation property, correction direction, and closure test. |
 | `CandidateImprovementProposalRow@Context` | E.22 proposal episteme with an exact correction target, expected substantive evaluation effect, trade-offs, kind-restoration disposition, outside-claim return when needed, and closure test. |
 | `CandidateImprovementOutsideClaimReference@Context` | Bounded local ClaimGraph node form inside one proposal row. It identifies the outside governed value, relation signature, or boundary description and the exact FPF pattern identity that governs the return. It is not an episteme, relation, or independently referenceable entity. |
-| `KindRestorationCheck` | Conditionally present check when a finding or proposal changes wording, naming, or precision-restoration content. |
+| `KindRestorationCheck` | Conditionally present check when a changed FPF-governed expression can alter the object, kind, relation, slot or use position, claim kind, admissible use, or scope. |
 | `CandidateImprovementProposalPortfolio@Context` | A local `U.Set` value whose members are `CandidateImprovementProposalRow@Context` epistemes for one question frame. Membership, not a document serialization, determines the portfolio. |
 | `ImprovementFollowUpHypothesis@Context` | `U.Episteme` whose EntityOfConcern is the exact object version expected to change. It claims that one named next operation or method application is expected to address one finding and produce a stated evaluation effect under a stated test condition. A stop disposition, return, selected plan, performed Work, or actual Transformation is not such a hypothesis. |
 
@@ -222,7 +222,7 @@ Exactly one of `proposedNextOperationDescriptionRef` and `proposedNextMethodRef`
 
 `reviewLocationDescriptionRef` describes where the issue was observed in the reviewed object. `correctionTargetRef` identifies the exact entity that would change. They are not interchangeable positions. The row is a faithful typed proposal form of `QualityReviewFindingRow` and one possible member of a `CandidateImprovementProposalPortfolio@Context` set. It remains a proposal episteme, not a selected repair, plan, work occurrence, actual Transformation, result binding, or proof of improvement.
 
-For wording, naming, and precision-restoration proposals, `proposedCorrectionDescriptionRef` does more than say "replace X with Y". It states the recovered object kind, relation, slot or use position when current, admissible use, and scope before and after the change. If no kind-preserving repair is recoverable, the row remains blocking.
+For wording, naming, and precision-restoration proposals, `proposedCorrectionDescriptionRef` states the correction and its intended content effect. Apply `F.19` for the ordinary repair and local revalidation. When the changed FPF-governed expression can alter meaning, `KindRestorationCheck` states the live object, kind, relation, slot or use position, claim kind, admissible use, and scope before and after the change. If the proposed repair cannot preserve those values and no accepted decision justifies changing them, the row remains blocking.
 
 #### E.22:4.5 - Absorption impact values
 

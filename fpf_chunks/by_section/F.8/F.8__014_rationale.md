@@ -6,12 +6,12 @@ section_id: "F.8:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__014_rationale.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:11 — Rationale"
-line_start: 95173
-line_end: 95182
+line_start: 95504
+line_end: 95513
 dependencies:
   - "A.11"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "F.15"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "F.2"
   - "F.3"
   - "F.4"

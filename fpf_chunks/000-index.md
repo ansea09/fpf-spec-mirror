@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `3c3f968398a938bc10e83da22d509b7b8f642d83`
+Commit SHA: `421266f0a37ab295b1ffd9e214ace6541e21f5be`
 
 Chunking method: `pattern-aware`
 
-Patterns: `312`
+Patterns: `313`
 
 ## Patterns
 
@@ -72,6 +72,7 @@ Patterns: `312`
 - [A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph](by_pattern/A.10.md)
 - [A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes](by_pattern/A.10.1.md)
 - [A.11 — Ontological Parsimony](by_pattern/A.11.md)
+- [A.11.OP — Decision-Relevant Least Action and Operational Parsimony](by_pattern/A.11.OP.md)
 - [A.12 — Acting-Side Externalization and Reflexive Split](by_pattern/A.12.md)
 - [A.13 — The Agential Role & Agency Spectrum](by_pattern/A.13.md)
 - [A.14 — Advanced Mereology: Components, Portions, Aspects & Phases](by_pattern/A.14.md)

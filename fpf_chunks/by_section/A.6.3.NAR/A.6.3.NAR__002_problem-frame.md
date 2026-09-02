@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__002_problem-frame.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:1 — Problem frame"
-line_start: 15306
-line_end: 15339
+line_start: 15315
+line_end: 15348
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -33,6 +33,7 @@ dependencies:
   - "E.17.EFP"
   - "E.24.PUB"
   - "E.6"
+  - "F.19"
   - "G.11"
   - "G.2"
 keywords:
@@ -60,7 +61,7 @@ Plain starting vocabulary:
 | `narrating or rendering worker` | The person, team, or system doing the narrative-construction work. Recover the exact worker, system-role assignment, method, and dated Work only when actual production history matters; establish any authority claim separately. |
 | `epiplexity question` | “How much selected source structure did this narrative pull into an inspectable description for this observer and use?” NAR supplies the relation inputs; structural-information and evaluation patterns answer the value claim. |
 
-**First useful move.** Write the shortest useful narrative. Beside it, keep a compact reading note that names the reader and use, the source structure being followed, the ordering or connective choices, material loss or unsupported additions, the admissible use, and the return trigger. Add one grounded non-admissible downstream use only when the narrative wording or arrangement makes that exact stronger inference live. This note is a reading aid, not a new U-kind or mandatory work record.
+**First useful move.** Write the shortest useful narrative and place a compact narrative note beside it: reader/use; source material; selected structures and why they matter; ordering/connective account; what is preserved and foregrounded; what is omitted, weakened, or newly asserted without support; admissible use; and the return trigger. Use F.19:4's plausible-reader test for any optional non-admissible downstream use. This note is a reading aid, not a new U-kind or mandatory work record.
 
 **What goes wrong if missed.** A memorable sequence substitutes for the source structure. Readers retain the story but cannot reconstruct the relations that licensed it, or they treat a connective sentence added for fluency as a source claim.
 

@@ -6,12 +6,12 @@ section_id: "E.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__016_relations.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:12 — Relations"
-line_start: 88256
-line_end: 88290
+line_start: 88581
+line_end: 88617
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -27,11 +27,8 @@ dependencies:
   - "F.19"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled-world entities such as Earth"
-  - "a system-role kind"
-  - "an assignment"
   - "inside the predicate)"
-  - "or a holon"
+  - "under E.8 H-8 and CC-SG.4"
   - "where a non-deontic Invariant: predicate is required)"
 ---
 
@@ -49,6 +46,7 @@ keywords:
   * `E.23` (repeated quality-improvement method; an E.19 profile can supply questions and findings inside such a loop, but E.23 governs repeated absorption, object-under-improvement re-evaluation, method-family selection, and stop, continue, switch-method, open-new-frame, or hold decisions.)
   * `E.15` (change between exact pattern editions; actual-delta classification, affected-reach repair, predecessor preservation, and proportionate verification)
   * `A.6.5` (slot discipline; SlotKind/ValueKind/refMode invariants)
+  * `A.6.P` (direct relation and participant recovery when the claim remains unresolved)
 
 * **Coordinates with:**
 
@@ -58,7 +56,7 @@ keywords:
   * `A.10` and `B.3` (evidence use/provenance and any assurance or reliance on an E.19 result)
   * `F.10` and `E.24.PUB` (status use/interpretation and publication occurrence/form/carrier; neither is review work or admission authority)
   * `F.8` (mint vs reuse decisions)
-  * `F.18` (local-first naming protocol)
+  * `F.18` (local-first naming when one durable reusable name is needed)
   * `F.9` (cross-context alignment discipline)
   * `F.15` (conceptual harness and regression framing)
   * `E.17` (MVPK publication and face discipline; an MVPK face, projected publication form, projection/construction, publication occurrence, rendering, and carrier remain distinct)
@@ -67,6 +65,7 @@ keywords:
   * `E.13` (pragmatic utility and proxy-to-value alignment when a pattern-quality pass, score, coordinate value, checklist result, benchmark, projection signal, or release posture is being used as value evidence)
   * `E.21` (scoped pattern-quality characteristic space, coordinate evidence discipline, `PatternQualityStatus`, and stop condition; E.19 findings may become evidence only through the exact E.21 assessment application. Final coordinate values and `PatternQualityStatus` belong to a separate E.21 result episteme, not the E.19 profile or result.)
   * `A.6.7` (`MechSuiteDescription` suite-level semantics)
+  * `E.20` (mechanism-introduction and governing-definition changes when its trigger applies)
   * `A.15.3` (`SlotFillingsPlanItem` P2W planned-baseline seam)
   * `G.11` (refresh/decay orchestration principles, where applicable)
 

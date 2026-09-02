@@ -6,12 +6,12 @@ section_id: "B.1.6:2"
 section_title: "Solution — separate measurement from aggregation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_solution-separate-measurement-from-aggregation.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:2 — Solution — separate measurement from aggregation"
-line_start: 37636
-line_end: 37699
+line_start: 37913
+line_end: 37978
 dependencies:
   - "A.1"
   - "A.10"
@@ -87,8 +87,10 @@ WorkResourceAggregation@Context:
   provenancePathRefs
   admissibleUse
   stopOrReturnCondition
-  groundedNonAdmissibleOverread?
+  nonAdmissibleOverread?
 ```
+
+`stopOrReturnCondition` states when to stop or return to another pattern. Include `nonAdmissibleOverread?` only when it passes F.19's plausible-reader test. `groundedNonAdmissibleOverread?` is an alias for that same optional value.
 
 Recover each of these objects and claims independently:
 

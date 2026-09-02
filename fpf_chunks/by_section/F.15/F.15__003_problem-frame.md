@@ -6,12 +6,12 @@ section_id: "F.15:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__003_problem-frame.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:2 — Problem frame"
-line_start: 97464
-line_end: 97477
+line_start: 97795
+line_end: 97808
 dependencies:
   - "A.1.1"
   - "A.10"

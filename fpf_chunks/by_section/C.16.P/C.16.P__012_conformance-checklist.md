@@ -6,12 +6,12 @@ section_id: "C.16.P:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__012_conformance-checklist.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:10 — Conformance Checklist"
-line_start: 48263
-line_end: 48273
+line_start: 48542
+line_end: 48552
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,7 +43,7 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-C16P-1` | The repair names trigger span, bearer, recovered characteristic or scale construction, subject pattern, admissible use, non-admissible use, and remaining reader use. |
+| `CC-C16P-1` | The repair names trigger span, bearer, recovered characteristic or scale construction, subject pattern, admissible use, and remaining reader use. Necessary subject applicability and stop conditions remain explicit; an explanatory `nonAdmissibleUse` is optional under the full F.19:4 test. |
 | `CC-C16P-2` | `metric`, `score`, `axis`, `dimension`, `feature`, `property`, `indicator`, `strong`, `weak`, `robust`, `level`, `coordinate`, `threshold`, and `benchmark` are trigger words, not recovered kinds by themselves. |
 | `CC-C16P-3` | Direct `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or subject-pattern use applies the subject pattern directly when construction is already recoverable. |
 | `CC-C16P-4` | Evidence, assurance, gate, work, decision, causal-use, release, publication, benchmark, and authority claims are governed by their direct patterns. |

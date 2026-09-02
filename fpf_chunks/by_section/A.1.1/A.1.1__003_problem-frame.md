@@ -6,12 +6,12 @@ section_id: "A.1.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__003_problem-frame.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:1 — Problem frame"
-line_start: 1892
-line_end: 1903
+line_start: 1895
+line_end: 1906
 dependencies:
   - "A.1"
   - "A.14"

@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__006_solution.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:4 — Solution"
-line_start: 35710
-line_end: 35852
+line_start: 35978
+line_end: 36123
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,7 +70,7 @@ Use the four A.22 discriminators to identify one `U.Structure`:
 - its constituent references;
 - the obtaining relation occurrences it selects;
 - the applied constraint claims;
-- the named selection-use frame: the question or action and the stop or return condition; add a grounded forbidden overread only when the visible structure supplies that exact inference.
+- the named selection-use frame: the question, admissible action, and stop or return condition. Any optional explanatory overread follows F.19:4 and remains outside the identity basis.
 
 CGUS membership adds locally declared loci and bindings that expose how those constituents matter to the unfolding question. The selected relations and constraints must define at least two potential continuation candidates across allowed cases. The current continuation result, a description, or a publication field adds no structure-identity discriminator.
 
@@ -81,9 +81,10 @@ A22IdentityBasis:
   selectedObtainingRelationOccurrenceRefs[]
   appliedConstraintClaimRefs[]
   namedSelectionUseFrame:
-    questionOrAction
+    questionOrAction: exact selection question
+    admissibleAction
     stopOrReturnCondition
-    groundedForbiddenOverread?
+forbiddenOverread?: optional explanation outside A22IdentityBasis
 constraintGovernedProfileBasis:
   locusBindingRows[]:
     locusRef: <selectedCGUSRef, locusId>
@@ -94,6 +95,8 @@ constraintGovernedProfileBasis:
     constrainingRelationOccurrenceRefs[]
     appliedConstraintClaimRefs[]
 ```
+
+`forbiddenOverread?` and `groundedForbiddenOverread?` name the same optional explanation. Use F.19:4's plausible-reader test to decide whether it is useful here.
 
 A CGUS locus belongs to this structure, not to a reusable relation declaration:
 

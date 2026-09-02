@@ -6,12 +6,12 @@ section_id: "F.8:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__002_use-this-when.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:0 — Use This When"
-line_start: 94789
-line_end: 94821
+line_start: 95120
+line_end: 95152
 dependencies:
   - "A.11"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "F.15"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "F.2"
   - "F.3"
   - "F.4"
@@ -85,7 +86,7 @@ Typical triggers include:
 
 **Not this pattern when.**
 
-- For one-off wording repair, use the applicable wording rule—E.10, E.10.ARCH, or A.6.P—or the subject pattern.
+- For one-off wording repair, use F.19; use E.10, E.10.ARCH, A.6.P, or the subject pattern when a meaning still needs recovery.
 - If the governed subject or relation is not yet known, recover it first. For an unsettled U-kind proposal, use E.24.CD when the object is unclear and E.24.UK for admission.
 - To constitute a `SystemRoleKindDescription`, use F.4. To assign a system, use A.2.1. For precise performed Work, recover each exact actual performer through A.13 and let A.15.1 independently admit the dated occurrence; add F.6 only when the naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
 - For an obtaining relation between different local-sense projections, use F.9. Use F.17 when a public, Core-facing, durable, or cross-local row is needed.

@@ -6,12 +6,12 @@ section_id: "A.7.CP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 22330
-line_end: 22340
+line_start: 22344
+line_end: 22354
 dependencies:
   - "A.7"
   - "A.7.1"

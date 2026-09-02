@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.2.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
-line_start: 86364
-line_end: 86602
+line_start: 86703
+line_end: 86941
 dependencies:
   - "A.10"
   - "A.15"

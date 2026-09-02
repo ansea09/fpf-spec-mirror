@@ -6,12 +6,12 @@ section_id: "C.18.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__001_intro.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:intro — Intro"
-line_start: 49883
-line_end: 49900
+line_start: 50162
+line_end: 50179
 dependencies:
   - "A.10"
   - "A.15.1"

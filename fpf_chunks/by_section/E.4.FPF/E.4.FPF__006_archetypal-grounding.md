@@ -6,12 +6,12 @@ section_id: "E.4.FPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__006_archetypal-grounding.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:5 — Archetypal Grounding"
-line_start: 70277
-line_end: 70303
+line_start: 70573
+line_end: 70599
 dependencies:
   - "C.33"
   - "C.34"
@@ -40,13 +40,13 @@ keywords:
 
 ### E.4.FPF:5 - Archetypal Grounding
 
-Tell: A later FPF edition updates its public front, Readme, Preface, ToC, and several pattern bodies. The FPF edition rebuildability record names one scoped edition, lists its Core pattern set, publication units and forms, exact presentation carriers, and access routes, records which entry text is only a projection, and points to `E.2.DA` for whole-FPF adequacy. It does not say that a Readme or Preface is the framework or a presentation carrier merely because it is a publication unit.
+Tell: A later FPF edition updates its public front, Readme, Preface, ToC, and several pattern bodies. The FPF edition rebuildability record names one scoped edition, lists its Core pattern set, publication units and forms, exact presentation carriers, and access routes, records which entry text is only a projection, and points to `E.2.DA` for whole-FPF adequacy. It records Readme and Preface as publication units and names a presentation carrier only under an exact `PublicationFormBearingRelation`.
 
-Show: A domain principle framework for any one practice depends on FPF Core and may cite architecture, representation, precision, and improvement patterns from FPF. Its publication units, forms, exact presentation carriers, and access routes belong to that DPF edition, not to FPF. Its package adequacy uses `E.4.DPF.DA`; it does not define FPF Core and does not make FPF a framework for that domain.
+Show: A domain principle framework for any one practice depends on FPF Core and may cite architecture, representation, precision, and improvement patterns from FPF. Its publication units, forms, exact presentation carriers, and access routes belong to that DPF edition. Its package adequacy uses `E.4.DPF.DA`; FPF Core retains its transdisciplinary scope and its own amendment route.
 
-Show: An FPF skill pack exposes pattern lookup, first-entry guidance, and short-use prompts. A versioned skill-pack bundle can be an access-facing `U.PresentationCarrier`; the service, endpoint, or assistant integration that returns it is an access route. Their descriptions can say which FPF edition they expose and when to refresh, but a bundle, tool call, endpoint schema, or retrieval result is not FPF authority unless it returns to the named subject pattern and edition.
+Show: An FPF skill pack exposes pattern lookup, first-entry guidance, and short-use prompts. A versioned skill-pack bundle can be an access-facing `U.PresentationCarrier`; the service, endpoint, or assistant integration that returns it is an access route. Their descriptions name the FPF edition they expose and its refresh condition. Authority claims return to the named subject pattern and edition.
 
-Show: One FPF edition replaces two complete pattern sources and inserts a third while every other pattern body must carry forward from the predecessor. The rebuildability record names the predecessor, edition record, complete selected sources, publication units and forms, exact output carriers, and any access routes. Assembly gives each changed body an explicit replacement or insertion boundary, rebuilds the logical index from the same selection, checks source-to-body correspondence, and verifies that unselected predecessor spans are unchanged. Any mismatch stops construction. A successful construction neither accepts the sources nor publishes the result.
+Show: One FPF edition replaces two complete pattern sources and inserts a third while every other pattern body must carry forward from the predecessor. The rebuildability record names the predecessor, edition record, complete selected sources, publication units and forms, exact output carriers, and any access routes. Assembly gives each changed body an explicit replacement or insertion boundary, rebuilds the logical index from the same selection, checks source-to-body correspondence, and verifies that unselected predecessor spans are unchanged. Any mismatch stops construction. A successful construction reports the candidate and source correspondence; acceptance and publication require their separate decisions and relations.
 
 Mini-map:
 

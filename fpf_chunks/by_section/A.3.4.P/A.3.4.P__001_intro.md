@@ -6,12 +6,12 @@ section_id: "A.3.4.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__001_intro.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:intro — Intro"
-line_start: 9654
-line_end: 9679
+line_start: 9661
+line_end: 9686
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -40,6 +40,7 @@ dependencies:
   - "E.20"
   - "E.24"
   - "E.8"
+  - "F.19"
 keywords:
 ---
 
@@ -55,7 +56,7 @@ keywords:
 
 **Use this when.** Use `A.3.4.P` when source or FPF-governed wording such as "pipeline", "dataflow", "flow", "network", "circuit", "path", "slice", "workflow", "process", "operation", "transformation", or "change" seems to name the thing under concern, but the text has not yet recovered what kind of FPF value is actually current.
 
-**First useful restoration output.** Fill a compact `TransformationWordingRepair` note: encountered wording, working concern, exact recovered EntityOfConcern, actual-transformation basis or non-transformation disposition, any acting-system claim with its exact governor or unresolved disposition, every influence source's exact kind and current relation, exact neighboring claims, retained use, next owner or remaining reader use, and stop or return condition. Add `GroundedBlockedOverread?` only when the source wording itself supplies an exact action-changing inference. Then rewrite only the wording that depends on the recovered objects.
+**First useful restoration output.** Recover the encountered wording, working concern, exact recovered EntityOfConcern, actual-transformation basis or non-transformation disposition, any acting-system claim with its exact governor or unresolved disposition, every influence source's exact kind and current relation, exact neighboring claims, retained use, remaining reader use, and stop or return condition. Use F.19:4's full plausible-reader test for any optional `BlockedOverread?`. Then rewrite only the wording that depends on the recovered objects. The ordinary result is that wording and the needed stop or subject-pattern return; use a `TransformationWordingRepair` note only when the receiving use needs recoverable detail.
 
 **What goes wrong if missed.** The text silently creates a local ontology from a convenient source label: "process" becomes method in one paragraph, dated work in another, and transformation-flow structure in a third; "path" becomes evidence sufficiency, assurance, gate passage, deontic permission, work authorization, or release authorization; "function" becomes behavior, bearer, mathematical function, and software routine at once.
 

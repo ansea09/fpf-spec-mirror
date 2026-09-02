@@ -6,12 +6,12 @@ section_id: "E.10.DEV:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__007_bias-annotation.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:6 — Bias Annotation"
-line_start: 76439
-line_end: 76447
+line_start: 76779
+line_end: 76787
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -36,10 +36,10 @@ keywords:
 
 ### E.10.DEV:6 - Bias Annotation
 
-- **Human-development default.** Do not route every development claim through education or human learning.
-- **Benefit-by-word bias.** Development, progress, growth, and maturity do not establish a positive direction without a declared basis.
-- **Single-holder bias.** Population membership turnover and lineage are not one-holder continuity.
-- **Model-to-world bias.** A predicted or simulated path does not establish actual change.
-- **Candidate borrowing.** A candidate pattern or future inquiry cannot count as current coverage.
-- **Form completion bias.** Do not run both lexical children merely because two trigger words occur together.
+- **Human-development default.** Select education or human learning when the recovered claim concerns it.
+- **Benefit-by-word bias.** Tie any positive direction asserted through development, progress, growth, or maturity to a declared basis.
+- **Single-holder bias.** Use membership and lineage for population claims and one-holder continuity for a continuously identified holder.
+- **Model-to-world bias.** Preserve predicted or simulated posture; establish actual change under its own evidence rule.
+- **Candidate borrowing.** Use admitted patterns for current coverage; keep a candidate pattern or future inquiry visibly provisional.
+- **Form completion bias.** Open the second lexical child only for an independent unresolved ambiguity.
 

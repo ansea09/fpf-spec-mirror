@@ -6,12 +6,12 @@ section_id: "E.10.DEV:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__008_conformance-checklist.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:7 — Conformance Checklist"
-line_start: 76448
-line_end: 76460
+line_start: 76788
+line_end: 76800
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -41,9 +41,9 @@ keywords:
 3. Is the needed continuity, membership, lineage, edition, or retention basis visible?
 4. Are intervention Work, Method, plan, result, evidence, representation, and later effect separated where current?
 5. Is any direction or value claim tied to the basis the use needs?
-6. Is actual, observed, reconstructed, predicted, simulated, proposed, recommended, or planned posture explicit?
-7. Does the repair reach one direct owner, ordinary non-use, missing information, or exact gap?
-8. Are candidate and planned products excluded from current coverage?
+6. Is the claim's posture explicit, using the distinctions needed by its direct owner?
+7. Does the repair reach one of the six outcomes in Step 8: the repaired claim, ordinary non-use, quote-only use, missing information, direct owner, or exact architecture gap?
+8. Is candidate or planned posture preserved? A candidate pattern supplies current FPF law only after admission; a current plan may be the subject of a claim while its intended result remains planned.
 9. For *development trajectory*, did the second child open only for a remaining independent ambiguity?
-10. Did the repair avoid a generic development kind, evolution kind, lifecycle, stage ladder, account, role, or evidence rule?
+10. Does each substantive claim return to its direct owner, consistently with the architecture boundary above?
 

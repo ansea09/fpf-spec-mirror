@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:5"
 section_title: "Complete Worked Case"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__007_complete-worked-case.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:5 — Complete Worked Case"
-line_start: 35853
-line_end: 35932
+line_start: 36124
+line_end: 36205
 dependencies:
   - "A.10"
   - "A.15"
@@ -75,7 +75,9 @@ A22IdentityBasis:
     RepairIfAnyCheckViolatedAndProposalTargetsCandidate
   namedSelectionUseFrame:
     questionOrAction: which review continuation is available now?
-    groundedForbiddenOverread?: because the displayed order can look executable, require the direct Work or authority predicate before using it as work history or authorization
+    admissibleAction: show the enabled, disabled, and unknown alternatives for this review
+    stopOrReturnCondition: return to an unresolved test or relation; recheck when either result, the proposal relation, or the window changes
+forbiddenOverread?: displayed order as performed Work, or an available branch as authorization
 constraintGovernedProfileBasis:
   locusBindingRows[]:
     - <DesignReviewAlternatives@DR-27, candidate, design under review, DesignCandidate-A>
@@ -120,5 +122,5 @@ The structure has two potential continuations although this case enables only re
 
 If `RepairProposalTargetsCandidate@DR-27` or its participant binding is missing, the repair result becomes `unknown — proposal target not established`. If the structure's identity was established on another sufficient basis, only this case result is incomplete. If that occurrence belongs to the claimed identity basis, this structure claim also remains provisional.
 
-If a later thermal check passes while the service check still passes, acceptance becomes enabled and repair becomes disabled. The constituents, selected occurrences, constraints, use frame, locus bindings, and potential topology have not changed, so the CGUS keeps its identity and membership.
+If a later thermal check passes while the service check still passes, acceptance becomes enabled and repair becomes disabled. If the constituents, selected occurrences, constraints, use frame, locus bindings, and potential topology have not changed, the CGUS keeps its identity and membership. A replacement result episteme or relation occurrence must first be compared under the A.22 discriminators.
 

@@ -6,12 +6,12 @@ section_id: "A.6.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__003_problem.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:2 — Problem"
-line_start: 12993
-line_end: 13005
+line_start: 13000
+line_end: 13012
 dependencies:
   - "A.1"
   - "A.1.1"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.22.CGUS.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
-line_start: 35668
-line_end: 36002
+line_start: 35936
+line_end: 36277
 dependencies:
   - "A.10"
   - "A.15"
@@ -111,7 +111,7 @@ Use the four A.22 discriminators to identify one `U.Structure`:
 - its constituent references;
 - the obtaining relation occurrences it selects;
 - the applied constraint claims;
-- the named selection-use frame: the question or action and the stop or return condition; add a grounded forbidden overread only when the visible structure supplies that exact inference.
+- the named selection-use frame: the question, admissible action, and stop or return condition. Any optional explanatory overread follows F.19:4 and remains outside the identity basis.
 
 CGUS membership adds locally declared loci and bindings that expose how those constituents matter to the unfolding question. The selected relations and constraints must define at least two potential continuation candidates across allowed cases. The current continuation result, a description, or a publication field adds no structure-identity discriminator.
 
@@ -122,9 +122,10 @@ A22IdentityBasis:
   selectedObtainingRelationOccurrenceRefs[]
   appliedConstraintClaimRefs[]
   namedSelectionUseFrame:
-    questionOrAction
+    questionOrAction: exact selection question
+    admissibleAction
     stopOrReturnCondition
-    groundedForbiddenOverread?
+forbiddenOverread?: optional explanation outside A22IdentityBasis
 constraintGovernedProfileBasis:
   locusBindingRows[]:
     locusRef: <selectedCGUSRef, locusId>
@@ -135,6 +136,8 @@ constraintGovernedProfileBasis:
     constrainingRelationOccurrenceRefs[]
     appliedConstraintClaimRefs[]
 ```
+
+`forbiddenOverread?` and `groundedForbiddenOverread?` name the same optional explanation. Use F.19:4's plausible-reader test to decide whether it is useful here.
 
 A CGUS locus belongs to this structure, not to a reusable relation declaration:
 
@@ -259,7 +262,9 @@ A22IdentityBasis:
     RepairIfAnyCheckViolatedAndProposalTargetsCandidate
   namedSelectionUseFrame:
     questionOrAction: which review continuation is available now?
-    groundedForbiddenOverread?: because the displayed order can look executable, require the direct Work or authority predicate before using it as work history or authorization
+    admissibleAction: show the enabled, disabled, and unknown alternatives for this review
+    stopOrReturnCondition: return to an unresolved test or relation; recheck when either result, the proposal relation, or the window changes
+forbiddenOverread?: displayed order as performed Work, or an available branch as authorization
 constraintGovernedProfileBasis:
   locusBindingRows[]:
     - <DesignReviewAlternatives@DR-27, candidate, design under review, DesignCandidate-A>
@@ -304,7 +309,7 @@ The structure has two potential continuations although this case enables only re
 
 If `RepairProposalTargetsCandidate@DR-27` or its participant binding is missing, the repair result becomes `unknown — proposal target not established`. If the structure's identity was established on another sufficient basis, only this case result is incomplete. If that occurrence belongs to the claimed identity basis, this structure claim also remains provisional.
 
-If a later thermal check passes while the service check still passes, acceptance becomes enabled and repair becomes disabled. The constituents, selected occurrences, constraints, use frame, locus bindings, and potential topology have not changed, so the CGUS keeps its identity and membership.
+If a later thermal check passes while the service check still passes, acceptance becomes enabled and repair becomes disabled. If the constituents, selected occurrences, constraints, use frame, locus bindings, and potential topology have not changed, the CGUS keeps its identity and membership. A replacement result episteme or relation occurrence must first be compared under the A.22 discriminators.
 
 ### A.22.CGUS:6 - Bias-Annotation
 
@@ -371,6 +376,8 @@ Specialized by: `E.18.3` when the same structure also satisfies its transformati
 Coordinates with: `A.6.P` and A.6.5 for relation occurrence and reusable declaration precision; `E.18`, `E.18.NET`, and `E.18.3` for transformation-flow substrates; `A.3` and `A.15` for Method, plan, Work, and Transformation claims; `A.10`, `B.3`, `A.20`, and `A.21` for evidence, assurance, constraint decisions, and gates; `C.30` and C.32 for architecture; `E.23` for improvement; `G.11` for currentness; `C.29` for mathematical-lens use; `C.33` for material description loss; `E.11` and `E.17` for entry and publication; and `F.17`, `F.18`, and `F.9` for source-local sense, durable naming, and Bridge claims.
 
 Does not replace any pattern that supplies the definition, constraint, test, method, evidence rule, or assurance rule for a neighboring claim.
+
+Use `F.19` for ordinary precise-plain-language repair and the plausible-reader test for an optional explanatory overread.
 
 ### A.22.CGUS:End
 

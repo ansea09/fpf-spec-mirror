@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.7.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
-line_start: 6176
-line_end: 6673
+line_start: 6180
+line_end: 6680
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -118,11 +118,13 @@ SystemRoleKindRelationStructure : U.Structure
   namedSelectionUseFrame:
     question:
     admissibleAction:
-    stopOrReturnCondition:
-    groundedNonAdmissibleOverread?:
+    stopOrNonAdmissibleOverread:
+      exact stop or return condition; also named stopOrReturnCondition
+  groundedNonAdmissibleOverread?:
+    optional explanation outside the identity basis
 ```
 
-The structure specializes A.22's four-part identity: the exact system-role-kind constituents, the exact selected obtaining relation occurrences, the exact constraint claims applied, and one named selection-use frame stating the question, admissible action, and stop or return condition. A grounded non-admissible overread is optional use-boundary material and not an identity discriminator. A changed rendering, identifier, selecting Work, publication, table, or graph changes no structure while all four values remain unchanged. Replacing a constituent, selected relation occurrence, applied constraint, or use frame identifies another structure. Without a required constraint or named frame, the material is still an arrangement or description rather than an admitted `SystemRoleKindRelationStructure`.
+The structure specializes A.22's four-part identity: the exact system-role-kind constituents, the exact selected obtaining relation occurrences, the exact constraint claims applied, and one named selection-use frame stating the question, admissible action, and stop or return condition. `stopOrReturnCondition` and `stopOrNonAdmissibleOverread` name that same condition, not two independently filled values. A `groundedNonAdmissibleOverread?` is optional explanatory material under F.19:4's plausible-reader test and is not an identity discriminator. A changed rendering, identifier, selecting Work, publication, table, or graph changes no structure while all four values remain unchanged. Replacing a constituent, selected relation occurrence, applied constraint, or use frame identifies another structure. Without a required constraint or named frame, the material is still an arrangement or description rather than an admitted `SystemRoleKindRelationStructure`.
 
 #### A.2.7:4.1 - Direct Relation and Declaration Discipline
 
@@ -524,6 +526,7 @@ The software sources are stress cases, not the universal subject. Their transfer
 | `C.29` | Use for graph, table, matrix, algebra, and embedding representations and their preserved or lost structure. |
 | `E.24.UK` | Use to avoid admitting a selected structure, local relation slot, or convenient bundle name as a root U-kind by punctuation. |
 | `E.10.ROLE`, `F.5`, and `F.18` | Use for recovery of ambiguous source wording and durable naming after the exact object is known. |
+| `F.19` | Test any optional explanatory overread against the intended reader and use. |
 
 ### A.2.7:End
 

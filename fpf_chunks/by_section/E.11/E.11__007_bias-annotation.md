@@ -6,12 +6,12 @@ section_id: "E.11:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__007_bias-annotation.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:6 — Bias-Annotation"
-line_start: 78518
-line_end: 78527
+line_start: 78857
+line_end: 78866
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

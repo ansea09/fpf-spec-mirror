@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__010_consequences.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:9 — Consequences"
-line_start: 70629
-line_end: 70634
+line_start: 70925
+line_end: 70930
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -47,5 +47,5 @@ keywords:
 
 Authors get a recognizable framework question, one cheap stop rule, one readable decision account, and one next action. Later authors can recover the public field promise, problem-family coverage, representative use, edition boundary, dependencies, initial pattern architecture, omissions, sources to revisit, publication or access consequence, rationale, and reopen condition without reconciling two decision objects.
 
-A new or substantially revised DPF carries more architecture work than a suitable non-framework product, thin route, or existing-framework contribution, and the PFAD profile adds one locator to maintain. That cost prevents a broad title, small authoring slice, source layout, or proposal locator from silently becoming a public pattern language. Conditional naming, package, quality, and machine-readable detail stays out until a named use needs it.
+A new or substantially revised DPF carries more architecture work than a suitable non-framework product, thin route, or existing-framework contribution, and the PFAD profile adds one locator to maintain. That cost makes field-scale evidence explicit before a public pattern language is selected. Conditional naming, package, quality, and machine-readable detail stays out until a named use needs it.
 

@@ -6,12 +6,12 @@ section_id: "E.23:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__008_conformance-checklist.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:7 — Conformance Checklist"
-line_start: 89998
-line_end: 90019
+line_start: 90329
+line_end: 90350
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -41,9 +41,9 @@ keywords:
 | `CC-E23-7` | Treat all-`5`, exceptional, or front-reaching results as local loop stops, not permanent maturity endings. |
 | `CC-E23-7a` | Do not treat `5`, all-`5`, or `5-defensible` as a repair target. Repair below-floor results first. Exceptional-improvement work proceeds through non-dominated proposal rows that name the expected substantive content change, protected trade-offs, and cost and risk. A no-proposal or stay-at-current-value disposition is admitted only when it cites the `LoopEvaluationEvidenceBasis@Context` and explains why every plausible content improvement is dominated, unavailable, or outside the declared scope. Reject changes that add guards, relation catalogues, evidence theatre, or quality proof while reducing use, affordability, locality, or ecology. |
 | `CC-E23-8` | When a neighboring claim appears during a loop, name the live claim and its subject pattern before continuing. `E.23` may cite that pattern in the loop record, but it does not absorb the neighbor's authority unless the neighbor's object version is itself the declared object under improvement. |
-| `CC-E23-8a` | For a precision-restoration defect, use the selected pattern as rule or guidance; claim Method or MethodDescription only after A.3.1 and A.3.2 admit it. Apply `CC-E23-4` only when actual repair Work is asserted. Use E.21 `PrecisionRestorationProfile` to choose word, head, use, phrase, or subject-assertion repair. Close the row only after one bounded `KindRestorationCheck` over the distinctions that are live, or a supported `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` disposition. |
+| `CC-E23-8a` | For a precision-restoration defect, apply F.19 as guidance and open a subject pattern only for unresolved FPF-specific meaning; claim Method or MethodDescription only after A.3.1 and A.3.2 admit it. Apply `CC-E23-4` only when actual repair Work is asserted. Consume E.21's compact `PrecisionRestorationProfile` when that evaluation is active. Require one bounded `KindRestorationCheck` when the changed expression can alter the object, kind, relation, slot or use position, claim kind, admissible use, or scope; otherwise F.19's local revalidation completes the ordinary repair. |
 | `CC-E23-9` | Apply `E.10` to load-bearing loop names, status values, examples, stop conditions, and result wording introduced or repaired by the loop. |
-| `CC-E23-10` | Preserve the named evaluation's evidence basis, result-row shape, short-rationale rule, attention-discharge rows, and coordinate-specific payloads in every re-evaluation. |
+| `CC-E23-10` | Preserve the named evaluation's evidence basis, result-row shape, short-rationale rule, required result summaries, and coordinate-specific payloads in every re-evaluation. For E.21, consume the compact `PrecisionRestorationProfile` under E.21:4.3a. |
 | `CC-E23-11` | If a practitioner entry phrase such as "loop engineering", "agent loop", or "harness loop" appears, lower it to object version plus object-under-improvement evaluation before opening `E.23`, or name the direct neighboring subject pattern and stop the `E.23` overread. |
 | `CC-E23-12` | In agent or harness cases, state which slice the loop may change: the target object version, the evaluation, or the harness object. Any other slice becomes neighboring work under its own subject pattern, not implicit `E.23` scope. |
 | `CC-E23-13` | Keep the selected proposal, actual improvement Work governed by `CC-E23-4`, its result or change relation, changed object or Transformation, later evaluation pass, and result episteme distinct. When a required relation has no governor, retain those objects and the blocker; do not mint a generic Work-result relation. |

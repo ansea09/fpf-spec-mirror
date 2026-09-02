@@ -6,12 +6,12 @@ section_id: "B.1.6:3"
 section_title: "Optional Gamma_work Notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__006_optional-gamma-work-notation.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:3 — Optional Gamma_work Notation"
-line_start: 37700
-line_end: 37710
+line_start: 37979
+line_end: 37989
 dependencies:
   - "A.1"
   - "A.10"
@@ -63,5 +63,5 @@ Gamma_work(workResourceAggregationRecord, resourceBasis, aggregationPolicy)
   -> aggregationResultRef, aggregationResultEpistemeRef
 ```
 
-Use the notation only after naming the resource Characteristics, C.16 measurement Work and results, dated Work set and relevant A.15.1 Work-part relations, any C.27.TA overlap fact, any current non-Work carrier identity and `PhaseOf` relation, accounting boundary and time window, aggregation policy, and dated aggregation Work. The notation then summarizes that recovered aggregation record; each object, relation, method, Work, and emergence claim remains under its direct pattern.
+The notation applies only after the resource Characteristics, C.16 measurement Work and result epistemes, dated Work set, every A.15.1 Work-part relation used by the aggregation, any C.27.TA overlap fact used by it, any separately current non-Work carrier identity and `PhaseOf` relation, accounting boundary and time window, aggregation policy, and dated aggregation Work have been named. The notation then summarizes that recovered aggregation record.
 

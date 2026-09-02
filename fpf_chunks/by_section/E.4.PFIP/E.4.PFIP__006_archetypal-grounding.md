@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__006_archetypal-grounding.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:5 — Archetypal Grounding"
-line_start: 72160
-line_end: 72169
+line_start: 72448
+line_end: 72457
 dependencies:
   - "C.2.1"
   - "C.33"

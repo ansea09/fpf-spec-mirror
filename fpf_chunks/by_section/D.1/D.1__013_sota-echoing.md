@@ -6,12 +6,12 @@ section_id: "D.1:9"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__013_sota-echoing.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:9 — SoTA-Echoing"
-line_start: 68436
-line_end: 68444
+line_start: 68718
+line_end: 68726
 dependencies:
   - "A.1"
   - "A.1.CSD"

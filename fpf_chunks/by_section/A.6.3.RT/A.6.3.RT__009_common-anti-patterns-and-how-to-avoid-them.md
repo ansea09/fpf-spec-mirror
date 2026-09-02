@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 15222
-line_end: 15233
+line_start: 15231
+line_end: 15242
 dependencies:
   - "A.1.1"
   - "A.10"

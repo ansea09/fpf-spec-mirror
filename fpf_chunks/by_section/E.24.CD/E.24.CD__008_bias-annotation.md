@@ -6,12 +6,12 @@ section_id: "E.24.CD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__008_bias-annotation.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:6 — Bias-Annotation"
-line_start: 91485
-line_end: 91498
+line_start: 91816
+line_end: 91829
 dependencies:
   - "A.1"
   - "A.14"
@@ -64,5 +64,5 @@ This pattern intentionally biases toward early recovery of the real subject and 
 - **scoring bias:** rating a candidate before its subject, identity rule, direct relations, and practical use are known;
 - **semio-bias:** discussing forms and labels while the governed subject and claim disappear.
 
-The mitigation is concrete: name the work, subject, needed claim, pattern that states it, applicable disposition, next action, and stop or return. Add a denied stronger reading only when an independent local ground makes it plausible. Open E.24 only when several named patterns need the same subject identity or relation rules.
+The mitigation is concrete: name the work, subject, needed claim, pattern that states it, applicable disposition, next action, and stop or return. Open E.24 only when several named patterns need the same subject identity or relation rules.
 

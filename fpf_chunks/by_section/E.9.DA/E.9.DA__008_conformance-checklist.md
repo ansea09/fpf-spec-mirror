@@ -6,12 +6,12 @@ section_id: "E.9.DA:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__008_conformance-checklist.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:7 — Conformance checklist"
-line_start: 74471
-line_end: 74493
+line_start: 74763
+line_end: 74785
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -37,14 +37,14 @@ keywords:
 | `CC-E9DA-3` | Justify values from `DRR` decision content, accepted source-use payload, and the bounded omitted-question search, not administrative state, source reputation, official status, recency alone, or popularity. |
 | `CC-E9DA-4` | Derive the local status noncompensatorily from the required use, effective floor, coordinate values, and architecture or split blockers. Constitute an aggregate result episteme only when the requested reusable result or named later reliance requires it; keep any receiving status use or authority separate. |
 | `CC-E9DA-5` | Keep the adequacy judgement distinct from the checked DRR, pattern quality, E.19 admission, review or release state, assurance, gate, project work, and later repair. In the reliance-bearing branch, also keep Method, assessment application, Work, witnesses, evidence use, result episteme, and optional record distinct. When assessment `U.Work` is admitted, keep every precise performer's A.13 core and the independent A.15.1 Work account in 4.2 distinct and recoverable; keep any current F.6 attribution as a separate later relation. |
-| `CC-E9DA-6` | Apply `E.10` to decision-governing names, coordinates, status values, examples, stop conditions, and finding wording introduced or repaired by the evaluation. |
+| `CC-E9DA-6` | Apply `F.19` to decision-governing wording introduced or repaired by the evaluation, including names, coordinates, status values, examples, stop conditions, and findings. Use `E.10` for cues and routes to an unresolved meaning's defining or constraining pattern. |
 | `CC-E9DA-6a` | Check the precision-restoration effect before accepting values: ordinary meaning and first action, word-use precision, phrase apparatus, repetition/distribution, ontic-slot clarity, description/publication/source separation, and pattern-use wording. Record a profile only when the requested reusable result or named reliance consumes it. |
-| `CC-E9DA-6b` | For proposed wording or naming repair, compare the actual pre/post object, relation or claim, slot, use, admissible scope, and practitioner action. If a live distinction changes without an accepted semantic decision and the concrete defining or constraining pattern, return repair rather than treating the wording as clean. |
+| `CC-E9DA-6b` | When a proposed wording or naming repair can change an FPF-governed meaning, compare the actual pre/post object, relation or claim, slot, use, admissible scope, and practitioner action. If a live distinction changes without an accepted semantic decision and the concrete defining or constraining pattern, return repair rather than treating the wording as clean. |
 | `CC-E9DA-6c` | When a `DRR` selects, rejects, splits, or declines a candidate ontic or an ontic-publication boundary, evaluate `DRROnticCandidateDisposition`: candidate `EntityOfConcern`, sufficiency rationale, rejected alternatives, candidate-universe sanity sweep when the claim is broad, slot-relation boundary, description-publication boundary, and selected pattern placement by value. Missing disposition lowers `SelectedAnswerDecisiveness`, `SelectedLocusObligationClosure`, `FPFContentArchitectureSelectionAdequacy`, and `DraftingActionability`. |
 | `CC-E9DA-6d` | When first-entry, route-shaped, path-shaped, DPF, pattern-family, or unfolding-structure material is selected by the DRR, evaluate `CampaignProblemSolutionUnfoldingCheck`. If the selected solution architecture remains only in the DRR or public README after drafting, lower `SourceUseAndDecisionInheritanceCarryThrough`, `SelectedLocusObligationClosure`, `DraftingActionability`, and `CorpusEcologyAndShadowSpecResistance` as applicable. |
 | `CC-E9DA-7` | State each source contribution by named practice question, exact source, current-best or lineage status, selected payload, adopt/adapt/reject decision, changed E.9.DA or DRR locus, qualification, and smallest reopen condition. |
-| `CC-E9DA-8` | State what became worse if visible decision-adequacy values improved. |
+| `CC-E9DA-8` | Check whether any intended value or protected trade-off worsened when visible decision-adequacy values improved; report any observed loss. |
 | `CC-E9DA-9` | In an ordinary bounded review, cite the evidence needed for each substantive finding or repair. In a complete reusable coordinate result, state the full `DRRDecisionAdequacyEvidenceBasis`, including only the bounded omitted-question search basis needed by the reliance; missing or unchecked source-currentness, inheritance, selected-locus, architecture, comparator, or omitted-question evidence lowers the coordinate that needs it. |
-| `CC-E9DA-10` | Use adjacent-value calibration when assigning `3`, `4`, or `5`; a rationale must distinguish the assigned value from its lower and higher neighbours. |
+| `CC-E9DA-10` | Use the value-appropriate adjacent comparison in §4.4a for every assigned value, including the endpoint rule for `0` or `5`. |
 | `CC-E9DA-11` | Keep ordinal values as ordinal content-evaluation result claims, not repair targets. Every required coordinate below its effective floor prevents `admissibleForDeclaredAuthoringUse`; an architecture blocker or required split is noncompensatory. Above-floor improvement requires substantive non-dominated proposal rows when requested and cannot close by adding source volume, selected-locus tables, boundary catalogues, quality proof, or process evidence that does not make the `DRR` more decisive for its required authoring use. A no-proposal or stay-at-current-value disposition must name loci and why no worthwhile decision-content move remains. |
 

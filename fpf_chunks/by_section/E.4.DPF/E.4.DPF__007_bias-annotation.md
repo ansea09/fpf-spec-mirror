@@ -6,12 +6,12 @@ section_id: "E.4.DPF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__007_bias-annotation.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:6 — Bias-Annotation"
-line_start: 71171
-line_end: 71186
+line_start: 71467
+line_end: 71482
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -60,17 +60,17 @@ keywords:
 
 ### E.4.DPF:6 - Bias-Annotation
 
-**Scope:** Limited to selecting, authoring, assembling, and refreshing FPF-grounded DPF or LPF editions and their first-use publication forms, presentation carriers, and access routes. It is not a universal framework-development lifecycle, product ontology, research method, or publication template.
+**Scope:** Use this pattern to select, author, assemble, and refresh FPF-grounded DPF or LPF editions and their first-use publication forms, presentation carriers, and access routes. Lifecycle, product-ontology, research-method, and general publication questions return to their owning patterns.
 
 | Lens | Likely drift | Repair |
 | --- | --- | --- |
-| Gov | A framework name, package form, or authoring step is read as acceptance, authority, currentness, or maintenance responsibility. | Keep those claims under their own decisions and direct relations; the authoring route establishes none of them by order. |
-| Arch | The current authoring slice, file layout, carrier, or pattern count becomes the framework boundary. | Decide the field, connected problem families, material pattern relations, first use, support units, adjacent subjects, and maintenance boundary by content. |
+| Gov | A framework name, package form, or authoring step is read as acceptance, authority, currentness, or maintenance responsibility. | State acceptance, authority, currentness, and maintenance through their own decisions and direct relations. |
+| Arch | The current authoring slice, file layout, carrier, or pattern count becomes the framework boundary. | Decide the field, connected problem families, material pattern relations, first use, support units, adjacent subjects, and edition/change boundary by content. |
 | Onto-Epist | Methods, descriptions, Work, patterns, editions, carriers, programmes, services, and product wording collapse into one convenient object. | Name only the direct subjects and relations used by the current decision; keep *product* Plain and return an unresolved kind as a question. |
 | Prag | Source, quality, relation, and publication apparatus grows before it changes a practitioner decision, or a thin extra pattern is added to satisfy a count. | Choose the smallest source and assurance route that closes the use; apply the same semantic framework-scale test at every count. |
 | Did | Ontological precision or package machinery displaces the recognizable domain problem, useful move, worked case, and stop or return. | Keep the first-hour route and pattern bodies in precise plain language; place heavier architecture and assurance after recognition and only where use needs them. |
 
 The first recurring drift is source-summary confidence: a summary feels sufficient because it names the right domain terms. Choose the smallest route that keeps the relied claims, rejected readings, limits, and source editions recoverable, then carry them into pattern Solutions and examples. Use a `G.2` pack only when the question needs its broad, refreshable source frame and downstream handoffs.
 
-The second recurring drift is publication-carrier-first authoring. The repair is not to delay publication forever; publish after the architecture decision, direct assertions of material relations, and source-return notes are recoverable, together with any relation or edition records required by a current maintenance use.
+The second recurring drift is publication-carrier-first authoring. Publish after the architecture decision, direct assertions of material relations, and source-return notes are recoverable, together with any relation or edition records required by a current maintenance use.
 

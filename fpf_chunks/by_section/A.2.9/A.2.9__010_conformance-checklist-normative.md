@@ -6,12 +6,12 @@ section_id: "A.2.9:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__010_conformance-checklist-normative.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:7 — Conformance Checklist (normative)"
-line_start: 7636
-line_end: 7650
+line_start: 7643
+line_end: 7657
 dependencies:
   - "A.10"
   - "A.13"

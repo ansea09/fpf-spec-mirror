@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__003_problem.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:2 — Problem"
-line_start: 14188
-line_end: 14201
+line_start: 14197
+line_end: 14210
 dependencies:
   - "A.15"
   - "A.20"
@@ -34,7 +34,7 @@ keywords:
 
 FPF often needs a coarsened form of a source-bearing side: a manager summary, a redacted disclosure note, a dashboard tile, a lookup surrogate, a workshop simplification, or a didactic compression. The coarsened form can be valuable, but it becomes dangerous when readers forget that its admissible use is narrower than the source-bearing side.
 
-The core failure is not ordinary omission by itself. The failure appears when the coarsened rendering stays honest only under an admissible-use card like this:
+A coarsened rendering stays usable under these conditions:
 
 - the source-bearing side retains the fuller claim scope and remains directly reopenable;
 - the coarsened rendering has declared concrete loss or reduced recoverability;

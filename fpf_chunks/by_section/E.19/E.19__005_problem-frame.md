@@ -6,12 +6,12 @@ section_id: "E.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__005_problem-frame.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:1 — Problem frame"
-line_start: 87524
-line_end: 87533
+line_start: 87867
+line_end: 87876
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -27,11 +27,8 @@ dependencies:
   - "F.19"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled-world entities such as Earth"
-  - "a system-role kind"
-  - "an assignment"
   - "inside the predicate)"
-  - "or a holon"
+  - "under E.8 H-8 and CC-SG.4"
   - "where a non-deontic Invariant: predicate is required)"
 ---
 

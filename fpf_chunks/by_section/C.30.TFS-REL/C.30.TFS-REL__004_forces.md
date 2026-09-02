@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__004_forces.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:3 — Forces"
-line_start: 61741
-line_end: 61751
+line_start: 62021
+line_end: 62031
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__001_intro.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:intro — Intro"
-line_start: 76859
-line_end: 76886
+line_start: 77204
+line_end: 77230
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -78,7 +78,6 @@ Keep FPF wording-use precision restoration distributed without letting every pat
 
 `E.10.ARCH` is not a generic language-cleanup pattern and is not opened merely because a cue word occurs. Its mechanism is ontological reconstruction: recover the object or relation at issue, the use that makes the wording consequential, and the pattern text that defines or constrains that object, relation, or use. Recover a claim-bearing episteme, publication object, source-relation disposition, state-family value, or mathematical lens only when that object is current. When the kind is already recoverable, stay with `F.19` and the exact subject rule instead of adding restoration apparatus.
 
-**Relation-use recovery rule.** When wording hides a positive or explicitly restricted direct-relation claim, first name the obtaining relation and its actual participants as specified by the ClaimGraph that defines the predicate. Individuate one `U.Relation` occurrence only when a named receiving use needs to distinguish it. Add a reusable `RelationSignature` and A.6.5 `SlotSpec` values only when reusable typed declaration is current. Add participant designations only inside a current assertion or relation-occurrence-description episteme; the designations do not replace the actual participants. A filled project row that states the claim is a claim-bearing episteme. A field, edge, diagram element, or table cell remains a publication form or C.29 representation element unless a defining rule establishes another object and an explicit correspondence. Use an E.24 `onticSlotRelation` only after durable ontic settlement makes that direct relation current. A mathematical tuple or argument position stays representation-side until an explicit correspondence relates it to a declared `SlotSpec`. Using `E.10.ARCH` creates none of those objects; the author returns to the rules that define, constrain, or test them, with the PatternIDs serving only as locators.
 **Use this pattern when** a recurring wording-use problem survives the normal `F.19` reading and compact `E.10` routing because a stable FPF ontology question must be recovered once and shared. In DPF authoring, enter through `E.4.DPF` only when recurring domain wording prevents reliable use of named DPF patterns. The shared method remains in FPF; each domain entry remains in the DPF that uses it.
 
 **What goes wrong if missed.** Subject patterns accumulate local wording-repair catalogues and stop foregrounding their own governed object, invariant, and first useful move.

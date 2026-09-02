@@ -6,12 +6,12 @@ section_id: "E.4.DPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__011_rationale.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:10 — Rationale"
-line_start: 71269
-line_end: 71274
+line_start: 71553
+line_end: 71558
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -60,7 +60,7 @@ keywords:
 
 ### E.4.DPF:10 - Rationale
 
-Domain and local frameworks are not mere subsets of FPF. They are FPF-grounded framework editions for declared domain or local use frames. They need domain source work, FPF authoring discipline, architecture decisions, direct relation assertions, quality loops, and refresh routes. Add the relation or edition records needed for a current maintenance use; do not require them when the direct assertion closes the task.
+Domain and local frameworks are FPF-grounded framework editions for declared domain or local use frames. They need domain source work, FPF authoring discipline, architecture decisions, direct relation assertions, quality loops, and refresh routes. Add the relation or edition records needed for a current maintenance use; a direct assertion closes the task when no such representation is needed.
 
-Its contribution is one framework-authoring Method plus Plain selection and branching guidance. This episteme qualifies as its A.3.2 `U.MethodDescription` because it describes that admitted Method as its EntityOfConcern; E.8 supplies the pattern-authoring and publication-form discipline but does not grant MethodDescription membership. The text does not claim a reusable condition-governed structure by prose; when an A.22.CGUS is genuinely current, it is separately admitted with exact conditions, continuations, stops, and demonstration. Every produced or selected result still needs a receiving use and the pattern that defines, constrains, or tests that result or use relation.
+Its contribution is one framework-authoring Method plus Plain selection and branching guidance. This episteme qualifies as its A.3.2 `U.MethodDescription` because it describes that admitted Method as its EntityOfConcern. E.8 supplies the pattern-authoring and publication-form discipline; A.3.2 supplies MethodDescription qualification. When an A.22.CGUS is genuinely current, admit it separately with exact conditions, continuations, stops, and demonstration. Every produced or selected result still needs a receiving use and the pattern that defines, constrains, or tests that result or use relation.
 

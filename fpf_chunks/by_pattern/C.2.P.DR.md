@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.P.DR.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
-line_start: 44664
-line_end: 45007
+line_start: 44943
+line_end: 45286
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,7 +52,7 @@ keywords:
 
 Use this pattern when a declarative representation is about to guide action, reliance, gate, release, evidence, method, mechanism, work, or pattern-application claims by its shape alone.
 
-**First useful move.** Fill one compact `DeclarativeRepresentationRepair` note: visible expression or artifact; exact current direct object or relation; exact representation or correspondence use, or `none`; current source or publication relation; tempting stronger action claim; recovered subject pattern; retained use; blocked stronger action claim; and stop or reopen condition.
+**First useful move.** Recover the visible expression or artifact; exact current direct object or relation; any current representation or correspondence use; current source or publication relation; tempting stronger action claim; recovered subject pattern; retained use; blocked stronger action claim; and stop or reopen condition. Return the repaired wording and needed stop or subject-pattern return. Use a `DeclarativeRepresentationRepair` note only when the receiving use needs the repair to remain inspectable.
 
 **Quick example.** A heat-flow graph in a reactor-cooling review can show preserved and lost flow relations. It does not authorize a valve change by graph shape. The repair keeps the graph path as graph structure, returns release or gate reliance to the gate, source, and evidence patterns, and blocks the hidden work-permission claim.
 
@@ -115,7 +115,7 @@ The repair order is:
 
 1. **Name the visible expression or artifact.** Quote or identify the graph highlight, file, query text, predicate display, dashboard tile, table, publication face, path diagram, carrier path, mathematical expression, method-description expression, or pattern sentence that prompted the overread.
 2. **Recover the exact current direct object or relation.** Name the graph structure, `PathSlice`, flow valuation, evidence or provenance relation, state predicate or value, query or formal object, publication face or occurrence, formal substrate, claim-bearing episteme, source relation, carrier-side object, pattern relation, or other direct outcome under its own governor. This is a list of alternative recovery outcomes, not representation kinds in one ontology.
-3. **State the representation or correspondence use, or write `none`.** When the visible expression represents a separately identified object or claim, name the exact relation and target. When the direct object or relation itself is current and no separate representation claim is needed, write `none`; do not relabel the direct object as a representation kind.
+3. **Distinguish the direct object from any representation or correspondence use.** When the visible expression represents a separately identified object or claim, name the exact relation and target. When the direct object or relation itself is current and no separate representation claim is needed, keep that direct use; do not relabel the direct object as a representation kind. Record `none` only when the receiving use needs an inspectable account of that distinction.
 4. **Recover source or publication relation when current.** If a face, source chain, generated explanation, copied text, dashboard, file path, or publication unit is current, use the publication pattern or source-use pattern governing that relation.
 5. **Name the tempting stronger action claim.** Say what the visible expression is being asked to do by resemblance: route, call, dispatch, invoke, run, flow, send, receive, authorize, release, prove, prescribe, execute, select, pass a gate, or record work.
 6. **Select the subject pattern.** Use the direct pattern when the object or relation is already recovered; otherwise use this pattern only long enough to recover the direct outcome, any representation use, and the blocked stronger claim.
@@ -125,7 +125,7 @@ The repair order is:
 
 #### C.2.P.DR:4.1 - DeclarativeRepresentationRepair note
 
-Use this compact note when the wording has FPF-governed use:
+Use this compact note only when the receiving use needs an inspectable repair of FPF-governed wording:
 
 ```text
 DeclarativeRepresentationRepair:
@@ -140,7 +140,7 @@ DeclarativeRepresentationRepair:
   StopOrReopenCondition:
 ```
 
-The note records the local repair long enough to make the next subject pattern selectable. If the subject pattern already supplies a better record, use that record and keep only the repaired wording, exact direct outcome, any representation use, retained use, blocked stronger claim, and stop or reopen condition here.
+The ordinary result is the repaired wording, exact direct outcome, any current representation use, retained use, blocked stronger claim, and needed stop or reopen condition. The optional note records these values when the receiving use needs them to remain inspectable. If the subject pattern already supplies a suitable record, use it without duplicating the repair note here.
 
 Use four plain questions before the claim-and-pattern table: What visible thing am I looking at? What direct object or relation is current? What, if anything, does it represent? What stronger action claim must remain blocked?
 
@@ -332,7 +332,7 @@ A lab notebook, protocol publication, source episteme, and review record remain 
 
 | Check | Requirement |
 | --- | --- |
-| `CC-C2PDR-1` | A repair separately names the visible expression or artifact, the exact current direct object or relation, and the exact representation or correspondence use or `none`; no field types structures, relations, formal objects, publication objects, or carrier-side objects as one family of representation kinds. |
+| `CC-C2PDR-1` | A repair separately names the visible expression or artifact, the exact current direct object or relation, and any current representation or correspondence use. Record `none` for the representation branch only when the receiving use needs an inspectable account. No field types structures, relations, formal objects, publication objects, or carrier-side objects as one family of representation kinds. |
 | `CC-C2PDR-2` | When a representation use is current, the repair names its exact represented EntityOfConcern or claim and, for a mathematical-lens or selected-structure use, the preserved and lost structure and admitted and blocked uses required by its subject pattern; any current source or publication relation is named independently. When `RepresentationOrCorrespondenceUse` is `none`, no represented-target, preserved/lost-structure, or lens-use account is required. |
 | `CC-C2PDR-3` | The tempting stronger action claim is explicit: route, call, dispatch, invoke, run, flow, send, receive, authorize, release, prove, prescribe, execute, select, pass a gate, or record work. |
 | `CC-C2PDR-4` | The recovered subject pattern is named by value, or the case is demoted to quote-only, ordinary prose, reduced-use cue, blocked use, or incomplete rewrite. |

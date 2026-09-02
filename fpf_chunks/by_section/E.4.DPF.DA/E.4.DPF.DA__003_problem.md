@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__003_problem.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:2 — Problem"
-line_start: 71317
-line_end: 71328
+line_start: 71601
+line_end: 71612
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -32,6 +32,7 @@ dependencies:
   - "C.33"
   - "C.34"
   - "C.35"
+  - "E.10"
   - "E.11"
   - "E.11.PFP"
   - "E.17"
@@ -66,5 +67,5 @@ Without a DPF-specific adequacy evaluation, teams tend to use one of three wrong
 - they average `E.21` scores of individual patterns and miss package-level failures such as missing source packs, broken dependency direction, poor first entry, or stale edition records;
 - they inspect section presence and conclude that an all-in-one carrier, map, or seed package is adequate because it has patterns, a table of contents, a readme, a preface, maps, and sources.
 
-The result is adoption risk. A reader may get a fluent local framework that does not know its domain boundary, does not preserve rival source traditions, duplicates FPF Core ontology, hides relation functions, has no refresh route, or cannot tell a practitioner what typical problem is live, which known failure mode to avoid, and which SoTA solution move to try first.
+The result is adoption risk. A reader may get a fluent local framework that does not state its domain boundary, does not preserve rival source traditions, duplicates FPF Core ontology, hides relation functions, has no refresh route, or cannot tell a practitioner what typical problem is live, which known failure mode to avoid, and which SoTA solution move to try first.
 

@@ -6,12 +6,12 @@ section_id: "C.2.2a:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__008_bias-annotation.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:6 — Bias-Annotation"
-line_start: 43259
-line_end: 43261
+line_start: 43538
+line_end: 43540
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__007_bias-annotation.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:6 — Bias-Annotation"
-line_start: 71568
-line_end: 71589
+line_start: 71855
+line_end: 71876
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -32,6 +32,7 @@ dependencies:
   - "C.33"
   - "C.34"
   - "C.35"
+  - "E.10"
   - "E.11"
   - "E.11.PFP"
   - "E.17"
@@ -64,7 +65,7 @@ keywords:
 | --- | --- | --- |
 | Gov | A favorable package value or form pass is read as acceptance, authority, publication, currentness, or maintenance assignment. | Keep the local adequacy status inside the aggregate result and require each later use to establish its own decision or relation. |
 | Arch | A carrier, file layout, source map, or polished front is treated as the framework edition or its package architecture. | Evaluate the exact edition and keep architecture, support units, relations, publication forms, carriers, access, and evidence separately recoverable. |
-| Onto-Epist | The evaluation specification, Method, evaluator action, Work, coordinate claims, evidence, aggregate result, and status collapse into one table or reviewer label. | Keep the objects listed in section 4 separate; a filled presentation form performs no assessment and grants no status. |
+| Onto-Epist | The evaluation specification, Method, evaluator action, Work, coordinate claims, evidence, aggregate result, and status collapse into one table or reviewer label. | Keep the objects listed in section 4 separate; recover the evaluator action, the aggregate result, and any separate status-use relation. |
 | Prag | Counts, citations, maps, form defects, or duplicated checks become cheap score targets while field coverage and first use remain weak. | Judge practitioner use and source-backed package content; reuse one observation and one repair instead of charging the same defect twice. |
 | Did | Assurance apparatus appears before the domain problem, first useful route, or package repair a practitioner can recognize. | Keep the ordinary assessment route first, write rationales and repairs in precise plain language, and leave the heavier evidence map after the coordinates. |
 

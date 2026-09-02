@@ -6,12 +6,12 @@ section_id: "A.2.7:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__013_relations.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:11 — Relations"
-line_start: 6652
-line_end: 6671
+line_start: 6658
+line_end: 6678
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -49,4 +49,5 @@ keywords:
 | `C.29` | Use for graph, table, matrix, algebra, and embedding representations and their preserved or lost structure. |
 | `E.24.UK` | Use to avoid admitting a selected structure, local relation slot, or convenient bundle name as a root U-kind by punctuation. |
 | `E.10.ROLE`, `F.5`, and `F.18` | Use for recovery of ambiguous source wording and durable naming after the exact object is known. |
+| `F.19` | Test any optional explanatory overread against the intended reader and use. |
 

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:8"
 section_title: "Name and placement discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__014_name-and-placement-discipline.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:8 — Name and placement discipline"
-line_start: 77148
-line_end: 77157
+line_start: 77476
+line_end: 77485
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -69,9 +69,9 @@ keywords:
 
 `semanticArea` is the selected Part-F Tech term for the semantic unit used by a wording-use restoration row. Plain speech may say "semantic area" or "meaning area" only as a gloss for that declared Part-F row or bounded row-set.
 
-`meaning area`, `theme`, `pattern area`, `pattern cluster`, `workstream`, `campaign`, `module`, and `branch` are not selected as Tech architecture terms for this distribution. Tech prose must resolve those cues into `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, `entityOfConcernUseFields`, `ontologicalNeighborhood`, a `subjectPatternLocator` for the defining, constraining, or testing rule, and a realization pattern when one is needed.
+Tech prose must resolve a distribution cue to its applicable routing coordinate: `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, `entityOfConcernUseFields`, `ontologicalNeighborhood`, or a `subjectPatternLocator` for the defining, constraining, or testing rule. Add a realization pattern when one is needed.
 
 `pattern nest` is allowed for ID and placement grouping such as `A.6.*`, `C.16.*`, or `C.30.*`. It is not a semantic parent relation and not an authority relation.
 
-`SelectedLocusObligationClosure` is the current `E.9.DA` coordinate name for selected-locus obligation closure. Do not reintroduce `ReceivingLocusObligationClosure` as a general obligation kind, locus kind, pattern role, or restoration vocabulary.
+`SelectedLocusObligationClosure` is the `E.9.DA` coordinate name for selected-locus obligation closure.
 

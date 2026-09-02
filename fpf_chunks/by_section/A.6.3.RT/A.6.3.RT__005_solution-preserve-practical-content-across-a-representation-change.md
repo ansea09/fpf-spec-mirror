@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:4"
 section_title: "Solution — preserve practical content across a representation change"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-preserve-practical-content-across-a-representation-change.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:4 — Solution — preserve practical content across a representation change"
-line_start: 14904
-line_end: 15086
+line_start: 14913
+line_end: 15095
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -195,7 +195,7 @@ Check each target-side connective against the source or exact same-EntityOfConce
 
 ##### A.6.3.RT:4.5.b - Loss and recoverability
 
-State which distinctions, inspection possibilities, uncertainty cues, or local qualifiers are lost, foregrounded, rearranged, or harder to recover. The target may be useful with source-bounded reliability or an explicit downgrade. If it remains honest only through a narrower-use card and source return, A.6.3.CSC is primary.
+State which distinctions, inspection possibilities, uncertainty cues, or local qualifiers are lost, foregrounded, rearranged, or harder to recover. The target may be useful with source-bounded reliability or an explicit downgrade. If it remains honest only through a declared narrower use and source return, A.6.3.CSC is primary.
 
 ##### A.6.3.RT:4.5.c - Decode-mediated entry
 

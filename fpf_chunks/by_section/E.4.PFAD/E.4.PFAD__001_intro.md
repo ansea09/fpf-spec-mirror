@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__001_intro.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:intro — Intro"
-line_start: 70382
-line_end: 70387
+line_start: 70678
+line_end: 70683
 dependencies:
   - "A.15.1"
   - "A.22"

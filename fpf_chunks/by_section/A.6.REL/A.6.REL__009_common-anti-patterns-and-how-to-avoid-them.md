@@ -6,12 +6,12 @@ section_id: "A.6.REL:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 12474
-line_end: 12486
+line_start: 12481
+line_end: 12493
 dependencies:
   - "A.6.0"
   - "A.6.5"

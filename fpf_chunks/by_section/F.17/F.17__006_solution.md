@@ -6,12 +6,12 @@ section_id: "F.17:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__006_solution.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:4 — Solution"
-line_start: 98194
-line_end: 98208
+line_start: 98525
+line_end: 98539
 dependencies:
   - "A.1.1"
   - "A.10"

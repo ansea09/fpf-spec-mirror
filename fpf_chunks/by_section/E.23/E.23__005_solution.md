@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 89690
-line_end: 89958
+line_start: 90021
+line_end: 90289
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -51,7 +51,7 @@ For one quality-improvement loop:
 
    Repair below-floor findings first. Above the floor, prefer a substantive gain—such as clearer action, a missing case or countercase, current source support, restored predecessor content, cleaner relations, or a split of overloaded material. Do not add guards, catalogues, or quality proof merely to defend a higher score. Close with no change only after the evidence shows that no feasible non-dominated improvement remains under the protected trade-offs.
 
-   For a precision-restoration defect, use the selected restoration or subject pattern. Claim a Method or MethodDescription only when A.3.1 and A.3.2 admit it. Keep locator, Method, description, performer, assignment, Work, result, and responsibility separate, and run one bounded `KindRestorationCheck` over the distinctions actually at stake.
+   For a precision-restoration defect, apply `F.19` and open a restoration or subject pattern for an unresolved FPF-specific meaning. Claim a Method or MethodDescription only when A.3.1 and A.3.2 admit it. Keep locator, Method, description, performer, assignment, Work, result, and responsibility separate. Run one bounded `KindRestorationCheck` when the changed expression can alter FPF-governed meaning; otherwise F.19's local revalidation completes the ordinary repair.
 7. Re-evaluate the changed object as a separate pass through the same declared evaluation and evidence basis, unless a stronger evaluation was explicitly selected. Keep the later Work, application or direct result relation, evidence, returned value, and result episteme distinct from the first pass.
 8. Record what improved, what stayed at the floor, what was unchanged by value, what became worse, and which findings moved outside this evaluation. Compare the two result epistemes rather than treating the later pass as a continuation field of the first Work.
 9. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdUntilInformationBasisSufficient`. When later replay depends on alternatives and guards, use the conditional structure block below. A decision or selected continuation neither authorizes nor performs the next Work.

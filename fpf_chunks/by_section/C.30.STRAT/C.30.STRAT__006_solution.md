@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__006_solution.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:4 — Solution"
-line_start: 60070
-line_end: 60196
+line_start: 60348
+line_end: 60476
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,6 +42,7 @@ dependencies:
   - "E.18"
   - "E.8"
   - "F.18"
+  - "F.19"
   - "G.5"
   - "G.6"
   - "I.2"
@@ -50,7 +51,7 @@ keywords:
 
 ### C.30.STRAT:4 - Solution
 
-Write the direct local repair first. For example: `Here “gate” names the neural-network path selector, not a project gate decision; use E.18 to describe the selected path.` That sentence can be the complete result.
+Write the direct local repair first. For example: `Here “gate” names the neural-network path selector; use E.18 to describe the selected path.` That sentence can be the complete result.
 
 When the repair must be compared, handed on, or revisited, retain a compact note:
 
@@ -65,11 +66,13 @@ StratificationSourceLabelRepairNote:
   repairedWordingOrDemotion:
   admissibleUse:
   stopOrReturnCondition:
-  groundedOverread?:
+  blockedOverread?:
   remainingReaderUse:
   disposition: direct-pattern-use | local-rewrite | ordinary-source-label |
     quote-only | reduced-use-cue | blocked-use | incomplete-rewrite
 ```
+
+`groundedOverread?` is an alias for the same optional `blockedOverread?` value, selected through F.19's plausible-reader test.
 
 The note is neither the selected structure nor the relation, claim, publication, or pattern result it points to. Omit it when the direct sentence is enough.
 
@@ -81,7 +84,7 @@ The note is neither the selected structure nor the relation, claim, publication,
 4. **Choose by the recovered meaning.** Use the first matching row in C.30.STRAT:4.2; never choose from the label alone. A standard or model may settle the label inside its declared use, but neither its status nor its popularity extends that meaning to another subject or source.
 5. **Open only the needed rule.** Name the actual participants, relation, structure, characteristic, state, publication, evidence, work, decision, or other object that makes the claim true or false. Do not copy every possible field into the result.
 6. **Return to ordinary wording.** Write the shortest sentence that preserves the recovered claim and names the next pattern only when its contribution matters.
-7. **State the stop.** Give the allowed use, the tempting stronger reading that remains blocked, and the next action. If no useful action survives, use quote-only, reduced-use, blocked, or incomplete-rewrite disposition.
+7. **State the stop.** Give the allowed use, the next action, and the condition for stopping or returning. Include a blocked overread only when it passes F.19's plausible-reader test. If no useful action survives, use quote-only, reduced-use, blocked, or incomplete-rewrite disposition.
 
 #### C.30.STRAT:4.2 - Recovered meanings and patterns to use
 
@@ -94,7 +97,7 @@ The note is neither the selected structure nor the relation, claim, publication,
 | Characteristic, scale, or mathematical lens | `level`, `tier`, `ladder`, `rung`, `layer`, `stack`, `block` | Characteristic and bearer, coordinate or value, scoring method, comparison criterion, scale window, resolution, coarse-graining, preserved or lost structure, lens-use result, and stop condition only where the claim needs them. State separately how the subject is mapped to a scale value; a scale or band does not by itself establish levels in the subject. | `C.16.P`, the applicable characterization pattern, or `C.29`. |
 | Episteme, publication, view, or source use | `stack`, `layer`, `section`, `view`, `cache`, `gate` | Description episteme, publication unit, face, form, carrier, source-currentness or source-use relation, source-return condition, or ordinary publication label. | `C.2.P`, `E.17`, or the pattern for the publication or source-use claim. |
 | State, currentness, time, or dynamics | `cache`, `stable`, `level`, `readiness`, sometimes `gate` | Bearer, state frame and values, validity window, currentness relation, dynamics, temporal aspect or rate band, authored temporal-claim adequacy, and reopen condition. | `A.19.SPR`, `A.3.3`, `C.27.TA`, `C.27`, or the applicable state or temporal pattern. |
-| Evidence, assurance, gate, work, decision, or causal use | `gate`, `proof`, `safety`, `decision`, `work`, `effect`, or any label used as authority | Evidence path, assurance argument, constraint-validity record, gate decision, Work occurrence, decision record, causal-use record, and the stronger readings that remain blocked. | `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, or the applicable neighboring pattern. |
+| Evidence, assurance, gate, work, decision, or causal use | `gate`, `proof`, `safety`, `decision`, `work`, `effect`, or any label used as authority | Evidence path, assurance argument, constraint-validity record, gate decision, Work occurrence, decision record, causal-use record, and any limits imposed by the applicable pattern on that claim. | `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, or the applicable neighboring pattern. |
 | Ordinary source-label non-use | any source label | No FPF claim remains after the sentence is read in context. | No precision-restoration pattern; keep ordinary wording, quote it, reduce its use, or block reliance. |
 
 **When a level claim matters.** When a later decision or design relies on a sentence such as “X is at level L” or “A is above B,” name the subject at stake (the `EntityOfConcern`), what is being ordered, compared, grouped, or mapped, the relation or scale mapping that gives the claim its meaning, when it applies, and whether the sentence asserts, proposes, assumes, or merely illustrates the claim. Apply the same test when `layer`, `tier`, `band`, `scale`, or `stage` carries the stronger claim. A named model or standard may provide this mapping within its declared use; its status does not extend the claim beyond that use. The source word may remain, but these facts—not the label—carry the claim. A list, diagram row, first-then order, carrier section, curriculum, scale label, stage sequence, or coarse-grained description does not establish a subject level by form. If the facts are missing, keep the wording local or illustrative and block reliance on the stronger level claim.
@@ -159,12 +162,12 @@ StratificationSourceLabelRepairNote:
   sourceUseDisposition: keep cache as a source label until its relation or bearer is known
   patternRef?: A.6.M, A.6.F, E.18, A.19.SPR, or A.3.3 for the cache;
     C.16.P, C.29, or C.31.ASAP for scale; A.10, B.3, or G.6 for proof or assurance
-  repairedWordingOrDemotion: “The response cache is a candidate state-bearing part of the architecture. Its scaling and evidence claims remain unresolved.”
+  repairedWordingOrDemotion: “Identify what ‘cache’ names here, which scaling claim is being made, and what evidence supports it.”
   admissibleUse: start the three-way investigation
-  stopOrReturnCondition: state the smallest result for each recovered claim or retain ordinary source wording
-  groundedOverread?: the source sentence says the cache “proves” that the architecture scales; test that proof and scale claim under their direct patterns
+  stopOrReturnCondition: return to the source for the missing cache meaning, scaling basis, or evidence; use the direct pattern once that branch is recovered
+  blockedOverread?: the source's proof-and-scale claim remains unsupported while its cache subject, scaling basis, and evidence are unresolved
   remainingReaderUse: state the smallest result for each recovered claim, or keep ordinary source wording
-  disposition: local-rewrite; direct-pattern-use only for branches that become current
+  disposition: reduced-use-cue; direct-pattern-use only for branches that become current
 ```
 
 The note preserves every live branch without requiring a project engineer to reproduce E.10.ARCH authoring coordinates.
@@ -173,5 +176,5 @@ The note preserves every live branch without requiring a project engineer to rep
 
 A repair remains usable only while its source span, recovered meaning, applicable rule, allowed use, and next action remain clear. Reopen or narrow it when the label begins carrying another relation or claim, the actual object becomes clear and makes this detour unnecessary, the interpretation was chosen from word similarity rather than evidence, or the repair is precise but leaves no useful reader action.
 
-Reopen the affected authoring row when E.10.ARCH, C.30.P, F.19, or another realization pattern changes how this wording family is handled. Lower the result when the recovered object, applicable rule, allowed use, next action, or stop condition cannot be stated; require a grounded overread only when the current wording supplies one.
+Reopen the affected authoring row when E.10.ARCH changes its internal coordinates, C.30.P changes architecture-wording repair, F.19 changes the plain-language boundary, or another realization pattern now handles this wording family. Lower the result to ordinary wording, quotation, reduced-use cue, blocked use, or incomplete rewrite when the object, applicable rule, allowed use, next action, or stop or return condition cannot be stated. Include a blocked overread only when it passes F.19's plausible-reader test.
 

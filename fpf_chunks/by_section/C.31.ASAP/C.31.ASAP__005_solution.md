@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__005_solution.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:4 — Solution"
-line_start: 62903
-line_end: 63053
+line_start: 63183
+line_end: 63333
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -95,24 +95,24 @@ ScaleClaimTriage:
   exceptionGrowthRisk:
   sourceReturnCondition:
   admissibleUse:
-  groundedScaleShortcut?:
+  nonAdmissibleUse?:
   relatedClaimGovernanceIfClaimed:
   stopCondition:
 ```
 
-The triage is complete when it states the next admissible architecture move and the stop or return condition. Add `groundedScaleShortcut?` only when the current label, evidence, representation, or an observed recurring use supplies that exact shortcut. Local guidance is a complete result until a downstream reliance claim becomes current.
+The triage is complete enough when it states the next admissible architecture move and the stop or return condition. Include `nonAdmissibleUse?` only when it passes F.19's plausible-reader test; `groundedScaleShortcut?` is an alias for that same optional value. It may stop at local guidance when no comparison, publication, assurance, selected-set, or decision use is being made.
 
-`claimScopeRef` names one exact `U.ClaimScope`; `selectedContextSliceRefs` names the A.2.6 membership relevant to this use. `scaleWindowRef` gives the range of the scale variable for which the preference is claimed. Fill `modelUseStructureRef` only when an independently selected A.1.1 `BoundedModelUseStructure` changes this exact preference use. Each field therefore comes from its direct object or relation; a generic bounded-context label is insufficient.
+`claimScopeRef` designates one exact `U.ClaimScope`; `selectedContextSliceRefs` records the A.2.6 membership relevant to this use. A scale window is the range of the scale variable for which the preference is claimed, not a substitute for either scope object. `modelUseStructureRef` is optional and is filled only when an independently selected A.1.1 `BoundedModelUseStructure` changes the interpretation of this exact preference use.
 
 #### C.31.ASAP:4.3 - Architecture scale-preference rule
 
 When architecture alternatives satisfy the same safety boundary, law-domain boundary, and assurance boundary, prefer the alternative whose reusable functional-structure, flow-structure, control-structure, module-interface, work-template, and evidence-package structure and learning-transfer slopes remain stable or improve over the declared scale window, unless an `ArchitectureScaleAuditRecord@Project` records a bounded exception.
 
-C.31.ASAP records the scale-preference claim and its boundary. Use `G.5` or `G.9` for an alternative or selected set, `C.11` for a local choice, and the direct gate or decision pattern when that claim is current.
+C.31.ASAP defines the scale-preference claim and its boundary. If an alternative set, shortlist, selected set, local choice, gate, or decision is being claimed, use `G.5`, `G.9`, `C.11`, `A.21`, or the governing pattern.
 
-A scale-preference claim may inform `C.32` candidate generation or one `A.19.CPM` comparison when it names the scale variable, scale window, expected stable or improving structure, exception-growth risk, and source-return condition. The receiving pattern carries any resulting comparison, selected-set, publication, reliance, or decision claim.
+A scale-preference claim may inform `C.32` candidate generation or supply one input to an `A.19.CPM` comparison by naming the scale variable, scale window, expected stable or improving structure, exception-growth risk, and source-return condition for candidate alternatives. Use `C.32` to construct the candidate architecture palette, `A.19.CPM` to compare alternatives, `G.5` to declare a selected-set result, `C.11` to make a final local choice, and `C.32.PAD` to record a project architecture decision. When audience availability is current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability. Apply the relevant evidence, assurance, gate, or release definition and test only when that claim is current.
 
-When the same scale-sensitive pressure must also become a project criterion, `C.32.ACS` records a separate row with its characteristic or Q-Bundle slot, bearer, scale form, and use class. That row may supply declared input to the ASAP preference; the ASAP record continues to carry the alternative preference, while the ACS row carries criterion admission and classification.
+When the same scale-sensitive pressure must also become a project criterion, `C.32.ACS` creates a separate row for the exact characteristic or Q-Bundle slot, bearer, scale form, and use class. That row may supply declared input to an ASAP preference. Use C.31.ASAP to state which alternative is preferable under the scale window; use C.32.ACS to admit and classify the criterion row as an optimization indicator, guardrail, or context-only row. Keep the preference record and criterion row separately referenced.
 
 #### C.31.ASAP:4.4 - Scale variables
 
@@ -155,12 +155,12 @@ ArchitectureScaleAuditRecord@Project:
   BespokeResidueRegisterRef?:
   SourceReturnCondition:
   admissibleUse:
-  groundedScaleShortcut?:
+  nonAdmissibleUse?:
   relatedClaimGovernanceIfClaimed:
   stopCondition:
 ```
 
-For `ArchitectureScaleAuditRecord@Project`, `@Project` is a retrieval cue. To claim project-local audit use, cite both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining audit-use relation in `architectureScaleAuditProjectUseRelationRef`. `BespokeResidueRegister@Project` remains retrieval-only in this edition; claim its project locality only through a separately governed direct register-to-work relation and cite that occurrence.
+For `ArchitectureScaleAuditRecord@Project` and `BespokeResidueRegister@Project`, `@Project` is a compatibility and retrieval cue. An audit local to one actual project names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct audit-use relation in `architectureScaleAuditProjectUseRelationRef`. `BespokeResidueRegisterRef` may cite the register episteme. Assert that register's project locality only after a separate direct register-to-work relation is governed, and cite that exact occurrence; the audit-use relation remains about the audit. Otherwise retain only retrieval use and make no audit or residue-register project-locality claim.
 
 | Output | Meaning |
 | --- | --- |
@@ -172,7 +172,7 @@ For `ArchitectureScaleAuditRecord@Project`, `@Project` is a retrieval cue. To cl
 | `ScaleWindow` | Declared range where the preference claim holds. |
 | `SourceReturnCondition` | Condition for returning from a compressed, coarse, extracted, indexed, or accounting representation to source-side structural evidence, source records, or a related source or evidence record with higher declared validation boundary. |
 
-`ArchitectureScaleAuditRecord@Project` carries project-side triage for an architecture scale-preference claim. Represent any downstream reliance through its direct pattern and result.
+`ArchitectureScaleAuditRecord@Project` records the triage of an architecture scale-preference claim. An assurance proof, gate record, selected-set result declaration, publication occurrence, local decision, or work plan remains a separate result under its own pattern; use A.15.2 for the work plan.
 
 #### C.31.ASAP:4.6 - Waiver discipline
 
@@ -185,7 +185,7 @@ ASAPWaiverReason:
   context-specific bounded exception
 ```
 
-A deontic constraint, safety or law-domain boundary, mission constraint, assurance infeasibility, scale-probe overturn, or another bounded context-specific reason can justify a non-scale-amenable choice. Record such a choice as a bounded exception rather than `ArchitectureHeuristicDebt`.
+A deontic constraint, safety boundary, law-domain boundary, mission constraint, assurance infeasibility, or scale-probe overturn can justify a bounded exception without creating `ArchitectureHeuristicDebt`.
 
 `ArchitectureHeuristicDebt` remains report-only unless tied to a decision, risk, work, evidence, assurance, or selected-set record through its governing pattern.
 
@@ -204,7 +204,7 @@ Before scale-preference guidance becomes action-guiding, name at least one possi
 
 #### C.31.ASAP:4.8 - C.29 lens relation
 
-When a scale preference depends on an RG, coarse-graining, epiplexity, graph, multilevel-learning, or frustration lens, use `C.29` for the mathematical-lens recovery and keep the architecture scale-preference claim in C.31.ASAP.
+When a scale preference depends on an RG, coarse-graining, epiplexity, graph, multilevel-learning, or frustration lens, use `C.29` for the mathematical-lens recovery and keep the architecture scale-preference claim in C.31.ASAP. Use C.18.1 for any scale-law claim.
 
-For architecture use, cite a local C.29 output only when its lens changes the next admissible use. The C.31.ASAP side records the scale variable, scale window, evidence, exception-growth risk, and source-return condition. C.29 records its mathematical object, mapping, preserved and lost structure, visible payoff, declared use, stop condition, and any grounded optional overread.
+For architecture use, the C.29 output should name `MLU.Description@RGArchitecture`, `MLU.Description@MultilevelLearningFrustration`, or another local MathLensUse output only when the lens changes the next admissible use. The C.31.ASAP side records the scale variable, scale window, slope or scale-probe evidence, exception-growth risk, and source-return condition. C.29 records candidate mathematical object, mapping mode, preserved structure, lost structure, visible payoff, declared use, stop condition, and any blocked overread justified through F.19.
 

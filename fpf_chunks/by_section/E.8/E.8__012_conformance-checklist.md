@@ -6,12 +6,12 @@ section_id: "E.8:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__012_conformance-checklist.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:7 — Conformance Checklist"
-line_start: 73376
-line_end: 73417
+line_start: 73664
+line_end: 73705
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -76,7 +76,7 @@ Conformance Checklist items are authoring checks: they test whether the pattern 
 | **CC-SG.8 (Actual cross-local or plane relation).** | When SoTA-Echoing uses an obtaining semantic Bridge, it **MUST** identify the two exact F.17 local senses, the F.9 relation, and a separate bounded-use claim; `CL` remains optional evidence shorthand. A ReferencePlane use cites its applicable plane relation. Any penalty cites a named current policy and its applicability; none follows from context, plane, Bridge, or `CL` alone. | Safe, auditable reuse without fictitious relations or automatic penalties. |
 | **CC-SG.9 (Lexical hygiene).** | The term **mapping** **SHALL NOT** appear in SoTA-Echoing except in the precise E.10 sense; use **alignment/Bridge/relation** instead. | Avoids overloading reserved vocabulary. |
 | **CC-SG.10 (No keyword soup).** | `SoTA-Echoing` entries **MUST** state complete claims. Labels, bullets, and table cells may structure those claims but **MUST NOT** replace the practice question, selected answer, comparison, and pattern consequence with a noun catalogue. | Keeps source structure readable without forcing artificial sentence form on labels or values. |
-| **CC-SG.11 (Anti-patterns).** | Every pattern **SHALL** include a **Common Anti-Patterns and How to Avoid Them** section with at least one local misuse, overread, boundary case, or neighboring-pattern misuse relation. A placeholder saying no anti-pattern applies is nonconforming. | Makes misuse cases explicit and reduces review churn without creating omission-as-content. |
+| **CC-SG.11 (Anti-patterns).** | Every pattern **SHALL** include a **Common Anti-Patterns and How to Avoid Them** section grounded in observed misuse, a text-invited misreading by a plausible intended reader, or an ordinary non-use boundary that changes application. An already established boundary may be referenced. Apply `F.19` to the proposed contrast; neither an invented error nor a placeholder saying no anti-pattern applies supplies a useful case. | Makes relevant misuse and application boundaries recoverable without inventing an opponent or repeating a warning solely to fill the section. |
 | **CC-SG.12 (Boundary claim-set discipline).** | If a pattern’s subject is a boundary, interface, API, protocol, connector, SLA, or other published boundary description, it **MUST** either (a) provide an **A.6.B**-governed atomic claim set (`L-*`/`A-*`/`D-*`/`E-*`, with stable IDs), or (b) explicitly cite an existing **A.6.B Claim Register** / scoped claim set that it reuses. | Pulls A.6.B into the authoring contour, prevents boundary-kind soup, and makes review more explicit and repeatable. |
 | **CC-SG.13 (Didactic sufficiency).** | New patterns and substantial revisions **MUST** remain understandable without project-planning notes. When a pattern introduces a new named family, profile, or specialization, or adds a non-trivial note derived from another pattern, its Solution and Grounding **SHALL** carry enough didactic content: the relation to the pattern that defines or constrains the specific claim, ordinary-vs-FPF-governed wording guidance, at least one concrete source and resulting-publication slice where applicable, and visible related-pattern or project-side FPF kind and reference named by value cues. | Prevents skeleton-only patterns and project-context leakage. |
 | **CC-SG.14 (Controlled prose, not free shorthand).** | FPF-governed prose **SHALL NOT** rely on bare relation words or planning shorthand whose actual relation or cited-pattern contribution is left implicit (e.g., bare “species”, “branch”, “flow”, or API-like “input/output” language). When that relation matters, authors **MUST** name it explicitly—for example, `specialization of ... with delta ...`, `profile projecting ... for use ...`, or `overlay over ...`. When a neighboring pattern supplies a definition, constraint, test, method, or lookup needed by the sentence, state that concrete contribution and cite its id. | Keeps pattern prose precise and self-identifying without inventing a universal locator relation. |

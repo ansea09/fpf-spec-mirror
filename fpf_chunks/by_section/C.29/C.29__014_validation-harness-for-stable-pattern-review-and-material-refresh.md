@@ -6,17 +6,18 @@ section_id: "C.29:11a"
 section_title: "Validation harness for stable-pattern review and material refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__014_validation-harness-for-stable-pattern-review-and-material-refresh.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:11a — Validation harness for stable-pattern review and material refresh"
-line_start: 57962
-line_end: 58047
+line_start: 58240
+line_end: 58325
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
   - "A.15.4"
   - "A.19"
   - "A.3.3"
@@ -46,6 +47,7 @@ dependencies:
   - "E.19"
   - "E.8"
   - "E.9"
+  - "F.19"
   - "F.9"
   - "G.10"
   - "G.2"
@@ -126,7 +128,7 @@ Harness shape:
 | `ExpectedMathLensUseOutputClass` | `NoMathLensUseNeeded`, `OneLine`, `MiniCard`, `FullCard`, or `NeighborGoverningPatternNote`. |
 | `RequiredFields` | Minimal fields or overlays required. |
 | `NeighborPatternRefs` | Neighboring subject patterns named by value when their claims are being made. |
-| `ExpectedRepair` | Downgrade, narrow, add loss, add validation, choose rival lens, or apply neighbor. |
+| `ExpectedRepair` | Downgrade, narrow, add loss, add evidence or validation, choose a rival lens, apply a neighbor, or block an unsupported use. |
 | `ExpectedStopCondition` | Concrete narrowing, stop, source-return, or neighboring-pattern condition. |
 | `ExpectedNonUseDecision` | Present only for false-positive cases. |
 
@@ -139,8 +141,8 @@ Minimum harness cases:
 | category-like research field | `C.29` mini-card and possibly `F.9`; semantic truth and evidence relation explicitly lost. |
 | RG-like scale law | `C.29` plus `C.18.1`; scale window and coarse-graining rule required. |
 | Vanchurin-style universe-as-learning | candidate lens only; not accepted physics; stop condition blocks ontology. |
-| queueing production line | positive mini-card; throughput and latency reasoning admitted; motivation, obligation, and full organization ontology blocked. |
-| team backlog behaves like a queue | mini-card admits waiting and bottleneck reasoning; motivation and duty claims blocked. |
+| queueing production line | positive mini-card; throughput and latency reasoning admitted; human meaning, contractual obligations, and unmodeled rare events remain explicit losses; stop or narrow when assumptions fail or those losses affect the use. |
+| team backlog behaves like a queue | mini-card admits waiting and bottleneck reasoning; motivation and duty remain explicit losses; return or change lens when those losses prevent the next action. |
 | same graph formalism in two contexts | `F.9` governs Bridge semantics; `C.29` governs declared lens use. |
 | latent manifold or neural operator as scientific model | learned-lens overlay requires observation map, training regime or validation regime, generalization claim, uncertainty note, and stop condition. |
 

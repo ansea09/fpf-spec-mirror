@@ -6,12 +6,12 @@ section_id: "E.18.NET:5"
 section_title: "Archetypal Grounding — worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__006_archetypal-grounding-worked-cases.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:5 — Archetypal Grounding — worked cases"
-line_start: 87294
-line_end: 87384
+line_start: 87636
+line_end: 87727
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -62,6 +62,7 @@ selectedNetworkConstraintRefs[]:
 networkUseFrame:
   questionOrAction: decide which accepted stock can enter the coffee-service brewing flow
   admissibleUse: use the selected supply relation to choose accepted coffee stock for the brewing flow
+  stopOrReturnCondition: return to the supply claim when its delivery-and-acceptance basis no longer supports this stock choice
 returnCondition: either member, the supply occurrence, an endpoint or exposure, acyclicity, or the coffee-service question changes
 ```
 

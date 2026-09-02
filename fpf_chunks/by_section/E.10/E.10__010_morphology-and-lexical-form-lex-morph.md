@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 75532
-line_end: 75773
+line_start: 75862
+line_end: 76103
 dependencies:
   - "A.10"
   - "A.15"
@@ -132,7 +132,7 @@ IDs and instances: **flat with delimiters** chosen by the exact local naming sch
 * Name source-finding cues separately from source epistemes. A cue, badge, credential view, dashboard tile, heading, signature-looking mark, or generated explanation may help find a source; it does not by itself create an `authoritySourceRef` target, evidence relation, gate decision, assurance claim, exact `U.SystemRoleAssignment` occurrence, status assertion, Work occurrence, deontic permission, or Work authorization.
 * Use an ordinary PatternID reference when a reader only needs to find the rule. Add `relationFunctionClaimRef` and the defining or constraining `ClaimGraph` only when admissible interpretation, comparison, migration, publication, or reuse depends on that exact rule identity. Use `authoritySourceRef` when a non-pattern target such as an external standard, editioned register, DRR, gate decision, policy record, system-role-assignment register, or status register carries the relevant authority. Do not use generic sign, source, project-work, or container-placement wording as solution terms.
 * When a published episteme is used for work, name the P2W chain element being used: intended method family, selected method or method of work, one exact `U.WorkPlan` baseline, planned work, or one actual Work occurrence admitted under `U.Work`. Then name any separate claim-bearing episteme about that occurrence and any separately current direct resource-use, affected-referent, operation-application, measurement, evaluation, decision, delivery, acceptance, or receiving-use relation under the pattern that defines it; when a production-work, entity-inception, or production-completion claim is current, name one local A.15.PROD claim instead of implying a universal production relation. Apply `A.6.P.WMR` only while one such Work-to-Method boundary relation remains hidden after generic relation recovery. Do not let generic `action`, `use`, `material`, `work result`, or `result measurement` hide that distinction.
-* Use `C.2.P` when episteme-publication-heavy wording carries an episteme, publication, view, carrier, relation, admissibility, evidence, work, gate, decision, method, or pattern-use claim. `E.10` keeps the lexical and naming discipline; `C.2.P` recovers the FPF kind; obtaining relation and participants; receiver-needed occurrence; reusable A.6.5 declaration; claim-bearing episteme and participant designations; C.29 representation and correspondence; project-side FPF kind and reference; or a not-triggered disposition before the wording is accepted.
+* Use `C.2.P` when episteme-publication-heavy wording carries an episteme, publication, view, carrier, relation, admissibility, evidence, work, gate, decision, method, or pattern-use claim. `E.10` keeps the lexical and naming discipline; `C.2.P` recovers the FPF kind; obtaining relation and participants; receiver-needed occurrence; reusable A.6.5 declaration; claim-bearing episteme and participant designations; C.29 representation and correspondence; or project-side FPF kind and reference. Ordinary wording may close locally when it carries no such FPF claim.
 
 **Publication face, form, unit, and carrier discipline - `surface` as trigger wording**
 * **Definition.** `surface` is trigger wording, not a durable FPF Tech head by itself. When it has FPF-governed use, recover whether the sentence means publication face, publication form, publication unit, carrier, rendering, UI face, front-end face, physical surface, geometric surface, companion publication, projection material, carrier relation, or another FPF kind or relation named by value.
@@ -282,12 +282,12 @@ Example: use of a `KernelToken` in a locally scoped constraint is admitted only 
 **Intent.** Prevent calling **non-measurable** objects (sets, statuses, scopes, policies, bridges, contexts, guards) “characteristics”.
 
 **Rule L-CHR-S1 (Reservation).** Use **Characteristic** **only** for variables that **declare a CSLC scale** (nominal, ordinal, interval, or ratio) with admissible values, units, and polarity (Part C.16 and A.17–A.18).
-**Rule L-CHR-S2 (USM).** `U.Scope`, `U.ClaimScope (G)`, and `U.WorkScope` are **USM scope objects**, not Characteristics, and do not appear in a `CharacteristicSpace`.
+**Rule L-CHR-S2 (USM).** `U.Scope`, `U.ClaimScope (G)`, and `U.WorkScope` are **USM scope objects**, not Characteristics or CHR components of a `CharacteristicSpace`.
 **Rule L-CHR-S3 (Status).** Episteme statuses, `SystemRoleAssignmentStateRelation` occurrences or assertions, deontic statuses, and epistemic statuses are not Characteristics by label alone; each remains governed by its direct pattern.
 **Rule L-CHR-S4 (Lexical classifiers).** Keep a lexical classifier or tag under its classification rule: a local classification function and value set, source wording, C.29 representation element, example or alternative set, status or state-frame value set, local kind or classifier, or another construction defined for that classifier. Call it a `U.Characteristic` only when that characteristic and one CSLC scale are declared. Do not default the residue to `Facet`, attribute, or another umbrella kind.
 **Checks.**
 - **CC-L-CHR-1.** `scope characteristic(s)` is banned in Kernel and local-use Tech wording.
-- **CC-L-CHR-2.** `CharacteristicSpace` near `Scope` — error.
+- **CC-L-CHR-2.** `CharacteristicSpace` near `Scope` is a cue to inspect the claimed relation. Reject wording that treats a scope as a CHR component. A scope may qualify use of a characteristic space while remaining a distinct USM scope object.
 - **CC-L-CHR-3.** Kind-preserving repair: `F–G–R characteristics` → `F–G–R components` only when the recovered kind is component rather than characteristic.
 
 #### E.10:8.10 - LEX-QA-1 - Using terms with the `-ility` and `-ilities` suffixes

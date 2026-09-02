@@ -6,12 +6,12 @@ section_id: "A.15.7:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__012_sota-echoing.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:11 — SoTA-Echoing"
-line_start: 27187
-line_end: 27198
+line_start: 27450
+line_end: 27461
 dependencies:
   - "A.10"
   - "A.13"

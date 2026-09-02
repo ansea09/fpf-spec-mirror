@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.4.P.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
-line_start: 9654
-line_end: 9916
+line_start: 9661
+line_end: 9923
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,6 +39,7 @@ dependencies:
   - "E.20"
   - "E.24"
   - "E.8"
+  - "F.19"
 keywords:
 ---
 
@@ -54,7 +55,7 @@ keywords:
 
 **Use this when.** Use `A.3.4.P` when source or FPF-governed wording such as "pipeline", "dataflow", "flow", "network", "circuit", "path", "slice", "workflow", "process", "operation", "transformation", or "change" seems to name the thing under concern, but the text has not yet recovered what kind of FPF value is actually current.
 
-**First useful restoration output.** Fill a compact `TransformationWordingRepair` note: encountered wording, working concern, exact recovered EntityOfConcern, actual-transformation basis or non-transformation disposition, any acting-system claim with its exact governor or unresolved disposition, every influence source's exact kind and current relation, exact neighboring claims, retained use, next owner or remaining reader use, and stop or return condition. Add `GroundedBlockedOverread?` only when the source wording itself supplies an exact action-changing inference. Then rewrite only the wording that depends on the recovered objects.
+**First useful restoration output.** Recover the encountered wording, working concern, exact recovered EntityOfConcern, actual-transformation basis or non-transformation disposition, any acting-system claim with its exact governor or unresolved disposition, every influence source's exact kind and current relation, exact neighboring claims, retained use, remaining reader use, and stop or return condition. Use F.19:4's full plausible-reader test for any optional `BlockedOverread?`. Then rewrite only the wording that depends on the recovered objects. The ordinary result is that wording and the needed stop or subject-pattern return; use a `TransformationWordingRepair` note only when the receiving use needs recoverable detail.
 
 **What goes wrong if missed.** The text silently creates a local ontology from a convenient source label: "process" becomes method in one paragraph, dated work in another, and transformation-flow structure in a third; "path" becomes evidence sufficiency, assurance, gate passage, deontic permission, work authorization, or release authorization; "function" becomes behavior, bearer, mathematical function, and software routine at once.
 
@@ -106,12 +107,12 @@ Restore the change situation in this order.
 3. **Separate an acting-System claim from influence.** For performed Work, recover each precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 afterward only when precise assignment-bound attribution is current. Then recover separately the realization, causal, production, or other Work-to-change relation required by the current use. An assignment occurrence alone and generic transformation participation prove no action. For a non-Work functional or physical actor-side claim, recover the System and the participant, operation-application, functioning, causal, or other direct actor-side relation supplied by its subject pattern; otherwise leave the actor claim unresolved. Each manufacturing organization, certification organization, design organization, toolchain, communication System, selected structure, Method, Method family, or other possible influence source first keeps its kind—a Method or Method family is not a holon by label—and receives only the architecture, Work, communication, constraint, or candidate-synthesis relation current for the claim.
 4. **Test neighboring claims.** Decide whether the wording points to a method, method description, mechanism, work plan, dated work, functioning relation, transformation-flow structure, mathematical description, dynamics episteme, temporal aspect, evidence, source, publication, gate, decision, assurance, result, refresh, reopen relation, or another direct subject claim.
 5. **Use the exact governing relation for each neighboring value.** A neighboring object keeps its own kind and governor; state its current relation to the transformation, changed referent, work, architecture candidate, or receiving use instead of placing it inside a transformation record.
-6. **Rewrite only after kind and relation recovery.** Keep ordinary wording when it is not FPF-governed, write quote-only source wording when no current use is admitted, or rewrite into the recovered FPF kind and exact relation named by value.
+6. **Rewrite only after kind and relation recovery.** Keep ordinary wording when it is not FPF-governed, write quote-only source wording when no current use is admitted, or rewrite into the recovered FPF kind and exact relation named by value. Use F.19 for the resulting precise-plain-language rewrite.
 7. **Leave one reader use.** The repaired text must say what the reader may do now: use `A.3.4`, use `E.18`, use `C.29`, use a method, work, mechanism, architecture, or evidence pattern, keep a quote-only cue, or block the stronger claim.
 
 #### A.3.4.P:4.1 - TransformationWordingRepair note
 
-Use this note only when wording is doing FPF-governed work.
+Use this note only when wording is doing FPF-governed work and a receiving use needs its repair to remain inspectable. An ordinary wording repair requires no separate note.
 
 ```text
 TransformationWordingRepair:
@@ -126,15 +127,15 @@ TransformationWordingRepair:
   GoverningPattern:
   RetainedUse:
   StopOrReturnCondition:
-  GroundedBlockedOverread?:
+  BlockedOverread?:
   RemainingReaderUse:
 ```
 
 `ActualTransformationDisposition` is one of: actual bounded transformation recovered, not a transformation, not recovered, not current for this claim, quote-only source wording, or blocking missing value.
 
-`TransformationWordingRepair` is a temporary wording-use restoration aid. Its retained output is the wording to keep or rewrite, the stop or return condition, and the next pattern application. `GroundedBlockedOverread?` is omitted unless an exact source feature makes a consequential inference live. `ActingSystemDisposition` and `ArchitectureInfluenceDisposition` are temporary note fields, not FPF kinds or universal relations. An actual transformation occurrence is grounded only through its subject-side occurrence basis.
+`TransformationWordingRepair` is a temporary wording-use restoration aid. Its retained output is the wording to keep or rewrite, the stop or return condition, and the next subject-pattern application. `BlockedOverread?`, also named `GroundedBlockedOverread?`, is one optional explanatory value under F.19:4's plausible-reader test. `ActingSystemDisposition` and `ArchitectureInfluenceDisposition` are temporary note fields, not FPF kinds or universal relations. An actual transformation occurrence is grounded only through its subject-side occurrence basis.
 
-For performed Work, an actor claim names each precise performer through A.13, independently admits the Work under A.15.1, adds F.6 only when assignment-bound attribution is current, and states the Work-to-change relation required by the use. For non-Work action, name the direct participant, operation-application, functioning, causal, or other actor-side relation supplied by its subject pattern. Keep every influence source under its exact kind and current relation; leave any unrecovered actor or influence claim unresolved.
+For a performed-Work actor claim, recover each precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 afterward only when precise assignment-bound attribution is current. Separately establish the realization, causal, production, or other Work-to-change relation required by the use. For a non-Work actor-side claim, use a participant, operation-application, functioning, causal, or other direct relation supplied by its subject pattern. If no such relation is recoverable, keep the actor claim unresolved. Every influence source retains its kind and only its current architecture, Work, communication, constraint, or candidate-synthesis relation; leave any unrecovered influence claim unresolved.
 
 If an episteme asserts possible, intended, planned, modelled, predicted, or actual change, identify that episteme separately through C.2.1 when the assertion is current. Empirical grounding remains optional and, when current, uses its own exact relation; neither the assertion nor its grounding relation substitutes for the actual transformation basis. Project records, gate decisions, work plans, and work occurrences are created only by their subject patterns.
 
@@ -217,10 +218,10 @@ TransformationWordingRepair:
   EncounteredWording: "the refrigeration circuit moves heat through the cycle"
   WorkingConcern: recover whether the sentence is about one bounded heat-transfer change, a selected compound transformation-flow structure, a thermodynamic mechanism, a functional architecture view, or a schematic publication.
   RecoveredEntityOfConcern: `RefrigeratorHeatTransferFlowStructure-1`, the exact selected `TransformationFlowStructure` over the compressor, condenser, expansion, and evaporator transformation loci.
-  ActualTransformationDisposition: no actual bounded transformation is recovered; the current object is the selected `RefrigeratorHeatTransferFlowStructure-1`, while transformation composition and partlessness remain unresolved.
-  TransformationOccurrenceBasis: unresolved; before asserting a component occurrence, recover its exact changed referent, boundary, boundary conditions, actual subject facts, and continuity or reidentification basis.
-  ActingSystemDisposition: unresolved; an actor-side claim requires a precise performer with its A.13 core and independently admitted Work plus the needed Work-to-change relation, or another direct actor-side relation.
-  ArchitectureInfluenceDisposition: no influence claim is current; when one becomes current, identify the source by its exact kind and relation.
+  ActualTransformationDisposition: no actual bounded transformation is recovered; the current object is the selected `RefrigeratorHeatTransferFlowStructure-1`, while any transformation-composition or partlessness claim requires its own predicate.
+  TransformationOccurrenceBasis: no component transformation occurrence is asserted; before asserting one, recover its exact changed referent, boundary, boundary conditions, actual subject facts, and continuity or reidentification basis.
+  ActingSystemDisposition: unresolved and not asserted; a performed-Work actor claim requires each precise performer's A.13 core, independently admitted A.15.1 Work, F.6 afterward only when precise assignment-bound attribution is current, and any Work-to-change relation required by the use; a non-Work actor claim requires its exact direct actor-side relation.
+  ArchitectureInfluenceDisposition: no influence claim is current and no influence source is selected; any later source must first keep its exact kind and then receive only its exact architecture, work, communication, constraint, or candidate-synthesis relation.
   NeighboringClaimAndExactRelation: the four named transformation loci are positions in `RefrigeratorHeatTransferFlowStructure-1`; their exact transformation occurrences and structure-membership relations remain to be recovered under `E.18` and `A.3.4`. Thermodynamic-law material, functional view, and schematic publication remain unselected neighboring candidates.
   GoverningPattern: `E.18` governs `RefrigeratorHeatTransferFlowStructure-1`; `A.3.4` governs each component transformation only after its occurrence basis is recovered; mechanism, architecture-view, and publication patterns open only if one of those candidate objects becomes current.
   RetainedUse: "circuit" may remain ordinary domain wording for `RefrigeratorHeatTransferFlowStructure-1` after that exact selected structure is named.
@@ -235,10 +236,10 @@ Lenses tested: **Onto**, **Arch**, **Prag**, **Epist**, **Gov**.
 This pattern intentionally biases toward kind recovery before wording repair. It resists:
 
 - **source-label ontology:** familiar labels such as pipeline, process, network, circuit, or workflow become FPF kinds;
-- **graph or path overread:** ambiguous path wording is reused as an action, evidence, authority, or work-sequence claim without the predicate that would establish that claim;
+- **graph or path overread:** graph path, evidence path, and carrier path become action route, evidence sufficiency, assurance, deontic permission, work authorization, release authorization, or work sequence;
 - **function collapse:** functioning, functional element, module allocation, mathematical function, software routine, and everyday purpose collapse into one "function";
 - **semio displacement:** descriptions and publications of transformations replace the transformation under concern;
-- **neighboring-object fusion:** wording is used to infer a Method, mechanism, Work occurrence, System, influence source, or evidence record and then to assign it a transformation-side role before its direct kind and relation are recovered.
+- **neighboring-object fusion:** wording is used to infer a Method, mechanism, Work occurrence, System, influence source, or evidence record and then to treat it as the transformation, its actor, or a transformation participant before its direct kind and relation are recovered. Actor recovery follows A.3.4.P:4.4.
 
 ### A.3.4.P:7 - Conformance Checklist
 
@@ -250,9 +251,9 @@ This pattern intentionally biases toward kind recovery before wording repair. It
 | `CC-A34P-4` | `TransformationFlowStructure`, graph mathematical description, path mathematical description, and subject-domain network or circuit wording are kept distinct. The selected structure positions, relates, or locates transformation loci and adjacent governed values; composition, parthood, and partlessness require their direct predicates. |
 | `CC-A34P-5` | Method, method description, mechanism, work plan, dated work, evidence, gate, decision, assurance, result, source, and publication claims remain with their subject patterns. |
 | `CC-A34P-6` | Function-like wording closes here only after the actual transformation, performed-work attribution or other exact actor-side relation, every influence source's exact kind and relation, and exact boundary relations are distinguished; detailed function-kind discrimination remains governed by `A.6.F`. |
-| `CC-A34P-7` | The repair leaves retained use, stop or return condition, and remaining reader use by value; a grounded blocked overread appears only when the current wording supplies it. |
-| `CC-A34P-8` | The repair order is explicit: `E.10` recognizes the wording, `A.3.4.P` restores the transformation ontic neighborhood, and neighboring patterns define or constrain recovered objects and exact relations. |
-| `CC-A34P-9` | A performed-Work actor claim recovers each precise performer's A.13 core, independently admits the Work under A.15.1, adds F.6 only when assignment-bound attribution is current, and names the Work-to-change relation. A non-Work actor claim names another exact direct actor-side relation. |
+| `CC-A34P-7` | The repair leaves retained use, stop or return condition, and remaining reader use by value; any optional `BlockedOverread?` follows F.19:4's plausible-reader test. |
+| `CC-A34P-8` | F.19 handles ordinary precise-plain-language rewriting. For unresolved change-situation wording, `E.10` supplies recognition cues, `A.3.4.P` restores the transformation ontic neighborhood, and neighboring patterns define or constrain recovered objects and exact relations. |
+| `CC-A34P-9` | For a performed-Work actor claim, recover each precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 afterward only when precise assignment-bound attribution is current and separately name the Work-to-change relation required by the use. A non-Work actor claim names another exact direct actor-side relation. |
 | `CC-A34P-10` | Possible, intended, planned, modelled, predicted, and merely asserted change stays claim content; any C.2.1 empirical grounding is optional, separate, and not the actual occurrence basis. |
 
 ### A.3.4.P:8 - Common Anti-Patterns and How to Avoid Them
@@ -297,7 +298,7 @@ SoTA use is conservative: this pattern relies on the current FPF settlements alr
 
 ### A.3.4.P:12 - Relations
 
-- **Builds on:** `A.3.4`, `E.10`, `E.10.ARCH`, `E.24`, `A.6.5`, and `E.8`.
+- **Builds on:** `A.3.4`, `E.10`, `E.10.ARCH`, `E.24`, `A.6.5`, `E.8`, and `F.19`.
 - **Coordinates with:** `E.18` for a selected structure that positions, relates, or locates transformation loci and adjacent governed values without establishing transformation composition, parthood, or partlessness; and with `E.18.2`, `C.29`, `A.3.1`, `A.3.2`, `A.3.3`, `A.6.0`, `A.6.1`, `E.20`, `A.15.2`, `A.15.1`, `A.6.F`, `A.6.M`, `C.30.ASV`, `C.27.TA`, `C.27`, `A.10`, `C.2.P.DR`, `C.2.1`, `E.17`, and direct gate, decision, assurance, result, source, publication, and release patterns when those claims are current.
 - **Coordinates with:** `E.10.MOVE` when source wording about a move, next action, pattern-use recommendation, work-entry readiness, language-state transition, architecture candidate use, or call-planning next action is not actually transformation wording.
 - **Selected by:** `E.10` recognition row for change-situation wording when FPF wording repair needs transformation-ontic precision restoration.

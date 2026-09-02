@@ -6,12 +6,12 @@ section_id: "E.2.DA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__003_problem.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:2 — Problem"
-line_start: 69399
-line_end: 69412
+line_start: 69681
+line_end: 69694
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -33,7 +33,7 @@ keywords:
 The specific failures are:
 
 1. Local pattern quality is averaged into FPF adequacy.
-2. Entry projections and companion files start restating definitions, constraints, or tests supplied by pattern bodies.
+2. Entry projections and companion files become separately maintained sources of definitions, constraints, or tests supplied by pattern bodies.
 3. Precision repair improves terminology but damages first-use comprehension or changes the FPF kind carried by the repaired text.
 4. Source and SoTA rows are counted rather than checked for changes in FPF moves.
 5. Front-like words such as `all 5s`, `exceptional`, `Pareto`, `SoTA`, `NQD`, or `shortlist` become loose synonyms.

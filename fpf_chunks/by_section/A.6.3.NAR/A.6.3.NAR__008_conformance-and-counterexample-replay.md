@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__008_conformance-and-counterexample-replay.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:7 — Conformance and counterexample replay"
-line_start: 15597
-line_end: 15627
+line_start: 15608
+line_end: 15638
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -33,6 +33,7 @@ dependencies:
   - "E.17.EFP"
   - "E.24.PUB"
   - "E.6"
+  - "F.19"
   - "G.11"
   - "G.2"
 keywords:
@@ -46,7 +47,7 @@ keywords:
 | `CC-NAR-2` | Reader/listener use, source material, selected structures, and the reason for selecting them are clear. |
 | `CC-NAR-3` | The ordering and connective account are explicit enough to distinguish source relations from narrative links added for readability. |
 | `CC-NAR-4` | The narrative has been compared with its source for preservation, foregrounding, omission, weakening, rearrangement, and unsupported strengthening. |
-| `CC-NAR-5` | Admissible use and a usable return trigger and destination are present; a grounded non-admissible use appears only when the exact narrative feature supplies it. |
+| `CC-NAR-5` | Admissible use and a usable return trigger and destination are present; any optional non-admissible use passes F.19:4's plausible-reader test. |
 | `CC-NAR-6` | Temporal posture, mediation, event-model support, viewpoint, engagement, and worker history appear only when each changes use or blocks a likely overread. |
 | `CC-NAR-7` | Evidence, assurance, ethics, policy, publication, decision, and Work claims use the patterns that define or test those exact claims. |
 | `CC-NAR-8` | The exact branch is opened only when an identified receiving use makes claim identity material, such as independent travel, citation, dispute, material cross-scheme reuse, identity-bearing admission, consequential reliance, or an explicit named-receiver requirement; publicness alone is not a trigger. |
@@ -65,7 +66,7 @@ Counterexample replay:
 | Candidate vs `U.View` | A valid narrative episteme and NAR construction can fail E.17.0 viewpoint conformance and remain a non-View candidate. |
 | Source publication/form/carrier | A publication can make `X` available and a form or carrier can express it; none becomes `X`, and a narrative page or audio file is not `Y`. |
 | Narrative order | Chronology, tension, or didactic order is a declared construction rule, not automatically world-side event order, proof order, performed-Work order, or an obtaining relation. |
-| Controlled loss | If `Y` is usable only under a narrower-use loss-and-return card, coordinate CSC; NAR ordering alone does not make the loss admissible. |
+| Controlled loss | If `Y` is usable only under declared loss, narrower use, and source return, coordinate CSC; NAR ordering alone does not make the loss admissible. |
 | Grounded source, ungrounded narrative | Grounding of `X` or a designated evidence set does not ground `Y`; recover a separate exact `EpistemeEmpiricalGroundingRelation` for `Y` only when its own claims satisfy that rule. |
 | Selected structure overread | An A.22 structure designated by source claims may be ordered by NAR; it is not the source or receiving episteme, worker, viewpoint, `U.View`, representation, publication, or narrative Work. |
 

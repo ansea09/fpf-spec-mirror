@@ -6,12 +6,12 @@ section_id: "E.10.DEV:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__013_relations.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:12 — Relations"
-line_start: 76512
-line_end: 76518
+line_start: 76851
+line_end: 76857
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -36,8 +36,8 @@ keywords:
 
 ### E.10.DEV:12 - Relations
 
-- **Selected by:** `E.10` when development or evolution wording remains action-changing and the subject is not yet recoverable.
+- **Selected by:** `E.10` when development or evolution wording remains action-changing because the subject, continuity or membership, posture, direction or value basis, or direct owner is not yet recoverable.
 - **Builds on:** `F.19`, `E.10`, `E.10.ARCH`, `A.3.4.P`, `A.2.2`, current `E.23.CAE`, `A.3.3`, `B.4`, `C.17`–`C.19`, `C.27.TA`, `C.29`, and `C.36`.
 - **Coordinates with:** current `E.23.CAE` only when the recovered capability branch needs its observation or disposition differential; `E.10.MOVE` for a remaining trajectory or path posture; `E.10.LRN` for learning-word recovery; `C.36.P` for the cultural branch; A.15 for Work or WorkPlan; candidate `E.23.CDI` only after its own admission and a separate applicable steering or choice result; and each direct holder or domain owner selected by the repaired claim.
-- **Keeps outside:** one universal development Method or evolution Method, lifecycle, stage scale, role, result kind, evidence bundle, population ontology, guidance product, or DPF.
+- **Keeps outside:** domain ontology, governed by the selected subject owners, and framework admission under `E.4.PFAD`. The architecture boundary above governs this lexical recovery.
 

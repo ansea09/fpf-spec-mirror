@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__003_problem.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:2 — Problem"
-line_start: 70403
-line_end: 70411
+line_start: 70699
+line_end: 70707
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -45,7 +45,7 @@ keywords:
 
 ### E.4.PFAD:2 - Problem
 
-Framework authors repeatedly need to decide whether a recurring practitioner problem calls for a new framework, an existing framework contribution, another product such as a programme, service, or evidence package, a thinner access result, or no new product. When a framework is selected, later work needs its public field promise, first-edition boundary, FPF Core dependency, problem-family coverage, first patterns and their material relations, representative use, important omissions, and publication or access consequence. Generic decision prose can hide those choices.
+Framework authors repeatedly need to decide whether a recurring practitioner problem calls for a new framework, an existing framework contribution, another product such as a programme, service, or evidence package, a thinner access result, or no new maintained product now. When a framework is selected, later work needs its public field promise, first-edition boundary, FPF Core dependency, problem-family coverage, first patterns and their material relations, representative use, important omissions, and publication or access consequence. Generic decision prose can hide those choices.
 
 
 A small coherent authoring slice creates a common false positive: its few current patterns and neat structure are mistaken for a field-scale pattern language. Source diagrams create another: one list or hierarchy is copied into the DPF although Methods, Work, subjects, descriptions, capabilities, providers, and cultural change may have different structures. A large framework-specific form creates the opposite problem by making proposal, acceptance, DRR, edition, authoring, quality review, and publication look like one extra decision object.

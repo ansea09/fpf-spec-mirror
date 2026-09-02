@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.RT.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
-line_start: 14844
-line_end: 15299
+line_start: 14853
+line_end: 15308
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -254,7 +254,7 @@ Check each target-side connective against the source or exact same-EntityOfConce
 
 ##### A.6.3.RT:4.5.b - Loss and recoverability
 
-State which distinctions, inspection possibilities, uncertainty cues, or local qualifiers are lost, foregrounded, rearranged, or harder to recover. The target may be useful with source-bounded reliability or an explicit downgrade. If it remains honest only through a narrower-use card and source return, A.6.3.CSC is primary.
+State which distinctions, inspection possibilities, uncertainty cues, or local qualifiers are lost, foregrounded, rearranged, or harder to recover. The target may be useful with source-bounded reliability or an explicit downgrade. If it remains honest only through a declared narrower use and source return, A.6.3.CSC is primary.
 
 ##### A.6.3.RT:4.5.c - Decode-mediated entry
 
@@ -363,7 +363,7 @@ A table is exported as CSV and dashboard PNG after its representation scheme was
 
 #### A.6.3.RT:5.4.c - Boundary to coarsened dashboard view
 
-An incident worksheet carries three causal branches, two confidence bands, and an open ambiguity; a dashboard tile foregrounds only cache-failover evidence. If the tile needs a narrower-use card, non-admissible action line, and explicit return to the worksheet, A.6.3.CSC is primary. The tile is not causal proof, service-status verdict, or action cue.
+An incident worksheet carries three causal branches, two confidence bands, and an open ambiguity; a dashboard tile foregrounds only cache-failover evidence. If the tile needs a declared narrower use, non-admissible action, and explicit return to the worksheet, A.6.3.CSC is primary. The tile is not causal proof, service-status verdict, or action cue.
 
 #### A.6.3.RT:5.4.d - Boundary to structure-to-narrative rendering
 

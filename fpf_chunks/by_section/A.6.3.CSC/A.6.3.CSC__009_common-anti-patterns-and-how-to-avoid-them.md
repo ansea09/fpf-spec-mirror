@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 14423
-line_end: 14435
+line_start: 14432
+line_end: 14444
 dependencies:
   - "A.15"
   - "A.20"
@@ -34,12 +34,12 @@ keywords:
 
 | Anti-pattern | Failure | Avoid by |
 | --- | --- | --- |
-| Helpful summary becomes authority | The coarsened rendering starts deciding downstream questions that it does not carry. | Publish non-admissible downstream use and reopen trigger. |
+| Helpful summary becomes authority | A reader relies on the coarsened rendering for a downstream decision that its claims do not support. | State the unsupported downstream use and reopen trigger. |
 | Citation laundering | A coarsened rendering is cited as if it were the source. | Keep the source-bearing side named and reopenable. |
-| Label-as-evidence | A lookup handle carries a claim. | State retrieval-only use. |
+| Label-as-evidence | A reader treats a lookup handle as evidence for a claim in the source. | State retrieval-only use. |
 | Redaction-as-closure | Withheld detail is treated as resolved detail. | State the sharing boundary and accountability reopen condition. |
 | Stance cure | `projection` or `nonEquivalent` is used instead of the Bridge, bounded-use claim, loss account, or source return. | Recover the F.9 Bridge and bounded-use claim, keep the CSC source return, and add an F.9.1 stance note only as optional reader help. |
-| Briefing-as-work | A summary becomes work plan, action cue, gate, or approval. | Use `A.15`, `A.20`, or `A.21` for the work, constraint, or gate claim. |
+| Briefing-as-work | A reader treats a summary as sufficient basis for a work plan, execution cue, gate decision, or approval. | Use `A.15`, `A.20`, or `A.21` for the work, constraint, or gate claim. |
 | Summary-chain source loss | A note summarizes an already coarsened note and loses the original source and loss envelope. | Keep the same source-bearing side and added loss delta visible, or reopen that source-bearing side. |
 | Aggregation EntityOfConcern shift | A quotient or bundle turns several entities or alternatives into one new proxy EntityOfConcern. | Apply `A.6.4` rather than treating EntityOfConcern shift as a same-lineage source-to-rendering case. |
 

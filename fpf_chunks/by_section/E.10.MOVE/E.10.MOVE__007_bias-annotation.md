@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__007_bias-annotation.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:6 — Bias-Annotation"
-line_start: 76772
-line_end: 76780
+line_start: 77119
+line_end: 77124
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -53,10 +53,7 @@ keywords:
 
 ### E.10.MOVE:6 - Bias-Annotation
 
+Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: FPF-governed move, readiness, route, path, and trajectory wording uses.
 
-- **Synonym-replacement bias.** Replacing "move" with "action", "step", or "use" can preserve the same hidden ontology. Recover concern, relation, and subject pattern before choosing wording.
-- **Imported-source-kind bias.** TameFlow `MOVE`, workflow, route, process, or path wording can smuggle a source ontology into FPF. Treat such wording as a trigger until the direct FPF target is named.
-- **Readiness-as-gate bias.** Ready, full-kit, committed, or launch-ready wording can overclaim gate passage, work authorization, or performed work.
-- **Local-wording generalization bias.** One direct pattern may define a local move-like expression. That expression does not create a shared project kind; every other use still restores its own governed value and subject pattern.
-- **Lexical-shell trajectory bias.** A curve, ordered list, state sequence, route, lineage, plan, or archive history can share trajectory spelling while preserving different subjects, identity rules, evidence, posture, and action. Recover the direct claim before proposing a shared head.
+The method deliberately foregrounds Onto/Epist distinctions and direct subject ownership. The cheap ordinary-use path protects practical use and readability: recover only the distinctions that matter to the current claim and keep useful familiar wording. The concrete recurring misuses and their repairs are in §8.
 

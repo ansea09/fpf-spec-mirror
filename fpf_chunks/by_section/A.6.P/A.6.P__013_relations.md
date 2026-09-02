@@ -6,12 +6,12 @@ section_id: "A.6.P:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__013_relations.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:12 — Relations"
-line_start: 16474
-line_end: 16489
+line_start: 16486
+line_end: 16501
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -50,5 +50,5 @@ keywords:
 - Use `A.1`, `A.2`, `A.2.1`, `A.3.1`, `A.3.4`, and `A.15.1` for the direct criteria for Systems, exact local system-role kinds, separate System-classification judgments, direct `U.SystemRoleAssignment` species, Methods, actual bounded change, and Work.
 - The exact predicates defined in `A.10` constrain evidence relations, and those in `B.3` constrain assurance. `F.9` directly defines `Bridge` as a species of `U.Relation`, its two local-sense participants, its `BridgePredicateProfile`, the condition under which the predicate is true, and its occurrence-identity and recurrence rule. Use `C.2.1` separately for assertions, occurrence descriptions, and Bridge Cards; use `A.10` or `B.3` for evidence reliance or assurance, `E.24.PUB` for publication, and the receiving object's own pattern for any use that actually occurs. Use `A.6.RCD` only when the needed relation is not supplied by F.9 or another current defining or testing pattern after the participants and needed sentence are explicit. `C.30.P` defines or constrains architecture wording, `C.16.P` characteristic wording, `G.2` palette/front/archive distinctions, and `A.6.F` function-like wording. Each cited pattern contributes the named definition or constraint; its identifier is a locator only when that reference must travel.
 - `A.16.1` and `B.4.1` retain cue material that has not reached a grounded relation-bearing claim; `B.5.2.0` carries a stabilized open explanatory question that has no selected relation answer; `A.16.2` records reopen, backoff, or respecification when a published relation overstates articulation, closure, or framing. Use `A.16.0` only when lineage, branching, loss, or responsibility-transfer history itself must be published.
-- Use `E.10` for wording triggers, E.10.ROLE to recover the actual branch of bare *role*, and `E.10.ARCH` for the shared recovery architecture. Use `F.18` for designation after objects and relations are recovered.
+- Use `F.19` for ordinary precise-plain-language repair and its plausible-reader test. Use `E.10` for wording triggers, E.10.ROLE to recover the actual branch of bare *role*, and `E.10.ARCH` for the shared recovery architecture. Use `F.18` for designation after objects and relations are recovered.
 

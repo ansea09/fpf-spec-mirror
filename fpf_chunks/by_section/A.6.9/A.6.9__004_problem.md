@@ -6,12 +6,12 @@ section_id: "A.6.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__004_problem.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:2 — Problem"
-line_start: 20482
-line_end: 20495
+line_start: 20496
+line_end: 20509
 dependencies:
   - "A.1.1"
   - "A.10"

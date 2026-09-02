@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__002_use-this-when.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:0 — Use this when"
-line_start: 60034
-line_end: 60047
+line_start: 60312
+line_end: 60325
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,6 +42,7 @@ dependencies:
   - "E.18"
   - "E.8"
   - "F.18"
+  - "F.19"
   - "G.5"
   - "G.6"
   - "I.2"
@@ -58,7 +59,7 @@ Typical labels are `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, and arch
 
 **What this buys.** The reader can keep the source word while making its actual meaning and safe use explicit. Once the object, relation, or claim is clear, use the pattern that defines, constrains, or tests it.
 
-**First useful move.** Copy the sentence and ask: “What does this label name here, what may I infer from it, and what must I do next?” Keep ordinary wording when the answer is already clear. Otherwise write one line: `label -> recovered meaning; allowed use; next pattern or blocker; stop or return condition`, adding a grounded overread only when the source sentence itself invites it.
+**First useful move.** Copy the sentence and ask: “What does this label name here, what may I infer from it, and what must I do next?” If it is ordinary wording, keep it and stop. If the answer is already clear, use the applicable pattern directly. Otherwise write one line: `label -> recovered meaning; allowed use; next pattern or blocker; stop or return condition`. Do not fill an author-facing E.10.ARCH routing row during ordinary project work. Include a blocked overread only when it passes F.19's plausible-reader test.
 
 **Not this pattern when.** Do not detour through C.30.STRAT when the object, relation, or claim is already clear. Do not use it merely because a familiar word appears. Ordinary source prose with no FPF claim remains ordinary prose or a quotation.
 

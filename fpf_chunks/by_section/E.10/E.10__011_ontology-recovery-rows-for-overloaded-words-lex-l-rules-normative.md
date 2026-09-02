@@ -6,12 +6,12 @@ section_id: "E.10:9"
 section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
-line_start: 75774
-line_end: 75896
+line_start: 76104
+line_end: 76226
 dependencies:
   - "A.10"
   - "A.15"
@@ -108,7 +108,7 @@ A text **passes** LEX if all answers are **Green**:
 1. **Action-changing use recovered.** Each use of *context* that changes interpretation or action names the exact source, scheme, scope, model-use structure, situation, frame, referent, or practice that matters. Ordinary, quoted, and already defined uses remain available.
 2. **Right EntityOfConcern and Description-episteme boundary and specification use.** EntityOfConcern, Description-episteme, specification-use, publication relation, and run-record uses are not conflated (cf. § 8.1 gates).
 3. **Promise, ability, and performance split.** `PromiseContent` (promise clause), `Capability` (ability), `Work` (performance) are not conflated.
-4. **No anthropomorphism.** Documents, datasets, and models do not “do”; **Systems** do.
+4. **Agentive predicates and metonymy.** A doubtful agentive or causal predicate—including a negated one—calls for the whole-span `F.19` check. Retain ordinary, unambiguous metonymy; otherwise state the capable participant or the exact non-agentive relation. Add a denial only for a grounded plausible misreading whose correction matters.
 5. **Scheduling hygiene.** No actuals belong in a `U.WorkPlan`. A performed occurrence is admitted as dated `U.Work` from its independent A.13/A.15.1 basis. A complete A.13/A.15.1/F.6 basis is required only when the receiving use additionally claims precise assignment-bound attribution; missing F.6 does not revoke Work. Other direct facts, including affected referent, bindings, and resource use, remain separate. A short attribution sentence may omit only an assignment identifier unused by its receiving claim; the underlying occurrence and attribution remain recoverable. An assertion, description, log, or record about the Work is a separate episteme, not the occurrence.
 6. **Cross-local relation.** When the text relates two different local senses, it identifies the exact F.17 cells and cites an F.9 Bridge only if that direct relation obtains under the applicable F.9 relation profile. When a receiving use is current, a separate C.2.1 claim says what action is proposed, its use direction, correspondence rule, tolerated loss, and polarity. That claim does not show that the action occurred. Use A.10 or B.3 only when reliance or assurance is actually current. Apply **A.6.9 (RPR-XCTX)** when published wording such as “same”, “equivalent”, “align”, or “map” still hides the relation.
 7. **MG-DA ok.** New or refactored tokens pass **§ 7 MG-DA** (anchored head noun; collision check; an enumeration names its closed value set, classified kind, and classification rule; use `U.Characteristic` and `CharacteristicSpace` only when the enumeration is the declared CSLC scale of that exact Characteristic).

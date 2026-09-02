@@ -6,12 +6,12 @@ section_id: "E.18.NET:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__005_solution.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:4 — Solution"
-line_start: 87151
-line_end: 87293
+line_start: 87491
+line_end: 87635
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -55,11 +55,13 @@ StructureIdentity(N) = <
 >
 ```
 
-The four field names have the same meanings as in the first-use result: exact direct members, exact selected obtaining cross-flow occurrence refs, exact applied network constraints, and one concrete use frame. `returnCondition` is not a fifth identity discriminator; it records when the current use must return and reselect.
+The four field names have the same meanings as in the first-use result: exact direct members, exact selected obtaining cross-flow occurrence refs, exact applied network constraints, and one concrete use frame. `returnCondition` is not a fifth identity discriminator; it records when the current use must return and reselect. `stopOrReturnCondition` states the boundary of the action or use within `networkUseFrame`; `returnCondition` names a change that reopens selection.
 
-The direct-member set contains at least two independently identified TFS or E.18.NET-conforming network values, and at least one selected relation occurrence binds positions across their member boundaries. The use frame states the practical question or action and admissible use; add a grounded forbidden overread only when the current representation supplies it.
+`forbiddenOverread?`, also named `groundedForbiddenOverread?`, carries one optional explanatory guard under F.19:4's plausible-reader test. It remains outside `networkUseFrame` and structure identity. A change to that explanation alone leaves the network unchanged; if its content changes an applied constraint or a use-frame value, compare that existing discriminator.
 
-Use the direct-member discriminator for network membership. Introduce a separately re-identifiable world-side membership relation only when a future receiver needs it and can supply its participants, predicate, and identity rule through A.6.RCD or a direct relation pattern.
+The direct-member set contains at least two exact values. Each member is one independently identified `TransformationFlowStructure` or one independently identified E.18.NET-conforming `TransformationFlowStructureNetwork`. At least one selected relation occurrence binds positions in different direct members or in different leaf TFS members reached through them. The use frame states the concrete question or action, how this selection will be used, and its stop or return condition. “Current use”, “appropriate network”, and the title of a diagram are not use frames.
+
+The direct-member discriminator identifies the selected members; record rows cite those independently identified values. If a future receiver needs a separately re-identifiable world-side membership occurrence, apply the direct relation pattern that defines its participants, predicate, applicability, and identity rule. When that governor is missing, reopen the relation question under A.6.RCD.
 
 #### E.18.NET:4.2 - Reidentification and change locality
 

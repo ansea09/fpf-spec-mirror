@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__006_archetypal-grounding.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:5 — Archetypal Grounding"
-line_start: 14348
-line_end: 14371
+line_start: 14357
+line_end: 14380
 dependencies:
   - "A.15"
   - "A.20"
@@ -32,15 +32,15 @@ keywords:
 
 ### A.6.3.CSC:5 - Archetypal Grounding
 
-**Tell.** Controlled semantic coarsening begins by comparing a shorter candidate with its source for the present use: it must neither lose a needed distinction nor add or strengthen anything the source does not support, while any loss, non-use, and return remain visible. When the result travels independently or becomes load-bearing, the exact account is `c : X -> Y` under same EntityOfConcern, declared loss, narrower use, prohibited strengthening, and return. It is not simplification as style, a source-set edge, or a publication/form/carrier change.
+**Tell.** Controlled semantic coarsening begins by comparing a shorter candidate with its source for the present use: it must neither lose a needed distinction nor add or strengthen anything the source does not support, while any loss, non-use, and return remain visible. When the result travels independently or becomes load-bearing, the exact account is `c : X -> Y` under same EntityOfConcern, declared loss, narrower use, prohibited strengthening, and return.
 
-**Show (System).** Exact incident episteme `IR-42-X` contains trace, confidence-band, and alternative-branch claims. Exact orientation episteme `IR-42-Manager-Y` carries a controlled subset. A dashboard tile exposes `Y`; it may orient planning but cannot approve release, close audit, prove causality, or trigger Work.
+**Show (System).** Exact incident episteme `IR-42-X` contains trace, confidence-band, and alternative-branch claims. Exact orientation episteme `IR-42-Manager-Y` carries a controlled subset. Use a dashboard tile exposing `Y` for planning orientation. For release approval, audit closure, causal justification, or a Work order, return to `X` and apply the evidence, Work, or gate rule that governs that use.
 
-**Show (Episteme).** Exact research-review episteme `ResearchReview-X` is used to construct exact retrieval episteme `RiskHandle-Y`. The visible handle is a form; its retrieval-only use returns to `X` because it does not carry evidence, alternatives, or source relations.
+**Show (Episteme).** Exact research-review episteme `ResearchReview-X` is used to construct exact retrieval episteme `RiskHandle-Y`. The visible handle is a form. Use it only to retrieve `X`; consult `X` for the evidence, alternatives, and source relations omitted from `Y`.
 
 #### A.6.3.CSC:5.1 - Worked slices
 
-**Direct text shortening (ordinary form).** The source paragraph says: `Release only after a current smoke-test pass; rollback must remain available; a designated approver must approve any exception. The deployment guide then gives six implementation details not needed by the current planner.` The practitioner marks the three decision conditions as must-retain and writes: `Release only after a current smoke-test pass; keep rollback available; exceptions need designated approval.` Comparison records the omitted implementation details, confirms that the candidate adds or strengthens no unsupported claim, blocks audit/evidence/release-authority use from the candidate alone, and points back to the paragraph on dispute or independent reuse. A variant that keeps all three conditions but adds `therefore release is approved` is rejected at the same comparison: the source states preconditions and an exception rule, not current approval status. The faithful candidate stops at the six rows, and the invented-status variant is discarded there; neither requires a C.2.1 dossier. If the faithful candidate will be cited in a release decision, the exact branch identifies `X`, `Y`, and `c` and adds only the source, work, evidence, gate, or assurance relations that decision needs.
+**Direct text shortening (ordinary form).** The source paragraph says: `Release only after a current smoke-test pass; rollback must remain available; a designated approver must approve any exception. The deployment guide then gives six implementation details not needed by the current planner.` The practitioner marks the three decision conditions as must-retain and writes: `Release only after a current smoke-test pass; keep rollback available; exceptions need designated approval.` Comparison records the omitted implementation details, confirms that the candidate adds or strengthens no unsupported claim, blocks audit/evidence/release-authority use from the candidate alone, and points back to the paragraph on dispute or independent reuse. A variant that keeps all three conditions but adds `therefore release is approved` is rejected at the same comparison: the source states preconditions and an exception rule, not current approval status. The faithful candidate remains with its linked source, and the invented-status variant is discarded; the local comparison needs no separate card or C.2.1 dossier. If the faithful candidate will be cited in a release decision, the exact branch identifies `X`, `Y`, and `c` and adds only the source, work, evidence, gate, or assurance relations that decision needs.
 
 **Manager orientation summary.** Exact source episteme `IR-42-X` states trace, confidence-band, alternative-branch, and incident claims about exact incident `IR-42` under its effective incident-analysis scheme. Exact coarsened episteme `IR-42-Manager-Y` states the narrower cache-failover orientation claim about the same incident under its effective briefing scheme. `ManagerCoarsening : X -> Y` preserves the leading-concern claim, drops confidence bands and alternatives, blocks approval/audit/release/causal/work-order use, and returns to `X`. A dashboard tile and its carrier merely expose `Y`.
 
@@ -52,5 +52,5 @@ keywords:
 
 **Exceptional interop-facing simplification.** Exact source episteme `ExchangeComparison-X` states the bounded source-local claims and exact comparison or Bridge dependencies. Exact orientation episteme `ExchangeGloss-Y` states the narrower broader-than gloss about the same comparison EntityOfConcern. `InteropCoarsening : X -> Y` does not establish equivalence, projection, substitution, or a Bridge; those uses require an obtaining F.9 Bridge and a separate bounded-use claim or return to `X`. An F.9.1 stance note may explain that claim but cannot replace it.
 
-**Bad fit: hidden work authority.** `Deployment may proceed; see summary S-3.` This is not an admissible controlled coarsening card. The sentence tries to convert a coarsened summary into execution or gate authority. Use `A.15`, `A.20`, or `A.21`, and reopen the source-bearing side before any work or approval claim proceeds.
+**Bad fit: hidden work authority.** `Deployment may proceed; see summary S-3.` The sentence claims permission to deploy on the basis of a summary. Establish the work or gate authority under `A.15`, `A.20`, or `A.21`, and reopen the source-bearing side before any work or approval claim proceeds.
 

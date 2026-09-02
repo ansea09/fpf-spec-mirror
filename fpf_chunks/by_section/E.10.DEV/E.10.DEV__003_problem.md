@@ -6,12 +6,12 @@ section_id: "E.10.DEV:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__003_problem.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:2 — Problem"
-line_start: 76323
-line_end: 76333
+line_start: 76663
+line_end: 76673
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -38,7 +38,7 @@ keywords:
 
 Without a shared recovery move:
 
-1. a generic `Development`, `Evolution`, `DevelopmentStage`, or `DevelopmentProcess` is inferred from spelling;
+1. the umbrella word substitutes for identifying the current subject and direct owner;
 2. intervention Work is treated as the holder's actual change or as evidence that the intended result occurred;
 3. beneficial direction is asserted without a characteristic, scale, polarity, viewpoint, or evidence basis;
 4. a population or lineage is treated as one continuously developing holder;

@@ -6,12 +6,12 @@ section_id: "E.9.DA:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__007_bias-annotation.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:6 — Bias annotation"
-line_start: 74465
-line_end: 74470
+line_start: 74757
+line_end: 74762
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -29,5 +29,5 @@ keywords:
 
 This pattern biases FPF toward decisions before drafting. The bias is useful because missing decisions become expensive once they fan out into pattern hosts.
 
-The bias is bounded. Small editorial decisions can use `E.9` directly. Ordinary DRR review judges the decision, bounded omitted-question search, and first action without manufacturing assessment records. When a named later reliance needs an exact reusable result, Method, application, and Work remain independently conditional; if Work is asserted, the evaluator System, enacted Method, Work, application, assignment, result, evidence use, and receiving status remain distinct. The pattern and optional record perform none of those acts. Pattern quality remains under `E.21`, repeated improvement under `E.23`, and wording repair under `E.10` and its concrete neighbours.
+The bias is bounded. Small editorial decisions can use `E.9` directly. Ordinary DRR review judges the decision, bounded omitted-question search, and first action without manufacturing assessment records. When a named later reliance needs an exact reusable result, Method, application, and Work remain independently conditional; if Work is asserted, the evaluator System, enacted Method, Work, application, assignment, result, evidence use, and receiving status remain distinct. Pattern quality remains under `E.21`, repeated improvement under `E.23`, and wording repair under `F.19`, with `E.10` for cues and unresolved meanings.
 

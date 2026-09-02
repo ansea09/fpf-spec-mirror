@@ -6,12 +6,12 @@ section_id: "E.4.DPF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__003_problem.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:2 — Problem"
-line_start: 70680
-line_end: 70687
+line_start: 70976
+line_end: 70983
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -64,5 +64,5 @@ Domain and local framework authors often have strong source material and urgent 
 
 A working framework needs more than a good table of contents. It needs source-grounded pattern selection, architecture decisions, direct assertions of material relations, names, worked cases, quality evaluation, and refresh conditions. It also needs any relation or edition records required by a current maintenance use, including dependency, compatibility, migration, deprecation, or supersession when those uses are live.
 
-A DPF is not a domain ontology, glossary, literature survey, or guide to talking about a topic. It exists so an intended practitioner or assisting agent can enter typical problem situations in the domain, avoid known failure modes, and apply source-grounded SoTA solution moves with visible boundaries and refresh conditions. Those failure modes include beginner mistakes and experienced-practitioner failures caused by stale, local-only, or non-SoTA practice. Ontology and vocabulary matter only insofar as they make those problem-solving moves safer and more reusable.
+A DPF gives an intended practitioner or assisting agent a source-grounded pattern language for recognizing typical problem situations in the domain, avoiding known failure modes, and applying SoTA solution moves with visible boundaries and refresh conditions. Its ontology and vocabulary support those moves. Known failure modes include beginner mistakes and experienced-practitioner failures caused by stale, local-only, or non-SoTA practice.
 

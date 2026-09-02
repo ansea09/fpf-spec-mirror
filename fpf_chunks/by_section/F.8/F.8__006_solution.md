@@ -6,12 +6,12 @@ section_id: "F.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__006_solution.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:4 — Solution"
-line_start: 94851
-line_end: 94995
+line_start: 95182
+line_end: 95326
 dependencies:
   - "A.11"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "F.15"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "F.2"
   - "F.3"
   - "F.4"
@@ -81,7 +82,7 @@ If any fact is missing, stop at the subject-recovery route; naming cannot supply
 9. introduce a policy identifier for an already recovered policy specification; or
 10. block or lower the naming use.
 
-The smallest result is one readable sentence, not a mandatory record: state the governed subject, proposed naming use, selected disposition, resulting name when any, and the change that would reopen the decision. Add a non-use boundary only when `F.19`'s grounded-contribution test admits it. For example: “Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose; select `openDurableNamingSettlement` and revisit the decision if the naming use becomes public or cross-local.”
+The smallest result is one readable sentence, not a mandatory record: state the governed subject, proposed naming use, selected disposition, resulting name when any, and the change that would reopen the decision. Add a non-use boundary only when `F.19`'s grounded-contribution test admits it. For example, when no lighter disposition supports a needed durable local designation: “Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose; select `openDurableNamingSettlement` and revisit the decision if the naming use becomes public or cross-local.”
 
 The corresponding F.8 result labels are `localPhraseOnly`, `reuseExistingDesignation`, `aliasOnly`, `reuseDirectPatternName`, `reuseAdmittedTermRow`, `nameSystemRoleKindDescription`, `openDurableNamingSettlement`, `proposePublicTermRow`, `introducePolicyIdentifier`, and `blockOrLowerUse`. They are not new `U.*` kinds. A stronger result opens its subject pattern; it does not itself create a card, row, identifier, policy specification, or relation occurrence.
 
@@ -150,9 +151,9 @@ F.8 consumes one named F.17 row and its declared use; it neither constitutes the
 
 | Declared row use | F.8 admissible naming use | Other claims return to |
 | --- | --- | --- |
-| Naming-only | Shared prose label, glossary text, teaching label | The direct subject pattern for any stronger claim—for example equivalence, assignment, performed Work, structure, or measurement. |
-| System-role-kind designation naming | A designation may cite the row as a comparison aid after the local kind is recovered | The direct result for kind admission, cross-local identity, classification, or assignment. |
-| System-role-kind-description naming | A label for a separately justified `SystemRoleKindDescription` may cite the row as a comparison aid | The direct result for kind identity, cross-local identity, or assignment; the description keeps its own subject. |
+| Naming-only | Shared prose label, glossary text, teaching label | The direct subject pattern for the claim actually needed—for example equivalence, assignment, performed Work, structural inference, or measurement equivalence. |
+| System-role-kind designation naming | A designation may cite the row as a comparison aid after the local kind is recovered | The direct result for kind admission, cross-local kind identity, classification, or assignment. |
+| System-role-kind-description naming | A label for a separately justified `SystemRoleKindDescription` may cite the row as a comparison aid | The direct result for kind identity, cross-local kind identity, or assignment; the separately justified description remains the object being named. |
 | Measurement naming | Shared measurement label where units and procedure constraints remain visible | The measurement pattern for any claim of procedure interchange. |
 | Type-structure naming | Name for an admitted structural relation under the row's invariants | `E.24.UK` for U-kind admission. |
 
@@ -198,9 +199,9 @@ MintReuseDecisionResultEpisteme:
   ReuseCandidateRefs?:
   SelectedDisposition:
   ResultingNamingRefs?: [only objects current after the disposition]
-  GroundedNonUseBoundary?: [only when admitted by `F.19`'s grounded-contribution test]
+  NonAdmissibleOverread?: [only when admitted by `F.19`'s grounded-contribution test]
   ReopenCondition:
 ```
 
-The block describes the result episteme. `EntityOfConcernRef` resolves to the decision or choice occurrence admitted through `DecisionGovernorLocator`; the predicate, participants, applicability, and identity basis establish that occurrence. `GovernedValueSubjectPatternLocator` identifies the pattern for the value being named. For this use, the result is complete when the governed subject, proposed naming use, selected disposition, resulting naming refs when any, and reopen condition are recoverable; `GroundedNonUseBoundary` is optional. A C.11 `ChoiceResult` and dated decision-making Work keep their direct identities and relations. If the occurrence and its governor cannot be recovered, return the A.6.RCD `missing-governor` result. If no result episteme is needed, state the ordinary result and stop.
+The block describes the result episteme. `EntityOfConcernRef` resolves to the decision or choice occurrence admitted through `DecisionGovernorLocator`; the predicate, participants, applicability, and identity basis show why that occurrence exists. `GovernedValueSubjectPatternLocator` identifies the pattern for the value being named. `NonAdmissibleOverread` is included only when admitted by `F.19`'s grounded-contribution test. A C.11 `ChoiceResult` and dated decision-making Work keep their direct identities and relations. If the occurrence and its governor cannot be recovered, do not instantiate the block: return the A.6.RCD `missing-governor` result. If no result episteme is needed, state the ordinary result and stop.
 

@@ -6,12 +6,12 @@ section_id: "F.8:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__016_relations.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:13 — Relations"
-line_start: 95204
-line_end: 95220
+line_start: 95535
+line_end: 95551
 dependencies:
   - "A.11"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "F.15"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "F.2"
   - "F.3"
   - "F.4"
@@ -61,7 +62,7 @@ keywords:
 
 ### F.8:13 - Relations
 
-**Builds on.** `A.7`, `E.24.UK`, `A.8`, `A.11`, `E.10`, `E.10.ARCH`, `F.1`, `F.2`, `F.3`, `F.5`, `F.9`, `F.14`, `F.17`, and `F.18`.
+**Builds on.** `A.7`, `E.24.UK`, `A.8`, `A.11`, `E.10`, `E.10.ARCH`, `F.19`, `F.1`, `F.2`, `F.3`, `F.5`, `F.9`, `F.14`, `F.17`, and `F.18`.
 
 **Coordinates with.** `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.6.5`, `A.6.RCD`, `A.15`, `A.15.1`, `C.11`, `F.4`, `F.6`, `F.10`, `F.13`, `F.15`, `C.2.1`, `C.3`, `E.9`, `E.24.CD`, and `E.24.PUB`, plus the subject pattern for any other governed value.
 

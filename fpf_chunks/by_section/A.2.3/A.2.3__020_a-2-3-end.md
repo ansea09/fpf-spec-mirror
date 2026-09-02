@@ -6,12 +6,12 @@ section_id: "A.2.3:End"
 section_title: "A.2.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__020_a-2-3-end.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:End — A.2.3:End"
-line_start: 4601
-line_end: 4602
+line_start: 4605
+line_end: 4606
 dependencies:
   - "A.1.1"
   - "A.10"

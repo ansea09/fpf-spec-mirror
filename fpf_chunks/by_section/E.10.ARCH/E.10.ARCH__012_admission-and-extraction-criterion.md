@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:6"
 section_title: "Admission and extraction criterion"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__012_admission-and-extraction-criterion.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:6 — Admission and extraction criterion"
-line_start: 77106
-line_end: 77122
+line_start: 77441
+line_end: 77457
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,7 +73,7 @@ Add or retain a `WordingUseRestorationApplicabilityRow` when all of the followin
 - the hidden primary-EntityOfConcern use field set is stable;
 - the recovery apparatus or field set is stable enough to teach;
 - repeated in-place repair distracts from the subject pattern's primary EntityOfConcern and first useful move;
-- the repair leaves a useful reader use that the row helps recover;
+- a useful remaining reader use survives the repair and the row helps recover it;
 - no existing subject pattern already carries the row without duplicating repair-only doctrine inside subject patterns.
 
 Do not add a new realization pattern when an existing subject pattern such as `A.6.F`, `A.6.A`, `A.6.M`, `A.15.4`, `A.6.6`, `A.6.3.CSC`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, or another subject pattern already contains the rule that defines, constrains, or tests the EntityOfConcern under repair, relation, claim, or field. Record the PatternID that locates that rule as `subjectPatternLocator` and state the rule's contribution.

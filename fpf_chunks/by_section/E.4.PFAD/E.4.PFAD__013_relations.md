@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__013_relations.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:12 — Relations"
-line_start: 70652
-line_end: 70663
+line_start: 70948
+line_end: 70959
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -45,7 +45,7 @@ keywords:
 
 ### E.4.PFAD:12 - Relations
 
-- **Uses:** `E.9` for the one bounded answer selected by decision Work and recorded in the DRR.
+- **Uses:** `E.9` to record the one bounded answer selected by the decision-maker during decision Work.
 - **Uses:** `E.4`, `E.4.DPF`, and `E.4.DPF.DA` for framework scale, authoring, field coverage, and package assurance; uses `E.4:4.2` when one decision selects a DPF Suite and `E.11.DSG` when that Suite has a separately constituted DPF Suite Reference product series.
 
 - **Uses:** `C.32.MWA` when several practice structures need one readable synthesis; uses `E.23.CDI` only when capability development for a named Work family changes the answer.

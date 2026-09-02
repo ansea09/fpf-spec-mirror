@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__001_intro.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:intro — Intro"
-line_start: 71301
-line_end: 71306
+line_start: 71585
+line_end: 71590
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -32,6 +32,7 @@ dependencies:
   - "C.33"
   - "C.34"
   - "C.35"
+  - "E.10"
   - "E.11"
   - "E.11.PFP"
   - "E.17"

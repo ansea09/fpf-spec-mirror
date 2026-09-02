@@ -6,12 +6,12 @@ section_id: "E.10:4"
 section_title: "Solution - compact cues with exact lexical routes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__006_solution-compact-cues-with-exact-lexical-routes.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:4 — Solution - compact cues with exact lexical routes"
-line_start: 75241
-line_end: 75248
+line_start: 75569
+line_end: 75578
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,9 @@ keywords:
 
 Apply the connected `F.19` reading to the complete natural span. If ordinary meaning settles the issue, repair the text and stop. Only a surviving FPF lexical question opens the subordinate `LEX-BUNDLE` or `ULR` material.
 
-The retained detail covers vertical register stratification, Tech and Plain pairs, token generality, naming morphology, overloaded FPF heads, and conformance of durable lexical choices. It is reference material for the selected problem, not a second semantic pass or a required sequence over every sentence.
+**LEX-BUNDLE** and **ULR (Unified Lexical Rules)** name subordinate register, naming, morphology, and local rewrite checks inside the current `E.10` pattern. They do not name a second pattern, a second ontology, or a second audit. The retained detail covers vertical register stratification, Tech and Plain pairs, token generality, naming morphology, overloaded FPF heads, and conformance of durable lexical choices. Use only the detail needed for the selected problem.
+
+This subordinate material does not replace `F.19`, `E.10.ARCH`, a selected precision-restoration pattern, the concrete pattern for the recovered claim, or `F.18`. `F.19` governs the ordinary semantic and pragmatic reading. When subordinate material conflicts with `E.10:0.2`, `E.10.ARCH`, `A.3.4.P`, `A.6.F`, `C.2.P`, `E.24.*`, `F.18`, or another named pattern, the current applicability table and the pattern that defines the claim control the repair.
 
 Use the exact subject pattern as soon as the governed object and claim become clear. After the lexical repair, reread the changed sentence through `F.19` and return to the substantive task.
 

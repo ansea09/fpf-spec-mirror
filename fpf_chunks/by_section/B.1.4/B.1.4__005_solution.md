@@ -6,12 +6,12 @@ section_id: "B.1.4:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__005_solution.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:2 — Solution"
-line_start: 37003
-line_end: 37063
+line_start: 37278
+line_end: 37340
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -63,9 +63,11 @@ ContextTemporalAggregation@Context:
   evidenceOrSourceRefs
   admissibleUse
   stopOrReturnCondition
-  groundedNonAdmissibleOverread?
+  nonAdmissibleOverread?
   strongerSourceReturnCondition
 ```
+
+`stopOrReturnCondition` states when to stop aggregating or apply another pattern; `strongerSourceReturnCondition` states the condition for a stronger claim. Include `nonAdmissibleOverread?` only when it passes F.19's plausible-reader test. `groundedNonAdmissibleOverread?` is an alias for that same optional value.
 
 Use the record as a small typed relation, not as a new durable `U.Level`, `U.Boundary`, `U.Interaction`, or generic process object.
 

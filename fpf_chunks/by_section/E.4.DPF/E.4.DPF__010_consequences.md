@@ -6,12 +6,12 @@ section_id: "E.4.DPF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__010_consequences.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:9 — Consequences"
-line_start: 71263
-line_end: 71268
+line_start: 71547
+line_end: 71552
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -60,7 +60,7 @@ keywords:
 
 ### E.4.DPF:9 - Consequences
 
-Using the exact authoring Method and MethodDescription while keeping dated Work, results, receiving uses, editions, relations, package architecture, and publication objects explicit adds overhead before a local framework becomes durable. That overhead prevents hidden source loss, hidden Core change, hidden relation semantics, false production or membership claims, and hidden currentness debt.
+Using the exact authoring Method and MethodDescription while keeping dated Work, results, receiving uses, editions, relations, package architecture, and publication objects explicit adds overhead before a local framework becomes durable. In return, the source basis, Core change impact, relation semantics, production and membership claims, and currentness debt become reviewable at their own boundaries.
 
 The pattern also makes local publication more useful. Readers get a coherent publication or practical-use carrier, while maintainers can still inspect the framework edition, source pack, relation records, decision records, and quality route.
 

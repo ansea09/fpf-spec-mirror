@@ -6,12 +6,12 @@ section_id: "E.10.DEV:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__011_rationale.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:10 — Rationale"
-line_start: 76481
-line_end: 76484
+line_start: 76821
+line_end: 76824
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -36,5 +36,5 @@ keywords:
 
 ### E.10.DEV:10 - Rationale
 
-The reusable transdisciplinary problem is lexical recovery, not one substance called development. Across the unlike cases, a thin action survives: recover the subject and continuity basis, separate Work and result, expose direction and posture, choose the direct owner, and stop. Keeping that action in `E.10` prevents repeated local reconstruction without importing developmental science, evolutionary theory, organization change, guidance, or learning into Core.
+The reusable transdisciplinary problem is recovering the claim carried by the wording. Across the unlike cases, a thin action survives: recover the subject and continuity basis, separate Work and result, expose direction and posture, choose the direct owner, and stop. Keeping that action in `E.10.DEV`, selected through compact `E.10` routing, prevents repeated local reconstruction. Developmental science, evolutionary theory, organization change, guidance, and learning retain their direct owners.
 

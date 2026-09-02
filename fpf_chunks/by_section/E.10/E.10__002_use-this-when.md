@@ -6,12 +6,12 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:0 — Use this when"
-line_start: 74574
-line_end: 75208
+line_start: 74866
+line_end: 75536
 dependencies:
   - "A.10"
   - "A.15"
@@ -82,6 +82,8 @@ A cue is neither a ban nor a verdict. Its absence is not semantic clearance, and
 
 The ordinary result is repaired text or a blocker. `E.10` requires no per-correction card, field set, concordance row, or classification receipt. A using environment may manage attention over a large text, but that mechanism is outside this language pattern.
 
+Common prose can often remain ordinary after the relation is stated: `Test T is evidence for claim C`; `Index I helps readers find section S`; `Column C bears roof R's load`. These sentences reach different subject patterns and do not need a common `SupportRelation`.
+
 Local patterns may cite a useful recognition row. They do not copy the trigger inventory or create a local lexical registry unless a stable local vocabulary is itself the governed product. Self-application remains bounded: use `E.21` for pattern-quality evaluation and the exact subject pattern for any non-lexical claim.
 
 #### E.10:0.1 - Scope split
@@ -99,12 +101,16 @@ Keep these cues available while applying `F.19`. They help find candidate spans;
 | Broad or overloaded heads such as `support`, `basis`, `context`, `role`, `process`, `method`, `route`, `record`, `result`, or `status` | What recognizable object, relation, source, use, or state does the sentence actually mean? | An FPF kind, register, relation, source use, or governed value remains unclear. |
 | Development- or evolution-family wording such as `development`, `evolution`, `progress`, `growth`, `adaptation`, or `lineage` | What changed or is represented, what continuity or membership matters, what posture or value claim is current, and which direct owner receives it? | Those values remain action-changing and unresolved; use `E.10.DEV`, then `E.10.MOVE` only for a separate remaining path or trajectory ambiguity. |
 | Agentive or causal predicates attached to evidence, documents, patterns, representations, methods, or other doubtful subjects | Can the grammatical subject bear the asserted predicate under the intended literal or ordinary metonymic reading? Check inside negation, modality, and examples. | Precise systemhood, agency, Work, attribution, evidence, or causal use is itself part of the claim. |
-| Negative and contrastive forms such as `not`, `rather than`, `does not mean`, `does not turn`, warnings, and non-use guards | Does a plausible intended reader have an independent local reason to construct the rejected reading, and does the distinction change use? | The guard carries an exact FPF admissibility, safety, source-use, or claim boundary. |
+| Negative and contrastive forms such as `not`, `rather than`, `does not mean`, `does not turn`, warnings, and non-use guards | Does a plausible intended reader have an independent local reason to construct the rejected reading, and does the distinction change truth, understanding, or use? | The guard carries an exact FPF admissibility, safety, source-use, or claim boundary. |
 | Verbs with uncertain objects or destinations; relational nouns such as `bearer`, `boundary`, `basis`, `readiness`, or `condition`; vague pronouns and demonstratives | Can one intended operand, other participant, or referent be recovered cheaply and uniquely? | The missing value is an exact FPF participant, relation position, state bearer, or source reference. |
 | Grouping marks, repeated coordination at several grammatical levels, comma or semicolon chains, nested lists, stacked modifiers before the governing clause, and coverage heads such as examples, variants, forms, activities, or continuations | Does the reader need a series at all? If so, what proposition it serves, what its membership semantics are, and which members change use? | A closed FPF value set, kind, declaration, relation set, or representation remains unresolved. |
 | Qualifiers such as `exact`, `direct`, `current`, `supported`, `valid`, `ready`, `stronger`, or `safe` | What live alternative, bearer, scale, criterion, time, or bounded use does the qualifier distinguish? | The qualifier carries a governed identity, state, characteristic, decision, or admissible-use claim. |
 | New tokens, suffixes, compounds, acronyms, paired registers, and reusable labels | Is this a local wording choice or a durable FPF name, and does its form expose the settled kind? | Register, morphology, token class, collision, or durable naming is current. |
 | Source, publication, carrier, field, table, graph, dashboard, or model wording | Is the sentence about the represented object, a claim-bearing episteme, publication or carrier use, or the representation and its correspondence? | The source-use, publication, declaration, or representation boundary is still hidden. |
+
+**Semantic-area cues:** classify FPF-governed trigger wording before acceptance by semantic area, not by a local forbidden-word list. Typical classes include admissibility/deontic terms, evidence and review-check terms, action-invitation terms, characteristic/scale and stratification source labels, state-family terms, lifecycle/process terms, pattern-application wording, publication-form terms, and local equivalents.
+
+**Package-form and relation cues:** `primary carrier`, `specialization`, `profile`, `overlay`, `family`, `bundle`, `cluster`, `suite`, `pack`, `kit`, `record`, `umbrella`, and local equivalents.
 
 Item count is only a cue. Two coordinated members may already form a needless catalogue; a long legal set, signature, inventory, or checklist may be required. Matching kinds do not earn a series by themselves: the receiving use must require readers to distinguish or retain the members together.
 
@@ -112,7 +118,7 @@ Item count is only a cue. Two coordinated members may already form a needless ca
 
 #### E.10:0.2a - Exact routing boundary
 
-If the applicable pattern and the current object, direct relation and participants, declaration, claim-bearing episteme, representation and correspondence, or source use are already recoverable, use that pattern directly and state its concrete contribution.
+If the applicable pattern and the current object, direct relation and participants, declaration, claim-bearing episteme, representation and correspondence, or source use are already recoverable, use that pattern directly and state its concrete contribution—for example, a definition, constraint, test, method, or lookup.
 
 | Remaining unresolved question | Smallest next route |
 | --- | --- |
@@ -122,6 +128,7 @@ If the applicable pattern and the current object, direct relation and participan
 | Direct predicate or actual participant remains unclear | `A.6.P`; use `A.6.RCD` only after both are clear and no current pattern defines or constrains the predicate. |
 | Fact, reusable relation declaration, claim or report, and representation are still being confused | `E.10.ARCH`, followed by the exact subject pattern. |
 | Episteme, publication, carrier, source-reference target, or source-use relation remains hidden | `C.2.P` and then the exact publication, source, evidence, or use pattern. |
+| Intentional loss of precision for a narrower admissible use | Apply the controlled precision-reduction pattern, normally `A.6.3.CSC`, with `E.17.*`, `A.6.3.RT`, `F.9`, or `C.29` when that relation is being made. Recover the source-bearing side, declared loss, narrower admissible use, blocked downstream use, and reopen condition. |
 | One durable reusable name is needed after its value and use are settled | `F.18`; one-off wording remains local. |
 | Meaning cannot yet be recovered | Leave a plain blocker or retain bounded quote-only or source-only wording. |
 
@@ -154,6 +161,14 @@ When the wording still carries an FPF-governed claim, recover the bearer, the ex
 | A candidate framework organization must cover declared relation families for a stated use. | One E.4.DPF constraint claim node with covered family ref-kind pairs, admitted-use description, and coverage-criterion description; any WorkPlan acceptance target remains separate basis. |
 
 Name admission precedes slot verification. `CandidatePatternUseBasisRelation@Context` is admissible because the head exposes the basis relation and its two sides; `CandidatePatternUseBinding` is not repaired by kind-correct fields because `Binding` hides that subject relation. Likewise, `BoundaryConditionKindSlot` names a slot whose values classify boundary conditions; `BoundaryRoleSlot` would falsely suggest a role value. Apply F.18 only when a durable name is actually being minted.
+
+##### E.10:0.2b.2 - External holon and graph-expression source wording
+
+**Cue.** External holon-class or Holon Graph Architecture (HGA) graph-expression wording such as `AgentHolon`, `OrganisationHolon`, `DataHolon`, `ProcessHolon`, `Portal`, `Projection`, event envelope, provenance, target holon, projection envelope, projected content, envelope, payload, RDF graph, node, edge, traversal, or boundary-governed payload whose FPF object is hidden.
+
+Recover the claim before importing the source label. Use `A.1` for admitted system or holon claims; `C.2.1`, `E.17`, architecture-description, publication, source-relation, or evidence patterns for data, document, projected content, description, publication, view, or evidence claims; `A.10`, source-relation, evidence-relation, dated-work, or publication patterns for event and provenance claims; and `A.3.4.P`, method, work-plan, or Work patterns for process-like wording. Portal, access, traversal, service-access, protocol, and agreement-like words do not select peer routers. While their object remains hidden, use `A.6.RSIR`; after recovery, use `E.17` or the pattern for the publication claim, `C.29` or the pattern for the representation and correspondence, `A.6.0` plus `A.6.5` for a reusable signature and its slots, `A.6.M` for a module-interface claim, the pattern for the policy claim, and `A.10` or the pattern for the evidence claim. Use `A.6.P:4.11a` only when a relied-on service or access phrase hides its concrete subject or direct relation; use `A.6.C` only when recovered service-term, SLA, protocol, or agreement-like wording bundles promise, utterance or publication, governance, Work or consequence, or evidence claims; use general `A.6.P` only for another under-specified direct relation. For graph, RDF, node, edge, or traversal expression claims, use `C.29`, `A.22`, `C.30.ASV`, `C.30.AD`, `E.17`, or the pattern for the recovered source or publication relation; use `A.6.B` only for L, A, D, or E statement classification inside a boundary package.
+
+W3C Community Group Holon Graph Architecture (HGA) vocabulary is retained as a serious source-finding cue or comparison term only after the recovered FPF object is named and differences from FPF are explicit. Do not mint source-class U-kinds such as `U.AgentHolon`, `U.DataHolon`, `U.ProcessHolon`, `U.Portal`, `U.Projection`, `U.Envelope`, or `U.Payload`; do not turn semantic-web class names or graph-expression vocabulary into FPF ontology.
 
 #### E.10:0.2c - Lexical Trigger Rewrite Rules
 
@@ -225,7 +240,7 @@ Every FPF-governed `publication` sentence names the publication construction bei
 - external-standard publication;
 - project record publication.
 
-If the sentence says a publication "supports", "authorizes", "proves", "permits", or "makes admissible" something, split the basis: fill `relationClaimSlice` when a relation claim is being made, fill `admissibleUse` when a boundary-use claim is being made, and fill `projectSideFPFRef` when project-side records, evidence or provenance relations, gate decisions, constraint or adjudication decisions, assurance records, work, action invitations, speech acts, commitments, methods, or carriers are being used. If either side is not triggered, say so explicitly rather than filling it with generic support.
+If the sentence says a publication "supports", "authorizes", "proves", "permits", or "makes admissible" something, make the basis explicit: state the relation when a relation claim is being made, state the admissible-use boundary when a boundary-use claim is being made, and name the exact project-side kind and reference when project-side records, evidence or provenance relations, gate decisions, constraint or adjudication decisions, assurance records, work, action invitations, speech acts, commitments, methods, or carriers are being used. Record those values in `relationClaimSlice`, `admissibleUse`, and `projectSideFPFRef`, respectively, only when the receiving claim needs the named fields.
 
 ##### E.10:0.2c.5 - `surface`, `view`, `face`
 
@@ -359,7 +374,7 @@ If no movement, control, and temporal relation is being made, keep the word ordi
 
 These words are cues when the sentence hides who or what uses what, for which claim or action, and what changes as a result. State that ordinary sentence first. Pattern application can usually be written as `Use P to ...`; publication use, reliance, evidence, Work, gate, decision, and other governed uses go directly to their subject patterns once the object and relation are clear.
 
-For a bounded or supported-use claim, name the admissible action and its basis. State an excluded adjacent or stronger use only when it has independent local ground, is plausible for the intended reader, and changes action under `F.19`. Do not turn a document into a generic capability or replace the sentence with an inventory of every nearby FPF kind.
+For a bounded or supported-use claim, name the admissible action and its basis. State an excluded adjacent or stronger use only when it satisfies the grounded-guard test in `F.19:4`. Do not turn a document into a generic capability or replace the sentence with an inventory of every nearby FPF kind.
 
 Use `C.2.P` when a source or publication use remains hidden, `A.6.P` when a direct predicate or participant remains unclear, and `E.10.ARCH` when fact, declaration, report, and representation are still confused. Name `relationClaimSlice` or `projectSideFPFRef` only when the receiving claim actually consumes that identity.
 
@@ -408,7 +423,7 @@ Do not fill one authoring union-field position with whichever nearby FPF kind is
 
 Apply `F.19` first: ask whether the receiving use needs a series at all. If one governing claim, relation, or representative case would do, write it and remove the catalogue. A broader umbrella head is not a repair.
 
-When a series is needed and its FPF meaning remains unresolved, distinguish only the current case:
+When a series is needed and its FPF meaning remains unresolved, distinguish the current use:
 
 - a closed set, with its classified kind, membership rule, and closure;
 - illustrative examples, with the proposition or kind first and a non-exhaustive cue when completeness is plausibly ambiguous;
@@ -417,17 +432,22 @@ When a series is needed and its FPF meaning remains unresolved, distinguish only
 - a reusable relation declaration, with its `RelationSignature` and A.6.5 `SlotSpec` values; or
 - a C.29 representation, with its elements, represented objects, and correspondences.
 
+If it declares reusable relation shapes, name each `RelationSignature` and A.6.5 `SlotSpec` value and do not infer that any relation obtains. If it is a C.29 tuple representation, name the representation elements, represented objects, and explicit correspondences; if the same material is also a reusable relation declaration, name its `RelationSignature` and A.6.5 `SlotSpec` values separately.
+
 If none fits, leave the ontology or architecture question blocking instead of making the list itself a new kind. Even when one case fits, keep only members whose distinction changes the receiving use.
 
 ##### E.10:0.2c.18 - `strong`, `stronger`, `weak`, `weaker`, `support`
 
-Use strength wording only when the sentence names the scale, evidence class, threshold, or `CharacteristicSpace` that gives it meaning.
+Use strength wording only when the sentence makes the comparison dimension clear. Examples of more precise wording:
+
+- `stronger claim` -> wider claim scope, higher evidence-basis threshold, gate or admission threshold, claim requiring world-contact evidence or authority relation, authority claim, or named evidence-support class;
+- `weaker claim` -> narrower claim scope, lower evidence-support class, bounded admissible act, work, or claim, `source-loss mode` under `A.6.3.CSC` when a source-to-rendering loss is being claimed, coarsened rendering, or explicit abstain or reopen condition;
+
+A named scale, evidence class, threshold, or `CharacteristicSpace` supplies the comparison when that is the dimension used.
 
 Treat `support` as a cue to write the concrete subject, predicate, object, and use. If that sentence states a clear direct relation, use the pattern that defines or constrains it. If the predicate or a participant remains unclear, use `A.6.P`; if both are clear and no current pattern supplies the rule, use `A.6.RCD`. Use `A.6.6` when the claim is specifically basedness.
 
-Common prose can often remain ordinary after the relation is stated: `Test T is evidence for claim C`; `Index I helps readers find section S`; `Column C bears roof R's load`. These sentences reach different subject patterns and do not need a common `SupportRelation`.
-
-When the phrase carries a bounded-use claim, state the admissible action. Add a stronger or adjacent non-use only when `F.19` finds a grounded plausible reading whose exclusion changes action. A support-headed durable name reaches `F.18` only after the governed object and use are settled; otherwise replace the head locally or leave the meaning blocked.
+When the phrase carries a bounded-use claim, state the admissible action. Add a stronger or adjacent non-use only when it satisfies the grounded-guard test in `F.19:4`. A support-headed durable name reaches `F.18` only after the governed object and use are settled; otherwise replace the head locally or leave the meaning blocked.
 
 ##### E.10:0.2c.19 - Applying patterns versus procedural calls
 
@@ -450,8 +470,8 @@ Semioarchitecture often talks about two different groups of epistemes, publicati
 - project-side material: the engineer-manager's project epistemes, publications, views, records, carriers, cues, evidence records, `A.20` constraint or adjudication decision records, `A.21` gate decisions, `A.21` decision-log refs, `B.3` assurance or engineering-justification records, commitments, one `A.15.1` dated Work occurrence admitted under `U.Work` plus any separate episteme about it, `C.11` `ChoiceResult` values, `C.11` decision records, and `A.6.A` action invitations.
 
 Do not blur them with `source`, `artifact`, `object`, `material`, `target`, `pattern`, or broad `semiosis`.
-If both sides are being used, split the sentence into `relationClaimSlice` when a relation claim is being made, `admissibleUse` when a boundary-use claim is being made, and `projectSideFPFRef` when a project-side FPF kind and reference named by value is being used.
-If one side is not being used, state `not triggered` rather than leaving a placeholder.
+If both sides are being used, split the sentence to make the relation explicit when a relation claim is being made, the admissible-use boundary when a boundary-use claim is being made, and the project-side FPF kind and reference named by value when that side is being used. Record the corresponding values in `relationClaimSlice`, `admissibleUse`, and `projectSideFPFRef`, respectively, only when the receiving claim needs those named fields.
+For an unused side, record absence only when a named receiving use must distinguish it from missing information.
 
 ##### E.10:0.2c.21 - `decision`, `action`, `work`, `method`, `plan`
 
@@ -674,6 +694,8 @@ During normal reading, keep the compact cue surface available rather than loadin
 
 For a document or corpus, the selected review or editing method defines coverage and manages attention. Search may group likely candidates, but each accepted change comes from reading its natural span and produces repaired text or a blocker; E.10 adds no separate coverage or progress inventory.
 
+Compare recurring FPF-governed heads across the bounded object, especially a selected name, heading, table column, schema field, coordinate name, status value, or reusable authoring term. Also compare a head that carries the local architecture across substantive claims, replaces another broad head, or carries a finding or accepted basis into the final wording. If the repeated head conceals different governed objects or relations, split or rename those uses and reread the affected spans. Ordinary polysemy remains acceptable when each local meaning is clear; repetition alone is not a defect. Check the replacement head as well, so that a new umbrella does not merely preserve the old ambiguity.
+
 If the declared scope is the whole document or corpus, representative examples do not establish coverage. That coverage obligation belongs to the review or campaign that selected the scope; it does not turn E.10 into an inventory format.
 
 #### E.10:0.3 - Recovery and disposition
@@ -692,4 +714,18 @@ Closure is the repaired text, the concrete result of the one selected subject pa
 After any wording or syntax change, rerun `F.19` on the changed sentence and only the neighboring text needed to settle its meaning. Check that the replacement preserves the intended kind, relation, scope, and action without introducing another umbrella or unsupported branch.
 
 When the positive sentence settles the use, close with that sentence and return to the domain task. Additional evidence belongs only to a receiving review or decision that actually needs it.
+
+#### E.10:0.5 - Optional wording-repair note
+
+Use these fields only when a receiving review or decision needs an inspectable wording-repair note:
+
+1. `BoundedTextSpan`: the exact sentence, row, section, pattern version, `DRR` slice, or project text deliberately using FPF-governed terms, pattern references, relation names, or conformance claims under repair.
+2. `TriggerSpan`: the word or phrase that carries possible FPF-governed use.
+3. `SelectedInterpretation`: one applicable repair-path classification from this closed value set—ordinary no FPF-governed use, local head repair, register repair, morphology repair, context-word recovery through `E.10.D1`, learning-word recovery through `E.10.LRN`, bare-role meaning recovery through `E.10.ROLE`, relation-like precision restoration, episteme precision restoration, publication precision restoration, source-use relation or source-ref target recovery, durable naming, or not-triggered false positive.
+4. `FinalWordingOrBlocker`: the accepted local wording, the result returned by the selected repair or pattern, or the blocker that remains.
+5. `StopBackToSubstance`: once the final wording or blocker is written, return to the domain question that made the phrase matter. Further lexical classification is non-use unless another phrase still hides an FPF-governed claim.
+
+`SelectedInterpretation` retains that closed value set. If none of its classifications fits the current subject-specific repair, use the selected subject pattern's own result instead of silently extending the lexical form.
+
+When a wording-repair note needs formal fields, record one `plainIntent` before the technical fields. Use `E.10.ARCH` for the fact, declaration, report, or representation branch only while that distinction remains unresolved. Keep `triggerSpan`, `boundedTextSpan`, `selectedInterpretation`, `LEX.TokenClass?`, `register`, `USM.Scope?`, `EntityOfConcern and Description-episteme boundary and specification use?`, `patternRef?`, and `finalWordingOrBlocker`; add `patternRef` only when pattern identity changes the result. Add an exact assertion, predicate, or `ClaimGraph` only when the current claim or a named later use depends on that identity. Otherwise name the concrete object and the ordinary claim. Do not use `slotOrUsePosition` as a union field for actual participants, A.6.5 `SlotSpec` values, participant designations, or representation places.
 

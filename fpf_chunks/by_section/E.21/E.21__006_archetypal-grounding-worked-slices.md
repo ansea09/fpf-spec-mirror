@@ -6,12 +6,12 @@ section_id: "E.21:5"
 section_title: "Archetypal Grounding - worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__006_archetypal-grounding-worked-slices.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:5 — Archetypal Grounding - worked slices"
-line_start: 89076
-line_end: 89191
+line_start: 89414
+line_end: 89521
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -51,7 +51,7 @@ keywords:
 >
 > Not this pattern when the source is background reading and no claim or decision relies on it.
 >
-> A pin shows what was used; it neither proves the rule correct nor authorizes the decision.
+> The pin lets a reader recover which source rule changed the decision.
 >
 > Example: a team records `Cooling Guide, edition 3, rule 7` beside the chosen inspection interval and notes that rule 7 sets the maximum interval; a mention of the guide in a reading list is outside this use.
 >
@@ -73,32 +73,23 @@ The final sentence is deliberately defective: an unrelated editorial revision wo
 ```text
 PrecisionRestorationProfile:
   overallEffect: clean
-  wordHeadUsePrecision: clean — source, edition, rule, decision, reliance, and authorization are used consistently
-  mgdaColdReaderRecoverability: clean — the situation, first move, stop, practical case, grounded background-reading boundary, and grounded source-pin boundary are in the quoted edition
-  kindRestorationCheck: preserved — the repair keeps the same source, rule, decision, and reliance relation and narrows only the reopen condition from any new edition to a material change in the used rule or its applicability
-  phraseApparatus: clean — no formal phrase family displaces the action
-  repetitionAndNegativeDistribution: clean — each boundary is stated once
-  onticAndSlotRelationClarity: clean — the source publication, used rule, relying decision, and reopen relation stay distinct
-  descriptionPublicationSourceBoundary: clean — the source pin supplies traceability, while correctness and decision authorization remain separate receiving claims
-  patternApplicationOntology: clean — only ordinary reader action is asserted
-  checkedLoci: all seven quoted sentences, the filled case, the grounded background-reading and source-pin boundaries, and the last-sentence reopen rule
+  checkedLoci: all seven quoted sentences, the filled case, the grounded background-reading boundary, the pin's traceability use, and the last-sentence reopen rule
   affectedCoordinates: none — the overbroad refresh rule is evaluated in the coordinate table and finding, not through a precision-restoration layer
-  repairProposal: none for precision restoration — the Evolution finding below carries the refresh-rule repair
 ```
 
 | Coordinate | Value | ShortRationale |
 |---|---:|---|
-| `WorkingSituationAndUseBoundaryRecognizability` | `3` | The edition states the rule-reuse situation, first move, stop, and two locally grounded boundaries, so `2` understates recognition; `4` would require the missed harm and practical payoff to be early and explicit rather than inferred from the later case. |
+| `WorkingSituationAndUseBoundaryRecognizability` | `3` | The edition states the rule-reuse situation, first move, stop, and grounded background-reading boundary, so `2` understates recognition; `4` would require the missed harm and practical payoff to be early and explicit rather than inferred from the later case. |
 | `EntityOfConcernAndClaimScopeStability` | `4` | Every sentence stays on a source rule reused by one decision, so `3` understates stability; `5` would overstate one small case with no second receiving use. |
 | `PatternApplicationGuidance` | `4` | The reader can record four exact items and knows when to stop, so `3` understates executability; `5` would require observed first use or a second case. |
-| `ClosureStopAndReturnRecoverability` | `3` | Stop, return, the grounded source-use boundaries, and reopen are explicit, so `2` is too low; `4` would hide that the reopen condition is materially overbroad. |
-| `SemanticKindAndNameRecoverability` | `4` | Source, edition, rule, decision, pin, correctness, and authority remain distinct, so `3` understates the text; `5` lacks a hard ambiguity countercase. |
-| `NeighborContributionAndUseFit` | `4` | The text makes the source pin's traceability contribution and the separate correctness and authorization claims recoverable, so `3` understates the boundary; `5` would require replay across evidence, assurance, and publication uses. |
+| `ClosureAndBoundedNonUseRecoverability` | `3` | Stop, return, the grounded background-reading boundary, and reopen are explicit, so `2` is too low; `4` would hide that the reopen condition is materially overbroad. |
+| `SemanticKindAndNameRecoverability` | `4` | Source, edition, rule, decision, and pin remain distinct, so `3` understates the text; `5` lacks a hard ambiguity countercase. |
+| `NeighborAuthorityAndBoundedUseFit` | `4` | The pin supplies a recoverable source return for the relying decision; the text asks the reader to record reliance and keeps the decision itself separate, so `3` understates the boundary; `5` would require replay across evidence, assurance, and publication uses. |
 | `EntityOfConcernPrimacyAndSemioBiasResistance` | `4` | The pattern opens with the working rule-reuse problem and action, not source apparatus, so `3` is too low; `5` lacks observed cold-reader evidence. |
 | `PracticalUseDeltaAndHarmPrevention` | `4` | The case shows how a decision stays traceable to rule 7 and the stop prevents unsupported reuse, so `3` understates the gain; `5` lacks an observed before-and-after project case. |
 | `UseAffordabilityAndApparatusProportionality` | `4` | First use asks for four nearby facts and opens no optional apparatus, so `3` understates affordability; `5` would require observed first-use effort or repeated project use rather than this text-only rehearsal. |
 | `RepairLocalityAndChangeImpactPredictability` | `4` | One last-sentence condition is the exact repair locus and its effect is predictable, so `3` understates locality; `5` lacks a replay through several dependent decisions. |
-| `ProxyForValueSubstitutionResistance` | `3` | The source pin is explicitly limited to traceability, so `2` understates proxy resistance; `4` would require a near-miss where a visible pin is wrongly treated as approval. |
+| `ProxyForValueSubstitutionResistance` | `3` | The source pin has a stated traceability use, so `2` understates proxy resistance; `4` would require a near-miss where a visible pin is wrongly treated as approval. |
 | `ClaimJustificationTraceabilityCurrentnessAndReplayability` | `4` | Title, edition, rule, effect, decision, and stop are recoverable, so `3` understates replayability; `5` lacks an actual replay across two source editions. |
 | `CaseCountercaseAndTransferCoverage` | `4` | The filled inspection-interval case and background-reading near-miss meet the declared small use, so `3` understates coverage; `5` would require heterogeneous transfer cases. |
 | `MaturePatternParityAndSelectedContentSufficiency` | `3` | `comparator=E.2.DA and G.11; selectedIngredient=pinned source use plus bounded currentness; currentLocus=sentences 2-3 and 7; missingOrLowering=sentence 7 lacks a material-change test`; this makes `2` too low, while the missing selected ingredient prevents `4`. |
@@ -108,7 +99,7 @@ PrecisionRestorationProfile:
 | `CorpusEntryProjectionAndEcologyFit` | `3` | The declared diagnostic use is explicitly non-corpus-facing and the whole checked text is present, so `2` is too low; `4` would require the absent entry or projection evidence for a corpus-facing claim. |
 | `EvolutionFrontAndRefreshDiscipline` | `2` | The edition states a refresh trigger, so `1` understates it; any new edition triggers refresh without testing whether the used rule changed, so `3` would overstate usable evolution discipline. |
 
-The profile, complete table, status, stop and reopen, plus the quoted pattern's grounded source-use boundaries, constitute this example's non-arithmetic `PatternQualityQBundle`; the single value of `2` is the one below-floor defect, not an arithmetic penalty or a reason to lower unrelated qualities.
+The profile, complete table, status, stop and reopen, plus the quoted pattern's grounded background-reading boundary, constitute this example's non-arithmetic `PatternQualityQBundle`; the single value of `2` is the one below-floor defect, not an arithmetic penalty or a reason to lower unrelated qualities.
 
 ```text
 E.21 result:
@@ -120,6 +111,7 @@ E.21 result:
 First repair: narrow the final sentence to a change in the used rule, its applicability, or a stated limitation.
 Receiving use: if EX.1 is proposed for admission or publication, use a separate receiving decision; this diagnostic result supplies its quality finding and repair.
 Reopen if: EX.1's exact text, E.21's scale, the stated floor, or any named evidence locus changes.
+BoundedNonUse: EX.1's evaluated use excludes background reading on which no claim or decision relies.
 ```
 
 ```text
@@ -138,9 +130,9 @@ This is the ordinary path. The evaluator needed no dated-Work account or operati
 
 **Short architecture pattern.** A compact pattern has a triage form but no worked slice and no mature-pattern comparison. It can be useful as local expert reference material, but `MaturePatternParity...` and `CaseCountercase...` stay below exceptional until selected mature content is present.
 
-**Precision-restoration profile in a non-semio pattern.** A pattern tries to introduce a non-semio `EntityOfConcern` through a catalog of other claim kinds or objects outside its own subject. That catalog is unbounded because every EoC is outside infinitely many other EoCs. If copied boundary doctrine leads the Problem frame or Solution, `EntityOfConcernPrimacyAndSemioBiasResistance` falls to `2` or `3` even when every individual boundary is true. Lead with this pattern's own subject, first useful move, practitioner action, practical delta, and positive guidance. Add one local stop or non-use boundary only when a documented confusion gives a plausible intended reader reason to make that reading. Replace other copied doctrine with the relevant pattern ID and its concrete contribution. If the doctrine is distributed across sections, repair that distribution rather than only its sentences.
+**Precision-restoration profile in a non-semio pattern.** A pattern tries to introduce a non-semio `EntityOfConcern` through a catalog of other claim kinds or objects outside its own subject. That catalog is unbounded because every EoC is outside infinitely many other EoCs. If copied boundary doctrine leads the Problem frame or Solution, `EntityOfConcernPrimacyAndSemioBiasResistance` falls to `2` or `3` even when every individual boundary is true. Lead with this pattern's own subject, first useful move, practitioner action, practical delta, and positive guidance. Add one local explanation, stop, or non-use boundary only when it passes F.19:4's full independent-ground, plausible-reader, contribution, and smallest-clear-correction test. Replace other copied doctrine with the relevant pattern ID and its concrete contribution. If the doctrine is distributed across sections, repair that distribution rather than only its sentences.
 
-**Reference apparatus before Solution content.** A pattern's first Solution paragraph assigns other patterns or related-pattern mappings before it unfolds the ontology, method, norm, worked action, or other positive solution for the pattern of concern's own `EntityOfConcern`. Even if the related pattern id is correct, `PatternApplicationGuidance`, `EntityOfConcernPrimacyAndSemioBiasResistance`, `PracticalUseDeltaAndHarmPrevention`, and sometimes `NeighborContributionAndUseFit` fall. Move discoverability to README, ToC, `E.11`, `I.2`, or retrieval loci; put compact pattern references and their concrete contributions in `Relations` or a late boundary row; put architecture-placement rationale in a `DRR` or architecture document; and make the Solution answer “what do I do with this pattern's EoC?” first.
+**Reference apparatus before Solution content.** A pattern's first Solution paragraph assigns other patterns or related-pattern mappings before it unfolds the ontology, method, norm, worked action, or other positive solution for the pattern of concern's own `EntityOfConcern`. Even if the related pattern id is correct, `PatternApplicationGuidance`, `EntityOfConcernPrimacyAndSemioBiasResistance`, `PracticalUseDeltaAndHarmPrevention`, and sometimes `NeighborAuthorityAndBoundedUseFit` fall. Move discoverability to README, ToC, `E.11`, `I.2`, or retrieval loci; put compact pattern references and their concrete contributions in `Relations` or a late boundary row; put architecture-placement rationale in a `DRR` or architecture document; and make the Solution answer “what do I do with this pattern's EoC?” first.
 
 **Overformalized precision.** A pattern uses correct FPF kinds, slots, references, and cross-pattern pointers so densely that the working reader cannot recover the first useful move, practical delta, or generalizing insight without doing an internal audit. Precision is then present but not usable. Lower `UseAffordabilityAndApparatusProportionality`, `WorkingSituationAndUseBoundaryRecognizability`, and sometimes `PatternApplicationGuidance`. Repair by keeping the ontology named by value only where it carries a current FPF-governed claim, moving restoration evidence to the evaluation result or DRR, and adding a short worked slice or plain recognition sentence that preserves the same kind without extra apparatus.
 
@@ -149,5 +141,5 @@ This is the ordinary path. The evaluator needed no dated-Work account or operati
 
 **Quality table without rationale.** A result gives values but no adjacent-value rationale. Values are unsupported. Add `ShortRationale` or lower.
 
-**Goodharted improvement.** A rewrite improves source refs and proof sketches but becomes hard to use, or treats every non-`5` coordinate as a defect to be fixed with more apparatus. Re-evaluate affordability, repair locality, proxy-for-value, and corpus ecology before stopping. When exceptional improvement is requested, keep searching for content movement, not proof movement; record no-proposal only with loci showing that further content change is dominated, unavailable, or outside scope.
+**Goodharted improvement.** A rewrite improves source refs and proof sketches but becomes hard to use, or treats every non-`5` coordinate as a defect to be fixed with more apparatus. Re-evaluate affordability, repair locality, proxy-for-value, and corpus ecology before stopping. When exceptional improvement is requested, keep searching for content movement, not proof movement; the aggregate no-proposal disposition in E.21:4.7 needs loci showing that further content change is dominated, unavailable, or outside scope.
 

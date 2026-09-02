@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__007_bias-annotation.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:6 — Bias-Annotation"
-line_start: 70568
-line_end: 70589
+line_start: 70864
+line_end: 70885
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -45,7 +45,7 @@ keywords:
 
 ### E.4.PFAD:6 - Bias-Annotation
 
-**Scope: limited.** This profile decides a later-used architecture boundary for an FPF-grounded framework, maintained adjacent result or service, thinner route, existing-framework contribution, or stop. It does not provide a universal product ontology, a service-design Method, a publication taxonomy, or a mandatory decision form for exploration.
+**Scope: limited.** This profile decides a later-used architecture boundary for an FPF-grounded framework, adjacent result or service, thinner route, existing-framework contribution, or stop. It does not provide a universal product ontology, a service-design Method, a publication taxonomy, or a mandatory decision form for exploration.
 
 The first drift is form-first decision making: a team starts from a schema, row, ADR heading, or status field and assumes that filling it has settled the architecture. Start from the reader's problem, alternatives, later-used boundary, and practical consequence instead.
 
@@ -59,8 +59,8 @@ The fifth drift is relation-by-representation: a table row or reference list is 
 
 | Lens | Declared bias and counter-check |
 | --- | --- |
-| **Gov** | Favors one later-used decision with explicit rationale, capable maintainers where needed, and a reopen condition. Counter-risk: every exploration becomes an approval exercise. Keep the cheap exit and require a DRR only when later work needs the settled boundary. |
-| **Arch** | Favors comparison among framework, existing-framework contribution, maintained adjacent result or service, thinner route, and stop. Counter-risk: every useful result becomes its own framework or product. Select the smallest independently useful boundary and keep carriers, frameworks, services, programmes, and evidence packages distinct. |
+| **Gov** | Favors one later-used decision with explicit rationale, any responsibility or maintenance relation that changes the answer, and a reopen condition. Counter-risk: every exploration becomes an approval exercise. Keep the cheap exit and require a DRR only when later work needs the settled boundary. |
+| **Arch** | Favors comparison among framework, existing-framework contribution, adjacent result or service, thinner route, and stop. Counter-risk: every useful result becomes its own framework or product. Select the smallest independently useful boundary and keep carriers, frameworks, services, programmes, and evidence packages distinct. |
 | **Onto-Epist** | Favors direct subject kinds and actual identity, current-state, provision, maintenance, dependency, and publication relations. Counter-risk: the decision becomes an ontology inventory. Use *product* as Plain management wording, name only distinctions that change the answer, and return an unresolved-kind question rather than minting `U.Product`. |
 | **Prag** | Favors representative first use, serious alternatives, evidence limits, omissions, and one next action. Counter-risk: product-line, service-management, bibliographic, or content-management apparatus dominates a small decision. Reuse only the external distinctions that discriminate among the live alternatives. |
 | **Did** | Favors a recognizable working question and filled unlike cases before assurance detail. Counter-risk: compressed labels hide the object boundary, while formal precision hides the decision. State the ordinary alternative first, then explain the exact subject in one direct sentence. |

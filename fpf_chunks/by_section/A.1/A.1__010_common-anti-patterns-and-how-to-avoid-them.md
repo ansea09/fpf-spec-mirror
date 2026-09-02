@@ -6,12 +6,12 @@ section_id: "A.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 1783
-line_end: 1794
+line_start: 1786
+line_end: 1797
 dependencies:
   - "A.1.1"
   - "A.1.STM"

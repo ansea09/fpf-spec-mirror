@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__014_relations.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:12 — Relations"
-line_start: 60266
-line_end: 60277
+line_start: 60546
+line_end: 60557
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,6 +42,7 @@ dependencies:
   - "E.18"
   - "E.8"
   - "F.18"
+  - "F.19"
   - "G.5"
   - "G.6"
   - "I.2"
@@ -58,5 +59,5 @@ keywords:
 - C.33, C.34, and C.35 handle captured, lost, preserved, generated-carrier, or discovered-carrier structure when those claims are current.
 - A recovered level claim returns to the pattern that defines or tests its subject relation or mapping. C.30.STRAT establishes no level by itself.
 
-After recovering the source-local meaning, C.30.STRAT names the next useful action and returns each recovered object or claim to its defining or testing pattern. Those patterns retain their own rules.
+Stop after repairing the source label and naming the next useful action. Use the defining or testing pattern for each recovered object or claim, and keep its rules there.
 

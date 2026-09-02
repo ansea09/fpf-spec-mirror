@@ -6,12 +6,12 @@ section_id: "E.10.LRN:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__002_use-this-when.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:0 — Use This When"
-line_start: 76094
-line_end: 76105
+line_start: 76432
+line_end: 76443
 dependencies:
   - "A.10"
   - "A.15"

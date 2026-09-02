@@ -6,12 +6,12 @@ section_id: "E.22:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__009_common-anti-patterns-and-repairs.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:8 — Common anti-patterns and repairs"
-line_start: 89583
-line_end: 89598
+line_start: 89914
+line_end: 89929
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -42,5 +42,5 @@ keywords:
 | **Goodharted improvement.** Visible values rise while protected qualities worsen, or a `5` target makes the evaluator add apparatus instead of improving content. | Frame the expected evaluation effect as a substantive content change, add trade-off protection, reject dominated changes, apply E.13 when a visible value replaces the intended value, and admit `no proposal` only when checked positions show that no worthwhile content improvement remains. |
 | **Recommendation as decision.** A follow-up hypothesis is treated as chosen work. | Open the exact decision, work, publication, parity, refresh, evidence, or assurance pattern if that claim is needed. |
 | **Finding as actual Problem.** A low coordinate, finding, or floor miss is treated as a Problem occurrence. | Keep the evaluation result epistemic; cite C.22.PFR only when its actual-condition and criterion-applicability participants make one ProblematicFor occurrence obtain. |
-| **Lexical repair request.** A finding says only "replace this word" or "avoid that wording." | Rewrite the row as a precision-restoration finding with kind, relation, admissible use, and scope before and after repair; if no kind-preserving repair is recoverable, leave it blocking. |
+| **Lexical repair request.** A finding says only "replace this word" or "avoid that wording." | State the intended content effect and apply F.19. Add the before/after `KindRestorationCheck` when the changed expression can alter FPF-governed meaning; leave an unjustified meaning change blocking. |
 

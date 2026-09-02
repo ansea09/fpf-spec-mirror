@@ -6,12 +6,12 @@ section_id: "E.21:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__002_problem-frame.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:1 — Problem frame"
-line_start: 88701
-line_end: 88716
+line_start: 89028
+line_end: 89043
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -39,11 +39,11 @@ keywords:
 
 Use this when an authored FPF pattern edition or bounded version must be evaluated for quality under a named use: ordinary practitioner use, authoring input, landing input, release input, external-review input, high-assurance reuse input, canonization input, or another explicit pattern-quality use. E.21 declares the characteristic space, evaluation specification, and result rules. An evaluator applies the quality questions. The evaluator does not replace the required `ClaimScope` with an easier one. If the pattern fails the required use, the result episteme states `repairBeforeUse`, `holdForArchitectureDecision`, or `refreshNeeded`; a different use needs a different evaluation frame and does not rescue this result.
 
-Not this pattern when the evaluated object is one `DRR`, an FPF-level corpus object, a single wording repair, a source-use decision, or a project-side evidence, assurance, gate, release, safety, compliance, work, or decision claim. Use `E.9.DA`, `E.2.DA`, `E.10` and precision-restoration neighboring patterns named by value, or the project-side pattern governing the claim for those objects.
+Not this pattern when the evaluated object is one `DRR`, an FPF-level corpus object, a single wording repair, a source-use decision, or a project-side evidence, assurance, gate, release, safety, compliance, work, or decision claim. Use `E.9.DA` for a DRR, `E.2.DA` for an FPF-level corpus object, `F.19` for a wording repair, and the pattern governing a source-use or project-side claim for that claim. Open `E.10` or a named precision-restoration neighbor for an unresolved FPF-specific meaning.
 
 First useful move: name the exact pattern edition, required use and scope, working reader, and qualification window. Read its working situation, first useful move, practical delta, boundaries, and evidence. Then assign every coordinate an evidence-based value with an adjacent-value rationale and constitute the aggregate result.
 
-`floorEvaluation` changes the declared floor and expected evidence economy. It never creates a partial `E.21`, inactive coordinates, overlay-trigger shortcuts, narrowing to an easier use, blocker-only substitution, or a permission to skip precision-restoration discharge. Fragmentary, wrong-shaped, or weak pattern text is still evaluated under the required scope; weakness receives low coordinate values, repair status, architecture hold, or refresh status.
+`floorEvaluation` changes only the declared floor and expected evidence economy. An E.21 result retains the required `ClaimScope`, full coordinate set, rationales, and `PrecisionRestorationProfile`. Fragmentary, wrong-shaped, or weak pattern text is still evaluated under the required scope; weakness receives low coordinate values, repair status, architecture hold, or refresh status.
 
 What goes wrong if missed: pattern quality becomes taste, checklist closure, source count, review state, landing state, or length. Short patterns can pass while missing mature content; long patterns can pass while hiding the first user-facing action; semio material can take over a non-semio pattern.
 

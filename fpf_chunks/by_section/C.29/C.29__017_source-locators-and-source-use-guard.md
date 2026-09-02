@@ -6,17 +6,18 @@ section_id: "C.29:13a"
 section_title: "Source locators and source-use guard"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__017_source-locators-and-source-use-guard.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13a — Source locators and source-use guard"
-line_start: 58218
-line_end: 58290
+line_start: 58496
+line_end: 58568
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
   - "A.15.4"
   - "A.19"
   - "A.3.3"
@@ -46,6 +47,7 @@ dependencies:
   - "E.19"
   - "E.8"
   - "E.9"
+  - "F.19"
   - "F.9"
   - "G.10"
   - "G.2"
@@ -76,7 +78,7 @@ SoTA materials are not nameless background. Decision grounds and governing inher
 
 | Source id | Source item | What it contributes | Use in `C.29` |
 |---|---|---|---|
-| `FPF-CORE-2026` | Current FPF Core Specification, especially `E.9`, `E.10`, `C.2.P`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `A.15.1`, `A.15.4`, `B.3`, `C.11`, `C.16`, `C.18.1`, `C.19.1`, `C.26`, `C.27`, `C.28`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`, `G.5`, `G.9`. | Governs `C.29` adequacy, lexical precision repair, epistemic precision repair, pattern placement, bridge discipline, decision boundaries, work boundaries, evidence boundaries, assurance boundaries, explanation boundaries, comparison boundaries, representation boundaries, state boundaries, measurement boundaries, dynamics boundaries, temporal boundaries, causal-use boundary, and evidence and assurance escalation. | **Governing inheritance.** `C.29` applications satisfy E.9 and phrase-local episteme material, publication material, and source-use material through C.2.P. |
+| `FPF-CORE-2026` | Current FPF Core Specification, especially `E.9`, `E.10`, `F.19`, `C.2.P`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `A.15.1`, `A.15.2`, `A.15.4`, `B.3`, `C.11`, `C.16`, `C.18.1`, `C.19.1`, `C.26`, `C.27`, `C.28`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`, `G.5`, `G.9`. | Governs `C.29` adequacy, lexical precision repair, epistemic precision repair, pattern placement, bridge discipline, decision boundaries, work boundaries, evidence boundaries, assurance boundaries, explanation boundaries, comparison boundaries, representation boundaries, state boundaries, measurement boundaries, dynamics boundaries, temporal boundaries, causal-use boundary, and evidence and assurance escalation. | **Governing inheritance.** `C.29` applications satisfy E.9. Use F.19 for ordinary wording; apply C.2.P when phrase-local episteme material, publication material, or source-use material needs epistemic precision restoration. |
 | `SAND-THREAD-MATH-LINKS-2026-05-12` | Accessible mirror of Sandberg thread, lines headed “Math,” linking to the original X post. | Recognition examples of structural sameness: generalized Stokes, CLT as RG or fixed-point interpretation, Lawvere-style diagonal family, Noether, Legendre transforms. | **Adopt as recognition cue and examples, not proof authority.** Direct X content was not treated as a formal source. |
 | `VAN-GEOM-LEARNING-2025/2026` | Vitaly Vanchurin, **Geometric Learning Dynamics**, arXiv:2504.14728 v3, last revised 2026-03-14 and accepted for publication in Biological Cybernetics. | Candidate lens family: geometric learning dynamics over the relation between metric tensor, noise covariance, and learning regime; useful as a replayable source for metric-tensor, noise-covariance, and learning-dynamics lens selection. | **Adapt, not adopt.** Use as SoTA-echo candidate lens or stress test for `CandidateMathObject`, `LensMappingMode`, preserved structure and lost structure, validation boundary, and stop condition; do not accept the physical or biological interpretation as FPF law. |
 | `RODIN-2023` | Andrei Rodin, **One Mathematic(s) or Many? Foundations of Mathematics in Today's Mathematical Practice**, arXiv:2301.08131. | Contributes plural-foundations source material and mutual-interpretability caution. | **Adopt** as source material for multiple structural families checked through local adequacy, declared mapping, and recoverable loss. |
@@ -84,7 +86,7 @@ SoTA materials are not nameless background. Decision grounds and governing inher
 | `GDL-BRONSTEIN-2021` | Bronstein et al., **Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges**, arXiv:2104.13478. | Contributes lens-discovery cues through symmetry, invariance, equivariance, group action, geometric structure, and graph structure. | **Adapt as discovery source.** Helps find a candidate lens; does not supply domain evidence, causal mechanism, or validation by itself. |
 | `PEYRE-CUTURI-2019` | Gabriel Peyré and Marco Cuturi, **Computational Optimal Transport**, arXiv:1803.00567 and Foundations and Trends in Machine Learning publication context. | Contributes distribution-geometry discovery cues through transport plans, couplings, Wasserstein-like distances, movement cost, and shape or population shift. | **Adapt as discovery source.** Helps formulate comparison and movement questions; does not supply causal, fairness, mechanism, or policy-effect evidence by itself. |
 | `PUCA-ETAL-2023` | Puca, Hadzihasanovic, Genovese, Coecke, **Obstructions to Compositionality**, arXiv:2307.14461. | Contributes source material for making failures and obstructions to compositional transfer explicit. | **Adapt** into `LostStructure`, `StopCondition`, and checks that not every transfer preserves the needed structure. |
-| `MODEL-REPORTING-2018/2021` | Mitchell et al., **Model Cards for Model Reporting**; Gebru et al., **Datasheets for Datasets**. | Contributes intended-use, evaluation-condition, limitation, dataset-context, and out-of-scope-use declarations for model and data-bearing lenses. | **Adapt.** Use for `declaredLensUse`, `StopCondition`, validation regime, limitation notes, domain-of-applicability fields, and a grounded optional overread when the documentation itself invites one; establish evidence or assurance separately. |
+| `MODEL-REPORTING-2018/2021` | Mitchell et al., **Model Cards for Model Reporting**; Gebru et al., **Datasheets for Datasets**. | Contributes intended-use, evaluation-condition, limitation, dataset-context, and out-of-scope-use declarations for model and data-bearing lenses. | **Adapt.** Use for `declaredLensUse`, `StopCondition`, validation regime, limitation notes, domain-of-applicability fields, and optional `blockedLensOverread?` when it passes F.19's plausible-reader test; establish evidence or assurance separately. |
 | `CAUSAL-ABSTRACTION-2017/2019` | Rubenstein et al., **Causal Consistency of Structural Equation Models**; Beckers and Halpern, **Abstracting Causal Models**. | Contributes the question of whether abstraction, quotient, macro-model, or coarse-graining preserves intervention and counterfactual structure. | **Adapt.** Contributes to `MathLensUse.CausalAbstractionCheck`; causal-use question and verdict still belongs to `C.28`. |
 | `APPROX-CAUSAL-ABSTRACTION-2019/2020` | Beckers, Eberhardt, and Halpern, **Approximate Causal Abstraction** and **Approximate Causal Abstractions**, arXiv:1906.11583 and PMLR 2020. | Contributes the distinction between approximate and exact micro-to-macro causal abstraction, including discrepancy between micro-model and macro-model causal descriptions and uncertainty in probabilistic causal models. | **Adapt.** Justifies the `approximated` value in `MathLensUse.CausalAbstractionCheck`; causal-use question and verdict still belongs to `C.28`. |
 | `CAUSAL-ABSTRACTION-JMLR-2025` | **Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability**, JMLR 2025. | Contributes generalized mechanism transformation, graded faithfulness, and abstraction checks for learned systems, including where representation mappings become too flexible to license explanation or causal use. | **Adapt.** Strengthens the abstraction-preservation question; causal-use question and verdict still belongs to `C.28`. |

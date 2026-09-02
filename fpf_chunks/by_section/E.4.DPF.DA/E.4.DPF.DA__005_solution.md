@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__005_solution.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:4 — Solution"
-line_start: 71340
-line_end: 71553
+line_start: 71624
+line_end: 71840
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -32,6 +32,7 @@ dependencies:
   - "C.33"
   - "C.34"
   - "C.35"
+  - "E.10"
   - "E.11"
   - "E.11.PFP"
   - "E.17"
@@ -61,7 +62,7 @@ keywords:
 Start here with one ordinary assessment route:
 
 1. Pin the exact authored framework episteme edition and declared package use, then name the effective ReferenceScheme, ClaimScope, working reader, intended use, qualification window, evidence basis, floor, and any independently grounded non-use boundary that changes the result.
-2. Run `PFM1`–`PFM12` where applicable and give each one a pass, fail, or not-applicable-with-reason disposition.
+2. Run `PFM1`, `PFM1a`, and `PFM2`–`PFM12` where applicable and give each one a pass, fail, or not-applicable-with-reason disposition.
 3. Judge every `D1`–`D12` coordinate with one ordinal value, short rationale, exact evidence locus, and smallest repair or explicit no-proposal disposition.
 4. Constitute one aggregate C.2.1 result episteme carrying those coordinate claims, protected trade-offs, the local `DPFPackageAdequacyStatus`, and the first repair or no-proposal disposition.
 5. State the next usable action, stop or repair, and reopen condition, then name any separate receiving use such as E.19 admission or refresh, assurance, publication, F.10 status use, or E.23 repair. Add a non-use statement only when a plausible reader has an independently grounded reason to confuse those uses.
@@ -118,7 +119,7 @@ DPFPackageAdequacyEvaluationConfiguration:
   ClaimScope:
   WorkingReaderOrOperatorScope:
   IntendedUse:
-  GroundedNonUseBoundary?: <only for a named competing use or plausible observed confusion that changes this result>
+  NonUseBoundary?: <only for a named competing use or plausible observed confusion that changes this result>
   QualificationWindow:
   ModelUseStructureRef?: <only when one selected BoundedModelUseStructure changes interpretation>
   DPFPackageAdequacyCharacteristicSpaceRef: <exact A.19 characteristic space>
@@ -144,7 +145,7 @@ DPFPackageAdequacyResultEpisteme:
     ClaimScope:
     WorkingReaderOrOperatorScope:
     IntendedUse:
-    GroundedNonUseBoundary?: <same conditional boundary when present>
+    NonUseBoundary?: <same conditional boundary when present>
     QualificationWindow:
     CoordinateResultClaims: <all D1..D12 values, rationales, evidence loci, repairs/no-proposals>
     ProtectedTradeoffSet:
@@ -155,12 +156,12 @@ DPFPackageAdequacyResultEpisteme:
   ResultWitnessRefs:
   ResultEvidenceUseRefs:
 DPFPackageAdequacyEvaluationRecord: <optional packaging of configuration, assessment account,
-  result, witnesses or evidence use, reopen refs, and any grounded non-use boundary>
+  result, witnesses/evidence use, reopen refs, and any grounded non-use boundary>
 ```
 
 These names are local record and claim shapes, not new U-kinds. `DeclaredVisiblePackageFormOrUse` is open plain wording for the exact form or use being checked; it neither types nor identifies the framework or package. The separately typed reference fields keep publication units, forms, `U.PresentationCarrier` values, access routes, and actual access or use relations distinct. If the visible material has no independently admitted single package entity, do not make a file set or list into one: keep the exact framework episteme edition as EntityOfConcern and cite its package architecture, records, contents, publication and access relations, forms, carriers, and routes separately in the configuration and evidence basis. A file boundary, manifest, directory, table order, publication, carrier, callable service, or endpoint establishes neither package architecture nor membership.
 
-The characteristic table and this specification describe how to evaluate. An ordinary practitioner judgement, a semantic Method, an A.6.1 application, and dated assessment Work remain distinct branches. Assert exact Method or application identity only when the receiving claim depends on it. If dated assessment Work is claimed, recover the actual evaluator System through A.13 and cite one independently valid A.15.1 Work account; add assignment-bound attribution only when this result represents that attribution. The aggregate coordinate claims and local status belong to the result episteme, while later admission, assurance, publication, and authority uses keep their direct relations.
+The characteristic table and this specification describe how to evaluate; the semantic Method, evaluator action, dated Work, A.6.1 application, and result keep their own identities. A practitioner may make an ordinary package-adequacy judgement without classifying it as `U.Work` or asserting an A.6.1 application. Such an application exists here only when one exact operation declared by a separately admitted Mechanism is actually used and the receiving claim depends on its bindings; Work admission neither creates nor requires it. If the account instead claims dated assessment Work, recover the exact actual evaluator System through A.13 and cite one independently valid A.15.1 Work account. Only when the result expressly represents precise assignment-bound attribution does it also cite the same obtaining A.13 assignment and applicable F.6 relation occurrences. F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. The evaluator System acts. A local evaluator system-role classification is an optional neighboring claim. The local account exposes assignment or F.6 references only for that attribution branch. Constitute the coordinate claims and aggregate result under §4.3, and establish each later receiving use through its own relation under §4.5.
 
 Each coordinate value is an ordinal content-evaluation quality ascription about the same exact framework episteme edition under the declared ReferenceScheme, ClaimScope, use, and qualification window. It is not a `U.Measure`, measurement output, average, vote, maturity stage, or status use. The aggregate result episteme has its own C.2.1 identity; empirical grounding, witness presence, evidence use, publication, and evaluator identity remain neighboring relations or objects rather than identity slots.
 
@@ -179,18 +180,18 @@ Default floor is `4` for public, teaching, enterprise, operational, or reliance-
 
 #### E.4.DPF.DA:4.2 - Required coordinates
 
-Every `E.4.DPF.DA` run evaluates every coordinate below. Do not drop a coordinate because the package is "only a seed"; assign the value that the seed earns.
+Every E.4.DPF.DA result includes every coordinate below, including a result for a seed: assign the value that the seed earns. A bounded diagnostic may borrow selected questions while stating its limited scope; it does not claim an E.4.DPF.DA result or local status.
 
 In this pattern, `known failure modes` means beginner mistakes and experienced-practitioner failures caused by stale, local-only, or non-SoTA practice. Do not narrow the check to novice errors only.
 
 | Coordinate | Evaluation question | Good state |
 | --- | --- | --- |
-| `D1DomainScopeAndUseAdequacy` | Are the domain or local situation, effective ReferenceScheme, ClaimScope, reader, declared use, qualification window, stop or return, and any genuinely interpretation-changing model-use structure recoverable? | The package tells whom it is for, which domain situation and claims it covers, what to do first, and when to stop or return; a non-use boundary appears only for a grounded competing use a plausible reader could select. |
+| `D1DomainScopeAndUseAdequacy` | Are the domain or local situation, effective ReferenceScheme, ClaimScope, reader, declared use, qualification window, stop or return, and any genuinely interpretation-changing model-use structure recoverable? | The package tells whom it is for, which domain situation and claims it covers, what to do first, when to stop or return, and which semantic qualifications constrain that use; a non-use boundary appears only for a grounded competing use a plausible reader could select. |
 | `D2DidacticEntryAndAdoptionAdequacy` | Can the intended reader or assisting agent find the first useful entry and get a first working result without FPF developer knowledge? | ToC, readme, preface, pattern-use routes, skill entries, MCP access cues, and examples make adoption cheap and non-magical, while support maps are reached from work triggers rather than front-loaded as required reading. |
 | `D3ScalableFormalityAndAssurancePathAdequacy` | Can the package move from plain local use toward stronger records, evaluation, evidence, or assurance without rewriting the package? | Plain guidance, typed records, source pins, evaluation rows, and paths to stronger evidence or assurance are staged. |
 | `D4CoreDependencyAndDomainBoundaryAdequacy` | Does the checked framework edition depend on FPF Core while keeping domain knowledge inside the DPF and keeping edition dependency distinct from package/file membership? | Core patterns are reused; local terms do not redefine Core; possible Core amendment candidates are explicit; E.4.PFR records exact dependency and edition effects; FPF Core and the main monolith do not depend on this DPF except through a deliberate Core amendment. |
 | `D5PackageFormLayeringAndRelationAdequacy` | Are framework episteme edition, package architecture, architecture decisions, pattern set, support maps or appendices, relation records, edition dependencies, publication units and occurrences, publication forms, presentation carriers, access-facing presentation carriers, access routes, actual access or use relations, source packs, and quality records separated? | `E.4.PFAD`, `E.4.PFR`, C.2.1, E.24.PUB, source, direct access or use, quality, support-map, appendix, and refresh loci remain distinct, findable, and reached from the right work triggers; file or package layout establishes no semantic membership. |
-| `D6DomainLexiconAndKindSettlementAdequacy` | Are domain terms, local vocabulary, candidate ontics, and the applicable FPF patterns settled well enough for use? | Each local term has a stated kind, defining source, admissible use, and applicable FPF pattern or naming route; add a blocked reading only when an independent local ground makes it plausible and action-changing. |
+| `D6DomainLexiconAndKindSettlementAdequacy` | Are domain terms, local vocabulary, candidate ontics, and the applicable FPF patterns settled well enough for use? | Each local term has a stated kind, defining source, admissible use, and an applicable FPF pattern or naming route when needed; add a blocked reading only under F.19:4's full independent-ground, plausible-reader, contribution, and smallest-clear-correction test. |
 | `D7PracticeUtilityAndProblemResolutionAdequacy` | Does the package change real domain or local action, diagnosis, design, explanation, teaching, or repair? | Patterns solve recognizable domain problems with positive SoTA-informed moves, known failure modes or anti-patterns, and worked cases, not only taxonomy, ontology, commentary, or talk guidance. |
 | `D8HeterogeneousCaseAndTransferAdequacy` | Has the package been tested against diverse enough domain cases, reader roles, or local situations? | Heterogeneous probes show where the same pattern set works, fails, or needs a contribution from another pattern that defines, constrains, or tests the affected claim. |
 | `D9EditionStateAndCurrentnessAdequacy` | Are framework episteme edition, any obtaining EpistemeEditionRelation, source currentness, dependency pins, qualification window, publication occurrence, form, and presentation-carrier availability, access-route currentness, and actual access or use currentness explicit and separately changeable? | Readers can tell which exact framework episteme they use, which edition/dependency relations obtain, what source, publication, and access state supports the use, and which separate change reopens it. |
@@ -204,7 +205,9 @@ The aggregate E.4.DPF.DA result episteme carries twelve coordinate-result claims
 
 | Coordinate | Value | ShortRationale | EvidenceLocus | RepairOrNoProposal |
 | --- | --- | --- | --- | --- |
-| `<D1..D12>` | `<0..5>` | `<why this value, why lower would understate evidence, why higher would overstate it or what would lower or reopen a 5>` | `<package section, source row, relation record, pattern body, readme, ToC, skill entry, MCP route, worked case, quality result, refresh route, missing locus>` | `<repair, no-proposal with checked loci, or neighbouring source or pattern to use>` |
+| `<D1..D12>` | `<0..5>` | `<assigned-value basis and the applicable adjacent-value rationale below>` | `<package section, source row, relation record, pattern body, readme, ToC, skill entry, MCP route, worked case, quality result, refresh route, missing locus>` | `<repair, no-proposal with checked loci, or neighbouring source or pattern to use>` |
+
+For values `1..4`, explain why the lower adjacent value would understate the evidence and the higher adjacent value would overstate it. For `0`, explain why `1` would overstate the evidence and what would raise the value or reopen it. For `5`, explain why `4` would understate the evidence and what would lower the value or reopen it.
 
 Each row is one ordinal content-evaluation quality ascription about the same exact framework episteme edition and keeps recoverable the effective ReferenceScheme, characteristic, scale value, evaluation rule or probe, ClaimScope/use/window, assessment account and any asserted Mechanism-operation application, short rationale, evidence locus, and repair or no-proposal. A prose verdict, checklist-count result, table without evidence loci, average of `E.21` pattern values, favorable status label, or table detached from an aggregate C.2.1 result episteme is only assessment material. None is a `U.Measure`, measurement output, performed assessment, admission, or authority.
 
@@ -249,6 +252,7 @@ Use these sources and patterns instead of expanding this pattern into a package 
 | First-entry, publication occurrence/form/presentation carrier, access route, and actual access or use | `E.24.PUB`, `E.11`, `E.17`, and the direct access or use pattern |
 | Carrier structure-account, captured/coarsened/lost structure, where readers return for fuller sources, and structure-capture or epiplexity account | `E.4.DPF`, `E.11`, `E.17`, `A.6.3.CSC`, `C.33`, `C.34`, and `A.6.3.NAR` when sequential narrative rendering is load-bearing |
 | Naming and local vocabulary | `E.10`, `F.18`, and the pattern that defines or constrains the named subject |
+| Ordinary wording defects and precise plain language | `F.19`; use `E.10` for cues and the pattern that defines or constrains an unresolved subject meaning |
 | Generated or searched package candidate | `C.35`, then `E.4.PFAD` or the pattern that defines, constrains, or tests the candidate content being used |
 | Carrier capture, loss, and preservation | `C.33`, `C.34` |
 | Improvement framing and repeated improvement | `E.22`, `E.23` |
@@ -259,7 +263,7 @@ When a coordinate is below floor, return a finding or repair proposal. When a co
 
 #### E.4.DPF.DA:4.5 - Local result status and receiving-use boundary
 
-`DPFPackageAdequacyStatus` is the aggregate result episteme's local package-adequacy claim for the declared scope. Any later receiving use names its own exact relation and decision rule.
+`DPFPackageAdequacyStatus` is a local admissible-use claim carried by the aggregate result episteme. It reports the package-adequacy evaluation result for the declared scope. A receiving process may use it for an F.10 status use, E.19 admission or refresh decision, assurance, publication, work authorization, or improvement Work only through that use's own exact relation and decision rule.
 
 | Status | Meaning |
 | --- | --- |

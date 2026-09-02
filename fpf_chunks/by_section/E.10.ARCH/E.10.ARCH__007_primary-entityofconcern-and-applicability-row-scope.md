@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:1"
 section_title: "Primary EntityOfConcern and applicability-row scope"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__007_primary-entityofconcern-and-applicability-row-scope.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:1 — Primary EntityOfConcern and applicability-row scope"
-line_start: 76946
-line_end: 76976
+line_start: 77279
+line_end: 77309
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -67,7 +67,7 @@ keywords:
 
 ### E.10.ARCH:1 - Primary EntityOfConcern and applicability-row scope
 
-The primary `EntityOfConcern` for this pattern use is the pattern-local authoring and publication architecture of `WordingUseRestorationApplicabilityRow` rows. The row is not the project object exposed by the wording and is not a practitioner artifact.
+The primary `EntityOfConcern` for this pattern use is the pattern-local authoring and publication architecture of `WordingUseRestorationApplicabilityRow` rows. The project object exposed by the wording is recovered under its own defining or constraining rule.
 
 A row may use `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, and `ontologicalNeighborhood` as author-facing routing coordinates. Its minimum semantic content is:
 
@@ -76,23 +76,23 @@ A row may use `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamil
 - the exact claim or use being made;
 - the rule that defines or constrains that object, relation, or representation, and the pattern ID that locates the rule;
 - the repaired wording; and
-- the reader use that the repair enables.
+- the admissible reader use that survives.
 
 A negative boundary is not row-minimum content. Add one only when independent local evidence makes the exact rival reading plausible to the intended reader and deleting the boundary would change understanding, selection, safety, reliance, stop, or action. State it once and in the smallest useful form.
 
 Declaration, designation, reference, publication, or representation fields are optional and appear only when the current repair needs them. A reusable relation declaration names its `RelationSignature` and A.6.5 `SlotSpec` values. A current assertion or relation-occurrence-description episteme may carry participant designations. A publication form or C.29 representation element names its represented object and explicit correspondence. An E.24 `onticSlotRelation` appears only when durable ontic settlement is itself current. None of these optional objects becomes a field of the governed entity merely because the authoring row cites it.
 
-`WordingUseRestorationApplicabilityRow` is not a `U.*` kind, conformance object, process task, deontic obligation, or durable project artifact. Ordinary engineers do not fill it. They receive the shortest practitioner-facing sentence that identifies the governed object, direct relation or claim, and remaining action-facing use.
+`WordingUseRestorationApplicabilityRow` names this authoring/publication unit. An author uses it to select and explain a repair; project-kind admission and project authority remain with their defining subject rules. Ordinary engineers do not fill it. They receive the shortest practitioner-facing sentence that identifies the governed object, direct relation or claim, and remaining action-facing use.
 
-`WordingUseRestorationApplicabilityTable` is the pattern-local publication table of such rows. It is not a pattern cluster, workstream, campaign, module, semantic parent, or authority-bearing object.
+`WordingUseRestorationApplicabilityTable` is the pattern-local publication table of such rows. It publishes rows for lookup; row membership supplies no semantic parentage or project authority.
 
 `semanticAreaBaseConcept` is the Base concept, source wording span, or already settled row cue by which an author first recognizes the candidate semantic unit.
 
 `semanticArea` is the Part-F semantic unit used by one wording-use restoration row: one Concept-Set row, one UTS row, or an explicitly bounded row-set whose rows remain sense-uniform enough for one recovery architecture.
 
-`semanticAreaSenseFamily` is the Part-F `senseFamily` or FPF kind named by value-family discriminator that prevents the row from becoming a theme, domain, workstream, or pattern-nest label.
+`semanticAreaSenseFamily` is the Part-F `senseFamily` or FPF kind named by value-family discriminator used to select one sense- or kind-specific recovery.
 
-`ontologicalNeighborhood` means the FPF applicability neighborhood around that named `semanticArea`: the exact governed objects, admissible adjacent objects and relations, subject patterns, use boundaries, and optional declaration, description, publication, reference, or representation objects needed by the current repair. It is not textual, filename, ToC, alphabetic, topic, discipline, domain, workstream, or pattern-nest proximity.
+`ontologicalNeighborhood` means the FPF applicability neighborhood around that named `semanticArea`: the exact governed objects, admissible adjacent objects and relations, subject patterns, use boundaries, and optional declaration, description, publication, reference, or representation objects needed by the current repair. Membership follows applicability to the current repair, independently of textual or file proximity, index order, topic or domain grouping, work organization, and pattern numbering.
 
-`pattern nest` means a numbering or placement grouping such as `A.6.*`, `C.16.*`, or `C.30.*`. One applicability row may point to a realization pattern in one pattern nest, but the row and the nest are not the same concept.
+`pattern nest` means a numbering or placement grouping such as `A.6.*`, `C.16.*`, or `C.30.*`. One applicability row may point to a realization pattern in one pattern nest.
 

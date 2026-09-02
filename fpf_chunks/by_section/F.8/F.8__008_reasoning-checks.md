@@ -6,12 +6,12 @@ section_id: "F.8:6"
 section_title: "Reasoning Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__008_reasoning-checks.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:6 — Reasoning Checks"
-line_start: 95009
-line_end: 95025
+line_start: 95340
+line_end: 95356
 dependencies:
   - "A.11"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "F.15"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "F.2"
   - "F.3"
   - "F.4"
@@ -65,7 +66,7 @@ Use these as reading checks, not as a required notation or record.
 
 | Situation | Decision |
 | --- | --- |
-| The expression is present but the governed value or relation is not known. | Stop F.8. Use E.10 for phrase repair or the subject-recovery route for the object. |
+| The expression is present but the governed value or relation is not known. | Stop F.8. Use E.10 to resolve the expression or the subject-recovery route to identify the object; ordinary wording repair uses F.19. |
 | The expression, governed value or relation, subject pattern, and proposed use are present. | Choose the lightest disposition for that value and use. The naming decision neither establishes the value nor makes a relation obtain. |
 | A local phrase or existing designation is sufficient. | Stay local or reuse it; create no cell, NameCard, row, or identifier. |
 | An alias is proposed. | Preserve the governed kind, scope, occurrence identity, admitted use, and lineage to the selected designation. |

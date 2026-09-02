@@ -6,12 +6,12 @@ section_id: "F.8:7"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__009_archetypal-grounding-worked-cases.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:7 — Archetypal Grounding - worked cases"
-line_start: 95026
-line_end: 95074
+line_start: 95357
+line_end: 95405
 dependencies:
   - "A.11"
   - "A.15"
@@ -40,6 +40,7 @@ dependencies:
   - "F.15"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "F.2"
   - "F.3"
   - "F.4"
@@ -100,7 +101,7 @@ A team proposes `U.InfluenceEdge` because many documents use "influence". At F.8
 
 The `ReviewerRole` case closes with one readable result. The recovered kind is a local `U.Kind` for `U.System` candidates, distinguished by its stable review contribution and tested by its `KindSignature`; any assignment remains separate. The result is:
 
-> Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose. Select `openDurableNamingSettlement`: A.2 and C.3 govern the kind, F.5 governs its designation, and F.18 supplies the durable settlement. Reopen when the naming use or audience changes enough that this local settlement no longer supports it.
+> Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose. No existing designation or alias supports that use, so select `openDurableNamingSettlement`: A.2 and C.3 continue to govern the kind, F.5 governs its designation, and F.18 supplies the durable settlement. Reopen it if the proposed use becomes evidential, status-bearing, access-related, source-facing, published, or cross-local, or if another change of use or audience exceeds this local settlement's scope.
 
 That sentence is the F.8 result. It needs no decision occurrence or result episteme. If a later claim must cite, replay, or assign accountability to the decision, use §4.5. No naming-decision governor is available in this case, so that branch returns `missing-governor` rather than inventing `ReviewerSystemRoleNamingDecision-2026-07-31`. C.11 applies only to a genuine local choice among available options. For any precise decision-making Work, A.13 first recovers the exact actual performer and A.15.1 independently admits the dated Work; F.6 follows only when the later claim expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
 

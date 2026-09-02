@@ -6,12 +6,12 @@ section_id: "A.9:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__006_archetypal-grounding.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:5 — Archetypal Grounding"
-line_start: 22562
-line_end: 22570
+line_start: 22576
+line_end: 22584
 dependencies:
   - "A.1"
   - "A.8"

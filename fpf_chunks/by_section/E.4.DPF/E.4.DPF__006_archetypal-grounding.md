@@ -6,12 +6,12 @@ section_id: "E.4.DPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__006_archetypal-grounding.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:5 — Archetypal Grounding"
-line_start: 71098
-line_end: 71170
+line_start: 71394
+line_end: 71466
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -78,8 +78,8 @@ Enterprise local-practice slice:
 | Constraints | Which regulatory, confidentiality, intellectual-property, tool-access, and security boundaries constrain publication? |
 | Stewardship and maintenance | Which Systems perform any framework-authoring, source-pack maintenance, relation-record maintenance, publication or access, or refresh occurrence that this account actually claims as `U.Work`? For each such claim, recover every precise performer's A.13 core and independently admit the Work under A.15.1. Add F.6 only when this account also needs precise assignment-bound attribution. Which separate local system-role classification, maintenance, responsibility, authority, access, or source-custody relation obtains, and which `missing-governor` result applies when one is required but absent? |
 | Approval route | Which management, engineering, safety, legal, or assurance reviews are needed before local use? |
-| Rollout and training | Which intended practitioners, audience groups, or independently classified Systems need first-use examples, training material, or migration support? The wording alone creates no system-role kind, assignment, training Work, responsibility, or authority. |
-| Dependency | Which FPF Core edition and domain framework edition are depended on, and which reverse dependency is blocked? |
+| Rollout and training | Which intended practitioners or audience groups need first-use examples, training material, or migration support? Identify any separately claimed training Work, system-role classification, assignment, responsibility, or authority through its direct pattern. |
+| Dependency | Which FPF Core and domain-framework editions does this framework depend on? For each dependency, name the exact relied-on content, direction, receiving use, material availability or compatibility condition, and reopen fact. |
 | Migration | What changes after FPF Core edition change, domain-framework edition change, policy change, or repeated local misuse? |
 | Adoption telemetry | Which reader errors, skipped relation records, stale source packs, or quality regressions trigger `G.11` refresh? |
 
@@ -90,15 +90,15 @@ Replayable authoring slice:
 | Domain or local use-frame declaration | `GreenhouseCropDomain`; effective scheme and ClaimScope named; intended reader: crop-system architect and senior grower; first use: decide the first pattern set for cucumber-production guidance; stop or wrong-turn return and qualification window explicit |
 | Selected source basis and synthesis route | `G.2` pack selected because the four-pattern framework needs a broad, refreshable source basis: greenhouse climate-control sources, crop nutrition sources, and local production logs; rejected source: generic gardening advice without controlled-environment evidence |
 | Architecture answer | One `E.9` DRR guided by `E.4.PFAD` records the field promised by the public name, the connected problem families and selected problem-family pattern sets, four candidate first patterns and their material relations, one representative application, honest omissions and source returns, and a one-way dependency on FPF Core; no PFAD relation or mandatory PFR row is created. |
-| Framework-scale boundary | The four patterns count as a candidate first-edition language only if their coverage map, material relations, representative application, and maintenance and refresh boundary make a new DPF edition more useful than contributing them to an existing framework, using FPF and the sources directly, publishing a guide, or maintaining no new result. One useful pattern would trigger the same test and would usually remain a seed or contribution. |
-| Several-structure synthesis | Greenhouse Work, control Methods, crop and equipment subjects, descriptions and models, provider capabilities, and production-practice change do not line up one-for-one. `C.32.MWA` therefore supplies one practice-architecture synthesis for the architecture answer without choosing whether to create a DPF or another maintained result. `E.23.CDI` is used only if the selected architecture includes capability development for a named Work family. |
+| Framework-scale boundary | The four patterns count as a candidate first-edition language only if their coverage map, material relations, representative application, and edition, change, and refresh boundary make a new DPF edition more useful than contributing them to an existing framework, using FPF and the sources directly, publishing a guide, or adding no new maintained product now. One useful pattern would trigger the same test and would usually remain a seed or contribution. |
+| Several-structure synthesis | Greenhouse Work, control Methods, crop and equipment subjects, descriptions and models, provider capabilities, and production-practice change do not line up one-for-one. `C.32.MWA` therefore supplies one practice-architecture synthesis for the architecture answer without choosing whether to create a DPF or another result. `E.23.CDI` is used only if the selected architecture includes capability development for a named Work family. |
 | First-use closure | Every selected Hydroponic Cucumber pattern and same-framework prerequisite needed for the grower's first use is included. The exact FPF Core edition and relied-on content remain external and are named with their use, direction, reason, refresh condition, and any required availability or compatibility result. A missing required result blocks first use. |
 | Contribution destinations and claim strength | Each adopted or rejected source contribution has one stated outcome: it enters a DPF pattern, returns to an existing FPF or DPF, stays in a maintained guide or source result, is used directly from its source, or is deliberately not maintained together with an observation that would reopen the choice. Conceptual synthesis may support a candidate architecture claim, but it is not reported as demonstrated effectiveness or transfer. |
 | Naming route | provisional `HydroponicCucumberPrincipleFramework`; the public abbreviation remains provisional until an `F.18` NameCard is current |
 | First pattern draft | `HC.NutrientMonitoring` drafted with `E.8`: problem frame, solution, worked greenhouse slice, SoTA row, conformance checks |
 | Relation and edition record | `PFR-HC-source-reuse` links nutrient pattern to source pack; dependency record points to `FPFCorePatternSet@current` |
 | Quality cycle | `E.22` frames evaluation purpose; `E.21` scores first draft; `E.23` records the next improvement loop |
-| Local publication or access | framework readme, table of contents, skill pack, or MCP-backed access route exposes the framework after source-return notes are present |
+| Local publication or access | one exact form-bearing publication or access-facing carrier exposes the framework after source-return notes are present; any access route is named separately |
 | Refresh route | `G.11` refresh when source pack, Core edition, or greenhouse-control practice changes |
 
 #### Pattern-address and reorder slice

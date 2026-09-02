@@ -6,12 +6,12 @@ section_id: "A.1.CSD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__006_forces.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:3 — Forces"
-line_start: 2613
-line_end: 2623
+line_start: 2617
+line_end: 2627
 dependencies:
   - "A.1"
   - "A.1.SCR"

@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__003_problem-frame.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:1 — Problem frame"
-line_start: 60048
-line_end: 60055
+line_start: 60326
+line_end: 60333
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,6 +42,7 @@ dependencies:
   - "E.18"
   - "E.8"
   - "F.18"
+  - "F.19"
   - "G.5"
   - "G.6"
   - "I.2"
@@ -54,5 +55,5 @@ Architecture and engineering sources use compact labels because they work in loc
 
 These words are good recognition cues but poor stand-alone kinds. The same label can point to a selected structure, module relation, control relation, transformation-flow element, characteristic or scale, publication grouping, state, evidence claim, decision, or nothing beyond ordinary prose.
 
-The repair question is simple: what does the label name in this sentence, what stronger reading must be blocked, and which existing pattern supplies the needed definition, constraint, or test?
+The repair question is simple: what does the label name in this sentence, what use does the recovered claim support, and which existing pattern supplies the needed definition, constraint, or test?
 

@@ -6,17 +6,18 @@ section_id: "C.29:5"
 section_title: "Neighboring-pattern boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__007_neighboring-pattern-boundaries.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:5 — Neighboring-pattern boundaries"
-line_start: 57779
-line_end: 57796
+line_start: 58057
+line_end: 58074
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
   - "A.15.4"
   - "A.19"
   - "A.3.3"
@@ -46,6 +47,7 @@ dependencies:
   - "E.19"
   - "E.8"
   - "E.9"
+  - "F.19"
   - "F.9"
   - "G.10"
   - "G.2"
@@ -80,7 +82,7 @@ Neighboring patterns remain necessary and are not displaced. A retained neighbor
 - `C.26` handles one specific quantum-like lens family.
 - `C.28` handles causal-use question and verdict.
 - `A.10` and `B.3` handle evidence and assurance.
-- `C.11`, `A.15`, `A.15.1`, and `A.15.4` handle choice results, method and work separation, work plans, performed work, and work-relevant appearance-based reliance repair.
+- `C.11`, `A.15`, `A.15.1`, `A.15.2`, and `A.15.4` handle choice results, method and work separation, work plans, performed work, and work-relevant appearance-based reliance repair.
 - `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, and `A.6.3.CSC` handle explanation-facing renderings, bounded comparative review units, same-EntityOfConcern representation-scheme transitions, and controlled semantic coarsening.
 - `C.27.TA` handles temporal aspects; `C.27` handles temporal-claim adequacy.
 

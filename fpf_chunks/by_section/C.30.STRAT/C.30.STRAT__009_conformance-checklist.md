@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__009_conformance-checklist.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:7 — Conformance checklist"
-line_start: 60209
-line_end: 60225
+line_start: 60489
+line_end: 60505
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,6 +42,7 @@ dependencies:
   - "E.18"
   - "E.8"
   - "F.18"
+  - "F.19"
   - "G.5"
   - "G.6"
   - "I.2"
@@ -53,7 +54,7 @@ keywords:
 | ID | Check |
 | --- | --- |
 | `CC-C30STRAT-1` | The source word remains a source label until an object, relation, claim, or ordinary non-use is recovered. |
-| `CC-C30STRAT-2` | The result names the bounded sentence, recovered meaning, needed participants or bearer, repaired wording, allowed use, next action, and stop or return condition; a grounded overread is optional. |
+| `CC-C30STRAT-2` | The result names the bounded sentence, recovered meaning, any actual participants or bearer needed by the claim, repaired wording, allowed use, next action, and stop or return condition; an optional blocked overread passes F.19's plausible-reader test. |
 | `CC-C30STRAT-3` | No universal kind is minted for layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or stratification. |
 | `CC-C30STRAT-4` | The recovered meaning selects the applicable rule; the label and C.30 placement do not. |
 | `CC-C30STRAT-5` | A known object or relation uses its pattern directly, without a restoration detour. |

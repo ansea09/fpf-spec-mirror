@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__012_sota-echoing.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:10 — SoTA-Echoing"
-line_start: 44991
-line_end: 45005
+line_start: 45270
+line_end: 45284
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,17 +6,18 @@ section_id: "C.29:0"
 section_title: "First-use card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__002_first-use-card.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:0 — First-use card"
-line_start: 56992
-line_end: 57006
+line_start: 57271
+line_end: 57285
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
   - "A.15.4"
   - "A.19"
   - "A.3.3"
@@ -46,6 +47,7 @@ dependencies:
   - "E.19"
   - "E.8"
   - "E.9"
+  - "F.19"
   - "F.9"
   - "G.10"
   - "G.2"
@@ -79,7 +81,7 @@ Use this card before the full card. It is enough for the first use pass unless p
 | What concrete mathematical object, formal position, learned representation, simulation object, or local formalism is being used? | Name `CandidateMathObject`; broad family names are prompts only. |
 | What structure is preserved? | Name `PreservedStructure`. |
 | What structure is lost or deliberately ignored? | Name `LostStructure`; empty loss needs equivalence or isomorphism justification. |
-| What tempting inference does this lens not license? | Name `StopCondition`; no stop condition means no C.29 result can carry a declared lens use. |
+| When should this lens use narrow, stop, or return to another source or pattern? | Name `StopCondition`; a declared lens use requires that concrete condition. |
 
 Start with the useful lens decision: choose, apply, bound, replace, or remove a mathematical lens when the mathematical structure changes explanation, decision, prediction, comparison, publication, bridge, assurance input, reusable transfer, or the next lens-use repair. If no next lens-use action changes, keep ordinary prose or write `NoMathLensUseNeededNote`. If state, transition, measurement, causal use, bridge semantics, temporal adequacy, assurance, selector, benchmark, or release is the claim being made, apply the governing FPF pattern and keep C.29 to the mathematical-lens use part.
 

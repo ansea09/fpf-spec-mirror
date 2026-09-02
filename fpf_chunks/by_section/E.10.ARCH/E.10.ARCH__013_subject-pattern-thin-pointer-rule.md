@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:7"
 section_title: "Subject-pattern thin-pointer rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__013_subject-pattern-thin-pointer-rule.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:7 — Subject-pattern thin-pointer rule"
-line_start: 77123
-line_end: 77147
+line_start: 77458
+line_end: 77475
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -67,7 +67,7 @@ keywords:
 
 ### E.10.ARCH:7 - Subject-pattern thin-pointer rule
 
-Subject patterns keep at most one local first-use cue when the EntityOfConcern under repair, relation, claim, or field is hidden, then name the selected precision-restoration pattern as a pattern through ordinary references or `Relations`. They do not turn that reference into local reference boilerplate, and they do not copy:
+Subject patterns keep the minimum local first-use cues needed to resolve independent hidden questions about the EntityOfConcern, relation, claim, or field, then name the selected precision-restoration pattern through ordinary references or `Relations`. They do not turn that reference into local reference boilerplate, and they do not copy:
 
 - the full `E.10` wording-recognition table;
 - this shared algorithm;
@@ -75,18 +75,11 @@ Subject patterns keep at most one local first-use cue when the EntityOfConcern u
 - broad false-friend lists whose only job is first-stage repair;
 - past placement or repair history written in place of current architecture prose.
 
-A thin pointer is acceptable when it helps the working reader choose the right first move, for example:
+A thin pointer is acceptable when it helps the working reader choose the right first move. Illustrative cases:
 
-- use `C.30.P` when architecture or structure wording hides whether the use under repair is selected structure, architecture-description use, structural-view use, source, model, diagram, graph, dashboard, or ordinary prose;
-- use `C.30.STRAT` when `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, or a close source label hides the exact FPF kind, relation, claim-use, source-relation disposition, or ordinary source-wording use; add a non-use boundary only when `F.19` finds it independently grounded;
-- use `C.16.P` when metric, score, axis, dimension, feature, property, indicator, strong, weak, robust, level, coordinate, threshold, or comparison wording hides characteristic or scale construction;
-- use `C.16.Q` when quality or evaluative characterization wording hides Q-bundle, pattern-quality coordinate, relation construction, action-invitation, bridge, or characterization use named by value;
-- use `E.10.MOVE` while `readiness` or `ready` still hides which governed value is meant; use `A.19.SPR` for `state`, `status`, `posture`, `stance`, `currentness`, or a readiness case returned by E.10.MOVE only while its exact object or state frame remains hidden;
-- use `C.2.P` when source, publication, publication form, face, `PublicationUnit`, dashboard, documentation, or text-work wording hides source-currentness relation or project-side reliance;
-- use `A.3.1` only while method, algorithm, program, proof, solver, workflow, process, procedure, access-path, query-plan, control-strategy, method-algebra, method-graph, selector-calculus, or programming-paradigm wording still hides one exact `U.Method` or a separately current one-method `U.MethodDescription`, mechanism, plan, dated Work, transformation, result, structure, architecture, representation, or direct relation; then use that object's defining or testing rule;
-- use `E.10.ROLE` when bare claim-bearing *role* hides its work-facing or use-facing object; use `A.6.RSIR` when relation, signature, interface, assignment, enactment, slot, field, parameter, argument, endpoint, port, API, protocol, connector, capability, affordance, method, function, concern, or interest wording hides the current direct relation, declaration, interface, operation, representation position, or claim kind and no defining or testing rule is yet clear;
+- Use `E.10.ROLE` while bare claim-bearing *role* hides its work-facing or use-facing object; return to the object's rule once it is clear.
+- Use `C.30.STRAT` while a stratification source label hides the FPF kind, relation, or claim-use; return the recovered claim to its defining or testing rule.
+- Use `A.6.P.WMR` only while an exact Method or Work boundary relation remains hidden after generic relation recovery. Use `C.2.P` first for an epistemic source side and bypass restoration when the direct rule is clear.
 
-- use `A.6.P.WMR` only while input, raw-material, source-data, source-material, output, result, outcome, deliverable, handoff, or work-name wording still hides one exact Method, plan, Work, transformation, result, delivery, transfer, representation, or receiving-use relation; use `C.2.P` first for the epistemic source side, bypass to the defining or testing rule when clear, and never close through classification or a merely type-correct designation;
-- use `C.2.P.DR` when a declarative representation, graph relation, evidence-path wording, publication face, checklist predicate, query, dashboard, or pattern relation is being overread as an imperative route, call, dispatch, work sequence, permission, release, evidence result, or pattern application;
-- for admissibility-like, legal, lawful, validity, pass-looking, fail-looking, readiness, conformance, or authority wording, use the recovered claim's defining or testing rule; use E.10.MOVE first while readiness-like wording still hides that claim, and use A.19.SPR only when a hidden state-family object or frame remains;
+The full routing conditions remain in `E.10:0.2a` and the applicability table in section 4. A subject pattern keeps only the pointer needed for its current ambiguity.
 

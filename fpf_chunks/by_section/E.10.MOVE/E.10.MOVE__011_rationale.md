@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__011_rationale.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:10 — Rationale"
-line_start: 76823
-line_end: 76828
+line_start: 77167
+line_end: 77174
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -53,7 +53,9 @@ keywords:
 
 ### E.10.MOVE:10 - Rationale
 
-Move-, route-, readiness-, and trajectory-like wording is too useful to ban and too ambiguous to leave ungoverned. `E.10.MOVE` gives a narrow restoration path: recover the governed text span, claim, bearer or represented subject when relevant, posture, and object under wording repair; classify borrowed or ordinary wording; name the governed FPF value; preserve reader use; and apply the pattern that defines or constrains that value.
+Familiar move, route, readiness, and trajectory wording can hide different governed claims. `E.10.MOVE` gives a narrow restoration path: recover the governed text span, claim, bearer or represented subject when relevant, posture, and object under wording repair; classify borrowed or ordinary wording; name the governed FPF value; preserve the remaining admissible reader use; and apply the pattern that defines or constrains that value.
 
-Use this wording restoration when move-, readiness-, route-, path-, or trajectory-like language still hides the claim a practitioner must inspect or use. The mantra and readiness branches retain their direct owners. The trajectory branch preserves ordinary wording, separates actual, modelled, proposed, planned, population, archive, and representation postures, and returns to the subject pattern or exact gap. `E.10.DEV` coordinates only when development or evolution still carries an independent ambiguity. Recommendation, transformation, readiness, gate, publication, choice, plan, and Work claims remain with their direct patterns.
+The pattern is a child of E.10 because it starts as wording-use restoration and returns to the direct owner once the claim and remaining use are recovered. Its mantra branch routes an admitted demonstrative use through one A.22.CGUS and its E.11.PUA continuation description, a Plain local use to its bounded result's direct pattern, and a Plain long use to the subject pattern of the current map answer or stop. Evaluation-movement wording uses E.23 for a separate prediction about a later evaluation result.
+
+The trajectory branch separates the subject from posture, ordering, and representation and returns to the subject pattern or exact gap. `E.10.DEV` coordinates only when development or evolution still carries an independent ambiguity. Recommendation, transformation, readiness, gate, publication, choice, plan, and Work claims remain with their direct patterns.
 

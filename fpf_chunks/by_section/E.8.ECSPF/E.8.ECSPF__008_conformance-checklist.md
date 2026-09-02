@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__008_conformance-checklist.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
   - "E.8.ECSPF:7 — Conformance Checklist"
-line_start: 73680
-line_end: 73699
+line_start: 73970
+line_end: 73989
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -38,7 +38,7 @@ keywords:
 | `CC-E8ECSPF-5a` | The publication form SHALL prohibit an undeclared total or average over ordinal coordinates. Any admitted scalarization SHALL name its method, declared use, information loss, applicability, and stop or return condition. | Prevents a convenient number from replacing the evaluation. |
 | `CC-E8ECSPF-5b` | When one visible value improves, the evaluation use SHALL check whether an intended value or protected trade-off worsened and SHALL stop or reopen when the evaluation would reward that loss. | Blocks proxy improvement and Goodhart-style degradation. |
 | `CC-E8ECSPF-6` | When the publication form makes an outside claim, `Relations` SHALL cite the applicable `PatternID` and state its concrete contribution in ordinary language. The contribution is not limited to a fixed verb list. A pattern citation SHALL NOT be retyped as a Method or MethodDescription. Simple relations stay free of phrase apparatus, and architecture-placement reasoning stays out of publication-form evaluation prose. | Prevents a second ontology or apparatus-overwrapped publication form. |
-| `CC-E8ECSPF-6a` | Wording, naming, or precision-restoration repairs in an evaluation-characteristic-space pattern SHALL check the evaluated object, relation or claim kind, live ontic slot, relation position, use relation, admissible use, and scope before and after the repair. For a claim outside this pattern, cite the applicable pattern id and state its concrete contribution. Require a particular assertion, episteme edition, `ClaimGraph`, `U.Method`, qualifying `U.MethodDescription`, or Method use only when its admission test passes and the receiving claim depends on that identity. | Prevents evaluation patterns from inheriting lexical cleanup as ontology drift or locator use as formal identity. |
+| `CC-E8ECSPF-6a` | Wording, naming, or precision-restoration repairs SHALL follow `F.19`. When a repair can change an FPF-governed meaning, it SHALL check the evaluated object and its kind, relation or claim kind, live ontic slot, relation position, use relation, admissible use, and scope before and after the repair, as applicable to the changed claim. For a claim outside this pattern, cite the applicable pattern id and state its concrete contribution. Require a particular assertion, episteme edition, `ClaimGraph`, `U.Method`, qualifying `U.MethodDescription`, or Method use only when its admission test passes and the receiving claim depends on that identity. | Prevents evaluation patterns from inheriting lexical cleanup as ontology drift or locator use as formal identity. |
 | `CC-E8ECSPF-7` | If the authored publication form is under improvement, `E.21` SHALL evaluate FPF pattern-version quality separately from the evaluation's evaluated object result. | Keeps pattern quality distinct from evaluated object quality. |
 | `CC-E8ECSPF-8` | An author SHALL not turn a local, temporary, or one-project evaluation specification into an FPF pattern unless its reuse scope is durable and the patterns used for outside claims are named with their concrete contributions. | Blocks needless pattern growth. |
 | `CC-E8ECSPF-9` | The publication form SHALL state what would lower, reopen, or retire the accepted specification or the guidance that carries it: changed object kind or object version, changed use, reader, or qualification window, changed use of a cited source, changed source adoption, adaptation, or rejection decision, missing contrast case, coordinate-value drift, missingness or comparison-rule change, or a correction to an exit or outside claim. | Makes maintenance of the pattern testable. |

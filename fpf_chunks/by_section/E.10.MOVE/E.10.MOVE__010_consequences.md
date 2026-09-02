@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__010_consequences.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:9 — Consequences"
-line_start: 76809
-line_end: 76822
+line_start: 77153
+line_end: 77166
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 Benefits:
 
 - FPF keeps friendly move, readiness, route, path, and trajectory language without letting it mint false kinds.
-- A trajectory sentence can return an actual, modelled, proposed, planned, population or lineage, archive or search, mathematical-lens, specialized-account, ordinary, or blocked claim instead of a generic trajectory record.
+- A trajectory sentence reaches its direct claim owner or exact gap. Subject, posture, ordering, and representation are recovered separately where the use needs them.
 - Pattern-use recommendation, P2W, work readiness, gate decision, performed work, transformation, architecture, and call planning stay separable.
 - Corpus cleanup can find move-headed debt without doing mechanical global renames.
 

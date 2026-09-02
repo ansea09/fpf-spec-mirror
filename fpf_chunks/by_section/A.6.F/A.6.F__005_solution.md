@@ -6,12 +6,12 @@ section_id: "A.6.F:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__005_solution.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:4 — Solution"
-line_start: 18413
-line_end: 18675
+line_start: 18425
+line_end: 18689
 dependencies:
   - "A.10"
   - "A.15"
@@ -90,7 +90,7 @@ If none of those readings carries a current FPF claim, the wording may remain or
 
 #### A.6.F:4.2 - FunctionUseRepair
 
-`FunctionUseRepair` is a pattern-local repair note. Its `functionLikeReadingUnderRepair` value only helps a reader recognize and dispatch a possible reading; neither that value nor the three scan groups below is a `U.*` kind, claim kind, relation kind, or admission result. The recovered result belongs in `exactGovernedObjectOrClaim` under its subject pattern. The note carries no project-publication, evidence, decision, or `U.Function` authority. `FunctionalStructure` is an `ArchitectureStructureKindRef` value under C.30.ASV, not a kernel Function kind.
+`FunctionUseRepair` is an optional pattern-local repair note for a receiving use that needs inspectable detail. Its `functionLikeReadingUnderRepair` value only helps a reader recognize and dispatch a possible reading; neither that value nor the three scan groups below is a `U.*` kind, claim kind, relation kind, or admission result. The recovered result belongs in `exactGovernedObjectOrClaim` under its subject pattern. The note carries no project-publication, evidence, decision, or `U.Function` authority. `FunctionalStructure` is an `ArchitectureStructureKindRef` value under C.30.ASV, not a kernel Function kind.
 
 ```text
 FunctionUseRepair ::= {
@@ -185,14 +185,16 @@ FunctionUseRepair ::= {
 
   sourceCueText?,
   subjectPatternApplicationRefs?,
-  blockedLocalOverreadRefs,
+  blockedLocalOverreadRefs?,
   admissibleUse,
-  nonAdmissibleUse,
+  nonAdmissibleUse?,
   nextAdmissibleUse,
   stopCondition
 }
 ```
-The repair is complete when a practitioner can name the exact object or claim, apply its subject pattern, and state the remaining action. At least one exact entity or value, claim or claim content, or claim-bearing episteme is required in `exactGovernedObjectOrClaim`. A source cue stays in `sourceCueText`; it is not a recovered value. When a direct relation is current, first name its admitted kind, semantic predicate, and actual participants in `directRelationPredicateUse`. Add `relationalAssertionUse` only when one exact `C.2.1` episteme affirms, denies, or otherwise modalizes that predicate. Add `obtainingRelationOccurrenceUse` only when the receiving use needs one separately individuated obtaining occurrence under the subject pattern's identity rule, applied through `A.6.REL`; a predicate or assertion never supplies occurrence identity. Add a reusable `RelationSignature` and declaration-local `SlotSpec`s only for reusable typed use; add another selected assertion, specification, or view episteme only when it is a separate claim-bearing object; add a C.29 representation element and explicit correspondence only when representation matters. If the text still hides a function, capability, work, method, system-role kind or assignment, participation, functioning, responsibility, module, evidence, gate, or mathematical-function collapse, the repair is incomplete.
+The repair is complete when a practitioner can name the exact object or claim, apply its subject pattern, and state the remaining action. When a note is needed, at least one exact entity or value, claim or claim content, or claim-bearing episteme is required in `exactGovernedObjectOrClaim`. A source cue stays in `sourceCueText`; it is not a recovered value. When a direct relation is current, first name its admitted kind, semantic predicate, and actual participants in `directRelationPredicateUse`. Add `relationalAssertionUse` only when one exact `C.2.1` episteme affirms, denies, or otherwise modalizes that predicate. Add `obtainingRelationOccurrenceUse` only when the receiving use needs one separately individuated obtaining occurrence under the subject pattern's identity rule, applied through `A.6.REL`; a predicate or assertion never supplies occurrence identity. Add a reusable `RelationSignature` and declaration-local `SlotSpec`s only for reusable typed use; add another selected assertion, specification, or view episteme only when it is a separate claim-bearing object; add a C.29 representation element and explicit correspondence only when representation matters. If the text still hides a function, capability, work, method, system-role kind or assignment, participation, functioning, responsibility, module, evidence, gate, or mathematical-function collapse, the repair is incomplete.
+
+Preserve the subject's necessary applicability and stop conditions in the repaired claim. Add `blockedLocalOverreadRefs` or `nonAdmissibleUse` as an explanatory guard only under F.19:4's full independent-ground, plausible-reader, contribution, and smallest-clear-correction test. An unused guard may be omitted without an absence entry.
 
 #### A.6.F:4.3 - Repair assignments
 
@@ -238,7 +240,7 @@ The view keeps requirement, required-behavior/effect, capability, dependency, an
 
 #### A.6.F:4.5 - Function-flow-module alignment note
 
-Use this note when functional wording touches flow or module allocation but does not yet require a full structural view or `A.6.M` module-relation repair.
+Recover the local alignment when functional wording touches flow or module allocation but does not yet require a full structural view or `A.6.M` module-relation repair. Use this note only when the receiving use needs an inspectable alignment record; otherwise state the recovered alignment and boundary in the repaired wording.
 
 ```text
 FunctionFlowModuleAlignmentNote:
@@ -249,10 +251,10 @@ separateNeighborClaims:
 known mismatch:
 subjectPatternApplicationRefs:
 admissible use:
-non-admissible use:
+non-admissible use?:
 ```
 
-The note records only the local function-flow-module alignment and boundary. Functional architecture, module relation, implemented-interface, evidence-sufficiency, and architecture-decision claims remain with their subject patterns.
+The note records only the local function-flow-module alignment and boundary. Its explanatory non-admissible-use guard is optional under the full F.19:4 test and needs no absence entry when unused. Functional architecture, module relation, implemented-interface, evidence-sufficiency, and architecture-decision claims remain with their subject patterns.
 
 #### A.6.F:4.6 - Common kind and relation separations
 
@@ -309,7 +311,7 @@ A.6.F defines no separate quality-composition record. Use the claim form supplie
 - `Motor-M1 drives PumpAssembly-A during PumpRun-17` needs a direct motor-drive-functioning predicate. Assignment, torque capability, and pumping Work remain separate; without that predicate return `A.6.RCD missing-governor[direct motor-drive-functioning relation]`.
 - `Hammer-3 supports PaperStack-9 during Interval-P` needs a direct artifact-support predicate. Do not replace that exact claim with an interchangeable list of use, load, support, or function kinds; without the predicate return `A.6.RCD missing-governor[direct artifact-support relation]`.
 
-**Functional architecture phrase.** A team says, "the functional architecture is the user journey." A.6.F does not let the phrase create a separate architecture kind. The repair is:
+**Functional architecture phrase.** A team says, "the functional architecture is the user journey." A.6.F does not let the phrase create a separate architecture kind. For a receiving use that needs inspectable detail, the repair can be recorded as:
 
 ```text
 FunctionUseRepair:
@@ -318,7 +320,7 @@ functionLikeReadingUnderRepair: functionalArchitecture
 exactGovernedObjectOrClaim: the `ArchitectureOf@Context` claim record and its one selected functional `U.Structure`
 selectedClaimBearingEpistemeUse: the exact `ArchitectureStructuralView` episteme whose `EntityOfConcern` is that structure, plus any exact C.2.1 `FunctionalElementClaim` epistemes cited by the use
 subjectPatternApplicationRefs: C.30; C.30.ASV
-blockedLocalOverreadRefs: functional-element individual, user journey publication, work log, selected transformation-flow structure, mathematical graph description, module diagram
+blockedLocalOverreadRefs: the source claim "the functional architecture is the user journey"
 nextAdmissibleUse: when the view changes action, use `FunctionalStructureViewUse` to cite the view, exact claim epistemes, and only separately established bearer, capability, port, allocation, or correspondence values
 stopCondition: ordinary phrasing remains Plain when no architecture claim is made; requirement-only material remains a claim; an actual transformation appears only on an independent A.3.4 basis
 ```

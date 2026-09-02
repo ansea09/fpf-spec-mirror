@@ -6,12 +6,12 @@ section_id: "A.3.4.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__012_sota-echoing.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:11 — SoTA-Echoing"
-line_start: 9895
-line_end: 9906
+line_start: 9902
+line_end: 9913
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -40,6 +40,7 @@ dependencies:
   - "E.20"
   - "E.24"
   - "E.8"
+  - "F.19"
 keywords:
 ---
 

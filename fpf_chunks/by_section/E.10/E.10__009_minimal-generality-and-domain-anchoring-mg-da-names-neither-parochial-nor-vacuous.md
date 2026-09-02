@@ -6,12 +6,12 @@ section_id: "E.10:7"
 section_title: "Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__009_minimal-generality-and-domain-anchoring-mg-da-names-neither-parochial-nor-vacuous.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:7 — Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
-line_start: 75435
-line_end: 75531
+line_start: 75765
+line_end: 75861
 dependencies:
   - "A.10"
   - "A.15"
@@ -140,7 +140,7 @@ Prefer **object‑anchored heads** to metaphors. If a metaphor is unavoidable, e
 **SF‑3 (Form, SHOULD).** Prefer typographic separators (**MG-DA**) to fused acronyms (**MGDA**). Use the fused form only in code or identifiers where punctuation is disallowed, and only after registration.
 
 #### E.10:7.8 - Examples (illustrative, canonical)
-Prefer **`U.PromiseContent`** (promise) over *BusinessService*; **`U.Capability`** over *Function*; **`U.Dynamics`** over *NaturalProcess*. Replace *ScheduleProcess* with `U.WorkPlan` only when one episteme passes A.15.2: one present EntityOfConcern, one horizon, at least one `PlanItem`, and substantive coordination claims about possible future performed work. Otherwise retain the schedule representation, planning cue, or other recovered construction.
+For *BusinessService* wording, use **`U.PromiseContent`** when the recovered claim concerns promised content; for *Function* wording, use **`U.Capability`** when it concerns a system's ability; for *NaturalProcess* wording, use **`U.Dynamics`** when it concerns a law of change. Each recovered claim must satisfy its subject pattern. Replace *ScheduleProcess* with `U.WorkPlan` only when one episteme passes A.15.2: one present EntityOfConcern, one horizon, at least one `PlanItem`, and substantive coordination claims about possible future performed work. Otherwise retain the schedule representation, planning cue, or other recovered construction.
 Do **not** mint *ETLService* at kernel level. Recover the ETL claim first: the way of doing may be one `U.Method`; a separately identified claim-bearing episteme may be `U.MethodDescription` only when that method is its EntityOfConcern and the A.3.2 substantive-description threshold is met. An ETL label, pipeline diagram, code expression, mechanism, work plan, dated Work occurrence, or API publication establishes neither membership. If a relied-on *service* use still hides another subject or relation, apply L-SERV and A.6.P:4.11a and name the recovered claim; the suffix alone requires no promise, access, acceptance, Work, or publication branch.
 
 #### E.10:7.9 - Acceptance and regression checks (LEX and USM)

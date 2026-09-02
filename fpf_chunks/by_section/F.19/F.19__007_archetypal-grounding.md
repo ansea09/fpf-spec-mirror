@@ -6,12 +6,12 @@ section_id: "F.19:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__007_archetypal-grounding.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:5 — Archetypal Grounding"
-line_start: 100216
-line_end: 100240
+line_start: 100578
+line_end: 100609
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -35,20 +35,27 @@ keywords:
 
 ### F.19:5 - Archetypal Grounding
 
-This bounded regression set keeps one distinct semantic or use boundary per row. It is not a vocabulary of prohibited forms.
-
+These cases show repairs and situations in which ordinary wording should remain.
 
 | Case | Before | Repair or disposition |
 |---|---|---|
-| Ordinary versus identity-bearing pattern use | “`A.15` handles the work-planning claim” or “the pattern performed the planning.” | For ordinary guidance write “Use `A.15` to plan the work.” If the sentence deliberately asserts a dated Work occurrence, name its capable participant and recover the Work basis before attribution. |
-| Publication and evidence kind | “The dashboard is the evidence gate.” | “The dashboard presents evidence. Use `A.10` for the evidence claim and `A.21` for any gate decision.” |
-| Operational-detail loss | “Rewrite ‘Boil for five minutes after simmer begins’ as ‘Cook until ready’.” | Reject the rewrite. It loses the duration, start condition, and usable stop criterion. |
-| Invented foil | “The concluding practical result is not a final scheme of the world, but the ability to problematize again.” | No live world-scheme reading is grounded. Write: “The concluding practical result is the ability to problematize again and choose the next move deliberately.” |
+| Pattern use, ordinary | "`A.15` handles the work-planning claim." | "Use `A.15` to plan the work." |
+| Pattern use, identity-bearing | "The pattern performed the planning." | "Engineer E performed planning Work W. Point to W's basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution; use `A.3.2` only if a named episteme describes the enacted Method." |
+| Pattern and relation, ordinary | "The governing relation is `C.29`." | "Use `C.29` to test whether the mathematical lens is admissible for this task." |
+| Pattern and relation, identity-bearing | "`C.29` says so." | "If a comparison depends on the rule edition, cite the claim-bearing episteme and `ClaimGraph` that contain the admissibility rule." |
+| Pattern-text purpose | "Pattern text must not contain corpus projection evidence." | "A pattern must not contain projection evidence about itself." |
+| Evaluation scope | "The evaluation has pre-landing host-set use." | "This is a host-only evaluation; corpus-entry values need corpus-projection evidence." |
+| Unsupported negative classification | "This Guide is not a seminar, not a transcript, but a learning route." No seminar-or-transcript confusion has been established. | "This Guide teaches the seminar's subject through explanations, examples, exercises, and checks." |
+| Role-shaped label | "The platform owns scale." | "This scale compares platform and non-platform alternatives." |
+| Publication and evidence mix | "The dashboard is the evidence gate." | "The dashboard presents evidence. Use `A.10` for the evidence claim and `A.21` for any gate decision." |
+| Comparison, carrier, and publication mix | "E.4.PFIP preserves expression, carrier, and publication." | "The framework maintainer compares the predecessor and candidate publication expressions for the declared use. Use `E.10:0.2c.17` to separate the expression comparison from carrier-bearing and publication-occurrence claims." |
+| Operational-detail loss | "Rewrite 'Boil for five minutes after simmer begins' as 'Cook until ready'." | "Reject the rewrite. It keeps a broad cooking action but loses the five-minute duration, start condition, and usable stop criterion." |
+| Invented foil | “The concluding practical result is not a final scheme of the world, but the ability to problematize again.” | No live world-scheme reading is grounded. Write: “The concluding practical result is the ability to problematize again.” |
 | Denied impossible agency | “The evidence does not notice the error and does not begin a new cycle.” | Evidence supplies grounds; a reader or system evaluates them. Write: “New evidence gives the reader grounds to check or revise the first distinction and decide whether to reopen the work.” |
 | Unsupported currentness guard | “Historical modality does not turn the seminar claims into the current FPF norm.” | State the dated source and current-use action: “This guide conveys the seminar of 1 February 2026; check current rules against the current FPF edition.” |
 | Missing operation operand | “Take the mixture and then pour.” | If the object or destination is not uniquely recoverable, restore it: “Pour the mixture into the flask.” |
 | Incomplete relational noun | “Give the bearer to the next stage.” | Name what is borne and the transfer relation, or use the ordinary domain noun. |
-| False common head | “The method selects, publishes, and evaluates the alternatives.” | Split the claims and name the capable actors or exact relations. Do not invent one subject merely to keep the sentence symmetrical. |
+| False common head | “The method selects, publishes, and evaluates the alternatives,” where the text combines unrelated activities and supplies no common Method or capable participant. | Recover the separate claims and participants. When the context instead supplies one Method and its capable executor, the same wording may be ordinary metonymy; the verb list alone is not a defect. |
 | Catalogue instead of proposition | “Goals and objectives, forms and methods, quality and efficiency are supported.” | State the actual capability or decision. Keep only members with distinct consequences. |
 | Illustrative list read as classification | A bare plural head is followed by many instances with no signal that the list is partial. | Put the proposition or kind first, mark the cases as examples when completeness is plausibly ambiguous, and retain only representative cases. |
 | Delayed governing event | An emergency report describes birds, wind, birches, heat, mist, and animals before saying that a house-museum is burning and a fire engine is no longer needed. | Put the event, location, safety consequence, and requested response first. Keep only detail that changes dispatch, safety, evidence, or identification. |

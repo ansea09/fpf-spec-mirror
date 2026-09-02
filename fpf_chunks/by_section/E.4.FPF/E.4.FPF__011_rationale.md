@@ -6,12 +6,12 @@ section_id: "E.4.FPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__011_rationale.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:10 — Rationale"
-line_start: 70356
-line_end: 70361
+line_start: 70652
+line_end: 70657
 dependencies:
   - "C.33"
   - "C.34"
@@ -40,7 +40,7 @@ keywords:
 
 ### E.4.FPF:10 - Rationale
 
-FPF is structurally close to a principle framework, but it is not a DPF. Its domain is not hydroponics, narrativization, architecture review, or enterprise practice. Its burden is to carry first-principles distinctions that can seed and discipline many domain and local frameworks.
+FPF carries transdisciplinary first-principles distinctions that can seed and discipline many domain and local frameworks. Those frameworks supply their own domain or local subjects and practices.
 
-That makes FPF form a real architecture concern. If publication units, forms, exact presentation carriers, and access routes are not separated from one another and from the framework edition, adoption work can silently create new authorities. If DPF scales are reused for FPF, the evaluation asks the wrong question. If whole-FPF adequacy is reduced to local pattern quality, the corpus can become locally polished and globally weaker.
+That makes FPF form a real architecture concern. Separate publication units, forms, exact presentation carriers, access routes, and the framework edition so adoption work returns authority to the subject patterns. `E.4.DPF.DA` answers the DPF package question; `E.21` evaluates individual patterns; and `E.2.DA` evaluates whole-FPF adequacy.
 

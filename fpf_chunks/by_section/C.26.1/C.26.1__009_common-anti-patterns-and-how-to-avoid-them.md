@@ -6,12 +6,12 @@ section_id: "C.26.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 54721
-line_end: 54730
+line_start: 55000
+line_end: 55009
 dependencies:
   - "A.1.1"
   - "A.10"

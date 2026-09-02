@@ -6,12 +6,12 @@ section_id: "C.27.TA:End"
 section_title: "C.27.TA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__014_c-27-ta-end.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:End — C.27.TA:End"
-line_start: 56207
-line_end: 56208
+line_start: 56486
+line_end: 56487
 dependencies:
   - "A.10"
   - "A.15.1"

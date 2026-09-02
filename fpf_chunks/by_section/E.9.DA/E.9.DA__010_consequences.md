@@ -6,12 +6,12 @@ section_id: "E.9.DA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__010_consequences.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:9 — Consequences"
-line_start: 74515
-line_end: 74524
+line_start: 74807
+line_end: 74816
 dependencies:
   - "A.19.ECS"
   - "E.10"

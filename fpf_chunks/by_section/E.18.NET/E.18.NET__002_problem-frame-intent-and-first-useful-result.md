@@ -6,12 +6,12 @@ section_id: "E.18.NET:1"
 section_title: "Problem frame — intent and first useful result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__002_problem-frame-intent-and-first-useful-result.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:1 — Problem frame — intent and first useful result"
-line_start: 87080
-line_end: 87125
+line_start: 87419
+line_end: 87465
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -60,7 +60,8 @@ selectedNetworkConstraintRefs[]: exact applied endpoint, boundary-exposure, and 
 networkUseFrame:
   questionOrAction: the concrete question answered or action enabled
   admissibleUse: how the selected organization is used
-  groundedForbiddenOverread?: only when the current representation supplies one exact inference
+  stopOrReturnCondition: the exact boundary at which this use stops or returns to its basis
+forbiddenOverread?: an explanatory guard justified by F.19:4, outside networkUseFrame
 returnCondition: the first member, relation, constraint, or use-frame change that reopens selection
 ```
 

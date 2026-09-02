@@ -6,12 +6,12 @@ section_id: "A.2.5:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__016_relations.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:13 — Relations"
-line_start: 5219
-line_end: 5234
+line_start: 5223
+line_end: 5238
 dependencies:
   - "A.15"
   - "A.15.1"

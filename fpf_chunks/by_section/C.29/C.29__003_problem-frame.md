@@ -6,17 +6,18 @@ section_id: "C.29:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__003_problem-frame.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:1 — Problem frame"
-line_start: 57007
-line_end: 57053
+line_start: 57286
+line_end: 57332
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
   - "A.15.4"
   - "A.19"
   - "A.3.3"
@@ -46,6 +47,7 @@ dependencies:
   - "E.19"
   - "E.8"
   - "E.9"
+  - "F.19"
   - "F.9"
   - "G.10"
   - "G.2"
@@ -103,7 +105,7 @@ Without a general lens-use discipline, the reader cannot tell whether the phrase
 
 #### C.29:1.2 - Minimum scenario and anti-case set
 
-**Positive scenario.** A production line is represented as a queueing network. The lens preserves flow, bottlenecks, service rates, and waiting times; it loses human meaning, contractual obligations, rare failure modes, and causal interventions not represented by the network; the stop condition says that the queueing lens is declared usable for throughput and latency reasoning, not a full organizational ontology.
+**Positive scenario.** A production line is represented as a queueing network. The lens preserves flow, bottlenecks, service rates, and waiting times; it loses human meaning, contractual obligations, rare failure modes, and causal interventions not represented by the network. Stop or change the lens when its assumptions fail or the use depends on one of those losses.
 
 **Anti-case.** “The organization is a quantum system” is written without a candidate mathematical object, probe distinction or readout distinction, preserved structure, lost structure, `LensUseBoundaryValue`, or stop condition. The `C.29` result is either a downgrade to local metaphor or a repaired use through `C.29` and, where relevant, `C.26`.
 

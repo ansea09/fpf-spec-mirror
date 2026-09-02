@@ -6,12 +6,12 @@ section_id: "E.19:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__004_what-this-buys.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0.2 — What this buys"
-line_start: 87504
-line_end: 87523
+line_start: 87847
+line_end: 87866
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -27,11 +27,8 @@ dependencies:
   - "F.19"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled-world entities such as Earth"
-  - "a system-role kind"
-  - "an assignment"
   - "inside the predicate)"
-  - "or a holon"
+  - "under E.8 H-8 and CC-SG.4"
   - "where a non-deontic Invariant: predicate is required)"
 ---
 
@@ -47,8 +44,8 @@ keywords:
 
 | What the reviewer sees | Risk-selected move | First useful result |
 | --- | --- | --- |
-| A system-pattern draft adds a deployment condition in prose but not in its Solution or Conformance Checklist, and treats matching cross-team labels as identity. | Apply `PCP-BASE` and `PCP-NORM`; add `PCP-BRIDGE` only if the text actually claims a relation across contexts. | Repair and recheck the requirement and identity claim, or return one actionable findings set that says exactly what must change. |
-| An episteme or publication pattern still reads smoothly, but its sources are stale, its Relations use superseded names, or a carrier is treated as the claim it carries. | Apply `PCP-BASE` and `PCP-REFRESH`; add `PCP-TERM` for the claim, publication, or carrier confusion. | Update the affected Solution, source decision, and Relations, or return complete findings for the affected passages. |
+| A safety-critical subsystem-deployment pattern adds a condition in prose but not in its Solution or Conformance Checklist, introduces scope-hiding terms, and treats matching cross-team labels as identity. | Apply `PCP-BASE`, `PCP-NORM`, and `PCP-TERM`; add `PCP-BRIDGE` only if the text actually claims a relation across contexts. | Repair and recheck the requirement, terms, and identity claim, or return one actionable findings set. Solution and checklist constrain the same system claim; project deployment permission remains under its own governing rule. |
+| An episteme or publication pattern still reads smoothly, but its sources are stale, its Relations use superseded names, or a carrier is treated as the claim it carries. | Apply `PCP-BASE` and `PCP-REFRESH`; add `PCP-TERM` for the claim, publication, or carrier confusion. | Update and verify the affected Solution, source use/currentness, publication/carrier distinctions, and Relations, or return complete findings. Handle historical-only evidence as lineage under E.8. |
 | A Method pattern says that the Method or checklist performed dated work, leaving the acting system, Work, and result hidden. | Apply `PCP-BASE` and `PCP-TERM`; add `PCP-MOD` only if the text mixes guidance with an actual occurrence. | Restore plain Method guidance and state the acting system, Work, and result separately only when an actual occurrence is claimed. |
 
 **Primary EntityOfConcern in plain terms.** One FPF pattern edition or bounded subset under an admission or refresh review question. The selected checks, reviewer, any repair, findings, optional aggregate result and evidence use, and any authority-bearing decision remain distinct when those objects are current.

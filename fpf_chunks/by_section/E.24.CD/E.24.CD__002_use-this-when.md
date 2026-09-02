@@ -6,12 +6,12 @@ section_id: "E.24.CD:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__002_use-this-when.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:0 — Use This When"
-line_start: 91262
-line_end: 91290
+line_start: 91593
+line_end: 91621
 dependencies:
   - "A.1"
   - "A.14"
@@ -77,7 +77,7 @@ Typical moments:
 - If one existing subject pattern already states the needed claim, use it directly.
 - If a local kind, criterion, candidate judgment, or extension is already the question, use `C.3`, `C.3.1`, and `C.3.2`.
 - If the current question is a description episteme, use `C.2.1` for its identity and the subject-specific description pattern when one applies. For view membership, publication form or occurrence, representation, or carrier, use `E.17.0`, `E.24.PUB`, or `C.29`.
-- If the subject and governing claim are clear and only the wording hides them, use `E.10`, `E.10.ARCH`, or the applicable precision-restoration pattern.
+- If the subject and governing claim are clear and only the wording hides them, use `F.19` for wording repair and `E.10` for any unresolved meaning.
 - If a durable ontic has already been selected, use `E.24`; if a durable public `U.*` kind is separately at issue, use `E.24.UK`.
 - If the work is comparing architecture alternatives, construct the evaluation through `A.19.ECS`.
 

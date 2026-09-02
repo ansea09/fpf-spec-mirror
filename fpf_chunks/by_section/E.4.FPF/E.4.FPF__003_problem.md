@@ -6,12 +6,12 @@ section_id: "E.4.FPF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__003_problem.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:2 — Problem"
-line_start: 70141
-line_end: 70154
+line_start: 70425
+line_end: 70438
 dependencies:
   - "C.33"
   - "C.34"
@@ -50,5 +50,5 @@ That creates several failures:
 - adoption units, forms, or access surfaces grow user-facing explanations that quietly become shadow authority beside subject patterns;
 - skill or MCP access makes FPF look like a callable service, tool permission layer, or runtime dependency rather than a framework edition reached through an access route or borne by an exact access-facing presentation carrier.
 
-The repair is not to copy `E.4.DPF` under another name. FPF needs its own form rule because its burden is different: it must keep first-principles distinctions usable across domains while allowing domain and local frameworks to grow from it.
+Use an FPF-specific form rule. FPF must keep first-principles distinctions usable across domains while allowing domain and local frameworks to grow from it; `E.4.DPF` governs those dependent frameworks.
 

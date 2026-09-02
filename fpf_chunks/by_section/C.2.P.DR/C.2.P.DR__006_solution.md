@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__006_solution.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:4 — Solution"
-line_start: 44729
-line_end: 44854
+line_start: 45008
+line_end: 45133
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,7 +51,7 @@ The repair order is:
 
 1. **Name the visible expression or artifact.** Quote or identify the graph highlight, file, query text, predicate display, dashboard tile, table, publication face, path diagram, carrier path, mathematical expression, method-description expression, or pattern sentence that prompted the overread.
 2. **Recover the exact current direct object or relation.** Name the graph structure, `PathSlice`, flow valuation, evidence or provenance relation, state predicate or value, query or formal object, publication face or occurrence, formal substrate, claim-bearing episteme, source relation, carrier-side object, pattern relation, or other direct outcome under its own governor. This is a list of alternative recovery outcomes, not representation kinds in one ontology.
-3. **State the representation or correspondence use, or write `none`.** When the visible expression represents a separately identified object or claim, name the exact relation and target. When the direct object or relation itself is current and no separate representation claim is needed, write `none`; do not relabel the direct object as a representation kind.
+3. **Distinguish the direct object from any representation or correspondence use.** When the visible expression represents a separately identified object or claim, name the exact relation and target. When the direct object or relation itself is current and no separate representation claim is needed, keep that direct use; do not relabel the direct object as a representation kind. Record `none` only when the receiving use needs an inspectable account of that distinction.
 4. **Recover source or publication relation when current.** If a face, source chain, generated explanation, copied text, dashboard, file path, or publication unit is current, use the publication pattern or source-use pattern governing that relation.
 5. **Name the tempting stronger action claim.** Say what the visible expression is being asked to do by resemblance: route, call, dispatch, invoke, run, flow, send, receive, authorize, release, prove, prescribe, execute, select, pass a gate, or record work.
 6. **Select the subject pattern.** Use the direct pattern when the object or relation is already recovered; otherwise use this pattern only long enough to recover the direct outcome, any representation use, and the blocked stronger claim.
@@ -61,7 +61,7 @@ The repair order is:
 
 #### C.2.P.DR:4.1 - DeclarativeRepresentationRepair note
 
-Use this compact note when the wording has FPF-governed use:
+Use this compact note only when the receiving use needs an inspectable repair of FPF-governed wording:
 
 ```text
 DeclarativeRepresentationRepair:
@@ -76,7 +76,7 @@ DeclarativeRepresentationRepair:
   StopOrReopenCondition:
 ```
 
-The note records the local repair long enough to make the next subject pattern selectable. If the subject pattern already supplies a better record, use that record and keep only the repaired wording, exact direct outcome, any representation use, retained use, blocked stronger claim, and stop or reopen condition here.
+The ordinary result is the repaired wording, exact direct outcome, any current representation use, retained use, blocked stronger claim, and needed stop or reopen condition. The optional note records these values when the receiving use needs them to remain inspectable. If the subject pattern already supplies a suitable record, use it without duplicating the repair note here.
 
 Use four plain questions before the claim-and-pattern table: What visible thing am I looking at? What direct object or relation is current? What, if anything, does it represent? What stronger action claim must remain blocked?
 

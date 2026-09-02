@@ -6,17 +6,18 @@ section_id: "C.29:6"
 section_title: "Naming, ontology, and epistemic precision-restoration account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__008_naming-ontology-and-epistemic-precision-restoration-account.md"
-commit_sha: "3c3f968398a938bc10e83da22d509b7b8f642d83"
+commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:6 — Naming, ontology, and epistemic precision-restoration account"
-line_start: 57797
-line_end: 57842
+line_start: 58075
+line_end: 58120
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
   - "A.15.4"
   - "A.19"
   - "A.3.3"
@@ -46,6 +47,7 @@ dependencies:
   - "E.19"
   - "E.8"
   - "E.9"
+  - "F.19"
   - "F.9"
   - "G.10"
   - "G.2"
@@ -109,7 +111,7 @@ When one `C.29` application needs a mathematical-lens name to become reusable ou
 | `structure-preserving identification` | Rewritten to `structure-preserving representation or mapping` unless direct equivalence is explicitly the `LensMappingMode`. |
 | Source compound fields that merge dynamics reference and transition-law reference | Rewritten as separate `DynamicsRef?` and `TransitionLawRef?` fields. |
 | Procedure-like pattern-control language | Rewritten as `pattern application`, `Disposition`, `BridgeRefSet`, `C28ApplicationRef`, or `CausalUseSupportResultRef` only when that neighboring-pattern application or causal-use record ref is being cited. |
-| `ExportPolicy` | Split into `declaredLensUse`, `StopCondition`, optional `groundedLensOverread?`, and optional `ExportPolicyRef?`. |
+| `ExportPolicy` | Split into `declaredLensUse`, `StopCondition`, optional `blockedLensOverread?`, and optional `ExportPolicyRef?`. |
 | free intensity qualifier | Replace with named adequacy fields, evidence relation, scale construction, comparability construction, lens-use boundary value, and stop-condition wording. |
 | `model`, `lens`, `math` as prestige heads | Recovered as `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, and `LensUseBoundaryValue`. |
 | Causal or assurance implications | Recovered as `CausalUseDisposition?` and `AssuranceUseDisposition?`, with `C.28`, `A.10`, `B.3`, and G-patterns as neighboring governors. |
