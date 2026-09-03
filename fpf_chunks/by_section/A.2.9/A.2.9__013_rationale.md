@@ -6,12 +6,12 @@ section_id: "A.2.9:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__013_rationale.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:10 — Rationale"
-line_start: 7691
-line_end: 7699
+line_start: 7704
+line_end: 7707
 dependencies:
   - "A.10"
   - "A.13"
@@ -46,10 +46,5 @@ keywords:
 
 ### A.2.9:10 — Rationale
 
-FPF uses communicative acts both for ordinary receiving uses and as operationally meaningful events such as approvals, notices, and overrides. A.2.9 begins with who should understand or do what and the evidence needed for that use, then admits `U.SpeechAct` through the independent A.13/A.15.1 route when exact occurrence identity is current. F.6 follows only for a separate precise assignment-bound attribution. It treats each actual act as a temporally bounded Work individual enacting an exact Method and uses `SpeechActRecord` only for claim-bearing representation. This keeps performer, local agential kind and criterion, declared assignment species and occurrence, scope, working situation, window, conditional profile, recognition taxonomy, effective scheme, receiving claim scope, optional MethodDescription and channel, act interval, utterance descriptions, carriers, and separately governed effect intervals and deontic relations inspectable without mutual admission dependencies or letting a record stand in for actuality.
-
-This also improves modularity:
-
-* **F.18** can remain a **lexical entry point** for naming (why “SpeechAct” and “utterance” are useful labels),
-* while **A.2.9** carries the ontology and conformance discipline for the kind, its actual occurrences, their optional records, and their connections to commitments, granted permissions, and evidence.
+FPF uses communicative acts both for ordinary receiving uses and as operationally meaningful events such as approvals, notices, and overrides. A.2.9 begins with who should understand or do what and the evidence needed for that use, then admits `U.SpeechAct` through the independent A.13/A.15.1 route when exact occurrence identity is current. F.6 follows only for a separate precise assignment-bound attribution. It treats each actual act as a temporally bounded Work individual enacting an exact Method and uses `SpeechActRecord` only for claim-bearing representation. Occurrence admission remains independent of its description and of any later assignment-bound attribution judgement.
 

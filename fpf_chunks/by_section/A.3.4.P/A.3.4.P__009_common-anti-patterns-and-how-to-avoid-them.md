@@ -6,12 +6,12 @@ section_id: "A.3.4.P:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 9874
-line_end: 9886
+line_start: 9879
+line_end: 9891
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,11 +49,11 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Cue word as ontology | "Pipeline", "process", "network", or "circuit" is treated as the FPF kind. | Recover the current object: `U.Transformation`, `TransformationFlowStructure`, mathematical description, method, work, publication, or direct subject pattern. |
-| Replacement by smoother umbrella | "Process" is replaced with "flow" or "operation" without recovered kind. | Run the replacement through the same recovery. If the kind is still hidden, keep the row open. |
+| Replacement by smoother umbrella | "Process" is replaced with "flow" or "operation" without recovered kind. | Run the replacement through the same recovery. If the kind is still hidden, leave it unresolved. |
 | Network head inflation | Frequent network or circuit wording becomes a peer durable head. | Use network or circuit as structure form, topology label, mathematical-expression family, domain label, or subject-domain system only when recovered by value. |
 | Selected structure as transformation composition | Common membership in one flow, path, network, circuit, or pipeline is treated as a composite transformation, transformation-part relation, or proof of indivisibility. | Use `E.18` only to position, relate, or locate transformation loci and adjacent governed values. Ground every actual `U.Transformation` independently under `A.3.4`; common structure membership establishes neither composition, parthood, nor partlessness. |
 | Workflow as performed work | A workflow diagram or process model is treated as dated work. | Use `A.3.2`, `E.18`, or `C.2.P.DR` for the description or structure; use `A.15.1` only for dated work. |
 | Function as proof of behavior | A module, port, participant, assignment occurrence, or "transformer" label is treated as proof of actual change or action. | Recover the actual transformation basis. For performed Work, recover each precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 only when precise assignment-bound attribution is current, and name the required separate Work-to-change relation. Otherwise use the exact participant, operation-application, functioning, causal, or other direct actor-side relation. |
-| Architecture influence as action | A manufacturing or certification organization, design organization, Method or Method family, toolchain, communication System, selected structure, or other value is called the actor because it constrained or enabled a candidate. | Recover the value's exact kind first, then only its exact architecture, Work, communication, constraint, or candidate-synthesis relation. A Method or Method family is not a holon by label, the temporary influence-disposition field is no new relation, and influence alone establishes no local system-role kind, separate System-classification judgment, assignment occurrence, Work, acting fact, or transformation participation. |
+| Architecture influence as action | A manufacturing or certification organization, design organization, Method or Method family, toolchain, communication System, selected structure, or other value is called the actor because it constrained or enabled a candidate. | Recover the value's exact kind first, then only its exact architecture, Work, communication, constraint, or candidate-synthesis relation. For an actor claim, apply the separate performed-Work or non-Work test in 4.4. |
 | Publication as change | A diagram, proof, dashboard, or source span is treated as the changed object or change occurrence. | Use description, publication, evidence, or source-use pattern for the carrier and keep the transformation under `A.3.4`. |
 

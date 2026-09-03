@@ -6,12 +6,12 @@ section_id: "C.32.HCS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__010_consequences.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:9 — Consequences"
-line_start: 64330
-line_end: 64337
+line_start: 64337
+line_end: 64344
 dependencies:
   - "A.19"
   - "C.11"

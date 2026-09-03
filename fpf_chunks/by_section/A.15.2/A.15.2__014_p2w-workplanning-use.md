@@ -6,12 +6,12 @@ section_id: "A.15.2:8"
 section_title: "P2W WorkPlanning use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__014_p2w-workplanning-use.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:8 — P2W WorkPlanning use"
-line_start: 25830
-line_end: 25837
+line_start: 25835
+line_end: 25842
 dependencies:
   - "A.10"
   - "A.15"

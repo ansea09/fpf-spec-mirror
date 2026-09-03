@@ -6,12 +6,12 @@ section_id: "A.3.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__011_consequences.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:9 — Consequences"
-line_start: 9619
-line_end: 9630
+line_start: 9624
+line_end: 9635
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,13 +54,13 @@ keywords:
 
 ### A.3.4:9 - Consequences
 
-- FPF gains one place to identify actual bounded transformations without turning method, work, relation expressions, descriptions, evidence, or publications into the change.
+- FPF gains one place to identify actual bounded transformations.
 - Current-resolution identification remains cheap: one bounded change can be identified without settling its finer composition. This says neither that finer parts exist nor that they do not.
 - An independently grounded change of a selected configuration remains usable without asserting whether nearby changes compose it or are its parts.
 - A use that needs positive transformation composition receives the one parked result from 4.2.1: missing governor, and also missing substrate when it proposes a local derived or compound claim. No relation kind, signature, occurrence law, or definition identifier is minted here.
 - If a future accepted architecture supplies an exact whole transformation and its construction facts, A.1 then applies its own six-component test; this edition supplies no positive transformation-holon classification.
 - Each subject pattern keeps its own change, `U.Work`, and production facts. A work/transformation connection uses the existing-predicate or local-compound branch in `4.2.4`; otherwise the named pair remains `missing-governor`.
-- E.18 can arrange or locate transformation occurrences in a selected flow structure without becoming their occurrence ontology.
+- E.18 can arrange or locate transformation occurrences in a selected flow structure.
 - Ordinary result wording remains usable after the reader names the later use, its participants, and the relation being asserted; no universal transformation-result or production relation is introduced.
 - Readers whose use stops with one actual transformation skip 4.2.1-4.2.3. Only a composition- or transformation-holon-dependent use opens that advanced branch, whose current result is the parked blocker.
 

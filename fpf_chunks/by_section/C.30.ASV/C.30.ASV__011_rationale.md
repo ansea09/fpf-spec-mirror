@@ -6,12 +6,12 @@ section_id: "C.30.ASV:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__011_rationale.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:10 — Rationale"
-line_start: 61335
-line_end: 61342
+line_start: 61342
+line_end: 61349
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.15:12d"
 section_title: "P2W Performed-Work Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__017_p2w-performed-work-relation.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12d — P2W Performed-Work Relation"
-line_start: 24929
-line_end: 24934
+line_start: 24934
+line_end: 24939
 dependencies:
   - "A.10"
   - "A.13"

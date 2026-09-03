@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.CRC.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
-line_start: 47603
-line_end: 47803
+line_start: 47608
+line_end: 47810
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -45,6 +45,8 @@ keywords:
 > **Plain name:** compare what this finite change adds to the current configuration
 >
 > **Type:** C-pattern
+>
+> **Status:** Stable
 >
 > **Placement:** a narrow companion used before `C.11` when its comparison basis is not yet available
 

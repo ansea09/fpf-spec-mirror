@@ -6,12 +6,12 @@ section_id: "A.2.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__004_problem-frame.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:1 — Problem frame"
-line_start: 7365
-line_end: 7383
+line_start: 7378
+line_end: 7396
 dependencies:
   - "A.10"
   - "A.13"
@@ -61,5 +61,5 @@ Without a first-class kind for such communicative Work and a separate way to des
 * leave provenance dangling as “if modeled”,
 * encode gates as prose obligations, or treat obligations as gates.
 
-The defining `ClaimGraph` located here admits `U.SpeechAct` as an explicit Work kind and states the identity conditions for actual speech-act occurrences; their optional records remain separate from `U.Commitment`, utterance descriptions, and carriers.
+The definition below admits `U.SpeechAct` as an explicit Work kind and states the identity conditions for actual speech-act occurrences; their optional records remain separate from `U.Commitment`, utterance descriptions, and carriers.
 

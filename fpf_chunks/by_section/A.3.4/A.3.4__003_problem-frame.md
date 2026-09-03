@@ -6,12 +6,12 @@ section_id: "A.3.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__003_problem-frame.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:1 — Problem Frame"
-line_start: 9311
-line_end: 9336
+line_start: 9318
+line_end: 9342
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,11 +54,10 @@ keywords:
 
 ### A.3.4:1 - Problem Frame
 
-FPF often needs to talk about change in physical systems, engineered artifacts, organizations, presentation carriers, constituent organizations, architectures, programs, regulatory situations, and research objects. A revised specification needs an early split: changed claim content identifies two C.2.1 epistemes, not one continuing changed episteme. Test the `EpistemeEditionRelation` between them. Open A.3.4 only for a continuing carrier, constituent organization, or other subject with its own identity rule; if revision `U.Work` first creates the later episteme, use `A.15.PROD` for that first existence. Source phrases such as *algorithm*, *process*, *workflow*, *editing*, *migration*, or *construction* do not settle which of these objects changed.
+FPF often needs to talk about change in physical systems, engineered artifacts, organizations, presentation carriers, constituent organizations, architectures, programs, regulatory situations, and research objects. A revised specification needs an early split: changed claim content identifies two C.2.1 epistemes, not one continuing changed episteme. Test the `EpistemeEditionRelation` between them. Open A.3.4 only for a continuing carrier, constituent organization, or other subject with its own identity rule; if revision `U.Work` first creates the later episteme, use `A.15.PROD` for that first existence. When the source says *process*, *editing*, or *construction*, recover the changed object from the case.
 
-Those phrases do not tell the reader what actually changed. A CRISPR editing protocol, a nuclear-plant operating change, a platform refactoring, a model update, a document repair, an architecture move, a proof construction, and a method-result carry-through may each concern a different FPF object.
 
-FPF already has strong neighboring patterns:
+Relevant neighboring patterns:
 
 - `A.3` for transformer constitution: acting system bearing `TransformerSystemRole`, method description, method, and actual work;
 - `A.3.1` for `U.Method`;
@@ -76,5 +75,5 @@ FPF already has strong neighboring patterns:
 - `C.29` for mathematical-lens use;
 - evidence, gate, assurance, source, result, decision, and publication patterns for their own claims.
 
-What is missing is a positive first route: identify the actual change, then open only the separate method, work, flow, representation, evidence, publication, or later-use claim the practitioner is making. A checklist or description must not become the transformation ontology.
+What is missing is a positive first route: identify the actual change, then open only the separate method, work, flow, representation, evidence, publication, or later-use claim the practitioner is making.
 

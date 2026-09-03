@@ -6,12 +6,12 @@ section_id: "A.15.PROD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__007_bias-annotation.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:6 — Bias-Annotation"
-line_start: 28327
-line_end: 28340
+line_start: 28332
+line_end: 28345
 dependencies:
   - "A.1"
   - "A.15.1"

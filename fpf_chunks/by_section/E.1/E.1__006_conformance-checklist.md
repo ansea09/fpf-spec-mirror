@@ -6,12 +6,12 @@ section_id: "E.1:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__006_conformance-checklist.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.1 — Vision & Mission: “Operating System for Thought”"
   - "E.1:5 — Conformance Checklist"
-line_start: 69518
-line_end: 69526
+line_start: 69525
+line_end: 69533
 dependencies:
   - "E.2"
 keywords:

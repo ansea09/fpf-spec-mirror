@@ -6,12 +6,12 @@ section_id: "A.3.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 9210
-line_end: 9221
+line_start: 9217
+line_end: 9228
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -38,6 +38,7 @@ dependencies:
   - "E.10.ARCH"
   - "E.20"
   - "F.18"
+  - "F.19"
   - "U.ClaimScope"
   - "U.Mechanism"
   - "U.Method"
@@ -59,11 +60,11 @@ keywords:
 
 | Anti-pattern | Repair |
 | --- | --- |
-| "The procedure is the dynamics." | Put the semantic way of doing in `U.Method`; identify the claim-bearing episteme that the procedure text represents as `U.MethodDescription` only when it passes A.3.2; keep representation and publication separate; and put the state-space/law episteme in `U.Dynamics`. |
-| "Telemetry is the dynamics." | Keep telemetry as a separately identified observation or source record `O`; include exact Work-side facts `W` only when Work is actually current, then derive `trace(W, O, D)` through the declared observation relation and compare it with the law. |
-| "The dashboard is our state space." | Recover characteristics, units, scales, comparability relations, operating region, and invariants. |
-| "The simulation approved the release." | Keep simulation as prediction; use `A.20`, `A.21`, `A.10`, or `B.3` for gate, evidence, and assurance claims. |
-| "The model works everywhere." | State the applicability window and lowering condition; use `C.27.TA` for currentness and `C.29` for transfer. |
-| "A workflow diagram proves the dynamics." | Recover whether the diagram describes a method, method description, work plan, dated work occurrence, selected transformation-flow structure, evidence relation, mechanism, or transition-law claim graph. |
-| "A learned predictor is the law." | State training domain, observation relation, uncertainty, error policy, and applicability window before using prediction. |
+| Inferring a transition law from procedural form alone | Put the semantic way of doing in `U.Method`; identify the claim-bearing episteme that the procedure text represents as `U.MethodDescription` only when it passes A.3.2; keep representation and publication separate; and put the state-space/law episteme in `U.Dynamics`. |
+| Telemetry used as a law without a declared state space and transition rule | Keep telemetry as a separately identified observation or source record `O`; include exact Work-side facts `W` only when Work is actually current, then derive `trace(W, O, D)` through the declared observation relation and compare it with the law. |
+| Using dashboard labels in place of declared state characteristics | Recover characteristics, units, scales, comparability relations, operating region, and invariants. |
+| Using a simulation result as release approval without the gate decision | Keep simulation as prediction; use `A.20`, `A.21`, `A.10`, or `B.3` for gate, evidence, and assurance claims. |
+| Using a model beyond its established applicability | State the applicability window and lowering condition; use `C.27.TA` for currentness and `C.29` for transfer. |
+| Inferring dynamics from a workflow diagram's layout alone | Recover whether the diagram describes a method, method description, work plan, dated work occurrence, selected transformation-flow structure, evidence relation, mechanism, or transition-law claim graph. |
+| Relying on a learned prediction without its domain and error conditions | State training domain, observation relation, uncertainty, error policy, and applicability window before using prediction. |
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.CAE.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
-line_start: 90608
-line_end: 90880
+line_start: 90617
+line_end: 90889
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -28,7 +28,7 @@ keywords:
 > **Tech-name:** `CapabilityAccessAndExpressionDifferentialProbeMethod`
 > **Plain-name:** test whether a capability is unavailable, unrecognized, unexpressed, unadapted, unenacted, or changed
 > **Type:** Method-description pattern for an observation-first differential probe; coordinated with `E.23` and `E.23.CDI`
-> **Status:** Candidate
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 ### E.23.CAE:1 - Problem frame

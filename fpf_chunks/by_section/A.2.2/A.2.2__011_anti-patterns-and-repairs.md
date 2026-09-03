@@ -6,12 +6,12 @@ section_id: "A.2.2:10"
 section_title: "Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__011_anti-patterns-and-repairs.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:10 — Anti-Patterns and Repairs"
-line_start: 4028
-line_end: 4043
+line_start: 4035
+line_end: 4050
 dependencies:
   - "A.15"
   - "A.2"

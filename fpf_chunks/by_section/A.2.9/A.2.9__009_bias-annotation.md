@@ -6,12 +6,12 @@ section_id: "A.2.9:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__009_bias-annotation.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:6 — Bias-Annotation"
-line_start: 7633
-line_end: 7642
+line_start: 7646
+line_end: 7655
 dependencies:
   - "A.10"
   - "A.13"
@@ -46,11 +46,11 @@ keywords:
 
 ### A.2.9:6 — Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Kernel universal** when the named receiving use of communicative Work, or its governance, eligibility, gating, provenance, or protocol use, makes the act itself current.
+Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Kernel universal** when the named receiving use of communicative Work, or its governance, eligibility, gating, provenance, or protocol use, makes the act itself current.
 
 * **Gov bias:** favors explicit accountable performers and auditable records; increases clarity but adds modeling overhead.
 * **Arch bias:** optimizes evolvability by keeping institutional effects referenceable rather than embedded in prose.
-* **Onto/Epist bias:** enforces kind≠actual act≠record≠utterance≠carrier and prevents episteme-as-agent metaphors.
+* **Onto/Epist bias:** preserves the kind/actual-act/record/utterance-description/carrier distinctions and requires an actual performer for an occurrence claim.
 * **Prag bias:** models only what is needed for decisions/audit (not full intention/sincerity/perlocutionary psychology).
 * **Did bias:** keeps the record minimal and queryable for state checklists and boundary reviews.
 

@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__002_problem-frame.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:1 — Problem frame"
-line_start: 8416
-line_end: 8445
+line_start: 8423
+line_end: 8452
 dependencies:
   - "A.10"
   - "A.13"
@@ -46,7 +46,7 @@ keywords:
 
 - If the evidence no longer leaves rival candidate ways and the remaining question is whether the proposed way qualifies as the `U.Method` being identified—or which identity claim needs repair—use `A.3.1`.
 - If the Method is already identified and the question is whether an episteme is its MethodDescription, use `A.3.2`.
-- If wording still hides the object or relation being asserted, use `E.10` to identify the wording problem and then follow the precision-restoration pattern it names.
+- If wording still hides the object or relation being asserted, use `F.19`; follow an `E.10` route only for a remaining FPF word, kind, or relation question.
 - If the question concerns one dated Work occurrence only, use `A.15.1`.
 - If the project needs prospective practice-architecture synthesis, use `C.32.MWA`.
 - If the domain needs a complete reconstruction programme, use specialist `ME.18`.

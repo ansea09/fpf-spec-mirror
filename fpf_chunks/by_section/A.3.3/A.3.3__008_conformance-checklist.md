@@ -6,12 +6,12 @@ section_id: "A.3.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__008_conformance-checklist.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:7 — Conformance Checklist"
-line_start: 9180
-line_end: 9209
+line_start: 9187
+line_end: 9216
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -38,6 +38,7 @@ dependencies:
   - "E.10.ARCH"
   - "E.20"
   - "F.18"
+  - "F.19"
   - "U.ClaimScope"
   - "U.Mechanism"
   - "U.Method"
@@ -57,17 +58,17 @@ keywords:
 
 ### A.3.3:7 - Conformance Checklist
 
-**CC-A3.3-1 (Membership and identity).** A.3.3 judges one already identified `U.Episteme`. That same individual is `U.Dynamics` only when its exact C.2.1 `EntityOfConcern` is the changing subject and its ClaimGraph, under its effective `U.ReferenceScheme`, declares both a state space and a transition law. A.3.3 adds no second identity. It is not thereby `U.Method`, `U.MethodDescription`, `U.Structure`, `U.WorkPlan`, `U.Work`, `U.Transformation`, `U.Mechanism`, result, publication, evidence, assurance, gate, or authority.
+**CC-A3.3-1 (Membership and identity).** A.3.3 judges one already identified `U.Episteme`. That same individual is `U.Dynamics` only when its exact C.2.1 `EntityOfConcern` is the changing subject and its ClaimGraph, under its effective `U.ReferenceScheme`, declares both a state space and a transition law. A.3.3 adds no second identity.
 
-**CC-A3.3-2 (Semantic locality without a container).** Local meanings and characteristic names are interpreted under the effective `U.ReferenceScheme`; units, operating region, time base, approximation regime, claim scope when needed, qualification window and source-currentness condition remain explicit claim content or separately governed values. No `U.BoundedContext`, generic context field, selected structure, description, carrier, or intrinsic-grounding slot identifies or contains the dynamics episteme.
+**CC-A3.3-2 (Semantic locality without a container).** Local meanings and characteristic names are interpreted under the effective `U.ReferenceScheme`; units, operating region, time base, approximation regime, claim scope when needed, qualification window and source-currentness condition remain explicit claim content or separately governed values. Its C.2.1 identity is determined by ClaimGraph, EntityOfConcern, and effective U.ReferenceScheme.
 
-**CC-A3.3-3 (EntityOfConcern).** The changing EntityOfConcern is named. It may be a physical holon, service, organization, episteme, claim portfolio, architecture, resource bundle, or other holon with modeled state.
+**CC-A3.3-3 (EntityOfConcern).** The changing EntityOfConcern is named. It may, for example, be a physical holon, service, organization, episteme, claim portfolio, architecture, resource bundle, or other EntityOfConcern with modeled state.
 
 **CC-A3.3-4 (State space).** The state space enumerates characteristics with units, scales, comparability rules, and any needed topology, geometry, aggregation policy, or invariantization rule.
 
 **CC-A3.3-5 (Transition law).** The transition law states a relation, map, kernel, equation, rule, learned predictor, or simulation rule suitable for the declared time base and stochasticity.
 
-**CC-A3.3-6 (Observation relation).** Evidence use states how exact Work-side facts when present and separately identified work records, telemetry, measurements, observation records, or source records become observed coordinates. A record is not the Work it describes, and direct observation is declared rather than assumed.
+**CC-A3.3-6 (Observation relation).** Evidence use states how exact Work-side facts when present and separately identified work records, telemetry, measurements, observation records, or source records become observed coordinates. Direct observation is declared rather than assumed.
 
 **CC-A3.3-7 (Constraints and applicability).** Constraints, invariants, operating region, approximation regime, parameter range, horizon, and scale window are stated before prediction or gate use.
 
@@ -77,11 +78,11 @@ keywords:
 
 **CC-A3.3-10 (Prediction use).** Predicted Coordinates used for comparison or gating state the exact model edition, domain, horizon, currentness, error or uncertainty, and every observation, validation, sensitivity, stability, or normalization-composition condition required by that consumer's policy. No universal non-expansiveness or commutation test substitutes for the direct decision rule.
 
-**CC-A3.3-11 (Temporal boundary).** Positive temporal aspects stay with `C.27.TA`; temporal-claim adequacy, freshness-use, delay-use, rhythm-use, inertia-use, and currentness-use claims stay with `C.27`; reusable transition laws stay with `A.3.3`.
+**CC-A3.3-11 (Temporal boundary).** Positive temporal aspects stay with `C.27.TA`; adequacy or supported use of authored temporal claims stays with `C.27`; reusable transition laws stay with `A.3.3`.
 
 **CC-A3.3-12 (C.29 boundary).** Contested, cross-domain, learned, speculative, scale-changing, or transferable mathematical-lens use is assigned to `C.29`; `A.3.3` keeps the dynamics semantics.
 
 **CC-A3.3-13 (Source-label repair).** `Process`, `workflow`, `algorithm`, `model`, `controller`, `simulator`, and `dynamics` wording must not be repaired to `U.Dynamics` until the current slot is recovered: method, method description, work plan, dated work, selected transformation-flow structure, transition-law claim graph, evidence relation, or another governed value.
 
-**CC-A3.3-14 (Actual-transformation boundary).** Possible, predicted, simulated, or probable change remains claim content. An actual `U.Transformation` requires the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification; dynamics and prediction supply no dated work, transformation participation, gate passage, release, permission, or other authority.
+**CC-A3.3-14 (Actual-transformation boundary).** Possible, predicted, simulated, or probable change remains claim content. An actual `U.Transformation` requires the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification.
 

@@ -6,12 +6,12 @@ section_id: "C.32.MWA:End"
 section_title: "C.32.MWA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__015_c-32-mwa-end.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:End — C.32.MWA:End"
-line_start: 65781
-line_end: 65782
+line_start: 65788
+line_end: 65789
 dependencies:
   - "A.15.1"
   - "A.22"

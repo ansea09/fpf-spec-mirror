@@ -6,12 +6,12 @@ section_id: "C.34:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 67258
-line_end: 67269
+line_start: 67265
+line_end: 67276
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

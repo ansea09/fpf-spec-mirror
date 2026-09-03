@@ -6,12 +6,12 @@ section_id: "A.2.6:11"
 section_title: "Archetypal Grounding - Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__013_archetypal-grounding-worked-examples.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:11 — Archetypal Grounding - Worked Examples"
-line_start: 5780
-line_end: 5849
+line_start: 5786
+line_end: 5858
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -39,9 +39,9 @@ Claim-bearing episteme `E_adhesive` states that Adhesive X retains at least 85 p
 
 * `slice_in = {substrate=Al6061, temp=140°C, dwell=90min, rig=Calib-v3}`. `member(slice_in, G_adhesive)` is true.
 * `slice_out = {substrate=Al6061, temp=160°C, dwell=90min, rig=Calib-v3}`. Membership is false; the attempted use stops.
-* `slice_unknown = {substrate=Al6061, temp=140°C, dwell=90min, rigEdition=unavailable}`. Evaluation returns unknown. It neither excludes the slice nor permits the use.
+* `slice_unknown = slice_in`, evaluated with an interpretation basis whose required rig-edition resolution is unavailable. Evaluation returns `unknown`; it neither excludes the slice nor permits the use.
 
-`LabEvaluator_A` may perform exact membership-evaluation work through the declared USM operation. When a named audit or replay use needs a judgment to persist, a C.2.1 episteme may record it. Neither the work nor the optional episteme makes membership true. A table showing the three rows is a C.29 representation and creates no `ScopeDelimitationRelation`.
+`LabEvaluator_A` may perform exact membership-evaluation work through the declared USM operation. When a named audit or replay use needs a judgment to persist, a C.2.1 episteme may record it. A table showing the three rows is a C.29 representation.
 
 The same `G_adhesive` may participate in two independently governed model-applicability relation occurrences and may be referred to by exact applied constraint claims in two A.22 structures. Only a selected obtaining model-applicability occurrence or an exact constraint claim as applied contributes through its corresponding A.22 discriminator; the common scope itself contributes through neither path and neither merges nor identifies the relations or structures. A declared applicability interval in either occurrence description is separate from the actual maximal continuous obtaining extent.
 
@@ -55,7 +55,7 @@ Use that translation only while exact A.10 relation `EP-adhesive-scope-translati
 
 The path supports neither reverse translation, a mapping outside the named rule or tolerance, nor a claim that the A.6.1 application or membership evaluation occurred. This fixture asserts no evidence-producing or evidence-interpreting Work, current system-role assignment, or Method trace. If the record, carrier, or provenance edge is missing or stale, or the window closes, stop before translation and set `RelianceDisposition=reopen`; otherwise `RelianceDisposition=pass` applies only to this bounded use. No assurance claim is made.
 
-The actual A.6.1 application `deriveTranslatedScope(G_adhesive, B-lab-assembly-temp, C-adhesive-scope-translation, AssemblyReferenceScheme)` applies the named rule and tolerance and returns the explicitly narrowed receiving scope `[122,148]°C`. The receiving membership evaluation uses that scope. The Bridge and claim alone do not prove that this calculation occurred or that any target slice is a member.
+The actual A.6.1 application `deriveTranslatedScope(G_adhesive, B-lab-assembly-temp, C-adhesive-scope-translation, AssemblyReferenceScheme)` applies the named rule and tolerance and returns the explicitly narrowed receiving scope `[122,148]°C`. The receiving membership evaluation uses that scope.
 
 If the receiving use merely uses another designation for the same sense under an ordinary resolvable reference scheme, introduce no Bridge, use claim, or translation.
 
@@ -77,14 +77,17 @@ Controller certificate age does not change Work-scope membership in this case. W
 * **Claim B (Dataset cohort):** “metrics valid for cohort K with schema `ds‑14`”.
 * **Composition:** service S depends on both A and B → **serial intersection** of Claim scopes: `{api=v2.3} ∩ {cohort=K, schema=ds‑14}`.
 * **Target slice:** `{api=v2.3, cohort=K, schema=ds‑14}` → membership **true**.
-* **Any drift (e.g., `ds‑15`)** empties the intersection ⇒ path inapplicable.
+* **Target drift (e.g., `ds‑15`).** The changed target slice lies outside the intersection ⇒ path inapplicable for that slice.
 
 #### A.2.6:11.5 - Parallel support (SpanUnion) in a safety case
 
 * **Line L1:** tests on **dry asphalt** support braking property; scope `S1={surface=dry, speed≤50 km/h}`.
 * **Line L2:** simulations for **wet asphalt**; scope `S2={surface=wet, speed≤40 km/h}`.
-* **Published scope:** `SpanUnion({S1,S2})` = `{(dry, ≤50), (wet, ≤40)}` with independence note (L1 empirical, L2 model‑validated).
+* **Independence basis:** partition `P-braking` identifies complete disjoint essential-component sets for this braking claim: L1 uses `DryTrackTestRecord` and `DryRigCalibration`; L2 uses `WetBrakeModel`, `WetValidationRecord`, and `WetRigCalibration`.
+* **Published scope:** `SpanUnion({S1,S2})` = `{(dry, ≤50), (wet, ≤40)}`, with reference to `P-braking`.
 * **Guard:** allowed; union does **not** include `(wet, 45)` because not supported.
+
+With only the method labels, leave P-UNION unresolved. If `CalibrationRecord-Q` is essential to both lines, P-UNION fails for this pair; retain the individual lines and use their component scopes to assess any dependent combination.
 
 #### A.2.6:11.6 - ML model deployment with different local feature senses
 
@@ -98,6 +101,6 @@ Controller certificate age does not change Work-scope membership in this case. W
   * **Training evidence:** `TrainingEvaluationEvidence.K-P-TrainingF.2026-07-25`, with exact carrier edge `TrainingEvaluationEvidence.K-P-TrainingF.2026-07-25 --carriedBy--> TrainingEvaluationReport.K-P-TrainingF.2026-07-25.json`.
   * **Window and stop:** the 180-day window runs from `2026-07-25` through `2027-01-21` and closes earlier if pipeline `P` or `P-prime`, either feature-sense edition, or the tested mapped subset changes. If a record, carrier, or edge is missing or stale, the window closes, or a named dependency changes, stop before translation and set `RelianceDisposition=reopen`; otherwise `RelianceDisposition=pass` applies only to this bounded use.
   * **Boundary:** the path supports neither feature-kind substitution, a target outside the tested subset, material release or assurance, nor a claim that deployment occurred. This fixture asserts no evidence-producing or evidence-interpreting Work, current system-role assignment, or Method trace. No assurance claim is made; a material release use stays with its direct release rule, and an actual assurance claim uses B.3.
-* **Guard:** bind `translatedScope := deriveTranslatedScope(G, B-training-device-feature, C-device-feature-scope-translation, ProductReferenceScheme)`, then evaluate `evaluateMembership(TargetSlice, translatedScope, InterpretationBasis)`; separately require the chosen formality predicate. The translated scope covers only the tested mapped subset. Neither the claim nor its passing reliance makes the derivation application or deployment occur.
+* **Guard:** bind `translatedScope := deriveTranslatedScope(G, B-training-device-feature, C-device-feature-scope-translation, ProductReferenceScheme)`, then evaluate `evaluateMembership(TargetSlice, translatedScope, InterpretationBasis)`; separately require the chosen formality predicate. The translated scope covers only the tested mapped subset.
 * **Outcome:** admit only a target slice in the returned subset; otherwise return false or unknown according to the exact returned scope and available evaluation input.
 

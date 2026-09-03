@@ -6,12 +6,12 @@ section_id: "A.2.6:18"
 section_title: "Extended FAQ (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__020_extended-faq-informative.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:18 — Extended FAQ (informative)"
-line_start: 5981
-line_end: 6011
+line_start: 5988
+line_end: 6018
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -52,7 +52,7 @@ Not normatively. G is set‑valued. You MAY attach an **informative**, explicitl
 First decide what “latest” is doing. If it means that evidence or data must be no older than 90 days, do not put it in Claim scope: require the A.10 evidence-provenance path to satisfy its exact 90-day relevance or currentness window at the receiving use time. Put `gammaTime` in the scope only when claim applicability itself changes with the slice time, and state the membership boundary—for example, slices whose observation time falls outside the declared interval are non-members. The word “latest” alone supplies neither boundary.
 
 **Q7. How do we use a scope with differently named slice selectors?**
-First resolve whether the designations refer to the same values under the effective reference scheme. If exact local senses differ and membership must be expressed across them, name the obtaining F.9 Bridge. Then state the separate affirmative C.2.1 claim for the proposed translation's direction, mapping rule, and tolerated loss, establish the exact A.10 or B.3 reliance branch, and evaluate the scope returned by `deriveTranslatedScope`. A different project, place, label, reference scheme, profile, or card alone does not move or translate the scope.
+First resolve whether the designations refer to the same values under the effective reference scheme. If exact local senses differ and membership must be expressed across them, name the obtaining F.9 Bridge. Then state the separate affirmative C.2.1 claim for the proposed translation's direction, mapping rule, and tolerated loss, establish the exact A.10 or B.3 reliance branch, and evaluate the scope returned by `deriveTranslatedScope`.
 **Q8. What about abstraction level or detail?**
 Keep **AT (AbstractionTier)** and **D (Detail and Resolution)** as orthogonal, optional annotations. They never substitute for **Claim scope** or **Work scope**.
 
@@ -60,5 +60,5 @@ Keep **AT (AbstractionTier)** and **D (Detail and Resolution)** as orthogonal, o
 They are on different carriers. In a serial dependency, the **effective** scope is the **intersection**; the broader one does not dominate.
 
 **Q10. When does an empty scope make sense?**
-No slice satisfies the declared predicate, so the receiving guard stops. This may occur during early drafting or after a refutation; it does not create a special context, time, or complement entity.
+No slice satisfies the declared predicate, so the receiving guard stops. This may occur during early drafting or after a refutation.
 

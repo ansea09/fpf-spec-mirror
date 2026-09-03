@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-line_start: 73148
-line_end: 73810
+line_start: 73155
+line_end: 73817
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -566,7 +566,7 @@ If a pattern or example claims **autonomy**, name the admitted `U.System` whose 
 *Note:* Prefer examples that reuse FPF characteristics vocabulary (e.g., **F (Formality)** rather than “F‑score”) unless you explicitly mean an external metric and name it as such.
 
 ### E.8:6 - Bias-Annotation
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for the authoring conventions in this pattern.
+Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for the authoring conventions in this pattern.
 This guidance biases toward **Did** (readability, narrative flow) and **Arch** (template regularity) by design; the mitigation is content-bearing reduced sections and justification through the smallest grounding, misuse, boundary, or reduced-case statement, not omission placeholders.
 
 ### E.8:7 - Conformance Checklist

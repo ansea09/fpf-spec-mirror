@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__007_bias-annotation.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:6 — Bias-Annotation"
-line_start: 8540
-line_end: 8548
+line_start: 8547
+line_end: 8555
 dependencies:
   - "A.10"
   - "A.13"
@@ -28,7 +28,7 @@ keywords:
 
 ### A.3.1.MR:6 - Bias-Annotation
 
-- **Automation bias:** mining software and executable models do not decide Method identity.
+- **Automation bias:** admitting a Method from a mined or executable model without testing the reusable way under A.3.1.
 - **Frequency bias:** repeated order is evidence to examine, not a reusable Method part by count alone.
 - **Success bias:** favorable outcomes without failed or atypical cases may hide the real limits of the reusable way.
 - **Record bias:** unrecorded perceptual, embodied, conversational, and discretionary contributions remain possible gaps.

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.DEV.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
-line_start: 76637
-line_end: 76859
+line_start: 76646
+line_end: 76868
 dependencies:
   - "A.15"
   - "A.2.2"

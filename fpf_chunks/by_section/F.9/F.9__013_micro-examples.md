@@ -6,12 +6,12 @@ section_id: "F.9:11"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__013_micro-examples.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:11 — Micro-examples"
-line_start: 95813
-line_end: 95822
+line_start: 95822
+line_end: 95831
 dependencies:
   - "A.10"
   - "A.13"

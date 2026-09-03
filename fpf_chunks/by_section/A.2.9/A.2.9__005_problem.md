@@ -6,12 +6,12 @@ section_id: "A.2.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__005_problem.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:2 — Problem"
-line_start: 7384
-line_end: 7395
+line_start: 7397
+line_end: 7408
 dependencies:
   - "A.10"
   - "A.13"
@@ -48,7 +48,7 @@ keywords:
 
 How can FPF represent communicative enactments so that:
 
-1. **Agency is explicit:** the actual performer `U.System` first has the A.13 core for this communicative action—one exact local agential system-role kind and criterion, classification, the same obtaining assignment, scope, working situation, window, and adequate core evidence. A.15.1 then independently admits the act from its performance history, Method, extent, and containment. Only afterward does F.6 establish `performedUnderAssignment` through the same obtaining assignment when precise assignment-bound attribution is current. A characteristic profile remains conditional on a consumed Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use. The System performs the act; the kind, assignment occurrence, document, specification, and interface do not.
+1. **Agency is explicit:** the actual performer `U.System` first has the A.13 core for this communicative action—one exact local agential system-role kind and criterion, classification, the same obtaining assignment, scope, working situation, window, and adequate core evidence. A.15.1 then independently admits the act from its performance history, Method, extent, and containment. Only afterward does F.6 establish `performedUnderAssignment` through the same obtaining assignment when precise assignment-bound attribution is current. A characteristic profile remains conditional on a consumed Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use.
 2. **The act is locatable in time:** the act has an explicit Window (and thus freshness can be evaluated).
 3. **The act is locatable in meaning:** the act satisfies a type defined by an exact recognition-taxonomy episteme under an effective reference scheme; no generic bounded-context participant or Work judgement-context field substitutes for that basis, and `U.ClaimScope` remains only a claim-applicability object when a receiving claim needs one.
 4. **The act is auditable:** it has at least one declared utterance description, evidence carrier, or both when used for gate checks or governance.

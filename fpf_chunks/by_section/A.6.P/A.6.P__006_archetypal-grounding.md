@@ -6,12 +6,12 @@ section_id: "A.6.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__006_archetypal-grounding.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:5 — Archetypal Grounding"
-line_start: 16312
-line_end: 16367
+line_start: 16317
+line_end: 16372
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"

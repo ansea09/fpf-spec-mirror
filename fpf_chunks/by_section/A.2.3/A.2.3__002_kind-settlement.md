@@ -6,12 +6,12 @@ section_id: "A.2.3:0.1"
 section_title: "Kind Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__002_kind-settlement.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:0.1 — Kind Settlement"
-line_start: 4119
-line_end: 4122
+line_start: 4126
+line_end: 4129
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,5 +58,5 @@ keywords:
 
 ### A.2.3:0.1 - Kind Settlement
 
-`U.PromiseContent` is a dependent durable promised-outcome episteme under the episteme settlement. It is not a root beside `U.Episteme`, not a commitment, not work, and not a `U.PresentationCarrier`.
+`U.PromiseContent` is a dependent durable promised-outcome episteme under the episteme settlement.
 

@@ -6,12 +6,12 @@ section_id: "B.3.5:12"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:12 — Common Anti-Patterns and How to Avoid Them"
-line_start: 40349
-line_end: 40357
+line_start: 40354
+line_end: 40362
 dependencies:
   - "B.3"
   - "C.13"

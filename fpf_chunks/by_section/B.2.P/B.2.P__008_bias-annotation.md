@@ -6,12 +6,12 @@ section_id: "B.2.P:5.7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__008_bias-annotation.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:5.7 — Bias-Annotation"
-line_start: 38610
-line_end: 38619
+line_start: 38615
+line_end: 38624
 dependencies:
   - "A.1.1"
   - "A.10"

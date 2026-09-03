@@ -6,12 +6,12 @@ section_id: "A.15.3:12b"
 section_title: "Lowering, repair, and refresh conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__015_lowering-repair-and-refresh-conditions.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:12b — Lowering, repair, and refresh conditions"
-line_start: 26167
-line_end: 26174
+line_start: 26172
+line_end: 26179
 dependencies:
   - "A.15.1"
   - "A.15.2"

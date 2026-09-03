@@ -6,12 +6,12 @@ section_id: "A.3.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__010_consequences.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:9 — Consequences"
-line_start: 8898
-line_end: 8916
+line_start: 8905
+line_end: 8923
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -35,6 +35,7 @@ dependencies:
   - "E.24.PUB"
   - "E.24.UK"
   - "F.18"
+  - "F.19"
   - "F.6"
   - "F.9"
   - "U.Method"
@@ -57,7 +58,7 @@ keywords:
 | Audits can distinguish description, plan, work, evidence, and authority. | The first repair is to identify the claim-bearing episteme, its Method, and one substantive method claim; replacing vocabulary is not enough. |
 | Software, lab, industrial, organizational, and proof-centered descriptions can be compared under one FPF kind. | Some files contain several current claims and must be split into several subject-pattern statements. |
 | Equivalent descriptions can be declared without forcing identical notation. | Equivalence and refinement need local criteria. |
-| Declarative representations can be used without being turned into ordered work-control claims. | Route-like language needs `C.2.P.DR` or an exact subject assertion with its defining or constraining ClaimGraph. |
+| Declarative representations can be used without being turned into ordered work-control claims. | An order inferred solely from form or layout needs `C.2.P.DR`; a supported order needs its subject assertion with its defining or constraining ClaimGraph. |
 
 #### A.3.2:9.1 - Quick use cards
 

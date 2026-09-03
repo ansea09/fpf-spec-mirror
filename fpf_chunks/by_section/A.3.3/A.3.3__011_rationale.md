@@ -6,12 +6,12 @@ section_id: "A.3.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__011_rationale.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:10 — Rationale"
-line_start: 9241
-line_end: 9246
+line_start: 9248
+line_end: 9253
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -38,6 +38,7 @@ dependencies:
   - "E.10.ARCH"
   - "E.20"
   - "F.18"
+  - "F.19"
   - "U.ClaimScope"
   - "U.Mechanism"
   - "U.Method"
@@ -57,7 +58,7 @@ keywords:
 
 ### A.3.3:10 - Rationale
 
-FPF needs `U.Dynamics` because many practical questions are not about what an agent should do, but about how a state changes when the world evolves, a model is simulated, evidence arrives, a resource pool fluctuates, or an architecture changes. Those questions need a law of change, not a procedure, not a work log, and not a promise.
+FPF needs `U.Dynamics` for practical questions about how a state changes when the world evolves, a model is simulated, evidence arrives, a resource pool fluctuates, or an architecture changes. Those questions need a law of change.
 
-The pattern is deliberately broad because state-change reasoning appears in physics, control, software operations, reliability, strategy, architecture, and knowledge work. The shared kernel is not a universal notation. It is the distinction between state-space, transition law, observation relation, applicability window, and related governed claim families such as method, work, evidence, assurance, and gate use. An actual transformation remains a different world-side occurrence: its exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification are governed by `A.3.4`, not supplied by the dynamics episteme.
+The pattern is deliberately broad because state-change reasoning appears in physics, control, software operations, reliability, strategy, architecture, and knowledge work. The shared kernel is the distinction between state-space, transition law, observation relation, applicability window, and related governed claim families such as method, work, evidence, assurance, and gate use. An actual transformation remains a different world-side occurrence: its exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification are governed by `A.3.4`.
 

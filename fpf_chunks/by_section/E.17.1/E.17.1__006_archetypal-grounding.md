@@ -6,12 +6,12 @@ section_id: "E.17.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__006_archetypal-grounding.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:5 — Archetypal Grounding"
-line_start: 82092
-line_end: 82100
+line_start: 82101
+line_end: 82109
 dependencies:
   - "A.16.0"
   - "A.22"

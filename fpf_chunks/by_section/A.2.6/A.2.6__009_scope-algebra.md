@@ -6,12 +6,12 @@ section_id: "A.2.6:7"
 section_title: "Scope Algebra"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__009_scope-algebra.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:7 — Scope Algebra"
-line_start: 5563
-line_end: 5662
+line_start: 5569
+line_end: 5668
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -43,7 +43,7 @@ For exact slice `x` and scope `S`, evaluate `member(x, S)`.
 
 For a finite target set `T : ContextSliceSet`, `coversSet(S,T)` abbreviates `for every x in T, member(x,S)`. Scope-to-scope `scopeSubset(S1,S2)` instead means `for every x, member(x,S1) implies member(x,S2)`. A target set is neither a scope nor a substitute for one. There is no “close enough” membership and no implicit widening.
 
-Membership evaluation work, its inputs and A.6.1 bindings, an optional C.2.1 result episteme, and a C.29 table remain neighboring objects. None changes predicate truth by being performed, recorded, or displayed.
+Membership evaluation work, its inputs and A.6.1 bindings, an optional C.2.1 result episteme, and a C.29 table remain neighboring objects.
 
 #### A.2.6:7.2 - Serial Composition (Intersection)
 
@@ -98,7 +98,7 @@ Use translation only when ordinary designation resolution cannot settle the exac
 
 1. resolve the source and receiving F.17 `SchemeSenseCell` values and name the exact obtaining F.9 Bridge that relates them;
 2. state the proposed scope translation separately: name the source scope, target scheme, source-to-receiving direction, scope-correspondence rule, and tolerated loss, then cite the exact current C.2.1 claim with that Bridge as EntityOfConcern and affirmative polarity for this use;
-3. before a guard relies on the claim, require the exact A.10 evidence-provenance relation plus `RelianceDisposition=pass` for this bounded use; if an actual named assurance claim is current, require its B.3 `AssuranceResult` for that same use with `disposition=supported-for-use`; and
+3. before a guard relies on the claim, require the exact A.10 evidence-provenance relation for this bounded use; ordinary reliance requires `RelianceDisposition=pass`; when an actual named assurance claim is current, require its B.3 `AssuranceResult` for that same use with `disposition=supported-for-use`; and
 4. use `translate(Bridge, UseClaim, SourceScope, TargetReferenceScheme)` as the C.29 mathematical representation, or invoke `deriveTranslatedScope` with those same four values when one actual calculation and returned scope are needed.
 
 The Bridge establishes the direct semantic correspondence. The separate claim selects this translation's direction, rule, and tolerance. A Bridge profile, Bridge Card, reference-scheme difference, project label, or slice designator cannot supply that claim or its reliance basis. A missing or non-obtaining Bridge blocks the semantic branch. A missing or non-affirmative use claim blocks reliance. A non-passing A.10 disposition blocks ordinary reliance; when an actual named assurance claim is current, a B.3 result other than `supported-for-use` stops or narrows the assurance-bearing use. None of these outcomes makes an otherwise obtaining Bridge false.
@@ -107,7 +107,7 @@ An A.10 `pass`, or a B.3 `AssuranceResult` with `disposition=supported-for-use`,
 
 #### A.2.6:7.6 - Δ‑Operations (Widen, Narrow, Refit)
 
-* **Δ‑G+ (widen).** Monotone expansion: `S subsetOf S-prime`. Every added slice requires direct support under the receiving use; a Bridge and affirmative translation-use claim can define a mapping but supply no such support by themselves.
+* **Δ‑G+ (widen).** Monotone expansion: `S proper-subset S-prime`. Every added slice requires direct support under the receiving use; a Bridge and affirmative translation-use claim can define a mapping but supply no such support by themselves.
 * **ΔG− (narrow).** Monotone restriction: `S′ ⊂ S`. Often used to remove areas invalidated by new findings.
 * **Refit.** A different expression or parameterization designates the same extensional scope after normalization (for example, changing units or factoring common predicates). Refit MUST NOT alter membership and does not create another scope value.
 
@@ -128,6 +128,6 @@ An A.10 `pass`, or a B.3 `AssuranceResult` with `disposition=supported-for-use`,
 
 #### A.2.6:7.8 - Empty & Partial Scopes
 
-* **Empty scope (`∅`).** No slice satisfies the declared predicate. A receiving guard stops; this does not identify a context, structure, or complement entity.
+* **Empty scope (`∅`).** No slice satisfies the declared predicate. A receiving guard stops.
 * **Partial scope.** Publishers SHOULD avoid “global” language when actual scope is thin; instead, publish explicit slices and (informatively) coverage hints to guide R assessment.
 

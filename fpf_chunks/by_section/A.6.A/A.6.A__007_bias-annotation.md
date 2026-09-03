@@ -6,12 +6,12 @@ section_id: "A.6.A:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__007_bias-annotation.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:6 — Bias-Annotation"
-line_start: 18184
-line_end: 18198
+line_start: 18189
+line_end: 18203
 dependencies:
   - "A.15"
   - "A.16"

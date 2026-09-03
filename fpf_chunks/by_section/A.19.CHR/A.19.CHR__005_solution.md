@@ -6,12 +6,12 @@ section_id: "A.19.CHR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__005_solution.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:4 — Solution"
-line_start: 32154
-line_end: 32562
+line_start: 32159
+line_end: 32567
 dependencies:
   - "A.15.3"
   - "A.19"

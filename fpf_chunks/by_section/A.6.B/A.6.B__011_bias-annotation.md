@@ -6,12 +6,12 @@ section_id: "A.6.B:9"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__011_bias-annotation.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:9 — Bias‑Annotation"
-line_start: 11712
-line_end: 11719
+line_start: 11717
+line_end: 11724
 dependencies:
   - "A.10"
   - "A.2.3"

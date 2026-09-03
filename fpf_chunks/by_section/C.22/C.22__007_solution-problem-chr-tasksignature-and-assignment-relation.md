@@ -6,12 +6,12 @@ section_id: "C.22:5"
 section_title: "Solution — Problem CHR, TaskSignature, and assignment relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__007_solution-problem-chr-tasksignature-and-assignment-relation.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:5 — Solution — Problem CHR, TaskSignature, and assignment relation"
-line_start: 51719
-line_end: 51897
+line_start: 51726
+line_end: 51904
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -75,7 +75,7 @@ More fields, publication packaging, name cards, or telemetry do not make the pro
 * **`Constraints`** — explicit hard and soft constraint classes (feasibility predicates; **ResourceEnvelope** and **RiskEnvelope**). **Acceptance-gate thresholds live in `G.4` only; never inside CHR or code paths.**
 * `ShiftClass` and stationarity — CHR‑typed claims about regime stability (iid | covariate‑shift | concept‑drift | adversarial). Default=`unknown`. The cited acceptance or selector policy governs the consequence of that unknown for its receiving use.
 * **Evidence and assurance (conditional).** Include an exact **A.10** evidence-use or provenance relation only when the receiving use relies on it. State source edition, currentness, or freshness only to the degree that reliance requires. Open **B.3** only for a named assurance claim or material-reliance threshold, and use only the assurance lanes and fold that its declared policy requires. A TaskSignature by itself requires neither all TA/VA/LA lanes nor a Gamma-fold.
-* `ScopeSlice(G)` — the **USM claim-bounding scope cut** over **EntityOfConcernRef and scope** (discipline governance in **CG‑Spec**; Domain is a catalog mark only).
+* `ScopeSlice(G)` — the A.2.6 **`U.ClaimScope` value** that bounds this declaration's claims about **`EntityOfConcernRef`** (discipline governance in **CG‑Spec**; Domain is a catalog mark only).
 * `SizeAndConditionProfile` — size and condition proxies (**n, m, kappa, sparsity**) with **declared units**; a unit mismatch makes the current comparison unsupported until the direct acceptance or selector policy supplies its governed result.
 * **`Freshness` (conditional)** — the validity window for a descriptor only when the receiving use relies on its currentness.
 * `Missingness` — **MCAR, MAR, or MNAR** (or mapped equivalents) per **CHR.Missingness**; Acceptance and flow use preserve the declared missingness semantics.

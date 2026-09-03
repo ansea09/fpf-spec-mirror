@@ -6,12 +6,12 @@ section_id: "A.3.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__013_relations.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:12 — Relations"
-line_start: 9259
-line_end: 9265
+line_start: 9266
+line_end: 9272
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -38,6 +38,7 @@ dependencies:
   - "E.10.ARCH"
   - "E.20"
   - "F.18"
+  - "F.19"
   - "U.ClaimScope"
   - "U.Mechanism"
   - "U.Method"
@@ -60,5 +61,5 @@ keywords:
 * **Builds on:** `C.2.1` for the same episteme's identity and any exact empirical-grounding or edition relation; `A.19` and `C.16` for characteristics, units and measurement meanings when current; `A.2.6` for an exact `U.ClaimScope`; and direct source or publication machinery only when those claims are current.
 * **Coordinates with:** `A.3.1 U.Method`; `A.3.2 U.MethodDescription`; `B.1.5` for composite Method construction; `A.22` for an independently selected Structure; `A.1.1` only when an independently selected bounded-model-use structure or obtaining model-use relation changes the receiving use; `A.3.4 U.Transformation`; `A.15.2 U.WorkPlan`; `A.15.1 U.Work`; `A.6.1 U.Mechanism`; `E.20`; `C.27.TA`; `C.27`; `C.29`; `A.10`; `B.3`; `A.20`; `A.21`; and architecture patterns when dynamics describes architecture-characteristic change.
 * **Separates from:** services and promise content; PBS and SBS structural breakdowns; causal-use claims; gate authority; assurance arguments; publication-use claims.
-* **Uses for precision restoration:** `E.10`, `E.10.ARCH`, `F.18`, and `C.2.P.DR` when source labels hide whether the claim is law, method, method description, mechanism, work, evidence, authority, or dynamics.
+* **Uses for precision restoration:** `F.19` for a connected wording repair. If source labels still hide whether the claim is law, method, method description, mechanism, work, evidence, authority, or dynamics, use the applicable `E.10`, `E.10.ARCH`, or `C.2.P.DR` pattern; use `F.18` for a durable reusable name.
 

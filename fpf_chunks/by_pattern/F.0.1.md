@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.0.1.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
-line_start: 92670
-line_end: 92920
+line_start: 92679
+line_end: 92929
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -31,7 +31,7 @@ keywords:
 ## F.0.1 - Source-Local Meaning Recovery
 
 > **Type:** Architectural (A)
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### F.0.1:1 - Problem frame

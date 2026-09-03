@@ -6,7 +6,7 @@ section_id: "A.1.STM:6"
 section_title: "Direct exits and near misses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__008_direct-exits-and-near-misses.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:6 — Direct exits and near misses"
@@ -43,8 +43,8 @@ keywords:
 | Current question | Leave through | Near miss blocked here |
 | --- | --- | --- |
 | Is this exact existing entity a system? | A.1 and A.1.SCR | A noun, diagram box, plan, system-role label or assignment, or capability does not establish systemhood. |
-| Which omitted Systems may undergo relevant changes that alter the current decision or investigation? | A.1.CSD | A long-map position, participant list, or diagram edge neither discovers all bearers nor makes a possible path obtain. |
-| Which system is this project about? | A.15.6 | Project designation does not create system identity, a system-role kind, or a system-role assignment. |
+| Which omitted Systems may undergo relevant changes that alter the current decision or investigation? | A.1.CSD | Use the current frame as a starting point for A.1.CSD's bounded search; keep possible paths modal until their direct predicates are supported. |
+| Which system is this project about? | A.15.6 | Keep system identity, project designation, system-role-kind interpretation, and any system-role assignment distinct. |
 | What is promised, provided, connected, permitted, or stopped? | A.6.P §4.11a, then its subject pattern | *Service* or *access* does not select a system or one service bundle. |
 | Which inside could support the outside use? | C.32.P2S and C.30 family | Architecture chosen before a stated outside-use hypothesis must return to that missing basis. |
 | What actual runtime change and system participation obtain? | A.3.4 and the exact dynamics, interaction, causality, participation, assignment, Method, or Work pattern needed by the claim | An expected effect, required behaviour, observed output, or project designation proves neither an actual change nor an actor-side or Work claim. |

@@ -6,12 +6,12 @@ section_id: "C.23:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__011_relations.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:10 — Relations"
-line_start: 53356
-line_end: 53362
+line_start: 53363
+line_end: 53369
 dependencies:
   - "A.10"
   - "B.3"

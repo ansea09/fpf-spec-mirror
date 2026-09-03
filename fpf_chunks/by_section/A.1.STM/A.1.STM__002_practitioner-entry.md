@@ -6,7 +6,7 @@ section_id: "A.1.STM:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__002_practitioner-entry.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:0 — Practitioner entry"
@@ -48,9 +48,9 @@ keywords:
 
 > Start with the change needed outside the system the project is about. Choose that system and its boundary by that use; only then choose its inside. Ask how it will be made or changed, who or what can do that work, and what must make or change those builders. Read backward to the first unsupported answer. Follow real work and changes forward; for each local result, name the supported next fact that connects it to production or change, release, runtime use, or the outside change—or stop where that fact is missing.
 
-This reminder is the Plain long mantra, not this pattern's `Solution`. It creates no Method, WorkPlan, Work, transformation, system, network, relation, evidence, assurance, or authority.
+This reminder is the Plain long mantra. Section 4 gives the working steps for using it.
 
 **Not this pattern when.** If the current question is already one system-recognition, project designation, service/access, architecture, Method, Work, transformation, TFS/network, causal-use, evidence, or assurance question, use that direct pattern and stop there. Do not traverse the long map merely because a project mentions a project system-of-interest.
 
-**What this buys.** The practitioner returns one located gap, one subject pattern, and one next question or action—or a truthful stop. The result is not a completed project model or a claim that the project is solved.
+**What this buys.** The practitioner returns one located gap, one subject pattern, and one next question or action—or a truthful stop.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.UK.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
-line_start: 92193
-line_end: 92669
+line_start: 92202
+line_end: 92678
 dependencies:
   - "A.1.1"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "A.3.4.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__004_forces.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:3 — Forces"
-line_start: 9706
-line_end: 9715
+line_start: 9711
+line_end: 9720
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,5 +52,5 @@ keywords:
 | One actual transformation and selected flow structure | `U.Transformation` identifies one independently grounded actual bounded change and establishes neither transformation parthood nor partlessness at the current resolution. `TransformationFlowStructure` positions, relates, or locates transformation loci and adjacent governed values; common structure membership establishes no transformation composition. |
 | Acting System and influence source | An assignment occurrence alone does not prove performance, and generic transformation participation does not prove action. Performed Work requires each precise performer's A.13 core and independent A.15.1 admission; add F.6 afterward only when precise assignment-bound attribution is current. Any Work-to-change relation required by the claim remains separate. A non-Work actor needs another exact direct actor-side relation. Every influence source keeps its own kind and exact relation. |
 | Formal and project-world change | A formal construction may be a transformation over a formal object, or it may be a mathematical description of project-world structure; the current object decides. |
-| Repair and readability | The repair must recover enough ontology for safe use without turning every ordinary sentence into a table. |
+| Repair and readability | Recover enough ontology for the current use. Record a repair note only when the receiving use needs inspectable detail. |
 

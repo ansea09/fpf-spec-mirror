@@ -6,12 +6,12 @@ section_id: "A.2.8:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__014_rationale.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:11 — Rationale"
-line_start: 6988
-line_end: 6991
+line_start: 6995
+line_end: 6998
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,5 +41,5 @@ keywords:
 
 ### A.2.8:11 - Rationale
 
-An individual duty is not whatever a normative-looking record names. Requiring an actual bearer, constitutive rule, and actual basis prevents description, assignment, and publication from becoming causes by form. Keeping assertion and evidence separate preserves both ontology and auditability. Keeping responsibility separate avoids replacing one ambiguous word with an equally ambiguous omnibus governance object.
+Requiring an actual bearer, constitutive rule, and actual basis prevents description, assignment, and publication from becoming causes by form. Keeping assertion and evidence separate preserves both ontology and auditability. Keeping responsibility separate avoids replacing one ambiguous word with an equally ambiguous omnibus governance object.
 

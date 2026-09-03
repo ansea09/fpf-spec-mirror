@@ -6,12 +6,12 @@ section_id: "A.6.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__005_solution.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:4 — Solution"
-line_start: 13025
-line_end: 13260
+line_start: 13030
+line_end: 13265
 dependencies:
   - "A.1"
   - "A.1.1"

@@ -6,12 +6,12 @@ section_id: "F.12:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__002_intent-applicability.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:1 — Intent & applicability"
-line_start: 96890
-line_end: 96897
+line_start: 96899
+line_end: 96906
 dependencies:
   - "A.10"
   - "A.15.1"

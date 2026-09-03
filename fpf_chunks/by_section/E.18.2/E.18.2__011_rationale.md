@@ -6,12 +6,12 @@ section_id: "E.18.2:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__011_rationale.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:8 — Rationale"
-line_start: 86913
-line_end: 86918
+line_start: 86922
+line_end: 86927
 dependencies:
   - "A.10"
   - "A.15"

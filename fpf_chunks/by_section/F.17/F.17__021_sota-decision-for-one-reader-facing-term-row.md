@@ -6,12 +6,12 @@ section_id: "F.17:16"
 section_title: "SoTA Decision for One Reader-Facing Term Row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__021_sota-decision-for-one-reader-facing-term-row.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:16 — SoTA Decision for One Reader-Facing Term Row"
-line_start: 99488
-line_end: 99503
+line_start: 99497
+line_end: 99512
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "B.2.P:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__009_conformance-checklist.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:6 — Conformance Checklist"
-line_start: 38620
-line_end: 38635
+line_start: 38625
+line_end: 38640
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.15.4:9.2"
 section_title: "P2W Result-Related Source Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__016_p2w-result-related-source-boundary.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:9.2 — P2W Result-Related Source Boundary"
-line_start: 26641
-line_end: 26646
+line_start: 26646
+line_end: 26651
 dependencies:
   - "A.10"
   - "A.13"

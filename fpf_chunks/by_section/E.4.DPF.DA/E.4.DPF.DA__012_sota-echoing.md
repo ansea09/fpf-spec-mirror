@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__012_sota-echoing.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:11 — SoTA-Echoing"
-line_start: 71932
-line_end: 71943
+line_start: 71939
+line_end: 71950
 dependencies:
   - "A.1.1"
   - "A.10"

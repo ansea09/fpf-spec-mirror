@@ -6,12 +6,12 @@ section_id: "G.9:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__005_intent.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:1 — Intent"
-line_start: 105447
-line_end: 105454
+line_start: 105456
+line_end: 105463
 dependencies:
   - "A.19"
   - "A.2.6"

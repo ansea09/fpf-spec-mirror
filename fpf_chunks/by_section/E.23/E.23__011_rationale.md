@@ -6,12 +6,12 @@ section_id: "E.23:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__011_rationale.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:10 — Rationale"
-line_start: 90377
-line_end: 90380
+line_start: 90386
+line_end: 90389
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"

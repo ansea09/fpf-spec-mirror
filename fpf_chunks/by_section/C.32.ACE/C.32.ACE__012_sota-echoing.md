@@ -6,12 +6,12 @@ section_id: "C.32.ACE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__012_sota-echoing.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:11 — SoTA-Echoing"
-line_start: 64843
-line_end: 64857
+line_start: 64850
+line_end: 64864
 dependencies:
   - "A.10"
   - "A.15.1"

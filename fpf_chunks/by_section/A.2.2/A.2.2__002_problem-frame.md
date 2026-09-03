@@ -6,12 +6,12 @@ section_id: "A.2.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__002_problem-frame.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:1 — Problem Frame"
-line_start: 3784
-line_end: 3802
+line_start: 3783
+line_end: 3801
 dependencies:
   - "A.15"
   - "A.2"
@@ -28,7 +28,7 @@ keywords:
 
 ### A.2.2:1 - Problem Frame
 
-In ordinary work, the same sentence often carries several typed values:
+These ordinary sentences make different claims about welding:
 
 - "The welding robot is the welder on this line."
 - "The welding robot can weld seam type W at 12 seams per minute."
@@ -39,7 +39,7 @@ In ordinary work, the same sentence often carries several typed values:
 Only the second sentence can support a `U.Capability` instance when the holder, Work family, envelope, measures, and currentness conditions are recoverable. The sentence itself is a statement about the capability instance. The others may state a local system-role assignment, MethodDescription, performed Work, or promise content. When FPF collapses them, project reasoning becomes brittle:
 
 1. **System-role assignment becomes fake ability.** “Assigned as verifier” is treated as “able to verify”.
-2. **Method description becomes fake ability.** A recipe or algorithm is treated as if it can execute itself.
+2. **Method description becomes fake ability.** A recipe or algorithm is treated as sufficient evidence of the holder's ability.
 3. **Past work becomes fake ability.** One successful work occurrence is treated as stable capacity.
 4. **Promise content becomes fake ability.** A service promise hides the real system envelope and measured bounds.
 5. **Description becomes fake holder.** A standard, report, model card, or dashboard is said to "have capability" because it is useful in a capability argument.

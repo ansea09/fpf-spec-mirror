@@ -6,12 +6,12 @@ section_id: "C.35:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__007_bias-annotation.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:6 — Bias-Annotation"
-line_start: 67482
-line_end: 67492
+line_start: 67489
+line_end: 67499
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

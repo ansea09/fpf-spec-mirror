@@ -6,12 +6,12 @@ section_id: "A.2.9:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 7658
-line_end: 7675
+line_start: 7671
+line_end: 7688
 dependencies:
   - "A.10"
   - "A.13"
@@ -48,9 +48,9 @@ keywords:
 
 | Anti-pattern                                                              | Why it fails                         | Repair                                                                                   |
 | ------------------------------------------------------------------------- | ------------------------------------ | ---------------------------------------------------------------------------------------- |
-| **Episteme- or assignment-as-actor** (“the specification or assignment approves”) | assigns agency to a description or relation | first admit the actual act through the independent A.13/A.15.1 route; then, only for a precise assignment-bound claim, use `actualPerformerSystemRef` for the A.13-qualified holder System and `performedUnderAssignmentRef` for the separately established F.6 relation; establish any required authority relation independently |
+| **Episteme or assignment in the actual-performer field** (`actualPerformerSystemRef` resolves to a spec or assignment) | an occurrence claim assigns Work to a description or relation | first admit the actual act through the independent A.13/A.15.1 route; use `actualPerformerSystemRef` for the A.13-qualified holder System; only for a precise assignment-bound claim, add `performedUnderAssignmentRef` for the separately established F.6 relation; establish any required authority relation independently |
 | **Kind/occurrence/record collapse** (`U.SpeechAct` used for all three)     | a complete record is mistaken for actual Work | reserve `U.SpeechAct` for the kind, identify `SA : U.SpeechAct` as the occurrence, and use `SpeechActRecord` only for claims about it |
-| **Carrier-as-act** (“the signed PDF is the approval”)                     | conflates carrier with act           | identify the actual speech-act occurrence; let its separate `SpeechActRecord` cite the PDF carrier and any utterance-description episteme |
+| **Carrier in the occurrence-reference field** (`speechActOccurrenceRef` resolves to a PDF carrier) | conflates carrier with act | identify the actual speech-act occurrence; let its separate `SpeechActRecord` cite the PDF carrier and any utterance-description episteme |
 | **Placeholder method as Work anchor**                                     | a fabricated description hides an unknown world-side relation | keep the unresolved claim and source-gap provenance in a separate candidate observation stub; do not call it a `SpeechActRecord` or use it for reliance; recover the actual Method relation before A.15.1 admission and creation of the complete record |
 | **`affected` as aboutness, target, and effect**                            | one field makes mention look like world-side change | state the utterance subject and intended institutional target separately; cite an exact obtaining change/effect relation only when one exists |
 | **Status claim listed as instituted effect**                              | a claim ID is mistaken for the status it describes | cite the exact status or publication relation occurrence; keep the C.2.1 claim and A.10 evidence separate |
@@ -60,5 +60,5 @@ keywords:
 | **Channel or carrier as act**                                            | transmission or evidence is mistaken for communicative Work | identify the exact speech-act occurrence; keep optional channel, utterance description, and carriers in their direct relations |
 | **Act carries obligations** (obligations embedded as prose in speech act) | collapses act and deontic relation | identify each separately obtaining `U.Commitment` relation occurrence instituted under the exact current rule |
 | **Gating without window**                                                 | cannot evaluate freshness            | add explicit `window` and reference it in the guard/checklist                            |
-| **Hidden multi-act** (one event silently creates multiple commitments)    | loses traceability; creates disputes | use one `actTypes` set for one communicative Work; identify several acts sharing a carrier only when distinct world-side grounds satisfy §4.1 |
+| **Untraced commitments** (several commitments attributed to one act without identifying each obtaining relation) | loses instituting-act traceability | use one `actTypes` set for one communicative Work and reference each separately obtaining commitment in `institutes.commitments`; identify several acts sharing a carrier only when distinct world-side grounds satisfy §4.1 |
 

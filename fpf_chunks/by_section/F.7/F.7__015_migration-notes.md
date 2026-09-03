@@ -6,12 +6,12 @@ section_id: "F.7:14"
 section_title: "Migration notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__015_migration-notes.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:14 — Migration notes"
-line_start: 95081
-line_end: 95089
+line_start: 95090
+line_end: 95098
 dependencies:
   - "A.6.9"
   - "B.3"

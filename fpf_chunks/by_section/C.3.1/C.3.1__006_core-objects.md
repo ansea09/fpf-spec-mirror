@@ -6,12 +6,12 @@ section_id: "C.3.1:4"
 section_title: "Core Objects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__006_core-objects.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:4 — Core Objects"
-line_start: 45499
-line_end: 45518
+line_start: 45504
+line_end: 45523
 dependencies:
   - "A.1"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "A.6.P:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 16399
-line_end: 16413
+line_start: 16404
+line_end: 16418
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"

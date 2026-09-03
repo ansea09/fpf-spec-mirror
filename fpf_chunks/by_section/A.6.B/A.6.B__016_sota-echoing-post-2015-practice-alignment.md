@@ -6,12 +6,12 @@ section_id: "A.6.B:14"
 section_title: "SoTA‑Echoing (post‑2015 practice alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__016_sota-echoing-post-2015-practice-alignment.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:14 — SoTA‑Echoing (post‑2015 practice alignment)"
-line_start: 11760
-line_end: 11772
+line_start: 11765
+line_end: 11777
 dependencies:
   - "A.10"
   - "A.2.3"

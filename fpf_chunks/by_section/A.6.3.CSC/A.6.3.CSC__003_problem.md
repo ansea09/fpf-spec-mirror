@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__003_problem.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:2 — Problem"
-line_start: 14197
-line_end: 14210
+line_start: 14202
+line_end: 14215
 dependencies:
   - "A.15"
   - "A.20"

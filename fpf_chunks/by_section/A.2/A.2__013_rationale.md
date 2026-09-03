@@ -6,12 +6,12 @@ section_id: "A.2:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__013_rationale.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:11 — Rationale"
-line_start: 3367
-line_end: 3381
+line_start: 3366
+line_end: 3380
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -50,7 +50,7 @@ The architecture therefore keeps these levels separate:
 3. any directly declared `U.SystemRoleAssignment` occurrence;
 4. direct neighboring relations for state, capability, Method, Work, responsibility, commitment, permission, authority, evidence, reliance, description, and publication.
 
-A system-role kind is not a holon merely because its description has internal fields. Proposed “parts” repeatedly resolve into other kinds, relation predicates, assignments, Method or Work structures, or parts of description epistemes. The useful structure is the exact relation structure governed by A.2.7, not role mereology.
+Fields in a `SystemRoleKindDescription` belong to the description episteme. Proposed “parts” repeatedly resolve into other kinds, relation predicates, assignments, Method or Work structures, or parts of description epistemes. The useful structure is the exact relation structure governed by A.2.7, not role mereology.
 
 Semantic locality needs no universal context participant. C.3's candidate domain, operative membership distinction, boundary probes, and continuity rule recover the kind. A practice or source reference locates the definition and warns where comparison may be needed; it is not an identity participant. An assignment species declares only its real participants. A receiving assertion or use can cite a selected model-use structure when that structure actually changes interpretation.
 

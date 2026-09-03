@@ -6,12 +6,12 @@ section_id: "C.11.CRC:9"
 section_title: "Consequences and Reopen Condition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__011_consequences-and-reopen-condition.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:9 — Consequences and Reopen Condition"
-line_start: 47768
-line_end: 47775
+line_start: 47775
+line_end: 47782
 dependencies:
   - "A.1.CSD"
   - "A.10"

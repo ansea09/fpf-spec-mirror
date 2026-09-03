@@ -6,12 +6,12 @@ section_id: "A.3.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__002_use-this-when.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:0 — Use This When"
-line_start: 9274
-line_end: 9310
+line_start: 9281
+line_end: 9317
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,7 +64,7 @@ Use it when the working question is:
 - what temporal extent, formal ordering, or continuity rule identifies this occurrence;
 - which additional claim, if any, is actually being made about method, planned work, performed work, mechanism, flow structure, representation, evidence, publication, or a later use, and which pattern answers that claim.
 
-**Primary EntityOfConcern.** One actual `U.Transformation`: the bounded occurrence, not the sentence, plan, trace, formula, or record about it. A task, method, plan, desired state, work occurrence, operation family, morphism, predicate, delta formula, assertion, before-and-after picture, or result record neither proves that the change occurred nor identifies it. Use those objects only in their separate claims about planning, enactment, representation, evidence, or later use.
+**Primary EntityOfConcern.** One actual `U.Transformation`: the bounded occurrence identified through the five checks in 4.1. Identify the objects needed for separate planning, enactment, representation, evidence, or later-use claims under their own patterns.
 
 **Primary working reader.** A practitioner or modeler who must identify one actual change for a current engineering, scientific, formal, documentary, or architectural use before relating it to method, work, flow, evidence, or production. The informative parked-composition branch additionally addresses an FPF author or reviewer only when that use asks whether several changes compose one change or whether that whole could satisfy A.1.
 

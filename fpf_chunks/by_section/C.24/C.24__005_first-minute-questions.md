@@ -6,12 +6,12 @@ section_id: "C.24:0.3"
 section_title: "First-minute questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__005_first-minute-questions.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:0.3 — First-minute questions"
-line_start: 53415
-line_end: 53422
+line_start: 53422
+line_end: 53429
 dependencies:
   - "A.10"
   - "A.15"

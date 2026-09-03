@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__007_bias-annotation.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:6 — Bias-Annotation"
-line_start: 15596
-line_end: 15607
+line_start: 15601
+line_end: 15612
 dependencies:
   - "A.10"
   - "A.22.CGUS"

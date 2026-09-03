@@ -6,12 +6,12 @@ section_id: "A.2.6:19"
 section_title: "Annexes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__021_annexes-informative.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:19 — Annexes (informative)"
-line_start: 6012
-line_end: 6057
+line_start: 6019
+line_end: 6064
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -75,5 +75,5 @@ def evaluate_membership(scope, target_slice, available_inputs):
     return TRUE if scope.predicate(target_slice) else FALSE
 ```
 
-`required_selectors` returns the projection needed by this scope predicate; it neither creates nor reidentifies `target_slice`. `UNKNOWN` belongs to the evaluation result because a required input is unavailable. The underlying membership predicate remains bivalent for an exact, fully interpreted scope and slice.
+`required_selectors` returns the projection needed by this scope predicate. `UNKNOWN` belongs to the evaluation result because a required input is unavailable. The underlying membership predicate remains bivalent for an exact, fully interpreted scope and slice.
 

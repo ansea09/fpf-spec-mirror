@@ -6,12 +6,12 @@ section_id: "G.12:10"
 section_title: "Author's Quick Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__012_author-s-quick-checklist.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:10 — Author's Quick Checklist"
-line_start: 107050
-line_end: 107058
+line_start: 107059
+line_end: 107067
 dependencies:
   - "A.19"
   - "A.2.6"

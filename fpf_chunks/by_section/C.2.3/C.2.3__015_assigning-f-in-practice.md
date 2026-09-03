@@ -6,12 +6,12 @@ section_id: "C.2.3:14"
 section_title: "Assigning F in Practice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__015_assigning-f-in-practice.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:14 — Assigning F in Practice"
-line_start: 43832
-line_end: 43864
+line_start: 43837
+line_end: 43869
 dependencies:
   - "A.16"
   - "A.18"

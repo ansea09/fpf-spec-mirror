@@ -6,12 +6,12 @@ section_id: "E.8:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__011_bias-annotation.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:6 — Bias-Annotation"
-line_start: 73660
-line_end: 73663
+line_start: 73667
+line_end: 73670
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -55,6 +55,6 @@ keywords:
 ---
 
 ### E.8:6 - Bias-Annotation
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for the authoring conventions in this pattern.
+Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for the authoring conventions in this pattern.
 This guidance biases toward **Did** (readability, narrative flow) and **Arch** (template regularity) by design; the mitigation is content-bearing reduced sections and justification through the smallest grounding, misuse, boundary, or reduced-case statement, not omission placeholders.
 

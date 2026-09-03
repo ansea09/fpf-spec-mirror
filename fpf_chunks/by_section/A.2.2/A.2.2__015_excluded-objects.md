@@ -6,12 +6,12 @@ section_id: "A.2.2:14"
 section_title: "Excluded Objects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__015_excluded-objects.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:14 — Excluded Objects"
-line_start: 4096
-line_end: 4112
+line_start: 4103
+line_end: 4119
 dependencies:
   - "A.15"
   - "A.2"
@@ -41,5 +41,5 @@ Do not use `U.Capability` as the current object for:
 - capability-fit predicate, gate, admission relation, or work-entry readiness record;
 - structural part, module, interface, port, or functional structure unless the current claim is the ability of a holder system expressed through that structure.
 
-These values may be related to a capability instance, a statement about it, or a fit check over it. They do not become the capability by adjacency. Name the neighboring value, record, relation, or predicate through its own governing pattern when that neighboring claim is current.
+These values may be related to a capability instance, a statement about it, or a fit check over it. Name the neighboring value, record, relation, or predicate through its own governing pattern when that neighboring claim is current.
 

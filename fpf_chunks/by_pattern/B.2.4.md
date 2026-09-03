@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.4.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
-line_start: 39120
-line_end: 39317
+line_start: 39125
+line_end: 39322
 dependencies:
   - "A.10"
   - "A.15"

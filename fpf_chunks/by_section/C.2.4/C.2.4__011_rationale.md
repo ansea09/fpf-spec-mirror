@@ -6,12 +6,12 @@ section_id: "C.2.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__011_rationale.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:10 — Rationale"
-line_start: 44287
-line_end: 44289
+line_start: 44292
+line_end: 44294
 dependencies:
   - "A.15"
   - "A.15.1"

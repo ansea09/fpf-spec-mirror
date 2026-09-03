@@ -6,7 +6,7 @@ section_id: "A.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__006_solution.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:4 — Solution"
@@ -132,9 +132,9 @@ Assignment does not prove classification unless the kind's signature uses that i
 | Responsibility, commitment, permission, or authority | direct domain pattern, `A.2.8`, `A.2.8.PER`, or `missing-governor` | actual bearer, exact relation participants, predicate, and instituting or permission basis |
 | Evidence, reliance, or publication | `A.10`, `A.15.4`, `B.3`, `C.2.1`, `E.17`, `F.10` | episteme, evidenced claim, reliance, provenance, currentness, and publication relation |
 
-Select only the objects needed by the current claim. A large neighborhood is not a larger kind, and none of these values is a “part of the role”.
+Select only the objects needed by the current claim. None of these values is a “part of the role”.
 
-`SystemRoleKindDescription` is an F.4 description episteme whose exact EntityOfConcern is one system-role kind. An episteme about an assignment or a relation among kinds has that assignment or relation as its EntityOfConcern instead. Teaching from, storing, or publishing any such description does not make it the described kind or occurrence.
+`SystemRoleKindDescription` is an F.4 description episteme whose exact EntityOfConcern is one system-role kind. An episteme about an assignment or a relation among kinds has that assignment or relation as its EntityOfConcern instead.
 
 #### A.2:4.7 - Recover Contribution Wording before Formalizing It
 
@@ -147,11 +147,11 @@ The phrase “the role of X” often means that X contributes to a use. Apply `E
 | `this parameter has the control role` | Recover the Method or model parameter, or an A.6.5 participant slot, from the direct declaration. |
 | `this interface plays the integration role` | Recover the selected module-interface, port, signature, or protocol relation under its governor. |
 
-The alternatives are recognition probes, not a union kind. If no direct relation can yet be named, return the exact `missing-governor` rather than minting a system-role kind.
+Use these recognition probes to identify the relation in the current claim. If no direct relation can yet be named, return the exact `missing-governor` rather than minting a system-role kind.
 
 #### A.2:4.8 - System-Role Vocabularies and Relations among Kinds
 
-A system-role-vocabulary or taxonomy episteme may state local kind names, declarations, and selected relation claims under an effective reference scheme. Those statements create no kind, membership result, or assignment, and making the episteme available creates none either. Each live kind still needs the C.3 distinction that lets readers recover it; each judgment cites its actual signature edition.
+A system-role-vocabulary or taxonomy episteme may state local kind names, declarations, and selected relation claims under an effective reference scheme. Each live kind needs the C.3 distinction that lets readers recover it; each judgment cites its actual signature edition. An assignment claim separately requires an obtaining A.2.1 relation.
 
 Use `A.2.7` to state one selected `SystemRoleKindRelationStructure` over exact local system-role kinds and admitted relations among them. A receiving use can cite an assertion about substitution, incompatibility, bundle, qualification, or another residual relation alongside separately stated assignments, state, capability, and Work. Systems and assignments are not participants of the kind-relation structure.
 
@@ -162,7 +162,7 @@ Algebraic, graph, matrix, embedding, or neural representations are mathematical 
 | `CoolingCirculatorSystemRole` | A pump supplies a circulation contribution in plant operation. | Capability, assignment, functioning, and performed Work remain separate. |
 | `TestArticleSystemRole` | The same pump is selected for qualification use. | The classification or assignment does not change pump identity. |
 | `VerifierSystemRole` | A person, team, organization, service, or non-human technical system supplies verification contribution under its local criterion. | A verification report is an episteme, not the classified system. |
-| `TransformerSystemRole` | A system is classified for a transformation-facing contribution. | The system performs Work; the kind and assignment do not act. |
+| `TransformerSystemRole` | A system is classified for a transformation-facing contribution. | For performed Work, name the performer system. |
 
 #### A.2:4.9 - Reduced Use and Stronger Claims
 

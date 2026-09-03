@@ -6,7 +6,7 @@ section_id: "A.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__002_use-this-when.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:0 — Use This When"
@@ -48,7 +48,7 @@ Use this pattern when one admitted `U.System` can contribute to different work o
 - which exact work-facing kind the system counts under now; or
 - which system-role assignment actually obtains.
 
-A system here is any individual independently admitted by A.1. It can be a person, team, organization, service, organism, or non-human technical object. The `SystemRole` head in a name such as `ReviewerSystemRole` says that candidates are systems; it does not admit the candidate, create an assignment, imply agency or capability, prove that Work occurred, or name a relation slot.
+A system here is any individual independently admitted by A.1. It can be a person, team, organization, service, organism, or non-human technical object. The `SystemRole` head in a name such as `ReviewerSystemRole` says that candidates are systems.
 
 Typical moments:
 

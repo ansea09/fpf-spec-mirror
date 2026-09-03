@@ -6,7 +6,7 @@ section_id: "A.1.CSD:10"
 section_title: "Conditional Consumer Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__013_conditional-consumer-boundary.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:10 — Conditional Consumer Boundary"
@@ -46,5 +46,5 @@ The core account ends before stronger neighboring claims. Continue only when the
 | How does a finite configuration change compare, and what is chosen? | `C.11.CRC`, then `C.11`. |
 | Does a later question concern value, benefit, harm, responsibility, admissible sacrifice, or an actual interlevel conflict? | Enter through `D.1`; use `D.2` for multilevel entry, `D.3` for an actual conflict description, `D.4` for mediation or decision use, and `D.5` for its bounded audits. |
 
-For the last branch, one admissible D.1 value-frame edition is multilevel holonic consequentialism: inspect consequences for every constructively identified affected holon without automatic priority for a person, collection, or larger whole. That frame is conditional and plural under D.1. It adds no field to the A.1.CSD account and makes no conflict, priority, or decision by itself.
+For the last branch, one admissible D.1 value-frame edition is multilevel holonic consequentialism: inspect consequences for every constructively identified affected holon without automatic priority for a person, collection, or larger whole. That frame is conditional and plural under D.1. It adds no field to the A.1.CSD account. Establish any conflict, priority, or decision claim under its direct pattern.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.38.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
-line_start: 68219
-line_end: 68418
+line_start: 68226
+line_end: 68425
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -29,7 +29,7 @@ keywords:
 ## C.38 - Construct Comparable Ways to Obtain One Result
 
 > **Type:** Method pattern
-> **Status:** Candidate
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.38:1 - Problem frame

@@ -6,12 +6,12 @@ section_id: "A.2.5:0.1"
 section_title: "Kind Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__003_kind-settlement.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:0.1 — Kind Settlement"
-line_start: 4922
-line_end: 4941
+line_start: 4929
+line_end: 4948
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -34,7 +34,7 @@ keywords:
 
 ### A.2.5:0.1 - Kind Settlement
 
-`SystemRoleAssignmentStateRelation` is admitted as a direct relation kind under `U.Relation`. It is not a new root kind, a system-role kind, an assignment, a displayed state value, or a state graph.
+`SystemRoleAssignmentStateRelation` is admitted as a direct relation kind under `U.Relation`.
 
 `SystemRoleAssignmentStatePredicate` is a local ValueKind declared by this pattern, not another root U-kind. One predicate value is identified by:
 
@@ -50,5 +50,5 @@ A compatible semantic-basis edition preserves the predicate only through an expl
 
 A `SystemRoleAssignmentStateAssertion` is a `U.Episteme` whose EntityOfConcern is the exact assignment or an explicitly individuated state-relation occurrence, according to the claim. Its ClaimGraph names the predicate, direct claim family, and `assertionPolarity: affirmative | negative`. An affirmative claim may state a known actual extent only after A.2.5 independently establishes obtaining. A receiving evaluation may separately state its target window. Supported, refuted, or unresolved reliance belongs to `A.10` or a separately constituted evaluation result or reliance assertion. Assertion, reliance posture, evidence episteme, evidence-use relation, and world-side occurrence remain different objects.
 
-A representation episteme may describe predicates, possible configurations, and possible changes. A statechart or state-machine display is a mathematical or representational lens; neither the episteme nor its graph becomes a `SystemRoleAssignmentStateRelation` occurrence by displaying one.
+A representation episteme may describe predicates, possible configurations, and possible changes. A statechart or state-machine display is a mathematical or representational lens.
 

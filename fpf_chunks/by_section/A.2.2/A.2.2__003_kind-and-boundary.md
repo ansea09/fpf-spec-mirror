@@ -6,12 +6,12 @@ section_id: "A.2.2:2"
 section_title: "Kind and Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__003_kind-and-boundary.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:2 — Kind and Boundary"
-line_start: 3803
-line_end: 3859
+line_start: 3802
+line_end: 3858
 dependencies:
   - "A.15"
   - "A.2"
@@ -61,9 +61,9 @@ SupportAndUseReferencesAroundCapability:
   CapabilityFitConditionRefs?: admission predicates or gate relations that test this instance for a use
 ```
 
-**CapabilityHolderRef.** The holder is an admitted `U.System`: a physical, cyber, socio-technical, organizational, team, composite-cell, deployed-software, or other System satisfying A.1 for this claim. A local system-role kind, assignment, Method, MethodDescription, Work record, episteme, publication, standard, or dashboard is not the capability holder merely because it appears in the sentence.
+**CapabilityHolderRef.** The holder is an admitted `U.System`: a physical, cyber, socio-technical, organizational, team, composite-cell, deployed-software, or other System satisfying A.1 for this claim.
 
-**WorkFamilyOrResultClassRef.** The ability is about a class of work the holder system can perform or a result class it can produce. The envelope may cite the exact `U.Method` that prospective Work occurrences would enact, or a separately identified `U.MethodDescription` whose claims constrain the capability use. Those references do not turn the Method or description into the holder, do not make the holder enact the Method, and do not establish that any candidate episteme is `U.MethodDescription`.
+**WorkFamilyOrResultClassRef.** The ability is about a class of work the holder system can perform or a result class it can produce. The envelope may cite the exact `U.Method` that prospective Work occurrences would enact, or a separately identified `U.MethodDescription` whose claims constrain the capability use. For a candidate episteme, apply A.3.2 before calling it a `U.MethodDescription`.
 
 **CapabilityEnvelope.** The envelope states the bounded conditions under which the ability holds: input range, environment, resources, configuration, system version, calibration state, staffing composition, access constraints, safety limits, or other current conditions.
 
@@ -71,11 +71,11 @@ SupportAndUseReferencesAroundCapability:
 
 **QualificationWindow.** Capability is stable enough to plan with but not timeless. The instance may depend on software version, calibration horizon, team training state, wear, operating season, regulatory state, or other temporal currentness relation.
 
-**CapabilityStatementRefs.** A `CapabilityStatement` is a governed episteme or publication-side record that says a capability instance exists, describes its holder, envelope, measures, and window, or cites it for planning. It is not `U.Capability`, but it is still a governed record under its own episteme or publication pattern.
+**CapabilityStatementRefs.** A `CapabilityStatement` is a governed episteme or publication-side record that says a capability instance exists, describes its holder, envelope, measures, and window, or cites it for planning.
 
-**EvidenceRelationRefs and SourceUseRelationRefs.** Evidence, tests, certifications, prior work summaries, simulations, audit records, standards, and model results can justify a capability statement through direct evidence or source-use relations. These are governed relations or records. They do not become the capability and do not become its holder.
+**EvidenceRelationRefs and SourceUseRelationRefs.** Evidence, tests, certifications, prior work summaries, simulations, audit records, standards, and model results can justify a capability statement through direct evidence or source-use relations.
 
-**CurrentnessAssessmentRefs.** A currentness assessment is a dated assessment relation saying whether the capability instance remains usable under its qualification window and current conditions. It is not the capability instance, but it is still a governed assessment relation. `CapabilityCurrentnessCondition` states what must remain true; an assessment evaluates that condition.
+**CurrentnessAssessmentRefs.** A currentness assessment is a dated assessment relation saying whether the capability instance remains usable under its qualification window and current conditions. `CapabilityCurrentnessCondition` states what must remain true; an assessment evaluates that condition.
 
 **CapabilityFitConditionRefs.** A capability-fit condition is an admission predicate, threshold, or gate relation that tests a holder capability and any declared characteristic, Q-Bundle, or architecture-characteristic inputs against a current local system-role-kind classification, exact assignment, Method step, WorkPlan, Work occurrence, ClaimScope, qualification window, or gate need. Unless a separate E.24.UK admission is written, it is not a `U.*` kind.
 

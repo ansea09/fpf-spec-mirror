@@ -6,12 +6,12 @@ section_id: "A.2.5:7"
 section_title: "Archetypal Grounding and Bias Control"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__010_archetypal-grounding-and-bias-control.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:7 — Archetypal Grounding and Bias Control"
-line_start: 5142
-line_end: 5153
+line_start: 5149
+line_end: 5160
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -40,7 +40,7 @@ keywords:
 
 **Computational system.** A service or agent can expose a capability while each concrete action still needs current assignment, state predicate, task relation, and direct authorization or gate evaluation. This is one specialization, not the universal meaning of assignment state.
 
-**Episteme boundary.** A representation or evidence episteme can describe or support a state claim. It does not become the holder, assignment, predicate, or world-side occurrence by being visible.
+**Episteme boundary.** A representation or evidence episteme can describe or support a state claim.
 
 The main bias risk is label-first reasoning. A familiar state word invites the reader to skip predicate recovery. Repair it by recovering the assignment, predicate by value, actual state extent, and only the assertion and evidence-use relation needed by the receiving use.
 

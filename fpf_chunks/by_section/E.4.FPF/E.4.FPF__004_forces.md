@@ -6,12 +6,12 @@ section_id: "E.4.FPF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__004_forces.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:3 — Forces"
-line_start: 70439
-line_end: 70449
+line_start: 70446
+line_end: 70456
 dependencies:
   - "C.33"
   - "C.34"

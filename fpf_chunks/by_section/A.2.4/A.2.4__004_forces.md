@@ -6,12 +6,12 @@ section_id: "A.2.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__004_forces.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:3 — Forces"
-line_start: 4649
-line_end: 4659
+line_start: 4656
+line_end: 4666
 dependencies:
   - "A.10"
   - "A.2"
@@ -42,7 +42,7 @@ keywords:
 
 | Force | Tension this pattern resolves |
 | --- | --- |
-| Episteme identity versus episteme use | The same episteme can be used for several claims without becoming several epistemes, system-role-kind members, or system-role-assignment holders. |
+| Episteme identity versus episteme use | The same episteme can be used for several claims while retaining its identity. |
 | Compact evidence statement versus full evidence graph | Users need a small evidence-use statement first; `A.10` remains the pattern for full evidence-provenance graph detail. |
 | Formal proof versus empirical evidence | A proof can be stable inside one theory version; empirical evidence usually needs relevance windows, freshness, and provenance constraints. |
 | Status display versus status assertion | A visible badge, cell, or label can cue status but does not by itself create permission, gate passage, assurance, or work evidence. |

@@ -6,12 +6,12 @@ section_id: "C.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__004_forces.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:3 — Forces"
-line_start: 41805
-line_end: 41811
+line_start: 41810
+line_end: 41816
 dependencies:
   - "A.1"
   - "A.10"

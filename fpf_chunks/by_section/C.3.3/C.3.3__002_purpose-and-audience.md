@@ -6,12 +6,12 @@ section_id: "C.3.3:1"
 section_title: "Purpose and Audience"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__002_purpose-and-audience.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:1 — Purpose and Audience"
-line_start: 45875
-line_end: 45878
+line_start: 45880
+line_end: 45883
 dependencies:
   - "A.2.6"
   - "A.6.REL"

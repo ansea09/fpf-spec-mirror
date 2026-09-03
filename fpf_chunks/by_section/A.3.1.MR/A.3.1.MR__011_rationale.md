@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__011_rationale.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:10 — Rationale"
-line_start: 8584
-line_end: 8589
+line_start: 8591
+line_end: 8596
 dependencies:
   - "A.10"
   - "A.13"
@@ -28,7 +28,7 @@ keywords:
 
 ### A.3.1.MR:10 - Rationale
 
-This pattern fills the smallest transdisciplinary gap between evidence about Work and identification of a reusable Method. It does not create a recovered-method kind. A candidate account is an episteme about one provisionally distinguished possible reusable way. Method identity and MethodDescription membership remain later, separate judgments.
+This pattern fills the smallest transdisciplinary gap between evidence about Work and identification of a reusable Method. A candidate account is an episteme about one provisionally distinguished possible reusable way. Method identity and MethodDescription membership remain later, separate judgments.
 
 The one-account-per-candidate rule protects episteme subject truthfulness when evidence underdetermines the reusable way. The record-only branch protects utility when evidence is too weak. The specialist exit keeps ordinary recovery usable while preserving the larger evidence burden for domains that need it.
 

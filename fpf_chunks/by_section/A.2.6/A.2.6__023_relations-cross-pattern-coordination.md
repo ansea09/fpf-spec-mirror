@@ -6,12 +6,12 @@ section_id: "A.2.6:21"
 section_title: "Relations - Cross-Pattern Coordination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__023_relations-cross-pattern-coordination.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:21 — Relations - Cross-Pattern Coordination"
-line_start: 6150
-line_end: 6177
+line_start: 6157
+line_end: 6184
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -46,12 +46,12 @@ keywords:
 
 #### A.2.6:21.3 - With Work & Run (A.15)
 
-* **Work scope** delimits the exact job slices on which a capability's deliverability claim is evaluated; it is not the `U.Work` occurrence or its execution setting.
+* **Work scope** delimits the exact job slices on which a capability's deliverability claim is evaluated.
 * Method–Work gates use **Work scope coverage** plus **measures** and **qualification windows**.
 
 #### A.2.6:21.4 - With exact F.9 Bridge occurrences
 
-* **Translation boundary.** Use an exact F.9 Bridge only for exact local-sense translation. State the translation's direction, rule, tolerated loss, and polarity in a separate C.2.1 claim. Before the receiving use proceeds, require A.10 `pass` for ordinary reliance or, when an actual named assurance claim is current, a B.3 `AssuranceResult` for the same use with `disposition=supported-for-use`; none makes membership true or false by itself.
+* **Translation boundary.** Use an exact F.9 Bridge only for exact local-sense translation. State the translation's direction, rule, tolerated loss, and polarity in a separate C.2.1 claim. Before the receiving use proceeds, require A.10 `pass` for ordinary reliance or, when an actual named assurance claim is current, a B.3 `AssuranceResult` for the same use with `disposition=supported-for-use`.
 * **Best practice.** Return an explicitly narrower scope when the bounded-use claim's rule and tolerance support only a proper subset; do not turn observed mapping loss into a Bridge identity field or a generic R penalty.
 
 #### A.2.6:21.5 - With Capability governance (A.2.2)

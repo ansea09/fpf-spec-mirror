@@ -6,12 +6,12 @@ section_id: "A.2.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__006_forces.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:3 — Forces"
-line_start: 7396
-line_end: 7407
+line_start: 7409
+line_end: 7420
 dependencies:
   - "A.10"
   - "A.13"

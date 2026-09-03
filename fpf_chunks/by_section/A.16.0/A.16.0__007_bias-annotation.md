@@ -6,12 +6,12 @@ section_id: "A.16.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__007_bias-annotation.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:6 — Bias-Annotation"
-line_start: 28856
-line_end: 28858
+line_start: 28861
+line_end: 28863
 dependencies:
   - "A.16"
   - "A.16.1"

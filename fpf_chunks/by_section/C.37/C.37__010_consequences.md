@@ -6,12 +6,12 @@ section_id: "C.37:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__010_consequences.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:9 — Consequences"
-line_start: 68188
-line_end: 68193
+line_start: 68195
+line_end: 68200
 dependencies:
   - "A.10"
   - "A.2.4"

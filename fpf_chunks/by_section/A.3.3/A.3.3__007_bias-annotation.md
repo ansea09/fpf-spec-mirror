@@ -6,12 +6,12 @@ section_id: "A.3.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__007_bias-annotation.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:6 — Bias-Annotation"
-line_start: 9169
-line_end: 9179
+line_start: 9176
+line_end: 9186
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -38,6 +38,7 @@ dependencies:
   - "E.10.ARCH"
   - "E.20"
   - "F.18"
+  - "F.19"
   - "U.ClaimScope"
   - "U.Mechanism"
   - "U.Method"
@@ -64,5 +65,5 @@ Typical biases:
 * **dashboard-as-state-space bias**: visible metrics substitute for declared characteristics, units, scales, and comparability relations;
 * **prediction-as-authority bias**: model output is treated as permission, gate passage, or safety proof;
 * **mathematical-prestige bias**: equations, learned predictors, and simulations are accepted without applicability window, observation relation, and transfer boundary;
-* **semio-bias**: the pattern drifts into arguments about descriptions of dynamics while losing the state-space and transition-law EntityOfConcern.
+* **semio-bias**: the pattern drifts into arguments about descriptions of dynamics while losing the modelled subject, state space, and transition law.
 

@@ -6,12 +6,12 @@ section_id: "C.17:14"
 section_title: "SoTA-Echoing and source use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__016_sota-echoing-and-source-use.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:14 — SoTA-Echoing and source use"
-line_start: 49827
-line_end: 49839
+line_start: 49834
+line_end: 49846
 dependencies:
   - "A.0"
   - "A.1.1"

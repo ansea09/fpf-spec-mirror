@@ -6,12 +6,12 @@ section_id: "E.10.D1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__001_intro.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:intro — Intro"
-line_start: 77853
-line_end: 77858
+line_start: 77862
+line_end: 77867
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -38,6 +38,6 @@ keywords:
 ## E.10.D1 - Recovering What “Context” Means in Use
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative when *context* carries meaning needed by an FPF claim; informative for quoted source wording and ordinary prose that already makes its meaning clear.
 

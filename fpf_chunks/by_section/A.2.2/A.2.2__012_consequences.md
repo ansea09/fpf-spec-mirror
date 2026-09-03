@@ -6,12 +6,12 @@ section_id: "A.2.2:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__012_consequences.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:11 — Consequences"
-line_start: 4044
-line_end: 4061
+line_start: 4051
+line_end: 4068
 dependencies:
   - "A.15"
   - "A.2"
@@ -33,7 +33,7 @@ keywords:
 - Planning separates "can do" from "is assigned now".
 - Method steps can name capability thresholds without putting extra meaning into system-role-kind names.
 - Work records can be judged against the capability instance and fit predicate current at the time of work.
-- Promise content becomes less magical because the internal ability and measured envelope are explicit.
+- The internal ability and measured envelope supporting a promise are explicit.
 - Composite-system ability can be stated at the right holder instead of scattered across parts.
 
 **Costs.**

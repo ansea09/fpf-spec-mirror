@@ -6,12 +6,12 @@ section_id: "A.2.9:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__012_consequences.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:9 — Consequences"
-line_start: 7676
-line_end: 7690
+line_start: 7689
+line_end: 7703
 dependencies:
   - "A.10"
   - "A.13"
@@ -50,7 +50,7 @@ keywords:
 
 * Makes approvals/authorizations/notices **first-class and queryable**, enabling clean RSG checklists and guard rules.
 * Provides stable provenance: commitments, granted permissions, and status transitions can cite the **instituting act** explicitly.
-* Prevents recurring category errors: “documents promise”, “interfaces commit”, “logs prove”.
+* Makes the actual performer recoverable in occurrence and institutional-provenance claims.
 * Lets a practitioner judge one named receiving use and repair the smallest blocker without first building a complete occurrence record.
 * Keeps observed response, achieved use, later action or change, causal contribution, and permission or admissibility as separately testable questions.
 

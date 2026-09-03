@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__014_relations.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:12 — Relations"
-line_start: 7310
-line_end: 7317
+line_start: 7323
+line_end: 7330
 dependencies:
   - "A.10"
   - "A.13"
@@ -38,6 +38,6 @@ keywords:
 - **Coordinates with:** `A.2.8` for obligations, recommendations-as-duty, and prohibitions; `A.2.9` for instituting or revoking speech acts; and `A.6.B` and `A.6.C` for deontic claim classification and agreement-like boundary-language unpacking.
 - **Supplies inputs to:** `A.15.5` readiness and direct mechanism/gate checks only when their own predicates explicitly consume a current grant, finding, or conflict result.
 - **Relates to work through:** `A.15.1` for dated `U.Work` identity and `PermissionExerciseRelation@Context` for the separate exercise claim.
-- **Uses evidence from:** `A.10` and publication/currentness patterns without turning evidence or a permit carrier into the permission relation.
+- **Uses evidence from:** `A.10` and publication/currentness patterns for claims about the permission relation and its permit carriers.
 - **Does not replace:** system-role kind or assignment, capability, plan, gate, admissibility, policy precedence, evidence, performed Work, result, safety, assurance, responsibility, authority, access, or commitment patterns.
 

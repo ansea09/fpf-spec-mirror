@@ -6,12 +6,12 @@ section_id: "A.3.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__007_archetypal-grounding.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:5 — Archetypal Grounding"
-line_start: 9530
-line_end: 9579
+line_start: 9536
+line_end: 9584
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,15 +56,15 @@ keywords:
 
 #### A.3.4:5.1 - Physical system change
 
-A nuclear-plant team says that a revised operating method stabilized a temperature profile after a thermal-power change. **Result:** `CoolingLoopTransformation-7` is identified from the loop state, stabilization interval, operating conditions, and before/during/after temperature facts. The method is `U.Method`; the control-law model is an episteme; measurements and the safety decision use their own patterns. This short case names no dated adjustment `U.Work` occurrence or work-to-change predicate, so it makes no such connection. If that claim is later needed, name both participants and apply `4.2.4`.
+A nuclear-plant team says that a revised operating method stabilized a temperature profile after a thermal-power change. **Result:** `CoolingLoopTransformation-7` is identified from the continuing cooling loop, stabilization interval, operating conditions, and before/during/after temperature facts. The method is `U.Method`; the control-law model is an episteme; measurements and the safety decision use their own patterns. This short case names no dated adjustment `U.Work` occurrence or work-to-change predicate, so it makes no such connection. If that claim is later needed, name both participants and apply `4.2.4`.
 
 #### A.3.4:5.2 - Biological editing
 
-A CRISPR project says that an editing protocol changed a DNA target while keeping off-target risk under a bound. **Result:** identify the biological transformation from the continuing DNA referent, edit interval, boundary conditions, and sequence facts. Keep the protocol description, biochemical mechanism, lab `U.Work`, sequence measurement, risk evaluation, acceptance verdict, and publication separate. This sketch names neither a lab-work/transformation pair nor a matching predicate, so it asserts no connection between them; apply `4.2.4` only if that later claim is needed. The phrases *edited sequence*, *lab output*, and *accepted result* still name different possible relations.
+A CRISPR project says that an editing protocol changed a DNA target while keeping off-target risk under a bound. **Result:** identify the biological transformation from the continuing DNA referent, edit interval, boundary conditions, and sequence facts. Keep the protocol description, biochemical mechanism, lab `U.Work`, sequence measurement, risk evaluation, acceptance verdict, and publication separate. This sketch names neither a lab-work/transformation pair nor a matching predicate, so it asserts no connection between them; apply `4.2.4` only if that later claim is needed. For phrases such as *edited sequence*, *lab output*, or *accepted result*, name the exact participant and relation needed by the receiving claim.
 
 **Spontaneous non-agentive case — result:** `SeedlingFirstLeafUnfolding-B17 : U.Transformation` is an actual first-leaf unfolding without an actor, method, or work claim. The continuing subject is the already existing `Seedling-B17`. Its boundary runs from unfolding onset `t0` to the first stable full-expansion state `t1`; leaf-configuration and exposed-surface facts before, during, and after distinguish the episode under the stated growth conditions. The same-seedling rule permits ordinary cellular turnover and growth but excludes division, grafting, death, or replacement.
 
-At this resolution the case asserts neither finer transformation parts nor partlessness. Do not add `U.System`, `U.SystemRoleAssignment`, enacted method, `U.Work`, transformer, or production-through-work merely because observations exist. If a later use asks for an actor, apply A.3; if it asks for work, apply A.15.1 and then `4.2.4`. Otherwise keep the case non-agentive and do not open `A.15.PROD`.
+At this resolution the case asserts neither finer transformation parts nor partlessness. If a later use asks for an actor, apply A.3; if it asks for work, apply A.15.1 and then `4.2.4`. Otherwise keep the case non-agentive and do not open `A.15.PROD`.
 
 #### A.3.4:5.3 - Specification repair
 
@@ -74,7 +74,7 @@ A.3.4 may instead identify a change of `EmergencyStopSpec-Carrier-17 : U.Present
 
 #### A.3.4:5.4 - Formal construction
 
-A proof constructs a formal object and shows that a morphism preserves an invariant. **Result:** within the declared formal substrate, the formal object and ordered boundary can ground one formal transformation. The proof term and morphism expression are representations; publishing the proof is another relation. No physical or organizational `U.Work` follows from those facts. If a later claim says that dated work realized the transformation, apply `4.2.4` and return `missing-governor` when the named pair has neither an existing predicate nor a valid local compound basis.
+A proof constructs a formal object and shows that a morphism preserves an invariant. **Result:** within the declared formal substrate, the formal object and ordered boundary can ground one formal transformation. The proof term and morphism expression are representations; publishing the proof is another relation. If a later claim says that dated work realized the transformation, apply `4.2.4` and return `missing-governor` when the named pair has neither an existing predicate nor a valid local compound basis.
 
 #### A.3.4:5.5 - Architecture change
 
@@ -87,10 +87,9 @@ When a sentence says that a system *transforms input to output* or *implements a
 Examples:
 
 - A pump can be the acting system while the actual transformation is the bounded pressure change of an identified fluid volume. Inlet and outlet pressure facts are characteristic-state and port facts; the pump curve is a model episteme.
-- A warehouse can perform receiving `U.Work` while pallet-location and inventory-state changes occur. Co-occurrence connects none of them. If a later use needs a work-to-change claim, name the pair and apply `4.2.4`. Orders and pallets keep their work, transfer, resource, or affected-subject relations; they are not one input-output kind.
+- A warehouse can perform receiving `U.Work` while pallet-location and inventory-state changes occur. If a later use needs a work-to-change claim, name the pair and apply `4.2.4`. Orders and pallets keep their work, transfer, resource, or affected-subject relations.
 - A neural-network block can participate in an activation transformation. Tensor-shape declarations, the attention method, dated inference work, benchmark evaluation, and architecture allocation stay separate and use their own patterns.
 
-A flow position, algorithm label, module name, or output record establishes neither actual transformation nor work.
 
 #### A.3.4:5.7 - Assembly changes before PumpSkid identity
 
@@ -100,5 +99,5 @@ The mounting transformation changes the frame-to-pump and frame-to-motor attachm
 
 No current FPF relation in this case says that the mounting, wiring, fluid-connection, and configuration changes compose one transformation. Keep all four changes and stop before a part or whole-transformation claim. The result from `4.2.1` is `missing transformation-composition governor`; a proposed local compound claim also lacks an admitted derivation substrate.
 
-Positive A.1 classification on that basis stops as well, because no accepted composition result supplies an exact whole candidate and its six constructive components. The point at which a separate PumpSkid 7 identity rule first becomes true remains an entity-identity inception question; production completion, commissioning work, evidence, acceptance, and any B.2 whole-reidentification claim also remain separate.
+Positive A.1 classification on that basis stops as well, because no accepted composition result supplies an exact whole candidate and all six constructive components required by A.1. The point at which a separate PumpSkid 7 identity rule first becomes true remains an entity-identity inception question; production completion, commissioning work, evidence, acceptance, and any B.2 whole-reidentification claim also remain separate.
 

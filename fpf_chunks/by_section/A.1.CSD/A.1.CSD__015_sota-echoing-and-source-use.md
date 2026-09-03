@@ -6,7 +6,7 @@ section_id: "A.1.CSD:12"
 section_title: "SoTA Echoing and Source Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__015_sota-echoing-and-source-use.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:12 — SoTA Echoing and Source Use"
@@ -36,7 +36,7 @@ keywords:
 
 ### A.1.CSD:12 - SoTA Echoing and Source Use
 
-No source is admitted because it is official, popular, activist, anti-activist, or described by an ideological label. Each row distinguishes a descriptive result, constructive Method, normative premise, or institutional preference; it retains only the action supported for this use.
+Each row distinguishes a descriptive result, constructive Method, normative premise, or institutional preference; it retains only the action supported for this use.
 
 | Source line | Claim and practical action retained | Adoption status and boundary |
 | --- | --- | --- |

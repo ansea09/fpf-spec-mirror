@@ -6,12 +6,12 @@ section_id: "A.2.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__015_relations.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:12 — Relations"
-line_start: 7709
-line_end: 7722
+line_start: 7717
+line_end: 7731
 dependencies:
   - "A.10"
   - "A.13"
@@ -51,6 +51,7 @@ keywords:
 * Uses **A.13** and **A.15.1 (`U.Work`)** for the independent actual-occurrence backbone: exact actual performer System; local agential kind and criterion; classification; obtaining assignment, scope, working situation, and window; adequate core evidence and only a conditionally consumed profile; grounded communicative history; enacted `U.Method`; temporal extent; and at least one obtaining locally declared containing-System relation. Uses **F.6** only afterward for a precise `performedUnderAssignment` claim through the same obtaining assignment. Uses a separate optional `methodDescriptionRef` only when the receiving claim needs that episteme.
 * Uses **A.7** for the strict actual-act≠record/description≠carrier split.
 * Coordinates with **A.2.6** for scope/window discipline.
+* **F.18** can serve as a **lexical entry point** for naming `U.SpeechAct` and “utterance” in the promise/utterance/commitment triad.
 
 **Used by**
 

@@ -6,12 +6,12 @@ section_id: "A.3.4.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__006_archetypal-grounding.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:5 — Archetypal Grounding"
-line_start: 9803
-line_end: 9846
+line_start: 9808
+line_end: 9851
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -56,13 +56,13 @@ Repair: recover whether the current claim is a refrigerator subsystem transforma
 
 Source wording says: "The attention block transforms activations in the model pipeline."
 
-Repair: the block may be an architecture locus or module allocation, but that fact alone establishes no actor. If dated inference Work is claimed, recover each precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 only when precise assignment-bound attribution is current, and state the separate Work-to-activation relation required by the use. If a non-Work block action is claimed, recover the exact operation-application, functioning, causal, or other direct actor-side relation; otherwise leave action unresolved. A design organization, Method or Method family, toolchain, or communication System that shaped the block first keeps its exact kind and then only its exact architecture, Work, communication, constraint, or candidate-synthesis relation. Activation and tensor-shape claims use exact participant, port, operation-application, or signature relations; attention may be a MethodDescription or mathematical lens; the pipeline may be a transformation-flow structure. Benchmarks or ablations are evidence or evaluation relations only when their subject patterns are current.
+Repair: the block may be an architecture locus or module allocation. Test any actor claim through the relevant branch below. If dated inference Work is claimed, recover each precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 only when precise assignment-bound attribution is current, and state the separate Work-to-activation relation required by the use. If a non-Work block action is claimed, recover the exact operation-application, functioning, causal, or other direct actor-side relation; otherwise leave action unresolved. A design organization, Method or Method family, toolchain, or communication System that shaped the block first keeps its exact kind and then only its exact architecture, Work, communication, constraint, or candidate-synthesis relation. Activation and tensor-shape claims use exact participant, port, operation-application, or signature relations; attention may be a MethodDescription or mathematical lens; the pipeline may be a transformation-flow structure. Benchmarks or ablations are evidence or evaluation relations only when their subject patterns are current.
 
 #### A.3.4.P:5.3 - CRISPR editing workflow
 
 Source wording says: "The guide-selection workflow changes the target gene."
 
-Repair: the target-gene edit is only a candidate `U.Transformation` until the exact biological referent, edit boundary, boundary conditions, actual sequence and direct-relation facts, and reidentification rule establish one occurrence. Guide selection may be method, method description, work plan, evidence-facing table, or performed lab work according to the current claim. A table rank or workflow diagram establishes neither actual edit, gate passage, deontic permission, work authorization, release authorization, nor performed lab work.
+Repair: the target-gene edit is only a candidate `U.Transformation` until the exact biological referent, edit boundary, boundary conditions, actual sequence and direct-relation facts, and reidentification rule establish one occurrence. Guide selection may be method, method description, work plan, evidence-facing table, or performed lab work according to the current claim.
 
 #### A.3.4.P:5.4 - Evidence path near a plant change
 

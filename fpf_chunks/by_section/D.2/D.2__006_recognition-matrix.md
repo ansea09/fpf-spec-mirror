@@ -6,12 +6,12 @@ section_id: "D.2:3"
 section_title: "Recognition Matrix"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__006_recognition-matrix.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:3 — Recognition Matrix"
-line_start: 68819
-line_end: 68828
+line_start: 68826
+line_end: 68835
 dependencies:
   - "A.1"
   - "A.15"

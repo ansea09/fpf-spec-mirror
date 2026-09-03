@@ -6,7 +6,7 @@ section_id: "A.1.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__014_relations.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:12 — Relations"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.1.1:12 - Relations
 
-- `A.1` governs constructive recognition of exact candidates under already admitted holon kinds and its locally declared `U.System`/`U.Episteme` distinctions. Direct identity patterns define or constrain candidate identity; `E.24.UK` governs public-kind admission; A.14 and direct part-relation patterns define or constrain parthood; C.13 governs constructive assembly. A.1 does not supply those decisions by itself.
+- `A.1` governs constructive recognition of exact candidates under already admitted holon kinds and its locally declared `U.System`/`U.Episteme` distinctions. Direct identity patterns define or constrain candidate identity; `E.24.UK` governs public-kind admission; A.14 and direct part-relation patterns define or constrain parthood; C.13 governs constructive assembly.
 - `A.22` governs base `U.Structure` identity through exact constituents, selected obtaining relations, applied constraints, and one named selection-use frame. It also governs the conditional cross-structure question after a direct crossing governor exists.
 - `C.2.1` governs model, expression, rule, inference, and description episteme identity, effective reference schemes, exact EntityOfConcern and ClaimGraph content, `EpistemeEditionRelation`, and empirical grounding. It also identifies the separate bounded-use claim about an F.9 Bridge.
 - `A.2.6` governs `U.ClaimScope`, `U.ContextSlice`, and membership. `C.16` governs measurement bases, readings, scales, units, and direct comparability. `A.2.4` and A.10 govern evidence use; F.10 governs status family and status use; B.3 governs assurance.

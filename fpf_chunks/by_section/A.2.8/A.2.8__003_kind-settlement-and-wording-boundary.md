@@ -6,12 +6,12 @@ section_id: "A.2.8:0.1"
 section_title: "Kind Settlement and Wording Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__003_kind-settlement-and-wording-boundary.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:0.1 — Kind Settlement and Wording Boundary"
-line_start: 6698
-line_end: 6703
+line_start: 6705
+line_end: 6710
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 
 ### A.2.8:0.1 - Kind Settlement and Wording Boundary
 
-`U.Commitment` is an enduring individual deontic relation. It covers obligation, recommendation-as-duty, and prohibition. It is not a policy episteme, normative prescription, system-role kind, assignment, speech act, record, gate, permission, responsibility relation, performed Work, evidence item, or compliance result.
+`U.Commitment` is an enduring individual deontic relation. It covers obligation, recommendation-as-duty, and prohibition.
 
-The words *bind* and *binding* already denote technical bindings in FPF; they do not name this relation. Source phrases such as *binding promise*, *must*, *shall*, *guarantees*, *is responsible for*, or *legally required* are recognition cues. Recover their exact claim before selecting `U.Commitment`; the words alone institute nothing.
+The words *bind* and *binding* already denote technical bindings in FPF; they do not name this relation. Source phrases such as *binding promise*, *must*, *shall*, *guarantees*, *is responsible for*, or *legally required* are recognition cues. Recover their exact claim before selecting `U.Commitment`.
 

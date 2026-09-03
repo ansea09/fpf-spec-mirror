@@ -6,12 +6,12 @@ section_id: "C.22:10"
 section_title: "Selector Fields And Evidence Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__012_selector-fields-and-evidence-relations.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:10 — Selector Fields And Evidence Relations"
-line_start: 51978
-line_end: 51983
+line_start: 51985
+line_end: 51990
 dependencies:
   - "A.6.0"
   - "C.16"

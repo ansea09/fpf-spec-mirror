@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:7"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__009_common-anti-patterns.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:7 — Common anti-patterns"
-line_start: 45244
-line_end: 45255
+line_start: 45249
+line_end: 45260
 dependencies:
   - "A.10"
   - "A.15.1"

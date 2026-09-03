@@ -6,7 +6,7 @@ section_id: "A.1.CSD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__007_solution.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:4 — Solution"
@@ -90,5 +90,5 @@ A thin account may contain one qualified consequence claim plus one unresolved b
 
 **Recognition.** A cold reader can find the focus, receiver, at least one possible bearer, the obtaining-or-modal status of its path, the possible changed characteristic, support and uncertainty, and the next probe or stop.
 
-**Assurance.** Trust in systemhood, relation occurrence, measurement, causal effect, source reliance, comparison, and specialist result remains with the direct patterns and practices. A complete-looking account does not manufacture any of them.
+**Assurance.** Trust in systemhood, relation occurrence, measurement, causal effect, source reliance, comparison, and specialist result remains with the direct patterns and practices.
 

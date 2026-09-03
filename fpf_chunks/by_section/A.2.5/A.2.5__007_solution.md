@@ -6,12 +6,12 @@ section_id: "A.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__007_solution.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:4 — Solution"
-line_start: 4974
-line_end: 5071
+line_start: 4981
+line_end: 5078
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -51,7 +51,7 @@ This pattern defines the `RelationSignature` for `SystemRoleAssignmentStateRelat
 
 These are the only two generic participants. `SystemRoleAssignmentStateRelation` obtains exactly while the assignment obtains and the fixed by-value predicate is true under its temporal reading. Its actual extent is the maximal continuous interval of that obtaining. An affirmative assertion or occurrence description may state the known extent as `systemRoleAssignmentStateExtent` only for an independently established occurrence; a receiving evaluation may state a separate `declaredSystemRoleAssignmentStateEvaluationWindow`. Neither temporal value, assertion polarity, reliance posture, taxonomy episteme, reference scheme, bridge, nor model-use structure is another relation participant.
 
-Evidence is not a participant that makes the relation obtain. A relied-on assertion uses a direct evidence-use relation. Another world-side occurrence affects predicate truth only when an exact truth-condition clause cites that occurrence through its subject pattern.
+A relied-on assertion uses a direct evidence-use relation. Another world-side occurrence affects predicate truth only when an exact truth-condition clause cites that occurrence through its subject pattern.
 
 #### A.2.5:4.2 - Predicate Meaning and Semantic Basis
 
@@ -63,7 +63,7 @@ One `SystemRoleAssignmentStatePredicate` value names:
 - applicability conditions; and
 - only the semantic-basis references whose editions can change those clauses or their interpretation.
 
-This content defines one predicate value; it is not a union kind. The direct qualities and relations keep their own kinds and subject patterns.
+This content defines one predicate value. The direct qualities and relations keep their own kinds and subject patterns.
 
 Predicates need not be mutually exclusive. `Calibrated`, `Synchronized`, and `InRange` can hold simultaneously; `InspectionReady` may be a conjunction over them. Use an exclusive state configuration only when the subject-domain model actually needs one.
 
@@ -94,7 +94,7 @@ The actual state extent, target evaluation window, and evidence-relevance interv
 
 #### A.2.5:4.5 - Work-Admission Use
 
-A.2.5 supplies the state relation and exact assertion form. It does not select a Method, create a gate decision, provide authority, or assert that Work occurred.
+A.2.5 supplies the state relation and exact assertion form. Use the direct subject patterns when Method selection, a gate decision, authority, or a claim that Work occurred is needed.
 
 For a consequence-bearing admission use, the system performing the consumer's evaluation or decision Work applies that consumer's direct pattern and checks:
 
@@ -104,7 +104,7 @@ For a consequence-bearing admission use, the system performing the consumer's ev
 4. the assertion has the evidence relation and currentness that this consumer requires; and
 5. every other admission condition is separately established under its subject pattern.
 
-The consumer's direct pattern, not A.2.5, defines any admit, deny, defer, or unresolved outcome. A.2.5 contributes only the exact state relation on which that decision Work may rely.
+The consumer's direct pattern defines any admit, deny, defer, or unresolved outcome. A.2.5 contributes only the exact state relation on which that decision Work may rely.
 
 #### A.2.5:4.6 - System-Role-Kind Relation Use
 
@@ -120,7 +120,7 @@ A conjunction for one Work claim creates no composite system-role kind, assignme
 
 Use statecharts or state machines when mutually exclusive configurations, orthogonal regions, guarded changes, or event handling improve the subject-domain model. The notation describes possible configurations and changes; it does not replace the direct relation occurrence.
 
-A change arrow represents a proposed or observed change in predicate truth; it is not the world-side change by form. Recover the exact changed object or relation, then use the direct pattern governing that change. The statechart neither supplies a common world-side kind nor prescribes Method order by itself.
+A change arrow represents a proposed or observed change in predicate truth; it is not the world-side change by form. Recover the exact changed object or relation, then use the direct pattern governing that change. Use the Method description for any prescribed Method order.
 
 When the model needs continuous coordinates rather than discrete labels, use `A.19` for the characteristic space and let the by-value state predicate select a region, band, ordering condition, or other exact condition. Measurement and evaluation stay with `C.16` and their direct patterns.
 
@@ -128,5 +128,5 @@ When the model needs continuous coordinates rather than discrete labels, use `A.
 
 Most state claims need no bridge, reference scheme, or bounded-model-use structure. Directly governed truth-condition clauses are enough.
 
-When a `KindSignature`, reference scheme, bridge, or `BoundedModelUseStructure` changes the meaning of a predicate clause, include its exact edition in `SystemRoleAssignmentStatePredicate` semantic basis and therefore in predicate identity. When it changes only how a separate receiving assertion, comparison, or Work use presents or consumes an unchanged predicate, cite it in that receiving use instead. In neither case does it become a generic relation participant, hold the system-role kind, evaluate the predicate, make the relation obtain, or admit Work.
+When a `KindSignature`, reference scheme, bridge, or `BoundedModelUseStructure` changes the meaning of a predicate clause, include its exact edition in `SystemRoleAssignmentStatePredicate` semantic basis and therefore in predicate identity. When it changes only how a separate receiving assertion, comparison, or Work use presents or consumes an unchanged predicate, cite it in that receiving use instead. The generic relation signature remains the two-participant declaration in §4.1.
 

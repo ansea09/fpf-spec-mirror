@@ -6,12 +6,12 @@ section_id: "F.6:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__011_conformance-checklist.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:9 — Conformance Checklist"
-line_start: 94803
-line_end: 94823
+line_start: 94812
+line_end: 94832
 dependencies:
   - "A.1.1"
   - "A.10"

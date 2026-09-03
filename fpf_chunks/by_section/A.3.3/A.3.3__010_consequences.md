@@ -6,12 +6,12 @@ section_id: "A.3.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__010_consequences.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:9 — Consequences"
-line_start: 9222
-line_end: 9240
+line_start: 9229
+line_end: 9247
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -38,6 +38,7 @@ dependencies:
   - "E.10.ARCH"
   - "E.20"
   - "F.18"
+  - "F.19"
   - "U.ClaimScope"
   - "U.Mechanism"
   - "U.Method"
@@ -61,16 +62,16 @@ keywords:
 | --- | --- |
 | Prediction, simulation, conformance, drift, and calibration claims become reviewable. | The project must name state-space characteristics and observation relations rather than relying on dashboard labels. |
 | Methods, method descriptions, mechanisms, work, flow structures, and dynamics stop substituting for each other. | Source labels like `process`, `workflow`, and `model` often need `E.10.ARCH` recovery before typed assignment. |
-| Gate and release use becomes safer because prediction needs freshness or a stated mathematical condition. | Some attractive predictions become inadmissible until observation or proof is supplied. |
+| Gate and release use becomes safer because prediction must satisfy the conditions specified for that use, including required freshness and mathematical conditions. | Some attractive predictions become inadmissible until observation or proof is supplied. |
 | Dynamics can cover physical, organizational, epistemic, software, architectural, and resource examples under one FPF kind. | Domain-specific laws still need their own notation, assumptions, and evidence disciplines. |
 | Mathematical-lens transfer is visible rather than hidden inside equations. | `C.29` may be needed when the dynamics model crosses contexts, scales, or representation regimes. |
 
 #### A.3.3:9.1 - Quick use cards
 
 * **Dynamics predicts.** It is a state-space and transition-law episteme.
-* **Work reveals.** Measurements, logs, and actuals belong to work, evidence, or source values.
-* **Method guides.** A method may use dynamics, but dynamics is not the method.
-* **State space first.** No state-space characteristics, no reviewable dynamics claim.
+* **Observations support comparison.** Compare predictions with separately identified measurements, logs, and actuals through the declared observation relation.
+* **Method guides.** A method may use dynamics.
+* **State space first.** Declare state-space characteristics to make the dynamics claim reviewable.
 * **Observation matters.** A law without observation relation cannot be compared with traces.
 * **Prediction is not authority.** Gate and release claims need their governing patterns.
 

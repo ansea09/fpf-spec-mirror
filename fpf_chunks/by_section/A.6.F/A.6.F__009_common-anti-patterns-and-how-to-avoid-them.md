@@ -6,12 +6,12 @@ section_id: "A.6.F:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 18729
-line_end: 18742
+line_start: 18734
+line_end: 18747
 dependencies:
   - "A.10"
   - "A.15"

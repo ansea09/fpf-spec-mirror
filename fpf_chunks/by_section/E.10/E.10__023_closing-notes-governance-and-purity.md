@@ -6,12 +6,12 @@ section_id: "E.10:21"
 section_title: "Closing notes (governance and purity)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__023_closing-notes-governance-and-purity.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:21 — Closing notes (governance and purity)"
-line_start: 76403
-line_end: 76413
+line_start: 76410
+line_end: 76420
 dependencies:
   - "A.10"
   - "A.15"

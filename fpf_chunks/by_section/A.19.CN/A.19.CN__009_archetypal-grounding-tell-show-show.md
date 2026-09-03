@@ -6,12 +6,12 @@ section_id: "A.19.CN:8"
 section_title: "Archetypal Grounding (Tell‑Show‑Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__009_archetypal-grounding-tell-show-show.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:8 — Archetypal Grounding (Tell‑Show‑Show)"
-line_start: 31865
-line_end: 31985
+line_start: 31870
+line_end: 31990
 dependencies:
   - "A.19"
   - "A.6.1"

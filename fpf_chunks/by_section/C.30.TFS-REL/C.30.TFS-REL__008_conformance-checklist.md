@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__008_conformance-checklist.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:7 — Conformance Checklist"
-line_start: 62279
-line_end: 62297
+line_start: 62286
+line_end: 62304
 dependencies:
   - "A.10"
   - "A.15"

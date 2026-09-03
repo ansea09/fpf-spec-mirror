@@ -6,12 +6,12 @@ section_id: "A.2.7:5"
 section_title: "Worked Slices and Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__007_worked-slices-and-archetypal-grounding.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:5 — Worked Slices and Archetypal Grounding"
-line_start: 6462
-line_end: 6588
+line_start: 6469
+line_end: 6595
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -69,7 +69,7 @@ PlantPressureTestSubstitutionAssertion:
     systemRoleKindRelationExtent: [2026-07-01, 2026-12-31]
 ```
 
-The system performing admission checking resolves the candidate's exact A.2.1 assignment and its current `PressureTestReady` state occurrence. Those are inputs to the receiving rule, not substitution-relation participants. Capability is checked separately. The substitution relation assigns nobody and proves neither capability nor performed pressure-test Work.
+The system performing admission checking resolves the candidate's exact A.2.1 assignment and its current `PressureTestReady` state occurrence. Those are inputs to the receiving rule, not substitution-relation participants. Capability is checked separately. A claim about performed pressure-test Work needs its own A.15 basis.
 
 #### A.2.7:5.2 - Safety Separation of Duties
 
@@ -107,7 +107,7 @@ HazardAnalysisAuthorApproverIncompatibilityAssertion:
     systemRoleKindRelationExtent: [2026-01-01, open]
 ```
 
-A verifier system applies the work-admission Method to two exact assignment occurrences and the target Work item. The checking Work produces the receiving decision. The incompatibility relation neither acts nor produces that outcome.
+A verifier system applies the work-admission Method to two exact assignment occurrences and the target Work item. The checking Work produces the receiving decision.
 
 #### A.2.7:5.3 - Clinical Joint Admission
 
@@ -141,7 +141,7 @@ OperatingTheatreThreeSystemRoleBundleAssertion:
     systemRoleKindRelationExtent: [2026-01-01, open]
 ```
 
-For one planned procedure, the receiving check separately names its evaluation window and resolves three independently obtaining assignments. The bundle supplies the allocation rule; it neither creates the assignments nor makes a procedure team into one compound system-role kind. Credentials, state, capability, gate decisions, and procedure Work remain separate.
+For one planned procedure, the receiving check separately names its evaluation window and resolves three independently obtaining assignments. The bundle supplies the allocation rule; the three system-role kinds remain distinct even when the holders form one procedure team. Credentials, state, capability, gate decisions, and procedure Work remain separate.
 
 #### A.2.7:5.4 - Robotics Kind Order and Independent Musician Assignment
 
@@ -155,5 +155,5 @@ The proposal is not a premise for classifying Vasya or any other system. Under t
 
 A known robotics-engineer `true` with engineer `false` refutes the relation. If a dependency required by the broader judgment is unavailable, the result is `unknown` and the order remains unresolved. A restriction concerning only one Method family, project phase, or allocation condition that fails monotonicity uses a residual qualification relation instead.
 
-Vasya may separately hold assignments to `RoboticsEngineerSystemRole` and `MusicianSystemRole`. Those assignment identities and extents remain under A.2.1. Robot-engineering Work, music-performance Work, and teaching-robots-music Work remain A.15 occurrences. The `U.SubkindOf` result manufactures neither classification judgment, assignment, capability, admission substitution, nor performed Work.
+Vasya may separately hold assignments to `RoboticsEngineerSystemRole` and `MusicianSystemRole`. Those assignment identities and extents remain under A.2.1. Robot-engineering Work, music-performance Work, and teaching-robots-music Work remain A.15 occurrences. Establish capability and admission substitution separately when the receiving use needs them.
 

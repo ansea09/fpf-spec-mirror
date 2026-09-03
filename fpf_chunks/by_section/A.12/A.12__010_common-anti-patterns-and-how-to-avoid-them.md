@@ -6,12 +6,12 @@ section_id: "A.12:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 23995
-line_end: 24005
+line_start: 24000
+line_end: 24010
 dependencies:
   - "A.1"
   - "A.1.1"

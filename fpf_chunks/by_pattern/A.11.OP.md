@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.11.OP.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
-line_start: 23499
-line_end: 23747
+line_start: 23504
+line_end: 23752
 dependencies:
   - "A.11"
   - "A.11.OP"
@@ -31,7 +31,7 @@ keywords:
 
 > **Type:** Part A pragmatic principle pattern
 > **Class:** `Prag`
-> **Status:** Candidate
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 **Plain name.** Keep only work that changes a substantive choice or result, or protects a condition on which the use relies.

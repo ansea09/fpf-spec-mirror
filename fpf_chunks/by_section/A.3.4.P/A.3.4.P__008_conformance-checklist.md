@@ -6,12 +6,12 @@ section_id: "A.3.4.P:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__008_conformance-checklist.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:7 — Conformance Checklist"
-line_start: 9859
-line_end: 9873
+line_start: 9864
+line_end: 9878
 dependencies:
   - "A.10"
   - "A.15.1"

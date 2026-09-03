@@ -6,12 +6,12 @@ section_id: "A.2.2:8"
 section_title: "Composite Capability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__009_composite-capability.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:8 — Composite Capability"
-line_start: 3996
-line_end: 4011
+line_start: 4003
+line_end: 4018
 dependencies:
   - "A.15"
   - "A.2"
@@ -40,5 +40,5 @@ ConcreteCapabilityInstance:
   dependencyNotes: feeder and vision subsystem conditions
 ```
 
-The concrete capability instance is asserted for `Cell_3`, not for every part and not for the method description. Dependencies may be named, but the bounded capability claim is about the composite holder.
+The concrete capability instance is asserted for `Cell_3`, not for every part. Dependencies may be named, but the bounded capability claim is about the composite holder.
 

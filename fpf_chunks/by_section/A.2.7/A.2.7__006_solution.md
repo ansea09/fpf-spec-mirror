@@ -6,12 +6,12 @@ section_id: "A.2.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__006_solution.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:4 — Solution"
-line_start: 6252
-line_end: 6461
+line_start: 6259
+line_end: 6468
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -69,11 +69,11 @@ Apply the relation-object order from `A.6.REL`:
 
 Each direct species declares one SlotSpec for every actual system-role-kind participant and one by-value predicate SlotSpec. A context-local kind domain gives each system-role-kind SlotSpec its exact ValueKind. A system-role-taxonomy episteme, effective reference scheme, `KindSignature`, Bridge, or selected model-use structure is not another generic participant. Include its exact edition in predicate identity only when the rule depends on that edition.
 
-A record does not constitute predicate truth by itself. If a specialized direct relation obtains only through an accepted appointment, policy decision, installation, or other constituting act, the context-local predicate must name that act and its acceptance condition. A.2.7 does not silently treat every taxonomy statement or policy row as constitutive.
+Establish predicate truth under the context-local rule. If a specialized direct relation obtains only through an accepted appointment, policy decision, installation, or other constituting act, the context-local predicate must name that act and its acceptance condition.
 
-Logical form supplies argument order, set semantics, and relation laws. It does not supply grounded kinds, truth, occurrence identity, Work, Method, transformation, agency, constructive assembly, or holon admission. A grammatical verb makes none of those objects act.
+Logical form supplies argument order, set semantics, and relation laws. Use the direct rules to establish participant kinds and predicate truth, and to recover occurrence identity when the receiving use needs it. Use the relevant patterns when the claim also concerns a Method, Work, transformation, agency, constructive assembly, or holon admission.
 
-If current facts nevertheless concern one actual bounded change, make that change a separate subject and use `A.3.4` to recover one `U.Transformation` at the resolution and boundary needed by the use. Name its affected entity, boundary, precondition, postcondition, and obtaining relations. Keep it distinct from the relation among system-role kinds, an assertion about that relation, and the Work that checks it. `U.Transformation` by itself supplies neither a transformation-composition predicate nor holonhood.
+If current facts concern one actual bounded change, make that change a separate subject and use `A.3.4` to recover one `U.Transformation` at the resolution and boundary needed by the use. Name its affected entity, boundary, precondition, postcondition, and obtaining relations. Keep it distinct from the relation among system-role kinds, an assertion about that relation, and the Work that checks it. `U.Transformation` by itself supplies neither a transformation-composition predicate nor holonhood.
 
 #### A.2.7:4.2 - Admission Substitution
 
@@ -92,7 +92,7 @@ RelationSignature:
 
 One predicate value is identified by the ordered candidate and required system-role kinds, the exact receiving-use rule, applicability, and only the semantic-basis editions that change that rule. Reversing the two kinds requires another predicate evaluation. A job-grade order, common word stem, or `U.SubkindOf` relation may be evidence or another premise; none is the substitution relation by itself.
 
-Current assignments and any required A.2.5 state occurrences are inputs to the receiving check. They are not participants of the relation among kinds. The relation creates no classification, assignment, capability, authorization, gate outcome, or Work occurrence.
+Current assignments and any required A.2.5 state occurrences are inputs to the receiving check. They are not participants of the relation among kinds. Establish classification, assignment, capability, authorization, gate outcomes, and Work under their direct patterns as the receiving use requires them.
 
 #### A.2.7:4.3 - Incompatibility
 
@@ -115,7 +115,7 @@ The predicate is identified by the unordered pair of kinds, the exact same-holde
 incompatible(k1, k2, p) = incompatible(k2, k1, p)
 ```
 
-The exact assignments later evaluated are receiving inputs. A conflicting allocation is a case satisfying the incompatibility rule; it is not what creates the kind relation. The relation does not reject an assignment or perform a check. A system applies the receiving Method and records the resulting admit, reject, defer, or unresolved outcome under the pattern for that decision.
+The exact assignments later evaluated are receiving inputs. A conflicting allocation is a case satisfying the incompatibility rule; it is not what creates the kind relation. A system applies the receiving Method and records the resulting admit, reject, defer, or unresolved outcome under the pattern for that decision.
 
 #### A.2.7:4.4 - Monotonic Kind Order and Residual Qualification
 
@@ -140,7 +140,7 @@ RelationSignature:
     exact context-local residual-qualification-predicate kind, ByValue
 ```
 
-The residual predicate names the exact restriction, applicability, orientation, and only meaning-changing semantic-basis editions. It grants no admission substitution. A receiving Method needing substitution must establish that separate directional relation.
+The residual predicate names the exact restriction, applicability, orientation, and only meaning-changing semantic-basis editions. A receiving Method needing substitution must establish that separate directional relation.
 
 #### A.2.7:4.5 - Joint-Admission Bundle
 
@@ -159,7 +159,7 @@ RelationSignature:
 
 The predicate is identified by the exact order-insensitive set, joint-admission and holder-allocation rule, applicability, and only meaning-changing semantic-basis editions. It states whether one system may hold several assignments, distinct systems must hold specified assignments, some assignments may be shared, and how the receiving window is tested.
 
-Exact current assignments and the receiving window remain inputs to the later check. The relation creates no compound system-role kind, assignment, team, or Work occurrence. A list of labels without a joint-admission and allocation rule is not a bundle relation.
+Exact current assignments and the receiving window remain inputs to the later check. The bundle specifies a joint condition over distinct system-role kinds. Use the applicable direct pattern when assignment, team, or Work identity is needed. A list of labels without a joint-admission and allocation rule is not a bundle relation.
 
 #### A.2.7:4.6 - Occurrence Identity and Continuity
 
@@ -173,7 +173,7 @@ An affirmative assertion or occurrence description may state the known `systemRo
 
 For `U.SubkindOf`, use C.3.1's own obtaining and identity law, including its exact effective-reference-scheme edition. Do not replace it with the generic A.2.7 interval rule.
 
-`SystemRoleKindRelationStructure` identity follows all four A.22 discriminators: exact kind constituents, exact selected relation occurrences, exact applied constraint claims, and the named selection-use frame. A scheme change that changes a constituent, selected relation, applied constraint, or use frame changes the structure; selecting System, Method, Work, result episteme, and publication remain outside identity. No blanket scheme-insensitive continuity is asserted.
+`SystemRoleKindRelationStructure` identity follows all four A.22 discriminators: exact kind constituents, exact selected relation occurrences, exact applied constraint claims, and the named selection-use frame. A scheme change that changes a constituent, selected relation, applied constraint, or use frame changes the structure; selecting System, Method, Work, result episteme, and publication remain outside identity.
 
 #### A.2.7:4.7 - Assertion and Receiving Check
 
@@ -187,9 +187,9 @@ A relied-on kind-relation claim is a C.2.1 assertion episteme, not the relation 
 
 When no positive occurrence is recovered, a negative, candidate, counterfactual, or unsupported affirmative claim normally uses the exact admitted relation kind, or another independently identified entity, as its EntityOfConcern. Its ClaimGraph carries proposed fillings, predicate, polarity or modality, and meaning-bearing semantic basis. It carries no fabricated positive occurrence reference or actual extent.
 
-Unresolved reliance preserves the assertion's stated polarity; it is not a third polarity and does not create or erase an occurrence. C.2.1 still identifies the assertion by its content, exact EntityOfConcern, and effective reference scheme.
+Unresolved reliance preserves the assertion's stated polarity and leaves relation obtaining and occurrence identity unchanged. C.2.1 still identifies the assertion by its content, exact EntityOfConcern, and effective reference scheme.
 
-Supported assertions serve as typed premises for another Method. The selected structure is not the checker. A system performing a receiving check normally:
+Supported assertions serve as typed premises for another Method. A system performing a receiving check normally:
 
 1. resolves the exact local system-role kinds and any current direct `U.SystemRoleAssignment` species or A.2.5 state occurrences needed by the rule;
 2. tests the exact relation predicate without copying assignments or state occurrences into the kind-relation participant set;
@@ -198,7 +198,7 @@ Supported assertions serve as typed premises for another Method. The selected st
 5. evaluates capability, resource, interface, risk, evidence, currentness, assurance, or other conditions under their direct patterns; and
 6. performs the checking Work by the selected Method and records the outcome defined for the next question's exact decision kind.
 
-Current facts make a world-side relation obtain. Optional individuation recovers one occurrence. An episteme asserts it. Evidence supports reliance. A system performs the check. None of these layers substitutes for another.
+Current facts make a world-side relation obtain. Optional individuation recovers one occurrence. An episteme asserts it. Evidence supports reliance. A system performs the check.
 
 #### A.2.7:4.8 - Recover Apparent Decomposition
 
@@ -217,17 +217,17 @@ When ordinary wording says *subrole*, *role part*, or *combined role*, start fro
 | Are ways of doing or Work occurrences composed? | Method composition under A.3 and B.1.5, or Work structure under A.15 |
 | Did one actual bounded change occur? | one `U.Transformation` under A.3.4, with its affected entity, boundary, precondition, postcondition, and obtaining relations |
 
-This recovery introduces no system-role mereology. Exact kinds, relations, assignments, predicates, Methods, and Work remain available without pretending that one is a part of another.
+This recovery introduces no system-role mereology. Recover exact kinds, relations, assignments, predicates, Methods, and Work through the direct patterns above.
 
 #### A.2.7:4.9 - Representation, Model-Use, and Cross-Scheme Boundaries
 
 A graph, table, matrix, algebra, embedding, policy file, taxonomy, or organization chart may describe a `SystemRoleKindRelationStructure` or support a C.29 mathematical-lens use. It is not the selected structure or any selected relation occurrence by form. State what organization the representation preserves and loses before relying on it.
 
-Reference an independently selected `BoundedModelUseStructure` only when interpretation depends on that model-use organization. Keep it with the receiving assertion or use unless one direct relation predicate truly depends on its exact edition; only then does that edition enter the predicate's semantic basis. It never becomes a generic participant merely for context.
+Reference an independently selected `BoundedModelUseStructure` only when interpretation depends on that model-use organization. Keep it with the receiving assertion or use unless one direct relation predicate truly depends on its exact edition; only then does that edition enter the predicate's semantic basis.
 
-When a comparison, translation, or reuse crosses schemes, first recover the exact F.17 sense cells and obtaining F.9 Bridge. Then state a separate C.2.1 bounded-use assertion naming direction, correspondence rule, tolerated loss, polarity, use, and effective scheme. Ordinary reliance requires the current A.10 evidence-provenance relation and a passing disposition for that use. Use B.3 only when an actual named assurance claim is current; require its result for the same bounded assurance use. Neither branch supplies authorization.
+When a comparison, translation, or reuse crosses schemes, first recover the exact F.17 sense cells and obtaining F.9 Bridge. Then state a separate C.2.1 bounded-use assertion naming direction, correspondence rule, tolerated loss, polarity, use, and effective scheme. Ordinary reliance requires the current A.10 evidence-provenance relation and a passing disposition for that use. Use B.3 only when an actual named assurance claim is current; require its result for the same bounded assurance use. Establish any required authorization separately.
 
-A Bridge, profile, or card alone establishes neither bounded-use suitability nor an A.2.7 relation, assignment, authorization, receiving-check outcome, or performed Work. A local relation that obtains keeps the participant set and identity declared here.
+Apply the direct rule for each claim of bounded-use suitability, an A.2.7 relation, assignment, authorization, receiving-check outcome, or performed Work. A Bridge, profile, or card may provide information for that claim. A local relation that obtains keeps the participant set and identity declared here.
 
 #### A.2.7:4.10 - Lightweight Path
 

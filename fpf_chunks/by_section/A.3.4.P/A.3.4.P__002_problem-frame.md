@@ -6,12 +6,12 @@ section_id: "A.3.4.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__002_problem-frame.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:1 — Problem frame"
-line_start: 9687
-line_end: 9694
+line_start: 9692
+line_end: 9699
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -46,9 +46,9 @@ keywords:
 
 ### A.3.4.P:1 - Problem frame
 
-People talk about change with convenient source labels. A manufacturing line has a process, an ML paper has an architecture pipeline, a refrigerator has a cycle, a plant model has a flow graph, a team has a workflow, and a proof has a construction path. Those labels often help recognition, but they do not say which FPF object is current.
+People talk about change with familiar labels—for example, a manufacturing process, refrigeration cycle, or team workflow. To use such wording in FPF, recover the object and claim it names.
 
 The recurring defect is a second ontology by convenience. The same text may treat "process" as method, work occurrence, transformation-flow structure, mechanism, result evidence, and publication diagram. A graph path may become an action route. A network label may become a durable head beside `TransformationFlowStructure`. A function word may collapse functioning, mathematical function, software routine, module allocation, a system merely named as actor, and a differently typed influence source whose direct relation has not been recovered.
 
-This pattern restores the current `U.Transformation` ontic first, then assigns linked values to their subject patterns. It is not a word ban and not a synonym table.
+This pattern restores the current `U.Transformation` ontic first, then assigns linked values to their subject patterns.
 

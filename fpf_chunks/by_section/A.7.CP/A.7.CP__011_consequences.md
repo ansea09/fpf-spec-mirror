@@ -6,12 +6,12 @@ section_id: "A.7.CP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__011_consequences.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:9 — Consequences"
-line_start: 22355
-line_end: 22358
+line_start: 22360
+line_end: 22363
 dependencies:
   - "A.7"
   - "A.7.1"

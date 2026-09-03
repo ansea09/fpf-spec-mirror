@@ -6,12 +6,12 @@ section_id: "F.6:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__003_problem-frame.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:1 — Problem Frame"
-line_start: 94560
-line_end: 94569
+line_start: 94569
+line_end: 94578
 dependencies:
   - "A.1.1"
   - "A.10"

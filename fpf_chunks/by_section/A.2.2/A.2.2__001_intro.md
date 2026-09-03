@@ -6,12 +6,12 @@ section_id: "A.2.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__001_intro.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:intro — Intro"
-line_start: 3754
-line_end: 3783
+line_start: 3753
+line_end: 3782
 dependencies:
   - "A.15"
   - "A.2"

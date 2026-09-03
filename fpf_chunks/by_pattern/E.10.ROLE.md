@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.ROLE.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
-line_start: 77643
-line_end: 77822
+line_start: 77652
+line_end: 77831
 dependencies:
   - "A.2"
   - "A.2.1"

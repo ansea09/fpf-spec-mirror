@@ -6,12 +6,12 @@ section_id: "A.2.2:5"
 section_title: "Work-Admission Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__006_work-admission-use.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:5 — Work-Admission Use"
-line_start: 3910
-line_end: 3934
+line_start: 3917
+line_end: 3941
 dependencies:
   - "A.15"
   - "A.2"
@@ -49,5 +49,5 @@ The checks are separate:
 - capability-fit condition tests whether that instance meets the current threshold or gate need;
 - after execution, A.13 first recovers the exact actual performer and A.15.1 independently admits the dated Work occurrence; F.6 `performedUnderAssignment(W, RA)` is added only when this capability account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment, while actual `enactsMethod(W, M)` separately relates the Work to the exact Method;
 
-Do not put the threshold into the local system-role-kind name. Do not treat a system-role classification or assignment as proof of ability or action. Do not let a local kind, assignment, capability instance, Method, or MethodDescription perform the Work. Do not treat a fit predicate, Q-Bundle, architecture-characteristic row, evidence relation, or currentness assessment as the capability instance. An algorithm-possession phrase is only a dispatch cue; it establishes neither dated performance nor `U.MethodDescription` membership.
+Do not put the threshold into the local system-role-kind name. Do not treat a system-role classification or assignment as proof of ability or action. For performed Work, name the actual performer system. Do not treat a fit predicate, Q-Bundle, architecture-characteristic row, evidence relation, or currentness assessment as the capability instance. An algorithm-possession phrase is only a dispatch cue; it establishes neither dated performance nor `U.MethodDescription` membership.
 

@@ -6,12 +6,12 @@ section_id: "G.10:2"
 section_title: "Problem — Why naive shipping breaks reuse, legality, and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__003_problem-why-naive-shipping-breaks-reuse-legality-and-refresh.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:2 — Problem — Why naive shipping breaks reuse, legality, and refresh"
-line_start: 105988
-line_end: 105998
+line_start: 105997
+line_end: 106007
 dependencies:
   - "A.10"
   - "A.15.3"

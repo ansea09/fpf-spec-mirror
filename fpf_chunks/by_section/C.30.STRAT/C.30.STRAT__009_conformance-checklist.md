@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__009_conformance-checklist.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:7 — Conformance checklist"
-line_start: 60489
-line_end: 60505
+line_start: 60496
+line_end: 60512
 dependencies:
   - "A.10"
   - "A.15"

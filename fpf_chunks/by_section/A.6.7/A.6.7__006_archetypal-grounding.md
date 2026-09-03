@@ -6,12 +6,12 @@ section_id: "A.6.7:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__006_archetypal-grounding.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:5 — Archetypal Grounding"
-line_start: 20337
-line_end: 20344
+line_start: 20342
+line_end: 20349
 dependencies:
   - "A.21"
   - "A.6.1"

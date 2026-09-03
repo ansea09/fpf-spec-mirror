@@ -6,12 +6,12 @@ section_id: "E.18:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__014_rationale.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:11 — Rationale"
-line_start: 86045
-line_end: 86055
+line_start: 86054
+line_end: 86064
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

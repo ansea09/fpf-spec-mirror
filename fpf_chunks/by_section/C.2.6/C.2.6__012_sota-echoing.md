@@ -6,12 +6,12 @@ section_id: "C.2.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__012_sota-echoing.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:11 — SoTA-Echoing"
-line_start: 44676
-line_end: 44678
+line_start: 44681
+line_end: 44683
 dependencies:
   - "A.16"
   - "A.16.0"

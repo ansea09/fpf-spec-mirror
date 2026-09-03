@@ -6,12 +6,12 @@ section_id: "A.2.2:3"
 section_title: "Positive Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__004_positive-solution.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:3 — Positive Solution"
-line_start: 3860
-line_end: 3897
+line_start: 3859
+line_end: 3904
 dependencies:
   - "A.15"
   - "A.2"
@@ -52,15 +52,23 @@ CapabilityStatementRecord:
   currentnessAssessmentRefs?:
 ```
 
-Plain sentence form:
+Plain sentence forms (choose one for the current claim):
 
 ```text
-<System> can perform <work family or result class>
+<System> can perform <work family>
 within <envelope>
 at <measures>
 during <qualification window>,
 with <evidence or source-use relation>.
 ```
 
-This sentence form is a publication or statement about the capability instance. It is deliberately not a MethodDescription. It does not list the step order or algorithm. It also does not classify the holder under a system-role kind, assign the holder, assert that a Work occurrence happened, prove an architecture characteristic, or make the evidence relation into the capability.
+```text
+<System> can produce <result class>
+within <envelope>
+at <measures>
+during <qualification window>,
+with <evidence or source-use relation>.
+```
+
+Either sentence form is a publication or statement about the capability instance.
 

@@ -6,12 +6,12 @@ section_id: "C.37:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 68175
-line_end: 68187
+line_start: 68182
+line_end: 68194
 dependencies:
   - "A.10"
   - "A.2.4"

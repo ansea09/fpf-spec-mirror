@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__004_forces.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:3 — Forces"
-line_start: 63172
-line_end: 63182
+line_start: 63179
+line_end: 63189
 dependencies:
   - "A.1.1"
   - "A.10"

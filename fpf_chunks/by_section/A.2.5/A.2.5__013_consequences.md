@@ -6,12 +6,12 @@ section_id: "A.2.5:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__013_consequences.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:10 — Consequences"
-line_start: 5183
-line_end: 5201
+line_start: 5190
+line_end: 5208
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -37,7 +37,7 @@ keywords:
 Benefits:
 
 - one assignment can support several separately identifiable state episodes;
-- simultaneous predicates remain expressible without pretending every case is a single-state automaton;
+- simultaneous predicates remain expressible;
 - predicate truth, assertion, evidence use, and Work admission can change independently and be repaired locally;
 - Method and gate assertions cite an exact current relation instead of a status label; and
 - physical, social, organizational, and computational cases use the same relation discipline.

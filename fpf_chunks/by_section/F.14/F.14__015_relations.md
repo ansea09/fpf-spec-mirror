@@ -6,12 +6,12 @@ section_id: "F.14:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__015_relations.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:14 — Relations"
-line_start: 97724
-line_end: 97732
+line_start: 97733
+line_end: 97741
 dependencies:
   - "A.10"
   - "A.15.1"

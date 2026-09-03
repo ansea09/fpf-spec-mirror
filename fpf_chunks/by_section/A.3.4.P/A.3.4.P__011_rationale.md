@@ -6,12 +6,12 @@ section_id: "A.3.4.P:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__011_rationale.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:10 — Rationale"
-line_start: 9896
-line_end: 9901
+line_start: 9901
+line_end: 9906
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -48,5 +48,5 @@ keywords:
 
 The current transformation ontology gives FPF one compact way to speak about bounded actual change. That compactness only helps if wording repair returns common source labels to the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification basis. Otherwise source labels reappear as local mini-ontologies: a process ontology here, a graph ontology there, a function ontology elsewhere.
 
-`A.3.4.P` is placed under `A.3.4` because the recurring repair is not about words in general. The repair starts from the `U.Transformation` ontic and asks whether the current use is an actual occurrence established on that basis, a performed-Work actor claim with each precise performer's A.13 core and independent A.15.1 Work admission plus any later required F.6 attribution and separate Work-to-change relation, a non-Work actor claim under another exact actor-side predicate and defining `ClaimGraph`, a differently typed influence source under its exact relation, a compound structure, a mathematical description, or another neighboring object connected by an exact current relation. `E.10` recognizes the wording-use problem; `E.10.ARCH:2.2` distributes direct-rule-content, ontic-level-restoration, and facet-level-restoration loci; the rule content located here supplies the ontic-level transformation restoration.
+The repair starts from the `U.Transformation` ontic and asks whether the current use is an actual occurrence established on that basis, a performed-Work actor claim with each precise performer's A.13 core and independent A.15.1 Work admission plus any later required F.6 attribution and separate Work-to-change relation, a non-Work actor claim under another exact actor-side predicate and defining `ClaimGraph`, a differently typed influence source under its exact relation, a compound structure, a mathematical description, or another neighboring object connected by an exact current relation. `E.10` recognizes the wording-use problem; `E.10.ARCH:2.2` distributes direct-rule-content, ontic-level-restoration, and facet-level-restoration loci; the rule content located here supplies the ontic-level transformation restoration.
 

@@ -6,12 +6,12 @@ section_id: "E.4.DPF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__003_problem.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:2 — Problem"
-line_start: 70976
-line_end: 70983
+line_start: 70983
+line_end: 70990
 dependencies:
   - "A.1.1"
   - "A.13"

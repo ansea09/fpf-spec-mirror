@@ -6,12 +6,12 @@ section_id: "A.2.9:0.1"
 section_title: "Kind Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__002_kind-settlement.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:0.1 — Kind Settlement"
-line_start: 7325
-line_end: 7328
+line_start: 7338
+line_end: 7341
 dependencies:
   - "A.10"
   - "A.13"
@@ -46,5 +46,5 @@ keywords:
 
 ### A.2.9:0.1 - Kind Settlement
 
-`U.SpeechAct` is the admitted communicative-work kind under `U.Work`. One individual such as `SA-Approve-4711 : U.SpeechAct` is an actual temporally bounded speech-act occurrence. A `SpeechActRecord : U.Episteme` may state claims about that occurrence; it is neither the occurrence nor what makes the occurrence actual.
+`U.SpeechAct` is the admitted communicative-work kind under `U.Work`. One individual such as `SA-Approve-4711 : U.SpeechAct` is an actual temporally bounded speech-act occurrence. A `SpeechActRecord : U.Episteme` may state claims about that occurrence.
 

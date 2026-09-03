@@ -6,12 +6,12 @@ section_id: "A.2.8:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__015_sota-echoing.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:12 — SoTA-Echoing"
-line_start: 6992
-line_end: 7001
+line_start: 6999
+line_end: 7008
 dependencies:
   - "A.10"
   - "A.15.1"

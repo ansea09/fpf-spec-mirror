@@ -6,12 +6,12 @@ section_id: "A.2.6:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__004_context.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:2 — Context"
-line_start: 5291
-line_end: 5317
+line_start: 5297
+line_end: 5323
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -44,7 +44,7 @@ Modern projects couple **formal specs**, **data‑driven models**, **safety case
 
 #### A.2.6:2.2 - Slice-bounded reasoning
 
-`U.ContextSlice` is not a bounded-context object or a part of one. It is an addressable value identified by its exact declared selector schema and selector values under the effective reference scheme: for example local senses, named standard editions, environmental values, platform or cohort selectors, and a time selector when that selector belongs to the declared schema. One scope predicate may inspect only a projection of those selectors, but that projection does not reidentify the slice.
+`U.ContextSlice` is an addressable value identified by its exact declared selector schema and selector values under the effective reference scheme: for example local senses, named standard editions, environmental values, platform or cohort selectors, and a time selector when that selector belongs to the declared schema. One scope predicate may inspect only a projection of those selectors, but that projection does not reidentify the slice.
 
 The practical question is therefore concrete: *does this exact slice belong to this exact scope?* A phrase such as “inside the current context,” a project label, or a selected `U.Structure` does not answer it.
 

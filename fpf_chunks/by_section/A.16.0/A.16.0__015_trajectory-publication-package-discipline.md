@@ -6,12 +6,12 @@ section_id: "A.16.0:14"
 section_title: "Trajectory publication package discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__015_trajectory-publication-package-discipline.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:14 — Trajectory publication package discipline"
-line_start: 28914
-line_end: 28929
+line_start: 28919
+line_end: 28934
 dependencies:
   - "A.16"
   - "A.16.1"

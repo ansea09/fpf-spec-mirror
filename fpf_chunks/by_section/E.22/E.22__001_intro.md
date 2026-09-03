@@ -6,12 +6,12 @@ section_id: "E.22:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__001_intro.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:intro — Intro"
-line_start: 89625
-line_end: 89628
+line_start: 89634
+line_end: 89637
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

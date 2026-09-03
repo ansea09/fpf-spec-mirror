@@ -6,12 +6,12 @@ section_id: "C.30.ILC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__012_sota-echoing.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:11 — SoTA-Echoing"
-line_start: 61907
-line_end: 61915
+line_start: 61914
+line_end: 61922
 dependencies:
   - "A.10"
   - "A.22"

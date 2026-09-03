@@ -6,12 +6,12 @@ section_id: "B.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__003_problem.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:2 — Problem"
-line_start: 40451
-line_end: 40458
+line_start: 40456
+line_end: 40463
 dependencies:
   - "A.12"
   - "A.15.1"

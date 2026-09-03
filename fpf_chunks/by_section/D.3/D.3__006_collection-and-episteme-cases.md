@@ -6,12 +6,12 @@ section_id: "D.3:3"
 section_title: "Collection and Episteme Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__006_collection-and-episteme-cases.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:3 — Collection and Episteme Cases"
-line_start: 69013
-line_end: 69018
+line_start: 69020
+line_end: 69025
 dependencies:
   - "A.1"
   - "A.10"

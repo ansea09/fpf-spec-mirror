@@ -6,12 +6,12 @@ section_id: "E.17.AUD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__001_intro.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:intro — Intro"
-line_start: 84549
-line_end: 84552
+line_start: 84558
+line_end: 84561
 dependencies:
   - "A.10"
   - "A.15"

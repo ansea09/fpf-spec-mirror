@@ -6,12 +6,12 @@ section_id: "C.32.ADR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__013_relations.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:12 — Relations"
-line_start: 66600
-line_end: 66611
+line_start: 66607
+line_end: 66618
 dependencies:
   - "A.10"
   - "A.15"

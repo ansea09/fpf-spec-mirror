@@ -6,12 +6,12 @@ section_id: "A.2.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__011_conformance-checklist-normative.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:7 — Conformance Checklist (normative)"
-line_start: 4420
-line_end: 4491
+line_start: 4427
+line_end: 4498
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -101,7 +101,7 @@ Windows and calendars belong to `U.WorkPlan` (A.15.2). Performed delivery belong
 The promise-content episteme names one exact `U.ClaimScope`; an intended maximal extent is stated as that scope rather than represented by omission. A provider capability instance separately names `U.WorkScope`. `PromiseUseIntervalSlot` is the temporal qualifier of each `PromiseContentUse` occurrence. The `ScopeCoverage` predicate is satisfied only when the selected context slice is covered under an explicit `Gamma_time` selector; neither temporal extent nor capability scope replaces claim scope.
 
 **CC-A2.3-14 (Scheme and scope bridges).**
-Cross-scheme reuse first names the exact obtaining F.9 Bridge occurrence. A separate current C.2.1 claim with affirmative polarity must say that this Bridge suits the named bounded promise-content use, in the stated direction, under the use-specific correspondence rule, and within the permitted-loss tolerance. Ordinary reliance requires the exact A.10 evidence-provenance relation with `RelianceDisposition=pass` for that use. Use B.3 only when an actual named assurance claim is current; its result supports, narrows, or blocks only that bounded assurance use. Cross-scope reuse separately names the mapped `U.ClaimScope` and its A.2.6 relations. A Bridge, profile, card, label, or publication establishes none of `PromiseContentUse`, delivery, fulfilment, evidence, assurance, Work, result, or publication occurrence.
+Cross-scheme reuse first names the exact obtaining F.9 Bridge occurrence. A separate current C.2.1 claim with affirmative polarity must say that this Bridge suits the named bounded promise-content use, in the stated direction, under the use-specific correspondence rule, and within the permitted-loss tolerance. Ordinary reliance requires the exact A.10 evidence-provenance relation with `RelianceDisposition=pass` for that use. Use B.3 only when an actual named assurance claim is current; its result supports, narrows, or blocks only that bounded assurance use. Cross-scope reuse separately names the mapped `U.ClaimScope` and its A.2.6 relations.
 **CC-A2.3-15 (OutcomeSpec typing).**
 `promisedOutcomeSpecRef` MUST be a `U.EpistemeRef` resolving to an A.2.3:4.1.1 `OutcomeSpec` specification-use episteme. It MUST NOT point at a concrete `U.Work` occurrence, affected or delivered entity, actual operation-result binding, verdict episteme, or downstream effect, and `OutcomeSpec` MUST NOT be written as an independently admitted `U.OutcomeSpec`.
 
@@ -116,7 +116,7 @@ For any delivery `U.Work` occurrence named by `PromiseContentUse`, let `OS` be t
 
 * If `OS.workSpec` is present, the selected facts about the work occurrence satisfy `OS.workSpec.workPredicateRef`; when `methodConstraintRef` is present, the enacted method is compatible with that constraint.
 * If `OS.resultSpec` is present, the exact affected referent and selected post-work state satisfy `OS.resultSpec.postConditionRef` on its declared state plane. Any actual-change, production, delivery, acceptance, receiving-use, or optional mathematical Delta-lens claim remains separately governed.
-* A.10 evidence relations obtain between each relied-on satisfaction assertion and its supporting evidence epistemes. Those evidence epistemes are neither delivery-work occurrences, affected or delivered entities, operation-result bindings, verdict epistemes, nor values of `OutcomeSpec.workSpec` or `OutcomeSpec.resultSpec`.
+* A.10 evidence relations obtain between each relied-on satisfaction assertion and its supporting evidence epistemes.
 
 Explicitly individuate `PromisedOutcomeDeliveryRelation` only when a downstream relation or claim must refer to its occurrence identity and only after these mode-specific conditions are established; otherwise retain the readable `deliversPromisedOutcome(W, OS)` assertion.
 **CC-A2.3-18 (Acceptance evaluation supports rather than constitutes fulfilment).**

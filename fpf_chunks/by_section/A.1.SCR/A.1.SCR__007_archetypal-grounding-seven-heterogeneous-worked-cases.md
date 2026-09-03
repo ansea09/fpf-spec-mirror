@@ -6,7 +6,7 @@ section_id: "A.1.SCR:5"
 section_title: "Archetypal Grounding — Seven Heterogeneous Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__007_archetypal-grounding-seven-heterogeneous-worked-cases.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:5 — Archetypal Grounding — Seven Heterogeneous Worked Cases"
@@ -26,7 +26,7 @@ keywords:
 
 ### A.1.SCR:5 - Archetypal Grounding — Seven Heterogeneous Worked Cases
 
-Each row states whether the A.1.SCR trigger actually fires. The rows are examples, not members of a kind or values of an enumeration.
+Each row states whether the A.1.SCR trigger actually fires. The rows are examples.
 
 | Source phrase | First useful result and route | Next move and governed additions | Near miss or stop |
 | --- | --- | --- | --- |
@@ -34,11 +34,11 @@ Each row states whether the A.1.SCR trigger actually fires. The rows are example
 | “We release a game session.” | Keep composite dated Work, interval, and session record under their subject patterns. If the phrase instead proposes `GameSessionWhole-GS204`, identify that exact operational whole and use A.1 when its boundary, persistence, or acting eligibility matters. | Recover every actual performer's A.13 core and admit Work only with the full independent A.15.1 basis and exact work-part relations; add F.6 afterward only when this claim also needs precise assignment-bound attribution. Evaluate the operational whole through its constituents, assembly, authoritative-state continuity, larger-game compatibility, and acting eligibility. Keep player systems, deployed installation, rule episteme, interval, activities, and records separate. | A label, shared interval, lobby record, or rules document establishes neither systemhood, Work, parthood, nor identity between the Work and the operational whole. |
 | “We sell internet access.” | Start in A.6.P with promise, permission, state, bearer, commercial relation, or other subject-pattern readings. If the phrase instead proposes `InternetAccessArrangement-CA17`, preserve that exact entity and use A.1 only when the arrangement's systemhood matters. | Add Method or MethodDescription, WorkPlan, permission, provisioning Work, system-role assignment, commitment, status, evidence and evaluation, fulfilment, and acceptance only when the named decision needs those claims; evaluate the arrangement separately from its gateway and status. | No `U.Access` or generic `AccessRelation`; credentials, system-role labels or assignments, endpoints, promises, plans, evidence, connections, states, and bearers remain distinct and cannot replace the exact arrangement before A.1 evaluation. |
 | “We develop a program.” | Distinguish code/episteme, computational Method, intended designator, deployed realization, and run. Use A.1.SCR only when a decision depends on the deployed realization acting, persisting, or changing as a system. | Add MethodDescription, planned or actual Work, transformations, and project system-of-interest designation only when the named decision separately asserts them. | Code, algorithm, deployed system, run, and project designation are not one object. |
-| “The salon creates a hairstyle.” | Name the client whose hair is affected and the selected hair structure/characteristics. Use A.1.SCR only if the client-as-changed-system boundary matters. | Add hairdressing Method, description, dated Work, transformation, affected-referent facts, and acceptance only when the named decision needs them. | Hairstyle creates no system, result kind, or project system-of-interest designation. |
+| “The salon creates a hairstyle.” | Name the client whose hair is affected and the selected hair structure/characteristics. Use A.1.SCR only if the client-as-changed-system boundary matters. | Add hairdressing Method, description, dated Work, transformation, affected-referent facts, and acceptance only when the named decision needs them. | Stop at the selected hair structure and characteristics when they answer the decision. |
 | “The surface needs a grind.” | Name the workpiece or containing holon and the surface state, structure, and characteristics. Usually leave through those subject patterns without A.1.SCR. | Add grinding Method, treatment Work, transformation, measurement, and acceptance only when the named decision needs them. | A finish label is not an independent system, Work, or transformation. |
-| “The batch moves through the flow.” | Name the material batch under its collection or holon rule and separately the selected `TransformationFlowStructure` or `FlowValuation`. Use A.1.SCR only if a decision asserts that the batch acts as a system. | Add movement/treatment Work, transformations, transfer relations, path/valuation, and evidence under their subject patterns. | A list, diagram, structure membership, or moving wording does not create an acting collective system or make the TFS perform Work. |
+| “The batch moves through the flow.” | Name the material batch under its collection or holon rule and separately the selected `TransformationFlowStructure` or `FlowValuation`. Use A.1.SCR only if a decision asserts that the batch acts as a system. | Add movement/treatment Work, transformations, transfer relations, path/valuation, and evidence under their subject patterns. | Recover an acting collective under A.1 only if that claim is current; for a claim that Work was performed, name its actual performer. |
 
-**Enumeration-integrity rule.** The seven rows have different subjects, kinds, relations, entry decisions, and exits. They define no superclass, closed enum, membership predicate, or exhaustive list. Add a later example by showing its exact decision, subject, subject pattern, route, and stop.
+**Enumeration-integrity rule.** The seven rows have different subjects, kinds, relations, entry decisions, and exits. Add a later example by showing its exact decision, subject, subject pattern, route, and stop.
 
 #### A.1.SCR:5.1 - Scale-free and difficult-noun recognition stress
 

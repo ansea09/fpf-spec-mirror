@@ -6,12 +6,12 @@ section_id: "A.2.6:10"
 section_title: "Guard Patterns (ESG & Method–Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__012_guard-patterns-esg-method-work.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:10 — Guard Patterns (ESG & Method–Work)"
-line_start: 5699
-line_end: 5779
+line_start: 5705
+line_end: 5785
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -55,7 +55,7 @@ member(TargetSlice, ClaimScope) = true
 
 Name the exact claim-bearing episteme, exact `U.ClaimScope`, and exact target slice. The episteme, scope, and slice remain different values.
 
-**EG-2 - Formality or evidence, only when current.** A receiving state may separately require a C.2.3 formality threshold or an A.10 freshness judgment. Neither changes membership.
+**EG-2 - Formality or evidence, only when current.** A receiving state may separately require a C.2.3 formality threshold or an A.10 freshness judgment.
 
 **EG-3 - Unknown evaluation.** When a required selector, designation resolution, or translation input is unavailable, return `unknown` as the result binding of the exact `evaluateMembership` application, or as the result of the directly governed evaluation when no reusable application is current. Abstain or follow the exact receiving reliance policy; do not assert `member = false`. Add a C.2.1 result episteme only when a named receiving use needs the conclusion to persist. Use A.15.PROD only when the current claim is that dated work first constituted that episteme.
 
@@ -90,7 +90,7 @@ qualificationWindowHolds(capability, qualificationWindowPolicy, evaluationTime) 
 
 Translate `U.WorkScope` only when its condition predicates use exact local senses that differ from those needed by the job slice. Require the obtaining F.9 Bridge and a separate affirmative C.2.1 claim naming this Work-scope translation's direction, rule, and tolerance; establish the exact A.10 or B.3 reliance branch before the capability guard uses the result. A capability object and job slice carry no hidden `.Context` field that automatically selects this branch.
 
-Observed mapping loss is evidence about the use claim, and permitted loss is its tolerance. When the claim's rule and tolerance support only a subset, return an explicitly narrower Work scope. Neither fact changes membership truth by itself.
+Observed mapping loss is evidence about the use claim, and permitted loss is its tolerance. When the claim's rule and tolerance support only a subset, return an explicitly narrower Work scope.
 
 **WG‑5 - Δ(WorkScope).**
 When widening Work scope (new operating ranges/platforms), the guard MUST require evidence at the new slices (measures + qualification windows). Refit (e.g., new units/parametrization) requires no new evidence.
@@ -104,7 +104,7 @@ translatedScope := deriveTranslatedScope(SourceScope, ExactBridgeOccurrence, Exa
 membershipResult := evaluateMembership(TargetSlice, translatedScope, InterpretationBasis)
 ```
 
-The source claim-bearing episteme designates `SourceScope`; it does not own that value as a hidden context field. The Bridge relates exact local senses under F.9. The C.2.1 claim supplies this translation's rule and tolerance, and A.10 or B.3 supplies the separate reliance basis. None of them makes the A.6.1 operation application occur. An unmapped slice yields `unknown` for the attempted evaluation unless the returned scope explicitly excludes it; it is not silently dropped and reported as false.
+The source claim-bearing episteme designates `SourceScope`. The Bridge relates exact local senses under F.9. The C.2.1 claim supplies this translation's rule and tolerance, and A.10 or B.3 supplies the separate reliance basis. An unmapped slice yields `unknown` for the attempted evaluation unless the returned scope explicitly excludes it; it is not silently dropped and reported as false.
 
 #### A.2.6:10.5 - Time selector
 

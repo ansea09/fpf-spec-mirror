@@ -6,12 +6,12 @@ section_id: "A.3.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__006_archetypal-grounding.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:5 — Archetypal Grounding"
-line_start: 9138
-line_end: 9168
+line_start: 9145
+line_end: 9175
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -38,6 +38,7 @@ dependencies:
   - "E.10.ARCH"
   - "E.20"
   - "F.18"
+  - "F.19"
   - "U.ClaimScope"
   - "U.Mechanism"
   - "U.Method"
@@ -67,7 +68,7 @@ Side-by-side split:
 | --- | --- | --- |
 | EntityOfConcern | exact reactor temperature-and-concentration state subject interpreted under the declared scheme and operating-region claim | the exact catalyst bed as changed referent for one actual regeneration occurrence |
 | Core relation | state-space coordinates plus nonlinear transition-law claim graph, observation relation, disturbances, operating region, and applicability window | exact catalyst bed; maintenance temporal extent and regeneration boundary; boundary conditions; actual fouling, flow, pressure, and catalyst-condition facts before, during, and after that boundary; continuity or reidentification rule for the bed and this one occurrence |
-| Use | possible, predicted, simulated, or probable state change; conformance, drift, and gate input only when freshness or mathematical conditions are satisfied, with no work or gate authority supplied by the prediction | actual bounded-change claim on the recovered subject-side occurrence basis; a cited dynamics model remains a neighboring episteme and does not establish actuality |
+| Use | possible, predicted, simulated, or probable state change; conformance, drift, and gate input only when the receiving use's required conditions are satisfied (§4.6) | actual bounded-change claim on the recovered subject-side occurrence basis |
 | Kept outside | method, controller code, dated runs, evidence, and gate authority | reusable law of state change, method description, work occurrence, evidence relation, and permission to act |
 
 #### A.3.3:5.2 - Reliability and operations
@@ -76,13 +77,13 @@ A service platform models backlog, arrival rate, and incident recovery with a qu
 
 #### A.3.3:5.3 - Evolutionary architecture
 
-An architecture group tracks latency, coupling, operational cost, and change lead time across releases. A discrete-time transition map over those characteristics can be `U.Dynamics`. Architecture moves, selected structures, and views stay with architecture patterns; work occurrences and measurements stay with work and evidence patterns.
+An architecture group tracks latency, coupling, operational cost, and change lead time across releases. An episteme about that architecture can be `U.Dynamics` when its `ClaimGraph` declares a state space over those characteristics and a discrete-time transition map as the transition law. Architecture moves, selected structures, and views stay with architecture patterns; work occurrences and measurements stay with work and evidence patterns.
 
 #### A.3.3:5.4 - Knowledge dynamics
 
-A claim portfolio uses belief, evidence weight, source currentness, and contestability as state coordinates. A Bayesian or likelihood update is a dynamics episteme over claim state. The studies, reviews, and source records are evidence values; the dynamics model does not make a claim true by itself.
+A claim portfolio uses belief, evidence weight, source currentness, and contestability as state coordinates. An episteme declaring a Bayesian or likelihood update as the transition law over that claim-state space is `U.Dynamics`. The studies, reviews, and source records are evidence values.
 
 #### A.3.3:5.5 - Natural physical evolution
 
-The Moon orbiting Earth can be modeled as `U.Dynamics` without pretending that the Moon enacts a method or performs governed work. A classification such as satellite classification may be well-formed, but it does not create method-work alignment.
+A `U.Dynamics` episteme can model the Moon's motion around Earth using an orbital state space and transition law.
 

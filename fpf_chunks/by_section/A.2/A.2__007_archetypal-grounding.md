@@ -6,12 +6,12 @@ section_id: "A.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__007_archetypal-grounding.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:5 — Archetypal Grounding"
 line_start: 3201
-line_end: 3294
+line_end: 3293
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -119,7 +119,6 @@ An engineering team uses RFC 9110 while designing an HTTP service. Keep these cl
 3. The RFC publication is the source episteme in the direct source-use or external-rule relation selected by the design claim.
 4. Recover `DesignTeam-2` as the exact actual performer through A.13, then let A.15.1 independently admit the dated design Work. Because this case expressly says the Work was performed under the exact design assignment, F.6 afterward establishes that relation through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact. The Work may separately produce a MethodDescription or SystemDescription only through the applicable production claim.
 
-The publication neither counts under the system-role kind nor performs the Work.
 
 #### A.2:5.4 - The Same Label in Two Local Practices
 

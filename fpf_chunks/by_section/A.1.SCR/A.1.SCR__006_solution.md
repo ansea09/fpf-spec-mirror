@@ -6,7 +6,7 @@ section_id: "A.1.SCR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__006_solution.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:4 — Solution"
@@ -35,7 +35,7 @@ Start with four plain statements:
 3. the decision or action that would differ if this entity were or were not a system; and
 4. the observation, boundary fact, or construction fact that would settle that difference.
 
-Do not use bare *system candidate* as a working noun. Before referent recovery say *the proposed system reading of the phrase*. Once an actual referent is identified, say *the exact `U.Entity` being evaluated under the already admitted `U.System` kind*. Say *an alternative being considered for designation as the project system-of-interest* only when one named project plan or decision compares possible referents. None of these expressions creates a status kind or a pre-system lifecycle state.
+Do not use bare *system candidate* as a working noun. Before referent recovery say *the proposed system reading of the phrase*. Once an actual referent is identified, say *the exact `U.Entity` being evaluated under the already admitted `U.System` kind*. Say *an alternative being considered for designation as the project system-of-interest* only when one named project plan or decision compares possible referents.
 
 #### A.1.SCR:4.2 - Take the subject-pattern exit first
 
@@ -71,7 +71,7 @@ When the decision still depends on systemhood, recover all six A.1 constructive 
 | Composition-grounded whole-level characteristic | Which characteristic follows from the actual assembly rather than from a label, plan, measurement, or one constituent? |
 | Possible participation in a larger constructive assembly | Which boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy the applicable governed construction rule? |
 
-Then apply the already admitted `U.System` condition: the whole has an actual physical or operational organization through which it can causally participate in Work or transformation while preserving identity. A system-role assignment, capability, Work occurrence, plan, codebase, or description may provide evidence but does not create the system.
+Then apply the already admitted `U.System` condition: the whole has an actual physical or operational organization through which it can causally participate in Work or transformation while preserving identity. A system-role assignment, capability, Work occurrence, plan, codebase, or description may provide evidence for these conditions.
 
 #### A.1.SCR:4.4 - Return one decision-bearing result
 
@@ -89,7 +89,7 @@ These are response forms, not a schema.
 
 #### A.1.SCR:4.5 - Add only the neighbors used now
 
-After the first result, add only claims consumed by the decision. Shared extent, one carrier, a common label, or co-occurrence establishes none of their identities or relations. The system does not become its system-role assignment, capability, Work, transformation, Method, plan, evidence, or description.
+After the first result, add only claims consumed by the decision. Shared extent, one carrier, a common label, or co-occurrence establishes none of their identities or relations.
 
 #### A.1.SCR:4.6 - Keep service/access recovery independent
 
@@ -99,7 +99,7 @@ When service or access wording is the unresolved phrase, start in A.6.P §4.11a.
 
 #### A.1.SCR:4.7 - Preserve the project system-of-interest bridge
 
-The primary expression is **project system-of-interest**, inherited from systems engineering without adding target, aim, or goal semantics. `systemOfConcern` may serve as a historical systems-engineering Plain synonym; it creates no U-kind, system-role kind or assignment, relation, or second designation.
+The primary expression is **project system-of-interest**, inherited from systems engineering without adding target, aim, or goal semantics. `systemOfConcern` may serve as a historical systems-engineering Plain synonym for that same designation.
 
 A project plan or decision may designate one system as the project system-of-interest. Keep six questions separate:
 

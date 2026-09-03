@@ -6,12 +6,12 @@ section_id: "A.6.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__005_solution.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:4 — Solution"
-line_start: 20086
-line_end: 20336
+line_start: 20091
+line_end: 20341
 dependencies:
   - "A.21"
   - "A.6.1"

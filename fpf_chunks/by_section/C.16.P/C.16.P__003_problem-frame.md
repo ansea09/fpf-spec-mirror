@@ -6,12 +6,12 @@ section_id: "C.16.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__003_problem-frame.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:1 — Problem frame"
-line_start: 48389
-line_end: 48408
+line_start: 48396
+line_end: 48415
 dependencies:
   - "A.10"
   - "A.15"

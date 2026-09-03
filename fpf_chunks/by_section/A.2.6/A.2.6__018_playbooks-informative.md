@@ -6,12 +6,12 @@ section_id: "A.2.6:16"
 section_title: "Playbooks (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__018_playbooks-informative.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:16 — Playbooks (Informative)"
-line_start: 5892
-line_end: 5944
+line_start: 5901
+line_end: 5953
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -40,7 +40,7 @@ keywords:
 3. **Evaluate membership.** True admits the scope condition; false stops it; unknown requires abstention, a missing input, or a narrower attempted use.
 4. **Keep other checks separate.** Formality, evidence freshness, capability measures, qualification, gate, and decision have their own predicates.
 5. **Translate only when needed.** Name the exact local senses and obtaining F.9 Bridge; then state the separate affirmative C.2.1 claim for this translation's direction, rule, and tolerance and establish its A.10 or B.3 reliance branch before using the returned scope.
-6. **Persist only what the use needs.** A C.2.1 result episteme may record the judgment when a named receiving use needs it to persist; a C.29 table may display it. Neither changes membership. Use A.15.PROD only when the current claim is that the work first constituted that episteme.
+6. **Persist only what the use needs.** A C.2.1 result episteme may record the judgment when a named receiving use needs it to persist; a C.29 table may display it. Use A.15.PROD only when the current claim is that the work first constituted that episteme.
 
 #### A.2.6:16.2 - Architect’s design rubric for scopes
 

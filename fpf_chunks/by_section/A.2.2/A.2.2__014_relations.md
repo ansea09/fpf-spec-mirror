@@ -6,12 +6,12 @@ section_id: "A.2.2:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__014_relations.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:13 — Relations"
-line_start: 4073
-line_end: 4095
+line_start: 4080
+line_end: 4102
 dependencies:
   - "A.15"
   - "A.2"
@@ -42,7 +42,7 @@ keywords:
 | `A.6.5` | Supplies SlotSpec discipline for capability relation fields and capability-use relations. |
 | `A.6.F` | Repairs function and functionality wording that may hide capability, method, work, math function, or functional-architecture claims. |
 | `A.6.RSIR` | Use it to recover relation, signature, interface, system-role, participation, declaration-position, and slot wording before capability repair when the source sentence is mixed; use E.10.ROLE to select the branch for bare *role*. |
-| `C.27` | Governs temporal currentness, windows, rhythm, and drift when capability timing is material. |
+| `C.27.TA`, `C.27` | Use C.27.TA when a positive temporal aspect of capability—currentness, window, rhythm, or drift—is itself relied on; use C.27 for temporal-claim adequacy. |
 | `C.2.1`, `A.10`, `B.3`, `C.28`, `F.10`, `E.17` | Govern episteme, evidence, assurance, counterfactual, status, and publication-use relations that may justify or qualify a statement or reliance use about a capability instance. |
 | `C.16.P`, `A.19` | Govern characteristic, scale, and characteristic-space recovery when capability measures depend on declared measured aspects. |
 | `C.25` | Governs composite quality families and Q-Bundles that may supply slots for capability-fit checks. |

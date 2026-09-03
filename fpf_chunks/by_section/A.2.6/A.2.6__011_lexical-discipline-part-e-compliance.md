@@ -6,12 +6,12 @@ section_id: "A.2.6:9"
 section_title: "Lexical Discipline (Part E compliance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__011_lexical-discipline-part-e-compliance.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:9 — Lexical Discipline (Part E compliance)"
-line_start: 5687
-line_end: 5698
+line_start: 5693
+line_end: 5704
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -33,7 +33,7 @@ keywords:
 
 ### A.2.6:9 - Lexical Discipline (Part E compliance)
 
-**L‑USM‑1 (names).** Use **Claim scope (G)** for epistemes, **Work scope** for capabilities, and **Publication scope** for publication carriers. Use **Scope** only when discussing the abstract mechanism. Avoid naming any **characteristic** as “applicability,” “envelope,” “generality,” “capability envelope,” or “validity”.
+**L‑USM‑1 (names).** Use **Claim scope (G)** for epistemes, **Work scope** for capabilities, and **Publication scope** for publication views or forms. Use **Scope** only when discussing the abstract mechanism. Avoid naming any **characteristic** as “applicability,” “envelope,” “generality,” “capability envelope,” or “validity”.
 
 **L‑USM‑2 (Work and Run).** Prefer **Work** and **Run** vocabulary from A.15 for system execution contexts. Do not introduce “operation” or “operating” as characteristic names; use **Work scope**.
 

@@ -6,12 +6,12 @@ section_id: "A.6.B:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__017_relations.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:15 — Relations"
-line_start: 11773
-line_end: 11780
+line_start: 11778
+line_end: 11785
 dependencies:
   - "A.10"
   - "A.2.3"

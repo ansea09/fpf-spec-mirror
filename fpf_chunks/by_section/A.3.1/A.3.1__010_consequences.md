@@ -6,12 +6,12 @@ section_id: "A.3.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__010_consequences.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:9 — Consequences"
-line_start: 8355
-line_end: 8375
+line_start: 8362
+line_end: 8382
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -42,7 +42,7 @@ keywords:
 * Method-like language becomes reusable across physical, informational, organizational, and mathematical work without privileging software code or ordered instructions.
 * Teams can compare descriptions, variants, and implementations without confusing them with dated work.
 * Work planning and evidence become more reliable because a method no longer smuggles in authority, proof, schedule, or performed-work claims.
-* The cost is one explicit choice: before relying on words such as *method*, *practice*, *algorithm*, *workflow*, *process*, *procedure*, *program*, *recipe*, *proof*, or *solver*, say whether the source means a reusable way, its description, planned or performed Work, a mechanism, a representation, or another concrete claim.
+* The cost is one explicit choice: before relying on method-like wording, say whether the source means a reusable way, its description, planned or performed Work, a mechanism, a representation, or another concrete claim.
 
 #### A.3.1:9.1 - Lowering and local repair conditions
 

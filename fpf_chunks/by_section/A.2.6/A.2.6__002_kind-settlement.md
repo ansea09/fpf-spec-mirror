@@ -6,12 +6,12 @@ section_id: "A.2.6:0.1"
 section_title: "Kind Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__002_kind-settlement.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:0.1 — Kind Settlement"
-line_start: 5246
-line_end: 5274
+line_start: 5253
+line_end: 5281
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -35,7 +35,7 @@ keywords:
 
 `U.ContextSlice` and `U.Scope` are the durable USM values for scope work. `U.ClaimScope`, `U.WorkScope`, and `U.PublicationScope` are C.3-governed scope specializations under `U.Scope`, not independent root ontics. `ContextSliceSet := Set[U.ContextSlice]` is the mathematical ValueKind whose values are exact sets of independently identified context slices; it is neither a durable scope nor another U-kind. Each exact `U.Scope` has one `ContextSliceSet` value as its extension under the effective reference scheme. `GammaTimePolicy`, work-measure target sets, qualification-window policies, formality thresholds, detail values, abstraction-tier values, scope profiles, coverage metrics, guards, reports, and publication views remain policy values, characteristic values, non-U records, lenses, guard facets, or publication forms unless an exact admission predicate and current subject assertion establish another kind. Dotted forms such as `U.Mechanism.Intension` name the intension slot or intension form defined for `U.Mechanism` in A.6.1; they do not admit a separate structural U-kind.
 
-> **One-line summary.** A.2.6 lets a practitioner test one exact `U.ContextSlice` against one exact set-valued scope. For a claim, ask `member(slice, claimScope)`: `true` admits the claim-scope condition, `false` stops that use, and `unknown` means the available evaluation cannot decide. The predicate is not a `U.Relation` occurrence, and the evaluation work or result record does not make membership true.
+> **One-line summary.** A.2.6 lets a practitioner test one exact `U.ContextSlice` against one exact set-valued scope. For a claim, `member(slice, claimScope)` is `true` or `false`: `true` admits the claim-scope condition and `false` stops that use. An evaluation returns `unknown` when its available basis cannot determine membership. The predicate is not a `U.Relation` occurrence.
 
 **Use this pattern when** a receiving action needs to decide whether a claim, capability, or publication use covers one exact combination of standards, environment, local sense, platform, cohort, or time selectors.
 
@@ -49,7 +49,7 @@ keywords:
 
 * For epistemes, the only **scope type** is **`U.ClaimScope`** (nick **G** in F–G–R).
 * For system capabilities, the only **scope type** is **`U.WorkScope`**.
-* For publication carriers (views, cards, and lanes), the only **scope type** is **`U.PublicationScope`**.
+* For publication views or forms, the only **scope type** is **`U.PublicationScope`**.
 * The abstract architectural notion is **`U.Scope`** — a durable scope value identified extensionally through one exact `ContextSliceSet` value under the effective reference scheme. Intersection, SpanUnion, translation, widening, and narrowing operate on those extensions; refit changes an expression without changing the extension. `U.Scope` is **not** a `U.Characteristic` and MUST NOT appear in any `CharacteristicSpace`.
 
 Source words such as *applicability*, *envelope*, *generality*, and *capability envelope* may appear only as explanatory aliases in non-normative notes.

@@ -6,12 +6,12 @@ section_id: "C.25:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__013_relations.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:12 — Relations"
-line_start: 53868
-line_end: 53886
+line_start: 53875
+line_end: 53893
 dependencies:
   - "A.10"
   - "A.15"

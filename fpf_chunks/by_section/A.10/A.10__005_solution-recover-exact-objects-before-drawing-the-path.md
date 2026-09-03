@@ -6,12 +6,12 @@ section_id: "A.10:4"
 section_title: "Solution — recover exact objects before drawing the path"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__005_solution-recover-exact-objects-before-drawing-the-path.md"
-commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
+commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:4 — Solution — recover exact objects before drawing the path"
-line_start: 22686
-line_end: 22928
+line_start: 22691
+line_end: 22933
 dependencies:
   - "A.10"
   - "A.13"
