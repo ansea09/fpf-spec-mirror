@@ -6,7 +6,7 @@ section_id: "A.16.1:17"
 section_title: "Cue-Pack Continuations and Non-Continuations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__018_cue-pack-continuations-and-non-continuations.md"
-commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
+commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:17 — Cue-Pack Continuations and Non-Continuations"

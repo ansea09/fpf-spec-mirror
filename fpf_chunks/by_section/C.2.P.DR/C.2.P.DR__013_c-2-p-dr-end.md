@@ -6,7 +6,7 @@ section_id: "C.2.P.DR:End"
 section_title: "C.2.P.DR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__013_c-2-p-dr-end.md"
-commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
+commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:End — C.2.P.DR:End"

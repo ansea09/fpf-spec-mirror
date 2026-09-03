@@ -6,7 +6,7 @@ section_id: "C.3.1:4"
 section_title: "Core Objects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__006_core-objects.md"
-commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
+commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:4 — Core Objects"

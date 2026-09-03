@@ -6,7 +6,7 @@ section_id: "C.32.CONWAY:5"
 section_title: "Worked Correspondence Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__006_worked-correspondence-cases.md"
-commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
+commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:5 — Worked Correspondence Cases"

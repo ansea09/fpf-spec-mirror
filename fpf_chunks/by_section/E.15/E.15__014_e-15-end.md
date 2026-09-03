@@ -6,7 +6,7 @@ section_id: "E.15:End"
 section_title: "E.15:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__014_e-15-end.md"
-commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
+commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:End — E.15:End"

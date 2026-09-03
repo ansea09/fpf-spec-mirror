@@ -6,7 +6,7 @@ section_id: "A.1.CSD:12"
 section_title: "SoTA Echoing and Source Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__015_sota-echoing-and-source-use.md"
-commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
+commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:12 — SoTA Echoing and Source Use"

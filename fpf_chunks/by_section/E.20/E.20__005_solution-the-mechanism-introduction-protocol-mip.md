@@ -6,7 +6,7 @@ section_id: "E.20:4"
 section_title: "Solution — the Mechanism Introduction Protocol (MIP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__005_solution-the-mechanism-introduction-protocol-mip.md"
-commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
+commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:4 — Solution — the Mechanism Introduction Protocol (MIP)"

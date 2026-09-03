@@ -6,7 +6,7 @@ section_id: "A.2.2:7"
 section_title: "Capability Currentness and Lowering"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__008_capability-currentness-and-lowering.md"
-commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
+commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:7 — Capability Currentness and Lowering"

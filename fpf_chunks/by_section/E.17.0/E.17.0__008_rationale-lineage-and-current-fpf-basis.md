@@ -6,7 +6,7 @@ section_id: "E.17.0:7"
 section_title: "Rationale, lineage, and current FPF basis"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__008_rationale-lineage-and-current-fpf-basis.md"
-commit_sha: "421266f0a37ab295b1ffd9e214ace6541e21f5be"
+commit_sha: "353d59d1c2167344cfff99cadbf413c587c14a66"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:7 — Rationale, lineage, and current FPF basis"
