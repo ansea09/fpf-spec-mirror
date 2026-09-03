@@ -6,7 +6,7 @@ section_id: "A.1.STM:5"
 section_title: "Minimal worked use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__007_minimal-worked-use.md"
-commit_sha: "59c455329e49715c64dc1b16f22c1efba6a3cf6f"
+commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:5 — Minimal worked use"
