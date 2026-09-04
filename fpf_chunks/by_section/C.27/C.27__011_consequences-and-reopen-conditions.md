@@ -6,12 +6,12 @@ section_id: "C.27:9"
 section_title: "Consequences and Reopen Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__011_consequences-and-reopen-conditions.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:9 — Consequences and Reopen Conditions"
-line_start: 56125
-line_end: 56147
+line_start: 56117
+line_end: 56139
 dependencies:
   - "A.10"
   - "A.3.3"

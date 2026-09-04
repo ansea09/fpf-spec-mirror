@@ -6,12 +6,12 @@ section_id: "C.20:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__003_use-this-when.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:0 — Use This When"
-line_start: 51034
-line_end: 51055
+line_start: 51025
+line_end: 51046
 dependencies:
   - "A.1"
   - "A.14"
@@ -69,5 +69,5 @@ Use this pattern when a team needs to decide whether an apparent field is one du
 
 **What this buys.** A practitioner can say what the discipline is made of, how the exact parts form one practice-and-knowledge whole, what remains the same through change, and which surrounding objects are merely used by discipline work. That makes comparison, transport, stewardship, and edition work inspectable without reducing the field to a document list or domain label.
 
-**Not this pattern when.** Use domain or catalogue work for a subject-area label; the effective ReferenceScheme, ClaimScope, F.17 local-sense row, and F.9 only when applicable for one local meaning or crossing; C.2.1 and its publication or source-use patterns for one theory, standard, canon item, or their exact episteme edition; C.3, C.2.1, and direct historical or provenance relations for a school, variant, lineage, or classification; A.3.1 and B.1.5 for a Method or composite Method; A.15.1 for dated Work; A.22 for a selected relation organization; A.19.CPM for an actual comparison; C.21 for field-health characteristics; and E.24.PUB for publication. Use C.20 when determining, explaining, or relying on whether one exact field-level candidate has the required construction and continuity. The result may be `true`, `false`, or `unknown`; when the constructive facts are unavailable, stop at a collection.
+**Not this pattern when.** Use domain or catalogue work for a subject-area label; use the effective `ReferenceScheme`, `ClaimScope`, and F.17 local-sense row for one local meaning; use F.9 only when a semantic relation is claimed between two exact F.17 `SchemeSenseCell` values from different semantic contexts and its predicate obtains; C.2.1 and its publication or source-use patterns for one theory, standard, canon item, or their exact episteme edition; C.3, C.2.1, and direct historical or provenance relations for a school, variant, lineage, or classification; A.3.1 and B.1.5 for a Method or composite Method; A.15.1 for dated Work; A.22 for a selected relation organization; A.19.CPM for an actual comparison; C.21 for field-health characteristics; and E.24.PUB for publication. Use C.20 when determining, explaining, or relying on whether one exact field-level candidate has the required construction and continuity. The result may be `true`, `false`, or `unknown`; when the constructive facts are unavailable, stop at a collection.
 

@@ -6,12 +6,12 @@ section_id: "A.19.CPM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 34380
-line_end: 34421
+line_start: 34370
+line_end: 34411
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -61,7 +61,7 @@ keywords:
   *Symptom:* comparator, scope, predicate, window, evidence, or currentness fields are placed inside the set-valued output.
   *Avoid:* keep the output to relation or poset tokens; recover effective arguments from the actual operation application and direct neighboring relations.
 
-* **Anti-pattern: Cross-reference-scheme or cross-plane comparison without a bridge.**
-  *Symptom:* profiles interpreted under different reference schemes or planes are compared without an F.9 bridge, preserved and lost meaning, CL value, and reference-plane conditions.
-  *Avoid:* state the F.9 bridge relation, assign any penalty to `R_eff`, bind its effective ref on the dated comparison `U.Work`, and cite it from the A.10 evidence-provenance path.
+* **Anti-pattern: Using one F.9 Bridge rule for both semantic and ReferencePlane crossings.**
+  *Symptom:* an F.9 Bridge is required merely because reference schemes or planes differ; the separate C.2.1 bounded-use claim is absent; or `CL` and a bare `R_eff` penalty are treated as mandatory.
+  *Avoid:* cite an obtaining F.9 Bridge and separate bounded-use claim only for the semantic branch; cite the applicable ReferencePlane relation and policy for the plane branch; state both when both facts are current. Make only actually consumed refs recoverable with the dated `U.Work` and actual `Compare` application. Add `CL` only when needed. Open B.3 only for an actual named assurance claim, and use a local `R_eff` only if its declared domain model and calculation define it. Use A.10 for evidence provenance and ordinary bounded reliance, not to establish either crossing relation.
 

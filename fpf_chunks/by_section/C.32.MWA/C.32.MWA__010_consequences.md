@@ -6,12 +6,12 @@ section_id: "C.32.MWA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__010_consequences.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:9 — Consequences"
-line_start: 65749
-line_end: 65756
+line_start: 65741
+line_end: 65748
 dependencies:
   - "A.15.1"
   - "A.22"

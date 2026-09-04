@@ -6,12 +6,12 @@ section_id: "A.16.0:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__003_problem.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:2 — Problem"
-line_start: 28710
-line_end: 28718
+line_start: 28700
+line_end: 28708
 dependencies:
   - "A.16"
   - "A.16.1"

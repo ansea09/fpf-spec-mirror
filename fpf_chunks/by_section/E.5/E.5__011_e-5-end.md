@@ -6,12 +6,12 @@ section_id: "E.5:End"
 section_title: "E.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__011_e-5-end.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:End — E.5:End"
-line_start: 72651
-line_end: 72652
+line_start: 72643
+line_end: 72644
 dependencies:
   - "E.2"
   - "E.3"

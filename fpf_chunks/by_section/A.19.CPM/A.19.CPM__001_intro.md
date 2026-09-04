@@ -6,12 +6,12 @@ section_id: "A.19.CPM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__001_intro.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:intro — Intro"
-line_start: 34108
-line_end: 34120
+line_start: 34098
+line_end: 34110
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -33,6 +33,6 @@ keywords:
 > **Modified:** 2026‑01‑20
 >
 > **Governing-pattern note:** this pattern governs the canonical `U.Mechanism.Intension` for `CPM.IntensionRef` (CHR suite stage `compare`). Mechanism-intension semantics are governed by explicitly designated governing patterns (`E.20`).
-> `A.6.1` governs the semantic content of a `U.Mechanism` declaration. This pattern specialises that content for CPM through the exact `EntityOfConcernRef`, effective `U.ReferenceScheme`, direct signature components, SlotSpecs, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and an optional `SignatureManifest`. An F.9 bridge relation, dated comparison `U.Work`, actual `Compare` operation application with its `ComparisonResultSlot` binding, A.10 evidence-provenance graph relation, G.11 currentness relation, and optional G.9 `ParityPlan` and `ParityReport` remain neighboring objects and relations.
+> `A.6.1` governs the semantic content of a `U.Mechanism` declaration. This pattern specialises that content for CPM through the exact `EntityOfConcernRef`, effective `U.ReferenceScheme`, direct signature components, SlotSpecs, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and an optional `SignatureManifest`. An obtaining F.9 `Bridge`, its separate C.2.1 bounded-use claim when consumed, any applicable ReferencePlane relation and policy, dated comparison `U.Work`, actual `Compare` operation application with its `ComparisonResultSlot` binding, A.10 evidence-provenance graph relation, G.11 currentness relation, and optional G.9 `ParityPlan` and `ParityReport` remain neighboring objects and relations.
 > Other descriptions of CPM cite `A.19.CPM:4.1` rather than restating its declaration content or absorbing those named neighboring objects and relations into mechanism fields.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.1.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
-line_start: 41905
-line_end: 42497
+line_start: 41896
+line_end: 42488
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -495,7 +495,7 @@ Use A.20 only when the proposition is an internal constraint, A.10 only when an 
 
 A system may perform exact retargeting work. Identify its enacted method, any exact A.6.1 operation application and binding, affected or newly constituted episteme, and actual change facts separately. The arrow itself performs no work, and the mathematical statement `r : X -> Y` infers no bare result or universal production relation.
 
-Examples include retargeting from a module to a function it realizes, or from observations to a learned model, when the independently identified source and receiving entities really differ. A Fourier representation change is not automatically retargeting: use C.29 first to decide whether the signal remains the EntityOfConcern and only its representation changes. This test prevents mathematical notation from deciding ontology.
+Examples include retargeting from an episteme about a physical cabinet to one about a selected functional `U.Structure`, or from observations to a learned model, when the independently identified source and receiving entities really differ. For `Cab-7` as the cabinet and `Route-A` as the selected functional structure, an independently stated behaviour-test result can supply q's current-case basis; the judgement is `satisfies` only when that result meets q's named conditions. The source expression `Realises(Cab-7, Route-A)` has no current direct relation governor here and therefore stops at A.6.RCD `missing-governor`; it contributes nothing to that judgement. A Fourier representation change is not automatically retargeting: use C.29 first to decide whether the signal remains the EntityOfConcern and only its representation changes. This test prevents mathematical notation from deciding ontology.
 
 ### C.2.1:8 - Multi-view description and publication  *(normative)*
 

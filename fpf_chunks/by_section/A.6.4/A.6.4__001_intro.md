@@ -6,12 +6,12 @@ section_id: "A.6.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__001_intro.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:intro — Intro"
-line_start: 15703
-line_end: 15720
+line_start: 15724
+line_end: 15741
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,15 +41,15 @@ keywords:
 
 **One-line summary.** Use EntityOfConcern retargeting when one episteme concerns one entity and another concerns a different entity, yet a stated invariant remains useful across that change for one named purpose.
 
-**Retargeting in plain terms.** The two epistemes are not merely different descriptions of the same thing. They concern different things, and the receiving use keeps only what a stated invariant supports.
+**Retargeting in plain terms.** The two epistemes concern different things. One named receiving use is admitted only when exact facts establish the stated invariant and show that the visible loss remains acceptable under named conditions.
 
 **Use this when.** Use this pattern only after C.2.1 identifies the two epistemes and shows that their exact EntitiesOfConcern differ. A changed model kind, ontology frame, predicate set, coordinate system, or notation is a cue to repeat that identity test, not proof of retargeting.
 
-**What goes wrong if missed.** A changed EntityOfConcern is treated as “the same thing in another form”, so claims, evidence, gate results, work authority, or currentness are carried into a use they do not support. The opposite error is to demand a semantic Bridge or reversible mapping when the case needs neither.
+**What goes wrong if missed.** A changed EntityOfConcern is treated as “the same thing in another form”, so claims, evidence, gate results, work authority, or currentness are carried forward without their own direct predicates or current results. The opposite error is to demand a semantic Bridge or reversible mapping when the case needs neither.
 
-**First useful move.** Name both epistemes and both EntitiesOfConcern. Then say what remains supported, what is lost, the receiving action for which that loss is acceptable, and what supports that judgement.
+**First useful move.** Name both epistemes and both EntitiesOfConcern. Then state the invariant, visible loss, named receiving action, conditions, and exact facts used to judge the case.
 
-**What this buys.** The reader can decide one receiving use without pretending that every source claim survives, that the arrow performed Work, or that a mathematical representation decided what the epistemes concern.
+**What this buys.** The reader can decide one receiving use from q and current facts; source-claim survival, performed Work, and EntityOfConcern identity retain their separate bases.
 
-**Not this pattern when.** If the EntityOfConcern is preserved, use the pattern for the change that actually occurred: A.6.3.CR for wording, A.6.3.RT for representation scheme or reasoning medium, A.6.3.CSC for controlled coarsening, or E.17.EFP for explanation mode. A normal time-to-frequency description of the same signal is first a C.29 and A.6.3.RT case. Use F.9 for a separately claimed Bridge between two local senses; use A.6.1, A.15, A.10, B.3, A.21, C.27, A.3.3, or E.24.PUB only when an operation application, Work, evidence, assurance, a gate, temporal adequacy, dynamics, control, or publication is actually claimed.
+**Not this pattern when.** If the EntityOfConcern is preserved, use the pattern for the change that actually occurred: A.6.3.CR for wording, A.6.3.RT for representation scheme or reasoning medium, A.6.3.CSC for controlled coarsening, or E.17.EFP for explanation mode. A normal time-to-frequency description of the same signal is first a C.29 and A.6.3.RT case. Use F.9 only for a separately claimed Bridge between two exact local senses. Keep every other independently current claim under its direct pattern; the Relations section names the main neighboring owners once.
 

@@ -6,12 +6,12 @@ section_id: "B.5:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__008_rationale.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:7 — Rationale"
-line_start: 40932
-line_end: 40937
+line_start: 40923
+line_end: 40928
 dependencies:
   - "A.10"
   - "B.4"

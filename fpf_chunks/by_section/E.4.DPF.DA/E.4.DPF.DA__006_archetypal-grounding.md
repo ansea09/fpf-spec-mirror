@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__006_archetypal-grounding.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:5 — Archetypal Grounding"
-line_start: 71848
-line_end: 71861
+line_start: 71840
+line_end: 71853
 dependencies:
   - "A.1.1"
   - "A.10"

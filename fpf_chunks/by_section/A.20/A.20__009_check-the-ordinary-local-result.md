@@ -6,12 +6,12 @@ section_id: "A.20:7"
 section_title: "Check the ordinary local result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__009_check-the-ordinary-local-result.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:7 — Check the ordinary local result"
-line_start: 35101
-line_end: 35120
+line_start: 35092
+line_end: 35111
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,6 +46,6 @@ A specialist constraint such as a stability bound, return-shape condition, or re
 | Trigger | Additional check | Direct pattern |
 | --- | --- | --- |
 | A gate consumes the result | Keep every applicable GateFit result independently recoverable; an A.20 failure changes only the A.21 aggregate under its current rule (`CC-A20-5`). A deferred required check remains `notRun` (`CC-A20-6`). | `A.21` |
-| The proposition in an A.6.4 use assertion q is the constrained subject | Test its stated invariant and loss boundary for the named use; keep r and any operation application separate and require no universal Bridge or reversible optic (`CC-A20-8`). | `A.6.4`; add `F.9` only for a separate semantic-correspondence claim |
+| The exact proposition in an A.6.4 bounded-use assertion q is the named internal constraint | Apply A.20 to that proposition for the stated case and return only its `ConstraintValidityResult`; keep r, q, any operation application, and the A.6.4 current-case judgement separate. A Bridge or reversibility claim enters only when separately current (`CC-A20-8`). | `A.6.4`; add `F.9` only for a separate semantic-correspondence claim |
 | Publication, structure, time, refresh, evidence, assurance, or Work is current | Keep those claims in their own result or relation and follow the direct pattern (`CC-A20-9`). A.20 adds no publication-face, path, slice, scheduler, gate-profile, or gate-algebra fields (`CC-A20-7`). | `E.17`, `E.18`, `C.27`, `G.11`, `A.10`, `B.3`, or `A.15`, as applicable |
 

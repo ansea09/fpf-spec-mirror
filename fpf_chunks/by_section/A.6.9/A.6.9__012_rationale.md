@@ -6,12 +6,12 @@ section_id: "A.6.9:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__012_rationale.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:10 — Rationale"
-line_start: 20788
-line_end: 20795
+line_start: 20778
+line_end: 20785
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,5 +61,5 @@ Cross-context sameness wording is not one predicate. A.6.9 first restores the ac
 
 For that branch, exact cells and a relation-only profile make correspondence falsifiable. A separate C.2.1 claim makes the proposed use equally explicit without reidentifying the Bridge. A.10 or B.3 can reopen reliance without changing either object. Authorization and the actual receiving object remain visible rather than hiding inside *suitable*, *aligned*, or *mapped*.
 
-The repair sequence is therefore: **name the action; route the object; test the relation; state the use; check reliance; recover permission or performance only when claimed.**
+The repair sequence is therefore: **name the action; route the object; test the relation; state the use; check reliance when someone will rely on that claim; recover permission or performance only when claimed.**
 

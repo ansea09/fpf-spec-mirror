@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__001_intro.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:intro — Intro"
-line_start: 77652
-line_end: 77659
+line_start: 77644
+line_end: 77651
 dependencies:
   - "A.2"
   - "A.2.1"

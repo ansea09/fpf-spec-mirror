@@ -6,12 +6,12 @@ section_id: "F.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__002_use-this-when.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:0 — Use this when"
-line_start: 100434
-line_end: 100466
+line_start: 100426
+line_end: 100458
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

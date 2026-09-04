@@ -6,12 +6,12 @@ section_id: "F.6:6"
 section_title: "Reasoning Rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__008_reasoning-rules.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:6 — Reasoning Rules"
-line_start: 94748
-line_end: 94754
+line_start: 94740
+line_end: 94746
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.6.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__003_problem.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:2 — Problem"
-line_start: 15733
-line_end: 15744
+line_start: 15754
+line_end: 15765
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,7 +42,7 @@ Without this discipline:
 1. **Notation decides ontology.** A changed coordinate system, mathematical domain, model kind, or predicate vocabulary is treated as proof that the EntityOfConcern changed.
 2. **Retargeting is confused with viewing.** A real move from one independently identified entity to another is called another view, so its loss and receiving-use boundary disappear.
 3. **The invariant and loss remain rhetoric.** Phrases such as “energy is preserved” or “the model summarizes the data” do not say which claim survives, which distinctions disappear, or which use remains sound.
-4. **A mapping apparatus replaces the actual case.** A generic kind bridge, score, diagram, or reversible optic is demanded even when the endpoint entities, invariant, loss, use, and support already answer the question.
+4. **A mapping apparatus replaces the actual case.** A generic kind bridge, score, diagram, or reversible optic is demanded even when the exact endpoints, q, and current facts already let the reader judge the named use.
 5. **Arrow, claim, and execution collapse.** A mathematical arrow is treated as if it granted a use, performed an operation, or produced an episteme.
 6. **Structural reinterpretation duplicates the core rule.** E.18 or a discipline pack invents another retargeting ontology instead of placing the same arrow and separate use claim in its own transformation-flow structure.
 7. **Neighboring changes disappear into one label.** Grounding, representation, scope, operating conditions, viewpoint selection, publication, operation application, and performed Work are folded into retargeting instead of being identified only when they occur.

@@ -6,12 +6,12 @@ section_id: "A.6.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__005_solution.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:4 — Solution"
-line_start: 19235
-line_end: 19404
+line_start: 19256
+line_end: 19425
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -34,7 +34,7 @@ Apply relation-declaration slot discipline only after the direct relation and it
 
 Relation-declaration slot discipline is a rule set, not a durable U-kind. This pattern reuses `RelationSignature`, `SlotSpec`, `SlotKind`, `ValueKind`, and `RefKind` from the existing signature and relation vocabulary; it introduces no U-kind. The notation `U.RelationSlotDiscipline` is not admitted: it has no separate instances, identity rule, grounding rule, constructive assembly, or ontic settlement. A.6.5 constrains one `SlotSpec` declaration belonging to one exact `RelationSignature`. Operation argument and result declarations remain under `A.6.1`; mathematical operands and their order remain representation elements under `C.29`.
 
-A.15.3 may cite one exact SlotSpec as the target of a planned participant designation inside a `U.WorkPlan`. That citation does not fill the SlotSpec, extend SlotSpec to another description family, make the planned designation an actual participant, or make the direct relation obtain. Planned operation arguments and results instead cite their exact A.6.1 declarations. No method-description, plan, work, evaluation, card, schema, or record field becomes a SlotSpec. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant.
+A.15.3 may cite one exact SlotSpec as the target of a planned participant designation inside a `U.WorkPlan`. That citation does not fill the SlotSpec, extend SlotSpec to another description family, make the planned designation an actual participant, or make the direct relation obtain. Planned operation arguments and results instead cite their exact A.6.1 declarations. Only a declaration-local participant specification inside one exact `RelationSignature` is a SlotSpec. Method-description, plan, work, evaluation, card, schema, and record fields retain the kinds and declaration rules supplied by their defining patterns. A field that receives relation semantics follows the applicable declaration or C.29 correspondence route in §4.2; the field, SlotSpec, designation, and actual participant remain distinct.
 
 #### A.6.5:4.1 - Keep pattern scope exact
 
@@ -70,7 +70,7 @@ refMode := ByValue | RefKind
 
 #### A.6.5:4.3 - Apply the well-formedness constraints
 
-The following labelled block represents seven rules for reviewing a declaration episteme. The labels and indentation are presentation elements, not SlotSpecs, relation participants, or work occurrences.
+The following labelled block presents seven rules for reviewing a declaration episteme; its labels and indentation organize those rules.
 
 ```text
 A6.5-S1 CompleteSlotSpec:
@@ -116,7 +116,7 @@ Use the following definitions for that distinction:
 - `A.15.1` and `A.3.1` supply the constructive assembly, composition, identity, and meta-holon-transition conditions that admit `U.Work` and `U.Method` as holon kinds. `U.Transformation` is instead a root U-kind under `A.3.4` for one independently grounded actual bounded change. Verb-shaped wording proves neither classification.
 - One context-local system-role kind is admitted under `C.3` and described through `A.2`; it is neither a holon nor an assignment. An admitted `U.System` participates as holder in an assignment occurrence whose species is declared under `U.SystemRoleAssignment`.
 - `U.Relation` is an individuable obtaining relation occurrence under `A.6.REL`. A SlotSpec does not give it constructive parthood or meta-holon transition and does not admit it as a holon.
-- Only an admitted `U.System` acts. A system may be classified by an exact local system-role kind and may participate as holder in an obtaining `U.SystemRoleAssignment`; neither the kind nor the assignment acts. Work is performed, a Method is applied in Work, and a transformation occurs or is carried out. The relation, Method, Work, transformation, kind, signature, and structure do not become actors because prose gives them an active verb.
+- Only an admitted `U.System` acts. A system may be classified by an exact local system-role kind and may participate as holder in an obtaining `U.SystemRoleAssignment`; neither the kind nor the assignment acts. Work is performed, a Method is applied in Work, and a transformation occurs or is carried out.
 
 When one word could denote a relation predicate or a holon occurrence, first ground the participants and ask what obtaining or occurrence identity rule the receiving claim needs. Then find its definition. Do not decide by part of speech.
 
@@ -141,7 +141,7 @@ readable assertion of the recovered direct relation
   +-- local C.3 kind with an extent rule, when typed quantification over corresponding participants is current
 ```
 
-The branch marks are representation edges under `C.29`, not transitions in a drafting process, world-side relations, or work occurrences. They show only which additional object the named use consumes. The diagram does not make a `RelationSignature` prerequisite for explicit occurrence individuation, and it neither makes the direct relation obtain nor supplies occurrence identity. The direct-relation definition supplies the obtaining predicate; current case facts or constituting history must satisfy it. The direct occurrence-identity rule determines which occurrence is being distinguished only after that factual condition is met.
+The branch marks are `C.29` representation edges showing which additional object each named use consumes. The branches are independent thresholds; explicit occurrence individuation does not require a `RelationSignature`. The direct-relation definition supplies the obtaining predicate and direct occurrence-identity rule, while current case facts or constituting history must satisfy the predicate before that rule distinguishes an occurrence.
 
 The local-kind branch does not turn every participant qualification into a kind. It is justified only when membership, substitution, quantification, or `U.SubkindOf` reasoning will be performed.
 

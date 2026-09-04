@@ -6,12 +6,12 @@ section_id: "A.6.4:12"
 section_title: "Mini-checklist (for use)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__013_mini-checklist-for-use.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:12 — Mini-checklist (for use)"
-line_start: 15932
-line_end: 15943
+line_start: 15953
+line_end: 15964
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ When you think you need retargeting, ask:
 
 1. **Does the EntityOfConcern change?** If no, use A.6.3 or another preserving pattern.
 2. **Which two epistemes and EntitiesOfConcern are involved?** Name them before naming a mapping technology.
-3. **What invariant remains supported?** State the exact claim and its case assumptions.
+3. **Which invariant does q state?** Name its exact proposition and case assumptions.
 4. **What is lost, and which receiving use tolerates that loss?** A broad "same meaning" answer is insufficient.
 5. **What witnesses the invariant and loss judgement?** If the witness is missing or contradicted, stop or reopen.
 6. **Is a relation between two local senses also claimed?** Only then test F.9 separately; no Bridge follows merely from retargeting.

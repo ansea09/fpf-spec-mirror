@@ -6,12 +6,12 @@ section_id: "B.1.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__009_conformance-checklist.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:6 — Conformance Checklist"
-line_start: 36891
-line_end: 36904
+line_start: 36882
+line_end: 36895
 dependencies:
   - "A.1"
   - "A.10"

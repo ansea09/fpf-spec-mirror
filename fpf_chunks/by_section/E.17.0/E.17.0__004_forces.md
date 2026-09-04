@@ -6,12 +6,12 @@ section_id: "E.17.0:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__004_forces.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:3 — Forces"
-line_start: 81445
-line_end: 81457
+line_start: 81437
+line_end: 81449
 dependencies:
   - "A.22"
   - "A.6.3"

@@ -6,12 +6,12 @@ section_id: "A.15.1:3"
 section_title: "Forces (what the definition must balance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__004_forces-what-the-definition-must-balance.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:3 — Forces (what the definition must balance)"
-line_start: 25007
-line_end: 25016
+line_start: 24997
+line_end: 25006
 dependencies:
   - "A.1"
   - "A.10"

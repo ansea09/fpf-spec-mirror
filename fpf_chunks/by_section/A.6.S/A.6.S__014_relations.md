@@ -6,12 +6,12 @@ section_id: "A.6.S:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__014_relations.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:12 — Relations"
-line_start: 21090
-line_end: 21129
+line_start: 21080
+line_end: 21119
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -52,7 +52,7 @@ keywords:
   * (optional) E.18 — TransformationFlowStructure, when signature-construction work is represented as a transformation-flow structure
   * E.10 and LEX discipline — if the publication uses Plain twins (“SoI”) or shorthands, keep their exact Tech readings recoverable and keep Plain twins out of normative register
   * A.6.3 — `U.EpistemicViewing`
-  * A.6.4 — EntityOfConcern-retargeting arrows and their separate use claims
+  * A.6.4 — EntityOfConcern-retargeting arrows, their separate C.2.1 bounded-use assertions, and separate current-case judgements
   * A.6.5 — relation-declaration slot discipline
   * A.6.6 — Base Declaration Discipline
   * A.6.B — Boundary Norm Square & Claim Register discipline

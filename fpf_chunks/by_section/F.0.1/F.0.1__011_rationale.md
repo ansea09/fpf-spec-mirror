@@ -6,12 +6,12 @@ section_id: "F.0.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__011_rationale.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:10 — Rationale"
-line_start: 92900
-line_end: 92905
+line_start: 92892
+line_end: 92897
 dependencies:
   - "E.10"
   - "E.10.D1"

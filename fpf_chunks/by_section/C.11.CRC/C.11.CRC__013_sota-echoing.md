@@ -6,12 +6,12 @@ section_id: "C.11.CRC:11"
 section_title: "SoTA Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__013_sota-echoing.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:11 — SoTA Echoing"
-line_start: 47789
-line_end: 47801
+line_start: 47780
+line_end: 47792
 dependencies:
   - "A.1.CSD"
   - "A.10"

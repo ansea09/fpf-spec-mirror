@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PFP.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
-line_start: 79788
-line_end: 80048
+line_start: 79780
+line_end: 80040
 dependencies:
   - "E.11"
   - "E.17"

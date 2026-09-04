@@ -6,12 +6,12 @@ section_id: "C.30.ILC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__008_conformance-checklist.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:7 — Conformance Checklist"
-line_start: 61870
-line_end: 61883
+line_start: 61862
+line_end: 61875
 dependencies:
   - "A.10"
   - "A.22"

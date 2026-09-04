@@ -6,12 +6,12 @@ section_id: "C.27:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__012_rationale.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:10 — Rationale"
-line_start: 56148
-line_end: 56162
+line_start: 56140
+line_end: 56154
 dependencies:
   - "A.10"
   - "A.3.3"

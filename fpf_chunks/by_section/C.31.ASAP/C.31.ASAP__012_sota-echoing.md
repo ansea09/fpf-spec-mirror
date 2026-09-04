@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__012_sota-echoing.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:11 — SoTA-Echoing"
-line_start: 63437
-line_end: 63446
+line_start: 63429
+line_end: 63438
 dependencies:
   - "A.1.1"
   - "A.10"

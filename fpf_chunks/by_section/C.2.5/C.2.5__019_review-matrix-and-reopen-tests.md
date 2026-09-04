@@ -6,12 +6,12 @@ section_id: "C.2.5:18"
 section_title: "Review Matrix and Reopen Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__019_review-matrix-and-reopen-tests.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:18 — Review Matrix and Reopen Tests"
-line_start: 44576
-line_end: 44595
+line_start: 44567
+line_end: 44586
 dependencies:
   - "A.16"
   - "A.16.0"

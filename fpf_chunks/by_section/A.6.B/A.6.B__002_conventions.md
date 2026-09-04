@@ -6,12 +6,12 @@ section_id: "A.6.B:0"
 section_title: "Conventions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__002_conventions.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:0 — Conventions"
-line_start: 11110
-line_end: 11140
+line_start: 11119
+line_end: 11149
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -95,11 +95,11 @@ keywords:
 * **D** — Deontics & Commitments
 * **E** — Work‑Effects & Evidence
 
-These labels are **claim-classification labels for statements**, not MVPK face kinds and not pattern identifiers.
+These labels are **claim-classification labels for statements**, not MVPK face designators and not pattern identifiers.
 
 **Statement identifiers (recommended).** Classifiable statements **SHOULD** be given stable IDs with a quadrant prefix: `L-*`, `A-*`, `D-*`, `E-*`. Other sections and views **SHOULD** reference these IDs rather than restating the same constraint in new words.
 
-**Non-collision note (informative).** The `A-*` prefix here is “Admissibility”, not Part-A numbering and not MVPK’s `AssuranceLane` face kind. If this is a readability hazard in your program, prefer an explicit `G-*` (“Gate”) local convention while keeping the quadrant name “Admissibility”. Also avoid introducing single-letter mnemonics for MVPK face kinds inside this cluster; spell face kinds in full to reduce collisions.
+**Non-collision note (informative).** The `A-*` prefix here is “Admissibility”, not Part-A numbering and not MVPK’s `AssuranceLane` face designator. If this is a readability hazard in your program, prefer an explicit `G-*` (“Gate”) local convention while keeping the quadrant name “Admissibility”. Also avoid introducing single-letter mnemonics for MVPK face designators inside this cluster; spell face designators in full to reduce collisions.
 
 **Atomic claim.** An **atomic claim** is a sentence (or bullet) that performs exactly one logical role and is classifiable under exactly one quadrant. If a sentence mixes roles, it is **not atomic** and **MUST** be split before it can be classified.
 

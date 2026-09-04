@@ -6,12 +6,12 @@ section_id: "A.19:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 30094
-line_end: 30126
+line_start: 30084
+line_end: 30116
 dependencies:
   - "A.10"
   - "A.15"

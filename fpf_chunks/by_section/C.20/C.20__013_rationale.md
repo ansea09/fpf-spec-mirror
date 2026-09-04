@@ -6,12 +6,12 @@ section_id: "C.20:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__013_rationale.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:9 — Rationale"
-line_start: 51347
-line_end: 51354
+line_start: 51339
+line_end: 51346
 dependencies:
   - "A.1"
   - "A.14"
@@ -55,5 +55,5 @@ A discipline is durable because a governed practice-and-knowledge assembly can c
 
 Keeping organizations, Work, methods, epistemes, structures, Bridges, comparisons, publications, evidence, and health readings separate does not make them unimportant. It lets each object affect the discipline claim through its actual relation without being promoted to an automatic part or identity discriminator.
 
-This separation keeps every discipline-related claim local to an exact EntityOfConcern and effective ReferenceScheme, comparison admissible only under its current Scale and comparator declarations, and evidence-bearing reliance or assurance explicit under A.10/B.3. It also lets plural traditions, directed Bridges with visible loss, typed health readings, and TA/VA/LA evidence lanes remain inspectable together. Scale compliance, B.3's requirement for an applicable domain model and stated assumptions, and Bridge hygiene stay with their subject patterns: C.20 adopts their constraints for a named use but defines no universal field score or reliability fold. Charisma, prestige, institutional reach, or an attractive field name cannot create a discipline that fails to return to exact construction, Characteristics, and source evidence.
+This separation keeps every discipline-related claim local to an exact EntityOfConcern and effective ReferenceScheme, comparison admissible only under its current Scale and comparator declarations, and ordinary evidence-bearing reliance explicit under A.10 and any actual named assurance claim explicit under B.3. It also lets plural traditions, obtaining directed Bridges with use-specific tolerated loss and any material observed loss kept visible, typed health readings, and TA/VA/LA evidence lanes remain inspectable together. Scale compliance, B.3's requirement for an applicable domain model and stated assumptions, and Bridge hygiene stay with their subject patterns: C.20 adopts their constraints for a named use but defines no universal field score or reliability fold. Charisma, prestige, institutional reach, or an attractive field name cannot create a discipline that fails to return to exact construction, Characteristics, and source evidence.
 

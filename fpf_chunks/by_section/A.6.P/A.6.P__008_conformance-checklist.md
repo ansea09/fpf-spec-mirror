@@ -6,12 +6,12 @@ section_id: "A.6.P:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__008_conformance-checklist.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:7 — Conformance Checklist"
-line_start: 16381
-line_end: 16403
+line_start: 16402
+line_end: 16424
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -55,7 +55,7 @@ keywords:
 15. **Boundary classification.** Apply L, A, D, and E only to an actual A.6.B boundary statement. Before marking **A**, point to the particular mechanism application and the predicate checked at entry; if either is absent, leave claim use or scope, A.6.P entry or stop, endpoint-kind correction, and Bridge need with their own patterns.
 16. **Candidate guide and stop.** Unresolved alternatives are grounded objects, kinds, or relations with a discriminating check, not a synonym list or representation-first ontology. Until the check selects one reading, the note remains Plain or informative, names the blocked reader, decision, or work and the needed discriminator, and carries no decision, gate, publication, assurance, reliance, or cross-context reuse.
 17. **Representation boundary.** A table, row, field set, tuple, graph edge, functional expression, arrow, formula, or reifier has explicit `C.29` correspondence for any relied-on FPF use and does not constitute the represented relation by form.
-18. **Optional episteme relation or operation.** Use this path only when a later task must relate source and receiving epistemes or describe an operation that produces the receiving episteme. Identify both endpoints independently under `C.2.1`. Use `A.6.3` for an exact compatible same-EntityOfConcern construction, `A.6.2` for a local effect-free arrow that satisfies its entry and laws, and `A.6.4` for an exact different-EntityOfConcern arrow `r` plus a separate use assertion `q` with its invariant, visible loss, conditions, support, and polarity. If the selected pattern's entry or result condition is missing, preserve the endpoints, changed EntityOfConcern if any, and needed sentence as an explicit stop naming the missing arrow, use-claim, or application condition. Keep any continuity relation separate, and use `A.15.1` for actual authoring, materialisation, checking, or publication Work. The arrow, use assertion, operation application, and Work remain distinct and none supplies occurrence identity for the repaired world-side relation.
+18. **Optional episteme relation or operation.** Use this path only when a later task must relate source and receiving epistemes or describe an operation that produces the receiving episteme. Identify both endpoints independently under `C.2.1`. Use `A.6.3` for an exact compatible same-EntityOfConcern construction, `A.6.2` for a local effect-free arrow that satisfies its entry and laws, and `A.6.4` for an exact different-EntityOfConcern arrow `r`. Its separate C.2.1 bounded-use assertion `q` is about exact `r` and has a ClaimGraph stating the invariant, visible loss, named receiving use, conditions, and affirmative or negative polarity. A separate current-case judgement reports exactly `satisfies`, `fails`, or `cannot decide` from the exact facts; `cannot decide` names the missing fact and reopen condition. If the selected pattern's entry or result condition is missing, preserve the endpoints, changed EntityOfConcern if any, and needed sentence as an explicit stop naming the missing arrow, use-claim, or application condition. Keep any continuity relation separate, and use `A.15.1` for actual authoring, materialisation, checking, or publication Work. The arrow, use assertion, operation application, and Work remain distinct and none supplies occurrence identity for the repaired world-side relation.
 19. **Plain relaxation.** Short final wording retains a recoverable direct relation, actual participants, and visible escalation points.
 20. **Neighboring subject result.** The repaired claim closes under one exact predicate or constraint selected in A.6.P:4.11, including exactly one of the four A.6.P.WMR families when that specialization is current; the neighboring pattern identifier is only its locator.
 

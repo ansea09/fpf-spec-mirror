@@ -6,12 +6,12 @@ section_id: "A.6.S:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__007_worked-cases.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:5 — Worked cases"
-line_start: 20987
-line_end: 21018
+line_start: 20977
+line_end: 21008
 dependencies:
   - "A.15"
   - "A.15.1"

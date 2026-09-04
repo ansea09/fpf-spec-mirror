@@ -6,12 +6,12 @@ section_id: "A.6.5:8"
 section_title: "Common Failure Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__009_common-failure-modes-and-repairs.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:8 — Common Failure Modes and Repairs"
-line_start: 19485
-line_end: 19501
+line_start: 19506
+line_end: 19522
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -40,6 +40,6 @@ keywords:
 | Interface language erased or promoted | A recognizable source sentence is replaced by either a generic `U.Interface` or an untyped participant catalogue. | Keep the source word for recognition, state what connects, crosses, or is transferred between which exact entities, recover the definition of the direct relation, and declare only the SlotSpecs that a receiving typed use actually reuses. Stop at A.6.RSIR or a missing-relation result when the relation remains undefined. |
 | Result-family catalogue | The word `result` triggers a list of possible relation families, so the reader cannot tell which object continued or what claim to make. | Ask whether the same entity continued or a new entity began. For continuation, name the changed characteristic and actual transformation. For inception, require an admitted identity-inception predicate and its definition. If another concrete verb such as `delivered` is present, recover that one relation and its participants. Return the corresponding missing-relation or missing identity-inception result when the needed definition is absent. |
 | A participant designation is promoted into a new qualification ontic | A value or reference in an episteme is mistaken for a further world-side object. | Apply the three-way dispatch in A.6.5:4.6: direct relation fact, assertion episteme, or current local participant kind. |
-| A method-description, operation, plan, work, evaluation, card, schema, or record field is called a SlotSpec | A reusable direct-relation participant declaration is invented from representation shape or broad wording. | Require the direct-relation definition and one exact `RelationSignature` and SlotSpec. A receiving semantic field is covered by an explicit declaration against that SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant. Handle operation arguments and results under A.6.1 and use the definitions for the other fields. |
+| A method-description, operation, plan, work, evaluation, card, schema, or record field is called a SlotSpec | A reusable direct-relation participant declaration is invented from representation shape or broad wording. | Require the direct-relation definition and one exact `RelationSignature` and SlotSpec. Apply §4.2: explicitly declare a receiving semantic field against that SlotSpec, or keep an external or independently named representation field's source name and state its explicit C.29 correspondence. Keep the field, SlotSpec, designation, and actual participant distinct. Handle operation arguments and results under A.6.1 and use the definitions for the other fields. |
 | An A.15.3 planned designation is treated as the actual relation participant | Plan content is mistaken for world-side participation and predicate satisfaction. | Keep the row in the WorkPlan; identify any later participant and obtaining relation independently under that relation's definition. |
 

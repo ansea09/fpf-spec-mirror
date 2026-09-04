@@ -6,12 +6,12 @@ section_id: "A.6.C:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 12106
-line_end: 12117
+line_start: 12123
+line_end: 12135
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,16 +41,19 @@ keywords:
   - "a mechanism entry predicate enters A"
   - "an individual duty"
   - "and SHOULD NOT enter D for a generic prescription or"
+  - "and an actual A.21 GateDecisionResult"
   - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
   - "commitment or grant"
   - "dated Work"
   - "description and publication"
+  - "exercise"
   - "four-question contract lens"
   - "gate"
   - "not ontology or quadrant selectors. MUST"
   - "obtaining versus representation"
+  - "or evaluated finding enters E. If the wording does not expose the branch and direct object"
   - "or prohibition. MAY"
   - "promise content"
   - "recommendation-as-duty"
@@ -65,10 +68,11 @@ keywords:
 | Anti-pattern                                        | Why it fails                                                   | Repair                                                                                      |
 | --------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | **Interface-as-promiser** (“the API promises…”) | Epistemes and publication carriers are descriptions; they do not commit | Recover the exact policy and generic prescription, or name the actual duty bearer and separately obtaining `U.Commitment` when an individual duty is claimed. Keep any assignment as a rule ground and the API, signature, or interface description as a description episteme or publication carrier. |
-| **Guarantee-without-substrate** | The word hides whether the claim is semantic, deontic, an entry condition, or observed or evaluated | Classify semantic law as L, a generic prescription or claim about an exact individual commitment or current grant as D, an entry predicate as A, and an observed or evaluated claim as E; use `A6-AW-*` for permission-looking wording. |
-| **SLA smuggled into laws**                          | Mixes governance with semantics; breaks substitution reasoning | Put SLA targets as D claims referencing L-defined metrics and E evidence                    |
+| **Guarantee-without-substrate** | The word hides whether the claim is semantic, deontic, an entry condition, an actual gate result, or another observed or evaluated result | Classify semantic law as L, a generic prescription or claim about an exact individual commitment or current grant as D, an entry predicate as A, and an exact A.21 `GateDecisionResult` or other observed or evaluated result as E; use `A6-AW-*` for permission-looking wording. |
+| **SLA smuggled into laws** | Mixes governance with semantics; breaks substitution reasoning | State the target as a generic D prescription or an exact individual commitment, reference its L-defined metric and A conditions, and cite the exact E evaluated result plus A.10 support when current |
 | **Gate written as obligation** | Confuses admissibility predicates with deontic claims | Write the predicate as A; write a generic prescription or separately instituted individual duty as a D→A reference. |
-| **Work-result-evidence bundle** | “The delivered work and its log prove acceptance” makes one phrase carry occurrence, result, transfer, evidence, and verdict | Name the A.15.1 Work first; then use one `A.15.1:4.6` row for each current result, delivery/transfer, evidence, or acceptance claim. Omit absent rows. |
+| **Work-result-evidence bundle** | “The delivered work and its log prove acceptance” makes one phrase carry occurrence, result, transfer, evidence, and verdict | Name the A.15.1 Work first; use the applicable `A.15.1:4.6` route for each current result, delivery/transfer, or acceptance claim, and A.10 for each evidence-use claim. Omit absent claims. |
 | **Face-level paraphrase drift** | A face silently changes a claim's object or quadrant | Cite the canonical claim ID, direct object, and selected `A6-AW-*` row rather than restating it |
 | **Cross-scale contract collapse** | Commitments, grants, and conflict findings at different scales are treated as one D claim | Keep commitments and current grants as separate D claims; classify the permission conflict finding as E through `A6-AW-CONFLICT`; use mediation only under its subject pattern |
+| **Mandatory four-question record** | Every clear use of contract wording creates rows for all four questions | Apply A.6.C only to a consequential ambiguity, answer only the live questions, and let a one-off repair end in the repaired atomic prose |
 

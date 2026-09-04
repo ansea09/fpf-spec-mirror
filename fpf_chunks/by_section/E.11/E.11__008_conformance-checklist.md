@@ -6,12 +6,12 @@ section_id: "E.11:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__008_conformance-checklist.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:7 — Conformance Checklist"
-line_start: 78876
-line_end: 78896
+line_start: 78868
+line_end: 78888
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "C.17:5"
 section_title: "Retained-set and optional applied readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__007_retained-set-and-optional-applied-readings.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:5 — Retained-set and optional applied readings"
-line_start: 49625
-line_end: 49671
+line_start: 49616
+line_end: 49662
 dependencies:
   - "A.0"
   - "A.1.1"

@@ -6,12 +6,12 @@ section_id: "E.17:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__003_problem-frame.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:2 — Problem frame"
-line_start: 82755
-line_end: 82763
+line_start: 82747
+line_end: 82755
 dependencies:
   - "A.10"
   - "A.15.4"

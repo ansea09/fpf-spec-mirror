@@ -6,12 +6,12 @@ section_id: "C.27:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__002_use-this-when.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:0 — Use This When"
-line_start: 55742
-line_end: 55779
+line_start: 55734
+line_end: 55771
 dependencies:
   - "A.10"
   - "A.3.3"

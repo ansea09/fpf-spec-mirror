@@ -6,12 +6,12 @@ section_id: "A.19.CPM:0"
 section_title: "At a glance (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__002_at-a-glance-didactic-informative.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:0 — At a glance (didactic, informative)"
-line_start: 34121
-line_end: 34154
+line_start: 34111
+line_end: 34144
 dependencies:
 keywords:
   - "ComparatorSet"

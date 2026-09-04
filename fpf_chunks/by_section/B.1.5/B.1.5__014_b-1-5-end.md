@@ -6,12 +6,12 @@ section_id: "B.1.5:End"
 section_title: "B.1.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__014_b-1-5-end.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:End — B.1.5:End"
-line_start: 37882
-line_end: 37883
+line_start: 37873
+line_end: 37874
 dependencies:
   - "A.1"
   - "A.15"

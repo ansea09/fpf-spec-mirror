@@ -6,12 +6,12 @@ section_id: "A.6.0:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__010_consequences.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:9 — Consequences"
-line_start: 12913
-line_end: 12931
+line_start: 12931
+line_end: 12949
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -36,6 +36,7 @@ dependencies:
   - "E.18.1"
   - "E.24.PUB"
   - "E.24.UK"
+  - "F.19"
   - "F.9"
 keywords:
 ---

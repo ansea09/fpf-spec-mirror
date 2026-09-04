@@ -6,12 +6,12 @@ section_id: "A.15.8:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__007_worked-cases.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:6 — Worked cases"
-line_start: 27600
-line_end: 27631
+line_start: 27590
+line_end: 27621
 dependencies:
   - "A.1"
   - "A.10"

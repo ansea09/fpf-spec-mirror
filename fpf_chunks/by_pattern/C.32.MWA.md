@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.MWA.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
-line_start: 65588
-line_end: 65789
+line_start: 65580
+line_end: 65781
 dependencies:
   - "A.15.1"
   - "A.22"

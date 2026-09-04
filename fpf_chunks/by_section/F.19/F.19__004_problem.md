@@ -6,12 +6,12 @@ section_id: "F.19:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__004_problem.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:2 — Problem"
-line_start: 100480
-line_end: 100483
+line_start: 100472
+line_end: 100475
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

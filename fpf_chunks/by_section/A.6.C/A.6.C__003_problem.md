@@ -6,12 +6,12 @@ section_id: "A.6.C:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__003_problem.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:2 — Problem"
-line_start: 11852
-line_end: 11860
+line_start: 11868
+line_end: 11876
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,16 +41,19 @@ keywords:
   - "a mechanism entry predicate enters A"
   - "an individual duty"
   - "and SHOULD NOT enter D for a generic prescription or"
+  - "and an actual A.21 GateDecisionResult"
   - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
   - "commitment or grant"
   - "dated Work"
   - "description and publication"
+  - "exercise"
   - "four-question contract lens"
   - "gate"
   - "not ontology or quadrant selectors. MUST"
   - "obtaining versus representation"
+  - "or evaluated finding enters E. If the wording does not expose the branch and direct object"
   - "or prohibition. MAY"
   - "promise content"
   - "recommendation-as-duty"
@@ -66,6 +69,6 @@ How can an author write (or repair) contract-language so that:
 
 1. **Agency is not misattributed** to descriptions (signatures, docs, specs, “interfaces”),
 2. **Governance claims** are distinguishable from permission-looking gate, exercise, evaluation, conflict, and source claims by the job of each atomic statement rather than by A.2.8.PER membership,
-3. **Operational “guarantees”** become adjudicable via explicit evidence expectations, without smuggling evidence into semantics,
+3. **Operational “guarantees”** become adjudicable by naming the exact Work, evaluation, or observation and its result, with an A.10 evidence path and exact carrier when a receiving decision relies on that support,
 4. **Multi-view publication** (MVPK faces) does not create a parallel contract object or rival canonical claim set by paraphrase drift?
 

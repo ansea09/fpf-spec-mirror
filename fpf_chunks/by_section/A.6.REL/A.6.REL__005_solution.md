@@ -6,12 +6,12 @@ section_id: "A.6.REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__005_solution.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:4 — Solution"
-line_start: 12219
-line_end: 12422
+line_start: 12237
+line_end: 12440
 dependencies:
   - "A.6.0"
   - "A.6.5"
@@ -27,13 +27,13 @@ keywords:
 
 Use progressive relation-occurrence individuation. Start from a readable obtaining direct relation, ask whether later work must distinguish a repeated occurrence, and stop before technical receiving branches when the answer is no.
 
-**Local relation-occurrence mantra.** *State the direct relation, using its governing predicate enough to say it accurately. Ask whether later work must tell this occurrence from another occurrence of the same relation, including another episode with the same participants. If no, keep the readable sentence and stop. If yes, recover and apply the direct same-versus-new-occurrence rule. Only then name or reference the occurrence and map the exact receiving assertion, description, direct relation, or declared operation application.*
+**Local relation-occurrence mantra.** *State the direct relation. Ask whether later work must distinguish repeated occurrences. If no, stop. If yes, apply the direct identity rule and add only the exact receiving object.*
 
-This short formula keeps the progressive-individuation Solution in attention; it does not replace sections 4.1-4.7. It is a mnemonic, not a work plan or performed work. When a receiving use instead needs one reusable constraint-governed unfolding structure for those continuations and stops, `A.22.CGUS` governs that structure.
+This short formula keeps the progressive-individuation Solution in attention. Sections 4.1-4.7 supply the full method. Use `A.22.CGUS` when a receiving use needs a reusable constraint-governed unfolding structure for these continuations and stops.
 
 #### A.6.REL:4.1 - Apply the relation-object architecture discipline
 
-**Relation-object architecture discipline** is the rule set in this subsection. It is not another U-kind. Conforming prose keeps the objects around one direct relation distinct, names the direct relation between adjacent objects, and uses a recoverable name for each current object. `A.6.5` specializes only the `SlotSpec` part of this rule set.
+**Relation-object architecture discipline** names the rule set in this subsection. Conforming prose keeps the objects around one direct relation distinct, names the direct relation between adjacent objects, and uses a recoverable name for each current object. `A.6.5` specializes only the `SlotSpec` part of this rule set.
 
 **Short use rule.** State the world-side relation and its actual participants first. Add another named object from the relation-object architecture only when the current receiving use depends on that exact object, and state its direct relation to the object already in view. The tables below help select that additional object and relation; they are not a mandatory form for ordinary relation prose.
 
@@ -126,7 +126,7 @@ Only systems perform authoring, evaluation, individuation, naming, reference-res
 
 ##### A.6.REL:4.1.7 - Name only the minimum current object
 
-The relation-object architecture organizes the distinct objects that may become current; it is not a publication form repeated for every relation sentence. Stable relation-kind semantics belong once in the direct relation pattern or ontic. A reusable declaration belongs once in its `RelationSignature`. A durable name belongs once in its F.18 naming settlement. Later prose names the object current for its use and cites the subject pattern for already established neighboring objects.
+The relation-object architecture organizes the distinct objects that may become current. For each relation sentence, select only the object needed by the current use. Stable relation-kind semantics belong once in the direct relation pattern or ontic. A reusable declaration belongs once in its `RelationSignature`. A durable name belongs once in its F.18 naming settlement. Later prose names the object current for its use and cites the subject pattern for already established neighboring objects.
 
 | Current use | Minimum sufficient text | Add another object only when |
 |---|---|---|
@@ -142,13 +142,13 @@ This rule keeps elaboration additive. Each new receiving use introduces only the
 
 #### A.6.REL:4.2 - Apply the receiving-use test
 
-Here **receiving use** is a Plain head, not a common FPF kind. Do not decode it into the architecture before the cheap decision. First state the readable relation and ask what later work must distinguish. Only after that work needs occurrence identity, resolve it to the exact receiving object: an assertion or description episteme under `C.2.1`, a direct relation that has the occurrence as a world-side participant, or an assertion episteme that states one exact A.6.1 application binds the occurrence as its actual argument value under a named `ArgumentDeclaration`. Any acting system, enacted method, and performed work remain separately governed.
+Here **receiving use** is ordinary wording. First state the readable relation and ask what later work must distinguish. If occurrence identity is needed, name the exact receiving object: an assertion or description episteme under `C.2.1`, a direct relation that uses the occurrence as a world-side participant, or an assertion episteme stating that one already identified operation application binds the occurrence as the actual value of a named A.6.1 argument. Any acting system, enacted method, and performed work remain separately governed.
 
 1. Name the direct relation kind and participants in a readable sentence. Use only the direct relation-participant meanings, obtaining predicate, and applicability needed to state that sentence accurately; do not yet require a `RelationSignature`, SlotSpecs, occurrence designator, representation correspondence, or the complete occurrence-identity rule.
 2. Immediately ask: **Will later work need to tell this occurrence from another occurrence of the same relation, including another episode with the same participants?**
 3. Apply the observable contrast. A current report that only says `Robot-7 is assigned as inspector through InspectionAssignment-17` answers no. A history or comparison that must distinguish a second occurrence of the same direct species from the first, despite the same participant values, answers yes.
 4. If no, keep the readable direct sentence and stop this pattern. Do not create a relation-occurrence description episteme for completeness.
-5. If yes, recover the participant meanings, applicability, and obtaining predicate from the subject pattern. Inspect the relevant world facts or constituting history in the current case and judge whether they satisfy that test. Only when the case facts satisfy the predicate is there an obtaining occurrence to individuate; otherwise use the exact direct claim predicate and keep its subject pattern only as a locator or `A.6.P`. A claim-bearing episteme may state an affirmative or negative result, but its polarity, a forecast, scenario, counterfactual, permission, another separately governed claim, evidence, and supported, refuted, or unresolved reliance neither establish nor constitute that occurrence.
+5. If yes, recover the participant meanings, applicability, and obtaining predicate from the subject pattern. Inspect the relevant world facts or constituting history in the current case and judge whether they satisfy that test. Only when the current-case facts satisfy the predicate is there an obtaining occurrence to individuate. Otherwise keep the result as a `C.2.1` claim under the exact direct predicate; use `A.6.P` only while the predicate or participants remain unclear. A claim-bearing episteme records the exact claim family and polarity; evidence and reliance stay with their direct governors.
 6. Recover and apply the subject pattern's same-versus-new-occurrence rule. Explicitly individuate one occurrence; assign an identifier only when stable reference is needed.
 7. Only now name the exact receiving object and subject pattern. Designate the occurrence in a receiving assertion or description episteme; for a receiving direct relation, verify its obtaining with that occurrence as a participant; or, for an already identified operation application, verify the named A.6.1 `ArgumentDeclaration`, designation rule, ValueKind, cardinality, and binding predicate before an assertion episteme states that the occurrence is its actual bound argument value.
 
@@ -174,7 +174,7 @@ A changed episteme contributes to occurrence identity only when that episteme it
 
 #### A.6.REL:4.4 - Separate occurrence, assertion, reifier, relator, description, and publication
 
-A relational assertion is an episteme whose content affirms or denies the direct obtaining predicate for the designated participants. Forecast, scenario, counterfactual, permission, and other claim families keep their exact direct governors rather than entering one common catch-all field; `A.10` or the receiving evaluation separately states supported, refuted, or unresolved reliance. The assertion and its reliance posture can be revised or superseded while the world-side relation remains unchanged.
+A relational assertion is an episteme whose content affirms or denies the direct obtaining predicate for the designated participants. Keep forecasts, scenarios, counterfactuals, permissions, and other claim families under their exact direct governors. Record supported, refuted, or unresolved reliance separately under `A.10` or the receiving evaluation. The assertion and its reliance posture can be revised or superseded while the world-side relation remains unchanged.
 
 A reifier is a representation-side term or node. A system may use it to represent statements about a proposition, assertion episteme, or relation-occurrence description episteme. Its presence does not make the direct relation obtain and is not a world-side occurrence-identity rule.
 
@@ -190,9 +190,9 @@ This is ordinary typed participation, not a relation-of-relations exception. The
 
 #### A.6.REL:4.6 - Keep ordinary relation use lightweight
 
-Ordinary users write one readable direct relation sentence with named participants and immediately ask whether later analysis or reporting must distinguish this occurrence from another occurrence of the same relation. A report that only states the current `Robot-7` assignment to `InspectorSystemRole` through `InspectionAssignment-17` stops there. A history or comparison that must distinguish a later occurrence of the same species opens its direct occurrence-identity rule. Only after that rule distinguishes the occurrence does the user add the exact receiving assertion, description, direct-relation participant, operation argument, identifier, or reference branch. The direct relation pattern states the shared participant meanings, obtaining predicate, applicability, and identity rule once; later uses cite only what their branch consumes.
+Ordinary users write one readable direct relation sentence with named participants and immediately ask whether later analysis or reporting must distinguish this occurrence from another occurrence of the same relation. If a report only states the current `Robot-7` assignment to `InspectorSystemRole` through `InspectionAssignment-17`, stop there. For a history or comparison that must distinguish a later occurrence of the same species, apply the direct occurrence-identity rule. Only after you use that rule to distinguish the occurrence should you designate it in a receiving assertion or description episteme, use it as a participant of another direct relation, or bind it as the actual value of a named A.6.1 argument. Add a designator or reference only when stable reference is needed. The direct relation pattern states the shared participant meanings, obtaining predicate, applicability, and identity rule once; later uses cite only what their branch consumes.
 
-This is demand-driven progressive elaboration within the Solution, not a drafting sequence. The alternatives below share one readable direct relation. Indentation marks only a real dependency: the receiving occurrence branch follows a positive distinguishability decision and the direct identity rule, while the `RelationSignature` branch remains independent and opens only for typed reuse.
+These alternatives show semantic dependencies within demand-driven progressive elaboration. They share one readable direct relation. The receiving occurrence branch follows a positive distinguishability decision and the direct identity rule, while the `RelationSignature` branch remains independent and opens only for typed reuse.
 
 ```text
 readable direct relation sentence with named participants
@@ -207,7 +207,7 @@ readable direct relation sentence with named participants
   +-- RelationSignature and SlotSpecs independently, only when typed reuse matters
 ```
 
-This is a C.29 representation of the stop decision and optional increases in explicitness. Its branch marks are representation elements, not direct relations or work occurrences. The indentation below the same-versus-new-occurrence rule records only that description, identifier assignment, occurrence participation, and later designation require one recoverable occurrence; it does not make a `RelationSignature` prerequisite for occurrence identity. The represented branches are neither a documentation plan nor a method for constructing the world-side relation.
+This is a C.29 representation of the stop decision and optional increases in explicitness. Its indentation records one dependency: description, identifier assignment, occurrence participation, and later designation require a recoverable occurrence after the same-versus-new-occurrence rule. The `RelationSignature` branch remains independent and opens only for typed reuse.
 
 #### A.6.REL:4.7 - Keep world-side change separate from episteme editions
 
@@ -225,5 +225,5 @@ Whenever current wording or work says that a relation occurrence, claim, reusabl
 
 A relation occurrence has identity under its direct rule; a temporally extended occurrence also has temporal history under that rule. Revision work may change an episteme or establish another edition, but it changes no world-side occurrence. Current case facts or constituting history must separately satisfy the direct continuation, cessation, or same-versus-new-occurrence rule. Another edition of an assertion, signature, or description episteme, or another publication occurrence, therefore entails no new relation occurrence.
 
-Use `A.10` only when current receiving work separately asks whether to rely on a claim in light of evidence. That reliance judgment neither triggers changed-object selection nor supplies or causes the world-side change.
+Use `A.10` only for a separate evidence-based reliance question. Determine world-side continuation, cessation, or a new occurrence from current-case facts or constituting history under the direct identity rule.
 

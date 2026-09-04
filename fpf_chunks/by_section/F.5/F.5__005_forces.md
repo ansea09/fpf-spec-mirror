@@ -6,12 +6,12 @@ section_id: "F.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__005_forces.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:3 — Forces"
-line_start: 94319
-line_end: 94329
+line_start: 94311
+line_end: 94321
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.6.2:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 13741
-line_end: 13822
+line_start: 13760
+line_end: 13841
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -51,9 +51,9 @@ The examples below show how EFEM is intended to be used across the EntityOfConce
 * P2 — conservative: every behavioral claim, constraint, and test obligation in Y traces to exact claims in X, an additional named source episteme, or an independently current fact under its named relation and effective scheme.
 * P3-P5 — category structure and scope: the declared arrows compose only when their exact endpoints and P3 mappings agree, and applicability is bounded by the named engineering scope, operating conditions, effective scheme, and any viewpoint selected for the named validation use.
 
-If an author chooses a new threshold, acceptance condition, harness obligation, or other commitment not supported by that basis, Y has been strengthened and the proposed arrow fails P2. Identify the new assertion in Y's changed ClaimGraph. When an operation application or performed Work produced that strengthening, identify it separately; neither the new assertion nor its production becomes part of a conservative arrow.
+If an author chooses a new threshold, acceptance condition, harness obligation, or other commitment not supported by that basis, Y has been strengthened and the proposed arrow fails P2. Identify the new assertion in Y's changed ClaimGraph. When a particular application or Work accounts for that strengthening, identify that occurrence and the direct production relation separately. The new assertion remains outside the conservative arrow; the application, Work, and production relation account for its origin.
 
-This matches A.7 and E.10.D2: an EntityOfConcern and a Description episteme about it remain distinct. C.2.1 identifies the episteme by its complete claim content, exact EntityOfConcern, and effective ReferenceScheme; when a describing use or production relation matters, name that exact relation separately. This account needs no universal `EntityOfConcern -> Description` function and is not itself an episteme-to-episteme morphism. `Specify_DescEp_SpecDesc` is an optional EFEM species over a Description episteme after a specification-use or refinement gate is present. EFEM supplies only the conservative episteme-to-episteme laws; it does not grant specification use or make Specification a third peer in A.7.
+Keeping episteme identity, describing use, and production separate matches A.7 and E.10.D2. Under C.2.1, each Description episteme is identified by its complete claim content, its own exact EntityOfConcern reference, and its effective ReferenceScheme; any describing use or production relation is separately identified. `Specify_DescEp_SpecDesc` is an optional EFEM species once a specification-use or refinement gate admits that use. E.10.D2 governs specification-use admission, A.7 governs the Description/Specification distinction, and the declared `Specify_DescEp_SpecDesc` arrow carries the episteme-to-episteme relation.
 
 #### A.6.2:5.2 - Internal normalisation of a View (species of EFEM, `entityOfConcernChangeMode = preserve`)
 
@@ -82,8 +82,8 @@ MVPK can then **assume** functoriality of such normalisations without re‑stati
 Inside EFEM, this becomes a species with `entityOfConcernChangeMode = retarget`:
 * input episteme describes `S₁` (e.g. a component hierarchy holon);
 * output episteme describes `S₂` (e.g. a functional network holon);
-* one exact arrow `r` relates the two endpoint epistemes under its declared formal rule, while a separate A.6.4 assertion `q` states the invariant, visible loss, bounded receiving use, conditions, support, and polarity;
-* P2 checks only the formal consequence relation declared for `r`; any A.20 check on `q` evaluates the exact proposition in that separate assertion.
+* one exact arrow `r` relates the two endpoint epistemes under its declared formal rule; a separate A.6.4 assertion `q` states the invariant, visible loss, bounded receiving use, conditions, and polarity; and a current-case judgement separately tests the exact facts;
+* P2 checks only the formal consequence relation declared for `r`; the ordinary current-case judgement tests the exact facts against `q`, and A.20 enters only when that proposition is an internal constraint.
 
 The details belong to A.6.4 and E.18; EFEM provides the generic discipline.
 

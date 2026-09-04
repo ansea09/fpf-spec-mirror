@@ -6,12 +6,12 @@ section_id: "A.20:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__002_use-this-when.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:0 — Use this when"
-line_start: 34918
-line_end: 34940
+line_start: 34909
+line_end: 34931
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,7 +31,7 @@ keywords:
 
 ### A.20:0 - Use this when
 
-Use A.20 when one transformation, one operation application, or one A.6.4 claim that a retargeting is fit for a stated use is current in a transformation-flow structure and the question is whether that subject satisfies one named internal constraint for one stated case.
+Use A.20 when one transformation or one operation application is current in a transformation-flow structure and the question is whether that subject satisfies one named internal constraint for one stated case. It also applies when an A.6.4 bounded-use assertion q is current there and q's exact proposition is the named internal constraint. A.6.4 retains the separate current-case judgement.
 
 **First useful move.** Write one sentence:
 

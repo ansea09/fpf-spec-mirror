@@ -6,12 +6,12 @@ section_id: "A.6.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__001_intro.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:intro — Intro"
-line_start: 13496
-line_end: 13519
+line_start: 13514
+line_end: 13537
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -51,7 +51,7 @@ A.6.0 `U.Signature` for subject, vocabulary, laws, and applicability; A.6.1 `U.M
 **Used by.**
 A.6.3 epistemic viewing; A.6.4 EntityOfConcern retargeting; E.17.0 multi-view describing; E.17 (MVPK); and E.18 structural reinterpretation over transformation-flow structure.
 
-**EntityOfConcern change-mode discipline.** EFEM uses `EntityOfConcernChangeMode` for the preserve/retarget characteristic over the exact C.2.1 EntityOfConcern designated by `entityOfConcernRef`. Earlier source-side spellings must be normalized to the EntityOfConcern family before conformant use and do not define a second EntityOfConcern ontology.
+**EntityOfConcern change-mode discipline.** EFEM classifies each arrow as `preserve` or `retarget` by comparing the exact C.2.1 EntitiesOfConcern designated by its endpoint `entityOfConcernRef` values. Earlier source-side spellings must be normalized to the EntityOfConcern family before conformant use and do not define a second EntityOfConcern ontology.
 
 **Object settlement.** EFEM and `EpMorphism` are local mathematical classes under C.29, not admitted durable U-kinds. `U.Episteme` is reused from C.2.1. An A.6.0 FormalSubstrate signature that declares EFEM vocabulary and laws is a separate episteme; one arrow, one use-specific assertion about that arrow, any operation application, performed Work, and publication remain separate objects under their direct governors.
 

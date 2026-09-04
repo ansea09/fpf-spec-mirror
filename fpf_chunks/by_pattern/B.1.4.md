@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.4.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
-line_start: 37247
-line_end: 37462
+line_start: 37238
+line_end: 37453
 dependencies:
   - "A.1.1"
   - "A.14"

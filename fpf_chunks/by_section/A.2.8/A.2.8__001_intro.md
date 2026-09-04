@@ -6,7 +6,7 @@ section_id: "A.2.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__001_intro.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:intro — Intro"

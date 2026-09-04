@@ -6,12 +6,12 @@ section_id: "A.20:11"
 section_title: "SoTA echo"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__013_sota-echo.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:11 — SoTA echo"
-line_start: 35140
-line_end: 35148
+line_start: 35131
+line_end: 35139
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,5 +36,5 @@ keywords:
 | Refinement-type, property-based, and proof-carrying validation | Name the property, case, outcome, and witness rather than publishing an unqualified validation label. | A witness supports only the stated property and case. |
 | Dimensional analysis and assumption-bound numerical validation | Keep quantity, unit, domain, assumptions, and validity region with the result. | The check does not define unit conversion or comparison policy. |
 | Safety and assurance practice | Keep technical finding, evidence use, assurance, and decision consequence separate. | A complete record does not make the tested constraint true. |
-| Current FPF A.6.4 retargeting | Test the exact proposition in q while keeping the arrow r and any application separate. | A semantic Bridge is a separate F.9 relation and use claim. |
+| Current FPF A.6.4 retargeting | Use the exact proposition in q as A.20's constrained subject only when it is a named internal constraint; keep r, q, any application, and the separate tri-state current-case judgement distinct. | A semantic Bridge is a separate F.9 relation and use claim. |
 

@@ -6,12 +6,12 @@ section_id: "E.21:End"
 section_title: "E.21:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__014_e-21-end.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:End — E.21:End"
-line_start: 89632
-line_end: 89633
+line_start: 89624
+line_end: 89625
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

@@ -6,7 +6,7 @@ section_id: "A.3.1.MR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__010_consequences.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:9 — Consequences"

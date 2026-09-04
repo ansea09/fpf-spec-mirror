@@ -6,12 +6,12 @@ section_id: "F.3:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__009_invariants.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:8 — Invariants"
-line_start: 93768
-line_end: 93778
+line_start: 93760
+line_end: 93770
 dependencies:
   - "A.11"
   - "A.7"

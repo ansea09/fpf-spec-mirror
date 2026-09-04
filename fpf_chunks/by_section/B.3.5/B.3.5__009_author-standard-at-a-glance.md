@@ -6,12 +6,12 @@ section_id: "B.3.5:7"
 section_title: "Author Standard (at a glance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__009_author-standard-at-a-glance.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:7 — Author Standard (at a glance)"
-line_start: 40203
-line_end: 40219
+line_start: 40194
+line_end: 40210
 dependencies:
   - "B.3"
   - "C.13"

@@ -6,15 +6,16 @@ section_id: "A.6.3.RT:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__006_archetypal-grounding.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:5 — Archetypal grounding"
-line_start: 15101
-line_end: 15190
+line_start: 15122
+line_end: 15211
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.20"
@@ -41,6 +42,7 @@ dependencies:
   - "E.17.ID.CR"
   - "E.18"
   - "E.24.PUB"
+  - "F.6"
   - "F.9"
 keywords:
 ---
@@ -57,15 +59,15 @@ keywords:
 | --- | --- | --- | --- |
 | Service S | Evening batch | 3 | T-44, D-17 |
 
-The first result needs no endpoint dossier. The note says comparison across rows becomes easier; the service/window claim, count, and pins survive; prose order is lost; no causal or severity claim is added; use is inspection; and any qualifier or causal question returns to the source note and traces.
+The first result needs no endpoint dossier. The note says comparison across rows becomes easier; the service/window claim, count, and pins survive; prose order is lost; no causal or severity claim is added; use is inspection; and any question about an omitted qualifier or causality returns to the source note and traces.
 
-If the table is independently cited or disputed, exact source episteme `LatencyFinding-X` and receiving episteme `LatencyTable-Y` concern `Service-S-during-W` under effective schemes `ServiceTelemetryScheme-4` and `TabularTelemetryScheme-2`. `TabulateLatency : LatencyFinding-X -> LatencyTable-Y` records the exact construction, scheme relation, preservation, omission, prohibited strengthening, and inspection-only use. The visible table form and file carrier are not `Y`.
+If the table is independently cited or disputed, exact source episteme `LatencyFinding-X` and receiving episteme `LatencyTable-Y` concern `Service-S-during-W` under effective schemes `ServiceTelemetryScheme-4` and `TabularTelemetryScheme-2`. `TabulateLatency : LatencyFinding-X -> LatencyTable-Y` is the exact construction; it states claim construction, endpoint-scheme relation, same exact EntityOfConcern, preservation, omission and recoverability, prohibited strengthening, applicability, inspection-only use, and return to the source note and traces. The visible table form and file carrier are not `Y`.
 
 #### A.6.3.RT:5.2 - Positive later-specific table-to-diagram occurrence
 
 Exact source episteme `CoolingLoopRelationTable-X` and exact receiving episteme `CoolingLoopDependencyDiagram-Y` state the same two connection claims about `CoolingLoop-7` under effective schemes `TabularPlantScheme-5` and `DirectedDiagramPlantScheme-3`. `Y` is a candidate episteme, not automatically a `U.View`.
 
-Scheme-description epistemes `TabularPlantSchemeDescription-5` and `DirectedDiagramPlantSchemeDescription-3` concern their respective schemes and state their interpretation rules. Independently selected `CoolingLoopReviewModelUseStructure` satisfies A.1.1 because its model-use organization changes this review. System `PlantModelingTool-2`, under an exact system-role assignment, performs dated `CoolingLoopDiagrammingWork-18`; its bindings use all six participants. `DiagramCoolingLoop : X -> Y` states the exact claim rule, scheme relation, preserved connection claims, omitted table qualifiers, prohibited strengthening, and applicability.
+Scheme-description epistemes `TabularPlantSchemeDescription-5` and `DirectedDiagramPlantSchemeDescription-3` concern their respective schemes and state their interpretation rules. Independently selected `CoolingLoopReviewModelUseStructure` satisfies A.1.1 because its model-use organization changes this review. A.13 identifies `PlantModelingTool-2` as the actual performer through the exact covering assignment. A.15.1 independently admits dated `CoolingLoopDiagrammingWork-18`. Because this example states precise assignment-bound attribution, its direct case fact says that the Work was performed under the same exact A.13 assignment, so the F.6 check is positive. If that direct fact were missing or another F.6 condition failed, the Work would remain intact and only the attribution would be unresolved. The Work's A.6.1 bindings use all six participants. `DiagramCoolingLoop : X -> Y` is the exact construction; it states claim construction, endpoint-scheme relation, same exact EntityOfConcern, preserved connection claims, omitted table qualifiers and their recoverability, prohibited strengthening, applicability, topology-inspection use, and return to `X`.
 
 Only then does this occurrence obtain:
 
@@ -87,7 +89,7 @@ Its transition-description episteme cites the Work, construction, exact source r
 
 **Target row.** `| Safety | CL-2 | required temperature condition during standard operating demand | CM-12 |`
 
-The case stays RT only when exact `X`, exact `Y`, and `v : X -> Y` are identified for reliance-facing use, their EntityOfConcern is the same, and every relied-on correspondence is an exact governed occurrence. The visible row and correspondence record are not that relation.
+The case stays RT only when exact `X`, exact `Y`, and `v : X -> Y` are identified for reliance-facing use, their EntityOfConcern is the same, and every relied-on correspondence is an exact governed occurrence. The visible row and correspondence record are not those governed correspondence occurrences.
 
 #### A.6.3.RT:5.2.b - Same-concern diagram-to-structured-notation shift
 
@@ -95,7 +97,7 @@ The case stays RT only when exact `X`, exact `Y`, and `v : X -> Y` are identifie
 
 **Target notation.** `dependsOn(CoolingLoop, SensorA)` and `dependsOn(CoolingLoop, ValveB)`
 
-This remains RT when the notation carries the same relation line and adds no dependency theory. If `dependsOn` has stronger semantics than the source arrows, that added claim must be removed or separately established.
+This remains RT when the notation carries the same two source connection claims and adds no dependency theory. If `dependsOn` has stronger semantics than the source arrows, that added claim must be removed or separately established.
 
 #### A.6.3.RT:5.2.c - Functional-description diagram, table, or screen shift
 
@@ -113,11 +115,11 @@ A representation is changed mainly to teach or explain an existing face. E.17.EF
 
 #### A.6.3.RT:5.4.a - Boundary to bridge-bearing comparison
 
-A local reliability note about Pump P-2 becomes a comparison claiming operational equivalence with Unit U-7 in another plant. That is not merely representation change. Keep any local representation delta in RT and establish the cross-context equivalence or substitution under the applicable F.9 relation.
+A local reliability note about Pump P-2 becomes a comparison claiming operational equivalence with Unit U-7 in another plant. That is not merely representation change. Keep any local representation delta in RT. Under F.9, first resolve the two exact F.17 `SchemeSenseCell` values and test that a Bridge obtains; then state the separate C.2.1 bounded-use claim for this equivalence or substitution use.
 
 #### A.6.3.RT:5.4.b - Boundary to carrier work
 
-A table is exported as CSV and dashboard PNG after its representation scheme was chosen. The later activity is carrier formatting, export, packaging, or rendering Work, not another RT merely because the visible form changed.
+A table is exported as CSV and dashboard PNG after its representation scheme was chosen. The later Work produces the CSV and PNG carriers by formatting, exporting, packaging, or rendering the already chosen representation; it is not another RT merely because the visible form changed.
 
 #### A.6.3.RT:5.4.c - Boundary to coarsened dashboard view
 

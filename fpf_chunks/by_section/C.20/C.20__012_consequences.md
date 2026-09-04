@@ -6,12 +6,12 @@ section_id: "C.20:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__012_consequences.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:8 — Consequences"
-line_start: 51339
-line_end: 51346
+line_start: 51331
+line_end: 51338
 dependencies:
   - "A.1"
   - "A.14"
@@ -53,7 +53,7 @@ keywords:
 
 **Benefits.** Discipline claims become auditable without freezing one universal canon, institution, bridge set, or method repertoire. Rival traditions can remain explicit and federate only through admissible directed uses rather than false consensus; constituent replacement and genuine reidentification can be distinguished. Field comparison and dispatch can consume the exact construction without becoming its cause. A selector can additionally consume exact discipline-relevant Characteristic and evidence or assurance claims, while an admitted publisher System can perform publication Work that yields a readable didactic presentation without making its title, card, column, or registry ontological. Any stewardship, responsibility, authority, ownership, or assignment is stated separately when it independently obtains.
 
-**Costs and trade-offs.** A positive claim needs exact parts, direct relation intervals, whole-forming claims, an assembly, a reidentification rule, one whole characteristic, and a larger-assembly compatibility account. The cost is proportional: ordinary use can stop at readable sentences. A named comparison adds Scale, comparator, and CG-Spec literacy; a cross-locality use adds Bridge and reliance hygiene; trace, evidence, publication, health, selector, or assurance apparatus is added only for a named receiver. That extra explicitness pays back in safer reuse and clearer governance.
+**Costs and trade-offs.** A positive claim needs exact parts, direct relation intervals, whole-forming claims, an assembly, a reidentification rule, one whole characteristic, and a larger-assembly compatibility account. The cost is proportional: ordinary use can stop at readable sentences. A named comparison adds Scale, comparator, and CG-Spec literacy; a cross-locality use that relies on an obtaining semantic Bridge adds its separate bounded-use claim and reliance work; trace, evidence, publication, health, selector, or assurance apparatus is added only for a named receiver. That extra explicitness pays back in safer reuse and clearer governance.
 
 **Risks avoided.** The pattern blocks label-made fields, institution-made identity, publication-made parts, context-count breadth, bridge-made merger, health-score ontology, and registry-made method or discipline membership.
 

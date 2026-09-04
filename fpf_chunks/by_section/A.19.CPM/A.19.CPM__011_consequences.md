@@ -6,12 +6,12 @@ section_id: "A.19.CPM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__011_consequences.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:9 — Consequences"
-line_start: 34422
-line_end: 34429
+line_start: 34412
+line_end: 34419
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -26,7 +26,7 @@ keywords:
 ### A.19.CPM:9 - Consequences
 
 * **Improved usability (didactic):** CPM gives a single, engineer‑readable place to learn “what admissible comparison means” and what it does *not* mean.
-* **Higher replayability:** comparison results remain traceable through dated comparison `U.Work`, the actual `Compare` application and its `ComparisonResultSlot` binding, the A.10 evidence-provenance path, and any current F.9 bridge relation.
+* **Higher replayability:** comparison results remain traceable through dated comparison `U.Work`, the actual `Compare` application and its `ComparisonResultSlot` binding, the A.10 evidence-provenance path, any consumed obtaining F.9 `Bridge` with its separate bounded-use claim, and any applicable ReferencePlane relation and policy.
 * **Reduced semantic drift:** teams cannot silently shift from Pareto to lexicographic to “weighted sum” without changing explicit comparator specs and pins.
 * **Explicit tradeoffs:** set‑valued outcomes force downstream reasoning to acknowledge incomparability and uncertainty rather than hiding them.
 * **Cost:** downstream consumers (notably selection) must handle sets, abstentions, and partial orders explicitly. This is intentional: it moves complexity from hidden heuristics into explicit policy‑bound mechanisms.

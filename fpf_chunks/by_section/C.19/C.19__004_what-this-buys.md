@@ -6,12 +6,12 @@ section_id: "C.19:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__004_what-this-buys.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0.2 — What this buys"
-line_start: 50335
-line_end: 50340
+line_start: 50326
+line_end: 50331
 dependencies:
   - "A.10"
   - "A.19.CPM"

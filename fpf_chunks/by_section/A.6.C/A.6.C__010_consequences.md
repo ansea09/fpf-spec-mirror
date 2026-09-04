@@ -6,12 +6,12 @@ section_id: "A.6.C:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__010_consequences.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:9 — Consequences"
-line_start: 12118
-line_end: 12130
+line_start: 12136
+line_end: 12148
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,16 +41,19 @@ keywords:
   - "a mechanism entry predicate enters A"
   - "an individual duty"
   - "and SHOULD NOT enter D for a generic prescription or"
+  - "and an actual A.21 GateDecisionResult"
   - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
   - "commitment or grant"
   - "dated Work"
   - "description and publication"
+  - "exercise"
   - "four-question contract lens"
   - "gate"
   - "not ontology or quadrant selectors. MUST"
   - "obtaining versus representation"
+  - "or evaluated finding enters E. If the wording does not expose the branch and direct object"
   - "or prohibition. MAY"
   - "promise content"
   - "recommendation-as-duty"
@@ -70,6 +73,6 @@ keywords:
 
 **Trade-offs and mitigations**
 
-* Additional authoring effort; mitigated by applying the unpacking only when contract-language appears or when a claim is used for decision or publication.
+* Additional authoring effort; mitigated by applying the unpacking only when contract-like wording leaves a consequential ambiguity, and by persisting a Claim Register entry only when stable reuse, decision, audit, dispute, or cross-face projection needs it.
 * Some stakeholders prefer “one sentence contract”; mitigated by MVPK faces that present curated projections while keeping the underlying claim set coherent.
 

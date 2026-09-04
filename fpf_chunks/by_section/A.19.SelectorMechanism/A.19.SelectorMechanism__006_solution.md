@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__006_solution.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:4 — Solution"
-line_start: 34577
-line_end: 34717
+line_start: 34567
+line_end: 34707
 dependencies:
 keywords:
   - "SelectEligibility"
@@ -120,11 +120,11 @@ Archetypal Grounding — **Mechanism.Intension** (normative).
   * Applicable only when `CNSpecSlot`, `CGSpecSlot`, explicit criteria, the effective evidence policy, and a finite comparison-application basis with complete required coverage and token provenance are current for the candidate universe. Missing declarations or coverage fail closed.
   * Inside the CHR suite, `A.19.CHR:4.5` alone determines stage ordering and optionality.
   * Every actual selection binds one exact `U.ClaimScope`, selected A.2.6 `U.ContextSlice` members, the finite basis of exact binary CPM applications and their pair, eligibility, and output bindings, the derived token union, A.19 predicate basis, effective reference plane, selection conditions, and explicit evaluation point or interval. There is no implicit latest value and no default window inherited from the predicate or comparison label.
-  * Cross-reference-scheme or cross-plane use requires an explicit F.9 Bridge. The Bridge does not supply candidate universe, comparison-application basis or coverage, relation tokens, selection conditions, scope, predicate, or time.
+  * A selection across reference schemes or planes follows the relations the case actually needs. When it relates two exact F.17 `SchemeSenseCell` values from different semantic contexts, test the F.9 `BridgePredicateProfile` and cite the Bridge only when its direct predicate obtains; state suitability for the named selection use in a separate C.2.1 claim. If that predicate is false or unresolved and the semantic crossing is required by the selection conditions, `SelectEligibility` cannot be `pass`; follow the already declared explicit `degrade` policy when applicable, otherwise `abstain`. When the selection crosses exact ReferencePlanes, cite the applicable plane relation and policy. If both facts are current, state both under their own predicates. A cell or plane difference alone establishes neither relation, and one branch never fabricates the other. Neither relation supplies candidate universe, comparison-application basis or coverage, relation tokens, selection conditions, scope, predicate, or time.
 
-* **Neighboring bridge relation:**
+* **Neighboring semantic-Bridge, bounded-use, and reference-plane relations:**
 
-  When candidates or comparison tokens require interpretation across reference schemes or planes, state the F.9 bridge relation separately. Name its exact endpoints, preserved and lost selection meaning, applicable use, CL value, and any `R_eff` penalty. Adding or changing that bridge does not by itself change the selector declaration.
+  When candidates or comparison tokens require interpretation across different semantic contexts, resolve the two exact F.17 `SchemeSenseCell` endpoints and test one F.9 `BridgePredicateProfile`. For an obtaining Bridge, state its exact endpoints and profile separately. State suitability for the named selection use in a C.2.1 assertion whose EntityOfConcern is that Bridge and whose ClaimGraph designates `<u,d,r,t>` and polarity. Include `CL` or an observed-loss note only when the receiving use consumes it; permitted loss remains `t` in the bounded-use claim. For a ReferencePlane crossing, cite the applicable plane relation and policy separately. Open A.10 only when bounded reliance is current and B.3 only when an actual named assurance claim is current. If that assurance argument consumes a locally declared `R_eff` calculation, cite its applicable domain model and calculation; neither the Bridge nor `CL` creates a penalty. Adding or changing any of these neighboring objects does not by itself change the selector declaration.
 
 * **Neighboring dated work, operation application, result binding, and evidence relations:**
 
@@ -137,7 +137,7 @@ Archetypal Grounding — **Mechanism.Intension** (normative).
   * the Selector's realized `GuardDecision` and, for `degrade` or `abstain`, the current failure-behavior policy;
   * the candidate-set value and exact derived union bound to the Selector's `ComparisonResultSlot` argument;
   * the effective criteria and selector-default refs; and
-  * the selected-set result and any current F.9 bridge, CL, and ReferencePlane refs.
+  * the selected-set result; any current obtaining F.9 Bridge and its separate C.2.1 bounded-use claim; any optional `CL` or observed-loss note actually consumed; and any applicable ReferencePlane relation and policy. Recover A.10 reliance or B.3 assurance only when the selection use actually consumes it.
 
   These neighboring objects support replay. The finite basis is a binding of the actual selection application, and none of them is selector-declaration content or a generic result container.
 

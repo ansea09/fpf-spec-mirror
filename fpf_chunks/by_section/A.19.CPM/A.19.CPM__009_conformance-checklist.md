@@ -6,12 +6,12 @@ section_id: "A.19.CPM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__009_conformance-checklist.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:7 — Conformance Checklist"
-line_start: 34356
-line_end: 34379
+line_start: 34346
+line_end: 34369
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -29,7 +29,7 @@ A CPM publication or use is conformant if it satisfies the checks below together
 
 | Check Id | Requirement (normative) | Notes (didactic and evidence) |
 | :--- | :--- | :--- |
-| **CC-A19CPM-0** | **Mechanism declaration completeness.** One `U.Mechanism` episteme, its exact comparison-operation-family `EntityOfConcernRef`, effective `U.ReferenceScheme`, direct signature components, SlotSpecs, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and optional `SignatureManifest` are recoverable. | F.9 bridge, dated `U.Work`, actual operation application and result binding, any result episteme, A.10 evidence-provenance, G.11 currentness, and G.9 parity objects remain separate. |
+| **CC-A19CPM-0** | **Mechanism declaration completeness.** One `U.Mechanism` episteme, its exact comparison-operation-family `EntityOfConcernRef`, effective `U.ReferenceScheme`, direct signature components, SlotSpecs, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and optional `SignatureManifest` are recoverable. | An obtaining F.9 `Bridge`, its separate C.2.1 bounded-use claim when consumed, any applicable ReferencePlane relation and policy, dated `U.Work`, actual operation application and result binding, any result episteme, A.10 evidence-provenance, G.11 currentness, and G.9 parity objects remain separate. |
 | **CC‑A19CPM‑1** | **Single governing pattern.** The canonical CPM intension is governed here (`A.19.CPM:4.1`); other descriptions cite this section rather than restating the kernel law. | Prevents near-duplicate comparison semantics from drifting. |
 | **CC‑A19CPM‑2** | **Suite stage alignment.** `Compare` is the canonical stage‑op for CHR stage `compare`; ordering and optionality are taken only from `A.19.CHR:4.5`. | Never infer order from `mechanisms[]`. |
 | **CC‑A19CPM‑3** | **SlotKind discipline.** SlotKind tokens follow the suite lexicon (`A.19.CHR:4.2.1`). | No SlotKind drift across specializations and wiring. |
@@ -39,7 +39,7 @@ A CPM publication or use is conformant if it satisfies the checks below together
 | **CC‑A19CPM‑7** | **Tri‑state admissibility (fail‑closed).** `CompareEligibility(...) → {pass|degrade|abstain}` exists and does not return `pass` on missing admissibility and evidence. | Unknown never coerces to `pass`. |
 | **CC‑A19CPM‑8** | **MinimalEvidence defaulting is explicit.** If `MinimalEvidenceSlot?` is absent, the effective evidence policy is `CGSpecSlot.MinimalEvidence` by explicit rule. | Avoid “implicit evidence policy.” |
 | **CC‑A19CPM‑9** | **Gate and guard separation + lexeme discipline.** CPM does not publish `GateDecision` nor `DecisionLog`; mechanism predicates use `…Eligibility` (not reserved gate `…Guard`). | Aligns with suite obligations (`gate_decision_separation`, `guard_lexeme_reservations`). |
-| **CC-A19CPM-10** | **Bridge and reference-plane discipline.** Cross-reference-scheme or cross-plane use states an F.9 bridge with exact endpoints, preserved and lost meaning, applicable use, CL value, and any `R_eff` penalty. | A bridge relation is not CPM declaration content. |
+| **CC-A19CPM-10** | **Bridge and reference-plane discipline.** A comparison that relies on a semantic relation between two exact F.17 `SchemeSenseCell` values cites an obtaining F.9 `Bridge` under a satisfied `BridgePredicateProfile` and a separate C.2.1 bounded-use claim; a plane-only crossing cites the applicable ReferencePlane relation and policy; both are stated when both facts are current. | `CL` is optional. CPM supplies no default assurance penalty, fold, or `R_eff`; a local `R_eff` is admissible only for an actual named assurance claim under its declared domain model and calculation. These neighboring facts are not CPM declaration content. |
 | **CC-A19CPM-11** | **Replay basis completeness.** Dated comparison `U.Work`, the actual `Compare` application, its profile, comparator, `U.ClaimScope`, selected A.2.6 context-slice, optional A.19 predicate, reference-plane, evaluation-window, policy, and `ComparisonResultSlot` bindings, plus direct evidence-use, provenance, and currentness relations, are recoverable. | The output value does not carry this metadata. |
 | **CC-A19CPM-12** | **Planned-filling separation.** Editions and policy ids are planned fillings only in `SlotFillingsPlanItem` rows; the CPM declaration does not fill them, dated comparison `U.Work` remains the occurrence, and the actual operation application carries effective argument and result bindings. | Planned baseline = A.15.3 plus suite PlanItem; A.6.1 governs operation application; A.10 supplies evidence provenance when relied on. |
 | **CC-A19CPM-13** | **No implicit UNM.** CPM never performs silent normalization; normalization-based comparability requires explicit upstream UNM refs or returns `abstain` or `degrade`. | Keeps compare-on-invariants explicit. |

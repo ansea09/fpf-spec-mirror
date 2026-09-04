@@ -6,12 +6,12 @@ section_id: "A.6.RCD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__009_conformance-checklist.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:7 — Conformance Checklist"
-line_start: 17262
-line_end: 17280
+line_start: 17283
+line_end: 17301
 dependencies:
   - "A.11"
   - "A.6.0"

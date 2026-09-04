@@ -6,15 +6,16 @@ section_id: "A.6.3.RT:12a"
 section_title: "Boundary with quantum-like state-representation shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__014_boundary-with-quantum-like-state-representation-shortcuts.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:12a — Boundary with quantum-like state-representation shortcuts"
-line_start: 15286
-line_end: 15307
+line_start: 15307
+line_end: 15328
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.20"
@@ -41,6 +42,7 @@ dependencies:
   - "E.17.ID.CR"
   - "E.18"
   - "E.24.PUB"
+  - "F.6"
   - "F.9"
 keywords:
 ---
@@ -61,9 +63,9 @@ Add the following only when the shortcut's claim requires it:
 | --- | --- |
 | Source and content | Which fuller representation or evidence set carries the distinctions? |
 | Shortcut | Which cheaper, typed, quantized, symbolic, or lower-detail representation is used? |
-| Loss | Which precision, expressivity, compatibility, recovery, or evidence relation is not carried? |
-| Admissible use | Which decision, explanation, triage, comparison, or action-selection move remains supported? |
-| Return | Which dispute, stronger-use demand, evidence gap, or recovery failure returns to the fuller representation? |
+| Loss | Which precision or expressivity is lost, and which compatibility, recovery, or evidence relation is not carried? |
+| Admissible use | Which use remains admissible—for decision, explanation, triage, comparison, or action selection? |
+| Return | Which dispute, stronger-use demand, evidence gap, or recovery failure sends the user back to the fuller representation? |
 
 Use a fuller C.26 record only when the shortcut is reusable, formal, empirical, high-stakes, or tied to comparative performance or tractability. Do not describe ordinary compression, low-bit implementation, diagramming, or representation learning as quantum-like without a claim-bearing formal cue.
 

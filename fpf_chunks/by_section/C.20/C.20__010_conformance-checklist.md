@@ -6,12 +6,12 @@ section_id: "C.20:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__010_conformance-checklist.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:7 — Conformance Checklist"
-line_start: 51300
-line_end: 51320
+line_start: 51292
+line_end: 51312
 dependencies:
   - "A.1"
   - "A.14"
@@ -64,7 +64,7 @@ keywords:
 | `CC-C20-9` | Domain names, epistemes, Methods, systems, Work, structures, Bridges, comparisons, publications, evidence, and decisions remain with subject patterns unless the separate C.20 part predicate actually obtains. |
 | `CC-C20-10` | Any selected bounded-model-use structure is optional, independently identified, tied to one named receiving use, and creates no part, holon, subkind, viewpoint count, breadth, or identity. |
 | `CC-C20-11` | Applied, multidisciplinary, transdisciplinary, tradition, lineage, and school claims state their own criteria; no public U-kind or discipline part follows from wording or counts. |
-| `CC-C20-12` | Any cross-field use separates the F.9 Bridge, bounded-use proposition, direction/rule/tolerance/polarity, A.10 or B.3 reliance branch, observed loss, and actual comparison. |
+| `CC-C20-12` | A field, scheme, cell, or plane difference alone creates no F.9 Bridge. A use that relies on an obtaining Bridge separates it from its bounded-use proposition, direction, rule, tolerance, polarity, A.10 reliance or actual named B.3 assurance branch, observed loss when relevant, and actual comparison; a ReferencePlane-only crossing instead cites the applicable plane relation and policy. |
 | `CC-C20-13` | Comparison declares characteristic, scale, unit, polarity, comparator, scope, window, and admissible operation under C.16/A.19.CPM; C.20 performs no comparison and defines no reliability fold. |
 | `CC-C20-14` | A health value, state label, evidence profile, registry row, description edition, publication occurrence, form, or carrier changes no discipline construction fact by itself. |
 | `CC-C20-15` | Any C.13 trace names the already grounded candidate, exact parts, direct occurrences, assembly, identity rule, and whole characteristic; `Gamma_m.sum` or historical `Gamma_disc` syntax creates none of them. |

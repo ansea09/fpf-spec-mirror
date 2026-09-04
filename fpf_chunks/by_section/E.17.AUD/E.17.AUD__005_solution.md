@@ -6,12 +6,12 @@ section_id: "E.17.AUD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__005_solution.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:4 — Solution"
-line_start: 84597
-line_end: 84706
+line_start: 84589
+line_end: 84698
 dependencies:
   - "A.10"
   - "A.15"

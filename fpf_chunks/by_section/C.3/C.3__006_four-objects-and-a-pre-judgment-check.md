@@ -6,12 +6,12 @@ section_id: "C.3:4"
 section_title: "Four Objects and a Pre-judgment Check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__006_four-objects-and-a-pre-judgment-check.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:4 — Four Objects and a Pre-judgment Check"
-line_start: 45335
-line_end: 45349
+line_start: 45326
+line_end: 45340
 dependencies:
   - "A.1"
   - "A.11"

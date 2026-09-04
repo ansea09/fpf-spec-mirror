@@ -6,12 +6,12 @@ section_id: "C.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__005_forces.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:3 — Forces"
-line_start: 45322
-line_end: 45334
+line_start: 45313
+line_end: 45325
 dependencies:
   - "A.1"
   - "A.11"

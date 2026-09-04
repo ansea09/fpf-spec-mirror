@@ -6,12 +6,12 @@ section_id: "F.16:4"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__005_minimal-vocabulary.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:4 — Minimal vocabulary"
-line_start: 98280
-line_end: 98292
+line_start: 98272
+line_end: 98284
 dependencies:
   - "A.10"
   - "A.15"

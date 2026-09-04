@@ -6,12 +6,12 @@ section_id: "C.19.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__001_intro.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:intro — Intro"
-line_start: 50698
-line_end: 50735
+line_start: 50689
+line_end: 50726
 dependencies:
   - "A.0"
   - "A.10"

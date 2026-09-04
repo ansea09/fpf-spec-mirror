@@ -6,12 +6,12 @@ section_id: "E.17:12"
 section_title: "SoTA-Echoing: Adopted And Adapted Invariants And Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__015_sota-echoing-adopted-and-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:12 — SoTA-Echoing: Adopted And Adapted Invariants And Rejected Shortcuts"
-line_start: 83250
-line_end: 83262
+line_start: 83242
+line_end: 83254
 dependencies:
   - "A.10"
   - "A.15.4"

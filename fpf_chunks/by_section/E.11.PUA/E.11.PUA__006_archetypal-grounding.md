@@ -6,12 +6,12 @@ section_id: "E.11.PUA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__006_archetypal-grounding.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:5 — Archetypal Grounding"
-line_start: 79365
-line_end: 79430
+line_start: 79357
+line_end: 79422
 dependencies:
   - "A.13"
   - "A.15"

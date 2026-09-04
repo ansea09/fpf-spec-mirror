@@ -6,12 +6,12 @@ section_id: "E.10.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.P/E.10.P__001_intro.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.10.P — Conceptual Prefixes policy & registry"
   - "E.10.P:intro — Intro"
-line_start: 77832
-line_end: 77859
+line_start: 77824
+line_end: 77851
 dependencies:
   - "E.5.1"
   - "E.5.2"

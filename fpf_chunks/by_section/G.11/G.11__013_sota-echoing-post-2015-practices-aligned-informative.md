@@ -6,12 +6,12 @@ section_id: "G.11:11"
 section_title: "SoTA-Echoing — Post‑2015 practices aligned (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__013_sota-echoing-post-2015-practices-aligned-informative.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:11 — SoTA-Echoing — Post‑2015 practices aligned (informative)"
-line_start: 106760
-line_end: 106805
+line_start: 106752
+line_end: 106797
 dependencies:
   - "A.6.RCD"
   - "B.3.4"

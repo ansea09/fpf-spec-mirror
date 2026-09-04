@@ -6,12 +6,12 @@ section_id: "A.6.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__004_forces.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:3 — Forces"
-line_start: 15745
-line_end: 15752
+line_start: 15766
+line_end: 15773
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ keywords:
 
 * **Different subject versus unsupported new claim.** Changing the EntityOfConcern is permitted only when the receiving claims are conservative with respect to the declared invariant.
 * **Useful loss versus hidden loss.** Retargeting may discard information, but the loss boundary and the use that tolerates it must be visible.
-* **Direct case versus universal apparatus.** A domain relation, mathematical map, semantic Bridge, or diagram is relevant only when the current case actually relies on it. None identifies the A.6.4 arrow or makes its separate use assertion true; a witness supports that assertion rather than identifying the arrow.
+* **Direct case versus universal apparatus.** Use a domain relation, mathematical map, semantic Bridge, or diagram as current-case basis only when its own governor establishes the needed claim. Identify r from its endpoints, arrow rule or designator, and formal equivalence; judge q separately from exact current facts.
 * **Composition versus accidental equivalence.** Compatible retargetings may compose. Equality of two evaluation routes, reversibility, idempotency, or semantic correspondence requires its own stated conditions; it does not follow from the word *retargeting*.
 * **Modularity.** The retargeting arrow relates two epistemes, q states one bounded-use proposition, and a separate current-case judgement says whether the facts satisfy it, fail it, or leave it undecidable. Grounding, publication, Work, evidence, assurance, gate, flow structure, and cross-local-sense correspondence remain separate.
 

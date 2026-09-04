@@ -6,12 +6,12 @@ section_id: "C.30.ILC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__007_bias-annotation.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:6 — Bias-Annotation"
-line_start: 61857
-line_end: 61869
+line_start: 61849
+line_end: 61861
 dependencies:
   - "A.10"
   - "A.22"

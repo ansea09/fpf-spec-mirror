@@ -6,12 +6,12 @@ section_id: "A.6.S:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__009_conformance-checklist.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:7 — Conformance Checklist"
-line_start: 21031
-line_end: 21045
+line_start: 21021
+line_end: 21035
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -46,8 +46,8 @@ keywords:
 | **CC-A.6.S-2** | A ConstructorSignature appears only when one named receiving use needs reusable constructor vocabulary, laws, and applicability. It is an independently identified `U.Signature`; `U.SignatureEngineeringPair` is not used. | Prevents an unsupported object and needless second signature. |
 | **CC-A.6.S-3** | When two signatures are both current, state the exact A.6.0 dependency, method/source use, or other direct relation that actually obtains. Co-mentioning them creates no relation. | Keeps the connection explicit without inventing a universal pair. |
 | **CC-A.6.S-4** | The ConstructorSignature declares only operation families its named receiver reuses. A.6.5 slot verbs, A.6.6 declaration-change labels, A.6.2-A.6.4 arrows, E.17 views, assignment identity, and evidence are each conditional on their own current use. | Prevents the constructor menu from becoming a mandatory package. |
-| **CC-A.6.S-5** | A meaning change identifies a new TargetSignature episteme when a C.2.1 discriminator changes. State edition, continuity, and reference-retargeting claims only under their actual predicates; use A.6.4 only when the exact EntityOfConcern-retargeting arrow and separate use claim are current. | Separates episteme change, editioning, reference change, and retargeting. |
-| **CC-A.6.S-6** | If an A.6.2-A.6.4 arrow is declared, keep the arrow, its use assertion, operation description, application, and Work distinct. Name the endpoint values and neighboring facts read or compared; the arrow changes no neighboring relation occurrence. | Preserves the accepted arrow/application/Work boundary. |
+| **CC-A.6.S-5** | A meaning change identifies a new TargetSignature episteme when a C.2.1 discriminator changes. State edition, continuity, and reference-retargeting claims only under their actual predicates; use A.6.4 only when the exact EntityOfConcern-retargeting arrow `r` is current, and identify any bounded-use assertion `q` and current-case judgement separately. | Separates episteme change, editioning, reference change, and retargeting. |
+| **CC-A.6.S-6** | If an A.6.2-A.6.4 arrow is declared, keep the arrow, any separately governed use assertion, any current-case judgement, operation description, application, and Work distinct. Name the endpoint values and neighboring facts read or compared; the arrow changes no neighboring relation occurrence. | Preserves the accepted arrow/application/Work boundary. |
 | **CC-A.6.S-7** | If E.17 publication is used, each face remains a view of the exact source episteme and adds no new claim. The publication occurrence, carrier, viewpoint use, conformance, and Work remain separate. | Prevents publication drift. |
 | **CC-A.6.S-8** | A System, not a signature, assignment, or local system-role kind, performs actual Work. Recover each exact actual performer through A.13 and let A.15.1 independently admit the Work; add the exact A.2.1 assignment and separate F.6 Work-assignment relation only when the receiving claim expressly consumes precise assignment-bound attribution. Add application, carrier, provenance, or evidence relations only when their own distinctions are needed. | Preserves agency without mandatory attribution paperwork. |
 | **CC-A.6.S-9** | Laws, operational admissibility, deontic commitments, evidence use, and Work remain under their direct patterns. The TargetSignature and ConstructorSignature do not become all-purpose containers. | Preserves A.6.B and direct-relation boundaries. |

@@ -6,7 +6,7 @@ section_id: "A.1.STM:3"
 section_title: "The attention map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__005_the-attention-map.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:3 — The attention map"

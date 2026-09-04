@@ -6,12 +6,12 @@ section_id: "A.6.3:7"
 section_title: "Rationale and SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__008_rationale-and-sota-echoing.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:7 — Rationale and SoTA-Echoing"
-line_start: 14115
-line_end: 14123
+line_start: 14134
+line_end: 14142
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -33,8 +33,8 @@ keywords:
 
 | Source or practice line | Adopted move | Rejected overread | Practical effect |
 |---|---|---|---|
-| Lenses, optics, and compositional transformation research | Use identity, composition, conservativity, and explicit loss as checks over episteme-to-episteme construction. | The mathematical arrow is not a system, work occurrence, or proof that a direct world-side relation obtains. | View construction can be composed and replayed without agency leakage. |
-| Bidirectional transformation and model-synchronization practice | Make cross-model correspondence dependencies explicit and test path agreement. | A generic correspondence record or graph edge does not establish correspondence. | Coverage and consistency views cite exact source relations and can be repaired locally. |
+| Lenses, optics, and compositional transformation research | Use identity, composition, conservativity, and explicit loss as checks over episteme-to-episteme construction. | The mathematical arrow is not a system, work occurrence, or proof that a direct world-side relation obtains. | Viewing arrows can be composed and replayed while operation applications, Work occurrences, and world-side relations remain separately governed. |
+| Bidirectional transformation and model-synchronization practice | Make cross-model correspondence dependencies explicit and test path agreement. | A generic correspondence record or graph edge does not establish correspondence. | Coverage and consistency viewing declarations cite exact source relations, so broken dependencies can be repaired locally. |
 | Model-based view-as-query practice | Treat query and projection as common construction routes. | Query execution does not grant `U.View` membership, publication, truth, or decision adequacy. | Generated and directly authored epistemes meet the same independent E.17.0 membership rule. |
 | FPF C.2.1 and E.17.0 architecture | Keep episteme identity, viewing construction, conformance, evaluation, work, production, and publication separate. | Do not revive episteme-wide slot bundles or `U.EpistemePublication`. | The next engineering action can rely on the exact relation it actually needs. |
 

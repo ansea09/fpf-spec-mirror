@@ -6,12 +6,12 @@ section_id: "F.0.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__006_archetypal-grounding.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:5 — Archetypal Grounding"
-line_start: 92777
-line_end: 92849
+line_start: 92769
+line_end: 92841
 dependencies:
   - "E.10"
   - "E.10.D1"

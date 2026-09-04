@@ -6,12 +6,12 @@ section_id: "C.16.P:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__012_conformance-checklist.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:10 — Conformance Checklist"
-line_start: 48549
-line_end: 48559
+line_start: 48540
+line_end: 48550
 dependencies:
   - "A.10"
   - "A.15"

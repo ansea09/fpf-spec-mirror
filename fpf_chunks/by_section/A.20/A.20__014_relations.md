@@ -6,12 +6,12 @@ section_id: "A.20:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__014_relations.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:12 — Relations"
-line_start: 35149
-line_end: 35158
+line_start: 35140
+line_end: 35149
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,7 +33,7 @@ keywords:
 
 - `E.18` places independently defined transformation and adjacent values in a selected transformation-flow structure.
 - `A.6.1` and `E.20` define operation and mechanism content whose named constraints may be tested.
-- `A.6.4` defines the retargeting arrow r and the separate use assertion q whose exact proposition A.20 may test; any operation application remains separate.
+- `A.6.4` defines the retargeting arrow r, the separate bounded-use assertion q, and the separate current-case judgement. A.20 may test q's exact proposition only when it is a named internal constraint; any operation application remains separate.
 - `A.21` consumes exact check results and defines gate-policy consequences without suppressing independent applicable results.
 - `E.17`, `G.11`, `C.27`, `A.10`, `B.3`, and `A.15` define publication, refresh, temporal, evidence, assurance, and Work claims.
 - `F.9` applies only when an additional semantic correspondence is current.

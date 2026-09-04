@@ -6,12 +6,12 @@ section_id: "C.17:4"
 section_title: "Core characteristics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__006_core-characteristics.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:4 — Core characteristics"
-line_start: 49574
-line_end: 49624
+line_start: 49565
+line_end: 49615
 dependencies:
   - "A.0"
   - "A.1.1"

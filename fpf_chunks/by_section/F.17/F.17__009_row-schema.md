@@ -6,12 +6,12 @@ section_id: "F.17:7"
 section_title: "Row schema"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__009_row-schema.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:7 — Row schema"
-line_start: 98649
-line_end: 98678
+line_start: 98641
+line_end: 98670
 dependencies:
   - "A.1.1"
   - "A.10"

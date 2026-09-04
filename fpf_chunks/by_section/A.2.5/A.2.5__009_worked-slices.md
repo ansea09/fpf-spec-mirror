@@ -6,7 +6,7 @@ section_id: "A.2.5:6"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__009_worked-slices.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:6 — Worked Slices"

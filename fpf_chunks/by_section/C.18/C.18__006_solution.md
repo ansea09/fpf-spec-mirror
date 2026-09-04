@@ -6,12 +6,12 @@ section_id: "C.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__006_solution.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:4 — Solution"
-line_start: 49918
-line_end: 50093
+line_start: 49909
+line_end: 50084
 dependencies:
   - "A.15"
   - "A.19"

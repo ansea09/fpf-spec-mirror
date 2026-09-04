@@ -6,12 +6,12 @@ section_id: "A.6.S:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__001_intro.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:intro — Intro"
-line_start: 20818
-line_end: 20836
+line_start: 20808
+line_end: 20826
 dependencies:
   - "A.15"
   - "A.15.1"

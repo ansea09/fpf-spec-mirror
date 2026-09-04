@@ -6,12 +6,12 @@ section_id: "C.29:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__016_sota-echoing.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13 — SoTA-Echoing"
-line_start: 58385
-line_end: 58502
+line_start: 58377
+line_end: 58494
 dependencies:
   - "A.1.1"
   - "A.10"

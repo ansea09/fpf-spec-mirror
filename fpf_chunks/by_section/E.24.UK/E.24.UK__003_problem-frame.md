@@ -6,12 +6,12 @@ section_id: "E.24.UK:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__003_problem-frame.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:1 — Problem Frame"
-line_start: 92239
-line_end: 92246
+line_start: 92231
+line_end: 92238
 dependencies:
   - "A.1.1"
   - "A.11"

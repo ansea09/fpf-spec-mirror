@@ -6,12 +6,12 @@ section_id: "C.24:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__014_consequences.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:9 — Consequences"
-line_start: 53688
-line_end: 53691
+line_start: 53680
+line_end: 53683
 dependencies:
   - "A.10"
   - "A.15"

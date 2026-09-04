@@ -6,37 +6,47 @@ section_id: "A.6.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__008_conformance-checklist.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:7 — Conformance Checklist"
-line_start: 19906
-line_end: 19923
+line_start: 19888
+line_end: 19905
 dependencies:
   - "A.10"
   - "A.14"
   - "A.2.4"
+  - "A.2.6"
   - "A.6.0"
   - "A.6.3"
   - "A.6.4"
   - "A.6.5"
   - "A.6.6"
   - "A.6.REL"
+  - "A.7"
   - "C.2.1"
+  - "C.3.3"
   - "E.10"
+  - "E.18"
+  - "E.24.UK"
+  - "E.8"
+  - "F.0.1"
+  - "F.15"
   - "F.17"
   - "F.18"
   - "F.9"
+  - "U.KindBridge"
+  - "U.Transfer"
 keywords:
 ---
 
 ### A.6.6:7 - Conformance Checklist
 
-A carrier conforms to A.6.6 when the checks relevant to its actual use pass:
+An A.6.6 use conforms when the checks for its selected branch pass:
 
 1. **CC-BD-1 - Direct assertion first.** The actual dependent, base, direct relation, and readable affirmative or negative assertion are recoverable. The direct pattern supplies the predicate; a record or label does not.
 2. **CC-BD-2 - Ordinary stop.** If that assertion answers the receiving question, no SlotSpecs, declaration record, witnesses, edition, occurrence identity, or assurance package is required.
-3. **CC-BD-3 - Reusable declaration is demand-driven.** A `RelationSignature` appears only for an already admitted relation kind and at least two named consumers of the same participant meanings, predicate, laws, and applicability.
+3. **CC-BD-3 - Reusable declaration is demand-driven.** A `RelationSignature` satisfies the reuse test in A.6.6:4.3 and applies only to an already admitted relation kind.
 4. **CC-BD-4 - Assertion and occurrence stay separate.** A scoped witnessed record, when used, is a C.2.1 assertion or description episteme. It neither is nor creates the world-side relation occurrence.
 5. **CC-BD-5 - Qualifiers are local.** Scope and time are explicit when the selected predicate or named receiving use depends on them; they are not a universal field kit. `Gamma_time` is not used as a proxy for evidence freshness.
 6. **CC-BD-6 - Evidence ontology is direct.** Evidence use follows A.2.4 and A.10. Work, operation result, result episteme, carrier, provenance, evidence-use relation, and reliance remain separate; no generic `verifiedBy` or `validatedBy` edge is minted.

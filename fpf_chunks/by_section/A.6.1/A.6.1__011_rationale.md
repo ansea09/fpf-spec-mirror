@@ -6,12 +6,12 @@ section_id: "A.6.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__011_rationale.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:10 — Rationale"
-line_start: 13442
-line_end: 13453
+line_start: 13460
+line_end: 13471
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -56,7 +56,7 @@ keywords:
 
 The declaration uses the `U.Signature` identity and content settlement because its reusable vocabulary, laws, applicability, and dependencies have the same episteme discipline. It remains a separate dependent U-kind because operation algebra and admission semantics create recurring action-facing claims that an ordinary signature does not govern. This dependence does not assert a C.3 subkind relation by itself.
 
-The actual application and each binding are separate because the stable declaration can be reused with different actual values, and the same value can participate under different declaration-local meanings. Exact application and binding predicates, extents, and identities prevent a plan, description, reference, compatible type, or result record from fabricating participation. They also avoid one universal work-input or work-result relation.
+The actual application and each binding are separate because the stable declaration can be reused with different actual values, and the same value can participate under different declaration-local meanings. Exact application and binding predicates, extents, and identities distinguish actual participation from a plan, description, reference, compatible type, or result record and keep work-input and work-result relations domain-specific.
 
 The realization relation is separate because several entities can realize the same declaration and one entity can realize it only for a bounded scope and interval. Evidence can change without changing that world-side or semantic relation. This keeps mechanism evolution local and makes failure diagnosis practical.
 

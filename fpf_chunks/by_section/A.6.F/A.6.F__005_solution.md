@@ -6,12 +6,12 @@ section_id: "A.6.F:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__005_solution.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:4 — Solution"
-line_start: 18430
-line_end: 18694
+line_start: 18451
+line_end: 18715
 dependencies:
   - "A.10"
   - "A.15"

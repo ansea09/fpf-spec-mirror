@@ -6,12 +6,12 @@ section_id: "A.6.4:5"
 section_title: "Archetypal Grounding (Tell-Show-Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:5 — Archetypal Grounding (Tell-Show-Show)"
-line_start: 15860
-line_end: 15871
+line_start: 15881
+line_end: 15892
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,13 +37,13 @@ keywords:
 
 ### A.6.4:5 - Archetypal Grounding (Tell-Show-Show)
 
-**Tell.** Retargeting means “different EntityOfConcern, one supported invariant, visible loss, one named use”.
+**Tell.** Retargeting means “different EntityOfConcern, one stated invariant, visible loss, one named use, and exact current facts for judging it”.
 
-**Show 1 — Physical module to function.** X concerns cabinet `Cab-7`; Y concerns routing function `Route-A`. C.2.1 identifies the cabinet and function independently. Affirmative q states that the routing-behaviour invariant makes the visible loss acceptable for fault-isolation planning. The obtaining `Realises(Cab-7, Route-A)` relation and behaviour test are current case facts; here the judgement is `satisfies`. Y drops cabinet layout and manufacturer details. E.18 placement identifies neither r nor q and supplies no judgement.
+**Show 1 — Physical cabinet to selected functional structure.** X concerns cabinet `Cab-7`; Y concerns selected functional `U.Structure` `Route-A`. C.2.1 identifies the cabinet and structure independently. Affirmative q states that the routing-behaviour invariant makes the visible loss acceptable for fault-isolation planning. A current behaviour-test result compares `Cab-7`'s observed routing under q's named conditions with the routing decisions stated for `Route-A` and meets q's criterion; the judgement is `satisfies`. The source expression `Realises(Cab-7, Route-A)` names an intended relation and its participants but has no current direct predicate or governor, so it stops at `missing-governor` and contributes nothing to that judgement. Y drops cabinet layout and manufacturer details. E.18 placement identifies neither r nor q and supplies no judgement.
 
-**Show 2 — Fourier near-miss and positive branch.** In the ordinary case, X and Y both concern sampled signal run `Signal-17`; X uses a time-domain representation and Y a frequency-domain representation. Route first through C.29 and then A.6.3.RT. Parseval's relation may support energy preservation, but it does not turn the spectrum notation into another EntityOfConcern.
+**Show 2 — Fourier near-miss and positive branch.** In the ordinary case, X and Y both concern sampled signal run `Signal-17`; X uses a time-domain representation and Y a frequency-domain representation. Route first through C.29 and then A.6.3.RT. Under its declared conditions, Parseval's relation gives the energy-preservation equality; the spectrum notation still represents the same EntityOfConcern.
 
-A positive A.6.4 branch opens only if C.2.1 separately identifies, for example, exact signal run `Signal-17` and exact spectral-distribution object `Spectrum-17` as the two EntitiesOfConcern. The receiving use must actually concern `Spectrum-17`—for example, comparing its peak distribution with another spectrum—rather than merely read another representation of `Signal-17`. Then r relates the two epistemes; affirmative q states the spectral-comparison proposition and may cite the Fourier relation and Parseval test. The current-case judgement is `satisfies` only when the named facts support that use while lost time localization remains visible.
+A positive A.6.4 branch opens only if C.2.1 separately identifies, for example, exact signal run `Signal-17` and exact spectral-distribution object `Spectrum-17` as the two EntitiesOfConcern. The receiving use must actually concern `Spectrum-17`—for example, comparing its peak distribution with another spectrum—rather than merely read another representation of `Signal-17`. Then r relates the two epistemes; affirmative q states the spectral-comparison proposition and may cite the Fourier relation and Parseval test. The current-case judgement is `satisfies` only when the named facts meet q's conditions and criterion while lost time localization remains visible.
 
-**Show 3 — Dataset to model.** X concerns dataset D; Y concerns fitted model M, independently identified under the applicable model pattern. The fit result and held-out test support q's predictive-invariant claim. Individual observations and unmodelled distinctions are visible losses. The claim supports the named prediction use, not a claim that M is D or that every dataset claim transfers to M. The fitting application and Work remain separate from r and q.
+**Show 3 — Dataset to model.** X concerns dataset D; Y concerns fitted model M, independently identified under the applicable model pattern. Affirmative q states the predictive invariant, visible losses, named prediction use, and conditions. The exact fit result and held-out test outcome are current-case facts; the judgement is `satisfies` when those facts meet q's conditions and invariant criterion. Individual observations and unmodelled distinctions remain visible losses, and any other dataset claim needs its own transfer basis. The fitting application and Work remain separate from r, q, and the judgement.
 

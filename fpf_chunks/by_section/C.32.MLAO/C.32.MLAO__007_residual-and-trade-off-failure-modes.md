@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:6"
 section_title: "Residual And Trade-Off Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__007_residual-and-trade-off-failure-modes.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:6 — Residual And Trade-Off Failure Modes"
-line_start: 65493
-line_end: 65509
+line_start: 65485
+line_end: 65501
 dependencies:
   - "A.10"
   - "A.19.CPM"

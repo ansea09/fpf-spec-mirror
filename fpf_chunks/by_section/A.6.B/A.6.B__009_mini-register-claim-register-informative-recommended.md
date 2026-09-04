@@ -6,12 +6,12 @@ section_id: "A.6.B:7"
 section_title: "Mini-register: Claim Register (informative, recommended)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__009_mini-register-claim-register-informative-recommended.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:7 — Mini-register: Claim Register (informative, recommended)"
-line_start: 11396
-line_end: 11409
+line_start: 11405
+line_end: 11419
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -96,5 +96,6 @@ Guidance (informative):
 * **Canonical location** should point to the one place the statement “lives” (e.g., `Signature.Laws`, `Mechanism.AdmissibilityConditions`, `TechCard.NormsCommitments`, `Evidence.Carriers`), so other faces can cite it by ID.
 * **Stack layer** should be one of `{Signature, Mechanism, Norms-and-commitments, Evidence-and-carriers}` to make classification auditable.
 * **A.7 primary side** is the claim’s primary referent (`EntityOfConcern`, Description episteme, or publication carrier), even though the claim is always written as a Description episteme.
+* **viewRef** and **viewpointRef** are used when the corresponding view or viewpoint identity matters under E.17; `U.View` membership requires E.17.0 conformance.
 * Use **References** for explicit cross‑quadrant links (e.g., which `D-*` enforces which `A-*`, which `E-*` adjudicates which commitments, which `L-*` defines a metric used by `E-*`) and for external standards or policies where applicable.
 

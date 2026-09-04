@@ -6,12 +6,12 @@ section_id: "A.6.0:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__011_rationale.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:10 — Rationale"
-line_start: 12932
-line_end: 12941
+line_start: 12950
+line_end: 12959
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -36,6 +36,7 @@ dependencies:
   - "E.18.1"
   - "E.24.PUB"
   - "E.24.UK"
+  - "F.19"
   - "F.9"
 keywords:
 ---
@@ -48,5 +49,5 @@ The declaration components answer four different engineering questions. `Subject
 
 `RelationSignature` is a use of `U.Signature` because it has the same episteme identity and content duties. Introducing a second root kind would duplicate those duties while leaving obtaining and occurrence identity with direct relation patterns anyway.
 
-Progressive elaboration protects didactic primacy. A practitioner can begin with a readable relation sentence and add formal declaration only when reuse creates value. Exactness is increased for a named claim or operation, not for ceremony.
+Progressive elaboration protects didactic primacy. A practitioner can begin with a readable relation sentence and add formal declaration only when reuse creates value. Exactness is increased for a named claim or operation.
 

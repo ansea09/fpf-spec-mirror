@@ -6,12 +6,12 @@ section_id: "A.6.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__010_consequences.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:9 — Consequences"
-line_start: 13855
-line_end: 13870
+line_start: 13874
+line_end: 13889
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -37,7 +37,7 @@ keywords:
   Effect-free arrow families used across KD‑CAL, MVPK, E.18, and discipline packs can reuse one local law set instead of re-inventing it. Each actual application and use claim remains separate.
 
 * **Clear separation from mechanisms & work.**
-  Anything that touches the world, including measurement, execution, or simulation, belongs to the applicable `U.Mechanism` application or performed `U.Work`; EFEM remains effect-free and compositional. Any semantic correspondence, temporal qualification, evidence, or reliance claim remains under its own pattern.
+  Measurement, execution, and simulation require a capable system, the applicable A.6.1 operation application when current, and performed `U.Work`; identify any resulting episteme and production relation separately. EFEM remains effect-free and compositional. Any semantic correspondence, temporal qualification, evidence, or reliance claim remains under its own pattern.
 
 * **Stable backbone for Viewing & Retargeting.**
   A.6.3 and A.6.4 do not need to repeat P0–P5; they specialise EFEM with additional constraints (preserve/retarget). Other patterns (e.g. MultiViewDescribing, MVPK, E.18 structural reinterpretation) can depend on EFEM as a stable base.
@@ -45,5 +45,5 @@ keywords:
 * **Value-and-relation clarity.**
   By requiring each EFEM species to compare the three C.2.1 identity values and name the exact separately obtaining relations its rule reads, the pattern keeps an EntityOfConcern, a declaration-local SlotKind, and a reference to the entity distinct. Equal or different endpoint relation facts are a comparison result, not an effect of the arrow.
 * **Better didactics.**
-  The traditional “semantic triangle” becomes a didactic projection over C.2.1 episteme constitution and the neighboring relations an EFEM species actually uses. It can gesture at expression, meaning, and subject without turning viewpoint, empirical grounding, representation, or reference into one slot tuple.
+  When a didactic expression–meaning–subject triangle is useful, map its three positions explicitly to the effective ReferenceScheme, ClaimGraph, and EntityOfConcern of the current episteme. Keep viewpoint, empirical grounding, representation, and reference as separately named neighboring relations rather than extra triangle slots.
 

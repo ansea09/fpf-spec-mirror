@@ -6,12 +6,12 @@ section_id: "G.8:End"
 section_title: "G.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__016_g-8-end.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:End — G.8:End"
-line_start: 105430
-line_end: 105431
+line_start: 105422
+line_end: 105423
 dependencies:
   - "A.10"
   - "A.21"

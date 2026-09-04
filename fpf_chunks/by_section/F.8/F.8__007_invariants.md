@@ -6,12 +6,12 @@ section_id: "F.8:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__007_invariants.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:5 — Invariants"
-line_start: 95336
-line_end: 95348
+line_start: 95328
+line_end: 95340
 dependencies:
   - "A.11"
   - "A.15"

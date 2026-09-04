@@ -6,12 +6,12 @@ section_id: "A.6.P:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__011_rationale.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:10 — Rationale"
-line_start: 16435
-line_end: 16448
+line_start: 16456
+line_end: 16469
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"

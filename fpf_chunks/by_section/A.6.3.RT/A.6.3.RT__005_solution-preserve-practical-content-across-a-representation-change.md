@@ -6,15 +6,16 @@ section_id: "A.6.3.RT:4"
 section_title: "Solution — preserve practical content across a representation change"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-preserve-practical-content-across-a-representation-change.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:4 — Solution — preserve practical content across a representation change"
-line_start: 14918
-line_end: 15100
+line_start: 14937
+line_end: 15121
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.20"
@@ -41,6 +42,7 @@ dependencies:
   - "E.17.ID.CR"
   - "E.18"
   - "E.24.PUB"
+  - "F.6"
   - "F.9"
 keywords:
 ---
@@ -74,7 +76,7 @@ Use this compact note for ordinary work:
 
 #### A.6.3.RT:4.1.a - Exact episteme-construction branch
 
-Open this branch only when the receiving use makes exact claim identity material: independent travel or citation, disputed interpretation, consequential cross-scheme reuse, generated or decode-mediated admission, or a named public, evidence, or assurance receiver.
+Open this branch only when the receiving use makes exact claim identity material: the target must travel independently, be cited or disputed, cross a scheme boundary for consequential use, be considered for admission as receiving episteme `Y` in a generated or decode-mediated case, or meet an exact-identity requirement from a named public, evidence, or assurance receiver.
 
 Then establish exact A.6.3 construction `v : X -> Y`:
 
@@ -108,7 +110,7 @@ The six SlotSpecs and direction are the exact `RelationSignature`. `X` and `Y` h
 A positive occurrence obtains only when all of the following hold together:
 
 1. all six participants resolve exactly, and the `BoundedModelUseStructure` was independently selected because its model-use organization changes this transition use;
-2. A.13 identifies the actual performer, and A.15.1 independently admits the dated representation-transformation Work. If the current use also needs to say exactly which assignment covered that Work, F.6 checks that separate relation against the same A.13 assignment; F.6 identifies neither performer nor assignment, and a missing or failed attribution leaves the Work intact. The Work's governed inputs, result, references, or A.6.1 bindings use all six participant values;
+2. A.13 identifies the actual performer, and A.15.1 independently admits the dated representation-transformation Work. If the current use also needs to say exactly which assignment covered that Work, F.6 checks that separate relation against the same A.13 assignment; F.6 identifies neither performer nor assignment, and a missing or failed attribution leaves the Work intact. The Work uses all six participant values collectively through its governed inputs, result, references, A.6.1 bindings, or a combination of these;
 3. exact `v : X -> Y` states claim construction, endpoint-scheme relation, same EntityOfConcern, preservation, loss or recoverability, prohibited strengthening, applicability, use, and return; and
 4. every depended-on correspondence is an exact separately governed relation or claim.
 
@@ -125,8 +127,8 @@ Its claim content may make these values recoverable; they are not extra particip
 | Description content | Meaning |
 | --- | --- |
 | `transitionRelationRef` | The exact six-participant occurrence. |
-| `viewingConstructionRefOrStatement` | Exact `v : X -> Y`, scheme relation, applicability, preservation, loss, and prohibited strengthening. |
-| `representationTransformationWorkRef` | Exact A.15.1 Work already used in the obtaining test; performer, assignment, method, bindings, and inception remain separate. |
+| `viewingConstructionRefOrStatement` | Exact `v : X -> Y`, including claim construction, endpoint-scheme relation, same exact EntityOfConcern, preservation, loss/recoverability, prohibited strengthening, applicability, use, and return. |
+| `representationTransformationWorkRef` | Exact A.15.1 Work already used in the obtaining test; actual performer, assignment, Method, A.6.1 bindings, and any A.15.PROD inception claim remain separate. |
 | `sourceRelationReferenceEpistemeRefs[]` | C.2.1 epistemes about exact source relations actually used; each relation still needs its own obtaining basis. |
 | `preservedClaimRefs[]` | Exact source claims carried into `Y` for this use. |
 | `preservedCommitmentRefs[]?` | Exact commitments preserved when a commitment is current. |
@@ -161,15 +163,15 @@ Use detailed vocabulary only when it changes the next representation decision or
 - **actionability shift** — an apparent change in what users think they can do, which is not work authority, gate status, or permission; and
 - **recoverability evidence** — evidence that omitted content can be recovered well enough for the declared use.
 
-Do not create a local admissibility scale, source-relation status catalogue, publication-face requirement, or assurance lane merely because a representation changed. State the actual use, loss, evidence, and return once. Use A.10 or B.3 only when a specific evidence or assurance claim is current.
+State the actual use, loss, evidence, and return once. Use A.10 or B.3 only when a specific evidence or assurance claim is current.
 
 #### A.6.3.RT:4.3 - Direct and correspondence-mediated constructions
 
-In a **direct** exact construction, `Y` is constructed from `X` and fixed declared configuration. State the claim rule, endpoint schemes, preserved content, loss, and applicability; no generic correspondence object is required.
+In a **direct** exact construction, `Y` is constructed from `X` and fixed declared configuration. State the claim construction, endpoint-scheme relation, same exact EntityOfConcern, preservation, loss/recoverability, prohibited strengthening, applicability, use, and return; no generic correspondence object is required.
 
 In a **correspondence-mediated** exact construction, `Y` depends on additional source epistemes or governed relations among their claim-bearing contents. Recover each needed direct relation and, when `v` cites a claim about it, the exact C.2.1 assertion episteme. A correspondence table, model, graph edge, or scheme difference is neither the relation nor proof that it obtains.
 
-Both profiles retain the same exact EntityOfConcern. Correspondence grants no retargeting, bridge, substitution, comparative-review, evidence, or publication licence. Add C.29 only for a current mathematical modeling or reasoning use.
+Both profiles retain the same exact EntityOfConcern. A correspondence by itself establishes neither an F.9 Bridge nor any substitution, comparative-review, evidence, or publication claim. Add C.29 only for a current mathematical modeling or reasoning use.
 
 #### A.6.3.RT:4.4 - Recurring moves and useful deltas
 
@@ -187,15 +189,15 @@ A target introduces a new concern-side claim when it:
 
 - upgrades a source-visible relation into dependency theory or another relation not present in the source;
 - turns geometry, notation, embedding proximity, or decoder output into ontology-by-default;
-- adds bridge, substitution, comparative, mechanism, temporal, or control claims not licensed by source claims or an exact correspondence;
+- adds a Bridge, substitution, comparative, mechanism, temporal, or control claim that the source does not state and that has not been independently established under its governing pattern;
 - collapses source alternatives, uncertainty, or bounded scope into one wider commitment; or
 - treats decode-mediated recovery as direct givenness.
 
-Check each target-side connective against the source or exact same-EntityOfConcern correspondence. Clearer, more structured, or more formal representation does not widen reliability.
+Check each target-side connective against the source or exact same-EntityOfConcern correspondence. A clearer, more structured, or more formal target does not establish a broader reliability claim.
 
 ##### A.6.3.RT:4.5.b - Loss and recoverability
 
-State which distinctions, inspection possibilities, uncertainty cues, or local qualifiers are lost, foregrounded, rearranged, or harder to recover. The target may be useful with source-bounded reliability or an explicit downgrade. If it remains honest only through a declared narrower use and source return, A.6.3.CSC is primary.
+State which distinctions, inspection possibilities, uncertainty cues, or local qualifiers are lost, foregrounded, rearranged, or harder to recover. The target may remain useful under a reliability claim bounded by the source or with an explicitly narrowed admissible use. If it remains honest only through a declared narrower use and source return, A.6.3.CSC is primary.
 
 ##### A.6.3.RT:4.5.c - Decode-mediated entry
 
@@ -216,13 +218,15 @@ Reopen the affected account when source content, endpoint identity, recovery ass
 | Same-regime wording only | Use A.6.3.CR. |
 | Reader-useful ordering into a narrative path | Use A.6.3.NAR; keep RT only for a remaining material scheme shift. |
 | Explanation adequacy of an existing face | Use E.17.EFP. |
-| Changed EntityOfConcern, ontology frame, or admissible predicate set | Use A.6.4 or the exact ontology pattern that defines the changed claim. |
+| Receiving episteme has an independently identified different exact EntityOfConcern | Use A.6.4 for the retargeting arrow, its separate C.2.1 bounded-use assertion, and the current-case judgement `satisfies`, `fails`, or `cannot decide`. |
+| Changed kind, ontology frame, predicate set, mathematical domain, or notation without an established EntityOfConcern change | Repeat the C.2.1 identity test and use the exact ontology pattern for any changed claim. Stay in RT when the same EntityOfConcern remains current and representation is the primary change. |
+| Same-signal time/frequency or another mathematical representation change | Stay in RT when the same EntityOfConcern remains current and representation is the primary change. Add C.29 only when the use depends on a contested or claim-bearing mathematical lens. A.6.4 opens only after C.2.1 independently identifies a different receiving entity. |
 | Carrier rendering, export, serialization, OCR, or parsing before a receiving episteme exists | Use A.7 or the corresponding carrier/extraction pattern. |
 | A narrower-use coarsened receiving episteme | Use A.6.3.CSC with explicit loss and source return. |
-| Cross-context equivalence, substitution, or bridge use | Keep RT for the representation delta and use the applicable F.9 relation for the bridge claim. |
+| Cross-context equivalence, substitution, or Bridge use | Keep RT for the representation delta. Use F.9 to test a Bridge between two exact F.17 `SchemeSenseCell` values from different semantic contexts; cite the Bridge only if it obtains, and keep any C.2.1 bounded-use claim separate. |
 | Bounded comparison over already available source epistemes | Use E.17.ID.CR; keep RT only for a remaining material representation change. |
 | Problem formulation or abductive prompt, candidate, or selection | Use B.5.2.0 for the prompt and B.5.2 for the abductive loop. |
-| Performed work, a work plan, or authority to act | Use the applicable A.15 pattern; an RT note or construction grants none. |
+| Performed Work, a work plan, or authority to act | Use the applicable A.15 pattern for performed Work or a work plan; an RT note or construction supplies neither and grants no authority to act. |
 | Evidence or assurance force | Keep RT for preservation/loss and use A.10 or B.3 for that exact claim. |
 | Temporal or dynamics claim | Use C.27 or A.3.3 for the claim actually made. |
 | Transformation-flow graph/path, step-validity, or gate-decision claim | Use E.18, A.20, or A.21 respectively. |

@@ -6,12 +6,12 @@ section_id: "A.11.OP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
   - "A.11.OP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 23696
-line_end: 23709
+line_start: 23686
+line_end: 23699
 dependencies:
   - "A.11"
   - "A.11.OP"

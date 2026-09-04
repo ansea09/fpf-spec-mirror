@@ -6,12 +6,12 @@ section_id: "C.24:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__001_intro.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:intro — Intro"
-line_start: 53372
-line_end: 53387
+line_start: 53364
+line_end: 53379
 dependencies:
   - "A.10"
   - "A.15"

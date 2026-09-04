@@ -6,12 +6,12 @@ section_id: "F.8:6"
 section_title: "Reasoning Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__008_reasoning-checks.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:6 — Reasoning Checks"
-line_start: 95349
-line_end: 95365
+line_start: 95341
+line_end: 95357
 dependencies:
   - "A.11"
   - "A.15"

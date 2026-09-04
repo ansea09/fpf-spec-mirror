@@ -6,12 +6,12 @@ section_id: "A.6.B:4"
 section_title: "Solution — the Boundary Norm Square"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__006_solution-the-boundary-norm-square.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:4 — Solution — the Boundary Norm Square"
-line_start: 11170
-line_end: 11208
+line_start: 11179
+line_end: 11217
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -121,5 +121,5 @@ The quadrants have canonical placements in the boundary stack:
 * **D → Deontics & Commitments layer:** atomic claims about a generic prescription or about one separately obtaining individual duty, recommendation-as-duty, prohibition, or commitment. When permission wording is live, §8.4.1 decides whether its claim also belongs here.
 * **E → Work-Effects & Evidence layer:** truth-conditional claims whose satisfaction requires actual work, evaluation, observation, or produced carriers.
 
-A published view **MUST NOT** introduce new semantic claims outside this L/A/D/E-classified claim set. **E.17 (MVPK)** is a specialization that enforces this rule for a fixed set of publication face kinds.
+A publication face **MUST NOT** introduce new semantic claims outside this L/A/D/E-classified claim set. **E.17 (MVPK)** enforces this rule for publication faces and their selected profiles.
 

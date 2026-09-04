@@ -6,12 +6,12 @@ section_id: "G.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__012_archetypal-grounding.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:5 — Archetypal Grounding"
-line_start: 104061
-line_end: 104080
+line_start: 104053
+line_end: 104072
 dependencies:
   - "C.11"
   - "C.18"

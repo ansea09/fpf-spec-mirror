@@ -6,12 +6,12 @@ section_id: "E.18.NET:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__007_bias-annotation.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:6 — Bias-Annotation"
-line_start: 87737
-line_end: 87748
+line_start: 87729
+line_end: 87740
 dependencies:
   - "A.1.STM"
   - "A.12"

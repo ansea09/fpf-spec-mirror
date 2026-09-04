@@ -6,12 +6,12 @@ section_id: "E.4.DPF:End"
 section_title: "E.4.DPF:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__014_e-4-dpf-end.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:End — E.4.DPF:End"
-line_start: 71590
-line_end: 71591
+line_start: 71582
+line_end: 71583
 dependencies:
   - "A.1.1"
   - "A.13"

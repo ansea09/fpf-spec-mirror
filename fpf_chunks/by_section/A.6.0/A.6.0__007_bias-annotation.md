@@ -6,12 +6,12 @@ section_id: "A.6.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__007_bias-annotation.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:6 — Bias-Annotation"
-line_start: 12865
-line_end: 12879
+line_start: 12883
+line_end: 12897
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -36,6 +36,7 @@ dependencies:
   - "E.18.1"
   - "E.24.PUB"
   - "E.24.UK"
+  - "F.19"
   - "F.9"
 keywords:
 ---
@@ -48,10 +49,10 @@ keywords:
 - **Arch.** Favors a small declaration core with direct neighboring patterns. Counter-risk: the signature becomes a central container. Mitigation: keep realization, work, evaluation, and publication with their direct patterns.
 - **Onto-Epist.** Favors strict separation of declaration episteme, declared subject, obtaining occurrence, assertion, and representation. Counter-risk: excessive explicitness. Mitigation: stop at the direct assertion unless two named consumers share declaration content or one later claim must distinguish the occurrence.
 - **Prag.** Favors reusable named SlotSpecs and laws. Counter-risk: one-off work becomes formal paperwork. Mitigation: ordinary direct sentences remain sufficient.
-- **Did.** Favors the four content groups and local mantra. Counter-risk: readers mistake the mnemonic order for executable work. Mitigation: apply A.22.CGUS only to an independently identified structure of potential continuations; actual execution remains a separate Work or Transformation claim.
-- **Context transport.** A signature's claims mean only what their stated scope and effective ReferenceScheme make them mean. Counter-risk: the same label in another context is treated as equivalent or safely substitutable. Mitigation: when a proposed reuse relates two exact F.17 local senses, test the direct F.9 predicate and cite a Bridge only when it obtains; state direction, rule, tolerated loss, and polarity in a separate bounded-use claim. Different contexts or schemes alone establish no Bridge. Without the needed semantic relation and use claim, do not transport the claim by label alone.
+- **Did.** Favors the four content groups and local mantra. Counter-risk: readers treat the mnemonic order as a required execution order. Mitigation: apply A.22.CGUS only to an independently identified structure of potential continuations; actual execution remains a separate Work or Transformation claim.
+- **Context transport.** Interpret the signature's claims under the effective `U.ReferenceScheme` and use them within their stated scope. Counter-risk: the same label in another context is treated as equivalent or safely substitutable. Mitigation: when a proposed reuse relates two exact F.17 local senses, test the direct F.9 predicate and cite a Bridge only when it obtains; state direction, rule, tolerated loss, and polarity in a separate bounded-use claim. Without the needed semantic relation and use claim, do not transport the claim by label alone.
 - **Comparability.** Two declarations do not become comparable because both expose numbers. Counter-risk: numeric appearance hides incompatible characteristics, measurement procedures, units, scales, comparators, or normalization. Mitigation: apply the current A.17/A.18/C.16 characteristic, measurement, and unit-and-scale patterns and A.19.CPM/A.19.UNM comparison and normalization patterns as the case requires, then state the resulting comparison boundary; keep their detailed legality and result-shape rules with those subject patterns.
-- **Register.** Begin each technical declaration block and worked case with, or immediately supply, an ordinary sentence naming what the practitioner asserts or does and what visible result follows; then map that sentence to the exact FPF terms. Counter-risk: a technically correct block remains unusable without private decoding. Mitigation: use E.10's Plain-intent step, scan the recovered wording, and rescan every replacement; keep the repair only when the same governed object, subject pattern, admissible use, and practical action remain clear.
+- **Register.** Begin each technical declaration block and worked case with, or immediately supply, an ordinary sentence naming what the practitioner asserts or does and what visible result follows; then map that sentence to the exact FPF terms. Counter-risk: a technically correct block remains unusable without private decoding. Mitigation: use F.19's governing-message and connected-reading steps with E.10's compact cues, then revalidate each changed span with its meaning-dependent neighbours; keep the repair only when the same governed object, subject pattern, admissible use, and practical action remain clear.
 
-The examples deliberately span physical modeling, medicine, learning, and formal work. Each worked declaration has its own C.2.1 identity, which remains independent of its publication form; the examples do not share one declaration individual.
+The examples deliberately span physical modeling, medicine, learning, and formal work. Each worked declaration has its own C.2.1 identity, which remains independent of its publication form.
 

@@ -6,12 +6,12 @@ section_id: "A.6.0:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__013_relations.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:12 — Relations"
-line_start: 12963
-line_end: 12972
+line_start: 12981
+line_end: 12990
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -36,6 +36,7 @@ dependencies:
   - "E.18.1"
   - "E.24.PUB"
   - "E.24.UK"
+  - "F.19"
   - "F.9"
 keywords:
 ---
@@ -44,7 +45,7 @@ keywords:
 
 - **Builds on:** A.7, C.2.1, C.3, A.2.6, and A.6.5.
 - **Governs:** reusable `U.Signature` declaration epistemes, including `RelationSignature` use and the FormalSubstrate and PrincipleFrame profiles.
-- **Constrained by:** E.10 for the register and usability of materially changed technical declaration blocks, the mantra, checklist instructions, and worked cases. The local result must expose the ordinary claim or action and the decisive governed terms to a cold reader; E.10 is the pattern for the trigger scan and wording-repair method.
+- **Constrained by:** F.19 for the register and usability of materially changed technical declaration blocks, the mantra, checklist instructions, and worked cases. The local result must expose the ordinary claim or action and the decisive governed terms to a cold reader. Keep E.10's compact cues active during that reading and use its exact rules for unresolved lexical questions.
 - **Coordinates with:** A.6.REL for relation occurrence, A.6.RCD for needed-claim derivation and relation-kind settlement before declaration, A.6.1 for mechanism declaration and realization, A.3.1 for methods, A.15.1 for work, F.9 for explicit bridge use, A.17, A.18, C.16, A.19.CPM, and A.19.UNM for characteristic, scale, comparison, and normalization questions, C.29 for mathematical-lens use, and E.24.UK for durable U-kind admission.
 - **Described and published through:** C.2.1, E.17, and E.24.PUB.
 - **Evolves with:** G.11 for currentness and explicit direct relations between signature editions.

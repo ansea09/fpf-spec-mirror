@@ -6,12 +6,12 @@ section_id: "E.10:12"
 section_title: "Archetypal grounding: three concise examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__014_archetypal-grounding-three-concise-examples-informative.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:12 — Archetypal grounding: three concise examples (informative)"
-line_start: 76269
-line_end: 76304
+line_start: 76261
+line_end: 76296
 dependencies:
   - "A.10"
   - "A.15"

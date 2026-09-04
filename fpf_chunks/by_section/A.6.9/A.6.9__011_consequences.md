@@ -6,12 +6,12 @@ section_id: "A.6.9:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__011_consequences.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:9 — Consequences"
-line_start: 20771
-line_end: 20787
+line_start: 20761
+line_end: 20777
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -70,5 +70,5 @@ keywords:
   * Reviewers must inspect the correspondence rule, tolerated loss, and evidence for the named action.
   * Many attractive “same” claims become only an explanatory comparison or a negative use claim.
 
-**Adoption test (PRAG).** Take one sentence containing *same*, *equivalent*, *align*, or *map*. A practitioner passes when they can name the concrete action, route non-semantic branches, identify the two exact cells, say whether the Bridge obtains, state the separate bounded-use claim and reliance branch, and name any authorization or receiving occurrence still missing. Otherwise keep the sentence explanatory and return the exact missing fact.
+**Adoption test (PRAG).** Take one sentence containing *same*, *equivalent*, *align*, or *map*. A practitioner passes when they can name the concrete action, route non-semantic branches, identify the two exact cells, say whether the Bridge obtains, state the separate bounded-use claim and, when someone will rely on it, the applicable reliance branch, and name any authorization or receiving occurrence still missing. Otherwise keep the sentence explanatory and return the exact missing fact.
 

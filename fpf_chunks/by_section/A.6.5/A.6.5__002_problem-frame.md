@@ -6,12 +6,12 @@ section_id: "A.6.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__002_problem-frame.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:1 — Problem frame"
-line_start: 19183
-line_end: 19217
+line_start: 19204
+line_end: 19238
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -36,7 +36,7 @@ keywords:
 
 **Primary EntityOfConcern.** One `SlotSpec` declaration in one exact `RelationSignature`.
 
-**First useful move.** Write the readable relation sentence, identify the relation kind and relation-participant meanings, and name where its predicate, applicability, and identity rule are defined. For every relation-participant meaning whose reusable typed declaration is current, add one SlotSpec to the `RelationSignature`, using the compact declaration notation `SlotSpec = <SlotKind, ValueKind, refMode>`. The angle brackets and ordered entries belong to that notation; they are not parts or participants of the world-side relation. `refMode` states how an assertion or relation-occurrence description episteme carrying a relation-participant designation denotes the actual participant; it does not turn the reference or SlotSpec into that participant. If the direct relation or its relation obtaining predicate is still unclear, stop and use `A.6.P` or `A.6.RSIR`; declaration notation cannot recover a missing ontology.
+**First useful move.** Write the readable relation sentence, identify the relation kind and relation-participant meanings, and name where its predicate, applicability, and identity rule are defined. For every relation-participant meaning whose reusable typed declaration is current, add one SlotSpec to the `RelationSignature`, using the compact declaration notation `SlotSpec = <SlotKind, ValueKind, refMode>`. `refMode` states how an assertion or relation-occurrence description episteme carrying a relation-participant designation denotes the actual participant. When a reference is used, it retains its RefKind and its referent retains the declared ValueKind; the SlotSpec remains declaration content. If the direct relation or its relation obtaining predicate is still unclear, stop and use `A.6.P` or `A.6.RSIR`; declaration notation cannot recover a missing ontology.
 
 **First-minute result.** For `Robot_7 is assigned to InspectorSystemRole for this inspection shift`, declare a species under `U.SystemRoleAssignment`, such as `InspectionShiftAssignment`, and state one occurrence for the shift. When reusable participant typing is needed, give `HolderSystemSlot` the value kind `U.System` and entity-reference mode; give `AssignedSystemRoleKindSlot` the value domain `InspectorSystemRoleKindDomain` and by-value reference mode. Add another participant only when it changes the predicate or occurrence identity. An assertion designates the occurrence's participants and states its `assignmentInterval` separately. Stop there unless later work must substitute a participant, distinguish this assignment episode from another, or test an A.2.5 state condition.
 

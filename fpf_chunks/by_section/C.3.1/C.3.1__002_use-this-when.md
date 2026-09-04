@@ -6,12 +6,12 @@ section_id: "C.3.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__002_use-this-when.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:0 — Use This When"
-line_start: 45469
-line_end: 45482
+line_start: 45460
+line_end: 45473
 dependencies:
   - "A.1"
   - "A.11"

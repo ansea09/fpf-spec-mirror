@@ -6,12 +6,12 @@ section_id: "E.10.D2:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__013_worked-examples.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:11 — Worked examples"
-line_start: 78281
-line_end: 78338
+line_start: 78273
+line_end: 78330
 dependencies:
   - "A.1.1"
   - "A.10"

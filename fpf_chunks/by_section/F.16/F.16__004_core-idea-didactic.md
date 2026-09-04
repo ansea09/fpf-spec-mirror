@@ -6,12 +6,12 @@ section_id: "F.16:3"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__004_core-idea-didactic.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:3 — Core idea (didactic)"
-line_start: 98264
-line_end: 98279
+line_start: 98256
+line_end: 98271
 dependencies:
   - "A.10"
   - "A.15"

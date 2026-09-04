@@ -6,12 +6,12 @@ section_id: "A.20:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__006_solution.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:4 — Solution"
-line_start: 34968
-line_end: 35077
+line_start: 34959
+line_end: 35068
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ The constrained subject is normally:
 
 1. one independently identified `U.Transformation` used at an E.18 transformation position;
 2. one A.6.1 operation application whose internal law is being tested; or
-3. one exact claim that an A.6.4 retargeting is fit for the stated use when its invariant or declared loss boundary is the constraint. A.6.4 names this separate use assertion q; the arrow r named by q and any actual operation application remain separate.
+3. the exact proposition carried by one A.6.4 bounded-use assertion q, only when that proposition is the named internal constraint. q remains a C.2.1 episteme about exact arrow r; its ClaimGraph and the separate current-case judgement remain under A.6.4, and any actual operation application remains separate.
 
 Another subject is admissible only when its own pattern defines a named internal constraint and states why this result form applies. An E.18 locus label alone supplies neither the subject nor the constraint.
 
@@ -105,7 +105,7 @@ The following families are recognition aids, not a universal required list. Each
 | Quantity and unit coherence | The current operation combines quantities or units. | The case is coherent under the already declared quantity, unit, and reference-scheme rules. | A mismatch is `violated`; an unrecovered declaration is `unknown`. A.20 does not define or translate units or planes. |
 | Sensitivity or stability bound | A robustness, continuity, perturbation, safety-envelope, or stability claim actually depends on a bound. | The cited bound covers the stated domain, assumptions, distance or norm, and case. | A counterexample is `violated`; absent assumptions or certificate content are `unknown`. No bound is required without this trigger. |
 | Return-shape preservation | A consumer relies on a declared set, archive, order, or other non-scalar result shape. | The transformation preserves that declared shape for the current case. | Hidden scalarization or lost required structure is `violated`; unrecovered shape facts are `unknown`. A.20 does not rank or select the result. |
-| A.6.4 retargeting invariant | The constrained subject is the exact proposition in q, and the current use depends on its invariant or loss boundary. | The case support establishes the stated invariant and keeps loss within the stated boundary and use. | A counterexample or excess loss is `violated`; missing support is `unknown` unless the constraint itself makes absence a failure. The arrow r and any application remain separate. |
+| A.6.4 retargeting invariant | The exact proposition in q is the named internal constraint for the current use; q remains the C.2.1 bounded-use assertion about r. | Exact current case facts establish the proposition as stated, including its invariant, visible loss, named receiving use, conditions, and polarity. | A counterexample is `violated`; a missing deciding fact is `unknown` unless the constraint itself makes absence a failure. This A.20 result may enter the case basis for A.6.4's separate `satisfies`, `fails`, or `cannot decide` judgement; it is not that judgement, and the exact current facts remain separately named. r and any application remain separate. |
 
 The constraint's own pattern supplies its truth condition. A.20 supplies the application result form and summary only.
 
@@ -119,9 +119,9 @@ An implementation may defer expensive evaluation work after an already blocking 
 
 #### A.20:4.5 - Retargeting boundary
 
-For a `StructuralReinterpretation` use, receive the exact A.6.4 arrow r and separate use assertion q. The A.20 constrained subject is the exact proposition in q: its invariant, visible loss, receiving use, conditions, support, and polarity. If an actual operation application is also current, identify and test it separately.
+For a `StructuralReinterpretation` use, receive the exact A.6.4 arrow r and q, a C.2.1 bounded-use assertion about r. q's ClaimGraph states the invariant, visible loss, named receiving use, conditions, and affirmative or negative polarity. A.20 opens only when that exact proposition is the named internal constraint. The separate A.6.4 current-case judgement compares exact current facts with q and returns `satisfies`, `fails`, or `cannot decide`; it is not the A.20 result. If an actual operation application is also current, identify and test it separately.
 
-A.20 does not equate `EntityOfConcernRef` with a Bridge, require `KindBridge`, demand a UTS row, or require an isomorphism, lens, reverse `put`, Put-Get law, or Get-Put law. The proposition in q can satisfy its declared constraint when the stated invariant and loss boundary hold for that use; this result neither reidentifies r nor records an application.
+A.20 returns only a `ConstraintValidityResult` for that named internal constraint. That result may enter the case basis for the separate A.6.4 current-case judgement; the exact current facts remain separate, and the result reidentifies neither r nor q and records no application. It leaves `EntityOfConcernRef` as an entity reference and adds no `KindBridge` or UTS row. An isomorphism or lens, including reverse `put` and Put-Get or Get-Put laws, enters only as a separately current reversibility claim under its own governor.
 
 Use F.9 separately only when the current claim also needs an obtaining semantic correspondence between two exact F.17 local senses. Keep its bounded-use claim, optional `CL`, evidence, and reliance separate; A.20 creates none of them.
 

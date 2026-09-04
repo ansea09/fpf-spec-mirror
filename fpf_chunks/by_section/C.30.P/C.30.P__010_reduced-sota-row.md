@@ -6,12 +6,12 @@ section_id: "C.30.P:7"
 section_title: "Reduced SoTA row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__010_reduced-sota-row.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:7 — Reduced SoTA row"
-line_start: 60248
-line_end: 60261
+line_start: 60240
+line_end: 60253
 dependencies:
   - "A.10"
   - "A.15"

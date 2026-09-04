@@ -6,12 +6,12 @@ section_id: "G.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__010_forces.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:3 — Forces"
-line_start: 103522
-line_end: 103530
+line_start: 103514
+line_end: 103522
 dependencies:
   - "C.11"
   - "C.18"

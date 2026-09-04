@@ -6,12 +6,12 @@ section_id: "A.6.S:4"
 section_title: "Solution - start with the direct move; add a ConstructorSignature for named reuse"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__006_solution-start-with-the-direct-move-add-a-constructorsignature-for-named-reuse.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:4 — Solution - start with the direct move; add a ConstructorSignature for named reuse"
-line_start: 20889
-line_end: 20986
+line_start: 20879
+line_end: 20976
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -95,13 +95,13 @@ When more than one distinction is current, classify each move separately rather 
 
 
 4. **Epistemic retargeting and structural reinterpretation (A.6.4; rarer).**
-   Use only when `EntityOfConcernRef` itself changes. A.6.4 identifies the source and receiving epistemes and one exact arrow r; a separate use assertion q states the invariant, visible loss, bounded use, conditions, support, and polarity. This is distinct from an ordinary new edition of the same TargetSignature.
+   Use only when `EntityOfConcernRef` itself changes. A.6.4 identifies the source and receiving epistemes and one exact arrow `r`. A separate C.2.1 bounded-use assertion `q` is about that exact `r`; its ClaimGraph contains the invariant, visible loss, named receiving use, conditions, and affirmative or negative polarity. A separate current-case judgement compares the exact facts with `q` and returns exactly `satisfies`, `fails`, or `cannot decide`; `cannot decide` names the missing fact and reopen condition. This is distinct from an ordinary new edition of the same TargetSignature.
 
 Rule of thumb:
 
 * If only presentation changes, use the direct E.17/A.6.3 view account and stop; no slot/base declaration is required unless another receiving use needs it.
 * If the change is “new TargetSignature edition for consumers”, require a new edition plus explicit reference retargeting.
-* If the change is a different EntityOfConcern, use A.6.4 for the exact arrow r and a separate q that states the invariant, visible loss, bounded use, conditions, support, and polarity. A kind difference alone identifies neither r nor q.
+* If the change is a different EntityOfConcern, use A.6.4's three-part account: the exact arrow `r`, a separate C.2.1 bounded-use assertion `q`, and a separate current-case judgement. A kind difference alone identifies none of them.
 
 **EFEM discipline.**
 When a constructor operation really uses an A.6.2 arrow family, declare its endpoint comparison and `entityOfConcernChangeMode` under A.6.2. An operation description that needs no mathematical arrow introduces none.
@@ -120,8 +120,8 @@ If a team represents actual signature-construction Work as an E.18 `Transformati
 
 * Declared constructor arrows may appear at transformation-flow loci as independently defined A.6.2 values over signature epistemes. An actual operation application and any performed Work remain separately identified.
 * Concrete carrier writes (commits, releases, registry writes, and carrier and source-currentness pinning) are performed-Work loci or Work occurrences identified with A.15 and A.15.1 after each exact actual performer is recovered through A.13. Use A.2 for any separate local system-role classification. Add A.2.1 and F.6 only when the receiving flow account expressly consumes the assignment under which a performer acted; missing or failed attribution leaves the carrier-write Work intact. Use A.10 for evidence and provenance, E.17 for publication, and the relevant carrier patterns for carriers. None of these values is a constructor operation.
-* Validation and admission checks are gate/check loci governed by A.21, with `OperationalGate(profile)`, `GateProfile`, `GateCheckRef`, `GateDecision`, and `DecisionLogRef` named when a gate-decision relation is present.
-* Any `EntityOfConcernRef` change routes to A.6.4: identify the exact arrow r and separate q, then let E.18 place them only when a transformation-flow use is current. A kind change without that basis supplies no positive claim, and any actual operation application remains separate.
+* Validation and admission checks are gate/check loci governed by A.21. When an actual decision is present, name its exact `GateDecisionResult`, bounded action, applicable `GateProfile` application, complete required `GateCheckApplicationResult` set, decision value, consequence, scope/window, and recheck condition. Use a short `GateCheckRef` only when a selected publication structure needs one, and a `DecisionLog` only when audit or reuse is current.
+* Any `EntityOfConcernRef` change routes to A.6.4: identify the exact arrow `r`, separate bounded-use assertion `q`, and any separate current-case judgement, then let E.18 place each only when that transformation-flow use is current. A kind change without that basis supplies no positive claim, and any actual operation application remains separate.
 
 This mapping is optional. A one-off revision needs neither an E.18 flow nor a ConstructorSignature. When a flow is current, use E.18 for its structure, C.29 for any graph or path representation, and A.6.S only for the TargetSignature and any independently justified ConstructorSignature and operation declarations.
 

@@ -6,12 +6,12 @@ section_id: "B.2.2:5.4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__008_bias-annotation.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:5.4 — Bias-Annotation"
-line_start: 38845
-line_end: 38854
+line_start: 38836
+line_end: 38845
 dependencies:
   - "A.1"
   - "A.10"

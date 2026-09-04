@@ -6,12 +6,12 @@ section_id: "E.15:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__012_sota-echoing.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:11 — SoTA-Echoing"
-line_start: 81115
-line_end: 81129
+line_start: 81107
+line_end: 81121
 dependencies:
   - "C.18"
   - "C.19"

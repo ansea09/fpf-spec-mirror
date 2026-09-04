@@ -6,12 +6,12 @@ section_id: "C.33:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__001_intro.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:intro — Intro"
-line_start: 66925
-line_end: 66930
+line_start: 66917
+line_end: 66922
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

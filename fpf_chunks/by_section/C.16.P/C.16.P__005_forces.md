@@ -6,12 +6,12 @@ section_id: "C.16.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__005_forces.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:3 — Forces"
-line_start: 48427
-line_end: 48437
+line_start: 48418
+line_end: 48428
 dependencies:
   - "A.10"
   - "A.15"

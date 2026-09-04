@@ -6,12 +6,12 @@ section_id: "A.20:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__007_worked-cases.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:5 — Worked cases"
-line_start: 35078
-line_end: 35093
+line_start: 35069
+line_end: 35084
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,5 +43,5 @@ If the same implementation returns 297.15 K for 25 °C, the formula constraint i
 
 #### A.20:5.3 - Lossy retargeting
 
-Suppose an A.6.4 arrow r relates an episteme about a detailed equipment classification to one about three maintenance classes. A separate q claims that the receiving classes preserve the maintenance action selected for every source case and allows loss of manufacturer-specific distinctions for that use. A.20 tests the exact proposition in q on the stated cases. It needs no reverse mapping. If the case support establishes the invariant and keeps loss within the boundary, the result is `satisfied`; otherwise it is `violated` or `unknown`. Any operation that produced the receiving episteme remains separate.
+Suppose an A.6.4 arrow r relates an episteme about a detailed equipment classification to one about three maintenance classes. A separate q affirmatively states that the receiving classes preserve the maintenance action selected for every source case under named conditions and allows loss of manufacturer-specific distinctions for that use. Because that exact proposition is the named internal constraint here, A.20 tests it on the stated cases. No reverse mapping is part of that constraint. Exact facts that establish the invariant and keep loss within the boundary yield the A.20 outcome `satisfied`; a counterexample yields `violated`; a missing deciding fact yields `unknown`. The separate A.6.4 current-case judgement then compares all exact current facts with q's conditions and proposition and reports `satisfies`, `fails`, or `cannot decide`; the A.20 outcome does not replace it. Any operation that produced the receiving episteme remains separate.
 

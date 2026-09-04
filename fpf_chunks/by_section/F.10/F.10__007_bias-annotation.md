@@ -6,12 +6,12 @@ section_id: "F.10:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__007_bias-annotation.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:6 — Bias-Annotation"
-line_start: 96584
-line_end: 96595
+line_start: 96576
+line_end: 96587
 dependencies:
   - "A.10"
   - "A.15.1"

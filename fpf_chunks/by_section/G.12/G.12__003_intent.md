@@ -6,12 +6,12 @@ section_id: "G.12:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__003_intent.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:1 — Intent"
-line_start: 106832
-line_end: 106841
+line_start: 106824
+line_end: 106833
 dependencies:
   - "A.19"
   - "A.2.6"

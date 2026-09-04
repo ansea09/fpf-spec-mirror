@@ -6,12 +6,12 @@ section_id: "A.6.C:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__005_solution.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:4 — Solution"
-line_start: 11872
-line_end: 11979
+line_start: 11888
+line_end: 11996
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,16 +41,19 @@ keywords:
   - "a mechanism entry predicate enters A"
   - "an individual duty"
   - "and SHOULD NOT enter D for a generic prescription or"
+  - "and an actual A.21 GateDecisionResult"
   - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
   - "commitment or grant"
   - "dated Work"
   - "description and publication"
+  - "exercise"
   - "four-question contract lens"
   - "gate"
   - "not ontology or quadrant selectors. MUST"
   - "obtaining versus representation"
+  - "or evaluated finding enters E. If the wording does not expose the branch and direct object"
   - "or prohibition. MAY"
   - "promise content"
   - "recommendation-as-duty"
@@ -66,7 +69,7 @@ A.6.C introduces a four-question boundary-language lens. It interprets and rewri
 
 #### A.6.C:4.1 — Four questions for contract-like boundary wording
 
-Whenever a text uses “contract”, “guarantee”, “promise”, “SLA”, or “interface agreement”, ask the four questions below. A question may yield zero, one, or several atomic Claim Register rows; the question itself is not a bundle part or direct-object kind.
+When “contract”, “guarantee”, “promise”, “SLA”, or “interface agreement” leaves a consequential ambiguity, ask only the live questions below. A question may yield zero, one, or several atomic claims and, when stable reuse needs the Claim Register, corresponding rows; the question itself is not a bundle part or direct-object kind.
 
 1. **What was promised?**
 
@@ -114,37 +117,38 @@ After unpacking, classify each **atomic** statement using the Boundary Norm Squa
   * Put “eligible, covered, or valid iff …” predicates as **A** (`A-*` admissibility or gate predicates), not as deontic obligations.
 * **Governance and permission-looking claims → claim-specific quadrant.**
   * Put a generic contract, SLA, protocol, or policy prescription in **D** as a claim about its exact normative source and applicable rule content. Put an individual-duty claim in **D** only when it cites an exact separately obtaining `U.Commitment` under A.2.8; do not use a completed record as the relation.
-  * For authority-looking wording, select one A.6 `A6-AW-*` row: norm/grant → **D**, gate → **A**, and actual exercise or evaluated finding/conflict/source → **E**. Cite the exact A.2.8.PER object only where that row requires it; the selected subject pattern or kind of direct object does not choose the sentence's quadrant.
+  * For authority-looking wording, select one A.6 `A6-AW-*` row: norm/grant → **D**, mechanism entry predicate → **A**, and an actual A.21 `GateDecisionResult`, exercise, evaluated finding/conflict, or source observation → **E**. Split a predicate and an actual gate result into separate atomic claims. Cite the exact A.2.8.PER object only where that row requires it; the selected subject pattern or kind of direct object does not choose the sentence's quadrant.
   * If a generic prescription or individual duty requires satisfying or enforcing a gate, its `D-*` claim **MUST** reference the relevant `A-*` ID(s) (D→A).
   * If reliance on either D branch needs evidence, cite the relevant `E-*` claim or evidence-use relation (D→E); for the individual branch, a `CommitmentAssertion` may carry that reference. Evidence does not make `U.Commitment` obtain.
 * **Performed Work → E (did it happen?).**
-  * Name the exact A.15.1 Work occurrence and its performer, assignment, method, extent, and containing system. Do not add an output or delivery field.
+  * Name the exact A.15.1 Work occurrence and its performer, Method, extent, and containing System. Add an assignment reference and F.6 only when the claim or a receiving use consumes precise assignment-bound attribution; do not add an output or delivery field.
 * **Result or consequence → E when current (what else happened?).**
   * Use the one applicable `A.15.1:4.6` predicate and exact subject assertion for the returned value, production, change, evaluation result, delivery/transfer, or acceptance claim; retain its pattern only as a locator.
 * **Evidence → E when relied on (how can the claim be used?).**
   * Name the exact A.10 path, observation conditions, and carrier for the Work or consequence claim being supported. Carrier presence establishes none of those objects.
 **Keyword placement rule (canonical claim set).**
-Within the canonical L-, A-, D-, or E-classified claim set, BCP-14 keywords are statement operators, not ontology or quadrant selectors. `MUST`, `MUST NOT`, `SHOULD`, and `SHOULD NOT` enter D for a generic prescription or, when separately instituted for an actual bearer, an individual duty, recommendation-as-duty, or prohibition. `MAY`, `OPTIONAL`, and authority-looking synonyms trigger the A.6 `A6-AW-*` branch: a current norm or grant enters D, a mechanism entry predicate enters A, and an actual exercise or evaluated finding enters E. If the wording does not expose the branch and direct object, rewrite it or mark it informative.
+Within the canonical L-, A-, D-, or E-classified claim set, BCP-14 keywords are statement operators, not ontology or quadrant selectors. `MUST`, `MUST NOT`, `SHOULD`, and `SHOULD NOT` enter D for a generic prescription or, when separately instituted for an actual bearer, an individual duty, recommendation-as-duty, or prohibition. `MAY`, `OPTIONAL`, and authority-looking synonyms trigger the A.6 `A6-AW-*` branch: a current norm or grant enters D, a mechanism entry predicate enters A, and an actual A.21 `GateDecisionResult`, exercise, or evaluated finding enters E. If the wording does not expose the branch and direct object, rewrite it or mark it informative.
 
 A helpful rewrite rule:
 
-> First recover what “allowed” asserts by selecting one A.6 `A6-AW-*` row. Put only the current norm/grant in D, the entry predicate in A, and actual exercise or evaluated findings in E; cite each direct object and source. The word and A.2.8.PER membership select neither quadrant nor obtaining.
+> First recover what “allowed” asserts by selecting one A.6 `A6-AW-*` row. Put only the current norm/grant in D, the entry predicate in A, and an actual A.21 `GateDecisionResult`, exercise, or evaluated finding in E; cite each direct object and source. The word and A.2.8.PER membership select neither quadrant nor obtaining.
 
 #### A.6.C:4.3 — “Guarantee” disambiguation
 
 Treat “guarantee” as ambiguous until classified:
 
 * **Semantic guarantee** → **L** (“by definition or invariant”).
+* **Runtime-entry guarantee** → **A** (“the mechanism admits this application iff …”).
 * **Governance guarantee** → **D** (“provider commits or implementer must”).
-* **Operational guarantee** → **E** (measured property with evidence expectations; optionally referenced by D as the adjudication target).
+* **Operational result** → **E** (the exact Work, evaluation, or observation and its measured or evaluated result; add an A.10 evidence path and exact carrier when the receiving decision relies on that support).
 
 If none of these fits, the statement is likely rhetorical and should be rewritten or explicitly marked as aspirational or informative.
 
 #### A.6.C:4.4 — MVPK faces are not second contracts
 
-The atomic claims grouped for one boundary use live in one canonical A.6.B Claim Register set; the four-question lens creates no parallel claim set. Publication faces are **views** of that set under viewpoints:
+The atomic claims grouped for one boundary use live in one canonical A.6.B Claim Register set; the four-question lens creates no parallel claim set. Publication faces present that set for a bounded reader/use under E.17:
 
-* Faces may **select, summarize, and render** claims for audiences.
+* Faces may **select, summarize, and render** claims for audiences. A selected episteme's `U.View` membership separately requires E.17.0 conformance to an exact viewpoint.
 * Faces must not introduce a new commitment or any new object or claim selected through `A6-AW-*`; they project the existing classified claim.
 * Any face-level decision-relevant or normative-looking statement **SHOULD** cite the underlying claim ID(s). If it cannot be traced to claim IDs, it **MUST** be explicitly presented as informative commentary.
 
@@ -158,7 +162,7 @@ This prevents faces from becoming “second contracts” by paraphrase drift.
 
 #### A.6.C:4.5 — A.6.B Claim Register additions (recommended)
 
-Use the **A.6.B Claim Register** (IDs, statements, quadrant, and canonical location). Add the following A.6.C fields without minting another record or ontology kind:
+When stable reuse, decision, audit, dispute, or cross-face projection needs a record, use the **A.6.B Claim Register** (IDs, statements, quadrant, and canonical location). A one-off local repair ends with the repaired atomic prose. When the register is needed, add only the current A.6.C fields below without minting another record or ontology kind:
 
 * `bundleId` (optional local ID grouping atomic claims discussed together)
 * `questionRef` (optional pointer `Q1`, `Q2`, `Q3`, or `Q4` to the four questions above; it selects no kind, subject predicate, or quadrant)

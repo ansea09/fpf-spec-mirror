@@ -6,12 +6,12 @@ section_id: "A.19.CPM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__006_solution.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:4 — Solution"
-line_start: 34188
-line_end: 34311
+line_start: 34178
+line_end: 34301
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -120,22 +120,22 @@ This is the canonical `U.Mechanism.Intension` for `CPM.IntensionRef`. It is inte
   * Applicable only when `CGSpecSlot` supplies the current admissibility and evidence-policy declarations. Missing declarations fail closed.
   * Inside the CHR suite, `A.19.CHR:4.5` alone determines stage ordering and optionality; CPM does not infer order from `mechanisms[]`.
   * Every actual comparison binds one exact `U.ClaimScope`, selected A.2.6 `U.ContextSlice` members, optional A.19 predicate, effective reference plane, and explicit evaluation point or interval. There is no implicit latest value and no default window inherited from the predicate.
-  * Cross-reference-scheme or cross-plane use requires an explicit F.9 Bridge. The Bridge does not supply claim scope, selected slices, predicate, comparator, or evaluation time.
+  * When a comparison relies on a semantic relation between two exact F.17 `SchemeSenseCell` values, test the F.9 `BridgePredicateProfile`, cite the Bridge only when its direct predicate obtains, and state a separate C.2.1 bounded-use claim. If the predicate is false or unresolved and that semantic relation is required, `CompareEligibility` cannot be `pass`; follow the declared `degrade` policy when applicable, otherwise `abstain`. A plane-only crossing instead cites the applicable ReferencePlane relation and policy. If both facts are current, state both under their own predicates. Neither branch supplies claim scope, selected slices, predicate, comparator, or evaluation time.
 
-* **Neighboring bridge relation:**
+* **Neighboring F.9 Bridge, C.2.1 bounded-use claim, and ReferencePlane relation and policy:**
 
-  When the two profiles require interpretation across reference schemes or planes, state the F.9 bridge relation separately. Name its exact endpoints, preserved and lost comparison meaning, applicable use, CL value, and any `R_eff` penalty. Adding or changing that bridge does not by itself change the CPM declaration.
+  When profiles require interpretation across different semantic contexts, resolve the two exact F.17 `SchemeSenseCell` endpoints and test one F.9 `BridgePredicateProfile`. For an obtaining Bridge, state its exact endpoints and profile separately, then state suitability for the named comparison use in a C.2.1 assertion whose EntityOfConcern is that Bridge and whose ClaimGraph carries `<u,d,r,t>` and polarity. Include `CL` or an observed-loss note only when the receiving use consumes it; permitted loss remains `t` in the bounded-use claim. For a ReferencePlane crossing, cite the applicable plane relation and policy separately. Open A.10 only when bounded reliance is current and B.3 only when an actual named assurance claim is current. If that assurance argument consumes a locally declared `R_eff` calculation, cite its applicable domain model and calculation; neither the Bridge nor `CL` creates a penalty. Adding or changing any of these neighboring facts does not by itself change the CPM declaration.
 
 * **Neighboring dated work, operation application, result binding, and evidence relations:**
 
-  A dated comparison run is `A.15.1 U.Work`. Its actual A.6.1 `Compare` application binds the profile pair, comparator, comparison-use arguments, policies, and set-valued `ComparisonResultSlot`. A.2.4 separately governs evidence use with its own evidence claim scope and relevance window; A.10 governs provenance; G.11 governs source or assertion-edition currentness. A durable result episteme, when needed, is governed by C.2.1, and any current entity-identity inception claim by A.15.PROD. No universal work-result or comparison-result relation is presumed. To replay the comparison, recover:
+  A dated comparison run is `A.15.1 U.Work`. Its actual A.6.1 `Compare` application binds the profile pair, comparator, comparison-use arguments, policies, and set-valued `ComparisonResultSlot`. A.2.4 separately governs evidence use with its own evidence claim scope and relevance window; A.10 governs the evidence-provenance path and local `RelianceDisposition` for the same bounded use; G.11 governs source or assertion-edition currentness. A durable result episteme, when needed, is governed by C.2.1, and any current entity-identity inception claim by A.15.PROD. No universal work-result or comparison-result relation is presumed. To replay the comparison, recover:
 
   * the two profile values or exact upstream refs, one `U.ClaimScope`, selected A.2.6 context slices, optional A.19 predicate, effective reference scheme and plane, and evaluation point or interval;
   * `CNSpecRef.edition`, `CGSpecRef.edition`, and the effective `ComparatorSpecRef`;
   * the effective MinimalEvidence policy, either the explicit override or `CGSpecSlot.MinimalEvidence`;
   * the realized `GuardDecision` and, for `degrade` or `abstain`, any current downstream-handling policy;
   * the effective upstream normalization dependency, or the explicit absence that caused degradation or abstention;
-  * the comparison result and any bridge, CL, and ReferencePlane refs used by this occurrence.
+  * the comparison result; any obtaining F.9 `Bridge` and separate C.2.1 bounded-use-claim refs actually consumed by this occurrence; any optional `CL` or observed-loss-note ref actually used; any applicable ReferencePlane relation and policy refs; and, only when the comparison consumes an actual named assurance claim, that claim's B.3 `AssuranceResult` and declared domain-model and calculation refs.
 
   Use G.9 when a parity or benchmark use requires a stable run package and report record. These neighboring records support replay; none is CPM declaration content.
 

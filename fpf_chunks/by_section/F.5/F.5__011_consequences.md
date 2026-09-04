@@ -6,12 +6,12 @@ section_id: "F.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__011_consequences.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:9 — Consequences"
-line_start: 94480
-line_end: 94498
+line_start: 94472
+line_end: 94490
 dependencies:
   - "A.10"
   - "A.15"

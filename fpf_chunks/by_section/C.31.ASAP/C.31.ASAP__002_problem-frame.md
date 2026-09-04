@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__002_problem-frame.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:1 — Problem frame"
-line_start: 63139
-line_end: 63170
+line_start: 63131
+line_end: 63162
 dependencies:
   - "A.1.1"
   - "A.10"

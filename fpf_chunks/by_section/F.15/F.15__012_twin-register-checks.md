@@ -6,12 +6,12 @@ section_id: "F.15:10"
 section_title: "Twin-register checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__012_twin-register-checks.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:10 — Twin-register checks"
-line_start: 97975
-line_end: 97993
+line_start: 97967
+line_end: 97985
 dependencies:
   - "A.1.1"
   - "A.10"

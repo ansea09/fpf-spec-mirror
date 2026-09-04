@@ -6,12 +6,12 @@ section_id: "C.2.LS:18"
 section_title: "Review Matrix and Migration Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__019_review-matrix-and-migration-tests.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:18 — Review Matrix and Migration Tests"
-line_start: 44183
-line_end: 44199
+line_start: 44174
+line_end: 44190
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "G.8:14"
 section_title: "Author’s quick checklist (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__015_author-s-quick-checklist-informative.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:14 — Author’s quick checklist (informative)"
-line_start: 105415
-line_end: 105429
+line_start: 105407
+line_end: 105421
 dependencies:
   - "A.10"
   - "A.21"

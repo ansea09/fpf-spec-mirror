@@ -6,12 +6,12 @@ section_id: "A.19.UNM:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__008_bias-annotation.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:6 — Bias‑Annotation"
-line_start: 33085
-line_end: 33094
+line_start: 33075
+line_end: 33084
 dependencies:
 keywords:
   - "CV→NCV"

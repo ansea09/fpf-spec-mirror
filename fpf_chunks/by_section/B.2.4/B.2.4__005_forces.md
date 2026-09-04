@@ -6,12 +6,12 @@ section_id: "B.2.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__005_forces.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:3 — Forces"
-line_start: 39168
-line_end: 39177
+line_start: 39159
+line_end: 39168
 dependencies:
   - "A.10"
   - "A.15"

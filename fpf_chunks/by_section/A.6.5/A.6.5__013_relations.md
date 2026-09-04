@@ -6,12 +6,12 @@ section_id: "A.6.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__013_relations.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:12 — Relations"
-line_start: 19529
-line_end: 19544
+line_start: 19550
+line_end: 19565
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -32,7 +32,7 @@ keywords:
 - `A.6.REL` defines explicit relation-occurrence individuation and the progressive threshold for stable reference.
 - `A.6.P` and `A.6.RSIR` recover the direct relation and its participants before slot typing begins.
 - Use `A.2.1` for each direct system-role-assignment species' predicate, identity, and participant meanings, and A.6.5 for the exact SlotSpec reading of that species' declaration.
-- `C.2.1` defines episteme identity, assertion and description content, and their semantic fields. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant.
+- `C.2.1` defines episteme identity, assertion and description content, and their semantic fields; A.6.5 §4.2 gives the declaration and C.29 correspondence routes by which such fields receive relation semantics while field, SlotSpec, designation, and actual participant remain distinct.
 - `C.3` and `C.3.1` define local participant kinds only when typed quantification or kind order is current.
 - `A.15.3` may cite an exact RelationSignature SlotSpec for a planned participant designation; A.15.2/A.15.3 define the planned claim, the direct-relation definition supplies the participant meaning and later actual-participation predicate, and A.6.5 supplies only SlotSpec declaration discipline. Operation arguments and results remain A.6.1 declarations.
 - `A.15.1` and `A.3.1` define the constructive holonhood and identity of Work and Methods; `A.3.4` defines the actual-bounded-change identity of transformations; `E.18` defines selected transformation-flow structures over those independently defined transformations and adjacent loci.

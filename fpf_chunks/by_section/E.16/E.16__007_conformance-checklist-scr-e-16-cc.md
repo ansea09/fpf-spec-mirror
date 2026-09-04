@@ -6,12 +6,12 @@ section_id: "E.16:6"
 section_title: "Conformance Checklist (SCR - E.16-CC)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__007_conformance-checklist-scr-e-16-cc.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:6 — Conformance Checklist (SCR - E.16-CC)"
-line_start: 81320
-line_end: 81331
+line_start: 81312
+line_end: 81323
 dependencies:
   - "A.10"
   - "A.13"

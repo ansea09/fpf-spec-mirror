@@ -6,12 +6,12 @@ section_id: "G.9:End"
 section_title: "G.9:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__016_g-9-end.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:End — G.9:End"
-line_start: 105977
-line_end: 105978
+line_start: 105969
+line_end: 105970
 dependencies:
   - "A.19"
   - "A.2.6"

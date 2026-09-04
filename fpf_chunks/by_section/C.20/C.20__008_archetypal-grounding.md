@@ -6,12 +6,12 @@ section_id: "C.20:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__008_archetypal-grounding.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:5 — Archetypal Grounding"
-line_start: 51224
-line_end: 51275
+line_start: 51216
+line_end: 51267
 dependencies:
   - "A.1"
   - "A.14"
@@ -91,7 +91,7 @@ They do not yet establish which exact entities are field constituents, any `disc
 
 #### C.20:5.3 - Cross-field reuse does not create a transdiscipline
 
-A safety-engineering team reuses one resilience-engineering term. F.9 identifies the two exact local senses and an obtaining directed Bridge. A separate bounded-use proposition states the direction, mapping rule, tolerated loss, and polarity for this hazard-review use. Exact review Work may rely on that proposition through A.10, and a comparison may apply A.19.CPM.
+A safety-engineering team proposes to reuse one resilience-engineering term. F.17 resolves the two exact `SchemeSenseCell` values, and their semantic-context projections differ. The stated directed `BridgePredicateProfile` applies to those endpoint readings at its stated as-of basis; the current endpoint meanings satisfy its relation-kind-specific semantic condition and Boolean truth condition; and all required dependencies are present. F.9 therefore identifies an obtaining directed Bridge. A separate bounded-use proposition states the direction, mapping rule, tolerated loss, and polarity for this hazard-review use. Exact review Work may rely on that proposition through A.10, and a comparison may apply A.19.CPM.
 
 These facts establish no `disciplinePartOf` occurrence and no new discipline. Calling the work transdisciplinary requires a declared classification criterion. Claiming one new integrated discipline requires another exact candidate and all six C.20 construction components; one Bridge, two labels, or two selected structures cannot supply them.
 

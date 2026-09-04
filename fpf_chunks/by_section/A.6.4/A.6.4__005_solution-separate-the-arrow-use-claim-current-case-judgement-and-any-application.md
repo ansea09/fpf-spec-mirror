@@ -6,12 +6,12 @@ section_id: "A.6.4:4"
 section_title: "Solution — separate the arrow, use claim, current-case judgement, and any application"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__005_solution-separate-the-arrow-use-claim-current-case-judgement-and-any-application.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:4 — Solution — separate the arrow, use claim, current-case judgement, and any application"
-line_start: 15753
-line_end: 15859
+line_start: 15774
+line_end: 15880
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,9 +61,9 @@ The smallest useful practitioner account still asks six cheap questions:
 | What do those facts show? | `satisfies`, `fails`, or `cannot decide` |
 | If the case cannot be decided, what is missing? | the exact missing fact and reopen condition |
 
-These answers may be one short paragraph; they require no new record form or assurance package. Add preserved or withdrawn commitment lists, predicate changes, grounding, scheme, scope, operating conditions, viewpoint selections, evidence, currentness, or a durable result only when they change the proposition, judgement, or receiving action. Add an F.9 Bridge only when the same case separately claims a semantic relation between two exact F.17 local senses.
+These answers may be one short paragraph; they require no new record form or assurance package. Add a separately governed commitment change, neighboring claim, or durable result only when it changes q, the judgement, or the receiving action; ER-1 and CC-A.6.4-5 name the values to inspect. Add an F.9 Bridge only when the same case separately claims a semantic relation between two exact F.17 local senses.
 
-When the judgement is `fails`, do not use an affirmative q as support for that case. When it is `cannot decide`, keep the source material, name the exact missing fact and what would reopen the question, and stop. Failure of an affirmative q does not by itself establish a negative q; a negative assertion needs its own claim content and case basis.
+When the judgement is `fails`, retain the affirmative q as the stated proposition but do not admit that case. When it is `cannot decide`, keep the source material, name the exact missing fact and what would reopen the question, and stop. Failure of an affirmative q does not by itself establish a negative q; a negative assertion needs its own claim content and case basis.
 
 #### A.6.4:4.2 - Formal declaration and object boundaries
 
@@ -78,7 +78,7 @@ Applicability   = selected formal substrate and endpoint and arrow-family condit
 
 `X` and `Y` are exact C.2.1 epistemes. `r : X -> Y` is one local mathematical arrow under C.29. Its identity uses the exact endpoints, arrow rule or designator, and the selected substrate's equivalence criterion; the endpoints alone do not identify it. The declaration states which parts of X and Y's claim content, exact EntityOfConcern, and effective ReferenceScheme remain the same or differ. If r's rule reads a representation or another separately obtaining relation, it names the exact occurrence and compares endpoint facts without changing that occurrence.
 
-A.6.4 reuses the one A.6.2 formal model: category `Ep`, endpoint-only thin category `EoCBase`, `dom`, `cod`, identities, `compose`, and the declared mapping `α`. For retargeting arrow r, `α(r)=u_{α(X),α(Y)}` is the unique formal endpoint arrow between the independently different EntitiesOfConcern. It records only that endpoint difference and deliberately forgets r's arrow rule; it is not an independently declared domain or world-side relation. The local characteristic `entityOfConcernChangeMode(r)=retarget` records the same endpoint difference. No function evaluation or second retargeting calculus is implied.
+A.6.4 reuses the one A.6.2 formal model: category `Ep`, endpoint-only thin category `EoCBase`, `dom`, `cod`, identities, `compose`, and the declared mapping `α`. For retargeting arrow r, `α(r)=u_{α(X),α(Y)}` is the unique formal endpoint arrow between the independently different EntitiesOfConcern. It records only that endpoint difference and deliberately forgets r's arrow rule; it is not an independently declared domain or world-side relation. The local classification function `entityOfConcernChangeMode` returns `retarget` for r and records the same endpoint difference. It classifies only the endpoint-change mode; it adds no domain-function evaluation or second retargeting calculus.
 
 The bounded-use assertion q, current-case judgement, and any application occurrence remain separate. Grounding, representation, an F.9 Bridge, evidence, publication, Work, gate, currentness, and assurance also remain separate objects or claims under their direct patterns. Add A.6.5 SlotSpecs only inside an exact reusable direct-relation declaration; they are not fields of r, X, Y, or q.
 
@@ -99,9 +99,9 @@ An arrow `r : X -> Y` is in the local retargeting subtype only when X and Y are 
 
 **ER-2 - Separate use proposition and current-case judgement.**
 
-For each named receiving use, one separate C.2.1 assertion q affirmatively or negatively states whether the source claims conservatively support the declared invariant in the receiving episteme and whether the visible loss is acceptable under the named conditions. The same r may have different q assertions for different uses without changing arrow identity.
+For each named receiving use, one separate C.2.1 assertion q states an affirmative or negative proposition about whether the source claims preserve the declared invariant in the receiving episteme and whether the visible loss is acceptable under the named conditions. The same r may have different q assertions for different uses without changing arrow identity.
 
-A separate current-case judgement applies q to the exact current facts and returns `satisfies`, `fails`, or `cannot decide`. A direct fact, proof, test, or obtaining relation can supply the ordinary case basis. Open A.20 only for an internal-constraint claim, A.10 only for evidence use, and B.3 only for assurance or its material-reliance threshold. None identifies r, changes q's polarity, or turns `cannot decide` into support.
+A separate current-case judgement applies q to the exact current facts and returns `satisfies`, `fails`, or `cannot decide`. A direct fact, proof, test, or obtaining relation can enter the ordinary case basis through its own governor. Open A.20 only for an internal-constraint claim, A.10 only for evidence use, and B.3 only for assurance or its material-reliance threshold. Each retains its own identity; q's polarity stays as written, and `cannot decide` is reopened when its named missing fact becomes available.
 
 **ER-3 - Composition and separately claimed final use.**
 
@@ -132,13 +132,13 @@ A.6.4 is triggered only by an independently established change of exact EntityOf
 Boundary rules:
 - if the EntityOfConcern is preserved and the main change is representation scheme or reasoning medium, use `A.6.3.RT`;
 - if the EntityOfConcern is preserved and the main change is explanation mode, explanatory stance, or explanation-facing publication, use `E.17.EFP`;
-- if the same case also asserts a semantic relation between two exact local senses from different semantic contexts, test `F.9` separately and cite a Bridge only when its predicate obtains; use `F.9.1` only for an optional stance note about that already constituted use claim. A domain correspondence, mathematical rule, or direct case fact that supports q does not by itself open F.9;
+- if the same case also asserts a semantic relation between two exact local senses from different semantic contexts, test `F.9` separately and cite a Bridge only when its predicate obtains; use `F.9.1` only for an optional stance note about that already constituted use claim. A domain correspondence, mathematical rule, or direct case fact enters the current-case basis only through the exact claim established by its governor; that claim alone does not open F.9;
 - if a legacy consumer asks for `KindBridge`, `CL`, or a universal SquareLaw-retargeting witness without a current direct governor, stop at `missing-governor` rather than making that apparatus constitutive in A.6.4;
 - if the receiving item is useful only under narrower declared use with visible loss and source-bearing reopen, use `A.6.3.CSC`;
-- if decoded or latent output is interpretable but not tied to source claim, access relation, recoverability evidence, admissible-use value, and remaining reader action, keep it report-only, exploratory, source-bearing reopen, or in the named neighboring pattern;
 - if a `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is present, use `E.18`, `A.20`, or `A.21` for graph, path, constraint, and gate relations. Those references do not prove semantic continuity or retargeting admissibility by themselves;
-- if changed problem formulation changes abductive prompt, candidate generation, rival-set formation, selected prime hypothesis, plausibility filtering, or abductive reopen, use `B.5.2`;
-- if the receiving item is used as work, evidence, assurance, gate passage, temporal claim, dynamics law, or control relation, use `A.15`, `A.10`, `B.3`, `A.21`, `C.27`, `A.3.3`, or another pattern that defines or tests the current claim.
+- for decoded or latent output, use C.2.6 and C.2.7 for the anchoring mode and representation factors; keep the output report-only or exploratory until its exact source or model-state relation, decode or probe relation, recoverability evidence, admissible use, and source-return action are stated under their current governors;
+- B.5.2 governs changes within its abductive loop, including its prompt, candidate and rival sets, selected prime hypothesis, plausibility filtering, and reopen. Apply A.6.4 additionally only for an independently established EntityOfConcern change and bounded receiving use;
+- keep any other independently current claim under the pattern that defines or tests it; the Relations section names the main neighboring owners.
 
 A.6.4 defines arrow r, bounded-use assertion q, and the separate current-case judgement that E.18 may place at a `StructuralReinterpretation` locus. That placement identifies none of them and does not make the judgement `satisfies`.
 

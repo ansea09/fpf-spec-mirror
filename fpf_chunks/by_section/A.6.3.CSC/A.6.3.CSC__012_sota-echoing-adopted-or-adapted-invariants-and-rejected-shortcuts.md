@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:11"
 section_title: "SoTA-Echoing: Adopted Or Adapted Invariants And Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__012_sota-echoing-adopted-or-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:11 — SoTA-Echoing: Adopted Or Adapted Invariants And Rejected Shortcuts"
-line_start: 14466
-line_end: 14485
+line_start: 14485
+line_end: 14504
 dependencies:
   - "A.15"
   - "A.20"

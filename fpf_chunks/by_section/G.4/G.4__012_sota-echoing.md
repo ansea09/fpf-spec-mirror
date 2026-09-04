@@ -6,12 +6,12 @@ section_id: "G.4:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__012_sota-echoing.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:11 — SoTA-Echoing"
-line_start: 103322
-line_end: 103337
+line_start: 103314
+line_end: 103329
 dependencies:
   - "A.10"
   - "A.13"

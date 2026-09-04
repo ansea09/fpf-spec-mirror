@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.AD.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
-line_start: 59327
-line_end: 59792
+line_start: 59319
+line_end: 59784
 dependencies:
   - "A.1"
   - "A.10"

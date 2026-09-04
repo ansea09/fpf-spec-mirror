@@ -6,12 +6,12 @@ section_id: "A.6.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__003_problem-frame.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:1 — Problem frame"
-line_start: 20482
-line_end: 20500
+line_start: 20472
+line_end: 20490
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,7 +59,7 @@ keywords:
 
 Cross-context prose routinely compresses a multi-part claim into one adjective: *same*, *equivalent*, *align*, *map*, *matches*, or *corresponds*.
 
-First decide whether this is a Bridge situation at all. A positive F.9 case has two exact F.17 `SchemeSenseCell` endpoints whose `<ReferenceScheme, LocalSenseClaim>` projections differ, plus an applicable relation-semantic profile whose predicate is true for those cells. A label, id, system, mapping implementation, selected structure, card, or publication cannot substitute for those objects.
+First decide whether this is a Bridge situation at all. A positive F.9 case has two exact F.17 `SchemeSenseCell` endpoints whose `<ReferenceScheme, LocalSenseClaim>` projections differ, plus an applicable relation-semantic profile whose predicate is true for those cells. Labels, identifiers, systems, mapping implementations, selected structures, cards, and publications may help identify endpoints or support the predicate; none by itself supplies a resolved endpoint or makes the profile predicate true.
 
 If a Bridge obtains, several questions still remain independent:
 

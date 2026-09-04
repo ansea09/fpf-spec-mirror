@@ -6,12 +6,12 @@ section_id: "C.19.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__013_sota-echoing.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:11 — SoTA-Echoing"
-line_start: 51001
-line_end: 51011
+line_start: 50992
+line_end: 51002
 dependencies:
   - "A.15.1"
   - "A.15.2"

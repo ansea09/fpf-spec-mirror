@@ -6,12 +6,12 @@ section_id: "A.6.B:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__012_conformance-checklist.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:10 — Conformance Checklist"
-line_start: 11725
-line_end: 11736
+line_start: 11733
+line_end: 11744
 dependencies:
   - "A.10"
   - "A.2.3"

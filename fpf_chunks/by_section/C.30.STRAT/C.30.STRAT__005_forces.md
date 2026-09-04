@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__005_forces.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:3 — Forces"
-line_start: 60345
-line_end: 60354
+line_start: 60337
+line_end: 60346
 dependencies:
   - "A.10"
   - "A.15"

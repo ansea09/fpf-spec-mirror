@@ -6,12 +6,12 @@ section_id: "F.14:9"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__010_reasoning-primitives.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:9 — Reasoning primitives"
-line_start: 97601
-line_end: 97634
+line_start: 97593
+line_end: 97626
 dependencies:
   - "A.10"
   - "A.15.1"

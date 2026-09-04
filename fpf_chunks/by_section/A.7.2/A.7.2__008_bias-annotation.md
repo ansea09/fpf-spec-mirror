@@ -6,12 +6,12 @@ section_id: "A.7.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__008_bias-annotation.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:6 — Bias-Annotation"
-line_start: 22133
-line_end: 22138
+line_start: 22123
+line_end: 22128
 dependencies:
   - "A.10"
   - "A.7.1"

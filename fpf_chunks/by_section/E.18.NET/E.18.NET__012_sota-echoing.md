@@ -6,12 +6,12 @@ section_id: "E.18.NET:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__012_sota-echoing.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:11 — SoTA-Echoing"
-line_start: 87813
-line_end: 87827
+line_start: 87805
+line_end: 87819
 dependencies:
   - "A.1.STM"
   - "A.12"

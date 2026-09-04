@@ -6,12 +6,12 @@ section_id: "A.6.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__006_archetypal-grounding.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:5 — Archetypal Grounding"
-line_start: 13266
-line_end: 13371
+line_start: 13284
+line_end: 13389
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -73,9 +73,9 @@ A clinical team declares a dose-adjustment mechanism over one common patient sub
 
 Admission conditions state which measurements and qualification intervals make one calculation admissible. Applicability names the patient-population `U.ClaimScope`, qualification interval, selected `CHR:ReferencePlane` (normally `world` for the patient-side use claim), and clinical conditions under which the declaration is used.
 
-An exact claim-bearing clinical-protocol episteme is a `U.MethodDescription` only when it describes one admitted `U.Method` and satisfies A.3.2; its publication form and carrier remain separate. One clinician's treatment occurrence is work only when the A.15.1 occurrence basis obtains. Exact laboratory measurement values may be bound as arguments of one admitted calculation application, while the measurement and evidence relations that warrant their use remain separate. The returned dose-range binding does not say that the calculation produced or constituted the patient, prescription, or result episteme. None of those neighboring values becomes the mechanism episteme.
+An exact claim-bearing clinical-protocol episteme is a `U.MethodDescription` only when it describes one admitted `U.Method` and satisfies A.3.2; its publication form and carrier remain separate. One clinician's treatment occurrence is work only when the A.15.1 occurrence basis obtains. Exact laboratory measurement values may be bound as arguments of one admitted calculation application, while the measurement and evidence relations that warrant their use remain separate. The returned dose-range binding records only the range returned by that application. A prescription and any materialized result episteme require their own governing claims.
 
-Practical payoff: a changed protocol presentation or one anomalous treatment does not silently rewrite the declared calculation laws.
+Practical payoff: protocol presentation, one treatment occurrence, and the declared calculation laws can change independently.
 
 #### A.6.1:5.3 - Manufacturing: fixture selection
 
@@ -103,13 +103,13 @@ Practical payoff: the team can replace the implementation without turning a scal
 
 A.2.6 scope operations and A.19 normalization operations may use the `U.Mechanism` declaration shape when their direct patterns need reusable operations, laws, admission conditions, and typed results. A.2.6 and A.19 retain their domain semantics. A.6.1 supplies the declaration and realization distinctions; it does not redefine scope or comparison.
 
-Practical payoff: shared mechanism form does not create a second governing locus for scope or normalization meaning.
+Practical payoff: A.2.6 and A.19 remain the governing loci for scope and normalization meaning while reusing the mechanism declaration form.
 
 #### A.6.1:5.5 - Publication operations
 
 E.24.PUB may cite a mechanism declaration for operations that assemble, validate, and expose a publication package. The mechanism episteme declares those operations, laws, and admission conditions. The dated publication work, resulting publication use, information carrier, evidence, and currentness relations remain with their direct patterns.
 
-Practical payoff: reusable publication-operation semantics do not turn a released package or its carrier into the mechanism.
+Practical payoff: the declaration captures reusable publication-operation semantics while the released package and carrier retain their direct kinds.
 
 #### A.6.1:5.6 - Reduced ordinary use
 
@@ -132,7 +132,7 @@ The operation declares these meanings:
 | `interpretationBasis` argument | one exact separately identified episteme containing the selected interpretation basis, designated through a governed reference |
 | `recognitionJudgment` result | one value of the declaration-local finite `RecognitionJudgmentValue = {true, false, unknown}` |
 
-`RecognitionJudgmentValue` is one local finite `U.Kind` under C.3, used here as the operation's `RangedValueKind`; its membership rule admits exactly the three values shown. It is not a public U-kind, universal claim-status algebra, candidate state, evidence status, episteme-currentness value, or receiving-work disposition. The argument and result rows are A.6.1 declarations, not A.6.5 SlotSpecs.
+`RecognitionJudgmentValue` is one local finite `U.Kind` under C.3, used here as the operation's `RangedValueKind`; its membership rule admits exactly the three values shown. It is an operation-local kind, not a public U-kind or universal claim-status algebra. Candidate facts, evidence status, episteme-currentness values, and receiving-work dispositions use their direct kinds. The argument and result rows are A.6.1 declarations, not A.6.5 SlotSpecs.
 
 For this exact mechanism episteme, the declaration-local designation, cardinality, and binding predicates are:
 
@@ -152,7 +152,7 @@ For this mechanism episteme, `ApplicationPredicate(P)` holds only when bounded e
 
 For the worked case, `Pump37RecognitionApplication-2026-07-21T100000Z` designates the evaluation act that began at 10:00:00 and returned at 10:00:04. It used `Pump_37_Ref -> Pump_37 : U.Entity`, admitted kind `U.System`, `A1-Holons-Criterion-E1_Ref`, `Pump37-Construction-Facts-E1_Ref`, `Pump37-Reidentification-Rule-E1_Ref`, and `Pump37-Interpretation-Basis-E1_Ref`. The six argument-binding predicates have maximal continuous extents from 10:00:00 through the terminal return. A required fastening-relation fact could not be resolved during this act, so the bound values could determine neither satisfaction nor failure. The act returned `unknown`; the extent of `recognitionJudgmentReturned(Pump37RecognitionApplication-2026-07-21T100000Z, unknown)` is the terminal return event at 10:00:04 and does not begin earlier. The application did occur; Pump #37's world-side satisfaction or failure did not change; and `unknown` is not an admission refusal.
 
-If the project also claims that dated classification Work occurred, first recover the exact actual performer `S : U.System` through A.13 and let A.15.1 independently admit a separate Work occurrence `W` from its performance history, temporal extent, at least one obtaining `enactsMethod -> U.Method` relation, and at least one obtaining locally declared containing-system relation with its exact boundary. Add the same obtaining A.13 assignment `RA` and F.6 `performedUnderAssignment(W, RA)` only when this classification-work claim or its receiving use expressly consumes precise assignment-bound attribution; then check `S = RA.HolderSystemSlot` and assignment coverage. F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves `W` intact. The candidate application binding above can establish Pump #37's participation in the application; add a separate work-to-candidate or resource-use claim only when its declared predicate obtains, and add `workContinuityPolicyRef` only when an identity or segmentation question needs it. Any materialized classification-assertion or evaluation-result episteme remains under C.2.1. Evidence and assurance support or warrant its claim content through their own relations, and G.11 tests edition currentness. The result binding alone establishes none of Work, evidence, warrant, episteme identity, world-side criterion satisfaction, or B.2 whole reidentification.
+If the project also claims that dated classification Work occurred, first recover the exact actual performer `S : U.System` through A.13 and let A.15.1 independently admit a separate Work occurrence `W` from its performance history, temporal extent, at least one obtaining `enactsMethod -> U.Method` relation, and at least one obtaining locally declared containing-system relation with its exact boundary. Add the same obtaining A.13 assignment `RA` and F.6 `performedUnderAssignment(W, RA)` only when this classification-work claim or its receiving use expressly consumes precise assignment-bound attribution; then check `S = RA.HolderSystemSlot` and assignment coverage. F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves `W` intact. The candidate application binding above can establish Pump #37's participation in the application; add a separate work-to-candidate or resource-use claim only when its declared predicate obtains, and add `workContinuityPolicyRef` only when an identity or segmentation question needs it. Any materialized classification-assertion or evaluation-result episteme remains under C.2.1. Evidence and assurance support or warrant its claim content through their own relations, and G.11 tests edition currentness. That result binding records only the returned recognition judgment. Work and episteme identity, evidence and warrant, world-side criterion satisfaction, and B.2 whole reidentification each remain independently governed.
 
 Practical payoff: another evaluation can reuse the same typed operation while binding another candidate or basis, and evidence loss can change the returned value to `unknown` without rewriting the candidate or criterion.
 

@@ -6,12 +6,12 @@ section_id: "G.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__001_intro.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:intro — Intro"
-line_start: 101960
-line_end: 101977
+line_start: 101952
+line_end: 101969
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

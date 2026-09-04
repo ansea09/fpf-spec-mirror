@@ -6,12 +6,12 @@ section_id: "A.6.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__011_rationale.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:10 — Rationale"
-line_start: 13871
-line_end: 13891
+line_start: 13890
+line_end: 13910
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -42,7 +42,7 @@ This split mirrors how A.6.0 separates a declaration from what later uses it: C.
 
 **Why insist on EntityOfConcernChangeMode?**
 
-Because a relation can look like a harmless view even though its endpoint epistemes concern different entities—for example, component assembly and function bundle. Declaring `preserve` versus `retarget` exposes that endpoint distinction. It does not make the arrow fit for a use; the separate assertion must state the invariant, visible loss, bounded use, conditions, support, and polarity.
+Because a relation can look like a harmless view even though its endpoint epistemes concern different entities—for example, component assembly and function bundle. Declaring `preserve` versus `retarget` exposes that endpoint distinction. It does not make the arrow fit for a use: the separate `q` states the invariant, visible loss, receiving use, conditions, and polarity, and the current-case judgement separately tests the exact facts.
 
 **Why name actual values and exact relation reads instead of informal fields?**
 

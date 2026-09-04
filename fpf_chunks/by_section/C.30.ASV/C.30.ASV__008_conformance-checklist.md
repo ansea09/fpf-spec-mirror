@@ -6,12 +6,12 @@ section_id: "C.30.ASV:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__008_conformance-checklist.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:7 — Conformance Checklist"
-line_start: 61301
-line_end: 61318
+line_start: 61293
+line_end: 61310
 dependencies:
   - "A.1"
   - "A.10"

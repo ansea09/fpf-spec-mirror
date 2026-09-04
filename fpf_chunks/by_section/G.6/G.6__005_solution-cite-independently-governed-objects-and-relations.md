@@ -6,12 +6,12 @@ section_id: "G.6:4"
 section_title: "Solution — cite independently governed objects and relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__005_solution-cite-independently-governed-objects-and-relations.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:4 — Solution — cite independently governed objects and relations"
-line_start: 104305
-line_end: 104464
+line_start: 104297
+line_end: 104456
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "A.20:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__008_bias-annotation.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:6 — Bias annotation"
-line_start: 35094
-line_end: 35100
+line_start: 35085
+line_end: 35091
 dependencies:
   - "A.10"
   - "A.15"
@@ -34,5 +34,5 @@ keywords:
 - **Status bias.** A green field or class label can look like a result. Recover the constraint application and case.
 - **Gate bias.** A local constraint result can look like permission or release. Keep the gate decision separate.
 - **Checklist bias.** A familiar list can look universally required. Select only the constraints triggered by the actual subject and use.
-- **Formalism bias.** A reversible optic can look more rigorous than a lossy but adequate case. Test the exact proposition in q under its stated invariant and loss boundary instead of imposing a different model.
+- **Formalism bias.** A reversible optic can look more rigorous than a lossy but adequate case. When q's proposition is the named internal constraint, test that proposition under its stated invariant and loss boundary; keep any separately claimed reversibility relation under its own governor.
 

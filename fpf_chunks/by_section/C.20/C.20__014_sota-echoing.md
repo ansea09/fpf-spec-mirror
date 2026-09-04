@@ -6,12 +6,12 @@ section_id: "C.20:9.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__014_sota-echoing.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:9.1 — SoTA-Echoing"
-line_start: 51355
-line_end: 51365
+line_start: 51347
+line_end: 51357
 dependencies:
   - "A.1"
   - "A.14"
@@ -56,7 +56,7 @@ keywords:
 | Constructional-ontology work cited in A.1 and C.13 requires explicit constituents, constructive relations, assembly, dependence, and identity choices rather than an extensional list. | Require exact part occurrences, whole-forming claims, an assembly-sensitive reidentification rule, and one composition-grounded whole characteristic. | A graph, card, constructor expression, shared label, or input set creates neither whole nor relation. |
 | Current science-of-science and reproducibility practice cited in C.21 treats field health as several typed, scoped, time-qualified characteristics. | Let C.21 evaluate exact disciplines without importing health coordinates into construction. | Reproducibility, standardization, disruption, diversity, or evidence granularity is not discipline identity or truth by itself. |
 | Current model, workflow, and publication practice separates semantic ways of doing, claim-bearing descriptions, actual work, results, and publication availability. | Keep Methods, epistemes, Work, results, and publication occurrences independently governed even when their exact relations support a field assembly claim. | Use, representation, occurrence, evidence, or publication does not make an entity a discipline part. |
-| Plural-field and translation practice needs explicit local meanings, direction, substitution conditions, and visible loss. | Use the exact F.9 Bridge plus a separate bounded-use proposition and direct reliance or comparison branch when crossing is current. | A Bridge count or high congruence neither merges disciplines nor creates a transdisciplinary kind. |
+| Plural-field and translation practice needs explicit local meanings, direction, substitution conditions, an explicit use-specific loss tolerance, and any material observed loss. | Use an exact F.9 Bridge only after two exact F.17 `SchemeSenseCell` values resolve and its predicate obtains; when a named use relies on it, add the separate bounded-use proposition and direct reliance or comparison branch. A plane-only crossing uses the applicable ReferencePlane relation and policy instead. | A Bridge count or high congruence neither merges disciplines nor creates a transdisciplinary kind. |
 
 **Currentness and reopen.** Reopen only the affected construction, identity, crossing, or health decision when its direct source interface changes. A newer discipline study can change the local breadth criterion or worked case without weakening the exact-part, direct-relation, assembly, and reidentification boundary.
 

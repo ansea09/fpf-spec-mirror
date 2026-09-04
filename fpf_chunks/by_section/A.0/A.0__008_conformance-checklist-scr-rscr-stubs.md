@@ -6,7 +6,7 @@ section_id: "A.0:7"
 section_title: "Conformance Checklist (SCR/RSCR stubs)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__008_conformance-checklist-scr-rscr-stubs.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:7 — Conformance Checklist (SCR/RSCR stubs)"

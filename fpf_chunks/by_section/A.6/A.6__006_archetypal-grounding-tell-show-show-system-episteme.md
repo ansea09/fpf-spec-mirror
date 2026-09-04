@@ -6,12 +6,12 @@ section_id: "A.6:5"
 section_title: "Archetypal Grounding (Tell–Show–Show; System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__006_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:5 — Archetypal Grounding (Tell–Show–Show; System / Episteme)"
-line_start: 10483
-line_end: 10549
+line_start: 10484
+line_end: 10550
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,7 @@ keywords:
 
 #### Tell (universal rule)
 
-A boundary description is evolvable iff its claims are separated across the signature stack and each statement is classified as Law, Admissibility, Deontic duty/commitment/grant, or the boundary's observable-effect/evidence family. An E claim names the exact actual occurrence under its subject predicate and retains the pattern only as a locator: dated Work only when the A.15.1 predicate is satisfied, or A.3/A.3.4 plus the exact interaction or causal predicate for non-Work change. EntityOfConcern, description, and publication carrier remain separate.
+To support boundary evolvability, separate claims across the signature stack and classify each statement as Law, Admissibility, Deontic duty/commitment/grant, or the boundary's observable-effect/evidence family. An E claim names the exact actual occurrence under its subject predicate and retains the pattern only as a locator: dated Work only when the A.15.1 predicate is satisfied, or A.3/A.3.4 plus the exact interaction or causal predicate for non-Work change. EntityOfConcern, description, and publication carrier remain separate.
 
 #### Show #1 (`U.System`): effectful API boundary (algebraic effects intuition)
 
@@ -102,7 +102,7 @@ A boundary description is evolvable iff its claims are separated across the sign
 
 * “Defined iff tokenValid” belongs in Quadrant A (admissibility gate).
 * “Clients MUST include Idempotency-Key” belongs in Quadrant D as a normative prescription and should reference the same gate semantics to avoid divergence. It becomes a claim about one obtaining individual `U.Commitment` only after A.2.8 identifies the actual bearer, constitutive rule, required instituting basis, and direct predicate.
-* “System emits AuthorizationRecord” belongs in Quadrant E (evidence via carriers).
+* “System emits AuthorizationRecord” belongs in Quadrant E (an actual event-emission claim).
 
 #### Show #2 (`U.Episteme`): published evaluation protocol boundary (multi‑view + evidence)
 
@@ -118,12 +118,12 @@ A boundary description is evolvable iff its claims are separated across the sign
 
 **Non-Work E contrast.** A seedling's spontaneous first-leaf unfolding can be an actual A.3.4 transformation with no performer, assignment, method, or Work occurrence. Measurements may support that exact change claim through A.10; neither the observation work nor its carrier becomes the change.
 
-* **Multi‑view (MVPK canonical face kinds only):**
+* **Multi‑view (MVPK face designators):**
 
   * PlainView for decision makers: what this protocol means for assurance.
   * TechCard for engineers: metric definitions named by value, admissibility predicates, and a clearly marked **Norms-and-commitments** section (D‑claims) for governance.
   * InteropCard for exchange-oriented consumers: conceptual field names, anchors, and schema references (concrete format mapping lives outside Part E).
-  * AssuranceLane for auditors: evidence map (which carriers prove what happened) and adjudication steps keyed by `E-*` IDs.
+  * AssuranceLane for auditors: evidence map (which carriers support which occurrence claims) and adjudication steps keyed by `E-*` IDs.
 
 This episteme is a boundary because it mediates between theory (“metric definitions”) and work (“a run produced a report”). The signature stack provides the stable interface for that mediation.
 

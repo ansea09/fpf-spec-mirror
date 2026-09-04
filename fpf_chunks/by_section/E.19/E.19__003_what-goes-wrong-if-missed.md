@@ -6,12 +6,12 @@ section_id: "E.19:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__003_what-goes-wrong-if-missed.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0.1 — What goes wrong if missed"
-line_start: 87852
-line_end: 87855
+line_start: 87844
+line_end: 87847
 dependencies:
   - "A.15.1"
   - "A.6.P"

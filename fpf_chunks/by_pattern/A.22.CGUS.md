@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.22.CGUS.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
-line_start: 35941
-line_end: 36282
+line_start: 35932
+line_end: 36273
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "B.2.5:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__011_consequences.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:8 — Consequences"
-line_start: 39503
-line_end: 39516
+line_start: 39494
+line_end: 39507
 dependencies:
   - "A.1"
   - "A.10"

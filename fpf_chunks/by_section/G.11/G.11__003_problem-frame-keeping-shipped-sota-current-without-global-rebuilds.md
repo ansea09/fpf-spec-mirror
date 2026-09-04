@@ -6,12 +6,12 @@ section_id: "G.11:1"
 section_title: "Problem frame — Keeping shipped SoTA current without global rebuilds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__003_problem-frame-keeping-shipped-sota-current-without-global-rebuilds.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:1 — Problem frame — Keeping shipped SoTA current without global rebuilds"
-line_start: 106419
-line_end: 106434
+line_start: 106411
+line_end: 106426
 dependencies:
   - "A.6.RCD"
   - "B.3.4"

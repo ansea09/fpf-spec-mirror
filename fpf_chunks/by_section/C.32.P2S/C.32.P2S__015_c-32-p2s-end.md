@@ -6,12 +6,12 @@ section_id: "C.32.P2S:End"
 section_title: "C.32.P2S:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__015_c-32-p2s-end.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:End — C.32.P2S:End"
-line_start: 64167
-line_end: 64168
+line_start: 64159
+line_end: 64160
 dependencies:
   - "A.1"
   - "A.1.SCR"

@@ -6,12 +6,12 @@ section_id: "C.16:8"
 section_title: "Measurement-result boundaries (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__009_measurement-result-boundaries-normative.md"
-commit_sha: "b999972c4b60e6cef7206f9bbd777423e6525ec5"
+commit_sha: "9a9c1b14df894386c664cf49a9ccbbd4a4063100"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:8 — Measurement-result boundaries (Normative)"
-line_start: 48220
-line_end: 48236
+line_start: 48211
+line_end: 48227
 dependencies:
   - "A.10"
   - "A.15.1"
