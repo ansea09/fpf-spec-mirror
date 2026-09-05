@@ -6,12 +6,12 @@ section_id: "C.28:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__006_solution.md"
-commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
+commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:4 — Solution"
-line_start: 56594
-line_end: 57117
+line_start: 56595
+line_end: 57118
 dependencies:
   - "A.10"
   - "A.15"

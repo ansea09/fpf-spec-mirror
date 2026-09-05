@@ -6,12 +6,12 @@ section_id: "C.26:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__006_archetypal-grounding.md"
-commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
+commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:5 — Archetypal Grounding"
-line_start: 54545
-line_end: 54554
+line_start: 54546
+line_end: 54555
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,5 +58,5 @@ Show, System side: the delivery system, teams, dashboard, incident-handling cycl
 
 Show, Episteme side: the QL-lite card says the ordinary FPF patterns are `C.16`, `A.10`, `B.3`, and `C.25`. The QL cue is an instrument-like metric publication that changes readiness behavior. The minimal admissible output is "treat the dashboard as probe-coupled evidence, not release proof." The local stop is release approval without fuller evidence.
 
-Second grounding: a large state-space model is too expensive for triage, so the team uses four typed operational states. That shortcut is admissible only if the source model, state reduction, loss, admissible use, and reopen trigger remain explicit. The shortcut helps choose a work response; it does not prove the four states are the full system.
+Second grounding: a large state-space model is too expensive for triage, so the team uses four typed operational states. That shortcut is admissible only if the source model, state reduction, loss, admissible use, and reopen trigger remain explicit. The shortcut helps choose a work response within that declared admissible use.
 

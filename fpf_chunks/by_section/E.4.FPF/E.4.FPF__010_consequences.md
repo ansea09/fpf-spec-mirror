@@ -6,12 +6,12 @@ section_id: "E.4.FPF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__010_consequences.md"
-commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
+commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:9 — Consequences"
-line_start: 70631
-line_end: 70636
+line_start: 70632
+line_end: 70637
 dependencies:
   - "C.33"
   - "C.34"

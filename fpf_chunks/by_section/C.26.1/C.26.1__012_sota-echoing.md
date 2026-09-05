@@ -6,12 +6,12 @@ section_id: "C.26.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__012_sota-echoing.md"
-commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
+commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:11 — SoTA-Echoing"
-line_start: 55007
-line_end: 55025
+line_start: 55008
+line_end: 55026
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,6 +54,6 @@ Worked-use-slice discipline from these rows:
 - start from the ordinary FPF pattern before QL wording;
 - show the concrete operation that produced the output;
 - show the state update or export loss that changes the decision;
-- keep relation tokens local unless `A.6.P` / `F.18` gives them a reusable declaration;
+- keep relation wording local; use `A.6.P` for unresolved relation meaning and `F.18` for a reusable name only after the relation is settled under its direct pattern;
 - keep source-formalism language as modeling support, not as pattern-body ontology.
 

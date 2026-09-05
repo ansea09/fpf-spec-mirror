@@ -6,12 +6,12 @@ section_id: "C.25:13"
 section_title: "Decision Test: Single Characteristic or Bundle?"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__014_decision-test-single-characteristic-or-bundle.md"
-commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
+commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:13 — Decision Test: Single Characteristic or Bundle?"
-line_start: 53872
-line_end: 53908
+line_start: 53870
+line_end: 53906
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,7 +72,7 @@ A quality claim belongs in `C.25` when one family label is standing over several
 - qualification windows alter the reading materially,
 - or one scalar head would hide which part of the family is actually failing.
 
-The bundle is not a fallback for laziness. It is the explicit authoring form for claims whose truth conditions are already composite.
+The bundle is the explicit authoring form for claims whose truth conditions are already composite.
 
 #### C.25:13.3 - Borderline cases
 

@@ -6,12 +6,12 @@ section_id: "C.25:20"
 section_title: "Review Matrix and Repair Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__021_review-matrix-and-repair-tests.md"
-commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
+commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:20 — Review Matrix and Repair Tests"
-line_start: 54069
-line_end: 54080
+line_start: 54067
+line_end: 54078
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,7 +54,7 @@ A checking reader can test a Q-Bundle with five questions:
 2. **Are scope and mechanism slots kept distinct from measures?**
 3. **Is any summary number trying to replace the bundle?**
 4. **Would a gate still be auditable if the family label were removed?**
-5. **If the claim crosses contexts, is bridge work kept in `F.9` rather than hidden inside the family bundle?**
+5. **If comparison needs cross-context semantic correspondence, is the `F.9` Bridge predicate tested separately from the family bundle?**
 
-Repair from bare family prose should therefore recover bundle shape first, then choose whether any narrow slice deserves a separate CHR publication.
+Repair from bare family prose should therefore recover the endpoint shape first, then choose whether any narrow slice deserves a separate CHR publication.
 

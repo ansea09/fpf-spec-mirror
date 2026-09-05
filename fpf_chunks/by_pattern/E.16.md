@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.16.md"
-commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
+commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
-line_start: 81191
-line_end: 81434
+line_start: 81192
+line_end: 81435
 dependencies:
   - "A.10"
   - "A.13"

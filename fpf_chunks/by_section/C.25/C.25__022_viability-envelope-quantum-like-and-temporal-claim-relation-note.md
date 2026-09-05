@@ -6,12 +6,12 @@ section_id: "C.25:20a"
 section_title: "Viability-envelope, quantum-like, and temporal-claim relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__022_viability-envelope-quantum-like-and-temporal-claim-relation-note.md"
-commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
+commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:20a — Viability-envelope, quantum-like, and temporal-claim relation note"
-line_start: 54081
-line_end: 54117
+line_start: 54079
+line_end: 54115
 dependencies:
   - "A.10"
   - "A.15"
@@ -48,15 +48,15 @@ keywords:
 
 ### C.25:20a - Viability-envelope, quantum-like, and temporal-claim relation note
 
-Use `C.25` when the question under repair is a quality bundle, "-ility" decomposition, proxy metric, trade-off, gate, or report. A viability claim should not become quantum-like merely because it involves uncertainty, feedback, several qualities, or changing operating conditions; a temporal claim should not become a Q-Bundle merely because the working phrase mentions speed, cadence, rhythm, or recovery.
+Use `C.25` for the quality-family decomposition needed by a quality claim, proxy metric, trade-off, gate, or report. A viability claim should not become quantum-like merely because it involves uncertainty, feedback, several qualities, or changing operating conditions; a temporal claim should not become a Q-Bundle merely because the working phrase mentions speed, cadence, rhythm, or recovery.
 
 Practical reading:
 
 1. Decide whether one Characteristic answers the quality question; if it does, stop there.
 2. If several differently typed contributors are load-bearing, identify the bearer and include only those measures, scopes, windows, mechanisms, statuses, or evidence anchors.
 3. If one proxy or this proportional bundle answers the receiving question, stay in `C.25`.
-4. Open `C.26.3` only when the current question concerns a viable region, disturbance, boundary condition, intervention, adaptation cost, or failure mode.
-5. Open `C.27` only when rate-change under effort, window, resistance, recovery, or cadence changes the admissible use of a temporal claim.
+4. Open `C.26.3` only when several characteristics must remain inside a viable region under disturbance and a candidate intervention, boundary condition, adaptation cost, or failure mode matters.
+5. Open `C.27` only when a temporal claim is being used to change action—for example, when rate-change, effort, window, resistance, recovery, or cadence changes that action.
 Minimum viability-envelope note:
 
 | Field | Required content |
@@ -66,7 +66,7 @@ Minimum viability-envelope note:
 | Variables | Which qualities, constraints, resources, risks, or state descriptors define the envelope |
 | Viable region / bounds | What counts as inside, near edge, degraded, or outside the envelope for this use |
 | Disturbance class | What perturbation, demand shift, environment change, probe, or boundary condition stresses the envelope |
-| Actuators | What work, design move, policy, boundary change, sensor change, or resource change can move the bearer |
+| Actuators | Which proposed work, design move, policy, boundary change, sensor change, or resource change could alter the bearer or its operating conditions; use C.26.3 to recover each candidate intervention's proposal-side object and distinguish any performed work or resulting change claimed to exist |
 | Trade-off / loss | What gets worse, hidden, coarsened, delayed, or made more expensive |
 | Admissible use | Which action, decision, relation, or triage use the envelope reading can carry |
 | Non-admissible use | Which release, audit, assurance, or universal quality claim requiring additional support it does not support |
@@ -75,8 +75,8 @@ Minimum viability-envelope note:
 Useful outputs:
 
 - one `C.2.1` quality-claim episteme with Q-Bundle-shaped content when the issue is quality decomposition;
-- a `C.26.3` envelope-regulation note when probes/actuators/boundary conditions change the admissible viability reading;
-- a `C.27` temporal-claim adequacy card when rate-change, effort, window, resistance, or cadence changes the admissible use;
+- a `C.26.3` envelope-regulation note when probes, candidate interventions, or boundary conditions change the admissible viability reading;
+- a `C.27` temporal-claim adequacy card when a claim used to change action says that an intervention changes a rate, recovery, or cadence; state its effort, window, and resistance where load-bearing;
 - no QL wording when ordinary quality-bundle, proxy, feedback, or control tuning carries the work.
 
 #### C.25:20b - Architecture-decision Q-Bundle boundary

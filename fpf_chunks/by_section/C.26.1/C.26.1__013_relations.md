@@ -6,12 +6,12 @@ section_id: "C.26.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__013_relations.md"
-commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
+commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:12 — Relations"
-line_start: 55026
-line_end: 55033
+line_start: 55027
+line_end: 55034
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -44,5 +44,5 @@ keywords:
 - Coordinates with: `C.26.2` when coordinated work evidences a non-exportable distributed state; `C.26.3` when the boundary interaction changes a viability envelope.
 - Carries: a worked use slice inside `C.26.1:4.3`, not a standalone pattern or relation token.
 - Does not mint: `U.Probe`, a new boundary kind, or reusable relation predicates.
-- Name posture: `Probe-Coupled Boundary Interaction` names a boundary and probe relation, not `Entangled Boundary`, `CoupledBy(...)`, `Interaction Field`, `State-Changing Communication`, or a reusable relation token. Relation wording remains local until `A.6.P` and `F.18` ratify it.
+- Name posture: `Probe-Coupled Boundary Interaction` names this boundary-interaction use, not a reusable relation token. Relation meaning is settled under its direct pattern; `A.6.P` repairs ambiguity, and `F.18` handles any needed reusable name.
 

@@ -6,12 +6,12 @@ section_id: "C.26.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__005_solution.md"
-commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
+commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:4 — Solution"
-line_start: 54779
-line_end: 54950
+line_start: 54780
+line_end: 54951
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -81,7 +81,7 @@ This pattern is active only when the interaction both participates in the repres
 
 Ordinary influence is not enough. A meeting that changes attention is ordinary work unless the meeting output is later used as a passive reading of alignment. An API call that is a mutating operation by its interface semantics is ordinary service/API semantics unless the call result is used as a neutral state export. A feature flag that changes behavior is ordinary intervention unless the flag readout is being used as evidence of the state it changes.
 
-Performative prediction is also an important ordinary rival. If a prediction, score, or metric changes behavior because people act on it, but no incompatible probe frame, order-sensitive reading, contextual-probability cue, or instrument-like state/export support load remains, try performative-prediction analysis and the ordinary `C.16`, `A.10`, and `B.3` patterns first. Keep C.26.1 only for the residual probe admissibility question.
+Performative prediction is also an important ordinary rival. If a prediction, score, or metric changes behavior because people act on it, but no incompatible probe frame, order-sensitive reading, contextual-probability cue, or instrument-like state/export support load remains, try performative-prediction analysis first; use `C.16` for measurement, `A.10` for source recovery and bounded reliance, and `B.3` only for an actual named assurance claim. Keep C.26.1 only for the residual probe admissibility question.
 
 #### C.26.1:4.2 - Finish conditions
 
@@ -93,10 +93,10 @@ The pattern emits one of these results:
 | Redesign probe/order/frame | The workshop, dashboard, API read, survey, metric, or question order changes to reduce distortion. |
 | Redesign bridge/export | The bridge/export gains loss notes, use scope, confidence, and return-to-source path. |
 | Split/merge/orchestrate differently | Boundary structure changes because the interaction changes the phenomenon. |
-| Apply `F.9` | Only bridge and loss remains live. |
+| Apply `F.9` | Only bridge and loss remain live. |
 | Apply `C.16` | The probe is really a standard measurement with declared scale, method, evidence, and result. |
 | Apply `A.15` | The hard part is work enactment rather than probe-coupled reading. |
-| Apply `C.25` | Viability-envelope regulation is primary. |
+| Apply `C.26.3` | Viability-envelope regulation is primary. |
 
 #### C.26.1:4.3 - Probe-coupled context-cut worked use slice
 
@@ -157,12 +157,12 @@ The minimal admissible output is often enough: "this dashboard value is probe-co
 
 #### C.26.1:4.6 - Probe, observable, output, and carrier split
 
-Do not identify the thing being asked with the method that asks it, the output that appears, or the output carrier.
+Do not identify what is being read with the method used to read it, the resulting output, or the output carrier.
 
 | Role | Boundary-facing question |
 | --- | --- |
 | Observable or output dimension | What readiness, status, alignment, failure, response, risk, split, promise, or boundary condition is being read? |
-| Probe method | Which dashboard, API read, workshop order, survey, canary, incident review, event stream, or meeting format acts on the situation? |
+| Probe method | How is the dashboard, API read, workshop order, survey, canary, incident review, event stream, or meeting format used to probe the situation? |
 | Measurement / interaction scheme | What timing, threshold, sampling rule, question order, aggregation, publication path, or access path shapes the output? |
 | Output or result record | What score, label, context map, API response, survey answer, incident class, readiness status, or bridge field was emitted? |
 | State update | What behavior, alignment, meaning, trust, priority, escalation, or timing changed because of the probe? |
@@ -176,24 +176,24 @@ Use this guide when a draft says that a boundary, system, team, or service is "c
 
 | Trigger surface | First question | If yes | If no |
 | --- | --- | --- | --- |
-| "The dashboard shows readiness." | Did publishing or using the dashboard change readiness behavior, escalation, staffing, or release posture? | Use C.26.1; state probe, update, evidence, and admissible use. | Use `C.16`, `A.10`, `B.3`, or ordinary reporting. |
+| "The dashboard shows readiness." | Did publishing or using the dashboard change readiness behavior, escalation, staffing, or release posture? | Use C.26.1; state probe, update, evidence, and admissible use. | Use ordinary reporting, `C.16` for measurement, `A.10` for source recovery and bounded reliance, or `B.3` for an actual named assurance claim. |
 | "The workshop discovered the boundary." | Did question order, framing, participants, or artifacts change local meaning, ownership, trust, or viability? | Use C.26.1 with this context-cut worked use slice; add `F.9` if bridge/export loss is live. | Use ordinary DDD / `F.9` bounded-context work. |
 | "The API read returns state." | Is the read path state-changing under interface semantics, timing, cache, consistency, or downstream behavior? | Use C.26.1 if the result is later treated as a passive read. | Use ordinary API semantics, measurement, or data freshness. |
 | "The message transferred the decision." | Did the message change authority, trust, escalation, timing, or local meaning enough that copy or transfer is false? | Use C.26.1 and apply the relevant work or authority pattern to commitments or authority. | Use publication, bridge, or work enactment patterns. |
 | "The split improved viability." | Did the split/probe alter the viability envelope being evaluated? | Coordinate with `C.26.3`. | Use ordinary boundary, quality-bundle, or architecture patterns. |
 
-When relation wording is load-bearing, do not mint a relation token here. Keep the sentence as local explanatory prose or apply `A.6.P` or `F.18` to reusable relation work.
+When relation wording is load-bearing, do not mint a relation token here. Use `A.6.P` if the relation or participants remain unclear; use the direct relation pattern when they are already known. Keep local explanatory prose unless the settled relation needs a reusable name under `F.18`.
 
 #### C.26.1:4.8 - Positive examples and near misses
 
 | Case | Supported C.26.1 use | Near miss and neighboring-pattern handoff |
 | --- | --- | --- |
-| Readiness dashboard | The readiness score changes team behavior: teams stop surfacing borderline failures because the dashboard is watched by release management. The score is probe-coupled evidence, not a passive readiness copy. | If the dashboard only reports a well-defined measure with no behavior-changing or frame-changing effect, use `C.16` plus evidence patterns. |
+| Readiness dashboard | The readiness score changes team behavior: teams stop surfacing borderline failures because the dashboard is watched by release management. The score is probe-coupled evidence, not a passive readiness copy. | If the dashboard only reports a well-defined measure with no behavior-changing or frame-changing effect, use `C.16` and the direct pattern for any evidence claim that is current. |
 | API consistency check | A "read" through a cache warms entries and changes later latency, so the readout changes the performance state later used in the decision. | If the call is simply a mutating operation by interface semantics, use ordinary API/work semantics and say so plainly. |
 | Survey order | Asking "who owns incidents?" before "which context owns payment failure?" changes the resulting context map and escalation plan. | If different answers merely reveal unresolved meanings, use `F.9` / `A.6.P` first. |
 | Event-storming workshop | The workshop produces a map and also changes team alignment, local vocabulary, and backlog priority. | If it only documents known differences, use ordinary DDD and bridge fields. |
 | Service split | Splitting Checkout and Payment changes recovery paths and support load, so the split is part of the phenomenon being evaluated. | If the split only reduces deployment coupling with no probe/export effect, use ordinary boundary and quality patterns. |
-| Incident metric | Publishing "cache failover is the primary risk" shifts attention, staffing, and reproduction work. | If the metric is only a report of already-carried evidence, use `A.10` / `B.3`. |
+| Incident metric | Publishing "cache failover is the primary risk" shifts attention, staffing, and reproduction work. | If the metric is only a report of already-carried evidence, use `A.10` for any source-recovery or bounded-reliance question, and `B.3` only for an actual named assurance claim. |
 
 The positive examples are intentionally ordinary. QL value here is not exotic formalism; it is noticing that a read, metric, workshop, or interface often participates in the state it later claims to report.
 
@@ -201,7 +201,7 @@ The positive examples are intentionally ordinary. QL value here is not exotic fo
 
 Use the least-committing evidence posture that still supports the intended use.
 
-| Evidence posture | Admissible use | Typical carriers |
+| Evidence posture | Admissible use | Typical support |
 | --- | --- | --- |
 | `QLP-0` recognition | Flag a likely probe-coupled situation for local discussion. | Meeting note, dashboard screenshot, issue comment, context-map draft. |
 | `QLP-1` local working use | Change a local probe/order/frame, bridge note, or boundary decision in a team setting. | Before/after labels, changed tickets, changed dashboard query, changed escalation path, changed architecture note. |

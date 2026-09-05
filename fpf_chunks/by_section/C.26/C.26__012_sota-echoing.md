@@ -6,12 +6,12 @@ section_id: "C.26:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__012_sota-echoing.md"
-commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
+commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:11 — SoTA-Echoing"
-line_start: 54683
-line_end: 54707
+line_start: 54684
+line_end: 54708
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 
 #### C.26:11.1 - Selected operational source anchors
 
-This section is intentionally short. It carries operational anchors for using the pattern, not an expanded bibliography.
+The following anchors support the pattern's operational modeling moves.
 
 | Claim | Source family | Practical implication |
 | --- | --- | --- |
