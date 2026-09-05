@@ -6,13 +6,15 @@ section_id: "E.11.PFP:End"
 section_title: "E.11.PFP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__016_e-11-pfp-end.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:End — E.11.PFP:End"
-line_start: 80039
-line_end: 80040
+line_start: 80087
+line_end: 80088
 dependencies:
+  - "A.3.2"
+  - "C.29"
   - "E.11"
   - "E.17"
   - "E.2.DA"
@@ -23,6 +25,7 @@ dependencies:
   - "E.4.DPF.DA"
   - "E.4.FPF"
   - "E.4.PFR"
+  - "E.8"
   - "G.11"
 keywords:
   - "& Search Queries"

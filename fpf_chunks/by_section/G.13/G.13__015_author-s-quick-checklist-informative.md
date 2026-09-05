@@ -6,12 +6,12 @@ section_id: "G.13:14"
 section_title: "Author’s quick checklist (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__015_author-s-quick-checklist-informative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:14 — Author’s quick checklist (informative)"
-line_start: 107399
-line_end: 107407
+line_start: 107457
+line_end: 107465
 dependencies:
   - "A.18"
   - "A.19"

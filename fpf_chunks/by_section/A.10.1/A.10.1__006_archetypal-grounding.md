@@ -6,12 +6,12 @@ section_id: "A.10.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__006_archetypal-grounding.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:5 — Archetypal Grounding"
-line_start: 23217
-line_end: 23261
+line_start: 23250
+line_end: 23294
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -26,7 +26,7 @@ keywords:
 
 ### A.10.1:5 - Archetypal Grounding
 
-**Tell.** A source change matters through a claim that a receiving use actually relied on. Search helps find possible receivers; the receiver and its direct subject rule decide whether action changes.
+**Tell.** A source change matters through a claim that a receiving use actually relied on. Search helps find possible receiving uses; the practitioner applies the direct subject rule to determine whether an action can change.
 
 #### A.10.1:5.1 - Show: Sensor-Calibration Range in an Actual Engineering Host
 

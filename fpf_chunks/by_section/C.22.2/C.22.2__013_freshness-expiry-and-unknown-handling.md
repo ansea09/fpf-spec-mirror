@@ -6,12 +6,12 @@ section_id: "C.22.2:12"
 section_title: "Freshness, Expiry, and Unknown Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__013_freshness-expiry-and-unknown-handling.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:12 — Freshness, Expiry, and Unknown Handling"
-line_start: 52875
-line_end: 52904
+line_start: 52861
+line_end: 52890
 dependencies:
   - "A.10"
   - "A.15"
@@ -84,5 +84,5 @@ When freshness, expiry, or unknown handling fails, choose one of these current d
 - retire or deprecate the problem-side record under the relevant archive, pool, selected-set, or refresh pattern;
 - continue only as explicitly governed bounded-risk use under the subject pattern for the claim being made, relation, or boundary.
 
-Unknown-handling fields state whether they permit use, require degraded use, abstention, or sandbox treatment, or make the current problem formulation blocked. No P2W, no change, or abstain-for-now may be a successful next use when the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not currently worth downstream work. Before `ProblemCard` emits or binds `TaskSignature`, it checks whether the problem signal is still present and whether prior work has already solved or removed the problem.
+Unknown-handling fields state whether they permit use, require degraded use, abstention, or sandbox treatment, or make the current problem formulation blocked. No P2W, no change, or abstain-for-now may be a successful next use when the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not currently worth downstream work. Before using the `ProblemCard` as input to `TaskSignature` preparation or assignment under C.22, check whether the problem signal is still present and whether prior work has already solved or removed the problem.
 

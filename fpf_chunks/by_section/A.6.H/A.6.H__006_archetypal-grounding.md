@@ -6,12 +6,12 @@ section_id: "A.6.H:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__006_archetypal-grounding.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:5 — Archetypal Grounding"
-line_start: 21298
-line_end: 21342
+line_start: 21331
+line_end: 21375
 dependencies:
   - "A.1"
   - "A.10"
@@ -63,13 +63,13 @@ Source sentence: “After seal replacement, the assembled pump remains an integr
 3. The current use names the pump boundary, impeller, casing, replacement seal, and the exact assembly or parthood relations on which operation depends.
 4. If the decision consumes one selected organization of those relations, A.22 governs that structure; if it consumes a construction account, C.13 reports already recovered facts.
 5. A.1 recognizes the candidate whole; B.2 opens only if the replacement leaves a genuine whole-reidentification question.
-6. Calibration, seal replacement, and inspection remain separately governed Work and change facts. The adjective *integral* proves none of them.
+6. For calibration, seal replacement, and inspection, identify any actual Work under A.15.1 and state any claimed change separately under the rule for the changed object.
 
 #### A.6.H:5.2 - Laboratory pipeline
 
 Source sentence: “The whole chromatography pipeline is turnkey, and the chemist owns the whole thing.”
 
-The repair produces several claims:
+The repair separates the following claims and unresolved questions; `turnkey` and `owns` still need the receiving decision and discriminating facts:
 
 - the reusable procedure is one exact Method or composite Method under A.3.1/B.1.5, with exact joins and exposed interactions;
 - its procedure document is a separate `U.MethodDescription` episteme under C.2.1/A.3.2;
@@ -89,11 +89,11 @@ Source sentence: “Section 3 is part of the proof, and v2 is part of v1.”
 - Recover argument order under its subject pattern rather than as physical containment.
 - Compare the exact C.2.1 triples for the two labelled epistemes. Changed claim content identifies two epistemes. Assert `EpistemeEditionRelation(E_v1,E_v2)` only when its historical-continuation predicate obtains.
 - If one unchanged episteme is needed only during a proper interval, `PhaseOf(E@τ,E)` may state that restriction. It does not connect v1 to v2.
-- Drafting, review, and publication are Work and publication relations, not participants of the edition relation.
+- Keep any drafting, review, or publication Work separate from publication occurrences and from the two epistemes that participate in `EpistemeEditionRelation`.
 
 #### A.6.H:5.4 - Integrity measurement and assurance
 
 Source sentence: “The structural integrity score is 0.82, so the system is assured.”
 
-First recover the bearer, integrity Characteristic, Scale, measurement method, result episteme, evidence, and time stance under C.16.P/C.16. Then ask whether a named B.3 assurance claim is actually being made and recover its claim, evidence-use relation, scope, limitations, and relying context. The number does not create a candidate whole, a part relation, or an assurance result.
+First recover the bearer, integrity Characteristic, Scale, measurement method, result episteme, evidence, and time stance under C.16.P/C.16. For “the system is assured”, name the exact target claim and assurance use before applying B.3; then recover the evidence-use relation, scope, limitations, and relying context. The score alone does not establish that assurance result.
 

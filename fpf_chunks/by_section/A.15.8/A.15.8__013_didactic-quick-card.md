@@ -6,12 +6,12 @@ section_id: "A.15.8:12"
 section_title: "Didactic quick card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__013_didactic-quick-card.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:12 — Didactic quick card"
-line_start: 27684
-line_end: 27687
+line_start: 27718
+line_end: 27721
 dependencies:
   - "A.1"
   - "A.10"

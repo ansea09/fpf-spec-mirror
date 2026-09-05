@@ -6,12 +6,12 @@ section_id: "B.4.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__008_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:7 — Conformance Checklist"
-line_start: 40707
-line_end: 40714
+line_start: 40703
+line_end: 40710
 dependencies:
   - "A.15"
   - "A.16"
@@ -44,6 +44,6 @@ keywords:
 - `CC-B.4.1-2` A routed cue set **SHALL** name its `candidateRouteSet`.
 - `CC-B.4.1-3` When route selection occurs, `routeDecision`, `selectedRoute`, and `routeRationale` **SHALL** be explicit.
 - `CC-B.4.1-4` `publicationFaceRefs` **MAY** be named, but route-bearing form and publication face **SHALL NOT** be collapsed.
-- `CC-B.4.1-5` `RoutedCueSet` **SHALL NOT** silently masquerade as a late endpoint subject pattern.
-- `CC-B.4.1-6` When a specialization-sensitive route is kept live, the route package **SHALL** name the declared task family or utility target, the current budget window if known, the missing discriminator still needed, and the downstream subject pattern that would become admissible if the discriminator is satisfied.
+- `CC-B.4.1-5` `RoutedCueSet` **SHALL NOT** be treated as establishing a late endpoint result.
+- `CC-B.4.1-6` When a specialization-sensitive route is kept live, the route package **SHALL** name the declared task family or utility target, the current budget window if known, the missing discriminator still needed, and the downstream subject pattern that would become applicable if the discriminator and that pattern's other entry conditions are satisfied.
 

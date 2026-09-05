@@ -6,12 +6,12 @@ section_id: "C.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__003_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:1 — Problem Frame"
-line_start: 45303
-line_end: 45308
+line_start: 45290
+line_end: 45295
 dependencies:
   - "A.1"
   - "A.11"
@@ -47,5 +47,5 @@ keywords:
 
 `U.Kind` is the admitted meta-kind whose individuals are reusable intensional classification distinctions. One kind individual is recovered by its declared candidate domain, the membership condition that distinguishes intended members from non-members, and the continuity rule for a material declaration change. A `KindSignature` states that content for repeated use but is not the kind itself. A current extension can change while the kind continues, and two different intensional kinds can happen to classify the same current candidates.
 
-A practice, source, team, or locality tells a reviewer where meaning may have changed. It does not decide kind identity. When a typed use moves, compare the exact membership distinctions. Reuse the same kind when the candidate domain and operative distinction continue. If they differ, identify two kinds; only then can C.3.3 ask whether an exact directional `KindBridge` obtains. When local wording or interpretation also differs, F.9 may relate the corresponding F.17 cells, but it neither creates the kinds nor maps a `U.ReferenceScheme` as a whole. A changed scheme creates another `KindSignature` edition; C.3.1 separately decides kind continuity. A changed `U.ContextSlice` alone creates neither a kind nor a bridge.
+A practice, source, team, or locality tells a reviewer where meaning may have changed. It does not decide kind identity. When a typed use moves, compare the exact membership distinctions. Reuse the same kind when the candidate domain and operative distinction continue. If they differ, identify two kinds; only then can C.3.3 ask whether an exact directional `KindBridge` obtains. When local wording or interpretation also differs, F.9 may relate the corresponding F.17 cells, but it neither creates the kinds nor maps a `U.ReferenceScheme` as a whole. A change to the declaration's effective `U.ReferenceScheme` identifies another episteme under C.2.1. Judge its `U.Signature` membership under A.6.0 and its `KindSignature` qualification under C.3.2 separately; call it another edition only when the C.2.1 `EpistemeEditionRelation` obtains. C.3.1 separately decides kind continuity. A changed `U.ContextSlice` alone creates neither a kind nor a bridge.
 

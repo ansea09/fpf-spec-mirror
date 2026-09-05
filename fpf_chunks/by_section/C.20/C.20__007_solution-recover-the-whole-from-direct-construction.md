@@ -6,12 +6,12 @@ section_id: "C.20:4"
 section_title: "Solution - recover the whole from direct construction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__007_solution-recover-the-whole-from-direct-construction.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:4 — Solution - recover the whole from direct construction"
-line_start: 51075
-line_end: 51215
+line_start: 51061
+line_end: 51201
 dependencies:
   - "A.1"
   - "A.14"
@@ -71,7 +71,7 @@ C.20 directly governs `DisciplinePartOfRelation`, expressed in Plain register as
 The predicate obtains throughout an interval exactly when all of the following are true:
 
 - the candidate's actual field assembly includes the exact part as a required contributor or a currently realized admitted alternative for one required knowledge-bearing or reusable-practice contribution;
-- at least one exact whole-forming claim connects that contribution to the candidate's field boundary, to another required contribution, and to the declared composition-grounded whole characteristic;
+- at least one exact whole-forming claim is true: that contribution connects to the candidate's field boundary, to another required contribution, and to the declared composition-grounded whole characteristic;
 - the candidate's direct reidentification rule treats the current part, its contribution, and any allowed replacement as belonging to this continuing assembly.
 
 Mere eligibility for future use is insufficient. A source citation, canon list, standards list, registry row, curriculum position, organizational affiliation, publication, common label, diagram containment, shared audience, bridge endpoint, comparison row, selected structure, work participation, evidence relation, or health reading does not make `disciplinePartOf` obtain.
@@ -86,8 +86,8 @@ Part relations alone do not make one discipline. State the field assembly in ord
 
 - which exact claim-bearing contributions supply the field's knowledge commitments, distinctions, explanatory resources, or admissible questions;
 - which exact methods or other independently governed parts supply reusable ways of investigating, designing, intervening, evaluating, or learning;
-- which claims make knowledge contributions constrain, explain, or qualify practice contributions;
-- which claims make separately governed results of actual practice relevant to evaluation, revision, or replacement of knowledge contributions;
+- which claims state how knowledge contributions constrain, explain, or qualify practice contributions;
+- which claims state why separately governed results of actual practice are relevant to evaluation, revision, or replacement of knowledge contributions;
 - how incompatible or rival contributions coexist without being silently equated;
 - which boundary, stop conditions, exposed interfaces, and substitution conditions keep the assembly one field-level whole.
 
@@ -95,9 +95,9 @@ Each whole-forming statement stays at the lightest truthful disposition supplied
 
 The assembly rule names the exact current part relations, contribution meanings, whole-forming claims, permitted alternatives, incompatibilities, boundary conditions, failure conditions, and substitution conditions. A C.13 `Gamma_m.sum` construction trace may report those facts when a named use needs an inspectable account. The trace is a C.2.1 episteme and creates none of the parts, relations, assembly, identity, or characteristic.
 
-The historical signature was `Γ_disc : ⟨EpistemeCanon, StandardsSet, OrgCarriers, {Bridges}, Policy⟩ → U.Discipline`. Retain it only as a migration map into the direct construction account. Its useful intent was to assemble a reviewable field-level whole account, preserve provenance, support separately governed publication of that account, and enable admissible comparison; none of those receiving functions creates the whole.
+The historical signature was `Γ_disc : ⟨EpistemeCanon, StandardsSet, OrgCarriers, {Bridges}, Policy⟩ → U.Discipline`. Read it only as a map into the direct construction account. Its useful intent was to assemble a reviewable field-level whole account, preserve provenance, support separately governed publication of that account, and enable admissible comparison; none of those receiving functions creates the whole.
 
-Every former argument remains available but loses automatic constructor and identity force: `EpistemeCanon` routes to exact canon epistemes and their claims; `StandardsSet` to exact standard epistemes, Methods, and practice claims; `OrgCarriers` to independently identified systems, system-role kinds and assignments, and Work; `{Bridges}` to exact F.9 occurrences and bounded-use propositions; and `Policy` to exact comparison, evidence, assurance, and acceptance declarations under their subject patterns. Section 4.6 preserves every named member of those intake families. Historical `Gamma_disc` expressions are therefore only incomplete shorthand for a C.13 construction account. A five-field argument list, Discipline Card, or filled schema does not complete the account and does not have constructor force.
+Every former argument remains available but loses automatic constructor and identity force: `EpistemeCanon` routes to exact canon epistemes and their claims; `StandardsSet` to exact standard epistemes, Methods, and practice claims; `OrgCarriers` to independently identified systems, system-role kinds and assignments, and Work; `{Bridges}` to exact F.9 occurrences and bounded-use propositions; and `Policy` to exact comparison, evidence, assurance, and acceptance declarations under their subject patterns. Section 4.6 gives the complete intake prompts for those families. Historical `Gamma_disc` expressions are therefore only incomplete shorthand for a C.13 construction account. A five-field argument list, Discipline Card, or filled schema does not complete the account and does not have constructor force.
 
 #### C.20:4.4 - Identity, continuity, and change
 
@@ -188,5 +188,5 @@ For ordinary evidence reliance, use the exact A.10 evidence-provenance relation 
 
 **Health or state view.** C.21 can evaluate typed discipline-health characteristics. Local values such as emerging, consolidating, codified, or fragmenting require their own criteria, Scale, evidence basis, qualification window, and currentness. Any decision threshold belongs to the relevant G.4 AcceptanceClause. A state label, health vector, score, or dashboard transition is descriptive and does not itself reidentify the discipline.
 
-**Description and publication.** A discipline description, construction trace, comparison report, health series, card, or registry row is a separately identified C.2.1 episteme. E.24.PUB governs any actual publication occurrence and keeps selected episteme edition, audience, bounded-use declaration, form, carrier, and availability interval distinct. Updating or publishing the account changes neither the field assembly nor its past.
+**Description and publication.** The claim-bearing whole expressed by a discipline description, construction trace, comparison report, health series, card, or registry row is identified as an episteme under C.2.1 when that pattern's constitution test holds. E.24.PUB governs any actual publication occurrence and keeps selected episteme edition, audience, bounded-use declaration, form, carrier, and availability interval distinct. Updating or publishing the account changes neither the field assembly nor its past.
 

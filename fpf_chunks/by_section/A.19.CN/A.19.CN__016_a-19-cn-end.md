@@ -6,12 +6,12 @@ section_id: "A.19.CN:End"
 section_title: "A.19.CN:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__016_a-19-cn-end.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:End — A.19.CN:End"
-line_start: 32083
-line_end: 32084
+line_start: 32065
+line_end: 32066
 dependencies:
   - "A.19"
   - "A.6.1"

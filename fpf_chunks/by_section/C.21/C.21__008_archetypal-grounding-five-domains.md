@@ -6,12 +6,12 @@ section_id: "C.21:6"
 section_title: "Archetypal Grounding (five domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__008_archetypal-grounding-five-domains.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:6 — Archetypal Grounding (five domains)"
-line_start: 51515
-line_end: 51538
+line_start: 51501
+line_end: 51524
 dependencies:
   - "A.10"
   - "A.17"
@@ -59,7 +59,7 @@ One claim reports `EvidenceUnitResolution = claim` under `ClinicalClaimSegmentat
 
 #### C.21:6.3 - Software performance engineering: explicit cross-local use
 
-The compared cells are `OpenTelemetry:SLO/latency-objective@E4` and `VendorB:SLO/service-level-target@E7`. Relation `F9-SPE-SLO-12` obtains from the OpenTelemetry cell to the VendorB cell for the admitted use “compare service-latency objective coverage in the 2026 survey.” Its loss note says the target cell permits a different rolling-window convention, so only rows with the aligned 30-day window enter the comparison. That directed relation is one counted member of the declared AlignmentDensity cell set; it does not make all tracing-ecosystem readings comparable.
+The compared cells are `OpenTelemetry:SLO/latency-objective@E4` and `VendorB:SLO/service-level-target@E7`. For this example, take `F9-SPE-SLO-12` as an independently established directed F.9 Bridge from the OpenTelemetry cell to the VendorB cell under a satisfied predicate profile. A separate C.2.1 bounded-use claim states suitability for “compare service-latency objective coverage in the 2026 survey” in that direction, using only rows with the aligned 30-day window and tolerating no rolling-window mismatch. The evidence loss note records that the target cell permits a different rolling-window convention; the comparison still requires current A.10 reliance on the bounded-use claim. That directed relation is one counted member of the declared AlignmentDensity cell set; it does not make all tracing-ecosystem readings comparable.
 
 #### C.21:6.4 - Decision-making: entropy and concentration stay separate
 

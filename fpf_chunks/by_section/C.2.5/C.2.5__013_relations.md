@@ -6,12 +6,12 @@ section_id: "C.2.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__013_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:12 — Relations"
-line_start: 44490
-line_end: 44493
+line_start: 44477
+line_end: 44480
 dependencies:
   - "A.16"
   - "A.16.0"

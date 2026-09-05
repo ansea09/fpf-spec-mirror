@@ -6,12 +6,12 @@ section_id: "C.21:5"
 section_title: "Three progressive uses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__007_three-progressive-uses.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:5 — Three progressive uses"
-line_start: 51501
-line_end: 51514
+line_start: 51487
+line_end: 51500
 dependencies:
   - "A.10"
   - "A.17"
@@ -53,7 +53,7 @@ State the discipline, intended use, one Characteristic, the ClaimScope, comparis
 
 #### C.21:5.2 - Measurement, comparison, or aggregation
 
-Open C.16 when an actual measurement is claimed. Make the DHC replay basis recoverable, identify measurement Work and result separately, and apply A.18 legality. For direct comparison use the same-semantics branch in section 4.2. For distinct local senses add the exact F.9 branch. Open G.0, A.19, normalization, distance, evidence-reliance, or assurance only when the operation or receiver actually consumes it.
+Open C.16 when an actual measurement is claimed. Make the DHC replay basis recoverable, identify measurement Work and result separately, and apply A.18 legality. For direct comparison use the same-semantics branch in section 4.2. For a comparison that relies on a cross-local semantic relation, add the exact F.9 branch. Open G.0, A.19, normalization, distance, evidence-reliance, or assurance only when the operation or receiver actually consumes it.
 
 #### C.21:5.3 - Reusable series, dashboard, or publication
 

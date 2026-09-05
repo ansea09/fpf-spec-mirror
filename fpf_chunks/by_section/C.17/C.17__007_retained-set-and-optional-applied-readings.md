@@ -6,12 +6,12 @@ section_id: "C.17:5"
 section_title: "Retained-set and optional applied readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__007_retained-set-and-optional-applied-readings.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:5 — Retained-set and optional applied readings"
-line_start: 49616
-line_end: 49662
+line_start: 49601
+line_end: 49647
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -98,7 +98,7 @@ These examples do not create another universal characteristic family. Readings a
 
 The six applied readings above are examples, not the extension boundary. A configuration may select other Characteristics already established for the current use—for example, time or cost to probe, evidence sufficiency, safety or ethical risk, option value, or regret risk. Keep each selected Characteristic's bearer, Scale, polarity, defining source, Method, and evidence. A safety or ethical must remains an eligibility condition through ConstraintFit; evidence sufficiency does not become creativity; and scope does not become another coordinate merely because every claim needs one.
 
-When one comparison covers several components, attempts, or Work occurrences, identify the lawful aggregation separately for each Characteristic. For example, compatible costs may sum, all declared must-constraints may have to pass, a domain risk rule may use its own conservative combination, and evidence may follow an applicable `B.3` relation. These are examples, not C.17 defaults. If no declared aggregation supports the combined reading, keep the component results separate.
+When one comparison covers several components, attempts, or Work occurrences, identify the lawful aggregation separately for each Characteristic. For example, compatible costs may sum, all declared must-constraints may have to pass, a domain risk rule may use its own conservative combination, and evidence may be combined for a named assurance claim under `B.3`. These are examples, not C.17 defaults. If no declared aggregation supports the combined reading, keep the component results separate.
 
 Any prior or default used for Novelty, evidence, risk, or another selected reading remains a separately supported model or policy claim with its source and edition. C.17 does not publish domain priors merely because a reusable configuration is convenient.
 

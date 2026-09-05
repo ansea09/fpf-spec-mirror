@@ -6,12 +6,12 @@ section_id: "C.3.3:10"
 section_title: "Anti‑patterns & Remedies (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__011_anti-patterns-remedies-informative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:10 — Anti‑patterns & Remedies (informative)"
-line_start: 46016
-line_end: 46026
+line_start: 46003
+line_end: 46013
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -29,8 +29,8 @@ keywords:
 | -------------------------------------------- | -------------------------------------- | ----------------------------------------------------------------------------------- |
 | One interoperability score, or mandatory scope-plus-kind bridges | Blurs independent channels and invents unused relations | Open only the exact Scope, kind, and sense relations consumed by the receiving use; keep their losses and R consequences separate |
 | Claiming preserved `⊑` while inverting order | Makes typed reasoning unsound          | Mark as **not preserved**; add **loss note**; consider adapter or subkind redesign  |
-| Hiding collapses                             | Overstates coverage                    | List collapsed subkinds explicitly; plan extra **R** for lost granularity           |
+| Hiding collapses                             | Overstates coverage                    | List collapsed subkinds explicitly; plan the justified **R** penalty for lost granularity           |
 | Implicit latest mapping | Non-deterministic and non-auditable | Pin both scheme editions and the mapping-rule edition in the bridge assertion; outside bridge definedness decline that bridge use without changing an independently obtained receiving result. |
-| Using KindBridge to widen G                  | Conflates entityOfConcern with applicability | Keep Scope edits in **USM** (ΔG±); KindBridge never widens Scope                    |
+| Using KindBridge to widen G                  | Conflates kind correspondence with claim-scope translation | Keep Scope edits in **USM** (ΔG±); KindBridge never widens Scope                    |
 | Adjusting F/G for poor `CL^k`                 | Violates F–G–R & USM separation             | Route consequences to **R** only; consider narrowing Scope or adding adapters       |
 

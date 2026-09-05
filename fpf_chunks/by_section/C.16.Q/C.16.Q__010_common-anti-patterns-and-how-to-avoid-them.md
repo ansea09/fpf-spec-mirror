@@ -6,12 +6,12 @@ section_id: "C.16.Q:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 49310
-line_end: 49325
+line_start: 49297
+line_end: 49312
 dependencies:
   - "A.10"
   - "A.16"
@@ -64,11 +64,11 @@ keywords:
 
 | Anti-pattern | Symptom | Why it fails | How to avoid or repair |
 | --- | --- | --- | --- |
-| **Magic scalar quality** | one number silently stands for several evaluative families | collapses senses, carriers, and scoring legality | publish one explicit `QualitySense` and an admissible normal form |
+| **Magic scalar quality** | one number silently stands for several evaluative families | conflates senses and bearers and ignores scoring legality | publish one explicit `QualitySense` and an admissible normal form |
 | **Preconceptual-as-metric** | felt fit is presented as if it were already a measured characteristic | erases articulation stage and overstates evidence | keep it as `SignalPack` until an admissible proxy is declared |
 | **Engineering adjective drift** | *reliable, maintainable, or high-quality* appear with no explicit Characteristic or Q-Bundle | hides measurement shape and scope | rewrite to one `U.Characteristic` or one `Q-Bundle` |
 | **Selector ambiguity** | *quality in QD and NQD* is left undefined | breaks comparability and selection semantics | default to `QS.UseValue` unless another objective head is declared explicitly |
-| **Model-quality collapse** | latent fit, explanatory merit, and control adequacy are merged under one phrase | destroys carrier and frame distinctions | split into separate `qualityTermAscription(...)` records |
+| **Model-quality collapse** | latent fit, explanatory merit, and control adequacy are merged under one phrase | destroys bearer and frame distinctions | split into separate `qualityTermAscription(...)` records |
 | **Architecture-vs-description collapse** | *architecture quality* is used with no explicit bearer lane | collapses the system-side bearer into its description, carrier, or publication face | publish the bearer lane explicitly and select `QS.EngineeringQualityFamily` or `QS.ArchitecturalDescriptionFitness` |
 | **Action-invitation-as-quality** | action invitations are narrated as if they were evaluations | the rewrite hides action semantics instead of clarifying them | stop the Q-rewrite and apply `A.6.A` or another applicable action-invitation pattern; name the action invitation and its relevant relation when later use depends on them; keep source-tradition `affordance` wording only as a quoted cue |
 | **Generic-frame collapse** | one `evaluationFrame` or context label is expected to supply probe, model, comparison, scope, and scheme semantics | hides independently governed choices and makes a changed comparison look like the same claim | name the effective ReferenceScheme, probe/model frame, A.19.CPM comparison frame, and ClaimScope separately |

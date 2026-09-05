@@ -6,12 +6,12 @@ section_id: "C.2:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__009_consequences.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:8 — Consequences"
-line_start: 41871
-line_end: 41875
+line_start: 41858
+line_end: 41862
 dependencies:
   - "A.1"
   - "A.10"

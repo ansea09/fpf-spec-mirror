@@ -6,16 +6,18 @@ section_id: "C.11.CRC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__006_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:4 — Solution"
-line_start: 47650
-line_end: 47712
+line_start: 47637
+line_end: 47699
 dependencies:
   - "A.1.CSD"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.19"
   - "B.3"
   - "C.11"
@@ -44,17 +46,17 @@ keywords:
 Construct the smallest finite counterfactual comparison that can change one named decision.
 
 1. **Name the receiving decision.** State the deciding System, current `DecisionSubject`, decision deadline, current `OptionSet` or the option-set question that this comparison will inform, and which result could change the decision.
-2. **Freeze the current configuration.** Name the actual or currently relied-on configuration `S0`, system boundary, affected Systems, holder or beneficiary, relevant environment, and what is held fixed only for this comparison. If the affected-System coordinate is missing and could change the comparison, use `A.1.CSD` first; bring back only consequence claims compatible with this `S0`/`Δ`/`S1`, horizon, evidence window, and receiving decision. A historical, empty, or ideal configuration is not the default baseline.
-3. **Name the finite change.** State the addition, replacement, removal, intervention, or probe `Δ`, the realizable candidate configuration `S1`, admissibility conditions, implementation capability, transition Work, reversibility, and excluded variants.
+2. **Freeze the current configuration.** Name the actual or currently relied-on configuration `S0`, system boundary, affected Systems, the holder or beneficiary and what it holds or benefits from, relevant environment, and what is held fixed only for this comparison. If the affected-System coordinate is missing and could change the comparison, use `A.1.CSD` first; bring back only consequence claims compatible with this `S0`/`Δ`/`S1`, horizon, evidence window, and receiving decision. A historical, empty, or ideal configuration is not the default baseline.
+3. **Name the finite change.** State the addition, replacement, removal, intervention, or probe `Δ`, the realizable candidate configuration `S1`, admissibility conditions, implementation capability, planned transition work, reversibility, and excluded variants.
 4. **Fix horizon and scenarios.** State the interval, relevant states or scenarios, timing assumptions, and any decision or evidence window. Do not combine results from incompatible horizons without an explicit mapping.
 5. **Declare result coordinates.** Name the result vector whose coordinates can change the decision and the protected coordinates that may not be silently scalarized. Include affected-System consequences and distributional differences when current.
-6. **Declare resource coordinates.** Name the action, transition, information-acquisition, computation, attention, capital, time, material, energy, authority, and other resources that the field case actually consumes. Keep costs of evaluating and realizing the change distinct.
+6. **Declare resource coordinates.** For the action, transition, information acquisition, and computation, name the attention, capital, time, material, energy, and other resources consumed or expected to be consumed in this field case. State required authority separately as an admissibility condition. Keep costs of evaluating and realizing the change distinct.
 7. **Recover constraints and interactions.** State active and potentially activated constraints, complements, substitutes, thresholds, congestion, downstream effects, common causes, overlaps, and double-counting risks.
 8. **Recover option effects.** State whether the finite change opens, closes, delays, preserves, or makes irreversible later options. Keep information value and option value as decision inputs, not already realized operating results.
 9. **Qualify evidence and uncertainty.** Identify source claims, currentness, uncertainty, sensitivity/robustness results, transfer limits, rival explanations, and `A.10` reliance dispositions where an evidence-bearing claim is used.
 10. **Write the comparison claim.** State what `S1` contributes relative to `S0` only under the declared coordinates, horizon, scenarios, constraints, interactions, and evidence. Use dominated, non-dominated, beneficial, harmful, or indeterminate wording only when the stated relation supports it; do not force one scalar winner.
 11. **Route mathematical near-misses.** Apply the distinction in `C.11.CRC:4.2`; the finite comparison may consume a derivative, sensitivity, shadow price, variational, or inference result without becoming identical to it.
-12. **Return to `C.11`.** `C.11` combines this claim with preferences, belief state, outcome model, probe worth, and other premises and emits one `ChoiceResult`. State the smallest configuration, horizon, evidence, resource, constraint, or option-set change that reopens this comparison.
+12. **Return to `C.11`.** Use `C.11` to combine this claim with preferences, belief state, outcome model, probe worth, and other premises and emit one `ChoiceResult`. State the smallest configuration, horizon, evidence, resource, constraint, or option-set change that reopens this comparison.
 
 #### C.11.CRC:4.1 - Lightweight comparison form
 
@@ -100,5 +102,5 @@ This is why calculus of variations matters without becoming the default interpre
 
 **Recognition.** A user can recognize a conforming comparison when `S0`, finite `Δ`, `S1`, boundary, horizon, result and resource coordinates, interactions, uncertainty, and receiving decision are visible.
 
-**Assurance.** Trust in the numbers and relations remains separate. Field evidence must support the baseline and candidate behavior; implementation capability and transition Work must be credible; causal claims use `C.28`; source reliance uses `A.10`; material assurance uses `B.3`; authority and permission use their direct patterns. This pattern creates none of those results.
+**Assurance.** Trust in the numbers and relations remains separate. Field evidence must support the baseline and candidate behavior; implementation capability and the basis for planned transition work must be credible; causal claims use `C.28`; source reliance uses `A.10`; for an assurance claim, use `B.3` with the named target claim and assurance use; authority and permission use their direct patterns. This pattern creates none of those results.
 

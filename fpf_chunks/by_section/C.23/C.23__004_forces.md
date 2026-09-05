@@ -6,12 +6,12 @@ section_id: "C.23:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__004_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:3 — Forces"
-line_start: 53184
-line_end: 53190
+line_start: 53170
+line_end: 53176
 dependencies:
   - "A.10"
   - "B.3"
@@ -41,6 +41,6 @@ keywords:
 
 * **Pluralism vs. dispatchability.** Competing Traditions expose different invariants; selection must compare **without semantic flattening**.
 * **Maturity vs. opportunity.** Open‑ended exploration (E/E‑LOG) must coexist with **run‑safe** exploitation; *immature ≠ forbidden* → provide safe **degrade** paths.
-* **Unknowns (tri‑state).** Missing or `unknown` S2 fields must propagate **explicitly** to *degrade/abstain/sandbox*; no silent coercions.
+* **Unknowns (tri‑state).** Missing or `unknown` values in live S2 fields must propagate **explicitly** to *Degrade(mode)* (including *sandbox*) or *Abstain*; no silent coercions.
 * **Lexical discipline.** Head‑anchoring, EntityOfConcern / Description / specification-use separation, Bridge hygiene; **no tool names in Core**.
 

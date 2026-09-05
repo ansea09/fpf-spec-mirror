@@ -6,12 +6,12 @@ section_id: "C.3.1:4"
 section_title: "Core Objects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__006_core-objects.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:4 — Core Objects"
-line_start: 45495
-line_end: 45514
+line_start: 45482
+line_end: 45501
 dependencies:
   - "A.1"
   - "A.11"
@@ -58,7 +58,7 @@ keywords:
 
 A readable sentence such as `CoolingPumpKind is a subkind of PumpKind for this declared plant use` states that the direct relation obtains. It needs no occurrence identifier when no receiver distinguishes or refers to the occurrence.
 
-The criterion-entailment branch obtains when the exact narrower membership condition entails the broader one under the aligned interpretation and applicability. The closed-domain branch obtains only when the candidate domain is deliberately finite and closed, every candidate's admissibility has been checked, and exhaustive evaluation leaves no narrower `true` without a broader `true`. A counterexample refutes either proposal. A missing dependency or `unknown` judgment cannot establish either branch; a `not-applicable` request is outside the comparison.
+The relation obtains under the criterion-entailment branch when the exact narrower membership condition entails the broader one under the aligned interpretation and applicability. Under the closed-domain branch, it obtains only when the candidate domain is deliberately finite and closed, every candidate's admissibility has been checked, and exhaustive evaluation leaves no narrower `true` without a broader `true`. A counterexample refutes either proposal. A missing dependency or `unknown` judgment cannot establish either branch; a `not-applicable` request is outside the comparison.
 
 When a receiver needs one occurrence, `R_sub` is participant-determined by the ordered pair of kind identities. The effective scheme, aligned signatures, and applicability qualify how obtaining is tested and asserted. A scheme-edition change therefore prompts an alignment and renewed test; it does not create another relation occurrence. If the same participants still satisfy the condition, the same relation continues to obtain. If they no longer do, the prior obtaining claim is no longer current; another assertion may record that change without inventing a scheme-keyed occurrence.
 

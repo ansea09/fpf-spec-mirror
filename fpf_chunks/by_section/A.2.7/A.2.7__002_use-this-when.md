@@ -6,12 +6,12 @@ section_id: "A.2.7:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__002_use-this-when.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:0 — Use This When"
-line_start: 6193
-line_end: 6224
+line_start: 6226
+line_end: 6257
 dependencies:
   - "A.2"
   - "A.2.1"

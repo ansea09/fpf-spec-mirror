@@ -6,12 +6,12 @@ section_id: "A.7:9"
 section_title: "Anti‑patterns (with fixes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__011_anti-patterns-with-fixes.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:9 — Anti‑patterns (with fixes)"
-line_start: 21701
-line_end: 21743
+line_start: 21734
+line_end: 21776
 dependencies:
   - "A.1"
   - "A.10"

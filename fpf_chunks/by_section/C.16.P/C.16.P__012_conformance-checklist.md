@@ -6,12 +6,12 @@ section_id: "C.16.P:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__012_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:10 — Conformance Checklist"
-line_start: 48540
-line_end: 48550
+line_start: 48527
+line_end: 48537
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,6 +47,6 @@ keywords:
 | `CC-C16P-2` | `metric`, `score`, `axis`, `dimension`, `feature`, `property`, `indicator`, `strong`, `weak`, `robust`, `level`, `coordinate`, `threshold`, and `benchmark` are trigger words, not recovered kinds by themselves. |
 | `CC-C16P-3` | Direct `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or subject-pattern use applies the subject pattern directly when construction is already recoverable. |
 | `CC-C16P-4` | Evidence, assurance, gate, work, decision, causal-use, release, publication, benchmark, and authority claims are governed by their direct patterns. |
-| `CC-C16P-5` | The repair does not create a metrics-only restoration pattern, CHR super-pattern, scalar verdict, undefined maturity-status scheme, or release decision. |
+| `CC-C16P-5` | The repair does not create a scalar verdict, undefined maturity-status scheme, or release decision. |
 | `CC-C16P-6` | The repaired wording preserves one useful admissible reader use; type-correct but inert characterization wording is not recovered by value. |
 

@@ -6,12 +6,12 @@ section_id: "E.17:15"
 section_title: "Manager’s one‑page review (copy‑paste)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__018_manager-s-one-page-review-copy-paste.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:15 — Manager’s one‑page review (copy‑paste)"
-line_start: 83281
-line_end: 83284
+line_start: 83329
+line_end: 83332
 dependencies:
   - "A.10"
   - "A.15.4"

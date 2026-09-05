@@ -6,12 +6,12 @@ section_id: "C.16.P:7"
 section_title: "Archetypal Grounding - Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__010_archetypal-grounding-worked-cases.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:7 — Archetypal Grounding - Worked cases"
-line_start: 48521
-line_end: 48531
+line_start: 48508
+line_end: 48518
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,7 +43,7 @@ keywords:
 
 | Wording | Repair |
 | --- | --- |
-| "This pattern is stronger." | Recover the characteristic and scale. If the sentence means pattern-quality evaluation, use `E.21`; if it means relation strength, use `A.6.P`; if no scale exists, demote to ordinary prose or rewrite with the exact gain. |
+| "This pattern is stronger." | Recover which claim is meant, including any characteristic and scale it uses. If the sentence means pattern-quality evaluation, use `E.21`; if it means relation strength, use `A.6.P`; if the claimed degree of a characteristic has no scale, demote to ordinary prose or rewrite with the exact gain. |
 | "Architecture score improved." | Recover whether this is a score on a declared scale, pattern-quality coordinate, grounded architecture adequacy value, selected-structure characteristic value, Q-bundle value, benchmark result, gate threshold, or ordinary comparison. Use `C.16.P` before using the score. |
 | "The metric supports launch." | Recover measure, characteristic, scale, scoring method, threshold predicate or reference, and gate or decision pattern. The metric alone is not launch evidence, gate passage, decision authority, or launch justification. |
 | "The model has robust quality." | Recover robustness perturbation and scale, quality-term or evaluative characterization under `C.16.Q`, Q-bundle under `C.25`, or mathematical-lens use under `C.29`. |

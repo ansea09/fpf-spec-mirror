@@ -6,12 +6,12 @@ section_id: "A.6.H:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:intro — Intro"
-line_start: 21122
-line_end: 21139
+line_start: 21155
+line_end: 21172
 dependencies:
   - "A.1"
   - "A.10"
@@ -68,5 +68,5 @@ keywords:
 
 **What this buys.** A short identity-first repair from overloaded prose to one or more direct claims with exact participants and, when needed, PatternID locators for their definitions or tests—or to an explicit blocker when a needed predicate is absent.
 
-**What changes in practice.** The practitioner stops annotating a wholeness bundle and instead writes the few direct sentences the next decision consumes: which entity, which relation and participants, which rule defines or tests that claim, and which stronger inference remains blocked.
+**What changes in practice.** The practitioner writes the few direct sentences the next decision consumes: which entity, which relation and participants, which rule defines or tests that claim, and which stronger inference remains blocked.
 

@@ -6,12 +6,12 @@ section_id: "E.9:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__004_what-this-buys.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:0.2 — What this buys"
-line_start: 74074
-line_end: 74092
+line_start: 74067
+line_end: 74085
 dependencies:
   - "A.10"
   - "A.15.1"

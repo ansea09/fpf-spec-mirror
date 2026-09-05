@@ -6,12 +6,12 @@ section_id: "C.3:6"
 section_title: "Decision Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__008_decision-split.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:6 — Decision Split"
-line_start: 45355
-line_end: 45374
+line_start: 45342
+line_end: 45361
 dependencies:
   - "A.1"
   - "A.11"
@@ -52,9 +52,9 @@ keywords:
 | May this candidate be evaluated under this declaration and slice? | `C.3.2` admissibility; `not-applicable` forms no three-valued judgment |
 | Does this admissible candidate satisfy this kind under this declaration edition and slice? | `C.3.2` returns `true`, `false`, or `unknown` |
 | Does a receiving use need the represented set of true members? | `C.3.2`; `C.29` when the representation itself changes a claim-bearing use |
-| Does the assertion hold in a target slice? | `A.2.6` for its `U.ClaimScope`; do not attach that scope to the kind |
+| Does the target slice belong to the assertion's declared claim scope? | `A.2.6` for its `U.ClaimScope`; do not attach that scope to the kind |
 | Did the practice, source, team, or other locality change? | Compare exact kind definitions. Reuse the same kind when its distinction continues. Use `C.3.3` only after two distinct kinds and a proposed correspondence are independently present |
-| Did only the reference-scheme edition change? | `C.3.2` for another `KindSignature` edition and `C.3.1` for continuity and any renewed subkind test; the scheme is not a kind or relation-occurrence identity key |
+| Did only the declaration's effective reference scheme change? | `C.2.1` for another episteme and the separate edition-continuity test; `A.6.0` and `C.3.2` for signature qualification; `C.3.1` for kind continuity and any renewed subkind test; the scheme is not a kind or relation-occurrence identity key |
 | Did only the context slice change? | `C.3.2` for another applicability check, judgment input, and possible extension; the slice alone creates no bridge |
 | Is this kind proposed as another durable public FPF `U.*` kind? | `E.24.UK`, followed by applicable naming patterns |
 | Is a candidate, quality, relation, construction, episteme, status, publication occurrence, or Work being identified? | Its direct subject pattern; C.3 consumes that result and does not create it by classification notation |

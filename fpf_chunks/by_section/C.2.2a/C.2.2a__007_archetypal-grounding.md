@@ -6,12 +6,12 @@ section_id: "C.2.2a:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__007_archetypal-grounding.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:5 — Archetypal Grounding"
-line_start: 43527
-line_end: 43533
+line_start: 43512
+line_end: 43518
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -40,9 +40,9 @@ keywords:
 ---
 
 ### C.2.2a:5 - Archetypal Grounding
-**Tell.** One note can have high operator-loop anchoring yet still low closure. Another can be document-mediated and symbol-heavy while still open on route choice. Both are positions in one language-state chart, but not on one maturity progression.
+**Tell.** One note can have high operator-loop anchoring yet still low closure. Another can be document-mediated and symbol-heavy while still open on route choice. Both notes have positions in one language-state chart, but not on one maturity progression.
 
-**Show (System).** A service disturbance is a system-side phenomenon. The positioned governed `U.Episteme` publication is the alerting episteme published from that disturbance; its position claim may be moderately formal, low-closure, high in operator-loop anchoring, and mixed in representation because terse codes and natural-language hints coexist.
+**Show (System).** A service disturbance is a system-side phenomenon. The positioned governed `U.Episteme` publication is the alerting episteme published from that disturbance; its position claim may report moderate formality, low closure, high operator-loop anchoring, and mixed representation because terse codes and natural-language hints coexist.
 
 **Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting governed `U.Episteme` may be low in articulation, low in closure, trace-anchored, and only partly symbolic even when rendered into prose.
 

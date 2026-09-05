@@ -6,12 +6,12 @@ section_id: "C.2.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__006_archetypal-grounding.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:5 — Archetypal Grounding"
-line_start: 43254
-line_end: 43283
+line_start: 43240
+line_end: 43269
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,7 +63,7 @@ Informative; non-binding.
 > `c1:` “For road friction μ ∈ [0.2, 0.9] and vehicle mass m ∈ [900, 2200] kg, wheel slip stays in [0.05, 0.25] under ABS control.”
 
 * `F(c1)=F5` because the controller and constraints are expressed as a machine-checkable model plus executable test harness (C.2.3).
-* `G(c1)` is the declared operating envelope (A.2.6) as a product set in `(μ, m, speed, tire)` space.
+* `G(c1)` has the stated μ/m bounds, but this illustration leaves the speed domain and admissible tire set unspecified. Under A.2.6, those domains and any coupled restrictions are needed to decide membership of a slice satisfying the stated bounds; that membership remains unresolved here. A product set in `(μ, m, speed, tire)` space is justified only if its scope predicate admits every combination of the selected domains.
 * Evidence:
 
   * VA: model-checking of a simplified plant/controller model (strong, but only for the simplified plant).

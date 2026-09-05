@@ -6,12 +6,12 @@ section_id: "A.15.8:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__008_conformance-and-practical-checks.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:7 — Conformance and practical checks"
-line_start: 27622
-line_end: 27640
+line_start: 27656
+line_end: 27674
 dependencies:
   - "A.1"
   - "A.10"

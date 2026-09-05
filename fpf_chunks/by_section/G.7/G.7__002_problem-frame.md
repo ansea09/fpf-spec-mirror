@@ -6,12 +6,12 @@ section_id: "G.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:1 — Problem frame"
-line_start: 104577
-line_end: 104587
+line_start: 104634
+line_end: 104644
 dependencies:
   - "A.21"
   - "B.3"
@@ -53,7 +53,7 @@ keywords:
 
 ### G.7:1 - Problem frame
 
-SoTA synthesis (**G.2**) can legitimately preserve pluralism by exporting a **BridgeMatrix**: a Tradition×Tradition inventory of “comparable constructs” with preliminary notes (candidate correspondences, likely losses, tentative levels). Downstream patterns (CHR/CAL/selector/logging/shipping) cannot consume this safely unless cross‑Context reuse is:
+SoTA synthesis (**G.2**) can legitimately preserve pluralism by exporting a **BridgeMatrix**: a Tradition×Tradition inventory of “comparable constructs” with preliminary notes (candidate correspondences, likely losses, tentative levels). When the receiving use requires calibrated cross‑Context reuse, downstream patterns (CHR/CAL/selector/logging/shipping) must ensure that the reuse is:
 
 * **materialised** as explicit bridge artefacts (not implied by prose),
 * **calibrated** with a small, auditable procedure (so CL/CL^k/plane routing is not a narrative),

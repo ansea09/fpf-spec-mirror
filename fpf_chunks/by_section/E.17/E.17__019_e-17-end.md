@@ -6,12 +6,12 @@ section_id: "E.17:End"
 section_title: "E.17:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__019_e-17-end.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:End — E.17:End"
-line_start: 83285
-line_end: 83286
+line_start: 83333
+line_end: 83334
 dependencies:
   - "A.10"
   - "A.15.4"

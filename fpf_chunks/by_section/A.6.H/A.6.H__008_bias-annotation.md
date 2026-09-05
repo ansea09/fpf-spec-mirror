@@ -6,12 +6,12 @@ section_id: "A.6.H:6.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__008_bias-annotation.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:6.1 — Bias-Annotation"
-line_start: 21362
-line_end: 21369
+line_start: 21395
+line_end: 21402
 dependencies:
   - "A.1"
   - "A.10"
@@ -58,5 +58,5 @@ keywords:
 - **Architecture bias.** Use the applicable patterns and small typed vocabularies instead of one reusable wholeness schema. The minimum-current-object rule mitigates unnecessary apparatus.
 - **Ontological/epistemic bias.** It insists on separating referent, episteme, publication, Method, plan, Work, and evidence. This cost is paid only when the distinction changes the receiving use.
 - **Pragmatic bias.** It favors early disambiguation to avoid downstream refactoring. A local direct sentence is sufficient; reusable declarations or structures are added only for a named later use.
-- **Didactic bias.** It uses recurring cue words and worked cases to teach the route, while `E.10` remains the shared wording-use pattern and the cue list creates no second registry.
+- **Didactic bias.** It uses recurring cue words and worked cases to teach the route; `F.19` governs the connected language-and-precision reading, with `E.10` cues and direct wording rules where needed.
 

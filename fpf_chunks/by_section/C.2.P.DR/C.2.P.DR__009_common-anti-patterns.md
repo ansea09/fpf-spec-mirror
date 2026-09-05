@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:7"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__009_common-anti-patterns.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:7 — Common anti-patterns"
-line_start: 45240
-line_end: 45251
+line_start: 45227
+line_end: 45238
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,6 +52,6 @@ keywords:
 | Algorithm as method or description by form | Code, solver model, proof script, workflow, SOP, recipe, protocol, or diagram form is treated as proof of `U.Method` or `U.MethodDescription`. | Use A.3.1 only for the recovered reusable way of doing. Use A.3.2 only for an already identified claim-bearing episteme with one admitted `U.Method` as exact `EntityOfConcern` and a substantive way-of-doing claim; otherwise keep the representation or other claim with its subject pattern. |
 | Mechanism by prestige | `mechanism` is used because the word sounds more rigorous than method or algorithm. | Require operation algebra, laws, admissibility predicates, transport, audit, realization, or governing-definition assignment. |
 | Dashboard as gate | Green status, dashboard tile, score, or status label becomes permission or release. | Recover source relation or publication relation, state-family value, evidence relation, and gate or release pattern when current. |
-| Pattern dispatcher | Pattern relations are written as routes, exits, receivers, calls, owners, or homes. | Write declarative neighboring-pattern boundary or application relation; use `E.8` and `F.19` together when both publication-form and phrase-apparatus claims are live, or use the one subject pattern when only one claim is live. |
+| Pattern dispatcher | Pattern relations are given action or control effects through route, exit, receiver, call, owner, or home wording. | Write declarative neighboring-pattern boundary or application relation; use `E.8` and `F.19` together when both publication-form and phrase-apparatus claims are live, or use the one subject pattern when only one claim is live. |
 | Generic representation theory | The repair tries to classify every representation in FPF or becomes an API pattern, schema pattern, legal framework, workflow framework, or generic admissibility pattern. | Stop at the representation-use field set and use the subject pattern for the current claim. |
 

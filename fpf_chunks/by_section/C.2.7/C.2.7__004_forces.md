@@ -6,12 +6,12 @@ section_id: "C.2.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__004_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:3 — Forces"
-line_start: 44784
-line_end: 44790
+line_start: 44771
+line_end: 44777
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,7 +36,7 @@ keywords:
 ### C.2.7:3 - Forces
 | Force | Tension |
 |---|---|
-| **Comparability vs reductionism** | Allow comparison without compressing several factors into one slogan. |
+| **Comparability vs reductionism** | Allow comparison while preserving the distinctions among factors. |
 | **Compact core vs extensibility** | Keep a minimal starter bundle while leaving room for domain-specific refinements. |
 | **Representation vs anchoring** | Describe how the current episteme is represented without hiding what it is anchored to. |
 

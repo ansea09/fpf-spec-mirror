@@ -6,12 +6,12 @@ section_id: "C.3.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__005_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:3 — Forces"
-line_start: 45484
-line_end: 45494
+line_start: 45471
+line_end: 45481
 dependencies:
   - "A.1"
   - "A.11"
@@ -48,7 +48,7 @@ keywords:
 | --- | --- |
 | Small typed reasoning vs ontology growth | Projects need reusable kinds without a new public `U.*` name for each distinction. |
 | Preorder vs kind identity | Mutual subkind facts may hold for different intensional kinds; classification equivalence must not collapse their identities. |
-| Criterion entailment vs observed support | Exact rule entailment or an exhaustive closed domain can make the relation obtain; a non-exhaustive sample only supports an assertion. |
+| Criterion entailment vs observed support | Exact rule entailment or exhaustive evaluation of a closed domain can establish the obtaining condition; a non-exhaustive sample only supports an assertion. |
 | Stable kind vs changing declaration | A kind may continue across a compatible change, while a changed membership distinction must not inherit identity silently. |
 | Applicability vs uncertainty | A non-applicable classification request is not an `unknown` judgment and cannot establish or refute a subkind fact. |
 | Locality vs correspondence | A changed practice or source prompts comparison but does not establish another kind or a bridge. |

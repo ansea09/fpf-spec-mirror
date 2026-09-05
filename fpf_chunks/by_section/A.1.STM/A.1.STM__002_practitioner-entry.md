@@ -6,12 +6,12 @@ section_id: "A.1.STM:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__002_practitioner-entry.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:0 — Practitioner entry"
-line_start: 2823
-line_end: 2838
+line_start: 2856
+line_end: 2871
 dependencies:
   - "A.1"
   - "A.1.CSD"

@@ -6,12 +6,12 @@ section_id: "B.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__006_archetypal-grounding.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:5 — Archetypal Grounding"
-line_start: 40520
-line_end: 40551
+line_start: 40502
+line_end: 40533
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -49,9 +49,9 @@ The phase names can be shared, but each subject branch keeps its own identity an
     1. **Operate:** Named researchers perform theory-application Work using the current theory episteme.
     2. **Observe:** A research lab performs observation Work. A separately identified `C.2.1` finding episteme states that the current theory fails to predict the structure of a protein class; name separately any `E.24.PUB` publication occurrence that makes this finding available.
     3. **Refine:** A research team performs revision and testing Work. A later theory episteme, identified under `C.2.1` from its changed claim content, includes a term for the new protein class. Assert an edition relation between the two theory epistemes only if that relation obtains.
-    4. **Deploy:** The team performs publication Work for the later theory. The publication occurrence, journal acceptance, admission into a configured knowledge base, and later community use are separate relations. **Note.** The *chart* and any CG-frame readings derived from this episteme MUST cite the updated `MethodDescription` (per A.19.CN CC-A19.D1-3) to keep comparability auditable.
+    4. **Deploy:** The team performs publication Work for the later theory. The publication occurrence, journal acceptance, admission into a configured knowledge base, and later community use are separate relations. **Note.** If a *chart* or CG-frame readings are derived from this episteme, they MUST cite the `MethodDescription` of the measurement protocol actually used (per A.19.CN CC-A19.D1-3) to keep comparability auditable.
 
-  **Adaptive-specialization note.** Knowledge instantiation for one declared task family **SHALL** name the prior basis being refined from, the named work-measure threshold being pursued, the adaptation budget being spent, and the freshness or provenance basis for claiming the specialization is reusable. If the refinement is claimed as one specialization step, it **SHALL** also cite the declared `TaskFamily` or `TaskSignature` anchor consumed by `C.22.1`, `G.5`, and `G.9`. This keeps the refinement legible as contextual task-family specialization rather than vague general capability growth.
+  **Adaptive-specialization note.** When the knowledge-instantiation slice carries a bounded-specialization claim for one declared task family, that claim **SHALL** name the prior basis being refined from, the named work-measure threshold being pursued, the adaptation budget being spent, and the freshness or provenance basis for claiming the specialization is reusable. If the refinement is claimed as one specialization step, it **SHALL** also cite the declared `TaskFamily` or `TaskSignature` anchor consumed by `C.22.1`, `G.5`, and `G.9`. This keeps the refinement legible as contextual task-family specialization rather than vague general capability growth.
 
 * **Method-instantiation slice (adaptive method loop):**
   * **Context:** A field-maintenance organization uses a declared inspection-and-repair Method (`U.Method`) described by one current `U.MethodDescription`.
@@ -61,5 +61,5 @@ The phase names can be shared, but each subject branch keeps its own identity an
     3. **Refine:** Method maintainers perform revision and testing Work. A wording clarification can yield a later MethodDescription while the same Method remains current. Adding an earlier isolation action or changing a classification checkpoint can instead change identity-bearing Method semantics; decide under `A.3.1` whether the result is a refinement, substitute, or distinct successor Method, and use `B.1.5` if its composition changes. Then identify the MethodDescription episteme that describes the chosen Method.
     4. **Deploy:** A named publishing team performs publication or release Work for the later MethodDescription and, where needed, configuration or training Work for renewed Method use. Decision results, authority, acceptance, admission, and later Work that enacts the Method remain separate. Completed maintenance Work is never revised.
 
-  **Adaptive-specialization note.** Method instantiation for one declared task family **SHALL** name the narrower higher-fit specialist method or specialist portfolio being activated, the refinement budget being spent, the escalation or commit checkpoints, and the fallback when that method fails. If the method update is being used as evidence of specialization, the note **SHALL** keep the bearer of that specialization explicit: the holder, dyad, team, or scoped portfolio carries the claim; the method is only one selected vehicle. This keeps method evolution reviewable as bounded specialist acquisition rather than as hidden budget inflation.
+  **Adaptive-specialization note.** When the method-instantiation slice carries a bounded-specialization claim for one declared task family, that claim **SHALL** name the narrower higher-fit specialist method or specialist portfolio being activated, the refinement budget being spent, the escalation or commit checkpoints, and the fallback when that method fails. If the method update is being used as evidence of specialization, the note **SHALL** keep the bearer of that specialization explicit: the holder, dyad, team, or scoped portfolio carries the claim; the method is only one selected vehicle. This keeps method evolution reviewable as bounded specialist acquisition rather than as hidden budget inflation.
 

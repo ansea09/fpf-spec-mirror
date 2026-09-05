@@ -6,12 +6,12 @@ section_id: "B.1.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__011_rationale.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:10 — Rationale"
-line_start: 37834
-line_end: 37837
+line_start: 37816
+line_end: 37819
 dependencies:
   - "A.1"
   - "A.15"

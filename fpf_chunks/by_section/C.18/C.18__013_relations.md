@@ -6,12 +6,12 @@ section_id: "C.18:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__013_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:11 — Relations"
-line_start: 50150
-line_end: 50157
+line_start: 50136
+line_end: 50143
 dependencies:
   - "A.15"
   - "A.19"
@@ -55,7 +55,7 @@ keywords:
 
 Builds on: `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `E.18`.
 
-Coordinates with: `C.19` for current-pool treatment, `C.11.CRC` for a finite configuration-relative comparison, `C.11` for local choice, `C.28` for causal support of a space-change claim, `G.5` for selected-set result declaration, `E.17` and `E.24.PUB` for actual audience availability, `G.9` for parity and benchmark comparison, `G.11` for refresh, `E.23` when an archived object version enters a declared quality-improvement loop, `E.18.1` for P2W carry-through, `C.30` family, `C.32.P2S`, `C.32`, and `C.35` for architecture candidates, problem-to-structure carry-through, candidate palette admission, and generated or discovered carrier adequacy before archive or front use, `C.36` for cultural-evolution cases, `F.17`, `F.18`, and `F.9` for term and bridge work, and the A.15 family for planning or performed work.
+Coordinates with: `C.19` for current-pool treatment, `C.11.CRC` for a finite configuration-relative comparison, `C.11` for local choice, `C.28` for causal support of a space-change claim, `G.5` for selected-set result declaration, `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence and audience availability, `G.9` for parity and benchmark comparison, `G.11` for refresh, `E.23` when an archived object version enters a declared quality-improvement loop, `E.18.1` for P2W carry-through, `C.30` family for architecture candidates, `C.32.P2S` for problem-to-structure carry-through, `C.32` for candidate palette admission, `C.35` for generated or discovered result adequacy before archive or front use of architecture candidates, `C.36` for cultural-evolution cases, `F.17`, `F.18`, and `F.9` for term and bridge work, and the A.15 family for planning or performed work.
 
 
 

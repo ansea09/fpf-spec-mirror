@@ -6,12 +6,12 @@ section_id: "A.16.1:19"
 section_title: "Cue-Pack Continuation and Comparative Preservation Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__020_cue-pack-continuation-and-comparative-preservation-rule.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:19 — Cue-Pack Continuation and Comparative Preservation Rule"
-line_start: 29203
-line_end: 29213
+line_start: 29185
+line_end: 29195
 dependencies:
   - "A.16"
   - "A.16.0"

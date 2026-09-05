@@ -6,12 +6,12 @@ section_id: "B.4.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:1 — Problem frame"
-line_start: 40617
-line_end: 40621
+line_start: 40599
+line_end: 40603
 dependencies:
   - "A.15"
   - "A.16"
@@ -42,5 +42,5 @@ keywords:
 ### B.4.1:1 - Problem frame
 Observation rarely yields a ready anomaly, `A.6.A` invitation, or hypothesis in one step. Between low-articulation cue preservation and endpoint assertions under exact subject predicates, the cluster needs one explicit route-bearing seam that can publish route plurality or route selection without pretending that the cue already satisfies an endpoint predicate.
 
-That seam begins **after** `U.PreArticulationCuePack`. Cue preservation may exist before routing. `B.4.1` begins only when route publication itself becomes worth making explicit.
+That seam begins **after cue stabilization**, with `U.PreArticulationCuePack` or an equivalent early form under `A.16`. Cue preservation may exist before routing. `B.4.1` begins only when route publication itself becomes worth making explicit.
 

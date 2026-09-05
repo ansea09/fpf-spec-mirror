@@ -6,13 +6,15 @@ section_id: "E.11.PFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__010_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:7 — Conformance Checklist"
-line_start: 79969
-line_end: 79991
+line_start: 80007
+line_end: 80031
 dependencies:
+  - "A.3.2"
+  - "C.29"
   - "E.11"
   - "E.17"
   - "E.2.DA"
@@ -23,6 +25,7 @@ dependencies:
   - "E.4.DPF.DA"
   - "E.4.FPF"
   - "E.4.PFR"
+  - "E.8"
   - "G.11"
 keywords:
   - "& Search Queries"
@@ -46,9 +49,11 @@ keywords:
 | CC-PFP.9b Selected card usable | Every selected card gives the six fields in order, begins its `Mantra` value directly with repeatable plain wording, preserves a real path through several direct pattern contributions, returns to those patterns, and has zero or one same-key H5 expansion outside the compact card. Applying the form is not evidence that the card should have been selected. |
 | CC-PFP.9c Product-language guard shared | The product declares one measurable language-appropriate reading-burden rule plus mantra and compact-card maxima, and authoring and validation consume the same values. Canonical English field keys do not make whitespace limits universal. The limits check compactness; they neither select cards nor prove example coverage. |
 | CC-PFP.10 Readme projection restrained | A standalone Readme repeats a short edition cue only when circulating without it would change use or return; it does not duplicate the edition or rebuildability record. |
-| CC-PFP.11 Product boundary preserved | Framework support units share the declared framework boundary; independently useful adjacent products retain their own identity, form, access, and maintenance. |
+| CC-PFP.11 Product boundary preserved | Framework support units share the declared framework boundary; independently useful adjacent products retain the boundary selected through E.4:4.1, their own identity and form, and the access or separately established maintenance conditions that change use. |
 | CC-PFP.12 Combined carrier neutral | Every constituent product keeps its own form and identity; E.11.PFP applies only to framework constituents. |
 | CC-PFP.13 Claims remain separate | Form conformance is not reported as acceptance, adequacy, carrier identity, publication, availability, access, maintenance, or currentness. |
 | CC-PFP.14 Scope examples survive | The rule remains usable for FPF, DPF, and LPF editions and for a low-tool or non-clickable carrier without introducing a second edition identity. |
 | CC-PFP.15 Navigation remains usable | The ToC represents Readme and Preface in its established product-native grammar before the singular pattern index; headings and labels describe their purpose, and the integrated rendered-structure summary plus intended-reader inspection exposes grouping defects without a second full read. |
+| CC-PFP.16 Whole account usable | Every substantive E.8 question has a public answer, an exact inherited answer, or an explicit use-changing gap at each selected scope. The account connects Methods and their results, retains their Architectural Rationale and shared source synthesis, and leaves direct pattern entry available. Headings or locators alone do not establish this content. |
+| CC-PFP.17 Scales and relations truthful | Further useful scales remain possible; the actual specialization, profile, composition, reuse, and publication-grouping relations are distinguished. A claimed mathematical order or lattice has the conditions required by C.29. |
 

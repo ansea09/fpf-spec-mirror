@@ -6,12 +6,12 @@ section_id: "C.2.4:16"
 section_title: "Articulation Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__017_articulation-publication-package-discipline.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:16 — Articulation Publication Package Discipline"
-line_start: 44334
-line_end: 44353
+line_start: 44319
+line_end: 44338
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -42,7 +42,7 @@ keywords:
 ### C.2.4:16 - Articulation Publication Package Discipline
 
 #### C.2.4:16.1 - Minimal articulation package
-An `AE` claim that changes routing or use should publish more than a level token. State:
+An `AE` claim that changes routing or use should be published with more than a level token. State:
 
 - the exact episteme publication being judged;
 - the stable cue, question, or contrast;
@@ -57,5 +57,5 @@ Unresolved claim-bearing `role` wording goes first to `E.10.ROLE`. A bare `AE3` 
 When `AE` controls a route change, publish the intended receiving pattern, its semantic branch, the minimum recoverable structure it requires, and the current evidence that the publication meets or misses that threshold. A relational route may name `A.6.P`; another branch names its own receiving pattern.
 
 #### C.2.4:16.3 - Evidence-limited rise rule
-`AE` may rise only as far as the published anchors, slots, and contrasts warrant. Stylistic polish, templates, or rhetorical confidence do not raise `AE` on their own.
+`AE` may rise only as far as the published branch-appropriate structure—including any relevant anchors, slots, or contrasts—warrants. Stylistic polish, templates, or rhetorical confidence do not raise `AE` on their own.
 

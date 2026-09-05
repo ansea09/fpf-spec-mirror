@@ -6,12 +6,12 @@ section_id: "A.14:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:intro — Intro"
-line_start: 24187
-line_end: 24200
+line_start: 24221
+line_end: 24234
 dependencies:
   - "A.1"
   - "A.15"

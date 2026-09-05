@@ -6,13 +6,15 @@ section_id: "E.11.PFP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:1 — Problem frame"
-line_start: 79786
-line_end: 79793
+line_start: 79779
+line_end: 79786
 dependencies:
+  - "A.3.2"
+  - "C.29"
   - "E.11"
   - "E.17"
   - "E.2.DA"
@@ -23,6 +25,7 @@ dependencies:
   - "E.4.DPF.DA"
   - "E.4.FPF"
   - "E.4.PFR"
+  - "E.8"
   - "G.11"
 keywords:
   - "& Search Queries"
@@ -33,7 +36,7 @@ keywords:
 
 Use this pattern when one FPF, DPF, or LPF edition needs a public Markdown form that a cold reader can enter and a small deterministic checker can recognize. The framework's pattern set, product boundary, and edition values must already be selected for the publication being assembled or checked.
 
-The first useful result is a form application that names the edition source, the public units that bear its projections, and each missing, reordered, duplicated, unresolved, or mismatched form element. A passing form check does not accept the edition, prove framework adequacy, identify a carrier, or establish a publication occurrence.
+The first useful result is a publication arrangement in which readers can find both the whole-framework explanation and each directly useful pattern. Name the edition source and public units; locate the twelve substantive answers under section 4.7 and each missing, reordered, duplicated, unresolved, or mismatched form element. A passing form check does not accept the edition, prove framework adequacy, identify a carrier, or establish a publication occurrence.
 
 Do not use this pattern to decide whether one pattern set is a framework, whether a catalogue or guide is another product, or whether an edition is current or available. Use the E.4 family for the product and framework boundary, E.24.PUB for publication occurrence and carrier relations, and the applicable decision, quality, and currentness patterns for those claims.
 

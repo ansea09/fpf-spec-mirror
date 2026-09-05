@@ -6,12 +6,12 @@ section_id: "C.16:15a"
 section_title: "Measurement and probe note for quantum-like readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__018_measurement-and-probe-note-for-quantum-like-readings.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:15a — Measurement and probe note for quantum-like readings"
-line_start: 48318
-line_end: 48344
+line_start: 48305
+line_end: 48331
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -72,7 +72,7 @@ Minimum probe note:
 | Measurand and Characteristic | What exact subject quantity or characteristic is intended to be measured? |
 | Scale and time stance | On what Scale and Unit, at what time or window, is the value attributed? |
 | Method, model, calibration | What reusable method/model and applicable calibration basis govern the reading? |
-| Work and bindings | Which dated work, performer, resources, and actual arguments participated? |
+| Work and bindings | Which dated Work occurred, who performed it, and which resource or argument bindings does this measurement claim use? |
 | Inputs, output, uncertainty | Which model inputs determine the output quantity, and how is uncertainty propagated? |
 | Result episteme | Which C.2.1 episteme states the attributed value and interpretation basis? |
 | Boundary | Which raw output, indication, subject state, diagnosis, verdict, or decision remains separate? |

@@ -6,12 +6,12 @@ section_id: "C.11:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__012_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:11 — SoTA-Echoing"
-line_start: 47518
-line_end: 47552
+line_start: 47505
+line_end: 47539
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,27 +57,27 @@ keywords:
 | Decision under bounds cannot leave probing and deliberation cost as one slogan. | Current metareasoning and optimal-experimental-design lines treat information acquisition, probing, and computation allocation as first-class theoretical questions rather than free background steps. | [Metareasoning: Theoretical and Methodological Developments](https://pmc.ncbi.nlm.nih.gov/articles/PMC11765846/) | `C.11` therefore keeps `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation` inside the doctrine rather than hiding them in planning-only prose; the current closure rule is intentionally local or myopic over the next feasible probe, with richer sequential or non-myopic `OED` left as later strengthening. | **Adapt.** |
 | Decision and update can be embodied, online, and socially coupled. | Active-inference work treats decision as tightly coupled to action, inference, and expectation regimes rather than one disembodied one-shot selection. | [Embodied decisions as active inference](https://pmc.ncbi.nlm.nih.gov/articles/PMC12201680/) | `C.11` carries this as one neighboring repair of the chooser picture, makes social-expectation pressure explicit enough for use-time reroute or probe logic, and states honestly that full `ROE` or social-expectation object modeling remains outside this local choice body. | **Adapt.** |
 | Some decision cases exhibit context effects, order effects, response-replicability tension, and incompatible-question structure. | Current quantum-like decision and cognition work treats those cases as one measurement-sensitive research program rather than one discarded curiosity or one automatic physics transfer. | [Measurement-theory decision/cognition anchor (2025)](https://arxiv.org/abs/2503.05859) | `C.11` carries this as one named neighboring branch where those repaired limitations are real, while leaving heavier branch-specific formalism outside this body. | **Adapt.** |
-| Incompatible question/context structures need a cleaner cue than "context matters." | [Contextuality-by-Default](https://www.sciencedirect.com/science/article/abs/pii/S0022249616300207) treats same-content-looking measurements in different contexts as distinct random variables unless an admissible joint treatment is supplied. | Use CbD as the clean formal cue when question/context structure changes variable identity, joint availability, or admissible comparison inside the current option set. | **Adopt/Adapt.** |
+| Incompatible question/context structures need a cleaner cue than "context matters." | Contextuality-by-Default treats same-content-looking measurements in different contexts as distinct random variables unless an admissible joint treatment is supplied. | [Contextuality-by-Default](https://www.sciencedirect.com/science/article/abs/pii/S0022249616300207) | Use CbD as the clean formal cue when question/context structure changes variable identity, joint availability, or admissible comparison inside the current option set. | **Adopt/Adapt.** |
 | Some quantum-like lines also claim one practical representational gain from linear state dynamics over harder nonlinear underlying processes. | Quantum-like modeling in biology presents linear Hilbert-space dynamics as one simplifying and potentially faster information-processing lens over nonlinear classical biophysical dynamics, while treating this as representational modeling rather than proof that the modeled system is physically quantum. | [Quantum-like modeling in biology with open quantum systems and instruments](https://www.sciencedirect.com/science/article/pii/S0303264720301994) | `C.11` takes this only as one possible practical reason to keep the quantum-like branch available when measurement-sensitive effects are real; it does not treat quantum-like choice as one claim of physical quantumness. | **Adapt cautiously.** |
 | Broader contextual and multilevel lines pressure decision texts to keep one typed substrate rather than pure verbal drift. | Current multilevel-learning and evolution-as-inference work argues for one shared formal lens across levels even when the heavier final geometry is still unsettled. | [Multilevel selection as Bayesian inference, major transitions in individuality as structure learning](https://royalsocietypublishing.org/doi/10.1098/rsos.190202) | `C.11` therefore keeps one minimal typed floor and one wider chooser-bearing scope while stating by value that full aggregation doctrine, cross-scale or cross-collective conflict doctrine, and heavier multilevel mathematics remain outside this local choice body. | **Adapt.** |
 
 Practical reading of this alignment:
 
-- In ordinary current-option cases, start with the classical evidential baseline and use it to emit one explicit `choose now`, `probe again`, or `reroute` result under one shared `BeliefState` and `OutcomeModel`.
+- In ordinary current-option cases, start with the classical evidential baseline and use it to emit one explicit `choose now`, `reject current set`, `probe again`, or `reroute` result under one shared `BeliefState` and `OutcomeModel`.
 - Failure of a simple Bayesian or passive-read-like model is not yet evidence that QL is necessary. Try richer classical, causal, performative, instrument, active-sensing, or representation-abstraction rivals before keeping the QL branch as load-bearing.
 
 - If intervention structure changes the survivor relation, state that explicitly and switch to causal comparison rather than leaving the comparison at the level of correlation talk.
 - If predictor-coupling or structurally linked choice procedures remain load-bearing, keep the subjunctive layer visible and say what linked structure could still reverse the current result.
 - If another measurement, comparison pass, or search pass is being considered, treat its value and cost as part of the current decision doctrine rather than as one later planning afterthought.
-- If the chooser is embodied, online, and socially coupled, or if context and order effects change the comparison state, keep those repaired limitations visible by naming the observation named by value, social-expectation clarification, order stabilization, response-replicability check, or measurement-class clarification that could still change the current `ChoiceResult`, and say directly when fuller `ROE`, quantum-like state-space, or multilevel doctrine still sits outside this local choice body.
+- If the chooser is embodied, online, and socially coupled, or if context and order effects change the comparison state, keep those repaired limitations visible by naming the observation, social-expectation clarification, order stabilization, response-replicability check, or measurement-class clarification that could still change the current `ChoiceResult`, and say directly when fuller `ROE`, quantum-like state-space, or multilevel doctrine still sits outside this local choice body.
 - If the quantum-like line is activated, treat it as one measurement-sensitive mathematical lens or representational repair, not as one claim that the chooser or world is physically quantum.
 - If none of those heavier repaired limitations is live, stay with the lighter branch rather than activating one prestigious label that does not yet change the next action.
 
 Worked-slice discipline from these rows:
 
 - the system grounding slice is disciplined primarily by the bounded-resource and classical-baseline rows, so the output must end in one explicit probe-or-choose result;
-- the episteme grounding slice is disciplined primarily by the bounded-resource and subjunctive-repair rows, so the output must say what comparison pass or predictor-coupled clarification could still reverse the result;
+- the episteme grounding slice is disciplined by the bounded-resource row and the dependence layer active in the case; the output must name the comparison pass that could still reverse the result, or a predictor-coupled clarification when that coupling is live;
 - the collective and contextual grounding slice is disciplined primarily by the active-inference and quantum-like rows, so the output must name the embodied observation, framing stabilization, or reroute that now becomes lawful.
 
-**Qualification and smallest reopen.** The source uses above were checked on 2026-08-26. A newer publication does not by itself reopen `C.11`. Reopen only when it materially changes the current-option boundary, chooser, comparison basis, probe value or cost, or one branch-activation condition used by the `Solution`. Revise the affected source row and its matching procedure branch, worked slice, checklist item, or public entry cue; leave unrelated decision doctrine unchanged.
+**Smallest reopen.** A newer publication does not by itself reopen `C.11`. Reopen only when it materially changes the current-option boundary, chooser, comparison basis, probe value or cost, or one branch-activation condition used by the `Solution`. Revise the affected source row and its matching procedure branch, worked slice, checklist item, or public entry cue; leave unrelated decision doctrine unchanged.
 

@@ -6,12 +6,12 @@ section_id: "C.2.7:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__016_extension-and-migration-notes.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:15 — Extension and Migration Notes"
-line_start: 44886
-line_end: 44895
+line_start: 44873
+line_end: 44882
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,7 +36,7 @@ keywords:
 ### C.2.7:15 - Extension and Migration Notes
 
 #### C.2.7:15.1 - Local extension rule
-Contexts may add extra factors, but each added factor should answer a distinct question rather than duplicating locality, sparsity, or symbolicity under another label.
+Authors may add extra local factors, but each added factor should answer a distinct question rather than duplicating locality, sparsity, or symbolicity under another label.
 
 #### C.2.7:15.2 - Migration from alias-heavy prose
 Aliases such as `EncodingBasis` or similar should be unfolded into explicit factor dockings before they are relied upon for comparison, bridge claims, or downstream use.

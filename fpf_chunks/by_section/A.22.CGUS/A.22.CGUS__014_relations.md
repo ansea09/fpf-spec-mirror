@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__014_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:12 — Relations"
-line_start: 36258
-line_end: 36269
+line_start: 36240
+line_end: 36251
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.22.2:6"
 section_title: "Characterization, Indicators, and Comparability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__007_characterization-indicators-and-comparability.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:6 — Characterization, Indicators, and Comparability"
-line_start: 52750
-line_end: 52767
+line_start: 52736
+line_end: 52753
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,7 +70,7 @@ The heavy content stays with existing FPF patterns:
 - `G.4` carries acceptance clauses and threshold predicates;
 - use `G.5` for selector-facing selected-set result declaration when the problem enters a selected set; when actual audience availability is separately current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
 
-Missing characterization or parity relation is a current disposition. The record applies the characterization, parity, search, or pool pattern when that relation is current instead of pretending the problem is ready for P2W.
+Missing characterization or parity relation is a current disposition. When that relation is current, apply the characterization, parity, search, or pool pattern before treating the problem as ready for P2W.
 
 The `C.22.2` candidate acceptance criterion separates functional check, constraint compliance, risk or safety boundary, parity or comparison relation, and freshness window when those relations are current. Comparison frame, CG-Spec, or comparability governance is governed by `G.0`. Acceptance clauses and acceptance threshold predicates apply `G.4`; `C.22.2` may name only the needed relation, cue, or reference. Passing a test, improving one observed indicator value, or naming an acceptance phrase is not by itself sufficient for P2W use.
 

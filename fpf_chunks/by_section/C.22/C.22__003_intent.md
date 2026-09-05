@@ -6,12 +6,12 @@ section_id: "C.22:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__003_intent.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:1 — Intent"
-line_start: 51661
-line_end: 51696
+line_start: 51647
+line_end: 51682
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -47,7 +47,7 @@ Operationalise No-Free-Lunch discipline in selection by making each selector dec
 
 | Head used in this pattern | Recoverable kind or position | Direct governance boundary |
 | --- | --- | --- |
-| `TaskSignature` | C.2.1 episteme and species of `U.Signature`; this pattern's primary EntityOfConcern | C.22 governs its A.6.0 direct fields, Vocabulary, Laws, and Applicability; C.2.1 governs constitution; E.17 governs publications and carriers. |
+| `TaskSignature` | C.2.1 episteme and species of `U.Signature`; this pattern's primary EntityOfConcern | C.22 governs its A.6.0 direct fields, Vocabulary, Laws, and Applicability; C.2.1 governs constitution; E.17 supplies reader-facing publication forms, and E.24.PUB governs publication and carrier relations. |
 | `ProblemSideEpistemeRef` and `ReceivingUseEpistemeRef` | Participant designations in an assertion or description of `TaskSignatureAssignmentRelation`, not content or identity positions of TaskSignature | C.22.2 or the direct problem-side pattern defines or constrains the first episteme; the receiving-use episteme states the use but does not prove that an assignment obtains. |
 | `TaskKind` | TaskSignature position filled by one exact C.3 `U.Kind` value that types the current task or work target | C.3 governs the kind value; the field does not mint `U.Task`. |
 | `TaskFamilyRef` | Optional reference position for the comparison-relevant task family | C.22 and C.22.1 govern task-family anchoring; the reference is not the family or a selected method. |

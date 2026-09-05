@@ -6,12 +6,12 @@ section_id: "A.11:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__011_consequences.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:6 — Consequences"
-line_start: 23466
-line_end: 23473
+line_start: 23508
+line_end: 23515
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -23,18 +23,13 @@ dependencies:
   - "F.18"
   - "F.8"
 keywords:
-  - "U-kind admission"
-  - "composition"
-  - "kernel growth"
-  - "non-redundancy"
-  - "parsimony"
 ---
 
 ### A.11:6 - Consequences
 
 | Consequence | Benefit | Cost or boundary |
 | --- | --- | --- |
-| Smaller durable vocabulary | FPF stays learnable and bridgeable across domains because slot positions, relation values, records, lenses, and publication forms do not become accidental U-kinds. | The parsimony record must show the existing expression attempt by value; hand-waving about simplicity is not enough. |
+| Smaller durable vocabulary | FPF stays learnable and bridgeable across domains because already governed expressions do not become accidental U-kinds. | The parsimony record must show the best existing expression by value; hand-waving about simplicity is not enough. |
 | Better U-kind admissions | New durable values enter only with material loss, non-redundancy, action-facing contribution, boundary test, and reopen condition. | Some attractive names remain local or dependent even when they are common in source traditions. |
 | Clearer neighboring-pattern use | Readers know when to use E.24.UK, A.8, C.3, Part F naming, or a direct subject pattern. | The pattern does not choose the public name; it only decides whether durable ontology is warranted. |
 

@@ -6,12 +6,12 @@ section_id: "C.19.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:intro — Intro"
-line_start: 50689
-line_end: 50726
+line_start: 50675
+line_end: 50712
 dependencies:
   - "A.0"
   - "A.10"
@@ -23,7 +23,6 @@ dependencies:
   - "C.18"
   - "C.19"
   - "C.24"
-  - "C.5"
   - "E.23"
   - "E.3"
   - "E.5"
@@ -46,17 +45,17 @@ keywords:
 ## C.19.1 - Bitter‑Lesson Preference (BLP)
 
 **One-screen purpose (manager-first).**
-State the empirical Bitter Lesson narrowly: in search, learning, planning, and related computational work, general methods able to use increasing compute or data have often displaced hand-engineered special cases. Treat that history as a comparison pressure, not as proof about every bearer. A project may declare an analogous preference for a module, platform, organization design, evidence arrangement, or other bearer only as a separate local policy, with a scale predicate, objective vector, comparison basis, and evidence form appropriate to that bearer. Safety, cost, admissibility, uncertainty, and non-dominance remain visible; the word `general` creates no preference by itself.
+State the empirical Bitter Lesson narrowly: in search, learning, planning, and related computational work, general methods able to use increasing compute or data have often displaced hand-engineered special cases. Treat that history as a comparison pressure, not as proof about every bearer. Here *bearer* names the candidate being compared under the scale claim or generality policy. A project may declare an analogous preference for a module, platform, organization design, evidence arrangement, or other bearer only as a separate local policy, with a scale predicate, objective vector, comparison basis, and evidence form appropriate to that bearer. Safety, cost, admissibility, uncertainty, and non-dominance remain visible; the word `general` creates no preference by itself.
 **Builds on.** C.19 (E and E‑LOG), C.24 (Agent‑Tools‑CAL; **ATC‑2**), B.3 (Assurance), E.3 (Precedence), E.5 (Guard‑Rails).
 **Coordinates with.** G.5 (Selector), G.8 (SoS‑LOG Bundles), G.9 (Parity), G.11 (Refresh‑Telemetry), A.0 (On‑Ramp).
 **Keywords.** general-solution preference; scale‑amenability; **BLP‑waiver**; iso‑scale parity; **Scale‑Audit**; slope vector; **alpha and delta tolerances**.
 
 **Use this when.**
-Use `C.19.1` when a current choice or policy makes a real scale claim: a narrower special-purpose approach is preferred over a general alternative, or a general approach is preferred because its measured performance is expected to improve across a declared scale window. For search, learning, planning, and agent substrates, the empirical Bitter Lesson can supply the motivating line. For a module relation, platform, organization design, evidence-bearing episteme or work arrangement, or selected structure, state explicitly that the move is a local analogy or policy rather than an empirical Bitter-Lesson result.
+Use `C.19.1` when a current choice or policy makes a scale claim or invokes a declared generality preference: a narrower special-purpose approach is preferred over a general alternative, or a general approach is preferred because its measured performance is expected to improve across a declared scale window. For search, learning, planning, and agent substrates, the empirical Bitter Lesson can supply the motivating line. For a module relation, platform, organization design, evidence-bearing episteme or work arrangement, or selected structure, state explicitly that the move is a local analogy or policy rather than an empirical Bitter-Lesson result.
 
 The pattern governs only that scale-based comparison, preference, or waiver. It neither proves architecture adequacy nor turns a bearer label into a holon kind. If the project is merely using a bounded specialization and makes no scale advantage or durable generality claim, keep the use local under the bearer's direct pattern and stop here.
 
-When `E.23` compares a general adaptive loop with a specialized cycle or direct repair, use `C.19.1` only if the decision relies on scale advantage or a declared generality policy. The `E.23` loop still names the object under improvement, evaluation, cost and risk account, protected trade-offs, and stop or switch condition.
+When comparing a general adaptive loop with a specialized cycle or direct repair for an `E.23` use, use `C.19.1` only if the decision relies on scale advantage or a declared generality policy. The `E.23` loop still names the object under improvement, evaluation, cost and risk account, protected trade-offs, and stop or switch condition.
 
 #### C.19.1:0.1 - What Goes Wrong If Missed
 
@@ -68,7 +67,7 @@ The practitioner gets a cheap first probe before an expensive audit. It distingu
 
 #### C.19.1:0.3 - Not This Pattern When
 
-Do not use `C.19.1` to prove that an architecture candidate is adequate, declare a selected-set result, make that result available to an audience, run the improvement loop, plan or perform work, or claim a gate decision. Apply the pattern that defines and tests the current question: `C.30` or `C.32` for architecture adequacy and synthesis, `G.5` for selected-set result declaration, `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence and audience availability, `E.23` for object-version improvement, the A.15 family for work, and `A.21` for gate decisions.
+Apply the pattern that defines and tests the current question: `C.30` or `C.32` for architecture adequacy and synthesis, `G.5` for selected-set result declaration, `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence and audience availability, `E.23` for repeated object-version improvement, the A.15 family for work, and `A.21` for gate decisions.
 
 #### C.19.1:0.4 - First Output
 

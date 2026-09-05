@@ -6,12 +6,12 @@ section_id: "C.2.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__006_archetypal-grounding.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:5 — Archetypal Grounding"
-line_start: 44645
-line_end: 44651
+line_start: 44632
+line_end: 44638
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,7 +37,7 @@ keywords:
 ### C.2.6:5 - Archetypal Grounding
 **Tell.** A felt cue, a controller-side probe score, and a textual design note may all be early cues, but they are anchored differently.
 
-**Show (System).** An alert tied to an operator console is `AM.OperatorLoop`, not just "text".
+**Show (System).** An alert episteme directly tied to operator intervention or console control has mode `AM.OperatorLoop`, even when displayed as text.
 
-**Show (Episteme).** A model-probe cue grounded in latent state is `AM.ModelLatent` even when rendered into prose.
+**Show (Episteme).** An episteme published from a model-probe cue grounded in latent state has mode `AM.ModelLatent` even when rendered into prose.
 

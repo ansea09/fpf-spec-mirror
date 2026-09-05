@@ -6,12 +6,12 @@ section_id: "B.5.2.0:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__011_consequences.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:9 — Consequences"
-line_start: 41412
-line_end: 41414
+line_start: 41397
+line_end: 41399
 dependencies:
   - "A.16"
   - "A.16.0"

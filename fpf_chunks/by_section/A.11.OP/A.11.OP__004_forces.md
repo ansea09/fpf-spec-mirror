@@ -6,19 +6,23 @@ section_id: "A.11.OP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__004_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
   - "A.11.OP:3 — Forces"
-line_start: 23547
-line_end: 23558
+line_start: 23589
+line_end: 23600
 dependencies:
+  - "A.10"
   - "A.11"
   - "A.11.OP"
+  - "A.15.1"
   - "A.15.7"
+  - "A.19"
   - "A.3.1"
   - "A.3.2"
   - "B.3"
+  - "C.11"
   - "C.19.2"
   - "E.11.PUA"
   - "E.11.PUR"
@@ -38,5 +42,5 @@ keywords:
 | Local closure versus open-world reuse | A declared horizon makes action possible; unspecified future reuse cannot justify every precaution. |
 | Parsimony versus authority | A burden screen can expose ceremony, but it cannot override law, regulation, Guard-Rails, assurance floors, or direct duties. |
 | One general rule versus direct owners | The recurring admission question should be easy to find, while Method, choice, apparatus, evidence, assurance, and Work claims retain their own patterns. |
-| Plain guidance versus theory laundering | Epistemic and counterfactual distinctions help, but free-energy or physical least-action formalisms do not become a universal engineering objective. |
+| Plain guidance versus theory laundering | Use epistemic and counterfactual distinctions without importing a universal engineering objective from free-energy or physical least-action formalisms. |
 

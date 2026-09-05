@@ -6,12 +6,12 @@ section_id: "F.4:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__009_worked-cases.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:7 — Worked Cases"
-line_start: 94102
-line_end: 94135
+line_start: 94150
+line_end: 94183
 dependencies:
   - "A.15"
   - "A.15.1"

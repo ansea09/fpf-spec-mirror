@@ -6,31 +6,38 @@ section_id: "A.15.PROD:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:1 — Problem Frame"
-line_start: 27884
-line_end: 27932
+line_start: 27918
+line_end: 27955
 dependencies:
   - "A.1"
+  - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.6"
   - "A.3.1"
   - "A.3.4"
+  - "A.6.1"
   - "A.6.P.WMR"
   - "A.6.RCD"
+  - "B.3"
   - "C.2.1"
+  - "C.2.P"
   - "E.18.1"
+  - "E.24.PUB"
   - "F.18"
+  - "F.6"
   - "G.11"
 keywords:
 ---
 
 ### A.15.PROD:1 - Problem Frame
 
-**Use this when.** Practitioners **SHOULD** use this pattern when work is said to have *made*, *produced*, *built*, *assembled*, *grown*, *generated*, *finished*, or *completed* something and the receiving decision needs to know which exact production question is true. They **SHOULD** prefer it when one work occurrence is nested in larger work, several work parts act concurrently, an entity becomes identifiable before all work ends, or completion is being confused with delivery, acceptance, release, publication, or availability.
+**Use this when.** Practitioners **SHOULD** use this pattern when work is said to have *made*, *produced*, *built*, *assembled*, *grown*, *generated*, *finished*, or *completed* something and the receiving decision needs to know which exact production question is true. They **SHOULD** prefer it when one work occurrence is nested in larger work, several work parts occur concurrently, an entity becomes identifiable before all work ends, or completion is being confused with delivery, acceptance, release, publication, or availability.
 
 **Primary EntityOfConcern by selected branch.** Production wording is the umbrella. A production-work-participation claim concerns exact `currentWork`; an entity-inception claim concerns exact `producedEntity` after inception. Completion needs two claims when Work closure is asserted: the state-satisfaction claim concerns exact `completionSubject`, while the production-work-completion claim concerns exact `productionWork` and cites the separate closure governor. Keep each in its own C.2.1 episteme when persisted; never manufacture a union concern.
 
@@ -44,9 +51,9 @@ keywords:
 2. Which identity rule applies to the candidate, and at what boundary did changes attributed to this Work first make that rule true so this entity began to exist?
 3. Which subject state satisfies the applicable completion criterion, and which declared predicate or local claim makes that satisfaction close the exact production Work at this boundary?
 
-The practitioner **MUST NOT** answer one question with evidence for another.
+The practitioner **MUST NOT** substitute one branch's conclusion for another branch's answer. Shared facts may support more than one branch only through each branch's own predicate and applicability.
 
-**What goes wrong if missed.** Any work-caused change is called production; an entity is treated as existing before its identity rule first holds; a finishing operation is mistaken for entity creation; a plan, log, post-state picture, or first observation is treated as the change-producing link; and later delivery or acceptance silently rewrites historical completion.
+**What goes wrong if missed.** Any work-caused change is called production; an entity is treated as existing before its identity rule first holds; a finishing operation is mistaken for entity creation; a plan, log, post-state picture, or first observation is treated as the change-producing link; and a later delivery or acceptance claim is used to revise historical completion without a new basis and claim.
 
 **What this buys.** Teams can attribute production work at the right work boundary, state when one entity first exists, and preserve historical completion without inventing a universal relation kind. Narrow and larger production readings can coexist through exact work-part relations. Identity, completion, rework, delivery, acceptance, release, publication, and availability remain independently inspectable.
 
@@ -55,22 +62,11 @@ The practitioner **MUST NOT** answer one question with evidence for another.
 | Recognition situation | First current question | Blocked overread |
 | --- | --- | --- |
 | A fastening step is said to have "produced Car 42". | Is the step whole production work or a proper part, did Car 42 already exist, and which completion criterion is current? | The last visible step establishes neither first existence nor completion by narrative order. |
-| A culture run or spontaneous biological process is said to have "produced Batch B17". | Does A.13 recover each exact actual performer and does A.15.1 independently admit dated Work with an enacted Method; only when this production claim also consumes precise assignment-bound attribution, does F.6 then relate the Work through the same obtaining assignment; only after that, which identity or completion branch is current? | Growth or reaction alone may ground actual transformation but establishes no Work occurrence admitted under `U.Work` and no production-through-work claim; a batch label, sample, first observation, assignment, or F.6 assertion closes none of those questions. |
+| A culture run or spontaneous biological process is said to have "produced Batch B17". | Does the case satisfy the common performer/Work route in section 4.2; only then, which identity or completion branch is current? | Growth or reaction may ground an actual transformation, while production through Work still requires independently admitted Work and its own attribution basis. |
 | A build pipeline is said to have "produced ReleaseBinary 12". | Which dated build work and governed effects first established the exact artifact identity, or satisfied the build-completion criterion? | Build success, publication, release, deployment, and availability remain different claims. |
 
-**First worked replay — Car 42.**
+**First worked replay — Car 42.** Apply the common performer/Work route in section 4.2 to `FasteningCell-7`, `NutFasteningWork-42`, and their enacted fastening Method. The named Work-to-change predicate, finishing-state criterion, and separate closure rule establish that the Work completed the required fastening; Car 42 already existed. A missing Work-to-change or Work-closure governor returns the exact blocker shown in case 5.1 while preserving the independently established Work, transformation, or state-satisfaction claim.
 
-- **Work and actor.** A.13 first recovers `FasteningCell-7 : U.System` as the exact actual performer through obtaining `Car42FasteningAssignment-42`; A.15.1 independently admits `NutFasteningWork-42` and its enacted fastening Method. Because this replay expressly represents precise assignment-bound attribution, F.6 afterward relates the Work through that same assignment. F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact.
-- **Actual change.** The named Work-to-change predicate connects that Work to `Car42FastenerAttachmentTransformation`.
-- **State and closure.** At the fastening boundary, Car 42 satisfies the finishing-state criterion. `Car42FasteningClosureRule-v1` separately makes that satisfaction sufficient to close the fastening Work for this narrow use.
-- **Answer.** **The Work completed the required fastening; it did not bring Car 42 into existence.**
-
-The nearest blockers leave the established facts intact:
-
-- If the Work-to-change predicate is missing, keep the Work and transformation separate and return `missing-governor[CAR42-FASTENING-WORK-TO-CHANGE]`.
-- If Car 42 satisfies the state criterion but no rule connects that satisfaction to closure of the Work, preserve the state-satisfaction claim and return `missing-governor[CAR42-FASTENING-WORK-COMPLETION]`.
-
-Neither failure requires the practitioner to fill a universal production record.
 **So-what adoption test.** Would replacing the separate branch answers by one broad production sentence change what the receiver may rely on, schedule, audit, accept, release, or reopen? If yes, the practitioner **SHOULD** apply this recovery. If only one already-governed neighboring claim is current, the practitioner **SHOULD** use its direct pattern instead.
 
 **Not this pattern when.** Practitioners **SHOULD** use `A.15.1` directly when the only question is what work occurred; `A.3.4` when the only question is what actually changed; `A.3.1` when the only question is the reusable way of doing; the direct identity pattern when only entity identity is current; or the direct evaluation, delivery, acceptance, release, publication, availability, evidence, or assurance pattern when only that neighboring claim is current. This pattern coordinates those objects only for a selected production-recovery question.

@@ -6,12 +6,12 @@ section_id: "C.3.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__002_use-this-when.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:0 — Use This When"
-line_start: 46055
-line_end: 46072
+line_start: 46042
+line_end: 46059
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -39,5 +39,5 @@ Do not use C.3.4 merely to rename a kind, represent a catalog row, narrow claim 
 - **A.2.6 — Context slices and Scopes:** Claim and Work scope over `U.ContextSlice`.
 - **C.2.2 and C.2.3:** F–G–R and formality characterize the episteme being assessed.
 
-**Non-goals.** This pattern mandates no repository or notation. A kind-use adaptation declaration is not a governance tier, data policy, mini-type system, kind, `KindBridge`, or Scope.
+**Non-goals.** This pattern mandates no repository or notation. A kind-use adaptation declaration is not a kind, `KindBridge`, or Scope.
 

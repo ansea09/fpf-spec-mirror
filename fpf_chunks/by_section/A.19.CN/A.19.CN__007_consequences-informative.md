@@ -6,12 +6,12 @@ section_id: "A.19.CN:6"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__007_consequences-informative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:6 — Consequences (informative)"
-line_start: 31847
-line_end: 31855
+line_start: 31829
+line_end: 31837
 dependencies:
   - "A.19"
   - "A.6.1"

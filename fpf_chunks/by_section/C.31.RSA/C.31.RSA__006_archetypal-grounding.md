@@ -6,12 +6,12 @@ section_id: "C.31.RSA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__006_archetypal-grounding.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:5 — Archetypal Grounding"
-line_start: 62932
-line_end: 63024
+line_start: 62918
+line_end: 63010
 dependencies:
   - "A.10"
   - "A.19"

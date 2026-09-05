@@ -6,12 +6,12 @@ section_id: "F.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__006_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:4 — Solution"
-line_start: 100488
-line_end: 100578
+line_start: 100536
+line_end: 100629
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -117,9 +117,12 @@ Pattern prose keeps:
 - a local boundary that passes F.19:4's full independent-ground, plausible-reader, contribution, and smallest-clear-correction test; and
 - short references to related patterns after the pattern's own content is visible.
 
+Public architectural reasons stay with the explanation when they help the intended user understand, select, combine, or adapt the Methods and profiles. Apply `E.8:4.2.3` to distinguish those reasons from the current version's development history.
+
 Pattern prose moves out:
 
-- package-placement rationale;
+
+- rationale for the current draft's placement or promotion as a development decision;
 - correspondence about producing or reviewing the draft rather than using the pattern;
 - quality, projection, monolith-parity, landing, and source-management evidence; and
 - repeated boundary doctrine already carried by another pattern.

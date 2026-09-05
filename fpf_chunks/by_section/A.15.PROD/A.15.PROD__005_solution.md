@@ -6,31 +6,38 @@ section_id: "A.15.PROD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__005_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:4 — Solution"
-line_start: 27952
-line_end: 28144
+line_start: 27975
+line_end: 28149
 dependencies:
   - "A.1"
+  - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.6"
   - "A.3.1"
   - "A.3.4"
+  - "A.6.1"
   - "A.6.P.WMR"
   - "A.6.RCD"
+  - "B.3"
   - "C.2.1"
+  - "C.2.P"
   - "E.18.1"
+  - "E.24.PUB"
   - "F.18"
+  - "F.6"
   - "G.11"
 keywords:
 ---
 
 ### A.15.PROD:4 - Solution
 
-The practitioner **MUST** choose one of the three production questions, name the Work and the affected referent, candidate basis, or produced entity involved, and gather only the facts that decide that question. The practitioner **MUST** state each answer as a separate local compound relation-bearing claim and **MUST** stop or return an exact blocker when a required predicate, criterion, applicability rule, boundary fact, work granularity, or transformation-composition rule is missing. If another person, tool, or later decision must reuse the answer, publish that one claim as a C.2.1 episteme.
+The practitioner **MUST** choose one of the three production questions, name the Work and the affected referent, candidate basis, or produced entity involved, and gather only the facts that decide that question. The practitioner **MUST** state each answer as a separate local compound relation-bearing claim and **MUST** stop or return an exact blocker when a required predicate, criterion, applicability rule, boundary fact, work granularity, or transformation-composition rule is missing. If another person, tool, or later decision must reuse the answer, identify that claim as one C.2.1 episteme. When the receiving use also depends on availability to an audience through a form or carrier, establish the separate E.24.PUB publication occurrence.
 
 **Core and branch cut.** The common recovery core is receiver-first question selection, exact-object recovery, closure through declared predicates or one local claim selected under A.6.RCD disposition 2, and a deliberate stop. The production-work, entity-identity-inception, and production-completion branches add only their own `EntityOfConcern`, criterion or boundary, and branch-specific base. One branch neither inherits facts from another nor turns the common method into an omnibus production object. Work identity, transformation identity, subject identity, evidence, assurance, delivery, acceptance, release, publication, and availability remain with their subject patterns.
 
@@ -63,7 +70,7 @@ The practitioner **MUST** use only objects needed by the selected branch:
 | production-work closure governor | one declared subject predicate or one filled local A.6.RCD claim that connects exact criterion satisfaction for `completionSubject` to closure of exact `productionWork` at the boundary | states why the Work is complete; criterion satisfaction alone does not supply this link |
 | local assertion | one C.2.1 episteme | carries only the state-satisfaction claim or the production-work-completion claim needed by the selected question |
 
-A method description, work plan, objective, commitment, product specification, evaluation result, or publication enters only when a named predicate or filled local claim connects it to the selected Work, entity, or claim and omitting that connection would change the named action or decision. Otherwise keep it separate. None is constitutive of every production occurrence.
+A neighboring object enters only when a named predicate or filled local claim connects it to the selected Work, entity, or claim and omitting that connection would change the named action or decision. Otherwise keep method descriptions, work plans, objectives, commitments, product specifications, evaluation results, and E.24.PUB publication occurrences, forms, and carriers separate. None is constitutive of every production occurrence.
 
 #### A.15.PROD:4.3 - Select one production-work branch
 
@@ -75,7 +82,7 @@ The two branches can support different bounded uses. A nut-fastening occurrence 
 
 #### A.15.PROD:4.4 - Ground actual effects without inventing transformation composition
 
-The practitioner **MUST** first recover every actual transformation independently through A.3.4: changed referent, exact extent or formal boundary, boundary conditions, actual before/during/after facts, and continuity or reidentification rule. The practitioner **MUST** then name the declared domain predicate for each exact Work-to-transformation pair, state its participant order, and show the case facts that make it obtain. If no one direct predicate suffices, use a local compound claim selected under A.6.RCD disposition 2 only when its constructor, governed base predicates, actual participants, and case facts are recoverable. If neither route is present, keep the Work and transformation separately and return `missing-governor[work-to-change]`. Temporal overlap, a common changed referent, a delta expression, a log record, or a post-state picture does not establish the link.
+The practitioner **MUST** first recover every actual transformation independently through A.3.4: changed referent, exact extent or formal boundary, boundary conditions, actual before/during/after facts, and continuity or reidentification rule. The practitioner **MUST** then name the declared domain predicate for each exact Work-to-transformation pair, state its participant order, and show the case facts that make it obtain. If no one direct predicate suffices, use a local compound claim selected under A.6.RCD disposition 2 only when its constructor, governed base predicates, actual participants, and case facts are recoverable. If neither route is present, keep the Work and transformation separate and return `missing-governor[work-to-change]`. Temporal overlap, a common changed referent, a delta expression, a log record, or a post-state picture may supply evidence for those facts; the declared predicate or compound claim and its obtaining facts establish the link.
 
 One transformation identified at the resolution needed by the production claim establishes neither presence nor absence of finer transformation parts. Work parts, method parts, samples, temporal subdivisions, concurrent changes, and flow representations do not establish transformation parts or a composite transformation.
 
@@ -91,11 +98,11 @@ For this branch, the practitioner **MUST** complete all five steps:
 2. recover the named applicability predicate or filled local claim that applies that specification episteme to the exact candidate basis, subject context, and candidate `inceptionBoundary`, together with the exact actual effects of exact work and the declared links by which those effects bear on that rule;
 3. find the earliest exact `inceptionBoundary` at which the rule in that applicable specification episteme becomes true and designate the resulting exact `producedEntity` only on the after-side of that boundary; the pre-inception candidate basis remains distinct from that entity;
 4. identify exact `identityClosingWork`, using the one closing work occurrence when it exists or, for jointly necessary concurrent or nested work parts, their exact composite work under A.15.1 and its declared work-part relations; and
-5. publish a positive local inception claim only after exact `producedEntity` exists and the claim names exact `productIdentitySpecification`, its named applicability predicate or filled local claim, exact `identityClosingWork`, exact `inceptionBoundary`, and all declared work-to-change and change-to-identity predicates or compound bases.
+5. constitute a positive local inception claim as one C.2.1 episteme only after exact `producedEntity` exists and the claim names exact `productIdentitySpecification`, its named applicability predicate or filled local claim, exact `identityClosingWork`, exact `inceptionBoundary`, and all declared Work-to-change and change-to-identity predicates or compound bases. Add an E.24.PUB occurrence only when a receiving use also needs that episteme to be available through a named form or carrier.
 
-A published local inception claim **MUST** be indexed by the exact specification episteme and applicability basis used at `inceptionBoundary`. A later specification episteme does not silently rewrite that earlier claim. If an exact C.2.1 `EpistemeEditionRelation` connects the two specifications, the lineage can trigger refresh of a current dependent use, but the later specification still needs its own applicability basis at the boundary being judged. Without that relation, treat the later object as a non-continuing replacement and evaluate it independently. Changed applicability yields either a separately qualified claim under its new exact basis or an exact blocker; it does not move the earlier indexed boundary.
+A local inception claim **MUST** be indexed by the exact specification episteme and applicability basis used at `inceptionBoundary`. A later specification episteme does not silently rewrite that earlier claim. If an exact C.2.1 `EpistemeEditionRelation` connects the two specifications, the lineage can trigger refresh of a current dependent use, but the later specification still needs its own applicability basis at the boundary being judged. Without that relation, treat the later object as a non-continuing replacement and evaluate it independently. Changed applicability yields either a separately qualified claim under its new exact basis or an exact blocker; it does not move the earlier indexed boundary.
 
-A delta expression, method description, work plan, log, post-state image, identity-rule episteme, or first observation establishes none of those links by itself. Absence of recoverable work granularity for `identityClosingWork` yields a **work-granularity blocker**. Several incomparable minimal work composites yield several local inception claims; narrative simplicity supplies no rule for selecting only one.
+Supporting material, whether a representation, plan, record, rule episteme, or observation, enters one of the five steps only through its declared relation to that step; it does not replace the required Work, applicability, effect, or boundary predicate. Absence of recoverable work granularity for `identityClosingWork` yields a **work-granularity blocker**. Several incomparable minimal work composites yield several local inception claims and remain plural unless a separate selection rule applies.
 
 **Regulated-identification boundary.** A persistent identifier is not an inception criterion. A current subject practice that allocates an identifier at build or registration while keeping allocation separate from entity status supplies designation and continuity only. First existence requires a separately applicable subject-identity rule; its absence yields the exact identity-governor blocker. An assigned number does not make the candidate basis the after-side entity.
 
@@ -115,15 +122,15 @@ When persisted, this C.2.1 episteme has `completionSubject` as its exact EntityO
 
 The separate **production-work-completion claim** names exact `productionWork`, the exact state-satisfaction claim, the same boundary, and the declared closure predicate or filled local A.6.RCD claim that makes this criterion satisfaction sufficient to close that Work. Its exact EntityOfConcern is `productionWork`. If no closure governor is available, keep the positive state-satisfaction claim and return `missing-governor[production-work-completion]`; do not apply a subject-state predicate to Work by metonymy.
 
-Completion is historical. Later damage, loss, destruction, delivery, rejection, acceptance, release, publication, or unavailability does not erase an earlier true state-satisfaction or Work-completion claim. A later or replacement criterion episteme does not rewrite the earlier claim. Rework or later production Work that closes under an applicable criterion at a later boundary receives another local Work-completion claim.
+Index every historical state-satisfaction and Work-completion claim by its exact criterion episteme, applicability basis, boundary, and boundary-state facts. Later damage, loss, destruction, delivery, rejection, acceptance, release, publication, or unavailability receives a separate claim. Rework or later production Work that closes under an applicable criterion at a later boundary receives another local Work-completion claim.
 
-Entity-identity inception, criterion satisfaction, and production-Work completion remain separate even when they share a boundary. A later evaluation-result episteme may support one of these claims under a direct evidence-use relation, but it creates neither the boundary, the subject state, nor Work closure.
+Entity-identity inception, criterion satisfaction, and production-Work completion remain separate even when they share a boundary. A later evaluation-result episteme may support one of these claims under a direct evidence-use relation; the branch's declared predicates and facts still establish its boundary, subject state, and Work closure.
 
 Past Work and the two completion claims remain addressable after later destruction or evidence decay. A later assertion carries its own evidence currentness and reliance status. The produced entity, measurement or evaluation result, delivered entity, acceptance verdict, release, publication, availability, and downstream effect remain objects and claims defined and tested separately.
 
-**Practice-specific criteria stay local.** NASA systems-engineering guidance, Scrum's Definition of Done, and similar authoritative practice sources can supply a criterion for the exact subject and practice use they address. They do not by themselves identify the A.15.1 Work or state that criterion satisfaction closes it. A subject-practice closure predicate or local claim must provide that second step; transition, delivery, review, or release remains separate.
+**Practice-specific criteria stay local.** NASA systems-engineering guidance, Scrum's Definition of Done, and similar authoritative practice sources can supply a criterion for the exact subject and practice use they address. Exact A.15.1 Work identity and a subject-practice closure predicate or local claim separately establish whether criterion satisfaction closes that Work. Transition, delivery, review, and release retain their own claims.
 
-#### A.15.PROD:4.7 - Publish local claims, not an omnibus relation
+#### A.15.PROD:4.7 - State one local claim and stop
 
 The default A.6.RCD disposition is **local compound relation-bearing claim**. For an ordinary positive answer, the practitioner **MUST**:
 
@@ -150,13 +157,7 @@ Repeated use within one subject practice may justify one predicate-definition ep
 
 #### A.15.PROD:4.8 - Separate recognition from assurance
 
-**Recognition branch for ordinary work.** The practitioner **SHOULD** ask only three questions:
-
-1. Which is current: **did this Work count as production work, when did this exact entity first exist, or when was production completed?**
-2. What happened, to which existing referent or pre-inception candidate basis, and at what boundary? If first existence is current, which entity exists only after that boundary? Name only the Work or work part, method, transformations, identity rule or completion criterion, declared predicates, applicability, and boundary facts needed to decide that question.
-3. What one readable answer do those facts support, and what should the receiver do next? If one deciding fact or governor is absent, return its exact blocker instead of opening the other production questions.
-
-A positive local answer can stop at that readable conjunction. It does not require substrate vocabulary. Open only the specific semantic replay needed when the answer is negative, when first existence requires an ordered earliest-boundary judgment, or when A.6.RCD:4.2 triggers a substrate pin. The practitioner **MUST** stop when the local answer is readable and grounded and **MUST NOT** fill the rest of this pattern as a record.
+**Recognition branch for ordinary work.** Use the three questions in section 1, the branch outcomes in section 4.1, and the ordinary claim rule in section 4.7. Stop with one readable answer or exact blocker; open only the specific semantic replay needed for a negative claim, an earliest-boundary judgement, or an A.6.RCD:4.2 substrate pin.
 
 **Assurance branch for authors and high-consequence use.** Replay the exact basis in six visible groups:
 
@@ -167,34 +168,22 @@ A positive local answer can stop at that readable conjunction. It does not requi
 - **Positive and discriminating cases.** Replay both, so removal of one deciding fact blocks only the claim that consumes it.
 - **Pinned author substrate.** When A.6.RCD:4.2 requires a pin, DPF and FPF authors **MUST** record the selected substrate and edition and expose direct base predicates, applicability, hidden participants, polarity law, boundary domain and ordering, witness policy, and every earliest-boundary rule used by the claim.
 
-Assurance may warrant reliance on the claim; it does not constitute work, change, entity inception, or completion.
+Assurance may warrant reliance on the claim. Work, change, entity inception, and completion remain established by their branch predicates and obtaining facts.
 
-**Assurance scope by use.** Match the replay to the actual use:
-
-- A modeler whose declaration or model carries one local claim **MUST** check exact claim content, one truthful `EntityOfConcern`, reference scheme, participants, declared predicates, polarity, and boundary indexing.
-- A practitioner or conformance reviewer **MUST** verify that the three-question first move reaches either one grounded local answer or one exact blocker and then stops.
-- A pattern author or reviewer **MUST** also replay the worked and discriminating cases, neighbor-authority boundaries, checklist, and no-mint disposition.
-
-None of these assurance uses widens the recognition claim or adds a world-side production fact.
+**Assurance scope by use.** Replay only what the actual reliance consumes. A model or declaration checks exact claim content, one truthful `EntityOfConcern`, reference scheme, participants, predicates, polarity, and boundary indexing. A conformance use checks that the selected branch reaches one grounded answer or blocker and stops. Pattern review additionally checks the worked and discriminating cases, direct-owner boundaries, checklist, and no-mint disposition. Each assurance use assesses the stated claim; it neither widens that claim nor replaces the branch predicates and facts.
 
 #### A.15.PROD:4.9 - Run the recovery sequence and stop deliberately
 
-**Ordinary sequence.** The practitioner **MUST** stop at the first grounded answer or exact blocker:
-
-1. name the receiving action or decision and select one production question; if several are current, handle them one at a time as separate claims;
-2. recover only the exact Work, work-part, method, affected-referent, transformation, identity-specification or completion-criterion, applicability, and boundary facts needed by the selected question;
-3. select the whole-work or proper-part branch when production-work participation is current;
-4. state one readable conjunction and its positive answer, or return the exact blocker naming the missing fact, governor, applicability basis, criterion, work granularity, or boundary state; and
-5. if another person, tool, or later decision must reuse the answer, publish it as one local C.2.1 claim episteme; otherwise keep the readable answer local, then stop. Open delivery, acceptance, release, publication, availability, result, evidence, assurance, or relation-kind questions only when the named action or decision asks one of them; none follows from the production answer.
+The ordinary sequence is section 4.7 applied to the selected branch. If several production questions are current, handle each as a separate claim. For production-work participation, choose the whole-work or proper-part branch in section 4.3; for inception or completion, use sections 4.5 or 4.6. Stop after the readable answer or exact blocker. If later reuse needs a durable claim, identify its C.2.1 episteme; if the receiving use also needs availability through a form or carrier, establish the separate E.24.PUB occurrence. Open delivery, acceptance, release, publication, availability, result, evidence, assurance, or relation-kind questions only when the named action or decision asks one of them; none follows from the production answer.
 
 ##### Triggered author replay
 
-Continue beyond the ordinary sequence only for an A.6.RCD:4.2 pin-triggering use or when a negative or earliest-boundary answer consumes additional semantics:
+Continue only for an A.6.RCD:4.2 pin-triggering use or when a negative or earliest-boundary answer consumes additional semantics:
 
-6. name the branch-local constructor and, when a pin is required, the exact substrate and edition; expose only the constructor inputs, applicability, hidden-participant or witness policy, polarity law, boundary domain and ordering, and temporal rule that can change this answer;
-7. for entity inception, verify the ordered candidate-boundary domain and earliest-satisfying rule; for a negative claim, verify the applicable negation law; for completion, keep the claim indexed by its criterion, applicability basis, and boundary;
-8. if one required operator or substrate is unavailable, return the exact missing-substrate blocker rather than lowering the absence to a negative production answer; and
-9. stop after the author replay returns the same ordinary answer or blocker.
+1. name the branch-local constructor and, when a pin is required, the exact substrate and edition; expose only the inputs, applicability, hidden-participant or witness policy, polarity law, boundary domain and ordering, and temporal rule that can change this answer;
+2. for entity inception, verify the ordered candidate-boundary domain and earliest-satisfying rule; for a negative claim, verify the applicable negation law; for completion, keep the claim indexed by its criterion, applicability basis, and boundary;
+3. if one required operator or substrate is unavailable, return the exact missing-substrate blocker rather than lowering the absence to a negative production answer; and
+4. stop after the author replay returns the same ordinary answer or blocker.
 
 #### A.15.PROD:4.10 - Pattern NameCard
 

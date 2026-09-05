@@ -6,12 +6,12 @@ section_id: "A.6.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:intro — Intro"
-line_start: 15974
-line_end: 15985
+line_start: 16007
+line_end: 16018
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"

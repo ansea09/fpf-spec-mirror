@@ -6,12 +6,12 @@ section_id: "C.22.2:20"
 section_title: "Worked Slices and Anti-Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__021_worked-slices-and-anti-cases.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:20 — Worked Slices and Anti-Cases"
-line_start: 53015
-line_end: 53072
+line_start: 53001
+line_end: 53058
 dependencies:
   - "A.10"
   - "A.15"
@@ -110,7 +110,7 @@ For the unrelated branch, `InspectionReleaseAssignment` is a declared `U.SystemR
 
 | Anti-case | Correct result |
 |---|---|
-| The card is cited as safety acceptance, gate passage, tool-call action invitation, or work authorization. | Apply the safety named by value, gate, autonomy, work, evidence, provenance, or assurance pattern; keep only the problem-side cue in the card. |
+| The card is cited as safety acceptance, gate passage, tool-call action invitation, or work authorization. | Apply the pattern for the safety, gate, autonomy, work, evidence, provenance, or assurance claim; keep only the problem-side cue in the card. |
 | A mathematical phrase is added because it sounds rigorous. | Use `C.29` only when the candidate structure, preserved and lost structure, payoff, follow-up reason, and stop condition are recoverable. |
 | A source archive produces a "best" problem by one score. | Use source-set and selected-set patterns; the card carries a non-scalar source-set reference, criterion, and problem-side next use. |
 

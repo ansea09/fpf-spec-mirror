@@ -6,12 +6,12 @@ section_id: "C.2.7:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__010_consequences.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:9 — Consequences"
-line_start: 44846
-line_end: 44848
+line_start: 44833
+line_end: 44835
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,5 +34,5 @@ keywords:
 ---
 
 ### C.2.7:9 - Consequences
-The benefit is cleaner comparison across schools, substrates, and publication forms. The trade-off is that representation talk becomes more explicit and less slogan-friendly.
+The benefit is cleaner comparison across schools, substrates, and publication forms. The trade-off is the effort needed to make the relevant factor readings explicit.
 

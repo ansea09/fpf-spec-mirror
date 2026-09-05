@@ -6,12 +6,12 @@ section_id: "C.32.P2S:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__014_footer-marker.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:13 — Footer marker"
-line_start: 64155
-line_end: 64158
+line_start: 64141
+line_end: 64144
 dependencies:
   - "A.1"
   - "A.1.SCR"

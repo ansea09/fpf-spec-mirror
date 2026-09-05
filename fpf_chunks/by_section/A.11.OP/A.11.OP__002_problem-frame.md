@@ -6,19 +6,23 @@ section_id: "A.11.OP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
   - "A.11.OP:1 — Problem frame"
-line_start: 23505
-line_end: 23538
+line_start: 23547
+line_end: 23580
 dependencies:
+  - "A.10"
   - "A.11"
   - "A.11.OP"
+  - "A.15.1"
   - "A.15.7"
+  - "A.19"
   - "A.3.1"
   - "A.3.2"
   - "B.3"
+  - "C.11"
   - "C.19.2"
   - "E.11.PUA"
   - "E.11.PUR"
@@ -32,7 +36,7 @@ keywords:
 
 **Use this when.** Use this pattern when someone proposes making an action or apparatus mandatory and a plausible question remains: does this requirement change the subject work, or does it only make the route look controlled?
 
-The primary `EntityOfConcern` is one proposed mandatory requirement under one declared use and one substantive horizon. *Action*, *apparatus*, *requirement*, and *horizon* are ordinary working words here. This pattern introduces no generic `U.Apparatus`, `U.Move`, action kind, horizon kind, or result record.
+The primary `EntityOfConcern` is one proposed mandatory requirement under one declared use and one substantive horizon. The pattern governs only that admission decision; *action*, *apparatus*, *requirement*, and *horizon* keep their ordinary meanings.
 
 **First useful result.** Return one of two short answers:
 
@@ -55,7 +59,7 @@ These are one recurring problem across unlike situations: mandatory effort can b
 
 **Not this pattern when.**
 
-- When a law, regulation, duty, permission, prohibition, safety floor, evidence rule, or gate condition is in question, use the pattern or authority that establishes that obligation. This pattern neither creates nor cancels it.
+- When an applicable direct authority already establishes the obligation, use that authority. Apply A.11.OP only to discretionary apparatus inside the space it leaves.
 - When several already qualifying alternatives need comparison, use their direct choice, apparatus, architecture, or Method Engineering pattern.
 - When the question is whether a new durable ontology value should exist, use `A.11`.
 - When the question is how to use an already selected pattern, use `E.11.PUA` or `E.11.PUR`.

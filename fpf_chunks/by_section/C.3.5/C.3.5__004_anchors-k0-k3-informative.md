@@ -6,12 +6,12 @@ section_id: "C.3.5:3"
 section_title: "Anchors K0…K3 (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__004_anchors-k0-k3-informative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:3 — Anchors K0…K3 (informative)"
-line_start: 46300
-line_end: 46341
+line_start: 46287
+line_end: 46328
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -40,7 +40,7 @@ keywords:
 
 **Non-example.** A stable invariant-bearing distinction belongs nearer K2 even if few candidates are currently known.
 
-**Planning.** Prefer exact slice-bound judgments and assurance over the current candidate domain. Cross-context reuse is likely to need explicit instance correspondence and may have low `CL^k`.
+**Planning.** Prefer exact slice-bound judgments and assurance over the current candidate domain. Cross-context reuse is likely to need explicit instance correspondence. If the use relies on a KindBridge between distinct kinds, `CL^k` may be low.
 
 #### C.3.5:3.2 - K1 — Behavioral pattern
 

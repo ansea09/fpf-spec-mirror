@@ -6,12 +6,12 @@ section_id: "C.22.1:7"
 section_title: "Solution — one adaptation signature over the C.22 anchor"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__008_solution-one-adaptation-signature-over-the-c-22-anchor.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:7 — Solution — one adaptation signature over the C.22 anchor"
-line_start: 52067
-line_end: 52086
+line_start: 52053
+line_end: 52072
 dependencies:
   - "A.15"
   - "C.19.1"

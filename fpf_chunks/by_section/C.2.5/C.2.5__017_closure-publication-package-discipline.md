@@ -6,12 +6,12 @@ section_id: "C.2.5:16"
 section_title: "Closure Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__017_closure-publication-package-discipline.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:16 — Closure Publication Package Discipline"
-line_start: 44531
-line_end: 44548
+line_start: 44518
+line_end: 44535
 dependencies:
   - "A.16"
   - "A.16.0"

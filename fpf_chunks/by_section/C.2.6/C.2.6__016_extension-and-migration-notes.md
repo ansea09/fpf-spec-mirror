@@ -6,12 +6,12 @@ section_id: "C.2.6:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__016_extension-and-migration-notes.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:15 — Extension and Migration Notes"
-line_start: 44706
-line_end: 44715
+line_start: 44693
+line_end: 44702
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -40,7 +40,7 @@ keywords:
 Contexts may add local anchoring modes, but they should do so by extension of the starter family rather than by collapsing the family into a text-vs-world binary.
 
 #### C.2.6:15.2 - Migration from metaphorical prose
-Statements like "the system wants", "the note suggests", or "the operator-facing publication says" should be repaired by naming the actual anchoring mode and the actual detector/enactor or witness structure.
+When wording such as "the system wants", "the note suggests", or "the operator-facing publication says" leaves anchoring unclear, it should be repaired by naming the anchoring mode and any detector, enactor, or witness needed to explain it.
 
 #### C.2.6:15.3 - Boundary reminder
 `U.LanguageStateAnchoringMode` does not decide representation, articulation, closure, or trust by itself. It only names how the episteme is anchored.

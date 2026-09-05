@@ -6,12 +6,12 @@ section_id: "C.29:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:intro — Intro"
-line_start: 57244
-line_end: 57269
+line_start: 57230
+line_end: 57255
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "B.5.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__006_archetypal-grounding.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:5 — Archetypal Grounding"
-line_start: 41722
-line_end: 41759
+line_start: 41707
+line_end: 41746
 dependencies:
   - "A.13"
   - "A.15"
@@ -47,12 +47,14 @@ keywords:
 A thermodynamics team models a heat engine.
 
 * In the cited thermodynamics source, "thermodynamic system" names the engine under concern together with the boundary and state variables relevant to that local claim. Recover the same System already used elsewhere; the expression does not automatically name a kind or assignment.
-* "Macrostate" makes a source-local claim about a state description or characteristic bundle over, for example, pressure, volume, temperature, and particle amount. State the effective scheme and units directly; create an F.17 cell only if durable reuse needs one.
+* "Macrostate" makes a source-local claim about a state description or characteristic bundle over, for example, pressure, volume, temperature, and particle amount. State the effective scheme and units directly; recover an F.17 cell and its basis relation when the receiving claim needs them, and add a durable term row only when reuse needs one.
 * "Control volume" may name a boundary or region relation. The claim must say which entity is bounded and which exchanges cross the boundary.
 * "Free-energy objective" may name an objective claim, characteristic, or selection criterion. The claim must say which FPF value the decision uses.
 * If the engine control System is assigned a locally defined heat-source-controller system-role kind, establish a separate obtaining occurrence of the declared `U.SystemRoleAssignment` species. The source-local meaning, classification, assignment, Work, claim scope, and time window remain separate.
 
-Current physical-system claims in this example use `A.1` for system identity, `A.14` and `A.22` for composition and boundary relations, `A.3.4` for state and dynamics, `B.1.6` for work-resource aggregation, and `C.16` for measured characteristics. Planned `C.1` (Sys-CAL) may later consolidate that guidance; it is not a current governor.
+Current physical-system claims in this example use `A.1` for system identity. `A.14` distinguishes the part and whole relations actually claimed; `A.22` defines how to identify a selected organization of already established constituents and direct relations. `A.3.4` identifies an actual bounded change when one is claimed. Use `B.1.6` for any work-resource aggregation needed here and `C.16` for measured characteristics.
+
+The control-volume boundary and exchange claims require the applicable thermodynamic rule. If that rule is unavailable, retain the local description and name the missing rule rather than asserting the relation. Planned `C.1` (Sys-CAL) may later consolidate that guidance; it is not a current governor.
 
 
 What this achieves:

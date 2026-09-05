@@ -6,12 +6,12 @@ section_id: "C.16.Q:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:intro — Intro"
-line_start: 48602
-line_end: 48633
+line_start: 48589
+line_end: 48620
 dependencies:
   - "A.10"
   - "A.16"
@@ -73,7 +73,7 @@ Provide a reusable discipline for repairing overloaded quality and evaluative-ch
 
 This pattern lives in the `C.16` characterization pattern nest. It rewrites bare evaluative prose either into the evaluative form already defined for a chosen endpoint or, while endpoint selection is being stabilized, into one transitional quality-term repair form with a named bearer, `QualitySense`, effective ReferenceScheme, separate probe/model and comparison configurations, evaluator and `U.ViewpointRef`, `U.ClaimScope`, admissible normal form (`SignalPack | Characteristic | Bundle | Objective`), result/evidence/grounding boundaries, reference-plane accountability, and lexical guardrails.
 
-It allows philosophical, neuro-symbolic, control-theoretic, engineering, and open-ended-search uses to coexist without false identity by label. It does not treat quality-term or evaluative characterization as relation construction by default. When the found problem is relation construction, bridge, basedness, action-invitation relation, endpoint mismatch, or another relation-shaped claim, use `A.6.P` or the relation named by value specialization.
+It allows philosophical, neuro-symbolic, control-theoretic, engineering, and open-ended-search uses to coexist without false identity by label. It does not treat quality-term or evaluative characterization as relation construction by default. When the found problem is relation construction, bridge, basedness, action-invitation relation, endpoint mismatch, or another relation-shaped claim, use `A.6.P` or the pattern that defines or tests that relation.
 
 **Placement.**
 Part C > `C.16` characterization pattern nest > precision-restoration pattern for overloaded quality and evaluative-characterization wording.
@@ -82,7 +82,7 @@ Part C > `C.16` characterization pattern nest > precision-restoration pattern fo
 `E.10`, `E.10.ARCH`, `C.16.P`, `C.16`, `C.25`, `E.21`, `A.17`, `A.18`, `A.19`, `A.7`, `C.2.1`, `E.8`, `F.9`, and `F.18`.
 
 **Coordinates with.**
-`A.6.P` for relation-construction exits; `A.6.A` for action-invitation exits; `C.2.2a`, `A.16`, `A.16.1`, `A.16.2`, and `B.4.1` for language-state positions, admissible moves, early cues, next-use docking, and retreat; `A.16.0` only when lineage, branch, loss, or an actual responsibility-handoff history itself needs an explicit trajectory account; `B.5.2.0` for an open explanatory probe; `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7` for articulation, closure, anchoring, and representation-factor facets; `C.2.1` for effective ReferenceScheme, result-episteme identity, and optional empirical grounding; `A.2.6` for ClaimScope; `A.19.CPM` for comparison; `E.17.0`, `E.17`, and `E.18` for exact viewpoint resolution and publication; `C.30.AD` and `C.30.ASV` for architecture-description and structural-view use; `A.10` and `B.3` for evidence and assurance; `F.9` for direct cross-local Bridges and bounded-use claims; `F.9.1` only for optional stance notes about those claims; `A.19.CN` for comparability governance; and `C.3.3` for explicit kind-bridge repair when endpoint kind mismatches appear.
+`A.6.P` for relation-construction exits; `A.6.A` for action-invitation exits; `C.2.2a`, `A.16`, `A.16.1`, `A.16.2`, and `B.4.1` for language-state positions, admissible moves, early cues, next-use docking, and retreat; `A.16.0` only when lineage, branch, loss, or an actual responsibility-handoff history itself needs an explicit trajectory account; `B.5.2.0` for an open explanatory probe; `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7` for articulation, closure, anchoring, and representation-factor facets; `C.2.1` for effective ReferenceScheme, result-episteme identity, and optional empirical grounding; `A.2.6` for ClaimScope; `A.19.CPM` for comparison; `E.17.0`, `E.17`, and `E.18` for exact viewpoint resolution and publication; `C.30.AD` and `C.30.ASV` for architecture-description and structural-view use; `A.10` and `B.3` for evidence and assurance; `F.9` for direct cross-local Bridges and bounded-use claims; `F.9.1` only for optional stance notes about those claims; `A.19.CN` for comparability governance; and `C.3.3` for kind-identity comparison and any required kind-bridge repair between distinct endpoint kinds.
 
 **E.10.ARCH handoff.**
 When `E.10` encounters `quality`, `good`, `fit`, `high-quality`, `quality metric`, `quality score`, `quality characteristic`, `quality requirement`, `model quality`, `architecture quality`, `solution quality`, or evaluative `-ility` wording whose quality sense, bearer, effective ReferenceScheme, probe/model or comparison configuration, ClaimScope, endpoint normal form, or endpoint rule is hidden, `E.10.ARCH` uses `C.16.Q` only until those values are recovered. Once the recovered claim is about a characteristic or bundle, relation, action invitation, representation, evidence, assurance, gate, work, decision, source use, or another named use, apply `C.16.P`, `C.25`, `E.21`, `A.6.P`, `A.6.A`, `C.29`, `A.10`, `B.3`, `A.20`, `A.21`, `C.11`, `C.2.P`, or the pattern that defines, constrains, or tests that claim. `C.16.Q` does not absorb those neighboring rules after the handoff is clear.

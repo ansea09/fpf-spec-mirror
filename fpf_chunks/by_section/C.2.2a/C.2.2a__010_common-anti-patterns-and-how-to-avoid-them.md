@@ -6,12 +6,12 @@ section_id: "C.2.2a:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 43546
-line_end: 43553
+line_start: 43531
+line_end: 43538
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,5 +45,5 @@ keywords:
 - **Carrier collapse.** Treat a document, cue pack, or routed note as if it were the position itself. Repair by separating carrier lane, publication form, publication face, and position claim.
 - **Threshold folklore.** Speak of readiness without any explicit threshold declaration. Repair by publishing relevant local threshold notes on explicit slots.
 - **Bridge by vibe.** Similar stage language is treated as equivalence. Recover the two exact F.17 local senses and test F.9; cite a Bridge only when its predicate obtains. Otherwise keep both positions local and route the actual comparison or translation question.
-- **Corridor inflation.** Treat the navigation cluster or corridor map as if it were the subject-pattern set for all downstream semantics. Repair by naming whether the current statement belongs to the chart subject-pattern set, a seam publication form, or a downstream subject pattern.
+- **Corridor inflation.** Treat the navigation cluster or corridor map as if it were the subject-pattern set for all downstream semantics. Repair by naming the pattern that governs the current chart, seam, or downstream claim; identify any seam publication form separately.
 

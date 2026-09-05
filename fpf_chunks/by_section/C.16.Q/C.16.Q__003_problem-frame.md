@@ -6,12 +6,12 @@ section_id: "C.16.Q:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__003_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:1 — Problem frame"
-line_start: 48652
-line_end: 48687
+line_start: 48639
+line_end: 48674
 dependencies:
   - "A.10"
   - "A.16"

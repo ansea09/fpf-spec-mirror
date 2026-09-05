@@ -6,12 +6,12 @@ section_id: "A.6.B:6"
 section_title: "Cross‑quadrant link discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__008_cross-quadrant-link-discipline.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:6 — Cross‑quadrant link discipline"
-line_start: 11326
-line_end: 11404
+line_start: 11359
+line_end: 11437
 dependencies:
   - "A.10"
   - "A.2.3"

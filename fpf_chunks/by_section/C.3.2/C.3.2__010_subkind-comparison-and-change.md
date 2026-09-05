@@ -6,12 +6,12 @@ section_id: "C.3.2:8"
 section_title: "Subkind Comparison and Change"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__010_subkind-comparison-and-change.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:8 — Subkind Comparison and Change"
-line_start: 45720
-line_end: 45739
+line_start: 45707
+line_end: 45726
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -41,7 +41,7 @@ Keep these changes distinct:
 | --- | --- | --- |
 | practice, source, team, or locality changes | compare the exact kind definitions and declaration meanings | another kind or `KindBridge` |
 | two distinct kinds and a directional correspondence are current | test C.3.3 obtaining and evaluate the receiving candidate afresh | transferred source truth |
-| criterion, candidate domain, applicability, `EntityOfConcern`, or scheme changes | another `KindSignature` edition; C.3.1 decides kind continuity | another kind merely by edition |
+| criterion, candidate domain, applicability, `EntityOfConcern`, or scheme changes | another declaration episteme; `KindSignature` qualification and any edition relation are checked separately as in section 5; C.3.1 decides kind continuity | another kind merely by edition |
 | candidate fails ValueKind or slice applicability | `not-applicable`; no judgment | `unknown` or `false` |
 | candidate state changes | reevaluate in the relevant slice when admissible | a new signature or kind |
 | support or dependency becomes unavailable | `unknown` for an admissible request | `not-applicable` or known `false` |

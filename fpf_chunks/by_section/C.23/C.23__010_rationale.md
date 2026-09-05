@@ -6,12 +6,12 @@ section_id: "C.23:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__010_rationale.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:9 — Rationale"
-line_start: 53351
-line_end: 53354
+line_start: 53337
+line_end: 53340
 dependencies:
   - "A.10"
   - "B.3"
@@ -39,5 +39,5 @@ keywords:
 
 ### C.23:9 - Rationale
 
-The ladder and LOG shells align with FPF’s **Assurance calculus**: **F** (form) is governed by artefact kind, **G** (scope) by USM slices, and **R** (reliability) accumulates via WLNK then **Φ(CL)** penalties. Treating maturity as **evidence‑typed rungs**—rather than a “score”—avoids illegal arithmetic and lets **DesignRunTag** values remain separate via `DesignRunTag` discipline (A.4) and explicit GateCrossings. This mirrors contemporary **science‑of‑science** insights: replication, benchmarking, and field health indicators are the **currency** of maturity, not anecdote.  ([Science][19])
+For a named admission-assurance claim, B.3 requires each of **F**, **G**, and **R** that the use consumes to have a declared bearer, meaning, and scale. Claim scope and selected USM slices remain explicit; **WLNK** and **Φ(CL)** are used only under an applicable, calibrated aggregation or loss rule. Treating maturity as **evidence‑typed rungs**—rather than a “score”—avoids illegal arithmetic and lets **DesignRunTag** values remain separate via `DesignRunTag` discipline (A.4), with explicit GateCrossings only when a selected E.18 transformation-flow structure contains them. This mirrors the cited 2018 **science‑of‑science** insights: replication, benchmarking, and field health indicators are the **currency** of maturity, not anecdote.  ([Science][19])
 

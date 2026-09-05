@@ -6,12 +6,12 @@ section_id: "C.16.P:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__004_problem.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:2 — Problem"
-line_start: 48407
-line_end: 48417
+line_start: 48394
+line_end: 48404
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,7 +46,7 @@ How can FPF repair characterization wording without:
 - treating `metric` as a universal measurement kind;
 - treating `score` as proof, readiness, gate passage, release permission, or decision;
 - treating `axis`, `dimension`, `feature`, `property`, or `level` as a recoverable characteristic by appearance;
-- treating `strong`, `weak`, `robust`, `high`, `low`, or `better` as meaningful without a scale and comparison reference or comparator set;
+- treating `strong`, `weak`, `robust`, `high`, `low`, or `better` as scalar or ordered characterizations without their characteristic, scale, and comparison reference or comparator set;
 - turning `C.16.P` into a CHR super-pattern or replacement for `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, or `E.21`;
 - copying first-stage characterization repair lists into every subject pattern.
 

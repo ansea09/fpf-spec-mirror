@@ -6,12 +6,12 @@ section_id: "E.8:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__003_what-goes-wrong-if-missed.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0.1 — What goes wrong if missed"
-line_start: 73161
-line_end: 73164
+line_start: 73149
+line_end: 73152
 dependencies:
   - "E.10"
   - "E.10.MOVE"

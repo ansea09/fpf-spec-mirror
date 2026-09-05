@@ -6,12 +6,12 @@ section_id: "C.16.Q:7"
 section_title: "Conformance Checklist (CC-C16Q)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__009_conformance-checklist-cc-c16q.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:7 — Conformance Checklist (CC-C16Q)"
-line_start: 49267
-line_end: 49309
+line_start: 49254
+line_end: 49296
 dependencies:
   - "A.10"
   - "A.16"
@@ -73,7 +73,7 @@ A text or pattern conforms to C.16.Q iff:
 4. **CC-C16Q-4 - Effective scheme, evaluator, and viewpoint reference.**
    The effective `U.ReferenceScheme` is explicit. Evaluator and `U.ViewpointRef` are separate; a non-`none` reference resolves one exact viewpoint episteme and grants no conformance, membership, authority, or result.
 5. **CC-C16Q-5 - Substrate and referencePlane are declared when relevant.**
-   Cross-talk between preconceptual, latent-distributed, symbolic-local, and `ReferencePlane` values `world`, `concept`, and `episteme` is not allowed without explicit substrate and, when live, plane declarations.
+    Cross-talk across articulation modes (including preconceptual), representation substrates (including latent-distributed and symbolic-local), or `ReferencePlane` values `world`, `concept`, and `episteme` is not allowed without explicit substrate and, when live, plane declarations.
 6. **CC-C16Q-6 - ClaimScope, slices, and `Γ_time` are explicit.**
    One `U.ClaimScope`, its meaning-changing `U.ContextSlice` members, and any meaning-changing `Γ_time` are stated; work or publication scope does not substitute for claim scope.
 7. **CC-C16Q-7 - Admissible normal form and result boundary.**
@@ -97,7 +97,7 @@ A text or pattern conforms to C.16.Q iff:
 16. **CC-C16Q-16 - Transitional skeleton is complete.**
     The published skeleton carries bearer position and bearer-kind mismatch repair, sense, effective scheme, exact frames, evaluator, `U.ViewpointRef`, ClaimScope, qualifier expectations, normal form, result, witness/evidence/grounding discipline, admissible change classes, and cross-local boundaries without minting universal context, frame, evidence, or grounding kinds.
 17. **CC-C16Q-17 - Candidate-Set Note is used when ambiguity is live.**
-    If sense selection, bearer facet, or A.7 lane or kind (`EntityOfConcern being described`, `description`, `episteme` or publication face, or carrier when the carrier itself is evaluated) is non-obvious, the text records a short Candidate-Set Note before decision-bearing or publication-bearing use.
+    If sense selection, bearer facet, or the distinction between the evaluated EntityOfConcern, a description or other `episteme`, a publication face, and a carrier evaluated in its own right is non-obvious, the text records a short Candidate-Set Note before decision-bearing or publication-bearing use.
 18. **CC-C16Q-18 - Reference resolution is not object substitution.**
     Designators, governed refs, their resolved viewpoint or bearer objects, evaluator, result, frame, scope, grounding holon, and any selected structure remain distinct.
 19. **CC-C16Q-19 - Change verbs dock cleanly with A.6.P and A.6.5.**

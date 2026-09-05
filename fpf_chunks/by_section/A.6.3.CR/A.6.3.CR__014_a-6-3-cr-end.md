@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:End"
 section_title: "A.6.3.CR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__014_a-6-3-cr-end.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:End — A.6.3.CR:End"
-line_start: 14875
-line_end: 14876
+line_start: 14908
+line_end: 14909
 dependencies:
   - "A.15"
   - "A.6.2"

@@ -6,12 +6,12 @@ section_id: "A.15.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__010_consequences.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:9 — Consequences"
-line_start: 27212
-line_end: 27221
+line_start: 27246
+line_end: 27255
 dependencies:
   - "A.1"
   - "A.1.STM"

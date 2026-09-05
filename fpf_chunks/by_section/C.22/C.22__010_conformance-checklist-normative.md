@@ -6,12 +6,12 @@ section_id: "C.22:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__010_conformance-checklist-normative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:9 — Conformance Checklist (normative)"
-line_start: 51939
-line_end: 51963
+line_start: 51925
+line_end: 51949
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -37,7 +37,7 @@ keywords:
    1a. **Publication and designators do not define identity.** Two E.17 publications or serialized records that resolve to the same `<declaration content, EntityOfConcernRef, effectiveReferenceScheme>` identify the same TaskSignature episteme. Carrier, layout, serialization, `SignatureId`, or edition label alone does not create a new identity component.
 2. **CHR admissibility proven.** Any numeric comparison or aggregation **cites CG-Spec** by **Characteristic id** and proves **CSLC admissibility**; **no mean on ordinals; no unit mixing**.
 3. **Unknowns remain typed.** A live unknown remains `unknown`, cites the direct downstream policy, and is not coerced. The acceptance, eligibility, or selector pattern records its own governed result.
-4. **Evidence and assurance are conditional.** When the receiving use relies on evidence or provenance, cite the exact A.10 relation and only the source edition, currentness, and freshness conditions that reliance needs. When an assurance claim or material-reliance threshold is current, cite its separate B.3 result, applicable assurance lanes, and declared fold. Otherwise the TaskSignature needs neither an evidence dossier nor an assurance fold.
+4. **Evidence and assurance are conditional.** When the receiving use relies on evidence or provenance, cite the exact A.10 relation and only the source edition, currentness, and freshness conditions that reliance needs. When a named assurance claim about an exact target claim is current for this receiving use, including when a material-reliance rule requires it, cite its separate B.3 result, applicable assurance lanes, and declared fold. Otherwise the TaskSignature needs neither an evidence dossier nor an assurance fold.
 5. **Cross-semantic use is separated.** Declare `ReferencePlane` for a value or objective head when its interpretation or comparison needs it. A scheme or plane difference alone creates neither a Bridge nor a penalty. Resolve two exact F.17 local senses, test the F.9 predicate, and state any proposed use separately.
 6. **Acceptance thresholds live in CAL.** No acceptance-gate thresholds in CHR or code paths; only in **G.4 AcceptanceClauses**.
 7. **Selector-use support.** The TaskSignature exposes the scales, units, polarities, and admitted order relations needed by `G.5`; it carries no mixed-scale scalarization or local selector verdict. `G.5` governs any Pareto-set result when its admissible relation remains partial.

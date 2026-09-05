@@ -6,12 +6,12 @@ section_id: "B.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__005_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:4 — Solution"
-line_start: 40463
-line_end: 40519
+line_start: 40445
+line_end: 40501
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -39,7 +39,7 @@ Use the **Canonical Evolution Loop** as a coordinating cycle, not as a universal
 
 | Subject kind | State before using the shared cycle |
 | :--- | :--- |
-| **System** | Name the current System and the relevant continuity or transformation rule. State whether the changed System remains the same System or whether a successor System is identified. Use the System and transformation patterns for that decision. |
+| **System** | Name the current System and the relevant continuity or transformation rule. State whether the changed System remains the same System or whether a successor System is identified. Use `A.1` for System recognition, `A.3.4` for an actual bounded change of the continuing System, and `A.15.PROD` when the claim concerns first existence through production Work. |
 | **Episteme** | Identify the earlier and later epistemes under `C.2.1`. Assert an `EpistemeEditionRelation` only when its historical-continuation conditions obtain; otherwise state replacement or another direct relation. |
 | **Method** | Identify the current Method under `A.3.1`. If intended results, participant meanings, admissible conditions, safety bounds, semantic basis, acceptance criteria, or composition change, state whether the result is a refinement, substitute, or distinct successor Method. Use `B.1.5` when order-sensitive composition is current. |
 | **MethodDescription** | Identify each exact claim-bearing episteme under `A.3.2` and `C.2.1`, and any obtaining edition relation. A later description does not by itself change the Method it describes. |
@@ -86,5 +86,5 @@ Keep the account proportional. A local repair can name only the current subject,
 > 3. **Refine:** What change is being considered, and would it continue or replace the subject?
 > 4. **Deploy:** What deployment Work occurred, and what separately established fact now supports the next use?
 >
-> The gain is not a ceremonial loop. It is a readable connection from an observed basis to a real change and back to use, without losing subject identity, performers, Work, or evidence.
+> The gain is a readable connection from an observed basis to a real change and back to use, without losing subject identity, performers, Work, or evidence.
 

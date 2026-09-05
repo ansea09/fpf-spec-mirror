@@ -6,12 +6,12 @@ section_id: "C.22.2:4"
 section_title: "Problem, Task, Method, Work, and Result Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__005_problem-task-method-work-and-result-split.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:4 — Problem, Task, Method, Work, and Result Split"
-line_start: 52723
-line_end: 52741
+line_start: 52709
+line_end: 52727
 dependencies:
   - "A.10"
   - "A.15"
@@ -73,5 +73,5 @@ keywords:
 | `U.Work` | Performed dated Work | Governed by A.15.1; its record or evidence is separate. |
 | Result, measurement, assertion, evidence, or reliance | Exact output under C.16, C.2.1, A.10, G.6, B.3, G.11, or the direct result pattern | Can support a card claim but neither constitutes the card nor makes PFR obtain. |
 
-Transition to C.22 only when the card can prepare or designate the exact problem-side episteme or `ProblemProfile` needed by one receiving use and one TaskSignature is adequate for that use. If several profiles or signatures remain plausible, preserve candidates rather than asserting one assignment. When the question becomes selection, planning, performed Work, result, gate, evidence, or reliance, apply its governor instead of expanding the card.
+Use C.22 to prepare the TaskSignature from the exact problem-side episteme or `ProblemProfile` needed by one receiving use. Assert an assignment only when one TaskSignature is adequate for that use and C.22's obtaining rule holds. If several profiles or signatures remain plausible, preserve candidates rather than asserting one assignment. When the question becomes selection, planning, performed Work, result, gate, evidence, or reliance, apply its governor instead of expanding the card.
 

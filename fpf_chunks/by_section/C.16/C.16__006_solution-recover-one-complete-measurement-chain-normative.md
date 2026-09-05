@@ -6,12 +6,12 @@ section_id: "C.16:5"
 section_title: "Solution — recover one complete measurement chain (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__006_solution-recover-one-complete-measurement-chain-normative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:5 — Solution — recover one complete measurement chain (Normative)"
-line_start: 48107
-line_end: 48178
+line_start: 48094
+line_end: 48165
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -63,7 +63,7 @@ If any noun in that sentence cannot be grounded, return that exact gap rather th
 
 **M‑SUB‑1.** Name the measurand: the quantity or characteristic intended to be measured. When FPF uses a non-quantity Characteristic, name the exact subject and the Characteristic whose Scale position is being attributed.
 
-**M‑SUB‑2.** Preserve arity. An entity Characteristic has one subject; a relation Characteristic has the exact ordered or unordered tuple required by A.17. A relation reading is not silently rewritten as a unary property of one participant.
+**M‑SUB‑2.** Preserve arity. An entity Characteristic has one subject; a relation Characteristic has the exact ordered tuple required by A.17. A relation reading is not silently rewritten as a unary property of one participant.
 
 **M‑SUB‑3.** Distinguish the measurand from the actual subject state. A measurement result attributes values under a method and model; it does not make the physical, social, architectural, or epistemic state identical to the result episteme.
 
@@ -107,7 +107,7 @@ If any noun in that sentence cannot be grounded, return that exact gap rather th
 
 **M‑CMP‑1.** Direct comparability is conservative: two readings cite the same `U.DHCMethodRef`, Characteristic, Scale and Unit semantics, compatible model and calibration regime, and a compatible time or population basis. Similar labels or units are insufficient.
 
-**M‑CMP‑2.** Cross-template conversion, normalization, scoring, aggregation, comparison, selection, or cross-context transport names its exact subject pattern, method, declaration, Bridge, and loss or uncertainty consequence. C.16 does not mint a common scale or corpus-wide migration relation.
+**M‑CMP‑2.** Cross-template conversion, normalization, scoring, aggregation, comparison, selection, or cross-context transport names its method, declaration, and loss or uncertainty consequence under the pattern for that operation. Name an F.9 Bridge when cross-context semantic correspondence is required. C.16 does not mint a common scale or corpus-wide migration relation.
 
 **M‑SCORE‑1.** A Score is another declared Scale reading. Its scoring method and actual application remain under their direct Method, Work, and operation-binding patterns. A score does not overwrite its source measurement results.
 
@@ -121,5 +121,5 @@ A later comparison, diagnosis, criterion evaluation, acceptance action, or decis
 
 Use **measurand**, **measurement subject**, **Characteristic**, **Scale**, **Level**, **Coordinate**, **value**, **Unit**, **measurement method**, **measurement model**, **calibration**, **uncertainty**, **measurement work**, and **measurement-result episteme** for their exact jobs. Plain-register *metric*, *reading*, *score*, and *output* are acceptable after first-use mapping. Do not use *measurement result*, *evidence*, *validation*, or *verification* as umbrella terms for several governed objects.
 
-**Key relations.** C.16 uses A.17 and A.18 for Characteristic and Scale legality; A.6.1 for declaration-local positions and operation bindings; A.15.1 for admitted Work and its performing System; and F.6 for the exact obtaining assignment under which that System performed. If claim-bearing source wording still says only “role,” use E.10.ROLE first, then use A.2 or A.2.1 only when an exact local system-role kind, classification, or assignment has actually been recovered. C.2.1 covers the result episteme; A.10/G.6 provenance; G.11 currentness; B.3 assurance; and the exact pattern for the next diagnosis, acceptance, causality, comparison, selection, or decision question.
+**Key relations.** C.16 uses A.17 and A.18 for Characteristic and Scale legality; A.6.1 for declaration-local positions and operation bindings; A.13 for each actual performer; A.15.1 for independent admission of the dated Work; and F.6 afterward only when precise assignment-bound attribution is needed. If claim-bearing source wording still says only “role,” use E.10.ROLE first, then use A.2 or A.2.1 only when an exact local system-role kind, classification, or assignment has actually been recovered. C.2.1 covers the result episteme; A.10/G.6 provenance; G.11 currentness; B.3 assurance; and the exact pattern for the next diagnosis, acceptance, causality, comparison, selection, or decision question.
 

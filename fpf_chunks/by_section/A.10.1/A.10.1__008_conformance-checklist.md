@@ -6,12 +6,12 @@ section_id: "A.10.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__008_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:7 — Conformance Checklist"
-line_start: 23268
-line_end: 23284
+line_start: 23301
+line_end: 23317
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -39,5 +39,5 @@ keywords:
 | **CC-A10.1-9 (Subject governance).** | Truth, evidence, causality, choice, currentness, assurance, authority, permission, release, planning, Work, and other subject results **MUST** remain governed by their direct patterns and continue to their existing consumers. | Prevents common discovery from becoming domain authority. |
 | **CC-A10.1-10 (Acyclic completion).** | The completed account **MUST** cite a subject result obtained independently through application of its direct governing guidance and **MUST NOT** be used as input to that result. | Preserves the changed source → subject result → completed account direction. |
 | **CC-A10.1-11 (Local summaries and reuse).** | Preserved, narrowed, reopened, superseded, reliance withdrawn, and blocked **MUST** be local summaries of cited subject results; inspected unaffected uses and earlier source/result values **MUST** remain recoverable for their stated conditions. | Avoids a shadow status ontology and needless invalidation. |
-| **CC-A10.1-12 (Honest stop).** | A clean stop **MUST** include a fixed frame, coverage or named gaps for every included surface, a disposition for every found candidate, a subject result or blocker for every `depends` branch, the next receiver, and a reopen observation. | Makes local closure reproducible without claiming global completeness. |
+| **CC-A10.1-12 (Honest stop).** | A clean stop **MUST** include a fixed frame, coverage or named gaps for every included surface, a disposition for every found candidate, a subject result or blocker for every `depends` branch, the practitioner or System responsible for the next action, and a reopen observation. | Makes local closure reproducible without claiming global completeness. |
 

@@ -6,12 +6,12 @@ section_id: "C.22:11"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__013_consequences-informative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:11 — Consequences (informative)"
-line_start: 51983
-line_end: 51989
+line_start: 51969
+line_end: 51975
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -34,6 +34,6 @@ keywords:
 
 * **Admissible selection.** Selection is **explainable** and **inspectable**: every admission or rejection reason cites the TaskSignature positions and CHR rules on which it relied. When a separate B.3 assurance result is current, that result cites its own evidence relations, applicable assurance lanes, and declared fold.
 * **Use-bounded first, cross-semantic use explicit.** The exact EntityOfConcern, effective ReferenceScheme, ClaimScope, and receiving use are primary. When local meanings differ, an obtaining F.9 Bridge and a separate bounded-use claim make the proposed reuse inspectable; evidence reliance, assurance, gates, and packaging remain optional neighboring questions.
-* **Frictionless downstream.** G.1-G.5 use one **single, typed** TaskSignature; thresholds are cleanly separated into **Acceptance**; unknowns are not guessed.
+* **Frictionless downstream.** G.1-G.5 use one **single, typed** TaskSignature; acceptance-gate thresholds are cleanly separated into **Acceptance**; unknowns are not guessed.
 * **QD and OEE-ready.** Typed QD and GeneratorIntent fields make **declared returned-set structure** and **open-ended** generation contexts **explicit**, with admissible dominance, editioned distances, and policy-aware illumination.
 

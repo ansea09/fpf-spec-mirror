@@ -6,12 +6,12 @@ section_id: "A.16.1:14"
 section_title: "Authoring and Practitioner Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__015_authoring-and-practitioner-checks.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:14 — Authoring and Practitioner Checks"
-line_start: 29109
-line_end: 29129
+line_start: 29091
+line_end: 29111
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "A.6.REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__005_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:4 — Solution"
-line_start: 12237
-line_end: 12440
+line_start: 12270
+line_end: 12473
 dependencies:
   - "A.6.0"
   - "A.6.5"

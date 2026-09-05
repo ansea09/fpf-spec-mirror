@@ -6,12 +6,12 @@ section_id: "C.2.4:13"
 section_title: "Worked Examples and Edge Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__014_worked-examples-and-edge-cases.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:13 — Worked Examples and Edge Cases"
-line_start: 44293
-line_end: 44306
+line_start: 44278
+line_end: 44291
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -42,10 +42,10 @@ keywords:
 ### C.2.4:13 - Worked Examples and Edge Cases
 
 #### C.2.4:13.1 - High formality, low articulation
-A template may be syntactically precise and therefore high in `F`, yet still low in `AE` because the actual participants, field meanings, bearer, planned action, admitted Work occurrence, reliance move, evaluator, or ordinary domain meaning remains unclear. A local system-role kind, classification, or assignment is selected only after evidence supports that branch. Formal-looking language does not make its semantic route recoverable.
+A template may be syntactically precise and high in `F`, yet still low in `AE` because the actual participants, field meanings, bearer, planned action, admitted Work occurrence, reliance move, evaluator, or ordinary domain meaning remains unclear. A local system-role kind, classification, or assignment is selected only after evidence supports that branch. Formal-looking language does not make its semantic route recoverable.
 
 #### C.2.4:13.2 - Plain plan, high articulation
-The note `At 14:00, Maintenance Team 2 will isolate Pump P-17, replace Seal S-4, and restore service only after Leak Test LT-9 passes` uses ordinary language and little formal notation. It can still reach `AE4`: the planned actor, affected entity, ordered actions, time, and completion condition are explicit enough for the planning branch. It routes to `A.15`; it is not yet an `A.15.1` Work occurrence and needs no relation repair merely to count as explicit.
+The note `At 14:00, Maintenance Team 2 will isolate Pump P-17, replace Seal S-4, and restore service only after Leak Test LT-9 passes` uses ordinary language and little formal notation. It can still reach `AE4`: the planned actor, affected entity, ordered actions, time, and completion condition are explicit enough for the planning branch. It routes to `A.15`; the note describes planned actions, while `A.15.1` governs any admitted Work occurrence. The note needs no relation repair merely to count as explicit.
 
 #### C.2.4:13.3 - Relation-looking but wrongly routed
 A row `Maintenance Team 2 | Pump P-17 | isolate | 14:00` looks slot-shaped. If it records intended action, however, it is a compact plan row rather than proof of a durable relation. Its layout does not raise `AE` until the planning meaning and conditions are recoverable, and it does not select `A.6.P`.

@@ -6,12 +6,12 @@ section_id: "C.2.3:4"
 section_title: "Solution - U.Formality as one ordinal characteristic"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__005_solution-u-formality-as-one-ordinal-characteristic.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:4 — Solution - U.Formality as one ordinal characteristic"
-line_start: 43673
-line_end: 43711
+line_start: 43658
+line_end: 43696
 dependencies:
   - "A.16"
   - "A.18"
@@ -72,6 +72,6 @@ FPF provides the default anchor ladder `F0...F9`. A context may define sub-ancho
 
 - Every normative episteme shall declare one `F` value.
 - Thresholds that depend on rigor should be written explicitly as `F >= Fk` conditions.
-- Any raise or lowering of `F` is a content change, not a status-only change.
+- Any actual raise or lowering of expression rigor is a content change, not a status-only change. Correcting an erroneous `F` attribution changes the assessment, not necessarily the assessed episteme.
 - `F` remains declaration and reasoning infrastructure; it is not itself a governance process.
 

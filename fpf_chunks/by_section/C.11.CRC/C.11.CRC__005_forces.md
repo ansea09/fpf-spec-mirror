@@ -6,16 +6,18 @@ section_id: "C.11.CRC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__005_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:3 — Forces"
-line_start: 47640
-line_end: 47649
+line_start: 47627
+line_end: 47636
 dependencies:
   - "A.1.CSD"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.19"
   - "B.3"
   - "C.11"
@@ -46,6 +48,6 @@ keywords:
 | Local simplicity vs finite reality | Derivatives and local prices can be useful while the realizable change is indivisible, thresholded, or interacting. |
 | Multiple results vs decision closure | Several benefits, harms, and resources must stay visible without preventing a bounded choice. |
 | Current value vs future options | Waiting, learning, staging, reversibility, and path dependence can change later possibilities. |
-| Reuse vs domain authority | FPF can supply the comparison grammar; domain Methods must calculate quantities and judge evidence. |
+| Reuse vs domain authority | FPF can supply the comparison grammar; practitioners must use domain Methods to calculate quantities and judge evidence. |
 | Recognition vs assurance | A well-formed comparison can still lack trustworthy inputs, implementation capability, or required assurance. |
 

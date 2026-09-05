@@ -6,12 +6,12 @@ section_id: "E.4.DPF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__007_bias-annotation.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:6 — Bias-Annotation"
-line_start: 71466
-line_end: 71481
+line_start: 71452
+line_end: 71467
 dependencies:
   - "A.1.1"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "C.18.1:4"
 section_title: "Solution — binding lens for generator/selector profiles (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__005_solution-binding-lens-for-generator-selector-profiles-normative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:4 — Solution — binding lens for generator/selector profiles (normative)"
-line_start: 50190
-line_end: 50219
+line_start: 50176
+line_end: 50205
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -22,7 +22,6 @@ dependencies:
   - "C.18"
   - "C.19"
   - "C.24"
-  - "C.5"
   - "G.10"
   - "G.11"
   - "G.5"
@@ -57,7 +56,7 @@ keywords:
 * **ScaleWindow.** Declared range of `S` values for which behaviour claims hold (editioned). This is **distinct from** **FreshnessWindow** used by parity.
 * **Scale‑Probe.** At least **two** (preferably **≥ 3**) **parity‑respecting** points in `S` within the ScaleWindow, recorded with **replicates/seeds** and **CI/error bars** to support elasticity classification. Pick points via a **small factorial or Latin‑hypercube** when multiple knobs vary.
 * **ElasticityClass** `χ ∈ {rising, knee, flat, declining}` — a **qualitative** class; numeric exponents/fits live in domain annexes, not Core.
-* **ParityNotes.** `iso‑scale parity?` flag and **loss notes** if not achieved, plus **Bridge**, **Φ**, and **Ψ** IDs when crossing contexts; penalties affect `R` only.
+* **ParityNotes.** `iso‑scale parity?` flag and **loss notes** if not achieved, plus applicable **Bridge**, **Φ**, and **Ψ** IDs for actual crossings under **G.9**; penalties affect `R` only.
 
 #### C.18.1:4.3 - Norms (SLL).
 
@@ -72,7 +71,7 @@ keywords:
 1) **Choose knobs** `S` that are plausibly monotone in the Context (compute/data/capacity/FoA).
 2) **Pick 3–5 probe points** per active knob (edge/mid/edge) under iso‑scale parity; use a **fractional factorial** if >2 knobs.
 3) **Run replicates** (≥ 3 preferred) and **bootstrap** 95% CI on the primary objective(s); log seeds.
-4) **Estimate local slopes** on a log‑log grid; apply **piecewise/segmented regression** or a **knee detector** (e.g., L‑curve/Kneedle) to support `χ`.
+4) **Estimate local slopes** on a log‑log grid only where the declared Scale operations are admissible under **A.18** and the logged values are positive; apply **piecewise/segmented regression** or a **knee detector** (e.g., L‑curve/Kneedle) to support `χ`.
 5) **Record invariants** (pinned knobs, safety envelope) and publish **SLL.Card@Context**.
 6) **If χ changes** across the window, split the ScaleWindow and re‑classify per segment.
 

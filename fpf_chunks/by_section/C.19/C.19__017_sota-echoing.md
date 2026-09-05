@@ -6,12 +6,12 @@ section_id: "C.19:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__017_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:11 — SoTA-Echoing"
-line_start: 50666
-line_end: 50675
+line_start: 50652
+line_end: 50661
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -53,7 +53,7 @@ keywords:
 
 ### C.19:11 - SoTA-Echoing
 
-**Source-currentness boundary (reviewed through 2026-08-01).** The mutable arXiv sources below are pinned to exact editions; the journal QD source is pinned by DOI and publication record. Reopen this source-use judgement when a pinned arXiv record receives a newer version, the journal source is corrected, retracted, or materially superseded, or a proposal would promote a particular heterogeneity quota or sampler into a C.19 norm. `G.11` is the pattern for that refresh. These sources inform policy pressures and pattern boundaries; none installs its algorithm, quota, or sampler as the default FPF method.
+**Source-currentness boundary.** The mutable arXiv sources below are pinned to exact editions; the journal QD source is pinned by DOI and publication record. Reopen this source-use judgement when a pinned arXiv record receives a newer version, the journal source is corrected, retracted, or materially superseded, or a proposal would promote a particular heterogeneity quota or sampler into a C.19 norm. `G.11` is the pattern for that refresh. These sources inform policy pressures and pattern boundaries; none installs its algorithm, quota, or sampler as the default FPF method.
 
 | Source or source family | Adopted FPF move | Rejected overread | Practitioner implication |
 |---|---|---|---|

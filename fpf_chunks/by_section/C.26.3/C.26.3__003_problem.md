@@ -6,12 +6,12 @@ section_id: "C.26.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__003_problem.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:2 — Problem"
-line_start: 55428
-line_end: 55435
+line_start: 55414
+line_end: 55421
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.6.H:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__005_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:4 — Solution"
-line_start: 21184
-line_end: 21297
+line_start: 21217
+line_end: 21330
 dependencies:
   - "A.1"
   - "A.10"
@@ -128,9 +128,9 @@ A sentence may require several rows. Write several direct claims; do not bundle 
 
 #### A.6.H:4.6 - Use wording as a cue, not as ontology
 
-The following recurring expressions are useful review cues, not a second trigger registry:
+The following recurring expressions are useful review cues:
 
-- *whole*, *entire*, *integrated*, *coherent*, *holistic* — ask whether there is an actual candidate whole, a measured or assurance claim, or only rhetoric;
+- *whole*, *entire*, *integrated*, *coherent*, *holistic* — ask whether there is an actual candidate whole, a measurement or assurance claim, or only rhetoric;
 - *part*, *piece*, *component*, *module*, *element*, *subsystem*, *includes*, *contains*, *comprises* — recover the object and direct relation rather than accepting the noun;
 - *phase*, *version*, *revision*, *edition*, *lifecycle* — apply the direct identity pattern before any history label;
 - *complete*, *turnkey*, *end-to-end*, *fully specified* — recover the exact coverage or completion claim;

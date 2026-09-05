@@ -6,12 +6,12 @@ section_id: "C.27.TA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__008_bias-annotation.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:6 — Bias-Annotation"
-line_start: 56424
-line_end: 56435
+line_start: 56410
+line_end: 56421
 dependencies:
   - "A.10"
   - "A.15.1"

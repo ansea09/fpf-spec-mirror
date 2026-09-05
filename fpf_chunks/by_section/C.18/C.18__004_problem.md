@@ -6,12 +6,12 @@ section_id: "C.18:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__004_problem.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:2 — Problem"
-line_start: 49889
-line_end: 49897
+line_start: 49874
+line_end: 49883
 dependencies:
   - "A.15"
   - "A.19"
@@ -53,10 +53,11 @@ keywords:
 
 ### C.18:2 - Problem
 
-Without C.18, a team often compresses several different objects into one word such as archive, front, Q-front, portfolio, style pool, or candidate set. That loses four distinctions:
+Without C.18, a team often compresses several different objects into one word such as archive, front, Q-front, portfolio, style pool, or candidate set. That loses the distinctions between front, archive, and telemetry use:
 
 - a front answers current non-domination under a declared comparator or dominance set;
 - an archive answers retained exploration value, coverage, stepping-stone value, or future reachability under a declared retention policy;
-- telemetry reports search health, coverage, novelty, diversity, or lineage but does not by itself dominate alternatives;
-- use `G.5` for downstream selected-set result declaration, `C.11` for local choice, the applicable `C.30` or `C.32` pattern for an architecture claim or candidate, `C.36` for cultural-evolution case work, `A.15.2` for planning, `A.15.1` for performed Work, and `G.11` for currentness and refresh.
+- telemetry reports search health, coverage, novelty, diversity, or lineage but does not by itself dominate alternatives.
+
+Use `G.5` for downstream selected-set result declaration, `C.11` for local choice, the applicable `C.30` or `C.32` pattern for an architecture claim or candidate, `C.36` for cultural-evolution case work, `A.15.2` for planning, `A.15.1` for performed Work, and `G.11` for currentness and refresh.
 

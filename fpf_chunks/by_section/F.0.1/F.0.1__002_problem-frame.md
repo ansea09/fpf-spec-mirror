@@ -6,12 +6,12 @@ section_id: "F.0.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:1 — Problem frame"
-line_start: 92677
-line_end: 92688
+line_start: 92725
+line_end: 92736
 dependencies:
   - "E.10"
   - "E.10.D1"

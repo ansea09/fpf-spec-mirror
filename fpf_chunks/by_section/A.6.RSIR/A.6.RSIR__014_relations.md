@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__014_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:12 — Relations"
-line_start: 17613
-line_end: 17628
+line_start: 17646
+line_end: 17661
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ keywords:
 
 ### A.6.RSIR:12 - Relations
 
-`E.10` detects trigger wording. Apply `E.10.ROLE` once to bare claim-bearing *role*. Apply RSIR afterward only if one concrete direct-relation, declaration, interface, operation, or representation question remains; all other recovered branches use their direct rules and leave RSIR closed. `E.10.ARCH` describes both entries in the shared restoration architecture.
+Use `F.19` for the whole-span reading with the compact cues in `E.10:0.2`. Apply `E.10.ROLE` once to bare claim-bearing *role*. Apply RSIR afterward only if one concrete direct-relation, declaration, interface, operation, or representation question remains; all other recovered branches use their direct rules and leave RSIR closed. `E.10.ARCH` describes both entries in the shared restoration architecture.
 
 `A.6.5` defines complete declaration-local `SlotSpec = <SlotKind, ValueKind, refMode>` content inside one exact `RelationSignature` and, only when a compatible `SlotSpec` is current, participant-designation typing. `C.2.1` supplies the assertion or description episteme's identity rule, while the direct claim rule supplies predicate, polarity, and use. An ordinary assertion may designate actual participants directly without reusable declaration.
 

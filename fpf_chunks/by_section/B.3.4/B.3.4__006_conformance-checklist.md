@@ -6,12 +6,12 @@ section_id: "B.3.4:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__006_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:5 — Conformance Checklist"
-line_start: 40019
-line_end: 40026
+line_start: 40001
+line_end: 40008
 dependencies:
   - "A.10"
   - "B.3"

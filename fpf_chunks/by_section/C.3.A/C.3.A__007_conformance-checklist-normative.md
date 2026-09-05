@@ -6,12 +6,12 @@ section_id: "C.3.A:6"
 section_title: "Conformance checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__007_conformance-checklist-normative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:6 — Conformance checklist (normative)"
-line_start: 46583
-line_end: 46603
+line_start: 46570
+line_end: 46590
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -35,12 +35,12 @@ keywords:
 
 | ID | Requirement |
 | --- | --- |
-| **GC-01** | A universally quantified claim pins both claim-kind and receiving-kind declaration editions; same-context restriction requires the receiving kind to be identical to or a subkind of the claim kind, while producer/output positions use their own direction. No candidate is invented. |
-| **GC-02** | Every claim-to-candidate use pins candidate, claim kind, receiving kind, both needed signature editions, and slice; it evaluates the target receiving judgment and consumes `true`/`false`/`unknown`. |
-| **GC-03** | `unknown` and known `false` remain distinct from each other and from guard refusal. |
+| **GC-01** | A universally quantified claim pins both claim-kind and receiving-kind declaration editions; the non-bridged restriction requires the receiving kind to be identical to or a subkind of the claim kind, while producer/output positions use their own direction. No candidate is invented. |
+| **GC-02** | Every claim-to-candidate use pins candidate, claim kind, receiving kind, both needed signature editions, and slice; it checks admissibility before evaluating the target receiving judgment and consuming `true`/`false`/`unknown`. An inadmissible request retains `not-applicable` without a judgment. |
+| **GC-03** | `not-applicable`, `unknown`, and known `false` remain distinct from each other and from guard refusal. |
 | **GC-04** | RoleMask use recovers the declaration episteme and exact masked judgment; any MaskAdapter remains a separate declaration. |
-| **GC-05** | Cross-context use recovers both bridge channels, the exact target declaration, and a fresh target judgment when a candidate is current; penalties route to R only. |
-| **GC-06** | Scope, `Gamma_time`, freshness, type compatibility, classification, and disposition remain separate. |
+| **GC-05** | Cross-context use compares kind identity and recovers each bridge channel required by its own applicability, the exact target declaration, and a fresh target judgment when a candidate is current; penalties route to R only. |
+| **GC-06** | Scope, `Gamma_time`, freshness, type compatibility, admissibility, classification, and disposition remain separate. |
 | **GC-07** | SpanUnion preserves one typed claim and line independence; candidate-specific evidence names exact candidates and judgments. |
 | **GC-08** | KindAT appears in no guard, and no plan, row, card, log, or slice substitutes for an actual candidate or Work occurrence. |
 

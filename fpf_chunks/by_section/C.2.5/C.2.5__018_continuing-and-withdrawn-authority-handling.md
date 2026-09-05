@@ -6,12 +6,12 @@ section_id: "C.2.5:17"
 section_title: "Continuing and Withdrawn Authority Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__018_continuing-and-withdrawn-authority-handling.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:17 — Continuing and Withdrawn Authority Handling"
-line_start: 44549
-line_end: 44566
+line_start: 44536
+line_end: 44553
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,7 +34,7 @@ keywords:
 ### C.2.5:17 - Continuing and Withdrawn Authority Handling
 
 #### C.2.5:17.1 - Authority retention rule
-If higher `CD` carried endpoint expectations, guard claims, or route commitments, a closure drop must say which consequences remain and which are withdrawn.
+If higher `CD` carried endpoint expectations, guard claims, or route commitments, a closure drop must say which consequences remain and which are withdrawn. Treat any actual authority-relation change separately under its direct pattern, as required by `A.16.2`.
 
 #### C.2.5:17.2 - Admissible retreat record
 An admissible retreat through `reopen`, `sketchBackoff`, or `respecify` should retain:
@@ -47,5 +47,5 @@ An admissible retreat through `reopen`, `sketchBackoff`, or `respecify` should r
 This prevents false continuity after retreat.
 
 #### C.2.5:17.3 - Closure versus obligation boundary
-High `CD` may coexist with obligations, but `CD` is not itself an obligation-bearing governing FPF pattern or `authoritySourceRef` target. When prose treats "closed" as "must now be done", name the actual `governingPatternRef` or `authoritySourceRef` for that claim.
+High `CD` may coexist with obligations. When prose treats "closed" as "must now be done", use `A.2.8` to identify the duty bearer, duty, and instituting rule and basis; retain the applicable `governingPatternRef` or `authoritySourceRef` for that obligation claim.
 

@@ -6,12 +6,12 @@ section_id: "C.2.7:13"
 section_title: "Worked Examples and Factor Interaction Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__014_worked-examples-and-factor-interaction-notes.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:13 — Worked Examples and Factor Interaction Notes"
-line_start: 44859
-line_end: 44869
+line_start: 44846
+line_end: 44856
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,7 +39,7 @@ keywords:
 A model-side summary may be representation-wise distributed and still highly explicit once published into a stable symbolic wrapper. This case matters because it blocks the folk myth that distributed implies vague.
 
 #### C.2.7:13.2 - Symbolic but still low-articulation
-A glossary-like note may be fully symbolic while still low in `AE` because the semantic anchors are not yet stabilized. This blocks the opposite myth: symbolic therefore explicit.
+A glossary-like note may be fully symbolic while still low in `AE` because the meaning needed by its receiving use remains unclear. This blocks the opposite myth: symbolic therefore explicit.
 
 #### C.2.7:13.3 - Mixed representation publication
 An operator-facing publication face may combine sparse alert codes, symbolic method-description text, and distributed back-end model summaries. The representation-factor bundle should make that mixture visible instead of compressing it into one label.

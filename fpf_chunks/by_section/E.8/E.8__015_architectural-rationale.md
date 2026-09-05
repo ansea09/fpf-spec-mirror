@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.8"
 pattern_title: "FPF Authoring Conventions & Style Guide"
 section_id: "E.8:10"
-section_title: "Rationale"
+section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.8/E.8__015_rationale.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+output_path: "by_section/E.8/E.8__015_architectural-rationale.md"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-  - "E.8:10 — Rationale"
-line_start: 73738
-line_end: 73752
+  - "E.8:10 — Architectural Rationale"
+line_start: 73731
+line_end: 73745
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -54,7 +54,7 @@ keywords:
   - "“is required to”) in normative clauses"
 ---
 
-### E.8:10 - Rationale
+### E.8:10 - Architectural Rationale
 Structure and style function as FPF’s *grammar*. By unifying what were
 once separate “template” and “style guide” patterns, authors face a
 single reference point that satisfies:

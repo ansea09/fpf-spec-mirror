@@ -6,12 +6,12 @@ section_id: "A.6.2:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__013_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:11 — Relations"
-line_start: 13924
-line_end: 13936
+line_start: 13957
+line_end: 13969
 dependencies:
   - "A.6.0"
   - "A.6.1"

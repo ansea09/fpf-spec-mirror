@@ -6,12 +6,12 @@ section_id: "C.13:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__002_intent.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:1 — Intent"
-line_start: 47818
-line_end: 47829
+line_start: 47805
+line_end: 47816
 dependencies:
   - "A.1"
   - "A.14"
@@ -29,7 +29,7 @@ keywords:
 
 ### C.13:1 - Intent
 
-Provide one minimal calculus for narrating three kinds of construction: how constituents assemble an integrated whole, how entities form a collection under that collection's own belongs-to rule, and how a bearer is distinguished under one facet as an aspect. The calculus records how already identified entities and obtaining relations support that named whole, collection, or aspect. It is not a second source of relation obtaining and does not make any of them exist by notation.
+Provide one minimal calculus for narrating three kinds of construction: how constituents assemble an integrated whole, how entities form a collection under that collection's own belongs-to rule, and how an aspect is distinguished from one bearer under one facet. The calculus records how already identified entities and obtaining relations support that named whole, collection, or aspect. It is not a second source of relation obtaining and does not make any of them exist by notation.
 
 Also known as *“Γₘ mereology”* and *“constructor-based composition”*.
 

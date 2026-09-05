@@ -6,12 +6,12 @@ section_id: "A.21:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__002_use-this-when.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:0 — Use this when"
-line_start: 35162
-line_end: 35185
+line_start: 35144
+line_end: 35167
 dependencies:
   - "A.10"
   - "A.15.5"

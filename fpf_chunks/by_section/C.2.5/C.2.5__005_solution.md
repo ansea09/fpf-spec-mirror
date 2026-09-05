@@ -6,12 +6,12 @@ section_id: "C.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__005_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:4 — Solution"
-line_start: 44423
-line_end: 44459
+line_start: 44408
+line_end: 44446
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,7 +36,7 @@ keywords:
 
 #### C.2.5:4.0a - Kind and characteristic boundary
 
-`U.LanguageStateClosureDegree` is a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the closure-degree basis slot and ordinal scale discipline for governed episteme publication positions. Local route commitments, gate claims, or authority states remain neighboring claims unless their governing patterns make them current.
+`U.LanguageStateClosureDegree` is a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the closure-degree basis slot and ordinal scale discipline for governed episteme publication positions. Claims about local route commitments, gates, or authority states remain separate from the closure-degree claim. When one matters to the current use, test it against its applicable rule and current case facts.
 
 #### C.2.5:4.1 - Characteristic specification
 - **Kind:** CHR characteristic.
@@ -67,4 +67,6 @@ A text may be highly explicit but low-closure, or low-explicitness but already h
 
 #### C.2.5:4.4 - Change discipline
 Increasing `CD` requires narrowing candidate space, route space, or frame space explicitly. Lowering `CD` is admissible only through a named move such as `reopen`, `sketchBackoff`, or `respecify`, with a retained-witness and discarded-assumption note.
+
+An ordinary PatternID in `governingPatternRef` locates the FPF rule relevant to the closure claim. Use a separate `relationFunctionClaimRef` for its exact defining or constraining `ClaimGraph` only when admissible interpretation, comparison, migration, publication, or reuse depends on that exact rule identity (`E.10`, `E.4.PFR`). Use `authoritySourceRef` when a non-pattern source carries the relevant authority.
 

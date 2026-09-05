@@ -6,16 +6,18 @@ section_id: "C.11.CRC:11"
 section_title: "SoTA Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__013_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:11 — SoTA Echoing"
-line_start: 47780
-line_end: 47792
+line_start: 47767
+line_end: 47779
 dependencies:
   - "A.1.CSD"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.19"
   - "B.3"
   - "C.11"
@@ -44,9 +46,9 @@ keywords:
 | Source line | Adopted move | Limit retained here |
 | --- | --- | --- |
 | Current `C.11`, `A.19`, and `C.29` | Keep choice, comparison mechanisms, and mathematical-lens use with their current owners. | Internal architecture is not evidence for domain quantities. |
-| Ortega and Braun, [information-processing costs in decision making](https://arxiv.org/abs/1204.6481), 2013 | Treat information and computation as explicit decision resources. | Statistical-physics form is a model under assumptions, not proof of literal physical free-energy minimization. |
+| Ortega and Braun, [information-processing costs in decision making](https://arxiv.org/abs/1204.6481), 2013 | Keep the resource costs of information acquisition and computation explicit in the decision. | Statistical-physics form is a model under assumptions, not proof of literal physical free-energy minimization. |
 | Blei, Kucukelbir, and McAuliffe, [*Variational Inference: A Review for Statisticians*](https://www.cs.columbia.edu/~blei/papers/BleiKucukelbirMcAuliffe2017.pdf), 2017 | Keep target distribution, approximation family, optimization, speed/scale, and uncertainty trade-offs visible. | Historical field anchor; it does not define calculus-of-variations design or general contribution. |
-| MIT OpenCourseWare, [*Matrix Calculus for Machine Learning and Beyond*](https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/pages/lecture-notes-and-readings/), 2023 calculus-of-variations material | Treat a function, trajectory, or field as the varied object under admissible variation and boundary structure. | Course material supplies a mathematical distinction, not FPF ontology, physical evidence, or DPF admission. |
+| MIT OpenCourseWare, [*Matrix Calculus for Machine Learning and Beyond*](https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/pages/lecture-notes-and-readings/), 2023 calculus-of-variations material | Treat a function, trajectory, or field as the varied object under admissible variation and boundary structure. | Course material supplies a mathematical distinction, not FPF ontology or physical evidence. |
 | Huan, Jagalur, and Marzouk, [optimal experimental design review](https://arxiv.org/abs/2407.16212), 2024/2026 | Keep design variables, utility, model assumptions, computational cost, robustness, and myopic/non-myopic boundaries explicit. | Specialist experiment design remains outside this finite comparison pattern. |
 | Current systems, operations, finance, and human-capability cases named in the receiving DPF programme | Stress-test finite baseline, interactions, constraints, uncertainty, and option effects across unlike fields. | Cross-field recurrence establishes the comparison spine, not transferable formulas, thresholds, or authority. |
 

@@ -6,12 +6,12 @@ section_id: "C.2.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:1 — Problem frame"
-line_start: 44410
-line_end: 44412
+line_start: 44395
+line_end: 44397
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -32,5 +32,5 @@ keywords:
 ---
 
 ### C.2.5:1 - Problem frame
-A governed `U.Episteme` may already be explicit enough for publication while its declared position claim remains intentionally open to rival routes or frames. The declared language-state chart over `U.CharacteristicSpace` therefore needs a separate basis-slot governing pattern for how fixed or closed the current candidate space has become.
+A governed `U.Episteme` may already be explicit enough for publication while its declared position claim remains intentionally open to rival routes or frames. The declared language-state chart over `U.CharacteristicSpace` therefore needs a separate pattern defining the closure-degree basis slot: how fixed or closed the current candidate space has become.
 

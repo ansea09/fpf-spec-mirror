@@ -6,15 +6,16 @@ section_id: "G.8:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__014_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:13 — Relations"
-line_start: 105400
-line_end: 105406
+line_start: 105458
+line_end: 105464
 dependencies:
   - "A.10"
   - "A.21"
+  - "B.3"
   - "C.18"
   - "C.19"
   - "C.22"
@@ -43,7 +44,7 @@ keywords:
 ### G.8:13 - Relations
 
 **Builds on:** `G.Core`, `C.23`, `G.4`, `G.6`, `G.5`, `C.22`
-**Uses:** `A.10` (anchors), `F.8` (policy-id resolvability), `F.9`/`F.17`/`E.17` + `G.7` (when cross-Context or cross-plane reuse is asserted), `G.11` (refresh planning/trigger consumption), `G.10` (shipping boundary; if bundled artefacts are shipped), `E.10` (LEX twin registers), `E.5.2` (notation independence), `E.18/A.21` (GateCrossing visibility and gate checks); optional `C.18` (QD) / `C.19` (E/E‑LOG) when those surfaces are declared.
+**Uses:** `A.10` (anchors), `F.8` (policy-id resolvability), `F.9` (cross-semantic relation and bounded-use claims), `F.17`/`E.17` (crossing publication surfaces), `G.7` (when calibration is used), `B.3` (when a separate named assurance use is made), `G.11` (refresh planning/trigger consumption), `G.10` (shipping boundary; if bundled artefacts are shipped), `E.10` (LEX twin registers), `E.5.2` (notation independence), `E.18/A.21` (GateCrossing visibility and gate checks); optional `C.18` (QD) / `C.19` (E/E‑LOG) when those surfaces are declared.
 **Publishes to:** `UTS` (bundle/ledger/card), `G.5` (selector/registry consumption), `G.11` (refresh via typed triggers and pinned telemetry)
 **Constrains:** any SoS‑LOG packaging that claims FPF conformance for selector‑facing dispatch across method families.
 

@@ -6,12 +6,12 @@ section_id: "A.20:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__014_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:12 — Relations"
-line_start: 35140
-line_end: 35149
+line_start: 35122
+line_end: 35131
 dependencies:
   - "A.10"
   - "A.15"

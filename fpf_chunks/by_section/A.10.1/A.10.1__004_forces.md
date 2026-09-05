@@ -6,12 +6,12 @@ section_id: "A.10.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__004_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:3 — Forces"
-line_start: 23066
-line_end: 23077
+line_start: 23099
+line_end: 23110
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -28,11 +28,11 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Unknown receivers vs bounded effort | Receivers cannot all be named before discovery, but a global corpus search is rarely justified. |
+| Unknown receiving uses vs bounded effort | Receiving uses cannot all be named before discovery, but a global corpus search is rarely justified. |
 | Source-outward trace vs receiver-side reality | Backlinks and lineage find declared uses; receiver inspection finds equivalent or undeclared premises. Neither direction alone is generally adequate. |
-| Automation vs judgment | Search, lineage, traces, and AI can find candidates; only the receiving content and its direct rule can establish reliance. |
+| Automation vs judgment | Search, lineage, traces, and AI can find candidates; the practitioner tests actual reliance in the receiving content under the direct rule. |
 | Local closure vs hidden gaps | Independent resolved branches should finish, while inaccessible or unindexed surfaces must not become implicit evidence of no impact. |
 | Reuse vs safety | Unaffected prior results should remain usable, but only when the changed claim lies outside their actual dependency. |
-| Common move vs subject authority | Source-to-use discovery is reusable; materiality for engineering, finance, strategy, evidence, assurance, release, and other domains is not. |
+| Common move vs subject authority | Source-to-use discovery is reusable; materiality remains specific to the subject, including any separate evidence, assurance, or release question. |
 | Short account vs recoverability | The result should be usable without a universal impact record, yet another practitioner must be able to reproduce the frame, coverage, direct-use test, and stop. |
 

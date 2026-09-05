@@ -6,12 +6,12 @@ section_id: "C.34:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__012_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:11 — SoTA-Echoing"
-line_start: 67292
-line_end: 67303
+line_start: 67278
+line_end: 67289
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

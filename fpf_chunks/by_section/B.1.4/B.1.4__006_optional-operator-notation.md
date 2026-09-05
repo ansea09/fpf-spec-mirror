@@ -6,12 +6,12 @@ section_id: "B.1.4:3"
 section_title: "Optional Operator Notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__006_optional-operator-notation.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:3 — Optional Operator Notation"
-line_start: 37337
-line_end: 37352
+line_start: 37319
+line_end: 37334
 dependencies:
   - "A.1.1"
   - "A.14"

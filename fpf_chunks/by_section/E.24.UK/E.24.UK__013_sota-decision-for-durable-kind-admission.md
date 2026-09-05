@@ -6,12 +6,12 @@ section_id: "E.24.UK:11"
 section_title: "SoTA Decision for Durable Kind Admission"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__013_sota-decision-for-durable-kind-admission.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:11 — SoTA Decision for Durable Kind Admission"
-line_start: 92641
-line_end: 92658
+line_start: 92689
+line_end: 92706
 dependencies:
   - "A.1.1"
   - "A.11"

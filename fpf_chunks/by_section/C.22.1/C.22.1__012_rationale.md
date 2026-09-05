@@ -6,12 +6,12 @@ section_id: "C.22.1:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__012_rationale.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:11 — Rationale"
-line_start: 52112
-line_end: 52115
+line_start: 52098
+line_end: 52101
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -41,5 +41,5 @@ keywords:
 
 ### C.22.1:11 - Rationale
 
-The reader needs one place where the adaptation claim stays whole. `C.22` keeps the task family and work target explicit. `A.15`, `C.24`, and `E.16` may generate the probe, checkpoint, and budget evidence. `G.5` and `G.9` later compare several candidates or parity runs. `C.22.1` keeps the specialization story readable across those neighbouring pattern applications by making threshold timing, reuse, downside, and corridor-entry field recoverable in one short read instead of forcing the reader to reconstruct it from scattered notes.
+The reader needs one place where the adaptation claim stays whole. `C.22` keeps the task family and work target explicit. `A.15` distinguishes probe plans from performed Work and evidence. `C.24` defines call-planning `CheckpointReturn` records after an action or option is fixed; `E.16` governs budget, guard, and ledger enforcement for autonomy claims. Probe results, checkpoint records, and budget records may supply evidence for the adaptation claim. `G.5` and `G.9` later compare several candidates or parity runs. `C.22.1` keeps the specialization story readable across those neighbouring pattern applications by making threshold timing, reuse, downside, and corridor-entry field recoverable in one short read instead of forcing the reader to reconstruct it from scattered notes.
 

@@ -6,12 +6,12 @@ section_id: "E.5.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__010_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:9 — Relations"
-line_start: 72956
-line_end: 72960
+line_start: 72942
+line_end: 72946
 dependencies:
   - "E.3"
   - "E.5"

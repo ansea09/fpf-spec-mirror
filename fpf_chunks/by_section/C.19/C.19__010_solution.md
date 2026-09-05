@@ -6,12 +6,12 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__010_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 50370
-line_end: 50608
+line_start: 50356
+line_end: 50594
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -102,7 +102,7 @@ Use the ordinary default tokens defined in `G.Core` and `G.5`. The rules below e
 
 **Use-value and declared-Q boundary.** `C.16.Q` is the pattern for the selector-context meaning of use-value and its `Objective` form. When use-value participates in the current `Q`, declare `QS.UseValue` as an objective head in that exact `Q` and cite the current Q/comparator basis. When it does not participate in the current `Q`, keep the use-value criterion explicitly outside `Q` as a declared side condition or tie-breaker. A pool-policy record may use either declared position but cannot silently promote use-value into `Q` or construct the Q model.
 
-**Scalarization lenses (policy‑level).** A lens `J_ℓ` declares: (a) hard eligibility conditions (e.g., ConstraintFit=pass), (b) soft aggregation (weights or curves), (c) trust policy (how assurance and CL discounts enter).
+**Scalarization lenses (policy‑level).** A lens `J_ℓ` declares: (a) hard eligibility conditions (e.g., ConstraintFit=pass), (b) soft aggregation (weights or curves), (c) trust policy (how any applicable assurance result and any declared CL discount enter).
 **Conformance.** A pool-policy record MUST name the lens used to pick from a frontier; scalarized rankings MUST NOT be presented as “the frontier”; the **`lens id MUST be recorded in provenance of each selection`**.
 
 **Promotion rules (policy).**
@@ -228,7 +228,7 @@ An A.2.2 capability instance for `diagnostic_agent_v4` is qualified for task reg
 livePool = diagnosis_task_regions_{alpha,beta}
 governingLens = curriculum_expansion_policy_v3
 currentTreatment = keep_frontier
-changeTrigger = capability_statement_CS-44 gains an evidence-qualified transfer claim for region_beta
+changeTrigger = a separate capability statement makes an evidence-qualified transfer claim for diagnostic_agent_v4 in region_beta
 capabilityInstanceRef = diagnostic_agent_capability_v4
 capabilityStatementRef = capability_statement_CS-44
 a10RelianceRef = A10_CS-44_keep-frontier_W8
@@ -280,7 +280,7 @@ The record states pool treatment only. If a label is unstable across communities
 
 #### C.19:4.4 - Exit from pool treatment
 
-When fresh candidates, a changed emitter mix or temperature, archive insertion, or front recomputation are current, use `C.18` with the desired policy values and exact reason as the pool-policy pass requires. When the current question is whether one bearer or version should improve, use `E.23` and pass the exact bearer or version, objective or criterion, evidence, and pool-policy reason that made improvement current. A C.19 treatment is neither a generation operation nor an improvement result.
+When fresh candidates, a changed emitter mix or temperature, archive insertion, or front recomputation are current, use `C.18` with the desired policy values and exact reason as the pool-policy pass requires. When one evaluation suffices to answer whether one bearer or version should improve, use the applicable object evaluation, with `E.22` when its framing is needed. When the object version will be improved through repeated passes under a declared evaluation, use `E.23`. For either exit, pass the exact bearer or version, objective or criterion, evidence, and pool-policy reason that made improvement current. A C.19 treatment is neither a generation operation nor an improvement result.
 
 An internal subset retained by `narrow_to_subset` is still the live pool named by one C.19 policy record. It is not a public `Shortlist`, `RankedShortlist`, or `ShortlistId`-bearing selector artefact, and no public selector artefact is emitted by this pool-policy use. `Front` and `Archive` retain their C.18 meanings; a scalarized pick does not rename either one.
 

@@ -6,12 +6,12 @@ section_id: "C.16.Q:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__013_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:11 — SoTA-Echoing"
-line_start: 49369
-line_end: 49413
+line_start: 49356
+line_end: 49398
 dependencies:
   - "A.10"
   - "A.16"
@@ -62,9 +62,7 @@ keywords:
 
 ### C.16.Q:11 - SoTA-Echoing
 
-**Evidence binding note.** If the selected authoring environment maintains a **SoTA Synthesis Pack** for evaluative language, architecture-quality vocabularies, selector and objective semantics, world-model evaluation, or embodied and preconceptual articulation, this section **SHALL cite** its ClaimSheet IDs, CorpusLedger entries, and BridgeMatrix rows and keep the adoption statuses below consistent with those IDs. Otherwise, use the table below as the current source-use and source-currentness record for this pattern revision, not as a generic seed list.
-
-This section follows the required structure: **claim > practice > source use and currentness > source > alignment > adoption status**. C.16.Q aligns with contemporary practice across architecture-description standards, software-quality standards, evolutionary architecture, QD search, active-inference and world-model research, phenomenology and TAE, source-tradition `affordance` work, and philosophy of explanation, while adding one explicit FPF move: repair the overloaded token *quality* into an endpoint form, or keep `qualityTermAscription(...)` temporarily with its bearer, `QualitySense`, effective scheme, separate probe/model and comparison configurations, ClaimScope, admissible normal form, and endpoint reference visible.
+C.16.Q aligns with contemporary practice across architecture-description standards, software-quality standards, evolutionary architecture, QD search, active-inference and world-model research, phenomenology and TAE, source-tradition `affordance` work, and philosophy of explanation, while adding one explicit FPF move: repair the overloaded token *quality* into an endpoint form, or keep `qualityTermAscription(...)` temporarily with its bearer, `QualitySense`, effective scheme, separate probe/model and comparison configurations, ClaimScope, admissible normal form, and endpoint reference visible.
 
 **Source-use convention.** `Current-best source use` means the row is used as the best-known current line for the narrow effect named in the alignment cell. `Current-standard and reference-only use` means an official standard supplies a useful distinction but does not by itself solve C.16.Q's quality-term restoration question. `Current-practice reference use` means the source family records a widely used current practice that C.16.Q adapts. `Lineage and local-gloss material` means the row helps recognition or terminology only. `Rejected import` states what C.16.Q refuses to import as FPF ontology.
 
@@ -85,7 +83,7 @@ This section follows the required structure: **claim > practice > source use and
 
 **Engineering quality practice.** ISO 25010 gives a mainstream current-standard reason not to leave *quality* as a free noun: contemporary quality work is organized around named characteristics and subcharacteristics that are specified, measured, and evaluated. C.16.Q adopts that explicit-head discipline, but adapts it by assigning composite cases to `Bundle` or `Q-Bundle` and by treating *quality requirement(s)* as requirements over explicit heads rather than as self-standing nouns.
 
-**Evolutionary-architecture practice.** Fitness functions treat architecture-relevant concerns as continuously monitored heads tied to change and governance, not as one mystical scalar. C.16.Q adopts that operational spirit, but adapts it by keeping engineering-family evaluation, control adequacy, and selector value distinct and by forbidding function and quality-family collapse.
+**Evolutionary-architecture practice.** Fitness functions treat architecture-relevant concerns as continuously monitored heads tied to change and governance, not as one scalar. C.16.Q adopts that operational spirit, but adapts it by keeping engineering-family evaluation, control adequacy, and selector value distinct and by forbidding function and quality-family collapse.
 
 **QD and NQD practice.** Modern QD work is explicit that search returns a collection of solutions that are high with respect to an objective and diverse with respect to declared measures. C.16.Q therefore adopts the default rewrite of selector-context *quality* to `QS.UseValue` in `Objective` form and rejects any rewrite that silently blends novelty, diversity, constraints, and utility into an unexplained scalar.
 
@@ -101,7 +99,7 @@ This section follows the required structure: **claim > practice > source use and
 
 **Cross-local and plane note.** This section states alignment and non-identity only. Any actual reuse of a quality vocabulary, selector head, or viewpoint-bound family across different `<ReferenceScheme, LocalSenseClaim>` bases SHALL resolve two exact F.17 cells and cite an obtaining F.9 Bridge. The proposed use, direction, rule, tolerated loss, polarity, evidence reliance, and any cross-plane representation relation remain separate; a stance word or note, `CL`, loss note, shared label, or plane policy makes none of them obtain.
 
-**Historical-lineage note.** Earlier touchstones such as Pirsig, Popper, and Deutsch remain useful as lineage and local-gloss resources, but C.16.Q does not use them as formal SoTA anchors here because E.8 requires post-2015 primary sources for Architectural patterns unless the row is explicitly lineage or local-gloss material.
+**Historical-lineage note.** Earlier touchstones such as Pirsig, Popper, and Deutsch remain useful as lineage and local-gloss resources, but C.16.Q does not use them as formal SoTA anchors here because lineage alone does not supply the best-known comparison required by E.8.
 
 This SoTA alignment backs the pattern’s central move: *quality* is not one universal evaluative noun. In contemporary practice, the relevant work is already distributed across explicit characteristics, objectives, viewpoints, world-model criteria, explanatory virtues, felt signals, and action invitations; C.16.Q makes that distribution first-class and auditable.
 

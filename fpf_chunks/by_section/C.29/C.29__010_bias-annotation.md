@@ -6,12 +6,12 @@ section_id: "C.29:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__010_bias-annotation.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:8 — Bias-Annotation"
-line_start: 58147
-line_end: 58161
+line_start: 58133
+line_end: 58147
 dependencies:
   - "A.1.1"
   - "A.10"

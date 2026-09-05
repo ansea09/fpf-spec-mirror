@@ -6,12 +6,12 @@ section_id: "A.11:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__002_use-this-when.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:0 — Use This When"
-line_start: 23354
-line_end: 23374
+line_start: 23387
+line_end: 23409
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -23,16 +23,11 @@ dependencies:
   - "F.18"
   - "F.8"
 keywords:
-  - "U-kind admission"
-  - "composition"
-  - "kernel growth"
-  - "non-redundancy"
-  - "parsimony"
 ---
 
 ### A.11:0 - Use This When
 
-Use this pattern when FPF work proposes a new U-kind, core relation, dependent durable value, or public structural name and the current question is whether existing ontology can express the claim without creating a new kind.
+Use this pattern when FPF work proposes a new U-kind, core relation, dependent durable value, or public structural name and the current question is whether existing ontology can express the claim without the proposed durable ontology addition.
 
 Typical moments:
 
@@ -43,11 +38,13 @@ Typical moments:
 
 **Primary EntityOfConcern.** The EntityOfConcern is the parsimony claim for one candidate ontology addition.
 
-**First useful move.** Recover the candidate with `E.24.UK` or the subject pattern, then ask what current FPF values, slots, relations, and patterns can already express.
+**First useful move.** Recover the candidate with `E.24.UK` or the subject pattern, then find the best current FPF expression for the exact receiving claim or use.
 
-**What goes wrong if missed.** FPF grows duplicate kinds for slot positions, local names, publication forms, mathematical lenses, and records. Later patterns then argue over words instead of recovering the EntityOfConcern, relation, slot, and admissible claim.
+In this pattern, an **existing governed expression** is an admitted kind or dependent value, slot, current relation, record, publication form, lens, local frame, or direct-pattern claim whose direct owner defines its use.
 
-**What this buys.** A small ontology can still express rich project situations: the pattern either admits a new durable value with a boundary, or shows exactly which existing kind, slot, relation, record, publication form, lens, or direct pattern already carries the claim.
+**What goes wrong if missed.** FPF grows duplicate kinds for claims already carried by governed expressions. Later patterns then argue over words instead of recovering the EntityOfConcern, exact relation or slot, and admissible claim.
 
-**Not this pattern when.** Not this pattern when the current question is only a local display name, publication title, naming taste, or ordinary glossary cleanup. Use the relevant Part F naming pattern unless the name is being asked to carry durable ontology.
+**What this buys.** A small ontology can still express rich project situations: the pattern either admits a new durable value with a boundary, or identifies the existing governed expression that already carries the claim.
+
+**Not this pattern when.** The current question is only a local display name, publication title, naming taste, or ordinary glossary cleanup. Use the relevant Part F naming pattern unless the name is being asked to carry durable ontology.
 

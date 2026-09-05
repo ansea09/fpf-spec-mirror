@@ -6,12 +6,12 @@ section_id: "C.3.5:10"
 section_title: "Conformance checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__011_conformance-checklist-normative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:10 — Conformance checklist (normative)"
-line_start: 46406
-line_end: 46415
+line_start: 46393
+line_end: 46402
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -38,5 +38,5 @@ keywords:
 | **AT-02** | The tag designates one exact local kind; catalogs only represent that assignment and its references. |
 | **AT-03** | No text makes KindAT change F, G, R, classification truth, or extension contents. |
 | **AT-04** | KindBridge relation, bridge assertion, `CL^k`, and KindAT remain separate. |
-| **AT-05** | Catalog use references the separate signature, order, mask, bridge, and extension objects without collapsing them. |
+| **AT-05** | Catalog use references the separate signature, order, kind-use adaptation, bridge, and extension objects without collapsing them. |
 

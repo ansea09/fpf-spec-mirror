@@ -6,12 +6,12 @@ section_id: "F.7:7"
 section_title: "Conceptual construction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__008_conceptual-construction.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:7 — Conceptual construction"
-line_start: 94967
-line_end: 94975
+line_start: 95015
+line_end: 95023
 dependencies:
   - "A.6.9"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "C.16:7"
 section_title: "Provenance and use semantics (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__008_provenance-and-use-semantics-normative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:7 — Provenance and use semantics (Normative)"
-line_start: 48200
-line_end: 48210
+line_start: 48187
+line_end: 48197
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,5 +60,5 @@ keywords:
 - The stub is not evidence in the abstract, a result, an instrument output, a work record, an assurance claim, or a provenance-as-result object.
 - Several stubs form a list of locators, not a measurement algebra. Their union is not uncertainty propagation and does not guarantee stronger warrant.
 - A provenance edge may be asserted only after its direct source relation, work fact, participation, production, representation, or citation relation is independently established.
-- A later user states the exact relied-on claim and local `RelianceDisposition`; material reliance or an assurance claim enters B.3. Mere availability, citation, or graph membership does not establish actual use.
+- A later user states the exact relied-on claim and local `RelianceDisposition`; use B.3 when an actual named assurance claim is current. Mere availability, citation, or graph membership does not establish actual use.
 

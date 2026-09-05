@@ -6,12 +6,12 @@ section_id: "C.2.3:14"
 section_title: "Assigning F in Practice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__015_assigning-f-in-practice.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:14 — Assigning F in Practice"
-line_start: 43828
-line_end: 43860
+line_start: 43813
+line_end: 43845
 dependencies:
   - "A.16"
   - "A.18"
@@ -46,7 +46,7 @@ keywords:
    If yes, the expression is at least `F4`.
 3. **Does the expression have declared executable semantics?**
    If yes, it is likely in the `F5-F6` region.
-4. **Would a logic kernel or type checker reject an incorrect change to a core claim?**
+4. **Are proofs of the core claims checked by a logic kernel or a dependent type checker?**
    If yes, the expression is likely `F7-F8`, or `F9` if higher-equality machinery is essential.
 
 #### C.2.3:14.2 - Quick rubric

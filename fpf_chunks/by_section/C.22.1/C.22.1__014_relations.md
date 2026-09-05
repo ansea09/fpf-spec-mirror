@@ -6,12 +6,12 @@ section_id: "C.22.1:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__014_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:13 — Relations"
-line_start: 52137
-line_end: 52153
+line_start: 52123
+line_end: 52139
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -43,16 +43,16 @@ keywords:
 
 **C.27 temporal-claim relation.**
 
-- C.27 may flag: a claim that a holder, dyad, team, specialist portfolio, method, or agent acquires usable specialization faster on one declared `TaskFamilyRef` or `TaskSignature`.
+- C.27 may flag: a claim that a holder, dyad, team, explicitly scoped specialist portfolio, or agent acquires usable specialization faster on one declared `TaskFamilyRef` or `TaskSignature`. A method may be selected, refined, or retired as part of that story.
 - This pattern keeps: threshold target, time-to-threshold, budget-to-threshold, prior exposure, transfer, retention, downside, corridor-entry evidence, and adaptation-signature fields.
 - Non-admissible use: generic "learns faster" wording without task-family anchors does not create a C.27 profile or a complete adaptation signature; faster threshold crossing is not durable specialization unless transfer, retention, downside, and corridor-entry evidence are stated when claimed.
 
-- Next-question boundary: downgrade to Dyn1 trend when only a trend is live; use the C.24 MethodDescription when the question is only tool-use planning; continue under the C.22.1 predicate when specialization is the live adaptation question.
+- Next-question boundary: classify the claim as Dyn1 when only a trend is live; use C.24 for call planning after the action or option is fixed; use the C.22.1 adaptation signature when specialization is the live adaptation question.
 
 **Builds on:** `C.22` TaskSignature anchoring, `C.19.1` `BLP` compatibility, `A.15` system-role-kind and assignment, Method, WorkPlan, and Work-occurrence separation, `C.24` scout or probe and `CheckpointReturn` semantics, `E.16` budget enforcement.
 **Coordinates with:** `G.5` selector specialization profiles, `G.9` adaptation parity, `G.11` later telemetry/refresh reuse.
 
 **Coordinates with:** `E.23` when a quality-improvement loop claims durable task-family specialization. `C.22.1` carries the adaptation-signature fields for threshold target, time-to-threshold, budget-to-threshold, prior exposure, transfer, retention, downside, and corridor entry; it does not restate the `E.23` loop method, `E.22` review framing, or pattern-quality or DRR-adequacy object-under-improvement evaluations.
 
-**Constrained by:** `E.10` lexical discipline and `E.19` pattern-quality review when this child section is newly landed or materially revised.
+**Constrained by:** `E.10` lexical discipline; `E.19` governs admission or refresh review of the pattern edition.
 

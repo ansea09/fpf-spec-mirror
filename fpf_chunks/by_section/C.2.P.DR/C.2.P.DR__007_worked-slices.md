@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__007_worked-slices.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:5 — Worked slices"
-line_start: 45130
-line_end: 45224
+line_start: 45117
+line_end: 45211
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,13 +55,13 @@ Repair:
 DeclarativeRepresentationRepair:
   VisibleExpressionOrArtifact: P2W graph expression with a highlighted path or path slice
   CurrentDirectObjectOrRelation: exact E.18 `PathSlice` and E.18.1 carry-through relation among the named records when those objects are current
-  RepresentationOrCorrespondenceUse: C.29 correspondence from this P2W graph expression to the exact E.18 `PathSlice`
+  RepresentationOrCorrespondenceUse: proposed correspondence from this P2W graph expression to the exact E.18 `PathSlice`; C.29 lens-use account not yet supplied
   SourceOrPublicationRelation: none
   TemptingStrongerActionClaim: ordered work route for the team
   RecoveredGoverningPattern: E.18.1, with A.15.2 or A.15.1 only if planned or dated work is current
   RetainedUse: selected graph path and carry-through relation for inspection
   BlockedStrongerActionClaim: no work route or prescribed workflow by path shape alone
-  StopOrReopenCondition: reopen when path, source currentness, graph edition, or intended work relation changes
+  StopOrReopenCondition: recover or cite a C.29 lens-use account that states the preserved and lost structure and bounds the intended use; until then this representation branch is an incomplete rewrite, and claim-bearing use of the proposed correspondence is blocked; reopen when path, source currentness, graph edition, or intended work relation changes
 ```
 
 A graph publication or pattern publication remains a separately governed publication object. If one is current, state its exact source or publication relation and participants in the neighbouring claim; neither publication object belongs in `SourceOrPublicationRelation` by mention alone.
@@ -70,7 +70,7 @@ A graph publication or pattern publication remains a separately governed publica
 
 Wording: "The evidence path authorizes release."
 
-Repair: `A.10` can state an evidence path for the claim or effect. Release, permission, or gate passage requires the authority, gate, or release pattern that defines or constrains that claim. This pattern is used only if `path` wording itself is causing the representation to be overread as a permission route.
+Repair: name the claim or effect and recover its evidence or provenance relation through `A.10`. Release, permission, or gate passage requires the authority, gate, or release pattern that defines or constrains that claim. This pattern is used only if `path` wording itself is causing the representation to be overread as a permission route.
 
 #### C.2.P.DR:5.3 - Query plan and access path
 
@@ -82,19 +82,19 @@ Repair: recover whether the query plan represents optimizer choices, expresses c
 
 Wording: "The dashboard green path lets the release move."
 
-Repair: recover dashboard face, source relation, status or state bearer, value frame, source currentness, and gate or release claim. The dashboard may be a publication face and source cue; it is not release permission unless the gate or authority pattern consumes the source and states that effect.
+Repair: recover dashboard face, source relation, status or state bearer, value frame, source currentness, and gate or release claim. The dashboard may be a publication face and source cue. Recover release permission through the applicable gate decision (`A.21`) or authority relation, including any source contribution required by its governing rule.
 
 #### C.2.P.DR:5.5 - Pattern relation
 
 Wording: "This pattern exits to A.10."
 
-Repair: if the current relation is "use `A.10` when an evidence relation or provenance relation is current", write that declarative boundary. Do not use exit, receiver, route, owner, home, dispatch, or call language unless the pattern is actually about an action occurrence, work plan, control mechanism, or communication relation that has those semantics.
+Repair: if the current relation is "use `A.10` when an evidence relation or provenance relation is current", write that declarative boundary. Keep ordinary ownership or navigation wording when its relation and participants are clear. Use exit, receiver, route, owner, home, dispatch, or call language to assert action or control only when the pattern is actually about an action occurrence, work plan, control mechanism, or communication relation that has those semantics.
 
 #### C.2.P.DR:5.6 - Solver algorithm
 
 Wording: "The solver algorithm is the mechanism."
 
-Repair: first identify what the solver expression represents and which claim is current. A solver configuration may represent claims carried by an episteme that qualifies as `U.MethodDescription` only after the 4.4 membership guard; the configuration is not that episteme by file form or executability. The reusable semantic way of solving may be `U.Method`; the MILP formulation may expose a formal substrate and mathematical-lens use; a reusable operation algebra with laws and admissibility predicates may be `U.Mechanism`; a solver run may be `U.Work`; and a run result may support another claim through its direct evidence relation. Select A.6.1 and E.20 only when their mechanism fields are present in the current claim.
+Repair: first identify the direct object or relation, any representation use, and which claim is current. A solver configuration may represent claims carried by an episteme that qualifies as `U.MethodDescription` only after the 4.4 membership guard; the configuration is not that episteme by file form or executability. The reusable semantic way of solving may be `U.Method`; the MILP formulation may expose a formal substrate and mathematical-lens use; a reusable operation algebra with laws and admissibility predicates may be `U.Mechanism`; a solver run may be `U.Work`; and a run result may support another claim through its direct evidence relation. Select A.6.1 and E.20 only when their mechanism fields are present in the current claim.
 
 #### C.2.P.DR:5.7 - Reactor-cooling flow graph
 
@@ -106,13 +106,13 @@ Repair:
 DeclarativeRepresentationRepair:
   VisibleExpressionOrArtifact: reactor-cooling heat-flow graph with one highlighted preserved path
   CurrentDirectObjectOrRelation: exact E.18 heat-flow path or `PathSlice`; keep boundary conditions and any flow valuation under their subject patterns
-  RepresentationOrCorrespondenceUse: C.29 correspondence from this reactor-cooling graph rendering to the exact selected E.18 heat-flow `PathSlice`
+  RepresentationOrCorrespondenceUse: proposed correspondence from this reactor-cooling graph rendering to the exact selected E.18 heat-flow `PathSlice`; C.29 lens-use account not yet supplied
   SourceOrPublicationRelation: none
   TemptingStrongerActionClaim: graph path authorizes physical valve-change work
   RecoveredGoverningPattern: E.18 and C.29 for graph and lens use; A.21, A.10, A.15.2, and A.15.1 only if gate, evidence, work plan, or dated work is current
   RetainedUse: graph structure for comparison, model review, and source-finding
   BlockedStrongerActionClaim: no release, gate passage, physical intervention, or work occurrence by highlighted path alone
-  StopOrReopenCondition: reopen when gate decision, source currentness, measurement boundary, or work plan becomes current
+  StopOrReopenCondition: recover or cite a C.29 lens-use account that states the preserved and lost structure and bounds the intended use; until then this representation branch is an incomplete rewrite, and claim-bearing use of the proposed correspondence is blocked; reopen when gate decision, source currentness, measurement boundary, or work plan becomes current
 ```
 
 An engineering-review publication and a gate record remain separate objects. State any exact source or publication relation with its participants, and keep any gate relation under its subject pattern; neither object belongs in `SourceOrPublicationRelation`.
@@ -127,13 +127,13 @@ Repair:
 DeclarativeRepresentationRepair:
   VisibleExpressionOrArtifact: CRISPR guide-selection table with off-target scores and candidate ranking
   CurrentDirectObjectOrRelation: candidate-guide comparison and exact characteristic values under C.16 or A.19; add an A.10 evidence relation only when it independently obtains
-  RepresentationOrCorrespondenceUse: C.29 correspondence from this table's candidate and off-target-score representation elements to the exact candidate-guide comparison and exact characteristic values named above
+  RepresentationOrCorrespondenceUse: proposed correspondence from this table's candidate and off-target-score representation elements to the exact candidate-guide comparison and exact characteristic values named above; C.29 lens-use account not yet supplied
   SourceOrPublicationRelation: none
   TemptingStrongerActionClaim: ranked row approves biological intervention
   RecoveredGoverningPattern: C.16 or A.19 for characteristics when current; A.10 for evidence; A.15.2 for experimental work plan; A.21 or authority pattern only if approval or gate claim is current
   RetainedUse: source-finding, candidate comparison, and constraint review
   BlockedStrongerActionClaim: no edit approval, work occurrence, safety claim, or gate passage from table rank alone
-  StopOrReopenCondition: reopen when protocol, gate decision, evidence path, lab classification or assignment, exact GrantedPermissionRelation@Context or direct authority result, or dated lab Work becomes current; unresolved “role authorization” goes to E.10.ROLE, and an unsupported stronger permission or authority claim returns missing-governor
+  StopOrReopenCondition: recover or cite a C.29 lens-use account that states the preserved and lost structure and bounds the intended use; until then this representation branch is an incomplete rewrite, and claim-bearing use of the proposed correspondence is blocked; reopen when protocol, gate decision, evidence path, lab classification or assignment, exact GrantedPermissionRelation@Context or direct authority result, or dated lab Work becomes current; unresolved “role authorization” goes to E.10.ROLE, and an unsupported stronger permission or authority claim returns missing-governor
 ```
 
 A lab notebook, protocol publication, source episteme, and review record remain separate objects. State an exact source or publication relation and its participants only when it obtains; none of these objects belongs in `SourceOrPublicationRelation` by mention alone.

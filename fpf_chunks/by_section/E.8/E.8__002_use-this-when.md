@@ -6,12 +6,12 @@ section_id: "E.8:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__002_use-this-when.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0 — Use this when"
-line_start: 73153
-line_end: 73160
+line_start: 73139
+line_end: 73148
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -57,6 +57,8 @@ keywords:
 ### E.8:0 - Use this when
 
 Use `E.8` when you are writing, revising, or reviewing one FPF pattern and need to know what shape, voice, reader-recognition function, and assurance material the pattern must carry before it can be treated as mature FPF text.
+
+For the whole account of an FPF, DPF, or LPF and its substantive profiles, reuse the twelve content functions through `E.8:4.1.4` and `E.11.PFP:4.7`. Those functions guide the explanation at each selected scale; the individual-pattern heading grammar remains the form for individual pattern bodies.
 
 Use it especially when a draft is technically correct but hard to use: the cold reader cannot tell when to apply it, what action to take, what mistake that action prevents, which related pattern defines or constrains a specific outside claim, or which assurance material is informative rather than the first user-facing guidance.
 

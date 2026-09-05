@@ -6,12 +6,12 @@ section_id: "C.17:3"
 section_title: "Evaluation configuration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__005_evaluation-configuration.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:3 — Evaluation configuration"
-line_start: 49548
-line_end: 49564
+line_start: 49533
+line_end: 49549
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -70,5 +70,5 @@ The configuration must make these questions answerable:
 
 For each objective, criterion, or constraint on which the result depends, keep its EntityOfConcern, effective ReferenceScheme, edition or currentness basis, and subject-defined predicate recoverable. Do not use a generic container label to answer several of these questions at once. Add only the source, scheme, scope, model-use, comparison, or evidence relation the current claim needs.
 
-Keep prospective and observed readings distinct. A prospective reading may use a surrogate model and stated assumptions to compare designs before use; an observed reading uses later Work, service, or other outcome evidence. Do not overwrite the prediction as though it had been an observation. Preserve both result editions when the comparison matters, and reopen only the coordinates and conclusions that relied on the superseded prediction.
+Keep prospective and observed readings distinct. A prospective reading may use a surrogate model and stated assumptions to compare designs before use; an observed reading uses later Work, service, or other outcome evidence. Do not overwrite the prediction as though it had been an observation. Preserve both results when the comparison matters, and reopen only the coordinates and conclusions that relied on the superseded prediction.
 

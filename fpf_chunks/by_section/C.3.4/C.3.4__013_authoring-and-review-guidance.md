@@ -6,12 +6,12 @@ section_id: "C.3.4:11"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__013_authoring-and-review-guidance.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:11 — Authoring and Review Guidance"
-line_start: 46220
-line_end: 46241
+line_start: 46207
+line_end: 46228
 dependencies:
   - "A.2.6"
   - "C.2.1"

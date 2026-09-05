@@ -6,12 +6,12 @@ section_id: "C.2.6:16"
 section_title: "Anchoring Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__017_anchoring-publication-package-discipline.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:16 — Anchoring Publication Package Discipline"
-line_start: 44716
-line_end: 44733
+line_start: 44703
+line_end: 44720
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -50,5 +50,5 @@ This is especially important when the final wording is prose, because prose ofte
 Distinguish the anchoring mode of the source cue from the anchoring mode of the current publication face. A bodily cue written into a document may still require `AM.EmbodiedFelt` as source mode and `AM.DocumentMediated` as publication face.
 
 #### C.2.6:16.3 - Mixed-mode decomposition rule
-`AM.Mixed` is admissible only when its component modes are named and the reason for the mixture is operationally real. It must not become a convenience label for an episteme that has not yet been analyzed.
+`AM.Mixed` is admissible only when its component modes are named and the reason for the mixture is operationally real. The component modes must be determined before the mixed-mode declaration is used.
 

@@ -6,12 +6,12 @@ section_id: "C.21:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__003_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:1 — Problem Frame"
-line_start: 51393
-line_end: 51398
+line_start: 51379
+line_end: 51384
 dependencies:
   - "A.10"
   - "A.17"
@@ -47,7 +47,7 @@ keywords:
 
 ### C.21:1 - Problem Frame
 
-Disciplines aggregate changing epistemes, practices, standards, institutions, and Work. Teams routinely say “replication is improving,” “the field is fragmented,” or “standards are converging.” Such a sentence can be useful before it becomes a dashboard row, but any relied-on comparison needs exact Characteristic, Scale, measurement, scope, and basis semantics.
+A discipline can persist as its constituents and associated epistemes, practices, standards, institutions, and Work change. Teams routinely say “replication is improving,” “the field is fragmented,” or “standards are converging.” Such a sentence can be useful before it becomes a dashboard row, but any relied-on comparison needs exact Characteristic, Scale, measurement, scope, and basis semantics.
 
 C.21 therefore treats health as a vector of separately typed coordinate claims. It does not imply one scalar health value. A threshold or target band is an acceptance declaration under G.4, not part of the Characteristic. A dashboard is a representation over already constituted claims, not their ontology or authority.
 

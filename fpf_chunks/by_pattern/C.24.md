@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.24.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
-line_start: 53364
-line_end: 53715
+line_start: 53350
+line_end: 53701
 dependencies:
   - "A.10"
   - "A.15"

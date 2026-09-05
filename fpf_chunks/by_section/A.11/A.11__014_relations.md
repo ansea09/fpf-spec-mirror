@@ -6,12 +6,12 @@ section_id: "A.11:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__014_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:9 — Relations"
-line_start: 23486
-line_end: 23491
+line_start: 23528
+line_end: 23533
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -23,11 +23,6 @@ dependencies:
   - "F.18"
   - "F.8"
 keywords:
-  - "U-kind admission"
-  - "composition"
-  - "kernel growth"
-  - "non-redundancy"
-  - "parsimony"
 ---
 
 ### A.11:9 - Relations

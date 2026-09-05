@@ -6,12 +6,12 @@ section_id: "C.35:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:1 — Problem frame"
-line_start: 67319
-line_end: 67421
+line_start: 67305
+line_end: 67407
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

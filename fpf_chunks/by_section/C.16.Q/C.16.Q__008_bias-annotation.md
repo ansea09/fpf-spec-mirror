@@ -6,12 +6,12 @@ section_id: "C.16.Q:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__008_bias-annotation.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:6 — Bias-Annotation"
-line_start: 49257
-line_end: 49266
+line_start: 49244
+line_end: 49253
 dependencies:
   - "A.10"
   - "A.16"
@@ -62,7 +62,7 @@ keywords:
 
 ### C.16.Q:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto-Epist**, **Prag**, **Did**. Scope: **Universal** for overloaded evaluative uses of *quality* in FPF-governed wording.
+The following biases apply to overloaded evaluative uses of *quality* in FPF-governed wording.
 
 * **Gov bias:** this pattern favors explicit evaluative publication and explicit L/A/D/E hooks, which improves auditability but adds drafting overhead.
 * **Arch bias:** this pattern prefers one stable transitional ascription record over free-form philosophical prose, which improves reuse but can feel rigid in exploratory notes.

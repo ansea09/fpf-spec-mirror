@@ -6,12 +6,12 @@ section_id: "C.2.2a:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__006_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:4 — Solution"
-line_start: 43435
-line_end: 43526
+line_start: 43420
+line_end: 43511
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -46,7 +46,7 @@ It is not a second kernel state-space apparatus beside `A.19`. It is the particu
 
 #### C.2.2a:4.0a - Kind and chart boundary
 
-`U.LanguageStateSpace` is a dependent durable chart value under `U.CharacteristicSpace` and the episteme language-state boundary, not a new root state-space U-kind. Its identity is the declared characteristic-space chart for governed episteme publication positions. Score tables, publication forms, local route maps, and carriers can publish or use the chart, but they are not the chart.
+`U.LanguageStateSpace` is a dependent durable chart value under `U.CharacteristicSpace` and the episteme language-state boundary, not a new root state-space U-kind. Its identity is the declared characteristic-space chart for governed episteme publication positions. Practitioners can publish or use the chart through score tables, publication forms, local route maps, and carriers, which remain distinct from the chart.
 
 #### C.2.2a:4.1 - Core use
 `U.LanguageStateSpace` gives FPF one explicit declared chart for answering five questions:
@@ -60,7 +60,7 @@ It is not a second kernel state-space apparatus beside `A.19`. It is the particu
 #### C.2.2a:4.2 - Position reading under `A.19`
 A language-state position is a partial, slot-explicit coordinate claim in the declared language-state `U.CharacteristicSpace`.
 
-Each basis slot publishes a `ValueSet(slot)`, interval, or other admissible set-valued claim. Early seam publications may leave some slots unknown or wide, but that uncertainty must be declared rather than hidden inside one stage word.
+Publish each basis-slot reading as a `ValueSet(slot)`, interval, or other admissible set-valued claim. Early seam publications may leave some slots unknown or wide, but that uncertainty must be declared rather than hidden inside one stage word.
 
 `position` language is therefore admissible here only as shorthand for such slot-explicit `A.19` coordinate claims. It does **not** authorize a rival process-sequence or feature-vector story.
 
@@ -104,7 +104,7 @@ A conforming account shall not infer:
 - representation factors from articulation alone;
 - or routing admissibility from a lone `F` statement.
 
-Where operationally meaningful thresholds exist, they must publish on the relevant slots rather than being disguised as informal `F` sublevels.
+Where operationally meaningful thresholds exist, they must be published on the relevant slots rather than being disguised as informal `F` sublevels.
 
 #### C.2.2a:4.7 - Position versus publication form
 A position claim in `U.LanguageStateSpace` is distinct from:
@@ -116,7 +116,7 @@ A position claim in `U.LanguageStateSpace` is distinct from:
 - the carrier that stores or displays it,
 - or the endpoint-subject-qualified publication that may result from it.
 
-Those publication lanes are coupled but distinct. `U.LanguageStateSpace` keeps the position claim readable without collapsing it into any one bearer lane.
+These objects are coupled but distinct. `U.LanguageStateSpace` keeps the position claim readable without conflating it with any of them.
 
 #### C.2.2a:4.8 - Threshold publication discipline
 If a threshold is used to justify a move or endpoint entry, that threshold shall be stated on explicit basis slots in the chart. Statements such as `this is now ready`, `this has matured`, or `this is still too early` are non-conformant when they substitute for undeclared slot conditions.
@@ -129,5 +129,5 @@ If no Bridge obtains, preserve both local positions. Name the actual comparison 
 
 #### C.2.2a:4.10 - What changes after the row exists
 
-Compare the relevant readings with the local threshold named by the next action. The result can keep the publication where it is, route it through a seam or prompt pattern, open a facet or endpoint question, or stop because a required reading is unknown. The receiving pattern governs the actual route, comparison, or publication decision; the chart row supplies only the position facts that decision uses.
+Compare the relevant readings with the local threshold named by the next action. Use the result to decide whether to keep the publication where it is, route it through a seam or prompt pattern, open a facet or endpoint question, or stop because a required reading is unknown. The receiving pattern governs the actual route, comparison, or publication decision; the chart row supplies only the position facts that decision uses.
 

@@ -6,12 +6,12 @@ section_id: "C.22.2:9"
 section_title: "Goldilocks and Set-Return Docking"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__010_goldilocks-and-set-return-docking.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:9 — Goldilocks and Set-Return Docking"
-line_start: 52807
-line_end: 52831
+line_start: 52793
+line_end: 52817
 dependencies:
   - "A.10"
   - "A.15"
@@ -79,5 +79,5 @@ The local `solvability band` label means a scheme-and-scope-qualified, non-scala
 
 If the band cannot be tied to a characteristic, Q-bundle, comparison, retention, or capability relation and its qualification, treat Goldilocks wording as informal recognition only and bind any selection, set-return, or parity claim to its direct governor.
 
-The current governing family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. Its relation to `C.22:14` concerns entry and timing inside the same family: `C.22.2` uses it before P2W, while `C.22:14` uses it downstream when candidate solutions for a `TaskKind` make `TaskSignature` informative.
+The current governing family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. Its relation to `C.22:15` concerns entry and timing inside the same family: `C.22.2` uses it before P2W, while `C.22:15` uses it downstream when candidate solutions for a `TaskKind` make `TaskSignature` informative.
 

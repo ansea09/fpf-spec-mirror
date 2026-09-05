@@ -6,12 +6,12 @@ section_id: "C.16.Q:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__006_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:4 — Solution"
-line_start: 48710
-line_end: 49092
+line_start: 48697
+line_end: 49079
 dependencies:
   - "A.10"
   - "A.16"
@@ -82,7 +82,7 @@ When the trigger fires, follow the `E.10.ARCH` recovery order specialized to qua
    Copy the trigger phrase using *quality* or a red-flag derivative such as *high-quality*, *quality metric*, *quality characteristic*, or *model quality*.
 
 2. **Recover the bearer and publication lane.**
-   Name the bearer and the relevant A.7 lane or kind: EntityOfConcern being described, description, `episteme` or publication face, carrier when the carrier itself is evaluated, pattern, model, policy, explanation, candidate, architecture description, work result, relation, action loop, or ordinary prose.
+   Name the bearer and the relevant A.7 distinction between the EntityOfConcern being described, its description or another `episteme`, a publication face, and a carrier evaluated in its own right. Examples of bearers include a pattern, model, policy, explanation, candidate, architecture description, work result, relation, or action loop. Keep ordinary prose with no FPF-governed use ordinary.
 
 3. **Recover interpretation locality and reconstruct candidates.**
    Recover the effective ReferenceScheme, probe/model frame, separate A.19.CPM comparison frame or `none`, `U.ClaimScope`, evaluator, and `U.ViewpointRef` or `none`. Then enumerate plausible senses and the patterns or source relations for their candidate endpoints. If the occurrence is decision-bearing, publication-bearing, or cross-local, record these alternatives in a short quality-term Candidate-Set Note before selecting the repair.
@@ -160,8 +160,8 @@ The checked bearer, any dated assessment work, the resulting claim episteme, wit
 `qualityTermAscription` is bearer-centred.
 Tech and normative prose SHALL keep the evaluated participant in the bearer position and SHALL publish `evaluatorRef` and governed `viewpointRef` separately, using `none` when either is absent.
 
-* “Architects rate the system highly” rewrites to `qualityTermAscription(bearerTuple={System}, evaluatorRef=ArchitectureReviewBoard, viewpointRef=none, …)`.
-* “The benchmark says model quality is high” rewrites to `qualityTermAscription(bearerTuple={Model}, evaluatorRef=BenchmarkPolicy, viewpointRef=none, …)`.
+* When the evaluating architects are identified as `ArchitectureReviewBoard`, “Architects rate the system highly” rewrites to `qualityTermAscription(bearerTuple={System}, evaluatorRef=ArchitectureReviewBoard, viewpointRef=none, …)`.
+* When the benchmark's evaluation policy is identified as `BenchmarkPolicy`, “The benchmark says model quality is high” rewrites to `qualityTermAscription(bearerTuple={Model}, evaluatorRef=BenchmarkPolicy, viewpointRef=none, …)`.
 
 There is no inverse token that silently makes the evaluator the bearer.
 If inverse wording is used in Plain prose, rewrite it into the bearer-centred form, or use the explicit inverse form supplied by the applicable pattern.
@@ -363,7 +363,7 @@ Examples:
 * A progression from `QS.PreconceptualFit` to `QS.PhenomenalCharacter` needs its exact direct relation or bounded-use account; shared articulation history does not make the senses identical.
 * Using `QS.PreconceptualFit` to choose engineering measures is a proposed operationalization or projection use. Name the actual Bridge, separate use rule and tolerated loss, and direct measurement or characterization result. Add a stance note only if it improves the reading.
 * Relating `QS.EngineeringQualityFamily` to `QS.UseValue` is normally a directional, loss-bearing proposed use under a declared CG-frame, not identity and not permission to substitute one score for the other.
-* `QS.ExplanatoryMerit` and `QS.UseValue` remain non-identical unless an exact F.9 Bridge obtains. An F.9.1 `nonEquivalent` note may help read an existing bounded-use claim but cannot replace the Bridge finding or claim polarity.
+* An obtaining F.9 Bridge between `QS.ExplanatoryMerit` and `QS.UseValue` does not by itself establish identity. An F.9.1 `nonEquivalent` note may help read an existing bounded-use claim but cannot replace the Bridge finding or claim polarity.
 * Pirsig-style **dynamic quality** may locally cue `QS.PreconceptualFit` or sometimes `QS.LatentFit`. Within one exact interpretation basis this may be a local rename; across bases it needs exact F.17 cells and F.9 treatment. The label alone supplies neither identity nor empirical grounding.
 * Pirsig-style **static quality** usually cues a `Characteristic` or `Bundle` publication under another declared sense; it is not identical with dynamic quality.
 * `QS.ArchitecturalDescriptionFitness` and `QS.EngineeringQualityFamily` have different bearer lanes. Any cross-local correspondence must keep the exact description-side and system-side cells, Bridge occurrence, bounded-use claim, and losses separate and must name which description-fitness heads, if any, are proposed to proxy which system-side characteristics.
@@ -422,7 +422,7 @@ In **Tech and normative prose**:
   * a bridge label to an external standard or tradition, or
   * a family label immediately rewritten into one explicit `U.Characteristic` or `Q-Bundle`;
 * **quality requirement or quality requirements** MUST NOT remain bare noun phrases; rewrite them into explicit requirement-use, source-use, gate, commitment, acceptance-spec, characteristic, `Q-Bundle`, objective, or publication-use claims or relations using the applicable pattern and one named `U.Characteristic`, `Q-Bundle` head, or objective head; the wording itself establishes none of those objects;
-* **architecture quality or architectural quality** MUST NOT appear without an explicit bearer lane (`EntityOfConcern being described`, `description`, `episteme` or publication face, or carrier when the carrier itself is evaluated) and, when omission changes meaning, an explicit `referencePlane`;
+* **architecture quality or architectural quality** MUST NOT appear without an explicit bearer lane (`EntityOfConcern being described`, `description` or another `episteme`, publication face, or carrier when the carrier itself is evaluated) and, when omission changes meaning, an explicit `referencePlane`;
 * in QD and NQD contexts, bare **quality** MUST default to **`QS.UseValue`**;
 * preconceptual uses MUST NOT be presented as if they were already Characteristics;
 * latent and distributed fit MUST NOT be presented as if it were automatically explanatory merit;

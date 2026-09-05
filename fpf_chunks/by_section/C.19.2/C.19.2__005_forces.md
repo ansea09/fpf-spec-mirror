@@ -6,12 +6,12 @@ section_id: "C.19.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__005_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:3 — Forces"
-line_start: 50873
-line_end: 50882
+line_start: 50859
+line_end: 50868
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -40,5 +40,5 @@ keywords:
 | One current path vs live alternatives | Inventing rivals creates bureaucracy; ignoring genuine alternatives can lock in avoidable cost or loss. |
 | Local economy vs reuse | One-off work favors a small path; repeated work can amortize configuration and improve transfer. |
 | Direct kinds vs shared comparison | Unlike candidates must retain their kinds while being compared against one declared use and guarantee. |
-| Method guidance vs actual work | A practitioner can use a `U.MethodDescription` episteme as guidance; that episteme cannot configure or apply itself. |
+| Method guidance vs actual work | A practitioner can use a `U.MethodDescription` episteme as guidance when performing the configuration or application work. |
 

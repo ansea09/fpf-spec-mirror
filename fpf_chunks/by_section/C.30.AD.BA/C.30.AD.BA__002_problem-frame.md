@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:1 — Problem Frame"
-line_start: 59803
-line_end: 59808
+line_start: 59789
+line_end: 59794
 dependencies:
   - "A.1"
   - "A.10"

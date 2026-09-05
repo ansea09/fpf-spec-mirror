@@ -6,12 +6,12 @@ section_id: "E.17:8"
 section_title: "Archetypal Grounding (SoTA-aligned Local Tests)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__009_archetypal-grounding-sota-aligned-local-tests.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:8 — Archetypal Grounding (SoTA-aligned Local Tests)"
-line_start: 83149
-line_end: 83167
+line_start: 83197
+line_end: 83215
 dependencies:
   - "A.10"
   - "A.15.4"

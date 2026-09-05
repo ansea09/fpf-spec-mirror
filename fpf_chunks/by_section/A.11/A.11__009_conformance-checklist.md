@@ -6,12 +6,12 @@ section_id: "A.11:3"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__009_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:3 — Conformance Checklist"
-line_start: 23446
-line_end: 23456
+line_start: 23488
+line_end: 23498
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -23,11 +23,6 @@ dependencies:
   - "F.18"
   - "F.8"
 keywords:
-  - "U-kind admission"
-  - "composition"
-  - "kernel growth"
-  - "non-redundancy"
-  - "parsimony"
 ---
 
 ### A.11:3 - Conformance Checklist
@@ -36,8 +31,8 @@ keywords:
 | --- | --- |
 | `CC-A11-1` | The candidate's governed object is recovered before parsimony is judged. |
 | `CC-A11-2` | If the candidate uses `U.*` force, `E.24.UK` is applied before F.5, F.8, or F.18 naming. |
-| `CC-A11-3` | Existing expression by composition, slots, relations, dependent values, and subject patterns is attempted by value. For a relation-kind candidate this includes the exact `A.6.P` / `A.6.RCD` disposition; a formula, query, path, graph, diagram, convenient name, assertion, or predicate definition is not counted as a primitive-kind witness. |
+| `CC-A11-3` | The best existing governed expression is attempted by value. For a relation-kind candidate this includes the exact `A.6.P` / `A.6.RCD` disposition. A representation may supply evidence, but admission requires the stated irreducible claim, occurrence semantics, and boundary. |
 | `CC-A11-4` | Material loss is stated as a lost claim, lost distinction, lost boundary, or lost admissible use, not as naming discomfort. |
 | `CC-A11-5` | Strong overlap lowers or rejects the candidate unless the difference changes claims. |
-| `CC-A11-6` | The final disposition is one of the allowed ontology outcomes, not a vague approval to keep the word. |
+| `CC-A11-6` | The final disposition is one of section 2's parallel outcomes and, for a relation-kind candidate, names the exact `A.6.RCD` result. |
 

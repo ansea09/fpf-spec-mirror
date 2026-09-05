@@ -6,12 +6,12 @@ section_id: "B.5.2:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__017_authoring-and-review-guidance.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:16 — Authoring and Review Guidance"
-line_start: 41275
-line_end: 41303
+line_start: 41260
+line_end: 41288
 dependencies:
   - "A.10"
   - "A.16"

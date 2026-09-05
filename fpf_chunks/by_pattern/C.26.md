@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
-line_start: 54134
-line_end: 54749
+line_start: 54120
+line_end: 54735
 dependencies:
   - "A.10"
   - "A.15"

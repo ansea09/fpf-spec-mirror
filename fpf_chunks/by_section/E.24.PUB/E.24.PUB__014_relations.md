@@ -6,12 +6,12 @@ section_id: "E.24.PUB:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__014_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:12 — Relations"
-line_start: 92185
-line_end: 92191
+line_start: 92233
+line_end: 92239
 dependencies:
   - "A.6.3"
   - "A.6.REL"

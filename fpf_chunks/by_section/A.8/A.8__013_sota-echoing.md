@@ -6,12 +6,12 @@ section_id: "A.8:4.4"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__013_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:4.4 — SoTA-Echoing"
-line_start: 22509
-line_end: 22512
+line_start: 22542
+line_end: 22545
 dependencies:
   - "A.11"
   - "C.3"

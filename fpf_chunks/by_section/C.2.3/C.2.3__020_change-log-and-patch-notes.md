@@ -6,12 +6,12 @@ section_id: "C.2.3:19"
 section_title: "Change Log and Patch Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__020_change-log-and-patch-notes.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:19 — Change Log and Patch Notes"
-line_start: 43928
-line_end: 43941
+line_start: 43913
+line_end: 43926
 dependencies:
   - "A.16"
   - "A.18"
@@ -44,7 +44,7 @@ This pattern supersedes deprecated wording that speaks about alternate formality
 
 #### C.2.3:19.2 - Migration guidance
 
-When refreshing legacy material, assign an initial `F` from observable content, rewrite local maturity labels into explicit `F` declarations, and keep provenance notes only as historical annotations rather than live rigor surrogates.
+When refreshing legacy material, assign an initial `F` from observable content, replace local maturity labels used as rigor surrogates with explicit `F` declarations, and keep provenance notes only as historical annotations rather than live rigor surrogates.
 
 #### C.2.3:19.3 - Boundary to language-state facets
 

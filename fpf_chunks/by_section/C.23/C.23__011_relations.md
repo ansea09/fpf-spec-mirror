@@ -6,12 +6,12 @@ section_id: "C.23:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__011_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:10 — Relations"
-line_start: 53355
-line_end: 53361
+line_start: 53341
+line_end: 53347
 dependencies:
   - "A.10"
   - "B.3"
@@ -39,8 +39,8 @@ keywords:
 
 ### C.23:10 - Relations
 
-**Builds on:** **G.5** (selector consumes these rules), **G.4** (Acceptance & EvidenceProfiles), **C.22** (S2 typing), **C.18 NQD‑CAL**, **C.19 E/E‑LOG**, **B.3** (Assurance tuple & WLNK).
+**Builds on:** **G.5** (selector consumes these rules), **G.4** (Acceptance & EvidenceProfiles), **C.22** (S2 typing), **C.18 NQD‑CAL**, **C.19 E/E‑LOG**, **B.3** (named assurance claims and declared aggregation, including WLNK only when applicable).
 **Publishes to:** **UTS** (MaturityCards, rule ids), **SCR/RSCR** (branch coverage; parity hooks).
 **Constrains:** **G.8** (LOG Bundling must cite MaturityCards), **G.9** (parity harness draws baselines per rung), **G.11** (refresh windows per rung & decay), **G.5** (Open‑Ended Family mode for GeneratorFamily).
-**Outcome.** The pattern introduces **new content** (LOG shells + maturity poset + degrade modes + publication Standard) and **does not duplicate** CG‑Spec legality rules, CHR guard‑macros, or CAL acceptance mechanics; it *integrates* them into **admissibility logic** for MethodFamilies.
+**Outcome.** **Admissibility logic** for MethodFamilies combines LOG shells, the maturity poset, degrade modes, and publication requirements with CG‑Spec legality rules, CHR guard‑macros, and CAL acceptance mechanics.
 

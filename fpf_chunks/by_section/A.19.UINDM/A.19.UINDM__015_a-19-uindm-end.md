@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:End"
 section_title: "A.19.UINDM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__015_a-19-uindm-end.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:End — A.19.UINDM:End"
-line_start: 33471
-line_end: 33472
+line_start: 33453
+line_end: 33454
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

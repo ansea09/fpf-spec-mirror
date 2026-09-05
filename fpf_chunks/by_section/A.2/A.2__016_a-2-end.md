@@ -6,12 +6,12 @@ section_id: "A.2:End"
 section_title: "A.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__016_a-2-end.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:End — A.2:End"
-line_start: 3402
-line_end: 3403
+line_start: 3435
+line_end: 3436
 dependencies:
   - "A.1"
   - "A.1.1"

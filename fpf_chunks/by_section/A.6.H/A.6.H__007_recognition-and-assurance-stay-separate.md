@@ -6,12 +6,12 @@ section_id: "A.6.H:6"
 section_title: "Recognition and assurance stay separate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__007_recognition-and-assurance-stay-separate.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:6 — Recognition and assurance stay separate"
-line_start: 21343
-line_end: 21361
+line_start: 21376
+line_end: 21394
 dependencies:
   - "A.1"
   - "A.10"
@@ -69,5 +69,5 @@ keywords:
 - What scope, limitation, time stance, and relying use apply?
 - Does the evidence support recognition, relation truth, measurement, completion, or another claim?
 
-Evidence can make an assertion inspectable without becoming constitutive of the whole or relation. Unknown support does not create a third identity or obtaining state.
+Evidence can make an assertion inspectable without becoming constitutive of the whole or relation.
 

@@ -6,12 +6,12 @@ section_id: "C.3:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__013_consequences.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:11 — Consequences"
-line_start: 45416
-line_end: 45423
+line_start: 45403
+line_end: 45410
 dependencies:
   - "A.1"
   - "A.11"

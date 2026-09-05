@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__002_use-this-when.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:0 — Use this when"
-line_start: 44945
-line_end: 44974
+line_start: 44932
+line_end: 44961
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "C.18.1:5"
 section_title: "Consumer relation fields - minimal inputs and outputs (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__006_consumer-relation-fields-minimal-inputs-and-outputs-conceptual.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:5 — Consumer relation fields - minimal inputs and outputs (conceptual)"
-line_start: 50220
-line_end: 50223
+line_start: 50206
+line_end: 50209
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -22,7 +22,6 @@ dependencies:
   - "C.18"
   - "C.19"
   - "C.24"
-  - "C.5"
   - "G.10"
   - "G.11"
   - "G.5"
@@ -48,5 +47,5 @@ keywords:
 
 ### C.18.1:5 - Consumer relation fields - minimal inputs and outputs (conceptual)
 
-**G.9 parity planning and run evidence** consumes `S` and `ScaleWindow` to align budgets, **pin editions**, and perform **UNM** or **NormalizationMethod** mapping; **G.11** carries **policy-id**, **PathSliceId**, seeds and replicates, CI level, and edition pins per parity CC.
+**G.9 parity planning** uses `S` and `ScaleWindow` to align budgets, **pin editions**, and declare any required **UNM** or **NormalizationMethod** mapping; run evidence records the applied mapping and pins. **G.11** carries **policy-id**, **PathSliceId**, seeds and replicates, CI level, and edition pins per parity CC.
 

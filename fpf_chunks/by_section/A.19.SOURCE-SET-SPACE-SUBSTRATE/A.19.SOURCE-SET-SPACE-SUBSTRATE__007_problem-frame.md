@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__007_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:1 — Problem frame"
-line_start: 30751
-line_end: 30763
+line_start: 30733
+line_end: 30745
 dependencies:
   - "A.0"
   - "A.17"

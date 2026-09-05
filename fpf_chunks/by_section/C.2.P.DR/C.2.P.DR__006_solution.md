@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__006_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:4 — Solution"
-line_start: 45004
-line_end: 45129
+line_start: 44991
+line_end: 45116
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -106,7 +106,7 @@ Use four plain questions before the claim-and-pattern table: What visible thing 
 | concrete parameter or participant binding | the exact direct subject-relation pattern, or `A.6.1` for one independently identified operation application and its actual argument or result binding | A declaration, call position, trace field, or type-compatible token establishes no actual binding. |
 | performed resource use | the exact direct resource-use relation involving the already identified Work occurrence; use `B.1.6` only when aggregation is current | Resource use is a separately obtaining relation, not a Work field, record field, or result. |
 | result or output | identify the exact result entity or episteme first; use `A.15.PROD` when production, entity inception, or production completion is current, and `A.6.RCD` only when the needed direct result relation has no current governor | A binding, record field, Work occurrence, or nearby output label does not identify the result or establish production. |
-| FPF pattern application, pattern relation, neighboring-pattern relation, or placement cue | `E.8`, `F.19`, `E.10.ARCH`, or the direct pattern relation named by value | Pattern relations are declarative references or applications, not exits, receivers, routes, calls, owners, homes, or dispatches. |
+| FPF pattern application, pattern relation, neighboring-pattern relation, or placement cue | `E.8`, `F.19`, `E.10.ARCH`, or the direct pattern relation named by value | Pattern relations are declarative references or applications. Exit, receiver, route, call, owner, home, or dispatch wording must express a clear ordinary or technical relation; wording alone supplies no action or control semantics. |
 | quoted source wording or ordinary navigation | quote-only or ordinary prose | Do not repair ordinary words into FPF terms when no FPF-governed claim is being made. |
 
 #### C.2.P.DR:4.3 - Legitimate path and route settlement
@@ -123,12 +123,12 @@ When the representation is route-shaped, loop-shaped, graph-shaped, diffusion-li
 | --- | --- |
 | constraint-governed `U.Structure` across several constrained loci | `A.22.CGUS` |
 | transformation-flow structure, path, path slice, crossing, guard, or valuation | `E.18` and `E.18.3` when unfolding use is current |
-| description, diagram, table, graph, route card, slide, README line, or narrative that renders the structure | `ConstraintGovernedUnfoldingStructureDescription@Context`, `DemonstrativeUnfoldingSlice@Context`, `A.6.3.NAR`, `E.17`, or the direct description subject pattern |
+| description, diagram, table, graph, route card, slide, README line, or narrative that renders the structure | `A.22.CGUS:4.4` for descriptions of a qualified CGUS and post-qualification demonstrative slices, including the wording `ConstraintGovernedUnfoldingStructureDescription@Context` or `DemonstrativeUnfoldingSlice@Context`; `A.6.3.NAR` for narrative rendering; `E.17` for publication; or the direct description subject pattern |
 | reusable semantic way of doing, or a claim-bearing episteme that passes the A.3.2 MethodDescription membership test | `A.3.1` for the method; `A.3.2` for the qualifying episteme |
 | work plan, work readiness, or performed work | A.15 family |
 | evidence, assurance, gate, decision, architecture, publication, or currentness-refresh claim | the subject pattern for that claim |
 
-Do not repair route-shaped wording by replacing it with another route-shaped word. Always recover the visible expression, exact direct object or relation, representation or correspondence use or `none`, retained use, blocked stronger action claim, subject pattern, and stop or reopen condition. When the representation use is `none`, that is enough to close the repair; do not require a represented target, preserved and lost structure, or a mathematical-lens admissible-use account. When an exact representation, mathematical-lens, or selected-structure use is current, also name its target, the preserved and lost structure, and the admitted and blocked uses required by C.29 or that structure's subject pattern.
+Do not repair route-shaped wording by replacing it with another route-shaped word. Always recover the visible expression, exact direct object or relation, representation or correspondence use or `none`, retained use, blocked stronger action claim, subject pattern, and stop or reopen condition. When the representation use is `none`, do not require a represented target, preserved and lost structure, or a mathematical-lens admissible-use account. When an exact representation, mathematical-lens, or selected-structure use is current, also name its target, the preserved and lost structure, and the admitted and blocked uses required by C.29 or that structure's subject pattern.
 
 #### C.2.P.DR:4.4 - Method, algorithm, mechanism, plan, and work settlement
 
@@ -154,7 +154,7 @@ Recover what the source is actually about and what it asserts:
 
 **Cooling contrast.** A reusable cooling procedure can be `U.Method` only after the context-local way of doing, its transformation or enactment kind, transformed referent or structure, preconditions, and intended effects are recovered. “Required cooling effect” alone is claim content, not a method. If a later cooling episode actually changes the governed loop state, that occurrence remains a separate A.3.4 `U.Transformation` and needs its own changed referent, boundary, conditions, actual facts, and continuity or reidentification basis.
 
-When the source label hides method, mechanism, formal-substrate, work, evidence, gate, result, or temporal claims, use `E.10.ARCH:3.1` to state the project concern in ordinary words, then identify each exact object and claim separately. For this host, repair only the representation overread and name the subject pattern for the current claim; linked values remain under their own subject patterns rather than becoming one representation-repair claim.
+When the source label hides method, mechanism, formal-substrate, work, evidence, gate, result, or temporal claims, use `E.10.ARCH:3.1` to state the project concern in ordinary words, then identify each exact object and claim separately. Use this pattern to repair only the representation overread and name the subject pattern for the current claim; linked values remain under their own subject patterns rather than becoming one representation-repair claim.
 
 #### C.2.P.DR:4.5 - Programming-paradigm and process-model settlement
 

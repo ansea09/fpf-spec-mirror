@@ -6,12 +6,12 @@ section_id: "F.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:intro — Intro"
-line_start: 94890
-line_end: 94898
+line_start: 94938
+line_end: 94946
 dependencies:
   - "A.6.9"
   - "B.3"

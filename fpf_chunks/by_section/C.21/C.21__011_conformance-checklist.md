@@ -6,12 +6,12 @@ section_id: "C.21:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__011_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:9 — Conformance Checklist"
-line_start: 51554
-line_end: 51571
+line_start: 51540
+line_end: 51557
 dependencies:
   - "A.10"
   - "A.17"
@@ -54,7 +54,7 @@ keywords:
 | `CC-C.21-3` | A minimal readable claim may stop without a definition set, EvidenceGraph, registry, dashboard, or publication apparatus. |
 | `CC-C.21-4` | Every persisted, compared, aggregated, or published coordinate carries the active DHC replay basis; no generic “metric edition” substitutes for an exact object. |
 | `CC-C.21-5` | Characteristic, Scale, Unit, polarity or target rule, and legal operations are coherent. Ordinals are not averaged and Units are not mixed. |
-| `CC-C.21-6` | Direct comparison uses C.16's compatible-semantics branch. F.9 is required only for actual distinct-local-sense use and then carries direction, admitted use, and loss. |
+| `CC-C.21-6` | Direct comparison uses C.16's compatible-semantics branch. A comparison that relies on a cross-local semantic relation keeps the obtaining F.9 relation, its separate bounded-use claim, observed loss, and current reliance distinct as specified in section 4.2. |
 | `CC-C.21-7` | Formal recognition and actual adoption or convergence are separate Characteristics; neither rank proves health or SoTA. |
 | `CC-C.21-8` | EvidenceUnitResolution, ClaimsPerArtifact, and SupportAnchorsPerClaim are separate; their constructions and Units are not interchanged. |
 | `CC-C.21-9` | Entropy and concentration are separate, with opposite directions explicit; any transformation and receiving Scale are declared. |

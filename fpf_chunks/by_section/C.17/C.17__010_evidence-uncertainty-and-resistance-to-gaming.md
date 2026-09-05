@@ -6,12 +6,12 @@ section_id: "C.17:8"
 section_title: "Evidence, uncertainty, and resistance to gaming"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__010_evidence-uncertainty-and-resistance-to-gaming.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:8 — Evidence, uncertainty, and resistance to gaming"
-line_start: 49696
-line_end: 49724
+line_start: 49681
+line_end: 49709
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -72,7 +72,7 @@ When a corpus, inclusion rule, model, encoder, Scale, criterion, window, or cros
 
 Goodhart's law is a useful historical warning, not evidence for any result. The safeguards above do the operational work.
 
-Evidence can support a result without establishing assurance. Ordinary use stops with proportionate evidence. Enter `B.3` only when the receiving assurance claim or material-reliance threshold requires it.
+Evidence can support a result without establishing assurance. Ordinary use stops with proportionate evidence. Enter `B.3` only when an actual named assurance claim is current.
 
 When that receiving use requires independent assessment or segregation of duties, name the Systems that performed any bearer-producing, coordinate-measurement, or overall-assessment Work and the assignments relevant to the independence claim. State the relevant conflict or independence evidence. Do not impose this assurance arrangement on an ordinary qualitative discussion that makes no independence claim.
 

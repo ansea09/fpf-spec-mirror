@@ -6,12 +6,12 @@ section_id: "C.19:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__016_rationale.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:10 — Rationale"
-line_start: 50658
-line_end: 50665
+line_start: 50644
+line_end: 50651
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -57,5 +57,5 @@ keywords:
 
 - Post-2015 bandit and Bayesian-optimization practice treats explore and exploit policy as an explicit policy object, not as one hidden side effect of whichever candidate looked best first. The practical implication here is to emit one explicit pool treatment plus one change trigger, not one atmospheric frontier story.
 - Contemporary frontier and quality-diversity practice also distinguishes the live frontier from any scalarized pick taken under one declared lens. The practical safeguard is to keep `keep_frontier`, `narrow_to_subset`, and `sunset_line` as visible alternatives rather than silently totalizing the pool.
-- When an applicable policy independently admits coverage or heterogeneity pressure, keep that pressure explicit until one declared reason justifies retirement or use of a different subject pattern. The practical implication is simple: sunset or name the next subject pattern only when the current pool-policy result can already say why the pool no longer belongs to `C.19`.
+- When an applicable policy independently admits coverage or heterogeneity pressure, keep that pressure explicit until one declared reason justifies retirement or use of a different subject pattern. The practical implication is simple: sunset a line only when the current pool-policy result states the policy reason for retiring that line; name the next subject pattern only when the next question no longer concerns pool policy under `C.19`.
 

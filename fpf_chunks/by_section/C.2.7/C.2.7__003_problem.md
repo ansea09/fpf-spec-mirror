@@ -6,12 +6,12 @@ section_id: "C.2.7:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__003_problem.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:2 — Problem"
-line_start: 44781
-line_end: 44783
+line_start: 44768
+line_end: 44770
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,5 +34,5 @@ keywords:
 ---
 
 ### C.2.7:2 - Problem
-Terms such as `EncodingBasis` collapse several independent choices. That makes comparison brittle and encourages one-factor stories such as distributed = informal or local = precise.
+Using `EncodingBasis` without its underlying factors collapses several independent choices. That makes comparison brittle and encourages one-factor stories such as distributed = informal or local = precise.
 

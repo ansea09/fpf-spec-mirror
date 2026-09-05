@@ -6,12 +6,12 @@ section_id: "C.31.RSA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 63053
-line_end: 63063
+line_start: 63039
+line_end: 63049
 dependencies:
   - "A.10"
   - "A.19"

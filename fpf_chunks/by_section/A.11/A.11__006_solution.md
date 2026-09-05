@@ -6,12 +6,12 @@ section_id: "A.11:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__006_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:2 — Solution"
-line_start: 23395
-line_end: 23428
+line_start: 23432
+line_end: 23470
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -23,23 +23,18 @@ dependencies:
   - "F.18"
   - "F.8"
 keywords:
-  - "U-kind admission"
-  - "composition"
-  - "kernel growth"
-  - "non-redundancy"
-  - "parsimony"
 ---
 
 ### A.11:2 - Solution
 
-Use four gates before admitting the new ontology addition:
+Use four gates before admitting the new ontology addition. Apply every gate to the same exact candidate, receiving claim or use, and current facts. Record the best existing expression first; then state the exact loss, overlap discriminator, newly admissible claim or action, and nearest excluded case for that same use.
 
 | Gate | Test question | Pass condition |
 | --- | --- | --- |
-| Composition | Can existing U-kinds, slots, relations, dependent values, or direct patterns express the claim? | Pass only when expression by composition loses a reviewable distinction. |
-| Non-redundancy | Does the candidate overlap an existing governed value or relation? | Pass only when overlap is bounded and the remaining difference changes admissible claims. |
-| Action-facing contribution | What can users claim, compare, repair, stop, rely on, or do because this addition exists? | Pass only when the contribution is not merely naming comfort or source prestige. |
-| Sharp boundary | Is there a one-sentence inclusion and exclusion test? | Pass only when readers can distinguish included and excluded cases without private author intent. |
+| Composition | What is the best existing governed expression for this exact receiving claim or use? | Pass only when that expression loses a stated claim, boundary, or admissible use. |
+| Non-redundancy | How far does the candidate overlap an existing governed value or relation, and what discriminates the remainder? | Pass only when the bounded remainder changes an admissible claim for the same use. |
+| Action-facing contribution | Which exact claim or action becomes admissible because this addition exists? | Pass only when that contribution reaches the named use rather than supplying naming comfort or source prestige. |
+| Sharp boundary | What is the one-sentence inclusion test, and which nearest case is excluded? | Pass only when both cases can be distinguished from stated facts without private author intent. |
 
 Use this compact record:
 
@@ -47,20 +42,25 @@ Use this compact record:
 ParsimonyAdmissionRecord:
   Candidate:
   RecoveredGovernedObject:
-  E24FamilySettlementDecisionRef: exact shared decision governed by E.24:4.0a; do not fill another E.24.UK decision form.
-  ExistingExpressionAttempt:
-  MaterialLossIfComposed:
-  OverlapWithExistingValues:
-  ActionFacingContribution:
-  BoundaryTest:
+  E24FamilySettlementDecisionRef: exact shared decision governed by E.24:4.0a
+  ReceivingClaimOrUse:
+  CurrentFactsRef:
+  ExistingExpressionAttempt: best existing governed expression for that claim or use
+  MaterialLossIfComposed: exact lost claim, boundary, or admissible use
+  OverlapWithExistingValues: extent plus discriminator
+  ActionFacingContribution: exact newly admissible claim or action
+  BoundaryTest: inclusion test plus nearest excluded case
   Disposition:
 ```
 
 Possible dispositions:
 
-- retain as root U-kind;
-- retain as dependent durable value under a root settlement;
-- apply C.3 typed reasoning;
-- express as slot, relation, record, publication form, lens, local frame, or direct governed value;
-- keep as source wording or local name.
+- retain as a root U-kind;
+- retain as a dependent durable value under a root settlement;
+- retain as a local C.3 kind or typed claim;
+- express through an existing governed expression;
+- keep as source wording or a local name;
+- for a relation-kind candidate, stop at the exact `A.6.RCD` existing-predicate, local-compound, subject-bounded-law, or reusable-predicate-definition result;
+- retain a derived relation-kind candidate only with the required occurrence semantics and direct settlement; or
+- retain an irreducible primitive relation-kind candidate only when `A.6.RCD` disposition 4 passes.
 

@@ -6,13 +6,15 @@ section_id: "E.11.PFP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__004_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:3 — Forces"
-line_start: 79800
-line_end: 79812
+line_start: 79795
+line_end: 79808
 dependencies:
+  - "A.3.2"
+  - "C.29"
   - "E.11"
   - "E.17"
   - "E.2.DA"
@@ -23,6 +25,7 @@ dependencies:
   - "E.4.DPF.DA"
   - "E.4.FPF"
   - "E.4.PFR"
+  - "E.8"
   - "G.11"
 keywords:
   - "& Search Queries"
@@ -37,7 +40,8 @@ keywords:
 | Exact edition return | Readers need a stable public designation and locator, while dates, filenames, statuses, and build digests must not become edition identity. |
 | One logical index | FPF-family editions need one authoritative pattern index, while visible Part or placement groups remain useful. |
 | Product variation | FPF, DPF, and LPF editions share a front form, but their body, reference tail, and choice-relevant public cues differ. |
-| Product boundary | Support units may belong to one framework product; independently useful adjacent products need their own identity, form, access, and maintenance. |
+| Whole and direct use | Readers need the language's shared problem, organization, reasons, and limits, while a direct question may be answered by one pattern. |
+| Product boundary | Support units may belong to one framework product; independently useful adjacent products need a truthful boundary and public return. |
 | Deterministic checking | Syntax checks should be reproducible, but they must not infer table purpose, product truth, or reader value from prose. |
 | Form and carrier separation | One form may be borne by several carriers, and one outer carrier may expose several products, without merging their identities. |
 | Accessibility and translation | Predictable headings and navigation aid many readers and tools, while one English label set cannot silently stand in for every language or access need. |

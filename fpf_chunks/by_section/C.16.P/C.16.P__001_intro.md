@@ -6,12 +6,12 @@ section_id: "C.16.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:intro — Intro"
-line_start: 48351
-line_end: 48369
+line_start: 48338
+line_end: 48356
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 **Intent.**
 Recover characteristic, scale, coordinate, score, metric, indicator, threshold, comparison, and scalar-quality wording whose construction is hidden before a reader applies `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or another subject pattern.
 
-This pattern is not a metrics-only pattern, not a measurement-method replacement, not a Q-bundle pattern, and not a gate or decision pattern. It repairs overloaded characterization wording so the exact `Characteristic`, `Scale`, `Coordinate`, `Value`, `Score`, `Unit`, `ScoringMethod`, indicated characteristic or claim, direct indicator or proxy relation, comparison reference or comparator set, admissible use, and subject pattern become recoverable.
+Repair overloaded characterization wording so the exact `Characteristic`, `Scale`, `Coordinate`, `Value`, `Score`, `Unit`, `ScoringMethod`, indicated characteristic or claim, direct indicator or proxy relation, comparison reference or comparator set, admissible use, and subject pattern become recoverable.
 
 **Builds on.** `E.10`, `E.10.ARCH`, `A.17`, `A.18`, `C.16`, `A.19`, `C.25`, `C.29`, `E.21`, `F.18`, and `A.6.P`.
 

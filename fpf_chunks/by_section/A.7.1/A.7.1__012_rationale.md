@@ -6,12 +6,12 @@ section_id: "A.7.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__012_rationale.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:10 — Rationale"
-line_start: 21946
-line_end: 21951
+line_start: 21979
+line_end: 21984
 dependencies:
   - "A.7"
   - "A.7.2"

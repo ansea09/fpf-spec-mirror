@@ -6,12 +6,12 @@ section_id: "C.18:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__002_use-this-when.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:0 — Use This When"
-line_start: 49869
-line_end: 49882
+line_start: 49854
+line_end: 49867
 dependencies:
   - "A.15"
   - "A.19"
@@ -63,5 +63,5 @@ The project treats an archive as a shortlist, a front as a decision, illuminatio
 
 #### C.18:0.2 - What This Buys
 
-The practitioner gets separate records for archive, front, and generation. Each record pins descriptors, characteristic spaces, edition refs, retention policy, telemetry, lineage, and next governing relation. Downstream selection, architecture, cultural evolution, work planning, measurement, and refresh then start from named records rather than from a broad archive label.
+The practitioner gets separate records for archive, front, and generation. Together, these records pin descriptors, characteristic spaces, edition refs, retention policy, telemetry, lineage, and next governing relation. Downstream selection, architecture, cultural evolution, work planning, measurement, and refresh then start from named records rather than from a broad archive label.
 

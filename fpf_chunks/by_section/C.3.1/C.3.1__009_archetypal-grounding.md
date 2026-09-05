@@ -6,12 +6,12 @@ section_id: "C.3.1:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__009_archetypal-grounding.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:7 — Archetypal Grounding"
-line_start: 45545
-line_end: 45559
+line_start: 45532
+line_end: 45546
 dependencies:
   - "A.1"
   - "A.11"
@@ -47,7 +47,7 @@ keywords:
 | Situation | C.3.1 move | Boundary |
 | --- | --- | --- |
 | `CoolingPumpKind` is below `PumpKind`. | Use criterion entailment: the cooling-pump condition already requires the governed pump condition. State the readable relation and its applicability. | Do not infer a public `U.CoolingPump`, and do not use current extension rows as the truth-maker. |
-| A closed inspection lot has five cabinets. | If the declared candidate domain is exactly those five cabinets, check admissibility and evaluate every candidate. The domain-bounded `InspectedCabinetKind` subkind claim can obtain when every narrower `true` is broader `true`. | The same observations do not establish an open-ended order over all future cabinets. |
+| A closed inspection lot has five cabinets. | If the declared candidate domain is exactly those five cabinets, check admissibility and evaluate every candidate. The domain-bounded subkind relation from `InspectedCabinetKind` to the proposed broader kind can obtain when every narrower `true` is broader `true`. | The same observations do not establish an open-ended order over all future cabinets. |
 | `MorningShiftQualifiedOperatorKind` and `UnionRosteredOperatorKind` happen to select the same people in a closed current roster. | Mutual domain-bounded subkind facts may obtain, giving classification equivalence for this roster. | The kinds remain distinct because their operative membership conditions differ; antisymmetry does not merge them. |
 | A signature adds an aligned unit conversion. | Apply section 6, keep the kind, identify the new signature edition, and retain edition-specific judgments. | Do not rewrite earlier judgments as if the new edition had been used. |
 | A signature changes from physical cooling performance to a schema label. | The boundary probes expose a changed candidate domain and discriminator; identify another kind. | Do not hide the mismatch by editing the extension. |

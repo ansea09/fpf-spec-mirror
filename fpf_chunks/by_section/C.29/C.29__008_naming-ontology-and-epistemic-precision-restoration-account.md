@@ -6,12 +6,12 @@ section_id: "C.29:6"
 section_title: "Naming, ontology, and epistemic precision-restoration account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__008_naming-ontology-and-epistemic-precision-restoration-account.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:6 — Naming, ontology, and epistemic precision-restoration account"
-line_start: 58074
-line_end: 58119
+line_start: 58060
+line_end: 58105
 dependencies:
   - "A.1.1"
   - "A.10"

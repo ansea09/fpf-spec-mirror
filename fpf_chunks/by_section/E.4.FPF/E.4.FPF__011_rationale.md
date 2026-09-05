@@ -6,12 +6,12 @@ section_id: "E.4.FPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__011_rationale.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:10 — Rationale"
-line_start: 70651
-line_end: 70656
+line_start: 70637
+line_end: 70642
 dependencies:
   - "C.33"
   - "C.34"

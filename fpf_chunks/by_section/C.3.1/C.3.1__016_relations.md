@@ -6,12 +6,12 @@ section_id: "C.3.1:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__016_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:14 — Relations"
-line_start: 45605
-line_end: 45611
+line_start: 45592
+line_end: 45598
 dependencies:
   - "A.1"
   - "A.11"
@@ -47,5 +47,5 @@ keywords:
 - **Specializes:** `A.6.REL` for `U.SubkindOf`: exact ordered kind participants, criterion-entailment or exhaustive closed-domain obtaining, applicability, lightweight occurrence use, and participant-determined identity; schemes and declaration editions qualify interpretation and assertion rather than occurrence identity.
 - **Builds on:** `C.3`, A.6.0 declaration identity, C.2.1 episteme and assertion identity, A.2.6/USM context-slice and scope discipline, F-G-R, and C.2.3 formality.
 - **Coordinates with:** `C.3.2` judgments and extensions, `C.3.3` correspondence between independently identified distinct kinds, `A.2` when one local kind is a system-role kind, `A.6.5` declaration-slot uses that consume an already obtaining subkind relation, `C.29` representations, `E.24.UK` durable U-kind admission, and `A.8`, `A.11`, `F.8`, and `F.5` when public kind governance is current.
-- **Does not replace:** C.2.1 governance of affirmative, negative, or unresolved subkind assertions; a direct candidate-feature governor; classification assertion; kind declaration; context bridge; or public naming decision.
+- **Other governing patterns:** Use C.2.1 for subkind-assertion epistemes, whether affirmative, negative, or unresolved; candidate features, classification assertions, kind declarations, context bridges, and public naming decisions retain their own governing patterns.
 

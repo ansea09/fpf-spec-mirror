@@ -6,12 +6,12 @@ section_id: "C.2.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__007_bias-annotation.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:6 — Bias-Annotation"
-line_start: 43284
-line_end: 43294
+line_start: 43270
+line_end: 43279
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,7 +56,6 @@ keywords:
 
 Informative; non-binding.
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal**.
 
 * **Onto/Epist bias:** High formality is often mistaken for high warrant (“proof therefore true in the world”). This pattern mitigates by forcing LA/TA visibility and by routing transport loss into R rather than mutating the claim.
 * **Prag bias:** Teams may Goodhart R by narrowing scope or selecting easy tests. This pattern mitigates by requiring explicit scope declaration and by making scope changes first-class (A.2.6).

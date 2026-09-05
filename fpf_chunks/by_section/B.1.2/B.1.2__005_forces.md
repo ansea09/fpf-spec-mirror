@@ -6,12 +6,12 @@ section_id: "B.1.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__005_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:3 — Forces"
-line_start: 36784
-line_end: 36794
+line_start: 36766
+line_end: 36776
 dependencies:
   - "A.1"
   - "A.10"

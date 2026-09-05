@@ -6,12 +6,12 @@ section_id: "B.5.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__005_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:4 — Solution"
-line_start: 41707
-line_end: 41721
+line_start: 41692
+line_end: 41706
 dependencies:
   - "A.13"
   - "A.15"
@@ -46,7 +46,7 @@ keywords:
 
 Use the **Domain-Concept Bridge** as a bounded reasoning move, not as a new domain container or mandatory record.
 
-1. Start from the exact expression, source, edition, and relevant passage. Use F.0.1 to recover the source-local claim. Create an F.17 cell and basis relation only when later durable reuse needs that address.
+1. Start from the exact expression, source, edition, and relevant passage. Use F.0.1 to recover the source-local claim. Recover an F.17 cell and test its basis relation when the current claim needs them, including when an F.9 Bridge is claimed. Add a durable term row only when the receiving use needs that packaging under F.17.
 2. Ask which exact FPF value or relation the current claim needs, then use the pattern that defines or constrains it. For example, the answer may concern a System, characteristic, Method, Work occurrence, episteme, system-role assignment, or evidence-use relation; the list is illustrative, not a set of new bridge kinds.
 3. If the use really needs a new kind, apply E.24.UK and C.3. A familiar expression, table row, or diagram label supplies no kindhood.
 4. If the recovered source-local claim already answers the question, return it and stop. If a receiving use must relate two distinct local-sense claims, use F.9 to test whether an exact Bridge between their F.17 cells actually obtains. Shared spelling, a mapping table, or a completed card proves no such relation.

@@ -6,12 +6,12 @@ section_id: "A.10.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__005_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:4 — Solution"
-line_start: 23078
-line_end: 23216
+line_start: 23111
+line_end: 23249
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -26,19 +26,19 @@ keywords:
 
 ### A.10.1:4 - Solution
 
-Start from the changed source, establish a claim-sized difference, bound the receiving-use search, cover that frame from complementary directions, and inspect each candidate before following it. For each actual `depends` branch, apply the direct pattern that governs the receiving result and obtain that result independently. Complete the common account only after that subject result exists.
+Use the outline in 4.1 to locate the current move; sections 4.2–4.7 give its comparison criteria, fields, and stop conditions.
 
 #### A.10.1:4.1 - Perform the Nine-Step Move
 
 1. **Start from the changed source, not a presumed receiver.** Name the predecessor and later or replacement source epistemes, the claim set whose change may matter, and the present question that bounds the search. Leave source identity, edition continuity, access, or applicability unresolved when the required fact is missing.
 2. **Compare claims rather than files.** Separate changes in proposition, subject, scope, applicability, assumptions, limits, evidence status, and effective conditions from wording, layout, publication, carrier, and revision-label changes. If no material claim change is established, take the cheap stop.
-3. **Select a receiving-use search frame.** Name the project, product, portfolio, organization, decision or result families, configurations, intervals, repositories, registers, responsible owners, and explicit exclusions within which a use would count for the present question.
+3. **Select a receiving-use search frame.** Use the search-frame fields in 4.3 to state where a receiving use would count for the present question.
 4. **State reproducible discovery coverage.** Name the exact source identifiers, claim addresses and aliases used; the included search surfaces; the source-outward and receiver-oriented routes; and every unsearched, inaccessible, stale, unindexed, or identity-ambiguous surface.
-5. **Discover and then name candidate receivers.** Use search, citations, lineage, traces, indexes, owner knowledge, or tools to find candidates. Inspect the receiving content and recover the exact premise, evidence-use, operation-argument, specification, decision-basis, or other direct relation. Discovery alone establishes no reliance.
+5. **Discover and then name candidate receiving uses.** Use search, citations, lineage, traces, indexes, owner knowledge, or tools to find candidates. Inspect the receiving content and recover the exact premise, evidence-use, operation-argument, specification, decision-basis, or other direct relation. Discovery alone establishes no reliance.
 6. **Classify and bound reach.** Give every found candidate `depends`, `mentions only`, or `unresolved`. Follow a `depends` branch through another exact use relation only while a receiving action can change. Form one dispatchable discovery-and-reach statement for each branch that needs subject judgment.
 7. **Apply the direct subject pattern's guidance.** Use the discovery-and-reach statement to apply that guidance to the changed claim, exact direct use, current conditions, affected reach, coverage limits, and material subject facts. The practitioner or admitted System carrying out that application may find that the proposed dependence must be narrowed or rejected or that stronger evidence is required. Keep the resulting subject result independently governed and pass it directly to its existing consumers.
 8. **Complete the common account after the subject result exists.** Cite that result, then summarize this affected use locally as preserved, narrowed, reopened, superseded, reliance withdrawn, or blocked. The summary neither replaces the subject result nor changes `A.10 RelianceDisposition`.
-9. **Stop at reproducible local closure.** Finish when the frame is fixed, every included surface has a stated coverage basis or named gap, every found candidate has a discovery disposition, and every `depends` branch has a subject result or named blocker. Preserve inspected unaffected uses, history, gaps, the next responsible receiver, and the observation that would reopen the account.
+9. **Stop at reproducible local closure.** Finish when the frame is fixed, every included surface has a stated coverage basis or named gap, every found candidate has a discovery disposition, and every `depends` branch has a subject result or named blocker. Preserve inspected unaffected uses, history, gaps, the practitioner or System responsible for the next action, and the observation that would reopen the account.
 
 This numbered presentation is an `A.22.CGUS` learning unfolding, not a lifecycle and not a mandatory sequence of `U.Work`. Discovery, source recovery, subject inquiry, and communication may overlap. Only the information dependencies in the move impose order.
 
@@ -72,7 +72,7 @@ Set the frame before treating found candidates as the universe. The frame is ord
 | Conditions | Configurations, jurisdictions, populations, situations, intervals, horizons, or editions that bound applicability. |
 | Discovery surfaces | Repositories, registers, model stores, data catalogues, decision records, account stores, owner-held sources, and other included locations. |
 | Owners and access | Responsible contacts, access limits, and any surface whose owner or identity is unresolved. |
-| Explicit exclusions | Named products, periods, configurations, desks, repositories, result families, or other surfaces outside the present question, with the reason. |
+| Explicit exclusions | Named products, periods, configurations, desks, repositories, result families, or other portions of the search frame outside the present question, with the reason. |
 
 Coverage is adequate only relative to that frame. Use complementary routes:
 
@@ -91,11 +91,11 @@ Search output supplies candidates. The receiving content supplies the reliance t
 | `mentions only` | The content cites, lists, stores, describes, or sits near the source, but its current action or result does not use the changed claim. | Exclude it from affected reach; preserve the reason for the local exclusion. |
 | `unresolved` | The premise, equivalent claim, applicability, direct relation, receiving content, or necessary access cannot yet be recovered or contested dependence remains. | Name the missing fact or owner. Continue independent resolved branches, but do not classify this candidate as unaffected. |
 
-These discovery dispositions answer whether a found candidate belongs in the affected branch. They are not `A.10 RelianceDisposition` values. `A.10` still decides whether one bounded evidence use passes, degrades, abstains, reopens, needs evidence or assurance, or is blocked for current use.
+These discovery dispositions answer whether a found candidate belongs in the affected branch. They are not `A.10 RelianceDisposition` values. Use `A.10` to judge whether one bounded evidence use passes, degrades, abstains, reopens, needs evidence or assurance, or is blocked for current use.
 
-A citation, a present or missing trace, storage, indexing, carrier co-location, succession, ownership, declared dependency, graph reachability, or a shared keyword establishes neither `depends` nor performed Work. A missing trace may be a discovery or coverage gap; it is not impact and it does not prove no impact. Conversely, an undeclared use can `depend` when the receiving content actually uses an equivalent premise.
+A citation, a present or missing trace, storage, indexing, carrier co-location, succession, ownership, declared dependency, graph reachability, or a shared keyword does not establish `depends`. A missing trace may be a discovery or coverage gap; it is not impact and it does not prove no impact. Conversely, an undeclared use can `depend` when the receiving content actually uses an equivalent premise.
 
-Follow a `depends` branch only through another exact direct use relation. Stop before a downstream item whose action, condition, result, or required check cannot change. The affected reach is the smallest dependency-closed structure that contains every in-frame action-changing receiver; it is not every transitively reachable node.
+Follow a `depends` branch only through another exact direct use relation. Stop before a downstream item whose action, condition, result, or required check cannot change. The affected reach is the smallest dependency-closed structure that contains every in-frame use that can change an action; it is not every transitively reachable node.
 
 For each branch that requires application of direct subject-pattern guidance, write a discovery-and-reach statement containing:
 
@@ -111,13 +111,13 @@ The statement is dispatchable claim content, not a new mandatory carrier or univ
 
 #### A.10.1:4.5 - Apply Direct Subject Guidance and Keep the Result Independent
 
-The common move ends before subject judgment. A practitioner or admitted System applies the direct subject pattern's concrete rule or test to each `depends` branch. Re-establish only the current conditions, evidence, authority, cost, and Work that can change the independently governed result.
+Discovery and reach classification prepare the branch for subject judgment. A practitioner or admitted System applies the direct subject pattern's concrete rule or test to each `depends` branch. Recover or recheck facts about current conditions, evidence, authority, cost, and Work only where those facts can change the independently governed result.
 
 | Live question | Governing contribution to apply |
 | --- | --- |
 | Source and claim identity | `C.2.1` |
 | One bounded evidence or source reliance use | `A.10` |
-| Truth, measurement, formal, causal, diagnostic, conformance, comparison, or acceptance result | The definition or test supplied by the direct pattern; for example `C.16`, `C.28`, `A.19`, or `G.4` |
+| Truth claim or measurement, formal, causal, diagnostic, conformance, comparison, or acceptance result | The direct definition or test: `C.16` for measurement, `C.28` for causal support, `A.19.CPM` for comparison of admitted CHR profiles under an explicit comparator, `A.19.SelectorMechanism` for selection from admitted candidates under explicit criteria after comparison, `G.4` for an acceptance-clause application, and the applicable truth, formal, diagnostic, or conformance pattern. |
 | Choice or decision | `C.11` or the applicable subject decision pattern |
 | Assurance | `B.3`, only when an actual named assurance claim is current |
 | Authority, responsibility, commitment, permission, gate, or release | The direct authority, commitment, permission, gate, or release pattern |
@@ -143,7 +143,7 @@ Complete the common account only after every resolved `depends` branch has a sub
 | Action-changing reach | The smallest dependency-closed branch, last action that can change, and explicit stop. |
 | Subject applications and results | Each direct subject pattern applied, each independently obtained result, and the existing consumer that receives it; current Work, evidence, configuration or situation, authority, cost, and conditions only when they change that result. |
 | Local summaries | Preserved, narrowed, reopened, superseded, reliance withdrawn, or blocked for each affected use, stated only as a summary of the cited subject result. |
-| Reuse and continuation | Inspected unaffected uses and why they remain usable; retained historical source and result values; unresolved candidates and coverage gaps; next responsible receiver; reopen observation. |
+| Reuse and continuation | Inspected unaffected uses and why they remain usable; retained historical source and result values; unresolved candidates and coverage gaps; practitioner or System responsible for the next action; reopen observation. |
 
 `Preserved`, `narrowed`, `reopened`, `superseded`, `reliance withdrawn`, and `blocked` are local prose summaries, not a universal status vocabulary. They do not replace a subject result, `RelianceDisposition`, assurance, permission, authority, release, or decision.
 
@@ -159,7 +159,7 @@ A clean local stop requires:
 - an exact direct-use relation for every `depends` branch;
 - action-changing dependency closure with a stated stop;
 - a subject result or named blocker for every `depends` branch; and
-- preserved history, inspected unaffected uses, unresolved items, next receiver, and reopen observation.
+- preserved history, inspected unaffected uses, unresolved items, practitioner or System responsible for the next action, and reopen observation.
 
 When a coverage gap remains, finish independent resolved branches and return a scoped unresolved or blocked account for that surface. Do not describe undiscovered uses there as unaffected. Reopen only when a named source, claim, relation, included surface, subject result, applicability condition, or observation changes enough to affect the current conclusion.
 

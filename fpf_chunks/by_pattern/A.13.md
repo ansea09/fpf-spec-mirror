@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.13.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
-line_start: 24040
-line_end: 24186
+line_start: 24074
+line_end: 24220
 dependencies:
   - "A.10"
   - "A.12"

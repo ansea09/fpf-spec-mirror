@@ -6,12 +6,12 @@ section_id: "B.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__004_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:3 — Forces"
-line_start: 40455
-line_end: 40462
+line_start: 40437
+line_end: 40444
 dependencies:
   - "A.12"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "E.10.D2:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__014_consequences.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:12 — Consequences"
-line_start: 78331
-line_end: 78340
+line_start: 78324
+line_end: 78333
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.16:14.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__016_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:14.1 — SoTA-Echoing"
-line_start: 48281
-line_end: 48294
+line_start: 48268
+line_end: 48281
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,11 +53,11 @@ keywords:
 
 ### C.16:14.1 - SoTA-Echoing
 
-Source qualification was checked against the publishers' current surfaces on 2026-07-30. It remains qualified through 2027-07-30 unless an edition, amendment, correction, Recommendation status, or normative definition changes earlier. External terms guide the bounded C.16 rules named below; no source imports its ontology wholesale or establishes a measurement, work occurrence, result, episteme, calibration fact, or later-use relation.
+Recheck the affected source-use decision before relying on it after 2027-07-30 or following an earlier change to the source edition, amendment, correction, Recommendation status, or normative definition. External terms guide the bounded C.16 rules named below; no source imports its ontology wholesale or establishes a measurement, work occurrence, result, episteme, calibration fact, or later-use relation.
 
 | Exact source and source-use decision | Visible C.16 mutation | Rejected overread | Smallest source-change replay |
 | --- | --- | --- | --- |
-| [JCGM 200:2012, VIM3, online entry 2.9 `measurement result`](https://jcgm.bipm.org/vim/en/2.9.html), including the online corrections/annotations current at the qualification date — **adopt** the attributed-values-plus-relevant-information boundary. | `M-RES-1`, `M-RES-2`, the calibrated-detector case, and checklist items 6–7 keep measurand, attributed values, uncertainty/relevant information, and result episteme distinct. | A displayed indication, raw output, actual subject state, diagnosis, verdict, or decision is not the measurement result. | Reopen only `M-RES-1/2`, the calibrated-detector result paragraph, and checklist items 6–7 if VIM changes the result/measurand boundary. |
+| [JCGM 200:2012, VIM3, online entry 2.9 `measurement result`](https://jcgm.bipm.org/vim/en/2.9.html), including the online corrections/annotations as of 2026-07-30 — **adopt** the attributed-values-plus-relevant-information boundary. | `M-RES-1`, `M-RES-2`, the calibrated-detector case, and checklist items 6–7 keep measurand, attributed values, uncertainty/relevant information, and result episteme distinct. | A displayed indication, raw output, actual subject state, diagnosis, verdict, or decision is not the measurement result. | Reopen only `M-RES-1/2`, the calibrated-detector result paragraph, and checklist items 6–7 if VIM changes the result/measurand boundary. |
 | [JCGM GUM-6:2020, *Developing and using measurement models*](https://doi.org/10.59161/JCGMGUM-6-2020) — **adapt** its model/input/output/model-adequacy and uncertainty discipline to the C.16 measurement chain. | `M-MODEL-1`, `M-IO-1`, `M-UNC-1/2`, the engine-test case, and checklist items 3–4 make model edition, actual inputs, output quantity, assumptions, calibration, covariance, propagation, and validity domain recoverable. | Model input/output roles are not universal work relations; more provenance pointers do not reduce uncertainty; a formula or function does not prove that measurement work occurred. | Reopen only `M-MODEL-1`, `M-IO-1`, `M-UNC-1/2`, the engine-test uncertainty paragraph, and checklist items 3–4 if GUM changes model construction, adequacy, or propagation requirements. |
 | [ISO 80000-1:2022, *Quantities and units — Part 1: General*](https://www.iso.org/standard/76921.html) and [ISO/IEC 25024:2015, confirmed current in 2022](https://www.iso.org/standard/35749.html) — **Bridge-only** for quantity/unit names and data-quality-measure alignment. | They may populate a Concept-Set/Bridge used by `M-CSLC-2` or a receiving data-quality measure; they do not change C.16's separation between Characteristic/Scale and measurement result. | Standard quantity, unit, or quality-measure labels do not authorize arithmetic, comparability, acceptance, or a C.16 result. | Reopen only the affected Bridge row plus `M-CSLC-2` and checklist item 2; reopen no measurement case unless the mapped term was load-bearing there. |
 | [QUDT Schema 3.4.0, June 2026 catalogue](https://www.qudt.org/catalog/qudt-catalog.html) — **Bridge-only** for citable quantity-kind, unit, dimension, and datatype identifiers. | A C.16 record may cite a QUDT identifier after the F-pattern Bridge establishes the correspondence; `M-CSLC-2` still governs admissible C.16 use. | A shared URI does not prove same measurand, Scale, model, calibration regime, or direct comparability. | Reopen only the cited Bridge mapping, `M-CSLC-2`, and checklist items 2 and 8 when the mapped QUDT graph or identifier changes. |

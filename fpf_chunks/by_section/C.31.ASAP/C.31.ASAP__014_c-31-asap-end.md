@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:End"
 section_title: "C.31.ASAP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__014_c-31-asap-end.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:End — C.31.ASAP:End"
-line_start: 63446
-line_end: 63447
+line_start: 63432
+line_end: 63433
 dependencies:
   - "A.1.1"
   - "A.10"

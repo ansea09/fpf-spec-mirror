@@ -6,12 +6,12 @@ section_id: "C.16.P:11"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:11 — Common Anti-Patterns and How to Avoid Them"
-line_start: 48551
-line_end: 48561
+line_start: 48538
+line_end: 48548
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,7 +46,7 @@ keywords:
 | Metric-as-evidence | A metric is treated as evidence, proof, gate input, or decision authority without evidence named by value, gate, decision, and measurement construction. | Recover characteristic and scale construction, then apply `A.10` or evidence named by value, gate, or decision pattern if that claim is being made. |
 | Score-as-gate | A score is treated as gate passage, readiness, release, or decision. | Recover scale, threshold rule or reference, comparison reference or comparator set, and exact gate, decision, or release pattern. |
 | Axis-as-ontology | Axis or dimension is treated as if it already named a characteristic or factor. | Recover `Characteristic`, coordinate, latent factor, mathematical lens, structural aspect, or ordinary prose. |
-| Strong-without-scale | Strong or weak modifies a claim without scale, characteristic, or comparison reference or comparator set. | Write the characteristic named by value and scale or demote to ordinary prose. |
-| Indicator-as-indicated-characteristic | Indicator wording hides the indicated characteristic or proxy relation. | Name the indicated characteristic or claim, exact direct relation, and proxy-distortion risk; return `missing-governor` when the relation cannot be recovered. |
+| Strong-without-scale | Strong or weak asserts a degree of a characteristic without its scale or comparison reference or comparator set. | Write the characteristic named by value and scale or demote to ordinary prose. |
+| Indicator-as-indicated-characteristic | Indicator wording hides the indicated characteristic or proxy relation. | Name the indicated characteristic or claim, exact direct relation, and proxy-distortion risk when a proxy is used; return `missing-governor` only when no governing rule can state or test that claim. Keep missing facts and failed positive tests distinct under `A.6.RCD:0.1`. |
 | Characterization repair copied everywhere | Patterns for the next questions keep their own `metric`, `score`, or `strong` trigger lists. | Keep one thin cue and use `C.16.P for hidden construction`. |
 

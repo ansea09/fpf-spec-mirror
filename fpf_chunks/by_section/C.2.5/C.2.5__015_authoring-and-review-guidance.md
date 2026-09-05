@@ -6,12 +6,12 @@ section_id: "C.2.5:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__015_authoring-and-review-guidance.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:14 — Authoring and Review Guidance"
-line_start: 44505
-line_end: 44520
+line_start: 44492
+line_end: 44507
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,5 +45,5 @@ To assign `CD`, ask:
 An assurance reader should ask whether closure is being inferred from tone, from hierarchy, or from social force rather than from an explicit narrowing of route or frame space.
 
 #### C.2.5:14.3 - Governance note
-Whenever `CD` substantively affects gates, commitments, or late endpoint authority, the supporting guard, `governingPatternRef`, or `authoritySourceRef` should be visible.
+Whenever a claim about a gate, commitment, or endpoint use depends on `CD`, the supporting guard, `governingPatternRef`, or `authoritySourceRef` should be visible.
 

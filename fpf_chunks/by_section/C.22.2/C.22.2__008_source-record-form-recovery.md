@@ -6,12 +6,12 @@ section_id: "C.22.2:7"
 section_title: "Source Record-Form Recovery"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__008_source-record-form-recovery.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:7 — Source Record-Form Recovery"
-line_start: 52768
-line_end: 52781
+line_start: 52754
+line_end: 52767
 dependencies:
   - "A.10"
   - "A.15"

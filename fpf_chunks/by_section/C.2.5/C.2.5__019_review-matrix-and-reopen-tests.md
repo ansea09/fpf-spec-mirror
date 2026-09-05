@@ -6,12 +6,12 @@ section_id: "C.2.5:18"
 section_title: "Review Matrix and Reopen Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__019_review-matrix-and-reopen-tests.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:18 — Review Matrix and Reopen Tests"
-line_start: 44567
-line_end: 44586
+line_start: 44554
+line_end: 44573
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,7 +39,7 @@ An assurance reader should ask:
 - what was narrowed;
 - by what `governingPatternRef`, `authoritySourceRef`, or guard it was narrowed;
 - what would reopen it;
-- whether any gate, release, work, evidence, assurance, policy, or adjudication authority survives the claimed closure level;
+- which gate, release, work, evidence-use, assurance, policy, or adjudication claims depend on the stated closure conditions and remain supported;
 - whether the publication distinguishes local closure from whole-context finality.
 
 #### C.2.5:18.2 - False-finality test

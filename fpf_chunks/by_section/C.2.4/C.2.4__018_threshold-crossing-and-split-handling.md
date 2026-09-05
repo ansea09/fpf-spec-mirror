@@ -6,12 +6,12 @@ section_id: "C.2.4:17"
 section_title: "Threshold Crossing and Split Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__018_threshold-crossing-and-split-handling.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:17 — Threshold Crossing and Split Handling"
-line_start: 44354
-line_end: 44375
+line_start: 44339
+line_end: 44360
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -44,11 +44,11 @@ keywords:
 #### C.2.4:17.1 - Branch-aware high-articulation exits
 At `AE3+`, use the local threshold of the direct branch rather than one universal destination:
 
-- for an actual relation claim, use `A.6.P` to restore relation precision and then return the claim to its direct relation pattern;
+- for an actual relation claim, restore precision through `A.6.P` when needed, then use its direct relation pattern;
 - for a plan or intended activity, use `A.15`;
 - for a Method, use `A.3.1`, while its MethodDescription remains an episteme under `C.2.1`;
-- for an admitted dated Work occurrence, use `A.15.1`;
-- for a representation claim, use `C.2.P.DR`, adding `A.6.3.RT` only when a representation transition is current;
+- for a dated Work-occurrence claim, use `A.15.1` to test or recover admission;
+- for a representation claim, use its direct subject pattern; use `C.2.P.DR` when declarative form is being overread, adding `A.6.3.RT` only when a representation transition is current;
 - for an abductive prompt or explicit open question, use `B.5.2.0` or the direct question pattern;
 - for a Characteristic or Scale claim, use `A.17` and `A.18`, with `C.16.P` when its scalar wording hides the construction;
 - for an ordinary domain claim, keep the episteme publication under `C.2.1` and use the direct domain pattern that governs its subject.

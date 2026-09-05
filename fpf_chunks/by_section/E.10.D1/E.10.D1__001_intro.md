@@ -6,12 +6,12 @@ section_id: "E.10.D1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:intro — Intro"
-line_start: 77854
-line_end: 77859
+line_start: 77847
+line_end: 77852
 dependencies:
   - "A.1.1"
   - "A.2.6"

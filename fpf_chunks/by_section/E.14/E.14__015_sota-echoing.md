@@ -6,12 +6,12 @@ section_id: "E.14:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__015_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:12 — SoTA-Echoing"
-line_start: 80859
-line_end: 80867
+line_start: 80907
+line_end: 80915
 dependencies:
   - "B.3.5"
   - "C.13"

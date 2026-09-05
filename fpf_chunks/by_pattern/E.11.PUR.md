@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PUR.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
-line_start: 79491
-line_end: 79779
+line_start: 79484
+line_end: 79772
 dependencies:
   - "A.15"
   - "A.19"

@@ -6,15 +6,16 @@ section_id: "G.8:4"
 section_title: "Solution — Publish SoS‑LOG bundles and maturity cards as UTS‑citable kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__005_solution-publish-sos-log-bundles-and-maturity-cards-as-uts-citable-kit.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:4 — Solution — Publish SoS‑LOG bundles and maturity cards as UTS‑citable kit"
-line_start: 104990
-line_end: 105184
+line_start: 105047
+line_end: 105241
 dependencies:
   - "A.10"
   - "A.21"
+  - "B.3"
   - "C.18"
   - "C.19"
   - "C.22"
@@ -98,7 +99,7 @@ DefaultId.GammaFoldForR_eff
 ⟩`
 
 *(RSCR payload pins typically include: `SoS‑LOGBundleRef`, `SoSLogRuleId[]`, `MaturityRungId?`, and `EvidenceGraphId/PathId/PathSliceId?`.
-Crossing payload pins (Bridge/CL/Φ/Ψ/Φ_plane) are introduced **only when reuse is asserted**, via `G.8:Ext.BridgeReuseWiring`.
+Crossing payload pins (Bridge/CL/Φ/Ψ/Φ_plane) are introduced **only when reuse is asserted**, via `G.8:Ext.BridgeReuseWiring`. CL and loss-policy pins are required only by the actual calibration or separate named assurance use.
 Method-/generator‑specific payload pins are listed only inside the relevant `GPatternExtension` blocks in `G.8:5`.)*
 
 *(Conditionality note for defaults.)* Include `DefaultId.GammaFoldForR_eff` in `DefaultsConsumed` **only if** the bundle/ledger exports aggregated `R_eff` summaries (otherwise Nil‑elide it).
@@ -197,12 +198,12 @@ SoS-LOGBundle@Context :=
 
 * `SoS‑LOGBundle@Context` **does not introduce** new legality or normalization rules; it cites the pinned references above.
 * Thresholds and numeric gates are cited by id from `G.4` Acceptance (no embedding inside the bundle).
-* If cross-context or cross-plane reuse is asserted, crossing pins are made explicit (Bridge/CL/Φ policy ids), and evidence paths are citable when available.
+* If cross-context or cross-plane reuse is asserted, crossing pins are made explicit (Bridge/CL/Φ policy ids as required for that use by `G.8:Ext.BridgeReuseWiring`), and evidence paths are citable when available.
 
 **Binding obligations B1–B5 (packaging‑only; wiring‑only; semantics delegated):**
 
 * **B1 — Evidence wiring.** At packaging time the bundle SHOULD provide resolvable evidence refs (typically `A10EvidenceGraphRef?[]` and/or `EvidenceGraphId?`). At run time, admissibility outcomes SHOULD cite `PathId/PathSliceId` when available (`G.6`), so rung transitions and `degrade/abstain` traces are audit‑stable.
-* **B2 — CL/plane routing pins.** When reuse across Context or plane is asserted, the bundle/ledger MUST pin the relevant Bridge/CL/Φ/Ψ/Φ_plane policy ids (reference‑only; resolvable per `F.8:8.1`) and MUST respect the core penalty routing (penalties affect `R_eff` only; `F/G` invariance via `G.Core`).
+* **B2 — CL/plane routing pins.** When reuse across Context or plane is asserted, the bundle/ledger MUST cite the obtaining relation and its separate bounded-use claim and reliance basis. It MUST pin the relevant Bridge/CL/Φ/Ψ/Φ_plane policy ids required for that use by `G.8:Ext.BridgeReuseWiring` (reference‑only; resolvable per `F.8:8.1`). CL and loss-policy pins are mandatory only when required by the actual calibration or separate named assurance account. Any supported penalty MUST follow that assurance policy's declared rule and respect the core penalty routing (penalties affect `R_eff` only; `F/G` invariance via `G.Core`).
 * **B3 — `PortfolioMode`/QD fields.** If the bundle/ledger exposes `PortfolioMode`/QD fields (e.g., `PortfolioMode=Archive`), it MUST pin the descriptor/distance/insertion/emitter artefacts (editions/policies as applicable). Illumination remains **report‑only** unless explicitly promoted by a `G.4` governing-pattern policy id that is pinned and recorded in the run‑time trace.
 * **B4 — Open‑ended fields.** If the bundle binds an open‑ended generator family, it MUST pin `GeneratorFamilyId` and `TransferRulesRef.edition` (and any validity region/coupler policy ids when used). Unknown transfer validity MUST be recorded as `degrade`/branching, not as an ad‑hoc fourth status.
 * **B5 — Telemetry hooks.** On any material telemetry event (illumination increase, archive insertion, probe accounting update, open‑ended coverage/regret proxy update), the emitted telemetry pins SHOULD include the controlling policy ids plus the relevant edition pins (e.g., `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `TransferRulesRef.edition`) and, when available, `PathSliceId` to keep RSCR planning auditable.
@@ -213,7 +214,7 @@ A conforming ledger is a UTS‑published view (or a view‑projection of a Work/
 
 `⟨ MethodFamilyId, SoSLogRuleId, GuardDecision ∈ {pass|degrade|abstain}, DegradeMode?/SoSLogBranchId[]?, MaturityRungId?, AcceptanceClauseId[]?, EvidencePathRefs?, CrossingPins?, PortfolioMode?, DominanceRegime?, Edition ⟩`
 
-Where `EvidencePathRefs` are typically `PathId[]/PathSliceId[]` when `G.6` is in use (or resolvable), and “CrossingPins” are the explicit Bridge/CL/Φ policy pins when reuse is asserted.
+Where `EvidencePathRefs` are typically `PathId[]/PathSliceId[]` when `G.6` is in use (or resolvable), and “CrossingPins” are the explicit Bridge/CL/Φ policy pins required for the stated reuse by `G.8:Ext.BridgeReuseWiring`, together with citable references to its separate bounded-use claim and reliance basis.
 
 #### G.8:4.5 - Maturity ladder as a citable poset (published card)
 

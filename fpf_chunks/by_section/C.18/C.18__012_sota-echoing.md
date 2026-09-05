@@ -6,12 +6,12 @@ section_id: "C.18:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__012_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:10 — SoTA-Echoing"
-line_start: 50135
-line_end: 50149
+line_start: 50121
+line_end: 50135
 dependencies:
   - "A.15"
   - "A.19"
@@ -61,8 +61,8 @@ keywords:
 | Qin et al., `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), DOI `10.1016/j.swevo.2025.102240`, `https://www.sciencedirect.com/science/article/pii/S2210650225003979`. | Use current survey support for approaches, applications, archive use, diversity use, and challenge framing. | Survey taxonomy replaces FPF relation definitions. | Use `C.18` to state and test the `ExplorationArchiveRecord@Context`, `FrontRecord@Context`, and `OpenEndedVariantGenerationRecord@Project`; use `G.5` for selected-set result declaration, `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence and audience availability, and `G.11` for refresh. |
 | Batra et al., `Quality Diversity for Robot Learning: Limitations and Future Directions`, arXiv:2407.17515v1 (2024-07-09). | State retained exploration value, generalization pressure, and limitations when an archive is used beyond current dominance. | Bounded archives or cell occupancy are enough evidence that NQD and OEE are useful. | `retainedExplorationValue`, `retentionPolicyRef`, `telemetryRefs`, and `nextGoverningRelation` must be filled when the archive is relied on. |
 | Zhang et al., `Darwin Godel Machine`, arXiv:2505.22954v3 (2026-03-12). | Keep generated agents, archive lineage, empirically validated changes, method-family use, evaluation, and refresh separate. | OEE is one winner-selection method or source-free self-improvement story. | `OpenEndedVariantGenerationRecord@Project` records generation and archive or front linkage, while evaluation and refresh move to their subject patterns. |
-| Novikov et al., `AlphaEvolve`, arXiv:2506.13131v1 (2025-06-16). | Separate generated method text, method description, evaluator relation, selected set, source-use relation, performed work, and work result. | Generated algorithm text is proof, gate permission, accepted method selection, or performed work. | `evaluatorOrComparatorRef`, lineage, source refs, and `nextGoverningRelation` decide whether to use C.18, A.19, `G.5`, `C.11`, A.15, or `G.11`. |
+| Novikov et al., `AlphaEvolve`, arXiv:2506.13131v1 (2025-06-16). | Separate generated method text, method description, evaluator relation, selected set, source-use relation, performed work, and work result. | Generated algorithm text is proof, gate permission, accepted method selection, or performed work. | Use `evaluatorOrComparatorRef`, lineage, source refs, and `nextGoverningRelation` to determine whether to use C.18, A.19, `G.5`, `C.11`, A.15, or `G.11`. |
 | Cultural-evolution and style-engineering source pressure from the music and dance intake. | Keep generated style or tradition variants as archive or front records until a cultural-evolution case or term bridge is current. | A cultural-style variant is a root cultural kind or a selected set by label. | `culturalVariantRefs` continue to `C.36`, `F.17`, `F.18`, or `F.9`; selected-set result declaration continues to `G.5`, with a stable public identity added only through its conditional UTS branch. |
-| Architecture-search and product-family work. | Treat retained structures as candidate architecture moves only after the architecture claim is named. | An archive of layouts is the architecture or the architecture decision. | Architecture candidates require `C.30`, `C.30.ASV`, `C.30.AD`, or `C.32.P2S` after C.18 records descriptor, archive or front relation, and telemetry. |
+| Architecture-search and product-family work. | Treat retained structures as candidates for an architecture move only after the architecture claim is named. | An archive of layouts is the architecture or the architecture decision. | Architecture candidates require `C.30`, `C.30.ASV`, `C.30.AD`, or `C.32.P2S` after C.18 records descriptor, archive or front relation, and telemetry. |
 | Taylor, [*Evolutionary Innovations and Where to Find Them*](https://arxiv.org/abs/1806.01883), 2019, read with Di Bona et al., [higher-order novelties](https://www.nature.com/articles/s41467-024-55115-y), 2025, and Kalambokidis et al., [diversity and open-ended evolution](https://www.nature.com/articles/s44260-026-00072-4), 2026. | Distinguish exploratory, expansive, and transformational claims; keep generator, evaluator, building blocks, retention/reproduction, environment, and opportunity structure explicit. | A taxonomy or high novelty/diversity result proves that a transferred non-evolutionary case changed its possibility space. | `C.18:4.3a` requires an exact earlier/candidate mapping and evidence limit; causal production uses `C.28`. |
 

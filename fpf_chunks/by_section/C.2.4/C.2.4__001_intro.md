@@ -6,12 +6,12 @@ section_id: "C.2.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:intro — Intro"
-line_start: 44193
-line_end: 44206
+line_start: 44178
+line_end: 44191
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -51,5 +51,5 @@ keywords:
 
 **What goes wrong if missed.** A formal-looking sentence is treated as semantically ready, a real early cue is discarded as too vague, or every partly explicit note is forced through relation repair even when it is a plan, MethodDescription, Work claim, representation, question, characteristic, or ordinary domain statement.
 
-**What this buys.** One branch-neutral ordinal characteristic: a stable cue can grow into recoverable governed structure, a complete form for its actual semantic branch, and a stable receiving use without confusing articulation with formality, closure, truth, trust, or endpoint authority.
+**What this buys.** One branch-neutral ordinal characteristic: a stable cue can acquire recoverable governed structure and a complete form for its actual semantic branch, with meaning that remains stable in a receiving use, without confusing articulation with formality, closure, truth, trust, or endpoint authority.
 

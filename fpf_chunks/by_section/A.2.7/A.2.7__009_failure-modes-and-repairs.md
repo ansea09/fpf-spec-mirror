@@ -6,12 +6,12 @@ section_id: "A.2.7:7"
 section_title: "Failure Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__009_failure-modes-and-repairs.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:7 — Failure Modes and Repairs"
-line_start: 6619
-line_end: 6634
+line_start: 6652
+line_end: 6667
 dependencies:
   - "A.2"
   - "A.2.1"

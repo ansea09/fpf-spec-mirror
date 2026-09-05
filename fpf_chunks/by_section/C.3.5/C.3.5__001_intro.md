@@ -6,12 +6,12 @@ section_id: "C.3.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:intro — Intro"
-line_start: 46259
-line_end: 46277
+line_start: 46246
+line_end: 46264
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -43,7 +43,7 @@ keywords:
 - **C.3/C.3.1:** the context-local `U.Kind`, obtaining `U.SubkindOf` relations, and kind continuity.
 - **C.3.2:** the separate `KindSignature` declaration episteme, exact four-input classification judgment, and optional pinned-edition extension representation.
 - **C.3.3:** the obtaining `KindBridge` relation and its separate bridge-assertion episteme carrying `CL^k`, loss, evidence, and admitted use.
-- **C.3.4:** the `RoleMask` declaration episteme and exact masked judgment.
+- **C.3.4:** the `KindUseAdaptationDeclaration` episteme and exact `KindUseAdaptationJudgment`.
 - **A.2.6, C.2.2, and C.2.3:** Claim/Work scope, F–G–R, and `U.Formality` on the episteme that owns it.
 - **MM-CHR:** the Facet-versus-Characteristic distinction.
 

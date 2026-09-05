@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__008_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:7 — Conformance Checklist"
-line_start: 71876
-line_end: 71895
+line_start: 71862
+line_end: 71881
 dependencies:
   - "A.1.1"
   - "A.10"

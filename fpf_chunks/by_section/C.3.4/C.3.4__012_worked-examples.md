@@ -6,12 +6,12 @@ section_id: "C.3.4:10"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__012_worked-examples.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:10 — Worked Examples"
-line_start: 46204
-line_end: 46219
+line_start: 46191
+line_end: 46206
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -27,7 +27,7 @@ keywords:
 
 #### C.3.4:10.1 - `Vehicle@ABSOnly` Constraint Use
 
-`VehicleABSUse-2026` designates `Vehicle`, pins its signature, and adds the governed candidate condition that the vehicle has ABS. A physical vehicle in the declared slice is admissible; missing ABS support yields `unknown`, while a non-vehicle input is `not-applicable`. Surface, rig, and time conditions used only to bound the claim remain Scope. If ABS becomes a stable classification distinction, recover another kind and test its subkind relation separately.
+`VehicleABSUse-2026` designates `Vehicle`, pins its signature, and adds the governed candidate condition that the vehicle has ABS. For this example, the base signature's candidate domain is physical vehicles. A vehicle in the declared slice is admissible. With a `true` base judgment, the adaptation returns `true` if the vehicle is known to have ABS, `false` if it is known not to have ABS, and `unknown` if that condition is unresolved; a non-vehicle input is `not-applicable`. Surface, rig, and time conditions used only to bound the claim remain Scope. If ABS becomes a stable classification distinction, recover another kind and test its subkind relation separately.
 
 #### C.3.4:10.2 - `AuthenticatedRequest@Frontend` Vocabulary Use
 
@@ -35,7 +35,7 @@ keywords:
 
 #### C.3.4:10.3 - `AdultPatient@Clinic` Composite Use
 
-`ClinicAdultPatientUse-2026` pins the base adult-patient signature and adds the candidate condition `ageAt(patient, slice) >= 21`; the chosen clinic and claim window remain separately governed scope/applicability values. A person in the declared candidate domain is admissible; unavailable birth support yields `unknown`.
+`ClinicAdultPatientUse-2026` pins the base adult-patient signature. For this illustrative composite use, it binds local spelling `ClinicAdultPatient` to the base kind's `AdultPatient` designator and adds the candidate condition `ageAt(patient, slice) >= 21`, with age expressed in years; the chosen clinic and claim window remain separately governed scope/applicability values. At an applicable slice, a person in the declared candidate domain is admissible; with a `true` base judgment, unavailable birth-date information needed to decide the age condition yields `unknown`.
 
 In Jurisdiction Y, first compare the exact patient-kind membership distinctions. If the same kind continues, use the Y declaration and evaluate afresh without a bridge. If the threshold or interpretation makes a distinct target kind and a directional correspondence is relied on, establish the `KindBridge`. A separate adaptation-correspondence declaration may then state how the two exact use declarations differ. Neither object transfers source truth.
 

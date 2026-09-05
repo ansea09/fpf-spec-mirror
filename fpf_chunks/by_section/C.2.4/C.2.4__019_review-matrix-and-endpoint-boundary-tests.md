@@ -6,12 +6,12 @@ section_id: "C.2.4:18"
 section_title: "Review Matrix and Endpoint Boundary Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__019_review-matrix-and-endpoint-boundary-tests.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:18 — Review Matrix and Endpoint Boundary Tests"
-line_start: 44376
-line_end: 44393
+line_start: 44361
+line_end: 44378
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -49,11 +49,11 @@ A reviewer should ask:
 - is the direct semantic branch explicit, or is a relation route being inferred from presentation alone;
 - are the participants, actions, fields, meanings, conditions, bounds, or ordinary wording required by that branch still hidden;
 - has an intended activity or plan been mislabeled as Tech `Work` before an occurrence is admitted;
-- if `AE` justifies a route change, is the named receiving pattern actually ready to receive this publication?
+- if `AE` justifies a route change, does the publication meet the named receiving pattern's entry conditions?
 
 #### C.2.4:18.2 - Endpoint-boundary test
 High `AE` does not by itself authorize endpoint claims, gate claims, or quality ascriptions. If such consequences appear, show which downstream governing pattern takes over.
 
 #### C.2.4:18.3 - Migration note for false precision
-Rigid templates, capitalized labels, or tidy sentence rhythm can simulate articulation. Migration should therefore test whether anchors and slots are really present; if not, the articulation level should drop.
+Rigid templates, capitalized labels, or tidy sentence rhythm can simulate articulation. Migration should therefore test whether the claimed branch-appropriate structure, including any required anchors or slots, is really recoverable; if not, the articulation level should drop.
 

@@ -6,12 +6,12 @@ section_id: "C.3.5:9"
 section_title: "Worked mini-examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__010_worked-mini-examples-informative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:9 — Worked mini-examples (informative)"
-line_start: 46399
-line_end: 46405
+line_start: 46386
+line_end: 46392
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -35,5 +35,5 @@ keywords:
 - **K0.** `Account_US_GAAP_2025_Q1_Cohort`: use exact candidate judgments in the pinned quarter slice; do not infer a broad kind from one query result.
 - **K1.** `CacheableRequest`: make retry/idempotence behavior evaluable in a named signature edition and test diverse failure modes.
 - **K2.** `Account`: use explicit posting and balance invariants, test relevant subkinds, and evaluate each candidate with the exact signature edition and slice.
-- **K3.** `UndirectedGraph` up to node relabeling: state the equivalence notion and require bridge/evidence witnesses that preserve it.
+- **K3.** `UndirectedGraph` up to node relabeling: state the equivalence notion and require equivalence witnesses that preserve it. Any KindBridge use additionally needs the distinct-kind correspondence and preservation basis required by C.3.3.
 

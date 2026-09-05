@@ -6,12 +6,12 @@ section_id: "C.3.3:8"
 section_title: "Authoring, Review & Rating Guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__009_authoring-review-rating-guidance-informative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:8 — Authoring, Review & Rating Guidance (informative)"
-line_start: 45976
-line_end: 46001
+line_start: 45963
+line_end: 45988
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -27,9 +27,9 @@ keywords:
 
 #### C.3.3:8.1 - Authoring a KindBridge assertion
 
-* **Compare identity before authoring a bridge.** A changed locality, source, team, spelling, or scheme first replays C.3.1. Stop without a bridge when the same kind continues.
-* **Start narrow and honest.** For two distinct kinds, declare only the directional correspondence and subkind facts the receiving use actually relies on; mark the rest unknown.
-* **Prefer independently identified target kinds.** If the target already has a suitable kind and declaration edition, relate that kind directly. If a new target declaration is required, author it separately before asserting bridge obtaining; list what the mapping predicate preserves, relaxes, or drops.
+* **Compare identity before authoring a bridge.** For a changed locality, source, team, spelling, or scheme, first repeat the kind-definition comparison under C.3.1. Stop without a bridge when the same kind continues.
+* **Start narrow and honest.** For two distinct kinds, declare only the directional correspondence and subkind facts the receiving use actually relies on; mark any required but unsettled order result unknown.
+* **Prefer an existing suitable target kind.** If the target already has a suitable kind and declaration edition, relate that kind directly. If a new target declaration is required, author it separately before asserting bridge obtaining; list what the mapping predicate preserves, relaxes, or drops.
 * **Write loss notes in plain language.** Example: “EV vs ICE subkinds collapsed; battery‑health invariants dropped.”
 * **Fix the definedness area.** Bind to target Standards/versions and any environment selectors essential to classification.
 * **Assign `CL^k` from exemplars.** Calibrate on concrete counter‑examples and preserved properties; resist optimistic ratings.
@@ -47,5 +47,5 @@ keywords:
 
 * **High `CL^k`**: signature equivalence or **up‑to‑iso**; `⊑` fragment preserved; only cosmetic losses.
 * **Medium `CL^k`**: some invariants relaxed or lost; selected subkinds collapsed; order preserved on critical path.
-* **Low `CL^k`**: name‑only correspondences; properties diverge; order not preserved. Expect significant **R** penalty and/or adapters.
+* **Low `CL^k`**: name‑only correspondences; properties diverge; order not preserved. Establish that the KB-01 correspondence predicate holds before bridge use, even for a name-only match. Expect significant **R** penalty and/or adapters.
 

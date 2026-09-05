@@ -6,13 +6,15 @@ section_id: "E.11.PFP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__008_archetypal-grounding.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:5 — Archetypal Grounding"
-line_start: 79943
-line_end: 79956
+line_start: 79973
+line_end: 79994
 dependencies:
+  - "A.3.2"
+  - "C.29"
   - "E.11"
   - "E.17"
   - "E.2.DA"
@@ -23,6 +25,7 @@ dependencies:
   - "E.4.DPF.DA"
   - "E.4.FPF"
   - "E.4.PFR"
+  - "E.8"
   - "G.11"
 keywords:
   - "& Search Queries"
@@ -40,6 +43,14 @@ keywords:
 **LPF with a choice-relevant cue.** An LPF supports two public language editions whose maintenance windows differ. The product-specific rule shows one short language-and-support cue after `Edition` because it changes which edition a practitioner should use. It does not copy the maintainer, build digest, source path, or complete dependency record into the opening.
 
 **Adjacent product.** A separately maintained horticulture source registry has its own current state, users, selection rule, access route, and refresh commitment. The DPF points to that state; copying a snapshot into an annex does not create a second authoritative registry. One combined website may expose both, but the registry retains its catalogue form and receives no invented framework fields.
+
+**Whole Method Engineering account.** An engineer extending a pattern language from a handbook needs both source recovery and a decision about what the new language will let practitioners do. The Preface explains the overall working question and returns to the source-recovery and comparison patterns. Architectural Rationale compares retaining a profile inside the language with giving it its own usable identity; the shared sources and trade-offs remain public. If the handbook cannot be inspected, the account names the source-dependent claim that remains unresolved and leaves unaffected direct uses available. A catalogue of source titles would not supply that missing basis.
+
+**Condition of a whole combination.** Three proposed activities each need seven observer-hours that cannot be shared between activities. The available total is eighteen observer-hours. Any pair needs fourteen and fits; all three need twenty-one and exceed the total by three. The whole account states the resource condition once. The reader can select a feasible subset or obtain at least three additional observer-hours before committing to all three. Separate successful pairwise checks leave this whole-combination decision open.
+
+**Inquiry and direct use.** Four pump inspections show three repeated orders and one reversal after a vibration cue. The public entry returns directly to `A.3.1.MR`, which recovers candidate Methods from Work evidence. Its worked case compares a fixed order with an exception against a cue-responsive order. In a fifth inspection, observe whether the technician changes order when the vibration cue is present. That observation can distinguish the accounts; until then, both remain candidates. The reader has a next investigative action while the larger inquiry remains open.
+
+**Shared profile.** A Russian-language profile supports both a guide and a slidement. It inherits `F.19` for recovering a sentence's claim, participants, and useful action, and adds Russian agreement checks. For example, change «Группа проверяют результат» to «Группа проверяет результат» (“The group checks the result”): the named collective remains the performer, while the verb agrees with the singular grammatical subject. Read the repaired sentence under F.19; reuse that matching result when the unchanged sentence appears in both formats. The guide and slidement retain their own format and use conditions. The profile's public account explains this shared contribution and language-specific delta once, with returns from both uses.
 
 **Near miss.** A relation table has rows whose first cells are PatternIDs and titles, followed by relation and source-return columns. It remains a relation table. A checker that calls it another pattern index from those cell values is guessing semantics from data shape and fails this profile.
 

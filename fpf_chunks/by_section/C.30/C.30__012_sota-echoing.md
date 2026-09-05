@@ -6,12 +6,12 @@ section_id: "C.30:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__012_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:11 — SoTA-Echoing"
-line_start: 59295
-line_end: 59308
+line_start: 59281
+line_end: 59294
 dependencies:
   - "A.1"
   - "A.10"

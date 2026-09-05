@@ -6,12 +6,12 @@ section_id: "C.2.2a:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__009_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:7 — Conformance Checklist"
-line_start: 43537
-line_end: 43545
+line_start: 43522
+line_end: 43530
 dependencies:
   - "A.16"
   - "A.16.0"

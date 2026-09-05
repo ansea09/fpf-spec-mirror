@@ -6,12 +6,12 @@ section_id: "C.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__005_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:4 — Solution"
-line_start: 44220
-line_end: 44256
+line_start: 44205
+line_end: 44241
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -62,12 +62,12 @@ keywords:
 | `AE2` | candidate anchors, participants, actions, fields, or meanings are visible, but the branch or structure remains partial | route candidates and missing pieces can be stated |
 | `AE3` | the governed claim structure is recoverable enough to choose its direct semantic branch | the relevant repair or authoring pattern may receive it if the local threshold is met |
 | `AE4` | a complete branch-appropriate form is publishable with the participants, conditions, and bounds needed by the current use | the direct subject pattern can check or use the publication |
-| `AE5` | the meaning remains stable in one named receiving use, and a later change can be reviewed without reconstructing it from the source | the receiving use is straightforward, though not automatically true, closed, trusted, or authorized |
+| `AE5` | the meaning remains stable in one named receiving use, and a later change can be reviewed without reconstructing it from the source | the receiving use is straightforward; the level alone does not settle truth, closure, trust, or use authorization |
 
 The anchors are a starter set. A local use may refine them, but it shall keep the common direction and the distinction from `F` intact. A refined anchor may be branch-relative; it may not make relation structure the universal measure of articulation.
 
 #### C.2.4:4.3 - Use discipline
-- `AE` may state an entry threshold for the direct semantic branch named by the current use.
+- An entry threshold may be stated in `AE` for the direct semantic branch named by the current use.
 - `A.6.P` is only the relational branch. A note does not enter it merely because a table, arrow, or sentence looks relation-shaped.
 - `AE` may justify why an episteme remains in `A.16.1` or `B.4.1` while its branch or required structure is still unresolved.
 - A local threshold shall name both the intended receiving pattern and the branch-appropriate structure it requires.

@@ -6,12 +6,12 @@ section_id: "A.15:12c"
 section_title: "P2W Work-Family Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__016_p2w-work-family-split.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12c — P2W Work-Family Split"
-line_start: 24918
-line_end: 24923
+line_start: 24952
+line_end: 24957
 dependencies:
   - "A.10"
   - "A.13"

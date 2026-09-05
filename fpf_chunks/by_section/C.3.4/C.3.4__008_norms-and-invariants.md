@@ -6,12 +6,12 @@ section_id: "C.3.4:6"
 section_title: "Norms and Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__008_norms-and-invariants.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:6 — Norms and Invariants"
-line_start: 46136
-line_end: 46165
+line_start: 46123
+line_end: 46152
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -49,7 +49,7 @@ keywords:
 
 #### C.3.4:6.4 - Cross-local Use
 
-**KUA-09 (Identity check before bridge).** A locality change first compares exact base-kind definitions. Same-kind reuse needs no `KindBridge` but still uses the receiving declaration and a fresh judgment. Distinct-kind use establishes a `KindBridge` only when its directional correspondence predicate obtains. Differing adaptation constraints or bindings may additionally require an exact correspondence declaration. Source judgments are never copied as receiving truth; justified bridge consequences affect R only.
+**KUA-09 (Identity check before bridge).** On a locality change, first compare exact base-kind definitions. Same-kind reuse needs no `KindBridge` but still uses the receiving declaration and a fresh judgment. Distinct-kind use establishes a `KindBridge` only when its directional correspondence predicate obtains. Differing adaptation constraints or bindings may additionally require an exact correspondence declaration. Source judgments are never copied as receiving truth; justified bridge consequences affect R only.
 
 **KUA-10 (Definedness and fail-closed use).** Outside adaptation applicability, return `not-applicable` and form no judgment. For an admissible request with an unavailable dependency, return `unknown`. Outside correspondence definedness, the guard declines that cross-local use without rewriting an independently evaluated receiving result.
 

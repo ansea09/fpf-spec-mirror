@@ -6,12 +6,12 @@ section_id: "C.18.1:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__012_consequences.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:11 — Consequences"
-line_start: 50258
-line_end: 50265
+line_start: 50244
+line_end: 50251
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -22,7 +22,6 @@ dependencies:
   - "C.18"
   - "C.19"
   - "C.24"
-  - "C.5"
   - "G.10"
   - "G.11"
   - "G.5"
@@ -48,7 +47,7 @@ keywords:
 
 ### C.18.1:11 - Consequences
 
-**Benefits.** SLL prevents scale claims from becoming rhetoric. A comparison can show which knobs were scaled, what window is covered, how much probe evidence supports the slope class, and whether parity or normalization losses only affect assurance rather than silently changing dominance.
+**Benefits.** SLL prevents scale claims from becoming rhetoric. A comparison can show which knobs were scaled, what window is covered, how much probe evidence supports the slope class, and what parity or normalization losses are declared, with any assurance penalties affecting `R` only rather than silently changing dominance.
 
 **Trade-offs.** Early work must spend probes on at least two scale points and record invariants, phase, seeds, uncertainty, or policy thresholds. The gain is that selectors, parity harnesses, refresh telemetry, and mathematical-lens uses can cite one bounded scale claim instead of guessing whether the observed behavior transfers.
 

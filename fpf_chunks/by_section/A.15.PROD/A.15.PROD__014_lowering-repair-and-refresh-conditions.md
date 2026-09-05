@@ -6,37 +6,44 @@ section_id: "A.15.PROD:13"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__014_lowering-repair-and-refresh-conditions.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:13 — Lowering, Repair, and Refresh Conditions"
-line_start: 28416
-line_end: 28431
+line_start: 28398
+line_end: 28413
 dependencies:
   - "A.1"
+  - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.6"
   - "A.3.1"
   - "A.3.4"
+  - "A.6.1"
   - "A.6.P.WMR"
   - "A.6.RCD"
+  - "B.3"
   - "C.2.1"
+  - "C.2.P"
   - "E.18.1"
+  - "E.24.PUB"
   - "F.18"
+  - "F.6"
   - "G.11"
 keywords:
 ---
 
 ### A.15.PROD:13 - Lowering, Repair, and Refresh Conditions
 
-An ordinary production-work claim lowers when its exact Work, Method enactment and applicability, intended production effect, affected referent, Work-part relation, Work-to-change predicate or local claim, shared applicability, or receiver's deciding criterion is missing.
+An ordinary production-work claim lowers when its exact Work, Method enactment, Method applicability, intended production effect, affected referent, Work-part relation, Work-to-change predicate or local claim, or the criterion and its applicability consumed by the receiver is missing.
 
 An inception claim lowers when its exact identity specification and applicability, identity-closing Work, actual effects, Work-to-change and change-to-identity bases, or after-side entity cannot be recovered. A claim that this is the first satisfying boundary additionally needs an ordered candidate-boundary domain and an earliest-satisfying rule.
 
 A completion use preserves a valid state-satisfaction claim whenever possible. That claim lowers only when its completion subject, criterion and applicability, boundary, boundary-state facts, or state-satisfaction predicate is missing. The separate Work-completion claim lowers when exact production Work or its closure predicate or local claim is absent; loss of that link does not erase the state-satisfaction claim.
 
-An ordinary positive claim needs no materialized substrate document. A negative claim needs the selected substrate's applicable negation law. A pin-triggering or earliest-boundary use needs only the constructor, witness, polarity, ordering, or time semantics it actually consumes; missing required semantics yields the exact missing-substrate blocker. A project, plan, label, result record, log, certificate, publication, or punctuation supplies no substitute.
+An ordinary positive claim needs no materialized substrate document. A negative claim needs the selected substrate's applicable negation law. A pin-triggering or earliest-boundary use needs only the constructor, witness, polarity, ordering, or time semantics it actually consumes; missing required semantics yields the exact missing-substrate blocker. A representation, record, or publication can carry evidence or a claim but cannot supply those missing semantics.
 
 A maintainer **MUST** repair only the affected local claim when later information changes work identity or parthood, a direct work-to-change fact, the exact identity-specification episteme or its applicability basis, the exact completion-criterion episteme or applicability relation, a boundary state, a relied-on base-predicate edition, or the selected substrate edition or constructor semantics. An earlier inception or completion claim remains indexed by the exact specification or criterion episteme and applicability basis used at its boundary. An obtaining C.2.1 `EpistemeEditionRelation` can trigger lineage-aware refresh of current dependent uses but does not rewrite that claim; a non-continuing replacement opens a new independent applicability question. A later transformation, delivery, acceptance, release, publication, or availability claim does not by itself repair or invalidate an earlier production claim.
 

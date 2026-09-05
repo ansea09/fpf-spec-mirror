@@ -6,12 +6,12 @@ section_id: "A.0:QF.2b"
 section_title: "Practitioner-facing reading cue"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__017_practitioner-facing-reading-cue.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.2b — Practitioner-facing reading cue"
-line_start: 1461
-line_end: 1472
+line_start: 1494
+line_end: 1505
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

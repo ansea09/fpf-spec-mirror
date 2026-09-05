@@ -6,12 +6,12 @@ section_id: "C.22.1:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__013_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:12 — SoTA-Echoing"
-line_start: 52116
-line_end: 52136
+line_start: 52102
+line_end: 52122
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -47,7 +47,7 @@ keywords:
 
 **Claim 2.** Current open-ended exploration work treats corridor entry and stepping stones as evidence-bearing novelty signals rather than decorative commentary.
 
-**Practice source, local alignment, and adoption decision.** Current `QD`/`OEE` source-use relation/currentness plus current FPF `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` neighbours distinguish real corridor entry from one exotic sample by asking for explicit baseline, stable descriptor shift, reproducible solution class, or an explicit stepping-stone trace. This pattern **adopts** explicit corridor baseline/evidence discipline, **adapts** it as declared adaptation-signature fields, and **rejects** novelty talk that names no baseline, evidence source, or evidence locus.
+**Practice source, local alignment, and adoption decision.** Current `QD`/`OEE` sources and current FPF `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` neighbours distinguish real corridor entry from one exotic sample by asking for explicit baseline, stable descriptor shift, reproducible solution class, or an explicit stepping-stone trace. This pattern **adopts** explicit corridor baseline/evidence discipline, **adapts** it as declared adaptation-signature fields, and **rejects** novelty talk that names no baseline, evidence source, or evidence locus.
 
 **Claim 3.** Current selector and parity practice needs one stable shared field set for specialization claims.
 

@@ -6,12 +6,12 @@ section_id: "C.19.1:5"
 section_title: "Archetypal grounding (post-2015; informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__006_archetypal-grounding-post-2015-informative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:5 — Archetypal grounding (post-2015; informative)"
-line_start: 50798
-line_end: 50806
+line_start: 50784
+line_end: 50792
 dependencies:
   - "A.0"
   - "A.10"
@@ -23,7 +23,6 @@ dependencies:
   - "C.18"
   - "C.19"
   - "C.24"
-  - "C.5"
   - "E.23"
   - "E.3"
   - "E.5"
@@ -45,10 +44,10 @@ keywords:
 
 ### C.19.1:5 - Archetypal grounding (post-2015; informative)
 
-Source-use relation and source-currentness: this section is informative grounding for computational scale comparison, not a current SoTA table and not evidence for non-computational bearer families. A concrete BLP claim still needs its task family or receiving use, comparator set, current alpha and delta tolerances when used, budget, material safety and admissibility boundary, any current assurance boundary, and source-currentness row named by the applying pattern or parity harness.
+Source-use relation and source-currentness: the following example groups are informative grounding for computational scale comparison, not a current SoTA table and not evidence for non-computational bearer families. A concrete BLP claim still needs its task family or receiving use, comparator set, current alpha and delta tolerances when used, budget, material safety and admissibility boundary, any current assurance boundary, and source-currentness row named by the applying pattern or parity harness.
 
 * **LLMs:** prompt programs, **retrieval-augmented** policies, and **MoE** policies compared with narrow task-specific pipelines; set-returning selection across editions and budgets.
 * **RL and planning:** model-based optimization and general agents compared with hand-coded controllers, subject to alpha and delta tolerances and safety.
-* **Preference learning:** **RLHF <-> DPO** families.
+* **Preference learning:** comparisons between **RLHF** and **DPO** families.
 * **QD and OEE:** MAP-Elites, **CMA-ME**, **DQD**, and **QDax**; **POET** and **Enhanced-POET**; illumination remains **report-only telemetry** unless policy promotes it.
 

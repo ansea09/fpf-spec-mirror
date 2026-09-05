@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:End"
 section_title: "C.30.AD.BA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__012_c-30-ad-ba-end.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:End — C.30.AD.BA:End"
-line_start: 60045
-line_end: 60046
+line_start: 60031
+line_end: 60032
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "F.13:14"
 section_title: "Migration notes (conceptual playbook)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__015_migration-notes-conceptual-playbook.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:14 — Migration notes (conceptual playbook)"
-line_start: 97397
-line_end: 97407
+line_start: 97445
+line_end: 97455
 dependencies:
   - "F.1"
   - "F.10"

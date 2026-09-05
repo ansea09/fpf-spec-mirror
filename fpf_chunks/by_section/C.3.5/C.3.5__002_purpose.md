@@ -6,12 +6,12 @@ section_id: "C.3.5:1"
 section_title: "Purpose"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__002_purpose.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:1 — Purpose"
-line_start: 46278
-line_end: 46289
+line_start: 46265
+line_end: 46276
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -38,7 +38,7 @@ KindAT gives that planning vocabulary while keeping the governing objects separa
 
 - the local kind and its order remain under C.3/C.3.1;
 - the `KindSignature` remains a declaration episteme whose own `U.Formality` may change;
-- `J(candidate, kind, signatureEdition, slice)` remains `true`, `false`, or `unknown`;
+- for an admissible request, `J(candidate, kind, signatureEdition, slice)` remains `true`, `false`, or `unknown`;
 - any `KindExtension` remains a pinned-edition representation of true candidates; and
-- bridge and mask objects retain the ontology assigned by C.3.3 and C.3.4.
+- bridge and kind-use adaptation objects retain the ontology assigned by C.3.3 and C.3.4.
 

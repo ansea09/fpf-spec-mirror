@@ -6,16 +6,18 @@ section_id: "C.11.CRC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__004_problem.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:2 — Problem"
-line_start: 47627
-line_end: 47639
+line_start: 47614
+line_end: 47626
 dependencies:
   - "A.1.CSD"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.19"
   - "B.3"
   - "C.11"
@@ -50,5 +52,5 @@ Without an explicit configuration-relative comparison, practitioners make at lea
 - interaction and common-cause overlap are counted as independent contribution; and
 - information, option value, or reversibility is treated as realized benefit.
 
-`A.19` provides comparison mechanisms and characteristic spaces, `C.29` governs mathematical lenses, and `C.11` makes the choice. The remaining recurring practitioner action is to construct the finite comparison claim that those patterns can consume.
+`A.19` provides comparison mechanisms and characteristic spaces, `C.29` governs mathematical lenses, and `C.11` governs the choice. The remaining recurring practitioner action is to construct the finite comparison claim that those patterns can consume.
 

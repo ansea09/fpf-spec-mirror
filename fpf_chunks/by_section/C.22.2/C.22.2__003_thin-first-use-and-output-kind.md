@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 52539
-line_end: 52702
+line_start: 52525
+line_end: 52688
 dependencies:
   - "A.10"
   - "A.15"
@@ -118,7 +118,7 @@ If the claim, relation, or boundary does not change the current problem-card use
 | Method family, work planning, work-entry readiness, performed work, result record, evidence, provenance, assurance, gate, or autonomy | Problem-side cue, source reference when it changes formulation, and stop condition before that outside use. | `G.5`, `A.15`, `A.15.5`, `A.10`, `G.6`, `B.3`, `A.21`, or `E.16` according to the claim named by value. |
 | Temporal, causal-use, representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation | Relation reference plus the inheritance boundary: what can be reused from the old card and what relation is reopened. | `C.27`, `C.28`, `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, `E.18`, or `E.10` according to the relation named by value. |
 | First-principles or mathematical structure cue | Candidate structure, preserved and lost structure when current, practical payoff for problem formulation, problem-formulation follow-up reason, and stop condition. | `C.29` for mathematical-lens use; `A.6.0` for a `FormalSubstrate` `U.Signature` declaration when that signature declaration is current. |
-| Agentic safe probe or world-affecting next action | Probe need, risk condition, bounded next action, and the safety named by value, autonomy, gate, work, evidence, or assurance claim kind that blocks local action. | `C.24`, `E.16`, `A.21`, `A.15`, `A.10`, `G.6`, or `B.3` according to the relation named by value. |
+| Agentic safe probe or world-affecting next action | Probe need, risk condition, bounded next action, and the safety, autonomy, gate, work, evidence, or assurance claim kind that blocks local action. | `C.24`, `E.16`, `A.21`, `A.15`, `A.10`, `G.6`, or `B.3` according to the relation named by value. |
 
 Over-capture symptom: the practitioner spends the pattern use classifying FPF patterns while one or more core Thin items in `C.22.2:2.1` remain unstable.
 
@@ -136,7 +136,7 @@ Use record budgets:
 - Standard record budget: Thin fields plus the current comparison, acceptance, risk, validation, freshness, unknown-handling, or P2W-readiness fields needed for downstream use.
 - High-relation record budget: Standard fields plus only the relation references needed when public, disputed, high-risk, set-derived, cross-scheme, cross-use-boundary, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, temporal, causal, representation, or Part-G relations are current.
 
-Stop at Thin when it gives a truthful next use. Stop at Standard when it is enough to emit or bind a minimal `TaskSignature`, `TaskKind`, or `ProblemProfile`. Apply the governing FPF pattern for the claim being made, relation, or boundary instead of enlarging the card when the issue under repair is no longer the problem-side record itself.
+Stop at Thin when it gives a truthful next use. Stop at Standard when it supplies enough problem-side input for a minimal `TaskSignature`, `TaskKind`, or `ProblemProfile` under C.22. Apply the governing FPF pattern for the claim being made, relation, or boundary instead of enlarging the card when the issue under repair is no longer the problem-side record itself.
 
 #### C.22.2:2.5 - Field Labels and Current-Use Conditions
 
@@ -213,7 +213,7 @@ The checklist protects a completed or reviewed card from overread; the writing o
 | Field budget | Conditional content appears only when current; absence and admitted `unknown` remain distinct. |
 | Exact source and set | A set-derived card preserves exact `sourceSetRef`, set kind, retention or selection criterion, and non-scalar next use without becoming an archive or portfolio object. |
 | Direct-governor cue | Claims outside C.22.2 remain local cues or references and name the exact pattern and claim kind used next. |
-| Constitution stays exact | Only ClaimGraph, one joint EntityOfConcern, and effective ReferenceScheme constitute the card. Scheme, ClaimScope, assumptions, windows, viewpoint, receiving use, and any exact A.15.6 Work reference stay in their claims and direct relations; no setting, carrier, or organization is added as a participant. |
+| Constitution stays exact | Only ClaimGraph, one joint EntityOfConcern, and effective ReferenceScheme constitute the card. ClaimScope, assumptions, windows, viewpoint, receiving use, and any exact A.15.6 Work reference stay in their claims and direct relations; no setting, carrier, or organization is added as a participant. |
 | Currentness and change | Freshness, changed representation, retargeting, or unknown-blocked use states refresh, retirement, bounded use, `abstainOrNoChange`, or the exact relation reopened. |
 | Scalar and proxy guard | Goldilocks, NQD, OEE, set-return, priority, indicator, or stepping-stone wording does not become one readiness score or substitute for value. |
 | First-principles payoff | A mathematical cue states practical payoff, preserved and lost structure when current, follow-up reason, and stop; C.29 governs the lens use. |

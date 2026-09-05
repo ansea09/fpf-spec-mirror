@@ -6,12 +6,12 @@ section_id: "C.3.4:5"
 section_title: "Solution — Declaration, Correspondence, and Judgment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__007_solution-declaration-correspondence-and-judgment.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:5 — Solution — Declaration, Correspondence, and Judgment"
-line_start: 46108
-line_end: 46135
+line_start: 46095
+line_end: 46122
 dependencies:
   - "A.2.6"
   - "C.2.1"

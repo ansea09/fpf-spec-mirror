@@ -6,12 +6,12 @@ section_id: "E.24.PUB:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__009_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:7 — Conformance Checklist"
-line_start: 92134
-line_end: 92148
+line_start: 92182
+line_end: 92196
 dependencies:
   - "A.6.3"
   - "A.6.REL"

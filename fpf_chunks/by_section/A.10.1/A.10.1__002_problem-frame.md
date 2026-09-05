@@ -6,12 +6,12 @@ section_id: "A.10.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:1 — Problem Frame"
-line_start: 23025
-line_end: 23051
+line_start: 23058
+line_end: 23084
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -28,7 +28,7 @@ keywords:
 
 Use this pattern when a claim-bearing source has been revised, replaced, refined, superseded, or challenged and the practical question is not merely whether the source is current, but which existing results or actions actually relied on the changed claim.
 
-The primary `EntityOfConcern` is the bounded source-to-use structure: the changed claim and the exact direct use relations through which receiving results, decisions, specifications, plans, or actions depended on it. The practitioner is not asked to know every receiver in advance. The first move is to state the source comparison and the present decision that bounds where a receiving use would count.
+The primary `EntityOfConcern` is the bounded source-to-use structure: the changed claim and the exact direct use relations through which receiving results, decisions, specifications, plans, or actions depended on it. The practitioner is not asked to know every receiving use in advance. The first move is to state the source comparison and the present decision that bounds where a receiving use would count.
 
 **First useful move.** Write:
 
@@ -36,7 +36,7 @@ The primary `EntityOfConcern` is the bounded source-to-use structure: the change
 
 If no action-relevant claim change is established, stop before opening a multi-use search. A new URL, file, layout, revision label, carrier, or publication occurrence is not by itself a material claim change.
 
-**What goes wrong if missed.** One team replays every analysis because a version changed. Another preserves every result because the represented world did not change. A third follows citations or graph edges and calls every reachable item affected while missing an undeclared receiver that actually used the premise. All three replace actual reliance with a proxy.
+**What goes wrong if missed.** One team replays every analysis because a version changed. Another preserves every result because the represented world did not change. A third follows citations or graph edges and calls every reachable item affected while missing an undeclared use of the premise. All three replace actual reliance with a proxy.
 
 **What this buys.** The practitioner gets an affected-use revalidation account that is local, replayable, and honest about coverage. They preserve inspected unaffected uses for their stated conditions, prepare only `depends` branches for application of their direct subject-pattern guidance, record unresolved reliance and inaccessible search surfaces, and stop at the last receiving action that can change.
 
@@ -46,8 +46,8 @@ If no action-relevant claim change is established, stop before opening a multi-u
 - Use `C.2.1`, `E.17`, or `E.24.PUB` when source identity, edition continuity, publication, carrier, form, audience, or availability is the live question and no several-use revalidation is needed.
 - Use `G.11` when currentness, decay, refresh planning, or refresh reporting is the live result.
 - Use `E.15` when the changed object is one FPF pattern edition; it retains Delta-Class, predecessor-function continuity, pattern checks, and its own change result.
-- Use the direct subject pattern when the source is unchanged and a sensor, market, organization, law-applicability situation, configuration, or other world-side condition changed.
-- Do not use A.10.1 to decide truth, evidence sufficiency, causality, choice, assurance, authority, permission, release, planning, or performed Work. Take those questions directly to their governing patterns.
+- Use the direct subject pattern for a world-side change with no source change; examples include a changed sensor, market, organization, configuration, or situation affecting a law's applicability.
+- Use the direct subject pattern for the judgment or action needed after discovering an affected use. Section 4.5 identifies the governing contributions for those questions.
 
-**What changes in practice.** A source change no longer means “redo everything” or “update the link.” The team first establishes whether claim content changed or names the missing fact, states where receivers could count and how that area was searched, confirms reliance in the receiving content, and revalidates only the smallest action-changing branch.
+**What changes in practice.** A source change no longer means “redo everything” or “update the link.” The team first establishes whether claim content changed or names the missing fact, states where receiving uses would count and how that area was searched, confirms reliance in the receiving content, and revalidates only the smallest action-changing branch.
 

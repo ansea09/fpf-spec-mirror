@@ -6,12 +6,12 @@ section_id: "C.13:9"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__012_rationale-informative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:9 — Rationale (informative)"
-line_start: 47998
-line_end: 48013
+line_start: 47985
+line_end: 48000
 dependencies:
   - "A.1"
   - "A.14"
@@ -39,7 +39,7 @@ keywords:
 
 The forms are intentionally small, but their inputs do not determine ontology by themselves. An assembly is more than a set of part names; a collection is not automatically a holon or agent; and a facet label is not an aspect occurrence. The direct patterns provide relation obtaining and occurrence identity, while the candidate's direct pattern decides whether the existing whole continues or a new whole must be identified.
 
-**Why traces remain epistemic.** A construction can obtain before anyone writes its account. A materialized trace is claim-bearing content used to inspect, communicate, or support that account. Evidence and assurance may warrant the claim, G.11 may govern the selected edition's currentness, and receiving work may rely or decline. None of those epistemic results changes the world-side assembly by itself.
+**Why traces remain epistemic.** A construction can obtain before anyone writes its account. A materialized trace is claim-bearing content used to inspect, communicate, or support that account. Evidence and assurance may warrant the claim, G.11 may govern the selected edition's currentness, and the account may be relied on in receiving work or declined for that use. None of those epistemic results changes the world-side assembly by itself.
 
 **Why order, time, selected structure, and transformation composition are outside.** Method order and temporal extent answer different questions from parthood. A selected `U.Structure` is an organization of relations for a use, not automatically another holon. Entity construction also supplies no law by which several actual changes compose into one transformation. Keeping these stops explicit prevents an economical notation from becoming an ungoverned ontology.
 

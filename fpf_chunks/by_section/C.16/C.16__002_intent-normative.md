@@ -6,12 +6,12 @@ section_id: "C.16:1"
 section_title: "Intent (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__002_intent-normative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:1 — Intent (Normative)"
-line_start: 48066
-line_end: 48079
+line_start: 48053
+line_end: 48066
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -59,7 +59,7 @@ keywords:
 
 **What changes in practice.** Instead of carrying a number and a source link, the practitioner recovers a complete measurement chain: reusable specification, exact measurand, method, model, calibration basis, input and output quantities, dated measurement work, direct bindings, measurement result, one result episteme, and provenance. A reader can then tell what the reading supports and what still requires a diagnostic, criterion, assurance, causal, acceptance, or decision pattern.
 
-**Not this pattern when.** Use A.17 for the Characteristic, A.18 for scale-operation legality, C.16.P while measurement wording is still ambiguous, A.19 for comparison or selection, C.28 for causal use, A.10/G.6 for provenance, B.3 for assurance, G.4 for an acceptance declaration, G.11 for currentness, and C.11 for a decision result. C.16 supplies none of those results by implication.
+**Not this pattern when.** Use A.17 for the Characteristic, A.18 for scale-operation legality, C.16.P while measurement wording is still ambiguous, A.19.CPM for comparison, A.19.SelectorMechanism for selection, C.28 for causal use, A.10/G.6 for provenance, B.3 for assurance, G.4 for an acceptance declaration, G.11 for currentness, and C.11 for a decision result. C.16 supplies none of those results by implication.
 
 **Local designators.** `MeasurementSpecification`, `MeasurementMethod`, `MeasurementModel`, `MeasurementWork`, `MeasurementResult`, and `MeasurementResultEpisteme` name exact objects in one case; they are not new public U-kinds or universal relation types. `MeasurementMethod` is one exact `U.Method`; `MeasurementWork` is one dated `U.Work`; `MeasurementResultEpisteme` is one C.2.1 episteme.
 

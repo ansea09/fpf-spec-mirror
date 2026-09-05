@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 73250
-line_end: 73648
+line_start: 73238
+line_end: 73641
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -58,7 +58,7 @@ keywords:
 
 #### E.8:4.1 - Canonical Pattern Template
 Within each pattern, the **canonical** section headings **SHALL** appear in the order below.
-For each **canonical content section heading (1–12)**, the `<Title>` component (after the heading separator, e.g. ` - `) **MUST** start with the canonical section title (case-insensitive match; canonical capitalisation preferred); an optional clarifier after an em dash is allowed (e.g., `Solution — …`).
+For each **canonical content section heading (1–12)**, the `<Title>` component (after the heading separator, e.g. ` - `) **MUST** start with the canonical section title or its explicitly accepted alias (case-insensitive match; canonical capitalisation preferred); an optional clarifier after an em dash is allowed (e.g., `Solution — …`).
 The mandatory **Footer marker** (section **13**) is the final sentinel and is governed by **H-9** rather than the standard `<FullId> - <Title>` shape.
 
 **Extensibility.**
@@ -83,7 +83,7 @@ Authors **MAY** add additional sections. Prefer expressing them as subsections u
 7. **Conformance Checklist**
 8. **Common Anti‑Patterns and How to Avoid Them** (grounded misuse, text-invited misreading, or a decision-relevant non-use boundary under `CC-SG.11`)
 9. **Consequences**
-10. **Rationale**
+10. **Architectural Rationale** (`Rationale` is an accepted title for the same function)
 11. **SoTA-Echoing** (current-best problem answer; by-value comparison at comparable effort; explicit trade-off and adopt/adapt/reject decision whenever external or internal practice changes the Solution)
 12. **Relations**
 13. **Footer marker**
@@ -114,6 +114,8 @@ PatternID segments may be numeric or mnemonic. When the surrounding text identif
 Whether a PatternID stays with a changed pattern is an authoring decision, not a grammar decision. For a DPF, use `E.4.DPF`; use `E.11.PFP` to show current publication position separately. When the surrounding text does not already identify the framework, name the framework together with the PatternID. Add the edition when the reference must select the body published in one edition.
 
 **H-4 (Ordinals).** Ordinals in section paths **SHOULD** track the canonical template numbering (**1 = Problem frame**, …, **13 = Footer marker**) to maximise cross‑pattern comparability. During refactors or in previously authored patterns, ordinals **MAY** be local. In that case, the **canonical section title at the start of `<Title>`** is the semantic key; readers and tools **MUST NOT** infer section semantics from the ordinal alone.
+`Architectural Rationale` is the preferred title of the Rationale function; `Rationale` remains an accepted alias. Both identify one canonical content section, so a pattern carries exactly one of them. When an existing heading is retitled, repair title-dependent links and direct consumers under `E.8:4.1.2`; retaining its ordinal alone does not preserve a Markdown return.
+
 *Note:* the Footer marker itself is exempt from ordinal encoding; it uses the reserved token `:End` (see **H-9**).
 
 **H-5 (Where kind and normativity are declared).** Pattern **kind** (for example, Architectural or Definitional) **MUST** be declared in the **Header block**, not encoded into the heading text. Normativity (**normative** or **informative**) **MUST** also be declared in the Header block when it deviates from the default. If a reminder is needed for readers, authors **MAY** add a short parenthetical note at the end of the heading, for example `(informative)` or `(non‑normative)`, but headings **MUST NOT** use square‑bracket tags.
@@ -222,6 +224,14 @@ A tiger-feeding proposal may instead require manager approval and a laboratory c
 
 A result maintained outside the receiving framework may answer the reader's use without becoming part of that framework. In a package-coverage account, count that external result only when the exact result and supplying product, receiving use, practical discovery route, and any material currentness or availability condition are explicit, and say that the result remains external. Otherwise keep the promised family as a gap or omission. When the resulting stable pattern set materially changes a promised problem family, obtain a current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition. Reuse a matching current result when the exact edition, promised families, declared use, relied-on results, and relevant conditions did not change; do not record proof that a revisit happened.
 
+#### E.8:4.1.4 - Carry the content functions across Method-description scales
+
+Use the twelve substantive functions in the canonical template as authoring questions for a whole FPF, DPF, or LPF and each selected substantive profile. `E.11.PFP:4.7` governs their public answers, inheritance, and placement in the framework's publication units. The same functions can describe a broad Method, a composition of Methods, or a narrower use; the declared subject and applicability determine the scale.
+
+The `Solution` explains the actual organization and use of the described Methods: their contributions, relations, and the results that make a next move possible. `Architectural Rationale` explains why that organization and those choices serve the declared use, which serious alternatives were considered, their trade-offs, and the conditions under which another choice becomes preferable. Preserve shared source explanations there when users need them to understand or adapt several patterns together.
+
+The pattern heading, header block, section grammar, and footer apply to each individually declared pattern. The whole-framework account uses the publication form in `E.11.PFP`; its content questions do not turn every publication unit or intermediate group into another pattern. Keep generality, specialization, Method composition, reuse, bounded-use projection, and publication grouping explicit under `E.8:4.2.2`. There is no prescribed maximum depth or exclusive-parent rule.
+
 #### E.8:4.2 - Stylistic Principles (S-0 ... S-19)
 
 | # | Principle | Guideline |
@@ -244,7 +254,7 @@ A result maintained outside the receiving framework may answer the reader's use 
 | S-15 | Worked slices over scenario labels | Transform-like families show at least one concrete source and resulting-publication slice; scenario names alone are not enough. |
 | S-16 | Ordinary vs FPF-governed wording realism | Keep ordinary use light, and make heavier review records explicit only for disputed, high-risk, or higher-impact cases. |
 | S-17 | Self-contained monolith prose | A merged pattern must explain itself inside the monolith; planning shorthand and review-context dependencies are not admissible in pattern prose. |
-| S-18 | Intended-reader discipline | Keep every pattern host or monolith section addressed to the intended FPF user; move package-development, architecture-placement rationale, developer, reviewer, and executor correspondence, and quality or projection evidence to separate companion, evaluation, review, projection, or release carriers unless the sentence has been rewritten as the user's admissible move or boundary. |
+| S-18 | Intended-reader discipline | Address the intended framework user. Explain the Methods, their organization, alternatives, costs, and use-changing reasons in the public body. Keep current development, review, evaluation, projection, and landing correspondence in its own carrier under `E.8:4.2.3`. |
 | S-19 | Precision before relaxation | Apply the connected `F.19` reading and kind/loss comparison before accepting a plain or didactic rewrite. Route only an unresolved FPF head, qualifier, relation, or admissible-use question to `E.10`, `E.10.ARCH`, or its subject pattern. |
 
 Authors use the principles as a *scaffold*, not a straitjacket: the goal
@@ -344,19 +354,14 @@ If a draft proposes a new precision-restoration pattern, the authoring claim mus
 
 #### E.8:4.2.3 - Intended-reader discipline for pattern prose
 
-A pattern is written for its intended FPF user: the person who will use the pattern to organise thought, inspect a case, publish a note, or review a result under that pattern.
-Its FPF-governed sections explain the user's action, result, cost, and any grounded boundary that changes use. When neighbouring or companion patterns are named, answer the concrete reader question their contribution settles rather than narrating why the package architecture was divided that way.
-`E.8` reader and reviewer wording is FPF pattern-authoring wording. Project-side publication readers, explanation readers, comparative review units, and participants in named project-side review relations are governed by the publication or project-side patterns that name those publication units, explanation-use relations, comparative review units, evidence paths, work records, or gate records, such as `E.17`, `E.17.ID.CR`, `E.17.EFP`, `A.10`, `A.15.4`, `A.20`, or `A.21`.
+A pattern is written for its intended framework user: the person who uses it to organise thought, investigate a question, change a system, publish a description, or review a result under that pattern.
 
-Authors must keep FPF-development or package-architecture material separate from that user-facing body.
-In particular, `Problem`, `Solution`, `Consequences`, `Rationale`, worked slices, and ordinary-vs-FPF-governed wording guidance must not do the work of:
-- arguing that the material is worth isolating;
-- justifying overlay, profile, family, membership, or authority-reference choice as a package decision;
-- discussing authority-reference freeze, naming freeze, merge state, blast radius, or safest landing form;
-- or narrating future package promotion or defer decisions.
+Its sections explain the described subject, the user's action and result, costs, and grounded boundaries that change use. Public architectural explanation belongs here when it helps the reader understand, select, combine, or adapt the Methods. For example, explain why a profile specializes one step but reuses another, how a combination makes its next result possible, or when a serious alternative would be better. State the actual relations in `Solution` and their reasons in `Architectural Rationale`. A whole language and its profiles use the same content functions through `E.11.PFP:4.7`.
 
-If architecture-placement commentary is still helpful, the default place is a separate companion note or ADR-like architecture note.
-A pattern may include a short optional informative subsection such as `Architectural placement note (informative)` only when that placement materially helps users avoid misuse; even then, it must stay clearly separated from the user-facing solution and rationale rather than replacing them.
+`E.8` reader and reviewer wording is framework-authoring wording. Project-side publication readers, explanation readers, comparative review units, and participants in named project-side review relations are governed by the patterns that name those units and relations, such as `E.17`, `E.17.ID.CR`, `E.17.EFP`, `A.10`, `A.15.4`, `A.20`, or `A.21`.
+
+Keep the development history of the current pattern version in its DRR, companion, review, or release material. This includes current arguments for promoting a draft, authority-reference or naming freezes, merge and landing state, and review correspondence. When a development decision contains a durable reason that changes practitioner use, publish that reason with the necessary explanation and source return; retain the dated decision and its evidence in the development record. Users need enough reasoning to understand the choice without reconstructing that record.
+
 
 #### E.8:4.2.4 - Human-facing fit beyond intended-reader correctness
 Human-facing fit is also subject-domain fit. A recognition text that starts from internal taxonomy, pattern-placement convenience, or package-architecture wording before the problem-domain moment is still under-authored even if its later guidance or check text is correct. When a broader umbrella name and a narrower operative branch are both used, the recognition text should also tell the reader which stack is actually active rather than leaving that reconstruction to a later declaration block or companion note.

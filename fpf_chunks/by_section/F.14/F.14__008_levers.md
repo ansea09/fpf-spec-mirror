@@ -6,12 +6,12 @@ section_id: "F.14:7"
 section_title: "Levers"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__008_levers.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:7 — Levers"
-line_start: 97546
-line_end: 97579
+line_start: 97594
+line_end: 97627
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "E.3:7"
 section_title: "Conformance Checklist — E.3 ↔ BLP Interop"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__008_conformance-checklist-e-3-blp-interop.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
   - "E.3:7 — Conformance Checklist — E.3 ↔ BLP Interop"
-line_start: 70069
-line_end: 70078
+line_start: 70055
+line_end: 70064
 dependencies:
   - "E.2"
 keywords:

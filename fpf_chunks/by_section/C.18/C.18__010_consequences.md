@@ -6,12 +6,12 @@ section_id: "C.18:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__010_consequences.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:8 — Consequences"
-line_start: 50116
-line_end: 50130
+line_start: 50102
+line_end: 50116
 dependencies:
   - "A.15"
   - "A.19"
@@ -55,7 +55,7 @@ keywords:
 
 Positive consequences:
 
-- archives keep exploration value without pretending to decide;
+- archives keep exploration value while local choice remains separately governed;
 - fronts preserve partial-order and comparator semantics;
 - architecture and cultural-variant generation become usable without creating parallel root kinds;
 - refresh and source-currentness have clear loci.

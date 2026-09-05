@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__011_consequences.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:9 — Consequences"
-line_start: 17585
-line_end: 17592
+line_start: 17618
+line_end: 17625
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ keywords:
 
 ### A.6.RSIR:9 - Consequences
 
-`A.6.RSIR` adds a small first-level decision before heavy repair. That extra step prevents E.10 from carrying substantive recovery content and prevents each neighboring pattern from repeating the whole RSIR diagnosis.
+`A.6.RSIR` adds a bounded recovery step when the engineering object or claim remains unclear after the F.19 reading with E.10 cues. The selected subject pattern then handles the substantive claim; neighboring patterns can refer to this recovery instead of repeating it.
 
 The pattern also keeps useful source vocabulary alive. Engineers can still say interface, API, role, parameter, function, and endpoint. FPF simply refuses to let those words select ontology by themselves.
 

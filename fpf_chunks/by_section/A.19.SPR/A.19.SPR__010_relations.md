@@ -6,12 +6,12 @@ section_id: "A.19.SPR:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__010_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:8 — Relations"
-line_start: 30637
-line_end: 30654
+line_start: 30619
+line_end: 30636
 dependencies:
   - "A.10"
   - "A.16"

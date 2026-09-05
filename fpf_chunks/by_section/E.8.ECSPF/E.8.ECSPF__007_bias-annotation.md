@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__007_bias-annotation.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
   - "E.8.ECSPF:6 — Bias-Annotation"
-line_start: 73965
-line_end: 73968
+line_start: 73958
+line_end: 73961
 dependencies:
   - "A.19.ECS"
   - "C.25"

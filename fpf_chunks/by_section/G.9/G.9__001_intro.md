@@ -6,12 +6,12 @@ section_id: "G.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:intro — Intro"
-line_start: 105424
-line_end: 105427
+line_start: 105482
+line_end: 105485
 dependencies:
   - "A.19"
   - "A.2.6"

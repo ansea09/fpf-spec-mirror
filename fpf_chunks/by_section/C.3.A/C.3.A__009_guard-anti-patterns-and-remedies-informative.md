@@ -6,12 +6,12 @@ section_id: "C.3.A:8"
 section_title: "Guard anti-patterns and remedies (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__009_guard-anti-patterns-and-remedies-informative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:8 — Guard anti-patterns and remedies (informative)"
-line_start: 46635
-line_end: 46646
+line_start: 46622
+line_end: 46633
 dependencies:
   - "A.15"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "A.6.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:intro — Intro"
-line_start: 13514
-line_end: 13537
+line_start: 13547
+line_end: 13570
 dependencies:
   - "A.6.0"
   - "A.6.1"

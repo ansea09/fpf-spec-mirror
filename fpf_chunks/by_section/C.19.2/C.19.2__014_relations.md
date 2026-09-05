@@ -6,12 +6,12 @@ section_id: "C.19.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__014_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:12 — Relations"
-line_start: 51003
-line_end: 51010
+line_start: 50989
+line_end: 50996
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -34,7 +34,7 @@ keywords:
 
 ### C.19.2:12 - Relations
 
-- **Coordinates with:** `C.18` for candidate generation and reframing; `C.19` for candidate/front stewardship; `C.19.1` for scale-amenable bearer preference; `C.22.1` for adaptation signatures; `E.23` for repeated improvement; and `C.31.ASAP` for architecture-scale preference.
+- **Coordinates with:** `C.18` for candidate generation, reframing, and archive/front stewardship; `C.19` for explore/exploit policy over still-live candidate pools; `C.19.1` for scale-amenable bearer preference; `C.22.1` for adaptation signatures; `E.23` for repeated improvement; and `C.31.ASAP` for architecture-scale preference.
 - **Uses conditionally:** `C.11` only when an actual local-choice question over a live eligible set exists. It consumes, but does not extend, the four `ChoiceResult` dispositions.
 - **Hands off enactment to:** `A.15.2` for work plans, `A.15.1` for dated work, and `C.24` only for tool-call enactment planning. The direct domain pattern contains the defining content for the practical result.
 - **Description-level specialization:** `A.7.1` narrows the method claims stated here for consequence-guided ontology analysis. It retains the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, separation among plan, Work, and result, stop, and reopen. It retains the candidate and choice branch only when that branch is actually triggered. This wording adds no relation occurrence between the described Methods and asserts neither `U.SubkindOf` nor a world relation.

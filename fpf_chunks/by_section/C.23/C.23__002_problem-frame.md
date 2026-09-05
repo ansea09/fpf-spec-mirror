@@ -6,12 +6,12 @@ section_id: "C.23:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:1 — Problem frame"
-line_start: 53170
-line_end: 53173
+line_start: 53156
+line_end: 53159
 dependencies:
   - "A.10"
   - "B.3"
@@ -39,5 +39,5 @@ keywords:
 
 ### C.23:1 - Problem frame
 
-Families of methods compete inside a CG‑Frame. The selector (G.5) must **admit, degrade, or abstain** per family **without** universal scores, using **typed** problem descriptors and **auditable** evidence. Maturity of a family (how far it has travelled from “clever idea” to “run‑safe”) must be **visible to LOG** rules yet **separate from thresholds** (which live only in **AcceptanceClauses**, G.4).
+Families of methods compete inside a CG‑Frame. The selector (G.5) must **admit, degrade, or abstain** per family **without** universal scores, using **typed** problem descriptors and **auditable** evidence. Maturity of a family (its evidence-backed rung for the declared admission use) must be **visible to LOG** rules yet **separate from acceptance thresholds** (which live only in **AcceptanceClauses**, G.4).
 

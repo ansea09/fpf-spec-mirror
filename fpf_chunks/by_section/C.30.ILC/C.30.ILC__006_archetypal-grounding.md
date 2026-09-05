@@ -6,12 +6,12 @@ section_id: "C.30.ILC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__006_archetypal-grounding.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:5 — Archetypal Grounding"
-line_start: 61842
-line_end: 61848
+line_start: 61828
+line_end: 61834
 dependencies:
   - "A.10"
   - "A.22"

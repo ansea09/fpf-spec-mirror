@@ -6,12 +6,12 @@ section_id: "A.19.ECS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:intro — Intro"
-line_start: 30156
-line_end: 30163
+line_start: 30138
+line_end: 30145
 dependencies:
   - "A.17-A.19"
   - "C.16"

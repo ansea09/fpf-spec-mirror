@@ -6,12 +6,12 @@ section_id: "B.2.P:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__014_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:11 — Relations"
-line_start: 38674
-line_end: 38680
+line_start: 38656
+line_end: 38662
 dependencies:
   - "A.1.1"
   - "A.10"

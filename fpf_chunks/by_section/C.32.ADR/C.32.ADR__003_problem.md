@@ -6,12 +6,12 @@ section_id: "C.32.ADR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__003_problem.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:2 — Problem"
-line_start: 66458
-line_end: 66469
+line_start: 66444
+line_end: 66455
 dependencies:
   - "A.10"
   - "A.15"

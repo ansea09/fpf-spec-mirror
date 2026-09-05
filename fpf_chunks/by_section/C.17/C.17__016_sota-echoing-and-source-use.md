@@ -6,12 +6,12 @@ section_id: "C.17:14"
 section_title: "SoTA-Echoing and source use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__016_sota-echoing-and-source-use.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:14 — SoTA-Echoing and source use"
-line_start: 49825
-line_end: 49837
+line_start: 49810
+line_end: 49822
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -57,7 +57,7 @@ keywords:
 
 ### C.17:14 - SoTA-Echoing and source use
 
-**Source-currentness boundary (reviewed through 2026-08-15).** The sources below were selected because they change what a C.17 user inspects or reports. They do not install one creativity theory, automated judge, metric, or search algorithm as the FPF default. Reopen this source-use judgement when a cited source is corrected, retracted, or materially superseded; when new cross-domain evidence overturns one of the stated consequences; or when a proposal would make one automated metric, corpus, encoder, QD descriptor, or proxy score normative. Use `G.11` for that refresh.
+**Source-use boundary.** The sources below change what a C.17 user inspects or reports. They do not install one creativity theory, automated judge, metric, or search algorithm as the FPF default. Reopen this source-use judgement when a cited source is corrected, retracted, or materially superseded; when new cross-domain evidence overturns one of the stated consequences; or when a proposal would make one automated metric, corpus, encoder, QD descriptor, or proxy score normative. Use `G.11` for that refresh.
 
 | Current practice and source | Source-use decision | Concrete C.17 consequence |
 | --- | --- | --- |
@@ -66,5 +66,5 @@ keywords:
 | Test whether a result survives reasonable corpus, metric, and representation choices. Lu et al., `Rethinking Creativity Evaluation: A Critical Analysis of Existing Creativity Evaluations`, EACL 2026, DOI `10.18653/v1/2026.eacl-long.297`; Stein et al., `Exposing Flaws of Generative Model Evaluation Metrics and Their Unfair Treatment of Diffusion Models`, NeurIPS 2023, DOI `10.52202/075280-0165`. | **Adopt** sensitivity checking and comparison with evidence suited to the receiving domain. **Adapt** it by making the corpus, inclusion rule, Method, model or encoder, distance, calibration, and uncertainty part of the claim. **Reject** transfer of one metric across domains, minor prompt or implementation stability as validity, and leaderboard standing as evidence of the bearer characteristic. | For a load-bearing value, inspect neighbours and run the applicable corpus/Method sensitivity or invariance probe. If the conclusion changes, report that dependence or incomparability instead of hiding it in one score; `CC-C17-4` and `CC-C17-11` make this visible. |
 | Check whether optimizing a proxy stops improving the result that matters. Gao, Schulman, and Hilton, `Scaling Laws for Reward Model Overoptimization`, ICML 2023, PMLR 202:10835-10866, `https://proceedings.mlr.press/v202/gao23h.html`. | **Adopt** the warning that further proxy optimization can reduce performance under a separate target judgement. **Adapt** it by retaining primitive coordinates, gates, evidence, and held-out or delayed observations and by giving the local result a stop or reopen condition. **Reject** the reward-model setting or its fitted scaling law as a universal degradation model, and reject a rising proxy score as evidence that the bearer improved. | The design and policy cases keep tooling and legal or equity gates visible even when another value improves. Scalarization never erases the primitive coordinates; later target evidence can reopen only the claims that relied on the proxy. |
 
-These decisions reinforce the existing route rather than add another assurance layer. In the pump case, inspect the admitted design set and tooling constraint; in the hospital case, keep the held-out result separate from unsupported transfer; in the policy case, keep the missing subgroup evidence as an eligibility gap. The source record therefore changes the comparison and robustness work already required by the cases and checklist, not the practitioner-first entry.
+These decisions reinforce the existing route rather than add another assurance layer. In the pump case, inspect the admitted design set and tooling constraint; in the hospital case, keep the held-out result separate from unsupported transfer; in the policy case, keep the missing subgroup evidence as an eligibility gap. The source-use decisions therefore change the comparison and robustness work already required by the cases and checklist, not the practitioner-first entry.
 

@@ -6,12 +6,12 @@ section_id: "B.4.1:14"
 section_title: "Keeping route plurality useful"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__015_keeping-route-plurality-useful.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:14 — Keeping route plurality useful"
-line_start: 40761
-line_end: 40790
+line_start: 40757
+line_end: 40774
 dependencies:
   - "A.15"
   - "A.16"
@@ -41,28 +41,16 @@ keywords:
 
 ### B.4.1:14 - Keeping route plurality useful
 
-A routed cue set stays useful only when route plurality, route grounds, selection status, and any current-use or retirement claim remain explicit without turning the seam into one hidden endpoint.
+A routed cue set stays useful only when route plurality, route grounds, selection status, and any current-use or retirement claim remain explicit.
 
 #### B.4.1:14.1 - Minimal route package
-A robust route package should identify:
-
-- the **originating cue pack**,
-- the **candidate route set**,
-- the **route decision state**,
-- the **selected route**, if any,
-- the **grounds for each live route**,
-- the **conditions that would change route ranking**,
-- and any **typed downstream publication** already published.
-
-This is enough to keep later handoff reviewable without collapsing the seam into an endpoint subject pattern.
-
-For specialization-sensitive routes, the package should also make explicit the declared task family or utility target, the current budget window, the missing discriminator still needed, and the downstream subject pattern that would become admissible if that discriminator is satisfied.
+Use the minimal route package in §4 (Solution).
 
 #### B.4.1:14.2 - Selected route is not endpoint governance
-Even when one route is selected, the routed cue set remains a seam publication form until a subject pattern is entered explicitly.
+Even when one route is selected, the routed cue set remains a seam publication form. Apply a downstream subject pattern when its entry conditions are met; that pattern governs the next claim or result.
 
 #### B.4.1:14.3 - Review prompt and threshold reminder
-A reviewer should check whether the selected route is justified by the published cue pack and whether suppressed alternative routes were genuinely considered rather than silently erased. If the articulation threshold is not yet met, keep the publication early rather than laundering it into a late prompt, requirement, or work subject pattern.
+A reviewer should check whether the selected route is justified by the published cue pack or equivalent early form and whether suppressed alternative routes were genuinely considered rather than silently erased. If the articulation threshold required for a proposed late prompt, requirement, or work claim is not yet met, keep the publication early.
 
 #### B.4.1:14.4 - Deferred selection and route splitting
 Deferral is admissible when route plurality and missing discriminators are published. It is not admissible when one route is silently assumed while the publication still speaks as if the question were open.

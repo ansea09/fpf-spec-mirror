@@ -6,12 +6,12 @@ section_id: "C.3.A:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__003_problem.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:2 — Problem"
-line_start: 46450
-line_end: 46458
+line_start: 46437
+line_end: 46445
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -37,6 +37,6 @@ Older guard shorthand used one two-valued “membership defined” question for 
 
 C.3.A restores two levels:
 
-- **declaration level:** which exact local kind and `KindSignature` edition a claim quantifies over, and whether that kind is compatible with the receiver's expected kind under same-context order or an obtaining KindBridge; and
-- **candidate-use level:** whether one exact target-side candidate satisfies the receiver's exact declaration in that exact slice, with the claim-kind consequence supplied only by the already established same-context order or cross-context bridge.
+- **declaration level:** which exact local kind and `KindSignature` edition a claim quantifies over, and whether that kind is compatible with the receiver's expected kind under C.3.1 order or an obtaining KindBridge; and
+- **candidate-use level:** whether one exact target-side candidate satisfies the receiver's exact declaration in that exact slice, with the claim-kind consequence supplied only by the already established C.3.1 order or obtaining KindBridge.
 

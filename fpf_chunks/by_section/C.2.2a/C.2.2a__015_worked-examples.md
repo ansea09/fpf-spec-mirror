@@ -6,12 +6,12 @@ section_id: "C.2.2a:13"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__015_worked-examples.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:13 — Worked Examples"
-line_start: 43582
-line_end: 43611
+line_start: 43567
+line_end: 43596
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -42,7 +42,7 @@ keywords:
 ### C.2.2a:13 - Worked Examples
 
 #### C.2.2a:13.1 - Inquiry cue before endpoint capture
-A research cue note may occupy a position claim with:
+A position claim for a research cue note may state:
 
 - moderate `F`,
 - low articulation explicitness,
@@ -50,7 +50,7 @@ A research cue note may occupy a position claim with:
 - strong embodied or trace-based anchoring,
 - and mixed representation factors.
 
-That position explains why the note should remain upstream of `A.6.P` or `C.25` even if its prose happens to look polished.
+Keep these readings explicit when testing entry into `A.6.P` or `C.25`; the note should remain upstream while the relevant receiving pattern's entry conditions remain unmet, even if its prose happens to look polished.
 
 #### C.2.2a:13.2 - Routed operator alert note
 A routed operational alert may have:
@@ -61,7 +61,7 @@ A routed operational alert may have:
 - high operator-loop anchoring,
 - and mixed symbolic and natural-language representation.
 
-That position explains why the alert belongs in a route-bearing seam publication before it hardens into an endpoint-subject-qualified work record or reliance record.
+Keep the live responses explicit in the route-bearing seam publication. Before publishing an endpoint-subject-qualified work record or reliance record, test the applicable downstream pattern's conditions; these chart readings do not decide that result.
 
 #### C.2.2a:13.3 - Viewpoint-bound adequacy note
 A document-mediated adequacy note about an architecture description may be relatively high in formality and articulation, mid-level in closure, document-mediated in anchoring, and symbolic in representation. That position remains within the same language-state chart even though its carrier lane differs from an embodied inquiry cue.

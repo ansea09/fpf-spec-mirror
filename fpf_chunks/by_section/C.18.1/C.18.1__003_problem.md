@@ -6,12 +6,12 @@ section_id: "C.18.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__003_problem.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:2 — Problem"
-line_start: 50182
-line_end: 50185
+line_start: 50168
+line_end: 50171
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -22,7 +22,6 @@ dependencies:
   - "C.18"
   - "C.19"
   - "C.24"
-  - "C.5"
   - "G.10"
   - "G.11"
   - "G.5"

@@ -6,12 +6,12 @@ section_id: "C.19.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__006_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:4 — Solution"
-line_start: 50883
-line_end: 50940
+line_start: 50869
+line_end: 50926
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -40,11 +40,11 @@ Use this minimal lens before taking a branch:
 
 1. **Declared use:** the practical question, direct result kind, claimed guarantee, non-negotiable constraints, and horizon.
 2. **Selected or candidate direct-kind object:** the method description, model, ontology module, formal technique, or other governed object being considered.
-3. **Application MethodDescription:** this pattern's `U.MethodDescription` episteme and the admitted `U.Method` it describes. A practitioner uses its claims to guide the Work; neither the episteme nor the Method performs it.
+3. **Application MethodDescription and described Method:** this pattern's `U.MethodDescription` episteme and the admitted `U.Method` it describes. A practitioner uses its claims to guide the Work.
 4. **Performer and work:** when an admitted `U.System` performs dated configuration or application `U.Work` using the described Method, recover its A.13 core and independently admit the Work under A.15.1. Add F.6 afterward only when the present use needs precise assignment-bound attribution. In a short account, expose assignment identity, species, participants, or attribution detail only when the use relies on them, attribution is ambiguous, or source wording must be repaired.
 5. **Problem-facing result:** the domain, engineering, assurance, architecture, or other subject-pattern result inspected after the work.
 
-The intended reader may also be the person-system that performs the Work, but reader position and performer relation remain different. A plan, checklist, `U.MethodDescription` episteme, described Method, option row, or publication cannot occupy the performer position.
+The intended reader may also be the person-system that performs the Work, but reader position and performer relation remain different.
 
 #### C.19.2:4.2 - Select the truthful application branch
 
@@ -52,9 +52,9 @@ The intended reader may also be the person-system that performs the Work, but re
 
 **Candidate generation or reframing.** When no adequate current object is available and the live question is to invent, expand, retain, or reframe candidates, use `C.18`. This pattern may supply the declared use and eligibility basis, but candidate-generation work is not a choice result.
 
-**Local choice.** Only when two or more already-available eligible alternatives, or another genuine local-choice question over a live set, are current use `C.11` for `OptionSet`, `ChoiceRule`, probing, and `ChoiceResult`.
+**Local choice.** Only when two or more already-available eligible alternatives, or another genuine local-choice question over a live set, are current, use `C.11` for `OptionSet`, `ChoiceRule`, probing, and `ChoiceResult`.
 
-**Post-choice enactment.** A singular selected direct-kind object enters `A.15.2` planning when a plan is needed and `A.15.1` dated work when applied. `C.24` is the pattern for sequencing, budgeting, checkpointing, and replanning only when the selected object is enacted through tool-call work.
+**Post-choice enactment.** For a singular selected direct-kind object, use `A.15.2` to plan its application when a plan is needed and `A.15.1` for the dated application Work. `C.24` is the pattern for sequencing, budgeting, checkpointing, and replanning only when the application involves tool-call work.
 
 #### C.19.2:4.3 - Admit candidates by one use-bounded predicate
 
@@ -77,7 +77,7 @@ These four dispositions form the complete current `C.11` result set. “Configur
 4. For each current path, state the smallest adaptation/configuration work and the useful-result threshold: what must be learned, evidenced, integrated, or reviewed before the path can improve the use.
 5. Compare available time and budget, prior exposure, post-threshold efficiency, transfer, retention, interoperability, downside, reversibility, and expected reuse using values supplied by their subject patterns. Do not compress them into an undeclared scalar.
 6. If choice is current, consume one lawful `C.11 ChoiceResult`; otherwise continue on the one-apparatus path.
-7. Prepare the needed `A.15.2` plan or, for tool-call enactment, `C.24` call plan. Have the admitted system perform `A.15.1` work.
+7. On a branch that proceeds to application, prepare the needed `A.15.2` plan or, for tool-call enactment, `C.24` call plan. Have the admitted system perform `A.15.1` work.
 8. Inspect the separately governed problem-facing result. Keep an application/configuration note only when reuse, dispute, automation, or consequence makes it useful.
 
 #### C.19.2:4.5 - Stop and reopen
@@ -88,5 +88,5 @@ Reopen when a consequential counterexample, failed result, changed use or guaran
 
 #### C.19.2:4.6 - Optional demonstration, not an admitted structure
 
-A short branch presentation may show one-apparatus, candidate-generation, choose, probe/reject, application, result, and reopen continuations as a `ProvisionalUnfoldingDemonstrationDescription@Context`. It is an episteme for teaching. It is not an admitted `U.Structure`, CGUS, work plan, work occurrence, or result; admission requires every `A.22.CGUS` coordinate independently.
+A short branch presentation may show one-apparatus, candidate-generation, choose, probe/reject, application, result, and reopen continuations as a `ProvisionalUnfoldingDemonstrationDescription@Context`. It is an episteme for teaching. The presentation alone establishes no admitted `U.Structure`, CGUS, work plan, work occurrence, or problem-facing result; CGUS admission requires every `A.22.CGUS` coordinate independently.
 

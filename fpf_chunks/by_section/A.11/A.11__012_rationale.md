@@ -6,12 +6,12 @@ section_id: "A.11:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__012_rationale.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:7 — Rationale"
-line_start: 23474
-line_end: 23479
+line_start: 23516
+line_end: 23521
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -23,16 +23,11 @@ dependencies:
   - "F.18"
   - "F.8"
 keywords:
-  - "U-kind admission"
-  - "composition"
-  - "kernel growth"
-  - "non-redundancy"
-  - "parsimony"
 ---
 
 ### A.11:7 - Rationale
 
-Ontological parsimony preserves FPF's ability to handle many domains without turning every local distinction into a root object. The pattern follows the same discipline used by `E.24.UK`: recover the governed object first, then decide whether a new durable value is needed. Slots, relations, dependent values, records, publication forms, and mathematical lenses are expressive resources; they are not failures to mint a kind.
+Ontological parsimony preserves FPF's ability to handle many domains without turning every local distinction into a root object. The pattern follows the same discipline used by `E.24.UK`: recover the governed object first, then decide whether a new durable value is needed. Using an existing governed expression is a successful result, not a failure to mint a kind.
 
 The practical criterion is not abstract minimalism. A candidate earns admission only when users gain a claim, comparison, repair, stop condition, reliance condition, or boundary they cannot recover by composition without material loss. That keeps parsimony tied to FPF's work-facing purpose rather than to a taste for small vocabularies.
 

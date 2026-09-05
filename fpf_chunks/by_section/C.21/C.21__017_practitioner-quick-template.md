@@ -6,12 +6,12 @@ section_id: "C.21:14"
 section_title: "Practitioner Quick Template"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__017_practitioner-quick-template.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:14 — Practitioner Quick Template"
-line_start: 51612
-line_end: 51634
+line_start: 51598
+line_end: 51620
 dependencies:
   - "A.10"
   - "A.17"
@@ -59,7 +59,7 @@ Minimal DHC claim
 Only if measurement, comparison, or aggregation is current
   DHC replay basis: <active exact refs and editions from C.21:4.0a>
   TargetSlice: <optional; only if consumed, with relation to ClaimScope>
-  Comparison branch: <direct compatible semantics | exact F.9 relation + direction/use/loss>
+  Comparison branch: <direct compatible semantics | exact F.9 relation + separate use/direction/rule/tolerance claim + loss evidence + current reliance>
   Legal operation or target-distance rule: <exact ref>
 
 Only if a reusable series, dashboard, or publication is current

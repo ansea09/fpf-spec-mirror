@@ -6,12 +6,12 @@ section_id: "C.32.HCS:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__012_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:11 — SoTA-Echoing"
-line_start: 64341
-line_end: 64353
+line_start: 64327
+line_end: 64339
 dependencies:
   - "A.19"
   - "C.11"

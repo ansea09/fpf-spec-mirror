@@ -6,15 +6,16 @@ section_id: "G.8:9"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:9 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 105360
-line_end: 105376
+line_start: 105418
+line_end: 105434
 dependencies:
   - "A.10"
   - "A.21"
+  - "B.3"
   - "C.18"
   - "C.19"
   - "C.22"
@@ -48,8 +49,8 @@ keywords:
 * **Anti‑pattern:** Treating illumination/QD telemetry as a hidden scalar score that changes dominance.
   **Avoid:** keep telemetry report‑only unless explicitly promoted by a governing-pattern policy pin.
 
-* **Anti‑pattern:** Publishing a bundle that “implies” cross‑context reuse without Bridge/CL/Φ pins.
-  **Avoid:** if reuse is asserted, publish the crossing pins; otherwise downstream must abstain from reuse.
+* **Anti‑pattern:** Publishing a bundle that “implies” cross‑context reuse without its required relation/use/reliance pins, or omits CL/Φ pins required by the actual calibration or named assurance use.
+  **Avoid:** if reuse is asserted, publish the crossing pins required by `G.8:Ext.BridgeReuseWiring` for that use; otherwise downstream must abstain from reuse.
 
 * **Anti‑pattern:** Re‑defining `PortfolioMode`/`DominanceRegime` defaults in the bundle text.
   **Avoid:** cite each default's governing definition through `G.Core.DefaultGoverningDefinitionIndex`.

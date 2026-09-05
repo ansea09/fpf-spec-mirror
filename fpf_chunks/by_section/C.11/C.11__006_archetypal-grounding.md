@@ -6,12 +6,12 @@ section_id: "C.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__006_archetypal-grounding.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:5 — Archetypal Grounding"
-line_start: 47401
-line_end: 47444
+line_start: 47388
+line_end: 47431
 dependencies:
   - "A.10"
   - "A.13"
@@ -54,9 +54,9 @@ keywords:
 
 **Show.** The `DecisionSubject` is the team, the `DecisionSubjectGranularity` is team-level, the `OptionSet` is the three current plans, the team's `PreferenceOrder` puts risk reduction ahead of schedule convenience, and the current `OutcomeModel` still carries calibration uncertainty. The extra calibration run belongs in the `ProbeActionSet`, its one-day delay is part of the `ProbeBudget`, and the practical question is whether its `ValueOfInformation` exceeds its `CostToProbe` by enough to change the emitted `ChoiceResult` under the current `ChoiceRule`.
 
-**Show.** If the extra calibration run could still change which plan survives and the one-day delay fits the remaining `ProbeBudget`, the right `ChoiceResult` is `probe again` with that exact calibration run named. If the measurement can no longer overturn the ranking, the right `ChoiceResult` is `choose now` with the winning plan and the reason further probing is no longer worth its cost.
+**Show.** If the extra calibration run could still change which plan survives, the one-day delay fits the remaining `ProbeBudget`, and the expected gain justifies its `CostToProbe`, the right `ChoiceResult` is `probe again` with that exact calibration run named. If the measurement can no longer overturn the ranking, the right `ChoiceResult` is `choose now` with the winning plan and the reason further probing is no longer worth its cost.
 
-**Show.** A finished result here should therefore read like one decision record, not one research-theory aside: "Team-level chooser; three current plans; risk reduction preferred; calibration uncertainty still live; one extra calibration run remains feasible and could still overturn the current ranking; `ChoiceResult = probe again with calibration run`." Or, after that probe is no longer worth doing: "`ChoiceResult = choose plan B now because the remaining calibration gain no longer justifies one more day of delay`."
+**Show.** A finished result here should therefore read like one decision record, not one research-theory aside: "Team-level chooser; three current plans; risk reduction preferred; calibration uncertainty still live; one extra calibration run remains feasible and could still overturn the current ranking; its expected gain justifies `CostToProbe`, including the one-day delay; `ChoiceResult = probe again with calibration run`." Or, after that probe is no longer worth doing: "`ChoiceResult = choose plan B now because the remaining calibration gain no longer justifies one more day of delay`."
 
 **Show.** `C.38` is the place for turning labels or fragments into complete ways of obtaining one result, `C.18` is the place for open-ended invention of new plans, `C.19` is the place for broader exploration policy over the plan pool, and `C.24` is the place for the run sheet and execution order after the choice is made.
 
@@ -64,7 +64,7 @@ keywords:
 
 **Tell.** A model-selection comparison takes three already-articulated explanations and asks whether one more observation or one more comparison pass is rational before preferring one explanation over the others.
 
-**Show.** `C.11` governs the decision doctrine over the current explanation set: one `BeliefState`, one `OutcomeModel`, one explicit `PreferenceOrder` or `EvaluativeMeasure`, and, when the case needs it, one `InterventionModel`, `CounterfactualModel`, or `SubjunctiveDependenceRelation` rather than one thinner evidential comparison. When another model comparison pass is on the table, `ValueOfComputation` belongs here as part of the current choice doctrine rather than as one later planning afterthought.
+**Show.** `C.11` governs the decision doctrine over the current explanation set: one `BeliefState`, one `OutcomeModel`, one explicit `PreferenceOrder` or `EvaluativeMeasure`, and, when the case needs it, either one `InterventionModel` or one `CounterfactualModel` plus one `SubjunctiveDependenceRelation`, rather than one thinner evidential comparison. When another model comparison pass is on the table, `ValueOfComputation` belongs here as part of the current choice doctrine rather than as one later planning afterthought.
 
 **Show.** If one more comparison pass cannot realistically change which explanation survives, the decision record should not end with "more analysis may help." It should end with one `ChoiceResult` that prefers the current explanation now. If one more pass could still reverse the ordering and is cheap enough to justify, the decision record should say exactly which pass is worth doing and what ambiguity it is expected to resolve.
 
@@ -80,13 +80,13 @@ keywords:
 
 **Show.** Active-inference-adjacent pressure is visible because the chooser is embodied, online, and socially coupled; quantum-like pressure is visible because context and question order change the comparison state. `C.11` keeps both repaired limitations visible without pretending that the whole pattern has already become one full active-inference or quantum-like formal package.
 
-**Show.** If the order effect still changes which option survives, the comparison should say that directly and keep the comparison unfinished. The lawful choice result is then either one framing-stabilizing probe or one declared comparison order under which the current result will be judged. It should not hide that instability inside one vague statement that the board has mixed intuitions.
+**Show.** If the order effect still changes which option survives, the comparison should say that directly and keep the comparison unfinished. The next comparison move is then either one framing-stabilizing probe or declaring the comparison order under which the current result will be judged. It should not hide that instability inside one vague statement that the board has mixed intuitions.
 
 **Show.** An admissible output here therefore looks like one of three concrete records:
 
 - `ChoiceResult = probe again with one rapid diagnostic test because the current prognosis-first versus risk-first framing still changes which option survives`;
 - `ChoiceResult = choose now and escalate because, under the fixed risk-first order and current evidence, no remaining feasible test can reverse the survivor relation before delay increases harm`;
-- `ChoiceResult = the next question is governed by C.24 because the board has already chosen escalation and the next task is now treatment sequencing rather than local choice`.
+- `ChoiceResult = reroute to C.24 because the board has already chosen escalation and the next task is now treatment sequencing rather than local choice`.
 
 **Show.** The output still has to be one actionable record. If the current result cannot say which of those three forms is now lawful, then the contextual pressure has been noticed but not yet carried into one usable decision result.
 

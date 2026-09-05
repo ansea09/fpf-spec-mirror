@@ -6,12 +6,12 @@ section_id: "C.2.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__005_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:4 — Solution"
-line_start: 44616
-line_end: 44644
+line_start: 44603
+line_end: 44631
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -58,8 +58,8 @@ keywords:
 If embodiment matters, it shall be declared here or immediately beside this characteristic rather than being hidden inside representation talk.
 
 #### C.2.6:4.3 - Mixed-mode rule
-`AM.Mixed` is admissible only when the component modes are named explicitly. "Mixed" shall not be a lazy escape from deciding whether the key anchor is bodily, trace-based, model-latent, document-mediated, or operator-loop based.
+`AM.Mixed` is admissible only when the component modes are named explicitly. "Mixed" shall not stand in for an undetermined anchoring mode.
 
 #### C.2.6:4.4 - Bridge implications
-An anchoring shift can matter when a published `U.Episteme` is translated across semantic contexts. A translation from `AM.EmbodiedFelt` to `AM.DocumentMediated`, or from `AM.ModelLatent` to prose, may provide evidence about an F.9 Bridge or bounded-use claim. Use F.9 to state the Bridge, claim, evidence, and loss account. Use F.9.1 only for a separate optional stance note about that claim.
+An anchoring shift can matter when a receiving use needs a semantic relation between local senses from different semantic contexts. A shift from `AM.EmbodiedFelt` or `AM.ModelLatent` source anchoring to `AM.DocumentMediated` publication-face anchoring may provide evidence about an F.9 Bridge or bounded-use claim. Use F.9 to state and test the Bridge and the separate bounded-use claim, with its evidence and loss account. Use F.9.1 only for a separate optional stance note about that claim.
 

@@ -6,12 +6,12 @@ section_id: "C.2.2a:End"
 section_title: "C.2.2a:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__018_c-2-2a-end.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:End — C.2.2a:End"
-line_start: 43630
-line_end: 43631
+line_start: 43615
+line_end: 43616
 dependencies:
   - "A.16"
   - "A.16.0"

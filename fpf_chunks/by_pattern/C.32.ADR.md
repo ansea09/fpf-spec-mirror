@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.ADR.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
-line_start: 66389
-line_end: 66616
+line_start: 66375
+line_end: 66602
 dependencies:
   - "A.10"
   - "A.15"

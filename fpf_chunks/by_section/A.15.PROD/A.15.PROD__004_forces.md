@@ -6,24 +6,31 @@ section_id: "A.15.PROD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__004_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:3 — Forces"
-line_start: 27939
-line_end: 27951
+line_start: 27962
+line_end: 27974
 dependencies:
   - "A.1"
+  - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.2"
   - "A.15.6"
   - "A.3.1"
   - "A.3.4"
+  - "A.6.1"
   - "A.6.P.WMR"
   - "A.6.RCD"
+  - "B.3"
   - "C.2.1"
+  - "C.2.P"
   - "E.18.1"
+  - "E.24.PUB"
   - "F.18"
+  - "F.6"
   - "G.11"
 keywords:
 ---
@@ -35,9 +42,9 @@ keywords:
 | Familiar production language vs exact claim identity | One sentence often carries work participation, entity inception, completion, and later acceptance at once. |
 | Narrow work vs containing work | A finishing occurrence may itself be production work for one bounded use and a proper part of a larger production occurrence for another. |
 | Product-class identity before the entity exists | Entity-inception recovery remains blocked unless the exact identity-specification episteme and either a named applicability predicate or a filled local claim apply it to the candidate basis, subject context, and inception boundary before inception; no surrogate future entity is introduced. |
-| Actual work effects vs observation | Logs, deltas, pictures, and first observation can support a claim but do not create work-to-change or change-to-identity links. |
+| Actual work effects vs observation | Logs, deltas, pictures, and first observations may support a claim; exact named predicates and obtaining facts establish the Work-to-change or change-to-identity links. |
 | Work composition vs transformation composition | A.15.1 may ground composite work while no accepted transformation-composition governor exists. |
 | First existence vs completion | Identity and completion may coincide, but neither criterion entails the other. |
-| Historical truth vs later state | Later damage, loss, rework, delivery, or acceptance neither erases nor silently rewrites an earlier completion claim. |
+| Historical truth vs later state | Index earlier completion by its exact criterion, applicability basis, boundary, and state; later damage, loss, rework, delivery, or acceptance receives a separate claim. |
 | Reusable language vs ontology economy | Repeated domain use may justify predicate semantics, but a convenient production label does not justify a universal relation kind. |
 

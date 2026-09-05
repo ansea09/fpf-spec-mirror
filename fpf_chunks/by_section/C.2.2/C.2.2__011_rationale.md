@@ -6,12 +6,12 @@ section_id: "C.2.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__011_rationale.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:10 — Rationale"
-line_start: 43336
-line_end: 43347
+line_start: 43321
+line_end: 43332
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 
 A triad only works if each coordinate has a single job.
 
-* **G carries entitlement.** It states where the claim is asserted to apply. If G is implicit, teams argue about “what was meant” instead of updating scope.
+* **G states applicability.** It states where the claim is asserted to apply. If G is implicit, teams argue about “what was meant” instead of updating scope.
 * **F carries checkability.** It states how much the claim’s form supports mechanised scrutiny and reuse. If F is conflated with R, formalisation becomes a rhetorical weapon.
 * **R carries warrant.** It states how much evidence supports relying on the claim under G. If R is not conservative, evidence with a low `R` coordinate can be laundered into high confidence.
 

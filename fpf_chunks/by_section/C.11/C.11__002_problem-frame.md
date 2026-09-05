@@ -6,12 +6,12 @@ section_id: "C.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:1 — Problem frame"
-line_start: 46887
-line_end: 46926
+line_start: 46874
+line_end: 46913
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,7 +57,7 @@ keywords:
 
 **First output.** The first useful output is one explicit `DecisionSubject`, one explicit `OptionSet`, one explicit comparison basis, one explicit `ChoiceRule`, and one explicit `ChoiceResult` saying whether the lawful choice result is choose now, reject the current set, probe more, or move to a neighboring question.
 
-If that first output still cannot be written honestly, the current comparison state is not late-stage choice doctrine yet. The case is still unfinished local choice work or one neighboring question in disguise.
+If that first output still cannot be stated, the local comparison is unfinished or the question belongs to a neighboring pattern.
 
 **Immediate failure indicators.**
 
@@ -74,7 +74,7 @@ If that first output still cannot be written honestly, the current comparison st
 - What next probe could still change the choice, if any?
 - Is this still local choice, or has the question moved to a neighboring problem—for example, search, pool policy, selector-result declaration, publication availability, or enactment?
 
-**Typical reroutes.** `C.38` when labels or fragments still need to become complete ways of obtaining the same result; `C.18` when the real question is open-ended invention or reframing; `C.19` when the working question is how broadly to explore or exploit the candidate pool; `C.24` when one option is already chosen and the work has become sequencing or enactment; `A.13` when the hard question is agenthood rather than choice (planned `C.9` is future characteristic-profile consolidation only); `A.18` or `A.19` when the mathematical support question itself becomes primary.
+**Typical reroutes.** `C.38` when labels or fragments still need to become complete ways of obtaining the same result; `C.18` when the real question is open-ended invention or reframing; `C.19` when the working question is how broadly to explore or exploit the candidate pool; `C.24` when one option is already chosen and the work has become sequencing or enactment; `A.13` when the hard question is agenthood rather than choice; `A.18` for Scale and Coordinate bindings or `A.19` for a declared CharacteristicSpace or reusable predicate when that support question itself becomes primary.
 
 **Common neighboring-pattern mistakes.** Do not use `C.11` to hide search work inside "decision", to hide candidate-pool policy inside one local choice, or to hide execution planning inside one generic rationality account. Do not treat declaring selector-facing set-result content, or later making that result available, as if either were the same question as deciding.
 

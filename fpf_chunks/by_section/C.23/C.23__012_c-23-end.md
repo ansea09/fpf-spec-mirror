@@ -6,12 +6,12 @@ section_id: "C.23:End"
 section_title: "C.23:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__012_c-23-end.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:End — C.23:End"
-line_start: 53362
-line_end: 53363
+line_start: 53348
+line_end: 53349
 dependencies:
   - "A.10"
   - "B.3"

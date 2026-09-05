@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__012_rationale.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:10 — Rationale"
-line_start: 17593
-line_end: 17600
+line_start: 17626
+line_end: 17633
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ keywords:
 
 ### A.6.RSIR:10 - Rationale
 
-The RSIR cluster needs a first-level pattern because E.10 remains a cheap trigger scan, while direct relation, declaration, interface, system-role, Work, publication, evidence, and status rules retain their own objects and predicates. Apply the thinner `E.10.ROLE` entry once to bare *role*. If one concrete direct-participation, declaration, interface, operation, or representation question remains unanswered, apply RSIR to that question; otherwise leave RSIR closed.
+The RSIR cluster needs a bounded recovery step when F.19's whole-span reading and E.10's compact cues leave an engineering object or claim unclear. Direct relation, declaration, interface, system-role, Work, publication, evidence, and status rules retain their own objects and predicates. Apply the thinner `E.10.ROLE` entry once to bare *role*. If one concrete direct-participation, declaration, interface, operation, or representation question remains unanswered, apply RSIR to that question; otherwise leave RSIR closed.
 
 The main ontological principle is separation among participant, declaration, application and binding, assertion and designation, and representation. An actual direct-relation participant retains its direct kind under one participant meaning. A corresponding `SlotSpec`, when reusable typed relation declaration is current, states a declaration-local `SlotKind`, exact `ValueKind`, and `refMode`. An assertion or description remains a C.2.1 episteme; its direct claim family supplies predicate, polarity, or use, and A.6.5 types a participant designation only against a compatible current `SlotSpec`. An A.6.1 declaration states reusable operation meaning, while one exact application and obtaining binding relate that occurrence to an actual value. A C.29 representation position may correspond to any of those objects without becoming one.
 

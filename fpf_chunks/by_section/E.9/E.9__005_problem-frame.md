@@ -6,12 +6,12 @@ section_id: "E.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__005_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:1 — Problem frame"
-line_start: 74093
-line_end: 74101
+line_start: 74086
+line_end: 74094
 dependencies:
   - "A.10"
   - "A.15.1"

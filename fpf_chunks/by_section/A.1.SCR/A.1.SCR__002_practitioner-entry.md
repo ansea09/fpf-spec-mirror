@@ -6,12 +6,12 @@ section_id: "A.1.SCR:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__002_practitioner-entry.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:0 — Practitioner entry"
-line_start: 2297
-line_end: 2314
+line_start: 2330
+line_end: 2347
 dependencies:
   - "A.1"
   - "A.1.CSD"

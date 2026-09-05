@@ -6,12 +6,12 @@ section_id: "B.4.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__005_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:4 — Solution"
-line_start: 40633
-line_end: 40696
+line_start: 40615
+line_end: 40692
 dependencies:
   - "A.15"
   - "A.16"
@@ -40,11 +40,25 @@ keywords:
 ---
 
 ### B.4.1:4 - Solution
-Insert a pre-abductive route-bearing seam inside the language-state cluster, between observation/cue preservation and endpoint subject-pattern entries:
+Use this seam to make the candidate continuations and any selected route explicit after cue stabilization. The pre-abductive route-bearing seam sits inside the language-state cluster, between observation/cue preservation and endpoint subject-pattern entries:
 
 `Observe -> Notice -> Stabilize -> Route`
 
-The seam yields a `RoutedCueSet`, normally downstream of `U.PreArticulationCuePack`.
+Publish the route package as a `RoutedCueSet`, normally downstream of `U.PreArticulationCuePack`.
+
+A robust route package should identify:
+
+- the **originating cue pack**, if any, or the equivalent early form preserving the stabilized cue,
+- the **candidate route set**,
+- the **route decision state**,
+- the **selected route**, if any,
+- the **grounds for each live route**,
+- the **conditions that would change route ranking**,
+- and any **typed downstream publication** already published.
+
+This keeps later handoff reviewable while leaving downstream claims and results under their applicable subject patterns.
+
+For specialization-sensitive routes, the package should also make explicit the declared task family or utility target, the current budget window, the missing discriminator still needed, and the downstream subject pattern that would become applicable if that discriminator and that pattern's other entry conditions are satisfied.
 
 #### B.4.1:4.1 - `RoutedCueSet` shape
 A conforming routed cue set may publish:
@@ -64,11 +78,11 @@ A conforming routed cue set may publish:
 
 `RoutedCueSet` is not itself the late endpoint. `articulationThresholdStatus` and `closureStatus` report guard state only; their governance remains with `C.2.4` and `C.2.5`, and route discrimination may additionally cite `C.2.6` or `C.2.7` when anchoring or representation-factor differences are load-bearing.
 
-`candidateRouteSet` and `routeDecision` are the load-bearing core here. `selectedRoute`, `routeRationale`, and `routeSelectionStatus` belong here when route selection is explicit. They do **not** belong in `U.PreArticulationCuePack`. The status says only whether plurality remains open or a route has been selected; endpoint admission, publication availability, current use or retirement, and any actual authority relation remain separate claims under A.16 and their direct patterns.
+`candidateRouteSet` is the load-bearing core here. `routeDecision`, `selectedRoute`, `routeRationale`, and `routeSelectionStatus` belong here when route selection is explicit. They do **not** belong in `U.PreArticulationCuePack`. The status says only whether plurality remains open or a route has been selected; endpoint admission, publication availability, current use or retirement, and any actual authority relation remain separate claims under A.16 and their direct patterns. Use `sourceCuePackRef` when the originating early form is a cue pack; otherwise identify the equivalent early form and the stabilized cue it preserves.
 
 `publicationFaceRefs` names MVPK faces only when face typing matters for publication or review. Faces are renderings of the routed cue set or of later typed projection publications; they are not the route-bearing form itself.
 
-A multi-route `RoutedCueSet` is still one governed member. A lineage fork appears only after distinct successor publications are issued.
+A multi-route `RoutedCueSet` is still one governed member. A lineage fork requires distinct successor epistemes or project records under their applicable identity and lineage rules. Use `C.2.1` for episteme identity; publication availability remains separate under `E.24.PUB`.
 
 #### B.4.1:4.2 - Starter route family and conditional extension species
 The candidate route set may contain, among others:
@@ -93,13 +107,13 @@ Use `TaskFamilySpecializationRoute` when the cue points toward acquiring one nar
 Contexts may refine the route family locally, but they shall keep the distinction between early route publication and endpoint governance.
 
 #### B.4.1:4.3 - Projection discipline
-Here `projection` names route-bounded partialization, not a rival subject pattern and not a face kind. The resulting publication must be a **typed publication form** rendered, when needed, on an existing MVPK face.
+Here `projection` names route-bounded partialization. The resulting content must be published in a **typed publication form**, rendered, when needed, on an existing MVPK face. The applicable subject pattern governs the downstream claim.
 
-A routed cue set may therefore lead to:
+A routed cue set may support these continuations:
 
-- `U.AbductivePrompt` under `B.5.2.0`,
-- a later typed endpoint-entry publication under `A.6.P`, `A.6.A`, or `C.16.Q`,
-- or another explicitly typed upstream projection publication.
+- publish `U.AbductivePrompt` under `B.5.2.0`,
+- apply `A.6.P`, `A.6.A`, or `C.16.Q` under its own entry conditions and produce the sentence, record, or other result that the selected pattern calls for,
+- or publish another explicitly typed upstream projection.
 
-If no typed downstream publication form can yet be named honestly, stay in `RoutedCueSet` rather than hiding a pseudo-form behind face language.
+For a proposed downstream projection, if no typed publication form can yet be named honestly, keep the content in `RoutedCueSet`; an MVPK face alone supplies no such form.
 

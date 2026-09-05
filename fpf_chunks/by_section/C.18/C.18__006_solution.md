@@ -6,12 +6,12 @@ section_id: "C.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__006_solution.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:4 — Solution"
-line_start: 49909
-line_end: 50084
+line_start: 49895
+line_end: 50070
 dependencies:
   - "A.15"
   - "A.19"
@@ -53,7 +53,7 @@ keywords:
 
 ### C.18:4 - Solution
 
-Keep archive, front, telemetry, generation, and downstream relations as separate records.
+Keep records for archive, front, telemetry, generation, and downstream relations separate.
 
 #### C.18:4.1 - Archive Record
 
@@ -128,7 +128,7 @@ FrontRecord@Context:
   admissibilityRef: safety and manufacturing constraints already admitted by project policy
   descriptorMapRef: thermal performance, service access, part count, manufacturing tolerance
   characteristicSpaceRef: product-family architecture characteristic space
-  relationTokenSetRef: non-dominated candidates under current comparator
+  relationTokenSetRef: comparison relation-token set supporting non-dominated candidates under current comparator
   excludedTelemetryRefs: tests outside the current temperature envelope
   currentnessAsOf: comparator, safety constraints, and test evidence reviewed through 2026-07-31
   currentStatus: active non-dominated front for the declared comparator
@@ -140,7 +140,7 @@ For this example's current question, the field names `C.30` as the next applicab
 
 #### C.18:4.3 - Generation And Downstream-Use Record
 
-When loop-engineering practice generates many candidates—for example, agent prompts, harness variants, workflow variants, or framework seeds—use `C.18` to record generation, archive, front, descriptors, telemetry, retained exploration value, lineage, and the next applicable pattern. This does not say that the loop improved. Use `E.23` only when one retained object version is changed and re-evaluated; use `G.9` for parity between variants and `G.5` when a selected-set result must be declared.
+When loop-engineering practice generates many candidates—for example, agent prompts, harness variants, workflow variants, or framework seeds—use `C.18` to record generation, archive, front, descriptors, telemetry, retained exploration value, lineage, and the next applicable pattern. This does not say that the loop improved. Use `E.23` only when one retained object version is changed and re-evaluated through repeated passes under a declared object-under-improvement evaluation; use `G.9` for parity between variants and `G.5` when a selected-set result must be declared.
 
 ```text
 OpenEndedVariantGenerationRecord@Project:
@@ -187,9 +187,9 @@ projectLocality:
   exactGenerationToProjectRelationRef: OperationalPartOf_work(HarnessVariantGenerationRun-2026-07-31, AgentHarnessProjectWork-2026)
 ```
 
-Every optional field whose name ends in `Ref?` points to a separately identified object, claim, policy profile, or measurement basis. `dedupThreshold?` is not a reference: it carries one declared scalar threshold value. `deduplicationUnit?` carries its unit literal. Fill `emitterPolicyRef?` and `insertionPolicyRef?` only when the cited C.19 profile or insertion policy applies to the current pool treatment. When a threshold is inherited, the cited profile supplies `dedupThreshold`, `deduplicationBasisRef`, and `deduplicationUnit`; when it is not inherited, carry the scalar in `dedupThreshold?` and its basis and unit in `deduplicationBasisRef?` and `deduplicationUnit?`. These references and scalars do not give C.19 a generation operation or change the archive and front relations stated through C.18. In particular, `problemCardRef?` may cite a C.22.2 problem-side episteme but creates neither an actual Problem nor a `ProblematicForRelation` under `C.22.PFR`. A generated variant, archive entry, front membership, telemetry value, or retained-exploration claim is neither an improvement-result nor a work-result identity and creates no relation from generation Work to a result. `nextGoverningRelation` is a locator for the next applicable pattern; it does not itself make a choice, declare a selected-set result, authorize work, perform refresh, or make any relation obtain.
+Every optional field whose name ends in `Ref?` points to a separately identified object, claim, policy profile, or measurement basis. `dedupThreshold?` is not a reference: it carries one declared scalar threshold value. `deduplicationUnit?` carries its unit literal. Fill `emitterPolicyRef?` and `insertionPolicyRef?` only when the cited C.19 profile or insertion policy applies to the current pool treatment. When a threshold is inherited, the cited profile supplies `dedupThreshold`, `deduplicationBasisRef`, and `deduplicationUnit`; when it is not inherited, carry the scalar in `dedupThreshold?` and its basis and unit in `deduplicationBasisRef?` and `deduplicationUnit?`. These references and scalars do not give C.19 a generation operation or change the archive and front relations stated through C.18. In particular, `problemCardRef?` may cite a C.22.2 problem-side episteme but creates neither an actual Problem nor a `ProblematicForRelation` under `C.22.PFR`. Naming a generated variant, archive entry, front membership, telemetry value, or retained-exploration claim alone establishes neither an improvement-result nor a work-result identity and creates no relation from generation Work to a result. `nextGoverningRelation` is a locator for the next applicable pattern; it does not itself make a choice, declare a selected-set result, authorize work, perform refresh, or make any relation obtain.
 
-Use this record when generation is current. `architectureCandidateRefs` become architecture moves only through `C.30`, `C.30.ASV`, or `C.30.AD`. `culturalVariantRefs` become cultural-evolution cases only through `C.36`. Local choice uses `C.11`; work planning and performed work use the A.15 family; effect measurement uses its direct measurement and evaluation patterns; refresh uses `G.11`. P2W carry-through uses `E.18.1` when an accepted problem-side distinction must be preserved into the next relation.
+Use this record when generation is current. For architecture moves involving candidates named in `architectureCandidateRefs`, use `C.30`, `C.30.ASV`, or `C.30.AD` as applicable. Use `C.36` for cultural-evolution cases involving variants named in `culturalVariantRefs`. Local choice uses `C.11`; work planning and performed work use the A.15 family; effect measurement uses its direct measurement and evaluation patterns; refresh uses `G.11`. P2W carry-through uses `E.18.1` when an accepted problem-side distinction must be preserved into the next relation.
 
 #### C.18:4.3a - Distinguish exploration inside a space from change to the space
 
@@ -214,7 +214,7 @@ Stop at ordinary same-space exploration when no action depends on the stronger m
 
 
 - Start from one declared candidate or eligibility set.
-- Return the non-dominated front over the declared comparator, dominance set, or relation-token set.
+- Return the non-dominated front from the relation-token set under the declared comparator or dominance set.
 - Return the exploration archive separately when retained exploration value, coverage, novelty, diversity, stepping-stone value, or future reachability is current.
 - Keep tie-breakers and telemetry explicit so diversity, illumination, or popularity signals do not rewrite front semantics.
 - Before promoting telemetry or a popularity-like signal into the comparator, dominance set, or selected-set criteria, state which intended archive/front use or value becomes worse when that signal improves and cite the policy or decision authority that admits the trade-off. If either answer is missing, keep the signal as telemetry or an explicitly bounded tie-breaker rather than silently promoting it.

@@ -6,12 +6,12 @@ section_id: "A.11:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__003_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:1 — Problem Frame"
-line_start: 23375
-line_end: 23380
+line_start: 23410
+line_end: 23417
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -23,16 +23,13 @@ dependencies:
   - "F.18"
   - "F.8"
 keywords:
-  - "U-kind admission"
-  - "composition"
-  - "kernel growth"
-  - "non-redundancy"
-  - "parsimony"
 ---
 
 ### A.11:1 - Problem Frame
 
 FPF needs enough primitives to be useful, but every new primitive creates learning cost, bridge cost, and future repair cost. Ontological parsimony is not anti-growth. It is the rule that FPF adds a new kind only when composition, reuse, dependent-value settlement, and subject patterns cannot express the action-facing claim without material loss.
 
-When source or draft wording proposes a candidate durable value in `U.*` form, treat that as an admission claim. A.11 is therefore applied after `E.24.UK` recovers the governed object and before naming patterns choose a public label. For a relation-kind candidate, the `ExistingExpressionAttempt` first uses `A.6.P` and, only when the exact participants are known but no current direct relation closes the named receiving claim, `A.6.RCD`. An existing-relation, local-compound-claim, or predicate-definition result closes the primitive candidate; a separately justified derived relation kind proceeds only as derived, and only an irreducible primitive-relation-kind result can continue here as primitive.
+When source or draft wording proposes a candidate durable value in `U.*` form, treat that as an admission claim. Apply A.11 after `E.24.UK` recovers the governed object and before naming patterns choose a public label.
+
+For a relation-kind candidate, first apply `A.6.P`. If the participants are exact but no current direct relation expresses the named receiving claim, apply `A.6.RCD`. Stop when it returns an existing exact predicate, a local compound claim, or subject-bounded or reusable predicate-definition content. A derived relation-kind candidate continues only when a named use needs stable occurrence semantics and supplies its proposed direct settlement; an irreducible primitive relation-kind candidate continues only under A.6.RCD disposition 4.
 

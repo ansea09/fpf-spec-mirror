@@ -6,12 +6,12 @@ section_id: "A.3.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:1 — Problem frame"
-line_start: 8625
-line_end: 8662
+line_start: 8658
+line_end: 8695
 dependencies:
   - "A.1.1"
   - "A.10"

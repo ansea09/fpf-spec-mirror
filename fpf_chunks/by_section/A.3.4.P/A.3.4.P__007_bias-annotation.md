@@ -6,12 +6,12 @@ section_id: "A.3.4.P:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__007_bias-annotation.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:6 — Bias-Annotation"
-line_start: 9852
-line_end: 9863
+line_start: 9885
+line_end: 9896
 dependencies:
   - "A.10"
   - "A.15.1"

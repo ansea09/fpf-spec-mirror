@@ -6,12 +6,12 @@ section_id: "C.16.Q:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__007_archetypal-grounding.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:5 — Archetypal Grounding"
-line_start: 49093
-line_end: 49256
+line_start: 49080
+line_end: 49243
 dependencies:
   - "A.10"
   - "A.16"
@@ -64,12 +64,12 @@ keywords:
 
 #### C.16.Q:5.1 - Tell
 
-If a draft says *quality*, the draft has not yet named the evaluative family.
+If a draft uses *quality* for an FPF-governed claim without a recoverable sense, make that sense explicit.
 A conforming rewrite publishes either the evaluative form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, separate probe/model and comparison frames, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
 
-#### C.16.Q:5.2 - Show (System lane)
+#### C.16.Q:5.2 - Show (Latent fit and control adequacy)
 
-The identifiers below denote distinct objects. Each `comparisonFrameRef` resolves its exact A.19.CPM configuration; each non-`none` `viewpointRef` resolves one E.17.0 viewpoint episteme. A named result claim is not assessment work, witness refs do not establish an A.10 evidence-provenance path, and neither witnesses nor a result label establish the grounding relation cited beside them.
+The identifiers below denote distinct objects. Each `comparisonFrameRef` resolves its exact A.19.CPM configuration; each non-`none` `viewpointRef` resolves one E.17.0 viewpoint episteme. A named result claim is not assessment work, witness refs do not establish an A.10 evidence-provenance path, and neither witnesses nor a result label establish the grounding relation cited beside them. In the model and architecture improvement examples, the cited result claim asserts the improvement under its named comparison frame; the ascription record refers to that claim.
 
 **Draft:** “The model quality improved.”
 
@@ -113,7 +113,7 @@ Here `EGR_LatentFitResult_22` denotes a separately established relation between 
   endpointPatternLocator = C.25
 )`
 
-#### C.16.Q:5.3 - Show (Episteme lane)
+#### C.16.Q:5.3 - Show (Preconceptual fit and explanatory merit)
 
 **Draft:** “Quality matters before definition.”
 
@@ -157,7 +157,7 @@ The explicit `none` values matter: episode notes are witnesses to articulation, 
   endpointPatternLocator = C.25
 )`
 
-#### C.16.Q:5.3a - Show (Architecture description lane)
+#### C.16.Q:5.3a - Show (System quality and architecture-description fitness)
 
 **Draft:** “The architecture quality improved.”
 

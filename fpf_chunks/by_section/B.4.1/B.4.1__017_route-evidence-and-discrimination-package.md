@@ -6,12 +6,12 @@ section_id: "B.4.1:20"
 section_title: "Route Evidence and Discrimination Package"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__017_route-evidence-and-discrimination-package.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:20 — Route Evidence and Discrimination Package"
-line_start: 40820
-line_end: 40835
+line_start: 40805
+line_end: 40820
 dependencies:
   - "A.15"
   - "A.16"
@@ -42,16 +42,16 @@ keywords:
 ### B.4.1:20 - Route Evidence and Discrimination Package
 
 #### B.4.1:20.1 - Evidence-per-route rule
-Each live route in a routed cue set should cite the cue grounds that actually support it. If a route has no published grounds, it is not a live route; it is only a private guess.
+Each live route in a routed cue set should cite the cue grounds that actually support it. Where those grounds are not yet published, complete the route account so readers can assess the support.
 
 #### B.4.1:20.2 - Discriminator publication
-When a route set remains plural, authors should name the discriminator they are waiting for: a missing anchor, contrast, measurement, witness, articulation threshold, closure condition, or other explicit facet transition. Doing so makes deferred selection informative instead of merely indecisive.
+When a route set remains plural, authors should name the discriminator they are waiting for: a missing anchor, contrast, measurement, witness, articulation threshold, closure condition, or other explicit facet transition. This tells later readers which fact or facet change would justify reconsidering the route set.
 
 #### B.4.1:20.3 - Multi-route state is not yet a lineage fork
-One routed cue set may keep several candidate routes live without yet forking lineage. A fork occurs only when distinct successor epistemes or project records are identified and their preserved and lost content and any exact lineage relations are stated. Publication availability and any responsibility or authority handoff remain separate claims.
+One routed cue set may keep several candidate routes live without yet forking lineage. A fork occurs only when distinct successor epistemes or project records are identified under their own identity rules and their preserved and lost content and any exact lineage relations that obtain are stated. Publication availability and any responsibility or authority handoff remain separate claims.
 
 #### B.4.1:20.4 - Projection restraint
-A typed downstream projection publication or prompt may be shown as one admissible continuation, but it shall not dominate the routed cue set so much that the other routes become unreadable. Projection is guidance, not covert subject-pattern replacement.
+A typed downstream projection publication or prompt may be shown as one admissible continuation; the other live routes and their grounds and discriminators shall remain readable.
 
 #### B.4.1:20.5 - Review test for false single-route certainty
 Ask: if the selected route were denied, would the publication still contain enough information to explain the other live routes and the discriminator that would separate them? If not, the route set is under-published and has collapsed too early into one favored continuation.

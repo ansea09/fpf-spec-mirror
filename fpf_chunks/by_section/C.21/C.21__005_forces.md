@@ -6,12 +6,12 @@ section_id: "C.21:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__005_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:3 — Forces"
-line_start: 51409
-line_end: 51420
+line_start: 51395
+line_end: 51406
 dependencies:
   - "A.10"
   - "A.17"
@@ -53,7 +53,7 @@ keywords:
 | Readable minimum vs replay | One ordinary claim should be cheap; a numerical comparison or reusable series needs enough identity to be repeated. |
 | Ordinal vs interval or ratio | Ranks and categories invite illegal arithmetic. |
 | Formal status vs actual adoption | Approval by a standards body and use by a population can vary independently. |
-| Direct comparison vs cross-local relation | Compatible readings compare directly; distinct local senses add a directional relation and its loss. |
+| Direct comparison vs cross-local relation | Compatible readings compare directly; a comparison that relies on a cross-local semantic relation needs its truth, bounded use, and loss account established separately. |
 | Recency vs stability | Health changes through time; a trend needs explicit windows and current definition editions. |
 | Evidence vs publication | Support, measurement, series content, dashboard representation, and audience availability answer different questions. |
 

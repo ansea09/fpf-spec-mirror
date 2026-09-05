@@ -6,12 +6,12 @@ section_id: "C.13:9.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__013_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:9.1 — SoTA-Echoing"
-line_start: 48014
-line_end: 48021
+line_start: 48001
+line_end: 48008
 dependencies:
   - "A.1"
   - "A.14"
@@ -33,5 +33,5 @@ Constructional ontology and applied mereology both require explicit choices abou
 
 Model-based engineering likewise separates a readable structural model from the physical, operational, informational, method, or work organization it describes. C.13 keeps that model useful while routing representation, evidence, assurance, and currentness to their direct patterns.
 
-`A.14:14` supplies the source decision used by the changed `set` and `slice` forms. For `set`, it requires the collection's own belongs-to rule and blocks both automatic parthood and the conclusion that separate parthood is impossible. For `slice`, it requires an obtaining `AspectOf` relation with its bearer, facet rule, and identity conditions; a Characteristic, view, projection, partition, or time window does not substitute. If that A.14 source account changes, recheck only the affected `set` or `slice` contract, normative row, and link to A.14 here. An ordinary change to a collection rule or occurrence, aspect or bearer, facet rule, identity condition, or materialized trace reopens only that construction account and the claim it reports.
+`A.14:14` supplies the source decision used by the `set` and `slice` forms. For `set`, it requires the collection's own belongs-to rule and blocks both automatic parthood and the conclusion that separate parthood is impossible. For `slice`, it requires an obtaining `AspectOf` relation with its bearer, facet rule, and identity conditions; a Characteristic, view, projection, partition, or time window does not substitute. If that A.14 source account changes, recheck only the affected `set` or `slice` contract, normative row, and link to A.14 here. An ordinary change to a collection rule or occurrence, aspect or bearer, facet rule, identity condition, or materialized trace reopens only that construction account and the claim it reports.
 

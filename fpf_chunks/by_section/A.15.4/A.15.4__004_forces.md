@@ -6,12 +6,12 @@ section_id: "A.15.4:2.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__004_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:2.1 — Forces"
-line_start: 26252
-line_end: 26261
+line_start: 26286
+line_end: 26295
 dependencies:
   - "A.10"
   - "A.13"

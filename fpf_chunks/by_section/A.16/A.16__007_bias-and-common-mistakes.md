@@ -6,12 +6,12 @@ section_id: "A.16:6"
 section_title: "Bias and common mistakes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__007_bias-and-common-mistakes.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:6 — Bias and common mistakes"
-line_start: 28606
-line_end: 28621
+line_start: 28588
+line_end: 28603
 dependencies:
   - "A.13"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "C.2.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__004_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:3 — Forces"
-line_start: 44609
-line_end: 44615
+line_start: 44596
+line_end: 44602
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,7 +37,7 @@ keywords:
 ### C.2.6:3 - Forces
 | Force | Tension |
 |---|---|
-| **Embodiment vs abstraction** | Preserve embodied and operator-facing cases without making them mystical exceptions. |
+| **Embodiment vs abstraction** | Preserve embodied and operator-facing cases while making their anchoring explicit. |
 | **Small core vs real diversity** | Keep the core compact while allowing multiple admissible anchoring regimes. |
-| **Comparability vs oversimplification** | Compare anchoring regimes without flattening them into text-vs-nontext slogans. |
+| **Comparability vs oversimplification** | Compare anchoring regimes while retaining distinctions that a text-vs-nontext split hides. |
 

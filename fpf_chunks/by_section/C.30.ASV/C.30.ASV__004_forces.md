@@ -6,12 +6,12 @@ section_id: "C.30.ASV:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__004_forces.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:3 — Forces"
-line_start: 60622
-line_end: 60632
+line_start: 60608
+line_end: 60618
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.3.3:6"
 section_title: "Norms & Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__007_norms-invariants-normative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:6 — Norms & Invariants (normative)"
-line_start: 45911
-line_end: 45951
+line_start: 45898
+line_end: 45938
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -25,7 +25,7 @@ keywords:
 
 ### C.3.3:6 - Norms & Invariants (normative)
 
-> The following formalize the **KB‑01…KB‑12** rules announced in C.3.
+> The **KB‑01…KB‑12** rules below govern kind correspondence.
 
 #### C.3.3:6.1 - Direct Relation Subject and Scope
 
@@ -50,12 +50,12 @@ The separate bridge assertion states whether obtaining is affirmed, denied, or u
 #### C.3.3:6.3 - Order & Monotonicity
 
 **KB-05 (Monotone order).** If a bridge assertion states that source order fact `SubkindOfObtains(k1, k2; sourceRS)` is preserved, it SHALL designate exact target kinds `k1'` and `k2'`, the respective obtaining `KindBridge` relations from `k1` to `k1'` and from `k2` to `k2'`, and the basis on which `SubkindOfObtains(k1', k2'; targetRS)` holds. Identify a target `R_sub : U.SubkindOf` occurrence only when a receiving use needs occurrence identity.
-**KB-06 (No inversions).** A bridge assertion MUST NOT state preservation when the mapped target order is inverted. If `SubkindOfObtains(k2', k1'; targetRS)` holds for distinct mapped kinds, state non-preservation and the exact loss. If the required target order cannot be settled, state `unknown`; do not turn non-settlement into either preservation or inversion.
+**KB-06 (No inversions).** A bridge assertion MUST NOT state preservation when the mapped target order is inverted. If `SubkindOfObtains(k2', k1'; targetRS)` holds for distinct mapped kinds and the required forward fact `SubkindOfObtains(k1', k2'; targetRS)` is established not to hold, state non-preservation and the exact loss. If the required target order cannot be settled, state `unknown`; do not turn non-settlement into either preservation or inversion.
 **KB-07 (Collapse semantics).** A bridge assertion may classify selected source subkind distinctions as collapsed when several source kinds correspond to one target kind. The assertion SHALL designate the affected obtaining `U.SubkindOf` relations and state the lost properties; the direct bridge relation does not alter either local order.
 
 #### C.3.3:6.4 - Congruence & Assurance
 
-**KB-08 (Anchor reuse and AT neutrality).** `CL^k` reuses the ordinal anchor semantics of CL but assesses the declared bridge use over kind intent and order. The bridge-assertion episteme labels it kind-congruence. Neither the obtaining KindBridge relation nor its assertion computes or alters KindAT; AT is editorial and independent of `CL^k`.
+**KB-08 (Anchor reuse and AT neutrality).** `CL^k` reuses the ordinal anchor semantics of CL but assesses the declared bridge use over kind intent and order. The bridge-assertion episteme labels it kind-congruence. KindAT remains editorial under C.3.5 and independent of `CL^k`.
 **KB-09 (Effect on R only).** After receiving admissibility has been checked and an admissible candidate has received a fresh target judgment, a claim that relies on both that result and an obtaining KindBridge may apply only the bridge assertion's justified monotone `Ψ(CL^k)` consequence to R, alongside any independently established scope-relation consequence. A `not-applicable` candidate forms no judgment; `unknown` stays `unknown`; F and G do not change.
 **KB‑10 (Chaining).** For a chain of bridges, **effective `CL^k` = min** of the links (weakest‑link).
 

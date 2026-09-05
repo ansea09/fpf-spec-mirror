@@ -6,12 +6,12 @@ section_id: "C.35:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__008_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:7 — Conformance checklist"
-line_start: 67492
-line_end: 67503
+line_start: 67478
+line_end: 67489
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

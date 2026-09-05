@@ -6,12 +6,12 @@ section_id: "C.3.5:5"
 section_title: "Misuse and antidotes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__006_misuse-and-antidotes-informative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:5 — Misuse and antidotes (informative)"
-line_start: 46353
-line_end: 46361
+line_start: 46340
+line_end: 46348
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -36,6 +36,6 @@ keywords:
 - **“Gate on KindAT.”** Wrong: use the exact classification, scope, evidence, and policy predicates required by the receiving guard.
 - **“Depth in `U.SubkindOf` determines KindAT.”** Wrong: the facet concerns intentional stance, not graph depth.
 - **“KindAT belongs on the claim or signature.”** Wrong: the tag is on the local kind; a catalog may represent that assignment.
-- **“A reused RoleMask has been promoted automatically.”** Wrong: if the distinction is conceptual and stable, separately identify a local kind and establish any obtaining `U.SubkindOf` relation under C.3.1.
-- **“KindAT rates quality.”** Wrong: formality belongs to the relevant episteme and assurance belongs to the receiving support path.
+- **“A reused kind-use adaptation declaration has been promoted automatically.”** Wrong: if the distinction is conceptual and stable, separately identify a local kind and establish any obtaining `U.SubkindOf` relation under C.3.1.
+- **“KindAT rates quality.”** Wrong: formality belongs to the relevant episteme; assurance concerns an exact target claim and a named receiving use under B.3.
 

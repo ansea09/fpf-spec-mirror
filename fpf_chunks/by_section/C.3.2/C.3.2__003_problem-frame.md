@@ -6,12 +6,12 @@ section_id: "C.3.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__003_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:1 — Problem Frame"
-line_start: 45634
-line_end: 45639
+line_start: 45621
+line_end: 45626
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -31,5 +31,5 @@ keywords:
 
 A kind can support useful typed reasoning without acquiring its own public `U.*` label. Its intent may need a reusable declaration, one candidate may need a current judgment, and a query may need a set representation. These are different objects. Before a judgment exists, the candidate must satisfy the declared candidate `ValueKind` and the slice must lie within declared applicability. Once admissible, the governed condition named by the criterion settles `true` or `false` when known; missing support or an unavailable dependency yields `unknown`.
 
-The rule about evidence is conditional, not lexical. An observation used merely to support a claim does not create an independently governed quality or relation. But a criterion may directly concern an episteme, an obtaining registration or certification relation, a publication occurrence, legal status, or another governed fact. In that case its direct pattern decides whether that very condition obtains; calling the same object evidence in another use does not erase its criterion role. This concept-level rule requires no particular ontology language, schema technology, rule engine, or programming type system.
+The rule about evidence is conditional, not lexical. An observation used merely to support a claim does not create an independently governed quality or relation. But a criterion may directly concern an episteme, an obtaining registration or certification relation, a publication occurrence, legal status, or another governed fact. In that case, determine whether that very condition obtains under its direct pattern; calling the same object evidence in another use does not erase its criterion role. This concept-level rule requires no particular ontology language, schema technology, rule engine, or programming type system.
 

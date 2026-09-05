@@ -6,12 +6,12 @@ section_id: "E.5.1:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__008_consequences.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:7 — Consequences"
-line_start: 72699
-line_end: 72705
+line_start: 72685
+line_end: 72691
 dependencies:
   - "E.5"
 keywords:

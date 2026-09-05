@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__007_archetypal-grounding-informative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:5 — Archetypal Grounding — informative"
-line_start: 34708
-line_end: 34754
+line_start: 34690
+line_end: 34736
 dependencies:
 keywords:
   - "SelectEligibility"

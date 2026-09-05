@@ -6,12 +6,12 @@ section_id: "C.3.5:6"
 section_title: "Usage rules (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__007_usage-rules-normative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:6 — Usage rules (normative)"
-line_start: 46362
-line_end: 46373
+line_start: 46349
+line_end: 46360
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -38,7 +38,7 @@ keywords:
 
 **AT-03 (No F–G–R effect).** Editors SHALL NOT imply that a higher KindAT widens G, raises the signature episteme's F, increases R, or changes a classification value. Any such sentence MUST name the actual declaration, scope, evidence, or receiving-use change.
 
-**AT-04 (Bridge neutrality).** Neither an obtaining KindBridge relation nor its bridge-assertion episteme computes or alters KindAT. The assertion may record an informative anchor comparison, but `CL^k` remains a separate assessment of the admitted bridge use from demonstrated signature/order preservation and loss.
+**AT-04 (Bridge neutrality).** Editors assign KindAT from the kind's intentional stance. The bridge-assertion episteme may record an informative anchor comparison, but `CL^k` remains a separate assessment of the admitted bridge use from demonstrated signature/order preservation and loss.
 
-**AT-05 (Catalog representation).** When a context uses KindAT, its catalog SHOULD identify the local kind and effective reference scheme and reference, rather than collapse, the current `KindSignature` edition, obtaining subkind relations, RoleMask declaration editions, KindBridge occurrences/assertions, and optional extension representations. Absence of a tag means “not set”, not K0.
+**AT-05 (Catalog representation).** When KindAT is represented in a catalog, the catalog SHOULD identify the local kind and effective reference scheme and reference, rather than collapse, the current `KindSignature` edition, obtaining subkind relations, `KindUseAdaptationDeclaration` editions, KindBridge occurrences/assertions, and optional extension representations. Absence of a tag means “not set”, not K0.
 

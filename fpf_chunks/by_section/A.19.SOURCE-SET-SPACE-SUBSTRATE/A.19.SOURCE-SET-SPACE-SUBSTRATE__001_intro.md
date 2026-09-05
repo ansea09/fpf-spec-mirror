@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__001_intro.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:intro — Intro"
-line_start: 30663
-line_end: 30672
+line_start: 30645
+line_end: 30654
 dependencies:
   - "A.0"
   - "A.17"

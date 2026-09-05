@@ -6,12 +6,12 @@ section_id: "A.6.H:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__002_problem-frame.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:1 — Problem frame"
-line_start: 21140
-line_end: 21156
+line_start: 21173
+line_end: 21189
 dependencies:
   - "A.1"
   - "A.10"
@@ -65,7 +65,7 @@ Natural language compresses several different engineering questions into the sam
 - Is “complete” about performed Work, capability, specification, evidence, or another exact coverage claim?
 - Is “integrity” a measured characteristic, an assurance claim, or a claim that an assembled entity remains one whole?
 
-Those questions have different participants, predicates, and subject patterns. A.6.H does not answer them by creating a common wholeness object. It keeps the source wording readable while making the load-bearing claims exact.
+Those questions have different participants, predicates, and subject patterns. A.6.H keeps the source wording readable while making the load-bearing claims exact.
 
 A word is load-bearing here when a requirement, invariant, interface statement, architecture choice, model relation, decision, test oracle, assurance use, or downstream action depends on its interpretation. `E.10` is the pattern for shared wording-use discovery. A.6.H begins only after the current wholeness-family claim has been selected by value.
 

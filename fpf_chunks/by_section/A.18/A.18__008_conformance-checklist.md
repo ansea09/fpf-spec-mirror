@@ -6,12 +6,12 @@ section_id: "A.18:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__008_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:7 — Conformance Checklist"
-line_start: 29677
-line_end: 29697
+line_start: 29659
+line_end: 29679
 dependencies:
   - "A.17"
   - "A.18"

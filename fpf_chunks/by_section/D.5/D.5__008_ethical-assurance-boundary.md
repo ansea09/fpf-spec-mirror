@@ -6,12 +6,12 @@ section_id: "D.5:5"
 section_title: "Ethical Assurance Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__008_ethical-assurance-boundary.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:5 — Ethical Assurance Boundary"
-line_start: 69409
-line_end: 69414
+line_start: 69395
+line_end: 69400
 dependencies:
   - "A.10"
   - "B.3"

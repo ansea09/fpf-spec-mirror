@@ -6,12 +6,12 @@ section_id: "C.19.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__008_bias-annotation.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:6 — Bias-Annotation"
-line_start: 50952
-line_end: 50957
+line_start: 50938
+line_end: 50943
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -34,7 +34,7 @@ keywords:
 
 ### C.19.2:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: cross-domain bounded application work.
+Applicable bias lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: cross-domain bounded application work.
 
 The main bias is prestige-by-apparatus: richer form, newer tooling, or familiar terminology is treated as practical superiority. The mitigation is one declared result and guarantee, direct-kind candidates, actual adaptation/work cost, and a positive one-apparatus path. A second bias is automation optimism; cheaper computation does not erase evidence, human attention, integration, or consequence review.
 

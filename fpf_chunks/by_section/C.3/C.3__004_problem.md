@@ -6,12 +6,12 @@ section_id: "C.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__004_problem.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:2 — Problem"
-line_start: 45309
-line_end: 45312
+line_start: 45296
+line_end: 45299
 dependencies:
   - "A.1"
   - "A.11"
@@ -45,5 +45,5 @@ keywords:
 
 ### C.3:2 - Problem
 
-A project often needs classification before it needs another public ontology name. If the kind, its definition, the classified candidate, a record about the candidate, and a displayed set of current members are treated as one object, a label classifies by itself, evidence creates its subject, missing information proves non-membership, a table becomes an entity set, or a plan row becomes actual Work. If locality is made an identity key, the same kind also fragments across teams and sources. C.3 keeps each conclusion at its direct pattern.
+A project often needs classification before it needs another public ontology name. If the kind, its definition, the classified candidate, a record about the candidate, and a displayed set of current members are treated as one object, a label classifies by itself, evidence availability is mistaken for criterion satisfaction, missing information proves non-membership, a table becomes an entity set, or a plan row becomes actual Work. If locality is made an identity key, the same kind also fragments across teams and sources. C.3 keeps each conclusion at its direct pattern.
 

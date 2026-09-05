@@ -6,12 +6,12 @@ section_id: "A.20:End"
 section_title: "A.20:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__015_a-20-end.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:End — A.20:End"
-line_start: 35150
-line_end: 35151
+line_start: 35132
+line_end: 35133
 dependencies:
   - "A.10"
   - "A.15"

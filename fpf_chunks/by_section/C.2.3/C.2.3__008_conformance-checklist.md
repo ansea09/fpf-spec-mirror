@@ -6,12 +6,12 @@ section_id: "C.2.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__008_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:7 — Conformance Checklist"
-line_start: 43724
-line_end: 43741
+line_start: 43709
+line_end: 43726
 dependencies:
   - "A.16"
   - "A.18"
@@ -46,7 +46,7 @@ keywords:
 - `CC-F-6` The episteme-level `F` of a composite episteme **SHALL** be bounded by the least-formal essential support on the relevant support path.
 - `CC-F-7` Implementations **MUST NOT** average `F` values numerically.
 - `CC-F-8` Changes in `G`, `R`, or `CL` **SHALL NOT** change `F` unless the expression form itself changes.
-- `CC-F-9` Cross-context transport **SHALL** preserve the attributed `F`; if the receiving context rewrites the claim materially, it becomes a new episteme with its own `F`.
+- `CC-F-9` Cross-context transport **SHALL** preserve the attributed `F` when formal content is preserved. If the receiving rewrite changes claim content, EntityOfConcern, or the effective reference scheme under `C.2.1`, the result is a new episteme with its own `F`.
 - `CC-F-10` Translation loss, bridge loss, and plane crossings **SHALL** affect `R` rather than being hidden as `F` changes.
 - `CC-F-11` Assigned `F` values **SHALL** be justifiable by observable content such as explicit predicates, executable semantics, or machine-checked proofs.
 - `CC-F-12` Declaring a tool or notation **SHALL NOT** by itself justify a higher `F` unless the content satisfies the target anchor semantics.

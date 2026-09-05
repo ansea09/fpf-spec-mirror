@@ -6,12 +6,12 @@ section_id: "A.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__011_relations.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:10 — Relations"
-line_start: 7910
-line_end: 7951
+line_start: 7943
+line_end: 7984
 dependencies:
   - "A.10"
   - "A.12-A.15"

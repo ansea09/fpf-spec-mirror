@@ -6,12 +6,12 @@ section_id: "C.22.2:8"
 section_title: "Portfolio, Archive, and Set-Return Treatment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__009_portfolio-archive-and-set-return-treatment.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:8 — Portfolio, Archive, and Set-Return Treatment"
-line_start: 52782
-line_end: 52806
+line_start: 52768
+line_end: 52792
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,7 +69,7 @@ Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, `
 | Palette | `C.18`, `C.19`, `G.5` | Preserve candidate-family or option-set interpretation without turning it into evidence or approval. |
 | Front | `C.18`, `A.19`, `C.25`, `G.5` | Preserve declared characteristics and non-dominated set interpretation. |
 | Shortlist | `G.5`, with `G.9` when comparison pins matter | Preserve selected-set criterion and downstream use. |
-| Ranked shortlist | `G.5` only when a declared order is declared | Preserve ranking criterion or narrow to selected set with tie notes. |
+| Ranked shortlist | `G.5` only when an order is declared | Preserve ranking criterion or narrow to selected set with tie notes. |
 | Selected set | `G.5` | Preserve selected-set output, selection pins, and unknown handling. |
 | `LivePool` | `C.19` | Preserve pool policy, current treatment, and change trigger. |
 | Set-return | `G.5`, `C.18`, `C.16.Q`, declared comparison records | Preserve set-valued result when no total order is declared. |

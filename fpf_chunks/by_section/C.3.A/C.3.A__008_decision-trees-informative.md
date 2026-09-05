@@ -6,12 +6,12 @@ section_id: "C.3.A:7"
 section_title: "Decision trees (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__008_decision-trees-informative.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:7 — Decision trees (informative)"
-line_start: 46604
-line_end: 46634
+line_start: 46591
+line_end: 46621
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -36,7 +36,7 @@ keywords:
 **D1 — Admit a quantified claim.**
 
 1. Pin the quantified claim kind, receiving kind, and both exact signature editions.
-2. In one context, require the receiving kind to be identical to or a subkind of the claim kind; across contexts, recover the exact source-claim to target-receiving KindBridge relation and assertion.
+2. Require the receiving kind to be identical to or a subkind of the claim kind, or establish the receiving use's required correspondence between distinct kinds through the exact source-claim to target-receiving KindBridge relation and assertion.
 3. Check Claim scope against the exact TargetSlice and `Gamma_time`.
 4. Apply R consequences and freshness/threshold checks.
 5. Return the separate action disposition. Do not ask for a candidate unless the receiving use applies the claim to one.
@@ -51,7 +51,7 @@ keywords:
 **D3 — Compose or cross a context.**
 
 1. Pin source and target declarations.
-2. Recover the obtaining kind relation/bridge and separate assertion; recover Scope Bridge separately.
+2. Recover declaration compatibility through identity, the required subkind relation, or an obtaining KindBridge with its separate assertion; recover Scope Bridge separately when Scope translation is required.
 3. Check the serial or translated scope.
 4. If an actual output/candidate is current, evaluate it under the target declaration.
 5. Apply R consequences and decide separately.

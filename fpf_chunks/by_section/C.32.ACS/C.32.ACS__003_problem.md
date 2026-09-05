@@ -6,12 +6,12 @@ section_id: "C.32.ACS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__003_problem.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:2 — Problem"
-line_start: 64460
-line_end: 64469
+line_start: 64446
+line_end: 64455
 dependencies:
   - "A.1.1"
   - "A.10"

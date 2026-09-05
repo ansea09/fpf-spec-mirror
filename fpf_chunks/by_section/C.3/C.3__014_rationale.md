@@ -6,12 +6,12 @@ section_id: "C.3:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__014_rationale.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:12 — Rationale"
-line_start: 45424
-line_end: 45427
+line_start: 45411
+line_end: 45414
 dependencies:
   - "A.1"
   - "A.11"
@@ -45,5 +45,5 @@ keywords:
 
 ### C.3:12 - Rationale
 
-The kind, its declaration, pre-judgment admissibility, one classification judgment when admissible, and a representation of current true members answer different engineering questions and change for different reasons. Keeping them separate lets a kind continue across compatible declaration revisions, lets candidate state change an extension without changing the kind, and lets evidence or a guard change reliance without rewriting the world-side classification.
+The kind, its declaration, pre-judgment admissibility, one classification judgment when admissible, and a representation of current true members answer different engineering questions and change for different reasons. Keeping them separate lets a kind continue across compatible declaration revisions, lets candidate state change an extension without changing the kind, and lets evidence or a guard change reliance without changing what makes the criterion hold.
 

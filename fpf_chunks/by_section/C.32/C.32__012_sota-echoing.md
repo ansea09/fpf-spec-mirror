@@ -6,12 +6,12 @@ section_id: "C.32:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__012_sota-echoing.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:11 — SoTA-Echoing"
-line_start: 63767
-line_end: 63786
+line_start: 63753
+line_end: 63772
 dependencies:
   - "A.10"
   - "A.15"

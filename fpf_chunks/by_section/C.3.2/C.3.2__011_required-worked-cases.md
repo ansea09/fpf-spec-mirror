@@ -6,12 +6,12 @@ section_id: "C.3.2:9"
 section_title: "Required Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__011_required-worked-cases.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:9 — Required Worked Cases"
-line_start: 45740
-line_end: 45769
+line_start: 45727
+line_end: 45756
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -55,5 +55,5 @@ The value `87 °C` is submitted to `CoolingPumpSignature-2`, whose candidate Val
 
 #### C.3.2:9.7 - Registration-defined membership
 
-`RegisteredSupplierKind` declares supplier candidates and requires an exact obtaining registration-status relation under the current register rule. Supplier #27 is admissible. If that governed relation obtains, it is part of the membership condition even though a registration episteme may also be used as evidence. A copied row or certificate image alone does not create the relation. This preserves legitimate institutional kinds without treating every record as a world-side fact.
+A `KindSignature` for `RegisteredSupplierKind` declares supplier candidates and requires an exact obtaining registration-status relation under the current register rule. Supplier #27 is admissible. If that governed relation obtains, it is part of the membership condition even though a registration episteme may also be used as evidence. A copied row or certificate image alone does not create the relation. This preserves legitimate institutional kinds without treating every record as a world-side fact.
 

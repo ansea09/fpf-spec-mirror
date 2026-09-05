@@ -6,12 +6,12 @@ section_id: "C.3.4:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__004_context.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:2 — Context"
-line_start: 46077
-line_end: 46088
+line_start: 46064
+line_end: 46075
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -25,7 +25,7 @@ keywords:
 
 ### C.3.4:2 - Context
 
-C.3.1 and C.3.2 say what claims classify; A.2.6 says where claims hold. A procedure may still tailor use for a compliance procedure, product line, or cohort without changing the kind.
+C.3.1 governs kind identity and subkind relations; C.3.2 governs candidate admissibility and classification judgment. A.2.6 governs a claim's declared scope. A procedure may still tailor use for a compliance procedure, product line, or cohort without changing the kind.
 
 Three objects remain distinct:
 

@@ -6,16 +6,18 @@ section_id: "C.11.CRC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__009_conformance-checklist.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:7 — Conformance Checklist"
-line_start: 47740
-line_end: 47753
+line_start: 47727
+line_end: 47740
 dependencies:
   - "A.1.CSD"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.19"
   - "B.3"
   - "C.11"
@@ -45,7 +47,7 @@ keywords:
 2. Are `S0`, finite `Δ`, and realizable `S1` explicit?
 3. Are system boundary, affected Systems, horizon, scenarios, and evidence window compatible—and, when a missing bearer could change the comparison, was `A.1.CSD` used before freezing this coordinate?
 4. Are result and resource coordinates explicit, with protected coordinates not silently scalarized?
-5. Are implementation capability, transition Work, reversibility, and excluded variants recoverable?
+5. Are implementation capability, planned transition work, reversibility, and excluded variants recoverable?
 6. Are constraints, interactions, overlap, thresholds, congestion, and downstream effects considered where material?
 7. Are future option effects distinguished from realized results?
 8. Are evidence, uncertainty, sensitivity/robustness, transfer limits, and unsupported overreads visible?

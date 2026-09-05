@@ -6,15 +6,16 @@ section_id: "G.8:5"
 section_title: "Extensions (pattern‑scoped; non‑core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__006_extensions-pattern-scoped-non-core.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:5 — Extensions (pattern‑scoped; non‑core)"
-line_start: 105185
-line_end: 105299
+line_start: 105242
+line_end: 105357
 dependencies:
   - "A.10"
   - "A.21"
+  - "B.3"
   - "C.18"
   - "C.19"
   - "C.22"
@@ -86,18 +87,19 @@ keywords:
 **GPatternExtensionId:** `BridgeReuseWiring`
 **GPatternExtensionKind:** `InteropSpecific`
 **GoverningPatternId:** `G.7`
-**Uses:** `{G.7, F.9}`
+**Uses:** `{G.7, F.9, A.10, B.3}`
 **⊑/⊑⁺:** `∅`
-**RequiredPins/EditionPins/PolicyPins (minimum):**
+**RequiredPins/EditionPins/PolicyPins (minimum; conditional on the stated use):**
 
-* `BridgeId/BridgeCardId`
-* `CL/CL^k/CL^plane`
-* `Φ/Ψ/Φ_plane policy-ids`
-* `BridgeCalibrationTableId?`, `RegressionSetId?` *(if cited as calibration evidence)*
+* `BridgeId/BridgeCardId` *(the obtaining Bridge actually used; a `BridgeCardId` is needed only when that Card is relied on)*
+* `CL/CL^k/CL^plane` *(when cited; the applicable values are mandatory when required by the `G.7` calibration or named `B.3` assurance account)*
+* `Φ/Ψ/Φ_plane policy-ids` *(only the policy ids and editions required by the actual `G.7` calibration or named `B.3` assurance account; reference‑only and resolvable per `F.8:8.1`)*
+* `BridgeCalibrationTableId?`, `RegressionSetId?` *(both required when calibration evidence is cited, together with the row locator and active policy pins required by `G.7` `CC‑G7‑SCRLinkage‑1`)*
 
 **RSCRTriggerSetIds:** `{GCoreTriggerSetId.BridgeCalibrationKit}` *(only if the bundle/ledger explicitly binds calibration records by id)*
 **Notes (wiring‑only):**
 * Present only when `SoS‑LOGBundle@Context` asserts cross-Context or cross-plane reuse. No additional crossing semantics are defined here.
+* The wiring MUST keep the obtaining Bridge reference, the separate bounded-use claim (use, direction, rule, and tolerated loss), and the `A.10` reliance basis citable. A separate named assurance use also cites its exact target claim, receiving use, and `B.3` assurance basis/result. Required CL values, policy editions, and evidence remain mandatory for that account; a supported loss penalty is applied only under the assurance policy's declared rule, to `R_eff` only. Ordinary supported reuse does not require a CL shorthand, calibration record, loss-policy id, or assurance claim merely to fill the package.
 
 #### G.8:5.4 - `G.8:Ext.QDArchiveTelemetry`
 

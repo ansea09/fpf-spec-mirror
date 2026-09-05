@@ -6,12 +6,12 @@ section_id: "C.17:10"
 section_title: "Manager quick start"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__012_manager-quick-start.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:10 — Manager quick start"
-line_start: 49757
-line_end: 49779
+line_start: 49742
+line_end: 49764
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -61,7 +61,7 @@ keywords:
 2. State the smallest supported difference and consequence; stop if that answers the question.
 3. When numbers matter, select the space and specification and build each coordinate through C.16 or C.2.1.
 4. Compare with declared gates and a partial order; keep incomparability visible. When a retained set matters, report its declared `Diversity_P` or other needed set reading without turning that reading into selection policy.
-5. Pass any generation, retention, policy, or choice question to C.18, C.19, G.5, or C.11 with the result references they need.
+5. Pass generation or retention questions to C.18, pool-policy questions to C.19, selector-facing declarations to G.5, and choice questions to C.11, with the result references each needs.
 
 #### C.17:10.1 - Optional one-page comparison brief
 

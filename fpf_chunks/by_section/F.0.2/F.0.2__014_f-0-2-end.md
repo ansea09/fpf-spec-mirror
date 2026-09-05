@@ -6,12 +6,12 @@ section_id: "F.0.2:End"
 section_title: "F.0.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__014_f-0-2-end.md"
-commit_sha: "d7a7123459d158c6d5f0d304d6170c4aa69af71b"
+commit_sha: "9fba9529833b4e288fa149878b22a9ee44e1886f"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
   - "F.0.2:End — F.0.2:End"
-line_start: 93126
-line_end: 93127
+line_start: 93174
+line_end: 93175
 dependencies:
   - "A.2.4"
   - "C.2.1"
