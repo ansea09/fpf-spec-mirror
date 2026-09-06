@@ -6,12 +6,12 @@ section_id: "C.32.MWA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__008_conformance-checklist.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:7 — Conformance Checklist"
-line_start: 65696
-line_end: 65712
+line_start: 65687
+line_end: 65703
 dependencies:
   - "A.15.1"
   - "A.22"

@@ -6,12 +6,12 @@ section_id: "D.2:4"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__007_boundaries.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:4 — Boundaries"
-line_start: 68815
-line_end: 68820
+line_start: 68806
+line_end: 68811
 dependencies:
   - "A.1"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.30:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__007_bias-annotation.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:6 — Bias-Annotation"
-line_start: 59219
-line_end: 59232
+line_start: 59222
+line_end: 59235
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,7 +76,7 @@ keywords:
 
 ### C.30:6 - Bias-Annotation
 
-Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: FPF architecture-description use over holons.
+Lenses: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: FPF architecture-description use over holons.
 
 | Bias risk | Mitigation |
 | --- | --- |
@@ -84,7 +84,7 @@ Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope:
 | Tool-model bias | Treat notation, tool model, generated relation graph, diagram, and dashboard as description, specification-use, or publication forms unless an exact direct relation gives the source material a more specific use. |
 | Check-only bias | The first output is an architecture question card plus action palette, not a checklist that only detects mistakes. |
 | Assurance or gate bias | Architecture descriptions do not certify safety, evidence sufficiency, release, or gate passage; use the applicable pattern for each such claim. |
-| Didactic-thinning risk | Semantic repair preserves why the distinction matters: the pattern begins with the practitioner situation, payoff, stop condition, and first architecture move. |
+| Didactic-thinning risk | The practitioner situation, payoff, stop condition, and first architecture move explain why the distinctions matter. |
 
 This checklist verifies the preceding guidance after the practitioner has chosen the selected architecture candidate use; it is not a required project control form and not a substitute for the card, note, view, relation, or repair use above.
 

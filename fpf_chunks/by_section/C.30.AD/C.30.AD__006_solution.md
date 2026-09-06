@@ -6,12 +6,12 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 59427
-line_end: 59665
+line_start: 59430
+line_end: 59668
 dependencies:
   - "A.1"
   - "A.10"
@@ -126,7 +126,7 @@ ArchitectureDescriptionUseAccount:
   nonAdmissibleUse
 ```
 
-The account points to an already constituted episteme; it is not the episteme and does not add slots to it. Its first three references simply expose the ClaimGraph, EntityOfConcern, and reference scheme that identify the episteme. When the described thing is a relation occurrence or selected structure, the participant trace can still recover its holon. `architectureClaimRefs` carries relevant claim content or trace; `selectedStructureRefs` names the structures described, and `structureKindRefs` classifies them.
+The account points to an already constituted episteme; it is not the episteme and does not add slots to it. Its `claimGraphRef`, `entityOfConcernRef`, and `effectiveReferenceScheme` fields expose the ClaimGraph, EntityOfConcern, and reference scheme that identify the episteme. When the described thing is a relation occurrence or selected structure, the participant trace can still recover its holon. `architectureClaimRefs` carries relevant claim content or trace; `selectedStructureRefs` names the structures described, and `structureKindRefs` classifies them.
 
 Minimum conformance for a retained `ArchitectureDescriptionUseAccount`:
 
@@ -140,7 +140,7 @@ Minimum conformance for a retained `ArchitectureDescriptionUseAccount`:
 
 #### C.30.AD:4.1a - Traceable architecture multi-view description chain
 
-A full architecture description is traceable only when the reader can recover the chain that makes a view useful without turning the view into the architecture or letting a list create view membership. The chain is a trace requirement, not a prescribed method or work plan:
+When a full architecture-description use relies on a view, the reader must be able to recover the chain that makes that view useful without turning the view into the architecture or letting a list create view membership. The chain is a trace requirement, not a prescribed method or work plan:
 
 ```text
 workingConcernRef
@@ -150,7 +150,7 @@ workingConcernRef
 -> exact entityOfConcernRef
 -> selectedStructureRef and, when actual, ArchitectureRelationOccurrenceRef
 -> optional ArchitectureClaimRef
--> ArchitectureDescriptionUseCard or multi-view description-set use claim
+-> architecture-description use (optional ArchitectureDescriptionUseCard) or multi-view description-set use claim
 -> admissibleArchitectureMove or pattern needed for a separate claim
 ```
 
@@ -191,7 +191,7 @@ Common architecture-description views:
 | View use | Required FPF application |
 | --- | --- |
 | Function or functionality view | `A.6.F` for function or functionality wording and `C.30.ASV` for the structural view. |
-| Transformation-flow view | `E.18` plus `C.30.TFS-REL` when the selected transformation-flow structure, path, crossing, valuation, or graph-shaped mathematical description is used by architecture. |
+| Transformation-flow view | `E.18` for the selected transformation-flow structure, path, crossing, or valuation; `E.18.2` for its graph-shaped mathematical description; `C.30.TFS-REL` when either is used by architecture. |
 | Control or LCA view | `C.30.LCA` when a control structure view is being used. |
 | Module or interface view | `A.6.M`, signature or interface patterns, and `C.30.ASV` when module-interface structure is being used. |
 | Mathematical-lens view | `C.29` for lens-use result and preserved and lost structure; `C.30.AD` only for the architecture-description use of the lens result. |
@@ -294,7 +294,7 @@ Keep the description episteme, its possible `U.View` membership, diagram or othe
 | Work-entry readiness or full-kit condition for intended architecture work | `A.15.5` |
 | Architecture or structure wording is still overloaded | `C.30.P` |
 | Architecture structural view or structure-kind and viewpoint relation | `C.30.ASV` |
-| Transformation-flow relation or graph description used by architecture | `C.30.TFS-REL` and `E.18` |
+| Transformation-flow relation or graph description used by architecture | `C.30.TFS-REL`; `E.18` for the selected structure and `E.18.2` for its mathematical description |
 | Control structure view | `C.30.LCA` |
 | Cross-scope or interlevel architecture residual, conflict, or frustration in the described holon | `C.30.ILC` |
 | Multilevel-learning or frustration mathematical-lens result with recoverable level mapping or scale mapping and preserved structure and lost structure | `C.29` with the admitted C.29-local lens output |
@@ -304,7 +304,7 @@ Keep the description episteme, its possible `U.View` membership, diagram or othe
 | Module, interface, port, signature, or reusable structure relation | `A.6.M`, a signature or interface pattern named by value, `C.31`, or `C.31.RSA` |
 | Mathematical lens or preserved and lost mathematical structure | `C.29` |
 | Characteristic, scale, coordinate, score, or quality claim | `C.16.P`, `C.16`, `A.19`, `C.25`, or the pattern that defines or tests the quality claim |
-| Evidence, assurance, gate, work planning, performed work, local choice, project architecture decision, causal use, or release | `A.10`, `B.3`, `A.20`, `A.21`, `A.15.2`, `A.15.1`, `C.11`, `C.32.PAD`, `C.28`, or the pattern for the particular release, admissibility, or other claim |
+| Evidence, assurance, internal constraint, gate, work planning, performed work, local choice, project architecture decision, causal use, or release | `A.10` for evidence, `B.3` for assurance, `A.20` for an internal-constraint result, `A.21` for a named gate decision, `A.15.2` for work planning, `A.15.1` for performed Work, `C.11` for local choice, `C.32.PAD` for a project architecture decision, `C.28` for causal use, or the direct domain pattern for the particular release, admissibility, approval, or other claim |
 
 #### C.30.AD:4.6a - Candidate, front, and selected-set description boundary
 

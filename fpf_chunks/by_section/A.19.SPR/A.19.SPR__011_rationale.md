@@ -6,7 +6,7 @@ section_id: "A.19.SPR:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__011_rationale.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:9 — Rationale"
@@ -47,5 +47,5 @@ keywords:
 
 The problem is not the word `state`. The problem is a sentence that hides what has changed, what is being judged, or which rule makes the judgment meaningful. Recovering those facts first lets FPF keep short engineering language without creating a general status ontology.
 
-Local fields such as `LensUseAdmissibilityValue` and `dynClaimPosture` remain useful when their object, possible values, and rule are clear. Broad phrases such as `source posture`, `evidence posture`, or `release posture` should instead become the direct sentence or project record the reader actually needs.
+Local fields such as `LensUseBoundaryValue` and `dynClaimPosture` remain useful when their object, possible values, and rule are clear. Broad phrases such as `source posture`, `evidence posture`, or `release posture` should instead become the direct sentence or project record the reader actually needs.
 

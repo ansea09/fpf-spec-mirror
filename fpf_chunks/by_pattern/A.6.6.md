@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.6.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
 line_start: 19601

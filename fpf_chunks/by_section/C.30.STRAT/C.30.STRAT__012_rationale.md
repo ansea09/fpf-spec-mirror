@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__012_rationale.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:10 — Rationale"
-line_start: 60513
-line_end: 60518
+line_start: 60509
+line_end: 60512
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,6 +52,4 @@ keywords:
 ### C.30.STRAT:10 - Rationale
 
 Stratification words compress local practice. That compression is useful for recognition and unsafe as a substitute for an object, relation, or claim. C.30.STRAT therefore keeps the source word, recovers what it means in the current sentence, and returns the reader to the applicable technical rule.
-
-The pattern sits under C.30 because architecture and structure prose is the usual entry. That placement is a navigation choice, not an ontological claim and not authority over every recovered case.
 

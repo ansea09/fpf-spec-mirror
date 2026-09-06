@@ -6,7 +6,7 @@ section_id: "C.29:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:10 — Common Anti-Patterns and How to Avoid Them"
@@ -54,7 +54,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseAdmissibilityValue"
+  - "LensUseBoundaryValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -86,11 +86,11 @@ keywords:
 | **Familiar math misses needed structure** | A graph, linear trend, average, two-characteristic chart, or score is used because it is familiar while the working problem needs uncertainty, topology, dynamics, causal structure, scale law, distribution geometry, or operator view. | Name the working problem cue; choose a lens family that exposes the missing structure, or keep the simple math as local orientation only and block transfer, decision, evidence, assurance, publication, bridge, comparison, or reusable-explanation use. |
 | **Vanchurin over-adoption** | “FPF now says physics is learning.” | Mark as candidate lens; retain open questions and evidence limits. |
 | **Invariant-free metaphor** | “Market is a field” with no invariant, transition law, observation map, or `LensUseBoundaryValue`. | Downgrade to local metaphor or build a `MathLensUse.OneLine` or mini-card. |
-| **Loss-free bridge** | Mathematical structure is exported across contexts without `F.9`, loss notes, counter-example, or declared lens use. | Use `F.9` Bridge plus MathLensUse `LostStructure` and `StopCondition`. |
-| **Duplicate bridge writing** | C.29 repeats sense cells, CL, substitution scope, and Bridge-declared lens use. | Let `F.9` write Bridge semantics; cite Bridge from the C.29 output. |
-| **LensMappingMode as BridgeKind** | A local `LensMappingMode` value is used to skip `F.9`. | Do not define a bridge-valued `LensMappingMode`; use a local transfer class only for declared lens use and apply `F.9` to cross-context meaning, substitution, CL, sense cells, or Bridge-declared lens use. |
+| **Loss-free bridge** | Mathematical structure is exported across semantic contexts as a Bridge without `F.9`, loss notes, counter-example, or declared lens use. | Use `F.9` Bridge plus MathLensUse `LostStructure` and `StopCondition`. |
+| **Duplicate bridge writing** | C.29 repeats sense cells, CL, substitution scope, and Bridge-declared lens use. | Use `F.9` to establish Bridge semantics; cite Bridge from the C.29 output. |
+| **LensMappingMode as BridgeKind** | A local `LensMappingMode` value is used to skip `F.9`. | Do not define a bridge-valued `LensMappingMode`; use a local transfer class only for declared lens use and apply `F.9` to cross-context meaning, Bridge-dependent substitution, CL, sense cells, or Bridge-declared lens use. |
 | **Causal laundering** | Lens fit is treated as proof of intervention effect. | Apply `C.28` and evidence design, or block causal use. |
-| **Assurance laundering** | Elegant formalism is treated as release confidence. | Use `A.10` and `B.3`; C.29 can be evidence input only when `LensUseBoundaryValue` and validation regime are declared. |
+| **Assurance laundering** | Elegant formalism is treated as release confidence. | Use the direct release pattern, `A.10` for evidence reliance, and `B.3` only for an actual named assurance claim; C.29 can be evidence input only when `LensUseBoundaryValue` and validation regime are declared. |
 | **LensUseBoundaryValue laundering** | `SoTA-echo candidate` sounds like authority. | Restrict to exploration or lens-use tests unless validation and neighboring evidence patterns define or constrain prediction, decision, causal use, bridge substitution, assurance, or ontology. |
 | **RivalLensSet as literature review** | The C.29 application produces a survey instead of naming the rival lens being compared. | Use `PrincipalRivalLens?` by default; add `RivalLensRelation?` when disagreement changes the next lens-use action; broaden to `RivalLensSet?` only when publication, selection, or claim-bearing comparison is being made. |
 | **StopCondition boilerplate** | The card says only “does not prove everything.” | State the concrete stop, no-lens exit, or source-return condition; include a blocked overread only when it passes F.19's plausible-reader test. |

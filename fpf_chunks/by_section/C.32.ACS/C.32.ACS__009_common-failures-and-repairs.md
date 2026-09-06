@@ -6,12 +6,12 @@ section_id: "C.32.ACS:8"
 section_title: "Common failures and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__009_common-failures-and-repairs.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:8 — Common failures and repairs"
-line_start: 64575
-line_end: 64588
+line_start: 64566
+line_end: 64579
 dependencies:
   - "A.1.1"
   - "A.10"

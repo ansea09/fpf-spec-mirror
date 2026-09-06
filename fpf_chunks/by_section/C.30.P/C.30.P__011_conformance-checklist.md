@@ -6,12 +6,12 @@ section_id: "C.30.P:8"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__011_conformance-checklist.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:8 — Conformance checklist"
-line_start: 60241
-line_end: 60253
+line_start: 60244
+line_end: 60256
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 | `CC-C30P-1` | The repair names the trigger span, encountered FPF kind or reference, selected use under repair, subject pattern, admissible use, non-admissible use, and remaining reader use. |
 | `CC-C30P-2` | A diagram, model, graph, dashboard, ADR, source, publication, view, face, `PublicationUnit`, file, carrier, or rendering is not treated as architecture or structure by appearance. |
 | `CC-C30P-3` | Direct `A.22`, `C.30`, `C.30.ASV`, or named `C.30.*` use applies the subject pattern directly when the selected-structure claim being made, architecture relation, architecture-description use, structural-view use, or named C.30 subcase is already recoverable. |
-| `CC-C30P-4` | Source-use, currentness, and publication-to-carrier relation recovery uses `C.2.P` before architecture or structure claim use when that relation set is being made. |
+| `CC-C30P-4` | Source-use, currentness, and publication-to-carrier relation recovery uses `C.2.P` before architecture or structure claim use only while the relevant distinction remains hidden; an already recovered claim goes directly to its subject pattern. |
 | `CC-C30P-5` | Function-like, relation-like, mathematical-lens, characteristic and scale, quality, evidence, assurance, gate, work, decision, causal-use, release, and method claims are assigned to their subject patterns. |
 | `CC-C30P-6` | The repair does not mint `U.Architecture`, `ArchitectureStructure`, a generic architecture head, or mandatory architecture-repair record. |
 | `CC-C30P-7` | The subject architecture or structure pattern keeps its own invariant central and carries at most a thin pointer back to this pattern. |

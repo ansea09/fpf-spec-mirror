@@ -6,12 +6,12 @@ section_id: "E.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__004_forces.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
   - "E.3:3 — Forces"
-line_start: 69935
-line_end: 69941
+line_start: 69926
+line_end: 69932
 dependencies:
   - "E.2"
 keywords:

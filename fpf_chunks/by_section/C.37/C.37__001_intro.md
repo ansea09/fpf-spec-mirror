@@ -6,12 +6,12 @@ section_id: "C.37:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__001_intro.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:intro — Intro"
-line_start: 67938
-line_end: 67943
+line_start: 67929
+line_end: 67934
 dependencies:
   - "A.10"
   - "A.2.4"

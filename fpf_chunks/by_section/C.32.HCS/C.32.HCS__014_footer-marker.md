@@ -6,12 +6,12 @@ section_id: "C.32.HCS:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__014_footer-marker.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:13 — Footer marker"
-line_start: 64347
-line_end: 64350
+line_start: 64338
+line_end: 64341
 dependencies:
   - "A.19"
   - "C.11"

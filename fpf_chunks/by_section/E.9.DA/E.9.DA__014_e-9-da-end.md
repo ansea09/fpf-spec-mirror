@@ -6,12 +6,12 @@ section_id: "E.9.DA:End"
 section_title: "E.9.DA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__014_e-9-da-end.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:End — E.9.DA:End"
-line_start: 74847
-line_end: 74848
+line_start: 74867
+line_end: 74868
 dependencies:
   - "A.19.ECS"
   - "E.10"

@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__002_problem-frame.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:1 — Problem frame"
-line_start: 65775
-line_end: 65840
+line_start: 65766
+line_end: 65831
 dependencies:
   - "A.10"
   - "A.13"

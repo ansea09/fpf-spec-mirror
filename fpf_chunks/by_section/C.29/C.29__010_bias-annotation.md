@@ -6,7 +6,7 @@ section_id: "C.29:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__010_bias-annotation.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:8 — Bias-Annotation"
@@ -54,7 +54,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseAdmissibilityValue"
+  - "LensUseBoundaryValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -83,5 +83,5 @@ keywords:
 | **Scale blindness** | Require `ScaleWindow?`; coordinate scale claims with `C.18.1` or `C.19.1`. |
 | **Causal laundering** | If the lens licenses causal claims, apply `C.28`; MathLensUse cannot supply causal use by itself. |
 | **Assurance laundering** | Mathematical elegance does not raise `R`; evidence and assurance use apply `A.10`, `B.3`, and relevant G patterns. |
-| **Pattern-as-actor wording** | A pattern is described as writing, deciding, raising assurance, authorizing work, or creating project records; repair it through claim-bearing text, project-side records, governing FPF patterns, and subject-pattern application, because patterns supply discipline, not agency. |
+| **Pattern-as-actor wording** | A pattern is presented as the actual actor writing, deciding, raising assurance, authorizing work, or creating project records. Use `F.19` to recover the capable participant and separate the claim-bearing text, project-side records, governing FPF pattern, and its application; retain ordinary metonymy when that participant and relation remain recoverable. |
 

@@ -6,12 +6,12 @@ section_id: "F.19:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__012_rationale.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:10 — Rationale"
-line_start: 100739
-line_end: 100744
+line_start: 100759
+line_end: 100764
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

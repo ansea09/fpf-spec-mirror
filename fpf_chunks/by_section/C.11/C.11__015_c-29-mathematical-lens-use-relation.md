@@ -6,7 +6,7 @@ section_id: "C.11:12b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__015_c-29-mathematical-lens-use-relation.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:12b — C.29 mathematical-lens use relation"

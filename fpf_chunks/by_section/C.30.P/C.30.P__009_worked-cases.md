@@ -6,12 +6,12 @@ section_id: "C.30.P:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__009_worked-cases.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:6 — Worked cases"
-line_start: 60215
-line_end: 60226
+line_start: 60218
+line_end: 60229
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,11 +55,11 @@ keywords:
 
 | Wording | Repair |
 | --- | --- |
-| "The architecture is the diagram." | The diagram is a publication, carrier, source cue, architecture description rendering, or structural view. It is not the architecture itself. Apply `C.2.P` if a a source-publication relation set is being made, then `C.30` or `C.30.ASV` only if the architecture claim or structural view is recovered. |
+| "The architecture is the diagram." | Recover how the diagram is used: as a publication, carrier, source cue, architecture-description rendering, or structural view. It is not the architecture itself. Apply `C.2.P` only while the source-publication distinction remains hidden, then `C.30` or `C.30.ASV` only if the architecture claim or structural view is recovered. |
 | "`ArchitectureOf@PlantOps` is defined over structures S1 and S2 under context C." | Direct `C.30`; no `C.30.P` unless another selected structure, architecture-description use, structural-view use, source-return relation, or named C.30 subcase remains hidden. |
 | "This ADR changed the architecture." | Recover whether the ADR is a publication, decision record, document with named source-use relation, architecture-description update, work plan, or ordinary source. Use `C.2.P`, `C.11`, `A.15`, or `C.30` when the corresponding claim kind is being made. |
-| "The flow graph proves the architecture is safe." | Flow graph expression and architecture-to-transformation-flow relation are not proof or safety assurance. Use `E.18` and `C.30.TFS-REL` for flow relation, `B.3` or evidence patterns for assurance, `C.30` only for the grounded architecture claim or thin conditional architecture-description bridge, and `C.30.AD` when the full architecture-description mechanism is being used. |
+| "The flow graph proves the architecture is safe." | Keep the flow-graph expression, selected flow structure, architecture-use account, and any proof or safety-assurance claim separate. Use `E.18.2` for the mathematical expression, `E.18` for the selected flow structure, `C.30.TFS-REL` for its bounded architecture-use record, `B.3` for assurance and the defining pattern for any separate proof, safety, or evidence claim; use `C.30` only for the grounded architecture claim or thin conditional architecture-description bridge, and `C.30.AD` when the full architecture-description mechanism is being used. |
 | "The architecture score improved." | Recover whether the sentence means grounded architecture adequacy, selected-structure characteristic and scale score, pattern-quality coordinate, Q-bundle, benchmark result, gate threshold, or ordinary comparison. Apply `C.16.P` before any score-based use. |
 | "Functional architecture improved maintainability." | Recover function or functionality use via `A.6.F` when hidden, then architecture structural view via `C.30.ASV` or quality or maintainability via `C.16.P`, `C.16.Q`, `C.25`, or quality pattern governing the claim. |
-| "The module layer supports the architecture." | Treat `layer` first as a source label and apply `C.30.STRAT`. Use C.30.P only for the architecture or structure portion after recovery; use `A.6.M` only if a module-interface relation is recovered, to `C.30.LCA` only if a control-layer relation is recovered, to `C.2.P` if this is a publication label or view label, to `A.6.P` if a basedness, source-use, evidence, or reliance relation is being made, or to ordinary source-label disposition. |
+| "The module layer supports the architecture." | Treat `layer` first as a source label and apply `C.30.STRAT`. Use C.30.P only for the architecture or structure portion after recovery; use `A.6.M` only if a module-interface relation is recovered, `C.30.LCA` only if a control-layer relation is recovered, `C.2.P` if a publication-label or view-label distinction remains hidden, or `A.6.P` if a basedness, source-use, evidence, or reliance relation is being made; otherwise retain an ordinary source-label disposition. |
 

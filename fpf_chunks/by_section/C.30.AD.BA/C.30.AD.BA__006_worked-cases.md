@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:3"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__006_worked-cases.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:3 — Worked Cases"
-line_start: 59960
-line_end: 59981
+line_start: 59963
+line_end: 59984
 dependencies:
   - "A.1"
   - "A.10"
@@ -70,7 +70,7 @@ The next architecture move is then concrete: evaluate the proposed flow and cont
 
 #### C.30.AD.BA:3.2 - Bridge inspection twin
 
-A bridge operator combines an as-maintained geometry model, structural-member view, inspection history, strain telemetry, and a simulation view. The bridge remains the built asset across model editions. The structural-member and sensor-placement structures are selected explicitly; each description keeps exact C.2.1 identity and each claimed view exact E.17.0 conformance. Inspection and telemetry claims retain their evidence, grounding, source-use, and currentness relations. A revised simulation model remains another episteme edition unless its claim graph, EntityOfConcern, and effective scheme are unchanged under C.2.1 and its declared lineage or continuity claims support the intended reuse.
+A bridge operator combines an as-maintained geometry model, structural-member view, inspection history, strain telemetry, and a simulation view. The bridge remains the built asset across model editions. The structural-member and sensor-placement structures are selected explicitly; each description keeps exact C.2.1 identity and each claimed view exact E.17.0 conformance. Inspection and telemetry claims retain their evidence, grounding, source-use, and currentness relations. A revised simulation model retains the same C.2.1 episteme identity when its claim content, EntityOfConcern, and effective reference scheme are unchanged. Otherwise identify another episteme; assert an `EpistemeEditionRelation` only when its historical-continuation predicate obtains. Assess any declared lineage or continuity claims separately for the intended reuse.
 
 When the operator compares an original design description with the as-maintained geometry, inspection history, and live telemetry, `designRunSeparationUse` cites the exact design-side description and design Work, the exact run-side descriptions and inspection or maintenance Work, their source-to-use and currentness refs, and any separately governed design-to-realization correspondence. `actualTransformationRefs` remains absent unless an exact repair or other physical change satisfies A.3.4. The architecture description can therefore support a decision to inspect or redesign a connection while retaining the route back to the geometry publication, measurement descriptions, and selected structures. It cannot treat a successful data-exchange check, recent sensor sample, simulation result, polished dashboard, or local design/run classification as proof that the bridge architecture is adequate or that design and realized objects are identical.
 

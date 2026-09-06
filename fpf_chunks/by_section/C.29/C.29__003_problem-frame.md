@@ -6,7 +6,7 @@ section_id: "C.29:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__003_problem-frame.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:1 — Problem frame"
@@ -54,7 +54,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseAdmissibilityValue"
+  - "LensUseBoundaryValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -99,7 +99,7 @@ A practitioner applying FPF faces a working situation where ordinary prose can h
 - scale transition, coarse behavior, universality, knee, or scaling pressure can call for coarse-graining, RG, or scaling-law vocabulary;
 - probe effects, order effects, context effects, or incompatible frames can call for quantum-like or contextual-probability vocabulary.
 
-The useful first-minute intuition is not “hunt for overclaim.” It is “find the structure that would improve the next lens-use action, then name the limits.” A vivid phrase can remain when the `C.29` output records what the lens makes visible, what it does not license, and the exact subject assertion plus subject-pattern locator for any causal, evidence, bridge, dynamics, scale, measurement, assurance, or release claim.
+The useful first-minute intuition is “find the structure that would improve the next lens-use action, then name the limits.” A vivid phrase can remain when the `C.29` output records what the lens makes visible, what it does not license, and the exact subject assertion plus subject-pattern locator for any causal, evidence, bridge, dynamics, scale, measurement, assurance, or release claim.
 
 Without a general lens-use discipline, the reader cannot tell whether the phrase is a bounded structure-preserving representation, an analogy-only prompt, an ungrounded ontology import, a local domain model, or prestige language.
 

@@ -6,12 +6,12 @@ section_id: "E.2:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__012_rationale.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:11 — Rationale"
-line_start: 69632
-line_end: 69637
+line_start: 69623
+line_end: 69628
 dependencies:
   - "A.10"
   - "A.15.1"

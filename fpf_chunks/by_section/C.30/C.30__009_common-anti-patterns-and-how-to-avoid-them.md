@@ -6,12 +6,12 @@ section_id: "C.30:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 59248
-line_end: 59262
+line_start: 59251
+line_end: 59265
 dependencies:
   - "A.1"
   - "A.10"
@@ -82,7 +82,7 @@ keywords:
 | **Publication-unit architecture drift** | One publication unit mixes architecture description, evidence claim, gate decision state, decision note, and work authorization under one architecture heading. | Name the exact `ArchitectureRelation` or modal `ArchitectureClaim` content, keep description, view, and publication objects separate, and use the applicable patterns for evidence, gate, decision, and work claims. The publication heading creates no selected structure or subject-side relation. |
 | **Module-diagram takeover** | Architecture is reduced to module structure or interface relation. | Recover the structure kind, use `C.30.ASV`, and use the module-and-interface repair pattern when the full module claim is current. |
 | **Tool-model lock-in** | A notation or tool model becomes the source of architecture truth. | Recover FPF architecture claim, structures, views, correspondence, and source-return condition. |
-| **Evidence laundering** | A published architecture description is used as evidence sufficiency. | Assign the evidence relation or evidence claim to `A.10` or `G.6`; C.30 keeps only the architecture claim, selected-structure, and conditional architecture-description-use boundary; the evidence relation stays with the evidence pattern. |
+| **Evidence laundering** | A published architecture description is used as evidence sufficiency. | Use `A.10` for source recovery and bounded reliance, and `G.6` for a citable evidence-provenance path; identify each represented relation through its defining pattern. C.30 keeps only the architecture claim, selected-structure, and conditional architecture-description-use boundary. |
 | **Assurance or safety overread** | Architecture description or LCA diagram is used as assurance or safety case. | Use `B.3`, `A.10`, `G.6`, `C.30.LCA`, or the exact safety or gate pattern according to the claim being made. |
 | **Risk color as architecture decision** | A red, yellow, or green risk cell, risk matrix, or maturity score decides the architecture move or resource-allocation priority. | Recover the structure kind under consideration, affected scope, loss, hazard or threat path, source or grounding relation, characteristic scale, comparator, and gate pattern; use the applicable patterns for architecture adequacy, evidence sufficiency, causal proof, assurance proof, resource-allocation reason, and gate-passage claims. |
 | **Causal slogan** | Architecture property is said to cause a quality without a bounded claim or independently admitted relation grounding. | Start with `ArchitectureStructuralCharacteristicQBundleClaimLine`; apply C.28 or the applicable evidence, causal-use, or assurance pattern, or use `ArchitectureCharacteristicQBundleClaim` when a durable bounded claim is needed. Name a direct relation only after its defining pattern identifies the participants and its predicate is satisfied. |

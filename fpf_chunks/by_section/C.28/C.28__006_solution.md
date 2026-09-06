@@ -6,7 +6,7 @@ section_id: "C.28:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__006_solution.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:4 — Solution"
@@ -219,7 +219,7 @@ CommonCausalThreatScreen:
 
 **Ordinary effect case.** A randomized treatment study records `interventionWellDefinedOrConsistency=clear`, `temporalOrdering=clear`, `positivityOrOverlap=clear`, `interferenceOrSpillover=notApplicable`, `selectionCensoringOrMissingness=clear`, and `measurementErrorOrConstructShift=clear` for its declared target and window. The screen points to the trial and estimate results; it does not repeat them.
 
-**Countercase.** An observational cohort has the right rung label and a plausible estimand, but records `exchangeabilityOrConfounding=liveThreat` and `positivityOrOverlap=liveThreat` because severity is unmeasured and one treatment region has no comparator. The resulting support boundary is `unsupported` until a suitable design, bound, or new evidence closes those threats. “Observational data” was classified correctly; that label does not establish validity.
+**Countercase.** An observational cohort has the right rung label and a plausible estimand, but records `exchangeabilityOrConfounding=liveThreat` and `positivityOrOverlap=liveThreat` because severity is unmeasured and one treatment region has no comparator. The claimed effect remains `unsupported` until a suitable design or new evidence closes those threats; a suitable bound can instead support a correspondingly bounded claim. “Observational data” was classified correctly; that label does not establish validity.
 
 #### C.28:4.4 - Identification result
 
@@ -568,7 +568,7 @@ When only wording inside one publication unit is unclear, use the publication an
 | “We changed X once, so the policy works everywhere.” | Interventional result limited to its population/environment/window; transport requires exact endpoints and assumptions. |
 | “The simulator shows what would have happened.” | With no causal reliance, exit to model reporting. With causal reliance, cite the simulation result, assumptions, validation, supported model use, and unsupported realized/interventional use. |
 | “The trial was randomized, therefore the estimate is valid.” | Run the common threats: interference, attrition, measurement, adherence, and analysis can still lower the result. |
-| “The observational estimand is identified.” | Cite the identifying expression/derivation, bound, or nonidentification witness; the label alone is incomplete. |
+| “The observational estimand is identified.” | Cite the identifying expression/derivation for `identified`; a bound supports `bounded` wording, and a nonidentification witness supports `nonidentified` wording. The label alone is incomplete. |
 | “The fairness metric improved, therefore the intervention is fair.” | Report metric change. A counterfactual-fairness claim additionally needs its causal estimand, counterfactual-identifiability assumptions, estimate-consistency basis when used, and bounded C.28 support before D.5 audits it. |
 | “Logged replay says this policy is optimal.” | Cite behaviour/evaluation policies, overlap, confounding, transport, uncertainty, and bounded support; unqualified optimality is unsupported. |
 | “Method A beats Method B causally.” | Use G.9; different rungs, estimands, support components, endpoints, or windows require a bridge with stated loss, degraded parity, or abstention. |

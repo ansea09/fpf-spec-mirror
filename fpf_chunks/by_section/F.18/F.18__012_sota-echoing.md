@@ -6,12 +6,12 @@ section_id: "F.18:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__012_sota-echoing.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:10 — SoTA-Echoing"
-line_start: 100421
-line_end: 100436
+line_start: 100441
+line_end: 100456
 dependencies:
   - "A.10"
   - "A.15.1"

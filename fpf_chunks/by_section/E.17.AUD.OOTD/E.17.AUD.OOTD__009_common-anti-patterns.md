@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:8"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__009_common-anti-patterns.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:8 — Common Anti-Patterns"
-line_start: 85532
-line_end: 85539
+line_start: 85552
+line_end: 85559
 dependencies:
   - "A.10"
   - "A.15"

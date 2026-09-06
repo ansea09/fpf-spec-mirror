@@ -6,7 +6,7 @@ section_id: "A.15.2:3"
 section_title: "Forces (what the definition balances)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__004_forces-what-the-definition-balances.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:3 — Forces (what the definition balances)"

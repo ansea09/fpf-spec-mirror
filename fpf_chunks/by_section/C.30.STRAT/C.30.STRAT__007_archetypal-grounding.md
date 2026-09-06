@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__007_archetypal-grounding.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:5 — Archetypal Grounding"
-line_start: 60463
-line_end: 60470
+line_start: 60459
+line_end: 60466
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,5 +55,5 @@ keywords:
 | --- | --- | --- |
 | Source-label cue | A neural-network source says an `expert block` sits above a `router layer`. | A publication note says a `cache layer` keeps a diagram or view current. |
 | Recovery result | The words stay source labels until module, function, path-selection, flow, or selected-structure facts become clear. | The words stay source labels until publication, view, state, currentness, temporal, or ordinary non-use facts become clear. |
-| Next move | Use `A.6.M`, `A.6.F`, E.18, C.30.TFS-REL, G.5, or C.11 only for the recovered claim. | Use C.2.P, E.17, A.19.SPR, A.3.3, C.27.TA, or C.27 only for the recovered claim. |
+| Next move | Use `A.6.M`, `A.6.F`, E.18, C.30.TFS-REL, G.5, or C.11 only for the recovered claim. | Use the episteme/publication route in C.30.STRAT:4.2, or A.19.SPR, A.3.3, C.27.TA, or C.27 only for the recovered claim. |
 

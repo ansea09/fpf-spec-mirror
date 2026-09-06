@@ -6,7 +6,7 @@ section_id: "C.27:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__008_bias-annotation.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:6 — Bias-Annotation"
@@ -50,7 +50,7 @@ keywords:
 
 ### C.27:6 - Bias-Annotation
 
-Lenses tested: **Onto**, **Prag**, **Epist**, **Arch**, **Gov**.
+Lenses: **Onto**, **Prag**, **Epist**, **Arch**, **Gov**.
 
 - **Onto:** source claim, described subject, temporal-aspect claim, adequacy claim, direct relation, publication occurrence, form, and carrier remain distinct.
 - **Prag:** ordinary prose, Dyn0, and Dyn1 remain cheap; the first Dyn2 result fits on one screen.

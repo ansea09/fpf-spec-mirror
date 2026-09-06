@@ -6,12 +6,12 @@ section_id: "E.11.PUR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__003_problem.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:2 — Problem"
-line_start: 79507
-line_end: 79512
+line_start: 79527
+line_end: 79532
 dependencies:
   - "A.15"
   - "A.19"

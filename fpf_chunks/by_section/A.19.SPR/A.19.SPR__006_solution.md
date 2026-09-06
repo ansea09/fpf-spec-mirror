@@ -6,7 +6,7 @@ section_id: "A.19.SPR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__006_solution.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:4 — Solution"
@@ -137,7 +137,7 @@ When `readiness` or `ready` still hides which governed value is meant, use `E.10
 | publication use, publication face, form, or unit value, source-finding use | `E.17`, `E.17.0`, `E.17.AUD`, or publication pattern governing the claim |
 | Description episteme admitted for specification use or specification refinement | `A.7`, plus the specification-granting neighbouring pattern named by value: `A.6.2`, `C.2.3`, `A.21`, `C.16`, `E.17`, `E.10`, or another named pattern |
 | temporal claim status or temporal-use classification | `C.27`, retaining `dynClaimPosture` only as a declared C.27 field |
-| mathematical-lens use admissibility | `C.29`, retaining `LensUseAdmissibilityValue` only as a declared C.29 field |
+| mathematical-lens use admissibility | `C.29`, retaining `LensUseBoundaryValue` only as a declared C.29 field |
 | `DRR` decision-adequacy result or source-use classification | `E.9.DA` |
 | pattern-quality result or pattern-quality review status | `E.21`, with `E.19` only as review or admission profile |
 | administrative, review, dispatch, release or admission, or source-control state | the project-side administrative, review, dispatch, release or admission, or source-control record; not pattern prose unless the pattern's own `EntityOfConcern` is that record |

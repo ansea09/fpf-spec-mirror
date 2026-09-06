@@ -6,7 +6,7 @@ section_id: "A.3.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__008_conformance-checklist.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:7 — Conformance Checklist"

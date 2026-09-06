@@ -6,12 +6,12 @@ section_id: "C.35:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__004_forces.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:3 — Forces"
-line_start: 67417
-line_end: 67427
+line_start: 67408
+line_end: 67418
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

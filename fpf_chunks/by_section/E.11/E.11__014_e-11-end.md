@@ -6,12 +6,12 @@ section_id: "E.11:End"
 section_title: "E.11:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__014_e-11-end.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:End — E.11:End"
-line_start: 78938
-line_end: 78939
+line_start: 78958
+line_end: 78959
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

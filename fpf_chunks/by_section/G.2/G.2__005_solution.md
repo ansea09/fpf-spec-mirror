@@ -6,12 +6,12 @@ section_id: "G.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__005_solution.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:4 — Solution"
-line_start: 102050
-line_end: 102360
+line_start: 102070
+line_end: 102380
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

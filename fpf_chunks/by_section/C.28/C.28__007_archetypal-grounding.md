@@ -6,7 +6,7 @@ section_id: "C.28:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__007_archetypal-grounding.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:5 — Archetypal Grounding"
@@ -51,7 +51,7 @@ keywords:
 
 ### C.28:5 - Archetypal Grounding
 
-**System.** A product team observes better outcomes among recipients of X. Triage returns association support. If the team needs an effect claim, it opens identification or evidence-design work; C.28 does not let the observation decide deployment.
+**System.** A product team observes better outcomes among recipients of X. Triage returns association support. If the team needs an effect claim, it opens identification or evidence-design work; the deployment decision still needs its own downstream basis.
 
 **Fairness.** A report claims counterfactual fairness after a policy change. C.28 identifies the rung and estimand, exposes the additional counterfactual-identifiability assumptions, and cites an estimate with its consistency result when the audit relies on that estimate. Missing identification or consistency lowers the support result even with more of the same data. D.5 carries the `BiasAuditReport@Context` and makes the audit conclusion.
 
@@ -59,7 +59,7 @@ keywords:
 
 **Causal RL.** An online learner combines logged behaviour, interventions, and a counterfactual-data source. The sampling-realizability result explains whether that source can be produced; dated Work and the resulting data path show whether it was produced; a separate identification or estimate result says what follows from it. Replay reward does not become an optimal-action claim.
 
-**Evidence Work.** A lab's `CounterfactualSamplingRealizabilityResult` cites its decision Method and positive construction. That result supports planning but claims no sample. The later WorkPlan remains prospective. After sampling, the lab cites dated Work, attribution, and the resulting data in an A.10 evidence path before using `realizedCounterfactualSamplingData`. Identification from those data remains a separate result.
+**Evidence Work.** A lab's `CounterfactualSamplingRealizabilityResult` cites its decision Method and positive construction. That result supports planning but claims no sample. The later WorkPlan remains prospective. After sampling, the lab cites independently admitted dated Work and the resulting data in an A.10 evidence path before using `realizedCounterfactualSamplingData`; it adds precise assignment-bound attribution only when the receiving support claim uses it. Identification from those data remains a separate result.
 
 **Simulation.** A simulator supports rehearsal and sensitivity analysis under named assumptions and validation. The support result blocks realized-sample and intervention-effect wording. A pure simulator-output report exits C.28 earlier.
 

@@ -6,12 +6,12 @@ section_id: "C.32.PAD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__010_consequences.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:9 — Consequences"
-line_start: 66321
-line_end: 66329
+line_start: 66312
+line_end: 66320
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "G.12:End"
 section_title: "G.12:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__014_g-12-end.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:End — G.12:End"
-line_start: 107125
-line_end: 107126
+line_start: 107145
+line_end: 107146
 dependencies:
   - "A.19"
   - "A.2.6"

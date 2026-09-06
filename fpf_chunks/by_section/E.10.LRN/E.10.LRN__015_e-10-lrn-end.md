@@ -6,12 +6,12 @@ section_id: "E.10.LRN:End"
 section_title: "E.10.LRN:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__015_e-10-lrn-end.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:End — E.10.LRN:End"
-line_start: 76630
-line_end: 76631
+line_start: 76650
+line_end: 76651
 dependencies:
   - "A.10"
   - "A.15"

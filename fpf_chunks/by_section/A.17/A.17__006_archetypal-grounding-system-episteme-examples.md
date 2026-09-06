@@ -6,7 +6,7 @@ section_id: "A.17:5"
 section_title: "Archetypal Grounding (System & Episteme Examples)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__006_archetypal-grounding-system-episteme-examples.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR‑NORM)"
   - "A.17:5 — Archetypal Grounding (System & Episteme Examples)"

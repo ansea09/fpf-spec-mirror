@@ -6,7 +6,7 @@ section_id: "C.29:6"
 section_title: "Naming, ontology, and epistemic precision-restoration account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__008_naming-ontology-and-epistemic-precision-restoration-account.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:6 — Naming, ontology, and epistemic precision-restoration account"
@@ -54,7 +54,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseAdmissibilityValue"
+  - "LensUseBoundaryValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -76,9 +76,9 @@ keywords:
 
 Name: `C.29 — Mathematical Lens Use`.
 
-Local namespace: `MathLensUse` = **Mathematical Lens Use**. No prior temporary code is reused; the pattern-local card and reference namespace uses `MathLensUse`; checklist IDs use `CC-C29-*`.
+Local namespace: `MathLensUse` = **Mathematical Lens Use**. The pattern-local card and reference namespace uses `MathLensUse`; checklist IDs use `CC-C29-*`.
 
-The stable name is `Mathematical Lens Use` because `C.29` governs a declared use and its use boundary, not intensity on an unnamed scale. Plain prose can still say that a useful mathematical lens compresses many cases while preserving declared distinctions; claim-bearing use is recovered through `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition`.
+The stable name is `Mathematical Lens Use` because `C.29` governs a declared use and its use boundary. Plain prose can still say that a useful mathematical lens compresses many cases while preserving declared distinctions; claim-bearing use is recovered through `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition`.
 
 #### C.29:6.1a - C.29-local naming guard
 

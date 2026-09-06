@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__008_conformance-checklist.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:7 — Conformance Checklist"
-line_start: 77120
-line_end: 77136
+line_start: 77140
+line_end: 77156
 dependencies:
   - "A.1.STM"
   - "A.10"

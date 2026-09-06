@@ -6,7 +6,7 @@ section_id: "A.15.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:8 — Common Anti-Patterns and How to Avoid Them"

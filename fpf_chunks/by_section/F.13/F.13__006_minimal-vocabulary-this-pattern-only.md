@@ -6,12 +6,12 @@ section_id: "F.13:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:5 — Minimal vocabulary (this pattern only)"
-line_start: 97227
-line_end: 97234
+line_start: 97247
+line_end: 97254
 dependencies:
   - "F.1"
   - "F.10"

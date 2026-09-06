@@ -6,12 +6,12 @@ section_id: "E.19:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__010_bias-annotation.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:6 — Bias-Annotation"
-line_start: 88518
-line_end: 88534
+line_start: 88538
+line_end: 88554
 dependencies:
   - "A.15.1"
   - "A.6.P"

@@ -6,7 +6,7 @@ section_id: "C.27:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__013_sota-echoing.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:11 — SoTA-Echoing"
@@ -50,7 +50,7 @@ keywords:
 
 ### C.27:11 - SoTA-Echoing
 
-The source set below is the predecessor's June 2026 evidence basis. It supports the architecture without turning C.27 into a survey. Reopen the source use when newer work changes one of the named obligations.
+The source set below is the June 2026 basis for C.27's claim-adequacy rules. Reopen the source use when newer work changes one of the named obligations.
 
 | Source line | Lesson retained in C.27 | Boundary |
 | --- | --- | --- |

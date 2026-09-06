@@ -6,12 +6,12 @@ section_id: "E.10.P:End"
 section_title: "E.10.P:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.P/E.10.P__002_e-10-p-end.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.10.P — Conceptual Prefixes policy & registry"
   - "E.10.P:End — E.10.P:End"
-line_start: 77846
-line_end: 77847
+line_start: 77866
+line_end: 77867
 dependencies:
   - "E.5.1"
   - "E.5.2"

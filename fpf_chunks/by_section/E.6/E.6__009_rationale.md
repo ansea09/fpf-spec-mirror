@@ -6,12 +6,12 @@ section_id: "E.6:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__009_rationale.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.6 — Didactic Architecture of the Specification"
   - "E.6:8 — Rationale"
-line_start: 73036
-line_end: 73042
+line_start: 73056
+line_end: 73062
 dependencies:
   - "E.2"
 keywords:

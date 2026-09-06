@@ -6,15 +6,16 @@ section_id: "C.30.TFS-REL:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__012_sota-echoing.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:11 — SoTA-Echoing"
-line_start: 62312
-line_end: 62323
+line_start: 62303
+line_end: 62314
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.1"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -56,10 +57,10 @@ keywords:
 | Practice or reference line | C.30.TFS-REL adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
 | E.18 one-TFS discipline and E.18.NET network discipline | Adopt E.18 as owner of one TFS, paths, crossings, and valuations; E.18.NET as owner of one selected network, member-local references, and exact cross-member relations. | Name the exact TFS or network, then add only the exact C.30 architecture locus and selected network branch. | Neither flow-structure owner becomes generic architecture or architecture-description ontology. |
-| ISO/IEC/IEEE 42010:2022 and multi-view architecture practice | Adapt view and correspondence discipline to architecture-to-transformation-flow reliance. | Transformation-flow views relate to actual architecture relations, selected structures, exact structural views, or conditional descriptions through C.30, C.30.AD, C.30.ASV, and correspondence claims/relations. | Architecture views do not become proof, evidence, gates, decisions, required-effect realization, or actual transformation. |
-| MBSE and SysML v2 view and relation practice | Adapt model-derived flow views and path views as descriptions derived from a model publication or edition. | A model-derived flow description states model edition, selected structure, hidden/lost structure, and admissible use. | Tool models and queries do not override FPF E.18, C.30, A.3.4, or E.17.0 relations. |
+| ISO/IEC/IEEE 42010:2022 and multi-view architecture practice | Adapt view and correspondence discipline to architecture-to-transformation-flow reliance. | Transformation-flow views relate to actual architecture relations, selected structures, exact structural views, or conditional descriptions through C.30, C.30.AD, C.30.ASV, and correspondence claims/relations. | Architecture views do not become proof, evidence, gates, decisions, required-effect realization, or actual transformation by view status alone. |
+| MBSE and SysML v2 view and relation practice | Adapt model-derived flow views and path views as descriptions derived from a model publication or edition. | A model-derived flow description states model edition, selected structure, hidden/lost structure, and admissible use. | Tool models or query results do not establish FPF E.18, C.30, A.3.4, or E.17.0 relations without their defining predicates and case facts. |
 | Neural-network dataflow and GonzoML architecture-operation corpus | Adopt practitioner recognition for block replacement, path selection, memory/cache placement, MoE expert selection, pruning, distillation, ablation, and compute/memory/latency tradeoffs. | Keep source labels with `C.30.STRAT` until exact values are recovered; C.30.TFS-REL applies only when recovered flow structure changes the architecture move. | Benchmarks, ablations, pruning masks, or search outputs do not become evidence, assurance, gate passage, actual transformation, or architecture decision by themselves. |
-| Theory of Code Space and arXiv:2603.00601 code-agent relation graph probing | Adapt relation graphs with observation class from {observed, inferred, unknown} and partial-observability warnings. | Generated code relation graphs can be used only with typed relation semantics, source/codebase edition, extraction/probe locus, unexplored regions, and hidden-relation return condition. | Do not mint `U.CodeSpace`; probe output is not internal belief proof, architecture adequacy, assurance, or release evidence/claim. |
+| Theory of Code Space (arXiv:2603.00601) code-agent relation graph probing | Adapt component-belief statuses from {observed, inferred, unknown} and partial-observability warnings to relation-graph use. | Generated code relation graphs can be used only with typed relation semantics, source/codebase edition, extraction/probe locus, unexplored regions, and hidden-relation return condition. | Do not mint `U.CodeSpace`; probe output alone does not prove internal belief or establish architecture adequacy, assurance, or a release-evidence claim. |
 
 **Currentness boundary.** Inputs are E.18 TFS semantics and pins; E.18.NET network identity, cross-member relations, and row-locator resolution when selected; the chosen network architecture branch and exact containing or participating holons/relations/claims; C.30/C.30.AD/C.30.ASV architecture-side rules; observation class; required-versus-actual status; and non-flow governors named in `C.30.TFS-REL:4.3`. When one changes, the record changes only at the affected reference, branch, row locator, correspondence, hidden relation-structure return condition, admissible-use boundary, or governing-pattern assignment.
 

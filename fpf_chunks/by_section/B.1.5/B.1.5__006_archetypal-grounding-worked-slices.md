@@ -6,7 +6,7 @@ section_id: "B.1.5:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:5 — Archetypal Grounding — Worked Slices"

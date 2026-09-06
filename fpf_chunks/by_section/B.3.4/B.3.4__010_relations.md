@@ -6,7 +6,7 @@ section_id: "B.3.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__010_relations.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:9 — Relations"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.35.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
-line_start: 67300
-line_end: 67547
+line_start: 67291
+line_end: 67538
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

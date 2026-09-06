@@ -6,12 +6,12 @@ section_id: "E.17:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__004_problem.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:3 — Problem"
-line_start: 82805
-line_end: 82811
+line_start: 82825
+line_end: 82831
 dependencies:
   - "A.10"
   - "A.15.4"

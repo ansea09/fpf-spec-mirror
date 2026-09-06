@@ -6,7 +6,7 @@ section_id: "C.27:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__009_conformance-checklist.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:7 — Conformance Checklist"
@@ -61,7 +61,7 @@ keywords:
 | C27-7 | The card names claimed input, resistance or cost, reason for the reading, supported use, unsupported use, and reopen condition without implying causal effect, Work, authority, value, promise, or assurance. |
 | C27-8 | Performed Work names the actual System actor, whose A.13 core precedes independent A.15.1 Work admission. F.6 follows only when precise assignment-bound attribution is current. An assignment remains a separate obtaining relation and never acts. |
 | C27-9 | A non-system input uses its actual direct relation or remains an unresolved or source-side intervention claim; no generic applier branch is created. |
-| C27-10 | A viability use cites an exact C.26.3 claim episteme or ClaimAddress and an exact System or A.22 Structure bearer; no generic viability or configuration relation is invented. |
+| C27-10 | A viability use cites an exact C.26.3 claim episteme or ClaimAddress and an exact System, A.22 Structure, or another subject with its direct identity rule as bearer; no generic viability or configuration relation is invented. |
 | C27-11 | Measurement, dynamics, Work, causality, benchmark, promise, value, quality, viability, scaling, adaptation, search, publication, assurance, and residual QL stay with their direct patterns. |
 | C27-12 | Cases precede the optional trigger reference, and the trigger reference copies no neighboring schema. |
 | C27-13 | At least one golden case stops at ordinary prose, Dyn0, or Dyn1, and braking or coasting is not treated as failed acceleration. |

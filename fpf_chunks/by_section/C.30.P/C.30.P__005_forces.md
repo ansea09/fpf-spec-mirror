@@ -6,12 +6,12 @@ section_id: "C.30.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__005_forces.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:3 — Forces"
-line_start: 60110
-line_end: 60120
+line_start: 60113
+line_end: 60123
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Ordinary engineering speech vs FPF kind recovery | Engineers need compact words such as architecture, structure, model, view, graph, module, layer, block, expert, cache, router, and gate; FPF claims need recovered kind, relation, source-use relation, and admissible use. `C.30.STRAT` governs the stratification-wording family and source-label family before `C.30.P` assigns any architecture or structure portion. |
+| Ordinary engineering speech vs FPF kind recovery | Engineers need compact words such as architecture, structure, model, view, graph, module, layer, block, expert, cache, router, and gate; FPF claims need recovered kind, relation, source-use relation, and admissible use. `C.30.STRAT` recovers stratification or source-label meaning when it still hides the technical claim, before `C.30.P` assigns the recovered architecture or structure portion. |
 | Architecture description vs architecture itself | Descriptions and views are useful, but they can be overread as the selected structure or architecture claim. |
 | Structure generality vs architecture specificity | `A.22` gives selected structure; `C.30` governs grounded architecture adequacy over selected architecture-relevant structures and admits only the thin architecture-description bridge when durable description use is being made. `C.30.AD` governs the full architecture-description mechanism. The repair must not collapse them. |
 | Small first move vs heavy record | Most wording cases need one repair note and a subject pattern assignment, not a full architecture description. |

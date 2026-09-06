@@ -6,12 +6,12 @@ section_id: "C.30.ASV:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__002_problem-frame.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:1 — Problem frame"
-line_start: 60552
-line_end: 60592
+line_start: 60546
+line_end: 60586
 dependencies:
   - "A.1"
   - "A.10"
@@ -95,5 +95,5 @@ What C.30.ASV buys in practice: the practitioner can distinguish description ide
 
 Do not use C.30.ASV when the question is only about a general architecture claim, subject-side `ArchitectureRelation`, structure as such, selected transformation-flow relation, mathematical graph description, transformation-flow path relation, or crossing relation. Use `C.30`, `A.22`, `E.18`, `E.18.2`, `C.29`, or `C.30.TFS-REL` as appropriate. If the view is used for another claim, use the applicable pattern for that claim and keep C.30.ASV only for the view portion.
 
-Thin precision-restoration pointer: if the issue under repair is still whether *view*, *architecture view*, *architecture structural view*, *diagram*, *model*, *graph*, *layer*, or *functional architecture* names a structural description, a `U.View`, an architecture description, a representation, a publication occurrence, a publication form, a source relation, or another claim or relation named by value, use `C.30.P` first. Do not copy the `C.30.P` trigger table here; apply C.30.ASV only after the architecture structural-view claim or non-ASV claim named by value is recoverable.
+Thin precision-restoration pointer: if the issue under repair is still whether *view*, *architecture view*, *architecture structural view*, *diagram*, *model*, *graph*, *layer*, or *functional architecture* names a structural description, a `U.View`, an architecture description, a representation, a publication occurrence, a publication form, a source relation, or another claim or relation named by value, use `C.30.P` first. Apply C.30.ASV only after the architecture structural-view claim or non-ASV claim named by value is recoverable.
 

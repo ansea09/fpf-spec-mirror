@@ -6,7 +6,7 @@ section_id: "A.19.USCM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__005_forces.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:3 — Forces"

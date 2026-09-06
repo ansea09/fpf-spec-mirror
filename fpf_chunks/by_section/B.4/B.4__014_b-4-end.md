@@ -6,7 +6,7 @@ section_id: "B.4:End"
 section_title: "B.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__014_b-4-end.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:End — B.4:End"

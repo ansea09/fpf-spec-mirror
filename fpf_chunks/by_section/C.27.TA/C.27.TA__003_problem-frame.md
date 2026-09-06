@@ -6,7 +6,7 @@ section_id: "C.27.TA:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__003_problem-frame.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:1 — Problem Frame"
@@ -45,7 +45,7 @@ keywords:
 
 ### C.27.TA:1 - Problem Frame
 
-C.27 previously carried two different concerns. One concern is temporal-claim adequacy: whether an authored claim about speed, rhythm, rate-change, recovery, or stabilization can carry a named use. The other concern is positive temporal subject matter: windows, duration, cadence, synchronization, freshness, currentness, inertia, effort over time, recovery, stabilization, and trajectory as aspects of objects or claims.
+Distinguish two concerns. One concern is temporal-claim adequacy: whether an authored claim about speed, rhythm, rate-change, recovery, or stabilization can carry a named use. The other concern is positive temporal subject matter: windows, duration, cadence, synchronization, freshness, currentness, inertia, effort over time, recovery, stabilization, and trajectory as aspects of objects or claims.
 
-The rule content located here addresses the second concern. It lets FPF say "what temporal aspect is in play?" without immediately opening an adequacy card, a dynamics model, a work plan, a causal-use record, or a transformation statement.
+C.27.TA addresses the second concern. It lets a practitioner state what temporal aspect is in play without immediately opening an adequacy card, a dynamics model, a work plan, a causal-use record, or a transformation statement.
 

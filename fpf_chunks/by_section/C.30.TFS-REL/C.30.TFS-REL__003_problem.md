@@ -6,15 +6,16 @@ section_id: "C.30.TFS-REL:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__003_problem.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:2 — Problem"
-line_start: 62001
-line_end: 62006
+line_start: 61994
+line_end: 61999
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.1"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -53,7 +54,7 @@ keywords:
 
 ### C.30.TFS-REL:2 - Problem
 
-Actual architecture relations, selected architecture-relevant structures, exact architecture structural views, and conditional architecture descriptions often need E.18 TFS objects or one E.18.NET network when they discuss transformation-flow structure, required functional dependencies, actual change, data movement, control paths, evidence-flow descriptions, neural-network dataflow, or code-agent relation graphs.
+Using actual architecture relations, selected architecture-relevant structures, exact architecture structural views, and conditional architecture descriptions often requires E.18 TFS objects or one E.18.NET network when the question concerns transformation-flow structure, required functional dependencies, actual change, data movement, control paths, evidence-flow descriptions, neural-network dataflow, or code-agent relation graphs.
 
 C.30.TFS-REL prevents collapse by requiring the exact architecture-side reference before any E.18 TFS, E.18.NET network, path, slice, crossing, or valuation receives architecture use. It also keeps required or desired behavior/effect claims distinct from actual A.3.4 transformations. A network additionally needs the named containing-holon or explicit inter-holon branch; its graph, description, publication, or record cannot supply that branch.
 

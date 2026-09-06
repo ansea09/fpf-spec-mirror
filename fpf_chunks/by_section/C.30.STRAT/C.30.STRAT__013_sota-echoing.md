@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__013_sota-echoing.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:11 — SoTA-Echoing"
-line_start: 60519
-line_end: 60531
+line_start: 60513
+line_end: 60525
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 
 ### C.30.STRAT:11 - SoTA-Echoing
 
-Standard status, publication date, and wide use show that an approach is maintained and consequential; they do not by themselves show that it moves the relevant Pareto front. The comparison below adopts only contributions that recover a technical claim more reliably without making ordinary project language harder to use. The compact combination in this pattern—cheap exit, source-local meaning, recovered claim, next useful rule, stop or return condition, and any justified blocked overread—is FPF synthesis.
+Standard status, publication date, and wide use do not by themselves show that an approach moves the relevant Pareto front. The comparison below adopts only contributions that recover a technical claim more reliably without making ordinary project language harder to use. The compact combination in this pattern—cheap exit, source-local meaning, recovered claim, next useful rule, stop or return condition, and any justified blocked overread—is FPF synthesis.
 
 | Current source or practice | By-value decision | Contribution carried into this pattern | Limit and receiving loci |
 | --- | --- | --- | --- |

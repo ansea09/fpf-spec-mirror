@@ -6,7 +6,7 @@ section_id: "C.27:1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__003_problem.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:1 — Problem"
@@ -52,7 +52,7 @@ keywords:
 
 The recurring failure is:
 
-> A text measures or names a rate and then behaves as if it knows how to change that rate.
+> An author measures or names a rate and then assumes that this is enough to know how to change that rate.
 
 Typical consequences include:
 
@@ -65,7 +65,7 @@ Typical consequences include:
 - slowing, braking, pausing, or recovery is treated as failure merely because speed is the implicit value;
 - probe, frame, token, dashboard, or active-sensing language activates QL before ordinary patterns have carried their questions.
 
-C.27 repairs one authored-claim failure. It is not a temporal theory of everything, a dynamics model, a measurement calculus, a theory of practice, or a physics analogy promoted into FPF ontology.
+C.27 repairs one authored-claim failure. It is not a dynamics model, a measurement calculus, or a physics analogy promoted into FPF ontology.
 
 C.27 introduces no U.Force, U.Mass, U.Acceleration, U.Rhythm, U.Practice, or U.SecondOrderProcess kind. It also introduces no universal calculus, control theory, or QL model for ordinary temporal claims.
 Faster is not automatically better. A temporally adequate claim is not automatically valuable, safe, legal, ethical, feasible, promised, or assured. Direct value, quality, harm, promise, legal, safety, and assurance patterns carry those claims.

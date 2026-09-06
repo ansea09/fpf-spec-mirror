@@ -6,7 +6,7 @@ section_id: "C.20:section-001"
 section_title: "E.24.UK settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__002_e-24-uk-settlement.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:section-001 — E.24.UK settlement"

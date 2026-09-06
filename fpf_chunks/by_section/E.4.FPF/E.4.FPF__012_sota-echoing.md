@@ -6,12 +6,12 @@ section_id: "E.4.FPF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__012_sota-echoing.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:11 — SoTA-Echoing"
-line_start: 70644
-line_end: 70651
+line_start: 70635
+line_end: 70642
 dependencies:
   - "C.33"
   - "C.34"

@@ -6,17 +6,15 @@ section_id: "C.30.ILC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__011_rationale.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:10 — Rationale"
-line_start: 61885
-line_end: 61892
+line_start: 61878
+line_end: 61885
 dependencies:
   - "A.10"
   - "A.22"
-  - "A.6.F"
-  - "A.6.M"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -24,8 +22,6 @@ dependencies:
   - "C.29"
   - "C.30"
   - "C.30.ASV"
-  - "C.30.LCA"
-  - "C.30.TFS-REL"
   - "C.31.ASAP"
   - "C.32"
   - "C.32.MLAO"
@@ -49,7 +45,7 @@ keywords:
 
 Interlevel conflict and frustration are useful Plain entry labels because they point to a recurrent architecture failure: local repair in one declared holon level or declared scope leaves a residual in another. They are dangerous as generic labels because they can hide which level, scope, level-bearing structure, relation, conflict carrier, or source-return condition bears the residual.
 
-A local optimum or successful local repair is therefore not treated as whole-architecture adequacy. It becomes architecture-relevant only when the residual-bearing locus is recoverable and the next architecture use can be named.
+A local optimum or successful local repair is therefore not treated as whole-architecture adequacy. It becomes relevant to C.30.ILC triage only when the residual-bearing locus is recoverable and the next architecture use can be named.
 
 `C.30.ILC` keeps the entry label but recovers the architecture relation or structure claim. It treats conflict or frustration as architecture-shaping only when declared holon levels or declared scopes, the level-bearing structure, conflict carriers, and residual-bearing loci are named. This lets FPF preserve the practical intuition without introducing a second ontology of levels, a hidden measurement pattern, a physics or biology transfer, a global optimizer proof, or a prescribed architecture work order.
 

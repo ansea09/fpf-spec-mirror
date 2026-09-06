@@ -6,12 +6,12 @@ section_id: "D.3:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__013_rationale.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:9 — Rationale"
-line_start: 69076
-line_end: 69081
+line_start: 69067
+line_end: 69072
 dependencies:
   - "A.1"
   - "A.10"

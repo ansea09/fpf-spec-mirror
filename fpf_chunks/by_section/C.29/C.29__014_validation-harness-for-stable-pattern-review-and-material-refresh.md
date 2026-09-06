@@ -6,7 +6,7 @@ section_id: "C.29:11a"
 section_title: "Validation harness for stable-pattern review and material refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__014_validation-harness-for-stable-pattern-review-and-material-refresh.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:11a — Validation harness for stable-pattern review and material refresh"
@@ -54,7 +54,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseAdmissibilityValue"
+  - "LensUseBoundaryValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -125,7 +125,7 @@ Harness shape:
 | `CaseId` | Stable case id. |
 | `InputPhrase` | The phrase or claim a cold user might write. |
 | `ExpectedFirstPattern` | `C.29`, a neighboring pattern, or no C.29 output needed. |
-| `ExpectedMathLensUseOutputClass` | `NoMathLensUseNeeded`, `OneLine`, `MiniCard`, `FullCard`, or `NeighborGoverningPatternNote`. |
+| `ExpectedMathLensUseOutputClass` | `NoMathLensUseNeeded`, `LensCandidateNote`, `OneLine`, `MiniCard`, `FullCard`, or `NeighborGoverningPatternNote`. |
 | `RequiredFields` | Minimal fields or overlays required. |
 | `NeighborPatternRefs` | Neighboring subject patterns named by value when their claims are being made. |
 | `ExpectedRepair` | Downgrade, narrow, add loss, add evidence or validation, choose a rival lens, apply a neighbor, or block an unsupported use. |
@@ -143,8 +143,8 @@ Minimum harness cases:
 | Vanchurin-style universe-as-learning | candidate lens only; not accepted physics; stop condition blocks ontology. |
 | queueing production line | positive mini-card; throughput and latency reasoning admitted; human meaning, contractual obligations, and unmodeled rare events remain explicit losses; stop or narrow when assumptions fail or those losses affect the use. |
 | team backlog behaves like a queue | mini-card admits waiting and bottleneck reasoning; motivation and duty remain explicit losses; return or change lens when those losses prevent the next action. |
-| same graph formalism in two contexts | `F.9` governs Bridge semantics; `C.29` governs declared lens use. |
-| latent manifold or neural operator as scientific model | learned-lens overlay requires observation map, training regime or validation regime, generalization claim, uncertainty note, and stop condition. |
+| same graph formalism in two contexts | `F.9` governs any needed semantic correspondence between local senses; `C.29` governs declared lens use. |
+| latent manifold or neural operator as scientific model | learned-lens overlay requires observation map, data or training regime, validation regime, generalization claim, uncertainty note, and stop condition. |
 
 Reader-fit checks for stable-pattern review or material refresh:
 

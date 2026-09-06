@@ -6,12 +6,12 @@ section_id: "C.30.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__005_solution.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:4 — Solution"
-line_start: 61409
-line_end: 61585
+line_start: 61404
+line_end: 61580
 dependencies:
   - "A.10"
   - "A.20"
@@ -30,6 +30,7 @@ dependencies:
   - "C.30.TFS-REL"
   - "E.17.0"
   - "E.18"
+  - "E.18.2"
   - "G.6"
 keywords:
   - "control layer"
@@ -45,7 +46,7 @@ keywords:
 
 Treat LCA-like source descriptions as possible inputs to a control-structure description under C.30. Recover one described holon, any actual architecture relation, one selected control structure, the controlled holon, independently obtaining observation, actuation, reference, supervision, and feedback relations, and the participant meaning in each relation.
 
-Add participating Systems, local kinds, separate System-classification judgments, assignment species and obtaining occurrences, Methods, and actual Work only when each independently obtains. Use A.22 to identify the selected structure from its constituents, selected obtaining relation occurrences, applied constraint claims, and receiving-use frame; a note, diagram, list, description, kind, or assignment creates none of them. If a source label is not yet control-specific, apply `C.30.STRAT` first. Then state admissible use and the next pattern to use.
+Add participating Systems, local kinds, separate System-classification judgments, assignment species and obtaining occurrences, Methods, and actual Work only when the corresponding fact is independently established. Use A.22 to identify the selected structure from its constituents, selected obtaining relation occurrences, applied constraint claims, and receiving-use frame; a note, diagram, list, description, kind, or assignment creates none of them. If a source label is not yet control-specific, apply `C.30.STRAT` first. Then state admissible use and the next pattern to use.
 
 When the result must retain boundary, admissible-use, or handoff detail, expand the same `ControlStructureViewNote`:
 
@@ -157,9 +158,9 @@ The full view is the same C.2.1 episteme identified by its exact claim graph, se
 
 `controlledHolonRef` names the holon whose state is observed or changed by independently obtaining control relations and may be the described holon or one of its exact parts. Architecture claims, `ClaimScope`, model-use structure, concern, and empirical grounding remain optional neighboring objects or relations. `modelUseStructureRef` appears only when an independently selected DDD-style bounded-model-use structure changes interpretation or selection.
 
-For every positive control-relation reference, identify the actual occurrence and use the relevant pattern to recover what its participants mean. Any participating System, local classification, assignment, Method, Work, or F.6 attribution also identifies its own independently admitted fact. A classification or assignment establishes neither control nor action.
+For every positive control-relation reference, identify the actual occurrence and use the relevant pattern to recover what its participants mean. Identify any participating System, local classification, assignment, Method, Work, or F.6 attribution independently on its own admitted basis. A classification or assignment establishes neither control nor action.
 
-The description, control note, view record, and diagram create none of these occurrences and do not act. Representation, publication occurrence, form, and carrier likewise remain separate from the selected structure and view episteme.
+The description, control note, view record, and diagram create none of these occurrences. Representation, publication occurrence, form, and carrier likewise remain separate from the selected structure and view episteme.
 
 #### C.30.LCA:4.0a - Safety-loss control-structure note
 
@@ -182,8 +183,8 @@ SafetyLossControlStructureNote:
     EvidenceAssuranceStructure
   claimPatternUseRefs:
     A.3.3 dynamics, C.27.TA temporal aspect or rate, and C.27 authored temporal-claim adequacy,
-    C.28 causal-use, A.10 or G.6 evidence,
-    B.3 assurance, A.20 or A.21 gate
+    C.28 causal-use, A.10 bounded source-to-use reliance, G.6 citable provenance paths,
+    B.3 named assurance, A.20 internal-constraint validity, A.21 gate decisions
   nonAdmissibleUse:
     not safety proof, not safety-case verdict, not regulatory acceptance
 ```
@@ -202,15 +203,15 @@ The note gives a positive safety-triggered architecture move: find the loss-cont
 
 **Control-specific stratification gate.** `Layer`, `level`, `tier`, and `stack` enter C.30.LCA only after `C.30.STRAT` or the local sentence recovers a direct control relation, inter-layer control relation, rate band, or `B.2.5` supervisor-subholon relation. An assignment alone is insufficient, and the label by itself establishes neither control structure nor separation.
 
-**B.2.5 boundary.** Use `B.2.5` for the supervisor-subholon feedback relation. A `C.30.LCA` use may cite that relation as part of the selected control structure, but use the relevant patterns for stability, safety, causality, evidence, gate, and assurance claims. If action involving an episteme is claimed, recover the exact performing System through A.13 and admit the dated Work and enacted Method independently through A.15.1. Add an assignment occurrence and F.6 only when the account expressly consumes precise assignment-bound attribution; keep publication, source-to-use, and work-reliance relations separate. An episteme does not sense, decide, plan, adapt, or act.
+**B.2.5 boundary.** Use `B.2.5` for the supervisor-subholon feedback relation. A `C.30.LCA` use may cite that relation as part of the selected control structure, but use the relevant patterns for stability, safety, causality, evidence, gate, and assurance claims. If action involving an episteme is claimed, recover the exact performing System through A.13 and admit the dated Work and enacted Method independently through A.15.1. Add an assignment occurrence and F.6 only when the account expressly consumes precise assignment-bound attribution; keep publication, source-to-use, and work-reliance relations separate.
 
-**Transformation-flow boundary.** An `E.18` transformation-flow path slice may supply flow-structure, path, crossing, or transformation-flow-structure input to the control view when that relation is being used. The transformation-flow graph expression remains a mathematical description or view of transformation-flow structure. It does not become the functional architecture, the control structure, or proof of control adequacy.
+**Transformation-flow boundary.** An `E.18` transformation-flow path slice may supply flow-structure, path, crossing, or transformation-flow-structure input to the control view when that relation is being used. The transformation-flow description may use a mathematical graph expression under `E.18.2`; the description is a `U.View` only when E.17.0 conformance obtains. Neither the expression nor the description becomes the functional architecture, the control structure, or proof of control adequacy.
 
-**C.29 boundary.** An LCA can be a model used for one selected control structure, or it can be used as a transferable mathematical lens. Open `C.29` only when transfer, prediction, reusable cross-domain explanation, or mathematical-lens use is being claimed. Dynamics, rate bands, authored temporal-claim adequacy, and causal claims remain with `A.3.3`, `C.27.TA`, `C.27`, and `C.28`.
+**C.29 boundary.** An LCA can be a model used for one selected control structure, or it can be used as a transferable mathematical lens. Use `C.29` when a mathematical lens makes transfer, prediction, reusable cross-domain explanation, or another control-structure use more inspectable. Dynamics, rate bands, authored temporal-claim adequacy, and causal claims remain with `A.3.3`, `C.27.TA`, `C.27`, and `C.28`.
 
 **Nesting and scale rule.** If a control-structure view nests without a local depth limit, the record uses `scaleAuditRef?` when the nesting affects latency, stability, observability, accountability, or assurance.
 
-**Worked slice A - LCA diagram used as proof.** A safety note says: `The Layered Control Architecture proves the plant is safe because the supervisor monitors the lower controller.` A conforming repair keeps the control-structure view and names planner, controller, plant, and supervisor relations, observation and actuation boundaries, and any rate bands. Use `B.3` for safety and assurance, `A.10` or `G.6` for evidence, `C.27.TA` for temporal aspects and rate bands, `C.27` for authored temporal-claim adequacy, and `A.3.3` or the applicable dynamics pattern for dynamics or stability.
+**Worked slice A - LCA diagram used as proof.** A safety note says: `The Layered Control Architecture proves the plant is safe because the supervisor monitors the lower controller.` A conforming repair keeps the control-structure view and names planner, controller, plant, and supervisor relations, observation and actuation boundaries, and any rate bands. Use the applicable safety pattern for the safety claim, `B.3` only for a named assurance claim, `A.10` for bounded source-to-use reliance, `G.6` for citable provenance paths, `C.27.TA` for temporal aspects and rate bands, `C.27` for authored temporal-claim adequacy, and `A.3.3` or the applicable dynamics pattern for dynamics or stability.
 
 **Worked slice B - multi-rate controller.** A source says a control stack has a slow planner, a faster regulator, and an observer with a different update period. Apply `C.30.LCA` only after the stack label has been recovered as exact reference-provision, regulation, observation, or other control relations with their participant meanings and rate bands; otherwise use `C.30.STRAT` first. Systems, classifications, assignments, Methods, and Work are added only where independently current. A C.30.LCA description establishes no rate adequacy. If the rate relation matters for oscillation, latency, stability, or safety, next use `C.27.TA` for temporal aspect or rate-band structure, `C.27` when an authored temporal-claim adequacy question is under repair, and the dynamics or assurance pattern named by value when that claim kind is being made.
 

@@ -6,12 +6,12 @@ section_id: "C.30:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__005_solution.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:4 — Solution"
-line_start: 58700
-line_end: 59210
+line_start: 58703
+line_end: 59213
 dependencies:
   - "A.1"
   - "A.10"
@@ -174,7 +174,7 @@ For common exits from this architecture question, use `C.18` for archive generat
 
 Architecture-move wording creates no root `U.Move`, structure, relation, WorkPlan, readiness relation, gate decision, performed work, decision, or source-use claim by itself. When source wording uses “move” outside this architecture-candidate use, restore the concern through `E.10.MOVE` and name the pattern that defines or tests the recovered claim.
 
-When the useful next work is synthesizing candidate architecture variants rather than judging or repairing one grounded actual relation, stop the C.30 question card after naming the described holon, the distinction between current and candidate structure, the structure kind, the concern, the admissible-use frame, and the next admissible use. Use `C.32` only to build the candidate architecture palette. When another claim becomes current, use the pattern that defines and tests it. For example, use `A.19.CPM` for comparison, `A.19.SelectorMechanism` for selector-policy use, `G.5` for selected-set result declaration, `C.11` for final local choice, `C.32.PAD` for a project architecture decision, `A.10` for evidence, `B.3` for assurance, `A.20` or `A.21` for a gate or release, and `A.15` for Work. For audience publication, use `E.17` for the source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
+When the useful next work is synthesizing candidate architecture variants rather than judging or repairing one grounded actual relation, stop the C.30 question card after naming the described holon, the distinction between current and candidate structure, the structure kind, the concern, the admissible-use frame, and the next admissible use. Use `C.32` only to build the candidate architecture palette. When another claim becomes current, use the pattern that defines and tests it. For example, use `A.19.CPM` for comparison, `A.19.SelectorMechanism` for selector-policy use, `G.5` for selected-set result declaration, `C.11` for final local choice, `C.32.PAD` for a project architecture decision, `A.10` for evidence, `B.3` for assurance, `A.20` for an internal-constraint result, `A.21` for a named gate decision, the direct domain pattern for the particular release claim, and `A.15` for Work. For audience publication, use `E.17` for the source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
 
 #### C.30:4.2 - Conditional architecture-description bridge
 
@@ -200,13 +200,13 @@ C30ArchitectureDescriptionBridge minimum:
   freshnessClaimRefs?: only when currentness bounds admissible use
 ```
 
-This bridge does not mint another description definition, local view-membership relation, subject-side architecture relation, selected structure, or truth fact. It lets the C.30 reader say why an exact description episteme matters for the next architecture move, then applies `C.30.AD` whenever the description itself becomes the EntityOfConcern under repair or the full mechanism is needed: multi-view description-set use, exact viewpoint conformance, correspondence, source return, freshness, specification-use boundary, representation and publication boundaries, or reusable architecture-description use.
+This bridge does not mint another description definition, local view-membership relation, subject-side architecture relation, selected structure, or truth fact. It lets the C.30 reader say why an exact description episteme matters for the next architecture move. Apply `C.30.AD` whenever the description itself becomes the EntityOfConcern under repair or the full mechanism is needed: multi-view description-set use, exact viewpoint conformance, correspondence, source return, freshness, specification-use boundary, representation and publication boundaries, or reusable architecture-description use.
 
 An architecture-description freshness claim is canonical in `C.30.AD:4.4`. C.30 may point to it only to bound admissible use of the first architecture move; it is not empirical grounding, publication currentness, evidence sufficiency, or assurance.
 
 #### C.30:4.3 - Publication-use boundary
 
-This subsection is the C.30 publication-use boundary. It says what an architecture description or its publication does not carry by itself, while the main Solution stays about the architecture claim, described holon, selected structures, structural views, and next architecture move. If a separate rule concerns deontic permission, promise, prescription, evidence sufficiency, assurance, decision, gate passage, work authorization, release authorization, source authority, or publication-use authority, keep it here, in `C.30.AD`, or in the description or publication pattern that defines or tests that claim rather than expanding C.30's thin bridge.
+An architecture description or its publication does not by itself establish deontic permission, promise, prescription, evidence sufficiency, assurance, decision, gate passage, work authorization, release authorization, source authority, or publication-use authority. Use `C.30.AD` for the description boundary and the pattern that defines or tests each separate claim.
 
 ```text
 ArchitectureDescriptionPublication@Project ::= {
@@ -225,7 +225,7 @@ ArchitectureDescriptionPublication@Project ::= {
 }
 ```
 
-`ArchitectureDescriptionPublication@Project` is subordinate to E.17 and MVPK machinery. It publishes one source episteme or episteme-lane view reference. `publicationViewpointRef?` names the publication-side viewpoint only when MVPK needs one; it is not an architecture viewpoint and not a TEVB viewpoint. `mvpkFaceRef` is a publication-lane face reference, not an alternative source episteme, source view, or source relation. Publication does not establish non-publication claims; apply `C.30:4.3` and the pattern that defines or tests any current evidence, gate, work, assurance, decision, or release claim.
+`ArchitectureDescriptionPublication@Project` is subordinate to E.17 and MVPK machinery. It records the publication of one source episteme or episteme-lane view. `publicationViewpointRef?` names the publication-side viewpoint only when MVPK needs one; it is not an architecture viewpoint and not a TEVB viewpoint. `mvpkFaceRef` is a publication-lane face reference, not an alternative source episteme, source view, or source relation. Publication does not establish non-publication claims; apply `C.30:4.3` and the pattern that defines or tests any current evidence, gate, work, assurance, decision, or release claim.
 
 Model cards, system cards, and evaluation harness reports enter C.30 through the same publication boundary or source-relation boundary. They may describe a model, deployed AI system, architecture claim, evaluation harness, or policy, but the architecture move still needs the actual or candidate structure distinction, an obtaining `ArchitectureRelation` only when its predicate is satisfied, a bounded `ArchitectureClaim` when claim content is needed, and the applicable pattern for any proof, release, or gate claim.
 
@@ -420,7 +420,7 @@ ArchitectureCharacteristicQBundleClaim ::= {
 }
 ```
 
-The full claim preserves the older branch's inspectable proposal detail: assertion polarity, the exact structural-characteristic and Q-Bundle-slot referents, scope or scale window, viewpoint when it changes interpretation, qualifiers, witness expectations, admissible semantic change classes, and bridge or loss boundary. These are claim-content fields. They neither declare a reusable relation kind nor make an occurrence obtain; a direct relation still needs an admitted kind, exact participants, a defining predicate and applicability rule, and occurrence identity.
+The full claim keeps the proposal inspectable through assertion polarity, the exact structural-characteristic and Q-Bundle-slot referents, scope or scale window, viewpoint when it changes interpretation, qualifiers, witness expectations, admissible semantic change classes, and bridge or loss boundary. These are claim-content fields. They neither declare a reusable relation kind nor make an occurrence obtain; a direct relation still needs an admitted kind, exact participants, a defining predicate and applicability rule, and occurrence identity.
 
 Reusable product-quality vocabularies may supply candidate characteristic names, but they do not become architecture theory. Claim content may connect exact bearers and Q-Bundle slots. A direct relation obtains only when its participants and predicate pass the test defined for it. Use the applicable patterns for measurement, modularity scoring, reusable-structure accounting, bespoke-residue accounting, evidence, assurance, gate, causal, and scale-audit claims.
 
@@ -511,8 +511,8 @@ Lens use by architecture problem:
 | Architecture problem | Candidate mathematical lens | Preserved structure | Typical loss or stop |
 | --- | --- | --- | --- |
 | Hidden dependency or modularity. | Typed graph, DSM, or hypergraph. | Dependency, coupling, or clustering. | Semantics, interface law, evidence, and work remain outside unless bridged. |
-| Flow bottleneck. | Transformation-flow structure, network flow, or queueing. | Path, crossing, valuation, and capacity. | Purpose, proof, causality, and safety remain non-architecture claims. |
-| Control-rate mismatch. | LCA, hybrid systems, assumption-guarantee relations, or control relations. | Feedback participant meanings and scale or rate relations. | Stability proof and safety proof remain outside the lens. |
+| Flow bottleneck. | Mathematical expression for the selected transformation-flow structure; network flow; or queueing. | Path, crossing, valuation, and capacity. | Purpose, proof, causality, and safety remain non-architecture claims. |
+| Control-rate mismatch. | Mathematical expression for the LCA control structure; hybrid systems; assumption-guarantee relations; or control relations. | Feedback participant meanings and scale or rate relations. | Stability proof and safety proof remain outside the lens. |
 | Cross-scope residual. | Coarse-graining or renormalization-group-style lens. | Preserved and lost structure across scale. | Utility, causal-use claims, and selector authority remain outside unless separately grounded. |
 | Extracted structure from traces. | Epiplexity or MDL-style bounded-observer lens. | Learnable structural regularity. | Task relevance, assurance, and causal proof remain non-architecture claims. |
 | Physical separation or spatial arrangement. | Topology, geometry, or spatial graph lens. | Adjacency, containment, separation, reachability, energy-transfer relation, or material-transfer relation. | Safety proof, accessibility, regulatory acceptance, and causal-use claims remain outside unless separately grounded. |
@@ -536,7 +536,7 @@ Epiplexity-like use remains a C.29 bounded-observer structural-information lens.
 | ADR as architecture decision | Use the project-side architecture decision pattern when a decision claim is being made; ADR is a publication form, not the decision. |
 | Quality, score, or measurement term as architecture adequacy | Recover the bearer through `ArchitectureCharacteristicAssignment`; then use C.25, C.16, A.17-A.19, or the exact characteristic or Q-Bundle pattern that defines or tests the claim. Use C.30 only for grounded architecture, selected-structure, or conditional description-use scope. |
 | Architecture record as evidence, assurance, gate, work, or release | Assign evidence, assurance, gate, work, or release claims to A.10, G.6, B.3, A.20, A.21, A.15, or the release locus named by value when a release claim is being made. |
-| Architecture as agent, worker, controller, gate, or proof | Split the claim. If precise performed Work is meant, recover each exact actual performer System through A.13 and let A.15.1 independently admit the dated Work and enacted Method. Add an assignment occurrence, its declared species, and F.6 only when the architecture account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Recover mechanism or control relations, permission, authority, responsibility, gate results, evidence, assurance, proof, and guarantees only through their own predicates or results. A local system-role kind or assignment may be a neighboring fact but neither acts nor establishes any of those stronger claims. Neither an `ArchitectureRelation`, its selected structure, nor `ArchitectureClaim` is an acting entity by wording alone. |
+| Architecture as agent, worker, controller, gate, or proof | Split the claim. If precise performed Work is meant, recover each exact actual performer System through A.13 and let A.15.1 independently admit the dated Work and enacted Method. Add an assignment occurrence, its declared species, and F.6 only when the architecture account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Recover mechanism or control relations, permission, authority, responsibility, gate results, evidence, assurance, proof, and guarantees only through their own predicates or results. Keep any neighboring local system-role-kind or assignment fact distinct from those claims. |
 
 **Currentness and smallest reopen.** When a decisive input changes, reopen only the C.30 object and use conclusion that depend on it. A changed holon or obtaining subject relation reopens the affected selected structure and, if asserted, the direct `ArchitectureRelation` predicate; a changed selected structure or predicate result reopens that relation occurrence and any affirmative `ArchitectureClaim` reference; a changed claim scheme or `ClaimScope` reopens only that claim; and a changed description, view, source edition, admissible-use boundary, or definition of a directly used relation reopens its exact reference and dependent `ArchitectureQuestionCard@Project` disposition. Admissible results are to update the affected reference or claim mode, narrow use, re-run the direct predicate, or reopen the card when its next architecture move is no longer supported; unrelated structures, descriptions, and claims stay closed.
 
@@ -576,7 +576,7 @@ ArchitectureStructuralCharacteristicQBundleClaimLine:
   admittedRelationKindOrDeclarationRef?: required only for admittedRelationAndOccurrence
   obtainingRelationOccurrenceRefs?: required only for admittedRelationAndOccurrence
   missingRelationParticipantRefs?, proposedPredicate?, affectedUse?, futureDefinitionNeed?: required only for missingGovernor
-  evidenceOrCausalPatternLocator?: one selected PatternID locator: C.28, B.3, A.10, or G.6 when evidence sufficiency, causal-use, assurance, or safety-case claim is being made
+  evidenceOrCausalPatternLocator?: one selected PatternID locator as the current evidence-sufficiency, causal-use, assurance, or safety-case claim requires: C.28 for causal use, B.3 for assurance, A.10 for source recovery and bounded reliance, or G.6 for a citable evidence-provenance path
   nonAdmissibleUse: causal proof, assurance, or direct relation by slogan
 ```
 Use `ArchitectureCharacteristicQBundleClaim` only when publication, comparison, causal use, evidence reliance, assurance, gate, decision, or reusable cross-case claim reliance needs the fuller bounded claim. If repeated use needs an independently admitted direct characteristic, evidence, or causal relation, apply the relation's defining pattern to identify its participants, obtaining predicate, applicability, and occurrence identity and to verify that the occurrence obtains. Do not accept the slogan as architecture truth.

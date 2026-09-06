@@ -6,12 +6,12 @@ section_id: "C.30.P:5a"
 section_title: "Refresh and reopen conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__008_refresh-and-reopen-conditions.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:5a — Refresh and reopen conditions"
-line_start: 60203
-line_end: 60214
+line_start: 60206
+line_end: 60217
 dependencies:
   - "A.10"
   - "A.15"

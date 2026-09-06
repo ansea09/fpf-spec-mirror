@@ -6,12 +6,12 @@ section_id: "C.30.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__006_solution.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:4 — Solution"
-line_start: 60121
-line_end: 60169
+line_start: 60124
+line_end: 60172
 dependencies:
   - "A.10"
   - "A.15"
@@ -85,7 +85,7 @@ Use the note only when the repair must remain inspectable. A direct local rewrit
 
 1. **Capture the trigger.** Copy the architecture or structure wording and the sentence that uses it.
 2. **Recover the encountered FPF kind or reference.** Decide whether the text points to a selected structure, architecture claim, description, view, diagram, graph, model, dashboard, ADR, source document, carrier, publication, stratification-wording case or source-label case for `C.30.STRAT`, function, module-interface relation, signature, flow, control, score, quality term, evidence, gate, work, decision, release, or ordinary prose.
-3. **Recover source-publication relations before architecture assignment.** If the wording relies on a source, publication, view, face, `PublicationUnit`, dashboard, ADR, file, carrier, or source-return relation, apply `C.2.P` for source-use, source-currentness, and publication relations before assigning the architecture or structure claim.
+3. **Recover source-publication relations before architecture assignment.** If the wording relies on a source, publication, view, face, `PublicationUnit`, dashboard, ADR, file, carrier, or source-return relation and a source-use, source-currentness, or publication distinction remains hidden, apply `C.2.P` before assigning the architecture or structure claim. If that distinction and its subject pattern are already recoverable, use the subject pattern directly.
 4. **Choose the subject pattern for the architecture or structure use.**
    - selected structure -> `A.22`;
    - `ArchitectureOf@Context`, selected architecture-relevant structure, or thin conditional `ArchitectureDescription@Context` bridge use -> `C.30`;
@@ -94,7 +94,7 @@ Use the note only when the repair must remain inspectable. A direct local rewrit
    - architecture transformation-flow relation -> `C.30.TFS-REL`;
    - control-structure view -> `C.30.LCA`;
    - cross-scope conflict or frustration triage -> `C.30.ILC`;
-   - stratification wording or source-label wording such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` -> `C.30.STRAT` before choosing the final subject pattern;
+   - stratification wording or source-label wording such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` -> `C.30.STRAT` while the label's technical meaning remains unclear, before choosing the final subject pattern;
    - named C.30 subcase -> that subpattern.
 5. **Assign non-architecture claims to their subject patterns.** If the sentence uses architecture wording to carry relation, function or functionality, mathematical-lens, characteristic and scale, quality, evidence, assurance, gate, work, decision, causal-use, release, or method claim, apply the subject pattern for that claim and keep this pattern only for the architecture or structure wording repair.
 6. **State admissible and non-admissible use.** Say what the reader may do with the repaired wording and what non-admissible adjacent interpretation is blocked.

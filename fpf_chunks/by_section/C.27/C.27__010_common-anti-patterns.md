@@ -6,7 +6,7 @@ section_id: "C.27:8"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__010_common-anti-patterns.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:8 — Common Anti-Patterns"
@@ -61,7 +61,7 @@ keywords:
 | Local speed becomes aggregate agility | Name both bearers, aggregation, continuity, mix shift, and transfer boundary. |
 | Faster becomes better | Reopen value, harm, quality, promise, safety, legal, ethical, or assurance claims through their direct patterns. |
 | Every temporal word gets a profile | Use practical-use relevance, not keyword matching. |
-| Assignment, policy, Method, tool, or record becomes an actor | Name the actual System actor or the non-system object's direct relation. |
+| Influence on the situation is treated as sufficient to identify an actor | Name the actual System actor or the non-system object's direct relation. |
 | C.27 profile becomes promise or gate | Keep the unsupported use explicit and cite the direct promise, service, gate, or assurance result. |
 | Coasting becomes free evidence of success | Name the basis and window as evidence, assumption, or unknown, then state reopen. |
 | Reversibility is assumed | State reversible, costly, irreversible in the window, or unknown only when the use relies on it. |

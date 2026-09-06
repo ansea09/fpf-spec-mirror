@@ -6,12 +6,12 @@ section_id: "F.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__006_solution.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:4 — Solution"
-line_start: 94643
-line_end: 94769
+line_start: 94663
+line_end: 94789
 dependencies:
   - "A.1.1"
   - "A.10"

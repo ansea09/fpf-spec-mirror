@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__011_rationale.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:10 — Rationale"
-line_start: 70917
-line_end: 70924
+line_start: 70908
+line_end: 70915
 dependencies:
   - "A.15.1"
   - "A.22"

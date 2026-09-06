@@ -6,12 +6,12 @@ section_id: "E.5.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__003_problem.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:2 — Problem"
-line_start: 72874
-line_end: 72879
+line_start: 72894
+line_end: 72899
 dependencies:
   - "E.3"
   - "E.5"

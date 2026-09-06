@@ -6,7 +6,7 @@ section_id: "A.6.3.NAR:End"
 section_title: "A.6.3.NAR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__014_a-6-3-nar-end.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:End — A.6.3.NAR:End"

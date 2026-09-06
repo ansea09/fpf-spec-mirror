@@ -6,7 +6,7 @@ section_id: "A.19.SPR:5"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__007_worked-examples.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:5 — Worked examples"
@@ -75,7 +75,7 @@ For automation or consequential reliance, also name the exact source-use relatio
 
 - **Evidence.** Replace “evidence status incomplete” with “The current evidence path does not yet support reliance on claim C; obtain the missing calibration record and check again.” Add exact evidence and currentness references only when the receiving decision needs them.
 - **Publication.** Replace “publication posture allows decision input” with “This publication exposes candidate input X for the decision; the decision rule still evaluates X.” Publication does not decide or assure by itself.
-- **Mathematical lens.** Keep `LensUseAdmissibilityValue` in C.29 when its possible values and intended lens use are defined. State the practical result in ordinary words; the field does not establish evidence, assurance, release, or source authority.
+- **Mathematical lens.** Keep `LensUseBoundaryValue` in C.29 when its possible values and intended lens use are defined. State the practical result in ordinary words; the field does not establish evidence, assurance, release, or source authority.
 - **Temporal claim.** Keep `dynClaimPosture` in C.27 when its values and temporal use are defined. Say which temporal claim is usable and for what purpose; the field does not upgrade its evidence or authority.
 - **Project-side state.** Put review, dispatch, release, admission, or source-control status in the project record that carries it. A pattern may mention only the user-facing boundary needed for its own subject.
 

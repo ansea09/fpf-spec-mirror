@@ -6,7 +6,7 @@ section_id: "A.18:5"
 section_title: "Archetypal Grounding (System & Episteme Examples)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__006_archetypal-grounding-system-episteme-examples.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:5 — Archetypal Grounding (System & Episteme Examples)"

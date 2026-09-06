@@ -6,12 +6,12 @@ section_id: "I.2"
 section_title: ".2 - Partly-said cue and language-state discovery"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__003_2-partly-said-cue-and-language-state-discovery.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2 — .2 - Partly-said cue and language-state discovery"
-line_start: 107530
-line_end: 107556
+line_start: 107550
+line_end: 107576
 dependencies:
   - "E.10"
   - "E.11"

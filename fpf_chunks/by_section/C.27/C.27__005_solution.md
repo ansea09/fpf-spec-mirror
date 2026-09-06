@@ -6,7 +6,7 @@ section_id: "C.27:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__005_solution.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:3 — Solution"
@@ -103,7 +103,7 @@ Ordinary practitioner prose may say, for example, “the engineer slowed the rol
 
 If the receiving claim relies on performed Work, identify the actual System actor, recover its A.13 core, and independently admit the dated Work under A.15.1. Add F.6 afterward only when the temporal claim also needs precise assignment-bound attribution. If the claim relies on a local system-role kind, System classification, or assignment, add each distinction separately. An assignment does not act and does not supply authority; cite its directly declared relation species and exact obtaining occurrence while still naming the holder System.
 
-A Method, policy episteme, tool, setting, physical condition, resource input, assignment, capability, or record is not another actor merely because it affects the situation. Name its actual direct relation to the temporal behavior, or keep it as an unresolved or source-side intervention claim. Keep authority, WorkPlan, capability, performed Work, and claimed effect separate.
+For a non-system input, name its actual direct relation to the temporal behavior, or keep it as an unresolved or source-side intervention claim. Keep authority, WorkPlan, capability, performed Work, and claimed effect separate.
 
 #### C.27:3.3 - Rhythm, Coasting, and Reversibility
 

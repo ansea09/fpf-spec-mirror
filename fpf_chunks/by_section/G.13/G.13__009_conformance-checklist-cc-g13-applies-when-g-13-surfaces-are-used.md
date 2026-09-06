@@ -6,12 +6,12 @@ section_id: "G.13:8"
 section_title: "Conformance Checklist (CC‑G13; applies when G.13 surfaces are used)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__009_conformance-checklist-cc-g13-applies-when-g-13-surfaces-are-used.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:8 — Conformance Checklist (CC‑G13; applies when G.13 surfaces are used)"
-line_start: 107376
-line_end: 107408
+line_start: 107396
+line_end: 107428
 dependencies:
   - "A.18"
   - "A.19"

@@ -6,7 +6,7 @@ section_id: "C.29:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__001_intro.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:intro — Intro"
@@ -54,7 +54,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseAdmissibilityValue"
+  - "LensUseBoundaryValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -84,7 +84,7 @@ keywords:
 
 **Relation-ontology boundary.** A formula, query, path, graph, diagram, name, assertion, or definition can represent or state a claim or derivation; it does not make a relation obtain, admit a relation kind, or supply occurrence identity. Resolve those questions first through `A.6.P`, `A.6.RCD`, and the direct subject settlement. Use C.29 only for the selected representation, its explicit correspondence, and the preserved and lost structure.
 
-**Output boundary.** C.29 outputs are lens-use notes, one-line entries, mini-cards, full cards, and neighboring-pattern notes. They state which declared mathematical-lens use is bounded as usable, when to stop or return, and which neighboring FPF pattern defines or constrains any non-lens claim being made. Project approval, work, evidence, assurance, decision, or release use must be recorded through the subject pattern for that use.
+**Output boundary.** C.29 outputs are lens-use notes, one-line entries, mini-cards, full cards, and neighboring-pattern notes. For claim-bearing mathematical-lens use, they state which declared mathematical-lens use is bounded as usable, when to stop or return, and which neighboring FPF pattern defines or constrains any non-lens claim being made. Project approval, work, evidence, assurance, decision, or release use must be recorded through the subject pattern for that use.
 
 **Use this when.** Use this pattern when a mathematical object, formalism, simulation object, learned representation, or mathematical family is being used to make a project claim more inspectable, or when the lack of such a lens hides preserved structure, lost structure, invariants, obstruction, approximation, or stop condition.
 

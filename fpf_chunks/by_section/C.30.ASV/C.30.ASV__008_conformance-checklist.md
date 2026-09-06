@@ -6,12 +6,12 @@ section_id: "C.30.ASV:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__008_conformance-checklist.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:7 — Conformance Checklist"
-line_start: 61280
-line_end: 61297
+line_start: 61275
+line_end: 61292
 dependencies:
   - "A.1"
   - "A.10"
@@ -68,9 +68,9 @@ keywords:
 | **CC-ASV-6 Correspondence.** | Cross-view claims are carried by exact correspondence claims or independently established obtaining relations, not by prose, shared packaging, or graph adjacency alone. | Add a correspondence claim or direct relation, or stop at a single-view statement without a cross-view consistency claim. |
 | **CC-ASV-7 No representation or publication collapse.** | A diagram, model, table, dashboard, generated relation graph, ADR, publication occurrence, form, or carrier is kept separate from the view episteme and selected structure. | Name the exact description episteme, any C.29 representation, and the E.24.PUB occurrence, form, and carrier separately; claim `U.View` only when E.17.0 conformance obtains. |
 | **CC-ASV-8 No single-view architecture.** | If a decision uses an architecture view, it names the affected structures and views, not only one favored diagram. | Add affected structure and view refs, or narrow the decision to the single view's admissible use. |
-| **CC-ASV-9 No proof overread.** | The view does not stand in for empirical grounding, evidence, safety proof, causal proof, gate decision, or work record; each such claim needs its own obtaining relation and applicable pattern. | Use `EpistemeEmpiricalGroundingRelation`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, or `C.28` for the applicable claim, or mark it unsupported; do not add more ASV fields as a substitute. |
+| **CC-ASV-9 No proof overread.** | The view does not stand in for empirical grounding, evidence, safety proof, causal proof, gate decision, or work record; each such claim needs the basis required by its applicable pattern. | Use `EpistemeEmpiricalGroundingRelation` for grounding, `A.10` for bounded source-to-use reliance, `G.6` for citable provenance paths, `B.3` only for named assurance, `A.20` for internal-constraint validity, `A.21` for gate decisions, `C.28` for causal support, and the applicable safety or Work pattern for its result; mark an unsupported claim as such. Do not add more ASV fields as a substitute. |
 | **CC-ASV-10 Relation or correspondence record named by value.** | Every cross-reference names the exact kind, claim, relation, or record: selected structure, structure kind, viewpoint, conformance occurrence, correspondence claim or relation, allocation record, bridge record, evidence relation, publication relation when publication is current, interface specification, or applicable record kind named by value. | Replace the ambiguous reference with the object that actually carries the claim, or split the sentence into separate objects. |
-| **CC-ASV-11 Source return.** | When compression, extraction, coarsening, evidence reuse, publication, or many-to-many allocation hides distinctions, `SourceReturnCondition` is present. | Add one source-return trigger, or narrow the view's admissible use so omitted distinctions are not used for action, assurance, causal use, law-domain review, regulatory review, or reopening. |
+| **CC-ASV-11 Source return.** | When compression, extraction, coarsening, evidence reuse, publication, or many-to-many allocation hides distinctions on which the intended use relies, `SourceReturnCondition` is present. | Add one source-return trigger, or narrow the view's admissible use so omitted distinctions are not used for action, assurance, causal use, law-domain review, regulatory review, or reopening. |
 | **CC-ASV-12 Architecture-name recovery.** | Every `<X>Architecture` phrase recovers exact selected structure, `<X>StructureKind`, or a declared local relation or claim. | Rewrite the phrase through `ArchitectureStructureKindTriage@Project`; if no relation is being claimed, keep the name as Plain prose and do not let it carry ontology. |
 | **CC-ASV-13 Useful action.** | The repair leaves a surviving admissible architecture move: inspect, split, relate, downgrade, generate candidates, state a structural description or view, add correspondence, add source return, use the applicable pattern, or stop. | Restore one move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
 

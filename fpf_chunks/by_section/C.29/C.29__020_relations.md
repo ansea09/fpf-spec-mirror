@@ -6,12 +6,12 @@ section_id: "C.29:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__020_relations.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:15 — Relations"
-line_start: 58583
-line_end: 58595
+line_start: 58586
+line_end: 58598
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,7 +54,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseAdmissibilityValue"
+  - "LensUseBoundaryValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"

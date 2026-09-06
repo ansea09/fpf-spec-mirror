@@ -6,12 +6,12 @@ section_id: "E.18.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__011_consequences.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:9 — Consequences"
-line_start: 87421
-line_end: 87428
+line_start: 87441
+line_end: 87448
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,7 +6,7 @@ section_id: "A.7.CP:End"
 section_title: "A.7.CP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__015_a-7-cp-end.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:End — A.7.CP:End"

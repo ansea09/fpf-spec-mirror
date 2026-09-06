@@ -6,7 +6,7 @@ section_id: "C.28:11"
 section_title: "SoTA and lineage"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__013_sota-and-lineage.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:11 — SoTA and lineage"
@@ -59,7 +59,7 @@ keywords:
 | Current counterfactual theory | Correa and Bareinboim, 2025, [Counterfactual Graphical Models](https://proceedings.mlr.press/v267/correa25a.html) | Name graph form and calculus when the derivation depends on them. Do not make the formalism part of ordinary triage or treat a graph label as a result. |
 | Current reporting practice | TARGET Statement, BMJ 2025, [Reporting of observational studies explicitly emulating a target trial](https://www.bmj.com/content/390/bmj-2025-087179) | Retain causal question and estimand, assumptions, protocol-to-data mapping, estimate and precision, and sensitivity reporting. Reject the overread that complete reporting is identification or low risk of bias. |
 | Current bounded transport research | NeurIPS 2025, [Causal Effect Estimation under Covariate Shift](https://proceedings.neurips.cc/paper_files/paper/2025/hash/795679e4056817ee71d37680939e980f-Abstract-Conference.html) | Keep identification and estimation under a named shift explicit. This does not replace the broader endpoint and assumption requirements for other transport problems. |
-| Current sampling-realizability decision | Raghavan and Bareinboim, ICLR 2025, [Counterfactual Sampling Realizability](https://proceedings.iclr.cc/paper_files/paper/2025/hash/e59c4efcaed615db8911fecb84c1d51b-Abstract-Conference.html) | **Adopt:** make realizability a replayable prospective result with its decision Method and construction, bound, or obstruction. Reject the earlier C.28 collapse with WorkPlan, dated Work, or data. |
+| Current sampling-realizability decision | Raghavan and Bareinboim, ICLR 2025, [Counterfactual Realizability](https://proceedings.iclr.cc/paper_files/paper/2025/hash/e59c4efcaed615db8911fecb84c1d51b-Abstract-Conference.html) | **Adopt:** make realizability a replayable prospective result with its decision Method and construction, bound, or obstruction. Keep realizability separate from a WorkPlan, dated Work, or data. |
 | Current Layer-3 identification and bounds | Raghavan and Bareinboim, 2026, [Causal Identification from Counterfactual Data: Completeness and Bounding Results](https://arxiv.org/abs/2602.23541) | **Adopt as composition, not collapse:** realized counterfactual data may feed a separate identification or bound result. Producing those data still needs dated Work and an evidence path to the result; realizability alone supplies neither data nor identification. |
 | Lineage and current domain practice: potential outcomes | Rubin 1974 and later target-trial practice | Retain estimand, contrast, assignment/time zero, follow-up, outcome, and analysis plan. Use `PotentialOutcomeContrastRef`, not an unadmitted U-kind. |
 | Conditional estimator family | Chernozhukov et al. 2018, [Double/debiased machine learning](https://academic.oup.com/ectj/article/21/1/C1/5056401) | Use orthogonal scores and cross-fitting only for a selected DML Method. Reject their use as universal estimation fields. |

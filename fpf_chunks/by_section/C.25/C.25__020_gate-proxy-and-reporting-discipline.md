@@ -6,7 +6,7 @@ section_id: "C.25:19"
 section_title: "Gate, Proxy, and Reporting Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__020_gate-proxy-and-reporting-discipline.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:19 — Gate, Proxy, and Reporting Discipline"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.ID.CR.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
-line_start: 83880
-line_end: 84598
+line_start: 83900
+line_end: 84618
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -752,7 +752,7 @@ The gain is practical: a team can compare available source epistemes or source p
 
 ### E.17.ID.CR:12a - C.29 mathematical-lens use relation
 
-> When a bounded comparative review unit uses a mathematical comparison criterion, rival lens, invariant, obstruction, or structural similarity, `E.17.ID.CR` still works over comparison unit, viewpoint, comparison criterion, review-unit boundary, and bounded-use boundary. The applicable `C.29` output for the stated use (`MathLensUse.LensCandidateNote`, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or `MathLensUse.FullCard` when required) can be cited only for the mathematical-lens use: candidate mathematical object, lens mapping mode, preserved and lost structure, `LensUseAdmissibilityValue`, bounded use, blocked downstream use, and stop condition. It does not create the comparison record, adjudicate rival publications, or authorize bridge, evidence, selector, or benchmark claims outside the comparative-review-unit record.
+> When a bounded comparative review unit uses a mathematical comparison criterion, rival lens, invariant, obstruction, or structural similarity, `E.17.ID.CR` still works over comparison unit, viewpoint, comparison criterion, review-unit boundary, and bounded-use boundary. The applicable `C.29` output for the stated use can be cited only for the mathematical-lens use. If that output is `MathLensUse.LensCandidateNote`, retain its first-candidate recognition use and next lens-use action and output; `CandidateMathObject?` remains optional. When citing an output for a claim-bearing mathematical-lens use, use the exact `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or `MathLensUse.FullCard` result required by C.29 and keep recoverable its candidate mathematical object, lens mapping mode, preserved and lost structure, and stop condition, plus `LensUseBoundaryValue` and `declaredLensUse` where C.29 requires them; include `blockedLensOverread?` only when it passes F.19's plausible-reader test. Keep the review unit's bounded use and blocked downstream claim or effect explicit. The C.29 output does not create the comparison record, adjudicate rival publications, or authorize bridge, evidence, selector, or benchmark claims outside the comparative-review-unit record.
 
 ### E.17.ID.CR:End
 

@@ -6,12 +6,12 @@ section_id: "C.29:14"
 section_title: "Informative taxonomy seed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__019_informative-taxonomy-seed.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:14 — Informative taxonomy seed"
-line_start: 58563
-line_end: 58582
+line_start: 58566
+line_end: 58585
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,7 +54,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseAdmissibilityValue"
+  - "LensUseBoundaryValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -76,7 +76,7 @@ Use this recognition menu only to identify a possible lens family and likely nei
 
 | Lens family | What it catches | FPF use | Common stop condition | Likely neighboring patterns |
 |---|---|---|---|---|
-| **Boundary, Stokes, and cohomology** | Boundary operators, exterior-derivative or divergence-like local-to-global relations, flows, closed relation and relation named by value splits, and topological obstructions. | Use when local rules, interfaces, flows, or balances must be related to a global claim or blocked global extension. | Does not license all boundary phenomena as the same physical mechanism; evidence, measurement, and bridges remain neighboring work. | `F.9`, `A.19`, `C.16`, `A.10` |
+| **Boundary, Stokes, and cohomology** | Boundary operators, exterior-derivative or divergence-like local-to-global relations, flows, closed/exact distinctions, and topological obstructions. | Use when local rules, interfaces, flows, or balances must be related to a global claim or blocked global extension. | Does not license all boundary phenomena as the same physical mechanism; evidence, measurement, and bridges remain neighboring work. | `F.9`, `A.19`, `C.16`, `A.10` |
 | **Obstruction-first and failed-transfer lens** | Impossibility, incompatibility, failed composition, blocked transfer, missing invariant, or diagnostic boundary. | Use when the useful mathematical result marks where a transfer, comparison, model, or simplification stops. | Does not make the rival claim true or the failure cause known without the neighboring-pattern result named by value. | `F.9`, `A.6.P`, `A.10`, `E.19` |
 | **Symmetry, invariance, equivariance, and Noether** | Group actions, invariants, equivariant representations, conservation-like constraints, and geometric-deep-learning regularities. | If the problem depends on sameness under transformations or a conservation-like claim, ask which transformations are declared as preserved or invariant, what remains invariant, and which distinctions are lost. | Does not transfer physical conservation law, causal mechanism, or coordinate-free truth without domain evidence. | `A.10`, `C.16`, `A.19`, domain pattern |
 | **Variational, action, optimization, and Legendre** | Action, energy, free-energy, loss, value, entropy, or resource functionals; stationarity, extrema, dual variables, potentials, and Legendre or convex duality. | Use when the useful lens is an extremal condition, constrained variation space, boundary condition, dual view, or trade-off. | Does not imply the target literally optimizes unless dynamics and evidence-provenance claims are governed by their neighboring patterns. | `A.3.3`, `C.28`, `A.10`, `G.6` |

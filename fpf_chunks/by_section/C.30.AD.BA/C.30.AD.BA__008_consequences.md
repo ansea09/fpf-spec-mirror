@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:5"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__008_consequences.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:5 — Consequences"
-line_start: 59997
-line_end: 60002
+line_start: 60000
+line_end: 60005
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,7 +54,7 @@ keywords:
 
 ### C.30.AD.BA:5 - Consequences
 
-The pattern makes multi-view built-asset descriptions more work to assemble because a tool container no longer supplies ontology by appearance. That cost is local and reviewable: each description gains exact C.2.1 identity; each asserted view gains an exact selected structure, viewpoint, and conformance relation; each designation use gains an exact referent, scheme, aspect structure, qualification window, and direct-relation disposition; and each live description gains an explicit currentness boundary.
+Assembling multi-view built-asset descriptions takes additional work because the engineer must recover the objects and relations represented in the tool's outputs. That cost is local and reviewable: each description gains exact C.2.1 identity; each asserted view gains an exact selected structure, viewpoint, and conformance relation; each designation use gains an exact referent, scheme, aspect structure, qualification window, and direct-relation disposition; and each live description gains an explicit currentness boundary.
 
 The gain is stronger reuse. A changed model edition, replacement sensor system, revised designation scheme, new representation, or new publication can be incorporated without changing the built asset's identity, inventing an architecture occurrence, or silently reidentifying a description. Architecture evaluation can use the description while remaining distinct from exchange checking, information currentness, evidence sufficiency, assurance, Work, and project locality.
 

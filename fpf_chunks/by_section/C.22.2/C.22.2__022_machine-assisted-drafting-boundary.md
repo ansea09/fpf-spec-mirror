@@ -6,7 +6,7 @@ section_id: "C.22.2:21"
 section_title: "Machine-Assisted Drafting Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__022_machine-assisted-drafting-boundary.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:21 — Machine-Assisted Drafting Boundary"

@@ -6,17 +6,15 @@ section_id: "C.30.ILC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__002_problem-frame.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:1 — Problem frame"
-line_start: 61667
-line_end: 61703
+line_start: 61662
+line_end: 61696
 dependencies:
   - "A.10"
   - "A.22"
-  - "A.6.F"
-  - "A.6.M"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -24,8 +22,6 @@ dependencies:
   - "C.29"
   - "C.30"
   - "C.30.ASV"
-  - "C.30.LCA"
-  - "C.30.TFS-REL"
   - "C.31.ASAP"
   - "C.32"
   - "C.32.MLAO"
@@ -74,11 +70,9 @@ Entry condition: if declared holon levels or declared scopes, the selected struc
 
 What goes wrong if C.30.ILC is missed: a local improvement, control layer, scale label, interface grammar, or evidence reuse is treated as whole-holon architecture adequacy while the residual moves into another declared holon level or declared scope.
 
-What this buys: the practitioner can name the residual-bearing locus, the declared levels or scopes, the local repair already attempted, and one first architecture move without turning multilevel frustration, scale, ethics, evidence, or mathematical-lens use into this pattern's object.
+What this buys: the practitioner can keep useful conflict or frustration language as an entry label while naming the residual-bearing locus, the affected declared holon levels or scopes, the selected structure that carries them, the local repair already attempted, and one first architecture move or subject-pattern application.
 
-What C.30.ILC buys in practice: the practitioner can keep useful conflict or frustration language as an entry label while governing the architecture residual itself: affected holon levels or scopes, the selected structure that carries them, residual-bearing locus, and one admissible architecture move or subject-pattern application.
-
-`Interlevel conflict` and `frustration` may appear in ordinary project descriptions, but the conforming record governs the residual through declared holon levels or declared scopes, the selected structure that carries them, and a residual-bearing locus. The pattern does not create a generic level scale or `U.Frustration`. It asks which declared holon level, declared scope, aggregation scope, control layer, organizational scope, work scope, evidence scope, system scope, environment scope, scale window, interface grammar, allocation boundary, publication section, or source-return condition bears the residual. A system level or episteme level is a special case of a declared holon level.
+`Interlevel conflict` and `frustration` may appear in ordinary project descriptions, but the conforming record describes the residual through declared holon levels or declared scopes, the selected structure that carries them, and a residual-bearing locus. The pattern does not create a generic level scale or `U.Frustration`. It asks which declared holon level, declared scope, aggregation scope, control layer, organizational scope, work scope, evidence scope, system scope, environment scope, scale window, interface grammar, allocation boundary, publication section, or source-return condition bears the residual. A system level or episteme level is a special case of a declared holon level.
 
 Not this pattern when the issue under repair is only ethical value framing, interlevel ethical conflict structure, ethical mediation or decision use, measurement, scale relation, coarse-graining relation, mathematical-lens validation, candidate generation, residual-reducing candidate-set work, final selection, causal outcome, evidence, or assurance. Use the subject pattern and keep C.30.ILC only to the architecture residual-bearing locus.
 

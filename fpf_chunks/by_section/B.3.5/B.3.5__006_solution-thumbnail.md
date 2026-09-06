@@ -6,7 +6,7 @@ section_id: "B.3.5:4"
 section_title: "Solution (thumbnail)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__006_solution-thumbnail.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:4 — Solution (thumbnail)"

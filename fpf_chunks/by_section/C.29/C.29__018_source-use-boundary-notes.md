@@ -6,12 +6,12 @@ section_id: "C.29:13b"
 section_title: "Source-use boundary notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__018_source-use-boundary-notes.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13b — Source-use boundary notes"
-line_start: 58555
-line_end: 58562
+line_start: 58558
+line_end: 58565
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,7 +54,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseAdmissibilityValue"
+  - "LensUseBoundaryValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -76,5 +76,5 @@ keywords:
 2. Vanchurin-style physical or biological interpretations remain claims from the cited source unless a local C.29 output and neighboring evidence, causal-use, validation, or assurance pattern bound the use. C.29 does not promote those interpretations to FPF law.
 3. `SAND-THREAD-MATH-LINKS-2026-05-12` is a recognition cue, not a mathematical proof source or FPF law.
 4. CLT-as-RG or fixed-point wording is retained only as a structural modeling viewpoint. A safe formulation is: under the usual normalization, the Gaussian is an attractive fixed point for finite-variance distributions; other stable laws are other fixed points under suitable normalization.
-5. The intake correction from direct identification to structure-preserving representation is selected and becomes a central ontology guard.
+5. The ontology guard is structure-preserving representation through an explicitly declared mapping.
 

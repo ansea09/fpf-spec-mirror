@@ -6,15 +6,16 @@ section_id: "C.30.TFS-REL:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__007_bias-annotation.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:6 — Bias-Annotation"
-line_start: 62251
-line_end: 62264
+line_start: 62242
+line_end: 62255
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.1"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -53,11 +54,11 @@ keywords:
 
 ### C.30.TFS-REL:6 - Bias-Annotation
 
-Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: architecture-to-transformation-flow uses of E.18 TFS or E.18.NET network objects.
+Bias lenses: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: architecture-to-transformation-flow uses of E.18 TFS or E.18.NET network objects.
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Structure-or-description-as-architecture bias | Direct architecture relations and bounded claims stay with C.30, descriptions with C.30.AD, representations with C.29, mathematical descriptions with E.18.2, math-lens uses with C.29, and structural views with C.30.ASV/E.17.0. |
+| Structure-or-description-as-architecture bias | Direct architecture relations and bounded claims stay with C.30, descriptions with C.30.AD, mathematical representations with C.29, mathematical descriptions with E.18.2, math-lens uses with C.29, and structural views with C.30.ASV/E.17.0. |
 | Function-flow/change collapse | Required functional content, selected transformation-flow structure, and actual A.3.4 transformation remain separate. Functional and flow structures are related, not identical by default. |
 | Non-flow claim overread | The relation table assigns non-flow claim kinds to their governing patterns. |
 | Mathematical overread | Mathematical-lens use of a graph or valuation is governed by C.29. |

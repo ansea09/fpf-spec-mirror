@@ -6,7 +6,7 @@ section_id: "C.19.1:5"
 section_title: "Archetypal grounding (post-2015; informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__006_archetypal-grounding-post-2015-informative.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:5 — Archetypal grounding (post-2015; informative)"

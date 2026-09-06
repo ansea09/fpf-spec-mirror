@@ -6,12 +6,12 @@ section_id: "C.30.AD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__003_problem-frame.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:1 — Problem frame"
-line_start: 59387
-line_end: 59402
+line_start: 59390
+line_end: 59405
 dependencies:
   - "A.1"
   - "A.10"
@@ -77,7 +77,7 @@ keywords:
 
 ### C.30.AD:1 - Problem frame
 
-Architecture practice needs descriptions that remain useful over time: multi-view documents, view models, generated relation graphs, transformation-flow views, control sketches, module or interface diagrams, deployment views, model cards, system cards, and architecture-decision description sets. Teams use them to compare, reuse, refresh, and inspect architecture claims. If a project also claims a system-role assignment, Work attribution, authority, or responsibility, keep that as a separate claim: use A.2.1 and F.6 for assignment and Work, and an admitted domain relation or an A.6.RCD missing governor for responsibility. `VP.AllocationResponsibility` is only a clue to the concern.
+Architecture practice needs descriptions that remain useful over time: multi-view documents, view models, generated relation graphs, transformation-flow views, control sketches, module or interface diagrams, deployment views, model cards, system cards, and architecture-decision description sets. Teams use them to compare, reuse, refresh, and inspect architecture claims. If a project also claims a system-role assignment, Work attribution, authority, or responsibility, keep that as a separate claim: use A.2.1 for assignment, A.15.1 for Work admission, and F.6 only for assignment-bound Work attribution; use an admitted domain relation for authority or responsibility, or return an A.6.RCD missing governor if a rule needed to state or test that claim is absent. `VP.AllocationResponsibility` is only a clue to the concern.
 
 A description is not the architecture, an architecture relation that actually holds, or the selected structure. The same holon or relation occurrence can have several descriptions, and a description set can contain several separately identified epistemes. A description counts as `U.View` only while the E.17.0 conformance relation actually holds between that same episteme and one viewpoint episteme. Different views can hide, lose, coarsen, or emphasize different structures: for example functional, flow, control, module, interface, placement, information-custody, evidence-reuse, assurance, or scale structure.
 

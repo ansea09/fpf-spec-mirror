@@ -6,7 +6,7 @@ section_id: "C.16.Q:7"
 section_title: "Conformance Checklist (CC-C16Q)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__009_conformance-checklist-cc-c16q.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:7 — Conformance Checklist (CC-C16Q)"

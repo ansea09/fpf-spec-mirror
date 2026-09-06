@@ -6,12 +6,12 @@ section_id: "F.17:9"
 section_title: "Layouts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__011_layouts.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:9 — Layouts"
-line_start: 98736
-line_end: 98753
+line_start: 98756
+line_end: 98773
 dependencies:
   - "A.1.1"
   - "A.10"

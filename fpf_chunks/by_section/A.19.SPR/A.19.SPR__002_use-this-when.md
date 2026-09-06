@@ -6,7 +6,7 @@ section_id: "A.19.SPR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__002_use-this-when.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:0 — Use this when"
@@ -57,7 +57,7 @@ Use this pattern when a phrase such as “the system is ready”, “the source 
 
 **What this buys.** A reader can understand the statement and its next practical use without learning a hidden status vocabulary.
 
-Typical triggers include `state`, `status`, `posture`, `stance`, `currentness`, `validity`, `stable`, `accepted`, `blocked`, `candidate`, `degraded`, `readiness`, `ready`, and similar compounds. A precise-looking field such as `LensUseAdmissibilityValue` or `dynClaimPosture` is also a trigger when its object, possible values, or rule cannot be recovered.
+Typical triggers include `state`, `status`, `posture`, `stance`, `currentness`, `validity`, `stable`, `accepted`, `blocked`, `candidate`, `degraded`, `readiness`, `ready`, and similar compounds. A precise-looking field such as `LensUseBoundaryValue` or `dynClaimPosture` is also a trigger when its object, possible values, or rule cannot be recovered.
 
 **Not this pattern when.**
 

@@ -6,7 +6,7 @@ section_id: "C.27:5"
 section_title: "Optional Boundary-Trigger Reference"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__007_optional-boundary-trigger-reference.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:5 — Optional Boundary-Trigger Reference"
@@ -90,7 +90,7 @@ Skip this section for ordinary local diagnosis and planning. It is a trigger-and
 
 #### C.27:5.1 - Pattern-Use Notes
 
-- A local resistance value of unknown is allowed. It blocks stronger use; it does not force a new theory.
+- A local resistance value of unknown is allowed. It blocks stronger use without the direct evidence or assumption boundary required for that use; it does not force a new theory.
 - A historical trend does not supply a control horizon, update rule, constraints, or stability.
 - Evidence from policy A does not carry policy B merely because both policies concern the same rate.
 - Equal final scores do not erase unequal adaptation windows, effort, rework, validity, or recovery.
@@ -99,5 +99,5 @@ Skip this section for ordinary local diagnosis and planning. It is a trigger-and
 - A temporal metric does not become value merely by publication or target use.
 - Measurement as action does not make QL relevant by itself.
 - Adding fields does not turn a diagnostic or planning claim into a causal, benchmark, promise-like, gate, or assurance claim. That use changes only when the required direct result and supported-use boundary are present.
-- Add no thin C.27 echo to every neighboring pattern. The C.27 result cites the direct result only when its supported use relies on it.
+- The C.27 result cites the direct result only when its supported use relies on it.
 

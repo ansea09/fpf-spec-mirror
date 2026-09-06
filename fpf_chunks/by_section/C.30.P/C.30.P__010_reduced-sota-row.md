@@ -6,12 +6,12 @@ section_id: "C.30.P:7"
 section_title: "Reduced SoTA row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__010_reduced-sota-row.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:7 — Reduced SoTA row"
-line_start: 60227
-line_end: 60240
+line_start: 60230
+line_end: 60243
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,5 +63,5 @@ Current architecture-description, model, view, and decision-record practice trea
 | arc42 current architecture documentation template practice. | Current practice and reference source for architecture communication, constraints, decisions, and cross-cutting concerns. | Disciplines the distinction between documentation template sections, source publications, decisions, architecture claims, and conditional architecture-description use. | Does not let a documentation section, template heading, or dashboard become architecture authority by label. |
 | ADR and MADR architecture decision record practice. | Current practice and lineage source for decision-record separation; current empirical ADR work may refine template choice, but does not replace FPF decision ontology. | Disciplines the ADR worked case and the assignment to `C.2.P`, `C.11`, `A.15`, or `C.30`: an ADR may record or motivate a decision; it is not automatically the architecture decision, work execution, or architecture itself. | Does not import ADR label as gate, release, proof, or FPF decision authority. |
 
-This row belongs in this pattern because it blocks diagram-as-architecture, graph-as-proof, view-as-structure-kind, publication-as-claim, and ADR-as-decision overreads. It does not import any external standard as FPF ontology.
+These distinctions block diagram-as-architecture, graph-as-proof, view-as-structure-kind, publication-as-claim, and ADR-as-decision overreads. This use does not import any external standard as FPF ontology.
 

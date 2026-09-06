@@ -6,7 +6,7 @@ section_id: "C.28:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__004_problem.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:2 — Problem"
@@ -51,7 +51,7 @@ keywords:
 
 ### C.28:2 - Problem
 
-Three collapses produce most causal overclaim:
+Three kinds of collapse can produce causal overclaim:
 
 1. **Rung collapse:** observation, intervention, and counterfactual comparison are treated as the same question.
 2. **Support collapse:** data regime, identification, estimation, direct sampling, and simulation are treated as one alternative-valued “basis”.

@@ -6,15 +6,16 @@ section_id: "C.30.TFS-REL:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__006_archetypal-grounding.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:5 — Archetypal Grounding"
-line_start: 62243
-line_end: 62250
+line_start: 62234
+line_end: 62241
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.1"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -57,5 +58,5 @@ keywords:
 | --- | --- |
 | Tell | A practitioner sees one TFS or several connected TFSs and wants to use that flow structure in an architecture question. C.30.TFS-REL makes them name the exact TFS or network and exact architecture locus; for a network, they choose one containing holon/relation or the exact participating holons and relations/claims. The result is one usable trace or an exact stop, not an architecture relation inferred from the diagram. |
 | Show: `U.System` | A software system, plant, AI agent, neural network, vehicle, or supply chain may have transformation-flow structure. A diagram or mathematical description can inform architecture reasoning about that structure without carrying the required-effect, actual-transformation, or other non-flow claims named in `C.30.TFS-REL:4.3`. |
-| Show: `U.Episteme` | A mathematical graph description, generated relation graph, code-agent probe, neural-network diagram, dashboard, or architecture note is an episteme, representation, view, or publication. It can support the transformation-flow use only when exact E.18 TFS or E.18.NET network, the selected network architecture branch when applicable, edition/plane/context pins, correspondence, any relied-on row locator, hidden relation-structure return condition, and admissible use are recoverable. |
+| Show: `U.Episteme` | For a mathematical graph description, generated relation graph, code-agent probe output, neural-network diagram, dashboard, or architecture note, distinguish the description episteme from its representation or publication; E.17.0 governs whether that episteme is a view. The episteme can support the transformation-flow use only when exact E.18 TFS or E.18.NET network, the selected network architecture branch when applicable, edition/plane/context pins, correspondence, any relied-on row locator, hidden relation-structure return condition, and admissible use are recoverable. |
 

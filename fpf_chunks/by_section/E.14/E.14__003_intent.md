@@ -6,12 +6,12 @@ section_id: "E.14:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__003_intent.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:1 — Intent"
-line_start: 80603
-line_end: 80609
+line_start: 80623
+line_end: 80629
 dependencies:
   - "B.3.5"
   - "C.13"

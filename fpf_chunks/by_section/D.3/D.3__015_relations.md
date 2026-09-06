@@ -6,12 +6,12 @@ section_id: "D.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__015_relations.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:11 — Relations"
-line_start: 69093
-line_end: 69103
+line_start: 69084
+line_end: 69094
 dependencies:
   - "A.1"
   - "A.10"

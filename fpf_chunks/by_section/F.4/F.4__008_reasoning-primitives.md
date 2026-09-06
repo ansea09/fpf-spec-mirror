@@ -6,12 +6,12 @@ section_id: "F.4:6"
 section_title: "Reasoning Primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__008_reasoning-primitives.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:6 — Reasoning Primitives"
-line_start: 94119
-line_end: 94150
+line_start: 94139
+line_end: 94170
 dependencies:
   - "A.15"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__005_forces.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:3 — Forces"
-line_start: 77682
-line_end: 77691
+line_start: 77702
+line_end: 77711
 dependencies:
   - "A.2"
   - "A.2.1"

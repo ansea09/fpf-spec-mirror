@@ -6,12 +6,12 @@ section_id: "E.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__003_problem.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.1 — Vision & Mission: “Operating System for Thought”"
   - "E.1:2 — Problem"
-line_start: 69470
-line_end: 69472
+line_start: 69461
+line_end: 69463
 dependencies:
   - "E.2"
 keywords:

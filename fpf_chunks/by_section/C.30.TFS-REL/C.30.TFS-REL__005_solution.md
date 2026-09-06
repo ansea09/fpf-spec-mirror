@@ -6,15 +6,16 @@ section_id: "C.30.TFS-REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__005_solution.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:4 — Solution"
-line_start: 62018
-line_end: 62242
+line_start: 62011
+line_end: 62233
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.1"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -76,7 +77,7 @@ At least one architecture-side field and at least one E.18 or E.18.NET field mus
 
 #### C.30.TFS-REL:4.1 - Use trigger
 
-Use this pattern only when an actual `ArchitectureRelation` occurrence, selected architecture-relevant structure, exact architecture structural view, functional-structure view, transformation-flow-structure claim, or conditional `ArchitectureDescription` use depends on one or more E.18 or E.18.NET objects:
+Use this pattern only when an actual `ArchitectureRelation` occurrence, selected architecture-relevant structure, exact architecture structural view, functional-structure view, transformation-flow-structure claim, or conditional `ArchitectureDescription` use depends on one or more of the following:
 
 - `TransformationFlowStructureRef`;
 - `TransformationFlowStructureNetworkRef`, when architecture use selects an E.18.NET-conforming network;
@@ -88,13 +89,13 @@ Use this pattern only when an actual `ArchitectureRelation` occurrence, selected
 - a correspondence claim or independently governed relation between functional structure and transformation-flow structure;
 - a generated or extracted relation graph used as candidate input for the architecture-to-transformation-flow use.
 
-If the sentence only says that Work occurred, use A.15 or the governing Work pattern. If it says that an actual referent changed, use A.3.4 before citing a `U.Transformation`. If it only says that one selected TFS exists, use E.18; if it only says that one independently identified E.18.NET-conforming TFS network is selected, use E.18.NET. If the sentence uses a graph-shaped expression as mathematical description, use E.18.2. If it relies on a mathematical lens, use C.29.
+If the sentence only says that Work occurred, use A.15.1 or the governing Work pattern. If it says that an actual referent changed, use A.3.4 before citing a `U.Transformation`. If it only says that one selected TFS exists, use E.18; if it only says that one independently identified E.18.NET-conforming TFS network is selected, use E.18.NET. If the sentence uses a graph-shaped expression as mathematical description, use E.18.2. If it relies on a mathematical lens, use C.29.
 
 Use `transformationFlowUnfoldingStructureRef?` only when the architecture use depends on one A.22-selected CGUS qualified under `E.18.3`. The ref names that selected CGUS; its E.18.3 account separately names one independently identified E.18 substrate branch and the exact positions, bindings, and already-obtaining occurrences the CGUS uses. Architecture, decision, work, feedback, narrative, or refresh values connect only through exact already-obtaining supporting relations, with predicate-definition content and current facts when the claim needs them; the pattern reference adds no connection relation. Generic architecture use of a constraint-governed unfolding structure belongs in `C.32.P2S` or the direct C.30 architecture governing pattern; this pattern keeps only the architecture-to-transformation-flow trace.
 
 #### C.30.TFS-REL:4.2 - Relation to functional structure
 
-A `FunctionalStructureView` under C.30.ASV may cite `ArchitectureTransformationFlowStructureRelation` when a transformation-flow use is current. That record does not make the selected E.18 structure a functional element or actual transformation, and does not make a functional-element claim identical with the system, module, method, bearer, or flow. It states a bounded claim or trace that exact functional-view content corresponds to, is declared relative to, or positively co-refers with one exact E.18 selected structure, member-local path, crossing, or valuation.
+A `FunctionalStructureView` under C.30.ASV may cite `ArchitectureTransformationFlowStructureRelation` when a transformation-flow use is current. That record does not make the selected E.18 structure a functional element or actual transformation, and does not make a functional-element claim identical with the system, module, method, bearer, or flow. It states a bounded claim or trace that exact functional-view content corresponds to, or is declared relative to, one exact E.18 selected structure, member-local path, crossing, or valuation. Positive co-reference states that the functional-structure and flow-structure designations refer to the same selected `U.Structure`.
 
 Keep the same three branches used by C.30.ASV:
 
@@ -136,11 +137,11 @@ nonAdmissibleUse?:
 
 **Required-cooling-effect / later-actual-cooling countercase.** `RequiredCoolingEffect-1` can require exact Rack 7 to be below 30 °C and can correspond to a selected cooling-flow structure before any change occurs. In that first use, fill `requiredOrDesiredEffectClaimRefs` and the selected TFS fields; leave `actualTransformationRefs` empty. A later `Rack7CoolingTransformation-42` is actual only when A.3.4 fixes Rack 7 as the changed referent, its thermal boundary and operating/ambient conditions, actual 38 °C before facts, actual heat-removal during facts, actual 27 °C after facts, and continuity or reidentification of Rack 7. Even then, a separate satisfaction or realization predicate is needed before claiming that the actual transformation satisfies the earlier requirement.
 
-Use this note when the practitioner needs to see whether the function-to-transformation-flow relation changes inspection, split, relation-making, downgrade, claim-governance assignment named by value, candidate generation, or stop. Use C.30.ASV for the functional structure view, A.6.F for function-like wording recovery, A.3.4 for an actual transformation, A.6.M for module-claim repair and the direct allocation/interface owner, and E.18 for selected transformation-flow structure.
+Use this note when the practitioner needs to see whether the function-to-transformation-flow relation changes inspection, split, relation-making, downgrade, selection of the governing pattern for the claim named by value, candidate generation, or stop. Use C.30.ASV for the functional structure view, A.6.F for function-like wording recovery, A.3.4 for an actual transformation, A.6.M for module-claim repair and the direct allocation/interface owner, and E.18 for selected transformation-flow structure.
 
 `FunctionTransformationFlowRelationNote` is the one-TFS form. When architecture use selects a network, use the top-level `ArchitectureTransformationFlowStructureRelation` and the branch in `C.30.TFS-REL:4.4a`. Name a member TFS in this note only when the function correspondence is actually to that member; membership in the selected network alone does not create a function correspondence.
 
-When several transformation-flow variants are kept or compared as candidate architecture inputs, keep each selected transformation-flow structure, path, crossing, valuation, graph-shaped expression, or mathematical description under `E.18`, `E.18.2`, and this record. Apply `C.32` only to the architecture candidate palette that uses those selected structures. The graph, path, and flow description does not become architecture adequacy, evidence, assurance, gate passage, selected-set result declaration, publication occurrence, or decision by serving as a candidate input.
+When several transformation-flow variants are kept or compared as candidate architecture inputs, keep each selected transformation-flow structure, path, crossing, valuation, graph-shaped expression, or mathematical description under `E.18`, `E.18.2`, and this record. Apply `C.32` only to the architecture candidate palette that uses those selected structures. The graph, path, and flow description do not become architecture adequacy, evidence, assurance, gate passage, selected-set result declaration, publication occurrence, or decision by serving as a candidate input.
 
 #### C.30.TFS-REL:4.3 - Claim-kind applications named by value
 
@@ -152,9 +153,9 @@ When several transformation-flow variants are kept or compared as candidate arch
 | Assurance claim | `B.3` |
 | Causal flow or intervention claim | `C.28` |
 | Mathematical-lens use | `C.29` |
-| Architecture description or view adequacy | `C.30` or `C.30.ASV` |
+| Architecture adequacy, description use, or structural-view adequacy | `C.30` for architecture adequacy, `C.30.AD` for architecture-description use, or `C.30.ASV` for structural-view adequacy |
 | Function-like wording | `A.6.F` |
-| Interface, signature, or module compatibility | `A.6.M` module-and-interface repair plus `A.6.5` slot discipline, with `A.6.0` only when a signature declaration is being made |
+| Interface, signature, or module compatibility | `A.6.M` for module-claim repair and the direct pattern for the interface claim; `A.6.5` only when reusable relation-participant typing is needed, and `A.6.0` when a signature declaration is being made |
 | Architecture decision | the project-side architecture decision pattern when the corresponding claim is being made |
 
 This table is the single boundary for generic non-flow claims. Apply F.19's plausible-reader test before adding a local guard. Relevant candidates include structure-as-architecture, graph-description-as-architecture, flow-as-work-log, crossing-as-gate, valuation-as-score, generated relation-graph proof, and prompt-data-tool flow as authority proof.
@@ -164,8 +165,6 @@ This table is the single boundary for generic non-flow claims. Apply F.19's plau
 For an E.18-governed selected `TransformationFlowStructure` used by an actual `ArchitectureRelation` occurrence, exact selected architecture structure, `ArchitectureStructuralView` episteme, or conditional `ArchitectureDescription` episteme, the architecture-use record may cite that exact E.18 structure plus MVPK faces and correspondence claims or independently governed relations.
 
 Grounded architecture adequacy and bounded architecture claims are governed by C.30; description identity by C.30.AD; view conformance by E.17.0 and C.30.ASV. E.18 supplies selected transformation-flow structures and relations; it does not define all architecture structure kinds, create an architecture relation, or turn required flow content into actual change.
-
-This is the named E.18 selected-structure boundary statement for this pattern. It is not a second E.18 source of truth and does not depend on a section number staying stable.
 
 #### C.30.TFS-REL:4.4a - Architecture use of a transformation-flow structure network
 
@@ -271,8 +270,8 @@ Lower, narrow, or reopen the relation at the smallest changed locus when:
 - source publication or graph edition, path slice, relation observation class, edition or context pin, unexplored region, or hidden relation-structure return condition changes;
 - the C.30 architecture locus, selected architecture-relevant structure, architecture structural view, conditional architecture description, or C.30.ASV relation changes;
 - functional-to-transformation-flow correspondence changes;
-- a non-flow claim is being made and is governed by `C.30.TFS-REL:4.3` rather than by this relation;
-- C.29, C.16, C.28, A.10, G.6, B.3, A.20, A.21, A.15, C.30, C.30.ASV, A.6.F, C.30.STRAT, E.18, or E.18.NET changes the governing boundary used by the relation.
+- a non-flow claim is being made and requires the direct governing pattern identified in `C.30.TFS-REL:4.3` rather than this architecture-to-flow record;
+- C.29, C.16, C.28, A.10, G.6, B.3, A.20, A.21, A.15.1, A.15, C.30, C.30.AD, C.30.ASV, A.6.F, C.30.STRAT, E.18, or E.18.NET changes the governing boundary used by the relation.
 
 Admissible repair results are: update the affected TFS or network reference, network branch, or row locator; add or change correspondence or the hidden relation-structure return condition; narrow admissible use; keep the one-TFS claim inside E.18 and the network claim inside E.18.NET; keep the mathematical-description claim inside E.18.2; keep the math-lens-use claim inside C.29; apply the governing pattern to a non-flow claim; lower to quote-only or reduced-use cue; or block the architecture-to-transformation-flow use.
 

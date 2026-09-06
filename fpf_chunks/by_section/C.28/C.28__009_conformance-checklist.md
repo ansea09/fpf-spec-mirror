@@ -6,7 +6,7 @@ section_id: "C.28:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__009_conformance-checklist.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:7 — Conformance Checklist"
@@ -52,7 +52,7 @@ keywords:
 ### C.28:7 - Conformance Checklist
 
 1. One exact causal-use question remains identifiable from entry to result; question, claim, estimand, evidence, and records are not treated as one object.
-2. This edition introduces no universal causal-use-question, estimand, or potential-outcome-contrast kind; it uses local refs to actual objects instead.
+2. C.28 introduces no universal causal-use-question, estimand, or potential-outcome-contrast kind; it uses local refs to actual objects instead.
 3. Data regime, identification, estimate, sampling realizability, performed sampling evidence, simulation, and transport remain distinct and may be combined.
 4. A support result states evidence support only; every publication, choice, deployment, fairness, or assurance decision remains with its direct pattern.
 5. An identified result cites an expression or derivation; a bounded result cites a bound; a nonidentified result cites an obstruction or witness.

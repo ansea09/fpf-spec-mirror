@@ -6,12 +6,12 @@ section_id: "E.17.EFP:4"
 section_title: "Solution — review profile for explanation renderings on existing MVPK faces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__005_solution-review-profile-for-explanation-renderings-on-existing-mvpk-faces.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:4 — Solution — review profile for explanation renderings on existing MVPK faces"
-line_start: 83428
-line_end: 83666
+line_start: 83448
+line_end: 83686
 dependencies:
   - "A.10"
   - "A.15"

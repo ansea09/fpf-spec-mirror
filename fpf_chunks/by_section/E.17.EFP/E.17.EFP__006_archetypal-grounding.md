@@ -6,12 +6,12 @@ section_id: "E.17.EFP:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__006_archetypal-grounding.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:5 — Archetypal grounding"
-line_start: 83667
-line_end: 83775
+line_start: 83687
+line_end: 83795
 dependencies:
   - "A.10"
   - "A.15"

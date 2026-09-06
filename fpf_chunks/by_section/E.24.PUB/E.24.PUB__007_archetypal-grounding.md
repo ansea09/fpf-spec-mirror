@@ -6,12 +6,12 @@ section_id: "E.24.PUB:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__007_archetypal-grounding.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:5 — Archetypal Grounding"
-line_start: 92142
-line_end: 92171
+line_start: 92162
+line_end: 92191
 dependencies:
   - "A.6.3"
   - "A.6.REL"

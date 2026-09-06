@@ -6,7 +6,7 @@ section_id: "C.28:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__003_problem-frame.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:1 — Problem Frame"
@@ -51,7 +51,7 @@ keywords:
 
 ### C.28:1 - Problem Frame
 
-FPF already has patterns for measurement, temporal claims, evidence, assurance, choice, exploration, call planning, fairness, parity, and mathematical lenses. Each keeps its own result. Causal support cuts across them, so a small shared interface is needed without turning C.28 into a second version of those patterns.
+FPF already has patterns for measurement, temporal claims, evidence, assurance, choice, exploration, call planning, fairness, parity, and mathematical lenses. Each keeps its own result. Causal support cuts across them, so a small shared interface is needed.
 
-The practical question is not “which causal vocabulary can we attach?” It is “what does this evidence support us to say about this causal question, and what would overturn that conclusion?”
+The practical question is “what does this evidence support us to say about this causal question, and what would overturn that conclusion?”
 

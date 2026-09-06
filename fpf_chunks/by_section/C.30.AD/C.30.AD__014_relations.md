@@ -6,12 +6,12 @@ section_id: "C.30.AD:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__014_relations.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:11 — Relations"
-line_start: 59752
-line_end: 59769
+line_start: 59755
+line_end: 59772
 dependencies:
   - "A.1"
   - "A.10"
@@ -79,7 +79,7 @@ keywords:
 
 - Use `C.2.1` to identify every architecture-description episteme.
 - Use `C.30` for obtaining architecture relations, selected structures, and bounded architecture claims.
-- `C.30.P` normalizes overloaded architecture or structure wording before this pattern is used.
+- Use `C.30.P` when architecture or structure wording remains overloaded; use `C.30.AD` directly when the architecture-description use is already clear.
 - Use `C.30.ASV` to test architecture structural-view adequacy; only E.17.0 conformance admits the same episteme as `U.View`.
 - Use `C.33` to account for captured and lost structure when a description, generated relation graph, ADR-like record, or view set carries only part of the needed architecture content.
 - Use `C.34` to test preservation or correspondence when comparing a description with another view, source model, generated output, candidate, or realized structure.
@@ -90,6 +90,6 @@ keywords:
 - Use `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, and `E.24.PUB` for generic EntityOfConcern, view, viewpoint, representation, publication occurrence, form, carrier, and MVPK machinery.
 - `C.2.P` normalizes source-expression, source-to-use, publication-form, and publication-currentness relation-set overreads.
 - Use `E.11.PUR` for recommended FPF pattern use after reading a description; C.30.AD records only the description-use boundary.
-- Use `A.15.5` for work-entry readiness and full-kit condition; use the A.15 family for Work and project-use relations. C.30.AD records only descriptions and their view conformance, set use, correspondence, source paths and returns, freshness, representation, publication use, and specification use.
+- Use `A.15.5` for work-entry readiness and full-kit condition; use the A.15 family for Work and the direct governor for any needed project-use relation. C.30.AD records only descriptions and their view conformance, set use, correspondence, source paths and returns, freshness, representation, publication use, and specification use.
 - `E.10.MOVE` restores move-like wording when source prose about an architecture description does not mean a C.30 architecture move or a C.30.AD remaining architecture candidate use.
 

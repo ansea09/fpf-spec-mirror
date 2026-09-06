@@ -6,12 +6,12 @@ section_id: "G.12:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__011_relations.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:9 — Relations"
-line_start: 107104
-line_end: 107109
+line_start: 107124
+line_end: 107129
 dependencies:
   - "A.19"
   - "A.2.6"

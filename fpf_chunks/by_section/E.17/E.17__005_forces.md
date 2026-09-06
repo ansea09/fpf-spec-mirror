@@ -6,12 +6,12 @@ section_id: "E.17:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__005_forces.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:4 — Forces"
-line_start: 82812
-line_end: 82820
+line_start: 82832
+line_end: 82840
 dependencies:
   - "A.10"
   - "A.15.4"

@@ -6,12 +6,12 @@ section_id: "F.13:9"
 section_title: "Micro‑examples (illustrative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__010_micro-examples-illustrative.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:9 — Micro‑examples (illustrative)"
-line_start: 97281
-line_end: 97318
+line_start: 97301
+line_end: 97338
 dependencies:
   - "F.1"
   - "F.10"

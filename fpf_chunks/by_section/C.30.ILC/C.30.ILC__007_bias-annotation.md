@@ -6,17 +6,15 @@ section_id: "C.30.ILC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__007_bias-annotation.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:6 — Bias-Annotation"
-line_start: 61836
-line_end: 61848
+line_start: 61829
+line_end: 61841
 dependencies:
   - "A.10"
   - "A.22"
-  - "A.6.F"
-  - "A.6.M"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -24,8 +22,6 @@ dependencies:
   - "C.29"
   - "C.30"
   - "C.30.ASV"
-  - "C.30.LCA"
-  - "C.30.TFS-REL"
   - "C.31.ASAP"
   - "C.32"
   - "C.32.MLAO"
@@ -56,5 +52,5 @@ keywords:
 * **Mediation-default bias.** Every conflict is treated as ethical mediation or negotiation. Repair by checking whether the use under repair is architecture structure, allocation, interface grammar, control, work or evidence scope, source-return, or another declared level-bearing architecture relation.
 * **Synthesis-jump bias.** A local residual immediately triggers candidate generation. Repair by identifying the first admissible architecture move before applying `C.32.MLAO` and `C.32`; use `G.5` only when selected-set result declaration is current.
 
-This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, view, relation, or repair guidance above.
+The conformance checklist below verifies the preceding guidance after the practitioner has chosen the repair action; it is not a required project control form and not a substitute for the card, note, view, relation, or repair guidance above.
 

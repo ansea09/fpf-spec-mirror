@@ -6,12 +6,12 @@ section_id: "G.11:6"
 section_title: "Bias-Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__008_bias-annotation-informative.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:6 — Bias-Annotation (informative)"
-line_start: 106758
-line_end: 106767
+line_start: 106778
+line_end: 106787
 dependencies:
   - "A.6.RCD"
   - "B.3.4"

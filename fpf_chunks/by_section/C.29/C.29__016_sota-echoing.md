@@ -6,12 +6,12 @@ section_id: "C.29:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__016_sota-echoing.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13 — SoTA-Echoing"
 line_start: 58364
-line_end: 58481
+line_end: 58484
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,7 +54,7 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseAdmissibilityValue"
+  - "LensUseBoundaryValue"
   - "coarse-graining"
   - "invariants"
   - "learned lens"
@@ -91,12 +91,15 @@ Local `SourceUseRelation` slot discipline:
 | `candidateLensPrompt` | Suggest a first candidate lens family or mathematical object to test against the problem cue being repaired. | Test a candidate cheaply when it could change the next lens-use action; require use of that lens only after its contribution is established. |
 | `adequacyControlSource` | Discipline preserved structure, lost structure, stop condition, validation regime, or neighboring-pattern application. | Satisfy C.29's field requirements and the applicable subject pattern for the resulting claim. |
 | `validationBoundarySource` | Constrain the declared validation regime, evaluation slice, uncertainty, failure case, or domain of applicability. | An evidence relation, assurance claim, benchmark result, or release confidence requires its own basis and subject-pattern result. |
-| `acceptedDomainTheory` | Permit local use inside a domain where the theory is already the governing local formalism. | For cross-context ontology import or broader transfer, apply `F.9`, the needed evidence relation, and a stop condition. |
-| `proofUnderAssumptions` | Justify a formal property under stated assumptions. | A formal proof can support a real-world-adequacy claim only when its assumptions, observations, Bridge, and evidence relation are also established. |
+| `acceptedDomainTheory` | Permit local use inside a domain where the theory is already the governing local formalism. | For cross-context ontology import or broader transfer, establish the needed evidence relation and a stop condition; apply `F.9` when semantic correspondence between local senses is needed. |
+| `proofUnderAssumptions` | Justify a formal property under stated assumptions. | A formal proof can support a real-world-adequacy claim only when its assumptions, observations, and evidence relation are also established, together with any needed semantic Bridge. |
 | `negativeExample` | Expose failure, obstruction, non-transfer, counterexample, or stop condition. | Scope the result to the demonstrated failure and its return condition. |
 | `rivalLensSource` | Name a principal rival lens or relation that changes the bounded lens-use action being made. | Keep the principal-rival choice bounded to the current lens-use action. Undertake a literature review, or establish a selector or benchmark result, only for that separately current question. |
 | `sourceIdentityLocator` | Preserve source identity by value when a source is being cited or traced. | Use a separate source-use relation and adequacy basis when the claim needs substantive support. |
 | `historicalBackgroundOnly` | Explain lineage or terminology. | For present-day prediction, decision, Bridge, causal, assurance, or FPF-kind-governance use, establish a current source-use relation and apply its subject pattern. |
+
+The selected SoTA lines contribute the following guidance:
+
 | SoTA line | Selected action-guidance effect | Disposition |
 |---|---|---|
 | Applied category theory and compositionality | Use category-theoretic material for composition, interfaces, views, transformations, and transport discipline. Require named structure, preserved composition or interface, lost structure, and failed transfer. | **Adapt.** Useful for composition and interface questions when those structures matter to the stated use. |
@@ -105,7 +108,7 @@ Local `SourceUseRelation` slot discipline:
 | Geometric deep learning, invariance, and equivariance | Use symmetry, group action, invariance, and equivariant representation as lens-discovery cues when generic feature lists hide the relevant sameness under transformations. Ask which transformations are declared as preserved or invariant, which distinctions are preserved, and which coordinate details can be lost. | **Adapt as lens-discovery source.** Not evidence for domain law, causal mechanism, or coordinate-free truth. |
 | Optimal transport and distribution geometry | Use transport plans, couplings, Wasserstein-like geometry, and declared movement cost as lens-discovery cues for population, distribution, shape, shift, or allocation questions. Ask what is transported, under which cost, and what structure or mass is lost. | **Adapt as lens-discovery source.** Not evidence for causality, fairness, mechanism, or policy effect. |
 | Model reporting and responsible modeling practice | Intended use, evaluation conditions, limitations, validation regime, failure cases, uncertainty, and domain of applicability become C.29 validation fields for prediction, publication, assurance-input, benchmark, model-selection, and scientific or model uses. | **Adapt.** Turns reporting practice into fields and repair actions. |
-| Causal and approximate causal abstraction | When abstraction, quotient, coarse-graining, simulation, or macro-modeling is being claimed, ask whether intervention and counterfactual structure is preserved, approximated, or not claimed; use `C.28` for causal-use question and verdict. Approximate abstraction is a source-backed lens-use note, not a softened causal-use grant. | **Adapt.** No C.29 output is causal authority. |
+| Causal and approximate causal abstraction | When abstraction, quotient, coarse-graining, simulation, or macro-modeling is being claimed, ask whether intervention and counterfactual structure is preserved, approximated, or not claimed; use `C.28` for causal-use question and verdict when causal use is being claimed. Approximate abstraction is a source-backed lens-use note, not a softened causal-use grant. | **Adapt.** No C.29 output is causal authority. |
 | Causal representation learning | Use causal-representation work as a discovery guard for latent variables, learned factors, interventions, assignments, and invariance across environments. If a latent lens is being read causally, keep causal-use question and verdict with `C.28`. | **Adapt as lens-discovery source.** Blocks “latent means causal”; does not make representation learning a causal verdict. |
 | Scientific machine learning as hybrid first-principles and data-driven modeling | Treat first-principles structures as plural and domain-bound: conservation laws, constitutive relations, boundary conditions, symmetries, known dynamics, numerical stability, uncertainty, and data-driven approximation can each discipline a lens. Require the C.29 user to name the concrete structure and validation boundary rather than saying "science says so." | **Adapt.** Reinforces the first-principles position without making any one SciML family the FPF foundation. |
 | Variational principles and constrained extrema | Use action, energy, free-energy, loss, value, entropy, or resource functionals as first-principles lenses only when the constrained variation space, constraints, boundary conditions, stationarity or extremum condition, conserved or dual quantities, and neighboring dynamics applications and evidence applications are named. | **Adapt as first-principles lens-discovery source.** Does not imply the target literally optimizes the declared functional; dynamics, evidence, causal-use, and assurance claims are governed by neighboring patterns. |
@@ -154,7 +157,7 @@ Do not adopt as FPF norm:
 - “physics has already been proven from learning,”
 - “quantum, GR, or gauge theory reduce to a learning rule or learning dynamics” as established fact.
 
-Known limitations from the checked source-use disposition remain material for mathematical-lens use: non-Abelian gauge fields are not treated as a landed FPF result; thermodynamic RG flow is not treated as a quantitative FPF law; quantitative predictions require explicit learning-algorithm specification.
+Known limitations from the checked source-use disposition remain material for mathematical-lens use: non-Abelian gauge fields are not treated as an established FPF result; thermodynamic RG flow is not treated as a quantitative FPF law; quantitative predictions require explicit learning-algorithm specification.
 
 #### C.29:13.3 - Plural foundations source-use decision
 
@@ -162,7 +165,7 @@ Adopt the plural-foundations source-use decision: several structural families ca
 
 Source-use relation: Rodin supplies source material for the positive decision that several structurally useful families recur across domains. C.29 records this as local adequacy discipline: select the family that fits the declared use, state the mapping, and publish recoverable loss.
 
-Rodin and P2W micro-slice:
+Rodin and P2W micro-slice — fill-in OneLine template. Before claim-bearing lens use, name the concrete `CandidateMathObject`, select the `LensMappingMode`, and state the use-specific `PreservedStructure` and `LostStructure`:
 
 ```text
 MathLensUse.OneLine@RodinP2W:

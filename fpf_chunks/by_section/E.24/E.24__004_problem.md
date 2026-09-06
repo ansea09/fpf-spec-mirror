@@ -6,12 +6,12 @@ section_id: "E.24:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__004_problem.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:2 — Problem"
-line_start: 90987
-line_end: 90996
+line_start: 91007
+line_end: 91016
 dependencies:
   - "A.19.ECS"
   - "A.6.0"

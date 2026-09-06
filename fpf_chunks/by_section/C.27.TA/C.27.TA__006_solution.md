@@ -6,7 +6,7 @@ section_id: "C.27.TA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__006_solution.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:4 — Solution"
@@ -47,7 +47,7 @@ keywords:
 
 #### C.27.TA:4.1 - Definition
 
-A temporal-aspect claim says that one exact object or exact claim has a time-bearing or order-bearing property under a stated temporal reference and interval. The property is claim content, not automatically a temporal claim-adequacy result, dynamics law, work trace, method, mechanism, gate, evidence relation, or permission.
+A temporal-aspect claim says that one exact object or exact claim has a time-bearing or order-bearing property under a stated temporal reference and interval. The statement is claim content, not automatically a temporal claim-adequacy result, dynamics law, work trace, method, mechanism, gate, evidence relation, or permission.
 
 Typical temporal predicates and qualifiers include:
 
@@ -107,13 +107,13 @@ Every remaining field is conditional. Add it only when changing that value could
 | bounded transformation under conditions with temporal reference | `A.3.4` plus `C.27.TA` |
 | state-space or transition-law model | `A.3.3` |
 | planned work timing | `A.15.2` |
-| dated work occurrence or trace | `A.15.1` |
+| dated work occurrence or trace | `A.15.1` for the occurrence; `A.10` for evidence and provenance when a claim relies on the trace |
 | measurement construction for rate, duration, latency, or freshness | `C.16` and related characterization patterns |
 | causal-use timing, intervention window, comparator, or follow-up interval | `C.28` |
 | benchmark freshness, baseline window, comparator edition, or parity window | `G.9` |
 | source currentness, evidence decay, provenance, or assurance refresh | evidence, source, provenance, assurance, and refresh patterns |
 
-This table supplies rule citations, not relation occurrences. When another relation is part of the temporal claim, cite that relation's declaration and independently established occurrence through the fields above.
+This table supplies rule citations, not relation occurrences. When another relation is part of the temporal claim, use the fields above to cite its declaration; cite an obtaining occurrence only after its predicate passes.
 
 #### C.27.TA:4.4 - Rhythm, Cadence, And Synchronization
 

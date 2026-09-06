@@ -6,12 +6,12 @@ section_id: "C.30.LCA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__006_archetypal-grounding.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:5 — Archetypal Grounding"
-line_start: 61586
-line_end: 61592
+line_start: 61581
+line_end: 61587
 dependencies:
   - "A.10"
   - "A.20"
@@ -30,6 +30,7 @@ dependencies:
   - "C.30.TFS-REL"
   - "E.17.0"
   - "E.18"
+  - "E.18.2"
   - "G.6"
 keywords:
   - "control layer"

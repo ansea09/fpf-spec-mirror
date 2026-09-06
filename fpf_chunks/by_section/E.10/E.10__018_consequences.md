@@ -6,12 +6,12 @@ section_id: "E.10:16"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__018_consequences.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:16 — Consequences"
-line_start: 76323
-line_end: 76336
+line_start: 76343
+line_end: 76356
 dependencies:
   - "A.10"
   - "A.15"

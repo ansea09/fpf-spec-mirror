@@ -6,7 +6,7 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__004_what-this-buys.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.2 — What this buys"

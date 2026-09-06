@@ -6,12 +6,12 @@ section_id: "C.30.P:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__002_use-this-when.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:0 — Use this when"
-line_start: 60053
-line_end: 60076
+line_start: 60056
+line_end: 60079
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,12 +53,12 @@ keywords:
 
 ### C.30.P:0 - Use this when
 
-Use this pattern when architecture or structure wording hides which use is being made and recoverable by value.
+Use this pattern when architecture or structure wording hides which use is being made.
 
 Typical triggers:
 
 - `architecture`, `architecture description`, `architecture model`, `architecture diagram`, `architecture map`, `architecture dashboard`, `architecture score`;
-- `structure`, `structural view`, `structural model`, `module layout`, `component structure`, `interface structure`, or stratification wording or source-label wording such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` that must go to `C.30.STRAT` before local architecture or structure assignment;
+- `structure`, `structural view`, `structural model`, `module layout`, `component structure`, `interface structure`, or stratification wording or source-label wording such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` whose technical meaning must be recovered through `C.30.STRAT` before local architecture or structure assignment;
 - `graph`, `flow`, `transformation-flow graph expression`, `control sketch`, `LCA diagram`, `ADR`, `dashboard`, `benchmark`, `source`, or `view` being treated as architecture or structure by wording alone;
 - a function, module, interface, signature, flow, control, quality, score, evidence, assurance, gate, work, decision, causal-use, or release claim being smuggled under architecture or structure wording.
 

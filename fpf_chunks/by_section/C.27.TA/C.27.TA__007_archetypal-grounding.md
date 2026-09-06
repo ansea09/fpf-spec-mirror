@@ -6,7 +6,7 @@ section_id: "C.27.TA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__007_archetypal-grounding.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:5 — Archetypal Grounding"
@@ -71,7 +71,7 @@ TemporalAspectStatementClaimContent:
   aspectPredicate: recoveryTiming.
   temporalReference: release train cycle.
   windowOrInterval: two release cycles after the accepted architecture move starts.
-  measuredReadingRef?: operations-service conflict indicator, if C.16 measurement is being made.
+  measuredReadingRef?: measurement result for the operations-service conflict indicator, if C.16 measurement is being made.
   directRelationDeclarationRef?: A.3.4 transformation declaration, if that relation is current.
   obtainingRelationOccurrenceRef?: omitted here; the expected reduction is not an obtaining transformation occurrence.
   receivingUseRulePatternCitation: A.3.4 for bounded transformation, C.30 for selected architecture structure, and the evidence/result pattern for an observed effect.
@@ -82,9 +82,9 @@ TemporalAspectStatementClaimContent:
 
 #### C.27.TA:5.4 - Work Rhythm
 
-A review practice depends on a two-day response rhythm across several review positions and participants. This is ordinary readable wording; it does not by itself admit Systems, classify local system-role kinds, create assignments, establish responsibility, or prove that response Work occurred.
+A review practice depends on a two-day response rhythm across several review positions and participants. Keep a responsibility claim separate when the temporal account relies on it.
 
-Name a local system-role kind or a separate System-classification judgement only when the receiving claim uses that distinction. If it relies on an assignment, cite the directly declared relation species and its obtaining occurrence with the actual participant values, holder, applicability, and extent under `A.2.1`. An assignment may be current in a plan or availability statement before any response Work occurs; it neither classifies a System nor implies completed Work. Only when the claim says that a System performed dated response Work should it first recover that exact performer through A.13 and let A.15.1 independently admit the Work. Add F.6 only if the temporal account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact.
+Name a local system-role kind or a separate System-classification judgement only when the receiving claim uses that distinction. If it relies on an assignment, cite the directly declared relation species and its obtaining occurrence with the actual participant values, holder, applicability, and extent under `A.2.1`. An assignment may be current in a plan or availability statement before any response Work occurs; it neither classifies a System nor implies completed Work. Only when the claim says that a System performed dated response Work should the reader first recover that exact performer through A.13 and independently admit the Work under A.15.1. Add F.6 only if the temporal account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact.
 
 C.27.TA names the exact EntityOfConcern, rhythm or cadence predicate, temporal reference, and window. When cross-bearer coordination matters, cite the direct coupling-relation declaration and an obtaining occurrence only after its predicate passes; keep the PatternID as a separate rule citation.
 

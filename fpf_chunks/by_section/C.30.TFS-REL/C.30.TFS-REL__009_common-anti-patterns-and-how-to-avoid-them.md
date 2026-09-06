@@ -6,15 +6,16 @@ section_id: "C.30.TFS-REL:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "56440a9f2e252d7fd462f43470a433dd03413e19"
+commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 62284
-line_end: 62296
+line_start: 62275
+line_end: 62287
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.1"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -58,9 +59,9 @@ keywords:
 | **Structure-as-architecture** | The E.18 selected transformation-flow structure is called the whole architecture. | Use C.30 for the actual architecture relation, selected structure, or bounded claim; C.30.AD for description; keep this record only for the transformation-flow use. |
 | **Unnamed network as architecture bearer** | A connected network or its graph is assigned maintainability, capability, responsibility, agency, production, required effect, or actual transformation without one containing holon/relation or explicit participating holons. | Select the named-containing-holon or explicit inter-holon branch, restore every characteristic to a named bearer, and keep graph/record outside architecture identity. |
 | **Graph-description-as-functional-architecture** | A graph-shaped mathematical description or diagram is treated as functional architecture, functional element, or actual change. | Split functional claim, selected TFS, actual transformation, mathematical description, representation, and publication; add correspondence when needed. |
-| **Flow-as-work-log** | Path or slice wording is treated as Work occurrence. | Assign occurrence or result claims to A.15 or P2W and keep E.18 to selected structure, path, slice, or valuation. |
+| **Flow-as-work-log** | Path or slice wording is treated as Work occurrence. | Use A.15.1 for the occurrence and the governing work-result or P2W relation for those claims; keep E.18 to selected structure, path, slice, or valuation. |
 | **Crossing-as-gate-result** | A crossing relation is treated as gate passage. | Assign gate-decision claims to A.21 and keep crossing relation under E.18. |
 | **Valuation-as-score** | A flow valuation is used as a generic architecture score. | State E.18 valuation and set-return discipline; assign measurement, characterization, selection, or candidate-set claims to `C.16` or an admitted governing pattern. |
 | **Generated relation-graph proof** | A code-agent relation graph or probe output is used as proof of architecture understanding or safety. | Recover source publication/codebase edition, extraction/probe locus, observation class from {observed, inferred, unknown}, unexplored regions, hidden structure, and direct evidence or assurance application. |
-| **Prompt-data-tool flow as authority proof** | A prompt, data, or tool-flow diagram is treated as permission for tool action or proof that authority is safe. | Keep it as a transformation-flow use or E.18.2 mathematical description. Route a selected `SecurityTrustBoundaryStructure` view through C.30.ASV; route agentic tool-use and call planning to `C.24`, autonomy-budget enforcement to `E.16`, and gate or release claims to `A.20` or `A.21` when those exact claim kinds are being made. |
+| **Prompt-data-tool flow as authority proof** | A prompt, data, or tool-flow diagram is treated as permission for tool action or proof that authority is safe. | Keep it as a transformation-flow use or E.18.2 mathematical description. Route a selected `SecurityTrustBoundaryStructure` view through C.30.ASV; for agentic tool use, route call planning to `C.24` after the action or option is fixed and autonomy-budget enforcement to `E.16`. Use `A.20` for an internal-constraint result, `A.21` for a named gate decision, or the direct domain pattern for the particular release, admissibility, or approval claim when that claim is current. |
 
