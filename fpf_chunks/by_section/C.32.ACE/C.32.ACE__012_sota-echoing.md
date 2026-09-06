@@ -6,12 +6,12 @@ section_id: "C.32.ACE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__012_sota-echoing.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:11 — SoTA-Echoing"
-line_start: 64820
-line_end: 64834
+line_start: 64828
+line_end: 64842
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -48,7 +48,7 @@ keywords:
 
 ### C.32.ACE:11 - SoTA-Echoing
 
-These rows document transfers from source practice into C.32.ACE. Keep a source citation only when the draft uses it to set or revise an eval-program field, result-use boundary, or refresh condition.
+These rows document how source practice contributes to eval-program fields, result-use boundaries, and refresh conditions in C.32.ACE.
 
 | Source to inspect | Why this source is load-bearing here | Transfer into ACE | Concrete ACE mutation | Blocked overread |
 |---|---|---|---|---|

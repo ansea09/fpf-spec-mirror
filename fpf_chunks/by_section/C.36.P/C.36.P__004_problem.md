@@ -6,12 +6,12 @@ section_id: "C.36.P:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__004_problem.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:2 — Problem"
-line_start: 68456
-line_end: 68466
+line_start: 68464
+line_end: 68474
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -58,7 +58,7 @@ keywords:
 
 ### C.36.P:2 - Problem
 
-Without the repeatable recovery move above, each cultural-evolution phrase gets repaired locally. That creates four failures:
+Without recovering the object or relation, a local wording repair can produce four failures:
 
 - source labels become root kinds by spelling;
 - platform and regime labels become hidden Systems, scope containers, or authorities;

@@ -6,12 +6,12 @@ section_id: "C.38:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__008_conformance-and-practical-checks.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:7 — Conformance and practical checks"
-line_start: 68333
-line_end: 68351
+line_start: 68341
+line_end: 68359
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -33,12 +33,12 @@ A use conforms only when the checks needed by its claimed comparison pass:
 
 1. One governed result, receiver, use, situation or configuration, horizon, acceptance basis, deciding System, and authority boundary are explicit.
 2. At least two materially different complete-enough ways seek that same result. Duplicate labels merge and material differences under one label split.
-3. Every decision-bearing premise is visibly supported now, proposed, or unknown; modal rows create no actual capability, authority, Work, provision, delivery, acceptance, availability, or use.
+3. Every decision-bearing premise is visibly supported now, proposed, or unknown; proposed or unknown premises establish no actual capability, authority, Work, provision, delivery, acceptance, availability, or use.
 4. The same decision-changing parity questions are applied to every way; an omitted group is justified by irrelevance to this choice.
 5. A decision-reversing unknown remains a gap or probe. Protected conditions are not hidden inside one unexplained scalar.
 6. `A.19.CPM` or `A.19.SelectorMechanism` is used only when its evidence-gating, incomparability, abstention, or set-return contribution is actually needed.
 7. Only complete-enough whole ways enter the finite `OptionSet`; `C.11` alone makes the local choice and emits the `ChoiceResult`.
-8. The truthful carrier rule prevents a duplicate episteme when an owning domain result already carries the complete comparison.
+8. The rule for retaining the comparison prevents a duplicate episteme when an owning domain result already carries the complete comparison.
 9. A retained way names its first unsupported realization branch, but no realization or later Work is claimed by the comparison.
 10. The reopen condition names a changed premise or result that can alter the comparison or choice.
 

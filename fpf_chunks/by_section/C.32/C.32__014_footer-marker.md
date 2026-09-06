@@ -6,12 +6,12 @@ section_id: "C.32:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__014_footer-marker.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:13 — Footer marker"
-line_start: 63774
-line_end: 63777
+line_start: 63782
+line_end: 63785
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,5 +68,5 @@ keywords:
 
 ### C.32:13 - Footer marker
 
-Use `C.32` to synthesize a first useful architecture candidate configuration for one grounded architecture question. Later front-policy, selected-set result declaration, actual publication, local choice, architecture-description, decision, gate, release, and authority-relation claims require their own definitions and tests.
+Use `C.32` to construct a first useful palette of architecture candidate configurations for one grounded architecture question. Later front-policy, selected-set result declaration, actual publication, local choice, architecture-description, decision, gate, release, and authority-relation claims require their own definitions and tests.
 

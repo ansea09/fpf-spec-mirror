@@ -6,12 +6,12 @@ section_id: "C.32.ACE:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__004_forces.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:3 — Forces"
-line_start: 64728
-line_end: 64738
+line_start: 64736
+line_end: 64746
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,7 +51,7 @@ keywords:
 | Force | Tension |
 |---|---|
 | Variant learning | Candidate architectures may be valuable even when they lose the selection being made. |
-| Fair comparison | Eval results are useful only when context, budgets, windows, units, and missing-data treatment are explicit. |
+| Fair comparison | Eval results are useful only when context, budgets, windows, units (when required by the scale), and missing-data treatment are explicit. |
 | Trade-off pressure | Improving one architecture characteristic can worsen another. |
 | Automation value | Frequent automated evals reveal drift early, but their results can be overread. |
 | Error prevention | Some eval operations are tests, yet error checking must not replace variant comparison. |

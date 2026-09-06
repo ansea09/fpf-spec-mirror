@@ -6,12 +6,12 @@ section_id: "C.33:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__004_forces.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:3 — Forces"
-line_start: 66979
-line_end: 66989
+line_start: 66987
+line_end: 66997
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -56,6 +56,6 @@ keywords:
 | Capture vs loss | Architecture use often depends as much on what was lost or hidden as on what was captured. |
 | Cheap first note vs full record | Many cases need one note before a full architecture description, view correspondence record, measurement, or eval result. |
 | Observer boundary | Code agents, learned representations, probes, and epiplexity-like lenses expose structure under observation and budget limits. |
-| Source label pressure | Domain labels are useful recognition cues but must be recovered into selected structure, relation, bearer, characteristic, and the next claim plus the rule or test it needs. |
-| Evolution | The captured structure can decay when source publication edition, realized structure, environment, bearer, or holon level changes. |
+| Source label pressure | Domain labels are useful recognition cues. Resolve an ambiguous label only when its meaning changes the selected structure, relation, bearer, characteristic, or next claim; use the rule or test for that claim. |
+| Evolution | Captured structural information may no longer be adequate for the declared use when source publication edition, realized structure, environment, bearer, or holon level changes. |
 

@@ -6,12 +6,12 @@ section_id: "C.36.P:6"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__008_boundaries.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:6 — Boundaries"
-line_start: 68551
-line_end: 68560
+line_start: 68559
+line_end: 68568
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -62,7 +62,7 @@ This pattern does not define the cultural-evolution case or intervention. Use C.
 
 Use C.36.P to recover one ordinary claim. Keep the optional recovery line only when a handoff or repeated use needs it. Once the meaning and applicable rule are clear, stop the wording repair and return to the project question.
 
-Earlier retrieval text may call the optional line `CulturalEvolutionWordingRecoveryLine@Context`. In this edition that name resolves to `CulturalEvolutionWordingRecoveryLine`; the suffix supplies no Context object, scope, relation, or field.
+If a source uses `CulturalEvolutionWordingRecoveryLine@Context`, read it as `CulturalEvolutionWordingRecoveryLine` qualified for local retrieval; recover any required scope or relation separately.
 
-This pattern does not create `U.Culture`, `U.Style`, `U.Tradition`, `U.Practice`, `U.Genre`, `U.Scene`, `U.Technique`, `U.Platform`, `U.PlatformRegime`, `U.MeasurementRegime`, or `U.DevelopmentalMachine`.
+Cultural labels remain usable as local signs for the recovered objects, relations, and claims.
 

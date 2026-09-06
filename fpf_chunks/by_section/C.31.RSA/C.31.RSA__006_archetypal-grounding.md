@@ -6,12 +6,12 @@ section_id: "C.31.RSA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__006_archetypal-grounding.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:5 — Archetypal Grounding"
-line_start: 62910
-line_end: 63002
+line_start: 62918
+line_end: 63010
 dependencies:
   - "A.10"
   - "A.19"
@@ -40,13 +40,13 @@ keywords:
 
 ### C.31.RSA:5 - Archetypal Grounding
 
-**Tell.** Reusable structure is not a substance. It is structure located in declared places under a declared accounting basis.
+**Tell.** Account for structure at declared loci under a declared accounting basis.
 
 **Show.** In one architecture, reusable structure may be located in a template and interface grammar. In another, it may be located in a test package, regulatory argument, work method, or flow pattern. In a third, the reusable part may be small, but the bounded exception is exactly what preserves safety or local fit.
 
 **Show.** A share can be useful as a local report. It becomes misleading when it hides which structure was counted, which structure was not counted, and when the reader must return to source records.
 
-Holon and episteme: the structures being accounted over are selected architecture-relevant structures in context. The RSA description, slots, report-only shares, and source-return condition are accounting descriptions, slot-bearing records, report-only records, and source-return records about those structures.
+Holon and episteme: the structures being accounted over are selected architecture-relevant structures in context. The RSA description describes those structures; it records the local accounting slots, report-only share values, and any source-return condition.
 
 #### C.31.RSA:5.1 - Worked case: reusable evidence package, bespoke delivery work
 
@@ -91,12 +91,12 @@ residueAcceptedAsBoundedException:
 sourceReturnCondition:
   return to deployment evidence and regulatory exception record before assurance or gate use
 relatedClaimPatternsIfClaimed:
-  `A.10` and `G.6` for evidence validity; `B.3` for assurance reliance; `A.6.M` for interface grammar; `C.16` if comparison is being made
+  `A.10` for the evidence-validity claim's source-to-use basis; `G.6` when a citable provenance path is needed; `B.3` for assurance reliance; `A.6.M` for interface grammar when a module-interface claim is made; `C.16` for the measurement account; `A.19.CPM` for comparison under a declared comparator
 stopCondition:
   report-only accounting unless comparator admission, evidence validity, and assurance validity are declared
 ```
 
-Admissible move: publish the local report-only RSA note and repair the recurring delivery approval work into reusable work structure and reusable evidence structure. Non-admissible move: claim that the reusable evidence package proves every deployment or that a high reusable share makes the architecture better.
+Admissible move: publish the local report-only RSA note and refactor the repeated organization of delivery approval work into reusable work structure and reusable evidence structure. Non-admissible move: claim that the reusable evidence package proves every deployment or that a high reusable share makes the architecture better.
 
 #### C.31.RSA:5.2 - Anti-case: high share hides a bad architecture move
 
@@ -107,9 +107,9 @@ A team reports that 85 percent of its architecture is reusable because most scre
 The template makes many local exceptions necessary for product teams and side-channel integrations.
 ```
 
-This is not a successful RSA result. The accounting basis counts template instances but hides interface relation cost, lost variation, hidden bespoke work, and evidence decay. The repair is to mark the share as report-only, add the missing bespoke-residue slots, and apply A.6.M, C.31, or an characteristic pattern governing the claim to the interface relation cost before any comparison or decision use.
+This is not a successful RSA result. The accounting basis counts template instances but hides interface relation cost, lost variation, hidden bespoke work, and evidence decay. The repair is to mark the share as report-only, add the missing bespoke-residue slots, and apply A.6.M, C.31, or a characteristic pattern governing the claim to the interface relation cost before any comparison or decision use.
 
-Lowering replay: the team tries to use the 85 percent share to rank this template architecture above another product-line variant and approve the template program. The use is lowered to local report-only accounting because the comparator set, accounting-basis alignment, interface-cost measure, source-return condition, and decision record are absent. Before comparison or decision use, A.6.M must repair the interface grammar, C.16 or A.19 must govern comparability and characteristic space, and C.11 must govern the local decision claim.
+Lowering replay: the team tries to use the 85 percent share to rank this template architecture above another product-line variant and approve the template program. The use is lowered to local report-only accounting because the comparator set, accounting-basis alignment, interface-cost measure, source-return condition, and decision record are absent. Before comparison or decision use, the interface grammar must be repaired under its direct pattern, using A.6.M when a module-interface claim is current, C.16 must govern the interface-cost measurement, A.19.CPM must govern comparison of the admitted profiles, A.19 must govern any CharacteristicSpace or reusable space predicate used, and C.11 must govern the local decision claim.
 
 Stop condition: do not use the 85 percent share for outside-RSA ranking, gate, assurance, or decision. Reopen the RSA note when the interface grammar, exception register, or comparator set changes.
 
@@ -127,7 +127,7 @@ RSA can transfer from product-line architecture to neural-network architecture o
 - reusable structure may be located in recovered repeated-block topology, dataflow pattern, cache-placement rule, or evaluation harness;
 - bespoke residue may be located in model-specific tuning, data distribution dependence, memory-layout exception, or ablation gap;
 - benchmark gain is not reusable-structure accounting by itself;
-- evidence claims apply `A.10` and `G.6`; causal claims apply `C.28`; mathematical-lens or compression claims apply `C.29`.
+- for evidence claims, use `A.10` for source recovery and bounded reliance, and `G.6` when a citable provenance path is needed; use `C.28` for causal claims and `C.29` for mathematical-lens or compression claims.
 
-Admissible move: record which recovered structural locus was reused, what changed, what source distinctions must remain reachable, and which governing pattern governs benchmark, evidence, causal-use, or mathematical-lens claims. Non-admissible move: treat "block replacement improved the architecture" as RSA proof.
+Admissible move: record which recovered structural locus was reused, what changed, what source distinctions must remain reachable, and which pattern defines or tests each benchmark, evidence, causal-use, or mathematical-lens claim. Non-admissible move: treat "block replacement improved the architecture" as RSA proof.
 

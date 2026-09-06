@@ -6,12 +6,12 @@ section_id: "C.38:9"
 section_title: "Consequences and trade-offs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__010_consequences-and-trade-offs.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:9 — Consequences and trade-offs"
-line_start: 68364
-line_end: 68375
+line_start: 68372
+line_end: 68383
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -33,7 +33,7 @@ keywords:
 | --- | --- |
 | Truthful alternatives | Candidate rows become whole ways to obtain the same result rather than a mix of labels and objects. |
 | Earlier burden visibility | Integration, evidence, support, capability, custody, consequence, recovery, and exit can change the choice before commitment. |
-| Preserved modality | Plans and candidate rows do not fabricate current world-side relations. |
+| Preserved modality | Plans and candidate rows keep proposed world-side relations distinct from independently supported current ones. |
 | Better choice input | `C.11` receives a finite complete-enough `OptionSet` and visible gaps instead of being asked to repair its own candidates. |
 | Domain autonomy | Subject Methods keep architecture, provision, contracting, acceptance, realization, and assurance. |
 | Additional preparation cost | The team must resolve familiar labels and ask comparable questions before scoring or choosing. |

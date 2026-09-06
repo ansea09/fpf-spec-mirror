@@ -6,12 +6,12 @@ section_id: "C.37:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 68152
-line_end: 68164
+line_start: 68160
+line_end: 68172
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -33,10 +33,10 @@ keywords:
 | --- | --- | --- |
 | Best representation overall | A candidate is ranked without a receiver, action, exact claim, or tolerated loss. | Start a one-use account and compare only claims that can change that action. |
 | Evidence-use classification as warrant | A.2.4 is treated as a positive reliance or authorization result. | Add A.10 only when reliance is material and keep the direct receiving result separate. |
-| Provenance as decision | A current source or authentic carrier is treated as selecting or permitting the action. | Use provenance only inside the exact bounded path; require the direct choice, gate, permission, or domain result. |
+| Provenance as decision | A current source or authentic carrier is treated as a positive choice or permission result. | Use provenance only inside the exact bounded path; require the direct choice, gate, permission, or domain result. |
 | Publication as representation authority | A published diagram is accepted because it is available and readable. | Recover the direct subject result, any exact conformance or correspondence, and the relied-on claim; E.24.PUB supplies availability only. |
 | Co-use as composition | Several rows become a collection, structure, integrated view, or graph by adjacency. | Keep independent rows; open C.13, A.22, E.17.0, C.29, or a domain integration pattern only for an additional named claim. |
 | Duplicate account | An owning domain result and a standalone C.37 episteme repeat the same one-use claims. | Embed once when the owner exists; otherwise use one standalone ordinary episteme. |
 | Cross-use carryover | A row selected for one decision is silently reused for tailoring, learning, maintenance, or another action. | Start another account and re-evaluate direct result, loss, path, disposition, and receiving result. |
-| Diagram-first ontology | A graph, table, card, or route shape decides what exists or what happened. | Recover the direct object and relation first; then state the exact representation use or `none`. |
+| Diagram-first ontology | What exists or what happened is inferred from a graph, table, card, or route shape without the direct subject result. | Recover the direct object and relation first; then state the exact representation use or `none`. |
 

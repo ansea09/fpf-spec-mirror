@@ -6,12 +6,12 @@ section_id: "C.32.P2S:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__010_consequences.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:9 — Consequences"
-line_start: 64091
-line_end: 64100
+line_start: 64099
+line_end: 64108
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -53,7 +53,7 @@ The project gains one replayable architecturing flow from pressure to actual-str
 
 The cost is disciplined record work: the card preserves structural uncertainty, candidate plurality, accepted losses, handoffs, and stronger-structure inspection return. If one narrower pattern already answers the question, use it directly and do not open P2S.
 
-The pattern improves cross-holon and adjacent-structure reuse. Practitioners may apply the same P2S method and Plain action sequence to different project-local flows for holons such as systems, built assets, product families, organizations-as-systems, epistemes, AI-agent setups, disciplines, and C.36-recovered cultural-evolution cases. Sharing that guidance does not give the flows one cross-holon identity or turn the examples into performed-work order. When architecture pressure concerns source wording such as roles, methods, practices, cultures, traditions, or styles, name the described holon and locality separately. Keep each recovered local kind, classification judgment, assignment, direct-relation or representation position, Method, Method relation structure, MethodDescription, Work claim, canon or memory episteme, recognition or selection regime, and mediation-system claim with the pattern for that claim.
+The pattern improves cross-holon and adjacent-structure reuse. Practitioners may apply the same P2S method and Plain action sequence to different project-local flows in system, built-asset, product-family, organization-as-system, episteme, AI-agent-setup, discipline, and C.36-recovered cultural-evolution cases, after identifying the described holon in each case. Sharing that guidance does not give the flows one cross-holon identity or turn the examples into performed-work order. When architecture pressure concerns source wording such as roles, methods, practices, cultures, traditions, or styles, name the described holon and locality separately. Keep each recovered local kind, classification judgment, assignment, direct-relation or representation position, Method, Method relation structure, MethodDescription, Work claim, canon or memory episteme, recognition or selection regime, and mediation-system claim with the pattern for that claim.
 
 The pattern does not guarantee adequacy. It makes the architecturing flow inspectable. For candidate quality, decision adequacy, evidence, assurance, gate passage, release, measurement validity, and `G.11` currentness refresh, use the relevant patterns.
 

@@ -6,12 +6,12 @@ section_id: "C.38:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__005_solution.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:4 — Solution"
-line_start: 68238
-line_end: 68296
+line_start: 68246
+line_end: 68304
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -71,15 +71,15 @@ For a small case, use this form:
 
 The result is a comparison claim, not an obtaining arrangement in the world. It establishes no actual performer, capability, authorization, Work, purchase, service, production, delivery, acceptance, availability, or use.
 
-#### C.38:4.4 - Choose the truthful carrier
+#### C.38:4.4 - Retain the comparison without duplication
 
-Use the least burdensome carrier that keeps the comparison recoverable:
+Use the least burdensome way to keep the comparison recoverable:
 
 1. If a domain result already carries the complete same-use comparison and declares this specialization, keep it there rather than producing a second account.
 2. Otherwise retain one ordinary `C.2.1` episteme about the one result-obtaining comparison, with a truthful EntityOfConcern and effective reference scheme.
 3. If a direct domain Method already returns the complete useful comparison more cheaply, use that Method and do not add a `C.38` account.
 
-The episteme, table, document, or diagram that carries the claims is not a world-side arrangement, selected Structure, architecture, plan, Work, or result availability. Use `A.22`, `C.30`, `C.29`, `E.17`, or another direct pattern only when its separate question is current.
+The episteme, table, document, or diagram that carries the claims does not, merely by carrying them, establish a world-side arrangement, selected Structure, architecture, plan, Work, or result availability. Use `A.22`, `C.30`, `C.29`, `E.17`, or another direct pattern only when its separate question is current.
 
 #### C.38:4.5 - Separate recognition from assurance
 

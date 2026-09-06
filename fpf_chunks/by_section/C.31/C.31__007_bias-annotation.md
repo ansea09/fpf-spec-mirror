@@ -6,12 +6,12 @@ section_id: "C.31:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__007_bias-annotation.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:6 — Bias-Annotation"
-line_start: 62602
-line_end: 62612
+line_start: 62610
+line_end: 62620
 dependencies:
   - "A.10"
   - "A.17"
@@ -50,7 +50,7 @@ keywords:
 | Scalar bias | Refuse one modularity score unless scoring method and comparability basis are declared. |
 | Measure-first bias | Start with `ModularityVectorLite` and repair direction before C.16-heavy fields. |
 | Interface-publication bias | Treat public interfaces as only one possible basis for substantiating substitutability. |
-| Proxy bias | Add `ProxyRisk` and `AuditQuestion` to every decision-facing card. |
+| Proxy bias | Add `proxyRisk` and `auditQuestion` to every decision-facing card. |
 | Complexity umbrella bias | Keep residual heads claim-scoped and apply scale, RG, or lens subject patterns when those uses are being made. |
 | Source-label bias | Treat software, neural-network, chiplet, safety-case, product-line, block, layer, expert, cache, router, and gate labels as source examples until `C.30.STRAT` and the subject pattern recover the FPF characteristic subject, structure, scale, and admissible use. |
 

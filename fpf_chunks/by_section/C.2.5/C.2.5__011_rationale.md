@@ -6,12 +6,12 @@ section_id: "C.2.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__011_rationale.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:10 — Rationale"
-line_start: 44471
-line_end: 44473
+line_start: 44479
+line_end: 44481
 dependencies:
   - "A.16"
   - "A.16.0"

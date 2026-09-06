@@ -6,12 +6,12 @@ section_id: "C.31.RSA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__005_solution.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:4 — Solution"
-line_start: 62772
-line_end: 62909
+line_start: 62780
+line_end: 62917
 dependencies:
   - "A.10"
   - "A.19"
@@ -60,7 +60,7 @@ ReusableStructureAccountingDescription@Context:
   nonAdmissibleUse:
 ```
 
-`accountingBasisRef` states the accounting rule being used: description length, dependency edges, work items, evidence package count, cost share, template instances, interface variants, regulatory case sections, or another declared accounting rule. The accounting rule is not implied by the word "reuse".
+`accountingBasisRef` identifies the accounting rule. The rule may concern description length, dependency edges, work items, evidence package count, cost share, template instances, interface variants, regulatory case sections, or another declared basis. The accounting rule is not implied by the word "reuse".
 
 Well-formedness: every slot is over declared `structureRefs`, declared `structuralAspectRefs`, and one declared accounting basis. Slot labels are explanatory; they are not root kinds and are not automatically commensurable.
 
@@ -83,7 +83,7 @@ S_crossScopeUnique
 H_residual
 ```
 
-These labels are local slots, not FPF ontology. `H_residual` is residual uncertainty or unmodelled variance under the accounting basis. It is not obviously the same unit as interface grammar, work template, evidence package, or regulatory argument.
+These labels are local slots, not FPF ontology. `H_residual` is residual uncertainty or unmodelled variance under the accounting basis. Its value is not automatically commensurable with counts or other measures of interface grammars, work templates, evidence packages, or regulatory arguments.
 
 #### C.31.RSA:4.3 - Report-only shares
 
@@ -112,7 +112,7 @@ total-described-structure under accountingBasisRef:
   hidden or residual uncertainty slots
 ```
 
-This is not `ReusableStructureEquation`, not an architecture amount, and not a hidden `StructureAmount` kind. It is a readable decomposition of one declared accounting description. If the slots do not share a declared accounting basis and comparability rule, they cannot be summed or ranked.
+This is a readable decomposition of one declared accounting description, not an equation defining an architecture amount. If the slots do not share a declared accounting basis and comparability rule, they cannot be summed or ranked.
 
 #### C.31.RSA:4.5 - Structure-relocation actions
 
@@ -121,14 +121,14 @@ RSA is useful because it points to relocation and repair actions:
 | Situation | Repair direction |
 | --- | --- |
 | Repeated delivery work contains structure that is not explicit in the work or method description being used. | Move repeated structure into `MethodDescription`, work structure, or reusable work relation. |
-| Repeated interface exceptions are handled one by one. | Add or revise interface grammar, variability slots, or substitution policy under A.6.M. |
+| Repeated interface exceptions are handled one by one. | Add or revise interface grammar, variability slots, or substitution policy; use A.6.M when this is a module-interface claim. |
 | An undocumented dependency crosses module or view boundaries. | Expose the dependency, revise boundary, add correspondence, or add source-return condition. |
 | Evidence is recreated for each instance. | Move repeatable evidence into an evidence package, assurance argument record, or validity-context note. |
-| Regulatory or safety-case residue remains one-off. | Split reusable argument structure from context-specific exception; apply B.3 or G.6 for assurance or safety-case reliance. |
+| Regulatory or safety-case residue remains one-off. | Split reusable argument structure from context-specific exception; apply B.3 to the assurance claim, including a claim about safety-case support, and G.6 when a citable provenance path is needed. |
 | Compression hides needed distinctions. | Reduce compression, add source-return condition, or apply C.29 for lens-governed compression or reduction claims. |
 | Bespoke residue protects necessary local variation. | Keep it as a bounded exception with admissible use and non-admissible use. |
 
-High reusable structure is not always good. The architecture question is where structure lives and what action follows: reusable templates, interfaces, flows, control relations, work methods, evidence packages, or unique exception networks and hidden coupling.
+A high reusable-structure share is not always good. The architecture question is where structure lives—for example, in reusable templates, interfaces, flows, control relations, work methods, evidence packages, or unique exception networks and hidden coupling—and what action follows.
 
 After a relocation or reuse move, ask what got worse:
 
@@ -142,7 +142,7 @@ After a relocation or reuse move, ask what got worse:
 | Compression or lens-backed accounting | Lost source distinction, observer-budget dependency, or C.29 stop-condition breach. |
 | Bespoke-residue reduction | Reduced resilience, local-fit loss, or new hidden coupling. |
 
-The result is not "more reuse is better." A conforming RSA move states the reusable locus, the bespoke or residual locus, the accounting basis, the first repair direction, and the first cost, loss, or source-return condition that can make the move inadmissible.
+A conforming RSA move states the reusable locus, the bespoke or residual locus, the accounting basis, the first repair direction, and the first cost, loss, or source-return condition that can make the move inadmissible.
 
 #### C.31.RSA:4.6 - Triage and accounting use boundary
 

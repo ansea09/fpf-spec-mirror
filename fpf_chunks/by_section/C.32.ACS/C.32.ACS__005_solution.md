@@ -6,12 +6,12 @@ section_id: "C.32.ACS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__005_solution.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:4 — Solution"
-line_start: 64459
-line_end: 64523
+line_start: 64467
+line_end: 64531
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,7 +55,7 @@ Build an `ArchitectureCharacteristicCriteriaSet@Project` from starter heads, sou
 
 `ArchitectureCharacteristicCriteriaSet@Project` is a C.32.ACS-local project working record: it holds criteria-row references and use classifications for improvement work. Each `draftProjectCriteriaRows` entry is another local record form, not the referenced `U.Characteristic`, Q-Bundle slot, scale, predicate, measurement result, eval program, or eval result. The set and rows create no new `U.*` kind and replace none of those direct objects.
 
-An architecture characteristic is the property or quality-like head under discussion. A C.25 Q-Bundle is the structured form for a composite quality family. A scale row binds one characteristic or Q-Bundle slot to a bearer, scale form, use class, and receiving use. A row whose scale form exposes exception growth, interface variation, or another scale-sensitive characteristic remains a criterion row; a preference between architecture alternatives over a declared scale window is a separate `C.31.ASAP` claim. An architecture-characteristic eval program belongs to `C.32.ACE`; it frames evaluation of one declared row, coupled rows, Q-Bundle slots, or C.32 candidate palettes while each actual typed result remains with its subject pattern.
+An architecture characteristic is the property or quality-like head under discussion. A C.25 Q-Bundle is the structured form for a composite quality family. A scale row binds one characteristic or Q-Bundle slot to a bearer, scale form, use class, and receiving use. A row whose scale form exposes exception growth, interface variation, or another scale-sensitive characteristic remains a criterion row; a preference between architecture alternatives over a declared scale window is a separate `C.31.ASAP` claim. An architecture-characteristic eval program belongs to `C.32.ACE`; it frames evaluation of one declared row, coupled rows, Q-Bundle slots, or C.32 candidate palettes while each actual typed result remains under the pattern that defines and tests that result.
 
 #### C.32.ACS:4.2 - Criteria-set construction
 
@@ -81,7 +81,7 @@ Use `contextOnly` when the row helps interpretation but should not drive improve
 
 **Stop condition.** Stop C.32.ACS when the criteria set names draft rows, use class, bearer or selected structure, scale form, proxy risk, protected counter-characteristics, receiving use, source-return condition, and any C.32.ACE or Q-Bundle reference that the current use actually needs.
 
-**Lowering condition.** Lower an `optimizationIndicator` to `monitoredGuardrail` or `contextOnly` when it no longer guides the next architecture change or its proxy risk is not controlled. Lower a draft row to source vocabulary when bearer, scale form, use reason, receiving use, or protected counter-characteristics are missing. Use `C.32.HCS` when the holon-family starting point is wrong, to `C.25` when the row is really composite, and to the named pattern for the next question when measurement, eval, comparison, publication, local choice, evidence, assurance, or decision work is current.
+**Lowering condition.** Lower an `optimizationIndicator` to `monitoredGuardrail` or `contextOnly` when it no longer guides the next architecture change or its proxy risk is not controlled. Lower a draft row to source vocabulary when bearer, scale form, use reason, receiving use, or protected counter-characteristics are missing. Use `C.32.HCS` when the holon-family starting point is wrong, `C.25` when the row is really composite, and the named pattern for the next question when measurement, eval, comparison, publication, local choice, evidence, assurance, or decision work is current.
 
 #### C.32.ACS:4.4 - Improvement-cycle use
 
@@ -110,5 +110,5 @@ ArchitectureCharacteristicImprovementRow@Project:
   stopContinueOrSourceReturnCondition:
 ```
 
-The row prepares improvement work. It does not carry a claim outside its declared scale and use. An eval result is a reading over a declared row; another pattern may use it as source material for an A.10 evidence relation, improvement feedback, comparison input, selection input, or decision input only when that pattern for the next question is named by value. It does not become the characteristic, the declared architecture concern, the architecture choice, or the optimization direction.
+The row prepares improvement work. It does not carry a claim outside its declared scale and use. A reading or other typed eval result over a declared row retains its result kind and conditions; another pattern may use it as source material for bounded claim reliance under A.10, improvement feedback, comparison input, selection input, or decision input only when that pattern for the next question is named by value. It does not become the characteristic, the declared architecture concern, the architecture choice, or the optimization direction.
 

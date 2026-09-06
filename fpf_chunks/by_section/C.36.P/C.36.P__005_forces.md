@@ -6,12 +6,12 @@ section_id: "C.36.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__005_forces.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:3 — Forces"
-line_start: 68467
-line_end: 68477
+line_start: 68475
+line_end: 68485
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -61,9 +61,9 @@ keywords:
 | Force | Tension |
 |---|---|
 | Local language usefulness | Communities need familiar words such as style, tradition, scene, platform, canon, and technique. |
-| FPF composability | Downstream work needs the applicable Method, Work, discipline, episteme, bridge, archive, pool, selected-set, architecture, measurement, choice, or refresh rule without turning that rule into package-routing prose. |
+| FPF composability | Downstream work needs the applicable Method, Work, discipline, episteme, bridge, archive, pool, selected-set, architecture, measurement, choice, or refresh rule with its contribution to the next action clear. |
 | Source fidelity | Some labels should remain visible because they are source terms or project terms. |
 | Ontological economy | The same labels must not mint root U-kinds or local ontologies. |
 | Precision vs readable action | The repair must preserve distinctions that change truth or action without making the reader complete an ontological form before doing the work. |
-| C.36 focus | C.36 must remain a positive cultural-evolution pattern, not a wording-repair catalogue. |
+| C.36 focus | C.36 supplies the cultural-evolution case; C.36.P supplies wording recovery. |
 

@@ -6,12 +6,12 @@ section_id: "C.32.P2S:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 64078
-line_end: 64090
+line_start: 64086
+line_end: 64098
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -52,11 +52,11 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 |---|---|---|
 | Description stop | The project stops after producing a view set, diagram, ADR-like record, or architecture description even though no candidate structure, decision, realization, or feedback path is recoverable. | Return to step 2 or 5. Name selected or unknown structures, architecture characteristics, and the next pattern to use: `C.30`, `C.30.ASV`, `C.32`, or `C.32.PAD`. |
-| Relation index P2S | The P2S artifact lists neighboring patterns but does not tell the architect what to do from pressure to subject-side actual structures recovered from facts that actually obtain. | Write the P2S method's positive Plain action sequence in the card: pressure, structural uncertainty, candidates, retention or selection, decision, descriptions, method and work handoff, Work, actual changes, subject-side actual structures, feedback, and a return selected for the next question. |
+| Relation index P2S | The P2S artifact lists neighboring patterns but does not tell the architect what to do from pressure to subject-side actual structures recovered from facts that actually obtain. | Use the P2S method's Plain action sequence to record only the currently relevant links in the card: pressure, structural uncertainty, candidates, retention or selection, decision, descriptions, method and work handoff, Work, actual changes, subject-side actual structures, feedback, and a return selected for the next question. |
 | Eval-as-decision | An eval result, score, metric, telemetry event, or dashboard value selects the architecture. | Use `C.32.ACE` for the eval, `C.16` for measurement, and `C.25` for composite quality; ask what selected structure, accepted loss, counter-characteristic, or functional implication worsened; then use comparison, selected-set, local-choice, or `C.32.PAD` if selection or decision is current. |
 | Hidden architecture-influence basis | The transformed-side candidate is designed as if no typed Work, communication, tool, method, deployment, evidence, selected-structure, or architecture-side source constrains it. | Open the architecture-influence branch and `C.32.CONWAY`; recover every source's exact kind and obtaining direct relation or precise provisional disposition, then add candidate families that change the influence-source side, transformed side, both, or a bounded mismatch while keeping actor, Work, changed-referent, and transformation facts separate. |
 | Lost structure left silent | The description, decision, method handoff, or eval report compresses away distinctions needed for later work. | Fill the P2S structural-information slots: what is captured, handed off, latent or hidden, lost, and what stronger-structure inspection return condition restores the selected or expected structure needed by the next claim. |
-| Work-pattern takeover | P2S prose starts authorizing Work occurrences or replacing method, readiness, WorkPlan, or separate assertion or record epistemes about performed work. | Keep P2S as architecture carry-through. Use A.15-family patterns for method and work claims and keep in the P2S card only references plus expected selected-structure effects. |
+| Work-pattern takeover | P2S prose starts authorizing Work occurrences or replacing method, readiness, WorkPlan, or separate assertion or record epistemes about performed work. | Keep P2S as architecture carry-through. Use `A.3.1` for Method identity, `A.3.2` for `MethodDescription` membership, and A.15-family patterns for method-work alignment and work claims. Keep in the P2S card only references plus expected selected-structure effects. |
 | Selected structure treated as actual | A decision, model, description, view, evaluation result, or matching label is used as proof that the selected structure obtains. | Recover the subject-side `U.Structure` under `A.22` from its declared substrate and obtaining relation occurrences, applied constraints, invariants, or other selected-organization facts. Use C.30 `ArchitectureRelation` only when its holon and selected-structure participants satisfy the obtaining predicate; keep modal content in `ArchitectureClaim`. Keep descriptions and evaluations separate, and use the relevant patterns to test conformance. |
 | Common work treated as one composite transformation | Mounting, wiring, connection, or commissioning changes are merged because one assembly work occurrence, selected configuration, or time interval contains them. | Identify every actual transformation independently under `A.3.4`; cite direct work-to-change facts; return the exact missing-governor blocker if the receiving claim needs transformation composition. |
 

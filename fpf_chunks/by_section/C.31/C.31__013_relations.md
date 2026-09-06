@@ -6,12 +6,12 @@ section_id: "C.31:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__013_relations.md"
-commit_sha: "43c46859c3926a371fa60cfb1c76aefa19f9eaf9"
+commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:12 — Relations"
-line_start: 62685
-line_end: 62704
+line_start: 62693
+line_end: 62712
 dependencies:
   - "A.10"
   - "A.17"
@@ -54,12 +54,12 @@ keywords:
 | `C.16`, `A.17`, `A.18`, `A.19` | Govern characteristic, scale, coordinate, score, unit, comparability, and measurement admissibility. |
 | `C.25` | Governs broader quality-family Q-Bundles when modularity is used in a quality claim. |
 | `C.30` and `C.30.ASV` | Govern architecture claims and structural views that supply C.31 subjects. |
-| `C.33`, `C.34`, and `C.35` | Use these patterns for captured-structure adequacy, lost-structure adequacy, preservation adequacy, correspondence adequacy, generated-carrier adequacy, or discovered-carrier adequacy around modularity and reusable-structure material. C.31 remains the pattern for modularity, reuse, proxy-risk, report-only, and characteristic use. |
+| `C.33`, `C.34`, and `C.35` | Use C.33 and C.34 for captured-structure, lost-structure, preservation, and correspondence adequacy around modularity and reusable-structure material. Use C.35 to recover the kind of a generated or discovered result and assess its adequacy for the next architecture use. C.31 remains the pattern for modularity, reuse, proxy-risk, report-only, and characteristic use. |
 | `C.30.ILC` | Governs cross-scope residual and frustration recognition when architecture move triage is being made. |
 | `C.29` | Governs mathematical-lens use such as compression, RG, epiplexity, or graph-lens transfer. |
-| `C.27`, `C.18.1`, `C.19.1` | Govern temporal and set-dynamic claims such as learning transfer, exception slope, and scale-window movement. |
+| `C.27`, `C.18.1`, `C.19.1` | C.27 governs temporal-claim adequacy, C.18.1 scale-law lens binding, and C.19.1 scale-based comparison, preference, or waiver. For temporal or set-dynamic claims involving learning transfer, exception slope, or scale-window movement, use the applicable branch. |
 | `C.28` | Governs causal-use claims. |
-| `A.10`, `B.3`, `A.20`, `A.21` | Govern evidence, assurance, gate, safety, and release claims. |
+| `A.10`, `B.3`, `A.20`, `A.21` | Govern evidence provenance and reliance, named assurance claims, internal-constraint results, and named gate decisions, respectively. Safety and release claims use their direct domain patterns. |
 | `C.32.P2S` | Uses C.31 modularity and reusable-structure characteristics when problem pressure must continue into candidate synthesis, decision, realization, and actual-structure feedback; C.31 still governs only characteristic and report-only modularity use. |
-| `G.2`, `G.5`, `C.11` | Define SoTA-basis, set-selection, and local-decision predicates. Candidate-generation or architecture-synthesis claims stay outside C.31 unless an exact current assertion satisfies the predicate or constraint whose defining `ClaimGraph` is located through `G.5`, `C.11`, or a named architecture-synthesis pattern description; C.31 records only modularity or reusable-structure characteristic use and report-only boundaries. |
+| `G.2`, `C.32`, `G.5`, `C.11` | Define SoTA-basis, candidate architecture synthesis, selected-set declaration, and local-decision predicates, respectively. Candidate-generation or architecture-synthesis claims stay outside C.31; each requires an exact current assertion satisfying the predicate or constraint whose defining `ClaimGraph` is located through `C.32` or another named candidate-generation or architecture-synthesis pattern description. C.31 records only modularity or reusable-structure characteristic use and report-only boundaries. |
 

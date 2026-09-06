@@ -4,6 +4,7 @@
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Version:** September 2026
+- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Status:** Normative kernel, eternal alpha: already used in working projects and development programs, while still evolving.
 
 Begin with the working question in your project; FPF helps make the reasoning explicit enough to review and improve.
@@ -26,6 +27,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | What FPF Is | full text | Defines FPF as a transdisciplinary pattern language and reasoning architecture. |
 | What FPF Is Not | full text | Sets boundaries against a universal ontology, linear method, or substitute for domain expertise. |
 | How to Use This Repository | full text | Explains how the monolith, pattern hosts, Readme, and project work products relate. |
+| License and reuse | full text | Explains CC BY 4.0 reuse and authors' choice of license for their own DPFs and LPFs. |
 | Citation | full text | Gives the public citation and return information. |
 
  **Preface (non-normative)**
@@ -789,6 +791,12 @@ Add PatternIDs after the plain explanation so I can inspect the direct
 Solutions and checks. Stop when the current question is answered; do not
 turn the example or card into a whole-project plan.
 ```
+
+## License and reuse
+
+The original FPF and DPF content by Anatoly Levenchuk, including the Engineering DPF Suite and Narrativization DPF, is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you may share and adapt it, including commercially, with attribution, a license link and an indication of changes. See the [licensing scope](https://github.com/ailev/FPF/blob/main/LICENSING.md) for the full notice and third-party and software boundaries.
+
+You choose the license for your own original DPF or LPF. Using FPF methods or its publication form does not impose CC BY on your work. When sharing licensed FPF or DPF text under CC BY 4.0, preserve its attribution and comply with the license. Where your use needs no copyright permission, including under an applicable exception, these conditions do not apply. The license has no ShareAlike requirement.
 
 ## Citation
 
