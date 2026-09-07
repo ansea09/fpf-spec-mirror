@@ -6,12 +6,12 @@ section_id: "F.16:10"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__011_didactic-distillation.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:10 — Didactic distillation"
-line_start: 98699
-line_end: 98702
+line_start: 98806
+line_end: 98809
 dependencies:
   - "A.10"
   - "A.15"

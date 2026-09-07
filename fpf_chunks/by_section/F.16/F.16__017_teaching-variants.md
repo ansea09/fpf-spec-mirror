@@ -6,12 +6,12 @@ section_id: "F.16:16"
 section_title: "Teaching variants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__017_teaching-variants.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:16 — Teaching variants"
-line_start: 98781
-line_end: 98788
+line_start: 98888
+line_end: 98895
 dependencies:
   - "A.10"
   - "A.15"

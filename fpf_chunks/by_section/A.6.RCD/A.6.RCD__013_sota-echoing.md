@@ -6,12 +6,12 @@ section_id: "A.6.RCD:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__013_sota-echoing.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:11 — SoTA-Echoing"
-line_start: 17376
-line_end: 17388
+line_start: 17387
+line_end: 17399
 dependencies:
   - "A.11"
   - "A.6.0"

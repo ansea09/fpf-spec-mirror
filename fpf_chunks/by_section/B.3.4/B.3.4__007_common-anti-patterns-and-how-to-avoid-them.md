@@ -6,30 +6,35 @@ section_id: "B.3.4:6"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__007_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:6 — Common Anti-Patterns and How to Avoid Them"
-line_start: 40032
-line_end: 40039
+line_start: 40069
+line_end: 40078
 dependencies:
   - "A.10"
   - "B.3"
-  - "B.3.3"
-  - "B.4"
+  - "C.11"
+  - "C.19.2"
+  - "C.27.TA"
+  - "G.11"
 keywords:
-  - "decay"
+  - "age"
+  - "changed premise"
   - "epistemic debt"
-  - "evidence aging"
-  - "freshness"
-  - "stale data"
+  - "evidence currentness"
+  - "qualification window"
+  - "refresh"
 ---
 
-### B.3.4:6 - **Common Anti-Patterns and How to Avoid Them**
+### B.3.4:6 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It |
-| :--- | :--- | :--- |
-| **The "Perpetual Evidence" Fallacy** | "We verified this component five years ago, so it's still L2. It's just a simple library, nothing has changed." | **CC-ED.1** forces a `valid_until` date. The context (compiler versions, new vulnerabilities, OS updates) has certainly changed. Setting `valid_until: null` requires explicit justification that the evidence carrier is truly timeless, like a mathematical theorem. |
-| **The "Invisible Debt" Trap** | A critical component test suite has been failing silently for months, but the system dashboard is still green. | **CC-ED.3** ensures that the debt from the failing component's expired evidence propagates up to the system level, turning the dashboard amber or red and forcing attention. |
-| **The "Risk Acceptance by Silence"** | "We know those tests are stale, but we're too busy to fix them. Let's just ignore the warnings for now." | **CC-ED.5** makes risk acceptance an explicit, auditable action. A manager must formally `Waive` the debt, putting their name on the decision. This transforms passive neglect into active, accountable risk management. |
+| Anti-pattern | Failure in use | Repair |
+| --- | --- | --- |
+| Old therefore invalid | An unchanged qualified library result is discarded because its report crossed a generic date. | Check the condition that matters; retain applicable support without automatic renewal. |
+| Unchanged file therefore safe | A newly relevant dependency vulnerability is ignored because the library bytes are unchanged. | Reopen the affected security claim and communicate its unsupported reach. |
+| Green therefore assured | Fresh reports or zero overdue reviews hide an unresolved performance failure. | Assess relevance and adverse results for the target claim; report dashboard meaning honestly. |
+| Status as risk acceptance | Lowering a badge or obtaining a senior signature is treated as permission to expose others to harm. | Establish the actual rule, authority and permitted response; restrict unsupported use where needed. |
+| Maintenance by forced experiment | A repeat test consumes the only opportunity for a protective inspection without changing any relevant conclusion. | Compare marginal contribution and displaced cost; retain binding conditions while seeking any justified amendment. |
 

@@ -6,12 +6,12 @@ section_id: "B.3:11a"
 section_title: "Quantum-like claims"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__015_quantum-like-claims.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:11a — Quantum-like claims"
-line_start: 39848
-line_end: 39851
+line_start: 39860
+line_end: 39863
 dependencies:
   - "A.10"
   - "A.15.1"

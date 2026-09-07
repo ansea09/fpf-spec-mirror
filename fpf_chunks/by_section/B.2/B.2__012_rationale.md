@@ -6,12 +6,12 @@ section_id: "B.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__012_rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:10 — Rationale"
-line_start: 38405
-line_end: 38410
+line_start: 38417
+line_end: 38422
 dependencies:
   - "A.1"
   - "A.10"
@@ -20,6 +20,7 @@ dependencies:
   - "A.15"
   - "A.15.1"
   - "A.19"
+  - "A.3.1"
   - "A.3.4"
   - "B.1"
   - "B.1.2"
@@ -46,5 +47,5 @@ keywords:
 
 Holonic work needs a way to recognize when a whole has changed enough that the old EntityOfConcern no longer carries the current claim. B.2 provides that move without collapsing all novelty into "emergence" and without inventing record-field U-kinds.
 
-The pattern is intentionally conservative: it applies repairs from subject patterns first, then supports whole reidentification only when the existing whole no longer explains the observed shift. This protects B.1 part-whole construction, A.15 work, A.3.4 transformation, C.16 characteristics, C.29 math-lens use, and episteme and publication discipline from being swallowed by MHT.
+The pattern is intentionally conservative: it applies repairs from subject patterns first, then supports whole reidentification only when the existing whole no longer explains the observed shift. This protects B.1 part-whole construction, A.15.1 work, A.3.4 transformation, C.16 characteristics, C.29 math-lens use, and episteme and publication discipline from being swallowed by MHT.
 

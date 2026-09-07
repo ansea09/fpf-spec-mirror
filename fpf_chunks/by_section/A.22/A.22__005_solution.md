@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:4 — Solution"
-line_start: 35551
-line_end: 35856
+line_start: 35563
+line_end: 35868
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -177,15 +177,15 @@ Use the first discriminator to record structure constituents. Introduce a separa
 #### A.22:4.2 - Structure claim reliance relation selection
 
 
-When a structure claim relies on something beyond the selected structure itself, choose the reliance relation kind, name the relation record by value, and name the definition or test used for that relation: Use that definition for the relation's required fields and use limits.
+When a structure claim relies on something beyond the selected structure itself, choose the reliance relation kind, name the relation record by value, and name the definition or test used for that relation. Use that definition for the relation's required fields and use limits.
 
 | Current reliance relation kind | What is named | Definition or test to apply |
 | --- | --- | --- |
-| Source-description relation | source episteme, source view, publication form or rendering where relevant, described structure or structure claim, source-basis pins or structure-use return condition, admissible use, and any grounded non-admissible use | `A.7`, `A.6.3`, `E.17`, `E.17.0`, and local source-publication rules |
+| Source-description relation | source episteme, source view, publication form or rendering where relevant, described structure or structure claim, source-basis pins or structure-use return condition, admissible use, and any grounded non-admissible use | `A.7` when nearby objects need distinguishing; `C.2.1` and `E.10.D2` for the episteme and describing use; `E.17.0` for claimed view membership; `A.6.3` for a source-to-receiving construction; `E.17` for a source-backed reader face; `E.24.PUB` and local rules for publication |
 | Base-dependence or basedness | `dependent = structure claim or structural description`, `base`, declared `baseRelation`, scope, declared `Γ_time` when temporal scope is claimed, witness refs when witness use is claimed, admissible use, stop or return condition, and any grounded non-admissible use | `A.6.6` SWBD, or an admitted subject-specific base relation whose definition supplies the stated participants, applicability, and identity rule |
 | EntityOfConcern or empirical grounding | exact claim-bearing episteme, its EntityOfConcern, and effective ReferenceScheme; when empirical grounding is claimed, the exact grounding holon, covered claim subgraph, and obtaining C.2.1 `EpistemeEmpiricalGroundingRelation`; claim scope, optional model-use structure, describing-use viewpoint, reference plane, and observation or witness condition only when current | `C.2.1`, `A.2.6`, `A.1.1`, `E.17.0`, `A.6.4`, `A.6.3.RT`, and `A.6.6` only for a separate base-dependence claim |
 | Evidence or witness reliance | evidence-use relation, evidence-provenance relation, claim ref, witness publication or observation record, timespan and freshness; if an evidence graph is current, its graph path remains a mathematical or provenance expression rather than an action route | `A.10`, `A.2.4`, `G.6` |
-| Mathematical-lens reliance | lens candidate, lens card, or lens-use record; primary `EntityOfConcern`; relation record or claim record named by value when lens reliance is being claimed; preserved structure; lost structure; stop condition; `MathLensUseOutputRef`; C.29 lens-use result; or `LensUseBoundaryValue` | `C.29`, `C.26`, `F.9`, named mathematical-lens pattern |
+| Mathematical-lens reliance | lens candidate, lens card, or lens-use record; primary `EntityOfConcern`; relation record or claim record named by value when lens reliance is being claimed; preserved structure; lost structure; stop condition; `MathLensUseOutputRef`; C.29 lens-use result; or `LensUseBoundaryValue` | `C.29`; `C.26` only when a residual contextual-model obstruction calls for its quantum-like lens; `F.9` only for separately needed cross-context semantic correspondence; the named mathematical-lens pattern for its own claims |
 | Simulation, generated representation, model, or extracted trace | exact source episteme and publication when source availability matters, representation or extraction method, validation boundary, preserved structure, lost structure, and structure-use return condition | `C.29` for representation or extraction correspondence; `E.10.D2` and `E.17.0` for description and view claims; `E.17` and `E.24.PUB` for publication; `C.2.1` only for exact episteme identity or an explicitly claimed empirical-grounding relation; `A.10` for evidence; or the pattern that defines or tests the exact simulation, extraction, or validation claim |
 
 If no reliance relation kind can be selected, keep the wording as a source-finding note, recognition cue, ordinary help, quote-only wording, or reduced-use cue. Do not create a generic reliance record to make the claim look resolved.
@@ -231,7 +231,7 @@ The exact EntityOfConcern and effective scheme identify the episteme with its cl
 
 #### A.22:4.4 - Extracted and transformed structural views
 
-Use extracted or transformed structure records when a corpus, trace, model, lens, simulation, generated representation, coarsening pass, observer boundary, or budget boundary produces a view of structure that may hide distinctions.
+Use extracted or transformed structure records when a view of structure is obtained from a corpus, trace, model, simulation, or generated representation, through a mathematical lens or coarsening pass, or within an observer or budget boundary, and may hide distinctions.
 
 ```text
 ExtractedStructuralView@Context ::= {
@@ -311,20 +311,20 @@ A.22 is intentionally upstream of C.30. Architecture uses structure; structure d
 
 `C.30` uses A.22 by selecting architecture-relevant structures for one described holon through `ArchitectureOf@Context`. `C.30.ASV` then defines and tests architecture structural views over those selected structures. A structure can be used by architecture, but a structure is not an architecture merely because an architecture description refers to it.
 
-Architecture-related records that belong to C.30 or its subpatterns include `ArchitectureOf@Context`, `ArchitectureDescription@Context`, `ArchitectureStructuralView@Context`, `ArchitectureStructureKindRef`, `ArchitectureStructureKindTriage@Project`, `FunctionalStructureView@Context`, `ArchitectureTransformationFlowStructureRelation@Context`, `ControlStructureView@Context`, and `CrossScopeArchitectureResidualTriage@Context`. A.22 may name them as FPF pattern applications. It does not define their architecture-specific conformance.
+Architecture-related terms governed by C.30 or its subpatterns include `ArchitectureOf@Context`, `ArchitectureDescription@Context`, `ArchitectureStructuralView@Context`, `ArchitectureStructureKindRef`, `ArchitectureStructureKindTriage@Project`, `FunctionalStructureView@Context`, `ArchitectureTransformationFlowStructureRelation@Context`, `ControlStructureView@Context`, and `CrossScopeArchitectureResidualTriage@Context`. A.22 may name them as FPF pattern applications. It does not define their architecture-specific conformance.
 
 #### A.22:4.7 - Boundary and repair table
 
 | Tempting collapse | A.22 repair |
 | --- | --- |
 | The reliance relation is treated as the structure. | Recover the exact constituents, selected obtaining relation occurrences, applied constraints, and named use frame. When a neighboring source-description, source-use, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance claim is current, name that exact relation and the content that defines or tests it separately. |
-| The diagram, graph, table, dashboard, or publication form is the structure. | Treat it as publication, description, view, publication form, source-description relation, base-dependence relation, grounding relation, evidence relation, lens relation, simulation relation, extraction relation, or representation relation only when its relation is explicit. |
+| The diagram, graph, table, dashboard, or publication form is the structure. | Recover the exact description or view and its publication occurrence, form, or carrier when relevant. If the account claims a source-description, base-dependence, grounding, evidence, lens, simulation, extraction, or representation relation, identify and test that relation separately. |
 | A transformation-flow graph expression is the structure in every sense. | Use `E.18` for one selected TFS and its internal paths, crossings, and valuations; use `E.18.NET` for a selected network of independently identified TFS members and exact cross-member relations; use `E.18.2` and `C.29` for the graph expression. A.22 supplies only the selected-structure identity, and `C.30.TFS-REL` defines and tests the architecture-to-transformation-flow relation claim. |
 | A mathematical lens output is the structure. | Use `C.29` for lens-use result and admissibility, and cite `MathLensUseOutputRef` only through C.29 lens-use result, preserved structure, lost structure, and stop-condition discipline. |
-| A structure proves evidence, assurance, safety, causality, or gate passage. | Assign those claims to `A.10`, `G.6`, `B.3`, `C.28`, `A.20`, or `A.21`. |
-| A structure is a decision or work record. | Use `C.11`, `A.20`, `A.21`, `A.15`, or the project-side decision pattern whose test answers the claim being made. |
+| A structure is cited as sufficient basis for evidence reliance, assurance, safety, causality, or gate passage. | Use `A.10` for claim-bound evidence reliance, `G.6` when a citable evidence-provenance path is needed, `B.3` for an actual named assurance claim, the safety pattern for safety, `C.28` for causal use, `A.20` for internal-constraint validity, and `A.21` for an actual gate decision. |
+| A structure is a decision or work record. | Use `C.11` or the project-side decision pattern for the decision, `A.15` for the exact work-family object, and `C.2.1` for an episteme describing it. `A.20` or `A.21` applies only when an internal-constraint result or gate decision is at issue. |
 | Architecture is a root kind beside structure. | Use `C.30`: architecture is selected structure for a described holon through `ArchitectureOf@Context`. |
-| Function, module, interface, platform, layer, stack, block, expert, cache, router, or gate becomes a root kind by appearing in structure prose. | Use `C.30.STRAT` for source-label recovery, then `A.6.F`, `A.6.M` module-relation repair when a module-interface claim is being made, `A.6.0`, `A.6.5`, `A.6.B`, `A.6.C`, `A.6.P:4.11a`, `E.18`, `C.30.ASV`, and any other definition or test required by the recovered claim. |
+| Function, module, interface, platform, layer, stack, block, expert, cache, router, or gate becomes a root kind by appearing in structure prose. | Use `C.30.STRAT` for an ambiguous source label, then the definition or test required by the recovered claim: `A.6.F` for function, `A.6.M` for a module-interface relation, `A.6.0` for a signature, `A.6.5` for relation slots, `A.6.B` for boundary norms, `A.6.C` for contract unpacking, `A.6.P:4.11a` for service or access wording, `E.18` for transformation-flow structure, or `C.30.ASV` for an architecture structural view. Apply any other direct pattern only for the claim it defines or tests. |
 
 #### A.22:4.8 - Worked slices
 

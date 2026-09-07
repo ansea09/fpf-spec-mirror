@@ -6,12 +6,12 @@ section_id: "B.2.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__003_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:1 — Problem Frame"
-line_start: 38714
-line_end: 38721
+line_start: 38726
+line_end: 38733
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,7 +44,7 @@ keywords:
 
 `B.2` is holon-general. `B.2.2` is its `U.System` specialization.
 
-A system-result MHT is current when B.2's exact new whole proposed for recognition under the already admitted `U.System` kind is an acting physical or operational holon and the case needs that same recognized whole to carry one or more separately governed system-level claims, such as delimitation, objective, coordination, capability, functioning, architecture, transformation, work, assurance, or time. The old constituent systems may remain parts, participants, resources, or interacting neighbors, but their claims do not automatically become claims about that recognized result system.
+A system-result MHT is current when B.2's exact new whole proposed for recognition under the already admitted `U.System` kind is a physical or operational holon eligible to act and the case needs that same recognized whole to carry one or more separately governed system-level claims, such as delimitation, objective, coordination, capability, functioning, architecture, transformation, work, assurance, or time. The old constituent systems may remain parts, participants, resources, or interacting neighbors, but their claims do not automatically become claims about that recognized result system.
 
 A collection of systems is not thereby a system MHT. B.2.2 carries B.2's existing-whole/new-whole comparison through complete A.1 recognition and the direct `U.System` criterion; it does not create a system-specific result object or record schema.
 

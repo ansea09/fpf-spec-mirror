@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
-line_start: 67776
-line_end: 68165
+line_start: 67840
+line_end: 68239
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "A.6.RCD"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -82,11 +83,11 @@ The team treats culture as shared vocabulary, treats style as a genre tree, trea
 
 #### C.36:1.2 - What this buys
 
-The practitioner gets one small statement of what is changing, which relations transmit, recognize, select, retain, or mediate variants, what intervention is current, and what to do next. Add collective holons, local system-role kinds, classifications, assignments, Work and Method families, canon or memory epistemes, architectures, measurements, and refresh relations only when the current claim actually needs them.
+The practitioner gets one small statement of the cultural relations now supported, what is changing or worth continuing, and the next action or stop. Add collective holons, local system-role kinds, classifications, assignments, Work and Method families, canon or memory epistemes, architectures, measurements, and refresh relations only when the current claim actually needs them.
 
 #### C.36:1.3 - First useful move
 
-Start with one ordinary sentence. For example: `In this dance school, teachers transmit variants through teaching, the festival archive retains and presents records of variants, jury recognition and peer copying select variants, and the current intervention changes how new variants enter the syllabus.` Add the next pattern only when its definition or test changes the action.
+Start with one ordinary sentence. For example: `In this dance school, teachers transmit variants through teaching, the festival archive retains and presents records of variants, jury recognition and peer copying select variants, and the current intervention changes how new variants enter the syllabus.` Add the next pattern only when its definition or test changes the action. A qualified current account or a decision to continue the existing arrangement may finish without a new intervention.
 
 When the result must be retained or handed on, use a small card:
 
@@ -146,12 +147,12 @@ If the project accepts the word as ontology, FPF grows a second ontology beside 
 | Ontological parsimony | Those words often name slot positions or bridges over existing FPF values rather than new root kinds. |
 | Variant-set usefulness | Open-ended search, archives, fronts, pools, and selected sets help keep evolving alternatives visible. |
 | Cultural-evolution specificity | Variant generation and retention alone do not name transmission, recognition, memory, canon, system-role assignment, method-family evolution, or mediation. |
-| Intervention value | A project needs to change something: a generation relation, transmission relation, recognition relation, selection relation, memory relation, method family, work family, mediation architecture, measurement relation, work plan, performed work, or refresh relation. |
+| Continuation and intervention value | A project may keep a sufficiently supported practice or change an identified generation, transmission, recognition, selection, memory, Method, Work, mediation, measurement, or refresh relation. A proposed change must warrant its burden and displaced work. |
 | Didactic economy | The first-use pattern must be readable without becoming a cultural-evolution textbook or a list of every possible overread. |
 
 ### C.36:4 - Solution
 
-First state the cultural-evolution case in ordinary language: what collective or discipline-facing activity is changing, which variants are in play, which relations transmit, recognize, select, retain, or mediate them, and what next action follows. Then use the applicable FPF pattern only for a claim whose definition or test matters.
+First state the cultural-evolution case in ordinary language: which practice and variants are in play, which relations transmit, recognize, select, retain, or mediate them, what the available basis supports, and whether to continue, change, narrow, or stop. Keep the population, period, uncertainty, and receiving-use limits that matter to this conclusion. Then use the applicable FPF pattern only for a claim whose definition or test matters.
 
 An admitted System may perform dated Work, and that Work may enact a Method. Work and Method families may organize comparison. Variants may be preserved, transmitted, selected, suppressed, or refreshed through canon or memory epistemes, recognition and selection relations, mediation systems or architectures, measurement or visibility relations, and publication forms.
 
@@ -161,7 +162,11 @@ Cultural-evolution engineering proposes or performs a deliberate change to one o
 
 Keep a project choice separate from what happens across a practice or population. A project may choose or authorize an intervention, but that does not show that variants were transmitted, recognized, selected, retained, or lost. Conversely, observed spread or persistence does not authorize the project action or show that it succeeded. When both questions matter, record the project choice and performed intervention through their own patterns, then record the cultural relations and their observed change here.
 
-When the question is how the practice may develop, keep more than one serious hypothesis and name an observation that would distinguish them. Use `B.5` and `B.5.2` for hypotheses and their testable consequences. Use `A.3.3` when the claim states a state space and transition law, and use `C.28` when the current use relies on a causal claim. During ongoing Work, use `A.15.7` to choose the next action. Use `C.11` only when a named deciding System already knows what it is deciding, has an already formed set of options, and another observation can change the choice. Without that bounded choice, use the applicable DPF or field Method for experiment or probe design. Use `A.10`, `C.16`, and `C.27` for evidence, measurement, and time limits.
+When the question is how the practice may develop, retain credible hypotheses whose differences could change the continuation, forecast, or warranted use. State the uncertainty that matters; a fixed number of hypotheses is not a completion condition. Use `B.5` and `B.5.2` for a needed hypothesis account and its consequences. A bounded forecast or continuation may be complete on the available basis while a stronger explanation remains unresolved.
+
+Select a new observation or intervention when its attainable result can improve that use enough to warrant its whole cost, delay, participant burden, and displaced work. Include the effort of designing and describing a proposed study, before treating it as an available option. Use `C.11.DUA` when that connection between a demanded inquiry and its receiving value needs recovery, and `C.11` when a named deciding System and an already formed bounded choice exist. The direct DPF or field Method designs and performs a selected inquiry; C.36 is not a general research-budget method. An unavailable or unhelpful probe withholds only the claim that needs it, not an independently supported current account. It creates no study assignment or omitted-experiment record.
+
+Use `A.3.3` when the claim states a state space and transition law, `C.28` when the current use relies on a causal claim, and `A.15.7` for the next action during ongoing Work. Use `A.10`, `C.16`, and `C.27` for the evidence, measurement, and time questions that actually arise.
 
 Use only the smallest form the current task needs:
 
@@ -364,6 +369,12 @@ If the team chooses a new benchmark, that is a project choice, not evidence that
 | problem-to-work carry-through | `E.18.1` |
 | dynamics, temporal adequacy, or mathematical-lens use | `A.3.3`, `C.27`, and `C.29` |
 
+#### C.36:5.5 - Continue the Supported Practice or Select a Useful Trial
+
+In a constructed dance-school case, the same teachers and learners have repeatedly used the current archive examples in the stated class, and the available teaching observations support that bounded transmission claim. No participant, access, or protection condition has changed. Continue the arrangement for that class. The teachers' remaining time is needed to run it; an additional comparison would displace useful teaching without changing the present continuation. The account need not invent a rival explanation or a study, and it makes no claim about other schools or long-term retention.
+
+Now suppose the next class must learn from the archive without teacher assistance. The current observations do not support that receiving condition. The school has an authorized preparation session in which the learners can try a representative task, access and support are available, and its result will determine whether the archive-only arrangement can be used or teaching support must remain. Select that bounded trial through the direct teaching Method. This completes the recommendation to test, not the trial or a transmission claim for the new condition. A later tested-change claim must use the actual receiving Work and observations; causal explanation remains a separate question.
+
 ### C.36:6 - Bias-Annotation
 
 **Scope:** Limited to cultural-evolution questions about variants and their generation, transmission, recognition, selection, retention, loss, mediation, and deliberate influence across one named practice, population, collective, or Discipline boundary. C.36 is not a universal culture ontology, a project-authority rule, or a claim that every evolving engineering object is cultural evolution.
@@ -373,7 +384,7 @@ If the team chooses a new benchmark, that is a project choice, not evidence that
 | **Gov** | A case card, project choice, intervention proposal, or observed population trend is read as authorization, responsibility, acceptance, or policy. | Keep each project decision and authority claim with its direct pattern; C.36 records only the cultural relations and intervention distinctions actually current. |
 | **Arch** | One platform, archive, genre tree, lifecycle, or dashboard is treated as the cultural architecture. | Recover the relevant Methods, Work, subjects, memory epistemes, mediation, recognition, selection, measurement, and refresh relations; use architecture patterns only for actual architecture claims. |
 | **Onto-Epist** | A familiar label, publication, model, score, or intervention card becomes the practice, population, variant, relation, performed Work, or effect. | Recover the object and relation under the applicable pattern; keep descriptions and records distinct from the subjects and occurrences they describe. |
-| **Prag** | Every optional card field is filled, while the project still cannot say what changes or what it will observe next. | Start with the one-sentence case and open only fields whose identities change proposal, Work, effect, comparison, or return. |
+| **Prag** | Every optional card field is filled, while the project still cannot say what is supported or worth continuing or changing. | Start with the one-sentence case and open only fields whose identities change the current conclusion, proposal, Work, effect, comparison, or return. |
 | **Did** | Specialist evolutionary language or formal relation lists hide the recognizable project situation. | Use ordinary language first, then add the smallest exact terms and pattern references needed to make the claim and next action clear, including any boundary against a real overread. |
 
 ### C.36:7 - Conformance Checklist
@@ -390,13 +401,13 @@ If the team chooses a new benchmark, that is a project choice, not evidence that
 | **CC-C36-8 — Separate effect test** | The intervention's expected effect, observed value, measurement relation, and effect claim are recoverable separately; observing a value alone does not prove the effect. |
 | **CC-C36-9 — Neighbor boundary** | Archive/front, pool, selected-set, local-choice, publication, architecture, currentness, transformation, Work, and mathematical-model claims use their direct patterns when current. |
 | **CC-C36-10 — Source and refresh** | Every adopted SoTA move retains its stated limit and currentness trigger; a source label or newer date alone does not establish a cultural relation. |
-| **CC-C36-11 — Possible development** | When the question is how the practice may develop, the answer keeps more than one serious hypothesis and names an observation that would distinguish them. It uses `B.5` and `B.5.2` for hypotheses and consequences, `A.3.3` only for a state-space-and-transition-law claim, and `C.28` only when the current use relies on a causal claim. It uses `A.15.7` for a next action during ongoing Work and `C.11` only for an already formed bounded choice; otherwise experiment or probe design stays with the applicable DPF or field Method. |
+| **CC-C36-11 — Possible development** | When the question is how the practice may develop, the answer retains credible action-changing hypotheses and relevant uncertainty; it may finish as a bounded forecast or continuation on sufficient available grounds. A selected observation or intervention has a feasible, worthwhile receiving contribution, including study-design effort and displaced work. Use `B.5`/`B.5.2` for needed hypotheses and consequences, `C.11.DUA` for a questionable inquiry demand, `C.11` for an already formed bounded choice, and the direct DPF or field Method for selected inquiry. There is no fixed hypothesis count or compulsory next probe. Actual tested change, temporal, dynamics, and causal claims keep their direct evidence conditions. |
 
 ### C.36:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Why it fails | Repair |
 |---|---|---|
-| **Project choice means population selection** | A bounded decision says what the project chose, not what a practice or population later recognized or retained. | Record the choice with `C.11` or the applicable decision pattern; gather separate C.36 evidence for cultural relations. |
+| **Project choice means population selection** | A bounded decision says what the project chose, not what a practice or population later recognized or retained. | Keep the project choice with `C.11` or its direct decision pattern and state separately the cultural relations supported by current evidence. Withhold an unsupported stronger claim; obtain new cultural evidence only when its receiving use warrants that inquiry. |
 | **Performed intervention means success** | Work can occur without producing the intended transformation or effect. | Keep performed Work, actual change, Work-to-change relation, measurement, and effect claim separate. |
 | **Observed spread authorizes the intervention** | Popularity or persistence supplies neither authority nor a retrospective project decision. | State the observation and its limits; use the direct authority or decision pattern for any authorization claim. |
 | **One platform controls culture** | A mediating System can change visibility, transmission, or selection conditions without becoming the culture or proving control. | Identify the System, architecture, mediation relation, scope, and observed consequence separately. |
@@ -409,7 +420,7 @@ If the team chooses a new benchmark, that is a project choice, not evidence that
 
 Positive consequences:
 
-- practitioners can identify the cultural-evolution question and its first useful move;
+- practitioners can identify the cultural-evolution question and finish a qualified current account or warranted continuation, selecting a new inquiry only when it contributes enough to the receiving use;
 - style, tradition, practice, platform, regime, and technique labels remain usable without becoming root kinds;
 - engineering development loops, cultural-evolution cases, archive and front relations, selected-set result declaration, publication, and refresh stay distinct, with the definition and test for each current claim applied;
 - music, dance, science, medicine, pedagogy, organization, product-family, and AI-agent cases can share one FPF modeling line.
@@ -443,7 +454,7 @@ C.36 keeps a complex practical situation usable by naming a small bundle of exis
 
 Builds on: `A.1`, `A.2.1`, `A.3.1`, `A.3.2`, `A.3.4`, `A.15`, `A.15.1`, `A.15.6`, `A.15.PROD`, `A.22`, `C.18`, `C.19`, `C.20`, `C.23`, `E.18`, `E.18.1`, `F.6`, `F.9`, `F.17`, `F.18`, `G.5`, and `G.11`.
 
-Coordinates with: `E.10.DEV` for generic development or evolution wording before the cultural case is known, `E.10.MOVE` for a remaining independent trajectory or path ambiguity, `C.36.P` for cultural-evolution wording repair, `A.3.3`, `A.6.1`, `A.6.RCD`, `C.11`, `C.16`, `C.27`, `C.29`, `C.30`, `C.30.AD`, `C.30.ASV`, `C.32`, and `C.35`.
+Coordinates with: `E.10.DEV` for generic development or evolution wording before the cultural case is known, `E.10.MOVE` for a remaining independent trajectory or path ambiguity, `C.36.P` for cultural-evolution wording repair, `A.3.3`, `A.6.1`, `A.6.RCD`, `C.11`, `C.11.DUA`, `C.16`, `C.27`, `C.29`, `C.30`, `C.30.AD`, `C.30.ASV`, `C.32`, and `C.35`.
 
 ### C.36:End
 

@@ -6,12 +6,12 @@ section_id: "B.2.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__005_forces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:3 — Forces"
-line_start: 39370
-line_end: 39379
+line_start: 39382
+line_end: 39391
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,6 +33,8 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30.LCA"
+  - "E.10"
+  - "F.19"
   - "G.6"
 keywords:
 ---
@@ -43,7 +45,7 @@ keywords:
 | --- | --- |
 | Recognizable feedback language vs kind precision | Engineers use feedback, control, supervision, and regulation language naturally; FPF needs the relation and neighboring claim kinds named. |
 | Relation vs view | A supervisor-subholon relation may appear inside a control-structure view, but the view and relation are different objects. |
-| Acting system vs episteme | A theory, model, standard, dashboard, or report may be revised or used, but it does not act by itself. |
+| Acting system vs episteme | A theory, model, standard, dashboard, or report used as a claim-bearing episteme remains distinct from the System that revises or uses it. |
 | Closure vs stronger claims | A two-sided feedback relation can supply input to stability or assurance work, but does not certify those claims. |
 | Medium visibility vs perfect communication | The relation needs observation or report and influence or constraint sides, including publication or medium limits when current. |
 

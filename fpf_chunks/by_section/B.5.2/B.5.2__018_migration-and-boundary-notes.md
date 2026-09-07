@@ -6,12 +6,12 @@ section_id: "B.5.2:17"
 section_title: "Migration and Boundary Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__018_migration-and-boundary-notes.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:17 — Migration and Boundary Notes"
-line_start: 41312
-line_end: 41324
+line_start: 41359
+line_end: 41371
 dependencies:
   - "A.10"
   - "A.16"
@@ -42,4 +42,4 @@ Legacy prose that describes abduction as a flash, leap, or raw creative moment m
 
 #### B.5.2:17.3 - Boundary to deduction and evidence
 
-`B.5.2` ends when one conjecture is published as a prime `L0` hypothesis or when the run is explicitly aborted, deferred, or split. Deduction, evidence acquisition, and later assurance do not belong to the abductive loop itself, even though the loop must prepare a clear downstream-use boundary for them.
+`B.5.2` ends with a qualified prime conjecture or an explicit abort, defer or split outcome. Deduction, evidence acquisition, synthesis, assurance and action choice remain separate questions. Naming their possible contribution states a downstream-use boundary; it does not require a new experiment, guarantee its availability or prevent a present decision already supported on other grounds.

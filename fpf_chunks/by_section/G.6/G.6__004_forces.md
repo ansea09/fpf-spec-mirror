@@ -6,12 +6,12 @@ section_id: "G.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__004_forces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:3 — Forces"
-line_start: 104652
-line_end: 104662
+line_start: 104773
+line_end: 104783
 dependencies:
   - "A.10"
   - "A.13"
@@ -59,7 +59,7 @@ keywords:
 
 | Force | Tension this pattern resolves |
 | --- | --- |
-| Compact citation versus subject patternship | One path is easy to cite, but each represented fact and relation must remain with its exact governor. |
+| Compact citation versus the represented facts' governing rules | One path is easy to cite, but each represented fact and relation must remain with its exact governor. |
 | Graph readability versus ontic force | Nodes and edges make a chain legible; their presence cannot make any represented relation obtain. |
 | Result continuity versus result collapse | A path may connect measurement, evaluation, aggregation, and decision while preserving every local result and result episteme. |
 | Reusable declaration versus performed occurrence | Methods, descriptions, policies, and clauses may be cited, but dated work and actual bindings remain separate. |

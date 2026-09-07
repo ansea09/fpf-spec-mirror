@@ -6,12 +6,12 @@ section_id: "A.22:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__007_bias-annotation.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:6 — Bias-Annotation"
-line_start: 35865
-line_end: 35878
+line_start: 35877
+line_end: 35890
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -69,13 +69,13 @@ keywords:
 
 ### A.22:6 - Bias-Annotation
 
-Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: universal within FPF structure claims.
+Bias lenses: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: universal within FPF structure claims.
 
 | Bias risk | Mitigation |
 | --- | --- |
 | Architecture bias | Do not make architecture the parent of all structure. A.22 stays upstream; C.30 carries grounded architecture and selected-structure adequacy. |
 | Mathematical-formalism bias | A mathematical lens can expose preserved structure and lost structure, but C.29 still defines the lens-use result, admissibility, and stop condition. |
-| Diagram bias | A useful diagram or generated relation graph is attractive enough to be mistaken for the structure. description, specification-use, and publication boundaries stay explicit. |
+| Diagram bias | A useful diagram or generated relation graph is attractive enough to be mistaken for the structure. Description, specification-use, and publication boundaries stay explicit. |
 | Review-only bias | Checks leave a repair action: name the structure, name the structure-claim reliance relation record by value, state a structural view, add a `StructureUseReturnCondition`, or apply the FPF definition or test needed by the claim. |
 | Didactic-thinning risk | Semantic repair does not leave inert prose. The recognition text keeps the first useful move and the practical payoff visible before the formal records. |
 

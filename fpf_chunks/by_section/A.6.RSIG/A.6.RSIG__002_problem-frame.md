@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:1 — Problem frame"
-line_start: 10729
-line_end: 10779
+line_start: 10740
+line_end: 10790
 dependencies:
   - "A.6"
   - "A.6.P"

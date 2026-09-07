@@ -6,30 +6,31 @@ section_id: "B.3.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__003_problem.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:2 — Problem"
-line_start: 39950
-line_end: 39957
+line_start: 39986
+line_end: 39991
 dependencies:
   - "A.10"
   - "B.3"
-  - "B.3.3"
-  - "B.4"
+  - "C.11"
+  - "C.19.2"
+  - "C.27.TA"
+  - "G.11"
 keywords:
-  - "decay"
+  - "age"
+  - "changed premise"
   - "epistemic debt"
-  - "evidence aging"
-  - "freshness"
-  - "stale data"
+  - "evidence currentness"
+  - "qualification window"
+  - "refresh"
 ---
 
-### B.3.4:2 - **Problem**
+### B.3.4:2 - Problem
 
-Without a calculus for evidence aging, FPF models are vulnerable to three critical failure modes:
+How can a team notice obsolete support without treating elapsed time as automatic loss of truth, measured risk growth or loss of every use of an evidence carrier?
 
-1.  **Silent Risk Accumulation:** Trust silently decays. A component's high `AssuranceLevel` can become an illusion, resting on foundational evidence that is no longer valid in the current operational context. When aggregated, this stale trust propagates upwards, creating a seemingly robust system-of-systems that is, in fact, incredibly brittle.
-2.  **Audit Illusion:** An assurance target can pass an audit with flying colors, showing a complete set of anchors to high-quality evidence, yet be fundamentally untrustworthy because that evidence is obsolete. This leads to a false sense of security and undermines the very purpose of the assurance case.
-3.  **Maintenance Paralysis:** Without a systematic way to flag stale evidence, re-validation efforts are often misdirected. Teams either engage in costly, unfocused re-testing of everything, or, more commonly, do nothing, allowing epistemic debt to accumulate until a failure forces a crisis.
+Three failures matter: a changed load-bearing premise remains unnoticed; a fresh but irrelevant result creates false reassurance; or repeated checks of unchanged premises displace protective maintenance that could actually change the outcome.
 

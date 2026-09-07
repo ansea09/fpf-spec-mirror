@@ -6,12 +6,12 @@ section_id: "B.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__014_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:12 — Relations"
-line_start: 38422
-line_end: 38428
+line_start: 38434
+line_end: 38440
 dependencies:
   - "A.1"
   - "A.10"
@@ -20,6 +20,7 @@ dependencies:
   - "A.15"
   - "A.15.1"
   - "A.19"
+  - "A.3.1"
   - "A.3.4"
   - "B.1"
   - "B.1.2"
@@ -44,7 +45,7 @@ keywords:
 
 ### B.2:12 - Relations
 - **Builds on:** `A.1` for world-side holon recognition, `B.1` for part-whole construction, `A.14` and `C.13` for relation and constructional grounding, and `E.24.UK` for one-time public-kind admission.
-- **Coordinates with:** `A.12` and `A.3.4` for acting-side and transformation, `A.15` and `A.15.1` for method and work, `C.16` and `A.19` for characteristic space and threshold, `C.2.1` for optional claim and record epistemes, `A.10` and `B.3` for evidence and warrant, `G.11` for edition currentness, `C.29` for mathematical lenses, and `C.32.P2S` when architecturing pressure becomes whole reidentification rather than local structure repair.
+- **Coordinates with:** `A.12` and `A.3.4` for acting-side and transformation, `A.3.1` and `A.15.1` for Method and Work, `A.15` when their alignment is the current question, `C.16` and `A.19` for characteristic space and threshold, `C.2.1` for optional claim and record epistemes, `A.10` and `B.3` for evidence and warrant, `G.11` for edition currentness, `C.29` for mathematical lenses, and `C.32.P2S` when architecturing pressure becomes whole reidentification rather than local structure repair.
 - **Specialized by:** `B.2.2` when the candidate new whole is a system, `B.2.3` when it is recognized under the admitted `U.Episteme` kind, and `B.2.4` when capability or functioning facts require whole reidentification.
 - **Can use neighboring evidence from:** `B.2.5` when a supervisor-subholon feedback relation is part of the B.2 case evidence or neighboring structure; that does not make B.2.5 a specialization for the candidate new holon's kind.
 - **Uses:** `B.2.P` when emergence-family, MHT, MET, MFT, synergy, or metric-mirage wording hides which claim kind is current before B.2 is applied.

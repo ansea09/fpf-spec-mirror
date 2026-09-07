@@ -6,12 +6,12 @@ section_id: "A.15.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.15.9 — Request and Use a Bounded Result from Another Practice"
   - "A.15.9:1 — Problem frame"
-line_start: 27769
-line_end: 27788
+line_start: 27783
+line_end: 27800
 dependencies:
   - "A.10"
   - "A.13"
@@ -21,6 +21,7 @@ dependencies:
   - "A.2.1"
   - "A.2.2"
   - "A.2.9"
+  - "C.11.DUA"
   - "C.2.1"
   - "C.38"
   - "E.18.1"
@@ -30,17 +31,15 @@ keywords:
 
 ### A.15.9:1 - Problem frame
 
-**Plain name.** Get only the outside-practice result this decision needs, or reuse one that is already good enough.
+**Plain name.** Use the outside-practice result this decision can rely on; obtain a new contribution when it is worth the work.
 
 **Use this when.** One decision or piece of Work can change because of a legal interpretation, safety limit, tax consequence, privacy condition, calculation, objection, observation, or another result governed by a different practice. The available source or request instead names a department, title, document, meeting, approval, provider, or tool, so the receiver still cannot tell what result is needed or how it may be used.
 
-**Primary reader.** The person, team, organization, or other deciding System that owns the receiving decision or Work. The supplier may be any practice able to return the needed result; neither *supplier*, *specialist*, *profession*, nor *professional result* is a new FPF kind.
+**Primary reader.** The person, team, organization, or other deciding System that owns the receiving decision or Work. When acquisition is selected, seek a supplier able to return the needed result from the applicable practice; neither *supplier*, *specialist*, *profession*, nor *professional result* is a new FPF kind.
 
-**First useful result.** Return one of three things, usually in two ordinary sentences:
+**First useful result.** Give the useful answer the present basis supports, with the limitation that changes its receiving use. An answer can finish at a narrower action, conditional conclusion, retained alternative, or exact unsupported-use blocker.
 
-- a bounded decision to use an already-available result for this receiving use;
-- a request for the smallest still-missing result; or
-- an honest blocker naming the missing source, Method, capability, authority, access, evidence, or other basis and the decision that cannot yet proceed.
+A missing result for a stronger claim does not itself select acquisition. Request the smallest additional contribution only when it is obtainable and worth its whole burden for this question. A simple answer can remain two ordinary sentences without a separate acquisition disposition.
 
 **What changes in practice.** The receiver checks a result before commissioning more Work, asks for an answer rather than a department or document, and states where supplier judgement ends and the receiving decision begins. A usable existing answer can stop the work before any new request, assignment, meeting, delivery, or acceptance ceremony.
 

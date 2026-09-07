@@ -6,17 +6,18 @@ section_id: "A.1.CSD:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__009_bias-annotation.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:6 — Bias Annotation"
-line_start: 2761
-line_end: 2772
+line_start: 2765
+line_end: 2776
 dependencies:
   - "A.1"
   - "A.1.SCR"
   - "A.10"
   - "A.14"
+  - "A.15.9"
   - "A.6.RCD"
   - "B.1"
   - "B.1.2"
@@ -24,6 +25,7 @@ dependencies:
   - "B.2.2"
   - "C.11"
   - "C.11.CRC"
+  - "C.11.DUA"
   - "C.13"
   - "C.2.1"
   - "C.27"
@@ -39,10 +41,10 @@ keywords:
 | Bias risk | Failure | Repair |
 | --- | --- | --- |
 | Visible-system closure | Only Systems already named by the current project or investigation are considered. | Trace outward from concrete possibilities and challenge the current boundary. |
-| High-agency bias | Systems unable to speak, decide, or participate are omitted. | Apply A.1 systemhood and consequence relevance; voice and agency are neither admission tests nor evidence. |
-| Relation promotion | A plausible arrow becomes an obtaining world-side relation. | Keep the path modal until its direct predicate and conditions are supported. |
+| High-agency bias | Systems unable to speak, decide, or participate are omitted. | Apply A.1 systemhood and consequence relevance; neither voice nor agency is required. |
+| Relation promotion | A plausible arrow becomes an obtaining world-side relation. | Keep the modal path claim distinct; add a separate actuality claim only when its direct predicate and case conditions are supported. |
 | Level ladder | Familiar scale words are treated as Systems in a fixed hierarchy. | Recover exact holons, scopes, construction, crossings, and any real whole-reidentification question. |
 | Aggregate closure | A total hides changed characteristics, evidence, or receivers on one side. | Preserve the original coordinates and make any aggregate an additional domain result. |
 | Causal overread | Sequence, association, or model output is treated as an effect of intervention. | Keep the narrower claim and use `C.28` when the receiver relies on causality. |
-| Completeness theatre | A long list is presented as exhaustive. | Use a receiver-relative stop and state the discovery residual and cheapest next action. |
+| Completeness theatre | A long list is presented as exhaustive. | Use a receiver-relative stop and retain the material residual; select additional discovery by its attainable contribution and complete burden. |
 

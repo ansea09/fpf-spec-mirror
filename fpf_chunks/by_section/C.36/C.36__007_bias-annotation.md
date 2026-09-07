@@ -6,12 +6,12 @@ section_id: "C.36:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__007_bias-annotation.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:6 — Bias-Annotation"
-line_start: 68083
-line_end: 68094
+line_start: 68157
+line_end: 68168
 dependencies:
   - "A.1"
   - "A.10"
@@ -29,6 +29,7 @@ dependencies:
   - "A.6.RCD"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -67,6 +68,6 @@ keywords:
 | **Gov** | A case card, project choice, intervention proposal, or observed population trend is read as authorization, responsibility, acceptance, or policy. | Keep each project decision and authority claim with its direct pattern; C.36 records only the cultural relations and intervention distinctions actually current. |
 | **Arch** | One platform, archive, genre tree, lifecycle, or dashboard is treated as the cultural architecture. | Recover the relevant Methods, Work, subjects, memory epistemes, mediation, recognition, selection, measurement, and refresh relations; use architecture patterns only for actual architecture claims. |
 | **Onto-Epist** | A familiar label, publication, model, score, or intervention card becomes the practice, population, variant, relation, performed Work, or effect. | Recover the object and relation under the applicable pattern; keep descriptions and records distinct from the subjects and occurrences they describe. |
-| **Prag** | Every optional card field is filled, while the project still cannot say what changes or what it will observe next. | Start with the one-sentence case and open only fields whose identities change proposal, Work, effect, comparison, or return. |
+| **Prag** | Every optional card field is filled, while the project still cannot say what is supported or worth continuing or changing. | Start with the one-sentence case and open only fields whose identities change the current conclusion, proposal, Work, effect, comparison, or return. |
 | **Did** | Specialist evolutionary language or formal relation lists hide the recognizable project situation. | Use ordinary language first, then add the smallest exact terms and pattern references needed to make the claim and next action clear, including any boundary against a real overread. |
 

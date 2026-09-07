@@ -6,12 +6,12 @@ section_id: "G.Core:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__001_intro.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:intro — Intro"
-line_start: 101075
-line_end: 101091
+line_start: 101182
+line_end: 101198
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -37,13 +37,13 @@ keywords:
 
 **Tag.** Architectural pattern (Part‑G core invariants hub; refactoring/deduplication)
 **Stage.** *design‑time* (authoring discipline + ID‑stable citation discipline; no run‑time mechanism)
-**Primary hooks.** E.8 (pattern template), E.10 (lexical/ontological rules), E.19 (conformance discipline), A.6.7 (SuiteObligations + suite protocol pins), A.15.3 (planned baseline), A.19 (CN‑Spec), G.0 (CG‑Spec), A.19.CHR (CHR suite boundary), C.23 (SoS‑LOG), F.17 (UTS), F.15 (RSCR).
+**Primary hooks.** E.8 (pattern template), E.10 (lexical/ontological rules), E.19 (conformance discipline), A.6.7 (SuiteObligations + suite protocol pins), A.15.3 (planned baseline), A.19.CN (CN‑Spec), G.0 (CG‑Spec), A.19.CHR (CHR suite boundary), C.23 (SoS‑LOG), F.17 (UTS), F.15 (unification SCR/RSCR).
 
 **Status.** Stable
 **Placement.** Part G core section before `G.0` (without renumbering `G.0…G.13`).
 **Normativity.** Normative unless explicitly marked informative
 
-**Purpose.** Provide *one governing definition* for Part‑G‑wide invariants (**delegation-first citation and change-control discipline**), plus a typed **RSCR trigger kind catalogue** and a **Default Governing Definition Index**, so Part G can be refactored without semantic drift or public‑ID breakage.
+**Purpose.** Provide *one place to find the governing definitions* for Part‑G‑wide invariants (**delegation-first citation and change-control discipline**), plus a typed **RSCR trigger kind catalogue** and a **Default Governing Definition Index**, so Part G can be refactored without semantic drift or public‑ID breakage.
 
 **Phase‑2 constraint.** `G.Core` is the only new Part‑G pattern introduced in Phase‑2; discipline/method/generator specifics remain in `G.x` as `Extensions`, citations to existing governing patterns, or Phase‑3 seeds (appendix) without new Phase‑2 norms.
 

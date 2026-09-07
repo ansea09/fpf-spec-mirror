@@ -6,12 +6,12 @@ section_id: "G.Core:8"
 section_title: "Common anti-patterns and how to avoid them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:8 — Common anti-patterns and how to avoid them"
-line_start: 101446
-line_end: 101468
+line_start: 101553
+line_end: 101575
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -35,7 +35,7 @@ keywords:
 ### G.Core:8 - Common anti-patterns and how to avoid them
 
 * **Anti-pattern:** Restating CN‑Spec/CG‑Spec rules inside a `G.x` “for convenience”.
-  **Avoid:** cite `A.19` and `G.0` through `CC‑GCORE‑CN‑CG‑1`.
+  **Avoid:** cite `A.19.CN` and `G.0` through `CC‑GCORE‑CN‑CG‑1`.
 
 * **Anti-pattern:** Adding a fourth guard status (“unknown”, “maybe”, “probe-only”) as a separate decision value.
   **Avoid:** keep guard domain tri‑state; express “probe-only” as policy/branching and record via pins/audit.

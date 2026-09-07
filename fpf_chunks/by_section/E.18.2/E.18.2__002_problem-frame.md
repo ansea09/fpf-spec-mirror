@@ -6,12 +6,12 @@ section_id: "E.18.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:1 — Problem frame"
-line_start: 87053
-line_end: 87093
+line_start: 87160
+line_end: 87200
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,7 +40,7 @@ keywords:
 
 Use this pattern when the current EntityOfConcern is a mathematical description of exactly one selected transformation-flow structure, one selected network of such structures, or one independently identified part of that subject. The description may be a graph, hypergraph, category-theory object, algebra, tuple, matrix, network expression, wiring diagram, morphism family, quotient, fold, refinement, factorization, path relation, slice relation, or another formal expression.
 
-The primary EntityOfConcern is `TransformationFlowMathematicalDescription@Context`: a `C.2.1 U.Episteme` specialization whose described ontic subject is exactly one selected `TransformationFlowStructure` under E.18 or one selected `TransformationFlowStructureNetwork@Context` under E.18.NET. E.18.2 does not invent a second local description format. The one-TFS and network reference branches are mutually exclusive; `CandidateMathObject`, `ExpressionKind`, `MappingMode`, `PreservedStructure`, `LostStructure`, and `DeclaredUse` fill claim or description-content slots, while `PublicationFaceRef?` remains a separate publication relation through E.17. E.18.2 keeps five values distinct:
+The primary EntityOfConcern is `TransformationFlowMathematicalDescription@Context`: a `C.2.1 U.Episteme` specialization whose described ontic subject is exactly one selected `TransformationFlowStructure` under E.18 or one selected `TransformationFlowStructureNetwork@Context` under E.18.NET. E.18.2 does not invent a second local description format. The one-TFS and network reference branches are mutually exclusive; `CandidateMathObject`, `ExpressionKind`, `MappingMode`, `PreservedStructure`, `LostStructure`, and `DeclaredUse` are fields of the description record, while `PublicationFaceRef?` references a separate E.17 publication face. E.18.2 keeps five values distinct:
 
 | Value under concern | Pattern contribution used | Boundary |
 |---|---|---|
@@ -50,7 +50,7 @@ The primary EntityOfConcern is `TransformationFlowMathematicalDescription@Contex
 | declared mathematical-lens use and its adequacy | C.29 defines the bounded adequacy test and returned lens-use result; apply it when adequacy, payoff, preserved/lost structure, or a stop condition is claim-bearing | not a local E.18.2 invention |
 | rendered graph, table, equation, diagram, or other publication face | `E.17` publishes the face; the applicable view or architecture-description pattern supplies its membership or adequacy result when that claim is current | may publish the mathematical description but neither becomes it nor reidentifies the selected TFS or network |
 
-When the described selected structure is one A.22-selected CGUS qualified under `E.18.3` through an independently identified E.18 substrate, E.18.2 still defines only the mathematical description. A graph, path expression, category object, algebra, tuple, or matrix may describe substrate positions, crossings, and condition labels, but the expression does not decide whether a condition is an applied claim, an E.18 `GuardFail` event, or an independently defined relation occurrence. It may also describe preserved or lost structure, exact supporting relations to independently identified neighboring values, and stop or reconsideration questions, but it remains `TransformationFlowMathematicalDescription@Context` or a C.29 lens-use claim. It does not become the selected CGUS or its substrate and does not carry method, work, evidence, architecture, publication, or refresh authority.
+When the described selected structure is one A.22-selected CGUS qualified under `E.18.3` through an independently identified E.18 substrate, E.18.2 still defines only the mathematical description. A graph, path expression, category object, algebra, tuple, or matrix may describe substrate positions, crossings, and condition labels, but the expression does not decide whether a condition is an applied claim, an E.18 `GuardFail` event, or an independently defined relation occurrence. It may also describe preserved or lost structure, exact supporting relations to independently identified neighboring values, and stop or reconsideration questions; those claims remain in `TransformationFlowMathematicalDescription@Context` or a C.29 lens-use claim. The expression does not become the selected CGUS or its substrate and does not carry method, work, evidence, architecture, publication, or refresh authority.
 
 #### E.18.2:1.1 - Use this when
 

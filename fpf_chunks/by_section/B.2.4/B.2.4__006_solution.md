@@ -6,12 +6,12 @@ section_id: "B.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__006_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:4 — Solution"
-line_start: 39174
-line_end: 39231
+line_start: 39186
+line_end: 39243
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,10 +55,10 @@ Before applying B.2, test whether the exact facts are already explained under a 
 
 | Exact fact or claim under concern | Subject pattern if sufficient | B.2.4 remains current only when |
 | --- | --- | --- |
-| Capability envelope | `A.2.2`, `C.16`; `A.10` only for evidence use | the exact envelope belongs to a candidate whole that the existing whole cannot explain |
-| Function or functioning relation | `A.6.F`, `A.3.4`, `C.16` | the obtaining relation and whole-level facts leave a residual new-whole question |
-| Transformation-flow structure | `C.30.TFS-REL`, `E.18`, `A.3.4`; `C.29` only for a mathematical representation use | the selected in-life structure changes which whole can carry the current claim |
-| Method relation or method family | `A.15`, `A.3.1`, `G.5`; `C.29` only when a lens is used | the exact method facts change the whole, not merely the way of doing |
+| Capability envelope | `A.2.2` for the capability of an exact System holder, `C.16` for measured characteristics; `A.10` only for evidence use | the exact envelope and holder facts leave a candidate-whole question that the existing whole cannot explain |
+| Function or functioning relation | `A.6.F` recovers the exact claim and its direct subject pattern; `A.3.4` for an actual transformation and `C.16` for a measured characteristic | the obtaining relation and whole-level facts leave a residual new-whole question |
+| Transformation-flow structure | `E.18` for the selected structure, `A.3.4` for actual transformations, `C.30.TFS-REL` for bounded architecture use; `C.29` only for a mathematical representation use | the selected in-life structure changes which whole can carry the current claim |
+| Method relation or method family | `A.3.1` for Method identity, `B.1.5` for composition, `A.15` for role–Method–Work alignment, and `G.5` for registry or selector-facing use; use the direct pattern for any separately claimed family relation and `C.29` only when a lens is used | the exact method facts change the whole, not merely the way of doing |
 | Method description or procedure text | `A.3.2` and `C.2.1` distinguish the MethodDescription and its episteme identity; use `E.17` or `E.24.PUB` for a current publication occurrence, form, or carrier, `C.2.P` for unresolved source-expression or source-to-use wording, and `A.10` or `G.6` only when evidence provenance is relied on | an in-life whole-reidentification question remains after the description is separated |
 | Work plan or work occurrence | `A.15.2`, `A.15.1` | exact planned or performed work facts leave a new-whole question; the plan or occurrence is not the whole by label |
 | Module, component, or bearer allocation | `A.6.M`, `C.30`, `A.22`, `C.30.ASV` | exact allocation and architecture facts defeat the existing-whole explanation |
@@ -88,7 +88,7 @@ Use B.2 when the exact direct facts show that the existing whole cannot carry th
 
 - a production cell has an exact capability envelope, obtaining coordination and functioning relations, a selected in-life transformation-flow structure, and external commitments that cannot be explained by individual machines or the old aggregate;
 - a service platform has an obtaining functioning relation and external commitments that cannot be assigned to one service or module;
-- a team, toolchain, and method family participate in exact coordination and work facts that make a result-system candidate live; or
+- exact coordination and work facts concerning a team, a toolchain, and the enacted Methods from a method family make a result-system candidate live; or
 - a candidate episteme has exact constitution and explanatory-use facts that leave an episteme whole-reidentification question.
 
 After the return, use B.2 for the existing-whole/new-whole comparison, its one exact candidate, and any optional record. B.2.4 adds no result record or evidence slice. The direct patterns still define and test the contributing facts, while evidence or measurement supports the associated claims.

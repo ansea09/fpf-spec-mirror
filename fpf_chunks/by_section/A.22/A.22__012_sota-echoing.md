@@ -6,12 +6,12 @@ section_id: "A.22:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__012_sota-echoing.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:11 — SoTA-Echoing"
-line_start: 35927
-line_end: 35938
+line_start: 35939
+line_end: 35950
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -71,11 +71,11 @@ keywords:
 
 | Exact practice or source anchor | FPF adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
-| FPF `C.2.1`, `A.6.3`, and `E.17` description and view discipline | Current FPF separates exact EntityOfConcern, effective reference scheme, viewpoint, grounding holon, view, publication, rendering, and carrier. | A.22 structural descriptions and views reuse those direct relations rather than inventing a local display ontology or mandatory context field. | A description or view does not become the selected structure and supplies no evidence, assurance, gate, or decision authority by form. |
+| FPF `C.2.1` and `E.10.D2` description discipline, `E.17.0` view membership, `A.6.3` construction, and `E.17`/`E.24.PUB` publication discipline | Current FPF separates exact EntityOfConcern, effective reference scheme, viewpoint, grounding holon, view, publication, rendering, and carrier. | A.22 structural descriptions and views reuse those direct relations rather than inventing a local display ontology or mandatory context field. | A description or view does not become the selected structure and supplies no evidence, assurance, gate, or decision authority by form. |
 | Evans, [Context Mapping with an AI-based Component](https://www.domainlanguage.com/articles/context-mapping-an-ai-based-component/), 2026 | Current DDD practice distinguishes actual bounded model-use loci from the view used to inspect relations among them. | A.22 admits the `BoundedModelUseStructure` membership condition and the conditional `CrossContextRelationStructure` membership condition; the latter has no positive member until independently defined crossing occurrences and all four base discriminators exist. The reusable mapping way of doing remains `U.Method`, actual mapping is dated Work, and the product remains a C.2.1 episteme concerning a proposed organization until an exact structure can be designated; it becomes `U.View` only under exact E.17.0 conformance. | The DDD terms do not turn a system part, method, proposal, structure, view, and diagram into one object. |
 | OMG SysML v2 | Excluded from both the SoTA basis and the adopted lineage for this structure-selection decision; no SysML-v2 contribution is adopted here. | No move adopted; use evidence from current structure and modeling practices that solve the problem in operating tools and projects. | A proposed adoption requires a comparison that demonstrates a contribution to this exact structure-selection question. Search prominence and the word *system* are not SoTA evidence. |
 | C.29 mathematical-lens discipline | Adopt preserved structure, lost structure, lens-use admissibility, and stop-condition discipline when a mathematical lens is used for a structure claim. | Cite C.29 output through C.29 lens-use result, preserved structure, lost structure, stop condition, and structure-use return discipline. | Lens output is not structure, evidence, assurance, causal-use relation, or decision. |
-| arXiv:2603.00601 code-space architecture relation-graph work and related code-probing practice | Adapt partial-observability, typed-relation, uncertainty, and structure-use return pressure for extracted structural views. | Use extracted structural-view records with validation boundaries and an observation value selected from `observed`, `inferred`, or `unknown` where needed, plus structure-use return conditions. | Do not mint `U.CodeSpace` and do not treat probe output, probe JSON, or benchmark output as structure adequacy, assurance, release evidence, or assurance evidence. |
+| [arXiv:2603.00601](https://arxiv.org/abs/2603.00601) code-space architecture relation-graph work and related code-probing practice | Adapt partial-observability, typed-relation, uncertainty, and structure-use return pressure for extracted structural views. | Use extracted structural-view records with validation boundaries and an observation value selected from `observed`, `inferred`, or `unknown` where needed, plus structure-use return conditions. | Do not mint `U.CodeSpace` and do not treat probe output, probe JSON, or benchmark output as structure adequacy, assurance, release evidence, or assurance evidence. |
 | Coarsening, compression, and RG-adjacent traditions | Adopt the need to say what structure is preserved and what is lost. | Use `StructuralCoarseningDescription@Context` and `StructureUseReturnCondition` before relying on a coarsened structure for action. | For RG, epiplexity, structural information, or equivalence reasoning, use C.29, C.16, or the cited pattern that defines or tests the exact claim. |
 | GonzoML neural-network architecture discussions as practitioner-language intake | Adapt block replacement, dataflow change, memory placement, cache placement, path-selection, pruning, distillation, and architecture-search wording as general architecture-operation recognition material. | When such wording is used, keep block, cache, expert, router, gate, and similar words as `C.30.STRAT` source labels until changed structure kind, source-description relation, source-use relation, base-dependence relation, evidence relation, lens output, preserved structure, lost structure, and FPF pattern applications are recovered. | Neural-network labels, benchmark results, ablations, or pruning masks do not become structure ontology, architecture decisions, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
 

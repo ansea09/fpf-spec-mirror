@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.FAIL.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
-line_start: 65997
-line_end: 66241
+line_start: 66061
+line_end: 66305
 dependencies:
   - "A.10"
   - "A.13"

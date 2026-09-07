@@ -6,12 +6,12 @@ section_id: "A.21:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__002_use-this-when.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:0 — Use this when"
-line_start: 35183
-line_end: 35206
+line_start: 35193
+line_end: 35216
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -42,7 +42,7 @@ Use A.21 when a named gate must decide whether one bounded action or transition 
 
 If the state of `WorkshopEnclosure-2` is unknown, that check remains `unknown`. `WorkshopEntryProfile-E5` maps the uncertainty to `block`, not to `abstain`, so the cycle stays on hold until the enclosure is checked. A different policy may accept a bounded uncertainty only through an explicit rule that names the subject, tolerance, consequence, and validity window.
 
-**Short boundary.** A gate decision is neither work-entry readiness nor performed Work. Use `A.15.5` for the ordinary readiness question. If Work later occurs, identify it through the A.15 family; do not treat the gate, plan item, or prospective claim as that later Work.
+**Short boundary.** A gate decision is neither work-entry readiness nor performed Work. Use `A.15.5` for the ordinary readiness question. If Work later occurs, identify it under `A.15.1`; do not treat the gate, plan item, or prospective claim as that later Work.
 
 **What goes wrong if missed.** A green display is mistaken for permission, an unknown required check disappears as a neutral value, two different check subjects are merged by label, or a new path slice is treated as authority to weaken policy.
 
@@ -54,5 +54,5 @@ If the state of `WorkshopEnclosure-2` is unknown, that check remains `unknown`. 
 - Use `A.15.5` for full-kit or work-entry readiness without a gate decision.
 - Use `E.18` for transformation-flow positions, paths, slices, and structural crossings.
 - Use the pattern that defines the policy, safety rule, regulatory rule, evidence claim, channel condition, or system-role claim for the truth of that check.
-- Use `E.17` only when the decision is published through a form or carrier.
+- Use `E.17` when the decision needs a source-backed reader face and return to source; use `E.24.PUB` when its publication occurrence, form, carrier, or availability matters.
 

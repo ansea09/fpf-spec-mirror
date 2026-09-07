@@ -6,12 +6,12 @@ section_id: "C.37:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:1 — Problem frame"
-line_start: 68172
-line_end: 68191
+line_start: 68246
+line_end: 68265
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -39,7 +39,7 @@ This is the one-use selection branch of representation work. The governed move i
 
 **First useful move.** Name the receiving System and exact action or decision in one sentence. For each candidate, name the direct result it already has, the exact claim this use would rely on, what the candidate exposes and withholds, and the direct result that permits, declines, or leaves that use unresolved. Stop after one row if one row is enough.
 
-**First useful result.** One logically complete use-bounded representation-selection account: one or more completed candidate rows plus the exact receiving action those rows support, decline, or leave unresolved. Its join key and use boundary are `<receiving System, exact action or decision>`. If the account is retained as a standalone claim-bearing object, it has the ordinary C.2.1 identity of its claims, exact EntityOfConcern, and effective reference scheme; the join key does not replace episteme identity.
+**First useful result.** One logically complete use-bounded representation-selection account: one or more candidate claims with their material loss, direct basis and exact receiving action supported, declined or unresolved. It can be the immediate working answer; the row form and persistent record are not required when no later use needs them. Its use boundary is `<receiving System, exact action or decision>`. If retained as a standalone claim-bearing object, it has ordinary C.2.1 identity, an exact EntityOfConcern and effective reference scheme; the use boundary does not replace episteme identity.
 
 **What goes wrong if missed.** A readable diagram is treated as a conforming view; provenance is treated as approval; an evidence classification is treated as permission; several adjacent results are treated as one coherent structure; or a choice made for one action silently travels into another action with different loss, evidence, and decision conditions.
 

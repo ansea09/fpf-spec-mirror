@@ -6,12 +6,12 @@ section_id: "G.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__006_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:4 — Solution"
-line_start: 107224
-line_end: 107372
+line_start: 107347
+line_end: 107495
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -126,7 +126,7 @@ DashboardSlice := <
 1. **Start from exact results.** Select persisted C.21 coordinate-result refs for one already identified discipline. Do not compute from labels or restate Characteristic semantics in G.12.
 2. **Fix use, scope, and windows.** Name IntendedUse and ClaimScope. Add a `TargetSliceRef` only when the computation or publication really consumes it, and state its relation to the scope.
 3. **Check replay identity.** For every coordinate, resolve the C.21 `DHCReplayBasis`: Characteristic, Scale, Unit when current, `DHCMethodRef.edition`, exact Method and MethodDescription, model or calibration pins when used, time or population basis, and any distance or definition-set edition.
-4. **Choose the comparison branch.** Directly comparable C.16 readings need no Bridge. Actual distinct-local-sense use cites the obtaining F.9 relation, direction, admitted use, and loss. Add reference-plane routing only when a real plane crossing is used; cite its exact basis, and keep any assurance consequence in R only.
+4. **Choose the comparison branch.** Directly comparable C.16 readings need no Bridge. Actual distinct-local-sense use cites the obtaining F.9 relation, observed loss, and a separate affirmative bounded-use claim naming direction, use rule, and loss tolerance, with the current supporting reliance required by F.9. Add reference-plane routing only when a real plane crossing is used; cite its exact basis, and keep any assurance consequence in R only.
 5. **Open optional panels only when used.** Portfolio, QD, open-ended, maturity, SoTA, shipping, and advanced-view fields appear only through their extension blocks.
 
 **Stage B — Construct or update content**
@@ -168,7 +168,7 @@ DashboardSlice := <
 * `GPatternExtensionKind`: `MethodSpecific`
 * `GoverningPatternId`: `C.18`
 * Conditional pins: `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `CharacteristicSpaceSpecRef.edition?`, `InsertionPolicyRef`, `EmitterPolicyRef?`, `ArchiveSnapshotRef?`, and `PathSliceId[]` when refresh uses them.
-* Illumination and coverage stay telemetry unless a separate accepted policy promotes them.
+* Illumination and coverage stay telemetry unless a separate accepted policy promotes them into the comparator, dominance set, or selected-set criteria under C.18's trade-off and authority conditions.
 
 ##### `G.12:Ext.OpenEndedTelemetry` — open-ended or transfer panel
 

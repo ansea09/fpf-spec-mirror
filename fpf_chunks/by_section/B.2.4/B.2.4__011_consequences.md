@@ -6,12 +6,12 @@ section_id: "B.2.4:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__011_consequences.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:8 — Consequences"
-line_start: 39281
-line_end: 39294
+line_start: 39293
+line_end: 39306
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,5 +47,5 @@ Costs:
 
 - Teams must do the subject-pattern test before using B.2.4.
 - Many impressive capability claims will stay outside MHT.
-- B.2.4 depends on B.2 for the final whole-reidentification record.
+- B.2.4 depends on B.2 for the whole-reidentification result and any durable record required by the receiving use.
 

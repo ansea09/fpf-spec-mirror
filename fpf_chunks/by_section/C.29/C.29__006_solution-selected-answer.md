@@ -6,12 +6,12 @@ section_id: "C.29:4"
 section_title: "Solution - selected answer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__006_solution-selected-answer.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:4 — Solution - selected answer"
-line_start: 57586
-line_end: 58278
+line_start: 57650
+line_end: 58342
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -303,7 +303,7 @@ Application output classes:
 
 | Output class | Output | Use condition | Required content |
 |---|---|---|---|
-| `NoMathLensUseNeeded` | `NoMathLensUseNeededNote` or ordinary Plain orientation | Mathematical language is local, didactic, or accepted local theory and is not used for transfer, decision, evidence, assurance, publication, bridge, comparison, or reusable explanation. | State why no C.29 output is needed; no card. |
+| `NoMathLensUseNeeded` | No C.29 output; keep the ordinary local result or Plain orientation | Accepted local mathematics or didactic language makes no separate lens-use claim requiring resolution. | Finish with the local result. A short `NoMathLensUseNeededNote` is useful only when a proposed or disputed lens use needs an explanation; it is not a certificate required for ordinary local mathematics. |
 | `LensCandidateNote` | `MathLensUse.LensCandidateNote` | A problem whose next lens-use action can depend on a mathematical lens is stable enough for a first candidate lens, but no adequate mathematical object has been named yet. | `TargetPhenomenon`, `ProblemStructureCue`, `CandidateLensFamily`, optional `CandidateMathObject?`, `WhyThisLensCouldHelp`, `ExpectedVisiblePayoff`, `ObservableOrControllableCue?`, `NextLensUseAction`, `OrdinaryRivalOrFallback`, `StopCondition`, `NextMathLensUseOutput`. |
 | `OneLine` | `MathLensUse.OneLine` | An under-specified phrase affects explanation, decision, prediction, comparison, publication, bridge, assurance input, or reusable transfer and needs repair before reuse. | `TargetPhenomenon`, `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `VisiblePayoff`, `NextLensUseAction`, optional `ObservationOrReadoutNeeded?`, `OrdinaryRivalOrFallback`, `StopCondition`. |
 | `MiniCard` | `MathLensUse.MiniCard` | The lens is declared usable for a reusable explanation, local decision, comparison, or method-selection claim. | `OneLine` content plus `InvariantsExposed`, `LensUseBoundaryValue`, `declaredLensUse`, optional `blockedLensOverread?`, principal rival, and `RivalLensRelation?` when another mathematical lens changes the bounded lens-use action. |
@@ -423,11 +423,11 @@ Cheap stop: if the mathematical phrase does not affect any claim beyond orientat
 
 #### C.29:4.4.1 - Output set and declared-use boundary
 
-After applying `C.29`, the output is one of these:
+When a C.29 result is needed, choose its form below. The ordinary non-use branch requires no C.29 output.
 
 | Output | Meaning |
 |---|---|
-| `NoMathLensUseNeededNote` | Ordinary local math or didactic metaphor; no transfer, decision, evidence, assurance, publication, bridge, comparison, or reusable-explanation use. |
+| `NoMathLensUseNeededNote` | An optional short explanation resolving a proposed or disputed lens use that is unnecessary here. Accepted local mathematics or didactic language alone requires no note. |
 | `MathLensUse.LensCandidateNote` | Cheap first-candidate note for an under-lensed problem whose next lens-use action can depend on a mathematical lens; not evidence and not a full lens-use card. |
 | `MathLensUse.OneLine` | Target, mathematical object, lens mapping mode, preserved structure, lost structure, visible payoff, next lens-use action, optional observation or readout needed, ordinary rival or fallback, and stop condition. |
 | `MathLensUse.MiniCard` | One-line plus invariant or payoff, `LensUseBoundaryValue`, declared lens use, stop condition, optional grounded overread, and rival-lens relation when disagreement changes the next lens-use action. |
@@ -510,7 +510,7 @@ For E.11-style first-entry recognition, distinguish the working entry case befor
 | No lens or under-lensed problem | A problem situation is stable enough for mathematical help, but no `CandidateMathObject` has been named. | Use `MathLensUse.LensCandidateNote`: `ProblemStructureCue` -> `CandidateLensFamily` -> `NextLensUseAction`. |
 | Under-specified lens | A phrase such as field-like, graph-like, or quantum-like appears, but no object, mapping, preservation, or loss is stated. | Write `MathLensUse.OneLine` or downgrade to ordinary prose. |
 | Useful lens with overread | The lens is useful, but the text turns it into ontology, evidence, causality, assurance, bridge, or release authority. | Use `MathLensUse.MiniCard` or `MathLensUse.FullCard` and name blocked use plus neighboring subject pattern. |
-| Ordinary local math | A Markov kernel, ODE, graph data structure, or accepted domain theory appears inside its local domain use. | Return `NoMathLensUseNeededNote` and stay with the local pattern. |
+| Ordinary local math | A Markov kernel, ODE, graph data structure, or accepted domain theory appears inside its local domain use. | Stay with the local pattern and finish its result without a C.29 note or card. A separate proposed or disputed transfer retains the explanation, lost-condition examination, and validation required by that use. |
 | Wrong first pattern | The reader reaches for `C.26`, `F.9`, `C.28`, `C.16`, or `A.3.3` before knowing whether mathematical-lens use is being made, or reaches for `C.29` when a neighbor already governs. | Name the first subject pattern and state what `C.29` contributes, if anything. |
 
 #### C.29:4.4.5 - False-positive bank and entry stops

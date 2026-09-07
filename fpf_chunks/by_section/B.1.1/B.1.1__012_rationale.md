@@ -6,12 +6,12 @@ section_id: "B.1.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__012_rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:10 — Rationale"
-line_start: 36723
-line_end: 36728
+line_start: 36735
+line_end: 36740
 dependencies:
   - "A.1"
   - "A.10"

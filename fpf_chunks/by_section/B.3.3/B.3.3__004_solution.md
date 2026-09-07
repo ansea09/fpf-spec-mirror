@@ -6,63 +6,66 @@ section_id: "B.3.3:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__004_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:3 — Solution"
-line_start: 39868
-line_end: 39900
+line_start: 39888
+line_end: 39929
 dependencies:
   - "A.10"
-  - "A.19"
-  - "A.4"
   - "B.3"
-  - "B.4"
-  - "C.16"
-  - "C.2.1"
-  - "D.4"
-  - "U.Episteme"
+  - "B.3.4"
+  - "B.3.5"
+  - "C.28"
 keywords:
-  - "L0-L2"
-  - "LA"
-  - "TA"
-  - "VA"
-  - "assurance levels"
-  - "typing"
-  - "validation"
+  - "assurance profile"
+  - "conceptual correspondence"
+  - "constructive support"
+  - "empirical validation"
+  - "use-qualified assurance"
   - "verification"
 ---
 
-### B.3.3:3 - **Solution**
+### B.3.3:3 - Solution
 
-FPF establishes a formal Standard that links three distinct **Assurance Subtypes** to three computable **Assurance Levels**. An assurance target's level is not assigned manually by an author; it is **derived automatically** by its anchored evidence. This creates a transparent and falsifiable system for tracking an assurance target's progression from a speculative idea to a robust, reliable holon.
+Use B.3 to identify the target claim and receiving assurance use. Determine which uncertainty or possible failure matters to that use, then examine the support that bears on it. State the supported or narrowed conclusion and the limitations that change reliance. A result need not carry an `AssuranceLevel`.
 
-#### B.3.3:3.1 - Assurance Subtypes: The Three Pillars of Trust
+#### B.3.3:3.1 - Assurance subtypes answer different questions
 
-These three subtypes categorize the kind of question an assurance activity answers, ensuring a balanced approach to building confidence.
+| Subtype | Code | Question answered | Contribution and boundary |
+| --- | --- | --- | --- |
+| Concept-Bridge Assurance | CBA | Do the load-bearing terms and participants correspond across the descriptions being used? | Compare the relevant meanings, referents and conditions through B.5.3 when movement across vocabularies can change the argument. A discovered or repaired mismatch can change the assurance conclusion. Performing a comparison does not itself improve a relation's congruence. |
+| Verification Assurance | VA | Does the claimed consequence follow under the stated specification and assumptions? | Inspect the proof, logical argument or applicable construction. The result supports that consequence under those premises; it does not establish that a running system satisfies its environmental assumptions. |
+| Validation Assurance | LA | Does the empirical basis support the claimed performance in the receiving conditions? | Examine relevance, coverage, measurement quality, limitations and contrary results. A simulation supports a claim about its modelled conditions; transfer to an actual system needs the applicable model-to-world warrant. |
 
-| Subtype | Code | Core Question | Links to Epistemic Score | Manager's View: What It Prevents |
-| :--- | :--- | :--- | :--- | :--- |
-| **Concept-Bridge Assurance** | CBA | "Are the assurance target's load-bearing terms bridged to the intended FPF values?" | **CL** (Congruence Level) | **Miscommunication & Integration Failures.** CBA checks whether a requirement's "Sensor" and an architecture view's "Sensor" name the same entity, characteristic, role assignment, interface, or publication claim in the current scope. This activity directly improves the Congruence Level (CL) of the integration *edges* between assurance targets. |
-| **Verification Assurance**| VA | “Is the holon logically correct under its stated assumptions?” | **FV** (Formal Verifiability)| **"It Works on Paper" Errors.** VA catches design flaws, logical inconsistencies, and specification errors before a single line of code is written or a physical part is machined. It ensures the blueprint is sound. |
-| **Validation Assurance**| LA | “Does the holon work correctly in the real world?” | **EV** (Empirical Validability)| **"Works in the Lab, Fails in the Field" Surprises.** LA confirms that the holon performs as expected under real or simulated operational conditions, accounting for noise, unexpected inputs, and environmental factors. |
+Select the contributions needed by the claim, rather than demanding all three types for every judgement. A mathematical consequence may need a proof and no field trial. An engineering performance claim may have sufficient empirical support without an additional formal proof. A safety-related claim needs the actual protective argument and required evidence; neither `FV ≥ threshold` nor `EV > 0` establishes that adequacy by itself.
 
-#### B.3.3:3.2 - Computed Assurance Levels: Evidence-support progression
+Terms such as `FV`, `EV` or `CL` can be used only with the bearer, scale and interpretation the receiving argument consumes, as in B.3. A field called `verifiedBy` or `validatedBy` identifies a support relation to inspect, not a positive judgement by its mere presence.
 
-An assurance target's level is computed based on the evidence it has accumulated. This creates a declared progression for increasing trust without treating assurance as a generic ladder.
+#### B.3.3:3.2 - Use a level only through its justified profile
 
-| Level | Name | How It Is Computed |
-| :--- | :--- | :--- |
-| **Level 0** | **Unsubstantiated** | No `verifiedBy` or `validatedBy` evidence is present. The assurance target is a claim or an idea. |
-| **Level 1** | **Substantiated** | At least one `verifiedBy` or `validatedBy` link to an evidence carrier exists, and the assurance target is supported by Concept-Bridge Assurance (CBA). |
-| **Level 2** | **Axiomatic** | The assurance target is `verifiedBy` either a proof **or** a **Compose‑CAL (Γₘ) constructive narrative** that the author has linked from the Working‑Model via `tv:groundedBy` (CT2R‑LOG). Its FormalVerifiabilityScore (FV) meets or exceeds a pre‑defined threshold. Additionally, if the holon is designated as safety‑critical, it **MUST** also be supported by **Validation Assurance (LA)**. For non‑critical holons, LA is recommended (`SHOULD`). |
+A domain may define an assurance profile or ordered levels when a recurring receiving decision benefits from that comparison. Its definition states the claim class and use, relevant conditions, meaning of each level, evidence rules, threshold basis and reconsideration conditions. Keep the measure and its scale explicit where a threshold is used. Establish the ordering from these meanings; the numerals in `L0–L2` supply no ordering of trust across unlike uses.
 
-> **Didactic Note for Managers: What 'Level 1' Really Means**
->
-> Think of moving from Level 0 to Level 1 as the first step toward professional seriousness.
->
-> *   **Level 0** is an idea on a whiteboard. It has potential, but no receipts.
-> *   **Level 1** means you have **at least one receipt**. You have anchored the idea to something concrete: a passing test, a formal sketch, a simulation result. It's no longer just an opinion.
->
-> Crucially, Level 1 also demands **Concept-Bridge Assurance**. This sounds technical, but its business impact is simple: **it means the project has named its terms in a way that survives movement across documents, diagrams, and specialist vocabularies**. You've used the Domain-Concept Bridge (Pattern B.5.3) to check whether "Sensor" in requirements and "Sensor" in an architecture view name the same entity, characteristic, role assignment, interface, or publication claim. This basic alignment work is what prevents costly integration failures and endless meetings where teams talk past each other.
+Publish `AssuranceLevel` only with the applicable profile and a result showing why the target meets its criteria. The legacy names `Unsubstantiated`, `Substantiated` and `Axiomatic` do not supply default criteria. In particular, an axiomatic or constructive justification concerns a particular consequence or construction, not a universally higher assurance state than empirical support. A conjecture's origin in abduction likewise does not assign it `L0`.
+
+Examine whether a demanded threshold or evidence requirement protects the relevant quantity well enough to justify its cost, delay and displaced work. Keep that judgement distinct from the conditions presently binding the action. A recommendation to amend a requirement does not change it or confer amendment authority.
+
+For a one-off receiving use, stop with the sufficient qualified assurance result. Do not create a profile, fill unused level fields or explain the omission of a level solely to complete this pattern.
+
+#### B.3.3:3.3 - Preserve scope and inspect the actual grounding
+
+Keep a design-time `MethodDescription` claim separate from a claim about performed `Work` or its `Trace`. Cite evidence with the appropriate conditions and scope. Evidence for a parent claim covers a child claim only through an argument establishing that coverage; a declaration of inheritance is insufficient.
+
+State structural claims as readable Working-Model relations. When a publication choice or current requirement elects B.3.5's CT2R-LOG profile, follow its relation-specific grounding: structural parthood uses the applicable C.13 `sum` or `slice` construction trace; collection belonging uses the collection's `set` trace. These elected branches declare `validationMode=axiomatic`. Other permitted relation claims retain their applicable logical or empirical support. A level label alone does not elect this profile.
+
+A grounding account and the author's `validationMode` are inputs to inspect. Neither creates the relation, makes an empirical premise true, nor decides its currentness. Assurance publications remain downstream of the Working-Model surface under E.14.
+
+#### B.3.3:3.4 - Worked case: a useful empirical result and an irrelevant fresh test
+
+A team is deciding whether a converter can be used for non-safety-critical measurements within a declared temperature and input range. In this example, the receiving task's justified tolerance is 2%. Calibration results covering that range, an adequate measurement-error account and applicable operating observations support error below that tolerance. The team can return “supported for this measurement use within the stated range,” with its actual limitations. A formal proof of unrelated program properties is unnecessary.
+
+Now replace that basis with a newly passed boot test and a glossary mapping. These establish startup behaviour and the intended term correspondences, not measurement accuracy. The same requested measurement use remains unsupported. Neither fresh evidence nor one link of each required type repairs the missing performance basis.
+
+If the recipient instead needs a mathematical invariant, inspect the proof under its assumptions. If the application introduces a protective function or a different operating range, reopen the affected assurance question under its own threshold and evidence rules. The earlier limited result remains an account of what it supported.
 

@@ -6,12 +6,12 @@ section_id: "A.10.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:1 — Problem Frame"
-line_start: 23072
-line_end: 23098
+line_start: 23083
+line_end: 23111
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -30,15 +30,17 @@ Use this pattern when a claim-bearing source has been revised, replaced, refined
 
 The primary `EntityOfConcern` is the bounded source-to-use structure: the changed claim and the exact direct use relations through which receiving results, decisions, specifications, plans, or actions depended on it. The practitioner is not asked to know every receiving use in advance. The first move is to state the source comparison and the present decision that bounds where a receiving use would count.
 
-**First useful move.** Write:
+**First useful move.** Compare source episteme `S0` with later or replacement episteme `S1` for the present question `Q`. Establish the action-relevant claim difference or name what prevents that comparison.
 
-> Source episteme `S0` is being compared with later or replacement episteme `S1` for question `Q`. The potentially material claim change is `ΔC`. Uses will be sought only within search frame `F`; the first known coverage limits are `G`.
+When relevant meaning, applicability and access remain compatible, a repaired reference can be the completed result. It needs no multi-use search or additional subject-result record. A new URL, file, layout, revision label, carrier, or publication occurrence alone establishes no material claim change. Missing claim content or access leaves a scoped gap rather than establishing unchanged meaning.
 
-If no action-relevant claim change is established, stop before opening a multi-use search. A new URL, file, layout, revision label, carrier, or publication occurrence is not by itself a material claim change.
+When a material change makes several receiving uses worth discovering, state:
+
+> The material claim change is `ΔC`. Uses count for question `Q` within search frame `F`; the first known coverage limits are `G`.
 
 **What goes wrong if missed.** One team replays every analysis because a version changed. Another preserves every result because the represented world did not change. A third follows citations or graph edges and calls every reachable item affected while missing an undeclared use of the premise. All three replace actual reliance with a proxy.
 
-**What this buys.** The practitioner gets an affected-use revalidation account that is local, replayable, and honest about coverage. They preserve inspected unaffected uses for their stated conditions, prepare only `depends` branches for application of their direct subject-pattern guidance, record unresolved reliance and inaccessible search surfaces, and stop at the last receiving action that can change.
+**What this buys.** The practitioner can finish with a repaired reference, a qualified subject result, or a scoped limit. When a common receiving question needs an affected-use account, it remains local, replayable, and honest about coverage. Inspected unaffected uses remain usable for their stated conditions; unresolved reliance and inaccessible surfaces bound the conclusion. Only `depends` branches enter the subject judgment, and reach stops at the last receiving action that can change.
 
 **Not this pattern when.**
 
@@ -49,5 +51,5 @@ If no action-relevant claim change is established, stop before opening a multi-u
 - Use the direct subject pattern for a world-side change with no source change; examples include a changed sensor, market, organization, configuration, or situation affecting a law's applicability.
 - Use the direct subject pattern for the judgment or action needed after discovering an affected use. Section 4.5 identifies the governing contributions for those questions.
 
-**What changes in practice.** A source change no longer means “redo everything” or “update the link.” The team first establishes whether claim content changed or names the missing fact, states where receiving uses would count and how that area was searched, confirms reliance in the receiving content, and revalidates only the smallest action-changing branch.
+**What changes in practice.** A source change no longer means “redo everything” or “update the link.” The team first establishes whether claim content changed or names the missing fact. If affected-use discovery is needed, it states where uses count and how that area was searched, confirms reliance in receiving content, and revalidates only the smallest action-changing branch. A sufficient direct result closes its receiving question.
 

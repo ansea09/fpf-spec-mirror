@@ -6,34 +6,30 @@ section_id: "B.3.3:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__008_rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:7 — Rationale"
-line_start: 39930
-line_end: 39933
+line_start: 39957
+line_end: 39962
 dependencies:
   - "A.10"
-  - "A.19"
-  - "A.4"
   - "B.3"
-  - "B.4"
-  - "C.16"
-  - "C.2.1"
-  - "D.4"
-  - "U.Episteme"
+  - "B.3.4"
+  - "B.3.5"
+  - "C.28"
 keywords:
-  - "L0-L2"
-  - "LA"
-  - "TA"
-  - "VA"
-  - "assurance levels"
-  - "typing"
-  - "validation"
+  - "assurance profile"
+  - "conceptual correspondence"
+  - "constructive support"
+  - "empirical validation"
+  - "use-qualified assurance"
   - "verification"
 ---
 
-### B.3.3:7 - **Rationale**
+### B.3.3:7 - Rationale
 
-This pattern transforms the assurance framework from a descriptive taxonomy into a prescriptive, actionable Standard. By binding the computed `AssuranceLevel` to mandatory, well-defined evidence coverage, it makes the notion of "trustworthiness" in FPF an objective and auditable property. The rules ensure that as an assurance target's formality and claimed reliability increase, the rigor and balance of its supporting evidence increase in lockstep, operationalizing the principle of "no blind trust." The separation of `design-time` and `run-time` evidence, mandated by CC-B3.3.5, further ensures that claims made about a blueprint are not confused with claims made about a running system, preserving the integrity of the whole design-time and run-time evidence history.
+A claim, argument and evidence have different functions. Assurance improves when a contribution closes a relevant gap under applicable assumptions. Counting evidence types or increasing formality cannot guarantee that improvement.
+
+B.3 supplies this claim-and-use structure and its source account. [ISO/IEC/IEEE 15026-2:2022](https://www.iso.org/standard/80625.html) concerns the structure and maintenance of assurance cases. This pattern adapts maintained, inspectable support to a receiving use; its subtype distinction and optional level profiles are FPF choices, not a level ladder attributed to that standard. Reconsider a local profile when its evidence model, receiving decision or threshold basis changes.
 

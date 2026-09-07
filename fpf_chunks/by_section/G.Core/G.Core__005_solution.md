@@ -6,12 +6,12 @@ section_id: "G.Core:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__005_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:4 — Solution"
-line_start: 101126
-line_end: 101391
+line_start: 101233
+line_end: 101498
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -47,13 +47,13 @@ keywords:
 
 | Obligation handle | Canonical governing definition(s) | Part‑G note |
 | --- | --- | --- |
-| `transport_declarative_only` + `cg_spec_cite_required_for_numeric_ops` | A.6.7 + A.19 (CN‑Spec) + G.0 (CG‑Spec) + A.19.CHR | CN/CG are *pins*, not copies (“governing spec refs are pins, not copies”). No embedded/shadow governing spec refs. |
+| `transport_declarative_only` + `cg_spec_cite_required_for_numeric_ops` | A.6.7 + A.19.CN (CN‑Spec) + G.0 (CG‑Spec) + A.19.CHR | Cite CN‑Spec and CG‑Spec through *pins* rather than copying their definitions. No embedded/shadow governing specs. |
 | `bridge_only_crossings` | A.6.7 + E.18 | Any cross-Context or cross-plane/kind move is Bridge‑mediated; no implicit crossings. |
 | `crossing_visibility_required` | E.18 (CrossingBundle) + A.6.7 | Crossing visibility is a published **CrossingBundle**. `edition_key` changes on **crossing‑relevant artefacts** (Bridge/CL surfaces, BridgeCards, CrossingBundle registries, and UTS rows for crossing artefacts) are treated as crossing-bundle edits. If the required CrossingBundle is missing/non‑conformant, downstream consumers MUST **abstain** from cross-Context or cross-plane reuse (no silent crossings). |
 | `two_bridge_rule_for_described_entity_change` | A.6.7 | entityOfConcern retargeting requires an explicit KindBridge (`CL^k`) in addition to any Context/Plane Bridge. |
 | `guard_decision_tristate(pass|degrade|abstain)` + `unknown_never_coerces_to_pass` | A.6.7 + C.23 | `GuardDecision := {pass|degrade|abstain}` only; `unknown` maps to `degrade`/`abstain` via explicit SoS‑LOG branch/policy pins. |
 | `penalties_route_to_r_eff_only` | A.6.7 | Penalties affect the **R lane (R_eff)** only; **F/G invariants** must not be altered by penalties. |
-| `no_silent_scalarisation_of_partial_orders` + `no_silent_totalisation` | A.6.7 | Partial orders stay set‑valued; no silent scalar ranks or “helpful” totalisation. |
+| `no_silent_scalarisation_of_partial_orders` + `no_silent_totalisation` | A.6.7 | Partial-order results stay set‑valued; no silent scalar ranks or “helpful” totalisation. |
 | `planned_slot_filling_in_work_planning_only` + `finalize_launch_values_in_work_enactment_only` + `gate_decision_separation` | A.15.3 + A.19.CHR + A.6.7 | Planned baselines are WorkPlanning‑only; launch/finalization values are WorkEnactment‑only; planning does not govern GateDecision/DecisionLog semantics. |
 | `DefaultGoverningDefinitionIndex.single_governing_definition_per_DefaultId` | this pattern | Any default names exactly one governing definition; `G.Core.DefaultGoverningDefinitionIndex` is an index, not a second spec. |
 

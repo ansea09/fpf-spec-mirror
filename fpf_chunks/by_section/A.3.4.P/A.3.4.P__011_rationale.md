@@ -6,12 +6,12 @@ section_id: "A.3.4.P:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__011_rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:10 — Rationale"
-line_start: 9946
-line_end: 9951
+line_start: 9957
+line_end: 9962
 dependencies:
   - "A.10"
   - "A.15.1"

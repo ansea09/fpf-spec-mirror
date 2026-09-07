@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:1 — Problem frame"
-line_start: 8468
-line_end: 8497
+line_start: 8473
+line_end: 8502
 dependencies:
   - "A.10"
   - "A.13"
@@ -20,6 +20,7 @@ dependencies:
   - "A.22"
   - "A.3.1"
   - "A.3.2"
+  - "C.11.DUA"
   - "C.2.1"
   - "C.32.MWA"
   - "F.6"
@@ -30,7 +31,7 @@ keywords:
 
 **Use this when.** Use this pattern when you have observations or records from several performances and want to understand what reusable way they may show, but no Method has yet been established.
 
-**First useful result.** Return a traceable provisional explanation of the reusable way the material may show, the main competing explanation, important gaps, and the next observation or trial that would separate them—or state honestly that the material shows only what happened.
+**First useful result.** Return a traceable provisional explanation of the reusable way the material may show, its real rivals, important gaps and limits—or state honestly that the material shows only what happened. A distinguishing question is included when it changes the intended recovery or downstream use; neither an answerable future test nor an investigation plan is required merely to finish the account.
 
 **Three recognition cases.**
 
@@ -40,7 +41,7 @@ keywords:
 
 **What goes wrong if missed.** One vivid occurrence is generalized into a Method. Repeated event order is treated as reusable applicability. Several rival candidate subjects are combined into one false EntityOfConcern. A mined model, executable diagram, or coherent account is called a MethodDescription before a Method has been admitted. Missing tacit or discretionary contributions disappear behind the record format.
 
-**What this buys.** A project can use imperfect evidence without overclaiming. Each positive candidate has a truthful subject, source-to-claim trace, important gaps, a rival, and a distinguishing question. Weak evidence can still return a useful record-only result. Stronger reconstruction can continue in specialist `ME.18` without making every ordinary use pay that burden.
+**What this buys.** A project can use imperfect evidence without overclaiming. Each positive candidate has a truthful subject, source-to-claim trace and important limits, with real rivals or unresolved ambiguity preserved. A useful distinguishing question remains separate from a commitment to investigate it. Weak evidence can return a useful record-only result; specialist `ME.18` follows only when its larger contribution is needed.
 
 **Not this pattern when.** Use the closest applicable pattern instead:
 

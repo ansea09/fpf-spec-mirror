@@ -6,12 +6,12 @@ section_id: "G.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__011_rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:10 — Rationale"
-line_start: 103653
-line_end: 103665
+line_start: 103774
+line_end: 103786
 dependencies:
   - "A.10"
   - "A.13"
@@ -58,7 +58,7 @@ keywords:
 
 ### G.4:10 - Rationale
 
-CAL sits at the boundary where typed measurement becomes actionable choice. Making CAL a published, typed, and testable artifact reduces semantic drift and prevents “shadow legality gates” from emerging in tools or in downstream prose.
+CAL sits at the boundary where typed measurement becomes actionable choice. Publishing typed and testable CAL declarations reduces semantic drift and prevents “shadow legality gates” from emerging in tools or in downstream prose.
 
 The design separates concerns:
 

@@ -6,12 +6,12 @@ section_id: "B.2.5:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__013_sota-echoing.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:10 — SoTA-Echoing"
-line_start: 39519
-line_end: 39527
+line_start: 39531
+line_end: 39539
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,6 +33,8 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30.LCA"
+  - "E.10"
+  - "F.19"
   - "G.6"
 keywords:
 ---
@@ -43,6 +45,6 @@ keywords:
 | --- | --- | --- |
 | Layered and multi-rate control practice | Supervisor, plant, controller, observer, rate, and feedback language are useful recognition cues. | B.2.5 recovers the relation; use `C.30.LCA` for the view, `A.3.3` for dynamics, `C.27` for timing, and `C.29` for mathematical claims. |
 | Cyber-physical systems practice | Medium limits, observation channels, actuation, delay, disturbance, and plant dynamics affect adequacy. | The relation names medium and returned influence; adequacy claims use subject patterns. |
-| Organizational policy and review practice | Supervision may be enacted through policies, reviews, reports, publication channels, and system-role assignments. | The supervising acting system is named; publications and reports remain source-use or publication objects. |
+| Organizational policy and review practice | Supervision may be enacted through policies, reviews, reports, publication channels, and system-role assignments. | The supervising acting system is named; publications and reports keep their independently recovered identities and their separate source-use or publication relations. |
 | Episteme and publication discipline | Knowledge-bearing objects can be reviewed, revised, cited, and published, but they do not act. | Episteme examples use acting systems for review and keep the episteme as reviewed or revised object. |
 

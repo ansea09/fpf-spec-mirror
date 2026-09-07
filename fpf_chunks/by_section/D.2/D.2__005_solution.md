@@ -6,17 +6,18 @@ section_id: "D.2:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__005_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:2 — Solution"
-line_start: 68987
-line_end: 69032
+line_start: 69080
+line_end: 69127
 dependencies:
   - "A.1"
   - "A.15"
   - "A.3.4"
   - "B.1"
+  - "C.11.DUA"
   - "C.13"
   - "C.16"
   - "C.29"
@@ -30,13 +31,15 @@ keywords:
 
 ### D.2:2 - Solution
 
-Open a `MultilevelEthicsEntry@Context`:
+Name the local gain, who or what may bear a loss, and the levels or scopes that make this an ethical concern. State the next question to settle. Recognition is complete when those sides and the next use are clear; an already qualified `D.3` conflict or `D.4` decision question can be used directly.
+
+Use `MultilevelEthicsEntry@Context` when the practitioner or a recipient needs to recover these connections for comparison or revision. Keep its content in the existing answer or working note when that suffices. Add evidence, value-frame editions, and supporting relations where the stated concern actually relies on them:
 
 ```text
 MultilevelEthicsEntry@Context:
   ethicalConcernRef
   affectedEntityOfConcernRef
-  valueFrameEditionRefs
+  valueFrameEditionRefs?
   claimScopeRef?: U.ClaimScope
   qualificationWindowRef?
   declaredLevelOrScopeRefs
@@ -65,12 +68,12 @@ MultilevelEthicsEntry@Context:
   workRefs?
   transformationRefs?
   expectedConsequenceRefs
-  evidenceRefs
-  uncertaintyOrCurrentnessCondition
+  evidenceRefs?
+  uncertaintyOrCurrentnessCondition?
   nextSubjectPatternLocator
 ```
 
-The entry record has one job: recognize that multilevel ethics is live and choose the next pattern to apply. It does not itself resolve the conflict.
+The entry has one job: make the multilevel concern recognizable and choose its next use. It does not require a separate dossier or new inquiry before the concern can be discussed. A proposed inquiry goes through `C.11.DUA` when its receiving contribution or feasibility is unresolved; conflict description and decision use remain with `D.3` and `D.4`.
 
 For this pattern, holon work includes material systems and epistemes when they are the affected EntityOfConcern. An architectural description, standard, model card, policy publication, or research program may be the affected episteme; the pattern still asks which levels, scopes, affected holons, interests, responsibilities, and consequences are live.
 

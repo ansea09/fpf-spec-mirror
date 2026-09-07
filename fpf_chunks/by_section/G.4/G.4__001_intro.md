@@ -6,12 +6,12 @@ section_id: "G.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__001_intro.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:intro — Intro"
-line_start: 103248
-line_end: 103259
+line_start: 103367
+line_end: 103378
 dependencies:
   - "A.10"
   - "A.13"
@@ -60,7 +60,7 @@ keywords:
 
 **Use this when.** A team has typed characteristics and now needs to publish reusable operators, acceptance clauses, and legal compositions before any candidate is actually evaluated. The working object is one design-time `CAL Pack@CG-Frame`, not an evaluation run, verdict, selector outcome, assurance case, or decision.
 
-**First move.** Write one plain acceptance statement for one task: “For subject `x` within `ClaimScope` `S` and evaluation window `W`, apply operator `O` to a C.16 measurement result for Characteristic `K` that argument declaration `R` admits. In the actual application, bind current result episteme `E`; clause `A` returns `pass | fail | unknown` under threshold or policy `P` and its currentness rule.” Then turn only the reusable nouns into stable CAL declarations. `E` belongs to the later application, not to reusable clause `A`.
+**First move.** Write one plain acceptance statement for one task: “For subject `x` within `ClaimScope` `S` and evaluation window `W`, apply operator `O` to a C.16 measurement result for Characteristic `K` that argument declaration `R` admits. In the actual application, bind current result episteme `E`; the application of clause `A` returns `pass | fail | unknown` under threshold or policy `P` and its currentness rule.” Then turn only the reusable operator and clause definitions into stable CAL declarations. `E` belongs to the later application, not to reusable clause `A`.
 
 **Smallest viable CAL pack.** Publish one charter for the exact CG frame, one typed operator card, one acceptance clause with `ClaimScope`, evaluation window, and unknown or failure behavior, one legal flow, one evidence and currentness profile, one proof-or-gap row, one worked declaration example, and a minimal editioned `TaskMap` that cites the exact charter, the C.22 `TaskSignatureRef`, and the declaration refs used by selection. Stop there when this pack answers the task; method-family extensions, archive surfaces, crossing records, and additional policy pins enter only when the case actually needs them.
 

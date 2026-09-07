@@ -6,12 +6,12 @@ section_id: "G.12:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__008_conformance-checklist.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:6 — Conformance Checklist"
-line_start: 107384
-line_end: 107399
+line_start: 107507
+line_end: 107522
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -55,7 +55,7 @@ keywords:
 | --- | --- |
 | `CC-G12-1` | Every displayed coordinate resolves one exact C.21/C.16 result episteme and the active C.21 replay basis. |
 | `CC-G12-2` | ClaimScope is authoritative; TargetSlice is optional, consumed explicitly, and related to that scope. |
-| `CC-G12-3` | Direct same-semantics comparison uses C.16 conditions without a Bridge; actual distinct-local-sense use cites exact F.9 direction, admitted use, and loss. |
+| `CC-G12-3` | Direct same-semantics comparison uses C.16 conditions without a Bridge; actual distinct-local-sense use cites the obtaining F.9 relation, observed loss, and a separate affirmative bounded-use claim with its direction, use rule, loss tolerance, and the current supporting reliance required by F.9. |
 | `CC-G12-4` | Characteristic, Scale, Unit, Method, MethodDescription, model, calibration, Work, result, result episteme, series episteme, row, slice, publication, form, and carrier are not collapsed. |
 | `CC-G12-5` | Numeric, ordinal, target-band, normalization, distance, comparison, and aggregation operations cite their exact lawful definitions. |
 | `CC-G12-6` | A series ClaimGraph identifies exact result refs, windows, intended use, ClaimScope, and comparison basis; content change uses the applicable edition rule. |

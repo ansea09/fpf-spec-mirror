@@ -6,30 +6,33 @@ section_id: "B.3.4:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__006_conformance-checklist.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:5 — Conformance Checklist"
-line_start: 40024
-line_end: 40031
+line_start: 40061
+line_end: 40068
 dependencies:
   - "A.10"
   - "B.3"
-  - "B.3.3"
-  - "B.4"
+  - "C.11"
+  - "C.19.2"
+  - "C.27.TA"
+  - "G.11"
 keywords:
-  - "decay"
+  - "age"
+  - "changed premise"
   - "epistemic debt"
-  - "evidence aging"
-  - "freshness"
-  - "stale data"
+  - "evidence currentness"
+  - "qualification window"
+  - "refresh"
 ---
 
-### B.3.4:5 - **Conformance Checklist**
+### B.3.4:5 - Conformance Checklist
 
-*   **CC-ED.1 (Freshness Mandate):** Every evidence carrier anchored via `verifiedBy` or `validatedBy` **MUST** include a `valid_until` attribute. A value of `null` (perpetual) **MUST** be justified in the evidence carrier's rationale.
-*   **CC-ED.2 (Debt Budget Mandate):** Every project or `U.System` at `AssuranceLevel:L1` or higher **MUST** declare an `epistemic_debt_budget` in its manifest.
-*   **CC-ED.3 (Aggregation Mandate):** The total Epistemic Debt of a composite holon **MUST** be the sum of the debt of its constituent parts, consistent with the aggregation rule `ED_t(S) = Σ_j ED_t(child_j)`.
-*   **CC-ED.4 (Downgrade Mandate):** An assurance target with `ED_t > epistemic_debt_budget` **SHALL** have its effective `AssuranceLevel` provisionally downgraded until the debt is resolved via `Refresh`, `Deprecate`, or `Waive`.
-*   **CC-ED.5 (Waiver Auditability):** Any `Waive` action **MUST** be recorded as a formal, auditable event, citing the responsible authority, the rationale, and a new, short-term expiry date for the waiver itself.
+- **CC-ED.1 (Use-qualified currentness):** A currentness conclusion MUST identify the relied-on claim/use and the conditions or temporal boundary that change it. A carrier's age or absent date SHALL NOT alone establish loss of support.
+- **CC-ED.2 (Interpreted planning measure):** A numerical ED or debt budget MUST define its counted entities, dependency treatment, scale/unit, purpose and threshold meaning. No project has a default obligation to adopt one.
+- **CC-ED.3 (Affected reach):** Reconsideration MUST follow the actual support dependencies. Any aggregation MUST use an applicable interpreted model and avoid counting duplicate paths as additional evidence or risk.
+- **CC-ED.4 (Qualified disposition):** A trigger MUST be interpreted for the receiving use; it SHALL NOT automatically downgrade a level or require Refresh/Deprecate/Waive. Preserve a sufficient current result without a separate renewal or no-refresh certificate. Preserve real qualification, rights and resource-use expiry.
+- **CC-ED.5 (Actual exception authority):** A waiver, when used, MUST have the authority and scope allowed by the applicable rule, a rationale, affected risk bearers and accountability, and its actual ending or reconsideration condition. Keep the auditable exception with the decision that uses it; a title or lowered assurance status does not confer risk-acceptance authority.
 

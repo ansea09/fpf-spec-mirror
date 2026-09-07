@@ -6,12 +6,12 @@ section_id: "F.12:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__014_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:13 — Relations"
-line_start: 97424
-line_end: 97435
+line_start: 97531
+line_end: 97542
 dependencies:
   - "A.10"
   - "A.15.1"

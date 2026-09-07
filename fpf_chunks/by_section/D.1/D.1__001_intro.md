@@ -6,12 +6,12 @@ section_id: "D.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__001_intro.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:intro — Intro"
-line_start: 68808
-line_end: 68824
+line_start: 68892
+line_end: 68908
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -19,6 +19,7 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.28"
   - "C.30.ILC"
   - "D.1"
@@ -45,5 +46,5 @@ If that ethical claim is current but a possibly consequence-bearing System has n
 
 **What goes wrong if missed.** FPF looks ethically neutral because it names evidence, method, architecture, or work but leaves the value frame and affected EntityOfConcern implicit.
 
-**What this buys.** The ethical concern becomes a bounded FPF claim with value frame, affected EntityOfConcern, evidence, admissible use, and direct next subject pattern.
+**What this buys.** The reader can see whose concern is at issue, what is valued, and which ethical question to address next. A judgement additionally states its basis and the use that basis supports.
 

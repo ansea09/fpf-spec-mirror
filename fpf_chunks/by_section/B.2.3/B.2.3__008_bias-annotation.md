@@ -6,12 +6,12 @@ section_id: "B.2.3:5.4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__008_bias-annotation.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:5.4 — Bias-Annotation"
-line_start: 39050
-line_end: 39059
+line_start: 39062
+line_end: 39071
 dependencies:
   - "A.1"
   - "A.10"
@@ -39,8 +39,8 @@ keywords:
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
 | Library as theory | A repository, dashboard, or reading list is treated as one claim-bearing episteme. | Identify B.2's exact candidate, execute A.1, and test its C.2.1 ClaimGraph/EntityOfConcern/ReferenceScheme constitution. |
-| Publication as episteme | A PDF, report, standard document, model card, or dashboard is treated as the episteme itself. | Keep publication forms with E.17 and source-use patterns. |
+| Publication as episteme | A PDF, report, standard document, model card, or dashboard is treated as the episteme itself. | Keep the episteme, publication form, and carrier distinct under C.2.1, E.17, E.24.PUB, and source-use patterns. |
 | Episteme agency | A theory, standard, or doctrine is described as performing Work or enforcement. | Recover every exact acting System through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving account expressly consumes precise assignment-bound attribution; a missing or failed attribution does not demote the Work. |
 | Morphing as MHT | View, translation, coarsening, or retargeting is called a new episteme whole. | Use A.6 episteme-morphism patterns unless B.2 whole reidentification remains current. |
-| Source trust transfer | Trust in constituent sources becomes assurance for the result episteme. | Rebuild assurance and source-use relations for the result episteme. |
+| Source trust transfer | Trust in constituent sources becomes assurance for the result episteme. | Re-evaluate assurance and source-use relations for the result episteme; retain only those that still apply to its exact claims. |
 

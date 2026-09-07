@@ -6,12 +6,12 @@ section_id: "G.2:6"
 section_title: "Bias-Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__007_bias-annotation-informative.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:6 — Bias-Annotation (informative)"
-line_start: 102661
-line_end: 102676
+line_start: 102776
+line_end: 102791
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -51,7 +51,7 @@ keywords:
 
 ### G.2:6 - Bias-Annotation (informative)
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
+Bias lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: harvesting and synthesis for a `CG‑Frame`.
 
 * **Selection bias (Gov/Onto).** Any harvesting protocol can over‑represent certain venues, languages, or evidence styles.
   *Mitigation:* pluralism floor + explicit `CorpusLedger` + explicit protocol pins.

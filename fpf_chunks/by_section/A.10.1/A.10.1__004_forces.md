@@ -6,12 +6,12 @@ section_id: "A.10.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__004_forces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:3 — Forces"
-line_start: 23113
-line_end: 23124
+line_start: 23126
+line_end: 23137
 dependencies:
   - "A.10"
   - "A.10.1"

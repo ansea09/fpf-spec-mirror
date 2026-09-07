@@ -6,12 +6,12 @@ section_id: "B.5.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__013_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:12 — Relations"
-line_start: 41153
-line_end: 41165
+line_start: 41196
+line_end: 41208
 dependencies:
   - "A.10"
   - "A.16"
@@ -35,8 +35,8 @@ keywords:
 - **Is the first reasoning phase within:** `B.5 Canonical Reasoning Cycle`.
 - **Typically operates during:** `B.5.1 Exploration`.
 - **Consumes:** `U.AbductivePrompt` publications from `B.5.2.0`, often reached through `B.4.1` and `A.16`.
-- **Produces:** hypothesis-bearing `U.Episteme` publications at `AssuranceLevel:L0`.
-- **Provides inputs for:** downstream deduction, probe design, and evidence acquisition in the reasoning cycle.
+- **Produces:** hypothesis-bearing `U.Episteme` publications with explicit conjectural content, supports, fragilities and allowed use; no automatic `AssuranceLevel:L0`.
+- **Provides inputs for:** deduction, probe design and evidence synthesis when those questions are live. C.11 governs a separate feasible-action or acquisition choice; C.28 supplies needed causal-use support. A possible experiment is not funded or scheduled Work.
 - **Coordinates with:** `A.22.CGUS` when the abductive prompt, `B.4.1` cue publication, rival hypotheses, plausibility constraints, evidence-return loci, and downstream tests must be inspected as an `AbductiveSearchUnfoldingStructure`.
 
 #### B.5.2:12.1 - Prompt-entry broadening via `U.AbductivePrompt`

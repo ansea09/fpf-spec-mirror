@@ -6,14 +6,17 @@ section_id: "B.5.1:7"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__008_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.1 — Explore → Shape → Evidence → Operate"
   - "B.5.1:7 — Relations"
-line_start: 40998
-line_end: 41003
+line_start: 41039
+line_end: 41044
 dependencies:
+  - "B.3.3"
+  - "B.4"
   - "B.5"
+  - "B.5.2"
 keywords:
   - "Evidence"
   - "Explore"
@@ -26,7 +29,7 @@ keywords:
 
 ### B.5.1:7 - **Relations**
 
-*   **Is driven by:** `B.5 Canonical Reasoning Cycle`.
-*   **Organizes the progression of:** `B.3.3 Assurance Subtypes & Levels`.
-*   **Provides the states for:** `B.4 Canonical Evolution Loop`.
+* **Uses reasoning contributions from:** `B.5 Canonical Reasoning Cycle`; `B.5.2 Abductive Loop` commonly supplies Exploration with qualified conjectures.
+* **Uses for claim-specific assurance:** `B.3.3 Assurance Subtypes & Levels`. Development states neither organize its levels nor establish the adequacy of a claim.
+* **Coordinates with:** `B.4 Canonical Evolution Loop`. Its evolution phases and these development states are not a one-to-one mapping.
 

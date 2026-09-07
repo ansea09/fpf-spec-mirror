@@ -6,12 +6,12 @@ section_id: "B.2.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__005_forces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:3 — Forces"
-line_start: 38958
-line_end: 38967
+line_start: 38970
+line_end: 38979
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,5 +42,5 @@ keywords:
 | Episteme identity vs publication form | The episteme may be published in many forms; no publication form is the episteme by appearance. |
 | Claim organization vs agency | An episteme can organize claims and guide use, but systems perform work with or on it. |
 | Constituent evidence vs result assurance | Evidence for parts may bear on the result, but the result episteme needs its own claim and assurance relations. |
-| Source mnemonic vs current ontology | Short labels can aid recognition while hiding whether the current object is B.2, C.2.1, A.6, E.17, or source-use. |
+| Source mnemonic vs current ontology | Short labels can aid recognition while hiding whether the current question concerns B.2 whole reidentification, C.2.1 constitution, A.6 morphing, E.17 publication, or source use. |
 

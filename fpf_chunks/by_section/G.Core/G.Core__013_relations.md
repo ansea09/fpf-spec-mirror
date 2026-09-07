@@ -6,12 +6,12 @@ section_id: "G.Core:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__013_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:12 — Relations"
-line_start: 101491
-line_end: 101515
+line_start: 101598
+line_end: 101622
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -38,16 +38,16 @@ keywords:
 
   * `E.8` pattern template and section discipline
   * `E.10` lexical/ontological rules (strict distinction; twin naming; kind‑suffix discipline)
-* `E.18` CrossingBundle (crossing visibility bundle)
+  * `E.18` CrossingBundle (crossing visibility bundle)
   * `E.19` conformance discipline
   * `A.6.7` SuiteObligations + suite protocol pins (delegation support)
   * `A.15.3` SlotFillingsPlanItem (planned baseline anchor)
-  * `A.19` CN‑Spec governance card
+  * `A.19.CN` CN‑Spec governance card
   * `G.0` CG‑Spec legality gate
   * `A.19.CHR` CHR suite boundary and "governance cards and legality gates are cited as pins, not copied locally" discipline
   * `C.23` SoS‑LOG (tri‑state branches; sandbox/probe‑only)
   * `F.17` UTS (identifier registry; alias/deprecation discipline)
-  * `F.15` RSCR (regression/conformance loop)
+  * `F.15` static and regression conformance checks for unification slices
 
 * **Used by:**
 

@@ -6,12 +6,12 @@ section_id: "G.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__006_archetypal-grounding.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:5 — Archetypal Grounding"
-line_start: 104823
-line_end: 104846
+line_start: 104944
+line_end: 104967
 dependencies:
   - "A.10"
   - "A.13"
@@ -67,7 +67,7 @@ G.6 may give this chain one `PathId` only after the measurement, work, binding, 
 
 An engine programme has several C.16 resource measurements, dated test-run work occurrences, exact phase and overlap relations, and a shared warm-up allocation rule. B.1.6 dated aggregation work applies `ProgrammeResourcePolicy-v3` and obtains a typed resource vector with propagated uncertainty; a distinct C.2.1 episteme states it.
 
-The G.6 path cites every measurement result and episteme, the work-set and overlap relations, the edition-pinned policy, aggregation work, aggregation result, sources, and representation refs. The ledger does not make epoch labels into work parts, allocate the warm-up energy, perform uncertainty propagation, or turn the aggregate into an emissions verdict.
+The G.6 path cites every measurement result and episteme, the work-set and overlap relations, the edition-pinned policy, aggregation work, aggregation result, sources, and representation refs. Epoch labels alone do not establish work-part relations. Warm-up energy allocation and uncertainty propagation are performed in the aggregation work; an emissions verdict remains a separate result.
 
 #### G.6:5.3 - Produced model and benchmark use
 

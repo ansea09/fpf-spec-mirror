@@ -6,12 +6,12 @@ section_id: "B.2.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 38816
-line_end: 38840
+line_start: 38828
+line_end: 38852
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,7 +48,7 @@ Before MHT, the project has individual drones with local navigation and maintena
 
 - **Candidate new whole:** the search-and-rescue swarm named by B.2.
 - **A.1 basis:** exact drone constituents, obtaining formation and coverage-coordination relations, the governed swarm assembly, the swarm reidentification rule, and the whole-level area-search characteristic; its boundary, command and mission interfaces, operating characteristics, and identity-preservation conditions also fit the applicable larger rescue-system construction rule.
-- **System criterion:** the swarm has its own command-and-operating-area delimitation, mission objective, coordination relations, external commitments, and acting eligibility.
+- **System criterion:** the swarm has acting eligibility. This case also has its own command-and-operating-area delimitation, mission objective, coordination relations, and external commitments.
 - **Assurance:** swarm-level tests support claims about the candidate; individual drone certificates remain component evidence and do not establish the swarm facts.
 
 The old drone evidence remains relevant, but it is not enough for the swarm-level assurance claim.
@@ -63,5 +63,5 @@ If the only change is a better dashboard or one more service, use architecture-d
 
 A machine, robot, fixture, workpiece carrier, and inspection station can become a production cell when the cell has its own delimitation, objective, obtaining coordination relations, transformation structure, exact work occurrences, and capability envelope. Evidence separately supports the claims about those facts.
 
-The fixture being manufactured is not part of the machine merely because the machine changes it. The production cell claim needs a result system; the manufacturing relation remains transformation and work.
+A fixture being manufactured as a workpiece is not part of the machine merely because the machine changes it. The production cell claim needs a result system; the manufacturing relation remains transformation and work.
 

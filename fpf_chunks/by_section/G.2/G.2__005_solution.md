@@ -6,12 +6,12 @@ section_id: "G.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__005_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:4 — Solution"
-line_start: 102342
-line_end: 102652
+line_start: 102452
+line_end: 102767
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -58,7 +58,8 @@ keywords:
 **GCoreLinkageManifest (normative).**
 *(Canonical form, Nil‑elision, and Expansion rule are defined in `G.Core`.)*
 
-`GCoreLinkageManifest := ⟨
+```text
+GCoreLinkageManifest := ⟨
   CoreConformanceProfileIds := {
     GCoreConformanceProfileId.PartG.AuthoringBase,
     GCoreConformanceProfileId.PartG.UTSWhenPublicIdsMinted
@@ -92,7 +93,8 @@ keywords:
 
   DefaultsConsumed := ∅,
   TriggerAliasMapRef := ∅
-⟩`
+⟩
+```
 
 *(RSCR payload pins: `ClaimSheetId[]`, `SoTA_SetId`, `SoTAPaletteDescriptionId`, `BridgeMatrixId?`, `GammaEpistSynthId[]?`, `UTSRowId[]?`, `DistanceDefRef.edition?`, `HarvestPolicyRef?`, `InclusionCriteriaId?`, `ScreeningRubricId?`, `PathId/PathSliceId?` when path‑citable evidence or a stable freshness window is pinned.)*
 
@@ -128,7 +130,7 @@ Each named component is addressable via a stable **pack‑local identifier** (e.
    If any row asserts substitution or fusion across sources or across `Tradition` records, the pack **MUST** attach a `GammaEpistSynthId` record (alias: **`G.2‑F`**) per `G.2:Ext.GammaEpistSynthesis` (no silent fusion).
 
 5. **`G.2e MicroExamples`**
-   Worked micro-examples for load-bearing claims. Each names the exact source and edition, claim region, EntityOfConcern, comparison basis, and intended use; cites its A.10 carrier or evidence path; and annotates applicable assurance types (`TA`, `VA`, or `LA`). The example card is only a publication form for those claims.
+   Worked micro-examples for load-bearing claims. Each names the exact source and edition, claim region, EntityOfConcern, comparison basis, and intended use; cites its evidence carrier or A.10 evidence-provenance path; and annotates applicable assurance types (`TA`, `VA`, or `LA`). The example card is only a publication form for those claims.
 
 6. **`G.2f UTSProposals`**
    Draft Name Cards + Minimal Definitional Sheets (MDS) + alias proposals (incl. concept‑set linkage where applicable), with the required publication pins.
@@ -155,12 +157,14 @@ Each named component is addressable via a stable **pack‑local identifier** (e.
 
 **SoTAPaletteDescription** *(export view; required downstream)*
 A view‑friendly description object (pack‑local `SoTAPaletteDescriptionId`) that binds together:
+
 * the `SoTA_Set@CG‑Frame` view,
 * `ClaimSheetId[]`, `OperatorAndObjectInventory`, `BridgeMatrixId?`,
 * `SoSIndicatorFamilies` (with variant/branch structure),
 * `MethodFamilyCards` / `GeneratorFamilyCards?`,
 * `MicroExamples`, `UTSProposals`,
 * and the `entityOfConcern Map` for citation and later CHR/CAL authoring.
+
 **Note (normative intent):** this is the primary “consumable surface” for `G.3/G.4/G.5`; it prevents downstream patterns from scraping free prose.
 
 **Editorial template: 1‑page “SoTA Sheet” per Tradition (informative).**
@@ -176,7 +180,7 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 2. **Discover and triage sources (ledger‑first).**
    Populate `CorpusLedger` via:
 
-   * seed sources,
+   * adding seed sources,
    * expansion via citation chaining and keyword family exploration,
    * pruning using load‑bearing relevance tests tied to the declared CG‑Frame scope.
 
@@ -193,7 +197,7 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
    If a `G.2` pack publication asserts fusion or substitution across sources or across `Tradition` records (beyond mere “parallel divergent claims”), it **MUST** emit `GammaEpistSynthId` records per `G.2:Ext.GammaEpistSynthesis` (provenance union + explicit object alignment refs + assurance tuple refs), and it **MUST** keep penalties routed to `R_eff` only by delegation (`CC‑GCORE‑PEN‑1`).
 
 7. **Publish teachable micro‑groundings.**
-   Attach worked micro-examples to load-bearing claims, each tied to the exact source and edition, claim region, EntityOfConcern, comparison basis, intended use, and A.10 carrier or evidence path.
+   Attach worked micro-examples to load-bearing claims, each tied to the exact source and edition, claim region, EntityOfConcern, comparison basis, intended use, and evidence carrier or A.10 evidence-provenance path.
 
 8. **Apply gates and record repairs.**
    Enforce `FamilyCoverageFloorK` (and any optional diversity‑by‑distance gate). If a gate fails, the pack **MUST**:
@@ -204,10 +208,11 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 9. **Emit hand‑off manifests and export views.**
    Produce explicit manifests to:
 
-* `G.3` (CHR authoring),
-* `G.4` (CAL authoring),
-* `G.5` (registry/dispatch),
-  so that downstream work can cite pack components by id rather than re‑authoring them.
+   * `G.3` (CHR authoring),
+   * `G.4` (CAL authoring),
+   * `G.5` (registry/dispatch),
+
+   so that downstream work can cite pack components by id rather than re‑authoring them.
    The pack **MUST** also export `SoTA_Set@CG‑Frame` and `SoTAPaletteDescription` as the default downstream consumption surfaces (ids pinned).
 
 #### G.2:4.4 - Interfaces (minimal I/O Standard)
@@ -235,7 +240,7 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 **RequiredPins/EditionPins/PolicyPins (minimum):**
 
 * `GammaEpistSynthId[]` *(pack‑local ids of synthesis records; emitted iff fusion/substitution is asserted)*
-* `EvidenceAnchorRef[]` *(provenance union; A.10 carriers)*
+* `EvidenceAnchorRef[]` *(provenance union; evidence carriers cited by A.10 evidence-provenance paths)*
 * `BridgeMatrixId` and `BridgeCardId[]` *(explicit object alignment references when crossing is involved)*
 * `CL/CL^plane` + `Φ/Ψ/Φ_plane policy-ids` *(ids only; semantics governed by cited definitions; penalties → `R_eff` only by delegation)*
 * `PathId/PathSliceId?` *(only when citing via `G.6`)*

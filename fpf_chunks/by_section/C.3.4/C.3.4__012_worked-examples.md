@@ -6,12 +6,12 @@ section_id: "C.3.4:10"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__012_worked-examples.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:10 — Worked Examples"
-line_start: 46178
-line_end: 46193
+line_start: 46225
+line_end: 46240
 dependencies:
   - "A.2.6"
   - "C.2.1"

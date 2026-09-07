@@ -6,12 +6,12 @@ section_id: "C.19:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__009_forces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:3 — Forces"
-line_start: 50585
-line_end: 50589
+line_start: 50632
+line_end: 50636
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -52,7 +52,7 @@ keywords:
 ---
 
 ### C.19:3 - Forces
-- Graduation vs. discovery — a direct policy condition must be satisfied while `explore_share` keeps discovery alive; assurance is cited only when the condition actually depends on a named assurance use.
+- Readiness vs. continuation — exploitation needs its direct qualification, while active exploration and cheaper retention need their own prospective contribution and affordable commitments. None of these judgements follows from the others.
 - Heterogeneity vs. focus — fairness quotas by family vs. depth on proven lines.
 - Lens expressiveness vs. audit — scalarised choices must not be called 'the frontier' and MUST record lens ids.
 

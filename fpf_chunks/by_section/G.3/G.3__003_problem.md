@@ -6,12 +6,12 @@ section_id: "G.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__003_problem.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:2 — Problem"
-line_start: 102818
-line_end: 102829
+line_start: 102933
+line_end: 102944
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -24,6 +24,7 @@ dependencies:
   - "C.16"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "E.10"
   - "E.5.1"
   - "E.5.3"
@@ -65,6 +66,6 @@ Without a disciplined CHR authoring layer, teams repeatedly produce “measurabl
 * **Hidden normalizations** that silently change scale type, polarity, or admissible transforms.
 * **Unreproducible comparisons** (missing edition pins for methods/distances/policies; unclear reference plane).
 * **Unscoped reuse** (the characteristic or scale lacks an exact edition, bearer, scope and validity window, reference plane, evidence basis, or intended downstream use; any relation needed for reuse is left unstated).
-* **Un-auditable aggregation** (no explicit legality surface and guard surface; no proof hooks; unclear Γ‑fold governing-definition assignment).
+* **Un-auditable aggregation** (no explicit legality surface and guard surface; no proof hooks; unclear governing definition for the Γ‑fold).
 * **Refresh chaos** (changes in names/editions/policies do not map to typed RSCR causes).
 

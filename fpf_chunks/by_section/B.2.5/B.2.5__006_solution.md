@@ -6,12 +6,12 @@ section_id: "B.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__006_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:4 — Solution"
-line_start: 39380
-line_end: 39445
+line_start: 39392
+line_end: 39457
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,6 +33,8 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30.LCA"
+  - "E.10"
+  - "F.19"
   - "G.6"
 keywords:
 ---
@@ -71,13 +73,13 @@ A one-way command, publication, or report relation is not yet a supervisor-subho
 - the observation, report, signal, source, or publication side; and
 - the returned influence, constraint, objective, mode, or work-change side.
 
-If only one side is current, record a one-sided relation and use the pattern that defines that claim.
+If only one side is current, name and record that exact claim under the pattern that defines it.
 
 #### B.2.5:4.2 - Part-Whole Boundary
 
-A supervised holon may be part of a larger holon, but supervision and parthood are different relations. An acting controller system, committee system, platform-governance system, review board, or tool-mediated group can supervise under an exact system-role assignment without being a physical part of the supervised holon. A method, policy, or review practice can structure the supervision work; it does not supervise by itself.
+A supervised holon may be part of a larger holon, but supervision and parthood are different relations. A controller, committee, platform-governance group, review board, or tool-mediated group can supervise when the exact acting entity is independently admitted as `U.System`; it may do so under an exact system-role assignment without being a physical part of the supervised holon. A method, policy, or review practice can structure the supervision work; it does not supervise by itself.
 
-Use `A.1`, `B.1`, `A.14`, and `C.13` for parthood. Use B.2.5 only for the supervisor-subholon feedback relation.
+Use `A.1` for holon recognition, `A.14` for the exact mereological claim, and `B.1` or `C.13` for the applicable construction account. Use B.2.5 only for the supervisor-subholon feedback relation.
 
 #### B.2.5:4.3 - Acting-System Boundary
 
@@ -100,6 +102,6 @@ Use:
 - `C.28` for causal-use claims;
 - `A.10` and `G.6` for evidence and provenance;
 - `B.3` for assurance;
-- `A.20` and `A.21` for constraint validity and gate decisions;
+- `A.20` for its internal-constraint test in a transformation-flow structure and `A.21` for gate decisions;
 - `C.29` for mathematical-lens use.
 

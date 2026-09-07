@@ -6,12 +6,12 @@ section_id: "B.2.P:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__014_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:11 — Relations"
-line_start: 38679
-line_end: 38685
+line_start: 38691
+line_end: 38697
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,14 +40,15 @@ dependencies:
   - "E.17"
   - "E.24"
   - "F.18"
+  - "F.19"
   - "G.11"
 keywords:
 ---
 
 ### B.2.P:11 - Relations
 
-- **Builds on:** `E.10`, `E.10.ARCH`, `E.24`, `F.18`, and `B.2`.
-- **Uses for whole reidentification:** `B.2`, with `B.2.2`, `B.2.3`, and `B.2.4` as current specializations.
+- **Builds on:** `F.19`, `E.10`, `E.10.ARCH`, `E.24`, `F.18`, and `B.2`.
+- **Uses for whole reidentification:** `B.2`, with `B.2.2` and `B.2.3` as kind-specific specializations and `B.2.4` as the capability/functioning decision bridge.
 - **Keeps collection admission with:** `A.14`, `C.13`, `B.3.5`, `A.1`, `A.15`, A.2 patterns, and `C.16`.
 - **Coordinates with:** `A.2.2`, `C.16`, `A.6.F`, `A.3.4`, `C.30`, `A.22`, `A.1.1`, `C.30.ASV`, `C.30.TFS-REL`, `C.30.ILC`, `C.32.P2S`, `C.29`, `A.10`, `B.3`, `C.2.1`, `G.11`, `E.17`, and source-use patterns.
 

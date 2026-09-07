@@ -6,15 +6,16 @@ section_id: "D.5:3.3"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:3.3 — Common Anti-Patterns and How to Avoid Them"
-line_start: 69654
-line_end: 69661
+line_start: 69760
+line_end: 69767
 dependencies:
   - "A.10"
   - "B.3"
+  - "C.11.DUA"
   - "C.16"
   - "C.28"
   - "D.1"
@@ -32,6 +33,6 @@ keywords:
 | Anti-pattern | What goes wrong | Repair |
 | --- | --- | --- |
 | Ethics ghetto | Bias or fairness is left in a separate ethics note while the model, metric, release, publication, or work plan keeps operating unchanged. | Put the concern on the audited EntityOfConcern and its intended use, then name the mitigation, constraint, or accepted residual. |
-| Checklist charade | A checklist is completed without naming affected people or groups, evidence, current use, or residuals. | Use `BiasRegister@Context` for a light scan or `BiasAuditReport@Context` for deeper review; do not treat a blank checklist as assurance. |
+| Checklist charade | A checklist is completed without answering the concern about affected people, evidence, use, or residuals. | Return the bounded finding or judgement; use a register or report when its content is needed for tracking or reliance. |
 | Bias whack-a-mole | One disparity is patched while proxy, representation, metric, visibility, or language concerns move elsewhere. | Keep REP, ALG, VIS, MET, and LNG concerns visible until the admissible use and accepted residual are explicit. |
 

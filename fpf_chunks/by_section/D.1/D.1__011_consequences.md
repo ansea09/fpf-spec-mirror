@@ -6,12 +6,12 @@ section_id: "D.1:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__011_consequences.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:6 — Consequences"
-line_start: 68920
-line_end: 68925
+line_start: 69012
+line_end: 69017
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -19,6 +19,7 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.28"
   - "C.30.ILC"
   - "D.1"
@@ -34,5 +35,5 @@ keywords:
 
 This pattern makes ethical claims portable across FPF without pretending that FPF has one final ethical theory. It also prevents a common failure: a technical pattern silently inherits one ethical theory because a word such as "safe", "fair", "beneficial", or "responsible" sounded ordinary.
 
-The cost is extra explicitness. The gain is that ethics becomes reviewable in the same FPF body as systems, methods, work, evidence, assurance, architecture, and publication use.
+Explicitness follows the claim being used: recognition needs a clear concern and next question, while a judgement needs its supporting basis and use limits. A durable frame earns its effort through the comparison or later reliance it supports.
 

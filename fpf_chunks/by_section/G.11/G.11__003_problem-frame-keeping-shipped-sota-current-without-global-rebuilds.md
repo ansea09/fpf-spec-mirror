@@ -6,12 +6,12 @@ section_id: "G.11:1"
 section_title: "Problem frame — Keeping shipped SoTA current without global rebuilds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__003_problem-frame-keeping-shipped-sota-current-without-global-rebuilds.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:1 — Problem frame — Keeping shipped SoTA current without global rebuilds"
-line_start: 106778
-line_end: 106793
+line_start: 106895
+line_end: 106910
 dependencies:
   - "A.6.RCD"
   - "B.3.4"
@@ -35,14 +35,13 @@ keywords:
   - "Bridge Sentinels"
   - "PathSlice"
   - "RSCR"
-  - "decay"
   - "deprecation"
-  - "edition bumps"
   - "edition-aware"
   - "epistemic debt"
   - "re-shipping"
   - "refresh"
   - "telemetry"
+  - "use-qualified currentness"
 ---
 
 ### G.11:1 - Problem frame — Keeping shipped SoTA current without global rebuilds
@@ -50,14 +49,14 @@ keywords:
 Part G produces shipped, selector-ready publication units and records: packs, bundles, evidence graphs, parity reports, and dashboards. Once shipped, they are exposed to:
 
 * **telemetry** (illumination and archive changes, parity outcomes, dashboard deltas),
-* **decay** (freshness windows expire; epistemic debt grows),
+* **currentness conditions** (a relied-on premise changes, a justified review becomes due, or an actual qualification or use window ends),
 * **edition drift** (descriptor, distance, or transfer rules bump; policy pins evolve),
 * **bridge evolution** (CL or plane penalties or calibrations update).
 
-Without an explicit orchestration kit, refresh becomes either:
+The kit addresses two recurring refresh failures:
 
 * a brittle set of ad-hoc “full rerun” rituals, or
-* an audit-only refresh result that silently accumulates drift.
+* an audit-only refresh result that leaves currentness drift unresolved.
 
-`G.11` is the **Part G governing definition** of the **refresh orchestration kit**: it turns typed refresh causes into **scoped plans** and **auditable execution reports**, while delegating all cause semantics and universal invariants to `G.Core`.
+`G.11` is the **Part G governing definition** of the **refresh orchestration kit**: its users turn typed refresh causes into **scoped plans** and record execution in **auditable execution reports**. Cause semantics and universal invariants remain delegated to `G.Core`.
 

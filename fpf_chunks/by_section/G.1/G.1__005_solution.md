@@ -6,16 +6,17 @@ section_id: "G.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__005_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:4 — Solution"
-line_start: 101921
-line_end: 102203
+line_start: 102028
+line_end: 102313
 dependencies:
   - "A.10"
   - "A.15.3"
   - "A.19"
+  - "A.19.CN"
   - "C.17"
   - "C.18"
   - "C.19"
@@ -126,7 +127,7 @@ The chassis is *view‑friendly*: it is an inventory of “what exists and how i
 
 **Purpose:** provide the *single scope anchor* used by all downstream cards.
 
-**Notes:** any spec-legality content is **cited** via `A.19 (CN‑Spec)` and `G.0 (CG‑Spec)` (delegation target: `CC‑GCORE‑CN‑CG‑1` via `CC‑G1‑CoreRef`); this card does not introduce a local “mini‑spec”.
+**Notes:** any spec-legality content is **cited** via `A.19.CN (CN‑Spec)` and `G.0 (CG‑Spec)` (delegation target: `CC‑GCORE‑CN‑CG‑1` via `CC‑G1‑CoreRef`); this card does not introduce a local “mini‑spec”.
 
 ##### M2 — SoTA_Set@CG‑Frame (harvester output card)
 
@@ -136,7 +137,7 @@ The chassis is *view‑friendly*: it is an inventory of “what exists and how i
 * explicit provenance anchors for the set (via `A.10`), and any published UTS stubs/rows when applicable
 
 **Governing pattern:** harvesting discipline and SoTA-pack payload are governed by `G.2`.
-In `G.1`, M2 is a *slot in the chassis* and a wiring surface; it does not redefine the harvesting method.
+In `G.1`, M2 is a *card in the chassis* and a wiring surface; it does not redefine the harvesting method.
 
 ##### M3 — VariantPool (candidate inventory + emitter trace)
 
@@ -150,7 +151,7 @@ In `G.1`, M2 is a *slot in the chassis* and a wiring surface; it does not redefi
 
 * tri‑state eligibility handling, penalties routing, crossing visibility, and set‑return constraints are not defined here; they are enforced via `G.Core` conformance.
 
-**Governing pattern for method payload:** method‑specific emitter semantics are governed by `Extensions` (e.g., `C.17`, `C.18`, `C.19`).
+**Governing pattern for method payload:** method‑specific emitter semantics remain in their governing definitions, cited through `Extensions` (e.g., the relevant `C.17`, `C.18`, and `C.19` definitions).
 M3 MUST remain method‑agnostic in its core definition: it is an inventory surface, not an algorithm spec.
 
 ##### M4 — Shortlist (selector/assurer output)
@@ -173,7 +174,7 @@ M4 MUST preserve *set‑return semantics* (as governed by `G.Core`) and MUST NOT
 
   * CHR/CAL/LOG bundles (by their ids; semantics governed by `G.3`, `G.4`, `G.8`)
   * published identifiers (UTS rows, Name Cards) per Part‑F governing definitions
-  * additional Part‑F binding surfaces (e.g., RoleDescription templates, Concept‑Set rows) by governing definition‑ids only
+  * additional Part‑F binding surfaces (e.g., RoleDescription templates, Concept‑Set rows) by ids locating those surfaces under their governing definitions
   * RSCR test identifiers (e.g., from `F.15`) and worked examples (where applicable)
 
 **Boundary:** M5 is a **kit/library surface**, not shipping. If a shipped pack is needed, governing-definition assignment is `G.10`.
@@ -221,6 +222,7 @@ All method/discipline/generator specifics MUST be expressed as `GPatternExtensio
 * `SoTA_SetId`
 * `ClaimSheetId[]` / `BridgeMatrixId` *(as referenced by the chosen G.2 pack form)*
 * `CNSpecRef.edition`, `CGSpecRef.edition` *(already required via `GCorePinSetId.PartG.AuthoringMinimal`)*
+
 **RSCRTriggerSetIds:** `{GCoreTriggerSetId.SoTAHarvestSynthesis}`
 **Notes (wiring‑only):** harvesting semantics (living review funnels, inclusion policy families, SoS indicator families, etc.) are defined by `G.2` and are not duplicated in `G.1`.
 
@@ -274,7 +276,7 @@ All method/discipline/generator specifics MUST be expressed as `GPatternExtensio
 * `InsertionPolicyRef` *(policy id / ref, as defined by the governing definition)*
 * `TaskSignatureRef?` *(when QD is enabled via TaskSignature flags/traits rather than by an external switch)*
 * `DHCMethodRef.edition?` *(when illumination/coverage summaries are pinned to a method)*
-* `EmitterPolicyRef` *(policy‑id/ref; points to the exploration governance governing definition, e.g., `C.19` when E/E‑LOG is used)*
+* `EmitterPolicyRef` *(policy‑id/ref; identifies the chosen emitter policy under its governing definition, e.g., `C.19` when E/E‑LOG is used)*
 
 **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.FreshnessOrDecayEvent}`
 
@@ -313,6 +315,7 @@ All method/discipline/generator specifics MUST be expressed as `GPatternExtensio
 * `RefreshReadinessCardId`
 * `RSCRTestId[]`
 * canonical `RSCRTriggerKindId[]` emitted/recorded (aliases only as labels, if any)
+
 **RSCRTriggerSetIds:** `{GCoreTriggerSetId.RefreshOrchestration}`
 **Notes (wiring‑only):** M6 declares readiness and wiring; orchestration semantics (queueing, prioritisation, cadence) are governed by `G.11`.
 
@@ -332,5 +335,6 @@ All method/discipline/generator specifics MUST be expressed as `GPatternExtensio
 * `EvidenceGraphId?`, `BridgeMatrixId?`, `BridgeCalibrationTableId?` *(when cited by the shipped artefacts)*
 * `UTSRowId[]?` *(when any public ids are minted/published)*
 * `SlotFillingsPlanItemRef[]?` *(when planned baseline is bound by id into the shipment surface)*
+
 **Notes (wiring‑only):** this block does not define shipping; it only records the minimum wiring from the chassis/library index to `G.10` when shipping is performed.
 

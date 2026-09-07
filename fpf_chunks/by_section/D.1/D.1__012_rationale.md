@@ -6,12 +6,12 @@ section_id: "D.1:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__012_rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:8 — Rationale"
-line_start: 68926
-line_end: 68931
+line_start: 69018
+line_end: 69023
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -19,6 +19,7 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.28"
   - "C.30.ILC"
   - "D.1"
@@ -34,5 +35,5 @@ keywords:
 
 `D.1` is an entry boundary for ethical value plurality. It is intentionally modest: it does not settle ethical theory and does not decide an interlevel conflict. It makes the live value frame visible enough for neighboring FPF patterns to carry the next claim without hiding ethics inside technical adequacy, evidence, architecture, method, work, or publication wording.
 
-This keeps FPF usable in engineering, research, organizational, public, and AI-enabled contexts where ethical traditions differ but value-bearing claims still need explicit affected entities, evidence, admissible use, and stronger-source return conditions.
+This keeps FPF usable in engineering, research, organizational, public, and AI-enabled contexts where ethical traditions differ but value-bearing claims still need explicit affected entities, value concerns, and warranted use, with the evidence and return conditions that this use needs.
 

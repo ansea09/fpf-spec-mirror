@@ -6,12 +6,12 @@ section_id: "A.7.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__007_archetypal-grounding.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:5 — Archetypal Grounding"
-line_start: 21947
-line_end: 21954
+line_start: 21958
+line_end: 21965
 dependencies:
   - "A.7"
   - "A.7.2"

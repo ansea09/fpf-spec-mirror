@@ -6,12 +6,12 @@ section_id: "B.5.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__010_consequences.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:9 — Consequences"
-line_start: 41136
-line_end: 41144
+line_start: 41179
+line_end: 41187
 dependencies:
   - "A.10"
   - "A.16"
@@ -36,6 +36,6 @@ keywords:
 |---|---|
 | **Disciplined generativity.** Abduction stays inventive without collapsing into formless conjecturing. | Requires explicit prompt and filter publication; mitigation: the required record can remain lightweight. |
 | **Traceable hypothesis origin.** Later review can reconstruct why a conjecture entered the reasoning cycle. | Adds a small provenance-support load; mitigation: reuse prompt and candidate-set notes from adjacent patterns. |
-| **Cleaner downstream use.** Deduction and evidence work begin from an `AssuranceLevel:L0` `U.Episteme` publication with explicit scope and rationale. | Some early conjectures will be rejected sooner; that is a feature, not a defect. |
+| **Cleaner downstream use.** A hypothesis-bearing episteme gives the receiving question its scope, rivals, support and limitations. | A candidate can remain useful without being confirmed or receiving a universal level; a stronger claim still needs its own evidence. |
 | **Admissible reopening.** Rival candidates can be revisited when later work undermines the selected prime hypothesis. | Demands editorial discipline so that abandoned rivals remain legible rather than silently vanishing. |
 

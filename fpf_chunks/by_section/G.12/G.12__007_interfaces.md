@@ -6,12 +6,12 @@ section_id: "G.12:5"
 section_title: "Interfaces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__007_interfaces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:5 — Interfaces"
-line_start: 107373
-line_end: 107383
+line_start: 107496
+line_end: 107506
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -54,7 +54,7 @@ keywords:
 | Interface | Consumes | Produces |
 | --- | --- | --- |
 | `Create_DHCSeries` | exact coordinate-result refs, discipline, intended use, ClaimScope, windows, comparison basis, optional definition-set and target-slice refs | one C.2.1 `DHCSeries` episteme edition |
-| `Update_DHCSeries` | prior series edition, added or replaced exact result refs, affected windows, edition rule | successor series episteme edition plus exact edition relation when asserted |
+| `Update_DHCSeries` | prior series edition, added or replaced exact result refs, affected windows, edition rule | successor series episteme edition only when C.2.1's historical-continuation predicate holds, plus exact edition relation when asserted |
 | `Render_DHCView` | exact result or series refs, view specification, annotations | `DHCRow[]` and/or `DashboardSlice` representations |
 | `Publish_DHCView` | selected episteme or view edition plus E.24.PUB audience, bounded use, form, carrier, and interval | obtaining publication relation when its predicate holds |
 | `Emit_DHCTelemetry` | exact changed definition, window, evidence, crossing, or policy pin and affected slice | G.11-facing telemetry payload |

@@ -6,34 +6,34 @@ section_id: "B.3.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:1 — Problem Frame"
-line_start: 39860
-line_end: 39863
+line_start: 39872
+line_end: 39881
 dependencies:
   - "A.10"
-  - "A.19"
-  - "A.4"
   - "B.3"
-  - "B.4"
-  - "C.16"
-  - "C.2.1"
-  - "D.4"
-  - "U.Episteme"
+  - "B.3.4"
+  - "B.3.5"
+  - "C.28"
 keywords:
-  - "L0-L2"
-  - "LA"
-  - "TA"
-  - "VA"
-  - "assurance levels"
-  - "typing"
-  - "validation"
+  - "assurance profile"
+  - "conceptual correspondence"
+  - "constructive support"
+  - "empirical validation"
+  - "use-qualified assurance"
   - "verification"
 ---
 
-### B.3.3:1 - **Problem Frame**
+### B.3.3:1 - Problem Frame
 
-A complex project may generate hundreds of assurance targets and evidence carriers: design specifications, simulation models, test suites, and operational logs. While the Trust & Assurance Calculus provides a framework for evaluating these assurance targets and their evidence, teams often face a critical challenge: how to aggregate this diverse evidence into a single, meaningful signal of an assurance target's maturity. Simply counting the number of tests or documents can lead to "paper compliance," where an assurance target appears well-supported but has critical, unexamined weaknesses in its formal structure or conceptual alignment.
+**Use this when.** A team must decide whether the available support is enough for a particular claim and receiving use, or what a published assurance level permits a recipient to conclude. Start with that claim, use, relevant conditions, and the warrant the conclusion needs.
+
+A performance test, a proof and a terminology comparison answer different questions. Treating their presence as a maturity recipe can approve a poorly supported performance claim while demanding an irrelevant proof from a well-supported empirical result.
+
+**Practical gain.** Choose the assurance contribution that can change the receiving judgement, and retain a sufficient qualified result without purchasing evidence merely to raise its label.
+
+**Ordinary boundary.** A source locator, permission, status report or direct domain result that makes no assurance claim needs no B.3.3 classification. An ordinary assurance judgement can use B.3's compact result without constructing a level scheme. A domain's required proof, study or assurance profile applies when its actual claim and use require it.
 

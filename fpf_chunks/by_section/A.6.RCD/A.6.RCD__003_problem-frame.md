@@ -6,12 +6,12 @@ section_id: "A.6.RCD:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__003_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:1 — Problem Frame"
-line_start: 17053
-line_end: 17058
+line_start: 17064
+line_end: 17069
 dependencies:
   - "A.11"
   - "A.6.0"

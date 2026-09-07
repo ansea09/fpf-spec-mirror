@@ -6,12 +6,12 @@ section_id: "C.19:0.3"
 section_title: "First-minute questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__005_first-minute-questions.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0.3 — First-minute questions"
-line_start: 50552
-line_end: 50559
+line_start: 50599
+line_end: 50606
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -57,5 +57,5 @@ keywords:
 - Which lens or policy state is governing it?
 - Is the next admissible pool treatment to widen, keep the frontier, narrow to a subset, or sunset a line?
 - If none of those treatments is current, which subject pattern now applies, and why is the question no longer pool policy?
-- What event or threshold would justify changing that treatment next?
+- What justifies active exploration or cheaper retention now, and what change would end that justification? Readiness for exploitation is a separate question.
 

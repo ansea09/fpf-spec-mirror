@@ -6,12 +6,12 @@ section_id: "C.36:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:1 — Problem frame"
-line_start: 67784
-line_end: 67840
+line_start: 67848
+line_end: 67904
 dependencies:
   - "A.1"
   - "A.10"
@@ -29,6 +29,7 @@ dependencies:
   - "A.6.RCD"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -75,11 +76,11 @@ The team treats culture as shared vocabulary, treats style as a genre tree, trea
 
 #### C.36:1.2 - What this buys
 
-The practitioner gets one small statement of what is changing, which relations transmit, recognize, select, retain, or mediate variants, what intervention is current, and what to do next. Add collective holons, local system-role kinds, classifications, assignments, Work and Method families, canon or memory epistemes, architectures, measurements, and refresh relations only when the current claim actually needs them.
+The practitioner gets one small statement of the cultural relations now supported, what is changing or worth continuing, and the next action or stop. Add collective holons, local system-role kinds, classifications, assignments, Work and Method families, canon or memory epistemes, architectures, measurements, and refresh relations only when the current claim actually needs them.
 
 #### C.36:1.3 - First useful move
 
-Start with one ordinary sentence. For example: `In this dance school, teachers transmit variants through teaching, the festival archive retains and presents records of variants, jury recognition and peer copying select variants, and the current intervention changes how new variants enter the syllabus.` Add the next pattern only when its definition or test changes the action.
+Start with one ordinary sentence. For example: `In this dance school, teachers transmit variants through teaching, the festival archive retains and presents records of variants, jury recognition and peer copying select variants, and the current intervention changes how new variants enter the syllabus.` Add the next pattern only when its definition or test changes the action. A qualified current account or a decision to continue the existing arrangement may finish without a new intervention.
 
 When the result must be retained or handed on, use a small card:
 

@@ -6,12 +6,12 @@ section_id: "G.Core:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__010_consequences.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:9 — Consequences"
-line_start: 101469
-line_end: 101476
+line_start: 101576
+line_end: 101583
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -34,7 +34,7 @@ keywords:
 
 ### G.Core:9 - Consequences
 
-* **Positive:** Part‑G‑wide invariants cite `G.Core` as their governing definition; refactors become safer and easier to audit.
+* **Positive:** Part‑G patterns cite `G.Core` to find the governing definitions of shared invariants; refactors become safer and easier to audit.
 * **Positive:** RSCR becomes reason-code driven (typed triggers), improving traceability and preventing semantic drift.
 * **Positive:** Default conflicts become detectable and resolvable because each `DefaultId` names one governing definition.
 * **Negative:** Adds an extra authoring step (linkage sections and CoreRef CC item) to each `G.x`.

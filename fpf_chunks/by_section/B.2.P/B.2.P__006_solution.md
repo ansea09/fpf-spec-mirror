@@ -6,12 +6,12 @@ section_id: "B.2.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__006_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:4 — Solution"
-line_start: 38493
-line_end: 38565
+line_start: 38505
+line_end: 38577
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.24"
   - "F.18"
+  - "F.19"
   - "G.11"
 keywords:
 ---
@@ -50,7 +51,7 @@ Recover the claim kind and subject pattern before any wording replacement.
 
 #### B.2.P:4.1 - Emergence Claim-Kind Recovery
 
-Read the sentence once and recover five things before rewriting it:
+Read the complete natural span with F.19 and E.10's compact cues. If an emergence-specific FPF question remains, recover five things before choosing replacement wording:
 
 1. **Practical use.** What decision, explanation, design move, or stop depends on the sentence?
 2. **Exact object.** Is the concern an existing whole, candidate new whole, collection, characteristic, capability, functioning relation, structure, transformation, measurement result, assertion, or mathematical expression?
@@ -64,7 +65,7 @@ A temporary author note may retain the source phrase, exact object, subject patt
 
 | Recovered claim kind | Use this subject pattern | Do not overread as |
 | --- | --- | --- |
-| Whole reidentification of a holon | `B.2`, then `B.2.2`, `B.2.3`, `B.2.4`, or the direct pattern for the new whole's admitted kind | generic emergence, metric gain, or title mnemonic |
+| Whole reidentification of a holon | `B.2`, with `B.2.2`, `B.2.3`, or the direct pattern for the new whole's admitted kind; `B.2.4` connects capability/functioning facts to the B.2 question | generic emergence, metric gain, or title mnemonic |
 | Candidate new system whole | `B.2.2` | all emergence cases or all system aggregation |
 | Candidate new episteme whole | `B.2.3` plus `C.2.1` and episteme family | episteme agency, publication authority, or EFEM by title |
 | Capability or functioning facts that make whole reidentification live; evidence separately supports the claim | `B.2.4` under B.2 | generic capability, generic function, or all functioning |
@@ -101,7 +102,7 @@ If the claim is plain collection admission:
 - use `A.14` for membership and part-whole relation vocabulary;
 - use `C.13` for collection-as-whole constructional grounding;
 - use `B.3.5` for working-model assurance grounding;
-- use `A.1` with `A.15` and A.2 patterns for an acting collective admitted as `U.System`;
+- use `A.1` for an acting collective admitted as `U.System`; use `A.15` for a separate alignment question and A.2 patterns for the exact system-role-kind or assignment claim when either is current;
 - use `C.16` for a whole-level characteristic.
 
 B.2.P may point to these subject patterns; it does not own their claims. An unassembled collection remains an unassembled collection even when a list, dashboard, or project card names it as one whole. A C.13 collection construction does not by itself establish an integrated assembly, acting system, or A.1 holon.

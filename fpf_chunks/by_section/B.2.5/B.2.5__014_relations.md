@@ -6,12 +6,12 @@ section_id: "B.2.5:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__014_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:11 — Relations"
-line_start: 39528
-line_end: 39534
+line_start: 39540
+line_end: 39546
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,6 +33,8 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30.LCA"
+  - "E.10"
+  - "F.19"
   - "G.6"
 keywords:
 ---
@@ -40,7 +42,7 @@ keywords:
 ### B.2.5:11 - Relations
 
 - **Builds on:** `A.1`, `A.2.1`, `A.12`, `A.3.4`, `A.15.1`, `B.1`, `A.14`, and `C.13`.
-- **Coordinates with:** `B.2` when feedback evidence creates a whole-reidentification question.
-- **Coordinates with:** `C.30.LCA` for control-structure view, `A.3.3` for dynamics, `C.27` for temporal and rate adequacy, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` and `A.21` for constraint validity and gate decisions, `A.6.M` for module-interface relation, and `C.29` for mathematical-lens use.
-- **Uses:** `B.2.P` when feedback, supervision, emergence, or MHT wording hides the claim kind.
+- **Coordinates with:** `B.2` when exact feedback facts leave a whole-reidentification question; evidence separately supports or challenges the claims about those facts.
+- **Coordinates with:** `C.30.LCA` for control-structure view, `A.3.3` for dynamics, `C.27` for temporal and rate adequacy, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` for its internal-constraint test in a transformation-flow structure, `A.21` for gate decisions, `A.6.M` for module-interface wording, and `C.29` for mathematical-lens use.
+- **Uses:** `B.2.P` when emergence or MHT wording hides the claim kind, including feedback or supervision invoked as an emergence claim. Ordinary feedback wording follows F.19/E.10 restoration and its direct subject pattern.
 

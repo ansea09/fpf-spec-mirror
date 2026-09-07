@@ -6,12 +6,12 @@ section_id: "B.5.2:End"
 section_title: "B.5.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__019_b-5-2-end.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:End — B.5.2:End"
-line_start: 41325
-line_end: 41326
+line_start: 41372
+line_end: 41373
 dependencies:
   - "A.10"
   - "A.16"

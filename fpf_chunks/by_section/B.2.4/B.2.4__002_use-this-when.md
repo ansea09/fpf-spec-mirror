@@ -6,12 +6,12 @@ section_id: "B.2.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__002_use-this-when.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:0 — Use This When"
-line_start: 39127
-line_end: 39146
+line_start: 39139
+line_end: 39158
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,9 +47,9 @@ The first useful question is whether those facts can still be explained by the e
 
 **Not this pattern when.**
 
-- If the claim is ordinary capability, use `A.2.2` and `C.16`.
-- If the claim is function-like wording or functioning relation without whole reidentification, use `A.6.F`.
-- If the claim is transformation or transformation-flow structure, use `A.3.4`, `E.18`, and `C.30.TFS-REL`.
+- If the claim is ordinary capability, use `A.2.2`; use `C.16` for its measured-characteristic claims.
+- If function-like wording hides the exact claim, use `A.6.F` to recover its direct subject pattern; an already precise functioning claim returns directly to that pattern.
+- If the claim is transformation or transformation-flow structure, use `A.3.4` or `E.18` respectively; use `C.30.TFS-REL` for the selected structure's bounded architecture use.
 - If the claim is method, method relation, method description, work plan, or work occurrence, use `A.15`, `A.3.1`, `A.3.2`, `A.15.2`, and `A.15.1`.
 - If the claim is module allocation or bearer allocation, use `A.6.M`, `C.30`, `A.22`, and `C.30.ASV` according to whether the live claim concerns the module, architecture, selected structure, or architectural structural view.
 - If the claim is measurement, threshold, score, robustness, quality, or a whole-level characteristic, use `C.16` and `A.19` for that claim and `A.10` only when evidence use is current.

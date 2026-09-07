@@ -6,17 +6,18 @@ section_id: "G.0:4"
 section_title: "Solution — CG‑Spec as the design-time legality gate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__005_solution-cg-spec-as-the-design-time-legality-gate.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:4 — Solution — CG‑Spec as the design-time legality gate"
-line_start: 101556
-line_end: 101760
+line_start: 101663
+line_end: 101867
 dependencies:
   - "A.10"
   - "A.17"
   - "A.18"
   - "A.19"
+  - "A.19.CN"
   - "B.3"
   - "C.16"
   - "C.18"
@@ -121,7 +122,7 @@ CG‑Spec :=
 
   ReferenceMap := minimal map{term/id → UTS|CHR|SoTA-pack refs},
 
-  CNSpecRef := ⟨A.19 ref, CNSpecRef.edition⟩,          // CN‑Spec is the governance card (one governing definition)
+  CNSpecRef := ⟨CN‑Spec ref, CNSpecRef.edition⟩,          // CN‑Spec is the governance card defined in A.19.CN (one governing definition)
 
   Characteristics := [CHR.Characteristic.id…],          // pointers only; authored in G.3 CHR pack
 
@@ -136,7 +137,7 @@ CG‑Spec :=
            ⟩,
 
   // Penalty routing and plane policies are by explicit policy ids.
-  // Semantics (tri-state, penalties→R_eff-only, crossing visibility, set-return) are governed by G.Core.
+  // For semantics (tri-state, penalties→R_eff-only, crossing visibility, set-return), cite G.Core and the governing definitions it identifies.
   CL‑Routing := ⟨policy_id, map Bridge.CL → penalty_spec⟩,
   Φ := ⟨phi_policy_id, phi_table_ref?, psi_policy_id?, phi_plane_policy_id?⟩,
 
@@ -187,7 +188,7 @@ CG‑Spec :=
 
 1. **Charter the frame.** Declare `Context`, `Scope`, `entityOfConcern`, boundary examples/non-examples, and `ReferenceMap`.
 2. **Draft ComparatorSet and SCP.** Enumerate permitted comparator forms and bind each to CHR characteristics and legality constraints (scale/unit/polarity discipline). Attach guard bindings as explicit references/pins.
-3. **Bind Characteristics.** Ensure every compared quantity is a CHR characteristic id (reuse/mint via UTS discipline).
+3. **Bind Characteristics.** For every comparison, identify the CHR characteristics of the quantities being compared and cite them by id (reuse/mint via UTS discipline).
 4. **Declare MinimalEvidence.** For each characteristic: required lanes/carriers, freshness window, crossing allowances (if any), and explicit failure behavior wiring (tri-state semantics delegated to `G.Core`).
 5. **Pin the support-composition basis.** Cite `DefaultId.GammaFoldForR_eff` for the model-qualified rule. A numerical fold or loss pins its actual receiving model, compatible inputs, dependency assumptions, and justification refs; monotonicity and boundedness alone are insufficient. When no common aggregate is justified, the referenced rule retains separate support and a bounded synthesis. Publish any actually used Φ/CL policy ids; keep acceptance thresholds in G.4.
 6. **Publish and register regression tests.** Publish `CG‑Spec@UTS` with edition-pinned segments; register RSCR tests for the frame’s legality surfaces and evidence minima.
@@ -202,8 +203,8 @@ All blocks below are `GPatternExtension` modules (PatternScopeId; not new Patter
 * **PatternScopeId:** `G.0:Ext.SpecRefSurfaces`
 * **GPatternExtensionId:** `SpecRefSurfaces`
 * **GPatternExtensionKind:** `InteropSpecific`
-* **GoverningPatternId:** `A.19`
-* **Uses:** `{A.19}`
+* **GoverningPatternId:** `A.19.CN`
+* **Uses:** `{A.19.CN}`
 * **⊑/⊑⁺:** `∅`
 * **RequiredPins/EditionPins/PolicyPins (minimum):**
 

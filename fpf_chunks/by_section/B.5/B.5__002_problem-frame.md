@@ -6,12 +6,12 @@ section_id: "B.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:1 — Problem Frame"
-line_start: 40848
-line_end: 40851
+line_start: 40890
+line_end: 40893
 dependencies:
   - "A.10"
   - "B.4"
@@ -25,5 +25,5 @@ keywords:
 
 ### B.5:1 - **Problem Frame**
 
-While preceding patterns define the anatomy of trust (`Assurance Levels` in B.3) and the structure of holons (A.1, A.14), they do not specify the cognitive "engine" that drives the creation and evolution of knowledge within FPF. A framework for thinking must provide more than just a filing system for conclusions; it must offer a repeatable, rigorous method for arriving at them, especially when confronting novel, complex, or ill-defined problems.
+While preceding patterns define claim-and-use-qualified assurance (B.3) and the structure of holons (A.1, A.14), they do not specify the reasoning that connects a new hypothesis, its consequences and empirical evaluation. A framework for thinking must provide more than just a filing system for conclusions; it must offer a repeatable, rigorous method for arriving at them, especially when confronting novel, complex, or ill-defined problems.
 

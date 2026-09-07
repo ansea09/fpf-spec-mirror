@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__011_rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:10 — Rationale"
-line_start: 72171
-line_end: 72176
+line_start: 72278
+line_end: 72283
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,5 +61,5 @@ keywords:
 
 FPF needed `E.2.DA` because a local edit can improve one pattern while harming the whole language. DPF packages need the analogous but narrower instrument: a package can have good patterns while failing as a domain framework. Domain source grounding, relation architecture, first-entry adoption, package publication, and refresh are package-level effects.
 
-The coordinate set mirrors the spirit of the FPF Pillars but changes the adequacy question. FPF asks whether the whole framework remains broadly first-principle and cross-domain. A DPF asks whether one bounded domain or local framework is strong enough for its declared use while preserving dependency on FPF Core and a route back to its domain sources. `D12` makes that field-scale question explicit; the two-way architecture probe prevents a source diagram or chapter order from supplying the answer by appearance.
+The coordinate set mirrors the spirit of the FPF Pillars but changes the adequacy question. FPF asks whether the whole framework remains broadly first-principle and cross-domain. A DPF asks whether one bounded domain or local framework is strong enough for its declared use while preserving dependency on FPF Core and a route back to its domain sources. `D12` makes that field-scale question explicit; the sequence-versus-simultaneity architecture probe prevents a source diagram or chapter order from supplying the answer by appearance.
 

@@ -6,12 +6,12 @@ section_id: "D.1:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__014_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:10 — Relations"
-line_start: 68941
-line_end: 68950
+line_start: 69033
+line_end: 69043
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -19,6 +19,7 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.28"
   - "C.30.ILC"
   - "D.1"
@@ -36,6 +37,7 @@ keywords:
 - Coordinates with `A.1.CSD` when a current ethical claim still lacks an adequate set of Systems that may bear consequences; D.1 consumes the returned account and does not add value fields to its neutral core.
 
 - Coordinates with `A.10` for evidence, source currentness, and source-use relations.
+- Coordinates with `C.11.DUA` when a proposed ethical record or evidence demand needs appraisal of its contribution, feasibility, burden, or requirement merits.
 - Coordinates with `B.3` when an assurance claim is current.
 - Coordinates with `D.2`, `D.3`, `D.4`, and `D.5` for multilevel entry, conflict structure, mediation, bias audit, causal-fairness audit consumption, and ethical assurance.
 - Coordinates with `C.28` for causal fairness use and with `C.30.ILC` when an architecture residual is current.

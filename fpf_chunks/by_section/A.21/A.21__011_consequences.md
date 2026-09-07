@@ -6,12 +6,12 @@ section_id: "A.21:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__011_consequences.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:9 — Consequences"
-line_start: 35433
-line_end: 35438
+line_start: 35445
+line_end: 35450
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -34,7 +34,7 @@ keywords:
 
 ### A.21:9 - Consequences
 
-The gate result is smaller and more truthful. It preserves repair information, prevents unknown or unrun required checks from disappearing, and makes profile change auditable without turning a path boundary into authority. Ordinary gates stop after one result and short rationale; publication, replay, crossing, safety, regulation, and assurance add cost only when their claims are current.
+The gate result preserves repair information, prevents unknown or unrun required checks from disappearing, and makes profile change auditable without turning a path boundary into authority. Ordinary gates stop after one result and short rationale; publication, replay, crossing, safety, regulation, and assurance add cost only when their claims are current.
 
 The cost is explicit identity. A practitioner must name the decision subject, profile application, and each required check application instead of relying on labels such as “green”, “Core”, or “regulated”.
 

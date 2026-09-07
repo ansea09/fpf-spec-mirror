@@ -6,14 +6,17 @@ section_id: "B.5.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__003_problem.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.1 — Explore → Shape → Evidence → Operate"
   - "B.5.1:2 — Problem"
-line_start: 40952
-line_end: 40955
+line_start: 40996
+line_end: 40999
 dependencies:
+  - "B.3.3"
+  - "B.4"
   - "B.5"
+  - "B.5.2"
 keywords:
   - "Evidence"
   - "Explore"
@@ -26,5 +29,5 @@ keywords:
 
 ### B.5.1:2 - **Problem**
 
-How do we provide a simple, universal state machine that guides a `U.Episteme` or `U.System` from a raw concept to a reliable, operational holon? This pattern defines the four canonical states of this journey, providing a clear roadmap for teams and a stable framework for project management.
+How can a project coordinate concept development and operational readiness without confusing completion of its present task, the subject's development state and the support for a particular claim?
 

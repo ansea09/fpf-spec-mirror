@@ -6,12 +6,12 @@ section_id: "B.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__006_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:4 — Solution"
-line_start: 38742
-line_end: 38815
+line_start: 38754
+line_end: 38827
 dependencies:
   - "A.1"
   - "A.10"
@@ -63,11 +63,11 @@ If a required A.1 component or the acting-eligibility criterion fails, do not id
 When the candidate is recognized as `U.System`, state every changed result-system fact or claim under its subject pattern:
 
 - system-role assignments through `A.2.1`, relations among system-role kinds through `A.2.7`, and other relations through the patterns that define them;
-- capabilities through `A.2.2` and `C.16`;
-- methods and mechanisms through `A.15`, `A.6.1`, and any other applicable method or mechanism pattern;
+- capabilities through `A.2.2` and their measured-characteristic claims through `C.16`;
+- methods through `A.3.1`, their descriptions through `A.3.2`, and mechanisms through `A.6.1`; use `A.15` when their alignment with roles and work is the question;
 - transformations through `A.3.4`;
 - work occurrences through `A.15.1`;
-- functioning and functional structure through `A.6.F` and `C.30.TFS-REL`;
+- functioning and functional-structure wording through `A.6.F` to its direct subject pattern; selected transformation-flow structures through `E.18` and their bounded architecture use through `C.30.TFS-REL`;
 - architecture through `C.30`, `A.22`, and `C.30.ASV`;
 - evidence and assurance through `A.10`, `B.3`, and `B.3.5`;
 - temporal and dynamics claims through `C.27`, `A.19`, and the direct temporal patterns.
@@ -81,8 +81,8 @@ When a receiving use has materialized B.2's optional `MHTTriggerProfile`, read i
 | Cue recorded in `MHTTriggerProfile` | System-case reading | Subject pattern kept visible |
 | --- | --- | --- |
 | Delimitation change | The operating whole now has an external delimitation and crossing relations that differ from the old aggregate. | `A.1`, `B.1.2`, `A.14`, `C.13` |
-| Objective or evaluation change | The whole is now evaluated by a system-level objective, mission, SLO, safety case, or viability claim. | `C.16`, `E.13`, `A.10`, decision or assurance patterns |
-| Supervision or coordination change | A controller, protocol, governance relation, or distributed coordination relation regulates constituent behavior for the result whole. | `B.2.5`, `A.12`, `A.3.4`, `A.15.1` |
+| Objective or evaluation change | Recover the system-level objective, mission, or SLO used as an evaluation criterion; distinguish any safety case or viability claim from that criterion. | `C.16`, `E.13`, `A.10`, decision or assurance patterns |
+| Supervision or coordination change | Recover how constituent behavior is regulated for the result whole, including controller or distributed-coordination facts; name any protocol or governance claim separately. | `B.2.5` only for supervisor-subholon feedback; `A.12`, `A.3.4`, `A.15.1` for their separately current claims |
 | Capability or closure claim | Recover the exact capability envelope and closure relations of the proposed new whole after recognition under `U.System`; keep supporting evidence separate. | `A.2.2`, `C.16`, `A.10` for evidence use, and `B.2.4` when whole reidentification is current |
 | Agency threshold | The result whole crosses a concern-specific agency threshold in characteristic space. | `A.13`, `A.19`, `C.16` |
 | Temporal consolidation | A commissioning, phase, release, or operating-time consolidation changes the current system identity claim. | `C.27`, `A.15.1`, temporal patterns |

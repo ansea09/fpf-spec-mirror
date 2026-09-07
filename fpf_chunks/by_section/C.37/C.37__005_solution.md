@@ -6,12 +6,12 @@ section_id: "C.37:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__005_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:4 — Solution"
-line_start: 68217
-line_end: 68342
+line_start: 68291
+line_end: 68420
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -114,13 +114,17 @@ This is a logical claim group, not a universal record kind, `U.Representation`, 
 
 #### C.37:4.5 - Realize the result once
 
-Use one deterministic realization rule:
+First determine whether a later receiving use needs the selection basis retained. An immediate sufficient selection can finish with its material loss and direct receiving result, without a new record or a certificate explaining non-retention.
 
-1. If an owning domain result already carries this same receiving use, embed the complete row claims and action boundary in that result.
-2. Otherwise retain the complete account as one ordinary C.2.1 episteme.
-3. Never create both an embedded copy and a standalone duplicate for the same use.
+When retention is needed:
 
-Embedding does not weaken the required separation: direct subject result, optional A.2.4 classification, A.10 reliance when material, receiving result, exposure and loss, disposition, and return trigger all remain recoverable. A cross-use ensemble may later relate several accounts under its own direct pattern; C.37 does not perform that later organization.
+1. If an owning domain result already carries the same receiving use, embed the complete needed claim group and action boundary there.
+2. Otherwise retain that basis as one ordinary C.2.1 episteme.
+3. Create no embedded and standalone duplicate for the same use.
+
+A later reader who must reconstruct the selection receives its logically complete basis; a bare verdict or locator is insufficient for that use.
+
+Retention does not weaken the required separation: direct subject result, optional A.2.4 classification, A.10 reliance when material, receiving result, exposure and loss, disposition and return remain recoverable as needed by that use. An immediate answer preserves the same substantive limits without instantiating every form field. A cross-use ensemble may later relate accounts under its own direct pattern; C.37 does not perform that organization.
 
 #### C.37:4.6 - Keep co-use local to one action
 

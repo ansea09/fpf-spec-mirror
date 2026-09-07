@@ -6,12 +6,12 @@ section_id: "B.2.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__002_use-this-when.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:0 — Use This When"
-line_start: 38694
-line_end: 38713
+line_start: 38706
+line_end: 38725
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,9 +46,9 @@ Use this pattern when B.2 has identified one exact candidate new whole and that 
 
 The first useful question is not "is there emergence?" First test the exact candidate against A.1's six common components. Then test whether its physical or operational organization makes it eligible to act in work or transformation while preserving its identity—the direct `U.System` criterion. After those two tests, recover only the additional facts used by the concrete case, such as delimitation, an objective or commitment, coordination, capability, system-role kind or assignment, method, work, transformation, functioning, architecture, evidence, assurance, or time. State each fact or claim through the pattern that defines its object or relation. Do not make an objective or commitment a condition for `U.System` recognition; require it only for the separate objective or commitment claim being made.
 
-Use `B.2` first to decide whether whole reidentification is needed and to identify the one candidate new whole. Use `B.2.2` only when that candidate's already admitted kind is `U.System`.
+Use `B.2` first to decide whether whole reidentification is needed and to identify the one candidate new whole. Use `B.2.2` only when that candidate is to be tested under the already admitted `U.System` kind.
 
-**What goes wrong if missed.** A real operating whole is still managed through old component claims, or a mere collection is declared a new system without system participation evidence.
+**What goes wrong if missed.** A real operating whole is still managed through old component claims, or a mere collection is declared a new system without establishing its A.1 basis and acting eligibility.
 
 **What this buys.** The system MHT keeps the useful meta-system-transition intuition while preserving FPF's subject patterns for system participation, architecture, capability, transformation, work, evidence, and assurance.
 

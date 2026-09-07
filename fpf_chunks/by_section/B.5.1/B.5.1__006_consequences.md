@@ -6,14 +6,17 @@ section_id: "B.5.1:5"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__006_consequences.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.1 — Explore → Shape → Evidence → Operate"
   - "B.5.1:5 — Consequences"
-line_start: 40986
-line_end: 40993
+line_start: 41027
+line_end: 41034
 dependencies:
+  - "B.3.3"
+  - "B.4"
   - "B.5"
+  - "B.5.2"
 keywords:
   - "Evidence"
   - "Explore"
@@ -28,7 +31,7 @@ keywords:
 
 | Benefits | Trade-offs / Mitigations |
 | :--- | :--- |
-| **Clear Project Visibility:** The state machine provides a simple, shared language for tracking the maturity of every state-bearing episteme or system in a project. | **Risk of Bureaucracy:** If applied too rigidly, the state machine could feel like a waterfall process. *Mitigation:* The cycle is meant to be rapid and iterative. A single episteme or system might cycle through all four states within a single sprint. The goal is clarity, not ceremony. |
-| **Improved Focus:** Each state has a clear primary activity, which helps teams focus their efforts and avoid common pitfalls like premature optimization or untested designs. | - |
-| **Reduces "It's Done" Ambiguity:** The states provide a precise definition of "done" for each phase. An episteme or system is not "done" with Shaping until its structure is coherent and its consequences are deduced. | - |
+| **Clear Project Visibility:** The states give a shared language for the development focus and intended transition. | **Risk of Bureaucracy:** Treating states as a universal evidence recipe can create unnecessary work. Use the actual transition conditions and reuse covering results. |
+| **Improved Focus:** Exploration, design, evaluation and live operation have distinguishable immediate questions. | A result can serve another use without changing the development subject's state; keep those two judgements separate. |
+| **Reduces "It's Done" Ambiguity:** The team can say whether it completed the present answer, the design or the conditions for operation. | A state label cannot replace the applicable readiness criteria. |
 

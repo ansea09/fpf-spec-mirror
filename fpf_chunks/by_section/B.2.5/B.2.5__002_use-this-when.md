@@ -6,12 +6,12 @@ section_id: "B.2.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__002_use-this-when.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:0 — Use This When"
-line_start: 39325
-line_end: 39353
+line_start: 39337
+line_end: 39365
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,6 +33,8 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30.LCA"
+  - "E.10"
+  - "F.19"
   - "G.6"
 keywords:
 ---
@@ -62,7 +64,7 @@ or causal claim is being made in addition to the relation?
 - If the question is architecture or selected structure, use `C.30`, `A.22`, and `C.30.ASV`.
 - If the question is reusable dynamics, timing, rate, or temporal validity, use `A.3.3` and `C.27`.
 - If the question is causal use, use `C.28`.
-- If the question is evidence, assurance, gate, or constraint validity, use `A.10`, `G.6`, `B.3`, `A.20`, or `A.21`.
-- If the question is module allocation or interface commitment, use `A.6.M`.
+- If the question is evidence, provenance, assurance, or a gate decision, use `A.10`, `G.6`, `B.3`, or `A.21` respectively. Use `A.20` for its internal-constraint test in a transformation-flow structure; other constraint claims need their direct pattern.
+- If module or interface wording hides the exact claim, use `A.6.M` to recover it; use the direct pattern for an already precise allocation or commitment claim.
 - If the question is whole reidentification, use `B.2`.
 

@@ -6,12 +6,12 @@ section_id: "G.11:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__012_rationale-informative.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:10 — Rationale (informative)"
-line_start: 107111
-line_end: 107118
+line_start: 107234
+line_end: 107241
 dependencies:
   - "A.6.RCD"
   - "B.3.4"
@@ -35,21 +35,20 @@ keywords:
   - "Bridge Sentinels"
   - "PathSlice"
   - "RSCR"
-  - "decay"
   - "deprecation"
-  - "edition bumps"
   - "edition-aware"
   - "epistemic debt"
   - "re-shipping"
   - "refresh"
   - "telemetry"
+  - "use-qualified currentness"
 ---
 
 ### G.11:10 - Rationale (informative)
 
 `G.11` is intentionally a **thin orchestration governing definition**:
 
-* The refresh loop is powerful enough to coordinate reruns and republishing, but **too thin to become a second spec**. That is why trigger semantics, invariants, and defaults are delegated to `G.Core`.
+* The refresh loop coordinates reruns and republishing; trigger semantics, invariants, and defaults are delegated to `G.Core`.
 * The kit is split across the **P2W planning-to-work boundary** so that the exact `U.WorkPlan` and its declaration-local planned-filling rows remain planning content while dated Work remains independently established.
 * Alias stability is maintained by allowing trigger aliases (`T0…T7`) while prohibiting them from becoming semantic authorities.
 

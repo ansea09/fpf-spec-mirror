@@ -6,12 +6,12 @@ section_id: "A.21:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__014_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:12 — Relations"
-line_start: 35454
-line_end: 35464
+line_start: 35466
+line_end: 35476
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -37,9 +37,9 @@ keywords:
 - `A.20` supplies exact internal-constraint results or a complete required-set summary without gate policy.
 - `E.18` supplies selected-structure positions, paths, slices, and structural crossing facts; it does not make every work-entry question a gate or crossing.
 - `A.15.5` defines full-kit and work-entry readiness and remains the ordinary route when no gate decision is current.
-- `A.10`, `B.3`, safety patterns, regulatory patterns, A.2, C.3.2, A.2.1, F.6, and A.2.6 define or test the source claims used by applicable checks.
+- Source claims remain under the applicable subject patterns named in §4.9; safety and regulatory criteria remain with their domain patterns.
 - `F.9` and `F.17` apply only to a separately established semantic correspondence and bounded use.
-- `E.17` defines publication forms and carrier relations when the result is published.
-- `G.6` and `G.11` apply when provenance visibility, refresh, replay, or reuse is claimed.
+- `E.17` governs a source-backed reader face and return to source; `E.24.PUB` governs publication occurrence, form, carrier, audience, bounded use, and availability when the result is published.
+- `G.6` applies when a citable evidence-provenance path is needed; `G.11` governs source currentness and refresh when changed inputs may make the result stale. Reuse inputs and equivalence remain under §4.10.
 - `F.19` keeps the ordinary decision path visible before algebra, publication, and assurance extensions.
 

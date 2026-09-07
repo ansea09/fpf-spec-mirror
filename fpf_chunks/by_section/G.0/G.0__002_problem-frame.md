@@ -6,17 +6,18 @@ section_id: "G.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:1 — Problem frame"
-line_start: 101526
-line_end: 101538
+line_start: 101633
+line_end: 101645
 dependencies:
   - "A.10"
   - "A.17"
   - "A.18"
   - "A.19"
+  - "A.19.CN"
   - "B.3"
   - "C.16"
   - "C.18"
@@ -52,7 +53,7 @@ keywords:
 
 ### G.0:1 - Problem frame
 
-A team defines or evolves a `CG‑Frame` (e.g., a frame for creativity measurement, decision quality, architecture trade‑offs, or selected-set publication). Downstream mechanisms (G.1–G.5 and beyond) must compare, aggregate, and publish CHR‑typed observations in ways that are:
+A team defines or evolves a `CG‑Frame` (e.g., a frame for creativity measurement, decision quality, architecture trade‑offs, or selected-set publication). Downstream comparison, aggregation, and publication of CHR‑typed observations (G.1–G.5 and beyond) must be:
 
 * lawful with respect to measurement admissibility (scale/unit/polarity constraints),
 * auditable with explicit evidence minima and provenance,

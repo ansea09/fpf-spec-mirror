@@ -6,12 +6,12 @@ section_id: "G.9:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__006_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:2 — Problem frame"
-line_start: 105823
-line_end: 105835
+line_start: 105940
+line_end: 105952
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -57,5 +57,5 @@ Parity claims become non‑reproducible or non‑comparable when any of the foll
 * dominance and `PortfolioMode` interpretation rules,
 * gate outcomes (why a run abstained or degraded).
 
-G.9’s role is to make these recoverable as **pinned and publishable** as a *method of obtaining outputs* (MOO) without introducing new governing spec refs.
+G.9 makes these comparison inputs and outcomes recoverable through published pins as part of its *method-of-obtaining-outputs* (MOO) disclosure, without introducing new governing spec refs.
 

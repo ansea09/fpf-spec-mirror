@@ -6,12 +6,12 @@ section_id: "A.3.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__003_problem.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:2 — Problem"
-line_start: 8708
-line_end: 8718
+line_start: 8719
+line_end: 8729
 dependencies:
   - "A.1.1"
   - "A.10"

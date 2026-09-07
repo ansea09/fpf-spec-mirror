@@ -6,12 +6,12 @@ section_id: "B.2.3:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__007_archetypal-grounding-worked-cases.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:5 — Archetypal Grounding (Worked Cases)"
-line_start: 39023
-line_end: 39049
+line_start: 39035
+line_end: 39061
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,7 +47,7 @@ After MHT, the exact candidate may be a reliability doctrine when it passes A.1 
 - **C.2.1 constitution:** the doctrine's exact ClaimGraph states its principles and definitions; its EntityOfConcern is user-visible service harm and reliability; its effective ReferenceScheme supplies the reliability designations and interpretation rules.
 - **Neighboring relations:** empirical grounding to operating services, handbook publication, source use for standards and training materials, and evidence or assurance are added only for the receiving use and do not identify the doctrine.
 
-The doctrine does not enforce anything by itself. Systems use it, cite it, train with it, and work according to it; any relevant local system-role kind and assignment remain separate claims.
+Systems use and cite the doctrine, use it in training, and let its claims guide their work; any relevant local system-role kind and assignment remain separate claims.
 
 #### B.2.3:5.2 - Model Family Becomes Theory
 
@@ -57,7 +57,7 @@ If the change is only a new model publication or benchmark score, use publicatio
 
 #### B.2.3:5.3 - Standard Body
 
-A set of clauses, examples, and annexes can become a standard episteme when the result is one claim-bearing whole with terms, references, scope, conformance claims, and publication forms.
+A set of clauses, examples, and annexes can become a standard episteme only when the candidate passes A.1 and its exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme satisfy C.2.1 constitution. Recover its terms, references, scope, and conformance claims under that constitution; identify publication forms separately.
 
-The standard is not the committee, the PDF, or the Work of enforcement. The committee may be an acting System. If committee or enforcement Work is claimed, recover each exact performer through A.13 and admit the Work independently under A.15.1. Add F.6 only if the account expressly consumes precise assignment-bound attribution; a missing or failed relation leaves the Work intact. The PDF is a publication form.
+The standard is not the committee, the PDF, or the Work of enforcement. The committee may be an acting System. If committee or enforcement Work is claimed, recover each exact performer through A.13 and admit the Work independently under A.15.1. Add F.6 only if the account expressly consumes precise assignment-bound attribution; a missing or failed relation leaves the Work intact. The PDF file is a presentation carrier; its layout may supply a publication form.
 

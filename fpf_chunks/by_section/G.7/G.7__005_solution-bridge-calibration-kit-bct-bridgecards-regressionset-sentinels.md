@@ -6,12 +6,12 @@ section_id: "G.7:4"
 section_title: "Solution — Bridge calibration kit (BCT + BridgeCards + RegressionSet/Sentinels)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__005_solution-bridge-calibration-kit-bct-bridgecards-regressionset-sentinels.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:4 — Solution — Bridge calibration kit (BCT + BridgeCards + RegressionSet/Sentinels)"
-line_start: 104972
-line_end: 105243
+line_start: 105093
+line_end: 105364
 dependencies:
   - "A.21"
   - "B.3"
@@ -19,8 +19,10 @@ dependencies:
   - "C.19"
   - "C.21"
   - "C.23"
+  - "C.3.3"
   - "E.10"
   - "E.18"
+  - "F.17"
   - "F.3"
   - "F.7"
   - "F.9"
@@ -91,9 +93,9 @@ keywords:
 
 *(payload pins, minimum: affected members of the effective `CorePinsRequired` (after expansion) plus any pins introduced by active extensions (e.g., QD parity pins), scoped to the watched `PathSliceId[]`/`PathId[]`/`PatternScopeId[]`.)*
 
-#### G.7:4.2 - Kit objects (surface governed by this patterns)
+#### G.7:4.2 - Kit objects (surface governed by this pattern)
 
-This pattern defines the *bridge calibration kit* as a set of minimal, checkable surfaces. Semantics of `BridgeCard` and CL typing are governed by **F.9**; G.7 adds calibration records and publication/wiring surfaces.
+This pattern defines the *bridge calibration kit* as a set of minimal, checkable surfaces. **F.9** governs `BridgeCard` and CL meaning; **C.3.3** governs `KindBridge` and `CL^k` when the kind channel is used. G.7 adds calibration records and publication/wiring surfaces.
 
 **(A) BridgeCalibrationTable (BCT) — object.**
 A `BridgeCalibrationTable` is a per‑Tradition‑pair registry of calibrated bridge entries.
@@ -148,8 +150,8 @@ This subsection is kit-governed (G.7) and complements (but does not duplicate) `
   * `RowCL_min = 1` ⇒ **NOT** admissible unless an explicit `WaiverRef[]` is cited; any reuse under waiver is **guarded-only** (no substitution semantics).
   * `RowCL_min = 0` ⇒ forbidden for reuse; it MAY remain in BCT as a documented non‑bridge with loss notes/counterexamples.
 * **Honesty rule (row‑level):**
-* if `RowCL_min ≤ 2`, at least one `CounterExampleRef[]` MUST be cited;
-* if `RowCL_min = 3` and `CounterExampleRef[]` is empty, a citable `CounterExampleAbsenceRef` MUST be provided (explicit “searched‑none found / no known counterexample” disclosure);
+  * if `RowCL_min ≤ 2`, at least one `CounterExampleRef[]` MUST be cited;
+  * if `RowCL_min = 3` and `CounterExampleRef[]` is empty, a citable `CounterExampleAbsenceRef` MUST be provided (explicit “searched‑none found / no known counterexample” disclosure);
   * if any `LossNoteRef[]` is present, the row MUST NOT be presented as “free substitution” in any consumer surface.
 
 **Kind channel (`CL^k`) (conditional).**
@@ -181,12 +183,12 @@ payloadPins: { BCT.id, RegressionSetId, FreshnessWindowRef, PolicyPins, PlanePin
 For each Tradition‑pair and each comparable construct row from **G.2**:
 
 1. **Materialise bridge artefacts.** Produce (or reuse) **F.9** `BridgeCard`s for the concrete `SenseCell`‑level alignments required by the row scope.
-   *Note.* “SenseCell anchoring” is a kit requirement: if a row is authored at a coarser token level, the SenseCell anchors must be explicitly cited (F.3 discipline).
+   *Note.* “SenseCell anchoring” is a kit requirement: if a row is authored at a coarser token level, the SenseCell anchors must be explicitly cited (F.17 identity discipline).
 2. **Record row scope and losses.** Author a `RowScopeId` and record loss notes as first‑class citations (e.g., `LossNoteRef[]`), not as informal footnotes.
    Also record `RowCL_min` (and `RowCL_k_min?`, `RowCL_plane_min?` when applicable) and cite `WaiverRef[]` if any row is intentionally kept at `=1` for guarded-only reuse.
 3. **Plane pins (no hidden plane mixing).** Record source `ReferencePlane` pins and target `ReferencePlane` pins and the relevant policy id pins for plane routing (ids only; do not duplicate policy tables).
 4. **Policy pins for penalty routing.** Record the policy id pins needed to audit penalty routing (ids only). Penalty semantics cite `CC‑GCORE‑PEN‑1` through `G.Core`; G.7’s responsibility is to make the pins explicit and published.
-5. **Row bottleneck discipline.** When a row aggregates multiple bridge cells, row summarisation uses bottleneck semantics (F.7) and carries a counterexample citation whenever any cell is loss‑noted.
+5. **Row bottleneck discipline.** When a row aggregates multiple bridge cells, row summarisation uses this kit's bottleneck semantics and carries a counterexample citation whenever any cell is loss‑noted.
 6. **Regression and sentinel wiring.** Create/update the `RegressionSet` and `SentinelSet`. Any calibration change that can affect downstream audit (CL/CL^k/plane pins, relevant policy ids, edition pins for involved telemetry surfaces, freshness window) emits typed RSCR triggers (canonical ids; scope + payload pins).
    If the regression harness is run, record a citable `RegressionRunRef` (or equivalent run/delta reference) and attach it to the relevant ledger entries (pin‑first; no narrative-only deltas).
 

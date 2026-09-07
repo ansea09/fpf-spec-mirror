@@ -6,12 +6,12 @@ section_id: "F.6:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__014_rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:12 — Rationale"
-line_start: 95190
-line_end: 95197
+line_start: 95297
+line_end: 95304
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.15.1:7"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__009_scope-declaration-and-rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:7 — Scope Declaration and Rationale"
-line_start: 25387
-line_end: 25392
+line_start: 25401
+line_end: 25406
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "B.5:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__008_rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:7 — Rationale"
-line_start: 40931
-line_end: 40936
+line_start: 40973
+line_end: 40978
 dependencies:
   - "A.10"
   - "B.4"
@@ -27,5 +27,5 @@ keywords:
 
 FPF is designed to be an "operating system for thought," and this reasoning cycle is its central processing unit. By elevating abduction to a first-class citizen, FPF acknowledges a fundamental truth about complex problem-solving: progress does not come from simply rearranging known facts (deduction) or finding patterns in data (induction). It comes from the creative act of proposing a new way of seeing the world—a new hypothesis. Deduction and induction are the indispensable tools we use to discipline and validate this creativity.
 
-This pattern provides the engine that drives a hypothesis episteme through the `AssuranceLevels` progression. An abductive leap creates an `L0` hypothesis episteme. Deduction begins the process of providing **Verification Assurance**, building its `FV` score. Induction provides the **Validation Assurance**, building its `EV` and `R` scores. Without this cycle, the assurance framework would be a static scoring system; with it, it becomes a dynamic model of knowledge growth.
+The cycle connects conjecture, logical consequence and empirical evaluation without collapsing their different contributions. A recipient can use a qualified conjecture, an established consequence or an empirical result for the question it answers. B.3.3 determines what that contribution warrants for a particular claim and use; further inquiry addresses a remaining question rather than completing an assurance ladder.
 

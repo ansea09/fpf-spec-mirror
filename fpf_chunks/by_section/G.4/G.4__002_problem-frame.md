@@ -6,12 +6,12 @@ section_id: "G.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:1 — Problem frame"
-line_start: 103260
-line_end: 103275
+line_start: 103379
+line_end: 103394
 dependencies:
   - "A.10"
   - "A.13"
@@ -58,13 +58,13 @@ keywords:
 
 ### G.4:1 - Problem frame
 
-A CG‑Frame has:
+CAL authoring starts from:
 
 * one exact `CG‑Frame` with its `EntityOfConcern`, `ReferencePlane`, task, and assumption envelope,
 * a plurality of method traditions and claims (SoTA inputs), and
 * CHR‑typed measurement constructs (`Characteristic/Scale/Coordinate` + legality guard macros).
 
-Before any run‑time selection, comparison, aggregation, or selected-set formation is executed downstream, the CG‑Frame needs an explicit, auditable **CAL Pack** that:
+Before any run‑time selection, comparison, aggregation, or selected-set formation is executed downstream, authors need an explicit, auditable **CAL Pack** that:
 
 1. defines *what operators exist* and what they are allowed to do over CHR types,
 2. externalizes *fit-for-purpose acceptance* as typed predicates whose use is bounded by an exact `ClaimScope`, evaluation window, and any separate qualification window that limits use, and

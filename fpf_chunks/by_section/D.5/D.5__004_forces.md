@@ -6,15 +6,16 @@ section_id: "D.5:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__004_forces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:1.1 — Forces"
-line_start: 69528
-line_end: 69537
+line_start: 69626
+line_end: 69635
 dependencies:
   - "A.10"
   - "B.3"
+  - "C.11.DUA"
   - "C.16"
   - "C.28"
   - "D.1"
@@ -32,7 +33,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Ordinary verification vs. subgroup harm | Evidence or accuracy can look strong while representation, proxy, metric, visibility, language, or impact bias remains current. |
-| Lightweight scan vs. consequential use | Local reversible use may need a small register, while release-bearing or repeated use needs a fuller audit report. |
+| Bounded answer vs. stronger reliance | A current concern may need only a qualified answer; a release or assurance claim can need a fuller account of the basis, mitigations, and residuals it relies on. |
 | Fairness wording vs. causal claim | Metric disparity, associative fairness, interventional fairness, and counterfactual fairness are different claims. |
 | Assurance relation vs. ethical permission | Assurance can record examined evidence and residuals, but cannot turn unresolved bias or harm into moral authorization. |
 | Audit frame vs. neighboring owners | D.5 must keep bias and ethical assurance visible without replacing evidence, causality, measurement, architecture, or D.1 through D.4. |

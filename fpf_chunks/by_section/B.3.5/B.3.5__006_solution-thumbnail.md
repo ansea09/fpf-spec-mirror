@@ -6,12 +6,12 @@ section_id: "B.3.5:4"
 section_title: "Solution (thumbnail)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__006_solution-thumbnail.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:4 — Solution (thumbnail)"
-line_start: 40108
-line_end: 40159
+line_start: 40150
+line_end: 40201
 dependencies:
   - "B.3"
   - "C.13"
@@ -44,7 +44,7 @@ The direct branch above selects which modes and grounding targets are allowed. T
 > **F–G–R alignment.**
 > **F** (the published relation claim): `:PumpA ut:ComponentOf :Skid12`.
 > **G** (its inspectable grounding account): the assertion links to `:trace_Γm_sum_456`, a C.2.1 episteme about the exact direct construction facts.
-> **R** (the author's declared assurance posture): `tv:validationMode=axiomatic` → one input to B.3.3's **AssuranceLevel** assessment; it does not alter F.
+> **Assurance posture:** `tv:validationMode=axiomatic` is the author's declaration. B.3.3 assesses the actual grounding for the receiving claim and use; a level is published only through an applicable justified profile. The declaration does not alter formality or establish empirical adequacy.
 
 #### B.3.5:4.1 - Structural CT2R Typing-Grounding Unfolding Structure Block
 

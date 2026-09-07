@@ -6,12 +6,12 @@ section_id: "D.1:9"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__013_sota-echoing.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:9 — SoTA-Echoing"
-line_start: 68932
-line_end: 68940
+line_start: 69024
+line_end: 69032
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -19,6 +19,7 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.28"
   - "C.30.ILC"
   - "D.1"
@@ -34,8 +35,8 @@ keywords:
 
 | Source line | Practical implication for this pattern |
 | --- | --- |
-| Value pluralism and applied ethics practice | FPF should not pretend that one ethical doctrine resolves every project claim; it should name the current value frame, affected EntityOfConcern, excluded concerns, evidence, and admissible use before an ethical claim guides work. |
+| Value pluralism and applied ethics practice | FPF should not pretend that one ethical doctrine resolves every project claim; it should expose the current value concern, affected EntityOfConcern, and excluded concerns, and qualify the basis of the judgement being used. |
 | Engineering ethics and assurance practice | A method, work plan, architecture move, recommendation, system, or holon can be technically adequate while shifting harm, benefit, responsibility, or coercion elsewhere; technical verification does not settle the ethical claim. |
-| Human-impact, AI governance, and dual-use practice | Fairness, responsibility, alignment, safety, and misuse words need affected parties, context, consequence horizon, evidence, and admissible use before they guide action. |
+| Human-impact, AI governance, and dual-use practice | Fairness, responsibility, alignment, safety, and misuse claims need affected parties, context, and warranted use; relied-on evidence and the consequence horizon qualify that use. |
 | FPF subject-pattern discipline | Ethical entry does not absorb evidence, causality, assurance, architecture, or bias-audit owners. |
 

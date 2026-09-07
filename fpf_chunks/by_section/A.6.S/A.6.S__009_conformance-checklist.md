@@ -6,12 +6,12 @@ section_id: "A.6.S:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__009_conformance-checklist.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:7 — Conformance Checklist"
-line_start: 21066
-line_end: 21080
+line_start: 21077
+line_end: 21091
 dependencies:
   - "A.15"
   - "A.15.1"

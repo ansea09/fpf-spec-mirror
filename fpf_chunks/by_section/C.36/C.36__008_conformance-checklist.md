@@ -6,12 +6,12 @@ section_id: "C.36:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__008_conformance-checklist.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:7 — Conformance Checklist"
-line_start: 68095
-line_end: 68110
+line_start: 68169
+line_end: 68184
 dependencies:
   - "A.1"
   - "A.10"
@@ -29,6 +29,7 @@ dependencies:
   - "A.6.RCD"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -72,5 +73,5 @@ keywords:
 | **CC-C36-8 — Separate effect test** | The intervention's expected effect, observed value, measurement relation, and effect claim are recoverable separately; observing a value alone does not prove the effect. |
 | **CC-C36-9 — Neighbor boundary** | Archive/front, pool, selected-set, local-choice, publication, architecture, currentness, transformation, Work, and mathematical-model claims use their direct patterns when current. |
 | **CC-C36-10 — Source and refresh** | Every adopted SoTA move retains its stated limit and currentness trigger; a source label or newer date alone does not establish a cultural relation. |
-| **CC-C36-11 — Possible development** | When the question is how the practice may develop, the answer keeps more than one serious hypothesis and names an observation that would distinguish them. It uses `B.5` and `B.5.2` for hypotheses and consequences, `A.3.3` only for a state-space-and-transition-law claim, and `C.28` only when the current use relies on a causal claim. It uses `A.15.7` for a next action during ongoing Work and `C.11` only for an already formed bounded choice; otherwise experiment or probe design stays with the applicable DPF or field Method. |
+| **CC-C36-11 — Possible development** | When the question is how the practice may develop, the answer retains credible action-changing hypotheses and relevant uncertainty; it may finish as a bounded forecast or continuation on sufficient available grounds. A selected observation or intervention has a feasible, worthwhile receiving contribution, including study-design effort and displaced work. Use `B.5`/`B.5.2` for needed hypotheses and consequences, `C.11.DUA` for a questionable inquiry demand, `C.11` for an already formed bounded choice, and the direct DPF or field Method for selected inquiry. There is no fixed hypothesis count or compulsory next probe. Actual tested change, temporal, dynamics, and causal claims keep their direct evidence conditions. |
 

@@ -6,12 +6,12 @@ section_id: "G.12:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__003_intent.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:1 — Intent"
-line_start: 107191
-line_end: 107200
+line_start: 107314
+line_end: 107323
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -51,7 +51,7 @@ keywords:
 
 ### G.12:1 — Intent
 
-Produce a reproducible discipline-health series and view while keeping five objects separate:
+Produce a reproducible discipline-health series and view while keeping these objects separate:
 
 1. C.16 measurement results and their C.2.1 coordinate-result epistemes;
 2. one optional C.2.1 `DHCSeries` episteme that orders exact result refs by window;

@@ -6,12 +6,12 @@ section_id: "G.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__004_forces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:3 — Forces"
-line_start: 102334
-line_end: 102341
+line_start: 102444
+line_end: 102451
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -55,5 +55,5 @@ keywords:
 * **Breadth vs. load‑bearing depth.** Too broad becomes shallow; too deep misses rival lineages.
 * **Recency vs. stability.** Freshness matters, yet durable “backbone” claims must be identified and kept visible.
 * **Pedagogy vs. rigour.** Outputs must be teachable enough to support review, while remaining audit‑ready.
-* **Authoring vs. operations.** This pattern lives in the authoring plane; operational runs and decisions belong to Work planes and to governing patterns.
+* **Authoring vs. operations.** This pattern governs authoring; use the applicable Work and decision patterns for operational runs and decisions.
 

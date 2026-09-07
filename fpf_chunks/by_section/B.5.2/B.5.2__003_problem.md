@@ -6,12 +6,12 @@ section_id: "B.5.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__003_problem.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:2 — Problem"
-line_start: 41024
-line_end: 41038
+line_start: 41067
+line_end: 41081
 dependencies:
   - "A.10"
   - "A.16"
@@ -43,5 +43,5 @@ Without an explicit abductive pattern:
 4. **Selection becomes opaque.**
    A chosen conjecture moves downstream without a visible record of why it outranked alternatives.
 5. **Untestable hypotheses survive too long.**
-   A candidate that cannot guide deduction, probe design, or evidence gathering is still treated as if it had earned progression.
+   A candidate with no interpretable implication or possible discriminating contrast is treated as a useful explanation. Distinguish this from a meaningful conjecture whose possible check is presently unavailable.
 

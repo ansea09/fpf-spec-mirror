@@ -6,12 +6,12 @@ section_id: "A.10.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__010_consequences.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:9 — Consequences"
-line_start: 23346
-line_end: 23353
+line_start: 23360
+line_end: 23367
 dependencies:
   - "A.10"
   - "A.10.1"

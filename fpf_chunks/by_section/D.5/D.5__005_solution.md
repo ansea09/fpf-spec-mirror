@@ -6,15 +6,16 @@ section_id: "D.5:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__005_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:2 — Solution"
-line_start: 69538
-line_end: 69570
+line_start: 69636
+line_end: 69672
 dependencies:
   - "A.10"
   - "B.3"
+  - "C.11.DUA"
   - "C.16"
   - "C.28"
   - "D.1"
@@ -29,7 +30,11 @@ keywords:
 
 ### D.5:2 - Solution
 
-Open a `BiasAuditAssuranceFrame@Context`:
+Identify the object, the bias or fairness concern, and the use the answer must support. Give the result warranted by the available basis, with the affected groups and limitations that change that use. A metric comparison can finish at its qualified measurement result; recognizing a value conflict returns to `D.3` or `D.4`.
+
+An intended audit, fairness, or assurance conclusion must satisfy its own evidence conditions. A missing basis leaves that conclusion unsupported. Select further investigation and the record it needs for that particular claim or decision, using §3.1.
+
+Use `BiasAuditAssuranceFrame@Context` to organize an audit whose recipient needs to inspect the connection among claims, evidence, constraints, and residuals. The applicable content may already be present in the result being used:
 
 ```text
 BiasAuditAssuranceFrame@Context:
@@ -48,15 +53,15 @@ BiasAuditAssuranceFrame@Context:
   impactClaimRef?
   causalFairnessUseRef?
   causalUseSupportResultRef?: CausalUseSupportResultRef
-  evidenceRefs
+  evidenceRefs?
   assuranceClaimRefs?
   assuranceUseRef?
   mitigationOrConstraintRefs?
   acceptedResidualRefs?
   admissibleUse
-  inadmissibleOverread
-  strongerSourceReturnCondition
+  inadmissibleOverread?
+  strongerSourceReturnCondition?
 ```
 
-The frame is not a universal ethics owner. It is the local audit object used when bias, fairness, impact, or ethical assurance is current.
+The frame organizes the audit account. It is neither the object being audited nor evidence that its use is fair. Include relied-on evidence and any stronger-source return needed by the particular conclusion.
 

@@ -6,12 +6,12 @@ section_id: "G.12:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__001_intro.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:intro — Intro"
-line_start: 107173
-line_end: 107182
+line_start: 107296
+line_end: 107305
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -53,7 +53,7 @@ keywords:
 
 **Tag:** Architectural kit pattern; notation-independent.
 
-**Stage:** optional series authoring → measurement and series-update Work → representation → optional publication and refresh.
+**Stage:** optional series authoring → measurement and series-update Work when needed → representation → optional publication and refresh.
 
 **Primary hooks:** C.21 for discipline-health Characteristics and the common replay basis; C.16 for measurement; C.2.1 for result and series epistemes; C.29 for representations; E.24.PUB for publication availability; G.6 for evidence paths when relied on; G.11 for refresh; G.Core, A.19, and G.0 for the exact legality and comparison surfaces actually used.
 

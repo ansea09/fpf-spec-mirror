@@ -6,12 +6,12 @@ section_id: "B.3.5:6"
 section_title: "Archetypal Grounding - Running example"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__008_archetypal-grounding-running-example.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:6 — Archetypal Grounding - Running example"
-line_start: 40177
-line_end: 40198
+line_start: 40219
+line_end: 40240
 dependencies:
   - "B.3"
   - "C.13"
@@ -30,10 +30,10 @@ keywords:
   In the background, the published assertion links to `:trace_Γₘ_sum_456`, a C.2.1 episteme that names the exact pump and skid, the direct fastening, coupling, enclosure, terminal, flange, and seal occurrences that obtain, the applicable skid assembly rule, and the skid reidentification rule. An auditor replays that account to inspect the assertion's basis. The same listed parts under a different assembly can form another whole, while a permitted pump replacement can preserve Skid12; the direct relations and reidentification rule, not the trace or input list, decide.
 
 * **Assurance stance & R-lane.**
- Because the assertion is linked to an inspectable construction account, authors set `tv:validationMode=axiomatic`. This records their assurance posture; it does not strengthen the direct relation, fix identity, or make either timeless. B.3.3 reads the flag together with the actual grounding, warrants, evidence, and their currentness to assess the appropriate **R** lane. **F**, **G**, and **R** remain orthogonal.
+Because the assertion is linked to the construction account required by its elected branch, authors set `tv:validationMode=axiomatic`. The account makes the relation's basis inspectable; the declaration does not strengthen that relation, fix identity or make it timeless. B.3.3 considers the actual grounding and its currentness for the receiving claim and use.
 
 * **Contrast (epistemic).**
-When the same team asserts `:MassFlowRepresentation RepresentationOf :FlowModel`, they declare `validationMode=postulate` and attach a calibration dataset (Empirical Validation) instead of a **Γₘ** trace. The edge remains publishable, but reviewers record a lower-confidence stance, and B.3.4’s **evidence ageing** policy will decay its trust over time.
+When the same team asserts `:MassFlowRepresentation RepresentationOf :FlowModel`, they declare `validationMode=postulate` and attach a calibration dataset instead of a Γₘ trace. Judge that empirical basis for the claimed representation and receiving use; the declared mode alone does not establish lower confidence. Under B.3.4, a changed configuration, calibration qualification or other relevant premise can reopen the claim. The dataset's age alone does not defeat still-applicable support.
 
 Result: **one** visible relation for engineers, **two** assurance references for reviewers.
 

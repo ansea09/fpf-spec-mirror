@@ -6,12 +6,12 @@ section_id: "G.5:0.5"
 section_title: "Minimum ordinary slice and bounded non-use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__007_minimum-ordinary-slice-and-bounded-non-use.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:0.5 — Minimum ordinary slice and bounded non-use"
-line_start: 103789
-line_end: 103836
+line_start: 103910
+line_end: 103957
 dependencies:
   - "C.11"
   - "C.18"
@@ -95,7 +95,7 @@ This is a positive `G.5` slice because the exact Methods, immutable row-edition 
 
 **Near misses and non-use.** Do not use `G.5` merely because several names appear in one list.
 
-- If the candidates are only labels, descriptions, cards, or unresolved references, require A.3.1 and C.2.1 before dispatch.
+- If the Method-dispatch candidates are only labels, descriptions, cards, or unresolved references, require A.3.1 and C.2.1 before dispatch.
 - If the current question is one local choice among already available options, use `C.11`; if it is the policy for retaining or retiring live candidate lines, use `C.19`; if it is enactment planning after choice, use `C.24` for the plan and the applicable A.15/A.6 patterns for actual Work and operation applications.
 - If the current object is only a composition sketch, keep the S4 template; use B.1.5 only for a qualified composite Method and A.22 only for an independently selected Structure.
 - If no rival candidate set, selector result, narrowed handoff, abstain, or escalation is current, do not open `G.5`.

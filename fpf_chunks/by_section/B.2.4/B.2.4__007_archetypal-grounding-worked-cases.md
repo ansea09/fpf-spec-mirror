@@ -6,12 +6,12 @@ section_id: "B.2.4:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__007_archetypal-grounding-worked-cases.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:5 — Archetypal Grounding (Worked Cases)"
-line_start: 39232
-line_end: 39249
+line_start: 39244
+line_end: 39261
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,9 +39,9 @@ keywords:
 
 #### B.2.4:5.1 - Production Cell Capability
 
-A milling machine, robot arm, fixture, inspection station, and scheduling rule can remain a collection of assets. A new production-cell candidate becomes current only when exact capability, functioning, coordination, and transformation-flow facts cannot be explained by any single component or the old aggregate. Cell-level cycle time and tolerance measurements may support the claim; they do not create the candidate or those facts.
+A milling machine, robot arm, fixture, and inspection station can remain a collection of assets even when a scheduling rule for their use is available. A new production-cell candidate becomes current only when exact capability, functioning, coordination, and transformation-flow facts cannot be explained by any single component or the old aggregate. Cell-level cycle time and tolerance measurements may support the claim; they do not create the candidate or those facts.
 
-Use A.6.F for function-like wording, A.3.4 for transformations, C.30.TFS-REL for transformation-flow structure, A.15.1 for performed work, C.16 for cycle-time and tolerance characteristics, and B.2 only when the cell whole must be reidentified.
+Use A.6.F for function-like wording, A.3.4 for transformations, E.18 for transformation-flow structure and C.30.TFS-REL for its bounded architecture use, A.15.1 for performed work, C.16 for cycle-time and tolerance characteristics, and B.2 only when the cell whole must be reidentified.
 
 #### B.2.4:5.2 - CI/CD Capability
 
@@ -51,5 +51,5 @@ B.2.4 becomes current only if exact capability, coordination, commitment, and wo
 
 #### B.2.4:5.3 - Theory Explains New Phenomena
 
-A new theory may explain phenomena that the source portfolio did not explain. B.2.4 can supply the exact explanatory-capability fact to B.2's ordinary existing-whole comparison, while evidence separately supports or challenges its claim. B.2.3 supplies the episteme-result specialization if the exact candidate is `U.Episteme`; C.2.1 defines its constitution; C.29 handles any mathematical-lens use.
+A new theory may explain phenomena that the source portfolio did not explain. Use B.2.4 to bring the exact explanatory-use facts into B.2's ordinary existing-whole comparison, while evidence separately supports or challenges the claim about that use. This does not assign an A.2.2 capability to the episteme. B.2.3 supplies the episteme-result specialization if the exact candidate is `U.Episteme`; C.2.1 defines its constitution; C.29 handles any mathematical-lens use.
 

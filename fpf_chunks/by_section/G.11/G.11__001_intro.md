@@ -6,12 +6,12 @@ section_id: "G.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__001_intro.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:intro — Intro"
-line_start: 106740
-line_end: 106755
+line_start: 106857
+line_end: 106872
 dependencies:
   - "A.6.RCD"
   - "B.3.4"
@@ -35,14 +35,13 @@ keywords:
   - "Bridge Sentinels"
   - "PathSlice"
   - "RSCR"
-  - "decay"
   - "deprecation"
-  - "edition bumps"
   - "edition-aware"
   - "epistemic debt"
   - "re-shipping"
   - "refresh"
   - "telemetry"
+  - "use-qualified currentness"
 ---
 
 ## G.11 - Telemetry-Driven Refresh and Decay Orchestrator
@@ -53,7 +52,7 @@ keywords:
 
 **Stage.** run-time and maintenance-time (selective re-computation, republication, and controlled deprecation)
 
-**Primary outputs (kit publication units and records).** `RefreshQueue`, `RefreshPlan@Context` (a local application name for one exact `U.WorkPlan`, not a new kind), `RefreshReport@Context` (Work or Audit record), `DeprecationNotice@Context`, `EditionBumpLog@Context`.
+**Primary outputs, when their use calls for them.** `RefreshQueue`, `RefreshPlan@Context` (a local application name for one exact `U.WorkPlan`, not a new kind), `RefreshReport@Context` (record of refresh Work or its audit), `DeprecationNotice@Context`, and `EditionBumpLog@Context`. Continued reliance on an already applicable result requires none of these solely to prove that refresh was omitted.
 
 **Primary hooks.** `G.Core` (RSCR trigger catalogue, alias docking, and Default Governing Definition Index), `G.6` (EvidenceGraph; `PathId` and `PathSliceId`), `G.7` (Bridge Sentinels; CL, Φ, and plane policy pins), `G.5` (set-returning selection and dispatch), `G.8` (SoS-LOGBundle telemetry hooks), `G.9` (parity reruns), `G.10` (shipping hooks and pack-level telemetry pins), `G.12` (dashboard telemetry pins), `B.3.4` (freshness and decay), `E.18` (GateCrossing and CrossingBundle visibility), `C.18` and `C.19` archive, front, and live-pool policy pins, `C.23` (SoS-LOG branches and maturity ladders), `C.28` (causal-use support results whose SoTA-sensitive fields can change downstream causal-use results).
 

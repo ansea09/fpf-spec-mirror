@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 17619
-line_end: 17629
+line_start: 17630
+line_end: 17640
 dependencies:
   - "A.10"
   - "A.15"

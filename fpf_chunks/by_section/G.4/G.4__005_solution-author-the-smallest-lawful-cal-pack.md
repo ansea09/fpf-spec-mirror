@@ -6,12 +6,12 @@ section_id: "G.4:4"
 section_title: "Solution — author the smallest lawful CAL pack"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__005_solution-author-the-smallest-lawful-cal-pack.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:4 — Solution — author the smallest lawful CAL pack"
-line_start: 103294
-line_end: 103543
+line_start: 103413
+line_end: 103664
 dependencies:
   - "A.10"
   - "A.13"
@@ -72,7 +72,7 @@ Complete these actions in order; widen a step only when its stated input is need
 8. **C8 — Exercise declaration behavior.** Provide one worked authoring example and focused conformance tests for illegal operations, `pass | fail | unknown`, freshness, and failure behavior. The example and test remain declarations/test records unless separately grounded dated work is named.
 9. **C9 — Publish and hand off.** Mint stable ids and continuity notes, then emit the smallest immutable `TaskMap` edition. It cites the exact charter edition, the already constituted C.22 `TaskSignatureRef`, the task, and edition-bearing operator, flow, gating-clause, and evidence-profile refs; the cited evidence profiles carry the needed currentness pins. It neither constructs the TaskSignature nor copies clause thresholds. Use G.11 for change refs; G.4 defines no refresh rule or runtime occurrence or result.
 
-The authoring path is complete when a cold reader can reconstruct the plain acceptance sentence from the published ids and can also say what still has to happen at runtime. The maintainer-facing manifests, schemas, interfaces, and optional extension blocks below make the same pack machine-citable; they do not add another practitioner sequence.
+The authoring path is complete when a cold reader can reconstruct the plain acceptance sentence from the published ids and can also say what still has to happen at runtime. The detailed manifests, schemas, interfaces, and optional extension blocks below make the same pack machine-citable; they do not add another practitioner sequence.
 
 #### G.4:4.1 - G.Core linkage (normative)
 
@@ -80,7 +80,8 @@ The authoring path is complete when a cold reader can reconstruct the plain acce
 
 **GCoreLinkageManifest (normative).** Canonical shape, Nil‑elision, and the Expansion rule are defined in `G.Core`.
 
-`GCoreLinkageManifest := ⟨
+```text
+GCoreLinkageManifest := ⟨
 CoreConformanceProfileIds := {
 GCoreConformanceProfileId.PartG.AuthoringBase,
 GCoreConformanceProfileId.PartG.TriStateGuard,
@@ -107,7 +108,8 @@ RSCRTriggerKindIds := {      // deltas (Expansion rule applies)
   RSCRTriggerKindId.DefaultGoverningDefinitionChange,
   RSCRTriggerKindId.BaselineBindingEdit
 }
-⟩`
+⟩
+```
 
 By the `G.Core` Expansion rule, the effective conformance ids / trigger kinds / pin obligations for `G.4` are the expansions of the referenced profiles/sets/pin‑sets plus the explicit deltas above.
 
@@ -164,8 +166,8 @@ Each `resultInputDeclarationRef` resolves an A.6.1 `ArgumentDeclaration` whose m
 Boundary discipline (normative):
 
 * **No shadow specs**: CAL artefacts cite `CN‑Spec`/`CG‑Spec` and do not introduce competing “local specs” (delegated; see `CC‑GCORE‑CN‑CG‑1` via **CC‑G4‑CoreRef**).
-* **No shipping governance:** CAL does not govern shipping; see `CC-GCORE-SKP-1` via **CC-G4-CoreRef**.
-* **No refresh governing-definition assignment**: CAL does not govern refresh orchestration; it only publishes pins/payload for refresh (governing definition: `G.11`).
+* **Shipping boundary:** `G.10` governs shipping; see `CC-GCORE-SKP-1` via **CC-G4-CoreRef**.
+* **Refresh boundary:** CAL publishes pins/payload for refresh; `G.11` governs refresh orchestration.
 
 **Minimal schema fragments (notation‑independent; fields for citation, not an implementation schema):**
 

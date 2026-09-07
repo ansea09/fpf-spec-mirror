@@ -6,15 +6,16 @@ section_id: "D.5:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__016_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:11 — Relations"
-line_start: 69681
-line_end: 69689
+line_start: 69787
+line_end: 69796
 dependencies:
   - "A.10"
   - "B.3"
+  - "C.11.DUA"
   - "C.16"
   - "C.28"
   - "D.1"
@@ -31,6 +32,7 @@ keywords:
 
 - Builds on `D.1` and coordinates with `D.2`, `D.3`, and `D.4` for value frame, multilevel entry, conflict description, and mediation or decision use.
 - Coordinates with `A.10` for evidence and source currentness.
+- Coordinates with `C.11.DUA` for the contribution and feasibility of further inquiry and the merits and current force of disputed audit or protective requirements.
 - Coordinates with `B.3` for assurance relation and reliance.
 - Coordinates with `C.16` for metric and measurement construction.
 - Coordinates with `C.28` for causal fairness, including counterfactual-identification assumptions, estimation consistency when an estimate is used, and the bounded causal-use support result.

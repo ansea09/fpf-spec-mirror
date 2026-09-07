@@ -6,12 +6,12 @@ section_id: "G.13:4"
 section_title: "Solution — Conceptual interop kit: registered sources, alignment cards, feature derivations, and RSCR‑wired telemetry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__005_solution-conceptual-interop-kit-registered-sources-alignment-cards-feature-derivations-and-rscr-wired-telemetry.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:4 — Solution — Conceptual interop kit: registered sources, alignment cards, feature derivations, and RSCR‑wired telemetry"
-line_start: 107475
-line_end: 107600
+line_start: 107598
+line_end: 107723
 dependencies:
   - "A.18"
   - "A.19"
@@ -113,7 +113,7 @@ All objects below are **conceptual**. Any concrete serialisation belongs to Anne
 
   **Notes.**
 
-  * The derivation is a **typing + provenance** surface; it does not introduce new comparators or new governance cards or legality gates.
+  * The derivation records **typing + provenance**; comparator and legality definitions remain with the cited governing patterns.
 
 * **`ScaleEmbeddingSpec@Context`** — optional constraints for representation/space alignment used inside an alignment recipe.
 
@@ -121,7 +121,7 @@ All objects below are **conceptual**. Any concrete serialisation belongs to Anne
   `⟨ ScaleEmbeddingSpecId, IntendedUse, AllowedTransformFamily, RequiredPins{NormalizationMethodRef.edition?}, ProhibitedCoercions ⟩`
 
   **Design intent.** Make any representation alignment *explicitly constrained* and edition‑pinned, instead of silently “creating a new scale”.
-  **LEX/UTS note (informative).** `ScaleEmbeddingSpec` is a new LEX head; when it mints a public id it must be published to UTS with twin labels (see `G.Core` / UTS profile).
+  **LEX/UTS note (informative).** `ScaleEmbeddingSpec` is a LEX head; when a public id is minted for a `ScaleEmbeddingSpec`, the corresponding UTS row must be published with twin labels (see `G.Core` / UTS profile).
 
 * **`IndexTelemetryPin`** — an emitted refresh input that makes interop changes RSCR‑visible.
 
@@ -146,13 +146,13 @@ All objects below are **conceptual**. Any concrete serialisation belongs to Anne
    * `G.2` harvesting (ClaimSheets / operator & object inventories / candidate bridge hints),
    * `G.3` CHR typing (when numeric signals are formalized as CHR characteristics/scales/coordinates),
    * `G.4` acceptance/threshold policies (when a downstream decision requires explicit CAL policy rather than telemetry),
-   * `G.12` dashboards (when derived SoS features are used as DHC slots).
+   * `G.12` dashboards (when derived SoS features are used for DHC readings).
 4. **Feed selection/parity/shipping without smuggling semantics.**
 
    * `G.5` consumes the produced artefacts under its own governing spec refs and returns set‑valued outcomes (selector semantics remain governed by `G.5` + `G.Core`).
    * `G.9` parity consumes pinned editions/windows and produces traceable parity reports.
    * `G.10` shipping may include interop surfaces **as cited publications or records**; `G.13` does not govern shipping.
-5. **Emit telemetry and refresh causes.** Any change in external editions, alignment policies, plane maps, or embedding specs emits:
+5. **Emit telemetry and refresh causes.** On any change in external editions, alignment policies, plane maps, or embedding specs, emit:
 
    * a canonical `RSCRTriggerKindId` (per `G.Core`),
    * a scope (`PathSliceId[]` and/or `PatternScopeId`),

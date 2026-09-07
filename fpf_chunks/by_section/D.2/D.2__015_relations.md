@@ -6,17 +6,18 @@ section_id: "D.2:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__015_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:11 — Relations"
-line_start: 69099
-line_end: 69106
+line_start: 69196
+line_end: 69204
 dependencies:
   - "A.1"
   - "A.15"
   - "A.3.4"
   - "B.1"
+  - "C.11.DUA"
   - "C.13"
   - "C.16"
   - "C.29"
@@ -34,5 +35,6 @@ keywords:
 - Builds on `A.1`, `B.1`, and `C.13` for holon, level, scope, and part-whole grounding.
 - Coordinates with `D.3` for the interlevel ethical conflict description and with `D.4` for mediation or decision use.
 - Coordinates with `D.5` for bias, fairness, impact audit, causal-fairness audit consumption, and ethical assurance.
+- Coordinates with `C.11.DUA` when a proposed inquiry or disputed protective requirement needs contribution, feasibility, and burden appraisal.
 - Coordinates with `A.15`, `A.3.4`, `C.16`, `C.29`, and `C.30.ILC` when method, work, transformation, measurement, mathematical lens, or architecture residual claims are current.
 

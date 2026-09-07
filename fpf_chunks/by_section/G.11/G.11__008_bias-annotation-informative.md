@@ -6,12 +6,12 @@ section_id: "G.11:6"
 section_title: "Bias-Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__008_bias-annotation-informative.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:6 — Bias-Annotation (informative)"
-line_start: 107066
-line_end: 107075
+line_start: 107189
+line_end: 107198
 dependencies:
   - "A.6.RCD"
   - "B.3.4"
@@ -35,22 +35,21 @@ keywords:
   - "Bridge Sentinels"
   - "PathSlice"
   - "RSCR"
-  - "decay"
   - "deprecation"
-  - "edition bumps"
   - "edition-aware"
   - "epistemic debt"
   - "re-shipping"
   - "refresh"
   - "telemetry"
+  - "use-qualified currentness"
 ---
 
 ### G.11:6 - Bias-Annotation (informative)
 
-Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**.
+Bias lenses: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**.
 
 * **Arch bias (toward explicit wiring).** Risk: authors feel “over-pinned.” Mitigation: keep the minimum pin set small; push scheduling sophistication into extensions and policies.
-* **Gov bias (toward audit over speed).** Risk: refresh becomes bureaucratic. Mitigation: the kit is intentionally thin: refresh queue entries, `RefreshPlan@Context`, and `RefreshReport@Context` stay explicit, while action semantics remain delegated to governing definitions.
+* **Gov bias (toward audit over speed).** Risk: refresh becomes bureaucratic. Mitigation: create queue, plan and report content only for the corresponding need; retain applicable support without an omission certificate, while preserving warnings a later receiver needs.
 * **Onto and Epist bias (toward one governing definition semantics).** Risk: teams try to localize trigger meaning for convenience. Mitigation: alias docking is allowed, but semantics stay in `G.Core`.
 * **Prag bias (toward minimal recomputation).** Risk: under-refresh if closure is too narrow. Mitigation: require closure rationale and allow explicit “scope wideners” as policy-bound pins.
 * **Did bias (toward readable, reusable artefacts).** Risk: oversimplified examples. Mitigation: maintain System and Episteme grounding and keep SoTA-echoing explicit.

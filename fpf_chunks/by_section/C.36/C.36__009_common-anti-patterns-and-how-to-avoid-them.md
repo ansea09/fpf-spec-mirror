@@ -6,12 +6,12 @@ section_id: "C.36:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 68111
-line_end: 68123
+line_start: 68185
+line_end: 68197
 dependencies:
   - "A.1"
   - "A.10"
@@ -29,6 +29,7 @@ dependencies:
   - "A.6.RCD"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -62,7 +63,7 @@ keywords:
 
 | Anti-pattern | Why it fails | Repair |
 |---|---|---|
-| **Project choice means population selection** | A bounded decision says what the project chose, not what a practice or population later recognized or retained. | Record the choice with `C.11` or the applicable decision pattern; gather separate C.36 evidence for cultural relations. |
+| **Project choice means population selection** | A bounded decision says what the project chose, not what a practice or population later recognized or retained. | Keep the project choice with `C.11` or its direct decision pattern and state separately the cultural relations supported by current evidence. Withhold an unsupported stronger claim; obtain new cultural evidence only when its receiving use warrants that inquiry. |
 | **Performed intervention means success** | Work can occur without producing the intended transformation or effect. | Keep performed Work, actual change, Work-to-change relation, measurement, and effect claim separate. |
 | **Observed spread authorizes the intervention** | Popularity or persistence supplies neither authority nor a retrospective project decision. | State the observation and its limits; use the direct authority or decision pattern for any authorization claim. |
 | **One platform controls culture** | A mediating System can change visibility, transmission, or selection conditions without becoming the culture or proving control. | Identify the System, architecture, mediation relation, scope, and observed consequence separately. |

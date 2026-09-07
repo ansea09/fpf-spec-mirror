@@ -6,14 +6,17 @@ section_id: "B.5.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.1 — Explore → Shape → Evidence → Operate"
   - "B.5.1:1 — Problem Frame"
-line_start: 40948
-line_end: 40951
+line_start: 40990
+line_end: 40995
 dependencies:
+  - "B.3.3"
+  - "B.4"
   - "B.5"
+  - "B.5.2"
 keywords:
   - "Evidence"
   - "Explore"
@@ -26,5 +29,7 @@ keywords:
 
 ### B.5.1:1 - **Problem Frame**
 
-Every successful innovation, from a new piece of software to a scientific theory, follows a recognizable development state cycle. It begins as a fuzzy idea, is gradually given a clear structure, is tested against reality, and finally, is put into operational use. Without a shared state-cycle model, teams often get stuck: developers might endlessly refine a structure without testing it, while analysts might gather evidence for an idea that has not yet been clearly defined.
+Use this state model when a development project needs a shared account of whether a `U.Episteme` or `U.System` is being explored, shaped, evaluated or operated. The practical gain is to make the current development focus and the conditions for an intended transition visible. Without that distinction, a team may refine a design indefinitely or claim operational readiness before the required validation.
+
+A development state describes the project's treatment of its subject, not the assurance of every claim about it. A qualified explanation, proof or empirical result may already answer its receiving question while development remains in an earlier state. Ordinary use of that result needs no new development-state assignment.
 

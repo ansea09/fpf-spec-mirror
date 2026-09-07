@@ -6,12 +6,12 @@ section_id: "B.2.5:5.4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__008_bias-annotation.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:5.4 — Bias-Annotation"
-line_start: 39468
-line_end: 39476
+line_start: 39480
+line_end: 39488
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,6 +33,8 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30.LCA"
+  - "E.10"
+  - "F.19"
   - "G.6"
 keywords:
 ---
@@ -41,8 +43,8 @@ keywords:
 
 | Bias | How B.2.5 prevents it |
 | --- | --- |
-| Supervisor relation mistaken for parthood or containing-whole identity | The supervisor relation is not a parthood claim; parthood stays with `A.1`, `B.1`, `A.14`, and `C.13`. |
+| Supervisor relation mistaken for parthood or containing-whole identity | The supervisor relation is not a parthood claim; `A.1` governs holon recognition, `A.14` the exact mereological claim, and `B.1` or `C.13` the applicable construction account. |
 | Feedback-as-proof bias | A closed feedback relation may supply input to separate stability, safety, assurance, or timing work, but does not certify those claims. |
 | Description-as-relation bias | A diagram, dashboard, report, or control-view description does not establish the in-life feedback relation by itself. |
-| Episteme-agency bias | A theory, standard, model, dashboard, or publication may stand in a supervised slot or source-use slot, but the supervising acting system must still be named; any system-role assignment is separate. |
+| Episteme-agency bias | Only an independently recognized Holon fills a supervised reference. A theory, standard, model, dashboard, or publication may instead be used on the source side under its own kind and relation; the supervising acting system must still be named, and any system-role assignment is separate. |
 

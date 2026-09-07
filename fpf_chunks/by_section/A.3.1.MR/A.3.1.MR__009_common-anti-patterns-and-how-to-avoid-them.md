@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 8614
-line_end: 8625
+line_start: 8625
+line_end: 8636
 dependencies:
   - "A.10"
   - "A.13"
@@ -20,6 +20,7 @@ dependencies:
   - "A.22"
   - "A.3.1"
   - "A.3.2"
+  - "C.11.DUA"
   - "C.2.1"
   - "C.32.MWA"
   - "F.6"
@@ -35,6 +36,6 @@ keywords:
 | “Several candidates form one concern.” | Return one account per candidate; create a separate comparison subject only for a named use. |
 | “One expert performance proves the reusable way.” | Use it to open a hypothesis; seek several grounded occurrences or lower the result. |
 | “The log is raw fact.” | Name preparation Method, configuration, source, dated Work, correlation, encoding, window, and resulting event-log episteme. |
-| “Unknown means fill the standard field.” | Mark unsupported positions unknown and state the next distinguishing evidence. |
+| “Unknown means fill the standard field.” | Keep unsupported positions unknown and preserve their use limits. Add a distinguishing question only when it changes the receiving use; a missing field does not commission evidence collection. |
 | “Every recovery needs a full study.” | Stop at the smallest source-traceable candidate or honest record-only result; enter `ME.18` only for specialist reconstruction. |
 

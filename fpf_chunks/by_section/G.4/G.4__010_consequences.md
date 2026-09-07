@@ -6,12 +6,12 @@ section_id: "G.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__010_consequences.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:9 — Consequences"
-line_start: 103646
-line_end: 103652
+line_start: 103767
+line_end: 103773
 dependencies:
   - "A.10"
   - "A.13"
@@ -58,7 +58,7 @@ keywords:
 
 ### G.4:9 - Consequences
 
-* CAL becomes a stable, citable CAL Pack: operator/acceptance semantics are explicit artifacts, not tacit code behavior.
+* CAL operator/acceptance semantics become stable, citable CAL Pack content rather than tacit code behavior.
 * Legality failures are surfaced as authoring defects (RSCR‑testable) rather than run‑time surprises.
 * Downstream patterns (`G.5`, `G.8`, `G.9`, `G.10`, `G.11`) can reference stable ids/pins without redefining acceptance or operator semantics.
 * Method pluralism is supported: multiple calculi can coexist as separate operator/flow/acceptance families, wired via Extensions rather than mixed into the core kit.

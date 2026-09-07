@@ -6,28 +6,34 @@ section_id: "B.3.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__010_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:9 — Relations"
-line_start: 40052
-line_end: 40057
+line_start: 40091
+line_end: 40099
 dependencies:
   - "A.10"
   - "B.3"
-  - "B.3.3"
-  - "B.4"
+  - "C.11"
+  - "C.19.2"
+  - "C.27.TA"
+  - "G.11"
 keywords:
-  - "decay"
+  - "age"
+  - "changed premise"
   - "epistemic debt"
-  - "evidence aging"
-  - "freshness"
-  - "stale data"
+  - "evidence currentness"
+  - "qualification window"
+  - "refresh"
 ---
 
-### B.3.4:9 - **Relations**
+### B.3.4:9 - Relations
 
-*   **Builds on:** `B.3.3 Assurance Subtypes & Levels`, `A.10 Evidence Graph Referring`.
-*   **Constrains:** The temporal validity of `AssuranceLevel` for all holons.
-*   **Enables:** Proactive maintenance planning within the Canonical Evolution Loop (B.4) and provides a dynamic risk input for ethical and strategic decision-making (Part D).
+- **B.3 and B.3.3:** define the assurance claim, receiving use and any justified local level profile.
+- **A.10 and C.27.TA:** supply evidence-use dependencies and qualified temporal claims.
+- **G.11:** schedules justified reconsideration or refresh over the affected dependency slice and conveys needed limitations to later recipients.
+- **C.11 and C.19.2:** support the choice of obtainable evidence work when its contribution can change the decision.
+- **B.4:** uses actual transition conditions; a debt indicator does not constitute its evolution gate.
+- **Part D and applicable domain rules:** govern protected interests, authority and exceptions; an assurance status change does not decide them.
 

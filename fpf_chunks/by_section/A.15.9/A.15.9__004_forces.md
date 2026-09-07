@@ -6,12 +6,12 @@ section_id: "A.15.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__004_forces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.15.9 — Request and Use a Bounded Result from Another Practice"
   - "A.15.9:3 — Forces"
-line_start: 27797
-line_end: 27808
+line_start: 27809
+line_end: 27820
 dependencies:
   - "A.10"
   - "A.13"
@@ -21,6 +21,7 @@ dependencies:
   - "A.2.1"
   - "A.2.2"
   - "A.2.9"
+  - "C.11.DUA"
   - "C.2.1"
   - "C.38"
   - "E.18.1"
@@ -32,7 +33,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Reuse versus fresh Work | A current qualified result can be cheaper and safer than a new request, but a stale or wrong-configuration answer can look authoritative. |
+| Reuse versus fresh Work | A current qualified result can be cheaper and safer than a new request; a narrower answer can remain useful when a stronger one is unsupported. Acquisition must earn its cost without treating a stale or wrong-configuration answer as adequate. |
 | Small request versus useful boundary | The receiver needs a short request without omitting the subject, situation, use, and stop that make the answer meaningful. |
 | Supplier judgement versus receiver authority | The supplier governs its Method and professional conclusion; the receiver still owns the decision that consumes it unless a separate authority relation says otherwise. |
 | Informal exchange versus recoverability | Two sentences may be enough for a reversible choice; consequential reliance may require exact sources, Work, evidence, authority, dissent, and currentness. |

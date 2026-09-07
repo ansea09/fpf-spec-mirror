@@ -6,17 +6,18 @@ section_id: "A.1.CSD:9"
 section_title: "Consequences and Reopen Condition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__012_consequences-and-reopen-condition.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:9 — Consequences and Reopen Condition"
-line_start: 2803
-line_end: 2810
+line_start: 2807
+line_end: 2814
 dependencies:
   - "A.1"
   - "A.1.SCR"
   - "A.10"
   - "A.14"
+  - "A.15.9"
   - "A.6.RCD"
   - "B.1"
   - "B.1.2"
@@ -24,6 +25,7 @@ dependencies:
   - "B.2.2"
   - "C.11"
   - "C.11.CRC"
+  - "C.11.DUA"
   - "C.13"
   - "C.2.1"
   - "C.27"
@@ -36,9 +38,9 @@ keywords:
 
 ### A.1.CSD:9 - Consequences and Reopen Condition
 
-The pattern makes quiet and remote Systems discoverable without turning discovery into a role taxonomy or universal assessment procedure. It gives downstream work a qualified starting point: an actual bearer, an intended referent, a supported relation occurrence or modal path, a possible changed characteristic, and the evidence-producing move that matters next.
+The pattern makes quiet and remote Systems discoverable without turning discovery into a role taxonomy or universal assessment procedure. It gives downstream work a qualified starting point: an actual bearer, an intended referent, a supported relation occurrence or modal path, a possible changed characteristic, and the useful constraint, alternative, qualified answer, or selected evidence-producing move.
 
-The cost is explicit uncertainty and more disciplined relation handling. Some inquiries stop with a missing System-recognition or relation fact; that stop is useful because it identifies the next observation.
+The cost is explicit uncertainty and more disciplined relation handling. Some inquiries stop with a missing System-recognition or relation fact; that limit can be useful without commissioning the observation needed for a stronger claim.
 
 Reopen the account when the focus, configuration, scope, horizon, whole/part construction, obtaining-relation support, bearer recognition, observation, specialist result, or receiving use changes. Reopen this pattern itself only if repeated cross-domain use cannot express the shared discovery move without a new genuinely transdisciplinary result.
 

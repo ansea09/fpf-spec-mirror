@@ -6,12 +6,12 @@ section_id: "G.7:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__013_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:12 — Relations"
-line_start: 105311
-line_end: 105318
+line_start: 105432
+line_end: 105439
 dependencies:
   - "A.21"
   - "B.3"
@@ -19,8 +19,10 @@ dependencies:
   - "C.19"
   - "C.21"
   - "C.23"
+  - "C.3.3"
   - "E.10"
   - "E.18"
+  - "F.17"
   - "F.3"
   - "F.7"
   - "F.9"
@@ -53,7 +55,7 @@ keywords:
 
 ### G.7:12 - Relations
 
-**Builds on:** `G.Core`, `G.2`, `F.3`, `F.7`, `F.9`, `B.3`, `E.10`, `E.18`, `A.21`, `G.6`, `C.21`.
+**Builds on:** `G.Core`, `G.2`, `F.3`, `F.7`, `F.9`, `F.17`, `B.3`, `E.10`, `E.18`, `A.21`, `G.6`, `C.21`; `C.3.3` when the kind channel is used.
 **Optionally uses via Extensions:** **G.4** (Acceptance hooks), **C.23** (SoS‑LOG clauses), **C.18 and C.19** (QD/OEE pins).
 **Used by / prerequisite for:** In uses that consume this kit's calibration, **G.5** (cross‑Tradition eligibility/selection), **G.11** (refresh orchestration), **G.9** (parity across Traditions where bridges are required), **G.10** (shipping surfaces that must cite bridge calibration ids), **G.12** (DHC dashboards when bridge counts/units are surfaced).
 **Publishes to:** **UTS** (bridge and crossing rows; twin labels as applicable) and emits RSCR‑ready telemetry/trigger payloads for **G.11**.

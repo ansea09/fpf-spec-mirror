@@ -6,16 +6,17 @@ section_id: "G.1:9"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__010_consequences-informative.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:9 — Consequences (informative)"
-line_start: 102264
-line_end: 102270
+line_start: 102374
+line_end: 102380
 dependencies:
   - "A.10"
   - "A.15.3"
   - "A.19"
+  - "A.19.CN"
   - "C.17"
   - "C.18"
   - "C.19"
@@ -56,5 +57,5 @@ keywords:
 * **Repeatable authoring:** CG‑Frame work becomes reconstructible: what exists, what it depends on, and how it is refreshed.
 * **Method pluralism with discipline:** multiple generator/selector families can coexist without turning the chassis into a shadow method spec.
 * **Better reuse:** outputs land directly in published artefacts (UTS/Name/RSCR‑ready) rather than remaining local notes.
-* **Lower refactor cost:** method changes localise to Extensions; core invariants remain stable and one governing definition.
+* **Lower refactor cost:** method-wiring changes localise to Extensions; core invariants remain stable under their governing definitions.
 

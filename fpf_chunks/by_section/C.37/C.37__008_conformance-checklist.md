@@ -6,12 +6,12 @@ section_id: "C.37:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__008_conformance-checklist.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:7 — Conformance Checklist"
-line_start: 68371
-line_end: 68388
+line_start: 68455
+line_end: 68472
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -41,7 +41,7 @@ keywords:
 | `CC-C37.8` Honest disposition | Each row is `select`, `decline`, or `unresolved`; `degrade` narrows the selected claim rather than creating another row vocabulary. |
 | `CC-C37.9` Return visible | Every row names the source or direct pattern and the condition that reopens selection. |
 | `CC-C37.10` Co-use bounded | Joint use means only reliance by the same receiver for the same action; no collection, structure, view family, graph, or integrated world account is inferred. |
-| `CC-C37.11` One realization | The complete claim group is embedded in an owning same-use result when one exists; otherwise it is one ordinary C.2.1 episteme, never both. |
+| `CC-C37.11` Use-needed retention | An immediate sufficient selection can finish without another record. When a later use needs the complete basis, it is recoverable once in an owning same-use result or one ordinary C.2.1 episteme, never both. |
 | `CC-C37.12` Assurance progressive | B.3 is opened only for an actual named assurance claim; reversible inspection carries no mandatory assurance burden. |
 | `CC-C37.13` No universal ontology | No `U.Representation`, universal `RepresentationOf`, fixed representation taxonomy, master mediation route, or public account kind is introduced. |
 

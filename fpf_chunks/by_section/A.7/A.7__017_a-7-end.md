@@ -6,12 +6,12 @@ section_id: "A.7:End"
 section_title: "A.7:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__017_a-7-end.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:End — A.7:End"
-line_start: 21856
-line_end: 21857
+line_start: 21867
+line_end: 21868
 dependencies:
   - "A.1"
   - "A.10"

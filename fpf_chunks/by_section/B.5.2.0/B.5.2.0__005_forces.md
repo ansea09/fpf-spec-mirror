@@ -6,12 +6,12 @@ section_id: "B.5.2.0:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__005_forces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:3 — Forces"
-line_start: 41353
-line_end: 41359
+line_start: 41400
+line_end: 41406
 dependencies:
   - "A.16"
   - "A.16.0"

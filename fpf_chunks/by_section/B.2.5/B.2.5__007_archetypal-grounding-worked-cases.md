@@ -6,12 +6,12 @@ section_id: "B.2.5:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__007_archetypal-grounding-worked-cases.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:5 — Archetypal Grounding (Worked Cases)"
-line_start: 39446
-line_end: 39467
+line_start: 39458
+line_end: 39479
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,6 +33,8 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30.LCA"
+  - "E.10"
+  - "F.19"
   - "G.6"
 keywords:
 ---
@@ -49,13 +51,13 @@ Claims about convergence, delay tolerance, disturbance damping, evidence, assura
 
 A theory is revised when labs publish findings and a research community reviews anomalies and accepted revisions.
 
-B.2.5 may record the theory or constituent epistemes as supervised objects only when the current claim is about a feedback relation around review and revision. The acting system is the research community, standards body, lab, review board, or tool-mediated group; any local system-role kind and assignment are separate claims. The theory does not sense, judge, plan, decide, or act.
+B.2.5 may record the theory or constituent epistemes as supervised objects only when the current claim is about a feedback relation around review and revision. Recover the exact admitted System that performs the review or revision, whether it is a research community, standards body, lab, review board, or tool-mediated group; any local system-role kind and assignment are separate claims. The theory remains the reviewed or revised episteme.
 
-Publication channels, journals, datasets, reports, and review records remain publication or source-use objects.
+For publication channels, journals, datasets, reports, and review records, keep each object's identity distinct from its current publication or source-use relation; recover content, form, representation, or carrier only when the case depends on that distinction.
 
 #### B.2.5:5.3 - Product Platform Policy
 
 A product platform constrains component teams through interface rules and release gates. B.2.5 records the admitted platform or governance system that supervises, component holons, report channels, and constraint returns; a system-role kind or assignment is added only when separately current.
 
-Work authority uses `A.15`; gate passage uses `A.21`; interface commitments use `A.6.M`; architecture view uses `C.30.LCA` when the control structure is described.
+Work alignment uses `A.15`; a separate work-authority claim needs its own direct pattern. Gate passage uses `A.21`; `A.6.M` restores interface wording before the exact commitment claim returns to its direct pattern; architecture view uses `C.30.LCA` when the control structure is described.
 

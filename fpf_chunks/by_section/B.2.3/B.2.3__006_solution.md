@@ -6,12 +6,12 @@ section_id: "B.2.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__006_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:4 — Solution"
-line_start: 38968
-line_end: 39022
+line_start: 38980
+line_end: 39034
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,7 +54,7 @@ The candidate and its constitution relation are distinct, even though C.2.1 reid
 The exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme are the three participants of C.2.1's `EpistemeConstitutionRelation`. That constitution relation does not by itself identify A.1 constituents or constructive part relations. When A.1 requires those facts, recover them from an exact direct episteme-part or claim-composition pattern. The EntityOfConcern remains an independently governed entity related through aboutness and reference. Keep all other current questions in their direct relations:
 
 - empirical grounding uses `EpistemeEmpiricalGroundingRelation` only when designated empirical claims have current claim-to-world mappings involving the exact grounding holon;
-- viewpoint selection and `U.View` recognition use their description-context and conformance patterns;
+- viewpoint selection for a describing use follows `E.10.D2`; `U.View` recognition requires `E.17.0` conformance of the exact episteme to an exact viewpoint;
 - publication occurrence, publication form, carrier, source use, and C.29 representation remain distinct from the episteme and its constitution;
 - an exact acting System first has the A.13 core and A.15.1 independently admits its synthesis Work under a Method; F.6 enters only if the receiving transition account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment, while any actual transformation remains a separate claim; and
 - evidence and assurance support or challenge exact claims but do not enter episteme identity or establish constitution.
@@ -68,10 +68,10 @@ When a receiving use has materialized B.2's optional `MHTTriggerProfile`, interp
 | Cue recorded in `MHTTriggerProfile` | Episteme-case reading | Subject pattern kept visible |
 | --- | --- | --- |
 | Delimitation change | The knowledge body now has a stable EntityOfConcern, scope, reference scheme, and claim scope. | `C.2.1`, `A.7`, source-use patterns |
-| Objective or evaluation change | The result episteme answers or evaluates a question that the collection did not answer as one claim-bearing whole. | `C.2.1`, `C.16`, `E.21` or relevant evaluation pattern |
+| Objective or evaluation change | The result episteme contains an answer or evaluation claim for a question that the collection did not answer as one claim-bearing whole. | `C.2.1`, `C.16`, `E.21` or relevant evaluation pattern |
 | Supervision or coordination change | Principles, axioms, invariants, reference schemes, or claim-graph constraints organize how constituent claims are interpreted. | `C.2.1`, `A.6.0`, `A.6.1`, `C.29` when formal lens is current |
 | Capability or closure claim | The candidate episteme supports a new explanatory, predictive, specification, or coordination use; evidence for that claim remains separate. | `C.2.1`, `C.16`, `A.10` for evidence use, and the pattern for that use |
-| Agency threshold | Usually not applicable to the episteme itself. If agency is claimed, recover the acting System and test the agency characteristic independently; an agency characteristic does not require an assignment. If dated Work is also claimed, recover each exact performer through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving claim expressly consumes precise assignment-bound attribution; missing or failed F.6 leaves the Work intact. | `A.12`, `A.2.1`, `A.13`, `A.19`, `C.16`, `A.15.1`, `F.6` |
+| Agency threshold | The episteme remains non-agentive. For an agency-characteristic claim, recover the exact System, characteristic predicate, scope, and window and test the characteristic independently; that characteristic claim does not require an assignment. A precise agency claim requires the separate A.13 core. If dated Work is also claimed, recover each exact performer through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving claim expressly consumes precise assignment-bound attribution; missing or failed F.6 leaves the Work intact. | `A.12`, `A.2.1`, `A.13`, `A.19`, `C.16`, `A.15.1`, `F.6` |
 | Temporal consolidation | A field, standard, or theory becomes one current knowledge body after phase consolidation or source-currentness change. | `C.27`, `E.17`, source-use patterns |
 | Context reframe | New terms, reference schemes, or EntityOfConcern mapping reframe the knowledge body. | `C.2.1`, `A.6.3`, `A.6.4`, `F.18` |
 

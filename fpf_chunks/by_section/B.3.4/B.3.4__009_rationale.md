@@ -6,26 +6,31 @@ section_id: "B.3.4:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__009_rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:8 — Rationale"
-line_start: 40048
-line_end: 40051
+line_start: 40085
+line_end: 40090
 dependencies:
   - "A.10"
   - "B.3"
-  - "B.3.3"
-  - "B.4"
+  - "C.11"
+  - "C.19.2"
+  - "C.27.TA"
+  - "G.11"
 keywords:
-  - "decay"
+  - "age"
+  - "changed premise"
   - "epistemic debt"
-  - "evidence aging"
-  - "freshness"
-  - "stale data"
+  - "evidence currentness"
+  - "qualification window"
+  - "refresh"
 ---
 
-### B.3.4:8 - **Rationale**
+### B.3.4:8 - Rationale
 
-Knowledge frameworks that ignore time degrade silently. By embedding entropy accounting (epistemic debt) directly into the assurance calculus, FPF gains a self-regulating "immune system." This pattern operationalizes the common-sense insight that evidence is perishable, transforming maintenance from an ad-hoc, often-neglected chore into a budgeted, auditable, and risk-informed engineering activity. It complements the human-centric loop of ADR-014 and the pragmatic utility guardrail of ADR-015 by ensuring that what we trust today remains trustworthy tomorrow.
+An earlier result can remain valid for its earlier claim while no longer supporting a changed use. Conversely, elapsed time need not defeat an unchanged premise. Maintenance therefore follows the assurance argument and its conditions rather than a universal entropy metaphor.
+
+B.3's source account and [ISO/IEC/IEEE 15026-2:2022](https://www.iso.org/standard/80625.html) place maintenance with assurance cases. C.27.TA supplies the use-relative temporal qualification. This pattern adapts those distinctions to continued reliance and planning; it attributes no universal decay equation or mandatory expiry date to the standard. A validated domain deterioration model or an applicable review rule can justify a particular time-based policy and its reconsideration conditions.
 

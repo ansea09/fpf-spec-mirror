@@ -6,12 +6,12 @@ section_id: "G.5:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__002_use-this-when.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:0 — Use this when"
-line_start: 103709
-line_end: 103729
+line_start: 103830
+line_end: 103850
 dependencies:
   - "C.11"
   - "C.18"
@@ -66,11 +66,11 @@ For ordinary method-family dispatch, open `G.5` when two or more already admitte
 
 Before opening G.5 for Method dispatch, resolve every selectable `MethodRef` to an exact `U.Method` already admitted under A.3.1. A `MethodFamilyId` names the continuing selector-row lineage for one declared grouping; it does not by itself select an exact edition. `MethodFamilyRowRef := <MethodFamilyId, rowEdition>` designates one immutable row edition, which cites the exact Methods it groups and the independently established classification claim, membership relation, or local grouping criterion used for this selector. Neither the row, its label, a family card, a `U.MethodDescription`, an eligibility or maturity record, a policy, an evidence pin, a shortlist, nor a publication makes a candidate a Method or makes family membership obtain. Where no exact ontic-family or membership predicate is defined, keep the row as a project-local selector grouping under its declared criterion. If only labels, descriptions, cards, or unresolved references are available, state the blocker and use A.3.1, C.2.1, or the exact family-relation subject pattern only as a locator before selection.
 
-Also say whether the current claim is only a reusable registry, selector, policy, template, or result-content declaration, or whether an actual selection and publication occurred. An actual selection first requires every precise performer's A.13 core and an independently A.15.1-admitted dated Work, plus the actual A.6.1 `Select` application with effective argument and `SelectionSlot` bindings under A.19.SelectorMechanism. Add F.6 only when the current selection claim also needs exact assignment-bound attribution through the same obtaining A.13 assignment. Any persisted result episteme, A.10 evidence-provenance relation, B.3 assurance claim, authorization, and E.24.PUB publication occurrence remain separate. A row, declaration, record, telemetry pin, or selected-set label supplies none of them by appearance.
+Also say whether the current claim is only a reusable registry, selector, policy, template, or result-content declaration, or whether an actual selection and publication occurred. An actual selection first requires every precise performer's A.13 core and an independently A.15.1-admitted dated Work, plus the actual A.6.1 `Select` application with effective argument bindings and the `SelectionSlot` binding for any returned selected set under A.19.SelectorMechanism. Add F.6 only when the current selection claim also needs exact assignment-bound attribution through the same obtaining A.13 assignment. Any persisted result episteme, A.10 evidence-provenance path, B.3 assurance claim, authorization, and E.24.PUB publication occurrence remain separate. A row, declaration, record, telemetry pin, or selected-set label supplies none of them by appearance.
 
+Typical selector situations include:
 
-
-- several method families or generator families can admissibly act on the same declared task family or work target
+- Methods or generators from several families are admissible for the same declared task family or work target
 - you need one selector to return a `Shortlist`, `RankedShortlist`, `JointUseSet`, one `SpecialistHandoff`, one other narrowed handoff plan, or one abstain outcome without pretending that there is always one scalar winner or that all set results are alternatives
 - the declared result must carry enough basis pins for its named downstream use—for example, later comparison, handoff, or escalation—without changing its declared outcome kind or any applicable public selected-set label
 

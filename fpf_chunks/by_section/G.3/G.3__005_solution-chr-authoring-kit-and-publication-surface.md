@@ -6,12 +6,12 @@ section_id: "G.3:4"
 section_title: "Solution — CHR authoring kit and publication surface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__005_solution-chr-authoring-kit-and-publication-surface.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:4 — Solution — CHR authoring kit and publication surface"
-line_start: 102840
-line_end: 103145
+line_start: 102955
+line_end: 103264
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -24,6 +24,7 @@ dependencies:
   - "C.16"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "E.10"
   - "E.5.1"
   - "E.5.3"
@@ -64,7 +65,8 @@ keywords:
 
 **GCoreLinkageManifest (normative; size‑controlled).**
 
-`GCoreLinkageManifest := ⟨
+```text
+GCoreLinkageManifest := ⟨
 CoreConformanceProfileIds := {
 GCoreConformanceProfileId.PartG.AuthoringBase,
 GCoreConformanceProfileId.PartG.TriStateGuard,
@@ -104,7 +106,8 @@ RSCRTriggerKindId.FreshnessOrDecayEvent,
 RSCRTriggerKindId.LegalitySurfaceEdit,
 RSCRTriggerKindId.BaselineBindingEdit
 }
-⟩`
+⟩
+```
 
 *(Nil‑elision + expansion rule are per `G.Core:4.2`. This pattern does not redefine the semantics of core conformance ids, trigger kinds, or defaults; it only declares applicability and required pins.)*
 
@@ -150,10 +153,11 @@ If `EvidenceLanes` are used, the charter MUST:
 **S2 — Mint or reuse terms (UTS‑first).**
 For each candidate characteristic, scale, level, or coordinate term: attempt reuse; otherwise mint via UTS Name Cards with twin labels and public-id continuity notes. When a term is imported across contexts, the import must be explicit and auditable (bridge and loss notes live with the crossing artefacts; CHR only cites them).
 
-**S3 — Define `CharacteristicCard` (the CHR unit of meaning).**
+**S3 — Define `CharacteristicCard` (the per-characteristic publication unit).**
 A CharacteristicCard is the minimum unit CHR publishes for downstream legality. It SHOULD include (field names are indicative; semantics governed by cited definitions):
 
-`CharacteristicCard := ⟨
+```text
+CharacteristicCard := ⟨
   UTSRowId,
   CharacteristicRef.edition,
   entityOfConcern,
@@ -169,7 +173,7 @@ A CharacteristicCard is the minimum unit CHR publishes for downstream legality. 
   ObjectKind,
   Intent,
   Definition (typed),
-  ObservableOf := ⟨instrument/protocol (A.10 anchors/carriers), uncertainty model, validity window⟩,
+  ObservableOf := ⟨instrument/protocol (provenance cited through A.10 paths), uncertainty model, validity window⟩,
   EvidenceLanes? (KD‑CAL lanes; wiring only; semantics governed by `G.4` / `G.6`),
   ScaleRef.edition,
   Polarity ∈ {↑, ↓, ⊥},
@@ -182,7 +186,8 @@ A CharacteristicCard is the minimum unit CHR publishes for downstream legality. 
   RoleDecls? := RoleDecl[] (wiring‑only; each role declaration names its governing pattern + required pins; see `G.3:4.5`),
   QD.Role? ∈ {Q, D, QD-score} (interop alias for `RoleDecl` with `GoverningPatternId = C.18`; see `G.3:Ext.QD_OEE_Wiring`),
   Micro‑examples (R‑anchors: Path/PathSlice cited; lane tags where applicable)
-⟩`
+⟩
+```
 
 Where `RoleDecl := ⟨ roleLabel, GoverningPatternId, EditionPins?, PolicyPins? ⟩` (wiring-only; the value of `GoverningPatternId` names the FPF pattern that governs the role declaration semantics).
 
@@ -311,7 +316,7 @@ All blocks below are `GPatternExtension` modules (PatternScopeId-scoped; **not**
   * `CGSpecRef.edition` *(when a characteristic is promoted/linked into `CG‑Spec`)*
   * `CHR.Characteristic.id` pointers included in `CG‑Spec.Characteristics := [...]` *(no shadow ids; CG‑Spec stores pointers, see `G.0`)*
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.LegalitySurfaceEdit, RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange}`
-* **Notes (wiring‑only):** Promotion semantics and legality gate governing-definition assignment stays with `G.0`; CHR only pins and cites.
+* **Notes (wiring‑only):** `G.0` governs promotion semantics and the legality gate; CHR only pins and cites.
 
 **GPatternExtension: MMCHRLegalityWiring**
 
@@ -342,7 +347,7 @@ All blocks below are `GPatternExtension` modules (PatternScopeId-scoped; **not**
   * `DecayPolicyIdRef?` *(policy-bound; if decay model is referenced by id)*
   * `PathSliceId[]` *(affected evidence carriers / examples that witness drift)*
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.FreshnessOrDecayEvent, RSCRTriggerKindId.EvidenceSurfaceEdit, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.BaselineBindingEdit}`
-* **Notes (wiring‑only):** CHR does not define decay semantics; it only pins the defined by the governing pattern window/policy and ensures refresh can be triggered on decay events.
+* **Notes (wiring‑only):** CHR does not define decay semantics; it only pins the window/policy defined by the governing pattern and ensures refresh can be triggered on decay events.
 
 **GPatternExtension: QD_OEE_Wiring**
 

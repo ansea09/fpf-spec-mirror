@@ -6,12 +6,12 @@ section_id: "G.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__013_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:12 — Relations"
-line_start: 102765
-line_end: 102795
+line_start: 102880
+line_end: 102910
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -57,7 +57,7 @@ keywords:
   * `E.8` (pattern template discipline)
   * `E.10` (lexical/ontological rules; strict distinction; kind‑suffix discipline)
   * `E.19` (conformance discipline)
-  * `A.10` (provenance anchors / carriers)
+  * `A.10` (evidence-provenance paths and cited source/carrier anchors)
   * `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` (generic interpretive-view and atlas discipline when `TraditionAtlasView` is used)
   * `A.6.P` (space/view/publication precision restoration when palette/support claims collapse)
   * `B.3` (trust, freshness/decay as cited governing patterns)

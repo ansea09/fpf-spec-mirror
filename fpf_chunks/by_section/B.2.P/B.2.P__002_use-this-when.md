@@ -6,12 +6,12 @@ section_id: "B.2.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__002_use-this-when.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:0 — Use This When"
-line_start: 38437
-line_end: 38465
+line_start: 38449
+line_end: 38477
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.24"
   - "F.18"
+  - "F.19"
   - "G.11"
 keywords:
 ---
@@ -70,6 +71,6 @@ B.2.P is selected only when the source wording hides one of these recurring ques
 
 - If the text already names the subject pattern and object by value, use that pattern directly.
 - If the question is ordinary collection admission without emergence, synergy, MHT, metric mirage, or whole-reidentification wording, use `A.14`, `C.13`, `B.3.5`, `A.1`, `A.15`, A.2 patterns, or `C.16` directly.
-- If the question is phrase-level plain technical rewriting after the object is recovered, use `F.19`.
+- If whole-span `F.19` reading settles the wording without a remaining emergence-specific FPF question, stop there.
 - If the question is general wording-use architecture, use `E.10` and `E.10.ARCH`.
 

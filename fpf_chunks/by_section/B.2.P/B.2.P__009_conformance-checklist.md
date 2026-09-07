@@ -6,12 +6,12 @@ section_id: "B.2.P:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__009_conformance-checklist.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:6 — Conformance Checklist"
-line_start: 38621
-line_end: 38636
+line_start: 38633
+line_end: 38648
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.24"
   - "F.18"
+  - "F.19"
   - "G.11"
 keywords:
 ---
@@ -54,7 +55,7 @@ keywords:
 | `CC-B2P-4` | Collection admission remains with subject patterns unless collection wording is entangled with emergence-family or MHT wording. |
 | `CC-B2P-5` | Capability, functioning, characteristic, architecture, evidence, math-lens, publication, and source-use claims keep their subject patterns. |
 | `CC-B2P-6` | Source mnemonics and result-field spellings do not identify subject patterns or become U-kinds. |
-| `CC-B2P-7` | Replacement wording is scanned again for E.10 triggers before it is admitted as live FPF wording. |
+| `CC-B2P-7` | Replacement wording is reread in its complete natural span through F.19 with E.10 cues inside; only a remaining FPF question opens the applicable lexical or subject rule before live use. |
 | `CC-B2P-8` | Whole-reidentification recovery names the exact existing whole, changed direct facts, exact candidate new whole, every condition of the complete A.1 criterion including governed larger-assembly compatibility, and whether the existing whole continues or the new whole must be identified, without a generic recovery record or bounded-context field. |
 | `CC-B2P-9` | Evidence, evaluation, assertion or record identity, G.11 currentness, and receiving reliance remain separate from world-side construction and reidentification. |
 | `CC-B2P-10` | Selected dependent structures and collections do not become holons by name; several changes do not become a composite transformation, and a missing composition governor does not establish atomism. |

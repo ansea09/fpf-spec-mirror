@@ -6,12 +6,12 @@ section_id: "G.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__001_intro.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:intro — Intro"
-line_start: 102296
-line_end: 102313
+line_start: 102406
+line_end: 102423
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -63,7 +63,7 @@ keywords:
 > * CAL authoring (G.4),
 > * method/generator registries and dispatch (G.5).
 >
-> **Scope note.** This pattern **governs** the harvesting + synthesis *generator* in Part G. Shipping governing-definition assignment is in **G.10**, refresh orchestration governing-definition assignment is in **G.11**.
+> **Scope note.** This pattern **governs** the harvesting + synthesis *generator* in Part G. Use **G.10** to ship the pack and **G.11** to orchestrate refresh.
 >
 > **Terminology note (normative).** In normative clauses below, **`Tradition`** refers to the *Tech* token `Tradition` (a plural lineage with internally coherent commitments). Plain “tradition” is allowed only as a 1:1 synonym.
 

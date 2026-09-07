@@ -6,7 +6,7 @@ section_id: "A.1.CSD:0.1"
 section_title: "Precision Restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__003_precision-restoration.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:0.1 — Precision Restoration"
@@ -17,6 +17,7 @@ dependencies:
   - "A.1.SCR"
   - "A.10"
   - "A.14"
+  - "A.15.9"
   - "A.6.RCD"
   - "B.1"
   - "B.1.2"
@@ -24,6 +25,7 @@ dependencies:
   - "B.2.2"
   - "C.11"
   - "C.11.CRC"
+  - "C.11.DUA"
   - "C.13"
   - "C.2.1"
   - "C.27"
@@ -39,7 +41,7 @@ keywords:
 | Expression | Working meaning here |
 | --- | --- |
 | consequence-bearing System | An actual `U.System` whose state or characteristic may change under the stated conditions. This is a plain description, not a kind, role, assignment, or status. |
-| intended System referent | A designator for a not-yet-present or not-yet-identified System inside a modal claim. It does not assert current systemhood or existence. |
+| intended System referent | A designator for a System whose intended existence is stated in a modal claim. It does not assert current systemhood or existence. An unidentified bearer remains an explicit unknown with the claim's modality preserved. |
 | supported obtaining direct-relation occurrence | One exact world-side relation occurrence whose participants, predicate, and obtaining conditions are supported under its direct governor. |
 | modal path claim | A claim that a path may obtain, naming the proposed relation kind, candidate participants, conditions, support, and uncertainty. |
 | consequence claim | A claim about a possible or observed changed state or characteristic, its bearer, conditions, time, support, uncertainty, and causal status. The claim is not the world-side change. |

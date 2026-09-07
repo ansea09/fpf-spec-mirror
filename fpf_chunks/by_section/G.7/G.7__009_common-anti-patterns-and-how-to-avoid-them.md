@@ -6,12 +6,12 @@ section_id: "G.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 105277
-line_end: 105291
+line_start: 105398
+line_end: 105412
 dependencies:
   - "A.21"
   - "B.3"
@@ -19,8 +19,10 @@ dependencies:
   - "C.19"
   - "C.21"
   - "C.23"
+  - "C.3.3"
   - "E.10"
   - "E.18"
+  - "F.17"
   - "F.3"
   - "F.7"
   - "F.9"
@@ -55,8 +57,8 @@ keywords:
 
 * **Bridge‑by‑prose (“they have the same sense”).**
   **Avoid:** publish BCT rows + BridgeCards + UTS rows; require SenseCell anchoring and row scopes.
-* **SenseFamily jump (scope‑bridge used as kind‑bridge).**
-  **Avoid:** keep channel/sense‑family constraints governed by **F.9** visible; use `RowScopeId` to state which channel is claimed, and require `CL^k` + `Ψ(CL^k)` pins when a kind‑channel bridge is invoked (do not “upgrade” a scope‑channel bridge into kind substitution).
+* **Scope or sense relation used as a kind bridge.**
+  **Avoid:** do not substitute a scope or **F.9** sense relation for a **C.3.3** `KindBridge`; use `RowScopeId` to state which channel is claimed, and require `CL^k` + `Ψ(CL^k)` pins when a kind‑channel bridge is invoked (do not “upgrade” a scope‑channel bridge into kind substitution).
 * **Plane blindness (“concept = world”).**
   **Avoid:** record plane pins and policy id pins; keep plane effects auditable and separable from CL/CL^k semantics.
 * **CL smoothing / averaging.**

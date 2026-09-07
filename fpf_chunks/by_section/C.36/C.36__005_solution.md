@@ -6,12 +6,12 @@ section_id: "C.36:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__005_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:4 — Solution"
-line_start: 67868
-line_end: 67995
+line_start: 67932
+line_end: 68063
 dependencies:
   - "A.1"
   - "A.10"
@@ -29,6 +29,7 @@ dependencies:
   - "A.6.RCD"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -60,7 +61,7 @@ keywords:
 
 ### C.36:4 - Solution
 
-First state the cultural-evolution case in ordinary language: what collective or discipline-facing activity is changing, which variants are in play, which relations transmit, recognize, select, retain, or mediate them, and what next action follows. Then use the applicable FPF pattern only for a claim whose definition or test matters.
+First state the cultural-evolution case in ordinary language: which practice and variants are in play, which relations transmit, recognize, select, retain, or mediate them, what the available basis supports, and whether to continue, change, narrow, or stop. Keep the population, period, uncertainty, and receiving-use limits that matter to this conclusion. Then use the applicable FPF pattern only for a claim whose definition or test matters.
 
 An admitted System may perform dated Work, and that Work may enact a Method. Work and Method families may organize comparison. Variants may be preserved, transmitted, selected, suppressed, or refreshed through canon or memory epistemes, recognition and selection relations, mediation systems or architectures, measurement or visibility relations, and publication forms.
 
@@ -70,7 +71,11 @@ Cultural-evolution engineering proposes or performs a deliberate change to one o
 
 Keep a project choice separate from what happens across a practice or population. A project may choose or authorize an intervention, but that does not show that variants were transmitted, recognized, selected, retained, or lost. Conversely, observed spread or persistence does not authorize the project action or show that it succeeded. When both questions matter, record the project choice and performed intervention through their own patterns, then record the cultural relations and their observed change here.
 
-When the question is how the practice may develop, keep more than one serious hypothesis and name an observation that would distinguish them. Use `B.5` and `B.5.2` for hypotheses and their testable consequences. Use `A.3.3` when the claim states a state space and transition law, and use `C.28` when the current use relies on a causal claim. During ongoing Work, use `A.15.7` to choose the next action. Use `C.11` only when a named deciding System already knows what it is deciding, has an already formed set of options, and another observation can change the choice. Without that bounded choice, use the applicable DPF or field Method for experiment or probe design. Use `A.10`, `C.16`, and `C.27` for evidence, measurement, and time limits.
+When the question is how the practice may develop, retain credible hypotheses whose differences could change the continuation, forecast, or warranted use. State the uncertainty that matters; a fixed number of hypotheses is not a completion condition. Use `B.5` and `B.5.2` for a needed hypothesis account and its consequences. A bounded forecast or continuation may be complete on the available basis while a stronger explanation remains unresolved.
+
+Select a new observation or intervention when its attainable result can improve that use enough to warrant its whole cost, delay, participant burden, and displaced work. Include the effort of designing and describing a proposed study, before treating it as an available option. Use `C.11.DUA` when that connection between a demanded inquiry and its receiving value needs recovery, and `C.11` when a named deciding System and an already formed bounded choice exist. The direct DPF or field Method designs and performs a selected inquiry; C.36 is not a general research-budget method. An unavailable or unhelpful probe withholds only the claim that needs it, not an independently supported current account. It creates no study assignment or omitted-experiment record.
+
+Use `A.3.3` when the claim states a state space and transition law, `C.28` when the current use relies on a causal claim, and `A.15.7` for the next action during ongoing Work. Use `A.10`, `C.16`, and `C.27` for the evidence, measurement, and time questions that actually arise.
 
 Use only the smallest form the current task needs:
 

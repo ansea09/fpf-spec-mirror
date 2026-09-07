@@ -6,12 +6,12 @@ section_id: "G.10:6"
 section_title: "Bias‑Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__007_bias-annotation-informative.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:6 — Bias‑Annotation (informative)"
-line_start: 106674
-line_end: 106686
+line_start: 106791
+line_end: 106803
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -55,7 +55,7 @@ keywords:
 
 ### G.10:6 - Bias‑Annotation (informative)
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
+Bias lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
 
 * **Format bias (Arch/Prag).** A popular export format is tempting to treat as “the pack”.
   *Mitigation:* keep Core surfaces conceptual (E.5.2); move serialisation recipes to Annex/Interop; keep conformance on semantics.
@@ -64,5 +64,5 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
 * **Telemetry→dominance bias (Onto/Prag).** Shipping pipelines often “promote” telemetry proxies (illumination/coverage) into ranking.
   *Mitigation:* preserve the telemetry/order separation and require explicit CAL policy‑id for any promotion; record the policy‑id in audit pins/telemetry.
 * **Interop authority bias (Onto/Epist).** External indexes can silently override local legality/typing.
-  *Mitigation:* `G.10‑6` ingests interop only as cited notes (editions + mapping policy refs), never as a replacement governing spec ref.
+  *Mitigation:* `G.10‑7` ingests interop only as cited notes (editions + mapping policy refs), never as a replacement governing spec ref.
 

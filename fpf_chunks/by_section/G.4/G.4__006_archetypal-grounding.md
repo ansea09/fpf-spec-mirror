@@ -6,12 +6,12 @@ section_id: "G.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__006_archetypal-grounding.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:5 — Archetypal Grounding"
-line_start: 103544
-line_end: 103586
+line_start: 103665
+line_end: 103707
 dependencies:
   - "A.10"
   - "A.13"
@@ -58,7 +58,7 @@ keywords:
 
 ### G.4:5 - Archetypal Grounding
 
-**Tell.** A CG‑Frame must choose and justify a set of candidate methods (possibly a selected set or archive) under explicit legality, evidence, and scope constraints. CHR provides the typed measurement basis; CAL declares auditable predicates and flows that separately grounded runtime work may apply.
+**Tell.** A team working within a CG‑Frame must choose and justify a set of candidate methods (possibly a selected set or a set retained in an archive) under explicit legality, evidence, and scope constraints. CHR provides the typed measurement basis; CAL declares auditable predicates and flows that separately grounded runtime work may apply.
 
 **Show 1 (bounded CAL pack skeleton).**
 Use: R&D selected-set choice. The pack names the exact CG frame and EntityOfConcern, candidate-set `ClaimScope`, ReferencePlane, and evaluation window. CHR defines `SafetyClass(ord↑)`, `CostUSD_2026(ratio↓)`, `Readiness(nominal)`.
@@ -68,7 +68,7 @@ Use: R&D selected-set choice. The pack names the exact CG frame and EntityOfConc
 * `CAL.AcceptanceClause: AC_SafetyGate`
   Reusable typed predicate for `SafetyClass` (and its levels), citing `SafetyResultArgument-D1`, the A.6.1 argument declaration that admits a C.16 measurement-result episteme for that Characteristic. Thresholds are valid for the stated `ClaimScope` and evaluation window; unknown handling uses tri-state pins. The clause names no current measurement-result episteme.
 * `CAL.Flow: Flow_ParetoPortfolio`
-  Produces a selected-set result kind; gates by `AC_SafetyGate` and `AC_Budget`.
+  Declares a selected-set result kind; gated by `AC_SafetyGate` and `AC_Budget`.
 * `CAL.EvidenceProfile: EP_SafetyEvidence`
   Declares anchor ids and freshness policy pins required for `SCR`.
 
@@ -85,7 +85,7 @@ The local kind `SafetyAcceptanceEvaluatorSystemRole` is declared under A.2. Its 
 
 The same A.13 core uses `SafetyAcceptanceEvaluationAssignment`, a directly declared `U.SystemRoleAssignment` species under A.2.1. The species defines holder, assigned-kind, and evaluation-candidate participant meanings; its predicate appoints the holder to evaluate that candidate under the applicable clause for the stated scope, situation, and window. `SafetyAcceptanceEvaluationAssignment-17` obtains with `SafetyEvaluatorSystem-17` as holder, `SafetyAcceptanceEvaluatorSystemRole` as assigned-kind value, and `C-17` as evaluation candidate. Its maximal uninterrupted predicate-true interval covers the full stated window.
 
-Only after that A.13 core is established does A.15.1 independently admit `EvalWork-2026-07-30-17 : U.Work` from its exact performance history, enacted `SafetyAcceptanceMethod`, temporal extent, and obtaining containing-System relation to independently admitted `SafetyEvaluationTeamSystem-17`. The actual A.6.1 application `SafetyAcceptanceApplication-17` separately binds candidate `C-17` and current C.16 measurement-result episteme `SafetyMeasureResult-E17` to `SafetyResultArgument-D1` while using unchanged reusable clause `AC_SafetyGate`. Neither the assignment nor an F.6 conclusion is an A.15.1 admission premise.
+Only after that A.13 core is established does A.15.1 independently admit `EvalWork-2026-07-30-17 : U.Work` from its exact performance history, enacted `SafetyAcceptanceMethod`, temporal extent, and obtaining containing-System relation to independently admitted `SafetyEvaluationTeamSystem-17`. The actual A.6.1 application `SafetyAcceptanceApplication-17` binds candidate `C-17` separately from its binding of current C.16 measurement-result episteme `SafetyMeasureResult-E17` to `SafetyResultArgument-D1` while using unchanged reusable clause `AC_SafetyGate`. Neither the assignment nor an F.6 conclusion is an A.15.1 admission premise.
 
 Because this worked case explicitly says that the Work was performed under an assignment, F.6 afterward establishes `performedUnderAssignment(EvalWork-2026-07-30-17, SafetyAcceptanceEvaluationAssignment-17)` through the same obtaining A.13 assignment. The direct case fact links that exact pair, holder equality holds, and the assignment interval covers the Work. A different overlapping assignment held by the same performer would not establish this attribution.
 

@@ -6,12 +6,12 @@ section_id: "E.18.3:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__013_sota-echoing.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:11 — SoTA-Echoing"
-line_start: 87724
-line_end: 87737
+line_start: 87831
+line_end: 87844
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,7 +44,7 @@ keywords:
 | Exact source or practice anchor | FPF adoption | Boundary |
 | --- | --- | --- |
 | OMG, *Case Management Model and Notation (CMMN) Version 1.1*, December 2016 | Use as lineage for weakly structured case-work slices whose positions and relations are constrained without one fixed work order. | CMMN is not treated as current best-known process practice. E.18.3 does not import its notation or make a case-management method. |
-| Esser and Fahland, "OCPQ: Object-Centric Process Querying & Constraints", arXiv:2506.11541, 2025 | Adopt the current object-centric pressure that typed objects and their relations jointly determine constraint queries. This reinforces multi-object flow positions, joins, many-to-many dependencies, exact relation preservation, and explicit reconsideration conditions. | OCPQ governs event-data queries and constraint checking. E.18.3 does not import event-log, query-language, or process-mining ontology, and an OCPQ result does not become transformation-flow structure. |
+| Aaron Küsters and Wil M.P. van der Aalst, "OCPQ: Object-Centric Process Querying & Constraints", arXiv:2506.11541, 2025 | Adopt the current object-centric pressure that typed objects and their relations jointly determine constraint queries. This reinforces multi-object flow positions, joins, many-to-many dependencies, exact relation preservation, and explicit reconsideration conditions. | OCPQ governs event-data queries and constraint checking. E.18.3 does not import event-log, query-language, or process-mining ontology, and an OCPQ result does not become transformation-flow structure. |
 | Chiariello, Fionda, Ielo, and Ricca, "Direct Encoding of Declare Constraints in ASP", arXiv:2412.10152, 2024; Burattin, Maggi, and Sperduti, "Conformance Checking Based on Multi-Perspective Declarative Process Models", arXiv:1503.04957, 2015 | Use as declarative-process lineage for exact guards, crossings, and admissible path slices under several typed perspectives. | E.18.3 does not import Declare, MP-Declare, ASP, or conformance-checking ontology. |
 | Hildebrandt and Mukkamala, "Declarative Event-Based Workflow as Distributed Dynamic Condition Response Graphs", EPTCS 69, 2011; Bagheri Hariri et al., "Verification of Semantically-Enhanced Artifact Systems", arXiv:1308.6292, 2013 | Use as DCR and artifact-centric lineage for distinct relation, condition, response, milestone, and artifact-state positions. | No DCR, GSM, database, or verification-method semantics are adopted as FPF ontology. |
 | JuliaHub, [Dyad 3.2 changelog](https://help.juliahub.com/dyad/stable/manual/changelog.html), [current syntax](https://help.juliahub.com/dyad/stable/manual/syntax.html), and [current analysis documentation](https://help.juliahub.com/dyad/stable/analyses/udes.html), 2026. Current relation-first multi-domain modeling comparator. [Modelica 3.7](https://specification.modelica.org/) is retained only as historical acausal-modeling lineage, not as the SoTA basis. | Dyad keeps reusable component models and their relations distinct from analysis definitions, model compilation, solver or simulation work, and analysis results. E.18.3 adopts that separation for model-related transformation-flow slices: each of those values keeps its own identity and exact connecting relation instead of becoming one calculation or execution order. This content advantage, not the release date, makes Dyad the current comparator; Modelica supplies historical lineage only. | E.18.3 governs only the selected transformation-flow slice that prepares, checks, or uses model-related structure. It does not govern the physical model, compiler or solver semantics, analysis result, performed simulation, or agent edit. |

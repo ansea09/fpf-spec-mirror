@@ -6,12 +6,12 @@ section_id: "A.15.9:9"
 section_title: "Consequences and trade-offs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__010_consequences-and-trade-offs.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.15.9 — Request and Use a Bounded Result from Another Practice"
   - "A.15.9:9 — Consequences and trade-offs"
-line_start: 27916
-line_end: 27927
+line_start: 27926
+line_end: 27937
 dependencies:
   - "A.10"
   - "A.13"
@@ -21,6 +21,7 @@ dependencies:
   - "A.2.1"
   - "A.2.2"
   - "A.2.9"
+  - "C.11.DUA"
   - "C.2.1"
   - "C.38"
   - "E.18.1"
@@ -35,7 +36,7 @@ keywords:
 | Existing-result stop | Avoids unnecessary specialist Work, delay, and duplicate review while keeping stale or wrong-case answers visible. |
 | Smaller requests | Suppliers receive a decision-relevant question and may return an objection or blocker without manufacturing a document-shaped success. |
 | Preserved authority | Supplier judgement and receiver decision stay independently reviewable. |
-| Better failure information | Missing Method, capability, access, authority, evidence, or current source becomes the next actionable result. |
+| Better failure information | Missing Method, capability, access, authority, evidence, or current source limits the affected claim without automatically commissioning its replacement. |
 | Cross-domain reuse | Engineering, administration, finance, governance, science, medicine, law, safety, and other practices can share the boundary without sharing one domain Method. |
 | Additional precision cost | Consequential cases require exact subject, conditions, evidence, authority, and use instead of a familiar approval label. |
 | Bounded conclusion | The result supports only the named receiving use and limits; broader transfer needs another check. |

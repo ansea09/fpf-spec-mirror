@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__006_archetypal-grounding.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:5 — Archetypal Grounding"
-line_start: 8569
-line_end: 8591
+line_start: 8574
+line_end: 8602
 dependencies:
   - "A.10"
   - "A.13"
@@ -20,6 +20,7 @@ dependencies:
   - "A.22"
   - "A.3.1"
   - "A.3.2"
+  - "C.11.DUA"
   - "C.2.1"
   - "C.32.MWA"
   - "F.6"
@@ -48,4 +49,10 @@ If the correlation key, configuration, or source window cannot be recovered, the
 #### A.3.1.MR:5.3 - Record-only lowering
 
 Three timestamped records show that one operator checked A before B on three shifts, but the performer assignments, applicability, source window, and purpose of the sequence cannot be grounded. The useful result is an observed sequence in those records and a list of missing facts. It is not a candidate Method account, Method, or MethodDescription.
+
+#### A.3.1.MR:5.4 - A current account without another investigation
+
+In a constructed continuation of the pump-inspection case, the supervisor needs only to compare the two candidate explanations against the four existing records before deciding how to organize the instruction material. The fixed-order and cue-responsive accounts, their separate subjects, source support and missing tactile contribution are enough for that limited comparison. Both remain provisional. No new question, fifth visit or research plan is needed to complete the requested account.
+
+If the receiving use changes to choosing an uncued inspection order in vibration cases, the cue response becomes a load-bearing distinction. State the question and preserve the unresolved boundary even when a fifth visit is unavailable. Select an actual investigation only if a suitable performer, source access, permission and window make useful discrimination worth its whole burden. Neither the useful question nor an available plan admits a Method or supplies an observed answer.
 

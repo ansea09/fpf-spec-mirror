@@ -6,12 +6,12 @@ section_id: "G.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__019_relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:12 — Relations"
-line_start: 104576
-line_end: 104605
+line_start: 104697
+line_end: 104726
 dependencies:
   - "C.11"
   - "C.18"
@@ -73,7 +73,7 @@ keywords:
 
 * Causal-use method dispatch: `C.28` when method selection involves causal effect, counterfactual comparison, causal fairness, causal policy, causal RL, or simulation-only causal-use claims.
 * Optional Method or generator extensions through `G.5:Ext.*`: `C.18`, `C.19`, `C.23`, plus extension-bearing patterns whose exact Part G admission relation is established when they add extra selector pins.
-* Mathematical-lens use: apply `C.29` when a selector input depends on a mathematical object or mapping whose use is not yet recoverable—for example, a comparator, distance, descriptor geometry, embedding, normalization, surrogate model, learned representation, QD archive descriptor, model-family label, or model-selection basis. Recover that object's mapping mode, preserved or lost structure, and stop condition. The recorded result is a C.29 lens-use result; non-exhaustive examples include no lens use, a lens-candidate note, a one-line note, a mini-card, a full card, or a note naming the applicable pattern for the stated selector use. That result does not declare a selector result or its supporting records, such as the selected set, selector policy, registry row, shortlist, ranked shortlist, or selector evidence pins; use `G.5` for those objects and cite the exact references used.
+* Mathematical-lens use: apply `C.29` when a selector input depends on a mathematical object or mapping whose use is not yet recoverable—for example, a comparator, distance, descriptor geometry, embedding, normalization, surrogate model, learned representation, QD archive descriptor, model-family label, or model-selection basis. For claim-bearing lens use, recover that object's mapping mode, preserved or lost structure, and stop condition. A `LensCandidateNote` may instead retain the recognition and next-action account while `CandidateMathObject?` remains unresolved. The recorded result is a C.29 lens-use result; non-exhaustive examples include no lens use, a lens-candidate note, a one-line note, a mini-card, a full card, or a note naming the applicable pattern for the stated selector use. That result does not declare a selector result or its supporting records, such as the selected set, selector policy, registry row, shortlist, ranked shortlist, or selector evidence pins; use `G.5` for those objects and cite the exact references used.
 
 **Provides to:** downstream uses such as `G.6` audit citations, RSCR emission records with typed triggers and payload pins, and packs shipped through `G.10`. When a named use needs stable public identity, publish the required family ids, selector policy records, or selected-set identities—such as `ShortlistId`—to `UTS` under the applicable identity rule.
 

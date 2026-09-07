@@ -6,12 +6,12 @@ section_id: "A.3:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__004_problem.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:3 — Problem"
-line_start: 7792
-line_end: 7802
+line_start: 7797
+line_end: 7807
 dependencies:
   - "A.10"
   - "A.12-A.15"

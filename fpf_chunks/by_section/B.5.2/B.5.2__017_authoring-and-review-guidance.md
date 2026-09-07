@@ -6,12 +6,12 @@ section_id: "B.5.2:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__017_authoring-and-review-guidance.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:16 — Authoring and Review Guidance"
-line_start: 41283
-line_end: 41311
+line_start: 41330
+line_end: 41358
 dependencies:
   - "A.10"
   - "A.16"
@@ -50,12 +50,12 @@ Hypothesis reviewers should not ask only whether the chosen hypothesis looks pla
 - whether the prompt was typed in an admissible way,
 - whether at least one real rival was preserved,
 - whether the filters named at selection time actually discriminate among candidates,
-- whether the selected hypothesis has a credible downstream test, deduction, or evidence-acquisition relation,
+- whether the selected hypothesis has interpretable implications and a meaningful possible discriminator, with actual availability kept separate from that explanatory contribution,
 - and whether any scope inflation occurred during selection.
 
 A polished hypothesis with no visible rivals is usually less trustworthy than a rougher hypothesis whose rival space is explicit.
 
 #### B.5.2:16.3 - For integrators and assurance leads
 
-Integrators should remember that `L0` is still early assurance. `B.5.2` supplies disciplined conjectures, not corroborated claims. Its value is that it exposes where deduction, method design, and evidence acquisition should now concentrate. Assurance leads therefore should preserve the prompt link and the filter rationale rather than flattening the conjecture into a decontextualized work item.
+Integrators receive a qualified conjecture, not early assurance conferred by an `L0` label. Preserve its prompt, rivals, supports, filter rationale and fragilities. Use B.3.3 only for a receiving assurance question, C.11 for a feasible-action or evidence-acquisition choice, and C.28 for causal support when needed. An unavailable probe can leave the explanation unresolved while an independently warranted bounded service action remains useful; do not turn the conjecture into a mandatory work item.
 

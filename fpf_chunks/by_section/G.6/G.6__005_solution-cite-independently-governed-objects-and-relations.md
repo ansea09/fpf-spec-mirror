@@ -6,12 +6,12 @@ section_id: "G.6:4"
 section_title: "Solution — cite independently governed objects and relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__005_solution-cite-independently-governed-objects-and-relations.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:4 — Solution — cite independently governed objects and relations"
-line_start: 104663
-line_end: 104822
+line_start: 104784
+line_end: 104943
 dependencies:
   - "A.10"
   - "A.13"
@@ -63,7 +63,7 @@ Create an `EvidenceGraph` only after the relied-on claim or bounded use and its 
 
 | Represented claim or object | Subject pattern before G.6 represents it |
 | --- | --- |
-| Reusable method, generic participants, parameters, effects, and conditions | exact `U.Method`; `A.3.2` for its `U.MethodDescription` |
+| Reusable method, generic participants, parameters, effects, and conditions | `A.3.1` for the exact `U.Method`; `A.3.2` for its `U.MethodDescription` |
 | Independently admitted dated Work and its exact actual performer refs; optional obtaining F.6 relation and assignment occurrence refs when the path expressly consumes attribution; enactment, resources, and direct participation or binding facts | `A.13` for each exact actual performer and `A.15.1` for independent Work admission; `F.6` and `A.2.1` only when the path represents precise assignment-bound attribution; the exact direct participation or resource relation; and `A.6.1` for operation-application bindings |
 | Production or inception of an entity or episteme | one exact local A.15.PROD claim when its entry condition is met, or a direct subject predicate under its own pattern |
 | Measurement result and its measurement-specific basis | `C.16` |
@@ -168,7 +168,7 @@ PathCitationRecord:
   ReopenTrigger
 ```
 
-`NotCarried` names every stronger use that the path does not establish: Work occurrence, participation, production, claim truth, assurance, approval, permission, gate passage, release, causal identification, benchmark superiority, acceptance, or decision. Actual downstream use requires one independently admitted dated Work ref, its A.13-qualified performer refs, and one exact premise, reference, operation-argument, decision-use, or other direct relation. Add attribution refs only when that downstream use expressly consumes precise assignment-bound attribution; path availability or citation is not actual use.
+`NotCarried` names every stronger claim or use that the path does not establish: Work occurrence, participation, production, claim truth, assurance, approval, permission, gate passage, release, causal identification, benchmark superiority, acceptance, or decision. Actual downstream use requires one independently admitted dated Work ref, its A.13-qualified performer refs, and one exact premise, reference, operation-argument, decision-use, or other direct relation. Add attribution refs only when that downstream use expressly consumes precise assignment-bound attribution; path availability or citation is not actual use.
 
 #### G.6:4.4 - Provenance ledger
 

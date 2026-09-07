@@ -6,12 +6,12 @@ section_id: "A.22:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__004_forces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:3 — Forces"
-line_start: 35540
-line_end: 35550
+line_start: 35552
+line_end: 35562
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -76,5 +76,5 @@ keywords:
 | Description and view usability vs structure confusion | Descriptions and views make structure inspectable, but a useful view can be mistaken for the structure itself. |
 | Mathematical-lens application vs mathematical overread | C.29 lens output is usable within its declared mapping, preserved structure, lost structure, and stop condition; any evidence, causal, assurance, or decision claim uses its own predicate and result. |
 | Architecture dependency vs architecture takeover | Architecture uses selected structure through `C.30`; A.22 does not import architecture as its parent or make every structure an architecture. |
-| Plain engineering speech vs Tech recovery | Words such as structure, graph, architecture, module, function, interface, pattern, block, layer, level, tier, stack, expert, cache, router, and gate can remain in Plain prose, but FPF use needs recoverable Tech fields and pattern applications. Use `C.30.STRAT` to recover source labels before A.22 accepts a selected-structure portion. |
+| Plain engineering speech vs Tech recovery | Words such as structure, graph, architecture, module, function, interface, pattern, block, layer, level, tier, stack, expert, cache, router, and gate can remain in Plain prose, but a claim that depends on their precise meaning needs recoverable Tech fields and pattern applications. Use `C.30.STRAT` when a source label leaves the selected-structure claim ambiguous. |
 

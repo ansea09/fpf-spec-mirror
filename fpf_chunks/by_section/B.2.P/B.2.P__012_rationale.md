@@ -6,12 +6,12 @@ section_id: "B.2.P:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__012_rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:9 — Rationale"
-line_start: 38664
-line_end: 38669
+line_start: 38676
+line_end: 38681
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.24"
   - "F.18"
+  - "F.19"
   - "G.11"
 keywords:
 ---
@@ -48,5 +49,5 @@ keywords:
 
 Emergence-family wording is useful because it marks a possible explanatory concern. It is dangerous because it can hide the actual object: a holon, system, episteme, capability, characteristic, architecture structure, mathematical expression, evidence relation, source publication, or collection.
 
-B.2.P follows the E.10.ARCH algorithm: recover ontology first, then choose wording. This prevents one word from creating several local ontologies.
+B.2.P follows F.19's whole-span reading with compact E.10 cues; E.10.ARCH or a direct subject rule resolves only the remaining FPF ontology question, after which F.19 tests the repaired sentence. This prevents one word from creating several local ontologies.
 

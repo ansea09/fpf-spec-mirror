@@ -6,12 +6,12 @@ section_id: "C.19:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__013_conformance-checklist.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:7 — Conformance Checklist"
-line_start: 50845
-line_end: 50864
+line_start: 50907
+line_end: 50926
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -67,7 +67,7 @@ keywords:
 - **C19-12** If exploration collects data for a causal claim, learns or evaluates a causal policy, or treats counterfactual replay as support, `PoolPolicyResult.causalUseSpec?` **MUST** carry the target rung, claim kind, available support-component refs, supported use, unsupported use, and the C.28 support-result ref when one is consumed.
 - **C19-13** A pool-policy record for still-live loop-engineering candidates—for example, loops, agent harnesses, workflows, or DPF seeds—names the pool, governing lens, current treatment, and change trigger. Fresh generation, archive work, or front recomputation uses `C.18` as the pool-policy pass specifies. Any other next-result question uses the exact transfer in `C.19:4.4`; C.19 does not absorb improvement, declaration or publication, choice, Work, or refresh.
 - **C19-14** A pool-policy record, its evidence, and its treatment constitute neither an actual Problem nor `ProblematicForRelation`, improvement result, work result, project Work or parthood, `ChoiceResult`, public selected set, work permission, nor refreshed edition.
-- **C19-15** Graduation, scaling, or widening **MUST** cite its direct `graduationConditionRef`. If that judgement relies on assurance, `assuranceResultRef?` cites the exact B.3 result and `changeTrigger` names the satisfied condition and bounded supported scope. A policy threshold or label does not create an assurance result.
+- **C19-15** Graduation, scaling, or widening an already supported use **MUST** cite its direct `graduationConditionRef`. If that judgement relies on assurance, `assuranceResultRef?` cites the exact B.3 result and `changeTrigger` names the satisfied condition and bounded supported scope. Widening exploration, continuing a line, retaining it without new probing, or sunsetting it **MUST** follow the stated continuation basis, including its contribution, feasible commitments and opportunity cost. Failure to graduate alone supplies neither a retirement decision nor a reason for indefinite continuation. A policy threshold or label does not create an assurance result.
 
 
 

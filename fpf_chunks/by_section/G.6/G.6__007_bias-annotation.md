@@ -6,12 +6,12 @@ section_id: "G.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__007_bias-annotation.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:6 — Bias-Annotation"
-line_start: 104847
-line_end: 104858
+line_start: 104968
+line_end: 104979
 dependencies:
   - "A.10"
   - "A.13"
@@ -59,7 +59,7 @@ keywords:
 
 | Bias | Guard |
 | --- | --- |
-| Graph-authority bias | A node or edge represents an object or direct relation only after its governor establishes it. |
+| Graph-authority bias | A node or edge represents an object or direct relation only after that object or obtaining relation has been independently established under its governing rule. |
 | Generic-edge bias | Reject fallback `verifiedBy`, `validatedBy`, `measuredBy`, `producedByWork`, and `evidences` relations; recover the exact direct relation. |
 | Result-node bias | Keep subject result, result episteme, carrier, outcome, assurance, and later action distinct. |
 | Declaration-runtime bias | A method, description, policy, clause, signature, or plan establishes no occurrence or actual binding. |

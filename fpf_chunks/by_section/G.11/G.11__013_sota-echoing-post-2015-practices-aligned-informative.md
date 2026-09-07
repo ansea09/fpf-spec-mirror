@@ -6,12 +6,12 @@ section_id: "G.11:11"
 section_title: "SoTA-Echoing — Post‑2015 practices aligned (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__013_sota-echoing-post-2015-practices-aligned-informative.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:11 — SoTA-Echoing — Post‑2015 practices aligned (informative)"
-line_start: 107119
-line_end: 107164
+line_start: 107242
+line_end: 107287
 dependencies:
   - "A.6.RCD"
   - "B.3.4"
@@ -35,21 +35,20 @@ keywords:
   - "Bridge Sentinels"
   - "PathSlice"
   - "RSCR"
-  - "decay"
   - "deprecation"
-  - "edition bumps"
   - "edition-aware"
   - "epistemic debt"
   - "re-shipping"
   - "refresh"
   - "telemetry"
+  - "use-qualified currentness"
 ---
 
 ### G.11:11 - SoTA-Echoing — Post‑2015 practices aligned (informative)
 
 Each entry follows: **claim → practice → source → alignment → adoption status**.
 
-**0. Queue-7 QD currentness requires visible survey support.**
+**0. QD currentness requires visible survey support.**
    Practice: current QD work is surveyed as approaches, applications, and challenges, with archive, diversity, descriptor, and evaluator-currentness concerns still live.
    Source: `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, Swarm and Evolutionary Computation 2026, DOI `10.1016/j.swevo.2025.102240`.
    Alignment: `RefreshCurrentnessLine@Context` may name selected set, `Front`, `Q-front`, `ExplorationArchive`, `Archive`, portfolio lineage, descriptor or distance edition, and path-slice scope, while `C.18`, `C.19`, and `G.5` keep archive, pool, and selected-set meanings.
@@ -70,7 +69,7 @@ Each entry follows: **claim → practice → source → alignment → adoption s
 2. **Non-stationarity requires explicit drift and decay handling, not ad-hoc updates.**
    Practice: continual learning emphasizes non-stationarity as a first-class maintenance condition.
    Source: Parisi et al., *Continual Lifelong Learning with Neural Networks* (`arXiv:1802.07569`, 2019); De Lange et al., *A Continual Learning Survey* (`arXiv:1909.08383`, 2021).
-   Alignment: `B.3.4` supplies decay semantics; `G.11` wires decay events into refresh planning and controlled deprecation.
+   Alignment: `B.3.4` supplies use-qualified currentness. `G.11` interprets changed conditions and justified review signals before planning an affected-scope refresh; elapsed time alone implies neither truth decay nor deprecation.
    Adoption: **Adapt** (refresh of conceptual artefacts and evidence closures, not untracked model mutation).
 
 3. **Quality-Diversity requires archive semantics and comparability under descriptor and distance evolution.**
@@ -85,7 +84,7 @@ Each entry follows: **claim → practice → source → alignment → adoption s
    Alignment: `G.11:Ext.OEERefreshWiring` requires `TransferRulesRef.edition` and scope pins so refresh reruns remain comparable and auditable.
    Adoption: **Adopt and adapt** (adapted to Part G pin and UTS publication discipline).
 
-5. **Efficient orchestration benefits from bandit and early-stopping scheduling, but it must not become semantics.**
+5. **Efficient orchestration benefits from bandit and early-stopping scheduling, but scheduling must not redefine trigger, action, parity, shipping, or Part-G-wide default semantics.**
    Practice: modern hyperparameter and experiment scheduling uses bandit-style resource allocation and asynchronous early stopping.
    Source: ASHA (`arXiv:1810.05934`) and BOHB (`arXiv:1807.01774`) as representative post-2015 scheduling practice.
    Alignment: scheduling is expressed as `RefreshQueue` and `RefreshPlan@Context` policy pins (`RefreshPriorityPolicyIdRef`, `BudgetDeclRef`) so core semantics remain stable and the exact `U.WorkPlan` stays separate from dated Work.

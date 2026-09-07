@@ -6,12 +6,12 @@ section_id: "B.2.5:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__011_consequences.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:8 — Consequences"
-line_start: 39499
-line_end: 39512
+line_start: 39511
+line_end: 39524
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,6 +33,8 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30.LCA"
+  - "E.10"
+  - "F.19"
   - "G.6"
 keywords:
 ---
@@ -48,6 +50,6 @@ Positive consequences:
 Costs:
 
 - A feedback relation record is only the beginning of stronger analysis.
-- Some control diagrams become less impressive because their unproven claims are separated.
+- Some control diagrams need qualification because their stronger claims remain unproven.
 - Episteme examples require explicit acting systems for review and revision.
 

@@ -6,12 +6,12 @@ section_id: "A.7.CP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__005_forces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:3 — Forces"
-line_start: 22263
-line_end: 22272
+line_start: 22274
+line_end: 22283
 dependencies:
   - "A.7"
   - "A.7.1"

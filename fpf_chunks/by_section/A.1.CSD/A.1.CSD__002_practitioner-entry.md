@@ -6,7 +6,7 @@ section_id: "A.1.CSD:0"
 section_title: "Practitioner Entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__002_practitioner-entry.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:0 — Practitioner Entry"
@@ -17,6 +17,7 @@ dependencies:
   - "A.1.SCR"
   - "A.10"
   - "A.14"
+  - "A.15.9"
   - "A.6.RCD"
   - "B.1"
   - "B.1.2"
@@ -24,6 +25,7 @@ dependencies:
   - "B.2.2"
   - "C.11"
   - "C.11.CRC"
+  - "C.11.DUA"
   - "C.13"
   - "C.2.1"
   - "C.27"
@@ -42,13 +44,13 @@ Ask: **Which other Systems may undergo a relevant change, through what supported
 
 **First useful move.** Name the exact focus and receiver. Generate a small set of concrete change-producing possibilities, trace outward through supported direct relations or explicitly modal path claims, and challenge the current boundary for a missing bearer.
 
-**First useful result.** Return the smallest bounded affected-System consequence account that changes or holds open the named receiver. One qualified consequence claim and one unresolved bearer or path are enough when they lead to a probe, constraint, alternative, monitoring condition, or honest stop.
+**First useful result.** Return the smallest bounded consequence account useful to the named decision or investigation. A qualified claim, retained constraint or alternative, modal path, or explicit unknown can finish the answer with its material limit. Further discovery is selected only when its obtainable contribution warrants the whole burden.
 
-**Cheap stop.** Stop if the current bearer set and consequence claims already support the receiver at the declared configuration, scope, horizon, and evidence window. Also stop when an exact non-System finding or missing relation blocks the next claim; return that finding to its direct owner instead of inventing a System.
+**Cheap stop.** Stop if the current bearer set and consequence claims already support the receiver at the declared configuration, scope, horizon, and evidence window. Also stop the affected claim branch when an exact non-System finding or missing relation blocks its next claim; return that finding to its direct owner instead of inventing a System.
 
 **What goes wrong if missed.** A familiar participant list becomes the boundary of inquiry, a possible path is reported as an obtaining relation, a scale label stands in for a constructed whole, or unlike changes disappear inside one aggregate. The receiver closes while a cheap observation or alternative could still have changed it.
 
-**What this buys.** The practitioner gets a reviewable set of possible bearers, relation-status claims, changed characteristics, evidence limits, and next probes without importing a full domain impact, risk, due-diligence, or assessment procedure.
+**What this buys.** The practitioner gets a reviewable set of possible bearers, relation-status claims, changed characteristics, evidence limits, and a useful receiving result without importing a full domain impact, risk, due-diligence, or assessment procedure.
 
 **Not this pattern when.**
 

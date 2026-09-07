@@ -6,12 +6,12 @@ section_id: "E.18.NET:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 88096
-line_end: 88108
+line_start: 88203
+line_end: 88215
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -45,7 +45,7 @@ keywords:
 | One giant flow | Development, use, evaluation, and refresh are called valuations solely because they are coupled. | Test shared TFS identity; when independent members and a direct relation are needed, select a network. |
 | Detail becomes a member | A zoomed diagram, team boundary, or named stage becomes another TFS. | Use E.18 `SubflowRef` while every position and internal transfer still resolves in one parent. |
 | Universal cross-flow edge | `creates`, `produces`, `uses`, `input`, `result`, `handoff`, or `transfer` labels stand in for several relations. | Apply the pattern that defines or tests the exact relation and carry its result. Only after a positive occurrence, test endpoint bindings and other network discriminators separately. |
-| Record makes the world | Filling `memberRows` or drawing edges is treated as establishing members and relations. | Ground members and relation occurrences first; keep the record descriptive. |
+| Record makes the world | Filling `directMemberRows[]` or drawing edges is treated as establishing members and relations. | Ground members and relation occurrences first; keep the record descriptive. |
 | Recursive flattening | A parent copies all nested positions and state into one global graph. | Keep finite member paths and expose only the boundary positions needed by the parent use. |
 | Global design/run ladder | One `DesignRunTag` is assigned to the network. | Restore one tag per exact leaf position binding. |
 | Network as actor or workflow | The network builds, evaluates, repairs, schedules, or authorizes. | Name the acting system and its Work, or the exact decision, gate, or assurance claim and result; keep the network non-agentive. |

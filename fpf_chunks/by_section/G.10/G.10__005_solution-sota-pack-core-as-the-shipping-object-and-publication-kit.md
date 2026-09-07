@@ -6,12 +6,12 @@ section_id: "G.10:4"
 section_title: "Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__005_solution-sota-pack-core-as-the-shipping-object-and-publication-kit.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:4 — Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
-line_start: 106378
-line_end: 106660
+line_start: 106495
+line_end: 106777
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -104,7 +104,7 @@ Effective obligations/pins/triggers are computed as **union(expand(sets), explic
   }
   *(Optional pins from `CrossingVisibilityPins` MAY be strengthened to unconditional by listing them above; `G.10` typically strengthens `UTSRowId[]` and path/crossing bundles when the pack is publicly shipped.)*
 
-* `TriggerAliasMapRef` := `∅` *(no local trigger tokens in Phase‑2)*
+* `TriggerAliasMapRef` := `∅` *(canonical trigger ids are used directly)*
 
 > **Mode‑specific definition pins.** Any additional pins required for QD/OEE/interop shipping are introduced only by `GPatternExtension` blocks in `G.10:4.6` (never smuggled into the core linkage).
 
@@ -218,9 +218,9 @@ The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, 
 `G.10` prescribes a minimal, governing-definition delegating sequence for composing a shipped pack:
 
 1. **S‑1 — Gather & pin.** Collect upstream artefact ids and verify the **required pins** implied by the linkage manifest (edition pins, policy pins, UTS/Path pins).
-2. **S‑2 — Compose `SoTA‑Pack(Core)` + MOO disclosure.** Assemble the pack object and attach a **`MOOManifest`** that lists the referenced mechanisms/policies/editions that produced the shipped outcomes (ids only; semantics stay with governing definitions).
-3. **S‑3 — Publish selection/parity roster (selector‑facing).** Produce a selector‑readable `PortfolioRosterId` with the parity/definition pins required for reproducibility; do not mandate formats.
-4. **S‑4 — Anchor and publish path citations.** Ensure A.10 anchors exist and publish/record `PathId/PathSliceId` citations required for downstream explainability (e.g., `C.23/H4`) and maturity rung changes.
+2. **S‑2 — Compose `SoTA‑Pack(Core)` + MOO disclosure.** Assemble the pack object and attach a **`MOOManifest`** that lists the referenced mechanisms and policies used, at their exact editions, to obtain the shipped outcomes (ids only; semantics stay with governing definitions).
+3. **S‑3 — Publish selection/parity roster (selector‑facing).** Except when the inputs-only presence-rule exception in §4.2.1 is used, produce a selector‑readable `PortfolioRosterId` with the parity/definition pins required for reproducibility; do not mandate formats.
+4. **S‑4 — Anchor and publish path citations.** Ensure A.10 anchors exist and publish/record `PathId/PathSliceId` citations required for downstream explainability (e.g., the `C.23` W2 `AdmissibilityLedger`) and maturity rung changes.
 5. **S‑5 — Expose CrossingBundle.** For each GateCrossing relevant to the shipped artefacts, expose the required `CrossingBundle` references (fail fast on missing or non‑conformant bundles when required).
 6. **S‑6 — Emit telemetry pins for refresh planning.** Whenever illumination increases or archive/OEE pin state changes, emit PathSlice‑keyed telemetry with policy‑id and the active `…Ref.edition` pins (and QD `EmitterPolicyRef`/`InsertionPolicyRef` when applicable).
 7. **S‑7 — Publish to UTS (twin labels).** Mint/refresh UTS Name Cards needed to cite the pack and shipped heads (Tech/Plain twins when required); cross‑Context identity travels only via Bridges with CL and loss notes.
@@ -235,7 +235,7 @@ The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, 
 | **G.10‑3** | `Expose_CrossingHooks`     | GateCrossings, lanes/planes/contexts                              | **CrossingBundle** (**E.18:CrossingBundle**) per GateCrossing; **fail** on missing/non‑conformant bundles |
 | **G.10‑4** | `Pack_MOO`                 | referenced mechanism/policy/edition ids                           | `MOOManifestId` (ids only; governing-definition delegating) |
 | **G.10‑5** | `Emit_TelemetryPins`       | Illumination/archive/OEE events                                   | PathSlice‑keyed telemetry: `policy‑id`, `…Ref.edition` (+ QD/OEE pins when applicable) |
-| **G.10‑6** | `Publish_PathCitations`    | A.10 anchors, PathIds                                             | PathId/PathSlice citations for `C.23/H4` & rung changes |
+| **G.10‑6** | `Publish_PathCitations`    | A.10 anchors, PathIds                                             | PathId/PathSlice citations for the `C.23` W2 `AdmissibilityLedger` & rung changes |
 | **G.10‑7** | `Ingest_InteropSurface?`   | (optional) `G.13 InteropSurface@Context`                          | Annotated pack notes citing external‑index editions     |
 
 *Surfaces remain **conceptual** per **E.5.2**; RO‑Crate/ORKG/OpenAlex mappings belong to **Annex/Interop** and do not affect Core conformance.*
@@ -313,7 +313,7 @@ All method‑/generator‑/interop‑specific shipping extension declarations li
 
 #### G.10:4.7 - Published surfaces must ship kind, source, derivation, lens, and shortlist token
 
-- Published surfaces should carry the selector outcome kind and, when applicable, the set-result kind or handoff kind, plus the subject kind, source set kind, and relevant declared surface pins.
+- Published surfaces should carry the subject kind, source set kind, and relevant declared surface pins. When a selector outcome is shipped, they should also carry its outcome kind and, when applicable, the set-result kind or handoff kind.
 - These are publication payload metadata fields inside `SoTA-Pack(Core)`, not publication face kinds, publication form kinds, interop publication form kinds, or carrier kinds.
 - Good publication fields include `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `subjectKind`, `sourceSetFamily`, `sourceSetComposition`, `dominanceRegime`, `lensId`, `shortlistId`, and any declared archive or promotion-policy ids that the reader needs to interpret the visible set.
 - Those payload fields should use controlled tokens, cited ids, or already-declared head labels rather than shipping-local prose values.
@@ -326,12 +326,12 @@ All method‑/generator‑/interop‑specific shipping extension declarations li
 
 #### G.10:4.7.1 - Worked publication slice
 
-- If the visible surface is one tradition front under the declared `Q`, publish `selectorOutcomeKind=SetResultOutcome`, `setResultFamily=Front`, `sourceSetFamily=Front`, `derivedViewKind=TraditionFront`, and keep `basePaletteRef=SoTAPaletteDescriptionId` recoverable instead of pretending that the palette itself already was that front.
+- If the visible surface is one tradition front under the declared `Q`, publish `sourceSetFamily=Front`, `derivedViewKind=TraditionFront`, and keep `basePaletteRef=SoTAPaletteDescriptionId` recoverable instead of pretending that the palette itself already was that front. Publish `selectorOutcomeKind` only when a G.5 selector outcome is also shipped, and `setResultFamily` only for its `SetResultOutcome` branch.
 - If one shortlist is emitted from that derived tradition front, publish `selectorOutcomeKind=SetResultOutcome`, `setResultFamily=Shortlist`, `sourceSetFamily=Front`, `derivedViewKind=TraditionFront`, `basePaletteRef=SoTAPaletteDescriptionId`, and the named `lensId` together.
 - If that same shortlisted surface is emitted as one stable public object, also publish `shortlistId=<...>` and keep it recoverable that the token names that shortlist rather than replacing it.
-- If one retained tradition archive view is shown, publish `selectorOutcomeKind=SetResultOutcome`, `setResultFamily=Archive`, `sourceSetFamily=Archive`, `derivedViewKind=TraditionArchive`, and keep the same `basePaletteRef` recoverable.
+- If one retained tradition archive view is shown, publish `sourceSetFamily=Archive`, `derivedViewKind=TraditionArchive`, and keep the same `basePaletteRef` recoverable. A G.5 selector outcome, when also shipped, carries its admitted outcome kind and, only for a `SetResultOutcome`, its set-result kind.
 - If the shortlist is later ordered, publish `setResultFamily=RankedShortlist` and keep the declared source set visible.
-- Do not publish `setResultFamily=ChoiceSet` unless the shipped object is explicitly one mathematical analysis artifact rather than the public selected set.
+- Use `ChoiceSet` only as a mathematical gloss when the shipped object is explicitly one mathematical analysis artifact rather than the public selected set; it is not a `setResultFamily` value.
 - Do not publish `sourceSetFamily=TraditionPalette` alone when the visible object is already one derived tradition view; readers need to know which view is on the surface and which base palette it depends on.
 - Do not publish `TraditionFront` or `TraditionArchive` as if they were the default meaning of `Tradition`.
 - Do not ask `portfolioMode` to tell the reader whether they are seeing one palette, one front, one archive, or one shortlist.

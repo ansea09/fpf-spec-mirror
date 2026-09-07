@@ -6,28 +6,35 @@ section_id: "B.3.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:1 — Problem Frame"
-line_start: 39944
-line_end: 39949
+line_start: 39976
+line_end: 39985
 dependencies:
   - "A.10"
   - "B.3"
-  - "B.3.3"
-  - "B.4"
+  - "C.11"
+  - "C.19.2"
+  - "C.27.TA"
+  - "G.11"
 keywords:
-  - "decay"
+  - "age"
+  - "changed premise"
   - "epistemic debt"
-  - "evidence aging"
-  - "freshness"
-  - "stale data"
+  - "evidence currentness"
+  - "qualification window"
+  - "refresh"
 ---
 
-### B.3.4:1 - **Problem Frame**
+### B.3.4:1 - Problem Frame
 
-The FPF assurance model (Pattern B.3.3) provides a robust framework for building trust in holons by anchoring claims to a rich body of evidence. However, it implicitly treats this evidence as timeless. A proof verified today is assumed to hold forever; a validation test run last year is given the same weight as one run yesterday. This assumption is dangerously flawed in any dynamic environment.
+**Use this when.** An earlier result is being relied on now, and a changed condition or a due review may change whether it still supports the receiving claim. Begin with the relied-on use and the premise that may have changed.
 
-Consider a bridge certified in 1980. The assurance case, resting on evidence about steel fatigue from that era, would be considered highly reliable *at that time*. Today, after decades of environmental change, new material science insights, and an entirely different traffic load, would we still trust that original certification without re-evaluation? The context has drifted, and the original evidence has lost its relevance. FPF requires a formal mechanism to account for this natural decay of trust.
+A bridge's earlier assessment may remain applicable to its unchanged bounded use, while a new traffic load defeats that assessment before its scheduled review. A library result can remain applicable to unchanged dependencies yet fail to address a newly discovered relevant vulnerability. The age of either report does not distinguish these cases.
+
+**Practical gain.** Reconsider the affected support in time to change the decision, while retaining useful results whose relevant premises still hold.
+
+**Ordinary boundary.** Do not open a new assurance procedure solely because a carrier is older. If available information already establishes applicability for the immediate use, continue on that basis without a renewal or skip-refresh certificate. A real licence deadline, calibration qualification or promised-use window remains a condition of the actual use.
 

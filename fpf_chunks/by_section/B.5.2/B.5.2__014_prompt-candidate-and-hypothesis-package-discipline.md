@@ -6,12 +6,12 @@ section_id: "B.5.2:13"
 section_title: "Prompt, Candidate, and Hypothesis Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__014_prompt-candidate-and-hypothesis-package-discipline.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:13 — Prompt, Candidate, and Hypothesis Package Discipline"
-line_start: 41166
-line_end: 41206
+line_start: 41209
+line_end: 41249
 dependencies:
   - "A.10"
   - "A.16"
@@ -54,19 +54,19 @@ A candidate-set note is the minimal record that preserves rival plurality. It ne
 - the differentiating claim each candidate adds,
 - the principal plausibility supports and liabilities of each candidate,
 - whether the candidate remains live, is deferred, or is rejected,
-- and what missing evidence or probe would best discriminate among the remaining rivals.
+- and the implication or possible evidence that would best discriminate among remaining rivals, with an availability limitation when it changes the receiving use.
 
 The important point is not bureaucratic completeness. The important point is to prevent retrospective rewriting in which the surviving candidate is made to look as if it had been the only serious option from the beginning.
 
 #### B.5.2:13.3 - Prime-hypothesis record
 
-A selected prime hypothesis should preserve more than the hypothesis sentence itself. A conforming `L0` hypothesis record should name:
+A selected prime hypothesis should preserve more than the hypothesis sentence itself. Its record names:
 
 - the **selected candidate**,
 - the **prompt** it answers,
 - the **filters** under which it outranked rivals,
 - the **scope** within which it is being advanced,
-- the **next admissible downstream move** (deduction, probe design, targeted evidence acquisition, or explicit reopening criteria),
+- the **allowed downstream use or next question**, which may concern deduction, a possible probe, a separately justified action or reconsideration; include availability limits when they change that use,
 - and any **known fragilities** already visible at selection time.
 
 This is how `B.5.2` stays connected to the rest of the reasoning cycle. The abductive loop does not merely emit an idea; it emits a conjecture with explicit downstream-use terms.

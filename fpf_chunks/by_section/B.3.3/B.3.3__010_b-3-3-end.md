@@ -6,30 +6,24 @@ section_id: "B.3.3:End"
 section_title: "B.3.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__010_b-3-3-end.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:End — B.3.3:End"
-line_start: 39940
-line_end: 39941
+line_start: 39972
+line_end: 39973
 dependencies:
   - "A.10"
-  - "A.19"
-  - "A.4"
   - "B.3"
-  - "B.4"
-  - "C.16"
-  - "C.2.1"
-  - "D.4"
-  - "U.Episteme"
+  - "B.3.4"
+  - "B.3.5"
+  - "C.28"
 keywords:
-  - "L0-L2"
-  - "LA"
-  - "TA"
-  - "VA"
-  - "assurance levels"
-  - "typing"
-  - "validation"
+  - "assurance profile"
+  - "conceptual correspondence"
+  - "constructive support"
+  - "empirical validation"
+  - "use-qualified assurance"
   - "verification"
 ---
 

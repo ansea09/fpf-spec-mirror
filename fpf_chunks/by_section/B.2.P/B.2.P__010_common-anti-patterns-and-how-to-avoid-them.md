@@ -6,12 +6,12 @@ section_id: "B.2.P:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 38637
-line_end: 38649
+line_start: 38649
+line_end: 38661
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.24"
   - "F.18"
+  - "F.19"
   - "G.11"
 keywords:
 ---
@@ -52,7 +53,7 @@ keywords:
 | Collection receives agency by wording | A community, pool, fleet, or base acts because the noun is collective. | Recover membership, collection-as-whole, acting collective system, whole-level characteristic, or MHT separately. |
 | Metric jump as new whole | Benchmark improvement is declared as emergence. | Use C.16, A.10, C.29, and source-use patterns; use B.2 only if the whole must be reidentified. |
 | Title mnemonic as authority | MET or MFT is used as if the acronym named the thing or claim under discussion. | Recover an episteme-whole reidentification claim, capability or functioning facts, their direct episteme or function pattern, or source-only wording. |
-| Description as in-life whole | A model, dashboard, report, or twin is treated as the system because it depicts the system. | Use episteme, publication, architecture-description, source-use, or digital-twin description patterns unless the in-life holon is recovered. |
+| Description as in-life whole | A model, dashboard, report, or twin is treated as the system because it depicts the system. | Use episteme, publication, architecture-description, source-use, or digital-twin description patterns for the description; independently recover any in-life holon under its direct pattern. |
 | Evidence decides ontology | Missing or stale evidence is taken to end a whole, while a current record is taken to create one. | Keep construction and reidentification world-side; evaluate support, currentness, and reliance separately. |
 | Selected structure as new whole | A bounded model-use structure or Context Map is called a meta-system. | Keep dependent `U.Structure` under A.1.1 and A.22, and identify any actual candidate new system independently. |
 

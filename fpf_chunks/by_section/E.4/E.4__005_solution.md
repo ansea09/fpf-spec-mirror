@@ -6,12 +6,12 @@ section_id: "E.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__005_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:4 — Solution"
-line_start: 70348
-line_end: 70508
+line_start: 70455
+line_end: 70615
 dependencies:
   - "C.33"
   - "C.34"

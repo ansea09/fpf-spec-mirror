@@ -6,12 +6,12 @@ section_id: "B.2.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__013_sota-echoing.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:10 — SoTA-Echoing"
-line_start: 38894
-line_end: 38902
+line_start: 38906
+line_end: 38914
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,5 +47,5 @@ keywords:
 | Meta-system transition and holonic systems lineage | A new coordinated whole can become the relevant operating object. | Use B.2 for whole reidentification, then apply complete A.1 and `U.System` recognition to the same candidate as required by B.2.2. |
 | Systems-of-systems and cyber-physical systems practice | Operational closure, coordination, external commitments, and assurance often change at the level of the exact new whole proposed for and then recognized under `U.System`. | B.2.2 keeps the direct facts with their subject patterns and tests each assurance claim against that exact recognized system instead of transferring component support. |
 | Constructional and part-whole ontology | Acting on an object and being part of it are different relations. | A.12, A.3.4, A.15.1, A.14, and C.13 remain separate subject patterns. |
-| Digital-twin and architecture-description practice | Rich descriptions can track a system without being the system. | Dashboards, models, twins, and publications use episteme and description patterns unless the operating system is recovered as EoC. |
+| Digital-twin and architecture-description practice | Rich descriptions can track a system without being the system. | Use episteme, description, representation, and publication patterns for the descriptive item; recover the operating system independently as EoC. |
 

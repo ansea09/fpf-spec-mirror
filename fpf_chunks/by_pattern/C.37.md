@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.37.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
-line_start: 68166
-line_end: 68432
+line_start: 68240
+line_end: 68516
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -44,7 +44,7 @@ This is the one-use selection branch of representation work. The governed move i
 
 **First useful move.** Name the receiving System and exact action or decision in one sentence. For each candidate, name the direct result it already has, the exact claim this use would rely on, what the candidate exposes and withholds, and the direct result that permits, declines, or leaves that use unresolved. Stop after one row if one row is enough.
 
-**First useful result.** One logically complete use-bounded representation-selection account: one or more completed candidate rows plus the exact receiving action those rows support, decline, or leave unresolved. Its join key and use boundary are `<receiving System, exact action or decision>`. If the account is retained as a standalone claim-bearing object, it has the ordinary C.2.1 identity of its claims, exact EntityOfConcern, and effective reference scheme; the join key does not replace episteme identity.
+**First useful result.** One logically complete use-bounded representation-selection account: one or more candidate claims with their material loss, direct basis and exact receiving action supported, declined or unresolved. It can be the immediate working answer; the row form and persistent record are not required when no later use needs them. Its use boundary is `<receiving System, exact action or decision>`. If retained as a standalone claim-bearing object, it has ordinary C.2.1 identity, an exact EntityOfConcern and effective reference scheme; the use boundary does not replace episteme identity.
 
 **What goes wrong if missed.** A readable diagram is treated as a conforming view; provenance is treated as approval; an evidence classification is treated as permission; several adjacent results are treated as one coherent structure; or a choice made for one action silently travels into another action with different loss, evidence, and decision conditions.
 
@@ -164,13 +164,17 @@ This is a logical claim group, not a universal record kind, `U.Representation`, 
 
 #### C.37:4.5 - Realize the result once
 
-Use one deterministic realization rule:
+First determine whether a later receiving use needs the selection basis retained. An immediate sufficient selection can finish with its material loss and direct receiving result, without a new record or a certificate explaining non-retention.
 
-1. If an owning domain result already carries this same receiving use, embed the complete row claims and action boundary in that result.
-2. Otherwise retain the complete account as one ordinary C.2.1 episteme.
-3. Never create both an embedded copy and a standalone duplicate for the same use.
+When retention is needed:
 
-Embedding does not weaken the required separation: direct subject result, optional A.2.4 classification, A.10 reliance when material, receiving result, exposure and loss, disposition, and return trigger all remain recoverable. A cross-use ensemble may later relate several accounts under its own direct pattern; C.37 does not perform that later organization.
+1. If an owning domain result already carries the same receiving use, embed the complete needed claim group and action boundary there.
+2. Otherwise retain that basis as one ordinary C.2.1 episteme.
+3. Create no embedded and standalone duplicate for the same use.
+
+A later reader who must reconstruct the selection receives its logically complete basis; a bare verdict or locator is insufficient for that use.
+
+Retention does not weaken the required separation: direct subject result, optional A.2.4 classification, A.10 reliance when material, receiving result, exposure and loss, disposition and return remain recoverable as needed by that use. An immediate answer preserves the same substantive limits without instantiating every form field. A cross-use ensemble may later relate accounts under its own direct pattern; C.37 does not perform that organization.
 
 #### C.37:4.6 - Keep co-use local to one action
 
@@ -221,6 +225,12 @@ The resulting account does not say that three rows jointly prove MC7. It says wh
 
 A release team receives a polished architecture diagram and wants to authorize deployment. E.24.PUB establishes that the diagram edition is available through a current carrier. C.2.P.DR repairs one route-shaped arrow that had been read as operational authority. Neither result establishes view conformance, a representation correspondence, runtime structure, evidence reliance, or deployment permission. Until the needed direct subject result, A.10 path and disposition, and permission or gate result are available, the row is `unresolved`; visual polish and provenance cannot upgrade it. If the direct release gate or permission pattern instead returns a negative result because its required basis is absent, the row is `decline`; classification, publication, provenance, and repair facts cannot override that direct result.
 
+#### C.37:5.3 - One decision now and a later reader's need
+
+In a constructed retention variant of section 5.1, the engineer completes the current comparison using the three independently qualified inputs. The direct receiving result and material limits are already clear: the description supplies proposed order, the plan supplies intent rather than performed Work, and the earlier record supplies only its comparability-limited observation. If no later use needs another account of this comparison, the answer is complete without a standalone C.37 record. Required source and receiving-result evidence remain under their own governors.
+
+Now suppose a later trial reviewer must reconstruct why those particular inputs were usable for WP4. That use needs the exact claims, source and reliance boundaries, losses, dispositions and receiving result—not merely “MC7 selected.” Retain the complete basis in the existing same-use decision account if it can carry it, otherwise in one identifiable account. A new receiving decision still requires its own use-bounded selection; the retained earlier basis is not authority for the new action.
+
 ### C.37:6 - Bias-Annotation  *(informative)*
 
 | Lens | Likely drift | Repair |
@@ -245,7 +255,7 @@ A release team receives a polished architecture diagram and wants to authorize d
 | `CC-C37.8` Honest disposition | Each row is `select`, `decline`, or `unresolved`; `degrade` narrows the selected claim rather than creating another row vocabulary. |
 | `CC-C37.9` Return visible | Every row names the source or direct pattern and the condition that reopens selection. |
 | `CC-C37.10` Co-use bounded | Joint use means only reliance by the same receiver for the same action; no collection, structure, view family, graph, or integrated world account is inferred. |
-| `CC-C37.11` One realization | The complete claim group is embedded in an owning same-use result when one exists; otherwise it is one ordinary C.2.1 episteme, never both. |
+| `CC-C37.11` Use-needed retention | An immediate sufficient selection can finish without another record. When a later use needs the complete basis, it is recoverable once in an owning same-use result or one ordinary C.2.1 episteme, never both. |
 | `CC-C37.12` Assurance progressive | B.3 is opened only for an actual named assurance claim; reversible inspection carries no mandatory assurance burden. |
 | `CC-C37.13` No universal ontology | No `U.Representation`, universal `RepresentationOf`, fixed representation taxonomy, master mediation route, or public account kind is introduced. |
 
@@ -258,7 +268,7 @@ A release team receives a polished architecture diagram and wants to authorize d
 | Provenance as decision | A current source or authentic carrier is treated as a positive choice or permission result. | Use provenance only inside the exact bounded path; require the direct choice, gate, permission, or domain result. |
 | Publication as representation authority | A published diagram is accepted because it is available and readable. | Recover the direct subject result, any exact conformance or correspondence, and the relied-on claim; E.24.PUB supplies availability only. |
 | Co-use as composition | Several rows become a collection, structure, integrated view, or graph by adjacency. | Keep independent rows; open C.13, A.22, E.17.0, C.29, or a domain integration pattern only for an additional named claim. |
-| Duplicate account | An owning domain result and a standalone C.37 episteme repeat the same one-use claims. | Embed once when the owner exists; otherwise use one standalone ordinary episteme. |
+| Duplicate account | A completed immediate choice is made to create an unused record, or an owning result and standalone episteme repeat the same claims. | Retain the complete basis only for a use that needs it; embed once in the same-use owner when available, otherwise use one identifiable account. |
 | Cross-use carryover | A row selected for one decision is silently reused for tailoring, learning, maintenance, or another action. | Start another account and re-evaluate direct result, loss, path, disposition, and receiving result. |
 | Diagram-first ontology | What exists or what happened is inferred from a graph, table, card, or route shape without the direct subject result. | Recover the direct object and relation first; then state the exact representation use or `none`. |
 

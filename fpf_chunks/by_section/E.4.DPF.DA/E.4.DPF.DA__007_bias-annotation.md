@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__007_bias-annotation.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:6 — Bias-Annotation"
-line_start: 72100
-line_end: 72121
+line_start: 72207
+line_end: 72228
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -73,7 +73,7 @@ The first recurring drift is whole-FPF overreach: a DPF package is judged as if 
 
 The second recurring drift is local excellence laundering: good-looking patterns, a polished monolith, or generated fluency hides missing source, relation, edition, and refresh structures. Evaluate the package coordinates, not only pattern bodies.
 
-The third recurring drift is quality-proof leakage: evaluation results, review status, or package-architecture evidence are copied into user-facing pattern prose. Move that evidence to this evaluation, `E.21`, `E.19`, `E.11`, `I.2`, or the applicable publication-evidence locus, and keep only the user-facing move or boundary in pattern bodies.
+The third recurring drift is quality-proof leakage: evaluation results, review status, or package-architecture development evidence are copied into user-facing pattern prose. Move that evidence to this evaluation's result, `E.21`, `E.19`, `E.11`, `I.2`, or the applicable publication-evidence locus, and keep the user-facing move, boundary, and architectural reasons needed to understand, select, combine, or adapt the pattern in its body.
 
 The fourth recurring drift is invisible carrier narration: the package is presented as a transparent list of principles, so nobody asks which domain structures were selected, coarsened, abstracted, omitted, or already transformed through `source structures -> architecture -> architecture description or view -> publication/access expression` before the publication carrier was written. Make the Readme, Preface, or access front provide a short carrier structure-account and check it through `PFM11`.
 

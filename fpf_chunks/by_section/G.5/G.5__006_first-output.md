@@ -6,12 +6,12 @@ section_id: "G.5:0.4"
 section_title: "First output"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__006_first-output.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:0.4 — First output"
-line_start: 103766
-line_end: 103788
+line_start: 103887
+line_end: 103909
 dependencies:
   - "C.11"
   - "C.18"
@@ -68,7 +68,7 @@ If that first output cannot yet be stated honestly, the `G.5` result is incomple
 
 G.5 keeps the dispatcher and registry object set here and leaves universal Part-G invariants to `G.Core`; method-specific and generator-specific semantics stay in their named source patterns and arrive here only through explicit pins.
 
-When `C.11` has already emitted one local choice result, `C.19` one pool-policy result, or `C.24` one enactment-facing next action, `G.5` applies when the question becomes declaring selector-facing result content for retained alternatives, all-member joint use, or a narrowed handoff rather than one more explanation of why the upstream result looked reasonable. The `G.5` result states its outcome kind, applicable public label, membership form, and basis pins directly.
+When applying `C.11` has already produced one local choice result, applying `C.19` one pool-policy result, or applying `C.24` one enactment-facing next action, `G.5` applies when the question becomes declaring selector-facing result content for retained alternatives, all-member joint use, or a narrowed handoff rather than one more explanation of why the upstream result looked reasonable. The `G.5` result states its outcome kind, applicable public label, membership form, and basis pins directly.
 
 The `G.5` result is incomplete if its outcome kind, applicable public label, retained members or keyed joint-use member entries, ordering, named use where required, handoff content, abstain or escalation condition, or basis pins are still only implicit in upstream notes.
 

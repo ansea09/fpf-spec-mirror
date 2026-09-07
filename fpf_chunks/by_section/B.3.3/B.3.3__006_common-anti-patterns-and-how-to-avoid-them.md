@@ -6,38 +6,33 @@ section_id: "B.3.3:5"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__006_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:5 — Common Anti-Patterns and How to Avoid Them"
-line_start: 39914
-line_end: 39921
+line_start: 39942
+line_end: 39950
 dependencies:
   - "A.10"
-  - "A.19"
-  - "A.4"
   - "B.3"
-  - "B.4"
-  - "C.16"
-  - "C.2.1"
-  - "D.4"
-  - "U.Episteme"
+  - "B.3.4"
+  - "B.3.5"
+  - "C.28"
 keywords:
-  - "L0-L2"
-  - "LA"
-  - "TA"
-  - "VA"
-  - "assurance levels"
-  - "typing"
-  - "validation"
+  - "assurance profile"
+  - "conceptual correspondence"
+  - "constructive support"
+  - "empirical validation"
+  - "use-qualified assurance"
   - "verification"
 ---
 
-### B.3.3:5 - **Common Anti-Patterns and How to Avoid Them**
+### B.3.3:5 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It |
-| :--- | :--- | :--- |
-| **The "Tested but Unbridged" Mess** | "Our code has 100% test coverage, but we still have integration bugs and nobody understands what the code does." | **CC-B3.3.2** makes Concept-Bridge Assurance (CBA) mandatory for L1. You cannot claim your work is "Substantiated" without first ensuring your terms and concepts are clear, context-scoped, and consistently bridged. |
-| **The "Perfect Blueprint, Flawed Reality"** | "The design was formally proven to be perfect, but the physical product failed catastrophically in the field." | **CC-B3.3.3** mandates Validation Assurance (LA) for safety-critical systems at L2. A perfect blueprint (`FV=4`) is not enough; you must also provide empirical evidence (`EV>0`) that it works in the real world. |
-| **The "Paper Compliance" Shell Game** | "We have thousands of documents and links, so we must be at a high assurance level." | The computed `AssuranceLevel` is not based on the *quantity* of evidence but on its *type* and *quality* (via FV/EV scores). You cannot reach L2 without strong formal verification (VA), no matter how much validation (LA) you do. |
+| Anti-pattern | Failure in use | Repair |
+| --- | --- | --- |
+| Tested but referring to different things | Requirements and architecture use “Sensor” for different participants; the test concerns only one. | Resolve that correspondence and re-examine affected claims; more test links do not fix it. |
+| Perfect blueprint, unsupported operation | A proof assumes conditions that the actual system has not been shown to meet. | Obtain or use the needed empirical and assumption evidence for the actual claim, or narrow the conclusion. |
+| Maturity by receipt | A fresh smoke test and a term mapping receive a positive performance label. | Judge the support for the requested performance, not the receipt count or type combination. |
+| Proof as an admission toll | Sufficient empirical support is rejected because an unrelated formal proof is absent. | Apply the receiving claim's evidence rules; retain formal proof obligations where their contribution is necessary. |
 

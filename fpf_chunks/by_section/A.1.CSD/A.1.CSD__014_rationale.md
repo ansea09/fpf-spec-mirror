@@ -6,17 +6,18 @@ section_id: "A.1.CSD:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__014_rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:11 — Rationale"
-line_start: 2825
-line_end: 2832
+line_start: 2830
+line_end: 2837
 dependencies:
   - "A.1"
   - "A.1.SCR"
   - "A.10"
   - "A.14"
+  - "A.15.9"
   - "A.6.RCD"
   - "B.1"
   - "B.1.2"
@@ -24,6 +25,7 @@ dependencies:
   - "B.2.2"
   - "C.11"
   - "C.11.CRC"
+  - "C.11.DUA"
   - "C.13"
   - "C.2.1"
   - "C.27"
@@ -40,5 +42,5 @@ A.1.SCR answers whether one proposed entity is a System. A.1.CSD begins after a 
 
 A.1.STM locates one unsupported answer across a long dependency; C.28 qualifies one causal-use claim; C.11.CRC constructs a finite comparison. None generates the bounded bearer/path/change account at comparable effort. A.1.CSD therefore stays a thin sibling in the A.1 family and returns each stronger claim to its direct owner.
 
-The result remains an ordinary C.2.1 episteme because the recurring need is a reusable set of qualified claims, not a new world-side kind or relation. One focus gives the account identity; several bearers give it content.
+The result remains an ordinary C.2.1 episteme because the recurring need is a reusable set of qualified claims, not a new world-side kind or relation. One focus fixes the account's EntityOfConcern within its C.2.1 identity triple; claims about several bearers give it content.
 

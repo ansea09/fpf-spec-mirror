@@ -6,12 +6,12 @@ section_id: "B.2.P:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__007_archetypal-grounding-worked-cases.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:5 — Archetypal Grounding (Worked Cases)"
-line_start: 38566
-line_end: 38610
+line_start: 38578
+line_end: 38622
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.24"
   - "F.18"
+  - "F.19"
   - "G.11"
 keywords:
 ---
@@ -60,12 +61,12 @@ If the candidate new whole is an acting system, use B.2 and B.2.2. If the case i
 
 Recover:
 
-- Is the model a description episteme or mathematical-lens expression?
+- Which claims concern the model as a description episteme, and which concern its mathematical expression or lens use?
 - Is robustness a characteristic-space claim?
 - Is the result a benchmark artifact?
 - Is there an in-life holon whole-reidentification question?
 
-Most cases use `C.29`, `C.16`, `A.10`, and source-use patterns. Use B.2 only if the in-life whole has to be reidentified.
+For those direct claims, use `C.29`, `C.16`, `A.10`, and source-use patterns as applicable. Use B.2 only if the in-life whole has to be reidentified.
 
 #### B.2.P:5.3 - "A Meta-Functional Transition Happened"
 
@@ -83,7 +84,7 @@ Recover the exact selected relation organization. If it is `BoundedModelUseStruc
 
 #### B.2.P:5.5 - "The Evidence For Emergence Was Lost"
 
-Recover the exact whole-reidentification assertion, its evidence or assurance relation, the selected assertion edition, and the receiving work. Missing evidence can make a governed evaluation return `unknown`; a stale edition can fail G.11 currentness; receiving work can decline, defer, or reopen. None of those results reverses an actual construction or changes the direct rule that decides whether the existing whole continues or a new whole must be identified. Do not rewrite evidence loss as absence of the whole or as a new MHT.
+Recover the exact whole-reidentification assertion, its evidence or assurance relation, the selected assertion edition, and the receiving work. Missing evidence can make a governed evaluation return `unknown`; a stale edition can fail G.11 currentness; a person or System performing the receiving work can decline reliance, defer, or reopen. None of those results reverses an actual construction or changes the direct rule that decides whether the existing whole continues or a new whole must be identified. Do not rewrite evidence loss as absence of the whole or as a new MHT.
 
 #### B.2.P:5.6 - "The Assembly Changes Form One Higher-Level Change"
 

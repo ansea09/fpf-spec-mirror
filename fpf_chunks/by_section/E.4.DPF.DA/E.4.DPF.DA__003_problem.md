@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__003_problem.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:2 — Problem"
-line_start: 71817
-line_end: 71828
+line_start: 71924
+line_end: 71935
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,7 +59,7 @@ keywords:
 
 ### E.4.DPF.DA:2 - Problem
 
-DPF packages will often be produced quickly from source material, prompts, external literature, local practice, or generated candidates. Some are good enough as seeds; some can answer a domain question for an AI agent; some are public-ready publication carriers; some are only source summaries wearing pattern headings.
+DPF packages will often be produced quickly from source material, prompts, external literature, local practice, or generated candidates. Some are good enough as seeds; some can answer a domain question for an AI agent; some have publication carriers ready for public use; some are only source summaries wearing pattern headings.
 
 Without a DPF-specific adequacy evaluation, teams tend to use one of three wrong substitutes:
 

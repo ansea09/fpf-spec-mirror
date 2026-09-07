@@ -6,12 +6,12 @@ section_id: "B.5:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__006_conformance-checklist.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:5 — Conformance Checklist"
-line_start: 40904
-line_end: 40921
+line_start: 40946
+line_end: 40963
 dependencies:
   - "A.10"
   - "B.4"
@@ -27,11 +27,11 @@ keywords:
 
 To ensure the reasoning cycle is applied consistently and rigorously, the following criteria are normative:
 
-*   **CC-B5.1 (Abductive Primacy):** Any discipline that introduces a new, non-derivable claim or design element into a working model **MUST** document it as an abductive step. The resulting claim or design element **SHALL** initially be assigned `AssuranceLevel:L0` as a hypothesis episteme or equivalent working-model element.
+*   **CC-B5.1 (Abductive Primacy):** Any discipline that introduces a new, non-derivable claim or design element into a working model **MUST** document it as an abductive step. The resulting claim or design element **SHALL** retain its conjectural status, grounds and limitations. An assurance level, when needed by a receiving use, **SHALL** follow B.3.3 rather than be assigned from its abductive origin.
 *   **CC-B5.2 (Deductive Mandate):** An abductively generated hypothesis **SHALL NOT** be subjected to inductive testing (Validation Assurance) until its key logical consequences have been derived and documented through a deductive process.
-*   **CC-B5.3 (Inductive Grounding):** A claim **SHALL NOT** be promoted to `AssuranceLevel:L1` or higher on the basis of a successful inductive test unless that test is explicitly linked to a prediction derived in the deductive phase.
-*   **CC-B5.4 (Cycle Closure):** The outcome of an inductive test (whether corroboration or refutation) **MUST** be formally recorded as an evidence carrier (Pattern A.10), and that evidence carrier **MUST** be used as an input for the next iteration of the reasoning cycle.
-*   **CC-B5.5 (State Machine Alignment):** The Abductive–Deductive–Inductive Loop is the cognitive engine that drives state transitions in the **Explore → Shape → Evidence → Operate** state machine (Pattern B.5.1). Abduction dominates the *Explore* phase; Deduction dominates the *Shape* phase; and Induction is the core of the *Evidence* phase.
+*   **CC-B5.3 (Inductive Grounding):** A positive support claim based on an inductive test **MUST** link the actual result to the derived prediction and establish its relevance, coverage and limitations for the receiving claim. Passing a test **SHALL NOT** by itself assign an assurance level; an elected B.3.3 profile retains its applicable evidence criteria.
+*   **CC-B5.4 (Cycle Closure):** The actual outcome of an inductive test (whether corroboration or refutation) **MUST** be recorded through an evidence carrier (Pattern A.10). If a further iteration relies on that result, it **MUST** use the recorded result with its scope and limitations. Recording a sufficient result does not itself require another iteration.
+*   **CC-B5.5 (State Machine Alignment):** When the B.5.1 development cycle is used, abduction commonly contributes to *Exploration*, deduction to *Shaping*, and empirical evaluation to *Evidence*. Actual transitions **MUST** meet their applicable project and domain conditions. A completed reasoning contribution or sufficient bounded use is not by itself a project-state transition or an assurance level.
 
 **Common Anti-Patterns and How to Avoid Them**
 

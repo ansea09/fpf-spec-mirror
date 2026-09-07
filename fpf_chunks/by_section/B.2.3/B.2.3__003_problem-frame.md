@@ -6,12 +6,12 @@ section_id: "B.2.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__003_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:1 — Problem Frame"
-line_start: 38939
-line_end: 38946
+line_start: 38951
+line_end: 38958
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,5 +40,5 @@ A library is not a theory, and a theory is not its publication.
 
 A group of papers, models, datasets, design notes, forecasts, standards, or local doctrines may remain a collection. B.2.3 becomes current only when B.2's exact candidate new whole can be constructively recognized under A.1 and the current C.2.1 constitution criterion identifies that same individual as one claim-bearing episteme.
 
-B.2.3 introduces no special episteme result object. It retains B.2's one `resultHolonRef` and `resultHolonKindRef`, then requires C.2.1 for episteme constitution and every neighboring relation and its subject patterns.
+B.2.3 introduces no special episteme result object. It retains B.2's one `resultHolonRef` and `resultHolonKindRef`, then requires C.2.1 for episteme constitution and each current neighboring relation's own subject pattern.
 

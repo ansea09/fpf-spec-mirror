@@ -6,12 +6,12 @@ section_id: "B.2.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__009_conformance-checklist.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:6 — Conformance Checklist"
-line_start: 38851
-line_end: 38863
+line_start: 38863
+line_end: 38875
 dependencies:
   - "A.1"
   - "A.10"
@@ -51,5 +51,5 @@ keywords:
 | `CC-B2.2-5` | An obtaining supervision or coordination relation is not treated as automatic system recognition, and evidence for it is not treated as safety warrant. |
 | `CC-B2.2-6` | Acting-system participation, transformation, and work are separated from parthood. |
 | `CC-B2.2-7` | Component assurance is not silently transferred to the result system. |
-| `CC-B2.2-8` | Descriptions, dashboards, simulations, and digital twins remain epistemes or publications unless the operating system itself is the EoC. |
+| `CC-B2.2-8` | Recover the episteme, representation, or publication claim for a description, dashboard, simulation, or digital twin separately from recognition of the operating system it describes, even when that system is the EoC. |
 

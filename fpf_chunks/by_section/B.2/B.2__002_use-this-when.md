@@ -6,12 +6,12 @@ section_id: "B.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__002_use-this-when.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:0 — Use This When"
-line_start: 38126
-line_end: 38152
+line_start: 38138
+line_end: 38164
 dependencies:
   - "A.1"
   - "A.10"
@@ -20,6 +20,7 @@ dependencies:
   - "A.15"
   - "A.15.1"
   - "A.19"
+  - "A.3.1"
   - "A.3.4"
   - "B.1"
   - "B.1.2"
@@ -65,7 +66,7 @@ Typical moments:
 - If the claim is ordinary part-whole construction, use `B.1`, `A.14`, and `C.13`.
 - If the claim is a whole-level characteristic change, use `C.16` and the direct measurement or evaluation pattern.
 - If the claim is capability without whole reidentification, use the direct capability and characteristic patterns.
-- If the claim is transformation or work, use `A.3.4`, `A.12`, `A.15`, and `A.15.1`.
+- If the claim is transformation or work, use `A.3.4` for the change and `A.15.1` for the Work; use `A.12` when the acting side needs recovery and `A.15` when alignment across the neighboring objects is the question.
 - If the claim is only wording repair for emergence-family language, use `B.2.P` first.
 - If the claim is graph, RG-like, MSPD, or other mathematical expression, use `C.29` unless whole reidentification is also current.
 

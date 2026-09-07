@@ -6,12 +6,12 @@ section_id: "A.21:7"
 section_title: "Check the ordinary gate decision"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__009_check-the-ordinary-gate-decision.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:7 — Check the ordinary gate decision"
-line_start: 35400
-line_end: 35420
+line_start: 35412
+line_end: 35432
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -48,8 +48,8 @@ keywords:
 | --- | --- | --- |
 | Launch decision | Prospective work-entry claim and only the checks selected by the applicable profile | `A.15.5`, `E.18`, and the pattern defining each check |
 | Structural crossing | Changed-binding and crossing facts; SquareLaw only when its crossing rule applies | `E.18` |
-| Semantic correspondence | Separate Bridge and bounded-use claim; optional evidence or publication apparatus only when used | `F.9`, `F.17`, `E.17` |
-| Publication | Form, carrier, publication occurrence, and the minimum decision refs | `E.17` |
+| Semantic correspondence | Separate Bridge and bounded-use claim; optional evidence or publication apparatus only when used | `F.9`, `F.17`; `E.17` for a source-backed reader face, `E.24.PUB` for publication occurrence, form, carrier, and availability |
+| Publication | Form, carrier, publication occurrence, and the minimum decision refs | `E.24.PUB`; `E.17` when a source-backed reader face is needed |
 | Evidence, safety, regulation, or assurance | Exact source result and its evidence or assurance relation | `A.10`, `B.3`, or the applicable domain pattern |
-| Reuse or replay | Decision log or equivalence witness covering the claimed reuse inputs | `G.6`, `G.11`, and the publication pattern when published |
+| Reuse or replay | Equivalence witness when claiming reuse, cache, or stability over an interval; optional decision log for audit, history, or replay | §4.10; `G.6` when a citable provenance path is needed, `G.11` when currentness or refresh is at issue, and `E.24.PUB` when published |
 

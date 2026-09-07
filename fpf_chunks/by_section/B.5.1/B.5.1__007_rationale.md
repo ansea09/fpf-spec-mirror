@@ -6,14 +6,17 @@ section_id: "B.5.1:6"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__007_rationale.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.1 — Explore → Shape → Evidence → Operate"
   - "B.5.1:6 — Rationale"
-line_start: 40994
-line_end: 40997
+line_start: 41035
+line_end: 41038
 dependencies:
+  - "B.3.3"
+  - "B.4"
   - "B.5"
+  - "B.5.2"
 keywords:
   - "Evidence"
   - "Explore"
@@ -26,5 +29,5 @@ keywords:
 
 ### B.5.1:6 - **Rationale**
 
-This pattern operationalizes the **Principle of State Explicitness (P-9)**. By giving every state-bearing episteme or system a clear, unambiguous state, FPF transforms the often-chaotic process of innovation into a structured, manageable, and auditable development cycle. This state machine provides the "scaffolding" upon which the more detailed cognitive work of the Canonical Reasoning Cycle is performed, ensuring that every idea is systematically guided from a speculative guess to a reliable operational reality.
+This pattern operationalizes the **Principle of State Explicitness (P-9)** for development coordination. The four states make the project's focus and transition obligations inspectable. B.5 supplies reasoning contributions and B.3.3 qualifies assurance for a claim and use. Keeping those questions distinct supports iterative development without requiring every useful idea or result to become an operational holon.
 

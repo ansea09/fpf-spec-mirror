@@ -6,12 +6,12 @@ section_id: "B.5.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__006_archetypal-grounding.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:5 — Archetypal Grounding"
-line_start: 41106
-line_end: 41113
+line_start: 41149
+line_end: 41156
 dependencies:
   - "A.10"
   - "A.16"
@@ -34,7 +34,7 @@ keywords:
 
 **Tell.** Abduction is not "a flash of insight." It is the governed passage from a typed prompt to a candidate conjecture through explicit rival generation and plausibility comparison.
 
-**Show (System).** An operations team sees a recurring latency spike that existing method explanations do not cover. They publish an `AnomalyStatement`, generate rival causes, filter them by consistency with current telemetry and mechanism knowledge, and publish one prime conjecture as an `L0` hypothesis for downstream checking.
+**Show (System).** An operations team sees a recurring latency spike that existing explanations do not cover. They publish an `AnomalyStatement`, compare rival causes against current telemetry and mechanism knowledge, and retain a qualified prime conjecture. They name a possible discriminating probe without assigning a maturity level or committing the service team to an experiment.
 
 **Show (Episteme).** A research group notices that two accepted results no longer fit together under one framing. It publishes a `ProbeCuePrompt`, enumerates several rival explanatory reframings, rejects the ones that fail scope fit or would not generate decisive probes, and advances one candidate explanation as the next working hypothesis.
 

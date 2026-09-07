@@ -6,12 +6,12 @@ section_id: "E.18.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__005_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4 — Solution"
-line_start: 87112
-line_end: 87197
+line_start: 87219
+line_end: 87304
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ TransformationFlowMathematicalDescription@Context:
   PublicationFaceRef?:
 ```
 
-Exactly one of `DescribedTransformationFlowStructureRef?` and `DescribedTransformationFlowStructureNetworkRef?` is present. The first points to one E.18 TFS; the second points to one already selected E.18.NET network. `DescribedSliceOrLocusRef?` may cite an existing path, slice, `FlowPositionRef`, `ExposedFlowPositionRef`, member path, E.18.NET `NetworkCrossFlowRelationRowRef`, or other independently identified part without copying the fields that define that object. `CandidateMathObject` and `ExpressionKind` name the graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, wiring, matrix, network expression, or related mathematical object. `PreservedStructure`, `LostStructure`, `DeclaredUse`, and `BoundaryStop` follow the C.29 discipline when the expression is claim-bearing. `PublicationFaceRef?` points to a separate E.17 publication. The compact record has no generic neighboring-object reference. When a neighboring claim is materially needed, cite its exact C.2.1 claim-bearing episteme in the subject-specific account; identify an ontic subject or relation occurrence only through a separately named, correctly typed reference supplied by the pattern for that claim.
+Exactly one of `DescribedTransformationFlowStructureRef?` and `DescribedTransformationFlowStructureNetworkRef?` is present. The first points to one E.18 TFS; the second points to one already selected E.18.NET network. `DescribedSliceOrLocusRef?` may cite an existing path, slice, `FlowPositionRef`, `ExposedFlowPositionRef`, member path, E.18.NET `NetworkCrossFlowRelationRowRef`, or other independently identified part without copying the fields that define that object. `CandidateMathObject` and `ExpressionKind` name the graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, wiring, matrix, network expression, or related mathematical object. `PreservedStructure`, `LostStructure`, `DeclaredUse`, and `BoundaryStop` follow the C.29 discipline when the expression is claim-bearing. `PublicationFaceRef?` points to a separate E.17 publication face. The compact record has no generic neighboring-object reference. When a neighboring claim is materially needed, cite its exact C.2.1 claim-bearing episteme in the subject-specific account; identify an ontic subject or relation occurrence only through a separately named, correctly typed reference supplied by the pattern for that claim.
 
 #### E.18.2:4.2 - Expression families
 

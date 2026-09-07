@@ -6,12 +6,12 @@ section_id: "F.9.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__001_intro.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "F.9.1 — Bridge Stance Note"
   - "F.9.1:intro — Intro"
-line_start: 96491
-line_end: 96512
+line_start: 96598
+line_end: 96619
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

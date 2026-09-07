@@ -6,31 +6,34 @@ section_id: "B.3.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__004_forces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:3 — Forces"
-line_start: 39958
-line_end: 39966
+line_start: 39992
+line_end: 40000
 dependencies:
   - "A.10"
   - "B.3"
-  - "B.3.3"
-  - "B.4"
+  - "C.11"
+  - "C.19.2"
+  - "C.27.TA"
+  - "G.11"
 keywords:
-  - "decay"
+  - "age"
+  - "changed premise"
   - "epistemic debt"
-  - "evidence aging"
-  - "freshness"
-  - "stale data"
+  - "evidence currentness"
+  - "qualification window"
+  - "refresh"
 ---
 
-### B.3.4:3 - **Forces**
+### B.3.4:3 - Forces
 
 | Force | Tension |
-| :--- | :--- |
-| **Timeless Truth vs. Contextual Reality** | Formal proofs and logical derivations feel permanent and universal, yet the assumptions they make about the world are context-dependent and perishable. |
-| **Rigor vs. Agility** | Continuously re-validating every piece of evidence is prohibitively expensive and would paralyze any agile workflow. |
-| **Transparency vs. Cognitive Load** | We need to make the "staleness" of evidence visible, but we must do so without overwhelming teams with a constant barrage of decay alerts. |
-| **Governance vs. Flexibility** | There must be a formal method for managing aging evidence, yet teams need the autonomy to make risk-informed decisions about when to accept, refresh, or deprecate it. |
+| --- | --- |
+| Stable inference and changing premises | A valid derivation remains valid under its premises, while those premises may cease to describe the receiving situation. |
+| Needed review and finite capacity | A timely inspection can prevent harm; an unnecessary repeat can displace it. |
+| Visible warnings and alert noise | A recipient needs action-changing limits, not a warning for every old carrier. |
+| Requirements and their merits | A current institutional condition can bind the action even when there is a justified proposal to amend it. |
 

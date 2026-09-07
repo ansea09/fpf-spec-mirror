@@ -6,12 +6,12 @@ section_id: "E.18.NET:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__003_problem.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:2 — Problem"
-line_start: 87805
-line_end: 87818
+line_start: 87912
+line_end: 87925
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -40,7 +40,7 @@ keywords:
 
 ### E.18.NET:2 - Problem
 
-Teams routinely connect flows that concern different objects, Work occurrences, architecture boundaries, valuation state, and change cadence. A development flow produces or changes a tool; another flow uses the tool; another evaluates the use; feedback returns to development. A manufacturing system is changed through one flow while products are made through another. A compiler is built by one toolchain and then participates in a later build.
+Teams routinely connect flows that concern different objects, Work occurrences, architecture boundaries, valuation state, and change cadence. A development TFS has positions for the Work that produces or changes a tool; other TFS values have positions for its use and evaluation, with feedback to development. A manufacturing system is changed through one flow while products are made through another. A compiler is built by one toolchain and then participates in a later build.
 
 A single picture can hide three different ontic answers:
 

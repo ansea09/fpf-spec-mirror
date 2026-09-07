@@ -6,12 +6,12 @@ section_id: "G.4:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__012_sota-echoing.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:11 — SoTA-Echoing"
-line_start: 103666
-line_end: 103681
+line_start: 103787
+line_end: 103802
 dependencies:
   - "A.10"
   - "A.13"
@@ -58,7 +58,7 @@ keywords:
 
 ### G.4:11 - SoTA-Echoing
 
-Source qualification was checked on 2026-07-30. The source identities below are immutable publications; the G.4 adoption decisions remain qualified through 2027-07-30 unless a governing neighbour adopts a successor earlier or a new result contradicts the named assumption boundary.
+The qualification period for the source-use decisions below starts on 2026-07-30. The source identities below are immutable publications; the G.4 adoption decisions remain qualified through 2027-07-30 unless a governing neighbour adopts a successor earlier or a new result contradicts the named assumption boundary.
 
 | Exact source and source-use decision | Visible G.4 mutation | Rejected overread | Smallest source-change replay |
 | --- | --- | --- | --- |
@@ -68,7 +68,7 @@ Source qualification was checked on 2026-07-30. The source identities below are 
 
 Distributionally robust and broad multi-objective families are discovery leads, not G.4 decision sources. Current comparison, partial-order, and selected-set law stays with A.18/A.19; a future external source enters this table only after it changes a present C1–C9 action, worked case, or conformance row. Source refresh is local to the row's named rule, example, and check.
 
-#### G.4:11.1 - Maintainer-facing architecture and publication inventory
+#### G.4:11.1 - CAL architecture and publication inventory
 
-G.4 is a design-time authoring pattern. It publishes a notation-independent `CAL Pack@CG-Frame` with a charter for the exact CG frame, EntityOfConcern, ReferencePlane, specification editions, and assumption envelope; stable operator, clause, and flow ids; evidence and currentness refs; proof-or-gap records; worked examples and tests; continuity notes; and a minimal `TaskMap`. It uses G.Core, G.0, and G.1–G.3 for Part-G, CG-frame, SoTA, CHR, and legality disciplines; A.6.1 for declarations and actual bindings; A.13 and A.15.1 for precise performers and independently admitted runtime Work; F.6 only for a current assignment-bound attribution through the same obtaining assignment; C.2.1 for result epistemes; and A.10, G.11, B.3, and C.11 for provenance, currentness, assurance, and decisions. G.6 is used only when `G.4:Ext.EvidenceGraphWiring` is present. Method-specific semantics remain in the applicable extension pattern. The detailed manifests, schemas, and interfaces above are maintainer-facing citation surfaces for this one practitioner path, not a second workflow.
+G.4 is a design-time authoring pattern. It publishes a notation-independent `CAL Pack@CG-Frame` with a charter for the exact CG frame, EntityOfConcern, ReferencePlane, specification editions, and assumption envelope; stable operator, clause, and flow ids; evidence and currentness refs; proof-or-gap records; worked examples and tests; continuity notes; and a minimal `TaskMap`. It uses G.Core, G.0, and G.1–G.3 for Part-G, CG-frame, SoTA, CHR, and legality disciplines; A.6.1 for declarations and actual bindings; A.13 and A.15.1 for precise performers and independently admitted runtime Work; F.6 only for a current assignment-bound attribution through the same obtaining assignment; C.2.1 for result epistemes; and A.10, G.11, B.3, and C.11 for provenance, currentness, assurance, and decisions. G.6 is used only when `G.4:Ext.EvidenceGraphWiring` is present. Method-specific semantics remain in the applicable extension pattern. The detailed manifests, schemas, and interfaces above are citation surfaces for CAL authors and consumers within this one practitioner path, not a second workflow.
 

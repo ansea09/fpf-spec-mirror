@@ -6,12 +6,12 @@ section_id: "A.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__006_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:4 — Solution"
-line_start: 35234
-line_end: 35376
+line_start: 35244
+line_end: 35388
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -157,19 +157,21 @@ If a required ingress A.20 summary is not `satisfied` and the applied profile de
 
 For a structural crossing, receive the exact changed-binding and crossing facts from E.18. Add a crossing check only when its criterion applies. SquareLaw is required only when the E.18 crossing rule for that case requires it.
 
-A structural crossing does not imply an F.9 semantic Bridge. Add an F.9 Bridge, bounded-use claim, reliance, optional Bridge Card, or optional `CL` only when the separate semantic-correspondence relation and downstream use obtain. A non-crossing gate carries none of this apparatus. Do not encode absent Bridge material as mandatory fields with `none` values.
+A structural crossing does not imply an F.9 semantic Bridge. Add an F.9 Bridge, bounded-use claim, reliance, optional Bridge Card, or optional `CL` only when the separate semantic-correspondence relation and downstream use obtain. A gate whose decision does not rely on semantic correspondence carries none of this apparatus. Do not encode absent Bridge material as mandatory fields with `none` values.
 
 #### A.21:4.9 - Guards and check families
 
 A guard event is not automatically a GateCheck. When a selected structure assigns a guard failure to a gate, the current profile may consume that identified event through a declared check application and mapping rule.
 
-The following names are recognition aids, not a universal catalogue: freshness, design-run-tag consistency, reference-plane crossing, comparator constraints, evidence completeness, safety envelope, regulator conformance, system-role fit, channel fit, equivalence preservation, outflow audit, and snapshot consistency. Each application names its checked subject, criterion, rule edition, case, and source result. Use A.10 or B.3 for evidence and assurance truth, A.2 and C.3.2 for system-role classification, A.2.1 and F.6 for exact assignments, A.2.6 for channel claims, and E.18 plus the comparison patterns for crossing and comparator claims.
+The following names are recognition aids, not a universal catalogue: freshness, design-run-tag consistency, reference-plane crossing, comparator constraints, evidence completeness, safety envelope, regulator conformance, system-role fit, channel fit, equivalence preservation, outflow audit, and snapshot consistency. Each application names its checked subject, criterion, rule edition, case, and source result.
+
+Use A.10 for claim-bound evidence reliance and B.3 when an actual named assurance claim is current. Use A.2 and C.3.2 for system-role classification, A.2.1 for exact assignments, and F.6 only for an expressly consumed assignment-bound Work attribution. A.2.6 answers whether a claim covers the selected slice; channel criteria remain with their domain pattern. Use E.18 for crossing claims within its applicable structure and the applicable comparison pattern for comparator claims.
 
 #### A.21:4.10 - Publication, rationale, and reuse
 
 The ordinary one-time result needs the fields in section 4.1 and a short rationale. It does not require a Multi-View Publication Kit (MVPK) face, AssuranceLane, evidence bundle, Bridge apparatus, cache key, or equivalence witness.
 
-When publication is current, E.17 defines the publication form and carrier relations. A publication mode changes only that form; it neither selects a profile nor changes the required check set or aggregate. The published minimum is the result identity, decision subject, profile application, check-application refs, decision, action consequence, scope, window, and recheck condition. Crossing, evidence, regulation, safety, and assurance fields appear only when the corresponding claim is current.
+When publication is current, E.24.PUB defines the publication occurrence, form, carrier, audience, bounded use, and availability. Use E.17 when the result needs a source-backed reader face and return to source. A publication mode changes only that form; it neither selects a profile nor changes the required check set or aggregate. The published minimum is the result identity, decision subject, profile application, check-application refs, decision, action consequence, scope, window, and recheck condition. Crossing, evidence, regulation, safety, and assurance fields appear only when the corresponding claim is current.
 
 A `DecisionLog` is an optional audit or reuse record that cites one or more `GateDecisionResult` values. It may retain source outcomes, mappings, rationale, evidence refs, and change history; it neither creates nor changes the decision.
 

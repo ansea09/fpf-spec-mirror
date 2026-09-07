@@ -6,12 +6,12 @@ section_id: "B.5.2:14"
 section_title: "Admissible Transitions, Abort Paths, and Reopening"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__015_admissible-transitions-abort-paths-and-reopening.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:14 — Admissible Transitions, Abort Paths, and Reopening"
-line_start: 41207
-line_end: 41244
+line_start: 41250
+line_end: 41287
 dependencies:
   - "A.10"
   - "A.16"
@@ -32,7 +32,7 @@ keywords:
 
 ### B.5.2:14 - Admissible Transitions, Abort Paths, and Reopening
 
-The abductive loop is iterative, but it is not formless. Several transition cases need explicit handling so that later stages know whether they are receiving a stable `L0` conjecture, a deferred candidate, or a prompt that should be reopened rather than forced forward.
+The abductive loop keeps its outcomes distinct so the recipient can tell whether it receives a qualified conjecture, deferred rivals, or a prompt that needs reopening. None of these outcomes by itself establishes an assurance level or an evidence-acquisition commitment.
 
 #### B.5.2:14.1 - Relation to `B.4.1` and `A.16`
 
@@ -46,7 +46,7 @@ The abductive loop is iterative, but it is not formless. Several transition case
 Not every abductive run should end in a prime hypothesis. Three non-selection outcomes are admissible:
 
 1. **Abort.** The prompt dissolves because the initiating anomaly or opportunity was misread, duplicated, or already answered elsewhere.
-2. **Defer.** Several candidates remain live, but the discriminating evidence or probe is not yet available. The loop pauses without pretending a winner exists.
+2. **Defer.** Several candidates remain live and the available comparison does not justify a winner, for example because a needed discriminator is unavailable. Preserve the unresolved set and its limits without inventing a winning explanation. A separately warranted present action may still proceed under C.11.
 3. **Split.** The original prompt turns out to contain several distinct questions. The run should fork into several narrower prompts rather than select one over-broad conjecture.
 
 These outcomes are not failures. They are part of keeping abduction honest.

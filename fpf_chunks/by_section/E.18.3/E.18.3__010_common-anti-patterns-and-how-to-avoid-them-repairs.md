@@ -6,12 +6,12 @@ section_id: "E.18.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them — Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__010_common-anti-patterns-and-how-to-avoid-them-repairs.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:8 — Common Anti-Patterns and How to Avoid Them — Repairs"
-line_start: 87695
-line_end: 87709
+line_start: 87802
+line_end: 87816
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,7 +43,7 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| **P2W as launch permission** | A carry-through note or selected continuation is used to begin Work. | Apply the exact Method definition, A.15.2 plan test, A.15.5 readiness test, A.21 gate test or applicable permission rule required by the claim; none alone performs Work. |
+| **P2W as launch permission** | A carry-through note or selected continuation is used to begin Work. | Apply the exact Method definition, A.15.2 plan test, A.15.5 readiness test, A.21 gate test or applicable permission rule required by the claim; identify any claimed dated Work separately under A.15.1. |
 | **Flow card as architecture decision** | A P2S flow card is treated as the decision or ADR. | Keep flow use in E.18.3 or C.32.P2S; use `C.32.PAD` and `C.32.ADR` for their exact distinct objects. |
 | **Parallel specialization object** | Reciprocal refs, a context field or profile record create a generic CGUS plus another E.18.3 structure. | Keep one selected A.22 `U.Structure` and treat E.18.3 as an additional membership-and-use condition. |
 | **Network graph as admitted slice** | Raw paths, edge labels, copied positions, or one global tag are inserted into a demonstration. | Select E.18.NET first, then reuse the same CGUS locus bindings and relation-reference epistemes through the complete A.22 network locator. |

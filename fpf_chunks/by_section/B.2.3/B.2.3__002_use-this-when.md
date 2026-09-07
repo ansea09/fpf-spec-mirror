@@ -6,12 +6,12 @@ section_id: "B.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__002_use-this-when.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:0 — Use This When"
-line_start: 38919
-line_end: 38938
+line_start: 38931
+line_end: 38950
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,7 +48,7 @@ Use `B.2` first to decide whether whole reidentification is current and to ident
 
 **Not this pattern when.**
 
-- If the result whole is an acting physical or operational holon, use `B.2.2`.
+- If the result whole is a physical or operational holon eligible to act, use `B.2.2`.
 - If the question is episteme constitution, empirical grounding, publication, source use, view, viewpoint, ClaimGraph, reference scheme, or description use without MHT, use `C.2.1`, `C.2.P`, `C.2.P.DR`, `E.17`, and the direct episteme-family pattern.
 - If the question is effect-free episteme morphing, viewing, retargeting, or controlled semantic coarsening, use `A.6.2`, `A.6.3`, `A.6.4`, or `A.6.3.CSC`.
 - If the question is synthesis work, use `A.15.1` for performed work and `A.12` or `A.3.4` for acting-side and transformation claims.

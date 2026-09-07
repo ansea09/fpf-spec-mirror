@@ -6,12 +6,12 @@ section_id: "C.19:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 50865
-line_end: 50871
+line_start: 50927
+line_end: 50935
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -52,6 +52,8 @@ keywords:
 ---
 
 ### C.19:8 - Common Anti-Patterns and How to Avoid Them
+
+- **Using deployment readiness to settle research continuation.** Judge active exploration and cheaper retention by their prospective contribution and remaining cost. Keep the actual qualification for deployment or transfer; past expenditure is not a reason to keep funding the line.
 
 - **Treating one scalarized top-1 as the frontier.** Avoid by naming the governing lens and keeping the live frontier distinct from any lens-ranked pick.
 - **Running exploration without one explicit next treatment.** Avoid by ending each pass with one explicit `currentTreatment` token: `widen`, `keep_frontier`, `narrow_to_subset`, or `sunset_line`. If the current question is no longer pool policy, name the next subject pattern instead of inventing another pool treatment.

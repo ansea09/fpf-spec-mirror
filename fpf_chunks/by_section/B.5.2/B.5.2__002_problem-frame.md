@@ -6,12 +6,12 @@ section_id: "B.5.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:1 — Problem frame"
-line_start: 41020
-line_end: 41023
+line_start: 41061
+line_end: 41066
 dependencies:
   - "A.10"
   - "A.16"
@@ -32,5 +32,7 @@ keywords:
 
 ### B.5.2:1 - Problem frame
 
-The Canonical Reasoning Cycle begins with abduction: the disciplined proposal of a candidate explanation, model, or conjecture that could account for a declared prompt. In practice this phase is often treated either as opaque inspiration or as unstructured ideation. Neither framing is bounded or auditable enough for FPF. The framework needs an entry discipline that is broad enough to admit real inquiry starts and narrow enough to keep the resulting hypothesis auditable.
+**Use this when.** An anomaly, opportunity or probe question needs candidate explanations that can be compared on their present plausibility. State the question and generate its serious rivals. The first useful result is a qualified conjecture with its supports, fragilities and allowed use, or an honest abort, defer or split outcome.
+
+An adequate present answer or action need not enter abduction merely to generate another research task. Use C.11 for a live choice among feasible actions and C.28 when a causal-support claim is needed. Abduction contributes candidate explanatory content; it is not the complete evidence synthesis or action decision.
 

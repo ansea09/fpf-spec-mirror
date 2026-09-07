@@ -6,12 +6,12 @@ section_id: "B.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__006_solution.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:4 — Solution"
-line_start: 38180
-line_end: 38289
+line_start: 38192
+line_end: 38301
 dependencies:
   - "A.1"
   - "A.10"
@@ -20,6 +20,7 @@ dependencies:
   - "A.15"
   - "A.15.1"
   - "A.19"
+  - "A.3.1"
   - "A.3.4"
   - "B.1"
   - "B.1.2"
@@ -75,7 +76,7 @@ The optional `MHTTriggerProfile`, `ExistingWholeExplanationResult`, and `HolonRe
 | `evidenceRelationRefs[]` | References to exact evidence relation occurrences supporting the trigger claims. |
 | `sourceUseRelationRefs[]` | References to exact source-use relation occurrences when a source is relied on. |
 
-The profile's effective `U.ReferenceScheme`, any current `U.ClaimScope`, and an independently selected model-use structure can qualify this episteme under C.2.1 when its receiving use needs them. They do not identify either whole, become MHT trigger facts, or make any referenced relation obtain. A single cue warrants attention; it does not establish whole reidentification.
+The profile's exact ClaimGraph and effective `U.ReferenceScheme`, together with its existing-whole EntityOfConcern, constitute its C.2.1 identity. Any current `U.ClaimScope` and an independently selected model-use structure can qualify this episteme when its receiving use needs them. These identity values and qualifications do not identify either whole, become MHT trigger facts, or make any referenced relation obtain. A single cue warrants attention; it does not establish whole reidentification.
 
 #### B.2:4.2 - Existing-whole comparison and optional result
 
@@ -122,11 +123,11 @@ Do not use `post*` field names as live governed names. They hide the candidate n
 
 #### B.2:4.5 - Agency Threshold
 
-Agency is not a binary status and not a root kind. Treat agency as a characteristic-space threshold for one exact system, predicate, claim scope, and qualification window.
+An agency-characteristic threshold is a condition in a characteristic space, not a root kind or a substitute for the A.13 agency claim. State its exact System, predicate, claim scope, and qualification window.
 
 Use `A.13`, `A.19`, and `C.16` for the characteristic-space and threshold claim. Levin-line TAME work can discipline the multi-characteristic framing when agency evidence is relied on for the current claim. B.2 uses agency threshold only as one possible trigger in `MHTTriggerProfile`, and only when crossing the threshold changes closure, supervision, objective, or whole identity.
 
-Recover the admitted System and its agency-relevant characteristic or threshold independently. A System may bear that characteristic while participating passively in the situation. Recover a local system-role kind, a separate System-classification judgment, an obtaining assignment, and ordinary source wording as separate branches; include one only when the receiving claim depends on it. If claim-bearing source wording still says only “role,” use `E.10.ROLE` rather than presuming classification or assignment.
+Recover the admitted System and its agency-relevant characteristic or threshold independently. A System may bear that characteristic while participating passively in the situation. A precise agency claim additionally requires the A.13 core, including the local agential system-role kind, System-classification judgment, and obtaining assignment; a characteristic-only claim does not acquire that additional scope. If claim-bearing source wording still says only “role,” use `E.10.ROLE` rather than presuming classification or assignment.
 
 #### B.2:4.6 - Acting-System Participation
 
@@ -142,7 +143,7 @@ Use `C.29` when the mathematical lens is relied on for the current claim. Use B.
 
 #### B.2:4.8 - Keep Whole Identity, Evidence, Currentness, And Reliance Separate
 
-Keep five results apart:
+Keep these five distinctions explicit:
 
 - the existing whole and candidate new whole, their constituents, obtaining constructive relations, assemblies, characteristics, and identity rules are world-side objects and facts under their direct patterns;
 - a B.2 whole-reidentification assertion is a C.2.1 episteme about those objects;

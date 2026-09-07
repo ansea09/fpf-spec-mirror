@@ -6,7 +6,7 @@ section_id: "A.1.CSD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__006_forces.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:3 — Forces"
@@ -17,6 +17,7 @@ dependencies:
   - "A.1.SCR"
   - "A.10"
   - "A.14"
+  - "A.15.9"
   - "A.6.RCD"
   - "B.1"
   - "B.1.2"
@@ -24,6 +25,7 @@ dependencies:
   - "B.2.2"
   - "C.11"
   - "C.11.CRC"
+  - "C.11.DUA"
   - "C.13"
   - "C.2.1"
   - "C.27"
@@ -39,7 +41,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Reach vs support | Consequences can travel far, while evidence for distant paths is often weak. |
-| Early action vs false actuality | A plausible path can justify a cheap probe, but not an assertion that the relation obtains. |
+| Early action vs false actuality | A plausible path can change a constraint or justify a worthwhile obtainable probe, while remaining insufficient to assert that the relation obtains. |
 | Breadth vs ontology | More candidate bearers improve discovery only while each keeps its exact kind or honest blocker. |
 | Several scales vs one decision | Several holons may change differently, while the receiver still needs a bounded next move. |
 | Reuse vs domain authority | A common discovery action is transferable; domain quantities, thresholds, evidence Methods, and decisions are not. |

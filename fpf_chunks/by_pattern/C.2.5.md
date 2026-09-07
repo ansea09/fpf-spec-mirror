@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.5.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
-line_start: 44368
-line_end: 44562
+line_start: 44415
+line_end: 44609
 dependencies:
   - "A.16"
   - "A.16.0"

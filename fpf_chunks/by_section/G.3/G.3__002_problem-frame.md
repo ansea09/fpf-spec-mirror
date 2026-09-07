@@ -6,12 +6,12 @@ section_id: "G.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__002_problem-frame.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:1 — Problem frame"
-line_start: 102808
-line_end: 102817
+line_start: 102923
+line_end: 102932
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -24,6 +24,7 @@ dependencies:
   - "C.16"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "E.10"
   - "E.5.1"
   - "E.5.3"
@@ -58,11 +59,11 @@ keywords:
 
 ### G.3:1 - Problem frame
 
-A team is defining or evolving a `CG‑Frame` (via `G.1`) and has plural, competing SoTA traditions and constructs (via `G.2`). The team needs a *admissibility-ready CHR publication* that makes downstream work possible without hidden semantic drift:
+A team is defining or evolving a `CG‑Frame` (via `G.1`) and has plural, competing SoTA traditions and constructs (via `G.2`). The team needs an *admissibility-ready CHR publication* that makes downstream work possible without hidden semantic drift:
 
 * **CAL authoring (`G.4`)** needs typed, admissible operands and guard/legality surfaces to build admissibility and acceptance rules (thresholds and policy cut‑offs remain governed by CAL).
 * **Selector/dispatch (`G.5`)** needs CHR‑typed quantities and explicit provenance pins so selection can remain set-returning and auditable under admissible orders.
-* **Reuse beyond the defining source or use** must name the exact characteristic and scale editions, bearer, scope and validity window, reference plane, evidence, and intended downstream use. Cite an `F.9` relation only when it actually obtains between the named `F.17` cells; any claim that relies on the relation for this use remains a separate `F.18` use and reliance claim.
+* **Reuse beyond the defining source or use** must name the exact characteristic and scale editions, bearer, scope and validity window, reference plane, evidence, and intended downstream use. Cite an `F.9` relation only when it actually obtains between the named `F.17` cells; any claim that relies on the relation for this use remains a separate bounded-use claim under `C.2.1` and `F.9`; its evidence-bearing reliance follows `A.10` and any applicable `B.3` assurance requirement.
 
 The resulting publication is a **CHR Pack** that is **CG‑Frame‑scoped**, **notation‑independent**, and **UTS‑published**, with explicit edition/policy pins sufficient for reproducibility and RSCR.
 

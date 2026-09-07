@@ -6,17 +6,18 @@ section_id: "D.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 69071
-line_end: 69079
+line_start: 69168
+line_end: 69176
 dependencies:
   - "A.1"
   - "A.15"
   - "A.3.4"
   - "B.1"
+  - "C.11.DUA"
   - "C.13"
   - "C.16"
   - "C.29"
@@ -34,6 +35,6 @@ keywords:
 | --- | --- | --- |
 | One-level ethics | The case is treated as good because one declared level improves. | Name every affected level or scope that changes the ethical claim. |
 | Ladder import | A fixed level list is imported before the case is understood. | Recover the situation-defined scopes first. |
-| Entry as solution | D.2 is used to decide the conflict. | Use D.2 only to open the entry and select D.3, D.4, D.5, C.30.ILC, or another subject pattern. |
+| Entry as solution | D.2 is used to decide the conflict. | Name the concern and select D.3, D.4, D.5, C.30.ILC, or another subject pattern for its next use. |
 | Hidden episteme harm | A standard, model, policy, or architecture description is treated only as a document, not as an affected episteme with use consequences. | Separate the episteme, its publication relation, use relation, and affected systems or people. |
 

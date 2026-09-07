@@ -6,12 +6,12 @@ section_id: "E.18.3:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__007_archetypal-grounding-worked-slices.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:5 — Archetypal Grounding — Worked Slices"
-line_start: 87505
-line_end: 87666
+line_start: 87612
+line_end: 87773
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,7 @@ A22IdentityBasis:
     ReplaceEditionWhenCurrentnessFailsOrIsUnknown@Review-2026-08
   namedSelectionUseFrame:
     questionOrAction: may v2 remain the basis for this comparison?
-    forbiddenOverread: no displayed order, gate decision, plan, Work, or comparison result follows
+forbiddenOverread: no displayed order, gate decision, plan, Work, or comparison result follows
 constraintGovernedProfileBasis:
   locusBindingRows[]:
     - <EditionComparisonUnfolding@Review-2026-08, edition-change, edition under review, ReferenceEditionChangeConstituent@Review-2026-08>
@@ -147,7 +147,7 @@ A22IdentityBasis:
     ComparisonBasisChangeGuard  # applied-constraint branch; legacy label does not make it a relation or event
   namedSelectionUseFrame:
     questionOrAction: decide which repair continuation remains admissible
-    forbiddenOverread: no table order, MethodDescription, plan, Work, gate or decision follows
+forbiddenOverread: no table order, MethodDescription, plan, Work, gate or decision follows
 flowCase: oneTFS
 transformationFlowStructureRef: CandidateSetRepairTFS  # independently identified E.18 substrate; not selectedCGUSRef
 transformationSubjectRows[]:
@@ -170,7 +170,7 @@ preservedTransformationStructureRefs[]:
   EditionToComparisonDependencyStructure
   ComparisonToCandidateSetDependencyStructure
 structureInformationAdequacyNoteRefs[]:
-  CandidateSetRepairTeachingOmissionNote under C.33
+  CandidateSetRepairTeachingOmissionNote under C.33 when carrier loss affects a declared architecture use
 stopCondition: stop stronger use when an A.22 discriminator, position binding or selected relation is not current
 reconsiderationConditions[]:
   - conditionClaimRef: exact claim that the admitted reference-publication edition changed
@@ -185,9 +185,9 @@ demonstrativeSliceRef:
   separate post-admission C.2.1 episteme for CandidateSetRepairTeaching
 ```
 
-The unresolved position refs and bindings, the full ClaimContents and current bases of both dependency references, the tests and current facts for both applied claims, and every neighboring-value row must be recovered before this larger account can pass the checklist. Neither applied claim belongs in `relationReferenceEpistemeRefs[]`. After those values and the C.33 omission and reconsideration conditions are recoverable, the demonstration ref may name a separate episteme about the same selected structure.
+The unresolved position refs and bindings, the full ClaimContents and current bases of both dependency references, the tests and current facts for both applied claims, and every neighboring-value row must be recovered before this larger account can pass the checklist. Neither applied claim belongs in `relationReferenceEpistemeRefs[]`. After those values and the omission and reconsideration conditions are recoverable, the demonstration ref may name a separate episteme about the same selected structure. Use C.33 for the omission account when carrier loss affects a declared architecture use.
 
-**Local edition-relation repair.** `G.11` admits `ReferencePublicationEdition@v2` while `ComparisonDependsOnAdmittedEdition` still references v1. Keep independently unchanged constituents, positions, path and path-slice identifiers, preserved structures, and reconsideration conditions. Re-evaluate the relation under its predicate definition and current facts, replace the selected occurrence only if the v2 predicate obtains, and then re-evaluate `EditionAdmissionGuard` explicitly as an applied constraint claim under its test and current facts. Reopen the A.19.CPM comparison use only if its basis changed, C.18 only if the comparison result changed, and C.32.PAD only if that retained-set change affects the current decision. If the selected occurrence changes, the A.22 relation discriminator changes and the selected structure must be reidentified; mere publication wording or a new relation-reference episteme does not do so.
+**Local edition-relation repair.** After `ReferencePublicationEdition@v2` is admitted, use `G.11` to record the edition change; `ComparisonDependsOnAdmittedEdition` still references v1. Keep independently unchanged constituents, positions, path and path-slice identifiers, preserved structures, and reconsideration conditions. Re-evaluate the relation under its predicate definition and current facts, replace the selected occurrence only if the v2 predicate obtains, and then re-evaluate `EditionAdmissionGuard` explicitly as an applied constraint claim under its test and current facts. Reopen the A.19.CPM comparison use only if its basis changed, C.18 only if the comparison result changed, and C.32.PAD only if that retained-set change affects the current decision. If the selected occurrence changes, the A.22 relation discriminator changes and the selected structure must be reidentified; mere publication wording or a new relation-reference episteme does not do so.
 
 **Connected-box proxy failure.** A team reports that every flow-card box is connected and adds low-value edges until path coverage reaches its target. The relation count rises, condition labels no longer distinguish applied claims, E.18 guard events, and actual relation occurrences, stale dependencies remain unrepaired, and unsupported neighboring connections increase. Edge count, labels, and path coverage describe the expression only. Remove edges without exact occurrences and predicate definitions, recover each continuation's actual condition branch, evaluate whether practitioners select the correct continuation and smallest repair, and use `E.13` when display coverage substitutes for those outcomes.
 
@@ -197,7 +197,7 @@ The unresolved position refs and bindings, the full ClaimContents and current ba
 
 **Clinical transformation planning.** A treatment-adjustment unfolding use concerns `Patient@Case-17`, independently admitted as a `U.System`, and selects assessment, intervention-candidate, contraindication, observed-state, and reconsideration positions. A contraindication condition remains an applied clinical claim with its test and current facts; a cited E.18 guard failure remains an event with its gate-assignment facts; and the one exact observed-state relation changes admissibility only when its independently defined kind and occurrence obtain. The selected structure does not authorize treatment, show that evidence is sufficient, replace clinical judgement, admit a MethodDescription, or show that an intervention occurred; those claims require the applicable clinical DPF, permission, Work, evidence, and gate definitions or tests plus the current facts or evidence that satisfy them.
 
-**Formal flow-expression boundary.** A team expresses the candidate-set repair use as a directed graph or DCR model to ask whether `DecisionRepairPosition` is reachable after `EditionAdmissionGuard`. The expression may preserve the dependency topology and a condition label plus the queried path, but it does not decide whether that condition is an applied claim, an E.18 guard event, or an independently defined relation occurrence. It also loses neighboring claims already shown to obtain, their concrete contributions, C.33 omissions, and currentness semantics unless those are separately mapped. Use `E.18.2` for the mathematical description and `C.29` for its declared use, preserved/lost structure, and stop. Positive reachability alone shows neither the condition's ontic type, currentness, retained-set validity, decision repair, Work order, nor selected-structure identity.
+**Formal flow-expression boundary.** A team expresses the candidate-set repair use as a directed graph or DCR model to ask whether `DecisionRepairPosition` is reachable after `EditionAdmissionGuard`. The expression may preserve the dependency topology and a condition label plus the queried path, but it does not decide whether that condition is an applied claim, an E.18 guard event, or an independently defined relation occurrence. It also loses neighboring claims already shown to obtain, their concrete contributions, description omissions (including C.33 omissions for a declared architecture use), and currentness semantics unless those are separately mapped. Use `E.18.2` for the mathematical description and `C.29` for its declared use, preserved/lost structure, and stop. Positive reachability alone shows neither the condition's ontic type, currentness, retained-set validity, decision repair, Work order, nor selected-structure identity.
 
 **Reference-currentness repair.** A one-TFS path slice may depend on an admitted publication edition, a `G.2` source-use relation, a source pack or a telemetry window. E.18 supplies slice-local flow refresh. G.11 supplies the tests for source currentness, decay, edition shift, deprecation, reship and no-change claims. Connect these values only through exact obtaining occurrences and their predicate definitions, and reopen the smallest dependent use; do not create a combined currentness-refresh value.
 

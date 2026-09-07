@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__006_archetypal-grounding.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:5 — Archetypal Grounding"
-line_start: 72057
-line_end: 72099
+line_start: 72164
+line_end: 72206
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,7 +59,7 @@ keywords:
 
 ### E.4.DPF.DA:5 - Archetypal Grounding
 
-Tell: A personal-development DPF is generated in one short run. It may have useful principles and pattern seeds. The evaluator can make an ordinary package-adequacy judgement without asserting `U.Work`. If a dated evaluation is instead admitted as Work, recover the exact actual evaluator System through A.13 and cite one independently valid A.15.1 Work account. Add the same obtaining A.13 assignment and applicable F.6 relation occurrences only when this result expressly represents precise assignment-bound attribution; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Separately cite an A.6.1 application only if the evaluation actually uses one exact operation declared by a separately admitted Mechanism and the result depends on its bindings; Work admission does not supply that application. The aggregate C.2.1 result can then state local status `seedOnly`, with high coordinate claims for first-entry utility and low claims for source currentness, heterogeneous probes, relation records, or refresh. The prompt output, evaluator action, any Work, any attribution, any Mechanism-operation application, result episteme, and local status remain distinct. That status is not failure or admission; it is an honest package-use result and next repair route.
+Tell: A personal-development DPF is generated in one short run. It may have useful principles and pattern seeds. The evaluator can make an ordinary package-adequacy judgement without asserting `U.Work`. If a dated evaluation is instead admitted as Work, recover the exact actual evaluator System through A.13 and cite one independently valid A.15.1 Work account. Add the same obtaining A.13 assignment and applicable F.6 relation occurrences only when this result expressly represents precise assignment-bound attribution; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Separately cite an A.6.1 application only if the evaluation actually uses one exact operation declared by a separately admitted Mechanism and the result depends on its bindings; Work admission does not supply that application. The aggregate C.2.1 result can then state local status `seedOnly`, with high coordinate claims for first-entry utility and low claims for source currentness, heterogeneous probes, relation records, or refresh. The prompt output, evaluator action, any Work, any attribution, any Mechanism-operation application, result episteme, and local status remain distinct. That status is an honest package-use result and next repair route; it does not itself admit the package.
 
 Show: A domain DPF all-in-one publication carrier contains domain patterns, a source-use map, a Core-bridge map, relation records, and heterogeneous acceptance cases for several user situations. `E.4.DPF.DA` asks whether those cases actually force the pattern set to solve different domain problems, whether source rows changed pattern obligations, whether maps are reachable during work, and whether the package's local evaluation pattern can feed `E.22` and `E.23` without becoming a hidden Core dependency.
 

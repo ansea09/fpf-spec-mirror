@@ -6,12 +6,12 @@ section_id: "G.12:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__010_consequences.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:8 — Consequences"
-line_start: 107404
-line_end: 107411
+line_start: 107527
+line_end: 107534
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -55,5 +55,5 @@ keywords:
 
 **Costs.** A relied-on trend needs exact result, scope, window, and replay identities. Publication and refresh add their own conditional work.
 
-**Risks avoided.** Screenshot-as-result, context-container resurrection, scope/slice collapse, hidden method drift, illicit ordinal arithmetic, scalarization by view, and carrier-as-publication are blocked.
+**Risks avoided.** Screenshot-as-result, scope/slice collapse, hidden method drift, illicit ordinal arithmetic, scalarization by view, and carrier-as-publication are blocked.
 

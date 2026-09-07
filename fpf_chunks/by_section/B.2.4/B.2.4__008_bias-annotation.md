@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "B.2.4"
 pattern_title: "Capability and Functioning Whole Reidentification"
-section_id: "B.2.4:5.1"
+section_id: "B.2.4:5.4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__008_bias-annotation.md"
-commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
+commit_sha: "14f263bd90d449803a2ec6cb57ee7f620cc41bed"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
-  - "B.2.4:5.1 — Bias-Annotation"
-line_start: 39250
-line_end: 39259
+  - "B.2.4:5.4 — Bias-Annotation"
+line_start: 39262
+line_end: 39271
 dependencies:
   - "A.10"
   - "A.15"
@@ -35,7 +35,7 @@ dependencies:
 keywords:
 ---
 
-### B.2.4:5.1 - Bias-Annotation
+### B.2.4:5.4 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
