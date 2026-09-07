@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PFP.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
-line_start: 79802
-line_end: 80119
+line_start: 80066
+line_end: 80383
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -263,7 +263,7 @@ A pattern can participate in several profiles, and a profile can draw on several
 | --- | --- | --- |
 | Gov | A visible status or form pass is read as acceptance, authority, release, or currentness. | Keep those claims under their own decisions and relations; the form only exposes selected public cues. |
 | Arch | A file, website, or combined package is treated as the product or edition, or every nearby result is forced into the framework form. | Name edition, publication form, carrier, occurrence, support unit, and adjacent product separately; apply this profile only to framework constituents. |
-| Onto-Epist | A date, filename, digest, or editable front block becomes edition identity or evidence that a relation obtains. | Use one stable public designation and edition-record return; project only exact facts from their own records. |
+| Epist (Epistemological and Ontological) | A date, filename, digest, or editable front block becomes edition identity or evidence that a relation obtains. | Use one stable public designation and edition-record return; project only exact facts from their own records. |
 | Prag | Administrative completeness displaces the reader's first question, or an optional cue appears without changing use. | Put the smallest useful edition cue first, then the ToC and practical entries; require a named reader decision for every extra front cue. |
 | Did | Predictable labels become rigid English-only machinery, terse navigation hides the patterns needed to act, examples read as a coverage catalogue, or compactness deletes a choice-changing distinction. | Keep recognizable headings, the five-field ordinary form and six-field card form, explicit non-exhaustive wording, one product-language burden measure with mantra/card maxima, useful detail, and direct-pattern return; test translations, low-tool carriers, navigation, and mnemonic recall with intended readers. |
 
@@ -336,7 +336,7 @@ The comparisons below apply the canonical definition and positive comparison con
 | When should the practical-entry set promote an ordinary entry to a selected card, and how much card apparatus is justified? | The best-known current FPF line is selection by demonstrated mnemonic gain: keep one non-exhaustive entry set, use the lighter five-field ordinary entry by default, add the six-field card only when the longer reminder improves recognition or return, and let each product declare one reading-burden measure and its own maxima. | Card-per-pattern fanout and the opposite no-card rule are the serious defaults. The first turns a navigation aid into a rival catalogue and fixed quota; the second withholds a useful longer reminder even when cross-pattern choice repeatedly fails. | Both defaults ignore the actual reader decision. **Adapt:** section 4.3 and `CC-PFP.9a–c` preserve one entry set, an explicit examples-not-coverage statement, stable field order, one same-key expansion, product-language limits, and zero-card permission. **Reject:** universal card counts, copied FPF numeric limits, syntax as proof of mnemonic gain, and a second card front door. | `E.11` supplies the selected mnemonic-gain rule; the current FPF examples, LPF compact locator, and direct-answer DPF Suite Reference are comparison and counterexample evidence. They show that a useful direct entry need not become a card and that a framework may legitimately declare zero cards. No external source, current edition, or local example validates a universal quota or reading measure. | Reopen the smallest affected entry form or check if actual product-language or cold-reader comparison of the same content with and without the card changes its classification, exposes a missing visible field, or shows that the declared burden guard prevents reliable choice and return. |
 | How can a language explain its Methods as a whole while preserving direct pattern use and useful profiles? | Combine whole-language explanation with individually usable patterns; distinguish the Method from its representation and retain the shared reasons for combining or narrowing contributions. | Ad hoc prefaces can omit one kind of answer; literal repetition of a full pattern at every group can duplicate content and imply false parentage. | **Adapt:** section 4.7 reuses E.8's twelve substantive questions with exact inherited answers and profile deltas. The publication keeps its direct entries and body grammar. The rationale for organization becomes public; dated development history remains separate. | Fowler's [*Writing patterns*](https://www.martinfowler.com/articles/writingPatterns.html) (2006) is a historical practice account of narrative plus individual patterns. Iba and Kanai's [pattern-language methodology](https://hillside.net/plop/2021/plopourri/PLoP21_PLOPOURRI_Iba_Methodology2.pdf) (2021) contributes bottom-up and whole approaches with several descriptive levels. Gericke, Eckert, and Stacey's [method-description study](https://oro.open.ac.uk/86670/1/86670.pdf) (2022) supports explaining a method's idea, procedure, use, and tools together. These sources motivate the distinctions; they do not establish a universal twelve-section layout or a limit on scale. | Reopen the affected correspondence if actual whole-language or profile use loses an actionable answer, forces duplicate explanation, or makes a direct pattern harder to use. |
 
-Source identity, publication date, maintenance state, and currentness remain in their evidence or refresh records. A newer, official, or more widely used source does not raise either comparison unless its substantive answer defeats the selected line and changes one of the governed loci above.
+Source identity, publication date, maintenance state, and currentness remain in their evidence or refresh records. A newer, official, or more widely used source does not improve the answer selected in any of these comparisons unless its substantive answer defeats the selected line and changes one of the governed loci above.
 
 ### E.11.PFP:12 - Relations
 

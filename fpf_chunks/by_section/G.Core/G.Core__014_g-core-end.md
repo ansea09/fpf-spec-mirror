@@ -6,12 +6,12 @@ section_id: "G.Core:End"
 section_title: "G.Core:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__014_g-core-end.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:End — G.Core:End"
-line_start: 101254
-line_end: 101255
+line_start: 101516
+line_end: 101517
 dependencies:
   - "A.15.3"
   - "A.19"

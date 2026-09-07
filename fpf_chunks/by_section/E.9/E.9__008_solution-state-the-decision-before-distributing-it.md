@@ -6,12 +6,12 @@ section_id: "E.9:4"
 section_title: "Solution — state the decision before distributing it"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__008_solution-state-the-decision-before-distributing-it.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:4 — Solution — state the decision before distributing it"
-line_start: 74147
-line_end: 74313
+line_start: 74379
+line_end: 74545
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -70,11 +70,11 @@ Keep a rejected alternative only when it explains the selected answer, a live bo
 
 Before selecting a broad language, ontology, or authoring rule for fanout, apply it to at least one dependency-aware actual predecessor/proposed host pair. At comparable effort, compare the recognizable entry, required inputs, first action, practitioner vocabulary, formality and assurance burden, first useful result, stop or return, preserved useful ideas, and true direct consumers. Proposed pattern wording must pass the E.8 first screen and the `F.19` kind-preserving plain-rewrite test. A schema, invented fact pack, unrelated lane test, checklist, or promised later review cannot substitute for this replay. If the pilot degrades use without a compensating semantic gain, repair or reject the rule before fanout.
 
-A DRR records the selected answer; the record does not decide, authorize, perform drafting, or realize Core content. When exact identity or reliance makes the distinction material, separately identify the decision work and method, selected-answer result, C.2.1 DRR episteme, source-use relations, assessment and result, any acceptance or authority, and later realization work. An exact DRR episteme then follows C.2.1 identity by `<ClaimGraph, EntityOfConcern, effective ReferenceScheme>`; ordinary use does not require materializing that whole account.
+A DRR records the selected answer. When exact identity or reliance makes the distinction material, separately identify the decision work and method, selected-answer result, C.2.1 DRR episteme, source-use relations, assessment and result, any acceptance or authority, and later realization work. An exact DRR episteme then follows C.2.1 identity by `<ClaimGraph, EntityOfConcern, effective ReferenceScheme>`; ordinary use does not require materializing that whole account.
 
 #### E.9:4.1 - Minimum decision-inspection content blocks
 
-A conforming DRR must also make the following decision-inspection content blocks
+A nontrivial conforming DRR must also make the following decision-inspection content blocks
 recoverable. They may appear inside the four kernel components or inside one
 dedicated `Decision grounds used` or decision-inspection block, but they are part of
 substantive DRR adequacy rather than later review-only hardening.
@@ -84,7 +84,7 @@ substantive DRR adequacy rather than later review-only hardening.
 | **Exact decision grounds and governing inheritance** | Exact source documents, accepted architecture records, accepted audit records, and inherited decisions that materially govern the decision, plus any remaining uncertainty not already closed by those grounds. | Header or `Decision grounds used`, with the Problem frame or Rationale carrying the decision-relevant source use. |
 | **Purpose, utility, and scenario grounding** | Intended FPF use-value, first-minute working situation, minimum scenario/anti-case grounding, and compact utility/fitness reading. | Problem frame. |
 | **Decision-relevant alternatives and current disposition** | The alternatives needed to explain the selected answer, a live boundary, or a reopen condition, with their current disposition. Discussion history and harmless options stay outside the current DRR; retain them in a separate historical source only when a named later use needs that history. | Decision and Rationale. |
-| **Content-distribution and outside-boundary map** | For each load-bearing selected answer: the positive content obligation each selected pattern or selected non-pattern FPF kind-reference pair must carry, the first subject kind and action guidance expected in drafting when a pattern is selected, which decision-relevant related patterns or selected non-pattern FPF kind-reference pairs stay unamended under the current decision, and any agreement across selected patterns and selected non-pattern FPF kind-reference pairs that those selected patterns and selected non-pattern FPF kind-reference pairs must preserve. Outside-boundary and non-obligation material is secondary distribution control; it must be normalized, compact, and not pasteable as copied negative doctrine or precision-restoration debt for the selected pattern Solution. Ordinary `use/apply this pattern` wording remains valid action-guiding shorthand. In the distribution map, state the concrete claim, relation, boundary, or practitioner action that would change. Repeated content families, ordinary references, README/ToC/E.11/I.2 navigation, package-boundary rationale, split/defer rationale, architecture placement reasoning, and phrase-level boilerplate around simple claims stay in DRR, architecture documents, handoff, relation rows, README, ToC, `E.11`, `I.2`, or one compact local locus instead of the Solution. When proposed wording still needs precision restoration, the DRR names the selected restoration or governing pattern: `E.10`, `E.10.ARCH`, `F.18`, `F.19`, or another governing pattern. Named related patterns or selected non-pattern FPF kind-reference pairs must be classified now, not left as tentative `most likely` / `may need` / `if later touched` watch prose. | Decision. |
+| **Content-distribution and outside-boundary map** | For each load-bearing selected answer: the positive content obligation each selected pattern or selected non-pattern FPF kind-reference pair must carry, the first subject kind and action guidance expected in drafting when a pattern is selected, which decision-relevant related patterns or selected non-pattern FPF kind-reference pairs stay unamended under the current decision, and any agreement across selected patterns and selected non-pattern FPF kind-reference pairs that those selected patterns and selected non-pattern FPF kind-reference pairs must preserve. Outside-boundary and non-obligation material is secondary distribution control; it must be normalized, compact, and not pasteable as copied negative doctrine or precision-restoration debt for the selected pattern Solution. Ordinary `use/apply this pattern` wording remains valid action-guiding shorthand. In the distribution map, state the concrete claim, relation, boundary, or practitioner action that would change. Repeated content-family and reference catalogues, README/ToC/E.11/I.2 navigation, current development's package-boundary, split/defer, and architecture-placement correspondence, and phrase-level boilerplate around simple claims stay in DRR, architecture documents, handoff, relation rows, README, ToC, `E.11`, `I.2`, or one compact local locus instead of the Solution. Publish use-changing architectural reasons under `E.8:4.2.3`. When proposed wording still needs precision restoration, the DRR names the selected restoration or governing pattern: `E.10`, `E.10.ARCH`, `F.18`, `F.19`, or another governing pattern. Named related patterns or selected non-pattern FPF kind-reference pairs must be classified now, not left as tentative `most likely` / `may need` / `if later touched` watch prose. | Decision. |
 | **Existing-pattern sufficiency and new-pattern necessity** | For each load-bearing selected answer, whether one already-existing pattern is sufficient, one already-existing selected non-pattern FPF kind-reference pair is sufficient, or one newly selected pattern or selected non-pattern FPF kind-reference pair is necessary, and why rejected options would misplace, overload, or falsely split the pattern or selected non-pattern FPF kind-reference pair that governs the selected answer. | Decision and Rationale. |
 | **Naming, ontology, and wrong-carrier-confusion account** | Head/branch/object/move/outside-work separation, tempting wrong-pattern assignment or wrong non-pattern FPF kind-reference assignment, and any load-bearing `F.18` naming obligation needed to keep the selected answer truthful by value. | Problem frame, Decision, and Rationale. |
 | **Reusable content-disposition when triggered** | Whether a potentially reusable selected non-pattern FPF kind-reference pair remains local, is generalized now, is rejected, or is placed outside the current decision with named pattern, selected non-pattern FPF kind-reference pair, or decision record. | Decision and Rationale. |
@@ -186,11 +186,11 @@ A substantive DRR is one claim-bearing episteme about one bounded current conten
 
 #### E.9:4.1a - Process-source method admission into FPF
 
-When a DRR considers a stable method described in a process source, it decides the FPF-admission disposition by value. The DRR records that decision and any source-use relation that matters; neither the source passage nor the record performs admission or becomes a second canon.
+When an author considers a stable method described in a process source, the author decides the FPF-admission disposition by value. The DRR records that decision and any source-use relation that matters; neither the source passage nor the record becomes a second canon.
 
 The DRR names:
 
-- the process-source passage or accepted source named by value process-source decision-ground item being considered;
+- the process-source passage or accepted process-source decision-ground item being considered, named by value;
 - the reusable FPF method recovered from that passage;
 - the current FPF pattern, section, or accepted `DRR` that already carries the method, if any;
 - the remaining delta that current FPF does not yet carry;

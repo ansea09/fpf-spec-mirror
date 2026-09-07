@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__006_archetypal-grounding.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:5 — Archetypal grounding"
-line_start: 85459
-line_end: 85533
+line_start: 85719
+line_end: 85793
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ Three paragraphs later it says:
 `We should therefore assign rollout responsibility to platform and stage migration in two sprints.`
 
 The fix is not only lexical.
-The memo's primary subject began as the service boundary, but its carried move changed from describing or assessing that boundary to assigning responsibility and directing rollout; its apparent downstream use changed from understanding to planning and decision. None of those changes by itself proves that the `C.2.1` `EntityOfConcern` of an exact carried episteme changed.
+The memo's primary subject began as the service boundary, but its carried move changed from describing or assessing that boundary to proposing responsibility assignment and a two-sprint rollout; its apparent downstream use changed from understanding to planning and decision. None of those changes by itself proves that the `C.2.1` `EntityOfConcern` of an exact carried episteme changed.
 Repair the memo in one of two ways:
 - keep the note about the boundary and push rollout outside;
 - or make the changed move and downstream use explicit and use a downstream decision or rollout publication.
@@ -92,7 +92,7 @@ If the remaining question is now one bounded comparison between the already pinn
 #### E.17.AUD.OOTD:5.5 - Outside observation changes the live concern or carried claim
 
 A release-readiness note is already explicit that it is about one candidate publication or view and the risk state visible from the current evidence.
-Mid-review, an external vendor bulletin and a new field observation change the live failure boundary for that same candidate.
+Mid-review, an external vendor bulletin and a new field observation change the reported failure boundary for that same candidate.
 
 The candidate may remain the primary subject. What changed first is the evidence-facing concern and the claim the note can honestly carry; a later approval or execution question may also change the downstream use. Do not report an `EntityOfConcern` change unless one identified claim-bearing episteme actually has a different exact entity participant under `C.2.1`.
 Repair the note in one of three ways:

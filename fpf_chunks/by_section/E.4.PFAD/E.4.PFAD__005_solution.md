@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
-line_start: 70706
-line_end: 70804
+line_start: 70937
+line_end: 71035
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -138,7 +138,7 @@ For the architecture answer, use the direct assertion under the relation's own p
 
 The decision-maker selects the answer during decision Work. The `E.9` DRR records that answer and its rationale. An authorized decision-maker accepts, redirects, rejects, or reopens it through a separately identified acceptance decision. Later authoring follows an accepted answer. A framework edition is the pattern-language episteme assembled from accepted sources; any maintenance relation obtains separately. Publish or project claims about these objects in the selected form—for example, an ADR-like document, site, or PDF—and identify its presentation carrier separately when needed.
 
-When the answer uses `C.32.MWA` or `E.23.CDI`, keep each proposed Method distinct from the pattern that describes it, the Work that performs it, the result of that Work, the framework answer, the DRR, and the resulting edition. Use a proposal or evidence locator to find the supporting material.
+When the answer uses `C.32.MWA` or `E.23.CDI`, keep each proposed Method distinct from the pattern that describes it, the Work in which it is performed, the result of that Work, the framework answer, the DRR, and the resulting edition. Use a proposal or evidence locator to find the supporting material.
 
 Use `C.32.PAD` only when the question is an exact project architecture decision about a named composite project Work, and use `C.32.ADR` only to project that project decision. For an ordinary framework answer, publish the selected decision episteme or a reader-specific projection through `E.17` and `E.24.PUB`. None of these is a mandatory stage of principle-framework authoring.
 

@@ -6,12 +6,12 @@ section_id: "E.17.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__008_conformance-checklist.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:7 — Conformance Checklist"
-line_start: 82185
-line_end: 82197
+line_start: 82449
+line_end: 82461
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -41,7 +41,7 @@ keywords:
 - `CC-VBL-3` A describing use imports an exact subset from exact `<editionDesignator(L), familyDesignator>`, preserves omissions and provenance, and selects any one actual P through one singular reference.
 - `CC-VBL-4` Every candidate E is independently identified and gains `U.View` membership only through obtaining E/P conformance—not through construction, selection, bundling, naming, form, carrier, rendering, or publication.
 - `CC-VBL-5` A family designator is not used as an id kind, publication-face/form kind, carrier kind, viewpoint reference, or substitute for an exact member.
-- `CC-VBL-6` Changes to member references, targets, family meaning, or compatibility constraints create another catalogue edition or family declaration; publication or annex-only change does not reidentify unchanged P.
+- `CC-VBL-6` Changes to member references, targets, family meaning, or compatibility constraints create another catalogue edition carrying the revised or new family declaration; publication or annex-only change does not reidentify unchanged P.
 - `CC-VBL-7` Multi-bundle imports preserve exact catalogue provenance and collisions only. Same-scheme comparison names its exact predicate and participants and applies the pattern that defines that predicate. Cross-context comparison resolves exact F.17 cells, obtaining F.9 Bridge, separate `<u,d,r,t>` claim, and required A.10 or B.3 reliance; otherwise it stops at lexical or structural contrast.
 - `CC-VBL-8` E.24.PUB expression, bearing, publication, recurrence, rendering work, and C.29 representation remain distinct, grant no viewpoint or view membership, and make no represented world-side relation obtain.
 - `CC-VBL-9` A bundle intended for non-expert reuse should provide references that resolve under their applicable schemes to exact archetypal-grounding examples or sections for its member viewpoints; grounding aids recognition but grants no membership.

@@ -6,12 +6,12 @@ section_id: "E.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__004_forces.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:3 — Forces"
-line_start: 72583
-line_end: 72591
+line_start: 72814
+line_end: 72822
 dependencies:
   - "E.2"
   - "E.3"
@@ -35,5 +35,5 @@ keywords:
 | **Purity vs Pragmatism** | Preserve pristine concepts ↔ need real examples. |
 | **Universality vs Convention** | Rules valid across domains ↔ convenience of one familiar notation. |
 | **Modularity vs Integration** | Independent layers ↔ temptation to cross‑link for speed. |
-| **Objectivity vs Perspective** | Neutral framework ↔ Transformers’ unavoidable cultural lens. |
+| **Objectivity vs Perspective** | Neutral framework ↔ contributors’ unavoidable cultural lens. |
 

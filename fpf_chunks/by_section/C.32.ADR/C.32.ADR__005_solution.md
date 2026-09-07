@@ -6,12 +6,12 @@ section_id: "C.32.ADR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__005_solution.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:4 — Solution"
-line_start: 66467
-line_end: 66508
+line_start: 66696
+line_end: 66737
 dependencies:
   - "A.10"
   - "A.15"
@@ -48,7 +48,7 @@ Create `ArchitectureDecisionRecordProjection@Project` from an existing `Architec
 
 Work in this order:
 
-1. Name the publication carrier and intended readers. The carrier can be a Markdown ADR file, decision memo, trade-study record, engineering change note, certification rationale, design-review record, or another typed file or record.
+1. Name the publication carrier and intended readers. Use a file or other carrier for the Markdown ADR, decision memo, trade-study record, engineering change note, certification rationale, design-review record, or other decision-description form.
 2. Cite the decision relation and decision description. If the record cannot cite them, draft them first.
 3. Choose the smallest record scope that lets intended readers use the decision. Avoid copying architecture descriptions or full method descriptions; cite them by value where possible.
 4. Map section functions to headings or carrier slots. Use local headings if needed, but keep the function rows recoverable.
@@ -57,7 +57,7 @@ Work in this order:
 7. Carry rationale, accepted losses, and consequences. Include architecture-characteristic trade-offs and guardrails, not only benefits.
 8. Carry method-use instruction and work split when the decision guides developer work. Cite `A.15`, method descriptions, pattern-use refs, readiness exits, and expected structure effects rather than burying them in prose.
 9. Carry confirmation, eval, or violation-detection exits. Use `C.32.ACE`, `C.16`, `A.10`, `B.3`, `A.21`, or governance patterns when those claims are live.
-10. Carry publication and source-return boundaries. Use `E.17`, `E.24.PUB`, and `C.30.AD` for publication-face and architecture-description claims.
+10. Carry publication and source-return boundaries. Use `E.17` for source-backed publication faces and source return, `E.24.PUB` for publication occurrences and audience availability, and `C.30.AD` for architecture-description claims.
 11. Carry status, supersession, and update conditions. Old records remain useful as history when superseded; the active decision relation tells which one governs current work.
 
 #### C.32.ADR:4.1 - Required section functions

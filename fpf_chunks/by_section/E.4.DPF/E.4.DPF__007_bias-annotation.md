@@ -6,12 +6,12 @@ section_id: "E.4.DPF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__007_bias-annotation.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:6 — Bias-Annotation"
-line_start: 71452
-line_end: 71467
+line_start: 71683
+line_end: 71698
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -66,7 +66,7 @@ keywords:
 | --- | --- | --- |
 | Gov | A framework name, package form, or authoring step is read as acceptance, authority, currentness, or maintenance responsibility. | State acceptance, authority, currentness, and maintenance through their own decisions and direct relations. |
 | Arch | The current authoring slice, file layout, carrier, or pattern count becomes the framework boundary. | Decide the field, connected problem families, material pattern relations, first use, support units, adjacent subjects, and edition/change boundary by content. |
-| Onto-Epist | Methods, descriptions, Work, patterns, editions, carriers, programmes, services, and product wording collapse into one convenient object. | Name only the direct subjects and relations used by the current decision; keep *product* Plain and return an unresolved kind as a question. |
+| Epist (Epistemological and Ontological) | Methods, descriptions, Work, patterns, editions, carriers, programmes, services, and product wording collapse into one convenient object. | Name only the direct subjects and relations used by the current decision; keep *product* Plain and return an unresolved kind as a question. |
 | Prag | Source, quality, relation, and publication apparatus grows before it changes a practitioner decision, or a thin extra pattern is added to satisfy a count. | Choose the smallest source and assurance route that closes the use; apply the same semantic framework-scale test at every count. |
 | Did | Ontological precision or package machinery displaces the recognizable domain problem, useful move, worked case, and stop or return. | Keep the first-hour route and pattern bodies in precise plain language; place heavier architecture and assurance after recognition and only where use needs them. |
 

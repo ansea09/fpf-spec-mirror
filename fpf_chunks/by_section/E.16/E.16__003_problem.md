@@ -6,12 +6,12 @@ section_id: "E.16:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__003_problem.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:2 — Problem"
-line_start: 81234
-line_end: 81240
+line_start: 81498
+line_end: 81504
 dependencies:
   - "A.10"
   - "A.13"
@@ -52,7 +52,7 @@ keywords:
 ### E.16:2 - Problem
 
 * **Opaque autonomy.** Patterns assert “autonomous” behavior with no **budget** or **enforcement**.
-* **Un‑gated execution.** Methods can execute beyond authority or risk limits.
+* **Un‑gated execution.** Systems can perform Work beyond authority or risk limits.
 * **Ad‑hoc overrides.** No standard **SpeechAct** for pausing/de‑scoping; SoD is unclear.
 * **Non‑portable publication.** **UTS (Unified Term Sheet)** rows cannot surface autonomy‑critical data for parity or selection.
 

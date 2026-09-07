@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__005_solution.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:4 — Solution"
-line_start: 72362
-line_end: 72461
+line_start: 72593
+line_end: 72692
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -29,7 +29,7 @@ keywords:
 
 ### E.4.PFIP:4 - Solution
 
-Run two independent comparisons over one candidate framework publication:
+For a candidate framework publication with a predecessor, run two independent comparisons:
 
 - **accepted source to candidate:** whether each accepted source contribution was incorporated into the named part of a candidate publication-form expression without changing its accepted meaning or use; and
 - **predecessor to candidate:** whether the candidate preserves the complete predecessor publication outside accepted content changes.

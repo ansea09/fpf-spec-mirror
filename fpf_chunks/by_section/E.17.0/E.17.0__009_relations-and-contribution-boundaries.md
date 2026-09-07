@@ -6,12 +6,12 @@ section_id: "E.17.0:8"
 section_title: "Relations and contribution boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__009_relations-and-contribution-boundaries.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:8 — Relations and contribution boundaries"
-line_start: 81979
-line_end: 81994
+line_start: 82243
+line_end: 82258
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -34,7 +34,7 @@ keywords:
 - Use **C.13** to construct exact `C_viewpoint` only in the action-changing structured-viewpoint branch, and any separately needed collection of selected viewpoints or views.
 - **A.6.6** defines the reusable `viewpointConventionDependsOn` vocabulary entry; **A.6.5** declares the four SlotSpecs inside the two RelationSignature declarations. E.17.0 defines direct dependency and conformance obtaining tests and positive occurrence identity.
 - **C.3.2** admits the two optional local explicit-result ValueKinds and any exact local target or stakeholder KindSignature; their values do not determine direct judgments.
-- Use **A.22** to select `S_viewpoint` only when separately versioned convention organization changes a named action, and to select any separately current multi-view structure. E.17.0 supplies Q and candidate relation occurrences for that branch; no pattern or episteme acts.
+- Use **A.22** to select `S_viewpoint` only when separately versioned convention organization changes a named action, and to select any separately current multi-view structure. E.17.0 supplies Q and candidate relation occurrences for that branch.
 - **A.6.3** defines optional source-to-receiving viewing construction, including identity viewing; it does not define view membership.
 - **E.10.D2** defines description epistemes and specification use. A describing use is always named; it selects a viewpoint only when that choice changes reading, checking, or a permitted conclusion. Selection does not establish conformance.
 - **F.18** supplies the two relation-kind NameCards; naming metadata neither defines relation semantics nor grants admission. **F.9** applies only when an exact relation between distinct F.17 `SchemeSenseCell` values obtains.

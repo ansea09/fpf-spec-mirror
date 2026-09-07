@@ -6,12 +6,12 @@ section_id: "C.32.HCS:8"
 section_title: "Common failures and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__009_common-failures-and-repairs.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:8 — Common failures and repairs"
-line_start: 64305
-line_end: 64314
+line_start: 64533
+line_end: 64542
 dependencies:
   - "A.19"
   - "C.11"
@@ -39,7 +39,7 @@ keywords:
 
 | Failure | Symptom | Repair |
 |---|---|---|
-| `CatalogueAsStarterPack` | Hundreds of terms are copied into the project. | Choose the holon family and keep only first heads that can change the next narrowing into project criteria rows. |
+| `CatalogueAsStarterPack` | Hundreds of terms are copied into the project. | Choose the architecture-bearing family and keep only first heads that can change the next narrowing into project criteria rows. |
 | `SoftwarePackOverfit` | Code-module terms are used for a method, role, practice, culture, or tradition without resolving the source label and rebinding bearer and scale. | Recover the described holon or the source-bearing episteme or publication context for a description-side family; name any recovery pattern actually used, then rebind bearer and scale or demote the head to source catalogue wording. |
 | `FunctionalHeadAsArchitectureHead` | A domain function is used as the starter architecture characteristic. | Keep the function as functional demand; name the architecture characteristic that makes it sustainable. |
 | `QBundleHeadAsScalar` | Maintainability, trustworthiness, or teachability is treated as one row. | Composite quality family work belongs to `C.25` before ACS chooses any slot. |

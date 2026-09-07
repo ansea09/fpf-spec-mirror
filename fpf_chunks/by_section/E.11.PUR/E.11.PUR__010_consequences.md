@@ -6,13 +6,14 @@ section_id: "E.11.PUR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__010_consequences.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:9 — Consequences"
-line_start: 79767
-line_end: 79772
+line_start: 80028
+line_end: 80033
 dependencies:
+  - "A.10"
   - "A.15"
   - "A.19"
   - "A.19.CPM"
@@ -33,7 +34,7 @@ keywords:
 
 ### E.11.PUR:9 - Consequences
 
-**Benefits.** A team can explain why a pattern fits, why another is recommended, and how several uses relate without creating a false workflow. Ordinary reversible judgement remains light; reliance-bearing recommendations remain replayable. Result-based precedence stays synchronized with the candidate expectation and the actual PUA result closure.
+**Benefits.** A team can explain why a pattern fits, why another is recommended, how several uses relate, and when an earlier answer remains usable without creating a false workflow. Ordinary reversible judgement remains light; reliance-bearing recommendations remain replayable. Result-based precedence stays synchronized with the candidate expectation and the actual PUA result closure.
 
 **Costs.** A consequential or delayed-use recommendation needs an explicit rationale and may need five addressable fit findings. Partial orders need justified pairwise relations. Ordinary local judgement pays no record cost merely for symmetry, and candidates that answer different questions are not forced into a scalar ranking.
 

@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__012_sota-echoing.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:11 — SoTA-Echoing"
-line_start: 65533
-line_end: 65551
+line_start: 65762
+line_end: 65780
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -53,7 +53,7 @@ keywords:
 
 ### C.32.MLAO:11 - SoTA-Echoing
 
-These rows document transfers from source practice into C.32.MLAO. Each row states which part of the residual-reducing frame the draft sets or revises from the source; none imports its source-domain ontology into FPF.
+These rows document transfers from source practice into C.32.MLAO. Each row names the part of the residual-reducing frame that uses the source's contribution; none imports its source-domain ontology into FPF.
 
 | Source to inspect | Why this source is load-bearing here | Transfer into C.32.MLAO | Concrete C.32.MLAO mutation | Blocked overread |
 |---|---|---|---|---|

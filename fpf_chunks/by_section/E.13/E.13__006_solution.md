@@ -6,12 +6,12 @@ section_id: "E.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__006_solution.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
   - "E.13:4 — Solution"
-line_start: 80482
-line_end: 80545
+line_start: 80746
+line_end: 80809
 dependencies:
   - "A.10"
   - "A.21"
@@ -40,7 +40,7 @@ keywords:
 
 ### E.13:4 - Solution
 
-Use `ProxyToValueAlignment` as a short repair note, not a new bureaucracy.
+Use `ProxyToValueAlignment` as a short repair note.
 
 ```text
 ProxyToValueAlignment:
@@ -88,7 +88,7 @@ If nothing worsened, say which loci were checked. If no loci were checked, do no
 
 #### E.13:4.4 - Require a Minimally Viable Value Slice
 
-Do not require every project to create a lifecycle artifact named MVE. Require a minimally viable value slice: one compact case, worked slice, observation, trial, user/operator moment, or decision replay where the intended value is visible enough for the declared use.
+Require a minimally viable value slice: one compact case, worked slice, observation, trial, user/operator moment, or decision replay where the intended value is visible enough for the declared use.
 
 The value slice may be small. It must show the value, not merely the proxy.
 

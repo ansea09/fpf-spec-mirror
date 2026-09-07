@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.1.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
-line_start: 72660
-line_end: 72734
+line_start: 72892
+line_end: 72967
 dependencies:
   - "E.5"
 keywords:
@@ -51,7 +51,7 @@ and fragmenting historical audits.
 Establish a **Lexical Firewall** around the **Conceptual Core** *(conceptual constraint; not a build‑time linter)*:
 
 1. **Forbidden lexicon**
-   Normative patterns **SHALL NOT** contain tool‑or file‑specific words
+   Normative patterns **SHALL NOT** contain tool‑ or file‑specific words
    (e.g. protocol keywords, file extensions, IDE commands).
    Permissible wording: “a reference parser”, “a serialisation schema”.
 
@@ -62,6 +62,7 @@ Establish a **Lexical Firewall** around the **Conceptual Core** *(conceptual con
 
 3. **Glossary pointer**
    If an unavoidable technical term appears, it is defined in a *Tooling Glossary* outside the Core and referenced by conceptual alias—not embedded.
+
 *Non‑normative automation.* Machine checks **MAY** exist in Tooling; they are advisory and **MUST NOT** be imported into the Core.
 
 ### E.5.1:5 - Archetypal Grounding (System / Episteme)

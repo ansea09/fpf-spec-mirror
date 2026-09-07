@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__008_conformance-checklist.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:7 — Conformance Checklist"
-line_start: 85539
-line_end: 85561
+line_start: 85798
+line_end: 85820
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 7. **CC-OOTD-7 - Neighboring-pattern boundary is explicit.**
    If an entityOfConcernRef-preserving transform, explanation, bridge, comparative-review, ontology, gate, approval, or execution claim becomes primary, use the neighboring pattern that defines or constrains that claim rather than pretending this pattern still carries the case.
 8. **CC-OOTD-8 - Claim-bearing lens is stated when needed.**
-   If a minimal modeling lens, exact `C.2.1` projection, or downstream-decision policy is materially claim-bearing, it is stated rather than silently assumed.
+   If a claim or downstream use materially depends on a minimal modeling lens, exact `C.2.1` projection, or downstream-decision policy, state that lens, projection, or policy rather than silently assuming it.
 9. **CC-OOTD-9 - Unit architecture is the least-cost honest choice.**
    Retaining one unit, declaring a transition, keeping a sectioned multi-subject unit, or splitting is chosen from the current reader, use, reuse, dependency, and overread costs. The author does not split to satisfy a count and does not retain a vague umbrella to avoid a necessary split.
 

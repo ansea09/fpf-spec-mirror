@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__003_problem.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:2 — Problem"
-line_start: 65053
-line_end: 65060
+line_start: 65281
+line_end: 65288
 dependencies:
   - "A.10"
   - "A.12"
@@ -48,7 +48,7 @@ keywords:
 
 Architecture influence and action often occur in the same story but are not the same fact. A manufacturing architecture can constrain a product candidate while a manufacturing system performs production Work. A communication structure can influence service boundaries while people or teams perform change Work only through their admitted exact `U.System` identities. A method description can influence a work-product architecture without being a worker. A toolchain architecture can constrain project-task candidates while an admitted execution system acts.
 
-The old transformer and transformed wording hid these differences. It could leave the changed referent implicit, treat an architecture bearer as the performer, omit the exact system-role assignment and dated Work, or call a source influential without a direct relation. It could also stretch one local architecture pair into a whole recursive transformation-flow network.
+Transformer and transformed wording can hide these differences. It can leave the changed referent implicit, treat an architecture bearer as the performer, omit the exact system-role assignment and dated Work, or call a source influential without a direct relation. It can also stretch one local architecture pair into a whole recursive transformation-flow network.
 
 C.32.CONWAY repairs the problem by keeping the changed referent, actor and performance facts, influence-source facts, and one exact architecture pair separately recoverable. Conway and inverse-Conway practice then supplies candidate pressure, not a universal relation and not evidence that any source acted.
 

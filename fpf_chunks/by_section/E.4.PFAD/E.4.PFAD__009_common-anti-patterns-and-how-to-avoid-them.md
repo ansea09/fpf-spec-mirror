@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70892
-line_end: 70909
+line_start: 71123
+line_end: 71140
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -47,7 +47,7 @@ keywords:
 
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
-| Carrier-first closure or automatic escalation | A role, file, Card, mantra, MethodDescription, count, missing PatternIDs, or broad owner either dismisses a possible language before comparison or forces every multipart carrier into PFAD. An action-bearing remainder or cheap exit disappears. | Recover candidate contributions through `E.4.DPF:4` and compare exact actions, first results, returns, and source or refresh duties. Stop when subtraction closes and no later-used consequence remains; otherwise let the existing PFAD discriminator open the decision. Use the cue to locate candidates and select the outcome from their exact contributions. |
+| Carrier-first closure or automatic escalation | Authors treat a role, file, Card, mantra, MethodDescription, count, missing PatternIDs, or broad owner as grounds either to dismiss a possible pattern language before comparison or to force every multipart carrier into PFAD. An action-bearing remainder or cheap exit disappears. | Recover candidate contributions through `E.4.DPF:4` and compare exact actions, first results, returns, and source or refresh duties. Stop when subtraction closes and no later-used consequence remains; otherwise let the existing PFAD discriminator open the decision. Use the cue to locate candidates and select the outcome from their exact contributions. |
 | PFAD as a second decision | Authors reconcile an E.9 answer with another PFAD result. | Keep the decision-maker's one selected answer, recorded in one E.9 DRR; use PFAD only as the framework-specific profile. |
 | Paperwork on the cheap exit | A curated route, suitable non-framework result or service, existing-framework contribution, or stop triggers a DRR without settling a later-used boundary. | Close the exploratory use directly. |
 | Programme erased by a result-kind test | A continuing inquiry programme is called no product because it is not an episteme or publication package. | Keep the Plain programme-product boundary when it is useful. Name its admitted direct subject or current programme description and any provider System, maintenance relation, commitment, or admitted service state that independently obtains. Keep bounded Work and evidence-package epistemes separate. |

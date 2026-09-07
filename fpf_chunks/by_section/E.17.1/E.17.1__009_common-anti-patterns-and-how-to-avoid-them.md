@@ -6,12 +6,12 @@ section_id: "E.17.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 82198
-line_end: 82206
+line_start: 82462
+line_end: 82470
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -39,6 +39,6 @@ keywords:
 |---|---|---|
 | **Publication-face hijack** | A family designator is reused as a publication-face name or document type. | `CC-VBL-5` keeps the ordinary designator distinct from a publication face, form, carrier, viewpoint reference, or exact member. |
 | **Bundle equals view collection** | A folder or report pack is called a viewpoint bundle even though no exact `U.ViewpointRef` values resolve to admitted `U.Viewpoint` epistemes. | `E.17.1` defines the bundle as a declared family of exact viewpoint references, not a file grouping. |
-| **Silent local drift** | A local project keeps the old family designator but swaps in different viewpoints. | `CC-VBL-6` requires another catalogue edition or family declaration when member references, targets, family meaning, or compatibility constraints change. |
+| **Silent local drift** | A local project keeps the old family designator but swaps in different viewpoints. | `CC-VBL-6` requires another catalogue edition carrying the revised or new family declaration when member references, targets, family meaning, or compatibility constraints change. |
 | **Namespace collapse** | Engineering and publication viewpoint designators are mixed as if they were one lexical namespace. | The solution keeps the designator namespaces distinct and requires explicit attribution. |
 

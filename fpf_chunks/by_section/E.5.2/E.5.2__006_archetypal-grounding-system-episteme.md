@@ -6,12 +6,12 @@ section_id: "E.5.2:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__006_archetypal-grounding-system-episteme.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:5 — Archetypal Grounding (System / Episteme)"
-line_start: 72778
-line_end: 72784
+line_start: 73011
+line_end: 73017
 dependencies:
   - "E.5"
 keywords:
@@ -29,5 +29,5 @@ keywords:
 | Scenario | `U.System` example | `U.Episteme` example |
 |----------|-------------------|----------------------|
 | Definition | Boundary of a pump is expressed in prose plus set notation; a diagram is illustrative. | F‑G‑R assurance components defined textually; a triple‑store serialisation is illustrative. |
-| Alternate rendering | Same pump semantics rendered in a lattice diagram or a tabular sheet remain valid. | R‑scores plotted in a heatmap or listed in CSV remain equivalent. |
+| Alternate rendering | Same pump semantics rendered in a lattice diagram or a tabular sheet remain valid. | R‑scores plotted in a heatmap or listed in a tabular serialisation remain equivalent. |
 

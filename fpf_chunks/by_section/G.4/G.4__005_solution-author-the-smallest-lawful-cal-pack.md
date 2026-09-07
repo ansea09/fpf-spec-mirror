@@ -6,12 +6,12 @@ section_id: "G.4:4"
 section_title: "Solution — author the smallest lawful CAL pack"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__005_solution-author-the-smallest-lawful-cal-pack.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:4 — Solution — author the smallest lawful CAL pack"
-line_start: 103032
-line_end: 103281
+line_start: 103294
+line_end: 103543
 dependencies:
   - "A.10"
   - "A.13"
@@ -95,7 +95,7 @@ GCorePinSetId.PartG.CrossingVisibilityPins
 
 CorePinsRequired := {
 UTSRowId[],                 // CAL artefacts are public ids (Name Cards plus public-id continuity notes)
-ΓFoldRef.edition?            // only when an explicit Γ‑fold override is pinned (otherwise use DefaultId)
+ΓFoldRef.edition?            // pin an actual numerical composition model/policy when used; otherwise cite the governing rule
 },
 
 // consumed iff no explicit `ΓFoldRef.edition` override is pinned
@@ -147,14 +147,14 @@ Each `resultInputDeclarationRef` resolves an A.6.1 `ArgumentDeclaration` whose m
 
   * lane tags (`F/G/R`) / provenance anchors / policy pins needed for `SCR` and audit surfaces,
   * explicit freshness/decay hooks (freshness window + decay/Γ_time selectors) as pinned policies/refs (not prose).
-  * explicit `ReferencePlane` + penalty routing policy ids (`Φ(CL)`, `Ψ(CL^k)`, `Φ_plane`) as citable pins; any such policy family is justified in `CAL.ProofLedger` (monotone + bounded).
+  * explicit `ReferencePlane` and any used penalty-policy refs (`Φ(CL)`, `Ψ(CL^k)`, `Φ_plane`); the ProofLedger supplies the receiving quantity, scale, input meanings, assumptions, and derivation or calibration. Monotonicity and boundedness alone do not justify a numerical loss.
 * **Optional** `CAL.NQD[]` — QD/OEE‑related calculus surfaces when declared:
 
   * descriptor/distance/insertion artifacts are pinned by ids/editions,
   * semantics are governed by method‑specific governing definitions (e.g., `C.18`, `C.19`) and not redefined by CAL.
 * `CAL.ProofLedger` — a proof/justification ledger:
 
-  * links legality, monotonicity, boundedness, and other soundness obligations to operator/flow/clause ids.
+  * links operator/flow/clause ids to their needed legality and soundness results; a numerical support fold includes the B.3/C.2.2 receiving model, compatible scales and inputs, dependence assumptions, and boundary behavior.
 * Publication artifacts:
 
   * UTS Name Cards (twin labels) for all public ids,

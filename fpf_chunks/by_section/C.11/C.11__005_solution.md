@@ -6,12 +6,12 @@ section_id: "C.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__005_solution.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:4 — Solution"
-line_start: 46942
-line_end: 47395
+line_start: 46923
+line_end: 47378
 dependencies:
   - "A.10"
   - "A.13"
@@ -20,6 +20,7 @@ dependencies:
   - "A.6.5"
   - "A.6.P"
   - "C.11.CRC"
+  - "C.11.DUA"
   - "C.17"
   - "C.18"
   - "C.19"
@@ -95,9 +96,9 @@ A conforming `C.11` pass does not stop at naming schools of decision theory. It 
    Add one `CounterfactualModel` plus one `SubjunctiveDependenceRelation` when the case depends on one predictor, one structurally linked chooser, or one decision-procedure coupling that intervention talk alone does not capture.
    Use the least-committing dependence layer that still covers the live case, and do not switch layers across options without saying so explicitly.
 
-5. **Run the probe-worthiness test before commitment.**
-   State one `ProbeActionSet`, one `ProbeBudget`, and one `CostToProbe`.
-   Use `ValueOfInformation` for additional observation or measurement, and `ValueOfComputation` for additional reasoning, simulation, or search over the already-available options.
+5. **Compare a live inquiry alternative before commitment.**
+   An inquiry alternative is live when a current proposal, consequential uncertainty, anomaly or applicable requirement supplies a plausible way for further information or computation to change this choice or its warranted use.
+   Apply the probe-worthiness test to that alternative, stating the feasible probe, budget, cost and relevant information or computation value at the precision the choice needs. Otherwise this step adds no investigation or recording requirement. An empty form field does not activate inquiry, and no new search is required to certify that no other inquiry exists.
    This rule is intentionally local or myopic: it judges the best next feasible probe over the current `OptionSet` and current comparison basis, not one full sequential or non-myopic experimental program. Richer `OED` lines may strengthen this doctrine, but the local `C.11` closure rule already has to decide whether the next feasible probe can still change the current choice.
    If no feasible further probe fits the remaining `ProbeBudget`, or if the best available probe no longer justifies its `CostToProbe`, close under the current comparison basis.
    If a feasible probe is still worth its cost, and that probe could still change which option survives or whether the current `OptionSet` should be rejected, run it, update the `BeliefState` and `OutcomeModel`, and return to step 3.
@@ -105,7 +106,7 @@ A conforming `C.11` pass does not stop at naming schools of decision theory. It 
 
 6. **Apply one `ChoiceRule` and emit one `ChoiceResult` plus the next question.**
    End with one explicit result: `choose now`, `reject current set`, `probe again`, or `reroute because this is no longer local choice`.
-   If the result is `choose now`, name the winning option or the retained tie-set plus the reason no remaining feasible probe is worth its cost.
+   If the result is `choose now`, name the selected option or retained tie-set and the comparison basis supporting it; add the outcome of a live inquiry comparison or a limitation needed by the decision or its recipient.
    If the result is `reject current set`, name the reason no current option survives under the present basis and, when more work follows, the neighboring question that now takes over.
    If the result is `probe again`, name the next probe and the exact comparison defect it is supposed to repair.
    A `C.11` pass is done only when it names the lawful choice result and the reason that result is lawful.
@@ -119,13 +120,15 @@ No separate premise-qualification result sits between those owners and `C.11`. U
 #### C.11:4.2.1 - Well-formed comparison state
 
 
-Well-formedness constraint: a live `C.11` comparison state is usable only when the decision record states all of the following:
+Well-formedness constraint: a live `C.11` comparison state is usable only when the decision record states the following, subject to the stated condition on inquiry:
 
 - one `DecisionSubject` at one `DecisionSubjectGranularity`;
 - one current `OptionSet`;
 - one current comparison basis through `PreferenceOrder` or `EvaluativeMeasure`, plus one `BeliefState` and one `OutcomeModel`;
 - one active dependence layer for the current comparison, unless the record explicitly says that comparison is still being reopened;
-- one current account of whether another probe is still feasible and worth its cost.
+- when an inquiry alternative is live, an account of its feasibility, cost and possible contribution to the choice; when a decision or later use needs a retained inquiry limitation or reason, that minimum content in the same decision result.
+
+An inactive inquiry item requires no empty value, no no-probe statement and no waiver. The chooser, option set, shared comparison basis and applicable dependence layer remain necessary.
 
 The comparison is still unfinished, not yet wrong but not yet closeable, when any of the following remains true:
 
@@ -176,7 +179,7 @@ If the next probe would no longer change which option survives but would only ch
 
 `ChoiceRule` and `ChoiceResult` are not the same kind of thing.
 
-- `ChoiceRule` is the doctrine or operator that says how the current comparison basis, dependence layer, and probe-worthiness value support one `ChoiceResult`.
+- `ChoiceRule` is the doctrine or operator that says how the current comparison basis, dependence layer, and any applicable probe-worthiness value support one `ChoiceResult`.
 - `ChoiceResult` is the emitted record stating which choice result is lawful now under that rule.
 
 The operational answer of this pattern is therefore one emitted `ChoiceResult` under one explicit `ChoiceRule`. The result is complete only when it states the choice result and the condition that makes that result lawful.
@@ -192,9 +195,8 @@ A fifth soft result such as "keep thinking", "stay with the current view", or "t
 
 For `choose now`, the emitted `ChoiceResult` should show:
 
-- the selected option or the retained tie-set;
-- the comparison basis under which that result currently holds;
-- the reason no still-feasible probe is worth its cost.
+- the selected option or retained tie-set and the comparison basis supporting it;
+- the outcome of a live inquiry comparison or a limitation needed by the decision or its recipient, when applicable.
 
 For `reject current set`, the emitted `ChoiceResult` should show:
 
@@ -229,6 +231,8 @@ The comparison may close as `reject current set` only when all of the following 
 - no still-feasible next probe is expected to rescue one member with enough expected value to justify its cost;
 - the result is still one local choice conclusion rather than one disguised pool-policy, selector-result declaration, publication-availability, or enactment result.
 
+Assess the probe conditions above from the current basis and any live inquiry alternative. They are conditions of a warranted choice, not a requirement to produce a separate account of omitted checking.
+
 The comparison should close as `probe again` only when all of the following are true together:
 
 - one next probe is named by value;
@@ -248,7 +252,7 @@ If none of those closure conditions can yet be satisfied, the record is still un
 
 #### C.11:4.2.5 - Minimal decision-record form
 
-A minimal `C.11` decision record has this shape:
+A minimal `C.11` decision record has the shape below. Include `ProbeDecisionValue` only for a live inquiry alternative or an inquiry judgement whose content the decision or recipient needs. Include only the relevant information or computation value. A retained prose reason or limitation alone does not activate that block: put only the needed statement in `ChoiceResult`.
 
 ```text
 DecisionSubject(...)
@@ -261,14 +265,13 @@ ComparisonBasis(
   optional intervention/counterfactual/subjunctive layer
 )
 ChoiceRule(
-  closure rule over the current basis and probe decision value
+  closure rule over the current basis and any applicable probe decision value
 )
-ProbeDecisionValue(
+ProbeDecisionValue(  # conditional as described above
   probeActionSet,
   probeBudget,
   costToProbe,
-  valueOfInformation,
-  valueOfComputation
+  relevant valueOfInformation or valueOfComputation or both
 )
 ChoiceResult(
   choiceDisposition = choose_now | reject_current_set | probe_again | reroute,
@@ -277,9 +280,7 @@ ChoiceResult(
 )
 ```
 
-The record does not need that exact syntax. It does need that exact content.
-
-If the record does not state the current chooser, current options, current comparison basis, current `ChoiceRule`, current probe decision value, and current `ChoiceResult`, then it is not yet a usable decision record.
+Exact syntax is unnecessary. The chooser, options, shared comparison basis, `ChoiceRule` and `ChoiceResult` are required. Inquiry content is required only under the stated condition; an absent block requires no placeholder or omission explanation.
 
 Use branch language only when it changes the actual comparison being performed.
 
@@ -482,19 +483,21 @@ A `C.11` decision record is complete only when it states:
 - how the options are compared: `PreferenceOrder` or `EvaluativeMeasure`, plus `BeliefState` and `OutcomeModel`;
 - which heavier dependence layer is active when the case needs it: `InterventionModel` for causal repair, or `CounterfactualModel` plus `SubjunctiveDependenceRelation` for success-first or predictor-coupled repair;
 - what comparison doctrine currently governs the case: one explicit `ChoiceRule`;
-- whether further probing is available and worth paying for; when a further probe or computation pass is live, state `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation`;
+- when an inquiry alternative is live, an account of its feasibility, cost and possible contribution to the choice; when a decision or later use needs a retained inquiry limitation or reason, that minimum content in the same decision result.
 - what the current comparison concludes: one emitted `ChoiceResult` that says choose now, reject the current set, probe again, or reroute.
   That result must name either the selected option, the retained tie-set, the rejected current set, or the next probe or reroute named by value.
 
 Without that explicit tuple, choice doctrine usually collapses into one of three easier but wrong substitutes: generic rationality talk, search folklore, or planning folklore.
 
-The finish condition is more specific than "the record now sounds informed." The record is finished enough for practical use only when the choice result stated in `ChoiceResult` follows from the stated comparison basis, stated `ChoiceRule`, and stated probe decision value rather than from unstated background assumptions.
+The finish condition is more specific than "the record now sounds informed." The record is finished enough for practical use only when the choice result stated in `ChoiceResult` follows from the stated comparison basis, stated `ChoiceRule`, and any applicable probe decision value rather than from unstated background assumptions.
 
 A `C.11` pass is finished enough for practical use when all three conditions hold:
 
 - the current comparison basis is explicit enough to explain the stated `ChoiceResult`: why an option or tie-set survives, no current option survives, or probing or rerouting is needed;
-- the reason to stop probing, or the reason to probe again, is explicit rather than assumed;
+- any live inquiry alternative has been resolved sufficiently to support the choice, and the result retains any inquiry reason or limitation needed by this decision or its recipient;
 - the next question is explicit: `choose now`, `reject current set`, `probe again`, or `reroute`.
+
+An inactive inquiry item adds no placeholder or omission account to this tuple or finish condition.
 
 If the case remains tied or underdetermined under the current basis, say that directly and keep the tie-set explicit. A lawful `ChoiceResult` may still be `probe again` or `reroute`, but it must not pretend that one winner already exists when the current basis has not earned that conclusion.
 

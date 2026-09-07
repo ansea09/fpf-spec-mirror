@@ -6,12 +6,12 @@ section_id: "E.9:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__009_archetypal-grounding-system-episteme.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:5 — Archetypal Grounding (System / Episteme)"
-line_start: 74314
-line_end: 74320
+line_start: 74546
+line_end: 74552
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -40,6 +40,6 @@ keywords:
 
 | Holon flavour | DRR analogue | Minimum kernel illustrated |
 |---------------|--------------|-----------------------------|
-| **`U.System`** (physical target) | Decision work applies `DRRMethod` to a pump-motor change question; the selected-answer result chooses brushless DC and exact control/maintenance loci. | The C.2.1 DRR episteme records inefficiency/plant-use problem, alternatives, energy-versus-cost/authority rationale, selected loci, control-schema and supplier consequences, and validation obligation. It neither changes the pump nor performs implementation. |
-| **`U.Episteme`** (knowledge target) | Decision work applies `DRRMethod` to a theory-revision question; the selected-answer result chooses a new axiom and exact theory/teaching loci. | The DRR episteme records conflicting data, alternatives, explanatory/Pillar rationale, selected distribution, predictions, curriculum consequences, and downstream validation obligation. It does not revise the theory publication by being written. |
+| **`U.System`** (physical target) | The author applies `DRRMethod` during decision work on a pump-motor change; the selected-answer result specifies brushless DC and exact control/maintenance loci. | The C.2.1 DRR episteme records inefficiency/plant-use problem, alternatives, energy-versus-cost/authority rationale, selected loci, control-schema and supplier consequences, and validation obligation. |
+| **`U.Episteme`** (knowledge target) | The author applies `DRRMethod` during decision work on a theory revision; the selected-answer result specifies a new axiom and exact theory/teaching loci. | The DRR episteme records conflicting data, alternatives, explanatory/Pillar rationale, selected distribution, predictions, curriculum consequences, and downstream validation obligation. |
 

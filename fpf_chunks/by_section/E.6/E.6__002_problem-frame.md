@@ -6,12 +6,12 @@ section_id: "E.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__002_problem-frame.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.6 — Didactic Architecture of the Specification"
   - "E.6:1 — Problem frame"
-line_start: 72980
-line_end: 72988
+line_start: 73213
+line_end: 73221
 dependencies:
   - "E.2"
 keywords:
@@ -24,7 +24,7 @@ keywords:
 ---
 
 ### E.6:1 - Problem frame
-FPF addresses readers from at least two characteristics of diversity:
+FPF addresses readers who differ in at least two respects:
 
 * **Disciplinary** – systems engineers, knowledge scientists, ethicists.
 * **Experience** – newcomers need intuition; experts need rigour.

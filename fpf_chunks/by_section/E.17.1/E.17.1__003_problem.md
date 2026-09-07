@@ -6,12 +6,12 @@ section_id: "E.17.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__003_problem.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:2 — Problem"
-line_start: 82051
-line_end: 82065
+line_start: 82315
+line_end: 82329
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -35,14 +35,14 @@ keywords:
 
 ### E.17.1:2 - Problem
 
-Without a viewpoint-bundle library pattern:
+When recurring viewpoint families lack a stable catalogue:
 
 1. **Each domain invents local viewpoint families.**
    Similar families reappear under slightly different labels, but no stable catalogue `U.Episteme` records whether the underlying viewpoints are actually the same.
 2. **Viewpoint identity drifts.**
    A family called `functional`, `capability`, or `operational` may differ only lexically, or may differ semantically, but there is no disciplined place to tell which is which.
 3. **`MultiViewDescribing` cannot reuse a family cleanly.**
-   Every instance must restate its finite viewpoint family locally instead of importing an existing bundle.
+   Each describing use that needs the family must restate it locally instead of importing an existing bundle.
 4. **Reusable viewpoint-library practice remains external.**
    FPF lacks a native place where reusable viewpoint families can be expressed as reviewable catalogue content without importing a standard's ontology.
 5. **Reader-facing labels leak into semantics.**

@@ -6,12 +6,12 @@ section_id: "E.16:4"
 section_title: "Solution — Rule‑of‑Constraints (RoC) for Autonomy"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__005_solution-rule-of-constraints-roc-for-autonomy.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:4 — Solution — Rule‑of‑Constraints (RoC) for Autonomy"
-line_start: 81260
-line_end: 81378
+line_start: 81524
+line_end: 81642
 dependencies:
   - "A.10"
   - "A.13"
@@ -129,7 +129,7 @@ AutonomyLedgerEntry {
 }
 ```
 
-The ledger is evidence about the Work. The Work, its performer System, its A.2.1 assignment, and the `performedUnderAssignment` attribution remain separately recoverable. Fold the resulting entries under **Γ_work** and **Γ_time** for reporting.
+The ledger is evidence about the Work. The Work, its performer System, its A.2.1 assignment, and the `performedUnderAssignment` attribution remain separately recoverable. For reporting, use **Γ_work** (B.1.6) for the recorded resource values under the applicable accounting and overlap policy, and **Γ_time** (B.1.4) for the recovered temporal relations among the Work occurrences.
 
 **E.16-S4 (Overrides - SpeechActs, authority, and separation of duties).**
 Every budget **MUST** reference an `overrideProtocolRef` that defines the available SpeechActs:

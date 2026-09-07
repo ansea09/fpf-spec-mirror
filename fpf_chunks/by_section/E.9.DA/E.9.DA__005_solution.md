@@ -6,12 +6,12 @@ section_id: "E.9.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__005_solution.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:4 — Solution"
-line_start: 74478
-line_end: 74759
+line_start: 74710
+line_end: 74991
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -51,11 +51,11 @@ For a broad language or ontology rule, `DraftingActionability`, `LexicalAndNamin
 
 #### E.9.DA:4.1 - Local names and kind settlement
 
-The following names support only the complete reusable-result branch. An ordinary bounded review need not instantiate them. When the branch is opened, each name resolves to the existing FPF object or reference stated here; none names a checking machine, actor, authority, or mandatory record.
+The following names support only the complete reusable-result branch. An ordinary bounded review need not instantiate them. When the branch is opened, each name resolves to the existing FPF object or reference stated here; none names an authority or mandatory record.
 
 | Local name | Kind and function |
 |---|---|
-| `DRRDecisionAdequacyEvaluation` | Compatibility compound label for the full evaluation package. Any use resolves to the exact values current for its receiving use: configuration, optional semantic Method, optional assessment application and bindings, optional Work admission, result episteme, witnesses or evidence-use relations, and optional record. The label is not one kind, actor, Method, application, or Work occurrence. |
+| `DRRDecisionAdequacyEvaluation` | Compatibility compound label for the full evaluation package. Any use resolves to the exact values current for its receiving use: configuration, optional semantic Method, optional assessment application and bindings, optional Work admission, result episteme, witnesses or evidence-use relations, and optional record. The label is not one kind, Method, application, or Work occurrence. |
 | `DRRDecisionAdequacyCharacteristicSpaceRef` | Reference to the exact A.19 `U.CharacteristicSpace` whose slots are the required E.9.DA coordinates and whose scale bindings use `E.9.DA:4.3`; not an assessment, result, or record. |
 | `DRRDecisionAdequacyEvaluationSpecRef` | Reference to this object-specific A.19.ECS evaluation-specification episteme: applicability, coordinates, scale meanings, evidence/missingness rules, result shape, calibration, status meanings, and reopen conditions. |
 | `DRRVersionRef` | Exact C.2.1 `DRR` episteme version named by value as the checked object. |
@@ -196,7 +196,7 @@ If an important omitted question is found, state it as a substantive finding bef
 | Coordinate | Evaluation question |
 |---|---|
 | `BoundedDecisionQuestionRecoverability` | Can the reader recover the FPF content decision question named by value and adjacent questions outside it? |
-| `SelectedAnswerDecisiveness` | Does the `DRR` decide the selected answer now rather than leave it for drafting? |
+| `SelectedAnswerDecisiveness` | Does the `DRR` record the selected answer as a decision made now rather than left for drafting? |
 | `SourceUseAndDecisionInheritanceCarryThrough` | Does needed source use or accepted decision inheritance change selected answers, boundaries, obligations, cases, architecture choices, stops, or reopen conditions by value? |
 | `AlternativeDispositionCompleteness` | Are the alternatives needed to explain the selected answer, live boundary, or reopen condition closed, while irrelevant discussion history is absent from the current DRR? |
 | `SelectedLocusObligationClosure` | Are selected content responsibilities and explicit non-responsibilities assigned to selected loci named by value without unclassified selected loci, hidden ontic-candidate decisions, or precision-restoration profile defects that would become pasteable pattern prose? |

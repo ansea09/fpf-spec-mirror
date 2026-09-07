@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:8"
 section_title: "Common Repair Cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__009_common-repair-cues.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:8 — Common Repair Cues"
-line_start: 65226
-line_end: 65241
+line_start: 65455
+line_end: 65470
 dependencies:
   - "A.10"
   - "A.12"
@@ -49,7 +49,7 @@ keywords:
 | Repair cue | Symptom | First repair |
 |---|---|---|
 | `ArchitectureActs` | An architecture, method, toolchain, organization chart, or episteme builds, decides, repairs, or performs. | Start with the domain action; name the exact system and Work when current, then state architecture influence separately. |
-| `InfluenceSourceUntyped` | A source “shapes” the candidate without kind or relation. | Apply the subject pattern: recover kind/predicate or return `missing-governor`; if facts are unresolved, keep a candidate cue; if false, remove the occurrence; if satisfied, name the obtaining occurrence. |
+| `InfluenceSourceUntyped` | A source “shapes” the candidate without kind or relation. | Apply the subject pattern: recover kind/predicate or return `missing-governor`; if facts are unresolved, keep a candidate cue; if false, remove the occurrence claim; if satisfied, name the obtaining occurrence. |
 | `ChangedReferentHidden` | The pair is named but the object or claimed actual transformation is not. | Identify the continuing changed referent and, when current, the A.3.4 `U.Transformation`; keep direct participation and Work-to-change relations separate. |
 | `PerformerBasisMissing` | A performer is named without its A.13 core, independently admitted dated Work, or the F.6 relation required by a precise assignment-bound attribution. | Apply A.12 to separate acting and changed sides; recover every precise performer's A.13 core; independently admit the Work under A.15.1; add F.6 only when the receiving claim needs precise assignment-bound attribution; and use the `CC-A15.1-17` form when several systems perform. |
 | `TransformedArchitectureNoSourceFit` | The desired architecture cannot be sustained by the current influence-side structures. | Open source-side retargeting, transformed-architecture retargeting, joint change, and bounded mismatch as alternatives. |

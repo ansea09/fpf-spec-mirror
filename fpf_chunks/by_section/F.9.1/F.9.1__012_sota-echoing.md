@@ -6,12 +6,12 @@ section_id: "F.9.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__012_sota-echoing.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "F.9.1 — Bridge Stance Note"
   - "F.9.1:11 — SoTA-Echoing"
-line_start: 96408
-line_end: 96417
+line_start: 96669
+line_end: 96678
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

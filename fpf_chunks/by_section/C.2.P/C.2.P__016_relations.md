@@ -6,12 +6,12 @@ section_id: "C.2.P:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__016_relations.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:12 — Relations"
-line_start: 43000
-line_end: 43005
+line_start: 43016
+line_end: 43021
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,17 +42,19 @@ dependencies:
   - "E.17.ID.CR"
   - "E.19"
   - "E.2"
+  - "E.24.PUB"
   - "E.6"
   - "E.7"
   - "E.8"
   - "E.9"
   - "F.18"
+  - "F.19"
 keywords:
 ---
 
 ### C.2.P:12 - Relations
 
-* **Builds on:** `E.2` Pillars, especially `P-2 Didactic Primacy`; `E.10`, `E.10.ARCH`, `A.7`, `F.18`, `A.6.P`, `C.2.1`, `E.17.0`, `E.17`, MVPK, and `A.6.A`.
+* **Builds on:** `E.2` Pillars, especially `P-2 Didactic Primacy`; `F.19`, `E.10`, `E.10.ARCH`, `A.7`, `F.18`, `A.6.P`, `C.2.1`, `E.17.0`, `E.17`, MVPK, `E.24.PUB`, and `A.6.A`.
 * **Coordinates with:** `E.6`, `E.7`, `E.8`, `E.9`, `E.12`, `E.19`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, `A.21`, `A.6.F`, `A.6.P.WMR`, `A.6.3.CSC`, `A.6.3.CR`, `A.6.3.RT`, `C.30.P`, `C.16.P`, `C.16.Q`, `E.17.EFP`, and `E.17.ID.CR`.
 * **Does not replace:** `E.10` general lexical rules, `F.18` naming protocol, `A.6.P` relation precision, or local episteme and publication patterns. It says when those patterns must be applied to episteme-publication-heavy wording.
 

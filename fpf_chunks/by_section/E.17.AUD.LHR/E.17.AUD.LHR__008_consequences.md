@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__008_consequences.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:7 — Consequences"
-line_start: 85205
-line_end: 85214
+line_start: 85465
+line_end: 85474
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,5 +43,5 @@ Used well, this pattern:
 - makes later publication-unit stability review cleaner because the local lexical head question has already been restored;
 - gives authors and reviewers one common language for saying `the problem is still local`.
 
-Used badly, it can become one more vocabulary exercise. If the publication unit still has unstable EntityOfConcern or carried-move reading after local repair, do not keep polishing the overloaded local lexical head forever. Apply the governing pattern for the remaining problem situation.
+Used badly, it can become one more vocabulary exercise. If the publication unit still has unstable primary-subject or carried-move reading after local repair, do not keep polishing the overloaded local lexical head forever. Apply the governing pattern for the remaining problem situation.
 

@@ -6,12 +6,12 @@ section_id: "E.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Archetypal Grounding"
-line_start: 78844
-line_end: 78879
+line_start: 79076
+line_end: 79111
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -46,7 +46,7 @@ That named reliance admits a `PracticalUseEntryComparisonAccount@Context` with f
 
 #### E.11:5.3 - A card leads to a physical result without promising it
 
-`WORKING-DOCUMENTS` can lead to a usable machining work instruction. Its public guidance first asks what a named reader must decide, do, check, or rely on and returns the smallest truthful document-side result or blocker. The direct pattern then decides whether the useful result is a MethodDescription, WorkPlan, claim, permission, publication, or another episteme and what relation makes it useful for the later project work.
+`WORKING-DOCUMENTS` can lead to a usable machining work instruction. Its public guidance first asks what a named reader must decide, do, check, or rely on and returns the smallest truthful document-side result or blocker. Use the direct pattern to determine whether the useful result is a MethodDescription, WorkPlan, claim, permission, publication, or another document-side result and what relation makes it useful for the later project work.
 
 The card does not promise a machined component. When actual machining later becomes current, use A.15.1 to identify the exact performed Work occurrence; use A.15 as well only when the broader System-Role–Method–Work Alignment question is current. The instruction or plan is neither that dated `U.Work` nor proof that it occurred.
 

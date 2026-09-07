@@ -6,12 +6,12 @@ section_id: "E.18:5"
 section_title: "Solution - Transformation-flow structure model and relation disciplines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__006_solution-transformation-flow-structure-model-and-relation-disciplines.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:5 — Solution - Transformation-flow structure model and relation disciplines"
-line_start: 85724
-line_end: 85990
+line_start: 85983
+line_end: 86249
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -179,9 +179,9 @@ The tuple is the complete `SubflowRef` identity. Replacing the parent, an includ
 
 E.18 **imports E.17** wholesale **and associates MVPK faces with `PublicationScope` (USM)**.
 **MVPK remains the source for:**
-* the set of face kinds (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`),
+* the set of face designators (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`),
 * pin discipline and Publication Characteristics (PC),
-* “no new numeric claims, no re‑listing of inputs and outputs, and no Γ‑semantics on faces”.
+* “no new claims; in the optional morphism profile, no re‑listing of inputs and outputs and no Γ‑semantics on publication morphisms”.
 
 E.18 **does not re-specify** these rules; it only adds **structure-scope obligations** for faces published over transformation-flow paths:
 
@@ -190,7 +190,7 @@ E.18 **does not re-specify** these rules; it only adds **structure-scope obligat
 3. **ComparatorSet and set returns (structure-scope).** Any `ComparatorSet` and `SetSemanticsRef` used along a transformation-flow path carries **edition identifiers**; affected faces are **re-emitted** on edition change; faces with comparison **return sets and declared partial orders** (no hidden scalarization), reusing MVPK's declared-order discipline.
 4. **Gamma_time on compare and launch faces.** Every current compare or launch publication face on an E.18 path pins `Gamma_time`; implicit *latest* is not admissible. A.21 cites the exact current profile application and qualification window. **CHR avoids acceptance thresholds** (*NoThresholdsInCHR*); gate and threshold claims are carried by A.21 and Part G, while actual performed facts are established through independently obtaining relations involving exact Work occurrences under A.15.1. A source `unknown`, `notRun`, or error remains explicit before the current profile rule maps it to a gate decision.
 
-> **Reminder.** MVPK already bans "signature" on faces, input-output re-listing, arithmetic on faces, and unpinned numeric content (E.17 §5.4-5.5). E.18 **does not weaken or override** those rules; it only constrains how they are used along transformation-flow paths.
+> **Reminder.** MVPK supplies the "signature" naming rule, the optional morphism profile's input-output rule, arithmetic-visibility rules, and material numeric-pin requirements (E.17 §5.4-5.5). E.18 **does not weaken** those rules; `CC-E18-09` states the additional constraints on faces published along transformation-flow paths.
 
 **Lean publish-mode (AssuranceLane-Lite).** Lean changes publication faces only, not policy or checks. A current face cites the `profileApplicationRef`, identified `GateCheckApplicationResult` refs, and `GateDecisionResultRef`; it cites a `DecisionLogRef` only when an audit, history, replay, or reuse record is current. The underlying check-application results remain unchanged.
 

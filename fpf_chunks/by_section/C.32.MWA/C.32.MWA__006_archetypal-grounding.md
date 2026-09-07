@@ -6,12 +6,12 @@ section_id: "C.32.MWA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__006_archetypal-grounding.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:5 — Archetypal Grounding"
-line_start: 65673
-line_end: 65682
+line_start: 65902
+line_end: 65911
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -40,7 +40,7 @@ keywords:
 
 **Show — obtaining engineering practice.** In a 90-minute power-converter integration run, model correction overlaps simulation, rig reconfiguration precedes closed-loop test, assurance overlaps later testing, and restoration of a simulation service overlaps the run without becoming part of the converter-integration Work. Plant and controller models are descriptions used in the Work, not the converter or the Work. The team compares a sequence-only account with a linked account of Method, Work, subjects, models, platform service, capability, and evidence. The linked account wins for this question because it preserves both the rig-change–then–test unfolding and the simultaneous contributions. If evidence assembly is moved to the platform, the synthesis records platform availability and traceability as a moved burden rather than declaring an unqualified gain.
 
-**Show again — possible-future Method.** A five-day Method-adaptation sprint is obtaining Work, but the candidate Method it describes is not yet an obtaining practice. The team anchors the architecture in the intended project use, the incumbent Method used during the sprint, the candidate MethodDescription, and a planned representative trial. It compares candidate organizations of Method parts, tool and description support, provider capability, trial Work, and later repertoire maintenance. It states what would realize the candidate Method and what the trial must observe. It does not invent a past occurrence of the candidate Method. If the question is only how the project will use the candidate, the four product arrangements are omitted; if the question becomes where an independently maintained Method family belongs, that conditional comparison is opened explicitly.
+**Show again — possible-future Method.** A five-day Method-adaptation sprint is obtaining Work, but the candidate Method it describes is not yet an obtaining practice. The team anchors the architecture in the intended project use, the incumbent Method used during the sprint, the candidate MethodDescription, and a planned representative trial. It compares candidate organizations of Method parts, tool and description support, provider capability, trial Work, and later repertoire maintenance. It states what would realize the candidate Method and what the trial must observe. It does not invent past Work enacting the candidate Method. If the question is only how the project will use the candidate, the four product arrangements are omitted; if the question becomes where an independently maintained Method family belongs, that conditional comparison is opened explicitly.
 
 Across the three cases, the same Method preserves a truthful entry, several non-isomorphic structures, exact relation claims, practice-description separation, whole reidentification, genuinely different alternatives, moved burdens, and the boundary between deliberate project change and distributed cultural change. The domain details remain different.
 

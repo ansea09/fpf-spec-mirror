@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__004_solution.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:3 — Solution"
-line_start: 84968
-line_end: 85047
+line_start: 85228
+line_end: 85307
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,7 +44,7 @@ keywords:
 #### E.17.AUD.LHR:3.1 - Pairwise plain glosses
 
 - **Pressured local lexical head** = the word doing more work than the sentence has honestly restored.
-- **Lexical-head kind** = what FPF kind or locally declared head that word names here: for example description, carrier, publication unit, EntityOfConcern, relation record, face, or view.
+- **Lexical-head kind** = what FPF kind or locally declared head that word names here: for example description, carrier, publication unit, relation record, face, or view. When the word names an EntityOfConcern, recover that entity's own kind.
 - **Active local work position** = where the local work is happening here: for example review, publication, comparison, process, or authority.
 - **Active primary entity or relation** = what the local sentence or publication unit is actually about here, when such an object or relation is active.
 - **Move or question under repair** = what the sentence is doing with the active primary entity, active relation, or local lexical-head repair object, if anything.
@@ -111,7 +111,7 @@ Use this order when one local lexical head is carrying too much:
 A narrowing qualifier alone does not count as restoration.
 Treat this order as one local repair aid, not as a canonical flow.
 Steps 1-6 restore the overloaded local lexical head; step 7 classifies what the repaired unit can honestly do next.
-If step 6 keeps reopening because the same unit still cannot hold one stable primary entity of concern, one carried move, and one outside-work boundary, stop local repair and apply `E.17.AUD.OOTD`.
+If step 6 keeps reopening because the same unit still cannot hold one stable primary subject, one carried move, and one outside-work boundary, stop local repair and apply `E.17.AUD.OOTD`.
 If the local lexical head is now honest and the only remaining question is one bounded contrast over already available source epistemes or publications, apply `E.17.ID.CR` instead of escalating the local card into a heavier record by habit.
 If the local lexical head is honest and no neighboring reading has become primary, stop here rather than manufacturing extra extension weight.
 

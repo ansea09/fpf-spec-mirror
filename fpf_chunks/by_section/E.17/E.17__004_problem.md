@@ -6,12 +6,12 @@ section_id: "E.17:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__004_problem.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:3 — Problem"
-line_start: 82835
-line_end: 82841
+line_start: 83100
+line_end: 83106
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -44,8 +44,8 @@ keywords:
 
 ### E.17:3 - Problem
 
-1. **Semantic drift in publication.** Unchecked presentations introduce claims not present in the exact C.2.1 source epistemes about the arrow. Each such episteme, including a Description episteme admitted for specification use, keeps its exact claim content, EntityOfConcern, and effective `U.ReferenceScheme`; publication form, viewpoint reference, scope, or carrier supplies none of those identity discriminators.
-2. **Non‑compositionality.** Publishing `g∘f` yields faces that do not match composing the faces of `f` and `g`.
+1. **Semantic drift in publication.** Unchecked presentations introduce claims not present in the exact C.2.1 source epistemes, including those about the arrow in the optional morphism profile. Each such episteme, including a Description episteme admitted for specification use, keeps its exact claim content, EntityOfConcern, and effective `U.ReferenceScheme`; publication form, viewpoint reference, scope, or carrier supplies none of those identity discriminators.
+2. **Non‑compositionality in the morphism profile.** Publishing `g∘f` yields faces that do not match composing the faces of `f` and `g`.
 3. **View, viewpoint, and face confusion.** A template or face is treated as the view or viewpoint, with no exact conformance relation between two claim-bearing epistemes.
 4. **Unpinned numbers.** Numeric claims lack unit, scale, reference‑plane, and **edition pins** from Part F or Part G, undermining auditability.
 

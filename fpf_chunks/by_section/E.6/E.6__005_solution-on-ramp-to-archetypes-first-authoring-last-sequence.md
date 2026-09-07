@@ -6,12 +6,12 @@ section_id: "E.6:4"
 section_title: "Solution — “On‑Ramp to Archetypes first, Authoring last” sequence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__005_solution-on-ramp-to-archetypes-first-authoring-last-sequence.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.6 — Didactic Architecture of the Specification"
   - "E.6:4 — Solution — “On‑Ramp to Archetypes first, Authoring last” sequence"
-line_start: 73004
-line_end: 73039
+line_start: 73237
+line_end: 73272
 dependencies:
   - "E.2"
 keywords:
@@ -39,7 +39,7 @@ The "On-Ramp First" Macro-Structure: The specification is ordered to create a sm
    stories before any normative language appears.
 
 2. **Part A Kernel**
-   Minimal holonic ontology and the Transformer principle give readers
+   Minimal holonic ontology and acting-side externalization (A.12) give readers
    the essential vocabulary.
 
 3. **Part B Trans‑disciplinary Reasoning**

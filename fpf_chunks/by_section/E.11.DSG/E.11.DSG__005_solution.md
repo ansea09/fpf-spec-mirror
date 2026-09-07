@@ -6,12 +6,12 @@ section_id: "E.11.DSG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__005_solution.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:4 — Solution"
-line_start: 80158
-line_end: 80238
+line_start: 80422
+line_end: 80502
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -79,7 +79,7 @@ Frame each entry around a real working question and the decision or action the r
 
 #### E.11.DSG:4.3 - Keep lookup Work and the answer separate
 
-A person, team, or assisting System may use one Reference edition while doing lookup Work. The Reference does not perform that Work. Ordinary use implies no Method, assignment, operation application, evidence, or authority. Identify those objects only when the current claim actually needs their direct rules.
+A person, team, or assisting System may use one Reference edition while doing lookup Work. Ordinary use alone does not establish a Method, assignment, operation application, evidence, or authority. Identify those objects only when the current claim actually needs their direct rules.
 
 An ordinary answer may remain readable conversation. Persist one only when review, reuse, publication, or later reliance needs an addressable result. First identify the exact practical-question episteme `Q`. Then identify the answer episteme `A` under `C.2.1` as `<claim content = J_a, EntityOfConcern = Q, effective ReferenceScheme = R_a>`. `J_a` states the answer, exact Reference edition used, every returned resource or blocker, and what each does in this answer. `R_a` resolves those values and the use-specific relation words. This is an ordinary episteme, not a new lookup-result kind.
 

@@ -6,14 +6,15 @@ section_id: "E.17.ID.CR:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__006_archetypal-grounding.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:5 — Archetypal grounding"
-line_start: 84269
-line_end: 84505
+line_start: 84530
+line_end: 84766
 dependencies:
   - "A.15"
+  - "A.15.2"
   - "A.15.4"
   - "A.16.0"
   - "A.20"
@@ -47,7 +48,7 @@ They show different bounded outcomes for the same governing pattern: some cases 
 
 `ComparativeReviewUnit` names the bounded middle band where a team prepares one explicit bounded comparison over source epistemes or source publications with already declared references, while any stronger crossed claim remains outside until the governing pattern for that claim is named.
 The comparison unit is the bounded comparative review unit.
-That review unit stays modest enough that a reviewer can still see the same `EntityOfConcernRef`, the declared comparison criterion, the blocked downstream claim or effect, and the boundary trigger that would end interpretation.
+That review unit stays modest enough that a reviewer can still see the shared review frame, the same `EntityOfConcernRef` when the compared sources describe the same entity, the declared comparison criterion, the blocked downstream claim or effect, and the boundary trigger that would end interpretation.
 
 #### E.17.ID.CR:5.2 - Show (System)
 
@@ -126,9 +127,9 @@ Why it stays here:
 **Source slice.** Two already available design-review notes describe the same integration boundary for the same planned release.
 One note foregrounds coupling and rollback pressure; the other foregrounds delivery simplicity and lower immediate implementation cost.
 
-**Comparative review unit.** `For architecture review, the first note foregrounds coupling risk more than the second, while the second foregrounds delivery speed more than the first; that asymmetry is useful for discussion, but it is not yet a recommendation to choose either option.`
+**Comparative review unit.** `For architecture review, the first note foregrounds coupling risk more than the second, while the second foregrounds delivery simplicity and lower immediate implementation cost more than the first; that asymmetry is useful for discussion, but it is not yet a recommendation to choose either option.`
 
-**Working-boundary use.** This is the ordinary stay-here case: one honest local repair and one publication-unit stability check would already leave the review unit stable enough that the bounded comparative review move itself stays primary.
+**Working-boundary use.** This is the ordinary stay-here case: the shared review frame, bounded comparative lift, and outside-work boundary are already explicit, so the bounded comparative review move itself stays primary.
 
 Why it stays here:
 - the same planned release remains the `EntityOfConcernRef`;
@@ -153,7 +154,7 @@ Why it stays here:
 **Source slice.** Two already available research syntheses discuss the same measured phenomenon and the same declared evidence slice.
 One synthesis foregrounds variance decomposition limits more; the other foregrounds protocol repeatability more.
 
-**Comparative review unit.** `For method review, the first synthesis foregrounds uncertainty-handling limits more than the second, while the second foregrounds repeatability evidence more than the first; this asymmetry helps frame the discussion, but it is not yet a method choice or a claim that one synthesis is globally better.`
+**Comparative review unit.** `For method review, the first synthesis foregrounds variance decomposition limits more than the second, while the second foregrounds protocol repeatability more than the first; this asymmetry helps frame the discussion, but it is not yet a method choice or a claim that one synthesis is globally better.`
 
 Why it stays here:
 - the same measured phenomenon remains the `EntityOfConcernRef`;
@@ -213,13 +214,13 @@ Why it stays here:
 
 **Source slice.** Two method descriptions are already pinned for the same fabrication task. One foregrounds lower setup cost; the other foregrounds tighter result-measurement discipline.
 
-**Comparative review unit.** `For method review, method M-1 foregrounds lower setup cost more, while method M-2 foregrounds result-measurement discipline more. This comparison helps prepare method discussion, but it is not yet the selected method, not a work plan, and not evidence that either method has been performed.`
+**Comparative review unit.** `For method review, the description of method M-1 foregrounds lower setup cost more, while the description of method M-2 foregrounds tighter result-measurement discipline more. This comparison helps prepare method discussion; method choice, a work plan, and evidence that either method has been performed remain outside it.`
 
 Why it stays here:
 - the reviewed source epistemes are pinned;
 - the comparison criterion is explicit;
 - no selected-method, work-plan, performed-work, evidence, or engineering-justification claim is added;
-- if the team chooses a method or prepares a work plan, record the selected method as project `U.Method`, record the work plan as `U.WorkPlan` under `A.15`, and use `A.15.1` only when a dated `U.Work` occurrence is the governed occurrence claim.
+- if the team chooses a method or prepares a work plan, record the selected method as project `U.Method`, record the work plan as `U.WorkPlan` under `A.15.2`, and use `A.15.1` only when a dated `U.Work` occurrence is the governed occurrence claim.
 
 **Nearest neighboring-work examples.** The next four cases are the nearest worked boundaries for prompt pressure, same-entity viewing, ontology shift, and gate or authority misuse. Use them when the near-top negative-boundary rows fit and you need one worked cue for keeping the comparison unit from carrying outside work.
 
@@ -257,7 +258,7 @@ Why `ComparativeReviewUnit` no longer governs:
 Why `ComparativeReviewUnit` no longer governs:
 - the review unit is being overread as gate-facing authority;
 - the bounded comparison has become a substitute for the source episteme or source publication;
-- the authority-bearing claim is governed by `A.15`, `A.20`, `A.21`, policy, assurance, release, adjudication, or another governing FPF pattern rather than by `ComparativeReviewUnit`.
+- the release-gate claim is governed by `A.21` and the applicable release policy; use `A.20` only for an internal-constraint check that meets its transformation-flow conditions.
 
 ##### E.17.ID.CR:5.4.11 - Invalid publication and repair example
 

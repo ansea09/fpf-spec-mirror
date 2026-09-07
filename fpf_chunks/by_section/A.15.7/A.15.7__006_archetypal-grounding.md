@@ -6,12 +6,12 @@ section_id: "A.15.7:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__006_archetypal-grounding.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:5 — Archetypal Grounding"
-line_start: 27415
-line_end: 27438
+line_start: 27444
+line_end: 27469
 dependencies:
   - "A.10"
   - "A.13"
@@ -48,6 +48,8 @@ The performers, deciding System, musical or movement material, interaction, Meth
 #### A.15.7:5.3 - Case handling and stale information
 
 A worker is performing one case-handling Work occurrence under a domain Method. A displayed case state predates newly filed evidence. Because that age can change the action, the worker refreshes the case state before relying on it. If refresh is unavailable, the worker uses the declared safe fallback or stops. The case file records claims; it neither chooses, supplies authority, nor performs Work.
+
+The worker also uses an identified procedure whose version and applicability remain unchanged. The displayed copy has no separate expiry field, and this use requires none. The worker retains that procedure while refreshing the case-state claim affected by the new evidence. The result names the current next action and its limits, with no separate certificate for retaining the unaffected procedure.
 
 If the organization's admitted case-handling Method already includes this steering Method, state that composition separately. Do not infer it from the case model or a repeated workflow label.
 

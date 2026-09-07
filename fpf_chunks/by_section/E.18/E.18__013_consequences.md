@@ -6,12 +6,12 @@ section_id: "E.18:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__013_consequences.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:10 — Consequences"
-line_start: 86110
-line_end: 86124
+line_start: 86369
+line_end: 86383
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -49,6 +49,6 @@ keywords:
 
 **Trade‑offs.**
 a) **Higher upfront modeling cost:** exact crossing positions, per-binding replay accounts, gate refs, and optional durable crossing bundles demand care; mitigated by keeping ordinary local crossings in readable prose and unbundled when no downstream reliance needs replay.
-b) **Longer transfer face sets:** MVPK faces are verbose by design; lean face sets can be used for low-risk segments.
+b) **Longer transfer face sets:** Required path and publication refs can lengthen faces; lean face sets can be used for low-risk segments.
 c) **Tooling alignment:** some incumbent DAG-only orchestrators conflict with budgeted cycles and set-return semantics; adapters project E.18 semantics to their interop boundary, while `E.18.2` carries the mathematical graph-description relation when that projection matters.
 

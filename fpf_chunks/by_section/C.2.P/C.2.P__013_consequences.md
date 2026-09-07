@@ -6,12 +6,12 @@ section_id: "C.2.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__013_consequences.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:9 — Consequences"
-line_start: 42908
-line_end: 42929
+line_start: 42924
+line_end: 42945
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,11 +42,13 @@ dependencies:
   - "E.17.ID.CR"
   - "E.19"
   - "E.2"
+  - "E.24.PUB"
   - "E.6"
   - "E.7"
   - "E.8"
   - "E.9"
   - "F.18"
+  - "F.19"
 keywords:
 ---
 
@@ -64,7 +66,7 @@ keywords:
 For each repair:
 
 1. start from the sentence's function and practical consequence, not from a word list;
-2. preserve the E.10 result and recover only the one still-hidden episteme, publication, carrier, source-to-use, or use-disposition distinction;
+2. preserve any E.10 cue or routing result and recover only the one still-hidden episteme, publication, carrier, source-to-use, or use-disposition distinction;
 3. use the direct pattern as soon as it is known;
 4. choose direct repair before a compact row, and a compact row before a full check;
 5. keep the final sentence readable to a cold practitioner and state what action or non-use remains;

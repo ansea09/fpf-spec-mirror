@@ -6,12 +6,12 @@ section_id: "B.3:5"
 section_title: "Proof obligations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__006_proof-obligations.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:5 — Proof obligations"
-line_start: 39699
-line_end: 39720
+line_start: 39714
+line_end: 39735
 dependencies:
   - "A.10"
   - "A.15.1"

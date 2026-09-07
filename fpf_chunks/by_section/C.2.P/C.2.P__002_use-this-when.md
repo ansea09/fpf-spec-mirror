@@ -6,12 +6,12 @@ section_id: "C.2.P:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__002_use-this-when.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:0 — Use this when"
-line_start: 42490
-line_end: 42520
+line_start: 42506
+line_end: 42536
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,17 +42,19 @@ dependencies:
   - "E.17.ID.CR"
   - "E.19"
   - "E.2"
+  - "E.24.PUB"
   - "E.6"
   - "E.7"
   - "E.8"
   - "E.9"
   - "F.18"
+  - "F.19"
 keywords:
 ---
 
 ### C.2.P:0 - Use this when
 
-Use C.2.P after an E.10 wording check only when one unresolved distinction still prevents the reader from selecting or safely using the direct pattern. The unresolved point must concern a source expression, claim-bearing episteme, publication, publication unit, view, carrier relation, source-to-use relation, or use disposition.
+Use C.2.P only when one unresolved distinction still prevents the reader from selecting or safely using the direct pattern. The unresolved point must concern a source expression, claim-bearing episteme, publication, publication unit, view, carrier relation, source-to-use relation, or use disposition.
 
 **Recognizable situation.** A sentence is readable, but it leaves the reader unable to tell whether it refers to claim content, a publication or bounded unit, a carrier or display, a source-bearing relation, or a project-side use of one of those objects.
 
@@ -62,7 +64,7 @@ Use C.2.P after an E.10 wording check only when one unresolved distinction still
 2. Recover the one unresolved episteme, publication, source-to-use, carrier, or use-disposition distinction.
 3. Rewrite the sentence, or hand the remaining claim to the exact pattern that defines, constrains, or tests it. Then stop.
 
-**Not this pattern when.** If E.10 already makes the exact receiving pattern and its current field recoverable, apply that pattern directly. A clear ordinary phrase needs no C.2.P record. Use A.6.P for a relation problem whose publication or source-expression side is already clear, F.18 for a stable reusable name, A.7 for EntityOfConcern-description-carrier separation, and E.17 or E.24.PUB for an already identified publication relation.
+**Not this pattern when.** If the exact receiving pattern and its current field are already recoverable, apply that pattern directly. A clear ordinary phrase needs no C.2.P record. Use A.6.P for a relation problem whose publication or source-expression side is already clear, F.18 for a stable reusable name, A.7 for EntityOfConcern-description-carrier separation, E.17 for reader-facing publication of an accepted account, and E.24.PUB for publication-occurrence, form, or carrier distinctions.
 
 **Smallest outputs.**
 

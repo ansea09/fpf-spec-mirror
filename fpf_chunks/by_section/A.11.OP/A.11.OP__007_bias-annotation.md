@@ -6,12 +6,12 @@ section_id: "A.11.OP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__007_bias-annotation.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
   - "A.11.OP:6 — Bias-Annotation"
-line_start: 23699
-line_end: 23710
+line_start: 23727
+line_end: 23738
 dependencies:
   - "A.10"
   - "A.11"
@@ -23,6 +23,7 @@ dependencies:
   - "A.3.2"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.19.2"
   - "E.11.PUA"
   - "E.11.PUR"

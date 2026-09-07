@@ -6,12 +6,12 @@ section_id: "C.32.MWA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__005_solution.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:4 — Solution"
-line_start: 65620
-line_end: 65672
+line_start: 65849
+line_end: 65901
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -45,7 +45,7 @@ Build one readable synthesis from the relations supported by the current case. K
 3. **Generate genuinely different organizations.** Prepare alternatives that differ in a way that can change use or fail on different cases. When NQD is the current generation test, retain NQD-distinct candidates: their novelty is not a relabeling, their use-value preserves the declared constraints, and their diversity exposes different failure modes. Do not accept the source's first layout as the option set, and do not turn NQD into one scalar score.
 4. **Recover each relation actually used.** In ordinary words first, state whether the source claim concerns Method composition or order, Work parthood or overlap, a subject relation, description or model use, a capability or provider dependency, cultural dynamics, or another admitted relation. Use the pattern that defines or constrains that relation when the claim matters to the answer.
 5. **Separate practice from description.** Keep obtaining practice wholes and relations distinct from descriptions, models, views, and coarse-grained accounts. State their correspondence and the distinctions each description preserves or loses.
-6. **Reidentify a whole when needed.** Use `B.2` when the previously identified Method, Work, System, Discipline, or selected structure cannot carry the current claim. Do not keep the old identity merely to preserve a neat stack.
+6. **Reidentify a whole when needed.** Use `B.2` when the previously identified Method, Work, System, or Discipline whole cannot carry the current claim. Reidentify a selected structure under `A.22`'s four identity discriminators when the current claim requires a different selected structure. Do not keep the old identity merely to preserve a neat stack.
 7. **Compare conflict and moved burden.** Expose conflicts between candidate structures. For every apparent local repair, ask what residual, constraint, cost, evidence burden, delay, or loss moved to another structure or scope. Compare the alternatives against the named architecture question, not against visual tidiness.
 8. **Keep deliberate and distributed change distinct.** Separate a project's architecture choice or intervention from cultural generation, transmission, recognition, selection, rejection, retention, and loss. A project can influence those processes without controlling or proving them.
 

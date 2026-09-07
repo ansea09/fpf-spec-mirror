@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.20.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
-line_start: 34889
-line_end: 35141
+line_start: 34920
+line_end: 35172
 dependencies:
   - "A.10"
   - "A.15"

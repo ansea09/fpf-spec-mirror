@@ -6,12 +6,12 @@ section_id: "C.32.PAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__005_solution.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:4 — Solution"
-line_start: 66161
-line_end: 66263
+line_start: 66390
+line_end: 66492
 dependencies:
   - "A.10"
   - "A.15"
@@ -90,9 +90,9 @@ If the candidate basis is absent, require `C.32`. If architecture-characteristic
 
 #### C.32.PAD:4.2 - Constructive architecture decision path
 
-Some architecture decisions are constructive: they prescribe Methods that intended developer Systems are expected to use so that later work aims to produce or preserve intended structures. A decision may name intended Systems, local-kind requirements, separate classification requirements, assignment requirements, plans, commitments, permissions, or authority before any assignment or Work obtains. Admit that path only when the decision keeps those prospective facts separate and names:
+Some architecture decisions are constructive: they prescribe Methods that intended developer Systems are expected to use so that later work aims to produce or preserve intended structures. A decision may name intended Systems, local-kind requirements, separate classification requirements, assignment requirements, plans, commitments, permissions, or authority before any assignment or Work obtains. Admit that path only when the decision keeps those claims separate and names:
 
-- the obtaining architecture relation and selected structure, or the exact modal `ArchitectureClaim`, to be produced or preserved;
+- the obtaining architecture relation and selected structure to be preserved, or the exact modal `ArchitectureClaim` stating the intended production or preservation effect;
 - the method description, architectural style, pattern use, or work practice to be used;
 - the intended System when known; an optional local kind and an independently optional System-classification judgment; any current assignment through separate species and obtaining-occurrence refs whose holder is that System; and any merely intended assignment as plan, policy, or decision content rather than an occurrence;
 - any responsibility or authority relation only when its admitted direct predicate, actual participants, applicability, and identity obtain; otherwise record the exact A.6.RCD missing governor instead of calling the system-role kind or assignment responsible;
@@ -100,7 +100,7 @@ Some architecture decisions are constructive: they prescribe Methods that intend
 - the work-planning boundary and readiness or gate exit;
 - the source-return condition and reopen trigger.
 
-This keeps architecture decisions connected to work without treating the decision description, ADR file, method description, selected network, influence-source structure, or performed Work as the architecture, performer, or proof that the expected structure effect obtains.
+These requirements connect the architecture decision to work while keeping its expected structure effect distinct from any independently established actual effect.
 
 #### C.32.PAD:4.3 - Minimum sufficient relation and slot-change impact
 

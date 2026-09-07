@@ -6,12 +6,12 @@ section_id: "C.2.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__005_problem-frame.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:1 — Problem frame"
-line_start: 42538
-line_end: 42556
+line_start: 42554
+line_end: 42572
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,11 +42,13 @@ dependencies:
   - "E.17.ID.CR"
   - "E.19"
   - "E.2"
+  - "E.24.PUB"
   - "E.6"
   - "E.7"
   - "E.8"
   - "E.9"
   - "F.18"
+  - "F.19"
 keywords:
 ---
 
@@ -67,5 +69,5 @@ The rewrite discipline here is ontological and use-facing, not lexical; in this 
 - first recover the FPF kind and relation set, whether the wording carries a claim, the publication, view, carrier, or relation construction, and any work, action, or authority crossing;
 - then choose the smallest wording that preserves the FPF-governed distinction without creating a second ontology.
 
-This pattern uses the `E.10` trigger result as its entry condition, then works in the `C.2.1` and `E.17` epistemic-publication ontology rather than in a lexical registry.
+For FPF-governed wording, use the `E.10` cues and routes within the connected `F.19` reading. `C.2.P` works in the `C.2.1`, `E.17`, and `E.24.PUB` epistemic-publication ontology rather than in a lexical registry.
 

@@ -6,12 +6,12 @@ section_id: "C.32.HCS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__002_problem-frame.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:1 — Problem frame"
-line_start: 64153
-line_end: 64212
+line_start: 64381
+line_end: 64440
 dependencies:
   - "A.19"
   - "C.11"
@@ -49,7 +49,7 @@ Typical entry phrases:
 "A system-role assignment, organization, built asset, or evidence workflow has reliability-like pressure, but the bearer and scale are unclear."
 ```
 
-**First-minute use slice.** A review lead sees a long quality catalogue and a software-oriented checklist, while the source wording calls the object a reusable review practice. Using C.32.HCS, the practitioner first resolves that label: the live holon is the review organization-as-system; exact review Work occurrences and any presentation carrier remain separate. The relevant structures include a method relation structure, method descriptions, local system-role kinds, separately obtaining assignments, work-product structures, and evidence records. Only then does the practitioner inspect repeatability, transferability, evidence reuse, and exception growth. A.2.7 tests kind substitutability. Assignment continuity, holder replacement, staffing, and Work coverage remain separate candidate characteristics; use the pattern that defines or tests each claim, or return `missing-governor`. Teachability is recorded as a likely C.25 Q-Bundle. The project carries only those starter heads and first project questions to `C.32.ACS` instead of copying hundreds of names or admitting "practice" as a holon kind.
+**First-minute use slice.** A review lead sees a long quality catalogue and a software-oriented checklist, while the source wording calls the object a reusable review practice. Using C.32.HCS, the practitioner first resolves that label: the live holon is the review organization-as-system; exact review Work occurrences and any presentation carrier remain separate. Relevant structures include a method relation structure and work-product structures; method descriptions, local system-role kinds, separately obtaining assignments, and evidence records remain distinct. Only then does the practitioner inspect repeatability, transferability, evidence reuse, and exception growth. A.2.7 tests kind substitutability. Assignment continuity, holder replacement, staffing, and Work coverage remain separate candidate characteristics; use the pattern that defines or tests each claim, or return `missing-governor`. Teachability is recorded as a likely C.25 Q-Bundle. The project carries only those starter heads and first project questions to `C.32.ACS` instead of copying hundreds of names or admitting "practice" as a holon kind.
 
 The primary `EntityOfConcern` is one architecture-bearing family starter pack for beginning to turn broad architecture-characteristic names into project criteria rows. A starter head is only a possible characteristic head before project bearer, scale, use class, proxy risk, and protected counter-characteristics are bound. Carry admitted starter heads to ACS. Keep Q-Bundles, measurements, eval programs, candidate palettes, comparison rules, G.5 result declarations, actual publications, and architecture decisions as separate objects handled by their applicable patterns.
 
@@ -79,7 +79,7 @@ Use `describedHolonRef` when the starter heads concern an exact holon. Use `pres
 
 What goes wrong if C.32.HCS is missed: the team faces hundreds of `-ility` or quality names, copies a catalogue, or starts from a software-module list even when a source label such as method, role, culture, practice, built asset, or evidence workflow still hides what actually bears the characteristic.
 
-What C.32.HCS buys in practice: the practitioner has a short architecture-bearing starting point before `C.32.ACS` turns starter heads into project criteria rows, three to five optimization indicators, and monitored guardrails.
+What C.32.HCS buys in practice: the practitioner has a short architecture-bearing starting point before `C.32.ACS` turns starter heads into project criteria rows, normally three to five optimization indicators, and monitored guardrails.
 
 Adoption test: after using C.32.HCS, the project has a short starter set and first project questions; it has not copied a catalogue and has not yet claimed bearer, scale, use class, or optimization status.
 

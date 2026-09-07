@@ -6,12 +6,12 @@ section_id: "G.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__012_archetypal-grounding.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:5 — Archetypal Grounding"
-line_start: 104141
-line_end: 104160
+line_start: 104413
+line_end: 104438
 dependencies:
   - "C.11"
   - "C.18"
@@ -72,4 +72,10 @@ The truthful `G.5` result is one abstain or escalation result that names the blo
 
 **Show 4 (complementary framework editions; unordered joint use).**
 A training cohort needs `Core@C`, `Domain@D`, and `Local@L` together. The editions are already identified under their own edition rules; they are not Method candidates or registry rows. An accepted cohort decision supplies the exact members and basis. `G.5-6 DeclareSetResult` emits one unordered `JointUseSet` with one keyed entry per edition, the named cohort-review use, inclusion conditions, and sufficient top-level basis pins. Direct dependencies and pairwise compatibility claims remain with E.4.PFR; publication and access remain with E.17/E.24.PUB and the applicable access-carrier pattern. The G.5 result declares membership but does not perform the choice, make those neighboring claims obtain, or create a contribution relation.
+
+**Show 5 (support-sensitive Method eligibility).**
+
+Keep the exact admitted Methods, row editions, and grouping basis from §0.5. In a gated variant, the matching G.4 task map makes `AC_InputConditionGate-E1` from G.4 §5 applicable to `ThresholdTrendReviewMethod-E2`. Consume that clause's value and threshold rather than define either in G.5. For the two-condition case there, the returned `fail` excludes that row from the assurance-gated set. Replacing its joint probability with minimum would wrongly retain it. An otherwise admissible row stays in the set under its own declared eligibility basis; if none survives, return the existing abstain or escalation outcome.
+
+If the dependence model is missing, use the clause's `unknown` branch rather than pass by a high F. In the ordinary, non-assurance question of §0.5, both grounded rows still form the unordered `Shortlist`. A formal proof, a limited complementary study, and an overlapping contrary result can remain separate support with their limitations; neither weak additional evidence nor the absence of an unjustified common score automatically removes a Method. A defeated necessary premise still changes the eligibility that actually relies on it.
 

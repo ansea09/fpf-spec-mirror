@@ -6,12 +6,12 @@ section_id: "B.1.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__010_consequences.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:9 — Consequences"
-line_start: 37195
-line_end: 37208
+line_start: 37210
+line_end: 37223
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,8 @@ dependencies:
   - "B.1.6"
   - "B.2"
   - "B.3"
+  - "C.11"
+  - "C.19.2"
   - "C.2"
   - "C.2.1"
   - "E.17"
@@ -48,12 +50,12 @@ keywords:
 **Benefits**
 
 * **Auditability by construction.** Every retained claim remains tied to its sources; **SCR** guarantees reconstructability.
-* **Safe synthesis.** **R** cannot be inflated; **CL penalties** make conceptual misfit explicit.
+* **Qualified synthesis.** Useful formal and complementary support is retained; dependency assumptions, contrary evidence, and mapping limitations constrain the resulting claim.
 * **Target-scheme results.** Compiled epistemes are aligned with one declared reference scheme; any release or publication remains separately governed.
 * **Didactic clarity.** Separates **semantic folding** (Γ\_epist) from **order** (Γ\_ctx), **time** (Γ\_time), **spend** (Γ\_work), and **emergence** (B.2).
 
 **Trade‑offs**
 
 * **Mapping overhead.** Declaring mappings and **CL** costs time; it prevents silent incoherence.
-* **Conservative stance.** Results may look pessimistic; this is deliberate (WLNK). Use B.2 only when exact construction and identity facts leave a genuine whole-reidentification question.
+* **No forced single score.** Heterogeneous support may remain separate. This makes some comparisons less compact but avoids fictitious assurance and preserves a useful bounded conclusion. B.2 remains specific to a genuinely unresolved whole-reidentification question.
 

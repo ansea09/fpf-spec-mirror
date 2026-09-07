@@ -6,12 +6,12 @@ section_id: "E.11:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__012_sota-echoing.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:11 — SoTA-Echoing"
-line_start: 78938
-line_end: 78959
+line_start: 79170
+line_end: 79191
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -50,5 +50,5 @@ The serious alternative is familiar-title or ranked-result lookup with a short t
 
 [Zhu, Reinecke, and Mitra, *Language Scent: Exploring Cross-Language Information Navigation*, arXiv:2604.03604v2](https://arxiv.org/html/2604.03604v2), supplies bounded evidence for considering such proximal cues: its multilingual system exposes information value and interpretation cues, and its lab study involved 16 English–Chinese speakers. It does not compare FPF names or establish that two labels have the same referent. **Adapt as a local probe:** `E.11:4.1.1`, `4.1.2`, and `4.5.1` test recognizable wording against the direct result; `E11-9/10/11` keep cue, entry, and direct content distinct. Reopen if a shorter label works equally well for the actual readers, if the cue invites the wrong result, or if stronger evidence changes the transfer from multilingual navigation. No universal benefit from contextual wording is inferred.
 
-For a cross-DPF entry, `E.11.DSG` supplies the direct four-return, exact-source, and known-DPF-bypass rules used in `E.11:4` and `E11-13`. These are semantic inputs to the entry, not another competing navigation theory: they prevent a helpful Reference from deciding Suite membership, requiring a Suite edition, or performing lookup Work. E.8, E.17, F.17, F.18, and E.11.PUA retain their direct authoring, publication, naming, and pattern-use functions. Reopen the affected entry when those direct results or boundaries change; use `G.11` only when a currentness or telemetry question is actually current.
+For a cross-DPF entry, `E.11.DSG` supplies the direct four-return, exact-source, and known-DPF-bypass rules used in `E.11:4` and `E11-13`. These are semantic inputs to the entry, not another competing navigation theory: Suite membership follows E.4's inclusion rules, a reader or assisting System performs lookup Work, and cross-DPF entry requires no Suite edition. E.8, E.17, F.17, F.18, and E.11.PUA retain their direct authoring, publication, naming, and pattern-use functions. Reopen the affected entry when those direct results or boundaries change; use `G.11` only when a currentness or telemetry question is actually current.
 

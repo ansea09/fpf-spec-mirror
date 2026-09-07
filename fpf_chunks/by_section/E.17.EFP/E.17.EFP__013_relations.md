@@ -6,12 +6,12 @@ section_id: "E.17.EFP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__013_relations.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:12 — Relations"
-line_start: 83897
-line_end: 83903
+line_start: 84162
+line_end: 84168
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,5 +43,5 @@ keywords:
 - **Builds on:** `E.17.0`, `E.17`, `A.7`, `E.10.D2`, `A.6.B`, `F.9`, `F.18`
 - **Coordinates with:** `ConservativeRetextualization`, `RepresentationSchemeTransition`, `A.6.3.CSC Controlled Semantic Coarsening`, `E.17.ID.CR ComparativeReviewUnit`, `A.6.4`, `A.15`, `A.15.4`, `B.3`, `A.20`, `A.21`
 - **Profile basis and main neighboring-pattern boundaries:** E.17 supplies face discipline; E.17.0 supplies viewpoint/view conformance only when `U.View` membership is material. A shift toward new semantics, a coarsened narrower-use target, or a gate-bearing claim or effect leaves the profile.
-- **Boundary notes:** bounded comparison over a comparative review unit applies `E.17.ID.CR ComparativeReviewUnit`; explanation-like renderings with declared source-loss mode whose narrower bounded claim or effect, blocked downstream claim or effect, and source-bearing reopen are primary apply `A.6.3.CSC Controlled Semantic Coarsening`; retargeting applies `A.6.4`; work and reliance consequences apply `A.15` and `A.15.4`; assurance and engineering-justification consequences apply `B.3`; gate-bearing consequences apply `A.20` or `A.21`.
+- **Boundary notes:** bounded comparison over a comparative review unit applies `E.17.ID.CR ComparativeReviewUnit`; explanation-like renderings with declared source-loss mode whose narrower bounded claim or effect, blocked downstream claim or effect, and source-bearing reopen are primary apply `A.6.3.CSC Controlled Semantic Coarsening`; retargeting applies `A.6.4`; work and reliance consequences apply their direct patterns, including `A.15` for alignment, `A.15.1` for dated Work, and `A.15.4` only while an appearance hides the needed prerequisite; assurance and engineering-justification consequences apply `B.3`; gate-bearing consequences apply `A.21` under the named gate’s applicable profile; use `A.20` only for a named internal-constraint check under that pattern's subject and applicability conditions.
 

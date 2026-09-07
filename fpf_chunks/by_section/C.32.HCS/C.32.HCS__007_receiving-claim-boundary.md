@@ -6,12 +6,12 @@ section_id: "C.32.HCS:6"
 section_title: "Receiving-Claim Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__007_receiving-claim-boundary.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:6 — Receiving-Claim Boundary"
-line_start: 64290
-line_end: 64293
+line_start: 64518
+line_end: 64521
 dependencies:
   - "A.19"
   - "C.11"
@@ -37,5 +37,5 @@ keywords:
 
 ### C.32.HCS:6 - Receiving-Claim Boundary
 
-Use C.32.HCS only to build architecture-bearing family starter packs. Use `C.32.ACS` for project scale rows, `C.25` for Q-Bundles, `C.16` for measurements, `C.32.ACE` for eval programs, `C.32` for candidate synthesis, `A.19.CPM` for comparison, `A.19.SelectorMechanism` for selection, `G.5` for selected-set result declaration, `C.11` for local choices, and `C.32.PAD` for project architecture decisions. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability. C.32.HCS neither establishes a source-labelled object as `U.Method`, nor turns a local system-role kind into a holon, nor admits practice, culture, tradition, or style as holon kinds.
+Use C.32.HCS only to build architecture-bearing family starter packs. For work beyond starter-pack construction, use the exits in §1. C.32.HCS neither establishes a source-labelled object as `U.Method`, nor turns a local system-role kind into a holon, nor admits practice, culture, tradition, or style as holon kinds.
 

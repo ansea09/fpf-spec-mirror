@@ -6,12 +6,12 @@ section_id: "E.14:6"
 section_title: "Archetypal Grounding (System and Episteme cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__009_archetypal-grounding-system-and-episteme-cases.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:6 — Archetypal Grounding (System and Episteme cases)"
-line_start: 80802
-line_end: 80833
+line_start: 81066
+line_end: 81097
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -40,7 +40,7 @@ keywords:
 #### E.14:6.2 - `U.Episteme` - Working-Model first; Logical, Mapping, and exact empirical support as appropriate
 
 * **Publication (Working-Model).** Authors connect meaning-bearing epistemes or publications using exact knowledge relations (for example, **RepresentationOf** or **UsageOf**) in the same human-oriented style.
-* **Assurance (downward grounding).** If the direct knowledge relation is sufficient, stop after the readable claim. When interpretation or alignment needs assurance, select Logical or Mapping support. When observation is the right currency, name the target claim, scope and window, dated evaluation or measurement Work, every performer System, and the Method the Work enacted. First recover each performer's A.13 core and independently admit the Work under A.15.1. Because this branch also asks under which assignment the Work was performed, check that exact link afterward with F.6 and use A.2.1 for the assignment itself. Cite a MethodDescription or local system-role-kind classification only when the claim uses it. Then name the participants or A.6.1 bindings, domain-local result and result episteme, A.10 evidence-provenance path, and any B.3 assurance claim that the assurance use consumes. A record, provenance value, assignment, or assurance tuple is not the observation, Work, performer, or result.
+* **Assurance (downward grounding).** If the direct knowledge relation is sufficient, stop after the readable claim. When interpretation or alignment needs assurance, select Logical or Mapping support. When observation is the right currency, name the target claim, scope and window, dated evaluation or measurement Work, every performer System, and the Method the Work enacted. First recover each performer's A.13 core and independently admit the Work under A.15.1. Because this branch also asks under which assignment the Work was performed, check that exact link afterward with F.6 and use A.2.1 for the assignment itself. Cite a MethodDescription or local system-role-kind classification only when the claim uses it. Then name the participants or A.6.1 bindings, domain-local result and result episteme, A.10 evidence-provenance path, and any B.3 assurance claim that the assurance use consumes.
 * **Canonization move.** Working-Model text remains the public form; the exact result and support chain stays available underneath without leaking method, record, or time semantics into the subject claim.
 
 #### E.14:6.3 - Pump-vibration measurement: short recognition, exact assurance underneath

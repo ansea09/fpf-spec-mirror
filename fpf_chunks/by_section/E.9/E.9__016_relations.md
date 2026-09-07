@@ -6,12 +6,12 @@ section_id: "E.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__016_relations.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:12 — Relations"
-line_start: 74424
-line_end: 74432
+line_start: 74656
+line_end: 74664
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,9 +39,9 @@ keywords:
 ### E.9:12 - Relations
 
 * **Instantiates:** P‑10 Open‑Ended Evolution, P‑2 Didactic Primacy
-* **Template governed by:** `pat:authoring/pattern‑template` (E.8)
+* **Pattern publication form governed by:** `pat:authoring/pattern‑template` (E.8)
 * **Interacts with:** `pat:guard/bias‑audit` (E.5.4) via lens check
 * **Complemented by:** `E.9.DA` when one exact DRR must be checked for a declared downstream authoring use. An ordinary bounded review judges the decision and returns precise findings or repaired text; a complete coordinate result and its exact assessment identities are added only when explicitly requested or consumed by a named later reliance. E.9.DA is not a second DRR form, review gate, acceptance status, or mandatory editorial step. E.12 separately governs debate etiquette.
 
-* **Coordinates with:** `E.23` for repeated improvement work on a DRR; C.2.1 for DRR and evaluation-result episteme identity; C.2.P/A.10/G.6 for exact source use and provenance; A.15.1/A.6.1 for decision, assessment, and realization work/applications; F.10/G.11 for status and currentness; and E.24.PUB/C.29 for publication and representation. None of these neighboring records or results changes the E.9 selected answer by implication.
+* **Coordinates with:** `E.23` for repeated improvement work on a DRR; C.2.1 for DRR and evaluation-result episteme identity; C.2.P/A.10/G.6 for exact source use and provenance; A.15.1 for performed decision, assessment, and realization Work; A.6.1 when a claim depends on an independently identified application of a declared mechanism operation; F.10/G.11 for status and currentness; E.24.PUB for publication; and C.29 for a mathematical-lens use when such a lens is used. None of these neighboring records or results changes the E.9 selected answer by implication.
 

@@ -6,12 +6,12 @@ section_id: "A.15.1:13"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__015_consequences.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:13 — Consequences"
-line_start: 25527
-line_end: 25535
+line_start: 25556
+line_end: 25564
 dependencies:
   - "A.1"
   - "A.10"

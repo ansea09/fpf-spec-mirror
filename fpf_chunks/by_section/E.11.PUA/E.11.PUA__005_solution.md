@@ -6,12 +6,12 @@ section_id: "E.11.PUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__005_solution.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:4 — Solution"
-line_start: 79008
-line_end: 79378
+line_start: 79240
+line_end: 79612
 dependencies:
   - "A.13"
   - "A.15"
@@ -43,7 +43,9 @@ Use one selected pattern through a short result-oriented procedure. Keep the sub
 
 Start with five ordinary values: the working subject, the practical question, the selected pattern's `Solution`, the first useful result or honest blocker, and the stop or return. For a bounded reversible use, those values are sufficient when the result and boundary are truthful.
 
-An FPF pattern supplies action- or judgement-guiding content; a person or another capable system uses it. The ordinary instructions “use this pattern” and “apply this pattern” are harmless shorthand. Only when the selected `Solution` actually describes a Method and that distinction changes the claim, apply A.3.2 and identify the admitted `U.Method`. Name a System, system-role classification, assignment, plan, dated Work, result, or `U.Transformation` only when that object is part of the current claim. Assignment never substitutes for the acting System, Work, authority, or responsibility.
+When following a pattern exposes a costly, infeasible or apparently unhelpful demand, use `C.11.DUA` to examine what that work can change and repair the continuation. Follow the selected method through its first useful completion, including any prescribed fields or records. Keep the result and its useful basis; retain a reason or limitation when the current decision or a later recipient needs it. An inactive inquiry adds no omission account. This route is conditional on the demand being in question.
+
+An FPF pattern supplies action- or judgement-guiding content; a person or another capable system uses it. The ordinary instructions “use this pattern” and “apply this pattern” are harmless shorthand. Only when the selected `Solution` actually describes a Method and that distinction changes the claim, use A.3.1 to identify the admitted `U.Method` and A.3.2 to test `U.MethodDescription` membership of the pattern episteme. Name a System, system-role classification, assignment, plan, dated Work, result, or `U.Transformation` only when that object is part of the current claim. Assignment never substitutes for the acting System, Work, authority, or responsibility.
 
 When those identities do matter, keep them separate: the pattern episteme is not the acting System or Work; a selected or project-tailored Method is not automatically a WorkPlan; intended work is not performed Work; a result, evidence for it, and a later use are different values. This conditional distinction introduces no universal workflow, causal chain, production relation, TFS, or record requirement.
 
@@ -133,7 +135,7 @@ PatternUseApplicabilityFinding@Context <: U.Episteme
 
 `@Context` in these legacy support-species names is a compatibility and retrieval suffix. It names no `U.BoundedContext`, universal situation, project container, relation, or identity field. Every support episteme follows C.2.1 identity. Claim scope, bounded model use, project work, qualification window, and other working conditions enter only through the exact neighboring object and direct relation needed by the receiving use.
 
-The defining `ClaimGraph` located at PUA states the practical-question, optional compact-trace, candidate-basis, candidate-support-episteme, candidate-rationale, result-expectation, result-closure-finding, and dependent-use-disposition-finding schemas. The exact rule content at `E.11` states public-card comparison rationale; `E.11.PUR` states fit, applicability, recommendation, coordination rationale, coordination, and ordering. These relations use A.6.5 SlotSpec discipline; A.6.5 does not define their identity. PUA findings cite the result predicate, defining or constraining `ClaimGraph`, pattern locator, and one category-correct direct basis. In the local-claim branch they keep the A.6.RCD derivation-rule locator distinct from every base-predicate `ClaimGraph` locator. They introduce no result or actual-use relation kind.
+The defining `ClaimGraph` located at PUA states the practical-question, optional compact-trace, candidate-basis, candidate-support-episteme, candidate-rationale, result-expectation, result-closure-finding, and dependent-use-disposition-finding schemas. The exact rule content at `E.11` states public-card comparison rationale; `E.11.PUR` states fit, applicability, recommendation, coordination rationale, coordination, and ordering. The candidate-basis, additional-basis, and ordering relation declarations use A.6.5 SlotSpec discipline; A.6.5 does not define those relations' identity. PUA findings cite the result predicate, defining or constraining `ClaimGraph`, pattern locator, and one category-correct direct basis. In the local-claim branch they keep the A.6.RCD derivation-rule locator distinct from every base-predicate `ClaimGraph` locator. They introduce no result or actual-use relation kind.
 
 #### E.11.PUA:4.3 - Question, boundary, and expectation
 
@@ -156,7 +158,7 @@ PatternUseBoundaryCondition@Context <: U.Episteme:
   editionId
   boundaryConditionKind: candidateAdmission | minimumUsableResult | stop | return | wrongTurnRecovery | strongerNeighbor | missingGovernor | missingInformation | costEscalation | reversibilityEscalation | receivingPatternContinuation
   conditionDescriptionRef: U.EpistemeRef
-  relationFunctionClaimRef: U.EntityRef, referencing the exact pattern content that defines or constrains the boundary
+  relationFunctionClaimRef: U.EntityRef, referencing the exact defining or constraining ClaimGraph in the pattern episteme used for the boundary
   conditionalNextQuestionPatternLocator?: U.EntityRef, locating one exact FPF pattern episteme
   conditionalReceivingPatternPositionKindRef?: U.KindRef
   conditionalReceivingPatternPositionRef?: U.EntityRef

@@ -6,12 +6,12 @@ section_id: "C.2.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__015_sota-echoing.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:11 — SoTA-Echoing"
-line_start: 42939
-line_end: 42999
+line_start: 42955
+line_end: 43015
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,17 +42,19 @@ dependencies:
   - "E.17.ID.CR"
   - "E.19"
   - "E.2"
+  - "E.24.PUB"
   - "E.6"
   - "E.7"
   - "E.8"
   - "E.9"
   - "F.18"
+  - "F.19"
 keywords:
 ---
 
 ### C.2.P:11 - SoTA-Echoing
 
-`C.2.P` does not claim to replace semiotics, terminology science, document engineering, or ontology engineering. Its claim being made is narrower: episteme-publication-heavy conformant text must recover accepted FPF kinds and relations before it is rewritten, so that episteme, publication, view, carrier, naming, relation, and project-side records are not replaced by ad hoc words.
+When rewriting episteme-publication-heavy conformant text, the practitioner must recover accepted FPF kinds and relations, so that episteme, publication, view, carrier, naming, relation, and project-side records are not replaced by ad hoc words.
 
 A full external SoTA comparison is not needed for this bounded architectural precision-restoration pattern. A reduced external practice set is still required to check terminology drift and epistemic precision restoration. It sharpens only the recovery discipline, creates no new ontology, and does not outrank the FPF patterns named below.
 
@@ -71,15 +73,15 @@ In this section, `SoTA-Echoing` means compatibility with current FPF ontology an
 
 The current FPF corpus already has patterns that contribute to this discipline:
 
-- `E.10` supplies the head-kind, term, morphology, register, and forbidden-umbrella discipline.
+- `E.10` supplies word/head, morphology, register, and naming cues and routes within the connected `F.19` reading.
 - `E.10.D2` gives the "thing vs words vs rules" discipline and the carrier humility rule.
 - `F.18` gives the local-first naming protocol: governed value and kind; the pattern and contribution that define or constrain them; by-value scheme; local-sense claim; intended use; candidate comparison; and any separately obtaining relation.
 - `A.6.P` gives the relation-precision restoration method: restore generic head kind, build candidate sets for endpoint kinds and relation kinds, select kind-explicit slots and qualifiers, then allow guardrailed wording.
 - `C.2.1` gives episteme identity through exact claim content, EntityOfConcern, and effective ReferenceScheme and keeps empirical grounding and edition continuity as distinct direct relations.
 - `A.7` keeps EntityOfConcern, Description episteme, and publication carrier distinct.
-- `E.17.0`, `E.17` distinguish views, viewpoints, MVPK faces, publication forms, and publication projections.
+- `E.17.0` tests view conformance to a viewpoint; `E.17` governs reader-facing publication forms for an accepted account; `E.24.PUB` distinguishes publication occurrence, form, and carrier.
 - `A.15.4` shows how to keep an encountered publication, display, or low-articulation cue distinct from the project-side FPF kind and reference used for work or reliance.
-- `A.16`, `A.16.0`, `A.19`, `B.2.5`, `C.27`, and `A.3.3` provide the movement, control, and temporal machinery used when episteme-publication prose talks about route, trajectory, movement, cadence, or dynamics.
+- `A.16` coordinates language-state moves; `A.16.0` supplies an optional trajectory account when their history matters; `A.19` defines the CharacteristicSpace and its reusable predicates; `B.2.5` governs supervisor-subholon feedback; `C.27` distinguishes state or rate readings from intervention-sensitive temporal claims; `A.3.3` defines the reusable state-space and transition-law episteme.
 - `E.19` already treats terminology and sentence-level precision restoration as required review checks, not editorial polish.
 - `A.6.A` carries action-invitation discipline when a publication, representation, or cue invites an action without itself becoming authority, evidence, gate passage, or work completion.
 - `C.11` carries decision-making and decision-record discipline when the question under repair is a decision rather than generic action.
@@ -94,7 +96,7 @@ These internal FPF patterns remain primary:
 | Stable naming | `F.18` | Run a name card when a reusable head is being minted. | Adopt. |
 | Relation precision | `A.6.P` | Recover relation kind, endpoints, slots, qualifiers, and scope when a relation or use-boundary claim is current. | Adopt. |
 | Carrier and EntityOfConcern-description humility | `A.7` | Keep EntityOfConcern, Description episteme, and carrier apart before treating a publication as evidence, work, gate, or authority. | Adopt. |
-| Episteme and publication ontology | `C.2.1`, `E.17.0`, `E.17`, MVPK | Separate episteme, publication, view, generic publication face, MVPK face under E.17 constraints, publication unit, carrier, and rendering. | Adopt. |
+| Episteme and publication ontology | `C.2.1`, `E.17.0`, `E.17`, MVPK, `E.24.PUB` | Separate episteme, publication, view, generic publication face, MVPK face under E.17 constraints, publication unit, carrier, and rendering. | Adopt. |
 | Project-side downstream use | `A.6.A`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, `A.21`, `C.11` | When a publication, display, cue, or explanation is treated as evidence, gate, decision, work permission, method, assurance, or engineering justification, name the applicable FPF pattern and the project-side FPF kind and reference. | Adopt. |
 
 This reduced external-practice set changes the Solution in one practical way: epistemic precision restoration cannot close merely because the replacement sounds cleaner. The FPF kind, relation, declared use boundary, and any needed pattern application must be recoverable by value; otherwise the wording is blocked or becomes a candidate for a separate FPF-kind decision.

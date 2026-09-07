@@ -6,12 +6,12 @@ section_id: "E.18:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__002_intent.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:1 — Intent"
-line_start: 85637
-line_end: 85691
+line_start: 85896
+line_end: 85950
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -86,7 +86,7 @@ This slice names the selected structure and its identified loci first. If dated 
 
 When a sentence says that a system performs an actual functional transformation at one point in a flow, E.18 carries only the selected flow structure, locus, path, slice, crossing, valuation, and pins. The independently identified bounded transformation, transformer or candidate bearer, affected referent, input and output boundary, functional-port boundary, functioning relation, method or algorithm, mechanism, and performed work are recovered through `A.3.4`, `A.6.F`, `C.30.ASV`, `A.6.M`, `A.6.1`, and the A.15 family as applicable. A desired state, method, `MethodDescription`, `WorkPlan`, architecture selection, model, description, evaluation result, publication, or transfer does not ground the actual transformation. When exact dated work is claimed to cause or realize the change, use the current exact predicate and case facts under A.6.RCD disposition 1, or—only when no direct predicate expresses the compound claim and admitted base-predicate semantics support it—one local C.2.1 claim under disposition 2. Keep the Work, Transformation, and claim separate. When production-work participation, entity-identity inception, or production completion is claimed, cite the separate local `A.15.PROD` claim; E.18 does not derive it from structure membership. A computational algorithm may fill `MethodRef?` or `MethodDescriptionRef?`; a physical-world way of transforming may fill `U.Method`; neither is inferred from E.18 structure membership.
 
-**Not this pattern when.** Use `A.20` for internal step validity, `A.21` for gate-decision publication, `E.20` for mechanism-governing-definition placement, `A.3.4` for bounded transformation under conditions, `E.18.2` for mathematical descriptions of the selected structure, `C.27.TA` for temporal aspects, `C.27` for temporal-claim adequacy or supported-use claims, the A.15 family for work planning, performed work, or work-entry readiness (`A.15.5`), `E.17` for publication faces, and `E.10` for wording-use repair when the current EntityOfConcern is not the selected structure, path, crossing, or flow valuation.
+**Not this pattern when.** Use `A.20` for internal step validity, `A.21` for gate decisions, `E.20` for mechanism-governing-definition placement, `A.3.4` for bounded transformation under conditions, `E.18.2` for mathematical descriptions of the selected structure, `C.27.TA` for temporal aspects, `C.27` for temporal-claim adequacy or supported-use claims, the A.15 family for work planning, performed work, or work-entry readiness (`A.15.5`), `E.17` for publication faces, and `E.10` for wording-use repair when the current EntityOfConcern is not the selected structure, path, crossing, or flow valuation.
 
 **What goes wrong if missed.** A practitioner may treat a reference flow, a wording-use cue such as `transition`, or a tool pipeline as a new graph kind or a hidden prescribed procedure, then lose comparability, crossing evidence, and slice-local refresh boundaries.
 

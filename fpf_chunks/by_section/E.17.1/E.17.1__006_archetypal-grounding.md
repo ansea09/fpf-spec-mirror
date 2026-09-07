@@ -6,12 +6,12 @@ section_id: "E.17.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__006_archetypal-grounding.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:5 — Archetypal Grounding"
-line_start: 82172
-line_end: 82180
+line_start: 82436
+line_end: 82444
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -36,7 +36,7 @@ keywords:
 ### E.17.1:5 - Archetypal Grounding
 
 
-**Tell.** A viewpoint bundle library lets FPF say "use this already-defined viewpoint family" without confusing that family with the concrete views or publication faces that later realize it.
+**Tell.** A viewpoint bundle library lets FPF say "use this already-defined viewpoint family" without confusing that family with the concrete views or publication faces used later.
 
 **Show (System; hypothetical template instance).** E.17.2 can guide one project to bind local references `r_functional`, `r_procedural`, `r_allocation`, and `r_module` to exact project P editions inside one constituted catalogue L. Until those bindings and their resolution under exact `R_L` exist, these names are variables and no reusable TEVB family value is present.
 

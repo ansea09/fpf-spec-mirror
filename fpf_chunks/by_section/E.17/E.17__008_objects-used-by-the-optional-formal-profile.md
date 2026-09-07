@@ -6,12 +6,12 @@ section_id: "E.17:7"
 section_title: "Objects used by the optional formal profile"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__008_objects-used-by-the-optional-formal-profile.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:7 — Objects used by the optional formal profile"
-line_start: 83215
-line_end: 83227
+line_start: 83480
+line_end: 83492
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -51,7 +51,7 @@ keywords:
 | `F_face` | finite C.13 collection of publication-form designators for this profile | not a viewpoint bundle or `U.ViewFamily` |
 | `Emit_s`, `FaceObj_s`, `FaceMorph_s`, `PromoteFace` | conceptual-form symbols for constructing and checking publication-form content | defined only in the representation-side formalism; no U-kind membership follows |
 | receiving episteme, when separately constructed | its claims are checked against the source and, only for a material `U.View` claim, against P | A.6.3 construction and E.17.0 conformance are independent claims |
-| publication occurrence, form, carrier | makes the selected episteme available to a declared audience and use | E.24.PUB identifies these participants and tests whether the publication relations obtain |
+| publication occurrence, form, carrier | makes the selected episteme available to a declared audience and use | E.24.PUB identifies these objects and tests whether the publication relations obtain |
 
-In the optional morphism profile, the author selects source E and publication-form profile `F_face`; P is selected only for a material `U.View` claim or a formal operation whose definition depends on that viewpoint. A system performs any authoring, rendering, checking, or publication work. MVPK names the publication method and constraints; it neither acts nor mints a view-family entity.
+In the optional morphism profile, the author selects source E and publication-form profile `F_face`; P is selected only for a material `U.View` claim or a formal operation whose definition depends on that viewpoint. A system performs any authoring, rendering, checking, or publication work. MVPK names the publication method and constraints.
 

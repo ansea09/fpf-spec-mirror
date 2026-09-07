@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__013_relations.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
   - "E.8.ECSPF:12 — Relations"
-line_start: 74053
-line_end: 74072
+line_start: 74286
+line_end: 74305
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -36,10 +36,10 @@ keywords:
 | `E.21` | Guides a reviewer in evaluating the quality of the authored FPF pattern publication form. It does not replace the evaluation for one evaluated object kind. |
 | `E.22` | Helps a practitioner frame one quality evaluation using the guidance published in the pattern. |
 | `E.23` | Helps an acting system repeat improvement while reusing that published evaluation guidance. |
-| `E.9.DA`, `E.2.DA`, `F.18`, `C.25` | Existing or candidate evaluations that may use this authoring specialization when their publication-form is being written or refreshed. |
+| `E.9.DA`, `E.2.DA`, `F.18`, `C.25` | Evaluations that may use this authoring specialization when their publication-form is being written or refreshed. |
 | `A.10` | Supplies the bounded evidence-use and provenance discipline when an evaluation result is used as evidence. A recorded value alone does not establish an admissible evidence use. |
-| `B.3` | Supplies the assurance and reliance calculus when someone relies on an evaluation result. A favourable value alone creates neither assurance nor warranted reliance. |
-| `A.20` | Tests whether a constraint on a transformation flow is valid. An evaluation coordinate or status does not establish that flow constraint. |
+| `B.3` | Supplies the assurance calculus when an evaluation result supports an actual named assurance claim about an exact target claim. A favourable value alone creates neither assurance nor warranted reliance. |
+| `A.20` | Tests a named internal constraint for a current transformation, operation application, or qualifying `A.6.4` assertion in a transformation-flow structure, for a stated case. An evaluation coordinate or status does not establish that constraint result. |
 | `A.21` | Supplies `GateFit` and `GateDecision` for a real gate. An evaluation result may inform a gate without becoming the gate decision. |
 | `C.11` | Supplies the general `ChoiceResult` form when an evaluation informs a choice. An evaluation result does not by itself select an option. |
 | `A.15` | Supplies the distinctions needed when the claim depends on a particular `MethodDescription`, `Method`, assignment, or performed `Work`. Ordinary pattern use needs no such identity unless the receiving claim turns on it. |

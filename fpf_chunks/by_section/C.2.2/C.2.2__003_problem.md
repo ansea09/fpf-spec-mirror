@@ -6,12 +6,12 @@ section_id: "C.2.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__003_problem.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:2 — Problem"
-line_start: 43034
-line_end: 43043
+line_start: 43050
+line_end: 43059
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,8 +56,8 @@ keywords:
 
 FPF needs a reliability coordinate that is:
 
-1. **Auditable.** A reader can trace R to concrete evidence and see how reuse penalties were applied.
-2. **Composable.** R can be propagated through claim graphs conservatively, without illegal scale arithmetic.
+1. **Auditable.** A reader can trace the supported conclusion to its formal or empirical basis and see the effect of actual reuse limitations.
+2. **Composable.** Support can be combined under its warranted meanings and dependencies without illegal scale arithmetic; where no aggregate is justified, the separate contributions remain usable.
 3. **Orthogonal.** R is not conflated with F (expression) or G (scope).
 4. **Relation-aware.** Any loss declared by an actual scope-translation, kind, plane, notation, source-local, model-use, or evidence-reuse relation is explicit and affects **R only**.
 5. **Minimal.** The solution does not introduce new core types or new face-kinds.

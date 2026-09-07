@@ -6,12 +6,12 @@ section_id: "E.17.AUD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__004_forces.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:3 — Forces"
-line_start: 84658
-line_end: 84667
+line_start: 84918
+line_end: 84927
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,8 +42,8 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| **Recognisability vs precision** | Cold readers need an early recognizable situation, but the unit still needs explicit primary-EntityOfConcern, carried-publication-move, and outside-work discipline. |
-| **Local repair vs whole-unit stabilization** | It is cheaper to fix one overloaded local lexical head, but sometimes the whole publication unit already carries a quiet shift in primary EntityOfConcern, carried publication move, or outside boundary to work, work planning, decision, gate, or reliance claim. |
+| **Recognisability vs precision** | Cold readers need an early recognizable situation, but the unit still needs explicit primary-subject, carried-publication-move, and outside-work discipline. |
+| **Local repair vs whole-unit stabilization** | It is cheaper to fix one overloaded local lexical head, but sometimes the whole publication unit already carries a quiet shift in primary subject, carried publication move, or outside boundary to work, work planning, decision, gate, or reliance claim. |
 | **Stability vs an honest next-pattern boundary** | Teams want to keep one unit usable, but they also need to admit when the live question is now comparison, explanation, or a downstream claim or effect. |
 | **Form variety vs publication-unit fidelity** | Note, memo, sheet, table, and screen are convenient ordinary labels, but they must not silently replace the publication unit under review. |
 | **Readability vs downstream claim or effect laundering** | Clearer or more polished prose helps readers, but it does not by itself mint approval, policy, gate, work, or reliance claim or effect. |

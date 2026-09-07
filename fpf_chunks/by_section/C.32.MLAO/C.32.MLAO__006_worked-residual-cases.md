@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:5"
 section_title: "Worked Residual Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__006_worked-residual-cases.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:5 — Worked Residual Cases"
-line_start: 65460
-line_end: 65470
+line_start: 65689
+line_end: 65699
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -60,5 +60,5 @@ keywords:
 | AI-agent review setup where local agent quality improves while policy violations increase | Agent task scope against policy-control scope; control and evidence-refresh structures | Add supervisor relation; narrow model-interface admissibility; change evidence refresh cadence | Stop before safety, gate, release, or causal claims unless their subject patterns are current. |
 | ML inference workflow where the searched functional graph improves quality and exceeds edge-device resource limits | Functional graph against deployment and resource scopes; module-interface, placement, and resource structures | Split the function, change deployment placement, add a resource bearer, or reject the candidate for this evolution window | Stop before release, benchmark, G.5 result declaration, or publication claims unless the definition and test for each current claim are applied. |
 | Method family where template reuse accelerates authoring and creates review residue | Authoring scope against review scope; method-structure and authored-section structures | Split method variants; add review-evidence scope; accept bounded local method residue | Stop before method governance, MVPK publication-face governance, or project decision unless the pattern for the next question is current. |
-| Built-asset maintenance program where digital-twin abstraction hides lower-scope source loss | Asset-family scope against maintenance activity scope; reference-designation, information, and maintenance-Method or plan structures | Add source-return scope; split the information view; retarget maintenance responsibility only through its admitted direct predicate or record the exact missing governor. Introduce actual maintenance Work only through its basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution. | Stop before built-asset architecture-description, publication-face, or A.10 evidence-relation claims unless their subject patterns are current. |
+| Built-asset maintenance program where digital-twin abstraction hides lower-scope source loss | Asset-family scope against maintenance activity scope; reference-designation, information, and maintenance-Method or plan structures | Add source-return scope; split the information view; retarget maintenance responsibility only through its admitted direct predicate or record the exact missing governor. Introduce actual maintenance Work only through its basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution. | Stop before built-asset architecture-description, publication-face, or A.10 evidence-use claims unless their subject patterns are current. |
 

@@ -6,12 +6,12 @@ section_id: "E.9.DA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__002_problem-frame.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:1 — Problem frame"
-line_start: 74439
-line_end: 74450
+line_start: 74671
+line_end: 74682
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -29,7 +29,7 @@ keywords:
 
 Use `E.9.DA` when one exact `DRR` must be checked for decision adequacy under a declared FPF authoring use: pattern drafting, host amendment, selected-locus distribution, accepted-decision carry-through, source-use carry-through, scope-boundary decision, split decision, or architecture-hold decision. Add exact C.2.1 episteme identity only when the judgement or a named later reliance depends on it. E.9.DA supplies the object-specific evaluation questions and reusable coordinate meanings.
 
-Not this pattern when the evaluated object is one authored pattern version, one admission or refresh review, one local wording repair, or a measurement-law problem. Use `E.21`, `E.19`, `F.19` for ordinary wording repair with `E.10` as cue and unresolved-meaning route, or `C.16`, `A.17`, `A.18`, and `A.19` for those objects.
+Use `E.21` to judge an authored pattern version, `E.19` to review an FPF pattern edition or bounded subset for admission or refresh, `F.19` for ordinary wording repair with `E.10` as cue and unresolved-meaning route, and `C.16`, `A.17`, `A.18`, and `A.19` for measurement-law questions. Those questions are outside this DRR-adequacy evaluation.
 
 First useful move: read the exact DRR in its declared authoring use and state its working problem, selected answer, practical change, first drafting action, and boundary. When it selects a broad authoring rule, inspect the actual predecessor/proposed host effect before opening any optional assessment or result apparatus.
 

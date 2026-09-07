@@ -6,12 +6,12 @@ section_id: "E.5.4:4"
 section_title: "Solution — Principle‑Taxonomy‑Guided Bias Audit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__005_solution-principle-taxonomy-guided-bias-audit.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:4 — Solution — Principle‑Taxonomy‑Guided Bias Audit"
-line_start: 72916
-line_end: 72940
+line_start: 73149
+line_end: 73173
 dependencies:
   - "E.3"
   - "E.5"
@@ -30,13 +30,13 @@ keywords:
 1. **Bias‑Lens set**
    Every normative pattern is assessed through **five lenses** that match the
    Principle classes from **E.3**:
-   `Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`.
+   `Gov`, `Arch`, `Epist` (epistemological and ontological), `Prag`, `Did`.
 
 2. **Equilibrium question**
    For each lens ask:
    *“Does the pattern over‑privilege this class or silence it?”*
    *Examples:*
-   *   Over‑reliance on `Onto/Epist` precision may ignore `Prag` cost.
+   *   Over‑reliance on `Epist` precision may ignore `Prag` cost.
    *   Dominant `Arch` metaphors may alienate `Did` audiences.
 
 3. **Scope‑or‑Balance rule**
@@ -47,6 +47,6 @@ keywords:
 
 4. **Audit trace**
    The pattern carries a short **Bias‑Annotation** paragraph recording
-   which lenses were tested and any scoping statement. No workflow checklists or
-   reviewer metadata or other data and data format and data governance tips is stored in the Core.
+   which lenses were tested and any scoping statement. Keep workflow checklists,
+   reviewer metadata and other data outside the Core, along with tips on data formats and data governance.
 

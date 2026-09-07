@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__004_forces.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:3 — Forces"
-line_start: 65394
-line_end: 65403
+line_start: 65623
+line_end: 65632
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -58,6 +58,6 @@ keywords:
 | Local fit | A candidate may help one scope while harming another. |
 | Optimization language | Objective, residual, front, and matrix language sounds decisive before the claim is typed. |
 | Declared-level recognition | Level and scope words are useful only after they are declared as holon-level refs or scope refs, or restored as stratification terms through `C.30.STRAT` before selected-structure use. |
-| Candidate action | Residual triage must turn into candidate changes when repair work is being performed. |
+| Candidate action | When performing repair work, the practitioner must use the residual triage to prepare candidate changes. |
 | New burden | Every residual-reducing candidate change creates another cost or loss. |
 

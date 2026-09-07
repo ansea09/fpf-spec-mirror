@@ -6,12 +6,12 @@ section_id: "A.11.OP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
   - "A.11.OP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 23728
-line_end: 23741
+line_start: 23756
+line_end: 23769
 dependencies:
   - "A.10"
   - "A.11"
@@ -23,6 +23,7 @@ dependencies:
   - "A.3.2"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.19.2"
   - "E.11.PUA"
   - "E.11.PUR"
@@ -42,7 +43,7 @@ keywords:
 | **Administrative self-receiver** | A receipt is justified because it updates the route state that exists only to carry the receipt. | Name a subject decision or reliance outside the requirement's own administration. |
 | **Fabricated alternatives for deterministic work** | A build or transformation step must invent outcome branches to look decision-relevant. | Retain it through selected realization when it performs the already selected result. |
 | **Precaution label as assurance** | Calling a step “safety” or “compliance” creates an unsupported floor. | Name the direct authority, evidence, exposure, and relied-on condition; return their disposition to the direct owner. |
-| **Branch passage as authority or optimum** | Admission is substituted for the stronger claim governed elsewhere. | Report only non-ceremonial admission; obtain authority or comparison from its direct owner. |
+| **Possible contribution as sufficient reason to require work** | A probe is demanded because it could matter, despite unavailable means, excessive burden or a missed receiving window. | Establish contribution here; complete the live demand or choice question through C.11.DUA or C.11 and retain a useful current answer when acquisition is not selected. |
 | **Mandatory parsimony record** | The screen creates the same ceremony it is meant to remove. | Use one ordinary disposition sentence unless a named later use needs a durable episteme. |
 | **Free-energy or physics laundering** | Expected free energy, variational free energy, or Hamiltonian least action is presented as proof of a universal engineering rule. | Keep only the bounded epistemic, pragmatic, horizon, and risk distinctions; reject mathematical equivalence and mandated scalarization. |
 

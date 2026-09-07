@@ -6,12 +6,12 @@ section_id: "F.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__002_use-this-when.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:0 — Use this when"
-line_start: 100505
-line_end: 100537
+line_start: 100766
+line_end: 100799
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -60,6 +60,7 @@ Apply the same method to FPF pattern prose and to other technical prose whose ac
 
 - If only one already-visible FPF word or head has an unresolved technical use, take the exact `E.10` route for it.
 - If the question is a durable reusable name, use `F.18`.
+- If clear advice still demands work whose contribution, feasibility or requirement merits are unresolved, use `C.11.DUA` to repair that advice. Return here for any wording repair it needs.
 - If source prose is only being observed and not admitted into governed technical prose, keep the observation source-side.
 - If evocation, rhythm, ambiguity, or parallelism is the declared work of a poem, quotation, ceremonial passage, or other expressive genre, do not flatten it into technical instruction. Apply `F.19` only to the technical claim or action that must remain recoverable.
 - If a language-specific grammar or idiom remains after the common semantic repair, use the applicable language profile.

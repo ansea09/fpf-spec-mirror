@@ -6,12 +6,12 @@ section_id: "E.13:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__002_use-this-when.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
   - "E.13:0 — Use This When"
-line_start: 80428
-line_end: 80453
+line_start: 80692
+line_end: 80717
 dependencies:
   - "A.10"
   - "A.21"
@@ -47,7 +47,7 @@ Typical moments:
 - a metric improves, but the team cannot say what intended value improved;
 - a quality score, all-`5` posture, assurance level, citation count, source count, or review pass becomes the target;
 - a proxy is used as a gate, incentive, resource-allocation signal, reputation signal, or release argument;
-- a model, method, pattern, or system is formally better while users, operators, safety, maintainability, learning, or decision quality get worse;
+- a model, method, pattern, or system is formally better while users or operators are worse off, or safety, maintainability, learning, or decision quality worsens;
 - an evaluation loop adds apparatus to satisfy the evaluator instead of improving the object of concern.
 
 **First useful move.** Name the intended value or objective, name the proxy or visible measure, and state how that proxy is being used now: measure, target, incentive, gate, release argument, decision driver, reputation signal, repair target, or orientation cue.

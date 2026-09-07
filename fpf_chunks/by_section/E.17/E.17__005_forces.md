@@ -6,12 +6,12 @@ section_id: "E.17:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__005_forces.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:4 — Forces"
-line_start: 82842
-line_end: 82850
+line_start: 83107
+line_end: 83115
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -46,8 +46,8 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| **Compositionality vs legibility** | Preserve arrow invariants across views ↔ keep each view didactic and audience‑appropriate. |
+| **Compositionality vs legibility** | Preserve arrow invariants across faces ↔ keep each face didactic and audience‑appropriate. |
 | **Neutral naming vs domain idioms** | Use vocabulary stable across domains ↔ allow local templates (SOPs, APIs, checklists). |
 | **Publication-face independence (A.7)** | Publication preserves EntityOfConcern, Description-episteme, and specification-use boundaries ↔ authors expect rich presentations. |
-| **Evidence discipline** | Views cite CG-Spec and CHR references when numeric or comparable claims are exposed ↔ authors want compact cards. |
+| **Evidence discipline** | Faces cite CG-Spec and CHR references when numeric or comparable claims are exposed ↔ authors want compact cards. |
 

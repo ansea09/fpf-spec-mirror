@@ -6,13 +6,14 @@ section_id: "E.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__011_relations.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
   - "E.3:10 — Relations"
-line_start: 70071
-line_end: 70076
+line_start: 70302
+line_end: 70307
 dependencies:
+  - "E.1"
   - "E.2"
 keywords:
   - "Arch"
@@ -29,8 +30,8 @@ keywords:
 ---
 
 ### E.3:10 - Relations
-* **Depends on:** `pat:constitutional/vision`, `pat:constitutional/pillars`
-* **Governs:** All subsequent patterns and DRRs; Guard‑Rail patterns reference CC‑PT.\
+* **Depends on:** `E.1`, `E.2`
+* **Governs:** All subsequent patterns and DRRs; Guard‑Rail patterns reference CC‑PT.
 
 > *“A taxonomy sorts principles; precedence gives them order—together they convert debate into design.”*
 

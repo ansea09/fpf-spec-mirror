@@ -6,12 +6,12 @@ section_id: "E.15:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__006_archetypal-grounding.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:5 — Archetypal Grounding"
-line_start: 81111
-line_end: 81134
+line_start: 81375
+line_end: 81398
 dependencies:
   - "C.18"
   - "C.19"
@@ -52,5 +52,5 @@ A current research edition revises a limitation used by one SoTA decision. The p
 
 #### E.15:5.5 - A real architecture choice
 
-A pattern could model a new distinction as a local value, a direct relation, or a selected structure, and each choice changes downstream use. No single repair is yet non-dominated. The author records the alternatives in the DRR, uses subject-specific criteria and E.21/E.22 qualities, and may use C.18/C.19 to broaden the candidate set. The comparison stops when the intended use supports one non-dominated architecture; search machinery is not retained as a universal authoring obligation.
+A pattern could model a new distinction as a local value, a direct relation, or a selected structure, and each choice changes downstream use. No single repair is yet selected. The author records the alternatives in the DRR, uses subject-specific criteria and E.21/E.22 qualities, and may use C.18/C.19 to broaden the candidate set. The comparison stops when the intended use supports one non-dominated architecture; search machinery is not retained as a universal authoring obligation.
 

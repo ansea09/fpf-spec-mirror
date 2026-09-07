@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.2.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
-line_start: 50839
-line_end: 51006
+line_start: 51065
+line_end: 51234
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -96,6 +96,8 @@ The intended reader may also be the person-system that performs the Work, but re
 #### C.19.2:4.3 - Admit candidates by one use-bounded predicate
 
 `UseBoundedApparatusCandidateEligibilityPredicate@Context` is a local eligibility predicate, not a U-kind, relation kind, or candidate-generation method. A candidate is eligible only when it has a credible adaptation path to the same declared use, direct result kind, claimed guarantee, scope and horizon, and non-negotiable constraints. A candidate that cannot meet one of those values stays outside the current option set rather than becoming a “weaker” member of it.
+
+When the claimed guarantee or requirement itself is disputed, use `C.11.DUA` to appraise its purpose, contribution, burden and current force. Keep apparatus eligibility under the current declaration separate from that appraisal. Resume application under a revised declaration only when the change is available through the authority or agreement that governs it.
 
 When choice is current, preserve the exact `C.11` contract:
 

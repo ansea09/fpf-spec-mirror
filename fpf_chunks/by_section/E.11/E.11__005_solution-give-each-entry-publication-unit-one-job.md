@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 78504
-line_end: 78843
+line_start: 78736
+line_end: 79075
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -179,7 +179,7 @@ PublicPatternUseResultTemplate@FPFReadme <: U.Episteme:
 PublicPatternUseBoundaryConditionTemplate@FPFReadme <: U.Episteme:
   boundaryConditionKind: recognizableCondition | stop | return | wrongTurnRecovery | strongerNeighbor | missingGovernor | missingInformation
   conditionDescriptionRef: U.Episteme
-  relationFunctionClaimRef: U.EntityRef, referencing the exact pattern content that defines or constrains the boundary
+  relationFunctionClaimRef: U.EntityRef, referencing the exact defining or constraining ClaimGraph in the pattern episteme used for the boundary
   conditionalNextQuestionPatternRef?: U.EntityRef, referencing one exact FPF pattern episteme
   conditionalReceivingPatternPositionDescriptionRef?: U.Episteme
 
@@ -224,7 +224,7 @@ CandidatePatternUseBasisCompletenessCondition@FPFReadme <: U.Episteme:
 
 Exactly one of `expectedResultTemplateRef` and `resultPromiseBlockerRef` is present in an expanded candidate branch. A result promise is admissible only when its potential-result kind, identification question, direct pattern, identity-or-obtaining basis, relative object and category-correct basis, minimum usable result, and any actually current continuation are stateable. A blocker states the missing rule or information and carries no fulfilled result template. Optional omissions cannot masquerade as a weak passing promise.
 
-The completeness condition inherits C.2.1 constitution. Its EntityOfConcern is the reusable candidate-basis position declared by the template; its ClaimGraph states the admitted filler kind and positive completeness condition; its ReferenceScheme explains how later current project fillers satisfy that position. It contains no project value and orders nobody to fill a form.
+The completeness condition inherits C.2.1 constitution. Its EntityOfConcern is the reusable candidate-basis position declared by the template; its ClaimGraph states the admitted filler kind and positive completeness condition; its ReferenceScheme explains how later current project fillers satisfy that position. It contains no project value.
 
 #### E.11:4.4 - Ordinary walkthrough
 
@@ -287,7 +287,7 @@ Give every selectable public entry one stable semantic key so the reader can ret
 
 `E.4.FPF` carries the current FPF example-key and form declaration plus its language-appropriate reading-burden measure and two maxima. A DPF or LPF carries its own product declaration under `E.4.DPF`. E.11 therefore does not maintain another FPF key list or treat displayed examples as product coverage.
 
-E.11 records one F.13-form historical read path: `splits(SYSTEM-IN-CONTEXT -> {SYSTEM-RECOGNITION, SYSTEM-DELIMITATION, WORDING, ARCHITECTURE})`. The unchanged F.13 body does not contain this row. The old card had no single surviving public-guidance identity: system recognition, system delimitation, lexical recovery, and architecture have different referents, relations or evaluations, receiving uses, first results, and direct governors. Older writing remains readable through this one read path; current entry use names only the four resulting keys. A.1.STM is a conditional continuation with a dedicated readable README guide, not a fifth resulting key. The split creates no U-kind, relation kind, record kind, result kind, or generic `Context` claim.
+E.11 records one F.13-form historical read path: `splits(SYSTEM-IN-CONTEXT -> {SYSTEM-RECOGNITION, SYSTEM-DELIMITATION, WORDING, ARCHITECTURE})`. The old card had no single surviving public-guidance identity: system recognition, system delimitation, lexical recovery, and architecture have different referents, relations or evaluations, receiving uses, first results, and direct governors. Older writing remains readable through this one read path; current entry use names only the four resulting keys. A.1.STM is a conditional continuation with a dedicated readable README guide, not a fifth resulting key. The split creates no U-kind, relation kind, record kind, result kind, or generic `Context` claim.
 
 The FPF Readme carries a selected, explicitly non-exhaustive set of current public examples and their optional expansions. Preface explains why FPF's distinctions work together. ToC locates pattern families and questions outside the examples. Full patterns carry Methods, conditions, costs, consequences, and result semantics. None is a second entry store or a claim that the examples bound FPF use.
 

@@ -6,12 +6,12 @@ section_id: "E.5.4:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__009_rationale.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:8 — Rationale"
-line_start: 72964
-line_end: 72970
+line_start: 73197
+line_end: 73203
 dependencies:
   - "E.3"
   - "E.5"
@@ -27,8 +27,8 @@ keywords:
 
 ### E.5.4:8 - Rationale
 Coupling the audit directly to the Principle Taxonomy keeps the guard‑rail
-**concept‑driven**, not workflow‑driven. No mention of review boards,
-CI‑jobs, or checklists appears in the Core; such mechanics belong in the
-Tooling Guide. This guard‑rail therefore satisfies **GR‑1** (Firewall)
+**concept‑driven**. Review-board procedures, CI jobs, and workflow
+checklists belong in the Tooling Guide. This separation satisfies
+**GR‑1** (Firewall)
 while securing Pillars **P‑2, P‑7 Pragmatic Utility, P‑8**.
 

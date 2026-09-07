@@ -6,12 +6,12 @@ section_id: "A.15.1:6.8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__008_bias-annotation.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:6.8 — Bias-Annotation"
-line_start: 25348
-line_end: 25357
+line_start: 25377
+line_end: 25386
 dependencies:
   - "A.1"
   - "A.10"

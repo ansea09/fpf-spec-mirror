@@ -6,12 +6,12 @@ section_id: "E.17.1:4"
 section_title: "Solution - one catalogue episteme with local bundle declarations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__005_solution-one-catalogue-episteme-with-local-bundle-declarations.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:4 — Solution - one catalogue episteme with local bundle declarations"
-line_start: 82076
-line_end: 82171
+line_start: 82340
+line_end: 82435
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -70,7 +70,7 @@ Open the complete constitution below for the affected catalogue edition when aut
   - for current maintenance responsibility, cite its direct admitted predicate and actual participants or return the exact missing governor; assignment establishes no responsibility; and
   - for prospective maintenance guidance, retain only the change-control note, intended maintenance condition or `U.WorkPlan`, and scope tag; this content asserts no performed Work, current assignment, or responsibility.
 
-The catalogue entry only cites these values, which are defined or constrained elsewhere and creates none of them.
+The catalogue entry only cites these values, which are defined or constrained elsewhere, and creates none of them.
 
 Library, edition, and family designators are lexical values under `R_L`, not local ValueKinds, public U-kinds, episteme identity discriminators, or entities by spelling. A local family declaration is claim content in `G_L`, not automatically a separate entity or episteme. Its compact locator `<editionDesignator(L), familyDesignator>` is a retrieval aid under `R_L`; it does not replace L's C.2.1 identity. If a receiving use truly needs one declaration as a separately identified episteme, constitute that new episteme independently under C.2.1 rather than inferring it from a row.
 
@@ -82,7 +82,7 @@ Normative constraints:
 
 #### E.17.1:4.3 - Local bundle declaration and its ordinary family designator
 
-A bundle declaration is a bounded claim block inside exact `G_L`. It states one finite, non-empty recurring family of exact `U.ViewpointRef` values drawn from exact catalogue subject `K_L`. Every reference resolves under `R_L` to one exact viewpoint episteme edition P that has already gained `U.Viewpoint` membership under E.17.0. The declaration neither admits P nor changes P's C.2.1 identity.
+A bundle declaration is a bounded claim block inside exact `G_L`. It states one finite, non-empty recurring family of exact `U.ViewpointRef` values resolving to members of exact catalogue subject `K_L`. Every reference resolves under `R_L` to one exact viewpoint episteme edition P that has already gained `U.Viewpoint` membership under E.17.0. The declaration neither admits P nor changes P's C.2.1 identity.
 
 Its minimum claim content is:
 
@@ -110,7 +110,7 @@ When a describing use names a family designator, it resolves exact catalogue edi
 
 A local subset names exact catalogue edition L, the source family designator, and the member references actually used, while keeping omitted members visible as unused or intentionally excluded. A multi-library use preserves each exact `<editionDesignator(L), familyDesignator>` source and member provenance rather than flattening everything into one unnamed family. If one use selects several viewpoints, it constructs their C.13 collection with exact membership; it does not overload one reference or infer a new family from adjacency.
 
-Construction, identity viewing, transformation, declaration membership, selection, naming, rendering, or publication grants neither `U.Viewpoint` nor `U.View` membership. A local overlay may add didactic or publication material without changing exact L. Changing a member viewpoint's meaning, the reference target, membership set, or family meaning requires a new local catalogue edition or family declaration rather than silent mutation under the inherited family designator.
+Construction, identity viewing, transformation, declaration membership, selection, naming, rendering, or publication grants neither `U.Viewpoint` nor `U.View` membership. A local overlay may add didactic or publication material without changing exact L. Changing a member viewpoint's meaning, the reference target, membership set, or family meaning requires a new local catalogue edition carrying the revised or new family declaration rather than silent mutation under the inherited family designator.
 
 #### E.17.1:4.5 - Guard and naming discipline
 

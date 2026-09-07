@@ -6,12 +6,12 @@ section_id: "A.11.OP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__002_problem-frame.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
   - "A.11.OP:1 — Problem frame"
-line_start: 23555
-line_end: 23588
+line_start: 23561
+line_end: 23596
 dependencies:
   - "A.10"
   - "A.11"
@@ -23,6 +23,7 @@ dependencies:
   - "A.3.2"
   - "B.3"
   - "C.11"
+  - "C.11.DUA"
   - "C.19.2"
   - "E.11.PUA"
   - "E.11.PUR"
@@ -36,12 +37,14 @@ keywords:
 
 **Use this when.** Use this pattern when someone proposes making an action or apparatus mandatory and a plausible question remains: does this requirement change the subject work, or does it only make the route look controlled?
 
-The primary `EntityOfConcern` is one proposed mandatory requirement under one declared use and one substantive horizon. The pattern governs only that admission decision; *action*, *apparatus*, *requirement*, and *horizon* keep their ordinary meanings.
+The primary `EntityOfConcern` is one proposed mandatory requirement under one declared use and one substantive horizon. The pattern screens the requirement for a substantive contribution. A contribution is necessary, but does not alone make the work obtainable, worthwhile or obligatory; *action*, *apparatus*, *requirement*, and *horizon* keep their ordinary meanings.
 
 **First useful result.** Return one of two short answers:
 
-- retain the requirement for this use and horizon because it changes a named substantive branch, realizes an already selected result, or preserves a named assurance or recovery condition on which the use relies; or
-- remove the requirement or leave it optional because none of those conditions changes when it is removed.
+- retain the requirement for this use and horizon because it has a named substantive contribution and its direct choice, realization, assurance or authority basis justifies requiring the work; or
+- remove the requirement or leave it optional because it has no such contribution, or because a contribution does not justify its burden for this use.
+
+For a proposed inquiry whose worth is still open, use `C.11.DUA` to compare what can be gained with feasible effort, delay, opportunity cost and downside; use `C.11` when a current chooser and options need a local choice. Finish with the supported answer and feasible continuation, which may retain the current action, narrow a claim or decline an unsupported use.
 
 Ordinary use needs no score or separate record. Name the receiving decision, result, reliance, or recovery condition in the same sentence as the disposition.
 
@@ -59,7 +62,7 @@ These are one recurring problem across unlike situations: mandatory effort can b
 
 **Not this pattern when.**
 
-- When an applicable direct authority already establishes the obligation, use that authority. Apply A.11.OP only to discretionary apparatus inside the space it leaves.
+- When the question is the force or applicability of an instituted obligation, use its direct authority. Apply A.11.OP only to discretionary apparatus inside the space it leaves. If the present question concerns the obligation's merits, use `C.11.DUA` to examine its protective contribution, burden and feasible amendment; that appraisal does not cancel its current force.
 - When several already qualifying alternatives need comparison, use their direct choice, apparatus, architecture, or Method Engineering pattern.
 - When the question is whether a new durable ontology value should exist, use `A.11`.
 - When the question is how to use an already selected pattern, use `E.11.PUA` or `E.11.PUR`.

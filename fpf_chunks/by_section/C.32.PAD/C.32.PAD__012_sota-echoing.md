@@ -6,12 +6,12 @@ section_id: "C.32.PAD:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__012_sota-echoing.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:11 — SoTA-Echoing"
-line_start: 66337
-line_end: 66354
+line_start: 66566
+line_end: 66583
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,7 @@ keywords:
 
 ### C.32.PAD:11 - SoTA-Echoing
 
-These rows document transfers from source practice into C.32.PAD. Keep a source citation only when it changes a decision-relation field, boundary, or reopen condition.
+These sources inform the decision-relation fields, boundaries, and reopen conditions used below.
 
 | Source to inspect | Why this source is load-bearing here | Transfer into PAD | Concrete PAD mutation | Blocked overread |
 |---|---|---|---|---|

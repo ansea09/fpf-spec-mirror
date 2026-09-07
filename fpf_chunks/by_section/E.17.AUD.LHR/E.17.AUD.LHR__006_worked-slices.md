@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__006_worked-slices.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:5 — Worked slices"
-line_start: 85060
-line_end: 85178
+line_start: 85320
+line_end: 85438
 dependencies:
   - "A.10"
   - "A.15"
@@ -106,12 +106,12 @@ But the unit is really one comparative review note over already pinned source ep
 Local repair:
 - overloaded local lexical head = `review`;
 - restored lexical-head kind = comparative review unit;
-- active local comparison = bounded comparative review unit, not whole release process;
+- active local comparison = compare the pinned options within this review unit; the whole release process remains outside;
 - primary entity/relation = the already pinned option contrast;
 - carried move = make one bounded contrast visible over already available source epistemes or publications;
 - outside work = rollout choice or approval.
 
-Once that local lexical head is repaired, do not keep thickening this pattern by habit. The admissible next pattern application is `E.17.ID.CR` for the now-stable unit, because the remaining question is one bounded contrast rather than publication-unit EntityOfConcern instability.
+Once that local lexical head is repaired, do not keep thickening this pattern by habit. The admissible next pattern application is `E.17.ID.CR` for the now-stable unit, because the remaining question is one bounded contrast rather than publication-unit primary-subject instability.
 
 **Recovery reading.** This is the honest bounded-comparison disposition: finish the local repair here, then let `E.17.ID.CR` carry the remaining bounded contrast over the now-stable unit.
 
@@ -141,7 +141,7 @@ But the repaired local lexical head does not keep the same publication unit stab
 A status note says:
 `This note captures the current rollback state for the candidate.`
 
-Mid-review, a new vendor bulletin changes the live failure boundary and pushes the surrounding conversation toward approval pressure.
+Mid-review, a new vendor bulletin changes the reported failure boundary and pushes the surrounding conversation toward approval pressure.
 
 Local repair can still make the current sentence honest:
 - overloaded local lexical head = `note`;

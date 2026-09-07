@@ -6,12 +6,12 @@ section_id: "E.4.PFR:5"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__007_bias-annotation.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:5 — Bias-Annotation"
-line_start: 72215
-line_end: 72234
+line_start: 72446
+line_end: 72465
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -23,7 +23,6 @@ dependencies:
   - "C.2.1"
   - "C.32.PAD"
   - "C.33"
-  - "C.33-C.35"
   - "C.34"
   - "C.35"
   - "E.11"
@@ -55,7 +54,7 @@ keywords:
 | --- | --- |
 | **Gov** | A row or analysis grants no authority, acceptance, permission, or reliance. |
 | **Arch** | Assertions, relations, records, editions, publications, carriers, and access routes stay distinct. |
-| **Onto/Epist** | A representation cites an assertion but neither creates the relation nor proves more than its bounded basis. |
+| **Epist** (Epistemological and Ontological) | A representation cites an assertion but neither creates the relation nor proves more than its bounded basis. |
 | **Prag** | Stop after the direct assertion unless a named next action needs more structure; keep high-cost analysis exceptional. |
 | **Did** | Lead with the readable assertion and introduce optional machinery only through a concrete receiving use. |
 

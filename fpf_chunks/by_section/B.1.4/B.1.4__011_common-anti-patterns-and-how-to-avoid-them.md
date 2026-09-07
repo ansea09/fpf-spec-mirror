@@ -6,12 +6,12 @@ section_id: "B.1.4:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 37403
-line_end: 37412
+line_start: 37418
+line_end: 37427
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -22,7 +22,7 @@ dependencies:
   - "A.3.4"
   - "B.1"
   - "B.1.6"
-  - "B.2-family"
+  - "B.2"
   - "B.2.P"
   - "C.13"
   - "C.2.1"
@@ -39,7 +39,7 @@ keywords:
 | Overread | Repair |
 | --- | --- |
 | A sequence is treated as physical parthood. | Recover ordered relation refs and use contextual aggregation; use part-whole patterns only for part-whole claims. |
-| A phase label is treated as a new system level. | Recover the carrier identity and phase relation; use whole reidentification only if B.2.P keeps that claim current. |
+| A phase label is treated as a new system level. | Recover the carrier identity and phase relation. If a clear whole-reidentification question remains, use `B.2` directly; use `B.2.P` first only when emergence-family wording hides the claim kind. |
 | A planning order is treated as performed work. | Use `A.15.2` for work plan and `A.15.1` for dated work occurrence. |
 | A resource total is placed inside temporal aggregation. | Use `B.1.6` for the work-resource ledger. |
 | A diagram or table is treated as the aggregate. | Recover the Description episteme or publication relation and the EntityOfConcern separately. |

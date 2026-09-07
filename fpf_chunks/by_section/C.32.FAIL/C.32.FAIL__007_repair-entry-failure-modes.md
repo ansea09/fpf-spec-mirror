@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:6"
 section_title: "Repair-Entry Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__007_repair-entry-failure-modes.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:6 — Repair-Entry Failure Modes"
-line_start: 65923
-line_end: 65938
+line_start: 66152
+line_end: 66167
 dependencies:
   - "A.10"
   - "A.13"
@@ -69,9 +69,9 @@ keywords:
 | **Warning name without repair action** | A warning row is useful only when it names the architecture object under stress and the first repair action. Otherwise keep the warning name out of the pattern. |
 | **Architecture repair skipped for evidence or assurance** | Evidence may be needed, but the first repair action is still to name the architecture object under stress and the candidate change. Evidence and assurance claims belong to their subject patterns after that. |
 | **Decision jump** | A repair cue does not select an architecture. Rebuild the candidate palette or residual frame before G.5 selected-set result declaration, actual publication, choice, or decision work. |
-| **Source expression substitutes for architecture object** | A source term, method word, benchmark result, or generated output starts recovery; it does not govern the architecture claim until selected structures and characteristics are named. |
+| **Source expression substitutes for architecture object** | Use a source term, method word, benchmark result, or generated output as a cue to recover selected structures and characteristics; the applicable subject pattern defines or constrains the architecture claim. |
 | **Software-source overfit** | Software and AI sources can supply strong repair actions, but the action must be translated to selected structures of the described holon. |
-| **Description carrier substitutes for repair** | Architecture descriptions and publication faces can make the problem visible, but they do not repair architecture unless the selected architecture object under stress and repair action are named. |
+| **Description carrier substitutes for repair** | Architecture descriptions and publication faces can make the problem visible; the repair cue must name the selected architecture object under stress and the repair action. |
 | **Function and characteristic collapse** | User functions and architecture characteristics must occupy distinct fields before comparison or repair. |
 | **Function without bearer** | A functional architecture is only a candidate when admissible bearers are recoverable under current constraints. |
 | **Ideality used as deletion admissibility** | Ideal final result wording is a generation pressure; deleting a bearer is admissible only after function bearing, lost structure, new burden, and architecture characteristics are named. |

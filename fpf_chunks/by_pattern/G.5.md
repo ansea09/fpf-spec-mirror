@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.5.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
-line_start: 103427
-line_end: 104329
+line_start: 103697
+line_end: 104607
 dependencies:
   - "C.11"
   - "C.18"
@@ -355,12 +355,14 @@ For the G.4 safety example, G.5 receives `TaskSignatureRef=SafetyPortfolioTaskSi
 A notation‑independent selector that:
 
 * consumes `TaskSignatureRef`, exact method- or generator-family row refs, pinned spec refs, and an exact matching `TaskMapRef` only when G.4 CAL gates are current,
-* applies eligibility and assurance gating (tri-state),
+* applies the declared eligibility conditions and any assurance gates actually required for this use (tri-state),
 * computes an admissible (possibly partial) order,
 * returns one declared selector outcome over the exact Method candidates admitted through this kernel: most often `Shortlist` or `RankedShortlist`, and `JointUseSet` only when every returned Method candidate is included for one named use; otherwise it returns one `SpecialistHandoff`, one other narrowed handoff, one abstain outcome, or one escalation outcome (per `DefaultId.PortfolioMode` and explicit overrides),
 * emits audit records with pins addressable by DRR and SCR records.
 
 When `TaskMapRef` is present, resolve its exact immutable G.4 map edition before applying any cited gate. Its `taskSignatureRef` must match this selector's C.22 `TaskSignatureRef`; its `CALCharterRef` must recover the CG frame, EntityOfConcern, ReferencePlane, specification editions, and assumption envelope; and each cited clause, operator, flow, and evidence profile must resolve at its exact edition. Carry the exact map ref among the result basis and refresh pins. Do not copy thresholds or acceptance semantics into G.5.
+
+If a cited gate consumes R, resolve the quantity and support model under `CC‑G5.4` before evaluating its threshold. Keep formal and empirical inputs, required premises, complementary support, dependence, scope, and counterevidence distinguishable. No common model means no invented aggregate: retain a qualified synthesis, and apply the clause's unknown behavior only where that missing quantity is actually required. The ordinary selector result in §0.4 is not an assurance claim and needs no new R calculation.
 
 For every `MethodFamilyRowRef` consumed here, resolve the exact immutable row edition and then its A.3.1 `MethodRef[]`, grouping basis, and selection-changing pins before admitting the candidate. Apply the same rule to `GeneratorFamilyRowRef`. The selector may compare or return exact row refs as auditable selector-facing addresses, but row selection neither creates its members nor proves that every listed member belongs, is admissible, is selected, or will be enacted. An unresolved Method reference or missing grouping basis blocks that row's method-bearing use; it is not repaired by a label, description, UTS identity, policy, or evidence pin.
 
@@ -786,6 +788,12 @@ The truthful `G.5` result is one abstain or escalation result that names the blo
 **Show 4 (complementary framework editions; unordered joint use).**
 A training cohort needs `Core@C`, `Domain@D`, and `Local@L` together. The editions are already identified under their own edition rules; they are not Method candidates or registry rows. An accepted cohort decision supplies the exact members and basis. `G.5-6 DeclareSetResult` emits one unordered `JointUseSet` with one keyed entry per edition, the named cohort-review use, inclusion conditions, and sufficient top-level basis pins. Direct dependencies and pairwise compatibility claims remain with E.4.PFR; publication and access remain with E.17/E.24.PUB and the applicable access-carrier pattern. The G.5 result declares membership but does not perform the choice, make those neighboring claims obtain, or create a contribution relation.
 
+**Show 5 (support-sensitive Method eligibility).**
+
+Keep the exact admitted Methods, row editions, and grouping basis from §0.5. In a gated variant, the matching G.4 task map makes `AC_InputConditionGate-E1` from G.4 §5 applicable to `ThresholdTrendReviewMethod-E2`. Consume that clause's value and threshold rather than define either in G.5. For the two-condition case there, the returned `fail` excludes that row from the assurance-gated set. Replacing its joint probability with minimum would wrongly retain it. An otherwise admissible row stays in the set under its own declared eligibility basis; if none survives, return the existing abstain or escalation outcome.
+
+If the dependence model is missing, use the clause's `unknown` branch rather than pass by a high F. In the ordinary, non-assurance question of §0.5, both grounded rows still form the unordered `Shortlist`. A formal proof, a limited complementary study, and an overlapping contrary result can remain separate support with their limitations; neither weak additional evidence nor the absence of an unjustified common score automatically removes a Method. A defeated necessary premise still changes the eligibility that actually relies on it.
+
 ### G.5:6 - Bias-Annotation
 
 Potential biases and failure modes this pattern explicitly guards against:
@@ -806,7 +814,7 @@ Potential biases and failure modes this pattern explicitly guards against:
 | `CC‑G5.1`       | Every `MethodFamily` **SHALL** declare an `EligibilityStandardRef` using CHR and CAL terms (typed; edition‑pinned where applicable). Standards **SHALL NOT** rely on tool‑specific keywords.  |
 | `CC-G5.2`       | Selection **SHALL** be a pure function of `TaskSignatureRef`, exact method- and generator-family row refs, any conditionally current exact `TaskMapRef`, and pinned policy or edition refs; side effects are limited to emitting DRR and SCR pins, telemetry triggers, and RSCR triggers (no hidden mutation of constraint-bearing spec refs). |
 | `CC‑G5.3`       | **Delegated (ID‑continuity) plus F.9 use boundary.** When a selector use relates expressions with distinct F.17 source-local meanings, it **MUST** resolve the exact cells, an obtaining F.9 Bridge, a separate C.2.1 `<u,d,r,t,polarity>` proposition, and the matching A.10 or B.3 reliance branch. G.Core crossing visibility and penalty-assignment semantics still apply. **Delegation targets:** `CC‑GCORE‑CROSS‑1`, `CC‑GCORE‑PEN‑1`. Pins alone **MUST NOT** establish the Bridge, use, reliance, or actual selector application. |
-| `CC‑G5.4`       | **Default rule for** `DefaultId.GammaFoldForR_eff`. The selector **MUST** default to the weakest‑link rule for `R_eff` and record contributors in SCR; it **MAY** use an alternative Γ‑fold only when provided by an explicitly pinned policy or profile with proof obligations satisfied (monotonicity; boundary behavior). |
+| `CC‑G5.4` | **Governing rule for** `DefaultId.GammaFoldForR_eff`. An R or R_eff composition **MUST** use a justified receiving quantity, input meanings and scales, dependency model and operation under B.3/C.2.2; cite contributors and pin the actual model/policy. Neither a universal minimum/maximum or best-source cap, an ungrounded F-to-R conversion, nor monotonicity and boundedness alone supplies that model. Without a justified common model, retain separate support and a bounded synthesis. If an actual G.4 gate requires the missing quantity, follow that clause's unknown behavior; a calculated threshold failure remains a failure. G.4 owns acceptance conditions and thresholds. Ordinary selection with no assurance condition remains usable without a new R calculation. |
 | `CC-G5.5`       | Ordinal scales **MUST NOT** be averaged or subtracted; any aggregation or comparison must respect CHR scale typing and admissibility constraints, including CSLC where applicable. |
 | `CC‑G5.6`       | Method and generator family identities **SHALL** be published to UTS with the required naming discipline (twin labels where applicable; deprecations follow lexical continuity rules). *(Core conformance applies; `G.5` adds the registry‑specific publication obligation.)* |
 | `CC‑G5.7`       | **Conditional.** If `G.5:Ext.EELog` is present, exploration **MUST** be budgeted under the pinned exploration and exploitation log policy; probe outcomes **MUST** feed refresh through canonical RSCR trigger kinds. |

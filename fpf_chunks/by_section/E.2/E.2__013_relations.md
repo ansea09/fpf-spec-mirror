@@ -6,12 +6,12 @@ section_id: "E.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__013_relations.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:12 — Relations"
-line_start: 69637
-line_end: 69645
+line_start: 69868
+line_end: 69876
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 
 ### E.2:12 - Relations
 
-* **Depends on:** `pat:constitutional/vision` – pillars operationalise the mission.
+* **Depends on:** `E.1` – pillars operationalise the mission.
 * **Refined by:** All subsequent patterns in the Core Specification.
 * **Mathematical support path:** `C.29` supports pillar-impact arguments only for adequacy of mathematical lenses used to express first-principles structure. It does not amend pillar content, priority, or conformance.
 * **Governs:** Every DRR, tool, and pedagogical artefact linked to FPF.

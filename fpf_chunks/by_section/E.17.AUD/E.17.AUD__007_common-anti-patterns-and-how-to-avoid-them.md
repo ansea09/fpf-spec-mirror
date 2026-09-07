@@ -6,12 +6,12 @@ section_id: "E.17.AUD:6"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__007_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:6 — Common Anti-Patterns and How to Avoid Them"
-line_start: 84812
-line_end: 84821
+line_start: 85072
+line_end: 85081
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,9 +42,9 @@ keywords:
 
 | Anti-pattern | Why it fails | How to avoid it |
 | --- | --- | --- |
-| Fixing one sentence while the whole unit already carries a quiet interpretation shift | local repair is asked to carry whole-unit stabilization | check primary EntityOfConcern, carried publication move, and outside boundary to work, work planning, decision, gate, or reliance claim before repairing the sentence |
+| Fixing one sentence while the whole unit already carries a quiet interpretation shift | local repair is asked to carry whole-unit stabilization | check primary subject, carried publication move, and outside boundary to work, work planning, decision, gate, or reliance claim before repairing the sentence |
 | Treating form labels as if they changed the publication unit under review | `table`, `sheet`, or `screen` is used as if it already named a different ontology or downstream claim or effect | treat those as presentation forms first; only leave this pattern when the problem situation itself changes |
 | Laundering comparison through stability language | teams keep saying the unit is unstable when the active problem situation is already bounded comparison | apply `E.17.ID.CR ComparativeReviewUnit` and name the exact source publications |
 | Laundering downstream decision or reliance through clearer prose | a better-written note is over-read as if it had become an approval, gate, work, or reliance text | keep the outside boundary to work, work planning, decision, gate, or reliance claim explicit and leave this pattern when downstream claim or effect appears |
-| Letting three repair choices act at once | lexical-head repair, whole-unit stabilization, and a neighboring-pattern application are patched in parallel with no shared primary-EntityOfConcern interpretation | use the working card first and name one current repair choice before patching the unit |
+| Letting three repair choices act at once | lexical-head repair, whole-unit stabilization, and a neighboring-pattern application are patched in parallel with no shared primary-subject interpretation | use the working card first and name one current repair choice before patching the unit |
 

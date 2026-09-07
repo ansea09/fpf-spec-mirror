@@ -6,12 +6,12 @@ section_id: "E.17.AUD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__003_problem.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:2 — Problem"
-line_start: 84649
-line_end: 84657
+line_start: 84909
+line_end: 84917
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,6 +44,6 @@ Without a named publication-unit stability discipline:
 1. teams repair local wording when the real defect is whole-unit interpretation instability;
 2. teams open whole-unit stabilization when the real defect is still one overloaded local lexical head;
 3. teams keep thickening a publication-unit repair when the active problem situation is already bounded comparison;
-4. teams mistake note, sheet, table, or screen language for different publication unit under review kinds when the real publication unit under review is still one publication unit in different presentation forms;
-5. teams over-attribute engineering-process, approval, or rollout claim or effect to a text that never honestly became that kind of unit.
+4. teams mistake note, sheet, table, or screen labels for different kinds of publication unit when they name different presentation forms of one unit;
+5. teams infer an engineering-process, approval, or rollout claim or effect that the text does not support.
 

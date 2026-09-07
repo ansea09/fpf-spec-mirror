@@ -6,12 +6,12 @@ section_id: "B.1.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__015_relations.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:9 — Relations"
-line_start: 37434
-line_end: 37441
+line_start: 37449
+line_end: 37456
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -22,7 +22,7 @@ dependencies:
   - "A.3.4"
   - "B.1"
   - "B.1.6"
-  - "B.2-family"
+  - "B.2"
   - "B.2.P"
   - "C.13"
   - "C.2.1"
@@ -39,6 +39,6 @@ keywords:
 - Builds on `B.1`, `A.14`, and `C.13` for part-whole, phase, and constructive grounding discipline.
 - Coordinates with `C.2.1` for exact episteme identities and independently obtaining edition relations; with `A.3.1`, `A.3.2`, `A.15.2`, and `A.15.1` for method, method description, work plan, dated work occurrence, and exact Work-temporal relations.
 - Coordinates with `B.1.6` for work-resource aggregation.
-- Coordinates with `A.3.4` for transformation. When whole reidentification or emergence-family wording is current, `B.2.P` tests the problem and the relevant B.2-family pattern defines or constrains the recovered claim.
+- Coordinates with `A.3.4` for transformation. Use `B.2` directly for a clear whole-reidentification question; use `B.2.P` first only when emergence-family wording hides the claim kind. The relevant subject pattern defines or constrains the recovered claim.
 - Coordinates with `C.27` for temporal-claim adequacy. When mathematical expression is selected, `C.29` tests lens-use adequacy, `E.18` defines the selected transformation-flow structure, and `E.18.2` defines its mathematical description.
 

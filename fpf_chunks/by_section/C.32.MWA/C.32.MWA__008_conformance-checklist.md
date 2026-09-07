@@ -6,12 +6,12 @@ section_id: "C.32.MWA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__008_conformance-checklist.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:7 — Conformance Checklist"
-line_start: 65695
-line_end: 65711
+line_start: 65924
+line_end: 65940
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -44,7 +44,7 @@ keywords:
 | **CC-MWA-4 — Candidate difference** | Alternatives differ by decision use or unlike-case failure, not merely wording or picture layout; when NQD is current, novelty, use-value, and diversity remain distinct. |
 | **CC-MWA-5 — Relation recovery** | Every relation used in the answer is stated by value and supported through its defining or constraining pattern when material. Order is not overlap; overlap is not parthood; co-use is not Method composition. |
 | **CC-MWA-6 — Practice-description separation** | Practice wholes and relations remain distinct from descriptions, models, views, and coarse-graining; important preserved and lost distinctions are stated. |
-| **CC-MWA-7 — Whole reidentification** | A Method, Work, System, Discipline, or selected structure is reidentified when the old whole cannot carry the claim. |
+| **CC-MWA-7 — Whole reidentification** | A Method, Work, System, or Discipline whole is reidentified when the old whole cannot carry the claim; a selected structure is reidentified under A.22 when the claim requires a different selected structure. |
 | **CC-MWA-8 — Conflict and moved burden** | The main conflict is named and every claimed local improvement states any material residual or burden moved elsewhere. |
 | **CC-MWA-9 — Conditional product branch** | The four product arrangements are compared when product identity is current and omitted when it is not; the comparison itself selects no product. |
 | **CC-MWA-10 — Deliberate/distributed distinction** | Project choice and intervention remain distinct from cultural generation, transmission, recognition, selection, retention, and loss. |

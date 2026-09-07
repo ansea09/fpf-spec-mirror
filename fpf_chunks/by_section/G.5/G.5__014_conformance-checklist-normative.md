@@ -6,12 +6,12 @@ section_id: "G.5:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__014_conformance-checklist-normative.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:7 — Conformance Checklist (normative)"
-line_start: 104172
-line_end: 104227
+line_start: 104450
+line_end: 104505
 dependencies:
   - "C.11"
   - "C.18"
@@ -62,7 +62,7 @@ keywords:
 | `CC‑G5.1`       | Every `MethodFamily` **SHALL** declare an `EligibilityStandardRef` using CHR and CAL terms (typed; edition‑pinned where applicable). Standards **SHALL NOT** rely on tool‑specific keywords.  |
 | `CC-G5.2`       | Selection **SHALL** be a pure function of `TaskSignatureRef`, exact method- and generator-family row refs, any conditionally current exact `TaskMapRef`, and pinned policy or edition refs; side effects are limited to emitting DRR and SCR pins, telemetry triggers, and RSCR triggers (no hidden mutation of constraint-bearing spec refs). |
 | `CC‑G5.3`       | **Delegated (ID‑continuity) plus F.9 use boundary.** When a selector use relates expressions with distinct F.17 source-local meanings, it **MUST** resolve the exact cells, an obtaining F.9 Bridge, a separate C.2.1 `<u,d,r,t,polarity>` proposition, and the matching A.10 or B.3 reliance branch. G.Core crossing visibility and penalty-assignment semantics still apply. **Delegation targets:** `CC‑GCORE‑CROSS‑1`, `CC‑GCORE‑PEN‑1`. Pins alone **MUST NOT** establish the Bridge, use, reliance, or actual selector application. |
-| `CC‑G5.4`       | **Default rule for** `DefaultId.GammaFoldForR_eff`. The selector **MUST** default to the weakest‑link rule for `R_eff` and record contributors in SCR; it **MAY** use an alternative Γ‑fold only when provided by an explicitly pinned policy or profile with proof obligations satisfied (monotonicity; boundary behavior). |
+| `CC‑G5.4` | **Governing rule for** `DefaultId.GammaFoldForR_eff`. An R or R_eff composition **MUST** use a justified receiving quantity, input meanings and scales, dependency model and operation under B.3/C.2.2; cite contributors and pin the actual model/policy. Neither a universal minimum/maximum or best-source cap, an ungrounded F-to-R conversion, nor monotonicity and boundedness alone supplies that model. Without a justified common model, retain separate support and a bounded synthesis. If an actual G.4 gate requires the missing quantity, follow that clause's unknown behavior; a calculated threshold failure remains a failure. G.4 owns acceptance conditions and thresholds. Ordinary selection with no assurance condition remains usable without a new R calculation. |
 | `CC-G5.5`       | Ordinal scales **MUST NOT** be averaged or subtracted; any aggregation or comparison must respect CHR scale typing and admissibility constraints, including CSLC where applicable. |
 | `CC‑G5.6`       | Method and generator family identities **SHALL** be published to UTS with the required naming discipline (twin labels where applicable; deprecations follow lexical continuity rules). *(Core conformance applies; `G.5` adds the registry‑specific publication obligation.)* |
 | `CC‑G5.7`       | **Conditional.** If `G.5:Ext.EELog` is present, exploration **MUST** be budgeted under the pinned exploration and exploitation log policy; probe outcomes **MUST** feed refresh through canonical RSCR trigger kinds. |

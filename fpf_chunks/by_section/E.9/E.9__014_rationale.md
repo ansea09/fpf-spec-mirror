@@ -6,12 +6,12 @@ section_id: "E.9:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__014_rationale.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:10 — Rationale"
-line_start: 74390
-line_end: 74408
+line_start: 74622
+line_end: 74640
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -38,7 +38,7 @@ keywords:
 
 ### E.9:10 - Rationale
 FPF evolves through explicit, reviewable decisions rather than silent edits. The DRR is the minimum structured argument and, when several loci must move together, a temporary convergence record. This keeps P-10 Open-Ended Evolution compatible with P-1 Cognitive Elegance and P-2 Didactic Primacy. Exact method, work, result, episteme, assessment, and authority distinctions remain available when a current claim depends on them; they do not precede or replace the readable decision.
-E.9 sets a **floor, not a ceiling**: every conforming DRR must make
+E.9 sets a **floor, not a ceiling**: every nontrivial conforming DRR must make
 Problem‑frame / Decision / Rationale / Consequences recoverable, but it
 may carry richer substantive coordination content when that prevents
 shadow documents or semantic invention during distribution into Core patterns and selected non-pattern FPF kind-reference pairs. The same floor also requires the decision-inspection content that

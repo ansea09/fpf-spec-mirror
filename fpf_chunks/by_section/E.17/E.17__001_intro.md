@@ -6,12 +6,12 @@ section_id: "E.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__001_intro.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:intro — Intro"
-line_start: 82777
-line_end: 82821
+line_start: 83042
+line_end: 83086
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -49,7 +49,7 @@ keywords:
 
 **At a glance.** Use `E.17` when one already accepted engineering account must be published in one or more readable faces for different readers without changing its claims.
 
-**Use this when.** The source account is already accepted for the present work, but a reader needs a plain explanation, technical card, interoperability card, or evidence-facing lane. The publication task is to expose the same account for that reader, not to create a new engineering claim, perform work, pass a gate, or establish assurance by presentation.
+**Use this when.** The source account is already accepted for the present work, but a reader needs a plain explanation, technical card, interoperability card, or evidence-facing lane. The publication task is to expose the same account for that reader, not to create a new engineering claim or establish performed Work, gate passage, or assurance by presentation.
 
 **What goes wrong if missed.** A readable face can silently add, widen, or hide claims. The opposite failure is to make every publication start with a four-face kit, a newly authored viewpoint or bundle, and an assurance dossier even when one small face would answer the reader's question.
 
@@ -79,7 +79,7 @@ keywords:
 
 At the first screen, keep only the current source, named reader/use, minimum useful face set, visible omissions, and return to source.
 
-**Not this pattern when.** Use `A.15.1` for a performed-work claim, `A.10` for an evidence or provenance path, `B.3` for assurance or engineering justification, `A.20`/`A.21` for constraint or gate decisions, `A.7` for carrier work, and the relevant release or authority rule when that is the actual problem. E.17 only publishes the already accepted account and keeps those downstream claims separate.
+**Not this pattern when.** Use `A.15.1` for a performed-work claim, `A.10` for an evidence or provenance path, `B.3` for assurance or engineering justification, `A.20`/`A.21` for constraint or gate decisions, `A.7` when carrier, publication, and Work are conflated, and the relevant release or authority rule when that is the actual problem. E.17 only publishes the already accepted account and keeps those downstream claims separate.
 
 > **Tech-name:** `MultiViewPublicationKit` (**MVPK**)
 

@@ -6,12 +6,12 @@ section_id: "E.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__005_solution.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:4 — Solution"
-line_start: 70117
-line_end: 70277
+line_start: 70348
+line_end: 70508
 dependencies:
   - "C.33"
   - "C.34"
@@ -119,7 +119,7 @@ When the direct subject is independently used or changed, keep it separate and p
 One presentation carrier may expose several managed products without merging their direct subjects. Each constituent keeps its own identity, edition or state, form, access, later-change and retirement rules, and any separately established maintenance relation; the outer navigation names the exact constituents and stays neutral. A result reused by several DPFs may therefore be managed as an ecosystem companion or service product. Shared use does not make it a parent DPF. Open another DPF only when its own field-boundary assessment finds recurring practitioner problems, constructive Methods, an independently useful first cut, evidence practice, and its own edition and change boundary.
 
 
-When *programme* is used, start with what actually continues. An inquiry programme may be managed as a continuing programme or service product, but neither label says what persists. If a subject pattern admits the programme as a System or another exact arrangement, name it. Otherwise name the current programme-description episteme and any provider System, maintenance relation, accepted commitment, or service state that independently obtains. Bounded inquiry projects remain separate Work occurrences, and their results remain separate epistemes. A maintained inquiry evidence package is its own editioned episteme. The management boundary may coordinate these subjects and relations, but it does not turn them into one indefinitely continuing `U.Work` or one generic Product. If the persisting arrangement is still unclear, return that exact architecture question.
+When *programme* is used, start with what actually continues. An inquiry programme may be managed as a continuing programme or service product, but neither label says what persists. If a subject pattern admits the programme as a System or another exact arrangement, name it. Otherwise name the current programme-description episteme and any provider System, maintenance relation, accepted commitment, or service state that independently obtains. Bounded inquiry projects require independent A.15.1 admission as separate Work occurrences, and their results remain separate epistemes. A maintained inquiry evidence package is its own editioned episteme. The management boundary may coordinate these subjects and relations, but it does not turn them into one indefinitely continuing `U.Work` or one generic Product. If the persisting arrangement is still unclear, return that exact architecture question.
 
 DRRs, build manifests, quality runs, digests, logs, and campaign state remain development or process evidence by default. They become reader products only when a selected public use gives a direct subject its own product identity and publication or availability route.
 
@@ -139,7 +139,7 @@ Say **“this edition belongs to this product series.”** A later edition joins
 
 An admitted edition continues to belong historically when it becomes superseded, unavailable, non-current, or retired while the same product series continues. Those states do not end the occurrence. If the product series ends or its identity rule identifies another product series, belonging to the old series ends and remains a past fact. Another product series must admit the edition through its own decision and a new occurrence. If review shows that the edition never satisfied the admission rule, correct the false claim; no valid occurrence existed. Do not remove and re-admit the same edition merely because availability or currentness changed. The same edition and continuing product series keep one occurrence rather than starting another.
 
-A **DPF Suite** is a continuing collection of DPF product series. A separately constituted DPF Suite Reference product series can also belong after its own inclusion decision. The Suite rule states which product series may belong; individual editions do not. The Suite begins when a constitution decision identifies the ecosystem purpose and intended use, inclusion and removal rules, a reidentification rule, later-review and retirement conditions, and includes at least one actual DPF product series. Any maintenance relation or future maintenance Work must be established separately. The decision Work and record remain distinct from the Suite and the first inclusion occurrence.
+A **DPF Suite** is a continuing collection of DPF product series. A separately constituted DPF Suite Reference product series can also belong after its own inclusion decision. The Suite rule states which product series may belong; individual editions do not belong directly to the Suite. The Suite begins when a constitution decision identifies the ecosystem purpose and intended use, inclusion and removal rules, a reidentification rule, later-review and retirement conditions, and includes at least one actual DPF product series. Any maintenance relation or future maintenance Work must be established separately. The decision Work and record remain distinct from the Suite and the first inclusion occurrence.
 
 
 The same Suite continues while its ecosystem purpose, rule for which product series may belong, inclusion and removal rules, and identity conditions remain within the declared evolution rule. Adding or removing a product series normally preserves it. Starting, changing, transferring, or ending a maintenance arrangement does not by itself reidentify the Suite. Changing a DPF or Reference edition, publication, availability fact, Reference answer, or configuration description does not by itself reidentify the Suite. Changing an identity anchor outside the rule identifies another Suite.

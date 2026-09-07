@@ -6,14 +6,15 @@ section_id: "E.17.ID.CR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__008_conformance-checklist.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:7 — Conformance Checklist"
-line_start: 84515
-line_end: 84557
+line_start: 84775
+line_end: 84817
 dependencies:
   - "A.15"
+  - "A.15.2"
   - "A.15.4"
   - "A.16.0"
   - "A.20"
@@ -49,7 +50,7 @@ Use ID.CR-Core for ordinary comparison notes. Conditional rows apply only when t
 #### E.17.ID.CR:7.1 - ID.CR-Core ordinary checks
 
 1. **CC-ID-1 - Bounded comparative review unit is explicit.**
-   The pattern makes clear that the comparison unit is a bounded comparative review unit rather than the whole review or decision work or a hidden mental act.
+   The pattern distinguishes the bounded comparative review unit from the surrounding review or decision work.
 2. **CC-ID-2 - Source references and comparison criterion are explicit.**
    A reviewer can see what already-fixed source episteme or source publication is being interpreted and what declared comparison criterion or contrast is carrying the lift.
 3. **CC-ID-3 - The lift stays bounded.**

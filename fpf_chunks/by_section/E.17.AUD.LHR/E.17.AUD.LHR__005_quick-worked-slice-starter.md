@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:4"
 section_title: "Quick worked-slice starter"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__005_quick-worked-slice-starter.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:4 — Quick worked-slice starter"
-line_start: 85048
-line_end: 85059
+line_start: 85308
+line_end: 85319
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ If you need one ordinary entry sentence fast, start from one of these:
 
 | Working moment | Safe starter sentence |
 | --- | --- |
-| Architecture note | `This note is about the proposed service boundary as one review publication unit, not yet about rollout work.` |
+| Architecture note | `This note is one review publication unit about the proposed service boundary, not yet about rollout work.` |
 | Operations review | `This review unit is about the incident episode and its timing contrast, not yet about action approval.` |
 | Semio-heavy paragraph | `This paragraph is about the comparative review unit, not the wider architecture strategy.` |
 

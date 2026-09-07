@@ -6,12 +6,12 @@ section_id: "C.32.MWA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__002_problem-frame.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:1 — Problem frame"
-line_start: 65574
-line_end: 65595
+line_start: 65803
+line_end: 65824
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -52,7 +52,7 @@ The primary working reader is an architect, methodologist, practice designer, or
 - Use base `C.32` when the need is a palette of architecture candidates for one already grounded architecture question, rather than one coherent practice-architecture answer from several non-isomorphic structures.
 - Use `C.30.ILC` and `C.32.MLAO` when an already recovered cross-scope conflict or residual is the main subject.
 - Do not use this pattern for one clear Method decomposition, one procedure order, a carrier index, a universal level stack, a mandatory record schema, domain filling, product-roster generation, or lifecycle design.
-- This Method can supply evidence for a framework or project decision. It does not make that decision, establish a product, publish a description, or make a future practice actual.
+- A practitioner can use this Method to prepare evidence for a framework or project decision. Making that decision, establishing a product, publishing a description, or realizing a future practice remains separate work.
 
 The result is a **practice-architecture synthesis** for the named use. That phrase names an ordinary working description, not a new root kind. The practice, its Methods and Work, participating Systems, and its description remain different things.
 

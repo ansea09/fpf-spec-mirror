@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.1.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.1 — Vision & Mission: “Operating System for Thought”"
-line_start: 69463
-line_end: 69523
+line_start: 69694
+line_end: 69754
 dependencies:
   - "E.2"
 keywords:
@@ -63,7 +63,7 @@ FPF delivers a **generative scaffold** realised as:
    * **Cross‑Scale Coherence** — the same algebra binds parts to wholes at any level;
    * **Didactic Transparency** — each element exposes its own reasoning path.
 
-### E.1:5 - ** Conformance Checklist**
+### E.1:5 - Conformance Checklist
 
 | ID              | Requirement                                                                                                                                          | Rationale                                       |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
@@ -78,7 +78,7 @@ FPF delivers a **generative scaffold** realised as:
 *Trade‑offs* — Authors face an initial learning curve and must trace every rule to an invariant; disciplined traceability is required to prevent variant sprawl.
 
 ### E.1:7 - Relations & Precedence
-Pattern E.1 governs **E.2 Eleven Pillars** and the Guard‑Rail set **A.5–A.8**; any later pattern that conflicts with E.1 **MUST** be revised via a DRR before entering the Canon.
+Pattern E.1 governs **E.2 Eleven Pillars** and the Guard‑Rail set **E.5**; any later pattern that conflicts with E.1 **MUST** be revised via a DRR before entering the Canon.
 
 *“Purpose without a scaffold is wishful thinking; a scaffold without purpose is cargo‑cult—FPF welds the two into disciplined imagination.”*
 

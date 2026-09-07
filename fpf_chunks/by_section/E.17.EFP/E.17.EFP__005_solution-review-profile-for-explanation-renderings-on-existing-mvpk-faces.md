@@ -6,12 +6,12 @@ section_id: "E.17.EFP:4"
 section_title: "Solution — review profile for explanation renderings on existing MVPK faces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__005_solution-review-profile-for-explanation-renderings-on-existing-mvpk-faces.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:4 — Solution — review profile for explanation renderings on existing MVPK faces"
-line_start: 83458
-line_end: 83696
+line_start: 83723
+line_end: 83961
 dependencies:
   - "A.10"
   - "A.15"
@@ -48,7 +48,7 @@ keywords:
 
 #### E.17.EFP:4.1.a - Profile, episteme, and published-form distinction
 
-`ExplanationFaithfulnessProfile` is a **review profile**. Its cases concern passive publication forms or representations of an exact `U.Episteme`; the profile itself does not act, decide, publish, constitute an episteme, or make a source-to-target relation obtain.
+`ExplanationFaithfulnessProfile` is a **review profile**. Its cases concern passive publication forms or representations of an exact `U.Episteme`.
 
 The distinction is executable: same source ClaimGraph means a form or representation of that source edition; changed claim content means another target episteme under C.2.1 plus an exact source-to-target relation shown to obtain under its applicable test. An EFP class applies only after that branch and cannot legalize a hidden claim change.
 
@@ -166,7 +166,7 @@ This profile classifies explanation use on existing faces; it does not describe 
 
 When reader fit materially changes the explanation class, bounded use, blocked use, or reopen condition, make only the distinction needed for that change. A familiar audience and static note may need no separate reader-model field. A contrastive or interactive case may need one or more of `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `boundedReaderUse`, or `overreadRisk`.
 
-These names are optional prompts, not a five-field publication block. They create no source relation, permission, evidence relation, or authority; they only expose the reader-fit difference that changes the present use.
+These names are optional prompts, not a five-field publication block. They only expose the reader-fit difference that changes the present use.
 
 #### E.17.EFP:4.3 - Explanation class set
 
@@ -257,7 +257,7 @@ A published form states material omission, reordering, simplification, or connec
 When a concrete reader-fit difference is load-bearing, expose only enough of its bounded use or overread risk to prevent the actual didactic or contrastive form from being mistaken for assurance, policy, or gate guidance.
 
 ##### E.17.EFP:4.5.c. Downstream-use and boundary rule
-This profile stays explanation-facing and episteme-facing. It does not decide bridge stance, retargeting, action selection, executable docking, gate-bearing claims or effects, assurance, engineering justification, or work enactment. If a case starts carrying one bounded comparative review case, rival interpretations, bridge-mediated comparison load, world consequences, work or reliance consequences, gate consequences, assurance, or engineering justification, apply the neighboring FPF pattern, then name the project-side object or record that carries the claim or effect and its FPF kind (`E.17.ID.CR`, `F.9.1`, `B.5.2`, `A.6.4`, `A.15`, `A.15.4`, `B.3`, `A.20`, `A.21`).
+This profile stays explanation-facing and episteme-facing. It does not decide bridge stance, retargeting, action selection, executable docking, gate-bearing claims or effects, assurance, engineering justification, or work enactment. If a case starts carrying one bounded comparative review case, rival interpretations, bridge-mediated comparison load, world consequences, work or reliance consequences, gate consequences, assurance, or engineering justification, apply the neighboring FPF pattern, then name the project-side object or record that carries the claim or effect and its FPF kind. Relevant patterns include `E.17.ID.CR`, `F.9` for an obtaining Bridge and its bounded-use claim, `F.9.1` for an optional stance note, `B.5.2`, `A.6.4`, `A.15`, `A.15.1`, `A.15.4` only while an appearance hides the needed work or reliance prerequisite, `B.3`, `A.20`, and `A.21`.
 
 Interpretant-side fields do not weaken that boundary rule. They only bound reader use; they do not authorize unsupported downstream guidance.
 
@@ -275,5 +275,5 @@ A rendering reviewed under this profile keeps the following explicit:
 - it does **not** replace bridge discipline, retargeting discipline, or world or gate boundary discipline;
 - it does **not** let `publication face/form` and `interop publication form` collapse into one undifferentiated explanation channel.
 
-If explanation text carries a changed ClaimGraph, stop class review, identify the exact target episteme and make the direct source-to-target relation obtain. Resume EFP only for a publication form of that target when bounded explanation use remains separately material.
+If explanation text carries a changed ClaimGraph, stop class review, identify the exact target episteme and establish that the direct source-to-target relation obtains. Resume EFP only for a publication form of that target when bounded explanation use remains separately material.
 

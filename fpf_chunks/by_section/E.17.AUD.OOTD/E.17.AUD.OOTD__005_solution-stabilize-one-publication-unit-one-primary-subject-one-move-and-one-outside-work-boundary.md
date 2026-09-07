@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:4"
 section_title: "Solution - stabilize one publication unit, one primary subject, one move, and one outside-work boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__005_solution-stabilize-one-publication-unit-one-primary-subject-one-move-and-one-outside-work-boundary.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:4 — Solution - stabilize one publication unit, one primary subject, one move, and one outside-work boundary"
-line_start: 85318
-line_end: 85458
+line_start: 85578
+line_end: 85718
 dependencies:
   - "A.10"
   - "A.15"
@@ -143,7 +143,7 @@ When the sentence is hard to write or a reviewer suspects a hidden shift, use th
 These prompts guide attention; they are not six publication rows. Discard the diagnostic once it has yielded the clear ordinary declaration.
 
 If local repair is still enough, go back to `E.17.AUD.LHR` (`Local Head Restoration`) instead of adding more structure here.
-If the unit remains one publication unit but neighboring-boundary claim-kind, misuse risk, or cross-interpretation ambiguity becomes claim-bearing, use the heavier extension as the assurance section.
+If the unit remains one publication unit but a claim or downstream use depends on the neighboring-boundary claim kind, misuse risk, or cross-interpretation ambiguity, use the heavier extension as the assurance section.
 If the same unit is already stable as one primary subject, one carried move, and one outside-work boundary, and the remaining question is one bounded comparative review move over already available source epistemes or publications, apply `E.17.ID.CR` rather than thickening the declaration.
 If the unit cannot stay stable even after local repair, reopen the unit or apply the neighboring pattern that answers the exact remaining question; do not stack more fields onto the declaration.
 

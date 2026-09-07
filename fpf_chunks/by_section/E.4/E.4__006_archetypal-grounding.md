@@ -6,12 +6,12 @@ section_id: "E.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__006_archetypal-grounding.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:5 — Archetypal Grounding"
-line_start: 70278
-line_end: 70307
+line_start: 70509
+line_end: 70538
 dependencies:
   - "C.33"
   - "C.34"
@@ -67,7 +67,7 @@ Mini-example:
 
 Show: A Codex-process local practice framework may depend on FPF Core and selected architecture-domain patterns. Its handoff patterns, prelanding patterns, and process runbooks are local framework material. A Core-amendment decision under `E.9` remains the route for changing FPF Core.
 
-Show: A generated relation graph over pattern names can help inspect missing relation assertions. After `C.35` admits the carrier, state each supported relation directly. Open a reusable `E.4.PFR` row only when a named maintenance consumer requires it.
+Show: A generated relation graph over pattern names can help inspect missing relation assertions. After `C.35` admits the exact generated result for its intended architecture use, state each supported relation directly. Open a reusable `E.4.PFR` row only when a named maintenance consumer requires it.
 
 Show: In the cucumber DPF, the Readme, table of contents, pattern collection, and coverage account share one framework edition, reader use, access route, and change rule, so they remain publication units of one product. A greenhouse-calibration source registry has its own edition rule and is reused by another crop DPF, so its current registry edition is a separate episteme. One web carrier may expose both while preserving their exact identities and direct relations.
 

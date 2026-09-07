@@ -6,12 +6,12 @@ section_id: "E.13:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__009_conformance-checklist.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
   - "E.13:7 — Conformance Checklist"
-line_start: 80560
-line_end: 80571
+line_start: 80824
+line_end: 80835
 dependencies:
   - "A.10"
   - "A.21"
@@ -47,6 +47,6 @@ keywords:
 | `CC-E13-3` | If a proxy improved, the repair asks what got worse and names checked loci or protected qualities. |
 | `CC-E13-4` | A minimally viable value slice shows the intended value for the declared use, or the value claim is lowered. |
 | `CC-E13-5` | The repair does not treat evaluation values, source counts, review praise, all-`5` posture, assurance level, or release status as value by itself. |
-| `CC-E13-6` | Stronger claims are governed by their direct patterns: measurement by `C.16`; quality evaluation by `E.21`, `E.9.DA`, or `E.2.DA`; assurance by `B.3`; gate passage by `A.21`; decision authority by `C.11`; and value and proxy alignment here. |
+| `CC-E13-6` | Stronger claims are governed by their direct patterns: measurement by `C.16`; quality evaluation by `E.21`, `E.9.DA`, or `E.2.DA`; assurance by `B.3`; gate passage by `A.21`; choice among options by `C.11`; decision authority by the applicable domain rule; and value and proxy alignment here. |
 | `CC-E13-7` | The repair changes value movement, proxy use, protected qualities, claim split, or stop condition; it does not close by adding proof apparatus alone. |
 

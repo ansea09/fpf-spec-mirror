@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__012_sota-echoing.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:11 — SoTA-Echoing"
-line_start: 65262
-line_end: 65275
+line_start: 65491
+line_end: 65504
 dependencies:
   - "A.10"
   - "A.12"
@@ -46,7 +46,7 @@ keywords:
 
 ### C.32.CONWAY:11 - SoTA-Echoing
 
-These rows document transfers from source practice into C.32.CONWAY. Each row states which field, repair row, or boundary the draft sets or revises from the source. The source family supports architecture practice; it does not decide actor identity or make a relation obtain.
+These rows document transfers from source practice into C.32.CONWAY. Each row names the field, repair row, or boundary that uses the source's contribution. The source family supports architecture practice; it does not decide actor identity or make a relation obtain.
 
 | Source to inspect | Why this source is load-bearing here | Transfer into C.32.CONWAY | Concrete C.32.CONWAY mutation | Blocked overread |
 |---|---|---|---|---|

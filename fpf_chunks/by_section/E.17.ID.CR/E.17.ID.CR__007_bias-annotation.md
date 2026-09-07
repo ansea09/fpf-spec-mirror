@@ -6,14 +6,15 @@ section_id: "E.17.ID.CR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__007_bias-annotation.md"
-commit_sha: "9208be543f1ede0f53eb24604bf97fd2f121dd24"
+commit_sha: "d514a6fcb7908af8e773ed054b9582394f755caf"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:6 — Bias-Annotation"
-line_start: 84506
-line_end: 84514
+line_start: 84767
+line_end: 84774
 dependencies:
   - "A.15"
+  - "A.15.2"
   - "A.15.4"
   - "A.16.0"
   - "A.20"
@@ -40,7 +41,6 @@ keywords:
 
 ### E.17.ID.CR:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**.
 Scope: bounded comparative review units governed under `ComparativeReviewUnit` inside `InterpretationDiscipline`, not all review, all publication, or all decision work.
 
 This pattern intentionally biases toward one modest object: a bounded comparison over already available source epistemes or source publications. Its mitigation is positive before it is prohibitive: recover the source references, shared review frame, bounded lift, blocked downstream claim or effect, and boundary trigger. When the boundary trigger fires, name the crossed claim and use the governing pattern for that claim rather than extending this pattern by another warning list.
