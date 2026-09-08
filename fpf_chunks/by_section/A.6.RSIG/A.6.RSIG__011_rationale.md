@@ -6,7 +6,7 @@ section_id: "A.6.RSIG:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__011_rationale.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:10 — Rationale"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.6.RSIG:10 - Rationale
 
-This pattern lands in the `A.6` cluster because the entry load is still one
+This pattern belongs in the `A.6` cluster because the entry load is still one
 description/signature entry load: a reader is recovering what one description is
 for, what it applies to, and which defining `U.Episteme` to inspect first. That
 sits closer to signature and boundary discipline than to pattern-language

@@ -6,7 +6,7 @@ section_id: "I.2"
 section_title: ".6 - Same-entity rewrite, explanation, and comparative reading"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__007_6-same-entity-rewrite-explanation-and-comparative-reading.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2 — .6 - Same-entity rewrite, explanation, and comparative reading"
@@ -35,7 +35,7 @@ keywords:
   `E.17.AUD.OOTD` for `PublicationUnit` stability.
 - **Tempting wrong pattern:** explanation-as-new-object or repair-as-second-rule
   track.
-- **Disambiguating fact:** the same-EntityOfConcern rewrite/comparative-reading case stays the same; only rendering,
+- **Disambiguating fact:** the EntityOfConcern remains the same; only rendering,
   reading posture, or explanatory framing changes.
 - **Recognition repair or entry-load reclassification:** move toward same-entity
   rewrite or explanation-facing rendering while rejecting second-object drift.

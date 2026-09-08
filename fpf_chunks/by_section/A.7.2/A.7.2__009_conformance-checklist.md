@@ -6,7 +6,7 @@ section_id: "A.7.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__009_conformance-checklist.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:7 — Conformance Checklist"
@@ -20,6 +20,7 @@ dependencies:
   - "C.2.1"
   - "C.29"
   - "E.17"
+  - "E.24.PUB"
   - "G.11"
 keywords:
   - "actual source-use relations"
@@ -37,7 +38,7 @@ keywords:
 |---|---|
 | `CC-A7.2-1` | The conflict names exact receiving claims, practical consequences, contexts, scopes, and current editions. |
 | `CC-A7.2-2` | Vocabulary difference or unlike source function alone does not trigger reconciliation. |
-| `CC-A7.2-3` | The reader, `U.MethodDescription` episteme, described `U.Method`, actual performer identified through A.13, independently admitted dated reconciliation `U.Work`, source uses, and returned result are distinct. A separately declared assignment species, obtaining occurrence, and F.6 check appear only when the case must also identify the assignment under which the Work was performed. A short result may omit unused identifiers without presuming those facts. |
+| `CC-A7.2-3` | The reader, `U.MethodDescription` episteme, described `U.Method`, actual performer identified through A.13, independently admitted dated reconciliation `U.Work`, source uses, and returned result are distinct. For a precise actual-Work claim, retain the separately declared assignment species and obtaining occurrence used by A.13; add the F.6 check only when the case must also identify the assignment under which the Work was performed. A short result may omit unused identifiers without presuming those facts. |
 | `CC-A7.2-4` | Every load-bearing common claim is cited from `A.7.CP` through an actual reasoning-basis occurrence. |
 | `CC-A7.2-5` | Every source-use occurrence has the three exact participants, source and receiving-claim editions, function, claim scope, and maximal continuous actual-use interval. It includes only content-slice, model-use, currentness, evidence, disposition, blocked-overread, or claim-change qualifiers actually used or asserted in this reconciliation. |
 | `CC-A7.2-6` | Evidence, publication, formal semantics, and currentness remain with subject patterns. |

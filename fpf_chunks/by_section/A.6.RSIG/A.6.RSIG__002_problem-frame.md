@@ -6,7 +6,7 @@ section_id: "A.6.RSIG:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__002_problem-frame.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:1 — Problem frame"
@@ -30,7 +30,7 @@ what description is seen, where it is encountered, what it applies to, what
 excludes it, which `definitionEpistemeRef` identifies its defining `U.Episteme`, and which nearby reading or
 wrong defining `U.Episteme` must be rejected.
 
-**Plain recognition line.** Do not let the first wording you see define itself; ask which defining `U.Episteme` gives it meaning and which nearby reading it rejects.
+**Plain recognition line.** Find the defining `U.Episteme` for the encountered description and name the plausible nearby reading to reject.
 
 Use this pattern when the live entry load is still first-contact recognition over
 one encountered description carrier or projection.

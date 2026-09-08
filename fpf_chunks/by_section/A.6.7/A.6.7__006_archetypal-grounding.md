@@ -6,7 +6,7 @@ section_id: "A.6.7:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__006_archetypal-grounding.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:5 — Archetypal Grounding"
@@ -17,7 +17,9 @@ dependencies:
   - "A.6.1"
   - "A.6.5"
   - "E.10"
+  - "E.17"
   - "E.18"
+  - "E.18.1"
   - "E.19"
   - "E.8"
   - "G.10"
@@ -41,5 +43,5 @@ A suite is an archetypal “passport” or “capability bundle descriptor”:
 
 * It answers **what mechanisms exist in the bundle** and **what shared invariants** make their composition lawful.
 * It provides **shared governing spec anchors** (pins) that downstream planning and work must cite.
-* It remains descriptive: it does not execute, it does not contain run-time outputs, and it does not replace the E.18 subgraph that actually connects nodes by `Uses` and manages crossings.
+* It remains descriptive: it does not contain run-time outputs, and it does not replace the transformation-flow structure selected under E.18 for composition and crossing visibility.
 

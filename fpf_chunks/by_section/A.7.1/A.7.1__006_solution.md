@@ -6,7 +6,7 @@ section_id: "A.7.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__006_solution.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:4 — Solution"
@@ -32,7 +32,7 @@ keywords:
 
 #### A.7.1:4.1 - Retain the complete application boundary
 
-This A.7.1 `U.MethodDescription` episteme narrows the method claims stated by `C.19.2` for consequence-guided ontology analysis. When applying A.7.1, retain the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, and separation among the MethodDescription episteme, described Method, reader, A.13-qualified performing System, independently admitted dated Work, and result. Add a separately declared assignment species, obtaining occurrence, and F.6 attribution only when the receiving analysis use expressly consumes that precise assignment-bound attribution. A missing or failed F.6 relation leaves the Work intact. This wording adds no relation occurrence between the described Methods.
+This A.7.1 `U.MethodDescription` episteme narrows the method claims stated by `C.19.2` for consequence-guided ontology analysis. When applying A.7.1, retain the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, and separation among the MethodDescription episteme, described Method, reader, A.13-qualified performing System, independently admitted dated Work, and result. For an actual-Work claim, retain the separately declared assignment species and obtaining occurrence used by A.13; add F.6 attribution through that same occurrence only when the receiving analysis use expressly consumes that precise assignment-bound attribution. A missing or failed F.6 relation leaves the Work intact. This wording adds no relation occurrence between the described Methods.
 
 The normal short path uses the already selected A.7.1 analysis method as its one current apparatus. It begins from one exact engineering subject, exact subject predicate, and the pattern description locating that predicate; subject and predicate are inputs and constraints, not apparatus candidates. Use `C.18` only when the team must generate or reframe alternative analysis methods, models, formalisms, or other direct-kind apparatuses for the same declared use. Use `C.11` only when two or more already-available apparatuses are eligible for that same use and guarantee, making a real local-choice question current. After selection, use the planning Method described in `A.15.2` and identify dated Work under the predicate defined in `A.15.1`; `C.24` enters only for tool-call enactment planning.
 
@@ -77,5 +77,5 @@ Create a durable ontology result only when reuse, dispute, high consequence, aut
 
 Reopen on a consequential counterexample, changed guarantee, failed use, projection loss, changed occurrence identity, or a newly admitted subject-pattern distinction. Reopen only the affected engineering and ontology decisions.
 
-A short domain, wording, typed-account, or constructive-ground presentation may remain an ordinary explanation or, when persistence matters, a C.2.1 episteme about the question and proposed alternatives. It is not a CGUS, method, plan, Work occurrence, or result. A reusable CGUS requires one identified A.22 structure, local locus bindings, selected relations and applied constraints, and at least two potential continuations; its present-case continuation results remain separate.
+A short domain, wording, typed-account, or constructive-ground presentation may remain an ordinary explanation or, when persistence matters, a C.2.1 episteme about the question and proposed alternatives. A reusable CGUS requires one identified A.22 structure, local locus bindings, selected relations and applied constraints, and at least two potential continuations; its present-case continuation results remain separate.
 

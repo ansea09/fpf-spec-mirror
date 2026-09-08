@@ -6,7 +6,7 @@ section_id: "A.7.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__014_relations.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:12 — Relations"
@@ -30,7 +30,7 @@ keywords:
 
 ### A.7.1:12 - Relations
 
-- **Description-level specialization:** A.7.1 narrows the method claims stated by `C.19.2`. On the ordinary one-apparatus path, the already selected A.7.1 analysis Method is the direct-kind apparatus; the engineering subject and its subject pattern remain inputs and constraints. A.7.1 retains the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, the distinct MethodDescription episteme and described Method, reader, A.13-qualified performing System, independently admitted dated Work and result, and the stop and reopen conditions. A separately declared assignment species, obtaining occurrence, and F.6 attribution enter only when the receiving use expressly consumes exact assignment-bound attribution. It retains `C.18` and `C.11` candidate and choice behavior only for alternative analysis Methods, models, formalisms, or other applicable apparatuses eligible for the same use and guarantee. This wording adds no relation occurrence between the described Methods and asserts neither `U.SubkindOf` nor a world relation.
+- **Description-level specialization:** A.7.1 narrows the method claims stated by `C.19.2`. On the ordinary one-apparatus path, the already selected A.7.1 analysis Method is the direct-kind apparatus; the engineering subject and its subject pattern remain inputs and constraints. A.7.1 retains the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, the distinct MethodDescription episteme and described Method, reader, A.13-qualified performing System, independently admitted dated Work and result, and the stop and reopen conditions. For an actual-Work claim, the separately declared assignment species and obtaining occurrence are those used by A.13; add F.6 attribution through that same occurrence only when the receiving use expressly consumes exact assignment-bound attribution. It retains `C.18` and `C.11` candidate and choice behavior only for alternative analysis Methods, models, formalisms, or other applicable apparatuses eligible for the same use and guarantee. This wording adds no relation occurrence between the described Methods and asserts neither `U.SubkindOf` nor a world relation.
 - **Consumes:** exact `A.7.CP` claim epistemes through `ClaimUsedAsReasoningBasisRelation@Context` only when the ontology-analysis work relies on them.
 - **Coordinates with:** `A.7.2` when a material cross-pattern premise conflict is current; neither method is the other's parent or source of premise truth.
 - **Returns to:** direct relation, local system-role-kind, assignment, System, state, capability, Method, Work, responsibility, evidence, temporal, structural, and domain patterns for the claim being repaired.

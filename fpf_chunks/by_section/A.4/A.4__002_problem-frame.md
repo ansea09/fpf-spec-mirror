@@ -6,13 +6,14 @@ section_id: "A.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__002_problem-frame.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:1 — Problem frame"
 line_start: 9988
 line_end: 9998
 dependencies:
+  - "B.3"
   - "B.4"
 keywords:
   - "continuous improvement"
@@ -24,12 +25,12 @@ keywords:
 ---
 
 ### A.4:1 - Problem frame
-A holon’s **blueprint** and its **lived reality** are never identical for
+A holon’s **actual condition** does not keep matching its **blueprint** for
 long.  Pumps wear out, theories meet anomalous data, workflows face
 unanticipated load.  FPF therefore requires a temporal framework that:
 
 1. Physically grounds every modification (via the Transformer Principle,
-   A 3).
+   A.3).
 2. Supports unbounded improvement cycles (**P‑10 Open‑Ended Evolution**).
 3. Works identically for physical, epistemic, operational (method, work) and future
    holon flavours.

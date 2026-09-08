@@ -6,7 +6,7 @@ section_id: "I.2"
 section_title: ".1 - Project alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__002_1-project-alignment.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2 — .1 - Project alignment"
@@ -33,8 +33,8 @@ keywords:
   and actual execution.
 - **Plausible candidate patterns:** `A.1.1`, `A.15`, `A.15.2`, `A.15.3`,
   `B.5.1`.
-- **Nearby patterns:** `F.11` for method vocabulary and work vocabulary; `F.9` for bridge
-  discipline; `F.17` for an early term sheet when vocabulary is the live
+- **Nearby patterns:** `F.11` for method vocabulary and work vocabulary; `F.9` for cross-context sense Bridges;
+  `F.17` for an early term sheet when vocabulary is the live
   stabilizing result.
 - **Tempting wrong pattern:** treat `F.17` or `E.9` as a universal first stop.
 - **Actual governing FPF pattern body or projection role:** `A.15` and its neighbors govern

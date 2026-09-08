@@ -6,7 +6,7 @@ section_id: "A.6.RSIG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__005_solution.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:4 — Solution"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.6.RSIG:4 - Solution
 
-#### A.6.RSIG:4.1 - Relation-signature object and non-goals
+#### A.6.RSIG:4.1 - Recognition-cue discipline and non-goals
 
 `A.6.RSIG` governs description-recognition signatures in general: the
 first-contact cue structure by which one reader can recover what encountered
@@ -38,10 +38,10 @@ Description object by default, not a `U.*` kind, and not a specialization of
 The encountered carrier or projection may help recognition; it does not become
 authoritative merely by being encountered. When this pattern talks about an
 encountered publication or projection, that wording does not mint a new surface
-kind; use an existing publication face, publication form, interop publication form,
-`U.View`, card, or lane kind only when that kind is actually being made.
+kind; identify the actual publication face, publication form, interop publication form,
+`U.View`, card, or lane under the conditions governing that object and use.
 
-Use `definitionEpistemeRef` for the defining `U.Episteme`. If the definition is available only through one publication, cite the `U.EpistemePublication` that publishes it separately; the publication, projection, or carrier does not become the defining episteme merely because it exposed the definition to the reader.
+Use `definitionEpistemeRef` for the defining `U.Episteme`. If the definition is available only through one publication, cite separately the exact E.24.PUB publication occurrence that makes it available; the publication, projection, or carrier does not become the defining episteme merely because it exposed the definition to the reader.
 
 `A.6.RSIG` does not govern:
 
@@ -131,22 +131,22 @@ Neighbor boundaries remain explicit:
 
 - `A.6.B` governs routed `L/A/D/E` claim structure when the boundary
   description is already in routed-claim territory;
-- `E.17.0 / E.17` govern admissible view and publication-face projection when the
-  same recognition entry load is carried through published views;
-- `E.10.D2` and the `E.10 / F.18 / A.6.P` lane govern lexical repair,
-  collision checks, and naming survival;
-- `C.25 / C.16.Q` govern formal quality treatment when the discoverability or
-  recognition claim becomes explicitly evaluative;
+- `E.17.0` tests viewpoint/view membership; `E.17` publishes reader-facing forms of an already accepted engineering account;
+  use `E.24.PUB` when publication occurrence, form, or carrier identity affects the recognition use;
+- `E.10.D2` recovers description-episteme and specification-use distinctions;
+  use `E.10` cues within `F.19` for wording, `A.6.P` for under-specified direct relations, and `F.18` for durable naming and its collision checks;
+- `C.16.Q` repairs overloaded recognition or discoverability quality wording;
+  `C.25` applies when the quality-family claim depends on several differently typed contributors; a single-Characteristic claim stays with its direct Characteristic pattern;
 - the relevant authoritative pattern body governs pattern semantics when the
   encountered description is one pattern-local opening.
 
 The four-part split for pattern-local recognition is:
 
-| Recognition concern | Governing FPF pattern or source-maintenance role assignment | What it governs |
+| Recognition concern | Governing FPF pattern or source | What it governs |
 | --- | --- | --- |
 | Generic first-contact description recognition | `A.6.RSIG` | The neutral cue shape: description, carrier or projection, definitionEpistemeRef, exclusions, false neighbor. |
 | Local placement and form | `E.8` | How the pattern's `Problem frame` carries the first-reading role. |
-| Actual local semantics | The pattern itself | The pattern's relation-signature object, solution, consequences, and conformance law. |
+| Actual local semantics | The pattern itself | The pattern's governed object, solution, consequences, and conformance law. |
 | Cross-pattern comparison | `E.11` and `I.2` | Candidate patterns, tempting wrong patterns, entry-load reclassification, and expanded entry-disambiguation cases. |
 
 #### A.6.RSIG:4.5 - No-minting rule

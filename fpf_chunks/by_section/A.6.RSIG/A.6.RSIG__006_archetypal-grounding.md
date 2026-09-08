@@ -6,7 +6,7 @@ section_id: "A.6.RSIG:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__006_archetypal-grounding.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:5 — Archetypal grounding"
@@ -30,7 +30,7 @@ Draft cue:
 
 Why the cue is not enough yet:
 
-- the reader can tell this is important, but not whether they are reading one
+- the reader cannot tell whether they are reading one
   law, admissibility gate, duty, work effect, or evidence statement;
 - one summary page or local paraphrase can be mistaken for the governing
   boundary description;
@@ -42,7 +42,7 @@ Recognition repair:
 1. `description_seen` = one boundary-presented admissibility description.
 2. `encountered_carrier_or_projection` = one clause or excerpt where the
    description is seen.
-3. `reader_viewpoint` = one practitioner or reviewer deciding whether this is
+3. `reader_viewpoint` = the perspective of a practitioner or reviewer deciding whether this is
    the right boundary description to inspect first.
 4. `applies_to` = requests presented at the boundary under the declared
    admissibility conditions.
@@ -50,9 +50,9 @@ Recognition repair:
    not actually stated by this description.
 6. `definitionEpistemeRef` = the governing boundary description, not one local
    paraphrase or summary note.
-7. `nearby_false_description_or_wrong_definition_episteme` = one evidence/work claim or one
-   routed quadrant statement that only becomes admissible after the reader has
-   stabilized the admissibility description.
+7. `nearby_false_description_or_wrong_definition_episteme` = an evidence/work claim or
+   a different routed-quadrant statement mistaken for the governing admissibility
+   description.
 8. `first_admissible_entry_stop_or_reroute` = the reader can now say "this is the
    admissibility description to inspect first"; if the entry load becomes routed
    claim structure, inspect `A.6.B`.
@@ -75,8 +75,8 @@ Recognition repair:
 3. `applies_to` = request accessibility and invocation form.
 4. `excludes` = success, completion, rollout, or downstream effect guarantees
    not present in the access description itself.
-5. `definitionEpistemeRef` = the specification or pattern that actually governs
-   downstream effect, if that entry load is live.
+5. `definitionEpistemeRef` = the defining episteme for the access description;
+   inspect the specification or pattern governing downstream effect separately if that question is current.
 6. `first_admissible_entry_stop_or_reroute` = "this is the access description to
    inspect first, not the promise of the whole deployment result."
 

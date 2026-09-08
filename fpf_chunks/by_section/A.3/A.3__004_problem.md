@@ -6,7 +6,7 @@ section_id: "A.3:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__004_problem.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:3 — Problem"
@@ -35,7 +35,7 @@ Legacy phrasing (“actor / process / blueprint”) causes recurrent failures:
 
 1. **Self‑magic in an actor-side claim:** “the system configures itself” is used as if it already supplied a performer, role assignment, method, work occurrence, causal relation, and evidence.
 2. **Plan = event:** blueprint/algorithm reported as if execution happened.
-3. **Capability = result:** possession of a method counted as evidence of work.
+3. **Capability or Method = Work:** having a capability or a Method is taken to establish that Work occurred.
 4. **Episteme as doer:** documents/models treated as actors.
 5. **Occurrence-description leak:** a method, plan, log, ticket, carrier, or evidence item is treated as the dated Work occurrence, while the assertion fails to designate the actual performer assignment, enacted Method, extent, affected referent, and direct relations.
    A.2/A.4/A.7/A.10 collectively forbid these, but A.3 must give the **canonical quartet** that authors can apply consistently.

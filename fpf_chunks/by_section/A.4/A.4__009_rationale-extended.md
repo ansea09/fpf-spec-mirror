@@ -6,13 +6,14 @@ section_id: "A.4:8"
 section_title: "Rationale (extended)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__009_rationale-extended.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:8 — Rationale (extended)"
 line_start: 10077
 line_end: 10108
 dependencies:
+  - "B.3"
   - "B.4"
 keywords:
   - "continuous improvement"
@@ -34,10 +35,10 @@ keywords:
    Physics tells us measurement changes state (energy, information, even
    quantum collapse).  Making the observer just another `Transformer`
    means: no special metaphysics, full energy/provenance accounting,
-   seamless tie‑in with Constructor Theory (see A 3 Rationale §2).
+   seamless tie‑in with Constructor Theory (see A.3:9, “Constructor theory”).
 
 3. **Why insist on open‑endedness?**
-   *Perfect* finality is unattainable outside mathematics mandates that holons must be *improvable* in principle; this pattern
+   *Perfect* finality is unattainable outside mathematics. The resulting mandate is that holons must be *improvable* in principle; this pattern
    encodes that mandate structurally: version n+1 is always possible.
 
 4. **Why no overlap (*Tᴰ* ∩ *Tᴿ*)?**

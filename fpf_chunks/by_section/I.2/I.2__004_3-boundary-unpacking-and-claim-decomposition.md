@@ -6,7 +6,7 @@ section_id: "I.2"
 section_title: ".3 - Boundary unpacking and claim decomposition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__004_3-boundary-unpacking-and-claim-decomposition.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2 — .3 - Boundary unpacking and claim decomposition"
@@ -31,12 +31,12 @@ keywords:
   interface/access note.
 - **Plausible candidate patterns:** `A.6`, `A.6.B`, `A.6.C`.
 - **Nearby patterns:** `A.6.RSIG` if first-contact recognition is still live;
-  `A.6.P` for relation wording; `C.16.Q` for quality wording; `A.6.A` for
-  action invitation wording; `E.17` for publication or view question.
+  `A.6.P` when relation wording hides participants or predicate; `C.16.Q` for overloaded quality wording; `A.6.A` for
+  action invitation wording; `E.17` for reader-facing publication of an already accepted engineering account, `E.17.0` for view recognition, and `E.24.PUB` when publication occurrence, form, or carrier matters.
 - **Tempting wrong pattern:** treat an API/access phrase as a promise of
   downstream effect, or treat one boundary phrase as a complete Contract Bundle.
 - **Disambiguating fact:** the sentence mixes admissibility, gate, duty, evidence, and action-invitation
-  requirements, or the encountered description's defining `U.Episteme` is not yet
+  claims, or the encountered description's defining `U.Episteme` is not yet
   clear.
 - **Recognition repair or entry-load reclassification:** use `A.6.RSIG` if the
   first question is "what description is this?"; otherwise inspect `A.6.B`

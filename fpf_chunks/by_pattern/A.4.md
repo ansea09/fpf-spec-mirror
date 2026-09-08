@@ -6,12 +6,13 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.4.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
 line_start: 9983
 line_end: 10110
 dependencies:
+  - "B.3"
   - "B.4"
 keywords:
   - "continuous improvement"
@@ -28,12 +29,12 @@ keywords:
 and is reborn when the world talks back.”*
 
 ### A.4:1 - Problem frame
-A holon’s **blueprint** and its **lived reality** are never identical for
+A holon’s **actual condition** does not keep matching its **blueprint** for
 long.  Pumps wear out, theories meet anomalous data, workflows face
 unanticipated load.  FPF therefore requires a temporal framework that:
 
 1. Physically grounds every modification (via the Transformer Principle,
-   A 3).
+   A.3).
 2. Supports unbounded improvement cycles (**P‑10 Open‑Ended Evolution**).
 3. Works identically for physical, epistemic, operational (method, work) and future
    holon flavours.
@@ -94,7 +95,7 @@ Transformer pattern.
 | **Design‑Time**       | 3‑D CAD + G‑code; stress‑sim config.                                                         | Lean/Coq script of theorem; dependency graph.                                           |
 | **Run‑Time**          | Pump circulates coolant under `OperatePump` method.                                          | Theorem cited & reused; runtime is “being relied on”.                                   |
 | **Run → Design loop** | Sensor data shows cavitation; anomaly report produced by the monitoring server under `roleRef=TransformerRole@MonitoringContext`. | New experiment contradicts corollary; lab apparatus and scientists hold `TransformerRole@ExperimentContext` assignments. |
-| **Design → Run loop** | Engineers author Pump‑v3 spec; the printer holds `TransformerRole@FabricationContext` while fabricating it.                    | Community revises proof; the proof assistant holds `TransformerRole@VerificationContext` while verifying Proof‑v3.         |
+| **Design → Run loop** | Engineers author Pump‑v3 spec; the printer holds `TransformerRole@FabricationContext` while fabricating Pump‑v3.                    | Community revises proof; the proof assistant holds `TransformerRole@VerificationContext` while verifying Proof‑v3.         |
 
 *(Diagrammatic lineage table omitted for brevity but included in annex.)*
 
@@ -112,9 +113,9 @@ Transformer pattern.
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|--------------------------|
-| **Audit‑Ready engineering workflow** – Every state and change is explicitly typed, timed, and causally linked to a physical system/Tramsformer. | Additional metadata tagging; mitigated by templates in Authoring Guide (E 8). |
+| **Audit‑Ready engineering workflow** – Every state and change is explicitly typed, timed, and causally linked to a physical system/Transformer. | Additional metadata tagging. |
 | **Unified View of Build & Measure** – Observation, test, simulation, maintenance, and fabrication all share one mechanism. | Requires modelers to think in terms of Transformers even for “passive” sensing; mitigated by role libraries (`transformerRole`, `CalibratorRole`, etc.). |
-| **Foundation for Learning Loops** – Enables higher patterns (e.g., B 4 Canonical Evolution Loop, D 3 Trust Calculus) to reason over evidence accrual and version fitness, including self-modification. | None significant—temporal scoping is already needed for safety‑critical provenance. |
+| **Foundation for Learning Loops** – Enables higher patterns (e.g., B.4 Canonical Evolution Loop, B.3 Trust and Assurance Calculus) to reason over evidence accrual and version fitness, including self-modification. | None significant—temporal scoping is already needed for safety‑critical provenance. |
 
 ### A.4:8 - Rationale (extended)
 
@@ -127,10 +128,10 @@ Transformer pattern.
    Physics tells us measurement changes state (energy, information, even
    quantum collapse).  Making the observer just another `Transformer`
    means: no special metaphysics, full energy/provenance accounting,
-   seamless tie‑in with Constructor Theory (see A 3 Rationale §2).
+   seamless tie‑in with Constructor Theory (see A.3:9, “Constructor theory”).
 
 3. **Why insist on open‑endedness?**
-   *Perfect* finality is unattainable outside mathematics mandates that holons must be *improvable* in principle; this pattern
+   *Perfect* finality is unattainable outside mathematics. The resulting mandate is that holons must be *improvable* in principle; this pattern
    encodes that mandate structurally: version n+1 is always possible.
 
 4. **Why no overlap (*Tᴰ* ∩ *Tᴿ*)?**

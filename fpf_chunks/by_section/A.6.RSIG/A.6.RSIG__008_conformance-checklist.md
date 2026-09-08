@@ -6,7 +6,7 @@ section_id: "A.6.RSIG:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__008_conformance-checklist.md"
-commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
+commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:7 — Conformance checklist"
@@ -29,9 +29,9 @@ keywords:
   defining `U.Episteme`, and projection role when those distinctions are
   load-bearing. The encountered carrier or projection may help recognition,
   but it does not become authoritative merely by being encountered.
-- **CC-RSIG-3 Neighbor boundaries explicit.** The text states when entry loads go
-  to `A.6.B`, `E.17`, `E.10 / F.18 / A.6.P`, `C.25 / C.16.Q`, or the relevant
-  authoritative pattern body.
+- **CC-RSIG-3 Neighbor boundaries explicit.** The text states the conditions
+  under which the recognition question calls for each relevant neighboring
+  pattern in §4.4; use only the patterns that govern the current questions.
 - **CC-RSIG-4 No kind inflation.** Recognition signatures are not silently
   promoted into `U.Signature`, Signature Stack objects, publication face kinds, publication form kinds, carrier kinds,
   graph objects, workflow objects, or new `U.*` kinds.
