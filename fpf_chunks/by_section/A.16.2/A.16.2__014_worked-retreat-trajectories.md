@@ -6,12 +6,12 @@ section_id: "A.16.2:13"
 section_title: "Worked Retreat Trajectories"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__014_worked-retreat-trajectories.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:13 — Worked Retreat Trajectories"
-line_start: 29355
-line_end: 29372
+line_start: 29353
+line_end: 29370
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,12 +36,12 @@ keywords:
 ### A.16.2:13 - Worked Retreat Trajectories
 
 #### A.16.2:13.1 - Reopen within the same family
-A routed evaluative note may remain within the same family but move from high closure to lower closure when a rival frame reopens. This is `reopen`, not `sketchBackoff`.
+A routed evaluative note may remain within the same family but move from high closure to lower closure when a rival frame becomes a live alternative again. This is `reopen`, not `sketchBackoff`.
 
 #### A.16.2:13.2 - Sketch-backoff to cue pack
-An over-specified `A.6.A`-governed invitation may later prove premature. The admissible retreat is:
+An over-specified `A.6.A`-governed invitation may later prove premature. First select the identity case under A.16:4.3 and C.2.1, then record the publication-form change:
 
-`actionInvitation -> sketchBackoff -> U.PreArticulationCuePack`
+`source form: actionInvitation; move: sketchBackoff; target form: U.PreArticulationCuePack`
 
 with explicit withdrawal of the route selection and endpoint-use claim that no longer hold. Any actual authority relation is updated separately only if its own predicate changes.
 

@@ -6,12 +6,12 @@ section_id: "A.16.2:19"
 section_title: "Review Matrix for Retreat Integrity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__020_review-matrix-for-retreat-integrity.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:19 — Review Matrix for Retreat Integrity"
-line_start: 29448
-line_end: 29459
+line_start: 29446
+line_end: 29457
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,7 +41,7 @@ A reviewer can test retreat integrity with five questions:
 2. **Were the affected claims updated?** If the earlier route selection, endpoint admission, gate result, publication availability, current-use claim, evidence-use basis, or actual authority relation no longer applies, revise that exact dependent claim under its direct pattern.
 3. **Did valid witnesses survive?** If all earlier grounding disappeared without reason, the retreat probably became erasure.
 4. **Was the move kind correctly named?** Reopen, sketch-backoff, respecify, and retire solve different problems; confusing them obscures what actually changed.
-5. **If a branch was retired, was successor / no-successor status explicit?** If not, retirement may be hiding silent laundering.
+5. **If a branch was retired, was successor / no-successor status explicit?** If not, the retirement record leaves unclear whether a successor exists.
 
 The matrix is intentionally small: `A.16.2` should keep retreat legible, not surround it with decorative procedure.
 

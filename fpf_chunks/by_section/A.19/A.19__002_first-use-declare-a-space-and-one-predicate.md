@@ -6,12 +6,12 @@ section_id: "A.19:0"
 section_title: "First use: declare a space and one predicate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_first-use-declare-a-space-and-one-predicate.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — First use: declare a space and one predicate"
-line_start: 29792
-line_end: 29822
+line_start: 29790
+line_end: 29820
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,6 +20,7 @@ dependencies:
   - "A.19.CHR"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.19.ULSAM"
   - "A.19.UNM"
   - "A.2.6"
   - "A.6.5"
@@ -59,7 +60,7 @@ Use A.19 when you need to say which Characteristics form one state space and wha
 | `coolantTemperature` | temperature of one Pump | degrees Celsius, `0..120` |
 | `dischargePressure` | discharge pressure of one Pump | kilopascals, `0..1000` |
 
-For Pump #37, the available Coordinate tuple is `(72 °C, 315 kPa)`. The reusable condition is:
+For Pump #37, the available tuple of Coordinates is `(72 °C, 315 kPa)`. The reusable condition is:
 
 > `ready(x) := 60 °C <= x.coolantTemperature <= 80 °C and x.dischargePressure >= 300 kPa`.
 
@@ -68,7 +69,7 @@ For this tuple, `ready(x)` is true. That is the practical result: a reader can r
 **Add only what the next use needs.**
 
 - If the Characteristic, Scale, or measurement chain is not sound yet, start with A.17, A.18, or C.16.
-- For normalization, indicator choice, scoring, aggregation, comparison, or selection, use A.19.UNM, A.19.UINDM, A.19.USCM, A.19.ULSAM or B.1, A.19.CPM, or A.19.SelectorMechanism respectively. G.0 checks whether the numeric operation is admissible.
+- Use A.19.UNM for normalization, A.19.UINDM for indicator choice, A.19.USCM for scoring, A.19.ULSAM for scale aggregation, A.19.CPM for comparison, and A.19.SelectorMechanism for selection. Use B.1 for a separate holonic-composition claim. G.0 checks whether the numeric operation is admissible.
 - Use A.3.3 when the space types a dynamics model.
 - Use A.19.CHR with A.15.3 or E.18 only for a planned suite or baseline, and E.20 only for a project specialization.
 - Use the direct evaluation, gate, evidence, or assurance pattern for that separate use.

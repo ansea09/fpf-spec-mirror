@@ -6,12 +6,12 @@ section_id: "E.11.DSG:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__008_conformance-checklist.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:7 — Conformance Checklist"
-line_start: 80648
-line_end: 80662
+line_start: 80646
+line_end: 80660
 dependencies:
   - "A.14"
   - "C.2.1"

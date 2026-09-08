@@ -6,7 +6,7 @@ section_id: "A.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__006_solution.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:4 — Solution"
@@ -113,7 +113,7 @@ Keep those relations separate:
 - Use `A.2.1` to state the `U.SystemRoleAssignment` occurrence whose `HolderSystemSlot` is filled by the system.
 - `A.2.2` governs capability claims about that system.
 - `A.3.1`, `A.3.2`, and the mechanism family govern method, method description, and mechanism realization.
-- `A.15.1` governs performed work and the exact relation through which the system is attributed as performer.
+- `A.15.1` governs independently admitted performed Work; recover its actual performer's agency basis through A.13, and use F.6 only when precise assignment-bound attribution is needed.
 - `A.3.4` governs the bounded transformation; the exact direct subject-relation pattern defines or constrains the system's participation in it.
 - Functioning, evidence, assurance, temporal, and dynamics claims remain with their direct patterns.
 

@@ -6,12 +6,12 @@ section_id: "A.15.4:3.2"
 section_title: "Archetypal Grounding - High-Impact Reliance-Repair Slice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__007_archetypal-grounding-high-impact-reliance-repair-slice.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.2 — Archetypal Grounding - High-Impact Reliance-Repair Slice"
-line_start: 26565
-line_end: 26660
+line_start: 26563
+line_end: 26658
 dependencies:
   - "A.10"
   - "A.13"
@@ -72,7 +72,7 @@ A.15.4 structured local note:
       SubjectPatternLocator: A.2.9
       DirectObjectKind: U.SpeechAct occurrence
       ProjectSideObjectRef: B17-GrantSpeechAct
-      RequiredPostureOrCurrentness: actual performer identified through A.13; speech-act Work independently admitted through A.15.1; when this case must identify the grantor assignment, F.6 checks that assignment and compares its holder with the performer; recognized by the current grant policy
+      RequiredPostureOrCurrentness: actual performer identified; performer's A.13 core basis independently recovered; speech-act Work independently admitted through A.15.1; when this case must identify the grantor assignment, F.6 checks that assignment and compares its holder with the performer; recognized by the current grant policy
       DependencyOnAttemptedUse: grounds B17-InterventionGrant; the act itself is not permission
     - EntryId: B17-GRANT
       SubjectPatternLocator: A.2.8.PER
@@ -94,15 +94,15 @@ A.15.4 structured local note:
       DependencyOnAttemptedUse: supplies the evidence/currentness path for B17-CONFLICT without becoming the finding, rule, or grant
     - EntryId: B17-GATE
       SubjectPatternLocator: A.21
-      DirectObjectKind: GateDecision
+      DirectObjectKind: GateDecisionResult
       ProjectSideObjectRef: B17-InterventionGateDecision-e2
-      RequiredPostureOrCurrentness: current GateDecision=pass under the applicable GateProfile and DecisionLog
+      RequiredPostureOrCurrentness: current GateDecisionResult with decisionValue=pass under the applicable GateProfile application, with its DecisionLog recoverable
       DependencyOnAttemptedUse: the current lab policy separately requires gate passage; this decision does not create the grant
     - EntryId: B17-WORK-ENTRY
       SubjectPatternLocator: A.15.5
-      DirectObjectKind: WorkEntryReadiness@Context relation
+      DirectObjectKind: C.2.1 result episteme carrying an A.15.5 readiness claim
       ProjectSideObjectRef: B17-WorkEntryReadiness-e3
-      RequiredPostureOrCurrentness: current relation for the exact B17-GeneEditIntervention, performer, kit, context, and entry window, with CommitmentDisposition=readyForCommitment and no triggered StopCondition
+      RequiredPostureOrCurrentness: current A.15.5 readiness claim for the exact plan item and intended B17-GeneEditIntervention in B17-GeneEditWorkPlan-e4, performer, kit, context, and entry window; ReadinessResultValue=ready, seeking a separately governed commitment is its stated next move, and no StopCondition is triggered
       DependencyOnAttemptedUse: the current lab policy separately requires work-entry readiness; readiness does not create the grant or gate decision
     - EntryId: B17-ASSIGNMENT
       SubjectPatternLocator: A.2.1
@@ -126,7 +126,7 @@ A.15.4 structured local note:
       SubjectPatternLocator: A.10
       DirectObjectKind: claim-bound evidence-provenance relation
       ProjectSideObjectRef: B17-InterventionGateEvidence
-      RequiredPostureOrCurrentness: supports only the claim that B17-InterventionGateDecision-e2 is the current GateDecision=pass for this attempted use under its GateProfile and DecisionLog
+      RequiredPostureOrCurrentness: supports only the claim that B17-InterventionGateDecision-e2 is the current GateDecisionResult with decisionValue=pass for this attempted use under its GateProfile application, with its DecisionLog recoverable
       DependencyOnAttemptedUse: supplies the evidence/currentness path required for B17-GATE without becoming gate passage
     - EntryId: B17-ASSIGNMENT-EVIDENCE
       SubjectPatternLocator: A.10
@@ -142,8 +142,8 @@ A.15.4 structured local note:
       DependencyOnAttemptedUse: describes the Work that would be entered if every other prerequisite passes
   AllowedUseNow: source-finding and prerequisite refresh only; do not intervene while any entry is absent or fails its required posture or currentness
   AppearanceOverreadBlocked: tile color and copied message do not authorize biological work or prove safety
-  RecoveryOrStopCondition: before intervention, follow every typed ref; reopen only when every listed relation obtains or result passes its stated criterion, is current for this beneficiary, action, sample batch, scope, and window, and has its required evidence or source relation; B17-CONFLICT must have a current grant-selecting disposition, the gate must say pass, and work-entry readiness must say readyForCommitment
+  RecoveryOrStopCondition: before intervention, follow every typed ref; reopen only when every listed relation obtains or result passes its stated criterion, is current for this beneficiary, action, sample batch, scope, and window, and has its required evidence or source relation; B17-CONFLICT must have a current grant-selecting disposition, the gate must say pass, and work-entry readiness must have ReadinessResultValue=ready, with commitment-seeking stated separately as the next move
 ```
 
-**Named-but-revoked grant near-miss.** Suppose `B17-InterventionGrant` and its complete-looking record are present, but policy-valid `B17-GrantRevocation` took effect before the intervention window. The `B17-GRANT` entry then fails `RequiredPostureOrCurrentness` because the grant no longer obtains. A current protocol, plan, `GateDecision=pass`, readiness result, and green tile do not repair that failure: `AllowedUseNow` remains source-finding and prerequisite repair, and the intervention stays blocked.
+**Named-but-revoked grant near-miss.** Suppose `B17-InterventionGrant` and its complete-looking record are present, but policy-valid `B17-GrantRevocation` took effect before the intervention window. The `B17-GRANT` entry then fails `RequiredPostureOrCurrentness` because the grant no longer obtains. A current protocol, plan, `GateDecisionResult` with `decisionValue=pass`, readiness result, and green tile do not repair that failure: `AllowedUseNow` remains source-finding and prerequisite repair, and the intervention stays blocked.
 

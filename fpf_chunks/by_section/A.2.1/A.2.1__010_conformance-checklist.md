@@ -6,12 +6,12 @@ section_id: "A.2.1:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__010_conformance-checklist.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:8 — Conformance Checklist"
-line_start: 3732
-line_end: 3750
+line_start: 3730
+line_end: 3748
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -48,7 +48,7 @@ keywords:
 | `CC-A2.1-2` | Every species declares `HolderSystemSlot : U.System` and one declaration-local `AssignedSystemRoleKindSlot` with an exact local system-role-kind domain. |
 | `CC-A2.1-3` | Every additional participant changes the predicate or occurrence identity and has an admitted kind and complete SlotSpec. |
 | `CC-A2.1-4` | The direct predicate, applicability, and occurrence-identity rule are explicit. |
-| `CC-A2.1-5` | One occurrence is the maximal uninterrupted predicate-true interval for fixed participant values; a demonstrated gap creates another occurrence. |
+| `CC-A2.1-5` | One occurrence spans the maximal uninterrupted predicate-true interval for fixed participant values; after a demonstrated gap, a later resumption is another occurrence. |
 | `CC-A2.1-6` | `assignmentInterval` describes known extent and is not a participant or proof of obtaining. Ordinary interval content stays local; a relied-on positive temporal aspect uses `C.27.TA`, while temporal-claim adequacy uses `C.27`. |
 | `CC-A2.1-7` | Taxonomy, scheme, signature, assertion, evidence, publication, and model-use structure are not generic assignment participants. |
 | `CC-A2.1-8` | A specialized occurrence is itself a `U.SystemRoleAssignment`; no weaker generic duplicate is created. |
@@ -56,6 +56,6 @@ keywords:
 | `CC-A2.1-10` | Classification and assignment remain independent; assignment is a criterion feature only when the signature explicitly says so. |
 | `CC-A2.1-11` | A.13 identifies the actual performer and A.15.1 independently admits the dated Work. F.6 checks the same assignment only if the current use must also say exactly under which assignment the Work was performed; a missing or failed check leaves the Work intact. |
 | `CC-A2.1-12` | A `...SystemRoleAssignmentRef` field is typed by `U.RelationRef constrained to U.SystemRoleAssignment`, resolves to one exact occurrence, and keeps its declared species recoverable. |
-| `CC-A2.1-13` | Missing evidence yields unresolved or `unknown`; only demonstrated predicate failure ends the occurrence. |
+| `CC-A2.1-13` | Missing evidence leaves whether the assignment obtained unresolved or `unknown`. Actual predicate cessation or participant change ends the occurrence; evidence supports a conclusion about its boundary. |
 | `CC-A2.1-14` | Reduced use stops before explicit individuation when no receiver needs an assignment reference. |
 

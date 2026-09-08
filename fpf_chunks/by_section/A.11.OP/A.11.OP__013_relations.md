@@ -6,12 +6,12 @@ section_id: "A.11.OP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__013_relations.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
   - "A.11.OP:12 — Relations"
-line_start: 23814
-line_end: 23825
+line_start: 23812
+line_end: 23823
 dependencies:
   - "A.10"
   - "A.11"

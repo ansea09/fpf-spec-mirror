@@ -6,12 +6,12 @@ section_id: "E.13:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__003_problem-frame.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
   - "E.13:1 — Problem Frame"
-line_start: 80825
-line_end: 80832
+line_start: 80823
+line_end: 80830
 dependencies:
   - "A.10"
   - "A.21"

@@ -6,12 +6,12 @@ section_id: "A.16.1:17"
 section_title: "Cue-Pack Continuations and Non-Continuations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__018_cue-pack-continuations-and-non-continuations.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:17 — Cue-Pack Continuations and Non-Continuations"
-line_start: 29194
-line_end: 29222
+line_start: 29192
+line_end: 29220
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,12 +39,12 @@ keywords:
 ### A.16.1:17 - Cue-Pack Continuations and Non-Continuations
 
 #### A.16.1:17.1 - Admissible continuations
-A cue pack may continue admissibly into:
+Depending on the next use, a practitioner may:
 
-- a routed cue set,
-- a cue-derived abductive prompt,
-- a later lexical-repair family once articulation threshold is met,
-- or a retreat / retirement move when prior stabilization over-committed or no longer deserves current publication.
+- publish a routed cue set under `B.4.1`,
+- constitute and check a cue-derived abductive prompt under `B.5.2.0`,
+- repair wording in a later claim under its applicable precision-restoration pattern once that claim is needed,
+- or use the appropriate `A.16` retreat or retirement move under `A.16.2` when the stabilized publication overstates what the available grounds support or is no longer current for the named use.
 
 #### A.16.1:17.2 - Non-continuations
 A cue pack should not be used directly as:
@@ -60,7 +60,7 @@ Those are not just later stages of the same text. They are different claims, dec
 #### A.16.1:17.3 - Multi-direction state versus lineage fork
 Several lane candidates or several low-articulation route-candidate hints may live inside one cue pack. That is still one cue-pack publication.
 
-A fork happens only after distinct successor epistemes or project records are identified, with their preserved and lost content and any exact lineage relations. Issuing their publication forms is a separate E.24.PUB claim. Practitioners should not treat pre-route plurality inside one cue pack as if it were already a forked lineage.
+A fork happens only after distinct successor epistemes or project records are identified, with their preserved and lost content and any exact lineage relations. Making those epistemes available through the forms to an audience for a bounded use is a separate E.24.PUB claim. Practitioners should not treat pre-route plurality inside one cue pack as if it were already a forked lineage.
 
 #### A.16.1:17.4 - Split and merge cases
 One cue pack may later split into several route-bearing continuations if its preserved cue nucleus actually contains several tensions. Several cue packs may also merge if later stabilization reveals that they were fragments of one more coherent cue complex. Both cases are admissible if the continuity and later successor-publication consequences are published explicitly.

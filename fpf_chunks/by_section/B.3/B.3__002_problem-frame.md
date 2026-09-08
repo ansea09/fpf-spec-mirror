@@ -6,12 +6,12 @@ section_id: "B.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__002_problem-frame.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:1 — Problem frame"
-line_start: 39570
-line_end: 39582
+line_start: 39568
+line_end: 39580
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,7 +35,7 @@ keywords:
 
 ### B.3:1 - Problem frame
 
-Assurance concerns a claim, not the world-side subject in isolation. Begin with one exact C.2.1 target-claim episteme and one named use of an assurance conclusion. The claim's EntityOfConcern remains the system, episteme, method, work occurrence, relation occurrence, or other exact subject identified by its direct pattern.
+Assurance concerns a claim, not the world-side subject in isolation. Begin with one exact target claim, identified by its C.2.1 episteme or `ClaimAddress` as specified in §4.2, and one named use of an assurance conclusion. The claim's EntityOfConcern remains the system, episteme, method, work occurrence, relation occurrence, or other exact subject identified by its direct pattern.
 
 For example:
 

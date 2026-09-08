@@ -6,12 +6,12 @@ section_id: "B.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__011_consequences.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:9 — Consequences"
-line_start: 39822
-line_end: 39837
+line_start: 39820
+line_end: 39835
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,7 +45,7 @@ keywords:
 
 **Trade-offs**
 
-- B.3 no longer supplies a convenient universal number. A project must use the domain model that gives its inputs meaning.
-- Some assurance questions return `unresolved` until a dependency model, calibrated mapping, or direct domain requirement is supplied.
+- B.3 supplies no convenient universal number. A project must use the domain model that gives its inputs meaning.
+- Some assurance questions remain unresolved until a dependency model, calibrated mapping, or direct domain requirement is supplied.
 - Reusable replay records cost more than a compact result and therefore require an actual receiver.
 

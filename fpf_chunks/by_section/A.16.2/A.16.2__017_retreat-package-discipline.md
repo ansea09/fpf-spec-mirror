@@ -6,12 +6,12 @@ section_id: "A.16.2:16"
 section_title: "Retreat Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__017_retreat-package-discipline.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:16 — Retreat Package Discipline"
-line_start: 29398
-line_end: 29419
+line_start: 29396
+line_end: 29417
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -53,5 +53,5 @@ A retreat note should make explicit:
 Retreat preserves continuity: a high-closure formulation or one that had passed a named endpoint test for a stronger use was adopted, then shown to over-commit in stated respects, and therefore backed off or withdrawn admissibly.
 
 #### A.16.2:16.3 - Partial retreat
-Some retreats withdraw only one route claim, scope assumption, framing scaffold, or operational hook. In those cases name the surviving core rather than resetting everything.
+Some retreats withdraw only one route claim or scope assumption, or remove one framing scaffold or operational hook from the current use. In those cases name the surviving core rather than resetting everything.
 

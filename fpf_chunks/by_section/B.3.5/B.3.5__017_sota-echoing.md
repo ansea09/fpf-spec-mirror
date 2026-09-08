@@ -6,12 +6,12 @@ section_id: "B.3.5:14.7"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__017_sota-echoing.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:14.7 — SoTA-Echoing"
-line_start: 40439
-line_end: 40452
+line_start: 40437
+line_end: 40450
 dependencies:
   - "B.3"
   - "C.13"
@@ -21,7 +21,7 @@ keywords:
 
 ### B.3.5:14.7 - SoTA-Echoing
 
-Checked 2026-08-25. Three source lines change this pattern's method; none supplies its ontology wholesale.
+The assurance profile uses the three contributions below.
 
 | Source line | Adopt, adapt, or reject | Change in B.3.5 |
 | --- | --- | --- |

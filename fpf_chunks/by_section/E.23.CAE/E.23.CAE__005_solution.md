@@ -6,12 +6,12 @@ section_id: "E.23.CAE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__005_solution.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:4 — Solution"
-line_start: 91116
-line_end: 91211
+line_start: 91114
+line_end: 91209
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -59,7 +59,7 @@ CapabilityAccessExpressionProbe@Use:
   candidateRoutes:
 ```
 
-This card is a local Method result, not a new FPF kind. Its fields create no capability, context, memory, choice, authorization, Work, or causal relation.
+This card is a local Method result, not a new FPF kind.
 
 #### E.23.CAE:4.2 - Run the differential probe
 

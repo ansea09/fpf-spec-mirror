@@ -6,12 +6,12 @@ section_id: "B.3.5:4"
 section_title: "Solution (thumbnail)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__006_solution-thumbnail.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:4 — Solution (thumbnail)"
-line_start: 40150
-line_end: 40201
+line_start: 40148
+line_end: 40199
 dependencies:
   - "B.3"
   - "C.13"
@@ -21,7 +21,7 @@ keywords:
 
 ### B.3.5:4 - Solution (thumbnail)
 
-CT2R‑LOG introduces a **two‑link discipline** around each canonical edge:
+CT2R‑LOG introduces a **two‑link discipline** and a **validation flag** around each canonical edge:
 
 1. **Alias link (concept‑level).**
    **Working-Model relations** (e.g., `ut:ComponentOf`) are the public names for their exact direct relation principles. **`tv:AliasOf`** may point from the public relation kind to that principle for comparison and reuse; the alias defines neither an occurrence nor a whole.

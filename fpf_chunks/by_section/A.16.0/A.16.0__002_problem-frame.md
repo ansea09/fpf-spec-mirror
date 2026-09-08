@@ -6,12 +6,12 @@ section_id: "A.16.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__002_problem-frame.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:1 — Problem frame"
-line_start: 28724
-line_end: 28730
+line_start: 28722
+line_end: 28728
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -46,5 +46,5 @@ In engineering, inquiry, operator, and management practice, teams sometimes need
 
 Cue packs, routed cue sets, abductive prompts, typed route-bounded projection forms, partial normal forms, and endpoint-bound records may appear in that history as publication forms or published records. They are not the disturbances, telemetry traces, model outputs, bodily tensions, or carrier documents that ground it.
 
-The account must not pretend that one unchanged episteme or publication literally moves. It records the selected episteme edition at each load-bearing step, the form and publication occurrence when availability matters, and links to successor editions when claims change.
+The trajectory account records the selected episteme edition at each load-bearing step, the form and publication occurrence when availability matters, and links to successor editions when claims change.
 

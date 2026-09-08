@@ -6,12 +6,12 @@ section_id: "A.16:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__009_consequences.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:8 — Consequences"
-line_start: 28672
-line_end: 28679
+line_start: 28670
+line_end: 28677
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -60,7 +60,7 @@ keywords:
 
 **Benefits.** Practitioners can advance or retreat without inventing maturity, Work, publication, or authority claims. The three identity cases prevent both false continuity and needless successor creation. A small note remains useful on its own, while A.16.0 and E.18 remain available when history is genuinely load-bearing.
 
-**Trade-off.** A consequential move needs explicit guards and preservation content. The mitigation is one table, one note schema, one history threshold, and one checklist rather than repeated packages.
+**Trade-off.** A consequential move needs explicit guards and preservation content. The mitigation is one canonical move table, one note schema, one history threshold, and one checklist rather than repeated packages.
 
 **Failure containment.** A missing endpoint rule, Work relation, publication occurrence, lineage predicate, or actual authority relation blocks only that additional claim. The cue and any independently admitted earlier publication remain available.
 

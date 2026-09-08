@@ -6,12 +6,12 @@ section_id: "E.23.CDI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__013_relations.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:12 — Relations"
-line_start: 91038
-line_end: 91053
+line_start: 91036
+line_end: 91051
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -37,6 +37,6 @@ keywords:
 | `E.23` | Supplies the general improvement boundary and routes here when capability development for named Work is the live question. |
 | `E.23.CAE` | Supplies an observation-qualified differential and candidate routes when apparent loss or failed transfer remains ambiguous. Capability development enters this pattern only after a separate applicable steering or choice result selects it. |
 | `C.32.MWA` | Supplies a practice-architecture result only when the target-practice Method architecture must first be recovered or compared. |
-| `C.36` | Governs distributed cultural generation, transmission, recognition, selection, retention, and loss; those relations do not make a population capable. |
+| `C.36` | Governs distributed cultural generation, transmission, recognition, selection, retention, and loss; use `A.2.2` for a capability claim about an independently admitted population holder System. |
 | `E.13` | Tests proxy-to-value alignment when attendance, scores, credentials, or another visible measure begins to replace the intended capability and transfer result. |
 

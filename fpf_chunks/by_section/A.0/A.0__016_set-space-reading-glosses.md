@@ -3,13 +3,13 @@ chunk_kind: "child"
 pattern_id: "A.0"
 pattern_title: "Onboarding Glossary (NQD & E/E‑LOG)"
 section_id: "A.0:QF.2a"
-section_title: "Set/space reading reading glosses"
+section_title: "Set/space reading glosses"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.0/A.0__016_set-space-reading-reading-glosses.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+output_path: "by_section/A.0/A.0__016_set-space-reading-glosses.md"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
-  - "A.0:QF.2a — Set/space reading reading glosses"
+  - "A.0:QF.2a — Set/space reading glosses"
 line_start: 1474
 line_end: 1505
 dependencies:
@@ -53,7 +53,7 @@ keywords:
   - "typed portfolio publication"
 ---
 
-### A.0:QF.2a - Set/space reading reading glosses
+### A.0:QF.2a - Set/space reading glosses
 
 The current set/space reading terms should read plainly as follows:
 
@@ -73,7 +73,7 @@ The current set/space reading terms should read plainly as follows:
   - one explicit list of which declared set-view heads the current atlas/support reading is holding together
   - use it when several declared views must stay visible together; it does not create one new set result and should not hide the active source set or active set result
 - `OutcomeMapRef`
-  - one explicit `OutcomeMapRef` or named map ref that shows how one declared source or set result bears on into one outcome-side or effect-side declared space/ref when that map materially matters
+  - one explicit map reference showing how one declared source or set result bears on a declared outcome-side or effect-side space when that map materially matters
   - it qualifies the reading; it does not rename the source set into the outcome-side declared space/ref
 - `SpaceMetricRef`
   - one explicit metric-ref qualifier for the metric, neighborhood, distance, density, or reachability discipline being used inside one declared space

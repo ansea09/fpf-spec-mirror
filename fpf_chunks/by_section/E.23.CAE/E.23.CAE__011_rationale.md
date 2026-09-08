@@ -6,12 +6,12 @@ section_id: "E.23.CAE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__011_rationale.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:10 — Rationale"
-line_start: 91288
-line_end: 91293
+line_start: 91286
+line_end: 91291
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -26,7 +26,7 @@ keywords:
 
 ### E.23.CAE:10 - Rationale
 
-A capability is bounded by holder, Work family, envelope, measures, evidence, and currentness. One failed occurrence does not rewrite that claim automatically. A controlled return to a qualified condition can cheaply distinguish global change from availability under at least one condition, while separate applicability, access, adaptation, and enactment observations prevent a later-stage failure from being projected backward.
+A capability claim is bounded by holder, Work family, envelope, measures, evidence, and currentness. One failed occurrence does not rewrite that claim automatically. A controlled return to a qualified condition can cheaply distinguish global change from availability under at least one condition, while separate applicability, access, adaptation, and enactment observations prevent a later-stage failure from being projected backward.
 
 The method stays transdisciplinary only by refusing a common hidden mechanism. Its common result is the smallest one that the unlike cases can honestly share: observation, disposition, surviving rival, limit, and candidate routes.
 

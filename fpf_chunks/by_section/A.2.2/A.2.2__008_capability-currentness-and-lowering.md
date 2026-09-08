@@ -6,12 +6,12 @@ section_id: "A.2.2:7"
 section_title: "Capability Currentness and Lowering"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__008_capability-currentness-and-lowering.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:7 — Capability Currentness and Lowering"
-line_start: 4038
-line_end: 4052
+line_start: 4036
+line_end: 4050
 dependencies:
   - "A.15"
   - "A.2"
@@ -36,7 +36,7 @@ Lower or reopen a capability instance, or lower reliance on a statement about it
 - the qualification window expires or becomes contested;
 - evidence, source-use, test, audit, or simulation relations become stale or are reclassified, lowering the support or currentness assessment rather than becoming the capability;
 - the method or method description changes the required capability threshold;
-- the system-role assignment or its state relation changes, causing a Work-admission claim to fail even while capability remains true;
+- the system-role assignment or its state relation changes, causing a Work-admission claim to fail even while the holder retains the capability;
 - a composite holder changes dependency conditions.
 
 Repair the smallest object that changed. A stale calibration window lowers the capability currentness assessment and may lower reliance on the capability instance; it does not rewrite the local system-role kind. A failed system-role assignment lowers Work admission; it does not by itself lower the holder's measured ability. A stale report lowers a statement or evidence relation before it lowers the capability instance itself.

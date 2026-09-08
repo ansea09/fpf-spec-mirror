@@ -6,12 +6,12 @@ section_id: "E.10.LRN:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__007_worked-slices.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:5 — Worked Slices"
-line_start: 76903
-line_end: 76928
+line_start: 76901
+line_end: 76926
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ A GAN training run is optimization Work over generator and discriminator paramet
 
 #### E.10.LRN:5.3 - Variational inference
 
-A variational-inference procedure selects an approximate distribution from a declared family by optimizing a divergence or bound against a target probabilistic model. It returns an inferential approximation and diagnostics. It does not establish capability acquisition, and its use of optimization does not make it a calculus-of-variations design of a physical trajectory or field.
+A variational-inference procedure selects an approximate distribution from a declared family by optimizing a divergence or bound against a target probabilistic model. It returns an inferential approximation and diagnostics. It does not establish capability acquisition.
 
 #### E.10.LRN:5.4 - Active learning
 

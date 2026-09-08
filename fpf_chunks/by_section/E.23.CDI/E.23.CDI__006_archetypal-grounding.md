@@ -6,12 +6,12 @@ section_id: "E.23.CDI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__006_archetypal-grounding.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:5 — Archetypal Grounding"
-line_start: 90953
-line_end: 90974
+line_start: 90951
+line_end: 90972
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -28,7 +28,7 @@ keywords:
 
 **Tell.** Begin with a current, bounded capability account and a desired result; choose an intervention only after the limiting contribution is known; then test that same target in representative Work. A completed intervention or exercise is activity evidence, not a transfer result.
 
-The compact range table below shows where the Method can be filled differently. It is a recognition aid, not evidence that transfer occurred in any case.
+The compact range table below is a recognition aid: it shows where the Method can be filled differently.
 
 | Case | Holder and intervention | Protected conditions and transfer |
 | --- | --- | --- |
@@ -44,5 +44,5 @@ In the next five comparable staffed incidents, every handover carried owner, cur
 
 **Show again — robotic inspection cell.** One calibrated robotic vision cell is the holder System for inspecting machined impellers under the declared lighting, temperature, part-finish, and software-configuration envelope. On 200 representative parts, the current configuration detects 89 percent of the seeded reportable cracks, raises 9 percent false alerts, and takes 40 seconds per part; the account remains current through the named calibration window. The target is at least 97 percent detection, at most 5 percent false alerts, and at most 45 seconds per part while traceability and safety interlocks remain unchanged. The intervention changes optical calibration and the inspection Method with support from the sensor provider.
 
-Across 300 production-like parts over three shifts, the cell reaches 98 percent detection, 4.3 percent false alerts, and 43 seconds per part with no traceability or interlock failure. That transfer result supports a post-intervention capability statement for the tested configuration and window. It neither turns the provider's work into the cell's capability nor establishes a causal Transformation without an obtaining Work-to-change claim.
+Across 300 production-like parts over three shifts, the cell reaches 98 percent detection, 4.3 percent false alerts, and 43 seconds per part with no traceability or interlock failure. That transfer result supports a post-intervention capability statement for the tested configuration and window. The provider's work remains separate from the cell's capability. The transfer result does not establish a causal Transformation without an obtaining Work-to-change claim.
 

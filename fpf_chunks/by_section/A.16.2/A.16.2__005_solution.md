@@ -6,12 +6,12 @@ section_id: "A.16.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__005_solution.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:4 — Solution"
-line_start: 29290
-line_end: 29316
+line_start: 29288
+line_end: 29314
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -58,5 +58,5 @@ Every retreat or retirement move shall name:
 - and whether a successor now exists or the branch is retired without successor.
 
 #### A.16.2:4.3 - Status and relation discipline
-A retreat or retirement move shall separately update any route selection, endpoint or gate result, publication availability, current-use or retirement claim that no longer holds. It normally changes no authority, responsibility, permission, or commitment relation. If one of those relations does change, name its exact predicate, participants, object or action, scope, interval, and ending or instituting act under its direct pattern.
+A retreat or retirement move shall separately update any route selection, endpoint or gate result, publication availability, current-use or retirement claim that no longer holds. The move does not by itself establish a change in authority, responsibility, permission, or commitment. If one of those relations does change, name its exact predicate, participants, object or action, scope, interval, and ending or instituting act under its direct pattern.
 

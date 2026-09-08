@@ -6,12 +6,12 @@ section_id: "B.5.2.0:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__012_rationale.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:10 — Rationale"
-line_start: 41470
-line_end: 41472
+line_start: 41468
+line_end: 41470
 dependencies:
   - "A.16"
   - "A.16.0"

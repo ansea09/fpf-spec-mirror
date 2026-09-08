@@ -6,12 +6,12 @@ section_id: "A.16.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__005_solution.md"
-commit_sha: "f6ee315e560a523f6381f264c03f46bcd3c7bdc0"
+commit_sha: "2154d21570c891bd5ed30fd6e6136f17f1942cae"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:4 — Solution"
-line_start: 29011
-line_end: 29080
+line_start: 29009
+line_end: 29078
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -76,7 +76,7 @@ A conforming cue pack may publish:
 
 The referenced facets keep their own definitions. `primaryAnchor`, `candidateAnchors`, contrasts, and exemplars commonly provide anchor material for `AE` under `C.2.4`; `languageStateClosureDegreeRef` docks to `C.2.5`; anchoring and representation-factor refs dock to `C.2.6` and `C.2.7`; `languageStateFacetProfileRef` may bundle them through `C.2.LS`.
 
-In this cluster, a cue is a salient epistemic nucleus extracted from witnesses, traces, felt tensions, model outputs, work-possibility hints, reliance-possibility hints, contrasts, or other grounds and made preservable as a pack. A raw signal-like trace counts as a cue only when that salience and preservability have been made explicit; otherwise it remains evidence, not yet a cue.
+In this cluster, a cue is a salient epistemic nucleus extracted from witnesses, traces, felt tensions, model outputs, work-possibility hints, reliance-possibility hints, contrasts, or other grounds and made preservable as a pack. A raw signal-like trace counts as a cue only when that salience and preservability have been made explicit; otherwise it remains a trace, not yet a cue. Any evidence use is separately qualified under A.10 for a named target claim.
 
 #### A.16.1:4.2 - Use boundary
 A cue pack may preserve:
@@ -102,7 +102,7 @@ A cue pack shall not silently serve as:
 A cue pack may admissibly feed:
 
 - `B.4.1` once route plurality or route selection deserves explicit publication;
-- `B.5.2.0` after a cue-derived abductive prompt is formed;
-- `A.6.P` only once articulation threshold and relation-like shape are met;
+- `B.5.2.0` to constitute and check a cue-derived abductive prompt;
+- `A.6.P` when a relation-bearing phrase needs its direct relation, participants, direction, or detail restored for a named receiving use;
 - `A.16.2` when prior stabilization must be reopened, backed off, respecified, or retired.
 
