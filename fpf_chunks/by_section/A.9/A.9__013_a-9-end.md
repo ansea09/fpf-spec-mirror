@@ -6,7 +6,7 @@ section_id: "A.9:End"
 section_title: "A.9:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__013_a-9-end.md"
-commit_sha: "e2457cb64712832c1652450aaa143636078c85b1"
+commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:End — A.9:End"
@@ -17,6 +17,7 @@ dependencies:
   - "A.8"
   - "A.9"
   - "B.1"
+  - "U.Holon"
 keywords:
   - "aggregation"
   - "composition"
