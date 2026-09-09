@@ -6,12 +6,12 @@ section_id: "E.18.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__004_forces.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:3 — Forces"
-line_start: 86641
-line_end: 86651
+line_start: 86903
+line_end: 86913
 dependencies:
   - "A.15"
   - "A.15.PROD"

@@ -6,12 +6,12 @@ section_id: "A.15.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__008_conformance-checklist.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:7 — Conformance Checklist"
-line_start: 26174
-line_end: 26192
+line_start: 26180
+line_end: 26198
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -53,7 +53,7 @@ keywords:
 | CC-A15.3-08 | A row states a positive intention. | Omission is open-world; prohibitions, exclusions, required absence, and completeness use separate plan claims rather than empty or negated fillers. |
 | CC-A15.3-09 | Planned filling remains planned. | No row establishes dated work, relation obtaining, application, binding, returned result, change, production, delivery, acceptance, or outcome. |
 | CC-A15.3-10 | Plan revision follows C.2.1 WorkPlan identity. | Changed identity-bearing content identifies another WorkPlan episteme; edition continuity is asserted only when `EpistemeEditionRelation` obtains, and PlanItems gain no separate edition ontology. |
-| CC-A15.3-11 | Later actual facts are established independently. | A.15.1 identifies Work; relation predicates identify participants; A.6.1 application predicates identify bindings. None follows from a plan row. |
+| CC-A15.3-11 | Later actual facts are established independently. | Identify Work under A.15.1; establish actual relation participation and application bindings under the relation's direct predicate and the A.6.1 binding predicates respectively. None follows from a plan row. |
 | CC-A15.3-12 | Later comparison preserves the cited baseline and polarity. | Substitution or variance uses a stated comparison policy; a missing-filler or negative result needs its closure or negative criterion and case facts. |
 | CC-A15.3-13 | Edition, reference, and policy pins are concrete and decision-relevant. | No implicit *latest*, generic RefKind, generic PolicyRef, publication face, or conflicting pin controls a row. |
 | CC-A15.3-14 | Conditions and views do not become plan authority. | Time, location, readiness, evidence, gate, bridge, publication, and comparison claims are cited from their own patterns; cards and views add no rows or rules. |

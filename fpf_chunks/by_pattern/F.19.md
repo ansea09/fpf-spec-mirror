@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.19.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
-line_start: 100856
-line_end: 101179
+line_start: 101118
+line_end: 101443
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -144,6 +144,8 @@ Use two reader tests for different decisions.
 
 - The **plausible intended reader** has the knowledge and task presupposed by the text. Use this reader to decide whether a foil, guard, warning, or contrast deserves mention. Do not substitute an adversarial reader who can imagine any false inference, or the author who already knows the answer.
 - The **cold intended reader** lacks the author's private context and unpublished notes. Use this reader after the rewrite: they can recover the object, predicate, participants, relevant kind or ordinary status, relation, action-changing detail, and next useful action.
+
+Recover the instruction from the publication, its stated prerequisites and the knowledge presupposed for its intended reader. An application-test scenario may supply task-specific inputs, such as workload or available resources. Distinguish those inputs from explanations of the instruction supplied only for the test. If only the test scenario explains the action denoted by B2, successful application demonstrates use of that supplied explanation; the publication's wording question remains unanswered. Name or reference the action in the publication, then check recovery without the test-only explanation.
 
 Retain a negative alternative, denied consequence, warning, or non-use statement only when the exact rejected reading has an independent local ground; a plausible intended reader could take that reading here, including an evidenced type mistake; and the distinction changes truth, understanding, selection, safety, stop, reliance, or action. An earlier or source claim, an observed recurring mistake, a serious competing position, a visible representation feature, or an applicable safety risk can supply the ground. The guard itself cannot.
 

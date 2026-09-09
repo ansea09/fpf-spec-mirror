@@ -6,12 +6,12 @@ section_id: "A.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__004_forces.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:3 — Forces"
-line_start: 22726
-line_end: 22734
+line_start: 22732
+line_end: 22740
 dependencies:
   - "A.10"
   - "A.13"
@@ -30,6 +30,7 @@ dependencies:
   - "C.29"
   - "E.10.ROLE"
   - "E.17"
+  - "E.24.PUB"
   - "F.6"
   - "G.11"
   - "G.4"
@@ -53,7 +54,7 @@ keywords:
 
 - **Minimality vs consequence.** Orientation needs a small path; material reliance needs the exact fields that change the decision.
 - **Carrier identity vs claim content.** The same content can appear in several carriers and editions; a carrier can be authentic while the claim is false or stale.
-- **Reusable method vs performed work.** A method describes a repeatable way. Ordinary reading, orientation, or reliance can remain ordinary; a claim about performed `U.Work` requires the dated occurrence and exact bindings.
+- **Reusable method vs performed work.** A method is a repeatable way of doing. Ordinary reading, orientation, or reliance can remain ordinary; a claim about performed `U.Work` requires the dated occurrence and exact bindings consumed by the claim.
 - **Provenance vs result establishment.** A.10 must make a result traceable without establishing the result itself.
 - **Graph convenience vs ontic discipline.** A graph can represent many relations compactly but cannot make them obtain.
 - **Contestability vs confidentiality.** Reliance must be challengeable while sensitive carriers may require scoped, redacted, hashed, or access-controlled views.

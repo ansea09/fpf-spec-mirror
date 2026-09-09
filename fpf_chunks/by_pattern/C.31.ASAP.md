@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.ASAP.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
-line_start: 63401
-line_end: 63723
+line_start: 63658
+line_end: 63980
 dependencies:
   - "A.1.1"
   - "A.10"

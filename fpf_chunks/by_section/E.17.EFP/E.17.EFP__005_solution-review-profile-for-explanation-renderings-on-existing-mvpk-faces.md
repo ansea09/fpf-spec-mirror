@@ -6,12 +6,12 @@ section_id: "E.17.EFP:4"
 section_title: "Solution — review profile for explanation renderings on existing MVPK faces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__005_solution-review-profile-for-explanation-renderings-on-existing-mvpk-faces.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:4 — Solution — review profile for explanation renderings on existing MVPK faces"
-line_start: 83828
-line_end: 84066
+line_start: 84087
+line_end: 84327
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,6 +28,7 @@ dependencies:
   - "A.6.B"
   - "A.7"
   - "B.3"
+  - "C.2.8"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
@@ -167,6 +168,8 @@ This profile classifies explanation use on existing faces; it does not describe 
 When reader fit materially changes the explanation class, bounded use, blocked use, or reopen condition, make only the distinction needed for that change. A familiar audience and static note may need no separate reader-model field. A contrastive or interactive case may need one or more of `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `boundedReaderUse`, or `overreadRisk`.
 
 These names are optional prompts, not a five-field publication block. They only expose the reader-fit difference that changes the present use.
+
+When the bounded use depends on how much selected structure the reader can recover, use `C.2.8` with the relevant preparation, access and budget. Compare recovered structure separately from explanation faithfulness. Keep the exact episteme identified by the first screen: a content change requires its own target, even if the revised explanation is easier to use. The ordinary source-linked note remains sufficient whenever it meets EFP's non-use condition.
 
 #### E.17.EFP:4.3 - Explanation class set
 

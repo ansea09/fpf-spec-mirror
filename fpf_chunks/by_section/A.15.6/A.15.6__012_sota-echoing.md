@@ -6,12 +6,12 @@ section_id: "A.15.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__012_sota-echoing.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:11 — SoTA-Echoing"
-line_start: 27313
-line_end: 27328
+line_start: 27319
+line_end: 27334
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -47,7 +47,7 @@ keywords:
 | [APM, What Is Project Management](https://www.apm.org.uk/resources/what-is-project-management/), current practice wording checked 2026-08-26 | Project practice describes a unique transient endeavor and discrete packages of work directed toward planned objectives. | **Adopt the work selection.** Use independently admitted transient composite Work and obtaining Work-part relations, while separating the temporary performing organization. |
 | Winch, [*An Action Theory of the Project*](https://doi.org/10.1177/87569728241270574), 2025 issue | Distinguishes temporary organization, permanent organization, future-oriented action, intention, and intended future state. | **Adapt.** Keep organization, performed Work, plan or intention, affected referent, and intended state as related objects with different identities. |
 | Sydow, Lundin, Ekstedt, and Braun, [*The theory of temporary organization three decades later*](https://doi.org/10.1016/j.scaman.2025.101405), 2025 | Project plasticity and continuity persist across changing organizational arrangements. | **Adopt as a continuity safeguard.** Let `A.15.1` episode and continuity policy decide project-Work persistence instead of team identity or project label. |
-| Adams et al., [*Defining Cases and Variants for Object-Centric Event Data*](https://arxiv.org/abs/2208.03235), 2022, and Küsters and van der Aalst, [*OCPQ*](https://arxiv.org/abs/2506.11541), 2025 | Real events may relate to several objects; one preselected case key or flattening can lose information, while object-centric queries and constraints select bounded answers. | **Adopt for process and case recovery.** Preserve object relations until a named use selects a grouping, query, or constraint. Its result is evidence or an episteme, not automatically a Method, Work occurrence, or case subject. |
+| Adams et al., [*Defining Cases and Variants for Object-Centric Event Data*](https://arxiv.org/abs/2208.03235), 2022, and Küsters and van der Aalst, [*OCPQ*](https://arxiv.org/abs/2506.11541), 2025 | Real events may relate to several objects; one preselected case key or flattening can lose information, while object-centric queries and constraints select bounded answers. | **Adopt for process and case recovery.** Preserve object relations until a named use selects a grouping, query, or constraint. A selection-result episteme may serve as evidence through an independently obtaining evidence-use relation; it is not automatically a Method, Work occurrence, or case subject. |
 | Jalali, [*Evaluating user acceptance of knowledge-intensive business process modeling languages*](https://doi.org/10.1007/s10270-023-01120-6), 2023 | In two studies of trained course participants, CMMN, DCR, and Declare received different perceived-usefulness and ease-of-use results; interactive simulation may influence learning and perceived usability. | **Adapt as a representation-use boundary.** A notation can help practitioners work with flexible cases, but it does not choose the case subject, establish closure, or prove Work. Keep perceived ease of use and simulation support visible when selecting a description form. |
 | Current FPF `A.3.1`, `A.22`, `A.15.1`, `A.6.1`, and `E.18` | Separates reusable Method, an A.22-selected `U.Structure`, performed Work, reusable operation declaration, and `TransformationFlowStructure`. | **Adopt directly.** Process recovery selects the subject named by the claim; project recovery first admits composite Work under A.15.1. Work supports a Method-enactment or operation-application claim only through its obtaining relation or binding. |
 

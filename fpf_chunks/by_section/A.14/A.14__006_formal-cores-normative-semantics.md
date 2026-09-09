@@ -6,12 +6,12 @@ section_id: "A.14:5"
 section_title: "Formal cores (normative semantics)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__006_formal-cores-normative-semantics.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:5 — Formal cores (normative semantics)"
-line_start: 24334
-line_end: 24414
+line_start: 24340
+line_end: 24420
 dependencies:
   - "A.1"
   - "A.15"
@@ -61,7 +61,7 @@ keywords:
 **Applicability.** Any `U.Holon` that carries an **extensive** measure μ on the chosen scope
 (examples: mass, volume, length‑of‑text, byte size, wall‑time budget).
 
-**Primitive.** `PortionOf(x, y)` means: *x is the same kind of stuff/content as y, but less*.
+**Primitive.** `PortionOf(x, y)` means: *x is a measured part of y of the same kind of stuff/content, allowing x = y; the strict case is ProperPortionOf under POR-2*.
 
 **Axioms (A14‑POR‑\*)**
 

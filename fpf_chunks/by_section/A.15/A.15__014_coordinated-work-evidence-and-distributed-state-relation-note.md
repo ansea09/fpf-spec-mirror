@@ -6,12 +6,12 @@ section_id: "A.15:12a"
 section_title: "Coordinated-work evidence and distributed-state relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__014_coordinated-work-evidence-and-distributed-state-relation-note.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12a — Coordinated-work evidence and distributed-state relation note"
-line_start: 24971
-line_end: 24996
+line_start: 24977
+line_end: 25002
 dependencies:
   - "A.10"
   - "A.13"
@@ -28,6 +28,10 @@ dependencies:
   - "A.20"
   - "A.21"
   - "A.3"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.3"
+  - "A.3.4"
   - "A.6"
   - "A.6.5"
   - "A.7"
@@ -76,12 +80,12 @@ The C.26.2 reading is a minimal evidence-bound `U.Episteme` claim. It is not a g
 
 | Position | Required content |
 | --- | --- |
-| Evidence or provenance relation | Exact Work, or a separate assertion, trace, observation, report, or metric about it, connected to the reading through an admitted A.10 or G.6 relation |
+| Evidence or provenance relation | Exact Work, or a separate assertion, trace, observation, report, or metric about it, connected to the reading through an independently established direct evidence/provenance relation, recoverable through A.10 or G.6 |
 | Time window | When the reading holds and when it decays or needs refresh |
 | Probe or occasion | The question, task, workshop, incident, handover, dashboard, or coordination situation that made the state inferable |
 | Weakest claim | The minimal distributed-state reading carried by the sources |
 | Rival explanations | For example, routine compliance, policy, command, coincidence, incentive, documentation, or local skill |
 | Export loss | What is lost when the reading is summarized into one report, score, or statement |
 
-Useful outputs are an A.15 alignment claim when assignments and Work explain the case; a C.26.2 reading when the evidence survives ordinary rivals; an A.10 evidence relation or B.3 assurance claim when the reading will be used that way; or no distributed-state reading when the sources, rivals, or time window cannot be named.
+Useful outputs are an A.15 alignment claim when assignments and Work explain the case; a C.26.2 reading when the evidence survives ordinary rivals; an A.10 account of the evidence relation or B.3 assurance claim when the reading will be used that way; or no distributed-state reading when the sources, rivals, or time window cannot be named.
 

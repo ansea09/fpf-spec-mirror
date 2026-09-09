@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `886e84cadcc302e1c622aec02a0a0ba1e1c3955d`
+Commit SHA: `f4bad21274b54b57071afb2210a8bdb9f61a1c95`
 
 Chunking method: `pattern-aware`
 
-Patterns: `314`
+Patterns: `315`
 
 ## Patterns
 
@@ -146,6 +146,7 @@ Patterns: `314`
 - [C.2.5 — U.LanguageStateClosureDegree](by_pattern/C.2.5.md)
 - [C.2.6 — U.LanguageStateAnchoringMode](by_pattern/C.2.6.md)
 - [C.2.7 — U.LanguageStateRepresentationFactorBundle](by_pattern/C.2.7.md)
+- [C.2.8 — U.ExtractableStructuralInformation](by_pattern/C.2.8.md)
 - [C.2.P.DR — Declarative Representation Precision Restoration](by_pattern/C.2.P.DR.md)
 - [C.3 — Kinds, Intent and Extent, and Typed Reasoning](by_pattern/C.3.md)
 - [C.3.1 — U.Kind and U.SubkindOf Core](by_pattern/C.3.1.md)

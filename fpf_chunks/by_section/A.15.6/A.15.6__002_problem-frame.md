@@ -6,12 +6,12 @@ section_id: "A.15.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__002_problem-frame.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:1 — Problem frame"
-line_start: 26963
-line_end: 27000
+line_start: 26969
+line_end: 27006
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -48,7 +48,7 @@ Use it also when a team cannot keep its problem-development, solution-developmen
 
 Use it also when a project names a **project system-of-interest** without showing whether that name denotes an already admitted `U.System` or only an intended future System in a plan, or when project designation is being inferred from a system-role label.
 
-An `@Project` name still establishes no locality, authority, parthood, or identity without a direct relation to performed project Work.
+An `@Project` name alone establishes no locality, authority, parthood, or identity. A claim of locality to one actual project requires a direct relation to its performed project Work, as section 4.5 states.
 
 **First useful move.** If the project focus itself is unresolved, state the sought outside difference, relying use, conflicting interests, comparison-and-acceptance conditions, receiving decision, evidence horizon, and main uncertainty. Compare candidate project subjects and materially different solution forms before designating a project system-of-interest or Method-of-interest.
 

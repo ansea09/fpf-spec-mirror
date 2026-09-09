@@ -6,12 +6,12 @@ section_id: "A.15.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__005_solution.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:4 — Solution"
-line_start: 27022
-line_end: 27213
+line_start: 27028
+line_end: 27219
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -109,7 +109,7 @@ First recover every actual performer System's A.13 core: the exact admitted Syst
 Only then apply five project-specific qualification tests to the admitted Work:
 
 1. The composite work has a temporary or transient boundary with a start and a completion or termination condition.
-2. An accepted intention episteme states the intended objective and any intended product, service, result, or value. For this qualification, either an existing direct predicate connects its intended-performance designation to the admitted Work and obtains, or one local claim under A.15.2 or A.6.RCD names the plan or decision, designation, Work, applicable policy, and independently obtaining Work facts. If neither claim can be stated, return `missing-governor` and name the unsupported relation; do not imply a generic plan-or-decision relation.
+2. An accepted intention episteme states the intended objective and any intended product, service, result, or value. For this qualification, either an existing direct predicate connects its intended-performance designation to the admitted Work and obtains, or one local claim under A.15.2 or A.6.RCD names the plan or decision, designation, Work, applicable policy, and independently obtaining Work facts. If no predicate or claim constructor governs the needed connection, return `missing-governor` and name the unsupported relation; use test 5's `factually unsupported` or `missing-information` result when a governor exists but the case does not support the positive claim. Do not imply a generic plan-or-decision relation.
 3. A work-part and continuity policy says how interrupted, resumed, split, or merged work retains or changes identity; the policy decides an actual ambiguity but does not create the Work or its parts.
 4. At least one independently admitted performed Work occurrence is connected to the composite Work by an obtaining work-part relation.
 5. For each claim used to qualify the project, name what the claim is about—the participating system, affected referent, transformation, result referent, or another subject actually asserted—and say how that subject matters to the Work. Then choose one truthful claim form: state an obtaining direct relation of the needed kind; use a typed `A.6.1` binding for one reusable-operation application; state a local production, inception, or completion claim under `A.15.PROD`, or another relation-defined claim under `A.6.RCD`; or return one non-assertability result. For non-assertability, state whether the reason is `factually unsupported`, `missing-information`, or `missing-governor`. Only `missing-governor` means that no pattern currently admits the relation or claim needed for the question, so only that reason reopens ontology. Project wording and container membership supply none of these links.
@@ -158,7 +158,7 @@ For a method-side `U.Structure`, identify the constituents, the selected obtaini
 
 A dated `U.Work` occurrence supports only the fact recovered from it. To show Method enactment, use A.15.1 to state which Method that Work enacts. To show one operation application, name the reusable A.6.1 declaration, the particular application, and its typed argument or result bindings. A shared label, compatible result, trace, record, order, or timestamp establishes neither fact and does not retype Work as a Method or structure.
 
-Do not force multi-object event data into one preselected case key or one flattened sequence. Preserve the relevant object and event relations, then select a process execution, grouping, query, or constraint only when the current use needs it. The selection is a modeling decision; its result is evidence or an episteme about the observed material, not Method identity. Stop when the reusable way, selected organization, or transformation-flow question has been answered.
+Do not force multi-object event data into one preselected case key or one flattened sequence. Preserve the relevant object and event relations, then select a process execution, grouping, query, or constraint only when the current use needs it. The selection is a modeling decision. A selection-result episteme concerns the observed material and serves as evidence only through an independently obtaining evidence-use relation; neither the selection nor that evidence use establishes Method identity. Stop when the reusable way, selected organization, or transformation-flow question has been answered.
 
 #### A.15.6:4.3 - Recover a case concern through one named subject or claim
 

@@ -6,12 +6,12 @@ section_id: "C.2.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__002_problem-frame.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:1 — Problem frame"
-line_start: 44224
-line_end: 44226
+line_start: 44230
+line_end: 44232
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -29,6 +29,7 @@ dependencies:
   - "C.2.1"
   - "C.2.2a"
   - "C.2.5"
+  - "C.2.8"
   - "C.2.LS"
   - "C.2.P.DR"
 keywords:
@@ -40,5 +41,5 @@ keywords:
 ---
 
 ### C.2.4:1 - Problem frame
-A governed `U.Episteme` can matter while its semantic shape is only partly explicit. The declared language-state chart over `U.CharacteristicSpace` therefore needs one basis-slot pattern for how much of that shape a reader can recover, without assuming in advance whether the direct branch is relational, planning, method, Work, representation, prompt, characteristic, or ordinary domain content.
+A governed `U.Episteme` can matter while its semantic shape is only partly explicit. The declared language-state chart over `U.CharacteristicSpace` therefore needs one basis-slot pattern for the degree to which that shape is explicitly articulated, without assuming in advance whether the direct branch is relational, planning, method, Work, representation, prompt, characteristic, or ordinary domain content.
 

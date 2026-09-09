@@ -6,12 +6,12 @@ section_id: "A.15.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__003_problem.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:2 — Problem"
-line_start: 25981
-line_end: 25990
+line_start: 25987
+line_end: 25996
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -45,7 +45,7 @@ Without this boundary, five failures recur:
 
 1. **Generic slot creation.** Any description field named input, output, role, result, or parameter is treated as a SlotSpec.
 2. **Declaration-family collapse.** RelationSignature SlotSpecs and operation arguments or results are placed in one undifferentiated slot schema.
-3. **Plan-as-actual inference.** A planned value is treated as an obtaining relation participant or actual operation binding.
+3. **Plan-as-actual inference.** A planned value is treated as a participant in an obtaining relation or an actual operation binding.
 4. **Description-as-declaration inference.** A `U.MethodDescription` that mentions an input or effect is treated as if it declared a reusable participant locus.
 5. **Baseline rewrite.** Performed values are copied back into the plan, erasing substitution and variance.
 

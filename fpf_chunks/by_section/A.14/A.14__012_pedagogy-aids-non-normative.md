@@ -6,12 +6,12 @@ section_id: "A.14:11"
 section_title: "Pedagogy aids (non-normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__012_pedagogy-aids-non-normative.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:11 — Pedagogy aids (non-normative)"
-line_start: 24556
-line_end: 24566
+line_start: 24562
+line_end: 24572
 dependencies:
   - "A.1"
   - "A.15"
@@ -61,5 +61,5 @@ keywords:
 3. Does every AspectOf name the aspect, bearer, facet rule, occurrence, and identity rule—and avoid replacing a Characteristic, view, projection, partition, or time window?
 4. Is every PhaseOf a proper interval of one unchanged carrier rather than another episteme or Work occurrence?
 5. Does every collection claim use its own belongs-to rule without inferring or prohibiting a separate part relation?
-6. Are local system-role kinds, assignments, Methods, Work, views, and traces kept outside the part tree unless an independently admitted carrier and direct part relation are current?
+6. Are local system-role kinds, assignments, Methods, Work, views, and traces kept outside the part tree unless an independently admitted entity and direct part relation are current?
 

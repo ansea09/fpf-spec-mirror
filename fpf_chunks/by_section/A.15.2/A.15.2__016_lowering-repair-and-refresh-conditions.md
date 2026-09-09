@@ -6,12 +6,12 @@ section_id: "A.15.2:10"
 section_title: "Lowering, repair, and refresh conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__016_lowering-repair-and-refresh-conditions.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:10 — Lowering, repair, and refresh conditions"
-line_start: 25924
-line_end: 25933
+line_start: 25930
+line_end: 25939
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,6 +33,7 @@ dependencies:
   - "B.1.6"
   - "B.3"
   - "C.2.1"
+  - "C.27.TA"
   - "C.32.P2S"
   - "E.17"
   - "E.24"
@@ -57,7 +58,7 @@ keywords:
 
 ### A.15.2:10 - Lowering, repair, and refresh conditions
 
-Lower a candidate `U.WorkPlan` claim when the reader cannot identify one present EntityOfConcern, the effective `U.ReferenceScheme`, the horizon, one substantive `PlanItem`, or its intended-performance designator well enough to coordinate the intended work. Split the claim content when several existing subjects have no one jointly identified EntityOfConcern. The acceptable lowered object is a planning cue, schedule or forecast representation, method-description note, missing-source-relation note, `A.15.4` repair request, publication-use cue, readiness-gap note for A.15.5, or evidence-reference note, not a conforming WorkPlan.
+Lower a candidate `U.WorkPlan` claim when the reader cannot identify one present EntityOfConcern, the effective `U.ReferenceScheme`, the horizon, one substantive `PlanItem`, or its intended-performance designator well enough to coordinate the intended work. Split the claim content when several existing subjects have no one jointly identified EntityOfConcern. Retain any independently identified planning cue, schedule or forecast representation, method-description note, missing-source-relation note, `A.15.4` repair request, publication-use cue, readiness-gap note for A.15.5, or evidence-reference note; do not claim a conforming WorkPlan without its membership basis.
 
 When intended method, window, performer System or local system-role-kind condition, capability requirement, resource budget, dependency, commitment, acceptance target, baseline, plan-content claim, local comparison policy, or exception policy changes, repair the exact ClaimGraph. If claim content, present EntityOfConcern, or effective reference scheme changes, C.2.1 identifies another episteme. Then ask separately whether `EpistemeEditionRelation` obtains between the two exact epistemes and name it only when it does. With no earlier plan episteme in scope, the result is a first plan. When another plan episteme is present but the edition predicate does not obtain, the result is a non-continuing replacement. A changed file, carrier, layout, publication, ticket key, revision label, or change note alone establishes neither reidentification nor continuity.
 

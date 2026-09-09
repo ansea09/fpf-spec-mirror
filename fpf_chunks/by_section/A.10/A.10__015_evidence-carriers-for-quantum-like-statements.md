@@ -6,12 +6,12 @@ section_id: "A.10:10a"
 section_title: "Evidence carriers for quantum-like statements"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__015_evidence-carriers-for-quantum-like-statements.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:10a — Evidence carriers for quantum-like statements"
-line_start: 23059
-line_end: 23064
+line_start: 23065
+line_end: 23070
 dependencies:
   - "A.10"
   - "A.13"
@@ -30,6 +30,7 @@ dependencies:
   - "C.29"
   - "E.10.ROLE"
   - "E.17"
+  - "E.24.PUB"
   - "F.6"
   - "G.11"
   - "G.4"
@@ -51,7 +52,7 @@ keywords:
 
 ### A.10:10a - Evidence carriers for quantum-like statements
 
-Use A.10 when a quantum-like statement is being relied on. Name the minimal claim, selected source episteme and edition, any material publication occurrence, form, or carrier, time and currentness, rival explanation, bounded use, unsupported attempted use, and `RelianceDisposition`. Add producing or interpreting dated `U.Work`, Method, actual bindings, and a Work-to-value predicate only when those facts are independently current. Use C.16 for ordinary measurement, the relevant C.26 pattern for probe or frame effects, F.9 for Bridge loss, C.29 for representation, and B.3 for material assurance.
+Use A.10 when a quantum-like statement is being relied on. Name the minimal claim, selected source episteme and edition, any material publication occurrence, form, or carrier, time and currentness, rival explanation, bounded use, unsupported attempted use, and `RelianceDisposition`. Add producing or interpreting dated `U.Work`, Method, actual bindings, and a Work-to-value predicate only when those facts are independently current. Use C.16 for ordinary measurement, the relevant C.26 pattern for probe or frame effects, F.9 for Bridge loss, C.29 for mathematical representation, and B.3 for material assurance.
 
 The `quantum-like` label has no evidence weight. A descriptive graph may represent the source and use relations only after those relations are established.
 

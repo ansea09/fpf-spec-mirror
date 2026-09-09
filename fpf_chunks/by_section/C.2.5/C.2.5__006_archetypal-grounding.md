@@ -6,12 +6,12 @@ section_id: "C.2.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__006_archetypal-grounding.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:5 — Archetypal Grounding"
-line_start: 44479
-line_end: 44485
+line_start: 44487
+line_end: 44493
 dependencies:
   - "A.16"
   - "A.16.0"

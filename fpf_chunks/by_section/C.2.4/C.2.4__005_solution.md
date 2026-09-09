@@ -6,12 +6,12 @@ section_id: "C.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__005_solution.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:4 — Solution"
-line_start: 44237
-line_end: 44273
+line_start: 44243
+line_end: 44281
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -29,6 +29,7 @@ dependencies:
   - "C.2.1"
   - "C.2.2a"
   - "C.2.5"
+  - "C.2.8"
   - "C.2.LS"
   - "C.2.P.DR"
 keywords:
@@ -40,7 +41,7 @@ keywords:
 ---
 
 ### C.2.4:4 - Solution
-`U.ArticulationExplicitness` is an ordinal characteristic of how much of a governed episteme publication's semantic shape a reader can recover for publication, routing, repair, or direct use. The common direction is independent of the semantic branch.
+`U.ArticulationExplicitness` is an ordinal characteristic of the degree to which a governed episteme's semantic structure is explicitly articulated for its branch and receiving use. It orders progression from a cue to a complete branch-appropriate expression whose meaning remains stable in a named receiving use. The common direction is independent of the semantic branch.
 
 #### C.2.4:4.0a - Kind and characteristic boundary
 
@@ -53,6 +54,8 @@ keywords:
 - **What does not follow automatically:** truth, trust, closure, admissibility, or formality.
 
 `AE` is therefore independent from `F`, from `LanguageStateClosureDegree`, and from endpoint authority.
+
+Use `C.2.8` to compare how much selected structure a reader can correctly extract under stated preparation, access and budget, including when both expressions already meet the same `AE` threshold. Reader recovery supports an `AE` judgment about explicit articulation; it does not turn the `AE0`–`AE5` progression into a scale of extractable structural amount.
 
 #### C.2.4:4.2 - Starter anchor set
 | Anchor | Reading | Typical admissible publication state |

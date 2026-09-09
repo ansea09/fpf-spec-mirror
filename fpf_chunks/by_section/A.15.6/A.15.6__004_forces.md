@@ -6,12 +6,12 @@ section_id: "A.15.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__004_forces.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:3 — Forces"
-line_start: 27007
-line_end: 27021
+line_start: 27013
+line_end: 27027
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -44,10 +44,10 @@ keywords:
 | Force | Tension |
 |---|---|
 | Familiar management vocabulary vs kind precision | Project, process, and case are useful recognition words, but they do not by themselves provide FPF identity rules. |
-| Unique occurrence vs repeatable way | One Work whole has a dated 4D identity and is first admitted by A.15.1 from A.13-qualified actual performer facts, independently grounded performance history, an enacted Method, extent, and containment. When precise assignment-bound performer attribution is current, the combined A.13/A.15.1/F.6 basis additionally relates that already admitted Work through the same obtaining assignment. A reusable Method may be enacted by many Work occurrences, but every enactment claim must state the obtaining A.15.1 relation between that Work and Method. Relations among method-side values remain direct until all four A.22 discriminators select a `U.Structure`; a `TransformationFlowStructure` separately organizes transformation flows. None is the dated Work or a Method holon. |
+| Unique occurrence vs repeatable way | One Work whole has a dated 4D identity and is first admitted by A.15.1 from A.13-qualified actual performer facts, independently grounded performance history, an enacted Method, extent, and containment. When precise assignment-bound performer attribution is current, the combined A.13/A.15.1/F.6 basis additionally relates that already admitted Work through the same obtaining assignment. A reusable Method may be enacted by many Work occurrences, but every enactment claim must state the obtaining A.15.1 relation between that Work and Method. Relations among method-side values remain direct until all four A.22 discriminators select a `U.Structure`; a `TransformationFlowStructure` separately organizes transformation flows. A selected method-side structure or transformation-flow structure is neither the dated Work nor a Method holon. |
 | Case subject or claim vs neighboring history | A case follows the named subject or claim in its closure question; Work, changes, editions, measurements, decisions, evidence, records, and downstream use remain separately defined. |
 | Intention vs actuality | A charter, plan, authorization, or funded intention can establish intended work without making performed work occur. |
-| Actual system vs intended future system | A plan can describe the system the work is meant to produce or use, but no `U.System` or assignment exists before the applicable identity-inception boundary. |
+| Actual system vs intended future system | A plan can describe the system the work is meant to produce or use, but an intended future System cannot be treated as an existing `U.System` or assignment holder before its applicable identity-inception boundary. |
 | Project designation vs system-role classification and assignment | A project may designate one System without classifying it under a local system-role kind or asserting a system-role assignment. Conversely, an A.2 classification under a local system-role kind, or even an assignment occurrence and its declared `U.SystemRoleAssignment` species, does not prove that the project designated the holder. |
 | Expected target vs actual result | An objective or target guides work; an actual change, produced entity, evaluation, delivery, acceptance, or later use needs the pattern and facts that define its relation to the Work. |
 | Temporary work vs temporary organization | A team or organization may change while the same work whole continues, or persist across several work wholes. |

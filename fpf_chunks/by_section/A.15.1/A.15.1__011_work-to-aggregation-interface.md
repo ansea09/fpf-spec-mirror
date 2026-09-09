@@ -6,12 +6,12 @@ section_id: "A.15.1:9"
 section_title: "Work-to-aggregation interface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__011_work-to-aggregation-interface.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:9 — Work-to-aggregation interface"
-line_start: 25496
-line_end: 25529
+line_start: 25502
+line_end: 25535
 dependencies:
   - "A.1"
   - "A.10"
@@ -87,5 +87,5 @@ When an exact `B.1.6` aggregation must allocate shared or overlapping resource u
 
 Whichever policy is selected, add only disjoint or explicitly deduplicated values and keep every aggregate figure traceable to its contributing Work refs and evidence. A policy label alone establishes neither allocation nor ledger value.
 
-A Work publication or KPI may cite either result through the exact E.17 publication-use relation that projects it. It may not recreate an unselected operator, infer an aggregate from parthood, or turn an aggregation record into a Work occurrence.
+A Work publication or KPI may cite either result through the E.17 publication face that projects that exact result. It may not recreate an unselected operator, infer an aggregate from parthood, or turn an aggregation record into a Work occurrence.
 

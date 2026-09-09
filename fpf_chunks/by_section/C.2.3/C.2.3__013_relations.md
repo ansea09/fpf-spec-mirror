@@ -6,12 +6,12 @@ section_id: "C.2.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__013_relations.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:12 — Relations"
-line_start: 43786
-line_end: 43793
+line_start: 43792
+line_end: 43799
 dependencies:
   - "A.16"
   - "A.18"

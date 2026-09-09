@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__003_problem.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:2 — Problem"
-line_start: 15429
-line_end: 15442
+line_start: 15432
+line_end: 15445
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -21,6 +21,8 @@ dependencies:
   - "A.6.3.RT"
   - "A.6.4"
   - "B.3"
+  - "C.2.8"
+  - "C.29"
   - "C.33"
   - "C.34"
   - "C.35"
@@ -51,5 +53,5 @@ Without `A.6.3.NAR`:
 4. engagement is allowed to raise confidence, authority, ethical permission, or policy force without the current evidence relation, assurance result, ethical basis, or policy basis required for that stronger claim;
 5. generated narrative output is trusted because it is coherent or dramatic;
 6. exact identity and assurance fields are demanded before an ordinary reader-useful narrative exists, making the pattern needlessly hard to enter; and
-7. teaching material can be smuggled into pattern bodies instead of being kept in a separate teaching or publication carrier.
+7. seminar scripts or exercise sets replace reusable pattern guidance instead of being kept in a separate teaching or publication carrier.
 

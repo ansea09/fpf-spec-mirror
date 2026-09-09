@@ -6,12 +6,12 @@ section_id: "A.15.5:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:5 — Archetypal Grounding - Worked Slices"
-line_start: 26857
-line_end: 26886
+line_start: 26863
+line_end: 26892
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,15 +63,15 @@ The C.2.1 episteme `FixtureTestEntryReadinessResult-E1`, whose exact EntityOfCon
 
 Situation: an assisting agent can run a reversible documentation probe to find source-currentness gaps.
 
-For the probe itself, apply one exact readiness criterion to its WorkPlan, using the designated declaration-local PlanItem content that the criterion needs, and return the local readiness value with its relied-on inputs, window, and recheck condition. If the probe is actually run, first recover the precise performer System's A.13 core for that action and independently admit the dated occurrence as `U.Work` under A.15.1 from its performance history, enacted Method, extent, and containing-System relation. Add F.6 afterward only when the target repair-readiness account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; otherwise leave F.6 unopened. Then run a separate readiness check for the target repair. The probe plan, probe readiness result, performed probe, and target-repair readiness result are four distinct claims.
+For the probe itself, apply one exact readiness criterion to its WorkPlan, using the designated declaration-local PlanItem content that the criterion needs, and return the local readiness value with its relied-on inputs, window, and recheck condition. If the probe is actually run, first recover the precise performer System's A.13 core for that action and independently admit the dated occurrence as `U.Work` under A.15.1 from its performance history, enacted Method, extent, and containing-System relation. Add F.6 afterward only when the target repair-readiness account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; otherwise leave F.6 unopened. Then run a separate readiness check for the target repair. The claims about the probe plan, probe readiness result, performed probe, and target-repair readiness result are four distinct claims.
 
 #### A.15.5:5.3 - Release screen with separate readiness, gate, and permission windows
 
 At `10:00`, `ReleaseReadinessCheck-12 : U.Work` evaluates `ReleasePlan-E7`, `PlanItem-Deploy-12`, and `ReleaseEntryCriterion-E3`. The persisted result says `ready` for reliance only in `[10:00, 10:30)` and requires recheck after any source, resource, assignment, permission, or gate-input change.
 
-At `10:05`, exact A.21 `OperationalGate(Release-Core-E4)` consumes that readiness result as one declared `GateCheckRef` among its current check set and publishes `GateDecision=pass` with `DecisionLogRef=ReleaseGateLog-12` for `[10:05, 10:20)`. That gate result is not the readiness result and does not institute permission.
+At `10:05`, the current A.21 application of profile `Release-Core-E4` consumes that readiness result through one identified `GateCheckApplicationResult`, cited by its `GateCheckRef`, among the complete effective check set. The gate returns a `GateDecisionResult` with `decisionValue=pass` for `[10:05, 10:20)`; `DecisionLogRef=ReleaseGateLog-12` cites the separate log recording that result. That gate result is not the readiness result and does not institute permission.
 
 Separately, exact A.2.8.PER `GrantedPermissionRelation@Context` occurrence `DeployGrant-12` covers the named beneficiary and deployment action for `[09:00, 11:00)`. `DeployNonProhibitionFinding-E2` reports `nonProhibited` from its named current frame, explicitly complete for this use, in evaluation window `[10:00, 10:15)`; it is not the grant. A `PermissionNormConflictFinding@Context`, if an incompatible current norm is established over the same content and window, would be a third permission-side input and an unresolved disposition would stop the use. A policy that requires readiness, gate passage, a current grant, and the frame-relative non-prohibition result may rely on those distinct inputs at `10:10`; it must re-evaluate the relevant branch when any window ends or a conflict appears. None of them proves that deployment Work occurred. A.15.1 identifies that Work only after its dated occurrence basis obtains.
 
-If a dashboard shows green but the exact readiness result or its reliance window, the current `OperationalGate(profile)` and `DecisionLogRef`, or the required permission value and qualification window cannot be recovered, the display remains a cue, an appearance-based reliance question, or a prompt to open the exact A.10 evidence-provenance and applicable currentness question for the claim being relied on. It is not readiness, evidence sufficiency, gate passage, authorization, or performed work by appearance.
+If a dashboard shows green but the exact readiness result or its reliance window, the current A.21 profile application and `DecisionLogRef`, or the required permission value and qualification window cannot be recovered, the display remains a cue, an appearance-based reliance question, or a prompt to open the exact A.10 evidence-provenance and applicable currentness question for the claim being relied on. It is not readiness, evidence sufficiency, gate passage, authorization, or performed work by appearance.
 

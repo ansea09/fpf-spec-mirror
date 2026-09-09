@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 15719
-line_end: 15731
+line_start: 15725
+line_end: 15737
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -21,6 +21,8 @@ dependencies:
   - "A.6.3.RT"
   - "A.6.4"
   - "B.3"
+  - "C.2.8"
+  - "C.29"
   - "C.33"
   - "C.34"
   - "C.35"
@@ -50,5 +52,5 @@ keywords:
 | Engagement as evidence | Attention, transportation, or emotional uptake is treated as stronger truth or permission. | Keep engagement as a bounded use effect; use A.10, B.3, or D.1–D.5 only for the specific evidence, assurance, or ethics claim. |
 | Narratology word import | Plot, focalization, voice, protagonist, suspense, or narrator are treated as automatic Core kinds. | Keep domain vocabulary in narrative practice unless a separate Core decision admits a reusable distinction. |
 | Generated narrative by fluency | LLM output is accepted because it reads coherently. | Compare it with admitted source claims, use C.35 for generated-carrier admission, and open exact NAR only if the receiving use requires it. |
-| Teaching material inside pattern body | A seminar script or exercises replace the reusable pattern. | Keep teaching material in a separate teaching or publication carrier; the pattern states the reusable move, boundaries, and checks. |
+| Teaching material inside pattern body | A seminar script or exercises replace the reusable pattern. | Keep seminar scripts and exercise sets in a separate teaching or publication carrier; the pattern states the reusable move, boundaries, and checks. |
 

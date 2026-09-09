@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__005_solution.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:4 — Solution"
-line_start: 15453
-line_end: 15623
+line_start: 15456
+line_end: 15629
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -21,6 +21,8 @@ dependencies:
   - "A.6.3.RT"
   - "A.6.4"
   - "B.3"
+  - "C.2.8"
+  - "C.29"
   - "C.33"
   - "C.34"
   - "C.35"
@@ -47,7 +49,7 @@ Produce the ordinary useful result first:
 2. Point to the source material and select only the structures needed for that use. Say why those structures matter.
 3. State temporal posture or mediation only when it changes the ordering or the trust boundary.
 4. Choose an ordering and connective account: event, causal, discovery, didactic, tension, traversal, or another explicit rule.
-5. Draft the smallest narrative that lets the reader follow that path. For technical prose, use F.19 for sentence-level repair.
+5. Draft the smallest narrative that lets the reader follow that path. For technical prose, use F.19 for precise plain-language repair.
 6. Compare the draft back to the source material. Record what it preserves and foregrounds, what it omits or weakens, and which connective or interpretive statements are not source claims.
 7. State the admissible narrative use and the return condition. Name when exact source material must be restored, or state the stronger claim-specific question and apply the pattern whose Solution answers it. Use F.19:4's plausible-reader test for any optional non-admissible use.
 
@@ -120,6 +122,8 @@ StructureToNarrativeRenderingCase:
 `selectedSourceStructureRefs` identifies the selected structures. A PatternID mentioned in `sourceStructureSelectionRationale` or surrounding prose only locates the content used to recognize or test them; it is not another structure reference. Include `sourceStructureDefinitionClaimEpistemeRefs` or `sourceStructureConstraintClaimEpistemeRefs` only when the exact identity of one or more definition or constraint claims changes reconstruction, comparison, dispute, or reliance. Both lists may be present and each resolves only to claim-bearing C.2.1 epistemes of the named kind.
 
 Resolve `X` and `Y` to their complete C.2.1 identities and use this record only for the construction account. When actual production history matters, recover each precise performer's A.13 core and independently admit dated narrative-construction Work under A.15.1; add F.6 afterward only when precise assignment-bound attribution is current. `readerInterestOrUseHypothesis` remains the working hypothesis. Include each optional System, system-role-kind, or assignment reference only when its exact referent and direct claim obtain independently. Connect source epistemes, parameters, methods, tools, and `Y` through exact direct relations or A.6.1 bindings. If the Work first constitutes `Y` and that inception claim matters, use A.15.PROD to test that separate local claim.
+
+`epiplexityOrStructuralInformationRef?` refers to a qualified `C.2.8` comparison or estimate when the narrative use depends on structural amount. Identify the receiving narrative episteme, its expressing form, the observer and relevant preparation, access and budget. A formal epiplexity or other mathematical estimate uses the `C.29` model-to-characteristic correspondence; a domain estimate retains its scale and evaluation conditions. The field remains optional for the ordinary narrative and note.
 
 `nonAdmissibleDownstreamUse?`, also named `groundedNonAdmissibleDownstreamUse?`, is one optional explanatory field governed by F.19:4's plausible-reader test.
 
@@ -208,5 +212,6 @@ An ordinary narrative remains fit while its source material, selected structures
 | Generated output, source-pack plan, schema, or admission result changes | Use C.35 for generated-carrier admission and G.2 for source-pack claims; reopen NAR only for the affected source-to-narrative relation, loss, and return. |
 | Domain narrative vocabulary or relevant narrative, NLG, or cognitive SoTA changes a relied-on field | Refresh that domain basis and replay the affected use; do not enlarge Core vocabulary merely to mirror the domain source. |
 | Downstream use requires evidence, assurance, ethics, publication, policy, decision, or work authority that NAR does not supply | Keep NAR as the narrative construction account and state the stronger claim under `A.10`, `B.3`, `D.1`–`D.5`, `E.24.PUB`, or the exact pattern that defines the needed decision or Work relation. |
-| A correspondence or preservation claim weakens | Use C.34 only for the correspondence that remains; use C.33 for captured/lost architecture-relevant structures and the domain evaluation pattern for other narrative epiplexity. Lower uses that required stronger sameness. |
+| A correspondence or preservation claim weakens | Use C.34 only for the correspondence that remains and C.33 for captured/lost architecture-relevant structures. Revisit a depended-on `C.2.8` structural comparison and its domain evaluation when the weakened claim changes what counts as correct recovery. Lower uses that required stronger sameness. |
+| Observer preparation, access, assistance or budget changes for a relied-on structural-amount claim | Reopen that `C.2.8` comparison under the changed conditions. Revise the narrative when the changed recovery no longer supports its stated reader use. |
 

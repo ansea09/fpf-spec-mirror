@@ -6,12 +6,12 @@ section_id: "A.15.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__004_forces.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:3 — Forces"
-line_start: 26773
-line_end: 26782
+line_start: 26779
+line_end: 26788
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,6 +52,6 @@ keywords:
 | Work-entry speed | Teams need a short readiness result before work entry. |
 | Open-world discipline | An input omitted from one criterion is not thereby absent; an unavailable required fact returns `unknown` unless an applicable explicit failure condition is established. |
 | Plan and work split | A readiness claim can cite intended work and performed preparation or checking Work without becoming performed target Work. |
-| Gate separation | An A.21 gate may consume a readiness result as a declared check input, but readiness does not publish a `GateDecision`. |
+| Gate separation | An A.21 gate may consume a readiness result as a declared check input, but readiness does not publish a `GateDecisionResult`. |
 | Full-kit usefulness | Full-kit thinking is valuable when it states what must be known, prepared, reserved, or checked before work starts. |
 

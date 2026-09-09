@@ -6,12 +6,12 @@ section_id: "A.15.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__011_rationale.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:10 — Rationale"
-line_start: 26929
-line_end: 26934
+line_start: 26935
+line_end: 26940
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,5 +49,5 @@ keywords:
 
 The readiness question is practical and recurrent: should this intended work enter the work boundary now? FPF already has the kinds needed to answer it. One local criterion and result claim keep the answer inspectable without collapsing the plan, its inputs, the checking Work, gate, permission, or target Work into one object.
 
-The local result is deliberately dependent on exact inputs defined in their subject patterns. It preserves the `U.WorkPlan`, its A.15.3 declaration-local planned-filling content, `U.Work`, A.21 gate decisions, resource claims, and the A.15.4 appearance-based reliance question as distinct values while giving the practitioner one inspectable answer. It may consume an immediate A.15.4 disposition within the same use; only a separately persisted C.2.1 claim is citable later. It does not turn every missing input into a source problem or package cited inputs into its own identity.
+The local result is deliberately dependent on exact inputs defined in their subject patterns. It preserves the `U.WorkPlan`, its A.15.3 declaration-local planned-filling content, `U.Work`, A.21 gate decisions, resource claims, and the A.15.4 appearance-based reliance question as distinct values while giving the practitioner one inspectable answer. It may consume an immediate A.15.4 disposition within the same use; only a separately persisted C.2.1 claim is citable later. It does not turn every missing input into a source problem or merge the cited inputs with the result episteme; their references remain claim content.
 

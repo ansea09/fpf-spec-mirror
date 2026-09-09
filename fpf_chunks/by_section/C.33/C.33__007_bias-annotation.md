@@ -6,12 +6,12 @@ section_id: "C.33:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__007_bias-annotation.md"
-commit_sha: "886e84cadcc302e1c622aec02a0a0ba1e1c3955d"
+commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:6 — Bias-Annotation"
-line_start: 67326
-line_end: 67335
+line_start: 67585
+line_end: 67594
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -19,6 +19,7 @@ dependencies:
   - "C.16"
   - "C.18"
   - "C.19"
+  - "C.2.8"
   - "C.25"
   - "C.29"
   - "C.30"
