@@ -6,12 +6,12 @@ section_id: "G.8:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__011_consequences.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:10 — Consequences"
-line_start: 106124
-line_end: 106131
+line_start: 106126
+line_end: 106133
 dependencies:
   - "A.10"
   - "A.21"

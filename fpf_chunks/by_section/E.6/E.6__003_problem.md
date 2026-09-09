@@ -6,12 +6,12 @@ section_id: "E.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__003_problem.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "E.6 — Didactic Architecture of the Specification"
   - "E.6:2 — Problem"
-line_start: 73586
-line_end: 73592
+line_start: 73588
+line_end: 73594
 dependencies:
   - "E.2"
 keywords:

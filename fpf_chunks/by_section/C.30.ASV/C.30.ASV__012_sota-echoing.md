@@ -6,12 +6,12 @@ section_id: "C.30.ASV:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__012_sota-echoing.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:11 — SoTA-Echoing"
-line_start: 61879
-line_end: 61891
+line_start: 61881
+line_end: 61893
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.22:End"
 section_title: "A.22:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__014_a-22-end.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:End — A.22:End"
-line_start: 35967
-line_end: 35968
+line_start: 35969
+line_end: 35970
 dependencies:
   - "A.1"
   - "A.1.1"

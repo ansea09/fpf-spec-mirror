@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__004_problem.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:2 — Problem"
-line_start: 34560
-line_end: 34579
+line_start: 34562
+line_end: 34581
 dependencies:
 keywords:
   - "SelectEligibility"

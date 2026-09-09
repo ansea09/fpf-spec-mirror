@@ -6,12 +6,12 @@ section_id: "F.0.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__003_problem.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:2 — Problem"
-line_start: 93396
-line_end: 93401
+line_start: 93398
+line_end: 93403
 dependencies:
   - "E.10"
   - "E.10.D1"

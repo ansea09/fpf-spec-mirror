@@ -444,7 +444,7 @@ Use FPF as a reference model and pattern language, not as a linear textbook. Sta
 
 This readme is a thin public practical-use rendering of FPF for engineers, researchers, managers, reviewers, and AI-assisted project workers deciding what FPF can help them do now. It foregrounds the project questions most likely to pay off and deliberately coarsens, omits, or defers the full pattern language, source publications, source-use history, and relation structure. When a claim becomes important, use the Preface and Table of Contents as locators, then inspect the exact definition, constraint, test, method, evidence rule, or assurance rule needed for that claim in the cited pattern body; do not treat this readme as the specification.
 
-Begin with the project object at stake and the current question about it. FPF often calls an object a holon when it is being treated as a whole with parts: a machine, product, organization-as-system, body of knowledge, publication system, work occurrence, discipline, AI-agent arrangement, method, or local framework admitted under part-whole treatment.
+Begin with the project object at stake and the current question about it. In FPF, a holon is an object whose actual construction supports treatment as a whole with parts and as a possible part of a larger whole. Examples, when they meet the conditions in `A.1`, include a machine, product, organization-as-system, body of knowledge, publication system, work occurrence, discipline, AI-agent arrangement, method, or local framework.
 
 Bare claim-bearing *role* has no single FPF referent. Start with `E.10.ROLE`, then continue through the object or relation it recovers. If the recovered wording is a claim-bearing function use, apply `A.6.F` and its selected subject pattern. Do not choose a branch from the trigger word alone. Once the object and question are named, ask which structure, claim, decision, evidence, description, Work, or improvement relation is current.
 
@@ -582,12 +582,12 @@ The keys only help navigation. Compare cards by the situation and intended resul
 
 #### RESULT-TO-NEXT-MOVE — Route an obtained result to the next probe or option
 
-- **Situation:** A DPF or project calls something information gain, learning progress, novelty, or a former cue and wants it to change the next probe or option.
+- **Situation:** A DPF or project calls something information gain, learning progress, or novelty, or has articulated a result from an earlier cue, and wants to use it to choose the next probe or option.
 - **Question:** What result actually exists, and which downstream question, if any, is current?
 - **First useful result or honest blocker:** The direct result plus the first needed reliance disposition, characterization, possibility-space claim, configuration-relative comparison, `ChoiceResult`, or missing basis.
 - **Mantra:** Name the result; split ambiguous learning claims; keep each with its direct pattern. Move only to the current question: relied-on evidence, characterization or possibility space, realizable configuration comparison, or live choice. Stop when the present question is answered.
 - **Start with:** Use `E.10.LRN` only to recover a result hidden by *learning*; otherwise its direct pattern. Then use `A.10` only for actual reliance, `C.17`/`C.18` only for characterization/space change, `C.11.CRC` only for a missing finite configuration comparison, and `C.11` only for a live choice.
-- **Stop or return:** Stop before every non-current question. Observation, objective, former cue, and characterization retain their identities; this card creates no generic signal, cue, qualification, or choice.
+- **Stop or return:** Stop before every non-current question. Observations, objectives, and characterizations retain their identities. Route the result articulated from a cue through its direct pattern; if its `A.16.1` cue pack remains current as a source or provenance, retain it separately.
 
 #### ACTUAL-TEMPORAL-STRUCTURE — Recover what actually obtains before testing coordination
 
@@ -645,10 +645,10 @@ The keys only help navigation. Compare cards by the situation and intended resul
 
 #### CONSEQUENCE-BEARERS — Find omitted Systems before closing a decision
 
-- **Situation:** A change has one plausible receiver, but the list may omit other physical or operational wholes that can change.
-- **Question:** Which other Systems may undergo a relevant change, through what supported relation or still-modal path, and what should the receiver do next?
+- **Situation:** A consequence account for a decision or investigation may omit physical or operational wholes beyond its candidate bearer.
+- **Question:** Which other Systems may undergo a relevant change, through what supported relation or still-modal path, and what next step follows for the decision or investigation?
 - **First useful result or honest blocker:** A bounded consequence account with its focus, bearers or intended referents, obtaining or modal paths, changed characteristics, support, uncertainty, and material limit. A useful constraint, alternative, or explicit unknown can complete the answer; further discovery needs a worthwhile obtainable contribution.
-- **Mantra:** Name the focus and receiver; trace obtaining relations and modal paths separately; challenge the boundary; recover real holons; qualify each change; keep the sides distinct; return the useful answer and its limit. Select further inquiry by its individual and combined contribution and burden.
+- **Mantra:** Name the focus and receiving decision or investigation; trace obtaining relations and modal paths separately; challenge the boundary; recover real holons; qualify each change; keep each bearer's changes and conditions distinct; return the useful answer with its limit. Select further inquiry by individual and combined contribution and burden.
 - **Start with:** `A.1.CSD`; use `A.1.SCR` only when a candidate's systemhood is load-bearing, and leave through the direct evidence, causality, comparison, domain, or value pattern only when that stronger question is current.
 - **Stop or return:** Stop at the smallest account that changes or holds open the named decision or investigation. Return when the focus, configuration, horizon, whole, relation support, bearer, observation, or receiving use changes.
 
@@ -679,11 +679,11 @@ There are three common ways to use FPF:
 2. Mixed team: use it to keep specialists, managers, safety leads, and AI assistants aligned around the same work.
 3. AI-assisted: attach or index the specification, ask for plain-language project help first, and use pattern names only when they make the answer easier to check.
 
-Stronger AI does not remove the need for FPF. AI can generate fluent options quickly, but projects still need to decide what counts as evidence, which option is being compared, who may rely on an answer, when a claim is stale, what remains only a guess, and what work is actually authorized. FPF helps make those boundaries explicit before a confident answer becomes an expensive mistake.
+FPF can help with the evidence and decision questions that remain as AI becomes more capable. AI can generate fluent options quickly, but projects still need to decide what counts as evidence, which option is being compared, who may rely on an answer, when a claim is stale, what remains only a guess, and what work is actually authorized. FPF helps make those boundaries explicit before a confident answer becomes an expensive mistake.
 
 Core ideas in plain language:
 
-- first name the project object under concern; when it is treated as a whole with parts, FPF calls it a holon;
+- first name the project object under concern; FPF calls it a holon when its actual construction supports treatment as a whole with parts and as a possible part of a larger whole; use `A.1` to check a particular candidate;
 - local teams may use local meanings; boundary-crossing work makes the translation relation explicit;
 - the project object itself, its description, a dashboard about it, a decision about it, and the work done to change it are not the same;
 - architecture is structure of that holon or project object in a context, not the diagram, document, approval, or plan about it;
@@ -714,7 +714,7 @@ When the immediate question is whether dated Work actually occurred or whether a
 
 Use this guide when the team has recovered or is explicitly proposing one project system-of-interest but can no longer show how a local result supports the expected outside change, release or runtime use, architecture, Work and change of that system, creator systems, and recursive build-the-builder branches. Open `A.1.STM` to locate the first unsupported result, select the particular pattern contribution that answers that claim, and state one next question or action or an exact stop.
 
-This is a readable continuation, not an additional practical-use card, result kind, `SystemThinkingMap`, project-network result, mandatory traversal, WorkPlan, or calendar order. If the actual versus intended project system-of-interest or its project designation is unclear, apply `A.15.6` first to distinguish actual project Work, intended material, and project designation. Apply `A.1.SCR` to the recovered exact entity only when recognition under `U.System` remains load-bearing for the named decision.
+Trace the dependencies backward from the release, runtime use, or outside change that matters now, stopping at the first unsupported answer. If the actual versus intended project system-of-interest or its project designation is unclear, apply `A.15.6` first to distinguish actual project Work, intended material, and project designation. Apply `A.1.SCR` to the recovered exact entity only when recognition under `U.System` remains load-bearing for the named decision.
 
 ## One-Minute Example
 

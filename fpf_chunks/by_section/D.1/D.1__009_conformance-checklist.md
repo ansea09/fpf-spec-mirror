@@ -6,12 +6,12 @@ section_id: "D.1:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__009_conformance-checklist.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:5 — Conformance Checklist"
-line_start: 69251
-line_end: 69259
+line_start: 69253
+line_end: 69261
 dependencies:
   - "A.1"
   - "A.1.CSD"

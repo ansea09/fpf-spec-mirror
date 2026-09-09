@@ -6,12 +6,12 @@ section_id: "A.15.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__006_archetypal-grounding.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:5 — Archetypal Grounding"
-line_start: 27220
-line_end: 27255
+line_start: 27222
+line_end: 27257
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -49,7 +49,7 @@ The five project qualifications add only what this use needs. A local C.2.1 clai
 
 Apply section 4.1a to the project system-of-interest. The plan and upgrade decision designate the already existing `PumpUnit-3`; direct Work-to-pump and Work-to-change facts separately say how the pump matters. Classification under a local `SystemOfInterestSystemRole` and any assignment occurrence require their own tests. A proposed controller remains plan content until its identity rule first holds; production completion, later operation, classification, and assignment are separate claims.
 
-Apply section 4.3 separately to the pump, calibration, and controller-production cases. The pump case follows pump condition through repair and test while later pumping use stays outside closure. The calibration case follows `TestRig-2` and the calibration facts used by qualification. The controller-production case closes only when the applicable Work, change, inception, completion or readiness, evidence, and decision facts support that result. Any Work-realized change separately names the performer System with its A.13 basis, F.6 attribution, Work, changed referent, and the relation connecting Work to change.
+Apply section 4.3 separately to the pump, calibration, and controller-production cases. The pump case follows pump condition through repair and test while later pumping use stays outside closure. The calibration case follows `TestRig-2` and the calibration facts used by qualification. The controller-production case closes only when the applicable Work, change, inception, completion or readiness, evidence, and decision facts support that result. Any Work-realized change separately names the performer System with its A.13 basis, Work, changed referent, and the relation connecting Work to change, plus F.6 attribution only when the receiving question explicitly asks under which assignment the Work was performed.
 
 Apply section 4.2 to the process question. `BearingDiagnosisMethod-4` is the reusable way. An A.22-selected enactment-review structure may organize independently admitted Work and the obtaining relations that state which Method each occurrence enacts, but it neither composes the Methods nor proves pump change. If event data links the work order, pump, controller, test rig, measurements, and several Work occurrences, keep those object relations visible; select a grouping or query only for the question being answered.
 

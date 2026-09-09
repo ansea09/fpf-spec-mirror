@@ -6,12 +6,12 @@ section_id: "C.2.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__003_problem.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "C.2.8 — U.ExtractableStructuralInformation"
   - "C.2.8:2 — Problem"
-line_start: 44986
-line_end: 44991
+line_start: 44988
+line_end: 44993
 dependencies:
   - "A.17"
   - "A.18"

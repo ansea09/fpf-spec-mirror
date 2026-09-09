@@ -6,12 +6,12 @@ section_id: "E.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__006_problem.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:2 — Problem"
-line_start: 74720
-line_end: 74734
+line_start: 74722
+line_end: 74736
 dependencies:
   - "A.10"
   - "A.15.1"

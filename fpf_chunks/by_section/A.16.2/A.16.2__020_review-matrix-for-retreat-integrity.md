@@ -6,12 +6,12 @@ section_id: "A.16.2:19"
 section_title: "Review Matrix for Retreat Integrity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__020_review-matrix-for-retreat-integrity.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:19 — Review Matrix for Retreat Integrity"
-line_start: 29452
-line_end: 29463
+line_start: 29454
+line_end: 29465
 dependencies:
   - "A.16"
   - "A.16.0"

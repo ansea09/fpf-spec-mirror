@@ -6,12 +6,12 @@ section_id: "F.18:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__013_relations.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:11 — Relations"
-line_start: 101095
-line_end: 101115
+line_start: 101097
+line_end: 101117
 dependencies:
   - "A.10"
   - "A.15.1"

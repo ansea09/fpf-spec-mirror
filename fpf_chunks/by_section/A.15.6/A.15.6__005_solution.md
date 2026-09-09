@@ -6,12 +6,12 @@ section_id: "A.15.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__005_solution.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:4 — Solution"
 line_start: 27028
-line_end: 27219
+line_end: 27221
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -54,7 +54,7 @@ Recover the direct subject selected by the working concern. Use the pattern whos
 
 Use this branch only while the next decision still depends on selecting or reopening the problem, direct project subject, solution form, Method relation, or development-platform contribution. If one already identified Work, Method, System, transformation, structure, episteme, capability, population, relation, or other subject answers the current question, use its direct pattern and stop rather than completing a project template.
 
-**Project-focus decision** is Plain wording for one conforming C.11 `ChoiceResult` over an already-current `OptionSet`. It introduces no project-focus kind, project record, project-partition object, relation kind, or actual project occurrence. If options are still being invented, expanded, or reframed, use C.18 and return only after a current `OptionSet` exists; do not manufacture a winner to enter this branch.
+**Project-focus decision** is Plain wording for one conforming C.11 `ChoiceResult` over an already-current `OptionSet`. It introduces no project-focus kind, project record, project-partition object, relation kind, or actual project occurrence. If options are still being invented, expanded, or reframed, complete that work under the Method that governs the project question. If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. If the hard work is open-ended invention, expansion, or reframing, apply `C.18`. Return only after a current `OptionSet` exists; do not manufacture a winner to enter this branch.
 
 When the result must persist, identify one ordinary C.2.1 episteme through all three identity discriminators:
 
@@ -71,10 +71,12 @@ The minimally useful result carries the full C.11 choice discipline through five
 1. the observed situation, sought outside difference, and already-available bounded problem options in the current `OptionSet`;
 2. affected entities and interests, materially relevant alternatives, and one explicit comparison basis: a `PreferenceOrder` or `EvaluativeMeasure`, plus the current `BeliefState` and `OutcomeModel` and any decision-relevant dependence layer;
 3. the selected option's direct-subject disposition: one exact System, Method, capability, Work, episteme, population, relation, arrangement, or other admitted subject when that choice changes the decision, or an explicit unresolved-subject disposition;
-4. the identified `DecisionSubject` and `DecisionSubjectGranularity`, one explicit `ChoiceRule`, and the probe-worthiness account: `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, and the applicable `ValueOfInformation` or `ValueOfComputation`, or an explicit reason that no feasible probe remains worth its cost; and
+4. the identified `DecisionSubject` and `DecisionSubjectGranularity`, one explicit `ChoiceRule`, and, when an inquiry alternative is live under C.11, its probe-worthiness account using `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, and the applicable `ValueOfInformation` or `ValueOfComputation`; and
 5. one explicit `ChoiceResult`—`choose now`, `reject current set`, `probe again`, or `reroute`—with the receiving decision or use, evidence horizon, principal uncertainty, next question, and observation that reopens the choice.
 
-An unresolved direct subject does not force a false selection. A `choose now` result may select a bounded problem whose option explicitly leaves that disposition unresolved and names the next question; otherwise return `probe again` with the exact next probe or `reroute` to the pattern that now owns the question. If the current set itself still needs reframing, reroute to C.18.
+Keep any inquiry limitation or reason needed by the decision or its recipient in the same result; inactive inquiry adds no placeholder or omission account.
+
+An unresolved direct subject does not force a false selection. A `choose now` result may select a bounded problem whose option explicitly leaves that disposition unresolved and names the next question; otherwise return `probe again` with the exact next probe or `reroute` to the pattern that now owns the question. If the current set itself still needs reframing, return to the option-formation step at the start of this branch.
 
 Stop when the lawful `ChoiceResult` and the reason it is lawful are recoverable. Changing the selected problem, `OptionSet`, comparison or acceptance basis, direct-subject disposition, `ChoiceRule`, `ChoiceResult`, or receiving decision changes the identity-bearing `U.ClaimGraph` and therefore identifies another episteme even when the chooser remains the same. Another supporting item, evaluation, or publication does not reidentify the focus episteme unless claim content, `EntityOfConcern`, or effective scheme also changes.
 
@@ -99,7 +101,7 @@ Inspect the account through the lightest optional view that changes the decision
 
 The development lemniscate is a didactic view of recurrent dependency and feedback among these questions. It is not a universal Method, lifecycle, calendar sequence, Work occurrence, level stack, or organization. For a mantra or diagram, state whether the order shown is teaching order, logical dependency, Method unfolding, planned Work order, observed Work order, or feedback; one order establishes none of the others.
 
-Return ordinary prose and add a small map only when it changes the decision. The account may be distributed across existing artifacts and may remain partly unresolved. A missing chooser, granularity, current option set, comparison basis, lawful choice result, direct-subject disposition, performer basis, pressure link, authority claim, or receiving decision is a named stop or reroute—not an invitation to fill a project template. An actual project occurrence still enters section 4.1 and receives its identity only as admitted composite `U.Work`.
+Return ordinary prose and add a small map only when it changes the decision. The account may be distributed across existing artifacts and may remain partly unresolved. A missing chooser, granularity, current option set, comparison basis, lawful choice result, direct-subject disposition, or receiving decision is a named stop or reroute—not an invitation to fill a project template. A missing performer basis or authority claim leaves only a selected claim that depends on it unresolved. An actual project occurrence still enters section 4.1 and receives its identity only as admitted composite `U.Work`.
 
 #### A.15.6:4.1 - Recover an actual project as composite `U.Work`
 

@@ -6,12 +6,12 @@ section_id: "E.8:11"
 section_title: "SoTA-Echoing (normative; typed comparison to contemporary best-known practice)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__016_sota-echoing-normative-typed-comparison-to-contemporary-best-known-practice.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:11 — SoTA-Echoing (normative; typed comparison to contemporary best-known practice)"
-line_start: 74372
-line_end: 74412
+line_start: 74374
+line_end: 74414
 dependencies:
   - "E.10"
   - "E.10.MOVE"

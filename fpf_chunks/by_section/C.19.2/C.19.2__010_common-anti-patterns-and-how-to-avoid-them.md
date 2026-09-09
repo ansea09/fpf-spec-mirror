@@ -6,12 +6,12 @@ section_id: "C.19.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 51507
-line_end: 51517
+line_start: 51509
+line_end: 51519
 dependencies:
   - "A.15.1"
   - "A.15.2"

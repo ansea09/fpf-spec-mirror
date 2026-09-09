@@ -6,7 +6,7 @@ section_id: "A.2.2:2"
 section_title: "Kind and Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__003_kind-and-boundary.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:2 — Kind and Boundary"

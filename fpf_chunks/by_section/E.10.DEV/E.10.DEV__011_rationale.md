@@ -6,12 +6,12 @@ section_id: "E.10.DEV:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__011_rationale.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:10 — Rationale"
-line_start: 77440
-line_end: 77443
+line_start: 77442
+line_end: 77445
 dependencies:
   - "A.15"
   - "A.2.2"

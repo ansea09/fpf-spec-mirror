@@ -6,12 +6,12 @@ section_id: "C.34:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__008_conformance-checklist.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:7 — Conformance checklist"
-line_start: 67782
-line_end: 67792
+line_start: 67784
+line_end: 67794
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

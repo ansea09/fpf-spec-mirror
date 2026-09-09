@@ -6,12 +6,12 @@ section_id: "D.1:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__004_forces.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:1.1 — Forces"
-line_start: 69176
-line_end: 69185
+line_start: 69178
+line_end: 69187
 dependencies:
   - "A.1"
   - "A.1.CSD"

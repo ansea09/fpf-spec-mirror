@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.D1.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
-line_start: 78472
-line_end: 78642
+line_start: 78474
+line_end: 78644
 dependencies:
   - "A.1.1"
   - "A.2.6"

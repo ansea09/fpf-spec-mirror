@@ -6,12 +6,12 @@ section_id: "D.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 69822
-line_end: 69830
+line_start: 69824
+line_end: 69832
 dependencies:
   - "A.10"
   - "A.20"

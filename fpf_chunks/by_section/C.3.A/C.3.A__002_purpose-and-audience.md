@@ -6,12 +6,12 @@ section_id: "C.3.A:1"
 section_title: "Purpose and audience"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__002_purpose-and-audience.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:1 — Purpose and audience"
-line_start: 46708
-line_end: 46720
+line_start: 46710
+line_end: 46722
 dependencies:
   - "A.15"
   - "A.15.1"

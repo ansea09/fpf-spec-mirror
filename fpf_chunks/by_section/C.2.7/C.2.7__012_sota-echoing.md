@@ -6,12 +6,12 @@ section_id: "C.2.7:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__012_sota-echoing.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:11 — SoTA-Echoing"
-line_start: 44879
-line_end: 44881
+line_start: 44881
+line_end: 44883
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "B.3.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__001_intro.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:intro — Intro"
-line_start: 40106
-line_end: 40122
+line_start: 40108
+line_end: 40124
 dependencies:
   - "B.3"
   - "C.13"

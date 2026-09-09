@@ -6,12 +6,12 @@ section_id: "C.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__001_intro.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:intro — Intro"
-line_start: 45554
-line_end: 45559
+line_start: 45556
+line_end: 45561
 dependencies:
   - "A.1"
   - "A.11"

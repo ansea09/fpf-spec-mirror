@@ -6,12 +6,12 @@ section_id: "A.20:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__008_bias-annotation.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:6 — Bias annotation"
-line_start: 35120
-line_end: 35126
+line_start: 35122
+line_end: 35128
 dependencies:
   - "A.10"
   - "A.15"

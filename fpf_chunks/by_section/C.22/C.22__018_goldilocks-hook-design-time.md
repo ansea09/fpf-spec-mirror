@@ -6,12 +6,12 @@ section_id: "C.22:15"
 section_title: "Goldilocks Hook (design-time)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__018_goldilocks-hook-design-time.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:15 — Goldilocks Hook (design-time)"
-line_start: 52551
-line_end: 52554
+line_start: 52553
+line_end: 52556
 dependencies:
   - "A.6.0"
   - "C.16"

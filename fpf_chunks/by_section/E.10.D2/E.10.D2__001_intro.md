@@ -6,12 +6,12 @@ section_id: "E.10.D2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__001_intro.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:intro — Intro"
-line_start: 78643
-line_end: 78654
+line_start: 78645
+line_end: 78656
 dependencies:
   - "A.1.1"
   - "A.10"

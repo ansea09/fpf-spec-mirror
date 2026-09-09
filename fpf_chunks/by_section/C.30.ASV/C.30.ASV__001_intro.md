@@ -6,12 +6,12 @@ section_id: "C.30.ASV:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__001_intro.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:intro — Intro"
-line_start: 61095
-line_end: 61100
+line_start: 61097
+line_end: 61102
 dependencies:
   - "A.1"
   - "A.10"

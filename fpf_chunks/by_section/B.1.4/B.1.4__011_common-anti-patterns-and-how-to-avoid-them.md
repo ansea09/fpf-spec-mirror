@@ -6,12 +6,12 @@ section_id: "B.1.4:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 37434
-line_end: 37443
+line_start: 37436
+line_end: 37445
 dependencies:
   - "A.1.1"
   - "A.14"

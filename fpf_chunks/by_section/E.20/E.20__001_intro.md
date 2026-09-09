@@ -6,12 +6,12 @@ section_id: "E.20:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__001_intro.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:intro — Intro"
-line_start: 89328
-line_end: 89333
+line_start: 89330
+line_end: 89335
 dependencies:
   - "A.15.3"
   - "A.6.1"

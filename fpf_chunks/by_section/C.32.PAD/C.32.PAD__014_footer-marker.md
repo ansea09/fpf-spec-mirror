@@ -6,12 +6,12 @@ section_id: "C.32.PAD:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__014_footer-marker.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:13 — Footer marker"
-line_start: 66917
-line_end: 66920
+line_start: 66919
+line_end: 66922
 dependencies:
   - "A.10"
   - "A.15"

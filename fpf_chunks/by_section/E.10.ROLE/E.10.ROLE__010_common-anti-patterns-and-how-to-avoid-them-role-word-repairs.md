@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:8"
 section_title: "Common Anti-Patterns and How to Avoid Them — Role-Word Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__010_common-anti-patterns-and-how-to-avoid-them-role-word-repairs.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:8 — Common Anti-Patterns and How to Avoid Them — Role-Word Repairs"
-line_start: 78395
-line_end: 78405
+line_start: 78397
+line_end: 78407
 dependencies:
   - "A.2"
   - "A.2.1"

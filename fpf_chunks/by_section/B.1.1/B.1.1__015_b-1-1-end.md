@@ -6,12 +6,12 @@ section_id: "B.1.1:End"
 section_title: "B.1.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__015_b-1-1-end.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:End — B.1.1:End"
-line_start: 36760
-line_end: 36761
+line_start: 36762
+line_end: 36763
 dependencies:
   - "A.1"
   - "A.10"

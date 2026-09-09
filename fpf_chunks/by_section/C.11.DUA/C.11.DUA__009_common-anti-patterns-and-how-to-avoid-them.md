@@ -6,12 +6,12 @@ section_id: "C.11.DUA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "C.11.DUA — Decision-Useful Advice and Evidence Demands"
   - "C.11.DUA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 48272
-line_end: 48283
+line_start: 48274
+line_end: 48285
 dependencies:
   - "A.10"
   - "C.11"

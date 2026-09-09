@@ -6,12 +6,12 @@ section_id: "A.15.7:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__006_archetypal-grounding.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:5 — Archetypal Grounding"
-line_start: 27462
-line_end: 27487
+line_start: 27464
+line_end: 27489
 dependencies:
   - "A.10"
   - "A.13"
@@ -55,5 +55,5 @@ If the organization's admitted case-handling Method already includes this steeri
 
 #### A.15.7:5.4 - AI recommendation
 
-An AI model proposes the next inspection action, but a sensor condition changed after the model's input window closed. The model and recommendation remain separate from the deciding and performing Systems. The responsible deciding System refreshes the input, tests the recommendation under the current Method and safety constraints, uses a safe fallback, or stops. A confident score establishes neither currentness, authority, capability, nor the action.
+An AI system using a model proposes the next inspection action, but a sensor condition changed after the model's input window closed. The model and recommendation remain separate from the deciding and performing Systems. The responsible deciding System refreshes the input, tests the recommendation under the current Method and safety constraints, uses a safe fallback, or stops. A confident score establishes neither currentness, authority, capability, nor the action.
 

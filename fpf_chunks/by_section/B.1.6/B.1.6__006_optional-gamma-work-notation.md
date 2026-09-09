@@ -6,12 +6,12 @@ section_id: "B.1.6:3"
 section_title: "Optional Gamma_work Notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__006_optional-gamma-work-notation.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:3 — Optional Gamma_work Notation"
-line_start: 37996
-line_end: 38006
+line_start: 37998
+line_end: 38008
 dependencies:
   - "A.1"
   - "A.10"

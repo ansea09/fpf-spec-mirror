@@ -6,12 +6,12 @@ section_id: "E.6:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__007_conformance-checklist.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "E.6 — Didactic Architecture of the Specification"
   - "E.6:6 — Conformance Checklist"
-line_start: 73645
-line_end: 73653
+line_start: 73647
+line_end: 73655
 dependencies:
   - "E.2"
 keywords:

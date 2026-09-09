@@ -6,12 +6,12 @@ section_id: "C.26.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__006_archetypal-grounding.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:5 — Archetypal Grounding"
-line_start: 55502
-line_end: 55509
+line_start: 55504
+line_end: 55511
 dependencies:
   - "A.1.1"
   - "A.10"

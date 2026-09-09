@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.6.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
 line_start: 26959
-line_end: 27354
+line_end: 27356
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -122,7 +122,7 @@ Recover the direct subject selected by the working concern. Use the pattern whos
 
 Use this branch only while the next decision still depends on selecting or reopening the problem, direct project subject, solution form, Method relation, or development-platform contribution. If one already identified Work, Method, System, transformation, structure, episteme, capability, population, relation, or other subject answers the current question, use its direct pattern and stop rather than completing a project template.
 
-**Project-focus decision** is Plain wording for one conforming C.11 `ChoiceResult` over an already-current `OptionSet`. It introduces no project-focus kind, project record, project-partition object, relation kind, or actual project occurrence. If options are still being invented, expanded, or reframed, use C.18 and return only after a current `OptionSet` exists; do not manufacture a winner to enter this branch.
+**Project-focus decision** is Plain wording for one conforming C.11 `ChoiceResult` over an already-current `OptionSet`. It introduces no project-focus kind, project record, project-partition object, relation kind, or actual project occurrence. If options are still being invented, expanded, or reframed, complete that work under the Method that governs the project question. If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. If the hard work is open-ended invention, expansion, or reframing, apply `C.18`. Return only after a current `OptionSet` exists; do not manufacture a winner to enter this branch.
 
 When the result must persist, identify one ordinary C.2.1 episteme through all three identity discriminators:
 
@@ -139,10 +139,12 @@ The minimally useful result carries the full C.11 choice discipline through five
 1. the observed situation, sought outside difference, and already-available bounded problem options in the current `OptionSet`;
 2. affected entities and interests, materially relevant alternatives, and one explicit comparison basis: a `PreferenceOrder` or `EvaluativeMeasure`, plus the current `BeliefState` and `OutcomeModel` and any decision-relevant dependence layer;
 3. the selected option's direct-subject disposition: one exact System, Method, capability, Work, episteme, population, relation, arrangement, or other admitted subject when that choice changes the decision, or an explicit unresolved-subject disposition;
-4. the identified `DecisionSubject` and `DecisionSubjectGranularity`, one explicit `ChoiceRule`, and the probe-worthiness account: `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, and the applicable `ValueOfInformation` or `ValueOfComputation`, or an explicit reason that no feasible probe remains worth its cost; and
+4. the identified `DecisionSubject` and `DecisionSubjectGranularity`, one explicit `ChoiceRule`, and, when an inquiry alternative is live under C.11, its probe-worthiness account using `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, and the applicable `ValueOfInformation` or `ValueOfComputation`; and
 5. one explicit `ChoiceResult`—`choose now`, `reject current set`, `probe again`, or `reroute`—with the receiving decision or use, evidence horizon, principal uncertainty, next question, and observation that reopens the choice.
 
-An unresolved direct subject does not force a false selection. A `choose now` result may select a bounded problem whose option explicitly leaves that disposition unresolved and names the next question; otherwise return `probe again` with the exact next probe or `reroute` to the pattern that now owns the question. If the current set itself still needs reframing, reroute to C.18.
+Keep any inquiry limitation or reason needed by the decision or its recipient in the same result; inactive inquiry adds no placeholder or omission account.
+
+An unresolved direct subject does not force a false selection. A `choose now` result may select a bounded problem whose option explicitly leaves that disposition unresolved and names the next question; otherwise return `probe again` with the exact next probe or `reroute` to the pattern that now owns the question. If the current set itself still needs reframing, return to the option-formation step at the start of this branch.
 
 Stop when the lawful `ChoiceResult` and the reason it is lawful are recoverable. Changing the selected problem, `OptionSet`, comparison or acceptance basis, direct-subject disposition, `ChoiceRule`, `ChoiceResult`, or receiving decision changes the identity-bearing `U.ClaimGraph` and therefore identifies another episteme even when the chooser remains the same. Another supporting item, evaluation, or publication does not reidentify the focus episteme unless claim content, `EntityOfConcern`, or effective scheme also changes.
 
@@ -167,7 +169,7 @@ Inspect the account through the lightest optional view that changes the decision
 
 The development lemniscate is a didactic view of recurrent dependency and feedback among these questions. It is not a universal Method, lifecycle, calendar sequence, Work occurrence, level stack, or organization. For a mantra or diagram, state whether the order shown is teaching order, logical dependency, Method unfolding, planned Work order, observed Work order, or feedback; one order establishes none of the others.
 
-Return ordinary prose and add a small map only when it changes the decision. The account may be distributed across existing artifacts and may remain partly unresolved. A missing chooser, granularity, current option set, comparison basis, lawful choice result, direct-subject disposition, performer basis, pressure link, authority claim, or receiving decision is a named stop or reroute—not an invitation to fill a project template. An actual project occurrence still enters section 4.1 and receives its identity only as admitted composite `U.Work`.
+Return ordinary prose and add a small map only when it changes the decision. The account may be distributed across existing artifacts and may remain partly unresolved. A missing chooser, granularity, current option set, comparison basis, lawful choice result, direct-subject disposition, or receiving decision is a named stop or reroute—not an invitation to fill a project template. A missing performer basis or authority claim leaves only a selected claim that depends on it unresolved. An actual project occurrence still enters section 4.1 and receives its identity only as admitted composite `U.Work`.
 
 #### A.15.6:4.1 - Recover an actual project as composite `U.Work`
 
@@ -309,7 +311,7 @@ The five project qualifications add only what this use needs. A local C.2.1 clai
 
 Apply section 4.1a to the project system-of-interest. The plan and upgrade decision designate the already existing `PumpUnit-3`; direct Work-to-pump and Work-to-change facts separately say how the pump matters. Classification under a local `SystemOfInterestSystemRole` and any assignment occurrence require their own tests. A proposed controller remains plan content until its identity rule first holds; production completion, later operation, classification, and assignment are separate claims.
 
-Apply section 4.3 separately to the pump, calibration, and controller-production cases. The pump case follows pump condition through repair and test while later pumping use stays outside closure. The calibration case follows `TestRig-2` and the calibration facts used by qualification. The controller-production case closes only when the applicable Work, change, inception, completion or readiness, evidence, and decision facts support that result. Any Work-realized change separately names the performer System with its A.13 basis, F.6 attribution, Work, changed referent, and the relation connecting Work to change.
+Apply section 4.3 separately to the pump, calibration, and controller-production cases. The pump case follows pump condition through repair and test while later pumping use stays outside closure. The calibration case follows `TestRig-2` and the calibration facts used by qualification. The controller-production case closes only when the applicable Work, change, inception, completion or readiness, evidence, and decision facts support that result. Any Work-realized change separately names the performer System with its A.13 basis, Work, changed referent, and the relation connecting Work to change, plus F.6 attribution only when the receiving question explicitly asks under which assignment the Work was performed.
 
 Apply section 4.2 to the process question. `BearingDiagnosisMethod-4` is the reusable way. An A.22-selected enactment-review structure may organize independently admitted Work and the obtaining relations that state which Method each occurrence enacts, but it neither composes the Methods nor proves pump change. If event data links the work order, pump, controller, test rig, measurements, and several Work occurrences, keep those object relations visible; select a grouping or query only for the question being answered.
 
@@ -378,7 +380,7 @@ The examples include engineering, medicine, and learning to resist software-docu
 | Project-result field | Entities, values, conditions, choices, measurements, verdicts, decisions, relation occurrences, changed referents, and claim-bearing epistemes are grouped as one intrinsic result of the project. | Ask what the result is and what it is a result of or for. Keep that subject in the kind or claim already established for it, then choose one WMR outcome. If no positive assertion is available, return one non-assertability result marked `factually unsupported`, `missing-information`, or `missing-governor`; only the last is an ontology blocker. |
 | Network-is-project | A network of transformation-flow structures is treated as the project, workflow actor, or work-breakdown structure. | Keep the `E.18.NET` structure non-agentive and include Work in the project only through obtaining `A.15.1` work-parthood. |
 | Probe-is-constructor | The `A.6.RCD:4.2` conjunction row or a reference scheme is treated as if it supplied constructor semantics. | A simple one-case claim may use recoverable constructor semantics without a separately materialized substrate document. Pin the substrate for nontrivial, interoperable, proof-bearing, or reusable derivation; otherwise return `missing-substrate` only for the stronger unavailable claim. |
-| Actor invented or suppressed | Every Transformation is forced to have a Work performer, or project Work, a TFS or network, a Method, a record, or the changed subject is silently put in an acting position. | Ground the A.3.4 change first. Add a causal or interaction participant only when the applicable direct predicate and the case facts establish that position. For a Work-realized change, establish the performer System with its A.13 basis, F.6 attribution, Work, changed referent, and the relation that connects Work to the change; a short account may omit an unused assignment identifier. Otherwise invent no actor, assignment, Method, or Work. |
+| Actor invented or suppressed | Every Transformation is forced to have a Work performer, or project Work, a TFS or network, a Method, a record, or the changed subject is silently put in an acting position. | Ground the A.3.4 change first. Add a causal or interaction participant only when the applicable direct predicate and the case facts establish that position. For a Work-realized change, establish the performer System with its A.13 basis, Work, changed referent, and the relation that connects Work to the change, plus F.6 attribution only when the receiving question explicitly asks under which assignment the Work was performed; a short account may omit an unused assignment identifier. Otherwise invent no actor, assignment, Method, or Work. |
 
 ### A.15.6:9 - Consequences
 

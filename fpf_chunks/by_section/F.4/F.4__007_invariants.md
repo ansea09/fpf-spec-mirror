@@ -6,12 +6,12 @@ section_id: "F.4:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__007_invariants.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:5 — Invariants"
-line_start: 94763
-line_end: 94776
+line_start: 94765
+line_end: 94778
 dependencies:
   - "A.15"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "A.15.PROD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__010_consequences.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:9 — Consequences"
-line_start: 28407
-line_end: 28416
+line_start: 28409
+line_end: 28418
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.16.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__001_intro.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:intro — Intro"
-line_start: 48869
-line_end: 48887
+line_start: 48871
+line_end: 48889
 dependencies:
   - "A.10"
   - "A.15"

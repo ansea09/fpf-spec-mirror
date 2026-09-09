@@ -6,12 +6,12 @@ section_id: "E.23:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 91059
-line_end: 91075
+line_start: 91061
+line_end: 91077
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"

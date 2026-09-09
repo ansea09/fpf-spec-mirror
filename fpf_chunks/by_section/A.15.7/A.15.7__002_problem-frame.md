@@ -6,12 +6,12 @@ section_id: "A.15.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__002_problem-frame.md"
-commit_sha: "f4bad21274b54b57071afb2210a8bdb9f61a1c95"
+commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:1 — Problem frame"
-line_start: 27365
-line_end: 27399
+line_start: 27367
+line_end: 27401
 dependencies:
   - "A.10"
   - "A.13"
@@ -38,7 +38,7 @@ keywords:
 **First useful result.** Give a short answer with three visible parts:
 
 1. **Decision now:** take this next action because this current fact and the Method's limits make it the best supported choice.
-2. **Performer:** name the System that will perform it. If another System made the choice, name the chooser separately.
+2. **Performer:** name the intended System performer. If another System made the choice, name the chooser separately.
 3. **Stop and feedback:** say when to stop, fall back, or look again, and which resulting observation can inform the next choice.
 
 For a reversible local choice, ordinary project language is enough. Create a durable claim-bearing episteme only when another use needs to cite, compare, audit, or rely on the answer. The answer does not itself perform or predict the action, and this pattern adds no universal action, situation, or next-step kind.
@@ -49,7 +49,7 @@ For a reversible local choice, ordinary project language is enough. Create a dur
 - A case worker is handling an open case. New evidence may make the displayed case state stale, while policy and authority still bound the allowed response. The question is whether to refresh, take the safe fallback, compare several live actions, or stop.
 - A robotic maintenance system receives a recommendation during inspection. A sensor state has changed since the recommendation was produced. The question is whether the recommendation remains usable, needs refresh, or must give way to a safe response.
 
-**What goes wrong if missed.** A plan, policy, score, case file, recommender, dashboard, trace, or pattern body is treated as the chooser. Every cue is forced into a heavy decision record, or every adjustment is called improvisation. The team may also invent an option set after the real issue has become stale information, missing authority, missing capability, or no current Work at all.
+**What goes wrong if missed.** A plan, policy, score, case file, recommender output, dashboard, trace, or pattern body is treated as the chooser. Every cue is forced into a heavy decision record, or every adjustment is called improvisation. The team may also invent an option set after the real issue has become stale information, missing authority, missing capability, or no current Work at all.
 
 **What this buys.** The user gets one practical next action without losing the domain Method, current Work, deciding System, performer, authority, and stop or feedback condition. Familiar recognition, quick adaptation, explicit comparison, candidate generation, and tool-call planning remain different branches rather than one universal procedure.
 
