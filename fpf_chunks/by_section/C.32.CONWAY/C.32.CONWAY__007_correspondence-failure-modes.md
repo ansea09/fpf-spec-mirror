@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:6"
 section_title: "Correspondence Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__007_correspondence-failure-modes.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:6 — Correspondence Failure Modes"
-line_start: 65755
-line_end: 65773
+line_start: 65756
+line_end: 65774
 dependencies:
   - "A.10"
   - "A.12"

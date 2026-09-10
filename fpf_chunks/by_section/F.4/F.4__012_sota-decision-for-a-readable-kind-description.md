@@ -6,12 +6,12 @@ section_id: "F.4:10"
 section_title: "SoTA Decision for a Readable Kind Description"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__012_sota-decision-for-a-readable-kind-description.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:10 — SoTA Decision for a Readable Kind Description"
-line_start: 94922
-line_end: 94937
+line_start: 94923
+line_end: 94938
 dependencies:
   - "A.15"
   - "A.15.1"

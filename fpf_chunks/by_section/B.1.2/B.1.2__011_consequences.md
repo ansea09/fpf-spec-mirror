@@ -6,12 +6,12 @@ section_id: "B.1.2:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__011_consequences.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:8 — Consequences"
-line_start: 36960
-line_end: 36974
+line_start: 36961
+line_end: 36975
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.23:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 53832
-line_end: 53873
+line_start: 53833
+line_end: 53874
 dependencies:
   - "A.10"
   - "B.3"

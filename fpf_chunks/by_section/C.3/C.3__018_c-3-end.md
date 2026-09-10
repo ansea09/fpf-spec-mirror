@@ -6,12 +6,12 @@ section_id: "C.3:End"
 section_title: "C.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__018_c-3-end.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:End — C.3:End"
-line_start: 45740
-line_end: 45741
+line_start: 45741
+line_end: 45742
 dependencies:
   - "A.1"
   - "A.11"

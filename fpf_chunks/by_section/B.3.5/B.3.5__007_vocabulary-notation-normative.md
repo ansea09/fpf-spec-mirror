@@ -6,12 +6,12 @@ section_id: "B.3.5:5"
 section_title: "Vocabulary & notation (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__007_vocabulary-notation-normative.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:5 — Vocabulary & notation (normative)"
-line_start: 40223
-line_end: 40239
+line_start: 40224
+line_end: 40240
 dependencies:
   - "B.3"
   - "C.13"

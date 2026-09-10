@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.ECS.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
-line_start: 30208
-line_end: 30459
+line_start: 30209
+line_end: 30460
 dependencies:
   - "A.17-A.19"
   - "C.16"

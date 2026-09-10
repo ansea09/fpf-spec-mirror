@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__009_conformance-checklist.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:7 — Conformance Checklist"
-line_start: 17635
-line_end: 17648
+line_start: 17636
+line_end: 17649
 dependencies:
   - "A.10"
   - "A.15"

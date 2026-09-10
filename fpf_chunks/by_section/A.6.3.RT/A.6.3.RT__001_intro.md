@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__001_intro.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:intro — Intro"
-line_start: 14949
-line_end: 14954
+line_start: 14950
+line_end: 14955
 dependencies:
   - "A.1.1"
   - "A.10"

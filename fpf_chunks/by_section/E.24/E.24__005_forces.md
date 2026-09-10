@@ -6,12 +6,12 @@ section_id: "E.24:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__005_forces.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:3 — Forces"
-line_start: 91704
-line_end: 91713
+line_start: 91705
+line_end: 91714
 dependencies:
   - "A.19.ECS"
   - "A.6.0"

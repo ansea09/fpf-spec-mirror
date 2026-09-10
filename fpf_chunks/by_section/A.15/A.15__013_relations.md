@@ -6,12 +6,12 @@ section_id: "A.15:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__013_relations.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12 — Relations"
-line_start: 24979
-line_end: 24991
+line_start: 24980
+line_end: 24992
 dependencies:
   - "A.10"
   - "A.13"

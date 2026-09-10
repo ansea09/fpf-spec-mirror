@@ -6,12 +6,12 @@ section_id: "E.17.1:13"
 section_title: "Bundle Anatomy and Member Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__014_bundle-anatomy-and-member-discipline.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:13 — Bundle Anatomy and Member Discipline"
-line_start: 82908
-line_end: 82945
+line_start: 82909
+line_end: 82946
 dependencies:
   - "A.16.0"
   - "A.22"

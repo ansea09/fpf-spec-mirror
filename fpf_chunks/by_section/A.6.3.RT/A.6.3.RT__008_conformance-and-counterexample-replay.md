@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__008_conformance-and-counterexample-replay.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:7 — Conformance and counterexample replay"
-line_start: 15295
-line_end: 15328
+line_start: 15296
+line_end: 15329
 dependencies:
   - "A.1.1"
   - "A.10"

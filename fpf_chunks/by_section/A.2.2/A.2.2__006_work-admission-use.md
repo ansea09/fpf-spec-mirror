@@ -6,7 +6,7 @@ section_id: "A.2.2:5"
 section_title: "Work-Admission Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__006_work-admission-use.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:5 — Work-Admission Use"
@@ -49,5 +49,5 @@ The checks are separate:
 - capability-fit condition tests whether that instance meets the current threshold or gate need;
 - after execution, A.13 first recovers the exact actual performer and A.15.1 independently admits the dated Work occurrence; F.6 `performedUnderAssignment(W, RA)` is added only when this capability account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment, while actual `enactsMethod(W, M)` separately relates the Work to the exact Method;
 
-Do not put the threshold into the local system-role-kind name. Do not treat a system-role classification or assignment as proof of ability or action. For performed Work, name the actual performer system. Do not treat a fit predicate, Q-Bundle, architecture-characteristic row, evidence relation, or currentness assessment as the capability instance. An algorithm-possession phrase is only a dispatch cue; it establishes neither dated performance nor `U.MethodDescription` membership.
+Do not put the threshold into the local system-role-kind name.
 

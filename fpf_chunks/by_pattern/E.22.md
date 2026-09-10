@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.22.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
-line_start: 90376
-line_end: 90731
+line_start: 90377
+line_end: 90732
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

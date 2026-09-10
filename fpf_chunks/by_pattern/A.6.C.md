@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.C.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
-line_start: 11900
-line_end: 12254
+line_start: 11901
+line_end: 12255
 dependencies:
   - "A.10"
   - "A.15.1"

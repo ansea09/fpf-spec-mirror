@@ -6,12 +6,12 @@ section_id: "A.2.5:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__015_sota-echoing.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:12 — SoTA-Echoing"
-line_start: 5283
-line_end: 5295
+line_start: 5284
+line_end: 5296
 dependencies:
   - "A.15"
   - "A.15.1"

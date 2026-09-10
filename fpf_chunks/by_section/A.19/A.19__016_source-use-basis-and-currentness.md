@@ -6,12 +6,12 @@ section_id: "A.19:12.2"
 section_title: "Source-use basis and currentness"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__016_source-use-basis-and-currentness.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:12.2 — Source-use basis and currentness"
-line_start: 30194
-line_end: 30199
+line_start: 30195
+line_end: 30200
 dependencies:
   - "A.10"
   - "A.15"

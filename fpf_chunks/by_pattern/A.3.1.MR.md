@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.MR.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
-line_start: 8479
-line_end: 8690
+line_start: 8480
+line_end: 8691
 dependencies:
   - "A.10"
   - "A.13"

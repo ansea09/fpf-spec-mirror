@@ -6,12 +6,12 @@ section_id: "C.3.4:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__004_context.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:2 — Context"
-line_start: 46365
-line_end: 46376
+line_start: 46366
+line_end: 46377
 dependencies:
   - "A.2.6"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "F.13:End"
 section_title: "F.13:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__018_f-13-end.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:End — F.13:End"
-line_start: 98186
-line_end: 98187
+line_start: 98187
+line_end: 98188
 dependencies:
   - "F.1"
   - "F.10"

@@ -6,12 +6,12 @@ section_id: "B.1.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__003_problem-frame.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:1 — Problem Frame"
-line_start: 36595
-line_end: 36600
+line_start: 36596
+line_end: 36601
 dependencies:
   - "A.1"
   - "A.10"

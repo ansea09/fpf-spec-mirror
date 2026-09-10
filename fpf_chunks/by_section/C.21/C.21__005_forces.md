@@ -6,12 +6,12 @@ section_id: "C.21:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__005_forces.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:3 — Forces"
-line_start: 51962
-line_end: 51973
+line_start: 51963
+line_end: 51974
 dependencies:
   - "A.10"
   - "A.17"

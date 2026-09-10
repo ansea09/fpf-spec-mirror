@@ -6,12 +6,12 @@ section_id: "A.2.2:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__012_consequences.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:11 — Consequences"
-line_start: 4117
-line_end: 4134
+line_start: 4118
+line_end: 4135
 dependencies:
   - "A.15"
   - "A.2"

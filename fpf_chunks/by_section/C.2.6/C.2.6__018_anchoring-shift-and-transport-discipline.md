@@ -6,12 +6,12 @@ section_id: "C.2.6:17"
 section_title: "Anchoring Shift and Transport Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__018_anchoring-shift-and-transport-discipline.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:17 — Anchoring Shift and Transport Discipline"
-line_start: 44778
-line_end: 44788
+line_start: 44779
+line_end: 44789
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "E.5.3:4"
 section_title: "Solution — One‑Way, Acyclic Imports"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__005_solution-one-way-acyclic-imports.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.5.3 — Unidirectional Dependency"
   - "E.5.3:4 — Solution — One‑Way, Acyclic Imports"
-line_start: 73451
-line_end: 73469
+line_start: 73452
+line_end: 73470
 dependencies:
   - "E.4"
   - "E.5"

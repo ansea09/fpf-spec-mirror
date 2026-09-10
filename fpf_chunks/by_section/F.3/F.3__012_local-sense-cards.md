@@ -6,12 +6,12 @@ section_id: "F.3:11"
 section_title: "Local-Sense Cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__012_local-sense-cards.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:11 — Local-Sense Cards"
-line_start: 94551
-line_end: 94564
+line_start: 94552
+line_end: 94565
 dependencies:
   - "A.11"
   - "A.7"

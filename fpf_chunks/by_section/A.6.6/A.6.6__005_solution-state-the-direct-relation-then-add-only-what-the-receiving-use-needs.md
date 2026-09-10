@@ -6,12 +6,12 @@ section_id: "A.6.6:4"
 section_title: "Solution - State the direct relation, then add only what the receiving use needs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__005_solution-state-the-direct-relation-then-add-only-what-the-receiving-use-needs.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:4 — Solution - State the direct relation, then add only what the receiving use needs"
-line_start: 19737
-line_end: 19903
+line_start: 19738
+line_end: 19904
 dependencies:
   - "A.10"
   - "A.14"

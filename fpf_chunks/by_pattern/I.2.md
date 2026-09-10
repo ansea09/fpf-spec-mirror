@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/I.2.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
-line_start: 108237
-line_end: 108445
+line_start: 108242
+line_end: 108450
 dependencies:
   - "E.10"
   - "E.11"

@@ -6,12 +6,12 @@ section_id: "E.10:11"
 section_title: "E.10 conformance prompts (normative, concept-only questions)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__013_e-10-conformance-prompts-normative-concept-only-questions.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:11 — E.10 conformance prompts (normative, concept-only questions)"
-line_start: 76875
-line_end: 76897
+line_start: 76876
+line_end: 76898
 dependencies:
   - "A.10"
   - "A.15"

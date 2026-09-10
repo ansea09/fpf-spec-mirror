@@ -6,12 +6,12 @@ section_id: "A.6.H:End"
 section_title: "A.6.H:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__015_a-6-h-end.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:End — A.6.H:End"
-line_start: 21521
-line_end: 21524
+line_start: 21522
+line_end: 21525
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.19:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__007_solution.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:5 — Solution"
-line_start: 29884
-line_end: 30089
+line_start: 29885
+line_end: 30090
 dependencies:
   - "A.10"
   - "A.15"

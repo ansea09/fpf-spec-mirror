@@ -6,12 +6,12 @@ section_id: "C.16:3"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__004_problem-frame.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:3 — Problem Frame"
-line_start: 48628
-line_end: 48633
+line_start: 48629
+line_end: 48634
 dependencies:
   - "A.10"
   - "A.15.1"

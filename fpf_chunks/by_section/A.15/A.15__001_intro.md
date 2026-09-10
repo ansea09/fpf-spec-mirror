@@ -6,12 +6,12 @@ section_id: "A.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__001_intro.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:intro — Intro"
-line_start: 24651
-line_end: 24712
+line_start: 24652
+line_end: 24713
 dependencies:
   - "A.10"
   - "A.13"

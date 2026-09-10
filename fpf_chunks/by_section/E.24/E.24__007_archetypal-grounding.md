@@ -6,12 +6,12 @@ section_id: "E.24:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__007_archetypal-grounding.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5 — Archetypal Grounding"
-line_start: 92173
-line_end: 92223
+line_start: 92174
+line_end: 92224
 dependencies:
   - "A.19.ECS"
   - "A.6.0"

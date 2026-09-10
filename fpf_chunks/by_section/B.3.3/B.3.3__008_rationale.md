@@ -6,12 +6,12 @@ section_id: "B.3.3:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__008_rationale.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:7 — Rationale"
-line_start: 39978
-line_end: 39983
+line_start: 39979
+line_end: 39984
 dependencies:
   - "A.10"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "A.6.3:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__007_consequences.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:6 — Consequences"
-line_start: 14196
-line_end: 14205
+line_start: 14197
+line_end: 14206
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

@@ -6,12 +6,12 @@ section_id: "G.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__011_rationale.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:10 — Rationale"
-line_start: 103672
-line_end: 103677
+line_start: 103677
+line_end: 103682
 dependencies:
   - "A.10"
   - "A.15.3"

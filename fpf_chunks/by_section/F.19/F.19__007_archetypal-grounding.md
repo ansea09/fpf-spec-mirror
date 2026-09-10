@@ -6,12 +6,12 @@ section_id: "F.19:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__007_archetypal-grounding.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:5 — Archetypal Grounding"
-line_start: 101358
-line_end: 101389
+line_start: 101359
+line_end: 101394
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -64,4 +64,8 @@ These cases show repairs and situations in which ordinary wording should remain.
 | Recoverable ellipsis | “Take the solution, mix, and pour it into the flask.” | Retain when `it` has one local antecedent and the destination is stated. The reader need not solve a reference puzzle. |
 | Required long set | A legal set, interface signature, inventory, or safety checklist has many members. | Retain the full series when its kind, membership or governing rule, and closure are declared and each member changes use. |
 | Expressive parallelism | “Расцветали яблони и груши...” in a song, quotation, or discussion of poetic form. | Retain only where evocation or rhythm is the declared work. In a technical message, rhythm does not earn repeated pairs or a delayed governing claim. |
+
+**Illustrative case — expert preparation and public wording.** A production-planning guide says, “Use their exact result for the plan; it is not a completion certificate.” A private briefing identifies the result as the forecasting team's demand estimate in Report R for 1–7 June under scenario S. The planner must compare that demand with available production capacity; a changed period or scenario requires an applicable estimate before comparison. An expert who knows the briefing can reconstruct this operation. The public sentence still leaves the result, comparison operands and change condition unstated, and the case supplies no reason for its reader to expect a completion certificate.
+
+Repair: “Compare the demand estimate in the forecasting team's Report R with available production capacity for 1–7 June under scenario S. If the period or scenario changes, obtain an estimate for the applicable period and scenario before comparing.” The repair makes the result, operands, applicability and action order public. It removes the empty intensifier and unsupported certificate alternative. The expert's reconstruction from private preparation and recovery from this repaired public instruction have different reading conditions.
 

@@ -6,12 +6,12 @@ section_id: "C.2.4:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__015_authoring-and-review-guidance.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:14 — Authoring and Review Guidance"
-line_start: 44349
-line_end: 44365
+line_start: 44350
+line_end: 44366
 dependencies:
   - "A.15"
   - "A.15.1"

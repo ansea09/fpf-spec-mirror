@@ -6,12 +6,12 @@ section_id: "C.2.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__004_forces.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:3 — Forces"
-line_start: 42048
-line_end: 42058
+line_start: 42049
+line_end: 42059
 dependencies:
   - "A.1"
   - "A.1.1"

@@ -6,12 +6,12 @@ section_id: "C.2.1:14"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__015_rationale.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:14 — Rationale"
-line_start: 42536
-line_end: 42541
+line_start: 42537
+line_end: 42542
 dependencies:
   - "A.1"
   - "A.1.1"

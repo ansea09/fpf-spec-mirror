@@ -6,12 +6,12 @@ section_id: "C.2.LS:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__006_archetypal-grounding.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:5 — Archetypal Grounding"
-line_start: 44065
-line_end: 44071
+line_start: 44066
+line_end: 44072
 dependencies:
   - "A.16"
   - "A.16.0"

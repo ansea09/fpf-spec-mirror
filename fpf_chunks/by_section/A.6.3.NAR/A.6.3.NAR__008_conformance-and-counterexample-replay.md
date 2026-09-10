@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__008_conformance-and-counterexample-replay.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:7 — Conformance and counterexample replay"
-line_start: 15709
-line_end: 15739
+line_start: 15710
+line_end: 15740
 dependencies:
   - "A.10"
   - "A.22.CGUS"

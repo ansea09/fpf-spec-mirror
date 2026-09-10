@@ -6,12 +6,12 @@ section_id: "F.3:12"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__013_worked-examples.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:12 — Worked examples"
-line_start: 94565
-line_end: 94598
+line_start: 94566
+line_end: 94599
 dependencies:
   - "A.11"
   - "A.7"

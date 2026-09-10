@@ -6,12 +6,12 @@ section_id: "A.6.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 19981
-line_end: 19995
+line_start: 19982
+line_end: 19996
 dependencies:
   - "A.10"
   - "A.14"

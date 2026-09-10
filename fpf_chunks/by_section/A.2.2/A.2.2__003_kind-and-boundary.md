@@ -6,7 +6,7 @@ section_id: "A.2.2:2"
 section_title: "Kind and Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__003_kind-and-boundary.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:2 — Kind and Boundary"
@@ -67,7 +67,7 @@ SupportAndUseReferencesAroundCapability:
 
 **CapabilityEnvelope.** The envelope states the bounded conditions under which the ability holds: input range, environment, resources, configuration, system version, calibration state, staffing composition, access constraints, safety limits, or other current conditions.
 
-**CapabilityMeasureSet.** The measures state achieved or required bounds, with their units, scales, tolerances, and success predicates, for declared characteristics such as reliability, throughput, latency, precision, or defect rate. A measure may cite a `U.Characteristic`, Q-Bundle slot, or architecture-characteristic criteria row as an input for a capability-fit check, but that characteristic, Q-Bundle, or architecture row does not become the capability.
+**CapabilityMeasureSet.** The measures state achieved or required bounds, with their units, scales, tolerances, and success predicates, for declared characteristics such as reliability, throughput, latency, precision, or defect rate. Identify which bounds the holder is claimed to meet and which the intended work requires; use those as the two sides of the capability-fit comparison. A measure may cite a `U.Characteristic`, Q-Bundle slot, or architecture-characteristic criteria row as an input for a capability-fit check, but that characteristic, Q-Bundle, or architecture row does not become the capability.
 
 **QualificationWindow.** Capability is stable enough to plan with but not timeless. The instance may depend on software version, calibration horizon, team training state, wear, operating season, regulatory state, or other conditions affecting currentness.
 

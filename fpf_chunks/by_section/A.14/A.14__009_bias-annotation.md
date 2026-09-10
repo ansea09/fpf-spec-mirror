@@ -6,12 +6,12 @@ section_id: "A.14:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__009_bias-annotation.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:8 — Bias-Annotation"
-line_start: 24461
-line_end: 24466
+line_start: 24462
+line_end: 24467
 dependencies:
   - "A.1"
   - "A.15"

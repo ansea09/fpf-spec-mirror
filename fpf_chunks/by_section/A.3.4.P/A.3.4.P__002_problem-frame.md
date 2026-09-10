@@ -6,12 +6,12 @@ section_id: "A.3.4.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__002_problem-frame.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:1 — Problem frame"
-line_start: 9764
-line_end: 9771
+line_start: 9765
+line_end: 9772
 dependencies:
   - "A.10"
   - "A.15.1"

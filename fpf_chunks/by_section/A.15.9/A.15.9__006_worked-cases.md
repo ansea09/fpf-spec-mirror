@@ -6,12 +6,12 @@ section_id: "A.15.9:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__006_worked-cases.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.15.9 — Request and Use a Bounded Result from Another Practice"
   - "A.15.9:5 — Worked cases"
-line_start: 27881
-line_end: 27902
+line_start: 27882
+line_end: 27903
 dependencies:
   - "A.10"
   - "A.13"

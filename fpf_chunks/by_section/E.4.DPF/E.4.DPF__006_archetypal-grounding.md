@@ -6,12 +6,12 @@ section_id: "E.4.DPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__006_archetypal-grounding.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:5 — Archetypal Grounding"
-line_start: 71991
-line_end: 72063
+line_start: 71992
+line_end: 72064
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -79,7 +79,7 @@ Enterprise local-practice slice:
 | Stewardship and maintenance | Which Systems perform any framework-authoring, source-pack maintenance, relation-record maintenance, publication or access, or refresh occurrence that this account actually claims as `U.Work`? For each such claim, recover every precise performer's A.13 core and independently admit the Work under A.15.1. Add F.6 only when this account also needs precise assignment-bound attribution. Which separate local system-role classification, maintenance, responsibility, authority, access, or source-custody relation obtains, and which direct-rule result or applicable `A.6.RCD` blocker applies when a required relation cannot be established? |
 | Approval route | Which management, engineering, safety, legal, or assurance reviews are needed before local use? |
 | Rollout and training | Which intended practitioners or audience groups need first-use examples, training material, or migration support? Identify any separately claimed training Work, system-role classification, assignment, responsibility, or authority through its direct pattern. |
-| Dependency | Which FPF Core and domain-framework editions does this framework depend on? For each dependency, name the exact relied-on content, direction, receiving use, material availability or compatibility condition, and reopen fact. |
+| Dependency | Which FPF Core and domain-framework editions does this framework depend on? For each dependency, name the content relied on, direction, receiving use, material availability or compatibility condition, and reopen fact. |
 | Migration | What changes after FPF Core edition change, domain-framework edition change, policy change, or repeated local misuse? |
 | Adoption telemetry | Which reader errors, skipped relation records, stale source packs, or quality regressions trigger `G.11` refresh? |
 

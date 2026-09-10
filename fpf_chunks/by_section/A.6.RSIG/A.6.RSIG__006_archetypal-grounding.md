@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__006_archetypal-grounding.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:5 — Archetypal grounding"
-line_start: 10976
-line_end: 11067
+line_start: 10977
+line_end: 11068
 dependencies:
   - "A.6"
   - "A.6.P"

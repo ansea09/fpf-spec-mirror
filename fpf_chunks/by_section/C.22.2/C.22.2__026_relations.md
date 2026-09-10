@@ -6,12 +6,12 @@ section_id: "C.22.2:25"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__026_relations.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:25 — Relations"
-line_start: 53707
-line_end: 53711
+line_start: 53708
+line_end: 53712
 dependencies:
   - "A.10"
   - "A.15"

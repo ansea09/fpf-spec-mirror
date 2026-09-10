@@ -6,12 +6,12 @@ section_id: "A.19.ECS:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__008_conformance-checklist.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:6 — Conformance checklist"
-line_start: 30382
-line_end: 30403
+line_start: 30383
+line_end: 30404
 dependencies:
   - "A.17-A.19"
   - "C.16"

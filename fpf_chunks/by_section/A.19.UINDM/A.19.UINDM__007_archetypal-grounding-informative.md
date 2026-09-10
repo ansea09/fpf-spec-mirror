@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:5"
 section_title: "Archetypal Grounding (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__007_archetypal-grounding-informative.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:5 — Archetypal Grounding (informative)"
-line_start: 33384
-line_end: 33413
+line_start: 33385
+line_end: 33414
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

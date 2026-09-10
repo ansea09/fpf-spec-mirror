@@ -6,12 +6,12 @@ section_id: "C.28:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__003_problem-frame.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:1 — Problem Frame"
-line_start: 57136
-line_end: 57141
+line_start: 57137
+line_end: 57142
 dependencies:
   - "A.10"
   - "A.15"

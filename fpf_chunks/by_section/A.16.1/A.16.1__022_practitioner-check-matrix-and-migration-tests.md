@@ -6,12 +6,12 @@ section_id: "A.16.1:21"
 section_title: "Practitioner Check Matrix and Migration Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__022_practitioner-check-matrix-and-migration-tests.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:21 — Practitioner Check Matrix and Migration Tests"
-line_start: 29277
-line_end: 29286
+line_start: 29278
+line_end: 29287
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "A.3.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__007_archetypal-grounding.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:5 — Archetypal Grounding"
-line_start: 9608
-line_end: 9656
+line_start: 9609
+line_end: 9657
 dependencies:
   - "A.1"
   - "A.10"

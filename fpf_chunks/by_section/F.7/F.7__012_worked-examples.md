@@ -6,12 +6,12 @@ section_id: "F.7:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__012_worked-examples.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:11 — Worked examples"
-line_start: 95781
-line_end: 95810
+line_start: 95782
+line_end: 95811
 dependencies:
   - "A.6.9"
   - "B.3"

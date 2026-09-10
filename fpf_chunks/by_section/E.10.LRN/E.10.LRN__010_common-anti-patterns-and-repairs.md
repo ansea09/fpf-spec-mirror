@@ -6,12 +6,12 @@ section_id: "E.10.LRN:8"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__010_common-anti-patterns-and-repairs.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:8 — Common Anti-Patterns and Repairs"
-line_start: 77226
-line_end: 77237
+line_start: 77227
+line_end: 77238
 dependencies:
   - "A.10"
   - "A.15"

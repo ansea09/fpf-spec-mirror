@@ -6,12 +6,12 @@ section_id: "C.30.P:8"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__011_conformance-checklist.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:8 — Conformance checklist"
-line_start: 60816
-line_end: 60828
+line_start: 60817
+line_end: 60829
 dependencies:
   - "A.10"
   - "A.15"

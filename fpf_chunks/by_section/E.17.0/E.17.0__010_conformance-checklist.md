@@ -6,12 +6,12 @@ section_id: "E.17.0:9"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__010_conformance-checklist.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:9 — Conformance checklist"
-line_start: 82662
-line_end: 82675
+line_start: 82663
+line_end: 82676
 dependencies:
   - "A.22"
   - "A.6.3"

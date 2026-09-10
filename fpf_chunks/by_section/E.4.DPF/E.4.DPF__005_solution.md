@@ -6,12 +6,12 @@ section_id: "E.4.DPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__005_solution.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:4 — Solution"
-line_start: 71592
-line_end: 71990
+line_start: 71593
+line_end: 71991
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -121,7 +121,7 @@ Before authoring a new edition, the `E.4.PFAD` architecture answer states:
 Before placing a proposed narrower contribution, apply `E.8:4.1.3` to it and the broader available contribution in one recognizable situation. Keep or merge a warranted difference that changes the reader's action or result; omit or merge a true duplicate; repair or reject an unwarranted difference. If something else answers the question, distinguish an available result from a MethodDescription, direct-source evidence, and an unavailable result; state maintenance only when it changes that use. This decides one contribution, not whether the package covers its public promise.
 
 
-The first-edition set is internally usable only when it contains every selected pattern and every prerequisite from the same framework needed for the named first use. Keep relied-on results from an FPF, DPF, LPF, or separate non-framework product external when they are not members of this framework. For each external result, name the exact result and exact relied-on content, its direct kind, supplying product, exact edition or current state, receiving use, discovery route, and any currentness or availability condition that can change the use; say that it remains external. When the receiving use also needs a separate availability or compatibility result, name the exact result and exact basis on which it applies. When an edition dependency obtains, also name its direction, reason, and refresh condition. If these facts are missing or the result does not answer the promised use, keep the family as a gap or omission; do not hide it behind the word *closed*. When a keep, merge, removal, profile move, or external reliance materially changes the stable set for a promised problem family, obtain a current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition. Reuse a matching current result when that edition and its basis are unchanged; authoring history is not part of the D12 result.
+The first-edition set is internally usable only when it contains every selected pattern and every prerequisite from the same framework needed for the named first use. Keep relied-on results from an FPF, DPF, LPF, or separate non-framework product external when they are not members of this framework. For each external result, identify the result and the content relied on, and state the result's direct kind, supplying product, edition or current state, receiving use, discovery route, and any currentness or availability condition that can change the use; say that it remains external. When the receiving use also needs a separate availability or compatibility result, identify that result and the basis on which it applies. When an edition dependency obtains, also name its direction, reason, and refresh condition. If these facts are missing or the result does not answer the promised use, keep the family as a gap or omission; do not hide it behind the word *closed*. When a keep, merge, removal, profile move, or external reliance materially changes the stable set for a promised problem family, obtain a current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition. Reuse a matching current result when that edition and its basis are unchanged; authoring history is not part of the D12 result.
 
 Several sources may describe the same practice through structures that do not line up one-for-one—for example Methods, Work, subjects, descriptions, capabilities, providers, and cultural processes. When those differences affect the framework architecture, use `C.32.MWA` to produce one readable synthesis for the `E.4.PFAD` answer; that synthesis does not choose whether to create a DPF or another result. Use `E.23.CDI` only when the selected architecture includes developing capability for a named Work family, and use its result instead of copying its action sequence here.
 
@@ -213,13 +213,13 @@ Representative application crossing the patterns and problem-family sets needed 
 Professional Method coverage, when it changes the answer: the practice questions selected by `E.4.PFAD`, the pattern used for each, the domain content needed, and whether `C.32.MWA` is required because several structures do not line up one-for-one:
 Whether capability development for a named Work family makes `E.23.CDI` current:
 Patterns included in the first edition and same-framework prerequisites needed for first use:
-External FPF, DPF, or LPF editions: exact relied-on content, use, direction, reason, refresh, and any required availability or compatibility result with its exact basis:
+For a framework candidate, results relied on from outside that framework: identify the result and the content relied on, including whether the result is that content or identifies it; the result's direct kind, supplying product, edition or current state, receiving use, discovery route, material currentness or availability, and that it remains external to the framework; any separately required availability or compatibility result, what must be available or which objects must be compatible for the receiving use, and the basis on which that result applies:
 Which load-bearing claims are actual, proposed, or untested, and what must be realized or tested before stronger use:
 Destination or source return for every contribution not selected into the framework edition or another named result:
 Candidate relation functions among the patterns:
 Current first result and selection condition: cheap route or stop with no DRR | one open architecture question answered by a new or revised framework, a contribution to an existing framework, a non-framework product, a thinner publication or access route, or no new maintained product now in an E.9 DRR | optional organization-design proposal | post-existence architecture-description use | optional authoring-dependency description
 
-Dependency on FPF Core or a domain framework edition:
+State a framework-edition dependency under `E.4.PFR:3.4` only when the dependent edition's current content or result for the named use requires the relied-on content: removing it or changing it in a way relevant to the use would invalidate the dependent content/result or require that use to be reopened. Identify the dependent edition, relied-on FPF Core or domain framework edition, direction, reason and refresh condition, referring to the relied-on content identified above. For an optional authoring-dependency description, use `E.4.DPF:4.5`:
 Publication form and exact presentation carrier for first use; access route if one is needed:
 Quality route: which first drafts should be evaluated and improved:
 Refresh triggers: source change, Core edition change, local-use telemetry, or policy change:

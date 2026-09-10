@@ -6,12 +6,12 @@ section_id: "A.10.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 23365
-line_end: 23378
+line_start: 23366
+line_end: 23379
 dependencies:
   - "A.10"
   - "A.10.1"

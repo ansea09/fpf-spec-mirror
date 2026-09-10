@@ -6,12 +6,12 @@ section_id: "E.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__016_relations.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:12 — Relations"
-line_start: 89328
-line_end: 89364
+line_start: 89329
+line_end: 89365
 dependencies:
   - "A.15.1"
   - "A.6.P"

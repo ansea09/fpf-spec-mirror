@@ -6,12 +6,12 @@ section_id: "G.10:8"
 section_title: "Conformance checklist (CC‑G10)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__009_conformance-checklist-cc-g10.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:8 — Conformance checklist (CC‑G10)"
-line_start: 107141
-line_end: 107158
+line_start: 107146
+line_end: 107163
 dependencies:
   - "A.10"
   - "A.15.3"

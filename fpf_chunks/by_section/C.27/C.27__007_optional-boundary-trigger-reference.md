@@ -6,12 +6,12 @@ section_id: "C.27:5"
 section_title: "Optional Boundary-Trigger Reference"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__007_optional-boundary-trigger-reference.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:5 — Optional Boundary-Trigger Reference"
-line_start: 56568
-line_end: 56620
+line_start: 56569
+line_end: 56621
 dependencies:
   - "A.10"
   - "A.3.3"

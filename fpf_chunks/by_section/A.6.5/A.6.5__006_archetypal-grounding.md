@@ -6,12 +6,12 @@ section_id: "A.6.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__006_archetypal-grounding.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:5 — Archetypal Grounding"
-line_start: 19501
-line_end: 19549
+line_start: 19502
+line_end: 19550
 dependencies:
   - "A.15.3"
   - "A.6.0"

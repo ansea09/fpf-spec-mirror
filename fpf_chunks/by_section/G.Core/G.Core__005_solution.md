@@ -6,12 +6,12 @@ section_id: "G.Core:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__005_solution.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:4 — Solution"
-line_start: 101562
-line_end: 101827
+line_start: 101567
+line_end: 101832
 dependencies:
   - "A.15.3"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "C.25:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__007_bias-annotation.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:6 — Bias-Annotation"
-line_start: 54367
-line_end: 54370
+line_start: 54368
+line_end: 54371
 dependencies:
   - "A.10"
   - "A.15"

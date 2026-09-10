@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__005_forces.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:3 — Forces"
-line_start: 45282
-line_end: 45291
+line_start: 45283
+line_end: 45292
 dependencies:
   - "A.10"
   - "A.15.1"

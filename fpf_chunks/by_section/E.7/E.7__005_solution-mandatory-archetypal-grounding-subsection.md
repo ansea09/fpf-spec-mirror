@@ -6,12 +6,12 @@ section_id: "E.7:4"
 section_title: "Solution — mandatory Archetypal Grounding subsection"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__005_solution-mandatory-archetypal-grounding-subsection.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.7 — Archetypal Grounding Principle"
   - "E.7:4 — Solution — mandatory Archetypal Grounding subsection"
-line_start: 73717
-line_end: 73733
+line_start: 73718
+line_end: 73734
 dependencies:
   - "E.5.4"
   - "E.6"

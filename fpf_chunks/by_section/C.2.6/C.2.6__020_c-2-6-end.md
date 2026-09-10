@@ -6,12 +6,12 @@ section_id: "C.2.6:End"
 section_title: "C.2.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__020_c-2-6-end.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:End — C.2.6:End"
-line_start: 44806
-line_end: 44807
+line_start: 44807
+line_end: 44808
 dependencies:
   - "A.16"
   - "A.16.0"

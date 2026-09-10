@@ -6,12 +6,12 @@ section_id: "C.3.A:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__011_rationale.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:10 — Rationale"
-line_start: 46945
-line_end: 47164
+line_start: 46946
+line_end: 47165
 dependencies:
   - "A.15"
   - "A.15.1"

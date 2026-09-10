@@ -6,12 +6,12 @@ section_id: "E.24.PUB:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__001_intro.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:intro — Intro"
-line_start: 92668
-line_end: 92673
+line_start: 92669
+line_end: 92674
 dependencies:
   - "A.6.3"
   - "A.6.REL"

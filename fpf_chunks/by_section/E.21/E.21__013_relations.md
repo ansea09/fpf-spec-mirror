@@ -6,12 +6,12 @@ section_id: "E.21:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__013_relations.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:11 — Relations"
-line_start: 90351
-line_end: 90373
+line_start: 90352
+line_end: 90374
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

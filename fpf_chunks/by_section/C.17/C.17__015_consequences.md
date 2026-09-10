@@ -6,12 +6,12 @@ section_id: "C.17:13"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__015_consequences.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:13 — Consequences"
-line_start: 50350
-line_end: 50357
+line_start: 50351
+line_end: 50358
 dependencies:
   - "A.0"
   - "A.1.1"

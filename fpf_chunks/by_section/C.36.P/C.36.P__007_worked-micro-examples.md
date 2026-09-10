@@ -6,12 +6,12 @@ section_id: "C.36.P:5"
 section_title: "Worked Micro-Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__007_worked-micro-examples.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:5 — Worked Micro-Examples"
-line_start: 69111
-line_end: 69145
+line_start: 69112
+line_end: 69146
 dependencies:
   - "A.1"
   - "A.1.1"

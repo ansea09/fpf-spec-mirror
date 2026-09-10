@@ -6,12 +6,12 @@ section_id: "A.6.REL:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__007_bias-annotation.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:6 — Bias-Annotation"
-line_start: 12552
-line_end: 12559
+line_start: 12553
+line_end: 12560
 dependencies:
   - "A.6.0"
   - "A.6.5"

@@ -6,12 +6,12 @@ section_id: "D.5:1.0"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__003_problem.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:1.0 — Problem"
-line_start: 69896
-line_end: 69899
+line_start: 69897
+line_end: 69900
 dependencies:
   - "A.10"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "E.24.PUB:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__006_solution.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:4 — Solution"
-line_start: 92727
-line_end: 92848
+line_start: 92728
+line_end: 92849
 dependencies:
   - "A.6.3"
   - "A.6.REL"

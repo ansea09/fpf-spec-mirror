@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:End"
 section_title: "A.19.SOURCE-SET-SPACE-SUBSTRATE:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__019_a-19-source-set-space-substrate-end.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:End — A.19.SOURCE-SET-SPACE-SUBSTRATE:End"
-line_start: 31248
-line_end: 31251
+line_start: 31249
+line_end: 31252
 dependencies:
   - "A.0"
   - "A.17"

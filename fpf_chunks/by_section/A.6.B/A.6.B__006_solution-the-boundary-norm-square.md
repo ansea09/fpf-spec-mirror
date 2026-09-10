@@ -6,12 +6,12 @@ section_id: "A.6.B:4"
 section_title: "Solution — the Boundary Norm Square"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__006_solution-the-boundary-norm-square.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:4 — Solution — the Boundary Norm Square"
-line_start: 11251
-line_end: 11289
+line_start: 11252
+line_end: 11290
 dependencies:
   - "A.10"
   - "A.2.3"

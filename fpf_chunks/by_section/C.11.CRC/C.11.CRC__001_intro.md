@@ -6,12 +6,12 @@ section_id: "C.11.CRC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__001_intro.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:intro — Intro"
-line_start: 47891
-line_end: 47902
+line_start: 47892
+line_end: 47903
 dependencies:
   - "A.1.CSD"
   - "A.10"

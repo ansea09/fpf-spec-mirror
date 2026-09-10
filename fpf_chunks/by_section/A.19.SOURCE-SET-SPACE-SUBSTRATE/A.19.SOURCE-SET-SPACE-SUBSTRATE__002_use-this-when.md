@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__002_use-this-when.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:0 — Use this when"
-line_start: 30725
-line_end: 30743
+line_start: 30726
+line_end: 30744
 dependencies:
   - "A.0"
   - "A.17"

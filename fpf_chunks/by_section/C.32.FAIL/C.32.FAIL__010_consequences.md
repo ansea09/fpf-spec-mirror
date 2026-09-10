@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__010_consequences.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:9 — Consequences"
-line_start: 66532
-line_end: 66541
+line_start: 66533
+line_end: 66542
 dependencies:
   - "A.10"
   - "A.13"

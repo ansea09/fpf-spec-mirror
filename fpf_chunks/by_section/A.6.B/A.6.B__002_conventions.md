@@ -6,12 +6,12 @@ section_id: "A.6.B:0"
 section_title: "Conventions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__002_conventions.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:0 — Conventions"
-line_start: 11191
-line_end: 11221
+line_start: 11192
+line_end: 11222
 dependencies:
   - "A.10"
   - "A.2.3"

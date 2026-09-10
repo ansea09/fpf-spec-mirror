@@ -6,12 +6,12 @@ section_id: "D.4:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__009_bias-annotation.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:5.1 — Bias-Annotation"
-line_start: 69821
-line_end: 69829
+line_start: 69822
+line_end: 69830
 dependencies:
   - "A.10"
   - "A.20"

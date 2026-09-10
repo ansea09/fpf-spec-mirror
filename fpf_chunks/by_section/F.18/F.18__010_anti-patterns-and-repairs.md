@@ -6,12 +6,12 @@ section_id: "F.18:8"
 section_title: "Anti-Patterns And Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__010_anti-patterns-and-repairs.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:8 — Anti-Patterns And Repairs"
-line_start: 101088
-line_end: 101101
+line_start: 101089
+line_end: 101102
 dependencies:
   - "A.10"
   - "A.15.1"

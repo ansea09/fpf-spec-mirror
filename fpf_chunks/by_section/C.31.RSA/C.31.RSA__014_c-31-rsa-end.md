@@ -6,12 +6,12 @@ section_id: "C.31.RSA:End"
 section_title: "C.31.RSA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__014_c-31-rsa-end.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:End — C.31.RSA:End"
-line_start: 63673
-line_end: 63674
+line_start: 63674
+line_end: 63675
 dependencies:
   - "A.10"
   - "A.19"

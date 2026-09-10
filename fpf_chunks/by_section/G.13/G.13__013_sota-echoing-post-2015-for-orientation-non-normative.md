@@ -6,12 +6,12 @@ section_id: "G.13:12"
 section_title: "SoTA‑Echoing (post‑2015, for orientation; non‑normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__013_sota-echoing-post-2015-for-orientation-non-normative.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:12 — SoTA‑Echoing (post‑2015, for orientation; non‑normative)"
-line_start: 108199
-line_end: 108210
+line_start: 108204
+line_end: 108215
 dependencies:
   - "A.18"
   - "A.19"

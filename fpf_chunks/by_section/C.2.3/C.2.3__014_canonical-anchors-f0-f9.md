@@ -6,12 +6,12 @@ section_id: "C.2.3:13"
 section_title: "Canonical Anchors F0...F9"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__014_canonical-anchors-f0-f9.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:13 — Canonical Anchors F0...F9"
-line_start: 43817
-line_end: 43867
+line_start: 43818
+line_end: 43868
 dependencies:
   - "A.16"
   - "A.18"

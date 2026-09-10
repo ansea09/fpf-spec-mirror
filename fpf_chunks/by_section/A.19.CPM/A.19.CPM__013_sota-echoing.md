@@ -6,12 +6,12 @@ section_id: "A.19.CPM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__013_sota-echoing.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:11 — SoTA-Echoing"
-line_start: 34480
-line_end: 34500
+line_start: 34481
+line_end: 34501
 dependencies:
 keywords:
   - "ComparatorSet"

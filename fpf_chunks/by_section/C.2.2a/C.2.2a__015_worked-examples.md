@@ -6,12 +6,12 @@ section_id: "C.2.2a:13"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__015_worked-examples.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:13 — Worked Examples"
-line_start: 43622
-line_end: 43651
+line_start: 43623
+line_end: 43652
 dependencies:
   - "A.16"
   - "A.16.0"

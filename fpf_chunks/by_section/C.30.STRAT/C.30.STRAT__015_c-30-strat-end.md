@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:End"
 section_title: "C.30.STRAT:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__015_c-30-strat-end.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:End — C.30.STRAT:End"
-line_start: 61110
-line_end: 61111
+line_start: 61111
+line_end: 61112
 dependencies:
   - "A.10"
   - "A.15"

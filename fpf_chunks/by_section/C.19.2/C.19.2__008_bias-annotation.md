@@ -6,12 +6,12 @@ section_id: "C.19.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__008_bias-annotation.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:6 — Bias-Annotation"
-line_start: 51505
-line_end: 51510
+line_start: 51506
+line_end: 51511
 dependencies:
   - "A.15.1"
   - "A.15.2"

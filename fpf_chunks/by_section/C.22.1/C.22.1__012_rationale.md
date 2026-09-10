@@ -6,12 +6,12 @@ section_id: "C.22.1:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__012_rationale.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:11 — Rationale"
-line_start: 52665
-line_end: 52668
+line_start: 52666
+line_end: 52669
 dependencies:
   - "A.15"
   - "C.19.1"

@@ -6,12 +6,12 @@ section_id: "A.19.ECS:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__011_rationale.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:9 — Rationale"
-line_start: 30425
-line_end: 30430
+line_start: 30426
+line_end: 30431
 dependencies:
   - "A.17-A.19"
   - "C.16"

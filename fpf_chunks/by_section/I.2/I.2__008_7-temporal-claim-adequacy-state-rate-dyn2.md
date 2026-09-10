@@ -6,12 +6,12 @@ section_id: "I.2"
 section_title: ".7 - Temporal claim adequacy: state -> rate -> Dyn2"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__008_7-temporal-claim-adequacy-state-rate-dyn2.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2 — .7 - Temporal claim adequacy: state -> rate -> Dyn2"
-line_start: 108421
-line_end: 108432
+line_start: 108426
+line_end: 108437
 dependencies:
   - "E.10"
   - "E.11"

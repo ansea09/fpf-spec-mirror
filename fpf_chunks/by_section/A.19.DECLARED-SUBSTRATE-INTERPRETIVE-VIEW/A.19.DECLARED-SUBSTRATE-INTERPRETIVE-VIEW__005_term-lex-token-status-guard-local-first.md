@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.a"
 section_title: "TERM/LEX token-status guard (local-first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__005_term-lex-token-status-guard-local-first.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.a — TERM/LEX token-status guard (local-first)"
-line_start: 31308
-line_end: 31319
+line_start: 31309
+line_end: 31320
 dependencies:
   - "A.0"
   - "A.19"

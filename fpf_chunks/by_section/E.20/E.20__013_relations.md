@@ -6,12 +6,12 @@ section_id: "E.20:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__013_relations.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:12 — Relations"
-line_start: 89748
-line_end: 89767
+line_start: 89749
+line_end: 89768
 dependencies:
   - "A.15.3"
   - "A.6.1"

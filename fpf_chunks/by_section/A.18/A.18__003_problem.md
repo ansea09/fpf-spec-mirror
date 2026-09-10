@@ -6,12 +6,12 @@ section_id: "A.18:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__003_problem.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:2 — Problem"
-line_start: 29666
-line_end: 29675
+line_start: 29667
+line_end: 29676
 dependencies:
   - "A.17"
   - "A.18"

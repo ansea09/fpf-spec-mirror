@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:4"
 section_title: "Quick worked-slice starter"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__005_quick-worked-slice-starter.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:4 — Quick worked-slice starter"
-line_start: 85714
-line_end: 85725
+line_start: 85715
+line_end: 85726
 dependencies:
   - "A.10"
   - "A.15"

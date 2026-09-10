@@ -6,12 +6,12 @@ section_id: "C.2.4:13"
 section_title: "Worked Examples and Edge Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__014_worked-examples-and-edge-cases.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:13 — Worked Examples and Edge Cases"
-line_start: 44335
-line_end: 44348
+line_start: 44336
+line_end: 44349
 dependencies:
   - "A.15"
   - "A.15.1"

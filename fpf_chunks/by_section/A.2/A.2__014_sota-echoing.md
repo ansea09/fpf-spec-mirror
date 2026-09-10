@@ -6,7 +6,7 @@ section_id: "A.2:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__014_sota-echoing.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:12 — SoTA-Echoing"

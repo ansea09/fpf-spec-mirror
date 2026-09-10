@@ -6,12 +6,12 @@ section_id: "E.11.PUA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__013_relations.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:12 — Relations"
-line_start: 80122
-line_end: 80127
+line_start: 80123
+line_end: 80128
 dependencies:
   - "A.13"
   - "A.15"

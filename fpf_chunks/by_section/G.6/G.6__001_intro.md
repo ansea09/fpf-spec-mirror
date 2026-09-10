@@ -6,12 +6,12 @@ section_id: "G.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__001_intro.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:intro — Intro"
-line_start: 105058
-line_end: 105063
+line_start: 105063
+line_end: 105068
 dependencies:
   - "A.10"
   - "A.13"

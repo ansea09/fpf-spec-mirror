@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 61060
-line_end: 61072
+line_start: 61061
+line_end: 61073
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.5.2:4"
 section_title: "Solution — Notational Independence Guard‑Rail (conceptual; semantics over syntax; not a notation mandate)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__005_solution-notational-independence-guard-rail-conceptual-semantics-over-syntax-not-a-notation-mandate.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:4 — Solution — Notational Independence Guard‑Rail (conceptual; semantics over syntax; not a notation mandate)"
-line_start: 73370
-line_end: 73391
+line_start: 73371
+line_end: 73392
 dependencies:
   - "E.5"
 keywords:

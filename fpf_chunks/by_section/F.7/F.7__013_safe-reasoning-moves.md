@@ -6,12 +6,12 @@ section_id: "F.7:12"
 section_title: "Safe reasoning moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__013_safe-reasoning-moves.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:12 — Safe reasoning moves"
-line_start: 95811
-line_end: 95821
+line_start: 95812
+line_end: 95822
 dependencies:
   - "A.6.9"
   - "B.3"

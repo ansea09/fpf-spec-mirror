@@ -6,12 +6,12 @@ section_id: "A.2.9:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__009_bias-annotation.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:6 — Bias-Annotation"
-line_start: 7712
-line_end: 7721
+line_start: 7713
+line_end: 7722
 dependencies:
   - "A.10"
   - "A.13"

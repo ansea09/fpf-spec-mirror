@@ -6,12 +6,12 @@ section_id: "A.19.CPM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__011_consequences.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:9 — Consequences"
-line_start: 34464
-line_end: 34471
+line_start: 34465
+line_end: 34472
 dependencies:
 keywords:
   - "ComparatorSet"

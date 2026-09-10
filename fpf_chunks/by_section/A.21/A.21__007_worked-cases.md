@@ -6,12 +6,12 @@ section_id: "A.21:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__007_worked-cases.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:5 — Worked cases"
-line_start: 35410
-line_end: 35425
+line_start: 35411
+line_end: 35426
 dependencies:
   - "A.10"
   - "A.15.5"

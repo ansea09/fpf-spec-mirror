@@ -6,12 +6,12 @@ section_id: "E.24:5.7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__012_rationale.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5.7 — Rationale"
-line_start: 92292
-line_end: 92302
+line_start: 92293
+line_end: 92303
 dependencies:
   - "A.19.ECS"
   - "A.6.0"

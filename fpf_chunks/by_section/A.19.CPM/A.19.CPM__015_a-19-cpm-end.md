@@ -6,12 +6,12 @@ section_id: "A.19.CPM:End"
 section_title: "A.19.CPM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__015_a-19-cpm-end.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:End — A.19.CPM:End"
-line_start: 34527
-line_end: 34528
+line_start: 34528
+line_end: 34529
 dependencies:
 keywords:
   - "ComparatorSet"

@@ -6,12 +6,12 @@ section_id: "G.13:5"
 section_title: "Extensions (pattern‑scoped; non‑core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__006_extensions-pattern-scoped-non-core.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:5 — Extensions (pattern‑scoped; non‑core)"
-line_start: 108053
-line_end: 108117
+line_start: 108058
+line_end: 108122
 dependencies:
   - "A.18"
   - "A.19"

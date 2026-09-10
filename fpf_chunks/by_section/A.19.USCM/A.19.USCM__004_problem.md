@@ -6,12 +6,12 @@ section_id: "A.19.USCM:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__004_problem.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:2 — Problem"
-line_start: 33566
-line_end: 33575
+line_start: 33567
+line_end: 33576
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

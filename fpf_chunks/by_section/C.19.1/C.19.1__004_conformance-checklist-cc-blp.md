@@ -6,12 +6,12 @@ section_id: "C.19.1:3"
 section_title: "Conformance Checklist (CC-BLP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__004_conformance-checklist-cc-blp.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:3 — Conformance Checklist (CC-BLP)"
-line_start: 51326
-line_end: 51338
+line_start: 51327
+line_end: 51339
 dependencies:
   - "A.0"
   - "A.10"

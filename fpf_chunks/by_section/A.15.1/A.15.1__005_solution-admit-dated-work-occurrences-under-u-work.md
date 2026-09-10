@@ -6,12 +6,12 @@ section_id: "A.15.1:4"
 section_title: "Solution — admit dated Work occurrences under U.Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__005_solution-admit-dated-work-occurrences-under-u-work.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:4 — Solution — admit dated Work occurrences under U.Work"
-line_start: 25111
-line_end: 25231
+line_start: 25112
+line_end: 25232
 dependencies:
   - "A.1"
   - "A.10"

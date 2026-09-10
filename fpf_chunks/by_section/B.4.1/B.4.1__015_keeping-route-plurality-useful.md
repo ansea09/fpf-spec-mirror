@@ -6,12 +6,12 @@ section_id: "B.4.1:14"
 section_title: "Keeping route plurality useful"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__015_keeping-route-plurality-useful.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:14 — Keeping route plurality useful"
-line_start: 40843
-line_end: 40860
+line_start: 40844
+line_end: 40861
 dependencies:
   - "A.15"
   - "A.16"

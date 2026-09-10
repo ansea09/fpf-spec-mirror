@@ -6,12 +6,12 @@ section_id: "C.21:End"
 section_title: "C.21:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__018_c-21-end.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:End — C.21:End"
-line_start: 52188
-line_end: 52189
+line_start: 52189
+line_end: 52190
 dependencies:
   - "A.10"
   - "A.17"

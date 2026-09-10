@@ -6,12 +6,12 @@ section_id: "C.3.3:6"
 section_title: "Norms & Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__007_norms-invariants-normative.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:6 — Norms & Invariants (normative)"
-line_start: 46199
-line_end: 46239
+line_start: 46200
+line_end: 46240
 dependencies:
   - "A.2.6"
   - "A.6.REL"

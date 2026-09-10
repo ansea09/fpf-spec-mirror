@@ -6,12 +6,12 @@ section_id: "F.7:6"
 section_title: "The table"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__007_the-table.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:6 — The table"
-line_start: 95704
-line_end: 95722
+line_start: 95705
+line_end: 95723
 dependencies:
   - "A.6.9"
   - "B.3"

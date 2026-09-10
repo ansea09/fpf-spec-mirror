@@ -6,12 +6,12 @@ section_id: "E.2:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__011_consequences.md"
-commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
+commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:10 — Consequences"
-line_start: 70230
-line_end: 70242
+line_start: 70231
+line_end: 70243
 dependencies:
   - "A.10"
   - "A.15.1"
