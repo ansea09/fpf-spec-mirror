@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.b"
 section_title: "First-minute operator cue and confusion guide"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__006_first-minute-operator-cue-and-confusion-guide.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.b — First-minute operator cue and confusion guide"
-line_start: 31306
-line_end: 31328
+line_start: 31320
+line_end: 31342
 dependencies:
   - "A.0"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "E.10.D2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__003_problem.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:2 — Problem"
-line_start: 78686
-line_end: 78694
+line_start: 78700
+line_end: 78708
 dependencies:
   - "A.1.1"
   - "A.10"

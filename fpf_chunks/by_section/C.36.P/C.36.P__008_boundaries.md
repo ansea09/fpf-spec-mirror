@@ -6,12 +6,12 @@ section_id: "C.36.P:6"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__008_boundaries.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:6 — Boundaries"
-line_start: 69132
-line_end: 69141
+line_start: 69146
+line_end: 69155
 dependencies:
   - "A.1"
   - "A.1.1"

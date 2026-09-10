@@ -6,12 +6,12 @@ section_id: "A.6.REL:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__012_sota-echoing.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:11 — SoTA-Echoing"
-line_start: 12591
-line_end: 12615
+line_start: 12605
+line_end: 12629
 dependencies:
   - "A.6.0"
   - "A.6.5"

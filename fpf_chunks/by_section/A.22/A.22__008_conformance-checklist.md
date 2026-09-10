@@ -6,12 +6,12 @@ section_id: "A.22:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__008_conformance-checklist.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:7 — Conformance Checklist"
-line_start: 35898
-line_end: 35917
+line_start: 35912
+line_end: 35931
 dependencies:
   - "A.1"
   - "A.1.1"

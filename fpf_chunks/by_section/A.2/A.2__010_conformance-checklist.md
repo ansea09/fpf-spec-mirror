@@ -6,12 +6,12 @@ section_id: "A.2:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__010_conformance-checklist.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:8 — Conformance Checklist"
-line_start: 3373
-line_end: 3392
+line_start: 3387
+line_end: 3406
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -56,6 +56,6 @@ keywords:
 | `CC-A2.11` | Same spelling across local practices, sources, or editions does not decide kind identity; continuity and actual relations are explicit. |
 | `CC-A2.12` | Relation-position or ordinary contribution wording creates no system-role kind or assignment by itself. |
 | `CC-A2.13` | A proposed decomposition is resolved through exact relations among kinds or neighboring subject patterns, not `partOf` over a system-role kind. |
-| `CC-A2.14` | Cross-local use keeps both kinds distinct, cites the exact C.3.3 kind relation and any F.9 local-sense relation, and states the bounded use, direction, preservation rule, tolerated loss, polarity, effective scheme, and current reliance needed by the receiver; a Bridge Card is not a use licence. |
+| `CC-A2.14` | Cross-local use compares the C.3 definitions first and reuses the same kind when its distinction continues; when two kinds are present, it keeps both kinds distinct, cites the exact C.3.3 kind relation and any needed F.9 local-sense relation, and states the bounded use, direction, preservation rule, tolerated loss, polarity, effective scheme, and current reliance needed by the receiver. Assignment occurrences remain independently governed in either branch; a Bridge Card is not a use licence. |
 | `CC-A2.15` | A selected model-use structure appears only in the receiving claim it changes; it neither classifies nor assigns a system and never enters a generic relation as an optional participant. |
 

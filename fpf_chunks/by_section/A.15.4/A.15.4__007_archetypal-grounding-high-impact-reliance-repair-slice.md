@@ -6,12 +6,12 @@ section_id: "A.15.4:3.2"
 section_title: "Archetypal Grounding - High-Impact Reliance-Repair Slice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__007_archetypal-grounding-high-impact-reliance-repair-slice.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.2 — Archetypal Grounding - High-Impact Reliance-Repair Slice"
-line_start: 26570
-line_end: 26665
+line_start: 26584
+line_end: 26679
 dependencies:
   - "A.10"
   - "A.13"

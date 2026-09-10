@@ -5,13 +5,13 @@ pattern_title: "Framework Publication Form Profile"
 section_id: "E.11.PFP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.11.PFP/E.11.PFP__008_archetypal-grounding.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+output_path: "by_section/E.11.PFP/E.11.PFP__009_archetypal-grounding.md"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:5 — Archetypal Grounding"
-line_start: 80637
-line_end: 80658
+line_start: 80670
+line_end: 80691
 dependencies:
   - "A.3.2"
   - "C.29"

@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-006"
 section_title: "Practical-Use Cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__007_practical-use-cards.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:section-006 — Practical-Use Cards"
-line_start: 80542
-line_end: 80636
+line_start: 80556
+line_end: 80656
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -127,3 +127,9 @@ There is no fixed number of generality scales. For example, a reader can move fr
 
 A pattern can participate in several profiles, and a profile can draw on several contributions. Describe this structure through the relations that hold. If a mathematical view is useful, apply `C.29`: select the elements and relation being modeled. A partial order needs its order properties; a lattice additionally needs the required bounds for every relevant pair. Multiple parentage or overlapping membership alone establishes neither. Keep that mathematical representation distinct from the Methods and their subject-side relations.
 
+##### E.11.PFP:4.7.1 - Make a Preface section recognizable on its own
+
+A reader entering through search, a quotation, a link or a retrieved excerpt may see a heading without its parents. Every heading inside the Preface therefore carries the framework's public reference code, the publication-unit key `Preface`, and its complete ordinal section path:
+
+```text
+## <FrameworkCode>.Preface:<n> - <Title>

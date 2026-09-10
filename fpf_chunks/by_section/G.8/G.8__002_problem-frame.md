@@ -6,12 +6,12 @@ section_id: "G.8:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__002_problem-frame.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:1 — Problem frame"
-line_start: 105747
-line_end: 105752
+line_start: 105781
+line_end: 105786
 dependencies:
   - "A.10"
   - "A.21"

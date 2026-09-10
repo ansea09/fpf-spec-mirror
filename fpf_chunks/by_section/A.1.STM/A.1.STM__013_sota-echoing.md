@@ -6,12 +6,12 @@ section_id: "A.1.STM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__013_sota-echoing.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:11 — SoTA-Echoing"
-line_start: 3010
-line_end: 3024
+line_start: 3024
+line_end: 3038
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -51,5 +51,5 @@ keywords:
 | Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439), 2012, read with current A.3.4, A.15.PROD, and E.18 | Required behavior and possible production or change depend on exact substrates, conditions, and constructor-side facts; a task or description is not an actual occurrence. | **Adopt the possibility/actuality pressure; adapt it to FPF subject patterns; reject actuality from requirement, Method, or Work alone.** | The runtime and making/changing regions, forward trace, and worked use distinguish one continuing changed referent, production participation, identity inception, later use, and system-side participation. A not-yet-existing system is not transformed, and required behavior proves no actual change. |
 | R5/R6 function, role, service, access, and “our system” variants | Familiar words can point to a system, capability, role, Work, Method, promise, state, bearer, arrangement, or another directly governed object; they do not agree on one default referent or universal contribution relation. | **Adopt the need to keep the long dependency visible; adapt every local claim to its exact subject predicate and retain the pattern only as a locator; reject lexical defaults and generic contribution.** | The `Local contribution` region and neighboring subject results require the exact subject and supported production, installation, participation, release, use, causal, evidence, or other relation. Service/access wording first undergoes A.6.P recovery; a missing direct link stops the long-map claim. |
 
-The reconciliation of long-mantra attention, subject-qualified results or blockers, minimal case closure, and E.18.NET recursion is a scoped FPF synthesis of these pressures, not an external consensus claim. Reopen the smallest affected clause if practitioner testing cannot distinguish the map from the `Solution`, a WorkPlan, or CGUS; if outside-before-inside or system-of-interest practice changes; if E.18.NET cannot express recursive builders without false membership; if a case exposes a missing runtime, closure, relation predicate, or link; or if *creator graph*, *function/role*, *service*, target-like system wording, fixed sequence, or a universal contribution edge again becomes load-bearing.
+The reconciliation of long-mantra attention, subject-qualified results or blockers, minimal case closure, and E.18.NET recursion is a scoped FPF synthesis of these pressures, not an external consensus claim.
 

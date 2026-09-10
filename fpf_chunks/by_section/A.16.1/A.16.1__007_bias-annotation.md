@@ -6,12 +6,12 @@ section_id: "A.16.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__007_bias-annotation.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:6 — Bias-Annotation"
-line_start: 29095
-line_end: 29097
+line_start: 29109
+line_end: 29111
 dependencies:
   - "A.16"
   - "A.16.0"

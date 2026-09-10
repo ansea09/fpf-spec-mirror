@@ -6,12 +6,12 @@ section_id: "C.11.CRC:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__002_use-this-when.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:0 — Use This When"
-line_start: 47889
-line_end: 47898
+line_start: 47903
+line_end: 47912
 dependencies:
   - "A.1.CSD"
   - "A.10"

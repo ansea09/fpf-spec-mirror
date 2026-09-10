@@ -6,12 +6,12 @@ section_id: "B.2.P:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__013_sota-echoing.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:10 — SoTA-Echoing"
-line_start: 38689
-line_end: 38697
+line_start: 38703
+line_end: 38711
 dependencies:
   - "A.1.1"
   - "A.10"

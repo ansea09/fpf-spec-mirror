@@ -6,12 +6,12 @@ section_id: "C.2:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__007_bias-annotation.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:6 — Bias‑Annotation"
-line_start: 41922
-line_end: 41927
+line_start: 41936
+line_end: 41941
 dependencies:
   - "A.1"
   - "A.10"

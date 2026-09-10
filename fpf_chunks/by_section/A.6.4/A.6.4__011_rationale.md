@@ -6,12 +6,12 @@ section_id: "A.6.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__011_rationale.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:10 — Rationale"
-line_start: 15997
-line_end: 16000
+line_start: 16011
+line_end: 16014
 dependencies:
   - "A.10"
   - "A.15"

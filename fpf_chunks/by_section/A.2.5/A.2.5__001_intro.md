@@ -6,12 +6,12 @@ section_id: "A.2.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__001_intro.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:intro — Intro"
-line_start: 4949
-line_end: 4954
+line_start: 4963
+line_end: 4968
 dependencies:
   - "A.15"
   - "A.15.1"

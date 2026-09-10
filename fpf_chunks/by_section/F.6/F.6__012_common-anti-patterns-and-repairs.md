@@ -6,12 +6,12 @@ section_id: "F.6:10"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__012_common-anti-patterns-and-repairs.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:10 — Common Anti-Patterns and Repairs"
-line_start: 95547
-line_end: 95563
+line_start: 95581
+line_end: 95597
 dependencies:
   - "A.1.1"
   - "A.10"

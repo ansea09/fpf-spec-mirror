@@ -6,12 +6,12 @@ section_id: "A.2.8:End"
 section_title: "A.2.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__017_a-2-8-end.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:End — A.2.8:End"
-line_start: 7067
-line_end: 7068
+line_start: 7081
+line_end: 7082
 dependencies:
   - "A.10"
   - "A.15.1"

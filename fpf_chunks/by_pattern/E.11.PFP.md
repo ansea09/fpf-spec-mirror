@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PFP.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
-line_start: 80435
-line_end: 80752
+line_start: 80449
+line_end: 80786
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -233,6 +233,25 @@ There is no fixed number of generality scales. For example, a reader can move fr
 
 A pattern can participate in several profiles, and a profile can draw on several contributions. Describe this structure through the relations that hold. If a mathematical view is useful, apply `C.29`: select the elements and relation being modeled. A partial order needs its order properties; a lattice additionally needs the required bounds for every relevant pair. Multiple parentage or overlapping membership alone establishes neither. Keep that mathematical representation distinct from the Methods and their subject-side relations.
 
+##### E.11.PFP:4.7.1 - Make a Preface section recognizable on its own
+
+A reader entering through search, a quotation, a link or a retrieved excerpt may see a heading without its parents. Every heading inside the Preface therefore carries the framework's public reference code, the publication-unit key `Preface`, and its complete ordinal section path:
+
+```text
+## <FrameworkCode>.Preface:<n> - <Title>
+### <FrameworkCode>.Preface:<n>.<m> - <Title>
+```
+
+For example, `## STR.Preface:1 - Problem frame - Direction and commitment under changing conditions` identifies the first section of the Strategy Preface. `### ME.Preface:7.3 - Production MethodDescription` identifies a nested section in the Method Engineering Preface. Use the framework's declared public code; name the framework as well when quoting outside a context that identifies it. The enclosing Preface H1 retains its product-declared title and established ToC entry.
+
+Number sibling sections in reading order, starting at 1, and carry the complete parent path into nested headings. Each nesting level adds one heading level and one ordinal. These ordinals locate sections in this Preface; their titles state the content functions. An account can combine several E.8 functions in one section or explain one function across several sections. Keep that useful arrangement instead of adding twelve empty sections to match numbers. The rule introduces no limit on useful conceptual scales; physical Markdown heading depth remains a carrier constraint.
+
+`STR.Preface` names a publication unit. Its section addresses are `SectionRef` uses under E.8, not declarations of additional patterns: the pattern index continues to contain the individually declared pattern bodies. Apply the same self-identifying construction to a profile account or other support unit when it needs its own section addresses, using its product-declared unit key. A profile explained inside the Preface retains its Preface section path; that text position does not decide the profile's semantic relations.
+
+The prefix lets a reader distinguish a whole-language Problem frame from the Problem frame of one pattern before choosing what to read or cite. Visible names and numbers also survive copying and printing, where a hidden anchor cannot help.
+
+The visible address and title use the ASCII ` - ` separator. Build each clickable fragment from the complete rendered heading according to the target Markdown carrier's rules, including punctuation removal and duplicate handling. When a heading changes, update its direct links in the publication, source templates and public consumers together. Check that the link resolves to the intended heading, then read that target for the answer the link promises. Keep the visible address usable for search and non-clickable copies. HTML anchors are optional carrier facilities, not a substitute for a self-identifying visible heading.
+
 ### E.11.PFP:5 - Archetypal Grounding
 
 **DPF with non-ascending pattern addresses.** A Systems Engineering DPF edition orders `SYSE.1`, `SYSE.16`, `SYSE.17`, and `SYSE.2` because that sequence helps readers. Its ToC rows and H2 bodies follow the same order. The `§` column reports each current position; it is not part of the PatternID. A later move changes the rows and bodies together without renumbering a continuing pattern. A citation outside the carrier says `Systems Engineering DPF, SYSE.16`; one intended to recover the earlier body also names the edition.
@@ -291,6 +310,7 @@ A pattern can participate in several profiles, and a profile can draw on several
 | CC-PFP.15 Navigation remains usable | The ToC represents Readme and Preface in its established product-native grammar before the singular pattern index; headings and labels describe their purpose, and the integrated rendered-structure summary plus intended-reader inspection exposes grouping defects without a second full read. |
 | CC-PFP.16 Whole account usable | Every substantive E.8 question has a public answer, an exact inherited answer, or an explicit use-changing gap at each selected scope. The account connects Methods and their results, retains their Architectural Rationale and shared source synthesis, and leaves direct pattern entry available. Headings or locators alone do not establish this content. |
 | CC-PFP.17 Scales and relations truthful | Further useful scales remain possible; the actual specialization, profile, composition, reuse, and publication-grouping relations are distinguished. A claimed mathematical order or lattice has the conditions required by C.29. |
+| CC-PFP.18 Whole-account sections addressable | Every Preface subsection exposes its framework code, Preface unit and complete ordinal path; nested paths and heading levels agree. Addressed profile or support units identify their declared unit. Links resolve to the intended rendered headings, while the target content supplies the promised answer. Publication-unit addresses do not create pattern-index entries. |
 
 ### E.11.PFP:8 - Common Anti-Patterns and How to Avoid Them
 

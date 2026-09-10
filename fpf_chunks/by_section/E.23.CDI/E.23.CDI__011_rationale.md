@@ -6,12 +6,12 @@ section_id: "E.23.CDI:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__011_rationale.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:10 — Rationale"
-line_start: 91293
-line_end: 91296
+line_start: 91327
+line_end: 91330
 dependencies:
   - "A.15.1"
   - "A.2.2"

@@ -6,12 +6,12 @@ section_id: "E.17.2:9"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__010_conformance-checklist.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:9 — Conformance checklist"
-line_start: 83392
-line_end: 83408
+line_start: 83426
+line_end: 83442
 dependencies:
   - "A.22"
   - "A.6.3"

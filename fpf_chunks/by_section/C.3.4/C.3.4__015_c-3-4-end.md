@@ -6,12 +6,12 @@ section_id: "C.3.4:End"
 section_title: "C.3.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__015_c-3-4-end.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:End — C.3.4:End"
-line_start: 46531
-line_end: 46532
+line_start: 46545
+line_end: 46546
 dependencies:
   - "A.2.6"
   - "C.2.1"

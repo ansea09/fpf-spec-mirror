@@ -6,12 +6,12 @@ section_id: "A.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 1835
-line_end: 1846
+line_start: 1845
+line_end: 1856
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -39,7 +39,7 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | System as universal root | A theory, document, model, source, or dashboard receives physical system properties. | Re-type as `U.Episteme`, publication, source-use object, or another direct object before using system claims. |
-| Document edited itself | A model, theory, or document is said to perform a revision. | Name the `U.System` and the revision Work; add a local system-role kind or `U.SystemRoleAssignment` only when that separate fact is material. Changed claim content identifies another `U.Episteme`; test any edition relation separately, and distinguish publication or carrier changes under their own patterns. |
+| Document edited itself | A model, theory, or document is said to perform a revision. | Name the revising `U.System`. If the account claims revision Work, first recover that System's A.13 core—local agential system-role kind and criterion, classification, and obtaining assignment with the required scope, situation, and window—then use A.15.1 to admit the Work. A short account may omit restating these facts only when they remain recoverable; add F.6 only for precise assignment-bound attribution. Changed claim content identifies another `U.Episteme`; test any edition relation separately, and distinguish publication or carrier changes under their own patterns. |
 | Collection as actor | A list, batch, pool, fleet, or community is said to decide or perform Work. | Recover who or what belongs to the collection under its own rule, a possible holon, a whole-level characteristic, an acting collective System, or B.2 whole reidentification. |
 | Interaction as one umbrella | Signal, source use, publication use, transformation, measurement, and control are all called interaction. | Recover the exact direct relation; use F.9 for a needed semantic correspondence or difference between two exact local senses from different semantic contexts, and `A.3.4` when bounded change is current. |
 | Omnibus participation relation | References to system-role-kind classification or assignment, capability, method, work, transformation, evidence, and time are packed into one additional relation-shaped record. | Keep the direct relation occurrences separate; select their organization as `U.Structure` only when that organization changes the receiving use. |

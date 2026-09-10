@@ -6,12 +6,12 @@ section_id: "C.2.LS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__001_intro.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:intro — Intro"
-line_start: 43970
-line_end: 43983
+line_start: 43984
+line_end: 43997
 dependencies:
   - "A.16"
   - "A.16.0"

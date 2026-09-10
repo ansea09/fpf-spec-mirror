@@ -6,12 +6,12 @@ section_id: "A.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__007_archetypal-grounding.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:5 — Archetypal Grounding"
-line_start: 3253
-line_end: 3345
+line_start: 3267
+line_end: 3359
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -115,9 +115,9 @@ The assignment proves neither circulation capability over every operating region
 An engineering team uses RFC 9110 while designing an HTTP service. Keep these claims separate:
 
 1. `DesignTeam-2` independently counts under `ProtocolDesignerSystemRole` in the current slice when its signature criterion is satisfied.
-2. One design-assignment occurrence may obtain as an instance of a declared `U.SystemRoleAssignment` species.
+2. For this hypothetical assignment-bound case, suppose the practice has declared `ProtocolDesignSystemRoleAssignment` under `U.SystemRoleAssignment` according to A.2.1, and `DesignAssignment-1` is one obtaining occurrence with holder `DesignTeam-2` and assigned kind `ProtocolDesignerSystemRole`.
 3. The RFC publication is the source episteme in the direct source-use or external-rule relation selected by the design claim.
-4. Recover `DesignTeam-2` as the exact actual performer through A.13, then let A.15.1 independently admit the dated design Work. Because this case expressly says the Work was performed under the exact design assignment, F.6 afterward establishes that relation through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact. The Work may separately produce a MethodDescription or SystemDescription only through the applicable production claim.
+4. In this hypothetical case, recover `DesignTeam-2` as the exact actual performer through A.13 with that same obtaining `DesignAssignment-1`, then let A.15.1 independently admit the dated design Work. Suppose this Work was performed under `DesignAssignment-1`; F.6 afterward establishes that relation to this same assignment. F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact. The Work may separately produce a MethodDescription or SystemDescription only through the applicable production claim.
 
 
 #### A.2:5.4 - The Same Label in Two Local Practices

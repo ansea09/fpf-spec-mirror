@@ -6,12 +6,12 @@ section_id: "A.2.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__001_intro.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:intro — Intro"
-line_start: 5300
-line_end: 5304
+line_start: 5314
+line_end: 5318
 dependencies:
   - "A.1.1"
   - "A.15.1"

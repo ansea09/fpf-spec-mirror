@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__011_rationale.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:10 — Rationale"
-line_start: 66528
-line_end: 66533
+line_start: 66542
+line_end: 66547
 dependencies:
   - "A.10"
   - "A.13"

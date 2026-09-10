@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "B.5.2 — Abductive Loop"
-line_start: 41054
-line_end: 41380
+line_start: 41068
+line_end: 41394
 dependencies:
   - "A.10"
   - "A.16"

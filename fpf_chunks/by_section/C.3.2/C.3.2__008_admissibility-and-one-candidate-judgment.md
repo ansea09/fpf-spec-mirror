@@ -6,12 +6,12 @@ section_id: "C.3.2:6"
 section_title: "Admissibility and One Candidate Judgment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__008_admissibility-and-one-candidate-judgment.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:6 — Admissibility and One Candidate Judgment"
-line_start: 45958
-line_end: 45981
+line_start: 45972
+line_end: 45995
 dependencies:
   - "A.14"
   - "A.2.6"

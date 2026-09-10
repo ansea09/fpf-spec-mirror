@@ -6,12 +6,12 @@ section_id: "F.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__011_rationale.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:10 — Rationale"
-line_start: 94139
-line_end: 94144
+line_start: 94173
+line_end: 94178
 dependencies:
   - "A.10"
   - "A.7"

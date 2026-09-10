@@ -6,12 +6,12 @@ section_id: "E.5.3:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__009_rationale.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "E.5.3 — Unidirectional Dependency"
   - "E.5.3:8 — Rationale"
-line_start: 73480
-line_end: 73485
+line_start: 73494
+line_end: 73499
 dependencies:
   - "E.4"
   - "E.5"

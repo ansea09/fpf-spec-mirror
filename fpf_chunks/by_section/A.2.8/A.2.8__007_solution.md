@@ -6,12 +6,12 @@ section_id: "A.2.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__007_solution.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:4 — Solution"
-line_start: 6797
-line_end: 6932
+line_start: 6811
+line_end: 6946
 dependencies:
   - "A.10"
   - "A.15.1"

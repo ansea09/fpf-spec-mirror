@@ -6,12 +6,12 @@ section_id: "E.3:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__009_consequences.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
   - "E.3:8 — Consequences"
-line_start: 70663
-line_end: 70665
+line_start: 70677
+line_end: 70679
 dependencies:
   - "E.1"
   - "E.2"

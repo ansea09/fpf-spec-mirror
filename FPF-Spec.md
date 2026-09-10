@@ -35,27 +35,27 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 
 | ID & Title | Status | Concise content reminder |
 | --- | --- | --- |
-| What This Specification Is And How To Use It | full text | Distinguishes non-exhaustive direct examples, selected cross-pattern cards, Preface, ToC, direct pattern bodies, ordinary use, reliance-bearing support, exact first results, and three coupled flows. |
-| FPF As A Project, Not Only A Pattern List | full text | Places the evolving Core beside companion explanations, domain frameworks, local practice frameworks, publication carriers, and tools without merging their authority. |
-| Why FPF Exists | full text | Explains why difficult multi-participant work needs explicit distinctions, options, evidence, decisions, and return paths. |
-| Creativity And Assurance Mature Together | full text | Connects plural option generation, evidence, assurance, currentness, and bounded decisions without making them one lifecycle. |
-| Local Closure Inside An Open World | full text | Shows how a decision gains local closure by naming the actual source, scope, model-use organization, situation, comparison basis, or other subject-defined boundary it uses, together with its reopen condition. |
-| FPF As An Evolutionary Architecture For Thought | full text | Treats the framework as evolving reasoning architecture whose components, relations, and evaluations change together. |
-| Architectural Characteristics Of Thought | full text | Names the characteristics that make reasoning inspectable, composable, evolvable, falsifiable, and usable. |
-| Beyond Bias Hunting | full text | Replaces negative error catalogues with constructive reasoning objects and direct solution moves. |
-| Thinking Through Writing | full text | Explains when cards, records, tables, characteristic spaces, term sheets, patterns, and DRRs become useful thinking instruments rather than paperwork. |
-| Thinking-Oriented Architecture, Not A Descriptive Upper Ontology | full text | Distinguishes FPF's work of improving reasoning from cataloguing every entity that may exist. |
-| The Bitter Lesson Stance | full text | Prefers general scalable search and learning while retaining explicit constraints, evidence, and bounded use. |
-| From Flat Documents To Multi-View Truth | full text | Separates EntityOfConcern, descriptions, views, publication carriers, and reader uses while preserving return to source structure. |
-| Architecture As Structure Of Holons | full text | Explains architecture as selected structures of a holon in context rather than the diagram or document that describes them. |
-| Boundary Statements | full text | Shows where language carries commitments, admissibility, evidence, gates, and other boundary claims. |
-| Raising Semantic Precision | full text | Explains ontology-first restoration from overloaded wording to explicit kinds, relations, slots, and admissible uses. |
-| Big FPF Storylines | full text | Follows a report-review inquiry through qualified evidence, a shared-resource shortfall and the remaining comparison; explains Architectural Rationale, direct entry, profiles, shared source synthesis, alternatives, costs and changed-condition reuse. |
-| Transdisciplinarity As A Meta-Theory Of Thinking | full text | Shows how shared distinctions can connect disciplines without flattening their bounded meanings. |
-| The Culinary Architecture Of Collective Thought | full text | Uses an assembly analogy to explain why familiar ingredients still need an explicit architecture and quality discipline. |
-| The Intellect Stack As A Pedagogical Map | full text | Gives a teaching map for locating capabilities without turning the map into the ontology or work order. |
-| Purpose, Scope, And Non-Goals | full text | States FPF's intended use, tool independence, and boundaries against domain encyclopedia or one prescribed methodology. |
-| How To Continue After The readme | full text | Sends the reader from a practical-use card to the direct pattern, then to exact result, receiving use, stop, or return. |
+| FPF.Preface:1 - What This Specification Is And How To Use It | full text | Distinguishes non-exhaustive direct examples, selected cross-pattern cards, Preface, ToC, direct pattern bodies, ordinary use, reliance-bearing support, exact first results, and three coupled flows. |
+| FPF.Preface:2 - FPF As A Project, Not Only A Pattern List | full text | Places the evolving Core beside companion explanations, domain frameworks, local practice frameworks, publication carriers, and tools without merging their authority. |
+| FPF.Preface:3 - Why FPF Exists | full text | Explains why difficult multi-participant work needs explicit distinctions, options, evidence, decisions, and return paths. |
+| FPF.Preface:4 - Creativity And Assurance Mature Together | full text | Connects plural option generation, evidence, assurance, currentness, and bounded decisions without making them one lifecycle. |
+| FPF.Preface:5 - Local Closure Inside An Open World | full text | Shows how a decision gains local closure by naming the actual source, scope, model-use organization, situation, comparison basis, or other subject-defined boundary it uses, together with its reopen condition. |
+| FPF.Preface:6 - FPF As An Evolutionary Architecture For Thought | full text | Treats the framework as evolving reasoning architecture whose components, relations, and evaluations change together. |
+| FPF.Preface:7 - Architectural Characteristics Of Thought | full text | Names the characteristics that make reasoning inspectable, composable, evolvable, falsifiable, and usable. |
+| FPF.Preface:8 - Beyond Bias Hunting | full text | Replaces negative error catalogues with constructive reasoning objects and direct solution moves. |
+| FPF.Preface:9 - Thinking Through Writing | full text | Explains when cards, records, tables, characteristic spaces, term sheets, patterns, and DRRs become useful thinking instruments rather than paperwork. |
+| FPF.Preface:10 - Thinking-Oriented Architecture, Not A Descriptive Upper Ontology | full text | Distinguishes FPF's work of improving reasoning from cataloguing every entity that may exist. |
+| FPF.Preface:11 - The Bitter Lesson Stance | full text | Prefers general scalable search and learning while retaining explicit constraints, evidence, and bounded use. |
+| FPF.Preface:12 - From Flat Documents To Multi-View Truth | full text | Separates EntityOfConcern, descriptions, views, publication carriers, and reader uses while preserving return to source structure. |
+| FPF.Preface:13 - Architecture As Structure Of Holons | full text | Explains architecture as selected structures of a holon in context rather than the diagram or document that describes them. |
+| FPF.Preface:14 - Boundary Statements | full text | Shows where language carries commitments, admissibility, evidence, gates, and other boundary claims. |
+| FPF.Preface:15 - Raising Semantic Precision | full text | Explains ontology-first restoration from overloaded wording to explicit kinds, relations, slots, and admissible uses. |
+| FPF.Preface:16 - Big FPF Storylines | full text | Follows a report-review inquiry through qualified evidence, a shared-resource shortfall and the remaining comparison; explains Architectural Rationale, direct entry, profiles, shared source synthesis, alternatives, costs and changed-condition reuse. |
+| FPF.Preface:17 - Transdisciplinarity As A Meta-Theory Of Thinking | full text | Shows how shared distinctions can connect disciplines without flattening their bounded meanings. |
+| FPF.Preface:18 - The Culinary Architecture Of Collective Thought | full text | Uses an assembly analogy to explain why familiar ingredients still need an explicit architecture and quality discipline. |
+| FPF.Preface:19 - The Intellect Stack As A Pedagogical Map | full text | Gives a teaching map for locating capabilities without turning the map into the ontology or work order. |
+| FPF.Preface:20 - Purpose, Scope, And Non-Goals | full text | States FPF's intended use, tool independence, and boundaries against domain encyclopedia or one prescribed methodology. |
+| FPF.Preface:21 - How To Continue After The readme | full text | Sends the reader from a practical-use card to the direct pattern, then to exact result, receiving use, stop, or return. |
 
 **Part A - Kernel Architecture Cluster**
 
@@ -814,7 +814,7 @@ GitHub repository: https://github.com/ailev/FPF
 
 # **Preface** (non-normative)
 
-## What This Specification Is And How To Use It
+## FPF.Preface:1 - What This Specification Is And How To Use It
 
 This document is the Core Conceptual Specification of the First Principles Framework (FPF). It defines a standards-style pattern language for explicit, reviewable, improvable conceptual work in engineering, research, management, governance, and mixed human and AI projects.
 
@@ -844,7 +844,7 @@ The FPF `readme` section presents the semantic practical-use cards maintained th
 
 When several cards seem plausible, compare them by the situation they recognize, the difference between their first results, and their stop or reconsideration conditions. That comparison may remain in the conversation. Before selecting a pattern, inspect its Problem frame, Problem, Forces, Solution, Consequences, and ordinary non-use boundary. Once one direct pattern is selected, use `E.11.PUA` to follow its `Solution` to the smallest useful result or an honest blocker. If the expected subject result is absent, keep an honest interim result and leave that expectation open. Keep an ordinary reversible judgement conversational; introduce an exact assertion, result basis, method, work, or reliance support only when that distinction changes the truth or a named later reliance needs it. Name a dependent use only when an actual continuation or later reliance is current. Use `E.11.PUR` when applicability, recommendation, coordination, or ordering among candidate pattern uses is the current question.
 
-### Four ordinary starts before a PatternID
+### FPF.Preface:1.1 - Four ordinary starts before a PatternID
 
 Sometimes the obstacle is not choosing among pattern titles. A familiar phrase already hides the project object that the next claim needs. The four direct starts below are independent: use the one whose situation is current, take its smallest useful result, and stop. They are not a lifecycle or a form to complete.
 
@@ -890,7 +890,7 @@ The large areas of the specification can be read as one conceptual architecture.
 
 That orientation list is only for lookup. The exact rules remain in the pattern bodies.
 
-## FPF As A Project, Not Only A Pattern List
+## FPF.Preface:2 - FPF As A Project, Not Only A Pattern List
 
 FPF is a project for improving how difficult reasoning is written, checked, taught, used by humans, and used by AI agents. The Core Specification is the normative center of that project, but it is not the whole project.
 
@@ -908,7 +908,7 @@ Those companion explanations, tools, project-local adaptations, and examples can
 
 This separation protects both sides. The Core can stay tool-agnostic and pattern-centered. Companions and tools can be vivid, practical, and domain-rich without turning every example into a new norm. The Preface therefore speaks about FPF as a whole project while keeping the boundary clear: patterns define or constrain, companions teach, tools implement, project-local adaptations apply, and examples show.
 
-## Why FPF Exists
+## FPF.Preface:3 - Why FPF Exists
 
 Many projects do not fail because nobody had an idea. They fail because the idea changes kind as it travels.
 
@@ -920,7 +920,7 @@ The practical ambition is simple: keep difficult reasoning alive long enough to 
 
 For humans, FPF gives a shared working memory for complex reasoning. For AI agents, FPF gives typed constraints, named distinctions, and checkable written forms so generated text can be tested against the kind of work it claims to perform. For organizations, FPF gives a way to make reasoning transfer across teams without pretending that all teams use the same local meanings.
 
-## Creativity And Assurance Mature Together
+## FPF.Preface:4 - Creativity And Assurance Mature Together
 
 Many frameworks choose a side. Some optimize for assurance: audit trails, evidence, safety gates, confidence, compliance, and sign-off. Others celebrate creativity: exploration, novelty, pivots, abduction, and open-ended search. FPF is built to keep both rails alive at once.
 
@@ -942,7 +942,7 @@ In a laboratory, an anomaly is not merely noise. It may be a prompt for candidat
 
 This is one of FPF's central payoffs: a team can be inventive without losing its audit trail, and conservative without closing down imagination too early.
 
-## Local Closure Inside An Open World
+## FPF.Preface:5 - Local Closure Inside An Open World
 
 FPF assumes an open world. New evidence can arrive. A better mathematical model may appear. A source publication, source-use record, or telemetry relation may become stale. A competitor may change the state of the art. A user need may shift. A new concern may reveal that the same system should be described differently.
 
@@ -963,7 +963,7 @@ This is why FPF patterns often look strict. The strictness is local. It lets a p
 
 Local closure also does not license ceremony. Before a method, route, or review makes an action mandatory, ask whether a materially plausible result can change a named substantive decision within the nearest substantive horizon, whether the action realizes an already selected result, or whether removing it changes an assurance or recovery condition on which the use relies. This contribution is necessary but does not by itself make a proposed inquiry obtainable or worth requiring. Use `A.11.OP` for that screen and its boundary with direct duties and assurance. When the demand's worth remains open, `C.11.DUA` compares its attainable contribution and whole burden; a current local choice uses `C.11`. The result can be a qualified answer on the present basis.
 
-## FPF As An Evolutionary Architecture For Thought
+## FPF.Preface:6 - FPF As An Evolutionary Architecture For Thought
 
 A team can organize its reasoning so that a changed model, new finding, or departing colleague leaves other useful results recoverable. Its participants, reusable Methods, shared descriptions, and actual Work each have a structure and a different way of changing. FPF helps the team keep those differences visible while improving the arrangement.
 
@@ -983,7 +983,7 @@ FPF applies the same idea to reasoning:
 
 The result is not one final answer. It is a way to keep producing, comparing, selecting, publishing, and improving answers without losing traceability or semantic integrity.
 
-## Architectural Characteristics Of Thought
+## FPF.Preface:7 - Architectural Characteristics Of Thought
 
 If FPF is an architecture for thought, then thought has architecture characteristics. Some of them are familiar quality words, but FPF treats them as characteristics of reasoning arrangements that can be improved, damaged, compared, or inspected.
 
@@ -1008,7 +1008,7 @@ If FPF is an architecture for thought, then thought has architecture characteris
 
 The table is not a checklist for every project. It shows the kind of quality FPF is trying to preserve in reasoning itself. A project may enter through architecture, naming, evidence, mathematics, or comparison, but the deeper benefit is that the reasoning becomes more auditable, evolvable, and usable.
 
-## Beyond Bias Hunting
+## FPF.Preface:8 - Beyond Bias Hunting
 
 Critical-thinking practice often focuses on cognitive biases: confirmation bias, availability bias, planning fallacy, fixation, groupthink, and many others. That work is useful. It gives names to predictable failures in human judgment.
 
@@ -1020,7 +1020,7 @@ That is why FPF's discipline around wording and descriptions should not make FPF
 
 This changes the tone of FPF. It is not a list of warnings. It is a design language for better reasoning. The user should come away not only knowing what not to say, but knowing what to build next: an architecture question note, problem card, comparison frame, characteristic space, evidence-readiness note, naming card, repaired paragraph, modeling note, option portfolio, or improvement loop.
 
-## Thinking Through Writing
+## FPF.Preface:9 - Thinking Through Writing
 
 FPF relies on written forms because serious reasoning needs objects that can be inspected. In everyday work, much reasoning stays inside conversation, memory, chat logs, sketches, or tool outputs. That is often enough for one short exchange. Addressable records become useful when reasoning is to survive delegation, review, reuse, publication, AI assistance, or time.
 
@@ -1040,7 +1040,7 @@ This is especially important for AI use. An AI assistant can generate fluent pro
 
 Thinking through writing is not paperwork. It is how thought becomes durable enough to challenge, improve, and responsibly act on.
 
-## Thinking-Oriented Architecture, Not A Descriptive Upper Ontology
+## FPF.Preface:10 - Thinking-Oriented Architecture, Not A Descriptive Upper Ontology
 
 FPF shares one ambition with upper ontologies: it tries to make reasoning travel across domains. But its primary task is different.
 
@@ -1058,7 +1058,7 @@ This is the difference between a catalogue and an instrument. A catalogue can te
 
 The ontology therefore serves action guidance. FPF does not replace domain ontologies, mathematics, standards, or evidence. It gives them a place in project reasoning so they can be used without collapsing local meanings or publication forms.
 
-## The Bitter Lesson Stance
+## FPF.Preface:11 - The Bitter Lesson Stance
 
 FPF also carries a Bitter-Lesson-compatible stance. In AI, software, and open-ended engineering, systems that can use more search, more data, more compute, and more general learning often outperform brittle hand-coded procedure scripts when the domain changes or scale grows.
 
@@ -1076,7 +1076,7 @@ Some uses need a specified procedure: safety, regulation, legal compliance, repr
 
 This stance helps with human and AI work alike. A team can use general agents, search, simulation, model refresh, or state-of-the-art harvesting without surrendering safety. The freedom lives inside constraints, budgets, evidence, and typed checks.
 
-## From Flat Documents To Multi-View Truth
+## FPF.Preface:12 - From Flat Documents To Multi-View Truth
 
 Traditional document practice often treats one file as "the truth". Contemporary projects rarely fit that shape. A product, organization, architecture, safety case, research program, model, or AI-agent arrangement may need many descriptions for different concerns.
 
@@ -1098,7 +1098,7 @@ This is also how FPF can work with distributed and AI-generated representations.
 
 A narrative or explanatory rendering is one such publication shape. Its source relation remains inspectable when it states what selected source structure it used, what it preserved, what it deliberately coarsened, abstracted, omitted, or lost, which viewpoint it uses, the source-return condition, and any unresolved neighboring assertion with its subject-pattern locator. If the rendering begins from an architecture description or view, that source basis may already be a coarsened account of actual, expected, or candidate structures; the rendering keeps that earlier loss visible. Narrative readability does not turn a rendering into evidence, assurance, permission, architecture, or the described object itself.
 
-## Architecture As Structure Of Holons
+## FPF.Preface:13 - Architecture As Structure Of Holons
 
 FPF treats architecture as structure of a holon in a context, not as a diagram, document, approval, promise, or implementation plan.
 
@@ -1114,7 +1114,7 @@ Assess how hard a holon is to understand, change, control, reuse or improve unde
 
 Extractable structural information is a reader-relative characteristic of a publication, assessed for the intended reader's preparation and available budget. It applies, for example, to a pattern's text, an explanation in a guide or an architecture description. Epiplexity formalizes structural information extractable from data by computationally bounded observers ([Finzi et al.](https://arxiv.org/html/2601.03220v2), §3); `C.29:4.2c` governs the use of that mathematical lens. `A.6.3.NAR` supplies the source-to-narrative relation for narrative publications. What counts as an improvement depends on the named object and intended use.
 
-## Boundary Statements
+## FPF.Preface:14 - Boundary Statements
 
 Most of the time, teams can use fast compressed speech. "The service guarantees it." "The model is synced." "The dashboard proves it." "The interface is stable." "The process is compliant." In ordinary conversation, people often infer enough to continue.
 
@@ -1133,7 +1133,7 @@ If those jobs remain bundled, the sentence becomes hard to check. Later disagree
 
 FPF's boundary discipline, especially around the `A.6` family, repairs such cases by separating claim kinds. A contract line, interface statement, API schema, compliance note, or safety-case sentence can be unpacked into definition, admissibility, commitment, evidence, work effect, publication, and decision components as needed. The point is not to force every document into a heavy form. The point is to keep boundary language from changing system behavior without an inspectable claim.
 
-## Raising Semantic Precision
+## FPF.Preface:15 - Raising Semantic Precision
 
 FPF does not expect people to start with perfect terminology. Early thinking is often compressed, metaphorical, and useful. That is not a failure. It becomes a problem only when the compressed phrase begins to govern action, evidence, architecture, publication, decision, work, assurance, or mathematical modeling.
 
@@ -1150,11 +1150,11 @@ This is why `E.10` is a trigger scan rather than a synonym list. `E.10.ARCH` dis
 
 The success condition is not "the text now sounds precise". The success condition is that after removing overread, the working reader still has a useful move: use the claim within its declared limit, repair it further, apply the related pattern that defines or constrains the remaining claim, or block the claim until the missing record, relation, evidence, or subject-pattern application is supplied.
 
-## Big FPF Storylines
+## FPF.Preface:16 - Big FPF Storylines
 
 FPF connects ways of asking a question, developing an answer, testing its support and using it in further work. The connection matters when one sound local result leaves the next participant unable to act: the measurement concerns a different population, a candidate needs unavailable support, or a useful explanation omits the condition under which it holds. Start with that receiving question and use only the contributions needed to answer it.
 
-### Follow one question through several contributions
+### FPF.Preface:16.1 - Follow one question through several contributions
 
 Consider a constructed example. A team is deciding how to help engineers review technical reports. A purchased assistant and a locally operated assistant remain candidates. The local candidate appears faster on the small set tried so far. The current question is whether that is enough to begin relying on the proposed review arrangement.
 
@@ -1170,7 +1170,7 @@ This example ends with three usable results: a qualified reading of the existing
 
 Inquiry can stop earlier. A laboratory may need to explain why several performances differ before it has any preferred intervention. `A.3.1.MR` helps recover a candidate reusable way from the performance evidence; a counterexample can leave the candidate unresolved and identify what to observe next. The useful result is then a sharper hypothesis and discriminating observation. Choosing or deploying a solution becomes current only when the research question and evidence make that next move useful.
 
-### Architectural Rationale
+### FPF.Preface:16.2 - Architectural Rationale
 
 The organization supports several useful scales. A practitioner may apply one pattern, use several contributions together, or develop a recurring domain Method described by many patterns. A professional DPF supplies the domain difficulties, mechanisms, evidence and judgement; a local LPF supplies the arrangements of a particular practice. A narrower profile can reuse several broader contributions and explain its changed conditions. Further useful narrowing remains possible. Pattern reuse, Method composition, specialization and publication grouping therefore need their own stated relations. The depth of a heading or the number of patterns gives the reader no substitute for those explanations.
 
@@ -1182,7 +1182,7 @@ A shared vocabulary alone is another useful alternative when classification is t
 
 This architecture also explains the separation between descriptions and their subjects. An alternative can be considered before it is realized; the same Method can be described in prose, diagrams or another suitable medium; several views can answer different questions about the same system. `A.3.2` governs an exact MethodDescription claim, and the `E.17` family governs the relevant view and publication uses. This allows a representation to improve without treating every publication change as a change to the described Method or system.
 
-### Shared sources and the choices they support
+### FPF.Preface:16.3 - Shared sources and the choices they support
 
 FPF uses source traditions for particular answers and states the adopted contribution in the subject pattern. The following connections explain why several families work together. The direct bodies retain the precise source editions, stronger technical conditions and refresh triggers.
 
@@ -1194,7 +1194,7 @@ Open-ended search and sequential decision research explain why exploration is ke
 
 The synthesis is use-specific: construction explains what whole is proposed, measurement makes a relevant observation interpretable, assurance qualifies reliance, and search preserves alternatives or asks for another result. A successor source matters when it changes one of those answers. `G.11` returns the affected use to that source; `E.19` and `E.23` support preservation and improvement of the resulting pattern content. This lets stronger knowledge change the framework without requiring every unaffected practitioner result to be obtained again.
 
-### What to examine when adapting the arrangement
+### FPF.Preface:16.4 - What to examine when adapting the arrangement
 
 For a combined use, ask whether the outputs still answer the receiving questions, whether shared workload and resource assumptions are compatible, which missing premise changes the result, and what remains usable if that premise changes. Keep the whole-set condition where that combination is explained and use the relevant direct pattern for its technical test. The 15-hour example shows why locally acceptable contributions can still require a different joint decision.
 
@@ -1202,7 +1202,7 @@ The examples here assume readers who can supply subject expertise and recognize 
 
 Using the arrangement costs attention and, when later reliance needs them, addressable source and result records. Its practical gain is that a new participant can find why a result was used, what it enables and what would change the answer. Stop when the current question has that useful answer or an explicit missing premise. Keep unresolved questions available for later inquiry rather than adding a pattern use merely to complete a familiar sequence.
 
-## Transdisciplinarity As A Meta-Theory Of Thinking
+## FPF.Preface:17 - Transdisciplinarity As A Meta-Theory Of Thinking
 
 Modern complexity lives at the junction of traditions. A manufacturing engineer, software architect, safety engineer, finance analyst, ML researcher, and operations manager may use the same words for different project entities and different words for the same project entity. They may also use different forms of proof, different measures of quality, and different standards for acting.
 
@@ -1212,7 +1212,7 @@ The key move is local-first meaning. A term belongs to a context before it trave
 
 This is how a single framework can help in architecture, biology, manufacturing, AI-agent systems, safety assurance, management, education, and research without pretending those domains are the same. FPF does not flatten domains. It gives them governed interfaces for reasoning together.
 
-## The Culinary Architecture Of Collective Thought
+## FPF.Preface:18 - The Culinary Architecture Of Collective Thought
 
 Many FPF ideas sound familiar. Evolution, exploration and exploitation, evidence, roles, boundaries, architecture, comparison, naming, and improvement are not new ingredients. A thoughtful reader may ask why FPF formalizes so many "obvious" ideas.
 
@@ -1238,7 +1238,7 @@ For a small well-known problem solved by one expert, FPF may feel heavier than i
 
 FPF does not replace expert judgment. It gives expert judgment a shared architecture so it can compound rather than evaporate.
 
-## The Intellect Stack As A Pedagogical Map
+## FPF.Preface:19 - The Intellect Stack As A Pedagogical Map
 
 The phrase "Intellect Stack" names a learning map of capabilities. In this specification it is pedagogy, not a prescribed sequence or a new ontology.
 
@@ -1256,7 +1256,7 @@ This stack is not a universal project sequence. It is a way to notice missing ca
 
 The learning value is that FPF can be taught as a set of capabilities, not only as a list of pattern ids.
 
-## Purpose, Scope, And Non-Goals
+## FPF.Preface:20 - Purpose, Scope, And Non-Goals
 
 FPF's purpose is to help people and AI agents produce reasoning that survives use: reasoning that can be aligned, reviewed, improved, published, delegated, refreshed, and reopened without losing the EntityOfConcern it was about.
 
@@ -1275,7 +1275,7 @@ FPF's non-goals are short:
 
 Its positive scope is broader than those refusals. FPF is a compact language for keeping hard work honest enough to act on and alive enough to improve.
 
-## How To Continue After The readme
+## FPF.Preface:21 - How To Continue After The readme
 
 Start with the `readme` when you are deciding whether FPF can help a working project. Read this Preface when you want the ideas that make the first practical entries fit together. Use the Table of Contents when you need to locate a pattern family. Then use the direct pattern body whose Problem frame and Solution govern the claim, relation, publication use, architecture, evidence, decision, work, name, mathematical lens, option portfolio, or improvement object you actually have. Begin with its action- or judgement-guiding content; recover a `MethodDescription`, admitted Method, or exact `ClaimGraph` only when the current claim or named reliance needs that distinction.
 
@@ -1749,33 +1749,43 @@ The SlotSpec belongs to the direct relation declaration. Its SlotKind names the 
 
 #### A.1:5.1 - Pump As Acting System
 
-Pump #37 is first an exact `U.Entity`. Its actual construction satisfies the A.1 criterion for the already admitted `U.System` kind:
+Use this illustrative engineering case to decide whether Pump #37 qualifies as a `U.System`. Take the following construction and operating facts as the case inputs:
 
-- the casing, impeller, seal, motor, and flanges are exact constituent entities;
-- exact fastening, enclosure, shaft-coupling, sealing, and connection occurrences constructively assemble those constituents as Pump #37 under their direct part-relation patterns;
-- the installed-assembly reidentification rule distinguishes Pump #37 and permits specified maintenance replacements;
-- pump-level flow, pressure, and operating characteristics arise from the composition rather than from one constituent;
-- its actual boundary, inlet and outlet interfaces, load envelope, and identity-preservation conditions satisfy the applicability and compatibility conditions of the governed plant-installation method by which the pump can remain one constituent of a larger cooling-water system;
-- `U.System` is already an admitted public U-kind in FPF; `E.24.UK` governs admission of public U-kinds, while the A.1 common holon criterion and its `U.System` clause supply acting eligibility.
+- Pump #37 is the assembly initially built from casing C37, impeller I37, seal S37, motor M37, inlet flange FI37, and outlet flange FO37. Each is a physical component of that pump under A.14 `ComponentOf`.
+- C37 encloses I37; M37 is bolted to C37 and its shaft is coupled to I37; S37 seals the shaft entry; FI37 and FO37 are fastened to C37 and open into its water passage. These obtaining fastening, enclosure, coupling, sealing, and connection relations assemble the named components as one pump.
+- The case's installed-assembly reidentification rule preserves Pump #37 through shutdown, temporary disassembly, and replacement of S37 by S38 with the same mating geometry and operating limits, provided C37 is retained and the assembly and its inlet/outlet boundaries are restored before return to service. Replacing C37 or permanently dismantling the assembly ends Pump #37 under this rule.
+- With water at 20 °C and a 400 V, 50 Hz supply, this assembly sustains a flow of 10 m³/h against a pressure rise of 200 kPa. The coupled motor, impeller, casing, and sealed passage produce that whole-pump response; no one component supplies it alone.
+- `U.System` is already an admitted public U-kind in FPF; `E.24.UK` governs admission of public U-kinds. The pump's physical organization can cause the stated water-moving change while retaining its identity, supplying the kind-specific acting-eligibility condition.
 
-Those world-side facts make the criterion true whether or not the current project has enough evidence to determine it. Classification work with adequate inputs can return `true` and support a separate C.2.1 assertion. If evidence or one dependency is unavailable, evaluation returns `unknown`; Pump #37 and its criterion satisfaction do not change. Replacing the seal preserves Pump #37 only when the reidentification rule admits that maintenance phase.
+For the larger-assembly test, `CW-Install-1` is the case's governed plant-installation rule. It integrates the intact pump as the replaceable circulation unit of CoolingLoop-2: bolt its feet to the loop support, connect FI37 to the loop's return port and FO37 to its supply port, and connect M37 to the electrical supply. Compare its applicability conditions with the remaining case facts:
 
-If instead an exact coupling, load-envelope, or boundary-interface fact violates a condition of the governed plant-installation method, that method cannot establish the sixth component even when the drawing and rule-description episteme are current. The candidate fails that component only if none of the governed larger-assembly constructions has applicability and compatibility conditions satisfied by the candidate's actual facts. Governed evaluation returns `false` when its inputs determine that failure and `unknown` when the needed input is unavailable; neither result changes the candidate-side facts. Renaming or republishing the cited criterion pattern does not change Pump #37 or those facts; any change to the episteme's designation, edition, or currentness remains separately governed.
+| CW-Install-1 condition | Pump #37 fact |
+| --- | --- |
+| Each water port must mate with a 50 mm bore flange having four 12 mm bolt holes on a 90 mm bolt circle. | FI37 and FO37 each have that bore and hole geometry. |
+| The support accepts four mounting holes on a 120 × 180 mm rectangle and a pump mass of at most 40 kg. | The pump's feet have that hole pattern; the intact pump has a mass of 35 kg. |
+| With the available 400 V, 50 Hz supply and water at 20 °C, the pump must sustain at least 8 m³/h against a pressure rise of 200 kPa. | The stated whole-pump response is 10 m³/h at that pressure rise under those conditions. |
+| Installation must retain the casing, internal assembly, and pump-side inlet/outlet boundaries. | The rule uses the existing mounting holes and flanges; it changes only the external attachments, preserving Pump #37 under the stated reidentification rule. |
+
+These facts supply one larger-assembly witness: CW-Install-1's conditions are satisfied and its construction preserves the pump as a constituent. Together with the identified candidate, components, assembly, reidentification rule, whole-level response, and acting eligibility, they establish the A.1 criterion for this illustrative `U.System` case. A classification evaluation given these inputs returns `true`; a separate C.2.1 assertion may state that result.
+
+The candidate-side facts and the available evaluation inputs remain distinct. If the mass fact is withheld and no other input resolves the compatibility question, evaluation returns `unknown`; withholding that fact changes neither the pump nor whether the criterion holds. Replacing S37 by the specified S38 preserves Pump #37 through the admitted maintenance phase. Replacing C37 instead requires identifying the resulting assembly as another candidate under this case's rule.
+
+If the intact candidate instead has a mass of 45 kg, CW-Install-1 cannot supply the sixth component because its support limit is 40 kg. A coupling, load-envelope, or boundary-interface violation likewise defeats that installation rule even when the drawing and rule-description episteme are current. Failure of this one rule does not settle the existential larger-assembly condition: the candidate fails that component only if none of the governed larger-assembly constructions has conditions satisfied by its actual facts. Evaluation returns `false` when its inputs determine that failure, and `unknown` when the searched methods or available facts do not settle it. Renaming or republishing the cited criterion pattern does not change Pump #37 or those facts; any change to the episteme's designation, edition, or currentness remains separately governed.
 
 Separate direct relations then state that Pump #37 fills the holder-system slot of its cooling-water circulation `U.SystemRoleAssignment`, has a flow-rate capability envelope, and participates in the water-moving transformation. A separate inspection account may identify `WO-1842 : U.Work`, but the cooling-water assignment does not make Pump #37 its performer: the exact inspector System must have its own A.13 core, the Work must be independently admitted under A.15.1, and F.6 is added only if that account needs precise assignment-bound attribution through the inspector's same obtaining assignment. Pump #37 remains the inspected or participating subject unless another direct performer basis establishes otherwise. No omnibus participation or candidate-classification relation is added. The pump can have selected structures; its maintenance model may participate in a separately selected `BoundedModelUseStructure`, but that structure neither identifies the pump nor makes it a holon.
 
 #### A.1:5.2 - Scientific Theory As Episteme Holon
 
-Newtonian gravitation in one exact selected edition is first a C.2.1 `U.Episteme` candidate. Its actual claim-bearing constitution can satisfy the A.1 criterion for the already admitted `U.Episteme` kind:
+This schematic illustration concerns Newtonian gravitation in one exact selected edition, first identified as a C.2.1 `U.Episteme` candidate. Its actual claim-bearing constitution can satisfy the A.1 criterion for the already admitted `U.Episteme` kind when the following facts obtain:
 
 - exact law, definition, derivation, diagram, exercise, and evidence-relation epistemes are the candidate constituents;
 - exact claim-composition and episteme part relations organize those constituents as one governed claim-bearing whole;
-- the selected-edition identity rule distinguishes this theory episteme; different claim content identifies another episteme, and any historical continuity is stated through the applicable C.2.1 edition relation;
+- C.2.1 identifies this theory episteme by its exact claim content, EntityOfConcern, and effective ReferenceScheme; a change to any of these identifies another episteme. Historical continuation between the earlier and later epistemes requires a separate `EpistemeEditionRelation` under an applicable edition-continuity rule;
 - inferential and explanatory characteristics arise from the organized claim-bearing whole rather than from one constituent;
 - its actual inferential interfaces, effective reference scheme, applicability conditions, and identity-preservation conditions satisfy the applicability and compatibility conditions of at least one governed method for composing it as a constituent of a larger explanatory or educational episteme;
 - `U.Episteme` is already an admitted public U-kind in FPF; `E.24.UK` governs admission of public U-kinds, while C.2.1 supplies the kind-specific constitution condition.
 
-A textbook publication can make this edition available, but the publication form and the episteme that describes the composition method do not create the theory's compatibility or holonhood. Classification work may evaluate the criterion and a separate C.2.1 assertion may state the result; evidence, warrant, edition currentness, receiving reliance, and any B.2 whole-reidentification question remain separately governed.
+For a particular theory, supply the constituent identities and an independently obtaining direct episteme-part or claim-composition predicate before drawing the recognition conclusion (C.13:5.3). A textbook publication can make this edition available, but the publication form and the episteme that describes the composition method do not create the theory's compatibility or holonhood. Classification work may evaluate the criterion and a separate C.2.1 assertion may state the result; evidence, warrant, edition currentness, receiving reliance, and any B.2 whole-reidentification question remain separately governed.
 
 A system under an exact `U.SystemRoleAssignment` may explain, publish, compare, or use this episteme through separately governed Work and relation occurrences; the assignment alone establishes none of those acts. Revision Work yields another episteme, with any edition relation tested separately.
 
@@ -1837,7 +1847,7 @@ This pattern intentionally resists:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | System as universal root | A theory, document, model, source, or dashboard receives physical system properties. | Re-type as `U.Episteme`, publication, source-use object, or another direct object before using system claims. |
-| Document edited itself | A model, theory, or document is said to perform a revision. | Name the `U.System` and the revision Work; add a local system-role kind or `U.SystemRoleAssignment` only when that separate fact is material. Changed claim content identifies another `U.Episteme`; test any edition relation separately, and distinguish publication or carrier changes under their own patterns. |
+| Document edited itself | A model, theory, or document is said to perform a revision. | Name the revising `U.System`. If the account claims revision Work, first recover that System's A.13 core—local agential system-role kind and criterion, classification, and obtaining assignment with the required scope, situation, and window—then use A.15.1 to admit the Work. A short account may omit restating these facts only when they remain recoverable; add F.6 only for precise assignment-bound attribution. Changed claim content identifies another `U.Episteme`; test any edition relation separately, and distinguish publication or carrier changes under their own patterns. |
 | Collection as actor | A list, batch, pool, fleet, or community is said to decide or perform Work. | Recover who or what belongs to the collection under its own rule, a possible holon, a whole-level characteristic, an acting collective System, or B.2 whole reidentification. |
 | Interaction as one umbrella | Signal, source use, publication use, transformation, measurement, and control are all called interaction. | Recover the exact direct relation; use F.9 for a needed semantic correspondence or difference between two exact local senses from different semantic contexts, and `A.3.4` when bounded change is current. |
 | Omnibus participation relation | References to system-role-kind classification or assignment, capability, method, work, transformation, evidence, and time are packed into one additional relation-shaped record. | Keep the direct relation occurrences separate; select their organization as `U.Structure` only when that organization changes the receiving use. |
@@ -1858,7 +1868,7 @@ Costs:
 
 - Practitioners pay the cost of replacing umbrella uses of "system", "boundary", "interaction", "level", "emergence", and "collection" with exact governed claims.
 - A reviewable holon-recognition claim states the exact constituents, construction, reidentification, larger-assembly compatibility, whole-level characteristic, admitted kind, and subject pattern on which it relies.
-- Some familiar sentences need repair: "the document decided" becomes a claim about a `U.System`, the direct decision relation or Work, and an episteme or publication. Add a local system-role kind or assignment only when that separate fact matters.
+- Some familiar sentences need repair: "the document decided" becomes a claim about the deciding `U.System`, the direct decision relation or admitted Work, and an episteme or publication. A Work claim requires the A.13 performer core even when a short account leaves it recoverable rather than restating it; an ordinary direct decision or change account stays with its subject pattern.
 
 ### A.1:10 - Rationale
 
@@ -2208,7 +2218,7 @@ The first-minute case in section 0 is enough for ordinary entry. This longer rep
    - **Next tuple:** Because `PressControllerCode-18` has different claim content, it forms another participant tuple with `PressControlModel-5`; predicate truth for that tuple decides whether another coherence occurrence obtains. Maintenance, method enactment, changed referent, evaluation, result, evidence, and provenance neither substitute for that truth nor enter the relation's participant set or identity.
 7. **Crossing stop.** If a diagnostics crossing matters, first retain the independently identified source and target structures, then record direction, required fit, permitted loss, and claim scope. F.9 governs correspondence between local senses. Omit the proposed crossing from any positive cross-structure member and return `missing CROSS-LOCALITY-BRIDGE governor`. The already governed endpoint relations remain available for their own selections.
 
-**Filled A.22 basis for the press-control structure.** Its exact constituents are model episteme `PressControlModel-5`, use-locus system `Press-3`, and expression episteme `PressControllerCode-17`. Its selected occurrences are `ModelApplicabilityRelation(PressControlModel-5, Press-3, SafetyControlClaimScope)`, `ModelUseRelation(OperatorAssignment-8, PressControlModel-5, PressOperationWork-91, Press-3)`, and `ModelExpressionCoherenceRelation(PressControlModel-5, PressControllerCode-17, ControllerImplementsControlModelPredicate, PlantControlReferenceScheme)` as established in steps 1–4. `OperatorAssignment-8` and `PressOperationWork-91` remain actual participants used to establish the selected `ModelUseRelation`; they are not copied into the constituent plurality. Its exact applied constraint claims are `PressSafetyScopeUseConstraintClaim`, whose proposition says that every target slice used in the release judgment satisfies `member(targetSlice, SafetyControlClaimScope)`; `PressCommandFeedbackConstraintClaim`, whose proposition says that the change preserves the model's command-versus-feedback distinction; and `PlantJointReviewConstraintClaim`, whose proposition says that, under independently governed `PlantReleaseRule-3`, all three selected occurrences are required inputs to the release review when each is material. `SafetyControlClaimScope`, any membership outcome, boundary rendering, and the claim carriers enter no discriminator by themselves. Its fourth discriminator is `PressControlReleaseFrame` from section 0: ask whether the change is code-only or jointly model/use/coherence-relevant; provide that joint subject matter to the release review; return to the three direct relations if `PlantReleaseRule-3` is absent or does not require their joint review. Missing any discriminator leaves the direct relations in place but blocks this structure selection.
+**Filled A.22 basis for the press-control structure.** Its exact constituents are model episteme `PressControlModel-5` and use-locus system `Press-3`. Its selected occurrences are `ModelApplicabilityRelation(PressControlModel-5, Press-3, SafetyControlClaimScope)`, `ModelUseRelation(OperatorAssignment-8, PressControlModel-5, PressOperationWork-91, Press-3)`, and `ModelExpressionCoherenceRelation(PressControlModel-5, PressControllerCode-17, ControllerImplementsControlModelPredicate, PlantControlReferenceScheme)` as established in steps 1–4. `OperatorAssignment-8` and `PressOperationWork-91` remain actual participants used to establish the selected `ModelUseRelation`; they are not copied into the constituent plurality. Its exact applied constraint claims are `PressSafetyScopeUseConstraintClaim`, whose proposition says that every target slice used in the release judgment satisfies `member(targetSlice, SafetyControlClaimScope)`; `PressCommandFeedbackConstraintClaim`, whose proposition says that the change preserves the model's command-versus-feedback distinction; and `PlantJointReviewConstraintClaim`, whose proposition says that, under independently governed `PlantReleaseRule-3`, all three selected occurrences are required inputs to the release review when each is material. `SafetyControlClaimScope`, any membership outcome, boundary rendering, and the claim carriers enter no discriminator by themselves. Its fourth discriminator is `PressControlReleaseFrame` from section 0: ask whether the change is code-only or jointly model/use/coherence-relevant; provide that joint subject matter to the release review; return to the three direct relations if `PlantReleaseRule-3` is absent or does not require their joint review. Missing any discriminator leaves the direct relations in place but blocks this structure selection.
 
 The relation sentences above assert direct world-side occurrences; the scope sentence states an A.2.6 membership claim. If the question is only whether the model applies to the press, stop at `ModelApplicabilityRelation`. Select `BoundedModelUseStructure` only when the selected applicability, operating-use, and expression-coherence occurrences plus the exact applied constraint claims and frame change the decision or Work plan.
 
@@ -2218,8 +2228,8 @@ The relation sentences above assert direct world-side occurrences; the scope sen
 
 | Selected structure | Exact constituents, relation occurrences, and applied constraints | Named selection-use frame |
 |---|---|---|
-| `DeviceMaintenanceModelUseStructure` | constituents `DeviceStateModel-4`, `DeviceSubsystem-2`, and `MaintenanceProcedureEpisteme-9`; applicability of `DeviceStateModel-4` to `DeviceSubsystem-2` within `MaintenanceClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(DeviceMaintenanceWork-31, MaintenanceAssignment-12)` plus actual use during that Work; coherence of `DeviceStateModel-4` and `MaintenanceProcedureEpisteme-9` under `DeviceStateMaintenanceCoherencePredicate` and `DeviceStateReferenceScheme`; applied claim `MaintenanceScopeUseConstraintClaim` says every equipment-state slice used in the maintenance diagnosis satisfies `member(slice, MaintenanceClaimScope)`, and `MaintenanceStateDistinctionConstraintClaim` says the diagnosis preserves the model's available/degraded/failed distinctions | `MaintenanceDiagnosisFrame`: ask which current device-state distinctions govern diagnosis; use this organization for the maintenance diagnosis; for a redesign-capability question, return to `CapabilityRedesignFrame`. |
-| `DeviceCapabilityModelUseStructure` | constituents `CapabilityModel-6`, `DeviceSubsystem-2`, and `CapabilityDesignExpression-12`; applicability of `CapabilityModel-6` to `DeviceSubsystem-2` within `RedesignClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(CapabilityRedesignWork-44, RedesignAssignment-15)` plus actual use during that Work; coherence of `CapabilityModel-6` and `CapabilityDesignExpression-12` under `CapabilityDesignCoherencePredicate` and `CapabilityDesignReferenceScheme`; applied claim `RedesignScopeUseConstraintClaim` says every design slice used in the redesign analysis satisfies `member(slice, RedesignClaimScope)`, and `CapabilityDistinctionConstraintClaim` says the analysis preserves current-versus-proposed capability distinctions | `CapabilityRedesignFrame`: ask which capability distinctions govern the proposed redesign; use this organization for redesign analysis; for a maintenance-diagnosis question, return to `MaintenanceDiagnosisFrame`. |
+| `DeviceMaintenanceModelUseStructure` | constituents `DeviceStateModel-4` and `DeviceSubsystem-2`; applicability of `DeviceStateModel-4` to `DeviceSubsystem-2` within `MaintenanceClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(DeviceMaintenanceWork-31, MaintenanceAssignment-12)` plus actual use during that Work; coherence of `DeviceStateModel-4` and `MaintenanceProcedureEpisteme-9` under `DeviceStateMaintenanceCoherencePredicate` and `DeviceStateReferenceScheme`; applied claim `MaintenanceScopeUseConstraintClaim` says every equipment-state slice used in the maintenance diagnosis satisfies `member(slice, MaintenanceClaimScope)`, and `MaintenanceStateDistinctionConstraintClaim` says the diagnosis preserves the model's available/degraded/failed distinctions | `MaintenanceDiagnosisFrame`: ask which current device-state distinctions govern diagnosis; use this organization for the maintenance diagnosis; for a redesign-capability question, return to `CapabilityRedesignFrame`. |
+| `DeviceCapabilityModelUseStructure` | constituents `CapabilityModel-6` and `DeviceSubsystem-2`; applicability of `CapabilityModel-6` to `DeviceSubsystem-2` within `RedesignClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(CapabilityRedesignWork-44, RedesignAssignment-15)` plus actual use during that Work; coherence of `CapabilityModel-6` and `CapabilityDesignExpression-12` under `CapabilityDesignCoherencePredicate` and `CapabilityDesignReferenceScheme`; applied claim `RedesignScopeUseConstraintClaim` says every design slice used in the redesign analysis satisfies `member(slice, RedesignClaimScope)`, and `CapabilityDistinctionConstraintClaim` says the analysis preserves current-versus-proposed capability distinctions | `CapabilityRedesignFrame`: ask which capability distinctions govern the proposed redesign; use this organization for redesign analysis; for a maintenance-diagnosis question, return to `MaintenanceDiagnosisFrame`. |
 
 An exact C.2.1 `EpistemeEditionRelation` may separately establish historical continuation; it does not merge simultaneous organizations. Near miss: if either side lacks its coherence occurrence, an applied constraint, or its complete frame, that side has useful applicability and use facts but no selected `BoundedModelUseStructure` yet.
 
@@ -2227,10 +2237,10 @@ An exact C.2.1 `EpistemeEditionRelation` may separately establish historical con
 
 | Selected structure | Exact constituents, relation occurrences, and applied constraints | Named selection-use frame |
 |---|---|---|
-| `DiagnosisTerminologyModelUseStructure` | constituents `ClinicalTerminologyModel-7`, `PatientEncounter-42`, and `DiagnosisExpression-11`; applicability within `DiagnosisClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(DiagnosisWork-7, DiagnosticianAssignment-4)` plus actual use concerning `PatientEncounter-42`; coherence of the model and `DiagnosisExpression-11` under `DiagnosisTerminologyCoherencePredicate` and `ClinicalTerminologyReferenceScheme`; applied claim `DiagnosisScopeUseConstraintClaim` says every encounter slice used in the diagnosis claim satisfies `member(slice, DiagnosisClaimScope)`, and `ClinicalMeaningConstraintClaim` says a clinical finding is not inferred from a billing code | `DiagnosisUseFrame`: ask which terminology distinctions govern this diagnosis; use the selected organization for the diagnosis claim; for a billing-code question, return to `BillingUseFrame`. |
-| `BillingTerminologyModelUseStructure` | constituents `ClinicalTerminologyModel-7`, `ReimbursementClaim-42`, and `BillingExpression-14`; applicability within `BillingClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(BillingWork-9, BillingAssignment-9)` plus actual use concerning `ReimbursementClaim-42`; coherence of the model and `BillingExpression-14` under `BillingTerminologyCoherencePredicate` and `ClinicalTerminologyReferenceScheme`; applied claim `BillingScopeUseConstraintClaim` says every reimbursement slice used in the coding claim satisfies `member(slice, BillingClaimScope)`, and `CodingMeaningConstraintClaim` says the selected reimbursement code does not assert a clinical diagnosis | `BillingUseFrame`: ask which terminology distinctions govern this coding claim; use the selected organization for the coding claim; for a clinical-diagnosis question, return to `DiagnosisUseFrame`. |
+| `DiagnosisTerminologyModelUseStructure` | constituents `ClinicalTerminologyModel-7` and `PatientEncounter-42`; applicability within `DiagnosisClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(DiagnosisWork-7, DiagnosticianAssignment-4)` plus actual use concerning `PatientEncounter-42`; coherence of the model and `DiagnosisExpression-11` under `DiagnosisTerminologyCoherencePredicate` and `ClinicalTerminologyReferenceScheme`; applied claim `DiagnosisScopeUseConstraintClaim` says every encounter slice used in the diagnosis claim satisfies `member(slice, DiagnosisClaimScope)`, and `ClinicalMeaningConstraintClaim` says a clinical finding is not inferred from a billing code | `DiagnosisUseFrame`: ask which terminology distinctions govern this diagnosis; use the selected organization for the diagnosis claim; for a billing-code question, return to `BillingUseFrame`. |
+| `BillingTerminologyModelUseStructure` | constituents `ClinicalTerminologyModel-7` and `ReimbursementClaim-42`; applicability within `BillingClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(BillingWork-9, BillingAssignment-9)` plus actual use concerning `ReimbursementClaim-42`; coherence of the model and `BillingExpression-14` under `BillingTerminologyCoherencePredicate` and `ClinicalTerminologyReferenceScheme`; applied claim `BillingScopeUseConstraintClaim` says every reimbursement slice used in the coding claim satisfies `member(slice, BillingClaimScope)`, and `CodingMeaningConstraintClaim` says the selected reimbursement code does not assert a clinical diagnosis | `BillingUseFrame`: ask which terminology distinctions govern this coding claim; use the selected organization for the coding claim; for a clinical-diagnosis question, return to `DiagnosisUseFrame`. |
 
-Across these five filled structures, each assignment occurrence and dated Work stays only in its selected `ModelUseRelation` and in the evidence establishing that occurrence. Changing either one reopens that relation and therefore the selected-occurrence discriminator; it is not also an independent constituent replacement. One spanning structure is available only when one exact constituent plurality, relation-occurrence organization, applied-constraint set, and selection-use frame genuinely spans both uses. Shared model identity alone neither merges nor splits them. Near miss: exact diagnosis and billing Work plus a shared model, without one side's coherence occurrence or filled frame, supports only the direct facts on that side.
+Across these five filled structures, each expression episteme is a participant of the selected `ModelExpressionCoherenceRelation`. A replacement with different claim content gives another `<M,E,P,R>` tuple to evaluate and reopens the selected-occurrence discriminator (sections 4.2–4.3). Each assignment occurrence and dated Work stays only in its selected `ModelUseRelation` and in the evidence establishing that occurrence. Changing either one reopens that relation and therefore the selected-occurrence discriminator; it is not also an independent constituent replacement. One spanning structure is available only when one exact constituent plurality, relation-occurrence organization, applied-constraint set, and selection-use frame genuinely spans both uses. Shared model identity alone neither merges nor splits them. Near miss: exact diagnosis and billing Work plus a shared model, without one side's coherence occurrence or filled frame, supports only the direct facts on that side.
 
 **Published classification model.** The published NAICS model is an episteme. Exact F.6 `performedUnderAssignment(ClassificationWork-4, ClassificationAssignment-3)` and actual use of that model content concerning an organization supply the use branch. A positive `NAICSClassificationModelUseStructure` additionally needs exact applicability with `ClassificationClaimScope` as that relation's scope participant, fixed-content coherence with the classification expression, exact applied constraint claims stating which edition and classification distinctions the judgment must preserve, and `NAICSClassificationFrame`: ask which NAICS edition and distinctions govern this classification; use the complete organization for the classification claim; without the complete basis, stop at publication availability or the direct relation that actually obtains. The bare scope or one membership result is not an applied constraint.
 
@@ -2441,10 +2451,12 @@ Then apply the already admitted `U.System` condition: the whole has an actual ph
 
 | Disposition | Required first result |
 | --- | --- |
-| Non-system subject result | Exact non-system object or relation, its predicate and defining ClaimGraph, the non-semantic `SubjectPatternLocator`, and the action now possible; no A.1 test. |
+| Subject-pattern result | Exact object or relation, the claim needed for the decision, the cited subject pattern's concrete contribution, and the action now possible; no A.1 test. |
 | System recognized | Exact system, identity and boundary, decisive construction facts, acting-eligibility basis, and the system-dependent next use. |
 | Proposed system reading rejected | Exact non-system subject or relation, its subject pattern, and the action that remains possible. |
 | Evaluation unresolved | Exact `U.Entity`, missing A.1 component or kind-specific condition, needed information, and the decision that stays blocked. |
+
+`SubjectPatternLocator` locates the cited pattern; in ordinary prose, cite its PatternID. Add exact predicate or defining-content references, including a defining episteme edition or `ClaimGraph`, only when the governing claim or a named receiving use requires them (C.2.1 §4.2.4).
 
 After one candidate bearer is recognized, rejected, or left unresolved, use `A.1.CSD` only when the current question is which other Systems may undergo relevant changes and that discovery can change a named decision or investigation. A.1.SCR does not generate the bearer set or qualify consequence paths; it supplies only the load-bearing recognition result or blocker.
 
@@ -2472,7 +2484,9 @@ A project plan or decision may designate one system as the project system-of-int
 3. admit composite project Work only after A.15.1 and A.15.6 qualifications hold;
 4. state each actual work-to-referent, transformation, production, evaluation, delivery, acceptance, or later-use fact under its own governor;
 5. test any `SystemOfInterestSystemRole` interpretation and any A.2.1 system-role assignment separately; and
-6. when the recognized system must be reconnected to the long dependency from outside use through architecture, Work, change, and recursive builders, identify each exact admitted performing System, recover its A.13 core, and identify the applicable Method described in A.1.STM before independently admitting each dated Work occurrence under A.15.1. Add F.6 only when the receiving claim also needs precise assignment-bound attribution through that performer's same obtaining assignment. Otherwise state the next exact subject assertion under its predicate.
+6. when the recognized system must be reconnected to the long dependency from outside use through architecture, Work, change, and recursive builders, use A.1.STM to name the needed final result, retain supported answers, and read backward to the first unsupported dependency. Take that question to the subject pattern whose entry accepts it, and return the answer or a named stop.
+
+For a claim about a particular dated Work occurrence, first identify every actual performing System and recover its A.13 core. Independently admit that occurrence under A.15.1 from its performance history, at least one Method actually followed, temporal extent, and at least one locally declared containing-System relation. Apply this branch to the occurrence being asserted, whether it is Work represented on the map or a separately asserted Work of using the map. After admission, add F.6 only when the receiving claim also needs precise assignment-bound attribution through that performer's same obtaining assignment. A Work-only claim may stop after admission.
 
 Infer no project designation from system recognition, affectedness, familiar wording, a system-role label, or shared realization. If the decision needs the unsupported compound project-selection truth, preserve `missing-substrate[project-selection-conjunction]` until one constructor substrate and edition define that claim.
 
@@ -2557,11 +2571,11 @@ Across all rows, first preserve the exact entity named by the proposed system re
 
 ### A.1.SCR:9 - Consequences
 
-The pattern makes full system recognition more useful by applying it only where identity and boundary change an engineering decision. It also makes non-system results productive: Work, Method, capability, structure, episteme, and relations can close their own questions. The cost is that the practitioner must state the decision and may need to stop when construction facts or a relation governor are missing.
+The pattern makes full system recognition more useful by applying it only where identity and boundary change an engineering decision. It also makes subject-pattern results productive: Work, Method, capability, structure, episteme, and relations can close their own questions. The cost is that the practitioner must state the decision and may need to stop when construction facts or a relation governor are missing.
 
 ### A.1.SCR:10 - Rationale
 
-The smallest reusable repair is a conditional MethodDescription, not a new kind or universal router. A.1 supplies the system-recognition predicate. A.1.SCR contributes a working situation, non-system subject result, complete-test branch, decision-bearing results, project-designation guard, and migration cases. This prevents ontology work from becoming a ritual, prevents a familiar noun from selecting an actor or project system-of-interest, and prevents a convenient neighboring referent from erasing an exact proposed-system reading before evaluation.
+The smallest reusable repair is a conditional MethodDescription, not a new kind or universal router. A.1 supplies the system-recognition predicate. A.1.SCR contributes a working situation, subject-pattern result, complete-test branch, decision-bearing results, project-designation guard, and migration cases. This prevents ontology work from becoming a ritual, prevents a familiar noun from selecting an actor or project system-of-interest, and prevents a convenient neighboring referent from erasing an exact proposed-system reading before evaluation.
 
 Extent-sensitive identity remains useful because it forces the practitioner to state what exists and survives change. Unrestricted composition and category import remain rejected. The seven cases demonstrate transfer across domains without asserting a common kind.
 
@@ -2578,7 +2592,7 @@ Extent-sensitive identity remains useful because it forces the practitioner to s
 | Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439), 2012 | Possible transformations depend on substrate attributes and constructor conditions, not on a written task alone. | **Adapt larger-assembly applicability; reject actuality from description.** | A.1.SCR:4.3 and 5.1 require the governed applicability and compatibility facts used by the current fixture. A plan, Method description, constructor label, or task proves neither assembly, acting participation, Work, nor transformation. |
 | Partridge, [*BORO Ontology*](https://borosolutions.net/boro-ontology), C-FORS 2025 | Four-dimensional identity pressure asks what exists through change and across extent. | **Reject wholesale categories; retain the identity probe.** | A.1.SCR:4.8 asks for the exact entity, boundary, reidentification, and construction facts while forbidding identity between a system and its system-role kind, capability, Work, or description merely from shared extent. No unrestricted composition or BORO category is imported. |
 
-The conditional method assembled here—state the decision, close with an exact non-system subject assertion when possible, apply the complete A.1 test only when systemhood remains load-bearing, and use the Method described in A.1.STM for a recognized project subject only when the outside-use dependency is still missing—is a scoped FPF synthesis of these pressures, not an external consensus claim. Reopen the synthesis if A.1 changes its constructive criterion, A.6.P changes the service/access recovery boundary, A.15.6 changes project designation, or later cross-domain evidence defeats the scale-free decision method or one of its explicit stops.
+The conditional method assembled here—state the decision, close with an exact subject assertion when possible, apply the complete A.1 test only when systemhood remains load-bearing, and use the Method described in A.1.STM for a recognized project subject only when the outside-use dependency is still missing—is a scoped FPF synthesis of these pressures, not an external consensus claim. Reopen the synthesis if A.1 changes its constructive criterion, A.6.P changes the service/access recovery boundary, A.15.6 changes project designation, or later cross-domain evidence defeats the scale-free decision method or one of its explicit stops.
 
 ### A.1.SCR:12 - Relations
 
@@ -2736,7 +2750,7 @@ A thin account may contain one qualified consequence claim plus one unresolved b
 
 | Working situation | First action | First useful result or stop |
 | --- | --- | --- |
-| A flood-pump modernization may shift load, maintenance demand, downstream flow, and failure exposure. | Name the configuration decision, trace the finite change through supported plant relations and modal operating paths, and challenge the selected boundary. | One additional pump, maintenance, downstream, or containing-System claim changes a design constraint or monitoring condition; otherwise stop with the exact missing relation. |
+| A flood-pump modernization may shift load, maintenance demand, downstream flow, and failure exposure. | Name the configuration decision, trace the finite change through supported plant relations and modal operating paths, and challenge the selected boundary. | Return an additional pump, maintenance, downstream, or containing-System claim when it changes a design constraint or monitoring condition. Finish if the current account already supports the configuration decision. If a missing relation blocks the next needed claim, stop that branch and name the exact missing relation. |
 | An on-call and platform arrangement is being reorganized. | Trace the proposed Work and assignment changes to employee, provider, service, customer, and neighboring organization Systems without treating those names as a level ladder. | Keep workload, capability, service, and organization consequences separate; return the missing bearer or relation to the organization-change Method. |
 | A public appointment service is being redesigned through facilitated inquiry. | Trace service and policy alternatives to applicant, staff, provider, transport, and other material Systems; use participation as a discovery source, not proof of systemhood or authority. | Return descriptive bearer claims to the facilitated inquiry; route participation, concern, and authority questions to their direct practice. |
 | A nutrient pulse in a bioreactor may change living and engineered Systems. | Trace supported feed and effluent relations separately from modal biological and operating paths, and recover actual whole/part facts. | Return the separate consequence claims and current limit; select spatial sampling, pressure observation, or effluent measurement only when their individual and combined contribution warrants the programme. |
@@ -2762,7 +2776,7 @@ The account keeps bacterial, biofilm, reactor, and treatment-train characteristi
 
 The current pulse remains available while the larger pulse's consequences are modal. For the inquiry choice, suppose the domain investigation supplies these attainable contributions and full efforts, including preparation, any required trial operation, observation, and individual interpretation: spatial sampling can distinguish local exposure within 48 hours for one staff-hour; a pressure trace can qualify the transfer constraint for one hour; and an effluent observation can address downstream load for one and a half hours. Those answers could change the admissible pulse comparison. A two-hour imaging series would not discriminate the growth response in this window. These are illustrative planning premises, not biological thresholds or observed effects.
 
-The programme has four available staff-hours after existing duties and adds half an hour of shared coordination and joint interpretation. All four observations would take six hours and exceed that capacity; selecting each in isolation would overcommit it. Spatial sampling, pressure observation, and effluent measurement together take four hours, finish in the receiving window, and supply the worthwhile discriminating contribution. The inquiry selects that programme while retaining the current pulse alternative and the unresolved biofilm-growth and aggregate-identity claims. If access, interpretation capacity, protection, or trial authority cannot support it, the available result is the qualified account with the current setting retained.
+The programme has four available staff-hours after existing duties and adds half an hour of shared coordination and joint interpretation. All four proposed observations would take six hours and exceed that capacity. Spatial sampling, pressure observation, and effluent measurement together take four hours, finish in the receiving window, and supply the worthwhile discriminating contribution. The inquiry selects that programme while retaining the current pulse alternative and the unresolved biofilm-growth and aggregate-identity claims. If access, interpretation capacity, protection, or trial authority cannot support it, the available result is the qualified account with the current setting retained.
 
 The domain practice governs whether any trial or subsequent feed change is admissible. Selecting observations neither performs them nor establishes their outcomes, causal effects, or permission. Reopen when a new whole becomes material, the feed configuration changes, an observation reverses a path claim, or the programme's contribution or feasibility changes.
 
@@ -2848,9 +2862,9 @@ Each row distinguishes a descriptive result, constructive Method, normative prem
 | Ulrich and Reynolds, [Critical Systems Heuristics: The Idea and Practice of Boundary Critique](https://doi.org/10.1007/978-1-4471-7472-1_6), 2020 | Boundary critique is an argued reflective and discursive Method. It changes practice here by adding an outside-in challenge after forward tracing. | **Adapt.** Retain the boundary challenge; do not import its complete normative programme, twelve-question form, System recognition, completeness claim, or scale priority. |
 | OECD, [Guidelines for Multinational Enterprises on Responsible Business Conduct](https://doi.org/10.1787/81f92357-en), 2023, and [Due Diligence Guidance](https://doi.org/10.1787/15f5f4b3-en), 2018 | The guidance supplies an operational mapping and reassessment Method for actual and potential consequences across operations and remote relationships. It changes practice by widening path generation and reopening after conditions change. | **Adapt.** Enterprise duties, rightsholders, severity priorities, remedy, and authority remain domain results; publication status is not evidence of effectiveness. |
 | European Commission, [Better Regulation Toolbox 2023](https://commission.europa.eu/system/files/2023-09/BR%20toolbox%20-%20Jul%202023%20-%20FINAL.pdf), Tool 18 and Chapter 2 | The institutional procedure distinguishes direct/indirect, intended/unintended, positive/negative, and one-off/recurrent consequences and asks for proportionate depth. | **Adapt.** Retain path and horizon prompts; reject its affected-group list, territorial ladder, reporting categories, monetization preference, and form as universal ontology or work order. |
-| NIST, [AI Risk Management Framework 1.0](https://doi.org/10.6028/NIST.AI.100-1) and [Map playbook](https://airc.nist.gov/airmf-resources/playbook/map/), checked 2026-08-26 | The framework and playbook add misuse, repurposing, downstream factors, external feedback, later conditions, and continuing remapping as prompts. | **Adapt.** Reject AI actor classes, ready scale lists, risk taxonomy, governance apparatus, and aggregate score as general FPF results. Recheck this row when the announced AI RMF revision is published. |
+| NIST, [AI Risk Management Framework 1.0](https://doi.org/10.6028/NIST.AI.100-1) and [Map playbook](https://airc.nist.gov/airmf-resources/playbook/map/), checked 2026-08-26 | The framework and playbook add misuse, repurposing, downstream factors, external feedback, later conditions, and continuing remapping as prompts. | **Adapt.** Reject AI actor classes, ready scale lists, risk taxonomy, governance apparatus, and aggregate score as general FPF results. |
 | ISO/IEC/IEEE [24748-7000:2022](https://www.iso.org/standard/84893.html), IEEE [7000-2021](https://standards.ieee.org/ieee/7000/6781/), and ISO/IEC/IEEE [15288:2023](https://www.iso.org/standard/81702.html) | These normative engineering standards provide implementable traceability and iterative/lifecycle attention. They change practice by keeping selected concerns linked to concepts, requirements, design choices, and later observation. | **Adapt conditionally.** Conformance and involvement do not prove bearer completeness, discovery effectiveness, System construction, representation, or authority. The full processes stay in engineering practice. |
-| Friedman and Hendry, [Value Sensitive Design, 2nd ed.](https://mitpress.mit.edu/9780262553254/value-sensitive-design/), 2026, and the authors' [current Method account](https://vsdesign.org/vsd/) | Current VSD retains direct/indirect stakeholder and value-scenario prompts and multi-lifespan attention; the second edition adds five Methods, studios, cards, domains, and formative-theory development. Value scenarios can widen social/design path generation. | **Adapt conditionally.** Human-value orientation is a normative premise, not the A.1.CSD admission test. Route Diverse Voices and tech-policy participation to the direct domain practice; do not treat recency, page count, or toolkit size as proof of generality or effectiveness. |
+| Friedman and Hendry, [Value Sensitive Design, 2nd ed.](https://mitpress.mit.edu/9780262553254/value-sensitive-design/), 2026, and the authors' [current Method account](https://vsdesign.org/vsd/) | Current VSD retains direct/indirect stakeholder and value-scenario prompts and multi-lifespan attention. Value scenarios can widen social/design path generation. | **Adapt conditionally.** Human-value orientation is a normative premise, not the A.1.CSD admission test. Route Diverse Voices and tech-policy participation to the direct domain practice. |
 | U.S. EPA, [Conducting an Ecological Risk Assessment](https://www.epa.gov/risk/conducting-ecological-risk-assessment) and [EcoBox analysis material](https://www.epa.gov/ecobox/phases-era-analysis), checked 2026-08-26 | Laboratory, field, monitoring, and modeled practices support stressor-to-receptor tracing, exposure/effect separation, time, recovery, uncertainty, and evidence-producing questions. They provide the neutral living-System stress test. | **Adapt.** Organism, population, community, and ecosystem are prompts, not a ready FPF holarchy. Regulatory endpoints, adversity judgments, risk estimates, and the complete ecological procedure remain domain results. |
 
 These sources converge on path tracing, boundary challenge, proportional inquiry, qualified uncertainty, and reopening. Their taxonomies, normative ends, calculations, evidence thresholds, and authority do not converge and are not imported.
@@ -2872,7 +2886,7 @@ These sources converge on path tracing, boundary challenge, proportional inquiry
 
 **Plain name.** Use the system-thinking long mantra.
 
-**Mint or reuse.** This pattern introduces no U-kind, relation kind, project kind, case kind, map kind, or record kind. `A.1.STM` is a PatternID. *Long mantra* and *attention map* are Plain names for a repeatable reminder and its readable dependency display.
+*Long mantra* and *attention map* are Plain names for a repeatable reminder and its readable dependency display.
 
 ### A.1.STM:0 - Practitioner entry
 
@@ -2965,9 +2979,9 @@ If later operation shows that reliable water delivery depends on an upstream res
 | Is this one TFS, an internal subflow, or a network? | E.18 and E.18.NET | A graph shape, shared entity, or `creates` label does not identify a network or relation. |
 | Does evidence support this claim, and may a receiver rely on it? | A.10; B.3 only for a named assurance use | Evidence availability and assurance are not truth, actuality, or map completion. |
 
-### A.1.STM:7 - Recognition stress boundary
+### A.1.STM:7 - Recognition before relying on a system
 
-Before a map relies on an acting system or changed-system boundary, use the one A.1 recognition architecture through A.1.SCR. Its heterogeneous stress cases cover an engineered pump, an animal, a human, a software-realized AI agent, a robotic AI agent, a coordinated collective and roster near miss, the Moon and a tide bearer, plus the exact proposed-system readings `SutureControl-M17`, `GameSessionWhole-GS204`, and `InternetAccessArrangement-CA17` beside their ordinary subject-pattern readings.
+Before relying on an acting system or changed-system boundary in the map, use A.1.SCR to obtain the recognition result for that exact entity.
 
 A.1.STM consumes only the returned recognition result. It does not repeat the six-component test, replace the exact entity with a convenient neighboring bearer, infer a system-role assignment from causal participation, or infer Method, Work, transformation, promise, permission, project designation, or a system-role kind from systemhood.
 
@@ -2978,10 +2992,10 @@ A.1.STM consumes only the returned recognition result. It does not repeat the si
 | `CC-A1-STM-1` | The intended final result and the first unsupported logical dependency are readable without decoding a technical record. |
 | `CC-A1-STM-2` | Expected outside use and the project-system boundary are stated before internal architecture is justified; the actual runtime transformation of an exact environment or input referent and any system participation remain separately governed, and feedback may reopen the earlier hypotheses. |
 | `CC-A1-STM-3` | Project system-of-interest identity, project designation, system-role-kind interpretation, and system-role assignment remain separate. |
-| `CC-A1-STM-4` | Project Work, an admitted project-level network selection or Plain provisional map, and one minimal case placement retain their own identities; the case states an exact subject or claim, only the bounded references and direct claims needed now, its closure basis, and a named downstream use that remains outside. |
+| `CC-A1-STM-4` | Project Work, an admitted project-level network selection or Plain provisional map, and one minimal case placement retain their own identities. |
 | `CC-A1-STM-5` | Backward attention, forward actuality, didactic order, Work order, and direct subject relations are not substituted for one another. |
 | `CC-A1-STM-6` | Every local answer is one exact assertion under its subject predicate, with the pattern retained only as a locator, or a truthful stop. |
-| `CC-A1-STM-7` | A case names one subject or claim, its closure basis, and a downstream receiving use that is explicitly outside the closed case. |
+| `CC-A1-STM-7` | A case states four things in ordinary language: the exact subject or claim; the bounded references and direct claims needed to answer this closure question; the separately governed closure basis; and one named downstream receiving use that remains outside the closed case. |
 | `CC-A1-STM-8` | An admitted network has independently identified members, exact obtaining cross-member relations, applied constraints, a use frame, and complete endpoint bindings; otherwise the map stays provisional. |
 | `CC-A1-STM-9` | Expected environmental effect, actual runtime transformation and system participation, production, identity inception, completion, later change, and use are separately grounded; required behaviour is not actuality, and no not-yet-existing system is transformed. |
 | `CC-A1-STM-10` | Evidence is bound to its claim, assurance is limited to a named reliance use, and changed grounds reopen only the smallest affected answer. |
@@ -3020,7 +3034,7 @@ A.1.STM consumes only the returned recognition result. It does not repeat the si
 | Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439), 2012, read with current A.3.4, A.15.PROD, and E.18 | Required behavior and possible production or change depend on exact substrates, conditions, and constructor-side facts; a task or description is not an actual occurrence. | **Adopt the possibility/actuality pressure; adapt it to FPF subject patterns; reject actuality from requirement, Method, or Work alone.** | The runtime and making/changing regions, forward trace, and worked use distinguish one continuing changed referent, production participation, identity inception, later use, and system-side participation. A not-yet-existing system is not transformed, and required behavior proves no actual change. |
 | R5/R6 function, role, service, access, and “our system” variants | Familiar words can point to a system, capability, role, Work, Method, promise, state, bearer, arrangement, or another directly governed object; they do not agree on one default referent or universal contribution relation. | **Adopt the need to keep the long dependency visible; adapt every local claim to its exact subject predicate and retain the pattern only as a locator; reject lexical defaults and generic contribution.** | The `Local contribution` region and neighboring subject results require the exact subject and supported production, installation, participation, release, use, causal, evidence, or other relation. Service/access wording first undergoes A.6.P recovery; a missing direct link stops the long-map claim. |
 
-The reconciliation of long-mantra attention, subject-qualified results or blockers, minimal case closure, and E.18.NET recursion is a scoped FPF synthesis of these pressures, not an external consensus claim. Reopen the smallest affected clause if practitioner testing cannot distinguish the map from the `Solution`, a WorkPlan, or CGUS; if outside-before-inside or system-of-interest practice changes; if E.18.NET cannot express recursive builders without false membership; if a case exposes a missing runtime, closure, relation predicate, or link; or if *creator graph*, *function/role*, *service*, target-like system wording, fixed sequence, or a universal contribution edge again becomes load-bearing.
+The reconciliation of long-mantra attention, subject-qualified results or blockers, minimal case closure, and E.18.NET recursion is a scoped FPF synthesis of these pressures, not an external consensus claim.
 
 ### A.1.STM:12 - Rationale
 
@@ -3326,9 +3340,9 @@ The assignment proves neither circulation capability over every operating region
 An engineering team uses RFC 9110 while designing an HTTP service. Keep these claims separate:
 
 1. `DesignTeam-2` independently counts under `ProtocolDesignerSystemRole` in the current slice when its signature criterion is satisfied.
-2. One design-assignment occurrence may obtain as an instance of a declared `U.SystemRoleAssignment` species.
+2. For this hypothetical assignment-bound case, suppose the practice has declared `ProtocolDesignSystemRoleAssignment` under `U.SystemRoleAssignment` according to A.2.1, and `DesignAssignment-1` is one obtaining occurrence with holder `DesignTeam-2` and assigned kind `ProtocolDesignerSystemRole`.
 3. The RFC publication is the source episteme in the direct source-use or external-rule relation selected by the design claim.
-4. Recover `DesignTeam-2` as the exact actual performer through A.13, then let A.15.1 independently admit the dated design Work. Because this case expressly says the Work was performed under the exact design assignment, F.6 afterward establishes that relation through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact. The Work may separately produce a MethodDescription or SystemDescription only through the applicable production claim.
+4. In this hypothetical case, recover `DesignTeam-2` as the exact actual performer through A.13 with that same obtaining `DesignAssignment-1`, then let A.15.1 independently admit the dated design Work. Suppose this Work was performed under `DesignAssignment-1`; F.6 afterward establishes that relation to this same assignment. F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact. The Work may separately produce a MethodDescription or SystemDescription only through the applicable production claim.
 
 
 #### A.2:5.4 - The Same Label in Two Local Practices
@@ -3367,7 +3381,7 @@ An external notation may call one relation position `role`. Apply E.10.ROLE and 
 5. Add an assignment only when an occurrence of a declared assignment species actually obtains.
 6. State each claim about state, capability, Method, Work, responsibility, commitment, permission, authority, evidence, or reliance through the pattern that defines or constrains it.
 7. Evaluate every subkind proposal from independently obtained aligned judgments; never use the proposed edge as a membership premise.
-8. For cross-local use, keep both kinds and their assignments distinct and establish only the C.3.3 kind relation, F.9 local-sense relation, and bounded-use claim actually needed.
+8. For cross-local use, compare the C.3 definitions first. Reuse the same kind when its distinction continues; when two kinds are present, keep both kinds distinct and establish only the exact C.3.3 kind relation, any needed F.9 local-sense relation, and bounded-use claim actually consumed. In either branch, establish assignments independently; reusing the kind neither creates assignments nor licenses their substitution or merger.
 9. If the source uses *role* for another object, apply E.10.ROLE and continue with the recovered subject pattern; stop at `missing-governor` when no relation is yet admitted.
 
 ### A.2:8 - Conformance Checklist
@@ -3387,7 +3401,7 @@ An external notation may call one relation position `role`. Apply E.10.ROLE and 
 | `CC-A2.11` | Same spelling across local practices, sources, or editions does not decide kind identity; continuity and actual relations are explicit. |
 | `CC-A2.12` | Relation-position or ordinary contribution wording creates no system-role kind or assignment by itself. |
 | `CC-A2.13` | A proposed decomposition is resolved through exact relations among kinds or neighboring subject patterns, not `partOf` over a system-role kind. |
-| `CC-A2.14` | Cross-local use keeps both kinds distinct, cites the exact C.3.3 kind relation and any F.9 local-sense relation, and states the bounded use, direction, preservation rule, tolerated loss, polarity, effective scheme, and current reliance needed by the receiver; a Bridge Card is not a use licence. |
+| `CC-A2.14` | Cross-local use compares the C.3 definitions first and reuses the same kind when its distinction continues; when two kinds are present, it keeps both kinds distinct, cites the exact C.3.3 kind relation and any needed F.9 local-sense relation, and states the bounded use, direction, preservation rule, tolerated loss, polarity, effective scheme, and current reliance needed by the receiver. Assignment occurrences remain independently governed in either branch; a Bridge Card is not a use licence. |
 | `CC-A2.15` | A selected model-use structure appears only in the receiving claim it changes; it neither classifies nor assigns a system and never enters a generic relation as an optional participant. |
 
 ### A.2:9 - Common Anti-Patterns
@@ -3426,7 +3440,7 @@ The architecture therefore keeps these levels separate:
 3. any directly declared `U.SystemRoleAssignment` occurrence;
 4. direct neighboring relations for state, capability, Method, Work, responsibility, commitment, permission, authority, evidence, reliance, description, and publication.
 
-Fields in a `SystemRoleKindDescription` belong to the description episteme. Proposed “parts” repeatedly resolve into other kinds, relation predicates, assignments, Method or Work structures, or parts of description epistemes. The useful structure is the exact relation structure governed by A.2.7, not role mereology.
+Fields in a `SystemRoleKindDescription` belong to the description episteme. Proposed “parts” repeatedly resolve into other kinds, relation predicates, assignments, Method or Work structures, or parts of description epistemes. The useful structure for relations among system-role kinds is the exact relation structure governed by A.2.7. Resolve the other proposed “parts” through their subject patterns (§4.6), not role mereology.
 
 Semantic locality needs no universal context participant. C.3's candidate domain, operative membership distinction, boundary probes, and continuity rule recover the kind. A practice or source reference locates the definition and warns where comparison may be needed; it is not an identity participant. An assignment species declares only its real participants. A receiving assertion or use can cite a selected model-use structure when that structure actually changes interpretation.
 
@@ -73959,7 +73973,7 @@ It is the only allowed heading *inside* a pattern whose section token is non‑n
 
 - `PatternRef` uses one PatternID to name a pattern that continues across editions of the framework identified by the surrounding text. In the assembled publication being checked, it resolves to one complete H2 body, one matching `:End`, and a truthful ToC status for that PatternID. A reference intended to select the body published in one edition also names that framework edition. A structural checker may verify and report publication conformance but does not establish the pattern's identity, status, or authority.
 - `PlannedCatalogEntry` names an explicit future catalogue commitment. It has no current pattern semantics, governing force, prerequisite force, or addressable body; a useful prose mention **MUST** say `planned` or `future`, and a current semantic dependency **MUST** cite existing content that supplies the needed definition, constraint, test, method, or other rule, or state the current gap.
-- `SectionRef` names one exact heading path inside one current pattern. Authors and tooling **MUST** read the complete section identifier before examining any substring.
+- `SectionRef` names one exact heading path inside one current pattern or one framework publication unit declared under `E.11.PFP`. Authors and tooling **MUST** read the complete section identifier and its declared scope before examining any substring. For example, `STR.Preface:1` returns to the Strategy Preface; it does not declare a pattern named `STR.Preface`.
 - `LocalDeclaredId` names an exact declaration within one pattern, such as a conformance clause, component, interface row, or predicate. Its scope is local unless an explicit stable anchor or a separate promotion decision establishes wider use.
 - `LocalAlias` names an explicitly declared compatibility alias and resolves to its declared canonical local target.
 - `PatternFamilySelector` selects a navigable pattern family using canonical spelling `<base>.*`. It requires a current base pattern and at least one current matching member and **MUST NOT** stand in for one exact governing target.
@@ -74040,7 +74054,7 @@ Use the twelve substantive functions in the canonical template as authoring ques
 
 The `Solution` explains the actual organization and use of the described Methods: their contributions, relations, and the results that make a next move possible. `Architectural Rationale` explains why that organization and those choices serve the declared use, which serious alternatives were considered, their trade-offs, and the conditions under which another choice becomes preferable. Preserve shared source explanations there when users need them to understand or adapt several patterns together.
 
-The pattern heading, header block, section grammar, and footer apply to each individually declared pattern. The whole-framework account uses the publication form in `E.11.PFP`; its content questions do not turn every publication unit or intermediate group into another pattern. Keep generality, specialization, Method composition, reuse, bounded-use projection, and publication grouping explicit under `E.8:4.2.2`. There is no prescribed maximum depth or exclusive-parent rule.
+The pattern heading, header block, section grammar, and footer apply to each individually declared pattern. The whole-framework account uses the publication form in `E.11.PFP`; its content questions do not turn every publication unit or intermediate group into another pattern. Its Preface subsection headings identify the framework, publication unit and ordinal path through `E.11.PFP:4.7.1`, so an isolated excerpt remains locatable without being classified as a pattern body. Keep generality, specialization, Method composition, reuse, bounded-use projection, and publication grouping explicit under `E.8:4.2.2`. There is no prescribed maximum depth or exclusive-parent rule.
 
 #### E.8:4.2 - Stylistic Principles (S-0 … S-19)
 
@@ -80634,6 +80648,25 @@ There is no fixed number of generality scales. For example, a reader can move fr
 
 A pattern can participate in several profiles, and a profile can draw on several contributions. Describe this structure through the relations that hold. If a mathematical view is useful, apply `C.29`: select the elements and relation being modeled. A partial order needs its order properties; a lattice additionally needs the required bounds for every relevant pair. Multiple parentage or overlapping membership alone establishes neither. Keep that mathematical representation distinct from the Methods and their subject-side relations.
 
+##### E.11.PFP:4.7.1 - Make a Preface section recognizable on its own
+
+A reader entering through search, a quotation, a link or a retrieved excerpt may see a heading without its parents. Every heading inside the Preface therefore carries the framework's public reference code, the publication-unit key `Preface`, and its complete ordinal section path:
+
+```text
+## <FrameworkCode>.Preface:<n> - <Title>
+### <FrameworkCode>.Preface:<n>.<m> - <Title>
+```
+
+For example, `## STR.Preface:1 - Problem frame - Direction and commitment under changing conditions` identifies the first section of the Strategy Preface. `### ME.Preface:7.3 - Production MethodDescription` identifies a nested section in the Method Engineering Preface. Use the framework's declared public code; name the framework as well when quoting outside a context that identifies it. The enclosing Preface H1 retains its product-declared title and established ToC entry.
+
+Number sibling sections in reading order, starting at 1, and carry the complete parent path into nested headings. Each nesting level adds one heading level and one ordinal. These ordinals locate sections in this Preface; their titles state the content functions. An account can combine several E.8 functions in one section or explain one function across several sections. Keep that useful arrangement instead of adding twelve empty sections to match numbers. The rule introduces no limit on useful conceptual scales; physical Markdown heading depth remains a carrier constraint.
+
+`STR.Preface` names a publication unit. Its section addresses are `SectionRef` uses under E.8, not declarations of additional patterns: the pattern index continues to contain the individually declared pattern bodies. Apply the same self-identifying construction to a profile account or other support unit when it needs its own section addresses, using its product-declared unit key. A profile explained inside the Preface retains its Preface section path; that text position does not decide the profile's semantic relations.
+
+The prefix lets a reader distinguish a whole-language Problem frame from the Problem frame of one pattern before choosing what to read or cite. Visible names and numbers also survive copying and printing, where a hidden anchor cannot help.
+
+The visible address and title use the ASCII ` - ` separator. Build each clickable fragment from the complete rendered heading according to the target Markdown carrier's rules, including punctuation removal and duplicate handling. When a heading changes, update its direct links in the publication, source templates and public consumers together. Check that the link resolves to the intended heading, then read that target for the answer the link promises. Keep the visible address usable for search and non-clickable copies. HTML anchors are optional carrier facilities, not a substitute for a self-identifying visible heading.
+
 ### E.11.PFP:5 - Archetypal Grounding
 
 **DPF with non-ascending pattern addresses.** A Systems Engineering DPF edition orders `SYSE.1`, `SYSE.16`, `SYSE.17`, and `SYSE.2` because that sequence helps readers. Its ToC rows and H2 bodies follow the same order. The `§` column reports each current position; it is not part of the PatternID. A later move changes the rows and bodies together without renumbering a continuing pattern. A citation outside the carrier says `Systems Engineering DPF, SYSE.16`; one intended to recover the earlier body also names the edition.
@@ -80692,6 +80725,7 @@ A pattern can participate in several profiles, and a profile can draw on several
 | CC-PFP.15 Navigation remains usable | The ToC represents Readme and Preface in its established product-native grammar before the singular pattern index; headings and labels describe their purpose, and the integrated rendered-structure summary plus intended-reader inspection exposes grouping defects without a second full read. |
 | CC-PFP.16 Whole account usable | Every substantive E.8 question has a public answer, an exact inherited answer, or an explicit use-changing gap at each selected scope. The account connects Methods and their results, retains their Architectural Rationale and shared source synthesis, and leaves direct pattern entry available. Headings or locators alone do not establish this content. |
 | CC-PFP.17 Scales and relations truthful | Further useful scales remain possible; the actual specialization, profile, composition, reuse, and publication-grouping relations are distinguished. A claimed mathematical order or lattice has the conditions required by C.29. |
+| CC-PFP.18 Whole-account sections addressable | Every Preface subsection exposes its framework code, Preface unit and complete ordinal path; nested paths and heading levels agree. Addressed profile or support units identify their declared unit. Links resolve to the intended rendered headings, while the target content supplies the promised answer. Publication-unit addresses do not create pattern-index entries. |
 
 ### E.11.PFP:8 - Common Anti-Patterns and How to Avoid Them
 

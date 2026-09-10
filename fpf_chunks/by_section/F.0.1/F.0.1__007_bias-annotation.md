@@ -6,12 +6,12 @@ section_id: "F.0.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__007_bias-annotation.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:6 — Bias-Annotation"
-line_start: 93564
-line_end: 93572
+line_start: 93598
+line_end: 93606
 dependencies:
   - "E.10"
   - "E.10.D1"

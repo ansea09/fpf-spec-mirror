@@ -6,12 +6,12 @@ section_id: "C.3.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__001_intro.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:intro — Intro"
-line_start: 46128
-line_end: 46144
+line_start: 46142
+line_end: 46158
 dependencies:
   - "A.2.6"
   - "A.6.REL"

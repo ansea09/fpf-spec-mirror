@@ -6,12 +6,12 @@ section_id: "A.1.SCR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__006_solution.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:4 — Solution"
-line_start: 2391
-line_end: 2482
+line_start: 2401
+line_end: 2496
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -77,10 +77,12 @@ Then apply the already admitted `U.System` condition: the whole has an actual ph
 
 | Disposition | Required first result |
 | --- | --- |
-| Non-system subject result | Exact non-system object or relation, its predicate and defining ClaimGraph, the non-semantic `SubjectPatternLocator`, and the action now possible; no A.1 test. |
+| Subject-pattern result | Exact object or relation, the claim needed for the decision, the cited subject pattern's concrete contribution, and the action now possible; no A.1 test. |
 | System recognized | Exact system, identity and boundary, decisive construction facts, acting-eligibility basis, and the system-dependent next use. |
 | Proposed system reading rejected | Exact non-system subject or relation, its subject pattern, and the action that remains possible. |
 | Evaluation unresolved | Exact `U.Entity`, missing A.1 component or kind-specific condition, needed information, and the decision that stays blocked. |
+
+`SubjectPatternLocator` locates the cited pattern; in ordinary prose, cite its PatternID. Add exact predicate or defining-content references, including a defining episteme edition or `ClaimGraph`, only when the governing claim or a named receiving use requires them (C.2.1 §4.2.4).
 
 After one candidate bearer is recognized, rejected, or left unresolved, use `A.1.CSD` only when the current question is which other Systems may undergo relevant changes and that discovery can change a named decision or investigation. A.1.SCR does not generate the bearer set or qualify consequence paths; it supplies only the load-bearing recognition result or blocker.
 
@@ -108,7 +110,9 @@ A project plan or decision may designate one system as the project system-of-int
 3. admit composite project Work only after A.15.1 and A.15.6 qualifications hold;
 4. state each actual work-to-referent, transformation, production, evaluation, delivery, acceptance, or later-use fact under its own governor;
 5. test any `SystemOfInterestSystemRole` interpretation and any A.2.1 system-role assignment separately; and
-6. when the recognized system must be reconnected to the long dependency from outside use through architecture, Work, change, and recursive builders, identify each exact admitted performing System, recover its A.13 core, and identify the applicable Method described in A.1.STM before independently admitting each dated Work occurrence under A.15.1. Add F.6 only when the receiving claim also needs precise assignment-bound attribution through that performer's same obtaining assignment. Otherwise state the next exact subject assertion under its predicate.
+6. when the recognized system must be reconnected to the long dependency from outside use through architecture, Work, change, and recursive builders, use A.1.STM to name the needed final result, retain supported answers, and read backward to the first unsupported dependency. Take that question to the subject pattern whose entry accepts it, and return the answer or a named stop.
+
+For a claim about a particular dated Work occurrence, first identify every actual performing System and recover its A.13 core. Independently admit that occurrence under A.15.1 from its performance history, at least one Method actually followed, temporal extent, and at least one locally declared containing-System relation. Apply this branch to the occurrence being asserted, whether it is Work represented on the map or a separately asserted Work of using the map. After admission, add F.6 only when the receiving claim also needs precise assignment-bound attribution through that performer's same obtaining assignment. A Work-only claim may stop after admission.
 
 Infer no project designation from system recognition, affectedness, familiar wording, a system-role label, or shared realization. If the decision needs the unsupported compound project-selection truth, preserve `missing-substrate[project-selection-conjunction]` until one constructor substrate and edition define that claim.
 

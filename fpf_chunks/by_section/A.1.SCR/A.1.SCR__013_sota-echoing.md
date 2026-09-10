@@ -6,12 +6,12 @@ section_id: "A.1.SCR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__013_sota-echoing.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:11 — SoTA-Echoing"
-line_start: 2568
-line_end: 2582
+line_start: 2582
+line_end: 2596
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -37,5 +37,5 @@ keywords:
 | Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439), 2012 | Possible transformations depend on substrate attributes and constructor conditions, not on a written task alone. | **Adapt larger-assembly applicability; reject actuality from description.** | A.1.SCR:4.3 and 5.1 require the governed applicability and compatibility facts used by the current fixture. A plan, Method description, constructor label, or task proves neither assembly, acting participation, Work, nor transformation. |
 | Partridge, [*BORO Ontology*](https://borosolutions.net/boro-ontology), C-FORS 2025 | Four-dimensional identity pressure asks what exists through change and across extent. | **Reject wholesale categories; retain the identity probe.** | A.1.SCR:4.8 asks for the exact entity, boundary, reidentification, and construction facts while forbidding identity between a system and its system-role kind, capability, Work, or description merely from shared extent. No unrestricted composition or BORO category is imported. |
 
-The conditional method assembled here—state the decision, close with an exact non-system subject assertion when possible, apply the complete A.1 test only when systemhood remains load-bearing, and use the Method described in A.1.STM for a recognized project subject only when the outside-use dependency is still missing—is a scoped FPF synthesis of these pressures, not an external consensus claim. Reopen the synthesis if A.1 changes its constructive criterion, A.6.P changes the service/access recovery boundary, A.15.6 changes project designation, or later cross-domain evidence defeats the scale-free decision method or one of its explicit stops.
+The conditional method assembled here—state the decision, close with an exact subject assertion when possible, apply the complete A.1 test only when systemhood remains load-bearing, and use the Method described in A.1.STM for a recognized project subject only when the outside-use dependency is still missing—is a scoped FPF synthesis of these pressures, not an external consensus claim. Reopen the synthesis if A.1 changes its constructive criterion, A.6.P changes the service/access recovery boundary, A.15.6 changes project designation, or later cross-domain evidence defeats the scale-free decision method or one of its explicit stops.
 

@@ -6,12 +6,12 @@ section_id: "E.4.DPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__011_rationale.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:10 — Rationale"
-line_start: 72136
-line_end: 72141
+line_start: 72150
+line_end: 72155
 dependencies:
   - "A.1.1"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "A.2.1:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__010_conformance-checklist.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:8 — Conformance Checklist"
-line_start: 3734
-line_end: 3752
+line_start: 3748
+line_end: 3766
 dependencies:
   - "A.1.1"
   - "A.15"

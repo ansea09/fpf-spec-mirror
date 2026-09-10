@@ -6,12 +6,12 @@ section_id: "A.15.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__013_relations.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:12 — Relations"
-line_start: 27338
-line_end: 27355
+line_start: 27352
+line_end: 27369
 dependencies:
   - "A.1"
   - "A.1.STM"

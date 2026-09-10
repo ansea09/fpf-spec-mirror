@@ -6,12 +6,12 @@ section_id: "C.28:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__011_consequences.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:9 — Consequences"
-line_start: 57732
-line_end: 57735
+line_start: 57746
+line_end: 57749
 dependencies:
   - "A.10"
   - "A.15"

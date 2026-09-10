@@ -6,12 +6,12 @@ section_id: "A.19.CHR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__012_relations.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:12 — Relations"
-line_start: 32773
-line_end: 32803
+line_start: 32787
+line_end: 32817
 dependencies:
   - "A.15.3"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "E.17:7"
 section_title: "Objects used by the optional formal profile"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__008_objects-used-by-the-optional-formal-profile.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:7 — Objects used by the optional formal profile"
-line_start: 83849
-line_end: 83861
+line_start: 83883
+line_end: 83895
 dependencies:
   - "A.10"
   - "A.15.4"

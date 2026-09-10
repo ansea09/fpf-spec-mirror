@@ -6,12 +6,12 @@ section_id: "F.11:6"
 section_title: "Solution — four questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__007_solution-four-questions.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:6 — Solution — four questions"
-line_start: 97444
-line_end: 97465
+line_start: 97478
+line_end: 97499
 dependencies:
   - "A.15"
   - "A.15.1"

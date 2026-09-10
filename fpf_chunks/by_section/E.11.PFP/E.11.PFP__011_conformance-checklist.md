@@ -5,13 +5,13 @@ pattern_title: "Framework Publication Form Profile"
 section_id: "E.11.PFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.11.PFP/E.11.PFP__010_conformance-checklist.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+output_path: "by_section/E.11.PFP/E.11.PFP__011_conformance-checklist.md"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:7 — Conformance Checklist"
-line_start: 80671
-line_end: 80695
+line_start: 80704
+line_end: 80729
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -56,4 +56,5 @@ keywords:
 | CC-PFP.15 Navigation remains usable | The ToC represents Readme and Preface in its established product-native grammar before the singular pattern index; headings and labels describe their purpose, and the integrated rendered-structure summary plus intended-reader inspection exposes grouping defects without a second full read. |
 | CC-PFP.16 Whole account usable | Every substantive E.8 question has a public answer, an exact inherited answer, or an explicit use-changing gap at each selected scope. The account connects Methods and their results, retains their Architectural Rationale and shared source synthesis, and leaves direct pattern entry available. Headings or locators alone do not establish this content. |
 | CC-PFP.17 Scales and relations truthful | Further useful scales remain possible; the actual specialization, profile, composition, reuse, and publication-grouping relations are distinguished. A claimed mathematical order or lattice has the conditions required by C.29. |
+| CC-PFP.18 Whole-account sections addressable | Every Preface subsection exposes its framework code, Preface unit and complete ordinal path; nested paths and heading levels agree. Addressed profile or support units identify their declared unit. Links resolve to the intended rendered headings, while the target content supplies the promised answer. Publication-unit addresses do not create pattern-index entries. |
 

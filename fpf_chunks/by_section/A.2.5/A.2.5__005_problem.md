@@ -6,12 +6,12 @@ section_id: "A.2.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__005_problem.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:2 — Problem"
-line_start: 5011
-line_end: 5021
+line_start: 5025
+line_end: 5035
 dependencies:
   - "A.15"
   - "A.15.1"

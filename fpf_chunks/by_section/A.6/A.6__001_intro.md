@@ -6,12 +6,12 @@ section_id: "A.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__001_intro.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:intro — Intro"
-line_start: 10166
-line_end: 10253
+line_start: 10180
+line_end: 10267
 dependencies:
   - "A.10"
   - "A.15"

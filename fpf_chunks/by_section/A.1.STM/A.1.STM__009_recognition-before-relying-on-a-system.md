@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.1.STM"
 pattern_title: "Using the System-Thinking Long Mantra"
 section_id: "A.1.STM:7"
-section_title: "Recognition stress boundary"
+section_title: "Recognition before relying on a system"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.1.STM/A.1.STM__009_recognition-stress-boundary.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+output_path: "by_section/A.1.STM/A.1.STM__009_recognition-before-relying-on-a-system.md"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
-  - "A.1.STM:7 — Recognition stress boundary"
-line_start: 2968
-line_end: 2973
+  - "A.1.STM:7 — Recognition before relying on a system"
+line_start: 2982
+line_end: 2987
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -38,9 +38,9 @@ dependencies:
 keywords:
 ---
 
-### A.1.STM:7 - Recognition stress boundary
+### A.1.STM:7 - Recognition before relying on a system
 
-Before a map relies on an acting system or changed-system boundary, use the one A.1 recognition architecture through A.1.SCR. Its heterogeneous stress cases cover an engineered pump, an animal, a human, a software-realized AI agent, a robotic AI agent, a coordinated collective and roster near miss, the Moon and a tide bearer, plus the exact proposed-system readings `SutureControl-M17`, `GameSessionWhole-GS204`, and `InternetAccessArrangement-CA17` beside their ordinary subject-pattern readings.
+Before relying on an acting system or changed-system boundary in the map, use A.1.SCR to obtain the recognition result for that exact entity.
 
 A.1.STM consumes only the returned recognition result. It does not repeat the six-component test, replace the exact entity with a convenient neighboring bearer, infer a system-role assignment from causal participation, or infer Method, Work, transformation, promise, permission, project designation, or a system-role kind from systemhood.
 

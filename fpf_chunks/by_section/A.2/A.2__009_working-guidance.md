@@ -6,12 +6,12 @@ section_id: "A.2:7"
 section_title: "Working Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__009_working-guidance.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:7 — Working Guidance"
-line_start: 3361
-line_end: 3372
+line_start: 3375
+line_end: 3386
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -48,6 +48,6 @@ keywords:
 5. Add an assignment only when an occurrence of a declared assignment species actually obtains.
 6. State each claim about state, capability, Method, Work, responsibility, commitment, permission, authority, evidence, or reliance through the pattern that defines or constrains it.
 7. Evaluate every subkind proposal from independently obtained aligned judgments; never use the proposed edge as a membership premise.
-8. For cross-local use, keep both kinds and their assignments distinct and establish only the C.3.3 kind relation, F.9 local-sense relation, and bounded-use claim actually needed.
+8. For cross-local use, compare the C.3 definitions first. Reuse the same kind when its distinction continues; when two kinds are present, keep both kinds distinct and establish only the exact C.3.3 kind relation, any needed F.9 local-sense relation, and bounded-use claim actually consumed. In either branch, establish assignments independently; reusing the kind neither creates assignments nor licenses their substitution or merger.
 9. If the source uses *role* for another object, apply E.10.ROLE and continue with the recovered subject pattern; stop at `missing-governor` when no relation is yet admitted.
 

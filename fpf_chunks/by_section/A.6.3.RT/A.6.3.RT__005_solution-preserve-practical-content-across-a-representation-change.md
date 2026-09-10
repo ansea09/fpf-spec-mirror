@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:4"
 section_title: "Solution — preserve practical content across a representation change"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-preserve-practical-content-across-a-representation-change.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:4 — Solution — preserve practical content across a representation change"
-line_start: 14995
-line_end: 15179
+line_start: 15009
+line_end: 15193
 dependencies:
   - "A.1.1"
   - "A.10"

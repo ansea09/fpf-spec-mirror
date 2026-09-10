@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:6"
 section_title: "Boundary dispositions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__007_boundary-dispositions.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:6 — Boundary dispositions"
-line_start: 85811
-line_end: 85836
+line_start: 85845
+line_end: 85870
 dependencies:
   - "A.10"
   - "A.15"

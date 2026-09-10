@@ -6,12 +6,12 @@ section_id: "B.3.3:5"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__006_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:5 — Common Anti-Patterns and How to Avoid Them"
-line_start: 39949
-line_end: 39957
+line_start: 39963
+line_end: 39971
 dependencies:
   - "A.10"
   - "B.3"

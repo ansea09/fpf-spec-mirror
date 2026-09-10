@@ -6,12 +6,12 @@ section_id: "F.17:6"
 section_title: "When to create or update a UTS row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__008_when-to-create-or-update-a-uts-row.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:6 — When to create or update a UTS row"
-line_start: 99351
-line_end: 99362
+line_start: 99385
+line_end: 99396
 dependencies:
   - "A.1.1"
   - "A.10"

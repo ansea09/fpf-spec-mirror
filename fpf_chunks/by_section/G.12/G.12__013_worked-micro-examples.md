@@ -6,12 +6,12 @@ section_id: "G.12:11"
 section_title: "Worked Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__013_worked-micro-examples.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:11 — Worked Micro-examples"
-line_start: 107845
-line_end: 107850
+line_start: 107879
+line_end: 107884
 dependencies:
   - "A.19"
   - "A.2.6"

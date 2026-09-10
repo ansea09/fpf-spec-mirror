@@ -6,12 +6,12 @@ section_id: "A.19.ECS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__002_problem-frame.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:1 — Problem frame"
-line_start: 30202
-line_end: 30223
+line_start: 30216
+line_end: 30237
 dependencies:
   - "A.17-A.19"
   - "C.16"

@@ -6,12 +6,12 @@ section_id: "A.1.STM:End"
 section_title: "A.1.STM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__016_a-1-stm-end.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:End — A.1.STM:End"
-line_start: 3036
-line_end: 3037
+line_start: 3050
+line_end: 3051
 dependencies:
   - "A.1"
   - "A.1.CSD"

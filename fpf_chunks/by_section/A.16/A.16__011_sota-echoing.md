@@ -6,12 +6,12 @@ section_id: "A.16:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__011_sota-echoing.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:10 — SoTA-Echoing"
-line_start: 28691
-line_end: 28702
+line_start: 28705
+line_end: 28716
 dependencies:
   - "A.13"
   - "A.15.1"

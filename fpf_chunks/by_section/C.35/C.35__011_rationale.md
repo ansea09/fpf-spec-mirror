@@ -6,12 +6,12 @@ section_id: "C.35:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__011_rationale.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:10 — Rationale"
-line_start: 68069
-line_end: 68075
+line_start: 68083
+line_end: 68089
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

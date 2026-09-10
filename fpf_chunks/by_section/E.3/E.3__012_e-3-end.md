@@ -6,12 +6,12 @@ section_id: "E.3:End"
 section_title: "E.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__012_e-3-end.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
   - "E.3:End — E.3:End"
-line_start: 70675
-line_end: 70676
+line_start: 70689
+line_end: 70690
 dependencies:
   - "E.1"
   - "E.2"

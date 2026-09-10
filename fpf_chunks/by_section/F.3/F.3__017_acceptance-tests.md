@@ -6,12 +6,12 @@ section_id: "F.3:16"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__017_acceptance-tests.md"
-commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
+commit_sha: "cc1aef9b8e38dd50889e058fdc56725b9714fd42"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:16 — Acceptance tests"
-line_start: 94605
-line_end: 94623
+line_start: 94639
+line_end: 94657
 dependencies:
   - "A.11"
   - "A.7"
