@@ -6,12 +6,12 @@ section_id: "A.0:End"
 section_title: "A.0:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__019_a-0-end.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:End — A.0:End"
-line_start: 1532
-line_end: 1535
+line_start: 1533
+line_end: 1536
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

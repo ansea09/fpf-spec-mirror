@@ -6,12 +6,12 @@ section_id: "E.9.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__005_solution.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:4 — Solution"
-line_start: 75076
-line_end: 75357
+line_start: 75077
+line_end: 75360
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -214,6 +214,8 @@ If an important omitted question is found, state it as a substantive finding bef
 Coordinate separation is by repair question. One `DRR` section may support several coordinates, but the rationale must state the distinct property supported for each. When two heads always fail and repair together, the `DRR` or the evaluation pattern needs characteristic-space repair through `A.19.ECS`.
 
 #### E.9.DA:4.4a - Result-row discipline and calibration
+
+Use the question-to-ground and result-acceptance operation in `E.22:4.3` within this evaluation.
 
 A complete reusable E.9.DA coordinate result uses this table shape. An ordinary bounded review may use the coordinates as probes and return substantive findings or repaired text without creating the table:
 

@@ -6,12 +6,12 @@ section_id: "A.15.3:12a"
 section_title: "P2W planned-filling use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__014_p2w-planned-filling-use.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:12a — P2W planned-filling use"
-line_start: 26245
-line_end: 26250
+line_start: 26246
+line_end: 26251
 dependencies:
   - "A.15.1"
   - "A.15.2"

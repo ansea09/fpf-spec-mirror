@@ -6,12 +6,12 @@ section_id: "E.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__002_problem-frame.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:1 — Problem frame"
-line_start: 90339
-line_end: 90358
+line_start: 90346
+line_end: 90365
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -38,7 +38,7 @@ Not this pattern when the question is already scoped and one direct evaluation i
 
 First useful move: write a `QualityEvaluationQuestionFrame` for one object version and a `QualityEvaluationUseDeclaration`. Name the selected `CharacteristicSpace`, the by-value predicate and any admitted comparator, one `U.ClaimScope`, and the work or decision that will consume the result. Keep the evaluation pattern and optional semantic Method separate from the quality-model, evidence-basis, and result-form descriptions. State an evaluator eligibility, independence, capability, or planned condition only when it changes the question or admissibility of the result; name one intended evaluator only when that identity is itself part of the question. Then state the purpose, floor or improvement aim, and protected trade-offs.
 
-Here *move* is Plain wording for writing the frame. It is not a shared Move identity, selected repair, WorkPlan, performed `U.Work`, or actual `U.Transformation`; if dated framing work itself matters, A.15 governs that separate occurrence.
+Here *move* is Plain wording for writing the frame. It is not a shared Move identity, selected repair, WorkPlan, performed `U.Work`, or actual `U.Transformation`; if dated framing work itself matters, A.15.1 governs that separate occurrence.
 
 What goes wrong if missed: "review this" can mean too many different things. A floor check may be mistaken for exceptional improvement, a review may suggest work without naming a changed evaluation result, absorption may count closed rows without re-evaluating the changed object, or a follow-up suggestion may be overread as a decision, work plan, gate, evidence, assurance, or release.
 

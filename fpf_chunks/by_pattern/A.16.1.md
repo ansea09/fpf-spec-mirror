@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.1.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
-line_start: 28979
-line_end: 29273
+line_start: 28980
+line_end: 29274
 dependencies:
   - "A.16"
   - "A.16.0"

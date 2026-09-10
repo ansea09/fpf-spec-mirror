@@ -6,12 +6,12 @@ section_id: "F.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__006_solution.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:4 — Solution"
-line_start: 101198
-line_end: 101293
+line_start: 101211
+line_end: 101323
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -73,6 +73,23 @@ Recover the instruction from the publication, its stated prerequisites and the k
 Retain a negative alternative, denied consequence, warning, or non-use statement only when the exact rejected reading has an independent local ground; a plausible intended reader could take that reading here, including an evidenced type mistake; and the distinction changes truth, understanding, selection, safety, stop, reliance, or action. An earlier or source claim, an observed recurring mistake, a serious competing position, a visible representation feature, or an applicable safety risk can supply the ground. The guard itself cannot.
 
 Even a grounded guard should be the smallest clear correction. When actor allocation is the useful content, state it positively: “On receiving new evidence, the reader decides whether to reopen checking or revision.” When currentness is the useful content, state the direct use: “This guide conveys the seminar of 1 February 2026; check current rules against the current FPF edition.” Keep material negation, documented anti-patterns, fair disputes, and safety stops when their polarity or boundary is itself the claim.
+
+#### Basis and coverage of a recovery judgement
+
+State whether the judgement rests on an expert walkthrough, an actual reading, or a formal-model estimate, using the distinctions in `C.2.8:4.5`. An expert can judge recoverability from the public text for the intended reader. An actual response establishes what that reader recovered under those reading conditions. A formal-model estimate retains its stated observer, selected structure and model conditions under `C.2.8:4.6`.
+
+Use expert reading for a bounded wording judgement when it resolves the question from the permitted public inputs and no actual response is required. Obtain actual public-only recovery when:
+
+- the intended conclusion claims that a reader actually recovered the instruction;
+- plausible reconstructions still differ in an action-changing participant, operation, result or condition, and the reader's response can change the repair or use decision;
+- it remains materially uncertain whether the publication supplies the needed instruction or the evaluator supplies it from private knowledge or test-only explanation; or
+- demonstrated misses undermine the sufficiency of the earlier expert reading for the affected instruction family.
+
+A visible wording defect can be repaired directly. Select any reading still needed for the repaired text and intended conclusion. Give a cold reader the publication, its stated prerequisites and task inputs, withholding private rationale and suggested answers. Preserve the initial recovery before supplying further explanation; qualify subsequent source returns or help under `C.2.8:4.3`.
+
+Limit a recovery conclusion to the natural text units and relations examined under its actual evidence basis. A whole-publication conclusion needs coverage of the whole publication, including relations needed to read its parts together. Successful application probes cover their tested uses; they leave unexamined text outside that result. A whole expert reading combined with local actual readings retains that mixed basis. Reuse a result for the same or explicitly unaffected text, recovery question, reader preparation, access, assistance and budget when those conditions still apply. A local revalidation by a reader familiar with the earlier wording retains that qualification.
+
+State a material limit in the receiving judgement or result already needed by the work. When a required reading is unavailable, identify the missing basis and leave only the dependent conclusion open. Correct recovery of what the text asserts and the subject-matter warrant or practical adequacy of that assertion remain separate questions under `C.2.8`.
 
 #### Result and local revalidation
 

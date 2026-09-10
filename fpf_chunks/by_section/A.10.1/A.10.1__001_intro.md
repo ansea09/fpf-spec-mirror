@@ -6,12 +6,12 @@ section_id: "A.10.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__001_intro.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:intro — Intro"
-line_start: 23077
-line_end: 23086
+line_start: 23078
+line_end: 23087
 dependencies:
   - "A.10"
   - "A.10.1"

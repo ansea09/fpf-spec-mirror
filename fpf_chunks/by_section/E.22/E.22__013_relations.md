@@ -6,12 +6,12 @@ section_id: "E.22:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__013_relations.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:12 — Relations"
-line_start: 90664
-line_end: 90682
+line_start: 90677
+line_end: 90695
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -44,6 +44,6 @@ keywords:
 | `C.22.PFR` | Governs an actual Problem occurrence when the consuming use relies on one; evaluation need, finding, or floor failure alone establishes none. |
 | `E.10`, `E.10.ROLE`, `A.6.P`, `C.2.P`, `F.18` | Repair load-bearing wording and names introduced by frames or findings. `E.10.ROLE` resolves an ambiguous source *role* before E.22 cites a local system-role kind, assignment occurrence, relation participant, or ordinary non-system meaning. |
 | `C.16`, `A.17`, `A.18`, `C.25` | Govern characteristics, scales, measurements, and quality bundles. |
-| `C.17`, `C.18`, `C.19`, `G.5`, `G.9` | Govern OEE and NQD candidate, archive and front, pool, selected-set, and parity claims; G.11 currentness remains in the preceding row. |
-| `C.11`, `C.24`, `A.15`, `A.20`, `A.21`, `A.10`, `B.3` | Receive decision, call-planning, work, gate, release, evidence, and assurance claims when a quality result is reused beyond evaluation. |
+| `C.17`, `C.18`, `C.19`, `G.5`, `G.9` | Govern OEE and NQD candidate, archive and front, pool, selected-set, and parity claims; G.11 governs currentness. |
+| `C.11`, `C.24`, `A.15`, `A.20`, `A.21`, `A.10`, `B.3` | When a quality result is reused beyond evaluation, C.11 governs choice among an available OptionSet; C.24 governs call planning after the action or option is fixed; A.15 governs system-role–Method–Work alignment; A.20 governs internal-constraint validity for its stated transformation-flow subjects and cases; A.21 governs gate decisions; A.10 governs evidence use, provenance, and bounded reliance; B.3 governs an actual named assurance claim. A release claim needs the pattern that defines that claim. |
 

@@ -6,12 +6,12 @@ section_id: "C.2.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__005_solution.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:4 — Solution"
-line_start: 44645
-line_end: 44673
+line_start: 44646
+line_end: 44674
 dependencies:
   - "A.16"
   - "A.16.0"

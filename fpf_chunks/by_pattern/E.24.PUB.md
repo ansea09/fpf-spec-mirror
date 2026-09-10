@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.PUB.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
-line_start: 92621
-line_end: 92902
+line_start: 92634
+line_end: 92915
 dependencies:
   - "A.6.3"
   - "A.6.REL"

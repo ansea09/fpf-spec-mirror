@@ -6,12 +6,12 @@ section_id: "C.30.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__003_problem-frame.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:1 — Problem frame"
-line_start: 60637
-line_end: 60658
+line_start: 60638
+line_end: 60659
 dependencies:
   - "A.10"
   - "A.15"

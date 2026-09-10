@@ -6,12 +6,12 @@ section_id: "F.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__014_relations.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:12 — Relations"
-line_start: 101426
-line_end: 101441
+line_start: 101456
+line_end: 101472
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -45,6 +45,7 @@ keywords:
 | `A.6.P` | Use it when the remaining content hides relation kind, endpoint, basedness, anchoring, slot, relation position, or use relation. |
 | `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P` | Use the applicable pattern for unresolved state-family, source or publication, characteristic or scale, and architecture or structure claims. |
 | `E.17.EFP` | Reuse its reader-fit boundary only when a reader distinction changes explanation use; `F.19` does not require a persona record. |
+| `C.2.8` | Supplies the distinction between expert walkthrough, actual reading and formal-model estimate, and qualifies recovered structure by the reader's preparation, access, help and budget. `F.19` selects the needed recovery basis for wording judgements. |
 | `E.21` | An `E.21` evaluation may use `F.19` findings through `PrecisionRestorationProfile` and lower affected quality coordinates without creating one coordinate per apparatus symptom. |
 | `E.19`, `E.22`, `E.23` | During review, framing, or improvement-loop work, use `F.19` while keeping quality-loop records out of pattern prose. |
 | `E.11` and `I.2` | First-entry and publication loci may use the same repair while returning semantic authority to the subject patterns. |

@@ -6,12 +6,12 @@ section_id: "F.7:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__005_core-idea-didactic.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:4 — Core idea (didactic)"
-line_start: 95634
-line_end: 95646
+line_start: 95647
+line_end: 95659
 dependencies:
   - "A.6.9"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "F.1:4"
 section_title: "Solution — select by answer-changing role"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__005_solution-select-by-answer-changing-role.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:4 — Solution — select by answer-changing role"
-line_start: 93881
-line_end: 93976
+line_start: 93894
+line_end: 93989
 dependencies:
   - "A.10"
   - "A.7"

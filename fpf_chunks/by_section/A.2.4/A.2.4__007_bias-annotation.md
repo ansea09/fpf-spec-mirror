@@ -6,12 +6,12 @@ section_id: "A.2.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__007_bias-annotation.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:6 — Bias-Annotation"
-line_start: 4865
-line_end: 4877
+line_start: 4866
+line_end: 4878
 dependencies:
   - "A.10"
   - "A.2"

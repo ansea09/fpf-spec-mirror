@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.19.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
-line_start: 101120
-line_end: 101445
+line_start: 101133
+line_end: 101476
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -151,6 +151,23 @@ Retain a negative alternative, denied consequence, warning, or non-use statement
 
 Even a grounded guard should be the smallest clear correction. When actor allocation is the useful content, state it positively: “On receiving new evidence, the reader decides whether to reopen checking or revision.” When currentness is the useful content, state the direct use: “This guide conveys the seminar of 1 February 2026; check current rules against the current FPF edition.” Keep material negation, documented anti-patterns, fair disputes, and safety stops when their polarity or boundary is itself the claim.
 
+#### Basis and coverage of a recovery judgement
+
+State whether the judgement rests on an expert walkthrough, an actual reading, or a formal-model estimate, using the distinctions in `C.2.8:4.5`. An expert can judge recoverability from the public text for the intended reader. An actual response establishes what that reader recovered under those reading conditions. A formal-model estimate retains its stated observer, selected structure and model conditions under `C.2.8:4.6`.
+
+Use expert reading for a bounded wording judgement when it resolves the question from the permitted public inputs and no actual response is required. Obtain actual public-only recovery when:
+
+- the intended conclusion claims that a reader actually recovered the instruction;
+- plausible reconstructions still differ in an action-changing participant, operation, result or condition, and the reader's response can change the repair or use decision;
+- it remains materially uncertain whether the publication supplies the needed instruction or the evaluator supplies it from private knowledge or test-only explanation; or
+- demonstrated misses undermine the sufficiency of the earlier expert reading for the affected instruction family.
+
+A visible wording defect can be repaired directly. Select any reading still needed for the repaired text and intended conclusion. Give a cold reader the publication, its stated prerequisites and task inputs, withholding private rationale and suggested answers. Preserve the initial recovery before supplying further explanation; qualify subsequent source returns or help under `C.2.8:4.3`.
+
+Limit a recovery conclusion to the natural text units and relations examined under its actual evidence basis. A whole-publication conclusion needs coverage of the whole publication, including relations needed to read its parts together. Successful application probes cover their tested uses; they leave unexamined text outside that result. A whole expert reading combined with local actual readings retains that mixed basis. Reuse a result for the same or explicitly unaffected text, recovery question, reader preparation, access, assistance and budget when those conditions still apply. A local revalidation by a reader familiar with the earlier wording retains that qualification.
+
+State a material limit in the receiving judgement or result already needed by the work. When a required reading is unavailable, identify the missing basis and leave only the dependent conclusion open. Correct recovery of what the text asserts and the subject-matter warrant or practical adequacy of that assertion remain separate questions under `C.2.8`.
+
 #### Result and local revalidation
 
 The ordinary result is the repaired text, or a blocker naming the unresolved meaning. Do not require a separate result form, card, table, progress row, or recorded answer for each facet of the reading.
@@ -267,7 +284,7 @@ These questions guide one connected reading; they do not require separate record
 | `CC-F19-9` | The accepted rewrite is shorter or clearer without losing technical semantics or action-guiding detail. A longer rewrite is admissible only when it recovers a hidden kind, relation, role or assignment distinction, function claim, slot, claim boundary, quantity, threshold, polarity, order, timing, criterion, tolerance, exception, or applicability condition needed by the declared use. |
 | `CC-F19-10` | The repair records any loss of truth, action, stop criterion, value, usability, locality, currentness, kind recoverability, or explicit operational detail used by the declared reader. |
 | `CC-F19-11` | Term-source or type annotation is used only when it changes the object, kind, relation, slot, use, publication boundary, admissible use, or rule the reader must apply; stable ordinary prose is not expanded into type labels. |
-| `CC-F19-12` | The accepted plain rewrite passes MG-DA cold-reader recovery: a reader without the `DRR`, campaign notes, or author memory can state the content-bearing object, kind or ordinary status, relation or claim position, admissible use, next practical action, and every quantity, threshold, ordering, timing, criterion, exception, or applicability condition that changes that action. When another pattern contributes, the reader can recover its id and contribution. Broad heads such as `object`, `item`, `value`, `relation`, `record`, `condition`, `basis`, `material`, and unqualified `specialization` are not plain enough when they hide what the practitioner must recognize. |
+| `CC-F19-12` | The accepted plain rewrite satisfies MG-DA cold-reader recovery under F.19:4's evidence-selection and coverage conditions: a reader without the `DRR`, campaign notes, or author memory can state the content-bearing object, kind or ordinary status, relation or claim position, admissible use, next practical action, and every quantity, threshold, ordering, timing, criterion, exception, or applicability condition that changes that action. When another pattern contributes, the reader can recover its id and contribution. Broad heads such as `object`, `item`, `value`, `relation`, `record`, `condition`, `basis`, `material`, and unqualified `specialization` are not plain enough when they hide what the practitioner must recognize. |
 | `CC-F19-13` | Every added qualifier or formal identity has a named live contrast: it changes truth, action, stop, migration, publication, reuse, or reliance. An ordinary PatternID citation does not by itself require a `ClaimGraph`, `U.MethodDescription`, `U.Method`, actor, assignment, or `U.Work` expansion. |
 | `CC-F19-14` | After apparatus removal, the sentence names every complement and live discriminant needed to determine what was selected, changed, compared, transformed, published, evaluated, relied on, started, stopped, ordered, limited, or excepted. |
 | `CC-F19-15` | Ordinary practitioner action and instrumental “use pattern X” wording stays ordinary when it does not assert identity-bearing dated Work. When it does, point to the basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution. Use one thin `E.10.ROLE` or `A.6.F` route for a role- or function-shaped trigger; do not copy either recovery taxonomy. `U.MethodDescription` appears only after the `A.3.2` test passes. |
@@ -279,7 +296,7 @@ These questions guide one connected reading; they do not require separate record
 | `CC-F19-21` Meaning and loss preservation | The rewrite preserves every live term, polarity, quantity, threshold, temporal or ordering condition, criterion, tolerance, exception, applicability boundary, and other action-changing detail. Any accepted change of kind, relation, scope, currentness, or use has its own decision. |
 | `CC-F19-22` Grounded contribution | Every optional guard, contrast, modifier, example, and coordinated member changes recognition, understanding, evidence, decision, safety, stop, reliance, or action for a plausible intended reader. A negative alternative has an independent local ground and is the smallest clear correction. |
 | `CC-F19-23` Coordination and foregrounding | A list states the proposition or action it serves; its kind, predicate, membership semantics, and closure are not fabricated; illustrative status is clear when needed; and coordination or modifiers do not postpone the governing message. |
-| `CC-F19-24` Plain result | A cold intended reader can recover the repaired claim and next useful action. The ordinary output is repaired text or a blocker, not a mandatory form or ledger. |
+| `CC-F19-24` Plain result | A cold intended reader can recover the repaired claim and next useful action under F.19:4's selected evidence basis and coverage. The ordinary output is repaired text or a blocker, not a mandatory form or ledger. |
 | `CC-F19-25` Local revalidation | Any changed wording or syntax has been reread with only its meaning-dependent neighbours. An older semantic verdict is reused only for unchanged text. |
 
 ### F.19:8 - Common anti-patterns and how to avoid them
@@ -350,6 +367,7 @@ Use one bounded reread of the same paragraph or short instruction as the compari
 | `A.6.P` | Use it when the remaining content hides relation kind, endpoint, basedness, anchoring, slot, relation position, or use relation. |
 | `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P` | Use the applicable pattern for unresolved state-family, source or publication, characteristic or scale, and architecture or structure claims. |
 | `E.17.EFP` | Reuse its reader-fit boundary only when a reader distinction changes explanation use; `F.19` does not require a persona record. |
+| `C.2.8` | Supplies the distinction between expert walkthrough, actual reading and formal-model estimate, and qualifies recovered structure by the reader's preparation, access, help and budget. `F.19` selects the needed recovery basis for wording judgements. |
 | `E.21` | An `E.21` evaluation may use `F.19` findings through `PrecisionRestorationProfile` and lower affected quality coordinates without creating one coordinate per apparatus symptom. |
 | `E.19`, `E.22`, `E.23` | During review, framing, or improvement-loop work, use `F.19` while keeping quality-loop records out of pattern prose. |
 | `E.11` and `I.2` | First-entry and publication loci may use the same repair while returning semantic authority to the subject patterns. |

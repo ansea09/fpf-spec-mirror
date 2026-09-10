@@ -6,12 +6,12 @@ section_id: "E.21:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__013_relations.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:11 — Relations"
-line_start: 90310
-line_end: 90332
+line_start: 90317
+line_end: 90339
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -46,15 +46,15 @@ keywords:
 | `A.13`, `A.15.1`, `A.3.1`, `F.6`, `A.2`, and `A.2.1` | Define or constrain the item 5 dated-assessment-Work account. A.13 supplies every precise evaluator-performer's core and same obtaining assignment; A.15.1 independently admits the Work from its performance history, temporal extent, enacted Method, and obtaining containing-System relation under the exact boundary and qualification window; F.6 adds only a current precise assignment-bound attribution. A compact account may omit an unused identifier only when every consumed relation remains recoverable. The Work, any returned value or direct evaluation-result relation, and the C.2.1 result episteme stay distinct. An E.21 claim connects them only through an exact A.6.1 result binding or a separately declared direct evaluation-result relation that actually obtains. An evaluator may ordinarily apply the questions without asserting dated Work. Route unresolved source *role* through `E.10.ROLE`. |
 | `A.6.1` | Constrains only the exact declared-operation application admitted under the compact conditional rule in E.21:4. |
 | `C.2.1` | Governs the constitution of the checked pattern episteme/version reference, per-coordinate result claims, aggregate pattern-quality-result episteme, and optional evaluation-record episteme independently. |
-| `A.10` and `B.3` | Govern exact evidence use/provenance and any assurance or reliance on the result. Witness presence and a favorable value create neither relation. |
+| `A.10` and `B.3` | A.10 governs evidence use/provenance and bounded reliance on the result; B.3 governs an actual named assurance claim about it. Witness presence and a favorable value create neither relation. |
 | `F.10` and `G.11` | Govern downstream status use/interpretation and currentness. The local `PatternQualityStatus` value neither admits a pattern nor authorizes downstream use by itself. |
-| `E.24.PUB` and `C.29` | Govern publication occurrence/form/carrier and representation of a result or record; the coordinate claims and their justification remain in the E.21 result. |
+| `E.24.PUB` and `C.29` | E.24.PUB governs publication occurrence/form/carrier; C.29 governs any mathematical-lens use in representing a result or record; the coordinate claims and their justification remain in the E.21 result. |
 | `E.19` | Declares admission and refresh review profiles and result boundaries. Dated E.19 review work may request or consume a current E.21 result, but its review work, findings/result, and authority-bearing admission or refresh decision remain separate from E.21 assessment work and coordinate results. |
 | `E.22` | Frames purpose, floor, trade-offs, and proposal expectation before an evaluation. |
 | `E.23` | Governs repeated improvement and repair work using the existing E.21 values and stop meanings for pattern versions. |
 | `E.13` | Governs pragmatic utility and proxy-to-value alignment when quality values, visible measures, review results, all-`5` result framing, or release cues are used as practical value, target, incentive, gate, or improvement proof. |
 | `E.9.DA` | Declares the DRR decision-adequacy characteristic space and result rules. Dated E.9.DA assessment work evaluates one exact upstream DRR episteme when pattern-quality defects trace to decisions; its checked object, work, and result are not E.21 objects. |
 | `F.18`, `E.10`, `A.6.P`, `C.2.P`, `C.16.P`, and `C.16.Q` | Govern naming and wording-use precision when quality defects are lexical or ontological. |
-| `A.20`, `A.21`, and `A.15` | Govern project-side local CV state, gates, work, and authority. An E.21 result may be cited only through the exact receiving relation and supplies none of these by itself. |
+| `A.20`, `A.21`, and `A.15` | A.20 governs internal-constraint validity for its stated transformation-flow subjects and cases; A.21 governs gate decisions; A.15 governs system-role–Method–Work alignment. Authority claims retain their separate direct relations. An E.21 result may be cited only through the exact receiving relation and supplies none of these by itself. |
 | `E.11` and `I.2` | Govern entry-distribution and expanded entry-disambiguation cues; E.21 supplies only the scoped quality result. |
 

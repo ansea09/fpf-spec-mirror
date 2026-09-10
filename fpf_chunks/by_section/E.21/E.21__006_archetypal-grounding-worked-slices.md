@@ -6,12 +6,12 @@ section_id: "E.21:5"
 section_title: "Archetypal Grounding - worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__006_archetypal-grounding-worked-slices.md"
-commit_sha: "aa10af7e8221518114822d00bb9cf11e6c41f6b2"
+commit_sha: "ce6fcc3b99b10e42f4b258f84091355b2ee5ab24"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:5 — Archetypal Grounding - worked slices"
-line_start: 90124
-line_end: 90231
+line_start: 90131
+line_end: 90238
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -130,7 +130,7 @@ This is the ordinary path. The evaluator needed no dated-Work account or operati
 
 **Short architecture pattern.** A compact pattern has a triage form but no worked slice and no mature-pattern comparison. It can be useful as local expert reference material, but `MaturePatternParity...` and `CaseCountercase...` stay below exceptional until selected mature content is present.
 
-**Precision-restoration profile in a non-semio pattern.** A pattern tries to introduce a non-semio `EntityOfConcern` through a catalog of other claim kinds or objects outside its own subject. That catalog is unbounded because every EoC is outside infinitely many other EoCs. If copied boundary doctrine leads the Problem frame or Solution, `EntityOfConcernPrimacyAndSemioBiasResistance` falls to `2` or `3` even when every individual boundary is true. Lead with this pattern's own subject, first useful move, practitioner action, practical delta, and positive guidance. Add one local explanation, stop, or non-use boundary only when it passes F.19:4's full independent-ground, plausible-reader, contribution, and smallest-clear-correction test. Replace other copied doctrine with the relevant pattern ID and its concrete contribution. If the doctrine is distributed across sections, repair that distribution rather than only its sentences.
+**Precision-restoration profile in a non-semio pattern.** A pattern tries to introduce a non-semio `EntityOfConcern` through a catalog of other claim kinds or objects outside its own subject. Its membership rule—outside this pattern's subject—does not explain which distinctions the reader needs. If copied boundary doctrine leads the Problem frame or Solution, `EntityOfConcernPrimacyAndSemioBiasResistance` falls to `2` or `3` even when every individual boundary is true. Lead with this pattern's own subject, first useful move, practitioner action, practical delta, and positive guidance. Add one local explanation, stop, or non-use boundary only when it passes F.19:4's full independent-ground, plausible-reader, contribution, and smallest-clear-correction test. Replace other copied doctrine with the relevant pattern ID and its concrete contribution. If the doctrine is distributed across sections, repair that distribution rather than only its sentences.
 
 **Reference apparatus before Solution content.** A pattern's first Solution paragraph assigns other patterns or related-pattern mappings before it unfolds the ontology, method, norm, worked action, or other positive solution for the pattern of concern's own `EntityOfConcern`. Even if the related pattern id is correct, `PatternApplicationGuidance`, `EntityOfConcernPrimacyAndSemioBiasResistance`, `PracticalUseDeltaAndHarmPrevention`, and sometimes `NeighborAuthorityAndBoundedUseFit` fall. Move discoverability to README, ToC, `E.11`, `I.2`, or retrieval loci; put compact pattern references and their concrete contributions in `Relations` or a late boundary row; put architecture-placement rationale in a `DRR` or architecture document; and make the Solution answer “what do I do with this pattern's EoC?” first.
 
