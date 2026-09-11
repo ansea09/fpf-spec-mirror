@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:1"
 section_title: "Primary EntityOfConcern and applicability-row scope"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__007_primary-entityofconcern-and-applicability-row-scope.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:1 — Primary EntityOfConcern and applicability-row scope"
-line_start: 77962
-line_end: 77992
+line_start: 78117
+line_end: 78147
 dependencies:
   - "A.10"
   - "A.15.1"

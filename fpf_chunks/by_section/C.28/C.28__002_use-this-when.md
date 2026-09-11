@@ -6,12 +6,12 @@ section_id: "C.28:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__002_use-this-when.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:0 — Use This When"
-line_start: 57100
-line_end: 57180
+line_start: 57362
+line_end: 57441
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,11 +62,10 @@ Use `C.28` when a result is offered as support for a causal effect, intervention
 
 The cue opens a question, not a verdict. Ask what claim is being supported and what use of the evidence depends on that support.
 
-**Not this pattern when.** If no causal statement or causal evidential reliance is current, stay with the direct pattern: `C.16` for measurement, `C.27` for temporal change, `A.10` for an evidence path, `C.11` for choice, `C.19` for live-pool policy, `C.24` for call planning, `D.5` for bias or fairness audit, or `G.9` for ordinary parity.
+**Not this pattern when.** If the task only reports a measurement, temporal change or model output without causal reliance, continue with that direct task. Section :4.11 locates the relevant neighboring pattern when a return is needed.
 
-**Activation condition.** C.28 is needed when causal support changes the statement relied on by a downstream publication, choice, deployment, audit, assurance, policy evaluation, or benchmark. C.28 decides only the causal-support boundary. The downstream pattern still decides whether to publish, choose, deploy, certify, assure, or abstain.
 
-**Simulation boundary at entry.** A report that only describes simulator output and makes no causal use exits to ordinary model or simulation handling. Simulator output offered as support for an effect, counterfactual, policy, fairness, benchmark, or evidence claim stays in C.28 and must name the model, assumptions, validation, supported causal use, and unsupported use.
+**Simulation at entry.** “The simulator produced these traces” can finish as a model-output report. “These traces support what would happen under policy P” opens C.28: identify the model, assumptions, validation and the causal use they support.
 
 #### C.28:0.1 - What Goes Wrong If Missed
 
@@ -79,20 +78,21 @@ The cue opens a question, not a verdict. Ask what claim is being supported and w
 
 #### C.28:0.2 - What This Buys
 
-The cheap result states the question, rung, available support components, the common validity threat that matters now, the causal statement supported, the statement not supported, and the next useful step. Heavy profiles appear only when identification, estimation, counterfactual-sampling realizability, actual sampling evidence, transport, target-trial emulation, causal policy evaluation, representation learning, or fairness work is actually current.
+The first result is a supported statement with its limits and the next useful step. Section :4.0 locates additional support components by the question each answers; open a specialist profile only when its result is needed.
 
 #### C.28:0.3 - First-Minute Questions
 
-1. What exact causal-use question is being asked, and which claim-bearing episteme states it?
-2. Is the intended statement observational, interventional, or counterfactual?
-3. What is actually available: an evidence path and empirical data regime, an identification or bound result, an estimate, a prospective counterfactual-sampling realizability result, dated sampling Work plus resulting data, or a simulation result?
-4. Which common validity problem could overturn the use: intervention definition or consistency, time order, confounding, overlap, interference, selection or missingness, measurement, or transport?
-5. What causal statement or evidential reliance is supported now, and what stronger statement is not?
-6. Does the downstream pattern have enough basis to make its own decision, or should it abstain, downgrade, or request more evidence?
+1. What is the concrete claim, and what causal question must be answered to rely on it?
+2. Is the requested statement about an observed association, an intervention, or a counterfactual?
+3. What observations, experiments, model assumptions or derived results are available?
+4. Which live threat could overturn the conclusion: for example, confounding, time order, missing comparison cases, interference, measurement error or transfer to another population?
+5. What statement is supported under those conditions, and what further evidence or calculation would change it?
 
 #### C.28:0.4 - First Output
 
-The first output may be only this triage:
+**Ordinary first result.** Suppose the available comparison says that self-selected teams using method A completed more tasks than teams not using it, while task difficulty and prior team capability were not controlled. Report the observed association; the claim that A caused the improvement remains unsupported by that comparison. The next useful question is whether a design or existing evidence can distinguish the method's effect from those rival explanations.
+
+This sentence-level result can finish the task. When the triage must be reused, its local form is:
 
 ```text
 CausalUseTriageRecord:
@@ -107,7 +107,7 @@ CausalUseTriageRecord:
   nextCausalUseAction
 ```
 
-`supportedUse` means the causal statement or evidential reliance supported under the named limits. It is not a permission or command. `unsupportedUse` states the nearby stronger causal statement or reliance that the evidence does not support.
+`supportedUse` states the causal statement or evidential reliance supported under the named limits. `unsupportedUse` states the nearby stronger statement or reliance left unsupported by that evidence.
 
 ```text
 nextCausalUseAction =
@@ -128,5 +128,4 @@ nextCausalUseAction =
 
 Triage may be the final result when it blocks the overclaim and names the narrower statement. Do not open a durable object merely because a causal word appears.
 
-**Adjacent simulation examples.** “The simulator produced these traces” with no causal reliance returns `keepNonCausalSimulationUse`. “The simulated traces support what would happen under policy P” remains inside C.28 and needs `simulationResultRef`, model assumptions, validation, supported use, and unsupported use.
 

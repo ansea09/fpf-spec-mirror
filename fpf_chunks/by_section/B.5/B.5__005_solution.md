@@ -6,53 +6,115 @@ section_id: "B.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__005_solution.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:4 — Solution"
-line_start: 40979
-line_end: 41011
+line_start: 40954
+line_end: 41050
 dependencies:
   - "A.10"
-  - "B.4"
-  - "B.5"
+  - "B.5.1"
+  - "B.5.2"
+  - "B.5.4"
+  - "C.29"
 keywords:
-  - "Abduction-Deduction-Induction"
-  - "problem-solving"
-  - "reasoning"
-  - "scientific method"
 ---
 
-### B.5:4 - **Solution**
+### B.5:4 - Solution
 
-FPF establishes the **Abductive–Deductive–Inductive Loop** as its canonical reasoning cycle. This cycle gives formal primacy to **abduction** (hypothesis generation) as the engine of innovation, while using deduction and induction as the rigorous mechanisms for testing and refining those hypotheses.
+Choose reasoning by the result the current question needs. The abductive–deductive–inductive loop remains the canonical route for **hypothesis-led empirical inquiry**: propose a conjecture, derive consequences that make a test interpretable, and compare them with relevant observations. Construction, exploratory observation and question formation can precede, interrupt or follow that route. A mathematical inquiry may finish with a construction, counterexample or proof.
 
-Use the cycle for hypothesis-led inquiry: propose a conjecture, derive the consequences that make a test interpretable, then compare those consequences with relevant evidence. These are three distinct, sequential contributions to that inquiry. A sufficient bounded result can finish at an intermediate contribution; a new test or another iteration requires a live question and an obtainable, worthwhile contribution. Actual domain proof, validation and operational requirements continue to govern the uses that need them.
+#### B.5:4.1 - Form or recover the question
 
-#### B.5:4.1 - Abduction (Hypothesis Generation)
+Say what an answer would help someone understand, construct, explain, decide or investigate. An epistemic aim, such as exposing an obstruction or finding a more informative theory, can justify inquiry without an immediate product application. Recover an adequate existing answer before commissioning new work.
 
-*   **Core Question:** "What is the most plausible new explanation or solution?"
-*   **Description:** This is the creative, inventive leap. When faced with an anomaly, a design challenge, or an unanswered question, the first step is to propose a new `U.Episteme`—a new requirement, a new component, a new causal link—that *might* solve the problem. This act is not guaranteed to be correct; it is a conjecture. Publish the conjecture with its present supports, rivals, limitations and allowed use. Its abductive origin assigns no assurance level; B.3.3 governs any claim/use-specific assurance assignment. Abduction is the only phase that introduces genuinely novel ideas into the model. This formalizes the process described in the **Abductive Loop** (Pattern B.5.2).
+Separate the subject from its description, the intended result from a convenient proxy, and established premises from assumptions. Use ordinary language, a sketch or a small mathematical example at the precision needed to expose the difficulty.
 
-#### B.5:4.2 - Deduction (Consequence Derivation)
+When the current formulation is inadequate, vary a consequential element. Useful operations include:
 
-*   **Core Question:** "If this hypothesis is true, what logically follows?"
-*   **Description:** This is the phase of rigorous analysis. Given the new hypothesis, we use the formal models and calculi of FPF to deduce its logical consequences. What are its testable predictions? Does it create internal contradictions with other parts of the model? How does it propagate through the system? This phase can contribute **Verification Assurance (VA)** for a consequence under the stated premises. Deduction makes implications precise; it does not establish that the premises hold in the actual system. Use a formal-verifiability measure only with the bearer, scale and interpretation that the receiving assurance argument needs.
+- change the quantity or distinction that the answer must preserve;
+- restrict or widen a domain, scale, boundary or assumption;
+- construct a small case that defeats the current claim;
+- introduce a new object, relation, operation or representation and ask what it makes expressible;
+- ask what observation or argument would distinguish the remaining possibilities.
 
-#### B.5:4.3 - Induction (Empirical Evaluation)
+Keep a changed formulation when it changes the construction, evidence, explanation, comparison or next action.
 
-*   **Core Question:** "Do the predicted consequences match reality?"
-*   **Description:** This is the phase of testing and learning from evidence. The predictions derived in the deductive phase are compared against real-world data from experiments, simulations, or observations. This phase can contribute **Validation Assurance (LA)** when the data, measurement and test conditions support the receiving claim. A successful test may corroborate that claim within its coverage; a failed prediction can support revision or rejection. Judge the contribution through B.3 and B.3.3 instead of inferring greater reliability or a higher level merely from a test having passed. Reopen abduction when the result leaves an explanatory question that needs rival hypotheses.
+C.22.2 helps make a problem-side claim and its next use inspectable. C.29 helps when choosing a mathematical lens or its mapping is the live question. Use their supplied actions at those boundaries; an ordinary mathematical problem need not acquire a separate card.
 
-#### B.5:4.4 - **Didactic Note for Managers: The "Propose → Analyze → Test" Cycle**
->
-> The Abductive-Deductive-Inductive loop is not an abstract philosophical concept; it is the formal name for the problem-solving cycle that all successful R&D and engineering teams instinctively use.
->
-> | Phase | Simple Name | What Your Team Does | FPF's Contribution |
-> | :--- | :--- | :--- | :--- |
-> | **Abduction** | **Propose** | Brainstorms a new feature, architecture, or fix. | Provides the B.5.2 discipline for a qualified conjecture, its rivals and grounds. |
-| **Deduction** | **Analyze** | Thinks through the implications, runs simulations, checks for conflicts. | Provides models and logical arguments for inspectable consequences under stated premises. |
-| **Induction** | **Test** | Builds a prototype, runs A/B tests, gathers user feedback. | Connects observations to the tested predictions and the claims they actually support. |
->
-> By making this cycle explicit, FPF transforms problem-solving from a chaotic art into a repeatable, auditable science. It gives teams a shared map for navigating from an unknown problem to a validated solution.
+When you can follow a concept's explanation but cannot yet interpret the situation through it, use [B.5.4][fpf-b5-4-ref] to construct and test the correspondence. Return with the interpreted participants and relations, then choose the reasoning contribution the question needs.
+
+##### B.5:4.1.1 - Propose a first model
+
+
+When the situation has no usable model yet, begin with the contrast the answer must resolve. Inspect one case or the actual arrangement. Describe what happens and which proposed change or comparison matters. Separate observations from the explanation you are about to try.
+
+1. **Choose what must remain distinguishable.** Identify participants, states or quantities whose differences could change the answer. Use observed differences and possible interventions to propose a boundary: what can vary separately, what connects those parts, and what surrounding conditions affect them? Keep a distinction when you can explain its consequence for the question.
+2. **Propose how they are connected.** Draw or state a dependency and explain how it could produce the observed behavior. Use the relevant subject account to identify the interaction and what it preserves or changes. If that account is unfamiliar, use §4.3 to recover its concept of use. Mark the assumptions that let you omit other interactions or treat a quantity as fixed. For a physical model, use physical knowledge to choose the law that the mathematical account will express.
+3. **Obtain a cheap consequence.** Follow the proposed relation far enough to answer a useful part of the question. A direction of change, limiting case or rough bound may suffice before parameter fitting or detailed computation. Show which premise makes that consequence follow.
+4. **Challenge a consequential choice.** Ask what observation, omitted interaction or changed condition could defeat the answer. Compare a plausible alternative when the observations leave materially different explanations. Revise the model or obtain the missing observation when that difference matters.
+
+Return the provisional model and what follows under its assumptions. If a missing domain account or formal construction prevents the next contribution, use A.15.9 to request that specific help from the working description. Section 5.6 shows this entry before a heat-transfer calculation has been formulated.
+
+#### B.5:4.2 - Perform the contribution that is missing
+
+The following are common alternatives, not an exhaustive classification or a sequence to complete.
+
+| Missing result | Useful operation | What the result can establish |
+| --- | --- | --- |
+| An object, procedure or structure with desired properties | Construct it from stated elements and permitted operations; test examples and counterexamples; prove the relevant properties or expose the obstruction. | A construction, existence or impossibility result under its mathematical premises. |
+| A consequence or a mathematical justification | Make premises explicit and derive the consequence. Identify the step that carries the argument and the conditions on which it depends. | The implication or theorem within the stated domain and inference rules. |
+| An explanation of an anomaly, opportunity or probe result | Use B.5.2 to generate serious rival conjectures and compare their explanatory fit, constraints and prospects for criticism. | A qualified explanatory conjecture, with its grounds and unresolved rivals. |
+| A better description of an insufficiently understood phenomenon | Make a purposeful observation or exploratory measurement; vary a condition and inspect what becomes distinguishable. | Observations and possible regularities that can generate or change questions. |
+| An empirical consequence of a conjecture | Derive the expected contrast, obtain relevant observations and compare the actual result with it. | Bounded corroboration, a discrepancy or a qualified basis for rejecting or revising the claim. |
+
+Construction and deduction can work together: an auxiliary object can make a proof possible, and a theorem can suggest a new construction. Novelty does not belong exclusively to one inference type.
+
+For a hypothesis-led test, derive the consequences needed to interpret the test before treating its outcome as corroboration. Keep the prediction, observations, measurement conditions and inference recoverable. A simulation establishes a result of the simulated model; applying it to the physical target needs a supported model–world correspondence.
+
+An exploratory finding can supply a hypothesis. Its subsequent empirical assessment must account for how that hypothesis was obtained and for the dependence or selection involved. Use the domain's appropriate design and inference; merely relabeling the same data as a later test does not create independent evidence.
+
+A bounded result may be sufficient at any of these contributions. Assurance belongs to the particular claim and receiving use under B.3 and B.3.3, including the applicable domain proof or validation obligations.
+
+#### B.5:4.3 - Make the result understandable for its use
+
+Explain what was obtained, why the decisive step works, and where the result can be used. For a mathematical argument, recover the statement and domain, the construction or lemma doing the essential work, and a load-bearing assumption whose change would alter the answer. The needed depth depends on whether the receiver will apply, criticize, extend or teach the argument.
+
+When beginning with an unfamiliar theory, reconstruct its concept of use for one working question. State what the practitioner wants to explain, predict, construct or decide; which objects and relations the theory lets them describe; what information and operations the application needs; and how its result answers that question. Use a source application when it answers the question. Otherwise propose a small application from the theory's stated objects and operations, work it through and test the correspondence. Keep that constructed trial distinguishable from an application already supported by the source. The first result is a usable explanation of that application, or the particular missing premise or operation that prevents it. Use the intended application to choose what to learn next. Study the construction deeply enough to perform or change the contribution the work requires.
+
+To compare theories or ways of using them, ask the same question of each account. Preserve each source's meanings while comparing what is given, what operations are allowed and what answer follows. If the results differ, identify whether the difference comes from the question, assumptions, mathematical structure, inference or proposed physical mechanism. If one account answers a different question, state that complementary use. Choose or change an account for the distinction the receiving work needs. Use C.29 for a proposed mathematical-lens transfer or local candidate choice; domain prediction and intervention claims still need their applicable Methods and evidence.
+
+When the correspondence between a formal account and its intended use is the difficulty, reconstruct one small instance. Name the variables and their domains, the given inputs, the assumptions and permitted operations, and the statement the calculation or proof establishes. Relate the decisive quantities and conditions to the intended use. A source's worked case can supply this reconstruction; recover the omitted step if the receiver cannot yet carry it out.
+
+Challenge the correspondence with a case that could change the answer. Look for a formally admissible answer that the intended use excludes, or two situations identified by the representation that require different answers. If this exposes a mismatch, repair the domain, constraint, quantity or correspondence, or use the existing result for a weaker question that it does answer. A relaxation can remain useful as a bound even when its optimizer cannot be enacted. The worked case below makes both uses explicit.
+
+For a physical application, connect the mathematical objects and quantities to the phenomenon, measurement and operating conditions. Ask which approximation, omitted interaction, scale or uncertainty could change the conclusion. A rigorous derivation from a model and evidence that the model applies answer different questions.
+
+Use the explanation to test the formulation: does the result answer the intended question, or only the conveniently formalized one? If a distinction was lost, determine whether the use can tolerate that loss, whether a bound suffices, or whether another representation is needed.
+
+#### B.5:4.4 - Settle the question or change the next inquiry
+
+Return the result at its supported scope. Stop when it answers the current use. Continue only for a remaining question whose possible answers could change understanding or action and whose investigation is worthwhile under the available conditions. Account for the effort of learning, obtaining, explaining, checking and maintaining the result as well as calculation cost.
+
+When the result exposes a limitation, identify what must change:
+
+- **The answer or construction for the same question:** repair it or investigate a serious alternative.
+- **The formulation:** revise the target, assumptions or boundary and state which earlier results still apply.
+- **The available Methods or ways of constructing candidates:** compare retaining, modifying or extending that repertoire. E.23 supplies improvement under an appropriate evaluation; C.18 applies when generation rules, retained alternatives or the effective space of possibilities are the question.
+- **A participant's ability to contribute:** distinguish the capability question from missing access or support; use E.23.CAE and E.23.CDI where their conditions hold.
+
+Use E.10.DEV if “development” hides the intended subject and C.36 for an actual cultural-generation, transmission or selection question.
+
+Retain a construction or unresolved alternative when a named future inquiry makes keeping it worthwhile. C.17 can characterize novelty, value and diversity on a declared basis; C.18 distinguishes the archive from a comparison front and a new point from a change in admissible possibilities.
+
+#### B.5:4.5 - Organize human and AI contributions around the work
+
+Calculation, conjecture, proof, explanation, criticism and question formation may be performed with different combinations of people, AI and other tools. Choose that allocation from their actual capabilities, available support, constraints and the evidence needed for the receiving use. Revisit it when those conditions change.
+
+When the question depends on a result from another practice, use [A.15.9][fpf-a15-9-ref] to use the available answer or select a worthwhile missing contribution. State the working question, available inputs, result needed and intended use in terms the receiver can check. If the formal formulation is itself missing, ask the mathematician, physicist or supported AI for that formulation and its correspondence to the working question.
+
+For an engineer, derive the needed capability from representative later work: what must this person be able to understand, ask, construct, criticize or arrange with the assistance that will actually be available? The answer can include interpreting a proof's central idea or recognizing that a measured proxy omits the intended quantity, even when a tool performs most calculations. It can also justify deeper mathematical study when constructing or modifying the theory is the required contribution.
+
+When assessing that capability, use representative work under the declared support and inspect the person's relevant contribution. A completed AI-assisted report alone leaves that contribution underdetermined.
 

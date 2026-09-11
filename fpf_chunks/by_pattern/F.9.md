@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
-line_start: 96364
-line_end: 96955
+line_start: 96544
+line_end: 97135
 dependencies:
   - "A.10"
   - "A.13"

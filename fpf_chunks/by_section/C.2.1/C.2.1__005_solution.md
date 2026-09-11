@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:4 — Solution"
-line_start: 42104
-line_end: 42392
+line_start: 42350
+line_end: 42638
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -54,9 +54,9 @@ keywords:
 
 ### C.2.1:4 - Solution
 
-Identify each `U.Episteme` through `EpistemeConstitutionRelation`: first state what it says, what exact entity it concerns, and the scheme under which those claims are read. Then name what the reader will do with that episteme. Add a neighboring relation only when the reader's next sentence or action requires it. Keep declaration epistemes, assertions, descriptions, names, references, publication occurrences, publication forms, carriers, and representations distinct under their direct patterns.
+Identify each `U.Episteme` through `EpistemeConstitutionRelation`: first state what it says, what exact entity it concerns, and the scheme under which those claims are read. Then name what the reader will do with that episteme. Add a neighboring relation only when the reader's next sentence or action requires it. The conditional branches below supply the relevant direct relation and its test.
 
-**Local episteme mantra.** *Name the claims, what they concern, and the scheme that gives those claims their reference. Stop if identity is all the task needs. Otherwise name the concrete receiving use and add only the neighboring object or relation needed for its next sentence or action. Ask for an unresolved question only in a real inquiry or decision. Update episteme identity only when claim content, EntityOfConcern, or effective reference scheme changes; otherwise update the affected neighboring relation, publication occurrence, publication form, or carrier under its direct pattern.*
+**Local episteme mantra.** *Name the claims, what they concern, and the scheme that gives those claims their reference. Stop if identity is all the task needs. Otherwise name the concrete receiving use and add only the neighboring object or relation needed for its next sentence or action. Ask for an unresolved question only in a real inquiry or decision. Update episteme identity only when claim content, EntityOfConcern, or effective reference scheme changes; otherwise update the affected relation or object under its direct pattern.*
 
 The mantra is a recall aid, not a work plan. The application method and stop conditions are carried by sections 4.1-4.9; section 4.10 is a later reference for relation and neighboring-object distinctions.
 
@@ -70,7 +70,7 @@ Begin with the three questions that identify the episteme. They are identity que
 | What exact entity do those claims concern? | one identified `U.Entity` participating as the EntityOfConcern |
 | Under which designation and interpretation rules are the claims read, and, where the claims use them, which measurement, comparison, or evaluation rules apply? | the effective `U.ReferenceScheme` |
 
-If the task needs only the episteme's identity—for example, to cite, catalogue, compare, teach, or reconstruct it—stop after the three answers. Otherwise state the concrete receiving use. Ask for an unresolved uncertainty or choice only when that use is a real inquiry or decision; comparison, preservation, teaching, and publication need no invented decision question.
+If the task needs only the episteme's identity, stop after the three answers. Otherwise state the concrete receiving use. Ask for an unresolved uncertainty or choice only when that use is a real inquiry or decision.
 
 Open a row below only when its first column names the reader's next sentence or action. Each positive answer adds an independently governed object or direct relation; none adds another slot or identity discriminator to the episteme.
 
@@ -90,9 +90,10 @@ Open a row below only when its first column names the reader's next sentence or 
 | A decision or evaluation will accept, reject, or withhold reliance because of evidence. | the exact evidence-use relation; evidence storage alone is insufficient | `A.10` for ordinary evidence reliance; `B.3` only for an actual named assurance claim |
 | Reviewers must inspect or revise a classification judgment as an independent claim-bearing object. | one classification assertion episteme about the exact candidate, plus the exact governing criterion | C.2.1:4.2.3 with `A.1` or `C.3.2`; `E.24.UK` only for public U-kind admission |
 | A reader must assert that a later episteme revises, refines, or supersedes an earlier one. | one exact `EpistemeEditionRelation` occurrence | C.2.1:4.5 |
+| An account must assert that particular Work occurred. | identify the actual performer and admit the dated Work independently; if the account also attributes it to an assignment, test that attribution separately | `A.13` and `A.15.1`; `F.6` only for the stated attribution |
 | A publisher must make one selected episteme edition available to a declared audience for a bounded use. | the publication occurrence, publication form, and `U.PresentationCarrier` as distinct objects | `E.17` and `E.24.PUB` |
-| A user will calculate, infer, navigate, or inspect through a notation, diagram, mathematical structure, or tool representation whose available operations matter. | the exact C.29 representation, correspondence, representation scheme, and any current transition relation | `C.29` and the selected representation-transition pattern |
-| One receiving System must select, decline, or co-use candidate results of different kinds as representations for the same exact action or decision. | one C.37 use-bounded representation-selection account; keep each direct subject result, optional A.2.4 first-use classification, A.10 reliance path when material, and receiving result separately governed | `C.37`; the direct subject and receiving-result patterns remain authoritative |
+| A user will calculate, infer, navigate, or inspect through a representation whose available operations matter. | the representation scheme, operations and correspondence needed for that use | the applicable representation pattern; `A.6.3.RT` for a same-EntityOfConcern transition; `C.29` only for an unresolved mathematical-lens choice, transfer or reliance question |
+| One receiving System must select, decline, or co-use candidate results of different kinds as representations for the same exact action or decision. | one C.37 use-bounded representation-selection account; keep each direct subject result, optional A.2.4 first-use classification, A.10 reliance path when material, and receiving result separately governed | `C.37` |
 
 
 Stop when no row describes the next sentence or action. A readable sentence naming the claims, EntityOfConcern, and effective reference scheme is then enough. Do not complete the table as a record. Use section 4.10 only when a later sentence or action actually needs the full relation and neighboring-object reference.
@@ -145,7 +146,7 @@ The SlotKinds belong only to this declaration. An actual claim graph, EntityOfCo
 
 `EpistemeConstitutionRelation` obtains exactly when the effective reference scheme supplies a coherent designation and interpretation of the claim graph as claims about the exact EntityOfConcern, and the three participants are constitutively organized as one claim-bearing whole whose claims can in principle be evaluated under that scheme. Merely placing three designations in a card does not make the relation obtain.
 
-The relation occurrence is participant-determined by the exact `<ClaimGraph, EntityOfConcern, ReferenceScheme>` triple. The same triple cannot constitute two distinct `U.Episteme` instances under the shared C.2.1 identity rule. Recognition of that individual as a dependent episteme kind adds a membership judgment under the dependent kind's subject pattern, not another constitution occurrence or discriminator. A tuple may represent the triple under `C.29`, but tuple order and storage keys contribute nothing to identity.
+The relation occurrence is participant-determined by the exact `<ClaimGraph, EntityOfConcern, ReferenceScheme>` triple. The same triple cannot constitute two distinct `U.Episteme` instances under the shared C.2.1 identity rule. Recognition of that individual as a dependent episteme kind adds a membership judgment under the dependent kind's subject pattern, not another constitution occurrence or discriminator. A tuple may represent the triple, but tuple order and storage keys contribute nothing to identity.
 
 The episteme and the relation occurrence are not identical. The relation is the obtaining organization among the three participants. The episteme is the knowledge holon constructively identified through that organization and its whole-level claim-bearing characteristic.
 
@@ -232,10 +233,10 @@ The grounding holon need not be identical to the EntityOfConcern. One method-des
 | view | the same episteme individual recognized as `U.View` when an exact `EpistemeViewpointConformanceRelation` to at least one exact viewpoint episteme obtains | conformance, source-to-receiving construction, current-use selection, publication, form, and carrier remain different relations or objects |
 | bounded model use | optional relation to one `BoundedModelUseStructure : U.Structure` under A.1.1 | model-use organization can qualify interpretation without becoming a universal identity component |
 | justification structure | exact `JustificationGraph` content | a justification structure organizes inferential dependencies without becoming claim content |
-| evidence use or assurance for a claim | for ordinary bounded reliance, the exact A.10 evidence-provenance relation and local `RelianceDisposition`; when an actual named assurance claim is current, the exact B.3 `AssuranceResult` or its non-positive disposition | evidence and assurance can support, narrow, or stop use without changing episteme identity or making the EntityOfConcern obtain; consequence alone creates no B.3 claim |
+| evidence use or assurance for a claim | for ordinary bounded reliance, the exact A.10 evidence-provenance relation and local `RelianceDisposition`; when an actual named assurance claim is current, the exact B.3 `AssuranceResult` or its non-positive disposition | evidence and assurance can support, narrow, or stop reliance on the claim while the episteme's identity remains fixed |
 | publication | exact publication occurrence and publication form under E.17 and E.24.PUB | making an edition available does not constitute or reidentify it |
 | presentation carrier | any exact `U.PresentationCarrier` under E.17 and E.24.PUB | bearing a publication form or rendered expression does not constitute or reidentify the episteme |
-| representation and admissible operations | representation scheme currently used for the exact represented episteme, its selected elements, and the C.29 correspondence or transition relations | a change of scheme or admitted operations can change the available work without becoming the represented ontology |
+| representation and admissible operations | the representation scheme, selected elements and operations used for the represented episteme, with any required correspondence or transition governed through :4.0 | a change of scheme or admitted operations can change the available work |
 
 Names ending in `Slot` are admissible here only as SlotKinds inside the exact `RelationSignature` governed by the neighboring direct relation pattern. A card or other episteme form carries participant designations in ordinary fields; it does not acquire SlotKinds by using similar field labels. None of those neighboring SlotSpecs belongs to `EpistemeConstitutionRelationSignature`.
 
@@ -275,17 +276,16 @@ When a card or other form designates the participants of one direct relation, it
 
 In a relational assertion, the claim graph designates the actual participants and states affirmative or negative polarity for the direct predicate. The direct pattern defines that predicate and the occurrence-identity rule; current case facts determine whether the predicate is satisfied or failed. A forecast, scenario, counterfactual, permission, or another claim family names its exact direct governor rather than using one common catch-all field. Only when an explicit reliance judgment is current for the declared use does `A.10` or the receiving evaluation separately state supported, refuted, or unresolved reliance. An affirmative assertion may designate an occurrence only after the case facts satisfy the predicate and the direct identity rule individuates that occurrence; a negative assertion creates no failed world-side occurrence. In a relation-occurrence description episteme, the EntityOfConcern is that exact already individuated occurrence. The assertion and description retain their own C.2.1 identities. Their forms do not by themselves supply case facts or the occurrence-identity rule, or establish obtaining; evidence supporting the case conclusion and any constitutive contribution are governed separately by the relevant evidence and direct-relation rules.
 
-Keep the direct verbs with their objects. A designator designates an already recoverable referent. A governed reference resolves to that referent under an effective reference scheme. An assertion or description episteme carries claims and participant designations. A C.29 representation stands in an explicit correspondence to what it represents. A publication occurrence makes a selected episteme edition available; a publication form expresses that edition for the use; a presentation carrier bears the form.
+A designator designates an already recoverable referent. A governed reference resolves to that referent under an effective reference scheme.
 
-Plain **published episteme** means one already identified `U.Episteme` that currently participates as the selected edition in an exact publication occurrence. It is a contingent publication use, not a durable `U.EpistemePublication` kind and not a second identity for the episteme. The episteme keeps the same C.2.1 identity before, during, and after that availability relation.
+For publication, `E.17` and `E.24.PUB` govern the occurrence that makes a selected edition available to a declared audience for a bounded use, the form that expresses it, and the `U.PresentationCarrier` that bears the form. Plain **published episteme** names the episteme's contingent participation in that occurrence. Its C.2.1 identity stays fixed before, during and after that availability relation.
 
-A publication occurrence makes one selected episteme edition available to a declared audience for a declared bounded use. A publication form expresses that edition for the publication use. A `U.PresentationCarrier` bears the form. These are three different direct relations governed by `E.17` and `E.24.PUB`; an assertion that any one obtains is a separate episteme. C.2.1 governs the identity of the selected `U.Episteme`; it does not replace the participants, predicates, or occurrence rules of those publication relations.
 
 One completed inspection card shows why the distinctions matter. Its filled claims can identify one episteme; its reusable layout can be a publication form; its paper sheet or file can be a presentation carrier; and a publication occurrence can make the selected card episteme edition available to the maintenance team. None of those uses makes the others identical.
 
-When rendering is current, a system performs rendering work and the exact work-participation, transformation, or A.6.1 binding current in that case relates the work to its affected entities. Rendering work, rendered entity, publication occurrence, form, carrier, and episteme retain their own identities. Republishing unchanged claims with another form or carrier creates no new episteme edition; changed claim content, subject, or effective scheme identifies another episteme without requiring a claim about when any entity first existed.
+Republishing the same claims about the same subject under the same effective scheme with another form or carrier preserves the episteme. Changed claim content, subject or effective scheme identifies another episteme. If the account also needs the rendering Work, use the conditional Work branch in :4.0.
 
-Under `C.29`, a tuple can represent the identity triple and a graph or hypergraph can represent claim, justification, dependency, or relation structure. `U.ClaimGraph` and `JustificationGraph` remain graph-valued epistemic structures. Their nodes and edges remain representation elements. An explicit correspondence can relate one selected representation element to an independently recovered object, but it neither identifies the two nor makes the representation element a participant of the represented direct relation.
+A tuple can represent the identity triple and a graph or hypergraph can represent claim, justification, dependency, or relation structure. Use `C.29` for an unresolved mathematical-lens choice, transfer or reliance question. `U.ClaimGraph` and `JustificationGraph` remain graph-valued epistemic structures. Their nodes and edges remain representation elements. An explicit correspondence can relate one selected representation element to an independently recovered object, but it neither identifies the two nor makes the representation element a participant of the represented direct relation.
 
 #### C.2.1:4.7 - Preserve description and meta-description recursion
 
@@ -307,7 +307,7 @@ Description and specification use remain distinct. A Description episteme is adm
 | claim scope changes | update the exact `U.ClaimScope` and its A.2.6 membership semantics; do not infer another episteme automatically |
 | selected bounded model-use or multi-view structure changes | update the exact collection or structure relation and re-evaluate affected interpretation claims; do not infer another episteme or view family automatically |
 | publication form, carrier, rendering, audience, bounded use, or publication occurrence changes | establish the exact E.24.PUB change only; publication is not view membership or episteme succession |
-| mathematical or tool representation changes | apply C.29 and the selected representation-transition relation |
+| mathematical or tool representation changes | use `A.6.3.RT` for a same-EntityOfConcern representation transition, or the applicable direct transition pattern for another transition; use `C.29` only for an unresolved mathematical-lens choice, transfer or reliance question |
 
 #### C.2.1:4.9 - Hand episteme transformations to their subject patterns
 
@@ -315,7 +315,7 @@ Description and specification use remain distinct. A Description episteme is adm
 
 A.6.2-A.6.4 define episteme-to-episteme morphing, source-to-receiving viewing construction, and retargeting. Identify every source and receiving episteme independently under C.2.1 before testing the exact transformation relation. Each transformation pattern states which identity discriminator is preserved or changed and names the exact correspondence, reinterpretation, or retargeting relation on which it relies. When a possible Bridge between exact F.17 cells is current, use F.9 to test whether that relation obtains. If the morphism relies on that Bridge for a proposed use, state a separate C.2.1 assertion with the Bridge as EntityOfConcern and `<u,d,r,t>` plus polarity in its ClaimGraph, then use A.10 for ordinary evidence reliance or B.3 only when an actual named assurance claim is current; none of those facts makes the morphism application occur. Categorical function, mapping, or tuple notation creates no direct relation occurrence.
 
-For an A.6.3 source-to-receiving viewing construction, the two identified epistemes may retain the same EntityOfConcern while claim content or effective scheme is restricted. `E.17.0` alone judges whether the receiving episteme conforms to an exact viewpoint and therefore has dependent `U.View` membership. Direct authoring or query generation can yield a candidate episteme without an A.6.3 construction, and neither route creates a multi-view family. For retargeting, the EntityOfConcern changes and the case names the exact domain correspondence, retargeting rule, or relation on which it relies. An F.9 Bridge is additional only when the case separately asserts a semantic relation between exact F.17 local senses from different semantic contexts and the F.9 predicate obtains. For a representation transition, the represented episteme may remain unchanged while the C.29 representation scheme and admitted operations change.
+For an A.6.3 source-to-receiving viewing construction, the two identified epistemes may retain the same EntityOfConcern while claim content or effective scheme is restricted. `E.17.0` alone judges whether the receiving episteme conforms to an exact viewpoint and therefore has dependent `U.View` membership. Direct authoring or query generation can yield a candidate episteme without an A.6.3 construction, and neither route creates a multi-view family. For retargeting, the EntityOfConcern changes and the case names the exact domain correspondence, retargeting rule, or relation on which it relies. An F.9 Bridge is additional only when the case separately asserts a semantic relation between exact F.17 local senses from different semantic contexts and the F.9 predicate obtains. For a same-EntityOfConcern representation transition, use A.6.3.RT; the represented episteme may remain unchanged while the representation scheme and admitted operations change.
 
 #### C.2.1:4.10 - Relation and neighboring-object reference
 
@@ -337,7 +337,7 @@ For an A.6.3 source-to-receiving viewing construction, the two identified episte
 | publication occurrence | the occurrence that makes one selected episteme edition available to a declared audience for a declared bounded use | `E.17` and `E.24.PUB` |
 | publication form | the arrangement, notation, or rendering convention that expresses the selected episteme edition for that publication use | `E.17` and `E.24.PUB` |
 | `U.PresentationCarrier` | the exact physical or digital carrier that bears the publication form | `E.17` and `E.24.PUB` |
-| mathematical representation | a C.29 representation used for an explicit modeling or reasoning purpose | `C.29` |
+| mathematical representation | a mathematical representation used for the stated modeling or reasoning purpose | the applicable mathematical or representation pattern; `C.29` only for an unresolved mathematical-lens question |
 
 This reference table keeps the neighboring objects and relations visible after the application method. Ordinary prose names only the current object and its direct relation. A sentence such as “Model M concerns Pump P under Scheme S” is sufficient until another use needs explicit empirical grounding, a classification assertion, occurrence identity, edition continuity, publication, or representation correspondence.
 

@@ -6,12 +6,12 @@ section_id: "C.19.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__005_forces.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:3 — Forces"
-line_start: 51469
-line_end: 51478
+line_start: 51731
+line_end: 51740
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -22,6 +22,8 @@ dependencies:
   - "C.19.1"
   - "C.22.1"
   - "C.31.ASAP"
+  - "C.39"
+  - "C.40"
   - "E.23"
 keywords:
   - "configuration or adaptation work"

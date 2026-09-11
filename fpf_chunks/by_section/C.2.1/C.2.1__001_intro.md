@@ -6,12 +6,12 @@ section_id: "C.2.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__001_intro.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:intro — Intro"
-line_start: 42020
-line_end: 42057
+line_start: 42290
+line_end: 42313
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -60,33 +60,19 @@ keywords:
 
 **Plain name.** Episteme constitution.
 
-**Mint or reuse.** This pattern reuses `U.Episteme`, `U.ClaimGraph`, `U.Entity`, `U.ReferenceScheme`, `U.Holon`, `U.Signature`, `RelationSignature`, and `SlotSpec`. It introduces the direct relation names `EpistemeConstitutionRelation`, `EpistemeEmpiricalGroundingRelation`, and `EpistemeEditionRelation`. It also defines the reusable non-entity value `C.2.1 ClaimAddress` for one intrinsically identified claim inside one exact episteme edition and states the `U.EpistemeRef` resolution rule it consumes. Each named `...RelationSignature` below is the relation-facing use of one declaration episteme for which the `A.6.0` membership predicate obtains; `A.6.0` therefore recognizes that same individual as a `U.Signature`, not as another identity. The signature-local SlotKinds named below identify participant meanings only inside their stated signatures. An episteme itself has no slots, and repeated slot spelling in another signature establishes no shared SlotKind by spelling alone.
+**Use this pattern when.** You need to identify or compare a body of knowledge: what it claims, the exact entity those claims concern, and the rules under which they are interpreted. A pump specification with a changed pressure threshold carries different claims. Publishing the same claims about the same pump under the same interpretation in another file preserves the episteme.
 
-**One-line summary.** A `U.Episteme` is a knowledge holon identified by exact claim content, one exact EntityOfConcern, and the effective `U.ReferenceScheme` that makes those claims interpretable as claims about that entity. `EpistemeConstitutionRelation` is the core direct relation of the episteme ontic. Empirical grounding, viewpoint, view, scope, model use, edition succession, description, publication, carrier, and mathematical representation remain neighboring objects and relations.
+**First useful move.** Ask: what is claimed; what exact entity are the claims about; and what designation and interpretation rules make those claims readable about that entity? Include measurement, comparison or evaluation rules where the claims use them. If identity is all the task needs, stop after those answers. Otherwise name the concrete receiving use and open only the corresponding branch in :4.0. An unresolved uncertainty or choice is needed only when the use involves a real inquiry or decision.
 
-**Use this pattern when.** Use C.2.1 when one body of claims about one exact subject, interpreted under one effective reference scheme, must be identified or compared. In ordinary words, identify what this body of knowledge says, what it says about, and which shared rules make that saying interpretable.
+**One-line summary.** A `U.Episteme` is a knowledge holon identified by exact claim content, one exact EntityOfConcern, and the effective `U.ReferenceScheme` that makes the claims interpretable about that entity. Changing any of these three discriminators identifies another episteme.
 
-Changed claims, a changed subject, or a changed interpretation identify another episteme. Changed empirical grounding, viewpoint or view use, publication, form, carrier, or representation can leave the episteme unchanged; update the neighboring object or relation that actually changed.
+**Primary working reader and viewpoint.** The engineer or researcher comparing, revising, teaching, grounding or publishing that knowledge object. The working concern is to reidentify it through those uses and locate a change when it occurs.
 
-A theory, model, specification, proof, or diagnosis can therefore be an episteme when the selected object is that claim-bearing whole. A diagram or dashboard has two branches: use C.2.1 when the selected claim-bearing whole satisfies the constitution test above; when the current object is instead its layout, file, display, or correspondence to something else, treat it as a publication form, carrier, or C.29 representation rather than as the episteme.
+**Primary governed object and architecture.** One `U.Episteme` and its `EpistemeConstitutionRelation`, `EpistemeEmpiricalGroundingRelation` and `EpistemeEditionRelation`. The EntityOfConcern of the episteme is the entity its claims concern; for a pump specification, it is the pump, while C.2.1 governs the specification's identity.
 
-**Primary working reader.** An engineer or researcher who needs to identify a knowledge object and use it without mistaking its subject, file, view, evidence, or publication for that knowledge object.
+**What goes wrong if missed.** A shared filename hides changed claims, subject or interpretation; or a changed display is reported as a changed model. **What this buys.** The practitioner can identify the changed knowledge object or update only the relation affected by a new grounding, view or publication use.
 
-**Primary working concern.** Keep one claim-bearing object reidentifiable through empirical grounding, viewing, revision, and publication, and detect when changed claims, subject, or interpretation identify another episteme.
+A theory, model, specification, proof or diagnosis can be an episteme when the selected object is that claim-bearing whole. A diagram can carry such claims too. When the task concerns its layout or the calculations available through its notation, use the publication or representation branch in :4.0.
 
-**Primary viewpoint.** The practitioner using, comparing, revising, or publishing that knowledge object while keeping its identity and neighboring relations distinct.
-
-**Primary governed object.** One `U.Episteme`: the claim-bearing knowledge holon being identified or compared.
-
-**Architecture in scope.** C.2.1 also governs that episteme's `EpistemeConstitutionRelation`, `EpistemeEmpiricalGroundingRelation`, and `EpistemeEditionRelation`; it coordinates with the subject patterns of viewpoint, view, scope, model use, description, publication, form, carrier, and representation.
-
-**Terminology guard.** The EntityOfConcern **of an episteme** is the exact entity its claims concern. It is not the same field as the primary governed object **of this pattern**.
-
-**First useful move.** Ask three ordinary questions: what is claimed, what exact entity are the claims about, and what designation and interpretation rules make those claims readable about that entity? Where the claims use measurement, comparison, or evaluation rules, name those applicable rules too. Those answers identify the episteme. If identity is all the task needs, stop there. Otherwise name the concrete receiving use—such as comparison, preservation, teaching, publication, inquiry, or decision—and add only the neighboring object or direct relation needed for its next visible sentence or action. Name an unresolved uncertainty or choice only when a real inquiry or decision has one.
-
-**What goes wrong if missed.** A file or diagram becomes "the model"; a subject label drifts while the same episteme name is retained; the holon through which claims are empirically inspected, or the viewpoint from which claims are selected, is copied into episteme identity without justification; or a revised publication is mistaken for a changed knowledge object.
-
-**What this buys.** Epistemes can be compared, revised, grounded, viewed, published, and used recursively while ordinary prose stays short. The complete distinction among the episteme, its direct relations, and their assertion, publication, and representation objects remains recoverable without making users restate every object for every claim.
-
-**Not this pattern when.** Use the direct subject pattern when the current question concerns the system, work, method, relation occurrence, or other entity described by an episteme. Use `A.1` for constructive recognition of a candidate under an admitted holon kind, `C.3.2` for a local-kind membership judgment, and `E.24.UK` for FPF U-kind admission. Use `E.17` and `E.24.PUB` for publication, `A.10` and `B.3` for evidence or assurance, `C.29` for a mathematical representation, and `E.10`, `C.2.P`, or `F.18` for precision restoration or naming. C.2.1 governs episteme identity, including the identity of a separately current classification assertion.
+**Not this pattern when.** To inspect or change the pump, perform work, or apply a method, use that subject's direct pattern. Open C.2.1 when the identity of the claims describing it matters. A separately inspected classification assertion has its own claim content, subject and scheme; its governing criterion remains under `A.1` or `C.3.2`, with `E.24.UK` used for public U-kind admission.
 

@@ -6,12 +6,12 @@ section_id: "F.0.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__010_consequences.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
   - "F.0.2:9 — Consequences"
-line_start: 93889
-line_end: 93903
+line_start: 94065
+line_end: 94079
 dependencies:
   - "A.2.4"
   - "C.2.1"

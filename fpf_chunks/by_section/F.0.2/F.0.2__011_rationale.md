@@ -6,12 +6,12 @@ section_id: "F.0.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__011_rationale.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
   - "F.0.2:10 — Rationale"
-line_start: 93904
-line_end: 93909
+line_start: 94080
+line_end: 94085
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -34,5 +34,5 @@ keywords:
 
 Conceptual synthesis is the middle move between preserving local meaning and publishing a unified term or subject-pattern contribution. It cannot be reduced to lexical alignment because a correspondence does not decide what the receiving framework should claim. It cannot be reduced to literature review because a source inventory does not state the practitioner action. It should not require a full `G.2` pack because many authoring decisions need only one bounded comparison.
 
-The three result branches keep the method constructive without forcing agreement. A provisional synthesis opens a positive contribution, a contrast preserves a decision-relevant difference, and an unresolved inquiry turns a real source limitation into a defined next action. Ordinary `C.2.1` claim identity keeps those results separately revisable without introducing a `ConceptualSynthesisAccount` kind or making their carrier ontological.
+The three result branches keep the method constructive without forcing agreement. A provisional synthesis opens a positive contribution, a contrast preserves a decision-relevant difference, and an unresolved inquiry turns a real source limitation into a defined next action. Ordinary `C.2.1` claim identity keeps those results separately revisable.
 

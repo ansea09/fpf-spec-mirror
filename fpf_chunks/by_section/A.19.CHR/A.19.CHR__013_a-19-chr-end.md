@@ -6,12 +6,12 @@ section_id: "A.19.CHR:End"
 section_title: "A.19.CHR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__013_a-19-chr-end.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:End — A.19.CHR:End"
-line_start: 32863
-line_end: 32864
+line_start: 32829
+line_end: 32830
 dependencies:
   - "A.15.3"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "A.16.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__001_intro.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:intro — Intro"
-line_start: 29334
-line_end: 29341
+line_start: 29300
+line_end: 29307
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,30 +6,24 @@ section_id: "B.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__003_problem.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:2 — Problem"
-line_start: 40960
-line_end: 40969
+line_start: 40938
+line_end: 40943
 dependencies:
   - "A.10"
-  - "B.4"
-  - "B.5"
+  - "B.5.1"
+  - "B.5.2"
+  - "B.5.4"
+  - "C.29"
 keywords:
-  - "Abduction-Deduction-Induction"
-  - "problem-solving"
-  - "reasoning"
-  - "scientific method"
 ---
 
-### B.5:2 - **Problem**
+### B.5:2 - Problem
 
-Without a formal, shared reasoning cycle, teams and individuals fall into predictable cognitive traps that stall progress and hide risks:
+A hypothesis-led inquiry has a productive structure: propose an explanation, derive consequences and compare them with observations. Trouble begins when this structure is made the only permissible form of reasoning. Constructing a mathematical object, finding a counterexample, exploring a phenomenon or discovering that the intended quantity is not recoverable can change the question before an explanatory hypothesis is appropriate.
 
-1.  **Analysis Paralysis:** Teams get stuck endlessly debating existing assumptions, running deductions within a closed world of known facts without a mechanism to introduce genuinely new ideas.
-2.  **Blind Empiricism:** Teams engage in unstructured, expensive trial-and-error, running tests and gathering data (induction) without a clear, falsifiable hypothesis to guide their efforts.
-3.  **Innovation Gap:** In the face of a problem where existing knowledge is insufficient, there is no formal "permission" or process to generate a creative, plausible guess—the essential first step of any breakthrough.
-
-These pathologies lead to wasted resources, circular debates, and a failure to solve the very problems that require first-principles thinking.
+A second difficulty survives even when result production becomes cheap. More proofs, simulations or candidate designs do not by themselves say which questions matter, what an argument explains, or which construction should be developed. The inquiry needs ways to inspect and change its own formulation and repertoire while retaining adequate results.
 

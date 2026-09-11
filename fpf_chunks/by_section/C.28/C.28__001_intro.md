@@ -6,12 +6,12 @@ section_id: "C.28:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__001_intro.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:intro — Intro"
-line_start: 57086
-line_end: 57099
+line_start: 57348
+line_end: 57361
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 
 **Intent.** Help a practitioner decide what a causal-looking claim is supported to say, under which limits, and which narrower statement remains when the support is insufficient.
 
-**Primary EntityOfConcern.** One exact causal-use question. The claim, estimand or contrast, evidence paths, identification result, estimate, sampling-realizability result, performed sampling and resulting data, simulation result, support result, and downstream decision remain separately identified.
+**Primary EntityOfConcern.** The causal-use question raised by a concrete claim: what would change under an intervention, what explains an observed difference, or what can be said about a counterfactual.
 
-**Not a physical ontology.** This pattern does not define causation in the world or replace domain science. It supplies a practical interface for using causal evidence and models without promoting association, simulation, or a graph label into a stronger causal claim.
+**Scope.** Use the domain's causal models, intervention and outcome definitions, and scientific evidence to determine which statement is supported and under which limits.
 

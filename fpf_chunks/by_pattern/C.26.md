@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
-line_start: 54730
-line_end: 55348
+line_start: 54992
+line_end: 55610
 dependencies:
   - "A.10"
   - "A.15"
@@ -664,7 +664,7 @@ The following anchors support the pattern's operational modeling moves.
 
 ### C.26:12b - C.29 mathematical-lens use relation
 
-> `C.26` is a C.29-compatible specialization for quantum-like modeling. It carries a pre-filled adequacy profile for QL work: preserved structure includes order, probe, and contextual-probability effects when supported; lost structure includes physical quantum ontology; the canonical stop condition remains `QL-NQ`. A QL-lite note does not inherit a blank full `MathLensUse.FullCard`. A full C.29-compatible profile is needed only when the QL claim is decision-bearing, reusable, publication-bearing, assurance-bearing, bridge-bearing, or formal-model-bearing.
+> `C.26` is a C.29-compatible specialization for quantum-like modeling. It carries a pre-filled adequacy profile: preserved structure includes order, probe and contextual-probability effects when supported; lost structure includes physical quantum ontology; the canonical stop condition remains `QL-NQ`. A QL-lite note retains its lightweight use. Apply C.29:4.4's reliance rule when more is needed: a conditional comparison or reusable explanation within the same assumptions may stay small; reliance as an adequate phenomenon model for prediction, a consequential decision, model adoption, benchmark/assurance input, Bridge-dependent use or transfer to further cases needs the full applicable account. Reuse the supplied C.26 profile and adequate existing validation rather than filling a blank FullCard.
 
 ### C.26:End
 

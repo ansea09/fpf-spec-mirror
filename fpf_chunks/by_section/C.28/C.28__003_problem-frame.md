@@ -6,12 +6,12 @@ section_id: "C.28:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__003_problem-frame.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:1 — Problem Frame"
-line_start: 57181
-line_end: 57186
+line_start: 57442
+line_end: 57446
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,6 @@ keywords:
 
 ### C.28:1 - Problem Frame
 
-FPF already has patterns for measurement, temporal claims, evidence, assurance, choice, exploration, call planning, fairness, parity, and mathematical lenses. Each keeps its own result. Causal support cuts across them, so a small shared interface is needed.
 
 The practical question is “what does this evidence support us to say about this causal question, and what would overturn that conclusion?”
 

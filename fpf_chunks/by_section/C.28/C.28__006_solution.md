@@ -6,12 +6,12 @@ section_id: "C.28:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__006_solution.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:4 — Solution"
-line_start: 57207
-line_end: 57730
+line_start: 57467
+line_end: 57992
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ Use the smallest result that answers the current question:
 
 #### C.28:4.0 - Public contract and support components
 
-C.28 uses references to actual objects. It introduces no universal kind for a causal-use question, estimand, or potential-outcome contrast.
+When a question or result must be referenced, recover its content and use the corresponding contract:
 
 - `CausalUseQuestionRef` identifies the exact question content, normally a C.2.1 episteme.
 - `CausalEstimandRef` identifies the mathematical target or the episteme that describes it under its direct pattern.
@@ -196,7 +196,7 @@ CausalUseSupportResult:
   reopenCondition
 ```
 
-Its identity and reference follow C.2.1. The result states causal support only. A downstream pattern may cite it as one basis and then make its own decision. `undecided` supplies no causal conclusion; the downstream pattern decides whether to abstain, seek evidence, or use a non-causal result.
+Its identity and reference follow C.2.1. A receiving decision consumes it under :4.9.
 
 #### C.28:4.3 - Common causal-validity screen
 
@@ -223,7 +223,8 @@ CommonCausalThreatScreen:
 
 #### C.28:4.4 - Identification result
 
-Identification answers whether the estimand can be expressed or bounded from the available data and assumptions. The conclusion must be replayable:
+
+Identification answers whether the estimand can be expressed or bounded from the available data and assumptions. The bounds for nonidentified counterfactual queries in [Raghavan and Bareinboim, 2026, §5](https://arxiv.org/html/2602.23541v1) belong to this identification problem. The conclusion must be replayable:
 
 ```text
 CausalIdentificationResult:
@@ -249,9 +250,15 @@ An `identified` label without an identifying expression or derivation is incompl
 
 **Replayable nonidentified case.** In a treatment cohort, unmeasured severity affects both treatment and outcome, and no valid adjustment set, instrument, proxy, or useful bound is available. `unmeasured_severity_obstruction_3` is the failure witness. The result is `nonidentified`; reporting an adjusted number does not change that status.
 
+**Replayable sensor case: observation and intervention.** Let `H` denote binary high load and `S` a binary alarm. Stipulate `P(H=1)=0.5`, `P(S=1|H=1)=0.9` and `P(S=1|H=0)=0.1`. Bayes' rule gives `P(H=1|S=1)=0.9` and `P(H=1|S=0)=0.1`. These are observational questions about the stated joint distribution.
+
+For the query `P(H=1|do(S=0))`, additionally specify a structural model: H is determined by an exogenous random input; S is a noisy measurement of H with separate independent noise; S has no influence on H. Replacing the S mechanism by the constant zero preserves the H mechanism and its input distribution, giving `P(H=1|do(S=0))=0.5`. This derivation is an identified model-based result under those assumptions. The [corrected Pearl, Glymour and Jewell primer, p.55](https://bayes.cs.ucla.edu/PRIMER/mueller-edits-questions-pearl-etal-2016-primer-errata-pages-august2019.pdf) explains the mechanism-replacement operation.
+
+If the alarm controls cooling, specify the intervention time and the subsequent load mechanism before answering a later-load question. [F.0.2:5.5][fpf-f0-2-5-5-ref] uses this distinction when comparing source theories for an explanation.
+
 #### C.28:4.5 - Counterfactual sampling realizability
 
-Use this result to answer whether a declared target distribution can be sampled under current constraints. It is prospective: it does not say that sampling was planned, performed, or yielded data.
+Use this result to answer whether a declared target distribution can be sampled under current constraints. [Raghavan and Bareinboim, 2025, Definition 3.4 and Theorem 3.5](https://proceedings.iclr.cc/paper_files/paper/2025/file/e59c4efcaed615db8911fecb84c1d51b-Paper-Conference.pdf) give a construction-or-failure decision for their graph and available-action setting. The result is prospective: it does not say that sampling was planned, performed, or yielded data.
 
 ```text
 CounterfactualSamplingRealizabilityResult:
@@ -268,20 +275,20 @@ CounterfactualSamplingRealizabilityResult:
   decisionMethodRef
   decisionDerivationRef?
   positiveSamplingConstructionRef?  # required when realizable
-  boundResultRef?                   # required when bounded
+
   obstructionOrFailureWitnessRef?   # required when nonrealizable
-  status: realizable | bounded | nonrealizable | unclear
+  status: realizable | nonrealizable | unclear
   supportedUse
   unsupportedUse
 ```
 
-A `realizable` result cites the sampling construction that the decision Method accepts. A `bounded` result cites its bound. A `nonrealizable` result exposes the obstruction or failure witness. `unclear` names what remains unresolved. “Realized counterfactual sampling” never means observing incompatible outcomes for one unit in one realized world.
+A `realizable` result cites the sampling construction that the decision Method accepts for the exact target and constraints. A `nonrealizable` result exposes the obstruction or failure witness. `unclear` names what remains unresolved. Bounds on a counterfactual probability belong to the identification result at :4.4; they constrain what can be inferred about that probability, while this result asks how draws from the target distribution can be obtained. “Realized counterfactual sampling” never means observing incompatible outcomes for one unit in one realized world.
 
 If the team plans to draw samples, use a separate A.15.2 WorkPlan. If sampling occurs, recover every precise performer's A.13 core and independently admit the dated Work under A.15.1. Add F.6 only when the sampling claim also needs precise assignment-bound attribution. If the samples are used as evidence, cite the resulting data through an A.10 evidence path. Actual sampling support requires both the dated Work and resulting data or evidence ref; neither `realizable` nor a WorkPlan can stand in for them. Identification from those data, when claimed, is another `CausalIdentificationResult`.
 
 #### C.28:4.6 - Applied profiles
 
-**Target trial.**
+**Target trial.** The [TARGET Statement, 2025](https://www.bmj.com/content/390/bmj-2025-087179) supplies reporting guidance for an observational study explicitly emulating a target trial. Use it for the protocol-to-data account below, with causal validity checked separately.
 
 ```text
 TargetTrialProtocolRecord:
@@ -341,13 +348,13 @@ CausalEstimateResult:
   unsupportedUse
 ```
 
-At least one identification or explicit design-based basis is required before the estimate supports a causal use. Orthogonal scores, nuisance models, and cross-fitting belong in `methodSpecificDetailRefs` only when a DML Method is selected. `estimationConsistencyResultRef` points to the consistency result defined by the selected estimation Method or its direct evaluation pattern; C.28 introduces no universal consistency-result kind.
+At least one identification or explicit design-based basis is required before the estimate supports a causal use. Orthogonal scores, nuisance models, and cross-fitting belong in `methodSpecificDetailRefs` only when a [DML Method](https://academic.oup.com/ectj/article/21/1/C1/5056401) is selected. `estimationConsistencyResultRef` points to the consistency result defined by the selected estimation Method or its direct evaluation pattern.
 
 **Counterfactual fairness.** Before D.5 uses a counterfactual-fairness support result, its C.28 components cite the identification result and the extra assumptions needed to connect the available data to that counterfactual question. When the fairness conclusion depends on an estimate, they also cite the estimate and its `estimationConsistencyResultRef`. Without those conditions, return `bounded` or `unsupported`; more data, even an unlimited amount of the same data, does not repair missing counterfactual identification or an inconsistent estimator. Associative or interventional fairness claims use their own rung and do not inherit this stronger branch by label.
 
 **Non-DML estimate.** A randomized trial cites `random_assignment_identification_4`, `trial_data_8`, `DifferenceInMeansMethod_2`, `standard_error_result_5`, and its attrition sensitivity check. It needs no orthogonal-score, nuisance-model, or cross-fitting fields. The estimate supports only the declared population, outcome, assignment, and follow-up window.
 
-**Transport.**
+**Transport.** For the first-moment population-measure problem under covariate shift, use [Boughdiri, Berenfeld, Josse and Scornet, *A Unified Framework for the Transportability of Population-Level Causal Measures*, 2025, §§2–4](https://proceedings.neurips.cc/paper_files/paper/2025/hash/795679e4056817ee71d37680939e980f-Abstract-Conference.html) with its internal trial-validity, overlap and selected exchangeability conditions. Other endpoint changes need their own identifying result.
 
 ```text
 CausalTransportabilityResult:
@@ -418,7 +425,8 @@ The record states which interventions and queries the learned or abstracted vari
 
 #### C.28:4.7 - Graph and calculus names
 
-Use specialist names only when the result depends on them:
+Use specialist names only when the result depends on them. For a counterfactual graphical-model derivation, use the conditions and calculus in [Correa and Bareinboim, 2025](https://proceedings.mlr.press/v267/correa25a.html) and cite the actual derivation used:
+
 
 ```text
 CausalGraphRepresentationKind =
@@ -490,36 +498,34 @@ Additional evidence is worth planning only when it can change a material causal 
 - `unsupported`: the claimed causal statement or reliance is not supported;
 - `undecided`: the available work does not establish a causal conclusion.
 
-The result never authorizes publication, choice, deployment, certification, fairness approval, or assurance. The downstream pattern cites it as one basis, considers its own other conditions, and makes its own decision. Practical guidance such as “report association only” states the remaining evidence boundary; it is not a permission issued by C.28.
+When another pattern uses the result for a decision, it checks whether the named support and limits answer its question and applies its own remaining decision conditions. For `undecided`, it chooses whether to seek evidence, abstain or use an available non-causal result. “Report association only” limits the evidential claim; any decision to publish, choose or deploy remains with the receiving pattern.
 
 #### C.28:4.10 - Causal action policy class
 
-Use this classification only when policy use changes the causal question:
+Use `CausalActionPolicyClass` only when the action-selection regime changes the causal question. Identify the decision variables, horizon and natural mechanism; say whether the question compares one specified rule or an admissible family. Keep that rule or family with the question. When both behavior and evaluation policies occur, identify which one the field summarizes.
 
-```text
-CausalActionPolicyClass =
-  naturalBehaviorPolicy |
-  interventionalPolicy |
-  counterfactualPolicy |
-  mixedPolicy
-```
+The mechanism distinctions follow [Maiti and Bareinboim, *Sequential Causal Games*, Definitions 2.3, 2.5, 2.7–2.8](https://causalai.net/r145.pdf). Let `X°` be the natural action and `Z` the allowed pre-action information. Order actions causally; `Z` excludes descendants of the current or later action variables.
 
-`unknown` is an unresolved classification, not a fifth member. Omit the field when the distinction changes no support, comparison, or downstream decision.
-
-#### C.28:4.10a - Naming and ontology settlement
-
-The public `...Ref` names above are local reference contracts, not newly admitted universal kinds. Recover the actual object before choosing a reference:
-
-| Wording cue | Recover |
+| Value | Operative distinction |
 | --- | --- |
-| “causal question” | the exact question content and its C.2.1 episteme |
-| “estimand” | the mathematical target or the episteme that describes it |
-| “causal evidence” | evidence paths, empirical data regimes, and the separate identification, estimate, sampling-realizability, performed-sampling, resulting-data, simulation, and transport results actually used |
-| “policy optimality” | policy class, off-policy result, support result, limits, and the downstream choice decision |
-| “fairness evidence” | causal question and support result here; `BiasAuditReport@Context` and audit decision in D.5 |
-| “what would have happened” | a sampling-realizability result, performed sampling with resulting data, an identified or bounded estimate, simulation, or an unsupported claim—named separately |
+| `naturalBehaviorPolicy` | Leave the natural action mechanism in place. |
+| `interventionalPolicy` | Replace it by a rule `X = g(Z)`, including a fixed action or declared randomized rule. The current natural proposal is not an additional input. |
+| `counterfactualPolicy` | Permit a replacement `X = g(Z, X°)` after observing the natural proposal. This family includes the identity and natural-proposal-independent special cases. |
+| `mixedPolicy` | Use a declared combination of natural and interventional choices, corresponding to the available-class union in Definition 2.8. State the component choices and their selection rule or distribution. |
 
-Do not create a universal object merely to preserve a familiar token. Do not replace plain practitioner sentences with a list of ontology fields when the shorter sentence carries the same distinction and stop condition.
+For this interface, when a concrete rule is represented in the wider counterfactual family, record its simpler natural or interventional case when that reduction holds throughout the stated scope. Keep `mixedPolicy` when the specified combination matters. If selection itself requires the current natural proposal, expose that counterfactual dependence. For a family comparison, retain the declared available family and any restrictions. Thus the scalar is an informative summary of the supplied rule or family, not a disjoint ontology of policies.
+
+**Authored three-rule replay.** For binary `X°`, compare:
+
+| Rule | Outputs for `X° = 0, 1` | Concrete classification |
+| --- | --- | --- |
+| Follow the natural action | `0, 1` | `naturalBehaviorPolicy` |
+| Replace it by zero | `0, 0` | `interventionalPolicy` |
+| Replace it by `1 - X°` | `1, 0` | `counterfactualPolicy` |
+
+The last evaluation needs the natural proposal and its relation to outcomes; a fixed-action evaluation does not answer it. A mixed example chooses with equal probability, using an independent coin, between following the natural mechanism and replacing its action by zero. Retain both component choices and their probabilities.
+
+`unknown` records unresolved classification, not another member. Omit the field when it changes no support, comparison or receiving decision.
 
 #### C.28:4.11 - Neighbor selection
 
@@ -535,10 +541,6 @@ Do not create a universal object merely to preserve a familiar token. Do not rep
 | bias or fairness audit | `D.5` | causal question, rung, estimand, support result, and the additional counterfactual-identification and estimation-consistency conditions when that branch is current |
 | method dispatch | `G.5` | causal method-use classification and support refs |
 | benchmark parity | `G.9` | rung, estimand, support-component, transport, and support-result parity |
-
-#### C.28:4.12 - Non-Goals
-
-C.28 does not define physical causation, choose one causal school for every domain, certify a graph by naming it, replace domain intervention or outcome definitions, replace measurement/evidence/fairness/choice/assurance/parity patterns, or authorize a downstream action. It also does not require a durable card or specialist profile when triage already blocks the overclaim.
 
 #### C.28:4.13 - Cheap downgrade library
 
@@ -558,7 +560,7 @@ Keep a causal-use record only when it changes the supported causal statement, bl
 
 #### C.28:4.15 - Publication-unit boundary
 
-When only wording inside one publication unit is unclear, use the publication and wording patterns. Open C.28 only when the wording is relied on causally. A publication decision remains with the publication pattern even after C.28 returns a support result.
+When only wording inside one publication unit is unclear, use the publication and wording patterns. Open C.28 only when the wording is relied on causally.
 
 #### C.28:4.16 - Causal-laundering cases
 

@@ -6,12 +6,12 @@ section_id: "C.19.2:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__002_use-this-when.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:0 — Use this when"
-line_start: 51447
-line_end: 51456
+line_start: 51709
+line_end: 51718
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -22,6 +22,8 @@ dependencies:
   - "C.19.1"
   - "C.22.1"
   - "C.31.ASAP"
+  - "C.39"
+  - "C.40"
   - "E.23"
 keywords:
   - "configuration or adaptation work"
@@ -38,7 +40,7 @@ Use this pattern when one practical result matters and a relevant method, model,
 
 The first useful move is to name the practical use, result kind, claimed guarantee, constraints, and reuse horizon, then ask whether the next adaptation and application work can reach a useful result within the available budget. This keeps a small, adequate path small while letting repeated or high-consequence use justify richer configuration.
 
-**Not this pattern when.** If candidate material does not yet exist, use `C.18` to generate or reframe it. If the live question is a local choice over an existing option set, `C.11` is the pattern for that choice. If the real blocker is an ontology conflation, use `A.7.1`; if it is a material conflict among FPF premises, use `A.7.2`.
+**Not this pattern when.** If an adequate way to obtain the result is still unexplained, use `C.39`. If usable material needs feasible variation and examination, use `C.40`. Use `C.18` when the question concerns the generation account or archive/front stewardship. If the live question is a local choice over an existing option set, use `C.11`. If the blocker is an ontology conflation, use `A.7.1`; if it is a material conflict among FPF premises, use `A.7.2`.
 
 The primary working reader is an engineer, method or model selector, or technical lead. That reader position is not a system-role kind or assignment. This pattern is a `U.MethodDescription` episteme whose claims describe one admitted `U.Method`. When an admitted `U.System` performs dated configuration or application `U.Work` using that Method, first recover the performer's A.13 core and independently admit the Work under A.15.1. Add F.6 afterward only when the present use needs precise assignment-bound attribution. Show an assignment identifier, species, participants, and attribution detail only when that use relies on them, attribution is ambiguous, or the source wording must be repaired. The problem-facing result remains with the pattern that defines or tests it.
 

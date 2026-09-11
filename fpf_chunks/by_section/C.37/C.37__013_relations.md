@@ -6,12 +6,12 @@ section_id: "C.37:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__013_relations.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:12 — Relations"
-line_start: 68827
-line_end: 68833
+line_start: 68652
+line_end: 68658
 dependencies:
   - "A.10"
   - "A.2.4"

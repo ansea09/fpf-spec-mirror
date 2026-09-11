@@ -6,12 +6,12 @@ section_id: "A.1.SCR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__001_intro.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:intro — Intro"
-line_start: 2346
-line_end: 2355
+line_start: 2357
+line_end: 2364
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -31,6 +31,4 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain name.** Find the system that acts or is intended to change.
-
-**Mint or reuse.** This pattern introduces no U-kind, relation kind, result kind, or application-record kind. `A.1.SCR` is a PatternID. It tests one exact `U.Entity` under the already admitted `U.System` kind only when a current engineering decision depends on systemhood.
 

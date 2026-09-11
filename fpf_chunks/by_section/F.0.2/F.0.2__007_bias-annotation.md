@@ -6,12 +6,12 @@ section_id: "F.0.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__007_bias-annotation.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
   - "F.0.2:6 — Bias-Annotation"
-line_start: 93851
-line_end: 93864
+line_start: 94027
+line_end: 94040
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -32,12 +32,12 @@ keywords:
 
 ### F.0.2:6 - Bias-Annotation
 
-**Scope.** This pattern is limited to one bounded synthesis question in which differences between source concepts can change an FPF or DPF content decision. It is not a general method for literature review, ontology alignment, source selection, evidence, assurance, or framework admission.
+**Scope.** This pattern is limited to one bounded synthesis question in which differences between source concepts can change an FPF or DPF content decision.
 
 | Lens | Boundary |
 | --- | --- |
-| **Gov** | No source decides that the synthesis belongs in the receiving framework. The author proposes a result; a later content decision records what to use. |
-| **Arch** | Keep each source claim, the synthesis result, and the later placement decision distinct; a locator or carrier is not any of them. |
+| **Gov** | The author proposes a result; a later content decision records what to use. |
+| **Arch** | Give each source claim, synthesis result and later placement decision its own recoverable content. |
 | **Onto/Epist** | Similar wording, a correspondence, or framework fit establishes neither sameness nor truth. A missing load-bearing source produces an unresolved inquiry, not a negative domain claim. |
 | **Prag** | Use the cheap exit when direct source use answers the question. Keep the comparison bounded, and open `G.2` only when its broader source pack changes the intended use. |
 | **Did** | Show the source-local claims and the action-changing difference in ordinary prose. Give readers source editions and locators they can follow; do not make local storage coordinates carry the explanation. |

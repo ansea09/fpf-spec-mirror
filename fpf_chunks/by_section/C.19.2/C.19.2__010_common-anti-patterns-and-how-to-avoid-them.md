@@ -6,12 +6,12 @@ section_id: "C.19.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 51569
-line_end: 51579
+line_start: 51831
+line_end: 51841
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -22,6 +22,8 @@ dependencies:
   - "C.19.1"
   - "C.22.1"
   - "C.31.ASAP"
+  - "C.39"
+  - "C.40"
   - "E.23"
 keywords:
   - "configuration or adaptation work"
@@ -38,7 +40,7 @@ keywords:
 |---|---|
 | Configure everything because the basis is rich. | Name the useful-result threshold and retain only setup work with expected return. |
 | Invent a rival to make the method look comparative. | Use the one-apparatus path until candidate or choice work is genuinely current. |
-| Call candidate generation a choice. | Use `C.18 for generation/reframing`; let `C.11` operate only on an existing eligible set. |
+| Call candidate generation a choice. | Use `C.39` to explain a missing way or `C.40` to vary and examine usable material; let `C.11` operate on the existing eligible set. Add `C.18` when the generation account or archive/front claim matters. |
 | Treat the apparatus-choice `ChoiceResult` as an application plan or the problem-facing result. | Keep selected object, plan, dated work, application note, and domain result separate. |
 | Let a `U.MethodDescription` episteme, its described Method, a plan, option row, publication, or reader position perform Work. | State in ordinary language that an admitted System performs dated Work using the Method. Recover its A.13 core and independently admit the Work under A.15.1; add F.6 only when the present use needs precise assignment-bound attribution. Expand assignment and attribution detail only when that use needs it, attribution is ambiguous, or the source wording must be repaired. |
 | Rank heterogeneous candidates under one hidden “depth” score. | Preserve direct kinds and compare only declared use-bearing dimensions without hidden scalarization. |

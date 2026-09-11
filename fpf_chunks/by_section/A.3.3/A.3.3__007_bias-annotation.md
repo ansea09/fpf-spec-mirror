@@ -6,46 +6,28 @@ section_id: "A.3.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__007_bias-annotation.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:6 — Bias-Annotation"
-line_start: 9232
-line_end: 9242
+line_start: 9210
+line_end: 9215
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.19"
-  - "A.2.6"
   - "A.20"
   - "A.21"
-  - "A.22"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
   - "A.6.1"
-  - "B.1.5"
   - "B.3"
-  - "C.16"
-  - "C.2.1"
-  - "C.2.P.DR"
   - "C.27"
   - "C.27.TA"
   - "C.29"
-  - "E.10"
-  - "E.10.ARCH"
-  - "E.20"
-  - "F.18"
-  - "F.19"
-  - "U.ClaimScope"
-  - "U.Mechanism"
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Transformation"
-  - "U.Work"
-  - "U.WorkPlan"
 keywords:
   - "calibration"
   - "dynamics"
@@ -58,12 +40,7 @@ keywords:
 
 ### A.3.3:6 - Bias-Annotation
 
-Typical biases:
+Available measurements can determine the chosen state too early. In :5.6, a convenient total conceals the composition that determines the next total. Compare states that share the proposed observation before treating it as sufficient for prediction.
 
-* **recipe-as-law bias**: procedure text or controller code is treated as the law of change;
-* **trace-as-law bias**: logs or one observed run are treated as reusable dynamics;
-* **dashboard-as-state-space bias**: visible metrics substitute for declared characteristics, units, scales, and comparability relations;
-* **prediction-as-authority bias**: model output is treated as permission, gate passage, or safety proof;
-* **mathematical-prestige bias**: equations, learned predictors, and simulations are accepted without applicability window, observation relation, and transfer boundary;
-* **semio-bias**: the pattern drifts into arguments about descriptions of dynamics while losing the modelled subject, state space, and transition law.
+A familiar equation or a well-fitting simulation can also encourage extrapolation beyond its established conditions. Keep the observation relation and applicable region visible when interpreting its result. The physical and organizational examples require their own domain laws and validation.
 

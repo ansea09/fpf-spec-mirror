@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.18.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
-line_start: 50435
-line_end: 50738
+line_start: 50695
+line_end: 51000
 dependencies:
   - "A.15"
   - "A.19"
@@ -193,6 +193,8 @@ For this example's current question, the field names `C.30` as the next applicab
 #### C.18:4.3 - Generation And Downstream-Use Record
 
 When loop-engineering practice generates many candidates—for example, agent prompts, harness variants, workflow variants, or framework seeds—use `C.18` to record generation, archive, front, descriptors, telemetry, retained exploration value, lineage, and the next applicable pattern. This does not say that the loop improved. Use `E.23` only when one retained object version is changed and re-evaluated through repeated passes under a declared object-under-improvement evaluation; use `G.9` for parity between variants and `G.5` when a selected-set result must be declared.
+
+When the missing work is to change usable material and examine the resulting variation, `C.40` supplies that development and warranted continuation, with or without an already selected contribution. Its directly accessible coupled problem-and-solution entry, `C.40:4.3`, adds meaningful problem construction and target-tested transfer when those operations are needed. The record below describes generation; filling it does not perform these operations.
 
 ```text
 OpenEndedVariantGenerationRecord@Project:

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PUA.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
-line_start: 79628
-line_end: 80174
+line_start: 79783
+line_end: 80331
 dependencies:
   - "A.13"
   - "A.15"
@@ -87,6 +87,8 @@ When following a pattern exposes a costly, infeasible or apparently unhelpful de
 An FPF pattern supplies action- or judgement-guiding content; a person or another capable system uses it. The ordinary instructions “use this pattern” and “apply this pattern” are harmless shorthand. Only when the selected `Solution` actually describes a Method and that distinction changes the claim, use A.3.1 to identify the admitted `U.Method` and A.3.2 to test `U.MethodDescription` membership of the pattern episteme. Name a System, system-role classification, assignment, plan, dated Work, result, or `U.Transformation` only when that object is part of the current claim. Assignment never substitutes for the acting System, Work, authority, or responsibility.
 
 When those identities do matter, keep them separate: the pattern episteme is not the acting System or Work; a selected or project-tailored Method is not automatically a WorkPlan; intended work is not performed Work; a result, evidence for it, and a later use are different values. This conditional distinction introduces no universal workflow, causal chain, production relation, TFS, or record requirement.
+
+Before Method selection, distinguish the missing operation. Use `C.39` when a sufficiently clear local result lacks an adequate obtaining explanation; it can finish with one explained candidate or the precise unresolved contribution. Use `C.40` when usable material needs variation, examination and warranted continuation, whether or not its ultimate contribution is settled; its `C.40:4.3` entry adds problem construction and target-tested transfer when those are needed together. A sufficient existing Method or result exits directly, and ordinary use of a selected pattern requires neither search.
 
 If the working question is still represented only by a pre-method-selection `TaskSignature`, use that signature to constrain method search; do not treat it as the task, plan, or Work occurrence. Use OEE or NQD to retain Method or architecture candidates before selection, and use `G.5` to declare a selected-set result. For publication, use `E.17` for a source-backed face and return to source and `E.24.PUB` for the occurrence, form, carrier, audience, bounded use, and availability. Use `A.3.1` to identify a selected Method and `A.15` for planning and Work. Open these distinctions only when candidate retention, selection, result declaration, publication, planning, or performed Work is current.
 

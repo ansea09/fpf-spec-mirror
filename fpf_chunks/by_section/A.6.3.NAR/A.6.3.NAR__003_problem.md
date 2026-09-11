@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__003_problem.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:2 — Problem"
-line_start: 15484
-line_end: 15497
+line_start: 15450
+line_end: 15463
 dependencies:
   - "A.10"
   - "A.22.CGUS"

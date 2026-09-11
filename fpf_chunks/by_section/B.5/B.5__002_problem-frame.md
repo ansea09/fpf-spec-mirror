@@ -3,27 +3,33 @@ chunk_kind: "child"
 pattern_id: "B.5"
 pattern_title: "Canonical Reasoning Cycle"
 section_id: "B.5:1"
-section_title: "Problem Frame"
+section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__002_problem-frame.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
-  - "B.5:1 — Problem Frame"
-line_start: 40956
-line_end: 40959
+  - "B.5:1 — Problem frame"
+line_start: 40926
+line_end: 40937
 dependencies:
   - "A.10"
-  - "B.4"
-  - "B.5"
+  - "B.5.1"
+  - "B.5.2"
+  - "B.5.4"
+  - "C.29"
 keywords:
-  - "Abduction-Deduction-Induction"
-  - "problem-solving"
-  - "reasoning"
-  - "scientific method"
 ---
 
-### B.5:1 - **Problem Frame**
+### B.5:1 - Problem frame
 
-While preceding patterns define claim-and-use-qualified assurance (B.3) and the structure of holons (A.1, A.14), they do not specify the reasoning that connects a new hypothesis, its consequences and empirical evaluation. A framework for thinking must provide more than just a filing system for conclusions; it must offer a repeatable, rigorous method for arriving at them, especially when confronting novel, complex, or ill-defined problems.
+Use this pattern when an engineer or researcher has a question, surprising result or promising construction, but the next useful contribution is unclear. They may need to formulate a better question, construct something, prove a claim, explain an observation, or test a consequence. Reasoning is the broader activity; this pattern governs the choice and connection of those contributions in an inquiry.
+
+**First useful move.** State what you want to understand or make possible. Ask whether an available result already answers that question. If it does not, name the missing result and try one operation that could obtain it. Return what that operation established and the next question, if one remains.
+
+For example: “We need the highest component temperature, but our model reports a mean. Two states with the same mean can have different maxima. Next, determine which temperature differences this arrangement admits.” This already redirects the inquiry before another model fit.
+
+The practical gain is a useful answer or a better-founded next question. A correct answer to an inadequate formulation can otherwise consume the inquiry's effort.
+
+Use a known calculation, proof, observation or qualified Method directly when it already answers the question. A separate cycle description adds nothing in that case. Detailed mathematical techniques, physical modeling and domain validation remain with their disciplines.
 

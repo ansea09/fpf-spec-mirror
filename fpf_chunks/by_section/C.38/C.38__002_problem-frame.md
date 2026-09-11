@@ -6,12 +6,12 @@ section_id: "C.38:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__002_problem-frame.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:1 — Problem frame"
-line_start: 68842
-line_end: 68857
+line_start: 68667
+line_end: 68682
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -24,6 +24,8 @@ dependencies:
   - "C.2.1"
   - "C.30"
   - "C.32"
+  - "C.39"
+  - "C.40"
 keywords:
 ---
 
@@ -41,5 +43,5 @@ keywords:
 
 **Cheap non-use.** Stop if a direct domain Method already returns the complete useful comparison for this result and use, if one mandatory path leaves no real comparison decision, or if a complete `OptionSet` already exists and only `C.11` is needed.
 
-**Not this pattern when.** Use `A.15.9` for one missing or unqualified bounded result from another practice; `C.18` for open-ended generation or reframing; `C.19` for live-pool exploration policy; `C.32` for architecture-candidate synthesis; `A.15.8` for one actual-Work or present-WorkPlan support configuration; and the direct domain Method for realization, production, provision, contracting, acceptance, or use.
+**Not this pattern when.** Use `A.15.9` for one missing or unqualified bounded result from another practice; `C.39` for a missing obtaining explanation; `C.40` for developing and examining material, including its coupled entry when problems and ways must change together; `C.18` for archive, front or possibility-space claims; `C.19` for live-pool exploration policy; `C.32` for architecture-candidate synthesis; `A.15.8` for one actual-Work or present-WorkPlan support configuration; and the direct domain Method for realization, production, provision, contracting, acceptance, or use.
 

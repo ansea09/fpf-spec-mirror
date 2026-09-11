@@ -6,12 +6,12 @@ section_id: "B.5.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__012_sota-echoing.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:11 — SoTA-Echoing"
-line_start: 41258
-line_end: 41261
+line_start: 41407
+line_end: 41410
 dependencies:
   - "A.10"
   - "A.16"

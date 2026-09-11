@@ -6,12 +6,12 @@ section_id: "C.29:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__003_problem-frame.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:1 — Problem frame"
-line_start: 57884
-line_end: 57930
+line_start: 58124
+line_end: 58151
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -72,48 +72,29 @@ keywords:
 
 ### C.29:1 - Problem frame
 
-FPF already uses mathematical structures in several local patterns. `A.6.P` asks for stable relation-precision structure during relation precision restoration; `A.3.3` governs dynamics; `A.19` governs characteristic spaces and structural overlays; `C.18.1` and `C.19.1` govern scale-law and Bitter-Lesson claims; `C.26` contains the separation of a quantum-like lens from physical quantum ontology; `F.9` governs cross-context bridges and loss.
+A mathematical representation can make a working question answerable by retaining only the structure that matters to it. The same reduction can invalidate another question. A queue may expose flow restrictions while omitting rework or failures; an aggregate state may support one bound but lose the information needed for an exact trajectory.
 
-The positive need is as important as the guard. In working projects, first-principles mathematical thinking starts from the smallest declared structure that can make a next lens-use action derivable, inspectable, or honestly blocked. A queue can expose waiting and bottlenecks, a state space can expose variables and transitions, a graph can expose dependencies, a metric-space distance or topology can expose comparability limits, a symmetry can expose invariants, a variational principle or constrained optimization functional can expose an extremal condition, constrained variation space, boundary condition, conservation link, or trade-off, an information or probability measure can expose uncertainty, a resource bound can expose realizability limits, and an obstruction can expose where a transfer or simplification stops.
-
-The missing FPF rule is general but narrow: when FPF-governed wording, a pattern example, method note, review record, `PublicationUnit`, or neighboring-pattern note uses or plausibly needs a mathematical object, formalism, or family for explanation, decision, prediction, comparison, publication, bridge, assurance input, or reusable application, the `C.29` application records the useful first-principles modeling structure and its boundary. It names the candidate mathematical object or family, what structure is preserved, what structure is lost, what invariant, lens-bounded distinction, obstruction, diagnostic boundary, or constructive limit becomes visible, which `LensUseBoundaryValue` value is declared for that use, and where the mathematical-lens use stops.
-
-A C.29 application is justified when a mathematical object is used for explanation, decision, prediction, comparison, publication, bridge, assurance input, or reusable transfer, or when a stable working problem is under-lensed and a cheap candidate lens could expose useful structure for the next lens-use action. Mathematical appearance alone is not enough.
-
-The first lens-use action is not a full-card demand. It is a first-principles entry decision: choose the smallest mathematical structure that changes the next lens-use action, keep ordinary prose when no mathematical structure changes the action, or apply the governing FPF pattern when the claim being made is outside the declared lens use. The result records what the lens preserves, what it loses, what it makes visible, what remains blocked, and where the use stops.
-
-Selected compact formulation:
+C.29 addresses this representation choice and its use across a stated correspondence. It begins either with a working problem that needs a useful construction or with a proposed representation whose consequence needs to be derived, limited or rejected. Domain theory supplies the mathematical laws and application conditions.
 
 > **A useful mathematical lens is compression with invariants and declared losses.**
 
-This compact line is retained as a Plain-register orientation, not as a substitute for the card. It keeps the useful metaphor of a **lens**: a mathematical object can make a hidden structure visible, but only by carrying some structure and dropping other structure. The first practitioner questions are: **what survives the transfer, what is lost, what can now be done, and where does the lens stop?**
+The practical questions are: what survives the transfer, what is lost, what follows, and where does that inference stop?
 
 #### C.29:1.1 - First-minute working situation
 
-A practitioner applying FPF faces a working situation where ordinary prose can hide useful structure, or where a mathematical phrase is already doing work:
-
-- waiting, backlog, bottleneck, or throughput can call for a queue or flow lens;
-- state change, stabilization, control pressure, or forecast can call for state-space or dynamics vocabulary;
-- dependency, interface, composition, or transfer failure can call for graph, hypergraph, category, operad, or compositional vocabulary;
-- similarity, distribution shift, population movement, or shape change can call for metric-space distance, topology, embedding, or optimal-transport vocabulary;
-- scale transition, coarse behavior, universality, knee, or scaling pressure can call for coarse-graining, RG, or scaling-law vocabulary;
-- probe effects, order effects, context effects, or incompatible frames can call for quantum-like or contextual-probability vocabulary.
-
-The useful first-minute intuition is “find the structure that would improve the next lens-use action, then name the limits.” A vivid phrase can remain when the `C.29` output records what the lens makes visible, what it does not license, and the exact subject assertion plus subject-pattern locator for any causal, evidence, bridge, dynamics, scale, measurement, assurance, or release claim.
-
-Without a general lens-use discipline, the reader cannot tell whether the phrase is a bounded structure-preserving representation, an analogy-only prompt, an ungrounded ontology import, a local domain model, or prestige language.
+A production manager sees waiting work but cannot tell whether an extra station would help. The first task is to distinguish an arrival restriction, a service bottleneck and a batching effect. The candidate queue has to make at least one of those distinctions calculable or observable. The discovery cues in :4.2b help choose an object; they are not a required tour of mathematical families.
 
 #### C.29:1.2 - Minimum scenario and anti-case set
 
-**Positive scenario.** A production line is represented as a queueing network. The lens preserves flow, bottlenecks, service rates, and waiting times; it loses human meaning, contractual obligations, rare failure modes, and causal interventions not represented by the network. Stop or change the lens when its assumptions fail or the use depends on one of those losses.
+**Positive scenario.** In :4.4's two-station queue, the departure recurrence distinguishes a five-minute latency reduction from a change in sustained output. The next observation focuses on the slower station. Changed service time or finite-buffer blocking withdraws the affected calculation; actual capacity reliance requires checking the model against the line.
 
 **Anti-case.** “The organization is a quantum system” is written without a candidate mathematical object, probe distinction or readout distinction, preserved structure, lost structure, `LensUseBoundaryValue`, or stop condition. The `C.29` result is either a downgrade to local metaphor or a repaired use through `C.29` and, where relevant, `C.26`.
 
 **Under-lensed anti-case.** “The work stream has dynamics” or “this portfolio is a network” is used for a diagnosis that affects prediction, comparison, repair, or stop conditions, but no mathematical object changes what can be predicted, compared, diagnosed, repaired, or stopped. The repair is to choose a cheap candidate lens that exposes useful structure, or keep the sentence as ordinary prose.
 
-**False-positive scenario.** A Markov kernel appears inside accepted local reliability modeling. If no contested lens-transfer, publication, assurance, bridge, or reusable explanation claim is being made, the claim stays under `A.3.3` and does not require a C.29 output.
+**False-positive scenario.** A Markov kernel appears inside accepted local reliability modeling. When no separate representation or transfer question is open, complete the A.3.3 result without a C.29 output. If such a question arises, use the reliance rule in :4.4.
 
 #### C.29:1.3 - Intended FPF use-value
 
-`C.29` gives a cheap-output choice before any full card or boundary table. Its first job is to help the working reader introduce, choose, repair, bound, or decline a mathematical lens by selecting the cheapest honest output: no C.29 output, a candidate note, a one-line repair, a mini-card, a full card when high-reliance use requires it, or a neighboring-pattern note when the claim being made is outside declared mathematical-lens use. Use it only when the mathematical lens affects a claim or next lens-use action; ordinary local math and decorative prose stay outside C.29. A successful `C.29` result makes useful mathematical compression available to FPF as a disciplined modeling action while reducing ontology smuggling, prestige vocabulary, loss-free transfer, causal laundering, bridge duplication, evidence laundering, and assurance laundering.
+The useful result is an answer, bound, obstruction, diagnostic split or next observation that the working reader could not recover from the prior account. Keep the correspondence and limitations inspectable when someone will reuse that result. A more elaborate record is useful only for the information its receiving use needs.
 

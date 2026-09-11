@@ -6,46 +6,28 @@ section_id: "A.3.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__003_problem.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:2 — Problem"
-line_start: 9040
-line_end: 9049
+line_start: 9029
+line_end: 9034
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.19"
-  - "A.2.6"
   - "A.20"
   - "A.21"
-  - "A.22"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
   - "A.6.1"
-  - "B.1.5"
   - "B.3"
-  - "C.16"
-  - "C.2.1"
-  - "C.2.P.DR"
   - "C.27"
   - "C.27.TA"
   - "C.29"
-  - "E.10"
-  - "E.10.ARCH"
-  - "E.20"
-  - "F.18"
-  - "F.19"
-  - "U.ClaimScope"
-  - "U.Mechanism"
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Transformation"
-  - "U.Work"
-  - "U.WorkPlan"
 keywords:
   - "calibration"
   - "dynamics"
@@ -58,11 +40,7 @@ keywords:
 
 ### A.3.3:2 - Problem
 
-Without a first-class `U.Dynamics`, state-change claims collapse into nearby but different claims:
+A time series describes observations but leaves the next state to be explained. A control instruction selects an action but may leave its physical effect unspecified. Even a declared law can give an inadequate prediction when its chosen state hides a consequential difference, as the two-substance case shows.
 
-1. **Recipe becomes law.** Teams put procedure text, a control diagram, a workflow diagram, or a method description where a state-transition law should be.
-2. **Trace becomes law.** Dated work logs, telemetry, and incident sequences are treated as if past events defined what must happen.
-3. **Dashboard becomes state space.** Metric lists appear without characteristics, units, scales, topology, geometry, invariants, or operating region.
-4. **Prediction becomes authority.** A model output is used for a gate, release, safety, or work decision without a use-specific account of applicability, horizon, error or uncertainty, currentness, observation, and assurance.
-5. **Domain vocabulary blocks transfer.** Physics, control, finance, reliability, operations, knowledge dynamics, and architecture all talk about change differently; FPF needs one kernel pattern that preserves their differences without inventing separate ontologies.
+A usable account must therefore connect the changing subject, the state distinctions, the transition law and the observations. Its applicability and support must be sufficient for the particular prediction or decision, which may demand more than the initial model comparison.
 

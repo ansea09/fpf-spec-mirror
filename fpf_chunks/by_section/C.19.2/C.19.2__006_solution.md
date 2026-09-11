@@ -6,12 +6,12 @@ section_id: "C.19.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__006_solution.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:4 — Solution"
-line_start: 51479
-line_end: 51538
+line_start: 51741
+line_end: 51800
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -22,6 +22,8 @@ dependencies:
   - "C.19.1"
   - "C.22.1"
   - "C.31.ASAP"
+  - "C.39"
+  - "C.40"
   - "E.23"
 keywords:
   - "configuration or adaptation work"
@@ -50,7 +52,7 @@ The intended reader may also be the person-system that performs the Work, but re
 
 **One current apparatus.** When one direct-kind apparatus is already selected and still has a credible path to the declared result and guarantee, create no `OptionSet` and no `ChoiceResult`. Compare the smallest next adaptation/configuration work with the useful-result threshold, plan when needed, perform the work, and inspect the result.
 
-**Candidate generation or reframing.** When no adequate current object is available and the live question is to invent, expand, retain, or reframe candidates, use `C.18`. This pattern may supply the declared use and eligibility basis, but candidate-generation work is not a choice result.
+**Candidate generation or reframing.** If no adequate current object is available, use `C.39` to develop a missing explanation of how to obtain the result, or `C.40` to vary usable material and examine the difference. Use `C.18` when generation-account or archive/front claims are needed. The declared use and eligibility basis can guide that work.
 
 **Local choice.** Only when two or more already-available eligible alternatives, or another genuine local-choice question over a live set, are current, use `C.11` for `OptionSet`, `ChoiceRule`, probing, and `ChoiceResult`.
 
@@ -74,7 +76,7 @@ These four dispositions form the complete current `C.11` result set. “Configur
 #### C.19.2:4.4 - Perform the bounded application
 
 1. State the practical use, direct result kind, claimed guarantee, constraints, horizon, and current apparatus state.
-2. If one apparatus is already selected, test its credible adaptation path without inventing choice. If candidates are missing, use `C.18` first.
+2. If one apparatus is already selected, test its credible adaptation path without inventing choice. If candidates are missing, use `C.39` for an unexplained way to obtain the result or `C.40` for feasible variation and examination of usable material. Add `C.18` only when a generation account or archive/front claim is needed.
 3. Name available alternatives by their direct kinds and apply the shared eligibility predicate.
 4. For each current path, state the smallest adaptation/configuration work and the useful-result threshold: what must be learned, evidenced, integrated, or reviewed before the path can improve the use.
 5. Compare available time and budget, prior exposure, post-threshold efficiency, transfer, retention, interoperability, downside, reversibility, and expected reuse using values supplied by their subject patterns. Do not compress them into an undeclared scalar.

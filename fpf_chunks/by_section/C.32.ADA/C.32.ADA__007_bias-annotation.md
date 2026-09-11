@@ -6,12 +6,12 @@ section_id: "C.32.ADA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__007_bias-annotation.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:6 — Bias-Annotation"
-line_start: 67427
-line_end: 67437
+line_start: 67252
+line_end: 67262
 dependencies:
   - "A.1.1"
   - "A.10"

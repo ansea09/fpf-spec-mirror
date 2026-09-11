@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__006_archetypal-grounding-worked-slices.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:5 — Archetypal Grounding - Worked Slices"
-line_start: 77715
-line_end: 77801
+line_start: 77874
+line_end: 77956
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -128,13 +128,9 @@ That evidence overturns the initial disposition. Remove the demonstrated-continu
 
 #### E.10.MOVE:5.10 - Trajectory under changing constraints
 
-Source sentence from the R11 seminar guide *Development for Advanced*, section R11.5:12, edition for 1 February 2026, source blob `3dc4d26ad018c4587ee3ab55b849a1fe8068d25c`: «Для семинара это важный предшественник: архитекторы уже умеют мыслить не одним окончательным состоянием, а траекторией под изменяющимися ограничениями.» Working English gloss: “For the seminar this is an important predecessor: architects already know how to think not in one final state, but as a trajectory under changing constraints.”
+Constructed wording for repair: `Our architecture follows a trajectory under changing constraints.`
 
-Read the complete source span through `F.19` first. Keep the contrast with one final state only when a plausible intended reader has independent local grounds to expect that reading and rejecting it changes understanding or action. Otherwise state the positive claim directly—for example, “architects already know how to reason about a sequence of architecture changes under changing constraints.” When an FPF inference relies on the sentence, recover the exact architecture or system subject, the changing constraints and reference window, whether the sentence concerns actual architecture editions, a proposed evolution policy, or a modelled sequence, and the direct architecture, transformation, or model owner. For a C.29 curve or ordered rendering, name its correspondence to the architecture and the losses allowed by that use; establish transformation and evidence claims under their direct owners.
+Read the sentence through `F.19` first. If it means only that the team expects to revise the architecture as constraints change, state that proposed action directly. When an FPF inference relies on the trajectory claim, recover the exact architecture or system subject, the changing constraints and reference window, whether the sentence concerns actual architecture editions, a proposed evolution policy, or a modelled sequence, and the direct architecture, transformation, or model owner. For a C.29 curve or ordered rendering, name its correspondence to the architecture and the losses allowed by that use; establish transformation and evidence claims under their direct owners.
 
-If the intended claim is only that evolutionary-architecture practice supports incremental changes under changing constraints, preserve the ordinary domain-practice wording and named source. Use A.3.1 and A.3.2 only when the receiving claim depends on an independently admitted Method or MethodDescription.
-
-R11 is used here as a didactic source case of evolutionary architecture under changing constraints. For source refresh, reopen the worked slice only if the source claim meaning changes.
-
-Overlap example: `The development trajectory improved.` Start with `E.10.DEV` to recover the developed subject and the basis of *improved*. Open this branch only when a separately relied-on ordered path, model, plan, or representation remains. A direct capability or organization-change claim may close without a second pass.
+Overlap example: `The development trajectory improved.` Start with `E.10.DEV` to recover the developed subject and the basis of *improved*. Open this branch only when a separately relied-on ordered path, model, plan, or representation remains. Stop when the recovered direct claim answers the question.
 

@@ -6,12 +6,12 @@ section_id: "A.1.CSD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__010_conformance-checklist.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:7 — Conformance Checklist"
-line_start: 2795
-line_end: 2811
+line_start: 2802
+line_end: 2818
 dependencies:
   - "A.1"
   - "A.1.SCR"

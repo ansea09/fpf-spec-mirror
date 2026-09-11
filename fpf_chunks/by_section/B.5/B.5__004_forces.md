@@ -6,29 +6,28 @@ section_id: "B.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__004_forces.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:3 — Forces"
-line_start: 40970
-line_end: 40978
+line_start: 40944
+line_end: 40953
 dependencies:
   - "A.10"
-  - "B.4"
-  - "B.5"
+  - "B.5.1"
+  - "B.5.2"
+  - "B.5.4"
+  - "C.29"
 keywords:
-  - "Abduction-Deduction-Induction"
-  - "problem-solving"
-  - "reasoning"
-  - "scientific method"
 ---
 
-### B.5:3 - **Forces**
+### B.5:3 - Forces
 
 | Force | Tension |
-| :--- | :--- |
-| **Rigor vs. Innovation** | How can we encourage creative, "out-of-the-box" hypotheses while maintaining formal discipline and verifiability? |
-| **Certainty vs. Progress** | How can we act and learn systematically when faced with incomplete information and uncertainty? |
-| **Theory vs. Practice** | How do we ensure that abstract models and formal deductions are continuously anchored to real-world evidence and empirical validation? |
-| **Systematic Flow** | How do we transform problem-solving from a chaotic, ad-hoc art into a repeatable, auditable, and teachable science? |
+| --- | --- |
+| Purpose and discovery | A question directs effort, while a useful result may reveal a better question. |
+| Construction and justification | A new object or conjecture opens possibilities; its properties and applicability still need the appropriate argument. |
+| Abstraction and use | A simpler representation saves effort, while its lost distinctions can decide the intended use. |
+| Rigor and affordability | Formalization, computation and observation can expose errors, but their whole burden must serve the question. |
+| Current result and future possibilities | A sufficient answer deserves a stop; a retained construction may enable a different worthwhile inquiry. |
 

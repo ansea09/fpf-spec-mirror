@@ -6,12 +6,12 @@ section_id: "C.25:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__008_conformance-checklist.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:7 — Conformance Checklist"
-line_start: 54416
-line_end: 54425
+line_start: 54678
+line_end: 54687
 dependencies:
   - "A.10"
   - "A.15"

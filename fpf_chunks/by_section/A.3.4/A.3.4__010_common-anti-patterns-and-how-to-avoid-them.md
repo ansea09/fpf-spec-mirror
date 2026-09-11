@@ -6,12 +6,12 @@ section_id: "A.3.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 9638
-line_end: 9651
+line_start: 9604
+line_end: 9617
 dependencies:
   - "A.1"
   - "A.10"

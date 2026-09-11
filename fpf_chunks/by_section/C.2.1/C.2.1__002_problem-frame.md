@@ -6,12 +6,12 @@ section_id: "C.2.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__002_problem-frame.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:1 — Problem Frame"
-line_start: 42058
-line_end: 42078
+line_start: 42314
+line_end: 42324
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -54,22 +54,12 @@ keywords:
 
 ### C.2.1:1 - Problem Frame
 
-FPF treats an episteme as a holon, not as a document class or a filled record. A pump-maintenance specification, a clinical model, a theorem, a learned classifier description, and a curriculum model can all be epistemes when each is a claim-bearing whole about an exact EntityOfConcern under an effective reference scheme. Their carriers, notations, and admissible operations differ, but that difference does not remove the shared ontology question: what makes this one episteme, and what changes its identity?
+FPF treats an episteme as a holon, not as a document class or a filled record. It is a claim-bearing whole about an exact EntityOfConcern under an effective reference scheme. Carriers, notations, and admissible operations can differ; the identity question is what makes this one episteme and what changes it.
 
-The episteme ontic coordinates these distinct objects without collapsing them:
 
-1. the `U.Episteme` knowledge holon;
-2. direct relation occurrences that constitute, ground, or connect editions of that holon;
-3. declaration epistemes whose C.2.1 identity is fixed independently, whose same individual has `U.Signature` membership under `A.6.0`, and whose relation-facing `RelationSignature` use declares reusable participant SlotSpecs for one exact relation kind;
-4. assertion epistemes that claim a direct relation predicate obtains and description epistemes whose EntityOfConcern is one explicitly individuated occurrence;
-5. publication occurrences that make one selected episteme edition available for a bounded audience and use;
-6. publication forms that express the selected edition for that publication use;
-7. `U.PresentationCarrier` entities that bear those forms;
-8. C.29 mathematical representations that correspond to independently recovered objects for an explicit modeling or reasoning use.
+The core constructive question is whether an exact `U.ClaimGraph`, exact `U.Entity`, and effective `U.ReferenceScheme` stand in the relation that makes the claim content interpretable and evaluable as claims about that entity. When they do, their selected organization yields a whole-level epistemic characteristic: the resulting holon can be used as one defeasible or deductive body of knowledge. That characteristic is not supplied by any one participant alone.
 
-The core constructive question is not which fields a card contains. It is whether an exact `U.ClaimGraph`, exact `U.Entity`, and effective `U.ReferenceScheme` stand in the relation that makes the claim content interpretable and evaluable as claims about that entity. When they do, their selected organization yields a whole-level epistemic characteristic: the resulting holon can be used as one defeasible or deductive body of knowledge. That characteristic is not supplied by any one participant alone.
+Any exact `U.Entity` can participate as the EntityOfConcern. An episteme can therefore concern another episteme or itself without changing the constitution relation.
 
-Any exact `U.Entity` can participate as the EntityOfConcern. An episteme can therefore concern a system, work, method, relation occurrence, another episteme, or itself without changing the constitution relation. Episteme recursion does not introduce a second meta-episteme ontology.
-
-Contemporary work on formal languages as cognitive tools, material and diagrammatic reasoning, distributed representations, and tool-assisted reasoning explains why representation regimes matter. C.2.1 preserves that insight by keeping representation and admitted operations explicit when current. It does not let notation, latent geometry, tool output, or a publication form determine episteme identity.
+Different representation regimes can support different operations. Make the representation and its admitted operations explicit when the current use needs them. Identify the episteme by its claim content, EntityOfConcern, and effective ReferenceScheme.
 

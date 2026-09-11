@@ -6,12 +6,12 @@ section_id: "C.28:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__012_rationale.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:10 — Rationale"
-line_start: 57795
-line_end: 57800
+line_start: 58057
+line_end: 58061
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,5 +53,4 @@ keywords:
 
 Temporal change, a higher metric, a convincing graph, or a plausible simulator can all be useful without supporting a causal effect. Conversely, observational data can support a causal estimate when an explicit identification result closes the inferential gap. C.28 therefore separates the question from the components that support it and separates that evidential conclusion from downstream authority.
 
-The integrated contract is deliberately plural: SCM and graphical methods, potential outcomes, target-trial practice, design-based identification, causal ML, transport, causal representation learning, causal RL, and causal fairness may supply different specialist results. None is installed as the universal method.
 

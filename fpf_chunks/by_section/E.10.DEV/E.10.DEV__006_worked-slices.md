@@ -6,12 +6,12 @@ section_id: "E.10.DEV:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__006_worked-slices.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:5 — Worked Slices"
-line_start: 77427
-line_end: 77461
+line_start: 77586
+line_end: 77624
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -36,11 +36,15 @@ keywords:
 
 ### E.10.DEV:5 - Worked Slices
 
-#### E.10.DEV:5.1 - Different objects of development in R11
+#### E.10.DEV:5.1 - Different objects of development
 
-Source sentences from the R11 seminar guide *Development for Advanced*, section R11.5:9, in the source edition identified in `E.10.DEV:11`: «Но объект развития надо назвать. Рабочее развитие улучшает внешнюю систему, продукт, процесс или организацию. Личное развитие меняет самого человека. Исследовательское развитие меняет знания и постановки.»
+Constructed wording for repair: `Our development programme improves the product, develops Mira as an engineer, and advances our research.`
 
-Repair the umbrella into the claims the current use needs. Working development may concern actual change to an external System, product, process, or organization and the Work intended to produce it. Personal development may concern a person's capability for a named Work family, actual changes, and evidence. Research development may concern an exact episteme or problem formulation, its edition or ClaimGraph, source return, and evidence. These claims may coexist, but their holders, continuity, horizons, indicators, Work, results, and costs of error remain separate.
+Return a **missing-information result** to the programme author. First ask whether the sentence describes proposed work or work already performed and, separately, whether each effect is intended or observed. Then ask:
+
+- **Product:** Which product and characteristic should or did change? What comparison makes that change an improvement, under which conditions?
+- **Mira:** Which engineering Work family and conditions does the capability claim concern? For an observed increase, obtain the comparable qualification results through :5.2 before retaining that claim.
+- **Research:** Which claim or problem formulation is meant? What revision is proposed or observed, and under what criterion does it count as an advance?
 
 #### E.10.DEV:5.2 - Human capability without candidate borrowing
 Source wording: `Mira developed as an engineer.`
@@ -51,7 +55,7 @@ For the capability reading, recover the named Work family, supported envelope, q
 
 Source wording: `The organization evolved after the platform rollout.`
 
-Identify the rollout as intervention Work. For the separate organization-change claim, recover the organization; changes in its roles, assignments, interfaces, routines, or capabilities; observed organization Work and effects; period; evidence; and any cultural relations. Establish the claim under current OCE contributions and direct FPF owners. State any benefit under its declared basis and supporting evidence.
+Identify the rollout as intervention Work. For the separate organization-change claim, identify the organization and the changed working relations. Use the applicable organizational DPF or domain Method to establish which working relations changed and under what conditions, with `A.3.4` for the actual change and the direct patterns for the other claimed relations. Recover the roles, assignments, interfaces, routines, capabilities, observed organization Work and effects, period, evidence, or cultural relations on which that claim depends. State any benefit under its declared basis and supporting evidence.
 
 #### E.10.DEV:5.4 - Population and archive countercase
 
@@ -61,7 +65,7 @@ Split the claims. Recover the population relations actually relied on—for exam
 
 #### E.10.DEV:5.5 - Model and plan postures
 
-`The model predicts rapid development` is a model-edition and state-transition claim under `A.3.3`, `A.19`, `C.27`, and `C.29`. `The programme proposes rapid development` is a recommendation or WorkPlan claim under the direct choice and A.15 owners. Preserve each claim's predicted or proposed posture. Any claim that actual development occurred needs the applicable direct owner's evidence.
+For `The model predicts rapid development`, use the model branch in :4.2 to identify the model edition and predicted state transition. For `The programme proposes rapid development`, identify the proposed claim and use its question-specific return in :4.2. Preserve each claim's predicted or proposed posture. Any claim that actual development occurred needs the applicable direct owner's evidence.
 
 #### E.10.DEV:5.6 - Development trajectory
 

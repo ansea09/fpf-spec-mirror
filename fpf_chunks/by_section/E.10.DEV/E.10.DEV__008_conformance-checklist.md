@@ -6,12 +6,12 @@ section_id: "E.10.DEV:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__008_conformance-checklist.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:7 — Conformance Checklist"
-line_start: 77471
-line_end: 77483
+line_start: 77634
+line_end: 77646
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -42,8 +42,8 @@ keywords:
 4. Are intervention Work, Method, plan, result, evidence, representation, and later effect separated where current?
 5. Is any direction or value claim tied to the basis the use needs?
 6. Is the claim's posture explicit, using the distinctions needed by its direct owner?
-7. Does the repair reach one of the six outcomes in Step 8: the repaired claim, ordinary non-use, quote-only use, missing information, direct owner, or exact architecture gap?
+7. Does the repair reach one of the six outcomes in Step 7: the repaired claim, ordinary non-use, quote-only use, missing information, direct owner, or exact architecture gap?
 8. Is candidate or planned posture preserved? A candidate pattern supplies current FPF law only after admission; a current plan may be the subject of a claim while its intended result remains planned.
 9. For *development trajectory*, did the second child open only for a remaining independent ambiguity?
-10. Does each substantive claim return to its direct owner, consistently with the architecture boundary above?
+10. Does each substantive claim return to its direct owner?
 

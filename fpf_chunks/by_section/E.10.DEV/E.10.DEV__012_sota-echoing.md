@@ -6,12 +6,12 @@ section_id: "E.10.DEV:11"
 section_title: "SoTA Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__012_sota-echoing.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:11 — SoTA Echoing"
-line_start: 77508
-line_end: 77533
+line_start: 77671
+line_end: 77692
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -38,25 +38,21 @@ keywords:
 
 **Practice question.** When *development* or *evolution* carries a claim that can change action, what bounded recovery returns a usable direct claim?
 
-**Selected best-known line.** Use subject-first lexical recovery: identify the changed or represented subject and its continuity or membership basis; separate Work, Method, plan, result, and evidence; make direction, value, and posture explicit; then return to the direct owner or an exact gap. This adopts FPF precision restoration, adapts it for unlike holder, population, model, plan, archive, and episteme cases, and rejects any move from shared wording to one shared substance.
-
-| Serious line | Posture here | Practical gain | Limit retained |
-| --- | --- | --- | --- |
-| Subject-, continuity-, posture-, and value-first recovery | Adopt | One short recovery can end in an ordinary use, a direct claim, missing information, or an exact gap. | It supplies no domain mechanism, intervention, lifecycle, or evidence bundle. |
-| Warning-only or ambiguity-label treatment | Reject as the working line | It is cheap to state. | It leaves the practitioner to rediscover the direct owners and gives no positive first result. |
-| Transformation-first treatment | Retain only after actual one-holder change is established | It is strong for an obtaining bounded transformation. | Applying it by default to every development expression can misclassify plans, models, capabilities, populations, archives, and epistemes. |
-| Learning-first or cultural-evolution-first treatment | Retain as direct local branches | Each has an existing practitioner route. | Either one underfits the unlike cases and should not classify the umbrella wording. |
-| Universal development process, stage scale, maturity ladder, or lifecycle | Reject | It would give one familiar shell. | The cases do not share one holder mechanism, operation, result contract, evidence ecology, or success direction. |
-
-**Effort and deliberate cost.** An already explicit subject takes the cheap exit. An ambiguous claim needs only the recovery still required to find its direct owner; the separate transformation, learning, cultural, capability, archive, modelling, and programme sources supply the substantive rules. The effort depends on which claim and source information remain unresolved. The deliberate cost is that recovery can expose missing information or an exact architecture gap.
-
-**What changes in practice.** The practitioner names the changed or represented subject, states posture and any claimed direction, and reaches a direct claim owner or an exact gap. Familiar development and evolution wording can remain, with a clear next use or stop.
-
-| Source line | Source role and contribution used here | Boundary retained and smallest reopen |
+| Available approach | When it fits | Practical effect and effort |
 | --- | --- | --- |
-| Current `E.10`, `A.3.4.P`, `E.10.LRN`, and `C.36.P` | Governing local source: adopt trigger-as-recovery, direct subject ownership, cheap exit, and the cultural branch; adapt them into one generic entry for development or evolution wording. | They do not license one shared development substance or replace direct owners. Reopen only the affected route when one changes its entry, result, or owner boundary. |
-| Current `A.2.2`, `E.23.CAE`, `A.3.3`, `B.4`, `C.17`–`C.19`, `C.27.TA`, `C.29`, and `C.36` | Governing direct-owner sources: separate capability, an applicable observation-only expression differential, dynamics, one-holder change, archive or front, temporal, representation, and cultural-population claims. | The differential emits no choice or selected development Work; no common holder mechanism, evidence rule, or lifecycle is inferred. Reopen only the direct branch whose owner changes its result contract. |
-| R11, *Development for Advanced*, seminar-guide edition for 1 February 2026, repository source blob `3dc4d26ad018c4587ee3ab55b849a1fe8068d25c`, sections R11.5:9 and R11.5:12 | Source-case role: supplies unlike working, personal, and research objects of development and the evolutionary-architecture trajectory under changing constraints. | The guide wording is not FPF ontology or external proof of a common mechanism. Reopen the worked use only if that source edition's claim meaning changes. |
-| R9, *Person Engineering*, May 2026 repository source blob `d46b2a700026620e76f528325d88a940e5c80a96`, sections R9.1:1 and R9.2:1 | Domain-source role: supplies the human capability and learning branch and the explicit contrast with collective and other agent development. | Its provider, teaching, human, and learning Methods remain domain claims. Reopen only the affected branch if the relied subject or method boundary changes. |
+| Subject-first recovery | The subject, continuity or membership, posture, or value basis remains unclear. | Ask only the missing questions needed to state the claim and choose its direct pattern. Stop with the named missing information or architecture gap if it cannot be recovered. |
+| Transformation-first interpretation | Actual change of one continuing entity has already been established. | Use the applicable transformation or change pattern in :4.2 directly. |
+| Learning or cultural-evolution branch | A remaining wording ambiguity concerns learning or cultural evolution. | Use E.10.LRN for the learning wording or C.36.P for the cultural-evolution wording. |
 
+**FPF source contributions**
+
+| Source | Contribution used here |
+| --- | --- |
+| `E.10` | Use lexical cues only for an unresolved FPF wording question; take the direct subject exit once the claim is clear. |
+| `A.3.4.P` | Recover the object or claim hidden by change wording. |
+| `E.10.LRN` | Recover meaning still hidden by learning-related wording. |
+| `C.36.P` | Recover cultural-evolution wording that remains unclear. |
+| E.23.CAE, when the capability branch needs a differential | Use its qualified capability-access/expression differential result: controlled observations, dispositions, surviving rivals and limits. Development Work requires a separate applicable steering or choice result. |
+
+Reopen only the affected route when its supplying pattern changes the entry, result or boundary used here.
 

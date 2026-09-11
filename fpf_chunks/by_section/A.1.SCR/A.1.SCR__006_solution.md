@@ -6,12 +6,12 @@ section_id: "A.1.SCR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__006_solution.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:4 — Solution"
-line_start: 2401
-line_end: 2496
+line_start: 2410
+line_end: 2505
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -71,7 +71,7 @@ When the decision still depends on systemhood, recover all six A.1 constructive 
 | Composition-grounded whole-level characteristic | Which characteristic follows from the actual assembly rather than from a label, plan, measurement, or one constituent? |
 | Possible participation in a larger constructive assembly | Which boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy the applicable governed construction rule? |
 
-Then apply the already admitted `U.System` condition: the whole has an actual physical or operational organization through which it can causally participate in Work or transformation while preserving identity. A system-role assignment, capability, Work occurrence, plan, codebase, or description may provide evidence for these conditions.
+Then apply the already admitted `U.System` condition: the whole has an actual physical or operational organization through which it can causally participate in Work or transformation while preserving identity.
 
 #### A.1.SCR:4.4 - Return one decision-bearing result
 
@@ -118,5 +118,5 @@ Infer no project designation from system recognition, affectedness, familiar wor
 
 #### A.1.SCR:4.8 - Use physical grounding without cross-kind identity
 
-Ask what physically or operationally exists, where its boundary lies, and what preserves or ends its identity. This pressure helps test a proposed system reading and reject description-only substitutes. It does not identify a system with a local system-role kind, system-role assignment, capability, Work, transformation, Method, plan, evidence, or description. Do not import BORO categories, unrestricted composition, or a new 4D record.
+Ask what physically or operationally exists, where its boundary lies, and what preserves or ends its identity. This pressure helps test a proposed system reading and reject description-only substitutes.
 

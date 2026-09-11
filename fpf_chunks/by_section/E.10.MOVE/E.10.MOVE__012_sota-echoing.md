@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__012_sota-echoing.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:11 — SoTA-Echoing"
-line_start: 77858
-line_end: 77878
+line_start: 78013
+line_end: 78033
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -70,5 +70,5 @@ The comparison separates direct-claim recovery, cue preservation, and imported s
 | Zhu, Reinecke, and Mitra, [*Language Scent: Exploring Cross-Language Information Navigation*](https://arxiv.org/abs/2604.03604v2), arXiv v2, 2026-08-06 | Analogy for cue preservation: the study concerns query-language selection and proximal cues, with a laboratory study of 16 multilingual speakers. It motivates testing whether a familiar cue helps the current reader; the in-situ wording decision still uses `F.19`. | Cross-language navigation is the study's scope. Reopen the adopted cue hypothesis if broader evidence shows that a cue obscures the governed value or impedes the intended reader use. |
 | Steve Tendon, [*The Book of TameFlow: Theory of Constraints Applied to Knowledge-Work Management*](https://leanpub.com/tameflow), publisher's contents accessed 2026-09-02; historical source context: Tendon, [*Constraints Everywhere*](https://tameflow.com/blog/2020-08-09/constraints-everywhere/), 2020 | The book supplies `MOVE` (Minimal Outcome-Value Effort) and Full-Kitting; the historical article distinguishes forward-looking preparation from current execution. These ground the source-practice distinctions among effort, outcome or value, constraint, and pre-entry preparation. | This line is scoped to knowledge-work management and is not a universal move or readiness ontology. Reopen if the used source meanings or FPF work, readiness, or gate patterns change their result boundaries. |
 
-The selected line is FPF's direct-claim recovery. The external sources contribute a domain comparison, a cue-preservation hypothesis, and imported practice meanings; the R11 worked case is in §5.10.
+The selected line is FPF's direct-claim recovery. The external sources contribute a domain comparison, a cue-preservation hypothesis, and imported practice meanings; the constructed architecture case is in §5.10.
 

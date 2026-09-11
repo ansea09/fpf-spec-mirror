@@ -6,22 +6,24 @@ section_id: "B.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__001_intro.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:intro — Intro"
-line_start: 40954
-line_end: 40955
+line_start: 40920
+line_end: 40925
 dependencies:
   - "A.10"
-  - "B.4"
-  - "B.5"
+  - "B.5.1"
+  - "B.5.2"
+  - "B.5.4"
+  - "C.29"
 keywords:
-  - "Abduction-Deduction-Induction"
-  - "problem-solving"
-  - "reasoning"
-  - "scientific method"
 ---
 
 ## B.5 - Canonical Reasoning Cycle
+
+> **Type:** Method-description pattern
+> **Status:** Candidate
+> **Normativity:** Normative unless marked informative
 

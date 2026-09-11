@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "B.5.2 — Abductive Loop"
-line_start: 41113
-line_end: 41439
+line_start: 41262
+line_end: 41588
 dependencies:
   - "A.10"
   - "A.16"
@@ -172,7 +172,7 @@ This pattern biases authors toward visible candidate plurality, explicit plausib
 
 ### B.5.2:10 - Rationale
 
-The Canonical Reasoning Cycle needs a disciplined beginning that is neither over-formalized nor mystical. `B.5.2` supplies that beginning. It keeps hypothesis generation explicit, connects it to typed prompt publications, and prepares the output for later assurance work without pretending that early plausibility is already evidence.
+For the hypothesis-led empirical inquiry described in B.5, B.5.2 supplies explanation-led abduction before deduction and induction. It keeps hypothesis generation explicit, connects it to typed prompt publications, and prepares the output for later assurance work without pretending that early plausibility is already evidence.
 
 ### B.5.2:11 - SoTA-Echoing
 
@@ -180,7 +180,7 @@ Contemporary inquiry practice in science, engineering, design, and diagnosis tre
 
 ### B.5.2:12 - Relations
 
-- **Is the first reasoning phase within:** `B.5 Canonical Reasoning Cycle`.
+- **Supplies explanation-led abduction within:** B.5's hypothesis-led empirical inquiry, before deduction and induction.
 - **Typically operates during:** `B.5.1 Exploration`.
 - **Consumes:** `U.AbductivePrompt` publications from `B.5.2.0`, often reached through `B.4.1` and `A.16`.
 - **Produces:** hypothesis-bearing `U.Episteme` publications with explicit conjectural content, supports, fragilities and allowed use; no automatic `AssuranceLevel:L0`.

@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `ef9ded2cb965193aa2484c84f06d65770439cef8`
+Commit SHA: `cda9087f48e0bce2c5f9d5f4389e7e025c7678f5`
 
 Chunking method: `pattern-aware`
 
-Patterns: `315`
+Patterns: `318`
 
 ## Patterns
 
@@ -135,6 +135,7 @@ Patterns: `315`
 - [B.5.2.0 — U.AbductivePrompt](by_pattern/B.5.2.0.md)
 - [B.5.2.1 — Creative Abduction with NQD](by_pattern/B.5.2.1.md)
 - [B.5.3 — Domain-Concept Bridge](by_pattern/B.5.3.md)
+- [B.5.4 — Recognize a Reusable Concept in a Concrete Situation](by_pattern/B.5.4.md)
 - [C.2 — Epistemic holon composition (KD-CAL)](by_pattern/C.2.md)
 - [C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations](by_pattern/C.2.1.md)
 - [C.2.P — Epistemic Precision Restoration](by_pattern/C.2.P.md)
@@ -215,6 +216,8 @@ Patterns: `315`
 - [C.36 — Cultural Evolution and Cultural-Evolution Engineering](by_pattern/C.36.md)
 - [C.37 — Use-Bounded Representation Selection and Co-Use](by_pattern/C.37.md)
 - [C.38 — Construct Comparable Ways to Obtain One Result](by_pattern/C.38.md)
+- [C.39 — Find and Develop a Way to Obtain a Result](by_pattern/C.39.md)
+- [C.40 — Develop Branching Search from Reusable Material](by_pattern/C.40.md)
 - [C.36.P — Cultural-Evolution Wording-Use Precision Restoration](by_pattern/C.36.P.md)
 - [D.1 — Ethical Value Plurality and FPF Boundary](by_pattern/D.1.md)
 - [D.2 — Multilevel Ethics For Holon Work](by_pattern/D.2.md)

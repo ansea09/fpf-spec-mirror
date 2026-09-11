@@ -6,12 +6,12 @@ section_id: "C.21:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__010_bias-annotation.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:8 — Bias-Annotation"
-line_start: 52148
-line_end: 52151
+line_start: 52410
+line_end: 52413
 dependencies:
   - "A.10"
   - "A.17"

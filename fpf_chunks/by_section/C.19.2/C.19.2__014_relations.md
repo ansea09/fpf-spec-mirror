@@ -6,12 +6,12 @@ section_id: "C.19.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__014_relations.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:12 — Relations"
-line_start: 51601
-line_end: 51608
+line_start: 51863
+line_end: 51870
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -22,6 +22,8 @@ dependencies:
   - "C.19.1"
   - "C.22.1"
   - "C.31.ASAP"
+  - "C.39"
+  - "C.40"
   - "E.23"
 keywords:
   - "configuration or adaptation work"
@@ -34,7 +36,7 @@ keywords:
 
 ### C.19.2:12 - Relations
 
-- **Coordinates with:** `C.18` for candidate generation, reframing, and archive/front stewardship; `C.19` for explore/exploit policy over still-live candidate pools; `C.19.1` for scale-amenable bearer preference; `C.22.1` for adaptation signatures; `E.23` for repeated improvement; and `C.31.ASAP` for architecture-scale preference.
+- **Coordinates with:** `C.39` for a missing explanation of how to obtain the result; `C.40` for feasible variation and examination; `C.18` for the generation account and archive/front stewardship; `C.19` for explore/exploit policy over still-live candidate pools; `C.19.1` for scale-amenable bearer preference; `C.22.1` for adaptation signatures; `E.23` for repeated improvement; and `C.31.ASAP` for architecture-scale preference.
 - **Uses conditionally:** `C.11` only when an actual local-choice question over a live eligible set exists. It consumes, but does not extend, the four `ChoiceResult` dispositions.
 - **Hands off enactment to:** `A.15.2` for work plans, `A.15.1` for dated work, and `C.24` only for tool-call enactment planning. The direct domain pattern contains the defining content for the practical result.
 - **Description-level specialization:** `A.7.1` narrows the method claims stated here for consequence-guided ontology analysis. It retains the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, separation among plan, Work, and result, stop, and reopen. It retains the candidate and choice branch only when that branch is actually triggered. This wording adds no relation occurrence between the described Methods and asserts neither `U.SubkindOf` nor a world relation.

@@ -6,12 +6,12 @@ section_id: "F.0.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__013_relations.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
   - "F.0.2:12 — Relations"
-line_start: 93922
-line_end: 93930
+line_start: 94100
+line_end: 94110
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -37,5 +37,7 @@ keywords:
 - **Coordinates with:** `F.2`-`F.8`, `F.14`, `F.17`, and `F.18` when the next authoring question requires harvesting, clustering, Concept-Set, naming, or UTS work.
 - **Coordinates with:** `G.2` as the optional broad harvesting method. Identified claims and provenance from a `G.2` pack may supply inputs here; the pack does not replace the receiving comparison.
 - **Coordinates with:** `E.4.DPF` for DPF entry and result placement, `E.10.ARCH` for DPF-local wording entries under the shared restoration method, and `G.11` for source-currentness and refresh work.
-- **Boundary:** Domain claims produced through this method remain in the subject FPF pattern or named DPF selected by the later content decision. `F.0.2` introduces no domain doctrine, new root kind, generic synthesis-to-use relation, admission result, assurance result, publication result, or mandatory carrier.
+- **Boundary:** Domain claims produced through this method remain in the subject FPF pattern or named DPF selected by the later content decision.
+
+[fpf-c28-4-4-ref]: C.28-CausalUse-CAL-Causal-Use-Questions-Causality-Ladder-Rungs-Identification-and-Realizability.md#c2844---identification-result
 

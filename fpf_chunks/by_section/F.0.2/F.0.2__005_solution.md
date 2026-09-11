@@ -6,12 +6,12 @@ section_id: "F.0.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__005_solution.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
   - "F.0.2:4 — Solution"
-line_start: 93768
-line_end: 93818
+line_start: 93925
+line_end: 93975
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -39,7 +39,7 @@ keywords:
 3. **Choose a bounded source cut.** Apply `F.1`. Include the sources needed for the intended use, known rival explanations, action-changing counterexamples, transfer limits, and material non-fit. State why each selected source can change the decision.
 4. **Compare what changes action.** Compare concepts, relation participants, explanations, contexts, assumptions, source roles, counterexamples, losses, and validity limits. Treat lexical or model correspondences as proposals to inspect, not as conclusions.
 5. **Write one first result.** Write a provisional synthesis claim when a positive shared contribution is warranted; a contrast claim when the proposed unification is not warranted for the named use; or an unresolved-inquiry claim when a named source gap prevents either substantive answer.
-6. **Give the result a stable local locator and name its receiving decision.** Keep ordinary `C.2.1` claim identity. Add a stable locator within the authoring source, such as `SE-CS-03`, so later text can cite the same result together with that source edition. Name the content, placement, or pattern-allocation decision that will consider it. The locator does not identify the episteme and the file does not make the decision.
+6. **Give the result a stable local locator and name its receiving decision.** Keep ordinary `C.2.1` claim identity. Add a stable locator within the authoring source, such as `SE-CS-03`, so later text can cite the same result together with that source edition. Name the content, placement, or pattern-allocation decision that will consider it.
 7. **Record the receiving disposition.** When the named decision is made, its decision record states whether this result is used as proposed, revised into a newly identified claim, not used for the named purpose, or reopened for further comparison. Cite the result locator and source edition. A result awaiting that decision remains a proposal; silence or a citation is not acceptance.
 8. **Keep the source use revisable.** Identify the source claims and editions relied on, why each matters to this result, what was deliberately left local or rejected, and which change reopens the comparison.
 

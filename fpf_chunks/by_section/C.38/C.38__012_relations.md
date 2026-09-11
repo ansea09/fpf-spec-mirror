@@ -6,12 +6,12 @@ section_id: "C.38:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__012_relations.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:11 — Relations"
-line_start: 69026
-line_end: 69033
+line_start: 68851
+line_end: 68858
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -24,6 +24,8 @@ dependencies:
   - "C.2.1"
   - "C.30"
   - "C.32"
+  - "C.39"
+  - "C.40"
 keywords:
 ---
 
@@ -31,7 +33,7 @@ keywords:
 
 - **Builds on:** the direct pattern for the sought result; `A.10` for evidence and bounded reliance on actual premises; `A.19.CPM` and `A.19.SelectorMechanism` only for comparison mechanisms that are actually needed; and `C.2.1` when a standalone comparison episteme must persist.
 - **Hands to:** `C.11` only after a finite complete-enough `OptionSet` exists. `C.11` owns choose, reject, probe-again, and reroute results.
-- **Coordinates with:** `C.18` for open-ended generation or reframing; `C.19` for pool policy; `C.32` for architecture-candidate synthesis; `A.22` and `C.30` only when a separate Structure or architecture question is current; and direct domain Methods for realization, production, provision, acceptance, assurance, and use.
+- **Coordinates with:** `C.39` for a missing obtaining explanation; `C.40` for material development and its conditional coupled problem-and-solution entry; `C.18` for archive, front and possibility-space claims; `C.19` for pool policy; `C.32` for architecture-candidate synthesis; `A.22` and `C.30` only when a separate Structure or architecture question is current; and direct domain Methods for realization, production, provision, acceptance, assurance, and use.
 - **Question-change boundary with A.15.9:** use `A.15.9` only for one missing or unqualified bounded result from another practice inside a way. Stay in `C.38` when the question is several complete ways to obtain the same receiving result. A contribution request or return is never the whole way by implication.
 - **Keeps outside:** universal arrangement kinds, graphs, taxonomies, schemas, workflows, authority transfer, open-ended search, local choice, and all actual Work or obtaining relations inferred only from possible-future rows.
 

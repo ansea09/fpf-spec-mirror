@@ -6,12 +6,12 @@ section_id: "C.2.1:7"
 section_title: "Episteme morphing, viewing, and retargeting  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__008_episteme-morphing-viewing-and-retargeting-normative.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:7 — Episteme morphing, viewing, and retargeting  (normative)"
-line_start: 42427
-line_end: 42465
+line_start: 42672
+line_end: 42710
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -89,5 +89,5 @@ Use A.20 only when the proposition is an internal constraint, A.10 only when an 
 
 A system may perform exact retargeting work. Identify its enacted method, any exact A.6.1 operation application and binding, affected or newly constituted episteme, and actual change facts separately. The arrow itself performs no work, and the mathematical statement `r : X -> Y` infers no bare result or universal production relation.
 
-Examples include retargeting from an episteme about a physical cabinet to one about a selected functional `U.Structure`, or from observations to a learned model, when the independently identified source and receiving entities really differ. For `Cab-7` as the cabinet and `Route-A` as the selected functional structure, an independently stated behaviour-test result can supply q's current-case basis; the judgement is `satisfies` only when that result meets q's named conditions. The source expression `Realises(Cab-7, Route-A)` has no current direct relation governor here and therefore stops at A.6.RCD `missing-governor`; it contributes nothing to that judgement. A Fourier representation change is not automatically retargeting: use C.29 first to decide whether the signal remains the EntityOfConcern and only its representation changes. This test prevents mathematical notation from deciding ontology.
+Examples include retargeting from an episteme about a physical cabinet to one about a selected functional `U.Structure`, or from observations to a learned model, when the independently identified source and receiving entities really differ. For `Cab-7` as the cabinet and `Route-A` as the selected functional structure, an independently stated behaviour-test result can supply q's current-case basis; the judgement is `satisfies` only when that result meets q's named conditions. The source expression `Realises(Cab-7, Route-A)` has no current direct relation governor here and therefore stops at A.6.RCD `missing-governor`; it contributes nothing to that judgement. For a Fourier representation change, identify the endpoint subjects under C.2.1. If the same signal remains the EntityOfConcern, use A.6.3.RT or the applicable representation-transition pattern. Use C.29 when a mathematical-lens choice, transfer or reliance question remains.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.3.md"
-commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
+commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
-line_start: 41807
-line_end: 41909
+line_start: 41956
+line_end: 42051
 dependencies:
   - "A.13"
   - "A.15"
@@ -136,11 +136,4 @@ This pattern implements open-ended parsimony: FPF can use many domain vocabulari
 * **Used when:** a project must recover what an exact source expression means for one FPF claim, or must relate two distinct local meanings for a named receiving use without confusing the wording, governed value, semantic relation, and use.
 
 ### B.5.3:End
-
-# Part C - Kernel Extension Specifications
-
-| §                                            | Pattern                        | Tag | Scope & Exports                                                      |
-| -------------------------------------------- | ---------------------------------- | --- | -------------------------------------------------------------------- |
-| **Cluster C.I – Core CALs / LOGs / CHRs**    |                                    |     |                                                                      |
-| C.1                                          | **Sys‑CAL (planned)**              | CAL | Planned consolidation of physical-system composition, conservation, and resource-flow guidance currently governed by A.1, A.14, A.22, A.3.4, B.1.6, and C.16. |
 
