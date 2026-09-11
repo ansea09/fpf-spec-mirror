@@ -6,12 +6,12 @@ section_id: "C.22.2:23"
 section_title: "Downstream Cue Export"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__024_downstream-cue-export.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:23 — Downstream Cue Export"
-line_start: 53672
-line_end: 53688
+line_start: 53716
+line_end: 53732
 dependencies:
   - "A.10"
   - "A.15"

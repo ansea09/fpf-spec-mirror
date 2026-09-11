@@ -6,12 +6,12 @@ section_id: "A.6.H:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__001_intro.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:intro — Intro"
-line_start: 21198
-line_end: 21215
+line_start: 21210
+line_end: 21227
 dependencies:
   - "A.1"
   - "A.10"

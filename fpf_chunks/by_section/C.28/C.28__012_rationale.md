@@ -6,12 +6,12 @@ section_id: "C.28:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__012_rationale.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:10 — Rationale"
-line_start: 57751
-line_end: 57756
+line_start: 57795
+line_end: 57800
 dependencies:
   - "A.10"
   - "A.15"

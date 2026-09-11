@@ -6,7 +6,7 @@ section_id: "A.2.6:10"
 section_title: "Guard Patterns (ESG & Method–Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__012_guard-patterns-esg-method-work.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:10 — Guard Patterns (ESG & Method–Work)"
@@ -41,7 +41,7 @@ A claim-scope guard starts with one exact judgment:
 membershipResult := evaluateMembership(TargetSlice, ClaimScope, InterpretationBasis)
 ```
 
-Admit the scope condition only when the result is `true`. Stop on `false`. On `unknown`, abstain, obtain the missing input, narrow the attempted use, or apply a separately governed reliance policy. Evidence freshness, formality, time currentness, decision, and assurance remain separate predicates.
+Admit the scope condition only when the result is `true`. Stop on `false`. On `unknown`, abstain, obtain the missing input, narrow the attempted use, or apply a separately governed reliance policy. Evaluate any required freshness, formality-threshold, time-currentness and assurance conditions separately. The gate decision remains under A.21.
 
 Add a translation branch only when the membership predicate uses exact local senses that ordinary designation resolution cannot align. Require the obtaining F.9 Bridge and the separate affirmative C.2.1 claim for this translation before deriving a scope, then require the current A.10 or B.3 reliance branch before the receiving guard relies on it. A different reference scheme or location label alone is not such a trigger.
 
@@ -90,10 +90,10 @@ qualificationWindowHolds(capability, qualificationWindowPolicy, evaluationTime) 
 
 Translate `U.WorkScope` only when its condition predicates use exact local senses that differ from those needed by the job slice. Require the obtaining F.9 Bridge and a separate affirmative C.2.1 claim naming this Work-scope translation's direction, rule, and tolerance; establish the exact A.10 or B.3 reliance branch before the capability guard uses the result. A capability object and job slice carry no hidden `.Context` field that automatically selects this branch.
 
-Observed mapping loss is evidence about the use claim, and permitted loss is its tolerance. When the claim's rule and tolerance support only a subset, return an explicitly narrower Work scope.
+Observed mapping loss is evidence about the use claim, and permitted loss is its tolerance. If the claim's rule and tolerance permit translation only for part of the source Work scope, identify that part and return its target image.
 
 **WG‑5 - Δ(WorkScope).**
-When widening Work scope (new operating ranges/platforms), the guard MUST require evidence at the new slices (measures + qualification windows). Refit (e.g., new units/parametrization) requires no new evidence.
+When widening Work scope (new operating ranges/platforms), the guard MUST require evidence at the new slices (measures + qualification windows). A membership-preserving refit does not itself require new deliverability evidence for the unchanged slices.
 
 #### A.2.6:10.4 - Translation guard
 
@@ -108,7 +108,7 @@ The source claim-bearing episteme designates `SourceScope`. The Bridge relates e
 
 #### A.2.6:10.5 - Time selector
 
-Name `gammaTime` in the context slice only when the applicable membership predicate varies with time. State the boundary that changes membership. If a work qualification or evidence-freshness condition varies with time, name its exact evaluation time and interval or policy under that condition's direct governor rather than copying it into scope. For example, `qualificationWindowHolds(controller, Recertification90d, evaluationTime)` is a separate guard; it is not a scope selector.
+When membership depends on time, name an exact `gammaTime` point, interval, or policy and the boundary that changes membership. Keep every selector already declared in the slice schema, even when this predicate does not inspect it. If a work qualification or evidence-freshness condition varies with time, name its exact evaluation time and interval or policy under that condition's direct governor rather than copying it into scope. For example, `qualificationWindowHolds(capability, Recertification90d, evaluationTime)` is a separate guard; it is not a scope selector.
 
-Do not write implicit “latest.” When time does not affect membership, omit the selector instead of inventing a nominal current value.
+Do not write implicit “latest.” Do not invent a time selector merely to complete a new slice declaration.
 

@@ -6,12 +6,12 @@ section_id: "A.6.H:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__011_consequences.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:9 — Consequences"
-line_start: 21478
-line_end: 21490
+line_start: 21490
+line_end: 21502
 dependencies:
   - "A.1"
   - "A.10"
@@ -59,8 +59,8 @@ keywords:
 | Decidable disagreements | The practitioner must name the exact subject and receiving use before arguing about the word. |
 | Local repair | One sentence may become several direct claims; stop after the claims the receiving use actually needs. |
 | Separate rule sources | Mereology, episteme identity, Work, measurement, evidence, publication, and assurance retain their distinct rules. |
-| Honest uncertainty | An unresolved case blocks only the named use instead of creating an omnibus record. |
-| Reusable assurance | Recognition facts and evidence-use claims can be checked independently. |
+| Honest uncertainty | An unresolved case blocks only the named use; the candidate readings and discriminating questions remain explicit. |
+| Reusable evidence-use claims | Recognition facts and evidence-use claims can be checked independently; B.3 assurance applies only for an actual named assurance claim and use. |
 | Less ontology by wording | Familiar trigger words no longer mint kinds, relations, structures, or lifecycle objects. |
 
 The practical test is simple: **if “whole” matters, name the thing, the relation, and what the reader may do with the claim.**

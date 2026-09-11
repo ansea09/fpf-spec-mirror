@@ -6,12 +6,12 @@ section_id: "A.6.S:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__014_relations.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:12 — Relations"
-line_start: 21156
-line_end: 21195
+line_start: 21184
+line_end: 21207
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
   * A.6 — Signature Stack & Boundary Discipline
   * A.6.0 — `U.Signature`
   * A.6.2 — effect-free episteme-arrow discipline, only when a constructor operation uses a mathematical arrow; endpoint facts are read or compared, not changed by the arrow
-  * A.13 and A.15.1 — exact actual-performer recovery and independent dated-Work admission; A.2 and A.2.1/F.6 enter separately only when the receiving use consumes local-kind classification or precise assignment-bound attribution
+  * A.1, A.13, and A.15.1 — System admission, the complete actual-performer core including local-kind classification and an obtaining A.2.1 assignment, and independent dated-Work admission; F.6 follows only for precise attribution through that same assignment
   * C.2.1 — episteme identity through claim content, exact EntityOfConcern, and effective ReferenceScheme, with empirical grounding and edition continuity kept as separate direct relations
   * (optional) E.18 — TransformationFlowStructure, when signature-construction work is represented as a transformation-flow structure
   * E.10 and LEX discipline — if the publication uses Plain twins (“SoI”) or shorthands, keep their exact Tech readings recoverable and keep Plain twins out of normative register
@@ -61,20 +61,4 @@ keywords:
 * **Coordinates with:** A.6.5 for reused relation-participant or reference operations and A.6.6 for direct base-dependence assertions and optional declaration history; neither vocabulary is mandatory.
 
 * **Constrains:** a signature-engineering use only where the relevant meaning change, edition, reference retargeting, view, application, or Work claim is current; one distinction does not make the others mandatory.
-
-#### A.6.S:12.1 - Integration pointers (informative)
-
-Grounding pointers in the current FPF draft (for alignment while integrating):
-
-* Canonical pattern template order and section requirements (E.8).
-* SoTA‑Echoing requirements and avoidance of data governance/tool binding (E.8:11, E.8:8).
-* A.6.5 slot operations and A.6.6 declaration-change labels are optional vocabulary sources for a ConstructorSignature only when a named receiver reuses them.
-* A.6.2 effect-free arrow boundary: the arrow relates epistemes; the operation description, application, and Work remain separate.
-* A.3.1/A.3.2/A.15/A.15.1/A.15.2 method, method-description, work-plan, and work separation for “constructor described vs enacted”.
-* A.7 strict distinction and Face/Surface separation (no object–description–carrier soup).
-* A.1 System admission, A.13 exact actual-performer recovery, and A.15 Work discipline establish the actor and independently admitted Work. A.2 local system-role classification and A.2.1/F.6 assignment-bound attribution enter only when those separate claims are current. An episteme, local kind, or assignment does not act.
-* Slot operation lexicon and naming guidance (A.6.5).
-* A.6.6 direct-first base-dependence discipline and its optional declaration-history labels.
-* MVPK faces as fixed view kinds with “no new semantics” intent (E.17).
-* Claim register and quadrant separation discipline (A.6.B).
 

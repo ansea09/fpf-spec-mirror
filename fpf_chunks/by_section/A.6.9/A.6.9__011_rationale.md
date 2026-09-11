@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
 section_id: "A.6.9:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.6.9/A.6.9__012_rationale.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+output_path: "by_section/A.6.9/A.6.9__011_rationale.md"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:10 — Rationale"
-line_start: 20854
-line_end: 20861
+line_start: 20882
+line_end: 20889
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -32,7 +32,6 @@ dependencies:
   - "C.3.3"
   - "E.17"
   - "E.17.0"
-  - "E.19"
   - "E.24.PUB"
   - "F.0.1"
   - "F.17"
@@ -61,5 +60,5 @@ Cross-context sameness wording is not one predicate. A.6.9 first restores the ac
 
 For that branch, exact cells and a relation-only profile make correspondence falsifiable. A separate C.2.1 claim makes the proposed use equally explicit without reidentifying the Bridge. A.10 or B.3 can reopen reliance without changing either object. Authorization and the actual receiving object remain visible rather than hiding inside *suitable*, *aligned*, or *mapped*.
 
-The repair sequence is therefore: **name the action; route the object; test the relation; state the use; check reliance when someone will rely on that claim; recover permission or performance only when claimed.**
+The repair sequence is therefore: **name the action and route the object; for a remaining semantic-correspondence question, test F.9; for a proposed use of an obtaining Bridge, state the use claim and check reliance when someone will rely on it; recover permission or performance only when claimed.**
 

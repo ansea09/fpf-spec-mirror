@@ -6,12 +6,12 @@ section_id: "A.4:4"
 section_title: "Solution - Temporal Duality Model"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__005_solution-temporal-duality-model.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:4 — Solution - Temporal Duality Model"
-line_start: 10034
-line_end: 10066
+line_start: 9988
+line_end: 10022
 dependencies:
   - "B.3"
   - "B.4"
@@ -51,8 +51,10 @@ A holon may repeat the cycle *ad infinitum*:
 ```
 
 *Observation itself is a transformation*:
-the observing side is a `U.RoleAssignment` whose `holderRef` names the acting `U.System`
-and whose `roleRef=TransformerRole@ObservationContext`. That holder executes a
+the observer is the acting `U.System`. In the source notation, `holderRef` names
+that System and `roleRef=TransformerRole@ObservationContext` names the assigned local
+system-role kind. Identify the actual assignment through its directly declared
+`U.SystemRoleAssignment` species (A.2.1). The System executes a
 **measurement method** whose *output* is an epistemic holon containing observations.
 Thus the traditional “External Observer Pattern” collapses into the universal external
 Transformer pattern.

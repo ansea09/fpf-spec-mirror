@@ -6,12 +6,12 @@ section_id: "A.6.C:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 12070
-line_end: 12156
+line_start: 12098
+line_end: 12193
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -67,14 +67,14 @@ keywords:
 
 #### A.6.C:5.1 — Tell
 
-If you use contract-language for a boundary, do not treat “the interface or specification” as an acting system. Instead:
+When boundary contract-language leaves a consequential ambiguity, recover the actual claim and referent, then answer only the live questions below. Keep ordinary metonymy when its capable participant and relation are locally recoverable; a literal act or individual commitment needs that participant and the governing conditions.
 
-1. **What was promised?** Record the exact promise-content claim if one exists.
-2. **What was said, published, or instituted?** Give the speech-act Work, each description/publication object, and each institutional effect its own row and subject pattern.
-3. **What governance or permission-looking claim exists?** Record either a generic D prescription with its exact normative source and applicability, an individual D claim about an exact obtaining commitment with its actual bearer and institution basis, or the selected `A6-AW-*` claim in its own quadrant. State responsibility separately under its admitted domain predicate or return its exact missing governor.
-4. **What happened, what followed, and what supports reliance?** Record dated Work, each current result/change/delivery/acceptance claim, and each A.10 evidence claim separately; omit absent rows.
+1. **What was promised?** State the exact promise-content claim if one exists.
+2. **What was said, published, or instituted?** Identify the speech-act Work, each description/publication object, and each institutional effect separately under its subject pattern.
+3. **What governance or permission-looking claim exists?** State either a generic D prescription with its exact normative source and applicability, an individual D claim about an exact obtaining commitment with its actual bearer and institution basis, or the selected `A6-AW-*` claim in its own quadrant. State responsibility separately under its admitted domain predicate or return its exact missing governor.
+4. **What happened, what followed, and what supports reliance?** State dated Work, each current result/change/delivery/acceptance claim, and each A.10 evidence claim separately; omit absent claims.
 
-When those answers need stable reuse, decision, audit, dispute, or cross-face projection, write them in the one A.6.B Claim Register: one atomic statement, direct object, exact subject assertion, non-semantic pattern locator, and quadrant per row. Otherwise stop with the repaired atomic prose. Faces cite any reused claim IDs; they do not create another bundle record.
+When those answers need stable reuse, decision, audit, dispute, or cross-face projection, write them in the one A.6.B Claim Register: one atomic statement, direct object, exact subject assertion, non-semantic pattern locator, and quadrant per row. Otherwise stop with the repaired atomic prose. Faces cite reused claim IDs or canonical locations; they do not create another bundle record.
 
 #### A.6.C:5.2 — Show (System archetypes)
 
@@ -83,29 +83,35 @@ When those answers need stable reuse, decision, audit, dispute, or cross-face pr
 *Draft wording (contract soup):*
 “The Payments API guarantees idempotency. Clients must provide `Idempotency-Key`. We log all requests. Availability is 99.9%.”
 
-**Unpack + classify:**
+**Source clauses and additional illustrative premises:**
+
+Preserve “We log all requests”; the draft supplies no particular logging Work or observation basis. “Availability is 99.9%” does not say whether 99.9% is a target, a promised bound, or an observed value; that meaning remains unresolved.
+
+For the extended case below, assume the `PaymentsAPI` description/publication, definitions of idempotency and key uniqueness, a gate policy with an additional key-validity condition, and a generic provider-side idempotency prescription. These are additional case premises, not atoms recovered from the draft. The source's client requirement remains to provide `Idempotency-Key`.
 
 * **Description/publication:** signature or mechanism publication for `PaymentsAPI` (MVPK faces: TechCard, InteropCard).
 * **L:** define idempotency and the uniqueness semantics of `Idempotency-Key`.
   (“Idempotent” is a semantic property, not a duty.)
 * **A:** admissibility predicate: request is admissible iff `Idempotency-Key` is present and valid.
   (Gate belongs to mechanism.)
-* **D:** the API policy generically requires covered clients to satisfy the gate and states the provider-side idempotency and availability prescriptions. No individual commitment follows from those clauses alone. If the case claims that `ClientIntegrator-A` or `ProviderSystem-A` bears one of those duties, cite that bearer's exact separately instituted A.2.8 commitment.
-  (Do not say “the API commits”. Responsibility, if claimed, needs its own direct relation.)
-* **E:** admitted system `PaymentsAvailabilityEvaluator-A` performed `AvailabilityEvaluation-Payments-T1 : U.Work` over the exact Payments API request population and window `T` using the L-defined availability metric. Exact A.6.1 application `PaymentsAvailabilityApplication-T1` has result binding `availabilityResult -> AvailabilityResult-Payments-T1`; that C.2.1 result episteme states `observedAvailability=99.9%` for `T`. When the SLA decision relies on this result, an A.10 path links it to the exact request-log and measurement carriers used.
+* **D:** the API policy generically requires covered clients to provide `Idempotency-Key`. In this extended case it also states a provider-side idempotency prescription. No individual commitment follows from those clauses alone. If the case claims that `ClientIntegrator-A` or `ProviderSystem-A` bears one of those duties, cite that bearer's exact separately instituted A.2.8 commitment.
+  (Responsibility, if claimed, needs its own direct relation.)
+* **E — additional hypothetical evaluation:** suppose admitted system `PaymentsAvailabilityEvaluator-A` performed `AvailabilityEvaluation-Payments-T1 : U.Work` over the exact Payments API request population and window `T` using the availability metric stipulated for this evaluation. Exact A.6.1 application `PaymentsAvailabilityApplication-T1` has result binding `availabilityResult -> AvailabilityResult-Payments-T1`; that C.2.1 result episteme states `observedAvailability=99.9%` for `T`. When the SLA decision relies on this result, an A.10 path links it to the exact request-log and measurement carriers used. This hypothetical observation does not select the meaning of the draft's unlabeled 99.9%.
 
 **(B) Hardware interface boundary**
 
 *Draft wording:*
 “The connector guarantees safe operation. Devices must not exceed 20V. Negotiation must succeed before power is applied.”
 
-**Unpack + classify:**
+**Source requirements and additional illustrative premises:**
 
-* **Description/publication:** published interface spec (pinout, electrical ranges, handshake procedure).
+The draft leaves open whether “Devices must not exceed 20V” is a device-behavior constraint or an obligation on a capable bearer, and it does not identify the safe-operation predicate. Preserve the 20V upper bound and the requirement that negotiation succeed before power is applied. The additional gate and test below do not resolve the bearer or safety choices.
+
+* **Description/publication — additional case premise:** assume a published interface spec supplying the pinout, electrical ranges, handshake procedure, and the test declaration used below.
 * **L:** electrical invariants and allowable ranges are definitions and invariants (truth-conditional).
-* **A:** admissibility predicate: power delivery is admissible only after handshake state reaches an agreed mode.
-* **D:** the interface specification's normative section contains generic prescriptions for covered manufacturers or integrators to implement the handshake and enforce voltage limits; it asserts no individual commitment occurrence.
-* **E:** admitted system `HardwareTestSystem-A` performed `ConnectorSafetyEvaluation-T1 : U.Work` over `Connector-C1` under the declared method, load, and temperature window. Exact A.6.1 application `ConnectorSafetyApplication-T1` has result binding `safetyResult -> ConnectorSafetyResult-T1`; that C.2.1 result episteme states `maximumObservedVoltage=19.8V`, `handshakeState=agreed-before-power`, and `ConnectorSafetyCriterion-v3=satisfied` for those conditions. When relied on, an A.10 path links this result to exact `TestReport-C1-T1`, `VoltageTrace-C1-T1`, and `NegotiationLog-C1-T1` carriers.
+* **A — additional gate premise:** suppose the interface specification makes power delivery admissible only after the handshake state reaches an agreed mode.
+* **Requirement awaiting classification:** retain “Devices must not exceed 20V”; recover its constraint or duty-bearer reading before assigning it to L or D. The negotiation-before-power requirement remains distinct from the additional gate predicate.
+* **E — additional hypothetical test:** suppose admitted system `HardwareTestSystem-A` performed `ConnectorSafetyEvaluation-T1 : U.Work` over `Connector-C1` under the declared method, load, and temperature window. Exact A.6.1 application `ConnectorSafetyApplication-T1` has result binding `safetyResult -> ConnectorSafetyResult-T1`; that C.2.1 result episteme states `maximumObservedVoltage=19.8V`, `handshakeState=agreed-before-power`, and `ConnectorSafetyCriterion-v3=satisfied` for those conditions. When relied on, an A.10 path links this result to exact `TestReport-C1-T1`, `VoltageTrace-C1-T1`, and `NegotiationLog-C1-T1` carriers. In this hypothetical test, 19.8V is below the retained 20V upper bound. The separately given criterion result does not by itself settle the draft's unspecified safe-operation claim.
 
 **(B-PER) Compact permission replay (only when the permission branch is live)**
 
@@ -113,14 +119,14 @@ When those answers need stable reuse, decision, audit, dispute, or cross-face pr
 
 **Unpack + classify:**
 
-* **Promise content (optional):** `SVC-RELEASE-4711` states which release artifact eligible consumers are promised; that content establishes no speech act, commitment, grant, deployment Work, result, or delivery.
-* **Speech-act Work:** `ReleaseGrantorAssignment` is a declared `U.SystemRoleAssignment` species. Occurrence `ReleaseGrantor-A` has admitted System `ReleaseAuthoritySystem` as holder and the local release-grantor kind as assigned-kind value. That System performs dated `Approve` occurrence `SA-4711` under the assignment. The assignment supplies only the holder and assigned-kind facts used by the policy; it neither performs the act nor supplies authority. Any authority required by `ReleaseGrantPolicy` must obtain independently. Under the applicable policy, `SA-4711` institutes—not merely publishes—grant occurrence `PER-4711` only if the A.2.8.PER obtaining conditions hold. Approval text and a register row that names `PER-4711` do not establish that fact.
-* **D — current grant (`A6-AW-NORM-GRANT`):** `ReleaseOperatorAssignment` is another declared species. Occurrence `Operator-A` has admitted System `DeploymentAgent-A` as holder and covers this window. The grant's beneficiary participant cites that occurrence, and its permitted-action participant is `U.EpistemeRef(Deploy-Release-4711)`. This Claim Register row uses `U.RelationRef(PER-4711)`, constrained to `GrantedPermissionRelation@Context`, as its `directObjectDesignation`. `SA-4711`, the two assignments, policy, context, scope, and window remain grounds or qualifiers. The model may use this D claim only while the A.2.8.PER conditions make `PER-4711` obtain and the row cites the named occurrence, act, and policy; the row itself does not make the grant current.
+* **Promise content (optional):** `SVC-RELEASE-4711` states which release artifact eligible consumers are promised.
+* **Speech-act Work:** `ReleaseGrantorAssignment` is a declared `U.SystemRoleAssignment` species. Occurrence `ReleaseGrantor-A` has admitted System `ReleaseAuthoritySystem` as holder and the local release-grantor kind as assigned-kind value. That System performs dated `Approve` occurrence `SA-4711` under the assignment. The assignment supplies only the holder and assigned-kind facts used by the policy. Any authority required by `ReleaseGrantPolicy` must obtain independently. Under the applicable policy, `SA-4711` institutes—not merely publishes—grant occurrence `PER-4711` only if the A.2.8.PER obtaining conditions hold.
+* **D — current grant (`A6-AW-NORM-GRANT`):** `ReleaseOperatorAssignment` is another declared species. Occurrence `Operator-A` has admitted System `DeploymentAgent-A` as holder and covers this window. The grant's beneficiary participant cites that occurrence, and its permitted-action participant is `U.EpistemeRef(Deploy-Release-4711)`. This Claim Register row uses `U.RelationRef(PER-4711)`, constrained to `GrantedPermissionRelation@Context`, as its `directObjectDesignation`. `SA-4711`, the two assignments, policy, context, scope, and window remain grounds or qualifiers. The model may use this D claim only while the A.2.8.PER conditions make `PER-4711` obtain and the row cites the named occurrence, act, and policy.
 * **E — weak evaluation alternative (`A6-AW-WEAK`):** if the basis establishes only current absence of prohibition in a sufficiently complete frame, record `NonProhibitionFinding@Context`; do not promote it to a strong grant or place it in D.
 * **A — independent entry predicate (`A6-AW-GATE`):** “deployment is admissible iff `PER-4711` currently obtains and preflight is green” is an `A-*` predicate. It may consume the grant as one condition but is neither the grant nor proof of gate passage. If an actual gate decision is also asserted, record its exact A.21 `GateDecisionResult`, bounded action, applicable profile application, complete required check-application result set, decision value, and consequence as a separate E claim.
-* **E — actual Work and exercise (`A6-AW-EXERCISE`):** A.13 first recovers admitted System `DeploymentAgent-A` as the exact actual performer through obtaining assignment occurrence `Operator-A` of declared species `ReleaseOperatorAssignment`; A.15.1 independently admits dated `U.Work` occurrence `DeployRun-4711`. Because this permission-exercise branch expressly consumes precise assignment-bound attribution, F.6 then relates that already admitted Work through the same assignment and checks holder equality and coverage. The Work must instantiate the action specification inside the grant's scope and window. Only then may `PermissionExerciseRelation@Context` bind `WorkRef(DeployRun-4711)` to `U.RelationRef(PER-4711)`, constrained to `GrantedPermissionRelation@Context`. The assignment contributes the beneficiary and attribution facts consumed here; it neither classifies the performer, grounds or creates performance, nor performs the Work. Failed F.6 leaves the Work intact but blocks this attribution-dependent exercise branch. Planned work, the approval wording, and preflight alone are not exercise.
-* **E — optional result or delivery:** if `DeployRun-4711` returns `ReleaseArtifact-4711`, cite the exact A.6.1 result binding or an already governed subject-specific `WorkResultRelation`; if that artifact is transferred, cite the independently obtaining delivery/transfer relation defined by its subject pattern. Work, result, and delivery do not imply one another.
-* **E — evidence (optional):** an A.10 path may link the exact grant, Work, exercise, result, or delivery claim to its current carriers for one bounded reliance use. The carriers create none of those objects.
+* **E — actual Work and exercise (`A6-AW-EXERCISE`):** A.13 first recovers admitted System `DeploymentAgent-A` as the exact actual performer through obtaining assignment occurrence `Operator-A` of declared species `ReleaseOperatorAssignment`; A.15.1 independently admits dated `U.Work` occurrence `DeployRun-4711`. Because this permission-exercise branch expressly consumes precise assignment-bound attribution, F.6 then relates that already admitted Work through the same assignment and checks holder equality and coverage. The Work must instantiate the action specification inside the grant's scope and window. Only then may `PermissionExerciseRelation@Context` bind `WorkRef(DeployRun-4711)` to `U.RelationRef(PER-4711)`, constrained to `GrantedPermissionRelation@Context`. The assignment contributes the beneficiary and attribution facts consumed here. Failed F.6 leaves the Work intact but blocks this attribution-dependent exercise branch. Planned work, the approval wording, and preflight alone are not exercise.
+* **E — optional result or delivery:** if `DeployRun-4711` returns `ReleaseArtifact-4711`, cite the exact A.6.1 result binding or an already governed subject-specific `WorkResultRelation`; if that artifact is transferred, cite the independently obtaining delivery/transfer relation defined by its subject pattern.
+* **E — evidence (optional):** an A.10 path may link the exact grant, Work, exercise, result, or delivery claim to its current carriers for one bounded reliance use.
 
 #### A.6.C:5.3 — Show (Episteme archetypes)
 
@@ -129,13 +135,15 @@ When those answers need stable reuse, decision, audit, dispute, or cross-face pr
 *Draft wording:*
 “The protocol guarantees progress. Participants must follow the sequence.”
 
-**Unpack + classify:**
+**Source clauses and additional illustrative premises:**
+
+The progress guarantee still needs its semantic or operational meaning. For the illustrative case below, assume the published protocol description and the trace-admissibility criteria; the named trace evaluation is an additional hypothetical case.
 
 * **Description/publication:** protocol description (could be a type spec or protocol spec plus explanatory views).
-* **L:** safety and progress properties as laws over the protocol model (truth-conditional, within the theory).
+* **L — when the guarantee is semantic:** the progress property is a law over the protocol model (truth-conditional, within the theory).
 * **A:** admissibility: when an interaction trace is considered valid or admissible (e.g., runtime checks; compilation checks; gating conditions for entering a session).
-* **D:** the protocol description carries generic prescriptions for covered implementers or operators: implement the protocol, do not send messages outside the state machine, and publish conformance records when required. It asserts no individual commitment occurrence.
-* **E:** admitted system `ProtocolConformanceEvaluator-A` performed `ProtocolConformanceRun-T1 : U.Work` over bounded interaction `Trace-42`. Exact A.6.1 application `ProtocolConformanceApplication-T1` has result binding `conformanceResult -> ProtocolConformanceResult-T1`; that C.2.1 result episteme states `conformanceVerdict=pass` and `observedTerminalState=completed` under `ProtocolConformanceCriterion-v5`. For a disputed interaction, an A.10 path links this result to exact `MessageTrace-42`, `ConformanceRunRecord-T1`, and `ProtocolAuditRecord-42` carriers.
+* **D:** the protocol description generically requires covered participants to follow the stated sequence. It asserts no individual commitment occurrence.
+* **E — additional hypothetical trace evaluation, not inferred from the progress guarantee:** suppose admitted system `ProtocolConformanceEvaluator-A` performed `ProtocolConformanceRun-T1 : U.Work` over bounded interaction `Trace-42`. Exact A.6.1 application `ProtocolConformanceApplication-T1` has result binding `conformanceResult -> ProtocolConformanceResult-T1`; that C.2.1 result episteme states `conformanceVerdict=pass` and `observedTerminalState=completed` under `ProtocolConformanceCriterion-v5`. For a disputed interaction, an A.10 path links this result to exact `MessageTrace-42`, `ConformanceRunRecord-T1`, and `ProtocolAuditRecord-42` carriers.
 
 **(D) Socio-technical “SLA + audit trail” boundary**
 
@@ -144,9 +152,10 @@ When those answers need stable reuse, decision, audit, dispute, or cross-face pr
 
 **Unpack + classify:**
 
-* **Promise content (service promise clause):** responsiveness promise for a defined incident class and window.
+* **Promise content (service promise clause, when present):** a responsiveness promise for a defined incident class and window is separate from the SLA's generic prescription.
 * **Description/publication:** SLA publication (and its views for different audiences).
 * **A:** admissibility predicate for the promise: ticket qualifies iff severity classification meets stated conditions.
-* **D:** the SLA clause is first a generic prescription for covered providers, clients, and auditors. Claim that actual provider `ProviderSystem-A` bears the four-hour duty only after the SLA's individualizing rule and required actual basis establish one exact A.2.8 commitment; otherwise keep the clause generic.
-* **E:** admitted system `SLAEvaluator-A` performed `ResponseEvaluation-Ticket-17 : U.Work` over Severity-1 ticket `Ticket-17` under the declared clock and measurement method. Exact A.6.1 application `ResponseMeasurementApplication-Ticket-17` has result binding `responseIntervalResult -> ResponseIntervalResult-Ticket-17`; that C.2.1 result episteme states `observedResponseInterval=3h42m` and `withinFourHourTarget=true`. When the SLA decision relies on this result, an A.10 path links it to exact ticket, response-timestamp, clock-source, and severity-classification carriers.
+* **D:** the SLA clause generically requires the covered Provider to respond within 4 hours for Severity-1 incidents; only Severity-1 is covered. Claim that actual provider `ProviderSystem-A` bears the four-hour duty only after the SLA's individualizing rule and required actual basis establish one exact A.2.8 commitment; otherwise keep the clause generic.
+* **Evidence source clause:** the draft names ticket logs as evidence; it supplies no measured response interval.
+* **E — additional hypothetical response evaluation:** suppose admitted system `SLAEvaluator-A` performed `ResponseEvaluation-Ticket-17 : U.Work` over Severity-1 ticket `Ticket-17` under the declared clock and measurement method. Exact A.6.1 application `ResponseMeasurementApplication-Ticket-17` has result binding `responseIntervalResult -> ResponseIntervalResult-Ticket-17`; that C.2.1 result episteme states `observedResponseInterval=3h42m` and `withinFourHourTarget=true`. When the SLA decision relies on this result, an A.10 path links it to exact ticket, response-timestamp, clock-source, and severity-classification carriers. The four-hour requirement is from the source; `3h42m` is the additional hypothetical observation.
 

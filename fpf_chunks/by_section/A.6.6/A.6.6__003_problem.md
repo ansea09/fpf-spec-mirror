@@ -6,12 +6,12 @@ section_id: "A.6.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__003_problem.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:2 — Problem"
-line_start: 19690
-line_end: 19726
+line_start: 19726
+line_end: 19762
 dependencies:
   - "A.10"
   - "A.14"
@@ -59,8 +59,8 @@ Typical failure modes this pattern is designed to eliminate:
 5. **`Γ_time` used as a proxy for freshness.**
    Authors treat `Γ_time` as “freshness” or “evidence decay”, collapsing TimePolicy with witness-timespan/freshness predicates.
 
-6. **Decision use without witnesses.**
-   Declarations that gate work, publication, or assurance are asserted without a witness/pin, breaking auditability and enabling folklore.
+6. **Decision use without its required basis.**
+   Declarations that gate work, publication, or assurance omit the basis required by that decision. A witness, pin, or time selector is required only when that use needs it; omitting the required basis prevents its audit.
 
 7. **Grounding conflation.**
    “Grounding” is used as if it were one relation, while FPF already distinguishes at least:
@@ -72,7 +72,7 @@ Typical failure modes this pattern is designed to eliminate:
    A.6.5 distinguishes relation positions, their fillers, and stored references. Umbrella basing language can hide the direct relation at the next layer, while record-edit language can be mistaken for change in the relation itself.
 
 9. **Anchor relapse (source or meaning surrogate).**
-   “Anchor/anchoring” is used to mean “the source”, “the meaning”, “the global reference”, or “the thing that makes this true”. This hides the exact source, scheme, expression, local claim, and any obtaining basis relation behind a metaphor and makes review impossible.
+   “Anchor/anchoring” is used to mean “the source”, “the meaning”, “the global reference”, or “the thing that makes this true”. This hides the exact source, scheme, expression, local claim, and any obtaining basis relation behind a metaphor; the phrase alone does not let a reviewer recover them.
 
 10. **Support bucket relapse.**
     “Support”, “support basis”, “support relation”, or “support record” is used as a generic container for unlike relations. Some cases are direct base-dependence; others are evidence use, assurance input, causal-use support basis, mathematical-lens use, work enablement, source description, publication companionship, or ordinary help. Treating them as one support relation recreates the under-described dependence that A.6.6 is meant to repair.

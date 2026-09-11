@@ -6,12 +6,12 @@ section_id: "F.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__006_archetypal-grounding.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:5 — Archetypal Grounding"
-line_start: 94025
-line_end: 94101
+line_start: 94073
+line_end: 94149
 dependencies:
   - "A.10"
   - "A.7"

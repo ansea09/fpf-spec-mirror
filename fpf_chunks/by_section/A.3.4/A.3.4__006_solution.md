@@ -6,12 +6,12 @@ section_id: "A.3.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__006_solution.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:4 — Solution"
-line_start: 9440
-line_end: 9608
+line_start: 9405
+line_end: 9565
 dependencies:
   - "A.1"
   - "A.10"
@@ -68,8 +68,6 @@ Here, **one** means one occurrence at the resolution, subject, extent, and bound
 
 Treat a possible, desired, planned, predicted, modeled, asserted, or published change as claim content until the occurrence facts above hold. A formal transformation can be actual within an admitted formal substrate, but its formula or proof term remains a `C.29` representation of that independently identified formal change.
 
-**Mint vs reuse.** A.3.4 reuses the already admitted root U-kind and public name `U.Transformation` from E.24.UK. It introduces no additional U-kind, relation kind, public composition name, `RelationSignature`, or local well-formedness identifier. The component-change and whole-configuration-change wording below names only question roles for independently identified occurrences; it asserts no composition.
-
 #### A.3.4:4.2 - First-use transformation basis
 
 Use these questions as a recognition aid, not as fields of a transformation record:
@@ -86,13 +84,13 @@ Use these questions as a recognition aid, not as fields of a transformation reco
 
 Choose only the next claim that the use actually needs:
 
-- **Work.** First identify a dated `U.Work` occurrence under `A.15.1`. If both work and transformation participants are identified, apply the three outcomes in `4.2.4`. The short reactor fixture has not identified that work occurrence, so it makes no work-to-change claim and does not yet report a missing governor.
+- **Work.** First identify a dated `U.Work` occurrence under `A.15.1`. If both work and transformation participants are identified, apply the routes and stops in `4.2.4`. The short reactor fixture has not identified that work occurrence, so it makes no work-to-change claim and does not yet report a missing governor.
 - **Safety evaluation.** Use case-local `evaluatesTransformation@PlantSafety-v4(SafetyEvaluation-7, CoolingLoopTransformation-7, CoolingLoopSafetyCriterion-v4)` only when all three participants are identified and the predicate's obtaining conditions hold. Identify a decision separately when one is claimed.
 - **Publication.** Use a C.2.1 assertion whose EntityOfConcern is `CoolingLoopTransformation-7` and identify its E.24.PUB publication occurrence.
 
 If none of these uses is being claimed, keep the identified transformation and add no neighboring relation.
 
-**Choose the next branch now.** If the current result is one identified transformation and the use needs no positive claim that several changes compose one change or that the change is a holon, continue directly at 4.3. Sections 4.2.1-4.2.3 are not prerequisites for that ordinary route. Open them only when the use needs one of those two positive claims; the current advanced branch returns the parked blocker and selects no future architecture.
+**Choose the next branch now.** If the current result is one identified transformation and the use needs no positive claim that several changes compose one change or that the change is a holon, continue directly at 4.3. Sections 4.2.1 and 4.2.3 are not prerequisites for that ordinary route. Open them only when the use needs one of those two positive claims; the current advanced branch returns the parked blocker and selects no future architecture.
 
 ##### A.3.4:4.2.1 - Keep proposed component and whole-configuration changes separate
 
@@ -103,12 +101,6 @@ Identify every proposed component change and the proposed whole-configuration ch
 The neighboring general patterns do not silently answer the composition question. `A.22` can identify a selected structure whose relation organization changes; `C.27.TA` can identify temporal aspects; `A.14` and `C.13` define structural mereology and a `Γ_m` construction trace. None of those results by itself says that several actual changes compose one actual change. A materialized `Γ_m.sum` trace is a C.2.1 episteme about identified entity-part relations, assembly, and direct identity or reidentification conditions.
 
 One independently identified change of a selected configuration can therefore remain a valid configuration transformation. If the use needs no positive composition or transformation-holon claim, continue with that transformation and the ordinary neighboring-object guidance in `4.3`-`4.8`. If it does need such a claim, retain the identified changes and stop with **missing transformation-composition governor**; a proposed local compound claim also stops with **missing derivation substrate**. Neither stop says that composition is false or that any change is partless.
-
-##### A.3.4:4.2.2 - Keep the composition architecture open (informative)
-
-Transformation composition remains an open research question, not a relation architecture declared by this Stable pattern. Future work must decide what identifies and reidentifies a proposed whole change and its constituents; whether and when method parts, work parts, changed-substrate changes, temporal segments, and causal contributions correspond; which contribution, compatibility, boundary, interface, and whole-level-characteristic laws matter; and what substrate, if any, makes a derived claim valid.
-
-That work must also compare rather than preselect the representation of the answer: one generic relation, several subject-specific relations, bounded local compound claims, or continued non-admission. A.3.4 chooses none of them. It mints no composition relation kind, designator, signature, occurrence-identity law, or local well-formedness identifier.
 
 ##### A.3.4:4.2.3 - Apply A.1 only after composition is independently established
 
@@ -128,7 +120,7 @@ Stress the current boundary before classifying:
 
 ##### A.3.4:4.2.4 - Keep work and production claims outside transformation identity
 
-Do not infer a work-to-change connection from shared timing, a common affected subject, or the word *successful*. Once the `U.Work` and `U.Transformation` participants are both identified, choose exactly one outcome: (1) apply an existing subject predicate whose declared participants and obtaining condition match the case; (2) state an `A.6.RCD` disposition-2 local compound claim over named base facts and an admitted substrate; or (3) return `missing-governor` for that exact pair.
+Do not infer a work-to-change connection from shared timing, a common affected subject, or the word *successful*. Once the `U.Work` and `U.Transformation` participants are identified, apply a matching current subject predicate or, when `A.6.RCD` disposition 2 permits it, state the local compound claim over named base facts and an admitted substrate. Preserve the applicable `A.6.RCD` result: `missing-governor` for an absent needed governing rule; `missing-information` for an unavailable fact needed by an existing test; `factually unsupported` when sufficient facts fail its positive test; that rule's inapplicable result when applicability fails; or `missing-substrate` when the proposed derivation lacks admitted constructor semantics.
 
 Production is a separate question. For a production claim, test production-work participation, first existence of an entity, and production completion separately. Apply `A.15.PROD` to the exact work, work part, subject-identity facts, completion criterion, and direct effect facts. A.3.4 contributes only the independently identified transformations.
 
@@ -151,7 +143,7 @@ For one identified transformation, keep these objects distinct:
 
 A verbal predicate does not turn every obtaining relation occurrence into a transformation. Assignment, availability, installation, and temporal order can obtain without change. Conversely, one actual transformation may require several relation facts without being identical to any one of them.
 
-Do not use a generic `transformationRelation` field. If an existing relation already states the needed fact, use it. Otherwise apply `A.6.RCD`: a local compound claim is available only when its exact base facts and admitted substrate are present; if either is missing, return `missing-governor` or `missing-substrate`. Introduce a reusable predicate-definition episteme only when repeated uses need the same rule. A new durable relation kind still needs its own obtaining and occurrence-identity law; a task, morphism, operation family, or verbal predicate cannot be inserted into one union-valued field.
+Do not use a generic `transformationRelation` field. If an existing relation already states the needed fact, use it. Otherwise apply `A.6.RCD`: a local compound claim is available only when its exact base facts and admitted substrate are present; if a required basis is missing, preserve the applicable `A.6.RCD` stop. Introduce a reusable predicate-definition episteme only when repeated uses need the same rule. A new durable relation kind still needs its own obtaining and occurrence-identity law; a task, morphism, operation family, or verbal predicate cannot be inserted into one union-valued field.
 
 #### A.3.4:4.4 - Add neighboring objects only for the claim being made
 
@@ -163,7 +155,7 @@ For each neighboring claim, identify the object it needs and state that object's
 | claim-bearing account of that way | `A.3.2` and C.2.1 govern `U.MethodDescription` |
 | typed operation arguments or results | A.6.1 governs the exact operation declaration and application binding; these are not generic transformation inputs or outputs |
 | intended work | `A.15.2` governs `U.WorkPlan` |
-| performed work | `A.15.1` governs dated `U.Work` occurrences; `4.2.4` then requires an existing subject predicate, an `A.6.RCD` disposition-2 local compound claim, or `missing-governor` for the named work/transformation pair |
+| performed work | `A.15.1` governs dated `U.Work` occurrences; for the named work/transformation pair, apply the routes and stops in `4.2.4` |
 | transformation-flow location or composition | `E.18` governs selected `TransformationFlowStructure` |
 | mathematical expression | `E.18.2` and `C.29` govern representation |
 | dynamics model | `A.3.3` governs the episteme |
@@ -201,7 +193,7 @@ If the task is about the description, use `C.2.1`, `A.3.2`, `A.3.3`, `E.17`, `E.
 
 A morphism, constructive proof, or formal state transition can correspond to an actual transformation of a formal object within the selected formal substrate. The formula, morphism, or proof term is still its C.29 representation.
 
-For a physical, clinical, organizational, architectural, documentary, or epistemic change, a formal expression may specify, predict, constrain, or compare the change. First identify the changed subject, boundary, and before/during/after facts. If a later claim says that dated `U.Work` caused, realized, or participated in that transformation, apply the three outcomes in `4.2.4`; return `missing-governor` when the named pair has neither an existing predicate nor a valid local compound basis.
+For a physical, clinical, organizational, architectural, documentary, or epistemic change, a formal expression may specify, predict, constrain, or compare the change. First identify the changed subject, boundary, and before/during/after facts. If a later claim says that dated `U.Work` caused, realized, or participated in that transformation, apply the routes and stops in `4.2.4` to the named pair.
 
 #### A.3.4:4.8 - Multi-reading source phrase
 
@@ -216,7 +208,7 @@ Keep these objects separate:
 - when claim content changes, the earlier specification episteme and the later specification episteme are distinct C.2.1 identities; `EpistemeEditionRelation` relates them only when its historical-continuation predicate obtains;
 - dated editing or review is a `U.Work` occurrence admitted under `A.15.1`;
 - edition succession alone establishes no transformation of one continuing episteme. Open A.3.4 only for a separately continuing subject—such as a selected `U.PresentationCarrier` under `E.24.PUB` or a claim-bearing constituent organization—after naming its boundary, before/during/after facts, and continuity rule; otherwise stop without a transformation claim;
-- if revision `U.Work` first constitutes the later episteme, open a separate `A.15.PROD` first-existence question: name the exact `productIdentitySpecification` episteme, the named applicability predicate or filled local claim that applies it to the candidate basis, subject context, and boundary, the `identityClosingWork`, and the work-to-change and change-to-identity predicates or local compound claims. If that specification continues an earlier specification, state the separate C.2.1 `EpistemeEditionRelation` only when its historical-continuation predicate obtains; without that relation, treat it as a non-continuing replacement and evaluate its applicability independently. Return `missing-governor` for either named work/change pair whose basis is absent;
+- if revision `U.Work` first constitutes the later episteme, open a separate `A.15.PROD` first-existence question: name the exact `productIdentitySpecification` episteme, the named applicability predicate or filled local claim that applies it to the candidate basis, subject context, and boundary, the `identityClosingWork`, and the work-to-change and change-to-identity predicates or local compound claims. If that specification continues an earlier specification, state the separate C.2.1 `EpistemeEditionRelation` only when its historical-continuation predicate obtains; without that relation, treat it as a non-continuing replacement and evaluate its applicability independently. Return the applicable `A.6.RCD` stop for either named connection that lacks its required basis;
 - a plant change, safety evaluation, assurance claim, gate decision, and publication are separate objects and relations.
 
 If only the proposed wording and proof are available, do not assert a project-world plant transformation. Different claim content gives two epistemes; test their `EpistemeEditionRelation`. Assert an A.3.4 specification-side transformation only for a separately continuing carrier or constituent organization with its boundary, before/during/after facts, and continuity rule. If the question instead concerns the later episteme's first existence, use `A.15.PROD` and stop when either direct connection lacks a basis. The proof can support an assertion only through its evidence or derivation use.

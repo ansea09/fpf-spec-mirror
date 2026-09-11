@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__006_archetypal-grounding.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:5 — Archetypal grounding"
-line_start: 10977
-line_end: 11068
+line_start: 10939
+line_end: 11032
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -34,8 +34,8 @@ Why the cue is not enough yet:
   law, admissibility gate, duty, work effect, or evidence statement;
 - one summary page or local paraphrase can be mistaken for the governing
   boundary description;
-- a reviewer can start arguing full semantics before the first-contact
-  recognition entry load has been stabilized.
+- a reviewer can start arguing full semantics before identifying which
+  description to inspect.
 
 Recognition repair:
 
@@ -54,8 +54,8 @@ Recognition repair:
    a different routed-quadrant statement mistaken for the governing admissibility
    description.
 8. `first_admissible_entry_stop_or_reroute` = the reader can now say "this is the
-   admissibility description to inspect first"; if the entry load becomes routed
-   claim structure, inspect `A.6.B`.
+   admissibility description to inspect first"; if the reader needs to classify
+   the boundary claims, inspect `A.6.B`.
 
 #### A.6.RSIG:5.2 - System-side anti-case: interface/access description over-read as promise
 
@@ -65,20 +65,22 @@ Draft cue:
 
 Plausible but wrong first reading:
 
-- the reader treats one access/request description as if it already promised
-  one downstream operational effect or successful completion.
+- the reader treats deployment initiation as a guarantee of successful
+  completion or of the whole deployment result.
 
 Recognition repair:
 
 1. `description_seen` = one interface/access description.
 2. `encountered_carrier_or_projection` = one API excerpt or endpoint note.
-3. `applies_to` = request accessibility and invocation form.
+3. `applies_to` = request accessibility, invocation form, and the stated
+   deployment initiation under the conditions in the defining description.
 4. `excludes` = success, completion, rollout, or downstream effect guarantees
    not present in the access description itself.
 5. `definitionEpistemeRef` = the defining episteme for the access description;
    inspect the specification or pattern governing downstream effect separately if that question is current.
 6. `first_admissible_entry_stop_or_reroute` = "this is the access description to
-   inspect first, not the promise of the whole deployment result."
+   inspect first: it describes invocation of `POST /deploy` and deployment
+   initiation, not guaranteed successful completion."
 
 #### A.6.RSIG:5.3 - Episteme-side worked recognition repair: method-description applicability
 
@@ -92,8 +94,8 @@ Why the cue is not enough yet:
   selecting one option, shaping a shortlist, or comparing method families;
 - the method note can be mistaken for the defining `U.Episteme` of selection
   semantics;
-- a team can prematurely choose `C.11` or `G.5` before knowing what kind of
-  comparison entry load is actually being made.
+- a team can prematurely choose `C.11` or `G.5` before identifying what the
+  pairwise comparison is to determine.
 
 Recognition repair:
 
@@ -103,8 +105,8 @@ Recognition repair:
 3. `applies_to` = comparison under a declared comparator set or characteristic
    family.
 4. `excludes` = publication of a selected set, execution planning, evidence
-   sufficiency, and one-off decision doctrine unless those governing FPF patterns or `authoritySourceRef` targets are separately
-   opened.
+   sufficiency, and one-off decision doctrine. If one of those questions is
+   current, apply the pattern that governs it and obtain the result it requires.
 5. `definitionEpistemeRef` = the relevant comparison or method pattern, not the
    note itself.
 6. `nearby_false_description_or_wrong_definition_episteme` = selection/publication doctrine

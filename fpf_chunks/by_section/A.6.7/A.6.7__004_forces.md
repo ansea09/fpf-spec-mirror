@@ -6,12 +6,12 @@ section_id: "A.6.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__004_forces.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:3 — Forces"
-line_start: 20135
-line_end: 20156
+line_start: 20178
+line_end: 20199
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -41,7 +41,7 @@ keywords:
 
 1. **Strict distinction (level hygiene).**
    *“many mechanisms”* must not be encoded as *“many realizations of one mechanism”*.
-   Violating this blurs specialization laws, SlotKind invariance expectations, and audit/crossing responsibilities.
+   Violating this blurs specialization laws, mechanism-declaration invariants, and audit/crossing responsibilities.
 
 2. **Minimal specificity + kind suffix discipline (E.10).**
    The token name should encode only what is essential: it is a description, it is about mechanisms, it is a suite.

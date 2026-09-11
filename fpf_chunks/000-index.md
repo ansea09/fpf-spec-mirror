@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `a87d0ef4f3712507edd6e5a59f4de5bf7a55905a`
+Commit SHA: `ef9ded2cb965193aa2484c84f06d65770439cef8`
 
 Chunking method: `pattern-aware`
 
@@ -60,7 +60,7 @@ Patterns: `315`
 - [A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline](by_pattern/A.6.5.md)
 - [A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed](by_pattern/A.6.6.md)
 - [A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms](by_pattern/A.6.7.md)
-- [A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context "same", "equivalent", and "align" via explicit Bridges (RPR-XCTX)](by_pattern/A.6.9.md)
+- [A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind "same", "equivalent", and "align" (RPR-XCTX)](by_pattern/A.6.9.md)
 - [A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering](by_pattern/A.6.S.md)
 - [A.6.H — Wholeness Language Unpacking — RPR-WHOLE](by_pattern/A.6.H.md)
 - [A.7 — Strict Distinction (Clarity Lattice)](by_pattern/A.7.md)

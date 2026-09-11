@@ -6,12 +6,12 @@ section_id: "A.12:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__011_consequences.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:8 — Consequences"
-line_start: 24106
-line_end: 24121
+line_start: 24137
+line_end: 24152
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -39,14 +39,14 @@ keywords:
 Positive consequences:
 
 - Self-action claims become inspectable without denying real internal regulation.
-- A.12 stays thin and does not duplicate transformation, method, work, role, evidence, or part-whole ontics.
-- Epistemes and publications stop acting by wording.
-- Internal control loops, build scripts, and automated changes become easier to audit.
-- Manufacturing, teaching, measurement, repair, and control examples no longer imply holonic containment by default.
+- Transformation, Work, assignment and evidence claims can be tested separately.
+- An automated publication update identifies its performer separately from the script and changed content.
+- Internal control loops and automated changes can be traced through their acting and changed participants.
+- Interaction cases retain a separate parthood question.
 
 Costs:
 
-- Compact "self-" sentences need unpacking before use.
+- When the acting/changed distinction matters, a compact "self-" sentence needs unpacking.
 - Some diagrams need one more internal distinction between acting and changed positions.
-- Evidence cannot be accepted merely because the acting system produced a success message.
+- Supporting a success or safety claim can require evidence beyond the producer’s success message.
 

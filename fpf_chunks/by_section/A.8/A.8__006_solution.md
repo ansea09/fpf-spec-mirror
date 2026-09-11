@@ -6,19 +6,21 @@ section_id: "A.8:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__006_solution.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:3 — Solution"
-line_start: 22512
-line_end: 22538
+line_start: 22527
+line_end: 22553
 dependencies:
   - "A.11"
   - "C.3"
   - "C.3.1"
   - "E.24.UK"
+  - "F.17"
   - "F.18"
   - "F.8"
+  - "F.9"
 keywords:
   - "domain-agnostic"
   - "kernel-level U-kind admission"
@@ -34,7 +36,7 @@ The candidate passes A.8 only when all four conditions hold:
 
 1. **Distinct domain families.** At least three projections come from foundationally different domain families.
 2. **Same abstract contribution.** Each projection shows the same kernel contribution, not merely a similar word.
-3. **Non-trivial diversity.** Each projection adds a non-trivial signal or bridge evidence not subsumed by the other two.
+3. **Non-trivial diversity.** Each projection adds a non-trivial signal or bridge evidence not subsumed by the other projections.
 4. **Recorded losses.** Differences, losses, and bridge risks are visible enough that readers can tell what is shared and what is local.
 
 Use this compact record:

@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__008_conformance-checklist.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:7 — Conformance checklist"
-line_start: 11084
-line_end: 11105
+line_start: 11048
+line_end: 11070
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -32,13 +32,14 @@ keywords:
 - **CC-RSIG-3 Neighbor boundaries explicit.** The text states the conditions
   under which the recognition question calls for each relevant neighboring
   pattern in §4.4; use only the patterns that govern the current questions.
-- **CC-RSIG-4 No kind inflation.** Recognition signatures are not silently
-  promoted into `U.Signature`, Signature Stack objects, publication face kinds, publication form kinds, carrier kinds,
-  graph objects, workflow objects, or new `U.*` kinds.
+- **CC-RSIG-4 No kind inflation.** An ordinary recognition cue is not by itself a
+  typed `U.Signature`; a task requiring a typed declaration uses the applicable
+  neighboring pattern under §4.5.
 - **CC-RSIG-5 Recoverable cue shape.** For load-bearing cases, description,
-  viewpoint, cue, applicability, exclusion, defining `U.Episteme`, false neighbor,
-  and admissible entry stop remain recoverable.
-- **CC-RSIG-6 No alias minting.** Query cues and ordinary phrasing do not become
-  aliases, bridges, semantic twins, or lexical authority without applying the relevant
-  naming pattern or `authoritySourceRef` target.
+  viewpoint, cue, applicability, exclusion, defining `U.Episteme`, and admissible
+  entry stop remain recoverable. A false neighbor is required only when the
+  grounded-guard condition in §4.1 holds.
+- **CC-RSIG-6 No alias minting.** Query cues and ordinary phrasing do not by
+  themselves establish a naming settlement or Bridge. Use `F.18` for naming
+  settlement and `F.9` for a Bridge, each under its own conditions.
 

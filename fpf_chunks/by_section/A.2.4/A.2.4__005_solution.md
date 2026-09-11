@@ -6,12 +6,12 @@ section_id: "A.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__005_solution.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:4 — Solution"
-line_start: 4734
-line_end: 4862
+line_start: 4735
+line_end: 4865
 dependencies:
   - "A.10"
   - "A.2"
@@ -47,10 +47,10 @@ Use direct relation patterns instead:
 | Current claim | Use |
 | --- | --- |
 | one episteme is used as evidence for one claim, effect, or bounded reliance use | `A.10`, with the A.2.4 evidence-use SlotKinds below |
-| evidence use contributes to assurance, trust, readiness, compliance, safety, release confidence, `F`, `G`, `R`, or `CL` | `B.3`, after A.10 source/provenance recovery and bounded-reliance classification; A.2.4 supplies only the first-use classification |
+| evidence is used by an actual named assurance claim | `B.3`, after A.10 source/provenance recovery and bounded-reliance classification; A.2.4 supplies only the first-use classification |
 | the episteme itself is being identified, versioned, or distinguished from publication faces and publication carriers | `C.2.1` |
 | the use is causal, counterfactual, intervention-facing, or simulation-only | `C.28`, with the A.10 descriptive source/provenance path and the A.2.4 first-use classification as inputs |
-| the source says "status", "approved", "current", "valid", "stale", "ready", or another status-like value | `F.10`, A.10, B.3, a gate pattern, or a direct status pattern |
+| the source says "status", "approved", "current", "valid", "stale", "ready", or another status-like value | `F.10` or the direct status, gate, permission, safety, or release pattern; A.10 for bounded reliance and B.3 for an actual named assurance claim |
 | the source is a publication face, view, description, source citation, standard, requirement, explanation, or specification-use case | `E.17`, `E.17.0`, `E.17.2`, `E.17.EFP`, `E.10.D2`, or the direct source-use pattern |
 | an admitted system is classified under an exact local system-role kind, holds an obtaining assignment, and performs or prepares Work | `A.2`, `A.2.1`, `A.15`, `A.15.1`, or `A.15.2` |
 
@@ -155,7 +155,9 @@ Keep these objects separately recoverable whenever they are current:
 5. the A.10/G.6 source and provenance path;
 6. the G.11 currentness result when currentness affects use;
 7. the receiving dated work and exact premise, reference, decision-use, operation-argument, or other direct use relation; and
-8. the local A.10 `RelianceDisposition`, with B.3 entered only for an assurance claim or material reliance.
+8. the local A.10 `RelianceDisposition`.
+
+Use B.3 only when an actual named assurance claim is being made. If a direct domain rule requires one for the intended use, state that claim and its required basis first.
 
 Use A.2.4 only to classify evidence use or status use around the episteme.
 

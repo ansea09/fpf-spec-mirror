@@ -6,12 +6,12 @@ section_id: "A.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.5/A.5__003_problem.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.5 — Open‑Ended Kernel & Extension Layering"
   - "A.5:2 — Problem"
-line_start: 10145
-line_end: 10155
+line_start: 10099
+line_end: 10109
 dependencies:
 keywords:
   - "FPF architecture"
@@ -26,7 +26,7 @@ If FPF were to let **domain‑specific primitives creep into its Kernel**, two p
 
 | Pathology               | Manifestation                                                                                                                  | Breach of Constitution                                                     |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
-| **Kernel Bloat**        | Every new field (e.g. synthetic biology) adds convenience root U-kinds or local type vocabularies -> Core size explodes, review workload becomes unscalable.       | Violates **C-5 Ontological Parsimony**; erodes **P-1 Cognitive Elegance**. |
+| **Kernel Bloat**        | Adding domain-specific root U-kinds or local type vocabularies to the Kernel increases its size and review burden.       | Violates **C-5 Ontological Parsimony**; erodes **P-1 Cognitive Elegance**. |
 | **Conceptual Gridlock** | Conflicting axioms (deterministic thermodynamics vs. indeterministic econ‑metrics) must fight for space in the same namespace. | Breaks **C‑3 Cross‑Scale Consistency**; triggers chronic DRR deadlock.     |
 
 A *minimal, extensible* design is therefore mandatory.

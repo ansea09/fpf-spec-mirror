@@ -6,12 +6,12 @@ section_id: "A.3.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__012_rationale.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:10 — Rationale"
-line_start: 9709
-line_end: 9718
+line_start: 9664
+line_end: 9673
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,9 +56,9 @@ keywords:
 
 `U.Transformation` gives FPF one object for an actual bounded change. Identify it from the continuing subject, boundary, before/during/after facts, boundary conditions, and continuity or reidentification rule. Keep task, method, plan, work, operation family, predicate, representation, assertion, evidence, evaluation, publication, and later-use claims visible as separate objects rather than fields of the transformation.
 
-An independently identified configuration transformation is not made into a whole with transformation parts merely because separately identified changes occur in the same episode or concern referents selected into that configuration. A.3.4 deliberately stops before choosing the missing architecture. It does not prescribe constituent identity, contribution, compatibility, substrate, reidentification, or whether the eventual answer is a generic relation, subject-specific relations, bounded local compound claims, or continued non-admission. The truthful current result is the independently identified changes plus the parked blocker, not a provisional kind or future definition law.
+An independently identified configuration transformation is not made into a whole with transformation parts merely because separately identified changes occur in the same episode or concern referents selected into that configuration. A positive composition claim still needs its governing rule and, for a compound claim, admitted derivation semantics.
 
 A.1 remains an independent second test. If future accepted work supplies one exact whole transformation and all six A.1 construction facts, A.1 can judge that same entity. Until then, a whole or composite label, a trace, and the parked blocker supply no holonhood.
 
-This separation also keeps production and result claims honest. `U.Work` can cause or participate in change only through one of the three `4.2.4` outcomes, and even a positive work-to-change claim does not make every such change production. A post-boundary entity may be the same continuing entity rather than a newly constituted one. Production-work participation, first existence, production completion, delivery, acceptance, and downstream effect each need their own participants, relation, and criterion.
+This separation also keeps production and result claims honest. A claim that `U.Work` caused or participated in a transformation needs the corresponding route in `4.2.4`; even a positive work-to-change claim does not establish production. A post-boundary entity may be the same continuing entity rather than a newly constituted one. Production-work participation, first existence, production completion, delivery, acceptance, and downstream effect each need their own participants, relation, and criterion.
 

@@ -6,12 +6,12 @@ section_id: "C.37:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__004_forces.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:3 — Forces"
-line_start: 68555
-line_end: 68565
+line_start: 68599
+line_end: 68609
 dependencies:
   - "A.10"
   - "A.2.4"

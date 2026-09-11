@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__014_relations.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:12 — Relations"
-line_start: 78448
-line_end: 78459
+line_start: 78492
+line_end: 78503
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -42,6 +42,6 @@ keywords:
 | `A.2`, `C.3`, `C.3.1`, and `C.3.2` | Recover exact local system-role kinds; judge candidate membership through C.3.2 under an exact signature edition and slice; recover subkind order and continuity. |
 | `A.2.1`, `A.2.5`, `A.2.7`, and `F.6` | Recover assignments, assignment state, relations among system-role kinds, and performed-Work attribution. |
 | `A.6.RSIR`, `A.6.5`, `A.6.1`, and `C.29` | Recover direct-relation participation, declaration places, operation declarations and bindings, interfaces, and representation positions. |
-| `A.10`, `B.3`, `F.10`, and `E.17` | Recover evidence, assurance, status, source, and publication uses of epistemes. |
+| `A.10`, `B.3`, `F.10`, `E.17`, and `E.24.PUB` | Use A.10 for claim-bound evidence-provenance accounts, B.3 for an actual named assurance claim, F.10 for status-family distinctions, E.17 for reader-facing forms of an accepted account, and E.24.PUB for publication occurrence, form, carrier, or audience availability. |
 | `F.18` and `F.19` | Check durable names and the final plain precise sentence after the object is recovered. |
 

@@ -6,12 +6,12 @@ section_id: "A.6.B:7"
 section_title: "Mini-register: Claim Register (informative, recommended)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__009_mini-register-claim-register-informative-recommended.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:7 — Mini-register: Claim Register (informative, recommended)"
-line_start: 11478
-line_end: 11492
+line_start: 11454
+line_end: 11474
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -93,9 +93,15 @@ A Claim Register is a drift‑control device that lists every classifiable state
 
 Guidance (informative):
 * The **Statement** cell should contain the normative text as authored (copied by value), not a paraphrase.
-* **Canonical location** should point to the one place the statement “lives” (e.g., `Signature.Laws`, `Mechanism.AdmissibilityConditions`, `TechCard.NormsCommitments`, `Evidence.Carriers`), so other faces can cite it by ID.
+* **Canonical location** should point to the one place the statement “lives” (e.g., `Signature.Laws`, `Mechanism.AdmissibilityConditions`, `TechCard.NormsCommitments`, `Evidence.Carriers`), so other faces can cite its ID or canonical location.
 * **Stack layer** should be one of `{Signature, Mechanism, Norms-and-commitments, Evidence-and-carriers}` to make classification auditable.
-* **A.7 primary side** is the claim’s primary referent (`EntityOfConcern`, Description episteme, or publication carrier), even though the claim is always written as a Description episteme.
+* **A.7 primary layer** identifies the claim's EntityOfConcern, with its kind
+  when needed. The concern may itself be a Description episteme or publication carrier;
+  it remains distinct from the episteme carrying the claim.
 * **viewRef** and **viewpointRef** are used when the corresponding view or viewpoint identity matters under E.17; `U.View` membership requires E.17.0 conformance.
-* Use **References** for explicit cross‑quadrant links (e.g., which `D-*` enforces which `A-*`, which `E-*` adjudicates which commitments, which `L-*` defines a metric used by `E-*`) and for external standards or policies where applicable.
+* Use **References** for explicit cross‑quadrant links: for example, which `D-*`
+  states a requirement or individual duty to enforce which `A-*` predicate, which
+  `E-*` reports the result or evidence used to adjudicate which commitment, and
+  which `L-*` defines a metric used by `E-*`. Add external standards or policies
+  where applicable.
 

@@ -6,12 +6,12 @@ section_id: "B.1.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__001_intro.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:intro — Intro"
-line_start: 36780
-line_end: 36785
+line_start: 36824
+line_end: 36829
 dependencies:
   - "A.1"
   - "A.10"

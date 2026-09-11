@@ -6,12 +6,12 @@ section_id: "A.6.4:12"
 section_title: "Mini-checklist (for use)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__013_mini-checklist-for-use.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:12 — Mini-checklist (for use)"
-line_start: 16029
-line_end: 16040
+line_start: 16065
+line_end: 16076
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,10 +40,10 @@ keywords:
 When you think you need retargeting, ask:
 
 1. **Does the EntityOfConcern change?** If no, use A.6.3 or another preserving pattern.
-2. **Which two epistemes and EntitiesOfConcern are involved?** Name them before naming a mapping technology.
+2. **Which exact arrow, endpoint epistemes and EntitiesOfConcern are involved?** Name them before naming a mapping technology.
 3. **Which invariant does q state?** Name its exact proposition and case assumptions.
 4. **What is lost, and which receiving use tolerates that loss?** A broad "same meaning" answer is insufficient.
 5. **What witnesses the invariant and loss judgement?** If the witness is missing or contradicted, stop or reopen.
 6. **Is a relation between two local senses also claimed?** Only then test F.9 separately; no Bridge follows merely from retargeting.
-7. **Was computation or other Work performed?** Identify the operation application and Work separately from r and q.
+7. **Was computation or other Work performed?** When an A.6.1 operation declaration is current, identify the exact application and its argument and result bindings. Identify any performed Work separately from r and q.
 

@@ -6,12 +6,12 @@ section_id: "A.15:12a"
 section_title: "Coordinated-work evidence and distributed-state relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__014_coordinated-work-evidence-and-distributed-state-relation-note.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12a — Coordinated-work evidence and distributed-state relation note"
-line_start: 24993
-line_end: 25018
+line_start: 25037
+line_end: 25062
 dependencies:
   - "A.10"
   - "A.13"
@@ -72,11 +72,11 @@ Application choices:
 1. Name the holder systems, local system-role kinds, exact assignments, Methods, Work occurrences, and separate results needed by the claim.
 2. State which Work occurrences and which separate C.2.1 assertions, traces, observations, reports, or metrics make the coordination visible.
 3. Ask whether ordinary system-role–Method–Work alignment explains the case. If yes, stop in A.15.
-4. Add a C.26.2 low-recoverability distributed-state reading only when no participant statement, local component report, single evidence record, dashboard, or exported representation carries the inferred state faithfully enough for its intended use.
+4. Add a C.26.2 low-recoverability distributed-state reading only after establishing its collective `U.System` bearer and boundary under C.26.2, and only when no participant statement, local component report, single evidence record, dashboard, or exported representation carries the inferred state faithfully enough for its intended use. Without that collective bearer, retain ordinary A.15 alignment of individual performers.
 5. State the weakest evidence-bound reading, its time window, rival explanations, and export loss.
-6. Use A.10 for evidence and B.3 for assurance when the reading will guide Work, reliance, audit, readiness, release, or compliance.
+6. Use A.10 for evidence provenance and bounded reliance, and C.26.2:4.11 to select the evidence posture and additional support for the intended use. Obtain a B.3 assurance result for the named target claim and receiving use when an actual assurance claim is current. QLP-3 use or a direct domain requirement for assurance requires that claim and result. Momentary, low-consequence local Work guidance does not by itself require B.3.
 
-The C.26.2 reading is a minimal evidence-bound `U.Episteme` claim. It is not a group mind, performed Work, evidence sufficiency, or assurance by itself.
+The C.26.2 reading is a minimal evidence-bound `U.Episteme` claim about that collective System. It is not a group mind, performed Work, evidence sufficiency, or assurance by itself.
 
 | Position | Required content |
 | --- | --- |
@@ -87,5 +87,5 @@ The C.26.2 reading is a minimal evidence-bound `U.Episteme` claim. It is not a g
 | Rival explanations | For example, routine compliance, policy, command, coincidence, incentive, documentation, or local skill |
 | Export loss | What is lost when the reading is summarized into one report, score, or statement |
 
-Useful outputs are an A.15 alignment claim when assignments and Work explain the case; a C.26.2 reading when the evidence survives ordinary rivals; an A.10 account of the evidence relation or B.3 assurance claim when the reading will be used that way; or no distributed-state reading when the sources, rivals, or time window cannot be named.
+Useful outputs are an A.15 alignment claim when assignments and Work explain the case; a C.26.2 reading about the declared collective System within its boundary when the evidence survives ordinary rivals; an A.10 account of the evidence relation; a B.3 assurance result for a current named assurance claim, including the claim required by QLP-3 use or a direct domain rule; or no distributed-state reading when the sources, rivals, or time window cannot be named.
 

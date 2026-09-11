@@ -6,12 +6,12 @@ section_id: "D.2:1.0"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__003_problem.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:1.0 — Problem"
-line_start: 69341
-line_end: 69344
+line_start: 69385
+line_end: 69388
 dependencies:
   - "A.1"
   - "A.15"

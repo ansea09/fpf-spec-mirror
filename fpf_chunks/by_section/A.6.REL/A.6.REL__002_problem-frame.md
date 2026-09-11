@@ -6,12 +6,12 @@ section_id: "A.6.REL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__002_problem-frame.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:1 — Problem frame"
-line_start: 12263
-line_end: 12282
+line_start: 12298
+line_end: 12317
 dependencies:
   - "A.6.0"
   - "A.6.5"
@@ -35,7 +35,7 @@ keywords:
 
 **Use this when.** Use this pattern when later use must tell one obtaining relation occurrence from another occurrence of the same relation. With `Robot-7 is assigned as inspector through InspectionAssignment-17`, a report that only says who is currently assigned can keep that direct sentence and stop. A history or comparison that must tell a second `MaintenanceInspectionAssignment` episode from the first, even with the same `Robot-7` and `InspectorSystemRole`, needs the occurrence-identity branch. A dependent direct relation may likewise require one already distinguished occurrence as its participant.
 
-**First useful move.** Write the direct relation with its named participants, using the subject pattern's participant meanings and obtaining predicate only as far as needed to state that relation accurately. The subject pattern defines the test. Apply it to the relevant world facts or constituting history in the current case, and record the resulting polarity in a claim-bearing episteme. Then ask: **Will later work need to tell this occurrence from another occurrence of the same relation, including another episode with the same participants?** If no, keep the readable direct sentence and stop. If yes, recover and apply the subject pattern's same-versus-new-occurrence rule. Only after you use that rule to distinguish the occurrence should you designate it in a receiving assertion or description episteme, use it as a participant of another direct relation, or bind it as the actual value of a named A.6.1 argument. Add a designator or reference only when stable reference is needed.
+**First useful move.** State the direct relation and named participants using the subject pattern's meanings and obtaining predicate. Apply that test to the relevant world facts or constituting history and record the resulting polarity in a claim-bearing episteme. Ask whether later work must distinguish this occurrence from another, including a repeated episode with the same participants. If not, keep the direct sentence and stop; otherwise apply the identity and receiving-use steps in section 4.2.
 
 **What goes wrong if missed.** An epistemic, designation, or representation-side object is treated as what creates the relation it is meant to describe or designate. Repeated assignments with the same participants then collapse into one. At the opposite extreme, every ordinary relational sentence is expanded into a relation-occurrence description episteme even though later work does not need to distinguish occurrences.
 

@@ -6,12 +6,12 @@ section_id: "E.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__004_forces.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:3 — Forces"
-line_start: 79106
-line_end: 79119
+line_start: 79150
+line_end: 79163
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -35,7 +35,7 @@ keywords:
 | Force | Pressure on the solution |
 | --- | --- |
 | Project recognizability | Public entry starts from situations engineers recognize, not internal pattern topology. |
-| First value before apparatus | The first useful result or honest blocker appears before schemas, PatternIDs, quality vocabulary, or exact reliance fields. |
+| First value before apparatus | The first useful result or blocker appears before schemas, PatternIDs, quality vocabulary, or exact reliance fields. |
 | Technical precision | The direct pattern, result kind, identity or obtaining basis, and neighboring boundary remain recoverable when they change the choice; ordinary wording need not expose every exact field. |
 | Low burden | A newcomer should not fill forms or fabricate project values before seeing what the direct pattern can do. |
 | Bounded search | Several entries may remain plausible, so comparison needs a stop and a recoverable wrong-turn return rather than one perfect first guess. |

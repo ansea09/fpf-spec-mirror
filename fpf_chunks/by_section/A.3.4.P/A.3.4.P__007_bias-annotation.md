@@ -6,12 +6,12 @@ section_id: "A.3.4.P:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__007_bias-annotation.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:6 — Bias-Annotation"
-line_start: 9925
-line_end: 9936
+line_start: 9880
+line_end: 9890
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -46,7 +46,6 @@ keywords:
 
 ### A.3.4.P:6 - Bias-Annotation
 
-Lenses tested: **Onto**, **Arch**, **Prag**, **Epist**, **Gov**.
 
 This pattern intentionally biases toward kind recovery before wording repair. It resists:
 

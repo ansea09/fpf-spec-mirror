@@ -6,12 +6,12 @@ section_id: "E.11:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__008_conformance-checklist.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:7 — Conformance Checklist"
-line_start: 79506
-line_end: 79526
+line_start: 79550
+line_end: 79570
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -35,7 +35,7 @@ keywords:
 | ID | Check | Passing condition |
 | --- | --- | --- |
 | `E11-1` | Situation first | Public wording begins with a recognizable working situation before PatternIDs, internal topology, or quality vocabulary. |
-| `E11-2` | Useful result before apparatus | The reader can recover the first useful result or honest blocker, direct pattern or plausible set, and ordinary stop or return before any optional exact expansion. |
+| `E11-2` | Useful result before apparatus | The reader can recover the first useful result or blocker, direct pattern or plausible set, and ordinary stop or return before any optional exact expansion. |
 | `E11-3` | One publication job | README carries public first-entry situations and first results; Preface explains cross-cutting ideas; ToC and retrieval locate; local `Problem frame` sections recognize; expanded cases disambiguate. None maintains a competing canon. Use `E.11.PFP` for the common form, exact carrier order, and deterministic form checks rather than restating them here. |
 | `E11-4` | Progressive explicitness | Short prose passes when situation, first result or blocker, direct pattern, and stop or return are recoverable. The internal ladder only helps choose whether deeper expansion, exact basis, worked case, comparison history, or refresh evidence is warranted. |
 | `E11-5` | No fictitious context | Public entry, expansion, template, and walkthrough contain no fabricated reader-project `@Context` values. |

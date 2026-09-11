@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 14899
-line_end: 14907
+line_start: 14923
+line_end: 14931
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -39,5 +39,5 @@ keywords:
 | Treating every summary as automatically conservative | summary demand hides omission and claim shift | publish loss and provenance discipline explicitly |
 | Hiding correspondence in plain paraphrase | required correspondence witness disappears into prose | declare `CorrespondenceModelRef` when needed |
 | Letting a rewrite become explanation | explanation work quietly becomes a textual "rewrite" | apply explanation governance once didactic or explanatory work dominates |
-| Letting `entityOfConcernRef` shift by topic similarity | same topic is not the same EntityOfConcern | apply `A.6.4` if `EntityOfConcernRef` changes |
+| Letting the EntityOfConcern shift by topic similarity | same topic is not the same EntityOfConcern | independently resolve the source and receiving `entityOfConcernRef` values; apply `A.6.4` if the resolved entities differ |
 

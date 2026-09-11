@@ -6,12 +6,12 @@ section_id: "A.15.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__004_forces.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:3 — Forces"
-line_start: 27613
-line_end: 27624
+line_start: 27657
+line_end: 27668
 dependencies:
   - "A.1"
   - "A.10"

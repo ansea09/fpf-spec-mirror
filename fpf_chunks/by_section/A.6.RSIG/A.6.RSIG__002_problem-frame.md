@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__002_problem-frame.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:1 — Problem frame"
-line_start: 10757
-line_end: 10807
+line_start: 10727
+line_end: 10776
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -24,18 +24,17 @@ keywords:
 
 A reader often meets one description before they know whether it is the right
 description to inspect. The reader may see a boundary clause, method note,
-interface excerpt, pattern opening, or public projection. The first entry load is
-not yet the full semantics of that description. It is first-contact recognition:
+interface excerpt, pattern opening, or public projection. The reader first needs
+to recognize the description before reconstructing its full semantics:
 what description is seen, where it is encountered, what it applies to, what
-excludes it, which `definitionEpistemeRef` identifies its defining `U.Episteme`, and which nearby reading or
-wrong defining `U.Episteme` must be rejected.
+excludes it, and which `definitionEpistemeRef` identifies its defining `U.Episteme`.
+Reject a nearby reading or wrong defining `U.Episteme` only when the grounded-guard
+condition in §4.1 holds.
 
-**Plain recognition line.** Find the defining `U.Episteme` for the encountered description and name the plausible nearby reading to reject.
+**Plain recognition line.** Find the defining `U.Episteme` for the encountered description.
 
-Use this pattern when the live entry load is still first-contact recognition over
-one encountered description carrier or projection.
- The reader needs to decide
-whether this is the right description to inspect before broader comparison,
+Use this pattern while the reader needs to decide whether one encountered
+description is the right description to inspect, before broader comparison,
 publication-face selection, boundary-claim routing, or pattern-language entry
 comparison begins.
 
@@ -60,11 +59,11 @@ What this pattern buys:
 - false neighboring descriptions and wrong defining `U.Episteme` references become
   rejectable in one first pass;
 - later boundary, publication, lexical, or pattern-language repairs start
-  from a typed first-contact read instead of from guesswork.
+  from first-contact identification instead of from guesswork.
 
 Ordinary not-this-pattern boundary:
 
-- not when the live entry load is already full routed-claim structure, published
+- not when the reader's question already concerns full routed-claim structure, published
   view law, lexical repair, or cross-pattern entry orientation;
 - not when the real question is the whole semantics of the method, boundary
   claim, interface promise, or pattern;

@@ -6,12 +6,12 @@ section_id: "E.11.PUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__005_solution.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:4 — Solution"
-line_start: 79624
-line_end: 79996
+line_start: 79668
+line_end: 80040
 dependencies:
   - "A.13"
   - "A.15"
@@ -41,7 +41,7 @@ Use one selected pattern through a short result-oriented procedure. Keep the sub
 
 #### E.11.PUA:4.0 - Cheap first screen before formal work identity
 
-Start with five ordinary values: the working subject, the practical question, the selected pattern's `Solution`, the first useful result or honest blocker, and the stop or return. For a bounded reversible use, those values are sufficient when the result and boundary are truthful.
+Start with five ordinary values: the working subject, the practical question, the selected pattern's `Solution`, the first useful result or blocker, and the stop or return. For a bounded reversible use, those values are sufficient when the result and boundary are truthful.
 
 When following a pattern exposes a costly, infeasible or apparently unhelpful demand, use `C.11.DUA` to examine what that work can change and repair the continuation. Follow the selected method through its first useful completion, including any prescribed fields or records. Keep the result and its useful basis; retain a reason or limitation when the current decision or a later recipient needs it. An inactive inquiry adds no omission account. This route is conditional on the demand being in question.
 

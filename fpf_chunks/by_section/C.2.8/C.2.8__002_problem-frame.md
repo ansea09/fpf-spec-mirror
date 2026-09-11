@@ -6,12 +6,12 @@ section_id: "C.2.8:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__002_problem-frame.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "C.2.8 — U.ExtractableStructuralInformation"
   - "C.2.8:1 — Problem frame"
-line_start: 44990
-line_end: 45003
+line_start: 45034
+line_end: 45047
 dependencies:
   - "A.17"
   - "A.18"

@@ -6,12 +6,12 @@ section_id: "A.11:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__002_use-this-when.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:0 — Use This When"
-line_start: 23435
-line_end: 23457
+line_start: 23452
+line_end: 23474
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -31,7 +31,7 @@ Use this pattern when FPF work proposes a new U-kind, core relation, dependent d
 
 Typical moments:
 
-- a new U-kind seems useful after `E.24.UK`;
+- a new U-kind seems useful after `E.24.UK` recovers the candidate object;
 - a proposed root kind may actually be a dependent value, slot, relation, record, publication form, lens, local frame, or C.3 `U.Kind`;
 - two candidates overlap strongly;
 - a name is convenient but the ontology may already be expressible through existing patterns.
@@ -44,7 +44,7 @@ In this pattern, an **existing governed expression** is an admitted kind or depe
 
 **What goes wrong if missed.** FPF grows duplicate kinds for claims already carried by governed expressions. Later patterns then argue over words instead of recovering the EntityOfConcern, exact relation or slot, and admissible claim.
 
-**What this buys.** A small ontology can still express rich project situations: the pattern either admits a new durable value with a boundary, or identifies the existing governed expression that already carries the claim.
+**What this buys.** A small ontology can still express rich project situations: A.11 either identifies the existing governed expression that carries the claim or supplies a positive parsimony finding, with a boundary, for the candidate's complete admission test.
 
 **Not this pattern when.** The current question is only a local display name, publication title, naming taste, or ordinary glossary cleanup. Use the relevant Part F naming pattern unless the name is being asked to carry durable ontology.
 

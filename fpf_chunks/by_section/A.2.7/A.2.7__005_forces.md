@@ -6,12 +6,12 @@ section_id: "A.2.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__005_forces.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:3 — Forces"
-line_start: 6313
-line_end: 6325
+line_start: 6314
+line_end: 6326
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -40,6 +40,6 @@ keywords:
 | Kind relation vs holder assignment | A relation among kinds may guide a check; each holder assignment must obtain under its own direct rule. |
 | Monotonic order vs residual restriction | True subkind order must preserve every defined classification judgment; many useful semantic restrictions do not. |
 | Joint admission vs compound kind | Several assignments may be required together without creating a combined system-role kind. |
-| Stable predicate vs changing semantic basis | A compatible edition may preserve meaning, but a changed rule or identity-bearing basis creates another predicate and occurrence. |
+| Stable predicate vs changing semantic basis | A compatible edition may preserve meaning; a changed rule or identity-bearing basis requires another predicate whose obtaining must be established. |
 | Structure vs representation | A graph or matrix can make organization inspectable without becoming that organization. |
 

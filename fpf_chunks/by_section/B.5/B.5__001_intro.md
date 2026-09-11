@@ -6,12 +6,12 @@ section_id: "B.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__001_intro.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:intro — Intro"
-line_start: 40910
-line_end: 40911
+line_start: 40954
+line_end: 40955
 dependencies:
   - "A.10"
   - "B.4"

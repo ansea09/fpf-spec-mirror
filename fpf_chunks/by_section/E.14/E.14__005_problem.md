@@ -6,12 +6,12 @@ section_id: "E.14:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__005_problem.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:2.1 — Problem"
-line_start: 81326
-line_end: 81329
+line_start: 81374
+line_end: 81377
 dependencies:
   - "B.3.5"
   - "C.13"

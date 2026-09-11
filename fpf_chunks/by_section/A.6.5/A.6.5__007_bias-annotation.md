@@ -6,12 +6,12 @@ section_id: "A.6.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__007_bias-annotation.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:6 — Bias-Annotation"
-line_start: 19551
-line_end: 19558
+line_start: 19587
+line_end: 19594
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -32,5 +32,5 @@ This pattern has a typed-declaration bias because it serves relation uses that d
 
 It also has a logic-facing bias because predicates and typed declarations make substitution and comparison reviewable. Constructive FPF adds what that logical form alone cannot supply: grounded participants, a direct obtaining condition, and an occurrence identity rule when identity is needed.
 
-A declaration episteme describes reusable relation semantics; a separate representation episteme may represent an assertion or relation-occurrence description. Neither episteme is the world-side relation occurrence by form, and publication changes neither identity.
+A declaration episteme describes reusable relation semantics; a separate representation episteme may represent an assertion or relation-occurrence description. Neither episteme is the world-side relation occurrence by form. Publishing an unchanged episteme preserves its C.2.1 identity; any effect on a world-side occurrence follows that occurrence's direct rule.
 

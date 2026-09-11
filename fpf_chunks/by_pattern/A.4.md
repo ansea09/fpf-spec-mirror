@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.4.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
-line_start: 10002
-line_end: 10129
+line_start: 9956
+line_end: 10083
 dependencies:
   - "B.3"
   - "B.4"
@@ -82,8 +82,10 @@ A holon may repeat the cycle *ad infinitum*:
 ```
 
 *Observation itself is a transformation*:
-the observing side is a `U.RoleAssignment` whose `holderRef` names the acting `U.System`
-and whose `roleRef=TransformerRole@ObservationContext`. That holder executes a
+the observer is the acting `U.System`. In the source notation, `holderRef` names
+that System and `roleRef=TransformerRole@ObservationContext` names the assigned local
+system-role kind. Identify the actual assignment through its directly declared
+`U.SystemRoleAssignment` species (A.2.1). The System executes a
 **measurement method** whose *output* is an epistemic holon containing observations.
 Thus the traditional “External Observer Pattern” collapses into the universal external
 Transformer pattern.
@@ -94,28 +96,27 @@ Transformer pattern.
 | --------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | **Design‑Time**       | 3‑D CAD + G‑code; stress‑sim config.                                                         | Lean/Coq script of theorem; dependency graph.                                           |
 | **Run‑Time**          | Pump circulates coolant under `OperatePump` method.                                          | Theorem cited & reused; runtime is “being relied on”.                                   |
-| **Run → Design loop** | Sensor data shows cavitation; anomaly report produced by the monitoring server under `roleRef=TransformerRole@MonitoringContext`. | New experiment contradicts corollary; lab apparatus and scientists hold `TransformerRole@ExperimentContext` assignments. |
-| **Design → Run loop** | Engineers author Pump‑v3 spec; the printer holds `TransformerRole@FabricationContext` while fabricating Pump‑v3.                    | Community revises proof; the proof assistant holds `TransformerRole@VerificationContext` while verifying Proof‑v3.         |
+| **Run → Design loop** | Sensor data shows cavitation; anomaly report produced by the monitoring server under `roleRef=TransformerRole@MonitoringContext`. | New experiment contradicts corollary; lab apparatus and scientists hold assignments to the locally defined `TransformerRole@ExperimentContext` kind. |
+| **Design → Run loop** | Engineers author Pump‑v3 spec; the printer holds an assignment to the locally defined `TransformerRole@FabricationContext` kind while fabricating Pump‑v3.                    | Community revises proof; the proof assistant holds an assignment to the locally defined `TransformerRole@VerificationContext` kind while verifying Proof‑v3.         |
 
-*(Diagrammatic lineage table omitted for brevity but included in annex.)*
 
 ### A.4:6 - Conformance Checklist
 
 | ID | Requirement | Purpose |
 |----|-------------|---------|
-| **CC‑A.4.1** | Every `U.Holon` **MUST** be tagged with its current temporal scope (*Tᴰ* or *Tᴿ*). | Eliminates blueprint/reality ambiguity. |
-| **CC‑A.4.2** | A transition from *Tᴰ* → *Tᴿ* **SHALL** be modeled as `executes(Transformer, U.TransformationalMethod)`. | Guarantees physical grounding of instantiation. |
-| **CC‑A.4.3** | A transition from *Tᴿ* → *Tᴰ* **SHALL** be modeled as `executes(transformerRole, U.TransformationalMethod)` producing an observational `U.Episteme`. | Ensures observation is treated as transformation. |
+| **CC‑A.4.1** | Every `U.Holon` **MUST** be tagged with its current temporal scope (*Tᴰ* or *Tᴿ*). | Makes temporal scope explicit. |
+| **CC‑A.4.2** | A transition from *Tᴰ* → *Tᴿ* **SHALL** be modeled as `executes(Transformer, U.TransformationalMethod)`. | Links the transition to an instantiation claim. |
+| **CC‑A.4.3** | A transition from *Tᴿ* → *Tᴰ* **SHALL** be modeled as `executes(Transformer, U.TransformationalMethod)` producing an observational `U.Episteme`. | Names the observational-episteme claim. |
 | **CC‑A.4.4** | `Tᴰ ∩ Tᴿ = ∅` and the concatenated intervals **MUST** equal the holon’s worldline. | Guards against illicit overlap. |
-| **CC‑A.4.5** | Each new design version **MUST** reference (`refinesVersion`) exactly one predecessor or declare `firstVersion = true`. | Enforces monotonic lineage for auditability. |
+| **CC‑A.4.5** | Each new design version **MUST** reference (`refinesVersion`) exactly one predecessor or declare `firstVersion = true`. | Records predecessor or first-version status. |
 
 ### A.4:7 - Consequences
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|--------------------------|
-| **Audit‑Ready engineering workflow** – Every state and change is explicitly typed, timed, and causally linked to a physical system/Transformer. | Additional metadata tagging. |
+| **Temporal and provenance inputs for review** – Temporal scope tags and predecessor references make timing and lineage claims available for review. | Additional metadata tagging. |
 | **Unified View of Build & Measure** – Observation, test, simulation, maintenance, and fabrication all share one mechanism. | Requires modelers to think in terms of Transformers even for “passive” sensing; mitigated by role libraries (`transformerRole`, `CalibratorRole`, etc.). |
-| **Foundation for Learning Loops** – Enables higher patterns (e.g., B.4 Canonical Evolution Loop, B.3 Trust and Assurance Calculus) to reason over evidence accrual and version fitness, including self-modification. | None significant—temporal scoping is already needed for safety‑critical provenance. |
+| **Foundation for Learning Loops** – Enables higher patterns (e.g., B.4 Canonical Evolution Loop, B.3 Trust and Assurance Calculus) to reason over evidence accrual and version fitness, including self-modification. | Requires maintaining the temporal and provenance metadata. |
 
 ### A.4:8 - Rationale (extended)
 
@@ -125,14 +126,13 @@ Transformer pattern.
    fidelity and allows quantified error (`U.Error`) to drive evolution.
 
 2. **Why treat observation as transformation?**
-   Physics tells us measurement changes state (energy, information, even
-   quantum collapse).  Making the observer just another `Transformer`
-   means: no special metaphysics, full energy/provenance accounting,
-   seamless tie‑in with Constructor Theory (see A.3:9, “Constructor theory”).
+   Use A.3 for the observing System and Method, A.15.1 for a dated
+   measurement Work claim, and A.3.4 for any separately claimed actual change.
 
 3. **Why insist on open‑endedness?**
-   *Perfect* finality is unattainable outside mathematics. The resulting mandate is that holons must be *improvable* in principle; this pattern
-   encodes that mandate structurally: version n+1 is always possible.
+   P‑10 expects entities to evolve indefinitely and requires cycles that remain
+   cheap, safe, and cognitively rewarding. This pattern makes further revision
+   explicit through repeated design/run cycles.
 
 4. **Why no overlap (*Tᴰ* ∩ *Tᴿ*)?**
    The instant a holon is mutable (design) it ceases to be the “same”
@@ -142,7 +142,7 @@ Transformer pattern.
 This pattern therefore realises three core principles in concert:
 
 * **Temporal Duality** – explicit tagging of states.
-* **Open‑Ended Evolution** – guaranteed pathway for refinement.
+* **Open‑Ended Evolution** – support for further refinement.
 * **Ontological Parsimony** – one mechanism (Transformer) for all
   state changes, avoiding specialised “observer” or “installer” types.
 

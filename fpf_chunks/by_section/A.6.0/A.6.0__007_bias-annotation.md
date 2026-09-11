@@ -6,12 +6,12 @@ section_id: "A.6.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__007_bias-annotation.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:6 — Bias-Annotation"
-line_start: 12956
-line_end: 12970
+line_start: 12990
+line_end: 13004
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -52,7 +52,7 @@ keywords:
 - **Did.** Favors the four content groups and local mantra. Counter-risk: readers treat the mnemonic order as a required execution order. Mitigation: apply A.22.CGUS only to an independently identified structure of potential continuations; actual execution remains a separate Work or Transformation claim.
 - **Context transport.** Interpret the signature's claims under the effective `U.ReferenceScheme` and use them within their stated scope. Counter-risk: the same label in another context is treated as equivalent or safely substitutable. Mitigation: when a proposed reuse relates two exact F.17 local senses, test the direct F.9 predicate and cite a Bridge only when it obtains; state direction, rule, tolerated loss, and polarity in a separate bounded-use claim. Without the needed semantic relation and use claim, do not transport the claim by label alone.
 - **Comparability.** Two declarations do not become comparable because both expose numbers. Counter-risk: numeric appearance hides incompatible characteristics, measurement procedures, units, scales, comparators, or normalization. Mitigation: apply the current A.17/A.18/C.16 characteristic, measurement, and unit-and-scale patterns and A.19.CPM/A.19.UNM comparison and normalization patterns as the case requires, then state the resulting comparison boundary; keep their detailed legality and result-shape rules with those subject patterns.
-- **Register.** Begin each technical declaration block and worked case with, or immediately supply, an ordinary sentence naming what the practitioner asserts or does and what visible result follows; then map that sentence to the exact FPF terms. Counter-risk: a technically correct block remains unusable without private decoding. Mitigation: use F.19's governing-message and connected-reading steps with E.10's compact cues, then revalidate each changed span with its meaning-dependent neighbours; keep the repair only when the same governed object, subject pattern, admissible use, and practical action remain clear.
+- **Register.** Make technical declaration blocks and worked cases readable for their intended use. Counter-risk: a technically correct block remains unusable without private decoding. Mitigation: apply F.19's connected reading and local revalidation. Unpack decisive FPF terms or add an ordinary explanation only when needed to recover the claim or action and its relevant result; preserve the governed object, subject pattern, admissible use, and practical action.
 
 The examples deliberately span physical modeling, medicine, learning, and formal work. Each worked declaration has its own C.2.1 identity, which remains independent of its publication form.
 

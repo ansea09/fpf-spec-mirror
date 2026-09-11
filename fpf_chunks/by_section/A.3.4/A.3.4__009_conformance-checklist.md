@@ -6,12 +6,12 @@ section_id: "A.3.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__009_conformance-checklist.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:7 — Conformance Checklist"
-line_start: 9664
-line_end: 9682
+line_start: 9619
+line_end: 9637
 dependencies:
   - "A.1"
   - "A.10"
@@ -65,9 +65,9 @@ keywords:
 | `CC-A34-7` | Use E.18 for the selected flow structure and C.29 for mathematical representation; ground actual transformation and work claims separately through A.3.4 and A.15.1. |
 | `CC-A34-8` | Evidence, assurance, gate, acceptance, and decision authority are not inferred from the transformation or its description. |
 | `CC-A34-9` | `input`, `output`, `result`, `outcome`, `deliverable`, and `handoff` remain wording cues until the reader names the participant and relation being asserted. |
-| `CC-A34-10` | When performed `U.Work` is claimed to cause, realize, or participate in a transformation, the case applies an existing subject predicate, states one `A.6.RCD` disposition-2 local compound claim over named base facts, or returns `missing-governor` for the pair. Co-occurrence and a shared subject are insufficient. |
+| `CC-A34-10` | When performed `U.Work` is claimed to cause, realize, or participate in a transformation, the case applies an existing subject predicate, states one `A.6.RCD` disposition-2 local compound claim over named base facts, or preserves the applicable `A.6.RCD` stop for the pair. Co-occurrence and a shared subject are insufficient. |
 | `CC-A34-11` | Every proposed component change and whole-configuration change is identified independently. Shared timing, referent, work, flow position, or representation establishes neither composition nor partlessness. |
-| `CC-A34-12` | A use that needs positive transformation composition returns the parked result in 4.2.1. This pattern names no composition relation kind, signature, occurrence, or definition law, and keeps generic-relation, subject-specific, local-compound, and non-admission alternatives open. |
+| `CC-A34-12` | A use that needs positive transformation composition returns the parked result in 4.2.1. |
 | `CC-A34-13` | A transformation is tested under A.1 only after a future accepted architecture independently supplies the exact candidate and all six A.1 constructive components; the current blocker, evaluation, assertion, evidence, currentness, receiving disposition, and B.2 remain separate. |
 | `CC-A34-14` | When a production claim is current, test production-work participation, entity-identity inception, and production completion separately under `A.15.PROD`, using the exact work, work part, subject-identity facts, completion criterion, and direct effect facts. |
 

@@ -6,12 +6,12 @@ section_id: "A.3.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__003_problem.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:2 — Problem"
-line_start: 8051
-line_end: 8062
+line_start: 8039
+line_end: 8050
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -44,7 +44,7 @@ Without a current `U.Method` distinction, FPF cannot repair method-like wording 
 1. **Description as method.** A SOP, code repository, proof script, BPMN diagram, SQL query, solver model, or protocol is treated as the method itself.
 2. **Plan or run as method.** A calendar plan, access plan, run log, telemetry trace, or work-result record is called the method.
 3. **Mechanism or formal substrate as method.** A mathematical object, formal substrate, mechanism declaration, causal model, or control structure is used as if it already selected the way of doing work.
-4. **System-role or capability leakage.** Named people, organizations, teams, permissions, system-role assignments, or capability thresholds are baked into the Method instead of remaining with their direct classification, assignment, authority, capability, or gate patterns.
+4. **System-role or capability leakage.** Named people, organizations, teams, permissions, system-role assignments, or a particular holder's capability assessment are baked into the Method instead of remaining with their direct classification, assignment, authority, capability, or gate patterns.
 5. **Programming-paradigm overread.** Imperative, functional, logical, constraint, object-centric event, or effect-handler wording is taken as a direct ontology of work rather than one possible description or representation of a way of doing.
 
 The practical harm is fragile reliance. Changing a publication looks like changing the method; a run error looks like method invalidation; a mechanism declaration starts authorizing work; and a dashboard cue starts acting like evidence or permission.

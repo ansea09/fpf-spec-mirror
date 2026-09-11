@@ -6,12 +6,12 @@ section_id: "F.9:7"
 section_title: "Evidence about relation and use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__009_evidence-about-relation-and-use.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:7 — Evidence about relation and use"
-line_start: 96493
-line_end: 96506
+line_start: 96541
+line_end: 96554
 dependencies:
   - "A.10"
   - "A.13"

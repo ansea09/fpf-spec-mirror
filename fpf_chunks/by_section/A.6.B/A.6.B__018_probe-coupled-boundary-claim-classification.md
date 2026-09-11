@@ -6,12 +6,12 @@ section_id: "A.6.B:15a"
 section_title: "Probe-coupled boundary claim classification"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__018_probe-coupled-boundary-claim-classification.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:15a — Probe-coupled boundary claim classification"
-line_start: 11867
-line_end: 11898
+line_start: 11870
+line_end: 11926
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -86,33 +86,58 @@ keywords:
 
 ### A.6.B:15a - Probe-coupled boundary claim classification
 
-Probe-coupled boundary language does not create a fifth quadrant. A boundary sentence that says a question, metric, dashboard, workshop, bridge, or API read changes the represented state must still be atomized through the same L/A/D/E square.
+When boundary text says that an interaction changes the state represented by its
+output, identify the interaction, the changed state, and the receiving use, then
+classify the atomic claims through the same L/A/D/E square. Such interactions may
+include asking a question, measuring or intervening through a metric, reading a
+dashboard, conducting a workshop, exporting through a Bridge, or making an API
+read. Probe-coupled boundary language does not create a fifth quadrant.
 
 Action classification:
 
 1. Copy the boundary sentence being used for a decision.
-2. Split it into atomic claims before judging it: a definition or law claim, a runtime-admissibility claim, a generic prescription or individual-duty claim, a work-effect or evaluated-result claim, and any separate evidence-support claim.
+2. Split it into its atomic claims before judging it, retaining only the classes
+   present in the source: definition or law, runtime admissibility, generic
+   prescription or individual duty, work effect or evaluated result, and any
+   separate evidence-support claim.
 3. Give each atomic claim its quadrant and any identifier required by a later reference.
 4. Put the state, probe, update, or export part in the quadrant where it belongs rather than treating "quantum-like boundary" as one claim.
-5. Apply `A.6.P` to reusable relation words; use `F.18` only when recovered terms need durable names; apply `A.10` to evidence; apply `B.3` to assurance; apply `C.16` to measurement; apply `C.26.1` to any remaining probe-coupled state-reading claim.
-6. Emit a Claim Register row set or equivalent L/A/D/E-classified claim set only when the sentence is decision-bearing, reusable, contested, assurance-facing, or likely to be cited across faces.
+5. Apply `A.6.P` to reusable relation words; use `F.18` only when recovered terms
+   need durable names. Use `A.10` for needed evidence support, `B.3` for a named
+   assurance question, `C.16` for measurement, and `F.9` for a Bridge question.
+   Use `C.26.1` for the residual probe-coupled question only when the interaction
+   participates in the represented state and its output is being used as a
+   passive read or export despite that decision-relevant effect.
+6. Use a Claim Register row set only when the classified claim set is
+   decision-bearing, reusable, contested, assurance-facing, or likely to be cited
+   across faces; otherwise keep the atomic prose.
 
-For a local working note, the lighter action is enough: atomize the sentence mentally, write one clean L/A/D/E-classified sentence, and avoid the phrase "quantum-like boundary" as a single claim. Use the Claim Register when the L/A/D/E-classified claim set must survive reuse or dispute.
+For a local working note, atomize the sentence mentally and write one or more
+atomic L/A/D/E-classified sentences, preserving every source claim. One sentence
+suffices only when one logical job remains. Use the Claim Register when the claim
+set must survive reuse or dispute; the phrase "quantum-like boundary" is not a
+substitute for its separate claims.
 
 | Quantum-like boundary phrase hides | Claim class | What the user writes |
 | --- | --- | --- |
 | The term, variable, state, frame, or relation being defined | `L-*` law or definition claim | Definition or invariant, without agent obligation language |
 | When a mechanism admits use of a probe, metric, question, or bridge at the decision point; declaration-level intended-use scope remains in `Signature.Applicability` | `A-*` runtime-admissibility claim | Entry predicate, required current inputs, non-admitted outcome, and neighboring-pattern continuation |
-| What exact policy prescribes about applying, retaining, exposing, or avoiding overuse of the probe result; or which actual bearer has that individually instituted duty; and, if separately claimed, who bears responsibility | generic `D-*` prescription or individual `D-*` claim about one exact `U.Commitment`; separate direct responsibility claim or missing governor | Exact normative source and rule content for the generic branch; actual duty bearer and referenced L/A/E claim IDs for the individual branch; responsibility predicate and participants only when that relation independently obtains |
+| What exact policy prescribes about applying, retaining, exposing, or avoiding overuse of the probe result; or which actual bearer has that individually instituted duty; and, if separately claimed, who bears responsibility | generic `D-*` prescription or individual `D-*` claim about one exact `U.Commitment`; separate direct responsibility claim or missing governor | Exact normative source and rule content for the generic branch; actual duty bearer and referenced L/A/E claim IDs or canonical locations for the individual branch; responsibility predicate and participants only when that relation independently obtains |
 | The actual work effect or observed before-state or after-state, plus any separate evidence relation or carrier used for reliance | `E-*` work-effect or evaluated-result claim; separate evidence-support claim when current | Exact predicate and object, actual Work, evaluation, or observation, conditions and window, and result; add an A.10 evidence relation and exact carrier only when a receiving use relies on that support |
 
 Useful outputs:
 
-- a Claim Register row set when the boundary sentence mixes claim kinds;
-- one rewritten L/A/D/E-classified sentence when the case is only a local working note;
-- an ordinary A.6.B L/A/D/E-classified claim set when no quantum-like probe-coupled state-reading claim remains;
-- a `C.26.1` classification only for the remaining probe-coupled state-reading part;
-- an A.10/B.3/C.16/F.9 classification when evidence, assurance, measurement, or bridge work is the actual claim being made.
+- a Claim Register row set when decision, reuse, contest, assurance, or cross-face
+  citation needs it;
+- one or more atomic L/A/D/E-classified sentences preserving every source claim
+  for a local working note;
+- an ordinary A.6.B L/A/D/E-classified claim set when no probe-coupled
+  state-reading question remains;
+- the `C.26.1:4.2` decision and finish result for a residual probe-coupled question
+  that meets the activation condition above;
+- the evidence-support, assurance, measurement, or Bridge result or continuation
+  required by `A.10`, `B.3`, `C.16`, or `F.9` for the corresponding current question.
 
-Do not write "the boundary is quantum-like" as one claim without L/A/D/E classification. Split the claim, classify the pieces, then decide whether `C.26.1` still has a remaining job.
+Do not write "the boundary is quantum-like" as one claim without L/A/D/E classification. Identify the interaction and its receiving use, split and classify the claims,
+then apply the `C.26.1` activation condition above to any remaining question.
 

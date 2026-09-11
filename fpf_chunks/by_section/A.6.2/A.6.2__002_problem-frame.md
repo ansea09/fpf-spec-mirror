@@ -6,12 +6,12 @@ section_id: "A.6.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__002_problem-frame.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:1 — Problem frame"
-line_start: 13611
-line_end: 13627
+line_start: 13633
+line_end: 13649
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -38,7 +38,7 @@ FPF repeatedly needs to relate one exact episteme to another, often alongside a 
 * turning an informal method description into a more formal specification;
 * projecting a large system description into a smaller “for‑safety‑officer” view;
 * re‑expressing the same behavioural model in a different calculus or notation;
-* relating an analysis about one subsystem to an analysis about another, with a separate bounded-use assertion about the invariant, visible loss, receiving use, conditions, and polarity, plus a current-case judgement from exact facts.
+* relating an analysis about one subsystem to an analysis about another, with the separate bounded-use assertion and current-case judgement required by A.6.4.
 
 All of these can be described by **episteme-to-episteme mathematical arrows**. The arrow relates exact epistemes and states its laws; it does not itself change an episteme, measure, execute, or actuate. Any operation application and Work remain separate.
 

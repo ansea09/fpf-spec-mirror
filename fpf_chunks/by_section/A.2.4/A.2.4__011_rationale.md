@@ -6,12 +6,12 @@ section_id: "A.2.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__011_rationale.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:10 — Rationale"
-line_start: 4930
-line_end: 4933
+line_start: 4933
+line_end: 4936
 dependencies:
   - "A.10"
   - "A.2"
@@ -40,5 +40,5 @@ keywords:
 
 ### A.2.4:10 - Rationale
 
-Evidence-use and status-use remain admitted first-use relation positions because one episteme can be classified for different claims or governed statuses. The classification points outward to, and never replaces, performed Work, the domain-local result, the C.2.1 result episteme, provenance, currentness, receiving reliance, or assurance.
+An episteme may be used for several claims or governed statuses. State each evidence-use or status-use relation separately. The classification points outward to, and never replaces, performed Work, the domain-local result, the C.2.1 result episteme, provenance, currentness, receiving reliance, or assurance.
 

@@ -6,12 +6,12 @@ section_id: "B.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__013_sota-echoing.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:11 — SoTA-Echoing"
-line_start: 36548
-line_end: 36556
+line_start: 36592
+line_end: 36600
 dependencies:
   - "A.1"
   - "A.14"

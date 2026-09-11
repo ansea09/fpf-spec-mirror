@@ -6,12 +6,12 @@ section_id: "A.6.B:6"
 section_title: "Cross‑quadrant link discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__008_cross-quadrant-link-discipline.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:6 — Cross‑quadrant link discipline"
-line_start: 11399
-line_end: 11477
+line_start: 11363
+line_end: 11453
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -86,7 +86,7 @@ keywords:
 
 ### A.6.B:6 — Cross‑quadrant link discipline
 
-The square is not just classification; it is a **dependency discipline**. Claims often depend on each other; such dependencies **MUST** be explicit (by claim ID) rather than duplicated prose.
+The square is not just classification; it is a **dependency discipline**. Claims often depend on each other; such dependencies **MUST** be explicit (by claim ID or canonical location) rather than duplicated prose.
 
 #### A.6.B:6.1 — Explicit reference rule
 
@@ -109,15 +109,18 @@ This separates **what is admissible** (A) from generic normative content and any
 
 ##### A.6.B:6.2.2 - (E → A) Evidence-for-gate linkage
 
-When gate decisions must be observable:
+When a claim reports actual observability of a gate decision:
 
-* `E-*`: “On rejection or acceptance due to `A-*`, carrier `C` is produced or observable under conditions …”
+* `E-*`: “For the stated rejection or acceptance due to `A-*`, carrier `C` was produced or observed under conditions …”
 
-This separates **gate semantics** (A) from **evidence semantics** (E).
+This separates **gate semantics** (A) from the **actual observation or result** (E).
+A prescription to produce or retain a carrier belongs in D; an expectation or
+plan alone supplies no actual E result.
 
 ##### A.6.B:6.2.3 - (D → E) Prescription-or-duty-to-evidence linkage
 
-When governance prescribes evidence production, retention, exposure, or a measured property:
+When governance prescribes evidence production, retention, exposure, or a
+measured property and a separate `E-*` claim states the related result:
 
 * generic `D-*`: “`Policy-P` requires covered subjects to retain or expose carrier class `C` used by `E-*` …”; or
 * individual `D-*`: “Actual bearer `S` has commitment `CMT` to meet `E-*` under exclusions …”
@@ -142,24 +145,33 @@ This keeps governance text from accidentally redefining semantics in prose.
 
 #### A.6.B:6.3 — The “triangle decomposition” for mixed sentences
 
-**Normative rule (decomposition).** A conforming boundary text **SHALL** decompose any mixed sentence that expresses (i) an entry condition, (ii) a generic prescription or individual obligation to satisfy or enforce it, and (iii) an observability expectation into the three quadrants:
+**Normative rule (decomposition).** A conforming boundary text **SHALL** decompose
+any mixed sentence into its actual claim jobs. Recover the predicate and modality
+of an observability clause before assigning its quadrant. The triangle applies
+when the source states all three:
 
 * **A:** admissibility predicate (`A-*`)
 * **D:** generic prescription or individual-duty claim referencing the gate (`D-* → A-*`)
-* **E:** evidence binding referencing the gate and carriers (`E-* → A-*`)
+* **E:** actual observation or result referencing the gate, with carriers when needed (`E-* → A-*`)
 
-This is the canonical repair for “contract soup” around validity, authorization, compliance, audit, and security boundaries.
+Keep a prescription or individually instituted duty to produce evidence in D.
+Preserve an expectation or plan as such; leave the actual E result absent until
+its basis exists. This repairs mixed validity, authorization, compliance, audit,
+and security claims without manufacturing a third claim.
 
 #### A.6.B:6.4 — Dependency direction (no “upward” imports)
 
 The square is intended to preserve **layered modularity**: semantics should not depend on governance text, and evidence semantics should not depend on duties.
+
+These are cross-quadrant restrictions. They do not prohibit same-quadrant
+references, such as `L-* → L-*` or `E-* → E-*`.
 
 **Normative rule (no upward dependencies).**
 
 * `L-*` claims **MUST NOT** depend on or reference `A-*`, `D-*`, or `E-*` claims (except for purely informative notes explicitly marked informative).
 * `A-*` claims **MUST NOT** depend on or reference `D-*` claims. (`A-*` may reference `L-*` for defined terms or invariants.)
 * `E-*` claims **MUST NOT** depend on or reference `D-*` claims. (`E-*` may reference `A-*` for conditioning and `L-*` for metric or term meanings.)
-* `D-*` claims **MAY** reference `L-*`, `A-*`, and `E-*` claims when needed, and **SHOULD** do so by ID rather than restating content.
+* `D-*` claims **MAY** reference `L-*`, `A-*`, and `E-*` claims when needed, and **SHOULD** do so by ID or canonical location rather than restating content.
 
 **Rationale (informative).** This keeps foundational meaning stable (L), keeps runtime gates independent of governance prose (A), and keeps evidence semantics independent of enforcement policy (E). Governance (D) is the place where “who must do what, using which gates and which evidence” is assembled.
 

@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__005_solution.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:4 — Solution"
-line_start: 10832
-line_end: 10976
+line_start: 10800
+line_end: 10938
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -27,19 +27,19 @@ keywords:
 `A.6.RSIG` governs description-recognition signatures in general: the
 first-contact cue structure by which one reader can recover what encountered
 description is live, what carrier or projection exposed it, what it applies to,
-what excludes it, which `definitionEpistemeRef` identifies its defining `U.Episteme`, and which nearby false
-description or wrong defining `U.Episteme` must be rejected.
+what excludes it, and which `definitionEpistemeRef` identifies its defining `U.Episteme`.
+Reject a nearby reading or wrong defining `U.Episteme` only when it passes F.19's
+grounded-guard test: the rejected reading has an independent local ground, is
+plausible for the intended reader, and changes truth, understanding, selection,
+safety, stop, reliance, or action. Use the
+smallest clear correction; do not invent an alternative to fill the cue shape.
 
-Here "description-recognition signature" is lower-case authoring and reading
-discipline. It is not `U.Signature`, not a Signature Stack object, not a new
-Description object by default, not a `U.*` kind, and not a specialization of
-`A.6.0` unless another pattern explicitly promotes a particular declaration.
+Here "description-recognition signature" is a lower-case authoring and reading
+discipline, not by itself a typed `U.Signature` or a new formal kind. A typed
+declaration requires the applicable neighboring pattern's explicit conditions.
 
 The encountered carrier or projection may help recognition; it does not become
-authoritative merely by being encountered. When this pattern talks about an
-encountered publication or projection, that wording does not mint a new surface
-kind; identify the actual publication face, publication form, interop publication form,
-`U.View`, card, or lane under the conditions governing that object and use.
+authoritative merely by being encountered.
 
 Use `definitionEpistemeRef` for the defining `U.Episteme`. If the definition is available only through one publication, cite separately the exact E.24.PUB publication occurrence that makes it available; the publication, projection, or carrier does not become the defining episteme merely because it exposed the definition to the reader.
 
@@ -54,17 +54,18 @@ Use `definitionEpistemeRef` for the defining `U.Episteme`. If the definition is 
 
 #### A.6.RSIG:4.2 - Two-level description-recognition shape
 
-**Reader-visible minimum.** For ordinary reader-facing use, the minimum is not a card. One or two good
+**Reader-visible minimum.** For ordinary reader-facing use, the minimum is not a card. One or two
 sentences may be enough if they make recoverable:
 
 1. what this description is for;
 2. when it applies;
 3. when it does not apply;
 4. which definitionEpistemeRef applies;
-5. what nearby false reading or wrong defining `U.Episteme` to reject.
+5. what nearby false reading or wrong defining `U.Episteme` to reject, when
+   the grounded-guard condition in §4.1 holds.
 
-**Review-expanded shape, only when needed.** When the recognition entry load is
-load-bearing or under review, use the expanded recoverability shape:
+**Review-expanded shape, only when needed.** When a recognition cue affects a
+decision or is being reviewed, use the expanded recoverability shape:
 
 ```text
 description_seen
@@ -80,6 +81,9 @@ projection_role_if_any
 nearby_false_description_or_wrong_definition_episteme
 ```
 
+The `nearby_false_description_or_wrong_definition_episteme` field is optional:
+use it only when the grounded-guard condition in §4.1 holds.
+
 This shape is a review aid, not a mandatory form for every encountered
 description. It exists to keep description, carrier, projection, and definitionEpistemeRef from
 collapsing into one overloaded publication label or projection label.
@@ -94,8 +98,8 @@ Use this sequence when authoring or reviewing one recognition-signature repair:
    a live risk.
 3. State what the description applies to and what excludes it.
 4. Name the defining `U.Episteme` to inspect first.
-5. Name one nearby false description or wrong defining `U.Episteme` that looks
-   plausible in the same situation.
+5. When the grounded-guard condition in §4.1 holds, name the nearby false
+   description or wrong defining `U.Episteme` to reject.
 6. State the first admissible entry stop or neighboring-pattern application.
 7. If that stop cannot be stated without A.6.B claim routing, publication-face law,
    lexical repair, or cross-pattern comparison, apply the appropriate neighboring pattern instead of
@@ -105,7 +109,7 @@ Minimal admissible output:
 
 - one first-contact recognition statement the reader can use immediately;
 - one explicit defining `U.Episteme`;
-- one explicit false-neighbor rejection;
+- an explicit false-neighbor rejection when the grounded-guard condition in §4.1 holds;
 - one admissible entry stop or reroute.
 
 #### A.6.RSIG:4.3 - Parent cases
@@ -113,11 +117,11 @@ Minimal admissible output:
 `A.6.RSIG` keeps the main parent cases explicit:
 
 - **boundary-description recognition**: can one reader recover what one
-  boundary-presented description is for before L/A/D/E-classified claim structure becomes
-  the dominant entry load;
+  boundary-presented description is for before the reader needs to classify its
+  claims as L/A/D/E;
 - **method-description applicability recognition**: can one reader recover
   whether one method description is the right description to inspect, reject, or
-  compare under the live entry load;
+  compare for the reader's question;
 - **interface/access-description recognition**: can one reader recover the
   right access or interface description without confusing it with promise,
   execution, or downstream effect semantics;
@@ -129,8 +133,7 @@ Minimal admissible output:
 
 Neighbor boundaries remain explicit:
 
-- `A.6.B` governs routed `L/A/D/E` claim structure when the boundary
-  description is already in routed-claim territory;
+- use `A.6.B` when the reader needs to classify the boundary claims as `L/A/D/E`;
 - `E.17.0` tests viewpoint/view membership; `E.17` publishes reader-facing forms of an already accepted engineering account;
   use `E.24.PUB` when publication occurrence, form, or carrier identity affects the recognition use;
 - `E.10.D2` recovers description-episteme and specification-use distinctions;
@@ -144,24 +147,15 @@ The four-part split for pattern-local recognition is:
 
 | Recognition concern | Governing FPF pattern or source | What it governs |
 | --- | --- | --- |
-| Generic first-contact description recognition | `A.6.RSIG` | The neutral cue shape: description, carrier or projection, definitionEpistemeRef, exclusions, false neighbor. |
+| Generic first-contact description recognition | `A.6.RSIG` | The neutral cue shape: description, carrier or projection, definitionEpistemeRef, exclusions, and a false neighbor when §4.1's grounded-guard condition holds. |
 | Local placement and form | `E.8` | How the pattern's `Problem frame` carries the first-reading role. |
 | Actual local semantics | The pattern itself | The pattern's governed object, solution, consequences, and conformance law. |
-| Cross-pattern comparison | `E.11` and `I.2` | Candidate patterns, tempting wrong patterns, entry-load reclassification, and expanded entry-disambiguation cases. |
+| Cross-pattern comparison | `E.11` and `I.2` | Candidate patterns, tempting wrong patterns, reclassification of the reader's question, and expanded entry-disambiguation cases. |
 
-#### A.6.RSIG:4.5 - No-minting rule
+#### A.6.RSIG:4.5 - When a neighboring pattern is needed
 
-This pattern does not mint:
-
-- one standalone `U.Discoverability`;
-- one new `U.Signature`, Signature Stack object, `U.Characteristic`, `CHR`, or
-  local `Q-Bundle`;
-- one publication face kind, publication form kind, interop publication form kind, carrier kind, `DescriptionKind`, relation kind, graph ontology, pattern-reference publication
-  graph, or process-family claim;
-- one universal reader-orientation role.
-
-If a recognition-signature entry load is promoted into a quality claim with a higher evidence requirement,
-typed signature object, reusable description object, or publication-face law,
-that promotion is explicit and handled by the existing neighboring
-patterns.
+If the task requires a quality claim, typed signature declaration, reusable
+description, or publication-face rule, use the neighboring pattern that governs
+that object or claim, including its evidence requirements. The recognition cue
+alone does not establish that result.
 

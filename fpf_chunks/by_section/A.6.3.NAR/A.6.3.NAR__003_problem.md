@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__003_problem.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:2 — Problem"
-line_start: 15448
-line_end: 15461
+line_start: 15484
+line_end: 15497
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -52,6 +52,6 @@ Without `A.6.3.NAR`:
 3. selected structure, ordering decisions, event models, and lost relations disappear behind fluent prose;
 4. engagement is allowed to raise confidence, authority, ethical permission, or policy force without the current evidence relation, assurance result, ethical basis, or policy basis required for that stronger claim;
 5. generated narrative output is trusted because it is coherent or dramatic;
-6. exact identity and assurance fields are demanded before an ordinary reader-useful narrative exists, making the pattern needlessly hard to enter; and
-7. seminar scripts or exercise sets replace reusable pattern guidance instead of being kept in a separate teaching or publication carrier.
+6. exact identity and assurance fields are demanded before an ordinary reader-useful narrative exists, making the pattern needlessly hard to enter.
+
 

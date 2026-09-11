@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PFP.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
-line_start: 80450
-line_end: 80787
+line_start: 80494
+line_end: 80835
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -123,6 +123,8 @@ The Readme says plainly that its entries are selected examples, not a catalogue 
 - an ordinary entry shows how one direct pattern or one bounded direct route can answer a comparatively simple difficulty without a mantra; and
 - a Practical-Use Card shows a recurring complex difficulty whose useful answer spans several direct pattern contributions and whose long dependency is easier to retain with a mantra.
 
+The `First useful result or blocker` value gives the result of the action the entry supports, or a condition preventing that action. When several actions could be meant, name the relevant action in the value.
+
 Use this ordinary-entry form:
 
 ```text
@@ -130,7 +132,7 @@ Use this ordinary-entry form:
 
 - **Situation:** <recognizable working situation>
 - **Question:** <practical question>
-- **First useful result or honest blocker:** <smallest useful result or exact blocker>
+- **First useful result or blocker:** <smallest useful result of the named action, or the condition preventing that action>
 - **Start with:** <direct PatternID or bounded plausible set>
 - **Stop or return:** <ordinary stop, wrong-turn return, or reopen condition>
 ```
@@ -146,7 +148,7 @@ When the product selects at least one card, place all selected cards under one g
 
 - **Situation:** <recognizable recurring difficulty>
 - **Question:** <practical question>
-- **First useful result or honest blocker:** <smallest useful result or exact blocker>
+- **First useful result or blocker:** <smallest useful result of the named action, or the condition preventing that action>
 - **Mantra:** <plain repeatable wording that retains the cross-pattern dependency>
 - **Start with:** <direct PatternIDs or bounded route>
 - **Stop or return:** <ordinary stop, wrong-turn return, or reopen condition>
@@ -163,6 +165,8 @@ Every selectable ordinary entry and card shares one product-wide semantic-key na
 The product-language application declares one deterministic reading-burden measure and two maxima: one for the mantra and one for the complete compact card. The measure must suit the publication language; whitespace counting is suitable only where it meaningfully measures reading burden. The maxima protect scanability and recall. They are not targets, proof of reader value, a fixed card count, or authority to delete a choice-changing distinction. Content that a compact card cannot carry truthfully returns to the direct patterns or, only when first choice needs it, the same-key expansion.
 
 Applying this grammar does not select a card, prove that the examples cover the product, or show that every cited pattern is needed in a particular case. `E.11` defines the direct-entry/card comparison, cross-pattern mnemonic-gain test, and non-exhaustive discoverability purpose. The product-specific E.4 pattern declares its selected example keys, forms, reading-burden measure, and two limits. A validator consumes those values and checks structure; it does not decide content value.
+
+Use `First useful result or blocker` for this field in new entries. In existing publications, `First useful result or honest blocker` identifies the same field, with the same value and position; including both labels in one entry repeats the field.
 
 This profile keeps structural field keys in canonical English. A translation may translate surrounding prose and values and may add a human-readable gloss, but it does not silently replace or reorder the field keys. A translated structural-key profile needs a separately selected recovery and checking rule. Test translated and low-tool publications with actual readers and navigation tools rather than treating English parser success as accessibility evidence.
 

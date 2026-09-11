@@ -6,12 +6,12 @@ section_id: "A.2.7:5"
 section_title: "Worked Slices and Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__007_worked-slices-and-archetypal-grounding.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:5 — Worked Slices and Archetypal Grounding"
-line_start: 6536
-line_end: 6662
+line_start: 6537
+line_end: 6663
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -50,7 +50,7 @@ RelationSignature:
     PlantPressureTestAdmissionSubstitutionPredicate, ByValue
 ```
 
-The predicate names the ordered two kinds, receiving Method family, `PressureTestReady` rule, 2026H2 applicability, and the exact semantic basis whose edition changes either clause. `PlantMaintenanceRoles-2026` and `Plant-A-Maintenance-Scheme` may be cited in the assertion; they are not extra relation participants. If a later compatible edition preserves all identity-bearing clauses, an explicit continuity decision preserves the predicate. Otherwise another predicate and occurrence are required.
+The predicate names the ordered two kinds, receiving Method family, `PressureTestReady` rule, 2026H2 applicability, and the exact semantic basis whose edition changes either clause. `PlantMaintenanceRoles-2026` and `Plant-A-Maintenance-Scheme` may be cited in the assertion; they are not extra relation participants. If a later compatible edition preserves all identity-bearing clauses, an explicit continuity decision preserves the predicate. Otherwise use another predicate and establish whether it obtains for those participants. A new relation occurrence begins only when it does.
 
 ```text
 PlantPressureTestSubstitutionAssertion:
@@ -118,7 +118,7 @@ OperatingTheatreThreeSystemRoleBundle :
   U.Relation
 RelationSignature:
   BundledSystemRoleKindSetSlot:
-    OperatingTheatreSystemRoleKindDomain, ByValue
+    finite order-insensitive set of OperatingTheatreSystemRoleKindDomain values, ByValue
   JointAdmissionPredicateSlot:
     ThreeDistinctHoldersForProcedurePredicate, ByValue
 ```

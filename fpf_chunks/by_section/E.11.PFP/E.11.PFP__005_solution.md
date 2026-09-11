@@ -6,12 +6,12 @@ section_id: "E.11.PFP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__005_solution.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:4 — Solution"
-line_start: 80486
-line_end: 80544
+line_start: 80530
+line_end: 80590
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -87,6 +87,8 @@ The Readme says plainly that its entries are selected examples, not a catalogue 
 
 - an ordinary entry shows how one direct pattern or one bounded direct route can answer a comparatively simple difficulty without a mantra; and
 - a Practical-Use Card shows a recurring complex difficulty whose useful answer spans several direct pattern contributions and whose long dependency is easier to retain with a mantra.
+
+The `First useful result or blocker` value gives the result of the action the entry supports, or a condition preventing that action. When several actions could be meant, name the relevant action in the value.
 
 Use this ordinary-entry form:
 

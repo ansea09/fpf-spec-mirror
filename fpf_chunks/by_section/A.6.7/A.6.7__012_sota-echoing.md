@@ -6,12 +6,12 @@ section_id: "A.6.7:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__012_sota-echoing.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:11 — SoTA-Echoing"
-line_start: 20507
-line_end: 20512
+line_start: 20531
+line_end: 20536
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.6.7:11 - SoTA-Echoing
 
-This pattern echoes post‑2015 best practice in modular reasoning systems: separation of **governing spec refs** from **operators**, explicit composition protocols, and strict boundaries between **decision procedures** and **gating/acceptance control**.
+Separating **governing spec refs** from **operators**, declaring composition protocols, and keeping **decision procedures** distinct from **gating/acceptance control** make the requirements of each part visible.
 
-In modern multi-step evaluation pipelines (e.g., calibrated scoring, uncertainty-aware comparison, Pareto / selected-set selection, and quality-diversity archives), correctness typically relies more on explicit governing spec refs and admissible composition than on a single monolithic “universal metric”. `MechSuiteDescription` provides the Kernel representation that allows such pipelines to be described with stable obligations while keeping domain methods and FPF pattern generators outside the universal core.
+Use this separation to describe multi-step evaluation pipelines, such as calibrated scoring, uncertainty-aware comparison, Pareto / selected-set selection, and quality-diversity archives. `MechSuiteDescription` describes their shared obligations while keeping domain methods and FPF pattern generators outside the universal core.
 

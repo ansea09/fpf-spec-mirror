@@ -6,12 +6,12 @@ section_id: "C.11.DUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__005_solution.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "C.11.DUA — Decision-Useful Advice and Evidence Demands"
   - "C.11.DUA:4 — Solution"
-line_start: 48136
-line_end: 48199
+line_start: 48180
+line_end: 48243
 dependencies:
   - "A.10"
   - "C.11"

@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 79120
-line_end: 79459
+line_start: 79164
+line_end: 79503
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -32,7 +32,7 @@ keywords:
 
 ### E.11:4 - Solution - Give Each Entry Publication Unit One Job
 
-Write the short public entry first: recognizable working situation, practical question, first useful result or honest blocker, direct pattern or small plausible set, and ordinary stop or wrong-turn return. If that prose is truthful and sufficient, stop. Add an expansion, exact result basis, or durable comparison only when ambiguity or a named receiving reliance needs it.
+Write the short public entry first: recognizable working situation, practical question, first useful result or blocker, direct pattern or small plausible set, and ordinary stop or wrong-turn return. If that prose is truthful and sufficient, stop. Add an expansion, exact result basis, or durable comparison only when ambiguity or a named receiving reliance needs it.
 
 Use this distribution:
 
@@ -131,7 +131,7 @@ Use `demonstrativeSliceRef` only when the example independently passes A.22.CGUS
 
 #### E.11:4.1.1 - Cold-reader recognition and grounded public value
 
-Test every public entry against a first-time engineer, engineer-manager, or assisting agent who has not studied FPF. The heading and first sentence name a recognizable working situation; the next useful sentence names an imaginable first result or honest blocker and one direct-pattern distinction that changes the next action. PatternIDs, FPF kind names, internal quality language, and exact assurance fields remain later.
+Test every public entry against a first-time engineer, engineer-manager, or assisting agent who has not studied FPF. The heading and first sentence name a recognizable working situation; the next useful sentence names an imaginable first result or blocker and one direct-pattern distinction that changes the next action. PatternIDs, FPF kind names, internal quality language, and exact assurance fields remain later.
 
 A public value claim is grounded when the reader can recover the project need, first useful result or blocker, why one direct pattern can help, and the ordinary boundary. Add the exact potential-result kind, identity or obtaining basis, result-relative object, or conditional receiver only when omitting it would change the truth, the starting choice, the stop, or a named later reliance. The entry may stay readable prose; the reader never has to fill a card before opening the direct pattern.
 
@@ -252,9 +252,9 @@ Where an exact row is used, it carries one result template or public blocker. A 
 
 #### E.11:4.4.1 - Practical-use carry-through check
 
-Read each published entry first in the form the public will see. A passing ordinary entry exposes the recognizable situation, practical question, first useful result or honest blocker, one direct pattern or small plausible set, and the stop or wrong-turn return. This check creates no project instance, applicability verdict, result entity, relation occurrence, receiving use, or separate positive record.
+Read each published entry first in the form the public will see. A passing ordinary entry exposes the recognizable situation, practical question, first useful result or blocker, one direct pattern or small plausible set, and the stop or wrong-turn return. This check creates no project instance, applicability verdict, result entity, relation occurrence, receiving use, or separate positive record.
 
-For a selected card, also compare the same truthful entry without its mantra. The card passes only when repeating the mantra materially improves repeated or extended use under the test in `E.11:4.1`. After one read, a cold engineer or manager can repeat the formula in their own words, name the first useful result or honest blocker, follow `Start with` to the direct pattern and any conditioned next use, and use the same key to recover any optional expansion. The direct pattern remains authoritative. A short slogan that loses a choice-changing distinction fails, and a form-valid card that provides no mnemonic gain returns to ordinary-entry or locator form.
+For a selected card, also compare the same truthful entry without its mantra. The card passes only when repeating the mantra materially improves repeated or extended use under the test in `E.11:4.1`. After one read, a cold engineer or manager can repeat the formula in their own words, name the first useful result or blocker, follow `Start with` to the direct pattern and any conditioned next use, and use the same key to recover any optional expansion. The direct pattern remains authoritative. A short slogan that loses a choice-changing distinction fails, and a form-valid card that provides no mnemonic gain returns to ordinary-entry or locator form.
 
 
 When an entry needs the optional exact expansion because a promise, ambiguity, or named reliance cannot otherwise remain truthful, use this conceptual view over the already published values:

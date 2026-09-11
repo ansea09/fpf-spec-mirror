@@ -6,12 +6,12 @@ section_id: "A.6.C:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__013_relations.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:12 — Relations"
-line_start: 12237
-line_end: 12253
+line_start: 12272
+line_end: 12288
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -70,7 +70,7 @@ keywords:
   * Uses **A.6.B** for L/A/D/E claim classification, atomicity, and cross-quadrant reference discipline.
   * Used by **A.6** cluster conformance (“contract unpacking”) as the detailed, reusable form of that discipline.
   * Complements **A.6.S** (signature engineering): contract unpacking is a common constructor step when turning prose boundaries into publishable signatures.
-  * Coordinates with **A.6.P** families: when an RPR pattern touches “contract or guarantee” language, apply A.6.C to avoid category errors. (A.6.C is **not** a specialization of A.6.P; A.6.P is relation‑precision, A.6.C is boundary‑contract disambiguation.)
+  * Coordinates with **A.6.P** families: when “contract or guarantee” wording in a boundary use still leaves a consequential ambiguity after RPR, apply A.6.C to that ambiguity. (A.6.C is **not** a specialization of A.6.P; A.6.P is relation‑precision, A.6.C is boundary‑contract disambiguation.)
 
 * **Coordinates with**
 

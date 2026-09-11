@@ -6,12 +6,12 @@ section_id: "A.6.4:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__008_conformance-checklist-normative.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:7 — Conformance Checklist (normative)"
-line_start: 15973
-line_end: 15994
+line_start: 16009
+line_end: 16030
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,13 +43,13 @@ keywords:
 
 **CC-A.6.4-3 - Separate use proposition and case judgement.** One C.2.1 assertion q names r, one receiving use, the invariant, visible loss, conditions, and affirmative or negative polarity. A separate current-case judgement reports `satisfies`, `fails`, or `cannot decide` from exact current facts. The same r may have another q and judgement for another use.
 
-**CC-A.6.4-4 - Conservative receiving claim.** A `satisfies` judgement requires enough current case basis for q's invariant and stated use, and the receiving episteme adds no unsupported commitment about that invariant. Contrary facts yield `fails`; a missing deciding fact yields `cannot decide` plus that fact and the reopen condition. Neither result changes q's polarity.
+**CC-A.6.4-4 - Conservative receiving claim.** For an affirmative q, a `satisfies` judgement requires enough current case basis for q's invariant and stated use, and the receiving episteme adds no unsupported commitment about that invariant. For either polarity, facts contrary to q's proposition yield `fails`; a missing deciding fact yields `cannot decide` plus that fact and the reopen condition. Neither result changes q's polarity.
 
 **CC-A.6.4-5 - Triggered additions only.** For a Description or specification-use episteme, name every material change to claim content, effective scheme, grounding, scope, operating condition, or selected viewpoint under A.7 and E.10.D2. Add those values, evidence, currentness, a route-equivalence test, or a reopen condition only when they change q or the reader's action.
 
 **CC-A.6.4-6 - Separate semantic correspondence.** Test an F.9 Bridge only when the case also claims a relation between two exact local senses. The Bridge, its bounded-use claim, optional `CL`, evidence, and reliance remain separate from r and q.
 
-**CC-A.6.4-7 - Separate application and Work.** Measurement, computation, actuation, model fitting, authoring, and other effects use their exact operation application and Work patterns. The arrow statement `r : X -> Y` neither identifies that occurrence nor proves a production relation.
+**CC-A.6.4-7 - Separate application and Work.** For measurement, computation, actuation, model fitting, authoring, and other effects, identify the exact operation application and its argument and result bindings when an A.6.1 operation declaration is current; identify any performed Work separately. The arrow statement `r : X -> Y` neither identifies an application or Work occurrence nor proves a production relation.
 
 **CC-A.6.4-8 - Fourier boundary.** A same-signal time/frequency change routes to C.29 and A.6.3.RT. A.6.4 is used only after the receiving spectrum or other mathematical object is independently identified as a different EntityOfConcern.
 

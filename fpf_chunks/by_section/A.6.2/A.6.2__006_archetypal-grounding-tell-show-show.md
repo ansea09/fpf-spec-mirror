@@ -6,12 +6,12 @@ section_id: "A.6.2:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 13833
-line_end: 13914
+line_start: 13856
+line_end: 13937
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -49,7 +49,7 @@ The examples below show how EFEM is intended to be used across the EntityOfConce
 * `entityOfConcernChangeMode(Specify_DescEp_SpecDesc) = preserve`. The shared Method establishes endpoint EntityOfConcern equality; the Method entity itself is not a logical premise.
 * P1 — effect-free: it is the declared arrow between the two epistemes; any operation application that produces Y is separate.
 * P2 — conservative: every behavioral claim, constraint, and test obligation in Y traces to exact claims in X, an additional named source episteme, or an independently current fact under its named relation and effective scheme.
-* P3-P5 — category structure and scope: the declared arrows compose only when their exact endpoints and P3 mappings agree, and applicability is bounded by the named engineering scope, operating conditions, effective scheme, and any viewpoint selected for the named validation use.
+* P3-P5 — category structure and scope: the declared arrows compose only when their exact endpoints and P3 mappings agree. P5 includes the named engineering scope, operating conditions, effective scheme, or selected viewpoint in the formal domain only insofar as the arrow law depends on them. Keep separately any such condition or viewpoint that changes the named validation or receiving-use claim.
 
 If an author chooses a new threshold, acceptance condition, harness obligation, or other commitment not supported by that basis, Y has been strengthened and the proposed arrow fails P2. Identify the new assertion in Y's changed ClaimGraph. When a particular application or Work accounts for that strengthening, identify that occurrence and the direct production relation separately. The new assertion remains outside the conservative arrow; the application, Work, and production relation account for its origin.
 
@@ -59,7 +59,7 @@ Keeping episteme identity, describing use, and production separate matches A.7 a
 
 *Context.* In MVPK you compute an engineering view `V` of a system description; you then normalise the view (sort, factor, put equations into normal form) without changing what it says.
 
-Let `X = V_raw`, `Y = V_norm`, both `U.EpistemeView` instances with the same:
+Let `X = V_raw`, `Y = V_norm`. For this example, assume each episteme independently satisfies E.17.0's `U.View` membership condition. The two views have the same:
 
 * `entityOfConcernRef(X) = entityOfConcernRef(Y)` (same system);
 * when grounding is current, the same exact grounding occurrence and grounding holon are found on both sides; this is an endpoint comparison, not a change made by `NormalizeView`;
@@ -73,7 +73,7 @@ The EFEM `NormalizeView : X→Y`:
 * is effect-free and separately claims idempotence on the output-closed domain of valid `EpistemeView` values under the fixed scheme and normalization rules; equality means exact normalized ClaimGraph equality plus equality of all identity-bearing episteme values, and a fixture that composes `NormalizeView` with itself supplies the repeat witness (P4);
 * is conservative (P2): no new claims, only re‑expression.
 
-MVPK can then **assume** functoriality of such normalisations without re‑stating the EFEM laws.
+MVPK can reuse the EFEM laws for these normalization arrows. Claim the relevant category and functor only when their mappings, identity laws and composition conditions are established under P3 and the selected MVPK profile.
 
 #### A.6.2:5.3 - Retargeting sketch (`entityOfConcernChangeMode = retarget`)
 
@@ -106,7 +106,7 @@ Two typical EFEM species over this kind are:
   * satisfies P2 only when every claim in the receiving specification is recoverable from exact source ClaimGraphs or independently current facts under named relations and schemes; the unchanged EntityOfConcern is an endpoint identity condition, not a proposition or additional premise;
   * satisfies C.2.1:7.1 by declaring its endpoint-value comparison, named relation-read profile, and change mode.
 
-* `Normalize_EngView : EpistemeView → EpistemeView` — a view‑normalisation EFEM (again with `EntityOfConcernChangeMode = preserve`) that:
+* `Normalize_EngView : U.View → U.View` — a view‑normalisation EFEM (again with `EntityOfConcernChangeMode = preserve`) that:
   * states how the formal relation uses the three C.2.1 identity values and makes the exact source-to-receiving ClaimGraph difference explicit; any difference between separately obtaining endpoint facts that it compares is named by the exact predicate and participants, and any normalization application remains separate;
   * is effect-free and separately claims idempotence on its output-closed engineering-view domain under the fixed scheme and normalization rules; equality means exact normalized ClaimGraph equality plus equality of all identity-bearing episteme values, and a composition fixture supplies the repeat witness (P4);
   * is conservative (P2) by construction: it never introduces new atoms about the selected system.

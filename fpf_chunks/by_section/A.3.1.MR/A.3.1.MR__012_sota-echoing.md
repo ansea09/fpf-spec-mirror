@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__012_sota-echoing.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:11 — SoTA-Echoing"
-line_start: 8670
-line_end: 8681
+line_start: 8658
+line_end: 8668
 dependencies:
   - "A.10"
   - "A.13"
@@ -37,5 +37,4 @@ keywords:
 | Current object-centric recovery alternatives: [Adams et al., *Defining Cases and Variants for Object-Centric Event Data*](https://arxiv.org/abs/2208.03235) and [Küsters and van der Aalst, *OCPQ*](https://arxiv.org/abs/2506.11541) | Real event data may relate one event to several objects; selecting one case key or flattening can discard information, while queries and constraints produce use-bounded results. | **Adopt the anti-flattening consequence.** Preserve the multi-object evidence and state the selected grouping, query, or constraint when it changes the candidate account. A graph-shaped execution, query result, or constraint result is still evidence or an episteme, not the reusable Method. |
 | Current FPF `C.2.1`, `A.3.1`, `A.3.2`, and `A.15.1` | Separates episteme identity, Method identity, MethodDescription membership, and performed Work. | **Adopt directly.** Return one truthful candidate-account episteme per candidate and keep all later admissions separate. |
 
-**Qualification and smallest reopen.** Reopen only when a source materially changes an evidence limitation, the multi-object recovery choice, or the boundary between reconstruction and an admitted Method used by a result branch. Revise the affected source row and its matching recovery step, case, or checklist item. A new mining algorithm, serialization, or domain example alone does not reopen the general boundary.
 

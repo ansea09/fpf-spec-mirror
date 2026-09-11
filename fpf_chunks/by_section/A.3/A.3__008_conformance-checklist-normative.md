@@ -6,12 +6,12 @@ section_id: "A.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__008_conformance-checklist-normative.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:7 — Conformance Checklist (normative)"
-line_start: 7915
-line_end: 7949
+line_start: 7903
+line_end: 7937
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -31,11 +31,11 @@ keywords:
 
 ### A.3:7 - Conformance Checklist (normative)
 
-**CC‑A3‑0 - U.RoleAssignment presence.**
-A world-side Work occurrence performed by a system bearing `TransformerRole@Context` MUST stand in an exact obtaining `performedBy` relation to a `U.RoleAssignment` occurrence. A conforming assertion or description designates the Work, assignment, and relation; the assignment has A.2.1's four participants: exact holder System, role value, role-taxonomy episteme edition, and effective ReferenceScheme. State the currently known assignment extent separately as `assignmentInterval` in the assignment assertion or occurrence description when needed. A context label is not a generic fifth participant. For a non-Work actor-side claim, use its direct governor and introduce a work-facing assignment only when that relation is independently current.
+**CC‑A3‑0 - Performer basis and conditional assignment-bound attribution.**
+For actual Work, each performer System MUST have the A.13 core, including classification under a local agential system-role kind and an obtaining assignment of that kind. A.15.1 admits the Work independently. The assignment's declared `U.SystemRoleAssignment` species determines its predicate, holder, assigned-kind domain, any additional participants, and occurrence identity under A.2.1. State the currently known extent separately as `assignmentInterval` when needed; taxonomy, scheme, and context references are not generic participants. If the receiving use also claims under which assignment the Work was performed, that attribution MUST pass F.6 `performedUnderAssignment(W, RA)` with the same assignment; an unresolved attribution leaves the admitted Work intact. A conforming assertion or description designates the Work and the basis its claim uses. For a non-Work actor-side claim, use its direct governor and introduce a work-facing assignment only when that relation is independently current.
 
 **CC‑A3‑1 - Acting-side distinction.**
-When an asymmetric actor-side claim is current, its directly governed acting and changed positions MUST be distinct for that claim. When performed Work is current, each obtaining `performedBy` relation reaches an exact RoleAssignment occurrence. In reflexive Work the acting and changed positions MAY be grounded subholons or positions inside one containing holon; the containing holon need not be reidentified. Do not force this split or a role assignment onto a natural, joint, relational, non-separable, or formal change merely to satisfy A.3. This preserves acting-side externalization without fictive actors.
+When an asymmetric actor-side claim is current, its directly governed acting and changed positions MUST be distinct for that claim. When performed Work is current, recover each actual performer and its obtaining assignment through A.13; add F.6 attribution through that same assignment only when the receiving use needs it. In reflexive Work the acting and changed positions MAY be grounded subholons or positions inside one containing holon; the containing holon need not be reidentified. Do not force this split or a role assignment onto a natural, joint, relational, non-separable, or formal change merely to satisfy A.3. This preserves acting-side externalization without fictive actors.
 
 **CC‑A3‑2 - Method-description-Work-assertion separation.**
 `U.MethodDescription` is a description episteme, `U.Method` is a run-independent semantic way of doing, and a Work individual admitted under `U.Work` is a world-side dated performed occurrence. A Work assertion or description is another `U.Episteme`; a log, ticket, or carrier may express or support it but is not the occurrence. Neither Method nor MethodDescription is a run-time occurrence. A changed description edition and performed Work are separate facts, and a claim that Work occurred remains admissible without a MethodDescription reference when no receiving use relies on an exact description edition.
@@ -53,14 +53,14 @@ When Work on an episteme or its carrier is claimed, the performer is still a Sys
 Every performed resource-use fact relied on for a claim about Work MUST state its measure and units. A percentage that enters a resource aggregation must be grounded in the exact PortionOf measure needed by that use. Totals, allocation, overlap handling, deduplication, and optional `Gamma_work` notation belong to a separately recovered B.1.6 aggregation, not to Work identity.
 
 **CC‑A3‑7 - Authority, justification, and provenance boundary.**
-Authority, justification, and provenance are not constitutive fields of a RoleAssignment occurrence or Work occurrence. When a receiving use relies on one of them, identify the exact episteme and direct authority, justification, source, evidence, or provenance relation and connect it to the exact assignment occurrence, Work individual, assertion, or description. None of those neighboring claims makes the assignment obtain or the Work occur.
+Authority, justification, and provenance are not constitutive fields of a SystemRoleAssignment occurrence or Work occurrence. When a receiving use relies on one of them, identify the exact episteme and direct authority, justification, source, evidence, or provenance relation and connect it to the exact assignment occurrence, Work individual, assertion, or description. None of those neighboring claims makes the assignment obtain or the Work occur.
 
 **CC‑A3‑8 - Agentic policy, planning, Work, and outcome separation.**
-An agentic case does not license a generic pipeline from policy, through a planned action, to an action. Recover each exact policy, objective, selection or decision, WorkPlan, RoleAssignment, dated Work, actual change, and outcome claim under its direct owner when that claim is current. A policy does not create a plan or Work; a plan does not prove Work; and Work does not prove an outcome. Do not mint `U.PlannedAction` or `U.Action` from ordinary action wording.
+An agentic case does not license a generic pipeline from policy, through a planned action, to an action. Recover each exact policy, objective, selection or decision, WorkPlan, SystemRoleAssignment, dated Work, actual change, and outcome claim under its direct owner when that claim is current. A policy does not create a plan or Work; a plan does not prove Work; and Work does not prove an outcome. Do not mint `U.PlannedAction` or `U.Action` from ordinary action wording.
 
 **CC‑A3‑9 - Local interpretation and exact crossings.**
-Interpret each RoleAssignment occurrence through its exact role-taxonomy episteme and effective ReferenceScheme, and test compatibility through the exact rule current for that assignment use. Similar labels across localities establish neither equivalence nor conflict. When a receiving use needs exact local-sense correspondence, use F.9 only for the exact `SenseCell` correspondence and its admitted use; role-value, policy, criterion, verdict, or other mappings retain their direct owners.
+When interpretation depends on a taxonomy episteme or effective ReferenceScheme, identify that reference in the assertion about the SystemRoleAssignment occurrence. Test compatibility through the exact rule current for that assignment use. Similar labels across localities establish neither equivalence nor conflict. When a receiving use needs exact local-sense correspondence, use F.9 only for the exact `SenseCell` correspondence and its admitted use; local system-role-kind, policy, criterion, verdict, or other mappings retain their direct owners.
 
 **CC‑A3‑10 - Use-driven aggregation boundary.**
-A.3 does not require a MethodDescription or an assertion about Work to make every Gamma family runnable. When a receiving use needs order-sensitive Method composition, recover B.1.5 and optional `Gamma_method`; when it needs a temporal aggregate over exact Work intervals, recover B.1.4 and optional `Gamma_time`; when it needs a resource ledger, recover B.1.6 and optional `Gamma_work`. A system-boundary or epistemic aggregation likewise uses its exact direct owner. Each aggregation has its own EntityOfConcern, policy, evidence, and admissible use; none is a universal field or identity condition of MethodDescription, RoleAssignment, or Work.
+A.3 does not require a MethodDescription or an assertion about Work to make every Gamma family runnable. When a receiving use needs order-sensitive Method composition, recover B.1.5 and optional `Gamma_method`; when it needs a temporal aggregate over exact Work intervals, recover B.1.4 and optional `Gamma_time`; when it needs a resource ledger, recover B.1.6 and optional `Gamma_work`. A system-boundary or epistemic aggregation likewise uses its exact direct owner. Each aggregation has its own EntityOfConcern, policy, evidence, and admissible use; none is a universal field or identity condition of MethodDescription, SystemRoleAssignment, or Work.
 

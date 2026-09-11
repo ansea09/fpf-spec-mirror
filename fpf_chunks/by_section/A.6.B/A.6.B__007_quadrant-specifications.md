@@ -6,12 +6,12 @@ section_id: "A.6.B:5"
 section_title: "Quadrant specifications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__007_quadrant-specifications.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:5 — Quadrant specifications"
-line_start: 11291
-line_end: 11398
+line_start: 11251
+line_end: 11362
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -102,9 +102,11 @@ This section is the normative “API” of the square: what each quadrant is for
 * An `L-*` statement **MUST NOT** encode runtime gate predicates (those are `A-*`).
 * An `L-*` statement **MUST NOT** assert evidence availability or measurement outcomes (those are `E-*`).
 
-**A.7 EntityOfConcern binding.** `L-*` claims are **Descriptions**: they specify semantics of the signature or mechanism description, not work.
+**A.7 EntityOfConcern binding.** Identify what the `L-*` definition, invariant,
+or typing rule concerns, separately from the episteme carrying the claim. Its
+EntityOfConcern need not itself be a description and may be Work.
 
-**Typical dependence.** `A-*` and `E-*` claims may reference `L-*` IDs for vocabulary, metric definitions, and invariants needed for interpretation.
+**Typical dependence.** `A-*` and `E-*` claims may reference `L-*` IDs or canonical locations for vocabulary, metric definitions, and invariants needed for interpretation.
 
 #### A.6.B:5.2 — Quadrant A: Admissibility & Gates
 
@@ -125,9 +127,11 @@ This section is the normative “API” of the square: what each quadrant is for
 * An `A-*` statement **MUST NOT** use RFC deontic keywords as if it were an agent obligation. (It is a gate predicate, not a duty.)
 * An `A-*` statement **MUST NOT** claim that evidence exists (that is `E-*`) or that someone must enforce the gate (that is `D-*`).
 
-**A.7 EntityOfConcern binding.** `A-*` claims are **Descriptions** of a mechanism gate. They are not “what a client must do”; they are “what the mechanism admits”.
+**A.7 EntityOfConcern binding.** An `A-*` claim concerns the mechanism-entry
+predicate: what the mechanism admits, not a client's duty to comply with it.
+Keep that predicate distinct from the episteme carrying the claim.
 
-**Required references (explicit).** If an `A-*` predicate relies on defined terms or invariants, it **SHOULD** reference the relevant `L-*` IDs (or at minimum the signature that defines them).
+**Required references (explicit).** If an `A-*` predicate relies on defined terms or invariants, it **SHOULD** reference the relevant `L-*` IDs or canonical locations (or at minimum the signature that defines them).
 
 #### A.6.B:5.3 — Quadrant D: Deontics & Commitments
 
@@ -153,15 +157,15 @@ The assertion states and supports a claim about the relation. Its fields, public
 
 **Prohibitions.**
 
-* A generic `D-*` statement **MUST NOT** invent an individual bearer or commitment; name its exact normative source and rule content. An individual-duty `D-*` statement **MUST NOT** use “the system, service, interface, or specification” as a vague subject; name the actual duty-bearing system or separately governed party and exact `U.Commitment`, with an assignment only when the constitutive rule uses it as a ground. Use `A.6.C` when promise, utterance, approval, guarantee, or agreement-like boundary language is live.
-* A `D-*` statement **MUST NOT** restate `L-*` or `A-*` predicates in new words when an ID exists; it **SHOULD** reference the ID.
+* A generic `D-*` statement **MUST NOT** invent an individual bearer or commitment; name its exact normative source and rule content. An individual-duty `D-*` statement **MUST NOT** use “the system, service, interface, or specification” as a vague subject; name the actual duty-bearing system or separately governed party and exact `U.Commitment`, with an assignment only when the constitutive rule uses it as a ground. Use `A.6.C` when ambiguity in promise, utterance, approval, guarantee, or agreement-like boundary wording changes the claim's interpretation or use.
+* A `D-*` statement **MUST NOT** restate `L-*` or `A-*` predicates in new words when an ID exists; it **SHOULD** reference the ID or canonical location.
 * A `D-*` statement **MUST NOT** pretend that a duty, commitment, or grant is a law or that writing the claim makes it obtain.
 
 **A.7 EntityOfConcern binding.** A generic `D-*` claim episteme concerns the exact normative rule content it states. An individual `D-*` claim concerns the exact duty, commitment, or grant named by its content and does not substitute for that object. When permission wording is live, the branch in §8.4.1 names the subject pattern and the obtaining or non-obtaining test.
 
 **Required references (explicit).**
 
-* If a `D-*` statement imposes compliance with a gate, it **MUST** reference the relevant `A-*` ID(s).
+* If a `D-*` claim states a prescription or duty to comply with a gate, it **MUST** reference the relevant `A-*` ID(s) or canonical location(s).
 * If a `D-*` statement is meant to be auditable, it **SHOULD** reference the `E-*` claim(s) that provide evidence and the carrier classes involved.
 
 #### A.6.B:5.4 — Quadrant E: Work‑Effects & Evidence
@@ -188,7 +192,7 @@ When permission wording is current, use the branch in §8.4.1 for the exact occu
 
 **Required references (explicit).**
 
-* If the result is conditioned on a gate decision, the `E-*` statement **SHOULD** reference the relevant `A-*` ID(s).
+* If the result is conditioned on a gate decision, the `E-*` statement **SHOULD** reference the relevant `A-*` ID(s) or canonical location(s).
 * If another object is needed to settle the predicate, reference that object's subject pattern without importing its quadrant.
 * If evidence is used for reliance, cite the exact A.10 or G.6 evidence-use relation rather than treating carrier presence as truth.
 

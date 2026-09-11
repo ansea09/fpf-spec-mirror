@@ -6,23 +6,22 @@ section_id: "A.6:12a"
 section_title: "Quantum-like boundary-claim classification note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__014_quantum-like-boundary-claim-classification-note.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:12a — Quantum-like boundary-claim classification note"
-line_start: 10716
-line_end: 10748
+line_start: 10686
+line_end: 10718
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.2.3"
-  - "A.2.8"
   - "A.2.8.PER"
-  - "A.2.9"
   - "A.6"
   - "A.6.0"
   - "A.6.1"
   - "A.6.3"
+  - "A.6.5"
+  - "A.6.6"
   - "A.6.B"
   - "A.6.C"
   - "A.6.P"
@@ -30,7 +29,6 @@ dependencies:
   - "B.3"
   - "C.26"
   - "C.28"
-  - "E.10"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
@@ -38,9 +36,6 @@ dependencies:
   - "E.8"
   - "F.18"
   - "F.9"
-  - "U.Mechanism"
-  - "U.Signature"
-  - "U.View"
 keywords:
   - "Confuses deontics with mathematical admissibility"
   - "Rewrite as declarative predicate"
@@ -52,7 +47,7 @@ keywords:
   - "delivery"
   - "in invariants"
   - "publication face"
-  - "reference predicate IDs from CC when needed"
+  - "reference predicates by ID or canonical location from CC when needed"
   - "separate result"
   - "signature and mechanism declarations"
   - "six-way authority-word branch"
@@ -67,7 +62,7 @@ Use A.6 first for ordinary boundary, interface, API, protocol, contract, connect
 Action classification:
 
 1. Identify the boundary sentence and name the boundary object in ordinary A.6 terms.
-2. Name endpoints, channel, and carrier separately; do not let one word such as "interface", "service", "contract", or "context" stand for all of them.
+2. Name the actual participants and any channel or carrier required by the boundary relation or operation separately.
 3. Apply the applicable ordinary FPF patterns to the ordinary boundary content: A.6, A.6.B, F.9, A.15, C.16, or C.25.
 4. If the boundary text uses a coarsened representation to claim preserved action, intervention, manipulation, explanation, or preserved structure across representation scales, state the causal-abstraction or approximate-causal-abstraction mapping before retaining QL wording.
 5. Ask whether the boundary act is being used as a passive read or unjustified lossless-transfer reading while actually changing the represented state, export validity, or viability decision.
@@ -79,17 +74,17 @@ Minimum boundary discipline before a quantum-like boundary reading:
 | Field | What the author names |
 | --- | --- |
 | Boundary | Which interface, protocol, context crossing, publication face, evidence boundary, or exact service/access relation is being described; when service/access wording hides the subject or relation, recover it through A.6.P:4.11a before using this table |
-| Endpoints | Which Systems, epistemes, direct relation participants, signature slots, carriers, contexts, or faces stand on each side; if bare *role* occurs, use E.10.ROLE to recover the intended branch before treating it as an endpoint |
-| Channel or interaction | Message, meeting, metric, dashboard, API read, bridge or export, split or merge, orchestration, or other boundary act |
+| Endpoints | Name the actual participants required by the boundary relation or operation, preserving their direct kinds. Use A.6.5 only when reusable participant typing is needed; its declaration slots are not actual participants. If bare *role* remains ambiguous, use E.10.ROLE before assigning it a participant meaning. |
+| Channel or interaction | Name the actual interaction or operation under its direct predicate. Add a channel only when that predicate uses one. |
 | Claimed state reading | What represented state is claimed before and after the act, and whether the act is treated as passive read, action, export, or probe |
-| Evidence / carrier | Which carrier, trace, metric, report, observation, or work result supports the reading |
+| Evidence / carrier | Name the exact supported claim, evidence object and any carrier used for reliance through A.10. Keep a measurement value, observation, Work result and carrier in their own positions. |
 | Export or loss | What is copied, transformed, no longer comparable, or not faithfully exportable |
 | Ordinary pattern tried | Which of A.6, F.9, A.15, C.16, or C.25 already carries the baseline question |
 
 Useful outputs:
 
 - an L/A/D/E-classified boundary claim set when ordinary A.6 is enough;
-- a Bridge Card when the issue is export loss across contexts;
+- an F.9 Bridge and separate bounded-use claim when the export question concerns two exact local senses and the Bridge predicate obtains; add a Bridge Card only when durable packaging is useful;
 - a C.26.1 probe-coupled boundary note only when the boundary act changes the represented state in a decision-relevant way;
 - a relation repair using `A.6.P` when coupling words become reusable relation candidates, plus `F.18` only when the recovered relation term itself needs durable naming.
 

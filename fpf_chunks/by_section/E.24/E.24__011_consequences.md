@@ -6,12 +6,12 @@ section_id: "E.24:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__011_consequences.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:9 — Consequences"
-line_start: 92286
-line_end: 92292
+line_start: 92334
+line_end: 92340
 dependencies:
   - "A.19.ECS"
   - "A.6.0"

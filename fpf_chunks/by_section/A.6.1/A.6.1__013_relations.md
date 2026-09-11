@@ -6,12 +6,12 @@ section_id: "A.6.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__013_relations.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:12 — Relations"
-line_start: 13556
-line_end: 13584
+line_start: 13579
+line_end: 13607
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -64,15 +64,15 @@ When E.18.1 reaches a mechanism question, A.6.1 supplies the reusable operation 
 
 When selected relations and applied constraints connect signature, mechanism, method, Work, and evaluation constituents into one independently identified A.22 structure with local loci and at least two potential continuations, apply A.22.CGUS to that structure. A presentation of one traversal through a qualified CGUS is a separate demonstrative slice. The local mechanism mantra remains Plain mnemonic wording unless that wider structure actually qualifies and the later presentation is about it.
 
-#### A.6.1:12.2 - Lowering and return conditions
+#### A.6.1:12.2 - Claim dispositions and return conditions
 
-Lower or withdraw a `U.Mechanism` identification when the text cannot recover an exact declared operation family, typed argument and result meanings, application rules, laws, admission conditions, and Applicability. Lower an actual application or binding when its declaration-local predicate, participants, extent, or identity cannot be recovered. Lower a realization claim when the entity does not preserve a declared law for admitted use or the claimed scope and interval cannot be recovered.
+For a `U.Mechanism` identification, state that its defining predicate is not satisfied when a required condition is known false; leave the identification unresolved when the text cannot recover an exact declared operation family, typed argument and result meanings, application rules, laws, admission conditions, and Applicability. For an actual application or binding, retain the §4.5 missing-governor blocker when a required declaration-local predicate, extent rule, or identity rule is absent. When those rules are present, state any known predicate failure or the missing participants and case facts that leave the claim unresolved. A realization does not obtain when the entity fails to preserve a declared law for admitted use; leave the realization claim unresolved when its required scope, interval, or case facts cannot be recovered.
 
 Return to the smallest changed object:
 
 - changed declaration content, EntityOfConcern, or effective reference scheme requires A.6.1 and identifies another mechanism episteme; call it a continuing edition only when the separate C.2.1 `EpistemeEditionRelation` obtains, otherwise treat it as a non-continuing replacement;
 - exact cross-context `SchemeSenseCell` correspondence requires F.9; a selected `CHR:ReferencePlane` change requires CHR, and a model-use-structure change requires A.1.1/A.22. An asserted transition or use relation must name its predicate and participants or stop; none becomes a generic mechanism-transport claim;
-- a particular application or binding returns to its exact declaration-local predicate, extent, and identity rules; if they cannot govern the claimed actual use, retain the exact missing-governor blocker rather than widen A.6.1 into a universal work-participant relation;
+- a particular application or binding returns to its exact declaration-local predicate, extent, and identity rules; if a required rule is absent for the claimed actual use at its required granularity, retain the exact missing-governor blocker rather than widen A.6.1 into a universal work-participant relation;
 - realizer capability or realization scope returns to the direct realization relation;
 - evaluation and evidence currentness require their exact predicates and G.11 when currentness is the claim;
 - method and work changes require A.3.1, A.15.2, or A.15.1;

@@ -6,12 +6,12 @@ section_id: "A.6.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__012_sota-echoing.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:11 — SoTA-Echoing"
-line_start: 20030
-line_end: 20053
+line_start: 20072
+line_end: 20095
 dependencies:
   - "A.10"
   - "A.14"
@@ -43,24 +43,24 @@ keywords:
 ### A.6.6:11 - SoTA-Echoing
 
 1. **RDF-star and statement qualification.**
-   **Adopt/Adapt.** RDF-star/SPARQL-star continues the semantic-web tradition of attaching qualifiers/provenance to statements and edges. We adopt the “qualified statement” intuition, but adapt it by requiring an explicit relation kind token and by tying time and scope discipline to FPF’s explicit `Γ_time` and USM scopes rather than leaving them implicit or purely notational.
-   *Primary source:* Hartig et al., “Foundations of RDF* and SPARQL*” (2017+).
+   **Adopt/Adapt.** RDF-star/SPARQL-star explored attaching qualifiers/provenance to statements and edges. RDF 1.2's Candidate Recommendation Snapshot of 7 April 2026 distinguishes representing a proposition from asserting that it holds. We adopt the “qualified statement” intuition, but adapt it by requiring an explicit relation kind and by making `Γ_time` and USM scopes explicit when the direct relation or receiving use needs them.
+   *Primary sources:* [Hartig and Thompson, *Foundations of an Alternative Approach to Reification in RDF* (first submitted 2014)](https://arxiv.org/abs/1406.3399), retained as history and marked obsolete by its authors; [RDF 1.2 Concepts and Abstract Data Model, Candidate Recommendation Snapshot, 7 April 2026](https://www.w3.org/TR/2026/CR-rdf12-concepts-20260407/).
 
 2. **Wikidata-style statements with qualifiers and references.**
-   **Adopt/Adapt.** The Wikidata model popularised practical “statement + qualifiers + references” structures at scale. We adopt the separation of the core statement from its qualifiers/references, and adapt it by making decision-relevant witness requirements explicit through evidence-use relation slots and by requiring explicit scope/time where time-dependent assumptions exist.
-   *Primary sources:* Wikidata statement model documentation and design lineage (post‑2015 practice).
+   **Adopt/Adapt.** Wikidata statements separate a core statement from optional qualifiers and references. We adopt that separation and adapt it by making decision-relevant basis requirements explicit through exact evidence-use relations, with slots only for a genuinely reused declaration, and explicit scope/time where the assertion or time-dependent use needs them.
+   *Primary source:* [Wikidata, Help:Statements](https://www.wikidata.org/wiki/Help:Statements).
 
 3. **Metrology traceability and calibration competence.**
-   **Adopt/Adapt.** Laboratory competence standards treat calibration as traceability to standards with documented evidence and bounded validity. We adopt the expectation that calibration-to-standard is not timeless, and adapt it by representing the validity window via explicit `Γ_time` plus witnesses as pinned calibration records.
-   *Primary source:* ISO/IEC 17025:2017.
+   **Adopt/Adapt.** Calibration is an operation relating a standard's quantity values and uncertainties to indications, then using that information to obtain measurement results. Metrological traceability is a property of a measurement result related to a reference through a documented calibration chain. We retain the need for documented calibration evidence and adapt time-dependent applicability through explicit `Γ_time` and the witnesses or pinned calibration records required by the assertion or receiving use.
+   *Primary sources:* [JCGM VIM, calibration (2.39)](https://jcgm.bipm.org/vim/en/2.39.html) and [metrological traceability (2.41)](https://jcgm.bipm.org/vim/en/2.41.html); [ISO/IEC 17025:2017](https://www.iso.org/standard/66912.html), edition confirmed in 2023.
 
 4. **Assurance case metamodels for claim–evidence structure.**
    **Adopt/Adapt.** SACM formalises claim/evidence structures and emphasises structured support relations. We adopt the idea that decision-relevant admissibility links should be explicit, and adapt it by using FPF’s scope/time discipline and by treating relation-kind elision as a first-order defect.
-   *Primary sources:* OMG Structured Assurance Case Metamodel (SACM), 2018+.
+   *Primary source:* [OMG Structured Assurance Case Metamodel (SACM), version 2.3, October 2023](https://www.omg.org/spec/SACM/2.3).
 
 5. **Objects over a base as a stable mathematical lens.**
    **Adopt/Adapt.** Modern category-theory texts make “objects over a base” (slice categories) a reusable pattern for “X relative to B”. We adopt that lens as the stable abstraction behind base declarations, and adapt it with explicit scope/time and witness semantics needed for engineering governance.
    *Primary source:* Riehl, *Category Theory in Context* (2016).
 
-**SoTA binding note (informative).** This pattern’s “qualified statement + explicit relation kind + references” move aligns with RDF*/Wikidata practice (items 1–2); the explicit time-window + witness semantics in decision use align with metrology traceability and assurance-case structures (items 3–4); the “object over a base” lens is the abstraction used to keep the pattern stable across domains (item 5).
+**SoTA binding note (informative):** the “object over a base” lens is the abstraction used to keep the pattern stable across domains (item 5).
 

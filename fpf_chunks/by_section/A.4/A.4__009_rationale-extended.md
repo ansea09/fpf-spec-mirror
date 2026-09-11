@@ -6,12 +6,12 @@ section_id: "A.4:8"
 section_title: "Rationale (extended)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__009_rationale-extended.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:8 — Rationale (extended)"
-line_start: 10096
-line_end: 10127
+line_start: 10051
+line_end: 10081
 dependencies:
   - "B.3"
   - "B.4"
@@ -32,14 +32,13 @@ keywords:
    fidelity and allows quantified error (`U.Error`) to drive evolution.
 
 2. **Why treat observation as transformation?**
-   Physics tells us measurement changes state (energy, information, even
-   quantum collapse).  Making the observer just another `Transformer`
-   means: no special metaphysics, full energy/provenance accounting,
-   seamless tie‑in with Constructor Theory (see A.3:9, “Constructor theory”).
+   Use A.3 for the observing System and Method, A.15.1 for a dated
+   measurement Work claim, and A.3.4 for any separately claimed actual change.
 
 3. **Why insist on open‑endedness?**
-   *Perfect* finality is unattainable outside mathematics. The resulting mandate is that holons must be *improvable* in principle; this pattern
-   encodes that mandate structurally: version n+1 is always possible.
+   P‑10 expects entities to evolve indefinitely and requires cycles that remain
+   cheap, safe, and cognitively rewarding. This pattern makes further revision
+   explicit through repeated design/run cycles.
 
 4. **Why no overlap (*Tᴰ* ∩ *Tᴿ*)?**
    The instant a holon is mutable (design) it ceases to be the “same”
@@ -49,7 +48,7 @@ keywords:
 This pattern therefore realises three core principles in concert:
 
 * **Temporal Duality** – explicit tagging of states.
-* **Open‑Ended Evolution** – guaranteed pathway for refinement.
+* **Open‑Ended Evolution** – support for further refinement.
 * **Ontological Parsimony** – one mechanism (Transformer) for all
   state changes, avoiding specialised “observer” or “installer” types.
 

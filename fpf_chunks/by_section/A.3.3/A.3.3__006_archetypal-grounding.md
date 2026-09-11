@@ -6,12 +6,12 @@ section_id: "A.3.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__006_archetypal-grounding.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:5 — Archetypal Grounding"
-line_start: 9218
-line_end: 9248
+line_start: 9201
+line_end: 9231
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,8 +66,8 @@ Side-by-side split:
 
 | Filled question | `U.Dynamics` value | `U.Transformation` value |
 | --- | --- | --- |
-| EntityOfConcern | exact reactor temperature-and-concentration state subject interpreted under the declared scheme and operating-region claim | the exact catalyst bed as changed referent for one actual regeneration occurrence |
-| Core relation | state-space coordinates plus nonlinear transition-law claim graph, observation relation, disturbances, operating region, and applicability window | exact catalyst bed; maintenance temporal extent and regeneration boundary; boundary conditions; actual fouling, flow, pressure, and catalyst-condition facts before, during, and after that boundary; continuity or reidentification rule for the bed and this one occurrence |
+| Subject and its relation | the model episteme's exact C.2.1 EntityOfConcern is the reactor temperature-and-concentration state subject interpreted under the declared scheme and operating-region claim | the exact catalyst bed is the continuing changed subject of one actual regeneration occurrence |
+| Identification basis | state-space coordinates plus nonlinear transition-law claim graph, observation relation, disturbances, operating region, and applicability window | exact catalyst bed; maintenance temporal extent and regeneration boundary; boundary conditions; actual fouling, flow, pressure, and catalyst-condition facts before, during, and after that boundary; continuity or reidentification rule for the bed and this one occurrence |
 | Use | possible, predicted, simulated, or probable state change; conformance, drift, and gate input only when the receiving use's required conditions are satisfied (§4.6) | actual bounded-change claim on the recovered subject-side occurrence basis |
 | Kept outside | method, controller code, dated runs, evidence, and gate authority | reusable law of state change, method description, work occurrence, evidence relation, and permission to act |
 
@@ -81,7 +81,7 @@ An architecture group tracks latency, coupling, operational cost, and change lea
 
 #### A.3.3:5.4 - Knowledge dynamics
 
-A claim portfolio uses belief, evidence weight, source currentness, and contestability as state coordinates. An episteme declaring a Bayesian or likelihood update as the transition law over that claim-state space is `U.Dynamics`. The studies, reviews, and source records are evidence values.
+A claim portfolio uses belief, evidence weight, source currentness, and contestability as state coordinates. An episteme declaring a Bayesian or likelihood update as the transition law over that claim-state space is `U.Dynamics`. The content reported by the studies, reviews, and source records can support or challenge a specified claim for a specified use through declared evidence-use relations.
 
 #### A.3.3:5.5 - Natural physical evolution
 

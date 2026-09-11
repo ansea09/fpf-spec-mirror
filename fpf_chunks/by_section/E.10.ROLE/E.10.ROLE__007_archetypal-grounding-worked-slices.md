@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__007_archetypal-grounding-worked-slices.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:5 — Archetypal Grounding — Worked Slices"
-line_start: 78380
-line_end: 78397
+line_start: 78424
+line_end: 78441
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -41,11 +41,11 @@ keywords:
 
 #### E.10.ROLE:5.2 - A Report Plays a Role in Approval
 
-The report is an episteme. Rewrite the claim as “reviewers used Report-R as evidence for ApprovalClaim-C”, then use A.10 for the evidence-use relation and B.3 only when an assurance claim or material-reliance threshold is current. The report becomes neither a system nor a holder of a system-role assignment.
+The report is an episteme. For the evidence-use reading established by the source, write “reviewers used Report-R as evidence for ApprovalClaim-C”, then use A.10 for the evidence-provenance account and B.3 only when an actual named assurance claim is current, including when an applicable material-reliance threshold requires that claim.
 
 #### E.10.ROLE:5.3 - API Provider Role
 
-“The API role is provider” does not yet reveal which claim is meant. It may hide several claims, but the wording alone does not establish that; recover the intended claim before selecting and applying a rule. First ask whether a provider System is current and whether its classification under a local provider system-role kind matters. If the assignment itself matters, name its declared assignment species and the obtaining occurrence separately; do not infer either from root-family typing or the word *role*. Provision, service, declaration, interface, schema position, publication, promise, and access claims each use their own pattern. Only when provider Work is current, recover every precise performer's A.13 core and independently admit the dated Work under A.15.1. Add F.6 afterward only if this provider account also needs precise assignment-bound attribution through the same obtaining assignment. The API description is neither assigned nor a performer.
+“The API role is provider” does not yet reveal which claim is meant. It may hide several claims, but the wording alone does not establish that; recover the intended claim before selecting and applying a rule. First ask whether a provider System is current and whether its classification under a local provider system-role kind matters. If the assignment itself matters, name its declared assignment species and the obtaining occurrence separately; do not infer either from root-family typing or the word *role*. Provision, service, declaration, interface, schema position, publication, promise, and access claims each use their own pattern. Only when provider Work is current, recover every precise performer's A.13 core and independently admit the dated Work under A.15.1. Add F.6 afterward only if this provider account also needs precise assignment-bound attribution through the same obtaining assignment.
 
 #### E.10.ROLE:5.4 - Passive Test Article
 

@@ -6,12 +6,12 @@ section_id: "A.14:11"
 section_title: "Pedagogy aids (non-normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__012_pedagogy-aids-non-normative.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:11 — Pedagogy aids (non-normative)"
-line_start: 24578
-line_end: 24588
+line_start: 24624
+line_end: 24634
 dependencies:
   - "A.1"
   - "A.15"
@@ -54,7 +54,7 @@ keywords:
 
 ### A.14:11 - Pedagogy aids (non-normative)
 
-**Two-minute checklist for practitioners**
+**Practitioner checklist**
 
 1. What subject and relation does the sentence claim?
 2. Does every PortionOf have a declared extensive measure, unit, boundary, and additivity condition?

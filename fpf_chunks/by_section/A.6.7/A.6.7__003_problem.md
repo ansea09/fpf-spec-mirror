@@ -6,12 +6,12 @@ section_id: "A.6.7:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__003_problem.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:2 — Problem"
-line_start: 20121
-line_end: 20134
+line_start: 20164
+line_end: 20177
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.6.7:2 - Problem
 
-We need a Kernel-level descriptor that can:
+The suite user needs one description that can:
 
 1. represent a **set of distinct mechanisms** (distinct `U.Mechanism.Intension`),
 2. declare **shared obligations** that must hold across the set (e.g., crossing visibility, admissibility-citation discipline, guard decision format, penalty routing),

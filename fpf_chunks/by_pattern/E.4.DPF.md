@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.DPF.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
-line_start: 71560
-line_end: 72182
+line_start: 71604
+line_end: 72226
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -280,7 +280,7 @@ For an all-in-one DPF publication carrier, assemble the content in a reproducibl
 1. Public framework title: use a domain- or practice-specific framework name such as `<DomainOrPractice> Principles Framework`; `Principles Framework` alone is only the head or kind phrase, not an individual framework name. Do not put `local monolith`, `draft`, process status, or file-layout slang in the public title.
 2. Short public edition line directly under the title: name the stable public edition designation and a public edition-record locator. Add a dependency, language, access, product-declared maintenance status, support window, currentness window, or other short cue there only when the product-specific publication rule names the reader decision or action it changes. Do not create a separate edition H1 or put a machine identity block, source digest, source path, or build marker before the ToC; keep detailed edition and relation records after the pattern bodies or in maintainer evidence.
 3. Table of contents: place one search-oriented overview before the body collection and use `E.11.PFP`'s five-position pattern-row profile. Every pattern row exposes its PatternID and title and gives at least one recognizable working-question cue in `Keywords & Search Queries`. State the DPF's declared reference code and local-locator form where a reader can disambiguate citations. Keep the displayed `§` position separate from PatternID; the current row order may be non-ascending by PatternID but must match the body order. Use `Status` and `Dependencies` for values that can change the reader's choice; do not copy first move, result, and boundary into additional mini-method columns. Pattern bodies remain the main language of use; support maps and any relation or edition records required by current maintenance remain reachable without becoming a universal first inspection sequence or prescribed use order.
-4. Framework Readme: for the intended reader, present recognizable first-entry situations and practical questions, the first useful result or honest blocker, the direct pattern or small plausible set, the ordinary stop or wrong-turn return, and any non-use boundary admitted by `F.19`'s grounded-contribution test. State briefly which selected domain or local structures this carrier exposes.
+4. Framework Readme: for the intended reader, present recognizable first-entry situations and practical questions, the first useful result or blocker, the direct pattern or small plausible set, the ordinary stop or wrong-turn return, and any non-use boundary admitted by `F.19`'s grounded-contribution test. State briefly which selected domain or local structures this carrier exposes.
 5. Preface or framework context: cross-cutting ideas that make the pattern set cohere, plus the selected structure families the carrier foregrounds, deliberately coarsens, defers, or sends back to sources and pattern bodies.
 6. Package carrier structure-account: intended reader and use, selected source-structure denominator, recurring problem-situation structures, reusable solution-move structures, captured structure, deliberately coarsened, abstracted, omitted, or lost structure, source-return condition, and quality or epiplexity route. This may be a short subsection in the Readme or Preface when the carrier is compact.
 7. Package boundary and subject-pattern routing: Core subject patterns reused, local terms bounded, and source, evidence, assurance, publication, and refresh exits named.

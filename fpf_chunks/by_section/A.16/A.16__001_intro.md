@@ -6,12 +6,12 @@ section_id: "A.16:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__001_intro.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:intro — Intro"
-line_start: 28487
-line_end: 28508
+line_start: 28531
+line_end: 28552
 dependencies:
   - "A.13"
   - "A.15.1"

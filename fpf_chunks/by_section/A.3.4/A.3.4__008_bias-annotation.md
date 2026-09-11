@@ -6,12 +6,12 @@ section_id: "A.3.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__008_bias-annotation.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:6 — Bias-Annotation"
-line_start: 9658
-line_end: 9663
+line_start: 9615
+line_end: 9618
 dependencies:
   - "A.1"
   - "A.10"
@@ -53,8 +53,6 @@ keywords:
 ---
 
 ### A.3.4:6 - Bias-Annotation
-
-Lenses tested: **Onto**, **Arch**, **Prag**, **Epist**, **Gov**.
 
 This pattern keeps the actual change separate from a composition question, holon classification, facts about the changed subject, method, work, flow structure, representation, assertion, evidence, evaluation, publication, production, and later use. It resists software narrowing, method-as-effect, model-as-authority, trace-as-law, formal-as-project-work, relation-verb-as-change, sampled-slice composition, blanket transformation holonhood, work-caused-change-as-production, and result-word-as-kind errors.
 

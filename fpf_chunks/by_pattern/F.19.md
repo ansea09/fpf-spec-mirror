@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.19.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
-line_start: 101168
-line_end: 101515
+line_start: 101216
+line_end: 101563
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

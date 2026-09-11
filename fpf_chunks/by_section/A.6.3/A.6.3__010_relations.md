@@ -6,13 +6,14 @@ section_id: "A.6.3:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__010_relations.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:9 — Relations"
-line_start: 14230
-line_end: 14243
+line_start: 14253
+line_end: 14266
 dependencies:
+  - "A.13"
   - "A.15.1"
   - "A.15.PROD"
   - "A.6.0"
@@ -38,8 +39,8 @@ keywords:
 - **A.6.3.CR** governs conservative textual re-expression when wording and organization are the main change.
 - **A.6.3.RT** governs same-EntityOfConcern representation-scheme transition with explicit recoverability and loss.
 - **A.6.4** governs a changed EntityOfConcern.
-- **C.29** governs mathematical and diagrammatic representations of the construction or correspondence.
-- **A.15.1 and A.15.PROD** govern actual construction work and any local entity-identity-inception or completion claim.
+- **C.29** governs a declared mathematical-lens use of the construction or correspondence, including a diagram used for that mathematical claim.
+- **A.13** supplies the basis for an explicit dated Work claim; **A.15.1 and A.15.PROD** govern its admission and any local entity-identity-inception or completion claim.
 - **E.24.PUB** governs publication occurrence, form, and carrier.
 - Use **A.6.RCD** when a needed correspondence relation lacks a governed expression.
 

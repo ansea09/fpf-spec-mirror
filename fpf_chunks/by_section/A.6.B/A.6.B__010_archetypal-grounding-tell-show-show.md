@@ -6,12 +6,12 @@ section_id: "A.6.B:8"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__010_archetypal-grounding-tell-show-show.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:8 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 11493
-line_end: 11797
+line_start: 11475
+line_end: 11798
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -90,7 +90,10 @@ keywords:
 
 #### A.6.B:8.1 - Tell (universal rule)
 
-A boundary remains evolvable and auditable when every normative statement is decomposed into atomic claims, each claim is classified under exactly one quadrant of the Boundary Norm Square, and cross‑quadrant dependencies are expressed by explicit claim‑ID references rather than paraphrase.
+Decomposing every normative statement into atomic claims, classifying each under
+exactly one quadrant of the Boundary Norm Square, and expressing cross‑quadrant
+dependencies by claim ID or canonical location rather than paraphrase supports
+later boundary evolution and audit.
 
 #### A.6.B:8.2 - Show #1: Effect signature vs handler (post‑2015 effect systems)
 
@@ -123,8 +126,8 @@ The square keeps “must use dataset vX” (D) separate from “evaluation is ad
 Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence” into:
 
 1. **atomic L/A/D/E-classified claims** (L/A/D/E),
-2. **explicit references by claim ID** (no paraphrase duplication),
-3. **a readable recomposition** (Tech + Plain),
+2. **explicit references by claim ID or canonical location** (no paraphrase duplication),
+3. **a readable recomposition** (separate Tech and Plain forms when their readers need them),
 4. **a minimal anti-pattern lint** (things we reject / flag).
 
 ##### A.6.B:8.4.1 - Micro-procedure (Atomize → Classify → Triangle → Link → Bind References → Recompose)
@@ -145,11 +148,18 @@ Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence�
   **Guardrails:** `E-*` SHOULD NOT use RFC deontic keywords, MUST NOT hide a gate predicate (that is `A-*`), and MUST NOT cite `D-*`.
   *(If the source sentence is “Role SHALL measure, retain, or expose …”, first decide whether it is a generic prescription about an exact system-role kind or a claim about one actual bearer. Classify either as **D**, but assert an individual commitment only on the second route.)*
 
-**Step 3 — Triangle decomposition.** If the original sentence mixes (i) an entry condition, (ii) a generic prescription or an individual obligation or commitment, and (iii) an observability expectation (a common failure mode with “guarantee, ensure, approved, or aligned”), decompose it into:
+**Step 3 — Triangle decomposition.** Recover the observability clause's predicate
+and modality under §6.3. Use the A/D/E triangle only when the source states an
+entry condition, a generic prescription or individual duty, and an actual
+observation or result:
 
 * **A**: the admissibility predicate (what must be true to treat the claim as applicable),
 * **D → A**: which exact policy prescribes keeping or enforcing the predicate, or which actual bearer has that separately instituted duty; any responsibility relation is stated separately under its direct domain predicate
-* **E → A**: what evidence or traces are used to adjudicate the predicate.
+* **E → A**: the actual observation or result and, when needed, the evidence or
+  traces used to adjudicate the predicate.
+
+A requirement to produce or retain evidence stays in D. Preserve an expectation
+or plan without inventing an actual E result.
 
 **Permission-word branch (use only when the sentence sounds permissive).** Choose the row by the job the sentence performs, not by the word *may*, *approved*, *authorized*, or *permitted*.
 
@@ -164,39 +174,45 @@ Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence�
 
 Choose one row. If one sentence answers two questions, split it before classification. If the sentence is not permission-like, do not use this branch. The branch classifies claims and selects existing subject patterns; it creates no `permission result` umbrella. Use the filled case in §8.4.5.4 when a concrete model is needed; point back to that case rather than adding another pattern list.
 
-**Guideline.** Keep gate semantics independent of specific evidence carriers: write the gate predicate in `A-*`, then bind observability in `E-*` that references the gate (`E → A`). `A-*` claims MUST NOT reference `E-*` (no upward dependencies), even though `E-*` is used to adjudicate gate satisfaction.
+**Guideline.** Keep gate semantics independent of specific evidence carriers:
+write the gate predicate in `A-*`; when an actual observation or result is stated,
+put it in `E-*` and reference the gate (`E → A`). `A-*` claims MUST NOT reference `E-*` (no upward dependencies), even though `E-*` is used to adjudicate gate satisfaction.
 
-**Step 4 — Link by ID, not by paraphrase.** Supported directions (no upward deps):
-
-* `A-*` may cite `L-*`
-* `E-*` may cite `L-*` and `A-*`
-* `D-*` may cite `L-*`, `A-*`, `E-*`
-* Unsupported: `L-*` citing anything; `A-*` or `E-*` citing `D-*`.
+**Step 4 — Link by ID or canonical location, not by paraphrase.** Apply the
+cross-quadrant restrictions in §6.4, including its explicitly informative-note
+exception for L references to A/D/E. Same-quadrant references remain available.
 
 **Common link motifs (informative).** The most reusable boundary rewrites use the canonical motifs: `D→A`, `E→A`, `D→E`, `A/E→L`, and `D→L`.
 
 **Step 5 — Bind references (minimal A.7 discipline).**
 
 * Place **L** claims in `Signature.Laws` (and mechanism-local semantic laws if present), and **A** claims in `Mechanism.AdmissibilityConditions`.
-* Bind a generic **D** claim to its exact normative episteme and applicable rule content. Bind an individual-duty **D** claim to its actual duty-bearing System or separately governed party and exact `U.Commitment`; cite an assignment only when the constitutive rule uses it as a ground. State responsibility and authority, when claimed, through their own admitted direct relations or exact missing governors. Prefer ID references rather than restating `L-*` or `A-*` content.
+* Bind a generic **D** claim to its exact normative episteme and applicable rule content. Bind an individual-duty **D** claim to its actual duty-bearing System or separately governed party and exact `U.Commitment`; cite an assignment only when the constitutive rule uses it as a ground. State responsibility and authority, when claimed, through their own admitted direct relations or exact missing governors. Prefer ID or canonical-location references rather than restating `L-*` or `A-*` content.
 * Bind each **E** claim first to its exact predicate/object and to the actual work, evaluation, observation, scope/window, comparison frame, and other conditions that settle that predicate. Add a carrier/schema, evidence or source-use relation, viewpoint, and consumer only when a receiving reliance decision depends on them; a claim about a carrier's own existence or condition names the carrier as its object.
 
-**Optional drift-control.** Add each L/A/D/E-classified claim verbatim to a Claim Register row (A.6.B:7) with canonical location + references so faces can cite by ID without paraphrase.
+**Optional drift-control.** Add each L/A/D/E-classified claim verbatim to a Claim Register row (A.6.B:7) with canonical location + references so faces can cite by ID or canonical location without paraphrase.
 
 **Step 6 — Recompose into readable text.**
-Produce two recompositions:
+Include only the claim classes present in the source. Use separate Tech and Plain
+forms when their readers need them; both may also serve as a teaching aid.
 
-* **Tech recomposition**: a short **L/A/D/E-classified claim bundle** (sometimes called a “claim skeleton”) listing L/A/D/E claims and ID references.
-* **Plain recomposition**: a one-paragraph narrative that *summarizes* the bundle and points to IDs (**no new semantics**). If you need a new constraint, add a new atomic L/A/D/E-classified claim; do not smuggle it into Plain.
+* **Tech recomposition**: a short **L/A/D/E-classified claim bundle** listing the
+  present claims and their ID or canonical-location references.
+* **Plain recomposition**: a one-paragraph narrative that *summarizes* the bundle
+  and cites its claims (**no new semantics**). If you need a new constraint, add a
+  new atomic L/A/D/E-classified claim to the canonical source before publishing it
+  in Plain.
 
 ##### A.6.B:8.4.2 - Anti-pattern (quick)
 
-* **AP-1 Evidence-free guarantees.** “X guarantees Y” with no E-claims.
+* **AP-1 Unestablished operational-result guarantees.** An asserted operational
+  result lacks the actual Work, evaluation, or observation needed to settle it.
+  If the guarantee's L/A/D/E meaning is ambiguous, use `A.6.C:4.3` to recover it.
 * **AP-2 Interface-as-promiser.** Non-agent objects “promise or commit”.
 * **AP-3 Gate-as-evidence.** Treating the gate predicate (A) as if it were an observation (E).
 * **AP-4 Gate-as-law.** Entry predicates as signature “laws or definitions” (L) instead of `A-*`.
 * **AP-5 Adjective smuggling.** “fast, secure, approved, or aligned” used instead of qualifiers or slots.
-* **AP-6 Paraphrase drift.** Restating L/A content in D or E with changed meaning (instead of citing by ID).
+* **AP-6 Paraphrase drift.** Restating L/A content in D or E with changed meaning (instead of citing by ID or canonical location).
 * **AP-7 Deontics in predicates.** RFC keywords (“MUST, SHALL, and related RFC keywords”) used as operators inside `L-*` or `A-*` predicates (should be `D-*` that references `L-*`/`A-*`).
 * **AP-8 View-fork semantics.** Recomposition/face text introduces new `L/A/D/E` meaning not present in the L/A/D/E-classified claim set (violates “no new semantics” discipline).
 * **AP-9 Applicability-as-gate.** Using `Signature.Applicability` (intended use) as a substitute for `A-*` runtime admission predicates.
@@ -231,7 +247,7 @@ Admitted operations system `SRE-A` is the actual duty bearer of separately obtai
 *(References D-API-01 and A-API-01 by ID.)*
 
 **E-API-01 (Evidence / carriers).**
-For `LatencyEvaluation-T1` over `Γ_time=[t1..t2]`, actual carriers `TraceBatch-T1`, `Histogram-H1`, `DashboardSnapshot-D1`, and `SamplingConfiguration-S1` were produced or observed under the workload profile, sampling configuration, and computation method in `L-API-01`. An A.10 evidence-provenance path links those exact carriers to `LatencyEvaluation-T1` and its `LatencyResult-T1`.
+For `LatencyEvaluation-T1` over `Γ_time=[t1..t2]`, actual carriers `TraceBatch-T1`, `Histogram-H1`, `DashboardSnapshot-D1`, and `SamplingConfiguration-S1` were produced or observed under the operating and sampling conditions in `A-API-01`, using the metric and computation definition in `L-API-01`. An A.10 evidence-provenance path links those exact carriers to `LatencyEvaluation-T1` and its `LatencyResult-T1`.
 *(References `A-API-01` and `L-API-01`; avoids RFC deontics; does not cite `D-*`.)*
 
 **D-API-03 (Duty-to-evidence linkage).**
@@ -256,9 +272,9 @@ For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and usin
 * `L-API-01` defines p95 latency computation.
 * `A-API-01` specifies when the latency claim is admissible.
 * `D-API-01` states the commitment under that envelope.
-* `E-API-01` lists adjudicable carriers and conditions used to adjudicate `A-API-01` (and therefore any commitments that reference it).
-* `D-API-02` assigns operational incident-note duties.
-* `D-API-03` assigns retention and exposure duties for carriers in `E-API-01`.
+* `E-API-01` lists adjudicable carriers and conditions used to adjudicate `A-API-01`.
+* `D-API-02` states the operational incident-note duties.
+* `D-API-03` states the retention and exposure duties for carriers in `E-API-01`.
 * `E-API-02` reports observed performance under `A-API-01` for `Γ_time=[t1..t2]`.
 
 **Plain recomposition (one paragraph, readable):**
@@ -379,13 +395,16 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 
 **L-CAL-01 (Tempting wrong classification, rejected).** “The visible permit is D, so the grant exists, the Work exercised it, and the Work was non-violating” is not one atomic claim and is false as a classification shortcut. The carrier observation is `E-CAL-07`; the grant, exercise, evaluation finding, and `E-CAL-08` gate result remain the separately classified claims above.
 
-##### A.6.B:8.4.6 - A compact “recomposition pattern” you can reuse verbatim
+##### A.6.B:8.4.6 - A compact recomposition aid
+
+Include only the claim classes present in the source; use separate Tech and Plain
+forms when their readers need them. Cite claim IDs or canonical locations.
 
 ###### A.6.B:8.4.6.1 - Tech register (2–5 lines)
 
-> “This boundary claim is defined by **L-…** and applies only under **A-…**. **D-…** states either the exact generic prescription or the separately instituted duty of **[actual bearer]**. **E-…** states the evidence and observed status or value for `Γ_time=…`.”
+> “This boundary claim is defined by **L-…** and applies only under **A-…**. **D-…** states either the exact generic prescription or the separately instituted duty of **[actual bearer]**. **E-…** states the observed or evaluated result for `Γ_time=…`; add its evidence support when the receiving use needs it.”
 
 ###### A.6.B:8.4.6.2 - Plain register (1 paragraph)
 
-> “We mean **[short label]** in the sense of **L-…**, and use it only when **A-…** holds. **D-…** either states what the named policy requires or, when an individual duty was separately instituted, names its actual bearer. **E-…** states how the condition is checked and the latest status or value. If responsibility is also claimed, cite its direct relation separately.”
+> “We mean **[short label]** in the sense of **L-…**, and use it only when **A-…** holds. **D-…** either states what the named policy requires or, when an individual duty was separately instituted, names its actual bearer. **E-…** states the observed or evaluated result for the declared interval; add its evidence support when the receiving use needs it. If responsibility is also claimed, cite its direct relation separately.”
 

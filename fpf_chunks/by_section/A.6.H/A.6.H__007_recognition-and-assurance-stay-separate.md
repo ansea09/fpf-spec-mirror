@@ -6,12 +6,12 @@ section_id: "A.6.H:6"
 section_title: "Recognition and assurance stay separate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__007_recognition-and-assurance-stay-separate.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:6 — Recognition and assurance stay separate"
-line_start: 21419
-line_end: 21437
+line_start: 21431
+line_end: 21449
 dependencies:
   - "A.1"
   - "A.10"
@@ -62,12 +62,12 @@ keywords:
 - Does a selected structure or construction account matter to this use?
 - Does the same whole persist, or is reidentification current?
 
-**Assurance questions** decide what may be relied on:
+**Evidence-use questions** under A.10 decide what the evidence supports for the stated relying use:
 
 - Which claim is being supported?
 - Which evidence bears on it through which relation?
 - What scope, limitation, time stance, and relying use apply?
 - Does the evidence support recognition, relation truth, measurement, completion, or another claim?
 
-Evidence can make an assertion inspectable without becoming constitutive of the whole or relation.
+Apply B.3 only when an actual named assurance claim and assurance use are current. Evidence can make an assertion inspectable without becoming constitutive of the whole or relation.
 

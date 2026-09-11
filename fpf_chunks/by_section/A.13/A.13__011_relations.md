@@ -5,13 +5,13 @@ pattern_title: "The Agential Role & Agency Spectrum"
 section_id: "A.13:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.13/A.13__010_relations.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+output_path: "by_section/A.13/A.13__011_relations.md"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:9 — Relations"
-line_start: 24277
-line_end: 24289
+line_start: 24321
+line_end: 24331
 dependencies:
   - "A.10"
   - "A.12"
@@ -23,7 +23,6 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "C.16"
-  - "C.9"
   - "E.16"
   - "F.6"
 keywords:
@@ -46,9 +45,7 @@ keywords:
     *   `A.2 System-Role Kinds and Assignments`: Distinguishes an exact local system-role kind, classification by that kind, and an obtaining `U.SystemRoleAssignment`.
     *   `A.12 Acting-Side Externalization and Reflexive Split`: Work by an acting holder is modeled using the acting-side externalization principle.
 *   **Coordinates with:**
-    *   `B.2 Meta-Holon Transition (MHT)`: A significant jump in the agency-characteristic profile of a collective can trigger an MHT.
-    *   `B.3 Trust & Assurance Calculus`: The agency-characteristic profile provides crucial inputs for assessing the reliability and safety of an autonomous system.
-    *   `D.2 Multilevel Ethics For Holon Work`: The Agency Grade is used to determine the moral-responsibility posture and accountability assigned to a system.
-*   **Future consolidation:**
-    *   Planned `C.9 Agency Characteristic Profile` may later consolidate the characteristics (BMC, PH, etc.), but provides no current definitions or governing force; the current profile is defined here and measured under A.17/A.18/A.19/C.16/A.10.
+    * `B.2 Meta-Holon Transition (MHT)`: New supervisory structure together with a documented agency-characteristic threshold crossing prompts the whole-reidentification inquiry. B.2 first tests whether the same whole suffices; only an established transition warrants the MHT declaration.
+    * `B.3 Trust & Assurance Calculus`: A profile can supply evidence-backed characteristic results when a named reliability, safety or other assurance argument uses them. Retain each result’s bearer, scale and basis; the didactic Grade is not the assurance input.
+    * `D.2 Multilevel Ethics For Holon Work`: For a multilevel ethical concern, name the local gain, possible loss, affected levels or scopes and next subject question. State responsibility or accountability separately under the rule defining that relation and its participants; use an agency-characteristic input only if that rule calls for it.
 

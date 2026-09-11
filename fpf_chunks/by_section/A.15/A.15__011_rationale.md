@@ -6,12 +6,12 @@ section_id: "A.15:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__011_rationale.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:10 — Rationale"
-line_start: 24956
-line_end: 24963
+line_start: 25001
+line_end: 25008
 dependencies:
   - "A.10"
   - "A.13"

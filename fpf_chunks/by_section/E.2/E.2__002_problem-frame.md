@@ -6,12 +6,12 @@ section_id: "E.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__002_problem-frame.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:1 — Problem frame"
-line_start: 70139
-line_end: 70143
+line_start: 70183
+line_end: 70187
 dependencies:
   - "A.10"
   - "A.15.1"

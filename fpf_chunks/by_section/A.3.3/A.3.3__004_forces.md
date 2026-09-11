@@ -6,12 +6,12 @@ section_id: "A.3.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__004_forces.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:3 — Forces"
-line_start: 9067
-line_end: 9077
+line_start: 9050
+line_end: 9060
 dependencies:
   - "A.1.1"
   - "A.10"

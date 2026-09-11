@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__005_solution.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:4 — Solution"
-line_start: 14318
-line_end: 14453
+line_start: 14341
+line_end: 14476
 dependencies:
   - "A.15"
   - "A.20"
@@ -45,7 +45,7 @@ Use these Plain terms with that progressive boundary:
 - **Return trigger** means the condition that requires the source, local re-expansion, exact `X`, an exact source relation, or the pattern that supplies the needed definition, constraint, test, or method.
 - **Exact reuse or reliance case** means a coarsening result that will travel independently, be cited or disputed, cross schemes, support external reliance, or become policy-, bridge-, gate-, work-, privacy-, engineering-justification-, or assurance-facing.
 
-Producing an ordinary candidate does not require a Work record. When the current claim needs the history of actual coarsening, use A.13 to identify who performed it and A.15.1 to admit the dated Work independently. Add F.6 only if that use must also state exactly under which assignment the Work was performed. Name a separate capability claim, enacted Method, source-use or A.6.1 bindings, and any A.15.PROD inception claim only when the current result depends on them. Establish conservativity or controlled loss through the source-to-candidate comparison.
+Producing an ordinary candidate does not require a Work record. When the current claim needs the history of actual coarsening, use A.13 to establish each performer's agential basis and A.15.1 to admit the dated Work independently, including at least one Method actually followed. Add F.6 only if that use must also state exactly under which assignment the Work was performed. Name a separate capability claim, an additional enacted Method, source-use or A.6.1 bindings, and any A.15.PROD inception claim only when the receiving claim depends on them. Establish conservativity or controlled loss through the source-to-candidate comparison.
 
 E.24.PUB identifies an exact publication occurrence that makes one selected episteme edition available to a declared audience for a bounded use through one exact publication form and `U.PresentationCarrier`. Plain **published episteme** names the episteme in that contingent publication use. Establish `X`, `Y`, `c`, and their admissible use under the CSC rules above.
 
@@ -72,7 +72,7 @@ Before using the shorter candidate, ask:
 
 1. Is the present reader or use explicit, and are the distinctions needed for that use named before shortening?
 2. Can the source passage or account be reached directly, and does the candidate preserve every named distinction?
-3. What was omitted or weakened, and is every candidate claim supported by the source rather than added or strengthened by fluent prose—for example a number, classification, temporal statement, approval status, causal claim, modal claim, or authority claim?
+3. Are all omissions and weakenings identified, and is every candidate claim supported by the source rather than added or strengthened by fluent prose—for example a number, classification, temporal statement, approval status, causal claim, modal claim, or authority claim?
 4. Is the stronger downstream use that remains non-admissible stated together with a practical return trigger?
 5. Are the source material, candidate content, publication occurrence, form, carrier, actual Work, evidence, assurance, authority, and gate claim kept separate whenever one of those distinctions is current?
 
@@ -116,7 +116,7 @@ Ordinary direct semantic compression needs no `coarseningBranch`: state its conc
 | --- | --- |
 | source-pinned surrogate, index, or handle | Keep the named source directly reachable and limit the candidate to source-finding, retrieval, or orientation. Naming an `authoritySourceRef` only routes return to its governed relation; the candidate does not become that authority, evidence, gate, or work source. |
 | privacy or redaction | Name the sharing boundary, every concrete withheld or weakened distinction, the re-identification or accountability risk being reduced, the exact source review path, and the accountability or gate uses that remain blocked. |
-| exceptional interop-facing simplification | Keep exact `X`, exact `Y`, and `c` recoverable and name the exact operative relation claim, such as bounded contrast, broader/narrower, partial overlap, proxy, or lossy normalization. Use E.17.ID.CR when bounded comparison is primary. Equivalence, substitution, projection, or Bridge use requires an F.9 Bridge and bounded-use claim; an F.9.1 stance note is optional reader help about that claim. |
+| exceptional interop-facing simplification | Keep exact `X`, exact `Y`, and `c` recoverable and name the exact operative relation claim, such as bounded contrast, broader/narrower, partial overlap, proxy, or lossy normalization. Use E.17.ID.CR when bounded comparison is primary. For an equivalence, substitution, or projection claim, establish the operative relation and support its bounded use under the pattern that governs that relation. Use F.9 when the claim requires a Bridge between exact local senses with different interpretation bases, and state its bounded-use claim separately; an F.9.1 stance note is optional reader help about that claim. |
 | genuine aggregation or quotient condition | Name the distinctions combined and the aggregation rule while exact `Y` still concerns the same exact EntityOfConcern as `X`. A bounded selected set may appear inside `Y`'s claim content but is not an endpoint by itself. If several entities or alternatives become a new class-level or proxy EntityOfConcern, use A.6.4. |
 
 A branch cue changes only the additional rule named in its row. Scheme difference, publication adjacency, citation, independent reuse, or high stakes alone selects none of these branches and proves no correspondence or authority.
@@ -147,12 +147,12 @@ A coarsening chain may not reset provenance. For `X -> Y1 -> Y2`, identify all t
 | Source structure is ordered into a sequential narrative path and the ordering rationale is primary | `A.6.3.NAR` for the narrative rendering relation; keep CSC for the controlled-loss and narrower-use account when source distinctions are dropped or narrowed |
 | Explanation-facing class over exact source episteme `X`, whether or not it is currently published | `E.17.EFP`; any publication occurrence, form, and carrier remain under E.24.PUB |
 | Bounded comparison over exact source epistemes, with any publication access stated separately | `E.17.ID.CR` |
-| Equivalence, substitution, interop row, or bridge or substitution use | `F.9` |
+| Equivalence, substitution, projection, or interop relation | The pattern that governs the operative relation; use `F.9` when the claim requires a Bridge between exact local senses with different interpretation bases, with a separate bounded-use claim |
 | A short reading note about an already constituted F.9 bounded-use claim | `F.9.1`; a Card is optional packaging rather than a prerequisite |
 | Changed EntityOfConcern or proxy EntityOfConcern | `A.6.4` |
 | Carrier, export, OCR or parsing, or front-end behavior is primary | `A.7` first; then `A.6.3.RT`, `A.6.3.CSC`, `A.6.4`, or interpretation sources only if meaning-bearing structure, loss, retargeting, or interpretive lift is live |
-| Briefing treated as work plan, work authority, or execution cue | `A.15` |
-| Gate, approval, assurance, or adjudication authority | `A.20` or `A.21` |
+| Briefing treated as a Work plan or execution cue, or actual Work is asserted | The applicable `A.15` pattern for the plan or actual Work; for an authority-looking claim, select the matching `A.6` `A6-AW-*` row by the actual assertion and follow its direct subject pattern |
+| Constraint, gate, approval, assurance, or adjudication claim | Use the direct pattern for the asserted claim: `A.20` for the actual constraint and `A.21` for the actual gate. For authority-looking wording, first select the matching `A.6` `A6-AW-*` row by the actual assertion and follow its direct subject pattern |
 
 Neighboring guidance may cite CSC when controlled loss, narrower use, and source return become the primary question. CSC does not replace the concrete definitions, tests, methods, evidence rules, work rules, or gate rules used by those other questions.
 

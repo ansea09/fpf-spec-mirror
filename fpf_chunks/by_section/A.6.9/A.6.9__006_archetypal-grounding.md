@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
 section_id: "A.6.9:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.6.9/A.6.9__007_archetypal-grounding.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+output_path: "by_section/A.6.9/A.6.9__006_archetypal-grounding.md"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:5 — Archetypal Grounding"
-line_start: 20746
-line_end: 20782
+line_start: 20766
+line_end: 20808
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -32,7 +32,6 @@ dependencies:
   - "C.3.3"
   - "E.17"
   - "E.17.0"
-  - "E.19"
   - "E.24.PUB"
   - "F.0.1"
   - "F.17"
@@ -61,16 +60,18 @@ keywords:
 
 The ambiguous sentence is: “An IAM User is the same as a CRM Customer.”
 
-Resolve exact endpoints:
+Treat this as a schematic hypothetical illustration. The abbreviated endpoint readings are:
 
 - `SenseCell(IAMRoleReferenceScheme-v3, User-human-or-service-account-role)`;
 - `SenseCell(CRMRoleReferenceScheme-v5, Customer-commercial-party-role)`.
 
-Current meanings share some human participants, while service accounts and prospects provide counterexamples. Profile `P-IAM-CRM-OVERLAP-v2` states only the symmetric `Partial-overlap` relation, exact endpoint readings, overlap and difference conditions, edition basis, truth condition, and required membership evidence. Those facts make Bridge `b-iam-crm` obtain.
+These sketches name the intended scheme editions and sense readings. A full case must still resolve each `<ReferenceScheme by value, LocalExpression, LocalSenseClaim>` value, with `User` and `Customer` as the respective local expressions.
+
+For the illustration, assume that the local meanings share some human cases, while service accounts and prospects provide cases excluded by the opposite reading. These are additional hypothetical premises, not facts recovered from the ambiguous sentence. Profile `P-IAM-CRM-OVERLAP-v2` states the symmetric `Partial-overlap` relation, exact endpoint readings, overlap and difference conditions, edition basis, truth condition, and required membership evidence. The example additionally stipulates that the profile applies and its predicate is true, and therefore uses `b-iam-crm` as an obtaining Bridge. The profile description lists what a full test needs; it does not supply that test or its evidence.
 
 Now state the use separately. Dashboard team proposes `u-actor-label`: render IAM users as “actors” in a CRM-oriented comparison. Direction `d-iam-crm` is IAM-to-CRM dashboard reading. Rule `r-actor` keeps account eligibility and customer eligibility visible as separate columns. Tolerance `t-actor` allows the shared label but no eligibility, assignment, workflow, or Work inference. A C.2.1 claim about `b-iam-crm` is affirmative for `<u-actor-label,d-iam-crm,r-actor,t-actor>`.
 
-The exact A.10 evidence-provenance relation and `RelianceDisposition=pass` support that claim only for the named dashboard comparison. They do not authorize data processing, create a system-role assignment, or prove that a dashboard publication occurred. Reverse label reuse is another bounded-use claim even though the Bridge relation is symmetric.
+Reliance on that claim remains conditional on the exact A.10 evidence-provenance relation and `RelianceDisposition=pass` for the named dashboard comparison. A hypothetical passing result would be an additional example premise, not a result recovered from the endpoint sketches. It would not authorize data processing, create a system-role assignment, or prove that a dashboard publication occurred. Reverse label reuse is another bounded-use claim even though the Bridge relation is symmetric.
 
 An optional actual card may package the Bridge claim, this bounded-use claim, observed counterexamples, the A.10 path and disposition, currentness, and nearest non-use. Its EntityOfConcern is `b-iam-crm`; the card neither creates the relation nor performs the dashboard work.
 
@@ -78,9 +79,13 @@ If a later workflow isolates `HumanVerifiedUser` and `VerifiedCustomer`, refine 
 
 #### A.6.9:5.2 - Episteme archetype: Person in two knowledge-graph schemes
 
-The sentence is: “Person in KG-A is equivalent to Person in KG-B.” The exact cells are `Person-including-fictional` under KG-A v4 and `Person-real-with-external-id` under KG-B v7. Sherlock Holmes and the external-id rule show `Partial-overlap`, not equivalence. The exact overlap Bridge obtains under the least-committing profile.
+The sentence is: “Person in KG-A is equivalent to Person in KG-B.” The named readings are `Person-including-fictional` under KG-A v4 and `Person-real-with-external-id` under KG-B v7. Sherlock Holmes illustrates the fictional-person distinction; the external-id rule adds another membership condition. These cues establish neither `Partial-overlap` nor inclusion.
 
-Two proposed uses then receive separate claims. A glossary comparison that labels both rows “Person” while displaying the fiction and external-id differences can receive affirmative polarity with a warranted A.10 path. A type-structure merge receives negative polarity because its correspondence rule cannot preserve membership and its tolerance permits no such loss. Both claims concern the same Bridge; neither changes its identity. Refining KG-A into `RealPerson` and `FictionalPerson` changes an endpoint and opens a new Bridge test.
+To test `Partial-overlap`, recover the exact membership definitions and a common admissible case, an A-only case and a B-only case. To test inclusion, establish the chosen proper-inclusion predicate from those definitions and case facts; the short labels do not supply it. Until then, stop and name the missing membership definition or case fact. No exact overlap Bridge is asserted by this sketch.
+
+The two proposed uses remain conditional illustrations. If an exact Bridge obtains, a glossary comparison that labels both rows “Person” while displaying the fiction and external-id differences can receive affirmative polarity only for a stated direction, correspondence rule and loss tolerance, with a warranted A.10 result when relied on. A type-structure merge receives negative polarity only when its exact direction and merging rule cannot preserve membership and its tolerance permits no such loss. Those rule and case premises still have to be supplied.
+
+When their basis is supplied, both claims concern the same obtaining Bridge; neither changes its identity. Refining KG-A into `RealPerson` and `FictionalPerson` changes an endpoint and opens a new Bridge test.
 
 #### A.6.9:5.3 - Published NAICS language and a `Conformist` cue
 

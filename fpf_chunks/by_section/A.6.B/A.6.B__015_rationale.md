@@ -6,12 +6,12 @@ section_id: "A.6.B:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__015_rationale.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:13 — Rationale"
-line_start: 11837
-line_end: 11845
+line_start: 11838
+line_end: 11846
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -86,7 +86,7 @@ keywords:
 
 ### A.6.B:13 — Rationale
 
-The square is the smallest authoring primitive that forces an explicit choice across two distinctions that are otherwise routinely conflated:
+The square is an authoring primitive that forces an explicit choice across two distinctions that are otherwise routinely conflated:
 
 * **Truth vs governance** (what is the case vs what is required or committed), and
 * **Description vs work** (what can be decided by reading vs what must be decided by observing execution).

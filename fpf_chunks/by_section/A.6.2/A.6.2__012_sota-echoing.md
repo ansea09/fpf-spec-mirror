@@ -6,12 +6,12 @@ section_id: "A.6.2:10.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__012_sota-echoing.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:10.1 — SoTA-Echoing"
-line_start: 13984
-line_end: 13996
+line_start: 14007
+line_end: 14019
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -35,12 +35,12 @@ keywords:
 
 **Practice question.** What current transformation practice supports reusable definitions and composition while keeping execution and correctness evidence separate, and does it justify a universal repeat law?
 
-| Source or practice | Contribution used here | Limit and disposition | A.6.2 locus changed |
-| --- | --- | --- | --- |
-| [Zhao et al., *KBX: Verified Model Synchronization via Formal Bidirectional Transformation* (2024)](https://arxiv.org/abs/2404.18771) | Separates formal BX definitions, generated synchronization, and consistency verification. | **Adapt.** Supports the declaration, arrow, application, and use-claim split. Its formal synchronizer does not make every arrow effect-free or idempotent in FPF. | Sections 4.1, 4.2, P1, and CC-EFEM.1-5. |
-| [He and Zan, *BIT: A template-based approach to incremental and bidirectional model-to-text transformation* (2024)](https://doi.org/10.1016/j.jss.2024.112148) | Separates a user-facing surface language, formal core semantics, printer/parser execution, round-trip properties, and empirical cases; it also treats some computational effects explicitly. | **Adapt.** Supports a readable first route and explicit effect boundary. BIT's round-trip laws are construction-specific, not a universal EFEM idempotence law. | P1, P3-P4, examples, and CC-EFEM.3-5. |
-| Category, optic, fibration, cospan, and BX traditions | Supply durable mathematical lineage for arrows, identities, composition, views, and correspondences. | **Retain as lineage.** Use only through a declared C.29/FormalSubstrate lens. Reject automatic F.9 Bridge, EntityOfConcern decision, or idempotence. | P0-P5 and Relations. |
-| Current FPF C.2.1, C.29, A.6.3.RT, and A.6.4 | Separate episteme identity, mathematical representation, same-entity representation change, and changed-entity retargeting with a use-specific claim. | **Adopt.** These are the direct FPF boundaries. | P0-P2, the Fourier branch, and the worked cases. |
+| Source or practice | Contribution used here | Limit and disposition |
+| --- | --- | --- |
+| [Zhao et al., *KBX: Verified Model Synchronization via Formal Bidirectional Transformation* (2024)](https://arxiv.org/abs/2404.18771) | Separates formal BX definitions, generated synchronization, and consistency verification. | **Adapt.** Supports the declaration, arrow, application, and use-claim split. Its formal synchronizer does not make every arrow effect-free or idempotent in FPF. |
+| [He and Zan, *BIT: A template-based approach to incremental and bidirectional model-to-text transformation* (2024)](https://doi.org/10.1016/j.jss.2024.112148) | Separates a user-facing surface language, formal core semantics, printer/parser execution, round-trip properties, and empirical cases; it also treats some computational effects explicitly. | **Adapt.** Supports a readable first route and explicit effect boundary. BIT's round-trip laws are construction-specific, not a universal EFEM idempotence law. |
+| Category, optic, fibration, cospan, and BX traditions | Supply durable mathematical lineage for arrows, identities, composition, views, and correspondences. | **Retain as lineage.** Use the selected FormalSubstrate for the local mathematical theory; apply C.29 when the mathematics is used as a lens. Reject automatic F.9 Bridge, EntityOfConcern decision, or idempotence. |
+| Current FPF C.2.1, C.29, A.6.3.RT, and A.6.4 | Separate episteme identity, mathematical-lens use, same-entity representation change, and changed-entity retargeting with a use-specific claim. | **Adopt.** These are the direct FPF boundaries. |
 
-The thin EFEM arrow class is a bounded FPF synthesis. Reopen it if a current transformation practice needs a different arrow identity or effect boundary, or if a concrete composition cannot be stated without collapsing the declaration, application, or correctness claim.
+The thin EFEM arrow class is a bounded FPF synthesis.
 

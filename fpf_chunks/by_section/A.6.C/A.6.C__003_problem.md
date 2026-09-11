@@ -6,12 +6,12 @@ section_id: "A.6.C:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__003_problem.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:2 — Problem"
-line_start: 11941
-line_end: 11949
+line_start: 11969
+line_end: 11977
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -67,7 +67,7 @@ keywords:
 
 How can an author write (or repair) contract-language so that:
 
-1. **Agency is not misattributed** to descriptions (signatures, docs, specs, “interfaces”),
+1. **Act and commitment claims name compatible participants**, without mistaking an interface description for the actual interface or its bearer,
 2. **Governance claims** are distinguishable from permission-looking gate, exercise, evaluation, conflict, and source claims by the job of each atomic statement rather than by A.2.8.PER membership,
 3. **Operational “guarantees”** become adjudicable by naming the exact Work, evaluation, or observation and its result, with an A.10 evidence path and exact carrier when a receiving decision relies on that support,
 4. **Multi-view publication** (MVPK faces) does not create a parallel contract object or rival canonical claim set by paraphrase drift?

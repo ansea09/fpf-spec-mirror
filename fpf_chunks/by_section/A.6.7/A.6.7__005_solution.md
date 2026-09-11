@@ -6,12 +6,12 @@ section_id: "A.6.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__005_solution.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:4 — Solution"
-line_start: 20157
-line_end: 20407
+line_start: 20200
+line_end: 20431
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.6.7:4 - Solution
 
-Introduce a new Kernel description token:
+Declare the members and their shared conditions in a `MechSuiteDescription`:
 
 #### A.6.7:4.1 `MechSuiteDescription` (data model)
 
@@ -58,30 +58,30 @@ A minimal canonical form:
 ```
 MechSuiteId := Identifier  // PascalCase; stable citation handle. Versioning MAY be carried externally.
 
-SuiteObligation := one of {
-   * bridge_only_crossings,
-   * two_bridge_rule_for_described_entity_change,
-   * transport_declarative_only,
-   * penalties_route_to_r_eff_only,
-   * guard_decision_tristate(pass|degrade|abstain),
-   * unknown_never_coerces_to_pass,
-   * gate_decision_separation,
-   * guard_lexeme_reservations,
-   * cg_spec_cite_required_for_numeric_ops,
-   * no_silent_scalarisation_of_partial_orders,
-   * no_silent_totalisation,
-   * no_thresholds_in_suite_core,
-   * crossing_visibility_required,
-   * planned_slot_filling_in_work_planning_only,
-   * finalize_launch_values_in_work_enactment_only,
-   * implementation_export_discipline_when_cited
-  +}
+SuiteObligation := declared suite-level obligation
+// Canonical reusable names (not exhaustive):
+//   bridge_only_crossings,
+//   two_bridge_rule_for_described_entity_change,
+//   transport_declarative_only,
+//   penalties_route_to_r_eff_only,
+//   guard_decision_tristate(pass|degrade|abstain),
+//   unknown_never_coerces_to_pass,
+//   gate_decision_separation,
+//   guard_lexeme_reservations,
+//   cg_spec_cite_required_for_numeric_ops,
+//   no_silent_scalarisation_of_partial_orders,
+//   no_silent_totalisation,
+//   no_thresholds_in_suite_core,
+//   crossing_visibility_required,
+//   planned_slot_filling_in_work_planning_only,
+//   finalize_launch_values_in_work_enactment_only,
+//   implementation_export_discipline_when_cited
 
 SuiteObligations := { SuiteObligation[*] } // clause set; duplicates-free.
 
 MechSuiteDescription := ⟨
   mech_suite_id: MechSuiteId ,
-  mechanisms: U.Mechanism.IntensionRef[+] ,     // distinct members; references preferred
+  mechanisms: U.Mechanism.IntensionRef[+] ,     // references to distinct member intensions
   suite_obligations: SuiteObligations ,
   suite_spec_pins: SuiteSpecPins ,
   suite_protocols?: SuiteProtocol[*] ,
@@ -97,7 +97,7 @@ MechSuiteDescription := ⟨
 
 **Well-formedness constraints (admissibility; non-deontic).**
 
-* **WF‑MS‑1 (Membership set semantics).** `mechanisms` denotes a duplicates‑free set; order carries no semantics.
+* **WF‑MS‑1 (Membership set semantics).** `mechanisms` contains references to pairwise distinct mechanism intensions; field order carries no semantics.
 * **WF‑MS‑2 (Protocol closure).** If `suite_protocols` is present, then for every `ProtocolStep` in every `SuiteProtocol`, `step.mechanism ∈ mechanisms`.
 * **WF‑MS‑3 (Suite ≠ Pack).** `MechSuiteDescription` does not carry shipping/publication payloads; use the applicable shipping or publication pattern for those results.
 * **WF‑MS‑4 (Suite ≠ Mechanism).** `MechSuiteDescription` contains no `OperationAlgebra`/`LawSet`/execution semantics and is not admissible where a `U.Mechanism.*` node is required.
@@ -117,30 +117,9 @@ MechSuiteDescription := ⟨
 
 #### A.6.7:4.2 SuiteObligations (canonical obligation vocabulary)
 
-`MechSuiteDescription` MAY declare any obligations, but the following obligation vocabulary is **canonical** and is intended to be reused across the universalization of Part G and admissibility-gated characterization stacks.
+`MechSuiteDescription` MAY declare any obligations. The canonical names in §4.1 support reuse across Part G and admissibility-gated characterization stacks; they are not an exhaustive inventory.
 
-`SuiteObligations` SHOULD be written as an explicit clause set, e.g.:
-
-```
-SuiteObligations := {
-  bridge_only_crossings,
-  two_bridge_rule_for_described_entity_change,
-  transport_declarative_only,
-  penalties_route_to_r_eff_only,
-  guard_decision_tristate(pass|degrade|abstain),
-  unknown_never_coerces_to_pass,
-  gate_decision_separation,
-  guard_lexeme_reservations,
-  cg_spec_cite_required_for_numeric_ops,
-  no_silent_scalarisation_of_partial_orders,
-  no_silent_totalisation,
-  no_thresholds_in_suite_core,
-  crossing_visibility_required,
-  planned_slot_filling_in_work_planning_only,
-  finalize_launch_values_in_work_enactment_only,
-  implementation_export_discipline_when_cited
-}
-```
+`SuiteObligations` SHOULD be written as an explicit, duplicates-free clause set. Select applicable clauses from the canonical vocabulary in §4.1 and state any additional obligations explicitly. The requirements below remain applicable under their stated conditions.
 
 **Obligation meanings (normative).**
 
@@ -209,14 +188,14 @@ SuiteSpecPins := ⟨
 
 #### A.6.7:4.4 SuiteProtocols
 
-A suite MAY describe allowed protocols (pipelines) as descriptive constraints on how suite members are intended to be composed. A protocol description:
+A suite MAY describe allowed protocols (pipelines) as descriptive constraints on how suite members are intended to be composed. A `SuiteProtocol` describes the member-operation sequence. Its description:
 
 * MUST name the member mechanisms it uses (explicitly; no “implicit use”),
 * MAY mark steps as optional,
 * MUST NOT introduce hidden crossings or hidden admissibility steps,
-* MUST treat “publish/telemetry” as an external protocol step that is realized through existing publication surfaces (e.g., Part G shipping), rather than as a hidden tail inside a mechanism.
+* MUST identify any “publish/telemetry” as an external step of the surrounding protocol, realized through existing publication surfaces (e.g., Part G shipping), rather than as a hidden tail inside a mechanism. This external step is not a `ProtocolStep` in the suite-member sequence.
 
-A canonical shape for protocols:
+A canonical shape for the suite-member sequence:
 
 ```
 SuiteProtocol := ⟨
@@ -249,7 +228,7 @@ A suite MAY require that downstream use provide certain audit anchors. These are
 
 #### A.6.7:4.6 Examples
 
-**Example 1 (conformant).** A characterization admissibility suite:
+**Example 1 (membership-and-ordering illustration).** A characterization admissibility suite. This compact form illustrates membership and ordering; a conformance demonstration must also supply the member/operation bindings and the other applicable required values.
 
 ```
 CHRMechanismSuiteDescription : MechSuiteDescription :=
@@ -267,8 +246,10 @@ CHRMechanismSuiteDescription : MechSuiteDescription :=
     finalize_launch_values_in_work_enactment_only
   suite_spec_pins requires: {CNSpecRef, CGSpecRef}
   suite_protocols includes:
-    normalize → indicatorize → score → (fold_Γ?) → compare → select → publish/telemetry
+    normalize → indicatorize → score → (fold_Γ?) → compare → select
 ```
+
+The surrounding protocol continues with external `publish/telemetry` after `select`, through the applicable publication surface.
 
 This description is not a `MechFamilyDescription` (because it contains multiple distinct mechanisms), and it is not a `Pack` (because it does not ship publications; it only declares membership and shared obligations/pins/protocols).
 

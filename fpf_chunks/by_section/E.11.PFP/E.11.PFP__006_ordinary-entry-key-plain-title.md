@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-005"
 section_title: "<ordinary-entry key> — <plain title>"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__006_ordinary-entry-key-plain-title.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:section-005 — <ordinary-entry key> — <plain title>"
-line_start: 80545
-line_end: 80556
+line_start: 80591
+line_end: 80602
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -36,7 +36,7 @@ keywords:
 
 - **Situation:** <recognizable working situation>
 - **Question:** <practical question>
-- **First useful result or honest blocker:** <smallest useful result or exact blocker>
+- **First useful result or blocker:** <smallest useful result of the named action, or the condition preventing that action>
 - **Start with:** <direct PatternID or bounded plausible set>
 - **Stop or return:** <ordinary stop, wrong-turn return, or reopen condition>
 ```

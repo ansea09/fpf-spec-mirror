@@ -6,12 +6,12 @@ section_id: "A.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__002_problem-frame.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:1 — Problem frame"
-line_start: 22717
-line_end: 22734
+line_start: 22732
+line_end: 22749
 dependencies:
   - "A.10"
   - "A.13"
@@ -56,7 +56,7 @@ Use this pattern when a source, carrier, result episteme, credential, dashboard,
 
 **Primary EntityOfConcern.** The live object is the exact relied-on claim and bounded use. A.10 builds a descriptive evidence-provenance path that represents the independently established sources, carriers, work, result epistemes, provenance relations, currentness, and later-use relations needed to judge that use. The path is not a new world-side relation and its edges establish none of the facts they cite.
 
-**First useful move.** Write: “Claim episteme `E` is being relied on for bounded use `U`; `E` states local result `R`; the cited sources, carriers, and direct relations are `S`; currentness is `T`; the bounded A.10 disposition is `D`.” Add a dated `U.Work` occurrence only when that Work is itself a current claim. If the account says that Work returned, produced, or obtained a value, name the exact A.6.1 application binding, one local A.15.PROD claim, or a direct subject relation under its own pattern; otherwise keep the Work and value as separate facts. Mark any missing rule or relation as a gap.
+**First useful move.** Name the selected claim `C` in episteme `E` and its bounded use `U`. Recover the cited sources, carriers, and direct relations `S`, and currentness `T` when it affects that use. Use §4.5 to determine the bounded A.10 disposition `D`, or name what is missing for that classification. When `C` states a local result `R`, retain the rule that defines or tests `R` and the episteme stating it. Add a dated `U.Work` occurrence only when that Work is itself a current claim. If the account says that Work returned, produced, or obtained a value, name the exact A.6.1 application binding, one local A.15.PROD claim, or a direct subject relation under its own pattern; otherwise keep the Work and value as separate facts. Mark any missing rule or relation as a gap.
 
 **What goes wrong if missed.** Carrier presence becomes truth, provenance becomes approval, a result record becomes performed work, MethodDescription becomes a run trace, a graph edge becomes an obtaining relation, and a currentness or assurance decision is inferred from display styling.
 

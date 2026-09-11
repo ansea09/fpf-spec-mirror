@@ -6,12 +6,12 @@ section_id: "A.11.OP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__001_intro.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
   - "A.11.OP:intro — Intro"
-line_start: 23584
-line_end: 23594
+line_start: 23603
+line_end: 23613
 dependencies:
   - "A.10"
   - "A.11"

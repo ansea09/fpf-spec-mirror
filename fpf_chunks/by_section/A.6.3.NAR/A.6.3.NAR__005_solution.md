@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__005_solution.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:4 — Solution"
-line_start: 15472
-line_end: 15645
+line_start: 15508
+line_end: 15681
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -59,7 +59,7 @@ Use this compact note for ordinary work. Fill only entries that affect use or bl
 | --- | --- |
 | Reader/listener and use | Who needs the narrative, and what should it enable? |
 | Source material | What exact page, episteme, graph, model, record, or source pack will the author return to? |
-| Selected structures and rationale | Which relations, events, mechanisms, dependencies, conflicts, or alternatives matter, and why these? |
+| Selected structures and rationale | Which selected source structures matter, and why these? |
 | Ordering and connective account | Why does this path help the reader, and which links are explanatory additions rather than source claims? |
 | Preserved and foregrounded | What can the reader still recover, and what receives extra attention? |
 | Omitted, weakened, or unsupported | What is deferred, lost, rearranged, or newly suggested without source support? |
@@ -80,7 +80,7 @@ Then establish exact A.6.3 construction `n : X -> Y`:
 
 Recover `X` as the exact source episteme whose claim content and EntityOfConcern supply the narrative source, and recover `Y` as the exact receiving narrative episteme. Treat input models and publications according to their source claims and keep forms and carriers in their direct roles. If the receiving item lacks recoverable claim content, an exact EntityOfConcern, or an effective reference scheme, keep it as candidate prose or a carrier and stop before asserting exact NAR.
 
-Use the fuller local record when the trigger above is present. It is not a new U-kind, relation signature, identity record, or universal checklist:
+Use this fuller local record for the construction account only when the trigger above is present:
 
 ```text
 StructureToNarrativeRenderingCase:
@@ -178,7 +178,7 @@ Common ordering rationales:
 | Ordering rationale | Use when |
 | --- | --- |
 | Event order | The selected source structure is a sequence of happenings or state changes. |
-| Causal order | The reader must understand mechanism, dependency, intervention, or consequence. |
+| Causal order | The selected source claims describe causal links whose order matters to understanding a mechanism, dependency, intervention, or consequence. |
 | Discovery order | The narrative teaches how a claim, design, or explanation was found. |
 | Didactic order | The source material is reordered so a learner can build prerequisites and reconstruct the selected source structures later. |
 | Tension order | The narrative preserves conflicts, trade-offs, obstacles, failed attempts, or unresolved alternatives. |
@@ -205,13 +205,13 @@ An ordinary narrative remains fit while its source material, selected structures
 | Trigger | Required move |
 | --- | --- |
 | Source material or selected structures change | Recompare the narrative with the changed source, revise ordering, preservation, loss, unsupported additions, and return, and lower use until the useful path is honest again. |
-| An exact discriminator of `X`, `Y`, an additional source episteme, or a depended-on relation changes | Reidentify only the changed exact object; restate the affected part of `n`, preservation, loss, and return. Use C.33 only for architecture-relevant captured/lost structure and G.2 only for source-pack claims. |
+| An exact discriminator of `X`, `Y`, an additional source episteme, or a depended-on relation changes | Reidentify only the changed exact object; restate the affected part of `n`, preservation, loss, and return. Use C.33 only for architecture-relevant captured/lost structure and G.2 only for its SoTA harvesting/synthesis claims. |
 | Intended reader or listener use becomes stronger, broader, or more reliance-facing | Lower the existing narrative to its supported use. Open the exact branch only if the changed receiver now makes claim identity material, and add only the identity, source-chain, evidence, assurance, ethics, publication, or policy account that receiver requires; otherwise revise the ordinary note and stop there. |
 | Ordering rationale or connective account changes | Reopen the ordering and visible-loss account. Use RT as well when a material representation-scheme shift remains after narrative ordering is accounted for; use CSC when a narrower-use coarsened episteme is primary. |
 | Exact source material is missing, stale, or unreachable, or a stronger claim still lacks its claim-specific result | Lower downstream use. Restore access to the exact source material; when the stronger claim is current, apply the pattern whose Solution answers that question and keep the claim unresolved until its result is available. Use G.11 when currentness or freshness is the live defect. |
-| Generated output, source-pack plan, schema, or admission result changes | Use C.35 for generated-carrier admission and G.2 for source-pack claims; reopen NAR only for the affected source-to-narrative relation, loss, and return. |
+| Generated output, source-pack plan, schema, or admission result changes | Use C.35 for admission of an affected generated result to architecture use and G.2 for its SoTA harvesting/synthesis claims; reopen NAR only for the affected source-to-narrative relation, loss, and return. |
 | Domain narrative vocabulary or relevant narrative, NLG, or cognitive SoTA changes a relied-on field | Refresh that domain basis and replay the affected use; do not enlarge Core vocabulary merely to mirror the domain source. |
 | Downstream use requires evidence, assurance, ethics, publication, policy, decision, or work authority that NAR does not supply | Keep NAR as the narrative construction account and state the stronger claim under `A.10`, `B.3`, `D.1`–`D.5`, `E.24.PUB`, or the exact pattern that defines the needed decision or Work relation. |
-| A correspondence or preservation claim weakens | Use C.34 only for the correspondence that remains and C.33 for captured/lost architecture-relevant structures. Revisit a depended-on `C.2.8` structural comparison and its domain evaluation when the weakened claim changes what counts as correct recovery. Lower uses that required stronger sameness. |
+| A correspondence or preservation claim weakens | Use C.34 for the correspondence that remains only when the receiving architecture use is within its scope, and C.33 for captured/lost architecture-relevant structures. Revisit a depended-on `C.2.8` structural comparison and its domain evaluation when the weakened claim changes what counts as correct recovery. Lower uses that required stronger sameness. |
 | Observer preparation, access, assistance or budget changes for a relied-on structural-amount claim | Reopen that `C.2.8` comparison under the changed conditions. Revise the narrative when the changed recovery no longer supports its stated reader use. |
 

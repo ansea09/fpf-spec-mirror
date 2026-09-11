@@ -6,12 +6,12 @@ section_id: "E.11.DSG:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__003_problem.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:2 — Problem"
-line_start: 80808
-line_end: 80813
+line_start: 80856
+line_end: 80861
 dependencies:
   - "A.14"
   - "C.2.1"

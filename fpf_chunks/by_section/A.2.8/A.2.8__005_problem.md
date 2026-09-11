@@ -6,12 +6,12 @@ section_id: "A.2.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__005_problem.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:2 — Problem"
-line_start: 6789
-line_end: 6800
+line_start: 6790
+line_end: 6801
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -48,6 +48,6 @@ How can a practitioner state an individual deontic relation so that:
 3. one applicable constitutive rule and its required actual basis make institution testable;
 4. a generic prescription remains generic until the rule is satisfied;
 5. relation identity survives compatible description changes but not a changed bearer, content, rule, or interrupted validity;
-6. records and evidence support the claim without constituting the relation; and
+6. records and evidence support the claim without constituting the relation by form; and
 7. responsibility, permission, authority, assignment, Work, and compliance remain separately governed?
 

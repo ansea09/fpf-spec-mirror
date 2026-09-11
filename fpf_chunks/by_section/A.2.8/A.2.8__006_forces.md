@@ -6,12 +6,12 @@ section_id: "A.2.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__006_forces.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:3 — Forces"
-line_start: 6801
-line_end: 6811
+line_start: 6802
+line_end: 6812
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,8 +45,8 @@ keywords:
 | --- | --- |
 | Direct bearer vs generic policy | Policy often speaks about a system-role kind, while an individual commitment needs an actual system or party. |
 | Minimal use vs truthful institution | Routine prose should stay short, but a positive world-side relation cannot omit the rule and actual instituting basis that make it obtain. |
-| Stable identity vs changing records | A correction or compatible policy edition need not create another duty, while a changed bearer, content, constitutive rule, or interrupted validity does. |
-| Auditability vs constitution | Evidence is needed for reliance, but evidence and publication do not create the duty. |
+| Stable identity vs changing records | A correction or compatible policy edition need not create another duty. A changed bearer, content, constitutive rule, or interrupted validity prevents reuse of the same occurrence; assert a successor only after it obtains under §4.2. |
+| Auditability vs constitution | Evidence is needed for reliance, but evidence and publication do not create the duty by form. Institution requires the identified constitutive rule and its independently tested required facts. |
 | Local meaning vs cross-context reuse | Modality and policy interpretation are local; a similar label or Bridge does not transfer an individual relation. |
 | Duty vs neighboring governance | Commitment, responsibility, permission, authority, assignment, Work, gate result, and compliance can co-occur without becoming one object. |
 

@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:4 — Solution"
-line_start: 42060
-line_end: 42348
+line_start: 42104
+line_end: 42392
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -273,7 +273,7 @@ A claim-bearing filled card can itself be an episteme when its claim content, En
 
 When a card or other form designates the participants of one direct relation, its field labels may correspond to SlotKinds in that relation's `RelationSignature`, and its field values may be by-value designations or references of the declared refModes. The form is not a filled direct relation occurrence; supplying fields does not make the predicate obtain or provide occurrence identity.
 
-In a relational assertion, the claim graph designates the actual participants and states affirmative or negative polarity for the direct predicate. The direct pattern defines that predicate and the occurrence-identity rule; current case facts determine whether the predicate is satisfied or failed. A forecast, scenario, counterfactual, permission, or another claim family names its exact direct governor rather than using one common catch-all field. Only when an explicit reliance judgment is current for the declared use does `A.10` or the receiving evaluation separately state supported, refuted, or unresolved reliance. An affirmative assertion may designate an occurrence only after the case facts satisfy the predicate and the direct identity rule individuates that occurrence; a negative assertion creates no failed world-side occurrence. In a relation-occurrence description episteme, the EntityOfConcern is that exact already individuated occurrence. The assertion and description retain their own C.2.1 identities; neither supplies case facts, obtaining, or the occurrence-identity rule.
+In a relational assertion, the claim graph designates the actual participants and states affirmative or negative polarity for the direct predicate. The direct pattern defines that predicate and the occurrence-identity rule; current case facts determine whether the predicate is satisfied or failed. A forecast, scenario, counterfactual, permission, or another claim family names its exact direct governor rather than using one common catch-all field. Only when an explicit reliance judgment is current for the declared use does `A.10` or the receiving evaluation separately state supported, refuted, or unresolved reliance. An affirmative assertion may designate an occurrence only after the case facts satisfy the predicate and the direct identity rule individuates that occurrence; a negative assertion creates no failed world-side occurrence. In a relation-occurrence description episteme, the EntityOfConcern is that exact already individuated occurrence. The assertion and description retain their own C.2.1 identities. Their forms do not by themselves supply case facts or the occurrence-identity rule, or establish obtaining; evidence supporting the case conclusion and any constitutive contribution are governed separately by the relevant evidence and direct-relation rules.
 
 Keep the direct verbs with their objects. A designator designates an already recoverable referent. A governed reference resolves to that referent under an effective reference scheme. An assertion or description episteme carries claims and participant designations. A C.29 representation stands in an explicit correspondence to what it represents. A publication occurrence makes a selected episteme edition available; a publication form expresses that edition for the use; a presentation carrier bears the form.
 

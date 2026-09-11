@@ -6,12 +6,12 @@ section_id: "A.3.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__010_consequences.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:9 — Consequences"
-line_start: 9302
-line_end: 9320
+line_start: 9285
+line_end: 9303
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -62,7 +62,7 @@ keywords:
 | --- | --- |
 | Prediction, simulation, conformance, drift, and calibration claims become reviewable. | The project must name state-space characteristics and observation relations rather than relying on dashboard labels. |
 | Methods, method descriptions, mechanisms, work, flow structures, and dynamics stop substituting for each other. | Source labels like `process`, `workflow`, and `model` often need `E.10.ARCH` recovery before typed assignment. |
-| Gate and release use becomes safer because prediction must satisfy the conditions specified for that use, including required freshness and mathematical conditions. | Some attractive predictions become inadmissible until observation or proof is supplied. |
+| Gate and release use rejects a prediction when it fails the conditions specified for that use, including required freshness and mathematical conditions. | Some attractive predictions become inadmissible until observation or proof is supplied. |
 | Dynamics can cover physical, organizational, epistemic, software, architectural, and resource examples under one FPF kind. | Domain-specific laws still need their own notation, assumptions, and evidence disciplines. |
 | Mathematical-lens transfer is visible rather than hidden inside equations. | `C.29` may be needed when the dynamics model crosses contexts, scales, or representation regimes. |
 

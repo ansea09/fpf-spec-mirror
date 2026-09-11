@@ -6,12 +6,12 @@ section_id: "A.2.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__005_problem.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:2 — Problem"
-line_start: 7464
-line_end: 7475
+line_start: 7463
+line_end: 7474
 dependencies:
   - "A.10"
   - "A.13"
@@ -48,7 +48,7 @@ keywords:
 
 How can FPF represent communicative enactments so that:
 
-1. **Agency is explicit:** the actual performer `U.System` first has the A.13 core for this communicative action—one exact local agential system-role kind and criterion, classification, the same obtaining assignment, scope, working situation, window, and adequate core evidence. A.15.1 then independently admits the act from its performance history, Method, extent, and containment. Only afterward does F.6 establish `performedUnderAssignment` through the same obtaining assignment when precise assignment-bound attribution is current. A characteristic profile remains conditional on a consumed Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use.
+1. **Agency is explicit:** §4.1 and SA-C0/SA-C1 require the A.13 performer core, independent A.15.1 Work admission, and F.6 afterward only for a needed precise assignment-bound claim through the same obtaining assignment.
 2. **The act is locatable in time:** the act has an explicit Window (and thus freshness can be evaluated).
 3. **The act is locatable in meaning:** the act satisfies a type defined by an exact recognition-taxonomy episteme under an effective reference scheme; no generic bounded-context participant or Work judgement-context field substitutes for that basis, and `U.ClaimScope` remains only a claim-applicability object when a receiving claim needs one.
 4. **The act is auditable:** it has at least one declared utterance description, evidence carrier, or both when used for gate checks or governance.

@@ -6,12 +6,12 @@ section_id: "A.6.C:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__004_forces.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:3 — Forces"
-line_start: 11950
-line_end: 11960
+line_start: 11978
+line_end: 11988
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -68,9 +68,9 @@ keywords:
 | Force                      | Tension                                                                                                                                           |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Conversational convenience | People will keep saying “contract”; banning the term is unrealistic.                                                                              |
-| Ontological correctness    | “Contract” is a metaphor unless we explicitly locate who promises or commits and what can be evidenced.                                              |
+| Ontological correctness | Familiar contract wording can hide whether a guarantee is semantic, a prescription, an undertaking, or an observed result. |
 | Boundary diversity         | Software APIs, hardware connectors, protocols, and SLAs share the “contract” word but differ in what is adjudicated and how.                      |
-| Multi-view publication     | Faces are necessary for audience fit, but rephrasing easily creates new commitments.                                                              |
-| Adjudicability | “Guarantee” or authority wording must resolve to a semantic truth, an exact generic prescription, a claim about an individual commitment or current grant, an entry predicate, or an observed or evaluated claim with evidence; otherwise it is empty rhetoric. |
+| Multi-view publication | Faces support audience fit when projection is needed; rephrasing can change the claim. |
+| Adjudicability | When “guarantee” or authority wording leaves a consequential ambiguity, recover the semantic truth, exact generic prescription, individual commitment or current grant, entry predicate, or observed/evaluated claim needed by the receiving use. |
 | Minimality                 | The unpacking should be lightweight enough to apply during routine authoring and review.                                                          |
 

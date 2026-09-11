@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__010_consequences.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:9 — Consequences"
-line_start: 11123
-line_end: 11135
+line_start: 11088
+line_end: 11100
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -29,7 +29,7 @@ authority, lexical repair, publication-face projection, and pattern-language
 entry.
 
 The cost is one extra explicit split when a cue is confusing: description,
-encountered carrier or projection, defining `U.Episteme`, and false neighbor must not
-be collapsed. The cost stays bounded because the expanded shape is review-only
+encountered carrier or projection, and defining `U.Episteme` must not be
+collapsed; include the false neighbor when §4.1's grounded-guard condition holds. The cost stays bounded because the expanded shape is review-only
 or risk-triggered, not a required card for ordinary prose.
 

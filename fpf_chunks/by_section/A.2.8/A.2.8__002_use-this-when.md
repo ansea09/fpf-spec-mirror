@@ -6,12 +6,12 @@ section_id: "A.2.8:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__002_use-this-when.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:0 — Use This When"
-line_start: 6760
-line_end: 6771
+line_start: 6761
+line_end: 6772
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,9 +41,9 @@ keywords:
 
 ### A.2.8:0 - Use This When
 
-Use this pattern when you need to decide whether one actual system or party is obliged, required as a duty, recommended as a duty, or prohibited from doing something in a stated scope and time.
+Use this pattern to decide whether an actual system or party has a duty to perform or avoid a specified action within a stated scope and time. The modality distinguishes obligation, recommendation-as-duty, and prohibition.
 
-Start with the ordinary question: **does this actual bearer have this duty now?** Name the bearer and the duty content. Then find the policy or prescription, the rule by which it creates an individual duty, and the actual event or other basis that the rule requires. The first useful result is one obtaining `U.Commitment`, a demonstrated non-obtaining result, `unknown`, or `missing-governor[individual commitment institution]`.
+Start with the ordinary question: **does this actual bearer have this duty now?** Name the bearer and the duty content. Then find the policy or prescription, the rule by which it creates an individual duty, and the actual event or other basis that the rule requires. The first useful result is one obtaining `U.Commitment`, a demonstrated non-obtaining result, `unknown` reliance when required evidence is unavailable, or `missing-governor[individual commitment institution]`.
 
 **What goes wrong if missed.** A policy sentence, system-role kind, assignment, publication, ticket, interface description, or complete-looking record is treated as the duty itself. A named office is called responsible without a responsibility predicate. Evidence is made constitutive merely because the duty is auditable.
 

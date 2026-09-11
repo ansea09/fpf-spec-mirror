@@ -6,12 +6,12 @@ section_id: "A.2.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__006_forces.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:3 — Forces"
-line_start: 4245
-line_end: 4254
+line_start: 4244
+line_end: 4253
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -60,7 +60,7 @@ keywords:
 
 | Force                                       | Tension                                                                                                       |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **External promise vs internal capability** | Promise content must be consumer‑facing, while capability is provider‑internal.                               |
+| **Consumer promise vs provider ability** | Promise content states the consumer-side outcome; capability states what the provider System can do under declared conditions. |
 | **Specification vs execution** | Promise content remains an episteme; exact delivery-work facts, affected entities, post-work states, and separately governed delivery or acceptance relations are evaluated against the promised predicates. The evaluation operation's result binding and any verdict episteme remain distinct from those subject facts. |
 | **Universality vs domain richness**         | One kernel meaning must cover IT, utilities, healthcare, public services—without absorbing domain taxonomies. |
 | **Reviewable acceptance vs method autonomy** | Consumers need named outcome predicates, characteristics, scales, target values, and acceptance criteria. Systems classified under provider system-role kinds and holding exact assignments retain freedom to select delivery methods through method-selection work; an individual deontic duty enters only through an independently obtaining `U.Commitment`. |

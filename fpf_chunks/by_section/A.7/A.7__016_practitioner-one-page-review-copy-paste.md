@@ -6,12 +6,12 @@ section_id: "A.7:14"
 section_title: "Practitioner one-page review (copy-paste)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__016_practitioner-one-page-review-copy-paste.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:14 — Practitioner one-page review (copy-paste)"
-line_start: 21860
-line_end: 21886
+line_start: 21875
+line_end: 21901
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,7 +41,7 @@ keywords:
 
 ### A.7:14 - Practitioner one-page review (copy-paste)
 
-**Ordinary approval sentence**
+**Ordinary repair account**
 
 > `Engineer Dana repaired pump P-12. MaintenanceNote-e4 describes the repair. Carrier C bears publication form F.`
 
@@ -49,7 +49,7 @@ Keep the sentence this short when the receiving use needs no stronger distinctio
 
 **Reliance-bearing expansion, when needed**
 
-> `A.13 identified System S as the actual performer, and A.15.1 independently admitted Work W. If the receiving account must also say under which assignment W was performed, F.6 checks that relation against assignment A and compares S with A's holder; W enacted Method M. Capability C, local system-role kind K, method-description episteme D, carrier P, evidence-use relation R, time, and resources are named only where the receiving claim relies on them.`
+> `The practitioner used A.13 to identify System S as the actual performer with its core basis, then used A.15.1 to admit dated Work W independently from its performance history, enacted Method M, temporal extent, and obtaining containing-System relation. If the receiving account must also say under which assignment W was performed, the practitioner uses F.6 to check that relation against the same obtaining assignment A and compare S with A's holder. Keep the required core facts recoverable; add Capability C, another Method, further detail of local system-role kind K, method-description episteme D, carrier P, evidence-use relation R, or resource relations only where the receiving claim relies on them.`
 
 **Six checks**
 
@@ -64,5 +64,5 @@ Keep the sentence this short when the receiving use needs no stronger distinctio
 
 * `process` in source language may mean Method, Work, transformation, mechanism, or another direct object; recover the live claim.
 * A system-role-kind column lists local classifications, not behaviour.
-* A behaviour column shows the Method or Work actually current; it need not display a full assignment chain.
+* A behaviour column states the actual behaviour claim under its direct rule; it need not display a full assignment chain.
 

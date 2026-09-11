@@ -6,23 +6,22 @@ section_id: "A.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__007_bias-annotation.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:6 — Bias-Annotation"
-line_start: 10624
-line_end: 10631
+line_start: 10595
+line_end: 10601
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.2.3"
-  - "A.2.8"
   - "A.2.8.PER"
-  - "A.2.9"
   - "A.6"
   - "A.6.0"
   - "A.6.1"
   - "A.6.3"
+  - "A.6.5"
+  - "A.6.6"
   - "A.6.B"
   - "A.6.C"
   - "A.6.P"
@@ -30,7 +29,6 @@ dependencies:
   - "B.3"
   - "C.26"
   - "C.28"
-  - "E.10"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
@@ -38,9 +36,6 @@ dependencies:
   - "E.8"
   - "F.18"
   - "F.9"
-  - "U.Mechanism"
-  - "U.Signature"
-  - "U.View"
 keywords:
   - "Confuses deontics with mathematical admissibility"
   - "Rewrite as declarative predicate"
@@ -52,7 +47,7 @@ keywords:
   - "delivery"
   - "in invariants"
   - "publication face"
-  - "reference predicate IDs from CC when needed"
+  - "reference predicates by ID or canonical location from CC when needed"
   - "separate result"
   - "signature and mechanism declarations"
   - "six-way authority-word branch"
@@ -62,9 +57,8 @@ keywords:
 
 ### A.6:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Ontological and Epistemic**, **Prag**, **Did**. Scope: **Universal** for boundary descriptions in A.6.\*.
 
 * **Arch bias:** Biases toward separation of concerns and explicit layering; mitigated by allowing multiple faces so audiences are not forced into the same amount of detail.
-* **Ontological and Epistemic bias:** Treats signatures and mechanisms as epistemes that must not be conflated with work; mitigated by explicit evidence carriers and evidence records.
-* **Gov bias:** Prefers auditable responsibility (viewpoint accountability and commitment unpacking); mitigated by keeping the stack conceptual and tool‑agnostic.
+* **Ontological and Epistemic bias:** Treats signatures and mechanisms as epistemes that must not be conflated with work.
+* **Gov bias:** Prefers auditable responsibility (viewpoint accountability and commitment unpacking).
 

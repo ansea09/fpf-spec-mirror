@@ -6,12 +6,12 @@ section_id: "A.6.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__002_problem-frame.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:1 — Problem frame"
-line_start: 19660
-line_end: 19689
+line_start: 19696
+line_end: 19725
 dependencies:
   - "A.10"
   - "A.14"
@@ -44,7 +44,7 @@ keywords:
 
 FPF repeatedly needs to express a family of situations of the form:
 
-> **A dependent content is admissible, usable, or interpretable only relative to an explicit base.**
+> **The use, admissibility, or interpretation at issue depends on an explicit relation between the actual dependent and its base.**
 
 Examples occur across several disciplines:
 
@@ -54,11 +54,11 @@ Examples occur across several disciplines:
 * admissibility/assurance (claims linked to evidence, checks, or proofs),
 * publication discipline (what a statement is fit to be used for, where, and when).
 
-In drafts, authors often reach for a single umbrella metaphor (frequently “anchor/anchoring”). That metaphor collapses **different ontological situations** and **different operation classes**, blocking precise invariants and making perspective-flips inevitable.
+In drafts, authors often reach for a single umbrella metaphor (frequently “anchor/anchoring”). That metaphor collapses **different ontological situations** and **different operation classes**, blocking precise invariants and obscuring their direction and applicable rules.
 
 Like A.6.5, this family can expose **typing conflicts across viewpoints**: an endpoint may be named by its self-kind while the selected direct relation expects another participant kind or reference mode. Make that mismatch explicit only when it is current; do not hide it by renaming ends or flipping direction. Use SlotSpecs only when a reusable relation declaration actually needs them.
 
-The structural problem is smaller than the old record shape suggested. Every ordinary basedness assertion first needs only:
+Every ordinary basedness assertion first needs only:
 
 1. the actual **dependent**;
 2. the actual **base**; and

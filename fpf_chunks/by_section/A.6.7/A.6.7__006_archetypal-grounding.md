@@ -6,12 +6,12 @@ section_id: "A.6.7:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__006_archetypal-grounding.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:5 — Archetypal Grounding"
-line_start: 20408
-line_end: 20415
+line_start: 20432
+line_end: 20439
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.6.7:5 - Archetypal Grounding
 
-A suite is an archetypal “passport” or “capability bundle descriptor”:
+A suite is an archetypal mechanism-suite “passport”:
 
 * It answers **what mechanisms exist in the bundle** and **what shared invariants** make their composition lawful.
 * It provides **shared governing spec anchors** (pins) that downstream planning and work must cite.

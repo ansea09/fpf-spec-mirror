@@ -6,12 +6,12 @@ section_id: "A.2.6:19"
 section_title: "Annexes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__021_annexes-informative.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:19 — Annexes (informative)"
-line_start: 6086
-line_end: 6131
+line_start: 6087
+line_end: 6133
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -50,7 +50,7 @@ keywords:
 #### A.2.6:19.2 - Minimal data model hints
 
 **ContextSlice tuple (suggested keys):**
-`effectiveReferenceScheme`, one exact `declaredSelectorSchema`, the values of every selector in that schema, and optional selector families such as `exactLocalSenseRefs`, `standardOrInterfaceEditions`, `environmentOrPlatformSelectors`, `cohortOrJurisdictionSelectors`, and `gammaTime` only when that selector belongs to the declared schema because membership changes across time. A scope predicate declares which projection it inspects; it does not define the tuple's identity.
+`effectiveReferenceScheme`, one exact `declaredSelectorSchema`, the values of every selector in that schema, and optional selector families such as `exactLocalSenseRefs`, `standardOrInterfaceEditions`, `environmentOrPlatformSelectors`, `cohortOrJurisdictionSelectors`, and `gammaTime` when that selector belongs to the declared schema. A scope predicate declares which projection it inspects; it does not define the tuple's identity.
 
 **Claim-scope predicate block:**
 `assumptions`, `cohorts`, `platformOrStandardEditions`, `environmentSelectors`, `exactLocalSenseRefs?`, and `gammaTime?` when time changes membership.
@@ -68,12 +68,13 @@ work-measure targets, qualification windows, evidence freshness, and any decisio
 #### A.2.6:19.3 - Pseudocode membership evaluation (illustrative)
 
 ```python
-def evaluate_membership(scope, target_slice, available_inputs):
-    required = scope.required_selectors(target_slice)
-    if not required.issubset(available_inputs):
+def evaluate_membership(scope, target_slice, interpretation_basis):
+    required = scope.required_inputs(target_slice)
+    if not interpretation_basis.resolves_all(required):
         return UNKNOWN
-    return TRUE if scope.predicate(target_slice) else FALSE
+    resolved_inputs = interpretation_basis.resolve(required)
+    return TRUE if scope.predicate(target_slice, resolved_inputs) else FALSE
 ```
 
-`required_selectors` returns the projection needed by this scope predicate. `UNKNOWN` belongs to the evaluation result because a required input is unavailable. The underlying membership predicate remains bivalent for an exact, fully interpreted scope and slice.
+`required_inputs` identifies the selector resolutions and any translation inputs needed by this scope predicate under the bound `interpretationBasis`. `resolves_all` requires resolved values, not merely available keys or selector tokens; a present but unresolved rig token therefore yields `UNKNOWN`. The full slice remains bound as `targetSlice`; only the needed resolutions are supplied to predicate evaluation. `UNKNOWN` belongs to the evaluation result because a required input is unavailable. The underlying membership predicate remains bivalent for an exact, fully interpreted scope and slice.
 

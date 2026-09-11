@@ -6,12 +6,12 @@ section_id: "A.6.REL:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__013_relations.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:12 — Relations"
-line_start: 12631
-line_end: 12646
+line_start: 12665
+line_end: 12680
 dependencies:
   - "A.6.0"
   - "A.6.5"
@@ -35,7 +35,7 @@ keywords:
 - `A.15.1` governs work occurrence identity and readable links to separately governed participation, change, operation-result, production, evaluation, delivery, and acceptance claims.
 - `C.2.1` governs assertions and descriptions about relation obtaining, predicate satisfaction, and occurrences; `E.17` and `E.24.PUB` govern publication relations.
 - `C.22.PFR` supplies a worked case with two explicitly individuated relation occurrences participating in one dependent evaluative relation.
-- `C.29` governs a declared mathematical or data-model lens, including graph, tuple, or database representations used to describe relation structure.
+- `C.29` governs a declared mathematical-lens use, including use of a graph, tuple, or database representation as such a lens for relation structure.
 - `E.24` governs ontic settlement and `E.24.UK` governs root `U.Relation` admission. `A.6.REL` supplies the common occurrence discipline, and each direct relation pattern supplies the relation-specific witness. `E.24.CD` supplies the candidate-detection rule only after the prerequisite subject results are recoverable; it does not replace the direct occurrence-identity rule.
 - `F.18` governs durable names and identifier use after the relation kind and occurrence identity are settled.
 

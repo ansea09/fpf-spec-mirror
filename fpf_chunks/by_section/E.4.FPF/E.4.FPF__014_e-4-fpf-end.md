@@ -6,12 +6,12 @@ section_id: "E.4.FPF:End"
 section_title: "E.4.FPF:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__014_e-4-fpf-end.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:End — E.4.FPF:End"
-line_start: 71274
-line_end: 71275
+line_start: 71318
+line_end: 71319
 dependencies:
   - "C.33"
   - "C.34"

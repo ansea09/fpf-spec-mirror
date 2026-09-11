@@ -6,12 +6,12 @@ section_id: "A.6.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__011_rationale.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:10 — Rationale"
-line_start: 16012
-line_end: 16015
+line_start: 16048
+line_end: 16051
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,5 +37,5 @@ keywords:
 
 ### A.6.4:10 - Rationale
 
-A.6.4 exists because some mathematical arrows relate epistemes that concern different entities. The arrow supplies r's formal relation between the endpoint epistemes. A separate q states the invariant, visible loss, receiving use, conditions, and affirmative or negative proposition; the current-case judgement tests that proposition against exact facts, and any performed Work keeps its separate application and Work basis. The reader decides the use from q and those facts. A Bridge, reversibility claim, or assurance branch enters only when its separately governed claim is current.
+A.6.4 exists because some mathematical arrows relate epistemes that concern different entities. A changed use claim does not create another arrow; the reader decides each receiving use from its q and current case facts.
 

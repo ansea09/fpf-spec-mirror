@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__006_solution.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:4 — Solution"
-line_start: 78336
-line_end: 78379
+line_start: 78380
+line_end: 78423
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -52,7 +52,7 @@ If recovery shows that the same bounded phrase carries several distinct claims a
 | “The system as reviewer” or similar readable designation | Keep the readable actor designation when it carries the needed ordinary claim. Recover exact system identity, a separately obtaining classification, or an assignment only when the receiving claim uses that distinction. Create no `SystemInRole` individual. |
 | Participant meaning or actual participant of a direct relation | Use `A.6.RSIR` and the pattern for that direct relation. State the participant meaning and actual participant without calling either a system role. |
 | One place in a declaration, for example a source-named field, argument, result, endpoint, slot, or port | Use `A.6.RSIR`, followed by A.6.5, A.6.1, or the exact interface pattern. Recover `SlotKind`, `SlotSpec`, an argument or result declaration, or the interface term rather than `SystemRole`. |
-| One position in a representation, for example a tuple component, formula argument, graph endpoint, diagram place, schema field, or call position | Use the pattern for the selected representation and C.29 correspondence. The position is neither participant meaning nor system-role kind. |
+| One position in a representation, for example a tuple component, formula argument, graph endpoint, diagram place, schema field, or call position | Use the pattern for the selected representation; use C.29 for a mathematical-lens correspondence when that use is current. The position is neither participant meaning nor system-role kind. |
 | Another object or relation, for example participation, functioning, capability, Method, Work, obligation, permission, access, authority, responsibility, position, result, or status | Use the direct pattern and relation for that claim. If exact participants are known but no current direct relation closes the use, return the exact `missing-governor` result through A.6.RCD. |
 | A use of an episteme, for example when a report, standard, dataset, description, model, or publication “plays a role” | Recover the exact evidence-use, source-use, description-use, publication-use, reliance, status-use, or other direct relation. The episteme does not become a system-role holder. |
 | Ordinary or quoted wording carrying no FPF claim | Retain it as ordinary or source wording. Create no Tech token, kind, assignment, or repair record. |
@@ -65,12 +65,12 @@ If the recovered claim leaves a direct-participation, reusable-declaration, inte
 
 #### E.10.ROLE:4.2 - Lightweight Result
 
-For a local repair, the result is normally only:
+Ordinary repaired wording is enough. This example assumes that the source establishes the stated evidence use. Include `blocked overread` only when independent local evidence makes that rejected reading plausible and the boundary changes the receiving use:
 
 ```text
 source sentence: the report played a role in approval
 recovered sentence: reviewers used Report-R as evidence for ApprovalClaim-C
-applicable rule: A.10 evidence-use relation
+applicable rule: A.10 evidence-provenance account
 blocked overread: Report-R has no system-role assignment by this claim
 stop: ApprovalClaim-C remains the current question
 ```

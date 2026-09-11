@@ -6,23 +6,22 @@ section_id: "A.6:5"
 section_title: "Archetypal Grounding (Tell–Show–Show; System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__006_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:5 — Archetypal Grounding (Tell–Show–Show; System / Episteme)"
-line_start: 10557
-line_end: 10623
+line_start: 10528
+line_end: 10594
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.2.3"
-  - "A.2.8"
   - "A.2.8.PER"
-  - "A.2.9"
   - "A.6"
   - "A.6.0"
   - "A.6.1"
   - "A.6.3"
+  - "A.6.5"
+  - "A.6.6"
   - "A.6.B"
   - "A.6.C"
   - "A.6.P"
@@ -30,7 +29,6 @@ dependencies:
   - "B.3"
   - "C.26"
   - "C.28"
-  - "E.10"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
@@ -38,9 +36,6 @@ dependencies:
   - "E.8"
   - "F.18"
   - "F.9"
-  - "U.Mechanism"
-  - "U.Signature"
-  - "U.View"
 keywords:
   - "Confuses deontics with mathematical admissibility"
   - "Rewrite as declarative predicate"
@@ -52,7 +47,7 @@ keywords:
   - "delivery"
   - "in invariants"
   - "publication face"
-  - "reference predicate IDs from CC when needed"
+  - "reference predicates by ID or canonical location from CC when needed"
   - "separate result"
   - "signature and mechanism declarations"
   - "six-way authority-word branch"
@@ -81,8 +76,8 @@ To support boundary evolvability, separate claims across the signature stack and
 * **Mechanism layer (A.6.1).**
 
   * Admissibility gate: request is admissible iff `tokenValid ∧ merchantActive ∧ amountWithinLimit`.
-  * Transport: HTTP headers, idempotency key transport, canonical currency conversions.
-  * Audit and observability: specifies required evidence carriers (e.g., `AuthorizationRecord` event, log entry) and their semantics (fields, correlation IDs, retention class).
+  * Boundary transport details: HTTP headers and idempotency-key carriage. Declare canonical currency-conversion operations under A.6.1.
+  * The local Audit and observability section specifies required evidence carriers (e.g., `AuthorizationRecord` event, log entry) and their fields, correlation IDs and retention class. Retention duties remain D-claims.
 
 * **Actual occurrence and work layer.**
 
@@ -96,11 +91,11 @@ To support boundary evolvability, separate claims across the signature stack and
   * InteropCard: machine‑exchange oriented boundary details (canonical field names, schema refs, transport bindings).
   * AssuranceLane: evidence bindings (which carriers exist, how to adjudicate `E-*` claims, retention and access duties by reference).
 
-**SoTA tie‑in:** This boundary is naturally understood using *algebraic effects and handlers*: the signature is the “operation interface” (effect signature), while the mechanism or realization provides handlers (semantics). The stack keeps the abstract operation signature stable while allowing multiple handlers and realizations to evolve.
+**Effects-and-handlers analogy.** In this software example, the signature exposes the operation interface. A.6.1 governs declared operation semantics and the separate realization relation; the realizing entity supplies the concrete handler implementation. Implementations can change while preserving the declared operation meanings and applicable constraints.
 
 **Classification example:**
 
-* “Defined iff tokenValid” belongs in Quadrant A (admissibility gate).
+* “A request is admissible iff `tokenValid ∧ merchantActive ∧ amountWithinLimit`” belongs in Quadrant A (the declared admissibility gate).
 * “Clients MUST include Idempotency-Key” belongs in Quadrant D as a normative prescription and should reference the same gate semantics to avoid divergence. It becomes a claim about one obtaining individual `U.Commitment` only after A.2.8 identifies the actual bearer, constitutive rule, required instituting basis, and direct predicate.
 * “System emits AuthorizationRecord” belongs in Quadrant E (an actual event-emission claim).
 
@@ -108,7 +103,7 @@ To support boundary evolvability, separate claims across the signature stack and
 
 **Episteme:** A published “Model Evaluation Protocol” for a safety‑critical classifier.
 
-* **Signature layer:** defines operations like `Evaluate(model, dataset) → Report` and truth‑conditional definitions of metrics (AUROC, calibration error) as Laws.
+* **Signature layer:** names operations such as `Evaluate(model, dataset) → Report` and states metric definitions (AUROC, calibration error) as Laws. A.6.1 governs the corresponding operation declaration and its argument/result meanings.
 
 * **Mechanism layer:** admissibility gate encodes when evaluation is permitted: dataset version must match declared license; measurement environment must meet constraints; seeds pinned.
 
@@ -122,7 +117,7 @@ To support boundary evolvability, separate claims across the signature stack and
 
   * PlainView for decision makers: what this protocol means for assurance.
   * TechCard for engineers: metric definitions named by value, admissibility predicates, and a clearly marked **Norms-and-commitments** section (D‑claims) for governance.
-  * InteropCard for exchange-oriented consumers: conceptual field names, anchors, and schema references (concrete format mapping lives outside Part E).
+  * InteropCard for exchange-oriented consumers: conceptual field names, anchors, and schema references.
   * AssuranceLane for auditors: evidence map (which carriers support which occurrence claims) and adjudication steps keyed by `E-*` IDs.
 
 This episteme is a boundary because it mediates between theory (“metric definitions”) and work (“a run produced a report”). The signature stack provides the stable interface for that mediation.

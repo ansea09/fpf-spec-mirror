@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__008_conformance-and-counterexample-replay.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:7 — Conformance and counterexample replay"
-line_start: 14484
-line_end: 14528
+line_start: 14507
+line_end: 14550
 dependencies:
   - "A.15"
   - "A.20"
@@ -44,7 +44,7 @@ A check is retained only if it changes the next admissible use, blocks a concret
 | **CC-CSC-3 (Admissible use).** | The ordinary candidate names its present use; exact `Y` has one stated narrower admissible use. | Keeps convenience from becoming broad authority. |
 | **CC-CSC-4 (Non-admissible use).** | The stronger downstream use that needs more than the ordinary candidate, exact `Y`, or its publication is explicit, together with the limiting loss or missing support. Apply `F.19:4` to how that boundary is expressed; retain the actual admissibility condition. | Blocks authority laundering. |
 | **CC-CSC-5 (Return).** | Ordinary return resolves to the directly linked source; an exact account resolves to exact `X`, an established source relation, a genuine authority source, or the concrete neighboring contribution needed by the stronger claim. | Prevents provenance reset and fictive routing. |
-| **CC-CSC-6 (Neighbor separation).** | Actual Work, additional source epistemes, correspondence, C.29 representation, viewpoint/`U.View`, grounding, publication occurrence, form, carrier, audience, and bounded use remain separate and use their own definitions, tests, or methods when current. | Prevents a filled coarsening card from becoming an omnibus ontology. |
+| **CC-CSC-6 (Neighbor separation).** | Actual Work, additional source epistemes, correspondence, representation, mathematical-lens use under C.29, viewpoint/`U.View`, grounding, publication occurrence, form, carrier, audience, and bounded use remain separate and use their own definitions, tests, or methods when current. | Prevents a filled coarsening card from becoming an omnibus ontology. |
 | **CC-CSC-7 (Ordinary economy).** | Ordinary cases return the shorter candidate with its directly reachable source after comparison; a separate six-row note is optional. Exact endpoint and construction identity open only when independent transfer or the receiving use makes them material. | Preserves usability without deleting the exact branch. |
 
 #### A.6.3.CSC:7.2 - Exact reuse or reliance conditions
@@ -55,7 +55,7 @@ A check is retained only if it changes the next admissible use, blocks a concret
 | **CC-CSC-9 (Loss/recoverability).** | Exact reuse or reliance cases state every concrete decision-relevant loss and select exactly one immediate recoverability action for the proposed use. | Preserves multiple losses while making the next move unambiguous. |
 | **CC-CSC-10 (Chain continuity).** | Every coarsening chain keeps exact original source episteme, each intermediate episteme, each construction, accumulated loss, and return; otherwise reopen exact `X`. | Prevents summarization from resetting source identity. |
 | **CC-CSC-11 (Privacy).** | Redaction cases name sharing boundary, withheld claims, risk rationale, blocked accountability/gate uses, and exact source review path. | Prevents redaction-as-closure. |
-| **CC-CSC-12 (Interop).** | Interop simplification names the exact F.9 Bridge and bounded-use claim when Bridge or equivalence pressure is live; an optional F.9.1 stance note stays separate. | Prevents simplified wording or a stance word from asserting correspondence. |
+| **CC-CSC-12 (Interop).** | Interop simplification names the operative relation and supports its bounded use under that relation's governing pattern. When that relation is a Bridge between exact local senses with different interpretation bases, name the exact F.9 Bridge and separate bounded-use claim; an optional F.9.1 stance note stays separate. | Prevents simplified wording or a stance word from asserting correspondence. |
 | **CC-CSC-13 (No authority by repetition).** | Fluency, citation, repetition, publication visibility, or a more convenient carrier cannot widen use. | Keeps `Y` within its declared use. |
 
 #### A.6.3.CSC:7.3 - Counterexample replay
@@ -73,5 +73,4 @@ A check is retained only if it changes the next admissible use, blocks a concret
 | Grounded source, ungrounded coarsening | Grounding, evidence, or authority attached to `X` does not transfer to `Y`; `Y` needs its own direct grounding/evidence/authority path for any use that requires one. |
 | Selected structure overread | `X` may describe a selected architecture or other A.22 structure. Establish epistemes `X` and `Y`, construction `c`, and any viewpoint, `U.View` or publication claims independently under their subject rules. |
 
-After a bounded correction replay its local counterexample; after the batch run this complete table once. Do not repeat the whole host audit after every correction.
 

@@ -6,12 +6,12 @@ section_id: "A.3.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__003_problem-frame.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:1 — Problem Frame"
-line_start: 9391
-line_end: 9415
+line_start: 9372
+line_end: 9380
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,23 +57,7 @@ keywords:
 FPF often needs to talk about change in physical systems, engineered artifacts, organizations, presentation carriers, constituent organizations, architectures, programs, regulatory situations, and research objects. A revised specification needs an early split: changed claim content identifies two C.2.1 epistemes, not one continuing changed episteme. Test the `EpistemeEditionRelation` between them. Open A.3.4 only for a continuing carrier, constituent organization, or other subject with its own identity rule; if revision `U.Work` first creates the later episteme, use `A.15.PROD` for that first existence. When the source says *process*, *editing*, or *construction*, recover the changed object from the case.
 
 
-Relevant neighboring patterns:
-
-- `A.3` for transformer constitution: acting system bearing `TransformerSystemRole`, method description, method, and actual work;
-- `A.3.1` for `U.Method`;
-
-- `A.3.2` for `U.MethodDescription`;
-- `A.3.3` for `U.Dynamics`;
-- `A.6.0` and `A.6.5` for signatures and slot discipline;
-- `A.6.1` and `E.20` for mechanisms;
-- `A.15.2` and `A.15.1` for work plans and dated work;
-- `E.18` for transformation-flow structures;
-- `E.18.2` for mathematical descriptions of transformation-flow structures;
-- `E.18.1` for problem-to-work carry-through;
-- `C.27.TA` for positive temporal aspects;
-- `C.27` for temporal-claim adequacy;
-- `C.29` for mathematical-lens use;
-- evidence, gate, assurance, source, result, decision, and publication patterns for their own claims.
+For transformer constitution use `A.3`; for signatures and slot discipline use `A.6.0` and `A.6.5`; for problem-to-work carry-through use `E.18.1`. Section 0 and sections 4.4–4.5 provide the other neighboring routes.
 
 What is missing is a positive first route: identify the actual change, then open only the separate method, work, flow, representation, evidence, publication, or later-use claim the practitioner is making.
 

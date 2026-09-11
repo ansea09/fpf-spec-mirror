@@ -6,12 +6,12 @@ section_id: "A.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__006_archetypal-grounding.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:5 — Archetypal Grounding"
-line_start: 10067
-line_end: 10077
+line_start: 10023
+line_end: 10032
 dependencies:
   - "B.3"
   - "B.4"
@@ -30,8 +30,7 @@ keywords:
 | --------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | **Design‑Time**       | 3‑D CAD + G‑code; stress‑sim config.                                                         | Lean/Coq script of theorem; dependency graph.                                           |
 | **Run‑Time**          | Pump circulates coolant under `OperatePump` method.                                          | Theorem cited & reused; runtime is “being relied on”.                                   |
-| **Run → Design loop** | Sensor data shows cavitation; anomaly report produced by the monitoring server under `roleRef=TransformerRole@MonitoringContext`. | New experiment contradicts corollary; lab apparatus and scientists hold `TransformerRole@ExperimentContext` assignments. |
-| **Design → Run loop** | Engineers author Pump‑v3 spec; the printer holds `TransformerRole@FabricationContext` while fabricating Pump‑v3.                    | Community revises proof; the proof assistant holds `TransformerRole@VerificationContext` while verifying Proof‑v3.         |
+| **Run → Design loop** | Sensor data shows cavitation; anomaly report produced by the monitoring server under `roleRef=TransformerRole@MonitoringContext`. | New experiment contradicts corollary; lab apparatus and scientists hold assignments to the locally defined `TransformerRole@ExperimentContext` kind. |
+| **Design → Run loop** | Engineers author Pump‑v3 spec; the printer holds an assignment to the locally defined `TransformerRole@FabricationContext` kind while fabricating Pump‑v3.                    | Community revises proof; the proof assistant holds an assignment to the locally defined `TransformerRole@VerificationContext` kind while verifying Proof‑v3.         |
 
-*(Diagrammatic lineage table omitted for brevity but included in annex.)*
 

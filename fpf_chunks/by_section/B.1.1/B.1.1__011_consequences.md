@@ -6,12 +6,12 @@ section_id: "B.1.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__011_consequences.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:9 — Consequences"
-line_start: 36742
-line_end: 36756
+line_start: 36786
+line_end: 36800
 dependencies:
   - "A.1"
   - "A.10"

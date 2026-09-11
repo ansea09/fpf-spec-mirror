@@ -6,12 +6,12 @@ section_id: "C.2.1:7"
 section_title: "Episteme morphing, viewing, and retargeting  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__008_episteme-morphing-viewing-and-retargeting-normative.md"
-commit_sha: "a87d0ef4f3712507edd6e5a59f4de5bf7a55905a"
+commit_sha: "ef9ded2cb965193aa2484c84f06d65770439cef8"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:7 — Episteme morphing, viewing, and retargeting  (normative)"
-line_start: 42383
-line_end: 42421
+line_start: 42427
+line_end: 42465
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -65,7 +65,7 @@ For a morphism from episteme `X` to episteme `Y`, state by value:
 3. which claims in `Y` are preserved from or supported by `X` under the named morphism, the exact correspondence or retargeting relation governed by that morphism pattern, and any `F.9` Bridge that governs cross-context sense use when current;
 4. whether a separate operation application or Work actually produced or changed an episteme, and which direct pattern governs that occurrence.
 
-The morphism declaration and its mathematical arrows are different objects. The declaration is a C.2.1 episteme, normally an A.6.0 FormalSubstrate signature, whose EntityOfConcern is the local mathematical family and whose claim content declares vocabulary, laws, and applicability. One arrow `f : X -> Y` is a C.29-local mathematical object identified inside that substrate by its exact endpoints, arrow rule or designator, and declared formal equivalence.
+The morphism declaration and its mathematical arrows are different objects. The declaration is a C.2.1 episteme, normally an A.6.0 FormalSubstrate signature, whose EntityOfConcern is the local mathematical family and whose claim content declares vocabulary, laws, and applicability. One arrow `f : X -> Y` is a local mathematical object identified inside that substrate by its exact endpoints, arrow rule or designator, and declared formal equivalence.
 
 The mathematical statement `f : X -> Y` names no execution. When an exact operation application is current, A.6.1 separately identifies its argument and result bindings. For any precise performed-Work claim, use A.13 to identify the actual performer and A.15.1 to admit the dated Work independently. If that claim must also identify the assignment under which the Work was performed, check that relation separately through F.6. Identify the affected or newly constituted episteme, its C.2.1 discriminators, and any production or change relation under their direct governors. The same arrow may be used in several applications, and an arrow may relate already existing epistemes. No bare result, generic Work result, or universal production relation follows from an arrow or declaration.
 
