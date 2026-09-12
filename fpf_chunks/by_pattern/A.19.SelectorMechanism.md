@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.SelectorMechanism.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
-line_start: 34540
-line_end: 34961
+line_start: 34676
+line_end: 35097
 dependencies:
 keywords:
   - "SelectEligibility"

@@ -6,12 +6,12 @@ section_id: "C.29:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__014_sota-echoing.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13 — SoTA-Echoing"
-line_start: 58934
-line_end: 58984
+line_start: 59614
+line_end: 59672
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "A.6.P"
   - "A.6.RCD"
   - "B.3"
+  - "B.5.MPC"
   - "C.11"
   - "C.16"
   - "C.16.P"
@@ -38,15 +39,17 @@ dependencies:
   - "C.27"
   - "C.27.TA"
   - "C.28"
-  - "C.29"
+  - "C.29.1"
+  - "C.29.2"
+  - "C.29.3"
   - "C.31.ASAP"
+  - "C.39"
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18.1"
   - "E.19"
   - "E.8"
-  - "E.9"
   - "F.19"
   - "F.9"
   - "G.10"
@@ -54,20 +57,6 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseBoundaryValue"
-  - "coarse-graining"
-  - "invariants"
-  - "learned lens"
-  - "lens mapping mode"
-  - "lost structure"
-  - "mathematical lens"
-  - "ontology smuggling"
-  - "preserved structure"
-  - "rival lens"
-  - "scale window"
-  - "stop condition"
-  - "structure-preserving representation"
-  - "validation boundary"
 ---
 
 ### C.29:13 - SoTA-Echoing
@@ -113,11 +102,19 @@ When a mathematical equivalence, interpretation or homomorphism supports later f
 
 #### C.29:13.4 - Applied category theory
 
-Adopt applied category theory as one major organizer for cross-domain transfer, especially composition, interfaces, views, transformations, and bridges. Retain the concrete source examples: databases, electric circuits, and dynamical systems as application families; adjoint functors, enriched categories, and toposes as categorical structures that organize transfer.
+Adopt the operation-preservation discipline explained by [Fong and Spivak, §3.3.2](https://arxiv.org/pdf/1803.05316): a functor maps objects and arrows while preserving identities and composition. C.29.1 makes the corresponding comparison available before a result is reused, including operation permissions, representative independence and weaker bounds. The authors' §2.5.3 also shows how composition and choice compute route costs; C.29.1:5.2 uses an authored case to expose when an omitted continuation condition defeats that reduction.
 
-In `C.29`, category-theoretic material is used through the same local adequacy fields as any other lens: stated use, named structure, preserved composition or interface, lost structure, failed transfer, and neighboring-pattern applications. It is especially useful when composition, interfaces, views, transformations, or bridges matter to the bounded lens-use action.
+Applied category theory remains one organizer for composition, interfaces and transfer. The book's databases, electric circuits and dynamical systems provide source applications; adjoint functors, enriched categories and toposes provide further constructions to study when the question needs them. The trade-off is the work of defining the objects and operations and establishing their laws. When an ordinary domain calculation already provides the correspondence and consequence, use it directly. A failed comparison can instead identify the next required distinction or construction.
 
 #### C.29:13.5 - Obstructions to compositionality
 
 Adapt the obstructions and failures-of-compositionality perspective into `LostStructure` and `StopCondition`: a lens can be useful precisely because it exposes where transfer fails, not only where it succeeds. In plain language, a good lens does not only say "this transfer holds"; it also names the boundary where transfer stops.
+
+#### C.29:13.6 - Computation and its physical realization
+
+[Turing 1936, §6](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf) constructs a machine that interprets encoded machine descriptions. C.29.2 adopts the rules-as-data construction. Its finite interpreter obtains results from the listed instructions; Turing's broader universality result uses his machine-simulation construction.
+
+[Horsman, Stepney, Wagner and Kendon 2014, §§VI–VIII](https://arxiv.org/abs/1309.7979) connect abstract computation with physical preparation, evolution and interpretation. C.29.3 adopts this comparison and explains its current extensions to digital, analog and stochastic realizations. Its source discussion distinguishes the resulting computational claim, the system model and performed execution.
+
+These Methods and their worked constructions are conceptual synthesis. Algorithm design, numerical analysis, learning, coding and distributed computation supply further construction techniques, guarantees and cost analysis when the working question needs them.
 

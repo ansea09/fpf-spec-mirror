@@ -6,12 +6,12 @@ section_id: "C.2.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__001_intro.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:intro — Intro"
-line_start: 43974
-line_end: 43983
+line_start: 44577
+line_end: 44586
 dependencies:
   - "A.16"
   - "A.18"

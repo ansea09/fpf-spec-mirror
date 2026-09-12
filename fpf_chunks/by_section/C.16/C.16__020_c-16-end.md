@@ -6,12 +6,12 @@ section_id: "C.16:End"
 section_title: "C.16:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__020_c-16-end.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:End — C.16:End"
-line_start: 49189
-line_end: 49190
+line_start: 49828
+line_end: 49829
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,19 +34,21 @@ keywords:
   - "Characteristic"
   - "Level/Coordinate"
   - "Scale"
+  - "Scale order"
   - "Unit"
   - "actual bindings"
   - "bounded later use"
   - "calibration"
   - "comparability"
   - "dated measurement work"
+  - "indication-producing procedure"
   - "input/output quantities"
   - "measurand"
   - "measurement result"
   - "measurement subject"
+  - "measurement-model construction"
   - "method"
   - "model"
-  - "polarity"
   - "provenance"
   - "uncertainty"
 ---

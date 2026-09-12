@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `cda9087f48e0bce2c5f9d5f4389e7e025c7678f5`
+Commit SHA: `4865bcb9123ba04cb2a433c95bf6401be20fe8cb`
 
 Chunking method: `pattern-aware`
 
-Patterns: `318`
+Patterns: `322`
 
 ## Patterns
 
@@ -130,6 +130,7 @@ Patterns: `318`
 - [B.4 — Canonical Evolution Loop](by_pattern/B.4.md)
 - [B.4.1 — Observe -> Notice -> Stabilize -> Route](by_pattern/B.4.1.md)
 - [B.5 — Canonical Reasoning Cycle](by_pattern/B.5.md)
+- [B.5.MPC — Connect Physical, Mathematical and Computational Reasoning](by_pattern/B.5.MPC.md)
 - [B.5.1 — Explore → Shape → Evidence → Operate](by_pattern/B.5.1.md)
 - [B.5.2 — Abductive Loop](by_pattern/B.5.2.md)
 - [B.5.2.0 — U.AbductivePrompt](by_pattern/B.5.2.0.md)
@@ -186,6 +187,9 @@ Patterns: `318`
 - [C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness](by_pattern/C.27.TA.md)
 - [C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability](by_pattern/C.28.md)
 - [C.29 — Mathematical Lens Use](by_pattern/C.29.md)
+- [C.29.1 — Mathematical Result Transfer](by_pattern/C.29.1.md)
+- [C.29.2 — Computational Formulation](by_pattern/C.29.2.md)
+- [C.29.3 — Computational Realization](by_pattern/C.29.3.md)
 - [C.30 — Grounded Architecture and Selected-Structure Adequacy](by_pattern/C.30.md)
 - [C.30.AD — Architecture Description Adequacy](by_pattern/C.30.AD.md)
 - [C.30.AD.BA — Built-Asset Architecture Description and Reference Designation](by_pattern/C.30.AD.BA.md)

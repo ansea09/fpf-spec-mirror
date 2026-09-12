@@ -6,12 +6,12 @@ section_id: "C.29:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__001_intro.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:intro — Intro"
-line_start: 58098
-line_end: 58115
+line_start: 58738
+line_end: 58755
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "A.6.P"
   - "A.6.RCD"
   - "B.3"
+  - "B.5.MPC"
   - "C.11"
   - "C.16"
   - "C.16.P"
@@ -38,15 +39,17 @@ dependencies:
   - "C.27"
   - "C.27.TA"
   - "C.28"
-  - "C.29"
+  - "C.29.1"
+  - "C.29.2"
+  - "C.29.3"
   - "C.31.ASAP"
+  - "C.39"
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18.1"
   - "E.19"
   - "E.8"
-  - "E.9"
   - "F.19"
   - "F.9"
   - "G.10"
@@ -54,20 +57,6 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseBoundaryValue"
-  - "coarse-graining"
-  - "invariants"
-  - "learned lens"
-  - "lens mapping mode"
-  - "lost structure"
-  - "mathematical lens"
-  - "ontology smuggling"
-  - "preserved structure"
-  - "rival lens"
-  - "scale window"
-  - "stop condition"
-  - "structure-preserving representation"
-  - "validation boundary"
 ---
 
 ## C.29 - Mathematical Lens Use
@@ -80,7 +69,7 @@ keywords:
 
 **Primary EntityOfConcern.** The use of a mathematical representation to answer a stated working question, with an explicit correspondence to the phenomenon and limits on the resulting inference.
 
-**Use this when.** Use C.29 when choosing or transferring a mathematical representation could expose a needed relation, invariant, obstruction, approximation or resource limit, or when an existing representation is being relied on beyond what its correspondence supports.
+**Use this when.** Use C.29 when choosing or transferring a mathematical representation could expose a needed relation, invariant, obstruction, approximation or resource limit, or when an existing representation is being relied on beyond what its correspondence supports. The related Methods in C.29.1, C.29.2 and C.29.3 respectively construct a result transfer, a computation and its realization. Enter the Method whose contribution is missing; B.5.MPC connects these contributions to a physical question.
 
 **What goes wrong if missed.** The reader either misses a useful mathematical construction or carries a result into a situation where a needed assumption or distinction has been lost.
 

@@ -6,25 +6,21 @@ section_id: "A.18:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__004_forces.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:3 — Forces"
-line_start: 29687
-line_end: 29698
+line_start: 29817
+line_end: 29828
 dependencies:
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.CN"
-  - "A.3.3"
   - "B.3"
   - "C.16"
   - "D.4"
-  - "E.10"
-  - "F.9"
   - "G.0"
-  - "U.Dynamics"
 keywords:
   - "CSLC"
   - "Characteristic"
@@ -36,7 +32,8 @@ keywords:
   - "no illegal averaging"
   - "one-characteristic-one-scale rule"
   - "ordinal vs cardinal scale"
-  - "polarity"
+  - "scale order"
+  - "use-dependent preference"
 ---
 
 ### A.18:3 - Forces

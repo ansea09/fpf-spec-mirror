@@ -6,12 +6,12 @@ section_id: "B.3:6.5"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__008_bias-annotation.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:6.5 — Bias annotation"
-line_start: 39814
-line_end: 39823
+line_start: 39950
+line_end: 39959
 dependencies:
   - "A.10"
   - "A.15.1"

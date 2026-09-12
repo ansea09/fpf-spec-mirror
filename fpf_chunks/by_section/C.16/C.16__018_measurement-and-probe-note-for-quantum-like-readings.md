@@ -6,12 +6,12 @@ section_id: "C.16:15a"
 section_title: "Measurement and probe note for quantum-like readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__018_measurement-and-probe-note-for-quantum-like-readings.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:15a — Measurement and probe note for quantum-like readings"
-line_start: 49158
-line_end: 49184
+line_start: 49797
+line_end: 49823
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,19 +34,21 @@ keywords:
   - "Characteristic"
   - "Level/Coordinate"
   - "Scale"
+  - "Scale order"
   - "Unit"
   - "actual bindings"
   - "bounded later use"
   - "calibration"
   - "comparability"
   - "dated measurement work"
+  - "indication-producing procedure"
   - "input/output quantities"
   - "measurand"
   - "measurement result"
   - "measurement subject"
+  - "measurement-model construction"
   - "method"
   - "model"
-  - "polarity"
   - "provenance"
   - "uncertainty"
 ---
@@ -57,7 +59,7 @@ Use C.16 first when the live object is a sensor reading, survey response, dashbo
 
 Recover the ordinary measurement chain first:
 
-1. name the exact measurand or subject, Characteristic, Scale, value or Level, Unit, polarity, and time stance;
+1. name the measurand or subject, Characteristic, Scale, value or Level, applicable Unit and time stance; identify preference only when the use evaluates the result;
 2. separate reusable method and model from dated work and actual bindings;
 3. name input quantities, output quantity, calibration basis, uncertainty propagation, and one measurement-result episteme;
 4. distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision; and

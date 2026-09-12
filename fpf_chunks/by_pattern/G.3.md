@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.3.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
-line_start: 103477
-line_end: 103928
+line_start: 105331
+line_end: 105784
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -227,6 +227,8 @@ CharacteristicCard := ⟨
   Micro‑examples (R‑anchors: Path/PathSlice cited; lane tags where applicable)
 ⟩
 ```
+
+`Polarity` gives the preferred direction for `IntendedDownstreamUse`: ↑ means higher-is-better, ↓ lower-is-better, and ⊥ no preferred direction assigned. Use ⊥ for a descriptive measurement. A target, range or other preference that has no single direction uses the applicable evaluation predicate and its Method; the Scale retains its measurement meaning under A.17/A.18.
 
 Where `RoleDecl := ⟨ roleLabel, GoverningPatternId, EditionPins?, PolicyPins? ⟩` (wiring-only; the value of `GoverningPatternId` names the FPF pattern that governs the role declaration semantics).
 

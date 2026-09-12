@@ -6,12 +6,12 @@ section_id: "C.32:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__013_relations.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:12 — Relations"
-line_start: 64207
-line_end: 64215
+line_start: 66041
+line_end: 66049
 dependencies:
   - "A.10"
   - "A.15"

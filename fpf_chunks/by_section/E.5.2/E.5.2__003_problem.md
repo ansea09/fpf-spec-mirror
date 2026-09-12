@@ -6,13 +6,16 @@ section_id: "E.5.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__003_problem.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:2 — Problem"
-line_start: 73564
-line_end: 73568
+line_start: 75404
+line_end: 75406
 dependencies:
+  - "A.6.3.RT"
+  - "C.2.8"
+  - "C.37"
   - "E.5"
 keywords:
   - "BPMN"
@@ -25,7 +28,5 @@ keywords:
 ---
 
 ### E.5.2:2 - Problem
-*Semantic lock‑in*: when a definition relies on a particular glyph set or
-diagram grammar, alternative communities either translate it—risking
-drift—or ignore FPF altogether.
+A definition can depend on unstated conventions of one glyph set or diagram grammar. Translation then changes its claims or leaves them unclear. Treating every visual form as an illustration creates a different failure: a useful construction or reasoning operation disappears from the description when it is carried by the expression itself.
 

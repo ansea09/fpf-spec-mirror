@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
-line_start: 40920
-line_end: 41202
+line_start: 41056
+line_end: 41372
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -102,6 +102,16 @@ The following are common alternatives, not an exhaustive classification or a seq
 | A better description of an insufficiently understood phenomenon | Make a purposeful observation or exploratory measurement; vary a condition and inspect what becomes distinguishable. | Observations and possible regularities that can generate or change questions. |
 | An empirical consequence of a conjecture | Derive the expected contrast, obtain relevant observations and compare the actual result with it. | Bounded corroboration, a discrepancy or a qualified basis for rejecting or revising the claim. |
 
+**Recover a construction before trying to execute it.** Use this continuation when the source names a desired object or property but you cannot yet obtain the result needed by the question.
+
+1. Identify the starting objects or data that are available. State what must be produced and which property the receiving use needs.
+2. Find the source's operations for producing or combining those objects. For each needed operation, recover its inputs, application conditions and output. Keep a statement that an object exists with certain properties as an existence claim; seek a way to obtain an instance when the next use requires one.
+3. Work backward from the desired result to the required intermediate results and starting inputs. Preserve joint dependencies and alternative ways where the source supplies them. A missing operation is a question for the source or the relevant specialist; a rule you propose is an addition to be tried and justified.
+4. Work a small instance from the available inputs, applying each recovered operation when its conditions hold. If the notation prevents the operation, use A.6.3.RT to prepare and compare a more usable expression. For a mathematical account, use its formation and equality rules; identify where a proposed identification changes the operations or property being used.
+5. Establish the needed property by the appropriate argument or test. Return the construction and what follows under its premises, or the input, rule or unsupported transition that still prevents the result. Stop when this supplies the receiving use.
+
+For example, a stand specification calls for a portable display. Its assembly rules allow a compatible upright to be joined to a base and a compatible panel to be attached to that upright. Those rules yield the assembly order and the connections to check. Portability remains a requirement to check on the resulting design. If the supplied panel does not fit, the next contribution is a compatible panel, an adapter with its connection rules, or another assembly design. The construction result here is the assembly design; whether the erected stand is stable needs its physical-design argument.
+
 Construction and deduction can work together: an auxiliary object can make a proof possible, and a theorem can suggest a new construction. Novelty does not belong exclusively to one inference type.
 
 For a hypothesis-led test, derive the consequences needed to interpret the test before treating its outcome as corroboration. Keep the prediction, observations, measurement conditions and inference recoverable. A simulation establishes a result of the simulated model; applying it to the physical target needs a supported model–world correspondence.
@@ -112,7 +122,16 @@ A bounded result may be sufficient at any of these contributions. Assurance belo
 
 #### B.5:4.3 - Make the result understandable for its use
 
-Explain what was obtained, why the decisive step works, and where the result can be used. For a mathematical argument, recover the statement and domain, the construction or lemma doing the essential work, and a load-bearing assumption whose change would alter the answer. The needed depth depends on whether the receiver will apply, criticize, extend or teach the argument.
+Explain what was obtained, why the decisive step works, and where the result can be used. The needed depth depends on whether the receiver will apply, criticize, extend or teach the argument.
+
+**Recover the argument needed for that use.** Begin with the conclusion or proposed change the receiver needs to understand.
+
+1. Read the claim with its domain and conditions. For a mathematical statement, recover the meanings of its objects and quantifiers.
+2. Work backward from that conclusion through the intermediate claims or constructions it uses. At each needed transition, identify the premises, the operation or inference, and what it establishes. Follow a shared premise wherever the conclusion depends on it; keep jointly needed premises together.
+3. Reconstruct a transition the receiver cannot follow from the source's definitions, rules or worked cases. Obtain the missing explanation or specialist contribution when those do not suffice. A conditional argument can be useful while one premise remains to be established; state that premise and the consequence its failure would have for this use.
+4. If a premise or requested result changes, carry that change through the dependent steps and derive what still follows. Stop at a sufficient argument for the receiving use or a named unsupported transition. An unchanged, adequately supported part can be reused; a full reproof is needed only when the question calls for it.
+
+For instance, a team expects to recover a drawing because a backup exists. Recovering that conclusion requires the needed data in a readable format and an available way to decode it. If the backup is encrypted and its key is unavailable, the next question concerns access to that key or another copy of the drawing. Repeating the fact that a backup exists leaves that prerequisite unresolved.
 
 When beginning with an unfamiliar theory, reconstruct its concept of use for one working question. State what the practitioner wants to explain, predict, construct or decide; which objects and relations the theory lets them describe; what information and operations the application needs; and how its result answers that question. Use a source application when it answers the question. Otherwise propose a small application from the theory's stated objects and operations, work it through and test the correspondence. Keep that constructed trial distinguishable from an application already supported by the source. The first result is a usable explanation of that application, or the particular missing premise or operation that prevents it. Use the intended application to choose what to learn next. Study the construction deeply enough to perform or change the contribution the work requires.
 
@@ -239,6 +258,18 @@ Suppose the steady readings are 80 °C at the component, 25 °C at the case atta
 
 This result redirects the design question toward the component–case path, a new direct heat path or reduced heating. It also identifies what could invalidate the estimate: direct airflow onto the component changes the assumed path, while temperature-dependent heating or conductance changes the fixed-difference argument. For the real device, check measurement uncertainty and those assumptions before relying on the bound. A useful specialist request is now: 'Given this assembly and load, can the component stay below 65 °C after improving its contact to the case; which additional observations would settle that?' The engineer can request that model and calculation without first specifying its equations.
 
+#### B.5:5.7 - Recover an argument, then change its starting point
+
+A reader can use elementary algebra and wants to understand and adapt the claim that the sum of the first n positive odd integers is n squared, for a nonnegative integer n. Let S(n) denote that sum, with S(0) = 0.
+
+Work backward from the formula. It is enough to establish its initial value and how it changes when one term is added. The next odd integer after the first n terms is 2n + 1, so S(n + 1) = S(n) + 2n + 1. The proposed value has the same change: (n + 1) squared - n squared = 2n + 1. Both start at zero. Repeating that step establishes S(n) = n squared for every finite n.
+
+A square of n by n unit cells makes the same step visible. Add one row of n cells and an adjoining column of n + 1 cells; the resulting square has side n + 1. The added cells give 2n + 1. Counting the cells and the algebraic recurrence explain the same increase in different expressions.
+
+Now the requested sum has n terms beginning at 3: 3 + 5 + ... + (2n + 1). Recover which premise changed. These are the first n + 1 positive odd integers with the initial 1 removed. The retained argument therefore gives S(n + 1) - 1 = (n + 1) squared - 1 = n squared + 2n. For four terms, 3 + 5 + 7 + 9 = 24; the old n-squared formula would give 16.
+
+The reusable contribution is the initial-value and increment argument. It lets the reader obtain the changed sum by identifying the changed range and reusing the already established result. A different progression would require recovering its increment before selecting another formula.
+
 ### B.5:6 - Bias-Annotation
 
 The examples favor discrete construction and a simple physical representation. Other fields may need probabilistic, interpretive, historical or other arguments with different criticism demands. Select the contribution by the actual question and discipline.
@@ -247,12 +278,14 @@ Easy-to-produce outputs can dominate attention. Recover the intended epistemic o
 
 ### B.5:7 - Conformance Checklist
 
+
 - **CC-B5.1 — Question and contribution.** The practitioner SHALL identify the question, intended useful result and selected reasoning contribution. A conjecture SHALL retain its grounds, rivals and limits; a construction and its asserted properties SHALL remain distinguishable.
 - **CC-B5.2 — Interpretable hypothesis-led testing.** Before claiming empirical corroboration, the practitioner SHALL derive the consequences needed to interpret the test and account for how the tested hypothesis was obtained.
 - **CC-B5.3 — Claim-specific support.** A support claim SHALL identify the actual argument or result, its relevance, scope and limitations. An assurance level, when needed, SHALL follow B.3.3 and the applicable domain criteria.
 - **CC-B5.4 — Result and continuation.** For a performed empirical test, the practitioner SHALL keep its actual outcome, including a failed or inconclusive result, recoverable through A.10. A further inquiry SHALL use the actual result with its limitations and name the remaining question; a sufficient answer may finish the use.
 - **CC-B5.5 — Development-state use.** When B.5.1 is used, an actual transition SHALL meet its project and domain conditions. A reasoning result alone does not establish a development-state transition.
 - **CC-B5.6 — Application and change.** The practitioner SHALL distinguish a mathematical result from its physical application and a change of answer, question, Method or capability when that distinction changes the intended use.
+- **CC-B5.7 - Recoverability for the receiving use.** When recovering a construction or argument, the practitioner SHALL identify the required inputs and the operations or inferences needed by that use. A missing rule or unsupported transition SHALL remain explicit. A conclusion reused after a premise changes SHALL state which argument or construction still supports it.
 
 ### B.5:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -260,7 +293,7 @@ Easy-to-produce outputs can dominate attention. Recover the intended epistemic o
 | --- | --- |
 | Repeatedly improve the fit of a model that omits the intended quantity. | Test the representation against a small action-changing counterexample; recover the missing distinction or qualify a sufficient bound. |
 | Treat exploratory regularities as if they were independently predicted and tested. | Preserve their origin and use a design and inference that account for the selection and dependence. |
-| Produce an argument whose receiver cannot identify what the crucial step establishes. | Explain the construction, decisive inference and a load-bearing assumption at the depth the receiving use needs. |
+| Produce an argument whose receiver cannot identify what the crucial step establishes. | Work backward from the needed conclusion and recover the decisive transition and its premises. If a premise changes, follow its effect through the argument. |
 | Generate more answers after the important question has changed. | State the changed formulation and which prior results still answer it before selecting further production. |
 
 ### B.5:9 - Consequences
@@ -279,9 +312,9 @@ Question formation belongs here because the result of one reasoning contribution
 
 **Which reasoning remains useful as result production becomes cheaper?** Adapt Tao's [*Mathematics in the age of AI* (2026), §§2–8](https://arxiv.org/html/2608.16753v1): select the contribution by mathematical and practical purposes, rather than problem-output count alone. Compared with continuing the same production task faster, §§4.1 and 4.4 make a changed question or repertoire available. This accepts the cost of purpose and interpretation work when it can change the next inquiry. Tao's strong-capability premise is conditional.
 
-**What makes a produced proof useful to its receiver?** Adapt [Klowden and Tao (2026), §§4.2, 4.4, 6.3–6.4](https://arxiv.org/html/2603.26524v1): §4.3 retains the intended statement and decisive explanatory structure alongside formal justification. Formal correctness remains sufficient for some formal questions; extending or applying the result needs more.
+**What makes a produced proof useful to its receiver?** Adapt [Klowden and Tao (2026), §§4.2, 4.4, 6.3–6.4](https://arxiv.org/html/2603.26524v1): recover the intended statement and the explanatory structure that enables reuse. Section 4.3 explains how to recover the needed transitions and follow a changed premise through their dependencies. Formal correctness suffices for some formal questions; application or extension can require this further account. Compared with rechecking the whole proof, the selected recovery spends effort on the receiver's unresolved use. The paper provides a conceptual rationale for this recovery; the odd-sum example applies it to a small argument.
 
-**Must reasoning always begin with an explanatory hypothesis?** Reject that exclusive route while retaining hypothesis-led inquiry where it fits. Adapt [Rodin (2023), §§3–6](https://arxiv.org/html/2301.08131v1): operations constructing mathematical objects and propositions about them have connected but different roles. Section 4.2 and the graph case make those operations usable.
+**Must reasoning always begin with an explanatory hypothesis?** Retain hypothesis-led inquiry where it fits and adapt [Rodin (2023), §§3–6](https://arxiv.org/html/2301.08131v1) for constructive work: recover object-forming operations as well as propositions about their results. Section 4.2 recovers inputs and rules before performing a construction; the graph case shows construction and justification together. An existence statement may answer the question of existence. When the next use needs an instance or procedure, recovering its construction supplies a further result. This accepts the cost of reconstructing only the needed operations, while leaving the choice of mathematical foundation to the question and subject practice.
 
 **How can an inquiry begin before equations are available?** Adapt the qualitative entry described by Etkina and Brookes in [the ISLE method explanation](https://www.islephysics.net/why-isle.html): observations can lead to proposed mechanisms, consequences and discriminating tests before quantitative formalization. Section 4.1.1 makes a first provisional account available; section 5.6 works an engineering model choice. ISLE supplies an instructional method in a supported learning setting.
 
@@ -292,6 +325,7 @@ Reopen these choices when a better method at comparable effort changes the attai
 - **B.5.2** supplies the explanation-led abductive Method; **B.5.1** coordinates development states when that separate question is current.
 - **C.22.2** supplies an inspectable problem formulation and next use. **C.29** supplies mathematical-lens selection and correspondence, including preserved and lost structure.
 - **A.15.9** supplies bounded use or acquisition of another practice's result, including help with a missing formulation.
+- **A.6.3.RT** prepares and compares an expression when its representation hinders the needed operation. The construction or argument obtained through that expression remains the result of the applicable subject Method.
 - **B.3, B.3.3 and A.10** govern claim-and-use-specific assurance and evidence reliance.
 - **C.17, C.18 and C.19** supply novelty/value/diversity characterization, archive/front and possibility-space distinctions, and live-pool treatment when those questions arise.
 - **E.23, E.23.CAE and E.23.CDI** distinguish object improvement, capability-expression questions and development of a named capability holder. **E.10.DEV** recovers ambiguous development claims; **C.36** governs the cultural-evolution question.

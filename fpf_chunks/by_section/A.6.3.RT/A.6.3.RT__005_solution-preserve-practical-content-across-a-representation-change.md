@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:4"
 section_title: "Solution — preserve practical content across a representation change"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-preserve-practical-content-across-a-representation-change.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:4 — Solution — preserve practical content across a representation change"
-line_start: 15000
-line_end: 15184
+line_start: 15078
+line_end: 15268
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -53,13 +53,18 @@ keywords:
 
 Produce the useful target first:
 
-1. Name the user action the new representation should help: compare, inspect, traverse, calculate, communicate, or replay.
-2. Point to the source material and name the claims, relations, commitments, uncertainty, or source pins that must survive.
-3. Choose the target representation and say why it is better suited to that action.
-4. Produce the smallest target that supports the action.
-5. Compare target and source. Mark what is preserved and foregrounded; what is rearranged, omitted, or harder to recover; and which visible links or interpretations were added by the representation.
-6. State the representation and reasoning-medium delta only as far as it changes use or blocks a likely overread.
-7. Close with admissible use, non-admissible use, and a concrete return trigger and destination.
+1. Name the user action the new representation should help: compare, inspect, traverse, calculate, communicate or replay. Identify the user's familiarity with the notation when that changes what they can do with it.
+2. Point to the source material. Recover the givens, constraints and partial construction, including the claims, commitments, uncertainty and source references that must survive. Keep unknowns identifiable as unknowns.
+3. Choose an available scheme and a target representation suited to that action. Identify the formation and interpretation rules needed for this use; a familiar notation can be named without reproducing its grammar.
+4. Make the smallest target that supports the action. Arrange its parts so they can be used together: for example, keep a shared element recognizable in two groupings, or align a sequence of signs with a temporal reference. Explain any meaning-bearing mark, position or timing whose interpretation is not already clear from the selected conventions.
+5. Compare target and source. Mark what is preserved and foregrounded; what is rearranged, omitted or harder to recover; and which visible links or interpretations were added by the representation.
+6. Try the intended operation when a short trial can decide whether the expression is useful. Apply the relevant mathematical, physical or other subject Method. Use the result to judge or repair the expression.
+7. State the representation and reasoning-medium delta only as far as it changes use or blocks a likely overread.
+8. Close with admissible use, non-admissible use, and a concrete return trigger and destination.
+
+The first result is the expression and its representation note. If working with the expression establishes a new claim, its construction or argument supplies the source for representing that claim. Do not describe the new conclusion as content preserved from the original givens; sharing an EntityOfConcern does not establish that preservation.
+
+Choose another available scheme when the current one cannot express a needed distinction. If new signs or rules are needed, develop the scheme through notation-design work. The scheme's description can use A.6.0 for a reusable vocabulary, laws and applicability, and A.6.1 for declared operations when those are needed. Those declarations describe the designed rules. RT uses the selected rules to construct particular expressions.
 
 Use this compact note for ordinary work:
 
@@ -158,7 +163,8 @@ Use detailed vocabulary only when it changes the next representation decision or
 
 - **semiotic mode** — the meaning-bearing relation doing the main work, such as structural likeness, trace, conventional code, model-mediated correspondence, or decode-mediated recovery;
 - **factor delta** — the representation-factor change material to review;
-- **source-relation chain** — the exact source claims and relations on which an exact `v` depends, or the ordinary source trail to which a user returns;
+- **source dependencies of `v`** — the identified source claims and relations on which the construction depends, including which are needed jointly for each part of it and any required precedence between those parts. This dependency structure can branch or join;
+- **source-return references** — links or other locators used to reopen source material for omitted detail or a changed question;
 - **decode-mediated case** — a case whose receiving interpretation depends on a declared decoding or access relation;
 - **actionability shift** — an apparent change in what users think they can do, which is not work authority, gate status, or permission; and
 - **recoverability evidence** — evidence that omitted content can be recovered well enough for the declared use.
@@ -179,7 +185,7 @@ Recurring move shapes include tabulation, diagramming, structured-notation shift
 
 In ordinary language, say what changed and why it helps: “the table foregrounds row comparison”, “the diagram foregrounds dependency shape”, or “the notation foregrounds explicit argument positions”. Add salience, topology, actionability, calibration, interactivity, or semiotic-mode detail only when it materially changes use or misuse risk.
 
-#### A.6.3.RT:4.5 - Preservation, loss, decode, and chains
+#### A.6.3.RT:4.5 - Preservation, loss, decode, and composition
 
 ##### A.6.3.RT:4.5.a - Preservation and conservativity
 
@@ -201,13 +207,13 @@ State which distinctions, inspection possibilities, uncertainty cues, or local q
 
 ##### A.6.3.RT:4.5.c - Decode-mediated entry
 
-A latent or decode-mediated case stays bounded until it has source material for the same concern, a decoding or access relation, recoverability evidence for the intended use, admissible and non-admissible use, remaining user action, and source return. When exact reliance is claimed, recover exact source episteme `X`, receiving episteme `Y`, construction `v`, and the exact source-relation chain.
+A latent or decode-mediated case stays bounded until it has source material for the same concern, a decoding or access relation, recoverability evidence for the intended use, admissible and non-admissible use, remaining user action, and source return. When exact reliance is claimed, recover exact source episteme `X`, receiving episteme `Y`, construction `v`, and the source dependencies of `v` defined in §4.2.
 
 A latent region, activation pattern, embedding, probe result, decoded rendering, publication form, or carrier may help locate the case but fills no episteme endpoint. Missing recovery evidence keeps the result exploratory, report-only, or blocked.
 
 ##### A.6.3.RT:4.5.d - Composition and reopen rule
 
-Repeated same-regime normalization may be idempotent; heterogeneous representation shifts are generally order-sensitive. Check a chain pairwise and carry accumulated loss instead of pretending each step resets it. Keep the source and target, content under test, scheme delta, preserved and withdrawn commitments, loss/recovery, and remaining action recoverable at every step.
+Repeated same-regime normalization may be idempotent; heterogeneous representation shifts are generally order-sensitive. For an ordered sequence of representation shifts, compare the source and target of each shift and carry forward the loss from earlier shifts. Keep the source and target, content under test, scheme delta, preserved and withdrawn commitments, loss/recovery, and remaining action recoverable at every step.
 
 Reopen the affected account when source content, endpoint identity, recovery assumptions, pins or provenance, correspondence or counter-witness disposition, primary semiotic mode, intended publication or receiving use, or accumulated loss changes. A changed EntityOfConcern requires A.6.4; a changed target-side claim uses the pattern that defines that exact claim.
 

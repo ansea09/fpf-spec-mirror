@@ -6,12 +6,12 @@ section_id: "C.16:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__001_intro.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:intro — Intro"
-line_start: 48895
-line_end: 48905
+line_start: 49498
+line_end: 49508
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,19 +34,21 @@ keywords:
   - "Characteristic"
   - "Level/Coordinate"
   - "Scale"
+  - "Scale order"
   - "Unit"
   - "actual bindings"
   - "bounded later use"
   - "calibration"
   - "comparability"
   - "dated measurement work"
+  - "indication-producing procedure"
   - "input/output quantities"
   - "measurand"
   - "measurement result"
   - "measurement subject"
+  - "measurement-model construction"
   - "method"
   - "model"
-  - "polarity"
   - "provenance"
   - "uncertainty"
 ---
@@ -56,9 +58,9 @@ keywords:
 > **Status:** Stable
 > **Type:** Pattern
 
-**Use this pattern when.** Use C.16 when a value, sensor indication, score, rating, dashboard reading, or comparison is being treated as a measurement without a recoverable measurand, Characteristic, Scale, method, model, calibration basis, dated work, attributed value, uncertainty, time stance, or comparability basis.
+**Use this pattern when.** Use C.16 to make a reading interpretable or to construct the model needed for a proposed measurement. Start with what is being measured and how the procedure relates it to an indication.
 
 **What goes wrong if missed.** Raw output, indication, actual subject state, measurement result, diagnosis, and criterion verdict collapse into one number; model and calibration assumptions disappear; uncertainty is laundered away; and a dashboard or evidence link is mistaken for work, result, assurance, or decision authority.
 
-**What this buys.** One executable measurement account: exact measurand or subject, Characteristic and Scale, Unit and polarity when current, method, model, calibration, input and output quantities, uncertainty propagation, dated work with actual bindings, one measurement result, one C.2.1 result episteme, and bounded provenance and later use.
+**What this buys.** A measurement model that connects indications to what is being measured, or a stated ambiguity that changes what to do next. For a performed measurement, the resulting account identifies the attributed values, uncertainty, conditions and work needed to interpret them.
 

@@ -6,12 +6,12 @@ section_id: "A.2.8:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__016_relations.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:13 — Relations"
-line_start: 7081
-line_end: 7086
+line_start: 7110
+line_end: 7115
 dependencies:
   - "A.10"
   - "A.15.1"

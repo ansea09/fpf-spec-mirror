@@ -6,12 +6,12 @@ section_id: "C.29:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__005_forces.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:3 — Forces"
-line_start: 58158
-line_end: 58166
+line_start: 58798
+line_end: 58806
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "A.6.P"
   - "A.6.RCD"
   - "B.3"
+  - "B.5.MPC"
   - "C.11"
   - "C.16"
   - "C.16.P"
@@ -38,15 +39,17 @@ dependencies:
   - "C.27"
   - "C.27.TA"
   - "C.28"
-  - "C.29"
+  - "C.29.1"
+  - "C.29.2"
+  - "C.29.3"
   - "C.31.ASAP"
+  - "C.39"
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18.1"
   - "E.19"
   - "E.8"
-  - "E.9"
   - "F.19"
   - "F.9"
   - "G.10"
@@ -54,20 +57,6 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseBoundaryValue"
-  - "coarse-graining"
-  - "invariants"
-  - "learned lens"
-  - "lens mapping mode"
-  - "lost structure"
-  - "mathematical lens"
-  - "ontology smuggling"
-  - "preserved structure"
-  - "rival lens"
-  - "scale window"
-  - "stop condition"
-  - "structure-preserving representation"
-  - "validation boundary"
 ---
 
 ### C.29:3 - Forces

@@ -6,12 +6,12 @@ section_id: "A.3.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__008_conformance-checklist.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:7 — Conformance Checklist"
-line_start: 9216
-line_end: 9245
+line_start: 9290
+line_end: 9319
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -25,16 +25,23 @@ dependencies:
   - "A.3.4"
   - "A.6.1"
   - "B.3"
+  - "C.16"
   - "C.27"
   - "C.27.TA"
   - "C.29"
 keywords:
   - "calibration"
+  - "configuration"
+  - "constraints"
   - "dynamics"
+  - "initial data"
   - "observation relation"
+  - "permitted alternatives"
   - "prediction"
+  - "predictive memory"
+  - "probability law"
   - "simulation"
-  - "state space"
+  - "state construction"
   - "transition law"
 ---
 
@@ -46,9 +53,9 @@ keywords:
 
 **CC-A3.3-3 (EntityOfConcern).** Name the changing EntityOfConcern. Joint modeling uses the independently identified joint subject required by :4.1.
 
-**CC-A3.3-4 (State space).** The state space enumerates characteristics with units, scales, comparability rules, and any needed topology, geometry, aggregation policy, or invariantization rule.
+**CC-A3.3-4 (State space).** The state description identifies the participants and variable meanings, their allowed combinations, and the information required by the law. Characteristics retain their units, Scales and comparability rules; topology, geometry or coordinate transformations are supplied when the use needs them. Use :4.4.1 when this description must be constructed.
 
-**CC-A3.3-5 (Transition law).** The transition law states a relation, map, kernel, equation, rule, learned predictor, or simulation rule suitable for the declared time base and stochasticity.
+**CC-A3.3-5 (Transition law).** The law states a relation, map, kernel, equation, rule, learned predictor or simulation rule for the declared time base. Its permitted alternatives, conditions selecting among them and any supplied probability law remain recoverable under :4.4.1.
 
 **CC-A3.3-6 (Observation relation).** Evidence use states how exact Work-side facts when present and separately identified work records, telemetry, measurements, observation records, or source records become observed coordinates. Direct observation is declared rather than assumed.
 

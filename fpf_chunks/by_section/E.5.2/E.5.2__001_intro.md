@@ -6,13 +6,16 @@ section_id: "E.5.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__001_intro.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:intro — Intro"
-line_start: 73556
-line_end: 73557
+line_start: 75394
+line_end: 75395
 dependencies:
+  - "A.6.3.RT"
+  - "C.2.8"
+  - "C.37"
   - "E.5"
 keywords:
   - "BPMN"

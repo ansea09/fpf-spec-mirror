@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.18.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
-line_start: 50695
-line_end: 51000
+line_start: 51334
+line_end: 51639
 dependencies:
   - "A.15"
   - "A.19"

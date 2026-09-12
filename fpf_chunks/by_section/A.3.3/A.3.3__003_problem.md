@@ -6,12 +6,12 @@ section_id: "A.3.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__003_problem.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:2 — Problem"
-line_start: 9029
-line_end: 9034
+line_start: 9058
+line_end: 9063
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -25,16 +25,23 @@ dependencies:
   - "A.3.4"
   - "A.6.1"
   - "B.3"
+  - "C.16"
   - "C.27"
   - "C.27.TA"
   - "C.29"
 keywords:
   - "calibration"
+  - "configuration"
+  - "constraints"
   - "dynamics"
+  - "initial data"
   - "observation relation"
+  - "permitted alternatives"
   - "prediction"
+  - "predictive memory"
+  - "probability law"
   - "simulation"
-  - "state space"
+  - "state construction"
   - "transition law"
 ---
 

@@ -6,12 +6,12 @@ section_id: "B.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__006_archetypal-grounding.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:5 — Archetypal Grounding"
-line_start: 41051
-line_end: 41138
+line_start: 41206
+line_end: 41305
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -108,4 +108,16 @@ Model the case as losing heat only to that air through temperature-driven transf
 Suppose the steady readings are 80 °C at the component, 25 °C at the case attachment and 20 °C in the surrounding air. Take these values as exact for the first conditional calculation. The component–case difference is 55 °C. Under the proposed model it remains 55 °C when only external cooling changes. Even ideal cooling of the case to the 20 °C air therefore leaves the component at 75 °C. Improving only this part of the heat path cannot meet the 65 °C target under those assumptions.
 
 This result redirects the design question toward the component–case path, a new direct heat path or reduced heating. It also identifies what could invalidate the estimate: direct airflow onto the component changes the assumed path, while temperature-dependent heating or conductance changes the fixed-difference argument. For the real device, check measurement uncertainty and those assumptions before relying on the bound. A useful specialist request is now: 'Given this assembly and load, can the component stay below 65 °C after improving its contact to the case; which additional observations would settle that?' The engineer can request that model and calculation without first specifying its equations.
+
+#### B.5:5.7 - Recover an argument, then change its starting point
+
+A reader can use elementary algebra and wants to understand and adapt the claim that the sum of the first n positive odd integers is n squared, for a nonnegative integer n. Let S(n) denote that sum, with S(0) = 0.
+
+Work backward from the formula. It is enough to establish its initial value and how it changes when one term is added. The next odd integer after the first n terms is 2n + 1, so S(n + 1) = S(n) + 2n + 1. The proposed value has the same change: (n + 1) squared - n squared = 2n + 1. Both start at zero. Repeating that step establishes S(n) = n squared for every finite n.
+
+A square of n by n unit cells makes the same step visible. Add one row of n cells and an adjoining column of n + 1 cells; the resulting square has side n + 1. The added cells give 2n + 1. Counting the cells and the algebraic recurrence explain the same increase in different expressions.
+
+Now the requested sum has n terms beginning at 3: 3 + 5 + ... + (2n + 1). Recover which premise changed. These are the first n + 1 positive odd integers with the initial 1 removed. The retained argument therefore gives S(n + 1) - 1 = (n + 1) squared - 1 = n squared + 2n. For four terms, 3 + 5 + 7 + 9 = 24; the old n-squared formula would give 16.
+
+The reusable contribution is the initial-value and increment argument. It lets the reader obtain the changed sum by identifying the changed range and reusing the already established result. A different progression would require recovering its increment before selecting another formula.
 

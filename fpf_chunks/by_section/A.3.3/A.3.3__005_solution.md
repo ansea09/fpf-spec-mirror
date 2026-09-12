@@ -6,12 +6,12 @@ section_id: "A.3.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__005_solution.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:4 — Solution"
-line_start: 9046
-line_end: 9169
+line_start: 9075
+line_end: 9213
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -25,16 +25,23 @@ dependencies:
   - "A.3.4"
   - "A.6.1"
   - "B.3"
+  - "C.16"
   - "C.27"
   - "C.27.TA"
   - "C.29"
 keywords:
   - "calibration"
+  - "configuration"
+  - "constraints"
   - "dynamics"
+  - "initial data"
   - "observation relation"
+  - "permitted alternatives"
   - "prediction"
+  - "predictive memory"
+  - "probability law"
   - "simulation"
-  - "state space"
+  - "state construction"
   - "transition law"
 ---
 
@@ -46,7 +53,7 @@ keywords:
 
 The C.2.1 ClaimGraph, exact `EntityOfConcern`, and effective `U.ReferenceScheme` remain the episteme's identity discriminators. A.3.3 adds no context field or second dynamics identity. A `U.ClaimScope`, operating region, applicability window, qualification interval, parameter regime, or scale band enters only through the exact claim that uses it and its subject pattern; changing one can change claim content without becoming an ambient container.
 
-`U.Dynamics` can be deterministic or stochastic, continuous, discrete, or hybrid. It can make state-change claims about physical systems, software services, organizations, epistemes, claim portfolios, resource states, architecture characteristics, or another exact EntityOfConcern. If several subjects are jointly modelled, the exact C.2.1 EntityOfConcern must itself be an independently identified collection, system, or other admitted subject.
+`U.Dynamics` can declare a deterministic transition, permitted alternatives, a probability law over continuations, or a combination of these. Its time description can be continuous, discrete or hybrid. It can make state-change claims about physical systems, software services, organizations, epistemes, claim portfolios, resource states, architecture characteristics, or another exact EntityOfConcern. If several subjects are jointly modelled, the exact C.2.1 EntityOfConcern must itself be an independently identified collection, system, or other admitted subject.
 
 
 If empirical grounding is claimed, state the exact C.2.1 `EpistemeEmpiricalGroundingRelation`.
@@ -63,7 +70,8 @@ Dynamics statement:
   StateSpace:
   TransitionLaw:
   TimeReference:
-  Stochasticity:
+  TransitionChoices:
+  ProbabilityLawIfSpecified:
   InputsOrDisturbances:
   ObservationRelation:
   ConstraintsOrInvariants:
@@ -107,7 +115,8 @@ U.Dynamics membership view {
     stateSpace: state-space declaration over FPF characteristics
     transitionLaw: state-transition claim
     timeReference: continuous | discrete | hybrid
-    stochasticity: deterministic | stochastic
+    transitionChoices: permitted continuations and conditions selecting among them
+    probabilityLawIfSpecified?: conditional probability law over continuations
     inputsOrDisturbances?: CharacteristicSet
     observationRelation?: claim or exact relation reference
     constraintsOrInvariants?: claim content
@@ -127,6 +136,19 @@ U.Dynamics membership view {
 `observationRelation` specifies how the model connects its state to the observed quantity. For a deterministic observation, give the map `y = h(x)`, where `x` is the model state and `y` the observed quantity. Identity observation (`h(x) = x`) is allowed only when the claim says the state coordinate is directly observed.
 
 When proposing an exact deterministic one-step law on measured or aggregated coordinates, check whether two admitted states with the same current values of those coordinates, time and inputs can give different next coordinate values. Such a pair disproves that proposed law. Section 5.6 shows how to recover the missing predictive information or give a bounded answer.
+
+For a proposed stochastic one-step law on aggregated coordinates, compare the next-observation distributions from the states it merges under the same time and inputs. If those distributions differ, the current aggregate omits predictive information. Retain a more informative state, condition a distribution over hidden states on the available history, or use a bound sufficient for the question. Equality for every merged group supports the aggregated one-step law under those conditions; longer use must preserve the later outputs and conditions it needs. Section :5.8 separates this question from long-run averaging.
+
+##### A.3.3:4.4.1 - Construct the state and allowed continuations
+
+1. **Start with the question and participants.** Name what can change, which result is needed and the conditions being considered. From the relevant subject account, identify the interacting participants and which of their differences can affect that result.
+2. **Describe allowed configurations.** State how the participants may be arranged and which values are compatible. Separate constraints on configurations from interactions that drive change. Use independent coordinates when they simplify the work; retain an implicit constraint when eliminating it is difficult or would hide a needed relation.
+3. **Recover the information needed for continuation.** Separate changing state from parameters held fixed by the model and externally supplied inputs. Determine the initial data required by the proposed law. A position may also need its velocity; a computation may need its instruction position and saved local values. For a field, name its argument domain and value quantities, then obtain the needed initial and boundary data from its law and the modeled arrangement.
+4. **Construct the transition.** Use the subject's laws or operation rules to relate admitted states under the inputs. Work a small case. Check that the proposed continuation respects the constraints. If a constraint leaves the next state unresolved, supply the missing interaction or operation rule, or retain the alternatives it permits.
+5. **Interpret the alternatives.** State who or what can select a continuation and under which conditions. Use a probability law when one is supplied or supported for that use. Counting possible continuations establishes their number; probabilities require a rule assigning them weights. The distinction changes the result in :5.9.
+6. **Test the description and choose the return.** Apply the state-sufficiency comparison above to the prediction or observation needed now. Return the state and transition account, a sufficient range or conditional conclusion, or the state distinction, law, input or observation still needed. Use C.11.DUA when choosing whether further information is worth obtaining.
+
+The construction can finish before a complete dynamics model exists: a useful result may identify the missing physical interaction or computational rule. Section :4.1 admits `U.Dynamics` only when the episteme substantively states both the state space and the transition law.
 
 #### A.3.3:4.5 - Evidence, prediction, conformance, drift, and calibration
 

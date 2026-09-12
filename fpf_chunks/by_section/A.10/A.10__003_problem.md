@@ -6,12 +6,12 @@ section_id: "A.10:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__003_problem.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:2 — Problem"
-line_start: 22716
-line_end: 22728
+line_start: 22844
+line_end: 22856
 dependencies:
   - "A.10"
   - "A.13"

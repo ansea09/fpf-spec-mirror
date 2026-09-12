@@ -6,12 +6,12 @@ section_id: "C.16:2"
 section_title: "Scope and result boundary (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__003_scope-and-result-boundary-normative.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:2 — Scope and result boundary (Normative)"
-line_start: 48920
-line_end: 48932
+line_start: 49523
+line_end: 49535
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,26 +34,28 @@ keywords:
   - "Characteristic"
   - "Level/Coordinate"
   - "Scale"
+  - "Scale order"
   - "Unit"
   - "actual bindings"
   - "bounded later use"
   - "calibration"
   - "comparability"
   - "dated measurement work"
+  - "indication-producing procedure"
   - "input/output quantities"
   - "measurand"
   - "measurement result"
   - "measurement subject"
+  - "measurement-model construction"
   - "method"
   - "model"
-  - "polarity"
   - "provenance"
   - "uncertainty"
 ---
 
 ### C.16:2 - Scope and result boundary (Normative)
 
-C.16 governs the measurement-specific result algebra:
+C.16 covers construction and use of measurement models. For a performed measurement, it keeps the following parts of the result account recoverable:
 
 - one measurand or otherwise exact measurement subject;
 - one Characteristic and one Scale, with Level or Coordinate and Unit when applicable;

@@ -6,12 +6,12 @@ section_id: "A.15:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 24941
-line_end: 24954
+line_start: 25069
+line_end: 25082
 dependencies:
   - "A.10"
   - "A.13"

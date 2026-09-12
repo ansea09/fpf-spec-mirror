@@ -6,12 +6,12 @@ section_id: "A.15.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__005_solution.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.15.9 — Request and Use a Bounded Result from Another Practice"
   - "A.15.9:4 — Solution"
-line_start: 27853
-line_end: 27891
+line_start: 27981
+line_end: 28019
 dependencies:
   - "A.10"
   - "A.13"

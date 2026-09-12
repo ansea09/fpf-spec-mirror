@@ -6,12 +6,12 @@ section_id: "B.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__004_forces.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:3 — Forces"
-line_start: 39625
-line_end: 39634
+line_start: 39761
+line_end: 39770
 dependencies:
   - "A.10"
   - "A.15.1"

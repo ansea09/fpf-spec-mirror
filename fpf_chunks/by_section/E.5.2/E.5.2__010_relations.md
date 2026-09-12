@@ -6,13 +6,16 @@ section_id: "E.5.2:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__010_relations.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:9 — Relations"
-line_start: 73628
-line_end: 73632
+line_start: 75478
+line_end: 75486
 dependencies:
+  - "A.6.3.RT"
+  - "C.2.8"
+  - "C.37"
   - "E.5"
 keywords:
   - "BPMN"
@@ -26,6 +29,10 @@ keywords:
 
 ### E.5.2:9 - Relations
 * **Parent umbrella:** `pat:constitution/guard‑rails` (E.5)
-* **Constrains:** every normative Core pattern and official alternate rendering
+* **Constrains:** the expression of normative Core content, including project-local expressions used as carrying that content; the semantic-mapping requirement follows the comparison or intended reliance.
+* **Uses:** A.6.3.RT when changing representation scheme or reasoning medium; C.2.8 and C.37 when recovery or use must be assessed.
+* **Conceptual prefixes:** E.10.P supplies the policy, registry and anchor requirements; E.5.2 keeps interpretation independent of tooling-specific expansion.
+* **Subject reasoning and construction:** the pattern about the represented subject or the relevant Method governs the operation.
+* **Method descriptions:** use `U.MethodDescription` only when A.3.2 applies: the episteme concerns one admitted Method and makes substantive claims about that way of doing.
 * **Instantiates pillars:** P‑1, P‑2, P‑5
 

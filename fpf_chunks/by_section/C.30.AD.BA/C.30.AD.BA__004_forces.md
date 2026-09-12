@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__004_forces.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:1.1 — Forces"
-line_start: 60245
-line_end: 60255
+line_start: 62079
+line_end: 62089
 dependencies:
   - "A.1"
   - "A.10"

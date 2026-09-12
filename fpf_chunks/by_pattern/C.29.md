@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "C.29 — Mathematical Lens Use"
-line_start: 58098
-line_end: 59042
+line_start: 58738
+line_end: 59735
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -27,6 +27,7 @@ dependencies:
   - "A.6.P"
   - "A.6.RCD"
   - "B.3"
+  - "B.5.MPC"
   - "C.11"
   - "C.16"
   - "C.16.P"
@@ -37,15 +38,17 @@ dependencies:
   - "C.27"
   - "C.27.TA"
   - "C.28"
-  - "C.29"
+  - "C.29.1"
+  - "C.29.2"
+  - "C.29.3"
   - "C.31.ASAP"
+  - "C.39"
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18.1"
   - "E.19"
   - "E.8"
-  - "E.9"
   - "F.19"
   - "F.9"
   - "G.10"
@@ -53,20 +56,6 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseBoundaryValue"
-  - "coarse-graining"
-  - "invariants"
-  - "learned lens"
-  - "lens mapping mode"
-  - "lost structure"
-  - "mathematical lens"
-  - "ontology smuggling"
-  - "preserved structure"
-  - "rival lens"
-  - "scale window"
-  - "stop condition"
-  - "structure-preserving representation"
-  - "validation boundary"
 ---
 
 ## C.29 - Mathematical Lens Use
@@ -79,7 +68,7 @@ keywords:
 
 **Primary EntityOfConcern.** The use of a mathematical representation to answer a stated working question, with an explicit correspondence to the phenomenon and limits on the resulting inference.
 
-**Use this when.** Use C.29 when choosing or transferring a mathematical representation could expose a needed relation, invariant, obstruction, approximation or resource limit, or when an existing representation is being relied on beyond what its correspondence supports.
+**Use this when.** Use C.29 when choosing or transferring a mathematical representation could expose a needed relation, invariant, obstruction, approximation or resource limit, or when an existing representation is being relied on beyond what its correspondence supports. The related Methods in C.29.1, C.29.2 and C.29.3 respectively construct a result transfer, a computation and its realization. Enter the Method whose contribution is missing; B.5.MPC connects these contributions to a physical question.
 
 **What goes wrong if missed.** The reader either misses a useful mathematical construction or carries a result into a situation where a needed assumption or distinction has been lost.
 
@@ -145,9 +134,27 @@ The practitioner therefore needs both construction and criticism: make the relev
 1. **State the working question.** Name the quantity, relation, distinction or possibility that would change the next action. Recover the intended use and the precision or range it needs.
 2. **Choose a concrete mathematical object.** Specify its elements, variables, relations, operations and constraints. Use the least costly adequate local theory or construction. A family name is a discovery cue; if no object is yet available, keep a candidate and name the next observation or construction.
 3. **Establish the correspondence.** Say what each relevant element or operation represents and in what direction the inference is used. Distinguish an analogy, a fitted representation, a simulation and an exact structure-preserving map. State the assumptions, scale and context that the correspondence requires.
-4. **Determine what the inference retains and loses.** Identify the invariant, order, composition, dependence, boundary or other structure on which the intended result relies. Identify the omitted distinctions that could change that result. An empty loss claim requires a justified equivalence or isomorphism.
-5. **Do the mathematical work.** Calculate, derive, construct or demonstrate the obstruction. Return the result through the correspondence to the working question. A statement that a queue “exposes bottlenecks” is not yet the bottleneck calculation.
+4. **Determine what the inference retains and loses.** Identify the invariant, order, composition, dependence, boundary or other structure on which the intended result relies. Identify the omitted distinctions that could change that result. An empty loss claim requires a justified equivalence or isomorphism. Use C.29.1 when preservation of an operation or identification of source cases needs to be established.
+5. **Do the mathematical work.** Calculate, derive, construct or demonstrate the obstruction. For a missing computational formulation or procedure, use C.29.2; for an unsettled connection to an executing system, use C.29.3. Return the result through the correspondence to the working question. A statement that a queue “exposes bottlenecks” is not yet the bottleneck calculation.
 6. **Choose the resulting action and its limit.** Use the result within its assumptions, collect a discriminating observation, compare a relevant rival, narrow the question or reject the representation. Test the material loss and changed premises. When another person or later use needs the account, retain the smallest sufficient record under :4.4.
+
+##### C.29:4.1.1 - Transfer the result through the operations
+
+A source operation or result is available, and you need to use it through another representation. Use **C.29.1 - Mathematical Result Transfer** to recover the operation and its permissions, compare performing then mapping with mapping then performing, and test whether choosing another represented source case changes the answer.
+
+Its Solution constructs a transferable consequence, a justified bound or a specific repair of the correspondence. It also separates a receiving operation that gives a useful relaxation from one whose result can be realized as a source action. The reservation and route-cost entries in :7.1–:7.2 lead to its worked constructions.
+
+##### C.29:4.1.2 - Construct a computation for the question
+
+The needed answer is identified, but the available representation and operations do not yet explain how to obtain it. Use **C.29.2 - Computational Formulation** to select the distinctions retained in computational state, construct a procedure or solver formulation, establish the claimed result and estimate the cost that matters to its use.
+
+Its Solution starts from either a question or available computational means. Worked cases develop an interpreter, a bounded root calculation, a memory-limited quantum-state representation, two questions about the same circuit, and a probability estimate. The result is a usable computation under stated conditions or the missing construction that prevents it.
+
+##### C.29:4.1.3 - Realize the computation and read its result
+
+A computation is available, but how a concrete system performs it is unsettled. Use **C.29.3 - Computational Realization** to connect input preparation, system actions and result interpretation, then compare the required result with the interpreted execution. For a design calculation, the comparison uses the supplied system model; a claim about an actual run uses its observations.
+
+The result is a conditional realization, an interpreted result or a located failure in preparation, operation or readout. Digital, analog, stochastic and manual arrangements can enter through the same question. Its robot, analog addition and admission-card cases show repairs of range, scale and shared-state conditions. B.5.MPC coordinates these results with the physical account, mathematical construction and receiving action.
 
 #### C.29:4.2 - Mathematical Lens Use Principle
 
@@ -815,6 +822,26 @@ Worked micro-cases by failure mode:
 
 A speculative learning-dynamics model can be tried as a candidate with a concrete mathematical object and a testable correspondence. The bounded source use is in :13.2.
 
+#### C.29:7.1 - Preserve a reservation operation
+
+A display that retains on-hand quantity n but omits reserved quantity r merges (n,r)=(1,0) and (1,1), although only the first permits another reservation. **C.29.1:5.1** constructs the available quantity `F(n,r)=n-r`, compares reservation before and after mapping, and establishes the shared permission condition. It returns a quantity that supports the reservation question while retaining separate totals when another question needs them.
+
+#### C.29:7.2 - A route summary changes the cost question
+
+Routes costing 1 and 4 can have the same endpoints without having the same cost. **C.29.1:5.2** shows why the cost of a chosen route cannot be assigned to their common endpoint summary, then constructs a different answer: the minimum over admissible routes. A shared continuation preserves that minimum; a continuation available only after the more expensive prefix defeats minimizing the first stage alone. The repair retains the continuation condition or compares compatible complete routes.
+
+#### C.29:7.3 - Make calculation rules available as data
+
+The same executor can perform different integer calculations when their instructions are supplied as data. **C.29.2:5.1** constructs its state and instruction rules, obtains 8 and 7 from two orders applied to input 3, and gives separate arguments for the result, termination and cost. Adding jumps, interaction or larger stored integers returns to the corresponding behavior or resource question.
+
+#### C.29:7.4 - A correct distance calculation meets a finite command range
+
+A calculated count of 63,662 motor increments cannot be sent as a positive signed 16-bit command. **C.29.3:5.1** derives the count from a stated motion model, shows the wrapped command's contrary motion, and tests splitting the count under relative and absolute command meanings. It returns a command procedure with its supported range and motion conditions; B.5.MPC:5.1 shows the joint physical, mathematical and computational reasoning.
+
+#### C.29:7.5 - Realize a capacity bound with a shared stock of cards
+
+Three unique admission cards can support a three-visitor bound when their possession and transfer rules control entry. **C.29.3:5.3** follows free, reserved, inside and awaiting-return states. The free-card count gives a sufficient occupancy bound during handover; an occupancy equality additionally needs the intermediate states. A second entrance must share or partition the same stock. The worked construction shows how copying the stock defeats the bound and how controlled transfers restore it.
+
 ### C.29:8 - Bias-Annotation
 
 | Bias risk | C.29 correction |
@@ -836,10 +863,12 @@ Use this checklist after constructing or delimiting the result in :4.1. Its cond
 |---|---|---|
 | `CC-C29-0 Use condition` | Use C.29 only when a mathematical object, formalism, family, learned representation, or simulation object is used for explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer, or when a stable problem needs a first candidate lens that could change the next lens-use action. | Keeps local analogies lightweight. |
 | `CC-C29-1 Mathematical move before record` | State the question, choose a concrete object, establish its correspondence and losses, and derive or delimit the consequence before selecting the sufficient record under :4.4. | Keeps recording subordinate to the mathematical work. |
+| `CC-C29-1a Computational construction` | When the mathematical result needs a computational construction, use C.29.2 to obtain the procedure, its interpretation, the argument supporting its claimed result and the relevant cost estimate. | Lets the reader construct or locate the missing computation. |
+| `CC-C29-1b Realization correspondence` | When the result depends on an unsettled execution correspondence, use C.29.3 to connect preparation, system operations and readout and establish the required result relation. | Lets the reader use or repair the proposed execution. |
 | `CC-C29-2 Named mathematical object` | A mathematical phrase affecting explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer names a concrete `CandidateMathObject`, not a prestige family label. | Blocks prestige vocabulary. |
 | `CC-C29-2a Intervention preservation` | If `LensMappingMode` is abstraction, quotient, coarse-graining, macro-model, or simulation and causal use is being claimed, state whether intervention and counterfactual structure is preserved, approximated, or not claimed, then apply `C.28` for causal-use question and verdict. | Prevents causal abstraction laundering. |
 | `CC-C29-3 Lens mapping mode` | State the `C.29`-local lens mapping mode and the concrete correspondence. If bridge semantics are claimed, apply `F.9`. | Makes the correspondence and any needed semantic Bridge explicit. |
-| `CC-C29-4 Preserved structure` | State what structure the lens preserves. | Makes transfer testable. |
+| `CC-C29-4 Preserved structure` | State what structure the lens preserves. When the result uses a transferred operation, establish the needed preservation through C.29.1. When it uses a representative, establish that the choice leaves the required answer unchanged. | Makes the claimed preservation usable in the inference. |
 | `CC-C29-5 Lost structure` | State what does not transfer; if nothing is lost, justify an equivalence or isomorphism claim through the subject pattern. | Prevents map-territory collapse. |
 | `CC-C29-6 Invariants exposed` | Name invariants, obstructions, fixed points, symmetries, conservation laws, dualities, distinctions, or diagnostic boundaries. | Makes the lens usefulness visible. |
 | `CC-C29-6a First-principles family recovery` | When a first-principles lens-family row from `C.29:4.2b` is used for claim-bearing lens use, recover the concrete `CandidateMathObject` for the candidate family, preserved structure, lost structure, visible payoff, lens-use boundary value, and stop condition or neighboring-pattern application for that family. | Prevents family names such as boundary, cohomology, symmetry, variational, RG, diagonal, composition, probability, information, or structural-information compression from replacing actual MathLensUse recovery. |
@@ -948,13 +977,21 @@ When a mathematical equivalence, interpretation or homomorphism supports later f
 
 #### C.29:13.4 - Applied category theory
 
-Adopt applied category theory as one major organizer for cross-domain transfer, especially composition, interfaces, views, transformations, and bridges. Retain the concrete source examples: databases, electric circuits, and dynamical systems as application families; adjoint functors, enriched categories, and toposes as categorical structures that organize transfer.
+Adopt the operation-preservation discipline explained by [Fong and Spivak, §3.3.2](https://arxiv.org/pdf/1803.05316): a functor maps objects and arrows while preserving identities and composition. C.29.1 makes the corresponding comparison available before a result is reused, including operation permissions, representative independence and weaker bounds. The authors' §2.5.3 also shows how composition and choice compute route costs; C.29.1:5.2 uses an authored case to expose when an omitted continuation condition defeats that reduction.
 
-In `C.29`, category-theoretic material is used through the same local adequacy fields as any other lens: stated use, named structure, preserved composition or interface, lost structure, failed transfer, and neighboring-pattern applications. It is especially useful when composition, interfaces, views, transformations, or bridges matter to the bounded lens-use action.
+Applied category theory remains one organizer for composition, interfaces and transfer. The book's databases, electric circuits and dynamical systems provide source applications; adjoint functors, enriched categories and toposes provide further constructions to study when the question needs them. The trade-off is the work of defining the objects and operations and establishing their laws. When an ordinary domain calculation already provides the correspondence and consequence, use it directly. A failed comparison can instead identify the next required distinction or construction.
 
 #### C.29:13.5 - Obstructions to compositionality
 
 Adapt the obstructions and failures-of-compositionality perspective into `LostStructure` and `StopCondition`: a lens can be useful precisely because it exposes where transfer fails, not only where it succeeds. In plain language, a good lens does not only say "this transfer holds"; it also names the boundary where transfer stops.
+
+#### C.29:13.6 - Computation and its physical realization
+
+[Turing 1936, §6](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf) constructs a machine that interprets encoded machine descriptions. C.29.2 adopts the rules-as-data construction. Its finite interpreter obtains results from the listed instructions; Turing's broader universality result uses his machine-simulation construction.
+
+[Horsman, Stepney, Wagner and Kendon 2014, §§VI–VIII](https://arxiv.org/abs/1309.7979) connect abstract computation with physical preparation, evolution and interpretation. C.29.3 adopts this comparison and explains its current extensions to digital, analog and stochastic realizations. Its source discussion distinguishes the resulting computational claim, the system model and performed execution.
+
+These Methods and their worked constructions are conceptual synthesis. Algorithm design, numerical analysis, learning, coding and distributed computation supply further construction techniques, guarantees and cost analysis when the working question needs them.
 
 ### C.29:13a - References
 
@@ -997,6 +1034,11 @@ The comparison above selects the first-use Method. The references below provide 
 
 
 ### C.29:15 - Relations
+- **Construction and argument recovery:** B.5 recovers the inputs, operations and dependencies needed to obtain or understand a result. C.29 tests which consequence can be carried through the proposed mathematical correspondence.
+
+- **Related Methods:** C.29.1 constructs mathematical result transfer; C.29.2 constructs a computation; C.29.3 connects computation to concrete execution. Each has its own working entry. They can be composed when one result supplies another's input; a computational question can also begin with an already adequate mathematical representation.
+- **Joint reasoning:** B.5.MPC connects the physical account, mathematical question, computation and realization, starting from whichever contribution is available and returning to the contribution whose conditions fail. A.3.3 supplies state and continuation semantics; A.6.1 supplies the realization relation; C.39 helps find or develop a missing operation.
+
 - **Extractable structural information:** `C.2.8` defines the characteristic and observer conditions consumed by a structural-information estimate. C.29 supplies the particular mathematical-lens correspondence and its limits.
 - **Architecture lens boundary:** `C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite C.29 lens outputs for preserved structure, lost structure, structural information, epiplexity, scale mapping, residual mapping, or source-return.
 - **Structural-information adequacy boundary:** `C.33`, `C.34`, and `C.35` may cite C.29 outputs when mathematical-lens results expose captured structure, preserved structure, lost structure, or discovery adequacy.

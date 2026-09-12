@@ -6,12 +6,12 @@ section_id: "A.6.C:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__004_forces.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:3 — Forces"
-line_start: 11944
-line_end: 11954
+line_start: 12022
+line_end: 12032
 dependencies:
   - "A.10"
   - "A.15.1"

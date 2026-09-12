@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.4.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
-line_start: 42052
-line_end: 42179
+line_start: 42655
+line_end: 42782
 dependencies:
   - "A.7.1"
   - "B.5"

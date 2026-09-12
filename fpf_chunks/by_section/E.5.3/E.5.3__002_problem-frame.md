@@ -6,12 +6,12 @@ section_id: "E.5.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__002_problem-frame.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "E.5.3 — Unidirectional Dependency"
   - "E.5.3:1 — Problem frame"
-line_start: 73637
-line_end: 73643
+line_start: 75491
+line_end: 75497
 dependencies:
   - "E.4"
   - "E.5"

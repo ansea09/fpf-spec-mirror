@@ -6,12 +6,12 @@ section_id: "C.29:4"
 section_title: "Solution - selected answer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__006_solution-selected-answer.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:4 — Solution - selected answer"
-line_start: 58167
-line_end: 58795
+line_start: 58807
+line_end: 59453
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "A.6.P"
   - "A.6.RCD"
   - "B.3"
+  - "B.5.MPC"
   - "C.11"
   - "C.16"
   - "C.16.P"
@@ -38,15 +39,17 @@ dependencies:
   - "C.27"
   - "C.27.TA"
   - "C.28"
-  - "C.29"
+  - "C.29.1"
+  - "C.29.2"
+  - "C.29.3"
   - "C.31.ASAP"
+  - "C.39"
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18.1"
   - "E.19"
   - "E.8"
-  - "E.9"
   - "F.19"
   - "F.9"
   - "G.10"
@@ -54,20 +57,6 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "LensUseBoundaryValue"
-  - "coarse-graining"
-  - "invariants"
-  - "learned lens"
-  - "lens mapping mode"
-  - "lost structure"
-  - "mathematical lens"
-  - "ontology smuggling"
-  - "preserved structure"
-  - "rival lens"
-  - "scale window"
-  - "stop condition"
-  - "structure-preserving representation"
-  - "validation boundary"
 ---
 
 ### C.29:4 - Solution - selected answer
@@ -77,9 +66,27 @@ keywords:
 1. **State the working question.** Name the quantity, relation, distinction or possibility that would change the next action. Recover the intended use and the precision or range it needs.
 2. **Choose a concrete mathematical object.** Specify its elements, variables, relations, operations and constraints. Use the least costly adequate local theory or construction. A family name is a discovery cue; if no object is yet available, keep a candidate and name the next observation or construction.
 3. **Establish the correspondence.** Say what each relevant element or operation represents and in what direction the inference is used. Distinguish an analogy, a fitted representation, a simulation and an exact structure-preserving map. State the assumptions, scale and context that the correspondence requires.
-4. **Determine what the inference retains and loses.** Identify the invariant, order, composition, dependence, boundary or other structure on which the intended result relies. Identify the omitted distinctions that could change that result. An empty loss claim requires a justified equivalence or isomorphism.
-5. **Do the mathematical work.** Calculate, derive, construct or demonstrate the obstruction. Return the result through the correspondence to the working question. A statement that a queue “exposes bottlenecks” is not yet the bottleneck calculation.
+4. **Determine what the inference retains and loses.** Identify the invariant, order, composition, dependence, boundary or other structure on which the intended result relies. Identify the omitted distinctions that could change that result. An empty loss claim requires a justified equivalence or isomorphism. Use C.29.1 when preservation of an operation or identification of source cases needs to be established.
+5. **Do the mathematical work.** Calculate, derive, construct or demonstrate the obstruction. For a missing computational formulation or procedure, use C.29.2; for an unsettled connection to an executing system, use C.29.3. Return the result through the correspondence to the working question. A statement that a queue “exposes bottlenecks” is not yet the bottleneck calculation.
 6. **Choose the resulting action and its limit.** Use the result within its assumptions, collect a discriminating observation, compare a relevant rival, narrow the question or reject the representation. Test the material loss and changed premises. When another person or later use needs the account, retain the smallest sufficient record under :4.4.
+
+##### C.29:4.1.1 - Transfer the result through the operations
+
+A source operation or result is available, and you need to use it through another representation. Use **C.29.1 - Mathematical Result Transfer** to recover the operation and its permissions, compare performing then mapping with mapping then performing, and test whether choosing another represented source case changes the answer.
+
+Its Solution constructs a transferable consequence, a justified bound or a specific repair of the correspondence. It also separates a receiving operation that gives a useful relaxation from one whose result can be realized as a source action. The reservation and route-cost entries in :7.1–:7.2 lead to its worked constructions.
+
+##### C.29:4.1.2 - Construct a computation for the question
+
+The needed answer is identified, but the available representation and operations do not yet explain how to obtain it. Use **C.29.2 - Computational Formulation** to select the distinctions retained in computational state, construct a procedure or solver formulation, establish the claimed result and estimate the cost that matters to its use.
+
+Its Solution starts from either a question or available computational means. Worked cases develop an interpreter, a bounded root calculation, a memory-limited quantum-state representation, two questions about the same circuit, and a probability estimate. The result is a usable computation under stated conditions or the missing construction that prevents it.
+
+##### C.29:4.1.3 - Realize the computation and read its result
+
+A computation is available, but how a concrete system performs it is unsettled. Use **C.29.3 - Computational Realization** to connect input preparation, system actions and result interpretation, then compare the required result with the interpreted execution. For a design calculation, the comparison uses the supplied system model; a claim about an actual run uses its observations.
+
+The result is a conditional realization, an interpreted result or a located failure in preparation, operation or readout. Digital, analog, stochastic and manual arrangements can enter through the same question. Its robot, analog addition and admission-card cases show repairs of range, scale and shared-state conditions. B.5.MPC coordinates these results with the physical account, mathematical construction and receiving action.
 
 #### C.29:4.2 - Mathematical Lens Use Principle
 

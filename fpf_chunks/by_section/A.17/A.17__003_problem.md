@@ -6,12 +6,12 @@ section_id: "A.17:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__003_problem.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR‑NORM)"
   - "A.17:2 — Problem"
-line_start: 29531
-line_end: 29542
+line_start: 29659
+line_end: 29670
 dependencies:
   - "A.17"
   - "A.18"
@@ -32,7 +32,11 @@ keywords:
   - "characteristic"
   - "dimension"
   - "measurement"
+  - "preference"
   - "property"
+  - "quantity calculation"
+  - "scale order"
+  - "scoring"
 ---
 
 ### A.17:2 - Problem

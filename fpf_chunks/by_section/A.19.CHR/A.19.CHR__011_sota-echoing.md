@@ -6,12 +6,12 @@ section_id: "A.19.CHR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__011_sota-echoing.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:11 — SoTA-Echoing"
-line_start: 32785
-line_end: 32797
+line_start: 32921
+line_end: 32933
 dependencies:
   - "A.15.3"
   - "A.19"

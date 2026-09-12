@@ -6,12 +6,12 @@ section_id: "A.7:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__002_use-this-when.md"
-commit_sha: "cda9087f48e0bce2c5f9d5f4389e7e025c7678f5"
+commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:0 — Use this when"
-line_start: 21507
-line_end: 21520
+line_start: 21635
+line_end: 21648
 dependencies:
   - "A.1"
   - "A.10"
