@@ -6,12 +6,12 @@ section_id: "E.24.CD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__007_archetypal-grounding.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:5 — Archetypal Grounding"
-line_start: 94536
-line_end: 94632
+line_start: 94941
+line_end: 95037
 dependencies:
   - "A.1"
   - "A.14"

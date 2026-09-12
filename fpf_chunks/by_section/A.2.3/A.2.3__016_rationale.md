@@ -6,12 +6,12 @@ section_id: "A.2.3:10.2"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__016_rationale.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:10.2 — Rationale"
-line_start: 4684
-line_end: 4689
+line_start: 4686
+line_end: 4691
 dependencies:
   - "A.1.1"
   - "A.10"

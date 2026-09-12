@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__013_relations.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:12 — Relations"
-line_start: 88327
-line_end: 88350
+line_start: 88732
+line_end: 88755
 dependencies:
   - "A.10"
   - "A.15"

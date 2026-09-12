@@ -6,12 +6,12 @@ section_id: "A.2.6:5"
 section_title: "Solution - Overview"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__007_solution-overview.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:5 — Solution - Overview"
-line_start: 5442
-line_end: 5457
+line_start: 5444
+line_end: 5459
 dependencies:
   - "A.1.1"
   - "A.15.1"

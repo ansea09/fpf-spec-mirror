@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
-line_start: 69818
-line_end: 70217
+line_start: 70223
+line_end: 70622
 dependencies:
   - "A.1"
   - "A.10"

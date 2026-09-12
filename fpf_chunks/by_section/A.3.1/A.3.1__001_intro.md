@@ -6,12 +6,12 @@ section_id: "A.3.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__001_intro.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:intro — Intro"
-line_start: 8042
-line_end: 8047
+line_start: 8044
+line_end: 8049
 dependencies:
   - "A.1"
   - "A.1.1"

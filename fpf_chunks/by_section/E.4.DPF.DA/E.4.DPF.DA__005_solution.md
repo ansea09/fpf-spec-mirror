@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__005_solution.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:4 — Solution"
-line_start: 74266
-line_end: 74482
+line_start: 74671
+line_end: 74887
 dependencies:
   - "A.1.1"
   - "A.10"

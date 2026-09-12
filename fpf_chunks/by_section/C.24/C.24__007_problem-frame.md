@@ -6,12 +6,12 @@ section_id: "C.24:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__007_problem-frame.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:1 — Problem frame"
-line_start: 54961
-line_end: 54966
+line_start: 55346
+line_end: 55351
 dependencies:
   - "A.10"
   - "A.15"

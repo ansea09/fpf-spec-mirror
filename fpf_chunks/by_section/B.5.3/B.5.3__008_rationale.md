@@ -6,12 +6,12 @@ section_id: "B.5.3:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__008_rationale.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:7 — Rationale"
-line_start: 42643
-line_end: 42646
+line_start: 43028
+line_end: 43031
 dependencies:
   - "A.13"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.3.3:5"
 section_title: "Solution — Compare Identity, Then Relate Distinct Kinds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__006_solution-compare-identity-then-relate-distinct-kinds.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:5 — Solution — Compare Identity, Then Relate Distinct Kinds"
-line_start: 47091
-line_end: 47103
+line_start: 47476
+line_end: 47488
 dependencies:
   - "A.2.6"
   - "A.6.REL"

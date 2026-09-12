@@ -6,12 +6,12 @@ section_id: "C.21:7"
 section_title: "Authoring Rhythm"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__009_authoring-rhythm.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:7 — Authoring Rhythm"
-line_start: 53038
-line_end: 53048
+line_start: 53423
+line_end: 53433
 dependencies:
   - "A.10"
   - "A.17"

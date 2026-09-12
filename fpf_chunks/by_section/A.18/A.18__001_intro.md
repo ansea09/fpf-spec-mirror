@@ -6,12 +6,12 @@ section_id: "A.18:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__001_intro.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:intro — Intro"
-line_start: 29791
-line_end: 29794
+line_start: 29793
+line_end: 29796
 dependencies:
   - "A.17"
   - "A.18"

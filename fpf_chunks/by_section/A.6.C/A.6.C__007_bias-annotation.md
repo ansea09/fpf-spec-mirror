@@ -6,12 +6,12 @@ section_id: "A.6.C:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__007_bias-annotation.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:6 — Bias-Annotation"
-line_start: 12238
-line_end: 12245
+line_start: 12240
+line_end: 12247
 dependencies:
   - "A.10"
   - "A.15.1"

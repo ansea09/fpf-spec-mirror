@@ -6,12 +6,12 @@ section_id: "A.0:QF.2a"
 section_title: "Set/space reading glosses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__016_set-space-reading-glosses.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.2a — Set/space reading glosses"
-line_start: 1518
-line_end: 1549
+line_start: 1520
+line_end: 1551
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

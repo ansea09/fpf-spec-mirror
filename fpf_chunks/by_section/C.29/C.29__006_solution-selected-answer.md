@@ -6,12 +6,12 @@ section_id: "C.29:4"
 section_title: "Solution - selected answer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__006_solution-selected-answer.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:4 — Solution - selected answer"
-line_start: 58807
-line_end: 59453
+line_start: 59192
+line_end: 59838
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,7 +66,7 @@ keywords:
 1. **State the working question.** Name the quantity, relation, distinction or possibility that would change the next action. Recover the intended use and the precision or range it needs.
 2. **Choose a concrete mathematical object.** Specify its elements, variables, relations, operations and constraints. Use the least costly adequate local theory or construction. A family name is a discovery cue; if no object is yet available, keep a candidate and name the next observation or construction.
 3. **Establish the correspondence.** Say what each relevant element or operation represents and in what direction the inference is used. Distinguish an analogy, a fitted representation, a simulation and an exact structure-preserving map. State the assumptions, scale and context that the correspondence requires.
-4. **Determine what the inference retains and loses.** Identify the invariant, order, composition, dependence, boundary or other structure on which the intended result relies. Identify the omitted distinctions that could change that result. An empty loss claim requires a justified equivalence or isomorphism. Use C.29.1 when preservation of an operation or identification of source cases needs to be established.
+4. **Determine what the correspondence preserves, omits or introduces.** Identify the structure on which the intended result relies and any omitted distinction that could change it. Establish the preservation claimed for the needed operations. If the receiving domain adds objects or operations, determine which of their results answer the source question. C.29.1 constructs these comparisons, including cases with no loss of source distinctions and cases where a receiving solution has no source counterpart.
 5. **Do the mathematical work.** Calculate, derive, construct or demonstrate the obstruction. For a missing computational formulation or procedure, use C.29.2; for an unsettled connection to an executing system, use C.29.3. Return the result through the correspondence to the working question. A statement that a queue “exposes bottlenecks” is not yet the bottleneck calculation.
 6. **Choose the resulting action and its limit.** Use the result within its assumptions, collect a discriminating observation, compare a relevant rival, narrow the question or reject the representation. Test the material loss and changed premises. When another person or later use needs the account, retain the smallest sufficient record under :4.4.
 
@@ -590,7 +590,7 @@ This is not a first-class causal abstraction card. It is a lightweight check: wh
 | no `CandidateMathObject` | If the problem still needs a mathematical lens for the next lens-use action, first name the `ProblemStructureCue` and write a `MathLensUse.LensCandidateNote` with the cheapest candidate lens family and next lens-use action; downgrade to ordinary prose or remove the mathematical claim only when no candidate lens changes action. |
 | no `LensMappingMode` | Choose a lens mapping mode or downgrade to analogy-only prompt. |
 | no `PreservedStructure` | Remove the claim-bearing mathematical phrase. |
-| no `LostStructure` | Add a loss note, or justify a lossless equivalence or isomorphism claim through the subject pattern. |
+| no `LostStructure` account | Describe the omitted source distinctions. If none are lost for this use, explain why the relevant distinctions and operations are preserved. C.29.1 supplies the comparison. |
 | no invariant, obstruction, distinction, or payoff | Keep the phrase as didactic recognition cue or orientation-only. |
 | no `LensBoundedPredictionOrDistinction` where decision, prediction, or model selection is being claimed | Block decision or assurance use; downgrade to analogy-only if no declared lens-use consequence is named. |
 | evidence is analogy-only | Block decision, publication-as-established-model, assurance, release, and causal use unless evidence relation, validation regime, causal-use relation, or assurance result is supplied by its subject pattern. |
@@ -682,7 +682,7 @@ Local `SourceUseRelation` slot discipline:
 | `CandidateMathObject` | Concrete mathematical object, structure, formal position, learned representation, or local formalism. | Broad family labels are prompts until narrowed. |
 | `LensMappingMode` | `C.29`-local lens mapping mode. | Cross-context transfer uses `F.9` when bridge semantics are being claimed. |
 | `PreservedStructure` | Structure preserved by the lens in the declared use. | No preserved structure means the mathematical phrase cannot justify the stated use. |
-| `LostStructure` | Structure the lens drops, abstracts away, or does not preserve. | Empty loss requires explicit equivalence or isomorphism justification through the subject pattern. |
+| `LostStructure` | Source structure the representation omits or does not preserve. | When none is lost for the stated use, name the preserved distinctions and operations and the reason preservation holds. A receiving domain may still contain additional objects; use C.29.1 to establish what can be returned. |
 | `InvariantsExposed` | Invariant, obstruction, fixed point, symmetry, conservation law, diagnostic boundary, or other payoff. | If no payoff is visible, downgrade to recognition cue. |
 | `ObservableOrControllableCue?` | Cheap cue naming what can be observed, read out, assigned, varied, or validated before a candidate lens can change action. Examples include arrivals, work in progress, service time, wait time, edge meaning, intervention assignment, outcome readout, observation map, validation slice, scale variable, or scale point. | When making a measurement, evidence, causal or dynamics claim, apply its corresponding pattern in :4.4.6. |
 | `ObservationOrReadoutNeeded?` | Optional one-line note naming the observable, readout, assignment, outcome, validation slice, or scale point still needed before the stated bounded lens-use action is justified. | If the account of this missing item makes a measurement, evidence, causal, dynamics, or validation claim, apply the neighboring pattern that governs that claim. |

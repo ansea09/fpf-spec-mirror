@@ -6,12 +6,12 @@ section_id: "A.19.CN:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__001_intro.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:intro — Intro"
-line_start: 31894
-line_end: 31905
+line_start: 31896
+line_end: 31907
 dependencies:
   - "A.19"
   - "A.6.1"

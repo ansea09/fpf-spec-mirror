@@ -6,12 +6,12 @@ section_id: "A.10.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__011_rationale.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:10 — Rationale"
-line_start: 23499
-line_end: 23508
+line_start: 23501
+line_end: 23510
 dependencies:
   - "A.10"
   - "A.10.1"

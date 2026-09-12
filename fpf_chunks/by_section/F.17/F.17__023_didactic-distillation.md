@@ -6,12 +6,12 @@ section_id: "F.17:17"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__023_didactic-distillation.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:17 — Didactic distillation"
-line_start: 102352
-line_end: 102355
+line_start: 102757
+line_end: 102760
 dependencies:
   - "A.1.1"
   - "A.10"

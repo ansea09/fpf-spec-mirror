@@ -6,12 +6,12 @@ section_id: "E.18.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__014_relations.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:12 — Relations"
-line_start: 90204
-line_end: 90213
+line_start: 90609
+line_end: 90618
 dependencies:
   - "A.10"
   - "A.15"

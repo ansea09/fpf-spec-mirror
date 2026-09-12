@@ -6,12 +6,12 @@ section_id: "A.6.4:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__014_relations.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:13 — Relations"
-line_start: 16171
-line_end: 16177
+line_start: 16173
+line_end: 16179
 dependencies:
   - "A.10"
   - "A.15"

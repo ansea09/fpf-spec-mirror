@@ -6,12 +6,12 @@ section_id: "A.1.CSD:10"
 section_title: "Conditional Consumer Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__013_conditional-consumer-boundary.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:10 — Conditional Consumer Boundary"
-line_start: 2869
-line_end: 2883
+line_start: 2871
+line_end: 2885
 dependencies:
   - "A.1"
   - "A.1.SCR"

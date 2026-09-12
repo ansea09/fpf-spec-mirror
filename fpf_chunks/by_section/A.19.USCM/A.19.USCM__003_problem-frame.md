@@ -6,12 +6,12 @@ section_id: "A.19.USCM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__003_problem-frame.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:1 — Problem frame"
-line_start: 33697
-line_end: 33712
+line_start: 33699
+line_end: 33714
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

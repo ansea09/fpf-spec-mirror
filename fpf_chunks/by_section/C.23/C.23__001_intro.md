@@ -6,12 +6,12 @@ section_id: "C.23:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__001_intro.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:intro — Intro"
-line_start: 54660
-line_end: 54668
+line_start: 55045
+line_end: 55053
 dependencies:
   - "A.10"
   - "B.3"

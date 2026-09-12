@@ -6,12 +6,12 @@ section_id: "E.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__004_forces.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:3 — Forces"
-line_start: 83074
-line_end: 83081
+line_start: 83479
+line_end: 83486
 dependencies:
   - "E.13"
   - "E.2"

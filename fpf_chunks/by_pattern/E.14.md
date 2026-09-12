@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.14.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
-line_start: 83344
-line_end: 83697
+line_start: 83749
+line_end: 84102
 dependencies:
   - "B.3.5"
   - "C.13"

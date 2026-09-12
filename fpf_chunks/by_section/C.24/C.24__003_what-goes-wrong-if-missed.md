@@ -6,12 +6,12 @@ section_id: "C.24:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__003_what-goes-wrong-if-missed.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:0.1 — What goes wrong if missed"
-line_start: 54893
-line_end: 54899
+line_start: 55278
+line_end: 55284
 dependencies:
   - "A.10"
   - "A.15"

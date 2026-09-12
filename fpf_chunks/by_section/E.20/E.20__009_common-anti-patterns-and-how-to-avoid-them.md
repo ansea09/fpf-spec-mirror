@@ -6,12 +6,12 @@ section_id: "E.20:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 91767
-line_end: 91778
+line_start: 92172
+line_end: 92183
 dependencies:
   - "A.15.3"
   - "A.6.1"

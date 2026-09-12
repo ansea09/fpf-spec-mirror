@@ -6,12 +6,12 @@ section_id: "C.2.1:13"
 section_title: "Consequences  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__014_consequences-informative.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:13 — Consequences  (informative)"
-line_start: 43435
-line_end: 43442
+line_start: 43820
+line_end: 43827
 dependencies:
   - "A.1"
   - "A.1.1"

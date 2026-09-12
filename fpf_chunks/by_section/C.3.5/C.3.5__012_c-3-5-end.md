@@ -6,12 +6,12 @@ section_id: "C.3.5:End"
 section_title: "C.3.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__012_c-3-5-end.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:End — C.3.5:End"
-line_start: 47609
-line_end: 47610
+line_start: 47994
+line_end: 47995
 dependencies:
   - "A.2.6"
   - "C.2.2"

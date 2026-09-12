@@ -6,12 +6,12 @@ section_id: "G.5:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__003_what-goes-wrong-if-missed.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:0.1 — What goes wrong if missed"
-line_start: 106269
-line_end: 106275
+line_start: 106674
+line_end: 106680
 dependencies:
   - "C.11"
   - "C.18"

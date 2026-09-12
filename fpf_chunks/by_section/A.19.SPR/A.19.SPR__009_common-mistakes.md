@@ -6,12 +6,12 @@ section_id: "A.19.SPR:7"
 section_title: "Common mistakes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__009_common-mistakes.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:7 — Common mistakes"
-line_start: 30826
-line_end: 30835
+line_start: 30828
+line_end: 30837
 dependencies:
   - "A.10"
   - "A.16"

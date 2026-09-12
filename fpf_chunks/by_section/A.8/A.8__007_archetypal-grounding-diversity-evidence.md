@@ -6,12 +6,12 @@ section_id: "A.8:3.1"
 section_title: "Archetypal Grounding - Diversity Evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__007_archetypal-grounding-diversity-evidence.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:3.1 — Archetypal Grounding - Diversity Evidence"
-line_start: 22648
-line_end: 22661
+line_start: 22650
+line_end: 22663
 dependencies:
   - "A.11"
   - "C.3"

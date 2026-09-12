@@ -6,12 +6,12 @@ section_id: "G.2:11"
 section_title: "SoTA-Echoing (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__012_sota-echoing-informative.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:11 — SoTA-Echoing (informative)"
-line_start: 105274
-line_end: 105295
+line_start: 105679
+line_end: 105700
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

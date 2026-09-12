@@ -6,12 +6,12 @@ section_id: "B.5.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__003_problem.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:2 — Problem"
-line_start: 42567
-line_end: 42570
+line_start: 42952
+line_end: 42955
 dependencies:
   - "A.13"
   - "A.15"

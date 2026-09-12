@@ -6,12 +6,12 @@ section_id: "C.31:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__008_conformance-checklist.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:7 — Conformance Checklist"
-line_start: 64889
-line_end: 64905
+line_start: 65294
+line_end: 65310
 dependencies:
   - "A.10"
   - "A.17"

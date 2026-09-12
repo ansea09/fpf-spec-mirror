@@ -6,12 +6,12 @@ section_id: "G.12:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__001_intro.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:intro — Intro"
-line_start: 109714
-line_end: 109723
+line_start: 110119
+line_end: 110128
 dependencies:
   - "A.19"
   - "A.2.6"

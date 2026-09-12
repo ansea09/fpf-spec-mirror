@@ -6,12 +6,12 @@ section_id: "B.5.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__002_problem-frame.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
   - "B.5.4:1 — Problem frame"
-line_start: 42663
-line_end: 42670
+line_start: 43048
+line_end: 43055
 dependencies:
   - "A.7.1"
   - "B.5"

@@ -6,12 +6,12 @@ section_id: "A.6.6:End"
 section_title: "A.6.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__014_a-6-6-end.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:End — A.6.6:End"
-line_start: 20216
-line_end: 20217
+line_start: 20218
+line_end: 20219
 dependencies:
   - "A.10"
   - "A.14"

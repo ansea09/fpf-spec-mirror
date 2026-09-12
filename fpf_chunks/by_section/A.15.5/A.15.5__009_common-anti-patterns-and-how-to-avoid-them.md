@@ -6,12 +6,12 @@ section_id: "A.15.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 27067
-line_end: 27075
+line_start: 27069
+line_end: 27077
 dependencies:
   - "A.10"
   - "A.15"

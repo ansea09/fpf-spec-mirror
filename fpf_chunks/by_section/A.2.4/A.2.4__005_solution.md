@@ -6,12 +6,12 @@ section_id: "A.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__005_solution.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:4 — Solution"
-line_start: 4768
-line_end: 4898
+line_start: 4770
+line_end: 4900
 dependencies:
   - "A.10"
   - "A.2"

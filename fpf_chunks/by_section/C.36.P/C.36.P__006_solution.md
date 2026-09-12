@@ -6,12 +6,12 @@ section_id: "C.36.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__006_solution.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:4 — Solution"
-line_start: 71114
-line_end: 71151
+line_start: 71519
+line_end: 71556
 dependencies:
   - "A.1"
   - "A.1.1"

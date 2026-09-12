@@ -6,12 +6,12 @@ section_id: "C.32.ACS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__004_forces.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:3 — Forces"
-line_start: 66724
-line_end: 66734
+line_start: 67129
+line_end: 67139
 dependencies:
   - "A.1.1"
   - "A.10"

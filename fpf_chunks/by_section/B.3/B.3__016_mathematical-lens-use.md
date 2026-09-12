@@ -6,12 +6,12 @@ section_id: "B.3:11b"
 section_title: "Mathematical-lens use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__016_mathematical-lens-use.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:11b — Mathematical-lens use"
-line_start: 40032
-line_end: 40035
+line_start: 40034
+line_end: 40037
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "E.5.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__003_problem.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:2 — Problem"
-line_start: 75404
-line_end: 75406
+line_start: 75809
+line_end: 75811
 dependencies:
   - "A.6.3.RT"
   - "C.2.8"

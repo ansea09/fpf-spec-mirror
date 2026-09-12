@@ -6,12 +6,12 @@ section_id: "A.1.CSD:0.1"
 section_title: "Precision Restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__003_precision-restoration.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:0.1 — Precision Restoration"
-line_start: 2681
-line_end: 2694
+line_start: 2683
+line_end: 2696
 dependencies:
   - "A.1"
   - "A.1.SCR"

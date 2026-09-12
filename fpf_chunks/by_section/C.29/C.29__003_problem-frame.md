@@ -6,12 +6,12 @@ section_id: "C.29:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__003_problem-frame.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:1 — Problem frame"
-line_start: 58764
-line_end: 58791
+line_start: 59149
+line_end: 59176
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,13 +61,13 @@ keywords:
 
 ### C.29:1 - Problem frame
 
-A mathematical representation can make a working question answerable by retaining only the structure that matters to it. The same reduction can invalidate another question. A queue may expose flow restrictions while omitting rework or failures; an aggregate state may support one bound but lose the information needed for an exact trajectory.
+A mathematical representation can make a working question answerable by exposing the relations needed for an inference. It may combine source cases into a summary, change coordinates without losing distinctions, or embed the source in a larger mathematical domain. Each construction supports different uses. A queue may expose flow restrictions while omitting rework; an extension of the rational numbers to the reals makes limits available while retaining rational arithmetic.
 
 C.29 addresses this representation choice and its use across a stated correspondence. It begins either with a working problem that needs a useful construction or with a proposed representation whose consequence needs to be derived, limited or rejected. Domain theory supplies the mathematical laws and application conditions.
 
-> **A useful mathematical lens is compression with invariants and declared losses.**
+> **A useful mathematical lens makes a needed inference possible through an explained correspondence.**
 
-The practical questions are: what survives the transfer, what is lost, what follows, and where does that inference stop?
+Ask what the correspondence preserves, omits or introduces, which operations it supports, and how the resulting conclusion answers the working question.
 
 #### C.29:1.1 - First-minute working situation
 

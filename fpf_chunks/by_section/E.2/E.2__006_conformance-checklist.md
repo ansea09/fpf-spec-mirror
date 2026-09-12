@@ -6,12 +6,12 @@ section_id: "E.2:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__006_conformance-checklist.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:5 — Conformance Checklist"
-line_start: 72217
-line_end: 72227
+line_start: 72622
+line_end: 72632
 dependencies:
   - "A.10"
   - "A.15.1"

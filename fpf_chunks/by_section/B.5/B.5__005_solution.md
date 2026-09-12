@@ -6,12 +6,12 @@ section_id: "B.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__005_solution.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:4 — Solution"
-line_start: 41090
-line_end: 41205
+line_start: 41092
+line_end: 41207
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -69,7 +69,7 @@ The following are common alternatives, not an exhaustive classification or a seq
 | A better description of an insufficiently understood phenomenon | Make a purposeful observation or exploratory measurement; vary a condition and inspect what becomes distinguishable. | Observations and possible regularities that can generate or change questions. |
 | An empirical consequence of a conjecture | Derive the expected contrast, obtain relevant observations and compare the actual result with it. | Bounded corroboration, a discrepancy or a qualified basis for rejecting or revising the claim. |
 
-**Recover a construction before trying to execute it.** Use this continuation when the source names a desired object or property but you cannot yet obtain the result needed by the question.
+**Recover a construction before trying to execute it.** Use this continuation when the source names a desired object or property but you cannot yet obtain the result needed by the question. B.5.RC expands the method below with worked cases and explanations of shared prerequisites, alternative constructions and missing operations.
 
 1. Identify the starting objects or data that are available. State what must be produced and which property the receiving use needs.
 2. Find the source's operations for producing or combining those objects. For each needed operation, recover its inputs, application conditions and output. Keep a statement that an object exists with certain properties as an existence claim; seek a way to obtain an instance when the next use requires one.
@@ -91,7 +91,7 @@ A bounded result may be sufficient at any of these contributions. Assurance belo
 
 Explain what was obtained, why the decisive step works, and where the result can be used. The needed depth depends on whether the receiver will apply, criticize, extend or teach the argument.
 
-**Recover the argument needed for that use.** Begin with the conclusion or proposed change the receiver needs to understand.
+**Recover the argument needed for that use.** Begin with the conclusion or proposed change the receiver needs to understand. B.5.RA develops both the main reason for the result and the local transitions needed to use it.
 
 1. Read the claim with its domain and conditions. For a mathematical statement, recover the meanings of its objects and quantifiers.
 2. Work backward from that conclusion through the intermediate claims or constructions it uses. At each needed transition, identify the premises, the operation or inference, and what it establishes. Follow a shared premise wherever the conclusion depends on it; keep jointly needed premises together.

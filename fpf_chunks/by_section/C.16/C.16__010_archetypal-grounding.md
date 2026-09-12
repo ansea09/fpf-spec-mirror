@@ -6,12 +6,12 @@ section_id: "C.16:8.3"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__010_archetypal-grounding.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:8.3 — Archetypal Grounding"
-line_start: 49683
-line_end: 49708
+line_start: 50068
+line_end: 50093
 dependencies:
   - "A.10"
   - "A.15.1"

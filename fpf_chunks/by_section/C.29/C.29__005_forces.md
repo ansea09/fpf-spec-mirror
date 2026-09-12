@@ -6,12 +6,12 @@ section_id: "C.29:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__005_forces.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:3 — Forces"
-line_start: 58798
-line_end: 58806
+line_start: 59183
+line_end: 59191
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,8 +63,8 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| **Compression vs truthfulness** | A useful mathematical lens compresses many cases by pairing compression with declared losses. |
-| **Plural mathematical foundations vs FPF simplicity** | The intended gain is access to modern plural foundations and applied mathematics, with each selected lens tied to a stated use and declared loss. |
+| **Useful representation vs justified return** | A summary, coordinate change or larger mathematical domain can simplify an inference. Returning its result requires the correspondence and conditions that support the source question. |
+| **Plural mathematical foundations vs FPF simplicity** | Different foundations and constructions open different operations; choose them for the question and explain the needed correspondence. |
 | **First-use effort vs later scrutiny** | A first calculation may need only a stated correspondence and assumptions; consequential reuse needs a recoverable argument, losses and validation. |
 | **Transfer reach vs domain fit** | Cross-domain transfer can expose useful structure. Establish the correspondence and material losses for the receiving question before relying on the transferred lens. |
 

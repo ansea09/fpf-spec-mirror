@@ -6,12 +6,12 @@ section_id: "C.29:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__013_rationale.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:12 — Rationale"
-line_start: 59608
-line_end: 59613
+line_start: 59993
+line_end: 59998
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,7 +61,7 @@ keywords:
 
 ### C.29:12 - Rationale
 
-The useful compression is question-relative. The same two-station recurrence distinguishes output rate from latency; it also reveals why increasing arrival pressure cannot yield a bounded long-run delay in that model. A reader who already has the adequate domain construction, correspondence and limitations can use it directly. C.29 is helpful when one of those parts must be recovered before the representation can answer the question.
+The useful representation is question-relative. The two-station recurrence distinguishes output rate from latency while omitting details of the work. An embedding can instead retain the source distinctions and introduce mathematical objects useful for an inference. C.29.1:5.4 uses a real-number construction to obtain a rational approximation, then examines a request that requires a rational solution. These uses depend on different return conditions. A reader with an adequate construction, correspondence and limitations can use them directly; C.29 helps recover whichever contribution is missing.
 
 The cost is explicit construction and a check of material losses. A queue calculation, geometric transformation or learned model still needs its own mathematical Method. C.29's discovery cues help locate a candidate; its reliance rule determines which missing application information must be supplied for the result's use.
 

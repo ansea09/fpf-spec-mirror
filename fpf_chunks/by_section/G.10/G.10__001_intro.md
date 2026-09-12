@@ -6,12 +6,12 @@ section_id: "G.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__001_intro.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:intro — Intro"
-line_start: 108873
-line_end: 108880
+line_start: 109278
+line_end: 109285
 dependencies:
   - "A.10"
   - "A.15.3"

@@ -6,12 +6,12 @@ section_id: "F.4:8"
 section_title: "Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__010_anti-patterns-and-repairs.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:8 — Anti-Patterns and Repairs"
-line_start: 96975
-line_end: 96989
+line_start: 97380
+line_end: 97394
 dependencies:
   - "A.15"
   - "A.15.1"

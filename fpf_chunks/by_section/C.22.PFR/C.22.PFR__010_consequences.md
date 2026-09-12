@@ -6,12 +6,12 @@ section_id: "C.22.PFR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__010_consequences.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:9 — Consequences"
-line_start: 53957
-line_end: 53964
+line_start: 54342
+line_end: 54349
 dependencies:
   - "A.10"
   - "A.15.1"

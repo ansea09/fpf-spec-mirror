@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__007_bias-annotation.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:6 — Bias-Annotation"
-line_start: 17080
-line_end: 17094
+line_start: 17082
+line_end: 17096
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"

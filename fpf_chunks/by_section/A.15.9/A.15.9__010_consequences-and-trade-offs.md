@@ -6,12 +6,12 @@ section_id: "A.15.9:9"
 section_title: "Consequences and trade-offs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__010_consequences-and-trade-offs.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.15.9 — Request and Use a Bounded Result from Another Practice"
   - "A.15.9:9 — Consequences and trade-offs"
-line_start: 28086
-line_end: 28097
+line_start: 28088
+line_end: 28099
 dependencies:
   - "A.10"
   - "A.13"

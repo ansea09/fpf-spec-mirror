@@ -6,12 +6,12 @@ section_id: "A.3.4:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__013_sota-echoing.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:11 — SoTA-Echoing"
-line_start: 9718
-line_end: 9728
+line_start: 9720
+line_end: 9730
 dependencies:
   - "A.1"
   - "A.10"

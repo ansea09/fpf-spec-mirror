@@ -6,12 +6,12 @@ section_id: "C.29:6"
 section_title: "Naming, ontology, and epistemic precision-restoration account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__007_naming-ontology-and-epistemic-precision-restoration-account.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:6 — Naming, ontology, and epistemic precision-restoration account"
-line_start: 59454
-line_end: 59474
+line_start: 59839
+line_end: 59859
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -67,7 +67,7 @@ Name: `C.29 — Mathematical Lens Use`.
 
 Local namespace: `MathLensUse` = **Mathematical Lens Use**. The pattern-local card and reference namespace uses `MathLensUse`; checklist IDs use `CC-C29-*`.
 
-The stable name is `Mathematical Lens Use` because `C.29` governs a declared use and its use boundary. Plain prose can still say that a useful mathematical lens compresses many cases while preserving declared distinctions; claim-bearing use is recovered through `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition`.
+The stable name is `Mathematical Lens Use` because `C.29` governs a declared use and its use boundary. A mathematical lens may summarize, re-express or extend an account. For a recorded use, `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition` describe the correspondence and its limits.
 
 #### C.29:6.1a - C.29-local naming guard
 

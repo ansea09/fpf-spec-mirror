@@ -6,12 +6,12 @@ section_id: "A.7.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__006_solution.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:4 — Solution"
-line_start: 22197
-line_end: 22299
+line_start: 22199
+line_end: 22301
 dependencies:
   - "A.10"
   - "A.7.1"

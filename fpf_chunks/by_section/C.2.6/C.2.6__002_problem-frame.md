@@ -6,12 +6,12 @@ section_id: "C.2.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__002_problem-frame.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:1 — Problem frame"
-line_start: 45552
-line_end: 45554
+line_start: 45937
+line_end: 45939
 dependencies:
   - "A.16"
   - "A.16.0"

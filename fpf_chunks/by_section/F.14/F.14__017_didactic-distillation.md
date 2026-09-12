@@ -6,12 +6,12 @@ section_id: "F.14:16"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__017_didactic-distillation.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:16 — Didactic distillation"
-line_start: 100586
-line_end: 100589
+line_start: 100991
+line_end: 100994
 dependencies:
   - "A.10"
   - "A.15.1"

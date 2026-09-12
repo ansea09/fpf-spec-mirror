@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.1.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
-line_start: 59736
-line_end: 60141
+line_start: 60121
+line_end: 60546
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -315,6 +315,25 @@ If an exact maximum is wanted, retaining (m,|d|) is sufficient under this symmet
 
 **Returned result and return condition.** The bound answers the stated question at the second sampling instant under the supplied model. It does not assert that the bodies were always below 60 °C: the initial pair (20,80) was not. Unequal heat capacities, external heat exchange or a changed transfer rule require a new update and a new comparison. Establishing that this discrete model predicts an actual pair of bodies requires physical and measurement work; B.5.MPC connects that work to the mathematical result.
 
+#### C.29.1:5.4 - Return a rational result from a real-number construction
+
+A calculation accepts positive rational settings x and needs `|x² − 2| ≤ 0.01`. If a rational candidate is already supplied, substituting it can settle this question. The following construction uses an available positive real root of `x² = 2` to obtain a rational candidate.
+
+The inclusion of the rationals in the reals retains their equality, order, addition and multiplication. The larger domain also contains limits of rational sequences that have no rational limit. This supplies new mathematical objects without merging distinct rational inputs. The needed return is still a rational setting satisfying the original inequality.
+
+Compute rational bounds:
+
+~~~text
+1.414² = 1.999396 < 2
+1.415² = 2.002225 > 2
+~~~
+
+Squaring is increasing on the positive reals, so the root lies between those endpoints. Choose the rational setting `x = 1.414` and check the requested result: `|x² − 2| = 0.000604 ≤ 0.01`. The returned setting and its error calculation answer the original question. C.29.2 develops a procedure when obtaining such bounds requires one.
+
+Now change the requirement to a rational setting with `x² = 2`. Suppose `x = p/q` is in lowest terms, with integers p and nonzero q. Then `p² = 2q²`, so p is even. Substituting `p = 2r` shows that q is also even, contradicting lowest terms. The real root therefore has no rational counterpart. Return that obstruction; the requester can retain a tolerance or change the allowed number domain.
+
+The extension supports a useful approximation and an existence argument in the larger domain. Which result can be returned depends on the requested property and the allowed source settings.
+
 ### C.29.1:6 - Bias-Annotation
 
 **Bias toward convenient summaries.** Aggregates are easy to display and compute. Test them against the receiving question by constructing cases with the same aggregate and different answers. In the thermal case, the mean is sufficient for mean evolution and insufficient for the maximum.
@@ -402,14 +421,15 @@ A human or AI contributor can construct the correspondence, derive an identity o
 
 ### C.29.1:11 - SoTA-Echoing
 
-The working problem is reuse of mathematical consequences across accounts at a cost justified by the receiving question. Two established lines supply complementary methods: preservation of operations, and coverage of possible results by a sound abstraction.
+The working problem is reuse of mathematical consequences across accounts at a cost justified by the receiving question. Established mathematical lines supply complementary methods: preservation of operations, coverage of possible results by a sound abstraction, and extension to a domain in which a needed construction is available.
 
 | Source and applicable contribution | Comparison at comparable effort | Adopt, adapt and limit |
 |---|---|---|
 | Brendan Fong and David I. Spivak, *Seven Sketches in Compositionality* (consulted 2018 version), §3.3.2 and §2.5.3. Functors preserve identities and composition; the route constructions distinguish composition from choice among alternatives. [Primary text](https://arxiv.org/pdf/1803.05316). | Comparing corresponding operations is stronger than analogy by shared shape. A categorical formulation repays its setup when many objects and composable maps recur; a short elementary derivation can be cheaper for one reservation update. | **Adopt** preservation of the relevant operations. **Adapt** it as the two-order construction and route comparison in C.29.1:4.3 and C.29.1:5.2. Use categorical machinery when the objects and laws warrant it; this pattern does not require every working account to be presented as a category. |
 | Patrick Cousot, *Abstract Interpretation: From 0, 1, To ∞*, §2. Its abstract operations cover the possible concrete results represented by their inputs. [Author's text](https://pcousot.github.io/publications/CSV-2023-cousot.pdf). | Exact reconstruction retains more information; a sound abstraction can establish a property with less information but can leave a question undecided. Testing selected cases is cheaper in some settings but does not establish coverage of all permitted cases. | **Adopt** coverage as the reason a bounded abstract result supports a concrete conclusion. **Adapt** that reasoning to C.29.1:4.5's compatible cases and bounds. General abstract-domain construction and program-analysis algorithms remain in their mathematical and computational practice. |
+| A. Yu. Khrennikov, *Введение в квантовую теорию информации* (2008), pp. 66–68. The passage constructs real numbers and a Hilbert space by completion. | Keeping only the starting domain avoids extra objects but can leave a needed limit unavailable. Completion retains an embedded copy of the starting domain and supplies those limits; returning a source result still requires its allowed form. | **Adapt** this explanatory contrast in C.29.1:5.4's rational-setting construction. The example and its parity argument are this pattern's worked synthesis. In physical modeling, relate the resulting mathematical quantities to the preparations and observations for which the model is used. |
 
-The pattern's synthesis is the practitioner sequence connecting these obligations to the intended answer: construct the map, compare operations and availability, establish independence or coverage, and return the consequence. The reservation, permission-sensitive route and thermal constructions derive their own claims from their stated premises. The cited sources supply reusable mathematical lines, not evidence that a particular physical or organizational application satisfies those premises.
+The pattern's synthesis is the practitioner sequence connecting these obligations to the intended answer: construct the map, compare operations and availability, establish independence or coverage, and return the consequence. The reservation, route, thermal and rational-setting constructions derive their claims from their stated premises. The cited sources supply reusable mathematical lines, not evidence that a particular physical or organizational application satisfies those premises.
 
 A direct proof in the original account remains a serious alternative. Prefer it when it is simpler than establishing and maintaining a transfer. Reconsider a chosen summary when a new query needs a distinction it omits, when composition introduces a new condition, or when a tighter justified bound changes the decision. Reopen the mathematical work affected by that change.
 

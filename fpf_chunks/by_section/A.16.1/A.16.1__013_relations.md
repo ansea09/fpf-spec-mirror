@@ -6,12 +6,12 @@ section_id: "A.16.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__013_relations.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:12 — Relations"
-line_start: 29276
-line_end: 29280
+line_start: 29278
+line_end: 29282
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "B.5.2.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__001_intro.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:intro — Intro"
-line_start: 42385
-line_end: 42391
+line_start: 42770
+line_end: 42776
 dependencies:
   - "A.17"
   - "A.18"

@@ -6,12 +6,12 @@ section_id: "A.19.SPR:5"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__007_worked-examples.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:5 — Worked examples"
-line_start: 30775
-line_end: 30810
+line_start: 30777
+line_end: 30812
 dependencies:
   - "A.10"
   - "A.16"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.8.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
-line_start: 27712
-line_end: 27936
+line_start: 27714
+line_end: 27938
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "F.11:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__006_minimal-vocabulary.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:5 — Minimal vocabulary"
-line_start: 99550
-line_end: 99560
+line_start: 99955
+line_end: 99965
 dependencies:
   - "A.15"
   - "A.15.1"

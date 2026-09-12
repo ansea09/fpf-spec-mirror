@@ -6,12 +6,12 @@ section_id: "B.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__006_archetypal-grounding.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:5 — Archetypal Grounding"
-line_start: 41206
-line_end: 41305
+line_start: 41208
+line_end: 41307
 dependencies:
   - "A.10"
   - "B.5.1"

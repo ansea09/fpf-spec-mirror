@@ -6,12 +6,12 @@ section_id: "G.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 106159
-line_end: 106184
+line_start: 106564
+line_end: 106589
 dependencies:
   - "A.10"
   - "A.13"

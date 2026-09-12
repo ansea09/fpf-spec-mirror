@@ -6,12 +6,12 @@ section_id: "C.2:5"
 section_title: "✱ Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:5 — ✱ Archetypal Grounding (Tell–Show–Show)"
-line_start: 42846
-line_end: 42853
+line_start: 43231
+line_end: 43238
 dependencies:
   - "A.1"
   - "A.10"

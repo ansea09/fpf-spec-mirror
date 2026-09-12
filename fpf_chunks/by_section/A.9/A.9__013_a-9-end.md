@@ -6,12 +6,12 @@ section_id: "A.9:End"
 section_title: "A.9:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__013_a-9-end.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:End — A.9:End"
-line_start: 22818
-line_end: 22819
+line_start: 22820
+line_end: 22821
 dependencies:
   - "A.1"
   - "A.8"

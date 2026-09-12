@@ -6,12 +6,12 @@ section_id: "C.28:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__013_sota-echoing.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:11 — SoTA-Echoing"
-line_start: 58702
-line_end: 58717
+line_start: 59087
+line_end: 59102
 dependencies:
   - "A.10"
   - "A.15"

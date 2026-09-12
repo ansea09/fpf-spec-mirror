@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:3"
 section_title: "Forces (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__005_forces-normative.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:3 — Forces (normative)"
-line_start: 34072
-line_end: 34082
+line_start: 34074
+line_end: 34084
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

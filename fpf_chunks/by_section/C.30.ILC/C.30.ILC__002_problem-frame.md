@@ -6,12 +6,12 @@ section_id: "C.30.ILC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__002_problem-frame.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:1 — Problem frame"
-line_start: 63938
-line_end: 63972
+line_start: 64343
+line_end: 64377
 dependencies:
   - "A.10"
   - "A.22"

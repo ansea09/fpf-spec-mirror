@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__001_intro.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:intro — Intro"
-line_start: 46132
-line_end: 46137
+line_start: 46517
+line_end: 46522
 dependencies:
   - "A.10"
   - "A.15.1"

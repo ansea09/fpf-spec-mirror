@@ -6,12 +6,12 @@ section_id: "C.30.LCA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__010_consequences.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:9 — Consequences"
-line_start: 63897
-line_end: 63902
+line_start: 64302
+line_end: 64307
 dependencies:
   - "A.10"
   - "A.20"

@@ -6,12 +6,12 @@ section_id: "C.29.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__006_archetypal-grounding.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:5 — Archetypal Grounding"
-line_start: 59917
-line_end: 60030
+line_start: 60302
+line_end: 60434
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -134,4 +134,23 @@ Temperature differences are added to a temperature on the same scale. At k = 1 t
 If an exact maximum is wanted, retaining (m,|d|) is sufficient under this symmetric update. The sign of d is needed only for questions distinguishing which body is warmer. Retain the distinction needed by the question, rather than restoring both coordinates automatically.
 
 **Returned result and return condition.** The bound answers the stated question at the second sampling instant under the supplied model. It does not assert that the bodies were always below 60 °C: the initial pair (20,80) was not. Unequal heat capacities, external heat exchange or a changed transfer rule require a new update and a new comparison. Establishing that this discrete model predicts an actual pair of bodies requires physical and measurement work; B.5.MPC connects that work to the mathematical result.
+
+#### C.29.1:5.4 - Return a rational result from a real-number construction
+
+A calculation accepts positive rational settings x and needs `|x² − 2| ≤ 0.01`. If a rational candidate is already supplied, substituting it can settle this question. The following construction uses an available positive real root of `x² = 2` to obtain a rational candidate.
+
+The inclusion of the rationals in the reals retains their equality, order, addition and multiplication. The larger domain also contains limits of rational sequences that have no rational limit. This supplies new mathematical objects without merging distinct rational inputs. The needed return is still a rational setting satisfying the original inequality.
+
+Compute rational bounds:
+
+~~~text
+1.414² = 1.999396 < 2
+1.415² = 2.002225 > 2
+~~~
+
+Squaring is increasing on the positive reals, so the root lies between those endpoints. Choose the rational setting `x = 1.414` and check the requested result: `|x² − 2| = 0.000604 ≤ 0.01`. The returned setting and its error calculation answer the original question. C.29.2 develops a procedure when obtaining such bounds requires one.
+
+Now change the requirement to a rational setting with `x² = 2`. Suppose `x = p/q` is in lowest terms, with integers p and nonzero q. Then `p² = 2q²`, so p is even. Substituting `p = 2r` shows that q is also even, contradicting lowest terms. The real root therefore has no rational counterpart. Return that obstruction; the requester can retain a tolerance or change the allowed number domain.
+
+The extension supports a useful approximation and an existence argument in the larger domain. Which result can be returned depends on the requested property and the allowed source settings.
 

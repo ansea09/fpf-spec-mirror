@@ -6,12 +6,12 @@ section_id: "A.16.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__001_intro.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:intro — Intro"
-line_start: 28864
-line_end: 28883
+line_start: 28866
+line_end: 28885
 dependencies:
   - "A.16"
   - "A.16.1"

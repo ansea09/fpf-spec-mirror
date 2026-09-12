@@ -6,12 +6,12 @@ section_id: "B.1.6:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__016_relations.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:10 — Relations"
-line_start: 38288
-line_end: 38297
+line_start: 38290
+line_end: 38299
 dependencies:
   - "A.1"
   - "A.10"

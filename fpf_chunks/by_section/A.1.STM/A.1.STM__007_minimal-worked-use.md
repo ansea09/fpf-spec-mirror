@@ -6,12 +6,12 @@ section_id: "A.1.STM:5"
 section_title: "Minimal worked use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__007_minimal-worked-use.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:5 — Minimal worked use"
-line_start: 2991
-line_end: 3002
+line_start: 2993
+line_end: 3004
 dependencies:
   - "A.1"
   - "A.1.CSD"

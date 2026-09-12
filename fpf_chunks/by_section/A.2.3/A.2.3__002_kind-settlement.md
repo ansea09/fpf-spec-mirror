@@ -6,12 +6,12 @@ section_id: "A.2.3:0.1"
 section_title: "Kind Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__002_kind-settlement.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:0.1 — Kind Settlement"
-line_start: 4226
-line_end: 4229
+line_start: 4228
+line_end: 4231
 dependencies:
   - "A.1.1"
   - "A.10"

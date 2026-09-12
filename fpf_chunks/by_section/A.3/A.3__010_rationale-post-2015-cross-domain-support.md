@@ -6,12 +6,12 @@ section_id: "A.3:9"
 section_title: "Rationale (post‑2015 cross‑domain support)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__010_rationale-post-2015-cross-domain-support.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:9 — Rationale (post‑2015 cross‑domain support)"
-line_start: 7985
-line_end: 7997
+line_start: 7987
+line_end: 7999
 dependencies:
   - "A.10"
   - "A.12-A.15"

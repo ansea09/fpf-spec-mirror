@@ -6,12 +6,12 @@ section_id: "E.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__001_intro.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:intro — Intro"
-line_start: 83698
-line_end: 83707
+line_start: 84103
+line_end: 84112
 dependencies:
   - "C.18"
   - "C.19"

@@ -6,12 +6,12 @@ section_id: "C.24:10"
 section_title: "Rationale and current practice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__015_rationale-and-current-practice.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:10 — Rationale and current practice"
-line_start: 55181
-line_end: 55195
+line_start: 55566
+line_end: 55580
 dependencies:
   - "A.10"
   - "A.15"

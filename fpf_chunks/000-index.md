@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `4865bcb9123ba04cb2a433c95bf6401be20fe8cb`
+Commit SHA: `7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab`
 
 Chunking method: `pattern-aware`
 
-Patterns: `322`
+Patterns: `324`
 
 ## Patterns
 
@@ -131,6 +131,8 @@ Patterns: `322`
 - [B.4.1 — Observe -> Notice -> Stabilize -> Route](by_pattern/B.4.1.md)
 - [B.5 — Canonical Reasoning Cycle](by_pattern/B.5.md)
 - [B.5.MPC — Connect Physical, Mathematical and Computational Reasoning](by_pattern/B.5.MPC.md)
+- [B.5.RC — Recover a Construction from Its Description](by_pattern/B.5.RC.md)
+- [B.5.RA — Recover an Argument for Its Next Use](by_pattern/B.5.RA.md)
 - [B.5.1 — Explore → Shape → Evidence → Operate](by_pattern/B.5.1.md)
 - [B.5.2 — Abductive Loop](by_pattern/B.5.2.md)
 - [B.5.2.0 — U.AbductivePrompt](by_pattern/B.5.2.0.md)

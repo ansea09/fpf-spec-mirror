@@ -6,12 +6,12 @@ section_id: "A.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__001_intro.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:intro — Intro"
-line_start: 3085
-line_end: 3090
+line_start: 3087
+line_end: 3092
 dependencies:
   - "A.1"
   - "A.1.1"

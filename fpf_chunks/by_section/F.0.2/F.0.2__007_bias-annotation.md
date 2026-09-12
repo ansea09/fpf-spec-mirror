@@ -6,12 +6,12 @@ section_id: "F.0.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__007_bias-annotation.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
   - "F.0.2:6 — Bias-Annotation"
-line_start: 95881
-line_end: 95894
+line_start: 96286
+line_end: 96299
 dependencies:
   - "A.2.4"
   - "C.2.1"

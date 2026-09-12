@@ -6,12 +6,12 @@ section_id: "E.9:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__010_bias-annotation.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:6 — Bias-Annotation"
-line_start: 76995
-line_end: 77006
+line_start: 77400
+line_end: 77411
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "C.22.2:14"
 section_title: "Source and P2W Carry-Forward"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__015_source-and-p2w-carry-forward.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:14 — Source and P2W Carry-Forward"
-line_start: 54420
-line_end: 54443
+line_start: 54805
+line_end: 54828
 dependencies:
   - "A.10"
   - "A.15"

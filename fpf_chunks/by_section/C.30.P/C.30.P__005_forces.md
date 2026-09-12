@@ -6,12 +6,12 @@ section_id: "C.30.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__005_forces.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:3 — Forces"
-line_start: 62389
-line_end: 62399
+line_start: 62794
+line_end: 62804
 dependencies:
   - "A.10"
   - "A.15"

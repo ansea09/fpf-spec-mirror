@@ -6,12 +6,12 @@ section_id: "B.5.3:End"
 section_title: "B.5.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__010_b-5-3-end.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:End — B.5.3:End"
-line_start: 42653
-line_end: 42654
+line_start: 43038
+line_end: 43039
 dependencies:
   - "A.13"
   - "A.15"

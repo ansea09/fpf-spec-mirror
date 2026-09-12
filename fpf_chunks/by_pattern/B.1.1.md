@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.1.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
-line_start: 36711
-line_end: 36925
+line_start: 36713
+line_end: 36927
 dependencies:
   - "A.1"
   - "A.10"

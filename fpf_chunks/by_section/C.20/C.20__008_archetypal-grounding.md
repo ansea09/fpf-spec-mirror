@@ -6,12 +6,12 @@ section_id: "C.20:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__008_archetypal-grounding.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:5 — Archetypal Grounding"
-line_start: 52715
-line_end: 52766
+line_start: 53100
+line_end: 53151
 dependencies:
   - "A.1"
   - "A.14"

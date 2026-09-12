@@ -6,12 +6,12 @@ section_id: "F.15:9"
 section_title: "Static conformance rules for composed material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__011_static-conformance-rules-for-composed-material.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:9 — Static conformance rules for composed material"
-line_start: 100771
-line_end: 100805
+line_start: 101176
+line_end: 101210
 dependencies:
   - "A.1.1"
   - "A.10"

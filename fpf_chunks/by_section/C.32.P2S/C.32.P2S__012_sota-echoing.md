@@ -6,12 +6,12 @@ section_id: "C.32.P2S:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__012_sota-echoing.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:11 — SoTA-Echoing"
-line_start: 66385
-line_end: 66401
+line_start: 66790
+line_end: 66806
 dependencies:
   - "A.1"
   - "A.1.SCR"

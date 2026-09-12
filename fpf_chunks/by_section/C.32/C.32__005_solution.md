@@ -6,12 +6,12 @@ section_id: "C.32:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__005_solution.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:4 — Solution"
-line_start: 65837
-line_end: 65928
+line_start: 66242
+line_end: 66333
 dependencies:
   - "A.10"
   - "A.15"

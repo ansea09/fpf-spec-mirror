@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.29 — Mathematical Lens Use"
-line_start: 58738
-line_end: 59735
+line_start: 59123
+line_end: 60120
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -86,13 +86,13 @@ If no concrete object can yet be chosen, retain the working cue and the next obs
 
 ### C.29:1 - Problem frame
 
-A mathematical representation can make a working question answerable by retaining only the structure that matters to it. The same reduction can invalidate another question. A queue may expose flow restrictions while omitting rework or failures; an aggregate state may support one bound but lose the information needed for an exact trajectory.
+A mathematical representation can make a working question answerable by exposing the relations needed for an inference. It may combine source cases into a summary, change coordinates without losing distinctions, or embed the source in a larger mathematical domain. Each construction supports different uses. A queue may expose flow restrictions while omitting rework; an extension of the rational numbers to the reals makes limits available while retaining rational arithmetic.
 
 C.29 addresses this representation choice and its use across a stated correspondence. It begins either with a working problem that needs a useful construction or with a proposed representation whose consequence needs to be derived, limited or rejected. Domain theory supplies the mathematical laws and application conditions.
 
-> **A useful mathematical lens is compression with invariants and declared losses.**
+> **A useful mathematical lens makes a needed inference possible through an explained correspondence.**
 
-The practical questions are: what survives the transfer, what is lost, what follows, and where does that inference stop?
+Ask what the correspondence preserves, omits or introduces, which operations it supports, and how the resulting conclusion answers the working question.
 
 #### C.29:1.1 - First-minute working situation
 
@@ -122,8 +122,8 @@ The practitioner therefore needs both construction and criticism: make the relev
 
 | Force | Tension |
 |---|---|
-| **Compression vs truthfulness** | A useful mathematical lens compresses many cases by pairing compression with declared losses. |
-| **Plural mathematical foundations vs FPF simplicity** | The intended gain is access to modern plural foundations and applied mathematics, with each selected lens tied to a stated use and declared loss. |
+| **Useful representation vs justified return** | A summary, coordinate change or larger mathematical domain can simplify an inference. Returning its result requires the correspondence and conditions that support the source question. |
+| **Plural mathematical foundations vs FPF simplicity** | Different foundations and constructions open different operations; choose them for the question and explain the needed correspondence. |
 | **First-use effort vs later scrutiny** | A first calculation may need only a stated correspondence and assumptions; consequential reuse needs a recoverable argument, losses and validation. |
 | **Transfer reach vs domain fit** | Cross-domain transfer can expose useful structure. Establish the correspondence and material losses for the receiving question before relying on the transferred lens. |
 
@@ -134,7 +134,7 @@ The practitioner therefore needs both construction and criticism: make the relev
 1. **State the working question.** Name the quantity, relation, distinction or possibility that would change the next action. Recover the intended use and the precision or range it needs.
 2. **Choose a concrete mathematical object.** Specify its elements, variables, relations, operations and constraints. Use the least costly adequate local theory or construction. A family name is a discovery cue; if no object is yet available, keep a candidate and name the next observation or construction.
 3. **Establish the correspondence.** Say what each relevant element or operation represents and in what direction the inference is used. Distinguish an analogy, a fitted representation, a simulation and an exact structure-preserving map. State the assumptions, scale and context that the correspondence requires.
-4. **Determine what the inference retains and loses.** Identify the invariant, order, composition, dependence, boundary or other structure on which the intended result relies. Identify the omitted distinctions that could change that result. An empty loss claim requires a justified equivalence or isomorphism. Use C.29.1 when preservation of an operation or identification of source cases needs to be established.
+4. **Determine what the correspondence preserves, omits or introduces.** Identify the structure on which the intended result relies and any omitted distinction that could change it. Establish the preservation claimed for the needed operations. If the receiving domain adds objects or operations, determine which of their results answer the source question. C.29.1 constructs these comparisons, including cases with no loss of source distinctions and cases where a receiving solution has no source counterpart.
 5. **Do the mathematical work.** Calculate, derive, construct or demonstrate the obstruction. For a missing computational formulation or procedure, use C.29.2; for an unsettled connection to an executing system, use C.29.3. Return the result through the correspondence to the working question. A statement that a queue “exposes bottlenecks” is not yet the bottleneck calculation.
 6. **Choose the resulting action and its limit.** Use the result within its assumptions, collect a discriminating observation, compare a relevant rival, narrow the question or reject the representation. Test the material loss and changed premises. When another person or later use needs the account, retain the smallest sufficient record under :4.4.
 
@@ -658,7 +658,7 @@ This is not a first-class causal abstraction card. It is a lightweight check: wh
 | no `CandidateMathObject` | If the problem still needs a mathematical lens for the next lens-use action, first name the `ProblemStructureCue` and write a `MathLensUse.LensCandidateNote` with the cheapest candidate lens family and next lens-use action; downgrade to ordinary prose or remove the mathematical claim only when no candidate lens changes action. |
 | no `LensMappingMode` | Choose a lens mapping mode or downgrade to analogy-only prompt. |
 | no `PreservedStructure` | Remove the claim-bearing mathematical phrase. |
-| no `LostStructure` | Add a loss note, or justify a lossless equivalence or isomorphism claim through the subject pattern. |
+| no `LostStructure` account | Describe the omitted source distinctions. If none are lost for this use, explain why the relevant distinctions and operations are preserved. C.29.1 supplies the comparison. |
 | no invariant, obstruction, distinction, or payoff | Keep the phrase as didactic recognition cue or orientation-only. |
 | no `LensBoundedPredictionOrDistinction` where decision, prediction, or model selection is being claimed | Block decision or assurance use; downgrade to analogy-only if no declared lens-use consequence is named. |
 | evidence is analogy-only | Block decision, publication-as-established-model, assurance, release, and causal use unless evidence relation, validation regime, causal-use relation, or assurance result is supplied by its subject pattern. |
@@ -750,7 +750,7 @@ Local `SourceUseRelation` slot discipline:
 | `CandidateMathObject` | Concrete mathematical object, structure, formal position, learned representation, or local formalism. | Broad family labels are prompts until narrowed. |
 | `LensMappingMode` | `C.29`-local lens mapping mode. | Cross-context transfer uses `F.9` when bridge semantics are being claimed. |
 | `PreservedStructure` | Structure preserved by the lens in the declared use. | No preserved structure means the mathematical phrase cannot justify the stated use. |
-| `LostStructure` | Structure the lens drops, abstracts away, or does not preserve. | Empty loss requires explicit equivalence or isomorphism justification through the subject pattern. |
+| `LostStructure` | Source structure the representation omits or does not preserve. | When none is lost for the stated use, name the preserved distinctions and operations and the reason preservation holds. A receiving domain may still contain additional objects; use C.29.1 to establish what can be returned. |
 | `InvariantsExposed` | Invariant, obstruction, fixed point, symmetry, conservation law, diagnostic boundary, or other payoff. | If no payoff is visible, downgrade to recognition cue. |
 | `ObservableOrControllableCue?` | Cheap cue naming what can be observed, read out, assigned, varied, or validated before a candidate lens can change action. Examples include arrivals, work in progress, service time, wait time, edge meaning, intervention assignment, outcome readout, observation map, validation slice, scale variable, or scale point. | When making a measurement, evidence, causal or dynamics claim, apply its corresponding pattern in :4.4.6. |
 | `ObservationOrReadoutNeeded?` | Optional one-line note naming the observable, readout, assignment, outcome, validation slice, or scale point still needed before the stated bounded lens-use action is justified. | If the account of this missing item makes a measurement, evidence, causal, dynamics, or validation claim, apply the neighboring pattern that governs that claim. |
@@ -782,7 +782,7 @@ Name: `C.29 — Mathematical Lens Use`.
 
 Local namespace: `MathLensUse` = **Mathematical Lens Use**. The pattern-local card and reference namespace uses `MathLensUse`; checklist IDs use `CC-C29-*`.
 
-The stable name is `Mathematical Lens Use` because `C.29` governs a declared use and its use boundary. Plain prose can still say that a useful mathematical lens compresses many cases while preserving declared distinctions; claim-bearing use is recovered through `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition`.
+The stable name is `Mathematical Lens Use` because `C.29` governs a declared use and its use boundary. A mathematical lens may summarize, re-express or extend an account. For a recorded use, `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition` describe the correspondence and its limits.
 
 #### C.29:6.1a - C.29-local naming guard
 
@@ -930,7 +930,7 @@ Use this checklist after constructing or delimiting the result in :4.1. Its cond
 
 ### C.29:12 - Rationale
 
-The useful compression is question-relative. The same two-station recurrence distinguishes output rate from latency; it also reveals why increasing arrival pressure cannot yield a bounded long-run delay in that model. A reader who already has the adequate domain construction, correspondence and limitations can use it directly. C.29 is helpful when one of those parts must be recovered before the representation can answer the question.
+The useful representation is question-relative. The two-station recurrence distinguishes output rate from latency while omitting details of the work. An embedding can instead retain the source distinctions and introduce mathematical objects useful for an inference. C.29.1:5.4 uses a real-number construction to obtain a rational approximation, then examines a request that requires a rational solution. These uses depend on different return conditions. A reader with an adequate construction, correspondence and limitations can use them directly; C.29 helps recover whichever contribution is missing.
 
 The cost is explicit construction and a check of material losses. A queue calculation, geometric transformation or learned model still needs its own mathematical Method. C.29's discovery cues help locate a candidate; its reliance rule determines which missing application information must be supplied for the result's use.
 

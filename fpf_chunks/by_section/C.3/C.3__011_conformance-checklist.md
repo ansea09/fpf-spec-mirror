@@ -6,12 +6,12 @@ section_id: "C.3:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__011_conformance-checklist.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:9 — Conformance Checklist"
-line_start: 46583
-line_end: 46597
+line_start: 46968
+line_end: 46982
 dependencies:
   - "A.1"
   - "A.11"

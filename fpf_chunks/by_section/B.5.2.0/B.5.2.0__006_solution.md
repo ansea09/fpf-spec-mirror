@@ -6,12 +6,12 @@ section_id: "B.5.2.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__006_solution.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:4 — Solution"
-line_start: 42225
-line_end: 42261
+line_start: 42610
+line_end: 42646
 dependencies:
   - "A.16"
   - "A.16.0"

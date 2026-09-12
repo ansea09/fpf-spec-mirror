@@ -6,12 +6,12 @@ section_id: "A.1.1:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__002_practitioner-entry.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:0 — Practitioner entry"
-line_start: 1954
-line_end: 1993
+line_start: 1956
+line_end: 1995
 dependencies:
   - "A.1"
   - "A.14"

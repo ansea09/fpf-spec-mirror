@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__013_relations.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
   - "E.8.ECSPF:12 — Relations"
-line_start: 76728
-line_end: 76747
+line_start: 77133
+line_end: 77152
 dependencies:
   - "A.19.ECS"
   - "C.25"

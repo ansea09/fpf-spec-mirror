@@ -6,12 +6,12 @@ section_id: "A.6.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__004_forces.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:3 — Forces"
-line_start: 15972
-line_end: 15979
+line_start: 15974
+line_end: 15981
 dependencies:
   - "A.10"
   - "A.15"

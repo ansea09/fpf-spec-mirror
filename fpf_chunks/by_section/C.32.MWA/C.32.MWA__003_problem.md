@@ -6,12 +6,12 @@ section_id: "C.32.MWA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__003_problem.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:2 — Problem"
-line_start: 67865
-line_end: 67876
+line_start: 68270
+line_end: 68281
 dependencies:
   - "A.15.1"
   - "A.22"

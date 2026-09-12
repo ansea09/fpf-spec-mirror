@@ -6,12 +6,12 @@ section_id: "A.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__009_conformance-checklist.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:7 — Conformance Checklist"
-line_start: 1866
-line_end: 1884
+line_start: 1868
+line_end: 1886
 dependencies:
   - "A.1.1"
   - "A.1.STM"

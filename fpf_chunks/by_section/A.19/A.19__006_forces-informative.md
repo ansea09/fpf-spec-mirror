@@ -6,12 +6,12 @@ section_id: "A.19:4"
 section_title: "Forces (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__006_forces-informative.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:4 — Forces (Informative)"
-line_start: 30022
-line_end: 30030
+line_start: 30024
+line_end: 30032
 dependencies:
   - "A.10"
   - "A.15"

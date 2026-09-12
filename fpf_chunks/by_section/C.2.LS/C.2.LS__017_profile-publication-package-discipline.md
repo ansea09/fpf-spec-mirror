@@ -6,12 +6,12 @@ section_id: "C.2.LS:16"
 section_title: "Profile Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__017_profile-publication-package-discipline.md"
-commit_sha: "4865bcb9123ba04cb2a433c95bf6401be20fe8cb"
+commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:16 — Profile Publication Package Discipline"
-line_start: 45088
-line_end: 45107
+line_start: 45473
+line_end: 45492
 dependencies:
   - "A.16"
   - "A.16.0"
