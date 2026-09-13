@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__012_sota-echoing.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:11 — SoTA-Echoing"
-line_start: 17144
-line_end: 17162
+line_start: 18309
+line_end: 18327
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"

@@ -6,12 +6,12 @@ section_id: "C.11.DUA:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__011_architectural-rationale.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.11.DUA — Decision-Useful Advice and Evidence Demands"
   - "C.11.DUA:10 — Architectural Rationale"
-line_start: 49600
-line_end: 49607
+line_start: 52025
+line_end: 52032
 dependencies:
   - "A.10"
   - "C.11"

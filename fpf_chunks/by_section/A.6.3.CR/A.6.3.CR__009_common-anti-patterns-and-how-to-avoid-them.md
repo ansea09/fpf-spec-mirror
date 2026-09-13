@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 14969
-line_end: 14977
+line_start: 15897
+line_end: 15905
 dependencies:
   - "A.15"
   - "A.6.2"

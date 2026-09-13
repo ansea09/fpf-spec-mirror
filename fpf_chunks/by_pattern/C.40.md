@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
-line_start: 71263
-line_end: 71436
+line_start: 75463
+line_end: 75631
 dependencies:
   - "C.11"
   - "C.18"
@@ -34,7 +34,7 @@ The primary concern is the material being developed and the warranted continuati
 
 Change something feasible, examine the resulting difference, and keep the actual material and conditions needed for a useful continuation. The first result is an examined variation with a justified continuation or stop. This transdisciplinary guidance relies on the professional operation that actually changes and examines the material.
 
-Use the directly accessible coupled problem-and-solution entry in section 4.3 when problems and ways need development together. Ordinary variation does not require inventing a new problem. Reuse a sufficient existing result or way without entering either search. If the missing operation is how to obtain a local result at all, C.39 supplies that constructive explanation; a settled ultimate goal is not the discriminator.
+Use C.40.CD, also reached from section 4.3, when problems and ways need development together. Ordinary variation does not require inventing a new problem. Reuse a sufficient existing result or way without entering either search. If the missing operation is how to obtain a local result at all, C.39 supplies that constructive explanation; a settled ultimate goal is not the discriminator.
 
 ### C.40:2 - Problem
 
@@ -76,15 +76,11 @@ Preserve the actual permissions, confidentiality limits, means and participant c
 
 #### C.40:4.3 - Coupled problem-and-solution search
 
-Enter here directly when several problems and available ways need joint development. Use the material-changing and examination operations in section 4.1 where needed; do not repeat a completed pass merely to enter this branch.
+Enter here when problems and available ways need development together. C.40.CD supplies the full Method: recover a sought result and usable construction, form a consequential changed question, adapt the obtaining operation, examine it under target conditions, and use the outcome to choose the next question or use.
 
-1. **State the actual problems and ways.** For each problem, identify the required result, protected conditions and observed limit. Distinguish a receiving need from an experimental challenge or conjectured opportunity. If an existing way adequately answers the fixed target problem, use it and stop.
-2. **Construct a few meaningful changed problems.** Change a relevant condition, recipient, demanded result or available means. Explain the change and how its validity and difficulty can be examined. Reject an invalid construction; leave unexamined tractability unknown. A new recipient name establishes no demand, and current inability establishes no permanent impossibility.
-3. **Recover or develop ways worth trying.** Use the applicable professional operation and section 4.1's variation–examination work. A missing obtaining explanation goes to C.39 for that contribution. Consider only attempts whose attainable result can warrant their full burden.
-4. **Examine transfer at the target.** Apply a source way, or a justified adaptation, to target material and test the target's own requirements. Keep successful, failed, mixed and unperformed transfers distinct. A source success cannot substitute for the target observation.
-5. **Use the outcome to change the next question.** Recover a missing target condition, narrow the demanded result, revise the operation, construct another warranted problem, or stop the unsupported transfer. Keep the source way's earlier qualified uses when the new result does not invalidate them.
+Keep the original receiving requirement connected to any narrower or exploratory problem. A partial target result may permit one useful comparison while another needed comparison remains unsupported. The next inquiry follows that remaining condition or another worthwhile use of the new construction.
 
-The additional result is the examined problem–way combinations, their target-transfer outcomes and the next answer-changing question. It is not merely a larger list of challenges or automatic selection of a final course.
+Use section 4.1's material-changing and examination operations where needed. A sufficient existing answer can finish the work. B.5.QD constructs a missing question; C.39.RO constructs an operation for changed or combined use. C.40.CD connects those results through target application and preserves the conditions for a useful continuation.
 
 #### C.40:4.4 - Use stronger claims only when they matter
 
@@ -127,13 +123,11 @@ If the receiving contribution is unsettled, a complete time-ordered view supplie
 
 #### C.40:5.3 - Let a mixed transfer change the target question
 
-The target investigation has a supplied professional requirement: comparison cases must share both setup and temperature regime. From that requirement, the practitioner formulates the local problem: recover error/non-error pairs meeting both restrictions and expose where the records cannot support a comparison. Whether the available records can support such comparisons is initially unknown. The permitted synthetic target records are T1/error/S1/warm, T2/acceptable/S1/cool, T3/error/S2/warm and T4/acceptable/S2/warm.
+A target investigation requires comparison cases to share both setup and temperature regime. A source operation groups by setup alone. C.40.CD:5.1 carries the complete four-record case and the changed construction.
 
-The source setup-only rule would pair T1–T2 and T3–T4. Examining the target condition rejects the first pair. Using an available filter to add temperature to the grouping returns one eligible pair, T3–T4, and no eligible S1 pair.
+The original grouping returns T1–T2 and T3–T4. The target's temperature condition rejects T1–T2. Adding temperature to the grouping retains T3–T4 for S2/warm and leaves no eligible S1 pair.
 
-The mixed transfer changes the next problem: a bounded S2/warm comparison may continue if useful; an S1 explanation needs comparable target cases or a narrower demanded result. Repeating the old pairing cannot fill that gap. Keep the failed S1 transfer and its condition alongside the successful grouping result. Neither grouping establishes a cause, and neither failure invalidates the original same-setup use where its conditions remain qualified.
-
-This is coupled development because the target condition changes the usable way and the examined result changes the next problem. Simply copying the source success or renaming the beneficiary would not perform those operations.
+The result supports the narrower S2 comparison if useful. An S1 explanation needs comparable cases or a revised question; repeating the old grouping leaves that gap. The source operation retains its earlier qualified uses. The grouping establishes comparison eligibility, with causal explanation remaining a separate question.
 
 ### C.40:6 - Bias-Annotation
 
@@ -169,7 +163,7 @@ Useful intermediate results can support later attempts without being promoted to
 
 The common operation is changing material, examining the difference and choosing a warranted continuation. These development steps serve both a selected contribution and exploration before a destination is settled; the examination question changes with the intended use.
 
-Coupled development adds problem construction and target-tested transfer to that common work. Its directly accessible entry lets the practitioner develop problems and ways together without repeating an already completed material-development pass.
+Coupled development adds problem construction and target-tested transfer to that common work. C.40.CD explains their dependency: a changed problem can require another operation, while a partial result or new construction can change the next useful question. Its separate entry preserves the original receiving requirement through those changes.
 
 C.39 remains separate because an obtaining explanation can finish before any variation is feasible. An archive or a continuation policy likewise has a useful independent result, but neither supplies the changing operation.
 
@@ -179,11 +173,12 @@ C.39 remains separate because an obtaining explanation can finish before any var
 | --- | --- | --- |
 | How can retained material support a useful next attempt before its ultimate contribution is settled? The selected line is examined variation with warranted intermediate retention. | **Adapt** the branching-discovery argument in Stanley and Lehman's [Why Greatness Cannot Be Planned](https://link.springer.com/book/10.1007/978-3-319-15524-1) (2015, especially chapters 3–6) in sections 4.1–4.2. The historical argument supplies an action-changing alternative to keeping only the present winner; its anecdotes do not establish universal institutional policy or inevitable progress. A sufficient attainable objective remains a serious cheaper choice. | Reopen if actual receiving use shows that retention cannot support the named continuation or a cheaper direct Method supplies the whole result. |
 | Can branching serve a fixed contribution rather than require new-problem generation? | [Darwin Gödel Machine v3, section 3](https://arxiv.org/html/2505.22954v3#S3) supplies a concrete evaluator-guided countercase: coding-agent variants branch from retained predecessors under supplied task evaluation. **Adapt** non-incumbent continuation to section 4.2; **reject** a universal ban on objectives. This computational evidence does not demonstrate human or organizational search effectiveness. | Reopen when the selected material cannot be changed or examined as assumed, or when incumbent-only development is sufficient at lower burden. |
-| What extra operation makes changing problems and cross-problem reuse productive? | [POET v3, sections 3 and 6](https://arxiv.org/html/1901.01753v3) supplies the paired environment/agent and target-transfer construction. **Adapt** meaningful problem variation and target examination in section 4.3; fixed-problem branching remains sufficient where no changed problem is needed. **Reject** universal numeric thresholds, oldest-member removal and treating a person's capability as a copyable policy vector. The paper is a computational instantiation, not proof of transdisciplinary effect. | Reopen when the proposed target problem is invalid, target examination is unavailable, or the coupled entry needs a different operative core. |
+| What extra operation makes changing problems and cross-problem reuse productive? | [POET v3, sections 3 and 6](https://arxiv.org/html/1901.01753v3) supplies the paired environment/agent and target-transfer construction. **Adapt** meaningful problem variation and target examination in section 4.3 and C.40.CD; fixed-problem branching remains sufficient where no changed problem is needed. **Reject** universal numeric thresholds, oldest-member removal and treating a person's capability as a copyable policy vector. The paper is a computational instantiation, not proof of transdisciplinary effect. | Reopen when the proposed target problem is invalid, target examination is unavailable, or the coupled entry needs a different operative core. |
 
 The best-known line selected for these bounded questions combines the actual shared operations with conditional problem construction and target testing. Later generator, representation and transfer-scheduling variants do not make one implementation universal. A broader claim of present algorithmic superiority would require its own current comparison.
 
 ### C.40:12 - Relations
+- C.40.CD constructs problems and obtaining ways together through examined target use; B.5.QD and C.39.RO supply question and operation construction.
 
 - C.39 develops a missing obtaining explanation for a local contribution; it is not a compulsory preliminary stage.
 - C.18 distinguishes archive, front, lineage and possibility-space claims about the developed material.

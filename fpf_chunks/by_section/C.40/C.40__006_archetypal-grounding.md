@@ -6,12 +6,12 @@ section_id: "C.40:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__006_archetypal-grounding.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:5 — Archetypal Grounding"
-line_start: 71337
-line_end: 71377
+line_start: 75533
+line_end: 75571
 dependencies:
   - "C.11"
   - "C.18"
@@ -54,11 +54,9 @@ If the receiving contribution is unsettled, a complete time-ordered view supplie
 
 #### C.40:5.3 - Let a mixed transfer change the target question
 
-The target investigation has a supplied professional requirement: comparison cases must share both setup and temperature regime. From that requirement, the practitioner formulates the local problem: recover error/non-error pairs meeting both restrictions and expose where the records cannot support a comparison. Whether the available records can support such comparisons is initially unknown. The permitted synthetic target records are T1/error/S1/warm, T2/acceptable/S1/cool, T3/error/S2/warm and T4/acceptable/S2/warm.
+A target investigation requires comparison cases to share both setup and temperature regime. A source operation groups by setup alone. C.40.CD:5.1 carries the complete four-record case and the changed construction.
 
-The source setup-only rule would pair T1–T2 and T3–T4. Examining the target condition rejects the first pair. Using an available filter to add temperature to the grouping returns one eligible pair, T3–T4, and no eligible S1 pair.
+The original grouping returns T1–T2 and T3–T4. The target's temperature condition rejects T1–T2. Adding temperature to the grouping retains T3–T4 for S2/warm and leaves no eligible S1 pair.
 
-The mixed transfer changes the next problem: a bounded S2/warm comparison may continue if useful; an S1 explanation needs comparable target cases or a narrower demanded result. Repeating the old pairing cannot fill that gap. Keep the failed S1 transfer and its condition alongside the successful grouping result. Neither grouping establishes a cause, and neither failure invalidates the original same-setup use where its conditions remain qualified.
-
-This is coupled development because the target condition changes the usable way and the examined result changes the next problem. Simply copying the source success or renaming the beneficiary would not perform those operations.
+The result supports the narrower S2 comparison if useful. An S1 explanation needs comparable cases or a revised question; repeating the old grouping leaves that gap. The source operation retains its earlier qualified uses. The grouping establishes comparison eligibility, with causal explanation remaining a separate question.
 

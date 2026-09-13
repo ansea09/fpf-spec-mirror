@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.RA.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
-line_start: 41998
-line_end: 42190
+line_start: 43422
+line_end: 43614
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -102,7 +102,7 @@ Perform the use named in :4.1. Apply the result under its conditions, explain th
 
 Make the conclusion no stronger than the recovered reasoning supports. If recovering the argument reveals an open premise, state its effect on the intended use. When several sufficient arguments are available, an unresolved branch may be bypassed through a branch whose premises and reasoning are adequate.
 
-If a premise or requested conclusion changes, follow the affected reasoning and derive what still follows through B.5's revision continuation. The recovered dependencies supply the starting point for that work. An unchanged, adequately supported part can be reused.
+If a premise or requested conclusion changes, use B.5.RR to follow the affected reasoning and derive what still follows. The recovered dependencies supply the starting point for that work. An unchanged, adequately supported part can be reused.
 
 C.11.DUA governs whether more checking or information is worth obtaining for this decision. Understanding an argument, verifying its correctness and establishing its real-world premises can require different work. Select further work from the unresolved question. When the work is divided among agents, give the next contributor the premises at the missing transition, the result needed there and the intended use. On return, connect the supplied reasoning to the argument's main reason. Use the explanation or working notation that makes the continuation possible.
 

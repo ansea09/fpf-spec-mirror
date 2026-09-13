@@ -6,12 +6,12 @@ section_id: "C.32.ADA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__011_rationale.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:10 — Rationale"
-line_start: 69539
-line_end: 69544
+line_start: 73519
+line_end: 73524
 dependencies:
   - "A.1.1"
   - "A.10"

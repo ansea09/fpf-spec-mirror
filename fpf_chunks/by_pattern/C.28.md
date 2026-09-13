@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.28.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
-line_start: 58373
-line_end: 59122
+line_start: 61474
+line_end: 62227
 dependencies:
   - "A.10"
   - "A.15"
@@ -367,6 +367,8 @@ An `identified` label without an identifying expression or derivation is incompl
 **Replayable identified case.** For `treatment_effect_in_population_P`, `AdjustmentSet_Z` is justified as blocking the relevant back-door paths. `backdoor_adjustment_derivation_7` states the identifying expression in ordinary terms: compare treated and untreated outcomes within each Z group, then average those differences using the target population's Z distribution. The result cites the data regime, assumptions, expression, and the confounding or overlap change that would reopen it.
 
 **Replayable nonidentified case.** In a treatment cohort, unmeasured severity affects both treatment and outcome, and no valid adjustment set, instrument, proxy, or useful bound is available. `unmeasured_severity_obstruction_3` is the failure witness. The result is `nonidentified`; reporting an adjusted number does not change that status.
+
+For a supplied causal model, C.28.MR derives the consequence by replacing the selected mechanism, retaining the other mechanisms and input law, and solving the relations needed by the query. The following case gives its small observation/intervention entry.
 
 **Replayable sensor case: observation and intervention.** Let `H` denote binary high load and `S` a binary alarm. Stipulate `P(H=1)=0.5`, `P(S=1|H=1)=0.9` and `P(S=1|H=0)=0.1`. Bayes' rule gives `P(H=1|S=1)=0.9` and `P(H=1|S=0)=0.1`. These are observational questions about the stated joint distribution.
 
@@ -779,6 +781,8 @@ When several receiving uses need the same conclusion, the alternative is repeate
 These are bounded selections for the illustrated questions. They preserve cheap prose, expose a mathematical difference when it changes the answer, and require stronger support for a stronger fairness claim. Reopen the selected form if it hides a live causal distinction or requires information that the receiving use does not consume.
 
 ### C.28:12 - Relations
+
+- **C.28.MR** derives an intervention consequence within a supplied causal model, with the replacement, retained conditions and solution needed by that query.
 
 - `C.16` keeps measurements and scales; `C.27` keeps temporal-claim adequacy.
 - `A.10` keeps evidence paths and provenance and may cite C.28 support components and result.

@@ -6,12 +6,12 @@ section_id: "C.29.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__010_consequences.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:9 — Consequences"
-line_start: 60874
-line_end: 60879
+line_start: 64199
+line_end: 64204
 dependencies:
   - "A.10"
   - "A.3.1"

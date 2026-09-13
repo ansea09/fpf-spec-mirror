@@ -6,12 +6,12 @@ section_id: "A.2.6:21"
 section_title: "Relations - Cross-Pattern Coordination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__023_relations-cross-pattern-coordination.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:21 — Relations - Cross-Pattern Coordination"
-line_start: 6260
-line_end: 6287
+line_start: 6490
+line_end: 6517
 dependencies:
   - "A.1.1"
   - "A.15.1"

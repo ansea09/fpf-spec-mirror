@@ -6,12 +6,12 @@ section_id: "C.29:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__010_conformance-checklist.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:9 — Conformance Checklist"
-line_start: 59920
-line_end: 59957
+line_start: 63242
+line_end: 63279
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -42,6 +42,9 @@ dependencies:
   - "C.29.1"
   - "C.29.2"
   - "C.29.3"
+  - "C.29.AV"
+  - "C.29.BB"
+  - "C.29.SC"
   - "C.31.ASAP"
   - "C.39"
   - "E.10"
@@ -73,7 +76,7 @@ Use this checklist after constructing or delimiting the result in :4.1. Its cond
 | `CC-C29-2a Intervention preservation` | If `LensMappingMode` is abstraction, quotient, coarse-graining, macro-model, or simulation and causal use is being claimed, state whether intervention and counterfactual structure is preserved, approximated, or not claimed, then apply `C.28` for causal-use question and verdict. | Prevents causal abstraction laundering. |
 | `CC-C29-3 Lens mapping mode` | State the `C.29`-local lens mapping mode and the concrete correspondence. If bridge semantics are claimed, apply `F.9`. | Makes the correspondence and any needed semantic Bridge explicit. |
 | `CC-C29-4 Preserved structure` | State what structure the lens preserves. When the result uses a transferred operation, establish the needed preservation through C.29.1. When it uses a representative, establish that the choice leaves the required answer unchanged. | Makes the claimed preservation usable in the inference. |
-| `CC-C29-5 Lost structure` | State what does not transfer; if nothing is lost, justify an equivalence or isomorphism claim through the subject pattern. | Prevents map-territory collapse. |
+| `CC-C29-5 Lost structure` | State which source distinctions or operations do not transfer. If none needed for this use are lost, explain their preservation through C.29.1 and distinguish any additional receiving objects from represented source objects. | Supports lossless embeddings as well as lossy representations. |
 | `CC-C29-6 Invariants exposed` | Name invariants, obstructions, fixed points, symmetries, conservation laws, dualities, distinctions, or diagnostic boundaries. | Makes the lens usefulness visible. |
 | `CC-C29-6a First-principles family recovery` | When a first-principles lens-family row from `C.29:4.2b` is used for claim-bearing lens use, recover the concrete `CandidateMathObject` for the candidate family, preserved structure, lost structure, visible payoff, lens-use boundary value, and stop condition or neighboring-pattern application for that family. | Prevents family names such as boundary, cohomology, symmetry, variational, RG, diagonal, composition, probability, information, or structural-information compression from replacing actual MathLensUse recovery. |
 | `CC-C29-6b Bounded-observer structural-information lens` | When MDL, epiplexity, compression, graph information, or description-recoverability changes the next lens-use action, recover `TargetPhenomenon`, source episteme or trace, bounded observer, candidate measure or code, mapping mode, preserved and lost selected structure, visible payoff, observation or postulate boundary, source-return condition, lens-use boundary value, and stop condition. | Makes the selected structure, observer and use limit recoverable. |

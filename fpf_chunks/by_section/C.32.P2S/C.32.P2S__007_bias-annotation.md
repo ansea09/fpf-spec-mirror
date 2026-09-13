@@ -6,12 +6,12 @@ section_id: "C.32.P2S:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__007_bias-annotation.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:6 — Bias-Annotation"
-line_start: 66730
-line_end: 66741
+line_start: 70710
+line_end: 70721
 dependencies:
   - "A.1"
   - "A.1.SCR"

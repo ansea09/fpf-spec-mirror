@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.RT.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
-line_start: 15020
-line_end: 15539
+line_start: 15948
+line_end: 16456
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -115,7 +115,7 @@ Produce the useful target first:
 1. Name the user action the new representation should help: compare, inspect, traverse, calculate, communicate or replay. Identify the user's familiarity with the notation when that changes what they can do with it.
 2. Point to the source material. Recover the givens, constraints and partial construction, including the claims, commitments, uncertainty and source references that must survive. Keep unknowns identifiable as unknowns.
 3. Choose an available scheme and a target representation suited to that action. Identify the formation and interpretation rules needed for this use; a familiar notation can be named without reproducing its grammar.
-4. Make the smallest target that supports the action. Arrange its parts so they can be used together: for example, keep a shared element recognizable in two groupings, or align a sequence of signs with a temporal reference. Explain any meaning-bearing mark, position or timing whose interpretation is not already clear from the selected conventions.
+4. Make the smallest target that supports the action. Arrange its parts so they can be used together: for example, keep a shared element recognizable in two groupings, or align a sequence of signs with a temporal reference. Explain any meaning-bearing mark, position or timing whose interpretation is not already clear from the selected conventions. A.6.3.RT.OE develops this construction when the expression's parts must be prepared for the intended operation.
 5. Compare target and source. Mark what is preserved and foregrounded; what is rearranged, omitted or harder to recover; and which visible links or interpretations were added by the representation.
 6. Try the intended operation when a short trial can decide whether the expression is useful. Apply the relevant mathematical, physical or other subject Method. Use the result to judge or repair the expression.
 7. State the representation and reasoning-medium delta only as far as it changes use or blocks a likely overread.
@@ -315,27 +315,15 @@ An independently cited target includes the recurrence caption. If the table is i
 
 #### A.6.3.RT:5.1.a - A diagram used in a geometric construction
 
-Suppose the task is to construct an equilateral triangle on a nonzero segment AB in the Euclidean plane. The geometric construction permits two circles: one with centre A through B, and one with centre B through A. Their intersection C and the joins AC and BC supply the intermediate construction. The geometry supplies the justification for these steps, including the intersection's existence.
+A.6.3.RT.OE:5.1 develops the equilateral-triangle construction on a nonzero segment AB in the Euclidean plane. It keeps the same segments available as radii of two constructed circles and as sides of the triangle. The radius equalities can then be combined in the geometric argument.
 
-To examine the intermediate relations together, draw the circles and triangle using the usual point, line and circle conventions. Label A, B and C consistently and retain the same segment when examining it in either of these groupings:
-
-| Part of the diagram being examined | Shared segments |
-| --- | --- |
-| Radii of the circle with centre A | AB and AC |
-| Radii of the circle with centre B | BA and BC |
-| Sides of triangle ABC | AB, BC and CA |
-
-The diagram makes the shared parts available to the argument. Equal radii give AB = AC and BA = BC; together these establish that ABC is equilateral. The geometric argument establishes that conclusion. RT returns the labelled representation and the comparison with its source instructions and intermediate relations.
-
-The note preserves the two circle constructions and segment identities, names their joint inspection as the gain, and returns to the construction's premises if an intersection or equality is disputed. Drawing measurements are not premises of the proof. The construction and drawing can develop together; a completed proof is not needed before making a useful representation.
+For the RT use, the source consists of the construction instructions and intermediate geometric relations. The representation note preserves the circle constructions and segment identities, names joint inspection as the gain, and returns to the subject premises if an intersection or equality is disputed. Geometry supplies the construction and justified conclusion; drawing measurements are not proof premises. The construction and drawing can develop together.
 
 #### A.6.3.RT:5.1.b - Syllables against a hand-cycle reference
 
-In a learned solkattu convention, syllables express a rhythmic phrase and hand gestures mark its cycle positions. Take a three-beat cycle, with four pulses per beat, marked by clap, little finger and ring finger. The pulse stays constant.
+A.6.3.RT.OE:5.3 prepares given syllable-duration assignments against a learned three-beat hand cycle with four pulses per beat. Arithmetic and rhythmic composition determine the six-pulse preparation and the phrase's ending at the third cycle boundary.
 
-Represent four successive `ta ki ṭa` groups with respectively four, three, two and one pulses per syllable. Keep the hand cycle while voicing them. This arrangement makes phrase duration comparable with the recurring twelve-pulse reference. Arithmetic gives 12 + 9 + 6 + 3 = 30 pulses. Rhythmic composition selects a six-pulse preparation so the phrase ends at the third cycle boundary: 6 + 30 = 36. The preparation can itself be voiced as `ta ki ṭa` with two pulses per syllable.
-
-RT coordinates the given duration assignments with the hand reference. Composition and arithmetic determine the entry and ending; a performer can then use the resulting phrase. The representation note retains duration assignments, pulse constancy and cycle position, and returns to them when the ending no longer aligns. The utterance and gestures can both represent rhythmic content and realize rhythm. Actual fluency or learning requires observation when either is the question.
+RT's representation note retains duration assignments, pulse constancy and cycle position, identifies coordination with the hand reference as the gain, and returns to those conditions when the ending no longer aligns. The utterance and gestures can both represent rhythmic content and realize rhythm. Actual fluency or learning requires observation when either is the question.
 
 #### A.6.3.RT:5.2 - Positive later-specific table-to-diagram occurrence
 
@@ -534,6 +522,7 @@ The domain studies support the named comparisons within their stated tasks and e
 ### A.6.3.RT:12 - Relations
 
 - **Builds on:** `A.6.3` and `A.6.2` for effect-free source-to-receiving construction; C.2.1 for exact endpoint and description identity; A.1.1 for the later-specific model-use structure; A.13 for actual-performer identification; A.15.1 for independent dated-Work admission; F.6 only for current precise assignment-bound attribution; C.2.7 and E.10.D2 when representation factors or semiotic mode are material.
+- **Operative-expression construction:** A.6.3.RT.OE prepares an expression under available conventions so the next operation can be performed. Use its result in the ordinary representation move of :4.1.
 - **Coordinates with:** A.6.3.CR, A.6.3.NAR, A.6.3.CSC, E.17.EFP, E.17.ID.CR, A.6.4, A.7, F.9, B.5.2.0, B.5.2, A.15, E.18, A.20, A.21, A.10, B.3, C.27, A.3.3, C.26, and C.29 at the specific boundaries named above.
 - **Keeps separate:** actual Work and method; E.17.0 View membership; E.24.PUB publication occurrence, form, carrier, audience, and use; grounding; bridge; evidence; assurance; gate; temporal, dynamics, and transformation-flow claims.
 - **Boundary:** RT contributes preservation, representation/reasoning delta, loss/recovery, use, and return. It does not let a table, diagram, notation, model display, decoded output, publication, form, or carrier substitute for an exact episteme or authorize a stronger claim.

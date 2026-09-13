@@ -6,12 +6,12 @@ section_id: "C.2.8:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__007_bias-annotation.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.2.8 — U.ExtractableStructuralInformation"
   - "C.2.8:6 — Bias-Annotation"
-line_start: 46440
-line_end: 46447
+line_start: 48865
+line_end: 48872
 dependencies:
   - "A.17"
   - "A.18"

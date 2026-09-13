@@ -6,12 +6,12 @@ section_id: "C.29:13a"
 section_title: "References"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__015_references.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13a — References"
-line_start: 60058
-line_end: 60097
+line_start: 63380
+line_end: 63419
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -42,6 +42,9 @@ dependencies:
   - "C.29.1"
   - "C.29.2"
   - "C.29.3"
+  - "C.29.AV"
+  - "C.29.BB"
+  - "C.29.SC"
   - "C.31.ASAP"
   - "C.39"
   - "E.10"

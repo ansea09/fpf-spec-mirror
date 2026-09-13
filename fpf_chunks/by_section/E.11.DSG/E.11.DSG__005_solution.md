@@ -6,12 +6,12 @@ section_id: "E.11.DSG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__005_solution.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:4 — Solution"
-line_start: 83290
-line_end: 83370
+line_start: 88076
+line_end: 88156
 dependencies:
   - "A.14"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__012_rationale.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:10 — Rationale"
-line_start: 80892
-line_end: 80897
+line_start: 85678
+line_end: 85683
 dependencies:
   - "A.2"
   - "A.2.1"

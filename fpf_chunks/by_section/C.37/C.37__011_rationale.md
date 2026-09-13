@@ -6,12 +6,12 @@ section_id: "C.37:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__011_rationale.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:10 — Rationale"
-line_start: 70875
-line_end: 70880
+line_start: 74857
+line_end: 74862
 dependencies:
   - "A.10"
   - "A.2.4"

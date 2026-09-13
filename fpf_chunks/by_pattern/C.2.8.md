@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.8.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.2.8 — U.ExtractableStructuralInformation"
-line_start: 46273
-line_end: 46516
+line_start: 48698
+line_end: 48941
 dependencies:
   - "A.17"
   - "A.18"

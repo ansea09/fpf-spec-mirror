@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.CSD.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
-line_start: 2647
-line_end: 2918
+line_start: 2877
+line_end: 3148
 dependencies:
   - "A.1"
   - "A.1.SCR"

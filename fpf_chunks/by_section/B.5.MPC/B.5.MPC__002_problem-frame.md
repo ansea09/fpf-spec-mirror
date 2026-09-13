@@ -6,12 +6,12 @@ section_id: "B.5.MPC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__002_problem-frame.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:1 — Problem frame"
-line_start: 41381
-line_end: 41392
+line_start: 42550
+line_end: 42563
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -40,6 +40,8 @@ keywords:
 Begin with the difference the answer should help you understand or make possible. Take one available contribution and explain what it would have to mean, and what else would have to hold, for that contribution to answer the question. Work the first missing connection far enough to obtain a consequence or locate the next missing contribution. For a motion command, this might already reveal that the supplied count concerns motor revolutions while the distance model concerns wheel revolutions.
 
 The result is a connected solution, a useful conditional consequence or bound, or a particular missing connection that directs the next inquiry. This pattern specializes B.5's choice and connection of inquiry contributions for this joint physical, mathematical and computational difficulty. It governs the reasoning that connects those contributions. Physical laws, mathematical constructions, algorithm design and the engineering of an executing arrangement supply their respective subject content.
+
+This is an epistemological and methodological synthesis. The epistemological question is what the connected contributions allow us to know: what follows from the constructions and premises, and how those consequences bear on the physical situation. The methodological question is how agents obtain and apply that knowledge, divide the work and change their methods. A result can support a physical change, expose a limitation or make a further question worth pursuing.
 
 A practitioner needs enough preparation to recover the question, follow the meanings of the important quantities and operations, and recognize where specialist help is needed. The worked cases explain their elementary algebra, graph and counting constructions. A more demanding application can require additional physical theory, mathematics, computation or measurement expertise; obtain that contribution with its explanation when it is missing.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
-line_start: 49883
-line_end: 50214
+line_start: 52308
+line_end: 52646
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -136,7 +136,7 @@ If a fact needed for that interpretation is unavailable, state which conclusion 
 
 **M‑METH‑1.** `MeasurementMethod` is one exact `U.Method`. Its `U.MethodDescription` may state generic participants, parameters, effects, and measurement conditions; it contains no actual-participant slots and does not claim that measurement occurred.
 
-**M‑MODEL‑1.** `MeasurementModel` relates input values and relevant influences to the values attributed to the measurand. In quantity measurement, these are input, influence and output quantities. Identify the model version, assumptions, corrections and domain of validity. Recover what its formula, software function or other expression represents. Section :5.3.1 supplies the construction when that relation is missing or unsuitable.
+**M‑MODEL‑1.** `MeasurementModel` relates input values and relevant influences to the values attributed to the measurand. In quantity measurement, these are input, influence and output quantities. Identify the model version, assumptions, corrections and domain of validity. Recover what its formula, software function or other expression represents. Use C.16.MR to construct that relation from the indication-producing procedure when it is missing or unsuitable; :5.3.1 connects the construction to interpretation and its next use.
 
 **M‑CAL‑1.** Name the calibration basis required for the use: reference standard or comparison basis, dated calibration work and result when current, calibration coefficients or corrections, applicable interval, and uncertainty contribution. A calibration certificate or ledger row cites these facts; it does not establish them by being stored.
 
@@ -147,8 +147,8 @@ If a fact needed for that interpretation is unavailable, state which conclusion 
 1. **Start with what is being measured and why.** Specify the subject, Characteristic, conditions and required range of interpretation under §§5.1-5.2. Separate what is already known from values the proposed measurement must resolve.
 2. **Follow how the indication is produced.** Describe the procedure connecting the subject to the indication. Recover the measurement principle, applicable calibration relation, or combination of both that connects the quantities. Include intermediate conversions when they change the answer. Physical laws, assessment models and instrument-specific relations come from the relevant subject knowledge; B.5:4.2 helps recover their construction.
 3. **Include influential conditions.** Consider how the apparatus interacts with the subject, what it samples or averages, and its resolution and operating range. Include an influence when its omission could change the interpretation needed for this use. Explain a correction through the relation that gives its direction and magnitude. Retain an unknown influential quantity as unknown, using available bounds or distributions when justified.
-4. **Determine what the relation resolves.** With actual or proposed indications, derive the compatible sought values and their uncertainty under §5.4. If different sought values can produce the same indication, identify that ambiguity. Work a small case or limiting case to expose an omitted influence, inconsistent units or a failed inversion.
-5. **Choose the useful return.** Supply the interpreted value, interval or conditional result when it answers the question. Otherwise identify which change could resolve the remaining ambiguity: refine the relation, change the measurement arrangement, obtain an applicable calibration or narrow the conclusion. Choose further observation by the distinction it can resolve and the work it demands, using C.11.DUA when that choice needs deliberation.
+4. **Determine what the relation resolves.** With actual or proposed indications, derive the compatible sought values and their uncertainty under §5.4. If different sought values can produce the same indication, identify that ambiguity. Work a small case or limiting case to expose an omitted influence, inconsistent units or a failed inversion. C.16.IR constructs the joint cases and distinguishes feasible alternatives from bounds that may include unattainable values.
+5. **Choose the useful return.** Supply the interpreted value, interval or conditional result when it answers the question. Otherwise identify which change could resolve the remaining ambiguity: refine the relation, change the measurement arrangement, obtain an applicable calibration or narrow the conclusion. Choose further observation by the distinction it can resolve and the work it demands, using C.11.DUA when that choice needs deliberation. C.16.RM compares changes to models, arrangements and calculation, then carries the selected repair through the interpretation while retaining the wanted quantity.
 
 When an observed discrepancy matters, compare its plausible sources in the subject account, measurement relation and actual arrangement. Change the contribution that can alter the answer; sometimes removing an unwanted influence from the arrangement is more useful than modeling it in greater detail. A model-development result states the relation and what it would establish. A claim about a performed measurement also identifies the work and obtained result under §§5.3-5.5.
 
@@ -329,6 +329,13 @@ Recheck the affected source-use decision before relying on it after 2027-07-30 o
 Other lineage and domain examples are informative comparators. A source change reopens the contribution that relies on it; extend that comparison when a changed premise also affects another use.
 
 ### C.16:15 - Relations - Placement *(Informative)*
+
+**Measurement-relation construction.** C.16.MR derives a relation from the sought property, measuring arrangement and consequential influences, and obtains a first conditional result. This construction can support a proposed measurement. For a result from an actual measurement, use the conditions above for the performed work and its interpretation.
+
+**Indication interpretation.** C.16.IR begins with an available measurement relation and determines which values or comparisons an indication supports. Use it when influential unknowns, lost distinctions or uncertainty can change the requested answer. It can return a sufficient bound while other quantities remain unknown.
+
+**Measurement repair.** C.16.RM begins when an existing measurement disagrees with an expectation or cannot resolve the distinction needed for use. It chooses which model, arrangement or calculation to change, recovers a result from the available observations when possible, and tests the changed contribution at the scope of the receiving question.
+
 **Architecture measurement boundary.** `C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite C.16 readings only after the characteristic, bearer, scale, coordinate, value, unit when relevant, and admissible use are declared. C.16 readings do not become architecture characteristics, decision criteria, eval programs, evidence, gates, or decision authority by themselves.
 
 **Structural-information measurement boundary.** `C.33`, `C.34`, and `C.35` may name captured structure, lost structure, similarity, preservation, entropy, epiplexity estimate, compression, generated-carrier adequacy, or search-output context. When a claim about any of those uses a value, score, coordinate, threshold, dashboard reading, or eval result, state the measurement construction and admissible-use assertions under the exact C.16 and evaluation/criteria predicates, with their subject patterns used as locators.

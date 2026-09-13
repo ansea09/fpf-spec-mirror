@@ -6,12 +6,12 @@ section_id: "C.28:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__014_relations.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:12 — Relations"
-line_start: 59103
-line_end: 59120
+line_start: 62206
+line_end: 62225
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,6 +50,8 @@ keywords:
 ---
 
 ### C.28:12 - Relations
+
+- **C.28.MR** derives an intervention consequence within a supplied causal model, with the replacement, retained conditions and solution needed by that query.
 
 - `C.16` keeps measurements and scales; `C.27` keeps temporal-claim adequacy.
 - `A.10` keeps evidence paths and provenance and may cite C.28 support components and result.

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
-line_start: 71100
-line_end: 71262
+line_start: 75082
+line_end: 75250
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -82,9 +82,11 @@ For example, a fault-investigation Method can compare error and non-error cases 
 
 #### C.39:4.3 - Construct an explained candidate
 
-Propose an action that could provide the missing connection. Explain what it would use, what it would change or return, and why that result would permit the next operation. Trace the proposed way through to the sought result; expose a remaining unsupported link instead of smoothing it over.
+Start from the recovered operation and locate the part that prevents the receiving result: an unavailable input, a case-specific choice, an incompatible intermediate result or a condition that fails. B.5.RC helps recover the steps of a described construction. B.5.TU helps construct a calculation, prediction or other operation using an available theory.
 
-Keep the source-supported operation, the proposed correspondence and the new inference distinguishable. Name an answer that could defeat the inference. If the proposed setup link uses a field that was not recorded, it cannot justify the intended comparison. The next question is then about recoverable setup information, another linking way or a narrower result.
+Try a change at that point. Transform available material into the input the operation requires; replace the failing step with an operation that supplies its successor's input; or compose operations whose intermediate results fit together. State why the changed connection should work under the receiving conditions. When a successful case needs to become an operation that later work can vary or combine, C.39.RO develops that construction: separate parameters from retained premises, construct the operation and examine a changed use.
+
+Trace the candidate through to the sought result. Keep the source-supported operation, the proposed correspondence and the new inference distinguishable. Name a condition that would defeat the inference. If a proposed link between inspection cases and setups uses a field that was not recorded, the link cannot justify the intended comparison. The next question is then about recoverable setup information, another linking operation or a narrower result.
 
 A failed correspondence may justify another source, a changed connecting action or a changed local question. It does not establish that the source Method is useless in its own conditions or that the receiving problem has no solution.
 
@@ -92,7 +94,7 @@ A failed correspondence may justify another source, a changed connecting action 
 
 Follow a constituent contribution further when its unresolved obtaining way could change the whole's result, feasibility or burden. State that effect before opening another search. A qualified existing operation can remain intact while one missing connection is developed.
 
-Choose the next level by the decision it enables, not by a fixed decomposition depth. Stop when the explanation is sufficient for that decision. If it is not, return the exact missing operation or support question and what observation would allow reconsideration.
+Choose the next level by the decision it enables, not by a fixed decomposition depth. Stop when the explanation is sufficient for that decision. If it is not, name the missing operation or support question and what observation would allow reconsideration.
 
 Compare further inquiry with using the adequate current answer, narrowing the sought result and stopping. Include the effort and displaced work. A technically interesting uncertainty need not be resolved when none of its attainable answers would change the current decision.
 
@@ -133,6 +135,8 @@ Subtracting the initial 40 ms leaves mismatches of 0, 2 and 5 ms. Thus aligning 
 The workshop first adjusts the constant shift using all three markers. Their offsets are 40, 42 and 45 ms; centering the smallest and largest gives 42.5 ms. Subtracting that shift leaves residuals of -2.5, -0.5 and 2.5 ms, each within the stipulated marker tolerance. A different constant shift therefore supplies a candidate correction without introducing a changing time correspondence.
 
 The search returns that constant-shift candidate and the precise support question: does it preserve the required relation over the interval used for feedback, and can an available qualified editing operation apply it? A suitable calibration result or a narrower qualified interval can close the gap. Fitting the three markers does not establish adequacy between them or an achieved corrected recording. All numbers and professional inputs here are constructed, not device-performance evidence.
+
+For repeated correction work, C.39.RO:5.1 develops this case into an operation on any nonempty finite set of marker offsets. It derives the correction and the smallest achievable worst residual, so a tighter tolerance can return an impossibility result and prompt a different correction method.
 
 ### C.39:6 - Bias-Annotation
 
@@ -178,6 +182,8 @@ Reopen this line when a current direct Method supplies the entire use with less 
 
 ### C.39:12 - Relations
 
+- C.39.RO constructs a reusable operation from a working case, retaining input meanings, application conditions and the reason for its result.
+- B.5.RC recovers a described construction; B.5.TU makes an available theory usable for the working question.
 - C.38 constructs comparable whole ways for one result after sufficient obtaining content is available.
 - C.40 develops and examines material variations; it returns here for a missing obtaining operation.
 - F.0.1 resolves an action-changing source-local meaning; F.1 selects sources whose contributions can change the answer.

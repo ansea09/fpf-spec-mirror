@@ -6,12 +6,12 @@ section_id: "B.5.MPC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__005_solution.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:4 — Solution"
-line_start: 41412
-line_end: 41537
+line_start: 42583
+line_end: 42708
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -137,7 +137,7 @@ Keep a shared premise attached to every contribution that consumes it. Both an a
 
 Enter a ready result at the place where it is used. Recover its inputs and conditions backward, then continue forward with its consequence. When a missing input blocks one route, compare another sufficient route using the available inputs. Do not combine an output from one route with the assumptions of another without establishing their compatibility.
 
-A failed connection can send the inquiry back to its physical account, mathematical construction, notation, procedure, realization or question. Locate the first disagreement that changes the receiving result, revise the responsible contribution and revisit its dependents. B.5:4.3 supplies argument recovery; C.29.1, C.29.2 and C.29.3 supply the transfer, formulation and realization methods respectively. Retain unaffected contributions whose conditions and meanings still hold.
+A failed connection can send the inquiry back to its physical account, mathematical construction, notation, procedure, realization or question. Use B.5.MPC.R to locate the incompatibility, construct a sufficient repair and carry it through the affected contributions. If several causes remain compatible with the observations, obtain a discriminating contribution or use a sufficient conditional result. B.5.RA supplies argument recovery and B.5.RR supplies general reasoning revision; C.29.1, C.29.2 and C.29.3 supply the transfer, formulation and realization methods respectively. Retain unaffected contributions whose conditions and meanings still hold.
 
 #### B.5.MPC:4.7 - Return the consequence and choose what to do with it
 

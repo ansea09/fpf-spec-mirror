@@ -6,12 +6,12 @@ section_id: "E.5.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__001_intro.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:intro — Intro"
-line_start: 75974
-line_end: 75975
+line_start: 80594
+line_end: 80595
 dependencies:
   - "E.3"
   - "E.5"

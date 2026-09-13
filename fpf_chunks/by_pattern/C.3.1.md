@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.1.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
-line_start: 47032
-line_end: 47191
+line_start: 49457
+line_end: 49616
 dependencies:
   - "A.1"
   - "A.11"

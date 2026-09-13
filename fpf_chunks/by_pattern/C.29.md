@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.29 — Mathematical Lens Use"
-line_start: 59123
-line_end: 60120
+line_start: 62431
+line_end: 63445
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -41,6 +41,9 @@ dependencies:
   - "C.29.1"
   - "C.29.2"
   - "C.29.3"
+  - "C.29.AV"
+  - "C.29.BB"
+  - "C.29.SC"
   - "C.31.ASAP"
   - "C.39"
   - "E.10"
@@ -82,7 +85,7 @@ Ask what you need to find out. Choose the smallest mathematical object that coul
 
 For waiting work, a queue candidate turns “slow flow” into questions about arrivals, service and waiting. For a proposed dense state array, counting its entries can already rule out an implementation. For a familiar local calculation such as `V = IR` under its accepted conditions, use the equation directly: the calculation does not require a lens-use record.
 
-If no concrete object can yet be chosen, retain the working cue and the next observation or construction as a candidate. A family label remains a discovery cue until a concrete object and correspondence are supplied. Recording options in :4.4 serve later inspection or reuse of the result; the mathematical operation comes first.
+If no concrete object can yet be chosen, retain the working cue and the next observation or construction as a candidate. **B.5.FM** helps when the participants or interactions needed to formulate that mathematical question are still unclear. A family label remains a discovery cue until a concrete object and correspondence are supplied. Recording options in :4.4 serve later inspection or reuse of the result; the mathematical operation comes first.
 
 ### C.29:1 - Problem frame
 
@@ -192,7 +195,15 @@ Choose the row that fits the problem, or use a closer domain construction. The m
 | Probe, order or context effect with incompatible frames | Quantum-like or contextual-probability model: identify the contextual obstruction that still changes inference or action after the ordinary subject patterns. | Apply C.26's adequacy conditions. A physical quantum claim additionally needs the relevant physics and observations. |
 | Storage, computational or realizability limit | Count actual represented objects and operations; apply a resource bound or constructive/impossibility argument. | Recompute for the actual alternative representation. A valid rejection of one implementation does not yet supply a feasible replacement. |
 
+For a constrained extremum or stationary construction, C.29.AV develops the admissible family, calculates its effect and establishes what the resulting condition proves. Use it when specifying a variation space still leaves the required construction unresolved.
+
+For a symmetry argument, C.29.SC follows the transformation through the conditions and required answer. It transfers a solution, restricts possible answers or identifies a choice that the available distinctions cannot support.
+
+When a balance must be constructed or its boundary changes, C.29.BB identifies the additive quantity, included stores and crossing transfers. It combines compatible accounts and returns the total, a bound or the missing contribution.
+
 For a first candidate, compare with ordinary prose, direct observation or the accepted domain model before a broader survey. When the question is a tradition-scale source synthesis, use G.2; C.29 needs only the candidate or rival relevant to this working question.
+
+When expected information gain determines which observation to obtain, choose a feasible way to estimate it. If density approximations are used, allocate samples between fitting them and computing the expected gain. In high dimensions, consider reducing the parameter or observation space and account for the information lost by that reduction. Compare estimation cost and error with the distinction needed for the choice. [Li, Baptista and Marzouk (2026)](https://arxiv.org/abs/2411.08390v3) develop these sample-allocation and dimension-reduction choices.
 
 #### C.29:4.2c - Bounded-observer structural-information lens
 
@@ -613,6 +624,8 @@ MathLensUse.ValidationUseOverlay@Context :=
 
 Use the validation overlay for the FullCard reliance in :4.4: prediction about the phenomenon, an operational or consequential decision, adoption of a model, benchmark/assurance input, Bridge-dependent model reliance, or transfer as a reusable phenomenon model. This includes a scientific claim of model adequacy. A published explanation of a conditional derivation needs its derivation and assumptions, not an empirical-adequacy claim invented for it. `LensUseBoundaryValue` alone is insufficient for the stronger reliance. Keep the neighboring notions separate: verification is proof or formal checking under stated assumptions; validation is fit for a declared use and regime; calibration aligns model parameters or readouts with observations; explanation states why the lens makes a distinction intelligible. The C.29 output does not let any one of these four labels silently stand in for the others.
 
+To evaluate a probabilistic prediction, choose a scoring rule appropriate to its forecast form. Use a proper rule when the score should favor reporting the assessed distribution without distortion in expectation. The Brier loss for binary events and logarithmic scores for predictive densities are examples. State which direction is better and compare forecasts against the same observations. [Gneiting and Raftery (2007)](https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf) explain these scoring choices.
+
 ```text
 MathLensUse.LearnedLensOverlay@Context :=
 ⟨
@@ -627,6 +640,8 @@ MathLensUse.LearnedLensOverlay@Context :=
 ```
 
 Use the learned-lens overlay when the mathematical object is fitted, learned, latent, simulation-trained, data-derived, a neural operator, a surrogate solver, an embedding, or a world-model representation.
+
+For `DataOrTrainingRegime`, identify the data's origin, what the collection includes and omits, how observations were collected and transformed, and the recommended uses and limitations. Use those facts to judge the proposed generalization or narrow it. [Datasheets for Datasets](https://arxiv.org/abs/1803.09010v8) supplies questions for recovering these conditions; select those relevant to the present use.
 
 Use the following learned-lens stop variants when the declared use reaches the corresponding boundary. Include a separate guard only when it passes F.19's plausible-reader test:
 
@@ -650,6 +665,8 @@ MathLensUse.CausalAbstractionCheck@Context :=
 ```
 
 This is not a first-class causal abstraction card. It is a lightweight check: when `LensMappingMode` is abstraction, quotient, coarse-graining, macro-model, or simulation, and `declaredLensUse` would include intervention, policy, counterfactual, or causal explanation, apply `C.28` for causal-use question and verdict.
+
+For causal explanation through a learned representation, state which variables and interventions correspond between the models, then compare their results under those interventions. For approximate agreement, specify the similarity measure, the distribution of evaluated interventions and the way similarities are aggregated. Decoding a variable from an activation shows that the decoder can recover it; a claim that the variable affects the model's behavior needs the intervention comparison. [Geiger et al. (2025), §§2.4, 3.2 and 3.6.3](https://jmlr.org/papers/v26/23-0058.html) develop these distinctions.
 
 #### C.29:4.5b - Repair decision table
 
@@ -869,7 +886,7 @@ Use this checklist after constructing or delimiting the result in :4.1. Its cond
 | `CC-C29-2a Intervention preservation` | If `LensMappingMode` is abstraction, quotient, coarse-graining, macro-model, or simulation and causal use is being claimed, state whether intervention and counterfactual structure is preserved, approximated, or not claimed, then apply `C.28` for causal-use question and verdict. | Prevents causal abstraction laundering. |
 | `CC-C29-3 Lens mapping mode` | State the `C.29`-local lens mapping mode and the concrete correspondence. If bridge semantics are claimed, apply `F.9`. | Makes the correspondence and any needed semantic Bridge explicit. |
 | `CC-C29-4 Preserved structure` | State what structure the lens preserves. When the result uses a transferred operation, establish the needed preservation through C.29.1. When it uses a representative, establish that the choice leaves the required answer unchanged. | Makes the claimed preservation usable in the inference. |
-| `CC-C29-5 Lost structure` | State what does not transfer; if nothing is lost, justify an equivalence or isomorphism claim through the subject pattern. | Prevents map-territory collapse. |
+| `CC-C29-5 Lost structure` | State which source distinctions or operations do not transfer. If none needed for this use are lost, explain their preservation through C.29.1 and distinguish any additional receiving objects from represented source objects. | Supports lossless embeddings as well as lossy representations. |
 | `CC-C29-6 Invariants exposed` | Name invariants, obstructions, fixed points, symmetries, conservation laws, dualities, distinctions, or diagnostic boundaries. | Makes the lens usefulness visible. |
 | `CC-C29-6a First-principles family recovery` | When a first-principles lens-family row from `C.29:4.2b` is used for claim-bearing lens use, recover the concrete `CandidateMathObject` for the candidate family, preserved structure, lost structure, visible payoff, lens-use boundary value, and stop condition or neighboring-pattern application for that family. | Prevents family names such as boundary, cohomology, symmetry, variational, RG, diagonal, composition, probability, information, or structural-information compression from replacing actual MathLensUse recovery. |
 | `CC-C29-6b Bounded-observer structural-information lens` | When MDL, epiplexity, compression, graph information, or description-recoverability changes the next lens-use action, recover `TargetPhenomenon`, source episteme or trace, bounded observer, candidate measure or code, mapping mode, preserved and lost selected structure, visible payoff, observation or postulate boundary, source-return condition, lens-use boundary value, and stop condition. | Makes the selected structure, observer and use limit recoverable. |
@@ -1037,6 +1054,9 @@ The comparison above selects the first-use Method. The references below provide 
 - **Construction and argument recovery:** B.5 recovers the inputs, operations and dependencies needed to obtain or understand a result. C.29 tests which consequence can be carried through the proposed mathematical correspondence.
 
 - **Related Methods:** C.29.1 constructs mathematical result transfer; C.29.2 constructs a computation; C.29.3 connects computation to concrete execution. Each has its own working entry. They can be composed when one result supplies another's input; a computational question can also begin with an already adequate mathematical representation.
+- **Admissible variation:** C.29.AV constructs a constraint-preserving family and obtains an improvement, necessary condition or justified optimum from its change.
+- **Symmetry consequence:** C.29.SC follows the action on a problem and its answer to transfer a solution, derive a restriction or expose an unsupported choice.
+- **Boundary balance:** C.29.BB constructs and revises an additive change account, preserving shared transfers and the information needed for the requested total.
 - **Joint reasoning:** B.5.MPC connects the physical account, mathematical question, computation and realization, starting from whichever contribution is available and returning to the contribution whose conditions fail. A.3.3 supplies state and continuation semantics; A.6.1 supplies the realization relation; C.39 helps find or develop a missing operation.
 
 - **Extractable structural information:** `C.2.8` defines the characteristic and observer conditions consumed by a structural-information estimate. C.29 supplies the particular mathematical-lens correspondence and its limits.

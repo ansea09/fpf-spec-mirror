@@ -6,12 +6,12 @@ section_id: "C.2.8:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.2.8 — U.ExtractableStructuralInformation"
   - "C.2.8:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 46463
-line_end: 46473
+line_start: 48888
+line_end: 48898
 dependencies:
   - "A.17"
   - "A.18"

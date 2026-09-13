@@ -6,12 +6,12 @@ section_id: "B.5.MPC:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__011_architectural-rationale.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:10 — Architectural Rationale"
-line_start: 41727
-line_end: 41772
+line_start: 42898
+line_end: 42945
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -38,6 +38,8 @@ keywords:
 #### B.5.MPC:10.1 - Why the connection is a Method in its own right
 
 The receiving physical question joins several operations whose local success has different meanings. Derivation establishes what follows within a mathematical account. A physical explanation supports the choice of that account for a phenomenon. A procedure obtains a represented result; its realization connects that procedure to available system behavior. Coordinating these operations requires preserving their result dependencies while selecting a useful next contribution.
+
+The epistemological and methodological contributions meet in the use of a result. Axiomatization can make the objects, premises and permitted constructions explicit. A physical postulate contributes to empirical knowledge through an interpreted model whose consequences can be compared with observations. Computational formulation and realization let agents work through consequences using specified operations on represented inputs. The practitioner connects these contributions to obtain and apply knowledge, then uses an encountered limitation or a newly available operation to change the method or pose another question. Their detailed constructions give substance to the pragmatic question: which further work becomes possible?
 
 The robot makes the need concrete. Circumference, transmission ratio, integer rounding and signed-command semantics are separately intelligible. The useful command exists only when they refer to compatible motion and counts. A.3.3 can help recover state, C.29 can construct and transfer the mathematical consequence, and C.16 can interpret an observation. Their contributions enter the joint question through the dependencies explained in :4; none by itself chooses all the other subject content.
 

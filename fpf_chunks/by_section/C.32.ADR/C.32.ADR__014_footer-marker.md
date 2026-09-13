@@ -6,12 +6,12 @@ section_id: "C.32.ADR:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__014_footer-marker.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:13 — Footer marker"
-line_start: 69271
-line_end: 69274
+line_start: 73251
+line_end: 73254
 dependencies:
   - "A.10"
   - "A.15"

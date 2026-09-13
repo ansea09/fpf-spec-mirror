@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.MOVE.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
-line_start: 79961
-line_end: 80300
+line_start: 84746
+line_end: 85085
 dependencies:
   - "A.1.STM"
   - "A.10"

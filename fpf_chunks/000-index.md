@@ -2,16 +2,17 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab`
+Commit SHA: `bbfb5347013400e9a895fa4b0f66992e931c0ece`
 
 Chunking method: `pattern-aware`
 
-Patterns: `324`
+Patterns: `346`
 
 ## Patterns
 
 - [A.0 — Onboarding Glossary (NQD & E/E‑LOG)](by_pattern/A.0.md)
 - [A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)](by_pattern/A.1.md)
+- [A.1.RI — Reidentifying an Object across Observations](by_pattern/A.1.RI.md)
 - [A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery](by_pattern/A.1.1.md)
 - [A.1.SCR — Finding the Acting or Changed System](by_pattern/A.1.SCR.md)
 - [A.1.CSD — Discovering Systems That May Bear Consequences](by_pattern/A.1.CSD.md)
@@ -32,6 +33,9 @@ Patterns: `324`
 - [A.3.1.MR — Candidate-Method Recovery from Work Evidence](by_pattern/A.3.1.MR.md)
 - [A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing](by_pattern/A.3.2.md)
 - [A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme](by_pattern/A.3.3.md)
+- [A.3.3.CC — Construct a Configuration Description under Constraints](by_pattern/A.3.3.CC.md)
+- [A.3.3.TR — Construct a Rule for State Change](by_pattern/A.3.3.TR.md)
+- [A.3.3.PI — Retain the Information Needed for Prediction](by_pattern/A.3.3.PI.md)
 - [A.3.4 — U.Transformation: Bounded Change Under Conditions](by_pattern/A.3.4.md)
 - [A.3.4.P — Transformation Ontic Precision Restoration](by_pattern/A.3.4.P.md)
 - [A.4 — Temporal Duality & Open‑Ended Evolution Principle](by_pattern/A.4.md)
@@ -48,6 +52,7 @@ Patterns: `324`
 - [A.6.3.CSC — Controlled Semantic Coarsening](by_pattern/A.6.3.CSC.md)
 - [A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression](by_pattern/A.6.3.CR.md)
 - [A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition](by_pattern/A.6.3.RT.md)
+- [A.6.3.RT.OE — Construct an Operative Expression](by_pattern/A.6.3.RT.OE.md)
 - [A.6.3.NAR — Structure-to-Narrative Rendering](by_pattern/A.6.3.NAR.md)
 - [A.6.4 — EntityOfConcern retargeting](by_pattern/A.6.4.md)
 - [A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims](by_pattern/A.6.P.md)
@@ -131,8 +136,14 @@ Patterns: `324`
 - [B.4.1 — Observe -> Notice -> Stabilize -> Route](by_pattern/B.4.1.md)
 - [B.5 — Canonical Reasoning Cycle](by_pattern/B.5.md)
 - [B.5.MPC — Connect Physical, Mathematical and Computational Reasoning](by_pattern/B.5.MPC.md)
+- [B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection](by_pattern/B.5.MPC.R.md)
 - [B.5.RC — Recover a Construction from Its Description](by_pattern/B.5.RC.md)
 - [B.5.RA — Recover an Argument for Its Next Use](by_pattern/B.5.RA.md)
+- [B.5.RR — Revise Reasoning After a Premise or Question Changes](by_pattern/B.5.RR.md)
+- [B.5.FM — Construct a First Model for the Working Question](by_pattern/B.5.FM.md)
+- [B.5.TU — Construct a Working Use of an Unfamiliar Theory](by_pattern/B.5.TU.md)
+- [B.5.TC — Compare Theoretical Accounts for a Working Question](by_pattern/B.5.TC.md)
+- [B.5.QD — Develop a New Question from a Result or Construction](by_pattern/B.5.QD.md)
 - [B.5.1 — Explore → Shape → Evidence → Operate](by_pattern/B.5.1.md)
 - [B.5.2 — Abductive Loop](by_pattern/B.5.2.md)
 - [B.5.2.0 — U.AbductivePrompt](by_pattern/B.5.2.0.md)
@@ -164,6 +175,9 @@ Patterns: `324`
 - [C.11.DUA — Decision-Useful Advice and Evidence Demands](by_pattern/C.11.DUA.md)
 - [C.13 — Constructional Mereology (Compose‑CAL)](by_pattern/C.13.md)
 - [C.16 — Measurement & Metrics Characterization (MM‑CHR)](by_pattern/C.16.md)
+- [C.16.MR — Construct a Measurement Relation](by_pattern/C.16.MR.md)
+- [C.16.IR — Determine What an Indication Can Resolve](by_pattern/C.16.IR.md)
+- [C.16.RM — Repair a Measurement Model or Arrangement](by_pattern/C.16.RM.md)
 - [C.16.P — Characteristic and Scale Precision Restoration](by_pattern/C.16.P.md)
 - [C.16.Q — Quality-Term Precision Restoration](by_pattern/C.16.Q.md)
 - [C.17 — Characterising Generative Novelty and Value](by_pattern/C.17.md)
@@ -188,10 +202,14 @@ Patterns: `324`
 - [C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change](by_pattern/C.27.md)
 - [C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness](by_pattern/C.27.TA.md)
 - [C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability](by_pattern/C.28.md)
+- [C.28.MR — Derive an Intervention Consequence by Mechanism Replacement](by_pattern/C.28.MR.md)
 - [C.29 — Mathematical Lens Use](by_pattern/C.29.md)
 - [C.29.1 — Mathematical Result Transfer](by_pattern/C.29.1.md)
 - [C.29.2 — Computational Formulation](by_pattern/C.29.2.md)
 - [C.29.3 — Computational Realization](by_pattern/C.29.3.md)
+- [C.29.AV — Derive a Condition from an Admissible Variation](by_pattern/C.29.AV.md)
+- [C.29.SC — Derive a Consequence from a Symmetry](by_pattern/C.29.SC.md)
+- [C.29.BB — Construct a Balance across a Boundary](by_pattern/C.29.BB.md)
 - [C.30 — Grounded Architecture and Selected-Structure Adequacy](by_pattern/C.30.md)
 - [C.30.AD — Architecture Description Adequacy](by_pattern/C.30.AD.md)
 - [C.30.AD.BA — Built-Asset Architecture Description and Reference Designation](by_pattern/C.30.AD.BA.md)
@@ -223,8 +241,11 @@ Patterns: `324`
 - [C.37 — Use-Bounded Representation Selection and Co-Use](by_pattern/C.37.md)
 - [C.38 — Construct Comparable Ways to Obtain One Result](by_pattern/C.38.md)
 - [C.39 — Find and Develop a Way to Obtain a Result](by_pattern/C.39.md)
+- [C.39.RO — Turn a Construction into a Reusable Operation](by_pattern/C.39.RO.md)
 - [C.40 — Develop Branching Search from Reusable Material](by_pattern/C.40.md)
+- [C.40.CD — Develop Problems and Ways of Solving Them Together](by_pattern/C.40.CD.md)
 - [C.36.P — Cultural-Evolution Wording-Use Precision Restoration](by_pattern/C.36.P.md)
+- [C.36.RP — Sustain and Renew Shared Ways of Working](by_pattern/C.36.RP.md)
 - [D.1 — Ethical Value Plurality and FPF Boundary](by_pattern/D.1.md)
 - [D.2 — Multilevel Ethics For Holon Work](by_pattern/D.2.md)
 - [D.3 — Interlevel Ethical Conflict Structure](by_pattern/D.3.md)
@@ -254,6 +275,7 @@ Patterns: `324`
 - [E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace](by_pattern/E.9.DA.md)
 - [E.10 — Unified Lexical Rules for FPF](by_pattern/E.10.md)
 - [E.10.LRN — Recovering What “Learning” Means in the Current Claim](by_pattern/E.10.LRN.md)
+- [E.10.INT — Recovering What Interest or Curiosity Means Here](by_pattern/E.10.INT.md)
 - [E.10.DEV — Recovering What Development or Evolution Means in the Current Claim](by_pattern/E.10.DEV.md)
 - [E.10.MOVE — Move and Readiness Wording Precision Restoration](by_pattern/E.10.MOVE.md)
 - [E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture](by_pattern/E.10.ARCH.md)

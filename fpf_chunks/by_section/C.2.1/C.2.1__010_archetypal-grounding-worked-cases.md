@@ -6,12 +6,12 @@ section_id: "C.2.1:9"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_archetypal-grounding-worked-cases.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:9 — Archetypal Grounding — Worked Cases"
-line_start: 43711
-line_end: 43775
+line_start: 46130
+line_end: 46191
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -87,17 +87,14 @@ Episteme `E1` is the exact source used to produce candidate edition `E2`. The ap
 If the same Work instead retargets the claims to another EntityOfConcern, translates them under a rule that the policy classifies as a derivative, or reconstructs similar content without using E1 as source, the edition predicate fails even when the Method is named “revision.” Work, Method, provenance, change facts, evaluation, and evidence remain outside the two-participant relation. Later repackaging or publication establishes neither another episteme nor edition continuity.
 
 #### C.2.1:9.6 - Grounded identity across two observations
-A morning-observation episteme concerns an object designated `M`; an evening-observation episteme concerns an object designated `E` under another reference scheme. To decide whether the observations concern the same continuing object, recover the domain's criterion for that continuation and use its motion and observation account to construct and test the connection. State the identification with the premises and evidence that support it. When the observations leave competing connections possible, retain that ambiguity; when they fit none of the proposed connections, reconsider the observations or model. The finite case below supplies its continuation, motion and observation premises explicitly.
+A morning-observation episteme concerns an object designated `M`; an evening-observation episteme concerns an object designated `E` under another reference scheme. A.1.RI supplies the Method for deciding whether these observations concern the same continuing object: recover its continuation criterion, construct connections under the subject and observation rules, and compare the alternatives. Carry the identification with its supporting premises; retain ambiguity when the observations leave materially different connections possible.
 
 The two observation epistemes can retain different identities after the object is identified: they can make different time-indexed claims or use different reference schemes. C.2.1:4.2.3 permits the identifying claim in ordinary language. If a later use needs a separately designated relation occurrence, apply A.6.REL with the direct relation pattern's obtaining predicate and occurrence-identity rule. A missing relation definition then blocks that occurrence-dependent use. It does not erase a conditional identification already established under stated premises; an unspecified object-continuation criterion, by contrast, leaves the identification itself unresolved.
 
-**Construct a bounded identifying result.** Consider two persistent point objects whose motion is modeled independently on one axis; paths may cross. Each object is observed exactly once at each end of a one-second interval, with exact positions expressed in one common coordinate frame. Initially object A is at 0 cm and B at 10 cm. The later observations R and S are at 1 cm and 9 cm. The motion account bounds speed by 2 cm/s, so each object's displacement is at most 2 cm.
-
-There are two complete associations. A–R with B–S requires displacements of 1 cm each and is admissible; straight paths supply a joint realization. A–S with B–R requires 9 cm each and fails the bound. Under these premises, R is the later observation of A, and S of B. The earlier and later observation claims concern the same respective objects while retaining their different time-indexed content.
-
-Change the speed bound to 10 cm/s. Both associations now have admissible straight-path realizations. The observations leave the correspondence unresolved; a further discriminating observation or motion constraint is needed.
+**Construct a bounded identifying result.** A.1.RI:5.1 develops the complete two-object case: independent persistent point objects at 0 and 10 cm are observed one second later at 1 and 9 cm, with exact positions in one frame and crossing permitted. With one observation of each object at each end of the interval and a 2 cm/s speed bound, only the association requiring 1 cm per object is admissible. Raising the bound to 10 cm/s also permits the crossed association requiring 9 cm per object. The observation claims retain their different occasions after an identification; the changed premise instead leaves the object correspondence unresolved. The receiving use determines whether a discriminator is worth obtaining.
 
 In [Rodin's astronomical reconstruction](https://philsci-archive.pitt.edu/12116/1/vh.pdf), the connecting trajectory is supplied through theory and observations. In the HoTT reconstruction, MS and ES are represented as terms of a point-object type Pt; `p : MS =_Pt ES` expresses the identifying construction as a term of their identity type.
+
 
 #### C.2.1:9.7 - Readable wiring diagram as a proxy
 

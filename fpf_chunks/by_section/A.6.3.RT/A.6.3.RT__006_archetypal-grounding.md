@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__006_archetypal-grounding.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:5 — Archetypal grounding"
-line_start: 15271
-line_end: 15396
+line_start: 16199
+line_end: 16312
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -65,27 +65,15 @@ An independently cited target includes the recurrence caption. If the table is i
 
 #### A.6.3.RT:5.1.a - A diagram used in a geometric construction
 
-Suppose the task is to construct an equilateral triangle on a nonzero segment AB in the Euclidean plane. The geometric construction permits two circles: one with centre A through B, and one with centre B through A. Their intersection C and the joins AC and BC supply the intermediate construction. The geometry supplies the justification for these steps, including the intersection's existence.
+A.6.3.RT.OE:5.1 develops the equilateral-triangle construction on a nonzero segment AB in the Euclidean plane. It keeps the same segments available as radii of two constructed circles and as sides of the triangle. The radius equalities can then be combined in the geometric argument.
 
-To examine the intermediate relations together, draw the circles and triangle using the usual point, line and circle conventions. Label A, B and C consistently and retain the same segment when examining it in either of these groupings:
-
-| Part of the diagram being examined | Shared segments |
-| --- | --- |
-| Radii of the circle with centre A | AB and AC |
-| Radii of the circle with centre B | BA and BC |
-| Sides of triangle ABC | AB, BC and CA |
-
-The diagram makes the shared parts available to the argument. Equal radii give AB = AC and BA = BC; together these establish that ABC is equilateral. The geometric argument establishes that conclusion. RT returns the labelled representation and the comparison with its source instructions and intermediate relations.
-
-The note preserves the two circle constructions and segment identities, names their joint inspection as the gain, and returns to the construction's premises if an intersection or equality is disputed. Drawing measurements are not premises of the proof. The construction and drawing can develop together; a completed proof is not needed before making a useful representation.
+For the RT use, the source consists of the construction instructions and intermediate geometric relations. The representation note preserves the circle constructions and segment identities, names joint inspection as the gain, and returns to the subject premises if an intersection or equality is disputed. Geometry supplies the construction and justified conclusion; drawing measurements are not proof premises. The construction and drawing can develop together.
 
 #### A.6.3.RT:5.1.b - Syllables against a hand-cycle reference
 
-In a learned solkattu convention, syllables express a rhythmic phrase and hand gestures mark its cycle positions. Take a three-beat cycle, with four pulses per beat, marked by clap, little finger and ring finger. The pulse stays constant.
+A.6.3.RT.OE:5.3 prepares given syllable-duration assignments against a learned three-beat hand cycle with four pulses per beat. Arithmetic and rhythmic composition determine the six-pulse preparation and the phrase's ending at the third cycle boundary.
 
-Represent four successive `ta ki ṭa` groups with respectively four, three, two and one pulses per syllable. Keep the hand cycle while voicing them. This arrangement makes phrase duration comparable with the recurring twelve-pulse reference. Arithmetic gives 12 + 9 + 6 + 3 = 30 pulses. Rhythmic composition selects a six-pulse preparation so the phrase ends at the third cycle boundary: 6 + 30 = 36. The preparation can itself be voiced as `ta ki ṭa` with two pulses per syllable.
-
-RT coordinates the given duration assignments with the hand reference. Composition and arithmetic determine the entry and ending; a performer can then use the resulting phrase. The representation note retains duration assignments, pulse constancy and cycle position, and returns to them when the ending no longer aligns. The utterance and gestures can both represent rhythmic content and realize rhythm. Actual fluency or learning requires observation when either is the question.
+RT's representation note retains duration assignments, pulse constancy and cycle position, identifies coordination with the hand reference as the gain, and returns to those conditions when the ending no longer aligns. The utterance and gestures can both represent rhythmic content and realize rhythm. Actual fluency or learning requires observation when either is the question.
 
 #### A.6.3.RT:5.2 - Positive later-specific table-to-diagram occurrence
 

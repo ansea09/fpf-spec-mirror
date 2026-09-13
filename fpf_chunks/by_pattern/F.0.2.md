@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.0.2.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
-line_start: 96143
-line_end: 96371
+line_start: 100929
+line_end: 101157
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -77,7 +77,7 @@ Conceptual synthesis must preserve source-local meanings while returning a posit
 1. **Name the receiving question and use.** State the authoring decision or subject-pattern contribution that may change. Name the practical action and first result under consideration when a pattern contribution is being proposed.
 2. **Recover source-local claims.** For every load-bearing source, identify the claim, its EntityOfConcern, effective ReferenceScheme, edition, source role, and the context in which the claim is used. Apply `F.0.1`; use `F.9` only when the comparison asserts a relation between exact cross-context SenseCells.
 3. **Choose a bounded source cut.** Apply `F.1`. Include the sources needed for the intended use, known rival explanations, action-changing counterexamples, transfer limits, and material non-fit. State why each selected source can change the decision.
-4. **Compare what changes action.** Compare concepts, relation participants, explanations, contexts, assumptions, source roles, counterexamples, losses, and validity limits. Treat lexical or model correspondences as proposals to inspect, not as conclusions.
+4. **Compare what changes action.** Compare concepts, relation participants, explanations, contexts, assumptions, source roles, counterexamples, losses, and validity limits. Treat lexical or model correspondences as proposals to inspect, not as conclusions. Use **B.5.TC** when the difference between theoretical accounts needs a constructed comparison: work the same question in each, locate the consequential difference and retain complementary or unresolved contributions.
 5. **Write one first result.** Write a provisional synthesis claim when a positive shared contribution is warranted; a contrast claim when the proposed unification is not warranted for the named use; or an unresolved-inquiry claim when a named source gap prevents either substantive answer.
 6. **Give the result a stable local locator and name its receiving decision.** Keep ordinary `C.2.1` claim identity. Add a stable locator within the authoring source, such as `SE-CS-03`, so later text can cite the same result together with that source edition. Name the content, placement, or pattern-allocation decision that will consider it.
 7. **Record the receiving disposition.** When the named decision is made, its decision record states whether this result is used as proposed, revised into a newly identified claim, not used for the named purpose, or reopened for further comparison. Cite the result locator and source edition. A result awaiting that decision remains a proposal; silence or a citation is not acceptance.

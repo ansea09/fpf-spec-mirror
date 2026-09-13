@@ -6,12 +6,12 @@ section_id: "C.40:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__013_relations.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:12 — Relations"
-line_start: 71426
-line_end: 71434
+line_start: 75620
+line_end: 75629
 dependencies:
   - "C.11"
   - "C.18"
@@ -22,6 +22,7 @@ keywords:
 ---
 
 ### C.40:12 - Relations
+- C.40.CD constructs problems and obtaining ways together through examined target use; B.5.QD and C.39.RO supply question and operation construction.
 
 - C.39 develops a missing obtaining explanation for a local contribution; it is not a compulsory preliminary stage.
 - C.18 distinguishes archive, front, lineage and possibility-space claims about the developed material.

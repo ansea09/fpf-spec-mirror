@@ -6,12 +6,12 @@ section_id: "A.7:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__008_worked-cases.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:6 — Worked cases"
-line_start: 21832
-line_end: 21847
+line_start: 22997
+line_end: 23012
 dependencies:
   - "A.1"
   - "A.10"

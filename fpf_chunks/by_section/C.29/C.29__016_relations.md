@@ -6,12 +6,12 @@ section_id: "C.29:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__016_relations.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:15 — Relations"
-line_start: 60098
-line_end: 60118
+line_start: 63420
+line_end: 63443
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -42,6 +42,9 @@ dependencies:
   - "C.29.1"
   - "C.29.2"
   - "C.29.3"
+  - "C.29.AV"
+  - "C.29.BB"
+  - "C.29.SC"
   - "C.31.ASAP"
   - "C.39"
   - "E.10"
@@ -63,6 +66,9 @@ keywords:
 - **Construction and argument recovery:** B.5 recovers the inputs, operations and dependencies needed to obtain or understand a result. C.29 tests which consequence can be carried through the proposed mathematical correspondence.
 
 - **Related Methods:** C.29.1 constructs mathematical result transfer; C.29.2 constructs a computation; C.29.3 connects computation to concrete execution. Each has its own working entry. They can be composed when one result supplies another's input; a computational question can also begin with an already adequate mathematical representation.
+- **Admissible variation:** C.29.AV constructs a constraint-preserving family and obtains an improvement, necessary condition or justified optimum from its change.
+- **Symmetry consequence:** C.29.SC follows the action on a problem and its answer to transfer a solution, derive a restriction or expose an unsupported choice.
+- **Boundary balance:** C.29.BB constructs and revises an additive change account, preserving shared transfers and the information needed for the requested total.
 - **Joint reasoning:** B.5.MPC connects the physical account, mathematical question, computation and realization, starting from whichever contribution is available and returning to the contribution whose conditions fail. A.3.3 supplies state and continuation semantics; A.6.1 supplies the realization relation; C.39 helps find or develop a missing operation.
 
 - **Extractable structural information:** `C.2.8` defines the characteristic and observer conditions consumed by a structural-information estimate. C.29 supplies the particular mathematical-lens correspondence and its limits.

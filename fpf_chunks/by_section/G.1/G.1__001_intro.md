@@ -6,12 +6,12 @@ section_id: "G.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__001_intro.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:intro — Intro"
-line_start: 104791
-line_end: 104809
+line_start: 109577
+line_end: 109595
 dependencies:
   - "A.10"
   - "A.15.3"

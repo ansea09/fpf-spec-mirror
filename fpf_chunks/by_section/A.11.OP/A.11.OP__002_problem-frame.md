@@ -6,12 +6,12 @@ section_id: "A.11.OP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__002_problem-frame.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
   - "A.11.OP:1 — Problem frame"
-line_start: 23710
-line_end: 23745
+line_start: 24875
+line_end: 24910
 dependencies:
   - "A.10"
   - "A.11"

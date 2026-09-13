@@ -6,12 +6,12 @@ section_id: "A.6.2:10.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__012_sota-echoing.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:10.1 — SoTA-Echoing"
-line_start: 14053
-line_end: 14065
+line_start: 14981
+line_end: 14993
 dependencies:
   - "A.6.0"
   - "A.6.1"

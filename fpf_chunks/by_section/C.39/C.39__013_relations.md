@@ -6,12 +6,12 @@ section_id: "C.39:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__013_relations.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:12 — Relations"
-line_start: 71253
-line_end: 71260
+line_start: 75239
+line_end: 75248
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -26,6 +26,8 @@ keywords:
 
 ### C.39:12 - Relations
 
+- C.39.RO constructs a reusable operation from a working case, retaining input meanings, application conditions and the reason for its result.
+- B.5.RC recovers a described construction; B.5.TU makes an available theory usable for the working question.
 - C.38 constructs comparable whole ways for one result after sufficient obtaining content is available.
 - C.40 develops and examines material variations; it returns here for a missing obtaining operation.
 - F.0.1 resolves an action-changing source-local meaning; F.1 selects sources whose contributions can change the answer.

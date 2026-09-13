@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.9.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.15.9 — Request and Use a Bounded Result from Another Practice"
-line_start: 27939
-line_end: 28116
+line_start: 29104
+line_end: 29281
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
-line_start: 29951
-line_end: 30356
+line_start: 31118
+line_end: 31523
 dependencies:
   - "A.10"
   - "A.15"
@@ -148,7 +148,7 @@ A point `x` in `CS` supplies one Coordinate `x(i)` from `ValueSet(Scale_i)` for 
 
 A complete state is total over the selected basis. An observation or evaluation input may instead be partial: it supplies Coordinates only for a subset of slots and records `missing`, `censored`, `unknown`, or another observation status separately. A consumer applies its own applicability and tri-state or error rule before treating such input as a state. `not-applicable` is normally an applicability fact, not a Scale value; a domain may use it as a genuine value only when the Scale explicitly defines that meaning.
 
-Any `U.Dynamics.stateSpace` refers to a declared `CharacteristicSpace`, and its states and trajectories use points in that space. A.3.3 supplies the dynamic law, time base, observation relation, and prediction-use conditions.
+Any `U.Dynamics.stateSpace` refers to a declared `CharacteristicSpace`. The dynamics model states the constraints selecting its admitted states within that product, and its trajectories use points satisfying the applicable state constraints. A.3.3.CC constructs the configuration description; A.3.3 supplies additional state information, the dynamic law, time base, observation relation and prediction-use conditions.
 
 ##### A.19:5.1.2 - Slot discipline (invariants)
 
@@ -181,7 +181,7 @@ Here **distance** means a mathematical distance function, not a performance meas
 
 ##### A.19:5.1.4 - Dynamics hook (typing only)
 
-Any model of change or dynamics in FPF must declare the state space it operates over. Formally, `U.Dynamics.stateSpace` **SHALL** be specified as a reference to a `CharacteristicSpace`. This creates a typing requirement: the dynamic model can only produce states and trajectories of states that belong to the given space. All predicates or predictions in such a dynamics model are understood to **quantify over** sequences of points in that CharacteristicSpace (with time semantics governed by A.3.3’s time base and laws). **Note:** A.19 defines only the structure of the state space; it deliberately **does not** fix any time base or dynamic law. Those remain the responsibility of the dynamics pattern (A.3.3). A.19 simply ensures there is a well-defined space in which states are located, so that dynamics are decoupled from any narrative “stage” and instead treat evolution as movement through this space.
+A `U.Dynamics.stateSpace` **SHALL** refer to a `CharacteristicSpace` that types its state values. The dynamics model declares the subset admitted by its constraints; when these depend on time or external conditions, that dependence remains part of the model. States and trajectories use points of the CharacteristicSpace satisfying those applicable constraints. Thus the product supplies coordinate meanings and the model supplies compatibility and change. A.3.3.CC constructs the configuration description, including implicit constraints or a parametrization. A.3.3 determines the additional information and transition law required for the prediction. A.19 supplies the space and applicable overlays without choosing that law or time base.
 
 ##### A.19:5.1.5 - Lexical discipline (Normative)
 

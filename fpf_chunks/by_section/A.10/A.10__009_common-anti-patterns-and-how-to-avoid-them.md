@@ -6,12 +6,12 @@ section_id: "A.10:6.2"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:6.2 — Common Anti-Patterns and How to Avoid Them"
-line_start: 23140
-line_end: 23149
+line_start: 24305
+line_end: 24314
 dependencies:
   - "A.10"
   - "A.13"

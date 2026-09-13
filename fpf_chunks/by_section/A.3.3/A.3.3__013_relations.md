@@ -6,12 +6,12 @@ section_id: "A.3.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__013_relations.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:12 — Relations"
-line_start: 9367
-line_end: 9372
+line_start: 9598
+line_end: 9605
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -48,6 +48,8 @@ keywords:
 ### A.3.3:12 - Relations
 
 C.2.1 supplies episteme identity, empirical-grounding and edition conditions. A.19 and C.16 supply characteristic and measurement construction; A.2.6 supplies a claim scope when the use relies on one.
+
+A.3.3.CC constructs a description of configurations under constraints. It can return that result before a transition law is available; :4.4.1 then connects the configuration, additional state information and allowed continuations. A.3.3.TR constructs the rule relating states from the supplied interactions, operations and inputs. A.3.3.PI retains the information needed for a prediction, using additional state, history, uncertainty or a sufficient bound.
 
 When an independently selected bounded-model-use structure or obtaining model-use relation changes the receiving use, A.1.1 supplies that account. The other conditional contributions are specified at :4.3; :4.7 governs mathematical transfer into a dynamics use.
 

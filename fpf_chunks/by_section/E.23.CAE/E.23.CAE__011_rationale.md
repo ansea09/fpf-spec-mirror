@@ -6,12 +6,12 @@ section_id: "E.23.CAE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__011_rationale.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:10 — Rationale"
-line_start: 94062
-line_end: 94067
+line_start: 98848
+line_end: 98853
 dependencies:
   - "A.15.7"
   - "A.15.8"

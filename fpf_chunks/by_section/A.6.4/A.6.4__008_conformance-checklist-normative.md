@@ -6,12 +6,12 @@ section_id: "A.6.4:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__008_conformance-checklist-normative.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:7 — Conformance Checklist (normative)"
-line_start: 16105
-line_end: 16126
+line_start: 17270
+line_end: 17291
 dependencies:
   - "A.10"
   - "A.15"

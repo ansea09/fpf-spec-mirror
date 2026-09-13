@@ -6,12 +6,12 @@ section_id: "E.17.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__004_forces.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:3 — Forces"
-line_start: 85198
-line_end: 85207
+line_start: 89984
+line_end: 89993
 dependencies:
   - "A.16.0"
   - "A.22"

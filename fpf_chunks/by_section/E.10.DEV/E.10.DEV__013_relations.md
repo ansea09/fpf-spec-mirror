@@ -6,12 +6,12 @@ section_id: "E.10.DEV:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__013_relations.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:12 — Relations"
-line_start: 79952
-line_end: 79958
+line_start: 84737
+line_end: 84743
 dependencies:
   - "A.15"
   - "A.2.2"

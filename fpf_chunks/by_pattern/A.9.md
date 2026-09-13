@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.9.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
-line_start: 22708
-line_end: 22821
+line_start: 23873
+line_end: 23986
 dependencies:
   - "A.1"
   - "A.8"

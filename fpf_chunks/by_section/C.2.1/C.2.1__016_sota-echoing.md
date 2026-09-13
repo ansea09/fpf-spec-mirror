@@ -6,12 +6,12 @@ section_id: "C.2.1:14.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__016_sota-echoing.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:14.1 — SoTA-Echoing"
-line_start: 43834
-line_end: 43849
+line_start: 46250
+line_end: 46272
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -62,9 +62,16 @@ Sections :4.3 and :4.8 therefore select explicit covered claims, their mappings 
 
 Section :4.5 therefore uses provenance as a case fact and tests an explicit continuity policy over the two episteme identities, source use, preserved features, permitted changes and failure conditions. The cost is recovering the policy and the changed features; the gain is a decision that distinguishes the accepted correction from translation, retargeting or independent reconstruction under the same policy. A trusted revision assertion can be consumed for a use that accepts its producer's criterion. A use requiring the local edition judgment must test the local criterion. Reopen that judgment when the source-use facts, policy or required preserved features change.
 
-**When may observations be identified as concerning the same object?** [Rodin's reconstruction, §§2–7](https://philsci-archive.pitt.edu/12116/1/vh.pdf), makes a theoretically supported connection between observations part of the identifying construction. Section :9.6 applies that contribution in an authored finite case. The two association candidates require displacements of either 1 cm or 9 cm. The 2 cm/s premise selects one; the 10 cm/s premise admits both.
+**When may observations be identified as concerning the same object?** [Rodin's reconstruction, §§2–7](https://philsci-archive.pitt.edu/12116/1/vh.pdf), makes a theoretically supported connection between observations part of the identifying construction. Section :9.6 retains the episteme/object distinction and directs the identifying construction to A.1.RI:5.1. The two association candidates require displacements of either 1 cm or 9 cm. The 2 cm/s premise selects one; the 10 cm/s premise admits both.
 
-For this ordinary conditional identification, :4.2.3/:9.6 select the explicit domain criterion, motion premises and discriminating observations. Requiring a separately governed relation occurrence first would add a declaration dependency without changing that calculation. The occurrence account is worth its additional cost when a later assertion must designate that exact occurrence; then `A.6.REL` supplies its predicate and identity requirements. A changed speed bound reopens the identification itself, whereas a missing occurrence rule blocks only the occurrence-dependent use.
+For this ordinary conditional identification, :4.2.3/:9.6 retain an ordinary identifying claim supported by A.1.RI's domain criterion, motion premises and comparison of associations. Requiring a separately governed relation occurrence first would add a declaration dependency without changing that calculation. The occurrence account is worth its additional cost when a later assertion must designate that exact occurrence; then `A.6.REL` supplies its predicate and identity requirements. A changed speed bound reopens the identification itself, whereas a missing occurrence rule blocks only the occurrence-dependent use.
 
 These comparisons select different information for different questions. The three identity answers suffice for identifying the episteme; empirical coverage, edition continuity and occurrence designation are added for the respective uses above.
+
+**Material interaction and grounding.** [Malafouris, *People Are STRANGE* (2026)](https://mitpress.mit.edu/9780262553902/people-are-strange/), develops the material-engagement account of how experienced self-boundaries change with tools, surroundings and ways of engaging with them. This motivates a question for :4.3 and :9.3: has a change of material interaction changed what can be observed or inferred about the subject? Reconsider the covered claims and grounding holon where that change affects their empirical support.
+
+**Internal representation and reasoning.** [Anthropic's *A global workspace in language models* (2026)](https://www.anthropic.com/research/global-workspace) reports interventions in which changing an internally represented intermediate concept changes a later answer in the studied reasoning tasks. This supports a causal contribution of those representations in those tasks. Use :9.8 to distinguish the changed activation, the probe's rendering and the answer when interpreting the result.
+
+**Tool availability and inference quality.** [Cheng et al. (2026)](https://arxiv.org/abs/2605.06326) report degraded reasoning under tool-enabled evaluation even when the studied models made almost no tool calls, and develop training methods that preserve reasoning while adding tool use. For an inference-quality claim, use evidence from the applicable tool regime and distinguish availability, actual calls and evaluated performance through :9.8.
+
 

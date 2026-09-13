@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.3.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
-line_start: 9042
-line_end: 9374
+line_start: 9272
+line_end: 9607
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -128,6 +128,7 @@ Use a contribution below when its question arises while constructing or using th
 | Which reusable way is being identified, and does the episteme describe that way? | A.3.1 identifies the `U.Method`; A.3.2 tests whether an episteme substantively describes that admitted Method. |
 | Does a proposed whole Method have the claimed parts and whole behavior? | B.1.5 establishes the exact part Methods, obtaining `methodPartOf` relations, whole-forming claims and constraints, whole semantics, boundary and reidentification. |
 | What work is planned, or what was actually performed? | A.15.2 identifies the `U.WorkPlan` episteme coordinating possible future Work; A.15.1 independently admits dated performed `U.Work` and establishes its actuals. |
+| Does the question concern a continuing role assignment or a particular state episode within it? | A.2.5 distinguishes the assignment from its `SystemRoleAssignmentStateRelation` occurrence: one maximal uninterrupted episode in which the specified predicate holds while that assignment remains in force. Select the subject the modeled change or prediction concerns. |
 | Is one actual bounded change established? | A.3.4 requires the exact changed referent, temporal extent under its continuity rule or formal ordering boundary, boundary conditions, actual characteristic-state and obtaining direct-relation facts, and continuity or reidentification. |
 | Which independently selected organization of constituents and obtaining relations is being used? | A.22 identifies that Structure, including a selected transformation-flow organization. |
 | Which operation or law-governed application is admissible over the subject kind? | A.6.1 identifies the `U.Mechanism` episteme declaring the operation family, laws and admissibility conditions. Use E.20 when introducing or revising a mechanism definition in FPF. |
@@ -146,7 +147,7 @@ U.Dynamics membership view {
   entityOfConcern: EntityOfConcern
   effectiveReferenceScheme: U.ReferenceScheme
   claimGraph: {
-    stateSpace: state-space declaration over FPF characteristics
+    stateSpace: reference to an A.19 CharacteristicSpace with the admitted-state constraints
     transitionLaw: state-transition claim
     timeReference: continuous | discrete | hybrid
     transitionChoices: permitted continuations and conditions selecting among them
@@ -161,7 +162,7 @@ U.Dynamics membership view {
 }
 ```
 
-`stateSpace` is claim content of this `U.Dynamics` episteme. It uses characteristics with local meanings, units, scales, and comparability rules, and may cite `A.19` or `C.16` when characteristic or measurement construction is being claimed. It is not the same object as a receiving-evaluation `CharacteristicSpace` used to score an object for improvement. The dynamics state space may claim topology, geometry, aggregation policy, or coordinate transformations when trajectories or comparisons need them; an independently selected organization among exact constituents and obtaining relations remains A.22 `U.Structure`.
+`stateSpace` is claim content of this `U.Dynamics` episteme. It refers to an A.19 `CharacteristicSpace`: the product of declared characteristic value sets. The model states which combinations are admitted, through constraints or a predicate over that product. A.3.3.CC constructs such a configuration description; a predictive state can require additional information under :4.4.1. Characteristics retain their local meanings, units, Scales and comparability rules; C.16 supplies measurement construction when needed. A receiving evaluation may reuse this CharacteristicSpace; its scoring and judgement belong to that evaluation. Topology, geometry, aggregation or coordinate transformations are supplied over the domain where trajectories or comparisons use them; an independently selected organization of constituents and obtaining relations remains A.22 `U.Structure`.
 
 `transitionLaw` is paradigm-agnostic. It can be an equation, relation, kernel, finite-state transition, queueing model, Bayesian update, Petri-net firing relation, simulation rule, learned predictor, or hybrid model, provided the state space, semantic basis, and applicability boundary are declared.
 
@@ -176,11 +177,11 @@ For a proposed stochastic one-step law on aggregated coordinates, compare the ne
 ##### A.3.3:4.4.1 - Construct the state and allowed continuations
 
 1. **Start with the question and participants.** Name what can change, which result is needed and the conditions being considered. From the relevant subject account, identify the interacting participants and which of their differences can affect that result.
-2. **Describe allowed configurations.** State how the participants may be arranged and which values are compatible. Separate constraints on configurations from interactions that drive change. Use independent coordinates when they simplify the work; retain an implicit constraint when eliminating it is difficult or would hide a needed relation.
+2. **Describe allowed configurations.** Use A.3.3.CC to select the participants' retained differences, express compatible combinations, and choose independent coordinates, implicit constraints or finite enumeration for the receiving operation. Keep constraints on configurations separate from restrictions on rates or transitions. Sections :5.7 and A.3.3.CC:5 show how changed lengths, stock and job-order questions alter the description.
 3. **Recover the information needed for continuation.** Separate changing state from parameters held fixed by the model and externally supplied inputs. Determine the initial data required by the proposed law. A position may also need its velocity; a computation may need its instruction position and saved local values. For a field, name its argument domain and value quantities, then obtain the needed initial and boundary data from its law and the modeled arrangement.
-4. **Construct the transition.** Use the subject's laws or operation rules to relate admitted states under the inputs. Work a small case. Check that the proposed continuation respects the constraints. If a constraint leaves the next state unresolved, supply the missing interaction or operation rule, or retain the alternatives it permits.
+4. **Construct the transition.** Use the subject's laws or operation rules to relate admitted states under the inputs. A.3.3.TR constructs that rule: state local effects, combine jointly active relations separately from alternative actions, and derive a small case. Check that the proposed continuation respects the constraints. If a constraint leaves the next state unresolved, supply the missing interaction or operation rule, or retain the alternatives it permits.
 5. **Interpret the alternatives.** State who or what can select a continuation and under which conditions. Use a probability law when one is supplied or supported for that use. Counting possible continuations establishes their number; probabilities require a rule assigning them weights. The distinction changes the result in :5.9.
-6. **Test the description and choose the return.** Apply the state-sufficiency comparison above to the prediction or observation needed now. Return the state and transition account, a sufficient range or conditional conclusion, or the state distinction, law, input or observation still needed. Use C.11.DUA when choosing whether further information is worth obtaining.
+6. **Test the description and choose the return.** Apply the state-sufficiency comparison above to the prediction or observation needed now. A.3.3.PI constructs the retained state, usable history, predictive distribution or bound for that question and horizon. Return the state and transition account, a sufficient range or conditional conclusion, or the state distinction, law, input or observation still needed. Use C.11.DUA when choosing whether further information is worth obtaining.
 
 The construction can finish before a complete dynamics model exists: a useful result may identify the missing physical interaction or computational rule. Section :4.1 admits `U.Dynamics` only when the episteme substantively states both the state space and the transition law.
 
@@ -302,7 +303,7 @@ A familiar equation or a well-fitting simulation can also encourage extrapolatio
 
 **CC-A3.3-3 (EntityOfConcern).** Name the changing EntityOfConcern. Joint modeling uses the independently identified joint subject required by :4.1.
 
-**CC-A3.3-4 (State space).** The state description identifies the participants and variable meanings, their allowed combinations, and the information required by the law. Characteristics retain their units, Scales and comparability rules; topology, geometry or coordinate transformations are supplied when the use needs them. Use :4.4.1 when this description must be constructed.
+**CC-A3.3-4 (State space).** The state description names the A.19 CharacteristicSpace, the combinations admitted by the model, and the information required by its law. Characteristics retain their meanings, units, Scales and comparability rules; topology, geometry or coordinate transformations are supplied when the use needs them. Use A.3.3.CC to construct the configuration description and :4.4.1 to complete the state-and-transition account.
 
 **CC-A3.3-5 (Transition law).** The law states a relation, map, kernel, equation, rule, learned predictor or simulation rule for the declared time base. Its permitted alternatives, conditions selecting among them and any supplied probability law remain recoverable under :4.4.1.
 
@@ -372,6 +373,8 @@ The deterministic comparison in :5.6 and stochastic comparison in :5.8 ask which
 ### A.3.3:12 - Relations
 
 C.2.1 supplies episteme identity, empirical-grounding and edition conditions. A.19 and C.16 supply characteristic and measurement construction; A.2.6 supplies a claim scope when the use relies on one.
+
+A.3.3.CC constructs a description of configurations under constraints. It can return that result before a transition law is available; :4.4.1 then connects the configuration, additional state information and allowed continuations. A.3.3.TR constructs the rule relating states from the supplied interactions, operations and inputs. A.3.3.PI retains the information needed for a prediction, using additional state, history, uncertainty or a sufficient bound.
 
 When an independently selected bounded-model-use structure or obtaining model-use relation changes the receiving use, A.1.1 supplies that account. The other conditional contributions are specified at :4.3; :4.7 governs mathematical transfer into a dynamics use.
 

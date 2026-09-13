@@ -6,12 +6,12 @@ section_id: "C.29:4"
 section_title: "Solution - selected answer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__006_solution-selected-answer.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:4 — Solution - selected answer"
-line_start: 59192
-line_end: 59838
+line_start: 62500
+line_end: 63160
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -42,6 +42,9 @@ dependencies:
   - "C.29.1"
   - "C.29.2"
   - "C.29.3"
+  - "C.29.AV"
+  - "C.29.BB"
+  - "C.29.SC"
   - "C.31.ASAP"
   - "C.39"
   - "E.10"
@@ -124,7 +127,15 @@ Choose the row that fits the problem, or use a closer domain construction. The m
 | Probe, order or context effect with incompatible frames | Quantum-like or contextual-probability model: identify the contextual obstruction that still changes inference or action after the ordinary subject patterns. | Apply C.26's adequacy conditions. A physical quantum claim additionally needs the relevant physics and observations. |
 | Storage, computational or realizability limit | Count actual represented objects and operations; apply a resource bound or constructive/impossibility argument. | Recompute for the actual alternative representation. A valid rejection of one implementation does not yet supply a feasible replacement. |
 
+For a constrained extremum or stationary construction, C.29.AV develops the admissible family, calculates its effect and establishes what the resulting condition proves. Use it when specifying a variation space still leaves the required construction unresolved.
+
+For a symmetry argument, C.29.SC follows the transformation through the conditions and required answer. It transfers a solution, restricts possible answers or identifies a choice that the available distinctions cannot support.
+
+When a balance must be constructed or its boundary changes, C.29.BB identifies the additive quantity, included stores and crossing transfers. It combines compatible accounts and returns the total, a bound or the missing contribution.
+
 For a first candidate, compare with ordinary prose, direct observation or the accepted domain model before a broader survey. When the question is a tradition-scale source synthesis, use G.2; C.29 needs only the candidate or rival relevant to this working question.
+
+When expected information gain determines which observation to obtain, choose a feasible way to estimate it. If density approximations are used, allocate samples between fitting them and computing the expected gain. In high dimensions, consider reducing the parameter or observation space and account for the information lost by that reduction. Compare estimation cost and error with the distinction needed for the choice. [Li, Baptista and Marzouk (2026)](https://arxiv.org/abs/2411.08390v3) develop these sample-allocation and dimension-reduction choices.
 
 #### C.29:4.2c - Bounded-observer structural-information lens
 
@@ -545,6 +556,8 @@ MathLensUse.ValidationUseOverlay@Context :=
 
 Use the validation overlay for the FullCard reliance in :4.4: prediction about the phenomenon, an operational or consequential decision, adoption of a model, benchmark/assurance input, Bridge-dependent model reliance, or transfer as a reusable phenomenon model. This includes a scientific claim of model adequacy. A published explanation of a conditional derivation needs its derivation and assumptions, not an empirical-adequacy claim invented for it. `LensUseBoundaryValue` alone is insufficient for the stronger reliance. Keep the neighboring notions separate: verification is proof or formal checking under stated assumptions; validation is fit for a declared use and regime; calibration aligns model parameters or readouts with observations; explanation states why the lens makes a distinction intelligible. The C.29 output does not let any one of these four labels silently stand in for the others.
 
+To evaluate a probabilistic prediction, choose a scoring rule appropriate to its forecast form. Use a proper rule when the score should favor reporting the assessed distribution without distortion in expectation. The Brier loss for binary events and logarithmic scores for predictive densities are examples. State which direction is better and compare forecasts against the same observations. [Gneiting and Raftery (2007)](https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf) explain these scoring choices.
+
 ```text
 MathLensUse.LearnedLensOverlay@Context :=
 ⟨
@@ -559,6 +572,8 @@ MathLensUse.LearnedLensOverlay@Context :=
 ```
 
 Use the learned-lens overlay when the mathematical object is fitted, learned, latent, simulation-trained, data-derived, a neural operator, a surrogate solver, an embedding, or a world-model representation.
+
+For `DataOrTrainingRegime`, identify the data's origin, what the collection includes and omits, how observations were collected and transformed, and the recommended uses and limitations. Use those facts to judge the proposed generalization or narrow it. [Datasheets for Datasets](https://arxiv.org/abs/1803.09010v8) supplies questions for recovering these conditions; select those relevant to the present use.
 
 Use the following learned-lens stop variants when the declared use reaches the corresponding boundary. Include a separate guard only when it passes F.19's plausible-reader test:
 
@@ -582,6 +597,8 @@ MathLensUse.CausalAbstractionCheck@Context :=
 ```
 
 This is not a first-class causal abstraction card. It is a lightweight check: when `LensMappingMode` is abstraction, quotient, coarse-graining, macro-model, or simulation, and `declaredLensUse` would include intervention, policy, counterfactual, or causal explanation, apply `C.28` for causal-use question and verdict.
+
+For causal explanation through a learned representation, state which variables and interventions correspond between the models, then compare their results under those interventions. For approximate agreement, specify the similarity measure, the distribution of evaluated interventions and the way similarities are aggregated. Decoding a variable from an activation shows that the decoder can recover it; a claim that the variable affects the model's behavior needs the intervention comparison. [Geiger et al. (2025), §§2.4, 3.2 and 3.6.3](https://jmlr.org/papers/v26/23-0058.html) develop these distinctions.
 
 #### C.29:4.5b - Repair decision table
 

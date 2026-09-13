@@ -6,12 +6,12 @@ section_id: "C.29:0"
 section_title: "First mathematical move"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__002_first-mathematical-move.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:0 — First mathematical move"
-line_start: 59141
-line_end: 59148
+line_start: 62449
+line_end: 62456
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -42,6 +42,9 @@ dependencies:
   - "C.29.1"
   - "C.29.2"
   - "C.29.3"
+  - "C.29.AV"
+  - "C.29.BB"
+  - "C.29.SC"
   - "C.31.ASAP"
   - "C.39"
   - "E.10"
@@ -65,5 +68,5 @@ Ask what you need to find out. Choose the smallest mathematical object that coul
 
 For waiting work, a queue candidate turns “slow flow” into questions about arrivals, service and waiting. For a proposed dense state array, counting its entries can already rule out an implementation. For a familiar local calculation such as `V = IR` under its accepted conditions, use the equation directly: the calculation does not require a lens-use record.
 
-If no concrete object can yet be chosen, retain the working cue and the next observation or construction as a candidate. A family label remains a discovery cue until a concrete object and correspondence are supplied. Recording options in :4.4 serve later inspection or reuse of the result; the mathematical operation comes first.
+If no concrete object can yet be chosen, retain the working cue and the next observation or construction as a candidate. **B.5.FM** helps when the participants or interactions needed to formulate that mathematical question are still unclear. A family label remains a discovery cue until a concrete object and correspondence are supplied. Recording options in :4.4 serve later inspection or reuse of the result; the mathematical operation comes first.
 

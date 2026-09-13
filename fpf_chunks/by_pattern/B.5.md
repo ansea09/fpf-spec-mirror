@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
-line_start: 41058
-line_end: 41374
+line_start: 42225
+line_end: 42543
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -56,7 +56,7 @@ A second difficulty survives even when result production becomes cheap. More pro
 
 ### B.5:4 - Solution
 
-Choose reasoning by the result the current question needs. The abductive–deductive–inductive loop remains the canonical route for **hypothesis-led empirical inquiry**: propose a conjecture, derive consequences that make a test interpretable, and compare them with relevant observations. Construction, exploratory observation and question formation can precede, interrupt or follow that route. A mathematical inquiry may finish with a construction, counterexample or proof.
+Choose reasoning by the result the current question needs. The abductive–deductive–inductive loop remains the canonical route for **hypothesis-led empirical inquiry**. Its short mantra is **Propose → Analyze → Test**: propose a conjecture, derive consequences that make a test interpretable, and compare them with relevant observations. Construction, exploratory observation and question formation can precede, interrupt or follow that route. A mathematical inquiry may finish with a construction, counterexample or proof.
 
 #### B.5:4.1 - Form or recover the question
 
@@ -88,7 +88,7 @@ When the situation has no usable model yet, begin with the contrast the answer m
 3. **Obtain a cheap consequence.** Follow the proposed relation far enough to answer a useful part of the question. A direction of change, limiting case or rough bound may suffice before parameter fitting or detailed computation. Show which premise makes that consequence follow.
 4. **Challenge a consequential choice.** Ask what observation, omitted interaction or changed condition could defeat the answer. Compare a plausible alternative when the observations leave materially different explanations. Revise the model or obtain the missing observation when that difference matters.
 
-Return the provisional model and what follows under its assumptions. If a missing domain account or formal construction prevents the next contribution, use A.15.9 to request that specific help from the working description. Section 5.6 shows this entry before a heat-transfer calculation has been formulated.
+Return the provisional model and what follows under its assumptions. If a missing domain account or formal construction prevents the next contribution, use A.15.9 to request that specific help from the working description. Section 5.6 shows this entry before a heat-transfer calculation has been formulated. **B.5.FM** shows how to choose the model's participants and relations and use them to derive a consequence, in physical and formal problems.
 
 #### B.5:4.2 - Perform the contribution that is missing
 
@@ -114,7 +114,7 @@ For example, a stand specification calls for a portable display. Its assembly ru
 
 Construction and deduction can work together: an auxiliary object can make a proof possible, and a theorem can suggest a new construction. Novelty does not belong exclusively to one inference type.
 
-For a hypothesis-led test, derive the consequences needed to interpret the test before treating its outcome as corroboration. Keep the prediction, observations, measurement conditions and inference recoverable. A simulation establishes a result of the simulated model; applying it to the physical target needs a supported model–world correspondence.
+For a hypothesis-led test, derive the consequences needed to interpret the test. Check whether those consequences conflict with retained premises, and follow their implications through the part of the model relevant to the question. Return inconsistent premises for revision before relying on their joint prediction. Keep the prediction, observations, measurement conditions and inference recoverable before treating the outcome as corroboration. A simulation establishes a result of the simulated model; applying it to the physical target needs a supported model–world correspondence.
 
 An exploratory finding can supply a hypothesis. Its subsequent empirical assessment must account for how that hypothesis was obtained and for the dependence or selection involved. Use the domain's appropriate design and inference; merely relabeling the same data as a later test does not create independent evidence.
 
@@ -129,13 +129,13 @@ Explain what was obtained, why the decisive step works, and where the result can
 1. Read the claim with its domain and conditions. For a mathematical statement, recover the meanings of its objects and quantifiers.
 2. Work backward from that conclusion through the intermediate claims or constructions it uses. At each needed transition, identify the premises, the operation or inference, and what it establishes. Follow a shared premise wherever the conclusion depends on it; keep jointly needed premises together.
 3. Reconstruct a transition the receiver cannot follow from the source's definitions, rules or worked cases. Obtain the missing explanation or specialist contribution when those do not suffice. A conditional argument can be useful while one premise remains to be established; state that premise and the consequence its failure would have for this use.
-4. If a premise or requested result changes, carry that change through the dependent steps and derive what still follows. Stop at a sufficient argument for the receiving use or a named unsupported transition. An unchanged, adequately supported part can be reused; a full reproof is needed only when the question calls for it.
+4. If a premise or requested result changes, use B.5.RR to follow the affected reasoning and derive what still follows. Preserve joint prerequisites and sufficient alternatives. Stop at a sufficient argument for the receiving use or a named unsupported transition. An unchanged, adequately supported part can be reused; a full reproof is needed only when the question calls for it.
 
 For instance, a team expects to recover a drawing because a backup exists. Recovering that conclusion requires the needed data in a readable format and an available way to decode it. If the backup is encrypted and its key is unavailable, the next question concerns access to that key or another copy of the drawing. Repeating the fact that a backup exists leaves that prerequisite unresolved.
 
-When beginning with an unfamiliar theory, reconstruct its concept of use for one working question. State what the practitioner wants to explain, predict, construct or decide; which objects and relations the theory lets them describe; what information and operations the application needs; and how its result answers that question. Use a source application when it answers the question. Otherwise propose a small application from the theory's stated objects and operations, work it through and test the correspondence. Keep that constructed trial distinguishable from an application already supported by the source. The first result is a usable explanation of that application, or the particular missing premise or operation that prevents it. Use the intended application to choose what to learn next. Study the construction deeply enough to perform or change the contribution the work requires.
+When beginning with an unfamiliar theory, reconstruct its concept of use for one working question. State what the practitioner wants to explain, predict, construct or decide; which objects and relations the theory lets them describe; what information and operations the application needs; and how its result answers that question. Use a source application when it answers the question. Otherwise propose a small application from the theory's stated objects and operations, work it through and test the correspondence. Keep that constructed trial distinguishable from an application already supported by the source. The first result is a usable explanation of that application, or the particular missing premise or operation that prevents it. Use the intended application to choose what to learn next. Study the construction deeply enough to perform or change the contribution the work requires. **B.5.TU** develops this application-construction method, including recovery of the needed operations and use of a correct result that answers only part of the receiving question.
 
-To compare theories or ways of using them, ask the same question of each account. Preserve each source's meanings while comparing what is given, what operations are allowed and what answer follows. If the results differ, identify whether the difference comes from the question, assumptions, mathematical structure, inference or proposed physical mechanism. If one account answers a different question, state that complementary use. Choose or change an account for the distinction the receiving work needs. Use C.29 for a proposed mathematical-lens transfer or local candidate choice; domain prediction and intervention claims still need their applicable Methods and evidence.
+To compare theories or ways of using them, ask the same question of each account. Preserve each source's meanings while comparing what is given, what operations are allowed and what answer follows. If the results differ, identify whether the difference comes from the question, assumptions, mathematical structure, inference or proposed physical mechanism. If one account answers a different question, state that complementary use. Choose or change an account for the distinction the receiving work needs. Use C.29 for a proposed mathematical-lens transfer or local candidate choice; domain prediction and intervention claims still need their applicable Methods and evidence. **B.5.TC** develops the comparison: reconstruct both applications, work a common case, distinguish theoretical differences from approximation or execution, and return the use or inquiry that follows.
 
 When the correspondence between a formal account and its intended use is the difficulty, reconstruct one small instance. Name the variables and their domains, the given inputs, the assumptions and permitted operations, and the statement the calculation or proof establishes. Relate the decisive quantities and conditions to the intended use. A source's worked case can supply this reconstruction; recover the omitted step if the receiver cannot yet carry it out.
 
@@ -155,6 +155,8 @@ When the result exposes a limitation, identify what must change:
 - **The formulation:** revise the target, assumptions or boundary and state which earlier results still apply.
 - **The available Methods or ways of constructing candidates:** compare retaining, modifying or extending that repertoire. E.23 supplies improvement under an appropriate evaluation; C.18 applies when generation rules, retained alternatives or the effective space of possibilities are the question.
 - **A participant's ability to contribute:** distinguish the capability question from missing access or support; use E.23.CAE and E.23.CDI where their conditions hold.
+
+Use **B.5.QD** when the next question is still unclear. Recover a failed dependency or a newly available construction, specify the answer it makes worth seeking, and work a revealing case. This can develop the inquiry after a success as well as a counterexample.
 
 Use E.10.DEV if “development” hides the intended subject and C.36 for an actual cultural-generation, transmission or selection question.
 

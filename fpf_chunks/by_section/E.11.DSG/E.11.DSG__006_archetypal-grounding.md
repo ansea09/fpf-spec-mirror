@@ -6,12 +6,12 @@ section_id: "E.11.DSG:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__006_archetypal-grounding.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:5 — Archetypal Grounding"
-line_start: 83371
-line_end: 83401
+line_start: 88157
+line_end: 88187
 dependencies:
   - "A.14"
   - "C.2.1"

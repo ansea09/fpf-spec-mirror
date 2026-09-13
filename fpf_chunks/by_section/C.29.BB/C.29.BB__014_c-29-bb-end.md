@@ -1,0 +1,25 @@
+---
+chunk_kind: "child"
+pattern_id: "C.29.BB"
+pattern_title: "Construct a Balance across a Boundary"
+section_id: "C.29.BB:End"
+section_title: "C.29.BB:End"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.29.BB/C.29.BB__014_c-29-bb-end.md"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
+heading_path:
+  - "C.29.BB — Construct a Balance across a Boundary"
+  - "C.29.BB:End — C.29.BB:End"
+line_start: 65260
+line_end: 65261
+dependencies:
+  - "A.3.3.TR"
+  - "C.11.DUA"
+  - "C.29.1"
+  - "C.29.2"
+  - "E.18.2"
+keywords:
+---
+
+### C.29.BB:End
+

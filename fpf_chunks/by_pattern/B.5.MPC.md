@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.MPC.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
-line_start: 41375
-line_end: 41807
+line_start: 42544
+line_end: 42980
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -45,6 +45,8 @@ keywords:
 Begin with the difference the answer should help you understand or make possible. Take one available contribution and explain what it would have to mean, and what else would have to hold, for that contribution to answer the question. Work the first missing connection far enough to obtain a consequence or locate the next missing contribution. For a motion command, this might already reveal that the supplied count concerns motor revolutions while the distance model concerns wheel revolutions.
 
 The result is a connected solution, a useful conditional consequence or bound, or a particular missing connection that directs the next inquiry. This pattern specializes B.5's choice and connection of inquiry contributions for this joint physical, mathematical and computational difficulty. It governs the reasoning that connects those contributions. Physical laws, mathematical constructions, algorithm design and the engineering of an executing arrangement supply their respective subject content.
+
+This is an epistemological and methodological synthesis. The epistemological question is what the connected contributions allow us to know: what follows from the constructions and premises, and how those consequences bear on the physical situation. The methodological question is how agents obtain and apply that knowledge, divide the work and change their methods. A result can support a physical change, expose a limitation or make a further question worth pursuing.
 
 A practitioner needs enough preparation to recover the question, follow the meanings of the important quantities and operations, and recognize where specialist help is needed. The worked cases explain their elementary algebra, graph and counting constructions. A more demanding application can require additional physical theory, mathematics, computation or measurement expertise; obtain that contribution with its explanation when it is missing.
 
@@ -173,7 +175,7 @@ Keep a shared premise attached to every contribution that consumes it. Both an a
 
 Enter a ready result at the place where it is used. Recover its inputs and conditions backward, then continue forward with its consequence. When a missing input blocks one route, compare another sufficient route using the available inputs. Do not combine an output from one route with the assumptions of another without establishing their compatibility.
 
-A failed connection can send the inquiry back to its physical account, mathematical construction, notation, procedure, realization or question. Locate the first disagreement that changes the receiving result, revise the responsible contribution and revisit its dependents. B.5:4.3 supplies argument recovery; C.29.1, C.29.2 and C.29.3 supply the transfer, formulation and realization methods respectively. Retain unaffected contributions whose conditions and meanings still hold.
+A failed connection can send the inquiry back to its physical account, mathematical construction, notation, procedure, realization or question. Use B.5.MPC.R to locate the incompatibility, construct a sufficient repair and carry it through the affected contributions. If several causes remain compatible with the observations, obtain a discriminating contribution or use a sufficient conditional result. B.5.RA supplies argument recovery and B.5.RR supplies general reasoning revision; C.29.1, C.29.2 and C.29.3 supply the transfer, formulation and realization methods respectively. Retain unaffected contributions whose conditions and meanings still hold.
 
 #### B.5.MPC:4.7 - Return the consequence and choose what to do with it
 
@@ -389,6 +391,8 @@ This connection work has a cost. Recovering an unfamiliar source, learning notat
 #### B.5.MPC:10.1 - Why the connection is a Method in its own right
 
 The receiving physical question joins several operations whose local success has different meanings. Derivation establishes what follows within a mathematical account. A physical explanation supports the choice of that account for a phenomenon. A procedure obtains a represented result; its realization connects that procedure to available system behavior. Coordinating these operations requires preserving their result dependencies while selecting a useful next contribution.
+
+The epistemological and methodological contributions meet in the use of a result. Axiomatization can make the objects, premises and permitted constructions explicit. A physical postulate contributes to empirical knowledge through an interpreted model whose consequences can be compared with observations. Computational formulation and realization let agents work through consequences using specified operations on represented inputs. The practitioner connects these contributions to obtain and apply knowledge, then uses an encountered limitation or a newly available operation to change the method or pose another question. Their detailed constructions give substance to the pragmatic question: which further work becomes possible?
 
 The robot makes the need concrete. Circumference, transmission ratio, integer rounding and signed-command semantics are separately intelligible. The useful command exists only when they refer to compatible motion and counts. A.3.3 can help recover state, C.29 can construct and transfer the mathematical consequence, and C.16 can interpret an observation. Their contributions enter the joint question through the dependencies explained in :4; none by itself chooses all the other subject content.
 

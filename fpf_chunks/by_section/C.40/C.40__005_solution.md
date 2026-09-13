@@ -6,12 +6,12 @@ section_id: "C.40:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__005_solution.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:4 — Solution"
-line_start: 71295
-line_end: 71336
+line_start: 75495
+line_end: 75532
 dependencies:
   - "C.11"
   - "C.18"
@@ -45,15 +45,11 @@ Preserve the actual permissions, confidentiality limits, means and participant c
 
 #### C.40:4.3 - Coupled problem-and-solution search
 
-Enter here directly when several problems and available ways need joint development. Use the material-changing and examination operations in section 4.1 where needed; do not repeat a completed pass merely to enter this branch.
+Enter here when problems and available ways need development together. C.40.CD supplies the full Method: recover a sought result and usable construction, form a consequential changed question, adapt the obtaining operation, examine it under target conditions, and use the outcome to choose the next question or use.
 
-1. **State the actual problems and ways.** For each problem, identify the required result, protected conditions and observed limit. Distinguish a receiving need from an experimental challenge or conjectured opportunity. If an existing way adequately answers the fixed target problem, use it and stop.
-2. **Construct a few meaningful changed problems.** Change a relevant condition, recipient, demanded result or available means. Explain the change and how its validity and difficulty can be examined. Reject an invalid construction; leave unexamined tractability unknown. A new recipient name establishes no demand, and current inability establishes no permanent impossibility.
-3. **Recover or develop ways worth trying.** Use the applicable professional operation and section 4.1's variation–examination work. A missing obtaining explanation goes to C.39 for that contribution. Consider only attempts whose attainable result can warrant their full burden.
-4. **Examine transfer at the target.** Apply a source way, or a justified adaptation, to target material and test the target's own requirements. Keep successful, failed, mixed and unperformed transfers distinct. A source success cannot substitute for the target observation.
-5. **Use the outcome to change the next question.** Recover a missing target condition, narrow the demanded result, revise the operation, construct another warranted problem, or stop the unsupported transfer. Keep the source way's earlier qualified uses when the new result does not invalidate them.
+Keep the original receiving requirement connected to any narrower or exploratory problem. A partial target result may permit one useful comparison while another needed comparison remains unsupported. The next inquiry follows that remaining condition or another worthwhile use of the new construction.
 
-The additional result is the examined problem–way combinations, their target-transfer outcomes and the next answer-changing question. It is not merely a larger list of challenges or automatic selection of a final course.
+Use section 4.1's material-changing and examination operations where needed. A sufficient existing answer can finish the work. B.5.QD constructs a missing question; C.39.RO constructs an operation for changed or combined use. C.40.CD connects those results through target application and preserves the conditions for a useful continuation.
 
 #### C.40:4.4 - Use stronger claims only when they matter
 

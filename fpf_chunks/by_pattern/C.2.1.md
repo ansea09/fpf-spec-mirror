@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.1.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
-line_start: 43278
-line_end: 43857
+line_start: 45697
+line_end: 46282
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -519,17 +519,14 @@ Episteme `E1` is the exact source used to produce candidate edition `E2`. The ap
 If the same Work instead retargets the claims to another EntityOfConcern, translates them under a rule that the policy classifies as a derivative, or reconstructs similar content without using E1 as source, the edition predicate fails even when the Method is named “revision.” Work, Method, provenance, change facts, evaluation, and evidence remain outside the two-participant relation. Later repackaging or publication establishes neither another episteme nor edition continuity.
 
 #### C.2.1:9.6 - Grounded identity across two observations
-A morning-observation episteme concerns an object designated `M`; an evening-observation episteme concerns an object designated `E` under another reference scheme. To decide whether the observations concern the same continuing object, recover the domain's criterion for that continuation and use its motion and observation account to construct and test the connection. State the identification with the premises and evidence that support it. When the observations leave competing connections possible, retain that ambiguity; when they fit none of the proposed connections, reconsider the observations or model. The finite case below supplies its continuation, motion and observation premises explicitly.
+A morning-observation episteme concerns an object designated `M`; an evening-observation episteme concerns an object designated `E` under another reference scheme. A.1.RI supplies the Method for deciding whether these observations concern the same continuing object: recover its continuation criterion, construct connections under the subject and observation rules, and compare the alternatives. Carry the identification with its supporting premises; retain ambiguity when the observations leave materially different connections possible.
 
 The two observation epistemes can retain different identities after the object is identified: they can make different time-indexed claims or use different reference schemes. C.2.1:4.2.3 permits the identifying claim in ordinary language. If a later use needs a separately designated relation occurrence, apply A.6.REL with the direct relation pattern's obtaining predicate and occurrence-identity rule. A missing relation definition then blocks that occurrence-dependent use. It does not erase a conditional identification already established under stated premises; an unspecified object-continuation criterion, by contrast, leaves the identification itself unresolved.
 
-**Construct a bounded identifying result.** Consider two persistent point objects whose motion is modeled independently on one axis; paths may cross. Each object is observed exactly once at each end of a one-second interval, with exact positions expressed in one common coordinate frame. Initially object A is at 0 cm and B at 10 cm. The later observations R and S are at 1 cm and 9 cm. The motion account bounds speed by 2 cm/s, so each object's displacement is at most 2 cm.
-
-There are two complete associations. A–R with B–S requires displacements of 1 cm each and is admissible; straight paths supply a joint realization. A–S with B–R requires 9 cm each and fails the bound. Under these premises, R is the later observation of A, and S of B. The earlier and later observation claims concern the same respective objects while retaining their different time-indexed content.
-
-Change the speed bound to 10 cm/s. Both associations now have admissible straight-path realizations. The observations leave the correspondence unresolved; a further discriminating observation or motion constraint is needed.
+**Construct a bounded identifying result.** A.1.RI:5.1 develops the complete two-object case: independent persistent point objects at 0 and 10 cm are observed one second later at 1 and 9 cm, with exact positions in one frame and crossing permitted. With one observation of each object at each end of the interval and a 2 cm/s speed bound, only the association requiring 1 cm per object is admissible. Raising the bound to 10 cm/s also permits the crossed association requiring 9 cm per object. The observation claims retain their different occasions after an identification; the changed premise instead leaves the object correspondence unresolved. The receiving use determines whether a discriminator is worth obtaining.
 
 In [Rodin's astronomical reconstruction](https://philsci-archive.pitt.edu/12116/1/vh.pdf), the connecting trajectory is supplied through theory and observations. In the HoTT reconstruction, MS and ES are represented as terms of a point-object type Pt; `p : MS =_Pt ES` expresses the identifying construction as a term of their identity type.
+
 
 #### C.2.1:9.7 - Readable wiring diagram as a proxy
 
@@ -617,13 +614,22 @@ Sections :4.3 and :4.8 therefore select explicit covered claims, their mappings 
 
 Section :4.5 therefore uses provenance as a case fact and tests an explicit continuity policy over the two episteme identities, source use, preserved features, permitted changes and failure conditions. The cost is recovering the policy and the changed features; the gain is a decision that distinguishes the accepted correction from translation, retargeting or independent reconstruction under the same policy. A trusted revision assertion can be consumed for a use that accepts its producer's criterion. A use requiring the local edition judgment must test the local criterion. Reopen that judgment when the source-use facts, policy or required preserved features change.
 
-**When may observations be identified as concerning the same object?** [Rodin's reconstruction, §§2–7](https://philsci-archive.pitt.edu/12116/1/vh.pdf), makes a theoretically supported connection between observations part of the identifying construction. Section :9.6 applies that contribution in an authored finite case. The two association candidates require displacements of either 1 cm or 9 cm. The 2 cm/s premise selects one; the 10 cm/s premise admits both.
+**When may observations be identified as concerning the same object?** [Rodin's reconstruction, §§2–7](https://philsci-archive.pitt.edu/12116/1/vh.pdf), makes a theoretically supported connection between observations part of the identifying construction. Section :9.6 retains the episteme/object distinction and directs the identifying construction to A.1.RI:5.1. The two association candidates require displacements of either 1 cm or 9 cm. The 2 cm/s premise selects one; the 10 cm/s premise admits both.
 
-For this ordinary conditional identification, :4.2.3/:9.6 select the explicit domain criterion, motion premises and discriminating observations. Requiring a separately governed relation occurrence first would add a declaration dependency without changing that calculation. The occurrence account is worth its additional cost when a later assertion must designate that exact occurrence; then `A.6.REL` supplies its predicate and identity requirements. A changed speed bound reopens the identification itself, whereas a missing occurrence rule blocks only the occurrence-dependent use.
+For this ordinary conditional identification, :4.2.3/:9.6 retain an ordinary identifying claim supported by A.1.RI's domain criterion, motion premises and comparison of associations. Requiring a separately governed relation occurrence first would add a declaration dependency without changing that calculation. The occurrence account is worth its additional cost when a later assertion must designate that exact occurrence; then `A.6.REL` supplies its predicate and identity requirements. A changed speed bound reopens the identification itself, whereas a missing occurrence rule blocks only the occurrence-dependent use.
 
 These comparisons select different information for different questions. The three identity answers suffice for identifying the episteme; empirical coverage, edition continuity and occurrence designation are added for the respective uses above.
 
+**Material interaction and grounding.** [Malafouris, *People Are STRANGE* (2026)](https://mitpress.mit.edu/9780262553902/people-are-strange/), develops the material-engagement account of how experienced self-boundaries change with tools, surroundings and ways of engaging with them. This motivates a question for :4.3 and :9.3: has a change of material interaction changed what can be observed or inferred about the subject? Reconsider the covered claims and grounding holon where that change affects their empirical support.
+
+**Internal representation and reasoning.** [Anthropic's *A global workspace in language models* (2026)](https://www.anthropic.com/research/global-workspace) reports interventions in which changing an internally represented intermediate concept changes a later answer in the studied reasoning tasks. This supports a causal contribution of those representations in those tasks. Use :9.8 to distinguish the changed activation, the probe's rendering and the answer when interpreting the result.
+
+**Tool availability and inference quality.** [Cheng et al. (2026)](https://arxiv.org/abs/2605.06326) report degraded reasoning under tool-enabled evaluation even when the studied models made almost no tool calls, and develop training methods that preserve reasoning while adding tool use. For an inference-quality claim, use evidence from the applicable tool regime and distinguish availability, actual calls and evaluated performance through :9.8.
+
+
 ### C.2.1:15 - Relations  *(overview)*
+
+- **A.1.RI** constructs observation-based reidentification of the subject while C.2.1 retains the identities and claims of the observation epistemes.
 
 - **Builds on:** `A.1` for holon recognition, `A.6.REL` for direct relation occurrences, `A.6.0` for independent same-individual `U.Signature` membership and relation-facing `RelationSignature` use, `A.6.5` for declaration-local SlotSpecs and participant designations, `A.7` for entity-description distinction, and `C.29` for mathematical-lens use.
 - **Coordinates with:** `A.3.2` for `U.MethodDescription` membership without a second episteme identity; `C.3.2` for local-kind membership judgments; `E.24.UK` for ontology-level U-kind admission; `E.10.D2` for Description and specification-use discipline, including selection that creates neither conformance nor membership; `A.6.1` for typed operation positions and exact current application bindings; `A.6.2`, `A.6.3`, and `A.6.4` for morphing, source-to-receiving viewing construction, and retargeting; `A.6.3.RT` for representation transitions; `E.17.0` for conformance of fixed E to fixed P and `U.View` membership; `C.13` and `A.22` for separately current multi-view collections and structures; the pattern for the exact direct subject relation, or an exact missing-relation blocker naming the participants, required predicate, use, and missing defining or constraining pattern; `F.9` for exact Bridge semantics when a claim concerns a bounded cross-context use; `E.13` when a visible representation-quality proxy is used as practical epistemic value; `A.2.6` for claim scope; `A.1.1` for bounded model-use structure; `A.10` and `B.3` for evidence and assurance; `A.14` only when a phase or separately selected edition collection is current; `C.2.P`, `A.3.1`, and `A.3.4` when source use, revision method, or actual change is current in edition-continuity evaluation; C.2.1:4.9 only when a local claim separately asks when a new entity began; `E.17` for multi-view publication forms and uses; `E.24.PUB` for publication occurrences, forms, and carriers; and `G.11` for currentness.

@@ -6,12 +6,12 @@ section_id: "C.16:15"
 section_title: "Relations - Placement (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__017_relations-placement-informative.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:15 — Relations - Placement (Informative)"
-line_start: 50159
-line_end: 50181
+line_start: 52584
+line_end: 52613
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -54,6 +54,13 @@ keywords:
 ---
 
 ### C.16:15 - Relations - Placement *(Informative)*
+
+**Measurement-relation construction.** C.16.MR derives a relation from the sought property, measuring arrangement and consequential influences, and obtains a first conditional result. This construction can support a proposed measurement. For a result from an actual measurement, use the conditions above for the performed work and its interpretation.
+
+**Indication interpretation.** C.16.IR begins with an available measurement relation and determines which values or comparisons an indication supports. Use it when influential unknowns, lost distinctions or uncertainty can change the requested answer. It can return a sufficient bound while other quantities remain unknown.
+
+**Measurement repair.** C.16.RM begins when an existing measurement disagrees with an expectation or cannot resolve the distinction needed for use. It chooses which model, arrangement or calculation to change, recovers a result from the available observations when possible, and tests the changed contribution at the scope of the receiving question.
+
 **Architecture measurement boundary.** `C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite C.16 readings only after the characteristic, bearer, scale, coordinate, value, unit when relevant, and admissible use are declared. C.16 readings do not become architecture characteristics, decision criteria, eval programs, evidence, gates, or decision authority by themselves.
 
 **Structural-information measurement boundary.** `C.33`, `C.34`, and `C.35` may name captured structure, lost structure, similarity, preservation, entropy, epiplexity estimate, compression, generated-carrier adequacy, or search-output context. When a claim about any of those uses a value, score, coordinate, threshold, dashboard reading, or eval result, state the measurement construction and admissible-use assertions under the exact C.16 and evaluation/criteria predicates, with their subject patterns used as locators.

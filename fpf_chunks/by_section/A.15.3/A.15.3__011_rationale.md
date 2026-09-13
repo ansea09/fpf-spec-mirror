@@ -6,12 +6,12 @@ section_id: "A.15.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__011_rationale.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:10 — Rationale"
-line_start: 26381
-line_end: 26386
+line_start: 27546
+line_end: 27551
 dependencies:
   - "A.15.1"
   - "A.15.2"

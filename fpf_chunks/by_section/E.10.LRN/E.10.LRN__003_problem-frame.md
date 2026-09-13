@@ -6,12 +6,12 @@ section_id: "E.10.LRN:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__003_problem-frame.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:1 — Problem Frame"
-line_start: 79548
-line_end: 79564
+line_start: 84168
+line_end: 84184
 dependencies:
   - "A.10"
   - "A.15"

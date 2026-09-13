@@ -6,12 +6,12 @@ section_id: "A.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__005_forces.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:3 — Forces"
-line_start: 1650
-line_end: 1660
+line_start: 1672
+line_end: 1682
 dependencies:
   - "A.1.1"
   - "A.1.STM"

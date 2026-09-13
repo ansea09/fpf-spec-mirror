@@ -6,13 +6,14 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.2.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "E.5.2 — Notational Independence"
-line_start: 75799
-line_end: 75893
+line_start: 80419
+line_end: 80513
 dependencies:
   - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "C.2.8"
   - "C.37"
   - "E.5"
@@ -66,7 +67,7 @@ A definition can depend on unstated conventions of one glyph set or diagram gram
 
 The first result is an expression whose meaning can be recovered, with an explanation of any reasoning or construction step it supports. Include a semantic mapping when the use compares it with another expression or depends on the content it carries from that expression.
 
-If a claim changes, compare again with the named source expression; repair the correspondence or narrow the claimed equivalence and permitted use. Use A.6.3.RT to construct and compare a replacement when the intended operation is difficult or unavailable. If the representation scheme cannot express a needed distinction, select another scheme or redesign the scheme before claiming that the distinction is preserved.
+If a claim changes, compare again with the named source expression; repair the correspondence or narrow the claimed equivalence and permitted use. Use A.6.3.RT to compare content carried between expressions and A.6.3.RT.OE to construct an expression with which the intended operation can be performed. If the representation scheme cannot express a needed distinction, select another scheme or redesign the scheme before claiming that the distinction is preserved.
 
 ### E.5.2:5 - Archetypal Grounding (System / Episteme)
 
@@ -100,7 +101,7 @@ A notation can preserve meaning while changing which operations a reader can per
 
 **SoTA question and choice.** How can framework content remain understandable across notations while an expression also supports reasoning or construction? Adopt recoverable interpretation of concepts, claims and conditions. Adapt the portability rule to expressions that carry an operation: explain their use and prerequisites, and compare the content whenever another expression is used as equivalent.
 
-A serious alternative is a prose-first rule that treats diagrams and written calculi as secondary illustrations. It keeps verbal definitions accessible, but can exclude an operation from the normative account when the operation is performed through the expression. Reject that blanket restriction. For example, in the Euclidean construction in A.6.3.RT:5.1.a, the same segment participates as a radius and as a triangle side. The prepared expression helps the reader combine those relations. Its role needs an explanation of that operation, beyond a caption describing the picture.
+A serious alternative is a prose-first rule that treats diagrams and written calculi as secondary illustrations. It keeps verbal definitions accessible, but can exclude an operation from the normative account when the operation is performed through the expression. Reject that blanket restriction. For example, in the Euclidean construction in A.6.3.RT.OE:5.1, the same segment participates as a radius and as a triangle side. The prepared expression helps the reader combine those relations. Its role needs an explanation of that operation, beyond a caption describing the picture.
 
 A second alternative is to require one canonical notation. This can provide shared interpretation and manipulation rules within a practice whose readers have learned them. Retain that option for such a practice. Extending it across FPF would also require readers in other practices to acquire those conventions, even when another expression supports their task. Compare these choices for the same content, operation and reader preparation. The selected rule accepts the cost of explaining local conventions and mapping compared expressions in exchange for allowing the expression suited to the work. It claims no universal advantage in learning time or performance.
 
@@ -113,7 +114,7 @@ A second alternative is to require one canonical notation. This can provide shar
 ### E.5.2:9 - Relations
 * **Parent umbrella:** `pat:constitution/guard‑rails` (E.5)
 * **Constrains:** the expression of normative Core content, including project-local expressions used as carrying that content; the semantic-mapping requirement follows the comparison or intended reliance.
-* **Uses:** A.6.3.RT when changing representation scheme or reasoning medium; C.2.8 and C.37 when recovery or use must be assessed.
+* **Uses:** A.6.3.RT when changing representation scheme or reasoning medium; A.6.3.RT.OE for constructing an operative expression; C.2.8 and C.37 when recovery or use must be assessed.
 * **Conceptual prefixes:** E.10.P supplies the policy, registry and anchor requirements; E.5.2 keeps interpretation independent of tooling-specific expansion.
 * **Subject reasoning and construction:** the pattern about the represented subject or the relevant Method governs the operation.
 * **Method descriptions:** use `U.MethodDescription` only when A.3.2 applies: the episteme concerns one admitted Method and makes substantive claims about that way of doing.

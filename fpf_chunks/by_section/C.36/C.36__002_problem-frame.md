@@ -6,12 +6,12 @@ section_id: "C.36:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__002_problem-frame.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:1 — Problem frame"
-line_start: 70231
-line_end: 70287
+line_start: 74211
+line_end: 74269
 dependencies:
   - "A.1"
   - "A.10"
@@ -62,6 +62,8 @@ keywords:
 ### C.36:1 - Problem frame
 
 Use this pattern when the current project question is about how a culture, style, tradition, discipline practice, method family, work family, canon, recognition regime, selection regime, or mediating system changes and can be deliberately influenced.
+
+When changing participants, tools or questions puts a shared method out of reach, C.36.RP helps make its use and development obtainable: locate the missing contribution, arrange its use and retain the means of renewal.
 
 Typical first-use situations:
 

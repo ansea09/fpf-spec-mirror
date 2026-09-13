@@ -6,12 +6,12 @@ section_id: "A.1.STM:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__014_rationale.md"
-commit_sha: "7fd134984ec4ca1fd22b8b296e0bbb58aeece4ab"
+commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:12 — Rationale"
-line_start: 3074
-line_end: 3077
+line_start: 3304
+line_end: 3307
 dependencies:
   - "A.1"
   - "A.1.CSD"
