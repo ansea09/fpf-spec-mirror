@@ -6,12 +6,12 @@ section_id: "A.19:12.1"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__015_c-29-mathematical-lens-use-relation.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:12.1 — C.29 mathematical-lens use relation"
-line_start: 31506
-line_end: 31509
+line_start: 31518
+line_end: 31521
 dependencies:
   - "A.10"
   - "A.15"

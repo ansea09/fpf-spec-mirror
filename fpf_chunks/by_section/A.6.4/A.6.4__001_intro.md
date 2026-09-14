@@ -6,12 +6,12 @@ section_id: "A.6.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__001_intro.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:intro — Intro"
-line_start: 17097
-line_end: 17114
+line_start: 17109
+line_end: 17126
 dependencies:
   - "A.10"
   - "A.15"

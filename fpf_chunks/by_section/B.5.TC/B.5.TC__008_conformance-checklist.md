@@ -6,12 +6,12 @@ section_id: "B.5.TC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__008_conformance-checklist.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Working Question"
   - "B.5.TC:7 — Conformance Checklist"
-line_start: 44341
-line_end: 44351
+line_start: 44353
+line_end: 44363
 dependencies:
   - "B.5.RA"
   - "B.5.RR"

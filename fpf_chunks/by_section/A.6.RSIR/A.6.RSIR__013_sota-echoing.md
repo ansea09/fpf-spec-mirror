@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__013_sota-echoing.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:11 — SoTA-Echoing"
-line_start: 18974
-line_end: 18985
+line_start: 18986
+line_end: 18997
 dependencies:
   - "A.10"
   - "A.15"

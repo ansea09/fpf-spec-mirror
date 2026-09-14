@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.8.PER.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
-line_start: 7350
-line_end: 7663
+line_start: 7362
+line_end: 7675
 dependencies:
   - "A.10"
   - "A.13"

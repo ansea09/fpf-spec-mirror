@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-line_start: 82578
-line_end: 84145
+line_start: 82164
+line_end: 83736
 dependencies:
   - "A.10"
   - "A.15"
@@ -313,7 +313,12 @@ Do not let `record` mean "any file that remembers something", "the missing sourc
 ##### E.10:0.2c.9 - `model`, `diagram`, `screen`, `dashboard`, `table`, `note`, `memo`, `summary`, `explanation`
 
 These are recognition examples, not kinds.
-Classify each occurrence as one of:
+
+For unresolved `model` or `explanation` wording, recover the subject at issue and what the work needs to obtain or change. An explanation of a predictor may concern its behavior, its internal computation or the phenomenon it predicts. Constructing an account, expressing an available account and helping another agent acquire an ability can require different methods; one request can combine these contributions. Use the method that supplies the required result once the question is clear. If the object or relation remains unresolved, use `E.10.ARCH:3`.
+
+A performance claim states what the agent does or can do. A claim that it uses a particular internal representation concerns how that performance is obtained. Use `C.2.1` when the content and identity of an episteme are at issue; use the applicable subject method to establish a claimed physical or computational representation. Use `E.17.EFP` when ambiguity about source faithfulness changes how an expressed account may be used, and `C.2.8` when recoverability by a recipient is the question.
+
+When the wording concerns representation, publication or reliance, classify the occurrence as applicable:
 - episteme or episteme publication;
 - `U.View`, `U.EpistemeView`;
 - publication form;

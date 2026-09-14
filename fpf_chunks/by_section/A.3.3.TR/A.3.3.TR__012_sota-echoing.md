@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__012_sota-echoing.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:11 — SoTA-Echoing"
-line_start: 10035
-line_end: 10048
+line_start: 10047
+line_end: 10060
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"

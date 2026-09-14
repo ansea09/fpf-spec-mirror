@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__006_archetypal-grounding.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:5 — Archetypal Grounding"
-line_start: 43093
-line_end: 43168
+line_start: 43105
+line_end: 43180
 dependencies:
   - "A.15.9"
   - "A.3.3"

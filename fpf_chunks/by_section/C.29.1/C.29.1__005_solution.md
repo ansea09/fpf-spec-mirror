@@ -6,12 +6,12 @@ section_id: "C.29.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__005_solution.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:4 — Solution"
-line_start: 63490
-line_end: 63626
+line_start: 63501
+line_end: 63641
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -88,6 +88,10 @@ An equality on inputs where both sides happen to be defined leaves those availab
 For a sequence of operations, follow the intermediate representations. If each step has the required correspondence and passes an allowed intermediate result to the next, composing the equalities transfers the sequence. If a later operation depends on a distinction discarded earlier, the stepwise construction exposes where the summary has become insufficient.
 
 An invertible coordinate change offers a constructive route. Given F and its inverse, define the receiving update by V = F ∘ U ∘ F⁻¹ on the represented domain. This definition yields the commuting comparison there. If V was proposed independently, compare it with this expression. A bijection between states alone does not determine whether that proposed update agrees.
+
+The same comparison can relate transformed inputs and outputs within one model. Set V = U, choose F for the input transformation and G for the output transformation: G(U(x)) = U(F(x)) means that transforming a result agrees with applying the operation to transformed inputs. This is equivariance. Invariance of a quantity q under F means q(F(x)) = q(x). To obtain another solution of the original fixed problem by such a transformation, establish that its defining data and conditions are preserved. When the data change, carry that change into the receiving problem.
+
+Always name the transformation whose effect is being compared. Relabelling two components can preserve a quantity which the time update changes. To establish preservation during evolution, compare q(U(x)) with q(x) for that update.
 
 #### C.29.1:4.4 - Determine whether a merged representation defines the answer
 

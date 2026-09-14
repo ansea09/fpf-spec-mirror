@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.3.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "C.29.3 — Computational Realization"
-line_start: 64264
-line_end: 64606
+line_start: 64281
+line_end: 64627
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -362,4 +362,8 @@ Reconsider the realization when a required input, observation relation, executio
 | C.11.DUA - Decision-Useful Advice and Evidence Demands | Selects further assurance or information by the receiving decision and its cost. |
 
 ### C.29.3:End
+
+
+
+
 

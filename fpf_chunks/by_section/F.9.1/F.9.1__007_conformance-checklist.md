@@ -6,12 +6,12 @@ section_id: "F.9.1:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__007_conformance-checklist.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "F.9.1 — Bridge Stance Note"
   - "F.9.1:6 — Conformance checklist"
-line_start: 104317
-line_end: 104329
+line_start: 103910
+line_end: 103922
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

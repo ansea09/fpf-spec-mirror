@@ -6,12 +6,12 @@ section_id: "C.29:4"
 section_title: "Solution - selected answer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__006_solution-selected-answer.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:4 — Solution - selected answer"
-line_start: 62500
-line_end: 63160
+line_start: 62512
+line_end: 63172
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -42,9 +42,7 @@ dependencies:
   - "C.29.1"
   - "C.29.2"
   - "C.29.3"
-  - "C.29.AV"
   - "C.29.BB"
-  - "C.29.SC"
   - "C.31.ASAP"
   - "C.39"
   - "E.10"
@@ -127,9 +125,9 @@ Choose the row that fits the problem, or use a closer domain construction. The m
 | Probe, order or context effect with incompatible frames | Quantum-like or contextual-probability model: identify the contextual obstruction that still changes inference or action after the ordinary subject patterns. | Apply C.26's adequacy conditions. A physical quantum claim additionally needs the relevant physics and observations. |
 | Storage, computational or realizability limit | Count actual represented objects and operations; apply a resource bound or constructive/impossibility argument. | Recompute for the actual alternative representation. A valid rejection of one implementation does not yet supply a feasible replacement. |
 
-For a constrained extremum or stationary construction, C.29.AV develops the admissible family, calculates its effect and establishes what the resulting condition proves. Use it when specifying a variation space still leaves the required construction unresolved.
+For a constrained extremum or stationary construction, construct or reuse a family of allowed candidates and calculate the resulting change in the target quantity. Distinguish an improving candidate, a necessary stationary condition and a justified optimum; carry the resulting conclusion and its assumptions into the working question.
 
-For a symmetry argument, C.29.SC follows the transformation through the conditions and required answer. It transfers a solution, restricts possible answers or identifies a choice that the available distinctions cannot support.
+For a symmetry argument, follow the transformation through the problem's data, conditions and required answer. Derive the transferred solution, restriction or obstruction to selection, and say which problem that consequence answers.
 
 When a balance must be constructed or its boundary changes, C.29.BB identifies the additive quantity, included stores and crossing transfers. It combines compatible accounts and returns the total, a bound or the missing contribution.
 

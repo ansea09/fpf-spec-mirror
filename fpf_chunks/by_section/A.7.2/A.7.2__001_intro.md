@@ -6,12 +6,12 @@ section_id: "A.7.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__001_intro.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:intro — Intro"
-line_start: 23326
-line_end: 23331
+line_start: 23338
+line_end: 23343
 dependencies:
   - "A.10"
   - "A.7.1"

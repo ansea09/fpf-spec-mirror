@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
-line_start: 3317
-line_end: 3734
+line_start: 3329
+line_end: 3746
 dependencies:
   - "A.1"
   - "A.1.1"

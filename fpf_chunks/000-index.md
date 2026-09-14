@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `f965ffb27d69ec5e4ae94f1bb0092c15fa13c991`
+Commit SHA: `b6bc6961903d9196811f71f561c1877fd3feec07`
 
 Chunking method: `pattern-aware`
 
-Patterns: `346`
+Patterns: `344`
 
 ## Patterns
 
@@ -207,8 +207,6 @@ Patterns: `346`
 - [C.29.1 — Mathematical Result Transfer](by_pattern/C.29.1.md)
 - [C.29.2 — Computational Formulation](by_pattern/C.29.2.md)
 - [C.29.3 — Computational Realization](by_pattern/C.29.3.md)
-- [C.29.AV — Derive a Condition from an Admissible Variation](by_pattern/C.29.AV.md)
-- [C.29.SC — Derive a Consequence from a Symmetry](by_pattern/C.29.SC.md)
 - [C.29.BB — Construct a Balance across a Boundary](by_pattern/C.29.BB.md)
 - [C.30 — Grounded Architecture and Selected-Structure Adequacy](by_pattern/C.30.md)
 - [C.30.AD — Architecture Description Adequacy](by_pattern/C.30.AD.md)

@@ -6,12 +6,12 @@ section_id: "C.32.ACE:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__010_consequences.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:9 — Consequences"
-line_start: 71466
-line_end: 71474
+line_start: 71052
+line_end: 71060
 dependencies:
   - "A.10"
   - "A.15.1"

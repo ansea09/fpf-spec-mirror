@@ -6,12 +6,12 @@ section_id: "A.1.RI:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__002_problem-frame.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:1 — Problem frame"
-line_start: 1982
-line_end: 1993
+line_start: 1994
+line_end: 2005
 dependencies:
   - "A.1"
   - "A.3.3.PI"

@@ -6,12 +6,12 @@ section_id: "C.29.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__001_intro.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:intro — Intro"
-line_start: 64264
-line_end: 64269
+line_start: 64281
+line_end: 64286
 dependencies:
   - "A.3.3"
   - "A.6.1"

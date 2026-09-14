@@ -6,12 +6,12 @@ section_id: "C.29.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__006_archetypal-grounding.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:5 — Archetypal Grounding"
-line_start: 63627
-line_end: 63759
+line_start: 63642
+line_end: 63776
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -112,6 +112,8 @@ d' = (T₁'−T₂')/2 = (1−2α)(T₁−T₂)/2 = (1−2α)d.
 ~~~
 
 The receiving operation preserves the mean and scales the contrast. It is a simpler expression of the same discrete update. Equal heat capacities explain the physical significance of the preserved mean: the two heat changes cancel. The warmer temperature is M = max(T₁,T₂) = m + |d|.
+
+**Relabelling and evolution.** Let S(T₁,T₂) = (T₂,T₁) swap the bodies, and let U denote the update above. Equal heat capacities and the shared α give S(U(T₁,T₂)) = U(S(T₁,T₂)): both sides equal (αT₁+(1−α)T₂, (1−α)T₁+αT₂). The same update therefore applies after the swap. The warmer temperature M is invariant under S. It changes under U: for α = 1/4, (20,80) becomes (35,65), so M falls from 80 °C to 65 °C. Preservation of the mean during that update follows from the separately derived identity m′ = m.
 
 Now consider discarding d and retaining only m. The identity update m' = m is still exact, but the warmer temperature is no longer determined. The states (0,100) and (50,50) both have m = 50. For α = 1/4, the first becomes (25,75), then (37.5,62.5); the second stays at (50,50). They give opposite answers to the 60 °C threshold question after two intervals. Mean preservation alone is insufficient.
 

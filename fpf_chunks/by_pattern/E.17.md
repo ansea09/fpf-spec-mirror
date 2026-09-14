@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.md"
-commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
+commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
-line_start: 90696
-line_end: 91284
+line_start: 90289
+line_end: 90877
 dependencies:
   - "A.10"
   - "A.15.4"
