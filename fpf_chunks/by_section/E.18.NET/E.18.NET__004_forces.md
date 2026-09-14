@@ -6,12 +6,12 @@ section_id: "E.18.NET:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__004_forces.md"
-commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
+commit_sha: "0caf9a10acfc0ee17c32fc71f6173b542393f0a4"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:3 — Forces"
-line_start: 95069
-line_end: 95079
+line_start: 95073
+line_end: 95083
 dependencies:
   - "A.1.STM"
   - "A.12"

@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__002_use-this-when.md"
-commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
+commit_sha: "0caf9a10acfc0ee17c32fc71f6173b542393f0a4"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:0 — Use This When"
-line_start: 85125
-line_end: 85145
+line_start: 85129
+line_end: 85149
 dependencies:
   - "A.2"
   - "A.2.1"

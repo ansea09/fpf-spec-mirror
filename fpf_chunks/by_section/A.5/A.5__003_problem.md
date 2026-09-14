@@ -6,7 +6,7 @@ section_id: "A.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.5/A.5__003_problem.md"
-commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
+commit_sha: "0caf9a10acfc0ee17c32fc71f6173b542393f0a4"
 heading_path:
   - "A.5 — Open‑Ended Kernel & Extension Layering"
   - "A.5:2 — Problem"

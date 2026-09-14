@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__013_sota-echoing.md"
-commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
+commit_sha: "0caf9a10acfc0ee17c32fc71f6173b542393f0a4"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:11 — SoTA-Echoing"
-line_start: 85275
-line_end: 85282
+line_start: 85279
+line_end: 85286
 dependencies:
   - "A.2"
   - "A.2.1"

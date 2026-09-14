@@ -6,12 +6,12 @@ section_id: "E.11.DSG:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__012_sota-echoing.md"
-commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
+commit_sha: "0caf9a10acfc0ee17c32fc71f6173b542393f0a4"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:11 — SoTA-Echoing"
-line_start: 87828
-line_end: 87835
+line_start: 87832
+line_end: 87839
 dependencies:
   - "A.14"
   - "C.2.1"

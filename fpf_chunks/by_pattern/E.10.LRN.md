@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.LRN.md"
-commit_sha: "b6bc6961903d9196811f71f561c1877fd3feec07"
+commit_sha: "0caf9a10acfc0ee17c32fc71f6173b542393f0a4"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
-line_start: 83737
-line_end: 83951
+line_start: 83741
+line_end: 83955
 dependencies:
   - "A.10"
   - "A.15"
