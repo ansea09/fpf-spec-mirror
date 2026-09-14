@@ -6,7 +6,7 @@ section_id: "E.10.LRN:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__004_problem.md"
-commit_sha: "bbfb5347013400e9a895fa4b0f66992e931c0ece"
+commit_sha: "f965ffb27d69ec5e4ae94f1bb0092c15fa13c991"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:2 — Problem"
