@@ -6,12 +6,12 @@ section_id: "C.16.P:6"
 section_title: "Adjacent Claim Governance Named by Value"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__008_adjacent-claim-governance-named-by-value.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:6 — Adjacent Claim Governance Named by Value"
-line_start: 53465
-line_end: 53485
+line_start: 53453
+line_end: 53473
 dependencies:
   - "A.10"
   - "A.15"

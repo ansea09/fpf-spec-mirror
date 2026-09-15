@@ -6,12 +6,12 @@ section_id: "C.38:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__008_conformance-and-practical-checks.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:7 — Conformance and practical checks"
-line_start: 74605
-line_end: 74623
+line_start: 74593
+line_end: 74611
 dependencies:
   - "A.10"
   - "A.15.9"

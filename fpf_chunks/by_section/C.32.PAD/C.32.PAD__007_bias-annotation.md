@@ -6,12 +6,12 @@ section_id: "C.32.PAD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__007_bias-annotation.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:6 — Bias-Annotation"
-line_start: 72519
-line_end: 72529
+line_start: 72507
+line_end: 72517
 dependencies:
   - "A.10"
   - "A.15"

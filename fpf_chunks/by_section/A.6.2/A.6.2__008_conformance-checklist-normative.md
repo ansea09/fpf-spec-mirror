@@ -6,12 +6,12 @@ section_id: "A.6.2:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__008_conformance-checklist-normative.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:7 — Conformance Checklist (normative)"
-line_start: 14934
-line_end: 14946
+line_start: 14922
+line_end: 14934
 dependencies:
   - "A.6.0"
   - "A.6.1"

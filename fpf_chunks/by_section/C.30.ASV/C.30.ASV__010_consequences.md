@@ -6,12 +6,12 @@ section_id: "C.30.ASV:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__010_consequences.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:9 — Consequences"
-line_start: 67554
-line_end: 67562
+line_start: 67542
+line_end: 67550
 dependencies:
   - "A.1"
   - "A.10"

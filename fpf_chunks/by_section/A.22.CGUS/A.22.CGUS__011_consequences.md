@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__011_consequences.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:9 — Consequences"
-line_start: 37617
-line_end: 37622
+line_start: 37605
+line_end: 37610
 dependencies:
   - "A.10"
   - "A.15"

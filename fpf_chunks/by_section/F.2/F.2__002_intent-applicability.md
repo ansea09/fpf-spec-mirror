@@ -6,12 +6,12 @@ section_id: "F.2:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__002_intent-applicability.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:1 — Intent & applicability"
-line_start: 101089
-line_end: 101096
+line_start: 101077
+line_end: 101084
 dependencies:
   - "A.11"
   - "A.7"

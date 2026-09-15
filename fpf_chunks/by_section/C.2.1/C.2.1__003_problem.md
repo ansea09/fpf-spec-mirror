@@ -6,12 +6,12 @@ section_id: "C.2.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__003_problem.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:2 — Problem"
-line_start: 45744
-line_end: 45757
+line_start: 45732
+line_end: 45745
 dependencies:
   - "A.1"
   - "A.1.1"

@@ -6,12 +6,12 @@ section_id: "F.12:9"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__010_micro-examples.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:9 — Micro-examples"
-line_start: 104642
-line_end: 104659
+line_start: 104630
+line_end: 104647
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "E.22:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__012_sota-echoing.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:11 — SoTA-Echoing"
-line_start: 97547
-line_end: 97558
+line_start: 97535
+line_end: 97546
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

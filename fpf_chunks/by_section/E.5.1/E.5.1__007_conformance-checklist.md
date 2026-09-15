@@ -6,12 +6,12 @@ section_id: "E.5.1:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__007_conformance-checklist.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:6 — Conformance Checklist"
-line_start: 79976
-line_end: 79983
+line_start: 79964
+line_end: 79971
 dependencies:
   - "E.5"
 keywords:

@@ -6,12 +6,12 @@ section_id: "A.16.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__008_conformance-checklist.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:7 — Conformance Checklist"
-line_start: 30430
-line_end: 30438
+line_start: 30418
+line_end: 30426
 dependencies:
   - "A.16"
   - "A.16.0"

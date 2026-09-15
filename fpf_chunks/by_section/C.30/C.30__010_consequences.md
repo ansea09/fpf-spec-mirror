@@ -6,12 +6,12 @@ section_id: "C.30:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__010_consequences.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:9 — Consequences"
-line_start: 65513
-line_end: 65521
+line_start: 65501
+line_end: 65509
 dependencies:
   - "A.1"
   - "A.10"

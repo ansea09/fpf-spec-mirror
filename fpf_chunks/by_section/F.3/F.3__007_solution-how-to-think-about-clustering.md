@@ -6,12 +6,12 @@ section_id: "F.3:6"
 section_title: "Solution — how to think about clustering"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__007_solution-how-to-think-about-clustering.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:6 — Solution — how to think about clustering"
-line_start: 101343
-line_end: 101374
+line_start: 101331
+line_end: 101362
 dependencies:
   - "A.11"
   - "A.7"

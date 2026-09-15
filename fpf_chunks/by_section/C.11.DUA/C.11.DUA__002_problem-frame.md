@@ -6,12 +6,12 @@ section_id: "C.11.DUA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__002_problem-frame.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.11.DUA — Decision-Useful Advice and Evidence Demands"
   - "C.11.DUA:1 — Problem frame"
-line_start: 51834
-line_end: 51845
+line_start: 51822
+line_end: 51833
 dependencies:
   - "A.10"
   - "C.11"

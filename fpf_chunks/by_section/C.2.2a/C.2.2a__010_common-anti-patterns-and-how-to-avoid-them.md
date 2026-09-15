@@ -6,12 +6,12 @@ section_id: "C.2.2a:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 47313
-line_end: 47320
+line_start: 47301
+line_end: 47308
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "F.9:21"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__023_conformance-checklist.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:21 — Conformance Checklist"
-line_start: 103694
-line_end: 103713
+line_start: 103682
+line_end: 103701
 dependencies:
   - "A.10"
   - "A.13"

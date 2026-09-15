@@ -6,12 +6,12 @@ section_id: "B.4.1:15"
 section_title: "Migration and worked continuation boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__016_migration-and-worked-continuation-boundaries.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:15 — Migration and worked continuation boundaries"
-line_start: 42189
-line_end: 42218
+line_start: 42177
+line_end: 42206
 dependencies:
   - "A.15"
   - "A.16"

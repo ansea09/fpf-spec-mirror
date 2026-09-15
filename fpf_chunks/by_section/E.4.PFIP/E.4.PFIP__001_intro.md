@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__001_intro.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:intro — Intro"
-line_start: 79577
-line_end: 79582
+line_start: 79565
+line_end: 79570
 dependencies:
   - "C.2.1"
   - "C.33"

@@ -6,12 +6,12 @@ section_id: "E.21:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__007_bias-annotation.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:5.1 — Bias-Annotation"
-line_start: 97121
-line_end: 97124
+line_start: 97109
+line_end: 97112
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

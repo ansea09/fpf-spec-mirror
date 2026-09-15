@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.2.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
-line_start: 4096
-line_end: 4465
+line_start: 4084
+line_end: 4453
 dependencies:
   - "A.15"
   - "A.2"

@@ -6,12 +6,12 @@ section_id: "E.21:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__004_forces.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:3 — Forces"
-line_start: 96648
-line_end: 96658
+line_start: 96636
+line_end: 96646
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

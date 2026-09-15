@@ -6,12 +6,12 @@ section_id: "F.9:8"
 section_title: "Bridge occurrence, description, Card, and publication"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__010_bridge-occurrence-description-card-and-publication.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:8 — Bridge occurrence, description, Card, and publication"
-line_start: 103377
-line_end: 103407
+line_start: 103365
+line_end: 103395
 dependencies:
   - "A.10"
   - "A.13"

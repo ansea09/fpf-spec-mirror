@@ -6,12 +6,12 @@ section_id: "F.9:14"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__016_reasoning-primitives.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:14 — Reasoning primitives"
-line_start: 103501
-line_end: 103592
+line_start: 103489
+line_end: 103580
 dependencies:
   - "A.10"
   - "A.13"

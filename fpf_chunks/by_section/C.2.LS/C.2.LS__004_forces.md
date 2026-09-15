@@ -6,12 +6,12 @@ section_id: "C.2.LS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__004_forces.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:3 — Forces"
-line_start: 47731
-line_end: 47737
+line_start: 47719
+line_end: 47725
 dependencies:
   - "A.16"
   - "A.16.0"

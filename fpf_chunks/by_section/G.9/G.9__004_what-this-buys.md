@@ -6,12 +6,12 @@ section_id: "G.9:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__004_what-this-buys.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:0.2 — What this buys"
-line_start: 113130
-line_end: 113137
+line_start: 113118
+line_end: 113125
 dependencies:
   - "A.19"
   - "A.2.6"

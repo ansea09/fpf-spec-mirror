@@ -6,12 +6,12 @@ section_id: "B.1:End"
 section_title: "B.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__015_b-1-end.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:End — B.1:End"
-line_start: 37890
-line_end: 37891
+line_start: 37878
+line_end: 37879
 dependencies:
   - "A.1"
   - "A.14"

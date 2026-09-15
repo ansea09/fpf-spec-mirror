@@ -6,12 +6,12 @@ section_id: "C.2.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 47078
-line_end: 47091
+line_start: 47066
+line_end: 47079
 dependencies:
   - "A.1.1"
   - "A.10"

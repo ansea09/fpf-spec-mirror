@@ -6,12 +6,12 @@ section_id: "G.Core:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__006_archetypal-grounding.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:5 — Archetypal grounding"
-line_start: 108703
-line_end: 108713
+line_start: 108691
+line_end: 108701
 dependencies:
   - "A.15.3"
   - "A.19"

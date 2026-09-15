@@ -6,12 +6,12 @@ section_id: "A.6.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__006_archetypal-grounding.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:5 — Archetypal Grounding"
-line_start: 21220
-line_end: 21269
+line_start: 21208
+line_end: 21257
 dependencies:
   - "A.10"
   - "A.14"

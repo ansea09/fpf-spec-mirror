@@ -6,12 +6,12 @@ section_id: "A.5:End"
 section_title: "A.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.5/A.5__006_a-5-end.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.5 — Open‑Ended Kernel & Extension Layering"
   - "A.5:End — A.5:End"
-line_start: 11116
-line_end: 11119
+line_start: 11104
+line_end: 11107
 dependencies:
 keywords:
   - "FPF architecture"

@@ -6,12 +6,12 @@ section_id: "A.2.6:9"
 section_title: "Lexical Discipline (Part E compliance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__011_lexical-discipline-part-e-compliance.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:9 — Lexical Discipline (Part E compliance)"
-line_start: 6037
-line_end: 6048
+line_start: 6025
+line_end: 6036
 dependencies:
   - "A.1.1"
   - "A.15.1"

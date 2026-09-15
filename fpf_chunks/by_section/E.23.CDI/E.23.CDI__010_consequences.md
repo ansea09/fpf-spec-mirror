@@ -6,12 +6,12 @@ section_id: "E.23.CDI:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__010_consequences.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:9 — Consequences"
-line_start: 98169
-line_end: 98174
+line_start: 98157
+line_end: 98162
 dependencies:
   - "A.15.1"
   - "A.2.2"

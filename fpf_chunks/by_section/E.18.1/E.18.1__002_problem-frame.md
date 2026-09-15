@@ -6,12 +6,12 @@ section_id: "E.18.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__002_problem-frame.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:1 — Problem frame"
-line_start: 93747
-line_end: 93783
+line_start: 93735
+line_end: 93771
 dependencies:
   - "A.15"
   - "A.15.PROD"

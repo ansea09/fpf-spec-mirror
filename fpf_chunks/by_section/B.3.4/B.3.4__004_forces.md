@@ -6,12 +6,12 @@ section_id: "B.3.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__004_forces.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:3 — Forces"
-line_start: 41341
-line_end: 41349
+line_start: 41329
+line_end: 41337
 dependencies:
   - "A.10"
   - "B.3"

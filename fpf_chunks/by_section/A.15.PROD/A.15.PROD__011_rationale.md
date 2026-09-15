@@ -6,12 +6,12 @@ section_id: "A.15.PROD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__011_rationale.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:10 — Rationale"
-line_start: 29752
-line_end: 29759
+line_start: 29740
+line_end: 29747
 dependencies:
   - "A.1"
   - "A.10"

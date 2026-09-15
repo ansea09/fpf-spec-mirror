@@ -6,12 +6,12 @@ section_id: "G.0:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__010_consequences.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:9 — Consequences"
-line_start: 109140
-line_end: 109146
+line_start: 109128
+line_end: 109134
 dependencies:
   - "A.10"
   - "A.17"

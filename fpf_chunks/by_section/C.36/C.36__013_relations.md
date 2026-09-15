@@ -6,12 +6,12 @@ section_id: "C.36:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__013_relations.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:12 — Relations"
-line_start: 74183
-line_end: 74188
+line_start: 74171
+line_end: 74176
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.32.PAD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__004_forces.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:3 — Forces"
-line_start: 72390
-line_end: 72400
+line_start: 72378
+line_end: 72388
 dependencies:
   - "A.10"
   - "A.15"

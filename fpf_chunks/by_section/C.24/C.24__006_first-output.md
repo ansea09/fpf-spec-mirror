@@ -6,12 +6,12 @@ section_id: "C.24:0.4"
 section_title: "First output"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__006_first-output.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:0.4 — First output"
-line_start: 58419
-line_end: 58458
+line_start: 58407
+line_end: 58446
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.37:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__002_problem-frame.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:1 — Problem frame"
-line_start: 74197
-line_end: 74216
+line_start: 74185
+line_end: 74204
 dependencies:
   - "A.10"
   - "A.2.4"

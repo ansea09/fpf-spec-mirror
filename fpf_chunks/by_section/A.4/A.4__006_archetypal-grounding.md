@@ -6,12 +6,12 @@ section_id: "A.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__006_archetypal-grounding.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:5 — Archetypal Grounding"
-line_start: 11009
-line_end: 11018
+line_start: 10997
+line_end: 11006
 dependencies:
   - "B.3"
   - "B.4"

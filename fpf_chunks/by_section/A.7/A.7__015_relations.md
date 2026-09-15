@@ -6,12 +6,12 @@ section_id: "A.7:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__015_relations.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:13 — Relations"
-line_start: 23141
-line_end: 23147
+line_start: 23129
+line_end: 23135
 dependencies:
   - "A.1"
   - "A.10"

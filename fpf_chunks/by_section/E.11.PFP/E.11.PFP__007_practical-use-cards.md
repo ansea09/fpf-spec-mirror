@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-006"
 section_title: "Practical-Use Cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__007_practical-use-cards.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:section-006 — Practical-Use Cards"
-line_start: 87402
-line_end: 87504
+line_start: 87390
+line_end: 87492
 dependencies:
   - "A.3.2"
   - "C.29"

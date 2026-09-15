@@ -6,12 +6,12 @@ section_id: "E.17.1:4"
 section_title: "Solution - one catalogue episteme with local bundle declarations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__005_solution-one-catalogue-episteme-with-local-bundle-declarations.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:4 — Solution - one catalogue episteme with local bundle declarations"
-line_start: 89591
-line_end: 89686
+line_start: 89579
+line_end: 89674
 dependencies:
   - "A.16.0"
   - "A.22"

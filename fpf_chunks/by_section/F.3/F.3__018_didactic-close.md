@@ -6,12 +6,12 @@ section_id: "F.3:17"
 section_title: "Didactic close"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__018_didactic-close.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:17 — Didactic close"
-line_start: 101529
-line_end: 101532
+line_start: 101517
+line_end: 101520
 dependencies:
   - "A.11"
   - "A.7"

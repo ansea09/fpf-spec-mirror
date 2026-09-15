@@ -6,12 +6,12 @@ section_id: "C.32:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__001_intro.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:intro — Intro"
-line_start: 69673
-line_end: 69678
+line_start: 69661
+line_end: 69666
 dependencies:
   - "A.10"
   - "A.15"

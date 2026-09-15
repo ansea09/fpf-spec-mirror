@@ -6,12 +6,12 @@ section_id: "B.5:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__012_sota-echoing.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:11 — SoTA-Echoing"
-line_start: 42527
-line_end: 42538
+line_start: 42515
+line_end: 42526
 dependencies:
   - "A.10"
   - "B.5.1"

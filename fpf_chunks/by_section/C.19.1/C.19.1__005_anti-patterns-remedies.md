@@ -6,12 +6,12 @@ section_id: "C.19.1:4"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__005_anti-patterns-remedies.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:4 — Anti-patterns & remedies"
-line_start: 55783
-line_end: 55792
+line_start: 55771
+line_end: 55780
 dependencies:
   - "A.0"
   - "A.10"

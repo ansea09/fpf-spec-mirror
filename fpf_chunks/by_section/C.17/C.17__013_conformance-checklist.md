@@ -6,12 +6,12 @@ section_id: "C.17:11"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__013_conformance-checklist.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:11 — Conformance checklist"
-line_start: 54755
-line_end: 54774
+line_start: 54743
+line_end: 54762
 dependencies:
   - "A.0"
   - "A.1.1"

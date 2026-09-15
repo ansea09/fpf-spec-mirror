@@ -6,12 +6,12 @@ section_id: "C.2.4:End"
 section_title: "C.2.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__020_c-2-4-end.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:End — C.2.4:End"
-line_start: 48163
-line_end: 48164
+line_start: 48151
+line_end: 48152
 dependencies:
   - "A.15"
   - "A.15.1"

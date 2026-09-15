@@ -6,12 +6,12 @@ section_id: "A.10:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__008_conformance-checklist.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:6 — Conformance Checklist"
-line_start: 24304
-line_end: 24316
+line_start: 24292
+line_end: 24304
 dependencies:
   - "A.10"
   - "A.13"

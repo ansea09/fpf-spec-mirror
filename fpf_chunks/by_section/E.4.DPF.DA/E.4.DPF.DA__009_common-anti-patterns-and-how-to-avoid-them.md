@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 79179
-line_end: 79201
+line_start: 79167
+line_end: 79189
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "E.14:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__006_forces.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:3 — Forces"
-line_start: 88177
-line_end: 88196
+line_start: 88165
+line_end: 88184
 dependencies:
   - "B.3.5"
   - "C.13"

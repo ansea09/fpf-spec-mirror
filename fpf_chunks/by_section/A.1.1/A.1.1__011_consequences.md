@@ -6,12 +6,12 @@ section_id: "A.1.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__011_consequences.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:9 — Consequences"
-line_start: 2577
-line_end: 2584
+line_start: 2565
+line_end: 2572
 dependencies:
   - "A.1"
   - "A.14"

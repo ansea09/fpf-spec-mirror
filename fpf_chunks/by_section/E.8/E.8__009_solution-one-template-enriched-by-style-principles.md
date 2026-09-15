@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 80553
-line_end: 80956
+line_start: 80541
+line_end: 80944
 dependencies:
   - "E.10"
   - "E.10.MOVE"

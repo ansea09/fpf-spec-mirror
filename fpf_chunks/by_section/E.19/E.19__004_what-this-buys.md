@@ -6,12 +6,12 @@ section_id: "E.19:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__004_what-this-buys.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0.2 — What this buys"
-line_start: 95440
-line_end: 95459
+line_start: 95428
+line_end: 95447
 dependencies:
   - "A.15.1"
   - "A.6.P"

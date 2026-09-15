@@ -6,12 +6,12 @@ section_id: "C.2.P:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__004_what-this-buys.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:0.2 — What this buys"
-line_start: 46337
-line_end: 46348
+line_start: 46325
+line_end: 46336
 dependencies:
   - "A.10"
   - "A.15"

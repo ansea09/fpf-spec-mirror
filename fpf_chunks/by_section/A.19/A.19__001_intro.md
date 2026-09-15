@@ -6,12 +6,12 @@ section_id: "A.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__001_intro.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:intro — Intro"
-line_start: 31130
-line_end: 31140
+line_start: 31118
+line_end: 31128
 dependencies:
   - "A.10"
   - "A.15"

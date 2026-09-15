@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__008_conformance-checklist.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:7 — Conformance Checklist"
-line_start: 78139
-line_end: 78159
+line_start: 78127
+line_end: 78147
 dependencies:
   - "A.15.1"
   - "A.22"

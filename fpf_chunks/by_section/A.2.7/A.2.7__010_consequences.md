@@ -6,12 +6,12 @@ section_id: "A.2.7:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__010_consequences.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:8 — Consequences"
-line_start: 6980
-line_end: 6989
+line_start: 6968
+line_end: 6977
 dependencies:
   - "A.2"
   - "A.2.1"

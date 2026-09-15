@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__012_sota-echoing.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
   - "E.8.ECSPF:11 — SoTA-Echoing"
-line_start: 81324
-line_end: 81338
+line_start: 81312
+line_end: 81326
 dependencies:
   - "A.19.ECS"
   - "C.25"

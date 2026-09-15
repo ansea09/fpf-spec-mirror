@@ -6,12 +6,12 @@ section_id: "B.5.2.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__002_problem-frame.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:1 — Problem Frame"
-line_start: 45208
-line_end: 45214
+line_start: 45196
+line_end: 45202
 dependencies:
   - "A.17"
   - "A.18"

@@ -6,12 +6,12 @@ section_id: "C.26.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__007_bias-annotation.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:6 — Bias-Annotation"
-line_start: 60320
-line_end: 60325
+line_start: 60308
+line_end: 60313
 dependencies:
   - "A.10"
   - "A.15"

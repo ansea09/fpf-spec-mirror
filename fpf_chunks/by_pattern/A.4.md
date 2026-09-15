@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.4.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
-line_start: 10942
-line_end: 11069
+line_start: 10930
+line_end: 11057
 dependencies:
   - "B.3"
   - "B.4"

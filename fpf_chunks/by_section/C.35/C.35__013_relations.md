@@ -6,12 +6,12 @@ section_id: "C.35:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__013_relations.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:12 — Relations"
-line_start: 73780
-line_end: 73786
+line_start: 73768
+line_end: 73774
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

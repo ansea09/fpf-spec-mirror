@@ -6,12 +6,12 @@ section_id: "A.19.UNM:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__007_archetypal-grounding-tell-show-show.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 34428
-line_end: 34454
+line_start: 34416
+line_end: 34442
 dependencies:
 keywords:
   - "CV→NCV"

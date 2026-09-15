@@ -6,12 +6,12 @@ section_id: "C.30.P:10"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__013_related-patterns.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:10 — Related patterns"
-line_start: 66515
-line_end: 66529
+line_start: 66503
+line_end: 66517
 dependencies:
   - "A.10"
   - "A.15"

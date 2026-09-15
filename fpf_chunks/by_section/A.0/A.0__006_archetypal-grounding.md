@@ -6,12 +6,12 @@ section_id: "A.0:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__006_archetypal-grounding.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:5 — Archetypal Grounding"
-line_start: 1427
-line_end: 1445
+line_start: 1415
+line_end: 1433
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

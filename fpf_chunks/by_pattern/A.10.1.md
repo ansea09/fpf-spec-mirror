@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.10.1.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
-line_start: 24383
-line_end: 24718
+line_start: 24371
+line_end: 24706
 dependencies:
   - "A.10"
   - "A.10.1"

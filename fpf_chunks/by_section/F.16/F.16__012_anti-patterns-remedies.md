@@ -6,12 +6,12 @@ section_id: "F.16:11"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__012_anti-patterns-remedies.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:11 — Anti-patterns & remedies"
-line_start: 105990
-line_end: 106004
+line_start: 105978
+line_end: 105992
 dependencies:
   - "A.10"
   - "A.15"

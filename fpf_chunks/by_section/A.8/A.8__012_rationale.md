@@ -6,12 +6,12 @@ section_id: "A.8:4.3"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__012_rationale.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:4.3 — Rationale"
-line_start: 23869
-line_end: 23872
+line_start: 23857
+line_end: 23860
 dependencies:
   - "A.11"
   - "C.3"

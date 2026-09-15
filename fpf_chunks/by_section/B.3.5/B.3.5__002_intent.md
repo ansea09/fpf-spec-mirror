@@ -6,12 +6,12 @@ section_id: "B.3.5:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__002_intent.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:1 — Intent"
-line_start: 41468
-line_end: 41482
+line_start: 41456
+line_end: 41470
 dependencies:
   - "B.3"
   - "C.13"

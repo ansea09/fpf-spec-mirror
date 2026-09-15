@@ -6,12 +6,12 @@ section_id: "E.3:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__006_conformance-checklist.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
   - "E.3:5 — Conformance Checklist"
-line_start: 77237
-line_end: 77244
+line_start: 77225
+line_end: 77232
 dependencies:
   - "E.1"
   - "E.2"

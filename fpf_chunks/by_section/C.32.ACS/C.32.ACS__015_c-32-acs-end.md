@@ -6,12 +6,12 @@ section_id: "C.32.ACS:End"
 section_title: "C.32.ACS:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__015_c-32-acs-end.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:End — C.32.ACS:End"
-line_start: 70877
-line_end: 70878
+line_start: 70865
+line_end: 70866
 dependencies:
   - "A.1.1"
   - "A.10"

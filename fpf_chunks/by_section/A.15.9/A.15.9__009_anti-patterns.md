@@ -6,12 +6,12 @@ section_id: "A.15.9:8"
 section_title: "Anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__009_anti-patterns.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.15.9 — Request and Use a Bounded Result from Another Practice"
   - "A.15.9:8 — Anti-patterns"
-line_start: 29254
-line_end: 29264
+line_start: 29242
+line_end: 29252
 dependencies:
   - "A.10"
   - "A.13"

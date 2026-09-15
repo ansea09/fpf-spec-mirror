@@ -6,12 +6,12 @@ section_id: "A.6.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__011_rationale.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:10 — Rationale"
-line_start: 20916
-line_end: 20923
+line_start: 20904
+line_end: 20911
 dependencies:
   - "A.15.3"
   - "A.6.0"

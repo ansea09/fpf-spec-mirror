@@ -6,12 +6,12 @@ section_id: "C.17:10"
 section_title: "Manager quick start"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__012_manager-quick-start.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:10 — Manager quick start"
-line_start: 54732
-line_end: 54754
+line_start: 54720
+line_end: 54742
 dependencies:
   - "A.0"
   - "A.1.1"

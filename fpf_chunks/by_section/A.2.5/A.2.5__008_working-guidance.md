@@ -6,12 +6,12 @@ section_id: "A.2.5:5"
 section_title: "Working Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__008_working-guidance.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:5 — Working Guidance"
-line_start: 5423
-line_end: 5432
+line_start: 5411
+line_end: 5420
 dependencies:
   - "A.15"
   - "A.15.1"

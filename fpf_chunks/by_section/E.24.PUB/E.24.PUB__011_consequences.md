@@ -6,12 +6,12 @@ section_id: "E.24.PUB:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__011_consequences.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:9 — Consequences"
-line_start: 99765
-line_end: 99770
+line_start: 99753
+line_end: 99758
 dependencies:
   - "A.6.3"
   - "A.6.REL"

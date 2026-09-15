@@ -6,12 +6,12 @@ section_id: "A.7.CP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__007_archetypal-grounding.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:5 — Archetypal Grounding"
-line_start: 23674
-line_end: 23683
+line_start: 23662
+line_end: 23671
 dependencies:
   - "A.7"
   - "A.7.1"

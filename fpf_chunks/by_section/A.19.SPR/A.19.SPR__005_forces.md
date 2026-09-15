@@ -6,12 +6,12 @@ section_id: "A.19.SPR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__005_forces.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:3 — Forces"
-line_start: 31840
-line_end: 31848
+line_start: 31828
+line_end: 31836
 dependencies:
   - "A.10"
   - "A.16"

@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__010_relations.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:8 — Relations"
-line_start: 49267
-line_end: 49273
+line_start: 49255
+line_end: 49261
 dependencies:
   - "A.10"
   - "A.15.1"

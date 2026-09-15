@@ -6,12 +6,12 @@ section_id: "F.10:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__008_conformance-checklist.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:7 — Conformance checklist"
-line_start: 104215
-line_end: 104233
+line_start: 104203
+line_end: 104221
 dependencies:
   - "A.10"
   - "A.15.1"

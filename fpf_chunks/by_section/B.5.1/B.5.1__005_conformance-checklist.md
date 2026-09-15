@@ -6,12 +6,12 @@ section_id: "B.5.1:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__005_conformance-checklist.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "B.5.1 — Explore → Shape → Evidence → Operate"
   - "B.5.1:4 — Conformance Checklist"
-line_start: 44655
-line_end: 44660
+line_start: 44643
+line_end: 44648
 dependencies:
   - "B.3.3"
   - "B.4"

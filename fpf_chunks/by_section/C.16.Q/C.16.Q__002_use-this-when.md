@@ -6,12 +6,12 @@ section_id: "C.16.Q:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__002_use-this-when.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:0 — Use this when"
-line_start: 53611
-line_end: 53628
+line_start: 53599
+line_end: 53616
 dependencies:
   - "A.10"
   - "A.16"

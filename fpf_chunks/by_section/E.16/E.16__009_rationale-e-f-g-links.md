@@ -6,12 +6,12 @@ section_id: "E.16:8"
 section_title: "Rationale & E‑/F‑/G‑links"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__009_rationale-e-f-g-links.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:8 — Rationale & E‑/F‑/G‑links"
-line_start: 88960
-line_end: 88967
+line_start: 88948
+line_end: 88955
 dependencies:
   - "A.10"
   - "A.13"

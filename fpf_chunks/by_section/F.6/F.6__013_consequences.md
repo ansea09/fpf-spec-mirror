@@ -6,12 +6,12 @@ section_id: "F.6:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__013_consequences.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:11 — Consequences"
-line_start: 102469
-line_end: 102476
+line_start: 102457
+line_end: 102464
 dependencies:
   - "A.1.1"
   - "A.10"

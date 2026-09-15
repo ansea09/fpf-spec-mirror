@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.P.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
-line_start: 66284
-line_end: 66531
+line_start: 66272
+line_end: 66519
 dependencies:
   - "A.10"
   - "A.15"

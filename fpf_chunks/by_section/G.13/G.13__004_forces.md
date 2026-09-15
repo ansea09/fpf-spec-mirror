@@ -6,12 +6,12 @@ section_id: "G.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__004_forces.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:3 — Forces"
-line_start: 114793
-line_end: 114803
+line_start: 114781
+line_end: 114791
 dependencies:
   - "A.18"
   - "A.19"

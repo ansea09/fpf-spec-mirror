@@ -6,12 +6,12 @@ section_id: "F.11:14"
 section_title: "Migration notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__015_migration-notes.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:14 — Migration notes"
-line_start: 104477
-line_end: 104485
+line_start: 104465
+line_end: 104473
 dependencies:
   - "A.15"
   - "A.15.1"

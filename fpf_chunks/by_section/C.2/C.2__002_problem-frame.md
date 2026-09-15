@@ -6,12 +6,12 @@ section_id: "C.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__002_problem-frame.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:1 — Problem Frame"
-line_start: 45605
-line_end: 45608
+line_start: 45593
+line_end: 45596
 dependencies:
   - "A.1"
   - "A.10"

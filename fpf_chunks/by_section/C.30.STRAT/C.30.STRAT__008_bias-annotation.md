@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__008_bias-annotation.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:6 — Bias-Annotation"
-line_start: 66714
-line_end: 66717
+line_start: 66702
+line_end: 66705
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "G.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__001_intro.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:intro — Intro"
-line_start: 112261
-line_end: 112269
+line_start: 112249
+line_end: 112257
 dependencies:
   - "A.21"
   - "B.3"

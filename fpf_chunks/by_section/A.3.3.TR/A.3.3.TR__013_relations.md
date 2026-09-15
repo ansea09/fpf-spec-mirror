@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__013_relations.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:12 — Relations"
-line_start: 10061
-line_end: 10070
+line_start: 10049
+line_end: 10058
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"

@@ -6,12 +6,12 @@ section_id: "C.2.LS:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__016_extension-and-migration-notes.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:15 — Extension and Migration Notes"
-line_start: 47893
-line_end: 47909
+line_start: 47881
+line_end: 47897
 dependencies:
   - "A.16"
   - "A.16.0"

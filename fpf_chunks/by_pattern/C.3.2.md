@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.2.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
-line_start: 49629
-line_end: 49868
+line_start: 49617
+line_end: 49856
 dependencies:
   - "A.14"
   - "A.2.6"

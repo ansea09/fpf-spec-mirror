@@ -6,12 +6,12 @@ section_id: "C.26.2:End"
 section_title: "C.26.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__014_c-26-2-end.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:End — C.26.2:End"
-line_start: 60390
-line_end: 60391
+line_start: 60378
+line_end: 60379
 dependencies:
   - "A.10"
   - "A.15"

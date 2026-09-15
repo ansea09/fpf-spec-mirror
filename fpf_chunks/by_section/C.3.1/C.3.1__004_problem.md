@@ -6,12 +6,12 @@ section_id: "C.3.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__004_problem.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:2 — Problem"
-line_start: 49495
-line_end: 49498
+line_start: 49483
+line_end: 49486
 dependencies:
   - "A.1"
   - "A.11"

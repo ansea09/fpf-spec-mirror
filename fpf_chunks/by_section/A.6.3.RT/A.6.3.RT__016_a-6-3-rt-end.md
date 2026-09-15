@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:End"
 section_title: "A.6.3.RT:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__016_a-6-3-rt-end.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:End — A.6.3.RT:End"
-line_start: 16467
-line_end: 16468
+line_start: 16455
+line_end: 16456
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "F.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__005_forces.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:3 — Forces"
-line_start: 101599
-line_end: 101608
+line_start: 101587
+line_end: 101596
 dependencies:
   - "A.15"
   - "A.15.1"

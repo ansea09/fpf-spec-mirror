@@ -6,12 +6,12 @@ section_id: "A.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__010_consequences.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:9 — Consequences"
-line_start: 11615
-line_end: 11623
+line_start: 11603
+line_end: 11611
 dependencies:
   - "A.10"
   - "A.15"

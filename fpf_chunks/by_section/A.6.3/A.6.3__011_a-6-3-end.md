@@ -6,12 +6,12 @@ section_id: "A.6.3:End"
 section_title: "A.6.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__011_a-6-3-end.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:End — A.6.3:End"
-line_start: 15253
-line_end: 15254
+line_start: 15241
+line_end: 15242
 dependencies:
   - "A.13"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "C.26:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__005_solution.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:4 — Solution"
-line_start: 59234
-line_end: 59557
+line_start: 59222
+line_end: 59545
 dependencies:
   - "A.10"
   - "A.15"

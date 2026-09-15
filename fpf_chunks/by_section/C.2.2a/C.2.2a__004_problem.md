@@ -6,12 +6,12 @@ section_id: "C.2.2a:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__004_problem.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:2 — Problem"
-line_start: 47184
-line_end: 47192
+line_start: 47172
+line_end: 47180
 dependencies:
   - "A.16"
   - "A.16.0"

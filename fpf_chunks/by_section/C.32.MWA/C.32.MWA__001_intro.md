@@ -6,12 +6,12 @@ section_id: "C.32.MWA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__001_intro.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:intro — Intro"
-line_start: 71806
-line_end: 71813
+line_start: 71794
+line_end: 71801
 dependencies:
   - "A.15.1"
   - "A.22"

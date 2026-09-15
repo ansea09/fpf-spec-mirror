@@ -6,12 +6,12 @@ section_id: "C.37:6"
 section_title: "Bias-Annotation  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__007_bias-annotation-informative.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:6 — Bias-Annotation  (informative)"
-line_start: 74396
-line_end: 74405
+line_start: 74384
+line_end: 74393
 dependencies:
   - "A.10"
   - "A.2.4"

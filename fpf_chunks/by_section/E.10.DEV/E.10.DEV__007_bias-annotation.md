@@ -6,12 +6,12 @@ section_id: "E.10.DEV:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__007_bias-annotation.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:6 — Bias Annotation"
-line_start: 84264
-line_end: 84272
+line_start: 84252
+line_end: 84260
 dependencies:
   - "A.15"
   - "A.2.2"

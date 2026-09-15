@@ -6,12 +6,12 @@ section_id: "C.11.DUA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__013_relations.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.11.DUA — Decision-Useful Advice and Evidence Demands"
   - "C.11.DUA:12 — Relations"
-line_start: 52058
-line_end: 52064
+line_start: 52046
+line_end: 52052
 dependencies:
   - "A.10"
   - "C.11"

@@ -6,12 +6,12 @@ section_id: "E.17.0:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__007_consequences.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:6 — Consequences"
-line_start: 89471
-line_end: 89482
+line_start: 89459
+line_end: 89470
 dependencies:
   - "A.22"
   - "A.6.3"

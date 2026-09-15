@@ -6,12 +6,12 @@ section_id: "C.39.RO:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__013_relations.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:12 — Relations"
-line_start: 75036
-line_end: 75046
+line_start: 75024
+line_end: 75034
 dependencies:
   - "A.3.1"
   - "A.3.2"

@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__010_consequences.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:9 — Consequences"
-line_start: 43207
-line_end: 43212
+line_start: 43195
+line_end: 43200
 dependencies:
   - "A.15.9"
   - "A.3.3"

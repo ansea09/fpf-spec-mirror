@@ -6,12 +6,12 @@ section_id: "B.5.2:14"
 section_title: "Admissible Transitions, Abort Paths, and Reopening"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__015_admissible-transitions-abort-paths-and-reopening.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:14 — Admissible Transitions, Abort Paths, and Reopening"
-line_start: 44884
-line_end: 44921
+line_start: 44872
+line_end: 44909
 dependencies:
   - "A.10"
   - "A.16"

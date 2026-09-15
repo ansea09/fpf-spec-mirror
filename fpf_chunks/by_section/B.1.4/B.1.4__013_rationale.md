@@ -6,12 +6,12 @@ section_id: "B.1.4:8.1"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__013_rationale.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:8.1 — Rationale"
-line_start: 38795
-line_end: 38800
+line_start: 38783
+line_end: 38788
 dependencies:
   - "A.1.1"
   - "A.14"

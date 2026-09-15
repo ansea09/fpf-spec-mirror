@@ -6,12 +6,12 @@ section_id: "B.4:10.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__012_sota-echoing.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:10.1 — SoTA-Echoing"
-line_start: 41986
-line_end: 41991
+line_start: 41974
+line_end: 41979
 dependencies:
   - "A.12"
   - "A.15.1"

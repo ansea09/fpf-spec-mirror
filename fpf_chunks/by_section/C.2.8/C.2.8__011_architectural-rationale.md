@@ -6,12 +6,12 @@ section_id: "C.2.8:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__011_architectural-rationale.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.2.8 — U.ExtractableStructuralInformation"
   - "C.2.8:10 — Architectural Rationale"
-line_start: 48921
-line_end: 48928
+line_start: 48909
+line_end: 48916
 dependencies:
   - "A.17"
   - "A.18"

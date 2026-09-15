@@ -6,12 +6,12 @@ section_id: "E.5.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__007_conformance-checklist.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:6 — Conformance Checklist"
-line_start: 80059
-line_end: 80067
+line_start: 80047
+line_end: 80055
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"

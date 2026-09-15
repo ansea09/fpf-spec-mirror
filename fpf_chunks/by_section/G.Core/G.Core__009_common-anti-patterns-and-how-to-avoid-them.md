@@ -6,12 +6,12 @@ section_id: "G.Core:8"
 section_title: "Common anti-patterns and how to avoid them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:8 — Common anti-patterns and how to avoid them"
-line_start: 108757
-line_end: 108779
+line_start: 108745
+line_end: 108767
 dependencies:
   - "A.15.3"
   - "A.19"

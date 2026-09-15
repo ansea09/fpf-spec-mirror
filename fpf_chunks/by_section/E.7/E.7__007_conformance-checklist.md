@@ -6,12 +6,12 @@ section_id: "E.7:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__007_conformance-checklist.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.7 — Archetypal Grounding Principle"
   - "E.7:6 — Conformance Checklist"
-line_start: 80412
-line_end: 80420
+line_start: 80400
+line_end: 80408
 dependencies:
   - "E.5.4"
   - "E.6"

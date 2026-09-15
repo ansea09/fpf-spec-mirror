@@ -6,12 +6,12 @@ section_id: "A.2.6:12"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__014_bias-annotation.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:12 — Bias-Annotation"
-line_start: 6204
-line_end: 6207
+line_start: 6192
+line_end: 6195
 dependencies:
   - "A.1.1"
   - "A.15.1"

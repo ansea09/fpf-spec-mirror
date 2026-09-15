@@ -6,12 +6,12 @@ section_id: "B.2.2:End"
 section_title: "B.2.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__015_b-2-2-end.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:End — B.2.2:End"
-line_start: 40272
-line_end: 40273
+line_start: 40260
+line_end: 40261
 dependencies:
   - "A.1"
   - "A.10"

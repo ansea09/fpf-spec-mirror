@@ -6,12 +6,12 @@ section_id: "A.6.S:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 22413
-line_end: 22424
+line_start: 22401
+line_end: 22412
 dependencies:
   - "A.15"
   - "A.15.1"

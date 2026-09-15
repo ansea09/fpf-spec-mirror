@@ -6,12 +6,12 @@ section_id: "C.16:15a"
 section_title: "Measurement and probe note for quantum-like readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__018_measurement-and-probe-note-for-quantum-like-readings.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:15a — Measurement and probe note for quantum-like readings"
-line_start: 52626
-line_end: 52652
+line_start: 52614
+line_end: 52640
 dependencies:
   - "A.10"
   - "A.15.1"

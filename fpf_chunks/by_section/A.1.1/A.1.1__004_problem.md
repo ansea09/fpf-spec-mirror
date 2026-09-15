@@ -6,12 +6,12 @@ section_id: "A.1.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__004_problem.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:2 — Problem"
-line_start: 2250
-line_end: 2255
+line_start: 2238
+line_end: 2243
 dependencies:
   - "A.1"
   - "A.14"

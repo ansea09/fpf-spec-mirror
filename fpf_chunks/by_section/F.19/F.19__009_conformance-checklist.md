@@ -6,12 +6,12 @@ section_id: "F.19:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__009_conformance-checklist.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:7 — Conformance checklist"
-line_start: 108277
-line_end: 108308
+line_start: 108265
+line_end: 108296
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

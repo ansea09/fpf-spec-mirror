@@ -6,12 +6,12 @@ section_id: "G.11:8"
 section_title: "Common Anti-Patterns and How to Avoid Them (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__010_common-anti-patterns-and-how-to-avoid-them-informative.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:8 — Common Anti-Patterns and How to Avoid Them (informative)"
-line_start: 114422
-line_end: 114432
+line_start: 114410
+line_end: 114420
 dependencies:
   - "A.6.RCD"
   - "B.3.4"

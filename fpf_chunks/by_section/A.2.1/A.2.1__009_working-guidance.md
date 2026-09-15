@@ -6,12 +6,12 @@ section_id: "A.2.1:7"
 section_title: "Working Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__009_working-guidance.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:7 — Working Guidance"
-line_start: 4013
-line_end: 4024
+line_start: 4001
+line_end: 4012
 dependencies:
   - "A.1.1"
   - "A.15"

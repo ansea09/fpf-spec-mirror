@@ -6,12 +6,12 @@ section_id: "E.23.CDI:End"
 section_title: "E.23.CDI:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__014_e-23-cdi-end.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:End — E.23.CDI:End"
-line_start: 98211
-line_end: 98212
+line_start: 98199
+line_end: 98200
 dependencies:
   - "A.15.1"
   - "A.2.2"

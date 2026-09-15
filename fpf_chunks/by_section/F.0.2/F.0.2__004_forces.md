@@ -6,12 +6,12 @@ section_id: "F.0.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__004_forces.md"
-commit_sha: "98777b284b6a41fa3481a1230a16182d0f323c2a"
+commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
   - "F.0.2:3 — Forces"
-line_start: 100556
-line_end: 100566
+line_start: 100544
+line_end: 100554
 dependencies:
   - "A.2.4"
   - "C.2.1"
