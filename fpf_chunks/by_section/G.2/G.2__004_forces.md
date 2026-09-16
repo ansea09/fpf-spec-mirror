@@ -6,7 +6,7 @@ section_id: "G.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__004_forces.md"
-commit_sha: "4675defebdedb082b60afbb7d5f581932908920e"
+commit_sha: "8581bcf6502498b53aaa9fd42ed925a1371c08d1"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:3 — Forces"

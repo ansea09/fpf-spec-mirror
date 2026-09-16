@@ -6,7 +6,7 @@ section_id: "B.2.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__005_forces.md"
-commit_sha: "4675defebdedb082b60afbb7d5f581932908920e"
+commit_sha: "8581bcf6502498b53aaa9fd42ed925a1371c08d1"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:3 — Forces"

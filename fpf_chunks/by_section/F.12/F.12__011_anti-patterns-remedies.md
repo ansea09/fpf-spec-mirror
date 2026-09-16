@@ -6,7 +6,7 @@ section_id: "F.12:10"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__011_anti-patterns-remedies.md"
-commit_sha: "4675defebdedb082b60afbb7d5f581932908920e"
+commit_sha: "8581bcf6502498b53aaa9fd42ed925a1371c08d1"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:10 — Anti-patterns & remedies"

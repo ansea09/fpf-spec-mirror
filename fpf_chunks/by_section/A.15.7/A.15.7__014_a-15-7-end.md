@@ -6,7 +6,7 @@ section_id: "A.15.7:End"
 section_title: "A.15.7:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__014_a-15-7-end.md"
-commit_sha: "4675defebdedb082b60afbb7d5f581932908920e"
+commit_sha: "8581bcf6502498b53aaa9fd42ed925a1371c08d1"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:End — A.15.7:End"

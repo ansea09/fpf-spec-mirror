@@ -6,7 +6,7 @@ section_id: "C.29.1:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__011_architectural-rationale.md"
-commit_sha: "4675defebdedb082b60afbb7d5f581932908920e"
+commit_sha: "8581bcf6502498b53aaa9fd42ed925a1371c08d1"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:10 — Architectural Rationale"
