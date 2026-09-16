@@ -6,12 +6,12 @@ section_id: "E.10.D2:16"
 section_title: "Repair moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__018_repair-moves.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:16 — Repair moves"
-line_start: 85840
-line_end: 85856
+line_start: 85842
+line_end: 85858
 dependencies:
   - "A.1.1"
   - "A.10"

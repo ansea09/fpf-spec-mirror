@@ -6,12 +6,12 @@ section_id: "F.0.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__013_relations.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
   - "F.0.2:12 — Relations"
-line_start: 100730
-line_end: 100740
+line_start: 100735
+line_end: 100745
 dependencies:
   - "A.2.4"
   - "C.2.1"

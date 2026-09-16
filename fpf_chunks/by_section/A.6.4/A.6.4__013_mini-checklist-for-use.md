@@ -6,12 +6,12 @@ section_id: "A.6.4:12"
 section_title: "Mini-checklist (for use)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__013_mini-checklist-for-use.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "A.6.4 — EntityOfConcern retargeting"
   - "A.6.4:12 — Mini-checklist (for use)"
-line_start: 17326
-line_end: 17337
+line_start: 17328
+line_end: 17339
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__007_bias-annotation.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:6 — Bias-Annotation"
-line_start: 8873
-line_end: 8881
+line_start: 8875
+line_end: 8883
 dependencies:
   - "A.10"
   - "A.13"

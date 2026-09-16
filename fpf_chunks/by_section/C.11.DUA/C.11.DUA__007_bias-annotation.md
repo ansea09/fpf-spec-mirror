@@ -6,12 +6,12 @@ section_id: "C.11.DUA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__007_bias-annotation.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "C.11.DUA — Decision-Useful Advice and Evidence Demands"
   - "C.11.DUA:6 — Bias-Annotation"
-line_start: 51986
-line_end: 51991
+line_start: 51988
+line_end: 51993
 dependencies:
   - "A.10"
   - "C.11"

@@ -6,12 +6,12 @@ section_id: "C.3.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__005_forces.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:3 — Forces"
-line_start: 49487
-line_end: 49497
+line_start: 49489
+line_end: 49499
 dependencies:
   - "A.1"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__006_archetypal-grounding.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:5 — Archetypal Grounding"
-line_start: 10168
-line_end: 10233
+line_start: 10170
+line_end: 10235
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"

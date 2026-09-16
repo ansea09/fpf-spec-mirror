@@ -6,12 +6,12 @@ section_id: "B.5.TU:End"
 section_title: "B.5.TU:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__014_b-5-tu-end.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
   - "B.5.TU:End — B.5.TU:End"
-line_start: 44196
-line_end: 44197
+line_start: 44198
+line_end: 44199
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.3.PI.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
-line_start: 10061
-line_end: 10302
+line_start: 10063
+line_end: 10304
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"

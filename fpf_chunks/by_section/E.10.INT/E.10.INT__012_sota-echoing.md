@@ -6,12 +6,12 @@ section_id: "E.10.INT:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__012_sota-echoing.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:11 — SoTA-Echoing"
-line_start: 84082
-line_end: 84097
+line_start: 84084
+line_end: 84099
 dependencies:
   - "C.11"
   - "C.16"

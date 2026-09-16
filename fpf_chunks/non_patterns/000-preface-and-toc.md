@@ -1347,5 +1347,7 @@ Do not read the specification linearly unless that is your study goal. In projec
 
 The main practical habit is this: when a project sentence starts to matter, ask what kind of entity, relation, record, or claim it is talking about, what assertion it makes, what can responsibly be done with that assertion, and which pattern description contains the action- or judgement-guiding rule content needed next. Recover an exact Method, predicate, or `ClaimGraph` only when that distinction changes the truth, action, stop, or named reliance. That habit is small. The architecture behind it is the rest of FPF.
 
+## FPF.Preface:End
+
 # Part A - Kernel Architecture Cluster
 

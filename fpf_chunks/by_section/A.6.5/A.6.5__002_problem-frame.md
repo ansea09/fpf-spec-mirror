@@ -6,12 +6,12 @@ section_id: "A.6.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__002_problem-frame.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:1 — Problem frame"
-line_start: 20577
-line_end: 20611
+line_start: 20579
+line_end: 20613
 dependencies:
   - "A.15.3"
   - "A.6.0"

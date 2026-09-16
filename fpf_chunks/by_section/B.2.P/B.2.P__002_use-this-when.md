@@ -6,12 +6,12 @@ section_id: "B.2.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__002_use-this-when.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:0 — Use This When"
-line_start: 39786
-line_end: 39814
+line_start: 39788
+line_end: 39816
 dependencies:
   - "A.1.1"
   - "A.10"

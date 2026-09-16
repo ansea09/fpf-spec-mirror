@@ -6,12 +6,12 @@ section_id: "C.36.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__001_intro.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:intro — Intro"
-line_start: 75420
-line_end: 75430
+line_start: 75422
+line_end: 75432
 dependencies:
   - "A.1"
   - "A.1.1"

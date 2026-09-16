@@ -6,12 +6,12 @@ section_id: "A.6.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__011_rationale.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:10 — Rationale"
-line_start: 14960
-line_end: 14980
+line_start: 14962
+line_end: 14982
 dependencies:
   - "A.6.0"
   - "A.6.1"

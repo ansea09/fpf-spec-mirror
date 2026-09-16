@@ -6,12 +6,12 @@ section_id: "A.10.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__012_sota-echoing.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:11 — SoTA-Echoing"
-line_start: 24676
-line_end: 24685
+line_start: 24678
+line_end: 24687
 dependencies:
   - "A.10"
   - "A.10.1"

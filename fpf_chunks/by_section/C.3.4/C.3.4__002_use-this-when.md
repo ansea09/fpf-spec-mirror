@@ -6,12 +6,12 @@ section_id: "C.3.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__002_use-this-when.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:0 — Use This When"
-line_start: 50058
-line_end: 50075
+line_start: 50060
+line_end: 50077
 dependencies:
   - "A.2.6"
   - "C.2.1"

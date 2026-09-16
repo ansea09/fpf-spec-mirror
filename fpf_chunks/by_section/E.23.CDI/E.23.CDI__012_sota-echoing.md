@@ -6,12 +6,12 @@ section_id: "E.23.CDI:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__012_sota-echoing.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:11 — SoTA-Echoing"
-line_start: 98167
-line_end: 98182
+line_start: 98172
+line_end: 98187
 dependencies:
   - "A.15.1"
   - "A.2.2"

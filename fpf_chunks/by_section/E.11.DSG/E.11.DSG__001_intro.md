@@ -6,12 +6,12 @@ section_id: "E.11.DSG:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__001_intro.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:intro — Intro"
-line_start: 87623
-line_end: 87628
+line_start: 87628
+line_end: 87633
 dependencies:
   - "A.14"
   - "C.2.1"

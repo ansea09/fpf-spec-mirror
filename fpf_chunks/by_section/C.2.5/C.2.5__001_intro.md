@@ -6,12 +6,12 @@ section_id: "C.2.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__001_intro.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:intro — Intro"
-line_start: 48153
-line_end: 48166
+line_start: 48155
+line_end: 48168
 dependencies:
   - "A.16"
   - "A.16.0"

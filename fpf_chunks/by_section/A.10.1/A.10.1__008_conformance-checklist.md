@@ -6,12 +6,12 @@ section_id: "A.10.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__008_conformance-checklist.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:7 — Conformance Checklist"
-line_start: 24627
-line_end: 24643
+line_start: 24629
+line_end: 24645
 dependencies:
   - "A.10"
   - "A.10.1"

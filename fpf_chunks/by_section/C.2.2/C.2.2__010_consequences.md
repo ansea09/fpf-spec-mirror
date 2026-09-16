@@ -6,12 +6,12 @@ section_id: "C.2.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__010_consequences.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:9 — Consequences"
-line_start: 47080
-line_end: 47089
+line_start: 47082
+line_end: 47091
 dependencies:
   - "A.1.1"
   - "A.10"

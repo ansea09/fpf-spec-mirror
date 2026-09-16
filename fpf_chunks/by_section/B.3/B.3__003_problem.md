@@ -6,12 +6,12 @@ section_id: "B.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__003_problem.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:2 — Problem"
-line_start: 40920
-line_end: 40929
+line_start: 40922
+line_end: 40931
 dependencies:
   - "A.10"
   - "A.15.1"

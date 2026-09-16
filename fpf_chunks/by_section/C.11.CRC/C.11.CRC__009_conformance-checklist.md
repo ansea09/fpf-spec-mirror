@@ -6,12 +6,12 @@ section_id: "C.11.CRC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__009_conformance-checklist.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:7 — Conformance Checklist"
-line_start: 51750
-line_end: 51763
+line_start: 51752
+line_end: 51765
 dependencies:
   - "A.1.CSD"
   - "A.10"

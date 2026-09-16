@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.WMR.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
-line_start: 17909
-line_end: 18339
+line_start: 17911
+line_end: 18341
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"

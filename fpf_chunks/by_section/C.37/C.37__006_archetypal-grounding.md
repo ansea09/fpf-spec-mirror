@@ -6,12 +6,12 @@ section_id: "C.37:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__006_archetypal-grounding.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:5 — Archetypal Grounding"
-line_start: 74360
-line_end: 74383
+line_start: 74362
+line_end: 74385
 dependencies:
   - "A.10"
   - "A.2.4"

@@ -6,12 +6,12 @@ section_id: "B.2.P:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__011_consequences.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:8 — Consequences"
-line_start: 39999
-line_end: 40012
+line_start: 40001
+line_end: 40014
 dependencies:
   - "A.1.1"
   - "A.10"

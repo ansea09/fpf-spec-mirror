@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-007"
 section_title: "<FrameworkCode>.Preface:<n>.<m> - <Title>"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__008_frameworkcode-preface-n-m-title.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile"
   - "E.11.PFP:section-007 — <FrameworkCode>.Preface:<n>.<m> - <Title>"
-line_start: 87493
-line_end: 87505
+line_start: 87496
+line_end: 87510
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -36,6 +36,8 @@ keywords:
 ```
 
 For example, `## STR.Preface:1 - Problem frame - Direction and commitment under changing conditions` identifies the first section of the Strategy Preface. `### ME.Preface:7.3 - Production MethodDescription` identifies a nested section in the Method Engineering Preface. Use the framework's declared public code; name the framework as well when quoting outside a context that identifies it. The enclosing Preface H1 retains its product-declared title and established ToC entry.
+
+Close the complete Preface with one content-free H2 heading, `## <FrameworkCode>.Preface:End`, after its last paragraph, list or other content and before the next publication unit. For example, the Strategy Preface ends with `## STR.Preface:End`. This visible boundary shows where the Preface ends when it is copied or retrieved separately. It closes the whole Preface, not each numbered subsection; it adds neither a content section nor a pattern-index entry. A heading shown inside a fenced example does not close the unit.
 
 Number sibling sections in reading order, starting at 1, and carry the complete parent path into nested headings. Each nesting level adds one heading level and one ordinal. These ordinals locate sections in this Preface; their titles state the content functions. An account can combine several E.8 functions in one section or explain one function across several sections. Keep that useful arrangement instead of adding twelve empty sections to match numbers. The rule introduces no limit on useful conceptual scales; physical Markdown heading depth remains a carrier constraint.
 

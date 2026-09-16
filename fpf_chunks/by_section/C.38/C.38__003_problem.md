@@ -6,12 +6,12 @@ section_id: "C.38:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__003_problem.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:2 — Problem"
-line_start: 74478
-line_end: 74485
+line_start: 74480
+line_end: 74487
 dependencies:
   - "A.10"
   - "A.15.9"

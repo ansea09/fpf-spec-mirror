@@ -6,12 +6,12 @@ section_id: "C.32.MWA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__004_forces.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:3 — Forces"
-line_start: 71836
-line_end: 71847
+line_start: 71838
+line_end: 71849
 dependencies:
   - "A.15.1"
   - "A.22"

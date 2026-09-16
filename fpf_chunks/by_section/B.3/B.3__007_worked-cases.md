@@ -6,12 +6,12 @@ section_id: "B.3:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__007_worked-cases.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:6 — Worked cases"
-line_start: 41085
-line_end: 41118
+line_start: 41087
+line_end: 41120
 dependencies:
   - "A.10"
   - "A.15.1"

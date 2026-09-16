@@ -6,12 +6,12 @@ section_id: "C.16.MR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.MR/C.16.MR__007_bias-annotation.md"
-commit_sha: "368bb772285d22b29eaaf20180500f49f1a2c9d7"
+commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
   - "C.16.MR:6 — Bias-Annotation"
-line_start: 52792
-line_end: 52797
+line_start: 52794
+line_end: 52799
 dependencies:
   - "A.3.3"
   - "B.5.FM"
