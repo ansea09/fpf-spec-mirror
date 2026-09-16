@@ -6,7 +6,7 @@ section_id: "C.16.IR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b788734dbbfb1c6f2ea736201c4d331ace70c775"
+commit_sha: "4675defebdedb082b60afbb7d5f581932908920e"
 heading_path:
   - "C.16.IR — Determine What an Indication Can Resolve"
   - "C.16.IR:8 — Common Anti-Patterns and How to Avoid Them"
