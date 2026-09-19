@@ -6,7 +6,7 @@ section_id: "F.8:End"
 section_title: "F.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__018_f-8-end.md"
-commit_sha: "8581bcf6502498b53aaa9fd42ed925a1371c08d1"
+commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:End — F.8:End"

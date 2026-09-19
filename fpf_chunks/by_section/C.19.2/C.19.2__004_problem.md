@@ -6,7 +6,7 @@ section_id: "C.19.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__004_problem.md"
-commit_sha: "8581bcf6502498b53aaa9fd42ed925a1371c08d1"
+commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:2 — Problem"
