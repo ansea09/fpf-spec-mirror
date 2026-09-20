@@ -6,7 +6,7 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__005_solution.md"
-commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
+commit_sha: "1fa007d1110d961d54ced2fa58e08177663c401f"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:4 — Solution"
