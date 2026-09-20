@@ -6,12 +6,12 @@ section_id: "A.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__004_forces.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:3 — Forces"
-line_start: 11222
-line_end: 11233
+line_start: 11239
+line_end: 11250
 dependencies:
   - "A.10"
   - "A.15"

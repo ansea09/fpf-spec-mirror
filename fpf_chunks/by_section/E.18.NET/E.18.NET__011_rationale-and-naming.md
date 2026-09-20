@@ -6,12 +6,12 @@ section_id: "E.18.NET:10"
 section_title: "Rationale and naming"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__011_rationale-and-naming.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:10 — Rationale and naming"
-line_start: 95368
-line_end: 95389
+line_start: 95771
+line_end: 95792
 dependencies:
   - "A.1.STM"
   - "A.12"

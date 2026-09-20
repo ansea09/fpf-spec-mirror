@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.1.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.15.1 — U.Work"
-line_start: 26358
-line_end: 26952
+line_start: 26375
+line_end: 26971
 dependencies:
   - "A.1"
   - "A.10"
@@ -158,6 +158,8 @@ These relations are world-side facts, not fields stored in Work. For each A.15.1
 | `TemporalPartOf_work(part, whole)` with `<U.Work, U.Work>` | The first Work is a proper temporal sub-occurrence of the second: its exact extent is strictly inside the whole's extent and all of its performed content belongs to that same occurrence history. It applies only when the slice is itself useful as an independently admitted Work individual. | Identity is this relation kind plus the ordered part–whole pair. A part may belong to several larger Work occurrences when the predicate passes for each; no unique parent is assumed. An interval, telemetry segment, or record is not thereby a Work part. |
 | `EpisodeOf_work(episode, whole)` with `<U.Work, U.Work>` | The first Work is an independently admitted event-bounded sub-occurrence of the second. Actual start and end events and the performed content must establish both the episode boundary and its inclusion in the whole. A named use selects which already grounded episode matters; it does not create the episode. | Identity is this relation kind plus the ordered episode–whole pair. Several episodes and several larger wholes are allowed when each predicate passes. If boundary facts permit more than one grouping, a cited continuity-policy episteme may support the assertion but is not a participant and does not make the relation obtain. |
 | `OperationalPartOf_work(part, whole)` with `<U.Work, U.Work>` | The first Work is an independently admitted performed sub-occurrence whose performed content is a constitutive part of the whole occurrence at the stated operational grain. Mere overlap, a Method factor, schedule row, interval, or result label does not establish it. | Identity is this relation kind plus the ordered part–whole pair. Several parts and several containing Work occurrences are allowed when each predicate passes. State any Method-factor relation separately. |
+
+To recover these connections in practice, **B.1.5.EW** starts with an action and asks what encompassing work is under way through it. Adding a value can be part of computing a total while report preparation is ongoing. This does not make the report complete, create a separate occurrence for every description, or count the same resource use several times. Independently claimed Work parts still satisfy the predicates above.
 
 **Containing Systems.** Current assertions do not use bare `executedWithin`. Declare a direct local predicate such as `workOccursWithinPlantBoundary(work, system)` with participant order `<U.Work, U.System>`. Its predicate must say which exact system delimitation and qualification window make the complete Work occurrence lie within that System for the stated use, and must route that delimitation to A.1, A.14, or the applicable domain pattern. Its ordinary occurrence identity is the exact local relation kind plus the ordered Work–System pair. The A.15.1 occurrence basis includes at least one such obtaining relation. The same Work may stand in several true containing-System relations at different valid boundaries; no universal uniqueness or automatic “immediate” System is assumed. A part relation between Systems, organizational accountability, colocation, or a diagram does not by itself create another Work-containment relation. If the use needs one and none is declared and grounded, return `missing-governor[work-containment]`. Historical `executedWithin` is only a route cue to recover this local relation; do not author a new current claim with it.
 

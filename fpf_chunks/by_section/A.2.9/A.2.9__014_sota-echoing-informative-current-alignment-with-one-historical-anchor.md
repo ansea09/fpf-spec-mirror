@@ -6,12 +6,12 @@ section_id: "A.2.9:11"
 section_title: "SoTA-Echoing (informative; current alignment with one historical anchor)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__014_sota-echoing-informative-current-alignment-with-one-historical-anchor.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:11 — SoTA-Echoing (informative; current alignment with one historical anchor)"
-line_start: 8040
-line_end: 8048
+line_start: 8055
+line_end: 8063
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "B.5.QD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__001_intro.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "B.5.QD — Develop a New Question from a Result or Construction"
   - "B.5.QD:intro — Intro"
-line_start: 44400
-line_end: 44405
+line_start: 44791
+line_end: 44796
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

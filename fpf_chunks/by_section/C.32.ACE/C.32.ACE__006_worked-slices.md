@@ -6,12 +6,12 @@ section_id: "C.32.ACE:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__006_worked-slices.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:5 — Worked slices"
-line_start: 70997
-line_end: 71008
+line_start: 71392
+line_end: 71403
 dependencies:
   - "A.10"
   - "A.15.1"

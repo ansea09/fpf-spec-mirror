@@ -6,12 +6,12 @@ section_id: "E.20:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__004_forces.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:3 — Forces"
-line_start: 96274
-line_end: 96283
+line_start: 96677
+line_end: 96686
 dependencies:
   - "A.15.3"
   - "A.6.1"

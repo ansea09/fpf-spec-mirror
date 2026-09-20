@@ -6,12 +6,12 @@ section_id: "C.16.IR:End"
 section_title: "C.16.IR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__014_c-16-ir-end.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.16.IR — Determine What an Indication Can Resolve"
   - "C.16.IR:End — C.16.IR:End"
-line_start: 53079
-line_end: 53080
+line_start: 53470
+line_end: 53471
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

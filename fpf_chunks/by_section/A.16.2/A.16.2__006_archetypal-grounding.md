@@ -6,12 +6,12 @@ section_id: "A.16.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__006_archetypal-grounding.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:5 — Archetypal Grounding"
-line_start: 30646
-line_end: 30652
+line_start: 30665
+line_end: 30671
 dependencies:
   - "A.16"
   - "A.16.0"

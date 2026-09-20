@@ -6,12 +6,12 @@ section_id: "C.16.P:7"
 section_title: "Archetypal Grounding - Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__010_archetypal-grounding-worked-cases.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:7 — Archetypal Grounding - Worked cases"
-line_start: 53488
-line_end: 53498
+line_start: 53879
+line_end: 53889
 dependencies:
   - "A.10"
   - "A.15"

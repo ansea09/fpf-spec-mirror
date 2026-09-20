@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 80543
-line_end: 80946
+line_start: 80940
+line_end: 81345
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -229,6 +229,8 @@ A result maintained outside the receiving framework may answer the reader's use 
 Use the twelve substantive functions in the canonical template as authoring questions for a whole FPF, DPF, or LPF and each selected substantive profile. `E.11.PFP:4.7` governs their public answers, inheritance, and placement in the framework's publication units. The same functions can describe a broad Method, a composition of Methods, or a narrower use; the declared subject and applicability determine the scale.
 
 The `Solution` explains the actual organization and use of the described Methods: their contributions, relations, and the results that make a next move possible. `Architectural Rationale` explains why that organization and those choices serve the declared use, which serious alternatives were considered, their trade-offs, and the conditions under which another choice becomes preferable. Preserve shared source explanations there when users need them to understand or adapt several patterns together.
+
+The same explanation must make recoverable how constituent actions perform encompassing work where that connection matters to learning, performance or change. Show what larger work is already being done through the selected action, what constituents make that action possible, and which conditions of the whole constrain it. Preserve genuine result-before-use dependencies alongside this vertical enactment. A representative case should let the reader change the action when a relevant condition of the whole changes. Use B.1.5.EW for recovery and B.1.5.RS for a constituent replacement; do not require a separate level diagram or exhaustive decomposition when the connection is already understood.
 
 The pattern heading, header block, section grammar, and footer apply to each individually declared pattern. The whole-framework account uses the publication form in `E.11.PFP`; its content questions do not turn every publication unit or intermediate group into another pattern. Its Preface subsection headings identify the framework, publication unit and ordinal path through `E.11.PFP:4.7.1`, so an isolated excerpt remains locatable without being classified as a pattern body. Keep generality, specialization, Method composition, reuse, bounded-use projection, and publication grouping explicit under `E.8:4.2.2`. There is no prescribed maximum depth or exclusive-parent rule.
 

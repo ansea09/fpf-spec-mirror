@@ -6,12 +6,12 @@ section_id: "G.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__008_conformance-checklist.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:7 — Conformance Checklist"
-line_start: 112179
-line_end: 112193
+line_start: 112582
+line_end: 112596
 dependencies:
   - "A.10"
   - "A.13"

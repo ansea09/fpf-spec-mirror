@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__001_intro.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:intro — Intro"
-line_start: 91422
-line_end: 91458
+line_start: 91823
+line_end: 91859
 dependencies:
   - "A.15"
   - "A.15.2"

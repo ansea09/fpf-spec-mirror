@@ -6,12 +6,12 @@ section_id: "A.6.2:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 14937
-line_end: 14945
+line_start: 14954
+line_end: 14962
 dependencies:
   - "A.6.0"
   - "A.6.1"

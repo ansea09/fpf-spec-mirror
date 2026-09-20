@@ -6,12 +6,12 @@ section_id: "A.16.0:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__012_sota-echoing.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:11 — SoTA-Echoing"
-line_start: 30238
-line_end: 30240
+line_start: 30257
+line_end: 30259
 dependencies:
   - "A.16"
   - "A.16.1"

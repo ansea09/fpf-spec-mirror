@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__012_rationale.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:10 — Rationale"
-line_start: 36196
-line_end: 36206
+line_start: 36215
+line_end: 36225
 dependencies:
 keywords:
   - "SelectEligibility"

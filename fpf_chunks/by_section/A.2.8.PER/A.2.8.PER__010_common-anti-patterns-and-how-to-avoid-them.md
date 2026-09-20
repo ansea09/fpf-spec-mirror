@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 7624
-line_end: 7637
+line_start: 7639
+line_end: 7652
 dependencies:
   - "A.10"
   - "A.13"

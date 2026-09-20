@@ -6,12 +6,12 @@ section_id: "A.15.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__008_conformance-checklist.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:7 — Conformance Checklist"
-line_start: 27503
-line_end: 27521
+line_start: 27522
+line_end: 27540
 dependencies:
   - "A.15.1"
   - "A.15.2"

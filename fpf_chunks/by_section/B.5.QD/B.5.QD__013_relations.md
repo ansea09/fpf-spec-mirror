@@ -6,12 +6,12 @@ section_id: "B.5.QD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__013_relations.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "B.5.QD — Develop a New Question from a Result or Construction"
   - "B.5.QD:12 — Relations"
-line_start: 44601
-line_end: 44609
+line_start: 44992
+line_end: 45000
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

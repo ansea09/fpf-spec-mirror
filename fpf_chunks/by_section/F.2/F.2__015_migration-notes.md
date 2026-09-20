@@ -6,12 +6,12 @@ section_id: "F.2:14"
 section_title: "Migration notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__015_migration-notes.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:14 — Migration notes"
-line_start: 101247
-line_end: 101255
+line_start: 101650
+line_end: 101658
 dependencies:
   - "A.11"
   - "A.7"

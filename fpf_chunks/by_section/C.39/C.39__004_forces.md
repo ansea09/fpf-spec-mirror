@@ -6,12 +6,12 @@ section_id: "C.39:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__004_forces.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:3 — Forces"
-line_start: 74680
-line_end: 74689
+line_start: 75077
+line_end: 75086
 dependencies:
   - "A.10"
   - "A.3.1"

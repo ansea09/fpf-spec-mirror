@@ -6,12 +6,12 @@ section_id: "A.10.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__005_solution.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:4 — Solution"
-line_start: 24438
-line_end: 24577
+line_start: 24455
+line_end: 24594
 dependencies:
   - "A.10"
   - "A.10.1"

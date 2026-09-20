@@ -6,12 +6,12 @@ section_id: "A.6.S:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__005_forces.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:3 — Forces"
-line_start: 22235
-line_end: 22245
+line_start: 22252
+line_end: 22262
 dependencies:
   - "A.15"
   - "A.15.1"

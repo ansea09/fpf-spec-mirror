@@ -6,12 +6,12 @@ section_id: "B.3.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__001_intro.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:intro — Intro"
-line_start: 41313
-line_end: 41314
+line_start: 41704
+line_end: 41705
 dependencies:
   - "A.10"
   - "B.3"

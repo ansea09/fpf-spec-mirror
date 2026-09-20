@@ -6,12 +6,12 @@ section_id: "B.3.5:3.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__005_forces.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:3.1 — Forces"
-line_start: 41483
-line_end: 41488
+line_start: 41874
+line_end: 41879
 dependencies:
   - "B.3"
   - "C.13"

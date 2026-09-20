@@ -6,12 +6,12 @@ section_id: "E.2:End"
 section_title: "E.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__014_e-2-end.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:End — E.2:End"
-line_start: 76900
-line_end: 76901
+line_start: 77297
+line_end: 77298
 dependencies:
   - "A.10"
   - "A.15.1"

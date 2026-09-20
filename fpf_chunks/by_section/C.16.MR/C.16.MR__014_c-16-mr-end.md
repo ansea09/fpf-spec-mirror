@@ -6,12 +6,12 @@ section_id: "C.16.MR:End"
 section_title: "C.16.MR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.MR/C.16.MR__014_c-16-mr-end.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
   - "C.16.MR:End — C.16.MR:End"
-line_start: 52858
-line_end: 52859
+line_start: 53249
+line_end: 53250
 dependencies:
   - "A.3.3"
   - "B.5.FM"

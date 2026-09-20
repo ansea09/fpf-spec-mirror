@@ -6,12 +6,12 @@ section_id: "C.3.4:9"
 section_title: "Anti-patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__011_anti-patterns-and-repairs.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:9 — Anti-patterns and Repairs"
-line_start: 50198
-line_end: 50208
+line_start: 50589
+line_end: 50599
 dependencies:
   - "A.2.6"
   - "C.2.1"

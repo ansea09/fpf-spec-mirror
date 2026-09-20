@@ -6,12 +6,12 @@ section_id: "A.10:8.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__012_sota-echoing.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:8.1 — SoTA-Echoing"
-line_start: 24329
-line_end: 24342
+line_start: 24346
+line_end: 24359
 dependencies:
   - "A.10"
   - "A.13"

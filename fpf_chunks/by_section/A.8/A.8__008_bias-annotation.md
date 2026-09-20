@@ -6,12 +6,12 @@ section_id: "A.8:3.2"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__008_bias-annotation.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:3.2 — Bias-Annotation"
-line_start: 23831
-line_end: 23834
+line_start: 23848
+line_end: 23851
 dependencies:
   - "A.11"
   - "C.3"

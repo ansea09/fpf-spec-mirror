@@ -6,12 +6,12 @@ section_id: "C.36.RP:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__011_architectural-rationale.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:10 — Architectural Rationale"
-line_start: 75764
-line_end: 75773
+line_start: 76161
+line_end: 76170
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

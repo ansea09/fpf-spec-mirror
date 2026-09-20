@@ -6,12 +6,12 @@ section_id: "C.2.1:12"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:12 — Common Anti-Patterns and How to Avoid Them"
-line_start: 46221
-line_end: 46237
+line_start: 46612
+line_end: 46628
 dependencies:
   - "A.1"
   - "A.1.1"

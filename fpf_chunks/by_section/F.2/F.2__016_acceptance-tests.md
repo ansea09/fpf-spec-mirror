@@ -6,12 +6,12 @@ section_id: "F.2:15"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__016_acceptance-tests.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:15 — Acceptance tests"
-line_start: 101256
-line_end: 101274
+line_start: 101659
+line_end: 101677
 dependencies:
   - "A.11"
   - "A.7"

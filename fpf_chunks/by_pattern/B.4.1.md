@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.4.1.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
-line_start: 41995
-line_end: 42226
+line_start: 42386
+line_end: 42617
 dependencies:
   - "A.15"
   - "A.16"

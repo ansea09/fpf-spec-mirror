@@ -6,12 +6,12 @@ section_id: "A.15.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__013_relations.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:12 — Relations"
-line_start: 27562
-line_end: 27567
+line_start: 27581
+line_end: 27586
 dependencies:
   - "A.15.1"
   - "A.15.2"

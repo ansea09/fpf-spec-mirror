@@ -6,12 +6,12 @@ section_id: "A.6.S:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__012_rationale.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:10 — Rationale"
-line_start: 22423
-line_end: 22432
+line_start: 22440
+line_end: 22449
 dependencies:
   - "A.15"
   - "A.15.1"

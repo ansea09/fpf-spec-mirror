@@ -6,12 +6,12 @@ section_id: "E.23.CAE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__008_conformance-checklist.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:7 — Conformance Checklist"
-line_start: 98396
-line_end: 98412
+line_start: 98799
+line_end: 98815
 dependencies:
   - "A.15.7"
   - "A.15.8"

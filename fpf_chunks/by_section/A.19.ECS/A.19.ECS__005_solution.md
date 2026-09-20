@@ -6,12 +6,12 @@ section_id: "A.19.ECS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__005_solution.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:4 — Solution"
-line_start: 31586
-line_end: 31681
+line_start: 31605
+line_end: 31700
 dependencies:
   - "A.17-A.19"
   - "C.16"

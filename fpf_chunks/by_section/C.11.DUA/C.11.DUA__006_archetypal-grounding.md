@@ -6,12 +6,12 @@ section_id: "C.11.DUA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__006_archetypal-grounding.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.11.DUA — Decision-Useful Advice and Evidence Demands"
   - "C.11.DUA:5 — Archetypal Grounding"
-line_start: 51919
-line_end: 51987
+line_start: 52310
+line_end: 52378
 dependencies:
   - "A.10"
   - "C.11"

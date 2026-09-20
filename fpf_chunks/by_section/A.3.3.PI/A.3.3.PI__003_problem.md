@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__003_problem.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:2 — Problem"
-line_start: 10081
-line_end: 10088
+line_start: 10098
+line_end: 10105
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"

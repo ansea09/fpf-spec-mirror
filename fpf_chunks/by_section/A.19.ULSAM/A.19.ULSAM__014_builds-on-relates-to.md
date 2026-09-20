@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:12"
 section_title: "Builds on / Relates to"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__014_builds-on-relates-to.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:12 — Builds on / Relates to"
-line_start: 35429
-line_end: 35443
+line_start: 35448
+line_end: 35462
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

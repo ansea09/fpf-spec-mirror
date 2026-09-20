@@ -6,12 +6,12 @@ section_id: "E.10.D1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__011_rationale.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:10 — Rationale"
-line_start: 85455
-line_end: 85460
+line_start: 85854
+line_end: 85859
 dependencies:
   - "A.1.1"
   - "A.2.6"

@@ -6,12 +6,12 @@ section_id: "C.2.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__004_forces.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.2.8 — U.ExtractableStructuralInformation"
   - "C.2.8:3 — Forces"
-line_start: 48726
-line_end: 48735
+line_start: 49117
+line_end: 49126
 dependencies:
   - "A.17"
   - "A.18"

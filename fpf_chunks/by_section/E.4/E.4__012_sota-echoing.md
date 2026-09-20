@@ -6,12 +6,12 @@ section_id: "E.4:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__012_sota-echoing.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:11 — SoTA-Echoing"
-line_start: 77623
-line_end: 77632
+line_start: 78020
+line_end: 78029
 dependencies:
   - "C.33"
   - "C.34"

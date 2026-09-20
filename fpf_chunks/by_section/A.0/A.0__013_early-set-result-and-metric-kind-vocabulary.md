@@ -6,12 +6,12 @@ section_id: "A.0:QF.1"
 section_title: "Early set-result and metric-kind vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__013_early-set-result-and-metric-kind-vocabulary.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.1 — Early set-result and metric-kind vocabulary"
-line_start: 1488
-line_end: 1516
+line_start: 1503
+line_end: 1531
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

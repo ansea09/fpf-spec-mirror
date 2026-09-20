@@ -6,12 +6,12 @@ section_id: "A.11.OP:End"
 section_title: "A.11.OP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__014_a-11-op-end.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
   - "A.11.OP:End — A.11.OP:End"
-line_start: 25128
-line_end: 25129
+line_start: 25145
+line_end: 25146
 dependencies:
   - "A.10"
   - "A.11"

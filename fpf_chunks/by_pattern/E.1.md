@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.1.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.1 — Vision & Mission: “Operating System for Thought”"
-line_start: 76717
-line_end: 76777
+line_start: 77114
+line_end: 77174
 dependencies:
   - "E.2"
 keywords:

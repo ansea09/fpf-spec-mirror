@@ -6,12 +6,12 @@ section_id: "A.16.1:15"
 section_title: "Migration and Extension Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__016_migration-and-extension-notes.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:15 — Migration and Extension Notes"
-line_start: 30490
-line_end: 30500
+line_start: 30509
+line_end: 30519
 dependencies:
   - "A.16"
   - "A.16.0"

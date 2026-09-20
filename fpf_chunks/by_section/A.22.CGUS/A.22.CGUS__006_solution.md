@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__006_solution.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:4 — Solution"
-line_start: 37346
-line_end: 37491
+line_start: 37365
+line_end: 37526
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,6 +63,22 @@ For example, a design review has two alternatives: accept the design or repair i
 | Repair the design | A check failed and a repair proposal exists, but the proposal-to-design relation has not been established. | `unknown — proposal target not established` |
 
 That corrected card is already useful. It keeps both potential alternatives visible and refuses to invent the missing relation. Continue only if a named later use needs formal structure identity or replayable results.
+
+##### A.22.CGUS:4.1.1 - Conditions through constituent and encompassing work
+
+When a continuation is a way of performing work, recover the part of its Method/Work vertical that can change availability. Ask what constituent actions must be performable and what encompassing work is being done through them. B.1.5.EW supplies that recovery; knowing a Method's description does not supply the capability or resources to perform it.
+
+Distinguish conditions needed at entry, conditions that must remain satisfied during combined performance, and the result required by the encompassing use. In particular:
+
+- a constituent may be individually performable but fail in the needed coordination;
+- adequate local resources may be insufficient when constituents share them;
+- a constituent result may satisfy its own postcondition while leaving the whole's result unresolved.
+
+For each relevant condition, state what it concerns and how it affects this continuation. Reuse an understood connection or adequate existing basis. A missing condition blocks or leaves unknown the dependent alternative; it need not block an independent way to learn, obtain support or change the arrangement. Capability belongs to its performer and conditions under A.2.2; prospective resources and support remain prospective until available.
+
+In the formal branch, express these dependencies with the existing constituents, selected relations, applied constraints and continuation judgements. A temporal edge alone cannot express that one action constitutes part of another ongoing work. Nor does a nested flow position establish Method or Work parthood. A diagram may show the relations together when their meanings remain recoverable.
+
+A constituent's postcondition supports the encompassing conclusion only through the relevant composition and result-use conditions. An expected postcondition is not an observed result. If the displayed account omits conditions needed to perform the whole, state the narrower question it answers. A constituent hierarchy without potential alternatives does not require CGUS qualification.
 
 #### A.22.CGUS:4.2 - Formal qualification branch
 

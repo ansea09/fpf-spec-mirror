@@ -6,12 +6,12 @@ section_id: "A.15.1:10"
 section_title: "Work-claim interpretation checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__012_work-claim-interpretation-checks.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:10 — Work-claim interpretation checks"
-line_start: 26859
-line_end: 26868
+line_start: 26878
+line_end: 26887
 dependencies:
   - "A.1"
   - "A.10"

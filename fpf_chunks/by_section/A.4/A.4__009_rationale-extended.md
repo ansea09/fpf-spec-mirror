@@ -6,12 +6,12 @@ section_id: "A.4:8"
 section_title: "Rationale (extended)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__009_rationale-extended.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:8 — Rationale (extended)"
-line_start: 11027
-line_end: 11057
+line_start: 11044
+line_end: 11074
 dependencies:
   - "B.3"
   - "B.4"

@@ -6,12 +6,12 @@ section_id: "B.5.FM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__013_relations.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:12 — Relations"
-line_start: 43993
-line_end: 44001
+line_start: 44384
+line_end: 44392
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

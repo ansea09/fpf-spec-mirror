@@ -6,12 +6,12 @@ section_id: "C.16.Q:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__015_relations.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:12 — Relations"
-line_start: 54392
-line_end: 54415
+line_start: 54783
+line_end: 54806
 dependencies:
   - "A.10"
   - "A.16"

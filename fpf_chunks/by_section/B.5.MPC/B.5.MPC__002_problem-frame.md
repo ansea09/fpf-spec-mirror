@@ -6,12 +6,12 @@ section_id: "B.5.MPC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__002_problem-frame.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:1 — Problem frame"
-line_start: 42552
-line_end: 42565
+line_start: 42943
+line_end: 42956
 dependencies:
   - "A.15.9"
   - "A.3.3"

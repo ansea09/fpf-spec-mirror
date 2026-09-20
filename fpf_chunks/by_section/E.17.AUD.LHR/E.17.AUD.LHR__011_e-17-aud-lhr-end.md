@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:End"
 section_title: "E.17.AUD.LHR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__011_e-17-aud-lhr-end.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:End — E.17.AUD.LHR:End"
-line_start: 92749
-line_end: 92750
+line_start: 93150
+line_end: 93151
 dependencies:
   - "A.10"
   - "A.15"

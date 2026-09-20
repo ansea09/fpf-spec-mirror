@@ -6,12 +6,12 @@ section_id: "C.2.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__005_solution.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.2.8 — U.ExtractableStructuralInformation"
   - "C.2.8:4 — Solution"
-line_start: 48736
-line_end: 48825
+line_start: 49127
+line_end: 49216
 dependencies:
   - "A.17"
   - "A.18"

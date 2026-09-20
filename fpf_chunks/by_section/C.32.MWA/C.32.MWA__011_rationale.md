@@ -6,12 +6,12 @@ section_id: "C.32.MWA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__011_rationale.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
   - "C.32.MWA:10 — Rationale"
-line_start: 71965
-line_end: 71970
+line_start: 72362
+line_end: 72367
 dependencies:
   - "A.15.1"
   - "A.22"

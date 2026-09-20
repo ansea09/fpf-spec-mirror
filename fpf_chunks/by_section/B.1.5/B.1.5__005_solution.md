@@ -6,12 +6,12 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__005_solution.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:4 — Solution"
-line_start: 38887
-line_end: 39085
+line_start: 38935
+line_end: 39135
 dependencies:
   - "A.1"
   - "A.15"
@@ -230,6 +230,8 @@ The composition link is not one-to-one. A Work occurrence may enact the whole me
 - the cross-side fact: the exact `enactsMethod(workPart, submethod)` occurrence.
 
 If any side is missing, lower only that side. Do not repair a missing submethod by inventing a work part, and do not repair a missing work part by inventing a submethod. Keep a method-description node, evidence segment, mechanism material, system-component behavior, or `A.15.4` appearance-based reliance repair request under its subject pattern.
+
+For an ordinary working question—what larger work is being done through this action now—use **B.1.5.EW**. It recovers the constitutive connections at the needed grain and shows how a changed encompassing condition changes the action. An ongoing whole need not be completed, and its constituents need not all act at once. When changing a constituent for use in one or several wholes, **B.1.5.RS** follows the change through their entry conditions, interactions and required results. The qualifications above still decide the corresponding Method and Work claims.
 
 #### B.1.5:4.5.1 - Planning And Performed-Work Obligations
 

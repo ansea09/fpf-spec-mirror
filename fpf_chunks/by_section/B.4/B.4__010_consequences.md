@@ -6,12 +6,12 @@ section_id: "B.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__010_consequences.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:9 — Consequences"
-line_start: 41964
-line_end: 41971
+line_start: 42355
+line_end: 42362
 dependencies:
   - "A.12"
   - "A.15.1"

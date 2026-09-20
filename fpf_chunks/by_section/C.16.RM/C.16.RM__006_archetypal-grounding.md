@@ -6,12 +6,12 @@ section_id: "C.16.RM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__006_archetypal-grounding.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:5 — Archetypal Grounding"
-line_start: 53184
-line_end: 53253
+line_start: 53575
+line_end: 53644
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"

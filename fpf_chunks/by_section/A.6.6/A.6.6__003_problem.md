@@ -6,12 +6,12 @@ section_id: "A.6.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__003_problem.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:2 — Problem"
-line_start: 20989
-line_end: 21025
+line_start: 21006
+line_end: 21042
 dependencies:
   - "A.10"
   - "A.14"

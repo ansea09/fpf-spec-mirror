@@ -6,12 +6,12 @@ section_id: "A.2.9:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 8003
-line_end: 8020
+line_start: 8018
+line_end: 8035
 dependencies:
   - "A.10"
   - "A.13"

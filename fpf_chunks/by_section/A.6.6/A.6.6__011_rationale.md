@@ -6,12 +6,12 @@ section_id: "A.6.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__011_rationale.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
   - "A.6.6:10 — Rationale"
-line_start: 21318
-line_end: 21334
+line_start: 21335
+line_end: 21351
 dependencies:
   - "A.10"
   - "A.14"

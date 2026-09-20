@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607`
+Commit SHA: `685a0d04e8c8b8c3ac0a571d72be15daf004c72f`
 
 Chunking method: `pattern-aware`
 
-Patterns: `344`
+Patterns: `346`
 
 ## Patterns
 
@@ -121,6 +121,8 @@ Patterns: `344`
 - [B.1.3 — Γ_epist - Knowledge‑Specific Aggregation](by_pattern/B.1.3.md)
 - [B.1.4 — Contextual and Temporal Aggregation](by_pattern/B.1.4.md)
 - [B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment](by_pattern/B.1.5.md)
+- [B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work](by_pattern/B.1.5.EW.md)
+- [B.1.5.RS — Replace a Constituent Method in Its Encompassing Uses](by_pattern/B.1.5.RS.md)
 - [B.1.6 — Work-Resource Aggregation](by_pattern/B.1.6.md)
 - [B.2 — Meta-Holon Transition - Whole Reidentification](by_pattern/B.2.md)
 - [B.2.P — Emergence and MHT Precision Restoration](by_pattern/B.2.P.md)

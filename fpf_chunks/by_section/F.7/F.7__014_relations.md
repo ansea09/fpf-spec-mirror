@@ -6,12 +6,12 @@ section_id: "F.7:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__014_relations.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:13 — Relations"
-line_start: 102686
-line_end: 102701
+line_start: 103089
+line_end: 103104
 dependencies:
   - "A.6.9"
   - "B.3"

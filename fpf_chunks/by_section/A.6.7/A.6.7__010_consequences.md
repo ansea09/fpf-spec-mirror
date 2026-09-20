@@ -6,12 +6,12 @@ section_id: "A.6.7:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__010_consequences.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:9 — Consequences"
-line_start: 21770
-line_end: 21782
+line_start: 21787
+line_end: 21799
 dependencies:
   - "A.21"
   - "A.6.1"

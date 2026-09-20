@@ -6,12 +6,12 @@ section_id: "F.13:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__003_problem-frame.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:2 — Problem frame"
-line_start: 104772
-line_end: 104780
+line_start: 105175
+line_end: 105183
 dependencies:
   - "F.1"
   - "F.10"

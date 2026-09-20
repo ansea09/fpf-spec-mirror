@@ -6,12 +6,12 @@ section_id: "B.5.TU:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__002_problem-frame.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
   - "B.5.TU:1 — Problem frame"
-line_start: 44010
-line_end: 44021
+line_start: 44401
+line_end: 44412
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

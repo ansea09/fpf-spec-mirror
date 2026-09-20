@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:10"
 section_title: "Rationale (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__012_rationale-didactic-informative.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:10 — Rationale (didactic, informative)"
-line_start: 35413
-line_end: 35421
+line_start: 35432
+line_end: 35440
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

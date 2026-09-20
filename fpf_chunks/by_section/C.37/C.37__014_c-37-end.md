@@ -6,12 +6,12 @@ section_id: "C.37:End"
 section_title: "C.37:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__014_c-37-end.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.37 — Use-Bounded Representation Selection and Co-Use"
   - "C.37:End — C.37:End"
-line_start: 74456
-line_end: 74457
+line_start: 74853
+line_end: 74854
 dependencies:
   - "A.10"
   - "A.2.4"

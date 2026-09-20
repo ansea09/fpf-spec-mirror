@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.RSIG.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
-line_start: 11697
-line_end: 12110
+line_start: 11714
+line_end: 12127
 dependencies:
   - "A.6"
   - "A.6.P"

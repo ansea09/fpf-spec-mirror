@@ -6,12 +6,12 @@ section_id: "C.28:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__001_intro.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:intro — Intro"
-line_start: 61476
-line_end: 61489
+line_start: 61871
+line_end: 61884
 dependencies:
   - "A.10"
   - "A.15"

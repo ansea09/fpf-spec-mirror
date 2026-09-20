@@ -6,12 +6,12 @@ section_id: "A.15.4:5"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:5 — Common Anti-Patterns and How to Avoid Them"
-line_start: 28004
-line_end: 28007
+line_start: 28023
+line_end: 28026
 dependencies:
   - "A.10"
   - "A.13"

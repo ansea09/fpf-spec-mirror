@@ -6,12 +6,12 @@ section_id: "A.19:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__012_consequences.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:8 — Consequences"
-line_start: 31487
-line_end: 31495
+line_start: 31506
+line_end: 31514
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.26.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 60659
-line_end: 60669
+line_start: 61054
+line_end: 61064
 dependencies:
   - "A.10"
   - "A.15"

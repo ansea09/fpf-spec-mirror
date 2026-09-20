@@ -6,12 +6,12 @@ section_id: "F.17:13.5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__016_conformance-checklist.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:13.5 — Conformance Checklist"
-line_start: 107050
-line_end: 107063
+line_start: 107453
+line_end: 107466
 dependencies:
   - "A.1.1"
   - "A.10"

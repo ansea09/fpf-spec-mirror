@@ -6,12 +6,12 @@ section_id: "C.16:9"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__011_bias-annotation.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:9 — Bias-Annotation"
-line_start: 52521
-line_end: 52530
+line_start: 52912
+line_end: 52921
 dependencies:
   - "A.10"
   - "A.15.1"

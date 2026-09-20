@@ -6,12 +6,12 @@ section_id: "D.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__010_conformance-checklist.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:6 — Conformance Checklist"
-line_start: 76075
-line_end: 76083
+line_start: 76472
+line_end: 76480
 dependencies:
   - "A.1"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.15.9:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__008_conformance-and-practical-checks.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.15.9 — Request and Use a Bounded Result from Another Practice"
   - "A.15.9:7 — Conformance and practical checks"
-line_start: 29225
-line_end: 29243
+line_start: 29244
+line_end: 29262
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "A.15.2:7d"
 section_title: "SoTA Alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__012_sota-alignment.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:7d — SoTA Alignment"
-line_start: 27220
-line_end: 27230
+line_start: 27239
+line_end: 27249
 dependencies:
   - "A.10"
   - "A.15"

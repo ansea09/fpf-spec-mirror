@@ -6,12 +6,12 @@ section_id: "E.24.CD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 99451
-line_end: 99464
+line_start: 99854
+line_end: 99867
 dependencies:
   - "A.1"
   - "A.14"

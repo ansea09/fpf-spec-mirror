@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.3.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
-line_start: 94528
-line_end: 94996
+line_start: 94929
+line_end: 95399
 dependencies:
   - "A.10"
   - "A.15"
@@ -253,6 +253,8 @@ A source phrase or graph enters only through an exact source-to-use claim or rel
 E.18.3 recognizes one selected A.22.CGUS `U.Structure`; it is not a second transformation ontology or reciprocal narrower structure. That selected CGUS uses one independently identified E.18 substrate branch and its exact positions, bindings, and already-obtaining occurrences; the substrate is not the selected CGUS. The selected structure is not a workflow, Method, MethodDescription, WorkPlan, performed Work, actual Transformation, mathematical graph, publication, evidence relation, gate decision, architecture decision, or architecture description. It organizes independently identified constituents, already-obtaining relations, and constraints for one transformation-flow unfolding use.
 
 A graph, record, filled table, demonstration, imperative, selected continuation, recommendation, or intended realization is evidence of neither the A.22 identity nor the E.18.3 condition. It admits no MethodDescription or Work. A.3.2, A.15.1, A.3.4 and A.15.PROD supply the applicable membership or occurrence tests; every relation claim still needs its exact predicate definition, applicability conditions and current facts.
+
+When a continuation is intended to perform work, apply A.22.CGUS:4.1.1 to its relevant constituent and encompassing conditions. The arrangement may need capabilities and shared resources that no single flow position reveals. Recover Method and Work parthood independently through B.1.5.EW; nested transformation-flow positions and temporal arcs retain their own meanings. Local completion supports the whole result only under the required coordination and result-use conditions. A description that omits those conditions answers a narrower question than whether the whole can be performed.
 
 #### E.18.3:4.4 - Replay and change localization
 

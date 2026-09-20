@@ -6,12 +6,12 @@ section_id: "A.11:8"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__013_sota-echoing.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:8 — SoTA-Echoing"
-line_start: 24852
-line_end: 24857
+line_start: 24869
+line_end: 24874
 dependencies:
   - "A.6.P"
   - "A.6.RCD"

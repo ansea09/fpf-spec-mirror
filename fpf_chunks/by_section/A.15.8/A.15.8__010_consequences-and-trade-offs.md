@@ -6,12 +6,12 @@ section_id: "A.15.8:9"
 section_title: "Consequences and trade-offs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__010_consequences-and-trade-offs.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:9 — Consequences and trade-offs"
-line_start: 29068
-line_end: 29078
+line_start: 29087
+line_end: 29097
 dependencies:
   - "A.1"
   - "A.10"

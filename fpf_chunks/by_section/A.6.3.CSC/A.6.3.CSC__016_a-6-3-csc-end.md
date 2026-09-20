@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:End"
 section_title: "A.6.3.CSC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__016_a-6-3-csc-end.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:End — A.6.3.CSC:End"
-line_start: 15598
-line_end: 15599
+line_start: 15615
+line_end: 15616
 dependencies:
   - "A.15"
   - "A.20"

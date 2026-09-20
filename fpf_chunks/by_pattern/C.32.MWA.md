@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.MWA.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
-line_start: 71796
-line_end: 71997
+line_start: 72191
+line_end: 72394
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -60,6 +60,8 @@ The primary working reader is an architect, methodologist, practice designer, or
 - Use `C.30.ILC` and `C.32.MLAO` when an already recovered cross-scope conflict or residual is the main subject.
 - Do not use this pattern for one clear Method decomposition, one procedure order, a carrier index, a universal level stack, a mandatory record schema, domain filling, product-roster generation, or lifecycle design.
 - A practitioner can use this Method to prepare evidence for a framework or project decision. Making that decision, establishing a product, publishing a description, or realizing a future practice remains separate work.
+
+For the smaller question of what encompassing work is being done through one current action, start with **B.1.5.EW**. It can expose a missing constituent or a changed condition without requiring this full synthesis. Use **B.1.5.RS** when the difficulty is preserving encompassing uses while replacing one constituent. Return here when the answer depends on several structures that do not correspond one-for-one.
 
 The result is a **practice-architecture synthesis** for the named use. That phrase names an ordinary working description, not a new root kind. The practice, its Methods and Work, participating Systems, and its description remain different things.
 

@@ -6,12 +6,12 @@ section_id: "C.2.6:18"
 section_title: "Review Matrix and Extension Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__019_review-matrix-and-extension-tests.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:18 — Review Matrix and Extension Tests"
-line_start: 48506
-line_end: 48522
+line_start: 48897
+line_end: 48913
 dependencies:
   - "A.16"
   - "A.16.0"

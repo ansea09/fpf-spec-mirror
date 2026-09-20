@@ -6,12 +6,12 @@ section_id: "A.6.REL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__002_problem-frame.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:1 — Problem frame"
-line_start: 13274
-line_end: 13293
+line_start: 13291
+line_end: 13310
 dependencies:
   - "A.6.0"
   - "A.6.5"

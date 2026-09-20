@@ -6,12 +6,12 @@ section_id: "C.2.2a:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__014_relations.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:12 — Relations"
-line_start: 47334
-line_end: 47338
+line_start: 47725
+line_end: 47729
 dependencies:
   - "A.16"
   - "A.16.0"

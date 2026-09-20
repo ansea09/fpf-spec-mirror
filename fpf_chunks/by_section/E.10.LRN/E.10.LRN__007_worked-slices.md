@@ -6,12 +6,12 @@ section_id: "E.10.LRN:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__007_worked-slices.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:5 — Worked Slices"
-line_start: 83850
-line_end: 83875
+line_start: 84249
+line_end: 84274
 dependencies:
   - "A.10"
   - "A.15"

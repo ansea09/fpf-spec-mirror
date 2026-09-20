@@ -6,12 +6,12 @@ section_id: "C.13:9"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__012_rationale-informative.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:9 — Rationale (informative)"
-line_start: 52253
-line_end: 52268
+line_start: 52644
+line_end: 52659
 dependencies:
   - "A.1"
   - "A.14"

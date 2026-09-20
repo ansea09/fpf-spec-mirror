@@ -6,12 +6,12 @@ section_id: "A.1.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__014_relations.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:12 — Relations"
-line_start: 2603
-line_end: 2617
+line_start: 2618
+line_end: 2632
 dependencies:
   - "A.1"
   - "A.14"

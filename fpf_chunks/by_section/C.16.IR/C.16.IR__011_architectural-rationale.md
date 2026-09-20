@@ -6,12 +6,12 @@ section_id: "C.16.IR:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__011_architectural-rationale.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.16.IR — Determine What an Indication Can Resolve"
   - "C.16.IR:10 — Architectural Rationale"
-line_start: 53049
-line_end: 53056
+line_start: 53440
+line_end: 53447
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

@@ -6,12 +6,12 @@ section_id: "A.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__006_solution.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:4 — Solution"
-line_start: 1685
-line_end: 1815
+line_start: 1700
+line_end: 1830
 dependencies:
   - "A.1.1"
   - "A.1.STM"

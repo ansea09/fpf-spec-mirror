@@ -6,12 +6,12 @@ section_id: "C.40.CD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__002_problem-frame.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:1 — Problem frame"
-line_start: 75214
-line_end: 75223
+line_start: 75611
+line_end: 75620
 dependencies:
   - "B.5.MPC"
   - "B.5.QD"

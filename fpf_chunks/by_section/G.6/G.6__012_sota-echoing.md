@@ -6,12 +6,12 @@ section_id: "G.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__012_sota-echoing.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:11 — SoTA-Echoing"
-line_start: 112230
-line_end: 112244
+line_start: 112633
+line_end: 112647
 dependencies:
   - "A.10"
   - "A.13"

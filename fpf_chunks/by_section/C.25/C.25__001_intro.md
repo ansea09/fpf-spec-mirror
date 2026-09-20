@@ -6,12 +6,12 @@ section_id: "C.25:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__001_intro.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:intro — Intro"
-line_start: 58701
-line_end: 58721
+line_start: 59096
+line_end: 59116
 dependencies:
   - "A.10"
   - "A.15"

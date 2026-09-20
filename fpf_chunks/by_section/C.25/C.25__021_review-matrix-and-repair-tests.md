@@ -6,12 +6,12 @@ section_id: "C.25:20"
 section_title: "Review Matrix and Repair Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__021_review-matrix-and-repair-tests.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:20 — Review Matrix and Repair Tests"
-line_start: 59068
-line_end: 59079
+line_start: 59463
+line_end: 59474
 dependencies:
   - "A.10"
   - "A.15"

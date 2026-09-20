@@ -6,12 +6,12 @@ section_id: "A.7.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__009_conformance-checklist.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:7 — Conformance Checklist"
-line_start: 23270
-line_end: 23284
+line_start: 23287
+line_end: 23301
 dependencies:
   - "A.7"
   - "A.7.2"

@@ -6,12 +6,12 @@ section_id: "C.32:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__002_problem-frame.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:1 — Problem frame"
-line_start: 69669
-line_end: 69773
+line_start: 70064
+line_end: 70168
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.21:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__012_rationale.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:10 — Rationale"
-line_start: 36790
-line_end: 36795
+line_start: 36809
+line_end: 36814
 dependencies:
   - "A.10"
   - "A.15.5"

@@ -6,12 +6,12 @@ section_id: "E.18.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__002_use-this-when.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:0 — Use This When"
-line_start: 94534
-line_end: 94547
+line_start: 94935
+line_end: 94948
 dependencies:
   - "A.10"
   - "A.15"

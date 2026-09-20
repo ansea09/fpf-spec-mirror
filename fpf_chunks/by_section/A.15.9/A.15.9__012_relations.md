@@ -6,12 +6,12 @@ section_id: "A.15.9:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__012_relations.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "A.15.9 — Request and Use a Bounded Result from Another Practice"
   - "A.15.9:11 — Relations"
-line_start: 29275
-line_end: 29281
+line_start: 29294
+line_end: 29300
 dependencies:
   - "A.10"
   - "A.13"

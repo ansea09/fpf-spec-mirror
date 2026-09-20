@@ -6,12 +6,12 @@ section_id: "E.10.DEV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__005_solution.md"
-commit_sha: "2ad9b0cfbd24987f05eb8dd64f5ab56c84f7e607"
+commit_sha: "685a0d04e8c8b8c3ac0a571d72be15daf004c72f"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:4 — Solution"
-line_start: 84157
-line_end: 84214
+line_start: 84556
+line_end: 84613
 dependencies:
   - "A.15"
   - "A.2.2"
