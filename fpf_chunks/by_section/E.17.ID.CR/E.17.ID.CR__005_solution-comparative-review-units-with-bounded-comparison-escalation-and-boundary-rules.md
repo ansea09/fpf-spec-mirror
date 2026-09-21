@@ -6,7 +6,7 @@ section_id: "E.17.ID.CR:4"
 section_title: "Solution - comparative review units with bounded comparison, escalation, and boundary rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__005_solution-comparative-review-units-with-bounded-comparison-escalation-and-boundary-rules.md"
-commit_sha: "31f4cb0b7f8000e0115098b50b44f80c8c36a671"
+commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:4 — Solution - comparative review units with bounded comparison, escalation, and boundary rules"

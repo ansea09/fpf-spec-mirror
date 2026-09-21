@@ -6,7 +6,7 @@ section_id: "A.12:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__002_use-this-when.md"
-commit_sha: "31f4cb0b7f8000e0115098b50b44f80c8c36a671"
+commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:0 — Use This When"

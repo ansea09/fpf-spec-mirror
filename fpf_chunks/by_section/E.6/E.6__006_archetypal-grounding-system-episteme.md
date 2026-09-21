@@ -6,7 +6,7 @@ section_id: "E.6:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__006_archetypal-grounding-system-episteme.md"
-commit_sha: "31f4cb0b7f8000e0115098b50b44f80c8c36a671"
+commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
 heading_path:
   - "E.6 — Didactic Architecture of the Specification"
   - "E.6:5 — Archetypal Grounding (System / Episteme)"

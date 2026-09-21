@@ -6,7 +6,7 @@ section_id: "A.7:14"
 section_title: "Practitioner one-page review (copy-paste)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__016_practitioner-one-page-review-copy-paste.md"
-commit_sha: "31f4cb0b7f8000e0115098b50b44f80c8c36a671"
+commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:14 — Practitioner one-page review (copy-paste)"

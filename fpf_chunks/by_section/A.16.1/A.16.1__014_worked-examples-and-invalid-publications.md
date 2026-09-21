@@ -6,7 +6,7 @@ section_id: "A.16.1:13"
 section_title: "Worked Examples and Invalid Publications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__014_worked-examples-and-invalid-publications.md"
-commit_sha: "31f4cb0b7f8000e0115098b50b44f80c8c36a671"
+commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:13 — Worked Examples and Invalid Publications"

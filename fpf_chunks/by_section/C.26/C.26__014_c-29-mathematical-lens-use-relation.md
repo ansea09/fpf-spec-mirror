@@ -6,7 +6,7 @@ section_id: "C.26:12b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__014_c-29-mathematical-lens-use-relation.md"
-commit_sha: "31f4cb0b7f8000e0115098b50b44f80c8c36a671"
+commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:12b — C.29 mathematical-lens use relation"

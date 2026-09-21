@@ -6,7 +6,7 @@ section_id: "C.28:End"
 section_title: "C.28:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__015_c-28-end.md"
-commit_sha: "31f4cb0b7f8000e0115098b50b44f80c8c36a671"
+commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:End — C.28:End"
