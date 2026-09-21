@@ -6,7 +6,7 @@ section_id: "B.1.5.EW:End"
 section_title: "B.1.5.EW:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__014_b-1-5-ew-end.md"
-commit_sha: "1fa007d1110d961d54ced2fa58e08177663c401f"
+commit_sha: "31f4cb0b7f8000e0115098b50b44f80c8c36a671"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:End — B.1.5.EW:End"
