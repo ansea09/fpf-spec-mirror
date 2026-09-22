@@ -6,12 +6,12 @@ section_id: "E.11.PUR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__003_problem.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:2 — Problem"
-line_start: 87383
-line_end: 87388
+line_start: 87440
+line_end: 87445
 dependencies:
   - "A.10"
   - "A.15"
@@ -34,7 +34,7 @@ keywords:
 
 ### E.11.PUR:2 - Problem
 
-Several different claims are often compressed into “use this pattern next.” A pattern can fit the Problem frame but fail its `Solution` conditions. It can be applicable yet not be the recommended use because another applicable pattern offers a more useful first result for the current concern. Several candidate uses can belong together without forming a sequence, and displaying a sequence creates no WorkPlan, performed work, Transformation, or transformation-flow structure.
+Several different claims are often compressed into “use this pattern next.” A pattern can fit the Problem frame but fail its `Solution` conditions. It can be applicable yet not be worth recommending: another use may offer a more useful first result, or continuing the present work may serve the concern better once the full burden of a new use is counted. Several candidate uses can belong together without forming a sequence, and displaying a sequence creates no WorkPlan, performed work, Transformation, or transformation-flow structure.
 
 When these distinctions are missing, familiar PatternIDs become proxies for value. Teams recommend the pattern they know, copy one result description into several order relations, and treat a diagram or teaching order as execution order.
 

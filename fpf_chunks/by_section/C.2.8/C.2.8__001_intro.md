@@ -6,12 +6,12 @@ section_id: "C.2.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__001_intro.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "C.2.8 — U.ExtractableStructuralInformation"
   - "C.2.8:intro — Intro"
-line_start: 49091
-line_end: 49096
+line_start: 49109
+line_end: 49114
 dependencies:
   - "A.17"
   - "A.18"

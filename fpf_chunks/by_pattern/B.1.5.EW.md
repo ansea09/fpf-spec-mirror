@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.EW.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
-line_start: 39281
-line_end: 39454
+line_start: 39297
+line_end: 39472
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"
@@ -194,4 +194,6 @@ A fixed control-layer diagram is another useful alternative when the problem alr
 - C.11.DUA bounds further investigation by what it can change.
 
 ### B.1.5.EW:End
+
+<a id="fpf-pattern-B.1.5.RS"></a>
 

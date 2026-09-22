@@ -6,12 +6,12 @@ section_id: "F.0.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__010_consequences.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:9 — Consequences"
-line_start: 100886
-line_end: 100891
+line_start: 100955
+line_end: 100960
 dependencies:
   - "E.10"
   - "E.10.D1"

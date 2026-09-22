@@ -6,12 +6,12 @@ section_id: "B.5.RC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__004_forces.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:3 — Forces"
-line_start: 43649
-line_end: 43658
+line_start: 43667
+line_end: 43676
 dependencies:
   - "A.6.3.RT"
   - "B.5"

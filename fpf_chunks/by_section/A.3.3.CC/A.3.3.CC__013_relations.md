@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__013_relations.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:12 — Relations"
-line_start: 9826
-line_end: 9836
+line_start: 9840
+line_end: 9850
 dependencies:
   - "A.17"
   - "A.18"

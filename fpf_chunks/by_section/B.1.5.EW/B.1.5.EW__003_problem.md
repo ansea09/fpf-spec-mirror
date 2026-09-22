@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__003_problem.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:2 — Problem"
-line_start: 39296
-line_end: 39303
+line_start: 39312
+line_end: 39319
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"

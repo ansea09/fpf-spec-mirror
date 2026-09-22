@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.3.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
-line_start: 45756
-line_end: 45851
+line_start: 45774
+line_end: 45869
 dependencies:
   - "A.13"
   - "A.15"

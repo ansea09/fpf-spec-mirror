@@ -6,12 +6,12 @@ section_id: "B.3:End"
 section_title: "B.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__017_b-3-end.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "B.3 — Trust and Assurance Calculus"
   - "B.3:End — B.3:End"
-line_start: 41598
-line_end: 41599
+line_start: 41616
+line_end: 41617
 dependencies:
   - "A.10"
   - "A.15.1"

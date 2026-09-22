@@ -6,12 +6,12 @@ section_id: "C.39.RO:End"
 section_title: "C.39.RO:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__014_c-39-ro-end.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:End — C.39.RO:End"
-line_start: 75434
-line_end: 75435
+line_start: 75472
+line_end: 75475
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -25,4 +25,6 @@ keywords:
 ---
 
 ### C.39.RO:End
+
+<a id="fpf-pattern-C.40"></a>
 

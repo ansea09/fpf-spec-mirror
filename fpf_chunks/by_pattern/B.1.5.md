@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
-line_start: 38858
-line_end: 39280
+line_start: 38872
+line_end: 39296
 dependencies:
   - "A.1"
   - "A.15"
@@ -484,4 +484,6 @@ These rows answer the B.1.5 practice question: how to decide and expose order-se
 - Stops before any positive transformation-composition or transformation-part claim until a direct governor supplies exact participants, obtaining semantics, and occurrence identity.
 
 ### B.1.5:End
+
+<a id="fpf-pattern-B.1.5.EW"></a>
 

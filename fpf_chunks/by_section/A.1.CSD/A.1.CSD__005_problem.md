@@ -6,12 +6,12 @@ section_id: "A.1.CSD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__005_problem.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:2 — Problem"
-line_start: 2952
-line_end: 2964
+line_start: 2966
+line_end: 2978
 dependencies:
   - "A.1"
   - "A.1.SCR"

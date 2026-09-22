@@ -6,12 +6,12 @@ section_id: "E.11.PUR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__007_bias-annotation.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:6 — Bias-Annotation"
-line_start: 87605
-line_end: 87613
+line_start: 87674
+line_end: 87682
 dependencies:
   - "A.10"
   - "A.15"
@@ -34,7 +34,7 @@ keywords:
 
 ### E.11.PUR:6 - Bias-Annotation
 
-- **Applicability-as-recommendation bias.** A fitting pattern is automatically selected. Compare its expected practical result with the other candidates still under consideration before recommending it.
+- **Applicability-as-recommendation bias.** A fitting pattern is automatically selected. Compare its expected receiving value and full burden with the serious continuations, including no new use; the best of several unhelpful candidates need not be recommended.
 - **Favorite-pattern proxy bias.** Familiar PatternID substitutes for current value. State the concern, expected result, and any current receiving use in the rationale.
 - **Five-form bias.** Every ordinary use creates five findings. Keep them in one compact rationale unless their separate identity is relied on.
 - **Sequence bias.** Presentation order becomes precedence. Repair by naming the pairwise basis.

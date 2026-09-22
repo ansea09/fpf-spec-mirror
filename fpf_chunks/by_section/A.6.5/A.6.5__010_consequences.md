@@ -6,12 +6,12 @@ section_id: "A.6.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__010_consequences.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:9 — Consequences"
-line_start: 20915
-line_end: 20922
+line_start: 20929
+line_end: 20936
 dependencies:
   - "A.15.3"
   - "A.6.0"

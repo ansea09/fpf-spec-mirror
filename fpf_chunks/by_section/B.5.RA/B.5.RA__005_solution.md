@@ -6,12 +6,12 @@ section_id: "B.5.RA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__005_solution.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:4 — Solution"
-line_start: 43849
-line_end: 43900
+line_start: 43867
+line_end: 43918
 dependencies:
   - "B.5"
   - "B.5.MPC"

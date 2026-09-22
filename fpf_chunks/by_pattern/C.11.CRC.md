@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.CRC.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
-line_start: 52002
-line_end: 52204
+line_start: 52022
+line_end: 52226
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -242,4 +242,6 @@ Refresh only the affected source-use row when a newer result changes one Solutio
 - **Keeps outside:** universal marginal value, a new delta kind, domain formulas and thresholds, causal proof, assurance, permission, selected-set declaration, and `ChoiceResult`.
 
 ### C.11.CRC:End
+
+<a id="fpf-pattern-C.11.DUA"></a>
 

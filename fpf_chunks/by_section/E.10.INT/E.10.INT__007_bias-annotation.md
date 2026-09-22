@@ -6,12 +6,12 @@ section_id: "E.10.INT:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__007_bias-annotation.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:6 — Bias-Annotation"
-line_start: 84447
-line_end: 84452
+line_start: 84502
+line_end: 84507
 dependencies:
   - "C.11"
   - "C.16"

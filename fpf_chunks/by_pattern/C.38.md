@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.38.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
-line_start: 74855
-line_end: 75054
+line_start: 74891
+line_end: 75092
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -227,4 +227,6 @@ A source changes this pattern only when it exposes a defect in the current move 
 - **Keeps outside:** universal arrangement kinds, graphs, taxonomies, schemas, workflows, authority transfer, open-ended search, local choice, and all actual Work or obtaining relations inferred only from possible-future rows.
 
 ### C.38:End
+
+<a id="fpf-pattern-C.39"></a>
 

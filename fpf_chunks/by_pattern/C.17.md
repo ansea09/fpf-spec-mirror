@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.17.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
-line_start: 54809
-line_end: 55212
+line_start: 54845
+line_end: 55248
 dependencies:
   - "A.0"
   - "A.1.1"

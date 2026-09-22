@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__013_relations.md"
-commit_sha: "453144eda2870a14d47fd9c066deeb0405eee86f"
+commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:12 — Relations"
-line_start: 39443
-line_end: 39452
+line_start: 39459
+line_end: 39468
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"
