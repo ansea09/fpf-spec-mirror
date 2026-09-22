@@ -6,17 +6,18 @@ section_id: "B.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__005_solution.md"
-commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
+commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:4 — Solution"
-line_start: 42670
-line_end: 42787
+line_start: 42671
+line_end: 42790
 dependencies:
   - "A.10"
   - "B.5.1"
   - "B.5.2"
   - "B.5.4"
+  - "B.5.EA"
   - "C.29"
 keywords:
 ---
@@ -30,6 +31,8 @@ Choose reasoning by the result the current question needs. The abductive–deduc
 Say what an answer would help someone understand, construct, explain, decide or investigate. An epistemic aim, such as exposing an obstruction or finding a more informative theory, can justify inquiry without an immediate product application. Recover an adequate existing answer before commissioning new work.
 
 Separate the subject from its description, the intended result from a convenient proxy, and established premises from assumptions. Use ordinary language, a sketch or a small mathematical example at the precision needed to expose the difficulty.
+
+If a participant senses that an account misses something but cannot yet express what, B.5.EA helps develop a correctable distinction from their experience. Use the resulting question or contrast here; a better expression does not by itself establish a claim about the world.
 
 When the current formulation is inadequate, vary a consequential element. Useful operations include:
 

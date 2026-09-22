@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.12.md"
-commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
+commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
-line_start: 25161
-line_end: 25467
+line_start: 25162
+line_end: 25468
 dependencies:
   - "A.1"
   - "A.1.1"

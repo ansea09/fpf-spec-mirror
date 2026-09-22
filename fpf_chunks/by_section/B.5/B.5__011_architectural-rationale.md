@@ -6,17 +6,18 @@ section_id: "B.5:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__011_architectural-rationale.md"
-commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
+commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:10 — Architectural Rationale"
-line_start: 42920
-line_end: 42925
+line_start: 42923
+line_end: 42928
 dependencies:
   - "A.10"
   - "B.5.1"
   - "B.5.2"
   - "B.5.4"
+  - "B.5.EA"
   - "C.29"
 keywords:
 ---

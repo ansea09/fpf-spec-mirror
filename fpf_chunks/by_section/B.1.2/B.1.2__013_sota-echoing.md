@@ -6,12 +6,12 @@ section_id: "B.1.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__013_sota-echoing.md"
-commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
+commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:10 — SoTA-Echoing"
-line_start: 38361
-line_end: 38369
+line_start: 38362
+line_end: 38370
 dependencies:
   - "A.1"
   - "A.10"

@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `3e9ea496420256ac09257c024b3120fcbc762b81`
+Commit SHA: `acc387fc7a206495eabe07f1953849217f291715`
 
 Chunking method: `pattern-aware`
 
-Patterns: `346`
+Patterns: `347`
 
 ## Patterns
 
@@ -137,6 +137,7 @@ Patterns: `346`
 - [B.4 — Canonical Evolution Loop](by_pattern/B.4.md)
 - [B.4.1 — Observe -> Notice -> Stabilize -> Route](by_pattern/B.4.1.md)
 - [B.5 — Canonical Reasoning Cycle](by_pattern/B.5.md)
+- [B.5.EA — Articulate a Working Distinction from Experience](by_pattern/B.5.EA.md)
 - [B.5.MPC — Connect Physical, Mathematical and Computational Reasoning](by_pattern/B.5.MPC.md)
 - [B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection](by_pattern/B.5.MPC.R.md)
 - [B.5.RC — Recover a Construction from Its Description](by_pattern/B.5.RC.md)

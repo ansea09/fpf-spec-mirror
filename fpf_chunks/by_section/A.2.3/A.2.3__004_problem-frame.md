@@ -6,12 +6,12 @@ section_id: "A.2.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__004_problem-frame.md"
-commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
+commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:1 — Problem frame"
-line_start: 4513
-line_end: 4529
+line_start: 4514
+line_end: 4530
 dependencies:
   - "A.1.1"
   - "A.10"

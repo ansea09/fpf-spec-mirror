@@ -6,12 +6,12 @@ section_id: "A.16.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__002_problem-frame.md"
-commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
+commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:1 — Problem frame"
-line_start: 30357
-line_end: 30361
+line_start: 30358
+line_end: 30362
 dependencies:
   - "A.16"
   - "A.16.0"

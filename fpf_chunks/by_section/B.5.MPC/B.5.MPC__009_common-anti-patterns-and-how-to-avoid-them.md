@@ -6,12 +6,12 @@ section_id: "B.5.MPC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
+commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 43288
-line_end: 43300
+line_start: 43456
+line_end: 43468
 dependencies:
   - "A.15.9"
   - "A.3.3"

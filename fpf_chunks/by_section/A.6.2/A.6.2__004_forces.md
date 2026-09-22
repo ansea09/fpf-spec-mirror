@@ -6,12 +6,12 @@ section_id: "A.6.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__004_forces.md"
-commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
+commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
 heading_path:
   - "A.6.2 — Effect-free episteme morphing"
   - "A.6.2:3 — Forces"
-line_start: 14675
-line_end: 14691
+line_start: 14676
+line_end: 14692
 dependencies:
   - "A.6.0"
   - "A.6.1"

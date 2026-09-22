@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__004_forces.md"
-commit_sha: "3e9ea496420256ac09257c024b3120fcbc762b81"
+commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:3 — Forces"
-line_start: 17984
-line_end: 17995
+line_start: 17985
+line_end: 17996
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
