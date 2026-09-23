@@ -6,12 +6,12 @@ section_id: "A.6.REL:End"
 section_title: "A.6.REL:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__014_a-6-rel-end.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:End — A.6.REL:End"
-line_start: 13689
-line_end: 13690
+line_start: 13691
+line_end: 13692
 dependencies:
   - "A.6.0"
   - "A.6.5"

@@ -6,12 +6,12 @@ section_id: "A.15.8:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__002_problem-frame.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:1 — Problem frame"
-line_start: 28925
-line_end: 28945
+line_start: 28928
+line_end: 28948
 dependencies:
   - "A.1"
   - "A.10"
@@ -55,7 +55,7 @@ Start with an ordinary branch-exact sentence:
 
 **What changes in practice.** Instead of saying that a person, tool, team, organism, service, or machine must “pay attention”, “remember”, or become one “extended performer”, the practitioner names the exact relation whose loss changes continuation or recovery and challenges that relation under one representative condition. The next move becomes a bounded configuration repair, direct domain test, plan change, or stop.
 
-**Cheap non-use.** Do not use this pattern merely because Work uses a tool, a person takes notes, software has state, a bacterium responds to its environment, or several Systems participate. Stop when current results from directly governed domain Work already identify the actual configuration, continuation state, representative recovery evidence, and limits needed by the decision, with the applicable Method and evidence boundary explicit. If `A.15.5` has established an ordinary full kit and no interruption, handoff, support loss, or configuration ambiguity can change entry, stop there. If the configuration is adequate and only the next action during current Work is open, use `A.15.7`.
+**Cheap non-use.** Do not use this pattern merely because Work uses a tool, a person takes notes, software has state, a bacterium responds to its environment, or several Systems participate. Stop when current results from directly governed domain Work already identify the actual configuration, continuation state, representative recovery evidence, and limits needed by the decision, with the applicable Method and evidence boundary explicit. If `A.15.5` has established an ordinary full kit and no interruption, handoff, support loss, or configuration ambiguity can change entry, stop there. If the configuration is adequate and only the next action during current Work is open, use `A.15.7`. For ordinary preparation and return after an interruption, use `A.15.10` when the purpose, method or unfinished contribution must be recovered; that use does not require a configuration test.
 
 **Not this pattern when.** Use `A.1` or `B.2` when the current question is whether a proposed whole is a System or must be reidentified; `A.2.2` for capability of one admitted holder; `A.15.1` for Work occurrence identity or resumption segmentation; `A.15.2` for the WorkPlan; `A.15.5` for ordinary entry readiness; `A.15.7` for next-action selection; `A.22` for one selected Structure; `C.30` for architecture; the direct representation pattern for a representation; `A.10` for evidence reliance; or the applicable domain Method when only its test, threshold, algorithm, safety rule, or intervention is missing.
 

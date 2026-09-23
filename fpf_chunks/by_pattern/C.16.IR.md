@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.IR.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "C.16.IR — Determine What an Indication Can Resolve"
-line_start: 53457
-line_end: 53677
+line_start: 53900
+line_end: 54120
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

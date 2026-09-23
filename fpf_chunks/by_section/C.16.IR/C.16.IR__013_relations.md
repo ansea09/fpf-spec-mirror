@@ -6,12 +6,12 @@ section_id: "C.16.IR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__013_relations.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "C.16.IR — Determine What an Indication Can Resolve"
   - "C.16.IR:12 — Relations"
-line_start: 53666
-line_end: 53675
+line_start: 54109
+line_end: 54118
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

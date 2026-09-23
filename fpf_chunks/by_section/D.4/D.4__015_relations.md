@@ -6,21 +6,25 @@ section_id: "D.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__015_relations.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:11 — Relations"
-line_start: 77116
-line_end: 77122
+line_start: 77601
+line_end: 77608
 dependencies:
+  - "A.1.CSD"
   - "A.10"
   - "A.20"
   - "A.21"
   - "B.3"
+  - "B.5.QD.CF"
   - "C.11"
+  - "C.11.DUA"
   - "C.28"
   - "C.29"
   - "C.30.ILC"
+  - "C.39"
   - "D.1"
   - "D.2"
   - "D.3"
@@ -33,5 +37,6 @@ keywords:
 - Builds on `D.3` for the exact conflict-description episteme used by this mediation or decision.
 - Coordinates with `D.1` and `D.2` when value frame or multilevel entry is incomplete.
 - Coordinates with `D.5` when bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance is current.
-- Coordinates with `A.10`, `B.3`, `C.11`, `C.28`, `C.29`, and `C.30.ILC` when evidence, assurance, decision, causal, mathematical-lens, or architecture-residual claims are current.
+- Coordinates with `A.10`, `B.3`, `C.11`, `C.11.DUA`, `C.28`, `C.29`, and `C.30.ILC` when evidence, assurance, choice, inquiry value, causal, mathematical-lens, or architecture-residual questions are current.
+- Uses `B.5.QD.CF` and `C.39` when a conflict over the proposed means calls for another construction; `A.1.CSD` supplies inquiry into a consequential missing party.
 

@@ -6,12 +6,12 @@ section_id: "B.5.EA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__010_consequences.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "B.5.EA — Articulate a Working Distinction from Experience"
   - "B.5.EA:9 — Consequences"
-line_start: 43091
-line_end: 43096
+line_start: 43293
+line_end: 43298
 dependencies:
   - "B.5"
   - "B.5.4"

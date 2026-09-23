@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.16.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
-line_start: 106491
-line_end: 106728
+line_start: 106977
+line_end: 107214
 dependencies:
   - "A.10"
   - "A.15"

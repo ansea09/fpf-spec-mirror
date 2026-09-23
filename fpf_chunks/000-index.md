@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `acc387fc7a206495eabe07f1953849217f291715`
+Commit SHA: `21296c8aaf3611b63ee6a2bb11e439e828ffb9a3`
 
 Chunking method: `pattern-aware`
 
-Patterns: `347`
+Patterns: `349`
 
 ## Patterns
 
@@ -91,6 +91,7 @@ Patterns: `347`
 - [A.15.7 — Situation-Responsive Work Steering and Next-Action Selection](by_pattern/A.15.7.md)
 - [A.15.8 — Work-Performance Configuration and Recovery Testing](by_pattern/A.15.8.md)
 - [A.15.9 — Request and Use a Bounded Result from Another Practice](by_pattern/A.15.9.md)
+- [A.15.10 — Resume Interrupted Work](by_pattern/A.15.10.md)
 - [A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery](by_pattern/A.15.PROD.md)
 - [A.16 — Language-State Move Coordination](by_pattern/A.16.md)
 - [A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace](by_pattern/A.16.0.md)
@@ -147,6 +148,7 @@ Patterns: `347`
 - [B.5.TU — Construct a Working Use of an Unfamiliar Theory](by_pattern/B.5.TU.md)
 - [B.5.TC — Compare Theoretical Accounts for a Working Question](by_pattern/B.5.TC.md)
 - [B.5.QD — Develop a New Question from a Result or Construction](by_pattern/B.5.QD.md)
+- [B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions](by_pattern/B.5.QD.CF.md)
 - [B.5.1 — Explore → Shape → Evidence → Operate](by_pattern/B.5.1.md)
 - [B.5.2 — Abductive Loop](by_pattern/B.5.2.md)
 - [B.5.2.0 — U.AbductivePrompt](by_pattern/B.5.2.0.md)

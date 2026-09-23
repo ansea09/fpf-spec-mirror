@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
-line_start: 42637
-line_end: 42957
+line_start: 42837
+line_end: 43159
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -66,6 +66,8 @@ Say what an answer would help someone understand, construct, explain, decide or 
 Separate the subject from its description, the intended result from a convenient proxy, and established premises from assumptions. Use ordinary language, a sketch or a small mathematical example at the precision needed to expose the difficulty.
 
 If a participant senses that an account misses something but cannot yet express what, B.5.EA helps develop a correctable distinction from their experience. Use the resulting question or contrast here; a better expression does not by itself establish a claim about the world.
+
+An expressible account can still omit a consequential relation. B.5.FM:4.2.1 uses a small conceptual scheme to find a question through that relation, while distinguishing an unknown contribution from an inapplicable scheme. Use an already adequate answer directly.
 
 When the current formulation is inadequate, vary a consequential element. Useful operations include:
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.CD.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
-line_start: 75815
-line_end: 76028
+line_start: 76260
+line_end: 76475
 dependencies:
   - "B.5.MPC"
   - "B.5.QD"
@@ -77,6 +77,8 @@ Locate a consequential change and carry it through the question:
 - **A new operation became available.** Find a problem whose needed intermediate result that operation can supply; work the connection through to a possible use.
 
 Use B.5.QD to form and examine the new question. Change a named condition, demanded result, available means or composition of operations. Explain how that change affects what an answer would need to establish.
+
+If the opening is an incompatibility, B.5.QD.CF examines the premise that makes the demands conflict and constructs a question about another means or a legitimate distinction. Return its candidate to the retained requirements here; changing an assumption for exploration leaves the corresponding realization question open.
 
 Check the formulation before investing in solving it. Its objects and operations must have meanings, its conditions must be interpretable together, and the proposed answer must be assessable. A question asking whether a configuration is possible can legitimately return an impossibility result. When a task generator promises a solvable challenge, support that promise with a feasible case. Otherwise keep feasibility open.
 

@@ -6,12 +6,12 @@ section_id: "B.5.FM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__006_archetypal-grounding.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:5 — Archetypal Grounding"
-line_start: 44466
-line_end: 44521
+line_start: 44692
+line_end: 44757
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -79,4 +79,14 @@ The pairs for lengths 1 through 4 are (1,1), (2,1), (3,2), (5,3). There are eigh
 The inference works because each extension produces a distinct string, deleting its final symbol recovers its unique predecessor, and the two resulting classes exhaust the permitted cases. The total alone does not tell how many prefixes permit appending 1; keeping the two classes makes that operation possible.
 
 If the restriction changes to “no three consecutive 1s”, the same grouping loses a needed distinction. Separate prefixes with zero, one or two trailing 1s and reconstruct the permitted transitions. This change identifies what the state must retain; the subsequent recurrence or program is a further computational contribution.
+
+#### B.5.FM:5.4 - Find the limiting relation in a workshop plan
+
+Twelve people have accepted a 60-minute workshop. There are twelve seats and one instructor. The proposed arrangement gives each person a four-minute attempt observed by that instructor, then two minutes of the instructor's feedback before the next attempt begins. The initial plan lists attendance and materials.
+
+Use the relation between attempted action, observation and feedback to ask whether the intended practice can occur in the session. The sequential arrangement requires `12 * (4 + 2) = 72` minutes before any introduction. The next question is which arrangement can supply the intended practice and feedback within the available time. Reducing attendance, increasing duration or changing the learning arrangement have different consequences. Merely pairing learners supplies the required feedback only if they can provide that contribution.
+
+Now suppose twelve independent stations already provide the required task-specific feedback and can be used concurrently. The serial calculation no longer describes the work. Use the concurrent duration and the remaining session activities to decide whether the arrangement fits; this reasoning does not require another instructor. If the intended event is instead a demonstration with no individual practice, the individual-feedback relation does not impose that practice on it. Clarify the event's purpose before treating this scheme as applicable.
+
+The same question-forming move can use a measurement scheme: a shared column label, such as temperature, leaves the relevant quantity, observing conditions and aggregation to be recovered before combining records. If the existing documentation already establishes their suitability, use that answer. The scheme supplies a question, not a compulsory new measurement.
 

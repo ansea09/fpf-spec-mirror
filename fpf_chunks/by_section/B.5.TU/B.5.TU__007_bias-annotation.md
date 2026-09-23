@@ -6,12 +6,12 @@ section_id: "B.5.TU:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__007_bias-annotation.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
   - "B.5.TU:6 — Bias-Annotation"
-line_start: 44714
-line_end: 44719
+line_start: 44958
+line_end: 44963
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

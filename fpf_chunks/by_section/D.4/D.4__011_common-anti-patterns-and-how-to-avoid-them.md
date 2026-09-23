@@ -6,21 +6,25 @@ section_id: "D.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 77088
-line_end: 77096
+line_start: 77574
+line_end: 77582
 dependencies:
+  - "A.1.CSD"
   - "A.10"
   - "A.20"
   - "A.21"
   - "B.3"
+  - "B.5.QD.CF"
   - "C.11"
+  - "C.11.DUA"
   - "C.28"
   - "C.29"
   - "C.30.ILC"
+  - "C.39"
   - "D.1"
   - "D.2"
   - "D.3"
@@ -33,7 +37,7 @@ keywords:
 | Anti-pattern | What goes wrong | Repair |
 | --- | --- | --- |
 | Decision-ready by map | The mapped conflict is treated as solved. | Choose a D.4 move: mediate, refuse, demand evidence, return, decide with residual, or stop. |
-| Trump-card level | One level's value automatically overrides all others. | Use D.3 if the level relation or value frame is incomplete; otherwise record the explicit D.4 use. |
-| Evidence postponement | The team proceeds while saying evidence can be checked after the decision. | Demand evidence, causal analysis, assurance, or architecture return before the decision use, unless residual acceptance is explicit. |
+| Trump-card level | One level's value automatically overrides all others. | Recover the affected sides through D.3 and compare their consequences and value premises through :2.1; a larger scale alone supplies no priority. |
+| Unsupported stronger use | A decision or recommendation relies on a claim whose needed support is missing. | Qualify that claim and obtain the required basis for its use, or select a supported narrower continuation through C.11.DUA. An accepted residual does not make the missing claim true. |
 | Permission by assurance | A passed assurance relation is treated as moral authorization. | Keep B.3 assurance and D.4 ethical use distinct. |
 

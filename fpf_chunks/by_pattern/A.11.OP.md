@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.11.OP.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
-line_start: 24898
-line_end: 25161
+line_start: 24900
+line_end: 25163
 dependencies:
   - "A.10"
   - "A.11"

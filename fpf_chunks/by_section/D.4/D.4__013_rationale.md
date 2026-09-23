@@ -6,21 +6,25 @@ section_id: "D.4:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__013_rationale.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:9 — Rationale"
-line_start: 77101
-line_end: 77106
+line_start: 77587
+line_end: 77592
 dependencies:
+  - "A.1.CSD"
   - "A.10"
   - "A.20"
   - "A.21"
   - "B.3"
+  - "B.5.QD.CF"
   - "C.11"
+  - "C.11.DUA"
   - "C.28"
   - "C.29"
   - "C.30.ILC"
+  - "C.39"
   - "D.1"
   - "D.2"
   - "D.3"

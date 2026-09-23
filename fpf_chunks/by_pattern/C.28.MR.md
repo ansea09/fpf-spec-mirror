@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.28.MR.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
-line_start: 62831
-line_end: 63033
+line_start: 63274
+line_end: 63476
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"
@@ -66,7 +66,7 @@ Name the modeled variable or mechanism, the proposed replacement and the result 
 
 For a constant intervention, use `do(X=x)` to mean replacing the equation for X by the constant x. For a changed rule, state that rule and the information it may use: for example, a controller's command as a function of the readings available before the command. C.28:4.10 distinguishes the relevant action-policy families when that choice matters.
 
-Specify a comparison only when one is wanted. A value under one intervention, a difference between two interventions and a difference from natural behavior have different required inputs. A question about the same historical case under another action also needs the factual observations and the resulting information about that case's underlying inputs. Recover that counterfactual basis through C.28 before treating a population intervention answer as an answer about the observed case.
+Specify a comparison only when one is wanted. A value under one intervention, a difference between two interventions and a difference from natural behavior have different required inputs. A question about the same historical case under another action also needs the factual observations and the resulting information about that case's underlying inputs. Infer those inputs using the factual mechanisms and observing procedure before replacing the mechanism. Carry the inferred distribution or compatible possibilities into the alternative calculation, preserving the dependence that makes it the same modeled case. C.28 governs what supports that counterfactual use; a population intervention average can answer a different question.
 
 #### C.28.MR:4.2 - Recover the model that gives the replacement meaning
 

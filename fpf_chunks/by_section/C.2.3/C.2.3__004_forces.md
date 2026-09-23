@@ -6,12 +6,12 @@ section_id: "C.2.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__004_forces.md"
-commit_sha: "acc387fc7a206495eabe07f1953849217f291715"
+commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:3 — Forces"
-line_start: 47999
-line_end: 48008
+line_start: 48442
+line_end: 48451
 dependencies:
   - "A.16"
   - "A.18"
