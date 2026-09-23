@@ -6,7 +6,7 @@ section_id: "A.16.2:End"
 section_title: "A.16.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__024_a-16-2-end.md"
-commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
+commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:End — A.16.2:End"

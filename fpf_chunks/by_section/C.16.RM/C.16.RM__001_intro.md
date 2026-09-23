@@ -6,7 +6,7 @@ section_id: "C.16.RM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__001_intro.md"
-commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
+commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:intro — Intro"

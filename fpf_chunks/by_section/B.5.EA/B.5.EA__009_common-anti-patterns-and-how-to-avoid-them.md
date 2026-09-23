@@ -6,7 +6,7 @@ section_id: "B.5.EA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
+commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
 heading_path:
   - "B.5.EA — Articulate a Working Distinction from Experience"
   - "B.5.EA:8 — Common Anti-Patterns and How to Avoid Them"
