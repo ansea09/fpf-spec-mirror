@@ -6,12 +6,12 @@ section_id: "D.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__013_rationale.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:9 — Rationale"
-line_start: 77151
-line_end: 77156
+line_start: 77559
+line_end: 77564
 dependencies:
   - "A.1"
   - "A.15"

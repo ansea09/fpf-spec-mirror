@@ -6,12 +6,12 @@ section_id: "B.5.TC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__013_relations.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Working Question"
   - "B.5.TC:12 — Relations"
-line_start: 45213
-line_end: 45220
+line_start: 45621
+line_end: 45628
 dependencies:
   - "B.5.RA"
   - "B.5.RR"

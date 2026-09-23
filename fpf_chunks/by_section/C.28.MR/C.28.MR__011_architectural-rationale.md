@@ -6,12 +6,12 @@ section_id: "C.28.MR:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__011_architectural-rationale.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:10 — Architectural Rationale"
-line_start: 63446
-line_end: 63455
+line_start: 63854
+line_end: 63863
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"

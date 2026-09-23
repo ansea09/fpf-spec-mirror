@@ -6,12 +6,12 @@ section_id: "A.6.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__005_solution.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:4 — Solution"
-line_start: 17443
-line_end: 17746
+line_start: 17445
+line_end: 17750
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -57,6 +57,8 @@ Start from the claim as written and ground each load-bearing head:
 5. Leave the claim unresolved when the current evidence does not select one referent. A more technical synonym is not a repair.
 
 The result of this step is an ordinary sentence containing identifiable objects. It is not a newly minted object kind. When several candidates remain live, use the small working note in A.6.P:4.9.
+
+Copying an expression such as “my left” or “our project” into another participant's instruction can change its referent. Use `A.6.P.RI` when the receiving use still needs to establish whose reference is intended, what must remain the same, or which performer is to act. The result is a usable interpretation or instruction, or a specific missing condition. When those references and the task are already clear, use ordinary clarification or the relevant domain transformation; A.6.3.RT governs a needed change of representation scheme while the EntityOfConcern stays the same.
 
 If the material is still a cue and no relation-bearing claim can yet be stated, stay with `A.16.1` or `B.4.1` instead of forcing relation publication. If the cue has stabilized into an open explanatory question but still has no selected relation answer, use `B.5.2.0`.
 

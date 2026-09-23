@@ -6,12 +6,12 @@ section_id: "A.15.10:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__012_sota-echoing.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:11 — SoTA-Echoing"
-line_start: 29492
-line_end: 29503
+line_start: 29694
+line_end: 29705
 dependencies:
   - "A.15"
   - "A.15.5"

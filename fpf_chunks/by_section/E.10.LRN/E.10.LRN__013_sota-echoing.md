@@ -6,12 +6,12 @@ section_id: "E.10.LRN:11"
 section_title: "SoTA Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__013_sota-echoing.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:11 — SoTA Echoing"
-line_start: 85033
-line_end: 85046
+line_start: 85441
+line_end: 85454
 dependencies:
   - "A.10"
   - "A.15"

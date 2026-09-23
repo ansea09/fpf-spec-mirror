@@ -6,12 +6,12 @@ section_id: "C.16.IR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "C.16.IR — Determine What an Indication Can Resolve"
   - "C.16.IR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 54072
-line_end: 54082
+line_start: 54480
+line_end: 54490
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

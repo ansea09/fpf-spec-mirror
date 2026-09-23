@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.5.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
-line_start: 28100
-line_end: 28317
+line_start: 28300
+line_end: 28517
 dependencies:
   - "A.10"
   - "A.15"

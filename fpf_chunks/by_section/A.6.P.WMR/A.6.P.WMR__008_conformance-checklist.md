@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__008_conformance-checklist.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:7 — Conformance Checklist"
-line_start: 18298
-line_end: 18316
+line_start: 18498
+line_end: 18516
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"

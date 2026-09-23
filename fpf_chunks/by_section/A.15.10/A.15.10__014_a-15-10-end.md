@@ -6,12 +6,12 @@ section_id: "A.15.10:End"
 section_title: "A.15.10:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__014_a-15-10-end.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:End — A.15.10:End"
-line_start: 29516
-line_end: 29517
+line_start: 29718
+line_end: 29719
 dependencies:
   - "A.15"
   - "A.15.5"

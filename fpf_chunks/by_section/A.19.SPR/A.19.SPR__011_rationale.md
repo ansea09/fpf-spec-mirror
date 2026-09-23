@@ -6,12 +6,12 @@ section_id: "A.19.SPR:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__011_rationale.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:9 — Rationale"
-line_start: 32259
-line_end: 32264
+line_start: 32667
+line_end: 32672
 dependencies:
   - "A.10"
   - "A.16"

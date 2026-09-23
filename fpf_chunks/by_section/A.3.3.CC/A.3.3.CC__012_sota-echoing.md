@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__012_sota-echoing.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:11 — SoTA-Echoing"
-line_start: 9831
-line_end: 9842
+line_start: 9833
+line_end: 9844
 dependencies:
   - "A.17"
   - "A.18"

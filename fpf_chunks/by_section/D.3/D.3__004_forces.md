@@ -6,12 +6,12 @@ section_id: "D.3:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__004_forces.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:1.1 — Forces"
-line_start: 77203
-line_end: 77213
+line_start: 77611
+line_end: 77621
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "F.15:14"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__018_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:14 — Common Anti-Patterns and How to Avoid Them"
-line_start: 106902
-line_end: 106919
+line_start: 107312
+line_end: 107329
 dependencies:
   - "A.1.1"
   - "A.10"

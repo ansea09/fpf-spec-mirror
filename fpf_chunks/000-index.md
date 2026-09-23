@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `21296c8aaf3611b63ee6a2bb11e439e828ffb9a3`
+Commit SHA: `76efec98642d04026281c164a3a1ff840e787be5`
 
 Chunking method: `pattern-aware`
 
-Patterns: `349`
+Patterns: `351`
 
 ## Patterns
 
@@ -56,6 +56,7 @@ Patterns: `349`
 - [A.6.3.NAR — Structure-to-Narrative Rendering](by_pattern/A.6.3.NAR.md)
 - [A.6.4 — EntityOfConcern retargeting](by_pattern/A.6.4.md)
 - [A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims](by_pattern/A.6.P.md)
+- [A.6.P.RI — Recover Agent-Relative References for Action](by_pattern/A.6.P.RI.md)
 - [A.6.P.WMR — Exact Relation Recovery for Method and Work Claims](by_pattern/A.6.P.WMR.md)
 - [A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission](by_pattern/A.6.RCD.md)
 - [A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration](by_pattern/A.6.RSIR.md)
@@ -92,6 +93,7 @@ Patterns: `349`
 - [A.15.8 — Work-Performance Configuration and Recovery Testing](by_pattern/A.15.8.md)
 - [A.15.9 — Request and Use a Bounded Result from Another Practice](by_pattern/A.15.9.md)
 - [A.15.10 — Resume Interrupted Work](by_pattern/A.15.10.md)
+- [A.15.11 — Make Applicable Methods Noticeable in Work](by_pattern/A.15.11.md)
 - [A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery](by_pattern/A.15.PROD.md)
 - [A.16 — Language-State Move Coordination](by_pattern/A.16.md)
 - [A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace](by_pattern/A.16.0.md)

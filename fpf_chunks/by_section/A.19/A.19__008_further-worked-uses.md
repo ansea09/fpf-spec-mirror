@@ -6,12 +6,12 @@ section_id: "A.19:5.5"
 section_title: "Further worked uses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__008_further-worked-uses.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:5.5 — Further worked uses"
-line_start: 31642
-line_end: 31649
+line_start: 32050
+line_end: 32057
 dependencies:
   - "A.10"
   - "A.15"

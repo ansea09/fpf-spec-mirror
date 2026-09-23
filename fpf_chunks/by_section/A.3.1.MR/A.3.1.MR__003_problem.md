@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__003_problem.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:2 — Problem"
-line_start: 8809
-line_end: 8814
+line_start: 8811
+line_end: 8816
 dependencies:
   - "A.10"
   - "A.13"

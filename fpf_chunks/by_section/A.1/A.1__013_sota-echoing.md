@@ -6,12 +6,12 @@ section_id: "A.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__013_sota-echoing.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:11 — SoTA-Echoing"
-line_start: 1983
-line_end: 1997
+line_start: 1985
+line_end: 1999
 dependencies:
   - "A.1.1"
   - "A.1.STM"

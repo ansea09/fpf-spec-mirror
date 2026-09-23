@@ -6,12 +6,12 @@ section_id: "F.0.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__004_forces.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:3 — Forces"
-line_start: 101420
-line_end: 101429
+line_start: 101830
+line_end: 101839
 dependencies:
   - "E.10"
   - "E.10.D1"

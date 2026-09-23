@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__012_sota-echoing.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:11 — SoTA-Echoing"
-line_start: 69584
-line_end: 69595
+line_start: 69992
+line_end: 70003
 dependencies:
   - "A.10"
   - "A.15"

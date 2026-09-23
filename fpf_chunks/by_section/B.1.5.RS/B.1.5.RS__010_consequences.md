@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__010_consequences.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "B.1.5.RS — Replace a Constituent Method in Its Encompassing Uses"
   - "B.1.5.RS:9 — Consequences"
-line_start: 39808
-line_end: 39813
+line_start: 40216
+line_end: 40221
 dependencies:
   - "A.3.1"
   - "B.1.5"

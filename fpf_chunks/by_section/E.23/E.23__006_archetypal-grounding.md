@@ -6,12 +6,12 @@ section_id: "E.23:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__006_archetypal-grounding.md"
-commit_sha: "21296c8aaf3611b63ee6a2bb11e439e828ffb9a3"
+commit_sha: "76efec98642d04026281c164a3a1ff840e787be5"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:5 — Archetypal Grounding"
-line_start: 99016
-line_end: 99038
+line_start: 99426
+line_end: 99448
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
