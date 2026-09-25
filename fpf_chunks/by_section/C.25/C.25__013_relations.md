@@ -6,7 +6,7 @@ section_id: "C.25:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__013_relations.md"
-commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
+commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:12 — Relations"

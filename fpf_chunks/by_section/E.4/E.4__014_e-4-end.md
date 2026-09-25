@@ -6,7 +6,7 @@ section_id: "E.4:End"
 section_title: "E.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__014_e-4-end.md"
-commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
+commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:End — E.4:End"

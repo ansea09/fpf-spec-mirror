@@ -6,7 +6,7 @@ section_id: "F.0.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
+commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:8 — Common Anti-Patterns and How to Avoid Them"

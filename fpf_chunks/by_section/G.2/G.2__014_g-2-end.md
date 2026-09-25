@@ -6,7 +6,7 @@ section_id: "G.2:End"
 section_title: "G.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__014_g-2-end.md"
-commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
+commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:End — G.2:End"

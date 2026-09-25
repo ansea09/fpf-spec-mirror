@@ -6,7 +6,7 @@ section_id: "A.2.6:End"
 section_title: "A.2.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__024_a-2-6-end.md"
-commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
+commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:End — A.2.6:End"

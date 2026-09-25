@@ -6,7 +6,7 @@ section_id: "E.11.PFP:section-007"
 section_title: "<FrameworkCode>.Preface:<n>.<m> - <Title>"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__008_frameworkcode-preface-n-m-title.md"
-commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
+commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:section-007 — <FrameworkCode>.Preface:<n>.<m> - <Title>"

@@ -6,7 +6,7 @@ section_id: "A.1.STM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__001_intro.md"
-commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
+commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
 heading_path:
   - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
   - "A.1.STM:intro — Intro"
