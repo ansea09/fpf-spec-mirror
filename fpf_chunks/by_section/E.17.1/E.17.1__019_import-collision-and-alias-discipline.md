@@ -6,12 +6,12 @@ section_id: "E.17.1:18"
 section_title: "Import Collision and Alias Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__019_import-collision-and-alias-discipline.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:18 — Import Collision and Alias Discipline"
-line_start: 91453
-line_end: 91463
+line_start: 91846
+line_end: 91856
 dependencies:
   - "A.16.0"
   - "A.22"

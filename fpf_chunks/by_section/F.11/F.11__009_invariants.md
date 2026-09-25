@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.11"
-pattern_title: "Method Quartet Harmonisation"
+pattern_title: "Distinguish Method, MethodDescription, Work and Outputs"
 section_id: "F.11:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__009_invariants.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.11 — Method Quartet Harmonisation"
+  - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:8 — Invariants"
-line_start: 105914
-line_end: 105924
+line_start: 106334
+line_end: 106344
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -48,7 +48,7 @@ keywords:
 3. **No universal actuation kind.** A control or transformation output is typed and related under its direct pattern.
 4. **Explicit enactment.** Work enacts a Method only when the exact relation and basis are stated.
 5. **Explicit description use.** MethodDescription use, following, conformance, deviation, interpretation, and reliance are separate claims under their defining or testing patterns; absent such a rule, return A.6.RCD `missing-governor`.
-6. **Exact agency.** Performed Work names the actual System and, when relevant, the obtaining system-role assignment; no vague `System-in-Role` substitute.
+6. **Exact agency.** Each claimed actual performer has the A.13 core, including the obtaining assignment, before independent A.15.1 Work admission. F.6 is required only for precise assignment-bound attribution; no vague `System-in-Role` substitute.
 7. **Evidence separation.** Approval of a description does not establish Work occurrence or outcome.
 8. **Source-local wording.** Ambiguous expressions are recovered with F.0.1; F.9 is conditional on a real relation between local meanings.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3"
-pattern_title: "Trust and Assurance Calculus"
+pattern_title: "Is This Claim Supported for This Use? — Trust and Assurance Calculus"
 section_id: "B.3:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__007_worked-cases.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.3 — Trust and Assurance Calculus"
+  - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:6 — Worked cases"
-line_start: 42105
-line_end: 42138
+line_start: 42054
+line_end: 42087
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,6 +20,7 @@ dependencies:
   - "A.21"
   - "A.22"
   - "A.6.1"
+  - "B.1.5"
   - "C.16"
   - "C.16.Q"
   - "C.2.1"
@@ -29,6 +30,7 @@ dependencies:
   - "E.24.PUB"
   - "F.10"
   - "G.11"
+  - "G.5"
   - "G.6"
 keywords:
 ---
@@ -61,9 +63,9 @@ Use A.21 and the release or permission pattern that consumes the gate decision. 
 
 Target claim: “Model edition M predicts response Y within the declared operating region.” Assurance use: whether an engineer may use that prediction as one input to a reversible design comparison.
 
-The engineer cites the exact model claim, its empirical-validation result, the A.2.4 evidence-use relation, the A.10 provenance path, the operating region, and the expiry condition. No combination of unlike characteristics is needed. The compact disposition is `supported-for-use`, limited to the reversible comparison; release, safety, and operation are expressly not carried. No dated assessment Work or reusable record is added because the use does not depend on who performed the already cited validation.
+The engineer cites the exact model claim, its empirical-validation result, A.2.4 first-use classification and the direct support relation actually used, the A.10 provenance path, the operating region, and the expiry condition. No combination of unlike characteristics is needed. The compact disposition is `supported-for-use`, limited to the reversible comparison; release, safety, and operation are expressly not carried. No dated assessment Work or reusable record is added because the use does not depend on who performed the already cited validation.
 
 #### B.3:6.4 - Order-sensitive Method case
 
-An assurance argument relies on a manufacturing sequence whose result changes when two steps are reversed. The practitioner uses the direct Method and Work patterns for the sequence and, only because organization among several Methods affects the argument, uses A.22 to select a `MethodRelationStructure` for that exact question. The assurance result cites the sequence result and selected structure.
+An assurance argument relies on a manufacturing sequence whose result changes when two steps are reversed. Recover the B.1.5 composition, order and join conditions and any actual A.15.1 Work the argument consumes. Those direct results may answer the assurance question. Use A.22 only if a separately selected organization contributes another needed premise; then identify its constituents, obtaining relations, applied constraints and use frame. The assurance result cites only the results and structure it actually relies on.
 

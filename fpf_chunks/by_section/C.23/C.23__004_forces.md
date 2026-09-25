@@ -6,12 +6,12 @@ section_id: "C.23:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:3 — Forces"
-line_start: 59623
-line_end: 59629
+line_start: 59766
+line_end: 59772
 dependencies:
   - "A.10"
   - "B.3"
@@ -30,6 +30,7 @@ keywords:
   - "MethodFamily"
   - "SoS-LOG"
   - "abstain"
+  - "admission rules"
   - "admit"
   - "degrade"
   - "evidence"

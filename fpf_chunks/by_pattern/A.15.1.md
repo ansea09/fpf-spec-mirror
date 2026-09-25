@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.15.1"
-pattern_title: "U.Work"
+pattern_title: "U.Work: Dated Performed Work Occurrence"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.1.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.15.1 — U.Work"
-line_start: 26592
-line_end: 27188
+  - "A.15.1 — U.Work: Dated Performed Work Occurrence"
+line_start: 26481
+line_end: 27077
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,7 +54,7 @@ keywords:
   - "world-side dated occurrence"
 ---
 
-## A.15.1 - U.Work
+## A.15.1 - `U.Work`: Dated Performed Work Occurrence
 
 > **Type:** Architectural (A)
 > **Status:** Stable
@@ -93,7 +93,7 @@ Use the following route:
 
 ### A.15.1:1 - Problem Frame
 
-After we have separated **which system-role assignment obtains** (via `U.SystemRoleAssignment`), **what capability is being relied on** (via `U.Capability`), **how in principle** the Work is done (the exact `U.Method`), and which claim-bearing episteme, if selected, describes that Method (`U.MethodDescription`), we still need a precise concept for **what happened as performed Work** in real time and space.
+After we have separated **which system-role assignment obtains** (via `U.SystemRoleAssignment`), **what capability is being relied on** (through an A.2.2 qualified holder-ability claim), **how in principle** the Work is done (the exact `U.Method`), and which claim-bearing episteme, if selected, describes that Method (`U.MethodDescription`), we still need a precise concept for **what happened as performed Work** in real time and space.
 
 Every Work individual has an A.13 core basis for every claimed actual performer System, an independently grounded performance history, at least one enacted Method, temporal extent, and at least one locally declared containing-system relation. Several such relations may obtain under different exact system boundaries. The A.13 core already contains one obtaining assignment for its scope, situation, and window; an F.6 relation may later use that same occurrence but is not a Work-membership premise. A Work stands in a direct work-to-referent, binding, or resource-use relation only when that relation obtains world-side; none is a field stored in the occurrence. A separate assertion or description may designate that individual and state the relations, but the episteme neither creates the relations nor becomes the Work occurrence.
 
@@ -197,7 +197,7 @@ When a separate assertion or description episteme describes one Work occurrence,
 | A claim-bearing episteme expressed through a **recipe, code artifact, or diagram** and substantively about one admitted exact method | **`U.MethodDescription`** | Does the same episteme meet A.3.2's exact membership threshold? Otherwise retain the claim-bearing episteme and any representation, publication, or formal-substrate object independently identified by its own pattern; do not call the episteme a MethodDescription. |
 | The **semantic "way of doing"**               | **`U.Method`**             | Same method identity across notations?                         |
 | The **assignment** (which admitted System is assigned under which local system-role kind in this case) | **one obtaining occurrence of one directly declared species under `U.SystemRoleAssignment`** | Can this assignment occurrence change without changing the System or its declared species? |
-| The **ability** ("can do within bounds")      | **`U.Capability`**         | Would remain even if not assigned?                             |
+| The **ability** ("can do within bounds")      | **Qualified holder ability (A.2.2)**         | Would remain even if not assigned?                             |
 | The **dated occurrence** with logs and resource-use evidence | One Work individual admitted under **`U.Work`** | Did the exact action happen during the stated extent, with every actual performer's A.13 core, at least one Method actually followed, and at least one declared containing-system relation under an exact boundary? If precise assignment-bound attribution is also claimed, does a separate F.6 relation obtain for the already admitted Work? Are any claimed binding, work-to-referent, or resource-use facts independently obtaining? |
 | The **actual state change associated with this occurrence** | **`U.Transformation` plus a named domain predicate, or a C.2.1 local compound claim under A.6.RCD disposition 2** | Is the change independently grounded under A.3.4? Does the direct predicate obtain for exact W and T, or does the local claim expose its constructor, governed bases, participants, and case facts? If neither route is present, retain both objects and return `missing-governor[work-to-change]`. |
 
@@ -454,12 +454,12 @@ Every obtaining F.6 `performedUnderAssignment(W, RA)` attribution cites two assi
 **CC-A15.1-6 (Actual participant and operation binding).**
 For an operation argument or result, name one identified A.6.1 application and its exact declaration-local binding. For any other actual parameter, participant, premise, constituent, reference use, resource, or work-to-referent claim, name the declared subject predicate, participant order, and actual participant values. If the required route is absent, name the missing relation or binding in the `missing-governor` result and do not assert it. A MethodDescription declaration, default, A.15.3 planned filling, gate selection, compatible ValueKind, or stored token establishes no actual binding.
 **CC-A15.1-7 (Capability check).**
-Any capability threshold relied on for a Work occurrence is the declared bound in the selected method-side claim and is tested by a named A.2.2 capability-fit predicate against each performer system's capability instance for the work interval or declared checkpoints. Name that predicate, the capability instance, threshold, work need, and result. If the fit predicate is absent, return `missing-governor[capability-fit]` and assert neither fit nor failed fit. A `U.Method` or `U.MethodDescription` may cite or describe the threshold but creates neither capability nor fit. State a failed fit in its evaluation-result episteme or direct characteristic/evaluation relation, never as an intrinsic work outcome.
+Any capability threshold relied on for a Work occurrence is the declared bound in the selected method-side claim and is tested by a named A.2.2 capability-fit predicate against each performer System's qualified ability claim for the work interval or declared checkpoints. Name that predicate, holder and ability claim, threshold, work need and result. If the fit predicate is absent, return `missing-governor[capability-fit]` and assert neither fit nor failed fit. A `U.Method` or `U.MethodDescription` may cite or describe the threshold but creates neither capability nor fit. State a failed fit in its evaluation-result episteme or direct characteristic/evaluation relation, never as an intrinsic work outcome.
 
 **CC-A15.1-8 (Acceptance criteria).**
 An acceptance claim names the selected criterion episteme or comparator specification, its applicable scope and window, the evaluation or acceptance work that applied it, its returned value or result episteme, and the declared acceptance predicate with all actual participants. If the claim relies on historical continuity with an earlier criterion episteme, name the exact C.2.1 `EpistemeEditionRelation`; a version label alone is not enough. If no acceptance predicate governs the claim, return `missing-governor[acceptance]`. Success class, quality measurement, comparison result, and acceptance verdict remain distinct; no verdict is an intrinsic field of the Work occurrence or a condition of `U.Work` membership.
 **CC-A15.1-9 (Resource honesty).**
-Performed resource-use facts (energy, materials, machine-time, money, tool wear) are attributed through declared predicates that name the particular Work, resource, amount, unit, and extent participants, not to `U.Method`, `U.MethodDescription`, a system-role kind or assignment, or `U.Capability`. If no predicate governs the needed use, return `missing-governor[resource-use]`; estimates remain in Method descriptions or plans. Any aggregate ledger, unit conversion, allocation, or overlap and deduplication result belongs to `B.1.6` and cites the contributing Work occurrences and resource-use facts.
+Performed resource-use facts (energy, materials, machine-time, money, tool wear) are attributed through declared predicates that name the particular Work, resource, amount, unit, and extent participants, not to `U.Method`, `U.MethodDescription`, a system-role kind or assignment, or an assertion of holder ability. If no predicate governs the needed use, return `missing-governor[resource-use]`; estimates remain in Method descriptions or plans. Any aggregate ledger, unit conversion, allocation, or overlap and deduplication result belongs to `B.1.6` and cites the contributing Work occurrences and resource-use facts.
 
 **CC-A15.1-10 (Mereology declared).**
 When exact work-part relations obtain among Work individuals, declare each relation: temporal-part, episode-part, operational-part, or another relation with its own predicate. Ambiguous mixtures lower aggregation and identity claims. Each A.15.1 work-part relation uses two independently admitted Work participants and the predicate and identity rule in §4.1a. A bare interval stays with C.27.TA or its direct domain object. Concurrency adds a separately declared temporal-overlap claim through C.27.TA. If the reader also claims coordination, name its declared predicate and actual participants; overlap alone does not establish it.

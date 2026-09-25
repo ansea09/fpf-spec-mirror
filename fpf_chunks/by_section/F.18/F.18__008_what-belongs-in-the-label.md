@@ -6,12 +6,12 @@ section_id: "F.18:6"
 section_title: "What Belongs In The Label"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__008_what-belongs-in-the-label.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:6 — What Belongs In The Label"
-line_start: 109300
-line_end: 109322
+line_start: 109730
+line_end: 109739
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,24 +45,11 @@ keywords:
 
 ### F.18:6 - What Belongs In The Label
 
-Belongs in the label:
+Choose a head that helps the reader recognize the governed value and only the qualifiers needed to distinguish its local meaning. Use `SystemRole` morphology for an exact local system-role kind, and relation, slot, Method, Work or characteristic morphology only for the corresponding recovered value.
 
-- a head word that helps readers recognize the governed value;
-- a stable qualifier that is part of the local sense;
-- `SystemRole` morphology only when the governed value is one exact local system-role kind;
-- relation, slot, method, work, or characteristic morphology when those kinds are current.
+For a kind or value-family name, do not pack a current holder, temporary admission state, particular Work occurrence, evidence claim or gate result into the label as though it defined that family. A stable number, threshold or other qualifier belongs only when the subject's definition makes it part of the distinction the name must preserve.
 
-Does not belong in the label:
+When naming an exact assignment or performed Work occurrence under §§5.2–5.3, an occurrence designator may include an identifier, holder cue or date when needed to distinguish that occurrence. For example, the worked-case designator `HullAssemblyWork-42@2026-07-15T09:10–11:35` still resolves through the independent Work-admission and identity basis. The token does not establish that basis.
 
-- numbers and thresholds;
-- temporary admission state;
-- holder identity;
-- capability evidence;
-- method fit unless the governed value is a method or method family;
-- work occurrence;
-- gate result;
-- source or evidence authority;
-- context label used as if it were universal.
-
-Quick check: if removing the word changes only current admission, holder, evidence, date, or gate use, it does not belong in the durable label.
+Quick check: identify the value being named, remove each optional word, and retain it only when the reader would otherwise lose a needed distinction. Put current evidence, permission, status and other neighboring claims under their own rules.
 

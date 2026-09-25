@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9"
-pattern_title: "Alignment and Bridge across Contexts"
+pattern_title: "Relate Local Meanings across Contexts (Alignment and Bridge)"
 section_id: "F.9:26"
 section_title: "Bundle and endpoint interaction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__028_bundle-and-endpoint-interaction.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.9 — Alignment and Bridge across Contexts"
+  - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:26 — Bundle and endpoint interaction"
-line_start: 105282
-line_end: 105287
+line_start: 105704
+line_end: 105709
 dependencies:
   - "A.10"
   - "A.13"

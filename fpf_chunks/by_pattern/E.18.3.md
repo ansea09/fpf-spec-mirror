@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.3.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
-line_start: 96064
-line_end: 96534
+line_start: 96464
+line_end: 96936
 dependencies:
   - "A.10"
   - "A.15"
@@ -291,6 +291,8 @@ A22IdentityBasis:
     ReplaceEditionWhenCurrentnessFailsOrIsUnknown@Review-2026-08
   namedSelectionUseFrame:
     questionOrAction: may v2 remain the basis for this comparison?
+    admissibleAction: judge whether to recalculate with v2 or replace the reference edition for CandidateSetComparisonBasis@Review-2026-08
+    stopOrReturnCondition: stop recalculation when the currentness result, dependency occurrence, either flow binding, or source-use occurrence is unavailable; re-evaluate both candidates when the edition or currentness facts change
 forbiddenOverread: no displayed order, gate decision, plan, Work, or comparison result follows
 constraintGovernedProfileBasis:
   locusBindingRows[]:

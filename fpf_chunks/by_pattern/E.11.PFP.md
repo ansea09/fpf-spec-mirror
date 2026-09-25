@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "E.11.PFP"
-pattern_title: "Framework Publication Form Profile"
+pattern_title: "Framework Publication Form Profile for Markdown"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PFP.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.11.PFP — Framework Publication Form Profile"
-line_start: 88815
-line_end: 89163
+  - "E.11.PFP — Framework Publication Form Profile for Markdown"
+line_start: 89172
+line_end: 89520
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -31,7 +31,7 @@ keywords:
   - "Dependencies"
 ---
 
-## E.11.PFP - Framework Publication Form Profile
+## E.11.PFP - Framework Publication Form Profile for Markdown
 
 > **Type:** Specialization of E.11
 > **Status:** Stable
@@ -197,7 +197,7 @@ The deterministic part of the form check handles recoverable syntax and projecti
 - the Readme's one practical-entry set; its explicit examples-not-coverage statement; the product's declaration of example keys and forms; exactly one H3 ordinary entry or H4 card per declared key; five ordered ordinary-entry fields; a non-empty card-group explanation; six ordered card fields; the shared reading-burden measure and mantra/card limits; and zero or one same-key H5 expansion with the declared boundary; and
 - equality and source agreement of every optional public cue that is actually projected.
 
-For Markdown grouping, one canonical bounded invocation runs the focused source-hazard guard and a parser-backed render together. It returns the rendered heading outline and block, list, table, code, and link structure for inspection while the candidate is already loaded. The agent does not discover a second renderer or reread the same file merely to close that form question. A clean mechanical result supports but does not replace the reader-visible judgement.
+Check Markdown grouping with a focused source-hazard scan and a parser-backed render of the same candidate. Inspect the rendered heading outline and the block, list, table, code and link structure together. Reuse matching unchanged results. A clean mechanical result supports but does not replace the reader-visible judgement.
 
 The product-specific check compares every visible cue with the exact edition or relation record from which it was projected and checks the product-specific body, reference tail, and any pinned compact-front shape. A syntax-valid but unresolved value fails there. A field absent from the public opening is not a form defect unless a selected reader use and product-specific rule require it.
 
@@ -211,7 +211,7 @@ Return the exact framework edition, edition-record source, carriers checked, for
 
 #### E.11.PFP:4.7 - Explain the Methods at each selected scale
 
-Use all twelve substantive E.8 functions as authoring questions for the whole framework and each substantive profile selected by its architecture. Answer them at the scope the publication promises. A framework may describe one composite Method through many patterns, several related Methods, or a repertoire used in different combinations. Where an exact MethodDescription claim matters, use `A.3.2` for the described Method and its description. The number of patterns, mantras, files, or description media does not settle that identity.
+Use all twelve substantive E.8 functions as authoring questions for the whole framework and each substantive profile selected by its architecture. Answer them at the scope the publication promises. A framework may describe one composite Method through many patterns, several related Methods, or a repertoire used in different combinations. Where an exact MethodDescription claim matters, use `A.3.1` to identify the admitted Method and `A.3.2` to test the description episteme's MethodDescription membership. The number of patterns, mantras, files, or description media does not settle that identity.
 
 The whole account connects the answers that individual pattern bodies supply. Write the shared answer once and give exact returns to inherited content. At a narrower scope, state what changes in the situation, contribution, combination, evidence, result, or boundary. When an answer is missing, say which question remains open, which promised use it limits, and what remains usable.
 
@@ -347,7 +347,7 @@ The visible address and title use the ASCII ` - ` separator. Build each clickabl
 
 ### E.11.PFP:9 - Consequences
 
-Readers retain each product's compact familiar opening and find Readme and Preface in the ToC grammar already used by that product, before the one authoritative pattern index. Inside the Readme they see one explicitly non-exhaustive practical-entry set: ordinary examples show cheap direct use, while only honestly selected cross-pattern cards add a visible mantra and an optional bounded expansion. Optional public cues remain recoverable from one source when they change use, while development and rebuildability records stay out of reader front matter. Builders gain checks that fail on missing public-unit entries, duplicate or cross-form keys, card grammar, structural, projection, and development-state drift without guessing table meaning, deciding card value or coverage, inventing a rival navigation block, or forcing a second renderer-discovery pass.
+Readers retain each product's compact familiar opening and find Readme and Preface in the ToC grammar already used by that product, before the one authoritative pattern index. Inside the Readme they see one explicitly non-exhaustive practical-entry set: ordinary examples show cheap direct use, while only honestly selected cross-pattern cards add a visible mantra and an optional bounded expansion. Optional public cues remain recoverable from one source when they change use, while development and rebuildability records stay out of reader front matter. Builders gain checks that fail on missing public-unit entries, duplicate or cross-form keys, card grammar, structural, projection, and development-state drift without guessing table meaning, deciding card value or coverage, or inventing a rival navigation block.
 
 The whole account also makes shared choices and source synthesis accessible beyond individual bodies. Authors can refine one profile without copying the entire language, and readers can see which answers remain inherited. Keeping those returns current costs work; concentrating the shared explanation reduces the number of independently editable copies.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.11"
-pattern_title: "Telemetry-Driven Refresh and Decay Orchestrator"
+pattern_title: "Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
 section_id: "G.11:2"
 section_title: "Problem — Why naive refresh breaks comparability and admissibility"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__004_problem-why-naive-refresh-breaks-comparability-and-admissibility.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
+  - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:2 — Problem — Why naive refresh breaks comparability and admissibility"
-line_start: 115648
-line_end: 115657
+line_start: 115996
+line_end: 116005
 dependencies:
   - "A.6.RCD"
   - "B.3.4"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3.5"
-pattern_title: "Working-Model Relations & Grounding (CT2R-LOG)"
+pattern_title: "Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
 section_id: "B.3.5:14"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__016_rationale-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
+  - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:14 — Rationale (informative)"
-line_start: 42776
-line_end: 42795
+line_start: 42725
+line_end: 42744
 dependencies:
   - "B.3"
   - "C.13"
@@ -30,8 +30,8 @@ CT2R-LOG treats the **human-readable, task-appropriate relation** (e.g., `ut:Com
 **14.3 Why a triad of `validationMode`?**
 The triad **{postulate, inferential, axiomatic}** distinguishes permitted justification postures, not stages of formality or increasing confidence. The direct relation kind and elected profile determine which posture and support are appropriate for the receiving claim and use. A sufficient calibration account in a branch permitting `postulate` needs no mode promotion; an elected structural-parthood or collection-belonging claim still requires its respective current construction trace. Where a load-bearing claim needs stronger proof or an empirical check, select that contribution for the assurance gap it can resolve, not to advance through the three labels. The mode declaration changes neither the canonical relation nor the strength of its support.
 
-**14.4 Why keep order/time out of mereology?**
-CT2R‑LOG aligns with A.14’s **firewall**: structure (parthood) is distinct from **order** and **temporal coverage**. The former is published as `ut:StructPartOf` sub‑relations; the latter live in `Γ_method` / `Γ_time` and must **not** be smuggled into part‑trees. This separation avoids classic modelling failures (temporal smearing, pseudo‑components for quantities) and keeps reasoning crisp across the Γ‑family.
+**14.4 Why recover parthood independently of order and time?**
+Order and temporal coverage answer different questions from parthood. A chronology or diagram supplies no part relation by itself. A.15.1 can independently establish a Work temporal part, and A.14 a proper temporal phase of an unchanged non-Work carrier. Preserve those relations alongside the applicable Method and temporal claims; B.1.4 aggregates only the relations already recovered.
 
 **14.5 Why point to `Γ_m.sum | set | slice` (Compose‑CAL) for constructive grounding?**
 The three C.13 forms—**sum, set, slice**—are sufficient to report the recurring construction accounts for integrated assemblies, collections, and aspects without expanding the kernel. They are not identity functions. A truthful account carries exact participants, direct relation occurrences, the applicable rule, and identity or reidentification conditions: the same inputs under another assembly can form another whole, while a permitted replacement can preserve one whole.

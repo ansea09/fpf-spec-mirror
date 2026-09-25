@@ -1,29 +1,32 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.2"
-pattern_title: "U.Capability - System Ability Envelope and Measures"
+pattern_title: "System Capability: Conditions, Measures and Fit"
 section_id: "A.2.2:End"
 section_title: "A.2.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__016_a-2-2-end.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.2 — U.Capability - System Ability Envelope and Measures"
+  - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:End — A.2.2:End"
-line_start: 4488
-line_end: 4489
+line_start: 4449
+line_end: 4450
 dependencies:
+  - "A.1"
   - "A.15"
-  - "A.2"
   - "A.2.3"
-  - "E.24.UK"
+  - "A.2.6"
+  - "C.2.1"
+  - "E.23.CDI"
 keywords:
-  - "ability envelope"
-  - "capability-fit condition"
+  - "attained bounds"
+  - "capability fit"
   - "currentness"
-  - "holder-dependent capability instance"
-  - "measure set"
-  - "qualification window"
+  - "holder ability"
+  - "qualification"
+  - "support"
+  - "work conditions"
 ---
 
 ### A.2.2:End

@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 84421
-line_end: 84589
+line_start: 84740
+line_end: 84908
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,16 +62,16 @@ keywords:
 
 #### E.10:6.1 - Tech register ontology guards
 
-> **Purpose.** This section stabilises the Tech register of the kernel lexicon by enforcing head-anchored naming, explicit kind naming, EntityOfConcern and Description-episteme boundaries, specification-use morphology, guarded use of bare *role*, exact `SystemRole` compounds, and subject-specific recovery of Domain wording. It aligns with **E.10.D1**, **F.4 SystemRoleKindDescription**, **A.2.5 SystemRoleAssignmentStateRelation**, **A.2.7 SystemRoleKindRelationStructure**, **F.11 Method Quartet Harmonisation**, and **F.17 UTS**. **Scope:** Guidance is register-agnostic and applies across the FPF; illustrative examples pass Minimal Generality and Domain Anchoring (MG-DA) and the other rules of E.10.
+> **Purpose.** This section stabilises the Tech register of the kernel lexicon by enforcing head-anchored naming, explicit kind naming, EntityOfConcern and Description-episteme boundaries, specification-use morphology, guarded use of bare *role*, exact `SystemRole` compounds, and subject-specific recovery of Domain wording. It aligns with **E.10.D1**, **F.4 SystemRoleKindDescription**, **A.2.5 SystemRoleAssignmentStateRelation**, **A.2.7 SystemRoleKindRelationStructure**, **F.11 Distinguish Method, MethodDescription, Work and Outputs**, and **F.17 UTS**. **Scope:** Guidance is register-agnostic and applies across the FPF; illustrative examples pass Minimal Generality and Domain Anchoring (MG-DA) and the other rules of E.10.
 >
 **Onto1 — Head‑anchoring**  *(use Kernel heads + pass LEX.TokenClass, EntityOfConcern and Description-episteme boundary, and specification-use gates)*
-* **Rule:** The **head noun of a term explicitly signals the kind** (`System`, `Holon`, `Work`, `Episteme`, `Tradition`, `Lineage`, `Characteristic`, `Method`, `Profile`, `Description`, `Spec`, `TransformationFlowStructure`, `Card`, `Pack`, `Dashboard`, …). `SystemRole` is allowed only as the common compound inside one concrete local system-role-kind designation such as `ReviewerSystemRole`; bare *role* remains a recovery trigger rather than a kind head.
+* **Rule:** The **head noun of a term explicitly signals the kind** (`System`, `Holon`, `Work`, `Episteme`, `Characteristic`, `Method`, `Profile`, `Description`, `Spec`, `TransformationFlowStructure`, `Card`, `Pack`, `Dashboard`, …). `SystemRole` is allowed only as the common compound inside one concrete local system-role-kind designation such as `ReviewerSystemRole`; bare *role* remains a recovery trigger rather than a kind head.
 * **Figurative heads** with obvious overload (“Tradition”, “family”, “process”, “function”) are not admitted in the kernel. Plain twins are admitted only with a one-to-one Tech mapping and declared **`LEX.TokenClass`** for the Tech token. They appear in the Plain register as one-to-one mappings to a Tech token, not in the Tech register. Plain language minimizes lexical error from overloaded terms through plain-twin lexical guards.
   * **Do:** `IncidentDashboard`, `MethodSpec`, `TraditionProfile`, `TransformationFlowStructureDescription`.
   * **Don’t:** `IncidentBoard`, `TDD Tradition`, `Production Process` (kernel), `Service Function` (kernel).
 
  **Onto2 — EntityOfConcern and Description-episteme boundary and specification-use morphology**  *(ref. E.10.D2)*
-* **Rule:** A term for the EntityOfConcern uses the bare head for the FPF kind under concern: `Method`, `Tradition`, `Characteristic`. A **Description episteme** appends **`…Description`** only under the membership rule of the pattern defining that episteme kind. In particular, a claim-bearing episteme is `U.MethodDescription` only when its exact EntityOfConcern is one admitted `U.Method` and it makes at least one substantive claim about that method as a way of doing. `Algorithm`, code, pseudo-code, recipe, procedure, diagram, or other expression form first remains source wording, a C.29 representation, or a publication expression; none establishes that membership. A qualifying Description episteme appends **`...Spec`** only after a named specification-use gate grants that use. Thus `MethodSpec` is available only when the same episteme passes both A.3.2 membership and the E.10.D2 specification-use gate; formal language, pseudo-code, or bundled tests alone settle neither condition.
+* **Rule:** A term for the EntityOfConcern uses the bare head for the FPF kind under concern: `Method` or `Characteristic`. A **Description episteme** appends **`…Description`** only under the membership rule of the pattern defining that episteme kind. In particular, a claim-bearing episteme is `U.MethodDescription` only when its exact EntityOfConcern is one admitted `U.Method` and it makes at least one substantive claim about that method as a way of doing. `Algorithm`, code, pseudo-code, recipe, procedure, diagram, or other expression form first remains source wording, a C.29 representation, or a publication expression; none establishes that membership. A qualifying Description episteme appends **`...Spec`** only after a named specification-use gate grants that use. Thus `MethodSpec` is available only when the same episteme passes both A.3.2 membership and the E.10.D2 specification-use gate; formal language, pseudo-code, or bundled tests alone settle neither condition.
 * **Formal-description guard:** A formal mathematical or physical theorem, including a formal postulate theorem in physics, remains a Description episteme until a bounded use assigns specification use. Its formal language belongs to formality and publication-expression discipline; it becomes a specification only under acceptance criteria, harness checks, normative invariants, measurable anchors, verification use, or another specification-granting condition named by value.
 * **Extension:** Apply the same morphology to non-method EntitiesOfConcern where appropriate: `TransformationFlowStructureDescription`, `TransformationFlowStructureSpec`, `SystemDescription`, and `SystemSpec`.
 * **Do:** `SamplingMethod` - `SamplingMethodDescription` - `SamplingMethodSpec`.
@@ -93,18 +93,18 @@ keywords:
 * **Don’t:** infer `ClinicalSafetyDomain`, `DomainFamily`, or `DomainBundle` as a kind from that wording.
 
 **Onto5 — Always state what the term names**
-* **Rule.** The definition or first line of a gloss states the FPF kind or object named by the term—for example, a `U.Holon`, `U.System`, `U.Episteme`, `Tradition`, `Lineage`, `Profile`, exact local system-role kind, `U.Work` as the admitted kind or a Work occurrence admitted under it, `Characteristic`, or direct carrier relation.
+* **Rule.** The definition or first line of a gloss states the FPF kind or object named by the term—for example, a `U.Holon`, `U.System`, `U.Episteme`, `Profile`, exact local system-role kind, `U.Work` as the admitted kind or a Work occurrence admitted under it, `Characteristic`, or direct carrier relation.
 * **Do:** “**Kind named:** `ReviewerSystemRole` — the exact local kind whose admitted-system candidates satisfy the current substantive-review condition. Its member/non-member boundary and continuity rule are recoverable under C.3; the named review practice locates that definition. A concrete assignment names its directly declared species and one separately obtaining occurrence under `U.SystemRoleAssignment`.”
 * **Don’t:** “Reviewer — a person who …” (blurs the kind named).
 
 **Onto6 — Bans and ontology recovery hints**  *(mirror E.10 § 9 L-rules; do not duplicate tables; not a substitution table)*
 * `process`, `procedure`, `workflow`, `function`, or `activity` -> first recover the wording family: change-situation wording applies `A.3.4.P`; function-like wording applies `A.6.F`. Possible recovered values include `U.Method`, `U.MethodDescription`, `U.WorkPlan`, one dated Work occurrence admitted under `U.Work`, a separate episteme about it, `U.Transformation`, and `TransformationFlowStructure`. Choose among them only after naming the object, any obtaining method-side or other relation and its participants, the relevant declaration or representation use, or the claim kind and the pattern that defines it.
-* `Tradition` → **`Tradition`** (Tech); leave “Tradition” only as a Plain twin with an adjacent Tech label.
+* `tradition` or `lineage` -> recover the exact historical-continuation, source-use, method, edition, derivation or provenance claim under its subject pattern. Under C.20 these may remain ordinary auxiliary values or C.3 project-local kinds; the label alone admits no public U-kind or Tech designation.
 * `domain` -> apply Onto4: name the actual domain subject, source or practice boundary, effective scheme, discipline claim, DPF scope, or ordinary use that matters here. Do not infer `DomainFamily`, `DomainBundle`, `ContextId`, or a UTS row from the word.
 * `…CarrierRole` used for an assigned System -> start with `E.10.ROLE`; recover the holder System, local `...SystemRole` kind, A.2.1 assignment occurrence, and its declared species only when the passage asserts those facts. Recover carrier, source relation or source-local meaning, interpretation, publication, evidence-use, and Work claims through their own relations.
 * ambiguous *owner* wording -> recover the precise relation or other claim being made—for example, an architectural, organizational, policy, source-maintenance, responsibility, authority, commitment, or work-facing claim. Keep *owner* when that precise ownership relation is current; use a `...SystemRole` designation only when the recovered object is an exact local system-role kind.
 * job titles (`owner`, `lead`, `champion`) in the Kernel -> keep them in Plain or quoted wording until the claim is recovered; use exact `...SystemRole` designations only for admitted local system-role kinds.
-* **Do:** `ReturnsTransformationFlowStructureDescription`, `Tradition: Test-Driven`; `LedgerTeam is classified under LedgerCustodianSystemRole`, with any exact assignment, responsibility, authority, source-maintenance, or interpretation relation stated separately when current.
+* **Do:** `ReturnsTransformationFlowStructureDescription`; `LedgerTeam is classified under LedgerCustodianSystemRole`, with any exact assignment, responsibility, authority, source-maintenance, or interpretation relation stated separately when current.
 * **Don’t:** `Returns Process`, `TDD Tradition` (kernel), `Ledger Owner` (underspecified).
 
 **Worked mini-examples across arenas.** These names illustrate morphology only. Every `...MethodDescription` presupposes one claim-bearing episteme whose exact EntityOfConcern is one independently admitted `U.Method` and whose claims pass A.3.2; every `...Spec` also presupposes its subject-specific specification-use gate. The label establishes neither condition.
@@ -133,7 +133,7 @@ The Onto3 block above is the one bounded distinction and assignment example. The
 * Any action-changing Domain wording recovers its subject, use, and applicable pattern; a durable local expression uses F.17 only when its source-local meaning or public term row is current (Onto4, Onto6).
 * Object‑of‑talk declared (Onto5).
 * SCR-LEX rewrites checked for current system-role-kind, direct assignment-species, and carrier-relation separation (Onto6).
-> **Note on registers.** Keep figurative or business-casual terms in the **Plain** register only, with strict **twin-label** links to the Tech token under current `E.10`. In the **Tech** register, speak in KL-CAL: **episteme-about-epistemes** (Tradition, Lineage, Profile), not in catalogue-admin idioms.
+> **Note on registers.** A technical designation first names a value admitted under its own subject pattern. A Plain twin then names that same value under §6.2. Tradition or lineage wording follows C.20's exact-subject and relation recovery; the words alone identify neither an episteme about epistemes nor a public kind.
 
 * **Onto‑Deon — Deontic lexicon guard (Core register)**
 **Rule.** In the Conceptual Core, avoid using **“Standard”** as the head noun of an EntityOfConcern name unless the object is an explicit **deontic speech-act** under the **Gov** lens (cf. E.3).
@@ -169,10 +169,10 @@ If an EntityOfConcern-side item is currently named `… Standard`, rename it to 
 | `U.Work`                 | work (work kind)                           | This plain twin names the admitted kind only. A run, execution, activity, job, or case can name one Work individual only after A.15.1 grounds that occurrence; show an explicit occurrence name and the head **work occurrence** rather than reusing the kind twin. |
 | one exact local `...SystemRole` kind | reviewer (system role), maintainer (system role) | Local kind for entities independently admitted as `U.System`. On first use, say which systems can count, what work-facing condition separates members from relevant non-members, and what changes preserve that distinction. A practice or source reference may help readers find or compare the definition; it does not identify the kind. The Plain wording creates no system admission or assignment. |
 | `U.PromiseContent`              | promise, offering, service offering         | Never equate to provider system or API (L‑SERV).                                             |
-| `U.Capability` | ability, capacity (within bounds) | Separate from a system-role kind, system-role assignment, Method, and Work; carries its own envelope and measures. |
+| Holder capability (A.2.2) | ability, capacity (within bounds) | The System's actual ability under stated work conditions and attained bounds. An account has that holder as its subject and states the ability proposition in its content. The assertion, its support and demand-fit remain separate; no additional capability kind is admitted. |
 | `U.Dynamics`             | law of change, model of evolution           | Not a capability or a method.                                                                |
 
-**R‑1 (Plain first-use).** At first use in a section, show the **Tech label** and, optionally, the Plain twin only after membership is known: *"...one `U.Method` (the **how-to**); and, when a separately identified claim-bearing episteme has that method as its exact EntityOfConcern and passes A.3.2, one `U.MethodDescription` (an **account of that how-to**, sometimes called a recipe)..."*
+**R‑1 (Plain first-use).** At first use in a section, show the **Tech label** and, optionally, the Plain twin after its governing claim condition is established; for a kind label, establish membership first: *"...one `U.Method` (the **how-to**); and, when a separately identified claim-bearing episteme has that method as its exact EntityOfConcern and passes A.3.2, one `U.MethodDescription` (an **account of that how-to**, sometimes called a recipe)..."*
 **R-2 (No unpaired Plain in CC).** Conformance Checklists use **Tech labels** only.
 
 A source or practice may use local aliases in its glossary. Each alias points to one Tech designation under an effective scheme and an explicit local meaning claim. Create a `SchemeSenseCell` only when a named receiver needs a stable address; use F.9 only when an actual relation between distinct exact cells is current.

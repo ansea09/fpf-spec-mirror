@@ -6,12 +6,12 @@ section_id: "A.19.USCM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__009_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:7 — Conformance Checklist"
-line_start: 35700
-line_end: 35723
+line_start: 35616
+line_end: 35639
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -27,13 +27,13 @@ keywords:
 
 A USCM publication or use is conformant if it satisfies:
 
-1. **Mechanism.Intension completeness.** The publication includes the full intension shape (header/imports/subject/slot index/op algebra/laws/admissibility/applicability/transport/time/plane/audit), and uses the tri‑state guard form. SlotIndex is treated as a **derived** projection. (See `CC‑UM.*`.)
+1. **Mechanism declaration completeness.** The A.6.1 operation-local arguments/results, application predicates, identity/extent rules and laws in §4.1 are recoverable, together with the declared imports, subject, admissibility, applicability, transport, time, plane and Audit conditions. SlotIndex projects the argument/result declarations; eligibility retains its tri-state result.
 
 2. **SlotKind discipline.** SlotKind tokens match the CHR SlotKind lexicon for the roles used (`InputProfileSlot`, `CNSpecSlot`, `CGSpecSlot`, `MinimalEvidenceSlot`, `ScoringMethodDescriptionSlot`, `ScoreProfileSlot`); no generic `ContextSlot` is introduced. If a required token is missing, suite-dock it rather than introducing it ad hoc in the mechanism.
 
 3. **SCP+CSLC admissibility is enforced.** Any numeric transform used to produce score measures is admissible under `CGSpecSlot.SCP` and CSLC-lawful; illicit operations (especially “convenient arithmetic” over non-lawful scales) are excluded.
 
-4. **ScoringMethod is explicit and auditable.** `Score` cites `ScoringMethodDescriptionSlot` (edition‑pinned when reproducibility matters). No implicit “default scoring method” is assumed. The disclosed method respects polarity/monotonicity discipline (cf. `C.16`).
+4. **ScoringMethod is explicit and auditable.** `Score` cites `ScoringMethodDescriptionSlot` (edition-pinned when reproducibility matters). Its domain, codomain, Scale, polarity and use-required properties are disclosed and satisfy the applicable SCP/CSLC restrictions. Apply C.16 for any measurement claim.
 
 5. **No implicit normalization.** `Score` does not silently perform UNM. If `CN‑Spec.comparability` requires normalization‑based routing, the normalization step is explicit in choreography (Uses/pins) and auditable.
 
@@ -41,9 +41,9 @@ A USCM publication or use is conformant if it satisfies:
 
 7. **Unknown and evidence handling is explicit.** Unknown / insufficient evidence is not coerced to `0/false`. Eligibility uses `GuardDecision ∈ {pass|degrade|abstain}` and evaluates evidence against the effective policy (`MinimalEvidenceSlot` override or `CGSpecSlot.MinimalEvidence`).
 
-8. **P2W seam is preserved.** Planned slot fillings and edition pin bindings are not authored inside the mechanism intension; they are bound as WorkPlanning plan items under P2W and surfaced at run‑time only via `Audit` refs and pins.
+8. **Planning and actual binding remain separate.** A.15.2 carries the intended edition/policy baseline; A.15.3 governs typed filling only for independently declared positions. The actual application uses its effective bindings under §4.1, and Audit records their refs and pins. Planned selection alone does not establish actual use.
 
 9. **Relation and plane discipline.** Another bearer, scope and window, basis, method, plane, or result use gets a fresh eligibility decision. Any F.9 Bridge, kind relation, or plane relation is cited only when the score or conclusion relies on that obtaining relation, and supported loss routes to `R_eff`.
 
-10. **Specialization discipline, if extended.** Any specialization of USCM (`⊑/⊑⁺`) follows the multi‑level specialization discipline (`A.6.1:4.2.1`, `CC‑UM.8`): SlotKind invariance for inherited ops, no new mandatory inputs to the inherited `Score` op, and any extra outputs or ops expressed only via `⊑⁺`.
+10. **Specialization discipline, if extended.** Any specialization of USCM (`⊑/⊑⁺`) follows the following extension conditions: SlotKind invariance for inherited ops, no new mandatory inputs to the inherited `Score` op, and any extra outputs or ops expressed only via `⊑⁺`.
 

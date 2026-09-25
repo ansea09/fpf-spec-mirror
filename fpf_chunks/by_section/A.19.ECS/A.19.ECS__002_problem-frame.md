@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.ECS"
-pattern_title: "Evaluation CharacteristicSpace Construction"
+pattern_title: "Evaluation CharacteristicSpace Construction: Define What Counts as Better"
 section_id: "A.19.ECS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.ECS — Evaluation CharacteristicSpace Construction"
+  - "A.19.ECS — Evaluation CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:1 — Problem frame"
-line_start: 32176
-line_end: 32197
+line_start: 32116
+line_end: 32137
 dependencies:
   - "A.17-A.19"
   - "C.16"

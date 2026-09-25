@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.9"
-pattern_title: "Design‑Rationale Record (DRR) Method"
+pattern_title: "Design-Rationale Record (DRR) for FPF Content Decisions"
 section_id: "E.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.9 — Design‑Rationale Record (DRR) Method"
+  - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:intro — Intro"
-line_start: 82869
-line_end: 82874
+line_start: 83188
+line_end: 83193
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -36,7 +36,7 @@ dependencies:
 keywords:
 ---
 
-## E.9 - Design‑Rationale Record (DRR) Method
+## E.9 - Design-Rationale Record (DRR) for FPF Content Decisions
 
 > **Type:** Governance and authoring pattern
 > **Status:** Stable

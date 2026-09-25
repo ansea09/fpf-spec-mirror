@@ -6,12 +6,12 @@ section_id: "A.15.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
   - "A.15.11:5 — Archetypal Grounding"
-line_start: 29823
-line_end: 29856
+line_start: 29722
+line_end: 29761
 dependencies:
   - "A.15"
   - "A.15.7"
@@ -59,4 +59,10 @@ During a familiar dance figure, a learner remembers the sequence and follows the
 The cue makes a coordination question available. It does not establish the cause of the loss or supply the bodily method that would repair it. The teacher now needs a movement-practice method for examining the loss of balance and choosing a suitable exercise within the learner's limits. After practice, the relevant return is to the figure with its rhythm, balance and partner relations occurring together.
 
 Repeating “notice your balance” is unhelpful once the learner already recognizes the difficulty. The next contribution lies in acquisition or execution, not in making the question more prominent. For an artificial performer, the corresponding next contribution must be selected from its own sensing, control and learning methods; a human first-person instruction is not automatically an executable robot instruction.
+
+#### A.15.11:5.4 - A checklist supports a handover without claiming completeness
+
+A laboratory's existing handover requires the recipient to know which sample each result concerns. A short execution check asks the producer to compare the identifiers on the result and the specimen record before transfer. The action for an unresolved match is to recover that correspondence before using the result; a tick without that comparison supplies no assurance.
+
+The identifier check can pass while the recipient still cannot use the result because its unit or measurement condition is unclear. The handover therefore leaves room to name a concern outside the listed checks and obtain the relevant explanation. B.5.PI helps develop the question if neither person can yet state it. The checklist remains useful for its selected condition; it is not enlarged into a claim that every possible problem has been excluded.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.11.OP"
-pattern_title: "Decision-Relevant Least Action and Operational Parsimony"
+pattern_title: "Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
 section_id: "A.11.OP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
+  - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:intro — Intro"
-line_start: 25100
-line_end: 25110
+line_start: 24987
+line_end: 24997
 dependencies:
   - "A.10"
   - "A.11"
@@ -33,7 +33,7 @@ dependencies:
 keywords:
 ---
 
-## A.11.OP - Decision-Relevant Least Action and Operational Parsimony
+## A.11.OP - Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement
 
 > **Type:** Part A pragmatic principle pattern
 > **Class:** `Prag`

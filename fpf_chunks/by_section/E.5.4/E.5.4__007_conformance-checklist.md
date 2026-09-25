@@ -6,23 +6,16 @@ section_id: "E.5.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__007_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:6 — Conformance Checklist"
-line_start: 81740
-line_end: 81748
+line_start: 82065
+line_end: 82073
 dependencies:
   - "E.3"
   - "E.5"
 keywords:
-  - "audit"
-  - "bias"
-  - "ethics"
-  - "fairness"
-  - "neutrality"
-  - "review"
-  - "trans-disciplinary"
 ---
 
 ### E.5.4:6 - Conformance Checklist
@@ -32,5 +25,5 @@ keywords:
 | **CC‑BA.1** | Each Core pattern **SHALL** include a *Bias‑Annotation* listing the five lenses and any declared scope limitation. | Ensures explicit reflection on bias. |
 | **CC‑BA.2** | A pattern labelled “universal” **MUST NOT** privilege a single lens without justification or scoping note. | Preserves trans‑disciplinary integrity. |
 | **CC‑BA.3** | If scope is declared, the pattern **SHALL** reference the mapping or rationale that enables cross‑domain translation. | Keeps pathways open for other calculi. |
-| **CC‑BA.4 (QD‑triad evidence for “universal”).** | Any pattern that labels itself **“universal”** SHALL cite **A.8 CC‑UC 1 + CC‑UC 2** and attach the **QD evidence** (Diversity_P + IlluminationSummary, with edition and binning) or else state the exact ClaimScope, population or bearer, qualification window, and intended use for which the claim is made. | preserves domain quality diversity |
+| **CC‑BA.4 Universality claim and applicable evidence** | A pattern labelled **“universal”** states the exact ClaimScope, population or bearer, qualification window, and intended use of that claim. When the claim is universal-core placement for a durable U-kind candidate admitted through **E.24.UK**, apply **A.8:3**'s complete cross-domain projection test. `Diversity_P` or `IlluminationSummary` supports that test only through its governing C.17, C.19, or direct pattern; it is not a standalone gate. | Keeps the claimed scope and its applicable evidence explicit. |
 

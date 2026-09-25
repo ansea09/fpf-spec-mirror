@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.4.DPF.DA"
-pattern_title: "Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
+pattern_title: "Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
 section_id: "E.4.DPF.DA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
+  - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:5 — Archetypal Grounding"
-line_start: 80600
-line_end: 80642
+line_start: 80897
+line_end: 80939
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -65,7 +65,7 @@ Show: A domain DPF all-in-one publication carrier contains domain patterns, a so
 
 Show: A proposed systems-management DPF promises help with service launch, cross-team coordination, incident response, and feedback-based improvement. `D12` checks whether the selected pattern sets and their actual relations serve all four problem families, whether one service-launch case needs patterns from more than one set, what remains omitted, and where later authors return to the sources. One source describes a genuine first-then incident flow; another describes monitoring, coordination, and resource provision contributing at the same time. The evaluation preserves both readings. A completed `C.32.MWA` result may supply that evidence, but the evaluator neither repeats the Method's actions nor treats use of its result as an edition dependency. The named first use must include every required pattern from this DPF. For each relied-on external result, the assessment names its actual kind and supplying product, the receiving use and discovery route, material currentness or availability, and the fact that it remains external. `PFM11` then checks whether the carrier tells readers what it exposes and omits. `PFM1` checks practitioner entry and navigation; `PFM12` checks only the remaining common-form and edition-projection agreement. A shared observation and repair are recorded once. None of these form checks substitutes for `D12`.
 
-Show: A hydroponic-cucumber DPF has excellent crop-control sources but no relation records and no first-entry carrier. `E.21` may find that individual crop patterns are good, but `D5PackageFormLayeringAndRelationAdequacy` and `D2DidacticEntryAndAdoptionAdequacy` stay below floor until relation records and first-use routes exist.
+Show: A hydroponic-cucumber DPF has excellent crop-control sources but no relation records and no first-entry carrier. `E.21` may find that individual crop patterns are good, while `D2DidacticEntryAndAdoptionAdequacy` stays below floor until a usable first-entry route exists. `D5PackageFormLayeringAndRelationAdequacy` falls only when the needed relations cannot be recovered or a named maintenance use needs the missing records; direct assertions can otherwise supply those relations.
 
 Near miss: A DPF all-in-one publication carrier has a huge map before the pattern bodies. The map is correct but cold readers do not know when to open it. `D2` and `D5` fall unless pattern relations, low-value repair actions, or first-entry text route readers into the map from a real work trigger.
 

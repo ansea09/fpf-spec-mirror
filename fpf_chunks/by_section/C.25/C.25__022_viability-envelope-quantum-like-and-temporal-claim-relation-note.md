@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.25"
-pattern_title: "Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
+pattern_title: "Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
 section_id: "C.25:20a"
 section_title: "Viability-envelope, quantum-like, and temporal-claim relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__022_viability-envelope-quantum-like-and-temporal-claim-relation-note.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
+  - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:20a — Viability-envelope, quantum-like, and temporal-claim relation note"
-line_start: 60532
-line_end: 60568
+line_start: 60708
+line_end: 60744
 dependencies:
   - "A.10"
   - "A.15"

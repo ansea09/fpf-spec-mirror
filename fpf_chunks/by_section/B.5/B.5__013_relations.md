@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5"
-pattern_title: "Canonical Reasoning Cycle"
+pattern_title: "Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
 section_id: "B.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__013_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5 — Canonical Reasoning Cycle"
+  - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:12 — Relations"
-line_start: 43551
-line_end: 43565
+line_start: 43506
+line_end: 43520
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -35,5 +35,5 @@ keywords:
 
 [fpf-b5-4-ref]: B.5.4-Recognize-a-Reusable-Concept-in-a-Concrete-Situation.md#b54---recognize-a-reusable-concept-in-a-concrete-situation
 
-[fpf-a15-9-ref]: A.15.9-Request-and-Use-a-Bounded-Result-from-Another-Practice.md#a159---request-and-use-a-bounded-result-from-another-practice
+[fpf-a15-9-ref]: A.15.9-Request-and-Use-a-Bounded-Result-from-Another-Practice.md#a159---use-or-request-a-bounded-result-from-another-practice
 

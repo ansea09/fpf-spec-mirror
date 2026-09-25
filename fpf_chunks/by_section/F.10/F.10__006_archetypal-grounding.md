@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.10"
-pattern_title: "Status Families Mapping: Evidence, Standard, and Requirement Status"
+pattern_title: "Apply and Interpret Evidence, Standard and Requirement Statuses"
 section_id: "F.10:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
+  - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:5 — Archetypal grounding"
-line_start: 105712
-line_end: 105733
+line_start: 106132
+line_end: 106153
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -29,12 +29,16 @@ dependencies:
   - "G.11"
   - "G.6"
 keywords:
-  - "applicability windows"
-  - "evidence"
-  - "polarity"
-  - "requirement"
-  - "standard"
-  - "status"
+  - "EvidenceStatus"
+  - "RequirementStatus"
+  - "StandardStatus"
+  - "direct result"
+  - "governed target"
+  - "interpretation rule"
+  - "scope"
+  - "status families"
+  - "status value"
+  - "window"
 ---
 
 ### F.10:5 - Archetypal grounding
@@ -49,7 +53,7 @@ The SLO clause and service target are independently recovered. Dated evaluation 
 
 One exact safety-controller MethodDescription is `StandardStatus=Approved` only under the named standard/profile edition, source relation, scheme, scope, window, and selection use. That status neither creates the MethodDescription nor proves an approval speech act, permission, method enactment, or response-time satisfaction.
 
-A particular controller run is separate `U.Work`. Its response-time measurement result and evidence-use relation can enter direct clause-evaluation work. A separate requirement status may follow from that evaluation; it does not inherit `Approved` by label or family edge.
+For a controller run independently admitted as `U.Work` under A.15.1, keep that occurrence separate from its response-time measurement result. That result and its evidence-use relation can enter direct clause evaluation. A separate requirement status may follow from the evaluation; it does not inherit `Approved` by label or family edge.
 
 #### F.10:5.3 - Model card and fairness requirement
 

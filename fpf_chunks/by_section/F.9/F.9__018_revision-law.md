@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9"
-pattern_title: "Alignment and Bridge across Contexts"
+pattern_title: "Relate Local Meanings across Contexts (Alignment and Bridge)"
 section_id: "F.9:16"
 section_title: "Revision law"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__018_revision-law.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.9 — Alignment and Bridge across Contexts"
+  - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:16 — Revision law"
-line_start: 105144
-line_end: 105154
+line_start: 105566
+line_end: 105576
 dependencies:
   - "A.10"
   - "A.13"
@@ -61,7 +61,7 @@ keywords:
 2. **Profile change.** A changed kind, symmetry or orientation, endpoint reading, relation-specific correspondence or difference condition, applicability or as-of basis, Boolean truth condition, or stop dependency identifies another profile and occurrence candidate.
 3. **Use-content change.** A changed proposed use `u`, direction, use-specific rule, or permitted-loss tolerance identifies another C.2.1 claim while the fixed Bridge remains unchanged.
 4. **Polarity change.** Affirmative versus negative is changed claim content; it is not a changed reliance disposition.
-5. **Evidence or reliance change.** A changed evidence item, path, currentness window, A.10 relation, local `RelianceDisposition`, or B.3 `AssuranceResult` reopens reliance without reidentifying the fixed Bridge or fixed C.2.1 claim.
+5. **Evidence or reliance change.** A changed evidence item, path, currentness window, independently established direct relation cited by the A.10 path, local `RelianceDisposition`, or B.3 `AssuranceResult` reopens reliance without reidentifying the fixed Bridge or fixed C.2.1 claim.
 6. **Obtaining change.** New endpoint facts may establish, refute, or leave unresolved the predicate for a fixed occurrence candidate without silently changing its identity.
 7. **Description, Card, registry, or publication change.** Apply C.2.1 to description/Card identity and E.24.PUB to publication occurrence, form, and carrier; none creates, removes, reidentifies, or recurs the Bridge.
 8. **Receiving occurrence change.** Reidentify or revise the Work, assertion, publication, relation, application, or other receiving object under its subject pattern.

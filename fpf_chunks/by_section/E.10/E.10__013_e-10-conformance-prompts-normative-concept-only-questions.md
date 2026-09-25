@@ -6,12 +6,12 @@ section_id: "E.10:11"
 section_title: "E.10 conformance prompts (normative, concept-only questions)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__013_e-10-conformance-prompts-normative-concept-only-questions.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:11 — E.10 conformance prompts (normative, concept-only questions)"
-line_start: 85064
-line_end: 85086
+line_start: 85384
+line_end: 85406
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,7 +74,7 @@ keywords:
 10. **Promise, ability, access, and performance split.** Are service promise or acceptance content, service-access relation, **Capability** (ability), and **Work** (performance) distinct and defined by their patterns?
 11. **Plan and execution split.** Are planning cues and `U.WorkPlan` kept separate from performed `U.Work`? For each actual performer, does A.13 supply the local kind and criterion, classification, same obtaining assignment, scope, working situation, window, and adequate core evidence, with a profile only when conditionally consumed? Does A.15.1 then independently admit the Work from its performance history, Method, time, and containing System? When precise assignment-bound attribution is claimed, does F.6 separately relate that already admitted Work through the same assignment? Do affected-referent, binding, resource-use, assertion, and description claims remain separate?
 12. **Predicate-compatibility cue.** When evidence, a document, publication, pattern, representation, or method is the grammatical subject of an agentive or causal predicate, read the complete span through `F.19`, including negation and modality. Retain clear ordinary metonymy; otherwise state the capable participant's action or the exact non-agentive relation positively. Open A.1, A.13, A.15.1, or F.6 only when precise agency, Work, or attribution is part of the claim.
-13. **Bridge prompt.** If the text asserts a relation between two local senses, are the exact cells identified, and does the F.9 Bridge actually obtain under its applicable relation profile? When a receiving use is current, does a separate C.2.1 claim state the proposed action, use direction, correspondence rule, tolerated loss, and polarity? Are reliance, assurance, and any action that occurred kept separate and opened only when current?
+13. **Bridge prompt.** When the text asserts an F.9 Bridge between local senses, are the exact cells identified and does that relation obtain under its applicable profile? When a receiving use is current, does a separate C.2.1 claim state the proposed action, use direction, correspondence rule, tolerated loss and polarity? Keep reliance, assurance and any performed action separate and open them only when current. Other relations between local senses use their own defining rule.
 14. **Collision prompt.** Were full-text and Reserved-Names checks completed, with no other meaning of this token anywhere in FPF?
 15. **Naming-procedure prompt.** If one durable reusable name is needed because no admissible existing token carries the needed meaning beyond one local repair, was the governed value settled first, was the applicable **F.8** decision recorded, and were the **F.18** NameCard and any required **F.17** public term row completed rather than picking a label by intuition or filling publication apparatus around an unresolved object?
 16. **Value-substitution prompt.** After the repair, can the declared reader still see the remaining admissible reader use, and did the repair preserve usability, affordability, semantic composability, fit with the rule governing the claim, and local action guidance? If not, narrow the repair, keep ordinary wording with a recovery note naming the recovered kind and use, or leave the issue blocking instead of optimizing for lexical purity.

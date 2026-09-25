@@ -6,12 +6,12 @@ section_id: "E.10:13"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__015_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:13 — Bias-Annotation"
-line_start: 85123
-line_end: 85133
+line_start: 85443
+line_end: 85453
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,7 @@ Scope: FPF-governed wording-use repair; ordinary ungoverned language remains out
 
 | Bias | How E.10 prevents it |
 | --- | --- |
-| Lexical-substitution bias | E.10 starts with trigger scan and governed-object recovery, not synonym replacement. |
+| Lexical-substitution bias | E.10 starts with the connected F.19 reading, then uses cues and governed-object recovery only for an unresolved FPF wording question, not synonym replacement. |
 | Umbrella-to-umbrella bias | Recover the recognizable object and relation, then name only the exact FPF value or pattern contribution that changes the sentence. |
 | Semio-bias | Wording-use repair does not displace the EntityOfConcern; descriptions, publications, and source-use relations stay separate from the object or claim under concern. |
 | Misallocated activity | Assign action to the capable participant, or state the pattern's defining, constraining, guiding, or descriptive relation positively. |

@@ -6,12 +6,12 @@ section_id: "E.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:3 — Forces"
-line_start: 81357
-line_end: 81365
+line_start: 81675
+line_end: 81683
 dependencies:
   - "E.2"
   - "E.3"
@@ -20,12 +20,6 @@ dependencies:
   - "E.5.3"
   - "E.5.4"
 keywords:
-  - "GR-1 to GR-4"
-  - "architecture"
-  - "constraints"
-  - "guardrails"
-  - "rules"
-  - "safety"
 ---
 
 ### E.5:3 - Forces

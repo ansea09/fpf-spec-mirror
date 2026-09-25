@@ -6,12 +6,12 @@ section_id: "E.10.D2:7"
 section_title: "Recovery decisions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__009_recovery-decisions.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:7 — Recovery decisions"
-line_start: 87154
-line_end: 87165
+line_start: 87474
+line_end: 87485
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -34,12 +34,15 @@ dependencies:
   - "F.9"
   - "G.11"
 keywords:
-  - "Description episteme"
-  - "DescriptionContext"
+  - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"
+  - "checkable claims"
+  - "description episteme"
+  - "harness"
+  - "publication"
+  - "representation"
   - "specification use"
-  - "testable"
-  - "verifiable"
+  - "viewpoint"
 ---
 
 ### E.10.D2:7 - Recovery decisions
@@ -50,7 +53,7 @@ keywords:
 | Read one episteme for a concern-bearing describing use | The named describing use and the exact viewpoint P it selects when that selection changes the reading | Viewpoint conformance, `U.View` membership, or another episteme identity |
 | Rely on description as a specification | Checkable claims and an exact checking harness or validation relation; preserve or update a selected viewpoint only when reliance depends on it | Specification force from suffix, formality, approval, or storage format |
 | Use a selected organization of model use | Exact A.1.1 BoundedModelUseStructure designated by the receiving use | Structure as an episteme constituent or generic context |
-| Describe an episteme | A new C.2.1 episteme whose EntityOfConcern is the earlier episteme | Mandatory meta-description layer or context recursion |
+| Describe an episteme | The C.2.1 episteme whose EntityOfConcern is the described episteme; reuse an adequate existing description, or preserve the permitted self-description case | Mandatory meta-description layer or context recursion |
 | Use unchanged content differently | The same episteme when all three identity discriminators remain fixed, plus the changed neighboring use relation | A new episteme merely from changed viewpoint selection, evidence, publication, carrier, or representation |
 | Use a changed ClaimGraph, EntityOfConcern, or effective scheme | Another episteme under C.2.1 | Continuity from a retained label or file path |
 

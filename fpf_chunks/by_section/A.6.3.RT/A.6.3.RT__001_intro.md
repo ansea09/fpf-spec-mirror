@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.RT"
-pattern_title: "Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
+pattern_title: "Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
 section_id: "A.6.3.RT:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
+  - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:intro — Intro"
-line_start: 15986
-line_end: 15991
+line_start: 15968
+line_end: 15973
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -47,7 +47,7 @@ dependencies:
 keywords:
 ---
 
-## A.6.3.RT - Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition
+## A.6.3.RT - Representation-Scheme Transition: Change Representation of the Same EntityOfConcern
 
 > **Type:** Specialization pattern
 > **Status:** Stable

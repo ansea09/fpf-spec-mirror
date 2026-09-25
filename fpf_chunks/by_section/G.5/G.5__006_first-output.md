@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.5"
-pattern_title: "Multi‑Method Dispatcher and MethodFamily Registry"
+pattern_title: "Method-Family Registry, Dispatch and Selected-Set Result Declaration"
 section_id: "G.5:0.4"
 section_title: "First output"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__006_first-output.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
+  - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:0.4 — First output"
-line_start: 112624
-line_end: 112646
+line_start: 113044
+line_end: 113049
 dependencies:
   - "C.11"
   - "C.18"
@@ -32,6 +32,7 @@ dependencies:
   - "G.9-G.11"
   - "G.Core"
 keywords:
+  - "JointUseSet"
   - "RankedShortlist"
   - "SelectorOutcomeKind"
   - "Shortlist"
@@ -48,31 +49,14 @@ keywords:
   - "method-family registry"
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
-  - "selected-set publication"
+  - "selected-set result declaration"
   - "set-result outcome"
   - "tool choices are outside the core"
 ---
 
 ### G.5:0.4 - First output
 
-The first useful output from this dispatcher and registry question is one declared `SelectorOutcome` admitted by the closed `SelectorOutcomeKind` set in §4.4b. For `SetResultOutcome`, use the closed `SetResultFamily` rule to distinguish `Shortlist`, `RankedShortlist`, and `JointUseSet`; for another outcome kind, state its admitted handoff, abstain, or escalation content. In every case, state the applicable members or keyed member entries, ordering, named use and inclusion conditions when applicable, and basis pins in one place.
+State one `SelectorOutcome` under §4.4b: its kind, applicable members or keyed entries, ordering, named use and inclusion conditions where required, handoff or blocking content, and sufficient basis pins. Use the quick card in §4.4c. For an ordinary result over grounded rows, direct refs to the grouping, eligibility and comparison basis plus the S3 audit refs suffice; the same compact record can carry them.
 
-For an ordinary run over already grounded rows, that selector-facing result content is enough. The basis pins may be direct references to the declared grouping, eligibility, and comparison basis, and the same compact record may carry the DRR/SCR-addressable audit refs required by S3. Do not require a fresh registry build, `CrossingAllowance`, evidence graph, assurance claim, stable public id, separate audit package, or E.24.PUB occurrence unless the current use actually needs that stronger object or claim.
-
-
-
-Here a selector outcome means complete selector-facing result content. A stable public designator is an additional field only when a named use needs it. Neither the result content nor its designator is evidence that selection Work or an actual `Select` application occurred, and neither is an E.24.PUB availability occurrence. Claim actual publication only through the exact selected C.2.1 episteme edition, audience declaration, bounded-use declaration, publication form, presentation carrier, and obtaining `EpistemePublicationRelation`; rendering or uploading Work remains another occurrence.
-
-
-If that first output cannot yet be stated honestly, the `G.5` result is incomplete.
-
-G.5 keeps the dispatcher and registry object set here and leaves universal Part-G invariants to `G.Core`; method-specific and generator-specific semantics stay in their named source patterns and arrive here only through explicit pins.
-
-When applying `C.11` has already produced one local choice result, applying `C.19` one pool-policy result, or applying `C.24` one enactment-facing next action, `G.5` applies when the question becomes declaring selector-facing result content for retained alternatives, all-member joint use, or a narrowed handoff rather than one more explanation of why the upstream result looked reasonable. The `G.5` result states its outcome kind, applicable public label, membership form, and basis pins directly.
-
-The `G.5` result is incomplete if its outcome kind, applicable public label, retained members or keyed joint-use member entries, ordering, named use where required, handoff content, abstain or escalation condition, or basis pins are still only implicit in upstream notes.
-
-When a framework needs a selector-facing result for a selected pattern set, use `G.5` only to declare that result: scope, selection or inclusion conditions, included pattern refs, excluded candidate refs when relevant, and basis pins. Use `JointUseSet` only when every exact ref is included for the named use; otherwise retain shortlist semantics. Add a stable public identity and its UTS obligation only when a named use needs them. If audience availability is current, use E.17 for a source-backed face and return to source and E.24.PUB for the publication occurrence and availability. This selected-set result does not define pattern-use relations, architecture decisions, or framework edition dependencies.
-
-When exact framework editions are the members, preserve their existing edition identities and use E.4.PFR for any direct dependency or compatibility claim. G.5 creates no `MethodRef`, method-family row, publication occurrence, access claim, or actual selection Work for those editions.
+A prior C.11 choice, C.19 pool-policy result, C.24 next action or another governed inclusion basis can supply the inputs. G.5 states the resulting membership or handoff. Exact framework editions retain their own identities and use `G.5-6 DeclareSetResult`; E.4.PFR governs their dependency or compatibility claims. Add a stable public identity only when needed. For audience availability, use E.17's source-backed face and E.24.PUB's publication conditions through S5.
 

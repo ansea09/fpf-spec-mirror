@@ -6,12 +6,12 @@ section_id: "C.26.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:4 — Solution"
-line_start: 61887
-line_end: 62075
+line_start: 62095
+line_end: 62283
 dependencies:
   - "A.10"
   - "A.15"
@@ -86,11 +86,11 @@ Finish with one of these results:
 
 | Result | Meaning |
 | --- | --- |
-| Envelope-regulation claim | Write one `C.2.1` episteme whose EntityOfConcern is the exact viability bearer and whose ClaimGraph states the protected promise/function, envelope variables, viable region/bounds, disturbance, sensors/probes, candidate interventions, boundary condition, trade-off condition, adaptation cost, and failure mode. Its effective ReferenceScheme supplies the reading context. |
+| Envelope claim | Write one `C.2.1` episteme whose EntityOfConcern is the exact viability bearer and whose ClaimGraph states the protected promise/function, envelope variables, viable region/bounds, disturbance, sensors/probes, boundary condition, and failure mode. When regulation is proposed, also state the candidate interventions, trade-off condition, and adaptation cost. Its effective ReferenceScheme supplies the reading context. |
 | Candidate-intervention recovery or redesign | Recover the direct object first. Revise only the current proposal—its Method or description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description—and identify any dated Work, actual change, obtaining relation occurrence, and resulting state separately. A fixed F.9 Bridge is not an intervention object: after an endpoint sense or profile changes, test another F.9 candidate and identify it only if the predicate obtains. |
 | Measurement/probe redesign | Redesign a dashboard, alert, health check, readiness score, or review process because it distorts the envelope it reports. |
 | Neighbor coordination without QL | Keep the C.26.3 envelope-regulation claim and use `C.25`, `C.16`, `A.6`, `A.15`, `U.Dynamics`, `C.18`, `C.19`, or `A.19` for the exact neighboring objects and claims. Omit `C.26` / QL when no contextual-model obstruction remains. |
-| No envelope claim | Drop the viability-envelope wording when the exact object for the local viability-bearer position and the pattern used to identify it, protected promise/function, viable region/bounds, disturbance, candidate interventions, adaptation cost, and failure mode cannot be stated. |
+| No envelope claim | Drop the viability-envelope wording when the exact bearer and its identity basis, protected promise/function, viable region/bounds, disturbance, or failure mode cannot be stated. A proposed regulation also needs at least one candidate intervention recovered under its direct pattern and its adaptation cost. An envelope diagnosis with no intervention yet may retain only the supported diagnostic claim. |
 
 #### C.26.3:4.3 - Metric-induced distortion
 
@@ -168,7 +168,7 @@ Well-formedness constraints:
 - at least two envelope dimensions are visible when the claim says "viability" rather than one ordinary metric;
 - at least one candidate intervention is named when the text proposes regulation rather than only diagnosis, and its proposal-side Method, description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description is recovered under the subject pattern; any dated Work, actual transformation, obtaining relation occurrence, or resulting state is identified separately;
 - authority and latency are stated only for an object to which they apply; a description, Method, plan, setting label, Bridge description, or resulting state is not made an actor or Work by this card;
-- the adaptation cost is named, because allostasis hides cost when phrased as "stability through change";
+- when regulation or adaptation is proposed, its adaptation cost is named, because allostasis hides cost when phrased as "stability through change";
 - the failure mode is named, because viability is otherwise indistinguishable from optimism.
 
 #### C.26.3:4.7 - Sensor, probe, candidate-intervention, and metric split

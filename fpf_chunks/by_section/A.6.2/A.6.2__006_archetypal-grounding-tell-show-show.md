@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.2"
-pattern_title: "Effect-free episteme morphing"
+pattern_title: "Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
 section_id: "A.6.2:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.2 — Effect-free episteme morphing"
+  - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 14868
-line_end: 14949
+line_start: 14850
+line_end: 14931
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -70,7 +70,7 @@ The EFEM `NormalizeView : X→Y`:
 
 * has `entityOfConcernChangeMode(NormalizeView) = preserve`;
 * has a source-to-receiving ClaimGraph difference consisting only of the declared normalization. If an exact `EpistemeEditionRelation` or another neighboring relation matters, name its predicate and participants on each side and compare the endpoint facts; `NormalizeView` does not change that occurrence. An assertion such as “normalised at edition E” is part of Y's ClaimGraph and must pass P2;
-* is effect-free and separately claims idempotence on the output-closed domain of valid `EpistemeView` values under the fixed scheme and normalization rules; equality means exact normalized ClaimGraph equality plus equality of all identity-bearing episteme values, and a fixture that composes `NormalizeView` with itself supplies the repeat witness (P4);
+* is effect-free. A repeat check uses the next normalization arrow `n_Y : Y -> Z` under the fixed scheme and normalization rules. It must establish `Z = Y` under C.2.1 and `compose(n_Y, NormalizeView) ≃ NormalizeView` under the substrate's declared arrow equivalence, with a fixture or proof. In the identity fixture, the rule leaves already normalized Y unchanged and uses `n_Y = id_Y`; P3 then gives `compose(n_Y, NormalizeView) = NormalizeView`. The exact `NormalizeView : X -> Y` is self-composable only when X = Y (P3-P4);
 * is conservative (P2): no new claims, only re‑expression.
 
 MVPK can reuse the EFEM laws for these normalization arrows. Claim the relevant category and functor only when their mappings, identity laws and composition conditions are established under P3 and the selected MVPK profile.
@@ -106,9 +106,9 @@ Two typical EFEM species over this kind are:
   * satisfies P2 only when every claim in the receiving specification is recoverable from exact source ClaimGraphs or independently current facts under named relations and schemes; the unchanged EntityOfConcern is an endpoint identity condition, not a proposition or additional premise;
   * satisfies C.2.1:7.1 by declaring its endpoint-value comparison, named relation-read profile, and change mode.
 
-* `Normalize_EngView : U.View → U.View` — a view‑normalisation EFEM (again with `EntityOfConcernChangeMode = preserve`) that:
+* `Normalize_EngView` — a family of view-normalisation EFEM arrows `n_X : X -> Y` between exact `U.View` epistemes (again with `EntityOfConcernChangeMode = preserve`) that:
   * states how the formal relation uses the three C.2.1 identity values and makes the exact source-to-receiving ClaimGraph difference explicit; any difference between separately obtaining endpoint facts that it compares is named by the exact predicate and participants, and any normalization application remains separate;
-  * is effect-free and separately claims idempotence on its output-closed engineering-view domain under the fixed scheme and normalization rules; equality means exact normalized ClaimGraph equality plus equality of all identity-bearing episteme values, and a composition fixture supplies the repeat witness (P4);
+  * is effect-free. A repeat claim identifies the next arrow `n_Y : Y -> Z` under the same rules, establishes `Z = Y` under C.2.1, and witnesses `compose(n_Y, n_X) ≃ n_X` under the declared arrow equivalence, as in §5.2;
   * is conservative (P2) by construction: it never introduces new atoms about the selected system.
 
 Concrete `A.6.3/A.6.4/E.17.*` patterns for engineering description and specification-use idioms state explicitly, under C.2.1:7.1 and `CC-EFEM.*`, which of the three C.2.1 endpoint values remain the same or differ and which exact separately obtaining relation occurrences their arrow rules read or compare.

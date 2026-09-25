@@ -6,12 +6,12 @@ section_id: "A.15.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:1 — Problem frame"
-line_start: 28926
-line_end: 28961
+line_start: 28815
+line_end: 28850
 dependencies:
   - "A.10"
   - "A.13"
@@ -61,7 +61,7 @@ For a reversible local choice, ordinary project language is enough. Create a dur
 - For a settled short procedure with no material branch, use the applicable domain Method; consult its `A.3.2` MethodDescription when a description is needed.
 - For a choice outside current Work when the chooser and `OptionSet` are already known, use `C.11`.
 - For missing action candidates, use a subject-specific generation Method; use `C.18` only for an actual open-ended candidate archive and front.
-- After the action is fixed, use `C.24` only if calls to tools or services must be planned.
+- After the action is fixed, use `C.24` if calls to tools or services must be planned. An already prescribed action can enter C.24 directly before Work begins; it needs no A.15.7 decision.
 - For a plan revision before Work, use `A.15.2`.
 - For retrospective Method recovery, use `A.3.1.MR`.
 

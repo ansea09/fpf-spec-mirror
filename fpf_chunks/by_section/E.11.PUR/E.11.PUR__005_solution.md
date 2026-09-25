@@ -6,12 +6,12 @@ section_id: "E.11.PUR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:4 — Solution"
-line_start: 88524
-line_end: 88687
+line_start: 88874
+line_end: 89044
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,7 +64,7 @@ PatternUseApplicabilityFinding@Context <: U.Episteme:
   missingBasisBoundaryRef?: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-The five criteria refer to one candidate. In ordinary conversation, inspect all five without materializing five findings. State the aggregate applicability when it answers the current question; if the later comparison supports a recommendation, carry that result into the recommendation. `PatternUseApplicabilityFinding@Context` is the reliance-bearing support episteme: when it exists, its five findings cover each criterion exactly once. Use mutually exclusive branches: any `misfit` yields `inapplicable`, including when another aspect has `insufficientBasis`; with no `misfit`, one or more `insufficientBasis` values yield `insufficientBasis` and a missing-basis boundary; otherwise all five are `fit` and the result is `applicable`.
+The five criteria refer to one candidate. When its basis must be addressable, consume PUA §4.4's ordinary C.2.1 claim about that candidate and its exact supporting claims, relations or evidence uses; no candidate-basis U.Relation is required. A contradicted product-law premise and missing dependence information remain distinct inputs to these fit tests. In ordinary conversation, inspect all five without materializing five findings. State the aggregate applicability when it answers the current question; if the later comparison supports a recommendation, carry that result into the recommendation. `PatternUseApplicabilityFinding@Context` is the reliance-bearing support episteme: when it exists, its five findings cover each criterion exactly once. Use mutually exclusive branches: any `misfit` yields `inapplicable`, including when another aspect has `insufficientBasis`; with no `misfit`, one or more `insufficientBasis` values yield `insufficientBasis` and a missing-basis boundary; otherwise all five are `fit` and the result is `applicable`.
 
 A known `misfit` settles this candidate's applicability under the inspected conditions. Do not obtain more information merely to fill the remaining aspects when it cannot change that answer. If changing the failed condition is a serious continuation, appraise that change separately and reconsider the affected fit under `4.6`. A different candidate may still be applicable and worth recommending.
 
@@ -147,33 +147,40 @@ PatternUseCoordination@Context <: U.Episteme:
   stopBoundaryRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-`unordered` has no ordering relations. `partialOrder` and `totalOrder` use explicit pairwise relations. A total order is the bounded `PatternUseSequence@Context` specialization under its named receiving use; it is not a universal route or project WorkPlan.
+`unordered` has no ordering relations. `partialOrder` and `totalOrder` use explicit pairwise relations. A total order is the bounded `PatternUseSequence@Context` specialization under its named receiving use; it is not a universal route or project WorkPlan. Treat the declared pairwise precedence as strict: its transitive closure must be irreflexive. A `totalOrder` additionally compares every pair of distinct members. A cycle or unresolved required pair blocks that ordering claim; preserve the known dependencies and state the unresolved coordination question.
 
 #### E.11.PUR:4.4 - Pairwise precedence
+
+A pairwise precedence relation is an applicable directed constraint between two exact candidate uses for the governed coordination question. It can obtain before either is performed. Establish its branch predicate:
+
+* **prerequisiteResult:** the dependent use's direct rule requires exact content, and the coordination has a stated basis for selecting this prerequisite use to supply it. Cite that rule, content and selection basis together with the prerequisite candidate's exact expectation. Matching output kinds alone is insufficient. The result need not yet exist for the dependency to obtain.
+* **methodPrecondition:** performing the dependent use first would invalidate a condition that the prerequisite use actually needs, and the proposed order preserves that condition. Name both uses and the condition; unary candidate fit alone supplies no pair.
+* **sharedConstraintResolution:** an applicable schedule or priority rule selects this direction to resolve the actual shared constraint. Shared-resource exclusion alone establishes conflict, not A-before-B. A rule selecting B-before-A defeats the proposed A-before-B claim.
 
 ```text
 PatternUsePrecedenceBasisValue =
   prerequisiteResult | methodPrecondition | sharedConstraintResolution
 
 PatternUseOrderingRelation@Context <: U.Relation:
-  coordinationRef: U.EpistemeRef, referencing one PatternUseCoordination@Context
-  prerequisiteCandidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
-  dependentCandidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
+  coordinationRef: U.EpistemeRef, describing the governed coordination question
+  prerequisiteCandidatePatternUseRef: U.EpistemeRef
+  dependentCandidatePatternUseRef: U.EpistemeRef
   precedenceBasis: PatternUsePrecedenceBasisValue
-  precedenceBasisResultExpectationRef?: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
-  precedenceBasisResultClosureFindingRef?: U.EpistemeRef, referencing one current PatternUseResultClosureFinding@Context
-  precedenceConditionRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
-  orderingRationaleRef: U.EpistemeRef, referencing one PatternUseCoordinationRationale@Context
-  RelationRefKind: U.EntityRef
+  precedenceBasisResultExpectationRef?: U.EpistemeRef  // prerequisiteResult only
+  requiredContentAndSelectedSupplierBasis?:  // prerequisiteResult only
+  precedenceConditionRef: U.EpistemeRef, describing the applicable semantic condition
+  constitutiveOrderingRuleRef?: exact schedule or priority rule when it constitutes this order
+  orderingRationaleRef: U.EpistemeRef
   Direction: prerequisiteCandidatePatternUseRef -> dependentCandidatePatternUseRef
-  Dependence: local to coordinationRef, both candidate editions, the precedence basis and condition, and any current result-closure support
-  Identity: <coordinationRef, prerequisiteCandidatePatternUseRef, dependentCandidatePatternUseRef, precedenceBasis, precedenceConditionRef>
 ```
 
-The prerequisite and dependent candidates are different members of the same coordination. When `precedenceBasis=prerequisiteResult`, both result references are present. `precedenceBasisResultExpectationRef` equals the prerequisite candidate's exact expectation. `precedenceBasisResultClosureFindingRef` resolves to that same candidate and expectation and reports the independently identified result or obtaining relation plus the category-correct basis that makes the precedence claim true. Predicate, pattern locator, `ClaimGraph`, Method, plan, dated Work, Transformation, evaluation, decision, or later-use object appear only when the cited closure actually depends on them. The ordering relation copies none of those fields.
+The candidates are distinct members of the coordination. The relation obtains while the applicable branch predicate holds for those candidates, the governed question and semantic condition. A known false branch condition establishes non-obtaining; a missing rule or needed case fact leaves it unresolved. An unmet prerequisite result is not a false dependency condition: it concerns readiness below.
 
-The closure finding is a C.2.1 episteme and creates neither the result nor the ordering relation. For `prerequisiteResult`, the ordering relation obtains only while its `precedenceConditionRef` is satisfied by the result and category-correct basis reported there. A missing relation rule or information, false predicate, or absent operation binding leaves the precedence relation non-obtaining and the dependent use at its return boundary. For `methodPrecondition` and `sharedConstraintResolution`, both result-reference positions are absent.
-Treat the dependent candidate as following only after its precedence basis is established. Page order, seminar order, identifier order, or visual adjacency does not create that relation.
+**Identity and extent.** Keep the same dependency for the same exact candidates, governed coordination use, branch and meaning of its precedence condition, including any genuinely constitutive schedule/priority rule. A different rendering, witness or descriptive coordination episteme alone changes none of those values. A changed candidate or meaning-changing condition/rule requires a new relation claim and identity assessment; the record reference is not itself the identity law. Within a temporally qualified use, the occurrence lasts while that branch predicate holds; a gap where it ceases to hold ends the occurrence, and a later re-established occurrence has a new extent. Omit temporal machinery for an atemporal constraint.
+
+**Readiness is a separate claim.** For prerequisite-result continuation, identify a current E.11.PUA result-closure finding and the actual result and category-correct basis that satisfy the required content and receiving conditions. The closure may concern the prerequisite use or an adequate earlier result reused under §4.2.1. State readiness/applicability for this continuation as its own ordinary C.2.1 claim. A known unmet condition means not ready; missing information leaves readiness unresolved. An expectation, ordering edge or closure record's presence alone supplies no achieved result.
+
+The dependency is not an instruction to repeat a use whose adequate earlier result is already available. Apply the result-reuse exit before proposing execution. A changed closure can change readiness without changing the prospective dependency. No ordering or readiness claim authorizes Work. Page, seminar, identifier and display order do not establish a dependency.
 
 #### E.11.PUR:4.5 - Practical procedure
 
@@ -183,16 +190,16 @@ Treat the dependent candidate as following only after its precedence basis is es
 4. Establish the aggregate applicability under `4.1`. A known `misfit` ends the applicability inquiry for that candidate under the inspected conditions. If the aggregate is `insufficientBasis`, obtain missing information only when an attainable answer can change a worthwhile continuation; otherwise return the missing-basis boundary. State the aggregate separately when the current question needs it. If step 5 supports a recommendation, include it there; when a reliance-bearing applicability finding exists, the two result values agree.
 5. Compare an applicable candidate with the other serious continuations, including continuing the present work without a new pattern use. Recommend it only when its expected receiving value warrants its full burden; use C.11.DUA when that judgement is unclear. Finish without a positive recommendation when no candidate warrants one. The expectation is not an achieved result.
 6. Before repeating a recommended use, compare any earlier result through `4.2.1`. Reuse a matching result or reopen only the affected result question.
-7. Coordinate several candidates as unordered, partially ordered, or totally ordered. Add a pairwise relation only when one declared precedence basis is current. For `prerequisiteResult`, require the prerequisite candidate's exact expectation and one current E.11.PUA result-closure finding with the complete direct basis.
+7. Coordinate several candidates as unordered, partially ordered, or totally ordered. Establish each needed pair under §4.4's branch predicate. For prerequisiteResult, name exact required content, the selected supplier-use basis and its expectation. Then assess current readiness separately from actual closure, reusing an adequate earlier result before requiring another use.
 8. Stop at the applicability answer or missing-basis boundary, recommendation, matching earlier result, coordination result, or conclusion that no new use is worth recommending now. The last outcome selects no candidate and requires no refusal document; it leaves existing obligations in force. A Plain *next move*, when one is useful, names only the recommended pattern use or conditional continuation. Continue to PUA, P2W, planning, gate, decision, or work only when that next claim becomes current.
 
 #### E.11.PUR:4.6 - Replay and currentness
 
-Replay an ordinary conversational or addressable compact recommendation from the current concern, inspected candidate pattern and `Solution`, aggregate applicability, compact rationale over all five aspects, serious continuations considered, expected result and full burden, any current receiving use, and recommendation boundary. Replay a reliance-bearing recommendation from those same positions plus the current applicability finding and its five fit findings. Replay coordination from its inspected candidate uses, question, ordering mode, any pairwise precedence and bases, stop boundary, and, for each `prerequisiteResult` relation, the exact expectation and current E.11.PUA closure finding.
+Replay an ordinary conversational or addressable compact recommendation from the current concern, inspected candidate pattern and `Solution`, aggregate applicability, compact rationale over all five aspects, serious continuations considered, expected result and full burden, any current receiving use, and recommendation boundary. Replay a reliance-bearing recommendation from those same positions plus the current applicability finding and its five fit findings. Replay coordination from its inspected candidate uses, question, ordering mode, any pairwise precedence and bases, stop boundary, and, for each `prerequisiteResult` relation, the exact expectation, required content and selected supplier-use basis. Replay a readiness claim separately from the actual result closure, receiving conditions and any earlier-result reuse.
 
 When a later use needs to replay a conclusion without a recommendation, recover the concern, the serious continuations, the value and burden that mattered, and the condition for reconsideration. No selected-candidate reference or five-finding dossier is required for that conclusion.
 
 Replay a result-reuse stop from the earlier result episteme and edition, the question and declared use, relied source and dependency conditions, qualification and currentness boundary, and any separately current A.10 reliance or G.11 assertion.
 
-Recheck the smallest affected finding, result question, or relation when a candidate `Solution`, result expectation, result entity or edition, relative object, direct basis or defining `ClaimGraph`, relied source or dependency condition, qualification or currentness boundary, fit basis, value or burden, alternative under consideration, dependent use, coordination member, precedence basis, condition, or boundary changes. A changed candidate fit reopens its applicability and any recommendation that relied on it. A changed earlier result condition reopens only the affected result question and later uses unless the candidate or present concern also changed. A changed prerequisite expectation or closure reopens only the affected ordering relations and their dependent uses unless the coordination question or membership also changed. Separate G.11 assertions state edition, telemetry, currentness-window, and decay facts; PUR supplies the judgement-specific values and change conditions.
+Recheck the smallest affected finding, result question, or relation when a candidate `Solution`, result expectation, result entity or edition, relative object, direct basis or defining `ClaimGraph`, relied source or dependency condition, qualification or currentness boundary, fit basis, value or burden, alternative under consideration, dependent use, coordination member, precedence basis, condition, or boundary changes. A changed candidate fit reopens its applicability and any recommendation that relied on it. A changed earlier result condition reopens only the affected result question and later uses unless the candidate or present concern also changed. A changed prerequisite expectation or semantic precedence condition reopens the affected dependency and dependent use. A changed closure reopens readiness and only dependencies whose semantic basis also changed. A changed witness or rendering alone creates no new dependency. Recheck a genuinely constitutive schedule/priority rule when it changes. Separate G.11 assertions state edition, telemetry, currentness-window, and decay facts; PUR supplies the judgement-specific values and change conditions.
 

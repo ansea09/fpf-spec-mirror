@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.REL"
-pattern_title: "Relation Obtaining and Individuated Relation Occurrences"
+pattern_title: "Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
 section_id: "A.6.REL:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
+  - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:5 — Archetypal Grounding"
-line_start: 13560
-line_end: 13598
+line_start: 13516
+line_end: 13554
 dependencies:
   - "A.6.0"
   - "A.6.5"

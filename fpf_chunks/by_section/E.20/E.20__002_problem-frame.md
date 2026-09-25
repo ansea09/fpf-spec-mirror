@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.20"
-pattern_title: "Mechanism Introduction Protocol"
+pattern_title: "Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
 section_id: "E.20:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.20 — Mechanism Introduction Protocol"
+  - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:1 — Problem frame"
-line_start: 97752
-line_end: 97801
+line_start: 98154
+line_end: 98203
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -28,18 +28,16 @@ dependencies:
   - "G.x"
 keywords:
   - "MIP-run manifest"
-  - "P2W seam"
-  - "PQG profiles"
-  - "SlotKind lexicon discipline"
   - "alias docking"
   - "authoring protocol"
-  - "canonical card-first"
+  - "declaration-local operation members"
   - "governing-definition assignment"
   - "mechanism introduction"
-  - "no dangling …IntensionRef"
-  - "regression envelope"
-  - "suite boundary hygiene"
-  - "typed RSCR triggers"
+  - "planned baseline"
+  - "resolvable MechanismDefinitionRef"
+  - "suite boundary"
+  - "trigger triage"
+  - "wiring"
 ---
 
 ### E.20:1 - Problem frame
@@ -64,13 +62,13 @@ This pattern provides a **repeatable, governing-definition assignment protocol**
 
 **Do not escalate when.** Do not create a MIP-run manifest when alias docking or local wording repair preserves denotation. Do not treat a suite, plan, wiring module, or lexical cleanup as mechanism meaning unless the changed item needs a new or revised governing definition.
 
-**Same problem, different question under repair.** For a mechanism-adjacent transformation-flow problem, use `E.18` for transformation-flow structure, graph/path, valuation, or crossing claims, `A.20` for internal step validity, `A.21` for gate-decision publication, and `E.20` for mechanism-meaning placement; do not open the other three until their own claim is present.
+**Same problem, different question under repair.** For a mechanism-adjacent transformation-flow problem, use `E.18` for transformation-flow structure, graph/path, valuation, or crossing claims, `A.20` for internal step validity, `A.21` for a gate profile application and decision, and `E.20` for mechanism-meaning placement; do not open the other three until their own claim is present.
 
 **Semantic repair return.** When E.20 blocks a misleading word, face, alias, or source label, the repair must return to the enabled authoring move: name the governing definition, canonical location, alias-docking relation, or non-trigger stop that remains available under E.20. Do not stop at a classification of vocabulary or publication faces.
 
-**Subject and relation separation.** Keep the graph object and path or crossing relation (`E.18`), MVPK publication faces (`E.17`), internal CV status and witness (`A.20`), gate decision and `DecisionLog` (`A.21`), evidence or provenance relation (`A.10`/`G.6`), work plan or work occurrence (`A.15`), and mechanism-definition assignment (`E.20`) distinct. An MVPK face, `DecisionLog`, evidence value, provenance reference, MIP manifest, or work witness does not supply another subject's project-side value unless an exact dependent-use assertion and its defining or constraining `ClaimGraph` establish that relation.
+**Subject and relation separation.** Keep the graph object and path or crossing relation (`E.18`), MVPK publication faces (`E.17`), internal CV status and witness (`A.20`), gate profile application and decision (`A.21`), evidence or provenance relation (`A.10`/`G.6`), work plan or work occurrence (`A.15`), and mechanism-definition assignment (`E.20`) distinct. An MVPK face, `DecisionLog`, evidence value, provenance reference, MIP manifest, or work witness does not supply another subject's project-side value unless an exact dependent-use assertion and its defining or constraining `ClaimGraph` establish that relation.
 
-**Smallest affected locus.** Localize the change to the smallest current locus: `PathSlice` or crossing in `E.18`, CV step in `A.20`, `GateDecision` equivalence class in `A.21`, or mechanism-governing definition in `E.20`. Do not widen to a whole flow or unrelated claim, locus, or EntityOfConcern when that locus is enough.
+**Smallest affected locus.** Localize the change to the smallest current locus: `PathSlice` or crossing in `E.18`, CV step in `A.20`, the profile application and bounded action decided in `A.21`, or mechanism-governing definition in `E.20`. Do not widen to a whole flow or unrelated claim, locus, or EntityOfConcern when that locus is enough.
 
 **Ordinary success.** For ordinary E.20 use, success is that the edit is classified, the current governing locus or alias-docking relation is named, and no MIP-run manifest is opened unless denotation, mechanism meaning, suite denotation, suite closure, suite obligations, suite pins, suite protocol semantics, planning pins, wiring semantics, or governing-definition assignment actually changes.
 

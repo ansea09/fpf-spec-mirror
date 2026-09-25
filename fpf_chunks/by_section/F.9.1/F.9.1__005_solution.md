@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9.1"
-pattern_title: "Bridge Stance Note"
+pattern_title: "Bridge Stance Note — Clarify a Bounded Use"
 section_id: "F.9.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.9.1 — Bridge Stance Note"
+  - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:4 — Solution"
-line_start: 105358
-line_end: 105414
+line_start: 105780
+line_end: 105836
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -79,7 +79,7 @@ A stance word carries no direction by itself. Direction belongs to the bounded-u
 - The bounded-use claim says whether that Bridge suits one named use.
 - A practitioner uses A.10 or B.3 to judge whether current evidence or assurance supports relying on that claim.
 - The stance note says how to read that one claim.
-- The pattern that directly constrains a proposed comparison, translation, publication, Work occurrence, or other downstream act decides its authorization; evidence about that act says whether it occurred. The stance note does neither.
+- A claim that a comparison, translation, publication, Work occurrence or other downstream act occurred uses that object's subject pattern and evidence. When authorization is needed, recover it under the pattern that defines the permission or authority claim. The stance note establishes neither.
 
 A Bridge Card is optional claim-bearing packaging. A Card may publish the Bridge description, bounded-use claim, evidence references, reliance result, and stance note together, but the Card is not a prerequisite for any of them. The Card's layout and edition, and any publication occurrence or file carrying it, remain separate from the objects it brings together.
 

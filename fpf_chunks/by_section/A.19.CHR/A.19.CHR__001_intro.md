@@ -1,18 +1,19 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CHR"
-pattern_title: "CHRMechanismSuite"
+pattern_title: "CHRMechanismSuite: Shared Rules for Characterization and Selection"
 section_id: "A.19.CHR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.CHR — CHRMechanismSuite"
+  - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:intro — Intro"
-line_start: 34097
-line_end: 34128
+line_start: 34060
+line_end: 34072
 dependencies:
+  - "A.15.2"
   - "A.15.3"
   - "A.19"
   - "A.19.CHR"
@@ -20,6 +21,7 @@ dependencies:
   - "A.6.1"
   - "A.6.5"
   - "A.6.7"
+  - "A.6.RCD"
   - "C.23"
   - "E.10"
   - "E.18"
@@ -46,35 +48,16 @@ keywords:
   - "tri-state guard decision"
 ---
 
-## A.19.CHR - CHRMechanismSuite
+## A.19.CHR - CHRMechanismSuite: Shared Rules for Characterization and Selection
 
 > **Type:** Architectural (A)
 > **Status:** Stable
 
-**PatternId:** A.19.CHR
-**Name:** `CHRMechanismSuite`
-**Pattern class:** specialization of **A.6.7** (`MechSuiteDescription`) for the CHR (characterization) core.
+**Use this when.** A characterization or selection task combines normalization, indicator choice, scoring and comparison, and the stages must agree on admissibility, uncertainty and the meaning of their results. A locally reasonable calculation can still be unusable downstream if it changes a scale, hides a default or discards a distinction needed for comparison.
 
-**Introduces / fixes canonical objects and kinds**
+**Start here.** Select the exact declaration edition for each of the six CHR roles in §4.2. For the intended protocol, resolve each stage to its operation and governing specifications before choosing input values. The first useful result is a chain whose arguments, results and stop conditions agree. §4.8.1 works this through from a baseline to a concrete selected set.
 
-* **`CHRMechanismSuiteDescription`** (object; kind: `MechSuiteDescription`): the canonical CHR suite description instance (cited downstream via `MechSuiteDescriptionRef`, edition-addressable when used as a reproducibility baseline).
-* **`CHRMechanismSuiteSlotFillingsPlanItem`** (kind; `⊑ SlotFillingsPlanItem`): a suite-specialized plan item kind used as the **planned baseline** for P2W integration of the CHR suite (selection → WorkPlanning → WorkEnactment).
+**Ordinary boundary.** For one operation, use its A.19 member pattern directly. For a different set of jointly used contracts, use A.6.7. For an edition/reference plan without shared CHR conditions, use A.15.2. A CHR suite describes the shared contract; actual applications, gate decisions and publication retain their own rules.
 
-**Depends on**
-
-* A.6.7 `MechSuiteDescription` (Kernel)
-* A.15.3 `SlotFillingsPlanItem` (WorkPlanning)
-* A.6.1 `U.Mechanism.Intension` (mechanism norm-form)
-* A.6.5 slot discipline (`SlotSpec := ⟨SlotKind, ValueKind, refMode⟩`; `SlotIndex` is a projection)
-* A.19 `CN‑Spec` (governance card)
-* G.0 `CG-Spec` (admissibility gate for numeric operations)
-* E.18 / E.18 (P2W + crossings + UTS/Path pins)
-* E.10 lexical/ontological rules (strict distinction, suffix discipline, minimal specificity)
-* E.19 conformance style (checklist obligations)
-
-**Non-goals**
-
-* No “data governance”, no implementation tooling, no “machine readability” requirements.
-* Not a packaging/bundling mechanism (that remains **G.10**).
-* Not a replacement for `MechFamilyDescription` (that remains “many implementations of **one** mechanism intension”).
+`CHRMechanismSuiteDescription` is the canonical `MechSuiteDescription` instance for the six CHR roles. Its selected edition can be cited through `MechSuiteDescriptionRef`. An ordinary A.15.2 WorkPlan records the chosen baseline; `CHRMechanismSuiteSlotFillingsPlanItem` is used only when A.15.3 typed filling is needed for an independently declared position.
 

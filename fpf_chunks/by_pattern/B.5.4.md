@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.4.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
-line_start: 46891
-line_end: 47018
+line_start: 46840
+line_end: 46960
 dependencies:
   - "A.7.1"
   - "B.5"
@@ -139,11 +139,4 @@ Reconsider this choice if an intended reader cannot fill a decisive relation fro
 [fpf-b5-4-1-1-ref]: B.5-Canonical-Reasoning-Cycle.md#b5411---propose-a-first-model
 
 ### B.5.4:End
-
-# Part C - Kernel Extension Specifications
-
-| §                                            | Pattern                        | Tag | Scope & Exports                                                      |
-| -------------------------------------------- | ---------------------------------- | --- | -------------------------------------------------------------------- |
-| **Cluster C.I – Core CALs / LOGs / CHRs**    |                                    |     |                                                                      |
-| C.1                                          | **Sys‑CAL (planned)**              | CAL | Planned consolidation of physical-system composition, conservation, and resource-flow guidance currently governed by A.1, A.14, A.22, A.3.4, B.1.6, and C.16. |
 

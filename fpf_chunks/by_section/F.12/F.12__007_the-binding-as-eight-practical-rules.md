@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.12"
-pattern_title: "Service Acceptance–Work Evidence Link"
+pattern_title: "Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
 section_id: "F.12:6"
 section_title: "The binding, as eight practical rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__007_the-binding-as-eight-practical-rules.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.12 — Service Acceptance–Work Evidence Link"
+  - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:6 — The binding, as eight practical rules"
-line_start: 106106
-line_end: 106139
+line_start: 106528
+line_end: 106561
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -59,7 +59,7 @@ Ask whether the observation and measurement model directly concern the promised 
 If a distinct observed indicator stands in for the promised characteristic or outcome, name both participants and cite the pattern that defines or tests that exact relation. Use C.16.P to recover the construction and distortion risk. If no current rule supplies the relation, stop with A.6.RCD `missing-governor`; do not treat the word *proxy*, A.10 evidence use, or B.3 reliance as its substitute. Use E.13 only when the indicator is optimized or used as a target, incentive, gate, release argument, reputation signal, repair target, or decision driver.
 
 **R4 — Perform the evaluation.**
-Name the System that performs dated evaluation Work and the evaluation Method it enacts. Identify the A.6.1 operation application, its selected facts and state references, the applied acceptance rule, and the result binding. Surface a particular MethodDescription edition only when selecting that edition changes the result or its replay.
+Recover each evaluator's A.13 core and let A.15.1 independently admit the dated evaluation Work, including the actual evaluation Method it enacts, as required by A.2.3:4.3. Add F.6 only when the account needs precise attribution through that same obtaining assignment. Identify the A.6.1 operation application, its selected facts and state references, the applied acceptance rule, and the result binding. Surface a particular MethodDescription edition only when selecting that edition changes the result or its replay.
 
 **R5 — Use the declared result scale.**
 Name the characteristic, scale, unit, aggregation, comparison, and admissible result values through the acceptance specification's `verdictScaleDescriptionRef`. Typical calculation shapes include:
@@ -73,7 +73,7 @@ Name the characteristic, scale, unit, aggregation, comparison, and admissible re
 The calculation shape does not select a verdict scale. Use the exact scale declared by the acceptance specification.
 
 **R6 — State every needed relation directly.**
-Use A.2.3 for promise use, delivery, and fulfilment; C.16 for observation and measurement; the defining or testing pattern for any indicator relation; A.10 for evidence use; B.3 only for assurance or material reliance; and F.9 only when distinct local meanings themselves require a semantic relation. One generic Bridge cannot establish clause–Work fit, measurement, indicator validity, evidence, evaluation, status, or fulfilment.
+Use A.2.3 for promise use, delivery, and fulfilment; C.16 for observation and measurement; the defining or testing pattern for any indicator relation; A.10 for the descriptive evidence-provenance path and bounded reliance on independently established direct relations; B.3 only for an actual named assurance claim; and F.9 only when distinct local meanings themselves require a semantic relation. One generic Bridge cannot establish clause–Work fit, measurement, indicator validity, evidence, evaluation, status, or fulfilment. A passing reliance disposition requires the evidence demanded by the acceptance claim and its direct rule; a descriptive path alone is insufficient.
 
 **R7 — Keep the window and population explicit.**
 A monthly verdict, a batch verdict, and an incident verdict are different claims. A new promise, monitor, or window does not rewrite an earlier verdict.

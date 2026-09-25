@@ -6,12 +6,12 @@ section_id: "E.17.EFP:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:5 — Archetypal grounding"
-line_start: 92744
-line_end: 92852
+line_start: 93139
+line_end: 93253
 dependencies:
   - "A.10"
   - "A.15"
@@ -77,15 +77,21 @@ No source premise, effective-scheme rule, or already obtaining robustness relati
 
 The selection relation and both limits are explicit in the source, so this is ordinary same-ClaimGraph re-expression; it needs no invented `addedLinkPolicy`. It is not evidence that work occurred, a gate decision, or engineering justification. Selection use still concerns exact `U.Method` M-2; planning concerns `U.WorkPlan` WP-17 under A.15.2; any claim that work occurred requires a dated `U.Work` under A.15.1. Evidence, engineering-justification, or gate use remains under A.10, B.3, A.20, or A.21 only when actually raised.
 
-#### E.17.EFP:5.2.c - Mixed-face bundle with one entailed connective
+#### E.17.EFP:5.2.c - Partial source expression and a mixed-face bundle
 
-**Source claims.** `D-31: The reserve path is configured to remain available for overload intervals no longer than five minutes.` `T-8: Observed interval O-7 lasted two minutes.` Both use exact duration scheme `RS_duration` and concern the same path and interval class.
+**Source edition.** In this example, `ReservePathDescription-E4` concerns exact path `R-1` and its overload intervals under effective duration scheme `RS_duration`. It contains `D-31: R-1 is configured to remain available for overload intervals no longer than five minutes` and `T-8: Observed interval O-7 lasted two minutes`.
 
-**`PlainView` form.** `The reserve path is configured for overload intervals up to five minutes. Source: D-31.`
+**`PlainView` form.** `R-1 is configured for overload intervals up to five minutes. Source: ReservePathDescription-E4, D-31. Use: orientation to the configured duration; this form omits the O-7 observation.`
 
-**`TechCard` form.** `O-7 falls within D-31's configured availability window. Sources: D-31, T-8.`
+For that use, D-31 is sufficient and the form may be `SourcePinnedExplanation` of the same source edition. It does not assert T-8, observed availability or a guarantee. The omitted T-8 does not constitute another episteme, and the class claims no whole-source coverage.
 
-The `PlainView` form is `SourcePinnedExplanation`. The `TechCard` connective is derivable from `2 min <= 5 min` under `RS_duration` and may be `SourceLinkedExplanationReconstruction` with that derivation pointer. The bundle states the class difference; it does not infer availability beyond D-31's exact condition.
+**`TechCard` form.** `O-7 falls within D-31's configured duration window. Sources: ReservePathDescription-E4, D-31 and T-8.`
+
+That connective follows from `2 min <= 5 min` under `RS_duration`; the form may be `SourceLinkedExplanationReconstruction` with this derivation pointer. The bundle states the class difference. The PlainView form alone cannot answer whether O-7 fits: that use needs the omitted T-8 and must return to it. Neither comparison establishes that the path actually remained available.
+
+**Missing qualification.** Suppose an identified source edition also states `D-32: This availability configuration applies only while the backup supply is energized`. A form giving only the true five-minute duration is insufficient for deciding whether the configuration applies during loss of that supply. Return D-32 and the supply-state facts before that use. This insufficiency creates no target episteme; a separate assertion of unconditional availability would be changed content requiring its own target and relation.
+
+**Equal words, different subject.** The same duration sentence about path `R-2` does not identify the `R-1` source. Likewise, identical displayed duration words interpreted under another effective scheme do not establish the same source identity. Recover the exact concern and scheme and apply the relevant retargeting or scheme-change pattern before claiming a source-to-target relation.
 
 #### E.17.EFP:5.3 - Didactic retelling
 
@@ -125,7 +131,7 @@ This assurance sentence has a different ClaimGraph. It requires an exact target 
 
 **Lighter explanatory rendering.** `In plain terms: the reserve path stayed available during overload recovery.`
 
-This does **not** remain ordinary explanation profiling. The lighter text expresses a coarsened ClaimGraph, so it must be identified as an exact target episteme under C.2.1 and related to the source through `A.6.3.CSC`; only a later publication form of that target can receive an EFP class if explanation use remains material.
+For a use that needs the measured load band or the unresolved latency qualification, this lighter text is insufficient: return those source conditions. Omission alone does not constitute another episteme. If the text is instead intended to assert availability throughout overload recovery beyond the measured band, it makes a changed claim. Identify that target under C.2.1 and establish its `A.6.3.CSC` or other applicable source-to-target relation before EFP classifies a later target form.
 
 #### E.17.EFP:5.5 - Class-specific reopen cues in the worked slices
 - **`SourcePinnedExplanation`** reopens when the pinned source claim set, source pins, or face-use assumptions change so that the rendering can no longer remain claim-preserving and visibly source-bound.
@@ -144,7 +150,7 @@ This is a qualitative task replay for local architecture choice, not an empirica
 | Task and credible simpler alternative | Comprehension | Semantic preservation | Author/check time | Overread prevention | Non-dominated result |
 |---|---|---|---|---|---|
 | **Human-authored shift note.** An engineer writes two sentences that repeat inspection note N-14 without changing its claims. Simpler alternative: `Reader orientation; source N-14; not an operating procedure.` | The simple sentence is as easy to understand as an EFP class note. | The source locator and unchanged wording preserve the needed tether. | The simple note is shorter to write and check. | `not an operating procedure` blocks the only credible overread. | The simpler note dominates. Do not apply EFP; use the source/publication pattern and stop. |
-| **Generated incident explanation.** A generated paragraph restates one observed recovery and adds `therefore the design is robust`. Simpler alternative: attach a source link and label the paragraph `AI summary`. | Both versions are readable. | The simple label misses the widened robustness claim; EFP's ClaimGraph screen detects another target claim and prevents source identity from being inherited. | EFP adds one focused claim comparison; no full metadata block is needed. | EFP blocks reliance on the widened claim until its target episteme and source-to-target relation exist. | EFP is non-dominated when the generated text will be reviewed, reused, disputed, or relied on. Keep the identity screen, class only after identity, bounded/blocked use, and reopen; add trace or evidence only for the named reliance. |
+| **Generated incident explanation.** A generated paragraph restates one observed recovery and adds `therefore the design is robust`. Simpler alternative: attach a source link and label the paragraph `AI summary`. | Both versions are readable. | The simple label misses the widened robustness claim; EFP's identity-and-bounded-sufficiency screen detects another target claim and prevents source identity from being inherited. | EFP adds one focused claim comparison; no full metadata block is needed. | EFP blocks reliance on the widened claim until its target episteme and source-to-target relation exist. | EFP is non-dominated when the generated text will be reviewed, reused, disputed, or relied on. Keep the identity screen, class only after identity, bounded/blocked use, and reopen; add trace or evidence only for the named reliance. |
 
 The human-authored case is the ordinary non-use boundary. The generated case is the source-grounded branch supported by XAI/NLP/generated-explanation literature. A human-authored case may still use EFP when a real source-pinned/reconstructive/didactic/speculative ambiguity changes the next action, but authorship alone never triggers the profile.
 

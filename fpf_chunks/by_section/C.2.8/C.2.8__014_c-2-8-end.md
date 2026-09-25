@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.8"
-pattern_title: "U.ExtractableStructuralInformation"
+pattern_title: "U.ExtractableStructuralInformation — Structure This Reader Can Recover"
 section_id: "C.2.8:End"
 section_title: "C.2.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__014_c-2-8-end.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.2.8 — U.ExtractableStructuralInformation"
+  - "C.2.8 — U.ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:End — C.2.8:End"
-line_start: 50372
-line_end: 50373
+line_start: 50515
+line_end: 50516
 dependencies:
   - "A.17"
   - "A.18"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.36.P"
-pattern_title: "Cultural-Evolution Wording-Use Precision Restoration"
+pattern_title: "Clarify Cultural-Evolution Wording for a Claim or Action"
 section_id: "C.36.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
+  - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:4 — Solution"
-line_start: 76966
-line_end: 77003
+line_start: 77191
+line_end: 77228
 dependencies:
   - "A.1"
   - "A.1.1"

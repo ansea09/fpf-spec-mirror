@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.Core"
-pattern_title: "Part G Core Invariants"
+pattern_title: "Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
 section_id: "G.Core:11"
 section_title: "SoTA alignment (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__012_sota-alignment-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.Core — Part G Core Invariants"
+  - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:11 — SoTA alignment (informative)"
-line_start: 110323
-line_end: 110332
+line_start: 110748
+line_end: 110757
 dependencies:
   - "A.15.3"
   - "A.19"

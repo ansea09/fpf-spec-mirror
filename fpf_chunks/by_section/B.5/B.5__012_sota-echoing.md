@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5"
-pattern_title: "Canonical Reasoning Cycle"
+pattern_title: "Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
 section_id: "B.5:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__012_sota-echoing.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5 — Canonical Reasoning Cycle"
+  - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:11 — SoTA-Echoing"
-line_start: 43539
-line_end: 43550
+line_start: 43494
+line_end: 43505
 dependencies:
   - "A.10"
   - "B.5.1"

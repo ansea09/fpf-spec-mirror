@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.3"
-pattern_title: "SlotFillingsPlanItem"
+pattern_title: "SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
 section_id: "A.15.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__003_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.15.3 — SlotFillingsPlanItem"
+  - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:2 — Problem"
-line_start: 27546
-line_end: 27555
+line_start: 27435
+line_end: 27444
 dependencies:
   - "A.15.1"
   - "A.15.2"

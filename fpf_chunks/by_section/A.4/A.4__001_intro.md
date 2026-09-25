@@ -1,31 +1,32 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.4"
-pattern_title: "Temporal Duality & Open‑Ended Evolution Principle"
+pattern_title: "Compare a System's Intended Design with Its Operating Conditions"
 section_id: "A.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
+  - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:intro — Intro"
-line_start: 10968
-line_end: 10972
+line_start: 10937
+line_end: 10938
 dependencies:
-  - "B.3"
+  - "A.1"
+  - "A.1.1"
+  - "A.3.4"
   - "B.4"
+  - "C.2.1"
+  - "C.27"
 keywords:
-  - "continuous improvement"
-  - "design-time"
-  - "evolution"
-  - "open-ended state change"
-  - "run-time"
-  - "versioning"
+  - "comparison criterion"
+  - "conformance"
+  - "design account"
+  - "discrepancy"
+  - "missing basis"
+  - "operating facts"
 ---
 
-## A.4 - Temporal Duality & Open‑Ended Evolution Principle
-
-*“A holon is born in design‑time, lives in run‑time,
-and is reborn when the world talks back.”*
+## A.4 - Compare a System's Intended Design with Its Operating Conditions
 

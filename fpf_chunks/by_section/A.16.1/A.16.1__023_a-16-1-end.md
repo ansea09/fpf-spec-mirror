@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16.1"
-pattern_title: "U.PreArticulationCuePack"
+pattern_title: "PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
 section_id: "A.16.1:End"
 section_title: "A.16.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__023_a-16-1-end.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16.1 — U.PreArticulationCuePack"
+  - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:End — A.16.1:End"
-line_start: 31237
-line_end: 31238
+line_start: 31179
+line_end: 31180
 dependencies:
   - "A.16"
   - "A.16.0"

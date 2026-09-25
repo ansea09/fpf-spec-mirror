@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.ASV.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
-line_start: 68229
-line_end: 69035
+line_start: 68438
+line_end: 69244
 dependencies:
   - "A.1"
   - "A.10"
@@ -53,6 +53,13 @@ dependencies:
   - "F.18"
   - "G.6"
 keywords:
+  - "ASV"
+  - "architecture structural view"
+  - "correspondence"
+  - "hidden and lost structure"
+  - "source return"
+  - "structure kind"
+  - "viewpoint conformance"
 ---
 
 ## C.30.ASV - Architecture Structural View Adequacy (ASV)
@@ -516,7 +523,7 @@ FunctionalStructureViewUse ::= {
   selectedTransformationFlowStructureRefs?: FinSet(U.StructureRef constrained to TransformationFlowStructure),
   transformerSideFillerRefs?: FinSet(U.SystemRef),
   candidateBearerRefs?: candidate system refs; explicit gap refs,
-  capabilityRefs?,
+  holderAbilityClaimRefs?: qualified A.2.2 claims about identified holder Systems,
   inputConditionRefs?,
   outputConditionRefs?,
   functionalPortRefs?,

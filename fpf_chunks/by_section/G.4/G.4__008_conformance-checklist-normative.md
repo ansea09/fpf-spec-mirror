@@ -6,12 +6,12 @@ section_id: "G.4:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__008_conformance-checklist-normative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:7 — Conformance Checklist (normative)"
-line_start: 112456
-line_end: 112477
+line_start: 112892
+line_end: 112913
 dependencies:
   - "A.10"
   - "A.13"
@@ -61,7 +61,7 @@ keywords:
 | ConformanceId     | Statement                                                                                                                                                                                                                                                                                                      |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **CC‑G4‑CoreRef** | Conformance with `G.4` requires satisfying the effective `G.Core` obligations referenced by the `GCoreLinkageManifest` in **G.4:4.1** (profiles, pin sets, consumed defaults, and trigger kinds).                                                                                                              |
-| **CC‑G4‑01**      | `CAL Pack@CG-Frame` is published as a notation-independent object with stable UTS ids (Name Cards with twin labels) for `CAL.Charter`, `TaskMap`, all operator, acceptance, flow, and evidence carriers, Worked-Examples, and public-id continuity notes, including deprecations and lexical-continuity notes. Tooling/vendor details remain non-normative. |
+| **CC‑G4‑01**      | `CAL Pack@CG-Frame` is published as a notation-independent object with stable UTS ids (Name Cards with twin labels) for `CAL.Charter`, `TaskMap`, all operator, acceptance-clause, flow, and evidence-profile declarations, Worked-Examples, and public-id continuity notes, including deprecations and lexical-continuity notes. Tooling/vendor details remain non-normative. |
 | **CC‑G4‑02**      | Each exact `CALCharterRef = <charterId, charterEdition>` resolves one immutable charter edition naming the exact `CGFrameId`, `EntityOfConcernRef`, `ReferencePlane`, `CNSpecRef.edition`, `CGSpecRef.edition`, and assumption envelope on which the pack relies. |
 | **CC‑G4‑03**      | Every `CAL.Operator` has an explicit CHR‑typed signature and explicit preconditions; any legality guard macros referenced are cited by id (no “implicit legality”).                                                                                                                                             |
 | **CC‑G4‑04** | Every reusable `CAL.Acceptance` binds the exact Characteristic and exact A.6.1 `resultInputDeclarationRef` values that declare the admissible C.16 measurement-result episteme inputs; the exact current result episteme is bound only in an actual application. A clause marked one-off may additionally cite `fixedResultEpistemeRefs[]?`. Every clause also declares its predicate or threshold, `ClaimScope`, evaluation window, any separate qualification window that limits use, unknown handling, and failure behavior. A statistically risk-controlled clause also names its loss, target, calibration population and window, sampling or exchangeability assumptions, declared treatment of shift, and the exact policy that states or defines the guarantee. Inputs with distinct source-local meanings cite the exact F.17 cells and obtaining F.9 relation; cross-plane or cross-edition inputs cite their applicable crossing records. None of these declarations establishes performed evaluation or a verdict. |

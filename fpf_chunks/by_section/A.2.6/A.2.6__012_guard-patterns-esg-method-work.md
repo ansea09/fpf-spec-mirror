@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.6"
-pattern_title: "Unified Scope Mechanism (USM): Context Slices & Scopes"
+pattern_title: "Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
 section_id: "A.2.6:10"
 section_title: "Guard Patterns (ESG & Method–Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__012_guard-patterns-esg-method-work.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
+  - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:10 — Guard Patterns (ESG & Method–Work)"
-line_start: 6073
-line_end: 6153
+line_start: 6036
+line_end: 6116
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -66,14 +66,14 @@ Name the exact claim-bearing episteme, exact `U.ClaimScope`, and exact target sl
 #### A.2.6:10.3 - Method–Work guard families (capabilities)
 
 **WG‑1 - WorkScopeCoverage (mandatory).**
-A capability can be used to deliver a Work step only if:
+Reliance on a holder-ability claim for a Work step requires coverage by the WorkScope that claim designates:
 
 ```
-U.WorkScope(capability) covers JobSlice
+WorkScope(holderAbilityClaim) covers JobSlice
 ```
 
 **WG‑2 - work-measure target set satisfied** (mandatory for deliverables).
-Guards MUST bind quantitative measures that the capability promises in the JobSlice:
+Guards MUST compare the claimed attained bounds with the quantitative targets required for the JobSlice:
 
 ```
 SLO and target measures satisfied (latency ≤ L, throughput ≥ T, tolerance ≤ ε, … )
@@ -83,12 +83,12 @@ SLO and target measures satisfied (latency ≤ L, throughput ≥ T, tolerance �
 Operational guards MUST assert that the exact qualification-window predicate (qualification, inspection, or recertification) holds at the receiving guard's exact evaluation time:
 
 ```
-qualificationWindowHolds(capability, qualificationWindowPolicy, evaluationTime) = true
+qualificationWindowHolds(holderAbilityClaim, qualificationWindowPolicy, evaluationTime) = true
 ```
 
 **WG-4 - Translation branch for capability use.**
 
-Translate `U.WorkScope` only when its condition predicates use exact local senses that differ from those needed by the job slice. Require the obtaining F.9 Bridge and a separate affirmative C.2.1 claim naming this Work-scope translation's direction, rule, and tolerance; establish the exact A.10 or B.3 reliance branch before the capability guard uses the result. A capability object and job slice carry no hidden `.Context` field that automatically selects this branch.
+Translate `U.WorkScope` only when its condition predicates use exact local senses that differ from those needed by the job slice. Require the obtaining F.9 Bridge and a separate affirmative C.2.1 claim naming this Work-scope translation's direction, rule, and tolerance; establish the exact A.10 or B.3 reliance branch before the capability guard uses the result. Neither the holder-ability claim nor the job slice supplies a hidden `.Context` field that automatically selects this branch.
 
 Observed mapping loss is evidence about the use claim, and permitted loss is its tolerance. If the claim's rule and tolerance permit translation only for part of the source Work scope, identify that part and return its target image.
 
@@ -108,7 +108,7 @@ The source claim-bearing episteme designates `SourceScope`. The Bridge relates e
 
 #### A.2.6:10.5 - Time selector
 
-When membership depends on time, name an exact `gammaTime` point, interval, or policy and the boundary that changes membership. Keep every selector already declared in the slice schema, even when this predicate does not inspect it. If a work qualification or evidence-freshness condition varies with time, name its exact evaluation time and interval or policy under that condition's direct governor rather than copying it into scope. For example, `qualificationWindowHolds(capability, Recertification90d, evaluationTime)` is a separate guard; it is not a scope selector.
+When membership depends on time, name an exact `gammaTime` point, interval, or policy and the boundary that changes membership. Keep every selector already declared in the slice schema, even when this predicate does not inspect it. If a work qualification or evidence-freshness condition varies with time, name its exact evaluation time and interval or policy under that condition's direct governor rather than copying it into scope. For example, `qualificationWindowHolds(holderAbilityClaim, Recertification90d, evaluationTime)` is a separate guard; it is not a scope selector.
 
 Do not write implicit “latest.” Do not invent a time selector merely to complete a new slice declaration.
 

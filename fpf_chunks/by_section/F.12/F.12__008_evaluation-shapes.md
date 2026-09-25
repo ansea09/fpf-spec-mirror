@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.12"
-pattern_title: "Service Acceptance–Work Evidence Link"
+pattern_title: "Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
 section_id: "F.12:7"
 section_title: "Evaluation shapes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__008_evaluation-shapes.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.12 — Service Acceptance–Work Evidence Link"
+  - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:7 — Evaluation shapes"
-line_start: 106140
-line_end: 106157
+line_start: 106562
+line_end: 106581
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -48,6 +48,8 @@ keywords:
 ---
 
 ### F.12:7 - Evaluation shapes
+
+The calculation shapes and examples below take independently admitted delivery and evaluation Work as inputs under A.2.3:4.3. Their population, measurement and acceptance claims still need the stated local basis.
 
 #### F.12:7.1 - Availability share
 

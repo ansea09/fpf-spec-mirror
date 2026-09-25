@@ -6,12 +6,12 @@ section_id: "C.16.Q:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:4 — Solution"
-line_start: 55125
-line_end: 55507
+line_start: 55268
+line_end: 55650
 dependencies:
   - "A.10"
   - "A.16"
@@ -137,7 +137,7 @@ qualityTermAscription :=
   endpointPatternLocator?: pattern ref for the endpoint,
   endpointSourceRelationRef?: exact direct source or publication relation ref,
   admissibleUse,
-  nonAdmissibleUse
+  nonAdmissibleUse?
 }
 ```
 
@@ -276,11 +276,11 @@ A conforming `qualityTermAscription` SHALL make explicit:
 10. **Representation scheme and substrate when relevant.**
     Keep the effective reference scheme distinct from any representation scheme, viewpoint-specific decoding convention, or embodied-kinesthetic, latent-distributed, symbolic-local, or hybrid substrate. Name each when omission changes interpretation.
 
-11. **Witnesses, evidence use, and empirical grounding.**
-    Name exact exemplars, probes, measurements, bundle members, tests, traces, closed-loop performance carriers, or other witnesses. If an evidence-provenance path is relied on, cite its exact direct relations under A.10. Independently cite an obtaining `EpistemeEmpiricalGroundingRelation`, or state `none`; witness or record presence does not create that relation.
+11. **Witnesses, evidence use, and empirical grounding when relied on.**
+    Name the witnesses relied on for this use. If an evidence-provenance path is relied on, use A.10 for its descriptive account and cite each obtaining direct relation under the pattern that defines it. When empirical grounding is at issue, independently cite an obtaining `EpistemeEmpiricalGroundingRelation`, or state `none`; witness or record presence does not create that relation.
 
 12. **Cross-local and endpoint boundaries.**
-    Cite an exact F.9 Bridge occurrence and bounded-use claim only when they independently exist. Cite a Card only when that optional package exists, and cite an F.9.1 stance note only when its `EntityOfConcern` is that claim. State the endpoint pattern or endpoint source relation, the admissible use, and nearest non-admissible use rather than letting *quality* or a stance token carry them.
+    Cite an exact F.9 Bridge occurrence and bounded-use claim only when they independently exist. Cite a Card only when that optional package exists, and cite an F.9.1 stance note only when its `EntityOfConcern` is that claim. State the endpoint pattern or endpoint source relation, the admissible use, and necessary applicability or stop conditions. Add an explanatory non-admissible-use guard only under F.19:4's independent-ground, plausible-reader, contribution, and smallest-clear-correction test.
 
 #### C.16.Q:4.5 - Normal-form discipline
 
@@ -426,7 +426,7 @@ In **Tech and normative prose**:
 * in QD and NQD contexts, bare **quality** MUST default to **`QS.UseValue`**;
 * preconceptual uses MUST NOT be presented as if they were already Characteristics;
 * latent and distributed fit MUST NOT be presented as if it were automatically explanatory merit;
-* if the occurrence is primarily **action-invitation** talk, the text MUST NOT assign a `QualitySense`; use `A.6.A` or another applicable action-invitation pattern, with source-tradition `affordance` wording kept only as a quoted cue when needed;
+* if the occurrence is primarily **action-invitation** talk, the text MUST NOT assign a `QualitySense`; use `A.6.A` for wording recovery, then the pattern for the recovered claim or question, with source-tradition `affordance` wording kept only as a quoted cue when needed;
 * scope words (*applicability*, *envelope*, *generality*, *validity*) MUST NOT be used as hidden substitutes for `U.ClaimScope`, `U.WorkScope`, `U.PublicationScope`, or another exact governed scope;
 * quoted metalinguistic uses of the token *quality* are allowed, but SHALL be marked as **token-under-discussion**, not as a boundary-bearing term.
 

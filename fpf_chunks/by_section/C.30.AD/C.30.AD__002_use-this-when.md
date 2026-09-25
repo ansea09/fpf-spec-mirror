@@ -6,12 +6,12 @@ section_id: "C.30.AD:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__002_use-this-when.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:0 — Use this when"
-line_start: 67013
-line_end: 67078
+line_start: 67222
+line_end: 67287
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,15 +64,14 @@ dependencies:
   - "F.18"
   - "G.5"
 keywords:
-  - "ArchitectureDescription@Context"
+  - "ArchitectureDescription"
   - "architecture description"
-  - "architecture description use card"
-  - "architecture structural view"
-  - "candidate-description boundary"
-  - "correspondence"
+  - "cross-view correspondence"
+  - "freshness"
+  - "multi-view description"
   - "source return"
-  - "specification-use boundary"
-  - "viewpoint"
+  - "specification use"
+  - "viewpoint conformance"
 ---
 
 ### C.30.AD:0 - Use this when

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.8"
-pattern_title: "U.ExtractableStructuralInformation"
+pattern_title: "U.ExtractableStructuralInformation — Structure This Reader Can Recover"
 section_id: "C.2.8:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__011_architectural-rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.2.8 — U.ExtractableStructuralInformation"
+  - "C.2.8 — U.ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:10 — Architectural Rationale"
-line_start: 50341
-line_end: 50348
+line_start: 50484
+line_end: 50491
 dependencies:
   - "A.17"
   - "A.18"

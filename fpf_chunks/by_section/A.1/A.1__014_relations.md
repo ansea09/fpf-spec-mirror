@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1"
-pattern_title: "Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
+pattern_title: "Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
 section_id: "A.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__014_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
+  - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:12 — Relations"
-line_start: 2000
-line_end: 2009
+line_start: 2001
+line_end: 2010
 dependencies:
   - "A.1.1"
   - "A.1.STM"

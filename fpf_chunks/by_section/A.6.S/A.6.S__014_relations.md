@@ -6,12 +6,12 @@ section_id: "A.6.S:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__014_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:12 — Relations"
-line_start: 22681
-line_end: 22704
+line_start: 22557
+line_end: 22580
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -44,7 +44,7 @@ keywords:
 
   * A.3.1/A.3.2/A.15/A.15.1/A.15.2 — Method, MethodDescription, WorkPlan, Work, and work-result separation
   * A.7 — Strict Distinction (object ≠ description ≠ carrier; Face ≠ Surface)
-  * A.6 — Signature Stack & Boundary Discipline
+  * A.6 — Signature Stack: Classify and Place Boundary Claims
   * A.6.0 — `U.Signature`
   * A.6.2 — effect-free episteme-arrow discipline, only when a constructor operation uses a mathematical arrow; endpoint facts are read or compared, not changed by the arrow
   * A.1, A.13, and A.15.1 — System admission, the complete actual-performer core including local-kind classification and an obtaining A.2.1 assignment, and independent dated-Work admission; F.6 follows only for precise attribution through that same assignment

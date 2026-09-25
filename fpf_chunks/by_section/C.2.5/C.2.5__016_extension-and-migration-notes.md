@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.5"
-pattern_title: "U.LanguageStateClosureDegree"
+pattern_title: "U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
 section_id: "C.2.5:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__016_extension-and-migration-notes.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.2.5 — U.LanguageStateClosureDegree"
+  - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:15 — Extension and Migration Notes"
-line_start: 49712
-line_end: 49721
+line_start: 49855
+line_end: 49864
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -24,10 +24,12 @@ dependencies:
   - "C.2.4"
   - "C.2.LS"
 keywords:
+  - "CD0–CD5"
   - "candidate-space closure"
   - "closure degree"
+  - "frame space"
   - "reopen"
-  - "rival routes"
+  - "route space"
   - "settledness"
 ---
 

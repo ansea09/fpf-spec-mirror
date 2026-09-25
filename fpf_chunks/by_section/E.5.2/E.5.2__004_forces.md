@@ -6,12 +6,12 @@ section_id: "E.5.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:3 — Forces"
-line_start: 81524
-line_end: 81531
+line_start: 81849
+line_end: 81856
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"
@@ -19,13 +19,6 @@ dependencies:
   - "C.37"
   - "E.5"
 keywords:
-  - "BPMN"
-  - "UML"
-  - "diagram"
-  - "notation"
-  - "semantics"
-  - "syntax"
-  - "tool-agnostic"
 ---
 
 ### E.5.2:3 - Forces

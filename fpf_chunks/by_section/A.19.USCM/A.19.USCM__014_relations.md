@@ -6,12 +6,12 @@ section_id: "A.19.USCM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__014_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:12 — Relations"
-line_start: 35789
-line_end: 35811
+line_start: 35705
+line_end: 35727
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -27,12 +27,12 @@ keywords:
 
 * **Builds on**
 
-  * `A.6.1` / `CC‑UM.*` (mechanism intension shape and authoring checks).
+  * `A.6.1` (operation declarations and actual application/binding rules).
   * `A.19.CHR:4.2.1` (CHR SlotKind lexicon).
   * `G.0` (CG‑Spec, specifically `SCP` and `MinimalEvidence`).
   * `A.18` (CSLC lawfulness discipline).
-  * `C.16` (ScoringMethod disclosure; polarity/monotonicity discipline for score mappings).
-  * `A.15.3` + `A.19.CHR:4.7.2` (P2W planned baseline seam for edition/policy pin bindings; cited as seam, not duplicated in Intension).
+  * `C.16` (measurement constitution and scale-lawful operations when measurement is claimed).
+  * `A.15.2` for the planned edition/policy baseline; `A.15.3` plus `A.19.CHR:4.7.2` for typed filling of independently declared positions.
   * `A.19.CN` (CN‑Spec, specifically `comparability` routing and normalization‑based comparability expectations).
 * **Used by**
 
@@ -44,5 +44,5 @@ keywords:
   * `UNM` when `CN‑Spec.comparability` requires normalization‑based comparability (explicit choreography, no hidden UNM).
   * `ULSAM` when folding/aggregation is needed as a distinct, explicit step.
   * `G.2` and `GPatternExtension` wiring modules for post‑2015 method families, without mutating the USCM kernel.
-  * `E.20` (governing-pattern discipline) and `F.18` (alias docking) for Phase‑3 canonicalization and ID continuity.
+  * `E.20` (governing-pattern discipline) and `F.18` (alias docking) for governing-source references and designation continuity.
 

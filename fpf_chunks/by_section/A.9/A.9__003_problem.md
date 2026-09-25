@@ -1,38 +1,39 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.9"
-pattern_title: "Cross‑Scale Consistency (C‑3)"
+pattern_title: "Choose and Check an Aggregation Law for the Intended Result"
 section_id: "A.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__003_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.9 — Cross‑Scale Consistency (C‑3)"
+  - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:2 — Problem"
-line_start: 24117
-line_end: 24126
+line_start: 23995
+line_end: 24003
 dependencies:
-  - "A.1"
-  - "A.8"
-  - "A.9"
+  - "A.19.CN"
+  - "A.19.ULSAM"
   - "B.1"
-  - "U.Holon"
+  - "B.2"
+  - "C.29"
 keywords:
-  - "aggregation"
-  - "composition"
-  - "holarchy"
-  - "invariants"
-  - "roll-up"
+  - "aggregation law"
+  - "bounds"
+  - "cross-scale consistency"
+  - "dependency model"
+  - "intended result"
+  - "ordered composition"
+  - "singleton identity"
 ---
 
 ### A.9:2 - Problem
 
-| Failure Mode              | Real‑World Symptom                                         |
-| ------------------------- | ---------------------------------------------------------- |
-| **Invalid extrapolation** | Unit‑tested module fails once integrated.                  |
-| **Brittle dashboards**    | Portfolio KPI “green” hides a red supplier averaged away.  |
-| **Compositional chaos**   | Different teams’ roll‑ups yield non‑deterministic results. |
-
-These pathologies derail safety cases and budget decisions across disciplines.
+| Failure | Practical consequence |
+|---|---|
+| An operation is chosen from the numbers alone. | A sum, minimum or product answers a different question from the one the receiver needs. |
+| A roll-up hides dependence, overlap or interaction. | Repeated evidence is counted as independent, or component claims are promoted to an unsupported whole claim. |
+| Reordering or repartitioning is assumed harmless. | Ordered Methods or numerical computation return a different result. |
+| Failure of an aggregation model is treated as a new whole. | A repairable model premise is confused with the independent identity question. |
 

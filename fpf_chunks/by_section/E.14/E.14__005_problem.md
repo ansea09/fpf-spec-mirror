@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.14"
-pattern_title: "Human‑Centric Working‑Model"
+pattern_title: "Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
 section_id: "E.14:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__005_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.14 — Human‑Centric Working‑Model"
+  - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:2.1 — Problem"
-line_start: 89702
-line_end: 89705
+line_start: 90086
+line_end: 90089
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -20,11 +20,6 @@ dependencies:
   - "E.7"
   - "E.8"
 keywords:
-  - "assurance layers"
-  - "grounding"
-  - "human-centric"
-  - "publication surface"
-  - "working model"
 ---
 
 ### E.14:2.1 - Problem

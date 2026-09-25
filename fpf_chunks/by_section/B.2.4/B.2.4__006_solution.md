@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.4"
-pattern_title: "Capability and Functioning Whole Reidentification"
+pattern_title: "Do Capability or Functioning Changes Require Whole Reidentification?"
 section_id: "B.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.2.4 — Capability and Functioning Whole Reidentification"
+  - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:4 — Solution"
-line_start: 41543
-line_end: 41600
+line_start: 41473
+line_end: 41530
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ Before applying B.2, test whether the exact facts are already explained under a 
 | Method relation or method family | `A.3.1` for Method identity, `B.1.5` for composition, `A.15` for role–Method–Work alignment, and `G.5` for registry or selector-facing use; use the direct pattern for any separately claimed family relation and `C.29` only when a lens is used | the exact method facts change the whole, not merely the way of doing |
 | Method description or procedure text | `A.3.2` and `C.2.1` distinguish the MethodDescription and its episteme identity; use `E.17` or `E.24.PUB` for a current publication occurrence, form, or carrier, `C.2.P` for unresolved source-expression or source-to-use wording, and `A.10` or `G.6` only when evidence provenance is relied on | an in-life whole-reidentification question remains after the description is separated |
 | Work plan or work occurrence | `A.15.2`, `A.15.1` | exact planned or performed work facts leave a new-whole question; the plan or occurrence is not the whole by label |
-| Module, component, or bearer allocation | `A.6.M`, `C.30`, `A.22`, `C.30.ASV` | exact allocation and architecture facts defeat the existing-whole explanation |
+| Module, component, or bearer allocation | The direct allocation or parthood pattern; `A.6.M` for unresolved module/interface wording; `C.30`, `A.22` or `C.30.ASV` only for the corresponding claim | exact allocation and architecture facts defeat the existing-whole explanation |
 | Metric, score, threshold, robustness, or quality claim | `C.16`, `A.19`; `A.10` only for evidence use | the underlying characteristic facts, not the score or support record alone, defeat that explanation |
 
 #### B.2.4:4.3 - Existing-Whole Explanation
@@ -80,7 +80,7 @@ Subject-pattern explanations that often stop B.2.4 include:
 - architecture-view or transformation-flow-structure repair;
 - better evidence, measurement, or source currentness for an unchanged world-side claim.
 
-If one of these explanations is sufficient, do not use B.2.4. Use the subject pattern.
+If one of these explanations is sufficient, finish B.2.4 by retaining the existing whole and continue with the subject pattern.
 
 #### B.2.4:4.4 - When B.2.4 Requires B.2
 

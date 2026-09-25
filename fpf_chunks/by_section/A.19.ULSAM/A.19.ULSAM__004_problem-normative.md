@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:2"
 section_title: "Problem (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__004_problem-normative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:2 — Problem (normative)"
-line_start: 35874
-line_end: 35884
+line_start: 35780
+line_end: 35790
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

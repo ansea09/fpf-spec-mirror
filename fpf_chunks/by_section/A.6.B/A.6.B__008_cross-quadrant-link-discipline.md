@@ -6,12 +6,12 @@ section_id: "A.6.B:6"
 section_title: "Cross‑quadrant link discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__008_cross-quadrant-link-discipline.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:6 — Cross‑quadrant link discipline"
-line_start: 12375
-line_end: 12465
+line_start: 12331
+line_end: 12421
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -44,7 +44,6 @@ keywords:
   - "MAY"
   - "MUST"
   - "MUST NOT"
-  - "MUST NOT hide a gate predicate (that is A-)"
   - "SHALL"
   - "SHOULD"
   - "SHOULD NOT"
@@ -53,7 +52,6 @@ keywords:
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
-  - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
   - "and evaluated results distinct"
   - "and should in explanatory prose is descriptive"
@@ -77,6 +75,7 @@ keywords:
   - "or MAY) as operators inside the law or definition itself"
   - "or observation that settles it and any evidence used for reliance"
   - "responsibility"
+  - "then establish the E result under its own predicate"
   - "they report adjudicable results rather than obligations"
   - "“commits to”)"
   - "“is admissible”"
@@ -161,7 +160,7 @@ and security claims without manufacturing a third claim.
 
 #### A.6.B:6.4 — Dependency direction (no “upward” imports)
 
-The square is intended to preserve **layered modularity**: semantics should not depend on governance text, and evidence semantics should not depend on duties.
+The square keeps laws and admissibility predicates independent of governance prose. An evidence or result claim may concern a prescription, duty, or grant, but its truth is settled by its own predicate and actual basis.
 
 These are cross-quadrant restrictions. They do not prohibit same-quadrant
 references, such as `L-* → L-*` or `E-* → E-*`.
@@ -170,8 +169,8 @@ references, such as `L-* → L-*` or `E-* → E-*`.
 
 * `L-*` claims **MUST NOT** depend on or reference `A-*`, `D-*`, or `E-*` claims (except for purely informative notes explicitly marked informative).
 * `A-*` claims **MUST NOT** depend on or reference `D-*` claims. (`A-*` may reference `L-*` for defined terms or invariants.)
-* `E-*` claims **MUST NOT** depend on or reference `D-*` claims. (`E-*` may reference `A-*` for conditioning and `L-*` for metric or term meanings.)
+* An `E-*` claim **MAY** reference a `D-*` claim as its evidence target or to identify the norm, duty, or grant used by its evaluation. The `E-*` result **MUST** still satisfy its own predicate and the actual-work, evaluation, or observation requirements of §5.4; the `D-*` claim alone establishes no result or compliance. (`E-*` may also reference `A-*` for conditioning and `L-*` for metric or term meanings.)
 * `D-*` claims **MAY** reference `L-*`, `A-*`, and `E-*` claims when needed, and **SHOULD** do so by ID or canonical location rather than restating content.
 
-**Rationale (informative).** This keeps foundational meaning stable (L), keeps runtime gates independent of governance prose (A), and keeps evidence semantics independent of enforcement policy (E). Governance (D) is the place where “who must do what, using which gates and which evidence” is assembled.
+**Rationale (informative).** Laws (L) and admission predicates (A) retain their own meanings. Governance (D) states prescriptions, duties, and grants. Evidence and results (E) may report on those claims or evaluate conduct against them; a prescribed result is not inferred from the prescription.
 

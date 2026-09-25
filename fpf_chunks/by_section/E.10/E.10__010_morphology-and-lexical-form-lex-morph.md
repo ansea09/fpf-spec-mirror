@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 84687
-line_end: 84928
+line_start: 85006
+line_end: 85248
 dependencies:
   - "A.10"
   - "A.15"
@@ -86,7 +86,7 @@ IDs and instances: **flat with delimiters** chosen by the exact local naming sch
 | **`WorkPlan`** | **Claim-bearing episteme coordinating possible future performed work** | Same-individual dependent kind of `U.Episteme` only when A.15.2 recovers one present EntityOfConcern, one horizon, at least one `PlanItem`, and substantive coordination claims | ContextToken after membership | `MaintenanceWorkPlan_Q3` only after the A.15.2 gate | Admission by schedule, window, planned item, ticket, calendar, or plan-record form alone; logging actuals; claiming execution. |
 | **`Service`** (recovery trigger only) | **No kind is named by this suffix before recovery; afterward use the head that names the recovered object or relation** | Apply L-SERV and A.6.P:4.11a to recover the promise content, commitment, bearer, Method, Work, acceptance, publication or API description, or direct relation actually used; preserve the EntityOfConcern/Description-episteme boundary and specification-use gate under the pattern for that claim. | Trigger wording only; any retained ContextToken must already name the recovered object or relation and its use | object-storage service promise; passport-issuance service-access claim | Using `Service` as a final durable head-kind; naming teams or APIs as Service; treating the possible readings as one bundle. |
 | **`Capability`**        | **System ability**                         | EntityOfConcern side                              | KernelToken or ContextToken        | `ScheduleGenerationCapability`                    | Mislabeling system-role kinds, assignments, or methods as capabilities.                         |
-| **`Dynamics`**          | **Law or model of change**                    | EntityOfConcern side                              | KernelToken or ContextToken        | `LotkaVolterraDynamics`                           | Using for abilities (`Capability`) or recipes (`Method`).             |
+| **`Dynamics`** | **Claim-bearing episteme stating a state space and transition law** | Same-individual dependent kind of `U.Episteme` under A.3.3; the changing subject is its EntityOfConcern | KernelToken or ContextToken after membership | `LotkaVolterraDynamics` | Admission from a change label alone; confusing the model with the changing subject, a Capability or a Method. |
 | **`Observation`**       | **Observation record or kind**                | (run record; not EntityOfConcern and Description-episteme or specification use)            | ContextToken or DiscriminatorToken | `VibrationObservation`                            | Mixing with `MethodDescription` or `Evaluation`.                      |
 | **`Evaluation`**        | **Evaluation episteme or evaluation record**        | Description episteme or Description episteme admitted for specification use              | ContextToken or DiscriminatorToken | `CalibrationEvaluation`                           | Using to name system-role kinds, assignments, or methods.                                       |
 | **`EvidenceRole`** (retired trigger only) | Source evidence-role wording; recover evidence-use, source-use, status-use, assurance-use, gate-use, or publication-use relation. | Trigger wording, not a system-role kind | Trigger wording | evidence-use, status-use, source-use, or publication-use relation named by its direct pattern | Using as a system-role kind, `U.SystemRoleAssignment`, or generic evidence. |
@@ -122,11 +122,11 @@ IDs and instances: **flat with delimiters** chosen by the exact local naming sch
 
 **Not only suffix guard**
 * Suffixes are closely related to kinds and **should** be clearly guarded by MG-DA.
-* Other morphemes, not only suffixes, also respect kinds. For example, **Space is a geometric concept** and is not admitted as a suffix (`...Space...`) or other morpheme for naming non-geometric entities. Prefer **Set**, **Kind**, or **Kit** where membership is intended.
+* Other morphemes, not only suffixes, also respect kinds. Use **Space** for a space construction defined by its subject pattern; an A.19 `CharacteristicSpace` is a product of declared Scale value sets and need not have a geometric overlay. Prefer **Set**, **Kind** or **Kit** when only membership is intended.
 
 **L-EPI-PUB — episteme, publication, view, carrier, direct-relation, representation, and authority-reference discipline**
 * Use `U.Episteme` for the claim-bearing unit. `U.EpistemePublication` is a rejected kind name: when the selected edition is available as a published episteme, name or make recoverable its exact `EpistemePublicationRelation` occurrence, publication form, bounded use, and carrier under `E.24.PUB`. The rejected spelling may remain only in an explicit rejection explanation or a negative test, never as a positive object, kind, reference, or field.
-* Name the publication form separately from the episteme: for example `U.PreArticulationCuePack`, `U.AbductivePrompt`, typed bounded projection, partial normal form, endpoint-specific publication form, or another declared form. A publication form is not itself the governing FPF source.
+* Name the publication form separately from the episteme: for example `PreArticulationCuePack`, `U.AbductivePrompt`, typed bounded projection, partial normal form, endpoint-specific publication form, or another declared form. A publication form is not itself the governing FPF source.
 * Name `U.View` and MVPK face separately from the publication form. A `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane` is an episteme-level view or publication face, not the source claim, not the publication form itself, and not the SCR or RSCR carrier.
 * Name the carrier or rendering relation separately. Documents, dashboards, generated screens, trace files, cards, and transport formats hold or render a publication; they are not the `U.Episteme`, not the claim or effect being relied on, and do not supply the rule for that claim.
 * Name source-finding cues separately from source epistemes. A cue, badge, credential view, dashboard tile, heading, signature-looking mark, or generated explanation may help find a source; it does not by itself create an `authoritySourceRef` target, evidence relation, gate decision, assurance claim, exact `U.SystemRoleAssignment` occurrence, status assertion, Work occurrence, deontic permission, or Work authorization.
@@ -141,9 +141,9 @@ IDs and instances: **flat with delimiters** chosen by the exact local naming sch
 * **Preferred alternatives:** name publication face, form, unit, carrier, and rendering; use `...Boundary` for structural borders, `...View` for episteme and view relations, and `...Card` only for a UTS or record unit when that is exact.
 
 **L-Space - Disciplined use of *Space***
-* Use *Space* only for **CHR‑grounded measurement and state constructs** such as `CharacteristicSpace` per A.19. Do **not** coin generic `…Space` for sets, portfolios, or publication forms. Publish portfolios and archives as **sets** via admissible selectors; publish them on UTS as **views** or **cards**, not as spaces.
-* **Field-name and direct-declaration guard.** In A.6.0 and A.6.1 declarations, write `SubjectKind` and `RangedValueKind` as direct content fields. Add `ResultKind`, `SliceSet`, and `ExtentRule` only when their distinctions are current. A heading that merely wraps these fields is presentation, not another declaration component, and receives no Tech name. Reserve *Space* for CHR-grounded measurement, state, and `ReferencePlane` constructs when those are the governed value kinds. Let the referenced C.3 kind, admitted durable U-kind, Concept-Set row, or imported signature symbol carry `...Space` where appropriate; use `...Set` for an ordinary set-valued universe.
-* Space is a geometric concept. Do not use it as a suffix or morpheme for non-geometric sets, portfolios, or publication forms; use `Set`, `Kit`, `Bundle`, `Portfolio`, or another direct FPF kind when that is the current object.
+* Use *Space* for a measurement, state or other formal space whose construction is defined by the applicable subject pattern, including an A.19 `CharacteristicSpace`. Do not infer a Space from a set, portfolio or publication form. Publish a portfolio or archive in the set, view or card form its use actually needs.
+* **Field-name and direct-declaration guard.** In A.6.0 and A.6.1 declarations, write `SubjectKind` and `RangedValueKind` as direct content fields. Add `ResultKind`, `SliceSet`, and `ExtentRule` only when their distinctions are current. A heading that merely wraps these fields is presentation, not another declaration component, and receives no Tech name. Use *Space* only when the governed value has the space construction stated by its subject pattern. Let the referenced C.3 kind, admitted durable U-kind, Concept-Set row, or imported signature symbol carry `...Space` where appropriate; use `...Set` for an ordinary set-valued universe.
+* A.19 topology and distance are separately declared overlays. Their absence does not disqualify a CharacteristicSpace. For a portfolio, publication form or ordinary set, use the name of that actual construction rather than adding *Space* without its defining basis.
 
 **L‑ROLE — guarded recovery from *role***
 * Bare claim-bearing *role* is a lexical trigger with no default Tech reading. Apply `E.10.ROLE`, write the ordinary sentence with its recognizable object and action or relation, and stop as soon as one exact object or relation and its direct pattern are clear.
@@ -155,7 +155,7 @@ IDs and instances: **flat with delimiters** chosen by the exact local naming sch
 
 **M-F (Inadmissible in Kernel tokens).** KernelToken names do not use *...Function*, *...Process*, *...Task*, or *...Activity*. These are ambiguous or vacuous; recover the object through section 6 before naming it: one `U.Method`, one qualifying `U.MethodDescription`, one Work occurrence admitted under `U.Work`, or another accepted recovered value. The source suffix alone selects none.
 
-**M-FW (Tool and file markers).** Tooling and file suffixes (*...API*, *...JSON*, *...YAML*, *...CI*, *...Kafka*, *...Postgres*) are **not** part of conceptual names. Place them in local source or practice glossaries or operational configurations (DevOps Lexical Firewall). Kernel names never carry tool, format, or notation marks. This is conceptual discipline, not a data-management ontology.
+**M-FW (Tool and file markers).** Abstract Kernel names do not acquire incidental tool or file suffixes such as *…API*, *…JSON* or *…YAML*. Keep those implementation designations in their local glossary or operational source. A rule governing a named concrete publication form, protocol or grammar may quote its necessary designation or syntax under E.5.1, with the edition/use boundary. Such a quoted subject designation is not thereby a new universal KernelToken. This distinction preserves exact subject rules without importing a data-management ontology.
 
 #### E.10:8.3 - Prefix discipline
 
@@ -295,8 +295,9 @@ Example: use of a `KernelToken` in a locally scoped constraint is admitted only 
 **Rule.** Tokens ending with **-ility** or **-ilities** or widely used quality names (**Availability, Reliability, Security, Safety, Scalability, Maintainability, Usability**, …) are **Quality‑Family labels**, not automatically CHR **Characteristics**.
 
 **Authoring choice:**
-- To use such a term as a **CHR** characteristic, **bind** it to a **named `U.Characteristic` with one CSLC Scale** (A.18) and refer to that Characteristic in guards and UTS;
-- Otherwise **publish a Q‑Bundle** (see **C.25**) that includes named **Measures (CHR)** for the selected measurable Characteristics and, where relevant, **Scope** (USM set over `U.ContextSlice`) plus window, mechanism, and status fields.
+- Keep ordinary praise or quoted wording ordinary when it carries no FPF-governed claim; use C.16.Q if the evaluative meaning remains hidden.
+- Use one named `U.Characteristic` and its declared CSLC Scale when that one measure carries the engineering quality claim.
+- Use C.25 Q-Bundle-shaped claim content only when several differently typed contributors jointly determine the claim or receiving action. Include only the load-bearing measures, scopes, windows, mechanisms, statuses and evidence.
 
 **Rationale.** Scope is **set-valued** (USM) and **not** a CHR measurement. Q-Bundle mechanism and status fields carry mechanism references, control presences, certification states, or other status values admitted by their specific patterns; they are not generic governance records or measurements. Claim scope, work scope, CHR measures, qualification window, mechanisms, status values, and evidence keep their own kinds even when one Q-Bundle authoring structure coordinates them. (A.2.6 § 6.2; A.6.1; C.16, A.18, and C.25).
 

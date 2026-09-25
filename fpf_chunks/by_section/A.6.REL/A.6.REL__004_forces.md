@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.REL"
-pattern_title: "Relation Obtaining and Individuated Relation Occurrences"
+pattern_title: "Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
 section_id: "A.6.REL:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
+  - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:3 — Forces"
-line_start: 13344
-line_end: 13356
+line_start: 13300
+line_end: 13312
 dependencies:
   - "A.6.0"
   - "A.6.5"

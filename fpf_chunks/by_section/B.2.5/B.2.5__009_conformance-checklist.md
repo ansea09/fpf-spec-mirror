@@ -6,12 +6,12 @@ section_id: "B.2.5:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__009_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:6 — Conformance Checklist"
-line_start: 41846
-line_end: 41857
+line_start: 41792
+line_end: 41803
 dependencies:
   - "A.1"
   - "A.10"
@@ -24,11 +24,13 @@ dependencies:
   - "A.3.3"
   - "A.3.4"
   - "A.6.M"
+  - "A.6.RCD"
   - "B.1"
   - "B.2"
   - "B.2.P"
   - "B.3"
   - "C.13"
+  - "C.2.1"
   - "C.27"
   - "C.28"
   - "C.29"
@@ -44,10 +46,10 @@ keywords:
 | Check | Requirement |
 | --- | --- |
 | `CC-B2.5-1` | A conforming use names supervised holons and the supervising acting system; it adds the local supervisor system-role kind and exact assignment only when each independently obtains. |
-| `CC-B2.5-2` | A conforming use names the observation, report, or source side and the influence, constraint, or objective side. It also names any feedback policy, ClaimScope, qualification window, and evidence that changes the relation claim or its later use. |
-| `CC-B2.5-3` | `SupervisorSubholonFeedbackRelation@Context` is used instead of loop wording unless a separate C.29 mathematical-lens use selects a loop object. |
+| `CC-B2.5-2` | A conforming use names the observation, report, or source side and the influence, constraint, or objective side. It also names the coupling rule, its case facts, common applicability, temporal qualification and evidence that changes the compound claim or its later use. |
+| `CC-B2.5-3` | The assertion is the conjunction of observation, return and coupling for every member of a nonempty supervised set. It introduces no fused U.Relation occurrence; a mathematical loop needs its separate C.29 use. |
 | `CC-B2.5-4` | No `U.TransformerRef` or `U.InteractionRef` is created. |
-| `CC-B2.5-5` | Parthood, control-structure view, publication and source-use relation, and feedback relation are kept separate. |
+| `CC-B2.5-5` | Parthood, control-structure view, base publication and source-use relations, and the compound feedback assertion are kept separate. Each base occurrence keeps its own identity and extent rules. |
 | `CC-B2.5-6` | Stability, safety, timing, causal, evidence, assurance, gate, and mathematical-lens claims use the patterns that define or test them. |
 | `CC-B2.5-7` | Episteme examples name the acting systems that perform review, revision, publication, or use. |
 

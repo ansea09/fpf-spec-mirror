@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.14"
-pattern_title: "Human‑Centric Working‑Model"
+pattern_title: "Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
 section_id: "E.14:6"
 section_title: "Archetypal Grounding (System and Episteme cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__009_archetypal-grounding-system-and-episteme-cases.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.14 — Human‑Centric Working‑Model"
+  - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:6 — Archetypal Grounding (System and Episteme cases)"
-line_start: 89846
-line_end: 89877
+line_start: 90230
+line_end: 90261
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -20,11 +20,6 @@ dependencies:
   - "E.7"
   - "E.8"
 keywords:
-  - "assurance layers"
-  - "grounding"
-  - "human-centric"
-  - "publication surface"
-  - "working model"
 ---
 
 ### E.14:6 - Archetypal Grounding *(System and Episteme cases)*
@@ -51,7 +46,7 @@ keywords:
 
 The measurement domain declares `PumpVibrationMeasurementAssignment` as the assignment species for this work. `RA-ConditionMonitoring-7-E4` is its occurrence, is held by `ConditionMonitoringSystem-7`, and covers the measurement interval. That System performed the admitted Work `Pump37VibrationMeasurement-2026-07-31T0900` under the assignment, and the Work enacted `PumpVibrationMeasurementMethod-E2`. Check the Work and enacted Method with A.15.1, and the Work-assignment attribution with F.6. The applicable A.6.1 bindings identify `Pump-37`, the sensor indication, calibration coefficients, and returned measurement value. Classification of the System under `PumpVibrationMeasurementSystemRole` is a separate claim.
 
-Use C.16 to characterize the domain-local measurement result by its exact Characteristic, Scale, unit, uncertainty, time stance, and interpretation basis. C.2.1 identifies `Pump37VibrationResult-E4`, the episteme that states that result. A.10 path `Pump37MeasurementProvenancePath-E6` cites the calibration, Work, bindings, and source publications; B.3 assurance claim `Pump37MeasurementAssurance-E2` qualifies only the stated use and window. Neither provenance nor assurance is the measurement result. No A.15.PROD claim is needed merely because the result episteme exists; open that pattern only if a separately current question asks whether the exact measurement Work first constituted that episteme.
+Use C.16 to characterize the domain-local measurement result by its exact Characteristic, Scale, unit, uncertainty, time stance, and interpretation basis. C.2.1 identifies `Pump37VibrationResult-E4`, the episteme that states that result. A.10 path `Pump37MeasurementProvenancePath-E6` cites the calibration, Work, bindings, and source publications; B.3 assurance claim `Pump37MeasurementAssurance-E2` qualifies only the stated use and window. Neither provenance nor assurance is the measurement result. No A.15.PROD claim is needed merely because the result episteme exists; open it when a separately current question concerns the Work's productive treatment, the episteme's identity inception, or satisfaction of a production-completion condition. The inception branch specifically asks whether the exact measurement Work first constituted that episteme.
 
 **What changes in practice.** A reader sees the usable statement first, can inspect the exact Work, result, and support chain when reliance matters, and uses the applicable maintenance-criterion, readiness, gate, or permission pattern if the next decision asks one of those different questions.
 

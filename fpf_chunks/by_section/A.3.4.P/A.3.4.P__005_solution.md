@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.3.4.P"
-pattern_title: "Transformation Ontic Precision Restoration"
+pattern_title: "Transformation Wording Repair: Recover Objects and Claims"
 section_id: "A.3.4.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.3.4.P — Transformation Ontic Precision Restoration"
+  - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:4 — Solution"
-line_start: 10759
-line_end: 10845
+line_start: 10728
+line_end: 10814
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -42,6 +42,18 @@ dependencies:
   - "E.8"
   - "F.19"
 keywords:
+  - "actual subject facts"
+  - "and continuity rule"
+  - "and other neighboring claims through exact governors"
+  - "and routing flow structure"
+  - "boundary"
+  - "distinguishing performed-work or other direct actor-side claims from differently typed influence sources"
+  - "evidence"
+  - "method"
+  - "publication"
+  - "representation"
+  - "transformation ontic precision restoration. Repairs change-situation wording by grounding any actual U.Transformation in its changed referent"
+  - "work"
 ---
 
 ### A.3.4.P:4 - Solution

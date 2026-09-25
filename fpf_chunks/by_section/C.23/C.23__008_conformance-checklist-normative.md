@@ -6,12 +6,12 @@ section_id: "C.23:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__008_conformance-checklist-normative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:7 — Conformance Checklist (normative)"
-line_start: 59764
-line_end: 59783
+line_start: 59907
+line_end: 59926
 dependencies:
   - "A.10"
   - "B.3"
@@ -30,6 +30,7 @@ keywords:
   - "MethodFamily"
   - "SoS-LOG"
   - "abstain"
+  - "admission rules"
   - "admit"
   - "degrade"
   - "evidence"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.8"
-pattern_title: "SoS‑LOG Bundles & Maturity Ladders"
+pattern_title: "Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
 section_id: "G.8:5"
 section_title: "Extensions (pattern‑scoped; non‑core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__006_extensions-pattern-scoped-non-core.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
+  - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:5 — Extensions (pattern‑scoped; non‑core)"
-line_start: 114409
-line_end: 114524
+line_start: 114748
+line_end: 114863
 dependencies:
   - "A.10"
   - "A.21"
@@ -148,7 +148,7 @@ keywords:
 **⊑/⊑⁺:** `∅`
 **RequiredPins/EditionPins/PolicyPins (minimum):**
 
-* `GeneratorFamilyId`
+* `GeneratorFamilyRowRef`
 * `TransferRulesRef.edition`
 * `EnvironmentValidityRegionId?`
 * `CouplerPolicyId?`

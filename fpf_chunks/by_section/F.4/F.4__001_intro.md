@@ -6,12 +6,12 @@ section_id: "F.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:intro — Intro"
-line_start: 103066
-line_end: 103071
+line_start: 103472
+line_end: 103477
 dependencies:
   - "A.15"
   - "A.15.1"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19"
-pattern_title: "CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
+pattern_title: "CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
 section_id: "A.19:1"
 section_title: "Intent & Scope (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__003_intent-scope-normative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
+  - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:1 — Intent & Scope (Normative)"
-line_start: 31804
-line_end: 31821
+line_start: 31746
+line_end: 31763
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,11 +36,13 @@ dependencies:
   - "U.ContextSlice"
 keywords:
   - "CharacteristicSpace"
+  - "CharacteristicSpacePredicate"
   - "U.Dynamics.stateSpace"
   - "coordinatewise comparability"
   - "declared Characteristics and Scales"
   - "embedding"
   - "product"
+  - "reusable state conditions"
   - "state trajectories"
   - "structural overlays"
   - "subspace"

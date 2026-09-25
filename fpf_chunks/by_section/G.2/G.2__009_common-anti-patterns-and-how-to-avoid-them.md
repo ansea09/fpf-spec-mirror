@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.2"
-pattern_title: "SoTA Harvester & Synthesis"
+pattern_title: "Harvest and Synthesize SoTA for a CG-Frame"
 section_id: "G.2:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.2 — SoTA Harvester & Synthesis"
+  - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 111558
-line_end: 111579
+line_start: 111998
+line_end: 112019
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -46,6 +46,7 @@ keywords:
   - "TraditionAtlasView"
   - "TypedSetViews"
   - "palette-first"
+  - "state of the art"
   - "synthesis"
 ---
 

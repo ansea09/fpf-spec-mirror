@@ -6,19 +6,33 @@ section_id: "A.19.SelectorMechanism:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:intro — Intro"
-line_start: 36489
-line_end: 36501
+line_start: 36422
+line_end: 36434
 dependencies:
+  - "A.19.CHR"
+  - "A.19.CN"
+  - "A.19.ULSAM"
+  - "A.19.USCM"
+  - "A.6.1"
+  - "A.6.5"
+  - "C.22"
+  - "E.18"
+  - "G.0"
+  - "G.5"
 keywords:
+  - "ComparisonResultSlot"
   - "SelectEligibility"
-  - "selected set"
+  - "SelectorMechanism"
+  - "explicit criteria"
+  - "finite basis of binary CPM applications"
+  - "pass/degrade/abstain"
+  - "required comparison coverage"
+  - "selected candidate set"
   - "selection kernel"
-  - "set-returning selection"
-  - "tri-state guard (pass"
 ---
 
 ## A.19.SelectorMechanism - Unified Selection Kernel, SelectorMechanism
@@ -30,7 +44,7 @@ keywords:
 > **Source:** FPF, CHR mechanism-governing patterns
 > **Modified:** 2026‑01‑20
 >
-> **Governing-pattern note:** this pattern governs the canonical `U.Mechanism.Intension` for `SelectorMechanism.IntensionRef` (CHR suite stage `select`). Mechanism-intension semantics are governed by explicitly designated governing patterns (`E.20:4.2`).
-> `A.6.1` governs the semantic content of a `U.Mechanism` declaration. This pattern specialises that content for selection through the exact `EntityOfConcernRef`, effective `U.ReferenceScheme`, direct signature components, SlotSpecs, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, and Applicability. An F.9 bridge relation, dated selection `U.Work`, actual `Select` operation application with its `SelectionSlot` binding, any result episteme, A.10 evidence-provenance graph relation, G.11 currentness relation, and any publication relation remain neighboring objects and relations.
+> **Governing-pattern note:** this pattern governs the canonical `U.Mechanism` declaration for `SelectorMechanism.IntensionRef` (CHR suite stage `select`). Mechanism-intension semantics are governed by explicitly designated governing patterns (`E.20:4.2`).
+> `A.6.1` governs the semantic content of a `U.Mechanism` declaration. This pattern specialises that content for selection through the exact `EntityOfConcernRef`, effective `U.ReferenceScheme`, operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, and Applicability. An F.9 bridge relation, dated selection `U.Work`, actual `Select` operation application with its `SelectionSlot` binding, any result episteme, A.10 evidence-provenance graph relation, G.11 currentness relation, and any publication relation remain neighboring objects and relations.
 > Other descriptions of SelectorMechanism cite `A.19.SelectorMechanism:4.1` rather than restating its declaration content or absorbing those neighboring objects and relations into mechanism fields.
 

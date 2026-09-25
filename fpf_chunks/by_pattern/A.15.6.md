@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.15.6"
-pattern_title: "Project, Process, and Case Recovery through Work, Method, and Transformation"
+pattern_title: "Recover What Project, Process, or Case Wording Refers To"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.6.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
-line_start: 28518
-line_end: 28915
+  - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
+line_start: 28407
+line_end: 28804
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -38,7 +38,7 @@ dependencies:
 keywords:
 ---
 
-## A.15.6 - Project, Process, and Case Recovery through Work, Method, and Transformation
+## A.15.6 - Recover What Project, Process, or Case Wording Refers To
 
 > **Type:** Architectural (A)
 > **Status:** Stable

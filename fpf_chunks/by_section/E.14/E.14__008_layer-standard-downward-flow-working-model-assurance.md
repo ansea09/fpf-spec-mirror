@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.14"
-pattern_title: "Human‑Centric Working‑Model"
+pattern_title: "Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
 section_id: "E.14:5"
 section_title: "Layer Standard & Downward Flow (Working‑Model → Assurance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__008_layer-standard-downward-flow-working-model-assurance.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.14 — Human‑Centric Working‑Model"
+  - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:5 — Layer Standard & Downward Flow (Working‑Model → Assurance)"
-line_start: 89778
-line_end: 89845
+line_start: 90162
+line_end: 90229
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -20,11 +20,6 @@ dependencies:
   - "E.7"
   - "E.8"
 keywords:
-  - "assurance layers"
-  - "grounding"
-  - "human-centric"
-  - "publication surface"
-  - "working model"
 ---
 
 ### E.14:5 - Layer Standard & Downward Flow (Working‑Model → Assurance)
@@ -39,18 +34,18 @@ This section defines **what each layer is for**, **what it guarantees when selec
 
 * **Kinds** — one **chosen concept** per node (no slash‑labels).
 * **Relations** — a short set of statements intelligible to non-specialists (for example, *Component-of*, a subject-specific sentence such as “this cartridge belongs to this bank under the bank's rule”, *Aspect-of*, and a small number of cross-disciplinary ties such as *Interface-of* or *Constituent-of*).
-* **Language register badges** — labels shown in the Working-Model are L-1 or L-2; L-3 and L-4 remain in Mapping as synonyms or symbols.
+* **Language registers** — choose Plain or Tech wording under E.10 for what the intended reader must identify and use. Keep background synonyms, source labels, and unused symbols in Mapping; expose a technical term in the Working-Model when the current claim or reader use needs it.
 
 **Obligations.**
 
 * A Working-Model edge or node whose use elects an assurance profile keeps that profile's required support recoverable downward. A direct claim outside such a profile can stand on its direct meaning and truth conditions; E.14 adds no assurance field or separate support account.
-* The Working‑Model **does not display** constructor jargon, proof terminology, or evidence identifiers; those live in Assurance and are **available on demand**.
+* The Working-Model omits constructor jargon, proof terminology, and evidence identifiers that its intended reader does not need. Keep the support available on demand, and include a technical term or identifier in the working statement when it changes the claim or the reader's action.
 
 #### E.14:5.2 - Assurance-1: Mapping (from words to chosen model values)
 
 **Purpose.** Consolidate human labels from varied sources and **bind them to the chosen model values** used in the Working-Model, including admitted U-kinds where kindhood is live.
 
-**Guarantee.** When Mapping assurance is selected, the Working-Model label has a **stable alignment** to one chosen model value in the current scope; synonyms, abbreviations, locales, and registers are recorded here, **not** in the displayed Working-Model. Mapping primarily raises **Concept-Bridge Assurance (CBA)** by consolidating synonyms and registers and binding tokens and labels to the chosen value; calculus-level metrics live outside Part E.
+**What to check.** When Mapping assurance is selected, verify the Working-Model label's alignment to its chosen model value in the current scope. Recover the synonyms, abbreviations, locales, and registers needed for that comparison in the Mapping account. This can contribute to **Concept-Bridge Assurance (CBA)** under B.3.3 when it establishes a claim-relevant meaning correspondence; collecting labels alone does not raise assurance.
 
 **Deliverable.** When the current use needs source-word alignment, provide a compact alignment table for that scope. It makes obvious which **one label** the Working-Model shows and which background labels remain source wording.
 
@@ -62,7 +57,7 @@ This section defines **what each layer is for**, **what it guarantees when selec
 
 **Guarantee.** When Logical assurance is selected, a Working-Model edge such as *Component-of* or *Aspect-of* carries one stated reading, including the scope and relation properties needed for the current use, so an auditor can assess whether that use is legitimate.
 
-**Deliverable.** When the current use needs an explicit label-meaning account, give a short rule such as: “When an edge is labeled *Component-of* in the Working-Model text, it intends the direct structural reading whose participants, relation occurrence, construction rule, and identity conditions must be recovered before the assertion is accepted.” The Logical shoulder ties the human label to that accepted meaning; it does not make the relation obtain. Calculus-level symbols are not used in E-patterns.
+**Deliverable.** When the current use needs an explicit label-meaning account, give a short rule such as: “When an edge is labeled *Component-of* in the Working-Model text, it intends the direct structural reading whose participants, relation occurrence, construction rule, and identity conditions must be recovered before the assertion is accepted.” The Logical shoulder ties the human label to that accepted meaning; it does not make the relation obtain. When a calculus or other expression carries a reasoning or construction step, explain its interpretation, operation and prerequisites or cite their subject guidance under E.5.2. Keep the readable claim recoverable from that expression.
 
 *(Rationale: logical label alignment protects the small Working-Model text from relation proliferation while keeping meanings crisp.)*
 
@@ -82,7 +77,7 @@ This section defines **what each layer is for**, **what it guarantees when selec
 
 **Guarantee.** A `postulate` remains a scoped working claim: state its target and scope and supply the brief empirical cues that B.3.5 calls for. It does not establish that evaluation or measurement Work occurred or that a result exists. When evaluation or measurement did occur and the current assurance use relies on its result, name the target claim, `U.ClaimScope`, qualification window, and the pattern that defines or tests the result; recover every performer `U.System`'s A.13 core and independently admit the dated Work under A.15.1 with the Method it enacted. Add F.6 only when the assurance use also needs each exact Work-assignment attribution; the assignment remains a separate A.2.1 claim. Cite a relied-on `U.MethodDescription` only when current, test any local system-role-kind classification separately, and name the participants or A.6.1 bindings, domain-local result, and C.2.1 result episteme that the claim uses. Use A.10 for the evidence-provenance path and reliance disposition, and B.3 for any assurance claim. These objects can support or qualify the Working-Model claim. Another named current assurance requirement retains its own obligations.
 
-**Deliverable.** Keep the ordinary Working-Model sentence first. For a postulate with no relied-on completed result, state the scope and brief empirical cues, then stop. When the current use relies on an actual evaluation or measurement result, expose only the exact result, Work, provenance, currentness, and assurance relations that use consumes. Intended evaluation remains in `U.WorkPlan` until dated Work occurs. If a claim that evaluation Work first constituted the result episteme is separately current, A.15.PROD alone recovers that local entity-identity inception claim; no universal work-result, evidence-result, or production relation is implied. Expiry, evidence ageing, or changed source, method, calibration, result, qualification window, provenance, or assurance basis ends only the reliance that consumes that support and requires the affected reliance claim to be re-evaluated under its applicable pattern. In B.3 terms Empirical Validation contributes on the LA shoulder; B.3 alone computes any effect on reliability R or claim scope G, and G cannot extend beyond the exact supported scope and qualification window.
+**Deliverable.** Keep the ordinary Working-Model sentence first. For a postulate with no relied-on completed result, state its scope and add the brief empirical cues called for by the selected profile, then stop. When the current use relies on an actual evaluation or measurement result, expose only the exact result, Work, provenance, currentness, and assurance relations that use consumes. Intended evaluation remains in `U.WorkPlan` until dated Work occurs. If a claim that evaluation Work first constituted the result episteme is separately current, A.15.PROD alone recovers that local entity-identity inception claim; no universal work-result, evidence-result, or production relation is implied. Re-evaluate the affected reliance when expiry or changed sources, method, calibration, result, qualification window, provenance, or assurance basis can change its support. Narrow or withdraw that reliance when its applicable condition fails; age alone does not defeat still-applicable evidence. Under B.3/B.3.3, Empirical Validation contributes only what its result establishes for the target claim and receiving use. Any reliability calculation needs its exact domain quantity and model; claim scope follows A.2.6 and the evidence that warrants that scope and window.
 
 #### E.14:5.6 - Purpose-selected support for a single Working-Model statement
 

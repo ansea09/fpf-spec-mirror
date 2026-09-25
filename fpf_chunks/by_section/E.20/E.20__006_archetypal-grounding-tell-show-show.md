@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.20"
-pattern_title: "Mechanism Introduction Protocol"
+pattern_title: "Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
 section_id: "E.20:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.20 — Mechanism Introduction Protocol"
+  - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 98048
-line_end: 98060
+line_start: 98450
+line_end: 98462
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -28,23 +28,21 @@ dependencies:
   - "G.x"
 keywords:
   - "MIP-run manifest"
-  - "P2W seam"
-  - "PQG profiles"
-  - "SlotKind lexicon discipline"
   - "alias docking"
   - "authoring protocol"
-  - "canonical card-first"
+  - "declaration-local operation members"
   - "governing-definition assignment"
   - "mechanism introduction"
-  - "no dangling …IntensionRef"
-  - "regression envelope"
-  - "suite boundary hygiene"
-  - "typed RSCR triggers"
+  - "planned baseline"
+  - "resolvable MechanismDefinitionRef"
+  - "suite boundary"
+  - "trigger triage"
+  - "wiring"
 ---
 
 ### E.20:5 - Archetypal Grounding *(Tell–Show–Show)*
 
-**Show 0 (suite member, no new mechanism meaning).** A suite adds an already-introduced `U.Mechanism` episteme by its `MechanismDefinitionRef` and changes no identity component, declaration content, or neighboring relation on which the suite use relies. E.20 records the suite-governing locus and stops; no new mechanism declaration target or MIP-run manifest is opened.
+**Show 0 (optional citation, no suite or mechanism change).** A suite description adds only an optional citation of an already-introduced `U.Mechanism` episteme by its `MechanismDefinitionRef`. Its admitted membership, denotation, closure, obligations, pins, protocol semantics, and relied-on neighboring relations remain unchanged. E.20 names the suite-governing locus and stops; no new mechanism declaration target or MIP-run manifest is opened. An actual membership addition instead uses the suite-change branch.
 
 |  | Tell | Show #1 — add a mechanism to an existing suite *variant* | Show #2 — introduce a new mechanism family + suite |
 |---|---|---|---|

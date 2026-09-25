@@ -6,12 +6,12 @@ section_id: "A.20:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:4 — Solution"
-line_start: 36971
-line_end: 37080
+line_start: 36915
+line_end: 37024
 dependencies:
   - "A.10"
   - "A.15"
@@ -134,7 +134,7 @@ A.20 keeps only the result content needed to reuse the internal-constraint findi
 - `G.11` defines refresh planning and performed refresh work;
 - `C.27` defines temporal-claim adequacy;
 - `A.21` defines check applications, profile use, gate aggregation, and decision consequences;
-- `A.10` and `B.3` define evidence use and assurance; and
+- `A.10` recovers provenance and bounded reliance; the direct support pattern defines each evidence relation and `B.3` governs assurance; and
 - `A.15` defines plans and dated Work.
 
 Citing an A.20 result in one of those claims does not copy that consumer's identity, scheduling, publication, or policy fields into A.20.

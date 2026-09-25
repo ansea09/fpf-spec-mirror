@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.M"
-pattern_title: "Module Relation Repair"
+pattern_title: "Module and Interface Claim Repair"
 section_id: "A.6.M:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.M — Module Relation Repair"
+  - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 20731
-line_end: 20744
+line_start: 20581
+line_end: 20594
 dependencies:
   - "A.10"
   - "A.20"

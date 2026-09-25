@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16.1"
-pattern_title: "U.PreArticulationCuePack"
+pattern_title: "PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
 section_id: "A.16.1:21"
 section_title: "Practitioner Check Matrix and Migration Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__022_practitioner-check-matrix-and-migration-tests.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16.1 — U.PreArticulationCuePack"
+  - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:21 — Practitioner Check Matrix and Migration Tests"
-line_start: 31227
-line_end: 31236
+line_start: 31169
+line_end: 31178
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "A.15.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:intro — Intro"
-line_start: 29523
-line_end: 29528
+line_start: 29414
+line_end: 29419
 dependencies:
   - "A.15"
   - "A.15.5"

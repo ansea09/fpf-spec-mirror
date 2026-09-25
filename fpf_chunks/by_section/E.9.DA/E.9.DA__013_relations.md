@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.9.DA"
-pattern_title: "DRR Decision-Adequacy Evaluation CharacteristicSpace"
+pattern_title: "Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
 section_id: "E.9.DA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__013_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
+  - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:12 — Relations"
-line_start: 83650
-line_end: 83669
+line_start: 83969
+line_end: 83988
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -33,7 +33,7 @@ keywords:
 | `A.19`, `A.19.ECS`, `A.17`, `A.18`, `C.16`, `C.16.Q`, `C.25` | Define or constrain the characteristic space, evaluation specification, characteristics, scales, measurement boundary, quality-ascription precision, declared-use floor, noncompensatory status meaning, and any separately selected Q-Bundle consumed here. E.9.DA supplies the DRR-specific coordinates and result rules. |
 | `A.13`, `A.15.1`, `F.6`, `A.6.1`, `A.2`, `A.2.1`, `C.3.2` | `A.13` supplies every precise evaluator-performer's core and same obtaining assignment; `A.15.1` independently admits dated Work; `F.6` supplies a separate later relation only when precise assignment-bound attribution is current. `A.6.1` governs an exact application of a declared mechanism operation and its actual bindings; `A.2` and `A.2.1` supply the assignment species and occurrence; `C.3.2` is relevant only to an independently asserted local system-role classification. Method, application, Work, and attribution are independently conditional here. Neither an application nor Method alone implies Work. |
 | `C.2.1` | Defines the identity of an exact checked DRR or reusable coordinate/result/record episteme when that identity is current. An ordinary bounded review need not create those objects. |
-| `A.10`, `B.3` | `A.10` governs exact evidence use and provenance. `B.3` governs an assurance use of the result when an actual named assurance claim about an exact target claim is current. Witness presence and a favorable value create neither relation. |
+| `A.10`, `B.3` | `A.10` recovers the exact sources, independently established support and use relations, provenance and currentness needed for bounded reliance. `B.3` governs assurance when an actual named assurance claim about an exact target claim is current. Witness presence and a favorable value establish neither reliance nor assurance. |
 | `F.10`, `G.11` | Govern any downstream status use/interpretation and currentness. A local E.9.DA status value does not authorize drafting by itself. |
 | `E.24.PUB`, `C.29` | `E.24.PUB` governs publication occurrence, form, and carrier; `C.29` governs representation through a declared mathematical lens when such a lens is used for a result or record. State publication separately from the assessment and its evidence basis. |
 | `E.8` | Governs later authored pattern bodies and the current-best-versus-lineage, source-payload, adoption, changed-locus, and reopen discipline used in §11. |

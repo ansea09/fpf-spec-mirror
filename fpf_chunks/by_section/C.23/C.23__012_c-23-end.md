@@ -6,12 +6,12 @@ section_id: "C.23:End"
 section_title: "C.23:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__012_c-23-end.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:End — C.23:End"
-line_start: 59801
-line_end: 59802
+line_start: 59944
+line_end: 59945
 dependencies:
   - "A.10"
   - "B.3"
@@ -30,6 +30,7 @@ keywords:
   - "MethodFamily"
   - "SoS-LOG"
   - "abstain"
+  - "admission rules"
   - "admit"
   - "degrade"
   - "evidence"

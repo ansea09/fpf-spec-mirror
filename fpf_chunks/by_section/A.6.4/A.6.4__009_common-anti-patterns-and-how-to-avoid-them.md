@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.4"
-pattern_title: "EntityOfConcern retargeting"
+pattern_title: "EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
 section_id: "A.6.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.4 — EntityOfConcern retargeting"
+  - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 17330
-line_end: 17338
+line_start: 17312
+line_end: 17320
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,15 +6,16 @@ section_id: "F.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:intro — Intro"
-line_start: 106292
-line_end: 106299
+line_start: 106716
+line_end: 106723
 dependencies:
   - "F.1"
-  - "F.10"
+  - "F.17"
+  - "F.18"
   - "F.2"
   - "F.3"
   - "F.5"
@@ -23,17 +24,19 @@ dependencies:
   - "F.9"
 keywords:
   - "deprecation"
-  - "evolution"
-  - "merging terms"
-  - "renaming"
-  - "splitting terms"
+  - "historical reading"
+  - "lexical continuity"
+  - "local aliases"
+  - "renaming labels"
+  - "retirement"
+  - "splitting and merging labels"
 ---
 
 ## F.13 - Lexical Continuity & Deprecation
 
 **“Change names without changing history.”**
 **Status.** Architectural pattern.
-**Builds on:** F.1 **context of meaning**; F.2 **Term Harvesting**; F.3 **Intra‑Context Clustering (SenseCell)**; F.5 **Naming Discipline**; F.7 **Concept‑Set (row) construction**; F.8 **Mint‑or‑Reuse decision**; F.9 **Bridges**; F.10 **Status windows**.
+**Builds on:** F.1 **Question-Relative Source Selection**; F.2 **source-local term harvesting**; F.3 **source-local sense clustering**; F.5 **naming discipline**; F.7 **Concept-Set comparison displays**; F.8 **mint-or-reuse for a name**; F.9 **sense relations and bounded uses**; F.17 **exact cell and row identity**; F.18 **naming settlement and lineage**.
 **Coordinates with.** Part C CALs when canon editions change (Sys/KD/Type/Method/LCA).
 **Non‑goals.** No registries, workflows, editors, or storage formats. No by‑name Cross‑context equivalence. No silent rewrites of old texts.
 

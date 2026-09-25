@@ -6,12 +6,12 @@ section_id: "C.31.RSA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:intro — Intro"
-line_start: 70396
-line_end: 70401
+line_start: 70615
+line_end: 70620
 dependencies:
   - "A.10"
   - "A.19"

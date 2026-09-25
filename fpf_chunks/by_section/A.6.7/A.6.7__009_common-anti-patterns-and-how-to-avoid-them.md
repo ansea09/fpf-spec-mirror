@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.7"
-pattern_title: "MechSuiteDescription — Description of a set of distinct mechanisms"
+pattern_title: "MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
 section_id: "A.6.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
+  - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 21982
-line_end: 22003
+line_start: 21854
+line_end: 21875
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -24,7 +24,7 @@ dependencies:
   - "E.8"
   - "G.10"
   - "G.5"
-  - "U.Mechanism.Intension"
+  - "U.Mechanism"
 keywords:
   - "CG-Spec"
   - "CN-Spec"

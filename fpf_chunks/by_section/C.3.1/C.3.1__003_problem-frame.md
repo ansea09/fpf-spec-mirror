@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.1"
-pattern_title: "U.Kind and U.SubkindOf Core"
+pattern_title: "Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
 section_id: "C.3.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__003_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.3.1 — U.Kind and U.SubkindOf Core"
+  - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:1 — Problem Frame"
-line_start: 50909
-line_end: 50914
+line_start: 51052
+line_end: 51057
 dependencies:
   - "A.1"
   - "A.11"

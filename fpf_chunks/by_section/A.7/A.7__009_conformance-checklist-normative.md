@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.7"
-pattern_title: "Strict Distinction (Clarity Lattice)"
+pattern_title: "Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
 section_id: "A.7:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__009_conformance-checklist-normative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.7 — Strict Distinction (Clarity Lattice)"
+  - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:7 — Conformance Checklist (normative)"
-line_start: 23249
-line_end: 23273
+line_start: 23125
+line_end: 23149
 dependencies:
   - "A.1"
   - "A.10"

@@ -1,37 +1,39 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.9"
-pattern_title: "Cross‑Scale Consistency (C‑3)"
+pattern_title: "Choose and Check an Aggregation Law for the Intended Result"
 section_id: "A.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.9 — Cross‑Scale Consistency (C‑3)"
+  - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:3 — Forces"
-line_start: 24127
-line_end: 24135
+line_start: 24004
+line_end: 24012
 dependencies:
-  - "A.1"
-  - "A.8"
-  - "A.9"
+  - "A.19.CN"
+  - "A.19.ULSAM"
   - "B.1"
-  - "U.Holon"
+  - "B.2"
+  - "C.29"
 keywords:
-  - "aggregation"
-  - "composition"
-  - "holarchy"
-  - "invariants"
-  - "roll-up"
+  - "aggregation law"
+  - "bounds"
+  - "cross-scale consistency"
+  - "dependency model"
+  - "intended result"
+  - "ordered composition"
+  - "singleton identity"
 ---
 
 ### A.9:3 - Forces
 
-| Force                                  | Tension                                                      |
-| -------------------------------------- | ------------------------------------------------------------ |
-| **Local autonomy vs Global coherence** | Free optimisation of parts ↔ predictable behaviour of whole. |
-| **Simplicity vs Fidelity**             | Single rule‑set ↔ non‑linear, emergent effects.              |
-| **Determinism vs Emergence**           | Stable roll‑ups ↔ need to legitimise genuine synergy jumps.  |
-| **Didactic clarity vs Formal rigour**  | Managers grasp intent quickly ↔ analysts can prove it.       |
+| Force | Tension |
+|---|---|
+| Simple operation, faithful meaning | A compact formula must still express the intended result under the actual subject model. |
+| Reuse, changed conditions | Retain a justified law while reopening the specific dependence or applicability premise that changed. |
+| Local work, combined result | Parallel or separate computation helps only when its recombination preserves what the receiving use needs. |
+| Useful answer, incomplete basis | A bound or separate inputs can be a better answer than an unsupported scalar. |
 

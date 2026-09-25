@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.4"
-pattern_title: "Contextual and Temporal Aggregation"
+pattern_title: "Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
 section_id: "B.1.4:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.1.4 — Contextual and Temporal Aggregation"
+  - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:2 — Solution"
-line_start: 39301
-line_end: 39363
+line_start: 39231
+line_end: 39293
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -45,14 +45,14 @@ ContextTemporalAggregation@Context:
   includedPositionRefs?
   includedPhaseRefs?
   claimScopeRef?: U.ClaimScope
-  aggregationMode: contextualOrder | temporalPhase | declaredMixedUse
+  aggregationMode: contextualOrder | temporalPhase
   orderedRelationRefs?
   phaseRelationRefs?
   orderSpecRef?
   timeWindowRef?
   carrierIdentityRef?
   independenceOrJoinConditionRefs?
-  coverageAndNonOverlapConditionRefs?
+  coverageAndOverlapPolicyRefs?
   boundaryCrossingRelationRefs?
   relatedMethodRefs?
   relatedMethodDescriptionRefs?
@@ -69,14 +69,14 @@ ContextTemporalAggregation@Context:
 
 `stopOrReturnCondition` states when to stop aggregating or apply another pattern; `strongerSourceReturnCondition` states the condition for a stronger claim. Include `nonAdmissibleOverread?` only when it passes F.19's plausible-reader test. `groundedNonAdmissibleOverread?` is an alias for that same optional value.
 
-Use the record as a small typed relation, not as a new durable `U.Level`, `U.Boundary`, `U.Interaction`, or generic process object.
+Use the record to describe the exact aggregation claim and its independently established relations. The record is not itself the relation or a new `U.Level`, `U.Boundary`, `U.Interaction`, or generic process object.
 
 #### B.1.4:2.1 - Two Aggregation Modes
 
 | Mode | Current object | Required relation discipline | Typical use |
 | --- | --- | --- | --- |
 | Contextual order aggregation | An exact set of relation positions whose order, partial order, or join structure changes meaning for the stated use. | Included positions, `OrderSpec`, ordered relation refs, join or independence conditions, and ClaimScope when needed. | Ordered method relation, order-bound argument chain, staged construction description, controlled sequence. |
-| Temporal phase aggregation | One enduring carrier considered through exact proper phases or time slices. | Carrier identity rule, included phases, `PhaseOf` or another direct phase relation, `TimeWindow`, coverage, and non-overlap conditions. For an unchanged episteme, the complete C.2.1 identity triple stays fixed. | Asset history, proper restriction of one unchanged episteme, experimental-carrier phases, dated evidence window. Distinct episteme editions first require C.2.1 identities and an independently obtaining edition relation. |
+| Temporal phase aggregation | One enduring carrier considered through exact proper phases or time slices. | Carrier identity rule, included phases, `PhaseOf` or another direct phase relation, `TimeWindow`, declared coverage rule and overlap policy. For an unchanged episteme, the complete C.2.1 identity triple stays fixed. | Asset history, proper restriction of one unchanged episteme, experimental-carrier phases, dated evidence window. Distinct episteme editions first require C.2.1 identities and an independently obtaining edition relation. |
 
 If one source phrase mixes both modes, split the record. A Method may have an ordered relation structure; the Work that enacts it may have exact A.15.1 temporal parts, episodes, operational parts, or separate occurrences, while C.27.TA supplies any independently declared overlap or other interval relation the receiving use aggregates. Those are different claims, and generic `PhaseOf` does not replace the Work or temporal relations.
 

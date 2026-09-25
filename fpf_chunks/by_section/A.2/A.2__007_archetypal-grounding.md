@@ -6,12 +6,12 @@ section_id: "A.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__007_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:5 — Archetypal Grounding"
-line_start: 3568
-line_end: 3660
+line_start: 3569
+line_end: 3661
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -61,16 +61,16 @@ KindSignature@ReviewerSystemRole/e3:
   EntityOfConcern: ReviewerSystemRole
   candidateValueKind: U.System
   membershipCriterion:
-    one current A.2.2 capability instance has the candidate system as holder,
-    names substantive-review Work or its review-judgment result class,
-    and satisfies its declared envelope, measures, and currentness;
+    the candidate system can perform substantive-review Work or produce
+    the review-judgment result class under the declared conditions and bounds;
+    the A.2.2 ability assertion has the support and currentness required here;
     the current JournalReview capability-fit predicate confirms the submission,
     review-phase, and judgment-quality conditions for this slice
   sliceApplicabilityConditions:
     the submission, review phase, and temporal selector
   effectiveReferenceScheme: JournalReview-Scheme-2026/e3
   assumptionsAndDependencies:
-    the capability instance, currentness condition, and capability-fit predicate
+    the qualified holder-ability claim, its currentness condition and capability-fit predicate
 ```
 
 The capability and fit predicate are governed under A.2.2. They are features used by the criterion, not substitutes for the kind or judgment. One application can therefore state:

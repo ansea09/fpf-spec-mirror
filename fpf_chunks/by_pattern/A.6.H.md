@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.H.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
-line_start: 22707
-line_end: 23034
+line_start: 22583
+line_end: 22910
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,6 +41,9 @@ dependencies:
 keywords:
   - "boundary"
   - "completeness"
+  - "completion"
+  - "coverage"
+  - "end-to-end"
   - "environment"
   - "integrity"
   - "mereology"
@@ -48,6 +51,7 @@ keywords:
   - "part-of"
   - "publication-carrier and EntityOfConcern/Description distinction"
   - "system-role–Method–Work distinctions"
+  - "turnkey"
   - "wholeness"
 ---
 

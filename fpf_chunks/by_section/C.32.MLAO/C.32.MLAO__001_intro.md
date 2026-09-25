@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.MLAO"
-pattern_title: "Multilevel Architecture Residual Optimization"
+pattern_title: "Architecture Candidates to Reduce Cross-Scope Residuals"
 section_id: "C.32.MLAO:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.32.MLAO — Multilevel Architecture Residual Optimization"
+  - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:intro — Intro"
-line_start: 72973
-line_end: 72978
+line_start: 73192
+line_end: 73197
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -51,7 +51,7 @@ keywords:
   - "stepping stone"
 ---
 
-## C.32.MLAO - Multilevel Architecture Residual Optimization
+## C.32.MLAO - Architecture Candidates to Reduce Cross-Scope Residuals
 
 > **Type:** Architectural subpattern under C.32
 > **Status:** Stable

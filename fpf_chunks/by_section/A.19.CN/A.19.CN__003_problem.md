@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CN"
-pattern_title: "CN‑frame (comparability & normalization)"
+pattern_title: "CN-frame: Specify and Maintain Comparability and Normalization"
 section_id: "A.19.CN:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__003_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.CN — CN‑frame (comparability & normalization)"
+  - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:2 — Problem"
-line_start: 33734
-line_end: 33742
+line_start: 33669
+line_end: 33677
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -42,5 +42,5 @@ Absent a governance layer, four failure modes recur:
 1. **Chartless numbers.** Measures move between teams without units, reference states, or declared normalization → **illusory comparability**.
 2. **Hidden normalization flips.** Re‑parameterisations (e.g., normalising by batch size) silently alter meaning; trend lines lie.
 3. **CN‑frame sprawl.** Every initiative mints a new “dashboard dimension”; semantics diverge; assurance collapses.
-4. **Un‑bridgeable reports.** Cross‑team roll‑ups average **incongruent** CN‑frames, violating the **weakest‑link (WLNK)** discipline from Γ and B.3.
+4. **Un‑bridgeable reports.** Cross‑team roll‑ups average **incongruent** CN‑frames, without a justified common comparison/aggregation model under B.3.
 

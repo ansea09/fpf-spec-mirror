@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.17"
-pattern_title: "Unified Term Sheet"
+pattern_title: "Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
 section_id: "F.17:9"
 section_title: "Layouts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__011_layouts.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.17 — Unified Term Sheet"
+  - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:9 — Layouts"
-line_start: 107845
-line_end: 107862
+line_start: 108275
+line_end: 108292
 dependencies:
   - "A.1.1"
   - "A.10"

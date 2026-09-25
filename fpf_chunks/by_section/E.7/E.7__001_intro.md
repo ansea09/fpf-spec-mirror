@@ -1,29 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.7"
-pattern_title: "Archetypal Grounding Principle"
+pattern_title: "Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
 section_id: "E.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.7 — Archetypal Grounding Principle"
+  - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
   - "E.7:intro — Intro"
-line_start: 81870
-line_end: 81871
+line_start: 82175
+line_end: 82176
 dependencies:
   - "E.5.4"
   - "E.6"
   - "E.8"
 keywords:
-  - "Tell-Show-Show"
-  - "U.Episteme"
-  - "U.System"
-  - "archetypes"
-  - "examples"
-  - "grounding"
 ---
 
-## E.7 - Archetypal Grounding Principle
+## E.7 - Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases
 

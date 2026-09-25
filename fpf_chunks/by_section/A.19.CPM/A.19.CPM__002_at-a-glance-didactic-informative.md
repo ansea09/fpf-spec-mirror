@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CPM"
-pattern_title: "Unified Comparison Mechanism (CPM)"
+pattern_title: "Compare Admitted Profiles under a Declared Comparator (CPM)"
 section_id: "A.19.CPM:0"
 section_title: "At a glance (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__002_at-a-glance-didactic-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.CPM — Unified Comparison Mechanism (CPM)"
+  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:0 — At a glance (didactic, informative)"
-line_start: 36123
-line_end: 36156
+line_start: 36044
+line_end: 36077
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -44,7 +44,7 @@ CPM is the CHR comparison kernel: it compares two admitted profiles under an exp
 * **Suite stage:** `compare` (pipeline order lives in `A.19.CHR:4.5`, not in the `mechanisms[]` enumeration).
 * **Input (conceptual):** left profile, right profile, `CN-Spec`, `CG-Spec`, an explicit `ComparatorSpec`, one `U.ClaimScope` with selected A.2.6 `U.ContextSlice` members, an optional A.19 `CharacteristicSpacePredicate` when the comparison depends on one, effective reference plane, explicit evaluation window, and optional explicit `MinimalEvidence` override.
 * **Output (conceptual):** the by-value `ComparisonResultSlot` set of relation or poset tokens. It is not a score, selected set, result episteme, work-result relation, evidence record, or container for replay metadata.
-* **Planned slot fillings:** concrete `ComparatorSpecRef.edition` and policy ids are planned fillers only under the exact A.15.3 planned-filling declaration and are carried by `SlotFillingsPlanItem` rows (A.15.3 plus `A.19.CHR:4.7.2`). CPM's declaration does not fill project-specific slots. A dated comparison `U.Work` has separately governed occurrence-parameter bindings; an actual A.6.1 `Compare` operation application binds the set-valued result to `ComparisonResultSlot`; and its A.10 evidence-provenance path records the evidence and source-currentness basis used for replay.
+* **Planned use:** an A.15.2 baseline selects ComparatorSpecRef editions and policy ids. A.15.3 and SlotFillingsPlanItem apply only to independently declared receiving positions under A.19.CHR:4.7.2. The actual Compare application carries its argument and result bindings under §4.1. Any dated comparison Work and A.10 evidence-provenance account retain their independent grounds.
 * **Reproducible comparisons:** for parity and benchmark style runs that require a stable run package plus report record (editions, windows, parity pins), use `G.9` (Parity and Benchmark Harness). CPM stays kernel-only.
 * **What CPM does not do (strict distinction):**
 
@@ -55,5 +55,5 @@ CPM is the CHR comparison kernel: it compares two admitted profiles under an exp
   * does **not** select (“pick best”) — that is `SelectorMechanism`.
 * **Core safety commitments:** admissibility gate via `CG-Spec.ComparatorSet` + `CG-Spec.SCP` + CSLC; tri-state admissibility (`pass|degrade|abstain`); unknown never coerces to “pass” or to a fabricated outcome; no silent scalarization or totalization.
 * **Where method details live:** in editions of `ComparatorSpec` and their SoTA wiring (Part G packs and extensions), not inside CPM’s kernel semantics.
-* **Quick rule of thumb:** if you need **numbers**, that’s `USCM`; if you need a **selection or selected-set result**, that’s `SelectorMechanism`. CPM’s job is only: **compare → relation tokens**.
+* **Quick rule of thumb:** use `USCM` when you need scores from a declared scoring method and `SelectorMechanism` when you need a selected candidate set. Obtaining measured values follows the applicable C.16 measurement method; normalization follows UNM. CPM compares admitted profiles and returns relation tokens.
 

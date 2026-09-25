@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.2"
-pattern_title: "The Eleven Pillars"
+pattern_title: "FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
 section_id: "E.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.2 — The Eleven Pillars"
+  - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:intro — Intro"
-line_start: 78279
-line_end: 78280
+line_start: 78550
+line_end: 78551
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -30,14 +30,16 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
+  - "BLP"
+  - "Bitter-Lesson Preference"
   - "P-1 to P-11"
   - "constitution"
-  - "core values"
+  - "eleven pillars"
   - "invariants"
-  - "pillars"
   - "principles"
-  - "rules"
+  - "scalable methods"
+  - "scale audit"
 ---
 
-## E.2 - The Eleven Pillars
+## E.2 - FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)
 

@@ -6,12 +6,12 @@ section_id: "C.2.3:16"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__017_worked-examples.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:16 — Worked Examples"
-line_start: 49066
-line_end: 49091
+line_start: 49209
+line_end: 49234
 dependencies:
   - "A.16"
   - "A.18"
@@ -52,7 +52,7 @@ A controller coupled to a plant model with explicit hybrid obligations is typica
 
 #### C.2.3:16.4 - Decision policy
 
-A decision policy with controlled prose may remain `F3`. If thresholds and conditions are published as typed predicates, it becomes `F4`.
+A normative policy stating in controlled prose that requests exceeding a thirty-minute planned-duration ceiling fail that budget condition may declare F3 without any B.3 assurance result. An expression with a typed Plan variable p, plannedMinutes(p) in nonnegative real minutes, and meetsBudget(p) iff plannedMinutes(p) ≤ 30 satisfies the F4 predicate/type basis for this condition. The rating follows those observable expression properties, not a software tool or a readability claim. Meeting the expressed budget condition alone supplies neither other eligibility conditions nor permission.
 
 #### C.2.3:16.5 - Proof-bearing algorithm
 

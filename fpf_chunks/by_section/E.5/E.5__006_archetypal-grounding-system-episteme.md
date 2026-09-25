@@ -6,12 +6,12 @@ section_id: "E.5:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__006_archetypal-grounding-system-episteme.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:5 — Archetypal Grounding (System / Episteme)"
-line_start: 81379
-line_end: 81387
+line_start: 81697
+line_end: 81705
 dependencies:
   - "E.2"
   - "E.3"
@@ -20,12 +20,6 @@ dependencies:
   - "E.5.3"
   - "E.5.4"
 keywords:
-  - "GR-1 to GR-4"
-  - "architecture"
-  - "constraints"
-  - "guardrails"
-  - "rules"
-  - "safety"
 ---
 
 ### E.5:5 - Archetypal Grounding (System / Episteme)

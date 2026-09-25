@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.A"
-pattern_title: "Action-Invitation Precision Restoration (ACT-INV)"
+pattern_title: "Affordance and Action-Invitation Precision Restoration (ACT-INV)"
 section_id: "A.6.A:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
+  - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 19903
-line_end: 19916
+line_start: 19760
+line_end: 19773
 dependencies:
   - "A.15"
   - "A.16"
@@ -21,6 +21,7 @@ dependencies:
   - "A.3"
   - "A.6.B"
   - "A.6.P"
+  - "A.6.REL"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
@@ -31,17 +32,20 @@ dependencies:
   - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "E.10"
   - "E.17"
   - "E.17.0"
   - "E.18"
+  - "F.17"
+  - "F.18"
   - "F.9"
 keywords:
-  - "A.15 docking"
-  - "action invitation"
   - "action-first language"
   - "affordance"
-  - "language-state seam"
-  - "post-threshold classification"
+  - "detection"
+  - "inquiry question"
+  - "physical opportunity"
+  - "wording recovery"
 ---
 
 ### A.6.A:8 - Common Anti-Patterns and How to Avoid Them
@@ -49,12 +53,12 @@ keywords:
 | Anti-pattern                   | Symptom                                                                                     | Why it fails                                           | How to avoid or repair                                           |
 | ------------------------------ | ------------------------------------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- |
 | **Site-participant-property affordance** | "The site participant is actionable" with no enactor or coupling frame | collapses relationality into monadic property language | publish site, enactor, action, and coupling frame |
-| **Invitation-as-obligation**   | "This calls for rollback" is treated as if rollback is already required                     | hides A-classified or D-classified claim status and accountability | publish `actionInvitation(...)`, then classify duty or gate use with A.6.B |
+| **Invitation-as-obligation**   | "This calls for rollback" is treated as if rollback is already required                     | hides A-classified or D-classified claim status and accountability | recover the actual claim and apply its duty or gate rule through A.6.B |
 | **Invitation-as-work**         | “The system reacted” is used where only a cue or option exists                              | confuses offer with execution                          | keep invitation separate from A.15 and `U.Work`                   |
 | **MethodDescription as invited Method** | `Enact(methodDescriptionRef=Runbook)` supplies no exact Method | makes a C.2.1 episteme the world-side way of doing | select exact `methodRef -> U.Method`; keep the description auxiliary |
 | **Viewpoint or view by record inclusion** | a field name or bundle row is treated as proof of `U.Viewpoint` or `U.View` | bypasses reference resolution and E.17.0 dependent-kind rules | resolve `viewpointRef` under the effective scheme and establish any view's conformance independently |
 | **Capability-as-invitation**   | “The robot can do X” stands in for a situated affordance                                    | destroys local enactor and site conditions             | separate capability description from action invitation          |
-| **Latent cue as explanation**  | a model tendency is narrated as if it were already an explicit rationale                    | overstates articulation and evidence                   | keep as `CuePack` or `OptionSet` until further articulation     |
-| **Premature automation**       | a cue without required witness records is wired directly into gates or controllers with no explicit hook `authoritySourceRef` named source or guard | creates unsafe action-to-automation coupling                         | require `PolicyHook`, A.6.B claim classification, and witnesses                |
+| **Latent cue as explanation**  | a model tendency is narrated as if it were already an explicit rationale                    | overstates articulation and evidence                   | state the supported model tendency; use a cue pack or option set only when that form helps the receiving use     |
+| **Premature automation**       | a cue without required witness records is wired directly into gates or controllers with no explicit hook `authoritySourceRef` named source or guard | creates unsafe action-to-automation coupling                         | apply the existing controller or gate rule, recover authority and evidence, and use an explicit hook when its interface requires one                |
 | **ArticulationHint as F proxy**| `hook-explicit` is treated as "more formal"                                                | recreates a forbidden second formality characteristic          | keep F in C.2.3; reserve articulation and closure semantics for `A.16` |
 

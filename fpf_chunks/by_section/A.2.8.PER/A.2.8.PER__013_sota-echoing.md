@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__013_sota-echoing.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:11 — SoTA-Echoing"
-line_start: 7680
-line_end: 7689
+line_start: 7649
+line_end: 7658
 dependencies:
   - "A.10"
   - "A.13"

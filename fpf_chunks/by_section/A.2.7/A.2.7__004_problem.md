@@ -6,12 +6,12 @@ section_id: "A.2.7:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__004_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:2 — Problem"
-line_start: 6604
-line_end: 6614
+line_start: 6567
+line_end: 6577
 dependencies:
   - "A.2"
   - "A.2.1"

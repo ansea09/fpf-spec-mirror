@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.ACS"
-pattern_title: "Architecture Characteristic Criteria Set for Improvement Cycles"
+pattern_title: "Architecture Characteristic Criteria Set"
 section_id: "C.32.ACS:7"
 section_title: "Conformance requirements"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__008_conformance-requirements.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
+  - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:7 — Conformance requirements"
-line_start: 72237
-line_end: 72254
+line_start: 72456
+line_end: 72473
 dependencies:
   - "A.1.1"
   - "A.10"

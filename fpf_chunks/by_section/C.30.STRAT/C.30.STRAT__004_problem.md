@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30.STRAT"
-pattern_title: "Stratification Wording Precision Restoration"
+pattern_title: "Clarify Stratification and Architecture Source Labels"
 section_id: "C.30.STRAT:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__004_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.30.STRAT — Stratification Wording Precision Restoration"
+  - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:2 — Problem"
-line_start: 68012
-line_end: 68015
+line_start: 68221
+line_end: 68224
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,6 +47,20 @@ dependencies:
   - "G.6"
   - "I.2"
 keywords:
+  - "block"
+  - "cache"
+  - "expert"
+  - "gate"
+  - "ladder"
+  - "layer"
+  - "level"
+  - "precision restoration"
+  - "router"
+  - "rung"
+  - "source labels"
+  - "stack"
+  - "stratification"
+  - "tier"
 ---
 
 ### C.30.STRAT:2 - Problem

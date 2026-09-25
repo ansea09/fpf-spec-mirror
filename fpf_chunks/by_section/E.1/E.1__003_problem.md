@@ -6,12 +6,12 @@ section_id: "E.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__003_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.1 — Vision & Mission: “Operating System for Thought”"
   - "E.1:2 — Problem"
-line_start: 78224
-line_end: 78226
+line_start: 78452
+line_end: 78454
 dependencies:
   - "E.2"
 keywords:
@@ -25,5 +25,5 @@ keywords:
 ---
 
 ### E.1:2 - Problem
-Absent such a scaffold, every discipline re‑invents epistemology and systems thinking, spawning silos, steep learning curves, and brittle life‑cycle models. Previous attempts either froze agility in rigid hierarchies or dissolved rigour in tool‑centric jargon.
+When a claim crosses domains without its meaning, basis or conditions, the receiver can repeat work or rely on an inapplicable result. A proposed common rule can repair that problem, but can also add learning and maintenance cost. Decide from the affected use rather than assuming that a shared framework is always superior.
 

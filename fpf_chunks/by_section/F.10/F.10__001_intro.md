@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.10"
-pattern_title: "Status Families Mapping: Evidence, Standard, and Requirement Status"
+pattern_title: "Apply and Interpret Evidence, Standard and Requirement Statuses"
 section_id: "F.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
+  - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:intro — Intro"
-line_start: 105514
-line_end: 105519
+line_start: 105934
+line_end: 105939
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -29,15 +29,19 @@ dependencies:
   - "G.11"
   - "G.6"
 keywords:
-  - "applicability windows"
-  - "evidence"
-  - "polarity"
-  - "requirement"
-  - "standard"
-  - "status"
+  - "EvidenceStatus"
+  - "RequirementStatus"
+  - "StandardStatus"
+  - "direct result"
+  - "governed target"
+  - "interpretation rule"
+  - "scope"
+  - "status families"
+  - "status value"
+  - "window"
 ---
 
-## F.10 - Status Families Mapping: Evidence, Standard, and Requirement Status
+## F.10 - Apply and Interpret Evidence, Standard and Requirement Statuses
 
 > **Type:** Boundary and relation-use pattern
 > **Status:** Stable

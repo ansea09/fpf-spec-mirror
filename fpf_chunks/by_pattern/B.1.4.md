@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "B.1.4"
-pattern_title: "Contextual and Temporal Aggregation"
+pattern_title: "Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.4.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.1.4 — Contextual and Temporal Aggregation"
-line_start: 39265
-line_end: 39480
+  - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
+line_start: 39195
+line_end: 39410
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -33,7 +33,7 @@ dependencies:
 keywords:
 ---
 
-## B.1.4 - Contextual and Temporal Aggregation
+## B.1.4 - Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)
 
 > **Type:** B-family aggregation pattern
 > **Status:** Stable
@@ -80,14 +80,14 @@ ContextTemporalAggregation@Context:
   includedPositionRefs?
   includedPhaseRefs?
   claimScopeRef?: U.ClaimScope
-  aggregationMode: contextualOrder | temporalPhase | declaredMixedUse
+  aggregationMode: contextualOrder | temporalPhase
   orderedRelationRefs?
   phaseRelationRefs?
   orderSpecRef?
   timeWindowRef?
   carrierIdentityRef?
   independenceOrJoinConditionRefs?
-  coverageAndNonOverlapConditionRefs?
+  coverageAndOverlapPolicyRefs?
   boundaryCrossingRelationRefs?
   relatedMethodRefs?
   relatedMethodDescriptionRefs?
@@ -104,14 +104,14 @@ ContextTemporalAggregation@Context:
 
 `stopOrReturnCondition` states when to stop aggregating or apply another pattern; `strongerSourceReturnCondition` states the condition for a stronger claim. Include `nonAdmissibleOverread?` only when it passes F.19's plausible-reader test. `groundedNonAdmissibleOverread?` is an alias for that same optional value.
 
-Use the record as a small typed relation, not as a new durable `U.Level`, `U.Boundary`, `U.Interaction`, or generic process object.
+Use the record to describe the exact aggregation claim and its independently established relations. The record is not itself the relation or a new `U.Level`, `U.Boundary`, `U.Interaction`, or generic process object.
 
 #### B.1.4:2.1 - Two Aggregation Modes
 
 | Mode | Current object | Required relation discipline | Typical use |
 | --- | --- | --- | --- |
 | Contextual order aggregation | An exact set of relation positions whose order, partial order, or join structure changes meaning for the stated use. | Included positions, `OrderSpec`, ordered relation refs, join or independence conditions, and ClaimScope when needed. | Ordered method relation, order-bound argument chain, staged construction description, controlled sequence. |
-| Temporal phase aggregation | One enduring carrier considered through exact proper phases or time slices. | Carrier identity rule, included phases, `PhaseOf` or another direct phase relation, `TimeWindow`, coverage, and non-overlap conditions. For an unchanged episteme, the complete C.2.1 identity triple stays fixed. | Asset history, proper restriction of one unchanged episteme, experimental-carrier phases, dated evidence window. Distinct episteme editions first require C.2.1 identities and an independently obtaining edition relation. |
+| Temporal phase aggregation | One enduring carrier considered through exact proper phases or time slices. | Carrier identity rule, included phases, `PhaseOf` or another direct phase relation, `TimeWindow`, declared coverage rule and overlap policy. For an unchanged episteme, the complete C.2.1 identity triple stays fixed. | Asset history, proper restriction of one unchanged episteme, experimental-carrier phases, dated evidence window. Distinct episteme editions first require C.2.1 identities and an independently obtaining edition relation. |
 
 If one source phrase mixes both modes, split the record. A Method may have an ordered relation structure; the Work that enacts it may have exact A.15.1 temporal parts, episodes, operational parts, or separate occurrences, while C.27.TA supplies any independently declared overlap or other interval relation the receiving use aggregates. Those are different claims, and generic `PhaseOf` does not replace the Work or temporal relations.
 
@@ -140,13 +140,13 @@ If one source phrase mixes both modes, split the record. A Method may have an or
 Gamma_ctx(contextualAggregationRecord, orderSpec, independenceAndJoinConditions)
   -> contextual aggregate record
 
-Gamma_time(temporalAggregationRecord, timeWindow, coverageAndNonOverlapConditions)
+Gamma_time(temporalAggregationRecord, timeWindow, coverageAndOverlapPolicy)
   -> temporal aggregate record
 ```
 
 The notation does not create a holon, transformation, method, work occurrence, or whole reidentification by itself. It records how the selected relation set is combined for the current use.
 
-If the source says a system actually sequences, combines, transforms, measures, or audits something, name that acting-side relation separately through `A.12`, `A.3.4`, `A.15.1`, `B.1.6`, `A.10`, or the pattern that defines the exact relation. The person, team, controller, or tool that writes an aggregation record is not automatically the in-world transformer for the EntityOfConcern being aggregated.
+Keep an ordinary statement about who prepared the aggregation ordinary. If the use asserts one exact dated sequencing, combining, measuring or auditing Work, recover the actual performer's A.13 core and admit the Work independently under A.15.1. Use A.3.4 for a separate transformation claim, B.1.6 for resource aggregation, and A.10 to recover provenance and bounded reliance on independently established results. Writing the record does not identify its writer as the transformer of the EntityOfConcern.
 
 ### B.1.4:4 - Admissible Checks
 
@@ -162,11 +162,11 @@ For temporal phase aggregation:
 
 - the carrier identity is recoverable;
 - the time window is declared;
-- phase intervals are covered and non-overlapping, or the admissible use is narrowed;
+- the declared coverage and overlap policy holds; account for allowed overlaps and gaps without double counting, or narrow the use;
 - identity change is not hidden as another phase;
-- work-resource and evidence-currentness claims use `B.1.6`, `A.10`, and `C.27` when current.
+- work-resource claims use `B.1.6`; temporal claims use `C.27`, currentness uses `G.11`, and `A.10` recovers provenance and bounded reliance when needed.
 
-**B.1 invariant carry-through.** `B.1.4` keeps B.1 invariants only after the current relation is recovered. A singleton ordered relation or singleton phase is idempotent for the selected use. Contextual aggregation is deterministic only relative to the declared `OrderSpec` and join or independence conditions. Temporal aggregation is valid only relative to carrier identity, coverage, and non-overlap. Weakest-link and monotonicity claims must name the characteristic being bounded or improved; otherwise the aggregate is only an aggregation record, not a performance, safety, or assurance claim.
+**B.1 invariant carry-through.** Apply a B.1 algebraic law only when the recovered relation and declared operator justify it. Contextual aggregation is deterministic relative to the declared `OrderSpec` and join or independence conditions. Temporal aggregation depends on carrier identity and the declared coverage and overlap policy. A repeated designation creates no additional phase or relation by itself; retain distinct occurrences and ordered positions when the claim distinguishes them. State any singleton or idempotence law for the actual operator. Weakest-link and monotonicity claims name the characteristic and model being bounded or improved; an aggregation record alone establishes no performance, safety or assurance result.
 
 #### B.1.4:4.1 - Compact Obligation Rows
 
@@ -203,7 +203,7 @@ For temporal phase aggregation:
 | --- | --- | --- |
 | CC-B1.4-1 | The aggregate names the EntityOfConcern, included positions or phases, aggregation mode, ClaimScope when needed, time window when temporal qualification matters, and admissible use. | Prevents a generic context or time label from standing in for the aggregation boundary. |
 | CC-B1.4-2 | Contextual aggregation names ordered relation refs and an `OrderSpec`; temporal aggregation names carrier identity, phase refs, and `TimeWindow`. | Keeps order and time as different relations. |
-| CC-B1.4-3 | Independence, join, coverage, and non-overlap conditions are present when the claim uses them. | Keeps local composition reviewable. |
+| CC-B1.4-3 | Independence, join, coverage, and overlap-policy conditions are present when the claim uses them. | Keeps local composition reviewable. |
 | CC-B1.4-4 | Method, method-description, work-plan, work-occurrence, work-resource, transformation, and whole-reidentification claims use the patterns that define or test them. | Prevents B.1.4 from absorbing neighboring objects. |
 | CC-B1.4-5 | Mathematical notation is treated as a selected lens or expression, not as the in-life object or relation. | Keeps `Gamma_ctx`, `Gamma_time`, graph, and algebra language bounded. |
 | CC-B1.4-6 | If identity changes, coverage breaks, or a new whole is claimed, the record narrows use or names the pattern for the stronger claim. | Prevents temporal aggregation from becoming hidden MHT or transformation. |

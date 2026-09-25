@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.SOURCE-SET-SPACE-SUBSTRATE.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
-line_start: 32675
-line_end: 33211
+line_start: 32615
+line_end: 33151
 dependencies:
   - "A.0"
   - "A.17"
@@ -450,22 +450,22 @@ SpaceMetricRef          = ArchiveNeighborhoodMetric@ed=4
 **Show.**
 
 ```text
-SourceSetFamily       = Front
-DerivedViewKind         = TraditionFront
-BasePaletteRef          = SoTAPaletteDescriptionId
-SearchSpaceRef          = TraditionComparisonSpace@ed=3
-OutcomeSpaceRef         = AdoptionOutcomeSpace@ed=2
-SpaceRefRelationKind    = distinctDeclaredSpaceFrom
-SourceToOutcomeRelation = the visible tradition front is one derived reading
-                          over the base palette and is compared against the
-                          declared adoption outcome space through one explicit
-                          cross-tradition outcome-bearing line
-DistortionPosture       = lossy-bridge; derived-view selection and bridge-loss
-                          notes must stay visible
-BridgeDistortionNote    = CrossTraditionComparisonLossNote@ed=1
+SourceSetFamily        = Front
+DerivedViewKind        = TraditionFront
+BasePaletteRef         = SoTAPaletteDescriptionId
+SearchSpaceRef         = TraditionComparisonSpace@ed=3
+OutcomeSpaceRef        = AdoptionOutcomeSpace@ed=2
+SpaceRefRelationKind   = distinctDeclaredSpaceFrom
+SourceToOutcomeRelation = for each retained tradition profile, AdoptionEstimate@ed=1
+                          uses its integration requirements and the named team's
+                          capability and workload facts to estimate adoption cost
+                          and expected benefit in AdoptionOutcomeSpace@ed=2
+DistortionPosture      = model-dependent; the estimate is conditional on those
+                         team and workload facts and omits unmodelled adoption effects
+BridgeDistortionNote   = not used; this example asserts no F.9 semantic Bridge
 ```
 
-**Cash-out.** The visible front stays a derived view over the palette, the base palette stays recoverable, and the outcome-side evaluation line stays explicit. A later interpretive view or atlas view may reorganize this story, but it may not silently change the declared source-to-outcome relation or erase the bridge-loss warning.
+**Cash-out.** The visible front stays a derived view over the recoverable palette. `AdoptionEstimate@ed=1` supplies the stated conditional source-to-outcome mapping. A later interpretive or atlas view may reorganize the presentation while preserving that mapping and its model limitations.
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:5.3 - Boundary anti-case
 

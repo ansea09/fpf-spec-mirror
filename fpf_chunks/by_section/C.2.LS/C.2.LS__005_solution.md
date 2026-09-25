@@ -6,12 +6,12 @@ section_id: "C.2.LS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:4 — Solution"
-line_start: 49158
-line_end: 49211
+line_start: 49301
+line_end: 49354
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -51,7 +51,7 @@ keywords:
 - `thresholdRefs?` -> context-local threshold declarations over the named facets
 - `routeNotes?` -> informative notes that help interpret routing or reopening decisions
 
-`C.2.LS` therefore defines only the **profile bundle**; it defines neither an individual characteristic nor a trajectory. `A.18/A.19` supply characteristic semantics, `A.16` defines admissible moves, and `E.18` describes publication of explicit transition structures.
+`C.2.LS` therefore defines only the **profile bundle**; it defines neither an individual characteristic nor a trajectory. `A.18/A.19` supply characteristic semantics, `A.16` defines admissible moves, and `E.18` governs an independently selected TransformationFlowStructure.
 
 #### C.2.LS:4.0a - Kind and profile-bundle boundary
 

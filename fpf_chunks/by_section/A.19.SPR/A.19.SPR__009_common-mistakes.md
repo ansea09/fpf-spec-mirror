@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.SPR"
-pattern_title: "State-Family Precision Restoration"
+pattern_title: "Repair State and Status Wording"
 section_id: "A.19.SPR:7"
 section_title: "Common mistakes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__009_common-mistakes.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.SPR — State-Family Precision Restoration"
+  - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:7 — Common mistakes"
-line_start: 32639
-line_end: 32648
+line_start: 32579
+line_end: 32588
 dependencies:
   - "A.10"
   - "A.16"

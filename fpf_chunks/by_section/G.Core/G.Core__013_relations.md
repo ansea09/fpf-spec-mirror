@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.Core"
-pattern_title: "Part G Core Invariants"
+pattern_title: "Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
 section_id: "G.Core:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__013_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.Core — Part G Core Invariants"
+  - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:12 — Relations"
-line_start: 110333
-line_end: 110357
+line_start: 110758
+line_end: 110782
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -41,7 +41,7 @@ keywords:
   * `E.18` CrossingBundle (crossing visibility bundle)
   * `E.19` conformance discipline
   * `A.6.7` SuiteObligations + suite protocol pins (delegation support)
-  * `A.15.3` SlotFillingsPlanItem (planned baseline anchor)
+  * `A.15.2` WorkPlan content for the edition/reference baseline; `A.15.3` only for applicable typed planned fillings
   * `A.19.CN` CN‑Spec governance card
   * `G.0` CG‑Spec legality gate
   * `A.19.CHR` CHR suite boundary and "governance cards and legality gates are cited as pins, not copied locally" discipline

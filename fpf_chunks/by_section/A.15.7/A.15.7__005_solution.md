@@ -6,12 +6,12 @@ section_id: "A.15.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:4 — Solution"
-line_start: 28980
-line_end: 29025
+line_start: 28869
+line_end: 28916
 dependencies:
   - "A.10"
   - "A.13"
@@ -68,6 +68,8 @@ Reading this pattern, consulting a MethodDescription, following a plan, or recei
 | The action is fixed but calls to tools or services must be planned | Use `C.24`. | A call plan and checkpoint return; the call plan is not the underlying choice. |
 | A changed condition or missing required support defeats an action-guiding claim | Keep the other qualified information; compare feasible, worthwhile refresh with a supported narrower action, the named safe fallback or stopping under §4.2. | Qualified information supports the selected continuation, with the affected limit stated. Age or a missing administrative time field alone does not invalidate an applicable claim. |
 | Safety, authority, capability, applicability, or current Work is unresolved | Use the pattern that defines or tests the missing claim—for example, `A.2.2` for capability, `A.15.1` for performed Work, and `A.15.5` only for work-entry readiness; keep safety, authority, and applicability with the pattern that defines them. | The missing claim grounded under its own rule, or a named unresolved claim with return or stop; no action, permission, capability, Work, or Method change is inferred from the unresolved claim. |
+
+A current account may treat an unexamined outcome or recurring adjustment as ordinary, so that no question enters this choice. `B.5.PI` uses a selected demonstration, handover or other ordinary work occasion to compare a result with its use and develop a question or retain an early cue. It requires actual access and attention, not a prior diagnosis. Use it when that contribution is needed; ordinary next-action selection does not require auditing every action.
 
 When an available method repeatedly goes unconsidered at a relevant moment, use `A.15.11` to connect it with an occasion in the work. This can make a useful candidate available to step 4; the current constraints still determine which actions are admissible.
 

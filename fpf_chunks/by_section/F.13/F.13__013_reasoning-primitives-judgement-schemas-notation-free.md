@@ -6,15 +6,16 @@ section_id: "F.13:12"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__013_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:12 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 106485
-line_end: 106540
+line_start: 106911
+line_end: 106956
 dependencies:
   - "F.1"
-  - "F.10"
+  - "F.17"
+  - "F.18"
   - "F.2"
   - "F.3"
   - "F.5"
@@ -23,65 +24,57 @@ dependencies:
   - "F.9"
 keywords:
   - "deprecation"
-  - "evolution"
-  - "merging terms"
-  - "renaming"
-  - "splitting terms"
+  - "historical reading"
+  - "lexical continuity"
+  - "local aliases"
+  - "renaming labels"
+  - "retirement"
+  - "splitting and merging labels"
 ---
 
 ### F.13:12 - Reasoning primitives (judgement schemas, notation‑free)
 
 > Each judgement is a **pure thought**: premises ⇒ safe conclusion. No storage, no workflow, no roles.
 
-Let **`ContextOf(ℓ)`** be the Context of label **ℓ** (when ℓ names a SenseCell); **`rowOf(ℓ)`** the Concept‑Set row (when ℓ names a row); **`senseOf(ℓ)`** the SenseCell it denotes (if local); **`pref(thing)`** the current preferred label of a SenseCell / row / Role Description.
+Let `meaningOf(ℓ)` recover the exact `<ReferenceScheme, LocalSenseClaim>` projection for one local label use; let `useOf(ℓ)` recover its intended naming use. Where a value is being named, recover it independently under its subject rule. `pref(t)` denotes the preferred expression for that exact naming use, not a global preferred word.
 
 #### F.13:12.1 - Same‑sense & same‑place
 
-`ContextOf(ℓ₁)=ContextOf(ℓ₂) ∧ senseOf(ℓ₁)=senseOf(ℓ₂) ⊢ mayRename(ℓ₁→ℓ₂)`
-*Reading:* If two labels denote **the same SenseCell in the same Context**, a rename is legitimate.
+Two expressions with the same `meaningOf`, intended use and independently governed value where applicable may receive a rename. A changed `LocalExpression` still changes the exact F.17 cell. An external label change preserves a cell only when the target coordinate itself is unchanged.
 
 #### F.13:12.2 -Local alias
 
-`ContextOf(ℓ₁)=ContextOf(ℓ₂) ∧ senseOf(ℓ₁)=senseOf(ℓ₂) ⊢ aliases(ℓ₁↔ℓ₂)`
-*Reading:* Legacy synonym can be kept **as a read‑path**; writing uses `pref`.
+Under the same conditions, a legacy expression may remain a read-path to `pref(t)`. Retain its own exact coordinate and any source basis; aliasing is not cell identity.
 
 #### F.13:12.3 - Split detection
 
-`coversMultipleLocalSenses(ℓ) ⊢ splits(ℓ ⇒ {ℓA,ℓB,… })`
-*Reading:* If one label straddles several local senses, declare a split and prefer the new precise labels.
+If one label covered several independently recovered local senses or rows, record the split and prefer the precise later labels. Keep the earlier use resolvable through a disambiguation note.
 
 #### F.13:12.4 - Merge admission
 
-`ContextOf(ℓA)=ContextOf(ℓB) ∧ senseOf(ℓA)=senseOf(ℓB) ⊢ merges({ℓA,ℓB} ⇒ ℓN)`
-*Reading:* Once F.3 shows identity of sense **within** a Context, merging labels into one preferred label is safe.
+Consolidate local labels only after recovering their common semantic projection and use, with the same governed value where applicable. Consolidate comparison-row labels only after establishing duplicate F.7 comparison content. Neither move merges distinct cell coordinates or subject entities.
 
 #### F.13:12.5 - Retirement
 
-`misleading(ℓ) ∧ ¬∃ℓ' sameSense(ℓ,ℓ') ⊢ retires(ℓ)`
-*Reading:* If a label misleads and has **no single** successor, retire it and point readers to relevant Contexts/rows.
+Retire a misleading label when no single successor preserves its earlier use. Point historical readers to the relevant meanings or rows.
 
 #### F.13:12.6 - Cross‑context guard
 
-`ContextOf(ℓ₁) ≠ ContextOf(ℓ₂) ⊢ ¬mayRename(ℓ₁→ℓ₂)`
-*Reading:* Different Contexts forbid rename/alias; any relation goes to **Bridge** (F.9).
+Different `meaningOf` projections do not support a pure rename or alias. A needed semantic correspondence goes to F.9; relation obtaining, a bounded-use claim and reliance are separate questions.
 
 #### F.13:12.7 - Writing discipline
 
-`thing t ⊢ writeWithPreferred(t) = pref(t)`
-*Reading:* Normative prose uses the **current** preferred label; aliases are for reading.
+Use the current preferred expression for the exact naming use. Keep aliases for historical reading.
 
 #### F.13:12.8 - Reading resolution
 
-`legacyLabel ℓ ⊢ readResolve(ℓ) = ⟨thing, pref(thing), epoch?⟩`
-*Reading:* A reader can mentally resolve a legacy label to the **thing** and its present name, with epoch hint if needed.
+Resolve a legacy label to its earlier meaning and use first, then to any justified present-name read-path. Include an epoch when it changes interpretation. A successor's changed meaning must not replace the old one retroactively.
 
 #### F.13:12.9 - Alias budget
 
-`aliasesFor(thing, register=r) = A ⊢ |A| ≤ 1`
-*Reading:* Keep at most one legacy alias per register (Tech/Plain) for any one thing.
+Keep at most one useful legacy alias per register for one naming use.
 
 #### F.13:12.10 - Row‑level continuity
 
-`rowOf(ℓA)=rowOf(ℓB)=R ∧ intension(R) stable ⊢ mayRenameRow(R,ℓB)`
-*Reading:* A row label can change if the **row’s membership/intension** did not change; otherwise refactor rows first (F.7).
+A Concept-Set display label may change while the exact comparison content and receiving use remain unchanged. Recover changed row content under F.7 first. When an F.17 UnifiedTermRow's identity-bearing claims change, retain the earlier and corresponding later epistemes under C.2.1/F.17; a stable row designator is not identity proof.
 

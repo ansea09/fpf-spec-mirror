@@ -6,12 +6,12 @@ section_id: "E.10.D2:5"
 section_title: "Naming discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__007_naming-discipline.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:5 — Naming discipline"
-line_start: 87122
-line_end: 87133
+line_start: 87442
+line_end: 87453
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -34,12 +34,15 @@ dependencies:
   - "F.9"
   - "G.11"
 keywords:
-  - "Description episteme"
-  - "DescriptionContext"
+  - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"
+  - "checkable claims"
+  - "description episteme"
+  - "harness"
+  - "publication"
+  - "representation"
   - "specification use"
-  - "testable"
-  - "verifiable"
+  - "viewpoint"
 ---
 
 ### E.10.D2:5 - Naming discipline
@@ -48,7 +51,7 @@ keywords:
 
 **Reserved suffix.** Use `...Spec` only when the specification-use conditions above obtain. Do not use it as a synonym for detailed, official, approved, formal-looking, or stored in a schema.
 
-**Entity names.** Name the EntityOfConcern by its independently governed kind and identity: one exact local system-role kind, `Method`, `System`, `Architecture`, `Characteristic`, `PromiseContent`, `Work`, `Episteme`, or another exact kind. Append `Description`, `Spec`, `View`, `Publication`, `Form`, `Carrier`, or `Representation` only when that neighboring object is what the name actually designates.
+**Entity names.** Name the EntityOfConcern by its independently governed kind and identity: one exact local system-role kind, `Method`, `System`, `ArchitectureRelation`, `Characteristic`, `PromiseContent`, `Work`, `Episteme`, or another exact kind. Append `Description`, `Spec`, `View`, `Publication`, `Form`, `Carrier`, or `Representation` only when that neighboring object is what the name actually designates.
 
 **Relation language.** Prefer the direct governing verb: a description carries claims about an entity; a publication occurrence makes an edition available; a carrier bears a form; a representation corresponds under a scheme; evidence supports an assertion; an admitted system performs work. Do not turn those verbs into one generic description link.
 

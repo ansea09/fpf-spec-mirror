@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.7"
-pattern_title: "U.LanguageStateRepresentationFactorBundle"
+pattern_title: "U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
 section_id: "C.2.7:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__010_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
+  - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:9 — Consequences"
-line_start: 50037
-line_end: 50039
+line_start: 50180
+line_end: 50182
 dependencies:
   - "A.16"
   - "A.16.0"

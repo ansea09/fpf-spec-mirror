@@ -6,12 +6,12 @@ section_id: "E.17.EFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__008_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:7 — Conformance Checklist"
-line_start: 92859
-line_end: 92898
+line_start: 93260
+line_end: 93299
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,8 +47,8 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 
 #### E.17.EFP:7.1 - EFP-Core ordinary checks
 
-0. **CC-EF-0 — Exact episteme and ClaimGraph branch are recoverable.**
-   The text is identified as a form or representation of the same source ClaimGraph, or as a form of an exact target episteme connected by an obtaining source-to-target relation. A speculative causal or counterfactual claim is a separate B.5.2 hypothesis episteme.
+0. **CC-EF-0 — Exact episteme and sufficient expression are recoverable.**
+   Identify the source through ClaimGraph, exact EntityOfConcern and effective ReferenceScheme. Its form expresses enough for the declared use, preserves answer-changing qualifications, returns to the source and discloses use-relevant omissions; whole-source coverage is not required. Insufficiency returns the exact gap, not an invented target. An actual changed target needs its own identity and an independently obtaining source-to-target relation; a speculative causal or counterfactual claim belongs to a separate B.5.2 hypothesis episteme.
 1. **CC-EF-1 — Explanation class follows identity.**
    The class is explicitly named for the publication form after CC-EF-0; it is not used as episteme identity or source-to-target evidence.
 2. **CC-EF-3 — Source reference and blocked downstream use are explicit.**

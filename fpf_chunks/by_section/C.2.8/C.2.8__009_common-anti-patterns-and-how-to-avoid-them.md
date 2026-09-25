@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.8"
-pattern_title: "U.ExtractableStructuralInformation"
+pattern_title: "U.ExtractableStructuralInformation — Structure This Reader Can Recover"
 section_id: "C.2.8:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.2.8 — U.ExtractableStructuralInformation"
+  - "C.2.8 — U.ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 50320
-line_end: 50330
+line_start: 50463
+line_end: 50473
 dependencies:
   - "A.17"
   - "A.18"

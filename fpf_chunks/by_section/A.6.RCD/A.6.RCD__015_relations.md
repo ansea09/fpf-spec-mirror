@@ -6,12 +6,12 @@ section_id: "A.6.RCD:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__015_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:13 — Relations"
-line_start: 18966
-line_end: 18972
+line_start: 18948
+line_end: 18954
 dependencies:
   - "A.11"
   - "A.6.0"

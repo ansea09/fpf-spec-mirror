@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.27.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
-line_start: 62169
-line_end: 62645
+line_start: 62377
+line_end: 62853
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -358,7 +358,7 @@ Skip this section for ordinary local diagnosis and planning. It is a trigger-and
 | task-family adaptation | declared TaskFamily or TaskSignature, usable threshold, time and budget to threshold, prior exposure, transfer, retention, and downside | C.22.1 |
 | search speed | narrowing speed differs from novelty, archive growth, illumination, frontier coverage, and search health | C.17, C.18, and C.19 |
 | method composition or capability emergence | temporal adequacy does not define method composition, Work enactment, adaptive cycle, or capability emergence | B.1.5 and B.2.4 |
-| evolution or language-state movement | temporal adequacy does not define state-change loops, cue stabilization, reopening, operationalization, or retirement | A.4, B.4, A.16, and B.4.1 |
+| design/operation comparison, evolution or language-state movement | temporal adequacy qualifies the time claims; it does not perform the comparison, coordinate adaptation, or define cue stabilization, reopening, operationalization or retirement | A.4 for System design/operation comparison; B.4, A.16 and B.4.1 for their separate adaptation and language-state questions |
 | autonomy budget or freedom of action | tokens, guards, ledger, depletion, override, pause and resume remain their own claims | E.16 |
 | viability regulation | cite the exact C.26.3 claim episteme or ClaimAddress; its bearer is one exact System, one A.22 Structure with all four discriminators, or another subject with its direct identity rule | C.26.3 |
 | selected organization as viability bearer | exact constituents, selected obtaining relations, applied constraints, and one selection-use frame; a list of role kinds and assignments is insufficient | A.22 and C.26.3 |

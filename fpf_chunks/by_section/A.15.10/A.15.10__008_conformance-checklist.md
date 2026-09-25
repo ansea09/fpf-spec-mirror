@@ -6,12 +6,12 @@ section_id: "A.15.10:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__008_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:7 — Conformance Checklist"
-line_start: 29656
-line_end: 29666
+line_start: 29547
+line_end: 29557
 dependencies:
   - "A.15"
   - "A.15.5"

@@ -6,12 +6,12 @@ section_id: "E.10:18"
 section_title: "SoTA-Echoing - lexical governance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__020_sota-echoing-lexical-governance.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:18 — SoTA-Echoing - lexical governance"
-line_start: 85178
-line_end: 85199
+line_start: 85498
+line_end: 85519
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 
 **Practice question.** When wording carries an FPF-governed claim, what is the least costly authoring discipline that either closes one local repair or reaches the rule for the exact object, relation, claim, or use without turning a glossary into a second ontology?
 
-**Selected best-known line.** Use one cheap trigger scan, recover the governed object or relation before renaming, apply the direct defining or testing rule, preserve the remaining reader use, and stop. This line combines the current FPF precision-restoration patterns with established terminology and controlled-vocabulary practice only for the objects those sources actually govern.
+**Selected best-known line.** Read the complete span through F.19, use a cue only for an unresolved FPF wording question, recover the governed object or relation before renaming, apply the direct defining or testing rule, preserve the remaining reader use, and stop. This line combines the current FPF precision-restoration patterns with established terminology and controlled-vocabulary practice only for the objects those sources actually govern.
 
 **Serious alternative or default.** Synonym substitution, a central preferred-word list, and copied local warning catalogues are cheaper to start. They fail here because they can leave the obtaining relation, participant, claim-bearing episteme, admissible use, or direct owner hidden while making the sentence look more precise.
 

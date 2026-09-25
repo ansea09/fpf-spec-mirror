@@ -6,12 +6,12 @@ section_id: "B.2.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:4 — Solution"
-line_start: 41337
-line_end: 41391
+line_start: 41267
+line_end: 41321
 dependencies:
   - "A.1"
   - "A.10"
@@ -72,7 +72,7 @@ When a receiving use has materialized B.2's optional `MHTTriggerProfile`, interp
 | Supervision or coordination change | Principles, axioms, invariants, reference schemes, or claim-graph constraints organize how constituent claims are interpreted. | `C.2.1`, `A.6.0`, `A.6.1`, `C.29` when formal lens is current |
 | Capability or closure claim | The candidate episteme supports a new explanatory, predictive, specification, or coordination use; evidence for that claim remains separate. | `C.2.1`, `C.16`, `A.10` for evidence use, and the pattern for that use |
 | Agency threshold | The episteme remains non-agentive. For an agency-characteristic claim, recover the exact System, characteristic predicate, scope, and window and test the characteristic independently; that characteristic claim does not require an assignment. A precise agency claim requires the separate A.13 core. If dated Work is also claimed, recover each exact performer through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving claim expressly consumes precise assignment-bound attribution; missing or failed F.6 leaves the Work intact. | `A.12`, `A.2.1`, `A.13`, `A.19`, `C.16`, `A.15.1`, `F.6` |
-| Temporal consolidation | A field, standard, or theory becomes one current knowledge body after phase consolidation or source-currentness change. | `C.27`, `E.17`, source-use patterns |
+| Temporal consolidation | A chronology or source-currentness change prompts inspection of the knowledge body. Test any changed ClaimGraph, EntityOfConcern or effective ReferenceScheme under C.2.1; currentness alone changes none of those identity values. | `C.2.1`, `C.27`, `G.11`, `E.17`, and source-use patterns |
 | Context reframe | New terms, reference schemes, or EntityOfConcern mapping reframe the knowledge body. | `C.2.1`, `A.6.3`, `A.6.4`, `F.18` |
 
 These cues identify claims and relations to inspect. They neither constitute the candidate episteme nor select B.2; the direct facts, complete A.1 criterion, C.2.1 constitution test, and B.2 existing-whole/new-whole comparison decide the result.

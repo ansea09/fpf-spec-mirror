@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.2.DA"
-pattern_title: "FPF Pillar-Adequacy Evaluation CharacteristicSpace"
+pattern_title: "Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
 section_id: "E.2.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
+  - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:4 — Solution"
-line_start: 78446
-line_end: 78583
+line_start: 78729
+line_end: 78866
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -124,7 +124,7 @@ An `E.2.DA` result uses this table shape:
 
 For values `1..4`, explain why the lower adjacent value would understate the evidence and the higher adjacent value would overstate it. For `0`, explain why `1` would overstate the evidence and what would raise the value or reopen it. For `5`, explain why `4` would understate the evidence and what would lower the value or reopen it.
 
-A Pillar essay, local-quality average, two-column table, or result whose value depends on unchecked corpus, projection, or source evidence is not an `E.2.DA` result. It is only draft evaluation material. Missing or unchecked evidence lowers the Pillar coordinate that needs it; it does not make the coordinate optional.
+A Pillar essay, local-quality average, two-column table, or result whose value depends on unchecked corpus, projection or source evidence is draft evaluation material. Check the needed evidence before assigning the affected value. An observed defect lowers a value according to its coordinate meaning; absence of a check does not by itself establish that defect. A completed E.2.DA result still evaluates all eleven coordinates.
 
 Common calibration points:
 

@@ -6,12 +6,12 @@ section_id: "E.17.EFP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:1 — Problem frame"
-line_start: 92476
-line_end: 92485
+line_start: 92870
+line_end: 92879
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,7 +45,7 @@ The exact source ClaimGraph may need more than one publication form or represent
 
 - a manager-readable form of the same technical ClaimGraph;
 - connective explanation that remains entailed by the source, or else belongs to an exactly related target episteme;
-- didactic use of a same-ClaimGraph form or of a separately identified target with an obtaining rewrite or coarsening relation;
+- didactic use of a sufficient source form, including a partial expression, or of a separately identified target with an obtaining rewrite or coarsening relation;
 - exploratory use of a publication form of a separately constituted hypothesis episteme.
 FPF already has C.2.1 for episteme identity, A.6.3 and neighboring patterns for source-to-target relations, `E.17.0` for viewpoints and views, `E.17` for publication faces, and E.24.PUB for publication occurrence, form, and carrier. EFP supplies only the remaining bounded explanation-use classification of one form of the already identified source or target episteme.
 

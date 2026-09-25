@@ -6,12 +6,12 @@ section_id: "G.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:5 — Archetypal Grounding"
-line_start: 112002
-line_end: 112029
+line_start: 112434
+line_end: 112461
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -63,7 +63,7 @@ keywords:
 *System:* a CG‑Frame for evaluating deployed classifiers across cohorts with explicit abstention/defer behavior.
 *CHR authoring:* publish `DemographicParityGap` and `EqualizedOddsGap` as Characteristics with:
 
-* explicit ReferencePlane (deployment population + sampling regime),
+* explicit ReferencePlane, with deployment population and sampling regime recorded separately as scope and protocol conditions,
 * `ObservableOf` (audit protocol + uncertainty model + window),
 * interval scale (bounded; zero semantics explicit),
 * missingness semantics (cohort sparsity and label noise are typed),

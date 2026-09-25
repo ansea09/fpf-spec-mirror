@@ -6,12 +6,12 @@ section_id: "C.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__010_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:9 — Rationale"
-line_start: 47109
-line_end: 47112
+line_start: 47250
+line_end: 47253
 dependencies:
   - "A.1"
   - "A.10"
@@ -26,11 +26,13 @@ dependencies:
   - "U.View"
 keywords:
   - "ClaimScope"
+  - "Congruence Level"
   - "F-G-R"
   - "Formality"
+  - "KD-CAL"
   - "Reliability"
   - "assurance"
-  - "epistemic"
+  - "epistemic holon composition"
   - "evidence"
   - "knowledge"
   - "provenance"

@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "F.7"
-pattern_title: "Concept-Set Table"
+pattern_title: "Display Source-Local Comparisons in a Concept-Set Table"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.7.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.7 — Concept-Set Table"
-line_start: 104048
-line_end: 104272
+  - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
+line_start: 104454
+line_end: 104680
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -36,7 +36,7 @@ keywords:
   - "receiving use"
 ---
 
-## F.7 - Concept-Set Table
+## F.7 - Display Source-Local Comparisons in a Concept-Set Table
 
 **“Put exact local meanings and already established relations side by side; let the table display the argument, never create it.”**
 
@@ -171,13 +171,15 @@ The nickname **Giants’ table** recalls that comparison relies on prior source 
 | **AP-9** | Duplicate rows by wording | The same argument is repeated under different labels. | Readers infer distinct concepts where none were established. | Keep one comparison and let F.5 manage aliases. |
 | **AP-10** | Automatic transitivity | A–B and B–C are used to assert A–C. | Relation composition may not hold or may add loss. | State only relations whose composition is justified by their direct patterns. |
 
-### F.7:11 - Worked examples
+### F.7:11 - Worked example and application sketches
+
+Section 11.1 supplies exact source bases for one contrast row. Sections 11.2–11.5 show further applications; complete their source-local claims, relations and evidence before treating them as finished tables.
 
 #### F.7:11.1 - Actor wording across BPMN and PROV
 
 | Comparison or use | Exact entries | Relation | Boundary | Basis | Conclusion |
 | --- | --- | --- | --- | --- | --- |
-| Choose a plain-language heading for a teaching paragraph | BPMN **Participant** claim; PROV **Agent** claim | No identity asserted; any F.9 relation must be established for the exact claims | PROV agents include software and organisations; BPMN participants have model-specific structure | Source passages and F.0.1 | The word **party** may be used as an explanatory umbrella only in this paragraph if the sentences retain each source’s distinct claim. |
+| Choose a plain-language heading for a teaching paragraph | BPMN 2.0.2 §9.3.1 `Participant`: a Collaboration element representing a PartnerEntity, PartnerRole, or both. PROV-O, 30 April 2013, §3.1 `prov:Agent`: something responsible for an activity, an entity's existence, or another agent's activity. | None asserted; this is a contrast row. | BPMN's representation within a Collaboration and PROV's responsibility meaning remain distinct. | [BPMN 2.0.2 §9.3.1, p. 113](https://www.omg.org/spec/BPMN/2.0.2/PDF#page=143); [PROV-O §3.1](https://www.w3.org/TR/2013/REC-prov-o-20130430/#description-starting-point-terms); each term is interpreted within that cited source scheme. | Use **Parties in the comparison** as this paragraph's heading, then retain the two source-specific sentences. This explanatory heading asserts no common kind, identity or substitutability. |
 
 #### F.7:11.2 - Runtime occurrence comparison
 

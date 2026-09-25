@@ -6,23 +6,16 @@ section_id: "E.5.4:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__008_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:7 — Consequences"
-line_start: 81749
-line_end: 81755
+line_start: 82074
+line_end: 82080
 dependencies:
   - "E.3"
   - "E.5"
 keywords:
-  - "audit"
-  - "bias"
-  - "ethics"
-  - "fairness"
-  - "neutrality"
-  - "review"
-  - "trans-disciplinary"
 ---
 
 ### E.5.4:7 - Consequences

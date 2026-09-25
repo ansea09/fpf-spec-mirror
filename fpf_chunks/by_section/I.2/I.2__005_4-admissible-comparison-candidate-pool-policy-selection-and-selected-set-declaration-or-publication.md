@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "I.2"
-pattern_title: "Expanded Entry Disambiguation Cases"
+pattern_title: "Choose a First Pattern: Expanded Entry Disambiguation Cases"
 section_id: "I.2"
 section_title: ".4 - Admissible comparison, candidate-pool policy, selection, and selected-set declaration or publication"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__005_4-admissible-comparison-candidate-pool-policy-selection-and-selected-set-declaration-or-publication.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "I.2 — Expanded Entry Disambiguation Cases"
+  - "I.2 — Choose a First Pattern: Expanded Entry Disambiguation Cases"
   - "I.2 — .4 - Admissible comparison, candidate-pool policy, selection, and selected-set declaration or publication"
-line_start: 116751
-line_end: 116780
+line_start: 117105
+line_end: 117134
 dependencies:
   - "E.10"
   - "E.11"

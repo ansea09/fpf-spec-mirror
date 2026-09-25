@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.7"
-pattern_title: "Strict Distinction (Clarity Lattice)"
+pattern_title: "Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
 section_id: "A.7:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__002_use-this-when.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.7 — Strict Distinction (Clarity Lattice)"
+  - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:0 — Use this when"
-line_start: 23038
-line_end: 23051
+line_start: 22914
+line_end: 22927
 dependencies:
   - "A.1"
   - "A.10"

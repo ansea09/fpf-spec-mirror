@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
-pattern_title: "Declared-Substrate Interpretive View"
+pattern_title: "Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
 section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__013_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:7 — Conformance Checklist"
-line_start: 33627
-line_end: 33645
+line_start: 33562
+line_end: 33580
 dependencies:
   - "A.0"
   - "A.19"
@@ -44,7 +44,7 @@ Treat a line as conforming only if every gate below passes.
 | ID | Gate question | Fail when | Repair or governing pattern |
 | --- | --- | --- | --- |
 | `CC-A19IV-1` | Is one already-declared base substrate or source-set entry point or set-result entry point named explicitly? | The interpretive view floats free of the line it is supposed to help read. | Cite the base substrate or the recoverable source-set entry point or set-result entry point. |
-| `CC-A19IV-2` | Is the interpretive view explicitly docked to existing `A.6.3` / `E.17.0` law? | The text presents itself as one autonomous local theory of views. | State the docking explicitly or apply the pattern that really defines the missing view law. |
+| `CC-A19IV-2` | When formal viewing is claimed, are the A.6.3 source and receiving epistemes recoverable, and is E.17.0 viewpoint conformance established separately for a `U.View` claim? | A pattern citation is treated as sufficient to establish either relation. | Recover the exact epistemes and viewing transformation; test the named viewpoint only when `U.View` qualification is needed. |
 | `CC-A19IV-3` | Does the line preserve the same EntityOfConcern and keep the base substrate as semantic center? | The interpretive prose retargets the EntityOfConcern or repairs the substrate in place. | Reopen under `A.19.SOURCE-SET-SPACE-SUBSTRATE`, `A.6.4`, or the appropriate neighboring pattern. |
 | `CC-A19IV-4` | Are the current source set, any active set result, and any active derived view or base palette recoverable? | The interpretive reading hides the base palette, base source/result, or active derived set result behind one fuller visible overlay. | Restore the missing recoverability fields. |
 | `CC-A19IV-5` | Is the active profile chosen honestly: thin interpretation or atlas interpretation? | Atlas language is used by reflex, or the line needs atlas interpretation but never says so. | State the profile explicitly and justify why thin interpretation is or is not sufficient. |

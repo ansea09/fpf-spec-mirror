@@ -6,12 +6,12 @@ section_id: "G.12:5"
 section_title: "Interfaces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__007_interfaces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:5 — Interfaces"
-line_start: 116233
-line_end: 116243
+line_start: 116587
+line_end: 116597
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -38,15 +38,15 @@ dependencies:
   - "G.Core"
 keywords:
   - "DHC"
-  - "PathId/PathSliceId"
-  - "RSCR/refresh wiring"
-  - "UTS twins"
-  - "admissible telemetry"
+  - "DHCReplayBasis"
+  - "DHCSeries"
+  - "coordinate results"
   - "dashboard"
   - "discipline health"
-  - "edition pins"
-  - "time-series"
-  - "view-only slices"
+  - "optional publication"
+  - "selective refresh"
+  - "time series"
+  - "views"
 ---
 
 ### G.12:5 — Interfaces
@@ -56,7 +56,7 @@ keywords:
 | `Create_DHCSeries` | exact coordinate-result refs, discipline, intended use, ClaimScope, windows, comparison basis, optional definition-set and target-slice refs | one C.2.1 `DHCSeries` episteme edition |
 | `Update_DHCSeries` | prior series edition, added or replaced exact result refs, affected windows, edition rule | successor series episteme edition only when C.2.1's historical-continuation predicate holds, plus exact edition relation when asserted |
 | `Render_DHCView` | exact result or series refs, view specification, annotations | `DHCRow[]` and/or `DashboardSlice` representations |
-| `Publish_DHCView` | selected episteme or view edition plus E.24.PUB audience, bounded use, form, carrier, and interval | obtaining publication relation when its predicate holds |
+| `Publish_DHCView` | exact selected episteme edition (series, coordinate result, or independently constituted view episteme), dashboard form, and E.24.PUB audience, bounded use, carrier, and interval | obtaining publication relation for that edition when its predicate holds |
 | `Emit_DHCTelemetry` | exact changed definition, window, evidence, crossing, or policy pin and affected slice | G.11-facing telemetry payload |
 | optional panel interfaces | the corresponding extension's exact values | only that panel's representation and conditional refresh pins |
 

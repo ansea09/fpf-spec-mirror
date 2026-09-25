@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.MLAO"
-pattern_title: "Multilevel Architecture Residual Optimization"
+pattern_title: "Architecture Candidates to Reduce Cross-Scope Residuals"
 section_id: "C.32.MLAO:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.32.MLAO — Multilevel Architecture Residual Optimization"
+  - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:3 — Forces"
-line_start: 73076
-line_end: 73085
+line_start: 73295
+line_end: 73304
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -59,5 +59,5 @@ keywords:
 | Optimization language | Objective, residual, front, and matrix language sounds decisive before the claim is typed. |
 | Declared-level recognition | Level and scope words are useful only after they are declared as holon-level refs or scope refs, or restored as stratification terms through `C.30.STRAT` before selected-structure use. |
 | Candidate action | When performing repair work, the practitioner must use the residual triage to prepare candidate changes. |
-| New burden | Every residual-reducing candidate change creates another cost or loss. |
+| New burden | A residual-reducing candidate can create another cost or loss; inspect the affected scopes rather than presuming either losslessness or a positive new burden. |
 

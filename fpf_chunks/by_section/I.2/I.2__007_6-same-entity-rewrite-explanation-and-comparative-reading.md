@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "I.2"
-pattern_title: "Expanded Entry Disambiguation Cases"
+pattern_title: "Choose a First Pattern: Expanded Entry Disambiguation Cases"
 section_id: "I.2"
 section_title: ".6 - Same-entity rewrite, explanation, and comparative reading"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__007_6-same-entity-rewrite-explanation-and-comparative-reading.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "I.2 — Expanded Entry Disambiguation Cases"
+  - "I.2 — Choose a First Pattern: Expanded Entry Disambiguation Cases"
   - "I.2 — .6 - Same-entity rewrite, explanation, and comparative reading"
-line_start: 116805
-line_end: 116828
+line_start: 117159
+line_end: 117182
 dependencies:
   - "E.10"
   - "E.11"

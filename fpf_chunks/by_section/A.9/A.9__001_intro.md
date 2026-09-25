@@ -1,32 +1,32 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.9"
-pattern_title: "Cross‑Scale Consistency (C‑3)"
+pattern_title: "Choose and Check an Aggregation Law for the Intended Result"
 section_id: "A.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.9 — Cross‑Scale Consistency (C‑3)"
+  - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:intro — Intro"
-line_start: 24109
-line_end: 24112
+line_start: 23985
+line_end: 23986
 dependencies:
-  - "A.1"
-  - "A.8"
-  - "A.9"
+  - "A.19.CN"
+  - "A.19.ULSAM"
   - "B.1"
-  - "U.Holon"
+  - "B.2"
+  - "C.29"
 keywords:
-  - "aggregation"
-  - "composition"
-  - "holarchy"
-  - "invariants"
-  - "roll-up"
+  - "aggregation law"
+  - "bounds"
+  - "cross-scale consistency"
+  - "dependency model"
+  - "intended result"
+  - "ordered composition"
+  - "singleton identity"
 ---
 
-## A.9 - Cross‑Scale Consistency (C‑3)
-
-> *“The logic of a bolt must still be the logic of the bridge.”*
+## A.9 - Choose and Check an Aggregation Law for the Intended Result
 

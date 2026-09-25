@@ -6,19 +6,33 @@ section_id: "A.19.SelectorMechanism:6"
 section_title: "Bias-Annotation — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__008_bias-annotation-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:6 — Bias-Annotation — informative"
-line_start: 36767
-line_end: 36778
+line_start: 36711
+line_end: 36722
 dependencies:
+  - "A.19.CHR"
+  - "A.19.CN"
+  - "A.19.ULSAM"
+  - "A.19.USCM"
+  - "A.6.1"
+  - "A.6.5"
+  - "C.22"
+  - "E.18"
+  - "G.0"
+  - "G.5"
 keywords:
+  - "ComparisonResultSlot"
   - "SelectEligibility"
-  - "selected set"
+  - "SelectorMechanism"
+  - "explicit criteria"
+  - "finite basis of binary CPM applications"
+  - "pass/degrade/abstain"
+  - "required comparison coverage"
+  - "selected candidate set"
   - "selection kernel"
-  - "set-returning selection"
-  - "tri-state guard (pass"
 ---
 
 ### A.19.SelectorMechanism:6 - Bias-Annotation — informative

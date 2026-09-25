@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.11.DUA"
-pattern_title: "Decision-Useful Advice and Evidence Demands"
+pattern_title: "Make Advice and Evidence Demands Worth Their Burden"
 section_id: "C.11.DUA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.11.DUA — Decision-Useful Advice and Evidence Demands"
+  - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 53457
-line_end: 53468
+line_start: 53600
+line_end: 53611
 dependencies:
   - "A.10"
   - "C.11"

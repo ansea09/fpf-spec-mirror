@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UNM"
-pattern_title: "Unified Normalization Mechanism (UNM)"
+pattern_title: "Normalize Coordinate Values under Declared Invariants (UNM)"
 section_id: "A.19.UNM:0"
 section_title: "At a glance — didactic, informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__002_at-a-glance-didactic-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.UNM — Unified Normalization Mechanism (UNM)"
+  - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:0 — At a glance — didactic, informative"
-line_start: 34797
-line_end: 34826
+line_start: 34672
+line_end: 34698
 dependencies:
 keywords:
   - "CV→NCV"
@@ -35,8 +35,8 @@ keywords:
 
 **Key outputs.**
 - `NCV` (NormalizedCharacteristicValue) values for coordinates.
-- A declared congruence `≡_UNM` (equivalence) induced by a chosen normalization method instance.
-- Optionally, an explicit representative selection policy (`NormalizationFixSpec`, aka “NormalizationFix” in prose) when quotient objects must be presented as concrete chart items.
+- When requested for a function `n:D→N`, the equality-of-output relation `x ≡_UNM y` iff `n(x)=n(y)` on its actual domain D. Its classes form a set quotient; preserving further operations or answers needs the additional tests below.
+- An inverse only on the stated image of an invertible transformation; an operational quotient only for compatible operations and recoverable queries; a `NormalizationFixSpec` only when a representative of an established class is needed.
 
 **Two IDs (do not conflate).**
 - `UNM_id?` selects the **UNM mechanism instance** used by this CN‑frame (a `U.Mechanism` instance of type UNM; routing/governance level).
@@ -51,7 +51,4 @@ keywords:
 - Not indicator selection (that is **UINDM**).
 - Not scoring, aggregation, comparison, selection (USCM / ULSAM / CPM / SelectorMechanism).
 - Not a data governance system: UNM is a concept-level mechanism with an explicit governing pattern and auditability.
-
-**Governing-pattern note (Phase‑3 canonicalization).**
-This pattern is the governing pattern for the canonical `U.Mechanism.Intension` for `UNM.IntensionRef`. Other locations that currently carry UNM “card fragments” should be reduced to **Tell + Cite** stubs pointing here, preserving public IDs/anchors.
 

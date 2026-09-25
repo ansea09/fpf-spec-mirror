@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.7"
-pattern_title: "U.LanguageStateRepresentationFactorBundle"
+pattern_title: "U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
 section_id: "C.2.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
+  - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 50032
-line_end: 50036
+line_start: 50175
+line_end: 50179
 dependencies:
   - "A.16"
   - "A.16.0"

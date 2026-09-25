@@ -6,12 +6,12 @@ section_id: "C.18.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__003_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:2 — Problem"
-line_start: 56598
-line_end: 56601
+line_start: 56741
+line_end: 56744
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,10 +34,11 @@ keywords:
   - "compute‑elasticity"
   - "data‑elasticity"
   - "diminishing returns"
-  - "exponent class"
+  - "elasticity class"
   - "iso‑scale parity"
   - "knee"
   - "knee detection"
+  - "probe uncertainty"
   - "resolution‑elasticity"
   - "scale variables (S)"
   - "scale‑probe"

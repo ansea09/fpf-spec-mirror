@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.16.P"
-pattern_title: "Characteristic and Scale Precision Restoration"
+pattern_title: "Restore Precision to Characteristic and Scale Wording"
 section_id: "C.16.P:5"
 section_title: "Trigger split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__007_trigger-split.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.16.P — Characteristic and Scale Precision Restoration"
+  - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:5 — Trigger split"
-line_start: 54888
-line_end: 54902
+line_start: 55031
+line_end: 55045
 dependencies:
   - "A.10"
   - "A.15"

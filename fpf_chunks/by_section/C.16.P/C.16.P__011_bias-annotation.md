@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.16.P"
-pattern_title: "Characteristic and Scale Precision Restoration"
+pattern_title: "Restore Precision to Characteristic and Scale Wording"
 section_id: "C.16.P:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__011_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.16.P — Characteristic and Scale Precision Restoration"
+  - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:8 — Bias-Annotation"
-line_start: 54947
-line_end: 54954
+line_start: 55090
+line_end: 55097
 dependencies:
   - "A.10"
   - "A.15"

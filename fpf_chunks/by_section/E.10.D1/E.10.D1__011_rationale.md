@@ -6,12 +6,12 @@ section_id: "E.10.D1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__011_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:10 — Rationale"
-line_start: 86973
-line_end: 86978
+line_start: 87293
+line_end: 87298
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -37,7 +37,7 @@ keywords:
 
 ### E.10.D1:10 - Rationale
 
-The useful outcome of the earlier edition was to make context wording visible, separate situational narrative from semantic locality, and demand explicit treatment of cross-local meaning. Its mechanism was too strong: one universal `U.BoundedContext` erased distinctions that later FPF patterns now make directly.
+Context wording can make locality visible, distinguish a working situation from a source-local meaning, and reveal the need to relate different local meanings. One universal `U.BoundedContext` would erase distinctions that the subject patterns define separately.
 
 Positive recovery is preferred to a forbidden-word list. A spelling check can find candidates, but only the receiving claim tells whether the phrase hides a scheme, scope, structure, situation, or other value. Naming that content opens the next practical move; banning the word does not.
 

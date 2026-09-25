@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.21.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
-line_start: 57811
-line_end: 58075
+line_start: 57954
+line_end: 58218
 dependencies:
   - "A.10"
   - "A.17"
@@ -39,7 +39,11 @@ keywords:
   - "alignment"
   - "discipline"
   - "disruption"
+  - "diversity"
+  - "evidence resolution"
   - "field health"
+  - "formal recognition"
+  - "practice adoption"
   - "reproducibility"
   - "standardisation"
 ---

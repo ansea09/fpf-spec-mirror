@@ -6,12 +6,12 @@ section_id: "G.9:5"
 section_title: "Interfaces (minimal I/O; conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__009_interfaces-minimal-i-o-conceptual.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:5 — Interfaces (minimal I/O; conceptual)"
-line_start: 115061
-line_end: 115071
+line_start: 115405
+line_end: 115415
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -51,7 +51,7 @@ keywords:
 | Interface                          | Consumes                                                                                                                                         | Produces                                                                                        |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
 | **G.9‑1 `Plan_Parity`**            | exactly one subject branch—one `EntityOfConcernRef` or exact `targetRefs[]` under their existing kinds and editions—plus `GroundingHolonRef`, `ReferencePlane`, `ClaimScope`, `EvaluationWindow`, `BaselineSet`, `BaselineBindingRef`, `FreshnessWindows`, `Budgeting?`, `EpsilonDominance?`, `CNSpecRef.edition`, `CGSpecRef.edition`, `ComparatorSpecRef.edition`, mode-specific measurement or normalization editions when used, `SCPRef.edition?`, `MinimalEvidenceRef.edition?`, `UNM_id?`, `NormalizationMethodId[]?`, `NormalizationMethodInstanceId[]?`, `ParityPinSet`, `EvidenceGraphId`, `PathId[]`, `PathSliceId?`, `PlannedFillingRows[]?` | one immutable `ParityPlan` WorkPlan edition and its exact `ParityPlanRef` |
-| **G.9‑2 `Run_Parity`**             | exact `ParityPlanRef`, `TaskSignatureRef` (S2), **G.5‑3 Select**                                                                                | selected-set, archive, or other set refs; DRR and SCR pins with `PathId[]` and, when needed, `PathSliceId` |
+| **G.9‑2 `Run_Parity`**             | exact `ParityPlanRef` and comparison inputs; **G.5‑3 Select** only for a selector-facing result, using the plan's exact `TaskSignatureRef` and conditional matching `TaskMapRef` | parity/comparison result refs and, when selected, G.5 outcome refs; DRR and SCR pins with `PathId[]` and, when needed, `PathSliceId` |
 | **G.9‑3 `Publish_ParityReport`**   | exact `ParityPlanRef`, parity-run trace refs, and active pins                                                                                   | `ParityReport` carrying the same exact plan ref and baseline binding (UTS publication record; emits canonical RSCR ids) |
 | **G.9‑4 `Expose_ParityTelemetry`** | Telemetry deltas (archive changes, coverage/regret signals, etc.)                                                                                | Telemetry events carrying `PathSliceId?`, policy‑ids, and edition pins for refresh wiring       |
 

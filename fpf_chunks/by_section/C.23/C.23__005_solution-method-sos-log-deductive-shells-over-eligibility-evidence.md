@@ -6,12 +6,12 @@ section_id: "C.23:4"
 section_title: "Solution — Method‑SoS‑LOG: deductive shells over Eligibility & Evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__005_solution-method-sos-log-deductive-shells-over-eligibility-evidence.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:4 — Solution — Method‑SoS‑LOG: deductive shells over Eligibility & Evidence"
-line_start: 59630
-line_end: 59717
+line_start: 59773
+line_end: 59860
 dependencies:
   - "A.10"
   - "B.3"
@@ -30,6 +30,7 @@ keywords:
   - "MethodFamily"
   - "SoS-LOG"
   - "abstain"
+  - "admission rules"
   - "admit"
   - "degrade"
   - "evidence"
@@ -71,7 +72,7 @@ with the following **branch obligations**:
 (d) any **maturity gating** (e.g., a floor on Maturity rungs) is expressed as an **AcceptanceClause** and referenced here by id (no acceptance thresholds inside LOG).
 *LOG never sets acceptance thresholds; its rules use and cite Acceptance verdicts.*
 
-**R2 — Degrade.** If (a) holds but (b) or (c) is **partially** satisfied or **unknown**, return `Degrade(mode)` where `mode ∈ {scope-narrow | sandbox | probe-only}`. Record the exact S2 unknowns or evidence minima, narrowed claim scope or execution mode, qualification window, governing policy edition, and result. LOG-Degrade never changes CHR scales or planes.
+**R2 — Degrade.** Apply R0 and, when applicable, R0.QD before any degrade branch, including U2, U3, and R7. Failure returns `Abstain` for the attempted use. After those gates pass, return `Degrade(mode)` only through a declared family branch when an admitted unknown or an unmet acceptance condition permits a narrower scope or execution mode under the applicable CAL failure behavior; `mode ∈ {scope-narrow | sandbox | probe-only}`. An eligibility violation still requires R3 abstention. Record the exact S2 unknowns or unmet conditions, narrowed claim scope or execution mode, qualification window, governing policy edition, and result. If the branch changes the intended use, re-evaluate R0 and eligibility for that bounded use before relying on it. LOG-Degrade never changes CHR scales or planes or turns a failed CAL verdict into a pass.
 **Note (CAL vs LOG).** CAL‑level **`degrade.order`** (fall‑back to order‑only comparisons) is governed by **G.4**/**CG‑Spec** and is **not** a LOG mode. **SoS‑LOG never overrides CAL outcomes**; a LOG branch **only narrows** `Scope(G)` or **execution mode** (e.g., `sandbox`, `probe‑only`), it **does not** alter CHR scales or admissible orders.
 `probe‑only` MUST cite an **E/E‑LOG policy id** (exploration budget) and Acceptance‑bound guards.
 

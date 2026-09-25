@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 17076
-line_end: 17088
+line_start: 17058
+line_end: 17070
 dependencies:
   - "A.10"
   - "A.22.CGUS"

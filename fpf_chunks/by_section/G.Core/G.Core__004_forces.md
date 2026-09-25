@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.Core"
-pattern_title: "Part G Core Invariants"
+pattern_title: "Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
 section_id: "G.Core:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.Core — Part G Core Invariants"
+  - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:3 — Forces"
-line_start: 109958
-line_end: 109967
+line_start: 110371
+line_end: 110380
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -40,5 +40,5 @@ keywords:
 * **Typed change control:** RSCR/refresh must become *id‑based* (catalogued trigger kinds) rather than prose-based “meaning”.
 * **Strict distinction:** Keep governing spec refs (CN‑Spec, CG‑Spec), suites, kits/surfaces, policies, planned baselines, audits, and refresh orchestration distinct.
 * **Minimal specificity naming:** New IDs must be kind‑suffixed and minimally specific, to reduce semantic lock‑in while remaining precise.
-* **Phase‑2 scope discipline:** `G.Core` must not become a container for discipline/method/generator taxonomies; those remain pattern-scoped (`Extensions`), delegated to existing governing patterns, or marked Phase‑3 seeds (appendix) without new Phase‑2 norms.
+* **Scope discipline:** `G.Core` must not become a container for discipline/method/generator taxonomies; those remain pattern-scoped (`Extensions`) or delegated to their governing patterns.
 

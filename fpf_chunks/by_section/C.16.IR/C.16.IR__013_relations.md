@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.16.IR"
-pattern_title: "Determine What an Indication Can Resolve"
+pattern_title: "Determine What a Measurement Indication Can Resolve"
 section_id: "C.16.IR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__013_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.16.IR — Determine What an Indication Can Resolve"
+  - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:12 — Relations"
-line_start: 54517
-line_end: 54526
+line_start: 54660
+line_end: 54669
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

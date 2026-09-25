@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:1 — Problem frame"
-line_start: 9652
-line_end: 9661
+line_start: 9621
+line_end: 9630
 dependencies:
   - "A.17"
   - "A.18"

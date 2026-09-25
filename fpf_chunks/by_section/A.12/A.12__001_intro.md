@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.12"
-pattern_title: "Acting-Side Externalization and Reflexive Split"
+pattern_title: "Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
 section_id: "A.12:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.12 — Acting-Side Externalization and Reflexive Split"
+  - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:intro — Intro"
-line_start: 25364
-line_end: 25369
+line_start: 25251
+line_end: 25256
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -34,7 +34,7 @@ dependencies:
 keywords:
 ---
 
-## A.12 - Acting-Side Externalization and Reflexive Split
+## A.12 - Acting-Side Externalization and Reflexive Split: Identify Who Acts on What
 
 > **Type:** Part A architectural ontology pattern
 > **Status:** Stable

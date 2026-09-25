@@ -6,12 +6,12 @@ section_id: "F.16:14"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__015_acceptance-tests.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:14 — Acceptance tests"
-line_start: 107568
-line_end: 107589
+line_start: 107998
+line_end: 108019
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 * **SCR-F16-S02 (actual subjects).** No cell, row, label, or record substitutes for an actual value.
 * **SCR-F16-S03 (direct relations).** Every substantive relation names its exact participants and cites the pattern that defines or tests it; unsupported proxy wording ends at A.6.RCD `missing-governor`.
 * **SCR-F16-S04 (conditional F.9).** F.9 appears only for a real relation between distinct local meanings.
-* **SCR-F16-S05 (source and evidence).** Exact sources and editions and the A.10 evidence-use basis are visible where they affect the claim; B.3 appears only for assurance or material reliance.
+* **SCR-F16-S05 (source and evidence).** Exact sources and editions and the A.10 evidence-use basis are visible where they affect the claim; B.3 appears only for an actual named assurance claim.
 * **SCR-F16-S06 (optional aids).** Cells and tables are omitted when they do not reduce reader effort and are never evidential.
 * **SCR-F16-S07 (time and agency).** Windows, Work, System, assignment, and attribution are explicit when material.
 * **SCR-F16-S08 (one-page parsimony).** Every included item changes the answer; a larger case is split without losing its basis.

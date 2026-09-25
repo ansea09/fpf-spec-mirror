@@ -6,12 +6,12 @@ section_id: "A.22:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__008_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:7 — Conformance Checklist"
-line_start: 37872
-line_end: 37891
+line_start: 37816
+line_end: 37835
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -82,7 +82,7 @@ keywords:
 | **CC-A22-5 Describing-use separation.** | Description epistemes keep exact claim content, EntityOfConcern, and effective scheme under C.2.1. A named describing use may separately select one viewpoint, and a receiving calculation or assertion may separately select one independently identified `BoundedModelUseStructure`. E.17.0 alone supplies the `U.View` conformance test; A.6.3 supplies optional viewing construction. | Remove any compound context field; state only the exact episteme values and the optional use selections that the current action needs. |
 | **CC-A22-6 Structure-use return.** | `StructureUseReturnCondition` is present when hidden selected-structure, source-basis, source-description, evidence, lens, simulation, extraction, or representation distinctions are used for action, assurance, causal use, legal or regulatory review, comparison, or decision reopening. | Add one structure-use return condition or narrow the record's admissible use so the hidden distinction is not relied on. |
 | **CC-A22-7 Non-structure claim kind.** | Evidence, assurance, gate, release, causal, dynamics, measurement, work, decision, publication, bridge, and mathematical-lens claims use the patterns that define or test those claims. | The check passes when that concrete contribution and the claim kind are named, while the A.22 record remains limited to selected-structure use. |
-| **CC-A22-8 Architecture pattern application.** | Architecture claims use `C.30` and `ArchitectureOf@Context`; A.22 does not treat architecture as a root kind or define C.30-specific records. | Apply C.30 or a C.30 subpattern and keep A.22 only as the selected-structure EntityOfConcern and structure-claim reliance relation. |
+| **CC-A22-8 Architecture pattern application.** | Architecture claims use `C.30` and `ArchitectureRelation`; A.22 does not treat architecture as a root kind or define C.30-specific records. | Apply C.30 or a C.30 subpattern and keep A.22 only as the selected-structure EntityOfConcern and structure-claim reliance relation. |
 | **CC-A22-9 Plain and Tech recovery.** | Plain structure phrases may remain, but if they carry ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim, the relevant Tech fields and FPF pattern applications are recoverable. | Add the missing Tech fields or demote the Plain phrase to ordinary recognition wording. |
 | **CC-A22-10 Useful action.** | The repair leaves a remaining admissible practitioner use: name the structure, name the structure-claim reliance relation record by value, state a structural view, add a `StructureUseReturnCondition`, or apply the definition or test needed by the claim. | Restore that use, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
 | **CC-A22-11 CGUS qualification and case use.** | A constraint-governed unfolding claim identifies one A.22 structure by the four discriminators; its local locus bindings, selected relations, and applied constraints define at least two potential continuations. The present-case result, any description, and every stronger neighboring claim are judged separately. | Use `A.22.CGUS` only after structure identity and CGUS membership are recoverable. If the structure qualifies but case facts are missing, return `unknown` for the affected alternatives. If only a display is present, keep it as an explanation; send description adequacy and stronger claims to their direct patterns. |

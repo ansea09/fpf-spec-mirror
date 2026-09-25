@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.12"
-pattern_title: "Service Acceptance–Work Evidence Link"
+pattern_title: "Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
 section_id: "F.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.12 — Service Acceptance–Work Evidence Link"
+  - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:3 — Forces"
-line_start: 106066
-line_end: 106074
+line_start: 106488
+line_end: 106496
 dependencies:
   - "A.10"
   - "A.15.1"

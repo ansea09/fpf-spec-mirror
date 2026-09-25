@@ -1,34 +1,39 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.4"
-pattern_title: "Temporal Duality & Open‑Ended Evolution Principle"
+pattern_title: "Compare a System's Intended Design with Its Operating Conditions"
 section_id: "A.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
+  - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:3 — Forces"
-line_start: 10992
-line_end: 10999
+line_start: 10956
+line_end: 10964
 dependencies:
-  - "B.3"
+  - "A.1"
+  - "A.1.1"
+  - "A.3.4"
   - "B.4"
+  - "C.2.1"
+  - "C.27"
 keywords:
-  - "continuous improvement"
-  - "design-time"
-  - "evolution"
-  - "open-ended state change"
-  - "run-time"
-  - "versioning"
+  - "comparison criterion"
+  - "conformance"
+  - "design account"
+  - "discrepancy"
+  - "missing basis"
+  - "operating facts"
 ---
 
 ### A.4:3 - Forces
 
 | Force | Tension |
-|-------|---------|
-| **Stability vs Change** | Identify a holon across time ↔ allow radical redesigns. |
-| **Prediction vs Evidence** | Plan with intended specs ↔ respond to real telemetry. |
-| **Parsimony vs Expressiveness** | Keep the model lean ↔ respect the full state and evolution complexity. |
+|---|---|
+| Stable subject, changing accounts | Compare the continuing System with the selected account without deriving System identity from document versions. |
+| Intended result and actual facts | Preserve a normative target while learning what is happening; a descriptive prediction can raise a different revision question. |
+| Comparable evidence and effort | Obtain the facts needed by the criterion while reusing an adequate comparison or observation. |
+| Diagnosis and authority | Discover a discrepancy without presuming which participant may change the subject, account or receiving use. |
 

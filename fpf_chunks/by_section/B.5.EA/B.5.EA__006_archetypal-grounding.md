@@ -6,12 +6,12 @@ section_id: "B.5.EA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.5.EA — Articulate a Working Distinction from Experience"
   - "B.5.EA:5 — Archetypal Grounding"
-line_start: 43646
-line_end: 43677
+line_start: 43603
+line_end: 43640
 dependencies:
   - "B.5"
   - "B.5.4"
@@ -50,6 +50,12 @@ If the teacher later notices that the waiting learners lacked a diagram supplied
 A craft practitioner describes an operation by tracing a brief path with one hand and saying “it catches here”. A colleague interprets this as a property of the finished shape. Repeating the gesture while describing the encountered resistance reveals that the practitioner means a transition during the operation.
 
 The colleague asks which change in the work occurs at that point and can now inspect that transition. The gesture helped develop the description; it did not by itself establish a physical cause. The applicable craft or physical account supplies that later explanation.
+
+#### B.5.EA:5.4 - A clearer help form misses the concern
+
+A reader objects to guidance that begins “when you notice a difficulty, ask for help”. The listener offers a more visible help form. The reader rejects this but cannot name a better method. The available exchange already permits one test: would the proposed form change the situation of a worker who regards the result as ordinary and never seeks help? It would not.
+
+The listener preserves that difference and examines how the work could first become a question, using B.5.PI. If the reader can only point to the passage and cannot continue, the passage and unresolved concern can remain as an early cue in the existing conversation. A polished paraphrase does not close the concern, and a new explanation is not yet established merely because the first one failed.
 
 The cases are constructed; their supplied subject details are the basis for the illustrated conclusions.
 

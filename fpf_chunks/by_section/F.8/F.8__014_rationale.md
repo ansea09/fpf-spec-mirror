@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.8"
-pattern_title: "Mint-or-Reuse Decision"
+pattern_title: "Mint-or-Reuse Decision for a Name"
 section_id: "F.8:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__014_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.8 — Mint-or-Reuse Decision"
+  - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:11 — Rationale"
-line_start: 104663
-line_end: 104672
+line_start: 105071
+line_end: 105080
 dependencies:
   - "A.11"
   - "A.15"

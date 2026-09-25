@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.24"
-pattern_title: "Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
+pattern_title: "Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
 section_id: "C.24:10"
 section_title: "Rationale and current practice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__015_rationale-and-current-practice.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
+  - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:10 — Rationale and current practice"
-line_start: 60121
-line_end: 60135
+line_start: 60297
+line_end: 60311
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,6 +36,10 @@ dependencies:
   - "G.9"
   - "U.PromiseContent"
 keywords:
+  - "agentic tool-use"
+  - "call planning"
+  - "route probe"
+  - "service calls"
 ---
 
 ### C.24:10 - Rationale and current practice

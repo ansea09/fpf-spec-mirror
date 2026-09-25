@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9.1"
-pattern_title: "Bridge Stance Note"
+pattern_title: "Bridge Stance Note — Clarify a Bounded Use"
 section_id: "F.9.1:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__008_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.9.1 — Bridge Stance Note"
+  - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 105458
-line_end: 105470
+line_start: 105880
+line_end: 105892
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

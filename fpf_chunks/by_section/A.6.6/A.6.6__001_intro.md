@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
+pattern_title: "Base Declaration Discipline: Say Exactly What Something Depends On"
 section_id: "A.6.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
+  - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:intro — Intro"
-line_start: 21177
-line_end: 21192
+line_start: 21027
+line_end: 21042
 dependencies:
   - "A.10"
   - "A.14"
@@ -40,7 +40,7 @@ dependencies:
 keywords:
 ---
 
-## A.6.6 - Base Declaration Discipline - Direct relation first; reusable declaration only when needed
+## A.6.6 - Base Declaration Discipline: Say Exactly What Something Depends On
 > **Status:** Stable
 > **Type:** Definitional relation-discipline pattern
 

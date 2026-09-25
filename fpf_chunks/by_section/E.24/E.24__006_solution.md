@@ -6,12 +6,12 @@ section_id: "E.24:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:4 — Solution"
-line_start: 100093
-line_end: 100551
+line_start: 100495
+line_end: 100957
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -44,7 +44,7 @@ keywords:
 
 The defining `ClaimGraph` located here states `U.Ontic` as the FPF kind for a connected action-facing ontology unit. Before dependent uses rely on that unit, the accepted ontic-introduction decision states its primary subject kind, exact identity, constitution, or recognition rule, the smallest exact relation set needed by dependent use, any identity-bearing direct relation selected by an exact identity assertion, any reusable RelationSignature declarations, rule-content locators, named dependent-use reliance, and non-use boundary.
 
-`Connected` is an admission condition here, not a metaphor. The decision names the smallest set of independently defined relations that makes the subject usable across the named dependent uses and states why each relation belongs. When an exact identity assertion selects one identity-bearing direct relation, say so; otherwise do not invent a head relation. `Action-facing` means that the decision names a dependent use whose outcome changes when that coordination is absent—for example comparison, preservation, teaching, publication, reference, work, or decision use. Topic adjacency and a shared label satisfy neither condition.
+`Connected` is an admission condition here, not a metaphor. The decision names the smallest set of independently defined relations that makes the subject usable across the named dependent uses and states why each relation belongs. When an exact identity assertion selects one identity-bearing direct relation, say so; otherwise do not invent a head relation. `Action-facing` means that the decision names a dependent use whose outcome changes when that coordination is absent—for example comparison, preservation, teaching, publication, reference, work, or decision use. Topic adjacency and a shared label satisfy neither condition. A kind's independently justified membership rule also supplies no additional ontology unit by itself. When direct rules already close the named uses, record that no additional durable ontic is needed and select direct subject-pattern use, or bounded coordination when several claims must be read together. An empty relation set is not positive evidence of connected coordination, and adding a nearby relation merely to fill the set does not establish a contribution.
 
 Keep two layers explicit:
 
@@ -84,7 +84,7 @@ U-kind admission is a neighboring E.24-family question, not the main body of E.2
 
 - a durable ontic is a connected action-facing ontology unit;
 - durable `U.*` kindhood is admitted only through an accepted `UKindAdmissionResult` under that shared schema;
-- an ontic may coordinate already admitted kinds, and a new kind may reuse an already accepted ontic settlement;
+- an ontic may coordinate already admitted kinds; a new kind may reuse an already accepted ontic settlement or be admitted without an additional durable ontic when direct rules suffice for its named uses;
 - when the same case needs both a new ontic and a new public U-kind, one atomic co-decision returns a separate `OnticSettlementResult` and `UKindAdmissionResult`; neither is evidence for the other inside that decision;
 - every non-ontic object keeps the kind, relation, exact subject assertion, and defining or constraining `ClaimGraph` selected by the typed object map.
 
@@ -182,7 +182,7 @@ E24FamilySettlementDecision:
       UnresolvedResult?:
         UnresolvedReason:
         MissingEvidenceOrRuleRefs:
-    OnticSettlementResult?:
+    OnticSettlementResult?: # only for a selected durable ontic, or the explicit bootstrap case
       OnticSettlementResultRef:
       SelectedOnticRefOrBootstrapSchemaRef:
       PrimaryGovernedSubjectKind:
@@ -195,12 +195,16 @@ E24FamilySettlementDecision:
       AdmissionDisposition: root | same-individual-dependent | identity-dependent | reuse | local-kind | reject.
       SubjectPatternLocator:
       DurableMembershipAndExtentResultIfPositive?:
-      BranchSpecificResultRef:
+      BranchSpecificResultRef: exact membership/inclusion/dependence result required by the admission branch; an ontic result only when actually consumed.
       NonUseAndReopenBoundary:
   DecisionMode: ontic-only | U-kind-only | atomic ontic-plus-U-kind.
 ```
 
-When the E.24 ontology-disposition question is current, fill exactly one branch field inside `OntologyDispositionResult`; the decision EntityOfConcern remains fixed and the selected payload stays in that field. A changed result changes the decision's ClaimGraph and therefore identifies another decision episteme under C.2.1; state any edition continuity explicitly. In `ontic-only`, cite the already accepted U-kind result consumed by the ontic and omit a new `UKindAdmissionResult`. In `U-kind-only`, cite the already accepted ontic settlement and omit a new `OnticSettlementResult`. Use `atomic ontic-plus-U-kind` only when neither needed output already exists. The two outputs are evaluated from the same candidate inputs, remain provisional while either branch is unresolved, and become accepted together only when both branches pass. One output must never cite the other as an already accepted premise from the same decision. If one branch fails, retain the independently valid existing objects and record the exact `reuse`, `local-kind`, `reject`, or unresolved result; do not manufacture the missing output to save the other.
+When the E.24 ontology-disposition question is current, fill exactly one branch field inside `OntologyDispositionResult`; the decision EntityOfConcern remains fixed and the selected payload stays in that field. A changed result changes the decision's ClaimGraph and therefore identifies another decision episteme under C.2.1; state any edition continuity explicitly.
+
+In `ontic-only`, cite the already accepted U-kind result consumed by the ontology-disposition decision and omit a new `UKindAdmissionResult`. A direct-use or bounded-coordination conclusion returns no new `OnticSettlementResult`. In `U-kind-only`, either cite an accepted ontic settlement actually needed by the use, or explicitly conclude that no additional durable ontic is needed and record the sufficient direct-use or bounded-local-episteme disposition. The positive admission still requires every E.24.UK membership, extent, witness, need, non-duplication and branch-specific condition. Its result does not depend on manufacturing a sibling ontic.
+
+Use `atomic ontic-plus-U-kind` only when both new outputs are independently needed. Evaluate them from common candidate inputs; neither is prior evidence for the other, and they remain provisional together while either required branch is unresolved. If one branch fails, preserve independently valid existing objects and return the exact gap. If the tests instead establish that no additional ontic is needed, select the explicit `U-kind-only` branch with its direct-use or bounded-coordination grounds; do not call an empty ontology unit connected or silently drop a genuinely required dependency.
 
 The bootstrap co-decision is `E24-CO-UONTIC-BOOT-01`. Its EntityOfConcern is the exact source-construct entity defined by E.24:4 for the kind `U.Ontic`; it does not presuppose an admitted `U.Ontic` or a pre-existing ontic instance. From that common input it returns two distinct accepted outputs: `E24-OS-UONTIC-BOOT-01`, which accepts this shared settlement schema as the direct rule for identifying future ontology-unit individuals, and `E24UK-AR-UONTIC-BOOT-01`, which admits the root kind `U.Ontic`. The schema, pattern, decision episteme, and kind are not thereby instances of `U.Ontic`; each concrete ontology-unit individual still needs an ordinary `OnticSettlementResult`. No relation-about-relation or relation from the kind to itself is invented for the bootstrap.
 
@@ -269,7 +273,7 @@ Choose the branch with three observable thresholds before opening the ontology o
 - **A bounded local episteme is needed** when one named receiving use must read several already governed claims together, but no other current pattern relies on their package as reusable ontology. Identify that one episteme under C.2.1 and keep every governed object under its direct pattern.
 - **A durable ontic is needed** only when multiple current patterns must reuse the same independently identified ontology unit and would otherwise duplicate or disagree about its identity or constitution and minimal relation set.
 
-If none of the three thresholds can yet be demonstrated, record an unresolved stop. Source provenance remains the separate source-use status from F05 and can accompany any of the three resolved branches.
+If none of the three thresholds can yet be demonstrated, record an unresolved stop. Source provenance remains the separate source-use status under E.24:4.0 and can accompany any of the three resolved branches.
 
 The following card is the cheap first-use summary. State the recognizable situation, the use that must close, and the exact subject; run the three thresholds; then fill `ontologyDispositionResult` last. Work and decision are examples of receiving use, alongside comparison, preservation, teaching, publication, and reference use.
 
@@ -292,7 +296,7 @@ OnticIntroductionFirstUse:
     durableOnticResult?: exact ontic-settlement result, selected ontic, and subject-pattern locator.
     unresolvedResult?: exact unresolved reason and the missing evidence or rule.
   sourceUseStatusIfCurrent?: quote-only | reduced use | selected stronger source use; omit when no source-use claim is current and keep exact provenance when it is.
-  blockedLocalOverread: the nearest tempting object, kind, relation, or authority that this result does not create or license.
+  blockedLocalOverread?: only an independently grounded plausible overread whose correction changes the receiving use, under F.19:4.
 ```
 
 Every candidate receives one truthful branch result. Ordinary direct, bounded, and unresolved cases stop at this card: direct use needs only its current closing assertion, and bounded use adds only the C.2.1 coordination required by that use. Omit source, publication, view, representation, Work, U-kind, and other neighboring-object fields when no such claim is current; absence is enough and needs no blank or `not current` value.
@@ -414,7 +418,7 @@ OnticIntroductionDecision:
   UKindOutputIfCurrent:
     SharedDecisionRef: exact `E24FamilySettlementDecision` governed only by E.24:4.0a; do not fill another E.24.UK decision form.
     DecisionMode: U-kind-only | atomic ontic-plus-U-kind.
-    ExistingAcceptedOnticSettlementRefIfReused?: required for U-kind-only; omit when the atomic decision creates both outputs.
+    ExistingAcceptedOnticSettlementRefIfReused?: cite only an accepted ontic settlement actually consumed by the shared decision. For U-kind-only with no additional durable ontic needed, retain the shared direct-use or bounded-local-episteme result in OntologyDispositionResult above and omit this reference; no new OnticSettlementResult is required.
     UKindAdmissionResultRef: exact `UKindAdmissionResult` output.
     AdmissionDisposition: exactly one value from E.24.UK's closed set: root | same-individual-dependent | identity-dependent | reuse | local-kind | reject.
     BranchSpecificResultRefIfRequired: the exact membership, dependence, reused-kind, local-declaration, or recovered-object result required by that disposition.
@@ -490,7 +494,7 @@ For that bounded use:
 - state why every carried claim concerns that one object;
 - identify each other governed entity and direct relation designated by those claims;
 - cite the pattern governing each direct relation rather than restating its participant or identity rules;
-- state the tempting ontic overread that the episteme does not license;
+- state an ontic overread only when its correction passes the F.19:4 test in E.24:4.0;
 - stop before dependent patterns treat this one episteme as a durable ontology unit.
 
 **Positive example.** `Pump37MaintenanceCoordination_v1` has exact Pump #37 as its EntityOfConcern. Its ClaimGraph may designate the current maintenance plan, dated work, enacted method, and direct relations because every claim explains how this exact pump is maintained for the named scheduling decision. Pump #37's A.1 identity is independent of the coordinating episteme.

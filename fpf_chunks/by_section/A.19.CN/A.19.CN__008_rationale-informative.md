@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CN"
-pattern_title: "CN‑frame (comparability & normalization)"
+pattern_title: "CN-frame: Specify and Maintain Comparability and Normalization"
 section_id: "A.19.CN:7"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__008_rationale-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.CN — CN‑frame (comparability & normalization)"
+  - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:7 — Rationale (informative)"
-line_start: 33868
-line_end: 33871
+line_start: 33809
+line_end: 33812
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -37,5 +37,5 @@ keywords:
 
 ### A.19.CN:7 - Rationale (informative)
 
-The CN‑Spec aligns A.19.CN with **Part E**: it packages Tell‑Show‑Show, Conformance Checklists, and DRR‑backed change, while honouring **DevOps Lexical Firewall**, **Unidirectional Dependency**, and **Notational Independence** so that semantics never depend on tooling.  It also operationalises B.3 **Trust & Assurance** by making CL penalties and WLNK folds first‑class.
+A comparison depends on the meaning and basis of its values. Keeping that basis with the CN-Spec makes a changed chart, normalization or intended use visible to the receiver. A claimed aggregation also needs its justified model; a required assurance claim retains its applicable loss policy under B.3.
 

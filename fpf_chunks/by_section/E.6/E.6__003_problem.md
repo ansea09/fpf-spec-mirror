@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.6"
-pattern_title: "Didactic Architecture of the Specification"
+pattern_title: "Didactic Architecture of the FPF Specification"
 section_id: "E.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__003_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.6 — Didactic Architecture of the Specification"
+  - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:2 — Problem"
-line_start: 81781
-line_end: 81787
+line_start: 82106
+line_end: 82112
 dependencies:
   - "E.2"
 keywords:

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.20"
-pattern_title: "Mechanism Introduction Protocol"
+pattern_title: "Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
 section_id: "E.20:4"
 section_title: "Solution — the Mechanism Introduction Protocol (MIP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__005_solution-the-mechanism-introduction-protocol-mip.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.20 — Mechanism Introduction Protocol"
+  - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:4 — Solution — the Mechanism Introduction Protocol (MIP)"
-line_start: 97822
-line_end: 98047
+line_start: 98224
+line_end: 98449
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -28,18 +28,16 @@ dependencies:
   - "G.x"
 keywords:
   - "MIP-run manifest"
-  - "P2W seam"
-  - "PQG profiles"
-  - "SlotKind lexicon discipline"
   - "alias docking"
   - "authoring protocol"
-  - "canonical card-first"
+  - "declaration-local operation members"
   - "governing-definition assignment"
   - "mechanism introduction"
-  - "no dangling …IntensionRef"
-  - "regression envelope"
-  - "suite boundary hygiene"
-  - "typed RSCR triggers"
+  - "planned baseline"
+  - "resolvable MechanismDefinitionRef"
+  - "suite boundary"
+  - "trigger triage"
+  - "wiring"
 ---
 
 ### E.20:4 - Solution — the Mechanism Introduction Protocol (MIP)
@@ -232,12 +230,12 @@ A MIP-run that changes any of:
 * terminology/alias docking that changes citeable tokens,
 * or other reference loci
 
-SHALL emit typed RSCR triggers via the RSCR subject pattern and SHALL extend the regression envelope to include, at minimum:
+SHALL emit typed RSCR triggers via the RSCR subject pattern and SHALL extend the regression envelope over the affected uses:
 
-* no dangling `MechanismDefinitionRef` enumerations,
-* suite membership set semantics + protocol closure,
-* guard/gate separation preservation,
-* P2W planning-to-work boundary preservation (planning vs enactment).
+* reference resolution for changed citeable references;
+* membership set semantics and protocol closure when a suite changes;
+* guard/gate separation when that boundary changes; and
+* the P2W planning-to-work boundary when planned-baseline content changes.
 
 **Guard (normative).** Trigger kind identifiers (e.g., `RSCRTriggerKindId`) SHALL be selected from the RSCR trigger catalogue governed by `G.Core`. A MIP-run SHALL NOT mint ad hoc trigger kinds (“reason kinds”) scattered in arbitrary patterns/modules.
 

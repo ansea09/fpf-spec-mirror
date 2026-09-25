@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:12"
 section_title: "Builds on / Relates to"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__014_builds-on-relates-to.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:12 — Builds on / Relates to"
-line_start: 36071
-line_end: 36085
+line_start: 35992
+line_end: 36006
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -32,12 +32,12 @@ keywords:
 ### A.19.ULSAM:12 - Builds on / Relates to
 
 **Builds on (cite, don’t duplicate).**
-- `A.6.1` (`U.Mechanism.Intension` shape; `U.MechAuthoring`; CC‑UM discipline).
-- `A.6.5` (slot discipline; SlotIndex as a projection).
+- `A.6.1` (operation declarations and actual application/binding rules).
+- `A.6.1 §4.2` (operation-local argument/result declarations as the source of SlotIndex).
 - `A.19.CHR` (CHR suite boundary; stage `fold_Γ?`; CHR SlotKind Lexicon).
 - `G.0` (`CG-Spec.Γ_fold`, `CG-Spec.SCP`, `CG-Spec.MinimalEvidence`; admissibility gate).
 - `A.18` (CSLC).
-- `B.3` (Γ‑fold defaults for `R_eff`, including WLNK; trust skeleton).
+- `B.3` (support dependence and the justified model for any `R_eff` calculation).
 
 **Relates to (coordination, not governing-pattern assignment).**
 - `A.19.CN` (`CN‑Spec`), via `CNSpecSlot.acceptance` gating in admissibility.

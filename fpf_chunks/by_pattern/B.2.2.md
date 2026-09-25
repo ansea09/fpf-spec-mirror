@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "B.2.2"
-pattern_title: "Meta-System Transition - System Specialization of MHT"
+pattern_title: "Meta-System Transition: Test the Proposed New Whole as a System"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.2.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.2.2 — Meta-System Transition - System Specialization of MHT"
-line_start: 41057
-line_end: 41281
+  - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
+line_start: 40987
+line_end: 41211
 dependencies:
   - "A.1"
   - "A.10"
@@ -39,7 +39,7 @@ dependencies:
 keywords:
 ---
 
-## B.2.2 - Meta-System Transition - System Specialization of MHT
+## B.2.2 - Meta-System Transition: Test the Proposed New Whole as a System
 
 > **Type:** Part B holonic construction pattern
 > **Status:** Stable
@@ -139,7 +139,7 @@ When a receiving use has materialized B.2's optional `MHTTriggerProfile`, read i
 | Capability or closure claim | Recover the exact capability envelope and closure relations of the proposed new whole after recognition under `U.System`; keep supporting evidence separate. | `A.2.2`, `C.16`, `A.10` for evidence use, and `B.2.4` when whole reidentification is current |
 | Agency threshold | The result whole crosses a concern-specific agency threshold in characteristic space. | `A.13`, `A.19`, `C.16` |
 | Temporal consolidation | A commissioning, phase, release, or operating-time consolidation changes the current system identity claim. | `C.27`, `A.15.1`, temporal patterns |
-| Context reframe | The relevant bounded context changes the operating whole under concern. | `A.1`, bounded-context patterns, architecture patterns |
+| Context reframe | A changed question or selected model-use structure changes which exact whole is under concern; it does not itself change that whole's identity. | `A.1.1`, `A.22`, `B.2`, and the whole's direct identity pattern |
 
 No cue is enough by itself. Each row points to facts and claims to inspect; B.2's direct existing-whole/new-whole comparison, complete A.1 recognition, and the system-kind criterion decide the result.
 

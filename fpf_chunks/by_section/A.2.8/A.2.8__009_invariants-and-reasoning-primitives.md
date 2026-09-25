@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.8"
-pattern_title: "U.Commitment (Deontic Commitment Relation)"
+pattern_title: "U.Commitment — Individual Duties to Act or Refrain"
 section_id: "A.2.8:6"
 section_title: "Invariants and Reasoning Primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__009_invariants-and-reasoning-primitives.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
+  - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:6 — Invariants and Reasoning Primitives"
-line_start: 7281
-line_end: 7308
+line_start: 7250
+line_end: 7277
 dependencies:
   - "A.10"
   - "A.15.1"

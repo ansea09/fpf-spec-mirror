@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.5"
-pattern_title: "Multi‑Method Dispatcher and MethodFamily Registry"
+pattern_title: "Method-Family Registry, Dispatch and Selected-Set Result Declaration"
 section_id: "G.5:0.3"
 section_title: "First-minute questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__005_first-minute-questions.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
+  - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:0.3 — First-minute questions"
-line_start: 112604
-line_end: 112623
+line_start: 113035
+line_end: 113043
 dependencies:
   - "C.11"
   - "C.18"
@@ -32,6 +32,7 @@ dependencies:
   - "G.9-G.11"
   - "G.Core"
 keywords:
+  - "JointUseSet"
   - "RankedShortlist"
   - "SelectorOutcomeKind"
   - "Shortlist"
@@ -48,28 +49,17 @@ keywords:
   - "method-family registry"
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
-  - "selected-set publication"
+  - "selected-set result declaration"
   - "set-result outcome"
   - "tool choices are outside the core"
 ---
 
 ### G.5:0.3 - First-minute questions
 
-- What selector outcome kind is this result actually emitting: one set-result outcome such as `Shortlist`, `RankedShortlist`, or `JointUseSet`, one `SpecialistHandoff` or other narrowed handoff, or one abstain outcome?
-- Which members are being retained or excluded now?
-- Are these alternatives retained for later choice, or is every named member included for one bounded use?
-- For `JointUseSet`, what named use, unique member refs, inclusion conditions, and sufficient top-level basis pins make the result complete?
-- Does the result order the retained alternatives?
-- Which basis pins or policy pins must the declared result carry?
-- Which exact A.3.1 `MethodRef` values does every method-family row resolve to?
-- What independently governed classification, membership relation, or local grouping criterion justifies placing those Methods in that row for this selector use?
-- Is the current organization only a composition template, one B.1.5-qualified composite Method, or an independently selected A.22 Structure with all four identity discriminators?
-- Is this only selector declaration or result content, or is an actual selection claimed with each precise performer's A.13 core, independently admitted dated Work, actual `Select` application and bindings, conditional exact F.6 attribution when consumed, and separately governed result and publication objects?
-- Does any consumed Method, claim, or selector criterion use expressions with distinct F.17 source-local meanings? If so, which cells are related, where does the F.9 Bridge obtain, what use, direction, correspondence, target, and polarity does the separate crossing claim state, and where is the matching A.10 or B.3 reliance result?
-- Which stronger branch is actually current—a new reusable registry row, crossing, evidence/reliance, assurance, stable public identity, or actual publication—and which can remain unopened?
-
-
-
-
-
+- Which exact members and grouping or inclusion basis are already established?
+- Are they alternatives for later choice or members all included for one named use?
+- Does the declared comparison justify ordering them?
+- Which eligibility, evidence or other receiving-use conditions actually apply?
+- What result can be handed over, and what prevents a complete result?
+- Does the current question additionally claim actual selection, composition, a relation between meanings, public identity or publication? Open only the applicable branch in §4.2.
 

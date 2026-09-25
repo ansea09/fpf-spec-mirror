@@ -6,12 +6,12 @@ section_id: "A.15.11:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__008_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
   - "A.15.11:7 — Conformance Checklist"
-line_start: 29864
-line_end: 29877
+line_start: 29769
+line_end: 29783
 dependencies:
   - "A.15"
   - "A.15.7"
@@ -37,6 +37,7 @@ For a consequential use, inspect the arrangement and the resulting work:
 - Were any extra explanations or aids retained in the claim about what worked?
 - Does the comparison include the cue's burden and its effect on the encompassing task?
 - Can a useful dismissal, revision or removal count as success?
+- When a checklist carries the cue, can the user inspect its condition and continue when it is unmet, unknown or insufficient for the receiving use?
 
 Use the questions that can change the judgement about this arrangement.
 

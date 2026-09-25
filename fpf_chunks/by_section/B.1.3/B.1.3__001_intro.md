@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.3"
-pattern_title: "Γ_epist - Knowledge‑Specific Aggregation"
+pattern_title: "Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
 section_id: "B.1.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
+  - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:intro — Intro"
-line_start: 38987
-line_end: 39002
+line_start: 38917
+line_end: 38932
 dependencies:
   - "A.1"
   - "A.10"
@@ -22,6 +22,7 @@ dependencies:
   - "A.15.1"
   - "A.15.PROD"
   - "A.6.1"
+  - "A.7"
   - "B.1"
   - "B.1.1"
   - "B.1.4"
@@ -38,14 +39,9 @@ dependencies:
   - "F.9"
   - "U.Work"
 keywords:
-  - "KD-CAL"
-  - "epistemic"
-  - "knowledge aggregation"
-  - "provenance"
-  - "trust"
 ---
 
-## B.1.3 - Γ_epist - Knowledge‑Specific Aggregation
+## B.1.3 - Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation
 
 **At a glance.** Use B.1.3 to compose exact `U.Episteme` inputs into one knowledge aggregate while preserving provenance, conceptual fit, context, and the warrant each source actually contributes.
 

@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "G.0"
-pattern_title: "Frame Standard and Comparability Governance — CG‑Spec"
+pattern_title: "Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.0.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
-line_start: 110360
-line_end: 110704
+  - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
+line_start: 110785
+line_end: 111129
 dependencies:
   - "A.10"
   - "A.17"
@@ -43,14 +43,15 @@ keywords:
   - "RSCRTriggerKindId"
   - "ReferencePlane"
   - "ScaleComplianceProfile (SCP)"
-  - "admissibility gate"
+  - "admissible comparison and aggregation"
   - "edition pins"
+  - "evidence requirements"
   - "Γ-fold"
   - "Φ(CL)"
   - "Φ_plane"
 ---
 
-## G.0 - Frame Standard and Comparability Governance — CG‑Spec
+## G.0 - Define Admissible Comparison and Aggregation for a Frame (CG-Spec)
 
 **Tag.** Architectural pattern (foundational Standard; constrains G.1–G.5)
 **Stage.** *design-time* legality gate (establishes comparison legality & evidence minima; constrains run-time gates)
@@ -211,7 +212,7 @@ CG‑Spec :=
 | ------------------ | ------------------------------------ | -------------------------------------------------------------------------- |
 | **G.0‑1 Charter**  | CG‑Frame brief, USM scope signals    | `CG‑Spec.Scope`, `entityOfConcern`, `ReferenceMap`                         |
 | **G.0‑2 SCP**      | CHR pack refs (G.3), legality proofs | `CG‑Spec.SCP` + bindings to lawful operators/aggregators                   |
-| **G.0‑3 Evidence** | SoTA inputs (G.2), carriers (A.10)   | `CG‑Spec.MinimalEvidence`, `Γ‑fold` segment pins, `CL‑Routing`, `Φ` ids    |
+| **G.0‑3 Evidence** | SoTA inputs (G.2), source and carrier provenance account (A.10)   | `CG‑Spec.MinimalEvidence`, `Γ‑fold` segment pins, `CL‑Routing`, `Φ` ids    |
 | **G.0‑4 Publish**  | All above                            | Versioned `CG‑Spec@UTS` plus Name Cards, public-id continuity records, and RSCR tests and trigger kinds  |
 | **G.0‑5 Expose_CrossingHooks** | `CG‑Spec` + crossing/plane/policy pins | GateCrossing inputs for `GateChecks` (`E.18/A.21`): plane checks, lane purity, lexical SD pins |
 | **→ G.1**          | `CG‑Spec`                            | Generator guardrails (Comparator/SCP/MinEv pins); degrade/abstain wiring   |
@@ -306,7 +307,7 @@ All blocks below are `GPatternExtension` modules (PatternScopeId; not new Patter
 * pins the lawful comparator(s) (e.g., unit-aligned ratio comparisons only; ordinal comparisons are order-only),
 * declares `MinimalEvidence` lanes/carriers and freshness windows per characteristic,
 * declares explicit failure behavior wiring (tri-state semantics delegated to `G.Core`),
-* exposes crossing pins (bridge ids + CL/policy ids) when reuse across rigs is attempted,
+* exposes Bridge and bounded-use pins when reuse projects between different local meanings under A.19.CN/F.9; unit conversion within the declared comparison basis follows CN-Spec and SCP,
 * publishes the pinned editions so parity/refresh can detect drift.
 
 #### G.0:5.2 - Archetype 2: Epistemic comparability for selected-set publication across traditions
@@ -389,7 +390,7 @@ This pattern aligns with post‑2015 best practice in evaluation and governance 
 
 ### G.0:12 - Relations
 
-**Builds on:** `G.Core`, `A.19.CN (CN‑Spec)`, `A.10 (evidence carriers)`, `A.17–A.19 / C.16 (MM‑CHR legality)`, `A.18 (CSLC)`, `B.3 (trust / Γ‑fold family)`, `F.* (contexts, bridges, CL, UTS)`, `E.10 (lexical rules)`, `E.5.* (notation independence discipline)`.
+**Builds on:** `G.Core`, `A.19.CN (CN‑Spec)`, `A.10 (evidence-provenance account)`, `A.17–A.19 / C.16 (MM‑CHR legality)`, `A.18 (CSLC)`, `B.3 (trust / Γ‑fold family)`, `F.* (contexts, bridges, CL, UTS)`, `E.10 (lexical rules)`, `E.5.* (notation independence discipline)`.
 **Used by:** `G.1` (generator guards), `G.2` (harvesting constraints), `G.3` (required CHR), `G.4` (acceptance templates / proof hooks), `G.5` (eligibility gates), `G.6` (evidence/pin surfaces), and downstream parity/shipping/refresh where `CG‑Spec` is pinned.
 **Publishes to:** `UTS` (Name Cards + editioned `CG‑Spec` segments).
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
+pattern_title: "Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
 section_id: "F.5:11"
 section_title: "SoTA Decision for Precise, Readable Technical Names"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__013_sota-decision-for-precise-readable-technical-names.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
+  - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:11 — SoTA Decision for Precise, Readable Technical Names"
-line_start: 103657
-line_end: 103673
+line_start: 104063
+line_end: 104079
 dependencies:
   - "A.10"
   - "A.15"

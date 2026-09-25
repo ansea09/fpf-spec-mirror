@@ -6,12 +6,12 @@ section_id: "C.26:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 61039
-line_end: 61105
+line_start: 61245
+line_end: 61311
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Quantum-like as prestige word | The case is only complex, uncertain, nonlinear, discrete, or hard to measure. | Use ordinary FPF patterns. Admit QL only with a declared cue and payoff. |
-| Precautionary suppression | QL wording is rejected because it is unusual, while no ordinary FPF pattern has carried the residual false passive read, false export, false comparison frame, unsupported distributed-state reading, or single-metric viability mistake. | Name the ordinary FPF pattern that carries the residual claim. If no such pattern can be named, allow QL-lite at recognition or local-working support condition. |
+| Precautionary suppression | QL wording is rejected because it is unusual without testing the claimed contextual-model obstruction. | Recover the exact claim and apply its ordinary subject patterns. Retain QL-lite only if a named contextual-model obstruction survives and changes the admissible inference or action. If that comparison is unavailable, keep the proposed QL use unresolved; absence of a named ordinary pattern alone does not activate it. |
 | Physical overread | The text sounds as if organizations, services, or teams are physically quantum systems. | Cite inherited `QL-NQ`; rewrite the claim as mathematical or representational. |
 | Passive dashboard | A metric or score is used as a neutral fact after its publication or operational use changed behavior. | Use measurement and evidence patterns and, if needed, `C.26.1`. |
 | Faithful-copy export | A survey, report, API response, or context map is treated as the live state itself. | Use bridge/export loss, `C.26.2`, or ordinary publication patterns. |

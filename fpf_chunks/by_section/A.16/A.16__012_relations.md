@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16"
-pattern_title: "Language-State Move Coordination"
+pattern_title: "Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
 section_id: "A.16:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__012_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16 — Language-State Move Coordination"
+  - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:11 — Relations"
-line_start: 30667
-line_end: 30672
+line_start: 30576
+line_end: 30581
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -43,15 +43,14 @@ dependencies:
   - "E.10.MOVE"
   - "E.11.PUR"
   - "E.18"
+  - "E.18.2"
   - "E.24.PUB"
   - "F.6"
 keywords:
-  - "admissible language-state move"
   - "language-state"
   - "move"
   - "reopen"
   - "respecify"
-  - "responsibility transfer"
   - "retire"
   - "sketch-backoff"
 ---
@@ -59,6 +58,6 @@ keywords:
 ### A.16:11 - Relations
 
 - **Builds on:** `C.2.1` for episteme identity; `C.2.2a` for language-state positions; `C.2.LS` for facet profiles; `C.2.4` for articulation, `C.2.5` for closure, `C.2.6` for anchoring, and `C.2.7` for representation-factor readings; `A.18` for Scale semantics; and `A.19` for CharacteristicSpace and Coordinate semantics.
-- **Coordinates with:** `A.16.0` for accountable trajectories; `A.16.1` for early preservation; `A.16.2` for retreat and respecification; `B.4.1` for route publication; `B.5.2.0` for abductive prompting; `A.6.P`, `A.6.A`, `C.16.Q`, and `C.25` for endpoint-local questions; `E.11.PUR`, `A.15.5`, `A.15.1`, and `A.15.2` for non-A.16 move wording and project action; `E.24.PUB` for bounded publication availability; `E.18` for graph publication; and `E.10.MOVE` when source wording does not mean this local move.
+- **Coordinates with:** `A.16.0` for accountable trajectories; `A.16.1` for early preservation; `A.16.2` for retreat and respecification; `B.4.1` for route publication; `B.5.2.0` for abductive prompting; `A.6.P`, `A.6.A`, `C.16.Q`, and `C.25` for endpoint-local questions; `E.11.PUR`, `A.15.5`, `A.15.1`, and `A.15.2` for non-A.16 move wording and project action; `E.24.PUB` for bounded publication availability; `E.18` for an independently selected TransformationFlowStructure and `E.18.2` for its mathematical description; and `E.10.MOVE` when source wording does not mean this local move.
 - **Constrained by:** A.2/A.2.1 and the applicable deontic or authority pattern for any actual relation change; A.13 followed by independent A.15.1 for precise performed Work, F.6 only afterward when precise assignment-bound attribution is current, A.15.PROD for production or inception, and the applicable domain predicate for result claims.
 

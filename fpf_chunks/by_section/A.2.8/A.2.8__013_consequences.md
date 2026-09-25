@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.8"
-pattern_title: "U.Commitment (Deontic Commitment Relation)"
+pattern_title: "U.Commitment — Individual Duties to Act or Refrain"
 section_id: "A.2.8:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__013_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
+  - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:10 — Consequences"
-line_start: 7348
-line_end: 7363
+line_start: 7317
+line_end: 7332
 dependencies:
   - "A.10"
   - "A.15.1"

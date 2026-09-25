@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.9"
-pattern_title: "U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
+pattern_title: "U.SpeechAct — Communicative Work and Its Intended Use"
 section_id: "A.2.9:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__012_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
+  - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:9 — Consequences"
-line_start: 8055
-line_end: 8069
+line_start: 8024
+line_end: 8038
 dependencies:
   - "A.10"
   - "A.13"

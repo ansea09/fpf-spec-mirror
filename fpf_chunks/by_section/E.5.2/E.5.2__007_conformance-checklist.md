@@ -6,12 +6,12 @@ section_id: "E.5.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__007_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:6 — Conformance Checklist"
-line_start: 81565
-line_end: 81573
+line_start: 81890
+line_end: 81898
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"
@@ -19,13 +19,6 @@ dependencies:
   - "C.37"
   - "E.5"
 keywords:
-  - "BPMN"
-  - "UML"
-  - "diagram"
-  - "notation"
-  - "semantics"
-  - "syntax"
-  - "tool-agnostic"
 ---
 
 ### E.5.2:6 - Conformance Checklist

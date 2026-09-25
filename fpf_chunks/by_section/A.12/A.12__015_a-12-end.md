@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.12"
-pattern_title: "Acting-Side Externalization and Reflexive Split"
+pattern_title: "Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
 section_id: "A.12:End"
 section_title: "A.12:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__015_a-12-end.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.12 — Acting-Side Externalization and Reflexive Split"
+  - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:End — A.12:End"
-line_start: 25669
-line_end: 25670
+line_start: 25556
+line_end: 25557
 dependencies:
   - "A.1"
   - "A.1.1"

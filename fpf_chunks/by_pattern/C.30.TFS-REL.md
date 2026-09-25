@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "C.30.TFS-REL"
-pattern_title: "Architecture Transformation-Flow Structure Relation"
+pattern_title: "Use Transformation-Flow Structures and Networks in Architecture"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.TFS-REL.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
-line_start: 69598
-line_end: 70013
+  - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
+line_start: 69810
+line_end: 70225
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,9 +49,18 @@ dependencies:
   - "F.18"
   - "G.6"
 keywords:
+  - "ArchitectureTransformationFlowStructureRelation"
+  - "TFS"
+  - "architecture use"
+  - "crossing"
+  - "flow valuation"
+  - "functional view"
+  - "path"
+  - "transformation-flow structure"
+  - "transformation-flow structure network"
 ---
 
-## C.30.TFS-REL - Architecture Transformation-Flow Structure Relation
+## C.30.TFS-REL - Use Transformation-Flow Structures and Networks in Architecture
 
 > **Type:** Architectural pattern
 > **Status:** Stable
@@ -250,7 +259,7 @@ When several transformation-flow variants are kept or compared as candidate arch
 | --- | --- |
 | Work occurrence or work result | `A.15.1` for the occurrence; `A.15` for Method/Work alignment; the governing work-result or P2W relation for those claims |
 | Gate decision | `A.21` |
-| Evidence claim | `A.10` or `G.6` |
+| Evidence claim | `A.10` for source recovery and bounded reliance; `G.6` for an addressable provenance path; the applicable subject rule to judge whether the evidence supports the named claim or meets the named requirement |
 | Assurance claim | `B.3` |
 | Causal flow or intervention claim | `C.28` |
 | Mathematical-lens use | `C.29` |
@@ -410,7 +419,7 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | **CC-C30TFR-4b Named characteristic bearer and representation boundary.** | Every architecture characteristic claimed or used remains on an exact named holon, actual architecture relation, selected structure, view/description episteme, bounded claim, or other governed bearer; no graph, representation, mathematical description, publication, or network record becomes that bearer merely by presenting it. | Name the exact bearer under C.30 or its direct owner; demote the visible object to representation, description, or publication use. |
 | **CC-C30TFR-4c Member-local, unfolding, and row-reference boundary.** | Every path, slice, crossing, valuation, required effect, or actual transformation named with a network remains bound to its exact owning member TFS and local positions, participants, or bindings; a network-aware unfolding selects the same network through its E.18.3 locator; every `NetworkCrossFlowRelationRowRef` resolves exactly one row in a current record for that network without replacing the obtaining relation occurrence. | Restore the member-local binding or network-locator match; repair or remove a row locator that resolves zero or several rows or points to another network; keep occurrence truth with its direct governor. |
 | **CC-C30TFR-5 Work boundary.** | Establish any Work occurrence through A.15.1 and any work-result claim through its governing predicate. | Keep the selected TFS, network, path, or slice as the flow-structure reference used by that claim; use A.15 for Method/Work alignment. |
-| **CC-C30TFR-6 Evidence, assurance, and gate boundary.** | Establish any evidence-sufficiency, assurance, internal-constraint, gate-decision, or release-permission claim through its direct governing application and result. | Apply A.10 or G.6 for evidence, B.3 for assurance, A.20 for an internal-constraint result, A.21 for a named gate decision, or the direct domain pattern for the particular release, admissibility, or approval claim. |
+| **CC-C30TFR-6 Evidence, assurance, and gate boundary.** | Establish any evidence-sufficiency, assurance, internal-constraint, gate-decision, or release-permission claim through its direct governing application and result. | Apply A.10 for source recovery and bounded reliance, G.6 for an addressable provenance path, and the applicable subject rule for evidence sufficiency; use B.3 for assurance, A.20 for an internal-constraint result, A.21 for a named gate decision, or the direct domain pattern for the particular release, admissibility, or approval claim. |
 | **CC-C30TFR-7 Causal and mathematical boundaries.** | Causal or intervention claims and mathematical-lens claims are assigned to C.28 and C.29. | Apply those governing patterns or narrow the record's admissible use. |
 | **CC-C30TFR-8 Pin and scalarization boundary.** | Edition, context, and plane pins plus no-hidden-scalarization claims remain E.18-governed. | Add E.18 pin and set-return references or remove the comparison or selection claim. |
 | **CC-C30TFR-9 Hidden relation return.** | Extracted, generated, coarsened, or partial relation graphs or flow diagrams state the source publication or edition, extraction or probe locus, relation observation class, unexplored regions, and hidden relation-structure return condition when hidden distinctions affect action. | Add the missing relation-structure fields or narrow the admissible use. |

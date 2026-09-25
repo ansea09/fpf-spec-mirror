@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.3"
-pattern_title: "KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
+pattern_title: "KindBridge and CL^k — Correspondence between Distinct Kinds"
 section_id: "C.3.3:5"
 section_title: "Solution — Compare Identity, Then Relate Distinct Kinds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__006_solution-compare-identity-then-relate-distinct-kinds.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
+  - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:5 — Solution — Compare Identity, Then Relate Distinct Kinds"
-line_start: 51333
-line_end: 51345
+line_start: 51476
+line_end: 51488
 dependencies:
   - "A.2.6"
   - "A.6.REL"

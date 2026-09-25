@@ -6,12 +6,12 @@ section_id: "E.11:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__012_sota-echoing.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:11 — SoTA-Echoing"
-line_start: 87905
-line_end: 87926
+line_start: 88248
+line_end: 88271
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -28,6 +28,8 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
+  - "query cues"
+  - "status and relevant dependencies support the choice"
 ---
 
 ### E.11:11 - SoTA-Echoing
@@ -51,4 +53,6 @@ The serious alternative is familiar-title or ranked-result lookup with a short t
 [Zhu, Reinecke, and Mitra, *Language Scent: Exploring Cross-Language Information Navigation*, arXiv:2604.03604v2](https://arxiv.org/html/2604.03604v2), supplies bounded evidence for considering such proximal cues: its multilingual system exposes information value and interpretation cues, and its lab study involved 16 English–Chinese speakers. It does not compare FPF names or establish that two labels have the same referent. **Adapt as a local probe:** `E.11:4.1.1`, `4.1.2`, and `4.5.1` test recognizable wording against the direct result; `E11-9/10/11` keep cue, entry, and direct content distinct. Reopen if a shorter label works equally well for the actual readers, if the cue invites the wrong result, or if stronger evidence changes the transfer from multilingual navigation. No universal benefit from contextual wording is inferred.
 
 For a cross-DPF entry, `E.11.DSG` supplies the direct four-return, exact-source, and known-DPF-bypass rules used in `E.11:4` and `E11-13`. These are semantic inputs to the entry, not another competing navigation theory: Suite membership follows E.4's inclusion rules, a reader or assisting System performs lookup Work, and cross-DPF entry requires no Suite edition. E.8, E.17, F.17, F.18, and E.11.PUA retain their direct authoring, publication, naming, and pattern-use functions. Reopen the affected entry when those direct results or boundaries change; use `G.11` only when a currentness or telemetry question is actually current.
+
+**Retrieval-exposure question.** Which part of a publication can help an assistant find the needed pattern? The selected line makes the actual indexed and returned context explicit. A title-only change cannot repair a passage whose retrieval representation omits that title. **Adapt:** §4.6.1 separates heading, row, body-window and fragment comparisons. [Anthropic's Contextual Retrieval](https://www.anthropic.com/engineering/contextual-retrieval) (2024) supplies a concrete context-enrichment alternative; [Conti et al., Context is Gold to find the Gold Passage](https://aclanthology.org/2025.emnlp-main.1150/) (EMNLP 2025) supplies context-dependent retrieval evaluation and contextual embedding training. These interventions differ from title revision and provide no effect estimate for it. Keep the cheaper existing cue when it suffices; reopen when the consuming system changes its fields, chunking or context, or when the changed cue repeatedly selects the wrong body.
 

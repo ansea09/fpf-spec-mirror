@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.2"
-pattern_title: "U.WorkPlan"
+pattern_title: "U.WorkPlan: Plan Content for Coordinating Future Work"
 section_id: "A.15.2:6"
 section_title: "Archetypal grounding (parallel domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__007_archetypal-grounding-parallel-domains.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.15.2 — U.WorkPlan"
+  - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:6 — Archetypal grounding (parallel domains)"
-line_start: 27371
-line_end: 27409
+line_start: 27260
+line_end: 27298
 dependencies:
   - "A.10"
   - "A.15"

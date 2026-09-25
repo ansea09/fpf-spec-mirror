@@ -6,12 +6,12 @@ section_id: "A.20:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__007_worked-cases.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:5 — Worked cases"
-line_start: 37081
-line_end: 37096
+line_start: 37025
+line_end: 37040
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,7 +33,7 @@ keywords:
 
 #### A.20:5.1 - Satisfied unit-conversion constraint
 
-`TemperatureConversion-7` converts a Celsius input to kelvin. The named constraint says that the output must equal the input plus 273.15 K and must remain at or above 0 K. It is required for this use. For input 25 °C, the test obtains 298.15 K and a non-negative result, so the outcome is `satisfied`. The witness records the input, formula edition, output, and test result for this evaluation window.
+`TemperatureConversion-7` converts a Celsius input to kelvin. For the numerical Celsius value `c` and numerical kelvin value `k`, the named constraint requires `k = c + 273.15` and `k >= 0`; the corresponding temperature is `k K`. It is required for this use. For input 25 °C, the test obtains 298.15 K and a non-negative result, so the outcome is `satisfied`. The witness records the input, formula edition, output, and test result for this evaluation window.
 
 The local summary is `satisfied` because this is the complete required set for the stated case. That result does not say that a release gate passed or that conversion Work occurred.
 

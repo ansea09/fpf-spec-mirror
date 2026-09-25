@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.22.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
-line_start: 98755
-line_end: 99110
+line_start: 99157
+line_end: 99512
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -187,7 +187,7 @@ QualityEvaluationQuestionFrame <: U.Episteme:
   desiredImprovementAimDescriptionRef?: U.EpistemeRef, referencing one desired-improvement-aim description
   tradeoffProtectionSet: TradeoffProtectionSet@Context by value
   evaluationQualificationWindowDescriptionRef: U.EpistemeRef, referencing one EvaluationQualificationWindow description
-  nonUseBoundaryDescriptionRef: U.EpistemeRef, referencing one non-use-boundary description
+  nonUseBoundaryDescriptionRef?: U.EpistemeRef, referencing a non-use-boundary description only when the grounded condition in CC-E22-6 holds
 ```
 
 The frame's exact object version, characteristic space, predicate/comparator binding, ClaimScope, and qualification window equal those of its use declaration and expected evidence basis. These bindings make the question replayable; they do not reidentify the space, predicate, comparator, scope, method, or consuming object. A changed binding creates a changed frame edition and requires a newly evaluated result.

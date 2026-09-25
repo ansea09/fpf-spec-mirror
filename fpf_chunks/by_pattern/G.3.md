@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.3.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
-line_start: 111650
-line_end: 112103
+line_start: 112082
+line_end: 112535
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -342,7 +342,7 @@ All blocks below are `GPatternExtension` modules (PatternScopeId-scoped; **not**
   * `BridgeMatrixId?` (when terms/constructs are imported across traditions)
   * `UTSRowId[]` drafts/aliases from synthesis
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EvidenceSurfaceEdit, RSCRTriggerKindId.TokenizationOrNameChange, RSCRTriggerKindId.CrossingBundleEdit}`
-* **Notes (wiring‑only):** SoTA pluralism inputs are governed by `G.2`; this module only specifies which synthesis artefacts are cited while authoring CHR.
+* **Notes (wiring‑only):** SoTA pluralism inputs are governed by `G.2`; this module only specifies which synthesis artefacts are cited while authoring CHR. When CHR authoring relies on pack coverage, cite the same `CoverageJudgementRef` and HarvestPolicy basis, retaining the counted population and receiving question. CHR terms or cards do not redefine the counted family unit; lineage plurality remains a separate result.
 
 **GPatternExtension: CGSpecPromotionWiring**
 
@@ -402,7 +402,7 @@ All blocks below are `GPatternExtension` modules (PatternScopeId-scoped; **not**
 
   * `DescriptorMapRef.edition` *(if any Characteristic declares descriptor roles)*
   * `DistanceDefRef.edition` *(if any Characteristic declares distance roles)*
-  * `DHCMethodRef.edition` *(if any Characteristic is used as Q / QD-score)*
+  * `DHCMethodRef.edition?` *(when a C.21 discipline-health measurement definition is actually used; a Q / QD-score role alone does not select it)*
   * `InsertionPolicyRef?` *(when archive insertion semantics are declared for reproducibility)*
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.FreshnessOrDecayEvent}`
 * **Notes (wiring‑only):** QD/OEE semantics are governed by `C.18 and C.19`. CHR only surfaces method‑role declarations
@@ -414,7 +414,7 @@ All blocks below are `GPatternExtension` modules (PatternScopeId-scoped; **not**
 *System:* a CG‑Frame for evaluating deployed classifiers across cohorts with explicit abstention/defer behavior.
 *CHR authoring:* publish `DemographicParityGap` and `EqualizedOddsGap` as Characteristics with:
 
-* explicit ReferencePlane (deployment population + sampling regime),
+* explicit ReferencePlane, with deployment population and sampling regime recorded separately as scope and protocol conditions,
 * `ObservableOf` (audit protocol + uncertainty model + window),
 * interval scale (bounded; zero semantics explicit),
 * missingness semantics (cohort sparsity and label noise are typed),

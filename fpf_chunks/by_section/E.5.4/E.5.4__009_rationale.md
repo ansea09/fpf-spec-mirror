@@ -6,23 +6,16 @@ section_id: "E.5.4:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__009_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:8 — Rationale"
-line_start: 81756
-line_end: 81762
+line_start: 82081
+line_end: 82087
 dependencies:
   - "E.3"
   - "E.5"
 keywords:
-  - "audit"
-  - "bias"
-  - "ethics"
-  - "fairness"
-  - "neutrality"
-  - "review"
-  - "trans-disciplinary"
 ---
 
 ### E.5.4:8 - Rationale

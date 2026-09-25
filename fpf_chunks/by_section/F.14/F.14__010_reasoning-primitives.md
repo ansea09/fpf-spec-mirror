@@ -6,12 +6,12 @@ section_id: "F.14:9"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__010_reasoning-primitives.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:9 — Reasoning primitives"
-line_start: 106751
-line_end: 106784
+line_start: 107167
+line_end: 107194
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,10 +60,7 @@ existingDesignationOrLocalExpression(v, u) is sufficient
   -> stop; do not mint NameCard, SenseCell, row, or name family.
 ```
 
-```text
-systemRoleKindBundleRelation(K1, K2) obtains
-  -> not(newSystemRoleKind(K1K2)).
-```
+An obtaining `systemRoleKindBundleRelation(K1, K2)` does not by itself establish a new `K1K2` system-role kind. Any such kind requires independent admission under A.2 with C.3.
 
 ```text
 statusVariant(S, windowOrValue)
@@ -75,10 +72,7 @@ differentLocalSenseProjections(c1, c2)
   -> test F.9 only for a named correspondence use; not(Bridge(c1,c2)) by difference alone.
 ```
 
-```text
-namingObjectPresent(x)
-  -> not(governedValueExists) and not(nextNamingObjectRequired).
-```
+The presence of a naming object establishes neither that its governed value exists nor that another naming object is required. Recover the value independently and test the next object's own receiving-use condition.
 
 These are stopping and dispatch rules. They create no values or relation occurrences.
 

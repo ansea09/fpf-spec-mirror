@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "D.1"
-pattern_title: "Ethical Value Plurality and FPF Boundary"
+pattern_title: "Clarify an Ethical Claim's Value Basis (Value Plurality)"
 section_id: "D.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "D.1 — Ethical Value Plurality and FPF Boundary"
+  - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:intro — Intro"
-line_start: 77270
-line_end: 77286
+line_start: 77495
+line_end: 77511
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -31,7 +31,7 @@ dependencies:
 keywords:
 ---
 
-## D.1 - Ethical Value Plurality and FPF Boundary
+## D.1 - Clarify an Ethical Claim's Value Basis (Value Plurality)
 
 > **Type:** D-family ethical boundary pattern
 > **Status:** Stable

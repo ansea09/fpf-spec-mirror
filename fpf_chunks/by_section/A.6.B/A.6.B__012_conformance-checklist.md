@@ -6,12 +6,12 @@ section_id: "A.6.B:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__012_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:10 — Conformance Checklist"
-line_start: 12819
-line_end: 12830
+line_start: 12775
+line_end: 12786
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -44,7 +44,6 @@ keywords:
   - "MAY"
   - "MUST"
   - "MUST NOT"
-  - "MUST NOT hide a gate predicate (that is A-)"
   - "SHALL"
   - "SHOULD"
   - "SHOULD NOT"
@@ -53,7 +52,6 @@ keywords:
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
-  - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
   - "and evaluated results distinct"
   - "and should in explanatory prose is descriptive"
@@ -77,6 +75,7 @@ keywords:
   - "or MAY) as operators inside the law or definition itself"
   - "or observation that settles it and any evidence used for reliance"
   - "responsibility"
+  - "then establish the E result under its own predicate"
   - "they report adjudicable results rather than obligations"
   - "“commits to”)"
   - "“is admissible”"
@@ -94,5 +93,5 @@ keywords:
 | **CC‑A.6.B.4 (Explicit references).**    | Where a claim depends on another L/A/D/E-classified claim, that dependency **MUST** be expressed by explicit ID or canonical-location reference rather than restating the other claim in new words.                                                | Prevents paraphrase drift across layers and faces.           |
 | **CC‑A.6.B.5 (E‑claim adjudicability).** | Each `E-*` claim names its exact predicate and object plus the actual work, evaluation, or observation, scope/window, comparison frame, and other conditions required to settle that predicate. It adds an evidence/source-use relation, carrier/schema, viewpoint, and consumer only when the receiving reliance decision depends on that support. | Makes work-effects adjudicable without forcing unrelated carrier apparatus into every result claim. |
 | **CC‑A.6.B.6 (No gate smuggling).**      | Operational admissibility predicates **MUST NOT** appear as `L-*` laws in the signature layer; they **MUST** be `A-*` claims in the mechanism layer.                                                             | Preserves substitution and signature stability.          |
-| **CC‑A.6.B.7 (No upward dependencies).** | `L-*` claims **MUST NOT** reference `A-*`, `D-*`, or `E-*`, except for purely informative notes explicitly marked informative; `A-*` and `E-*` claims **MUST NOT** reference `D-*`. These are cross-quadrant restrictions under §6.4.                                                                                                   | Preserves layering and prevents hidden coupling.         |
+| **CC‑A.6.B.7 (No upward dependencies).** | `L-*` claims **MUST NOT** reference `A-*`, `D-*`, or `E-*`, except for purely informative notes explicitly marked informative; `A-*` claims **MUST NOT** reference `D-*`. An `E-*` reference to `D-*` **MUST** meet §6.4's evidence-target or evaluation-input rule and **MUST NOT** treat the D claim alone as an E result. | Keeps laws and gates independent while permitting evidence about normative claims. |
 

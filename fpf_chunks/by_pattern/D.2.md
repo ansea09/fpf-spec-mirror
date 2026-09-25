@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "D.2"
-pattern_title: "Multilevel Ethics For Holon Work"
+pattern_title: "Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.2.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "D.2 — Multilevel Ethics For Holon Work"
-line_start: 77424
-line_end: 77584
+  - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
+line_start: 77649
+line_end: 77809
 dependencies:
   - "A.1"
   - "A.15"
@@ -28,11 +28,11 @@ dependencies:
 keywords:
 ---
 
-## D.2 - Multilevel Ethics For Holon Work
+## D.2 - Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)
 
 > **Type:** D-family ethical entry pattern
 > **Status:** Stable
-> **Pattern role:** This compact MethodDescription helps a practitioner recognize multilevel ethical concern and identify the next exact subject assertion and predicate; it does not settle conflict or supply a fixed level ladder.
+> **Pattern role:** This compact pattern helps a practitioner recognize multilevel ethical concern and identify the next exact subject assertion and predicate; it does not settle conflict or supply a fixed level ladder.
 
 **Use this when.** Use this pattern when a system, holon, method, work plan, work occurrence, policy, recommendation, architecture move, or publication use may improve one declared level or scope while harming another, or when responsibility is assigned across levels.
 

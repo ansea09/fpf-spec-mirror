@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.11"
-pattern_title: "Method Quartet Harmonisation"
+pattern_title: "Distinguish Method, MethodDescription, Work and Outputs"
 section_id: "F.11:7"
 section_title: "Source-local harmonisation map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__008_source-local-harmonisation-map.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.11 — Method Quartet Harmonisation"
+  - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:7 — Source-local harmonisation map"
-line_start: 105902
-line_end: 105913
+line_start: 106322
+line_end: 106333
 dependencies:
   - "A.15"
   - "A.15.1"

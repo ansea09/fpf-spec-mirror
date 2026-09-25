@@ -6,12 +6,12 @@ section_id: "C.32.P2S:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__011_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:10 — Rationale"
-line_start: 71790
-line_end: 71797
+line_start: 72009
+line_end: 72016
 dependencies:
   - "A.1"
   - "A.1.SCR"

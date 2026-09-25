@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.10"
-pattern_title: "Status Families Mapping: Evidence, Standard, and Requirement Status"
+pattern_title: "Apply and Interpret Evidence, Standard and Requirement Statuses"
 section_id: "F.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
+  - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:1 — Problem frame"
-line_start: 105520
-line_end: 105535
+line_start: 105940
+line_end: 105955
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -29,12 +29,16 @@ dependencies:
   - "G.11"
   - "G.6"
 keywords:
-  - "applicability windows"
-  - "evidence"
-  - "polarity"
-  - "requirement"
-  - "standard"
-  - "status"
+  - "EvidenceStatus"
+  - "RequirementStatus"
+  - "StandardStatus"
+  - "direct result"
+  - "governed target"
+  - "interpretation rule"
+  - "scope"
+  - "status families"
+  - "status value"
+  - "window"
 ---
 
 ### F.10:1 - Problem frame
@@ -45,7 +49,7 @@ Use it especially when evidence, standards, and requirements are being mixed: a 
 
 **Primary EntityOfConcern.** The live object is one exact status-use relation around an already governed bearer or target, one local status value, one ClaimScope/use scope, one validity window, and one intended receiving use. F.10 does not define or create the target and does not turn a display, source, list membership, approval act, evaluation rule, result, or evidence item into the status-use relation.
 
-**First useful move.** Recover the exact target and its direct domain result first. Then name the status-value SchemeSenseCell and family under the effective ReferenceScheme, status scope/window, exact source and provenance/currentness constraints, intended use, and stronger use not carried. If a rule must be applied, name the dated evaluation work, rule application, and result separately.
+**First useful move.** Recover the exact target and its direct domain result first. Then name the status-value SchemeSenseCell and family under the effective ReferenceScheme, status scope/window, exact source and provenance/currentness constraints, intended use, and stronger use not carried. Recover the rule application and result when they are used. Identify dated evaluation Work separately only when that history is current and independently admitted under A.13/A.15.1.
 
 **What goes wrong if missed.** One compact word does the work of domain result, evidence standing, standard approval, requirement satisfaction, gate passage, release readiness, permission, and assurance at once. A dashboard list or traffic-light cell is treated as actual status use. An F.9 Bridge or family edge is treated as the explanation or evaluation rule. Design approval becomes runtime satisfaction.
 

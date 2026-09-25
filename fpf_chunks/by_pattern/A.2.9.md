@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.2.9"
-pattern_title: "U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
+pattern_title: "U.SpeechAct — Communicative Work and Its Intended Use"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.9.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
-line_start: 7700
-line_end: 8099
+  - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
+line_start: 7669
+line_end: 8068
 dependencies:
   - "A.10"
   - "A.13"
@@ -43,7 +43,7 @@ keywords:
   - "utterance description"
 ---
 
-## A.2.9 — `U.SpeechAct` (Communicative Work Kind, Occurrences, and Records)
+## A.2.9 — `U.SpeechAct` — Communicative Work and Its Intended Use
 
 > **Status:** Stable
 > **Type:** Definitional work-ontic pattern

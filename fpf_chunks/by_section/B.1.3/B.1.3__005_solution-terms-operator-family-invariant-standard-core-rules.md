@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.3"
-pattern_title: "Γ_epist - Knowledge‑Specific Aggregation"
+pattern_title: "Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
 section_id: "B.1.3:4"
 section_title: "Solution — Terms, operator family, invariant Standard, core rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__005_solution-terms-operator-family-invariant-standard-core-rules.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
+  - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:4 — Solution — Terms, operator family, invariant Standard, core rules"
-line_start: 39034
-line_end: 39149
+line_start: 38964
+line_end: 39079
 dependencies:
   - "A.1"
   - "A.10"
@@ -22,6 +22,7 @@ dependencies:
   - "A.15.1"
   - "A.15.PROD"
   - "A.6.1"
+  - "A.7"
   - "B.1"
   - "B.1.1"
   - "B.1.4"
@@ -38,11 +39,6 @@ dependencies:
   - "F.9"
   - "U.Work"
 keywords:
-  - "KD-CAL"
-  - "epistemic"
-  - "knowledge aggregation"
-  - "provenance"
-  - "trust"
 ---
 
 ### B.1.3:4 - Solution — **Terms, operator family, invariant Standard, core rules**
@@ -50,7 +46,7 @@ keywords:
 #### B.1.3:4.1 - Terms (didactic recap)
 
 * **U.Episteme** — a claim-bearing knowledge holon. C.2.1 identifies it through the participant-determined `EpistemeConstitutionRelation` over `<claim content, exact EntityOfConcern, effective ReferenceScheme>`. `ClaimGraphSlot`, `EntityOfConcernSlot`, and `ReferenceSchemeSlot` name participant meanings only inside that relation's reusable declaration; they are not internal slots of the episteme. Empirical grounding uses the separate `EpistemeEmpiricalGroundingRelation`, while text, code, figures, datasets, SCR/RSCR references, publication forms, and presentation carriers remain separately governed provenance, representation, publication, or carrier material.
-* **Evidence/Provenance Graph** — edges like **evidences**, **derivesFrom**, **usesMethod**, **isMeasuredBy** with anchors (A.10).
+* **Evidence/Provenance Graph** — an A.10 descriptive account whose edges cite independently established direct support, source, measurement or use relations. Display labels such as `evidences` do not create generic relation kinds.
 * **Semantic mapping** — the exact correspondence rule used by this composition. When it crosses semantic contexts, identify the source and receiving F.17 `SchemeSenseCell` values and an obtaining F.9 `Bridge`; keep the proposed use, direction, use-specific rule, permitted loss, reliance, and **CL** evidence summary separate. F.9 does not require CL for every Bridge; B.1.3 requires the summary for a mapping used in its support account. CL alone neither grants the use nor supplies a numerical penalty.
 * **SCR** — a `U.SCR` that lists all symbol carriers included in the aggregate; **never dropped**.
 * **Semantic context** — Plain shorthand for the local interpretation basis recovered from one exact F.17 `SchemeSenseCell` as `<ReferenceScheme, LocalSenseClaim>`. It is not another operation argument or entity. Crossing between two such contexts uses F.9 and the separate bounded-use and reliance steps above.
@@ -90,7 +86,7 @@ If the knowledge fold explicitly depends on **argument order** (for example, a d
 
 #### B.1.3:4.3 - Invariant Standard (how the Quintet applies)
 
-* **IDEM (Idempotence).** Folding a single episteme without a change of claim or scheme returns itself. Repeating the same source or data creates no additional evidence or accidental assurance upgrade.
+* **IDEM (singleton identity and source-repetition discipline).** Folding a single episteme without a change of claim or scheme returns itself. Repeating the same source or data creates no additional evidence or accidental assurance upgrade.
 * **COMM/LOC (Local commutativity / locality).** Reordering genuinely independent contributions does not change a result under its declared model. A derivation or other order-dependent argument uses **Γ_ctx**; source order does not establish statistical independence.
 * **WLNK (Weakest-link bound).** An unsupported indispensable premise limits the conclusion that needs it. A numerical minimum is appropriate only when the named quantity and dependency model justify a bottleneck or lower-bound interpretation. WLNK does not impose minimum over every cited source or every argument.
 * **MONO (Monotonicity).** A monotonicity claim names the support change and the model under which it holds. Duplicate data, a contrary result, a changed target population, or the failure of a necessary assumption is not simply “more support”.
@@ -137,11 +133,11 @@ When computing **Γ_epist^synth(D_know)**:
 * For an **axiomatic** input, empirical R may be N/A. Keep the proof, its conclusion under the stated axioms, and its formal validity; `line=formal` is a useful tag, not a conversion rule. **Do not set R to F.** An ordinal F-derived proxy describes only its declared ordinal meaning. Any value proposed for an R calculation needs a receiving model establishing meaning, scale, conversion, and assumptions; rescaling F into [0,1] is insufficient.
 * For a **postulative** input, retain its actual warrant and empirical or other support as applicable. Apply a B.3.4 currentness or decay policy only to the support whose use consumes that policy; changing the mode creates neither evidence nor a conversion model.
 * The aggregate declares its mode. If all its operative inputs are axiomatic, it is axiomatic; if an operative input is postulative, it is postulative. Keep any formal subclaim separately usable. A proof about a model supports a claim about a real system only with the needed model-to-world assumptions; evidence violating those assumptions remains visible.
-* **Constructive note.** Under **F-constructive**, equivalence claims use **isomorphism/equivalence** in the chosen UF library; **CL=2** means proof-reconstructed alignment, not mere model-theoretic appeal.
+* **Constructive derivations.** State the chosen proof basis and the correspondence needed by the conclusion. An induction proof may use its stated non-UF foundation. A UF-based equivalence claim supplies the required equivalence or isomorphism witness and the structure that the receiving theorem needs preserved. A lossy mapping cannot transport a theorem that depends on an erased distinction. If the required proof basis or correspondence is unavailable, leave that inference unresolved while retaining independently supported conclusions. A CL summary describes mapping evidence; it establishes neither equivalence nor theorem transport.
 
 **8. Order-aware arguments (optional).**
    If the argument requires premise ordering, embed a **Γ\_ctx** fold inside Γ\_epist; record the **OrderSpec** for reproducibility (NC‑1..3).
-   **Gating:** OrderSpec is **recommended** at **M‑1** and **required** at **M‑2/F**.  # [M‑1→F]
+   **Condition:** state the `OrderSpec` whenever the conclusion depends on premise or derivation order; use B.1.4 for the bounded aggregation of those recovered order relations. No unspecified maturity level determines this requirement.
 
 **9. No costs here.**
    Any compute/collection effort is **Γ\_work**; attach references but do not mix costs into epistemic aggregation.

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.3"
-pattern_title: "KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
+pattern_title: "KindBridge and CL^k — Correspondence between Distinct Kinds"
 section_id: "C.3.3:1"
 section_title: "Purpose and Audience"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__002_purpose-and-audience.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
+  - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:1 — Purpose and Audience"
-line_start: 51306
-line_end: 51309
+line_start: 51449
+line_end: 51452
 dependencies:
   - "A.2.6"
   - "A.6.REL"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.5.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
-line_start: 28300
-line_end: 28517
+line_start: 28189
+line_end: 28406
 dependencies:
   - "A.10"
   - "A.15"
@@ -111,7 +111,7 @@ The local value family is:
 - `ready` — every input required by C is determined and satisfies C for V;
 - `readyWithKnownGaps` — C explicitly admits the named gaps for this exact bounded use, every non-waived input is determined and satisfied, and V plus the stop condition expose the remaining risk;
 - `notReady` — an applicable failure or closure condition in C is determined for this case; and
-- `unknown` — one required fact, currentness result, predicate, or applicability basis cannot be determined. Absence of an assertion or persisted episteme is not by itself `notReady`.
+- `unknown` — one required fact, currentness result, predicate, or applicability basis cannot be determined, and no already determined applicable failure or closure condition settles the result as `notReady`. Absence of an assertion or persisted episteme is not by itself `notReady`.
 
 When the answer must persist, one C.2.1 result episteme states this complete local claim. Its exact `EntityOfConcern` is P; its ClaimGraph names J, I, C, W, R, evaluated input facts, evaluation time, V, and the stop or recheck condition under one effective `U.ReferenceScheme`. C.2.1 supplies episteme identity. A.15.5 adds no second readiness identity, independent readiness U-kind, or default readiness relation occurrence. If repeated predicate semantics are needed, use A.6.RCD's reusable-predicate branch; open relation-kind admission only for a named receiver that must distinguish readiness occurrences as such.
 

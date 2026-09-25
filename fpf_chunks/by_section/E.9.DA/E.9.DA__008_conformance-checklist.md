@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.9.DA"
-pattern_title: "DRR Decision-Adequacy Evaluation CharacteristicSpace"
+pattern_title: "Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
 section_id: "E.9.DA:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__008_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
+  - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:7 — Conformance checklist"
-line_start: 83579
-line_end: 83601
+line_start: 83898
+line_end: 83920
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -31,7 +31,7 @@ keywords:
 |---|---|
 | `CC-E9DA-0` | Make the semantic judgement first. For an ordinary bounded review, name the exact DRR, required authoring use and source, effective floor and source, substantive findings, repaired text or unchanged checked DRR when clean, first action or repair, stop or return, and reopen. Add a non-use boundary only when an independently grounded competing reading is plausible and action-changing; do not require a formal dossier. |
 | `CC-E9DA-0a` | When a broad language, ontology, or authoring rule is selected, use one dependency-aware actual predecessor/proposed host replay. Evaluate recognizable entry, inputs, first action, vocabulary, formality and assurance burden, first result, stop, preserved ideas, and true direct consumers at comparable effort. A proxy does not substitute. |
-| `CC-E9DA-0b` | Before coordinate closure, make one bounded content-first search across the governed problem, problem-owning practice, current sources, strongest live alternative, failure and recovery cases, and true direct consumers for an important question the DRR omitted. Return an answer-changing question as a substantive finding and lower every affected coordinate. A clean ordinary review needs no separate search ledger; a reusable result records only the basis its receiving reliance needs. |
+| `CC-E9DA-0b` | Before coordinate closure, make one bounded content-first search across the governed problem, problem-owning practice, current sources, strongest live alternative, failure and recovery cases, and true direct consumers for an important question the DRR omitted. Return an answer-changing question as a substantive finding and reassess every affected coordinate under its value rule. A clean ordinary review needs no separate search ledger; a reusable result records only the basis its receiving reliance needs. |
 | `CC-E9DA-1` | Keep the exact DRR, required authoring use and its source, selected-locus map, qualification window, and effective floor recoverable. Method, A.6.1 application, and dated Work are independently conditional. Add each identity only when the receiving claim uses it. If dated `U.Work` is asserted, the Method and application branch, every precise performer's A.13 core, and independent A.15.1 admission in 4.2 must obtain; add F.6 only when precise assignment-bound attribution is also current. |
 | `CC-E9DA-2` | When a complete reusable coordinate evaluation is explicitly required, evaluate every coordinate with value, adjacent-value rationale, and evidence locus. Otherwise perform the focused content review actually requested and return its findings or repairs without manufacturing unused coordinate records. |
 | `CC-E9DA-3` | Justify values from `DRR` decision content, accepted source-use payload, and the bounded omitted-question search, not administrative state, source reputation, official status, recency alone, or popularity. |
@@ -44,7 +44,7 @@ keywords:
 | `CC-E9DA-6d` | When first-entry, route-shaped, path-shaped, DPF, pattern-family, or unfolding-structure material is selected by the DRR, evaluate `CampaignProblemSolutionUnfoldingCheck`. If the selected solution architecture remains only in the DRR or public README after drafting, lower `SourceUseAndDecisionInheritanceCarryThrough`, `SelectedLocusObligationClosure`, `DraftingActionability`, and `CorpusEcologyAndShadowSpecResistance` as applicable. |
 | `CC-E9DA-7` | State each source contribution by named practice question, exact source, current-best or lineage status, selected payload, adopt/adapt/reject decision, changed E.9.DA or DRR locus, qualification, and smallest reopen condition. |
 | `CC-E9DA-8` | Check whether any intended value or protected trade-off worsened when visible decision-adequacy values improved; report any observed loss. |
-| `CC-E9DA-9` | In an ordinary bounded review, cite the evidence needed for each substantive finding or repair. In a complete reusable coordinate result, state the full `DRRDecisionAdequacyEvidenceBasis`, including only the bounded omitted-question search basis needed by the reliance; missing or unchecked source-currentness, inheritance, selected-locus, architecture, comparator, or omitted-question evidence lowers the coordinate that needs it. |
+| `CC-E9DA-9` | In an ordinary bounded review, cite the evidence needed for each substantive finding or repair. In a complete reusable coordinate result, state the full `DRRDecisionAdequacyEvidenceBasis`, including only the bounded omitted-question search basis needed by the reliance; identify missing or unchecked source-currentness, inheritance, selected-locus, architecture, comparator or omitted-question evidence and complete the needed check before assigning the affected value. Lower a value only when the coordinate's rule makes the established inadequacy a lower value. |
 | `CC-E9DA-10` | Use the value-appropriate adjacent comparison in §4.4a for every assigned value, including the endpoint rule for `0` or `5`. |
 | `CC-E9DA-11` | Keep ordinal values as ordinal content-evaluation result claims, not repair targets. Every required coordinate below its effective floor prevents `admissibleForDeclaredAuthoringUse`; an architecture blocker or required split is noncompensatory. Above-floor improvement requires substantive non-dominated proposal rows when requested and cannot close by adding source volume, selected-locus tables, boundary catalogues, quality proof, or process evidence that does not make the `DRR` more decisive for its required authoring use. A no-proposal or stay-at-current-value disposition must name loci and why no worthwhile decision-content move remains. |
 

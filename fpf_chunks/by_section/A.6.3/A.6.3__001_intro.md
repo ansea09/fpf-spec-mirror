@@ -6,12 +6,12 @@ section_id: "A.6.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:intro — Intro"
-line_start: 15047
-line_end: 15063
+line_start: 15029
+line_end: 15045
 dependencies:
   - "A.13"
   - "A.15.1"

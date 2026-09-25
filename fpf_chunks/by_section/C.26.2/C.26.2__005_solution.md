@@ -6,12 +6,12 @@ section_id: "C.26.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:4 — Solution"
-line_start: 61536
-line_end: 61753
+line_start: 61742
+line_end: 61961
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ Start with this recognition note:
 | Rival | Which ordinary rival explanation remains live: policy, routine, shared stimulus, dashboard-following, copied artifact, or propagation effect? |
 | Practical change | What can be done now without exceeding the evidence: adjust communication, triage, routing, planning, probe design, or return to a fuller evidence record? |
 
-Use the fuller EDSE record below when the reading will change coordination, be reused, be contested, support evidence, or leave the immediate local discussion.
+Use the fuller EDSE record below when the receiving claim or action needs distinctions that the recognition note does not retain. Reuse adequate existing content; publication, reuse, or leaving the immediate discussion alone does not require a fuller record.
 
 Full EDSE record:
 
@@ -203,7 +203,7 @@ EnactedDistributedStateEvidence(
 )
 ```
 
-The syntax is illustrative. The content is not optional when the state reading is used for a decision.
+The syntax is illustrative. A decision-use record retains the distinctions on which its supported claim or action depends. For an explicitly momentary, local use, follow :4.11 and omit persistence, decay, or reprobe-cost detail when those values cannot change the claim or action.
 
 Well-formedness constraints:
 
@@ -246,8 +246,10 @@ EDSE claims become useful when the text says how much consequence the evidence c
 | --- | --- | --- |
 | `QLP-0` recognition | Flag a possible enacted state for discussion or triage. | Name bearer, work, carriers, and time window. |
 | `QLP-1` local working use | Adjust local planning, incident response, or communication. | Add rivals, export loss, persistence, and reprobe condition. |
-| `QLP-2` decision-bearing / reusable use | Publish as a repeatable example or internal practice, or let the reading change a bounded decision. | Add case comparison, near misses, and evidence-carrier discipline. |
-| `QLP-3` assurance or reusable-law use | Use for release, audit, legal, accountability, reusable-law, or high-impact allocation. | Apply `A.10` for evidence provenance and bounded reliance; obtain a `B.3` assurance result for the named QL target claim and receiving use. Apply `C.16` if measurement is claimed, and the relevant authority or work patterns for their own requirements. |
+| `QLP-2` decision-bearing use | Use the distributed-state reading for a named decision whose answer needs more than the current local account. | Retain the needed case comparison, live rivals, near misses, and evidence-carrier distinctions; reuse adequate existing contributions. |
+| `QLP-3` assurance use | Answer a named assurance question about the distributed-state reading, its empirical adequacy, or comparative advantage. | Apply A.10 for evidence provenance and bounded reliance and B.3 for that assurance claim and receiving use. Apply C.16 only if measurement is claimed, and keep authority or work requirements with their direct patterns. Reuse adequate existing support and its limits. |
+
+Publication or reuse under unchanged assumptions does not by itself raise the evidence posture. Select additional support from the receiving conclusion under C.26:12b.
 
 For `QLP-0` or low-consequence `QLP-1`, do not force persistence, decay, or reprobe-cost fields when the claim is explicitly momentary and the bounded action is local. Name the bearer, carriers, window, minimal reading, rival, practical change, and local stop; add the fuller temporal fields only when reuse, contest, or consequence makes them load-bearing.
 

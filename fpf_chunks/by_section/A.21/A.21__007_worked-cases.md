@@ -6,12 +6,12 @@ section_id: "A.21:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__007_worked-cases.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:5 — Worked cases"
-line_start: 37370
-line_end: 37385
+line_start: 37314
+line_end: 37329
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -46,5 +46,5 @@ If inspection was not performed after the block was already known, record that c
 
 #### A.21:5.3 - Conditional high-consequence extension
 
-`RegulatedReleaseProfile-E9` adds `RegulatedConformance(Regulator-X, Rule-E9)` and evidence-completeness applications for `ReleaseLot-27`. Unknown regulator conformance maps to `block`. The profile cites Regulator X, Rule E9, the evidence tolerance, the refusal consequence, and the window. If the decision is published or reused, add the E.24.PUB publication occurrence, form, and carrier account and an audit or equivalence record, using E.17 when a source-backed reader face and return to source are needed; ordinary gates do not inherit that apparatus.
+`RegulatedReleaseProfile-E9` adds `RegulatedConformance(Regulator-X, Rule-E9)` and evidence-completeness applications for `ReleaseLot-27`. Unknown regulator conformance maps to `block`. The profile cites Regulator X, Rule E9, the evidence tolerance, the refusal consequence, and the window. If the decision is published, apply E.24.PUB for the publication occurrence, form and carrier, adding E.17 when a source-backed reader face and return to source are needed. If reuse is claimed, supply the equivalence witness for the reused inputs; an audit record remains optional. Internal reuse alone does not require publication.
 

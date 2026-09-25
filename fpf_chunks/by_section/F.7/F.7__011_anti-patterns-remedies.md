@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.7"
-pattern_title: "Concept-Set Table"
+pattern_title: "Display Source-Local Comparisons in a Concept-Set Table"
 section_id: "F.7:10"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__011_anti-patterns-remedies.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.7 — Concept-Set Table"
+  - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:10 — Anti-patterns & remedies"
-line_start: 104168
-line_end: 104182
+line_start: 104574
+line_end: 104588
 dependencies:
   - "A.6.9"
   - "B.3"

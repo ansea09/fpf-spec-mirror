@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.3"
-pattern_title: "Domain-Concept Bridge"
+pattern_title: "Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
 section_id: "B.5.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__003_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.3 — Domain-Concept Bridge"
+  - "B.5.3 — Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
   - "B.5.3:2 — Problem"
-line_start: 46803
-line_end: 46806
+line_start: 46752
+line_end: 46755
 dependencies:
   - "A.13"
   - "A.15"

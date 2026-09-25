@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.4"
-pattern_title: "Canonical Evolution Loop"
+pattern_title: "Coordinate Repeated Adaptation (Canonical Evolution Loop)"
 section_id: "B.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.4 — Canonical Evolution Loop"
+  - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:5 — Archetypal Grounding"
-line_start: 42924
-line_end: 42955
+line_start: 42875
+line_end: 42906
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -22,13 +22,6 @@ dependencies:
   - "B.5"
   - "B.5.1"
 keywords:
-  - "DesignRunTag feedback"
-  - "drift repair"
-  - "evolution loop"
-  - "knowledge refinement"
-  - "method refinement"
-  - "observe-notice-stabilize-route"
-  - "open-ended evolution"
 ---
 
 ### B.4:5 - **Archetypal Grounding**
@@ -40,7 +33,7 @@ The phase names can be shared, but each subject branch keeps its own identity an
   * **Loop Example:**
     1. **Operate:** The drones perform deliveries.
     2. **Observe:** The monitoring service and named operators perform observation Work and find recurring cold-weather battery strain, but the cue still has low articulation.
-    3. **Optional B.4.1 route inside Observe:** A named team performs stabilization Work. Under `A.16.1`, a `U.PreArticulationCuePack` preserves the cue nucleus, primary witness traces, and current language-state position without pretending that a final anomaly or action record exists; when the pack is made available for this use, name the separate publication occurrence under `E.24.PUB`. The same or another team performs routing Work. Under `B.4.1`, a `RoutedCueSet` keeps multiple continuations visible—for example, battery-chemistry investigation or route-planning adjustment; again, name its publication occurrence under `E.24.PUB` when availability matters.
+    3. **Optional B.4.1 route inside Observe:** A named team performs stabilization Work. Under `A.16.1`, a `PreArticulationCuePack` preserves the cue nucleus, primary witness traces, and current language-state position without pretending that a final anomaly or action record exists; when the pack is made available for this use, name the separate publication occurrence under `E.24.PUB`. The same or another team performs routing Work. Under `B.4.1`, a `RoutedCueSet` keeps multiple continuations visible—for example, battery-chemistry investigation or route-planning adjustment; again, name its publication occurrence under `E.24.PUB` when availability matters.
     4. **Continue the loop:** The selected route enters Refine or another fitting subject pattern. Only a selected and tested change proceeds to Deploy and renewed drone operation.
 
 * **Knowledge-instantiation slice (theory refinement loop):**

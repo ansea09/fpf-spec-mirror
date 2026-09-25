@@ -6,19 +6,33 @@ section_id: "A.19.SelectorMechanism:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__007_archetypal-grounding-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:5 — Archetypal Grounding — informative"
-line_start: 36720
-line_end: 36766
+line_start: 36664
+line_end: 36710
 dependencies:
+  - "A.19.CHR"
+  - "A.19.CN"
+  - "A.19.ULSAM"
+  - "A.19.USCM"
+  - "A.6.1"
+  - "A.6.5"
+  - "C.22"
+  - "E.18"
+  - "G.0"
+  - "G.5"
 keywords:
+  - "ComparisonResultSlot"
   - "SelectEligibility"
-  - "selected set"
+  - "SelectorMechanism"
+  - "explicit criteria"
+  - "finite basis of binary CPM applications"
+  - "pass/degrade/abstain"
+  - "required comparison coverage"
+  - "selected candidate set"
   - "selection kernel"
-  - "set-returning selection"
-  - "tri-state guard (pass"
 ---
 
 ### A.19.SelectorMechanism:5 - Archetypal Grounding — informative
@@ -35,7 +49,7 @@ When comparisons are partial or set-valued, selection must not pretend there is 
 * `CriteriaSlot` requires Pareto selection over the three unordered pairs `{A,B}`, `{A,C}`, and `{B,C}`, returns all non-dominated admissible candidates, and preserves the full selected set unless an explicit current criterion requires a singleton.
 * The finite upstream comparison-application basis covers all three required pairs:
 
-  * exact `Compare(OptionA, OptionB, ...)` has `GuardDecision = pass` and its own `ComparisonResultSlot` binds the justified tokens `OptionA ≼ OptionB` on latency and `OptionB ≼ OptionA` on cost;
+  * exact `Compare(OptionA, OptionB, ...)` has `GuardDecision = pass`: OptionB is strictly better than OptionA on latency, while OptionA is strictly better than OptionB on cost under the declared comparator. Its `ComparisonResultSlot` records those strict opposite wins, so neither dominates the other;
   * exact `Compare(OptionA, OptionC, ...)` has `GuardDecision = degrade` because OptionC lacks the required risk attestation, and its output binding contributes no relation token about OptionC; and
   * exact `Compare(OptionB, OptionC, ...)` has the same explicit `degrade` basis and likewise contributes no relation token about OptionC.
 

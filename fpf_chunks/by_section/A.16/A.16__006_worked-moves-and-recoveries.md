@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16"
-pattern_title: "Language-State Move Coordination"
+pattern_title: "Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
 section_id: "A.16:5"
 section_title: "Worked moves and recoveries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__006_worked-moves-and-recoveries.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16 — Language-State Move Coordination"
+  - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:5 — Worked moves and recoveries"
-line_start: 30574
-line_end: 30607
+line_start: 30483
+line_end: 30516
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -43,15 +43,14 @@ dependencies:
   - "E.10.MOVE"
   - "E.11.PUR"
   - "E.18"
+  - "E.18.2"
   - "E.24.PUB"
   - "F.6"
 keywords:
-  - "admissible language-state move"
   - "language-state"
   - "move"
   - "reopen"
   - "respecify"
-  - "responsibility transfer"
   - "retire"
   - "sketch-backoff"
 ---

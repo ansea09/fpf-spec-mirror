@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.1.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
-line_start: 91055
-line_end: 91490
+line_start: 91448
+line_end: 91883
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -239,7 +239,7 @@ After a recurring family-level use is established, the pattern biases FPF toward
 
 ### E.17.1:10 - Rationale
 
-`MultiViewDescribing` supports viewpoint plurality. `E.17.1` supplies packaging and provenance discipline for that plurality, including cases where viewpoints are used to re-express positions in `U.LanguageStateSpace` or trajectories in `U.LanguageStateMoveTrajectory`. It makes member provenance explicit across repeated uses. Semantic correspondence is a separate result: same-scheme comparison states its exact predicate and participants, while cross-context comparison uses F.9 and a bounded-use reliance path.
+`MultiViewDescribing` supports viewpoint plurality. `E.17.1` supplies packaging and provenance discipline for that plurality, including cases where viewpoints are used to re-express positions in `U.LanguageStateSpace` or language-state history accounts through the `LanguageStateMoveTrajectory` form under `A.16.0`. It makes member provenance explicit across repeated uses. Semantic correspondence is a separate result: same-scheme comparison states its exact predicate and participants, while cross-context comparison uses F.9 and a bounded-use reliance path.
 
 ### E.17.1:11 - Source status, local rationale, and reopen condition
 

@@ -6,12 +6,12 @@ section_id: "E.16:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:3 — Forces"
-line_start: 90285
-line_end: 90303
+line_start: 90669
+line_end: 90687
 dependencies:
   - "A.10"
   - "A.13"
@@ -54,13 +54,13 @@ keywords:
 | Force                          | Tension                                                                  |
 | ------------------------------ | ------------------------------------------------------------------------ |
 | **Creativity vs Safety**       | Exploration autonomy vs hard constraints and override duties             |
-| **Locality vs Comparability**  | A budget stays bound to its claim, working situation, scope, window, policy, and override rule; actual holder, assignment, Work, and authority references appear only when the budget is enactment-bound. |
+| **Locality vs Comparability**  | A budget stays bound to its claim, working situation, scope, window, policy, and override rule; actual holders, assignments and authority enter a scheduled action check; a Work reference appears only when performance independently qualifies under A.15.1. |
 | **Simplicity vs Auditability** | Lightweight authoring vs ledger‑grade evidence                           |
 | **Autonomy vs SoD**            | Helpful self‑action vs separation‑of‑duties and human‑in‑the‑loop points |
 
 #### E.16:3.1 - Bias-Annotation
 
-**Lenses tested:** `Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`. **Scope:** Universal when wording about a local system-role kind, Method, or Service says that a System may perform Work involving unsupervised decision or actuation, and that Work is admitted through an `AutonomyBudgetDecl` plus Green-Gate. It is **not** aimed at purely assistive suggestion-only tools where a human confirms every action at the point of execution.
+**Bias considerations:** `Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`. **Scope:** Universal when wording about a local system-role kind, Method, or Service says that a System may perform Work involving unsupervised decision or actuation, and that Work is admitted through an `AutonomyBudgetDecl` plus Green-Gate. It is **not** aimed at purely assistive suggestion-only tools where a human confirms every action at the point of execution.
 
 * **Gov.** Bias toward enforceable oversight (hard gates, SoD, canonical override SpeechActs). Mitigation: exploration autonomy is still allowed, but only inside an explicit budget and time window.
 * **Arch.** Bias toward gate‑and‑ledger structure (Green‑Gate + Work‑anchored `AutonomyLedger`). Mitigation: `telemetrySpecRef` can scope what is emitted when full deltas are unnecessary.

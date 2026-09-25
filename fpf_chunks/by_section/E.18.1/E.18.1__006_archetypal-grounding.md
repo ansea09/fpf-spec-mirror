@@ -6,12 +6,12 @@ section_id: "E.18.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:5 — Archetypal Grounding"
-line_start: 95607
-line_end: 95706
+line_start: 96007
+line_end: 96106
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -116,7 +116,7 @@ For one TFS, every valuation resolves to the same structure boundary and interna
 |---|---|---|
 | Coffee service TFS | Accepted `ProblemCard@Context PC-COFFEE-SERVICE-17` keeps the service-temperature and throughput problem visible while each next claim opens separately: `C.29` returns `CoffeeHeatMassBalanceLensUse-17`; `A.6.0` returns `CoffeeFormalSubstrateSignature-v3` only for its declared subject and ranged value; `A.6.1` returns `CoffeeBrewHeatTransferMechanism-v2` and exact application bindings; `A.19.UNM` returns `CoffeeTemperatureNormalization-v4`; `A.3.1` returns `CoffeeBrewMethod-v5`; `A.15.2` returns `CoffeeShiftPlan-17`; `A.15.1` returns dated `CoffeeBrewWork-17-0815`; `C.16` returns the temperature and throughput measurements; and `G.11` reopens only a continuation relying on the changed source, normalization, Method or measurement. Treat them as positions or continuations of one TFS only while every use resolves to that same exact selected structure and internal transfers. | A signature supplies no mechanism or Method; a plan supplies no Work; telemetry supplies no measurement result until `C.16` applies it; another valuation or slice does not mint another TFS; refresh changes only the relation that relied on the changed value. |
 | Compiler design and run | Compiler preparation/build, later compiler use, release assurance and product operation retain independently identified TFS values when their boundaries, Work or change cadence differ. Release-assurance use, launch-gate use, reproducible-build currentness and `G.11` source-currentness remain separate claims. Select an E.18.NET network only after the exact source-use, production/inception, operation-application, evaluation or other cross-member occurrences and endpoint bindings independently obtain. | No collapse of build, run and product Work; no giant flow; no universal `produces`/`uses` edge; local `DesignRunTag`; and no transformation, production, gate or currentness result from a build arrow or intended realization. |
-| TAMP and MPC robotics | Method selection and `A.15.2` planning may be revised under a declared progress or budget condition before performed Work. That planning/replanning cycle may be one TFS valuation or path-slice family when the exact structure identity is shared; separately selected development, controller-execution and evaluation flows require E.18.NET and exact cross-member relations. | Branching and cycles without a fixed work procedure; no launch decision or performed Work before dated Work occurs; and feedback cycles do not make membership cyclic. |
+| TAMP and MPC robotics | Method selection and `A.15.2` planning may be revised under a declared progress or budget condition before performed Work. That planning/replanning cycle may be one TFS valuation or path-slice family when the exact structure identity is shared; separately selected development, controller-execution and evaluation flows require E.18.NET and exact cross-member relations. | Branching and cycles without a fixed work procedure; a prospective launch decision remains distinct from later dated Work; and feedback cycles do not make membership cyclic. |
 | AutoML and QD | Method selection returns a Pareto, QD, front or archive set under comparator and descriptor editions. If generation, evaluation and deployment are independently selected flows, relate them only through exact direct occurrences in E.18.NET. A changed descriptor, comparator or retained-set relation reopens only the dependent selection or publication continuation. | Set-return discipline, comparator currentness, no hidden scalarization, retained-set refresh, and no evaluation label used as a universal edge. |
 | Freshness or physical-transport case | Work planning and performed Work depend on freshness windows, transport relations, units, reference planes and source-currentness. A detailed internal route remains a `SubflowRef`; independent transport and use flows require a network. | No implicit `latest`, no unbridged unit or plane comparison, exact member boundary, and smallest affected refresh. |
 | Integration under module-interface constraints | After assembly, a result phrase may say *role enactability* under module-interface constraints or may point to evidence, a gate, architecture, function-like wording, or a Work relation. | Treat *role enactability* as unresolved wording and apply E.10.ROLE; then recover the local system-role kind and classification, assignment occurrence, direct participation or functioning relation, ordinary non-use, or exact missing governor that the current claim needs. Recover module-interface, evidence, gate, architecture, and Work claims separately under their own patterns; route claim-bearing function-like wording through A.6.F. |
@@ -137,7 +137,7 @@ Use these as replayable filled examples, not as a second schema beside the compa
 | Next practical question | Which structure is preserved, which is lost, and where does the heat-flow lens stop? |
 | Applicable pattern | `C.29` Mathematical Lens Use. |
 | Result written and use it answers | A C.29 local lens-use result naming target phenomenon, candidate mathematical object, preserved structure, lost structure, payoff, declared use, and stop condition. |
-| Local stop | Method comparison waits until comparator, measurement, and candidate-set relations are named. A later `A.6.0` signature declaration is a separate continuation. |
+| Local non-overread | Method comparison waits until comparator, measurement, and candidate-set relations are named. A later `A.6.0` signature declaration is a separate continuation. |
 
 **Port-throughput continuation split.**
 
@@ -145,10 +145,10 @@ Use these as replayable filled examples, not as a second schema beside the compa
 |---|---|
 | Accepted problem card reference | `ProblemCard@Context PC-PORT-008`, accepted for an integration-throughput problem. |
 | Carried problem-card claim | The port-throughput constraint affects integration, but the source phrase does not decide which module-interface, transformation-flow, planning, work, evidence, gate, or architecture relation is current. |
-| Receiving use | Make the current module-interface and transformation-flow relations inspectable without inferring readiness. |
+| Receiving use | Make the current module-interface relation and selected transformation-flow structure inspectable without inferring readiness. |
 | Next practical question | Which exact relation is being written now? |
 | Continuation 1 | Apply `A.6.M` and write the exact module-interface relation for the port contract. |
-| Continuation 2 | Apply `E.18` and write the exact transformation-flow relation that uses that interface. |
+| Continuation 2 | Apply `E.18` and identify the selected transformation-flow structure and the exact interface-bearing position or binding used by the current question. |
 | Stopped cues | Apply `A.15.2` only if a planning constraint is actually being written. Evidence, gate, and architecture cues remain stopped until their direct relations are current. |
 | Local stop | No readiness result, granted permission, performed-work claim, evidence verdict, or gate decision follows from the port phrase by itself. |
 

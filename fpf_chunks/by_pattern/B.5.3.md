@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "B.5.3"
-pattern_title: "Domain-Concept Bridge"
+pattern_title: "Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.3.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.3 — Domain-Concept Bridge"
-line_start: 46795
-line_end: 46890
+  - "B.5.3 — Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
+line_start: 46744
+line_end: 46839
 dependencies:
   - "A.13"
   - "A.15"
@@ -41,7 +41,7 @@ keywords:
   - "source-local meaning"
 ---
 
-## B.5.3 - Domain-Concept Bridge
+## B.5.3 - Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)
 
 ### B.5.3:1 - **Problem Frame**
 
@@ -64,7 +64,7 @@ How can FPF let project teams keep domain vocabulary while preserving the curren
 
 ### B.5.3:4 - **Solution**
 
-Use the **Domain-Concept Bridge** as a bounded reasoning move, not as a new domain container or mandatory record.
+Use this bounded interpretation move when domain vocabulary leaves the FPF claim unclear.
 
 1. Start from the exact expression, source, edition, and relevant passage. Use F.0.1 to recover the source-local claim. Recover an F.17 cell and test its basis relation when the current claim needs them, including when an F.9 Bridge is claimed. Add a durable term row only when the receiving use needs that packaging under F.17.
 2. Ask which exact FPF value or relation the current claim needs, then use the pattern that defines or constrains it. For example, the answer may concern a System, characteristic, Method, Work occurrence, episteme, system-role assignment, or evidence-use relation; the list is illustrative, not a set of new bridge kinds.

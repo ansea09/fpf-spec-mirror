@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
+pattern_title: "Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
 section_id: "F.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
+  - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:4 — Solution"
-line_start: 103480
-line_end: 103558
+line_start: 103886
+line_end: 103964
 dependencies:
   - "A.10"
   - "A.15"
@@ -111,7 +111,7 @@ For a U-kind, the Tech designation should be neutral enough that no witness wins
 6. **Keep coupled names typed.** A compact phrase may help a reader, but one label must not carry several independently governed objects—for example, kind, assignment, capability, Method, Work, and description—at once.
 7. **Do not encode thresholds or windows in the name.** Put time, state, threshold, capability envelope, or admission window in the direct claim.
 8. **Use aliases only with lineage.** A source term, predecessor term, symbol, or translation does not become a second selected Tech label.
-9. **Escalate only for actual reuse.** Use F.18 and F.17 for durable or public naming. When an actual cross-local relation is consumed, name the exact obtaining C.3.3 relation between local kinds or F.9 Bridge between distinct F.17 cells and keep the separate C.2.1 claim that it suits the named use. Ordinary reliance requires the exact A.10 evidence-provenance relation and `RelianceDisposition=pass`. Use B.3 only when an actual named assurance claim is current. None of the cross-local relation, use claim, evidence path, assurance result, NameCard, row, designation, or publication establishes assignment, Work, result, provenance, assurance, or publication occurrence.
+9. **Escalate only for actual reuse.** Use F.18 and F.17 for durable or public naming. When an actual cross-local relation is consumed, name the exact obtaining C.3.3 relation between local kinds or F.9 Bridge between distinct F.17 cells and keep the separate C.2.1 claim that it suits the named use. For ordinary reliance, recover the descriptive A.10 evidence-provenance path and the independently established direct relations it cites. Judge evidence sufficiency under the direct rule for the relied-on claim. `RelianceDisposition=pass` supports only the named bounded use; `degrade` supports only its named narrower use. Use B.3 only when an actual named assurance claim is current. None of the cross-local relation, use claim, evidence path, assurance result, NameCard, row, designation, or publication establishes assignment, Work, result, provenance, assurance, or publication occurrence.
 
 #### F.5:4.4 - Neighboring Use Boundary
 

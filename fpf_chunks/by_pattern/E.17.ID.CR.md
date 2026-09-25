@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "E.17.ID.CR"
-pattern_title: "ComparativeReviewUnit - bounded comparison over comparative review units"
+pattern_title: "Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.ID.CR.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
-line_start: 92958
-line_end: 93671
+  - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
+line_start: 93359
+line_end: 94072
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -38,11 +38,11 @@ dependencies:
 keywords:
 ---
 
-## E.17.ID.CR - ComparativeReviewUnit - bounded comparison over comparative review units
+## E.17.ID.CR - Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)
 
 > **Status:** Stable
 
-**Plain-name.** Bounded comparison over comparative review units.
+**Plain-name.** Bounded source comparison under a shared review frame.
 
 **Use this when.** Use this pattern when a team needs one small comparison note, comparison sheet, or guided review aid over already available source epistemes or source publications. The unit should make one bounded contrast or a small set of contrast rows inspectable while the shared review frame stays visible and downstream claim or effect remains outside.
 

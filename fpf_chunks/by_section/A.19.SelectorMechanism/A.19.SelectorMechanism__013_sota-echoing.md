@@ -6,19 +6,33 @@ section_id: "A.19.SelectorMechanism:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__013_sota-echoing.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:11 — SoTA-Echoing"
-line_start: 36849
-line_end: 36881
+line_start: 36793
+line_end: 36825
 dependencies:
+  - "A.19.CHR"
+  - "A.19.CN"
+  - "A.19.ULSAM"
+  - "A.19.USCM"
+  - "A.6.1"
+  - "A.6.5"
+  - "C.22"
+  - "E.18"
+  - "G.0"
+  - "G.5"
 keywords:
+  - "ComparisonResultSlot"
   - "SelectEligibility"
-  - "selected set"
+  - "SelectorMechanism"
+  - "explicit criteria"
+  - "finite basis of binary CPM applications"
+  - "pass/degrade/abstain"
+  - "required comparison coverage"
+  - "selected candidate set"
   - "selection kernel"
-  - "set-returning selection"
-  - "tri-state guard (pass"
 ---
 
 ### A.19.SelectorMechanism:11 - SoTA-Echoing
@@ -48,7 +62,7 @@ Concrete selector-family SoTA packages are cited through their current Part G pa
 
 #### A.19.SelectorMechanism:11.2 - Currentness and smallest reopen rule
 
-**Qualification basis and window.** The stable kernel claim is qualified by the current editions of A.6.1/A.6.5 operation and slot discipline, A.19.CPM binary application and output semantics, A.19.CN and G.0 admission and evidence rules, G.5 selector-policy discipline, A.2.6 scope semantics, and the exact current G.2 selector pack or claim sheet cited by an actual use. For that use, the effective qualification window is the intersection of those bound editions' currentness and any validity interval declared by the selector pack, TaskSignature, or policy; `post-2015+` is an orientation label, not an indefinite freshness claim.
+**Qualification basis and window.** The stable kernel claim is qualified by the current editions of A.6.1 operation declarations and actual binding rules, A.19.CPM binary application and output semantics, A.19.CN and G.0 admission and evidence rules, G.5 selector-policy discipline, A.2.6 scope semantics, and the exact current G.2 selector pack or claim sheet cited by an actual use. For that use, the effective qualification window is the intersection of those bound editions' currentness and any validity interval declared by the selector pack, TaskSignature, or policy; `post-2015+` is an orientation label, not an indefinite freshness claim.
 
 **Reopen the SelectorMechanism kernel only when.** Reopen the smallest affected selector rule when a direct governor changes set-return semantics, inherited SlotKinds or specialization constraints, criteria or policy binding, tri-state eligibility, the finite CPM application-basis and token-provenance boundary, selection scope, or the separation of selected set, evidence, provenance, result episteme, and publication, or when qualified evidence contradicts one of those commitments. A new selection algorithm, archive or diversity method, candidate-generation method, tie-breaker, `PortfolioMode`, rejection calibration, or domain policy that still satisfies those commitments changes its G.2 pack, G.5 policy, `CriteriaSlot`, `TaskSignature`, or other direct policy binding rather than this kernel.
 

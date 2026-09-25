@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__022_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:14 — Relations"
-line_start: 86600
-line_end: 86626
+line_start: 86920
+line_end: 86946
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -78,7 +78,7 @@ keywords:
 - `A.3.1` defines one exact `U.Method` and the method-side relations within its scope. When a named use depends on organization among several such relations, use A.22's criterion to select the structure, which may be locally designated `MethodRelationStructure`. Enter through the method-like wording row only while the actual object or relation remains hidden.
 - `A.3.2` defines membership for a `U.MethodDescription` episteme that describes one exact `U.Method`.
 - `A.6.0` defines reusable signature identity and `A.6.5` defines `SlotSpec` declarations; `C.29` defines representation use and explicit correspondence for tuples, arguments, edges, diagrams, and similar forms; `A.6.1` defines operation application and `E.20` defines governing-definition assignment. An exact `onticSlotRelation` exists only after its E.24 durable ontic settlement is current.
-- Use `A.15.2` for planned work, `A.15.1` for dated Work, and `A.10` for evidence or provenance relations that method-like or path-like wording may otherwise hide; use `A.15.PROD` for the local production-work, entity-identity-inception, or production-completion claim when that exact WMR result family is current.
+- Use `A.15.2` for planned work, `A.15.1` for dated Work, and `A.10` for a descriptive account of sources, independently established support relations, currentness and bounded reliance that method-like or path-like wording may otherwise hide; use `A.15.PROD` for the local production-work, entity-identity-inception, or production-completion claim when that exact WMR result family is current.
 - `E.18` defines graph paths, path slices, flow valuations, and graph relations over a selected `TransformationFlowStructure` when the graph claim is current.
 - `C.30.P` realizes architecture and structure wording recovery.
 - `C.30.STRAT` realizes stratification and source-label wording recovery before the recovered claim is handled under its defining or testing rule; the trigger family is in the applicability table.

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.4.DPF"
-pattern_title: "Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
+pattern_title: "Domain and Local Principle Frameworks: Whether and How to Author and Publish"
 section_id: "E.4.DPF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__007_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
+  - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:6 — Bias-Annotation"
-line_start: 80226
-line_end: 80241
+line_start: 80523
+line_end: 80538
 dependencies:
   - "A.1.1"
   - "A.13"

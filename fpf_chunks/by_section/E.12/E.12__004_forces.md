@@ -6,15 +6,18 @@ section_id: "E.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:3 — Forces"
-line_start: 89391
-line_end: 89398
+line_start: 89753
+line_end: 89760
 dependencies:
+  - "C.11.DUA"
   - "E.13"
   - "E.2"
+  - "E.9"
+  - "F.19"
 keywords:
   - "HF-Loop"
   - "Rationale Mandate"

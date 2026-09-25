@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.7"
-pattern_title: "Concept-Set Table"
+pattern_title: "Display Source-Local Comparisons in a Concept-Set Table"
 section_id: "F.7:15"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__016_acceptance-tests.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.7 — Concept-Set Table"
+  - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:15 — Acceptance tests"
-line_start: 104249
-line_end: 104266
+line_start: 104657
+line_end: 104674
 dependencies:
   - "A.6.9"
   - "B.3"

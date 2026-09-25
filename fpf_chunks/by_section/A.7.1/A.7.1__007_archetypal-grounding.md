@@ -6,12 +6,12 @@ section_id: "A.7.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__007_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:5 — Archetypal Grounding"
-line_start: 23490
-line_end: 23497
+line_start: 23366
+line_end: 23373
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -30,7 +30,7 @@ keywords:
 
 ### A.7.1:5 - Archetypal Grounding
 
-**Support occurrence repair.** A maintenance claim says bearing B1 continued supporting shaft S1 after removal and reinstallation. The direct relation identity rule defeats that reading before a second ontology is written. The A.7.1 analysis method is already selected, while the current support-relation pattern constrains the disputed claim; neither the bearing/shaft subject nor that subject pattern is an apparatus candidate, so the work creates no option set. Ontology-analysis work uses `A7CP-01` and `A7CP-10`, recovers two support occurrences, repairs the warranty and incident-attribution claim, and returns it to maintenance. No new relation kind or U-kind is created.
+**Support occurrence inquiry.** A maintenance claim says bearing B1 continued supporting shaft S1 after removal and reinstallation. The A.7.1 analysis method is already selected; the bearing/shaft subject and the applicable subject predicate are inputs and constraints, so the work creates no option set. Recover the exact load-bearing relation and its obtaining and occurrence-identity rules before counting occurrences. If an admitted subject rule makes removal end one occurrence and reinstallation begin another, apply that rule and the current facts to repair the warranty and incident-attribution claim. If the receiving use needs that distinction but no applicable rule defines it, return the missing governor and blocked claim. Use `A7CP-01` and `A7CP-10` only when their claims are load-bearing in this reasoning; neither compact claim defines the subject relation.
 
 **Missing telemetry non-use.** A team cannot determine pump state because telemetry was never collected. State kinds, evidence relations, and candidate actions are already clear. The result is `returnToDirectOwner` for measurement and evidence work with the blocked state claim; no premise-use occurrence or ontology artifact is minted.
 

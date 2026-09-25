@@ -6,12 +6,12 @@ section_id: "A.15.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:3 — Forces"
-line_start: 28968
-line_end: 28979
+line_start: 28857
+line_end: 28868
 dependencies:
   - "A.10"
   - "A.13"

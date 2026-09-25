@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16"
-pattern_title: "Language-State Move Coordination"
+pattern_title: "Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
 section_id: "A.16:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16 — Language-State Move Coordination"
+  - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:intro — Intro"
-line_start: 30436
-line_end: 30457
+line_start: 30345
+line_end: 30366
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -43,20 +43,19 @@ dependencies:
   - "E.10.MOVE"
   - "E.11.PUR"
   - "E.18"
+  - "E.18.2"
   - "E.24.PUB"
   - "F.6"
 keywords:
-  - "admissible language-state move"
   - "language-state"
   - "move"
   - "reopen"
   - "respecify"
-  - "responsibility transfer"
   - "retire"
   - "sketch-backoff"
 ---
 
-## A.16 - Language-State Move Coordination
+## A.16 - Language-State Moves: Choose the Next Publication and Use of a Cue or Claim
 
 > **Type:** Architectural (A)
 > **Status:** Stable
@@ -74,7 +73,7 @@ keywords:
 
 Choose one admissible move from §4.1, publish one small move note from §4.4, and stop. Add optional history, Work, publication, rendering, or authority detail only when the current use depends on it.
 
-**Typical next patterns.** Use `A.16.1` for early preservation, `B.4.1` for route publication, `B.5.2.0` for cue-derived abductive prompting, endpoint tests in `A.6.P`, `A.6.A`, or `C.16.Q`, and `A.16.2` when the right move is reopen, backoff, respecify, or retire.
+**Typical next patterns.** Use `A.16.1` for early preservation, `B.4.1` for route publication, `B.5.2.0` for cue-derived abductive prompting, precision repair in `A.6.P` or `C.16.Q`, wording recovery in `A.6.A` followed by the recovered subject rule, and `A.16.2` when the right move is reopen, backoff, respecify, or retire.
 
-**Not this pattern when.** Use `A.16.0` when history itself needs an accountable trajectory; use `A.6.P`, `C.16.Q`, or `A.6.A` for slot-explicit precision repair; use `E.18` when the target is a graph publication of a path. When *move* means a project action rather than this local publication transition, use `E.10.MOVE`, then route the actual question through `E.11.PUR`, `A.15.5`, `A.15.1`, `A.15.2`, or its more specific subject pattern.
+**Not this pattern when.** Use `A.16.0` when history itself needs an accountable trajectory; use `A.6.P` or `C.16.Q` for their precision repairs and `A.6.A` to recover an ambiguous action-oriented claim or question; use `E.18` only when the current subject is an independently selected TransformationFlowStructure, and `E.18.2` for its mathematical description. When *move* means a project action rather than this local publication transition, use `E.10.MOVE`, then route the actual question through `E.11.PUR`, `A.15.5`, `A.15.1`, `A.15.2`, or its more specific subject pattern.
 

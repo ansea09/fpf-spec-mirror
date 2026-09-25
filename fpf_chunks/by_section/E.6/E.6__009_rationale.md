@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.6"
-pattern_title: "Didactic Architecture of the Specification"
+pattern_title: "Didactic Architecture of the FPF Specification"
 section_id: "E.6:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__009_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.6 — Didactic Architecture of the Specification"
+  - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:8 — Rationale"
-line_start: 81856
-line_end: 81862
+line_start: 82165
+line_end: 82167
 dependencies:
   - "E.2"
 keywords:
@@ -24,9 +24,5 @@ keywords:
 ---
 
 ### E.6:8 - Rationale
-Educational research shows retention improves when abstract rules are
-immediately paired with contrasting illustrations. By fixing the reading
-order and mandating Tell‑Show‑Show inside every architectural pattern, FPF
-embeds pedagogy into its architecture, realising Pillars **P‑2 Didactic
-Primacy** and **P‑1 Cognitive Elegance** without weakening rigour.
+Pairing an abstract rule with contrasting, applicable illustrations makes its intended application and scope inspectable. The document order and E.7 grounding rule provide those connections while leaving practical entries free to cross Parts. This implements **P‑2 Didactic Primacy** and **P‑1 Cognitive Elegance** without replacing the subject's reasoning or evidence.
 

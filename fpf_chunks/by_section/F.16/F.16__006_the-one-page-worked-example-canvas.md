@@ -6,12 +6,12 @@ section_id: "F.16:5"
 section_title: "The one-page Worked-Example Canvas"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__006_the-one-page-worked-example-canvas.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:5 — The one-page Worked-Example Canvas"
-line_start: 107443
-line_end: 107466
+line_start: 107853
+line_end: 107876
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,11 +63,11 @@ keywords:
 
 6. **Obtaining relations.** For each relation, name its exact participants, direction, basis, and loss. Use F.9 only for a real semantic relation between distinct local meanings. Use the defining or testing pattern for MethodDescription membership, enactment, performed Work, measurement, evidence, fulfilment, kind, assignment, publication, transformation, and any load-bearing indicator relation. If proxy wording names no supported relation, use C.16.P and stop at A.6.RCD `missing-governor`.
 
-7. **Evidence, result, and limits.** Show what observations or sources support the claim and how A.10 uses them. When evaluation is part of the case, show the evaluation Work, enacted Method, exact application and result binding, declared result scale, and any separate F.10 status or optional C.2.1 verdict episteme. Use B.3 only for assurance or material reliance. State what remains outside the conclusion.
+7. **Evidence, result, and limits.** Show the independently established direct relations by which observations or sources support the claim. A.10 describes that path and classifies reliance on it for the bounded use; its fields must supply the evidence required by the claim and its direct rule. When evaluation is part of the case, show the evaluation Work, enacted Method, exact application and result binding, declared result scale, and any separate F.10 status or optional C.2.1 verdict episteme. Use B.3 only for an actual named assurance claim. State what remains outside the conclusion.
 
 8. **Optional comparison surface.** If two or more local meanings or source claims are hard to compare in prose, add one compact F.7 table. State the receiving-use conclusion separately. Omit the table when it adds ceremony but no clarity.
 
-9. **Micro-narrative and checks.** In five to seven lines, walk from the working situation through the actual relations to the result. End with two or three F.15 checks and one explicit non-use boundary.
+9. **Micro-narrative and checks.** Walk briefly from the working situation through the actual relations to the result. End with the few direct subject checks that let the reader replay the claim and one non-use boundary. Add F.15 only when a finite naming slice needs its static or regression checks.
 
 **Memory rule.** If the case cannot fit on one page or slide, reduce it to one claim or split it into linked examples. Do not delete the evidence or relation that makes the claim intelligible merely to preserve the page count.
 

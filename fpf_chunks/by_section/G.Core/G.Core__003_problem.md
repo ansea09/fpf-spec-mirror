@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.Core"
-pattern_title: "Part G Core Invariants"
+pattern_title: "Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
 section_id: "G.Core:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__003_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.Core — Part G Core Invariants"
+  - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:2 — Problem"
-line_start: 109945
-line_end: 109957
+line_start: 110358
+line_end: 110370
 dependencies:
   - "A.15.3"
   - "A.19"

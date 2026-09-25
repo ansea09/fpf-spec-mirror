@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.4"
-pattern_title: "Contextual and Temporal Aggregation"
+pattern_title: "Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
 section_id: "B.1.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__010_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.1.4 — Contextual and Temporal Aggregation"
+  - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:6 — Conformance Checklist"
-line_start: 39429
-line_end: 39439
+line_start: 39359
+line_end: 39369
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -40,7 +40,7 @@ keywords:
 | --- | --- | --- |
 | CC-B1.4-1 | The aggregate names the EntityOfConcern, included positions or phases, aggregation mode, ClaimScope when needed, time window when temporal qualification matters, and admissible use. | Prevents a generic context or time label from standing in for the aggregation boundary. |
 | CC-B1.4-2 | Contextual aggregation names ordered relation refs and an `OrderSpec`; temporal aggregation names carrier identity, phase refs, and `TimeWindow`. | Keeps order and time as different relations. |
-| CC-B1.4-3 | Independence, join, coverage, and non-overlap conditions are present when the claim uses them. | Keeps local composition reviewable. |
+| CC-B1.4-3 | Independence, join, coverage, and overlap-policy conditions are present when the claim uses them. | Keeps local composition reviewable. |
 | CC-B1.4-4 | Method, method-description, work-plan, work-occurrence, work-resource, transformation, and whole-reidentification claims use the patterns that define or test them. | Prevents B.1.4 from absorbing neighboring objects. |
 | CC-B1.4-5 | Mathematical notation is treated as a selected lens or expression, not as the in-life object or relation. | Keeps `Gamma_ctx`, `Gamma_time`, graph, and algebra language bounded. |
 | CC-B1.4-6 | If identity changes, coverage breaks, or a new whole is claimed, the record narrows use or names the pattern for the stronger claim. | Prevents temporal aggregation from becoming hidden MHT or transformation. |

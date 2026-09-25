@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.4"
-pattern_title: "Canonical Evolution Loop"
+pattern_title: "Coordinate Repeated Adaptation (Canonical Evolution Loop)"
 section_id: "B.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.4 — Canonical Evolution Loop"
+  - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:intro — Intro"
-line_start: 42835
-line_end: 42846
+line_start: 42784
+line_end: 42795
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -22,16 +22,9 @@ dependencies:
   - "B.5"
   - "B.5.1"
 keywords:
-  - "DesignRunTag feedback"
-  - "drift repair"
-  - "evolution loop"
-  - "knowledge refinement"
-  - "method refinement"
-  - "observe-notice-stabilize-route"
-  - "open-ended evolution"
 ---
 
-## B.4 - Canonical Evolution Loop
+## B.4 - Coordinate Repeated Adaptation (Canonical Evolution Loop)
 > **Status:** Stable
 > **Type:** Pattern
 
@@ -41,5 +34,5 @@ keywords:
 
 **What this buys.** A compact, reviewable adaptation cycle whose identity rule comes from the subject pattern. It keeps observed basis, design-time change, run-time use, acting Systems, dated Work, evidence, publication, acceptance, and responsibility distinct while connecting only the facts needed by the receiving use.
 
-**Not this pattern when.** Not this pattern when one direct subject-pattern claim answers the change question without a repeated adaptation cycle. Use `B.3.5` for relation grounding, `B.4.1` for early cue stabilization and routing, `B.5.2.0` for abductive hypothesis work, `C.27` for temporal status, or `A.15` for method/work alignment without an adaptation-loop claim.
+**Not this pattern when.** Not this pattern when one direct subject-pattern claim answers the change question without a repeated adaptation cycle. Use the direct relation pattern for relation grounding, adding `B.3.5` when its working-model assurance profile is required. Use `B.4.1` to publish candidate routes from a stabilized cue, `B.5.2` for abductive hypothesis work, `C.27` for temporal status, or `A.15` for method/work alignment without an adaptation-loop claim.
 

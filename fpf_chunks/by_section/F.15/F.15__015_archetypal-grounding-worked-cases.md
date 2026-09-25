@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.15"
-pattern_title: "Static and Regression Conformance Harness for Unification"
+pattern_title: "Static and Regression Conformance Harness for Naming and Semantic Unification"
 section_id: "F.15:13"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__015_archetypal-grounding-worked-cases.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.15 — Static and Regression Conformance Harness for Unification"
+  - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:13 — Archetypal Grounding - worked cases"
-line_start: 107232
-line_end: 107292
+line_start: 107642
+line_end: 107702
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,6 @@ dependencies:
   - "E.10.D2"
   - "E.17"
   - "E.24.PUB"
-  - "F.1-F.14"
   - "F.10"
   - "F.13"
   - "F.14"
@@ -42,11 +41,17 @@ dependencies:
   - "F.9"
   - "G.11"
 keywords:
-  - "SenseCell testing"
-  - "acceptance tests"
-  - "regression tests"
-  - "static checks"
-  - "validation"
+  - "Bridge"
+  - "NameCard"
+  - "RSCR"
+  - "SCR"
+  - "SchemeSenseCell"
+  - "UnifiedTermRow"
+  - "exact versions"
+  - "finite naming slice"
+  - "regression"
+  - "result reuse"
+  - "static conformance"
 ---
 
 ### F.15:13 - Archetypal Grounding - worked cases
@@ -76,7 +81,7 @@ F.15 result:
 * SCR-F15-S14 requires F.10 for the status family/value, target, scope, window, source condition, and intended use, or the exact defining or testing rule for the current status claim.
 * A named cross-local comparison must pass SCR-F15-S12 and S13; the row or shared `availability` label does not create the Bridge.
 * Observation evidence and A.10 reliance are not the status value, comparison result, assurance claim, or F.15 result.
-* Use B.3 only when its assurance claim or material-reliance threshold is current; the slice establishes no assurance by inclusion.
+* Use B.3 only when an actual named assurance claim is current. If a direct rule requires that claim for this use, recover it first; materiality or slice membership alone establishes no assurance claim.
 
 #### F.15:13.3 - Rename a SystemRoleKindDescription without changing the described kind
 

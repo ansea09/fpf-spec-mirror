@@ -6,12 +6,12 @@ section_id: "C.21:5"
 section_title: "Three progressive uses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__007_three-progressive-uses.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:5 — Three progressive uses"
-line_start: 57940
-line_end: 57953
+line_start: 58083
+line_end: 58096
 dependencies:
   - "A.10"
   - "A.17"
@@ -40,7 +40,11 @@ keywords:
   - "alignment"
   - "discipline"
   - "disruption"
+  - "diversity"
+  - "evidence resolution"
   - "field health"
+  - "formal recognition"
+  - "practice adoption"
   - "reproducibility"
   - "standardisation"
 ---

@@ -6,12 +6,12 @@ section_id: "A.6.B:15a"
 section_title: "Probe-coupled boundary claim classification"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__018_probe-coupled-boundary-claim-classification.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:15a — Probe-coupled boundary claim classification"
-line_start: 12882
-line_end: 12938
+line_start: 12838
+line_end: 12894
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -44,7 +44,6 @@ keywords:
   - "MAY"
   - "MUST"
   - "MUST NOT"
-  - "MUST NOT hide a gate predicate (that is A-)"
   - "SHALL"
   - "SHOULD"
   - "SHOULD NOT"
@@ -53,7 +52,6 @@ keywords:
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
-  - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
   - "and evaluated results distinct"
   - "and should in explanatory prose is descriptive"
@@ -77,6 +75,7 @@ keywords:
   - "or MAY) as operators inside the law or definition itself"
   - "or observation that settles it and any evidence used for reliance"
   - "responsibility"
+  - "then establish the E result under its own predicate"
   - "they report adjudicable results rather than obligations"
   - "“commits to”)"
   - "“is admissible”"
@@ -123,7 +122,7 @@ substitute for its separate claims.
 | The term, variable, state, frame, or relation being defined | `L-*` law or definition claim | Definition or invariant, without agent obligation language |
 | When a mechanism admits use of a probe, metric, question, or bridge at the decision point; declaration-level intended-use scope remains in `Signature.Applicability` | `A-*` runtime-admissibility claim | Entry predicate, required current inputs, non-admitted outcome, and neighboring-pattern continuation |
 | What exact policy prescribes about applying, retaining, exposing, or avoiding overuse of the probe result; or which actual bearer has that individually instituted duty; and, if separately claimed, who bears responsibility | generic `D-*` prescription or individual `D-*` claim about one exact `U.Commitment`; separate direct responsibility claim or missing governor | Exact normative source and rule content for the generic branch; actual duty bearer and referenced L/A/E claim IDs or canonical locations for the individual branch; responsibility predicate and participants only when that relation independently obtains |
-| The actual work effect or observed before-state or after-state, plus any separate evidence relation or carrier used for reliance | `E-*` work-effect or evaluated-result claim; separate evidence-support claim when current | Exact predicate and object, actual Work, evaluation, or observation, conditions and window, and result; add an A.10 evidence relation and exact carrier only when a receiving use relies on that support |
+| The actual work effect or observed before-state or after-state, plus any separate evidence relation or carrier used for reliance | `E-*` work-effect or evaluated-result claim; separate evidence-support claim when current | Exact predicate and object, actual Work, evaluation, or observation, conditions and window, and result; use A.10 to recover the independently established support relation and exact carrier only when a receiving use relies on that support |
 
 Useful outputs:
 

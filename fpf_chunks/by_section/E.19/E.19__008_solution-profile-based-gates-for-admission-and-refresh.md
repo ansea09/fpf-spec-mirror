@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__008_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 97021
-line_end: 97587
+line_start: 97423
+line_end: 97989
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -194,7 +194,7 @@ Checks include:
 * **Delta‑Class (Δ‑0…Δ‑3)** and **impact radius** are explicit (what breaks, who depends on this),
 * requirements are testable in principle (conceptually), scoped, and non-contradictory,
 * downstream patterns cited in Relations are compatible with the new guidance.
-* where the change is Δ‑2/Δ‑3 or a new normative pattern is being admitted: a DRR exists and references the PQG findings (pointer is sufficient; no duplicated prose).
+* for a Δ-2/Δ-3 change, apply E.15's actual-effect and material-decision test to the DRR requirement; a new normative pattern retains its DRR. When a DRR is required, it cites the applicable actionable PQG findings or the repaired candidate and focused verification, according to the selected review form; pointers suffice.
 
 **PCP‑SOTA (Evidence and SoTA alignment)** — Trigger: the pattern’s Solution asserts “best practice”, “state-of-the-art”, or introduces new synthesis claims.
 Checks include:

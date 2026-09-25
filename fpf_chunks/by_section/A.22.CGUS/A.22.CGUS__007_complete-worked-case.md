@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.22.CGUS"
-pattern_title: "Constraint-Governed Unfolding Structure"
+pattern_title: "Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
 section_id: "A.22.CGUS:5"
 section_title: "Complete Worked Case"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__007_complete-worked-case.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.22.CGUS — Constraint-Governed Unfolding Structure"
+  - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:5 — Complete Worked Case"
-line_start: 38150
-line_end: 38244
+line_start: 38094
+line_end: 38181
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,22 +52,12 @@ selectedCGUSRef: DesignReviewAlternatives@DR-27
 A22IdentityBasis:
   selectedConstituentRefs[]:
     DesignCandidate-A
-    ThermalCheckResult-A
-    ServiceCheckResult-A
     RepairProposal-A
     AcceptCandidate-Continuation
     RepairCandidate-Continuation
   selectedObtainingRelationOccurrenceRefs[]:
-    ThermalCheckAboutCandidate@DR-27
-    ServiceCheckAboutCandidate@DR-27
     RepairProposalTargetsCandidate@DR-27
   relationOccurrenceRecoveryRows[]:
-    - relationOccurrenceRef: ThermalCheckAboutCandidate@DR-27
-      predicateDefinitionRef: CheckResultAboutDesignCandidatePredicate
-      participantRefsInPredicateOrder[]: [ThermalCheckResult-A, DesignCandidate-A]
-    - relationOccurrenceRef: ServiceCheckAboutCandidate@DR-27
-      predicateDefinitionRef: CheckResultAboutDesignCandidatePredicate
-      participantRefsInPredicateOrder[]: [ServiceCheckResult-A, DesignCandidate-A]
     - relationOccurrenceRef: RepairProposalTargetsCandidate@DR-27
       predicateDefinitionRef: RepairProposalTargetsDesignCandidatePredicate
       participantRefsInPredicateOrder[]: [RepairProposal-A, DesignCandidate-A]
@@ -75,21 +65,24 @@ A22IdentityBasis:
     AcceptIfBothChecksSatisfied
     RepairIfAnyCheckViolatedAndProposalTargetsCandidate
   namedSelectionUseFrame:
-    questionOrAction: which review continuation is available now?
-    admissibleAction: show the enabled, disabled, and unknown alternatives for this review
-    stopOrReturnCondition: return to an unresolved test or relation; recheck when either result, the proposal relation, or the window changes
+    questionOrAction: which review continuations satisfy the two-check rule for DesignCandidate-A?
+    admissibleAction: show enabled, disabled, unknown or error results for the current case
+    stopOrReturnCondition: recheck a case when its result inputs or window change; reidentify the structure when its selected basis changes
 forbiddenOverread?: displayed order as performed Work, or an available branch as authorization
 constraintGovernedProfileBasis:
   locusBindingRows[]:
     - <DesignReviewAlternatives@DR-27, candidate, design under review, DesignCandidate-A>
-    - <DesignReviewAlternatives@DR-27, thermal-result, thermal finding, ThermalCheckResult-A>
-    - <DesignReviewAlternatives@DR-27, service-result, service finding, ServiceCheckResult-A>
     - <DesignReviewAlternatives@DR-27, repair-proposal, proposed repair, RepairProposal-A>
     - <DesignReviewAlternatives@DR-27, accept, accept continuation, AcceptCandidate-Continuation>
     - <DesignReviewAlternatives@DR-27, repair, repair continuation, RepairCandidate-Continuation>
   potentialContinuationRows[]:
     - AcceptCandidate-Continuation, constrained by AcceptIfBothChecksSatisfied
     - RepairCandidate-Continuation, constrained by RepairIfAnyCheckViolatedAndProposalTargetsCandidate
+caseBasis:
+  checkResultRefs: [ThermalCheckResult-A, ServiceCheckResult-A]
+  resultAboutCandidateOccurrences:
+    - <ThermalCheckAboutCandidate@DR-27, CheckResultAboutDesignCandidatePredicate, [ThermalCheckResult-A, DesignCandidate-A]>
+    - <ServiceCheckAboutCandidate@DR-27, CheckResultAboutDesignCandidatePredicate, [ServiceCheckResult-A, DesignCandidate-A]>
 continuationJudgements[]:
   - candidate: AcceptCandidate-Continuation
     basisKind: conditionEvaluation
@@ -115,15 +108,15 @@ continuationJudgements[]:
     window: ReviewWindow-DR-27
     result: enabled
     reason: one check is violated and the repair proposal concerns this design
-currentContinuationSet: enabled [RepairCandidate-Continuation]; disabled [AcceptCandidate-Continuation]; unknown []
-stopOrNextAction: show repair as available; recheck when either result, the proposal relation, or the window changes
+currentContinuationSet: enabled [RepairCandidate-Continuation]; disabled [AcceptCandidate-Continuation]; unknown []; error []
+stopOrNextAction: show repair as available; recheck when the case results or window change
 ```
 
-The structure has two potential continuations although this case enables only repair. The relation rows state their predicates and ordered participants; the judgement rows state the tests, applicability, inputs, facts, polarity, dependent occurrences, window, outcomes, and reasons.
+The structure has two potential continuations although this case enables only repair. The selected proposal-to-design relation belongs to its identity basis. Thermal and service result epistemes, and their about-candidate relations, belong to the current case basis; they are not constituents or selected relation occurrences of this structure.
 
-If `RepairProposalTargetsCandidate@DR-27` or its participant binding is missing, the repair result becomes `unknown — proposal target not established`. If the structure's identity was established on another sufficient basis, only this case result is incomplete. If that occurrence belongs to the claimed identity basis, this structure claim also remains provisional.
+If the proposal-to-design relation cannot be established, this exact formal structure claim remains provisional. The ordinary explanation can still report repair as unknown. Do not treat an unknown identity-bearing relation as an established constituent of a qualified CGUS.
 
-If a later thermal check passes while the service check still passes, acceptance becomes enabled and repair becomes disabled. If the constituents, selected occurrences, constraints, use frame, locus bindings, and potential topology have not changed, the CGUS keeps its identity and membership. A replacement result episteme or relation occurrence must first be compared under the A.22 discriminators.
+A later passing thermal check is a different result episteme and supplies a new case input. With service still satisfied, acceptance becomes enabled and repair becomes disabled. The selected design, proposal, continuation candidates, proposal-to-design relation, constraints, use frame, loci and potential topology are unchanged, so the same CGUS remains available for that new case.
 
 #### A.22.CGUS:5.1 - A missing intermediate capability changes the continuation
 

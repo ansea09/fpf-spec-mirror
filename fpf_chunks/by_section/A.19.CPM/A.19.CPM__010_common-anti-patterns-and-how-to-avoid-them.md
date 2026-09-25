@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CPM"
-pattern_title: "Unified Comparison Mechanism (CPM)"
+pattern_title: "Compare Admitted Profiles under a Declared Comparator (CPM)"
 section_id: "A.19.CPM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.CPM — Unified Comparison Mechanism (CPM)"
+  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 36382
-line_end: 36423
+line_start: 36315
+line_end: 36356
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -47,7 +47,7 @@ keywords:
 
 * **Anti‑pattern: “Smuggling plan‑binding into CPM.”**
   *Symptom:* hard‑coding comparator editions, policy ids, or “launch values” inside the CPM intension or pattern prose.
-  *Avoid:* put edition and policy fillers only in `SlotFillingsPlanItem` rows; dated comparison `U.Work` binds effective refs as occurrence parameters, and A.10 supplies the evidence-provenance path.
+  *Avoid:* select intended editions and policies in the A.15.2 baseline; use A.15.3 typed filling only for independently declared positions. Establish actual Compare bindings under §4.1 and cite Work/provenance only under their own grounds.
 
 * **Anti‑pattern: “Tie‑breakers as hidden constants.”**
   *Symptom:* forced total order via untracked thresholds, epsilons, or “if equal then compare cost” logic.

@@ -6,12 +6,12 @@ section_id: "C.2.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 48929
-line_end: 48938
+line_start: 49070
+line_end: 49079
 dependencies:
   - "A.16"
   - "A.18"
@@ -42,7 +42,7 @@ keywords:
 |---|---|---|
 | **Status leakage** | An episteme is called highly formal because it is approved or published. | `CC-F-13` keeps status and formality separate. |
 | **Tool-worship** | A notation, prover, or execution harness is named, so the episteme is rated high-F without checking the content. | `CC-F-11` and `CC-F-12` require observable semantic grounds. |
-| **Appendix inflation** | A small high-formality appendix is used to advertise the whole episteme as high-F. | `CC-F-6` keeps the whole episteme capped by the least-formal essential support. |
+| **Appendix inflation** | A small high-formality appendix is used to advertise the whole episteme as high-F. | `CC-F-6` scopes the cap to the assessed composite expression and its essential content or inference. |
 | **Proxy ladder** | A local context invents "bronze / silver / gold" or "ready / mature / final" and uses it instead of `F`. | `CC-F-4` rejects rival ladders. |
 | **Characteristic capture** | Articulation, closure, scope, or evidence is spoken of as if it were part of `F`. | `CC-F-8`, `CC-F-10`, and `CC-F-15` keep the characteristics orthogonal. |
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.12"
-pattern_title: "Service Acceptance–Work Evidence Link"
+pattern_title: "Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
 section_id: "F.12:11"
 section_title: "Extended worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__012_extended-worked-examples.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.12 — Service Acceptance–Work Evidence Link"
+  - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:11 — Extended worked examples"
-line_start: 106209
-line_end: 106226
+line_start: 106633
+line_end: 106650
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -61,7 +61,7 @@ Promise content: at least 90% of in-scope ischemic-stroke episodes achieve door-
 
 Promise content: product temperature remains in `[2,8] °C` for at least 99.5% of each day. Delivery Work: the daily storage occurrence or defined population. Evidence: calibrated thermistor observations. First ask whether the measurement model directly concerns product exposure. If sensor position indicates another characteristic, name the exact indicator relation and its stratification loss or stop at `missing-governor`. Evaluation Work returns in-band covered time divided by in-scope time on the declared scale. Any result assertion, RequirementStatus, evidence use, and material reliance statement retain the indicator limit separately.
 
-#### F.12:11.4 - SaaS incident MTTR
+#### F.12:11.4 - SaaS incident restoration duration
 
-Promise content: MTTR ≤ 60 minutes for each in-scope incident. Delivery Work: each incident-handling occurrence. Evidence: observed start-fix and restoration events. Evaluation Work applies the declared duration operation and binds one result per incident. Quarterly reporting explicitly aggregates those results or their separately warranted statuses.
+Promise content: restoration within 60 minutes for each in-scope incident. Delivery Work: each incident-handling occurrence. Evidence: observed start-fix and restoration events. Evaluation Work applies the declared duration operation and binds one result per incident. Quarterly reporting explicitly aggregates those results or their separately warranted statuses.
 

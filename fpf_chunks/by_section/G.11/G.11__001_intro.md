@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.11"
-pattern_title: "Telemetry-Driven Refresh and Decay Orchestrator"
+pattern_title: "Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
 section_id: "G.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
+  - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:intro — Intro"
-line_start: 115594
-line_end: 115609
+line_start: 115942
+line_end: 115957
 dependencies:
   - "A.6.RCD"
   - "B.3.4"
@@ -44,7 +44,7 @@ keywords:
   - "use-qualified currentness"
 ---
 
-## G.11 - Telemetry-Driven Refresh and Decay Orchestrator
+## G.11 - Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)
 
 **Tag.** Architectural pattern (architectural; notation-independent)
 > **Status:** Stable

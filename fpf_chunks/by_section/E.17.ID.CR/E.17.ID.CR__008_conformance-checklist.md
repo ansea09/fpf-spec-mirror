@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.ID.CR"
-pattern_title: "ComparativeReviewUnit - bounded comparison over comparative review units"
+pattern_title: "Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
 section_id: "E.17.ID.CR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__008_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
+  - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:7 — Conformance Checklist"
-line_start: 93558
-line_end: 93600
+line_start: 93959
+line_end: 94001
 dependencies:
   - "A.15"
   - "A.15.2"

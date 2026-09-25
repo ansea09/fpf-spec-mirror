@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9"
-pattern_title: "Alignment and Bridge across Contexts"
+pattern_title: "Relate Local Meanings across Contexts (Alignment and Bridge)"
 section_id: "F.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.9 — Alignment and Bridge across Contexts"
+  - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:4 — Solution"
-line_start: 104782
-line_end: 104853
+line_start: 105190
+line_end: 105261
 dependencies:
   - "A.10"
   - "A.13"
@@ -121,7 +121,7 @@ The resulting C.2.1 claim asks whether `b` is suitable for `<u,d,r,t>`. Its exac
 
 An affirmative claim is one premise for the proposed use. It is not a permission, authorization, evidence-provenance relation, reliance classification, assurance claim, decision, or occurrence of that use. A negative claim says that the Bridge is not suitable for the named use; it does not make the Bridge cease to obtain.
 
-For ordinary evidence reliance, recover the exact A.10 evidence-provenance relation and local `RelianceDisposition` for the same bounded use. Only `pass` supports reliance on the affirmative claim for that use; `degrade` supports only its named narrower use, while `abstain`, `reopen`, `evidence-needed`, `assurance-needed`, or `blocked-current-use` supplies no passing classification.
+For ordinary evidence reliance, recover the descriptive A.10 evidence-provenance path, the independently established direct relations it cites, and local `RelianceDisposition` for the same bounded use. Only `pass` supports reliance on the affirmative claim for that use; `degrade` supports only its named narrower use, while `abstain`, `reopen`, `evidence-needed`, `assurance-needed`, or `blocked-current-use` supplies no passing classification.
 
 Use B.3 only when an actual named assurance claim about the proposed use is current. Require its result for the same bounded assurance use; a non-positive disposition stops or narrows that use. A direct domain rule may require the claim, but the Bridge, display, consequence, or A.10 disposition does not create it.
 

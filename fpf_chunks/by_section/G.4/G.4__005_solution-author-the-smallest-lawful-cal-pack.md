@@ -6,12 +6,12 @@ section_id: "G.4:4"
 section_title: "Solution — author the smallest lawful CAL pack"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__005_solution-author-the-smallest-lawful-cal-pack.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:4 — Solution — author the smallest lawful CAL pack"
-line_start: 112150
-line_end: 112401
+line_start: 112582
+line_end: 112837
 dependencies:
   - "A.10"
   - "A.13"
@@ -154,6 +154,8 @@ Each `resultInputDeclarationRef` resolves an A.6.1 `ArgumentDeclaration` whose m
 
   * descriptor/distance/insertion artifacts are pinned by ids/editions,
   * semantics are governed by method‑specific governing definitions (e.g., `C.18`, `C.19`) and not redefined by CAL.
+A CAL clause that consumes G.7 calibration states its exact receiving use and premises. A locally justified CL threshold is an additional policy condition; the ProofLedger and named authority must support that condition. It does not replace the bounded-use claim, target classification or reliance result. A policy waiver changes only the authorized policy condition.
+
 * `CAL.ProofLedger` — a proof/justification ledger:
 
   * links operator/flow/clause ids to their needed legality and soundness results; a numerical support fold includes the B.3/C.2.2 receiving model, compatible scales and inputs, dependence assumptions, and boundary behavior.
@@ -210,6 +212,8 @@ CAL.EvidenceProfile :=
 
 `CALCharterRef` and `TaskMapRef` each resolve one immutable edition. A changed charter, task, TaskSignature edition, clause, operator, flow, evidence profile, or edition-bearing cited list creates a new `taskMapEdition`; an old `TaskMapRef` continues to resolve its old values. The C.22 TaskSignature remains a separately constituted episteme. The map relates that exact signature to the CAL declarations used by selection but neither derives the signature nor duplicates their thresholds.
 
+When CAL authoring relies on SoTA coverage, consume G.2's pack `CoverageJudgementRef` with its HarvestPolicy basis and receiving question. Preserve the distinction between family coverage and lineage/material-entry plurality. A CAL clause does not turn a combined method/generator count into method-only coverage.
+
 #### G.4:4.4 - Interfaces (minimal I/O surface)
 
 | Interface                 | Consumes                                            | Produces                                                                                  |
@@ -230,7 +234,7 @@ A CAL pack is a reusable design-time declaration. A stored operator card, clause
 3. First recover every precise performer's A.13 core for the exact evaluation action, scope, working situation, and window, including the same obtaining assignment later used by any attribution. A.15.1 then independently admits one dated `EvaluationWork : U.Work` from its performance history, enacted Method, extent, and containing-System relation. Add F.6 afterward only when the receiving claim needs exact assignment-bound attribution through that same assignment. Recover the evaluated or affected referent, actual resources, and every concrete participant through its direct subject relation or an `A.6.1` application binding. A compact attribution account may omit only an assignment identifier unused by its receiving claim; it omits no consumed fact. Ordinary activity not claimed as `U.Work` does not enter this branch.
 4. State the local result under its direct predicate and pattern. A `CAL.Acceptance` application yields its exact `pass | fail | unknown` verdict; use A.19 for comparison and selection results, C.16 for measurement results, and C.11 for a decision result. No generic evaluation-result or work-result field substitutes for these objects.
 5. When a durable assertion is needed, constitute one `C.2.1` result episteme whose ClaimGraph states that local result, evaluated subject, interpretation basis, polarity or domain status, and uncertainty when current. The episteme is not the domain result and does not create it.
-6. Attach source recovery and provenance through A.10/G.6 and currentness through G.11. For an ordinary bounded use below B.3's material-reliance threshold, state the exact A.10 evidence-provenance path and local `RelianceDisposition`; enter B.3 only for an assurance claim or material reliance. A citation, ledger edge, evidence profile, disposition, or assurance record does not establish the work, participant, application, or local result it describes.
+6. Attach source recovery and provenance through A.10/G.6 and currentness through G.11. State the A.10 evidence-provenance account and local `RelianceDisposition` for the bounded use, citing the direct rule for any reliance relation. Enter B.3 when an actual named assurance claim is current; a consequential use without one retains its direct governing rule. A citation, ledger edge, evidence profile, disposition, or assurance record does not establish the work, participant, application, or local result it describes.
 7. A later selector, acceptance action, or decision is another governed occurrence. It relies on the result episteme through an exact premise, reference, decision-use, or operation-argument relation; mere storage, citation, or graph membership does not establish actual use.
 
 This chain keeps declaration, execution, local result, result episteme, provenance, bounded reliance, currentness, acceptance, and decision independently recoverable.

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9"
-pattern_title: "Alignment and Bridge across Contexts"
+pattern_title: "Relate Local Meanings across Contexts (Alignment and Bridge)"
 section_id: "F.9:8"
 section_title: "Bridge occurrence, description, Card, and publication"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__010_bridge-occurrence-description-card-and-publication.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.9 — Alignment and Bridge across Contexts"
+  - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:8 — Bridge occurrence, description, Card, and publication"
-line_start: 104908
-line_end: 104938
+line_start: 105316
+line_end: 105346
 dependencies:
   - "A.10"
   - "A.13"
@@ -72,7 +72,7 @@ BridgeCard:
   ProposedReceivingSenseCellRef?: SenseCellAddressRef
   ProposedBridgePredicateProfile?: by-value profile
   BoundedUseClaims?: each with u, d, r, t, polarity, and effective ReferenceScheme
-  A10EvidenceUse?: exact evidence-provenance relation plus local RelianceDisposition
+  A10EvidenceUse?: descriptive evidence-provenance path citing independently established direct relations, plus local RelianceDisposition
   B3Use?: exact AssuranceResult for the same bounded assurance use
   ObservedLossAndCounterexamples?:
   EvidenceWarrantAndCurrentness?:
@@ -80,7 +80,7 @@ BridgeCard:
   CardReferenceScheme:
 ```
 
-For `ClaimMode: actual`, the description/Card episteme's exact EntityOfConcern is the already individuated Bridge occurrence. It may package the Bridge assertion, one or more bounded-use propositions, their evidence and polarity, the exact A.10 relation and local disposition, or the exact B.3 `AssuranceResult` when an actual named assurance claim is current, plus currentness and nearest non-use. Its C.2.1 identity is not the occurrence identity.
+For `ClaimMode: actual`, the description/Card episteme's exact EntityOfConcern is the already individuated Bridge occurrence. It may package the Bridge assertion, one or more bounded-use propositions, their evidence and polarity, the descriptive A.10 evidence-provenance path, the independently established direct relations it cites, and local disposition, or the exact B.3 `AssuranceResult` when an actual named assurance claim is current, plus currentness and nearest non-use. Its C.2.1 identity is not the occurrence identity.
 
 For `ClaimMode: candidate` or `negative`, no positive occurrence reference exists. The modal description/Card episteme's EntityOfConcern is the admitted F.9 direct `Bridge` relation kind; its ClaimGraph designates the proposed endpoints and profile. `candidate` says the proposed Bridge may obtain; `negative` says its predicate does not obtain. Any bounded-use proposition in the same graph keeps its own polarity. Completing, approving, registering, or publishing the description/Card creates no Bridge.
 

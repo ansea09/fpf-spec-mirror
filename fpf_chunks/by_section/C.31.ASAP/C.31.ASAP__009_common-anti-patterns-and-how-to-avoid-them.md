@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.31.ASAP"
-pattern_title: "Architecture Scale-Amenability Preference"
+pattern_title: "Which Architecture Is Preferable Under Scale? (Scale Amenability)"
 section_id: "C.31.ASAP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.31.ASAP — Architecture Scale-Amenability Preference"
+  - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 71071
-line_end: 71080
+line_start: 71290
+line_end: 71299
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -44,17 +44,15 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "RG"
-  - "ScaleClaimTriage"
   - "architecture alternatives"
   - "architecture scale preference"
   - "coarse-graining"
-  - "platform scale claim"
+  - "exception growth"
   - "scale amenability"
+  - "scale probe"
   - "scale variable"
   - "scale window"
-  - "source-return condition"
-  - "waiver reason"
+  - "waiver"
 ---
 
 ### C.31.ASAP:8 - Common Anti-Patterns and How to Avoid Them

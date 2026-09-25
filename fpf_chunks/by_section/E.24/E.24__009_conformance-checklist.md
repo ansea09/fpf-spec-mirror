@@ -6,12 +6,12 @@ section_id: "E.24:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__009_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:6 — Conformance Checklist"
-line_start: 100618
-line_end: 100650
+line_start: 101024
+line_end: 101056
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -56,7 +56,7 @@ Activation rule: every candidate uses the cheap-card checks `CC-E24-1`, `CC-E24-
 | `CC-E24-4` | A durable ontic names the subject's exact identity, constitution, or recognition rule and its minimal governed relation set. For every included relation it names the direct governor; when one is identity-bearing, it also names participant meanings, admitted actual-participant kinds, obtaining condition, and occurrence-identity rule. RelationSignatures and SlotSpecs are added only for typed reuse. |
 | `CC-E24-4a` | When constructive grounding is claimed, the text names the direct grounding rule. Structural identity claims use the `E.14 -> B.3.5 -> C.13` chain with Working-Model, `tv:groundedBy`, and `Γ_m`; non-structural ontics use the identity, grounding, or recognition rule of their subject pattern. |
 | `CC-E24-4b` | Ontic introduction creates no project-side relation occurrence. A designator designates and a governed reference resolves only after the direct predicate and identity rule reidentify the occurrence; an assertion or description episteme carries the claim and designation. A publication occurrence makes a selected episteme edition available and neither designates nor creates the world-side occurrence. |
-| `CC-E24-4c` | E.24 and E.24.UK use the one `E24FamilySettlementDecision` schema. When both a new ontic and a new public U-kind are needed, one atomic decision returns separate `OnticSettlementResult` and `UKindAdmissionResult` references from the same inputs; neither output is an accepted premise for the other, and both remain unaccepted while either branch is unresolved. |
+| `CC-E24-4c` | E.24 and E.24.UK use one `E24FamilySettlementDecision`. Independent positive kind admission may return the explicit direct-use or bounded-coordination conclusion that no additional durable ontic is needed, with no `OnticSettlementResult`. When both new outputs are independently needed, one atomic decision returns separate result references from common inputs; neither is prior evidence for the other and both remain provisional while a required branch is unresolved. An empty relation set or a nearby relation added for form supplies no coordination contribution. |
 | `CC-E24-5` | When the durable branch is selected, the decision states the primary governed subject kind, stable identity criterion, exact identity or constitution rule, minimal governed relation set and direct governors, the reliance basis of each named dependent pattern, existing-pattern reuse, and non-use boundary by value. E.10.ARCH wording-restoration coordinates are included only when that restoration opened the case, and the E.8 pattern nest remains publication placement; neither becomes a component or identity criterion of the ontic. |
 | `CC-E24-5a` | Every current object is classified by the selection question and subject pattern in `E.24:4.3a`. Ontology/declaration-layer inclusion and reliance claims remain typed decision claims unless a separate direct relation is independently governed; none is silently promoted to a world-side occurrence. |
 | `CC-E24-5b` | An encountered card, table, schema, diagram, file, or record is classified through `E.24:4.3a`; visible shape and field co-occurrence decide no governed use. Only an identified `U.System` performs description, rendering, or publication work. |

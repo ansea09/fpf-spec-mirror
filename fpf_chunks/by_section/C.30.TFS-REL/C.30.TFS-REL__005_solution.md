@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30.TFS-REL"
-pattern_title: "Architecture Transformation-Flow Structure Relation"
+pattern_title: "Use Transformation-Flow Structures and Networks in Architecture"
 section_id: "C.30.TFS-REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
+  - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:4 — Solution"
-line_start: 69700
-line_end: 69922
+line_start: 69912
+line_end: 70134
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,6 +50,15 @@ dependencies:
   - "F.18"
   - "G.6"
 keywords:
+  - "ArchitectureTransformationFlowStructureRelation"
+  - "TFS"
+  - "architecture use"
+  - "crossing"
+  - "flow valuation"
+  - "functional view"
+  - "path"
+  - "transformation-flow structure"
+  - "transformation-flow structure network"
 ---
 
 ### C.30.TFS-REL:4 - Solution
@@ -149,7 +158,7 @@ When several transformation-flow variants are kept or compared as candidate arch
 | --- | --- |
 | Work occurrence or work result | `A.15.1` for the occurrence; `A.15` for Method/Work alignment; the governing work-result or P2W relation for those claims |
 | Gate decision | `A.21` |
-| Evidence claim | `A.10` or `G.6` |
+| Evidence claim | `A.10` for source recovery and bounded reliance; `G.6` for an addressable provenance path; the applicable subject rule to judge whether the evidence supports the named claim or meets the named requirement |
 | Assurance claim | `B.3` |
 | Causal flow or intervention claim | `C.28` |
 | Mathematical-lens use | `C.29` |

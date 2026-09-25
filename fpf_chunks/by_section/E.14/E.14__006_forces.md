@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.14"
-pattern_title: "Human‑Centric Working‑Model"
+pattern_title: "Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
 section_id: "E.14:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__006_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.14 — Human‑Centric Working‑Model"
+  - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:3 — Forces"
-line_start: 89706
-line_end: 89725
+line_start: 90090
+line_end: 90109
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -20,11 +20,6 @@ dependencies:
   - "E.7"
   - "E.8"
 keywords:
-  - "assurance layers"
-  - "grounding"
-  - "human-centric"
-  - "publication surface"
-  - "working model"
 ---
 
 ### E.14:3 - Forces
@@ -33,13 +28,13 @@ keywords:
    Managers and engineers must navigate with a handful of names and relations; assurance authors must still check that each name has one intended model value, each relation claim has the required world-side basis, and identity conditions are explicit.
 
 2. **Speed of change vs. guarantees.**
-   The Working‑Model must accommodate rapid iteration; the Assurance stack must **lag just enough** to check, without blocking practical progress.
+   The Working-Model must accommodate revision; support must be updated or its limits exposed before a use that depends on it.
 
 3. **Parsimony vs. expressivity.**
    The Working‑Model should **not proliferate relation types or ad‑hoc categories**; fine‑grained distinctions live in the Assurance layers and are shown **only when they materially change a decision**.
 
 4. **Downward grounding vs. upward contamination.**
-   When grounding is attached, it flows **down** (Working-Model → Mapping, Logical, Constructive, or Empirical support). No dependence **up** is allowed: proofs and traces never dictate wording or layout in the Working-Model.
+   Present the readable claim before its needed Mapping, Logical, Constructive, or Empirical support. Assurance notation and record structure do not dictate the Working-Model's wording or layout. If support defeats or narrows the claim, revise that claim under its direct governing rule and make the change visible.
 
 5. **Trans‑disciplinary unification vs. local dialects.**
    The Working‑Model must reconcile different disciplines’ habits **without erasing them**; Mapping captures dialects, while the Working‑Model exposes a **single usable choice**.

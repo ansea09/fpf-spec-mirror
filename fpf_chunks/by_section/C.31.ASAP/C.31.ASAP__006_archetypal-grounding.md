@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.31.ASAP"
-pattern_title: "Architecture Scale-Amenability Preference"
+pattern_title: "Which Architecture Is Preferable Under Scale? (Scale Amenability)"
 section_id: "C.31.ASAP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.31.ASAP — Architecture Scale-Amenability Preference"
+  - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:5 — Archetypal Grounding"
-line_start: 71000
-line_end: 71043
+line_start: 71219
+line_end: 71262
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -44,17 +44,15 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "RG"
-  - "ScaleClaimTriage"
   - "architecture alternatives"
   - "architecture scale preference"
   - "coarse-graining"
-  - "platform scale claim"
+  - "exception growth"
   - "scale amenability"
+  - "scale probe"
   - "scale variable"
   - "scale window"
-  - "source-return condition"
-  - "waiver reason"
+  - "waiver"
 ---
 
 ### C.31.ASAP:5 - Archetypal Grounding

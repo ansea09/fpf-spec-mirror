@@ -6,12 +6,12 @@ section_id: "F.18:5"
 section_title: "System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__007_system-role-kind-assignment-slot-and-status-naming-settlement.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:5 — System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
-line_start: 109182
-line_end: 109299
+line_start: 109612
+line_end: 109729
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -84,7 +84,7 @@ Treat an action nominal such as `testing`, `assembly`, `maintenance`, `evaluatio
 
 A durable name for performed Work points to one dated occurrence already grounded under `A.15.1`. An action word, plan row, local work-family label, or `U.WorkPlan` does not create that occurrence or an assignment.
 
-Every System claimed as an actual performer must already have its A.13 core, and A.15.1 must independently admit the dated Work from its Method, temporal extent, containing System, and other required direct facts. Add an assignment occurrence and F.6 only when the naming account or receiving use expressly represents precise assignment-bound attribution; then the assignment covers the Work interval, names that already recovered performer as holder, and retains every participant required by its declared `U.SystemRoleAssignment` species. Missing or failed F.6 leaves the Work and its durable name intact. A compact naming account cites only the identities needed by its receiving use. Add a continuity policy only when interruption, retry, a changed Method or binding, or competing designators make occurrence identity material.
+Every System claimed as an actual performer must already have its A.13 core, including the obtaining assignment for the exact action, scope, situation and window. A.15.1 independently admits the dated Work from its Method, temporal extent, containing System and other required direct facts. Add F.6 only when the naming account or receiving use needs precise attribution through that same assignment; the assignment must cover the Work interval, have the recovered performer as holder and retain every participant required by its declared species. Missing or failed F.6 leaves the independently admitted Work and its durable name intact. A compact naming account cites only the identities its receiving use needs. Add a continuity policy only when interruption, retry, a changed Method or binding, or competing designators make occurrence identity material.
 
 Keep neighbouring direct subject and resource-use claims, `A.15.PROD` production claims, measurement-result epistemes, evaluation results, `C.11` choices or decisions, delivery occurrences, acceptance verdicts, and downstream-effect claims separately named under their direct patterns.
 When the underlying boundary wording still hides the relation, apply `A.6.P.WMR`. Use `F.18` only after an exact governed value and its use are recovered through a direct subject relation, an exact `A.6.1` application binding, or an exact local `A.15.PROD`/`A.6.RCD` claim. An exact non-assertability result independently records `factually unsupported`, `missing-information`, or `missing-governor`; none authorizes durable naming, and only `missing-governor` is an ontology blocker that names the affected use and future subject pattern or relation declaration. This section selects and tests a name. It does not define a second work-occurrence or work-result recovery algorithm.
@@ -122,7 +122,7 @@ Ordinary speech may say “surgeon”, “reviewer”, or “operator” when th
 Status-like and evidence-like wording must go to direct patterns:
 
 - status value or status assertion: `F.10` or `A.19.SPR`;
-- evidence-use relation: `A.10`;
+- evidence-use relation: `A.2.4` or its other direct subject pattern; `A.10` for the descriptive evidence-provenance account and bounded reliance;
 - assurance use: `B.3`;
 - source use: `E.10.D2` or source-use patterns;
 - description-episteme identity: `C.2.1`;

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.14"
-pattern_title: "Human‑Centric Working‑Model"
+pattern_title: "Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
 section_id: "E.14:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__016_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.14 — Human‑Centric Working‑Model"
+  - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:13 — Relations"
-line_start: 89991
-line_end: 90012
+line_start: 90375
+line_end: 90396
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -20,11 +20,6 @@ dependencies:
   - "E.7"
   - "E.8"
 keywords:
-  - "assurance layers"
-  - "grounding"
-  - "human-centric"
-  - "publication surface"
-  - "working model"
 ---
 
 ### E.14:13 - Relations
@@ -33,13 +28,13 @@ keywords:
 
 * **E.8 Authoring Conventions & Style Guide** — section order, style principles, and mandatory safety subsections used here.
 * **E.7 Archetypal Grounding** — the Tell‑Show‑Show rule applied in this pattern’s own Grounding section.
-* **C.2.3 Unified Formality Characteristic (F)** — declares the **F** scale and **ΔF** moves for progressive rigor; Working-Model publications **SHALL** declare **F** and remain notation-agnostic.
+* **C.2.3 Unified Formality Characteristic (F)** — governs rigor of expression and its declaration for normative Working-Model epistemes. A declared F establishes neither readability nor assurance; unchanged formal content retains its F across notation changes.
 
 **Coordinates with.**
 
 * **CT2R-LOG — Working-Model Relations and Grounding** — supplies the optional elected profile that adds `validationMode` and, for covered structural assertions, `tv:groundedBy`; direct relations outside the profile need neither field.
 * **Compose-CAL (Constructional Mereology)** — supplies the `sum`, `set`, and `slice` trace content when construction assurance is selected; the trace does not define the Working-Model relation or its identity.
-* **E.10 Lexical Discipline & Stratification** — ensures naming discipline and register hygiene when the human layer is published.
+* **E.10 Unified Lexical Rules for FPF** — supplies naming and register rules when the human-facing Working-Model is published.
 
 **Constrains:**
 

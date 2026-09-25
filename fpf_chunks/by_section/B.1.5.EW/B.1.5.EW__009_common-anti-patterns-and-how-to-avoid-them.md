@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 40036
-line_end: 40045
+line_start: 39966
+line_end: 39975
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"

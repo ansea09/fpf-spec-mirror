@@ -6,12 +6,12 @@ section_id: "E.10.DEV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:4 — Solution"
-line_start: 85675
-line_end: 85732
+line_start: 85995
+line_end: 86052
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -73,7 +73,7 @@ DevelopmentEvolutionWordingRecoveryLine:
 | One identified entity actually changed under conditions | Use `A.3.4`, `A.3.4.P`, `B.4`, and `C.27.TA` as applicable. A sequence, record, intervention, or expected result does not establish the actual transformation or identity-through-change claim. |
 | One holder has or changed capability for a named Work family | Use current `A.2.2` for the capability and A.10 for relied-on evidence. When a prior result now fails, transfers poorly, or varies with conditions and a distinction among envelope and support, applicability, access or activation, adaptation, enactment, and capability-claim revision can change the next question, use current `E.23.CAE` only for that differential. Its disposition is not a `ChoiceResult`, authorization, trajectory selection, or selected development Work. Candidate `E.23.CDI` may govern a separate capability-development Method only after its own admission and a separate applicable steering or choice result selects capability development. Keep provider Work, representative later Work, transfer, effect, and causal contribution separate. |
 | An organization, campaign, producing arrangement, or product-development arrangement changed | Identify the actual kind and its direct owner. Use the applicable DPF or domain Method to establish which working relations changed and under what conditions. Recover the Work, Methods, authority, interfaces, capabilities, evidence, and effects needed by the claim. Use System or programme classification when that owner's rules establish it. Use `A.3.4` for actual change, `C.30` for an architecture question, and the A.15 family for Work or planning. When several structures need a proposed practice-architecture synthesis, candidate `C.32.MWA` supplies a first move: distinguish obtaining from future practice and state the architecture question. Keep current-law claims with admitted owners. Establish any success claim under its declared basis. |
-| An episteme, problem formulation, body of knowledge, or MethodDescription changed | Use `C.2.1` to identify each compared episteme by its claim content, EntityOfConcern, and effective ReferenceScheme; name the editions and changed content needed by the comparison. Stop when this answers the receiving use. Use `C.22.2` when a reviewable problem-side formulation is needed, `A.3.2` for a separate MethodDescription membership question, and `A.6.3.RT` for a needed same-EntityOfConcern representation transition. Add a source return, A.10 evidence-use result, or `G.11` currentness check only when the receiving claim or use needs that contribution. |
+| An episteme, problem formulation, body of knowledge, or MethodDescription changed | Use `C.2.1` to identify each compared episteme by its claim content, EntityOfConcern, and effective ReferenceScheme; name the editions and changed content needed by the comparison. Stop when this answers the receiving use. Use `C.22.2` when a reviewable problem-side formulation is needed, `A.3.2` for a separate MethodDescription membership question, and `A.6.3.RT` for a needed same-EntityOfConcern representation transition. Add a source return, A.10 descriptive source-to-use account and bounded `RelianceDisposition`, or `G.11` currentness check only when the receiving claim or use needs that contribution. |
 | A cultural population or discipline generated, transmitted, reconstructed, recognized, selected, retained, or lost variants | Use `C.36` for the cultural claim. Use `C.36.P` only when cultural wording remains unclear. Preserve the population or practice boundary, period, variants, relations, intervention, and evidence. |
 | A non-cultural population or lineage evolved | Recover only the dimensions on which this claim or its use relies. Possible dimensions include population or lineage identity, membership, generation, reproduction or inheritance, variation, selection, retention or loss, environment, distribution, posture, and evidence. Use an admitted domain owner for their meaning and requirements; otherwise return the named non-cultural population or lineage architecture gap. Do not substitute `C.36` or one-holder `B.4`. |
 | An engineering search changed its archive, front, pool, generator policy, or possibility space | Use `C.17`–`C.19`, `G.5`, and `G.11`. Archive or front history is not population evolution unless the population relations independently obtain. |

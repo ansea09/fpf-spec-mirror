@@ -6,12 +6,12 @@ section_id: "E.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:intro — Intro"
-line_start: 83672
-line_end: 83681
+line_start: 83991
+line_end: 84000
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,6 +65,6 @@ keywords:
 
 **Status and placement.** Part E.10 lexical governance. `F.19` owns the common whole-span precise-language repair; `E.10:0.2` supplies compact cues and routes only a genuinely unresolved FPF wording use. `E.10.D1`, `E.10.LRN`, `E.10.DEV`, `E.10.ROLE`, `E.10.MOVE`, `E.10.ARCH`, the precision-restoration patterns, and `F.18` retain their exact subject work. Sections 5–9 below are optional register, naming, morphology, and overloaded-head references, not a second general language method.
 
-**Builds on:** A.7 **Strict Distinction (Clarity Lattice)**; E.5 Guard-Rails (DevOps Lexical Firewall; Notational Independence; Unidirectional Dependency); F.5 **Naming Discipline for U-kind Names and SystemRoleKindDescription Labels**.
+**Builds on:** A.7 **Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)**; E.5 Guard-Rails (DevOps Lexical Firewall; Notational Independence; Unidirectional Dependency); F.5 **Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions**.
 **Coordinates with.** `E.10.D1` for action-changing uses of *context*; `E.10.ROLE`, A.2, and A.2.1 for system-role kinds and assignments; A.15 and F.6 for Method, Work, and performed-Work attribution; A.10 for evidence use; B.1 and B.3 for Γ‑algebras and assurance; and F.17 with F.9 for source-local meaning and Bridges.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.9"
-pattern_title: "Design‑Rationale Record (DRR) Method"
+pattern_title: "Design-Rationale Record (DRR) for FPF Content Decisions"
 section_id: "E.9:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.9 — Design‑Rationale Record (DRR) Method"
+  - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 83159
-line_end: 83173
+line_start: 83478
+line_end: 83492
 dependencies:
   - "A.10"
   - "A.15.1"

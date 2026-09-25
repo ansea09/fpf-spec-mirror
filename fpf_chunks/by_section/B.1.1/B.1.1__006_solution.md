@@ -6,12 +6,12 @@ section_id: "B.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:4 — Solution"
-line_start: 38609
-line_end: 38679
+line_start: 38546
+line_end: 38616
 dependencies:
   - "A.1"
   - "A.10"
@@ -59,7 +59,7 @@ DependencyStructure@Context:
   definingOrTestingPatternRefs:
 ```
 
-This frame is not a U-kind. It records the current relation claims, their exact participants, grounds and qualifications, the selected dependency structure when one is current, and the patterns that define or test those relations.
+This frame records independently grounded relation claims and their participants. It is not itself a `U.Structure`. When the receiving use needs one selected dependency structure, recover all four A.22 identity discriminators: exact constituents, obtaining relation occurrences, applied constraints and named selection/use frame. The record refers to that structure and to the patterns defining its relations.
 
 #### B.1.1:4.2 - Graph Representation
 
@@ -75,7 +75,7 @@ DependencyGraphRepresentation@Context:
   publicationOrViewRef?
 ```
 
-The graph may express acyclicity, reachability, cutsets, weak links, flow, or traceability. Those checks apply to the graph expression and bear on the selected relation only when the rule for that relation admits the mapping.
+The graph may express acyclicity, reachability, cutsets, weak links, flow, or traceability. Those checks apply to the graph expression and bear on the selected relation only when the rule for that relation admits the mapping. Use C.29 to state the mathematical representation correspondence, preserved and lost distinctions, and validation boundary on which that inference depends.
 
 #### B.1.1:4.3 - Relation Grounding Guide
 
@@ -86,7 +86,7 @@ The graph may express acyclicity, reachability, cutsets, weak links, flow, or tr
 | phase of the same carrier | temporal phase relation | the carrier's identity and phase rules, `A.14`, and `B.1.4` |
 | ordered step or branch | method, process-view, Work, or order relation | `A.3.1`, `A.3.2`, `A.15.1`, or the pattern that defines the order relation; `B.1.4`, and `C.29` when a lens is current |
 | performed work part | work occurrence relation with evidence and timing | `A.15.1` |
-| external influence, signal, supply, measurement, or control | boundary-crossing relation or direct transformation, evidence, measurement, source-use, supply, or control relation | `A.1`, `A.3.4`, `A.10`, `C.26`, or the pattern that defines the exact direct relation |
+| external influence, signal, supply, measurement, or control | the exact obtaining relation and its participants; recover evidence provenance separately | `A.3.4` for an actual transformation, `C.16` for measurement, and the defining pattern for the particular supply or control relation; `A.10` recovers the independently established support and bounded use |
 | representation, dashboard, digital twin, or architecture description | description or representation relation, not parthood | `C.2.1`, `E.17`, `C.30.AD`, `C.30.AD.BA` |
 
 #### B.1.1:4.4 - Graph Checks Are Conditional

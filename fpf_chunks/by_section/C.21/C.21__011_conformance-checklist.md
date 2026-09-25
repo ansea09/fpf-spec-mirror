@@ -6,12 +6,12 @@ section_id: "C.21:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__011_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:9 — Conformance Checklist"
-line_start: 57993
-line_end: 58010
+line_start: 58136
+line_end: 58153
 dependencies:
   - "A.10"
   - "A.17"
@@ -40,7 +40,11 @@ keywords:
   - "alignment"
   - "discipline"
   - "disruption"
+  - "diversity"
+  - "evidence resolution"
   - "field health"
+  - "formal recognition"
+  - "practice adoption"
   - "reproducibility"
   - "standardisation"
 ---

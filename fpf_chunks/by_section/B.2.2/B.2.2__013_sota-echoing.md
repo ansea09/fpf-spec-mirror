@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.2"
-pattern_title: "Meta-System Transition - System Specialization of MHT"
+pattern_title: "Meta-System Transition: Test the Proposed New Whole as a System"
 section_id: "B.2.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__013_sota-echoing.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.2.2 — Meta-System Transition - System Specialization of MHT"
+  - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
   - "B.2.2:10 — SoTA-Echoing"
-line_start: 41263
-line_end: 41271
+line_start: 41193
+line_end: 41201
 dependencies:
   - "A.1"
   - "A.10"

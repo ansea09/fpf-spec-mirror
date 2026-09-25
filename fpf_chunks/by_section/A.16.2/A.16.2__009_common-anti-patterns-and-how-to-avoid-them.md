@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16.2"
-pattern_title: "Reopen / SketchBackoff / Respecify"
+pattern_title: "Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
 section_id: "A.16.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16.2 — Reopen / SketchBackoff / Respecify"
+  - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 31305
-line_end: 31311
+line_start: 31247
+line_end: 31253
 dependencies:
   - "A.16"
   - "A.16.0"

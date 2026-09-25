@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.2"
-pattern_title: "SoTA Harvester & Synthesis"
+pattern_title: "Harvest and Synthesize SoTA for a CG-Frame"
 section_id: "G.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.2 — SoTA Harvester & Synthesis"
+  - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:intro — Intro"
-line_start: 111141
-line_end: 111158
+line_start: 111566
+line_end: 111585
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -46,16 +46,19 @@ keywords:
   - "TraditionAtlasView"
   - "TypedSetViews"
   - "palette-first"
+  - "state of the art"
   - "synthesis"
 ---
 
-## G.2 - SoTA Harvester & Synthesis
+## G.2 - Harvest and Synthesize SoTA for a CG-Frame
 
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative *(unless explicitly marked informative)*
 >
 > **Purpose.** Provide a repeatable, auditable way to **discover**, **triage**, and **synthesize** state‑of‑the‑art (SoTA) across competing `Tradition` lineages *before* minting CHR/CAL/LOG assets for a `CG‑Frame`.
+>
+> **Start here.** Write the question the receiving CHR, CAL or selector work must answer. Before counting coverage, fix the source population and what counts as the same family. Distill the first source claims with their editions, evidence and limits, keeping competing lineages separate. The first useful result is a claim set that can answer part of that question and expose what is still missing. Use the manifest below when developing it into a conforming synthesis pack; a single-source fact lookup can return its source directly without creating such a pack.
 > The primary output is a **`SoTA Synthesis Pack@CG‑Frame`** that feeds:
 >
 > * naming/publication (UTS),

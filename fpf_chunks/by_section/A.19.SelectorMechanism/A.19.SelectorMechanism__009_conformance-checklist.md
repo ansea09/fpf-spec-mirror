@@ -6,36 +6,50 @@ section_id: "A.19.SelectorMechanism:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__009_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:7 — Conformance Checklist"
-line_start: 36779
-line_end: 36803
+line_start: 36723
+line_end: 36747
 dependencies:
+  - "A.19.CHR"
+  - "A.19.CN"
+  - "A.19.ULSAM"
+  - "A.19.USCM"
+  - "A.6.1"
+  - "A.6.5"
+  - "C.22"
+  - "E.18"
+  - "G.0"
+  - "G.5"
 keywords:
+  - "ComparisonResultSlot"
   - "SelectEligibility"
-  - "selected set"
+  - "SelectorMechanism"
+  - "explicit criteria"
+  - "finite basis of binary CPM applications"
+  - "pass/degrade/abstain"
+  - "required comparison coverage"
+  - "selected candidate set"
   - "selection kernel"
-  - "set-returning selection"
-  - "tri-state guard (pass"
 ---
 
 ### A.19.SelectorMechanism:7 - Conformance Checklist
 
 | ID | Requirement |
 | --- | --- |
-| **CC-A19SelectorMechanism-0** | **Mechanism declaration completeness:** one `U.Mechanism` episteme, its exact selection-operation-family `EntityOfConcernRef`, its effective `U.ReferenceScheme`, the direct signature components, SlotSpecs, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, and Applicability are recoverable under A.6.1. |
-| **CC‑A19SelectorMechanism‑1** | **Single governing pattern:** the canonical SelectorMechanism `U.Mechanism.Intension` is governed by `A.19.SelectorMechanism:4.1`; other descriptions cite this section rather than restating the kernel law. |
+| **CC-A19SelectorMechanism-0** | **Mechanism declaration completeness:** one `U.Mechanism` episteme, its exact selection-operation-family `EntityOfConcernRef`, its effective `U.ReferenceScheme`, the operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, and Applicability are recoverable under A.6.1. |
+| **CC‑A19SelectorMechanism‑1** | **Single governing pattern:** the canonical SelectorMechanism `U.Mechanism` declaration is governed by `A.19.SelectorMechanism:4.1`; other descriptions cite this section rather than restating the kernel law. |
 | **CC‑A19SelectorMechanism‑2** | **Set‑return default:** a conformant `Select` MUST be set‑returning by default; it MUST NOT silently collapse partial orders or incomparabilities to a single winner. |
 | **CC‑A19SelectorMechanism‑3** | **No hidden thresholds or constants:** a conformant SelectorMechanism publication MUST NOT smuggle thresholds, weights, dominance rules, tie‑breakers, or default `PortfolioMode` fields. Selection‑level commitments MUST be explicit in `CriteriaSlot` and explicit policy defaults when used (e.g., via `TaskSignatureSlot`). Acceptance thresholds remain governed by `AcceptanceClauses`, `TaskSignature`, or `GateProfile` records and MUST be applied only via `SelectEligibility`. |
 | **CC‑A19SelectorMechanism‑4** | **No hidden scalarization:** if `ComparisonResultSlot` is set‑valued or partial, a conformant publication MUST consume it as such; scalar summaries are report‑only unless explicitly promoted by policy outside suite closure. |
-| **CC-A19SelectorMechanism-5** | **Evidence gating:** `SelectEligibility` returns `pass`, `degrade`, or `abstain`; missing or unknown evidence never yields `pass`. Candidate exclusion or restricted use is explicit in current criteria or policy and recorded by dated selection work rather than hidden in the mechanism declaration. |
+| **CC-A19SelectorMechanism-5** | **Evidence gating:** `SelectEligibility` returns `pass`, `degrade`, or `abstain`; missing or unknown evidence never yields `pass`. Candidate exclusion or restricted use is explicit in the current criteria or policy bound by the actual selection application. |
 | **CC‑A19SelectorMechanism‑6** | **SlotKind discipline:** SlotKind tokens used in the SelectorMechanism intension MUST come from the CHR SlotKind lexicon (`A.19.CHR:4.2.1`). New SlotKinds require lexicon extension first. |
 | **CC-A19SelectorMechanism-7** | **Bridge and reference-plane discipline:** a semantic crossing cites an F.9 Bridge only between two exact F.17 `SchemeSenseCell` values when its profile applies and direct predicate obtains; its C.2.1 bounded-use claim is separate and `CL` is optional. A ReferencePlane crossing cites its applicable relation and policy separately. A scheme, cell, or plane difference alone establishes neither relation. A false or unresolved required Bridge predicate permits no `pass`; use only the explicit `degrade` or `abstain` route already declared. A.10 enters only for current reliance, and B.3—including any locally defined `R_eff` calculation—only for an actual named assurance claim under its declared domain model and calculation. All remain outside selector-declaration content. |
-| **CC-A19SelectorMechanism-8** | **Replay basis completeness:** dated selection `U.Work`, the actual `Select` application, its candidate set, required binary comparisons, every exact upstream CPM application with pair, eligibility and own output binding or absence, token-to-producer trace, criteria and policy, `U.ClaimScope`, selected A.2.6 context slices, predicate basis, reference plane, evaluation window, derived token union, and `SelectionSlot` binding, plus direct evidence-use, provenance, and currentness relations, are recoverable. The outputs carry none of this metadata. |
-| **CC-A19SelectorMechanism-9** | **Planned-filling separation:** `SlotFillingsPlanItem` rows carry planned editions and policy pins; dated selection `U.Work` remains the occurrence; the actual operation application carries effective argument and result bindings; and A.10 supplies evidence provenance when relied on. |
-| **CC‑A19SelectorMechanism‑10** | **Specialisation-chain discipline:** any `⊑` or `⊑⁺` specialization of SelectorMechanism MUST satisfy `A.6.1:4.2.1`, especially SlotKind invariance and “no new mandatory inputs” to inherited `Select`. |
+| **CC-A19SelectorMechanism-8** | **Replay basis completeness:** recover the actual `Select` application, its candidate set, required binary comparisons, every exact upstream CPM application with pair, eligibility and own output binding or absence, token-to-producer trace, criteria and policy, `U.ClaimScope`, selected A.2.6 context slices, predicate basis, reference scheme and plane, evaluation window, derived token union, and returned `SelectionSlot` binding or explicit absence. Independently recover dated Work under A.15.1, evidence use under A.2.4, reliance and provenance under A.10, currentness under G.11 and a result episteme under C.2.1 only when asserted by the account or consumed by the receiving use. A Select application does not itself require separately admitted upstream comparison Work. The output values carry none of this metadata. |
+| **CC-A19SelectorMechanism-9** | **Planned-filling separation:** A.15.2 carries intended editions/policies; A.15.3 typed filling applies only to independently declared positions. Actual Select applications carry effective argument/result bindings; dated selection Work and any relied-on A.10 provenance remain separately established. |
+| **CC‑A19SelectorMechanism‑10** | **Extension discipline:** a proposed SelectorMechanism specialization MUST preserve inherited SlotKind designators and their meanings and add no mandatory input to inherited Select. For a claimed refinement, conservative extension or equivalence, apply the corresponding A.6.1 §4.8 preservation test, including application/binding predicates, identity and extent. The exact comparison predicate and endpoint facts must be established; use A.6.RCD’s missing-governor/substrate result when they are absent. The symbols ⊑ and ⊑⁺ alone establish none of these comparisons. |
 | **CC-A19SelectorMechanism-11** | **Guard and gate separation:** `SelectorMechanism` publishes neither `GateDecision` nor `DecisionLog`; `SelectEligibility` returns `pass`, `degrade`, or `abstain` separately from the selected set. |
 | **CC-A19SelectorMechanism-12** | **Selection-condition completeness:** `CriteriaSlot`, effective selector policies and defaults, and any `degrade` failure behavior are explicit and bound by the actual application; acceptance and admission predicates remain separate. |
 | **CC-A19SelectorMechanism-13** | **Selection-scope completeness:** every actual application binds candidate universe, finite exact binary CPM application basis, required comparison coverage, token-to-producer trace, `U.ClaimScope`, selected A.2.6 context slices, A.19 predicate basis, effective reference scheme and plane, and explicit evaluation point or interval. No generic context input, optional structure, batch result, or label supplies them. |

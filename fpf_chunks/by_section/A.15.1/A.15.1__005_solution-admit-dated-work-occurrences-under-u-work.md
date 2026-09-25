@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.1"
-pattern_title: "U.Work"
+pattern_title: "U.Work: Dated Performed Work Occurrence"
 section_id: "A.15.1:4"
 section_title: "Solution — admit dated Work occurrences under U.Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__005_solution-admit-dated-work-occurrences-under-u-work.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.15.1 — U.Work"
+  - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:4 — Solution — admit dated Work occurrences under U.Work"
-line_start: 26653
-line_end: 26775
+line_start: 26542
+line_end: 26664
 dependencies:
   - "A.1"
   - "A.10"
@@ -137,7 +137,7 @@ When a separate assertion or description episteme describes one Work occurrence,
 | A claim-bearing episteme expressed through a **recipe, code artifact, or diagram** and substantively about one admitted exact method | **`U.MethodDescription`** | Does the same episteme meet A.3.2's exact membership threshold? Otherwise retain the claim-bearing episteme and any representation, publication, or formal-substrate object independently identified by its own pattern; do not call the episteme a MethodDescription. |
 | The **semantic "way of doing"**               | **`U.Method`**             | Same method identity across notations?                         |
 | The **assignment** (which admitted System is assigned under which local system-role kind in this case) | **one obtaining occurrence of one directly declared species under `U.SystemRoleAssignment`** | Can this assignment occurrence change without changing the System or its declared species? |
-| The **ability** ("can do within bounds")      | **`U.Capability`**         | Would remain even if not assigned?                             |
+| The **ability** ("can do within bounds")      | **Qualified holder ability (A.2.2)**         | Would remain even if not assigned?                             |
 | The **dated occurrence** with logs and resource-use evidence | One Work individual admitted under **`U.Work`** | Did the exact action happen during the stated extent, with every actual performer's A.13 core, at least one Method actually followed, and at least one declared containing-system relation under an exact boundary? If precise assignment-bound attribution is also claimed, does a separate F.6 relation obtain for the already admitted Work? Are any claimed binding, work-to-referent, or resource-use facts independently obtaining? |
 | The **actual state change associated with this occurrence** | **`U.Transformation` plus a named domain predicate, or a C.2.1 local compound claim under A.6.RCD disposition 2** | Is the change independently grounded under A.3.4? Does the direct predicate obtain for exact W and T, or does the local claim expose its constructor, governed bases, participants, and case facts? If neither route is present, retain both objects and return `missing-governor[work-to-change]`. |
 

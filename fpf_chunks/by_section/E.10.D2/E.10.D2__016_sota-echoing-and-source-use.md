@@ -6,12 +6,12 @@ section_id: "E.10.D2:14"
 section_title: "SoTA-echoing and source use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__016_sota-echoing-and-source-use.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:14 — SoTA-echoing and source use"
-line_start: 87332
-line_end: 87342
+line_start: 87652
+line_end: 87662
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -34,12 +34,15 @@ dependencies:
   - "F.9"
   - "G.11"
 keywords:
-  - "Description episteme"
-  - "DescriptionContext"
+  - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"
+  - "checkable claims"
+  - "description episteme"
+  - "harness"
+  - "publication"
+  - "representation"
   - "specification use"
-  - "testable"
-  - "verifiable"
+  - "viewpoint"
 ---
 
 ### E.10.D2:14 - SoTA-echoing and source use

@@ -6,12 +6,12 @@ section_id: "G.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 113732
-line_end: 113744
+line_start: 114054
+line_end: 114066
 dependencies:
   - "A.10"
   - "A.13"
@@ -29,6 +29,7 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.18.2"
+  - "E.24.PUB"
   - "F.10"
   - "F.6"
   - "F.9"
@@ -64,7 +65,7 @@ keywords:
 | MethodDescription as run trace | Generic declarations acquire actual participants, time, or results by graph membership. | Cite one independently admitted dated Work ref and its A.13-qualified actual performer refs through §4.1. Keep Method enactment, resources, direct participation, and A.6.1 bindings separate; expose an assignment occurrence and F.6 relation only when the path expressly consumes precise assignment-bound attribution. |
 | Generic result node | Measurement, evaluation, aggregation, episteme, outcome, and decision collapse. | Keep each local result under its domain governor and each durable assertion under C.2.1. |
 | Provenance as result or assurance | A path or ledger row is read as truth, currentness, safety, permission, or acceptance. | Use A.10, G.11, and B.3 under their entry conditions, and state the exact local result under its applicable predicate and pattern. |
-| Citation as actual use | A downstream record cites a path and is assumed to have used it. | Ground dated downstream work and one exact premise, reference, argument, or decision-use relation. |
+| Citation as actual use | A downstream record cites a path and is assumed to have used it. | Establish the exact premise, reference, argument, or decision-use relation; recover dated Work separately under §4.1 when the claim asserts that occurrence. |
 | Workflow overread | A declarative path becomes a method or action route. | Handle Work under A.15.1 and transformation-flow structure under E.18; limit G.6 to representation and citation. |
 | Global refresh | One changed source or relation reopens every graph. | Reopen only the affected path, slice, node projection, or relation-edge projection. |
 

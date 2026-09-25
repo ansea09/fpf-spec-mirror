@@ -6,12 +6,12 @@ section_id: "A.6.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:4 — Solution"
-line_start: 17445
-line_end: 17750
+line_start: 17427
+line_end: 17732
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -134,14 +134,14 @@ One `SlotKind` names one participant meaning locally inside one exact `RelationS
 
 A representation can correspond to a direct relation, assertion content, declaration, participant designation, or already recoverable occurrence. State the exact source element, represented FPF object or claim content, and explicit `C.29` correspondence. Representation form neither makes the relation obtain nor supplies participant or occurrence identity.
 
-Functional and arrow forms are therefore assertion or representation notation, not world-side relation objects:
+Functional and arrow forms are assertion or representation notation. The following installed-part example is hypothetical: a relied use first needs the missing direct relation and occurrence rules identified in §5.1.
 
 ```text
 installedPartOf(Bearing_B, Pump_P, during=Interval_T)
 Bearing_B --installedPartOf{during=Interval_T}--> Pump_P
 ```
 
-The first can represent the content of a relational assertion; the second is a binary projection in a selected representation. A use that relies on either notation declares how its argument or endpoint elements correspond to the actual participants, direct predicate, qualifications, and any designated occurrence. The ordinary readable sentence remains sufficient when no representation-dependent use is current.
+The first can represent the content of a relational assertion; the second is a binary projection in a selected representation. After those rules exist, a use that relies on either notation declares how its argument or endpoint elements correspond to the actual participants, direct predicate, qualifications, and any designated occurrence. The ordinary readable sentence remains sufficient when no representation-dependent use is current.
 
 #### A.6.P:4.5 - Increase explicitness only for a named receiving use
 
@@ -305,7 +305,7 @@ This table is a local recovery aid. Select the rows for the actual claims and st
 | API, interface, access procedure, runbook, or other description | Name the claim-bearing description and what it describes. | Use C.2.1; use `U.MethodDescription` only after A.3.2's same-individual membership test, and add publication or specification use only when current. |
 | Intended delivery, connection, repair, or provisioning | State the intended Work and its intended fillings. | Use one `U.WorkPlan` under A.15.2; open the Work row when performed history becomes current. |
 | Actual service provision, request handling, connection, provisioning, repair, or delivery | Recover each exact actual performer through A.13, then use A.15.1 to admit one dated occurrence and name its Method, extent, and containing System. Add F.6 only when this service account also consumes precise assignment-bound attribution; its absence or failure leaves the Work intact. | Use A.15.1 `U.Work` and only direct Work relations that obtain. |
-| Capability to provide or sustain service or access | Name the holder and the capability whose currentness matters. | Use one holder-dependent `U.Capability` under A.2.2. |
+| Capability to provide or sustain service or access | Name the holder, work or result, conditions and attained bounds; recover the support whose currentness matters. | Use the qualified holder-ability claim and separate fit comparison under A.2.2. |
 | Ticket, case, log, measurement, evidence, or evaluation | State the particular claim carried or supported and the decision that relies on it. | Use C.2.1 for the episteme and only the measurement, evaluation-operation, result-binding, or A.10 evidence relations needed now. |
 | Promise use, outcome delivery, fulfilment, or acceptance | State the exact relation claimed and its participants. | Use A.2.3 relations when their conditions hold, plus separately governed evaluation, result, delivery, or acceptance relations actually used. |
 | Current status, connectivity, entitlement, delivery, acceptance, exposure, or another subject relation | Name the bearer and direct relation or characteristic asserted now. | Use A.19.SPR while the state wording remains unresolved; otherwise use the pattern that defines the asserted relation or characteristic, adding Work only for a dated performed occurrence. |

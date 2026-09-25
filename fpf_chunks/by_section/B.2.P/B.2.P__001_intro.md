@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.P"
-pattern_title: "Emergence and MHT Precision Restoration"
+pattern_title: "Clarify Emergence and Meta-Holon Transition (MHT) Claims"
 section_id: "B.2.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.2.P — Emergence and MHT Precision Restoration"
+  - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:intro — Intro"
-line_start: 40800
-line_end: 40805
+line_start: 40730
+line_end: 40735
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -45,7 +45,7 @@ dependencies:
 keywords:
 ---
 
-## B.2.P - Emergence and MHT Precision Restoration
+## B.2.P - Clarify Emergence and Meta-Holon Transition (MHT) Claims
 
 > **Type:** Part B precision-restoration pattern
 > **Status:** Stable

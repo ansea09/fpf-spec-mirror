@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.6"
-pattern_title: "Unified Scope Mechanism (USM): Context Slices & Scopes"
+pattern_title: "Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
 section_id: "A.2.6:18"
 section_title: "Extended FAQ (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__020_extended-faq-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
+  - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:18 — Extended FAQ (informative)"
-line_start: 6357
-line_end: 6387
+line_start: 6320
+line_end: 6350
 dependencies:
   - "A.1.1"
   - "A.15.1"

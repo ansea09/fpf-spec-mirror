@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.3"
-pattern_title: "U.PromiseContent (Promise Content)"
+pattern_title: "U.PromiseContent — Promised Outcomes and Acceptance Criteria"
 section_id: "A.2.3:4"
 section_title: "Solution - Define U.PromiseContent as the promise-content episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__007_solution-define-u-promisecontent-as-the-promise-content-episteme.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.3 — U.PromiseContent (Promise Content)"
+  - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:4 — Solution - Define U.PromiseContent as the promise-content episteme"
-line_start: 4555
-line_end: 4756
+line_start: 4516
+line_end: 4717
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -35,7 +35,6 @@ dependencies:
   - "E.10"
   - "F.12"
   - "F.9"
-  - "U.Capability"
   - "U.ClaimScope"
   - "U.Episteme"
   - "U.Method"
@@ -205,13 +204,13 @@ This mini-schema is a recommendation only: it does not admit another U-kind. An 
 * **Not a method or method description:** the semantic way of doing is `U.Method`; a recipe or other episteme describing that way is `U.MethodDescription`.
 * **Not delivery work or its description:** performed delivery is `U.Work`; a ticket, case description, or incident description is a separately governed episteme about planned or performed work.
 * **Not a work schedule:** use `U.WorkPlan` under A.15.2 when the content coordinates intended Work.
-* **Not a capability:** capability is the provider system's admitted ability to perform a declared work family or produce a declared result class within its `U.WorkScope`, measure set, qualification window, and currentness condition. Delivery under a promise may depend on one or more capability instances.
+* **Not a capability:** capability is the provider System's ability to perform a work family or produce a result class under declared conditions and attained bounds. A.2.2 separates that proposition from its assertion, qualification and fit. Delivery may depend on several qualified ability claims about the provider or other holders.
 * **Not its scope or use interval:** `U.ClaimScope` states where the promise claims hold, `U.WorkScope` states where a provider capability can deliver work, and `PromiseUseIntervalSlot` states when one `PromiseContentUse` occurrence obtains. These are three different values.
 
 #### A.2.3:4.3 - Promise content, delivery work, and evaluation work
 
 * **Before delivery work:**
-  The promise-content episteme declares its effective `U.ReferenceScheme`, named `U.ClaimScope`, promised outcome specification, access specification when current, and acceptance specification. The provider system's ability remains a holder-dependent `U.Capability` instance under A.2.2. A capability-fit predicate tests that instance against the thresholds selected for the planned delivery work, including any threshold stated by the chosen method description. Method-selection work may yield a C.11 `ChoiceResult`; `enactsMethod` obtains between the later delivery-work occurrence and the selected `U.Method`. A relied-on episteme is a `U.MethodDescription` only when it meets A.3.2 membership, and the promise-content or acceptance claim may cite it for the named use.
+  The promise-content episteme declares its effective `U.ReferenceScheme`, named `U.ClaimScope`, promised outcome specification, access specification when current, and acceptance specification. A.2.2 states the provider System's qualified ability. A separate capability-fit predicate compares that claim's work conditions and attained bounds with the conditions and thresholds selected for the planned delivery work, including any threshold stated by the chosen method description. Method-selection work may yield a C.11 `ChoiceResult`; `enactsMethod` obtains between the later delivery-work occurrence and the selected `U.Method`. A relied-on episteme is a `U.MethodDescription` only when it meets A.3.2 membership, and the promise-content or acceptance claim may cite it for the named use.
 
 * **Run‑time:**
   For request or visit Work, use A.13 to identify the actual consumer System `S`, then let A.15.1 admit `requestWork` independently. If the current use must also state under which assignment the request was performed, F.6 checks `performedUnderAssignment(requestWork, consumerRA)` against the same assignment used by A.13 and compares `S` with `consumerRA.HolderSystemSlot`.

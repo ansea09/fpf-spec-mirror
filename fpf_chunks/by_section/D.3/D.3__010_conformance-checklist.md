@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "D.3"
-pattern_title: "Interlevel Ethical Conflict Structure"
+pattern_title: "Describe an Ethical Conflict Across Levels or Scopes"
 section_id: "D.3:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__010_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "D.3 — Interlevel Ethical Conflict Structure"
+  - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:6 — Conformance Checklist"
-line_start: 77753
-line_end: 77764
+line_start: 77978
+line_end: 77989
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,6 +33,7 @@ dependencies:
   - "E.17"
   - "E.24.PUB"
 keywords:
+  - "interlevel ethical conflict"
 ---
 
 ### D.3:6 - Conformance Checklist

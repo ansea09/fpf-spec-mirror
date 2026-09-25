@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.4.FPF"
-pattern_title: "First Principles Framework Form and Publication-or-Access Carrier Assembly"
+pattern_title: "FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
 section_id: "E.4.FPF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__003_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
+  - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:2 — Problem"
-line_start: 79165
-line_end: 79178
+line_start: 79462
+line_end: 79475
 dependencies:
   - "C.33"
   - "C.34"

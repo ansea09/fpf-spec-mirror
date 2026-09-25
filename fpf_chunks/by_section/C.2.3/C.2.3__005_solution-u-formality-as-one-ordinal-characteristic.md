@@ -6,12 +6,12 @@ section_id: "C.2.3:4"
 section_title: "Solution - U.Formality as one ordinal characteristic"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__005_solution-u-formality-as-one-ordinal-characteristic.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:4 — Solution - U.Formality as one ordinal characteristic"
-line_start: 48860
-line_end: 48898
+line_start: 49001
+line_end: 49039
 dependencies:
   - "A.16"
   - "A.18"
@@ -42,7 +42,7 @@ keywords:
 
 #### C.2.3:4.1 - Identity and typing
 
-- **Name:** `U.Formality` (abbreviated `F` in the assurance tuple)
+- **Name:** `U.Formality` (abbreviated `F`)
 - **Type:** `U.Characteristic`
 - **Scale kind:** ordinal
 - **Polarity:** `up`
@@ -53,11 +53,11 @@ keywords:
 
 #### C.2.3:4.2 - Place in the typed `F-G-R` tuple
 
-`F` is the formality coordinate in the assurance tuple. Its interaction rules are strict:
+A named assurance argument may consume `F` alongside G or R under B.3. Declaring F for a normative episteme does not itself select an assurance argument or require the current use to consume a universal tuple. The characteristics remain distinct:
 
 - `F` is **not** `G`; scope remains governed by `U.ClaimScope` and other USM structures.
 - `F` is **not** `R`; evidence, warrant strength, and decay remain assurance concerns.
-- `CL` and bridge losses affect **`R`**, not `F`.
+- Mapping loss is assessed for the actual receiving use. Any effect on R needs its B.3/C.2.2 basis; an ordinal CL value supplies no automatic penalty and does not change F.
 - Changes in notation, carrier, or rendering form do not change `F` if the formal content is preserved.
 
 #### C.2.3:4.3 - Extensibility and local anchors

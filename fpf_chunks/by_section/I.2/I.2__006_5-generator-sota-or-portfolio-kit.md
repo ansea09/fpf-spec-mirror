@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "I.2"
-pattern_title: "Expanded Entry Disambiguation Cases"
+pattern_title: "Choose a First Pattern: Expanded Entry Disambiguation Cases"
 section_id: "I.2"
 section_title: ".5 - Generator, SoTA, or Portfolio Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__006_5-generator-sota-or-portfolio-kit.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "I.2 — Expanded Entry Disambiguation Cases"
+  - "I.2 — Choose a First Pattern: Expanded Entry Disambiguation Cases"
   - "I.2 — .5 - Generator, SoTA, or Portfolio Kit"
-line_start: 116781
-line_end: 116804
+line_start: 117135
+line_end: 117158
 dependencies:
   - "E.10"
   - "E.11"

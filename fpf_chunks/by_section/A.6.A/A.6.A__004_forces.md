@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.A"
-pattern_title: "Action-Invitation Precision Restoration (ACT-INV)"
+pattern_title: "Affordance and Action-Invitation Precision Restoration (ACT-INV)"
 section_id: "A.6.A:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
+  - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:3 — Forces"
-line_start: 19340
-line_end: 19350
+line_start: 19322
+line_end: 19332
 dependencies:
   - "A.15"
   - "A.16"
@@ -21,6 +21,7 @@ dependencies:
   - "A.3"
   - "A.6.B"
   - "A.6.P"
+  - "A.6.REL"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
@@ -31,24 +32,27 @@ dependencies:
   - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "E.10"
   - "E.17"
   - "E.17.0"
   - "E.18"
+  - "F.17"
+  - "F.18"
   - "F.9"
 keywords:
-  - "A.15 docking"
-  - "action invitation"
   - "action-first language"
   - "affordance"
-  - "language-state seam"
-  - "post-threshold classification"
+  - "detection"
+  - "inquiry question"
+  - "physical opportunity"
+  - "wording recovery"
 ---
 
 ### A.6.A:3 - Forces
 
 * **Action speed vs auditability.** Action-first language is attractive because it is fast; that same speed makes it unsafe at boundaries.
-* **Situated coupling vs explicit publication.** Affordances arise in agent–environment or policy–world coupling, but boundary use requires explicit local publication.
-* **Preconceptual cue vs later articulation.** Some invitations are real before they are stably worded.
+* **Situated opportunity vs its account.** A physical opportunity can depend on the agent and environment even when no current account detects it; an information-constituted opportunity follows its own subject rule.
+* **Preconceptual cue vs later articulation.** Detection, verbal articulation and the obtaining of an opportunity can have different conditions.
 * **Enactor specificity vs shared discourse.** A cue may be visible to one detector yet relevant to another would-be enactor.
 * **Opportunity vs obligation.** Not every invitation is a gate or commitment.
 * **Option plurality vs premature scalarisation.** Several candidate actions may co-exist without an admissible total ordering.

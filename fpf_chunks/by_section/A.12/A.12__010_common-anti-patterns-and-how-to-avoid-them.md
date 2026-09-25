@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.12"
-pattern_title: "Acting-Side Externalization and Reflexive Split"
+pattern_title: "Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
 section_id: "A.12:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.12 — Acting-Side Externalization and Reflexive Split"
+  - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 25623
-line_end: 25633
+line_start: 25510
+line_end: 25520
 dependencies:
   - "A.1"
   - "A.1.1"

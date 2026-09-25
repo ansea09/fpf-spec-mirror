@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.2.0"
-pattern_title: "U.AbductivePrompt"
+pattern_title: "Question Form for Entering Abduction (U.AbductivePrompt)"
 section_id: "B.5.2.0:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.2.0 — U.AbductivePrompt"
+  - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 46516
-line_end: 46520
+line_start: 46463
+line_end: 46467
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -30,15 +30,10 @@ dependencies:
   - "C.2.LS"
   - "F.9.1"
 keywords:
-  - "abductive prompt"
-  - "explanation-ready cue"
-  - "prompt species"
-  - "rival-set discipline"
-  - "threshold crossing"
 ---
 
 ### B.5.2.0:8 - Common Anti-Patterns and How to Avoid Them
 - **Prompt equals hypothesis.** Keep the prompt distinct from the abductive output.
-- **Anything can begin abduction.** No: only declared prompt species can.
+- **A choice disguised as abduction.** Recover the explanatory question, if one exists; send the probe, action or acquisition choice to its actual Method.
 - **Route amnesia.** A cue-derived prompt loses the early route provenance that explains why it entered here.
 

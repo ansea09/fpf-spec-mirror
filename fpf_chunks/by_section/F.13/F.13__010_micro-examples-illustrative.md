@@ -6,15 +6,16 @@ section_id: "F.13:9"
 section_title: "Micro‑examples (illustrative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__010_micro-examples-illustrative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:9 — Micro‑examples (illustrative)"
-line_start: 106390
-line_end: 106427
+line_start: 106819
+line_end: 106853
 dependencies:
   - "F.1"
-  - "F.10"
+  - "F.17"
+  - "F.18"
   - "F.2"
   - "F.3"
   - "F.5"
@@ -23,29 +24,28 @@ dependencies:
   - "F.9"
 keywords:
   - "deprecation"
-  - "evolution"
-  - "merging terms"
-  - "renaming"
-  - "splitting terms"
+  - "historical reading"
+  - "lexical continuity"
+  - "local aliases"
+  - "renaming labels"
+  - "retirement"
+  - "splitting and merging labels"
 ---
 
 ### F.13:9 - Micro‑examples (illustrative)
 
-#### F.13:9.1 - Pure rename inside a Context (ITIL → clearer plain label)
+#### F.13:9.1 - Pure rename inside a local service vocabulary
 
-*Context:* **ITIL 4 (services)**.
-Old: **“SLO” (plain: *service target*)** → New: **“service‑level objective” (plain unchanged)**.
-**Relation:** `renames("SLO" → "service‑level objective")`.
-**Why:** F.5 morphology & expansion; SenseCell unchanged (same clause semantics).
-**Effect:** Old guidance remains readable; new writing spells out the term.
+*Constructed case:* Under the fixed `ServiceVocabulary-1` reference scheme, the local-sense claim is “a service indicator threshold together with its assessment window”. The old expression is **“SLO”**, the proposed expression is **“service-level objective”**, and both serve the same use of reading a service objective. No change to the objective or assessment rule is proposed.
+**Relation:** `renames("SLO" → "service-level objective")`.
+**Why:** The scheme, sense and use are unchanged; expansion improves recognition.
+**Effect:** Retain the two exact cells `<ServiceVocabulary-1, "SLO", claim>` and `<ServiceVocabulary-1, "service-level objective", claim>` in the naming lineage. Old text retains its earlier expression and meaning; new writing uses the expansion. No Bridge is needed for these identical semantic projections.
 
 #### F.13:9.2 - Alias for a common legacy synonym (Sys‑CAL)
 
-*Context:* **state‑space control (design)**.
-Preferred: **“actuation”**. Legacy: **“control output”**.
+*Illustrative premise:* A local state-space control vocabulary has independently established the same scheme, sense and use for **“control output”** and **“actuation”**. This premise requires source-local recovery in a real application; the words alone are insufficient.
 **Relation:** `aliases("control output" ↔ "actuation")`.
-**Why:** Same SenseCell; legacy term appears in older textbooks.
-**Effect:** Readers resolve to the SenseCell; new texts use “actuation”.
+**Effect:** Keep the distinct expression-bearing cells and one historical read-path. New text uses the locally selected preferred expression **“actuation”**.
 
 #### F.13:9.3 - Split of a muddled local sense (Enactment)
 
@@ -54,9 +54,9 @@ Legacy label **“process”** was used to mean both **“collaboration”** and
 **Relation:** `splits("process" ⇒ {"collaboration","executable‑process"})`.
 **Effect:** The single Concept‑Set row becomes two; old label is deprecated with a disambiguation note.
 
-#### F.13:9.4 - Merge after clustering raised confidence (Kind-CAL row)
+#### F.13:9.4 - Merge duplicate comparison rows
 
-Two Concept‑Set rows **{“DBaaS”, “Database‑Service”}** converge after F.3 within the same context profile and F.9 raised CL.
+Suppose the two Concept-Set rows labelled **“DBaaS”** and **“Database-Service”** display the same named comparison or use, exact entries, independently established relations, losses, basis and receiving-use conclusion. They are duplicate displays; combining them asserts no new sameness among their entries.
 **Relation:** `merges({"DBaaS","Database‑Service"} ⇒ "Database‑Service")`.
 **Effect:** “DBaaS” becomes a legacy alias with an epoch note.
 
@@ -65,5 +65,5 @@ Two Concept‑Set rows **{“DBaaS”, “Database‑Service”}** converge afte
 *Contexts:* **BPMN (design graph)** vs **PROV‑O (run activity)**.
 Temptation: “Let’s rename *process* to *activity*.”
 **Diagnosis:** Cross‑context; **different SenseCells**.
-**Action:** **No continuity relation.** Keep labels; if needed, declare a **Bridge** (F.9) explaining design→run mapping with CL/Loss.
+**Action:** Keep the labels and their exact meanings. If a semantic correspondence is needed, establish its F.9 relation and a separate bounded-use claim with current reliance. A design-to-run or production relation belongs under its direct subject rule.
 

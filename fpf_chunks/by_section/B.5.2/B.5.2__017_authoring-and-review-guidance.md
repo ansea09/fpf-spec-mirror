@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.2"
-pattern_title: "Abductive Loop"
+pattern_title: "Generate and Compare Candidate Explanations (Abductive Loop)"
 section_id: "B.5.2:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__017_authoring-and-review-guidance.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.2 — Abductive Loop"
+  - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:16 — Authoring and Review Guidance"
-line_start: 46384
-line_end: 46412
+line_start: 46347
+line_end: 46368
 dependencies:
   - "A.10"
   - "A.16"
@@ -22,26 +22,13 @@ dependencies:
   - "B.5"
   - "B.5.2.0"
 keywords:
-  - "abduction"
-  - "candidate hypotheses"
-  - "explanatory prompt"
-  - "origin trace"
-  - "plausibility filters"
-  - "route-to-hypothesis"
 ---
 
 ### B.5.2:16 - Authoring and Review Guidance
 
 #### B.5.2:16.1 - For abductive-publication authors
 
-Authors should treat the abductive loop as a **selection discipline**, not as a prose genre. The minimal questions are:
-
-- what is the prompt,
-- what rival candidates were seriously considered,
-- why is one candidate currently the best live conjecture,
-- and what downstream move could expose that selection as right or wrong?
-
-If those answers cannot be given, the publication is probably not yet at `B.5.2` and should return to prompt-shaping or lexical repair.
+For an abductive publication, make the prompt, seriously considered rivals, plausibility grounds and outcome recoverable. If a prime hypothesis is warranted, explain why it is preferred, its allowed use and a meaningful possible discriminator. Otherwise state the abort, defer or split outcome and its grounds under §14.2. Return to prompt-shaping or lexical repair when the question, scope or intended meanings remain unclear.
 
 #### B.5.2:16.2 - For hypothesis reviewers
 

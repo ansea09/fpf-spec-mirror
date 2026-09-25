@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3.5"
-pattern_title: "Working-Model Relations & Grounding (CT2R-LOG)"
+pattern_title: "Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
 section_id: "B.3.5:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__018_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
+  - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:15 — Relations"
-line_start: 42810
-line_end: 42832
+line_start: 42759
+line_end: 42781
 dependencies:
   - "B.3"
   - "C.13"
@@ -37,7 +37,7 @@ keywords:
 - **Notational Independence (E.5.2)** — CT2R‑LOG refuses to prescribe formats, keeping all obligations conceptual.
 
 **Specialises / feeds**
-- **B.3.1–B.3.4** — supplies the publication discipline (Working-Model relations, declared **relation kind** and **validationMode**; **F** per C.2.3 where relevant) that B.3’s trust calculus expects; interacts with ageing and assurance-level assessments without changing the relations themselves.
+- **B.3, B.3.3 and B.3.4** — supplies the publication discipline (Working-Model relations, declared **relation kind** and **validationMode**; **F** per C.2.3 where relevant) that B.3’s trust calculus expects; interacts with ageing and assurance-level assessments without changing the relations themselves.
 
 **Non‑relations**
 **No introduction of order/time** — CT2R‑LOG does **not** define `SerialStepOf` / `ParallelFactorOf` / temporal **phases**; use `B.1.5` for Method-order claims, `A.14` and `B.1.4` for same-carrier temporal phases and their aggregation, and `A.15.1` for Work parts and occurrences.

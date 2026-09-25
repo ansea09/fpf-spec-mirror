@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.0"
-pattern_title: "Frame Standard and Comparability Governance — CG‑Spec"
+pattern_title: "Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
 section_id: "G.0:5"
 section_title: "Archetypal Grounding — Tell–Show–Show; System / Episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__006_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
+  - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:5 — Archetypal Grounding — Tell–Show–Show; System / Episteme"
-line_start: 110603
-line_end: 110631
+line_start: 111028
+line_end: 111056
 dependencies:
   - "A.10"
   - "A.17"
@@ -44,8 +44,9 @@ keywords:
   - "RSCRTriggerKindId"
   - "ReferencePlane"
   - "ScaleComplianceProfile (SCP)"
-  - "admissibility gate"
+  - "admissible comparison and aggregation"
   - "edition pins"
+  - "evidence requirements"
   - "Γ-fold"
   - "Φ(CL)"
   - "Φ_plane"
@@ -64,7 +65,7 @@ keywords:
 * pins the lawful comparator(s) (e.g., unit-aligned ratio comparisons only; ordinal comparisons are order-only),
 * declares `MinimalEvidence` lanes/carriers and freshness windows per characteristic,
 * declares explicit failure behavior wiring (tri-state semantics delegated to `G.Core`),
-* exposes crossing pins (bridge ids + CL/policy ids) when reuse across rigs is attempted,
+* exposes Bridge and bounded-use pins when reuse projects between different local meanings under A.19.CN/F.9; unit conversion within the declared comparison basis follows CN-Spec and SCP,
 * publishes the pinned editions so parity/refresh can detect drift.
 
 #### G.0:5.2 - Archetype 2: Epistemic comparability for selected-set publication across traditions

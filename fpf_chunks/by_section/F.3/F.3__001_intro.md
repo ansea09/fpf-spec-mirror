@@ -6,12 +6,12 @@ section_id: "F.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:intro — Intro"
-line_start: 102819
-line_end: 102826
+line_start: 103217
+line_end: 103224
 dependencies:
   - "A.11"
   - "A.7"
@@ -36,7 +36,7 @@ keywords:
 
 **“Under one explicit interpretation basis, merge aliases that make the same local claim and split uses that do not.”**
 **Status.** Architectural pattern.
-**Depends on.** F.1 **Question-Relative Source Selection**; F.2 **Term Harvesting & Normalisation**; F.17 for the optional three-part local-sense cell; E.10.D1 **Recovering What “Context” Means in Use**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**.
+**Depends on.** F.1 **Question-Relative Source Selection**; F.2 **Source-Local Term Harvesting & Normalisation**; F.17 for the optional three-part local-sense cell; E.10.D1 **Recovering What “Context” Means in Use**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**.
 **Coordinates with.** F.4 **SystemRoleKindDescription**; F.7 **Concept-Set Table**; F.8 **Mint or Reuse Decision**; F.9 only when two exact local meanings need a tested relation.
 **Aliases (informative).** *source-local clustering*; *sense consolidation*.
 

@@ -6,12 +6,12 @@ section_id: "A.20:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__003_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:1 — Problem frame"
-line_start: 36944
-line_end: 36949
+line_start: 36888
+line_end: 36893
 dependencies:
   - "A.10"
   - "A.15"

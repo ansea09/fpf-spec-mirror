@@ -6,12 +6,12 @@ section_id: "E.10.INT:End"
 section_title: "E.10.INT:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__014_e-10-int-end.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:End — E.10.INT:End"
-line_start: 85627
-line_end: 85628
+line_start: 85947
+line_end: 85948
 dependencies:
   - "C.11"
   - "C.16"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.2a.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
-line_start: 48559
-line_end: 48818
+line_start: 48700
+line_end: 48959
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -30,12 +30,17 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
+  - "anchoring"
+  - "articulation"
   - "characteristic space"
-  - "governed episteme publication"
+  - "closure"
+  - "episteme publication"
+  - "formality"
   - "language-state chart"
+  - "local thresholds"
   - "partial coordinates"
   - "position claim"
-  - "thresholds"
+  - "representation"
 ---
 
 ## C.2.2a - `U.LanguageStateSpace` - Language-state chart over `U.CharacteristicSpace`
@@ -294,7 +299,7 @@ Minimum self-check:
 
 After the first useful row is understood, the wider `Language-State & Semantic Routing Corridor` can be read as a distributed overlay over `C.2.2a`, `C.2.LS`, `C.2.4`–`C.2.7`, `A.16`, `A.16.0`–`A.16.2`, `B.4.1`, and `B.5.2.0`.
 
-`A.16.1 / U.PreArticulationCuePack` is the earliest durable seam publication form in that corridor. `B.4.1` is the explicit route-bearing seam after cue preservation, and `B.5.2.0` is typed prompt entry. `C.16.Q`, `A.6.A`, `A.6.P`, `B.5.2`, `A.15`, and `C.25` are downstream subject patterns, not members of the language-state chart. The map explains navigation only; it relocates none of their semantics into C.2.2a.
+`A.16.1 / PreArticulationCuePack` is the earliest durable seam publication form in that corridor. `B.4.1` is the explicit route-bearing seam after cue preservation, and `B.5.2.0` is typed prompt entry. `C.16.Q`, `A.6.A`, `A.6.P`, `B.5.2`, `A.15`, and `C.25` are downstream subject patterns, not members of the language-state chart. The map explains navigation only; it relocates none of their semantics into C.2.2a.
 
 ### C.2.2a:End
 

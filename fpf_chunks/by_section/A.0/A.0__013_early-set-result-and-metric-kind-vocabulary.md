@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.0"
-pattern_title: "Onboarding Glossary (NQD & E/E‑LOG)"
+pattern_title: "Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
 section_id: "A.0:QF.1"
 section_title: "Early set-result and metric-kind vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__013_early-set-result-and-metric-kind-vocabulary.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
+  - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.1 — Early set-result and metric-kind vocabulary"
-line_start: 1522
-line_end: 1550
+line_start: 1523
+line_end: 1551
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
@@ -69,7 +69,7 @@ keywords:
 - Use `ShortlistId` for the stable public token of one emitted shortlist; it is not the shortlist itself.
 - Use `ChoiceSet` only when the mathematical set object underlying one shortlist must be named explicitly; do not let it replace the public shortlist head.
 - Use `Q-set` for the declared current objective tuple that may ground the current `DominanceSet`.
-- For a result or claim used by a pool policy, retain its direct pattern's reference name and kind; for example, `A.2.2` supplies `capabilityInstanceRef` and `capabilityStatementRef`. Use `C.19` for the resulting pool treatment. Citing an input does not add it to `Q` or dominance.
+- For a result or claim used by a pool policy, retain its direct pattern's reference name and kind; for example, `A.2.2` supplies `capabilityHolderRef` and `capabilityStatementRef`. Use `C.19` for the resulting pool treatment. Citing an input does not add it to `Q` or dominance.
 - Use `competenceModelRef` under `C.19` only for one exact model episteme used by the policy; identify the capability and supporting results separately.
 - When the pool treatment relies on an evidence-bearing or source-bearing claim, use `a10RelianceRef` for the exact claim and bounded pool-treatment reliance under `A.10`.
 - Use `goalSpaceExpansionPolicyRef` under `C.19` when an independently declared archive or curriculum expansion policy governs goal- or task-space growth; that policy does not place a candidate on a front or add a dominance coordinate.

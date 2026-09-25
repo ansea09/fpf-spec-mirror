@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19"
-pattern_title: "CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
+pattern_title: "CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
 section_id: "A.19:6"
 section_title: "Conformance checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__010_conformance-checks.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
+  - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:6 — Conformance checks"
-line_start: 32064
-line_end: 32095
+line_start: 32004
+line_end: 32035
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,11 +36,13 @@ dependencies:
   - "U.ContextSlice"
 keywords:
   - "CharacteristicSpace"
+  - "CharacteristicSpacePredicate"
   - "U.Dynamics.stateSpace"
   - "coordinatewise comparability"
   - "declared Characteristics and Scales"
   - "embedding"
   - "product"
+  - "reusable state conditions"
   - "state trajectories"
   - "structural overlays"
   - "subspace"
@@ -67,7 +69,7 @@ Apply a row only when its trigger is present.
 | --- | --- |
 | Subspace or product | List the carried slots and Scale meanings. Projection uses the type-correct composition law; a product performs no aggregation. |
 | Embedding or lossy mapping | An embedding is point-injective and preserves every named structure. A many-to-one normalization, binning, dropped Coordinate, or other coarse-graining is a lossy mapping or projection with preserved and lost distinctions stated. |
-| Normalization, quotient, equality, or join across spaces | Cite the admissible A.19.UNM instance, Scale conditions, domain, and validity window. Compare in one declared target space. Use a quotient or fixed chart when the claimed equality or join depends on normalization invariance; otherwise report the values as incomparable. |
+| Normalization, quotient, equality, or join across spaces | Cite the admissible A.19.UNM instance, Scale conditions, domain, and validity window. Compare in one declared target space. Check preservation of the equality/join question; a class-level use needs query constancy and any inherited operation needs compatibility. Retain lost inputs, refine the transformation or return the unsupported comparison. |
 | Same-space state comparison | Compare Coordinates directly only when both states use the same declared space, slot meanings, Scale metadata, and state definition. A.19.CPM separately binds the comparator, scope, plane, window, application, and result. |
 | Indicator use | Cite the `IndicatorChoicePolicy`; a normalized value is not automatically an indicator. |
 | Cross-reference-scheme or cross-plane use | Cite an F.9 Bridge only for two exact F.17 local senses when its predicate obtains, and state the bounded-use claim separately; `CL` is optional. Cite the applicable plane relation separately. Name matching, context/scheme/plane difference, and an expired mapping establish neither relation nor admissibility. |

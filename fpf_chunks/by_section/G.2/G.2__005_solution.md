@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.2"
-pattern_title: "SoTA Harvester & Synthesis"
+pattern_title: "Harvest and Synthesize SoTA for a CG-Frame"
 section_id: "G.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.2 — SoTA Harvester & Synthesis"
+  - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:4 — Solution"
-line_start: 111187
-line_end: 111502
+line_start: 111614
+line_end: 111923
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -46,6 +46,7 @@ keywords:
   - "TraditionAtlasView"
   - "TypedSetViews"
   - "palette-first"
+  - "state of the art"
   - "synthesis"
 ---
 
@@ -65,7 +66,7 @@ GCoreLinkageManifest := ⟨
     GCoreConformanceProfileId.PartG.UTSWhenPublicIdsMinted
   },
   RSCRTriggerSetIds := {GCoreTriggerSetId.SoTAHarvestSynthesis},
-  CorePinSetIds := {GCorePinSetId.PartG.CrossingVisibilityPins},
+  CorePinSetIds := {GCorePinSetId.PartG.CrossingVisibilityPins}, // expands only for actual channel/receiving-use conditions under G.Core:4.2.3; no crossing means no crossing pins
 
   CorePinsRequired := {
     // Scope pins (G.2‑specific)
@@ -85,7 +86,8 @@ GCoreLinkageManifest := ⟨
     GammaEpistSynthId[]?,
 
     // Edition / policy pins (only when used)
-    HarvestPolicyRef?,
+    HarvestPolicyRef?, // required when a coverage judgement is made
+    CoverageJudgementRef?, // the pack judgement, required for a relied-on coverage result
     DistanceDefRef.edition?,
     InclusionCriteriaId?,
     ScreeningRubricId?
@@ -100,7 +102,11 @@ GCoreLinkageManifest := ⟨
 
 **Pattern‑local default rules (governed by this pattern; not a Part‑G‑wide `DefaultId`).**
 
-`FamilyCoverageFloorK := 3` *(unless explicitly overridden by `HarvestPolicyRef` and recorded in `FlowRecord`)*
+`FamilyCoverageFloorK := 3` *(unless explicitly overridden by `HarvestPolicyRef` and recorded in `FlowRecord`)*. This threshold supplies no counted population or same-family rule; those must be explicit before a coverage judgement. An undefined basis is unassessable, not a measured failure. Whenever coverage is judged, `HarvestPolicyRef` is required even when k uses this fallback; its applicability, receiving question, counted population/scope, grouping and same-family equivalence must be fixed before counting. An override changes k, not the unit or the independent pluralism duties.
+
+**Counted-family basis.** The HarvestPolicy defines which candidates enter the counted population and when two entries represent the same family for this receiving question. Count equivalence classes under that rule. Repeated cards, aliases and source references for one family add zero. A combined method/generator population needs one receiving purpose and an overlap rule: a generator that is also a method is not counted twice unless the policy deliberately defines separate role-qualified units and justifies that interpretation. Freeze this basis before inspecting the count; changing it to turn a failure into three is not a repair of coverage.
+
+The pack's coverage judgement carries the policy/edition, counted units, deduplication basis, count, k and pass/fail result, or the exact missing basis when unassessable. Give this existing pack component a local `CoverageJudgementRef` for citation. Evaluate lineage and materially distinct entry plurality separately. Cards and downstream consumers cite this same judgement instead of choosing their own unit. Compare counts across packs only when their bases match, or after an explicitly justified common-basis recount.
 
 #### G.2:4.2 - Kit: `SoTA Synthesis Pack@CG‑Frame` (surface governed by this pattern)
 
@@ -110,7 +116,7 @@ Each named component is addressable via a stable **pack‑local identifier** (e.
 
 0. **`SoTA_Set@CG‑Frame`** *(export view; “M2 output” consumed downstream)*
    A read‑optimised view over the harvested candidate set that downstream generator/selector work treats as the “harvester output set”.
-   **Constraint (normative):** `SoTA_Set@CG‑Frame` **MUST** be reconstructible from pack components by id (no “hidden extra set”).
+   **Constraint (normative):** `SoTA_Set@CG‑Frame` **MUST** be reconstructible from pack components by id (no “hidden extra set”). Its coverage result cites the pack's `CoverageJudgementRef`, including its fixed HarvestPolicy basis; the export view does not redefine family membership.
 
 1. **`G.2a CorpusLedger`**
    Ledger of candidate sources. Each row names the exact source and edition, claim region used, triage status (for example, include, park, or retire), evidence locator, and rationale for this CG-frame and receiving use.
@@ -140,7 +146,7 @@ Each named component is addressable via a stable **pack‑local identifier** (e.
 
 8. **`G.2h PRISMA Flow Record`**
    A screening/eligibility trail for how sources entered the pack (method‑profile is allowed; see Extensions).
-   *(Name is historical; the artefact remains notation‑independent.)*
+   *(Name is historical; the artefact remains notation‑independent.)* The pack coverage judgement and its policy basis are recoverable here, separately from the lineage and material-entry pluralism results.
 
 9. **`G.2i SoSIndicatorFamilies`**
    Indicator *families* as variants (windows/constraints/assumptions) **with explicit Acceptance branches per variant** (branch ids/labels only; threshold semantics belong to CAL governing definitions).
@@ -175,7 +181,7 @@ When authoring `ClaimSheets[Tradition]`, teams often benefit from a single‑pag
 A conforming `G.2` pack publication is built by iterating the following conceptual loop until the declared gates are satisfied:
 
 1. **Declare scope and plurality.**
-   Identify the exact CG-frame (the declared framing episteme), the initial `Tradition` set, each intended claim region and EntityOfConcern, the comparison basis, and the receiving use. Record the cited CG-frame and source editions and evidence anchors in the pack pins rather than hiding them in a generic context field.
+   Identify the exact CG-frame (the declared framing episteme), the initial `Tradition` set, each intended claim region and EntityOfConcern, the comparison basis, and the receiving use. Record the cited CG-frame and source editions and evidence anchors in the pack pins rather than hiding them in a generic context field. Before counting, fix the HarvestPolicy's receiving question, counted population, grouping and same-family equivalence, including overlap handling for a combined population.
 
 2. **Discover and triage sources (ledger‑first).**
    Populate `CorpusLedger` via:
@@ -191,7 +197,7 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
    Extract candidate measurement terms and operator stubs for later CHR/CAL authoring (without asserting legality or thresholds locally).
 
 5. **Build alignment/divergence surfaces.**
-   Where reuse across `Tradition` is desired, author Bridge‑backed alignment records and explicit loss notes in `BridgeMatrix`. Any consolidation is explicitly marked as requiring alignment proof.
+   Where reuse across `Tradition` is desired, record the obtaining correspondence and its exact basis in `BridgeMatrix`: F.9 for sense correspondence, C.3.3 for kind correspondence, or the direct rule for a plane relation, as actually used. State preserved distinctions and losses for the receiving question. Consolidation requires explicit alignment proof. Add bundle or gate anchors only for an independently applicable E.18 flow crossing or A.21 gate, under `CC‑GCORE‑CROSS‑1`.
 
 6. **(Alias: G.2‑F) Produce Γ_epist synthesis records when fusion/substitution is asserted.**
    If a `G.2` pack publication asserts fusion or substitution across sources or across `Tradition` records (beyond mere “parallel divergent claims”), it **MUST** emit `GammaEpistSynthId` records per `G.2:Ext.GammaEpistSynthesis` (provenance union + explicit object alignment refs + assurance tuple refs), and it **MUST** keep penalties routed to `R_eff` only by delegation (`CC‑GCORE‑PEN‑1`).
@@ -200,7 +206,7 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
    Attach worked micro-examples to load-bearing claims, each tied to the exact source and edition, claim region, EntityOfConcern, comparison basis, intended use, and evidence carrier or A.10 evidence-provenance path.
 
 8. **Apply gates and record repairs.**
-   Enforce `FamilyCoverageFloorK` (and any optional diversity‑by‑distance gate). If a gate fails, the pack **MUST**:
+   Apply that fixed HarvestPolicy basis and count its distinct units before comparing coverage with `FamilyCoverageFloorK` (and apply any optional diversity-by-distance gate under its own basis). Missing count semantics returns an unassessable result and the exact missing basis, not an instruction to search more. If a defined gate fails, the pack **MUST**:
    * record the failure and the repair iteration in `FlowRecord` and `CorpusLedger`,
    * pin the updated `HarvestPolicyRef` / criteria ids (if changed),
    * iterate the loop rather than silently weakening the gate.
@@ -212,14 +218,14 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
    * `G.4` (CAL authoring),
    * `G.5` (registry/dispatch),
 
-   so that downstream work can cite pack components by id rather than re‑authoring them.
+   so that downstream work can cite pack components by id rather than re‑authoring them. Each relied-on coverage result carries the same `CoverageJudgementRef` and its policy basis; a downstream method-selection use cannot treat a combined method/generator count as a method-only count.
    The pack **MUST** also export `SoTA_Set@CG‑Frame` and `SoTAPaletteDescription` as the default downstream consumption surfaces (ids pinned).
 
 #### G.2:4.4 - Interfaces (minimal I/O Standard)
 
 | Interface         | Consumes                                                      | Produces                                                                    |
 | ----------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| **G.2-1 Harvest** | exact CG-frame (the declared framing episteme) identified by `CGFrameId`, initial `Tradition[]`, source edition and claim-region boundary, EntityOfConcern, comparison basis, receiving use, `HarvestPolicyRef?` | `SoTA Synthesis Pack@CG-Frame` (G.2a-G.2l) |
+| **G.2-1 Harvest** | exact CG-frame (the declared framing episteme) identified by `CGFrameId`, initial `Tradition[]`, source edition and claim-region boundary, EntityOfConcern, comparison basis, receiving use, `HarvestPolicyRef` whenever coverage is judged | `SoTA Synthesis Pack@CG-Frame` (G.2a-G.2l) |
 | **G.2‑2 Extend**  | existing Pack + new sources/anchors + updated policy pins     | updated Pack + RSCR‑relevant trigger emissions (canonical kinds)            |
 | **G.2‑3 HandOff** | Pack                                                          | `CHR‑handoff` (to G.3), `CAL‑handoff` (to G.4), `Registry‑handoff` (to G.5) |
 
@@ -242,14 +248,14 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 * `GammaEpistSynthId[]` *(pack‑local ids of synthesis records; emitted iff fusion/substitution is asserted)*
 * `EvidenceAnchorRef[]` *(provenance union; evidence carriers cited by A.10 evidence-provenance paths)*
 * `BridgeMatrixId` and `BridgeCardId[]` *(explicit object alignment references when crossing is involved)*
-* `CL/CL^plane` + `Φ/Ψ/Φ_plane policy-ids` *(ids only; semantics governed by cited definitions; penalties → `R_eff` only by delegation)*
+* `CL/CL^plane` and `Φ/Ψ/Φ_plane policy-ids` when required by the cited crossing or actually used loss model *(semantics and penalties → `R_eff` remain governed by the cited definitions)*
 * `PathId/PathSliceId?` *(only when citing via `G.6`)*
 
 **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EvidenceSurfaceEdit, RSCRTriggerKindId.CrossingBundleEdit, RSCRTriggerKindId.ReferencePlaneEdit, RSCRTriggerKindId.PenaltyPolicyEdit, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.EditionPinChange}`
 
 **Notes (normative intent; duplication‑avoidant):**
-* `Γ_epist^synth` is an auditable record that binds: (i) provenance union, (ii) explicit object alignment refs, (iii) assurance tuple refs (via existing governing definitions) for each asserted fusion/substitution.
-* This extension **does not** redefine `Γ‑fold`, `Φ`, or penalty semantics; it only requires the pins/refs needed for replayability and auditability (see `G.Core` delegations).
+* The auditable synthesis record identified by `GammaEpistSynthId` binds: (i) provenance union, (ii) explicit object alignment refs, (iii) assurance tuple refs (via their governing definitions) for each asserted fusion/substitution. A B.1.3 `Γ_epist^synth` application and its returned episteme remain separate from this record.
+* This extension cites the `Γ‑fold`, `Φ`, and penalty rules through `G.Core` and exposes the pins needed for replay. When B.3/C.2.2 supplies no justified common numerical score or loss calculation, retain the separate support, actual mapping limitations and bounded assurance conclusion; a synthesis record does not supply the missing model.
 
 ###### G.2:4.5.2 - GPatternExtension: HarvestProtocols
 
@@ -290,7 +296,8 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 
 **Notes (extension discipline):**
 * If DHC alignment summaries are emitted, this extension ensures the DHC method edition and the cited evidence paths are visible.
-* Units and constraints governed by `C.21` are pinned, not redefined here: for example `bridges_per_100_cells`, the exact F.17 cell comparison set, exact F.9 Bridge refs, `CL_min = 2`, and the stated interpretation of `CL=3` when used. The count is over named cells and obtaining relations, not contexts.
+* AlignmentDensity uses C.21's Unit `obtaining_relations/100_compared_cells`: fix the exact compared F.17 cell set and count the exact obtaining directed F.9 relations, retaining each relation's orientation and admitted-use qualifier. Keep observed loss in its evidence account. A CL calibration label does not include or exclude a relation by itself. Any independently justified receiving-use filter must name its own policy and resulting population; it is not a C.21 CL threshold.
+* For example, three obtaining directed relations in a fixed set of 100 compared cells give a density of 3 in that Unit. Changing a CL label while relation truth, population and admitted-use qualifier remain fixed leaves the density 3. A fourth calibration row labelled CL=2 with no obtaining relation adds nothing. If a use condition actually changes which relations qualify, restate that changed population before comparing densities.
 
 ###### G.2:4.5.4 - GPatternExtension: NQDAnnex
 
@@ -345,23 +352,11 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 - When comparison or retention needs richer geometry or atlas language, treat that as support for the derivation rather than as the default meaning of the palette.
 - A reader should be able to say both `this is the palette` and `this is the derived tradition view currently being shown` without collapsing those two objects.
 
-#### G.2:4.7 - Atlas views stay optional neighboring interpretation over one declared palette and declared set results
+#### G.2:4.7 - Optional atlas interpretation of a declared palette
 
-- `TraditionAtlasView` is one declared optional neighboring interpretive view over one palette and any declared front, archive, or shortlist surfaces drawn from it, while the cited substrate-bearing line, the active source set or active set result, and any cited `SearchSpaceRef`, `OutcomeSpaceRef`, or other declared space refs remain recoverable.
-- `TraditionAtlasView` is the `G.2` use-site specialization of `DeclaredSubstrateAtlasView`; keep the generic interpretive-view declaration in `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW`.
-- It is not the default meaning of `Tradition` or `SoTAPaletteDescription`.
-- Stay palette-first when the harvest or synthesis question can already be judged from the declared palette together with ordinary front, archive, or shortlist surfaces.
-- Use `TraditionAtlasView` only when the reader must hold several declared derived views or interpretive qualifiers together to see why one tradition grouping, omission risk, or comparison boundary matters.
-- A conforming `TraditionAtlasView` must keep the same atlas-form interpretation declaration that `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` requires by value: recoverable base palette, active source set or active set result, `TypedSetViews` when several declared set views are held together, cited `SearchSpaceRef`, `OutcomeSpaceRef`, or other declared space refs, cited declared map refs such as `OutcomeMapRef`, cited qualifiers such as `SpaceMetricRef`, `TransitionRelationRef`, and `BridgeDistortionNote`, and one explicit reason why thinner `DeclaredSubstrateInterpretiveView` is insufficient here.
-- It may help explain where one tradition, method family, or retained line sits relative to another, but it should not silently redefine the base palette or one derived front view or archive view.
-- If one atlas view uses several typed views over the same source set, keep the active set result, any cited `SearchSpaceRef`, `OutcomeSpaceRef`, or other declared space ref, and any `BridgeDistortionNote` recoverable instead of letting `TraditionAtlasView` hide those choices.
-- Treat the atlas layer as optional neighboring interpretation, not as ordinary palette-first core. Use `SpaceMetricRef` or `TransitionRelationRef` only when one declared comparison, reachability, transition, or cross-scale state-change claim actually depends on that formal support; otherwise leave them unstated.
-- Use `OutcomeMapRef` only when the atlas must show how one declared set result maps into one outcome-side or effect-side declared space/ref; it does not turn the palette, front, archive, or shortlist into that outcome-side declared space/ref.
-- If one atlas reading would materially change the base source-to-outcome relation or distortion posture, reopen the substrate declaration instead of treating that change as one local `G.2` convenience.
-- If one thinner `DeclaredSubstrateInterpretiveView` already keeps the question legible, prefer that thinner interpretation form and leave atlas specialization unused.
-- `SearchSpaceRef` and `OutcomeSpaceRef` doctrine, transition-aware novelty, metric-transfer loss, and cross-scale geometry belong to a heavier formal layer: keep them outside ordinary palette-first use unless the current comparison, reachability, transition, or multilevel claim explicitly needs them, and do not pull them in merely because one richer comparative reading is mathematically available.
-- If no declared atlas view is needed, stay with the simpler palette-first and declared-derived-view surfaces.
-- Different atlas views may rely on different declared spaces, metrics, bridges, or transition supports; keep that plurality visible rather than forcing one geometry monoculture across every neighboring view.
-- If several mathematical traditions remain plausible, keep that plurality visible rather than pretending the atlas already fixes one final formalism.
-- If the question is naming-side only, use `F.18` for that wording choice rather than letting atlas-form interpretation language carry the naming decision by itself.
+Use `TraditionAtlasView` only when the reader needs several derived views or interpretive qualifiers together to understand a grouping, omission risk or comparison boundary. Otherwise use the palette and its declared front, archive or shortlist, or the thinner `DeclaredSubstrateInterpretiveView`. A naming-only question belongs to F.18.
+
+`TraditionAtlasView` specializes `DeclaredSubstrateAtlasView` under A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW and retains that declaration by value: the base palette, active source set or result, `TypedSetViews` when several declared views are combined, the space/map references and interpretive qualifiers actually used, and the reason the thinner view is insufficient. Cite `SearchSpaceRef` or `OutcomeSpaceRef` for the corresponding declared spaces. Add `SpaceMetricRef`, `TransitionRelationRef` and `BridgeDistortionNote` only for the comparison, reachability, transition or cross-scale claim that needs them. An `OutcomeMapRef` identifies a mapping from the stated result into an outcome/effect space; it does not turn the palette or result into that space. Their formal claims retain their own governing definitions.
+
+If the interpretation changes the base source-to-outcome relation or its distortion, reopen the substrate declaration. Different atlas views may use different spaces, metrics, relations or mathematical traditions; one view does not settle those choices for every other view.
 

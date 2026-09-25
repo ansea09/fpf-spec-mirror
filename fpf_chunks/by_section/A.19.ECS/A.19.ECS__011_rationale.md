@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.ECS"
-pattern_title: "Evaluation CharacteristicSpace Construction"
+pattern_title: "Evaluation CharacteristicSpace Construction: Define What Counts as Better"
 section_id: "A.19.ECS:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__011_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.ECS — Evaluation CharacteristicSpace Construction"
+  - "A.19.ECS — Evaluation CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:9 — Rationale"
-line_start: 32385
-line_end: 32390
+line_start: 32325
+line_end: 32330
 dependencies:
   - "A.17-A.19"
   - "C.16"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.4"
-pattern_title: "Contextual and Temporal Aggregation"
+pattern_title: "Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
 section_id: "B.1.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.1.4 — Contextual and Temporal Aggregation"
+  - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:intro — Intro"
-line_start: 39265
-line_end: 39278
+line_start: 39195
+line_end: 39208
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -34,7 +34,7 @@ dependencies:
 keywords:
 ---
 
-## B.1.4 - Contextual and Temporal Aggregation
+## B.1.4 - Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)
 
 > **Type:** B-family aggregation pattern
 > **Status:** Stable

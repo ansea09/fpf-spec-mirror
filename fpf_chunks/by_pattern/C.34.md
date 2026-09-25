@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "C.34"
-pattern_title: "Structural Correspondence, Equivalence, and Morphism Adequacy"
+pattern_title: "Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.34.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
-line_start: 74796
-line_end: 74984
+  - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
+line_start: 75017
+line_end: 75205
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -43,7 +43,7 @@ keywords:
   - "structural correspondence"
 ---
 
-## C.34 - Structural Correspondence, Equivalence, and Morphism Adequacy
+## C.34 - Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)
 
 > **Type:** Architectural pattern
 > **Status:** Stable

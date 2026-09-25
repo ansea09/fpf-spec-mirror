@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.2"
-pattern_title: "Meta-System Transition - System Specialization of MHT"
+pattern_title: "Meta-System Transition: Test the Proposed New Whole as a System"
 section_id: "B.2.2:5.4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__008_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.2.2 — Meta-System Transition - System Specialization of MHT"
+  - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
   - "B.2.2:5.4 — Bias-Annotation"
-line_start: 41210
-line_end: 41219
+line_start: 41140
+line_end: 41149
 dependencies:
   - "A.1"
   - "A.10"

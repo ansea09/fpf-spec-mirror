@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "C.2.P.DR"
-pattern_title: "Declarative Representation Precision Restoration"
+pattern_title: "Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.P.DR.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.2.P.DR — Declarative Representation Precision Restoration"
-line_start: 50374
-line_end: 50717
+  - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
+line_start: 50517
+line_end: 50860
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -42,7 +42,7 @@ dependencies:
 keywords:
 ---
 
-## C.2.P.DR - Declarative Representation Precision Restoration
+## C.2.P.DR - Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)
 
 > **Type:** C.2.P precision-restoration child pattern for declarative-representation overread
 > **Status:** Stable
@@ -148,7 +148,7 @@ Use four plain questions before the claim-and-pattern table: What visible thing 
 | --- | --- | --- | --- |
 | highlighted graph path | exact E.18 graph path or `PathSlice`, with any flow valuation kept separate | the graphic rendering corresponds to that path when the relation is current; otherwise `none` when the `PathSlice` itself is under inspection | no prescribed route, valve work, or release by the highlight |
 | dashboard tile | exact status or state value with its bearer and value frame, plus any current source or publication relation | the tile represents that value only through an exact current relation; otherwise `none` when the publication face itself is the direct object | no gate passage or release permission from green appearance |
-| evidence-path expression | exact A.10 evidence or provenance relation for the named claim or effect | a diagram may represent that relation; otherwise `none` when the relation itself is current | no approval, permission, assurance, or release from path shape |
+| evidence-path expression | descriptive A.10 evidence-provenance path for the named claim or bounded use, citing independently established direct relations | a diagram may represent that descriptive path through an exact current correspondence; otherwise `none` when the path itself is under inspection | no approval, permission, assurance, or release from path shape |
 | solver file | exact publication form or carrier-side object, and whichever formal substrate, claim-bearing episteme, method, mechanism declaration, plan, run, or evidence relation is independently current | the solver expression corresponds to separately identified claims or a formal object when that relation is stated; otherwise `none` | no method, mechanism, performed work, result, or evidence by file form or executability |
 | publication table | exact publication face or form and source relation, with table values or claims kept under their subject patterns | the table corresponds to a separately identified object or claim only when the exact relation is current; otherwise `none` | no evidence, approval, gate passage, or action authority from table layout |
 
@@ -260,7 +260,7 @@ A graph publication or pattern publication remains a separately governed publica
 
 Wording: "The evidence path authorizes release."
 
-Repair: name the claim or effect and recover its evidence or provenance relation through `A.10`. Release, permission, or gate passage requires the authority, gate, or release pattern that defines or constrains that claim. This pattern is used only if `path` wording itself is causing the representation to be overread as a permission route.
+Repair: name the claim or bounded use and recover the descriptive evidence-provenance path through `A.10`, with each cited direct relation established under its own subject pattern. Release, permission, or gate passage requires the authority, gate, or release pattern that defines or constrains that claim. This pattern is used only if `path` wording itself is causing the representation to be overread as a permission route.
 
 #### C.2.P.DR:5.3 - Query plan and access path
 
@@ -316,7 +316,7 @@ Repair:
 ```text
 DeclarativeRepresentationRepair:
   VisibleExpressionOrArtifact: CRISPR guide-selection table with off-target scores and candidate ranking
-  CurrentDirectObjectOrRelation: candidate-guide comparison and exact characteristic values under C.16 or A.19; add an A.10 evidence relation only when it independently obtains
+  CurrentDirectObjectOrRelation: candidate-guide comparison and exact characteristic values under C.16 or A.19; use A.10 to recover any independently established direct support relation needed for reliance
   RepresentationOrCorrespondenceUse: proposed correspondence from this table's candidate and off-target-score representation elements to the exact candidate-guide comparison and exact characteristic values named above; C.29 lens-use account not yet supplied
   SourceOrPublicationRelation: none
   TemptingStrongerActionClaim: ranked row approves biological intervention

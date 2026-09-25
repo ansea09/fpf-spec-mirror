@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.5"
-pattern_title: "SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
+pattern_title: "SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
 section_id: "A.2.5:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__011_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
+  - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:8 — Conformance Checklist"
-line_start: 5529
-line_end: 5545
+line_start: 5490
+line_end: 5506
 dependencies:
   - "A.15"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "B.1.6:6"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__009_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:6 — Archetypal Grounding"
-line_start: 40410
-line_end: 40417
+line_start: 40340
+line_end: 40347
 dependencies:
   - "A.1"
   - "A.10"
@@ -27,6 +27,7 @@ dependencies:
   - "B.1"
   - "B.1.4"
   - "B.1.6"
+  - "B.2"
   - "B.2-family"
   - "B.2.P"
   - "C.13"
@@ -60,5 +61,5 @@ keywords:
 
 **Manufacturing cell.** Welding and painting are two dated work occurrences. Electricity, gas, consumables, and labor time are separate resource Characteristics with measurement-result epistemes. A shared extraction fan and overlapping operator time require direct shared-use facts and an allocation policy. The resource ledger represents those facts. Establish any separately claimed Work-part relation or frame transformation through its direct pattern.
 
-**Model training.** Epoch labels alone do not establish work parts. Ground the training work and exact slices, then recover C.16 measurements for compute energy, storage traffic, and operator time. Aggregation work applies an edition-pinned policy to those result epistemes. The algorithm remains a method description; trained-model identity, fairness result, provenance, assurance, and deployment decision stay with their subject patterns.
+**Model training.** Epoch labels alone do not establish work parts. Ground the training work and exact slices, then recover C.16 measurements for compute energy, storage traffic, and operator time. Aggregation work applies an edition-pinned policy to those result epistemes. The training Method, any algorithm text that qualifies as its MethodDescription, and the dated training Work remain distinct; trained-model identity, fairness result, provenance, assurance, and deployment decision stay with their subject patterns.
 

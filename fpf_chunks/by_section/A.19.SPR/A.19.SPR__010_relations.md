@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.SPR"
-pattern_title: "State-Family Precision Restoration"
+pattern_title: "Repair State and Status Wording"
 section_id: "A.19.SPR:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__010_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.SPR — State-Family Precision Restoration"
+  - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:8 — Relations"
-line_start: 32649
-line_end: 32666
+line_start: 32589
+line_end: 32606
 dependencies:
   - "A.10"
   - "A.16"
@@ -54,7 +54,7 @@ The dependency and distribution detail belongs here, after the working method. A
 | `A.2.5`, `A.15.5` | Distinguish assignment-state predicate, world-side relation, assertion episteme, and the separate work-entry readiness result. |
 | `A.19`, `A.3.3`, `C.16.P` | Define characteristic-space, dynamics, and characteristic or scale claims when those are the actual subject. |
 | `C.2.P`, `C.2.2a`, `A.16.*`, `E.17` | Define source, publication, and language-state claims. |
-| `A.10`, `B.3` | Define evidence-use and assurance claims. |
+| `A.10`, `B.3` | `A.10` recovers provenance and bounded reliance; `B.3` governs assurance claims. Each support relation retains its direct defining pattern. |
 | `A.20`, `A.21` | Define constraint or adjudication results and distinct gate decisions. |
 | `C.27`, `C.29` | Define temporal-claim and mathematical-lens uses, including their local fields. |
 | `E.9.DA`, `E.21`, `E.19` | Define DRR adequacy, pattern-quality results, and review or admission profiles. |

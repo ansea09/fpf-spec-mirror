@@ -6,12 +6,12 @@ section_id: "A.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:4 — Solution"
-line_start: 25711
-line_end: 25762
+line_start: 25598
+line_end: 25651
 dependencies:
   - "A.10"
   - "A.12"
@@ -82,11 +82,13 @@ Engineers and managers can use the **Agency Grade** as a **non-normative, didact
 
 | Grade | Label | Typical agency-characteristic profile (Conservative Lower Bound) | Archetypal Example |
 | :--- | :--- | :--- | :--- |
-| **0** | **Non-Agential** | `BMC ≈ 0`, `PH ≈ 0`, `MP ≈ 0` | A rock, a document, a passive structural component. |
+| **0** | **Non-Agential** | `BMC ≈ 0`, `PH ≈ 0`, `MP ≈ 0` | An admitted System whose supported profile has the stated values. A document or another non-System has no Agency Grade. |
 | **1** | **Reactive** | `BMC > 0`, `PH ≈ 0`, `MP ≈ 0` | A thermostat; a simple feedback controller. Follows fixed rules. |
 | **2** | **Predictive** | `BMC > 0`, `PH > 0`, `MP ≈ 0` | A model-predictive controller with a fixed model; a chess engine that plans moves but doesn't learn new strategies. |
 | **3** | **Adaptive** | `BMC > 0`, `PH > 0`, `MP > 0` | A self-calibrating sensor system; a machine learning agent that updates its model with new data. |
 | **4** | **Reflective/Strategic** | High `BMC`, `PH`, `MP`, `PER`, and `OC`. Capable of meta-cognition (reasoning about its own reasoning) and pursuing abstract goals. | An autonomous R&D system; a cohesive, self-organizing DevOps team. |
+
+The Grade 0 label summarizes a profile; it does not settle the separate local-kind classification or assignment claim.
 
 The profile states characteristic claims and their supporting evidence; the Grade is a pedagogical summary. A claim about a holder’s Agency Grade requires a corresponding auditable profile under CC-A13.3. The Grade remains unavailable as a normative premise under CC-A13.4.
 

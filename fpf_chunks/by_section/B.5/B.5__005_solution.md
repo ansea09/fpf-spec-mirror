@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5"
-pattern_title: "Canonical Reasoning Cycle"
+pattern_title: "Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
 section_id: "B.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5 — Canonical Reasoning Cycle"
+  - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:4 — Solution"
-line_start: 43279
-line_end: 43400
+line_start: 43232
+line_end: 43355
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -31,6 +31,8 @@ Choose reasoning by the result the current question needs. The abductive–deduc
 Say what an answer would help someone understand, construct, explain, decide or investigate. An epistemic aim, such as exposing an obstruction or finding a more informative theory, can justify inquiry without an immediate product application. Recover an adequate existing answer before commissioning new work.
 
 Separate the subject from its description, the intended result from a convenient proxy, and established premises from assumptions. Use ordinary language, a sketch or a small mathematical example at the precision needed to expose the difficulty.
+
+If there is no current question, B.5.PI can connect one ordinary work occasion with the use of its result, including adjustments that made the work succeed. It may produce a question, preserve an early cue, or justify continuing without change. This entry does not require a monitoring duty or turn every action into an audit.
 
 If a participant senses that an account misses something but cannot yet express what, B.5.EA helps develop a correctable distinction from their experience. Use the resulting question or contrast here; a better expression does not by itself establish a claim about the world.
 

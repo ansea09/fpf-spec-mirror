@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.RM.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
-line_start: 54529
-line_end: 54765
+line_start: 54672
+line_end: 54908
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"

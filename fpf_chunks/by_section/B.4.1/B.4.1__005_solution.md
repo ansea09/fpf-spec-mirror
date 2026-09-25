@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.4.1"
-pattern_title: "Observe -> Notice -> Stabilize -> Route"
+pattern_title: "Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
 section_id: "B.4.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
+  - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:4 — Solution"
-line_start: 43037
-line_end: 43114
+line_start: 42988
+line_end: 43065
 dependencies:
   - "A.15"
   - "A.16"
@@ -32,11 +32,6 @@ dependencies:
   - "C.22.1"
   - "F.9.1"
 keywords:
-  - "pre-abductive seam"
-  - "route plurality"
-  - "route selection"
-  - "routed cue set"
-  - "task-family specialization route"
 ---
 
 ### B.4.1:4 - Solution
@@ -44,7 +39,7 @@ Use this seam to make the candidate continuations and any selected route explici
 
 `Observe -> Notice -> Stabilize -> Route`
 
-Publish the route package as a `RoutedCueSet`, normally downstream of `U.PreArticulationCuePack`.
+Publish the route package as a `RoutedCueSet`, normally downstream of `PreArticulationCuePack`.
 
 A robust route package should identify:
 
@@ -78,7 +73,7 @@ A conforming routed cue set may publish:
 
 `RoutedCueSet` is not itself the late endpoint. `articulationThresholdStatus` and `closureStatus` report guard state only; their governance remains with `C.2.4` and `C.2.5`, and route discrimination may additionally cite `C.2.6` or `C.2.7` when anchoring or representation-factor differences are load-bearing.
 
-`candidateRouteSet` is the load-bearing core here. `routeDecision`, `selectedRoute`, `routeRationale`, and `routeSelectionStatus` belong here when route selection is explicit. They do **not** belong in `U.PreArticulationCuePack`. The status says only whether plurality remains open or a route has been selected; endpoint admission, publication availability, current use or retirement, and any actual authority relation remain separate claims under A.16 and their direct patterns. Use `sourceCuePackRef` when the originating early form is a cue pack; otherwise identify the equivalent early form and the stabilized cue it preserves.
+`candidateRouteSet` is the load-bearing core here. `routeDecision`, `selectedRoute`, `routeRationale`, and `routeSelectionStatus` belong here when route selection is explicit. They do **not** belong in `PreArticulationCuePack`. The status says only whether plurality remains open or a route has been selected; endpoint admission, publication availability, current use or retirement, and any actual authority relation remain separate claims under A.16 and their direct patterns. Use `sourceCuePackRef` when the originating early form is a cue pack; otherwise identify the equivalent early form and the stabilized cue it preserves.
 
 `publicationFaceRefs` names MVPK faces only when face typing matters for publication or review. Faces are renderings of the routed cue set or of later typed projection publications; they are not the route-bearing form itself.
 

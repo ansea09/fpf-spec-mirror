@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "D.1"
-pattern_title: "Ethical Value Plurality and FPF Boundary"
+pattern_title: "Clarify an Ethical Claim's Value Basis (Value Plurality)"
 section_id: "D.1:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__014_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "D.1 — Ethical Value Plurality and FPF Boundary"
+  - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:10 — Relations"
-line_start: 77411
-line_end: 77421
+line_start: 77636
+line_end: 77646
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -36,7 +36,7 @@ keywords:
 - Builds on `A.1` and `A.7` for EntityOfConcern and description distinction.
 - Coordinates with `A.1.CSD` when a current ethical claim still lacks an adequate set of Systems that may bear consequences; D.1 consumes the returned account and does not add value fields to its neutral core.
 
-- Coordinates with `A.10` for evidence, source currentness, and source-use relations.
+- Coordinates with `A.10` for descriptive provenance and bounded reliance on the source or evidence used.
 - Coordinates with `C.11.DUA` when a proposed ethical record or evidence demand needs appraisal of its contribution, feasibility, burden, or requirement merits.
 - Coordinates with `B.3` when an assurance claim is current.
 - Coordinates with `D.2`, `D.3`, `D.4`, and `D.5` for multilevel entry, conflict structure, mediation, bias audit, causal-fairness audit consumption, and ethical assurance.

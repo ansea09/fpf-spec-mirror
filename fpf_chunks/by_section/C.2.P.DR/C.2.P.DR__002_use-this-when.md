@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.P.DR"
-pattern_title: "Declarative Representation Precision Restoration"
+pattern_title: "Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
 section_id: "C.2.P.DR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__002_use-this-when.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.2.P.DR — Declarative Representation Precision Restoration"
+  - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:0 — Use this when"
-line_start: 50380
-line_end: 50409
+line_start: 50523
+line_end: 50552
 dependencies:
   - "A.10"
   - "A.15.1"

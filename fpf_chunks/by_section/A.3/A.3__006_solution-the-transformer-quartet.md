@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.3"
-pattern_title: "Transformer Constitution (Quartet)"
+pattern_title: "Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
 section_id: "A.3:5"
 section_title: "Solution — The Transformer Quartet"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__006_solution-the-transformer-quartet.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.3 — Transformer Constitution (Quartet)"
+  - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:5 — Solution — The Transformer Quartet"
-line_start: 8134
-line_end: 8186
+line_start: 8103
+line_end: 8155
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -24,6 +24,7 @@ dependencies:
   - "A.4"
   - "A.7"
   - "B.1.4-B.1.6"
+  - "C.2.1"
   - "F.6"
   - "F.9"
 keywords:
@@ -64,9 +65,9 @@ Natural, spontaneous, and formal transformations can therefore remain actual wit
 
 For work on oneself, use the A.12 reflexive split only after two distinct internal positions are grounded for the current claim. The acting and changed positions may be subholons inside one containing holon; selecting those already grounded parts is an A.14/C.13 structure move, not a Meta-Holon Transition. Use B.2 only if the whole itself is reidentified.
 
-#### A.3:5.4 - Temporal alignment (A.4 bridge)
+#### A.3:5.4 - Align the temporal claims of descriptions, Methods and Work
 
-* A `U.MethodDescription` is a separately identified episteme; cite its exact edition only when the receiving use relies on what that edition says.
+* A `U.MethodDescription` is a separately identified episteme; cite its exact edition only when the receiving use relies on what that edition says, using C.2.1 for any claimed edition relation.
 * A `U.Method` is run-independent and may be enacted by many dated Work occurrences.
 * One Work individual admitted under `U.Work` has its own governed temporal extent and performer basis under A.13/A.15.1. Use F.6 with the same obtaining assignment only when precise assignment-bound attribution is claimed; an assertion or description may designate those facts, but is not the occurrence. No universal live `StateAssertion` is a Work or Method condition.
 * When a work-to-change claim is current, identify the world-side Work under A.15.1, the actual change under A.3.4, and the exact direct relation between them. A formal ordering boundary or natural change remains under A.3.4 without a work-facing inference.

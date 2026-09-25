@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.C.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
-line_start: 12941
-line_end: 13302
+line_start: 12897
+line_end: 13258
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -151,7 +151,7 @@ When “contract”, “guarantee”, “promise”, “SLA”, or “interface 
 
    * A generic prescription states what one exact policy or other normative episteme requires; it does not create an individual duty bearer or commitment occurrence. A claim that one actual System or separately governed party has that duty instead cites one separately obtaining A.2.8 `U.Commitment`. Here the normative episteme may be a contract, SLA, protocol, or policy, and the generic claim also states where its rule applies.
    * When the model asserts or relies on an individual obligation, recommendation-as-duty, or prohibition, write a separate atomic D claim whose direct object is that exact separately obtaining `U.Commitment`.
-   * For permission-looking wording, select one A.6 `A6-AW-*` row. Only `A6-AW-NORM-GRANT` enters D; `A6-AW-GATE` enters A; exercise, weak evaluation, conflict, and observed-source claims enter E when their closing facts are present. Classification under A.2.8.PER alone selects no quadrant.
+   * For permission-looking wording, select one A.6 `A6-AW-*` row. Only `A6-AW-NORM-GRANT` enters D. Within `A6-AW-GATE`, a mechanism entry predicate enters A and an actual A.21 `GateDecisionResult` enters E; split them into separate atomic claims when both are present. Exercise, weak evaluation, conflict, and observed-source claims enter E when their closing facts are present. Classification under A.2.8.PER alone selects no quadrant.
    * **Individual-commitment checklist (use only for the individual branch):**
      * identify one exact `U.Commitment` occurrence and the separate D-claim or `CommitmentAssertion` about it;
      * select exactly one actual bearer branch: an admitted `U.System` or separately governed party;

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CPM"
-pattern_title: "Unified Comparison Mechanism (CPM)"
+pattern_title: "Compare Admitted Profiles under a Declared Comparator (CPM)"
 section_id: "A.19.CPM:6"
 section_title: "Bias-Annotation — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__008_bias-annotation-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.CPM — Unified Comparison Mechanism (CPM)"
+  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:6 — Bias-Annotation — informative"
-line_start: 36347
-line_end: 36357
+line_start: 36280
+line_end: 36290
 dependencies:
 keywords:
   - "ComparatorSet"

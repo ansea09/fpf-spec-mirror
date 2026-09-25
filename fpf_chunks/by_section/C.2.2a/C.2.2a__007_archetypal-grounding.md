@@ -6,12 +6,12 @@ section_id: "C.2.2a:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__007_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:5 — Archetypal Grounding"
-line_start: 48714
-line_end: 48720
+line_start: 48855
+line_end: 48861
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -31,12 +31,17 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
+  - "anchoring"
+  - "articulation"
   - "characteristic space"
-  - "governed episteme publication"
+  - "closure"
+  - "episteme publication"
+  - "formality"
   - "language-state chart"
+  - "local thresholds"
   - "partial coordinates"
   - "position claim"
-  - "thresholds"
+  - "representation"
 ---
 
 ### C.2.2a:5 - Archetypal Grounding

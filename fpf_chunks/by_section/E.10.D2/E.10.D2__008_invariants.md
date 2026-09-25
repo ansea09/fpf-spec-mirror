@@ -6,12 +6,12 @@ section_id: "E.10.D2:6"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__008_invariants.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:6 — Invariants"
-line_start: 87134
-line_end: 87153
+line_start: 87454
+line_end: 87473
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -34,19 +34,22 @@ dependencies:
   - "F.9"
   - "G.11"
 keywords:
-  - "Description episteme"
-  - "DescriptionContext"
+  - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"
+  - "checkable claims"
+  - "description episteme"
+  - "harness"
+  - "publication"
+  - "representation"
   - "specification use"
-  - "testable"
-  - "verifiable"
+  - "viewpoint"
 ---
 
 ### E.10.D2:6 - Invariants
 
 **D2-1 (Direct constitution).** Every description episteme is identified through the exact C.2.1 `<ClaimGraph, EntityOfConcern, effective ReferenceScheme>` constitution; no local record or tuple replaces it.
 
-**D2-2 (Entity-description distinction).** The EntityOfConcern and a description episteme about it are distinct, including when the EntityOfConcern is itself an episteme.
+**D2-2 (Entity-description distinction).** Recover the independently identified EntityOfConcern and the claim-bearing episteme without treating a description as its subject merely by appearance. They may be the same episteme in a C.2.1 self-description; different constitution triples identify different epistemes.
 
 **D2-3 (Specification is a use).** Specification force requires checkable claims and a named harness or validation relation. When viewpoint selection affects reliance, preserve or update the named describing use and its exact selection. Specification is not a peer class or label effect.
 

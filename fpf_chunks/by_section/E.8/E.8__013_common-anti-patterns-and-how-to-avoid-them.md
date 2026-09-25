@@ -6,12 +6,12 @@ section_id: "E.8:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 82521
-line_end: 82545
+line_start: 82839
+line_end: 82863
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -44,7 +44,9 @@ keywords:
   - "SHALL NOT"
   - "SHOULD"
   - "SHOULD NOT"
+  - "a body-only term cannot support that search"
   - "and OPTIONAL are to be interpreted as described in RFC 2119"
+  - "and query cue for additional familiar expressions. If the intended search sees only headings"
   - "improves auditability"
   - "inside the predicate block"
   - "or other admissibility conditions of the modeled world"
@@ -64,7 +66,7 @@ These failure modes recur in drafts and in downstream application. They are pred
 | **Un-grounded abstractions** | Problem/Solution stay abstract; no concrete System/Episteme Tell-Show-Show. | Breaks teachability and makes misuse likely. | Fill Archetypal Grounding first; then back-propagate concrete nouns into Problem/Forces/Solution. |
 | **SoTA name-dropping** | SoTA-Echoing lists sources or adopt/adapt/reject labels but never names the practice question, serious alternative, defect overcome, or changed pattern locus. | The reader cannot recover why the selected line is best for this question or what changed in practice. | Supply the complete compact comparison from CC-SG.7, or state an honest source gap. |
 | **Currentness laundering** | An official registry entry, publication date, maintained status, latest release, citation count, or widespread default is verified and then reported as evidence that the source is SoTA. | The check establishes source identity, availability, or currentness, not the best-known answer or its advantage over a serious alternative. | Classify the source as official/popular comparator or identity/currentness only. It contributes to SoTA only through an explicit comparison whose defect and pattern mutation are independently shown. |
-| **Tool-bound normativity** | A vendor tool, file format, or schema is described as required to apply the pattern. Data governance implied. | Violates Guard-Rails (lexical firewall; notation independence, data governance absence); reduces portability and conceptual clarity. | Keep normative content conceptual; move tooling and data governance into subject-specific project profiles. |
+| **Incidental tool-bound normativity** | A rule about an abstract subject requires an unrelated vendor tool, file format or execution command. | Introduces an implementation dependency into the concept. | Move that machinery to Tooling/project profiles. Retain exact syntax only when the rule governs that publication form, protocol or grammar and names its edition/use boundary under E.5.1. |
 | **Hidden trade-offs** | A material cost or limitation is omitted from Consequences. | Hides information needed to judge adoption or applicability. | State the decision-relevant cost or limitation and a mitigation when available. Consequences may state only gains when no such cost or limitation is known. |
 | **Skeleton-only pattern** | The template is present, but the pattern gives only one compressed definition block and scenario labels. | Passes form while failing didactic sufficiency. | Add didactic content: local decomposition, concrete slices, reviewer cues, and neighboring-pattern or project-side FPF kind and reference named by value guidance. |
 | **PatternID read as definition or order** | A numeric or mnemonic segment is treated as the pattern's meaning, title, current position, dependency, Method relation, or semantic parent. | The address becomes a hidden claim and ordinary reordering threatens reference continuity. | Use the PatternID only as an address together with surrounding text that identifies the framework. Show title and current position separately, state relations directly, and use the applicable product-authoring rule to decide continuity across editions. |

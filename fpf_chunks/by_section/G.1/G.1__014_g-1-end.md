@@ -1,21 +1,20 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.1"
-pattern_title: "CG‑Frame‑Ready Generator"
+pattern_title: "Author a Reusable CG-Frame Generator and Selector Kit"
 section_id: "G.1:End"
 section_title: "G.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__014_g-1-end.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.1 — CG‑Frame‑Ready Generator"
+  - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:End — G.1:End"
-line_start: 111139
-line_end: 111140
+line_start: 111564
+line_end: 111565
 dependencies:
   - "A.10"
   - "A.15.3"
-  - "A.19"
   - "A.19.CN"
   - "C.17"
   - "C.18"

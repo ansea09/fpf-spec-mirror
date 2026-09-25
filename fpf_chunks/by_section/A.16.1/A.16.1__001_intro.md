@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16.1"
-pattern_title: "U.PreArticulationCuePack"
+pattern_title: "PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
 section_id: "A.16.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16.1 — U.PreArticulationCuePack"
+  - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:intro — Intro"
-line_start: 30944
-line_end: 30965
+line_start: 30886
+line_end: 30907
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,7 +36,7 @@ keywords:
   - "primary witness"
 ---
 
-## A.16.1 - `U.PreArticulationCuePack`
+## A.16.1 - `PreArticulationCuePack`: Preserve an Early Cue Before Choosing Its Use
 
 > **Type:** Definitional (D)
 > **Status:** Stable
@@ -52,7 +52,7 @@ keywords:
 
 **Start here when.** Your first honest content is a preserve-worthy cue nucleus that should not yet be forced into a claim, route decision, method, or work record.
 
-**First output.** One `U.PreArticulationCuePack` with an explicit cue nucleus, preservation rationale, primary witness or anchor when one is load-bearing, and any early lane candidates or route-candidate hints that are already visible.
+**First output.** One `PreArticulationCuePack` with an explicit cue nucleus, preservation rationale, primary witness or anchor when one is load-bearing, and any early lane candidates or route-candidate hints that are already visible.
 
 **Typical next patterns.** Use `B.4.1` when route plurality or route selection becomes publishable; `B.5.2.0` for cue-derived abductive prompting; `A.6.P` when a relation-bearing claim needs repair for a named receiving use and you can name at least one grounded candidate relation, its participants, and a discriminating check; `A.6.A` or `C.16.Q` under their own entry conditions; and `A.16.2` when reopening or retirement becomes the truthful move. Use `C.2.4` for any additional local articulation threshold declared for a receiving branch.
 

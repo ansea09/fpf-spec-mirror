@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.3"
-pattern_title: "Transformer Constitution (Quartet)"
+pattern_title: "Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
 section_id: "A.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__011_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.3 — Transformer Constitution (Quartet)"
+  - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:10 — Relations"
-line_start: 8266
-line_end: 8307
+line_start: 8235
+line_end: 8276
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -24,6 +24,7 @@ dependencies:
   - "A.4"
   - "A.7"
   - "B.1.4-B.1.6"
+  - "C.2.1"
   - "F.6"
   - "F.9"
 keywords:
@@ -34,13 +35,13 @@ keywords:
 **A.7 Strict Distinction.**
 A.3 keeps the target EntityOfConcern, MethodDescription, Method, local system-role kind, SystemRoleAssignment occurrence, dated Work occurrence, Work assertion or description, actual change, log or observation, and evidence relation distinct. A recipe or log is not part of the target merely by describing or recording work on it, and a record about Work is not the Work occurrence.
 
-**A.12 Acting-Side Externalization and Reflexive Split.**
+**A.12 Acting-Side Externalization and Reflexive Split: Identify Who Acts on What.**
 A.3's CC-A3-1 uses A.12 only when an actor-side or reflexive-work claim is current. The split keeps grounded acting and changed positions distinct for that claim; it neither invents an actor for non-separable change nor turns ordinary descent to already grounded parts into an MHT.
 
 **A.13 Agential Role.**
 When an agency claim is current, A.13 governs agenthood and the domain profile, while A.17, A.18, A.19, C.16, and A.10 govern its measurement and evidence as applicable; planned C.9 may later consolidate the profile but supplies no current governing force. A.3 keeps identity, role assignment, method, plan, work, transformation, and evidence separate. Scale-free or minimal physical agentivity, observerhood, self-evidencing, or causal participation does not by itself establish an obtaining `U.SystemRoleAssignment`, `TransformerRole@Context`, method enactment, or dated Work.
 
-**A.3.4 Bounded Change Under Conditions.**
+**A.3.4 Actual Bounded Change Under Conditions.**
 A.3.4 independently identifies one actual bounded transformation from the changed referent and subject-side occurrence facts. A.3 opens only when an actor-side enactment claim is additionally grounded. Natural, spontaneous, formal, relational, and joint-dynamics changes therefore need no fictive performer.
 
 **A.3.3, direct relation, interaction, and causality owners.**

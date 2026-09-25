@@ -1,34 +1,36 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.3"
-pattern_title: "Principle Taxonomy & Precedence Model"
+pattern_title: "Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
 section_id: "E.3:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__010_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.3 — Principle Taxonomy & Precedence Model"
+  - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:9 — Rationale"
-line_start: 78823
-line_end: 78825
+line_start: 79103
+line_end: 79105
 dependencies:
   - "E.1"
   - "E.2"
 keywords:
+  - "ABL"
   - "Arch"
+  - "BLP waiver"
   - "Did"
   - "Epist"
   - "Gov"
   - "Prag"
-  - "classification"
+  - "autonomy budget"
   - "conflict resolution"
-  - "hierarchy"
+  - "oversight"
   - "precedence"
-  - "principles"
-  - "taxonomy"
+  - "principle taxonomy"
+  - "profile change"
 ---
 
 ### E.3:9 - Rationale
-The chosen taxonomy mirrors FPF’s layered dependency: **Governance** rules how change occurs; **Architecture** shapes what can exist; **Epistemology** secures meaning and trust; **Pragmatics** and **Didactics** ensure usefulness and learnability. Explicit override edges supply the flexibility experts need, while the default hierarchy keeps day‑to‑day design deterministic—a “living constitution” that remains both human‑intelligible and machine‑enforceable.
+The chosen taxonomy mirrors FPF’s layered dependency: **Governance** rules how change occurs; **Architecture** shapes what can exist; **Epistemology** secures meaning and trust; **Pragmatics** and **Didactics** ensure usefulness and learnability. Explicit override edges and the default hierarchy determine a winner where the declared ordering suffices. Where it does not, the explicit hold preserves the boundary between applying a rule and acquiring authority to change it. The taxonomy supports that decision; it does not make every pair comparable.
 

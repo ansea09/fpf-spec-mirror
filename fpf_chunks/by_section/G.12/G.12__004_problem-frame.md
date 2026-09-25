@@ -6,12 +6,12 @@ section_id: "G.12:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__004_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:2 — Problem Frame"
-line_start: 116061
-line_end: 116073
+line_start: 116415
+line_end: 116427
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -38,15 +38,15 @@ dependencies:
   - "G.Core"
 keywords:
   - "DHC"
-  - "PathId/PathSliceId"
-  - "RSCR/refresh wiring"
-  - "UTS twins"
-  - "admissible telemetry"
+  - "DHCReplayBasis"
+  - "DHCSeries"
+  - "coordinate results"
   - "dashboard"
   - "discipline health"
-  - "edition pins"
-  - "time-series"
-  - "view-only slices"
+  - "optional publication"
+  - "selective refresh"
+  - "time series"
+  - "views"
 ---
 
 ### G.12:2 — Problem Frame

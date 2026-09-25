@@ -6,12 +6,12 @@ section_id: "E.10.LRN:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__009_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:7 — Conformance Checklist"
-line_start: 85403
-line_end: 85414
+line_start: 85723
+line_end: 85734
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 1. Is the word family claim-bearing for the current use?
 2. Are participants, changed subject, Work or Method, result, and receiving use explicit enough to choose a direct pattern?
 3. Are teaching/training occurrences separated from capability, model, inference, or generalization results?
-4. Does the evidence name task or population, conditions, support arrangement, window, and blocked transfer?
+4. Does the evidence name task or population, conditions, support arrangement, window, and any locally grounded transfer boundary that changes use?
 5. Are information acquisition, belief/model update, statistical fitting, and capability change kept distinct?
 6. Are public constructions, recall performances, patterns, and cultural variants kept distinct from holder capability and internal state?
 7. Is source-local wording preserved as quotation where needed without becoming FPF ontology?

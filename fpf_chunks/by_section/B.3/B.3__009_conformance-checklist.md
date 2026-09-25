@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3"
-pattern_title: "Trust and Assurance Calculus"
+pattern_title: "Is This Claim Supported for This Use? — Trust and Assurance Calculus"
 section_id: "B.3:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__009_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.3 — Trust and Assurance Calculus"
+  - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:7 — Conformance checklist"
-line_start: 42149
-line_end: 42165
+line_start: 42098
+line_end: 42114
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,6 +20,7 @@ dependencies:
   - "A.21"
   - "A.22"
   - "A.6.1"
+  - "B.1.5"
   - "C.16"
   - "C.16.Q"
   - "C.2.1"
@@ -29,6 +30,7 @@ dependencies:
   - "E.24.PUB"
   - "F.10"
   - "G.11"
+  - "G.5"
   - "G.6"
 keywords:
 ---
@@ -46,7 +48,7 @@ keywords:
 | `CC-B3-7` | Target fact, target claim, evidence use, assessment Work, input results, assurance result, witness, note, publication, and later reliance or decision remain recoverable separately. |
 | `CC-B3-8` | A label, dashboard, card, provenance mark, attestation, or publication contributes only the exact property established through a cited relation. |
 | `CC-B3-9` | Safety, rights, access, responsibility, contest, redress, status, permission, release, and controlled action remain with their direct patterns. |
-| `CC-B3-10` | A causal-use premise cites the exact C.28 result; a Method-organization premise cites an A.22-selected structure only when that structure matters. |
+| `CC-B3-10` | A causal-use premise cites the exact C.28 result. A Method premise cites its direct composition, selection or other result; add an A.22 structure only when independently selected organization changes the assurance question, with all four identity discriminators recoverable. |
 | `CC-B3-11` | Work, performer, Method, bindings, witnesses, reusable notes, and an optional F.6 assignment check are added only for an actual replay, competence, independence, timing, contest, or redress need. Every Work follows the §4.5 A.13 then independent A.15.1 route. |
 | `CC-B3-12` | A positive result states the unsupported stronger use and exact reopen condition. |
 

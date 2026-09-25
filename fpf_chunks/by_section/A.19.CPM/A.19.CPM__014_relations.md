@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CPM"
-pattern_title: "Unified Comparison Mechanism (CPM)"
+pattern_title: "Compare Admitted Profiles under a Declared Comparator (CPM)"
 section_id: "A.19.CPM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__014_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.CPM — Unified Comparison Mechanism (CPM)"
+  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:12 — Relations"
-line_start: 36461
-line_end: 36486
+line_start: 36394
+line_end: 36419
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -27,10 +27,10 @@ keywords:
 
 **Builds on and cites (non‑exhaustive):**
 
-* `A.6.1` (shape of `U.Mechanism.Intension`; specialization discipline)
-* `A.6.5` (slot discipline; SlotIndex as derived projection)
+* `A.6.1` (operation declarations and actual application/binding rules)
+* `A.6.1 §4.2` (operation-local argument/result meanings and binding rules; SlotIndex projects those declarations)
 * `A.19.CHR` (suite membership + obligations + `suite_protocols`; CHR SlotKind lexicon)
-* `A.15.3` + `A.19.CHR:4.7.2` (planned slot-filling ontic and `SlotFillingsPlanItem` rows; CPM remains refs-only with respect to planned slot filling)
+* `A.15.2` for the edition/policy baseline; `A.15.3` plus `A.19.CHR:4.7.2` for typed filling of independently declared positions.
 * `A.19` for `CharacteristicSpace` and the optional by-value `CharacteristicSpacePredicate` used by one comparison
 * `A.2.6` for `U.ClaimScope` identity and exact `U.ContextSlice` membership
 * `A.19.CN` for CN-Spec comparability plus acceptance and admission declarations

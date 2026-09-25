@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16"
-pattern_title: "Language-State Move Coordination"
+pattern_title: "Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
 section_id: "A.16:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__008_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16 — Language-State Move Coordination"
+  - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:7 — Conformance checklist"
-line_start: 30624
-line_end: 30642
+line_start: 30533
+line_end: 30551
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -43,15 +43,14 @@ dependencies:
   - "E.10.MOVE"
   - "E.11.PUR"
   - "E.18"
+  - "E.18.2"
   - "E.24.PUB"
   - "F.6"
 keywords:
-  - "admissible language-state move"
   - "language-state"
   - "move"
   - "reopen"
   - "respecify"
-  - "responsibility transfer"
   - "retire"
   - "sketch-backoff"
 ---
@@ -71,7 +70,7 @@ Use this one checklist for authoring and review:
 9. Any dated Work and Work-result claim is established separately under its own patterns.
 10. Docking or a Work crossing alone establishes no authority, responsibility, permission, or commitment change. A real change names the exact relation and its own participants, object or action, scope, interval, and instituting or ending act. An unchanged-relation claim requires an applicable negative criterion or complete closure basis.
 11. Use `EndpointAdmissionProfile` only to judge admissible docking; apply all of the endpoint pattern's own conditions.
-12. A short note stands alone. A.16.0 opens only at the §4.7 threshold, and E.18 opens only when the history itself is a graph publication.
+12. A short note stands alone. A.16.0 opens only at the §4.7 threshold, and E.18 opens only for an independently selected TransformationFlowStructure.
 13. A summarized chain leaves intermediate move identities, endpoint-rule changes, losses, and material status changes reconstructible.
 14. Compared histories are typed by form, move, applicable pattern or rule, and independent status claims; they are not compared as generic “maturity speed.”
 

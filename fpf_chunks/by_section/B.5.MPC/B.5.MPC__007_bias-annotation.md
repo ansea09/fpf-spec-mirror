@@ -6,12 +6,12 @@ section_id: "B.5.MPC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__007_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:6 — Bias-Annotation"
-line_start: 44035
-line_end: 44047
+line_start: 43998
+line_end: 44010
 dependencies:
   - "A.15.9"
   - "A.3.3"

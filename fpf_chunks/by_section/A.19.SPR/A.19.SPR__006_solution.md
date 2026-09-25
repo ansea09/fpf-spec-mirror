@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.SPR"
-pattern_title: "State-Family Precision Restoration"
+pattern_title: "Repair State and Status Wording"
 section_id: "A.19.SPR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.SPR — State-Family Precision Restoration"
+  - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:4 — Solution"
-line_start: 32481
-line_end: 32587
+line_start: 32421
+line_end: 32527
 dependencies:
   - "A.10"
   - "A.16"
@@ -127,7 +127,7 @@ When `readiness` or `ready` still hides which governed value is meant, use `E.10
 | work-entry use of an assignment-state claim | `A.15.5` or the direct receiving pattern; A.2.5 supplies only the exact assignment-state input |
 | language-state position for episteme or publication wording | `C.2.2a` and `A.16.*` after `C.2.P` when source-publication recovery is needed |
 | source use, source currentness, source publication, or source-use disposition | `C.2.P`, `E.17`, `E.9.DA`, or source-use field named by value |
-| evidence path state, evidence relation, or reliance disposition | `A.10` |
+| evidence path state, evidence relation, or reliance disposition | Use `A.10` to recover the exact source, independently established support relations, currentness and bounded use; use the direct defining pattern for the particular support relation or reliance decision. |
 | assurance result, assurance claim, assurance input, or engineering-justification use | `B.3` |
 | constraint or local CV | `A.20` or the direct constraint pattern |
 | ambiguous `readiness` or `ready` wording | `E.10.MOVE` until the governed value is recovered |

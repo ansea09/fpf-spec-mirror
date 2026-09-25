@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30.TFS-REL"
-pattern_title: "Architecture Transformation-Flow Structure Relation"
+pattern_title: "Use Transformation-Flow Structures and Networks in Architecture"
 section_id: "C.30.TFS-REL:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
+  - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:intro — Intro"
-line_start: 69598
-line_end: 69606
+line_start: 69810
+line_end: 69818
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,9 +50,18 @@ dependencies:
   - "F.18"
   - "G.6"
 keywords:
+  - "ArchitectureTransformationFlowStructureRelation"
+  - "TFS"
+  - "architecture use"
+  - "crossing"
+  - "flow valuation"
+  - "functional view"
+  - "path"
+  - "transformation-flow structure"
+  - "transformation-flow structure network"
 ---
 
-## C.30.TFS-REL - Architecture Transformation-Flow Structure Relation
+## C.30.TFS-REL - Use Transformation-Flow Structures and Networks in Architecture
 
 > **Type:** Architectural pattern
 > **Status:** Stable

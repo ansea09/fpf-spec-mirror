@@ -1,18 +1,19 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CHR"
-pattern_title: "CHRMechanismSuite"
+pattern_title: "CHRMechanismSuite: Shared Rules for Characterization and Selection"
 section_id: "A.19.CHR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.CHR — CHRMechanismSuite"
+  - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:4 — Solution"
-line_start: 34161
-line_end: 34569
+line_start: 34092
+line_end: 34462
 dependencies:
+  - "A.15.2"
   - "A.15.3"
   - "A.19"
   - "A.19.CHR"
@@ -20,6 +21,7 @@ dependencies:
   - "A.6.1"
   - "A.6.5"
   - "A.6.7"
+  - "A.6.RCD"
   - "C.23"
   - "E.10"
   - "E.18"
@@ -48,29 +50,13 @@ keywords:
 
 ### A.19.CHR:4 - Solution
 
-This pattern defines a single, canonical **CHR mechanism suite** as a *description object* (not a mechanism, not a pack), so that:
+Select the six declarations, cite one CN-Spec and CG-Spec baseline, and state the protocol under §§4.2–4.5. Check the arguments and result of each used operation against that baseline. Record planned editions in A.15.2 when a P2W path is involved; add A.15.3 typed filling only for an independently declared position. Actual launch values and any `FinalizeLaunchValues` witness belong to enactment.
 
-1. the CHR core is reusable across all Part‑G patterns (not only G.5),
-2. admissibility is centralized via **spec pins** (`CN-Spec`, `CG-Spec`) and **Transport discipline**,
-3. P2W integration is made explicit by requiring a standard **planned slot fillings** plan item in `WorkPlanning`, while keeping **FinalizeLaunchValues** exclusively in `WorkEnactment`.
+The suite contains membership, shared obligations, references and permitted protocols. It supplies no operation result or gate decision.
 
-Core idea:
-`CHRMechanismSuiteDescription := {UNM, UINDM, USCM, ULSAM, CPM, SelectorMechanism} + SuiteObligations + SuiteSpecPins + SuiteProtocols (+ audit obligations)`.
+#### A.19.CHR:4.0 - Resolve the contract before use
 
-#### A.19.CHR:4.0 - Pattern-definition map and implementability guard
-
-**Tell.** CHR mechanisms are implementable only when each described CHR mechanism, suite obligation, protocol, extension block, or decision record names the FPF pattern, section, extension block, or DRR that governs it. The governing definition is citable and patchable by its `PatternId`, `PatternId:SectionPath`, `PatternScopeId = G.x:Ext.*`, or `DRRId` (E.9).
-
-**Where each defined CHR pattern-definition locus is defined (cite, don’t duplicate):**
-
-* **see `A.19.CHR:4.2.2` for canonical targets**.
-* **CHR suite boundary (membership + obligations + protocols):** `A.19.CHR` (`mechanisms[]` declares `…IntensionRef`; `suite_protocols` declares order/optionality).
-* **Planned baseline binding (instances/editions/policy pins):** `A.15.3` + `A.19.CHR:4.7.2` (refs/pins only; no launch values).
-* **SoTA harvesting and method claims:** `G.2` (pack pattern) and downstream authoring kits (`G.3`, `G.4`) — not this suite.
-* **Wiring modules for method/discipline/generator specifics:** `G.*:Extensions` as `GPatternExtension` blocks (`PatternScopeId = G.x:Ext.<…>`), with explicit `GoverningPatternId`.
-* **RSCR trigger catalogue and trigger alias maps:** `G.Core` (catalogue defined there).
-* **Lexical alias docking (token drift without breaking public references):** `F.18`.
-* **Project‑level specialization and transformation-flow structures:** project patterns (`P.*`) for `⊑/⊑⁺` specializations; `E.18` for flow graphs citing planned baseline instance refs.
+A usable step names the selected member declaration, its operation and the governing argument, result, law and admission content. Use §4.2.2 to locate the declaration and the selected baseline to resolve its edition. A missing contract or unresolved edition stops that dependent step; a stage name or source list cannot fill the gap.
 
 #### A.19.CHR:4.1 - Objects published by this pattern
 
@@ -78,29 +64,23 @@ Core idea:
 
 A concrete `MechSuiteDescription` instance whose role is to:
 
-* enumerate the canonical CHR mechanisms (as `U.Mechanism.IntensionRef`s),
+* enumerate the canonical CHR mechanisms (as `MechanismDeclarationRef`s),
 * declare suite‑level obligations/invariants,
 * declare suite‑level spec pins (refs only),
 * declare admissible suite protocols (Uses pipelines),
-* require a standard planned baseline plan item (`CHRMechanismSuiteSlotFillingsPlanItem`) on P2W paths.
+* require an edition/reference baseline in WorkPlanning on P2W paths; add typed planned fillings only when their independently declared positions are current.
 
-**Note (non-normative, disambiguation).** Kernel A.6.7 already uses `CHRMechanismSuiteDescription` as an illustrative *example* of a `MechSuiteDescription`. This pattern fixes the same-named object as the **canonical** CHR suite instance and supplies its P2W hook plus conformance envelope.
+A.6.7 supplies the general suite form. This pattern selects the six CHR roles and their shared obligations, with the P2W baseline specified below.
 
-##### A.19.CHR:4.1.2 - `CHRMechanismSuiteSlotFillingsPlanItem`
+##### A.19.CHR:4.1.2 - Planned baseline and conditional typed filling
 
-A `SlotFillingsPlanItem` specialization used in WorkPlanning to fix the **planned baseline** of:
+Use ordinary A.15.2 WorkPlan content for the selected suite, declaration and CN-Spec/CG-Spec editions, method and comparator references, time rule, expected guards and any required crossing references. Address that content through the exact WorkPlan and its local locator.
 
-* pinned `CN‑Spec` / `CG‑Spec` refs (and editions where required),
-* chosen mechanism instances / method descriptions / comparator specs (refs only),
-* time selector / time rule pins for “no implicit latest”,
-* expected guards (Launch/Compare pins) and expected crossing policy pins,
-* and context identifiers needed for audit traceability (CG‑frame, path slice, publication scope).
-
-It is explicitly **not** a mechanism, not an admissibility gate, and not a witness of execution.
+Use `CHRMechanismSuiteSlotFillingsPlanItem` under A.15.3 only when a selected operation argument or relation position already has its own meaning, designation, ValueKind, cardinality and binding predicate. Cite that governing declaration and position. A suite field or a name in the CHR lexicon does not create such a position. A missing fact may remain unknown in the plan; a missing declaration must be recovered before typed filling. Actual bindings and launch witnesses remain with actual enactment.
 
 #### A.19.CHR:4.2 - Canonical mechanism membership
 
-**Tell.** `CHRMechanismSuiteDescription.mechanisms` MUST contain the following six mechanism intensions (each published as `U.Mechanism.Intension` per their governing patterns) and MUST treat them as **distinct mechanisms** (not “implementations of one”):
+**Tell.** Select one exact A.6.1 declaration contract for each of the following six CHR roles. The resulting `mechanisms` set contains six distinct declaration epistemes, not implementations or unqualified operation-family names:
 
 1. `UNM` — Unified Normalization Mechanism
 2. `UINDM` — Unified Indicatorization Mechanism
@@ -122,15 +102,15 @@ CHRMechanismSuiteDescription.mechanisms :=
 ```
 
 **Membership semantics note (normative).**
-`mechanisms` denotes a duplicates-free **set**; order carries no semantics. Any intended ordering is expressed only in `suite_protocols`.
+`mechanisms` denotes a duplicates-free **set** of exact declaration epistemes; order carries no semantics. The displayed `…IntensionRef` labels are retained citation names for those declarations. In a concrete suite baseline, each resolves to one selected edition under A.6.7 §4.1. They are not references to a newly defined operation-family kind. Any intended ordering is expressed only in `suite_protocols`.
 
-**Rationale.** This suite is unified by **governance card, admissibility gate, and Transport discipline** (CN-Spec + CG-Spec + Transport), with membership by declared mechanism intension.
+**Rationale.** This suite is unified by **governance card, admissibility gate, and Transport discipline** (CN-Spec + CG-Spec + Transport), with membership by exact operation declarations.
 
 #### A.19.CHR:4.2.1 - CHR SlotKind Lexicon (suite‑wide minimum)
 
-**Tell.** To prevent SlotKind drift across the CHR mechanism chain and across SoTA wiring modules, CHR mechanism intensions SHOULD use the SlotKind tokens from this lexicon whenever they refer to the corresponding semantic roles. New SlotKinds MAY be introduced, but only by first extending this lexicon (suite‑governed), then citing the new SlotKind from the affected mechanism card.
+**Tell.** To prevent SlotKind drift across the CHR mechanism chain and across SoTA wiring modules, CHR mechanism declarations SHOULD use the SlotKind tokens from this lexicon whenever they refer to the corresponding semantic roles. New SlotKinds MAY be introduced, but only by first extending this lexicon (suite‑governed), then citing the new SlotKind from the affected mechanism card.
 
-**Lexicon (minimum).** Tokens below are **SlotKind** names (not types). Concrete `ValueKind` / `RefKind` constraints are defined by the governing mechanism card and by A.6.5, A.19, G.0.
+**Lexicon (minimum).** Tokens below are **SlotKind** names (not types). Concrete meanings, `ValueKind` / reference designation and binding rules come from the governing A.6.1 operation-local declarations; A.19 and G.0 constrain their domain use. A.6.5 relation SlotSpecs are not the source of these operation positions.
 
 - **Core suite SlotKinds**
   - `CharacteristicSpaceSlot`
@@ -140,7 +120,7 @@ CHRMechanismSuiteDescription.mechanisms :=
 
 - **Indicatorization**
   - `IndicatorChoicePolicySlot`
-  - `IndicatorSetSlot`
+  - `IndicatorSetSlot` — A.19.UINDM's selected declaration-local basis positions, retained with the exact CharacteristicSpace basis; each position keeps its Characteristic and Scale
   - `JustificationSlot`
 
 - **Scoring**
@@ -173,7 +153,7 @@ CHRMechanismSuiteDescription.mechanisms :=
 
 #### A.19.CHR:4.2.2 - Canonical Intension targets (no dangling refs)
 
-**Tell.** Each `…IntensionRef` enumerated in `CHRMechanismSuiteDescription.mechanisms` SHALL resolve to a canonical `U.Mechanism.Intension` publication under the mechanism’s designated governing pattern (for CHR: the corresponding `A.19.<MechId>` mechanism-profile pattern). Draft stubs are allowed; dangling refs are not.
+**Tell.** Each `…IntensionRef` resolves through its governing pattern below to one exact A.6.1 declaration edition. These targets locate the declaration; the selected suite/WorkPlan baseline supplies edition resolution for use. A draft stub can locate unfinished work but cannot resolve an operation contract it does not declare.
 
 **Canonical targets (normative anchors).**
 
@@ -207,11 +187,11 @@ CHRMechanismSuiteDescription.mechanisms :=
 
 ##### A.19.CHR:4.3.1 - Crossings, visibility, and penalties
 
-* **`bridge_only_crossings`:** all cross-context and cross-plane reuse is Bridge-only (no implicit crossings).
-* **`two_bridge_rule_for_described_entity_change`:** any EntityOfConcern (kind/identity) change (`CL^k`) is explicit and satisfies the two-bridge rule.
+* **`bridge_only_crossings`:** a semantic correspondence between distinct recovered local senses requires the obtaining F.9 Bridge and the bounded-use/reliance basis consumed by this use.
+* **`two_bridge_rule_for_described_entity_change`:** a C.3.3 kind correspondence retains its own endpoints, obtaining and receiving-use conditions. If an F.9 correspondence is also used, establish it independently. EntityOfConcern change alone supplies neither relation. Plane-only claims stay under their direct governor.
 * **`transport_declarative_only`:** the suite does not embed CL/Φ/Ψ/Φ_plane tables and does not introduce any additional graph edge kind beyond E.18 `U.Transfer`; it requires only refs/pins/anchors whose realization is mediated by E.18 / gate surfaces.
 * **`penalties_route_to_r_eff_only`:** CL/Φ/Ψ/Φ_plane penalties route to `R/R_eff` only; `F/G` are invariant under penalty routing.
-* **`crossing_visibility_required`:** any GateCrossing relevant to suite use publishes a `CrossingBundle` (E.18) and can be cited as an audit anchor (including LaunchGate and `edition_key` changes of pinned `editions{…}` vectors).
+* **`crossing_visibility_required`:** an actual E.18 crossing in an independently selected TransformationFlowStructure retains its required CrossingBundle; an A.21 work-entry gate retains its applicable gate anchors. A changed edition pin triggers the recheck required by its receiving use, but does not itself create a crossing, Bridge or gate.
 
 ##### A.19.CHR:4.3.2 - Guards and gate separation
 
@@ -229,7 +209,7 @@ CHRMechanismSuiteDescription.mechanisms :=
 
 ##### A.19.CHR:4.3.4 - P2W discipline
 
-* **Planned slot filling in WorkPlanning only.**
+* **Edition/reference baselines use A.15.2 WorkPlan content. Typed planned filling uses A.15.3 only for independently declared positions.**
 * **FinalizeLaunchValues in WorkEnactment only.**
 * Suite and plan objects MUST NOT contain launch‑value witnesses.
 
@@ -246,35 +226,30 @@ CHRMechanismSuiteDescription.mechanisms :=
   * CAL exports exactly one Γ,
   * imports are acyclic.
 
-##### A.19.CHR:4.3.7 - Routed claim mini-register (A.6.B)
+##### A.19.CHR:4.3.7 - Claim reference index
 
-**Intent.** `CHRMechanismSuite` is a suite-obligation boundary with a P2W hook. To avoid “contract soup”, the load-bearing statements below are routed as atomic claims per **A.6.B** and can be cited by IDs instead of being paraphrased across downstream patterns and MVPK faces.
+The existing claim identifiers resolve to the rules below. The rules are stated once at their governing locations.
 
-| ID | Quadrant | Statement (atomic; verbatim) | Canonical location |
-|---|---|---|---|
-| **L-A67CHR-01** | L | `CHRMechanismSuiteDescription.mechanisms` denotes a duplicates-free set; order carries no semantics. | A.19.CHR:4.2 (Membership semantics note) |
-| **L-A67CHR-02** | L | A “planned baseline” is a `CHRMechanismSuiteSlotFillingsPlanItem` in WorkPlanning that records planned fillers and pins for a P2W path slice. | A.19.CHR:4.1.2 / 4.6 |
-| **L-A67CHR-03** | L | A planned baseline is not an execution witness and contains no launch values. | A.19.CHR:4.1.2 / 4.6 |
-| **A-A67CHR-01** | A | A suite protocol is *suite-closed* iff every `ProtocolStep.mechanism` is a member of `CHRMechanismSuiteDescription.mechanisms`. | A.19.CHR:4.5 (WF‑MS‑2) |
-| **A-A67CHR-02** | A | A P2W path slice is CHR-suite-ready for enactment iff a planned baseline of kind `CHRMechanismSuiteSlotFillingsPlanItem` exists for that slice, sets `target_slot_bearing_description_ref` to an edition-addressable `MechSuiteDescriptionRef` whose referent is `CHRMechanismSuiteDescription`, and pins `CNSpecRef` and `CGSpecRef`. | A.19.CHR:4.6 |
-| **D-A67CHR-01** | D | Suite authors SHALL publish `CHRMechanismSuiteDescription` as a `MechSuiteDescription` instance. | A.19.CHR:7.1 (CC‑A67CHR‑1) |
-| **D-A67CHR-02** | D | Suite authors SHALL NOT encode `CHRMechanismSuiteDescription` as a `MechFamilyDescription`. | A.19.CHR:7.1 (CC‑A67CHR‑1) |
-| **D-A67CHR-03** | D | Suite authors SHALL enumerate exactly `{UNM, UINDM, USCM, ULSAM, CPM, SelectorMechanism}` as `U.Mechanism.IntensionRef`s in `CHRMechanismSuiteDescription.mechanisms`. | A.19.CHR:4.2 / 7.1 (CC‑A67CHR‑2) |
-| **D-A67CHR-04** | D | Suite authors SHALL keep `CHRMechanismSuiteDescription.suite_spec_pins` refs-only. | A.19.CHR:4.4 / 7.1 (CC‑A67CHR‑3) |
-| **D-A67CHR-05** | D | Suite authors SHALL NOT embed CL/Φ/Ψ/Φ_plane tables or introduce transport edges in `CHRMechanismSuiteDescription` or `CHRMechanismSuiteSlotFillingsPlanItem`. | A.19.CHR:4.3.1 / 4.4 / 7.2 (CC‑A67CHR‑13) |
-| **D-A67CHR-06** | D | WorkPlanning authors SHALL publish one `CHRMechanismSuiteSlotFillingsPlanItem` per P2W path slice that uses the CHR suite. | A.19.CHR:4.6 / 7.2 (CC‑A67CHR‑10) |
-| **D-A67CHR-07** | D | WorkPlanning authors SHALL ensure a `CHRMechanismSuiteSlotFillingsPlanItem` contains planned pins/fillers only. | A.19.CHR:7.2 (CC‑A67CHR‑11) |
-| **D-A67CHR-08** | D | WorkPlanning authors SHALL NOT include launch values, execution witnesses, gate decisions, or decision logs in a `CHRMechanismSuiteSlotFillingsPlanItem`. | A.19.CHR:7.2 (CC‑A67CHR‑11) |
-| **D-A67CHR-09** | D | MVPK face authors SHALL ensure any claimful face that publishes edition pins or comparability/launch claims also publishes the required BridgeCard + UTS row anchors and the applicable USM guard pin with `GuardOwnerGateSlot`. | A.19.CHR:7.3 (CC‑A67CHR‑16) |
-| **E-A67CHR-01** | E | Evidence carrier for the planned baseline is the `CHRMechanismSuiteSlotFillingsPlanItem` instance and its citation from downstream `U.Work.Audit` as the baseline for the path slice. | A.19.CHR:7.2 (CC‑A67CHR‑14) |
-| **E-A67CHR-02** | E | Evidence carrier for launch values and `FinalizeLaunchValues` is `U.WorkEnactment` (and its audit and evidence carriers), not the planned baseline plan item. | A.19.CHR:4.6 / 7.2 |
+| Claim identifiers | Governing content |
+| --- | --- |
+| L-A67CHR-01 | §4.2 membership set semantics |
+| L-A67CHR-02, L-A67CHR-03, A-A67CHR-02 | §§4.1.2 and 4.6 planned baseline and its separation from enactment |
+| A-A67CHR-01 | §4.5 operation/edition resolution |
+| D-A67CHR-01, D-A67CHR-02 | CC-A67CHR-1 kind and level |
+| D-A67CHR-03 | §4.2 and CC-A67CHR-2 canonical membership |
+| D-A67CHR-04 | §4.4 and CC-A67CHR-3 specification references |
+| D-A67CHR-05 | §§4.3.1 and 4.4; CC-A67CHR-13 transport/crossing content |
+| D-A67CHR-06 | §4.6 and CC-A67CHR-10 planned baseline |
+| D-A67CHR-07, D-A67CHR-08 | CC-A67CHR-10a and CC-A67CHR-11 typed filling and plan/enactment separation |
+| D-A67CHR-09 | CC-A67CHR-16 anchors required by the actual claim |
+| E-A67CHR-01, E-A67CHR-02 | §4.6 and CC-A67CHR-14 baseline citation and actual enactment evidence |
 
 #### A.19.CHR:4.4 - Suite spec pins
 
 `CHRMechanismSuiteDescription.suite_spec_pins` MUST be refs‑only and MUST include:
 
 1. **Required spec refs:** `{CNSpecRef, CGSpecRef}` (as required pins, not copied content).
-2. **Required planned baseline:** `required_planned_baseline_ref := CHRMechanismSuiteSlotFillingsPlanItem` (kind‑level requirement: “P2W path MUST publish a planned baseline plan item of this kind”).
+2. **Required planned baseline:** cite the exact A.15.2 WorkPlan and content locator carrying the selected suite, declaration and spec editions. A typed A.15.3 item is additional only when §4.1.2 applies.
 3. **Required edition pins / policy pins (when applicable):**
 
    * `editions{CG‑Spec, ComparatorSet, UNM.TransportRegistryΦ, …}` when the chosen protocol path is edition‑sensitive,
@@ -284,9 +259,22 @@ CHRMechanismSuiteDescription.mechanisms :=
 
 #### A.19.CHR:4.5 - Suite protocols
 
-`CHRMechanismSuiteDescription.suite_protocols` (if present) MUST follow the A.6.7 `SuiteProtocol` structure and MUST be closed over suite membership (WF‑MS‑2): every `ProtocolStep.mechanism` is a member of `CHRMechanismSuiteDescription.mechanisms`.
+`CHRMechanismSuiteDescription.suite_protocols` follows A.6.7: each step resolves to one selected member declaration edition and one operation designator in that declaration. Its guards, laws, arguments and results come from that edition. Stage names below are readable labels, not substitute operation designators.
 
 If `suite_protocols` is present, it SHALL include at least one protocol that is equivalent to the canonical **suite-closed** pipeline below (with `fold_Γ` explicitly optional).
+
+The declaration-local bindings for the canonical stages are:
+
+| Stage label | Governing declaration | Operation designator |
+|---|---|---|
+| normalize | selected `UNM.IntensionRef` edition, A.19.UNM §4.1; consume its directed value and preservation/loss basis, adding class use only under its conditions | `apply` |
+| indicatorize | selected `UINDM.IntensionRef` edition, A.19.UINDM §4.1 | `Indicatorize` |
+| score | selected `USCM.IntensionRef` edition, A.19.USCM | `Score` |
+| fold_Γ, optional | selected `ULSAM.IntensionRef` edition, A.19.ULSAM | `Fold_Γ` |
+| compare | selected `CPM.IntensionRef` edition, A.19.CPM §4.1 | `Compare` |
+| select | selected `SelectorMechanism.IntensionRef` edition, A.19.SelectorMechanism | `Select` |
+
+Resolve each cited edition before applying these bindings; a changed designator or contract requires a revised binding. A list of source pins alone selects no operation. If two editions remain eligible, the suite baseline must state the condition that selects one, or stop that dependent step with the unresolved choice.
 
 **Show (canonical suite-closed protocol).**
 
@@ -302,21 +290,14 @@ select (SelectorMechanism)
 **Tell.**
 
 * The `fold_Γ` step is optional (explicitly optional, not implicit inside `score/compare/select`).
-* `suite_protocols` encodes a pipeline/Uses contour between mechanisms; it does **not** define a specialisation relation (`⊑/⊑⁺`). Specialisations live in `A.6.1:4.2.1` (and in project `P.*` extensions).
+* `suite_protocols` encodes a pipeline/Uses contour between mechanisms; it does **not** define a specialisation relation (`⊑/⊑⁺`). A claimed refinement, conservative extension or equivalence uses its own `A.6.1 §4.8` content-preservation test, exact predicate and endpoint facts, including the applicable A.6.RCD missing-governor/substrate branch. Project extensions retain their independently declared restrictions; a pipeline order or ⊑/⊑⁺ label establishes no such comparison.
 * Any publish/telemetry step is **outside** `suite_protocols` (to preserve WF‑MS‑2 closure) and is governed by established publication patterns (G.10 and/or PTM), not as “hidden tails” inside CHR mechanisms.
 
-#### A.19.CHR:4.6 - P2W hook: mandatory planned baseline
+#### A.19.CHR:4.6 - P2W hook: planned edition and reference baseline
 
-**Tell.** Any P2W path that uses `CHRMechanismSuiteDescription` MUST include a `WorkPlanning` plan item:
+For each P2W path that uses the suite, record the chosen suite and member declaration editions, CN-Spec and CG-Spec, method/comparator references, time selection, and applicable guard or crossing references in A.15.2 WorkPlan content. That baseline selects the contracts expected by the protocol and remains separate from actual values and gate decisions.
 
-an instance of kind `CHRMechanismSuiteSlotFillingsPlanItem` (where `CHRMechanismSuiteSlotFillingsPlanItem ⊑ SlotFillingsPlanItem`)
-
-that acts as the **planned baseline** for all suite‑level pinned refs/editions/policies used downstream.
-
-This is the mandatory bridge between:
-
-* *selection* (`G.*` set‑return choice of candidates/policies), and
-* *WorkEnactment* (FinalizeLaunchValues witness + gate execution + logs).
+When a downstream claim needs a typed planned filling, apply §4.1.2 and A.15.3 to the independently declared argument or relation position. At enactment, identify the actual application and its bindings under the selected declaration. The planned baseline alone establishes neither binding nor performed Work.
 
 #### A.19.CHR:4.7 - Canonical concept card fragments
 
@@ -351,7 +332,7 @@ CHRMechanismSuiteDescription := ⟨
 
   suite_spec_pins  : SuiteSpecPins {
                           required_spec_refs := {CNSpecRef, CGSpecRef},
-                          required_planned_baseline_ref := CHRMechanismSuiteSlotFillingsPlanItem,
+                          required_planned_baseline_ref := exact WorkPlan ref + local baseline locator,
                           required_edition_pins? := …,
                           required_policy_id_pins? := …
                         },
@@ -362,88 +343,71 @@ CHRMechanismSuiteDescription := ⟨
 ⟩
 ```
 
-##### A.19.CHR:4.7.2 - `CHRMechanismSuiteSlotFillingsPlanItem` as a `SlotFillingsPlanItem`
+##### A.19.CHR:4.7.2 - Baseline content and conditional `CHRMechanismSuiteSlotFillingsPlanItem`
 
-**Tell.** This plan item fixes the planned baseline for suite spec pins and for chosen mechanism/policy refs, within an explicit P2W context.
+The baseline names the selected declaration edition for every protocol step, the CN-Spec and CG-Spec editions, and any selected method or comparator references. Retain the described entity, bounded context, CG-frame, path slice, publication scope and explicit time selector when they qualify the planned use; a reference plane may be derivable from its cited governing context. There is no implicit latest.
 
-**Required fields (minimum; aligns with A.15.3 naming)**
+Expected `USM.CompareGuard` or `USM.LaunchGuard` pins identify their gate owner where needed to aggregate later `GuardFail` events. An expected crossing carries only the applicable obtaining Bridge/plane relation and policy references, plus a crossing-bundle anchor when its rule requires it. The baseline copies no governing table.
 
-* `target_slot_bearing_description_ref` MUST be edition-addressable and MUST reference the `CHRMechanismSuiteDescription` instance (kind: `MechSuiteDescription`) via a `MechSuiteDescriptionRef@edition(…)` (the suite description is the slot-bearing description for this planned baseline).
-* MUST include explicit context anchors:
-  * `described_entity_ref` (a concrete RefKind per C.2.3),
-  * `bounded_context_ref`,
-  * `cg_frame_ref`,
-  * `reference_plane` (unless unambiguously derivable from the cited bounded-context reference and related context records; see A.15.3 context-derivability rule),
-  * `path_slice_id`,
-  * `publication_scope_id`,
-  * `Γ_time_selector` (ByValue) or `Γ_time_rule_ref` (ByRef) — no implicit “latest”.
-* MAY include `expected_usm_guard_pins ⊆ {USM.CompareGuard, USM.LaunchGuard}` (planned expectation only; not execution).
-  If `expected_usm_guard_pins` is present and non-empty, the PlanItem MUST also pin (or make unambiguously derivable) `guard_owner_gate_ref` required for later aggregation of `GuardFail` events (A.15.3 guard-governing pattern rule).
-* MUST include planned fillings for (at least) the suite spec pins, expressed as `planned_fillings` rows keyed by the corresponding SlotKind tokens:
-  * `CNSpecSlot` filled by `ByRef(CNSpecRef@edition(…))` (edition‑pinned where required),
-  * `CGSpecSlot` filled by `ByRef(CGSpecRef@edition(…))` (edition‑pinned where required),
-    and (when applicable) the chosen method/comparator/mechanism refs as planned fillers (e.g., `ScoringMethodDescriptionSlot`, `ComparatorSpecSlot`, …).
-* When crossings are expected, MUST include `expected_crossing_policy_refs` (refs only):
-  `⟨bridge_card_ref, phi_policy_id, psi_policy_id?, phi_plane_policy_id?, reference_plane(src,tgt)⟩ …`,
-  and SHOULD include the corresponding `expected_crossing_bundle_refs` (refs only) so crossing visibility has an explicit anchor.
+For an A.15.3 typed filling, cite the exact declaration edition and its independently declared argument or relation position. `target_slot_bearing_description_ref` cannot point to the suite merely because the suite lists a CN-Spec field. Reuse the position's actual meaning, designation and binding rules. In the UNM `apply` case, planning CN-Spec use first requires the actual selected operation's CN-Spec argument declaration; the suite's own citation is not that argument.
 
-**Prohibitions**
-
-* MUST NOT contain `GateDecision` / `DecisionLog`.
-* MUST NOT contain `FinalizeLaunchValues` witnesses or launch values.
-* MUST NOT embed CL/Φ/Φ_plane tables; only refs/pins.
+The baseline and typed plan contain planned values and references only. Actual launch values, `FinalizeLaunchValues`, actual bindings, `GateDecision` and `DecisionLog` retain their enactment or gate governors.
 
 #### A.19.CHR:4.8 - Examples
 
-##### A.19.CHR:4.8.1 - Example — normalization-based comparability with explicit Uses chain
+##### A.19.CHR:4.8.1 - Worked case — two offers from baseline to selected set
 
-**Show.**
+**Situation and planned baseline.** The question is whether either offer can be discarded without accepting a worse price or defect-free proportion. Stipulate an A.15.2 WorkPlan `OfferReviewPlan@1`, local content locator `characterization`, selecting suite `OfferCHRSuite@1`. This case's suite has the six distinct member declarations in §4.2.2, each at its §4.1 content in the same publication edition as this example. Its stable `mech_suite_id` is `OfferCHRSuite`; its obligations are exactly the §4.3 clause set. The full canonical protocol is available, with Fold_Γ optional. The selected path uses `apply → Indicatorize → Score → Compare → Select`, under the operations' own eligibility evaluations.
 
-* `CHRMechanismSuiteDescription` is referenced by a G‑pattern (e.g., method selection, parity selection, or lawful publish pipeline).
-* WorkPlanning publishes `CHRMechanismSuiteSlotFillingsPlanItem` with:
+The plan pins `OfferCHR-CN@1`, `OfferCHR-CG@1`, the methods and policies below, and the point `2030-01-01T00:00Z` in UTC. The suite requires those same references and the exact `OfferReviewPlan@1#characterization` baseline. No typed filling is needed for this ordinary reference selection. These are planned references; no application or result is claimed by the plan.
 
-  * pinned `CNSpecRef(ed=…)`, `CGSpecRef(ed=…)`,
-  * pinned `ComparatorSpecRef(ed=…)` (from `CG‑Spec.ComparatorSet`),
-  * pinned `ScoringMethodDescriptionRef(ed=…)` (e.g., a monotone scoring method),
-  * explicit `Γ_timeSelector` (“point at …”, no implicit “latest”),
-  * `ExpectedUSMGuards = {USM.CompareGuard, USM.LaunchGuard}`,
-  * expected crossing policy pins for any cross‑context step.
+**Case specifications, outside the suite.** Take the two offers, lower-price/higher-quality Pareto rule and all-nondominated selection rule defined as `OfferPareto@1` and `OfferSelection@1` in A.6.7 §4.6. The raw case values here are A=(1000 eurocents, 0.8), B=(1200 eurocents, 0.9), stipulated exact rather than measured in a claimed real-world episode. `OfferCHRSpace@1` has basis positions `cost` and `quality`, with the price and defect-free-proportion Characteristics. Its input price chart uses eurocents; its normalized price chart uses EUR. Quality uses the same dimensionless ratio scale in both charts.
 
-The executed protocol (by E.18/P2W) is:
-Suite-closed protocol:
-`UNM → UINDM → USCM → CPM → SelectorMechanism`.
-Downstream continuation (outside `suite_protocols`): publication/telemetry via `G.10` and/or `PTM`.
+| Pinned case reference | Content used by the protocol |
+| --- | --- |
+| `OfferCHR-CN@1` | Admits A and B on this basis; binds the bearer identified by each coordinate/profile to `OfferScope@1`, selected slice set `{OfferSlice@1}`, the concept plane, the CHR reference scheme and the planned evaluation point. Its comparability mode is normalization-based into the EUR/quality chart. The admitted normalizers are `CentsToEUR@1` and `QualityIdentity@1`; indicator_policy is `BothPositions@1`. Both complete candidates satisfy acceptance, with no further threshold. |
+| `CentsToEUR@1` | Configured ratio:scale method on cost values from 0 to 1,000,000 eurocents; n(x)=x/100 EUR. Bound coordinate set={cost}. Preserves price, equality and order; loses no distinction on this domain. |
+| `QualityIdentity@1` | Configured ratio:scale method on quality values in [0,1]; n(q)=q. Bound coordinate set={quality}. Preserves all values and their order. |
+| `BothPositions@1` | Select exactly {cost,quality} from OfferCHRSpace@1, retaining position meanings and order for profile projection. The policy is evidence-gated and uses the CG default; missing either required value means abstain. |
+| `IdentityScore@1` | Description of the stipulated admitted identity-scoring Method: apply the identity to each normalized measure. Domain/codomain are price in [0,10000] EUR and quality in [0,1]; result cardinality is two measures. Preserve scales and polarities (lower price, higher quality). No aggregation or scalarization occurs. |
+| `OfferCHR-CG@1` | SCP permits the two declared ratio-scale normalizations, identity scoring and componentwise order comparisons. ComparatorSet contains OfferPareto@1. MinimalEvidence requires the exact two input values, basis, configured-method declarations and their algebraic preservation facts. CN normalization evidence uses the same requirement. No evidence override or degrade branch is selected. |
 
-**SoTA note (illustrative, non-normative).** A `ScoringMethodDescription` here can represent a post‑2015 monotone model family (e.g., monotone lattice / constrained monotone learning) or a set‑valued scoring family (e.g., conformalized score intervals), as long as admissibility remains SCP‑bound and uncertainty is handled via tri‑state guards rather than being suppressed into a scalar.
+Both normalizer instances and their method descriptions are declared by the case CN-Spec, with validity window `[2030-01-01T00:00Z, 2030-01-02T00:00Z)`. Their positive scale factors establish the stated preservation facts. The profiles retain their exact bearer, basis positions and the resulting EUR/quality chart. No quotient, class representative or additional CharacteristicSpacePredicate is used.
 
-##### A.19.CHR:4.8.2 - Example — archive `PortfolioMode` with report-only illumination
+**Applied protocol, separate from the plan.** Stipulate the following actual mathematical invocation episodes, each extending from taking up its named inputs to returning its result. Its inputs bind by actual use and its results bind at that return under the selected declaration. The evaluation point qualifies the offers; it is not the calculation interval. All episodes retain the case's scope, slice set, scheme, plane, point, basis and cited evidence. This account asserts no dated U.Work.
 
-**Show.**
+| Resolved stage | Bound inputs and eligibility | Returned value |
+| --- | --- | --- |
+| `A.19.UNM §4.1 / apply` | Four invocations, one per coordinate: the bound normalizer, raw CoordinateValueSlot, OfferCHRSpace@1 and OfferCHR-CN@1. Each UNM_Eligibility evaluation passes: coordinate, method, domain, invariants, validity and evidence agree. | The cost invocations return 10 EUR and 12 EUR; the quality invocations return 0.8 and 0.9. Each has its own NCVSlot binding. |
+| `A.19.UINDM §4.1 / Indicatorize` | For each bearer, OfferCHRSpace@1, OfferCHR-CN@1, BothPositions@1 and OfferCHR-CG@1; no MinimalEvidence override. The exact policy and complete evidence yield pass. | Each invocation returns {cost,quality}; the projected profiles retain those positions and their normalized values. |
+| `A.19.USCM §4.1 / Score` | Each projected InputProfileSlot, OfferCHR-CN@1, OfferCHR-CG@1 and IdentityScore@1; no override. ScoreEligibility passes the admitted method, normalized input and evidence. | Two separate ScoreProfileSlot bindings: A=(10 EUR,0.8), B=(12 EUR,0.9). |
+| `A.19.ULSAM §4.1 / Fold_Γ` | The baseline selects its declaration as the sixth suite member but skips this optional step. There is no multi-value fold in this use. | No fold application or output is asserted. |
+| `A.19.CPM §4.1 / Compare` | The exact A/B score profiles, case CN/CG, OfferPareto@1 and the common use arguments. CompareEligibility passes; normalization refs and preservation facts are retained. | Invocation `cCHR` returns {A ∥ B}. |
+| `A.19.SelectorMechanism §4.1 / Select` | CandidateSetSlot={A,B}; comparisonBasis={cCHR}; requiredComparisons={(A,B,OfferPareto@1)}; tokenProvenance maps A ∥ B to cCHR's own returned binding. ComparisonResultSlot is its exact token union. CriteriaSlot retains all nondominated candidates, selectorPolicy=OfferSelection@1, and TaskSignatureSlot is absent. The same CN/CG and use arguments apply, with no predicate or evidence override. Select consumes its exact SelectEligibility pass result. | SelectionSlot={A,B}. Both offers survive because each is better on one criterion. |
 
-* The same CHR suite is used, but the selected `SelectorMechanism` specialization (via `G.*` extension) returns an **Archive** retained set.
-* WorkPlanning plan item additionally pins:
+The suite's audit requirement is to recover these operation refs, effective arguments, guards and returned bindings, together with the baseline citation. Shared order and uncertainty obligations are satisfied without constructing a total score. There is no semantic, kind or plane correspondence, E.18 flow crossing, A.21 gate, implementation export or publication claim in this case; their conditional anchors are therefore inactive.
 
-  * `DescriptorMapRef@edition(…)` and `DistanceDefRef@edition(…)` (QD/illumination configuration),
-  * an explicit policy ref that states illumination is **report‑only** by default,
-  * a separate CAL policy‑id if illumination is ever promoted into dominance (never implicit).
+**Changed condition.** Move the evaluation point to `2030-01-03T00:00Z` while retaining the selected method validity windows. UNM_Eligibility returns abstain. The planned method refs remain readable, but there is no new admitted NCV and no basis for continuing this selected normalization-based path to a new selected set. Reusing yesterday's values by changing their date would fail their actual binding and use conditions. A new valid method baseline and new applications are needed.
 
-**SoTA note (illustrative, non-normative).** Archive semantics align naturally with quality‑diversity families that matured after 2015 (MAP‑Elites‑class extensions, CMA‑ME‑class, etc.), while the pattern’s “promotion only via policy‑id” prevents an implicit collapse of diversity telemetry into dominance.
+The useful result is the justified retained set under one resolved contract chain. Acceptance or authorization to buy, an independently admitted dated Work account, and publication of the result are separate claims; none follows from {A,B} or from the plan. A PlainView may say “both offers remain; neither dominates at the stated evaluation point” and cite the baseline. It may not say “purchase approved” or erase the expiry stop.
+
+##### A.19.CHR:4.8.2 - Variant — archive retention with report-only illumination
+
+For an Archive-mode use, retain the selected set under the explicitly selected selector policy. The two-offer case can retain {A,B}; archive maintenance requires its own admitted policy and declarations. Record the exact DescriptorMap and DistanceDef editions when computing illumination, together with the policy declaring that result report-only. A separate CAL policy is required before illumination influences dominance. An archive label, descriptor display or diversity summary cannot silently change the comparison or discard either offer.
 
 #### A.19.CHR:4.9 - Evolution rules
 
 * **Kernel-first stability.** This suite is intentionally minimal. Adding a new core CHR mechanism to this kernel suite is a suite-version change and MUST be accompanied by alias docking (F.18) so existing references remain citeable. For exploratory or domain‑specific extra stages, prefer a suite variant (e.g., `A.19.CHR+` / `A.19.CHR.Extended`) or project‑level specializations (patterns P.\*) instead of mutating the kernel.
-* **Mechanism specializations are not wiring.** Domain/project variants are expressed via A.6.1 (`⊑/⊑⁺`) under their governing pattern (typically a project pattern `P.*`), not by editing suite membership. The suite binds to `…IntensionRef`; the planned baseline (A.19.CHR:4.7.2 under A.15.3) chooses concrete instances/specializations.
+* **Mechanism specializations are not wiring.** Domain/project variants are expressed via A.6.1 (`⊑/⊑⁺`) under their governing pattern (typically a project pattern `P.*`), not by editing suite membership. The suite binds to exact declaration editions through `…IntensionRef`; the A.15.2 planned baseline records the selected contracts and any concrete method or realizer references. A specialization that changes a used contract requires the corresponding suite member and protocol binding to change.
 * **Protocols evolve within the suite boundary.** Adding/changing suite protocols (A.19.CHR:4.5) is allowed as long as each protocol remains suite‑closed and does not import publish/telemetry as a mandatory step. If a protocol introduces a new required stage not present in membership, treat it as a suite variant rather than a protocol edit.
-* **SoTA harvesting updates methods, not the kernel.** Updates from SoTA harvesting/synthesis (G.2) are carried via edition‑pinned `MethodDescriptionRef` / `ComparatorSpecRef` selections and wiring modules (`G.x:Ext.*`), keeping the kernel Intension set stable. If a SoTA update requires changing a mechanism’s signature/laws, the change happens in the governing A.6.1 mechanism card and MUST emit RSCR triggers from `G.Core`.
-* **New mechanism families (outside CHR).** Introduce new mechanism kinds as new family-specific patterns under the appropriate mechanism family. If they require suite-level composition and P2W binding, add a corresponding suite pattern `A.6.7.<FamilyKey>` plus a suite-specific planned baseline specialization of A.15.3, mirroring the governing-pattern assignment routing of this pattern.
+* **SoTA harvesting updates methods, not the kernel.** Updates from SoTA harvesting/synthesis (G.2) are carried via edition‑pinned `MethodDescriptionRef` / `ComparatorSpecRef` selections and wiring modules (`G.x:Ext.*`), preserving the selected declaration set while its content stays unchanged. If a SoTA update requires changing a mechanism’s signature/laws, the change happens in the governing A.6.1 mechanism card and MUST emit RSCR triggers from `G.Core`.
+* **New mechanism families (outside CHR).** Introduce new mechanism kinds as new family-specific patterns under the appropriate mechanism family. If they require suite-level composition and P2W binding, add a corresponding suite pattern `A.6.7.<FamilyKey>` with an A.15.2 edition/reference baseline and A.15.3 typed filling only when independently declared positions require it, mirroring the governing-pattern assignment routing of this pattern.
 
 #### A.19.CHR:5.1 - `U.System` vignette (Tell–Show–Show)
 
 **Tell.** A system-level decision must select a declared set of options when measurable evidence comes from multiple slices (test rigs, simulations, field trials). Measurements are multi-scale and not always comparable without explicit normalization, and some evidence is missing or stale. The team needs lawful comparison and selection without forcing a single scalar “fitness”.
 
-**Show.** The system’s P2W path cites `CHRMechanismSuiteDescription` and publishes `CHRMechanismSuiteSlotFillingsPlanItem` as the planned baseline:
-`CNSpecRef(ed=…)`, `CGSpecRef(ed=…)`, chosen `ComparatorSpecRef(ed=…)`, chosen `ScoringMethodDescriptionRef(ed=…)`, explicit `Γ_timeSelector` (point or window), and expected guard pins.
-WorkEnactment witnesses `FinalizeLaunchValues` and runs `UNM → UINDM → USCM → CPM → SelectorMechanism`, returning a selected set under Pareto or Archive mode, while any cross-context reuse is surfaced by Bridge-only crossings and audit pins.
+**Show.** Use the filled reference selection in §4.8.1 as the baseline: exact contracts, scales, methods, time rule and policies yield a retained set of two offers. When the inputs instead come from tests or field trials, replace the stipulated case evidence with the evidence required by the actual CN-Spec/CG-Spec; incomplete evidence follows the declared failure rule. A claimed dated Work and any launch witness require their independent enactment basis. Any actual semantic/kind/plane relation or flow/gate crossing retains its own required anchors.
 
 **Show.** If the team instead embeds normalization inside scoring (“we always normalize to [0,1]”) or collapses a partial order into a single weighted sum, the suite protocol explicitness and “no silent scalarization/totalization” obligations make the violation legible at review time, and the planned baseline cannot honestly pin the missing UNM/ULSAM steps.
 
@@ -453,5 +417,5 @@ WorkEnactment witnesses `FinalizeLaunchValues` and runs `UNM → UINDM → USCM 
 
 **Show.** The episteme’s planned baseline pins `CNSpecRef` (comparability mode and indicator policy) and `CGSpecRef` (SCP, ComparatorSet, MinimalEvidence, Γ_fold). The suite runs `UINDM` to select indicators, `USCM` to compute lawful score measures under SCP, `ULSAM` only when Γ_fold is explicitly selected, and `CPM` to compare without scalarizing partial orders. The selector returns a selected set rather than forcing a single winner.
 
-**Show.** If a draft evaluation writes “take the mean rank and pick the minimum”, the pattern’s admissibility discipline forces the author either to (a) re-express the step as a lawful comparator declared in CG‑Spec, or (b) keep the result as report-only telemetry, not a dominance driver.
+**Show.** If a draft evaluation writes “take the mean rank and pick the minimum”, replace that step with a scale-lawful comparator declared in CG-Spec. For report-only telemetry, retain the rank distribution or another summary justified by the declared ordinal scale, such as a median when applicable. An arithmetic mean requires a separately justified quantitative model; calling it telemetry does not make ordinal averaging lawful.
 

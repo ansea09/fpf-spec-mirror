@@ -6,12 +6,12 @@ section_id: "C.2.LS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:3 — Forces"
-line_start: 49151
-line_end: 49157
+line_start: 49294
+line_end: 49300
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,6 +44,6 @@ keywords:
 | Force | Tension |
 |---|---|
 | **Thin profile bundle vs practical coordination** | Keep the bundle small, but still give one stable place where the language-state facets are named together. |
-| **Reuse vs duplication** | Reuse `A.18/A.19` characteristic machinery and `E.18` transition-structure publication rather than building a rival calculus. |
+| **Reuse vs duplication** | Reuse A.18/A.19 characteristic machinery and A.16 moves; use E.18 only for an independently selected TransformationFlowStructure. |
 | **Local thresholds vs cross-context comparability** | Contexts need local thresholds, but the facet names must stay stable enough for bridge work and viewpoint bundles. |
 

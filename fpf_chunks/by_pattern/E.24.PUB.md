@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "E.24.PUB"
-pattern_title: "Ontic Description and Publication Discipline"
+pattern_title: "Episteme Publication: Availability, Form and Carrier"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.PUB.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.24.PUB — Ontic Description and Publication Discipline"
-line_start: 101047
-line_end: 101328
+  - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
+line_start: 101453
+line_end: 101734
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -32,7 +32,7 @@ dependencies:
 keywords:
 ---
 
-## E.24.PUB - Ontic Description and Publication Discipline
+## E.24.PUB - Episteme Publication: Availability, Form and Carrier
 
 > **Type:** Part E FPF authoring discipline pattern
 > **Status:** Stable

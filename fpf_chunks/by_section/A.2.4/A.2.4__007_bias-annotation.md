@@ -6,12 +6,12 @@ section_id: "A.2.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__007_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:6 — Bias-Annotation"
-line_start: 5185
-line_end: 5197
+line_start: 5146
+line_end: 5158
 dependencies:
   - "A.10"
   - "A.2"
@@ -32,6 +32,7 @@ keywords:
   - "claim"
   - "episteme"
   - "evidence-use relation"
+  - "first-use classification"
   - "provenance"
   - "role-shaped source phrase"
   - "source-use wording"

@@ -6,12 +6,12 @@ section_id: "A.6.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:5 — Archetypal Grounding"
-line_start: 17751
-line_end: 17806
+line_start: 17733
+line_end: 17788
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -42,13 +42,13 @@ keywords:
 
 **Tell.** A maintenance note says `replacement bearing is linked to Pump_P`.
 
-**Show.** Inspection finds that `Bearing_B` participates as the installed part and `Pump_P` as the assembly whole in the direct installed-part relation during `Interval_T`. Both remain physical holons of their independently governed kinds. `A.14` governs the parthood predicate and obtaining condition. The maintenance assertion names them directly. If no later claim distinguishes installation episodes, the repair stops at the readable sentence.
+**Show the ordinary repair.** Recover physical bearing `Bearing_B`, pump `Pump_P`, and interval `Interval_T` independently. The readable candidate claim is `Bearing_B is part of Pump_P during Interval_T`. Select the intended direct parthood reading under A.14 and its applicable subject rule. Where that predicate and the case facts already settle the receiving question, state the assertion and stop; an installation history or occurrence identifier is not required merely to report current parthood.
 
-**Show the identity-dependent use.** A reliability analysis compares the installed-part relation before removal with the relation after reinstallation. The same bearing and pump can participate in two occurrences. The analysis applies the direct identity rule and `A.6.REL`, exposes the two already obtaining occurrences, and designates them separately in its assertion. Maintenance database rows and diagram edges may represent the assertion or occurrence descriptions through explicit `C.29` correspondences; row or edge identity is not physical relation identity.
+**Show the identity-dependent stop.** A reliability analysis needs to distinguish the installed-part relation before removal from that after reinstallation. Current A.14 does not define an `InstalledPart` relation kind, its participant meanings, obtaining predicate, applicability, or same-versus-new-occurrence rule. Return A.6.RCD `missing-governor` for that proposed relation, naming `Bearing_B`, `Pump_P`, the relevant intervals, and the reliability comparison. Removal and reinstallation alone do not establish two occurrences. A.6.REL explains how to apply a supplied identity rule; it does not supply this missing rule.
 
-When repeated maintenance assertions need one typed declaration, an `InstalledPartRelationSignature` may contain declaration-local `InstalledPartSlot` and `AssemblyWholeSlot` `SlotSpec`s corresponding to the two participant meanings. Those declaration components type the assertions' participant designations. They are not world-side places occupied by the bearing and pump.
+**Conditional continuation.** If a direct installed-part definition is accepted, apply its obtaining and same-versus-new-occurrence rules to the case facts. Distinguish two occurrences only when that rule and those facts warrant them; add stable designations or occurrence descriptions only when the receiving use needs them. For repeated typed reuse, an `InstalledPartRelationSignature` may then declare `InstalledPartSlot` and `AssemblyWholeSlot` under A.6.5. Until that definition exists, these names remain hypothetical declaration candidates, as in A.6.REL:5.2 and A.6.5:5.2.
 
-Installation work constitutes the beginning of another installed-part occurrence only when the direct parthood identity rule says that it does. Creating or updating the maintenance row is representation work and is not an ontological constructor. The material character of the installed-part relation also does not by itself introduce a separate relator; the direct parthood ontology would have to identify and justify any constitutive truth-maker.
+If the adopted construction rule makes installation Work constitutive, identify that independently admitted Work and its declared identity contribution. Database rows, diagram edges, assertions, and declaration components retain their own identities and do not supply the obtaining or recurrence rule. When a mathematical representation is used, state its C.29 correspondence separately. A separate relator is needed only if the direct ontology identifies and justifies it.
 
 #### A.6.P:5.2 - Clinical evidence use and negative reliance
 

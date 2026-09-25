@@ -6,12 +6,12 @@ section_id: "C.30:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 66940
-line_end: 66954
+line_start: 67149
+line_end: 67163
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,13 +64,13 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
+  - "ArchitectureClaim"
   - "ArchitectureOf@Context"
-  - "architecture claim"
-  - "architecture question card"
-  - "architecture-description boundary"
-  - "artifact-as-architecture guard"
-  - "candidate architecture use"
+  - "ArchitectureRelation"
+  - "actual and candidate architecture"
+  - "architecture question"
   - "grounded architecture"
+  - "next architecture move"
   - "selected structure"
 ---
 

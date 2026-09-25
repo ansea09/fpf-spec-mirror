@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.4"
-pattern_title: "KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
+pattern_title: "KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
 section_id: "C.3.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
+  - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:intro — Intro"
-line_start: 51483
-line_end: 51489
+line_start: 51626
+line_end: 51632
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -23,7 +23,7 @@ dependencies:
 keywords:
 ---
 
-## C.3.4 - KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning
+## C.3.4 - KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind
 
 > **One-line summary.** Use a `KindUseAdaptationDeclaration` when a procedure needs a narrower or differently named use of an existing kind without defining another kind. The declaration pins the base `KindSignature` edition, local candidate constraints or vocabulary bindings, intended guard use, and applicability. Check admissibility before returning `true`, `false`, or `unknown`. A locality change first triggers kind-identity comparison: the same kind needs no `KindBridge`; distinct kinds need one only when its exact correspondence predicate obtains.
 

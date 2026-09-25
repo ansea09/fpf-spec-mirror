@@ -6,12 +6,12 @@ section_id: "E.5.2:4"
 section_title: "Solution - Keep meaning portable while choosing a useful expression"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__005_solution-keep-meaning-portable-while-choosing-a-useful-expression.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:4 — Solution - Keep meaning portable while choosing a useful expression"
-line_start: 81532
-line_end: 81552
+line_start: 81857
+line_end: 81877
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"
@@ -19,13 +19,6 @@ dependencies:
   - "C.37"
   - "E.5"
 keywords:
-  - "BPMN"
-  - "UML"
-  - "diagram"
-  - "notation"
-  - "semantics"
-  - "syntax"
-  - "tool-agnostic"
 ---
 
 ### E.5.2:4 - Solution - Keep meaning portable while choosing a useful expression

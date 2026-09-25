@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.24"
-pattern_title: "Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
+pattern_title: "Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
 section_id: "C.24:0.3"
 section_title: "First-minute questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__005_first-minute-questions.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
+  - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:0.3 — First-minute questions"
-line_start: 59853
-line_end: 59860
+line_start: 59996
+line_end: 60003
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,11 +36,15 @@ dependencies:
   - "G.9"
   - "U.PromiseContent"
 keywords:
+  - "agentic tool-use"
+  - "call planning"
+  - "route probe"
+  - "service calls"
 ---
 
 ### C.24:0.3 - First-minute questions
 
-1. Which accepted A.15.7 decision or C.11 `ChoiceResult` fixed the action or option now being planned?
+1. Which applicable domain prescription, A.15.7 decision or C.11 choose-now result fixes the action or option now being planned?
 2. Does every planned step name an admitted Method, rather than only a vendor route or endpoint label?
 3. Which budget is current: a still-upstream probe budget or an enactment/call budget?
 4. What event stops or replans the route?

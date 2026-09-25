@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "C.2.6"
-pattern_title: "U.LanguageStateAnchoringMode"
+pattern_title: "U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.6.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.2.6 — U.LanguageStateAnchoringMode"
-line_start: 49780
-line_end: 49954
+  - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
+line_start: 49923
+line_end: 50097
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -28,12 +28,15 @@ keywords:
   - "anchoring mode"
   - "document"
   - "embodiment"
+  - "mixed modes"
   - "model state"
   - "operator loop"
+  - "publication-face anchoring"
+  - "source anchoring"
   - "trace"
 ---
 
-## C.2.6 - `U.LanguageStateAnchoringMode`
+## C.2.6 - `U.LanguageStateAnchoringMode` — How Is the Episteme Anchored?
 
 > **Type:** Definitional (D)
 > **Status:** Stable

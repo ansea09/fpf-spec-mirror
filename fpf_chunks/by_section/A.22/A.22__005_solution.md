@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:4 — Solution"
-line_start: 37544
-line_end: 37849
+line_start: 37488
+line_end: 37793
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -305,13 +305,13 @@ StructuralCoarseningDescription@Context ::= {
 Do not make structure-use return mandatory for ordinary local recognition when no hidden distinction is being used for action. The condition is needed only when the repaired text still relies on a hidden selected-structure, source-basis, source-description, evidence, lens, simulation, extraction, or representation distinction.
 
 #### A.22:4.6 - Relation to architecture
-`StructuralAspectDescription@Context` describes one selected structural aspect under A.22. It is not an `ArchitectureStructureKindRef` by itself. `ArchitectureStructuralView@Context` is a C.30.ASV view over structures selected by `ArchitectureOf@Context` and typed by `ArchitectureStructureKindRef`.
+`StructuralAspectDescription@Context` describes one selected structural aspect under A.22. It is not an `ArchitectureStructureKindRef` by itself. `ArchitectureStructuralView@Context` is a C.30.ASV view over the architecture claim or selected architecture-relevant structures. An asserted actual architecture relation is an independently obtaining C.30 `ArchitectureRelation` between an exact holon and an exact selected structure.
 
 A.22 is intentionally upstream of C.30. Architecture uses structure; structure does not import architecture as a parent.
 
-`C.30` uses A.22 by selecting architecture-relevant structures for one described holon through `ArchitectureOf@Context`. `C.30.ASV` then defines and tests architecture structural views over those selected structures. A structure can be used by architecture, but a structure is not an architecture merely because an architecture description refers to it.
+`C.30` uses A.22 to identify one selected architecture-relevant structure, then tests the direct `ArchitectureRelation` between that structure and one exact holon. `C.30.ASV` separately defines and tests an architecture structural view. A reference from an architecture description establishes neither the direct relation nor view conformance.
 
-Architecture-related terms governed by C.30 or its subpatterns include `ArchitectureOf@Context`, `ArchitectureDescription@Context`, `ArchitectureStructuralView@Context`, `ArchitectureStructureKindRef`, `ArchitectureStructureKindTriage@Project`, `FunctionalStructureView@Context`, `ArchitectureTransformationFlowStructureRelation@Context`, `ControlStructureView@Context`, and `CrossScopeArchitectureResidualTriage@Context`. A.22 may name them as FPF pattern applications. It does not define their architecture-specific conformance.
+Architecture-related terms governed by C.30 or its subpatterns include `ArchitectureRelation`, `ArchitectureDescription@Context`, `ArchitectureStructuralView@Context`, `ArchitectureStructureKindRef`, `ArchitectureStructureKindTriage@Project`, `FunctionalStructureView@Context`, `ArchitectureTransformationFlowStructureRelation@Context`, `ControlStructureView@Context`, and `CrossScopeArchitectureResidualTriage@Context`. A.22 may name them as FPF pattern applications. It does not define their architecture-specific conformance.
 
 #### A.22:4.7 - Boundary and repair table
 
@@ -323,7 +323,7 @@ Architecture-related terms governed by C.30 or its subpatterns include `Architec
 | A mathematical lens output is the structure. | Use `C.29` for lens-use result and admissibility, and cite `MathLensUseOutputRef` only through C.29 lens-use result, preserved structure, lost structure, and stop-condition discipline. |
 | A structure is cited as sufficient basis for evidence reliance, assurance, safety, causality, or gate passage. | Use `A.10` for claim-bound evidence reliance, `G.6` when a citable evidence-provenance path is needed, `B.3` for an actual named assurance claim, the safety pattern for safety, `C.28` for causal use, `A.20` for internal-constraint validity, and `A.21` for an actual gate decision. |
 | A structure is a decision or work record. | Use `C.11` or the project-side decision pattern for the decision, `A.15` for the exact work-family object, and `C.2.1` for an episteme describing it. `A.20` or `A.21` applies only when an internal-constraint result or gate decision is at issue. |
-| Architecture is a root kind beside structure. | Use `C.30`: architecture is selected structure for a described holon through `ArchitectureOf@Context`. |
+| Architecture is treated as identical to a selected structure. | Use `C.30` to test the direct `ArchitectureRelation` between the exact holon and selected structure. Recover the architecture claim and any description or view separately. |
 | Function, module, interface, platform, layer, stack, block, expert, cache, router, or gate becomes a root kind by appearing in structure prose. | Use `C.30.STRAT` for an ambiguous source label, then the definition or test required by the recovered claim: `A.6.F` for function, `A.6.M` for a module-interface relation, `A.6.0` for a signature, `A.6.5` for relation slots, `A.6.B` for boundary norms, `A.6.C` for contract unpacking, `A.6.P:4.11a` for service or access wording, `E.18` for transformation-flow structure, or `C.30.ASV` for an architecture structural view. Apply any other direct pattern only for the claim it defines or tests. |
 
 #### A.22:4.8 - Worked slices
@@ -351,7 +351,7 @@ declaredStructureSubstrateRef: TransformationFlowStructureRef under E.18, with m
 candidate structure: selected transformation-flow structure
 structure-claim reliance relation: selected relation record named by value(
   sourceDescriptionOrPatternApplicationRef = SourceViewRef, structure or crossing record selected under E.18, or E.18.2 mathematical graph description,
-  relationContribution = E.18 selected-structure or crossing definition | A.6.6 base-dependence test | A.10 evidence, source-provenance, or reliance test | C.29 mathematical-lens result, chosen for the claim being made,
+  relationContribution = E.18 selected-structure or crossing definition | A.6.6 base-dependence test | independently established support relation recovered through A.10 provenance and bounded-use account | C.29 mathematical-lens result, chosen for the claim being made,
   relationKind = source-description | base-dependence | evidence | lens, selected for this reliance,
   validationBoundary = graph-path currentness boundary, slice currentness boundary, or crossing currentness boundary
 )
@@ -362,7 +362,7 @@ non-admissible use: the graph as the whole architecture
 
 The practitioner can now use the graph through the selected source-description, base-dependence, evidence, or lens relation and route the architecture claim to C.30.TFS-REL.
 
-**Extracted code structure slice.** A code-agent relation graph or probe JSON reports imports, calls, registry wiring, and data-flow links. A.22 treats it as an extracted structural view only when the source codebase or publication, extraction method, preserved structure, lost structure, validation boundary, and structure-use return condition are named. Its admitted use is the declared extraction result. When the intended use is a claim about the codebase architecture, internal agent belief, assurance, or release readiness, recover that claim's own evidence and governing predicate.
+**Extracted code structure slice.** A code-agent relation graph or probe JSON reports imports, calls, registry wiring and data-flow links. Recover the source codebase or publication, extraction method, preserved and lost structure, validation boundary and structure-use return condition. That establishes the declared extraction result only. For an A.6.3 epistemic-viewing claim, identify source episteme `X` and receiving episteme `Y`, their same EntityOfConcern, and the projected or re-expressed ClaimGraph and ReferenceScheme. Qualify `Y` as a `U.View` only when the applicable E.17.0 viewpoint conformance independently obtains. A claim about the codebase architecture, internal agent belief, assurance or release readiness still needs its own evidence and governing predicate.
 
 ```text
 ExtractedStructuralView@Context:

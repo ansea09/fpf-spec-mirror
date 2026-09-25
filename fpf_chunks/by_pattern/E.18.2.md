@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.2.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
-line_start: 95825
-line_end: 96063
+line_start: 96225
+line_end: 96463
 dependencies:
   - "A.10"
   - "A.15"
@@ -141,7 +141,7 @@ Exactly one of `DescribedTransformationFlowStructureRef?` and `DescribedTransfor
 | tuple, record, slot relation, or typed relation expression | slot positions, relation arity, locus typing, and value placement | not a new U-kind and not a replacement for A.6.5 slot discipline |
 | morphism, composition, category, operad, optic, or wiring expression | composition, interface, substitution, transfer law, or decomposition of selected transformations | not proof that the represented work can be performed or that interfaces are semantically compatible |
 | quotient, fold, coarsening, refinement, or factorization | coarser/finer partitioning, aggregation, retained/lost structure, and alternative decomposition | not an identity claim without preserved/lost structure and return condition |
-| algebra, semiring, equation system, or constraint system | operation law, conservation, admissible composition, or constraint propagation over the selected structure | not a mechanism, formal substrate, or empirical law unless the formal substrate satisfies the A.6.0 declaration test, the postulate or principle frame satisfies the A.6.1 definition and application test, and the relevant evidence test is current |
+| algebra, semiring, equation system, or constraint system | operation law, conservation, admissible composition, or constraint propagation over the selected structure | Apply A.6.0 for a separately needed formal-substrate declaration, A.6.1 for a reusable law-governed operation declaration and its application or realization claims, and the relevant subject and evidence patterns for any empirical-law claim. The mathematical expression alone establishes none of those claims. |
 | learned representation, embedding, simulation object, or differentiable surrogate | approximate structure, optimization, similarity, or predictive proxy over transformation-flow structure | not architecture adequacy, OOD guarantee, causal proof, or release readiness by itself |
 
 These families are prompts for recovery, not a taxonomy of new FPF kinds. A local expression may combine several families; the record still names exactly one selected TFS or network subject, one current described part when relevant, and the declared use.

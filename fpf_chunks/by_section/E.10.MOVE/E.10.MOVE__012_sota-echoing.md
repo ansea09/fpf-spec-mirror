@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.MOVE"
-pattern_title: "Move and Readiness Wording Precision Restoration"
+pattern_title: "Move, Readiness and Trajectory Wording Precision Restoration"
 section_id: "E.10.MOVE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__012_sota-echoing.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
+  - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:11 — SoTA-Echoing"
-line_start: 86160
-line_end: 86180
+line_start: 86480
+line_end: 86500
 dependencies:
   - "A.1.STM"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.15.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__013_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:12 — Relations"
-line_start: 28510
-line_end: 28515
+line_start: 28399
+line_end: 28404
 dependencies:
   - "A.10"
   - "A.15"

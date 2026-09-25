@@ -6,12 +6,12 @@ section_id: "E.24:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__007_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5 — Archetypal Grounding"
-line_start: 100552
-line_end: 100602
+line_start: 100958
+line_end: 101008
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -65,10 +65,10 @@ Use one fixture to see what changes the answer. The exact expression `Line 7 pum
 3. **Durable-ontic threshold—not met by the current fixture.** The decision's EntityOfConcern remains `Line7WorkflowInquiry_v1`. A positive `DurableOnticResult` would have to point to an independently identified ontology-unit individual such as `MaintenanceWorkflowOntic_v1`, its stable identity or constitution rule, and the exact reliance of multiple A.3.2, A.15.2, A.15.1, and E.18 consumers on that one unit. Those facts are absent, so this fixture has no durable result; when this stronger use is the active question, its `UnresolvedResult` names the missing identity and reliance evidence. The source expression and recurring four-object list do not identify a durable ontic.
 4. **Unresolved stop.** The same manual may ask only to “align the workflow” while leaving open whether the concern is the method description, plan, dated Work, flow structure, Pump #37, or an admitted whole or selected structure. The decision's EntityOfConcern remains `Line7WorkflowInquiry_v1`; its `UnresolvedResult` records that no exact governed payload has been recovered and names the missing identity evidence. Keep the quote and provenance, and split any direct claims that are already valid; do not turn the phrase or list into a subject.
 
-This boundary case replaces the predecessor's filled transformation-slot assignment. It changes no subject pattern's ontology and shows the nearest fact that moves the result: one closing claim; several claims for one use; shared cross-pattern ontology reliance with stable identity; or no exact governed subject.
+The fact that changes the result is one closing claim, several claims for one use, shared cross-pattern ontology reliance with stable identity, or no exact governed subject.
 
 The E.24 move is:
-1. name the working expression and recover the exact governed object under concern; if none is identifiable, retain inquiry material and stop before claiming a decision episteme;
+1. name the working expression and identify the pre-judgment candidate entity, proposal episteme, or source-construct entity under its direct rule; keep that fixed object as the decision episteme's EntityOfConcern. If none is identifiable, retain inquiry material; a missing governed payload instead permits an unresolved result about the identified decision subject;
 2. list the direct entities and relations that currently carry the subject; for every reused declaration, separately list its RelationSignature and SlotSpecs;
 3. run the existing-rule-content, exact-identity, typed-connectivity-or-constitution, dependent-use, and non-duplication tests, then select one ontology disposition for the recovered payload—direct subject-assertion use, bounded local episteme under C.2.1, durable ontic, or unresolved stop—and record source-use status separately;
 4. if a durable ontic is selected, write or cite its exact defining or constraining `ClaimGraph` before dependent uses rely on it.
@@ -89,5 +89,5 @@ The same test applies to any draft ToC row or planned pattern label. If no curre
 
 #### E.24:5.4 - Broad Terms That Hide Several Governed Objects
 
-A broad head such as `system`, `architecture`, or `change` is a working expression, not current ontology. Recover one exact subject assertion and its defining or constraining `ClaimGraph`, run the three branch thresholds, and classify only current neighboring objects through `E.24:4.3a`. If the subject or dependent use is still missing, use the current direct rule content and stop before ontic admission.
+A broad head such as `system`, `architecture`, or `change` is a working expression, not current ontology. Recover one exact subject assertion and its defining or constraining `ClaimGraph`, run the three branch thresholds, and classify only current neighboring objects through `E.24:4.3a`. If the subject or dependent use is still missing, retain the inquiry and name that missing value before ontic admission.
 

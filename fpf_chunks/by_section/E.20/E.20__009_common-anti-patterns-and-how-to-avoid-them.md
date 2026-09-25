@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.20"
-pattern_title: "Mechanism Introduction Protocol"
+pattern_title: "Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
 section_id: "E.20:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.20 — Mechanism Introduction Protocol"
+  - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 98086
-line_end: 98097
+line_start: 98488
+line_end: 98499
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -28,18 +28,16 @@ dependencies:
   - "G.x"
 keywords:
   - "MIP-run manifest"
-  - "P2W seam"
-  - "PQG profiles"
-  - "SlotKind lexicon discipline"
   - "alias docking"
   - "authoring protocol"
-  - "canonical card-first"
+  - "declaration-local operation members"
   - "governing-definition assignment"
   - "mechanism introduction"
-  - "no dangling …IntensionRef"
-  - "regression envelope"
-  - "suite boundary hygiene"
-  - "typed RSCR triggers"
+  - "planned baseline"
+  - "resolvable MechanismDefinitionRef"
+  - "suite boundary"
+  - "trigger triage"
+  - "wiring"
 ---
 
 ### E.20:8 - Common Anti-Patterns and How to Avoid Them

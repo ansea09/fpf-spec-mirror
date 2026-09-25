@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.2.0"
-pattern_title: "U.AbductivePrompt"
+pattern_title: "Question Form for Entering Abduction (U.AbductivePrompt)"
 section_id: "B.5.2.0:13"
 section_title: "Worked Prompt Species"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__015_worked-prompt-species.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.2.0 — U.AbductivePrompt"
+  - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:13 — Worked Prompt Species"
-line_start: 46534
-line_end: 46547
+line_start: 46481
+line_end: 46494
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -30,24 +30,19 @@ dependencies:
   - "C.2.LS"
   - "F.9.1"
 keywords:
-  - "abductive prompt"
-  - "explanation-ready cue"
-  - "prompt species"
-  - "rival-set discipline"
-  - "threshold crossing"
 ---
 
 ### B.5.2.0:13 - Worked Prompt Species
 
 #### B.5.2.0:13.1 - Anomaly statement as canonical prompt
-An anomaly statement remains a canonical prompt species, especially when the contrast and failure condition are already explicit.
+In a constructed service case, latency rises from 8 ms to 40 ms under the same declared workload. The prompt asks what could explain that contrast, names the service and time window, and cites the measurements. Rival explanations may concern contention or a changed cache path; neither is asserted by publishing the prompt. B.5.2 compares their plausibility and may return a qualified conjecture or defer.
 
 #### B.5.2.0:13.2 - Opportunity-style prompt
-A cue may admissibly become an opportunity prompt when the open question concerns a potentially valuable line of probe or intervention rather than a failure description.
+An opportunity cue may raise an explanatory question about an indicated advantage without a failure. For example, an unexpectedly stable response in one operating range invites rival explanations of that stability. Whether to exploit the opportunity is a separate action choice.
 
 #### B.5.2.0:13.3 - Probe-style prompt
-A routed cue may become a probe prompt when what matters is not yet explanation but the explicit need to test, contrast, instrument, or perturb.
+A probe-related observation may prompt an explanatory question: which rival explanations predict the measured contrast under the stated perturbation? If the question is instead which available probe is cheapest or most discriminating for the current purpose, use C.11. The probe choice does not require an abductive prompt merely to acquire that input form.
 
 #### B.5.2.0:13.4 - Specialization-sensitive prompt set
-A cue set may admissibly become a `TaskFamilySpecializationPrompt`, `AdaptationProbePrompt`, `NonHumanUtilityPrompt`, or `SubstrateDiversificationPrompt` when the current question is not yet a selector decision but a bounded entry into specialist acquisition, adaptation probing, nonhuman-utility discovery, or substrate widening. The point is to preserve the task family, budget window, rival candidate options, and entry evidence requirement long enough for downstream comparison rather than smuggling a commitment into prompt form.
+Use a specialization-sensitive species for its explanatory question in §4.1.1. For example, a measured performance contrast can prompt rival explanations tied to a declared task family and budget. Acquiring a specialist Method or competence bundle instead requires the applicable option or alternative-development decision. Retain task family, threshold, budget and cue provenance in whichever receiving use needs them; prompt publication does not select the acquisition.
 

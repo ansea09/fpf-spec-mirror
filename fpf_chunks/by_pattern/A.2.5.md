@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.2.5"
-pattern_title: "SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
+pattern_title: "SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.5.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
-line_start: 5265
-line_end: 5615
+  - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
+line_start: 5226
+line_end: 5576
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -31,7 +31,7 @@ keywords:
   - "time window"
 ---
 
-## A.2.5 - SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission
+## A.2.5 - SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission
 
 > **Type:** Definitional (D)
 > **Status:** Stable

@@ -6,12 +6,12 @@ section_id: "G.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 114135
-line_end: 114149
+line_start: 114467
+line_end: 114481
 dependencies:
   - "A.21"
   - "B.3"
@@ -58,11 +58,11 @@ keywords:
 * **Bridge‑by‑prose (“they have the same sense”).**
   **Avoid:** publish BCT rows + BridgeCards + UTS rows; require SenseCell anchoring and row scopes.
 * **Scope or sense relation used as a kind bridge.**
-  **Avoid:** do not substitute a scope or **F.9** sense relation for a **C.3.3** `KindBridge`; use `RowScopeId` to state which channel is claimed, and require `CL^k` + `Ψ(CL^k)` pins when a kind‑channel bridge is invoked (do not “upgrade” a scope‑channel bridge into kind substitution).
+  **Avoid:** state the channel in `RowScopeId` and use its direct governor. A C.3.3 correspondence needs its kind endpoints and separate receiving classification; cite CL^k and any loss policy only when that calibration or reliance account uses them.
 * **Plane blindness (“concept = world”).**
   **Avoid:** record plane pins and policy id pins; keep plane effects auditable and separable from CL/CL^k semantics.
 * **CL smoothing / averaging.**
-  **Avoid:** enforce row bottleneck summaries and counterexample citations for loss‑noted cells.
+  **Avoid:** establish the common scale and calibration question before taking a minimum; retain actual counterexamples and losses, and keep the receiving decision separate.
 * **Pack‑wide refresh on a local bridge edit.**
   **Avoid:** register sentinels scoped to `PathSliceId` and emit typed RSCR triggers with minimal payload pins.
 * **QD metric drift by unpinned artefacts.**

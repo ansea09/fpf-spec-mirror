@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UINDM"
-pattern_title: "Unified Indicatorization Mechanism (UINDM)"
+pattern_title: "Indicatorization (UINDM): Select Indicators Under a Declared Policy"
 section_id: "A.19.UINDM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__014_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
+  - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:12 — Relations"
-line_start: 35466
-line_end: 35482
+line_start: 35374
+line_end: 35388
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -27,7 +27,7 @@ keywords:
 * **Builds on**
 
   * `A.19.CN` (CN‑Spec, specifically `indicator_policy`).
-  * `A.6.1` / `CC‑UM.*` (mechanism intension shape and authoring checks).
+  * `A.6.1 §4.2` for operation-local declarations and `§4.8` for the exact refinement, conservative-extension or equivalence comparison being claimed.
   * `A.19.CHR:4.2.1` (CHR SlotKind lexicon).
 * **Used by**
 
@@ -35,7 +35,5 @@ keywords:
 * **Coordinates with**
 
   * `G.0` (CG‑Spec / MinimalEvidence) when indicator choice is evidence‑gated.
-  * `E.20` (governing-pattern discipline) and `F.18` (alias docking) for Phase‑3 canonicalization and ID continuity.
-[1]: https://arxiv.org/abs/1907.02893 "Invariant Risk Minimization"
-[2]: https://dl.acm.org/doi/10.1145/3287560.3287596 "Model Cards for Model Reporting"
+  * `E.20` for the governing declaration and `F.18` when resolving a legacy alias.
 

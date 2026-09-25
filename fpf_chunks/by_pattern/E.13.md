@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "E.13"
-pattern_title: "Pragmatic Utility and Value Alignment"
+pattern_title: "Pragmatic Utility and Proxy-to-Value Alignment"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.13.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.13 — Pragmatic Utility and Value Alignment"
-line_start: 89466
-line_end: 89660
+  - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
+line_start: 89850
+line_end: 90044
 dependencies:
   - "A.10"
   - "A.21"
@@ -37,7 +37,7 @@ keywords:
   - "surrogation"
 ---
 
-## E.13 - Pragmatic Utility and Value Alignment
+## E.13 - Pragmatic Utility and Proxy-to-Value Alignment
 
 > **Type:** Part E FPF evaluation and repair pattern
 > **Status:** Stable
@@ -99,7 +99,7 @@ Typical failures include:
 
 ### E.13:4 - Solution
 
-Use `ProxyToValueAlignment` as a short repair note.
+Use `ProxyToValueAlignment` to recover the intended value, the proxy's current use, the value at risk, and the justified repair or stop. A short answer or local repair is enough when it settles the case. When later review, reuse, or reliance needs a note, use the fields below that change the conclusion.
 
 ```text
 ProxyToValueAlignment:
@@ -119,7 +119,7 @@ ProxyToValueAlignment:
   ReopenCondition:
 ```
 
-Keep the note as small as the case allows. The fields exist to restore the value relation, not to create another checklist target.
+Keep any note as small as the case allows. Its fields help explain how the proxy serves the intended value; fill only those needed for the current conclusion, repair, stop, or later reliance.
 
 #### E.13:4.1 - Name the Value Before the Proxy
 
@@ -147,15 +147,15 @@ If nothing worsened, say which loci were checked. If no loci were checked, do no
 
 #### E.13:4.4 - Require a Minimally Viable Value Slice
 
-Require a minimally viable value slice: one compact case, worked slice, observation, trial, user/operator moment, or decision replay where the intended value is visible enough for the declared use.
+Require a minimally viable value slice: one compact case, worked slice, observation, trial, user/operator moment, or decision replay where the intended value is visible enough for the declared use. State whether the slice is an illustration, desk replay, or observed use, and what conclusion it supports.
 
-The value slice may be small. It must show the value, not merely the proxy.
+The value slice may be small. It must show the intended value rather than merely the proxy. A worked illustration can explain how a proposed repair would serve that value; it does not by itself establish an observed gain. Keep any claim about actual improvement within the comparison and evidence that support it.
 
 #### E.13:4.5 - Repair by Value Movement
 
 When the proxy has displaced the value, repair one of these:
 
-- change the proxy use from target/gate/incentive to orientation or bounded measure;
+- where the governing rule permits it, change the proxy use from target/gate/incentive to orientation or bounded measure; if a binding requirement must change, propose the amendment under its authority and keep the current requirement in force until that amendment takes effect;
 - add a protected quality or counter-metric that names the value at risk;
 - change the work or design so the value slice improves, not only the proxy;
 - split the claim: one measure report, one value claim, one assurance or gate claim if needed;

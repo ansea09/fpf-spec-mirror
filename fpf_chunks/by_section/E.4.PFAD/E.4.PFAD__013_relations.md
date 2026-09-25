@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__013_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:12 — Relations"
-line_start: 79707
-line_end: 79718
+line_start: 80004
+line_end: 80015
 dependencies:
   - "A.15.1"
   - "A.22"

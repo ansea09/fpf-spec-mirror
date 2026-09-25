@@ -6,12 +6,12 @@ section_id: "E.11.DSG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:4 — Solution"
-line_start: 89202
-line_end: 89282
+line_start: 89559
+line_end: 89639
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -85,9 +85,9 @@ An ordinary answer may remain readable conversation. Persist one only when revie
 
 Say directly what each returned item does. For an available result, name the result's actual kind, supplying product and edition or current state, receiving use, and any currentness or availability condition that can change that use. State maintenance only when it changes the answer. For a MethodDescription, name the described Method and how the reader uses the description; do not present its expected result as already obtained. For direct-source evidence, name the supported claim or decision and the source limits. For an unavailable result, name the blocker and retry condition. Recommendation, alternative, dependency, compatibility, and co-listing remain separate claims and create none of these stronger relations.
 
-#### E.11.DSG:4.4 - Say “smallest” only when it can be tested
+#### E.11.DSG:4.4 - Test sufficiency and each item's necessity
 
-Call an answer the **smallest sufficient combination** only when the Reference entry gives a recoverable candidate boundary, required result, and sufficiency rule, and removing any returned item makes that result insufficient. The boundary is the resources actually inspected through the entry and its direct source returns, not every publication that might exist.
+Call an answer a **sufficient combination with every returned item necessary** only when the Reference entry gives a recoverable candidate boundary, required result, and sufficiency rule, the combination satisfies that rule, and removing any returned item makes the result insufficient. The boundary is the resources actually inspected through the entry and its direct source returns, not every publication that might exist. This item-necessity test does not establish the smallest combination. A “smallest” claim also needs a declared size criterion and a comparison or argument showing that no smaller in-scope combination is sufficient.
 
 When that test cannot be completed, return a bounded plausible combination and name the uncertainty or missing item. Do not disguise a convenient shortlist as a `JointUseSet`. Use `G.5` only when every named returned resource is required for one named use and the current inclusion basis supports that all-items-needed claim.
 

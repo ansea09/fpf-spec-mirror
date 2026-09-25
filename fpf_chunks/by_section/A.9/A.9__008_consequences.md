@@ -1,37 +1,36 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.9"
-pattern_title: "Cross‑Scale Consistency (C‑3)"
+pattern_title: "Choose and Check an Aggregation Law for the Intended Result"
 section_id: "A.9:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__008_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.9 — Cross‑Scale Consistency (C‑3)"
+  - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:7 — Consequences"
-line_start: 24178
-line_end: 24186
+line_start: 24065
+line_end: 24070
 dependencies:
-  - "A.1"
-  - "A.8"
-  - "A.9"
+  - "A.19.CN"
+  - "A.19.ULSAM"
   - "B.1"
-  - "U.Holon"
+  - "B.2"
+  - "C.29"
 keywords:
-  - "aggregation"
-  - "composition"
-  - "holarchy"
-  - "invariants"
-  - "roll-up"
+  - "aggregation law"
+  - "bounds"
+  - "cross-scale consistency"
+  - "dependency model"
+  - "intended result"
+  - "ordered composition"
+  - "singleton identity"
 ---
 
 ### A.9:7 - Consequences
 
-| Benefit                      | Why it matters                                                   | Trade‑off / Mitigation                                                           |
-| ---------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| **Stable roll‑ups**          | Summaries and reports remain faithful as parts evolve.          | Requires early agreement on `Γ`; offer reference libraries.                      |
-| **Visible risk floor**       | WLNK blocks “averaging away” critical weaknesses.                | Can look overly conservative; redundancy, when real, lifts the minimum honestly. |
-| **Parallel progress**        | COMM + LOC allow distributed teams to integrate without re‑work. | Needs explicit independence assumptions; templates guide authors.                |
-| **Objective emergence flag** | Quintet failure becomes a measurable R\&D signal.                | Teams must learn to document MHTs instead of ignoring anomalies.                 |
+The practitioner can explain why the chosen operation answers the actual question and what would defeat it. A combined result remains usable only while the stated model and conditions apply. Lawful reordering or repartitioning can support distributed calculation; it does not guarantee that independently developed Systems will integrate without other work.
+
+The cost is recovering the domain meaning, dependencies and any property required by the action. A sufficient existing law can make this cheap. When its basis is absent, a qualified bound or retained inputs preserves useful information and exposes the missing premise. New-whole recognition remains a separate B.2 decision.
 

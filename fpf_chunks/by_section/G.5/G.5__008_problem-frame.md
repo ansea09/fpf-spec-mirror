@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.5"
-pattern_title: "Multi‑Method Dispatcher and MethodFamily Registry"
+pattern_title: "Method-Family Registry, Dispatch and Selected-Set Result Declaration"
 section_id: "G.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__008_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
+  - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:1 — Problem frame"
-line_start: 112695
-line_end: 112708
+line_start: 113115
+line_end: 113128
 dependencies:
   - "C.11"
   - "C.18"
@@ -32,6 +32,7 @@ dependencies:
   - "G.9-G.11"
   - "G.Core"
 keywords:
+  - "JointUseSet"
   - "RankedShortlist"
   - "SelectorOutcomeKind"
   - "Shortlist"
@@ -48,7 +49,7 @@ keywords:
   - "method-family registry"
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
-  - "selected-set publication"
+  - "selected-set result declaration"
   - "set-result outcome"
   - "tool choices are outside the core"
 ---
@@ -56,7 +57,7 @@ keywords:
 ### G.5:1 - Problem frame
 
 
-The exact `CG‑Frame` card from **G.1** and `SoTA Synthesis Pack@CG‑Frame` from **G.2** name the frame, `EntityOfConcernRef`, ReferencePlane, source rows, and rival internally coherent **method families** (and sometimes **generator families**) that may address the same declared task.
+The exact `CG‑Frame` card from **G.1** and `SoTA Synthesis Pack@CG‑Frame` from **G.2** name the frame, `EntityOfConcernRef`, ReferencePlane, source rows, and rival internally coherent **method families** (and sometimes **generator families**) that may address the same declared task. If their breadth is used as a premise, cite G.2's pack `CoverageJudgementRef` and its HarvestPolicy basis. Registration does not recount cards as families; a combined method/generator coverage result does not establish method-only coverage for dispatch.
 
 At the same time, the scale and coordinate definitions from **G.3** and the typed operator-argument and result declarations from **G.4** make admissible calculi and acceptance clauses explicit - enough to formulate *eligibility*, *assurance*, and *admissibility* constraints, but not enough to pick "the method" without collapsing plurality.
 

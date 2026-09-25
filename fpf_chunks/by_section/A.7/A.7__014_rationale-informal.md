@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.7"
-pattern_title: "Strict Distinction (Clarity Lattice)"
+pattern_title: "Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
 section_id: "A.7:12"
 section_title: "Rationale (informal)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__014_rationale-informal.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.7 — Strict Distinction (Clarity Lattice)"
+  - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:12 — Rationale (informal)"
-line_start: 23358
-line_end: 23364
+line_start: 23234
+line_end: 23240
 dependencies:
   - "A.1"
   - "A.10"

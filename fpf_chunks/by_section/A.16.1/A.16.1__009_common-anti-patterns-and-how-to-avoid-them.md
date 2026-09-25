@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16.1"
-pattern_title: "U.PreArticulationCuePack"
+pattern_title: "PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
 section_id: "A.16.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16.1 — U.PreArticulationCuePack"
+  - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 31071
-line_end: 31077
+line_start: 31013
+line_end: 31019
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,5 +41,5 @@ keywords:
 - **Cue as route record.** Do not let `selectedRoute`, route rationale, or route-selection status hide inside cue-pack prose.
 - **Cue without nucleus.** Do not publish only refs and carriers while leaving the preserved core unnamed.
 - **Cue without triage.** Do not pretend all witnesses or anchors are equally load-bearing when one clearly carries the preservation need.
-- **Cue as carrier zoo.** Do not make `U.PreArticulationCuePack` a replacement for `A.7` carrier discipline.
+- **Cue as carrier zoo.** Do not make `PreArticulationCuePack` a replacement for `A.7` carrier discipline.
 

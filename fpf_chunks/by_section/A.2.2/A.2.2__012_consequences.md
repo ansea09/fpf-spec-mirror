@@ -1,29 +1,32 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.2"
-pattern_title: "U.Capability - System Ability Envelope and Measures"
+pattern_title: "System Capability: Conditions, Measures and Fit"
 section_id: "A.2.2:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__012_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.2 — U.Capability - System Ability Envelope and Measures"
+  - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:11 — Consequences"
-line_start: 4419
-line_end: 4436
+line_start: 4377
+line_end: 4394
 dependencies:
+  - "A.1"
   - "A.15"
-  - "A.2"
   - "A.2.3"
-  - "E.24.UK"
+  - "A.2.6"
+  - "C.2.1"
+  - "E.23.CDI"
 keywords:
-  - "ability envelope"
-  - "capability-fit condition"
+  - "attained bounds"
+  - "capability fit"
   - "currentness"
-  - "holder-dependent capability instance"
-  - "measure set"
-  - "qualification window"
+  - "holder ability"
+  - "qualification"
+  - "support"
+  - "work conditions"
 ---
 
 ### A.2.2:11 - Consequences
@@ -32,7 +35,7 @@ keywords:
 
 - Planning separates "can do" from "is assigned now".
 - Method steps can name capability thresholds without putting extra meaning into system-role-kind names.
-- Work records can be judged against the capability instance and fit predicate current at the time of work.
+- Work records can be judged against the capability claim and fit predicate current at the time of work.
 - The internal ability and measured envelope supporting a promise are explicit.
 - Composite-system ability can be stated at the right holder instead of scattered across parts.
 

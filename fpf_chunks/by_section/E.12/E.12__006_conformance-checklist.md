@@ -6,15 +6,18 @@ section_id: "E.12:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__006_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:5 — Conformance Checklist"
-line_start: 89428
-line_end: 89434
+line_start: 89799
+line_end: 89805
 dependencies:
+  - "C.11.DUA"
   - "E.13"
   - "E.2"
+  - "E.9"
+  - "F.19"
 keywords:
   - "HF-Loop"
   - "Rationale Mandate"
@@ -26,8 +29,8 @@ keywords:
 
 ### E.12:5 - **Conformance Checklist**
 
-*   **CC-E12.1 (Rationale Mandate):** Every `U.AssuranceCase` or proof publication at `AssuranceLevel:L2` **MUST** contain a non-empty `rationale` component that satisfies the "So What?" test.
-*   **CC-E12.2 (HF-Loop Trigger Condition):** Each pattern that defines a significant workflow **SHOULD** specify a conceptual condition for triggering an HF-Loop review, based on the principle of managing cognitive load.
-*   **CC-E12.3 (HF-Loop Review Mandate):** If a trigger condition is met, a review involving the designated human-centric roles **MUST** be initiated. Its outcome **MUST** be a documented set of conceptual refinement proposals.
+*   **CC-E12.1 (Rationale Mandate):** Every key assurance episteme or publication, including a `U.AssuranceCase` or proof publication, **MUST** contain a non-empty, human-readable `rationale` that satisfies the "So What?" test. Any `AssuranceLevel` claim separately cites its applicable `B.3.3` profile and shows that the target meets that profile's criteria.
+*   **CC-E12.2 (Bounded inquiry trigger):** A significant workflow **SHOULD** make consequential reader obstructions or doubtful work demands recognizable. An inquiry names the task, passage/action, prerequisites and relevant assurance boundary; a conceptual workload threshold alone is insufficient.
+*   **CC-E12.3 (Inquiry and stop):** For a live trigger, apply §4.3 at a burden warranted by C.11.DUA. An actual reading inquiry preserves the initial unassisted attempt before explanation and compares any proposed alternative at unchanged task/prerequisites/assurance. Return a supported repair, no change or the exact evidence limit; qualify assistance and leave amendment authority separate.
 *   **CC-E12.4 (Didactic Primacy in DRRs):** Any DRR proposing a change to a normative pattern **MUST** include a section analyzing its impact on cognitive ergonomics and didactic clarity.
 

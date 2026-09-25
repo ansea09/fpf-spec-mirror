@@ -6,12 +6,12 @@ section_id: "E.1:4"
 section_title: "Solution — FPF as an Operating System for Thought"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__005_solution-fpf-as-an-operating-system-for-thought.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.1 — Vision & Mission: “Operating System for Thought”"
   - "E.1:4 — Solution — FPF as an Operating System for Thought"
-line_start: 78245
-line_end: 78257
+line_start: 78473
+line_end: 78492
 dependencies:
   - "E.2"
 keywords:
@@ -36,4 +36,11 @@ FPF delivers a **generative scaffold** realised as:
    * **Evolvability** — change is expected and governed;
    * **Cross‑Scale Coherence** — the same algebra binds parts to wholes at any level;
    * **Didactic Transparency** — each element exposes its own reasoning path.
+
+For a proposed rule or artifact, take one affected use through these steps:
+
+1. State the intended user, decision or action, and the failure the proposal addresses.
+2. For a normative rule, name at least one core invariant and explain the rule's contribution in that use. A copied invariant label is insufficient; if the contribution is unresolved, retain the proposal and return the missing argument or case before treating it as charter-conformant.
+3. State the artifact's intended measurable benefit, its comparison basis and how it could be checked, or the reason a benefit statement is inapplicable. Distinguish an aim or supported prediction from an observed result. Withdraw an unsupported outcome claim or obtain the evidence needed by that claim; do not substitute conformance for benefit.
+4. Apply only the additional feasibility and lexical conditions that the claim activates. Keep any remaining gap and the next useful action explicit. A changed benefit basis or invariant argument reopens the affected claim, not unrelated conclusions.
 

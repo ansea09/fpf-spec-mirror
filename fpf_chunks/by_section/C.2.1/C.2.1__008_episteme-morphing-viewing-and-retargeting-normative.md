@@ -6,12 +6,12 @@ section_id: "C.2.1:7"
 section_title: "Episteme morphing, viewing, and retargeting  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__008_episteme-morphing-viewing-and-retargeting-normative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:7 — Episteme morphing, viewing, and retargeting  (normative)"
-line_start: 47511
-line_end: 47549
+line_start: 47652
+line_end: 47690
 dependencies:
   - "A.1"
   - "A.1.1"

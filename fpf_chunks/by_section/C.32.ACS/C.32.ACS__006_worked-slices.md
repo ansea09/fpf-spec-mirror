@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.ACS"
-pattern_title: "Architecture Characteristic Criteria Set for Improvement Cycles"
+pattern_title: "Architecture Characteristic Criteria Set"
 section_id: "C.32.ACS:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__006_worked-slices.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
+  - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:5 — Worked slices"
-line_start: 72213
-line_end: 72222
+line_start: 72432
+line_end: 72441
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.2.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__010_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:9 — Consequences"
-line_start: 5226
-line_end: 5233
+line_start: 5187
+line_end: 5194
 dependencies:
   - "A.10"
   - "A.2"
@@ -32,6 +32,7 @@ keywords:
   - "claim"
   - "episteme"
   - "evidence-use relation"
+  - "first-use classification"
   - "provenance"
   - "role-shaped source phrase"
   - "source-use wording"

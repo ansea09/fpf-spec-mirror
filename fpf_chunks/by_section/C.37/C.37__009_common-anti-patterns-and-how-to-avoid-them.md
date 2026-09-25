@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.37"
-pattern_title: "Use-Bounded Representation Selection and Co-Use"
+pattern_title: "Select and Use Representations for One Action"
 section_id: "C.37:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.37 — Use-Bounded Representation Selection and Co-Use"
+  - "C.37 — Select and Use Representations for One Action"
   - "C.37:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 75870
-line_end: 75882
+line_start: 76095
+line_end: 76107
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -25,6 +25,15 @@ dependencies:
   - "E.17.0"
   - "E.24.PUB"
 keywords:
+  - "co-use"
+  - "diagram"
+  - "exposure"
+  - "loss"
+  - "model"
+  - "plan"
+  - "receiving action"
+  - "record"
+  - "representation selection"
 ---
 
 ### C.37:8 - Common Anti-Patterns and How to Avoid Them

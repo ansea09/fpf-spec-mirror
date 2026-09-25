@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.MOVE"
-pattern_title: "Move and Readiness Wording Precision Restoration"
+pattern_title: "Move, Readiness and Trajectory Wording Precision Restoration"
 section_id: "E.10.MOVE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__011_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
+  - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:10 — Rationale"
-line_start: 86152
-line_end: 86159
+line_start: 86472
+line_end: 86479
 dependencies:
   - "A.1.STM"
   - "A.10"

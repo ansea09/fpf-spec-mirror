@@ -6,12 +6,12 @@ section_id: "G.6:4"
 section_title: "Solution — cite independently governed objects and relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__005_solution-cite-independently-governed-objects-and-relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:4 — Solution — cite independently governed objects and relations"
-line_start: 113521
-line_end: 113680
+line_start: 113843
+line_end: 114002
 dependencies:
   - "A.10"
   - "A.13"
@@ -29,6 +29,7 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.18.2"
+  - "E.24.PUB"
   - "F.10"
   - "F.6"
   - "F.9"
@@ -71,7 +72,7 @@ Create an `EvidenceGraph` only after the relied-on claim or bounded use and its 
 | Work-resource aggregation result | `B.1.6` |
 | Durable episteme that states a local result | `C.2.1`; it remains distinct from the domain result |
 | Outcome, later action, acceptance, gate passage, permission, or decision | its exact work and domain governor, including `C.11` or `A.21` when applicable |
-| Source publication, carrier, copy, extraction, or publication occurrence | `E.17` family plus the exact source relation and the declaration or pattern that defines it |
+| Source publication, carrier, copy, extraction, or publication occurrence | `E.17` for a source-backed face and source return; `E.24.PUB` for an obtaining publication occurrence; the direct rule for each copy, extraction or source relation |
 | Representation correspondence | `C.29` |
 | Bridge, congruence, loss, or cross-context transfer | `F.9` |
 | Transformation-flow structure distinct from performed work | `E.18` and `E.18.2` |
@@ -168,7 +169,7 @@ PathCitationRecord:
   ReopenTrigger
 ```
 
-`NotCarried` names every stronger claim or use that the path does not establish: Work occurrence, participation, production, claim truth, assurance, approval, permission, gate passage, release, causal identification, benchmark superiority, acceptance, or decision. Actual downstream use requires one independently admitted dated Work ref, its A.13-qualified performer refs, and one exact premise, reference, operation-argument, decision-use, or other direct relation. Add attribution refs only when that downstream use expressly consumes precise assignment-bound attribution; path availability or citation is not actual use.
+`NotCarried` names the stronger claim or use at issue that the path does not establish. Recover the exact premise, reference, operation-argument, decision-use, or other direct relation for actual downstream use. If the use asserts dated `U.Work`, cite its independently admitted A.15.1 Work ref and A.13-qualified performer refs. Add attribution refs only when the use expressly consumes precise assignment-bound attribution. Path availability or citation alone does not establish that use.
 
 #### G.6:4.4 - Provenance ledger
 
@@ -205,9 +206,9 @@ If the direct relation no longer obtains or its proof becomes unavailable, remov
 | work trace, run, test, audit, measurement, or evaluation | independently admitted dated Work ref and A.13-qualified actual performer refs under §4.1; enacted Method, resources, exact direct participation facts, and A.6.1 binding facts remain separate; expose an assignment occurrence and obtaining F.6 relation only when the path expressly consumes precise assignment-bound attribution |
 | produced carrier, model, report, or episteme | exact produced entity and either its subject-specific direct production relation, when the subject pattern declares one, or the one local A.15.PROD production-work or inception claim that the current use needs |
 | reading, score, verdict, estimate, aggregate, diagnosis, or outcome | exact domain result and direct governor; distinct C.2.1 episteme when durably stated |
-| publication, view, export, or graph rendering | exact source/publication relation and C.29 representation correspondence when current |
+| publication, view, export, or graph rendering | exact source relation, E.17 source-backed face, E.24.PUB publication occurrence, and C.29 representation correspondence when each is current |
 | evidence, provenance, currentness, reliance, or assurance | A.2.4/A.10, G.11, and B.3 under their separate entry conditions |
-| later acceptance, gate, release, or decision | separate dated Work admitted under §4.1, local result, and exact later-use relation |
+| later acceptance, gate, release, or decision | its local result and exact later-use relation under their direct rules; dated Work admitted under §4.1 when that occurrence is asserted |
 
 #### G.6:4.7 - Extension wiring without core drift
 

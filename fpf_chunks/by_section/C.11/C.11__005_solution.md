@@ -6,12 +6,12 @@ section_id: "C.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:4 — Solution"
-line_start: 52384
-line_end: 52841
+line_start: 52527
+line_end: 52984
 dependencies:
   - "A.10"
   - "A.13"
@@ -280,7 +280,7 @@ ProbeDecisionValue(  # conditional as described above
 )
 ChoiceResult(
   choiceDisposition = choose_now | reject_current_set | probe_again | reroute,
-  selectedOption or retainedTieSet or rejectedCurrentSet or rerouteOwner,
+  selectedOption or retainedTieSet or rejectedCurrentSet or nextProbe or rerouteOwner,
   reason this result is lawful now
 )
 ```

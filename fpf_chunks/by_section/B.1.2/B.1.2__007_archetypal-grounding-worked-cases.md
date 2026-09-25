@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.2"
-pattern_title: "System Aggregation and Holon Delimitation"
+pattern_title: "Coordinate Decisions About System Aggregation and Delimitation"
 section_id: "B.1.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.1.2 — System Aggregation and Holon Delimitation"
+  - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 38894
-line_end: 38913
+line_start: 38824
+line_end: 38843
 dependencies:
   - "A.1"
   - "A.10"

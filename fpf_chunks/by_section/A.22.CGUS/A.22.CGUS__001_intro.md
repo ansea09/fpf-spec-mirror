@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.22.CGUS"
-pattern_title: "Constraint-Governed Unfolding Structure"
+pattern_title: "Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
 section_id: "A.22.CGUS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.22.CGUS — Constraint-Governed Unfolding Structure"
+  - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:intro — Intro"
-line_start: 37946
-line_end: 37951
+line_start: 37890
+line_end: 37895
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,7 +43,7 @@ dependencies:
 keywords:
 ---
 
-## A.22.CGUS - Constraint-Governed Unfolding Structure
+## A.22.CGUS - Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)
 
 > **Type:** A.22 specialization of `U.Structure`
 > **Status:** Stable

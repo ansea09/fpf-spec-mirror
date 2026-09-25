@@ -6,12 +6,12 @@ section_id: "A.2.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:4 — Solution"
-line_start: 6628
-line_end: 6837
+line_start: 6591
+line_end: 6806
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -109,13 +109,19 @@ RelationSignature:
     exact context-local incompatibility-predicate kind, ByValue
 ```
 
-The predicate is identified by the unordered pair of kinds, the exact same-holder or different-holder rule, Work identity condition, temporal-overlap test, applicability, and only meaning-changing semantic-basis editions. The relation obeys the symmetry law:
+For the actual-Work species, the predicate is identified by the unordered pair of kinds, the exact same-holder or different-holder rule, Work identity condition, temporal-overlap test, applicability, and only meaning-changing semantic-basis editions. The relation obeys the symmetry law:
 
 ```text
 incompatible(k1, k2, p) = incompatible(k2, k1, p)
 ```
 
 The exact assignments later evaluated are receiving inputs. A conflicting allocation is a case satisfying the incompatibility rule; it is not what creates the kind relation. A system applies the receiving Method and records the resulting admit, reject, defer, or unresolved outcome under the pattern for that decision.
+
+**Prospective incompatibility species.** A local policy may separately declare a direct incompatibility species for allocation to a bounded proposed action before performance. Keep the same unordered kind-pair signature and symmetry law. Its by-value predicate must declare the actual same-holder/different-holder rule, proposed-action identity condition, temporal test over the intended allocation windows, applicability and only meaning-changing semantic-basis editions. This species does not replace the actual-Work condition with an arbitrary entity slot. Use an existing WorkPlan/action locator when available; otherwise the local action rule must identify what is proposed.
+
+For a release-action species, identify the artifact edition, target environment, promotion operation and bounded intended window, and define how a reschedule continues or replaces that action. Repeated request forms for the same action select the same subject. If a continuation rule preserves an action across a changed window, the changed window still reopens any permission whose applicability depends on it. Proposed actions, requests, plans and gate results are not future Work individuals.
+
+The kind relation can obtain under its constituting policy before any prohibited allocation occurs. Actual assignments, their holders, the exact proposed action and intended allocation windows are receiving-test inputs. A known prohibited same-holder/action/overlap case supports rejection; missing required facts leave that receiving decision unresolved or deferred under A.21. Any independent authority and other gate conditions remain separate. Once performance occurs, identify its Work under A.15.1 and match it to prior permission through the policy's actual action-match rule. The actual-Work species and §4.6 continuity law remain unchanged.
 
 #### A.2.7:4.4 - Monotonic Kind Order and Residual Qualification
 

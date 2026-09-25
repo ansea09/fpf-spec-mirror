@@ -6,12 +6,12 @@ section_id: "C.30.LCA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__007_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:6 — Bias-Annotation"
-line_start: 69277
-line_end: 69285
+line_start: 69489
+line_end: 69497
 dependencies:
   - "A.10"
   - "A.20"
@@ -33,13 +33,14 @@ dependencies:
   - "E.18.2"
   - "G.6"
 keywords:
-  - "control layer"
   - "control-structure view"
-  - "controller and plant"
+  - "controller"
+  - "feedback closure"
   - "layered control architecture"
-  - "proof overread"
+  - "observer"
+  - "plant"
   - "rate band"
-  - "supervisor loop"
+  - "supervisor"
 ---
 
 ### C.30.LCA:6 - Bias-Annotation

@@ -6,12 +6,12 @@ section_id: "C.32.ADR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:4 — Solution"
-line_start: 74151
-line_end: 74192
+line_start: 74370
+line_end: 74411
 dependencies:
   - "A.10"
   - "A.15"

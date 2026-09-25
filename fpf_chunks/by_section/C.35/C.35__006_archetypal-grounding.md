@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.35"
-pattern_title: "Structural Synthesis and Discovery Adequacy"
+pattern_title: "Assess Generated or Discovered Results for Architecture Use"
 section_id: "C.35:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.35 — Structural Synthesis and Discovery Adequacy"
+  - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:5 — Archetypal Grounding"
-line_start: 75131
-line_end: 75152
+line_start: 75352
+line_end: 75373
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -48,11 +48,10 @@ keywords:
   - "DSM"
   - "LLM"
   - "NAS"
-  - "candidate admission"
-  - "described structure"
-  - "generated carrier"
-  - "produced carrier"
-  - "source return"
+  - "candidate input"
+  - "discovered result"
+  - "generated result"
+  - "modal architecture proposal"
   - "structural discovery"
   - "structural synthesis"
 ---

@@ -1,34 +1,36 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.4"
-pattern_title: "Temporal Duality & Open‑Ended Evolution Principle"
+pattern_title: "Compare a System's Intended Design with Its Operating Conditions"
 section_id: "A.4:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__008_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
+  - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:7 — Consequences"
-line_start: 11055
-line_end: 11062
+line_start: 11022
+line_end: 11027
 dependencies:
-  - "B.3"
+  - "A.1"
+  - "A.1.1"
+  - "A.3.4"
   - "B.4"
+  - "C.2.1"
+  - "C.27"
 keywords:
-  - "continuous improvement"
-  - "design-time"
-  - "evolution"
-  - "open-ended state change"
-  - "run-time"
-  - "versioning"
+  - "comparison criterion"
+  - "conformance"
+  - "design account"
+  - "discrepancy"
+  - "missing basis"
+  - "operating facts"
 ---
 
 ### A.4:7 - Consequences
 
-| Benefits | Trade‑offs / Mitigations |
-|----------|--------------------------|
-| **Temporal and provenance inputs for review** – Temporal scope tags and predecessor references make timing and lineage claims available for review. | Additional metadata tagging. |
-| **Unified View of Build & Measure** – Observation, test, simulation, maintenance, and fabrication all share one mechanism. | Requires modelers to think in terms of Transformers even for “passive” sensing; mitigated by role libraries (`transformerRole`, `CalibratorRole`, etc.). |
-| **Foundation for Learning Loops** – Enables higher patterns (e.g., B.4 Canonical Evolution Loop, B.3 Trust and Assurance Calculus) to reason over evidence accrual and version fitness, including self-modification. | Requires maintaining the temporal and provenance metadata. |
+The practitioner can distinguish a changed System, changed knowledge of its operation and a changed design criterion. A discrepancy becomes actionable because it names the unmet condition or missing comparison basis. Reusing adequate facts and stopping at a sufficient answer keeps a simple comparison small.
+
+The comparison costs the recovery of its account, criterion and relevant actual facts. It cannot supply missing domain law, resolve every uncertainty or decide who may alter a target. When repeated adaptation is warranted, B.4 consumes the result with the independently selected response and continuity rules.
 

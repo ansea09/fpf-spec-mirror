@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.24.PUB"
-pattern_title: "Ontic Description and Publication Discipline"
+pattern_title: "Episteme Publication: Availability, Form and Carrier"
 section_id: "E.24.PUB:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__005_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.24.PUB — Ontic Description and Publication Discipline"
+  - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:3 — Forces"
-line_start: 101096
-line_end: 101105
+line_start: 101502
+line_end: 101511
 dependencies:
   - "A.6.3"
   - "A.6.REL"

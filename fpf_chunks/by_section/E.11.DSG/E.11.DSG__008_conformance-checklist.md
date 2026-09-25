@@ -6,12 +6,12 @@ section_id: "E.11.DSG:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__008_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:7 — Conformance Checklist"
-line_start: 89321
-line_end: 89335
+line_start: 89678
+line_end: 89692
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -39,7 +39,7 @@ keywords:
 | `CC-DSG.3` Separate product and use boundaries | Reference product series, Reference edition, Suite collection, DPF product series and editions, lookup Work, answer, publication, carrier, belongs-to occurrences, availability, and Reference use remain distinct. |
 | `CC-DSG.4` Progressive detail | Date and actionable status are visible; author, evidence, relation, product-series state, warning, and reopen detail appears only when it changes reader action, truth, or named reliance. |
 | `CC-DSG.5` Answer discipline | Each returned item is classified and stated separately as an available result of its actual kind and supplying product, a `MethodDescription` reference, direct-source evidence, or a named unavailable result. Its readable contribution or blocker is explicit; maintenance appears only when it changes use, and recommendation, alternative, dependency, compatibility, and co-listing create none of those relations. |
-| `CC-DSG.6` Smallest claim tested | “Smallest” has a candidate boundary, required result, sufficiency rule, and item-necessity test; otherwise the answer is called bounded and plausible. |
+| `CC-DSG.6` Sufficiency and necessity tested | The combination satisfies the declared sufficiency rule and removing any returned item makes the required result insufficient within the stated candidate boundary. A “smallest” claim additionally states a size criterion and establishes that no smaller in-scope combination is sufficient; otherwise retain the narrower necessity claim or call the answer bounded and plausible. |
 | `CC-DSG.7` Change and return honesty | Edition admission to a product series, product-series inclusion in a Suite, qualification warning, removal, product or Suite ending and reidentification, past belonging, availability, Reference route, temporary empty state, and retirement follow their separate rules. A known DPF result remains directly usable without a Reference detour. |
 | `CC-DSG.8` Derivative boundary | Expression, translation or other derivative, an established edition-continuity relation, language-specific product, and carrier are distinguished by their actual identity, source, scheme, reader-use, and maintenance facts. |
 | `CC-DSG.9` Plain-language whole passage | The complete changed passage can be read by an engineer or manager without reconstructing ontology notation; exact triples and relation terms appear only where they change identification or a stronger claim. |

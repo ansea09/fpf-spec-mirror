@@ -6,12 +6,12 @@ section_id: "E.10.LRN:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__003_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:1 — Problem Frame"
-line_start: 85271
-line_end: 85287
+line_start: 85591
+line_end: 85607
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ The same word family is used for importantly different situations:
 - a person inquires, notices, remembers, or reorganizes an episteme;
 - another System performs teaching, coaching, demonstration, or feedback Work;
 - a person acquires a capability for later Work;
-- an algorithm performs parameter-estimation or optimization Work and returns a fitted model;
+- a computing System performs parameter-estimation or optimization Work using an algorithm and returns a fitted model;
 - an inference Method returns a posterior or approximate distribution;
 - a query policy acquires data or reduces uncertainty;
 - a probe decodes a representation from system-side phenomena;

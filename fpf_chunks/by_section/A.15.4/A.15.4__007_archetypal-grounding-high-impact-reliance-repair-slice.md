@@ -6,12 +6,12 @@ section_id: "A.15.4:3.2"
 section_title: "Archetypal Grounding - High-Impact Reliance-Repair Slice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__007_archetypal-grounding-high-impact-reliance-repair-slice.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.2 — Archetypal Grounding - High-Impact Reliance-Repair Slice"
-line_start: 28128
-line_end: 28223
+line_start: 28017
+line_end: 28112
 dependencies:
   - "A.10"
   - "A.13"
@@ -88,7 +88,7 @@ A.15.4 structured local note:
       DependencyOnAttemptedUse: an unresolved or norm-selecting disposition blocks AllowedUseNow for this intervention; the finding neither revokes nor ends B17-InterventionGrant
     - EntryId: B17-CONFLICT-EVIDENCE
       SubjectPatternLocator: A.10
-      DirectObjectKind: claim-bound evidence-provenance relation
+      DirectObjectKind: C.2.1 episteme carrying an A.10 evidence-provenance account
       ProjectSideObjectRef: B17-ConflictFindingEvidence
       RequiredPostureOrCurrentness: supports only the current B17-InterventionPermissionNormConflictFinding disposition and the applicability of B17-ConflictPrecedenceRule-e2 to this exact attempted use
       DependencyOnAttemptedUse: supplies the evidence/currentness path for B17-CONFLICT without becoming the finding, rule, or grant
@@ -112,25 +112,25 @@ A.15.4 structured local note:
       DependencyOnAttemptedUse: identifies the intended performer and the assignment context required by the beneficiary branch and F.6 attribution; it establishes neither capability, permission, authority, responsibility, nor Work
     - EntryId: B17-PROTOCOL-EVIDENCE
       SubjectPatternLocator: A.10
-      DirectObjectKind: claim-bound evidence-provenance relation
+      DirectObjectKind: C.2.1 episteme carrying an A.10 evidence-provenance account
       ProjectSideObjectRef: B17-ProtocolPublicationEvidence
       RequiredPostureOrCurrentness: supports only the claim that B17-ProtocolPublication-e5 obtains and exposes protocol edition e5 for this lab audience and intervention use throughout the decision window
       DependencyOnAttemptedUse: supplies the publication/currentness evidence required for B17-PROTOCOL without standing in for that publication relation
     - EntryId: B17-GRANT-EVIDENCE
       SubjectPatternLocator: A.10
-      DirectObjectKind: claim-bound evidence-provenance relation
+      DirectObjectKind: C.2.1 episteme carrying an A.10 evidence-provenance account
       ProjectSideObjectRef: B17-InterventionGrantEvidence
       RequiredPostureOrCurrentness: supports only the claim that B17-InterventionGrant obtains and is current for this beneficiary, action, batch, scope, and window, including the instituting act, policy, revocation, and supersession sources used by that claim
       DependencyOnAttemptedUse: supplies the evidence/currentness path required for B17-GRANT without creating or replacing the grant
     - EntryId: B17-GATE-EVIDENCE
       SubjectPatternLocator: A.10
-      DirectObjectKind: claim-bound evidence-provenance relation
+      DirectObjectKind: C.2.1 episteme carrying an A.10 evidence-provenance account
       ProjectSideObjectRef: B17-InterventionGateEvidence
       RequiredPostureOrCurrentness: supports only the claim that B17-InterventionGateDecision-e2 is the current GateDecisionResult with decisionValue=pass for this attempted use under its GateProfile application, with its DecisionLog recoverable
       DependencyOnAttemptedUse: supplies the evidence/currentness path required for B17-GATE without becoming gate passage
     - EntryId: B17-ASSIGNMENT-EVIDENCE
       SubjectPatternLocator: A.10
-      DirectObjectKind: claim-bound evidence-provenance relation
+      DirectObjectKind: C.2.1 episteme carrying an A.10 evidence-provenance account
       ProjectSideObjectRef: B17-EditorAssignmentEvidence
       RequiredPostureOrCurrentness: supports only the claim that B17-EditorAssignment obtains, has the intended performer as holder, and covers the proposed Work window
       DependencyOnAttemptedUse: supplies the evidence/currentness path required for B17-ASSIGNMENT without creating or extending the assignment

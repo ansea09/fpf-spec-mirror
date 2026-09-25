@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.17"
-pattern_title: "Canonical “Characteristic” (A.CHR‑NORM)"
+pattern_title: "Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
 section_id: "A.17:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__009_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.17 — Canonical “Characteristic” (A.CHR‑NORM)"
+  - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:8 — Consequences"
-line_start: 31560
-line_end: 31575
+line_start: 31502
+line_end: 31517
 dependencies:
   - "A.17"
   - "A.18"

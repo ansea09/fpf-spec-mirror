@@ -6,15 +6,16 @@ section_id: "F.13:14"
 section_title: "Migration notes (conceptual playbook)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__015_migration-notes-conceptual-playbook.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:14 — Migration notes (conceptual playbook)"
-line_start: 106555
-line_end: 106565
+line_start: 106971
+line_end: 106981
 dependencies:
   - "F.1"
-  - "F.10"
+  - "F.17"
+  - "F.18"
   - "F.2"
   - "F.3"
   - "F.5"
@@ -23,20 +24,22 @@ dependencies:
   - "F.9"
 keywords:
   - "deprecation"
-  - "evolution"
-  - "merging terms"
-  - "renaming"
-  - "splitting terms"
+  - "historical reading"
+  - "lexical continuity"
+  - "local aliases"
+  - "renaming labels"
+  - "retirement"
+  - "splitting and merging labels"
 ---
 
 ### F.13:14 - Migration notes (conceptual playbook)
 
-1. **Ask the same‑sense question first.** If the underlying **SenseCell/row** is unchanged, prefer `renames`; else reach for `splits/merges`.
-2. **Keep it inside the Context.** If your explanation crosses Contexts, stop—this is **Bridge** territory (F.9), not a rename.
+1. **Recover the same meaning and use first.** Distinguish the expression from its exact cell and governed value. Use `renames` only for unchanged meaning and use; recover any subject change before settling the later name.
+2. **Keep aliases local.** Different semantic projections open F.9 only for a needed correspondence; the difference itself establishes no Bridge.
 3. **Prefer clarity over fashion.** Rename only when the new label **removes a real ambiguity** (F.5 criteria), not to chase style.
 4. **Limit nostalgia.** Admit **one** legacy alias in each register that readers will most likely meet; leave the rest to footnotes in examples.
-5. **Deprecate with kindness.** When retiring a label, add a one‑line **pointer note** (e.g., “see `timer event` in BPMN; ‘heartbeat’ in KD‑CAL means sensor liveness”).
+5. **Keep historical reading clear.** For a rename, point from the legacy label to its preferred successor. For retirement without a single successor, point to the relevant meanings or rows.
 6. **Rows before names.** If a rename request coincides with a shift in what the row covers, **refactor rows** (F.7) first, then choose labels.
-7. **Edition bumps.** When a canon updates, check labels used in that Context: if definitions shift, it’s a **split/merge**; if not, you may `renames` for style/uniformity.
+7. **Edition changes.** Compare the affected definitions. If meaning changes, recover the subject-governed revision, replacement, split, merge or retirement and preserve the earlier claim. If meaning and use stay unchanged, rename only for a concrete recognition gain.
 8. **Teach the delta.** In primers, show a **mini table** with legacy → preferred pairs only where readers will encounter both.
 

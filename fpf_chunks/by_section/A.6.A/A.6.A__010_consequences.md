@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.A"
-pattern_title: "Action-Invitation Precision Restoration (ACT-INV)"
+pattern_title: "Affordance and Action-Invitation Precision Restoration (ACT-INV)"
 section_id: "A.6.A:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__010_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
+  - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:9 — Consequences"
-line_start: 19917
-line_end: 19928
+line_start: 19774
+line_end: 19785
 dependencies:
   - "A.15"
   - "A.16"
@@ -21,6 +21,7 @@ dependencies:
   - "A.3"
   - "A.6.B"
   - "A.6.P"
+  - "A.6.REL"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
@@ -31,23 +32,26 @@ dependencies:
   - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "E.10"
   - "E.17"
   - "E.17.0"
   - "E.18"
+  - "F.17"
+  - "F.18"
   - "F.9"
 keywords:
-  - "A.15 docking"
-  - "action invitation"
   - "action-first language"
   - "affordance"
-  - "language-state seam"
-  - "post-threshold classification"
+  - "detection"
+  - "inquiry question"
+  - "physical opportunity"
+  - "wording recovery"
 ---
 
 ### A.6.A:9 - Consequences
 
 **Benefits.**
-This pattern gives FPF an admissible **post-threshold repair record family** for **action-first** discourse. It lets embodied, ecological, latent, interface, and control cues be published without pretending they are already commitments, capabilities, characteristics, scales, or work.
+This pattern turns ambiguous action-oriented wording into a usable subject claim, question or exact gap. It preserves the distinctions needed for embodied, ecological, learned-policy, interface and control uses while avoiding a compulsory intermediate record.
 
 It also complements C.16.Q cleanly: C.16.Q repairs **evaluative** ambiguity, while A.6.A repairs **action-inviting** ambiguity.
 

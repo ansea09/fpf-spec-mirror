@@ -6,12 +6,12 @@ section_id: "E.8:5"
 section_title: "Archetypal Grounding (System and Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__010_archetypal-grounding-system-and-episteme.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:5 — Archetypal Grounding (System and Episteme)"
-line_start: 82465
-line_end: 82474
+line_start: 82780
+line_end: 82789
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -44,7 +44,9 @@ keywords:
   - "SHALL NOT"
   - "SHOULD"
   - "SHOULD NOT"
+  - "a body-only term cannot support that search"
   - "and OPTIONAL are to be interpreted as described in RFC 2119"
+  - "and query cue for additional familiar expressions. If the intended search sees only headings"
   - "improves auditability"
   - "inside the predicate block"
   - "or other admissibility conditions of the modeled world"
@@ -59,8 +61,8 @@ keywords:
 | Template element | `U.System` illustration | `U.Episteme` illustration |
 |------------------|------------------------|---------------------------|
 | Section order | Pump‑assembly pattern follows sections **1–13** and ends with its required `:End` sentinel. | Meta‑analysis pattern follows the same sections and sentinel rule. |
-| S-1 Density w/o Jargon | “The pump casing seals at this face.” | “This episteme raises **F (Formality)** by making falsifiers testable.” |
+| S-1 Density w/o Jargon | “The pump casing seals at this face.” | “The claim states its predicates explicitly.” |
 | Governing-claim flow | Opens with the pump's working situation and required claim, then adds only context needed to act. | Opens with the research question and evidence claim, then adds only context needed to interpret it. |
 
-*Note:* Prefer examples that reuse FPF characteristics vocabulary (e.g., **F (Formality)** rather than “F‑score”) unless you explicitly mean an external metric and name it as such.
+*Note:* Use C.2.3 for a claim about **F (Formality)** and state the expression-rigor criterion it satisfies.
 

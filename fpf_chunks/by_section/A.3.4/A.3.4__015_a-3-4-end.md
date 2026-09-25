@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.3.4"
-pattern_title: "U.Transformation: Bounded Change Under Conditions"
+pattern_title: "U.Transformation: Actual Bounded Change Under Conditions"
 section_id: "A.3.4:End"
 section_title: "A.3.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__015_a-3-4-end.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
+  - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:End — A.3.4:End"
-line_start: 10702
-line_end: 10703
+line_start: 10671
+line_end: 10672
 dependencies:
   - "A.1"
   - "A.10"

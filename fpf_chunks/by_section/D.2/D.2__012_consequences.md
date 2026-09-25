@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "D.2"
-pattern_title: "Multilevel Ethics For Holon Work"
+pattern_title: "Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
 section_id: "D.2:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__012_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "D.2 — Multilevel Ethics For Holon Work"
+  - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:7 — Consequences"
-line_start: 77555
-line_end: 77558
+line_start: 77780
+line_end: 77783
 dependencies:
   - "A.1"
   - "A.15"

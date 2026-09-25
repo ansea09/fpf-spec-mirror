@@ -6,12 +6,12 @@ section_id: "B.1.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__008_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:7 — Conformance Checklist"
-line_start: 39819
-line_end: 39840
+line_start: 39749
+line_end: 39770
 dependencies:
   - "A.1"
   - "A.15"
@@ -78,7 +78,7 @@ keywords:
 | `CC-B1.5-9` | When the composite method needs a separate higher-level reidentification or emergence explanation, use `B.2` in addition to the explicit B.1.5 method reidentification rule. |
 | `CC-B1.5-10` | A temporal slice, episode, event-log segment, telemetry interval, engine stroke, detector component, or `U.WorkPlan` item is neither a Work part nor a Method part by appearance. Keep each with its subject pattern. A genuine Work part enacts a submethod only through a separate exact A.15.1 `enactsMethod` occurrence; whole Work may enact the whole Method without mirrored Work parts. |
 | `CC-B1.5-11` | A receiving use that needs order aggregation names B.1.4's exact ordered relation designations, `OrderSpec`, and join or independence conditions; the aggregation record or notation does not enter method identity or make relations obtain. |
-| `CC-B1.5-12` | Typed joins name the upstream intended-result meaning and downstream precondition, plus an adapter or governed correspondence when those meanings differ, and a failure route; signatures do not become `U.Capability` instances. |
+| `CC-B1.5-12` | Typed joins name the upstream intended-result meaning and downstream precondition, plus an adapter or governed correspondence when those meanings differ, and a failure route; signatures do not establish the holder's actual ability. |
 | `CC-B1.5-13` | Dated Work, performing Systems, separately declared assignment species, actual assignment occurrences, obtaining F.6 attributions, resource use and costs, yields, dissipation, telemetry, results, and production, together with separate evidence-, publication-use-, evaluation-, delivery-, and acceptance claims, use their subject patterns and do not become Method identity fields. |
 | `CC-B1.5-14` | Assurance hooks name cutsets, fragile joins, adapter points, CL-sensitive mappings, and the exact envelope or claim scope consumed by B.3; no performance or quality claim follows from composition alone. |
 | `CC-B1.5-15` | A direct method-composition claim establishes no A.14 structural-component relation, work-part relation, or selected-structure identity unless the corresponding direct predicate separately obtains. |

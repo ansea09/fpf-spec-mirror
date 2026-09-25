@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.9"
-pattern_title: "Request and Use a Bounded Result from Another Practice"
+pattern_title: "Use or Request a Bounded Result from Another Practice"
 section_id: "A.15.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.15.9 — Request and Use a Bounded Result from Another Practice"
+  - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:intro — Intro"
-line_start: 29345
-line_end: 29350
+line_start: 29236
+line_end: 29241
 dependencies:
   - "A.10"
   - "A.13"
@@ -29,7 +29,7 @@ dependencies:
 keywords:
 ---
 
-## A.15.9 - Request and Use a Bounded Result from Another Practice
+## A.15.9 - Use or Request a Bounded Result from Another Practice
 
 > **Type:** Method pattern
 > **Status:** Stable

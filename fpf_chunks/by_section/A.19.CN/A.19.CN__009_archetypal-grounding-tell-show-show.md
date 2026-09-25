@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CN"
-pattern_title: "CN‑frame (comparability & normalization)"
+pattern_title: "CN-frame: Specify and Maintain Comparability and Normalization"
 section_id: "A.19.CN:8"
 section_title: "Archetypal Grounding (Tell‑Show‑Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__009_archetypal-grounding-tell-show-show.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.CN — CN‑frame (comparability & normalization)"
+  - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:8 — Archetypal Grounding (Tell‑Show‑Show)"
-line_start: 33872
-line_end: 33992
+line_start: 33813
+line_end: 33942
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -45,16 +45,17 @@ keywords:
 * `chart`: reference jig, fixture ID, torch type; `MethodDescription#Weld_MIG_v3`
 * `normalization`: affine rescale on gray‑level calibration → invariant = physical porosity
 * `comparability`: **normalization‑based (UNM)** (calibration tables applied)
-* `aggregation`: WLNK on quality (min‑bound), COMM on counts, time = per‑shift histograms
+* `aggregation`: a minimum bound only for a declared bottleneck quality model; commutative count addition only for disjoint contributions; time = per-shift histograms
 * **RSG hook**: `WelderRole.Ready` requires *Porosity ≤ 500 ppm* & *BeadWidth within ±0.2 mm* admitted by this CN‑frame.
 
 #### A.19.CN:8.2 - **Software/SRE line** — *Latency CN‑frame* (`SRE_Prod_Cluster_EU_2026`)
 
 * `cs_basis`: *P50Latency\[ms] (↓)*, *P99Latency\[ms] (↓)*, *Load\[req/s]*
 * `chart`: client vantage, trace sampler v4; `MethodDescription#HTTP_probe_v4`
+* Before comparing a client end-to-end reading with a server processing reading, resolve their actual Characteristic and observation basis. Both may use ms yet answer different questions. Keep separate coordinates or obtain readings for the same declared characteristic and basis; a unit conversion alone cannot supply that match.
 * `normalization`: monotone time‑warp compensation for collector skew; invariant = percentile order
 * `comparability`: **normalization‑based (UNM)** with declared normalization
-* `aggregation`: MONO on latency (max of mins), WLNK across services
+* `aggregation`: use a max-of-mins latency fold only when the declared service model justifies it; a WLNK bound needs its own bottleneck model. Neither follows from latency percentiles alone.
 * **RSG hook**: `DeployerRole.Active` gated if **P99** < declared SLO over the admission window.
 
 #### A.19.CN:8.3 - **Clinical/episteme line** — *Trial‑outcome CN‑frame* (`Cardio_2026`)
@@ -75,7 +76,7 @@ keywords:
 * `chart`: cohort definition; `MethodDescription#TrialProtocol_v5`
 * `normalization`: case‑mix adjustment (propensity score); invariant = adjusted ΔBP
 * `comparability`: **normalization‑based (UNM)** (post‑adjustment)
-* `aggregation`: LOC on subcohorts; WLNK on safety outcomes
+* `aggregation`: recombine subcohorts only under the declared population and weighting model; select the law or supported bound for each named safety outcome under its own justified dependency model.
 * **RSG hook**: evidence-use validation of an admission requires CN‑frame acceptance; **Assurance** pulls CL from any Bridge used.
 
 #### A.19.CN:8.4 - Worked mini-schemas (entity and relation mixtures across CN-frames, informative)
@@ -155,4 +156,12 @@ _Relational stub:_
 | **CHECKLIST_REEXPRESSION** | `REEXPRESSION_ID`; `SRC_STATE_ID`; `TGT_STATE_ID`; `NORMALIZATION_INSTANCE_ID`; `BRIDGE_USE_CLAIM_REF?`; `SOURCE_EDITION`; `TARGET_EDITION`; `VALIDITY_WINDOW` |
 
 At least one enactable source state must correspond under the stated rule to an enactable target state when that is the promised refinement. The re-expression record fixes the two editions and validity window so later changes can reopen the affected alignment rather than silently changing an old checklist.
+
+#### A.19.CN:8.5 - Same basis, different holder and timing cases
+
+For this worked case, the receiving comparison cites `CN-Spec E7`, and its commissioning control requires independent certification of E7's comparison basis. Alice authored that basis. After her stewardship assignment ends, she receives a certifier assignment and examines E7. The holder condition fails: the later assignment still certifies her own basis.
+
+Bob's certifier assignment instead overlaps Alice's stewardship assignment. When Bob neither authored nor materially selected E7's basis, this local holder condition is satisfied despite the overlap. The receiver must still establish Bob's authority for E7, the required examination and any stronger organizational-independence condition from the commissioning control. Missing evidence for one of these conditions leaves that dependent certification conclusion open; different names alone do not establish it.
+
+In an ordinary comparison with no independent-certification requirement or claim, Alice may use a sufficiently supported E7 basis and publish the comparison as uncertified. If E8 later changes the compared population or normalization basis, reopen only uses and certification claims depending on that changed basis. Correcting E7's registry display while its content and evidence stay fixed does not have that effect.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.5"
-pattern_title: "Multi‑Method Dispatcher and MethodFamily Registry"
+pattern_title: "Method-Family Registry, Dispatch and Selected-Set Result Declaration"
 section_id: "G.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__012_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
+  - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:5 — Archetypal Grounding"
-line_start: 113271
-line_end: 113296
+line_start: 113591
+line_end: 113622
 dependencies:
   - "C.11"
   - "C.18"
@@ -32,6 +32,7 @@ dependencies:
   - "G.9-G.11"
   - "G.Core"
 keywords:
+  - "JointUseSet"
   - "RankedShortlist"
   - "SelectorOutcomeKind"
   - "Shortlist"
@@ -48,7 +49,7 @@ keywords:
   - "method-family registry"
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
-  - "selected-set publication"
+  - "selected-set result declaration"
   - "set-result outcome"
   - "tool choices are outside the core"
 ---
@@ -63,8 +64,8 @@ A `CG-Frame` includes multiple decision-theoretic families with different admiss
 System registers families (S1), then runs `Select` (S3) on a pinned `TaskSignatureRef`. Eligibility is tri-state; some families **receive abstain** due to missing minimal-evidence pins. Among remaining candidates, only a partial order is admissible, so the selector emits one `Shortlist` with explicit `basisPins` instead of inventing one scalar winner. No shadow acceptance logic appears in the selector; it consumes pinned acceptance and admissibility records.
 
 **Show 2 (specialist handoff; ranked result).**
-A bounded-specialization comparison keeps two method families live, but downstream handoff now requires one ordered public result rather than one merely unordered retained set.
-The admissible `G.5` result is therefore one `RankedShortlist` with explicit ordering, `ShortlistId`, and handoff-facing `nextUse`, so the result makes its ordering explicit.
+A bounded-specialization comparison keeps two method families live under a pinned admissible comparator that orders them, and downstream handoff needs that ordering.
+Declare one `RankedShortlist` with that ordering and comparator among its basis pins, `ShortlistId` when public identity is needed, and handoff-facing `nextUse`. If no admissible comparator supplies an order, retain an unordered `Shortlist`; the request for a ranked handoff does not establish one.
 
 **Show 3 (no admissible survivor; abstain or escalation).**
 In this frame, one admissibility gate and one minimal-evidence gate fail at the same time.
@@ -78,4 +79,10 @@ A training cohort needs `Core@C`, `Domain@D`, and `Local@L` together. The editio
 Keep the exact admitted Methods, row editions, and grouping basis from §0.5. In a gated variant, the matching G.4 task map makes `AC_InputConditionGate-E1` from G.4 §5 applicable to `ThresholdTrendReviewMethod-E2`. Consume that clause's value and threshold rather than define either in G.5. For the two-condition case there, the returned `fail` excludes that row from the assurance-gated set. Replacing its joint probability with minimum would wrongly retain it. An otherwise admissible row stays in the set under its own declared eligibility basis; if none survives, return the existing abstain or escalation outcome.
 
 If the dependence model is missing, use the clause's `unknown` branch rather than pass by a high F. In the ordinary, non-assurance question of §0.5, both grounded rows still form the unordered `Shortlist`. A formal proof, a limited complementary study, and an overlapping contrary result can remain separate support with their limitations; neither weak additional evidence nor the absence of an unjustified common score automatically removes a Method. A defeated necessary premise still changes the eligibility that actually relies on it.
+
+**Show 6 (one calibrated correspondence, two receiving uses).**
+
+Use G.7 §4.5's `VehicleTransportOrder` row from C.3.3 to select among independently admitted Methods for a transport review. The task's applicability comparison uses only the preserved transport/passenger order and explicitly ignores propulsion. When receiving admissibility, fresh target classification of the subject vehicles, the bounded comparison conditions and matching reliance pass, that row can support Method eligibility under the task's other rules. Keep those premises with the result.
+
+For a second task that requires battery-health evidence, the same CL^k=2 row loses the necessary EV distinction and cannot support that criterion. Return the missing battery premise through the existing unknown/abstain or evidence-request branch. Raising a scalar summary or citing a waiver does not restore that distinction. G.7 reports the correspondence; the exact TaskSignature and receiving rules decide each selection use.
 

@@ -6,12 +6,12 @@ section_id: "C.32.ACE:8"
 section_title: "Common failures and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__009_common-failures-and-repairs.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:8 — Common failures and repairs"
-line_start: 72481
-line_end: 72493
+line_start: 72700
+line_end: 72712
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -37,11 +37,14 @@ dependencies:
   - "E.23"
   - "G.5"
 keywords:
+  - "architecture fitness-function source wording"
   - "architecture-characteristic eval program"
   - "comparison input"
+  - "current-architecture evaluation"
   - "eval result"
   - "measurement boundary"
   - "missing-data policy"
+  - "monitoring"
   - "parity frame"
   - "proxy risk"
 ---

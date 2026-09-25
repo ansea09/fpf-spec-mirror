@@ -6,12 +6,12 @@ section_id: "E.17:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__011_conformance-checklist-normative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:9 — Conformance Checklist (normative)"
-line_start: 92296
-line_end: 92339
+line_start: 92689
+line_end: 92732
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -66,13 +66,13 @@ A conformance check is kept only if it changes the next bounded use of the publi
 
 | ID | Requirement | Practical test |
 | --- | --- | --- |
-| **CC-MVPK-0 (Lean conditional guard)** | A Lean face checks only features it actually carries: set or partial-order semantics for a real selection/comparison, relevant pins for numeric or plane-dependent claims, an F.9 Bridge plus bounded-use claim for a semantic crossing, and a selected `ReferencePlane` plus applicable rule for a plane-dependent value. | No absent selection, number, semantic crossing, or plane dependency creates a placeholder field or failed check. |
+| **CC-MVPK-0 (Lean conditional guard)** | A Lean face checks only features it actually carries: the comparison criteria for a bounded source contrast, declared set or order semantics for an actual selection or ordering, relevant pins for numeric or plane-dependent claims, an F.9 Bridge plus bounded-use claim for a semantic crossing, and a selected `ReferencePlane` plus applicable rule for a plane-dependent value. | No absent selection, ordering, number, semantic crossing, or plane dependency creates a placeholder field or failed check. |
 | **CC‑MVPK‑2 (Functoriality)** | `Emit_s(id)` is identity; `Emit_s(g∘f) = Emit_s(g)∘Emit_s(f)`. | Compose two cards and diff with the card of the composite. |
 | **CC-MVPK-3b (Boundary claim-set integrity)** | If a published arrow is a boundary, interface, or protocol and an A.6.B claim set exists (`L-*`, `A-*`, `D-*`, and `E-*`), then normative text on faces is traceable to that claim set (prefer claim-ID citations); faces do not become a second boundary specification. | Lint flags uncited normative clauses; faces reduce to {claim-ID citations + informative commentary}. |
 | **CC‑MVPK‑4b (Lean evidence-facing lane)** | If `AssuranceLane-Lite` is used, presence bits for current evidence or bridge references suffice; full evidence-carrier lists remain with the exact evidence source. | Presence bits are visible, and no assurance or sufficiency claim is inferred from the lane. |
 | **CC-MVPK-4c (Input and Output vs publication)** | When a morphism face exposes input/output information, it points to the signature-side declarations instead of duplicating them; it carries only source references and pins needed by the face. | The face has no second Input/Output specification and no unused presence-pin dossier. |
-| **CC-MVPK-4d (Set-returning ordering)** | Any selection or comparison on faces returns sets or declared partial orders with a **ComparatorSet** citation. | No hidden scalarization; ComparatorSetRef present. |
-| **CC‑MVPK‑4e (Signature on faces — banned)** | The term **“signature”** is **not used** on faces; use **TechName** or **PlainName**. | Token scan: no “signature” on faces. |
+| **CC-MVPK-4d (Published comparison and ordering)** | A source contrast keeps its declared comparison criteria. A published selection or ordering keeps its source-defined set or order semantics and comparator, citing **ComparatorSet** when that formal family is used. | No hidden scalarization or decision by display order; an ordinary bounded contrast needs no invented ranking or comparator family. |
+| **CC-MVPK-4e (Signature names the actual object)** | Use **Signature** on a face only for an object that is a signature under its applicable pattern. Use **TechName** or **PlainName** for the face's name. | A cited signature remains identifiable; a face label is not presented as a signature. |
 | **CC‑MVPK‑4f (Numeric and optional-PC discipline)** | Numeric or comparable claims retain the source pins that affect interpretation; when the optional PC profile is selected, its PC and CHR/CG references are explicit. | Cards show the material unit, scale, reference-plane, and edition pins; selected PC fields resolve without making PC classification a prerequisite for an ordinary face. |
 | **CC‑MVPK‑4g (No axis or dimension)** | Faces avoid “axis”, “dimension”, and “plane” metaphors except **ReferencePlane**; use CHR terms (**Characteristic**, slot, or **CharacteristicSpace**). | Lexical check flags none; only `ReferencePlane` appears. |
 | **CC‑MVPK‑4h (Edition pins on defs)** | Where maps, distances, or spaces are cited, the face pins `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `CharacteristicSpaceRef.edition?`. | Validation shows edition fields populated. |

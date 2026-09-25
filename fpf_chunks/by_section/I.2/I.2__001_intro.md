@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "I.2"
-pattern_title: "Expanded Entry Disambiguation Cases"
+pattern_title: "Choose a First Pattern: Expanded Entry Disambiguation Cases"
 section_id: "I.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "I.2 — Expanded Entry Disambiguation Cases"
+  - "I.2 — Choose a First Pattern: Expanded Entry Disambiguation Cases"
   - "I.2:intro — Intro"
-line_start: 116645
-line_end: 116676
+line_start: 116999
+line_end: 117030
 dependencies:
   - "E.10"
   - "E.11"
@@ -23,7 +23,7 @@ keywords:
   - "first entry"
 ---
 
-## I.2 - Expanded Entry Disambiguation Cases
+## I.2 - Choose a First Pattern: Expanded Entry Disambiguation Cases
 
 `I.2` is the canonical publication unit for `ExpandedEntryDisambiguationCase`
 entries in this architecture. An `I.2` item expands one compact `E.11`-distributed

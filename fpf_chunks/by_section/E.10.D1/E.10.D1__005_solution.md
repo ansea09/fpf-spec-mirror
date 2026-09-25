@@ -6,12 +6,12 @@ section_id: "E.10.D1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:4 — Solution"
-line_start: 86871
-line_end: 86916
+line_start: 87191
+line_end: 87236
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -51,7 +51,7 @@ The bounded result is the repaired statement. No additional record is part of th
 
 | Wording use | Recover this content | Next move or stop |
 | --- | --- | --- |
-| Source-local meaning | An adequate current `F.0.1` result: the exact F.17 `SchemeSenseCell <ReferenceScheme, LocalExpression, LocalSenseClaim>` and its obtaining `LocalSenseBasisRelation` to the identified basis episteme. | Reuse that result. If the source-local meaning remains unclear, apply `F.0.1`, rewrite the sentence, and return to the subject question. Open `F.1` only when source selection is live, `F.9` only when the receiving claim needs a relation between different semantic-context projections, and `F.0.2` only when several source ontologies must be compared for the receiving claim. |
+| Source-local meaning | An adequate current `F.0.1` result: the source, edition, expression, passage and plain meaning. Add an exact F.17 `SchemeSenseCell <ReferenceScheme, LocalExpression, LocalSenseClaim>` only when a named reuse, claim, receiver or relation needs its address; state a `LocalSenseBasisRelation` only when that support relation is current and obtains. | Reuse the adequate result. If the source-local meaning remains unclear, apply `F.0.1`, rewrite the sentence, and return to the subject question. Open `F.1` only when source selection is live, `F.9` only when the receiving claim needs a relation between exact local senses with different interpretation bases, and `F.0.2` only when several source ontologies must be compared for the receiving claim. |
 | DDD or model-use boundary | The direct A.1.1 `ModelApplicabilityRelation`, assigned-Work `ModelUseRelation`, or `ModelExpressionCoherenceRelation`. Select one `BoundedModelUseStructure` only when the organization of several such facts changes the engineering decision. | Stop at the direct relation when it answers the question. Select the wider structure only under A.1.1 and A.22. |
 | Claim applicability or comparison boundary | The A.2.6 `U.ClaimScope`, its admitted `U.ContextSlice` values and membership facts, effective scheme, qualification window, comparison scheme, and any direct relation needed by the claim. | State those values and predicates under their subject patterns. Do not add a generic context participant. |
 | Working situation, project use, or reader use | The named situation; intended reader; use; decision; non-use boundary; and the participants, Work, and claims whose change would alter that use or decision. `Problem frame` remains a readable pattern heading rather than a formal Context value. | Write the situation and use directly. Introduce a formal value only when a named later use needs its identity. |

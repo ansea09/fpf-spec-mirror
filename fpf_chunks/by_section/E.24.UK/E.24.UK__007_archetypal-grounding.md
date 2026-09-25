@@ -6,12 +6,12 @@ section_id: "E.24.UK:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__007_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:5 — Archetypal Grounding"
-line_start: 101645
-line_end: 101707
+line_start: 102042
+line_end: 102103
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -72,14 +72,13 @@ In each closed replay, the `E24UK-*` reference identifies the exact admission-re
 4. **Eight tests and settlement.** Governed base-structure and bounded-model-use individuals, A.22 identity and positive bounded-model-use membership witnesses, action-facing model-use needs, non-duplication, A.22 as direct locus, the relevant settlements, and by-value reliance are present. For the conditional crossing-analysis specialization, this replay settles only the same-individual-dependent membership rule and its action-facing need; it has no positive witness and no public F.17 row while the direct crossing governor is absent. A.2.6 contributes only when an applied constraint refers to an exact claim scope. That constraint, not the bare scope, membership outcome, or its representation, occupies the third discriminator.
 5. **Result and flip.** `E24UK-AR-USTRUCTURE-R12-01` records `root`; `E24UK-AR-BMUS-R12-01` records the current named `same-individual-dependent` specialization; `E24UK-AR-A22-CROSSING-RULE-R12-01` records only the conditional `same-individual-dependent` crossing-analysis rule without asserting a current member or public term. Each specialization implies `U.Structure` membership only for the same individual that satisfies its exact A.22 condition. If the four base discriminators cannot be recovered, stop at the exact description or representation. If base identity is established but one specialization condition fails, retain only the base `U.Structure`; do not repair the failure with a context label, another structure identity, holonhood, or view typing. Reopen only when the A.22 identity or specialization condition, the A.2.6 applied-scope interface, the named reliance, or the shared settlement law changes.
 
-**Identity-dependent candidate — blocked by a missing identity-dependence relation.**
+**Rejected near-miss — a separate `U.Capability` individual.**
 
-
-1. **Subject and use.** The EntityOfConcern is A.2.2's capability kind-source construct; `Pump37MaintenanceCapability_2026` would be one capability individual distinct from holder system `Pump37`. The intended use is reidentifying the capability through its holder while evidence, assignment, and work change.
-2. **Coverage.** `U.System` cannot classify the distinct capability individual, and a local kind would not replace a missing identity rule.
-3. **Membership and missing relation.** A.2.2 contains a holder-indexed tuple, but no rule for a two-place capability-to-holder identity-dependence relation, obtaining condition, or identity effect. A holder field or reference is not that relation.
-4. **Failed tests.** Stable identity, reviewable witness, and shared-settlement condition 7 fail at the same missing governor. The A.11 and A.8 tests are not run, and naming does not begin.
-5. **Result and flip.** `E24UK-BLK-U-CAPABILITY-01` is the resolvable result; there is no accepted identity-dependent admission to reconstruct. Reopen only when A.2.2 defines the exact dependence relation and its identity effect. If recovery shows only a capability assertion, evidence item, fit assessment, or record field rather than a distinct governed individual, the disposition changes to `reject`.
+1. **Subject and use.** The source construct proposes `Pump37MaintenanceCapability_2026` as an individual distinct from holder `Pump37`. Recover what planning, promise, work-fit and development uses actually need: what the pump can do under stated conditions and bounds, with the warrant required for the receiving use.
+2. **Coverage.** The holder retains `U.System` identity. An identified ability assertion uses C.2.1 `U.Episteme` identity. The proposition, its assertion, support and demand-fit result need no second capability individual; no additional local classification is needed for those uses.
+3. **Discriminating cases.** New evidence can change support without performance change. A stricter throughput demand can change fit. Calibration can change actual ability with unchanged paperwork. Loss and recovery change the qualified predicate at the stated times; replacing the holder changes the assertion's subject. None requires reidentifying a second individual.
+4. **Tests and result.** No additional classificatory distinction survives recovery, so `E24UK-NAR-U-CAPABILITY-01` records `reject`. This rejects the new kind commitment, not the reality of the holder's ability. A holder-indexed tuple cannot substitute for an independently needed subject and identity rule.
+5. **Reopening condition.** Reopen only for a concrete receiving use in which continuity of a separate object changes the answer and supplies the required identity facts, including any obtaining dependence relation and its identity effect. A new record, evidence window, ability label or local-kind declaration alone does not supply that need.
 
 **Rejected near-miss — `U.EpistemePublication`.**
 

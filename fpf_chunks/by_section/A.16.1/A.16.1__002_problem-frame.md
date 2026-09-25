@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16.1"
-pattern_title: "U.PreArticulationCuePack"
+pattern_title: "PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
 section_id: "A.16.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16.1 — U.PreArticulationCuePack"
+  - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:1 — Problem frame"
-line_start: 30966
-line_end: 30970
+line_start: 30908
+line_end: 30912
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,7 +37,7 @@ keywords:
 ---
 
 ### A.16.1:1 - Problem frame
-Some `U.Episteme` content is worth preserving before it is ready for route or prompt publication, relation or evaluative repair, an `A.6.A` invitation, method or work use, or endpoint admission. `U.PreArticulationCuePack` therefore exists as the earliest durable seam publication form for such pre-threshold cue content.
+Some `U.Episteme` content is worth preserving before it is ready for route or prompt publication, relation or evaluative repair, an `A.6.A` invitation, method or work use, or endpoint admission. `PreArticulationCuePack` therefore exists as the earliest durable seam publication form for such pre-threshold cue content.
 
 The cue pack is deliberately earlier than `RoutedCueSet`. It may carry early directional hints, but it does not yet contain a selected route, route-selection status, or route rationale.
 

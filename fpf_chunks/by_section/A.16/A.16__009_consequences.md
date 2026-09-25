@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16"
-pattern_title: "Language-State Move Coordination"
+pattern_title: "Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
 section_id: "A.16:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__009_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16 — Language-State Move Coordination"
+  - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:8 — Consequences"
-line_start: 30643
-line_end: 30650
+line_start: 30552
+line_end: 30559
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -43,22 +43,21 @@ dependencies:
   - "E.10.MOVE"
   - "E.11.PUR"
   - "E.18"
+  - "E.18.2"
   - "E.24.PUB"
   - "F.6"
 keywords:
-  - "admissible language-state move"
   - "language-state"
   - "move"
   - "reopen"
   - "respecify"
-  - "responsibility transfer"
   - "retire"
   - "sketch-backoff"
 ---
 
 ### A.16:8 - Consequences
 
-**Benefits.** Practitioners can advance or retreat without inventing maturity, Work, publication, or authority claims. The three identity cases prevent both false continuity and needless successor creation. A small note remains useful on its own, while A.16.0 and E.18 remain available when history is genuinely load-bearing.
+**Benefits.** Practitioners can advance or retreat without inventing maturity, Work, publication, or authority claims. The three identity cases prevent both false continuity and needless successor creation. A small note remains useful on its own; A.16.0 opens when history is load-bearing, while E.18 requires its independently selected transformation-flow subject.
 
 **Trade-off.** A consequential move needs explicit guards and preservation content. The mitigation is one canonical move table, one note schema, one history threshold, and one checklist rather than repeated packages.
 

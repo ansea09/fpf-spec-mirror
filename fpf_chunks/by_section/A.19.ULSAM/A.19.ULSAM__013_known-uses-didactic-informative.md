@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:11"
 section_title: "Known uses (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__013_known-uses-didactic-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:11 — Known uses (didactic, informative)"
-line_start: 36064
-line_end: 36070
+line_start: 35985
+line_end: 35991
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -32,7 +32,7 @@ keywords:
 ### A.19.ULSAM:11 - Known uses (didactic, informative)
 
 - CHR suite optional stage `fold_Γ?` (explicitly optional; never hidden).
-- Folding trust/assurance-like quantities (conservative Γ‑folds such as WLNK as declared defaults under trust policy).
+- Folding a trust/assurance quantity only under its justified model and applicable policy; a declared default alone supplies no numerical warrant.
 - Any project that requires an auditable “roll-up” measure prior to lawful comparison/selection.
 - In E.18 transformation-flow structures: ULSAM appears as a mechanism instance node whose `ΓFoldRef` / `MinimalEvidenceRef` are bound in planned baseline (P2W), while Audit records the effective pins used at run time.
 

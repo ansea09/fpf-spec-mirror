@@ -1,32 +1,25 @@
 ---
 chunk_kind: "parent"
 pattern_id: "B.5.1"
-pattern_title: "Explore → Shape → Evidence → Operate"
+pattern_title: "Coordinate Development States: Explore → Shape → Evidence → Operate"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.1.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.1 — Explore → Shape → Evidence → Operate"
-line_start: 46042
-line_end: 46100
+  - "B.5.1 — Coordinate Development States: Explore → Shape → Evidence → Operate"
+line_start: 46005
+line_end: 46063
 dependencies:
   - "B.3.3"
   - "B.4"
   - "B.5"
   - "B.5.2"
 keywords:
-  - "Evidence"
-  - "Explore"
-  - "Operate"
-  - "Shape"
-  - "development state cycle"
-  - "open-ended progression"
-  - "state machine"
 ---
 
-## B.5.1 - Explore → Shape → Evidence → Operate
+## B.5.1 - Coordinate Development States: Explore → Shape → Evidence → Operate
 
 ### B.5.1:1 - **Problem Frame**
 
@@ -79,9 +72,9 @@ This pattern operationalizes the **Principle of State Explicitness (P-9)** for d
 
 ### B.5.1:7 - **Relations**
 
-* **Uses reasoning contributions from:** `B.5 Canonical Reasoning Cycle`; `B.5.2 Abductive Loop` commonly supplies Exploration with qualified conjectures.
+* **Uses reasoning contributions from:** `B.5 Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)`; `B.5.2 Generate and Compare Candidate Explanations (Abductive Loop)` commonly supplies Exploration with qualified conjectures.
 * **Uses for claim-specific assurance:** `B.3.3 Assurance Subtypes & Levels`. Development states neither organize its levels nor establish the adequacy of a claim.
-* **Coordinates with:** `B.4 Canonical Evolution Loop`. Its evolution phases and these development states are not a one-to-one mapping.
+* **Coordinates with:** `B.4 Coordinate Repeated Adaptation (Canonical Evolution Loop)`. Its evolution phases and these development states are not a one-to-one mapping.
 
 ### B.5.1:End
 

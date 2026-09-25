@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3.5"
-pattern_title: "Working-Model Relations & Grounding (CT2R-LOG)"
+pattern_title: "Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
 section_id: "B.3.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
+  - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:intro — Intro"
-line_start: 42459
-line_end: 42475
+line_start: 42408
+line_end: 42424
 dependencies:
   - "B.3"
   - "C.13"
@@ -19,7 +19,7 @@ dependencies:
 keywords:
 ---
 
-## B.3.5 - Working-Model Relations & Grounding (CT2R-LOG)
+## B.3.5 - Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)
 > **Status:** Stable
 > **Type:** Pattern
 

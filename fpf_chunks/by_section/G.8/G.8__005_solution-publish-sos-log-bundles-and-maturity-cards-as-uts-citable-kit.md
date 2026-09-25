@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.8"
-pattern_title: "SoS‑LOG Bundles & Maturity Ladders"
+pattern_title: "Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
 section_id: "G.8:4"
 section_title: "Solution — Publish SoS‑LOG bundles and maturity cards as UTS‑citable kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__005_solution-publish-sos-log-bundles-and-maturity-cards-as-uts-citable-kit.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
+  - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:4 — Solution — Publish SoS‑LOG bundles and maturity cards as UTS‑citable kit"
-line_start: 114214
-line_end: 114408
+line_start: 114551
+line_end: 114747
 dependencies:
   - "A.10"
   - "A.21"
@@ -71,7 +71,7 @@ CorePinsRequired := {
   UTSRowId[],                    // bundle/ledger/card rows + any referenced UTS rows
   SoS‑LOGBundleRef,
   SoSLogRuleId[],
-  MethodFamilyId,
+  MethodFamilyRowRef,             // exact G.5 <MethodFamilyId, rowEdition>
   RegistrationContext,
 
   // Closed value sets (ids only; UTS-registered)
@@ -146,7 +146,7 @@ SoS-LOGBundle@Context :=
   CNSpecRef.edition,
   CGSpecRef.edition,
 
-  MethodFamilyId,
+  MethodFamilyRowRef,             // exact G.5 <MethodFamilyId, rowEdition>
   RegistrationContext,
 
   SoSLogRuleId[] ,               // ids only; semantics governed by C.23
@@ -178,7 +178,7 @@ SoS-LOGBundle@Context :=
   EmitterPolicyRef? ,
   InsertionPolicyRef? ,
   // Optional: Open-ended pins (only when those surfaces are declared)
-  GeneratorFamilyId? ,
+  GeneratorFamilyRowRef? ,       // exact G.5 <GeneratorFamilyId, rowEdition>
   EnvironmentValidityRegionId? ,
   CouplerPolicyId? ,
   TransferRulesRef.edition? ,
@@ -205,20 +205,22 @@ SoS-LOGBundle@Context :=
 * **B1 — Evidence wiring.** At packaging time the bundle SHOULD provide resolvable evidence refs (typically `A10EvidenceGraphRef?[]` and/or `EvidenceGraphId?`). At run time, admissibility outcomes SHOULD cite `PathId/PathSliceId` when available (`G.6`), so rung transitions and `degrade/abstain` traces are audit‑stable.
 * **B2 — CL/plane routing pins.** When reuse across Context or plane is asserted, the bundle/ledger MUST cite the obtaining relation and its separate bounded-use claim and reliance basis. It MUST pin the relevant Bridge/CL/Φ/Ψ/Φ_plane policy ids required for that use by `G.8:Ext.BridgeReuseWiring` (reference‑only; resolvable per `F.8:8.1`). CL and loss-policy pins are mandatory only when required by the actual calibration or separate named assurance account. Any supported penalty MUST follow that assurance policy's declared rule and respect the core penalty routing (penalties affect `R_eff` only; `F/G` invariance via `G.Core`).
 * **B3 — `PortfolioMode`/QD fields.** If the bundle/ledger exposes `PortfolioMode`/QD fields (e.g., `PortfolioMode=Archive`), it MUST pin the descriptor/distance/insertion/emitter artefacts (editions/policies as applicable). Illumination remains **report‑only** unless explicitly promoted by a `G.4` governing-pattern policy id that is pinned and recorded in the run‑time trace.
-* **B4 — Open‑ended fields.** If the bundle binds an open‑ended generator family, it MUST pin `GeneratorFamilyId` and `TransferRulesRef.edition` (and any validity region/coupler policy ids when used). Unknown transfer validity MUST be recorded as `degrade`/branching, not as an ad‑hoc fourth status.
+* **B4 — Open‑ended fields.** If the bundle binds an open‑ended generator family, it MUST pin `GeneratorFamilyRowRef` and `TransferRulesRef.edition` (and any validity region/coupler policy ids when used). Unknown transfer validity MUST be recorded as `degrade`/branching, not as an ad‑hoc fourth status.
 * **B5 — Telemetry hooks.** On any material telemetry event (illumination increase, archive insertion, probe accounting update, open‑ended coverage/regret proxy update), the emitted telemetry pins SHOULD include the controlling policy ids plus the relevant edition pins (e.g., `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `TransferRulesRef.edition`) and, when available, `PathSliceId` to keep RSCR planning auditable.
 
 #### G.8:4.4 - `AdmissibilityLedger@Context` (run‑time view; selector‑facing)
 
 A conforming ledger is a UTS‑published view (or a view‑projection of a Work/Audit artefact) with rows of the form:
 
-`⟨ MethodFamilyId, SoSLogRuleId, GuardDecision ∈ {pass|degrade|abstain}, DegradeMode?/SoSLogBranchId[]?, MaturityRungId?, AcceptanceClauseId[]?, EvidencePathRefs?, CrossingPins?, PortfolioMode?, DominanceRegime?, Edition ⟩`
+`⟨ MethodFamilyRowRef, TaskSignatureRef, SoSLogRuleId, RuleEdition, EvidenceProfileRef, ClaimScope, QualificationWindow, IntendedAdmissionUse, EligibilityVerdict, CGSpecVerdict, AcceptanceVerdictRefs?, PolicyEditionRefs[], GuardDecision ∈ {pass|degrade|abstain}, DegradeMode?/SoSLogBranchId[]?, MaturityRungId?, AcceptanceClauseId[]?, EvidencePathRefs?, CrossingPins?, PortfolioMode?, DominanceRegime?, Edition ⟩`
+
+The bundle, maturity card, and ledger bind one exact G.5 `MethodFamilyRowRef = <MethodFamilyId, rowEdition>`; an open-ended generator use also binds `GeneratorFamilyRowRef = <GeneratorFamilyId, rowEdition>`. Their own publication `Edition` does not replace either registry-row edition. Preserve the rule edition and the C.23 admission basis: evidence profile, claim scope, qualification window, intended use, consulted verdicts, and policy editions. An unresolved required reference blocks only the result that depends on it; never resolve an old result against the current row by default.
 
 Where `EvidencePathRefs` are typically `PathId[]/PathSliceId[]` when `G.6` is in use (or resolvable), and “CrossingPins” are the explicit Bridge/CL/Φ policy pins required for the stated reuse by `G.8:Ext.BridgeReuseWiring`, together with citable references to its separate bounded-use claim and reliance basis.
 
 #### G.8:4.5 - Maturity ladder as a citable poset (published card)
 
-`MethodFamily.MaturityCardDescription@Context` is published with:
+`MethodFamily.MaturityCardDescription@Context` names the exact `MethodFamilyRowRef`, evidence profile, claim scope and selected slices, qualification window, and intended admission use required by C.23. It is published with:
 
 * closed rungs (UTS‑registered identifiers),
 * `Scale kind = ordinal` and a declared `ReferencePlane`,
@@ -231,7 +233,7 @@ This card is a **description** suitable for dispatch/audit and refresh; it is no
 
 | Interface                               | Consumes                                                                                   | Produces                                                                              |
 | --------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
-| **G.8‑1 `Publish_LOGBundle`**           | `MethodFamilyId`, `SoSLogRuleId[]` (C.23), pins to Acceptance/Evidence/Crossings (as applicable) | `SoS‑LOGBundle@Context` (UTS row)                                                     |
+| **G.8‑1 `Publish_LOGBundle`**           | `MethodFamilyRowRef`, `SoSLogRuleId[]` with rule editions (C.23), pins to Acceptance/Evidence/Crossings (as applicable) | `SoS‑LOGBundle@Context` (UTS row)                                                     |
 | **G.8‑2 `Publish_AdmissibilityLedger`** | Bundle + run‑time branch outcomes + evidence path refs (when available)                    | `AdmissibilityLedger@Context` (UTS row or UTS‑citable view)                           |
 | **G.8‑3 `Publish_MaturityCard`**        | Ladder description + (optional) evidence path refs for rung transitions                    | `MaturityCardDescription@Context` (UTS row; editioned)                                |
 | **G.8‑4 `Expose_TelemetryHooks`**       | QD/OEE/archive/open‑ended telemetry signals (when declared)                                | telemetry pins for refresh (`…Ref.edition`, policy‑ids, `PathSliceId` when available) |

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.13"
-pattern_title: "Pragmatic Utility and Value Alignment"
+pattern_title: "Pragmatic Utility and Proxy-to-Value Alignment"
 section_id: "E.13:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__009_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.13 — Pragmatic Utility and Value Alignment"
+  - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:7 — Conformance Checklist"
-line_start: 89604
-line_end: 89615
+line_start: 89988
+line_end: 89999
 dependencies:
   - "A.10"
   - "A.21"

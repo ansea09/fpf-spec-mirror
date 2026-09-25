@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.6"
-pattern_title: "Unified Scope Mechanism (USM): Context Slices & Scopes"
+pattern_title: "Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
 section_id: "A.2.6:11"
 section_title: "Archetypal Grounding - Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__013_archetypal-grounding-worked-examples.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
+  - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:11 — Archetypal Grounding - Worked Examples"
-line_start: 6154
-line_end: 6227
+line_start: 6117
+line_end: 6190
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -62,13 +62,13 @@ If the receiving use merely uses another designation for the same sense under an
 #### A.2.6:11.3 - Capability: robotic weld Work scope
 
 * **Context:** `RobotCell‑Weld@2026`.
-* **Capability:** `WeldCapability` — “Weld seam W at bead width 2.5 ± 0.3 mm, cycle ≤ 12 s.”
+* **Holder and ability claim:** `WeldRobot_3`; `WeldAbilityClaim` states that this System can weld seam W at bead width 2.5 ± 0.3 mm and cycle ≤ 12 s under the conditions below.
 * **Work scope:** `{humidity<60 %, current∈[35,45]A, wire=ER70S‑6, controller=FW‑2.1}`.
 * **Job slice:** `{humidity=55 %, current=40A, wire=ER70S‑6, controller=FW‑2.1}`.
-* **Qualification policy:** in this example, `Recertification90d` considers `WeldCapability` qualified for 90 days from the certification date recorded in the controller certificate.
+* **Qualification policy:** in this example, `Recertification90d` considers reliance on `WeldAbilityClaim` qualified for 90 days from the certification date recorded in the controller certificate.
 * **Qualification evaluation time:** `2026-07-25`, outside the Work-scope tuple.
-* **Guards (WG‑1..3):** coverage **true**; measures satisfied; `qualificationWindowHolds(WeldCapability, Recertification90d, 2026-07-25)` is **true** because certification occurred on `2026-05-26`.
-* **Outcome:** capability admitted for this Work.
+* **Guards (WG‑1..3):** coverage **true**; measures satisfied; `qualificationWindowHolds(WeldAbilityClaim, Recertification90d, 2026-07-25)` is **true** because certification occurred on `2026-05-26`.
+* **Outcome:** the capability-related guards pass for this Work. Authority, assignment state and other required entry conditions remain separate.
 
 Controller certificate age does not change Work-scope membership in this case. When the 90-day qualification condition fails, WG-3 stops operational use without removing the Job slice from the scope.
 

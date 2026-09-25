@@ -6,12 +6,12 @@ section_id: "B.2.5:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__014_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:11 — Relations"
-line_start: 41897
-line_end: 41903
+line_start: 41846
+line_end: 41852
 dependencies:
   - "A.1"
   - "A.10"
@@ -24,11 +24,13 @@ dependencies:
   - "A.3.3"
   - "A.3.4"
   - "A.6.M"
+  - "A.6.RCD"
   - "B.1"
   - "B.2"
   - "B.2.P"
   - "B.3"
   - "C.13"
+  - "C.2.1"
   - "C.27"
   - "C.28"
   - "C.29"
@@ -41,7 +43,7 @@ keywords:
 
 ### B.2.5:11 - Relations
 
-- **Builds on:** `A.1`, `A.2.1`, `A.12`, `A.3.4`, `A.15.1`, `B.1`, `A.14`, and `C.13`.
+- **Builds on:** `A.6.RCD` for the compound claim and `C.2.1` for its assertion; `A.1`, `A.2.1`, `A.12`, `A.3.4`, `A.15.1`, `B.1`, `A.14`, and `C.13`.
 - **Coordinates with:** `B.2` when exact feedback facts leave a whole-reidentification question; evidence separately supports or challenges the claims about those facts.
 - **Coordinates with:** `C.30.LCA` for control-structure view, `A.3.3` for dynamics, `C.27` for temporal and rate adequacy, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` for its internal-constraint test in a transformation-flow structure, `A.21` for gate decisions, `A.6.M` for module-interface wording, and `C.29` for mathematical-lens use.
 - **Uses:** `B.2.P` when emergence or MHT wording hides the claim kind, including feedback or supervision invoked as an emergence claim. Ordinary feedback wording follows F.19/E.10 restoration and its direct subject pattern.

@@ -6,12 +6,12 @@ section_id: "E.10.D2:4.1"
 section_title: "Core recovery discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__006_core-recovery-discipline.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:4.1 — Core recovery discipline"
-line_start: 87083
-line_end: 87121
+line_start: 87403
+line_end: 87441
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -34,12 +34,15 @@ dependencies:
   - "F.9"
   - "G.11"
 keywords:
-  - "Description episteme"
-  - "DescriptionContext"
+  - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"
+  - "checkable claims"
+  - "description episteme"
+  - "harness"
+  - "publication"
+  - "representation"
   - "specification use"
-  - "testable"
-  - "verifiable"
+  - "viewpoint"
 ---
 
 ### E.10.D2:4.1 - Core recovery discipline
@@ -79,5 +82,5 @@ If a proposed dependent relation species genuinely requires one exact model-use 
 
 #### E.10.D2:4.1.5 - Episteme about an episteme
 
-When an episteme is being described, use ordinary recursion: the earlier episteme is the exact EntityOfConcern of the description episteme; the latter has its own ClaimGraph and effective ReferenceScheme. A publication, rendering, or representation of either remains separate. No mandatory context recursion, meta-description kind, or second episteme ontology is needed.
+When an episteme is described, use C.2.1's ordinary recursion. A review episteme about another episteme has that earlier episteme as its EntityOfConcern and its own ClaimGraph and effective ReferenceScheme. Self-description is also possible when the episteme's identity remains recoverable; then its EntityOfConcern designation resolves to itself. Publication and representation uses remain separately governed, and self-reference supplies no assurance by itself.
 

@@ -6,12 +6,12 @@ section_id: "E.8:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__006_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:1 — Problem frame"
-line_start: 82026
-line_end: 82032
+line_start: 82324
+line_end: 82330
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -44,7 +44,9 @@ keywords:
   - "SHALL NOT"
   - "SHOULD"
   - "SHOULD NOT"
+  - "a body-only term cannot support that search"
   - "and OPTIONAL are to be interpreted as described in RFC 2119"
+  - "and query cue for additional familiar expressions. If the intended search sees only headings"
   - "improves auditability"
   - "inside the predicate block"
   - "or other admissibility conditions of the modeled world"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.10"
-pattern_title: "Status Families Mapping: Evidence, Standard, and Requirement Status"
+pattern_title: "Apply and Interpret Evidence, Standard and Requirement Statuses"
 section_id: "F.10:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
+  - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:4 — Solution"
-line_start: 105561
-line_end: 105711
+line_start: 105981
+line_end: 106131
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -29,12 +29,16 @@ dependencies:
   - "G.11"
   - "G.6"
 keywords:
-  - "applicability windows"
-  - "evidence"
-  - "polarity"
-  - "requirement"
-  - "standard"
-  - "status"
+  - "EvidenceStatus"
+  - "RequirementStatus"
+  - "StandardStatus"
+  - "direct result"
+  - "governed target"
+  - "interpretation rule"
+  - "scope"
+  - "status families"
+  - "status value"
+  - "window"
 ---
 
 ### F.10:4 - Solution
@@ -79,7 +83,7 @@ StatusUseRelation:
   IntendedStatusUse:
   SourceClaimEpistemeRef:
   SourceRelationOrRegisterRef:
-  EvaluationWorkRef:               # when a rule is applied
+  EvaluationWorkRef:               # only when actual evaluation Work is claimed
   EvaluationRuleAndApplicationRef: # when a rule is applied
   EvaluationResultClaimRef:        # when a result is produced
   ProvenancePathRef:
@@ -103,7 +107,7 @@ Use this order:
 4. identify the C.2.1 episteme that states that result;
 5. resolve the local status expression to its exact F.17 cell and F.10 family;
 6. recover the source, edition, scheme, scope, conditions, window, provenance, and currentness required by this status use;
-7. when a rule is needed, identify dated evaluation work, enacted method, exact direct/A.6.1 application, and evaluation-result claim;
+7. recover the exact rule and any direct/A.6.1 application and evaluation-result claim needed by the use; identify dated evaluation Work and its enacted Method only when that history is current and independently admitted under A.13/A.15.1;
 8. assert the status-use relation and its C.2.1 status-assertion episteme; then separately recover publication/display and any actual later premise, decision-use, status-use, gate-use, or operation-argument relation.
 
 Status never defines or constitutes the target. A changed status may change a receiving disposition without changing target identity or the earlier domain result. Conversely, a changed target or direct result requires the status application to be re-evaluated; copying the old value is not continuation proof.
@@ -160,7 +164,7 @@ These values classify evidential standing; they do not replace the observation, 
 
 #### F.10:4.6 - Bridge and interpretation discipline
 
-Status meanings do not travel by label. When two local status senses under different ReferenceSchemes must be compared, use the actual F.9 Bridge occurrence between the exact F.17 SchemeSenseCells, with direction, bridge kind, tolerance/loss, and bounded use. Its Card or description is separate and optional; optional F.9 `CL` remains evidence-strength shorthand, not a use threshold. The Bridge makes no status-use occurrence obtain and produces no target result.
+Status meanings do not travel by label. When a comparison needs semantic correspondence between different `<ReferenceScheme, LocalSenseClaim>` projections, resolve the exact F.17 cells and test the F.9 predicate. Cite an obtaining Bridge as the semantic premise alongside the separate bounded-use claim and current A.10 or B.3 reliance needed by that use. Its Card or description is separate and optional; optional F.9 `CL` remains evidence-strength shorthand, not a use threshold. The Bridge makes no status-use occurrence obtain and produces no target result.
 
 When one status-use occurrence is used to explain or evaluate a status question of another family, scheme, or modality, recover an exact `StatusInterpretationRelation`:
 
@@ -172,11 +176,11 @@ StatusInterpretationRelation:
   InterpretationRuleRef:
   EffectiveReferenceScheme:
   ClaimScopeAndWindow:
-  BridgeRef:                    # only when local senses cross schemes
+  BridgeRef:                    # only when the use needs an obtaining F.9 semantic relation between different local-sense projections
   IntendedUse:
 ```
 
-It obtains only when the named interpretation rule admits that source occurrence for the exact target question, direction, scope, window, and use. Its occurrence identity is the exact ordered `<SourceStatusUseOccurrenceRef, TargetStatusQuestionRef, Direction, InterpretationRuleRef, ClaimScopeAndWindow, IntendedUse>` tuple; a Bridge ref is a separate qualifying premise when local senses cross schemes. A family edge, shared word, Bridge, table row, or source order is not this relation. Applying the rule is separate dated evaluation work; its result claim is separate again. Even a positive interpretation relation does not by itself produce `RequirementStatus=Satisfied`, `StandardStatus=Approved`, a gate result, permission, assurance, or actual later reliance.
+It obtains only when the named interpretation rule admits that source occurrence for the exact target question, direction, scope, window, and use. Its occurrence identity is the exact ordered `<SourceStatusUseOccurrenceRef, TargetStatusQuestionRef, Direction, InterpretationRuleRef, ClaimScopeAndWindow, IntendedUse>` tuple; a Bridge ref is a separate qualifying premise when the use needs an obtaining F.9 semantic relation between different local-sense projections. A family edge, shared word, Bridge, table row, or source order is not this relation. The rule application and its result claim remain separate. Identify dated evaluation Work only when its history is current and independently admitted under A.13/A.15.1. Even a positive interpretation relation does not by itself produce `RequirementStatus=Satisfied`, `StandardStatus=Approved`, a gate result, permission, assurance, or actual later reliance.
 
 #### F.10:4.7 - Design-run discipline
 
@@ -184,7 +188,7 @@ Keep three questions separate:
 
 * What do exact observation, measurement, proof, causal, or other input results warrant as evidence standing for this target claim and window?
 * What does an exact governing source sanction for this method description, profile, standard edition, or configuration and use?
-* What does direct requirement-evaluation work conclude about this exact clause, target, scope, conditions, and runtime/design window?
+* What does the direct requirement-evaluation result say about this exact clause, target, scope, conditions, and runtime/design window?
 
 A standard-approved method description may be admissible for selection under that profile. It does not show that the method was enacted or that a runtime clause was satisfied. Runtime evidence may become an admitted input to requirement evaluation through an exact evidence-use and status-interpretation relation. It does not approve the method, standard, gate, or release.
 

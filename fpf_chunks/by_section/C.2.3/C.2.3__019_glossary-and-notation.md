@@ -6,12 +6,12 @@ section_id: "C.2.3:18"
 section_title: "Glossary and Notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__019_glossary-and-notation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:18 — Glossary and Notation"
-line_start: 49106
-line_end: 49114
+line_start: 49249
+line_end: 49257
 dependencies:
   - "A.16"
   - "A.18"
@@ -42,6 +42,6 @@ keywords:
 - **Anchor.** A named ordinal milestone on the `F` ladder.
 - **Sub-anchor.** A context-local refinement docked to one parent anchor.
 - **Delta-`F`.** A content change that alters expression rigor.
-- **Essential support.** The support without which the central claim does not stand.
+- **Essential support for composite F.** Content or inference required by the assessed composite expression under its named compositional support relation; external evidential warrant is assessed separately.
 - **Example notation.** `F = F4`, `F = F7[HOL]`, `requires F >= F6`.
 

@@ -6,12 +6,12 @@ section_id: "A.3.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__003_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:2 — Problem"
-line_start: 9328
-line_end: 9333
+line_start: 9297
+line_end: 9302
 dependencies:
   - "A.1.1"
   - "A.10"

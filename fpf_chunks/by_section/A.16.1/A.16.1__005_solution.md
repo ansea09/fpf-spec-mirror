@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16.1"
-pattern_title: "U.PreArticulationCuePack"
+pattern_title: "PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
 section_id: "A.16.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16.1 — U.PreArticulationCuePack"
+  - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:4 — Solution"
-line_start: 30982
-line_end: 31051
+line_start: 30924
+line_end: 30993
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,13 +37,13 @@ keywords:
 ---
 
 ### A.16.1:4 - Solution
-`U.PreArticulationCuePack` is a typed publishable episteme form that serves as the earliest durable seam publication form inside the language-state cluster. It is not a claim, not a characteristic, not a method, not work, and not a route record. When rendered, it appears on an ordinary MVPK face; cue-pack status is a property of the publication form, not a rival face kind.
+`PreArticulationCuePack` is a typed publishable episteme form that serves as the earliest durable seam publication form inside the language-state cluster. It is not a claim, not a characteristic, not a method, not work, and not a route record. When rendered, it appears on an ordinary MVPK face; cue-pack status is a property of the publication form, not a rival face kind.
 
 A cue pack may exist before any route is selected and even before route-candidate hints can yet be named clearly. When route plurality or selection becomes explicit enough to publish, use `B.4.1` to state it and publish the next form as a `RoutedCueSet`.
 
-#### A.16.1:4.0a - E.24.UK settlement
+#### A.16.1:4.0a - Publication form and filled account
 
-`U.PreArticulationCuePack` is retained as a dependent durable publication-form value under the `U.Episteme` and language-state publication settlement, not as a root U-kind. Its identity is the preservable cue-pack form for pre-threshold episteme content. A cue, trace, witness, anchor, route hint, carrier, or local note does not become this value merely because it appears inside a pack.
+PreArticulationCuePack names the publication form defined here; it is not an admitted U-kind. A filled claim-bearing preservation account is an episteme only when its claim content, exact EntityOfConcern and effective ReferenceScheme satisfy C.2.1. The form, that episteme, its cue and witnesses, its carrier and any E.24.PUB publication occurrence remain distinct.
 
 #### A.16.1:4.1 - Core shape
 A conforming cue pack may publish:

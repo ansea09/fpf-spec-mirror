@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.11"
-pattern_title: "Method Quartet Harmonisation"
+pattern_title: "Distinguish Method, MethodDescription, Work and Outputs"
 section_id: "F.11:10"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__011_anti-patterns-remedies.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.11 — Method Quartet Harmonisation"
+  - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:10 — Anti-patterns & remedies"
-line_start: 105931
-line_end: 105947
+line_start: 106353
+line_end: 106369
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -52,7 +52,7 @@ keywords:
 | **A5** | Universal Actuation | Every case receives an `Actuation` box or kind. | Domain-specific outputs are forced into a false umbrella. | Use the direct control or transformation pattern and actual output kind. |
 | **A6** | Generic Bridge transfer | A Bridge is said to transfer facts between Method, description, Work, and output. | Different relation families collapse. | State MethodDescription membership, enactment, performed-Work, description-use, output, observation, or evidence claims under their own patterns. |
 | **A7** | Source-word collapse | *Task*, *activity*, and *process* are interchanged by label. | Source-local claims vanish. | Recover exact meanings; use F.9 only for an actual semantic relation. |
-| **A8** | Recipe as system role | A description is said to assign responsibility. | MethodDescription and system-role assignment collapse. | Use F.4 and F.6 for kind and assignment; A.3.2 only for description. |
+| **A8** | Recipe as system role | A description is said to assign responsibility. | MethodDescription and system-role assignment collapse. | Use A.2 for the local system-role kind and A.2.1 for the assignment; F.4 only for a separately needed kind description and F.6 only for precise performed-Work attribution. A.3.2 governs the MethodDescription. |
 | **A9** | `System-in-Role` shorthand | The acting participant is a mask-like pseudo-object. | System, kind, assignment, and Work attribution disappear. | Name those four claims separately where material. |
 | **A10** | Retroactive description | A new description version is assumed to change past Work. | Historical occurrence claims become unstable. | Keep past Work and its actual description-use evidence unchanged. |
 | **A11** | Signal-only compliance | Commands are treated as proof of outcome. | Intended influence replaces observed result. | Use observations under C.16 and evidence relations under A.10 and B.3. |

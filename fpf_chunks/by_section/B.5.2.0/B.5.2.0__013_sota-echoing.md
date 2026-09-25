@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.2.0"
-pattern_title: "U.AbductivePrompt"
+pattern_title: "Question Form for Entering Abduction (U.AbductivePrompt)"
 section_id: "B.5.2.0:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__013_sota-echoing.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.2.0 — U.AbductivePrompt"
+  - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:11 — SoTA-Echoing"
-line_start: 46527
-line_end: 46529
+line_start: 46474
+line_end: 46476
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -30,11 +30,6 @@ dependencies:
   - "C.2.LS"
   - "F.9.1"
 keywords:
-  - "abductive prompt"
-  - "explanation-ready cue"
-  - "prompt species"
-  - "rival-set discipline"
-  - "threshold crossing"
 ---
 
 ### B.5.2.0:11 - SoTA-Echoing

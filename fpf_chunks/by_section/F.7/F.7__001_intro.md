@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.7"
-pattern_title: "Concept-Set Table"
+pattern_title: "Display Source-Local Comparisons in a Concept-Set Table"
 section_id: "F.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.7 — Concept-Set Table"
+  - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:intro — Intro"
-line_start: 104048
-line_end: 104056
+line_start: 104454
+line_end: 104462
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -37,7 +37,7 @@ keywords:
   - "receiving use"
 ---
 
-## F.7 - Concept-Set Table
+## F.7 - Display Source-Local Comparisons in a Concept-Set Table
 
 **“Put exact local meanings and already established relations side by side; let the table display the argument, never create it.”**
 

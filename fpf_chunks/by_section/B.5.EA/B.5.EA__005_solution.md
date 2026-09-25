@@ -6,12 +6,12 @@ section_id: "B.5.EA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.5.EA — Articulate a Working Distinction from Experience"
   - "B.5.EA:4 — Solution"
-line_start: 43598
-line_end: 43645
+line_start: 43553
+line_end: 43602
 dependencies:
   - "B.5"
   - "B.5.4"
@@ -40,6 +40,8 @@ Try expressing the point without the word that keeps ending the explanation. A s
 Keep a productive tension long enough to unfold it. “I was invited to choose, but I could not choose” might concern incompatible options, lack of information, an unaccepted responsibility or something else. Ask the participant to describe the occasion; do not decide among these meanings from the phrase alone.
 
 First give the participant room to develop their own expression. A listener can then offer a tentative reformulation when it helps, making it easy to reject, amend or leave unfinished. If agreement merely repeats the listener's words, ask what the participant can now add or correct. Return to their words and the occasion when the suggestion prevents that contribution. Record a phrase when it prevents losing the developing point or supports another participant's use; no separate form is required for an ordinary conversation.
+
+Test a proposed interpretation or remedy on the originating episode. If following it would leave the participant's concern untouched, reopen the interpretation. Use the dialogue, document or work already available before asking the participant to supply more material. Ask for a genuinely missing fact when it could change the next move; do not make the participant prove a diagnosis that neither party has yet developed. Their correction can identify the limit of the listener's account without establishing a rival explanation. B.5.PI keeps that opening connected with inquiry into the work.
 
 #### B.5.EA:4.3 - Let concrete episodes change the candidate distinction
 

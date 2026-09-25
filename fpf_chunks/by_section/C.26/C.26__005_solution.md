@@ -6,12 +6,12 @@ section_id: "C.26:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:4 — Solution"
-line_start: 60676
-line_end: 60999
+line_start: 60852
+line_end: 61176
 dependencies:
   - "A.10"
   - "A.15"
@@ -146,10 +146,11 @@ Decision diff examples:
 | Service is healthy because latency is green. | Viability envelope is degraded by support load and promise failure. | Add envelope variables and actuators; do not greenlight based on latency alone. |
 | Summary preserves architecture state. | Summary is a coarsened shortcut with declared loss. | Use for orientation only; return to source for release or design lock. |
 
-Minimum viable QL-lite note:
+Minimum ordinary-pattern return from the QL activation test:
 
 ```text
 Ordinary patterns: C.16 + A.15.
+Disposition: no QL wording. The stated facts establish a performative metric effect; no contextual-model obstruction surviving those ordinary patterns is established.
 Claim line: exact readiness-ascription claim ReadinessAscription-4 about bearer DeliverySystem-12 under OperationsReferenceScheme; probe/model frame ReadinessPublicationFrame; comparison frame PrePostReadinessFrame; claim scope ReleaseWindow-W.
 Grounding and viewpoint: no EpistemeEmpiricalGroundingRelation is yet established; OperationsViewpointRef resolves to OperationsViewpoint-P. Admitted ReleaseEvaluationSystem-7 performs dated ReleaseAssessmentWork-7, enacts ReleaseAssessmentMethod-3, and is holder of obtaining ReleaseEvaluatorAssignment-7, a directly declared ReleaseEvaluatorSystemRoleAssignment occurrence; after A.13 performer-basis recovery and independent A.15.1 Work admission, F.6 states that the System performed the Work under that assignment.
 Mistake prevented: dashboard result would be read as passive release-readiness evidence.
@@ -158,7 +159,7 @@ Decision diff: do not use dashboard alone for release; add independent work trac
 Stop: this note locates how dashboard publication changed the work being assessed. Resolve the resulting readiness question with the applicable work and measurement Methods.
 ```
 
-This supplies the stated `QLP-0` / `QLP-1` recognition and working use. Reuse it within those assumptions. For another conclusion, identify the additional premise or comparison it needs and apply :12b; publication of the note alone requires no new assurance account.
+This completes the ordinary-pattern return: the dashboard must not be treated as a passive readiness read, and the stated facts do not yet activate QL. Reopen C.26 only if one named contextual-model obstruction survives the ordinary account and changes an admissible inference or action. Reuse adequate existing support under :12b; publication of this note alone requires no new assurance account.
 
 Use the `C.11` mini-output discipline across the cluster: finish with one choice result or governed follow-up.
 

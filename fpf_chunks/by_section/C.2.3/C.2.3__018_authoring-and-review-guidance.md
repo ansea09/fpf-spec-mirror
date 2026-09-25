@@ -6,12 +6,12 @@ section_id: "C.2.3:17"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__018_authoring-and-review-guidance.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:17 — Authoring and Review Guidance"
-line_start: 49092
-line_end: 49105
+line_start: 49235
+line_end: 49248
 dependencies:
   - "A.16"
   - "A.18"
@@ -44,7 +44,7 @@ Declare `F` honestly and early. A low `F` declaration is not a defect; it is oft
 
 #### C.2.3:17.2 - For reviewers
 
-Review the actual claim core. Ask whether the target anchor semantics are visibly satisfied, whether essential support contains segments with lower `R`, lower `F`, or missing witness coverage, and whether status or other characteristics have leaked into the `F` declaration.
+Review the assessed claim or argument and its actual expression. Check the target anchor’s observable predicates, types, semantics and proof terms, and any less-formal essential constituent of that same assessed bearer. A missing proof term required by the claimed anchor matters to F; missing external evidence or lower R is a separate warrant question. Check that status, readability and assurance have not replaced the expression test.
 
 #### C.2.3:17.3 - For integrators and assurance leads
 

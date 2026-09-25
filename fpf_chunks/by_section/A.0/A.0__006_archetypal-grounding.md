@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.0"
-pattern_title: "Onboarding Glossary (NQD & E/E‑LOG)"
+pattern_title: "Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
 section_id: "A.0:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
+  - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:5 — Archetypal Grounding"
-line_start: 1451
-line_end: 1469
+line_start: 1452
+line_end: 1470
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

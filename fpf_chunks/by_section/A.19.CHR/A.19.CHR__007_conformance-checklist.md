@@ -1,18 +1,19 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CHR"
-pattern_title: "CHRMechanismSuite"
+pattern_title: "CHRMechanismSuite: Shared Rules for Characterization and Selection"
 section_id: "A.19.CHR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__007_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.CHR — CHRMechanismSuite"
+  - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:7 — Conformance Checklist"
-line_start: 34580
-line_end: 34698
+line_start: 34473
+line_end: 34574
 dependencies:
+  - "A.15.2"
   - "A.15.3"
   - "A.19"
   - "A.19.CHR"
@@ -20,6 +21,7 @@ dependencies:
   - "A.6.1"
   - "A.6.5"
   - "A.6.7"
+  - "A.6.RCD"
   - "C.23"
   - "E.10"
   - "E.18"
@@ -48,7 +50,7 @@ keywords:
 
 ### A.19.CHR:7 - Conformance Checklist
 
-A CHR mechanism-suite publication set is conformant to **A.19.CHR** iff all applicable items below hold. Where useful, checklist items cite L/A/D/E claim IDs from **A.19.CHR:4.3.7** to reduce paraphrase drift.
+A CHR mechanism-suite publication set is conformant to **A.19.CHR** iff all applicable items below hold. Existing claim references resolve through §4.3.7.
 
 #### A.19.CHR:7.1 - Suite object checks
 
@@ -59,21 +61,19 @@ A conforming `CHRMechanismSuiteDescription` SHALL be a `MechSuiteDescription` in
 A conforming `CHRMechanismSuiteDescription` SHALL include a stable `mech_suite_id` suitable for downstream planning and `U.Work.Audit` citation.
 
 **CC‑A67CHR‑2 (Canonical membership).**
-A conforming `CHRMechanismSuiteDescription` SHALL enumerate exactly the six CHR mechanisms (UNM, UINDM, USCM, ULSAM, CPM, SelectorMechanism) as `U.Mechanism.IntensionRef`s.
+A conforming `CHRMechanismSuiteDescription` SHALL enumerate exactly the six CHR mechanisms (UNM, UINDM, USCM, ULSAM, CPM, SelectorMechanism) as `MechanismDeclarationRef`s.
 
 **CC‑A67CHR‑2a (Membership set semantics).**
 A conforming `CHRMechanismSuiteDescription.mechanisms` SHALL be duplicates-free and SHALL NOT treat order as semantic (WF‑MS‑1).
 
 **CC‑A67CHR‑2b (No dangling IntensionRefs).**
-Each `U.Mechanism.IntensionRef` enumerated in `CHRMechanismSuiteDescription.mechanisms` SHALL resolve to a canonical `U.Mechanism.Intension` publication under the designated governing pattern (draft stubs allowed; dangling refs are not). See `A.19.CHR:4.2.2`.
+Each member reference resolves to one exact declaration edition under §4.2.2, and each used operation resolves within that declaration. A stub without the contract is insufficient for use.
 
 **CC‑A67CHR‑3 (Governing spec refs are pins, not copies).**
 A conforming `CHRMechanismSuiteDescription` SHALL cite `CN‑Spec` and `CG‑Spec` as required spec refs and SHALL NOT duplicate them as “shadow specs”.
 
 **CC‑A67CHR‑3a (Planned-baseline requirement is pinned).**
-A conforming `CHRMechanismSuiteDescription` SHALL set
-`suite_spec_pins.required_planned_baseline_ref = CHRMechanismSuiteSlotFillingsPlanItem`
-so the P2W seam is enforced by the suite governing spec ref (not by ad hoc prose).
+A conforming suite cites the exact WorkPlan and baseline locator that will hold its selected editions and references. A.15.3 typed filling is conditional on independently declared positions.
 
 **CC‑A67CHR‑4 (Crossing discipline is complete).**
 A conforming `CHRMechanismSuiteDescription.suite_obligations` SHALL include, at minimum:
@@ -111,7 +111,7 @@ If any suite protocol relies on defaults (e.g., `PortfolioMode`), the suite desc
 **CC‑A67CHR‑8 (Protocol explicitness + closure).**
 If `suite_protocols` is present, a conforming `CHRMechanismSuiteDescription` SHALL:
 1) express any dependence as an explicit protocol step (no hidden invocation of UNM/UINDM/ULSAM inside score/compare/select), and
-2) satisfy WF‑MS‑2 (protocol closure): every protocol step cites a mechanism that is a member of the suite.
+2) satisfy WF‑MS‑2: every step resolves to one member declaration edition and one operation in that declaration, with no unresolved edition choice.
 
 **CC‑A67CHR‑8a (Canonical protocol is available when protocols are published).**
 If `suite_protocols` is present, a conforming `CHRMechanismSuiteDescription` SHALL include at least one protocol equivalent to:
@@ -124,38 +124,23 @@ If protocols include `publish/telemetry`, it is governed by G.10 and/or PTM; the
 
 #### A.19.CHR:7.2 - Planned baseline checks
 
-**CC‑A67CHR‑10 (Planned baseline exists on P2W paths).**
-For each P2W path slice that uses the suite, Authors SHALL provide a `CHRMechanismSuiteSlotFillingsPlanItem` in WorkPlanning.
+**CC‑A67CHR‑10 (Planned baseline exists).** Every P2W path slice using the suite has an A.15.2 WorkPlan baseline with the selected suite and member declaration editions.
 
-**CC‑A67CHR‑10a (Correct slot-bearing description).**
-A conforming `CHRMechanismSuiteSlotFillingsPlanItem` SHALL set `target_slot_bearing_description_ref = CHRMechanismSuiteDescriptionRef` (edition-addressable when used as a reproducibility baseline).
+**CC‑A67CHR‑10a (Typed filling has its governor).** Use a `CHRMechanismSuiteSlotFillingsPlanItem` only when A.15.3 applies to an independently declared operation argument or relation position. Cite that declaration and position; a suite field is insufficient.
 
-**CC‑A67CHR‑11 (Plan item is baseline, not execution).**
-The plan item contains planned fillers and pins only; it does not contain launch values, execution witnesses, gate decisions, or logs.
+**CC‑A67CHR‑11 (Plan and enactment).** Planned references and values establish no actual binding, launch value, execution witness or gate decision.
 
-**CC‑A67CHR‑11a (Minimum P2W context anchors).**
-A conforming `CHRMechanismSuiteSlotFillingsPlanItem` SHALL include, at minimum:
-`described_entity_ref`, `bounded_context_ref`, `cg_frame_ref`, `path_slice_id`, `publication_scope_id`, and an explicit time selector (`Γ_time_selector` ByValue or `Γ_time_rule_ref` ByRef),
-and SHALL either include `reference_plane` or make it unambiguously derivable from the cited bounded-context reference and related context records.
+**CC‑A67CHR‑11a (Use anchors).** Recover the described entity, bounded context, CG-frame, path slice, publication scope, reference plane when current, and explicit time rule needed for the declared use.
 
-**CC‑A67CHR‑11b (Planned guard pins and guard governing-pattern assignment).**
-If `expected_usm_guard_pins` is present in a `CHRMechanismSuiteSlotFillingsPlanItem`, it SHALL satisfy
-`expected_usm_guard_pins ⊆ {USM.CompareGuard, USM.LaunchGuard}`.
-If `expected_usm_guard_pins` is present and non-empty, the plan item SHALL also pin (or make unambiguously derivable) `guard_owner_gate_ref` required for later aggregation of `GuardFail` events (per the A.15.3 guard-governing pattern rule).
+**CC‑A67CHR‑11b (Expected guards).** Expected guard pins belong to `{USM.CompareGuard, USM.LaunchGuard}` and name the responsible gate when later event aggregation requires it.
 
-**CC‑A67CHR‑11c (Planned spec pins are present).**
-A conforming `CHRMechanismSuiteSlotFillingsPlanItem` SHALL include planned fillings (refs/pins; no copied content) for, at minimum, SlotKinds `CNSpecSlot` and `CGSpecSlot` (filled by edition‑pinned `CNSpecRef` / `CGSpecRef` where required by the chosen protocol).
+**CC‑A67CHR‑11c (Spec baseline).** The baseline cites CN-Spec and CG-Spec and their selected editions. Cite the independently declared position separately when either reference is also used as a typed planned argument filling.
 
-**CC‑A67CHR‑12 (Edition/time explicitness).**
-The plan item includes explicit time selector/rule (no implicit “latest”) and includes edition pins where the protocol is edition‑sensitive.
-Edition pins MAY be carried via edition-addressable refs in `planned_fillings` and/or via per-row `SlotFillingRow.edition_pin` (A.15.3 edition-pin rule); they MUST remain pins and anchors, not copied content.
+**CC‑A67CHR‑12 (Exact edition resolution).** Each used declaration and operation has one governing edition. Multiple applicable editions require a selection condition before use; a source list or implicit latest does not resolve them.
 
-**CC‑A67CHR‑13 (Crossing pins are refs-only).**
-Expected crossings are expressed via Bridge/policy refs and ReferencePlane pins; no embedded CL/Φ tables.
-If expected crossings are listed, `expected_crossing_bundle_refs` SHOULD be provided (or be unambiguously derivable) so crossing visibility has an explicit audit anchor.
+**CC‑A67CHR‑13 (Applicable crossing references).** Expected crossings cite only the relations, policies and bundle anchors their governing rules require; the baseline embeds no CL/Φ tables.
 
-**CC‑A67CHR‑14 (Audit traceability).**
-The plan item is citeable from downstream `U.Work.Audit` as the planned baseline, and deviations (retarget/substitute/assign/update) require a variance trace.
+**CC‑A67CHR‑14 (Audit traceability).** Later Work audit can cite the exact WorkPlan and baseline locator and distinguish actual bindings or deviations from planned values.
 
 #### A.19.CHR:7.3 - MVPK face checks (when projected)
 
@@ -163,5 +148,5 @@ The plan item is citeable from downstream `U.Work.Audit` as the planned baseline
 Any `TechCard(…)` / `PlainView(…)` projection of the plan item does not introduce new assertions beyond the plan item.
 
 **CC‑A67CHR‑16 (Fail-closed pins on claimful faces).**
-If a face publishes edition pins or claims comparability/launch, it MUST also publish the required BridgeCard + UTS row anchors and the appropriate USM guard pin with `GuardOwnerGateSlot`; otherwise, it is nonconformant (fail‑closed).
+If a face publishes an edition reference, retain that exact reference. For a comparability or launch claim, also publish every anchor required by the relations, receiving policy and gate actually used; a gate-owned USM pin retains its `GuardOwnerGateSlot`. Missing a required anchor makes that claim nonconformant. A note that only pins a new declaration edition needs no invented BridgeCard, UTS crossing row, CrossingBundle or gate event.
 

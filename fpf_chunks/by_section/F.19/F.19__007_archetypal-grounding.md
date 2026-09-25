@@ -6,12 +6,12 @@ section_id: "F.19:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__007_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:5 — Archetypal Grounding"
-line_start: 109760
-line_end: 109795
+line_start: 110177
+line_end: 110212
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -39,15 +39,15 @@ These cases show repairs and situations in which ordinary wording should remain.
 
 | Case | Before | Repair or disposition |
 |---|---|---|
-| Pattern use, ordinary | "`A.15` handles the work-planning claim." | "Use `A.15` to plan the work." |
+| Pattern use, ordinary | "`A.15` handles the work-planning claim." | Retain ordinary pattern-use wording when its meaning is clear. If the claim specifically concerns a WorkPlan, cite `A.15.2`; no dated Work trace is needed merely to state which pattern governs that claim. |
 | Pattern use, identity-bearing | "The pattern performed the planning." | "Engineer E performed planning Work W. Point to W's basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution; use `A.3.2` only if a named episteme describes the enacted Method." |
 | Pattern and relation, ordinary | "The governing relation is `C.29`." | "Use `C.29` to test whether the mathematical lens is admissible for this task." |
 | Pattern and relation, identity-bearing | "`C.29` says so." | "If a comparison depends on the rule edition, cite the claim-bearing episteme and `ClaimGraph` that contain the admissibility rule." |
 | Pattern-text purpose | "Pattern text must not contain corpus projection evidence." | "A pattern must not contain projection evidence about itself." |
 | Evaluation scope | "The evaluation has pre-landing host-set use." | "This is a host-only evaluation; corpus-entry values need corpus-projection evidence." |
 | Unsupported negative classification | "This Guide is not a seminar, not a transcript, but a learning route." No seminar-or-transcript confusion has been established. | "This Guide teaches the seminar's subject through explanations, examples, exercises, and checks." |
-| Role-shaped label | "The platform owns scale." | "This scale compares platform and non-platform alternatives." |
-| Publication and evidence mix | "The dashboard is the evidence gate." | "The dashboard presents evidence. Use `A.10` for the evidence claim and `A.21` for any gate decision." |
+| Ambiguous scale claim | "The platform owns scale." | Recover what *scale* denotes and which ownership, responsibility or comparison claim is intended. If the source establishes a comparison measure, name that measure and its alternatives; otherwise keep the missing meaning explicit. Do not invent platform-versus-non-platform comparison from this sentence alone. |
+| Publication and evidence mix | "The dashboard is the evidence gate." | "The dashboard presents the evidence. Recover the evidence-use claim under its direct subject rule; use `A.10` for its descriptive provenance and bounded reliance, and `A.21` for a separately current gate decision." |
 | Comparison, carrier, and publication mix | "E.4.PFIP preserves expression, carrier, and publication." | "The framework maintainer compares the predecessor and candidate publication expressions for the declared use. Use `E.10:0.2c.17` to separate the expression comparison from carrier-bearing and publication-occurrence claims." |
 | Operational-detail loss | "Rewrite 'Boil for five minutes after simmer begins' as 'Cook until ready'." | "Reject the rewrite. It keeps a broad cooking action but loses the five-minute duration, start condition, and usable stop criterion." |
 | Invented foil | “The concluding practical result is not a final scheme of the world, but the ability to problematize again.” | No live world-scheme reading is grounded. Write: “The concluding practical result is the ability to problematize again.” |

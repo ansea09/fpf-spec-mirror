@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.7"
-pattern_title: "MechSuiteDescription — Description of a set of distinct mechanisms"
+pattern_title: "MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
 section_id: "A.6.7:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__012_sota-echoing.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
+  - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:11 — SoTA-Echoing"
-line_start: 22028
-line_end: 22033
+line_start: 21900
+line_end: 21909
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -24,7 +24,7 @@ dependencies:
   - "E.8"
   - "G.10"
   - "G.5"
-  - "U.Mechanism.Intension"
+  - "U.Mechanism"
 keywords:
   - "CG-Spec"
   - "CN-Spec"
@@ -39,7 +39,11 @@ keywords:
 
 ### A.6.7:11 - SoTA-Echoing
 
-Separating **governing spec refs** from **operators**, declaring composition protocols, and keeping **decision procedures** distinct from **gating/acceptance control** make the requirements of each part visible.
+**Question and selected answer.** How can a practitioner reuse several operation contracts under one set of conditions without selecting an implementation prematurely? For this question, **adapt** the explicit process-reference, input/output and requirement separation in [CWL Workflow v1.2.1, §3.3 and §4.3](https://www.commonwl.org/v1.2/Workflow.html#WorkflowStep). Its [abstract Operation](https://www.commonwl.org/v1.2/Workflow.html#Operation) describes inputs and outputs before binding a concrete process. This is the best-known-line candidate for declaration-first composition here; it does not establish FPF admissibility or operation identity.
 
-Use this separation to describe multi-step evaluation pipelines, such as calibrated scoring, uncertainty-aware comparison, Pareto / selected-set selection, and quality-diversity archives. `MechSuiteDescription` describes their shared obligations while keeping domain methods and FPF pattern generators outside the universal core.
+**Serious alternative.** A pinned executable pipeline is preferable when the task is already to fit and run compatible estimators. [scikit-learn 1.9.1 Pipeline, `steps`](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) exposes named estimator steps; each has fit, and intermediate steps have transform. It is a substantive composition alternative, not evidence that every characterization contract should have that interface.
+
+For OfferChoice, compare both approaches with the same two contracts, four operation uses and four specification references. **Adopt** explicit member/operation resolution and one common specification baseline; **reject** the shortcut of identifying these contracts only by stage names or selected realizers. An executable pipeline could carry the same facts through adapters and metadata, but those additions still need their declarations and checks. The suite keeps them inspectable before an implementation exists. The deliberate cost is another reference layer; it offers no execution or performance advantage. Once executable estimators and their composition fully answer the question, use that pipeline and do not add a suite merely for documentation.
+
+This choice is expressed in §4.1's exact declaration/edition resolution, §4.4's separate protocol and the filled §4.6 case: a returned comparison binding supplies selection, and absent evidence stops the chain. The architectural comparison is a local inference from the stated use and these primary specifications, not a measured productivity result or a claim that either source defines FPF. Reopen it if a receiving use needs only one already complete executable pipeline, if an additional reference layer hides a required condition, or if a rival represents the same distinct contracts and joint conditions with less total reader work.
 

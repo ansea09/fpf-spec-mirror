@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.11"
-pattern_title: "Telemetry-Driven Refresh and Decay Orchestrator"
+pattern_title: "Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
 section_id: "G.11:End"
 section_title: "G.11:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__015_g-11-end.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
+  - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:End — G.11:End"
-line_start: 116031
-line_end: 116032
+line_start: 116385
+line_end: 116386
 dependencies:
   - "A.6.RCD"
   - "B.3.4"

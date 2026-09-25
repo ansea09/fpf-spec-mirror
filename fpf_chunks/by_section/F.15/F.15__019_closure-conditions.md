@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.15"
-pattern_title: "Static and Regression Conformance Harness for Unification"
+pattern_title: "Static and Regression Conformance Harness for Naming and Semantic Unification"
 section_id: "F.15:15"
 section_title: "Closure conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__019_closure-conditions.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.15 — Static and Regression Conformance Harness for Unification"
+  - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:15 — Closure conditions"
-line_start: 107330
-line_end: 107344
+line_start: 107740
+line_end: 107754
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,6 @@ dependencies:
   - "E.10.D2"
   - "E.17"
   - "E.24.PUB"
-  - "F.1-F.14"
   - "F.10"
   - "F.13"
   - "F.14"
@@ -42,11 +41,17 @@ dependencies:
   - "F.9"
   - "G.11"
 keywords:
-  - "SenseCell testing"
-  - "acceptance tests"
-  - "regression tests"
-  - "static checks"
-  - "validation"
+  - "Bridge"
+  - "NameCard"
+  - "RSCR"
+  - "SCR"
+  - "SchemeSenseCell"
+  - "UnifiedTermRow"
+  - "exact versions"
+  - "finite naming slice"
+  - "regression"
+  - "result reuse"
+  - "static conformance"
 ---
 
 ### F.15:15 - Closure conditions
@@ -54,9 +59,9 @@ keywords:
 A finite slice is locally admissible for its named receiving use only when:
 
 1. every scope member and exact version resolves under its identity rule and PatternID locator;
-2. every triggered static rule has one exact current C.2.1 result claim;
-3. every changed member has an exact prior/later pair and RSCR result naming continuity/change, losses, evidence, and use;
-4. every failed subject claim is re-evaluated under its defining or testing rule before reuse;
+2. every triggered static rule has an exact current C.2.1 `pass` result for the named receiving use; a `fail` or `undetermined` result leaves the affected use unadmitted;
+3. every changed member has an exact prior/later pair and a current passing RSCR result supporting the stated continuity/change, admitted losses and receiving use;
+4. every failed subject claim needed by the use is repaired and re-evaluated under its defining or testing rule, and the affected F.15 rule then passes before reuse;
 5. witness refs and any relied-on A.10/B.3 path are current for the exact result and use, without becoming the result;
 6. the optional record cites, but does not replace, applications/work, result claims, evidence, Bridge occurrences, descriptions, publication, or currentness;
 7. tempting non-admitted uses—system-role assignment, performed work, source or publication authority, status transfer, evidence use, equivalence, assurance, gate passage, and authorization—are explicit; and

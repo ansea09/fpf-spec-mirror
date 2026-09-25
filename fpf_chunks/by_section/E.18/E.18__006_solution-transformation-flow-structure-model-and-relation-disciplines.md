@@ -6,12 +6,12 @@ section_id: "E.18:5"
 section_title: "Solution - Transformation-flow structure model and relation disciplines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__006_solution-transformation-flow-structure-model-and-relation-disciplines.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:5 — Solution - Transformation-flow structure model and relation disciplines"
-line_start: 94766
-line_end: 95032
+line_start: 95167
+line_end: 95433
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -71,7 +71,7 @@ with:
   - `StructuralReinterpretation` is only the E.18 position of an independently identified A.6.4 arrow r, bounded-use assertion q, and current-case judgement; it is not a new retargeting kind. E.18 records r and q, the exact case basis and judgement result needed by this placement, and path-slice locality. q's ClaimGraph carries the invariant, visible loss, named receiving use, conditions, and affirmative or negative polarity; the judgement separately reports `satisfies`, `fails`, or `cannot decide`. A `cannot decide` result names the exact missing fact and reopen condition. F.9 is additional only when the same case asserts a semantic relation between two exact F.17 local senses and its predicate obtains; its bounded-use claim, optional `CL`, evidence, and reliance remain separate.
 `OperationalGate` is the E.18 check locus when a gate or check position is present. A.20 supplies an exact internal-constraint result when that claim is current. When a gate decision is current, A.21 supplies the exact profile application, independently identified check-application results, `GateDecisionResult`, and rationale. A `DecisionLog` is added only for a current audit, history, replay, or reuse need.
   E.18 adds only a structure-local placement rule: when r, an affirmative q, and a current-case judgement of `satisfies` are current and `CtxState` is unchanged, record their basis and `PathSliceId` without calling the placement a GateCrossing. If any `CtxState` binding changes, use a GateCrossing and state the changed binding's from/to values, establishing basis, and any applicable declaration, rule, and current application. A Bridge, card, UTS row, optional `CL`, witness publication, gate decision, or permission claim neither identifies r nor supplies q's polarity or the case judgement.
-> **MVPK integration (import).** Every locus with an external publication face is published via **MVPK** faces (`PlainView`, `TechCard`, `AssuranceLane`, `InteropCard`) under a declared **PublicationScope** (E.17). E.18 **reuses** MVPK's publication rules (pins, declared-order discipline, "no new numeric claims and no re-listing of inputs and outputs") and only adds structure-scope constraints in S3 and **CC-E18-09 and CC-E18-10**; it does **not** define a second, local publication semantics.
+> **MVPK integration (import).** Every locus with an external publication face is published via **MVPK** faces (`PlainView`, `TechCard`, `AssuranceLane`, `InteropCard`) under a declared **PublicationScope** (E.17). E.18 reuses MVPK's source-reference, pin, declared-order, and no-new-claim rules. Input/output non-duplication and functorial publication apply within E.17's optional morphism profile. E.18 adds the structure-scope constraints in S3 and **CC-E18-09 and CC-E18-10**; it does not define a second publication semantics.
 
 **GateCrossing (normative)**
 

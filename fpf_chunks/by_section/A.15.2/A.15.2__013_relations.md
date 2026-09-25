@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.2"
-pattern_title: "U.WorkPlan"
+pattern_title: "U.WorkPlan: Plan Content for Coordinating Future Work"
 section_id: "A.15.2:7e"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__013_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.15.2 — U.WorkPlan"
+  - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:7e — Relations"
-line_start: 27467
-line_end: 27472
+line_start: 27356
+line_end: 27361
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 
 ### A.15.2:7e - Relations
 
-* **Builds on:** C.2.1 for episteme identity and local assertion identity; `A.15` for System-Role-Method-Work alignment; `A.15.1` for independently identified performed Work occurrences admitted under `U.Work`; A.2.1 for direct `U.SystemRoleAssignment` species; A.2.2 for capability instances, thresholds, and fit conditions; A.3.1 for `U.Method`; and A.3.2 for `U.MethodDescription`.
+* **Builds on:** C.2.1 for episteme identity and local assertion identity; `A.15` for System-Role-Method-Work alignment; `A.15.1` for independently identified performed Work occurrences admitted under `U.Work`; A.2.1 for direct `U.SystemRoleAssignment` species; A.2.2 for qualified holder-ability claims, thresholds and fit conditions; A.3.1 for `U.Method`; and A.3.2 for `U.MethodDescription`.
 * **Coordinates with:** A.15.3 for planned filling against exact governed declarations; A.6.1 for operation argument and result declarations; A.6.5 for RelationSignature participant declarations; A.6.RCD for the existing-direct/local-compound/reusable-predicate/relation-kind economy; E.24/E.24.UK for any later kind admission; A.6.REL only after an admitted direct or derived relation needs occurrence discipline; A.15.4 for work-relevant appearance-based reliance repair; A.15.5 for work-entry readiness; C.27.TA for direct temporal-aspect claims; B.1.4 for temporal aggregation; B.1.6 for performed-resource aggregation; A.10 for accounts of independently established evidence-provenance relations; B.3 for assurance; A.20 for internal constraint results and A.21 for gate decisions; C.32.P2S for architecturing-flow references to intended work; E.17 for publication-use questions; and F.9 only for exact cross-context `SchemeSenseCell` correspondence, with any proposed use and reliance routed through checklist item 7.
 * **Used by:** P2W carry-through when principle-to-work reasoning reaches WorkPlanning, and P2S carry-through when architecture-selected structures require intended-work epistemes. Both uses keep present plan subject, possible future performance, readiness, performed Work, actual use, evidence, gate, comparison, result, and downstream effect separately governed.
 

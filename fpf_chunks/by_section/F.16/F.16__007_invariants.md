@@ -6,12 +6,12 @@ section_id: "F.16:6"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__007_invariants.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:6 — Invariants"
-line_start: 107467
-line_end: 107478
+line_start: 107877
+line_end: 107888
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 4. **Optional aids.** F.17 cells and F.7 tables appear only when they reduce reader effort and remain evidentially inert.
 5. **Source precision.** Source and edition and the effective scheme are explicit where wording or interpretation changes the claim.
 6. **Temporal honesty.** MethodDescription, Work, observation, and output remain distinct; windows are stated when they change the result.
-7. **Agency precision.** When a system-role claim matters, name the local system-role kind, actual System, obtaining assignment, and performed-Work attribution as applicable.
+7. **Agency precision.** Every asserted dated Work uses the performer's recovered A.13 core and independent A.15.1 admission. The core includes its obtaining assignment; add F.6 only when the worked claim needs precise assignment-bound attribution. Recover a separately needed local-kind or description claim under its own rule.
 8. **Evidence, evaluation, and boundary.** The page shows why the claim is supported; when evaluation occurs, it keeps evaluation Work, operation result, declared scale, EvidenceStatus, RequirementStatus, and optional verdict episteme distinct; and it states what none of them establishes.
 9. **Didactic parsimony.** Every item changes the worked answer; optional machinery is omitted when it does not.
 

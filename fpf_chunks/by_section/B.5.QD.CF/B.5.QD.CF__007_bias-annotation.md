@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__007_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:6 — Bias-Annotation"
-line_start: 45983
-line_end: 45988
+line_start: 45946
+line_end: 45951
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"

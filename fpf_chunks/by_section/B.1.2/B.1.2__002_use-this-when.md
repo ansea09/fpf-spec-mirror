@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.2"
-pattern_title: "System Aggregation and Holon Delimitation"
+pattern_title: "Coordinate Decisions About System Aggregation and Delimitation"
 section_id: "B.1.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__002_use-this-when.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.1.2 — System Aggregation and Holon Delimitation"
+  - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:0 — Use This When"
-line_start: 38774
-line_end: 38801
+line_start: 38711
+line_end: 38738
 dependencies:
   - "A.1"
   - "A.10"
@@ -61,8 +61,8 @@ Typical moments:
 - If the exact entity has not yet been evaluated under the already admitted `U.System` kind, use `A.1`; do not promote the proposal into a durable kind-like label.
 - If one exact part-whole relation is the question, use `A.14` and its direct specialization.
 - If constructive assembly grounding is the question, use `C.13`.
-- If functional behavior or a functional element is the question, use `A.6.F` and the exact architecture structural-view pattern.
-- If module or bearer allocation is the question, use `A.6.M` and the exact architecture or part-relation pattern.
+- If the question is a functional claim, use its direct behavior or realization predicate; use `A.6.F` when the function wording is unresolved and `C.30.ASV` when architecture-view conformance is needed.
+- If bearer allocation or parthood is the question, use the direct allocation or part-relation pattern; use `A.6.M` only when module or interface wording needs repair.
 - If a mathematical aggregation lens is the question, use `C.29`.
 - If the question is project system-of-interest designation, system-role assignment, Work, transformation, service or access, evidence, description, or publication, use that subject pattern; B.1.2 neither identifies nor defines those relations.
 

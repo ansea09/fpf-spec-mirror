@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.MOVE"
-pattern_title: "Move and Readiness Wording Precision Restoration"
+pattern_title: "Move, Readiness and Trajectory Wording Precision Restoration"
 section_id: "E.10.MOVE:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__006_archetypal-grounding-worked-slices.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
+  - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:5 — Archetypal Grounding - Worked Slices"
-line_start: 86021
-line_end: 86103
+line_start: 86341
+line_end: 86423
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -57,7 +57,7 @@ keywords:
 
 Source sentence: "The next mantra move is to compare the two patterns."
 
-Keep `mantra move` only when the sentence presents one E.11.PUA practice-continuation description inside a named post-qualification demonstrative slice. The description states its proposed use, expected result and kind, direct PatternID and name, current condition, and continuation disposition. That PatternID locates the applicable pattern. If the pattern choice is unresolved, the description may point to a separate nested selection question.
+For the post-qualification demonstrative case, recover one E.11.PUA practice-continuation description inside a named post-qualification demonstrative slice. The description states its proposed use, expected result and kind, direct PatternID and name, current condition, and continuation disposition. That PatternID locates the applicable pattern. If the pattern choice is unresolved, the description may point to a separate nested selection question.
 
 Selected fields of an optional note; include `BlockedOverread` only for an observed or independently grounded misreading:
 
@@ -104,7 +104,7 @@ For example, if the surrounding text identifies an admitted MethodDescription fo
 
 Source sentence: "Follow the evidence path to approval."
 
-Recover the evidence or provenance relation under A.10. Identify separately the decision meant by *approval*: an applicable gate decision is governed by A.21; any authorization or commitment uses the pattern governing that exact relation.
+Use A.10 to recover the selected claim, exact sources, independently established evidence or provenance relations, currentness and bounded reliance. Identify separately the decision meant by *approval*: A.21 governs an applicable gate result; any authorization or commitment uses the pattern governing that exact relation.
 
 #### E.10.MOVE:5.7 - Manufacturing operation
 
@@ -122,7 +122,7 @@ When `ready` hides a patient-state claim, use A.19.SPR to recover the patient as
 
 Initial sentence: "The next mantra move is: name the thing."
 
-An initial repair classified the phrase as `boundedDemonstratedContinuation`. Inspection then shows that the enclosing text is A.6.P's local RPR mantra: a short rendering of the A.6.P Solution. It has no qualifying wider `ConstraintGovernedUnfoldingStructure@Context`, no post-qualification `DemonstrativeUnfoldingSlice@Context`, and no E.11.PUA practice-continuation description with the required proposed use, expected result, pattern, condition, and disposition.
+An initial repair classified the phrase as `boundedDemonstratedContinuation`. Inspection then shows that the enclosing text is A.6.P's local RPR mantra: a short rendering of the A.6.P Solution. It has no qualifying wider `ConstraintGovernedUnfoldingStructure@Context`, no post-qualification slice of an independently qualified CGUS, and no E.11.PUA practice-continuation description with the required proposed use, expected result, pattern, condition, and disposition.
 
 That evidence overturns the initial disposition. Remove the demonstrated-continuation claim, retain the local RPR mantra as Plain didactic wording, use the A.6.P Solution and its direct relation-recovery guidance, and write: "Apply the first clause of the local RPR mantra: name the thing; then recover the relation or comparison." The `A.6.P` locator and Solution establish neither a `U.Method` nor a `U.MethodDescription`. Establish a separate `U.Method`, a qualifying `U.MethodDescription` episteme, and any Method-use relation only if A.3.1 and A.3.2 independently admit them and the receiving claim depends on those identities. Reopen the demonstrative-slice question only if a later qualified structure and slice actually show a complete E.11.PUA practice-continuation description.
 
@@ -130,7 +130,7 @@ That evidence overturns the initial disposition. Remove the demonstrated-continu
 
 Constructed wording for repair: `Our architecture follows a trajectory under changing constraints.`
 
-Read the sentence through `F.19` first. If it means only that the team expects to revise the architecture as constraints change, state that proposed action directly. When an FPF inference relies on the trajectory claim, recover the exact architecture or system subject, the changing constraints and reference window, whether the sentence concerns actual architecture editions, a proposed evolution policy, or a modelled sequence, and the direct architecture, transformation, or model owner. For a C.29 curve or ordered rendering, name its correspondence to the architecture and the losses allowed by that use; establish transformation and evidence claims under their direct owners.
+Read the sentence through `F.19` first. If it means only that the team expects to revise the architecture as constraints change, state that proposed action directly. When an FPF inference relies on the trajectory claim, recover the exact architecture or system subject, the changing constraints and reference window, whether the sentence concerns actual changes to the architecture, editions of its description, a proposed evolution policy, or a modelled sequence, and the direct architecture, transformation, or model owner. For a C.29 curve or ordered rendering, name its correspondence to the architecture and the losses allowed by that use; establish transformation and evidence claims under their direct owners.
 
 Overlap example: `The development trajectory improved.` Start with `E.10.DEV` to recover the developed subject and the basis of *improved*. Open this branch only when a separately relied-on ordered path, model, plan, or representation remains. Stop when the recovered direct claim answers the question.
 

@@ -6,12 +6,12 @@ section_id: "F.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:4 — Solution"
-line_start: 108743
-line_end: 109181
+line_start: 109173
+line_end: 109611
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -403,7 +403,7 @@ Keep *demonstrative walkthrough* as ordinary readable wording when a sentence al
 If a later use needs stable citation of one exact slice, first recover that C.2.1 episteme from its claim content, the qualified CGUS it concerns, and its effective scheme. Then make one NameCard only if durable naming is useful. Add another card and a Bridge only if a second exact scheme-and-sense projection materially changes interpretation and one named correspondence use is current. Availability remains a separate E.24.PUB operation. `mantra move` stays E.10.MOVE Plain wording for a shown E.11.PUA continuation description; it is not a durable value or a second scheme.
 
 #### F.18:4.2d - Pending R7 rule-content NameCard candidates
-The following are candidate inputs, not current `NameCard` epistemes. Each uses the exact by-value `FPFCoreReferenceScheme`, keeps the governed `U.NameToken` separate from the R7 predicate or designation value it names, and creates no Bridge because the current comparison is within one scheme. E.10's exact TokenClass, reserved-name, and allowed-scope prerequisites remain unresolved, so `PublicRowStatus = pending` for all three and no `UnifiedTermRowRef` exists.
+The following are candidate inputs, not current `NameCard` epistemes. Each uses the exact by-value `FPFCoreReferenceScheme`, keeps the governed `U.NameToken` separate from the R7 predicate or designation value it names, and asserts no Bridge because it makes no current semantic-correspondence claim. E.10's exact TokenClass, reserved-name, and allowed-scope prerequisites remain unresolved, so `PublicRowStatus = pending` for all three and no `UnifiedTermRowRef` exists.
 
 | Candidate expression | Exact local sense and governed value | Covered head families and rejected overread | Three-arena invariance | Reopen/close condition |
 | --- | --- | --- | --- | --- |
@@ -445,7 +445,7 @@ One `FPFCoreReferenceScheme` cell is sufficient, so this settlement adds no F.9 
 
 #### F.18:4.3 - Candidate Selection
 
-Do not pick a durable label in one stroke or work toward a fixed candidate count. Build the smallest set that covers at least two live head-term families and every plausible neighbouring-object reading that could change the decision. Stop when each live family has a representative and no untested plausible alternative could overturn the selection. If a deadline forces closure while a plausible family or alternative remains untested, record that exception in `CandidateCoverage` and make it part of `RefreshCondition`.
+Do not pick a durable label in one stroke or work toward a fixed candidate count. Unless a cited external standard fixes the label under §4.1, build the smallest set that covers at least two live head-term families. In either branch, examine every plausible neighbouring-object reading that could change the decision. Stop when each live family has a representative and no untested plausible alternative could overturn the selection. If a deadline forces closure while a plausible family or alternative remains untested, record that exception in `CandidateCoverage` and make it part of `RefreshCondition`.
 
 Judge candidates on:
 
@@ -478,7 +478,7 @@ Open this branch only when one named reuse must relate different `<ReferenceSche
 
 State the proposed naming use in a separate current C.2.1 claim whose EntityOfConcern is that Bridge. Record the action, direction, correspondence rule, tolerated loss, and polarity.
 
-Then choose the reliance route. For ordinary bounded reliance below B.3's threshold and with no assurance claim, use the exact A.10 evidence-provenance relation and `RelianceDisposition=pass`. When an assurance claim is made or the B.3 threshold is met, follow B.3's first-claim decision: require a current positive claim with sufficient record or a disposition that stops or narrows the use. The threshold creates no positive claim. Neither route authorizes the use or proves that it occurred.
+For an affirmative named-use claim, recover the independently established direct evidence relations and their descriptive A.10 evidence-provenance account. `RelianceDisposition=pass` supports only this bounded use and requires the evidence demanded by the claim and its direct rule. Use B.3 only when an actual named assurance claim is current. If a direct rule requires such a claim and it is missing, return `assurance-needed` and recover that claim before opening B.3; materiality alone creates neither a claim nor a positive result. A failed or non-passing claim or reliance stops or narrows the use. Neither route authorizes the use or proves that it occurred.
 
 If the reuse did occur, recover its actual Work under A.15.1, assertion episteme under C.2.1, publication occurrence under E.24.PUB, direct relation under its own predicate, operation application under A.6.1, or other exact result under its direct rule. Name a `BoundedModelUseStructure` only when that selected structure changes the sense or naming use. Until the Bridge, separate claim, and required reliance are current, keep the names local or record the unresolved alignment. A reference-scheme or model-use-structure difference alone supplies neither a premise nor governed-value identity.
 

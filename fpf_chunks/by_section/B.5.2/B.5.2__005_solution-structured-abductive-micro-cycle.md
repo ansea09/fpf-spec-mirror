@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.2"
-pattern_title: "Abductive Loop"
+pattern_title: "Generate and Compare Candidate Explanations (Abductive Loop)"
 section_id: "B.5.2:4"
 section_title: "Solution - Structured abductive micro-cycle"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__005_solution-structured-abductive-micro-cycle.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.2 — Abductive Loop"
+  - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:4 — Solution - Structured abductive micro-cycle"
-line_start: 46146
-line_end: 46202
+line_start: 46109
+line_end: 46165
 dependencies:
   - "A.10"
   - "A.16"
@@ -22,12 +22,6 @@ dependencies:
   - "B.5"
   - "B.5.2.0"
 keywords:
-  - "abduction"
-  - "candidate hypotheses"
-  - "explanatory prompt"
-  - "origin trace"
-  - "plausibility filters"
-  - "route-to-hypothesis"
 ---
 
 ### B.5.2:4 - Solution - Structured abductive micro-cycle
@@ -67,11 +61,11 @@ No one filter is universally decisive. The pattern only requires that at least t
 
 #### B.5.2:4.5 - Abductive Unfolding Structure Block
 
-When the abductive run must be reused as more than a one-off hypothesis note, add an unfolding block. It shows how the prompt becomes rival hypotheses and downstream tests without treating the creative passage as evidence.
+When the question concerns possible continuations of abductive work and their conditions, use A.22.CGUS's ordinary branch. Open its formal branch only when the receiving use needs the structure's identity or replay; reuse of a hypothesis note alone does not require that branch.
 
 ```text
 AbductiveUnfoldingStructureBlock:
-  unfoldingStructureRef: current AbductiveSearchUnfoldingStructure record
+  unfoldingStructureRef: one independently identified A.22.CGUS structure
   abductivePromptRef:
   cueSetWithDownstreamPatternAlternativesRef:
   rivalHypothesisSetRef:
@@ -80,10 +74,10 @@ AbductiveUnfoldingStructureBlock:
   evidenceReturnLoci[]:
   languageStateMoveRefs[]:
   poolPolicyOrSelectionRef?:
-  blockedOverread: not inspiration event, not linear ideation workflow, not evidence by itself
+  blockedOverread?: not inspiration event, not linear ideation workflow, not evidence by itself
 ```
 
-Use `unfoldingStructureRef` for the current local structure record; use A.22.CGUS `specializedStructureRef?` only when the generic CGUS record must point to this narrower specialization. Use `cueSetWithDownstreamPatternAlternativesRef` when the prompt still carries several possible patterns for the next question. Use `rivalHypothesisSetRef` before selecting a prime hypothesis. Use `evidenceReturnLoci[]` to say where later evidence, deduction, probe design, or assurance work can return; do not use those loci as evidence. If the live claim becomes candidate retention, pool policy, selected-set result declaration, or comparison, apply `C.18`, `C.19`, `G.5`, or the pattern that defines the required comparison instead of making abduction a selector.
+Use `unfoldingStructureRef` to designate the selected structure. Recover its constituents, obtaining relation occurrences, applied constraints and selection-use frame under A.22; qualify its loci and potential continuations under A.22.CGUS. Keep the describing record separate from that identity. Use `cueSetWithDownstreamPatternAlternativesRef` when the prompt still carries several possible patterns for the next question. Use `rivalHypothesisSetRef` before selecting a prime hypothesis. Use `evidenceReturnLoci[]` to say where later evidence, deduction, probe design, or assurance work can return; do not use those loci as evidence. Abductive plausibility comparison remains here. Use C.18 for archive or front claims, C.19 for live-pool policy, G.5 for a selector's selected-set declaration, or the direct comparison method when that distinct result is needed.
 
-`AbductiveSearchUnfoldingStructure` is a local `A.22.CGUS` `U.Structure` specialization used for abductive search. It is not a root U-kind, ideation workflow, evidence, or selection decision. Use `B.5.2` to state the abductive prompt, cue set with alternative next patterns, rival hypotheses, plausibility constraints, and evidence-return loci. Use the patterns that define or test evidence, deduction, probe design, assurance, selected-set result declaration, pool policy, and comparison when those claims become current.
+`AbductiveSearchUnfoldingStructure` is a local designation for an A.22.CGUS structure selected for an abductive-search question; it supplies no additional identity rule. It is not a root U-kind, ideation workflow, evidence, or selection decision. Use `B.5.2` to state the abductive prompt, cue set with alternative next patterns, rival hypotheses, plausibility constraints, and evidence-return loci. Use the patterns that define or test evidence, deduction, probe design, assurance, selected-set result declaration, pool policy, and comparison when those claims become current.
 

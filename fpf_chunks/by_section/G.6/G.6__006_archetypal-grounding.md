@@ -6,12 +6,12 @@ section_id: "G.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:5 — Archetypal Grounding"
-line_start: 113681
-line_end: 113704
+line_start: 114003
+line_end: 114026
 dependencies:
   - "A.10"
   - "A.13"
@@ -29,6 +29,7 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.18.2"
+  - "E.24.PUB"
   - "F.10"
   - "F.6"
   - "F.9"
@@ -71,7 +72,7 @@ The G.6 path cites every measurement result and episteme, the work-set and overl
 
 #### G.6:5.3 - Produced model and benchmark use
 
-Dated training work has exact actual bindings and, when an inception or completion claim is current, one local A.15.PROD claim. Separate benchmark-evaluation work applies its declared method and dataset edition and obtains a result under the benchmark's direct governor; a C.2.1 episteme states that result. A source publication and model card expose selected claims under E.17/C.29 relations. G.11 supplies currentness when later use depends on edition or freshness.
+Dated training work has exact actual bindings and, when an inception or completion claim is current, one local A.15.PROD claim. Separate benchmark-evaluation work applies its declared method and dataset edition and obtains a result under the benchmark's direct governor; a C.2.1 episteme states that result. E.17 governs the model card's source-backed face and return to the selected claims, E.24.PUB their actual audience availability, and C.29 any consumed representation correspondence. G.11 supplies currentness when later use depends on edition or freshness.
 
 A G.6 `PathSliceId` may cite that dependency chain for replication. The graph does not infer training from the model's presence, participation from a roster, evaluation from the protocol, superiority from the score, or deployment permission from the model card.
 

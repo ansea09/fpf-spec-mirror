@@ -1,29 +1,32 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.2"
-pattern_title: "U.Capability - System Ability Envelope and Measures"
+pattern_title: "System Capability: Conditions, Measures and Fit"
 section_id: "A.2.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.2 — U.Capability - System Ability Envelope and Measures"
+  - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:1 — Problem Frame"
-line_start: 4150
-line_end: 4168
+line_start: 4151
+line_end: 4169
 dependencies:
+  - "A.1"
   - "A.15"
-  - "A.2"
   - "A.2.3"
-  - "E.24.UK"
+  - "A.2.6"
+  - "C.2.1"
+  - "E.23.CDI"
 keywords:
-  - "ability envelope"
-  - "capability-fit condition"
+  - "attained bounds"
+  - "capability fit"
   - "currentness"
-  - "holder-dependent capability instance"
-  - "measure set"
-  - "qualification window"
+  - "holder ability"
+  - "qualification"
+  - "support"
+  - "work conditions"
 ---
 
 ### A.2.2:1 - Problem Frame
@@ -36,7 +39,7 @@ These ordinary sentences make different claims about welding:
 - "The robot welded batch B at 10:20."
 - "The supplier promises 12 seams per minute."
 
-Only the second sentence can support a `U.Capability` instance when the holder, Work family, envelope, measures, and currentness conditions are recoverable. The sentence itself is a statement about the capability instance. The others may state a local system-role assignment, MethodDescription, performed Work, or promise content. When FPF collapses them, project reasoning becomes brittle:
+Only the second sentence asserts the robot's ability. Its holder, work family, conditions and measure bounds must be recoverable before the claim can be compared with a demand. The assertion still needs support for the receiving use. The others may state a local system-role assignment, MethodDescription, performed Work, or promise content. When FPF collapses them, project reasoning becomes brittle:
 
 1. **System-role assignment becomes fake ability.** “Assigned as verifier” is treated as “able to verify”.
 2. **Method description becomes fake ability.** A recipe or algorithm is treated as sufficient evidence of the holder's ability.

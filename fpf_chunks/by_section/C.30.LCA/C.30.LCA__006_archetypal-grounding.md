@@ -6,12 +6,12 @@ section_id: "C.30.LCA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:5 — Archetypal Grounding"
-line_start: 69270
-line_end: 69276
+line_start: 69482
+line_end: 69488
 dependencies:
   - "A.10"
   - "A.20"
@@ -33,13 +33,14 @@ dependencies:
   - "E.18.2"
   - "G.6"
 keywords:
-  - "control layer"
   - "control-structure view"
-  - "controller and plant"
+  - "controller"
+  - "feedback closure"
   - "layered control architecture"
-  - "proof overread"
+  - "observer"
+  - "plant"
   - "rate band"
-  - "supervisor loop"
+  - "supervisor"
 ---
 
 ### C.30.LCA:5 - Archetypal Grounding

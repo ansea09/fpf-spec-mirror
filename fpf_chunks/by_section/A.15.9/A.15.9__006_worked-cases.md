@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.9"
-pattern_title: "Request and Use a Bounded Result from Another Practice"
+pattern_title: "Use or Request a Bounded Result from Another Practice"
 section_id: "A.15.9:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__006_worked-cases.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.15.9 — Request and Use a Bounded Result from Another Practice"
+  - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:5 — Worked cases"
-line_start: 29428
-line_end: 29449
+line_start: 29319
+line_end: 29340
 dependencies:
   - "A.10"
   - "A.13"

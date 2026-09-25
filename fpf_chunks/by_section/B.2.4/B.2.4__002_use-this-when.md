@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.4"
-pattern_title: "Capability and Functioning Whole Reidentification"
+pattern_title: "Do Capability or Functioning Changes Require Whole Reidentification?"
 section_id: "B.2.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__002_use-this-when.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.2.4 — Capability and Functioning Whole Reidentification"
+  - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:0 — Use This When"
-line_start: 41496
-line_end: 41515
+line_start: 41426
+line_end: 41445
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ The first useful question is whether those facts can still be explained by the e
 - If function-like wording hides the exact claim, use `A.6.F` to recover its direct subject pattern; an already precise functioning claim returns directly to that pattern.
 - If the claim is transformation or transformation-flow structure, use `A.3.4` or `E.18` respectively; use `C.30.TFS-REL` for the selected structure's bounded architecture use.
 - If the claim is method, method relation, method description, work plan, or work occurrence, use `A.15`, `A.3.1`, `A.3.2`, `A.15.2`, and `A.15.1`.
-- If the claim is module allocation or bearer allocation, use `A.6.M`, `C.30`, `A.22`, and `C.30.ASV` according to whether the live claim concerns the module, architecture, selected structure, or architectural structural view.
+- If bearer allocation is the question, use the direct allocation or parthood pattern. Use `A.6.M` only for unresolved module/interface wording, and `C.30`, `A.22` or `C.30.ASV` only for the current architecture, selected-structure or architectural-view claim.
 - If the claim is measurement, threshold, score, robustness, quality, or a whole-level characteristic, use `C.16` and `A.19` for that claim and `A.10` only when evidence use is current.
 - If the wording is ambiguous emergence, synergy, or title-mnemonic language, use `B.2.P` before selecting B.2.4.
 

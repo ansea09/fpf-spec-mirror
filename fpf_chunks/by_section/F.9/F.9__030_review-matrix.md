@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9"
-pattern_title: "Alignment and Bridge across Contexts"
+pattern_title: "Relate Local Meanings across Contexts (Alignment and Bridge)"
 section_id: "F.9:28"
 section_title: "Review matrix"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__030_review-matrix.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.9 — Alignment and Bridge across Contexts"
+  - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:28 — Review matrix"
-line_start: 105292
-line_end: 105306
+line_start: 105714
+line_end: 105728
 dependencies:
   - "A.10"
   - "A.13"
@@ -63,7 +63,7 @@ A reader can test bridge integrity with eight questions:
 2. Does the profile say only which semantic relation holds, with its endpoint readings, condition, applicability, truth rule, and stop dependencies?
 3. Is the Bridge claimed only after that fixed predicate is true?
 4. Does each proposed use separately name the action, direction, correspondence rule, tolerated loss, and polarity?
-5. Does the same use have the correct current A.10 evidence-provenance relation and local disposition or, when an actual named assurance claim is current, its B.3 `AssuranceResult`?
+5. Does the same use have a current descriptive A.10 evidence-provenance path citing independently established direct relations and a local disposition or, when an actual named assurance claim is current, its B.3 `AssuranceResult`?
 6. Are semantic suitability, reliance, assurance, and authorization kept distinct?
 7. If someone says the use happened, is the actual Work, assertion, publication, relation, operation application, or other object recovered under its own pattern?
 8. Does any card remain optional packaging rather than the source of relation truth, permission, or occurrence?

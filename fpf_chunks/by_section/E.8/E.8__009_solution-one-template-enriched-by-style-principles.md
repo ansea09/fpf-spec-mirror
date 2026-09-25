@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 82059
-line_end: 82464
+line_start: 82357
+line_end: 82779
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -44,7 +44,9 @@ keywords:
   - "SHALL NOT"
   - "SHOULD"
   - "SHOULD NOT"
+  - "a body-only term cannot support that search"
   - "and OPTIONAL are to be interpreted as described in RFC 2119"
+  - "and query cue for additional familiar expressions. If the intended search sees only headings"
   - "improves auditability"
   - "inside the predicate block"
   - "or other admissibility conditions of the modeled world"
@@ -94,6 +96,8 @@ Authors **MAY** add additional sections. Prefer expressing them as subsections u
 
 ##### E.8:4.1.1 - Heading & ID discipline (human tooling + retrieval)
 FPF is often consumed through full‑text search and retrieval (RAG). A reader or an LLM may see a subsection without its parent headings, so headings must be **self‑identifying**.
+
+The following grammar governs Markdown publication forms authored under this E.8 edition. Its heading levels, separator and sentinel spellings are necessary subject conditions under E.5.1; they do not make the represented conceptual objects depend on Markdown.
 
 **H-1 (Heading shape).** Every pattern heading and every subsection heading inside a pattern **SHALL** follow:
 `<hashes> <FullId> - <Title> (optional note of non‑normativity)`
@@ -195,7 +199,7 @@ Test first-use affordability by checking whether the positive Solution supports 
 recognizable situation -> proposed action or judgement -> first useful result -> next action-changing condition or stop
 ```
 
-This rendering explains the pattern; it does not claim that actual work is linear. Use an optional local mantra only when it improves recall, and show one ordinary traversal only when several rows materially improve explanation; choose the smallest form that keeps the action, result, and boundary recoverable. Explanatory rows may fade as competence or task demand permits, but an independently action-changing condition or boundary may not. If the traversal itself must be a durable governed object, use the exact published `DemonstrativeUnfoldingSlice@Context` designation only after `A.22.CGUS` admits that structure for the named pattern use. Put a subject-side check immediately before the continuation it changes, and keep authoring, review, quality, and release checks outside the subject Solution.
+This rendering explains the pattern; it does not claim that actual work is linear. Use an optional local mantra only when it improves recall, and show one ordinary traversal only when several rows materially improve explanation; choose the smallest form that keeps the action, result, and boundary recoverable. Explanatory rows may fade as competence or task demand permits, but an independently action-changing condition or boundary may not. An explanation retained for reuse can concern the actual subject, question or proposed continuations before CGUS qualification; use C.2.1 when its episteme identity matters. A demonstrative slice about a qualified CGUS is a separate episteme under A.22.CGUS, whose use depends on that qualification. Put a subject-side check immediately before the continuation it changes, and keep authoring, review, quality, and release checks outside the subject Solution.
 
 **Resolve authoring lists with `F.19`.** When a list can change pattern use, apply the same connected `F.19` reading used for prose. `E.8` keeps only the authoring effect: put the practitioner's proposition or action before illustrative material; declare a genuinely normative closed set as closed under its governing rule; signal examples as non-exhaustive when a plausible reader could mistake them for a classification; and do not let a noun series or catalogue replace the `Solution`.
 
@@ -233,6 +237,20 @@ The `Solution` explains the actual organization and use of the described Methods
 The same explanation must make recoverable how constituent actions perform encompassing work where that connection matters to learning, performance or change. Show what larger work is already being done through the selected action, what constituents make that action possible, and which conditions of the whole constrain it. Preserve genuine result-before-use dependencies alongside this vertical enactment. A representative case should let the reader change the action when a relevant condition of the whole changes. Use B.1.5.EW for recovery and B.1.5.RS for a constituent replacement; do not require a separate level diagram or exhaustive decomposition when the connection is already understood.
 
 The pattern heading, header block, section grammar, and footer apply to each individually declared pattern. The whole-framework account uses the publication form in `E.11.PFP`; its content questions do not turn every publication unit or intermediate group into another pattern. Its Preface subsection headings identify the framework, publication unit and ordinal path through `E.11.PFP:4.7.1`, so an isolated excerpt remains locatable without being classified as a pattern body. Keep generality, specialization, Method composition, reuse, bounded-use projection, and publication grouping explicit under `E.8:4.2.2`. There is no prescribed maximum depth or exclusive-parent rule.
+
+#### E.8:4.1.5 - Choose a title that helps the reader select the pattern
+
+Choose the title from the working question the body actually answers. Read its `Problem frame`, `Problem`, action-changing `Forces` and `Solution` together. Recover the intended reader, governed object, useful result and nearest non-use boundary before trying shorter wording. The title should let that reader consider the pattern without already knowing an unfamiliar solution name.
+
+Use a recognizable question, a result under distinguishing conditions, or a familiar method name. Preserve the object and condition that separate the pattern from its nearest neighbors. “Test a method” cannot distinguish obtaining trial observations, checking description coherence, judging fit in another situation and comparing practical worth. A single striking example should not narrow a more general construction, and a failure symptom should not hide constructive use before anything goes wrong.
+
+Keep a choice open when making that choice is part of the Solution. A method that first decides whether further evidence is worth obtaining can finish with an existing answer; “design experiments” would hide that first result. Name whether and how to experiment when both questions belong to the method. Conversely, retain a direct action title when that action is already the justified entry.
+
+Keep an established technical term where the intended finding or discussion needs it. A quotient method can pair a phrase about treating objects as the same with *quotient*; a definitional pattern can retain its technical name and add a short recognition phrase. The technical designation and recognition phrase explain the same subject. Use the existing ToC keywords and query cue for additional familiar expressions. If the intended search sees only headings, a body-only term cannot support that search.
+
+Compare the candidate with the present title and the closest plausible neighbors at the actual entry: title alone, complete ToC row or other displayed cue. Include a use the pattern should attract and an ordinary case it should leave elsewhere. Open the bodies to check that the proposed result and boundary survive. Retain a sufficient title, or improve only its existing cue when that resolves the difficulty. A question shape, complaint form, shorter length or uniform style is not a reason to rename.
+
+Finish with the chosen title and its truthful discovery cue. Keep the PatternID unless the governing continuity decision changes identity; repair title-dependent fragments and direct navigation consumers under §4.1.2. E.11 supplies comparison under the reader's actual exposure. A clearer title supports consideration; the Solution must still supply the method and any connected explanation needed to use it.
 
 #### E.8:4.2 - Stylistic Principles (S-0 … S-19)
 
@@ -375,6 +393,9 @@ That failure usually appears when the text is admissible but does not yet make t
 
 For canonical patterns, the first-reading text should behave as a **recognition text** and the heavier review/check scope should remain in an **assurance text**.
 
+For method guidance, explain in `Solution` what the performer should attend to or compare when it can change the next move: conditions needed for the operation, consequences expected from it, and whether the obtained result serves the receiving work. Give a reachable continuation when a condition is unmet, unknown or the result leaves the original concern unanswered. `B.5.PI` develops an opening into inquiry; `B.5.EA` helps when the concern cannot yet be expressed, and an early cue can remain unresolved. Put these connections where they change use, including in first authoring. Do not add a compulsory monitor, extra form or copied “watch for anomalies” paragraph to every pattern. A known adequate result can still end the work directly.
+
+
 When a pattern claims practice guidance or is meant to be used by engineers, managers, researchers, or other working readers, authors should make the following visible before the heavier harness takes over:
 - a recognisable `Use this when` or equivalent first-minute recognition cue;
 - a concrete working situation in `Problem frame`, not only taxonomic or pattern-placement language;
@@ -452,11 +473,9 @@ First admissible action-guiding result: one `A.6.B`-governed atomic claim set or
 
 #### E.8:4.2.5 - Design-time and run-time referents stay separated in pattern prose
 
-Pattern prose must keep its referent index explicit. In ordinary body sections, the default truth-makers are run-time or governed-domain objects, states, moves, boundaries, consequences, and user-facing practical effects. Normative-standard wording is still admissible when the sentence is explicitly about the standard as a normative publication, for example in marked migration navigation examples, marked informative notes, or conformance/checklist clauses.
+Pattern prose keeps the referents needed by its declared subject and use recoverable. Authoring, review and publication are valid governed subjects; state their actions and rules directly. Distinguish design-time, run-time and normative-publication referents when that distinction changes the claim.
 
-Design-time and development-state referents are different objects. The current draft, current body, current pass, author, reviewer, handoff, packet, governing companion, landing choice, or other writing-process objects must not be smuggled in as the hidden truth-condition of pattern prose. A quick test is: what makes this sentence true? If the sentence is true because the current text is arranged a certain way, because the author or reviewer must do something next, or because the current development state says so, then it is design-time residue, not pattern content.
-
-Move that material to the authored-slice carrier, handoff, `DRR`, or companion architecture note. If a sentence is kept in the pattern, rewrite it so that its truth depends on the governed run-time/domain object or on the standard's declared normative claim set rather than on the current writing pass.
+Apply §4.2.3 to place this edition's drafting, review and landing history in its development carrier. Retain any durable reason that changes the user's action, choice or boundary in the public explanation.
 
 If a pattern or example claims **autonomy**, name the admitted `U.System` whose freedom of action is being evaluated and use the current `E.16` pattern that defines or tests the claim. Add another relation only when it is current under its own governing pattern. Admit dated Work under the A.13-first and independent A.15.1 rule in `E.8:0.3`, adding `F.6` only for current assignment-bound attribution. Add autonomy apparatus or a vignette only when it helps the reader use that claim. Apply `F.19` after recovery; if the corpus supplies no direct governor, return `A.6.RCD missing-governor`.
 

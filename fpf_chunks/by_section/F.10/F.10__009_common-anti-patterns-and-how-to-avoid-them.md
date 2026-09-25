@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.10"
-pattern_title: "Status Families Mapping: Evidence, Standard, and Requirement Status"
+pattern_title: "Apply and Interpret Evidence, Standard and Requirement Statuses"
 section_id: "F.10:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
+  - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 105765
-line_end: 105780
+line_start: 106185
+line_end: 106200
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -29,12 +29,16 @@ dependencies:
   - "G.11"
   - "G.6"
 keywords:
-  - "applicability windows"
-  - "evidence"
-  - "polarity"
-  - "requirement"
-  - "standard"
-  - "status"
+  - "EvidenceStatus"
+  - "RequirementStatus"
+  - "StandardStatus"
+  - "direct result"
+  - "governed target"
+  - "interpretation rule"
+  - "scope"
+  - "status families"
+  - "status value"
+  - "window"
 ---
 
 ### F.10:8 - Common Anti-Patterns and How to Avoid Them
@@ -49,7 +53,7 @@ keywords:
 | Clause-less compliance | *Compliant* is asserted without an exact clause, target, rule, scope, conditions, and window. | Recover the clause and direct evaluation result. |
 | Bridge-free roll-up | A dashboard aggregates local labels as global synonyms. | Use exact cells and F.9 occurrences, or downgrade to local explanation. |
 | Bridge/family edge as explanation | A Bridge or `EvidenceStatus -> RequirementStatus` arrow is treated as direct reason. | Name the `StatusInterpretationRelation`, exact rule, evaluation application, and result. |
-| Evidence escalation without independence | One repeated lab result is called replicated. | Keep it measured/corroborated until independent replication conditions and results are recovered. |
+| Evidence escalation without independence | One repeated lab result is called replicated. | Keep the supported status; assert `Corroborated` only after its independent-support rule passes, or `Replicated` after independent work or varied declared conditions and their results satisfy its rule. |
 | Status role for episteme | A report, standard, or requirement is said to ‘hold a role’. | Use the A.2.4 and F.10 use relations. They establish neither System admission, local system-role classification, nor an assignment. If the receiving claim needs an assignment, name the admitted System, declared assignment species and occurrence, and that System as its holder. |
 | Tool-state explosion | Every local tool state becomes a durable status kind. | Keep tool labels local; create a durable cell/family mapping only for a receiving use that needs it. |
 

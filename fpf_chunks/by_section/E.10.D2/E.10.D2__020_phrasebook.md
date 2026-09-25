@@ -6,12 +6,12 @@ section_id: "E.10.D2:18"
 section_title: "Phrasebook"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__020_phrasebook.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:18 — Phrasebook"
-line_start: 87394
-line_end: 87407
+line_start: 87714
+line_end: 87727
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -34,12 +34,15 @@ dependencies:
   - "F.9"
   - "G.11"
 keywords:
-  - "Description episteme"
-  - "DescriptionContext"
+  - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"
+  - "checkable claims"
+  - "description episteme"
+  - "harness"
+  - "publication"
+  - "representation"
   - "specification use"
-  - "testable"
-  - "verifiable"
+  - "viewpoint"
 ---
 
 ### E.10.D2:18 - Phrasebook
@@ -50,7 +53,7 @@ keywords:
 | “The diagram is the architecture.” | “Recover the architecture-description episteme first; then classify the diagram as claim content, `U.View`, publication form borne by a carrier, or C.29 representation only under the rule for the named use.” |
 | “MethodSpec draft.” | “MethodDescription draft; specification use is not admitted until checkable claims and the exact harness or validation relation are present. Name a viewpoint only when the relying describing use depends on it.” |
 | “The PDF is the method.” | “The method-description episteme concerns the exact method; the PDF carrier bears a publication form that expresses a selected episteme edition.” |
-| “Same label, same thing.” | “Compare ClaimGraph, EntityOfConcern, and effective scheme; when schemes differ, recover the exact senses, obtaining Bridge, and bounded-use reliance claim.” |
+| “Same label, same thing.” | “Identify each entity under its own identity rule. For epistemes compare ClaimGraph, EntityOfConcern and effective scheme. Use F.9 only when a receiving claim also needs a semantic relation between exact local senses with different interpretation bases; keep the bounded-use claim and reliance separate.” |
 | “Evidence status is a role state.” | “The status claim concerns its exact epistemic or deontic subject; use `SystemRoleAssignmentStateRelation` only for one exact assignment and predicate, or the direct system-state relation for another runtime fact.” |
 | “The source has the approval role.” | “State the exact source-use, evidence-use, assurance-use, gate-use, or publication-use relation. For a claimed Work use, name the exact premise, governed reference, decision-use relation, or A.6.1 operation-argument binding and its actual participants; otherwise return the exact `missing-governor` result. None is a work-facing role assignment by wording.” |
 | “Fill the description context tuple.” | “Name the receiving use and the exact viewpoint it selects only when that selection changes what the receiver reads or checks; do not create a context tuple.” |

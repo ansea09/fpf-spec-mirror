@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.3"
-pattern_title: "SlotFillingsPlanItem"
+pattern_title: "SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
 section_id: "A.15.3:6"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__007_scope-declaration-and-rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.15.3 — SlotFillingsPlanItem"
+  - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:6 — Scope Declaration and Rationale"
-line_start: 27733
-line_end: 27738
+line_start: 27622
+line_end: 27627
 dependencies:
   - "A.15.1"
   - "A.15.2"

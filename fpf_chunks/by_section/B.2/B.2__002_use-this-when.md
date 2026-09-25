@@ -6,12 +6,12 @@ section_id: "B.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__002_use-this-when.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:0 — Use This When"
-line_start: 40495
-line_end: 40521
+line_start: 40425
+line_end: 40451
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,7 +45,7 @@ keywords:
 
 ### B.2:0 - Use This When
 
-Use this pattern when a configured whole can no longer be treated as the same whole for the current claim: its delimitation, part relation, constitutive assembly, objective, supervision, capability envelope, agency threshold, or temporal consolidation has changed enough that the EntityOfConcern must be reidentified.
+Use this pattern when changed facts raise the question whether the existing whole still carries the current claim or a new whole must be identified. The question may concern its delimitation, part relation, constitutive assembly, objective, supervision, capability envelope, agency threshold, or temporal consolidation.
 
 Typical moments:
 
@@ -55,7 +55,7 @@ Typical moments:
 - separately governed structure, functioning, method, and work facts support a capability envelope that the existing whole cannot explain; evidence separately supports the claim about those facts;
 - an architecture residual cannot be explained inside the existing whole.
 
-**First useful move.** Compare the observed gain or shift with explanations that preserve the existing whole. If better parts, corrected relations, improved measurement, Method or Work repair, richer phase coverage, or architecture-view repair is sufficient, stay with the existing whole and use that subject pattern. Use B.2 only when the whole itself must be reidentified.
+**First useful move.** Compare the observed gain or shift with explanations that preserve the existing whole. If better parts, corrected relations, improved measurement, Method or Work repair, richer phase coverage, or architecture-view repair is sufficient, stay with the existing whole and use that subject pattern. Proceed to a new-whole claim only when that comparison leaves whole reidentification necessary.
 
 **What goes wrong if missed.** Emergence becomes rhetoric, ordinary improvement is overclaimed as a new whole, or a genuinely new whole remains hidden under old part, evidence, assurance, architecture, or responsibility claims.
 

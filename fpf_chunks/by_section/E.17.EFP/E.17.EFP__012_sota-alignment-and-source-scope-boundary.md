@@ -6,12 +6,12 @@ section_id: "E.17.EFP:11"
 section_title: "SoTA Alignment and Source-Scope Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__012_sota-alignment-and-source-scope-boundary.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:11 — SoTA Alignment and Source-Scope Boundary"
-line_start: 92923
-line_end: 92943
+line_start: 93324
+line_end: 93344
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,7 +45,7 @@ keywords:
 
 | Claim need | Exact source and actual scope | Local use | Boundary or rejected transfer |
 |---|---|---|---|
-| Keep claim-bearing episteme, source-to-target relation, publication form, and carrier distinct. | Current FPF `C.2.1`, `A.6.3`, and `E.24.PUB`. | Apply the ClaimGraph identity branch before EFP classification. | This is current internal ontology, not a conclusion imported from an architecture-description standard. |
+| Keep claim-bearing episteme, source-to-target relation, publication form, and carrier distinct. | Current FPF `C.2.1`, `A.6.3`, and `E.24.PUB`. | Identify claims, exact concern and effective scheme, then test expression sufficiency for the declared use before EFP classification. | This is current internal ontology, not a conclusion imported from an architecture-description standard. |
 | Explanations of AI-system results are purpose- and recipient-sensitive and must state knowledge limits. | Phillips et al. (2021), *Four Principles of Explainable Artificial Intelligence*, NISTIR 8312, DOI `10.6028/NIST.IR.8312`; government-guidance lineage. | Adapt bounded reader use and explicit limits when an AI explanation is current. | Do not generalize this XAI guidance into mandatory fields or classes for every technical explanation, and do not present it as the whole current research line. |
 | Plausibility and faithfulness of model interpretations are different evaluation questions. | Jacovi & Goldberg (2020), *Towards Faithfully Interpretable NLP Systems*, ACL DOI `10.18653/v1/2020.acl-main.386`; research lineage. | For NLP/model interpretation, do not infer faithfulness from persuasive prose. | The paper studies interpretable NLP systems, not ordinary human engineering exposition; later work further distinguishes self-consistency and intervention-based evaluation. |
 | Output-level consistency tests for LLM explanations are not automatically tests of faithfulness to model internals. | Parcalabescu & Frank (2024), *On Measuring Faithfulness or Self-consistency of Natural Language Explanations*, ACL DOI `10.18653/v1/2024.acl-long.329`; later repair of an overclaim in the evaluation line. | Name the actual check as self-consistency when that is what it measures. | Apply only to generated/LLM explanation use; do not require it for human-authored notes. |
@@ -58,5 +58,5 @@ keywords:
 
 **Local human-authored branch.** For ordinary human explanation, the architecture is justified only by the concrete local problem and the E.17.EFP:5.7 replay. The default is non-use when a simpler source-linked boundary sentence is equally comprehensible, preserves the claims, costs less, and prevents the same overread.
 
-**Retained result.** Keep only the ClaimGraph identity screen, an explanation class when it changes the next action, the compact bounded/blocked use, and a reopen condition. Add reader-model, trace, provenance, evidence, RAG, self-consistency, or interactive-system details only when their exact source-scoped situation is present.
+**Retained result.** Keep only the identity-and-bounded-sufficiency screen, an explanation class when it changes the next action, the compact bounded/blocked use, and a reopen condition. Add reader-model, trace, provenance, evidence, RAG, self-consistency, or interactive-system details only when their exact source-scoped situation is present.
 

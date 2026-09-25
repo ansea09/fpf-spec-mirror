@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.12"
-pattern_title: "Service Acceptance–Work Evidence Link"
+pattern_title: "Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
 section_id: "F.12:9"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__010_micro-examples.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.12 — Service Acceptance–Work Evidence Link"
+  - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:9 — Micro-examples"
-line_start: 106173
-line_end: 106190
+line_start: 106597
+line_end: 106614
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -61,7 +61,7 @@ keywords:
 
 The promise content states `[720,740] °C` during the soak phase. The delivery Work is the actual batch soak occurrence. Calibrated thermocouple observations either measure the product characteristic directly or use a separately defined sensor-location indicator relation. Evaluation Work applies the band rule and binds its result. An out-of-band result can support `RequirementStatus=Violated`; insufficient spatial evidence supports `EvidenceStatus=Inconclusive` and leaves the requirement pending unless the declared acceptance scale specifies another local result.
 
-#### F.12:9.3 - Incident MTTR
+#### F.12:9.3 - Incident restoration duration
 
 The promise content states restoration within 60 minutes per in-scope incident. Each incident-handling Work has observed start and restoration events. A separate evaluation Work occurrence applies the declared event and subtraction rule; its application binds those timestamps and returns the result. A playbook may be the selected evaluation MethodDescription when its edition changes that rule, but it is not the Work or proof of the duration.
 

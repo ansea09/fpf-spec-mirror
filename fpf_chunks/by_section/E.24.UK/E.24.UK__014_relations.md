@@ -6,12 +6,12 @@ section_id: "E.24.UK:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__014_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:12 — Relations"
-line_start: 101794
-line_end: 101801
+line_start: 102190
+line_end: 102197
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -42,7 +42,7 @@ keywords:
 
 ### E.24.UK:12 - Relations
 
-- **Shares settlement with:** `E.24` through the one `E24FamilySettlementDecision` schema in `E.24:4.0a`. E.24.UK records the `UKindAdmissionResult`; E.24 records the `OnticSettlementResult`. An existing result may be reused, while a case needing both new outputs is one atomic co-decision with neither output used as prior evidence.
+- **Shares settlement with:** `E.24` through the one `E24FamilySettlementDecision` schema in `E.24:4.0a`. E.24.UK records the `UKindAdmissionResult`; E.24 records the ontology disposition and an `OnticSettlementResult` only when a durable ontic is selected. An existing result may be reused, while a case needing both new outputs is one atomic co-decision with neither output used as prior evidence.
 - **Uses for relation admission:** `A.6.REL` states the common occurrence discipline. Each direct relation pattern states participant meanings, obtaining, applicability, and occurrence identity. An `A.6.RCD` application may record a residual claim or a derived-or-primitive candidate with its proposed direct subject settlement; local-claim and predicate-definition results remain claim content and do not admit a relation kind.
 - **Uses for neighboring objects:** `A.6.0` defines reusable signature identity; `A.6.5` defines `SlotSpec` declarations; `C.2.1` defines admission-decision, assertion, and description episteme identity; `F.18` supplies the naming rule for selected Tech labels and designators; `C.29` defines mathematical and data-model representation use.
 - **Coordinates with:** `A.22` for admitted structure identity and dependent structure predicates; `A.1.1` for bounded model-use relations; `A.2.6` for claim-scope membership; `C.3`, `C.3.1`, and `C.3.2` for admitted `U.Kind` individuals, the admitted `U.SubkindOf` direct species, declaration, admissibility, and judgment; `E.24.CD` for candidate detection; `E.24.PUB` for publication distinctions; direct kind patterns for every other admission; and `E.10`, F.8, F.17, and F.18 for wording and naming after settlement.

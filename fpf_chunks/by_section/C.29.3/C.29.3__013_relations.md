@@ -6,12 +6,12 @@ section_id: "C.29.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__013_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:12 — Relations"
-line_start: 66050
-line_end: 66063
+line_start: 66259
+line_end: 66272
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -33,5 +33,5 @@ keywords:
 | A.6.1 - U.Mechanism | Supplies operation-declaration and realization semantics when those relations are asserted. |
 | A.6.3.RT - Representation-Scheme Transition | Helps change the representation of preparation, operations and readout under an available scheme while preserving the content needed for use. |
 | C.16 - Measurement and Metrics Characterization | Supplies the measurement relation and the interpretation limits of a physical indication. |
-| C.11.DUA - Decision-Useful Advice and Evidence Demands | Selects further assurance or information by the receiving decision and its cost. |
+| C.11.DUA - Make Advice and Evidence Demands Worth Their Burden | Selects further assurance or information by the receiving decision and its cost. |
 

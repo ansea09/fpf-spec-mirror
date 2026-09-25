@@ -6,12 +6,12 @@ section_id: "E.4.PFR:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__008_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:6 — Conformance Checklist"
-line_start: 81009
-line_end: 81029
+line_start: 81327
+line_end: 81347
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -64,6 +64,6 @@ keywords:
 | CC-PFR.8 Carrier meanings preserved | Publication, access, preservation, admission, source, Work/tool, evidence, assurance, and currentness claims keep their exact patterns and identities. |
 | CC-PFR.9 Actual-use truth | `derivedUsingRuleContent` or `evaluatedAgainstRuleContent` cites the exact actual-use claim and satisfies its strict truth condition. |
 | CC-PFR.10 Analysis threshold | Candidate-family analysis exists only for a named comparison, replay, same-subject conflict, or reliance receiver and includes only candidates, axes, pairs, conflicts, and receiving-edition distinctions whose resolution can change the exact cell disposition or named receiver action. |
-| CC-PFR.11 Analysis closure | The candidate universe, in-scope axes, required pairwise results, temporal cells, established family, and exactly one disposition are recomputed together for every cell whose disposition or named receiver action can change. |
+| CC-PFR.11 Analysis closure | The candidate universe, contract-required axes, candidate establishment results, required pairwise results, temporal cells and established family determine exactly one §3.6 disposition. Any false required axis defeats a candidate despite other unknowns; optional minimality remains separate. Recompute the affected results together when their cell disposition or named receiver action can change, using the exact RuleContentBasisFamilyAlgebra declaration edition. |
 | CC-PFR.12 Non-permissive boundary | A basis answer supplies no authority, permission, gate passage, Work, actual use, evidence, assurance, or reliance by implication. |
 

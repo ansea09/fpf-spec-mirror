@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.14"
-pattern_title: "Human‑Centric Working‑Model"
+pattern_title: "Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
 section_id: "E.14:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__014_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.14 — Human‑Centric Working‑Model"
+  - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:11 — Rationale"
-line_start: 89972
-line_end: 89981
+line_start: 90356
+line_end: 90365
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -20,20 +20,15 @@ dependencies:
   - "E.7"
   - "E.8"
 keywords:
-  - "assurance layers"
-  - "grounding"
-  - "human-centric"
-  - "publication surface"
-  - "working model"
 ---
 
 ### E.14:11 - Rationale
 
 **Why Working-Model is canonical.** FPF privileges **human-oriented relations** as the primary language and working representation for thinking and communication. This satisfies didactic primacy while preserving conceptual integrity: formal work serves the human layer, not the other way around. The canonical template and style principles institutionalise this choice without inviting notation lock-in.
 
-**Why grounding flows downward.** The direct claim stands on the pattern that defines or tests it. When assurance is current, Mapping, Logical, Constructive, and Empirical support sits beneath that claim, and the applicable profile or requirement says what must be declared. Authors select only the support that fits purpose and risk: type and lexical alignment (**TA**), reasoned consequence (**VA**), constructive reconstruction (**VA**), or real-world confirmation (**LA**). This keeps the Kernel small, keeps different kinds of claim apart, and provides a path to higher assurance when warranted.
+**Why grounding is presented underneath the claim.** The direct claim stands on the pattern that defines or tests it. When assurance is current, Mapping, Logical, Constructive, and Empirical support sits beneath that claim, and the applicable profile or requirement says what must be declared. Authors select the contribution that addresses the current assurance question: meaning correspondence for **Concept-Bridge Assurance (CBA)**, a reasoned consequence or constructive argument for **Verification Assurance (VA)**, or empirical support for **Validation Assurance (LA)** under B.3.3. Each contributes only what its actual argument establishes for the receiving use.
 
-**Why patterns teach before they tighten.** The Tell‑Show‑Show requirement couples each universal rule with System and Episteme cases, reducing cognitive load and preventing premature formalism. It is the didactic mechanism that makes Human‑Centric Canonization practical across disciplines.
+**Why patterns teach before they tighten.** Tell-Show-Show places an architectural rule beside System and Episteme cases where it applies to both; E.7 permits a justified single-substrate boundary. The cases make application conditions and the recognition-to-assurance return inspectable. They do not by themselves establish reduced cognitive load, practical effectiveness, or universal applicability.
 
-**Why no notation talk in Core.** Guard‑rails and the style guide prohibit tool jargon and notation dependence inside normative prose; meanings are given in words and mathematics, with any renderings treated as illustrative only. This preserves longevity and cross‑disciplinary portability.
+**Why interpretation and operative use remain explicit.** E.5.2 keeps conceptual meaning portable while allowing an expression to carry reasoning or construction. An illustrative rendering stays informative; an operative expression retains its explained meaning, operation and prerequisites. A proposed substitution must preserve the claims and conditions needed by the use, and must disclose any relevant loss. Readable presentation does not remove the operation or establish equal effort across notations.
 

@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__012_sota-echoing.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:11 — SoTA-Echoing"
-line_start: 40058
-line_end: 40067
+line_start: 39988
+line_end: 39997
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"

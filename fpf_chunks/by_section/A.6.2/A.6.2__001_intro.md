@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.2"
-pattern_title: "Effect-free episteme morphing"
+pattern_title: "Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
 section_id: "A.6.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.2 — Effect-free episteme morphing"
+  - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:intro — Intro"
-line_start: 14622
-line_end: 14644
+line_start: 14604
+line_end: 14626
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -31,7 +31,7 @@ dependencies:
 keywords:
 ---
 
-## A.6.2 - Effect-free episteme morphing
+## A.6.2 - Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes
 > **Status:** Stable
 > **Type:** Definitional pattern
 

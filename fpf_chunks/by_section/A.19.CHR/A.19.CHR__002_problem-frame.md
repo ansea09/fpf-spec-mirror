@@ -1,18 +1,19 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CHR"
-pattern_title: "CHRMechanismSuite"
+pattern_title: "CHRMechanismSuite: Shared Rules for Characterization and Selection"
 section_id: "A.19.CHR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.CHR — CHRMechanismSuite"
+  - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:1 — Problem frame"
-line_start: 34129
-line_end: 34147
+line_start: 34073
+line_end: 34078
 dependencies:
+  - "A.15.2"
   - "A.15.3"
   - "A.19"
   - "A.19.CHR"
@@ -20,6 +21,7 @@ dependencies:
   - "A.6.1"
   - "A.6.5"
   - "A.6.7"
+  - "A.6.RCD"
   - "C.23"
   - "E.10"
   - "E.18"
@@ -48,20 +50,7 @@ keywords:
 
 ### A.19.CHR:1 - Problem frame
 
-Part G (and adjacent patterns that operate on measurable slot coordinates, e.g. Q-bundles) repeatedly needs the same *lawful characterization core*:
-normalization, indicatorization, scoring, lawful aggregation, comparison, and selection under explicit admissibility constraints.
+A team compares options whose measurements use different units or scales. Normalization must preserve the distinctions its comparator needs; indicator choice must retain exact basis positions; scoring must respect the declared scale rules; selection must consume the comparisons actually made. Missing evidence can interrupt any stage.
 
-In the current corpus, many G patterns interleave:
-
-* universal CHR admissibility mechanics (CN-Spec/CG-Spec citation, set-return semantics, tri-state uncertainty handling, penalties routing),
-* CG-frame and crossing obligations (ReferencePlane, Bridge-only transport visibility, edition-sensitive pins), and
-* discipline/method/generator specifics (method families, candidate/criteria emitters, packaging concerns),
-
-inside one construct. This mixing makes it hard to universalize Part G, causes drift in defaults and guard semantics, and encourages “hidden tails”
-(implicit UNM/UINDM/ULSAM or implicit slot filling outside WorkPlanning).
-
-At the same time, the P2W split requires a uniform *planned baseline* object:
-selection can choose refs/policies, WorkPlanning can record planned slot fillings, and WorkEnactment can witness `FinalizeLaunchValues`.
-Without a canonical planned-baseline WorkPlanning plan item, teams tend to “smuggle” launch values into planning prose or into mechanism descriptions,
-which breaks auditability and makes crossings and edition sensitivity non-obvious.
+When each stage silently chooses its own editions, defaults or handling of uncertainty, the final selected set no longer follows from one recoverable basis. A shared suite makes those conditions explicit while leaving each operation's law in its own declaration. On a P2W path, the plan records the intended editions and references; actual applications supply their own bindings later.
 

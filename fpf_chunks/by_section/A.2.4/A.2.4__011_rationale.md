@@ -6,12 +6,12 @@ section_id: "A.2.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__011_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:10 — Rationale"
-line_start: 5234
-line_end: 5237
+line_start: 5195
+line_end: 5198
 dependencies:
   - "A.10"
   - "A.2"
@@ -32,6 +32,7 @@ keywords:
   - "claim"
   - "episteme"
   - "evidence-use relation"
+  - "first-use classification"
   - "provenance"
   - "role-shaped source phrase"
   - "source-use wording"

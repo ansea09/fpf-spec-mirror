@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.5"
-pattern_title: "Multi‑Method Dispatcher and MethodFamily Registry"
+pattern_title: "Method-Family Registry, Dispatch and Selected-Set Result Declaration"
 section_id: "G.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__019_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
+  - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:12 — Relations"
-line_start: 113434
-line_end: 113463
+line_start: 113756
+line_end: 113785
 dependencies:
   - "C.11"
   - "C.18"
@@ -32,6 +32,7 @@ dependencies:
   - "G.9-G.11"
   - "G.Core"
 keywords:
+  - "JointUseSet"
   - "RankedShortlist"
   - "SelectorOutcomeKind"
   - "Shortlist"
@@ -48,7 +49,7 @@ keywords:
   - "method-family registry"
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
-  - "selected-set publication"
+  - "selected-set result declaration"
   - "set-result outcome"
   - "tool choices are outside the core"
 ---
@@ -59,7 +60,7 @@ keywords:
 
 **Uses (conceptual dependencies; cited via pins and ids):**
 
-* Specification refs required by this result: `A.19 (CN‑Spec)`, `G.0 (CG‑Spec)`. Use `A.2.6` only when a `U.ClaimScope` or selected `U.ContextSlice` changes selection, applicability, or a receiver's justified reliance; validity and evaluation windows and intended-use restrictions follow the same conditional boundary.
+* Specification refs required by this result: `A.19.CN (CN‑Spec)`, `G.0 (CG‑Spec)`. Use `A.2.6` only when a `U.ClaimScope` or selected `U.ContextSlice` changes selection, applicability, or a receiver's justified reliance; validity and evaluation windows and intended-use restrictions follow the same conditional boundary.
 * Method identity and family grouping: `A.3.1` for every exact selectable `U.Method`; `A.3.2` only for the same C.2.1 episteme that substantively describes one already admitted Method; and C.2.1 or the defining declaration or pattern for the family relation cited by a registry row. G.5 creates none of those source facts.
 * Method composition and selected organization: `B.1.5` for the complete composite-Method qualification, `A.22` for an independently selected organization that does not constitute one Method, and `C.29` for algebraic, graph, matrix, embedding, neural, or other representation-lens use. G.5 consumes exact resulting references and does not construct them.
 
@@ -68,7 +69,7 @@ keywords:
 * Evidence and crossings: `G.6` for EvidenceGraph citations; `F.17` for exact local senses; `F.9` for the direct Bridge; C.2.1 for the separate bounded-use proposition; and `A.10` or `B.3` for reliance or assurance. Add a `CrossingBundle` under `E.18` or a GateCheck under `A.21` only when that named downstream use requires one. A G.7 calibration artifact remains a cited policy or evidence input; it does not define the Bridge, bounded use, reliance, or selector actuality.
 
 * Planning and enactment boundary: `A.15.2` identifies the `U.WorkPlan` used as `plannedBaselineRef`; A.15.3 defines any planned-filling rows kept inside that WorkPlan. G.5 does not redefine them.
-* Actual selector use and result availability: `A.19.SelectorMechanism` and A.6.1 for the actual `Select` application and bindings; A.13 for every precise performer's local-kind criterion, classification, same obtaining assignment, scope, situation, window, and evidence; A.15.1 for independent Work admission; A.2.1 for the assignment species and occurrence; and F.6 only for a current exact assignment-bound attribution. C.2.1 governs any persisted result episteme; A.10 and B.3 govern evidence reliance and assurance; the direct authority pattern governs authorization; and E.24.PUB governs an actual publication occurrence. A root-family assignment reference, temporal overlap, or omission from short wording supplies no attribution and removes no world-side fact. G.5 declarations and records create none of those neighboring facts.
+* Actual selector use and result availability: `A.19.SelectorMechanism` and A.6.1 for the actual `Select` application and bindings; A.13 for every precise performer's local-kind criterion, classification, same obtaining assignment, scope, situation, window, and evidence; A.15.1 for independent Work admission; A.2.1 for the assignment species and occurrence; and F.6 only for a current exact assignment-bound attribution. When asserted by the account or consumed by its receiving use, A.2.4 governs evidence use, A.10 governs reliance and provenance, G.11 governs currentness, C.2.1 governs a persisted result episteme, B.3 governs assurance, the direct authority pattern governs authorization, and E.24.PUB governs publication. Upstream CPM applications retain their local bindings without requiring separately admitted comparison Work unless that Work is asserted. A root-family assignment reference, temporal overlap, or omission from short wording supplies no attribution and removes no world-side fact. G.5 declarations and records create none of those neighboring facts.
 * Joint-use members outside Method dispatch: the direct identity pattern identifies every `memberRef`; `C.11` supplies a local choice result when one is current; another accepted decision or governed inclusion basis may establish all-member inclusion; E.4.PFR states framework-edition dependency or pairwise compatibility separately; `G.11` supplies currentness; and E.17/E.24.PUB plus the applicable access-carrier pattern supply exposure and source return. `G.5-6 DeclareSetResult` consumes the exact members and sufficient basis pins and emits only the selector-facing membership result.
 
 * Causal-use method dispatch: `C.28` when method selection involves causal effect, counterfactual comparison, causal fairness, causal policy, causal RL, or simulation-only causal-use claims.

@@ -6,12 +6,12 @@ section_id: "A.6.3:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__006_worked-cases.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:5 — Worked cases"
-line_start: 15206
-line_end: 15231
+line_start: 15188
+line_end: 15213
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -46,7 +46,7 @@ Query Q constructs Y from source X while preserving the same system and making o
 
 #### A.6.3:5.4 - Normalized publication card
 
-X and Y are separately identified epistemes about exact morphism f. Y reorders claims and normalizes names without changing their interpretation. `NormalizeTechCard : X -> Y` is an idempotent direct viewing. A later publication occurrence makes Y available through a TechCard form. Y is called `U.View` only if it conforms to the exact publication viewpoint; the form and carrier remain separate.
+X and Y are separately identified epistemes about exact morphism f. Y reorders claims and normalizes names without changing their interpretation. `NormalizeTechCard : X -> Y` is a direct viewing. For a repeat claim under the same scheme and normalization rules, identify the next normalization arrow `n_Y : Y -> Z`; establish `Z = Y` under C.2.1 and `compose(n_Y, NormalizeTechCard) ≃ NormalizeTechCard` under the substrate's declared arrow equivalence, with a fixture or proof. A later publication occurrence makes Y available through a TechCard form. Y is called `U.View` only if it conforms to the exact publication viewpoint; the form and carrier remain separate.
 
 #### A.6.3:5.5 - Cross-model coverage
 

@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "C.30.STRAT"
-pattern_title: "Stratification Wording Precision Restoration"
+pattern_title: "Clarify Stratification and Architecture Source Labels"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.STRAT.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.30.STRAT — Stratification Wording Precision Restoration"
-line_start: 67974
-line_end: 68228
+  - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
+line_start: 68183
+line_end: 68437
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,9 +46,23 @@ dependencies:
   - "G.6"
   - "I.2"
 keywords:
+  - "block"
+  - "cache"
+  - "expert"
+  - "gate"
+  - "ladder"
+  - "layer"
+  - "level"
+  - "precision restoration"
+  - "router"
+  - "rung"
+  - "source labels"
+  - "stack"
+  - "stratification"
+  - "tier"
 ---
 
-## C.30.STRAT - Stratification Wording Precision Restoration
+## C.30.STRAT - Clarify Stratification and Architecture Source Labels
 
 > **Type:** Architectural precision-restoration subpattern under `C.30`
 > **Status:** Stable

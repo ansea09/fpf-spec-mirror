@@ -6,12 +6,12 @@ section_id: "G.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:5 — Archetypal Grounding"
-line_start: 112402
-line_end: 112444
+line_start: 112838
+line_end: 112880
 dependencies:
   - "A.10"
   - "A.13"
@@ -81,7 +81,7 @@ A `SafetyClass` result uses an expression with a different F.17 source-local mea
 
 Before the candidate action is admitted as Work, A.13 recovers `SafetyEvaluatorSystem-17 : U.System` for exact action `SafetyAcceptanceEvaluationAction-17`. Its admitted `SafetyEvaluatorBoundary-17` contains the evaluation controller, its active decision state, and the input/output channels through which it applies the clause; it excludes the CAL declarations, measurement-result episteme, candidate, assignment, and containing team System. The action's scope is `SafetyAcceptanceClaimScope-17`, its working situation is `SafetyGateEvaluationSituation-17`, and its window is `2026-07-30T09:00:00Z` through `2026-07-30T09:20:00Z`. It is directed by `SafetyAcceptanceDecisionNorm-17`: apply the current clause to admissible current inputs, return `unknown` rather than force a threshold verdict when uncertainty crosses the boundary, and reject an input whose declared result shape is incompatible. The relevant conditions are clause edition, result-shape admissibility, measurement currentness, and uncertainty relative to the threshold.
 
-The local kind `SafetyAcceptanceEvaluatorSystemRole` is declared under A.2. Its membership criterion requires the stable work-facing contribution of safety-acceptance evaluation and goal-directed, condition-sensitive regulation under `SafetyAcceptanceDecisionNorm-17`: the holder must bind admissible inputs, choose the clause-defined verdict, and abstain or return `unknown` when the declared conditions require it. `SafetyEvaluatorDecisionTrace-17` shows `SafetyEvaluatorSystem-17` rejecting an incompatible result shape and returning `unknown` when the admissible uncertainty interval crosses the threshold; the system-boundary and runtime records show that those actions occurred within `SafetyEvaluatorBoundary-17`. A.10 evidence-use claims support the criterion facts, and the case independently classifies `SafetyEvaluatorSystem-17` under `SafetyAcceptanceEvaluatorSystemRole`. Neither the candidate Work nor the assignment supplies that classification. No Grade, autonomy result, characteristic profile, or stronger assurance claim is consumed here.
+The local kind `SafetyAcceptanceEvaluatorSystemRole` is declared under A.2. Its membership criterion requires the stable work-facing contribution of safety-acceptance evaluation and goal-directed, condition-sensitive regulation under `SafetyAcceptanceDecisionNorm-17`: the holder must bind admissible inputs, choose the clause-defined verdict, and abstain or return `unknown` when the declared conditions require it. `SafetyEvaluatorDecisionTrace-17` shows `SafetyEvaluatorSystem-17` rejecting an incompatible result shape and returning `unknown` when the admissible uncertainty interval crosses the threshold; the system-boundary and runtime records show that those actions occurred within `SafetyEvaluatorBoundary-17`. The cited decision-trace, system-boundary and runtime records support the criterion facts under A.2's membership rule; A.10 makes that source-to-use account recoverable. The case independently classifies `SafetyEvaluatorSystem-17` under `SafetyAcceptanceEvaluatorSystemRole`. Neither the candidate Work nor the assignment supplies that classification. No Grade, autonomy result, characteristic profile, or stronger assurance claim is consumed here.
 
 The same A.13 core uses `SafetyAcceptanceEvaluationAssignment`, a directly declared `U.SystemRoleAssignment` species under A.2.1. The species defines holder, assigned-kind, and evaluation-candidate participant meanings; its predicate appoints the holder to evaluate that candidate under the applicable clause for the stated scope, situation, and window. `SafetyAcceptanceEvaluationAssignment-17` obtains with `SafetyEvaluatorSystem-17` as holder, `SafetyAcceptanceEvaluatorSystemRole` as assigned-kind value, and `C-17` as evaluation candidate. Its maximal uninterrupted predicate-true interval covers the full stated window.
 

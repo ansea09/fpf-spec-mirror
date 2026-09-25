@@ -6,12 +6,12 @@ section_id: "A.11:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__012_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:7 — Rationale"
-line_start: 25080
-line_end: 25085
+line_start: 24967
+line_end: 24972
 dependencies:
   - "A.6.P"
   - "A.6.RCD"

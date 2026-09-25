@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3"
-pattern_title: "Trust and Assurance Calculus"
+pattern_title: "Is This Claim Supported for This Use? — Trust and Assurance Calculus"
 section_id: "B.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.3 — Trust and Assurance Calculus"
+  - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:4 — Solution"
-line_start: 41960
-line_end: 42082
+line_start: 41909
+line_end: 42031
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,6 +20,7 @@ dependencies:
   - "A.21"
   - "A.22"
   - "A.6.1"
+  - "B.1.5"
   - "C.16"
   - "C.16.Q"
   - "C.2.1"
@@ -29,6 +30,7 @@ dependencies:
   - "E.24.PUB"
   - "F.10"
   - "G.11"
+  - "G.5"
   - "G.6"
 keywords:
 ---
@@ -150,7 +152,7 @@ Design evidence and run evidence may support different claims. Produce separate 
 
 When an assurance argument depends on a causal-use claim, consume the exact `C.28` result and its stated supported and unsupported uses. B.3 does not re-run causal identification. An unsupported causal-use result narrows, blocks, or leaves the assurance claim unresolved; it does not become a low universal reliability coordinate.
 
-When composition, fallback, selection, or family organization among Methods matters to the assurance argument, use `A.22` to select the exact structure for that question and use the local designator `MethodRelationStructure` only for that selected structure. Do not introduce a universal method-relation kind or infer structure from a list of Methods.
+When Method composition, fallback, selection or family organization matters to the assurance argument, first use B.1.5, G.5 or the direct predicate for the relied-on fact. Use A.22 only when a separately selected organization itself changes the assurance question; then recover its selection basis and all four identity discriminators. MethodRelationStructure is a local designator for that selected structure, not a universal kind or a required record for every composition claim.
 
 #### B.3:4.10 - Use Working-Model declarations only for what they state
 

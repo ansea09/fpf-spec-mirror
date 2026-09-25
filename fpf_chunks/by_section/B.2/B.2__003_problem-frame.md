@@ -6,12 +6,12 @@ section_id: "B.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__003_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:1 — Problem Frame"
-line_start: 40522
-line_end: 40527
+line_start: 40452
+line_end: 40457
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,5 +47,5 @@ keywords:
 
 A Meta-Holon Transition is not a new root ontology, generic emergence label, or mathematical graph result. It is a whole-reidentification claim about an exact holon already recognized through A.1 construction, identity, part relations, whole-level characteristics, and a direct kind-specific pattern.
 
-The old whole remains a possible explanatory object. Use B.2 only when the old whole is no longer the right EntityOfConcern for the current claim. The candidate new whole can be recognized as a `U.System`, `U.Episteme`, `U.Method`, `U.Work`, `U.Discipline`, or another holon kind only after `E.24.UK` has admitted that public kind and the exact candidate satisfies A.1 plus the direct kind-specific criterion.
+The B.2 comparison determines whether the old whole remains the right EntityOfConcern for the current claim; retain it when its identity rule accommodates the change. The candidate new whole can be recognized as a `U.System`, `U.Episteme`, `U.Method`, `U.Work`, `U.Discipline`, or another holon kind only after `E.24.UK` has admitted that public kind and the exact candidate satisfies A.1 plus the direct kind-specific criterion.
 

@@ -6,12 +6,12 @@ section_id: "E.10.D2:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__015_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:13 — Rationale"
-line_start: 87326
-line_end: 87331
+line_start: 87646
+line_end: 87651
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -34,17 +34,20 @@ dependencies:
   - "F.9"
   - "G.11"
 keywords:
-  - "Description episteme"
-  - "DescriptionContext"
+  - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"
+  - "checkable claims"
+  - "description episteme"
+  - "harness"
+  - "publication"
+  - "representation"
   - "specification use"
-  - "testable"
-  - "verifiable"
+  - "viewpoint"
 ---
 
 ### E.10.D2:13 - Rationale
 
-The durable core is a two-object distinction: one independently identified EntityOfConcern and one C.2.1 episteme carrying claims about it. Specification is a checkable use of that episteme. Viewpoint selection, view membership, scope, model-use structure, grounding, evidence, assurance, edition, publication, carrier, representation, and work have different reasons to obtain and different identity rules.
+The durable core distinguishes the subject being described from the claim-bearing use of a C.2.1 episteme. Each identity is recovered independently; C.2.1 permits the same episteme to serve both uses in a self-description. Specification is a checkable use of that episteme. Viewpoint selection, view membership, scope, model-use structure, grounding, evidence, assurance, edition, publication, carrier, representation, and work have different reasons to obtain and different identity rules.
 
 Making those neighbors fields of a description tuple would erase those rules and make formality, publication, approval, or a shared context label look constitutive. Requiring all of them for every description would also make ordinary use needlessly heavy. Receiving-use-first routing preserves both reliability and economy: recover the exact constitution, add the one neighbor needed for the next action, then stop.
 

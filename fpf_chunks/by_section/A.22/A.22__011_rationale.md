@@ -6,12 +6,12 @@ section_id: "A.22:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__011_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:10 — Rationale"
-line_start: 37912
-line_end: 37919
+line_start: 37856
+line_end: 37863
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -73,5 +73,5 @@ FPF needs one general selected-structure kind because many useful claims depend 
 
 The selected design keeps A.22 small enough for first use. A practitioner can write one `StructureQuestionCard@Project` and stop. Heavier describing-use viewpoint selection, independently selected model-use structure, A.6.6 base-dependence, extraction, lens, evidence, and structure-use return records are used only when the next use would otherwise hide loss, source-basis dependence, or a non-structure claim kind.
 
-The reason to keep C.30 separate is architectural clarity. Architecture is selected structure for an exact described holon and architecture concern; architecture descriptions are Description epistemes and specification-use cases or views over that claim, while publications only make those epistemes or views available. A.22 supplies the structure substrate, not the architecture ontology.
+C.30 defines the direct `ArchitectureRelation` between one exact holon and one selected A.22 structure. An architecture claim states whether that relation obtains, or describes candidate or expected structure. Architecture descriptions and views are epistemes; publication makes them available. A.22 supplies the selected structure and its identity basis.
 

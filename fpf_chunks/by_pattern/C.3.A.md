@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.A.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
-line_start: 51853
-line_end: 52313
+line_start: 51996
+line_end: 52456
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -445,7 +445,7 @@ This Method–Work slice is conditional; it is not a definition that makes every
 
 When the Method–Work use is current, it has two different boundaries.
 
-**Prospective entry.** Before execution, a guard may decide that a holder capability, method, intended `U.WorkPlan`, JobSlice, and candidate inputs are sufficient to start. That decision SHALL NOT claim that Work already occurred. The capability instance, capability statements or currentness assessments, fit predicates, WorkPlan, JobSlice, and entry record remain distinct.
+**Prospective entry.** Before execution, a guard may decide that a holder capability, method, intended `U.WorkPlan`, JobSlice, and candidate inputs are sufficient to start. That decision SHALL NOT claim that Work already occurred. The holder's actual ability, ability statements or currentness assessments, fit predicates, WorkPlan, JobSlice, and entry record remain distinct.
 
 **Actual result or acceptance.** When performed Work is current, the guard SHALL identify exact `W : U.Work` as an independently grounded, world-side, dated 4D Work occurrence under A.15.1. `W` is not the `U.Work` kind, JobSlice, capability, plan item, log, card, row, or assertion. A plan, log, result record, or assurance record about W remains distinct from W; when that object is a claim-bearing episteme, its content designates W.
 

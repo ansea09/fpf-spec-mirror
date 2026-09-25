@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.6"
-pattern_title: "Unified Scope Mechanism (USM): Context Slices & Scopes"
+pattern_title: "Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
 section_id: "A.2.6:6"
 section_title: "Normative Definitions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__008_normative-definitions.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
+  - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:6 — Normative Definitions"
-line_start: 5726
-line_end: 5936
+line_start: 5687
+line_end: 5899
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -203,14 +203,16 @@ A `BoundedModelUseStructure` may be selected over exact model-applicability and 
 
 #### A.2.6:6.4 - `U.WorkScope` — scope of doing Work (capability)
 
-**Carrier.** `U.Capability` (a system’s ability to deliver specified `U.Work`).
+**Subject and declared basis.** A qualified A.2.2 ability claim about an independently identified holder System designates its `U.WorkScope`. This is the set-valued work-condition basis of that claim, not a scope carried by a separate capability individual.
 
 **Meaning.** `U.WorkScope` is the set of `U.ContextSlice` values under which a capability's deliverability claim may be evaluated. Work-measure targets and qualification windows are checked separately at use time; they are not members or identity fields of the scope.
 
 **Expression.** The capability declaration designates an exact `U.WorkScope` expressed only as conditions over `U.ContextSlice`: environment, versioned standards or platforms, resource regimes, exact local senses when current, and `gammaTime` only when time changes membership. Quantitative deliverables and qualification windows are not part of the scope value:
 * Declare targets as **work-measure target sets** (e.g., latency <= L, throughput >= T, tolerance <= epsilon) bound in guards (WG‑2).
 * Declare inspection/recertification policies as **qualification-window policies** bound in guards (WG‑3).
-The use‑time admission requires **all** of: `WorkScope covers JobSlice` **AND** `WorkMeasures satisfied` **AND** `qualificationWindowHolds(capability, qualificationWindowPolicy, evaluationTime)`.
+The use‑time admission requires **all** of: `WorkScope covers JobSlice` **AND** `WorkMeasures satisfied` **AND** `qualificationWindowHolds(holderAbilityClaim, qualificationWindowPolicy, evaluationTime)`.
+
+Here `holderAbilityClaim` supplies the identified holder, claimed work conditions and bounds, and the declared support basis to which the qualification policy applies. The policy evaluates reliance at the stated time; its failure does not itself prove a loss of actual ability.
 
 **Method–Work gating.** A Work step’s guard MUST check that the target slice is **covered** by the capability’s Work scope **and** that required measures and qualification windows are satisfied.
 
@@ -230,8 +232,8 @@ These facets are **separate** from `U.WorkScope` and live in the **R‑lane** (a
 **Relation to other scopes (normative).**
 * If the publication is **about an episteme `E`**:
   `PublicationScope(view_E) ⊆ ClaimScope(E)`.
-* If the publication is **about a capability `C`**:
-  `PublicationScope(view_C) ⊆ WorkScope(C)`.
+* If the publication presents **a qualified holder-ability claim `C`** for work admission:
+  `PublicationScope(view_C) ⊆ WorkScope(C)`, where `WorkScope(C)` is the work-condition basis designated by that claim. Any relied-on episteme ClaimScope remains a separate constraint; stating the ability in an episteme does not turn its WorkScope into ClaimScope.
 * If the publication is **about a composition**, its scope is a subset of the intersection of the exact contributing scopes. When exact local senses require translation, use section 7.5 for each affected source scope: obtaining F.9 Bridge, separate affirmative C.2.1 use claim, and current A.10 or B.3 reliance before the returned scopes are intersected.
 
 **Expression.** Declare `U.PublicationScope` as an exact predicate over only the `U.ContextSlice` selectors that restrict publication use: for example versioned standards, environment, audience, interface availability, exact local senses, or `gammaTime` when time changes membership. It may be narrower than the underlying scope but must not be wider.

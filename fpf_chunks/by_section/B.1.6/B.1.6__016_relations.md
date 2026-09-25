@@ -6,12 +6,12 @@ section_id: "B.1.6:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__016_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:10 — Relations"
-line_start: 40477
-line_end: 40486
+line_start: 40407
+line_end: 40416
 dependencies:
   - "A.1"
   - "A.10"
@@ -27,6 +27,7 @@ dependencies:
   - "B.1"
   - "B.1.4"
   - "B.1.6"
+  - "B.2"
   - "B.2-family"
   - "B.2.P"
   - "C.13"
@@ -61,6 +62,6 @@ keywords:
 - Coordinates with `A.15.5` for work-entry readiness, full-kit condition, and resource readiness before work entry; B.1.6 may cite those refs but does not decide readiness.
 - Coordinates with `A.15.1` for exact Work temporal parts, episodes, operational parts, overlaps, retries, resumptions, and later occurrences; with `B.1.4` only for bounded aggregation of already recovered temporal relations; and with `C.27` for temporal-claim adequacy.
 - Coordinates with `A.1`, `B.1`, `A.14`, and `C.13` for holon delimitation, part-whole, proper temporal restriction and `PhaseOf` for a non-Work carrier, and constructive grounding.
-- Coordinates with `A.3.4` for transformation. When whole reidentification or emergence-family wording is current, `B.2.P` tests the problem and the relevant B.2-family pattern defines or constrains the recovered claim.
+- Coordinates with `A.3.4` for transformation. Use `B.2` for a remaining whole-identity question and `B.2.P` for unresolved emergence-family wording; the relevant B.2-family pattern defines or constrains the recovered claim.
 - Coordinates with `C.16` for resource Characteristics and measurement results; `A.10` and `G.6` for provenance; `G.11` for currentness; `C.29` for representation or mathematical-lens claims; A.15.1 for Work relations; A.14 and B.1.4 for non-Work part or phase relations and their bounded aggregation; E.17 for publication; and the applicable comparison, assurance, transformation, reidentification, or decision pattern when those uses are current.
 

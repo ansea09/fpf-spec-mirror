@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.6"
-pattern_title: "Unified Scope Mechanism (USM): Context Slices & Scopes"
+pattern_title: "Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
 section_id: "A.2.6:21"
 section_title: "Relations - Cross-Pattern Coordination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__023_relations-cross-pattern-coordination.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
+  - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:21 — Relations - Cross-Pattern Coordination"
-line_start: 6526
-line_end: 6553
+line_start: 6489
+line_end: 6516
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -37,7 +37,7 @@ keywords:
 
 * **G is Claim scope.** Use set algebra (∩ / SpanUnion).
 * **F** remains the expression rigor (C.2.3); **R** captures evidence currentness and bounded reliance. Observed loss may bear on the translation-use claim; its permitted-loss tolerance remains in that claim rather than in G or the Bridge profile.
-* **Weakest‑link.** On dependency paths: **F\_composite = min(F)**, **R\_composite = min(R)**; **G** follows §7.2–§7.3 (set rules).
+* **Composition.** F follows C.2.3's weakest-essential-support bound. R follows the justified support-composition model or non-aggregate synthesis under C.2.2. G follows §7.2–§7.3 (set rules).
 
 #### A.2.6:21.2 - With Formality (C.2.3)
 

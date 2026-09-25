@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.11"
-pattern_title: "Method Quartet Harmonisation"
+pattern_title: "Distinguish Method, MethodDescription, Work and Outputs"
 section_id: "F.11:12"
 section_title: "Safe reasoning moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__013_safe-reasoning-moves.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.11 — Method Quartet Harmonisation"
+  - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:12 — Safe reasoning moves"
-line_start: 105979
-line_end: 105991
+line_start: 106401
+line_end: 106413
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -49,7 +49,7 @@ keywords:
 4. **State enactment only when supported.** Name the Work, Method, and basis for the enactment claim.
 5. **State description use separately.** Say whether and how the Work or performing System used, followed, deviated from, or conformed to the versioned description, and cite the rule that defines or tests that claim; otherwise return the bounded missing-governor result.
 6. **Locate outputs.** Relate a signal or changed value to the Work through its direct pattern.
-7. **Bind agency exactly.** Use actual System, local system-role kind, obtaining assignment, and performed-Work attribution where material.
+7. **Bind agency exactly.** Recover the A.13 core for each performer before independent A.15.1 Work admission; add F.6 only for precise assignment-bound attribution through the same obtaining assignment.
 8. **Use outcome evidence.** Observations about the Work support evaluation; commands and approvals alone do not.
 9. **Preserve history.** A new description does not alter past Work or its evidence.
 10. **Recover words locally.** Use F.9 only when a genuine relation between local meanings is part of the question.

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.7"
-pattern_title: "Concept-Set Table"
+pattern_title: "Display Source-Local Comparisons in a Concept-Set Table"
 section_id: "F.7:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__014_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.7 — Concept-Set Table"
+  - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:13 — Relations"
-line_start: 104224
-line_end: 104239
+line_start: 104632
+line_end: 104647
 dependencies:
   - "A.6.9"
   - "B.3"

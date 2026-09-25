@@ -6,12 +6,12 @@ section_id: "E.10.DEV:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__006_worked-slices.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:5 — Worked Slices"
-line_start: 85733
-line_end: 85771
+line_start: 86053
+line_end: 86091
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -55,7 +55,7 @@ For the capability reading, recover the named Work family, supported envelope, q
 
 Source wording: `The organization evolved after the platform rollout.`
 
-Identify the rollout as intervention Work. For the separate organization-change claim, identify the organization and the changed working relations. Use the applicable organizational DPF or domain Method to establish which working relations changed and under what conditions, with `A.3.4` for the actual change and the direct patterns for the other claimed relations. Recover the roles, assignments, interfaces, routines, capabilities, observed organization Work and effects, period, evidence, or cultural relations on which that claim depends. State any benefit under its declared basis and supporting evidence.
+If the claim asserts actual rollout Work, recover its performer and occurrence independently under A.13 and A.15.1. For the separate organization-change claim, identify the organization and the changed working relations. Use the applicable organizational DPF or domain Method to establish which working relations changed and under what conditions, with `A.3.4` for the actual change and the direct patterns for the other claimed relations. Recover the roles, assignments, interfaces, routines, capabilities, observed organization Work and effects, period, evidence, or cultural relations on which that claim depends. State any benefit under its declared basis and supporting evidence.
 
 #### E.10.DEV:5.4 - Population and archive countercase
 

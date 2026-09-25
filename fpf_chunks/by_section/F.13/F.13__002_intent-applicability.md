@@ -6,15 +6,16 @@ section_id: "F.13:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__002_intent-applicability.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:1 — Intent & applicability"
-line_start: 106300
-line_end: 106309
+line_start: 106724
+line_end: 106733
 dependencies:
   - "F.1"
-  - "F.10"
+  - "F.17"
+  - "F.18"
   - "F.2"
   - "F.3"
   - "F.5"
@@ -23,19 +24,21 @@ dependencies:
   - "F.9"
 keywords:
   - "deprecation"
-  - "evolution"
-  - "merging terms"
-  - "renaming"
-  - "splitting terms"
+  - "historical reading"
+  - "lexical continuity"
+  - "local aliases"
+  - "renaming labels"
+  - "retirement"
+  - "splitting and merging labels"
 ---
 
 ### F.13:1 - Intent & applicability
 
-**Intent.** Provide a **conceptual discipline** for evolving labels (for **SenseCells**, **Concept‑Set rows**, and **Role Description names**) so that:
+**Intent.** Preserve historical reading when source-local expressions, Concept-Set row labels, or names of governed values and their descriptions change:
 
 * new names **clarify** without erasing what earlier texts meant;
 * aliases remain **local to Contexts**;
-* genuine sense changes cause **explicit splits/merges** (F.7/F.9), not cosmetic renames.
+* a changed meaning is recovered under its defining rule and receives an explicit revision, replacement, split, merge or retirement disposition; a rename cannot supply that decision.
 
-**Applicability.** Whenever you consider **renaming**, **aliasing**, **deprecating**, or **retiring** any label in FPF: a SenseCell label in a Context, a Concept‑Set row label, or a Role Description name.
+**Applicability.** Use this when changing a source-local expression, an external label or address of a SchemeSenseCell, a Concept-Set row label, or the name of a governed value or description. First say which of these is changing; their identity rules differ.
 

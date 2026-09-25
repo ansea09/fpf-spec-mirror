@@ -6,12 +6,12 @@ section_id: "C.26:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__011_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:10 — Rationale"
-line_start: 61130
-line_end: 61137
+line_start: 61336
+line_end: 61343
 dependencies:
   - "A.10"
   - "A.15"

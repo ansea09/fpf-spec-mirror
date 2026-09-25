@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.P.DR"
-pattern_title: "Declarative Representation Precision Restoration"
+pattern_title: "Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
 section_id: "C.2.P.DR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__007_worked-slices.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.2.P.DR — Declarative Representation Precision Restoration"
+  - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:5 — Worked slices"
-line_start: 50565
-line_end: 50659
+line_start: 50708
+line_end: 50802
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -70,7 +70,7 @@ A graph publication or pattern publication remains a separately governed publica
 
 Wording: "The evidence path authorizes release."
 
-Repair: name the claim or effect and recover its evidence or provenance relation through `A.10`. Release, permission, or gate passage requires the authority, gate, or release pattern that defines or constrains that claim. This pattern is used only if `path` wording itself is causing the representation to be overread as a permission route.
+Repair: name the claim or bounded use and recover the descriptive evidence-provenance path through `A.10`, with each cited direct relation established under its own subject pattern. Release, permission, or gate passage requires the authority, gate, or release pattern that defines or constrains that claim. This pattern is used only if `path` wording itself is causing the representation to be overread as a permission route.
 
 #### C.2.P.DR:5.3 - Query plan and access path
 
@@ -126,7 +126,7 @@ Repair:
 ```text
 DeclarativeRepresentationRepair:
   VisibleExpressionOrArtifact: CRISPR guide-selection table with off-target scores and candidate ranking
-  CurrentDirectObjectOrRelation: candidate-guide comparison and exact characteristic values under C.16 or A.19; add an A.10 evidence relation only when it independently obtains
+  CurrentDirectObjectOrRelation: candidate-guide comparison and exact characteristic values under C.16 or A.19; use A.10 to recover any independently established direct support relation needed for reliance
   RepresentationOrCorrespondenceUse: proposed correspondence from this table's candidate and off-target-score representation elements to the exact candidate-guide comparison and exact characteristic values named above; C.29 lens-use account not yet supplied
   SourceOrPublicationRelation: none
   TemptingStrongerActionClaim: ranked row approves biological intervention

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.AD.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
-line_start: 66998
-line_end: 67463
+line_start: 67207
+line_end: 67672
 dependencies:
   - "A.1"
   - "A.10"
@@ -63,15 +63,14 @@ dependencies:
   - "F.18"
   - "G.5"
 keywords:
-  - "ArchitectureDescription@Context"
+  - "ArchitectureDescription"
   - "architecture description"
-  - "architecture description use card"
-  - "architecture structural view"
-  - "candidate-description boundary"
-  - "correspondence"
+  - "cross-view correspondence"
+  - "freshness"
+  - "multi-view description"
   - "source return"
-  - "specification-use boundary"
-  - "viewpoint"
+  - "specification use"
+  - "viewpoint conformance"
 ---
 
 ## C.30.AD - Architecture Description Adequacy

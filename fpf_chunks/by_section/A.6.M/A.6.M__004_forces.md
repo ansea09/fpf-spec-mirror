@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.M"
-pattern_title: "Module Relation Repair"
+pattern_title: "Module and Interface Claim Repair"
 section_id: "A.6.M:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.M — Module Relation Repair"
+  - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:3 — Forces"
-line_start: 20486
-line_end: 20498
+line_start: 20336
+line_end: 20348
 dependencies:
   - "A.10"
   - "A.20"

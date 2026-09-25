@@ -6,12 +6,12 @@ section_id: "E.10:5"
 section_title: "Vertical Stratification (four strata; no cross-bleed)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__007_vertical-stratification-four-strata-no-cross-bleed.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:5 — Vertical Stratification (four strata; no cross-bleed)"
-line_start: 84404
-line_end: 84420
+line_start: 84723
+line_end: 84739
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ keywords:
 
 ### E.10:5 - Vertical Stratification (four strata; no cross-bleed)
 
-> **Rule V‑0 (Strata).** Every lexical item in a conformant text belongs to exactly one **stratum**:
+> **Rule V‑0 (Strata).** Every technical token whose lexical stratum is being governed belongs to exactly one **stratum**:
 
 1. **Kernel** — admitted `U.*` names, core relation kinds, and invariants (for example `U.Holon`, `U.SystemRoleAssignment`, `U.Method`, `U.Work`, and `U.PromiseContent`).
 2. **Extension patterns** — CAL, LOG, and CHR exports (e.g., **Sys‑CAL**, **KD‑CAL**, **Agency‑CHR**) that **extend** but do not override Kernel.
@@ -73,5 +73,5 @@ keywords:
 
 **V-3 (Citation style).** When a local Tech designation changes interpretation or action, its first use names the source or practice provenance and effective scheme needed to read that use—for example, `ReviewerSystemRole` under the JournalReview-2026 definition. Reuse under another local meaning first compares the exact governed values; use F.9 only if a direct Bridge between distinct exact cells actually obtains. A suffix may serve as a locator, but it establishes neither kind identity, admission, nor assignment.
 
-**V-4 (Firewall).** Tooling and Pedagogy idioms remain outside Kernel prose (DevOps Lexical Firewall). CI/CD jargon, file formats, and API names are not admitted in Core definitions. Pedagogy may use them only as Plain-register examples with Tech anchors present.
+**V-4 (Firewall).** Abstract Core definitions exclude incidental implementation idioms under E.5.1. Exact concrete syntax may remain when a rule governs that publication form, protocol or grammar and the syntax is necessary for its conformance condition; name the subject and edition/use boundary. Runnable teaching programs remain in Pedagogy/Tooling, with conceptual references and Tech anchors as applicable. Mathematical expressions retain E.5.2 interpretation, operative-use and mapping duties.
 

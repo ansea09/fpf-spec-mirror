@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.3"
-pattern_title: "U.PromiseContent (Promise Content)"
+pattern_title: "U.PromiseContent — Promised Outcomes and Acceptance Criteria"
 section_id: "A.2.3:12"
 section_title: "Didactic quick distinctions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__019_didactic-quick-distinctions.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.3 — U.PromiseContent (Promise Content)"
+  - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:12 — Didactic quick distinctions"
-line_start: 4971
-line_end: 4980
+line_start: 4932
+line_end: 4941
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -35,7 +35,6 @@ dependencies:
   - "E.10"
   - "F.12"
   - "F.9"
-  - "U.Capability"
   - "U.ClaimScope"
   - "U.Episteme"
   - "U.Method"

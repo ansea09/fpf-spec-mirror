@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30.P"
-pattern_title: "Architecture and Structure Precision Restoration"
+pattern_title: "Clarify Architecture and Structure Wording (Precision Restoration)"
 section_id: "C.30.P:5"
 section_title: "Subject pattern assignments"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__007_subject-pattern-assignments.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.30.P — Architecture and Structure Precision Restoration"
+  - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:5 — Subject pattern assignments"
-line_start: 67862
-line_end: 67894
+line_start: 68071
+line_end: 68103
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,6 +49,13 @@ dependencies:
   - "E.8"
   - "G.5"
 keywords:
+  - "architecture description"
+  - "architecture wording"
+  - "diagram"
+  - "model"
+  - "precision restoration"
+  - "structural view"
+  - "structure wording"
 ---
 
 ### C.30.P:5 - Subject pattern assignments

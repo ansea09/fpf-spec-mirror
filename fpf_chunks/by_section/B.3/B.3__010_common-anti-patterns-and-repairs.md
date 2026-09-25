@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3"
-pattern_title: "Trust and Assurance Calculus"
+pattern_title: "Is This Claim Supported for This Use? — Trust and Assurance Calculus"
 section_id: "B.3:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__010_common-anti-patterns-and-repairs.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.3 — Trust and Assurance Calculus"
+  - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:8 — Common anti-patterns and repairs"
-line_start: 42166
-line_end: 42178
+line_start: 42115
+line_end: 42127
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,6 +20,7 @@ dependencies:
   - "A.21"
   - "A.22"
   - "A.6.1"
+  - "B.1.5"
   - "C.16"
   - "C.16.Q"
   - "C.2.1"
@@ -29,6 +30,7 @@ dependencies:
   - "E.24.PUB"
   - "F.10"
   - "G.11"
+  - "G.5"
   - "G.6"
 keywords:
 ---

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.0"
-pattern_title: "Onboarding Glossary (NQD & E/E‑LOG)"
+pattern_title: "Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
 section_id: "A.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__007_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
+  - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:6 — Bias-Annotation"
-line_start: 1470
-line_end: 1477
+line_start: 1471
+line_end: 1478
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

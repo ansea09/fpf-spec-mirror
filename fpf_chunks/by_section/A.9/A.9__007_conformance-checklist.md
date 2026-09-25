@@ -1,38 +1,41 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.9"
-pattern_title: "Cross‑Scale Consistency (C‑3)"
+pattern_title: "Choose and Check an Aggregation Law for the Intended Result"
 section_id: "A.9:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__007_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.9 — Cross‑Scale Consistency (C‑3)"
+  - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:6 — Conformance Checklist"
-line_start: 24168
-line_end: 24177
+line_start: 24054
+line_end: 24064
 dependencies:
-  - "A.1"
-  - "A.8"
-  - "A.9"
+  - "A.19.CN"
+  - "A.19.ULSAM"
   - "B.1"
-  - "U.Holon"
+  - "B.2"
+  - "C.29"
 keywords:
-  - "aggregation"
-  - "composition"
-  - "holarchy"
-  - "invariants"
-  - "roll-up"
+  - "aggregation law"
+  - "bounds"
+  - "cross-scale consistency"
+  - "dependency model"
+  - "intended result"
+  - "ordered composition"
+  - "singleton identity"
 ---
 
 ### A.9:6 - Conformance Checklist
 
-| ID          | Requirement                                                                                                                                                                                      | Purpose (manager‑friendly)                                |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- |
-| **CC‑A9‑1** | Every calculus that defines an aggregation operator `Γ` **SHALL** provide a plain‑language note and a formal argument for how `Γ` upholds **all five invariants** (IDEM, COMM, LOC, WLNK, MONO). | Makes the Standard both human‑readable and checkable.     |
-| **CC‑A9‑2** | A *singleton fold* (` card (parts) = 1 `) **MUST** return the part unaltered (IDEM). | Locks the recursion base case. |
-| **CC‑A9‑3** | Folding two independent sub‑graphs in any order or on any compute site **MUST** yield equal results (COMM + LOC).                                                                                | Enables safe parallel work and reproducible analytics.    |
-| **CC‑A9‑4** | No aggregate metric **MAY** exceed the minimum of that metric across parts unless an **MHT** is declared (WLNK).                                                                                 | Prevents stealth inflation of reliability or truth.       |
-| **CC‑A9‑6** | A declared **Meta‑Holon Transition** **SHALL**: (a) name the new supervisory holon; (b) cite the data triggering the transition; (c) restate how the quintet holds at the new scale.             | Ensures emergence is captured explicitly, not hand‑waved. |
+| ID | Requirement | Purpose |
+|---|---|---|
+| **CC-A9-1** | Name the intended result, inputs, operation, subject model, applicability conditions and justified law. Add Characteristic, Scale, units and measurement conditions for the quantitative branch. | Recover what the result means without excluding non-quantitative composition. |
+| **CC-A9-2** | Select only the property needed by the current action and supply its applicable argument or warranted test. Distinguish singleton identity from idempotence and repeated-source handling. | Avoid a compulsory universal algebra. |
+| **CC-A9-3** | Claim order or partition independence only under the actual model and recombination/numerical conditions. | Preserve lawful sequential or parallel composition. |
+| **CC-A9-4** | Use a weakest-part bound only for a result and dependency model that justify it; distinguish a bound from a calculated value. | Prevent both unsupported optimism and a false universal cap. |
+| **CC-A9-5** | Return the warranted result, bound, separate inputs or missing premise; reopen the conclusion when its supporting condition fails. | Make incomplete evidence usable without inventing a scalar. |
+| **CC-A9-6** | A claimed Meta-Holon Transition satisfies B.2's existing-whole comparison and the candidate whole's identity rule. | Keep reidentification independent of a model failure. |
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.MOVE"
-pattern_title: "Move and Readiness Wording Precision Restoration"
+pattern_title: "Move, Readiness and Trajectory Wording Precision Restoration"
 section_id: "E.10.MOVE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
+  - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:4 — Solution"
-line_start: 85891
-line_end: 86020
+line_start: 86211
+line_end: 86340
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -111,7 +111,7 @@ Stay in E.10.MOVE only while `readiness`, `ready`, `full kit`, `work entry`, or 
 | A patient, system, or other subject has a value in a still-hidden state frame | `A.19.SPR`, then the subject pattern that defines or tests the recovered value. |
 | An exact system-role assignment satisfies a by-value assignment-state condition | `A.2.5`; keep its predicate, world-side relation occurrence, and assertion episteme distinct. |
 | One intended performance satisfies a work-entry criterion | `A.15.5`; its local readiness result is not a gate decision or performed target Work. |
-| A distinct `OperationalGate(profile)` consumes declared checks and publishes a decision | `A.21`; a ready label or readiness result alone is not gate passage. |
+| A named gate decides whether one bounded action or transition may proceed under an applicable profile | `A.21` combines independently established check results into a `GateDecisionResult`; publication is a separate optional use. A ready label or readiness result alone is not gate passage. |
 | A publication use, permission claim, preparation Work, or target Work is meant | `E.17`, the direct permission pattern, or `A.15.1` as applicable. Keep each claim separate. |
 
 If the direct pattern and value were already clear, bypass this table and use that pattern immediately.
@@ -130,7 +130,7 @@ Ask only the questions the receiving use needs:
 
 1. What exact bearer or represented subject is positioned or ordered?
 2. What identity, continuity, membership, lineage, or edition rule matters?
-3. Which declared position space, state space, configuration space, or possibility space and edition is relied on, if any?
+3. Which declared position, state, configuration or possibility space is relied on, if any? Name a defining episteme edition separately when the use depends on it.
 4. What is the ordering or reference domain—time, event, generation, plan order, graph order, or another index?
 5. What counts as a position, segment, branch, interval, generation, or edge for this use?
 6. What posture does the claim need—for example, actual, observed, reconstructed, predicted, simulated, proposed, recommended, or planned?
@@ -145,7 +145,7 @@ These are recovery questions, not fields of a new `Trajectory`, `TrajectoryAccou
 | Proposed, recommended, or planned route | `C.22.2`, `C.11.CRC`, `C.11`, A.15.2, and the domain Method. Recommendation, choice, WorkPlan, performed Work, and effect remain separate. |
 | Population or lineage history | `C.36` only for the cultural case; otherwise use an admitted domain owner or return the named non-cultural population or lineage architecture gap. Do not model membership turnover as one-holder continuity. |
 | NQD/OEE search history, archive or front succession, or possibility-space projection | `C.17`–`C.19`, `G.5`, `G.11`, and `C.29` as applicable. An archive is not automatically a population. |
-| Language-state move responsibility | `A.16.0` for its exact language-state bearer, position space, move lineage, branching, merging, or loss, and responsibility use. The specialized account is not a general template. |
+| Language-state history needed by a responsibility question | `A.16.0` supplies an ordinary account of the relevant source editions, position claims, moves, lineage and losses. Any actual responsibility change needs its independently governed participants, scope, time and instituting facts under §4.6; language-state movement does not supply that relation. |
 | Mathematical trajectory lens | `C.29` for the selected representation and explicit correspondence, with declared losses; keep the represented subject under its direct owner. |
 | Ordinary or quote-only wording | Preserve it and stop unless a later FPF use relies on a stronger claim. |
 

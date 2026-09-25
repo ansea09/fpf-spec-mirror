@@ -6,12 +6,12 @@ section_id: "A.6.B:11"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:11 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 12831
-line_end: 12841
+line_start: 12787
+line_end: 12797
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -44,7 +44,6 @@ keywords:
   - "MAY"
   - "MUST"
   - "MUST NOT"
-  - "MUST NOT hide a gate predicate (that is A-)"
   - "SHALL"
   - "SHOULD"
   - "SHOULD NOT"
@@ -53,7 +52,6 @@ keywords:
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
-  - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
   - "and evaluated results distinct"
   - "and should in explanatory prose is descriptive"
@@ -77,6 +75,7 @@ keywords:
   - "or MAY) as operators inside the law or definition itself"
   - "or observation that settles it and any evidence used for reliance"
   - "responsibility"
+  - "then establish the E result under its own predicate"
   - "they report adjudicable results rather than obligations"
   - "“commits to”)"
   - "“is admissible”"

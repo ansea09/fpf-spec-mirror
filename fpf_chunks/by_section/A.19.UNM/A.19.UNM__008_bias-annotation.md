@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UNM"
-pattern_title: "Unified Normalization Mechanism (UNM)"
+pattern_title: "Normalize Coordinate Values under Declared Invariants (UNM)"
 section_id: "A.19.UNM:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__008_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.UNM — Unified Normalization Mechanism (UNM)"
+  - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:6 — Bias‑Annotation"
-line_start: 35087
-line_end: 35096
+line_start: 34991
+line_end: 35000
 dependencies:
 keywords:
   - "CV→NCV"
@@ -33,5 +33,5 @@ Common cognitive traps around normalization:
 - **Unit-blindness:** treating numeric sameness as semantic sameness.
 - **Proxy legitimacy:** assuming a popular method is legitimate without evidence pins or validity region.
 
-Mitigation: enforce explicit `NormalizationMethodInstance` + validity window + evidence pins; and keep `≡_UNM`/quotient semantics explicit.
+Mitigation: enforce explicit `NormalizationMethodInstance` + validity window + evidence pins; and distinguish the directed output, optional classes and any separately justified operation or query on them.
 

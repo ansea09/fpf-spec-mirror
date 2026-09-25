@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "D.3"
-pattern_title: "Interlevel Ethical Conflict Structure"
+pattern_title: "Describe an Ethical Conflict Across Levels or Scopes"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.3.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "D.3 — Interlevel Ethical Conflict Structure"
-line_start: 77585
-line_end: 77809
+  - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
+line_start: 77810
+line_end: 78034
 dependencies:
   - "A.1"
   - "A.10"
@@ -32,9 +32,10 @@ dependencies:
   - "E.17"
   - "E.24.PUB"
 keywords:
+  - "interlevel ethical conflict"
 ---
 
-## D.3 - Interlevel Ethical Conflict Structure
+## D.3 - Describe an Ethical Conflict Across Levels or Scopes
 
 > **Type:** D-family ethical conflict-description pattern
 > **Status:** Stable

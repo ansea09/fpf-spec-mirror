@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.P"
-pattern_title: "Epistemic Precision Restoration"
+pattern_title: "Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
 section_id: "C.2.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.2.P — Epistemic Precision Restoration"
+  - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:intro — Intro"
-line_start: 47715
-line_end: 47720
+line_start: 47856
+line_end: 47861
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ dependencies:
 keywords:
 ---
 
-## C.2.P - Epistemic Precision Restoration
+## C.2.P - Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)
 
 > **Type:** C.2 precision-restoration pattern for episteme, publication, source wording, and source-relation wording
 > **Status:** Stable

@@ -6,12 +6,12 @@ section_id: "A.19.USCM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:4 — Solution"
-line_start: 35552
-line_end: 35657
+line_start: 35451
+line_end: 35573
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -37,50 +37,66 @@ USCM preserves the suite obligations by construction: it does not embed GateDeci
 
 Method semantics (“how to score”) remain out of suite core: they belong in SoTA packs (`G.2`) and wiring‑only extension modules (`GPatternExtension` blocks), while USCM remains the stable conceptual mechanism boundary.
 
-#### A.19.USCM:4.1 - Mechanism.Intension
+#### A.19.USCM:4.1 - Operation declaration
 
-This is the canonical `U.Mechanism.Intension` for `USCM.IntensionRef` and is intended to be cited by CHR suite publications and by any wiring layers.
+`USCM.IntensionRef` cites the exact A.6.1 U.Mechanism declaration episteme here. The CHR score stage resolves to its local Score operation. Selecting a changed argument, scoring law or guard requires selecting that changed declaration explicitly; another realizer of the same declaration changes no suite member.
 
-* **Scope note:** this intension is an **instance** authored to the `U.Mechanism.Intension` shape governed by `A.6.1`. It defines only the mechanism’s semantic surface (slots/ops/laws/guards/audit). It does **not** bind project‑specific pins (P2W), and it does **not** emit GateDecision/GateLog; it emits `Audit` pins and a tri‑state guard only.
+* **Scope note:** A.6.1 governs the operation and its actual argument/result bindings below. The planned baseline selects method and specification editions; independently declared receiving positions may use A.15.3 typed filling. Score returns a score profile, while eligibility and Audit retain their own meanings. GateDecision/GateLog remain outside this declaration.
 
 * **IntensionHeader:** `id = USCM`, `version = 1.0.0`, `status = stable`.
 
 * **IntensionRef:** `USCM.IntensionRef` (canonical target for the suite member named in `A.19.CHR:4.2`).
 
-* **SignatureManifest (optional; importability):** if a USCM publication is intended to be imported/reused, it SHOULD publish a `SignatureManifest` (A.6.0:4.5 and A.6.1; A.6.0 checklist item 10 with `SM-1` through `SM-4`; `CC‑UM.1`) consistent with `IntensionHeader`/`Imports`, explicitly exposing the stable SlotKind surface (including `ScoringMethodDescriptionSlot`) and any declared scalarization commitment.
+* **SignatureManifest (optional; importability):** if a USCM publication is intended to be imported/reused, it SHOULD publish a `SignatureManifest` (A.6.0:4.5 and A.6.1; A.6.0 checklist item 10 with `SM-1` through `SM-4`) consistent with `IntensionHeader`/`Imports`, explicitly exposing the stable SlotKind surface (including `ScoringMethodDescriptionSlot`) and any declared scalarization commitment.
 
 * **Tell.** **SCP‑first** scoring: produce score measures from admitted profiles without violating CSLC / scale lawfulness.
 
 * **Purpose:** **SCP‑first** scoring: produce score measures from admitted profiles without violating CSLC / scale lawfulness.
 
-* **Imports:** `G.0 (CG‑Spec.SCP, CG‑Spec.MinimalEvidence)`, `A.18 (CSLC)`, `C.16 (ScoringMethod disclosure + polarity/monotonicity discipline)`, `A.19.CN (comparability.mode + normalization routing)`, `A.19.CHR:4.2.1 (CHR SlotKind Lexicon)`.
+* **Imports:** `G.0 (CG‑Spec.SCP, CG‑Spec.MinimalEvidence)`, `A.18 (CSLC)`, `C.16 (measurement constitution and scale-lawful operations when measurement is claimed)`, `A.19.CN (comparability.mode + normalization routing)`, `A.19.CHR:4.2.1 (CHR SlotKind Lexicon)`.
 
 * **SubjectBlock:**
 
-  * **SubjectKind:** `Scoring`.
-  * **GovernedValueDomain:** `U.Measure`.
+  * **SubjectKind:** `U.Measure`, supplied by the measures in InputProfileSlot; each measure retains its bearer, Characteristic and Scale.
+  * **RangedValueKind:** `U.Measure`; Score transforms the admitted profile under the selected method, and ScoreEligibility assesses that proposed transformation.
   * **SliceBasis:** the declared `U.ClaimScope` and selected `U.ContextSlice` members, together with the qualification window and intended result use.
-  * **ExtentRule:** scoring ranges over the admitted indicator or NCV profile for the exact evaluated bearer, criteria, claim scope and selected slices, qualification window, comparison or reference basis, and intended result use; `CN-Spec.comparability` routes comparison and `CG-Spec.SCP` gates admissibility.
-  * **ResultKind?:** `U.Set` (of `U.Measure`).
+  * **Input qualification:** scoring ranges over the admitted indicator or NCV profile for the exact evaluated bearer, criteria, claim scope and selected slices, qualification window, comparison or reference basis, and intended result use; `CN-Spec.comparability` routes comparison and `CG-Spec.SCP` gates admissibility.
+  * Results are declared per operation: the score-measure profile and the eligibility judgment.
 
-* **SlotIndex** (derived projection from `SlotSpecs` / guard SlotSpecs; uses `A.19.CHR:4.2.1` SlotKind tokens where applicable; any new SlotKind tokens introduced here MUST be suite‑docked into the lexicon by the suite-governing pattern to avoid drift):
+**Operation-local argument and result declarations**
 
-  * `InputProfileSlot : ⟨ValueKind = U.Set (of U.Measure), refMode = ByValue⟩`,
-  * `CNSpecSlot : ⟨ValueKind = CN‑Spec, refMode = CNSpecRef⟩`,
-  * `CGSpecSlot : ⟨ValueKind = CG‑Spec, refMode = CGSpecRef⟩`,
-  * `ScoringMethodDescriptionSlot : ⟨ValueKind = ScoringMethodDescription, refMode = ScoringMethodDescriptionRef⟩` (SlotKind token; when reproducibility matters it is edition‑pinned via the P2W baseline; if the suite lexicon does not yet contain this token, it SHALL be docked into the lexicon by the suite-governing pattern rather than introduced ad‑hoc),
-  * no generic `ContextSlot`: the input profile, CN-Spec, CG-Spec, and scoring-method description resolve the exact evaluated bearer, criteria, scope and window, comparison or reference basis, evidence policy, and result use,
-  * `MinimalEvidenceSlot? : ⟨ValueKind = MinimalEvidence, refMode = MinimalEvidenceRef⟩` (optional override; otherwise cite `CGSpecSlot.MinimalEvidence`),
-  * `ScoreProfileSlot : ⟨ValueKind = U.Set (of U.Measure), refMode = ByValue⟩`.
+Each input meaning is declared separately for Score and ScoreEligibility. ByRef inputs resolve to the stated exact value and edition. Cardinalities shown are for Score. ScoreEligibility may assess an incomplete proposal: each required input then has cardinality 0..1, and an absent value has no binding and triggers the corresponding missing-input rule.
+
+| Direction | Local designator | Meaning and ValueKind | Designation; cardinality |
+| --- | --- | --- | --- |
+| Argument | InputProfileSlot | Admitted set of U.Measure values to score; each UINDM-derived value retains its exact basis position, Characteristic and Scale | ByValue; 1 profile |
+| Argument | CNSpecSlot | CN-Spec used for the bearer, basis, scope/slices, qualification window, intended use and comparability routing | CNSpecRef; 1 |
+| Argument | CGSpecSlot | CG-Spec supplying the SCP restrictions and default evidence requirement for this scoring use | CGSpecRef; 1 |
+| Argument | ScoringMethodDescriptionSlot | ScoringMethodDescription supplying the selected Coordinate→Score rule, domain, codomain, Scale, polarity and use-required properties | ScoringMethodDescriptionRef; 1 |
+| Argument | MinimalEvidenceSlot | MinimalEvidence override used in place of CGSpecSlot.MinimalEvidence | MinimalEvidenceRef; 0..1 |
+| Score result | ScoreProfileSlot | Set of U.Measure values actually returned by the declared scoring rule | ByValue; 1 profile on completed admitted scoring, 0 on abstain or termination without a result |
+| ScoreEligibility result | GuardDecision | Eligibility judgment under the predicates below: pass, degrade or abstain | ByValue; 1 on completed evaluation |
+
+An argument's **bindingPredicate** holds when this Score or ScoreEligibility application actually uses the resolved value for that row's purpose: the profile supplies the operands, the method supplies the transformation, CN-Spec delimits its use and routing, and CG-Spec plus any override supplies its admission and evidence conditions. Mere inclusion in an Audit record is insufficient. The ScoreProfileSlot **bindingPredicate** holds when that Score application returns the profile obtained by applying the bound method lawfully to those operands, with the declared scalar/vector cardinality. The guard's result binding holds when that ScoreEligibility application returns its evaluated judgment. Each binding follows A.6.1 identity and continuous extent within the application; the result begins to bind at return.
+
+**SlotIndex (derived projection).** Project this table's local designators, ValueKinds, designation modes and cardinalities. Its historical Slot names permit CHR lookup and introduce no separate meanings; A.6.5 relation SlotSpecs do not govern these operation positions. A repeated Characteristic name alone cannot select a profile value whose basis position and Scale matter.
 
 * **OperationAlgebra** (suite stage = `score`, per `A.19.CHR:4.5`; canonical stage‑op = `Score`):
 
   * `Score(InputProfileSlot, CNSpecSlot, CGSpecSlot, ScoringMethodDescriptionSlot, MinimalEvidenceSlot?) → ScoreProfileSlot`; the cited inputs supply the evaluated bearer and use qualifications.
 
+**ApplicationPredicate.** Score obtains when a calculation actually applies the bound scoring method to the bound input profile under the CN-Spec/CG-Spec conditions. It proceeds on pass or on an explicitly permitted degrade branch and returns the lawful score profile; abstain starts no Score calculation. ScoreEligibility obtains when an evaluation actually assesses the proposal under the eligibility predicates and returns the corresponding judgment. A passing guard or a cached compatible profile does not establish a new Score calculation.
+
+**ApplicationIdentityRule.** One application is one scoring calculation or eligibility evaluation at its calculation locus, from taking up the chosen operands/rules until return or termination. Reidentifying that same invocation preserves identity. A second invocation with identical profile, method, specifications, qualification point and output is a distinct application; changing those arguments for another calculation also makes another application. A record identifier designates an established invocation and cannot create it.
+
+**ApplicationExtentRule.** Score extends from actual use of the input profile under the selected method to the return of its score profile or termination; ScoreEligibility extends from actual proposal assessment to judgment or termination. An unfinished invocation has an open extent and no unreturned result binding. The qualification point or input window identifies what is scored, not when the scoring occurs. Ordinary use of a scoring function does not by itself assert dated U.Work.
+
+For the Celsius example in §4.2, two separate calculations of (20−0)/(40−0) each return 0.5 under the same declared method. Their operand-to-return episodes and result bindings differ. A saved 0.5 can refer to the earlier result when that return is established; numerical agreement and the same method pins cannot establish a second return. The example retains its specified Celsius input and explicit interval endpoints.
+
 * **LawSet** (minimum; admissibility‑first, no hidden scalarization):
 
   1. **SCP+CSLC lawfulness:** any numeric transform used to produce `ScoreProfileSlot` MUST be admissible under `CGSpecSlot.SCP` and CSLC‑lawful (cites `G.0` + `A.18`).
-  2. **ScoringMethod is explicit (no hidden defaults):** `Score` MUST cite `ScoringMethodDescriptionSlot` (edition‑pinned via P2W when reproducibility matters; see `A.19.CHR:4.7.2`). If a score is issued, the scoring method **𝒢** (Coordinate→Score) MUST be disclosed as required by `C.16` (bounded codomain; monotonicity consistent with template polarity). USCM MUST NOT rely on an implicit “default scoring method”.
+  2. **ScoringMethod is explicit (no hidden defaults):** `Score` MUST cite `ScoringMethodDescriptionSlot` (edition-pinned via P2W when reproducibility matters; see `A.19.CHR:4.7.2`). Disclose the scoring method **𝒢** (Coordinate→Score), its domain, codomain, Scale, polarity and the properties required by the declared scoring use. Apply C.16 when measurement is claimed and enforce the actual SCP/CSLC restrictions. Boundedness or monotonicity is required only when the selected method or use requires it. USCM MUST NOT rely on an implicit default scoring method.
   3. **No implicit normalization:** `Score` MUST NOT silently perform UNM; if `CNSpecSlot.comparability` requires normalization‑based comparability, the normalization step MUST be explicit in choreography (Uses/pins), not hidden in `Score`.
   4. **Vector scores allowed; scalarization must be explicit:** producing a single scalar score is allowed only if explicitly declared (e.g., by fixing `ScoreProfileSlot` cardinality to 1 and citing the lawful transform); partial‑order semantics MUST NOT be silently reduced to a scalar “tie‑breaker”.
   5. **Unknown is not coerced:** unknown / insufficient evidence MUST NOT be mapped to `0`/`false`; use tri‑state guards and explicit failure behavior.
@@ -116,7 +132,8 @@ This is the canonical `U.Mechanism.Intension` for `USCM.IntensionRef` and is int
 
 #### A.19.USCM:4.2 - Interpretation notes — informative
 
-* **A score profile is a set of measures.** `ScoreProfileSlot` is a `U.Set (of U.Measure)`. Treat this as “vector scoring by default.” If a project truly needs a single scalar score, declare that explicitly (per LawSet item 3), rather than assuming scalarity.
+* **Selected-input basis.** Consume the exact UINDM S and space declaration when an indicator profile is used. For CS7 in A.19.UINDM §5.4, the Celsius policy selects i1 and the declared Celsius scoring rule reads 20, giving 0.5. It cannot read the kelvin position's 293.15 under that rule. After a basis change, resolve the selected positions and the scoring method's input requirements again; keep any projection in the original basis order.
+
 * **A score profile is a set of measures.** `ScoreProfileSlot` is a `U.Set (of U.Measure)`. Treat this as “vector scoring by default.” If a project truly needs a single scalar score, declare that explicitly (per LawSet item 4), rather than assuming scalarity.
 
 * **USCM does not order; it scores.** USCM produces score measures. Any ordering, dominance, or set‑valued comparison is performed by CPM and SelectorMechanism (and any optional aggregation is made explicit via ULSAM). Treating the score as “the decision” is a category error in CHR terms.

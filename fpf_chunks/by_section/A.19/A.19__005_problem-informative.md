@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19"
-pattern_title: "CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
+pattern_title: "CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
 section_id: "A.19:3"
 section_title: "Problem (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__005_problem-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
+  - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:3 — Problem (Informative)"
-line_start: 31826
-line_end: 31834
+line_start: 31768
+line_end: 31776
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,11 +36,13 @@ dependencies:
   - "U.ContextSlice"
 keywords:
   - "CharacteristicSpace"
+  - "CharacteristicSpacePredicate"
   - "U.Dynamics.stateSpace"
   - "coordinatewise comparability"
   - "declared Characteristics and Scales"
   - "embedding"
   - "product"
+  - "reusable state conditions"
   - "state trajectories"
   - "structural overlays"
   - "subspace"

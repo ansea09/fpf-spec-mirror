@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.0"
-pattern_title: "Frame Standard and Comparability Governance — CG‑Spec"
+pattern_title: "Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
 section_id: "G.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__007_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
+  - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:6 — Bias-Annotation"
-line_start: 110632
-line_end: 110640
+line_start: 111057
+line_end: 111065
 dependencies:
   - "A.10"
   - "A.17"
@@ -44,8 +44,9 @@ keywords:
   - "RSCRTriggerKindId"
   - "ReferencePlane"
   - "ScaleComplianceProfile (SCP)"
-  - "admissibility gate"
+  - "admissible comparison and aggregation"
   - "edition pins"
+  - "evidence requirements"
   - "Γ-fold"
   - "Φ(CL)"
   - "Φ_plane"

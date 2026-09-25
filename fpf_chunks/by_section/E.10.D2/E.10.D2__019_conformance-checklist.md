@@ -6,12 +6,12 @@ section_id: "E.10.D2:17"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__019_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:17 — Conformance checklist"
-line_start: 87377
-line_end: 87393
+line_start: 87697
+line_end: 87713
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -34,12 +34,15 @@ dependencies:
   - "F.9"
   - "G.11"
 keywords:
-  - "Description episteme"
-  - "DescriptionContext"
+  - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"
+  - "checkable claims"
+  - "description episteme"
+  - "harness"
+  - "publication"
+  - "representation"
   - "specification use"
-  - "testable"
-  - "verifiable"
+  - "viewpoint"
 ---
 
 ### E.10.D2:17 - Conformance checklist
@@ -48,11 +51,11 @@ keywords:
 |---|---|
 | **CC-D2-1** | Is the exact receiving use and its next question or action named before optional qualification machinery is opened? |
 | **CC-D2-2** | Does every description episteme recover the exact C.2.1 ClaimGraph, EntityOfConcern, and effective ReferenceScheme, without a local slot relation or record-shaped constitution? |
-| **CC-D2-3** | Is the EntityOfConcern independently identified and kept distinct from the description episteme, including in episteme-about-episteme cases? |
+| **CC-D2-3** | Are the EntityOfConcern and claim-bearing episteme independently recoverable under C.2.1, with different triples kept distinct and the permitted self-description case preserved? |
 | **CC-D2-4** | When one describing use selects a viewpoint, are the use and exact viewpoint named separately from episteme identity, conformance, and `U.View` membership? |
 | **CC-D2-5** | Does every `...Spec` use have checkable claims and an exact harness or validation relation, with any reliance-relevant viewpoint selection preserved or updated for the named describing use? |
 | **CC-D2-6** | Are grounding, view, scope, model-use structure, evidence, assurance, edition, currentness, publication, carrier, and representation opened only when the receiving use depends on their direct relation? |
-| **CC-D2-7** | Are publication occurrence, form, carrier, view, representation, file, dashboard, and work record kept distinct from the EntityOfConcern and episteme? |
+| **CC-D2-7** | Are publication occurrence, form, carrier, representation, file, dashboard and work-record uses recovered under their own rules, and is `U.View` membership a separately established property of the same episteme rather than another identity? |
 | **CC-D2-8** | Is current prose free of peer-layer I-D-S vocabulary, `intensional object`, `DescribedEntity*`, `EntityOfInterest`, `EoI`, `EoIClass`, mandatory context recursion, and a local DescriptionContext tuple? |
 | **CC-D2-9** | Is the word `plane` absent for this distinction, with `ReferencePlane` reserved for a subject pattern such as CHR that actually defines it? |
 | **CC-D2-10** | Is wording about the “role” of a description, source, standard, requirement, evidence item, publication, dashboard, or view resolved to its exact typed use rather than a spurious `U.SystemRoleAssignment`? |

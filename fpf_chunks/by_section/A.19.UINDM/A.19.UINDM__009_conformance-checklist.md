@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UINDM"
-pattern_title: "Unified Indicatorization Mechanism (UINDM)"
+pattern_title: "Indicatorization (UINDM): Select Indicators Under a Declared Policy"
 section_id: "A.19.UINDM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__009_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
+  - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:7 — Conformance Checklist"
-line_start: 35386
-line_end: 35409
+line_start: 35297
+line_end: 35322
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -26,11 +26,11 @@ keywords:
 
 A UINDM publication or use is conformant if it satisfies:
 
-1. **Mechanism.Intension completeness.** The mechanism publication includes the full intension shape (header/imports/subject/slot index/op algebra/laws/admissibility/applicability/transport/time/plane/audit), and uses the tri‑state guard form. SlotIndex is treated as a **derived** projection. (See `CC‑UM.0/CC‑UM.1/CC‑UM.9`.)
+1. **A.6.1 declaration completeness.** Indicatorize and the separately reused IndicatorizeEligibility have local argument/result declarations, obtaining predicates and application identity/extent rules. Their declared selection and guard laws hold; SlotIndex projects those declarations. An actual binding requires the value used or returned by the identified application, not a compatible audit record.
 
 2. **SlotKind discipline.** SlotKind tokens match the CHR SlotKind lexicon for the roles used (`CharacteristicSpaceSlot`, `CNSpecSlot`, `IndicatorChoicePolicySlot`, etc.); no generic `ContextSlot` is introduced. New SlotKinds, if any, first extend the suite lexicon rather than appearing ad hoc in the mechanism.
 
-3. **Selection‑only behavior.** `Indicatorize` does not alter units, scales, and polarities, does not perform implicit normalization, and does not enlarge the declared characteristic-space basis.
+3. **Selection-only behavior.** `Indicatorize` returns positions in the exact declared basis, retaining their Characteristic, Scale and meaning. A projected state keeps their original relative order. There is no implicit normalization or enlargement. After a basis change, resolve the policy again rather than reuse naked indices.
 
 4. **No NCV shortcut.** “Measurable/NCV” is not treated as sufficient for indicatorhood; indicatorhood arises only via `IndicatorChoicePolicySlot` consistent with `CN‑Spec.indicator_policy`.
 
@@ -42,7 +42,9 @@ A UINDM publication or use is conformant if it satisfies:
 7. **Gate/guard separation + lexeme discipline.** UINDM uses `…Eligibility` returning `GuardDecision ∈ {pass|degrade|abstain}` and does not embed GateDecision/GateLog in suite steps.
    Reserved gate‑lexemes (e.g., `…Guard`) are not used for mechanism‑level predicates; the mechanism stays at the guard/admissibility layer.
 
-8. **P2W seam is preserved.** Planned slot fillings and edition pin‑bindings are not authored inside this mechanism intension; they are bound as WorkPlanning plan items under P2W and surfaced at run‑time only via `Audit` refs and pins.
+8. **Planning and actual use.** An A.15.2 WorkPlan selects the intended editions; A.15.3 governs typed filling only for independently declared positions. Record the actual application and its effective bindings under §4.1, keeping the refs and pins needed for replay in Audit.
 
-9. **Specialization discipline (if extended).** Any specialization of UINDM (`⊑/⊑⁺`) MUST follow the multi‑level specialization discipline (`A.6.1:4.2.1`, `CC‑UM.8`): SlotKind invariance for inherited ops, no new mandatory inputs to the inherited `Indicatorize` op, and any extra outputs (e.g., justification outputs or subspace support views) expressed only via `⊑⁺`.
+9. **Extension discipline (if extended).** A proposed UINDM specialization MUST preserve the inherited SlotKind designators and their meanings, add no mandatory input to Indicatorize, and declare any additional output or operation explicitly (the local extension notation is ⊑⁺). A refinement, conservative-extension or equivalence claim additionally uses its own A.6.1 §4.8 preservation test and exact comparison predicate; those three claims are not interchangeable. Preserve inherited application/binding meanings, identity and extent to the degree required by the claimed comparison, and retain narrowed applicability or stronger conditions explicitly. A missing comparison predicate or substrate returns the applicable A.6.RCD gap.
+
+For example, an extended Indicatorize may add an optional justification result while retaining the original inputs and selected-position result. To claim a conservative extension, establish that every inherited admitted use, result and application/binding rule remains as specified; the new output has its own declaration. Making a new explanation input mandatory fails the local restriction. A label such as ⊑⁺ does not settle the comparison: use the admitted comparison relation or A.6.RCD's case-specific claim branch under A.6.1 §4.8, returning its exact missing-governor/substrate gap if necessary.
 

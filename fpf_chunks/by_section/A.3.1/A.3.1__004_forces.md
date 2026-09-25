@@ -6,12 +6,12 @@ section_id: "A.3.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:3 — Forces"
-line_start: 8352
-line_end: 8359
+line_start: 8321
+line_end: 8328
 dependencies:
   - "A.1"
   - "A.1.1"

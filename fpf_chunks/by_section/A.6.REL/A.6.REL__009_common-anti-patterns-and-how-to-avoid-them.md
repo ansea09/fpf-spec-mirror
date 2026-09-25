@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.REL"
-pattern_title: "Relation Obtaining and Individuated Relation Occurrences"
+pattern_title: "Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
 section_id: "A.6.REL:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
+  - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 13623
-line_end: 13635
+line_start: 13579
+line_end: 13591
 dependencies:
   - "A.6.0"
   - "A.6.5"

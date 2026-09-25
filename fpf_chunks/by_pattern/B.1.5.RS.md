@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "B.1.5.RS"
-pattern_title: "Replace a Constituent Method in Its Encompassing Uses"
+pattern_title: "Evaluate a Constituent Method Replacement in Its Encompassing Uses"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.RS.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.1.5.RS — Replace a Constituent Method in Its Encompassing Uses"
-line_start: 40082
-line_end: 40248
+  - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
+line_start: 40012
+line_end: 40178
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -21,7 +21,7 @@ dependencies:
 keywords:
 ---
 
-## B.1.5.RS - Replace a Constituent Method in Its Encompassing Uses
+## B.1.5.RS - Evaluate a Constituent Method Replacement in Its Encompassing Uses
 
 > **Type:** Method pattern
 > **Status:** Candidate

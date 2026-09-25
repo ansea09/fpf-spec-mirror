@@ -6,12 +6,12 @@ section_id: "F.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:5 — Archetypal Grounding"
-line_start: 102426
-line_end: 102502
+line_start: 102822
+line_end: 102898
 dependencies:
   - "A.10"
   - "A.7"
@@ -89,7 +89,7 @@ The resulting `SourceCutNote` is identified by that ClaimGraph, the stated recei
 4. **C.31 §4.5.** Makes function-module alignment, interface burden, and flow-boundary alignment separate characteristics rather than one modularity score. This changes the trade-offs the comparison must expose.
 5. **C.32 §§4–5.** Starts candidate synthesis from functional demand and candidate bearers, keeps materially different configurations visible, and records expected gain, known loss, constraints, and source-return conditions. This prevents the source cut from pretending to choose the architecture.
 
-**Deliberate limits.** The cut claims neither an exhaustive survey of allocation algorithms nor one module taxonomy or cross-sector optimum. It does not decide the final DPF pattern identity. The campaign-specific guide and research-source pilot remains in `FPF-DPF-CLAIM-PLACEMENT-CAMPAIGN/PILOT-SYSTEMS-ENGINEERING-FUNCTION-TO-MODULE-ALLOCATION.md`; it is not a hidden dependency of this portable example.
+**Deliberate limits.** The cut claims neither an exhaustive survey of allocation algorithms nor one module taxonomy or cross-sector optimum. It does not decide the final DPF pattern identity.
 
 **First result.** One `SourceCutNote` whose ClaimGraph contains the five roles, use, limits, and reopen conditions; whose EntityOfConcern is the stated question; and whose effective scheme is `FPFCoreReferenceScheme` for FPF August 2026. The later comparison must expose unsupported capabilities, unallocated functions, unresolved interfaces, alternatives, trade-offs, and accepted losses.
 

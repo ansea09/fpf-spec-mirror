@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.A"
-pattern_title: "Action-Invitation Precision Restoration (ACT-INV)"
+pattern_title: "Affordance and Action-Invitation Precision Restoration (ACT-INV)"
 section_id: "A.6.A:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__013_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
+  - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:12 — Relations"
-line_start: 19969
-line_end: 19991
+line_start: 19819
+line_end: 19841
 dependencies:
   - "A.15"
   - "A.16"
@@ -21,6 +21,7 @@ dependencies:
   - "A.3"
   - "A.6.B"
   - "A.6.P"
+  - "A.6.REL"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
@@ -31,38 +32,41 @@ dependencies:
   - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "E.10"
   - "E.17"
   - "E.17.0"
   - "E.18"
+  - "F.17"
+  - "F.18"
   - "F.9"
 keywords:
-  - "A.15 docking"
-  - "action invitation"
   - "action-first language"
   - "affordance"
-  - "language-state seam"
-  - "post-threshold classification"
+  - "detection"
+  - "inquiry question"
+  - "physical opportunity"
+  - "wording recovery"
 ---
 
 ### A.6.A:12 - Relations
 
-* **Specialises:** **A.6.P** as an RPR pattern for overloaded affordance-like and action-first language.
+* **Uses:** **A.6.P** when the recovered content is a relation claim; **A.6.REL** for its direct predicate and any needed occurrence identity.
 * **Builds on:** **A.3** and **A.7** for enactor discipline and EntityOfConcern and Description-episteme plus publication and carrier separation; **A.15** for keeping invitation distinct from enactment; **A.6.B** for boundary claim classification; **E.17.0**, **E.17**, and **E.18** for viewpoint reference resolution, independent view conformance, and viewpoint publication.
 * **Works alongside:** **C.16.Q** for evaluative language; the two are siblings, not substitutes.
-* **Coordinates with:** **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, admissible moves before post-threshold repair, and retreat when a published invitation must be reopened; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **B.5.2.0** for probe-question cases that are still prompt-shaped; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance.
+* **Coordinates with:** **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, admissible moves before post-threshold repair, and retreat when a published recovery result must be reopened; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **B.5.2.0** for probe-question cases that are still prompt-shaped; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance.
 * **Must not replace:** **C.2.3** as the single subject pattern for **F**.
-* **Recommends publication via:** **E.10, F.17, and F.18** when `actionInvitation` tokens, starter senses, and red-flag rewrites become shared vocabulary.
+* **Uses for shared naming:** **E.10, F.17, and F.18** when an interpretation label or reusable recovery designation needs a shared name.
 
 [1]: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1388852/full "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1388852/full"
 [2]: https://link.springer.com/article/10.3758/s13423-023-02319-w "https://link.springer.com/article/10.3758/s13423-023-02319-w"
 [3]: https://discovery.ucl.ac.uk/10191719/3/Friston_Neural%20representation%20in%20active%20inference.pdf "https://discovery.ucl.ac.uk/10191719/3/Friston_Neural%20representation%20in%20active%20inference.pdf"
 [4]: https://roboticsconference.org/2024/program/papers/62/ "https://roboticsconference.org/2024/program/papers/62/"
 
-#### A.6.A:12.1 - Language-space refactor note
-This pattern is scoped to **action-invitation repair and endpoint continuation**, not to the whole early cue family. Early action-guiding cue content may remain in `A.16.1` as cue-pack content, a `RoutedCueSet`, or another typed cue-preserving upstream publication before it stabilizes into `actionInvitation(...)`.
+#### A.6.A:12.1 - Early cues and recovered meanings
+Use this method when the wording can support a useful interpretation or a question that distinguishes alternatives. Earlier cues may remain with `A.16.1` or `B.4.1`. A recovered inquiry can remain open, and a recovered physical claim can return its exact missing rule or fact.
 
-#### A.6.A:12.2 - Canonical downstream relation
-`actionInvitation(...)` should be classified through `A.6.B` and connected to `A.15` when work enactment is live toward gates, commitments, methods, or work. Operator-facing starter senses such as `AIS.AlertInterventionCue` or `AIS.OperatorInterventionCue` should not be buried under generic `AIS.InterfaceAffordance` when human factors and policy hooks substantively differ.
+#### A.6.A:12.2 - Continue from the recovered result
+Apply `A.6.B` when the recovered claim is boundary-bearing and `A.15` when a Method, plan or performed Work question is live. Keep an alert-intervention or operator-intervention reading distinguishable from a generic interface cue when human factors, authority or the policy rule change the result. A common invitation record is not a prerequisite.
 
 #### A.6.A:12.3 - Governance boundary
 This pattern may cite an F.9 Bridge and bounded-use claim, an optional F.9.1 stance note, an A.16 articulation-state result, authority-reference fields, or language-state facet characteristics from `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`; it does not redefine any of them.

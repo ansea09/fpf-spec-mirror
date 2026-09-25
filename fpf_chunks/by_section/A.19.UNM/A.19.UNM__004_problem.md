@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UNM"
-pattern_title: "Unified Normalization Mechanism (UNM)"
+pattern_title: "Normalize Coordinate Values under Declared Invariants (UNM)"
 section_id: "A.19.UNM:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__004_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.UNM — Unified Normalization Mechanism (UNM)"
+  - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:2 — Problem"
-line_start: 34839
-line_end: 34851
+line_start: 34711
+line_end: 34723
 dependencies:
 keywords:
   - "CV→NCV"

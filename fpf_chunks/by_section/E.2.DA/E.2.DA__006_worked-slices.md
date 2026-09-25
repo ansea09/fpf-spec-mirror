@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.2.DA"
-pattern_title: "FPF Pillar-Adequacy Evaluation CharacteristicSpace"
+pattern_title: "Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
 section_id: "E.2.DA:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__006_worked-slices.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
+  - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:5 — Worked slices"
-line_start: 78584
-line_end: 78595
+line_start: 78867
+line_end: 78878
 dependencies:
   - "A.19.ECS"
   - "E.10"

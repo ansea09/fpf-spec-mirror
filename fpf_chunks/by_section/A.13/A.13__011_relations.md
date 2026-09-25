@@ -6,12 +6,12 @@ section_id: "A.13:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__011_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:9 — Relations"
-line_start: 25818
-line_end: 25828
+line_start: 25707
+line_end: 25717
 dependencies:
   - "A.10"
   - "A.12"
@@ -43,9 +43,9 @@ keywords:
 *   **Builds on:**
     *   `A.1 Holonic Foundation`: Establishes that only `U.System`s can be bearers of behavioral roles.
     *   `A.2 System-Role Kinds and Assignments`: Distinguishes an exact local system-role kind, classification by that kind, and an obtaining `U.SystemRoleAssignment`.
-    *   `A.12 Acting-Side Externalization and Reflexive Split`: Work by an acting holder is modeled using the acting-side externalization principle.
+    *   `A.12 Acting-Side Externalization and Reflexive Split: Identify Who Acts on What`: Work by an acting holder is modeled using the acting-side externalization principle.
 *   **Coordinates with:**
     * `B.2 Meta-Holon Transition (MHT)`: New supervisory structure together with a documented agency-characteristic threshold crossing prompts the whole-reidentification inquiry. B.2 first tests whether the same whole suffices; only an established transition warrants the MHT declaration.
     * `B.3 Trust & Assurance Calculus`: A profile can supply evidence-backed characteristic results when a named reliability, safety or other assurance argument uses them. Retain each result’s bearer, scale and basis; the didactic Grade is not the assurance input.
-    * `D.2 Multilevel Ethics For Holon Work`: For a multilevel ethical concern, name the local gain, possible loss, affected levels or scopes and next subject question. State responsibility or accountability separately under the rule defining that relation and its participants; use an agency-characteristic input only if that rule calls for it.
+    * `D.2 Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)`: For a multilevel ethical concern, name the local gain, possible loss, affected levels or scopes and next subject question. State responsibility or accountability separately under the rule defining that relation and its participants; use an agency-characteristic input only if that rule calls for it.
 

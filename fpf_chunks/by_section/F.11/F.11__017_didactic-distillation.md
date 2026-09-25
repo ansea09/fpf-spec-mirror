@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.11"
-pattern_title: "Method Quartet Harmonisation"
+pattern_title: "Distinguish Method, MethodDescription, Work and Outputs"
 section_id: "F.11:16"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__017_didactic-distillation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.11 — Method Quartet Harmonisation"
+  - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:16 — Didactic distillation"
-line_start: 106035
-line_end: 106038
+line_start: 106457
+line_end: 106460
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -43,5 +43,5 @@ keywords:
 
 ### F.11:16 - Didactic distillation
 
-> “Ask four questions. What is the **Method**, the way of doing? Which **MethodDescription** has that one Method as its exact `EntityOfConcern`—plainly, describes it? What dated **Work** actually occurred? Which particular control or transformation output matters, if any? These are not four universal boxes. Work is the occurrence, not its record. MethodDescription membership adds no binary relation; Work may enact the Method only when that relation is supported. Name the actual performing System and assignment when agency matters. Use observations for outcome claims, and use F.9 only for a real relation between source-local meanings.”
+> “Ask four questions. What is the **Method**, the way of doing? Which **MethodDescription** has that one Method as its exact `EntityOfConcern`—plainly, describes it? What dated **Work** actually occurred? Which particular control or transformation output matters, if any? These are not four universal boxes. Work is the occurrence, not its record. MethodDescription membership adds no binary relation; Work may enact the Method only when that relation is supported. Recover each performer's A.13 core before independent Work admission; add F.6 only for precise assignment-bound attribution. Use observations for outcome claims, and use F.9 only for a real relation between source-local meanings.”
 

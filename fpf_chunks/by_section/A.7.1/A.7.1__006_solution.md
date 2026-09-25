@@ -6,12 +6,12 @@ section_id: "A.7.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:4 — Solution"
-line_start: 23439
-line_end: 23489
+line_start: 23315
+line_end: 23365
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -71,7 +71,7 @@ The method result uses one of these closed local dispositions in its result epis
 
 A working account is sufficient when admitted direct kinds and relations determine the next move and plausible constructional alternatives do not change the result or guarantee. Stop without declaring the alternatives false. Do not create an occurrence ledger, evidence apparatus, publication package, or ontology record whose distinctions cannot change the use.
 
-Create a durable ontology result only when reuse, dispute, high consequence, automation, or cross-pattern change makes persistence valuable. If the work exposes a missing distinction that must persist, submit the candidate for E.24 admission and return only after a positive admission result.
+Create a durable ontology result only when reuse, dispute, high consequence, automation, or cross-pattern change makes persistence valuable. If the work exposes a missing distinction that must persist, submit the candidate for E.24 admission. A return that relies on the newly admitted distinction requires a positive admission result; otherwise return the exact missing governor or blocked claim without presuming admission.
 
 #### A.7.1:4.6 - Reopen and teach without premature structure admission
 

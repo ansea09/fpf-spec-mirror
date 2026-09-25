@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.3"
-pattern_title: "Γ_epist - Knowledge‑Specific Aggregation"
+pattern_title: "Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
 section_id: "B.1.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
+  - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:1 — Problem frame"
-line_start: 39003
-line_end: 39012
+line_start: 38933
+line_end: 38942
 dependencies:
   - "A.1"
   - "A.10"
@@ -22,6 +22,7 @@ dependencies:
   - "A.15.1"
   - "A.15.PROD"
   - "A.6.1"
+  - "A.7"
   - "B.1"
   - "B.1.1"
   - "B.1.4"
@@ -38,17 +39,12 @@ dependencies:
   - "F.9"
   - "U.Work"
 keywords:
-  - "KD-CAL"
-  - "epistemic"
-  - "knowledge aggregation"
-  - "provenance"
-  - "trust"
 ---
 
 ### B.1.3:1 - Problem frame
 
 * **Holonic foundation.** In the FPF, a `U.Episteme` is a holon whose identity is **knowledge-bearing** (A.1). It can be a **statement/claim**, a **model**, a **theory**, a **specification**, a **dataset with semantics**, or a **compiled claim-bearing synthesis**.
-* **Strict Distinction (A.15).** We separate:
+* **Strict Distinction (A.7).** We separate:
   **structure** (what the episteme comprises), **order** (argument flow), **identity and history** (C.2.1 identities and edition relations), **proper temporal restriction** (A.14), **work** (what was spent to produce/validate it), and **values** (objectives/criteria). Γ\_epist stays in the **structure/semantics** lane and calls out to Γ\_ctx/Γ\_time/Γ\_work only after their direct inputs are recovered.
 * **Mereology (A.14).** For knowledge composition we primarily use **ConstituentOf** (logical or semantic parts), **UsageOf** or **ReferenceTo** (external reliance), and each collection's own belongs-to rule for collections such as anthologies or corpora. We do **not** use **ComponentOf** (physical) in Γ\_epist.
   `PhaseOf` may restrict the **same unchanged episteme** to a proper interval when its complete C.2.1 identity triple remains fixed. Distinct labelled versions or revisions require distinct C.2.1 identities when a discriminator changes and an independently obtaining `EpistemeEditionRelation` for any claimed historical continuation. Knowledge does not act and acquires neither a work-facing local system-role kind nor an assignment. Ordinary prose may say, for example, "the researcher synthesized the sources". If the receiving use does not identify that action as one particular dated `U.Work` occurrence, stop with the ordinary sentence. If it does, recover each actual performer's A.13 core and independently admit the occurrence under A.15.1. Add F.6 only when the receiving use also needs precise assignment-bound attribution; a short local projection may omit an unused assignment identifier only when every consumed relation remains recoverable.

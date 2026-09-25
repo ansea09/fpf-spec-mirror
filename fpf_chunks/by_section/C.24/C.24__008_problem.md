@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.24"
-pattern_title: "Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
+pattern_title: "Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
 section_id: "C.24:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__008_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
+  - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:2 — Problem"
-line_start: 59907
-line_end: 59910
+line_start: 60062
+line_end: 60065
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,9 +36,13 @@ dependencies:
   - "G.9"
   - "U.PromiseContent"
 keywords:
+  - "agentic tool-use"
+  - "call planning"
+  - "route probe"
+  - "service calls"
 ---
 
 ### C.24:2 - Problem
 
-We need a tool-neutral way to produce or revise one call plan under explicit budgets and policy while keeping Method, route description, plan, performed Work, service promise, trace representation, the decision basis that fixed the action, and any assurance result distinct.
+We need a tool-neutral way to produce or revise one call plan under explicit budgets and policy while keeping Method, route description, plan, performed Work, service promise, trace representation, the action basis that fixed the action, and any assurance result distinct.
 

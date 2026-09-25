@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.CSC"
-pattern_title: "Controlled Semantic Coarsening"
+pattern_title: "Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
 section_id: "A.6.3.CSC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.3.CSC — Controlled Semantic Coarsening"
+  - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:intro — Intro"
-line_start: 15281
-line_end: 15292
+line_start: 15263
+line_end: 15274
 dependencies:
   - "A.15"
   - "A.20"
@@ -30,7 +30,7 @@ dependencies:
 keywords:
 ---
 
-## A.6.3.CSC - Controlled Semantic Coarsening
+## A.6.3.CSC - Controlled Semantic Coarsening: Shorten an Account for a Bounded Use
 
 > **Type:** Architectural (A)
 > **Status:** Stable

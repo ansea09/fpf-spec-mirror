@@ -6,19 +6,21 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.P.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.P — Conceptual Prefixes policy & registry"
-line_start: 86809
-line_end: 86838
+line_start: 87129
+line_end: 87158
 dependencies:
   - "E.5.1"
   - "E.5.2"
   - "E.9"
 keywords:
   - "U"
+  - "collisions"
+  - "conceptual prefixes"
+  - "minting"
   - "namespace"
-  - "prefixes"
   - "registry"
   - "tv"
   - "ut"
@@ -43,7 +45,7 @@ keywords:
 * `Γ_` — **Calculus operator family** (by flavour: `Γ_sys`, `Γ_epist`, …). *Anchor:* Part B umbrella on Γ.
 * `ut:` — **Universal relation family** (e.g., `PartOf` sub‑relations). *Anchor:* A.14 (Mereology) — informative alias vocabulary.
 * `tv:` — **Trace & Validation vocabulary** (CT2R‑LOG): `tv:AliasOf`, `tv:groundedBy`. *Anchor:* B.3 (Trust & Assurance, LOG‑use).
-* `ev:` — **Evidence hooks** (bindings/roles). *Anchor:* A.10 / B.3 (Evidence Graph Referring).
+* `ev:` — **Evidence-account vocabulary**, used for source and support labels in a descriptive account. Each support or assurance claim retains its direct governing rule. *Anchor:* A.10 / B.3.
 * `mero:` — **Mereology trace types** (internal labels: `SumTrace` / `SetTrace` / `SliceTrace`) used **informatively** in examples. *Anchor:* B.1 (Γ‑aggregation).
 
 **Conformance Checklist (E.10.P).**

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16"
-pattern_title: "Language-State Move Coordination"
+pattern_title: "Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
 section_id: "A.16:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16 — Language-State Move Coordination"
+  - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:4 — Solution"
-line_start: 30479
-line_end: 30573
+line_start: 30388
+line_end: 30482
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -43,15 +43,14 @@ dependencies:
   - "E.10.MOVE"
   - "E.11.PUR"
   - "E.18"
+  - "E.18.2"
   - "E.24.PUB"
   - "F.6"
 keywords:
-  - "admissible language-state move"
   - "language-state"
   - "move"
   - "reopen"
   - "respecify"
-  - "responsibility transfer"
   - "retire"
   - "sketch-backoff"
 ---
@@ -69,7 +68,7 @@ This is the one canonical move table. Later examples apply it; they do not defin
 | Move | Use it when | Publication result | Keep explicit |
 | --- | --- | --- | --- |
 | `notice` | a low- or unstable-articulation cue is worth preserving | preservation-worthiness becomes explicit; a first typed preservation may begin | why the cue is worth preserving and which witnesses remain |
-| `stabilize` | the noticed cue needs a steadier local shape before route or endpoint choice | `U.PreArticulationCuePack` or an equivalent early form may become admissible | cue nucleus, anchors, contrasts, witnesses, and preservation rationale |
+| `stabilize` | the noticed cue needs a steadier local shape before route or endpoint choice | `PreArticulationCuePack` or an equivalent early form may become admissible | cue nucleus, anchors, contrasts, witnesses, and preservation rationale |
 | `route` | a stabilized cue has several plausible downstream directions or one route must be selected | `RoutedCueSet` or another route-bearing publication makes plurality and any selection explicit | live routes, selected route if any, selection reason, and reopen condition |
 | `projection` | one aspect of an explicit route must be foregrounded without claiming endpoint admission | a typed route-bounded partial publication on an existing MVPK face | what is foregrounded, what is omitted or lost, and how reopen remains possible |
 | `formalize` | articulation or closure can increase under a named later rule | a more explicit symbolic, slot, or normal-form publication | the rule used, changed facets, and any new evidence-generating Work boundary |
@@ -79,9 +78,9 @@ This is the one canonical move table. Later examples apply it; they do not defin
 | `respecify` | the broad family remains plausible but its framing scaffold, facet reading, or route specification is wrong | a revised framing or route specification replaces the earlier one | replaced commitments, invariants that stay fixed, and any episteme-identity change |
 | `retire` | a cue, route-bearing publication, episteme, or branch is no longer current for the named use because its grounds failed, a successor took over, or a current-use decision ended | retirement or withdrawal is explicit | reason, exact retired object, successor or no-successor note, and preserved history |
 
-The table names moves, not the resulting objects. `U.PreArticulationCuePack`, `RoutedCueSet`, and `U.AbductivePrompt` are publication forms defined elsewhere. A claim-bearing episteme remains `U.Episteme`; `E.24.PUB` separately defines a bounded publication occurrence.
+The table names moves, not the resulting objects. `PreArticulationCuePack`, `RoutedCueSet`, and `U.AbductivePrompt` are publication forms defined elsewhere. A claim-bearing episteme remains `U.Episteme`; `E.24.PUB` separately defines a bounded publication occurrence.
 
-`projection` means route-bounded partialization. Its result must be a typed publication form; an MVPK face alone or an untyped placeholder is not enough. `respecify` changes framing, route specification, or a facet-profile reading. It does not replace the slot-explicit repairs governed by `A.6.P`, `C.16.Q`, or `A.6.A`.
+`projection` means route-bounded partialization. Its result must be a typed publication form; an MVPK face alone or an untyped placeholder is not enough. `respecify` changes framing, route specification, or a facet-profile reading. Precision repair remains with `A.6.P` or `C.16.Q`; recovery of an ambiguous action-oriented claim or question remains with `A.6.A`.
 
 Do not use A.16 to decide measurement admissibility, Bridge substitution, endpoint ontology, or another subject claim. Name the applicable pattern and test directly; A.16 coordinates only the publication move that makes that question current.
 
@@ -138,7 +137,7 @@ Do not compress several claims into `AuthorityState`. A reusable language-state 
 
 Open route plurality is not a lineage fork. A multi-route state keeps several directions live inside one route-bearing publication. A lineage fork has separately identified successor members, their preserved and lost content, and any exact lineage relations that obtain.
 
-`EndpointAdmissionProfile` may still be reused as a declarative decision profile for next-use docking. It combines the relevant `C.2.2a` position, `C.2.LS` facet readings, route condition from `B.4.1`, prompt readiness from `B.5.2.0`, and visible witness or grounding conditions. Apply it to judge only whether docking to the later question is admissible: relation-like content toward `A.6.P`, an open question and rival set toward `B.5.2.0`, evaluative or action-inviting content toward `C.16.Q` or `A.6.A`, viability or other quality-family content toward `C.25` when quality-family decomposition is the question, and executable docking toward `A.15`. Apply the endpoint pattern's own tests to that content; tone, style, or apparent explicitness passes no endpoint test by itself. The admission result creates no authority, responsibility, permission, commitment, publication, gate, or Work state.
+`EndpointAdmissionProfile` may still be reused as a declarative decision profile for next-use docking. It combines the relevant `C.2.2a` position, `C.2.LS` facet readings, route condition from `B.4.1`, prompt readiness from `B.5.2.0`, and visible witness or grounding conditions. Apply it to judge only whether docking to the later question is admissible: relation-like content toward `A.6.P`, an open question and rival set toward `B.5.2.0`, evaluative content toward `C.16.Q`, ambiguous affordance-like wording toward `A.6.A` and then the recovered subject, viability or other quality-family content toward `C.25` when quality-family decomposition is the question, and executable docking toward `A.15`. Apply the selected pattern's own tests. A.6.A may return a sufficient claim, question or exact missing basis; that recovery establishes no common invitation relation. Tone, style or apparent explicitness supplies no subject result by itself. The admission result creates no authority, responsibility, permission, commitment, publication, gate, or Work state.
 
 #### A.16:4.7 - One history threshold
 
@@ -149,5 +148,5 @@ A local note is sufficient when the move or short chain is reconstructible witho
 - loss notes or reopen conditions spanning more than one move; or
 - an actual responsibility handoff, Bridge entry, or viewpoint entry whose legitimacy or interpretation depends on upstream history.
 
-When that history must itself be published as a graph path, use `E.18`. A.16 defines move admissibility; A.16.0 packages the trajectory account; E.18 governs the graph publication.
+A.16 defines move admissibility and A.16.0 packages the trajectory account. A graph representation alone does not establish a TransformationFlowStructure. Use E.18 only for an independently selected structure that meets its rules, and E.18.2 for a mathematical description of that structure. Publication faces and bounded audience availability remain under E.17 and E.24.PUB; use C.29 when mathematical-lens adequacy is the current question.
 

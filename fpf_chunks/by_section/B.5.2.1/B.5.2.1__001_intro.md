@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.2.1"
-pattern_title: "Creative Abduction with NQD"
+pattern_title: "Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
 section_id: "B.5.2.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.2.1 — Creative Abduction with NQD"
+  - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:intro — Intro"
-line_start: 46621
-line_end: 46627
+line_start: 46568
+line_end: 46574
 dependencies:
   - "A.17"
   - "A.18"
@@ -24,23 +24,12 @@ dependencies:
   - "C.19"
   - "G.5"
 keywords:
-  - "Creativity-CHR"
-  - "DecisionSubject note"
-  - "E/E-LOG"
-  - "NQD binding"
-  - "Novelty@context"
-  - "Q-front"
-  - "creative abduction"
-  - "declared Q components"
-  - "retained exploration/archive evidence"
-  - "Γ_nqd.generate"
-  - "ΔDiversity_P"
 ---
 
-## B.5.2.1 - Creative Abduction with NQD
+## B.5.2.1 - Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)
 
-**Status.** Normative **binding** to **B.5.2 Abductive Loop** that delegates candidate generation to **Γ_nqd.generate** (**C.18 NQD-CAL**) and exploration/exploitation policy to **E/E-LOG (C.19)**; the kernel remains unchanged.
+**Status.** Normative binding to **B.5.2 Abductive Loop**. The local **NQD-Generate** Method in §4, or an equivalent declared generator, constructs the candidates. **C.18** supplies generation, archive and front records; **C.19** supplies the applicable exploration/exploitation policy.
 
-**Non‑duplication & parsimony.** “Introduces **no new kernel primitives**; reuses the CHR kit (**A.17/A.18**) to define measurable **Characteristics**. This pattern does not introduce new eligibility conditions. Application is permitted only when USM coverage holds for the target slice and the performer’s RSG state is enactable (eligibility), without prescribing any team workflow. Per **A.11 Ontological Parsimony**, only a context‑local CHR import and a **Method** are added; **no changes to Γ/LOG**. All generation is performed via **Γ_nqd.* (C.18)** and all exploration/exploitation control via **E/E-LOG (C.19)**.
+**Non-duplication & parsimony.** Reuse A.17/A.18 for Characteristics and A.3.1/A.3.2 for the Method and its description. The local Method supplies candidate construction without adding a kernel operator. Distinguish its input and seed conditions, conditions for any actual generation Work, and the generated candidate’s later admission to comparison. C.18 records the identified generator and its results; filling that record performs no generation.
 **Terminology discipline.** Use **NQD** consistently (Novelty–Quality–Diversity). Treat **S**/**I** as *secondary* metrics unless explicitly promoted by policy (see §3, §5).
 

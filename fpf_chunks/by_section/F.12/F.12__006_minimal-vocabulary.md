@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.12"
-pattern_title: "Service Acceptance–Work Evidence Link"
+pattern_title: "Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
 section_id: "F.12:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__006_minimal-vocabulary.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.12 — Service Acceptance–Work Evidence Link"
+  - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:5 — Minimal vocabulary"
-line_start: 106091
-line_end: 106105
+line_start: 106513
+line_end: 106527
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,5 +60,5 @@ keywords:
 * **Status use** — a separate F.10 application of an exact EvidenceStatus or RequirementStatus value to its exact target, scope, window, and use after the direct result is recovered.
 * **Verdict episteme** — an optional C.2.1 episteme that states the evaluation result or status when another use needs a durable assertion; it is not the operation result or the fulfilment relation.
 * **Indicator or proxy relation** — only a separately defined or tested relation in which one observed characteristic or result stands in for another subject or outcome for this use, with exact participants, coverage, and loss. The word *proxy* does not create it.
-* **Evidence use and reliance** — an A.10 evidence-use relation and, only for assurance or material reliance, the B.3 branch. Neither creates an indicator relation or the acceptance result.
+* **Evidence use and reliance** — the independently established direct relations supporting the acceptance claim, represented in A.10's descriptive evidence-provenance path, with a local reliance disposition for the bounded use. B.3 enters only for an actual named assurance claim. Neither the path nor the disposition creates an indicator relation or the acceptance result.
 

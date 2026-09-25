@@ -6,12 +6,12 @@ section_id: "B.2.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__002_use-this-when.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:0 — Use This When"
-line_start: 41694
-line_end: 41722
+line_start: 41624
+line_end: 41653
 dependencies:
   - "A.1"
   - "A.10"
@@ -24,11 +24,13 @@ dependencies:
   - "A.3.3"
   - "A.3.4"
   - "A.6.M"
+  - "A.6.RCD"
   - "B.1"
   - "B.2"
   - "B.2.P"
   - "B.3"
   - "C.13"
+  - "C.2.1"
   - "C.27"
   - "C.28"
   - "C.29"
@@ -43,20 +45,21 @@ keywords:
 
 Use this pattern when a holon is supervised, regulated, steered, corrected, constrained, or coordinated through a two-sided feedback relation between one supervising acting system and one or more supervised holons. If the supervision is conditioned by a local system-role kind or assignment, recover that classification and exact assignment separately.
 
-The first useful move is to recover the relation:
+The first useful move is to recover the facts supporting the feedback claim:
 
 ```text
 Which holons are supervised?
 Which admitted system supervises these holons for this feedback use, under which policy and during which time window, and which local supervisor system-role kind and exact assignment obtain when that classification matters?
 What observation, report, signal, publication, or source relation carries state?
 What influence, constraint, objective, mode, or work change returns?
+Which rule and case facts couple that return to the observation for each supervised holon?
 Which transformation, work, architecture, evidence, assurance, timing,
 or causal claim is being made in addition to the relation?
 ```
 
 **What goes wrong if missed.** A control diagram, policy note, dashboard, publication channel, or supervisor word starts carrying part-whole, agency, safety, assurance, timing, gate, or architecture claims that belong elsewhere.
 
-**What this buys.** B.2.5 gives a small relation record: supervised holons, supervising acting system, optional exact system-role kind and assignment, medium or publication relation, observation or report side, influence or constraint side, and the patterns that define any stronger claim.
+**What this buys.** B.2.5 gives a readable compound claim: for each named holon, this system receives the stated observation and returns an influence coupled to it under the applicable rule. The observation, influence and coupling facts remain separately governed; the assertion can support a control description without introducing a fused feedback occurrence.
 
 **Not this pattern when.**
 

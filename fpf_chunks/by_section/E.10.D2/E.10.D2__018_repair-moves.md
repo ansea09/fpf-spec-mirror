@@ -6,12 +6,12 @@ section_id: "E.10.D2:16"
 section_title: "Repair moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__018_repair-moves.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:16 — Repair moves"
-line_start: 87360
-line_end: 87376
+line_start: 87680
+line_end: 87696
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -34,12 +34,15 @@ dependencies:
   - "F.9"
   - "G.11"
 keywords:
-  - "Description episteme"
-  - "DescriptionContext"
+  - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"
+  - "checkable claims"
+  - "description episteme"
+  - "harness"
+  - "publication"
+  - "representation"
   - "specification use"
-  - "testable"
-  - "verifiable"
+  - "viewpoint"
 ---
 
 ### E.10.D2:16 - Repair moves
@@ -56,6 +59,6 @@ Use these repairs on live prose; retain old spellings only as quoted source-side
 8. Replace `...Spec` names lacking checkable claims and a named harness or validation relation with `...Description`. Preserve or update the selected viewpoint only when the relying describing use depends on it.
 9. Route permission, evidence, assurance, gate, decision, promise, commitment, work, publication, view, Bridge, retargeting, currentness, and representation claims to their exact direct governors.
 10. Replace “role of this description, source, standard, evidence, or publication” with the exact typed use relation. Use one exact occurrence of a directly declared `U.SystemRoleAssignment` species only for an independently admitted `U.System` assigned to one exact local system-role kind; an acting holon is eligible only after that exact entity has independently passed `U.System` admission for the claim.
-11. Delete mandatory context recursion for descriptions of epistemes; use ordinary C.2.1 recursion with the earlier episteme as EntityOfConcern.
+11. Delete mandatory context recursion for descriptions of epistemes; recover the described episteme as EntityOfConcern under C.2.1, including its permitted self-description case.
 12. Stop when the recovered constitution and one needed neighboring relation make the next action clear; do not complete a universal description card.
 

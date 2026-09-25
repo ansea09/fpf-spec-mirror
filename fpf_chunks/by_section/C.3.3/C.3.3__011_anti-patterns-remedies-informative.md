@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.3"
-pattern_title: "KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
+pattern_title: "KindBridge and CL^k — Correspondence between Distinct Kinds"
 section_id: "C.3.3:10"
 section_title: "Anti‑patterns & Remedies (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__011_anti-patterns-remedies-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
+  - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:10 — Anti‑patterns & Remedies (informative)"
-line_start: 51451
-line_end: 51461
+line_start: 51594
+line_end: 51604
 dependencies:
   - "A.2.6"
   - "A.6.REL"

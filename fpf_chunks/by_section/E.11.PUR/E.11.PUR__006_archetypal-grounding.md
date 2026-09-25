@@ -6,12 +6,12 @@ section_id: "E.11.PUR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:5 — Archetypal Grounding"
-line_start: 88688
-line_end: 88739
+line_start: 89045
+line_end: 89096
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,21 +62,21 @@ State an unordered coordination: the team may use either pattern first or use th
 
 #### E.11.PUR:5.3 - Result-based precedence
 
-A design team's architecture-candidate comparison begins only after its evaluation coordinates are defined. One candidate use of `A.19.ECS` expects an `EvaluationCharacteristicSpaceSpec`; the dependent comparison use consumes that exact result.
+A design team's comparison rule requires the exact evaluation coordinates for candidates X and Y and their intended review question. The coordination selects its A.19.ECS candidate to supply that EvaluationCharacteristicSpaceSpec under a stated criterion for this task. The known rule, required content and supplier selection establish prerequisite-result precedence even while the spec is absent. Readiness is false when absence is known, or unresolved when its existence/applicability is unknown.
 
-Use `precedenceBasis=prerequisiteResult`, point to the ECS candidate's existing expectation, and cite its current E.11.PUA result-closure finding. The closure must identify the exact `EvaluationCharacteristicSpaceSpec`, its defining or constraining `ClaimGraph` and pattern locator, the evaluation or Method use relative to which it is this result, and the direct relation, A.6.1 binding, or local-claim basis with its exact predicate. Do not copy the spec or its signature into ordering fields. Until that basis is current, no precedence occurrence is established and the dependent use stays at its return boundary.
+When a current PUA closure identifies the actual spec and its basis meeting those receiving conditions, readiness can be supported. If an earlier ECS result already meets them under §4.2.1, reuse that result without repeating ECS. A same-kind spec for another question is insufficient. If the comparison rule no longer requires this content, the dependency fails; if the rule itself is missing, the dependency is unresolved. Neither result changes candidate inspection or supplies Work authorization.
 
-#### E.11.PUR:5.4 - Method precondition is not a result dependency
+#### E.11.PUR:5.4 - Method precondition and a real ordered pair
 
-A machining pattern assumes an admitted material-kind classification. The classification is a method precondition already current for that exact machining use, not the result of another candidate pattern use.
+An already-current material-kind classification is a solutionConditions fit fact for one machining candidate; it supplies no second candidate and no ordering pair.
 
-If coordination is still useful, use `methodPrecondition` and leave both result-reference positions absent. Do not invent a prerequisite result merely to make the relation look uniform.
+By contrast, candidate A inspects the intact surface of one specimen and candidate B destructively tests that specimen. If B destroys the very surface condition A needs and A-before-B preserves both applicable uses, the methodPrecondition predicate supports that direction. If B leaves A's required condition unaffected, this ground supplies no precedence. Two individually fitting candidates alone do not establish an edge.
 
-#### E.11.PUR:5.5 - Repair a stale copied prerequisite locally
+#### E.11.PUR:5.5 - Shared resources and changes to support
 
-An older architecture coordination copied `EvaluationCharacteristicSpaceSpec` and its signature into an ordering record. The ECS candidate's current expectation later changed, leaving the copy stale while both candidates, their applicability findings, the coordination question, and `partialOrder` mode remained sound.
+Two candidate uses require the same exclusive instrument. Exclusion alone leaves their coordination conflict unresolved. An applicable selected schedule S1 assigning A before B supplies the directional sharedConstraintResolution basis; an applicable S2 selecting B before A defeats that A-before-B claim. An unknown priority rule leaves the direction unresolved. Adding both opposite edges would violate the strict-order cycle condition.
 
-Repair only the ordering relation: remove the copied result description, set `precedenceBasis=prerequisiteResult`, and reference the ECS candidate's current expectation and current E.11.PUA result-closure finding. If the exact result, relative object, direct basis, predicate, or defining `ClaimGraph` cannot be recovered, keep the precedence relation non-obtaining and the dependent use at its return boundary. Candidate inspection, applicability, coordination membership, and direct `Solution` content do not restart.
+If a coordination description copied an old ECS expectation, replace the copy with the current exact expectation and required-content/supplier basis. Reassess the dependency only where that semantic content changed. A new closure or witness can instead change readiness without changing the ordering relation. A new rendering of S1 is descriptive; an actual change from S1 to S2 is constitutive and requires the changed order to be assessed. Candidate fit and unrelated dependencies remain usable.
 
 #### E.11.PUR:5.6 - A higher recommendation score can reduce useful fit
 

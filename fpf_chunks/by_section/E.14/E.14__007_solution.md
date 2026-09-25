@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.14"
-pattern_title: "Human‑Centric Working‑Model"
+pattern_title: "Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
 section_id: "E.14:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__007_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.14 — Human‑Centric Working‑Model"
+  - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:4 — Solution"
-line_start: 89726
-line_end: 89777
+line_start: 90110
+line_end: 90161
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -20,11 +20,6 @@ dependencies:
   - "E.7"
   - "E.8"
 keywords:
-  - "assurance layers"
-  - "grounding"
-  - "human-centric"
-  - "publication surface"
-  - "working model"
 ---
 
 ### E.14:4 - Solution
@@ -58,10 +53,10 @@ When empirical evaluation is current, keep the same reading order. Put the ordin
 > Operate one **Working-Model** for all human-facing discussion and state the direct claim first. If neither the publication nor a named current requirement calls for assurance, the author may stop there. When assurance is current, declare only the posture and shoulder or shoulders required by the applicable pattern: **Mapping** to align a term with the chosen model value it names; **Logical** to state label meaning, scope, constraints, and limits; **Constructive** to make independently grounded construction facts inspectable; or **Empirical Validation** to support a bounded reliance on a domain result. Under `B.3.5`, covered claims declare `validationMode`. For each selected shoulder, name only the objects, scope, and qualification window the current use consumes. None creates the model value, subject relation, Work occurrence, or result it supports.
 
 > **E.14‑P.2 – Downward‑only dependency.**
-> Information **may** flow from the Working‑Model down into any Assurance layer; **no Assurance layer may impose vocabulary or shape back upward** into the Working‑Model.
+> Keep assurance apparatus subordinate to the readable Working-Model claim: its notation and record structure do not define the public vocabulary. This presentation rule does not prevent correction. If a proof, trace, or empirical result exposes a false or overbroad claim, revise the Working-Model claim and any affected wording under the direct governing pattern; do not silently leave the recognition text asserting the defeated claim.
 >
 > **E.14‑P.3 – Small working text, big proof.**
-> The Working-Model exposes a **minimal set** of names in the L-1 and L-2 registers and a compact family of relations used in everyday reasoning; the assurance text makes their meanings, basis, limits, and support inspectable below.
+> The Working-Model exposes a **small set** of names chosen through E.10's Plain and Tech registers for the intended reader, and a compact family of relations used in everyday reasoning; the assurance text makes their meanings, basis, limits, and support inspectable below.
 
 > **E.14‑P.4 – Human registers first.**
 > Terms in the Working‑Model are deliberately curated for **human legibility** (register‑badged, synonym‑aware). Synonym capture and language variance belong to Mapping; **only the chosen canonical label appears in the Working-Model text**.
@@ -74,7 +69,7 @@ When empirical evaluation is current, keep the same reading order. Put the ordin
 > No new Working‑Model relation types are introduced if the existing Logical label-meaning rules plus Constructive grounding suffice to capture the intended meaning.
 
 > **E.14‑P.7 – A postulate is not completed evaluation.**
-> When *postulate* is chosen, authors **SHALL** state the claim and its scope and **SHOULD** give brief empirical cues — where it tends to hold or what would challenge it — to ease later validation. This posture by itself requires no dated Work, result, A.13 performer core, A.15.1 Work admission, F.6 attribution, provenance path, or assurance claim. If evaluation or measurement actually occurred and the current assurance use relies on its result, authors **SHALL** name the scope and qualification window that use consumes, the domain result and result episteme, and the A.10 evidence-provenance relation; every performer keeps an A.13 core and the Work is independently admitted under A.15.1. F.6 is added only when the assurance use also consumes precise assignment-bound attribution. When an actual named assurance claim is current, the B.3 assurance claim remains separate and required for that assurance-bearing use. Another named current assurance requirement supplies its own obligations.
+> When *postulate* is chosen, authors **SHALL** state the claim and its scope and **SHOULD** give brief empirical cues — where it tends to hold or what would challenge it — to ease later validation. This posture by itself requires no dated Work, result, A.13 performer core, A.15.1 Work admission, F.6 attribution, provenance path, or assurance claim. If evaluation or measurement actually occurred and the current assurance use relies on its result, authors **SHALL** name the scope and qualification window that use consumes, the domain result and result episteme, and the A.10 descriptive evidence-provenance account of the independently established source and use relations; every performer keeps an A.13 core and the Work is independently admitted under A.15.1. F.6 is added only when the assurance use also consumes precise assignment-bound attribution. When an actual named assurance claim is current, the B.3 assurance claim remains separate and required for that assurance-bearing use. Another named current assurance requirement supplies its own obligations.
 
 > **E.14‑P.8 – Working-model-first is not explanation-thin.**
 > Human-facing parsimony does **not** license under-explained pattern prose. When a pattern claims a Working‑Model benefit, it **SHALL** still provide enough problem framing, rationale, and worked slices that readers can tell what the model clarifies, what remains on the assurance shoulders, and when a heavier review path is required.

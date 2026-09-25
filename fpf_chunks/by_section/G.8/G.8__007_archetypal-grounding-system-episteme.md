@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.8"
-pattern_title: "SoS‑LOG Bundles & Maturity Ladders"
+pattern_title: "Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
 section_id: "G.8:6"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__007_archetypal-grounding-system-episteme.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
+  - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:6 — Archetypal Grounding (System / Episteme)"
-line_start: 114525
-line_end: 114535
+line_start: 114864
+line_end: 114874
 dependencies:
   - "A.10"
   - "A.21"

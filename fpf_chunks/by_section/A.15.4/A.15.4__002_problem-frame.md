@@ -6,12 +6,12 @@ section_id: "A.15.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:1 — Problem Frame"
-line_start: 27878
-line_end: 27895
+line_start: 27767
+line_end: 27784
 dependencies:
   - "A.10"
   - "A.13"
@@ -60,12 +60,12 @@ Dashboards, credential views, generated explanations, copied approvals, provenan
 **Reliance-appearance and claim/effect-position discipline.** In this pattern, `source` is not a generic kind. The value required for the attempted use is an actual relation occurrence, decision/finding/status result, plan, Work occurrence, or claim about that object. Apply the criterion defined for that value. A project record may be a `U.Episteme` that names it, and a publication relation may expose that record; neither the record nor its display makes the relation obtain or the result pass. If no typed reference and applicable test can be recovered, keep the appearance at orientation, source-finding, cue-pack preservation, repair request, or bounded-probe use.
 
 **How to read the optional note and typed rows.** `A.15.4` does not introduce `U.Source`, `U.RequiredValue`, `WorkReliancePremise`, a generic cue head, a generic visible-thing kind, or a repair relation. The following labels are worksheet prompts for values defined elsewhere:
-- `RelianceAppearanceRef` names the dashboard tile, credential view, copied wording, generated explanation, publication face, carrier, display, API wording, source-finding pointer, or low-articulation indication whose appearance is tempting the work or reliance use. `RelianceAppearanceKind` states its actual kind rather than making these items one kind. If the live value is a preserve-worthy early cue, use `U.PreArticulationCuePack` under `A.16.1`.
+- `RelianceAppearanceRef` names the dashboard tile, credential view, copied wording, generated explanation, publication face, carrier, display, API wording, source-finding pointer, or low-articulation indication whose appearance is tempting the work or reliance use. `RelianceAppearanceKind` states its actual kind rather than making these items one kind. If the live value is a preserve-worthy early cue, use `PreArticulationCuePack` under `A.16.1`.
 - `WorkOrRelianceUseKind` and `WorkOrRelianceUseRef` name the use being justified: intended work, reliance on a claim, reliance on performed work, a work-relevant P2W claim, or a P2W chain position. These fields select the current branch; they do not create a durable kind.
 - `RequiredPositionEntries` is the sole prerequisite set and contains one row per independently required direct object. Every row states `SubjectPatternLocator`, `DirectObjectKind`, the native `ProjectSideObjectRef` required for that object, `RequiredPostureOrCurrentness`, and `DependencyOnAttemptedUse`. The locator points to the pattern whose content defines, constrains, or tests the direct object; a proxy or navigation pattern is insufficient. One row may point to a required claim, another to an instituting speech act, grant, conflict finding, gate decision, assignment, evidence/currentness relation, plan, or other direct object; the row set creates none of them and never turns a claim into an instituted effect.
 - `AllowedUseNow` states what use remains admissible after repair, such as orientation, source-finding, bounded reversible probe, narrowed reliance, or proceed-inside-recovered-relation.
 - `AppearanceOverreadBlocked` names the false use that the reliance appearance would create by appearance, for example treating a dashboard color as gate passage or a copied approval as a current speech act.
 - `RecoveryOrStopCondition` names the first failed prerequisite and what must change. Before reopening, follow every typed ref and verify that the relation obtains or the result passes its defined criterion, is current, covers the attempted beneficiary/action/target/scope/window, and has the evidence or source relation required for this reliance. When a relevant conflict exists, its separate `PermissionNormConflictFinding@Context` row must carry the current disposition defined in `A.2.8.PER`; an `unresolved` or norm-selecting result blocks the affected use without changing grant currentness. A named or complete-looking record is not enough.
 
-Here `evidence relation`, `attestation relation`, and `currentness relation` mean `A.10` evidence-provenance, attestation, or currentness relations named by value. They are not work-procedure elements and do not carry authorization by their wording.
+Here evidence, attestation, provenance, and currentness relations retain their direct predicates and identity rules. A.10 makes the independently established relations, their sources, and the bounded reliance on them recoverable in a descriptive account; it defines no universal evidence-provenance relation. That account supplies no authorization by itself.
 

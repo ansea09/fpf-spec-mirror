@@ -6,12 +6,12 @@ section_id: "A.15.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
   - "A.15.11:4 — Solution"
-line_start: 29757
-line_end: 29822
+line_start: 29650
+line_end: 29721
 dependencies:
   - "A.15"
   - "A.15.7"
@@ -38,6 +38,8 @@ Start from work someone actually does. State what could improve: a choice, a res
 
 Identify the larger method being performed through the selected action and the constituent methods that make that action possible. These methods can be performed together in the same action. Use B.1.5.EW when this connection is unclear. Judge a proposed improvement under the conditions of that encompassing work, including any missing capabilities or resources on which it depends.
 
+When no question has yet been raised, B.5.PI uses an ordinary work occasion to compare a result with its use and develop a question or retain an early cue. Arrange that opportunity without presupposing a particular error.
+
 When the useful contribution is uncertain, examine a small, permitted sample of the work with a relevant practitioner or source. Ask what an available alternative could make possible. C.40 and C.40.CD supply constructive inquiry where the question or method itself needs development. Do not install a standing prompt merely because a topic sounds relevant.
 
 #### A.15.11:4.2 - Make the relevance relation explicit
@@ -57,6 +59,10 @@ Try a nearby case in which the method should not be suggested. If the same cue r
 Choose an existing occasion: preparing a plan, receiving a result, changing a tool, estimating an addition or revisiting a commitment. Put the cue in material used at that occasion, or arrange an intervention by a participant who already attends to it.
 
 Select the means according to the performer. A visible comparison can help a human notice a relation. An organization's existing review meeting can bring a specialist into the choice. A tool can provide relevant instructions to an AI agent when an existing software event occurs. These arrangements share a functional purpose without requiring the same internal mechanism.
+
+A short execution checklist is one possible cue. Give it a real occasion and user, express each check as something that user can inspect, and say what to do when a condition is unmet or cannot be determined. Distinguish checking a known condition from discovering whether the chosen method and its result fit the work. A pattern's Conformance Checklist can supply content, but copying it does not automatically produce a usable execution aid.
+
+For example, before using a calculated amount in a quotation, a check can ask whether the amount is defined for these inputs and means what the quotation requires. An unresolved item leads to examination of that case, not a forced tick. Keep a way to raise a consequential concern that none of the listed checks expresses; use B.5.PI to develop the question and B.5.EA when a participant cannot yet put the difference into words. Passing the listed checks establishes only what those checks support.
 
 Choose timing that preserves the work. An explanation during a difficult movement can disrupt the action it is intended to help; an agreed pause may be the useful occasion. A quiet pointer may suffice where interruption would cost more. Use only observation and access already authorized for this purpose.
 

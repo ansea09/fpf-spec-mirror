@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.8.ECSPF"
-pattern_title: "FPF Pattern Publication Form for Evaluation Guidance"
+pattern_title: "Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
 section_id: "E.8.ECSPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__006_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
+  - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:5 — Archetypal Grounding"
-line_start: 82741
-line_end: 82780
+line_start: 83060
+line_end: 83099
 dependencies:
   - "A.19.ECS"
   - "C.25"

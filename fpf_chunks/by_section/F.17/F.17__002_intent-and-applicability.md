@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.17"
-pattern_title: "Unified Term Sheet"
+pattern_title: "Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
 section_id: "F.17:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__002_intent-and-applicability.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.17 — Unified Term Sheet"
+  - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:1 — Intent and applicability"
-line_start: 107641
-line_end: 107654
+line_start: 108071
+line_end: 108084
 dependencies:
   - "A.1.1"
   - "A.10"

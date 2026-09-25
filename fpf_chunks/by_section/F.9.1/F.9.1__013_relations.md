@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9.1"
-pattern_title: "Bridge Stance Note"
+pattern_title: "Bridge Stance Note — Clarify a Bounded Use"
 section_id: "F.9.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__013_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.9.1 — Bridge Stance Note"
+  - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:12 — Relations"
-line_start: 105497
-line_end: 105511
+line_start: 105917
+line_end: 105931
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

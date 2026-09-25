@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__002_use-this-when.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:0 — Use This When"
-line_start: 86216
-line_end: 86241
+line_start: 86536
+line_end: 86561
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -71,7 +71,7 @@ Use this pattern when a recurring FPF-governed wording-use problem survives the 
 
 **Early failure cue.** FPF accumulates many small local wording-recognition lists, and subject patterns start teaching repair doctrine instead of their own EntityOfConcern, invariants, and first useful move.
 
-**Early gain cue.** `F.19` repairs the normal span, `E.10` locates the unresolved FPF use, and `E.10.ARCH` supplies shared ontological recovery only for what remains. Every recovered object returns to its own exact assertion under its defining or constraining `ClaimGraph`.
+**Early gain cue.** `F.19` repairs the normal span, `E.10` locates the unresolved FPF use, and `E.10.ARCH` supplies shared ontological recovery only for what remains. State each recovered claim under its defining or constraining rule; identify its exact `ClaimGraph` only when the receiving use depends on that identity.
 
 Use it especially when several subject patterns repeat the same first-stage wording recovery before reaching their own invariants. Locate the unresolved wording use through `E.10:0.2`; section 4 keeps the detailed applicability rows for the selected recovery question.
 

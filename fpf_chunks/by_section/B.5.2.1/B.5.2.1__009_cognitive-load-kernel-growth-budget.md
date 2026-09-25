@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.2.1"
-pattern_title: "Creative Abduction with NQD"
+pattern_title: "Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
 section_id: "B.5.2.1:7"
 section_title: "Cognitive Load & Kernel Growth Budget"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__009_cognitive-load-kernel-growth-budget.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.2.1 — Creative Abduction with NQD"
+  - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:7 — Cognitive Load & Kernel Growth Budget"
-line_start: 46730
-line_end: 46741
+line_start: 46677
+line_end: 46688
 dependencies:
   - "A.17"
   - "A.18"
@@ -24,17 +24,6 @@ dependencies:
   - "C.19"
   - "G.5"
 keywords:
-  - "Creativity-CHR"
-  - "DecisionSubject note"
-  - "E/E-LOG"
-  - "NQD binding"
-  - "Novelty@context"
-  - "Q-front"
-  - "creative abduction"
-  - "declared Q components"
-  - "retained exploration/archive evidence"
-  - "Γ_nqd.generate"
-  - "ΔDiversity_P"
 ---
 
 ### B.5.2.1:7 - Cognitive Load & Kernel Growth Budget

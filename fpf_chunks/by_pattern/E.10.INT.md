@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.INT.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
-line_start: 85464
-line_end: 85628
+line_start: 85784
+line_end: 85948
 dependencies:
   - "C.11"
   - "C.16"
@@ -185,7 +185,7 @@ Reconsider these comparisons when a source provides a better account of the part
 - **C.16 and C.17** supply measurement and the distinctions among novelty, usefulness and sample surprise.
 - **C.11** compares formed options; **C.19** governs directions in an active search pool; **C.18** supplies retention in an exploration archive. **C.40** develops problems and ways together.
 - **D.1 and D.3** supply ethical-value and conflict analysis when affected interests raise those questions.
-- **E.23.CDI** separates a described acquisition method, its execution and an asserted capability change. The applicable field pattern supplies the acquisition or intervention method.
+- **E.23.CDI** offers candidate capability-development guidance that separates a described acquisition method, its execution and an asserted capability change. It can govern an FPF claim only after its own admission; the applicable admitted field pattern supplies the acquisition or intervention method.
 
 ### E.10.INT:End
 

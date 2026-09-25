@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.4"
-pattern_title: "Capability and Functioning Whole Reidentification"
+pattern_title: "Do Capability or Functioning Changes Require Whole Reidentification?"
 section_id: "B.2.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__003_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.2.4 — Capability and Functioning Whole Reidentification"
+  - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:1 — Problem Frame"
-line_start: 41516
-line_end: 41521
+line_start: 41446
+line_end: 41451
 dependencies:
   - "A.10"
   - "A.15"

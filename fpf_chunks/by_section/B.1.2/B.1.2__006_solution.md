@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.2"
-pattern_title: "System Aggregation and Holon Delimitation"
+pattern_title: "Coordinate Decisions About System Aggregation and Delimitation"
 section_id: "B.1.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.1.2 — System Aggregation and Holon Delimitation"
+  - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:4 — Solution"
-line_start: 38838
-line_end: 38893
+line_start: 38775
+line_end: 38823
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,7 +50,7 @@ Use B.1.2 to coordinate one named system-aggregation or delimitation decision ac
 | Which constituents are parts, portions, phases, or members, and how do they assemble? | `A.14`, the exact part-relation specialization, and `C.13` for constructive assembly grounding | Exact obtaining part-relation occurrences and the assembly they support; otherwise the missing direct governor, participant identity, obtaining fact, or assembly basis. |
 | Which facts and selected boundary-use claim delimit the system for this decision? | `A.1` for system identity; `A.14`, the exact part-relation specialization, and `C.13` for parthood and assembly; every exact crossing-relation pattern for external participants; `C.11` for a local choice among already available boundary readings; `C.32.PAD` for a post-synthesis architecture decision concerning exact project Work; `C.2.1` only for a separately persistent claim | First return exact identity, obtaining parthood and assembly, and crossing facts. If those facts answer the question, stop. If the named use additionally selects a boundary reading, return the C.11 `ChoiceResult` or C.32.PAD `ArchitectureDecisionRelation@Project` that makes its inclusion, exclusion, identity-preservation, and use claim current. Another choice branch passes only after its admitted direct decision predicate, source, and result are named; otherwise return the exact missing predicate or defining pattern, participant, obtaining fact, decision governor, or information blocker. When durable reliance is needed, one separate C.2.1 episteme states that claim and cites its basis; it creates none of the world facts. A selected `U.Structure` remains a separate B.1.2:4.2 branch. |
 | Which relation crosses the selected boundary? | The direct source, supply, flow, coupling, control, measurement, evidence, publication, transformation, commitment, or other relation pattern; `F.9` only for a needed semantic correspondence or difference between two exact F.17 local senses from different semantic contexts | One exact obtaining relation occurrence with its participant bindings and direct predicate; otherwise the missing governor, endpoint, binding, or obtaining fact. |
-| Which function is realized by which bearer? | `A.6.F`, `A.6.M`, and the exact architecture, allocation, or parthood pattern | Separate exact function, bearer, allocation or correspondence, and any obtaining parthood claims; otherwise the missing bearer, allocation, predicate, or defining source. |
+| Which function is realized by which bearer? | The direct behavior, realization, allocation or parthood pattern; `A.6.F` or `A.6.M` only for unresolved wording; `C.30.ASV` only for architecture-view qualification | Recover the functional claim, admitted bearer and independently obtaining realization/allocation and parthood relations; otherwise identify the missing predicate, participant or defining source. |
 | Which whole-level characteristic is claimed? | `C.16`, `A.19`, and `C.29` when a mathematical lens is used | Exact bearer, characteristic, assignment or value, scale, threshold or aggregation relation, and lens-use boundary; otherwise the missing bearer, scale, relation, or evidence. |
 | Which evidence, description, representation, or publication supports inspection? | `A.10`, `B.3`, `C.2.1`, `C.29`, `E.17`, and the exact source or architecture-description pattern | The exact episteme and exact evidence, assurance, description, representation, source-use, or publication relation; otherwise the missing identity, relation, applicability, or reliance basis. |
 
@@ -83,14 +83,7 @@ Use `C.16`, `A.19`, and `C.29` when characteristic space, scale, threshold, or m
 
 #### B.1.2:4.5 - Functional Elements And Bearers
 
-A functional element in a functional view is not automatically a system part.
+A functional element in a functional view is not automatically a system part. Recover the functional claim and its intended behavior, the exact bearer under its own kind and identity rule, the independently established realization or allocation relation, and any obtaining parthood relation. C.2.1 identifies a claim episteme when one must be cited; C.30.ASV qualifies an architecture structural view when that is the use.
 
-Recover separately:
-
-- functional behavior or functional element under `A.6.F`;
-- physical, organizational, software, or operational bearer under `A.6.M`, A.14, C.13, and architecture patterns;
-- allocation or correspondence between function and bearer;
-- system aggregation only when bearer parthood is independently admitted.
-
-One bearer may realize several functions. One function may require several bearers. This is allocation and correspondence before it is part-whole.
+Use A.6.F only to resolve an unclear function expression and A.6.M only to resolve module or interface wording. Neither pattern admits the bearer or establishes allocation or parthood. One bearer can realize several functions and one function can require several bearers when the direct domain relations support those claims.
 

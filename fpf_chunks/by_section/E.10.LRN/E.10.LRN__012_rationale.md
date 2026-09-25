@@ -6,12 +6,12 @@ section_id: "E.10.LRN:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__012_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:10 — Rationale"
-line_start: 85435
-line_end: 85440
+line_start: 85755
+line_end: 85760
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,7 +47,7 @@ keywords:
 
 ### E.10.LRN:10 - Rationale
 
-The recurring transdisciplinary problem is lexical recovery, not a common learning substance. A stable thin action survives across the unlike cases: recover who or what changed, separate Work and Method from result, state evidence and blocked transfer, split unlike claims, and route each claim to its owner. That action changes practice while leaving every substantive ontology and Method with its direct pattern.
+The recurring transdisciplinary problem is lexical recovery, not a common learning substance. A stable thin action survives across the unlike cases: recover who or what changed, separate Work and Method from result, state evidence and any action-changing transfer boundary, split unlike claims, and route each claim to its owner. That action changes practice while leaving every substantive ontology and Method with its direct pattern.
 
 This also explains the UTS decision. Familiar spelling is insufficient for one `UnifiedTermRow`. A durable public row is considered only for an independently governed value after its own naming and use tests; the umbrella word creates neither that value nor a Bridge among the branches.
 

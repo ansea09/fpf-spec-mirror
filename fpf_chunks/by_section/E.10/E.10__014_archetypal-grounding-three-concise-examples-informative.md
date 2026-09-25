@@ -6,12 +6,12 @@ section_id: "E.10:12"
 section_title: "Archetypal grounding: three concise examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__014_archetypal-grounding-three-concise-examples-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:12 — Archetypal grounding: three concise examples (informative)"
-line_start: 85087
-line_end: 85122
+line_start: 85407
+line_end: 85442
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,7 @@ These examples show the repaired claim first. Open the exact Work, attribution, 
 
 **Messy:** “The surgical **process** is scheduled at 08:00; the SOP approves the incision and the **service** documents recovery.”
 
-**Repair, taking `service` here to mean the ward team:** “Schedule `Incision_221` in `OR_Case_221_WorkPlan` for 08:00, using `IncisionMethod`. `SOP_OR_v4` states the incision-readiness constraint. `QAApprovalSystem` performs the approval; record its speech-act content and the resulting `GateDecision` separately; that decision admits the planned run. The ward team records `Patient_221`'s recovery in `RecoveryRecord_221`.”
+**Repair, taking `service` here to mean the ward team:** “Schedule `Incision_221` in `OR_Case_221_WorkPlan` for 08:00, using `IncisionMethod`. `SOP_OR_v4` states the incision-readiness constraint. `QAApprovalSystem` performs the approval; record its speech-act content. Separately recover the applicable A.21 profile and required check results. Its `GateDecisionResult` states whether and under which conditions the planned run may proceed. The ward team records `Patient_221`'s recovery in `RecoveryRecord_221`.”
 
 **Formal plan membership.** `OR_Case_221_WorkPlan` is used as `U.WorkPlan` only after A.15.2 membership is established: its already identified present EntityOfConcern is `Patient_221`, its horizon is the bounded surgical-planning interval, and `Incision_221`, a `PlanItem` substantively coordinates the intended surgeon classification and assignment conditions, operating-room resource reservation, planned start of 08:00, `IncisionMethod`, the `U.Method`, and the incision-readiness target. It cites `IncisionMethodDescription`, a separately identified claim-bearing episteme. That episteme is `U.MethodDescription` only because the method is its exact EntityOfConcern and its claims substantively describe how the method is carried out. Any edition identity needed by the plan is selected through a separate `U.EpistemeRef` whose subject pattern supplies its rule; carrier version remains separate.
 
@@ -82,7 +82,7 @@ These examples show the repaired claim first. Open the exact Work, attribution, 
 
 For one run, recover `Robot_SN789` as exact actual performer through A.13 and let A.15.1 independently admit `WeldWork-SN789-4711` from its performer, time, Method, and containing-System facts. Add F.6 only when this account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Add `WelderSystemRole` only when that classification matters. Each bounded change of the workpiece joint is identified under A.3.4 before stating a work-to-change fact. If the Work first constitutes a distinct seam entity, `A.15.PROD` supplies its identity specification and inception boundary. Measurement-result epistemes remain separate evidence for acceptance and duration claims.
 
-Treat source string `WeldingCellContext` as a quoted recovery cue. If it changes the claim, recover the exact source edition, plant practice, effective scheme, scope, or working situation that it denotes. Any assignment interval is described outside the four participant designations.
+Treat source string `WeldingCellContext` as a quoted recovery cue. If it changes the claim, recover the exact source edition, plant practice, effective scheme, scope, or working situation that it denotes. Recover the actual participant meanings and values from that assignment's declared A.2.1 species, together with its uninterrupted obtaining interval.
 
 #### E.10:12.3 - Cloud and SRE
 

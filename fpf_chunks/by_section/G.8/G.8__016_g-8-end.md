@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.8"
-pattern_title: "SoS‑LOG Bundles & Maturity Ladders"
+pattern_title: "Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
 section_id: "G.8:End"
 section_title: "G.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__016_g-8-end.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
+  - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:End — G.8:End"
-line_start: 114643
-line_end: 114644
+line_start: 114982
+line_end: 114983
 dependencies:
   - "A.10"
   - "A.21"

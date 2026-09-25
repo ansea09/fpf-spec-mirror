@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.3"
-pattern_title: "U.PromiseContent (Promise Content)"
+pattern_title: "U.PromiseContent — Promised Outcomes and Acceptance Criteria"
 section_id: "A.2.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.3 — U.PromiseContent (Promise Content)"
+  - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:intro — Intro"
-line_start: 4490
-line_end: 4493
+line_start: 4451
+line_end: 4454
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -35,7 +35,6 @@ dependencies:
   - "E.10"
   - "F.12"
   - "F.9"
-  - "U.Capability"
   - "U.ClaimScope"
   - "U.Episteme"
   - "U.Method"
@@ -56,7 +55,7 @@ keywords:
   - "provider and consumer system-role kinds"
 ---
 
-## A.2.3 - `U.PromiseContent` (Promise Content)
+## A.2.3 - `U.PromiseContent` — Promised Outcomes and Acceptance Criteria
 > **Type:** Definitional promise-content episteme pattern
 > **Status:** Stable
 

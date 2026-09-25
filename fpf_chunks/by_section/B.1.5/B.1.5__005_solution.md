@@ -6,12 +6,12 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:4 — Solution"
-line_start: 39558
-line_end: 39758
+line_start: 39488
+line_end: 39688
 dependencies:
   - "A.1"
   - "A.15"
@@ -186,7 +186,7 @@ An exposure decision contributes to Method identity whenever changing it changes
 
 When a named receiver must reuse the boundary account, first identify one exact claim-bearing `U.MethodDescription` episteme under A.3.2 and C.2.1. Its claim content concerns the exact composite Method and states the exposed, forwarded, and encapsulated interactions. Then keep the publication-side objects and designation content below separate.
 
-In B.1.5, *composite-Method boundary account* is the local Plain phrase for this MethodDescription claim content. A *boundary-account form* is the separately identified reusable arrangement used to present that content when publication is load-bearing. Neither phrase creates a new kind or acronym. The separate A.10 instantiation card keeps its different design-time use for Precedes, Choice, Join, guards, and exceptions.
+In B.1.5, *composite-Method boundary account* is the local Plain phrase for this MethodDescription claim content. A *boundary-account form* is the separately identified reusable arrangement used to present that content when publication is load-bearing. Neither phrase creates a new kind or acronym.
 
 1. A bounded-use-declaration episteme states the operations or decisions supported by this publication, the conditions of that use, and the excluded stronger use.
 2. An audience-declaration episteme states the audience criterion. The actual audience consists of entities admitted by that declaration; those entities are not substituted for the declaration episteme as a publication-relation participant.

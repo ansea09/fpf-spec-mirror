@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.12"
-pattern_title: "Service Acceptance–Work Evidence Link"
+pattern_title: "Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
 section_id: "F.12:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__009_invariants.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.12 — Service Acceptance–Work Evidence Link"
+  - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:8 — Invariants"
-line_start: 106158
-line_end: 106172
+line_start: 106582
+line_end: 106596
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,7 +58,7 @@ keywords:
 7. **Declared result scale.** Characteristic, scale, unit, aggregation, threshold, exclusions, and admissible result values are stated as applicable. Boolean, trichotomous, graded, `N/A`, and `Inconclusive`-including scales are examples, not defaults.
 8. **Status separation.** `Satisfied` and `Violated` are RequirementStatus values reached only through a direct acceptance result. `Inconclusive` is an EvidenceStatus value unless the declared local result scale independently admits that label; insufficient evidence otherwise leaves RequirementStatus pending.
 9. **Optional verdict episteme.** A durable C.2.1 assertion is created only for a named later use and never replaces the application result, status-use occurrence, evidence relation, or fulfilment relation.
-10. **Bounded reliance.** A.10 governs evidence use; B.3 is used only for assurance or material reliance; E.13 is used only for an optimized or decision-driving proxy.
+10. **Bounded reliance.** A.10 supplies the descriptive evidence-provenance path and local bounded-reliance disposition; B.3 is used only for an actual named assurance claim; E.13 is used only for an optimized or decision-driving proxy.
 11. **Non-retroactivity.** Later promise, monitor, MethodDescription edition, or interpretation changes do not silently alter past evaluations or assertions.
 12. **Cells are addresses only.** An F.17 cell may identify local meaning but establishes none of the substantive claims above.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.4"
-pattern_title: "Canonical Evolution Loop"
+pattern_title: "Coordinate Repeated Adaptation (Canonical Evolution Loop)"
 section_id: "B.4:End"
 section_title: "B.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__014_b-4-end.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.4 — Canonical Evolution Loop"
+  - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:End — B.4:End"
-line_start: 43011
-line_end: 43012
+line_start: 42962
+line_end: 42963
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -22,13 +22,6 @@ dependencies:
   - "B.5"
   - "B.5.1"
 keywords:
-  - "DesignRunTag feedback"
-  - "drift repair"
-  - "evolution loop"
-  - "knowledge refinement"
-  - "method refinement"
-  - "observe-notice-stabilize-route"
-  - "open-ended evolution"
 ---
 
 ### B.4:End

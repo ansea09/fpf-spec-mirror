@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.7"
-pattern_title: "Strict Distinction (Clarity Lattice)"
+pattern_title: "Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.7.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.7 — Strict Distinction (Clarity Lattice)"
-line_start: 23035
-line_end: 23400
+  - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
+line_start: 22911
+line_end: 23276
 dependencies:
   - "A.1"
   - "A.10"
@@ -38,7 +38,7 @@ keywords:
   - "system-role kind and assignment ≠ Work"
 ---
 
-## A.7 - Strict Distinction (Clarity Lattice)
+## A.7 - Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)
 > **Status:** Stable
 
 ### A.7:0 - Use this when

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5"
-pattern_title: "Canonical Reasoning Cycle"
+pattern_title: "Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
 section_id: "B.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5 — Canonical Reasoning Cycle"
+  - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:1 — Problem frame"
-line_start: 43251
-line_end: 43262
+line_start: 43202
+line_end: 43215
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -25,6 +25,8 @@ keywords:
 ### B.5:1 - Problem frame
 
 Use this pattern when an engineer or researcher has a question, surprising result or promising construction, but the next useful contribution is unclear. They may need to formulate a better question, construct something, prove a claim, explain an observation, or test a consequence. Reasoning is the broader activity; this pattern governs the choice and connection of those contributions in an inquiry.
+
+When work continues without a question because its outcomes are treated as ordinary, B.5.PI provides an earlier entry. An ordinary handover or demonstration can yield a question or an early cue without an already recognized anomaly. Use that contribution here when reasoning can take it further.
 
 **First useful move.** State what you want to understand or make possible. Ask whether an available result already answers that question. If it does not, name the missing result and try one operation that could obtain it. Return what that operation established and the next question, if one remains.
 

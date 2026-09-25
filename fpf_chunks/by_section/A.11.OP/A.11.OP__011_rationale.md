@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.11.OP"
-pattern_title: "Decision-Relevant Least Action and Operational Parsimony"
+pattern_title: "Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
 section_id: "A.11.OP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__011_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony"
+  - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:10 — Rationale"
-line_start: 25332
-line_end: 25341
+line_start: 25219
+line_end: 25228
 dependencies:
   - "A.10"
   - "A.11"

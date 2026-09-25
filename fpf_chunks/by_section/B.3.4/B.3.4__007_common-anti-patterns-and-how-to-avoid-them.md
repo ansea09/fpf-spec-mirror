@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3.4"
-pattern_title: "Evidence Decay & Epistemic Debt"
+pattern_title: "Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
 section_id: "B.3.4:6"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__007_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.3.4 — Evidence Decay & Epistemic Debt"
+  - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:6 — Common Anti-Patterns and How to Avoid Them"
-line_start: 42426
-line_end: 42435
+line_start: 42375
+line_end: 42384
 dependencies:
   - "A.10"
   - "B.3"

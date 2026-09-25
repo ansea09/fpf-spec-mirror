@@ -1,21 +1,20 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.1"
-pattern_title: "CG‑Frame‑Ready Generator"
+pattern_title: "Author a Reusable CG-Frame Generator and Selector Kit"
 section_id: "G.1:11"
 section_title: "SoTA‑Echoing (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__012_sota-echoing-informative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.1 — CG‑Frame‑Ready Generator"
+  - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:11 — SoTA‑Echoing (informative)"
-line_start: 111123
-line_end: 111132
+line_start: 111548
+line_end: 111557
 dependencies:
   - "A.10"
   - "A.15.3"
-  - "A.19"
   - "A.19.CN"
   - "C.17"
   - "C.18"

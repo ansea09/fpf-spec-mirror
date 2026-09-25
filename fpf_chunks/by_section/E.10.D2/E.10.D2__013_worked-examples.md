@@ -6,12 +6,12 @@ section_id: "E.10.D2:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__013_worked-examples.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:11 — Worked examples"
-line_start: 87258
-line_end: 87315
+line_start: 87578
+line_end: 87635
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -34,12 +34,15 @@ dependencies:
   - "F.9"
   - "G.11"
 keywords:
-  - "Description episteme"
-  - "DescriptionContext"
+  - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"
+  - "checkable claims"
+  - "description episteme"
+  - "harness"
+  - "publication"
+  - "representation"
   - "specification use"
-  - "testable"
-  - "verifiable"
+  - "viewpoint"
 ---
 
 ### E.10.D2:11 - Worked examples
@@ -62,7 +65,7 @@ A practice card's claim-bearing content may be that episteme; its reusable layou
 
 #### E.10.D2:11.3 - Architecture description and view
 
-An architecture review asks how one exact `ArchitectureOf@Context(PaymentService)` addresses the operations concern. An architecture-description episteme carries claims about that architecture under its effective scheme. The named review use selects the exact operations viewpoint because that concern changes which claims it reads and checks. If it did not change the reading, checking, or permitted conclusion, the use would remain named and the viewpoint selection would be omitted.
+An architecture review asks how `PaymentService` is organized for the operations concern. The architecture-description episteme has that exact holon as its EntityOfConcern; its claims identify the selected structure and state whether C.30's `ArchitectureRelation` obtains. The named review use selects the exact operations viewpoint because that concern changes which claims it reads and checks. If it did not change the reading, checking, or permitted conclusion, the use would remain named and the viewpoint selection would be omitted.
 
 The episteme is a `U.View` only if the E.17.0 conformance relation to an exact viewpoint obtains. A structural graph can be part of its interpreted claim content, a C.29 representation, or a publication form according to the named use; no visual branch makes the graph the architecture. An ADR or dashboard creates no permission, assurance, or work relevance without the corresponding direct claim. If work uses the description, state the exact premise, reference, decision-use, or operation-argument relation through which the performed work actually consumes it.
 
@@ -92,7 +95,7 @@ If the training use adds another publication occurrence with another form or car
 
 A project note says, “The architecture dashboard approves the deployment role.” The immediate receiving use is an operations discussion of the release candidate. Recover the smallest truthful result:
 
-* `PaymentServiceArchitectureDescription` is the C.2.1 episteme about exact `ArchitectureOf@Context(PaymentService)`;
+* `PaymentServiceArchitectureDescription` is the C.2.1 episteme about the exact `PaymentService` holon; its claims identify the selected structure and state whether C.30's `ArchitectureRelation` obtains;
 * the receiving use is the operations discussion; record the exact operations viewpoint only if it changes what that discussion reads or checks or may conclude, and otherwise omit viewpoint selection;
 * the dashboard may be a publication form, carrier, representation, or view only under the recognition rule for that exact use;
 * no checkable-claims-plus-harness basis has been named, so specification force is not admitted;

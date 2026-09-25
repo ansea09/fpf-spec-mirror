@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.2"
-pattern_title: "Abductive Loop"
+pattern_title: "Generate and Compare Candidate Explanations (Abductive Loop)"
 section_id: "B.5.2:17"
 section_title: "Migration and Boundary Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__018_migration-and-boundary-notes.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.2 — Abductive Loop"
+  - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:17 — Migration and Boundary Notes"
-line_start: 46413
-line_end: 46425
+line_start: 46369
+line_end: 46381
 dependencies:
   - "A.10"
   - "A.16"
@@ -22,12 +22,6 @@ dependencies:
   - "B.5"
   - "B.5.2.0"
 keywords:
-  - "abduction"
-  - "candidate hypotheses"
-  - "explanatory prompt"
-  - "origin trace"
-  - "plausibility filters"
-  - "route-to-hypothesis"
 ---
 
 ### B.5.2:17 - Migration and Boundary Notes

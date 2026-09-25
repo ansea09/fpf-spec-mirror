@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.4"
-pattern_title: "Capability and Functioning Whole Reidentification"
+pattern_title: "Do Capability or Functioning Changes Require Whole Reidentification?"
 section_id: "B.2.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__009_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.2.4 — Capability and Functioning Whole Reidentification"
+  - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:6 — Conformance Checklist"
-line_start: 41629
-line_end: 41639
+line_start: 41559
+line_end: 41569
 dependencies:
   - "A.10"
   - "A.15"

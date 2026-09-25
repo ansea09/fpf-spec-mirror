@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30.P"
-pattern_title: "Architecture and Structure Precision Restoration"
+pattern_title: "Clarify Architecture and Structure Wording (Precision Restoration)"
 section_id: "C.30.P:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__009_worked-cases.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.30.P — Architecture and Structure Precision Restoration"
+  - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:6 — Worked cases"
-line_start: 67907
-line_end: 67918
+line_start: 68116
+line_end: 68127
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,6 +49,13 @@ dependencies:
   - "E.8"
   - "G.5"
 keywords:
+  - "architecture description"
+  - "architecture wording"
+  - "diagram"
+  - "model"
+  - "precision restoration"
+  - "structural view"
+  - "structure wording"
 ---
 
 ### C.30.P:6 - Worked cases

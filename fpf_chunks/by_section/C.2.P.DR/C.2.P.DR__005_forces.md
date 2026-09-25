@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.P.DR"
-pattern_title: "Declarative Representation Precision Restoration"
+pattern_title: "Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
 section_id: "C.2.P.DR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__005_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.2.P.DR — Declarative Representation Precision Restoration"
+  - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:3 — Forces"
-line_start: 50429
-line_end: 50438
+line_start: 50572
+line_end: 50581
 dependencies:
   - "A.10"
   - "A.15.1"

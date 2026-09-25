@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.2"
-pattern_title: "Abductive Loop"
+pattern_title: "Generate and Compare Candidate Explanations (Abductive Loop)"
 section_id: "B.5.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__007_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.2 — Abductive Loop"
+  - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:6 — Bias-Annotation"
-line_start: 46211
-line_end: 46214
+line_start: 46174
+line_end: 46177
 dependencies:
   - "A.10"
   - "A.16"
@@ -22,12 +22,6 @@ dependencies:
   - "B.5"
   - "B.5.2.0"
 keywords:
-  - "abduction"
-  - "candidate hypotheses"
-  - "explanatory prompt"
-  - "origin trace"
-  - "plausibility filters"
-  - "route-to-hypothesis"
 ---
 
 ### B.5.2:6 - Bias-Annotation

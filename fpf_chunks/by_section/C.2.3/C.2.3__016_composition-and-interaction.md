@@ -6,12 +6,12 @@ section_id: "C.2.3:15"
 section_title: "Composition and Interaction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__016_composition-and-interaction.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:15 — Composition and Interaction"
-line_start: 49048
-line_end: 49065
+line_start: 49189
+line_end: 49208
 dependencies:
   - "A.16"
   - "A.18"
@@ -40,7 +40,9 @@ keywords:
 
 #### C.2.3:15.1 - Weakest-essential-support rule
 
-For a composite episteme, the effective `F` is bounded by the least-formal essential support on the relevant support path. A highly formal annex does not lift an informal essential claim core.
+Identify the assessed episteme’s expressed claim or argument and the compositional support relation it actually uses. Its F is bounded by the least-formal essential content or inference within that assessed expression. A machine-checked annex does not make an informal connecting inference machine-checked.
+
+External evidence has a different role. A typed claim supported by an informal observation can remain F4 because its predicates and types are explicit, while its warrant remains weak or unresolved under B.3. If the assessed bearer is instead the whole argument, an essential inference expressed only as controlled prose caps that argument at F3 despite an F7 annex. Name that bearer and inference; do not take a minimum over every external source in an evidence chain.
 
 #### C.2.3:15.2 - Relation to `G`
 
@@ -52,5 +54,5 @@ Higher `F` often makes evidence easier to formulate, test, or prove, but it does
 
 #### C.2.3:15.4 - Relation to `CL` and Bridges
 
-A bridge may expose loss or mismatch across contexts. Those losses affect `R`; they do not silently lower or raise the attributed `F`. A receiving rewrite that changes claim content, EntityOfConcern, or the effective reference scheme identifies a new episteme under `C.2.1`; that episteme should be published with its own `F`.
+A bridge may expose loss or mismatch across contexts. Preserve that limitation for the actual receiving use and assess any R effect under its justified model; the loss does not silently lower or raise the attributed F. A receiving rewrite that changes claim content, EntityOfConcern, or the effective reference scheme identifies a new episteme under `C.2.1`; that episteme should be published with its own `F`.
 

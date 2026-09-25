@@ -6,12 +6,12 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:0 — Use this when"
-line_start: 83682
-line_end: 84361
+line_start: 84001
+line_end: 84680
 dependencies:
   - "A.10"
   - "A.15"
@@ -187,7 +187,7 @@ Classify the sentence first.
 | a review target | `review target`, review-facing target packet named by value, FPF pattern, pattern section, or file-carrier set only when the file-carrier interpretation is being made |
 | a local table or paragraph topic with no claim-bearing episteme, C.2.1 participant, current declaration, or reference use | `topic`, `subject`, or direct noun |
 | an FPF-side pattern, pattern section, accepted `DRR`, FPF publication, FPF view, document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use, or companion or projection material being improved | FPF pattern, pattern section, accepted `DRR`, FPF publication, FPF view, document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use, or companion or projection material |
-| a project-side episteme, publication, record, carrier, or activity under work | project episteme, view, or publication named by value, `A.10` evidence relation, typed evidence record, `A.20` constraint or adjudication decision record, `A.21 GateDecision`, `A.21 DecisionLogRef`, `B.3` assurance or engineering-justification record, typed status record whose FPF status pattern is named, `A.2.8 U.Commitment`, exact `A.2.8.PER` permission result, `C.11 ChoiceResult`, `C.11` decision record, `A.6.A` action invitation, one `A.15.1` dated Work occurrence admitted under `U.Work`, a separate episteme about that occurrence, `A.15 U.WorkPlan`, `U.Method`, `U.MethodDescription`, carrier relation, or front-end relation |
+| a project-side episteme, publication, record, carrier, or activity under work | project episteme, view, or publication named by value, independently established evidence-use relation recovered through A.10, typed evidence record, `A.20` constraint or adjudication decision record, A.21 `GateDecisionResult`, an optional A.21 `DecisionLog`, `B.3` assurance or engineering-justification record, typed status record whose FPF status pattern is named, `A.2.8 U.Commitment`, exact `A.2.8.PER` permission result, `C.11 ChoiceResult`, `C.11` decision record, `A.6.A` action invitation, one `A.15.1` dated Work occurrence admitted under `U.Work`, a separate episteme about that occurrence, `A.15 U.WorkPlan`, `U.Method`, `U.MethodDescription`, carrier relation, or front-end relation |
 
 Use the selected row only when the EntityOfConcern distinction changes the sentence. State the recovered participant, publication-unit use, review target, or ordinary topic directly; preserve any claim-bearing episteme, declaration, representation, source wording, and reader use that actually remains current. The ordinary result is the repaired sentence or a blocker, followed by the local `F.19` reread.
 
@@ -198,7 +198,7 @@ When a phrase makes the bounded unit sound like authoring work or interpretation
 | If local wording meant... | Rewrite as... |
 | --- | --- |
 | bounded human-inspected unit inside a publication | `PublicationUnit` |
-| the act of writing or editing | authoring or editing Work when one dated occurrence is current; otherwise a planning cue or content inside an already admitted `U.WorkPlan` when only intended work is current. An exact episteme is `U.WorkPlan` only after A.15.2 recovers one present EntityOfConcern, one horizon, at least one `PlanItem`, and substantive coordination claims about possible future performed work. When the sentence instead concerns the authored object, use a separately identified claim-bearing episteme under its own exact kind. Any production or change relation between the Work and that episteme needs its own defining rule or pattern. The authored episteme is `U.MethodDescription` only if its exact EntityOfConcern is one admitted `U.Method` and its claims independently pass A.3.2; the writing or editing act is never the MethodDescription. |
+| the act of writing or editing | ordinary authoring or editing. Name dated Work only when one occurrence is asserted; use a planning cue or content inside an admitted `U.WorkPlan` when intended work and its planning claims are current. An exact episteme is `U.WorkPlan` only after A.15.2 recovers one present EntityOfConcern, one horizon, at least one `PlanItem`, and substantive coordination claims about possible future performed work. When the sentence instead concerns the authored object, use a separately identified claim-bearing episteme under its own exact kind. Any production or change relation between the Work and that episteme needs its own defining rule or pattern. The authored episteme is `U.MethodDescription` only if its exact EntityOfConcern is one admitted `U.Method` and its claims independently pass A.3.2; the writing or editing act is never the MethodDescription. |
 | a pattern body or section | FPF pattern body, pattern section, or `PublicationUnit` of that pattern |
 | a file or rendered medium | carrier, front-end, rendering, or document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use |
 | a publication form | publication form |
@@ -258,7 +258,7 @@ If the sentence can survive only because these are blurred, the sentence is not 
 
 These are relation words, not final kinds.
 
-Recover the relation or use that makes something a `source`; common cases include a selected source `U.Episteme`, exact `EpistemePublicationRelation` occurrence or reference when availability is material, publication form or carrier when either is the source object, `U.View` over a source `U.Episteme`, document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use, `A.10` evidence relation, authority-reference relation, named FPF pattern cited as source, file carrier, exact source edition, source-local meaning under an effective scheme, source frame only when its defining pattern and endpoint kind are present, the actual source-side participant of an obtaining named relation, the source-side A.6.5 `SlotSpec` only when a reusable relation declaration is current, or project-side FPF kind and reference named by value.
+Recover the relation or use that makes something a `source`; common cases include a selected source `U.Episteme`, exact `EpistemePublicationRelation` occurrence or reference when availability is material, publication form or carrier when either is the source object, `U.View` over a source `U.Episteme`, document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use, independently established evidence-use relation recovered through A.10, authority-reference relation, named FPF pattern cited as source, file carrier, exact source edition, source-local meaning under an effective scheme, source frame only when its defining pattern and endpoint kind are present, the actual source-side participant of an obtaining named relation, the source-side A.6.5 `SlotSpec` only when a reusable relation declaration is current, or project-side FPF kind and reference named by value.
 
 Recover the relation or use that makes something a `target`; common cases include an EntityOfConcern, target `U.Episteme`, review target, FPF rule being applied, project target, work target, target publication form, project-side FPF kind and reference named by value, target frame, target-side situation or model-use boundary only when its defining rule is current, the actual target-side participant of an obtaining named relation, or the target-side A.6.5 `SlotSpec` only when a reusable relation declaration is current.
 
@@ -289,8 +289,8 @@ Before opening that branch, test whether the phrase already names an independent
 
 Use `record` only when an FPF pattern or project practice defines the record kind and relation. The nearby wording says which FPF kind the record instantiates or records, for example:
 
-- `A.10` evidence or provenance relation or evidence record for a named claim;
-- `A.21` `GateDecision` or `DecisionLogRef`;
+- an A.10 descriptive evidence-provenance account for a named claim, citing independently established relations;
+- A.21 `GateDecisionResult` or `DecisionLogRef`;
 - `A.20` constraint or adjudication decision record;
 - `C.11` `ChoiceResult` or decision record;
 - `A.15` `U.WorkPlan`, one `A.15.1` dated Work occurrence admitted under `U.Work`, or a separately identified claim-bearing episteme about that occurrence; use a record-kind name only when its exact kind and defining record rule are recoverable;
@@ -323,7 +323,7 @@ When the wording concerns representation, publication or reliance, classify the 
 - carrier, front-end, or rendering;
 - project-side FPF kind and reference named by value;
 - explanation and source-finding relation under `E.17.EFP`;
-- evidence, currentness, and provenance relation under `A.10`;
+- an A.10 descriptive account of evidence, currentness and provenance, with each relation independently established;
 - gate-bearing claim or effect under `A.20` or `A.21`;
 - assurance and engineering-justification record under `B.3`;
 - work- or reliance-guiding appearance whose missing prerequisite is recovered under `A.15.4`.
@@ -409,7 +409,7 @@ Otherwise recover the claim-bearing episteme; the obtaining direct relation and 
 
 `Pattern` is not a free synonym for regularity.
 If the intended object is an FPF pattern, write `FPF pattern` or name the concrete pattern and what it contributes.
-If it is not an FPF pattern, do not write `recovered FPF construction` as the final value. Choose one recovered value by sentence function: episteme, view, publication, publication form, generic publication face, declared MVPK face, `PublicationUnit`, carrier relation, front-end relation, project-side FPF kind and reference named by value, document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use, review target, obtaining direct relation and actual participants, receiver-needed relation occurrence, reusable `RelationSignature` and A.6.5 `SlotSpec` values, claim-bearing episteme with any current participant designations, C.29 representation element and explicit correspondence, `C.11` `ChoiceResult`, `C.11` decision record, `A.6.A` action invitation, `A.15` `U.WorkPlan`, one `A.15.1` dated Work occurrence admitted under `U.Work` or a separate episteme about it, `U.Method`, `U.MethodDescription`, `A.20` constraint or adjudication decision record, `A.21` `GateDecision`, `A.21` `DecisionLogRef`, `A.10` evidence relation, typed evidence record, `B.3` assurance or engineering-justification record, or typed status record whose FPF status pattern is named.
+If it is not an FPF pattern, do not write `recovered FPF construction` as the final value. Choose one recovered value by sentence function: episteme, view, publication, publication form, generic publication face, declared MVPK face, `PublicationUnit`, carrier relation, front-end relation, project-side FPF kind and reference named by value, document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use, review target, obtaining direct relation and actual participants, receiver-needed relation occurrence, reusable `RelationSignature` and A.6.5 `SlotSpec` values, claim-bearing episteme with any current participant designations, C.29 representation element and explicit correspondence, `C.11` `ChoiceResult`, `C.11` decision record, `A.6.A` action invitation, `A.15` `U.WorkPlan`, one `A.15.1` dated Work occurrence admitted under `U.Work` or a separate episteme about it, `U.Method`, `U.MethodDescription`, `A.20` constraint or adjudication decision record, A.21 `GateDecisionResult`, an optional A.21 `DecisionLog`, independently established evidence-use relation recovered through A.10, typed evidence record, `B.3` assurance or engineering-justification record, or typed status record whose FPF status pattern is named.
 
 Avoid generic FPF-side object wording, generic named-target wording, `locus`, `row`, and `host` when they hide kind.
 Use them only when the kind is literally a table row, document with named source-basis relation or use, file carrying FPF pattern text, or review target and the sentence does not need a narrower FPF kind.
@@ -468,7 +468,7 @@ FPF patterns provide reusable guidance for recognizable problem situations. In o
 
 Use `apply pattern`, `use the pattern guidance`, `the pattern applies to this problem situation`, or `the case falls under this pattern` for the ordinary FPF-side use. These expressions do not assert that the pattern acts.
 
-Do not leave `project action` as final wording when it hides a distinction that changes the current claim or use. For ordinary project-side activity, say plainly who does what and what result or judgement follows. When a current claim or receiving use depends on formal classification, choose exactly one applicable kind or relation: `U.Method`; `U.MethodDescription`; `U.Mechanism`; `A.15` `U.WorkPlan`; one `A.15.1` dated Work occurrence admitted under `U.Work`; a separate claim-bearing episteme asserting a fact about that Work occurrence; exact entity plus a direct relation involving that occurrence recovered through `A.6.P.WMR`; exact `A.6.1` operation-application binding; local `A.15.PROD` claim; measurement-result episteme; evaluation or diagnostic finding; `C.11` `ChoiceResult`; `C.11` decision record; `A.6.A` action invitation; `A.20` constraint or adjudication decision record; `A.21` `GateDecision`; `A.21` `DecisionLogRef`; `A.10` evidence relation; typed evidence record; `B.3` assurance or engineering-justification record; typed status record whose FPF status pattern is named; carrier relation; front-end relation; or another accepted project-side FPF kind.
+Do not leave `project action` as final wording when it hides a distinction that changes the current claim or use. For ordinary project-side activity, say plainly who does what and what result or judgement follows. When a current claim or receiving use depends on formal classification, choose exactly one applicable kind or relation: `U.Method`; `U.MethodDescription`; `U.Mechanism`; `A.15` `U.WorkPlan`; one `A.15.1` dated Work occurrence admitted under `U.Work`; a separate claim-bearing episteme asserting a fact about that Work occurrence; exact entity plus a direct relation involving that occurrence recovered through `A.6.P.WMR`; exact `A.6.1` operation-application binding; local `A.15.PROD` claim; measurement-result episteme; evaluation or diagnostic finding; `C.11` `ChoiceResult`; `C.11` decision record; `A.6.A` action invitation; `A.20` constraint or adjudication decision record; A.21 `GateDecisionResult`; an optional A.21 `DecisionLog`; independently established evidence-use relation recovered through A.10; typed evidence record; `B.3` assurance or engineering-justification record; typed status record whose FPF status pattern is named; carrier relation; front-end relation; or another accepted project-side FPF kind.
 
 Keep `route`, `path`, `branch`, `handoff`, `trajectory`, `move`, or `flow` as ordinary navigation wording when no FPF movement, control, or temporal claim depends on it. When such a claim is current, name the relevant movement, control, and temporal relations and use the pattern that defines them.
 
@@ -476,7 +476,7 @@ Keep `route`, `path`, `branch`, `handoff`, `trajectory`, `move`, or `flow` as or
 
 Semioarchitecture often talks about two different groups of epistemes, publications, records, and uses:
 - FPF-side material: `FPF` as episteme, FPF patterns, pattern sections, `DRR`s, FPF publications, FPF views, support documents and documents with named source-basis, evidence-basis, architecture-basis, or review-basis relations or uses, and review targets;
-- project-side material: the engineer-manager's project epistemes, publications, views, records, carriers, cues, evidence records, `A.20` constraint or adjudication decision records, `A.21` gate decisions, `A.21` decision-log refs, `B.3` assurance or engineering-justification records, commitments, one `A.15.1` dated Work occurrence admitted under `U.Work` plus any separate episteme about it, `C.11` `ChoiceResult` values, `C.11` decision records, and `A.6.A` action invitations.
+- project-side material: the engineer-manager's project epistemes, publications, views, records, carriers, cues, evidence records, `A.20` constraint or adjudication decision records, `A.21` gate decisions, optional A.21 `DecisionLog` records, `B.3` assurance or engineering-justification records, commitments, one `A.15.1` dated Work occurrence admitted under `U.Work` plus any separate episteme about it, `C.11` `ChoiceResult` values, `C.11` decision records, and `A.6.A` action invitations.
 
 Do not blur them with `source`, `artifact`, `object`, `material`, `target`, `pattern`, or broad `semiosis`.
 If both sides are being used, split the sentence to make the relation explicit when a relation claim is being made, the admissible-use boundary when a boundary-use claim is being made, and the project-side FPF kind and reference named by value when that side is being used. Record the corresponding values in `relationClaimSlice`, `admissibleUse`, and `projectSideFPFRef`, respectively, only when the receiving claim needs those named fields.

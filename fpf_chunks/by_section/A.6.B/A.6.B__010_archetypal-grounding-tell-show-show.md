@@ -6,12 +6,12 @@ section_id: "A.6.B:8"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__010_archetypal-grounding-tell-show-show.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:8 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 12487
-line_end: 12810
+line_start: 12443
+line_end: 12766
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -44,7 +44,6 @@ keywords:
   - "MAY"
   - "MUST"
   - "MUST NOT"
-  - "MUST NOT hide a gate predicate (that is A-)"
   - "SHALL"
   - "SHOULD"
   - "SHOULD NOT"
@@ -53,7 +52,6 @@ keywords:
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
-  - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
   - "and evaluated results distinct"
   - "and should in explanatory prose is descriptive"
@@ -77,6 +75,7 @@ keywords:
   - "or MAY) as operators inside the law or definition itself"
   - "or observation that settles it and any evidence used for reliance"
   - "responsibility"
+  - "then establish the E result under its own predicate"
   - "they report adjudicable results rather than obligations"
   - "“commits to”)"
   - "“is admissible”"
@@ -145,7 +144,7 @@ Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence�
   **Guardrails:** a generic claim names the exact normative episteme and applicable rule content without inventing an individual relation. An individual-duty claim names its actual bearer and exact separately obtaining A.2.8 commitment. A grant claim instead follows the participant and ground test in the **Grant or norm** row. A system-role kind or assignment may be a rule ground but is neither bearer nor deontic relation. Writing any claim does not make its object obtain.
 * **E** if it is an *in-work* truth-conditional claim whose satisfaction requires actual work, evaluation, observation, or produced carriers.
   **Predicate-specific minimum:** name the exact `E-*` predicate and object, then the actual work, evaluation, or observation, scope/window, comparison frame, and other settling conditions that this predicate needs. Add an evidence or source-use relation, carrier/schema, viewpoint, or consumer only when the receiving gate, plan, audit, assurance, or other reliance decision depends on that support.
-  **Guardrails:** `E-*` SHOULD NOT use RFC deontic keywords, MUST NOT hide a gate predicate (that is `A-*`), and MUST NOT cite `D-*`.
+  **Guardrails:** `E-*` SHOULD NOT use RFC deontic keywords and MUST NOT hide a gate predicate (that is `A-*`). A reference to `D-*` follows §6.4: identify the evidence target or normative evaluation input, then establish the E result under its own predicate.
   *(If the source sentence is “Role SHALL measure, retain, or expose …”, first decide whether it is a generic prescription about an exact system-role kind or a claim about one actual bearer. Classify either as **D**, but assert an individual commitment only on the second route.)*
 
 **Step 3 — Triangle decomposition.** Recover the observability clause's predicate
@@ -182,7 +181,7 @@ put it in `E-*` and reference the gate (`E → A`). `A-*` claims MUST NOT refere
 cross-quadrant restrictions in §6.4, including its explicitly informative-note
 exception for L references to A/D/E. Same-quadrant references remain available.
 
-**Common link motifs (informative).** The most reusable boundary rewrites use the canonical motifs: `D→A`, `E→A`, `D→E`, `A/E→L`, and `D→L`.
+**Common link motifs (informative).** The most reusable boundary rewrites use `D→A`, `E→A`, `D→E`, `A/E→L`, and `D→L`; `E→D` identifies an evidence target or normative evaluation input under §6.4.
 
 **Step 5 — Bind references (minimal A.7 discipline).**
 
@@ -248,7 +247,7 @@ Admitted operations system `SRE-A` is the actual duty bearer of separately obtai
 
 **E-API-01 (Evidence / carriers).**
 For `LatencyEvaluation-T1` over `Γ_time=[t1..t2]`, actual carriers `TraceBatch-T1`, `Histogram-H1`, `DashboardSnapshot-D1`, and `SamplingConfiguration-S1` were produced or observed under the operating and sampling conditions in `A-API-01`, using the metric and computation definition in `L-API-01`. An A.10 evidence-provenance path links those exact carriers to `LatencyEvaluation-T1` and its `LatencyResult-T1`.
-*(References `A-API-01` and `L-API-01`; avoids RFC deontics; does not cite `D-*`.)*
+*(References `A-API-01` and `L-API-01` for the operating conditions and metric definition.)*
 
 **D-API-03 (Duty-to-evidence linkage).**
 Admitted telemetry-maintaining system `TelemetryOperations-A` is the actual duty bearer of separately obtaining `TelemetryRetentionCommitment-API-03 : U.Commitment`; it SHALL retain or expose the actual carriers referenced in `E-API-01` for the audit window required by policy.

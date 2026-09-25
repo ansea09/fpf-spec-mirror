@@ -6,12 +6,12 @@ section_id: "C.30.ASV:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__010_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:9 — Consequences"
-line_start: 68996
-line_end: 69004
+line_start: 69205
+line_end: 69213
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,6 +54,13 @@ dependencies:
   - "F.18"
   - "G.6"
 keywords:
+  - "ASV"
+  - "architecture structural view"
+  - "correspondence"
+  - "hidden and lost structure"
+  - "source return"
+  - "structure kind"
+  - "viewpoint conformance"
 ---
 
 ### C.30.ASV:9 - Consequences

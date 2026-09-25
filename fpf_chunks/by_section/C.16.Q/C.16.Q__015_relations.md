@@ -6,12 +6,12 @@ section_id: "C.16.Q:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__015_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:12 — Relations"
-line_start: 55840
-line_end: 55863
+line_start: 55983
+line_end: 56006
 dependencies:
   - "A.10"
   - "A.16"
@@ -64,7 +64,7 @@ keywords:
 
 * **Lives in:** **C.16** characterization pattern nest as the quality-term realization of **E.10.ARCH** and **C.16.P**.
 * **Builds on:** **E.10.ARCH** for shared wording-use restoration architecture; **C.16.P** for characteristic and scale exits; **A.2.6** for explicit scope and `Γ_time`; **A.17, A.18, and C.16** for admissible measurable characteristics; **C.25** for engineering `Q-Bundle` publication.
-* **Coordinates with:** **A.6.P** when recovered content is relation construction rather than evaluative characterization; **A.6.A** or another applicable action-invitation pattern when the trigger invites action; **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0** for language-state positions, early cues, next-use docking, and retreat or reopen; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facets; **C.2.1** for effective ReferenceScheme, exact result-episteme identity, and optional `EpistemeEmpiricalGroundingRelation`; **A.2.6** for `U.ClaimScope` and `U.ContextSlice`; **A.19.CPM** for comparison; **A.10** for evidence-provenance and bounded reliance; **C.17, C.18, and C.19** for selector value, novelty, diversity, and policy; **E.17.0** and **E.17.2** for exact viewpoint epistemes and `U.ViewpointRef`; **C.30.AD** and **C.30.ASV** for architecture-description and structural-view use; **F.9** for exact cross-local Bridge occurrences and bounded-use claims; **F.9.1** only for separate optional stance notes about those claims; and **A.6.B** when repaired ascriptions become boundary-bearing.
+* **Coordinates with:** **A.6.P** when recovered content is relation construction rather than evaluative characterization; **A.6.A** to recover an ambiguous action-oriented claim or question, then its subject pattern; **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0** for language-state positions, early cues, next-use docking, and retreat or reopen; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facets; **C.2.1** for effective ReferenceScheme, exact result-episteme identity, and optional `EpistemeEmpiricalGroundingRelation`; **A.2.6** for `U.ClaimScope` and `U.ContextSlice`; **A.19.CPM** for comparison; **A.10** for evidence-provenance and bounded reliance; **C.17, C.18, and C.19** for selector value, novelty, diversity, and policy; **E.17.0** and **E.17.2** for exact viewpoint epistemes and `U.ViewpointRef`; **C.30.AD** and **C.30.ASV** for architecture-description and structural-view use; **F.9** for exact cross-local Bridge occurrences and bounded-use claims; **F.9.1** only for separate optional stance notes about those claims; and **A.6.B** when repaired ascriptions become boundary-bearing.
 * **Publishes vocabulary through:** **E.10, F.17, and F.18** when the `qualityTermAscription` repair-form skeleton, the `QualitySense` starter set, and the red-flag rewrites become stable shared vocabulary.
 
 #### C.16.Q:12.1 - Language-space refactor note

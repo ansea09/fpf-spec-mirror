@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.4"
-pattern_title: "Contextual and Temporal Aggregation"
+pattern_title: "Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
 section_id: "B.1.4:4"
 section_title: "Admissible Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__007_admissible-checks.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.1.4 — Contextual and Temporal Aggregation"
+  - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:4 — Admissible Checks"
-line_start: 39380
-line_end: 39411
+line_start: 39310
+line_end: 39341
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -48,11 +48,11 @@ For temporal phase aggregation:
 
 - the carrier identity is recoverable;
 - the time window is declared;
-- phase intervals are covered and non-overlapping, or the admissible use is narrowed;
+- the declared coverage and overlap policy holds; account for allowed overlaps and gaps without double counting, or narrow the use;
 - identity change is not hidden as another phase;
-- work-resource and evidence-currentness claims use `B.1.6`, `A.10`, and `C.27` when current.
+- work-resource claims use `B.1.6`; temporal claims use `C.27`, currentness uses `G.11`, and `A.10` recovers provenance and bounded reliance when needed.
 
-**B.1 invariant carry-through.** `B.1.4` keeps B.1 invariants only after the current relation is recovered. A singleton ordered relation or singleton phase is idempotent for the selected use. Contextual aggregation is deterministic only relative to the declared `OrderSpec` and join or independence conditions. Temporal aggregation is valid only relative to carrier identity, coverage, and non-overlap. Weakest-link and monotonicity claims must name the characteristic being bounded or improved; otherwise the aggregate is only an aggregation record, not a performance, safety, or assurance claim.
+**B.1 invariant carry-through.** Apply a B.1 algebraic law only when the recovered relation and declared operator justify it. Contextual aggregation is deterministic relative to the declared `OrderSpec` and join or independence conditions. Temporal aggregation depends on carrier identity and the declared coverage and overlap policy. A repeated designation creates no additional phase or relation by itself; retain distinct occurrences and ordered positions when the claim distinguishes them. State any singleton or idempotence law for the actual operator. Weakest-link and monotonicity claims name the characteristic and model being bounded or improved; an aggregation record alone establishes no performance, safety or assurance result.
 
 #### B.1.4:4.1 - Compact Obligation Rows
 

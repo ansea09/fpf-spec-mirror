@@ -6,12 +6,12 @@ section_id: "E.8:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__015_architectural-rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:10 — Architectural Rationale"
-line_start: 82554
-line_end: 82568
+line_start: 82872
+line_end: 82886
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -44,7 +44,9 @@ keywords:
   - "SHALL NOT"
   - "SHOULD"
   - "SHOULD NOT"
+  - "a body-only term cannot support that search"
   - "and OPTIONAL are to be interpreted as described in RFC 2119"
+  - "and query cue for additional familiar expressions. If the intended search sees only headings"
   - "improves auditability"
   - "inside the predicate block"
   - "or other admissibility conditions of the modeled world"
@@ -61,7 +63,7 @@ single reference point that satisfies:
 
 * **P‑1 Cognitive Elegance** – uniform, minimal surprises.
 * **P‑2 Didactic Primacy** – narrative flow, dual archetype examples.
-* Guard‑Rails 1 & 2 – no tool jargon, no notation lock‑in inside prose.
+* Guard-Rails 1 & 2 — abstract definitions remain portable; the heading grammar keeps the exact syntax needed for its own conformance conditions, and expressions retain E.5.2 interpretation and mapping.
 
 A unified template also improves retrieval: a chunk containing `A.2:<n> - Bias‑Annotation` remains self‑identifying even when parent headings are missing, and the required footer marker makes truncation detectable.
 

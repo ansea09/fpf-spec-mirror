@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.8"
-pattern_title: "Universal Core Principle"
+pattern_title: "Universal Core Principle: Test a U-Kind Across Domains"
 section_id: "A.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.8 — Universal Core Principle"
+  - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:intro — Intro"
-line_start: 23969
-line_end: 23974
+line_start: 23845
+line_end: 23850
 dependencies:
   - "A.11"
   - "C.3"
@@ -28,7 +28,7 @@ keywords:
   - "universality"
 ---
 
-## A.8 - Universal Core Principle
+## A.8 - Universal Core Principle: Test a U-Kind Across Domains
 
 > **Type:** Kernel admission discipline pattern
 > **Status:** Stable

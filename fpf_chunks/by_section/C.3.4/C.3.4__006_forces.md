@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.4"
-pattern_title: "KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
+pattern_title: "KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
 section_id: "C.3.4:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__006_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
+  - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:4 — Forces"
-line_start: 51532
-line_end: 51542
+line_start: 51675
+line_end: 51685
 dependencies:
   - "A.2.6"
   - "C.2.1"

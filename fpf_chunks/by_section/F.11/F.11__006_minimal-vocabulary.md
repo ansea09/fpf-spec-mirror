@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.11"
-pattern_title: "Method Quartet Harmonisation"
+pattern_title: "Distinguish Method, MethodDescription, Work and Outputs"
 section_id: "F.11:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__006_minimal-vocabulary.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.11 — Method Quartet Harmonisation"
+  - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:5 — Minimal vocabulary"
-line_start: 105869
-line_end: 105879
+line_start: 106289
+line_end: 106299
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -49,6 +49,6 @@ keywords:
 * **Control or transformation output** — the exact signal, command, value, output, or changed entity defined by the direct domain pattern when the case contains one.
 * **Description use** — the exact claim that a System or Work used, followed, interpreted, or departed from a MethodDescription; do not assume one universal relation.
 * **Enactment** — the exact relation between Work and Method under B.1.5 and A.15, when supported.
-* **Performed-Work attribution** — the A.15.1 and F.6 relation from actual Work to the System and obtaining system-role assignment involved in its performance.
+* **Performed-Work attribution** — F.6 `performedUnderAssignment` between already admitted Work and the same obtaining assignment recovered through A.13; the actual performer is the assignment's holder, not a third relation participant.
 * **Window** — the time or condition envelope used by an F.10 status or evaluation claim.
 

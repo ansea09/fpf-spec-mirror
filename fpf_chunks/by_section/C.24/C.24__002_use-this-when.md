@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.24"
-pattern_title: "Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
+pattern_title: "Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
 section_id: "C.24:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__002_use-this-when.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
+  - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:0 — Use this when"
-line_start: 59819
-line_end: 59832
+line_start: 59962
+line_end: 59975
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,6 +36,10 @@ dependencies:
   - "G.9"
   - "U.PromiseContent"
 keywords:
+  - "agentic tool-use"
+  - "call planning"
+  - "route probe"
+  - "service calls"
 ---
 
 ### C.24:0 - Use this when
@@ -43,7 +47,7 @@ keywords:
 Use `A.15.7` first when ongoing Work still needs the next action to be chosen from current facts within a domain Method. Enter `C.24` only after that action is fixed and tool or service calls must be planned. A call plan is neither the situation-responsive decision nor proof that the chosen action was performed.
 
 
-Use `C.24` when a decision has already fixed the action or option and the practical question is now:
+Use `C.24` when an applicable domain prescription or a completed decision has fixed the action or option and the practical question is now:
 
 - which admitted Methods to call, in what order;
 - which time, compute, cost, and risk budget to reserve;

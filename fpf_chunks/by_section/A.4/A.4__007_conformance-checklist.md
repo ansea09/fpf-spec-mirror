@@ -1,36 +1,40 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.4"
-pattern_title: "Temporal Duality & Open‑Ended Evolution Principle"
+pattern_title: "Compare a System's Intended Design with Its Operating Conditions"
 section_id: "A.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__007_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
+  - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:6 — Conformance Checklist"
-line_start: 11045
-line_end: 11054
+line_start: 11012
+line_end: 11021
 dependencies:
-  - "B.3"
+  - "A.1"
+  - "A.1.1"
+  - "A.3.4"
   - "B.4"
+  - "C.2.1"
+  - "C.27"
 keywords:
-  - "continuous improvement"
-  - "design-time"
-  - "evolution"
-  - "open-ended state change"
-  - "run-time"
-  - "versioning"
+  - "comparison criterion"
+  - "conformance"
+  - "design account"
+  - "discrepancy"
+  - "missing basis"
+  - "operating facts"
 ---
 
 ### A.4:6 - Conformance Checklist
 
 | ID | Requirement | Purpose |
-|----|-------------|---------|
-| **CC‑A.4.1** | Every `U.Holon` **MUST** be tagged with its current temporal scope (*Tᴰ* or *Tᴿ*). | Makes temporal scope explicit. |
-| **CC‑A.4.2** | A transition from *Tᴰ* → *Tᴿ* **SHALL** be modeled as `executes(Transformer, U.TransformationalMethod)`. | Links the transition to an instantiation claim. |
-| **CC‑A.4.3** | A transition from *Tᴿ* → *Tᴰ* **SHALL** be modeled as `executes(Transformer, U.TransformationalMethod)` producing an observational `U.Episteme`. | Names the observational-episteme claim. |
-| **CC‑A.4.4** | `Tᴰ ∩ Tᴿ = ∅` and the concatenated intervals **MUST** equal the holon’s worldline. | Guards against illicit overlap. |
-| **CC‑A.4.5** | Each new design version **MUST** reference (`refinesVersion`) exactly one predecessor or declare `firstVersion = true`. | Records predecessor or first-version status. |
+|---|---|---|
+| **CC-A.4.1** | Identify the System, selected account edition, account claim and receiving use. | Fix the comparison's subject and basis. |
+| **CC-A.4.2** | Distinguish normative target, descriptive prediction and applicability condition; recover the comparison rule. | Prevent a failed target test from silently becoming an applicability or revision decision. |
+| **CC-A.4.3** | Use comparable actual facts with the required conditions, temporal reference, units and tolerances, or state the missing premise. | Give fit and discrepancy their warranted scope. |
+| **CC-A.4.4** | Return the bounded comparison before any separately selected adaptation. | Preserve a useful answer without compulsory change. |
+| **CC-A.4.5** | Keep account identity/edition, actual Work, target change, System continuity and response authority under their direct rules. | Allow overlapping activity and branching accounts without a universal phase or predecessor law. |
 

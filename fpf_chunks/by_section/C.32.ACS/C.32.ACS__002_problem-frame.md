@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.ACS"
-pattern_title: "Architecture Characteristic Criteria Set for Improvement Cycles"
+pattern_title: "Architecture Characteristic Criteria Set"
 section_id: "C.32.ACS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
+  - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:1 — Problem frame"
-line_start: 72039
-line_end: 72126
+line_start: 72258
+line_end: 72345
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -69,7 +69,7 @@ Ordinary working move: make one row per project architecture characteristic, bin
 
 The first useful output is `ArchitectureCharacteristicCriteriaSet@Project`:
 
-For a first pass, fill the described holon, architecture use, three to five draft row names, and for every row the bearer or selected structure, exact claim scope and selected context slices, reference scheme and plane, qualification or evaluation window, scale form, use class, protected losses, receiving use, and reopen condition. Add readings, target bands, and eval-program references only when the current receiving use needs them; add a selected `BoundedModelUseStructure` only when it independently changes interpretation of the row use.
+For a first pass, fill the described holon, architecture use, a small set of draft row names, and for every row the bearer or selected structure, exact claim scope and selected context slices, reference scheme and plane, qualification or evaluation window, scale form, use class, protected losses, receiving use, and reopen condition. Add readings, target bands, and eval-program references only when the current receiving use needs them; add a selected `BoundedModelUseStructure` only when it independently changes interpretation of the row use.
 
 ```text
 ArchitectureCharacteristicCriteriaSet@Project:

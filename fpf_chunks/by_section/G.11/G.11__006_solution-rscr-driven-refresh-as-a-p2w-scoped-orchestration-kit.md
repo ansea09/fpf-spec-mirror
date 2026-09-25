@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.11"
-pattern_title: "Telemetry-Driven Refresh and Decay Orchestrator"
+pattern_title: "Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
 section_id: "G.11:4"
 section_title: "Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__006_solution-rscr-driven-refresh-as-a-p2w-scoped-orchestration-kit.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
+  - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:4 — Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
-line_start: 115666
-line_end: 115915
+line_start: 116014
+line_end: 116263
 dependencies:
   - "A.6.RCD"
   - "B.3.4"
@@ -105,7 +105,7 @@ By the `G.Core` **Expansion rule**, the **effective** conformance ids, trigger k
    * `TargetScope := PathSliceId[] | PatternScopeId[]`
    * `PlannedTriggers := RSCRTrigger[]` (canonical trigger kind ids, scope, and payload pins)
    * `PlannedActions := RefreshAction[]` (each action delegates to a subject pattern)
-   * `RequiredPins := {EditionPins, PolicyPins, UTS pins, Path pins}` for replayability
+   * `RequiredPins`: exact affected source and result editions, policy pins and scope for replayability; UTS pins for public identities actually used; graph Path pins when the selected scope is graph-expressed or an independently applicable receiving contract requires them.
    * `PlannedFillingRows[]?` as ClaimGraph content kept inside the WorkPlan under A.15.3 when a value must be pinned against a declaration member defined by its own pattern. A row is addressed only through the WorkPlan and has no separate reference or identity.
 3. **`RefreshReport@Context` (record of refresh Work or its audit).**
    An execution or audit report that records:
@@ -163,19 +163,19 @@ Consume RSCR triggers from:
 
 Every ingested signal is normalized into an `RSCRTrigger` (canonical id, scope, payload pins), with optional alias labels.
 
-**4.3.2 Scope closure (EvidenceGraph-first).**
+**4.3.2 Scope closure over the actual dependencies.**
 Compute the minimal dependency closure over:
 
 * cited evidence and source relations, with `G.6` `PathId` and `PathSliceId` refs when a graph path slice is the current math-lens expression,
 * declared crossings (`G.7` sentinels; `CrossingBundle` visibility),
 * and pinned references (editions and policies).
 
-The closure is a planning-time claim about affected slices, distinct from execution of the planned refresh actions. Interpret a B.3.4 trigger for the receiving claim and use: available information may establish continued applicability, a narrower use, an obtainable refresh need or a necessary suspension. An age-only signal does not determine that disposition. If support remains sufficient, stop with the usable result; retain only the limitation or reason a later recipient needs.
+G.6 supplies graph expression and citation when used; a graph does not establish the source or dependency relation. For a nongraph result, name the exact source, receiving result/use and dependency under `PatternScopeId`; use `PathSliceId` when that dependency scope is actually graph-expressed or independently required by the receiving contract. The closure is a planning-time claim about affected slices, distinct from execution of the planned refresh actions. Interpret a B.3.4 trigger for the receiving claim and use: available information may establish continued applicability, a narrower use, an obtainable refresh need or a necessary suspension. An age-only signal does not determine that disposition. If support remains sufficient, stop with the usable result; retain only the limitation or reason a later recipient needs.
 
 **4.3.3 Planning (P2W boundary).**
 When the selected response requires planned refresh, use C.11 and C.19.2 for its marginal contribution, cost, delay and displaced work. Produce `RefreshPlan@Context` for the actions actually selected; possible action forms include:
 
-* `RerunHarvest` (delegates to the selected harvest, source-currentness, or SoTA governing definition named by value, such as `G.1` or `G.2`, when that definition is current)
+* `RerunHarvest` (delegates to the selected harvesting or SoTA method, such as `G.2`; use `G.1` additionally only when its generator-kit cards or wiring must change)
 * `RerunParity` (delegates to `G.9`)
 * `RecomputeSelectionOrSetResult` (delegates to `G.5`)
 * `RebindBridgeOrCrossing` (delegates changes to the obtaining Bridge to `F.9`, calibration-record changes to `G.7`, and crossing visibility to `E.18` and the applicable visibility harnesses)
@@ -241,7 +241,7 @@ Discipline-specific refresh strategies and generator-specific wiring live as `GP
 
 * The receiving claim/use and the changed premise or applicable review condition, with source references where published.
 * `FreshnessWindowDeclRef?`, `DecayPolicyIdRef?` or `EpistemicDebtBudgetRef?` only when the adopted window, deterioration model or planning measure is used. Their source supplies the meaning; no default expiry or debt budget is required.
-* `PathSliceId[]` for the dependent claims and uses actually affected, not every use of an old carrier.
+* Exact dependent claims and uses actually affected, expressed as `PatternScopeId` for nongraph scope or `PathSliceId[]` for graph scope. Retain graph pins when an independently applicable profile requires them; carrier age alone does not select every use of that carrier.
 
 **RSCRTriggerKindIds:** `{RSCRTriggerKindId.FreshnessOrDecayEvent, RSCRTriggerKindId.EvidenceSurfaceEdit, RSCRTriggerKindId.BaselineBindingEdit}`
 **Notes (wiring-only):** B.3.4 determines what the trigger means for the use. Continue, narrow, refresh, suspend or an authorized exception remain available where warranted; no Refresh/Deprecate/Waive triad or automatic downgrade is introduced here. Currentness is not assurance of the underlying claim. Budget and priority logic apply only when their interpreted policies are used.
@@ -259,7 +259,7 @@ Discipline-specific refresh strategies and generator-specific wiring live as `GP
 * `DescriptorMapRef.edition`, `DistanceDefRef.edition`
 * `CharacteristicSpaceRef.edition?` (required when a domain-family coordinate is declared by the QD governing definition)
 * `InsertionPolicyRef`, `EmitterPolicyRef` (policy-bound)
-* `PathSliceId` (archive or illumination scope) and `policy-id` for emitted telemetry triggers
+* Exact archive or illumination scope and `policy-id` for emitted telemetry triggers: `PatternScopeId` for nongraph scope; `PathSliceId` when graph-expressed or required by an independently applicable parity, evidence or shipping contract.
 
 **RSCRTriggerKindIds:** `{RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange}`
 **Notes (wiring-only):** `G.11` does not restate QD semantics; it ensures pins are present so reruns are comparable.
@@ -275,8 +275,8 @@ Discipline-specific refresh strategies and generator-specific wiring live as `GP
 **Required pins, edition pins, and policy pins (minimum):**
 
 * `TransferRulesRef.edition`, `EnvironmentValidityRegion` (when OEE is declared by the subject patterns)
-* `GeneratorFamilyId` and `TransferRulesRef` wiring pins (as published by the governing definitions)
-* telemetry scope pins (`PathSliceId`, `policy-id`)
+* `GeneratorFamilyRowRef = <GeneratorFamilyId, rowEdition>` and `TransferRulesRef` wiring pins (as published by G.5 and the governing definitions); resolve the exact row edition used by the affected result
+* exact telemetry scope and `policy-id`: `PatternScopeId` for nongraph scope; `PathSliceId` when graph-expressed or required by an independently applicable parity, evidence or shipping contract.
 
 **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.PolicyPinChange}`
 **Notes (wiring-only):** Any OEE method semantics live with the governing definition; this module only wires refresh triggers to comparable reruns.

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.11"
-pattern_title: "Method Quartet Harmonisation"
+pattern_title: "Distinguish Method, MethodDescription, Work and Outputs"
 section_id: "F.11:14"
 section_title: "Migration notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__015_migration-notes.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.11 — Method Quartet Harmonisation"
+  - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:14 — Migration notes"
-line_start: 106008
-line_end: 106016
+line_start: 106430
+line_end: 106438
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -46,7 +46,7 @@ keywords:
 1. **Split conflated process.** Separate MethodDescription from actual Work; add only the exact relations the case supports.
 2. **Repair statuses.** Keep approval and validity claims about descriptions distinct from Work-outcome verdicts and their windows.
 3. **Expose actual outputs.** Replace a universal Actuation box with the precise signal, command, value, or transformation output and direct relation.
-4. **Repair agency.** Replace `System-in-Role` or behavioural-mask language with the actual System, local kind, assignment, and Work attribution where needed.
+4. **Repair agency.** Replace `System-in-Role` or behavioural-mask language with the actual System and its A.13 core before independent Work admission; add F.6 only when precise attribution through the same obtaining assignment is needed.
 5. **Version fences.** Preserve the description version actually used or referenced by past Work.
 6. **Repair hidden transfer.** Replace generic Bridge language with MethodDescription membership or the direct enactment, description-use, Work, output, observation, evidence, or source-local semantic relation. Return A.6.RCD `missing-governor` instead of inventing a relation when no defining or testing rule exists.
 

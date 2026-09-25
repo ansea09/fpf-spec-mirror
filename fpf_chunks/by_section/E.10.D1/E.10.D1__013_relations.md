@@ -6,12 +6,12 @@ section_id: "E.10.D1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__013_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:12 — Relations"
-line_start: 86994
-line_end: 87007
+line_start: 87314
+line_end: 87327
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -41,11 +41,11 @@ keywords:
 - Apply `E.10.ARCH` when the same consequential wording problem recurs across framework contributions. That pattern supplies the shared restoration method; `E.10.D1` supplies this word-specific branch.
 - `A.1.1` defines the direct model-use relations and the decision condition for selecting `BoundedModelUseStructure`.
 - `A.2.6` defines claim scopes, context slices, and their membership facts. `C.2.1` identifies claim-bearing epistemes and their effective schemes.
-- `F.0.1` supplies the source-local recovery method, exact F.17 cell and basis-relation result, reuse rule, and stop. `E.10.D1` recognizes the wording use and returns the repaired sentence; it does not repeat that recovery method.
+- `F.0.1` supplies source-local meaning recovery, reuse and stop. Its ordinary result is a plain answer tied to the source passage; an exact F.17 cell and a separately obtaining basis relation are conditional additions. `E.10.D1` recognizes the wording use and returns the repaired sentence; it does not repeat that recovery method.
 - `F.1` is used only when source selection is live. `F.0.2` is used only when several source ontologies must be compared for one receiving claim. Neither follows automatically from a source-local wording repair.
 - `F.17` defines `SchemeSenseCell`, `SenseCellAddressRef`, and `LocalSenseBasisRelation`. `F.9` defines semantic-context projection, direct Bridge truth, separate bounded-use claims, and reliance boundaries; use `F.9` only when the receiving claim needs that cross-local relation.
 - `C.30` defines the obtaining `ArchitectureRelation` and the separate `ArchitectureClaim` form. Use the actual relation only when its predicate holds; use claim content for a negative, unresolved, candidate, or expected architecture statement.
 - `E.17.0` defines viewpoint identity, the direct `EpistemeViewpointConformanceRelation`, its readable positive, negative, and unresolved results, and the resulting same-episteme `U.View` membership.
 - For environment, operating-region, and operating-condition wording, use the pattern that defines or constrains the subject claim. When the affecting fact or condition cannot be recovered, keep the wording result unresolved rather than inferring architecture or viewpoint content.
-- Apply `F.19` only for final phrase repair after the ontology and practical use are recovered. Apply `F.18` only when the repair creates a durable reusable designation.
+- Apply `F.19` for the normal connected reading and final plain rewrite. Use `E.10.D1` only for a consequential context ambiguity that remains; apply `F.18` only when the repair creates a durable reusable designation.
 

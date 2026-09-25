@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.MLAO"
-pattern_title: "Multilevel Architecture Residual Optimization"
+pattern_title: "Architecture Candidates to Reduce Cross-Scope Residuals"
 section_id: "C.32.MLAO:8"
 section_title: "Common repair cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__009_common-repair-cues.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.32.MLAO — Multilevel Architecture Residual Optimization"
+  - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:8 — Common repair cues"
-line_start: 73183
-line_end: 73196
+line_start: 73402
+line_end: 73415
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -61,7 +61,7 @@ keywords:
 | `StaticOptimumClaim` | A current residual-reducing candidate is called optimal without an evolution window. | Add evolution window, source-return condition, reopen trigger, and the result stating the preference under its applicable pattern. |
 | `ArchitectureInfluencePairCollapse` | The influence-source and transformed-side architecture content, changed referent, or actual transformation are treated as one object. | Open `C.32.CONWAY`; recover each exact C.30 architecture side, the typed influence relation, the changed referent, any actual A.3.4 transformation, the residual-bearing locus, candidate alternatives, and any C.29 structural-similarity claim before residual framing. |
 | `LevelWordsNoLevels` | Text says level or scope without declared refs. | Use `C.30.STRAT` for stratification-term recovery or `B.2.P` for whole-reidentification wording, then return to residual triage before candidate framing. |
-| `OptimizationNoLoss` | Candidates show only gains. | Add new burden, known loss, or bounded exception. |
+| `OptimizationNoLoss` | Candidates show only gains without inspecting possible burdens. | Assess new burden, known loss, and bounded exception; record either the identified burden or the inspected basis for finding none in the declared window. |
 | `IdealityNoBurden` | A candidate removes a bearer or support function but does not name lost function, coupling, evidence, control, or source-return burden. | Use C.32 and C.31; name function-bearing transfer, characteristic changes, and BLP scale window or waiver if scale advantage is claimed. |
 | `FunctionNoBearerAtScope` | A functional change reduces one residual but no admitted bearer can carry it at the affected scope under resource, placement, control, or evidence constraints. | Add or change the bearer, split the function, change placement, resource access, or control relations, reduce the demand, or reject the candidate. Any responsibility claim uses its direct predicate or exact missing governor. |
 

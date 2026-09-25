@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3.4"
-pattern_title: "Evidence Decay & Epistemic Debt"
+pattern_title: "Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
 section_id: "B.3.4:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__009_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.3.4 — Evidence Decay & Epistemic Debt"
+  - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:8 — Rationale"
-line_start: 42442
-line_end: 42447
+line_start: 42391
+line_end: 42396
 dependencies:
   - "A.10"
   - "B.3"

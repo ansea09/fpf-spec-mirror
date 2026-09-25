@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.2.0"
-pattern_title: "U.AbductivePrompt"
+pattern_title: "Question Form for Entering Abduction (U.AbductivePrompt)"
 section_id: "B.5.2.0:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__007_archetypal-grounding.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.2.0 — U.AbductivePrompt"
+  - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:5 — Archetypal Grounding"
-line_start: 46498
-line_end: 46504
+line_start: 46445
+line_end: 46451
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -30,17 +30,12 @@ dependencies:
   - "C.2.LS"
   - "F.9.1"
 keywords:
-  - "abductive prompt"
-  - "explanation-ready cue"
-  - "prompt species"
-  - "rival-set discipline"
-  - "threshold crossing"
 ---
 
 ### B.5.2.0:5 - Archetypal Grounding
 **Tell.** An anomaly is one prompt species, not the only one.
 
-**Show (System).** A control cue may begin probe-design abduction even before it is framed as anomaly.
+**Show (System).** A control observation may raise competing explanations of an apparent response improvement without being framed as an anomaly. The abductive result qualifies those explanations; choosing a discriminating probe is a separate C.11 decision.
 
 **Show (Episteme).** A promising mismatch can begin an opportunity-style abductive prompt rather than only a problem statement.
 

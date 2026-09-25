@@ -6,12 +6,12 @@ section_id: "E.18.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:4 — Solution"
-line_start: 95330
-line_end: 95606
+line_start: 95731
+line_end: 96006
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -186,8 +186,7 @@ For first-minute use, state the question, apply the pattern that answers it, and
 | Next practical question | Which structure is preserved, which is lost, and where does the heat-flow lens stop? |
 | Applicable pattern | `C.29` Mathematical Lens Use. |
 | Result written and use it answers | The C.29 local lens-use result: target phenomenon, candidate mathematical object, preserved structure, lost structure, payoff, declared use, and stop condition. |
-| Local non-overread | This continuation selects no Method, MethodDescription, WorkPlan, dated Work, evidence verdict or gate result. |
-| Honest stop | Stop before method comparison until the comparator, measurement relation, and candidate-set relation are named by value. |
+| Local non-overread | This positive C.29 continuation selects no Method, MethodDescription, WorkPlan, dated Work, evidence verdict or gate result. Method comparison remains a separate continuation and waits until its comparator, measurement basis and candidate-set relation are current. |
 | Return condition | When a measurement, reference plane, or source-currentness relation changes, reapply the pattern for that value and reopen only the dependent P2W continuation. |
 
 The use closes positively when the cited pattern has returned its positive result and the carried problem-card claim remains visible in that result or its stated basis. It closes by bounded stop when the cited pattern returns a blocker or reduced-use cue and no positive continuation can be stated.

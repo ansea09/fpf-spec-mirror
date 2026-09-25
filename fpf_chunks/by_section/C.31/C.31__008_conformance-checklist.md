@@ -6,12 +6,12 @@ section_id: "C.31:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__008_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:7 — Conformance Checklist"
-line_start: 70302
-line_end: 70318
+line_start: 70521
+line_end: 70537
 dependencies:
   - "A.10"
   - "A.17"
@@ -49,7 +49,7 @@ keywords:
 | --- | --- |
 | `CC-C31-1` | Ordinary use starts with `ModularityVectorLite`, three characteristics under evaluation at most, observed problem, repair direction, and stop condition. |
 | `CC-C31-2` | Each characteristic head under evaluation is classified as `DirectCharacteristic`, `CompositeCharacteristicDescription`, `LensBackedCharacteristic`, `TemporalOrScaleCharacteristic`, `CausalUseSensitiveCharacteristic`, or `ReportOnlyProxy`. |
-| `CC-C31-3` | A decision-facing or publication-facing head has `MeasurementHeadMapping`, C.16-compatible fields, and a required evidence relation, evidence-provenance relation, source relation, or explicit evidence-claim-absent reason before it is relied on. |
+| `CC-C31-3` | A decision-facing or publication-facing head has `MeasurementHeadMapping`, C.16-compatible fields, and a required evidence relation, evidence-provenance relation, source relation, or explicit evidence-claim-absent reason before it is relied on. Exact rule-identity dependence requires relationFunctionClaimRef; an ordinary locator does not. Non-pattern authority uses authoritySourceRef under E.10. |
 | `CC-C31-4` | Each characteristic row states at least one repair action or exact subject assertion named by value with its predicate and non-semantic pattern locator. |
 | `CC-C31-5` | Report-only proxies state forbidden overread and do not establish beyond-local-repair use. |
 | `CC-C31-6` | Proxy-risk and audit-question fields are present for decision-facing cards. |

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.P"
-pattern_title: "Emergence and MHT Precision Restoration"
+pattern_title: "Clarify Emergence and Meta-Holon Transition (MHT) Claims"
 section_id: "B.2.P:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__007_archetypal-grounding-worked-cases.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.2.P — Emergence and MHT Precision Restoration"
+  - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:5 — Archetypal Grounding (Worked Cases)"
-line_start: 40935
-line_end: 40979
+line_start: 40865
+line_end: 40909
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,7 +66,7 @@ Recover:
 - Is the result a benchmark artifact?
 - Is there an in-life holon whole-reidentification question?
 
-For those direct claims, use `C.29`, `C.16`, `A.10`, and source-use patterns as applicable. Use B.2 only if the in-life whole has to be reidentified.
+For those direct claims, use `C.29`, `C.16`, `A.10`, and source-use patterns as applicable. Use B.2 when the identity of the in-life whole remains the question.
 
 #### B.2.P:5.3 - "A Meta-Functional Transition Happened"
 

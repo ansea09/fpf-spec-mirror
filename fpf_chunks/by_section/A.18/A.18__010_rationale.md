@@ -6,12 +6,12 @@ section_id: "A.18:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__010_rationale.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:9 — Rationale"
-line_start: 31730
-line_end: 31745
+line_start: 31672
+line_end: 31687
 dependencies:
   - "A.17"
   - "A.18"
@@ -19,7 +19,6 @@ dependencies:
   - "A.19.CN"
   - "B.3"
   - "C.16"
-  - "D.4"
   - "G.0"
 keywords:
   - "CSLC"

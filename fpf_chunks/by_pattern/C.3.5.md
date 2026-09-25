@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.5.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
-line_start: 51694
-line_end: 51852
+line_start: 51837
+line_end: 51995
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -39,7 +39,7 @@ keywords:
 
 **Depends on.**
 
-- **C.3/C.3.1:** the context-local `U.Kind`, obtaining `U.SubkindOf` relations, and kind continuity.
+- **C.3/C.3.1:** kind identity by candidate domain and membership distinction, obtaining `U.SubkindOf` relations, and kind continuity.
 - **C.3.2:** the separate `KindSignature` declaration episteme, exact four-input classification judgment, and optional pinned-edition extension representation.
 - **C.3.3:** the obtaining `KindBridge` relation and its separate bridge-assertion episteme carrying `CL^k`, loss, evidence, and admitted use.
 - **C.3.4:** the `KindUseAdaptationDeclaration` episteme and exact `KindUseAdaptationJudgment`.

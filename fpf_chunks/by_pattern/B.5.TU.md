@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.TU.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
-line_start: 45235
-line_end: 45430
+line_start: 45198
+line_end: 45393
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.1"
-pattern_title: "Bounded Model-Use Structure and DDD Bounded-Context Recovery"
+pattern_title: "Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
 section_id: "A.1.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
+  - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 2590
-line_end: 2600
+line_start: 2591
+line_end: 2601
 dependencies:
   - "A.1"
   - "A.14"

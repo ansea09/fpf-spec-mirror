@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.CAE.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
-line_start: 99744
-line_end: 100016
+line_start: 100146
+line_end: 100418
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -56,7 +56,7 @@ keywords:
 
 **Not this pattern when.**
 
-- Use `A.2.2` when only the holder, Work family, envelope, measures, evidence, or currentness of a capability instance must be stated.
+- Use `A.2.2` when only the holder, Work family, envelope, measures, evidence, or currentness of a qualified holder-ability claim must be stated.
 - Use `A.15.8` when one exact Work or WorkPlan configuration and its recovery relation already bound the whole question.
 - Use `E.23.CDI` when capability development has already been selected and the live question is the intervention and representative transfer check.
 - Use `A.15.7` when ongoing Work merely needs one next action; use `C.11` only when a current chooser and `OptionSet` already exist and comparison can change the choice.
@@ -282,7 +282,7 @@ Reopen this comparison when a direct-source correction removes a load-bearing co
 
 | Pattern or practice | Relation |
 | --- | --- |
-| `A.2.2` | Supplies the exact holder-dependent capability instance, Work family, envelope, measures, evidence, qualification window, and currentness. The differential probe does not create or update that capability claim automatically. |
+| `A.2.2` | Supplies the holder and its qualified ability claim, work conditions, attained bounds, evidence, qualification and fit. The differential probe does not create or update that capability claim automatically. |
 | `A.13`, `A.15.1`, `A.2.1`, `F.6` | Govern actual performer recovery, dated Work admission, assignment, and precise assignment-bound attribution independently when those claims are current. A probe result establishes none of them by itself. |
 | `A.15.8` | Governs an exact Work or WorkPlan performance configuration and recovery. Its observation may support a configuration disposition here; this pattern does not absorb its relation tests. |
 | `E.23.CDI` | Receives the result only after a separate applicable steering or choice result selects capability development. It retains limiting-contribution diagnosis, intervention, protected conditions, and representative transfer. |

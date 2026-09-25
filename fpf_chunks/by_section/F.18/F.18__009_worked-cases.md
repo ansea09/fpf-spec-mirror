@@ -6,12 +6,12 @@ section_id: "F.18:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__009_worked-cases.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:7 — Worked Cases"
-line_start: 109323
-line_end: 109489
+line_start: 109740
+line_end: 109906
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,7 +57,7 @@ Recovered values:
 - `ShipbuildingMethod` or a method family under A.3.1; if a separately identified `ShipbuildingMethodDescription : U.MethodDescription` episteme is current, name it separately under A.3.2 only when its exact `EntityOfConcern` is that Method;
 - `HullAssemblyWork` under the Work patterns.
 
-Here `HullAssemblyWork` is a work-family label or a label in a plan or assignment episteme. A designator such as `HullAssemblyWork-42@2026-07-15T09:10–11:35` names performed Work only when each exact actual performer has its A.13 core and A.15.1 independently admits the occurrence from the Method actually used, temporal extent, containing System, affected hull referent, material bindings, resource-use facts, and any current continuity policy. If the naming record also expressly represents which assignment covered that Work, it adds the exact A.2.1 occurrence and F.6 relation through the same A.13 assignment; missing or failed F.6 leaves the Work name intact. A changed hull state, measurement result, evaluation verdict, delivery occurrence, or acceptance verdict remains a separately defined and separately named value.
+Here `HullAssemblyWork` is a work-family label or a label in a plan or assignment episteme. A designator such as `HullAssemblyWork-42@2026-07-15T09:10–11:35` names performed Work only when each exact actual performer has its A.13 core and A.15.1 independently admits the occurrence from the Method actually used, temporal extent, containing System, affected hull referent, material bindings, resource-use facts, and any current continuity policy. If the naming record also expressly represents which assignment covered that Work, it cites that same obtaining A.13 assignment and adds the F.6 attribution relation; missing or failed F.6 leaves the Work name intact. A changed hull state, measurement result, evaluation verdict, delivery occurrence, or acceptance verdict remains a separately defined and separately named value.
 
 The local card is:
 
@@ -163,7 +163,7 @@ Recovered values:
 - one or more robot-engineering methods or method families under `A.3.1`;
 - a method-family registry or selector outcome under `G.5` when the family registry or selector result is current;
 - `MethodRelationStructure` for the named `MusicalRobotLab_2026` use when the current claim concerns serial composition, guarded fallback, or family selection among exact methods;
-- a method description when the source notation describes that structure;
+- a C.2.1 description episteme whose EntityOfConcern is that selected MethodRelationStructure; it is not thereby a U.MethodDescription;
 - a `C.29` mathematical-lens use when "algebra" is the selected representation for checking composition, fallback, or preserved/lost structure;
 - work plan or dated work only when a concrete plan or occurrence is current.
 
@@ -180,7 +180,7 @@ Recovered values:
 - possible source-currentness and assurance-use relations;
 - no system-role kind, assignment, or acting system merely because the episteme is used as evidence.
 
-F.18 settlement: no system-role-kind or assignment name is minted. If a public term is needed, first name the exact evidence-use relation, for example `ModelCardEvidenceUse`, with A.10 as its direct pattern. Then apply the section 4.4 gate; until it passes, retain the durable relation name and NameCard locally and mark the public row pending.
+F.18 settlement: mint no system-role-kind or assignment name. Recover the exact evidence-use relation under A.2.4 or another direct subject rule, including its participants and obtaining condition. A.10 supplies only its descriptive evidence-provenance account and bounded-reliance disposition. If durable naming is needed, compare names for that independently recovered relation; `ModelCardEvidenceUse` can be a candidate, not a relation created by the phrase or card. Then apply §4.4 only when a public row is needed; otherwise retain the local settlement.
 
 #### F.18:7.4 - Interface-Like Source Phrase
 

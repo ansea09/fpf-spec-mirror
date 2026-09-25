@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CN"
-pattern_title: "CN‑frame (comparability & normalization)"
+pattern_title: "CN-frame: Specify and Maintain Comparability and Normalization"
 section_id: "A.19.CN:13"
 section_title: "Minimal CN‑Spec template (copy/paste, informational)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__014_minimal-cn-spec-template-copy-paste-informational.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.CN — CN‑frame (comparability & normalization)"
+  - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:13 — Minimal CN‑Spec template (copy/paste, informational)"
-line_start: 34047
-line_end: 34090
+line_start: 33997
+line_end: 34041
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -45,17 +45,18 @@ ComparisonBasis: <corpus, baseline, reference state, or declared comparison set>
 ScopeAndWindow: <scope ref and qualification interval, when used>
 IntendedUse: <claim, comparison, admission, or aggregation use>
 characteristics:
-  - <CharacteristicName> : <Unit/Scale>  [Polarity: up|down|target-range]
+  - <CharacteristicName> : <Scale; Unit when applicable>  [Polarity: up|down|target-range|none]
 Chart:
   reference_state: <text>
   coordinate_patch: <domain/subset>
-  measurement_protocol_ref: <MethodDescriptionId>
+  measurement_protocol_ref?: <applicable measurement MethodDescriptionId>
+  value_ascription_basis?: <applicable evaluation rule and evidence>
 Normalization:
   UNM: <UNMId?>
   methods: [<NormalizationMethodId>… ]
   method_descriptions: [<NormalizationMethodDescriptionRef>… ]
-  invariants: [<property>… ]           # what ≡_UNM preserves (token semantics: see A.19.UNM)
-  fix?: <NormalizationFixSpec>          # canonical representative of the ≡_UNM class (token semantics: see A.19.UNM)
+  invariants: [<property>… ]           # what the selected transformation preserves; name losses too (A.19.UNM)
+  fix?: <NormalizationFixSpec>          # only for an established class whose receiving use needs a representative (A.19.UNM)
 Indicators (optional):
   policy_ref: <IndicatorChoicePolicyRef>
   resulting_indicators: [<IndicatorId>… ] // selection is policy‑defined; NCVs alone do not make an Indicator (see A.19.UINDM)
@@ -64,7 +65,7 @@ Comparability:
   minimal_evidence: <what must be observed to compare>  # admissibility/evidence gate surface (see G.0 and C.16)
 Aggregation:
   fold: <Γ_fold expr>   time_policy: <window, statistic>
-  WLNK/COMM/LOC/MONO: <declared choices>
+  WLNK/COMM/LOC/MONO: <only selected property claims, with their model and applicability basis>
 Acceptance:
   checklist: [<observable criterion>… ]
   window: <ISO 8601 interval>

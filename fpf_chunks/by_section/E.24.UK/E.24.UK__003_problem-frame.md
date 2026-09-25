@@ -6,12 +6,12 @@ section_id: "E.24.UK:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__003_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:1 — Problem Frame"
-line_start: 101366
-line_end: 101373
+line_start: 101772
+line_end: 101779
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -44,7 +44,7 @@ keywords:
 
 FPF reserves `U.*` names for admitted durable U-kinds. Current source material and older corpus passages can still place that spelling on a declaration-local SlotKind, participant designation, selected structure, publication form, representation element, or unsettled candidate. The spelling is therefore evidence of admission pressure, not evidence of admission.
 
-Section 4.2 separates exact accepted admission-result references from open prerequisites, blocked candidates, and non-admission exits. A public spelling, owner citation, or orientation row supplies no admission by itself. Existing root and same-individual-dependent kinds remain usable only through the exact accepted result reference recorded there; `U.Capability` remains blocked on its missing dependence governor, and unresolved prerequisite kinds remain `unsettled` rather than being inherited by assertion.
+Section 4.2 separates exact accepted admission-result references from open prerequisites, blocked candidates, and non-admission exits. A public spelling, owner citation, or orientation row supplies no admission by itself. Existing root and same-individual-dependent kinds remain usable only through the exact accepted result reference recorded there; `U.Capability` is rejected for the recovered A.2.2 need because qualified holder-ability claims require no additional kind, and unresolved prerequisite kinds remain `unsettled` rather than being inherited by assertion.
 
-E.24.UK governs this separation. A world-side relation participant keeps its independently governed kind; a `RelationSignature` SlotKind stays declaration-local; an assertion-side designation stays in its claim-bearing episteme; and a publication form or C.29 representation keeps its direct use. It is an E.24 subpattern because U-kind admission depends on ontic settlement, but it is not the head E.24 pattern. E.24 remains the head pattern for `U.Ontic` and ontic introduction. E.24.UK governs the detailed U-kind admission rules.
+E.24.UK governs this separation. A world-side relation participant keeps its independently governed kind; a `RelationSignature` SlotKind stays declaration-local; an assertion-side designation stays in its claim-bearing episteme; and a publication form or C.29 representation keeps its direct use. It is an E.24 subpattern because kind admission and ontology disposition share one decision basis. A justified kind admission does not require an additional durable ontic; E.24 separately tests whether such coordination is needed. E.24 remains the head pattern for `U.Ontic` and ontic introduction. E.24.UK governs the detailed U-kind admission rules.
 

@@ -1,47 +1,50 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.2"
-pattern_title: "U.Capability - System Ability Envelope and Measures"
+pattern_title: "System Capability: Conditions, Measures and Fit"
 section_id: "A.2.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.2.2 — U.Capability - System Ability Envelope and Measures"
+  - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:intro — Intro"
-line_start: 4120
-line_end: 4149
+line_start: 4121
+line_end: 4150
 dependencies:
+  - "A.1"
   - "A.15"
-  - "A.2"
   - "A.2.3"
-  - "E.24.UK"
+  - "A.2.6"
+  - "C.2.1"
+  - "E.23.CDI"
 keywords:
-  - "ability envelope"
-  - "capability-fit condition"
+  - "attained bounds"
+  - "capability fit"
   - "currentness"
-  - "holder-dependent capability instance"
-  - "measure set"
-  - "qualification window"
+  - "holder ability"
+  - "qualification"
+  - "support"
+  - "work conditions"
 ---
 
-## A.2.2 - U.Capability - System Ability Envelope and Measures
+## A.2.2 - System Capability: Conditions, Measures and Fit
 > **Status:** Stable
 
-`U.Capability` is the FPF object for "can do within bounds".
+Capability is a System's ability to perform a work family or produce a result class under stated conditions and measured bounds.
 
-Use this pattern when a project claim says that a person, team, machine, software service, organization, composite cell, or other system can produce a kind of result, perform a class of work, or meet a performance threshold. The claim is about a holder's capability instance, not about who is assigned, which method is described, which work occurred, or what was promised to another party.
+**Use this when** planning, promising or admitting work requires a justified answer to “can this holder do what is needed here?” The holder may be a person, team, machine, deployed software System, organization or composite cell. Identify that System independently under A.1, then state its qualified ability. The claim needs no separate capability individual.
 
-**Primary EntityOfConcern.** The EntityOfConcern is `U.Capability`: an `E.24.UK`-admitted dependent durable U-kind name for holder-dependent capability instances. An individual `U.Capability` instance is a holder-dependent concrete governed object of a named `U.System`, recognized as that system's ability to perform a work family or produce a result class within a declared envelope, measure set, qualification window, and currentness condition. A statement, report row, certification, evidence relation, source-use relation, dashboard display, or currentness assessment about that instance is a neighboring governed record or relation, not the capability instance itself.
+**Primary EntityOfConcern.** The holder System whose ability is being asserted. A capability statement that needs an identified account is an episteme under C.2.1; its subject is the holder, and its claims state what that holder can do. Actual ability, the assertion, its support, current qualification and fit to a receiving demand remain distinguishable.
 
-**Primary working reader.** A manager, architect, engineer, safety assessor, scheduler, or model author who needs to decide whether a holder can be used for a Work claim, Method step, service promise, or architecture move without smuggling a system-role kind or assignment, MethodDescription, past Work, evidence, or quality wording into the capability instance.
+**Primary working reader.** A manager, architect, engineer, safety assessor, scheduler or model author deciding whether a holder can meet a Work, Method-step, service-promise or architecture need.
 
-**First useful move.** Ask: who is the holder system, what work family or result class is the ability about, under what envelope, with what declared measures, during which qualification window, and which separate statement, evidence relation, source-use relation, or currentness assessment currently supports reliance on that capability?
+**First useful move.** Name the holder, work or result, conditions and attained bounds. Then compare the receiving demand with that qualified claim, using the support and currentness required for this use. An adequate existing claim and fit result may be reused without another record.
 
-**What goes wrong if missed.** A system-role label or assignment becomes a hidden proof of ability, a MethodDescription is treated as if it can perform Work, a phrase such as “the system possesses algorithm A” is taken to admit an unspecified episteme as `U.MethodDescription`, a single successful run is generalized into a stable ability, or a promise is made without a measured capability behind it.
+**What goes wrong if missed.** Assignment, a MethodDescription, one successful run or a promise is mistaken for measured ability. Conversely, an expired report is treated as if it physically removed the holder's ability. Both errors conceal which fact needs attention.
 
-**What this buys.** Capability becomes checkable and reusable: a Work-admission claim can test the exact system-role assignment, `SystemRoleAssignmentStateRelation`, Method-side admission conditions, and capability thresholds separately.
+**What this buys.** Planning can separate ability from its warrant and fit: change the demand without inventing a new capability, or reopen an actual ability claim when the holder's configuration changes. Independently required authority, assignment state, Method-side conditions and assurance remain separate receiving checks.
 
 **Not this pattern when.**
 

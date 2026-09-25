@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.2.DA"
-pattern_title: "FPF Pillar-Adequacy Evaluation CharacteristicSpace"
+pattern_title: "Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
 section_id: "E.2.DA:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__007_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
+  - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:6 — Bias annotation"
-line_start: 78596
-line_end: 78601
+line_start: 78879
+line_end: 78884
 dependencies:
   - "A.19.ECS"
   - "E.10"

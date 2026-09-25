@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.2.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
-line_start: 48239
-line_end: 48558
+line_start: 48380
+line_end: 48699
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -45,10 +45,11 @@ keywords:
   - "TA/VA/LA lanes"
   - "direct relation"
   - "evidence-bound"
-  - "no implicit averaging"
+  - "non-aggregate synthesis"
   - "pathwise justification (PathId)"
+  - "support dependencies"
   - "warrant"
-  - "weakest-link"
+  - "weakest-link limits"
 ---
 
 ## C.2.2 - Reliability R in the F–G–R triad

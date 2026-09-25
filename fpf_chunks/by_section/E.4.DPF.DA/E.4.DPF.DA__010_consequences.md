@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.4.DPF.DA"
-pattern_title: "Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
+pattern_title: "Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
 section_id: "E.4.DPF.DA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__010_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
+  - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:9 — Consequences"
-line_start: 80708
-line_end: 80713
+line_start: 81005
+line_end: 81010
 dependencies:
   - "A.1.1"
   - "A.10"

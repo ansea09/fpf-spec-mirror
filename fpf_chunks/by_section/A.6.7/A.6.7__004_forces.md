@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.7"
-pattern_title: "MechSuiteDescription — Description of a set of distinct mechanisms"
+pattern_title: "MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
 section_id: "A.6.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__004_forces.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
+  - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:3 — Forces"
-line_start: 21675
-line_end: 21696
+line_start: 21529
+line_end: 21550
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -24,7 +24,7 @@ dependencies:
   - "E.8"
   - "G.10"
   - "G.5"
-  - "U.Mechanism.Intension"
+  - "U.Mechanism"
 keywords:
   - "CG-Spec"
   - "CN-Spec"
@@ -51,7 +51,7 @@ keywords:
    Suites must cite governing spec refs as pins, not duplicate their internals, otherwise multiple competing admissibility centers arise.
 
 4. **Transport and crossing visibility discipline.**
-   Cross-context and cross-plane steps must be visible and bridge-only; penalties must route to `R/R_eff` only; suites must not embed CL/Φ/Ψ/Φ_plane tables. Visibility is mediated via E.18 / P2W (crossing bundles + UTS/Path pins), not by “implicit semantics”.
+   An asserted semantic correspondence needs its F.9 Bridge; a kind correspondence needs its C.3.3 basis; a plane relation retains its own defining rule. Expose the anchors required by each actual relation and receiving use. An independently governed E.18 crossing or A.21 gate retains its required bundle or gate evidence. Any applicable penalty routes to `R/R_eff` only; suites do not embed CL/Φ/Ψ/Φ_plane tables.
 
 5. **Guard vs gate separation.**
    Mechanisms can output tri-state guard outcomes and explanations; **gate decisions** (including `block`) and `DecisionLog` remain gate-level (`OperationalGate(profile)`). A suite must not collapse these layers.

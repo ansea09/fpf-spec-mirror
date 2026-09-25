@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.11.DUA"
-pattern_title: "Decision-Useful Advice and Evidence Demands"
+pattern_title: "Make Advice and Evidence Demands Worth Their Burden"
 section_id: "C.11.DUA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__010_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.11.DUA — Decision-Useful Advice and Evidence Demands"
+  - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:9 — Consequences"
-line_start: 53469
-line_end: 53474
+line_start: 53612
+line_end: 53617
 dependencies:
   - "A.10"
   - "C.11"

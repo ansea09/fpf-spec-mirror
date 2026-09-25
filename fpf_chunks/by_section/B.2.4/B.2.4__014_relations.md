@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.4"
-pattern_title: "Capability and Functioning Whole Reidentification"
+pattern_title: "Do Capability or Functioning Changes Require Whole Reidentification?"
 section_id: "B.2.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__014_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.2.4 — Capability and Functioning Whole Reidentification"
+  - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:11 — Relations"
-line_start: 41679
-line_end: 41685
+line_start: 41609
+line_end: 41615
 dependencies:
   - "A.10"
   - "A.15"

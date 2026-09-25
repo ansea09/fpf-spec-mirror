@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.24"
-pattern_title: "Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
+pattern_title: "Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
 section_id: "C.24:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__003_what-goes-wrong-if-missed.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
+  - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:0.1 — What goes wrong if missed"
-line_start: 59833
-line_end: 59839
+line_start: 59976
+line_end: 59982
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,6 +36,10 @@ dependencies:
   - "G.9"
   - "U.PromiseContent"
 keywords:
+  - "agentic tool-use"
+  - "call planning"
+  - "route probe"
+  - "service calls"
 ---
 
 ### C.24:0.1 - What goes wrong if missed
@@ -43,5 +47,5 @@ keywords:
 - a route is scheduled by an opaque heuristic, so nobody can see which budget is being burned or what should stop it;
 - unresolved choice or pool-policy work is smuggled into a plan;
 - a route description is mistaken for a Method, a plan for performed Work, or a successful probe for committed rollout; and
-- replanning loses the decision that made the route admissible in the first place.
+- replanning loses the basis that fixed the action and its conditions.
 

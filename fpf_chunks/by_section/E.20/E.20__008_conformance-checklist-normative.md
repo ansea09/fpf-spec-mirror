@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.20"
-pattern_title: "Mechanism Introduction Protocol"
+pattern_title: "Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
 section_id: "E.20:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__008_conformance-checklist-normative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.20 — Mechanism Introduction Protocol"
+  - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:7 — Conformance Checklist (normative)"
-line_start: 98065
-line_end: 98085
+line_start: 98467
+line_end: 98487
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -28,18 +28,16 @@ dependencies:
   - "G.x"
 keywords:
   - "MIP-run manifest"
-  - "P2W seam"
-  - "PQG profiles"
-  - "SlotKind lexicon discipline"
   - "alias docking"
   - "authoring protocol"
-  - "canonical card-first"
+  - "declaration-local operation members"
   - "governing-definition assignment"
   - "mechanism introduction"
-  - "no dangling …IntensionRef"
-  - "regression envelope"
-  - "suite boundary hygiene"
-  - "typed RSCR triggers"
+  - "planned baseline"
+  - "resolvable MechanismDefinitionRef"
+  - "suite boundary"
+  - "trigger triage"
+  - "wiring"
 ---
 
 ### E.20:7 - Conformance Checklist (normative)
@@ -59,7 +57,7 @@ keywords:
 | **CC‑E20‑6 (Kernel stability handled).** | If a kernel suite would gain a new required stage, the change **SHOULD** be expressed as a suite variant; if mutation occurs, it **SHALL** include continuity measures (alias docking and explicit delta). | Minimizes E.15 impact radius of kernel edits. |
 | **CC‑E20‑7 (SoTA wiring, not kernel semantics).** | Method/comparator choices **SHALL** be represented via SoTA packs and wiring modules; if a SoTA update changes mechanism semantics, that change **SHALL** be made in the mechanism-subject pattern and not by wiring. | Prevents silent semantic shifts. |
 | **CC‑E20‑8 (Terminology continuity).** | Any rename changing citeable tokens **SHALL** use alias docking and register updates; silent rewrites are non‑conformant. | Preserves reference stability. |
-| **CC‑E20‑9 (RSCR triggers + regressions).** | Any semantic or reference-change **SHALL** emit RSCR triggers and extend the regression envelope to cover dangling refs + suite closure + guard/gate separation + P2W planning-to-work boundary. | Makes changed loci and regression obligations explicit and testable. |
+| **CC‑E20‑9 (RSCR triggers + regressions).** | A triggered MIP-run that changes semantics or citeable references **SHALL** emit RSCR triggers and extend the regression envelope over its affected reference, suite, guard/gate, or planned-baseline uses under E.20:4.10. | Makes changed loci and regression obligations explicit and testable. |
 | **CC‑E20‑10 (PQG coverage).** | Every MIP-run **SHALL** be reviewed under PQG (E.19) with PCP‑BASE and the triggered profiles implied by the change. | Normalizes review and refresh. |
 | **CC‑E20‑11 (Deprecation preserves citeability).** | Any deprecation, supersession, or retirement action **SHALL** preserve citeability of the deprecated token. Affected mechanism epistemes, reservation stubs, suite descriptions, WorkPlan editions, wiring modules, and public locators or aliases remain independently resolvable where applicable and state the direct successor relation or its absence under E.20:4.9.1. A planned-filling row has no independent resolvability, edition, or successor obligation; its local-content locator resolves only through the exact WorkPlan edition. | Prevents broken citations and orphaned semantics without reifying WorkPlan-local content. |
 

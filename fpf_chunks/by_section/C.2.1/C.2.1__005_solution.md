@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:4 — Solution"
-line_start: 47189
-line_end: 47477
+line_start: 47330
+line_end: 47618
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -233,7 +233,7 @@ The grounding holon need not be identical to the EntityOfConcern. One method-des
 | view | the same episteme individual recognized as `U.View` when an exact `EpistemeViewpointConformanceRelation` to at least one exact viewpoint episteme obtains | conformance, source-to-receiving construction, current-use selection, publication, form, and carrier remain different relations or objects |
 | bounded model use | optional relation to one `BoundedModelUseStructure : U.Structure` under A.1.1 | model-use organization can qualify interpretation without becoming a universal identity component |
 | justification structure | exact `JustificationGraph` content | a justification structure organizes inferential dependencies without becoming claim content |
-| evidence use or assurance for a claim | for ordinary bounded reliance, the exact A.10 evidence-provenance relation and local `RelianceDisposition`; when an actual named assurance claim is current, the exact B.3 `AssuranceResult` or its non-positive disposition | evidence and assurance can support, narrow, or stop reliance on the claim while the episteme's identity remains fixed |
+| evidence use or assurance for a claim | for ordinary bounded reliance, the descriptive A.10 evidence-provenance path, the independently established direct relations it cites, and local `RelianceDisposition`; when an actual named assurance claim is current, the exact B.3 `AssuranceResult` or its non-positive disposition | evidence and assurance can support, narrow, or stop reliance on the claim while the episteme's identity remains fixed |
 | publication | exact publication occurrence and publication form under E.17 and E.24.PUB | making an edition available does not constitute or reidentify it |
 | presentation carrier | any exact `U.PresentationCarrier` under E.17 and E.24.PUB | bearing a publication form or rendered expression does not constitute or reidentify the episteme |
 | representation and admissible operations | the representation scheme, selected elements and operations used for the represented episteme, with any required correspondence or transition governed through :4.0 | a change of scheme or admitted operations can change the available work |

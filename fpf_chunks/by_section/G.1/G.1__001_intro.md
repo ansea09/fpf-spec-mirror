@@ -1,21 +1,20 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.1"
-pattern_title: "CG‑Frame‑Ready Generator"
+pattern_title: "Author a Reusable CG-Frame Generator and Selector Kit"
 section_id: "G.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__001_intro.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "G.1 — CG‑Frame‑Ready Generator"
+  - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:intro — Intro"
-line_start: 110705
-line_end: 110723
+line_start: 111130
+line_end: 111147
 dependencies:
   - "A.10"
   - "A.15.3"
-  - "A.19"
   - "A.19.CN"
   - "C.17"
   - "C.18"
@@ -52,10 +51,9 @@ keywords:
   - "six-card kit (M1-M6)"
 ---
 
-## G.1 - CG‑Frame‑Ready Generator
+## G.1 - Author a Reusable CG-Frame Generator and Selector Kit
 
 **Tag.** architectural pattern; *generator chassis* (design‑time kit / authoring scaffold)
-**Status.** stable (Phase‑2 universalisation)
 **Normativity.** normative, except sections explicitly marked *informative*
 **Stage.** *design‑time* authoring of a generator‑kit with a *run‑time* execution façade (policy‑governed; edition‑aware)
 **Primary output.** the **six‑card chassis** `M1…M6` published as a **complete, reusable CG‑Frame kit**, plus a versioned **kit manifest** `CGKitId` that binds the six cards as a single reusable unit (view‑friendly inventory + wiring surface)

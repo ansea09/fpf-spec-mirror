@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9"
-pattern_title: "Alignment and Bridge across Contexts"
+pattern_title: "Relate Local Meanings across Contexts (Alignment and Bridge)"
 section_id: "F.9:9"
 section_title: "Boundary to coarsening and quantum-like export"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__011_boundary-to-coarsening-and-quantum-like-export.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.9 — Alignment and Bridge across Contexts"
+  - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:9 — Boundary to coarsening and quantum-like export"
-line_start: 104939
-line_end: 104953
+line_start: 105347
+line_end: 105361
 dependencies:
   - "A.10"
   - "A.13"
@@ -63,7 +63,7 @@ Use this order:
 
 1. resolve the exact F.17 cells, state the relation-semantic profile, and test whether the Bridge obtains;
 2. state the proposed use separately as `<u,d,r,t>` and give the C.2.1 claim its polarity;
-3. recover the exact A.10 evidence-provenance relation and local disposition or, when an actual named assurance claim is current, its B.3 `AssuranceResult` for the same use;
+3. recover the descriptive A.10 evidence-provenance path, the independently established direct relations it cites, and local disposition or, when an actual named assurance claim is current, its B.3 `AssuranceResult` for the same use;
 4. if the use happened, identify the actual governed object and apply its subject pattern;
 5. add a Bridge Card only if durable packaging pays;
 6. open A.6.3.CSC, C.26.1, or C.26.2 only when coarsening, probe effects, or failure of any faithful-enough report is the live question.

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.37"
-pattern_title: "Use-Bounded Representation Selection and Co-Use"
+pattern_title: "Select and Use Representations for One Action"
 section_id: "C.37:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.37 — Use-Bounded Representation Selection and Co-Use"
+  - "C.37 — Select and Use Representations for One Action"
   - "C.37:4 — Solution"
-line_start: 75688
-line_end: 75817
+line_start: 75909
+line_end: 76038
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -25,6 +25,15 @@ dependencies:
   - "E.17.0"
   - "E.24.PUB"
 keywords:
+  - "co-use"
+  - "diagram"
+  - "exposure"
+  - "loss"
+  - "model"
+  - "plan"
+  - "receiving action"
+  - "record"
+  - "representation selection"
 ---
 
 ### C.37:4 - Solution

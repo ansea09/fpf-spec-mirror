@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.11"
-pattern_title: "Method Quartet Harmonisation"
+pattern_title: "Distinguish Method, MethodDescription, Work and Outputs"
 section_id: "F.11:15"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__016_acceptance-tests.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.11 — Method Quartet Harmonisation"
+  - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:15 — Acceptance tests"
-line_start: 106017
-line_end: 106034
+line_start: 106439
+line_end: 106456
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -48,7 +48,7 @@ keywords:
 * **SCR-F11-S01 (four questions).** Every relevant statement identifies the Method, the MethodDescription with that one Method as exact `EntityOfConcern`, the Work, or the exact output it concerns.
 * **SCR-F11-S02 (Work actuality).** `U.Work` is an occurrence, not a record, plan, or output.
 * **SCR-F11-S03 (no universal actuation).** Outputs are typed and related by their direct patterns.
-* **SCR-F11-S04 (agency).** Any performer claim names the actual System and exact assignment and attribution basis.
+* **SCR-F11-S04 (agency).** Every claimed actual performer has the A.13 core before independent A.15.1 Work admission; any precise assignment-bound attribution has its later F.6 basis through the same obtaining assignment.
 * **SCR-F11-S05 (separate claims).** MethodDescription membership, enactment, description use, output, observation, and evidence claims use their defining or testing patterns and are not replaced by a generic Bridge or invented description relation.
 * **SCR-F11-S06 (evidence).** No approval or command alone is used as proof of Work outcome.
 

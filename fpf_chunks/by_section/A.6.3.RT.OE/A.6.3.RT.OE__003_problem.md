@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__003_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:2 — Problem"
-line_start: 16513
-line_end: 16520
+line_start: 16495
+line_end: 16502
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"

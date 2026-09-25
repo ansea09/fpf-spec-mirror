@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.9.DA"
-pattern_title: "DRR Decision-Adequacy Evaluation CharacteristicSpace"
+pattern_title: "Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
 section_id: "E.9.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
+  - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:4 — Solution"
-line_start: 83271
-line_end: 83554
+line_start: 83590
+line_end: 83873
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -78,7 +78,7 @@ The following names support only the complete reusable-result branch. An ordinar
 | `CampaignProblemSolutionUnfoldingCheck` | Triggered carry-through check for DRRs that create or modify README entries, path-shaped patterns, pattern families, DPF entries, first-practical routes, or constraint-governed unfolding structures. It names admitted problem-side record refs or cues, accepted starting records, current starting structures, entry cues, selected solution architecture, affected unfolding families, loci and concrete-pattern or relation map added or changed, any independently grounded overread that a plausible intended reader could make, and residue that must move from DRR or README into patterns or unfolding structures. |
 | `DRRDecisionAdequacyResultRef` | One C.2.1 result episteme whose EntityOfConcern is the exact checked DRR episteme and whose ClaimGraph states the required use and source, window, effective floor and source, coordinate-result claims, bounded omitted-question-search disposition, local status, first drafting action or repair, stop or return, reopen, and any grounded non-use boundary. Method, application, Work, witnesses, records, and later authority use remain separate objects or relations. |
 | `DRRDecisionAdequacyWitnessRefs` | Exact comparison, source, trace, case, or locus witnesses cited by result claims; witness presence is neither a value nor an evidence-use relation. |
-| `DRRDecisionAdequacyEvidenceUseRefs` | Exact A.10 evidence-use/provenance relations supporting reliance on result claims; they do not create those claims or the checked DRR. |
+| `DRRDecisionAdequacyEvidenceUseRefs` | References to the independently established relations that support reliance on result claims. Use A.10 to recover their exact sources, provenance, currentness and bounded use; its descriptive path creates none of those relations. |
 | `DRRDecisionAdequacyRecordRef` | Optional C.2.1 record episteme that packages refs to the configuration and whichever of Method, application, Work admission, result, witness, evidence-use, reopen, and grounded non-use values are actually current. Its function is reference packaging; status and authority use their direct receiving relations. |
 | `DRRDecisionAdequacyStatus` | Local admissible-use value derived noncompensatorily from the required use and source, effective floor, coordinate values, and architecture or split blockers. Any F.10 status use or interpretation by a receiver is a separate relation. |
 
@@ -190,7 +190,7 @@ The default effective floor is `3 sufficientlyExpressedForDeclaredUse` for every
 
 Before assigning values, run the bounded omitted-question search from §4. Ask whether the DRR omitted an important question that would change its answer, content architecture, source use, consumer obligation, first drafting action, or stop. Inspect only enough of the governed problem, problem-owning practice, current sources, strongest live alternative, failure and recovery cases, and true direct consumers to answer that question.
 
-If an important omitted question is found, state it as a substantive finding before coordinate closure and lower every affected decision, architecture, source-use, actionability, and boundary coordinate. Do not hide it by moving to an easier use. When none is found, an ordinary clean review needs no separate ledger; a reusable result records only the checked basis and clean disposition needed by its named reliance.
+If an important omitted question is found, state it as a substantive finding before coordinate closure and reassess every affected decision, architecture, source-use, actionability and boundary coordinate under its value rule. Do not hide it by moving to an easier use. When none is found, an ordinary clean review needs no separate ledger; a reusable result records only the checked basis and clean disposition needed by its named reliance.
 
 
 | Coordinate | Evaluation question |
@@ -221,11 +221,11 @@ A complete reusable E.9.DA coordinate result uses this table shape. An ordinary 
 
 | Coordinate | Value | ShortRationale | EvidenceLocus |
 |---|---:|---|---|
-| `<E.9.DA coordinate>` | `<0..5>` | `<assigned-value basis and the applicable adjacent-value rationale below>` | `<DRR section, row, alternative, source-use row, selected-locus row, accepted-decision row, architecture decision, or missing locus named by value>` |
+| `<E.9.DA coordinate>` | `<0..5; leave unassigned while required evidence is missing or unchecked>` | `<assigned-value basis and the applicable adjacent-value rationale below>` | `<DRR section, row, alternative, source-use row, selected-locus row, accepted-decision row, architecture decision, or missing locus named by value>` |
 
 For values `1..4`, explain why the lower adjacent value would understate the evidence and the higher adjacent value would overstate it. For `0`, explain why `1` would overstate the evidence and what would raise the value or reopen it. For `5`, explain why `4` would understate the evidence and what would lower the value or reopen it.
 
-A prose summary, heading checklist, two-column coordinate-and-value table, or table without an `EvidenceLocus` is not a complete reusable coordinate result. It may still be a valid ordinary bounded review when it precisely states the checked DRR, required use and source, effective floor, substantive finding, repaired text or clean unchanged result, first action, and stop or reopen condition. Missing or unchecked evidence lowers any reusable coordinate that needs it. An answer-changing omitted question lowers every coordinate whose decision, architecture, source-use, actionability, or boundary claim depends on the missing answer; it is not an extra coordinate or a compensable checklist item.
+A prose summary, heading checklist, two-column coordinate-and-value table, or table without an `EvidenceLocus` is not a complete reusable coordinate result. It may still be a valid ordinary bounded review when it precisely states the checked DRR, required use and source, effective floor, substantive finding, repaired text or clean unchanged result, first action, and stop or reopen condition. When required evidence is missing or unchecked, identify the gap and leave the affected value unestablished until the needed check is completed. Assign a lower value only when checked content shows the inadequacy specified by that coordinate's value rule; for example, an absent required decision in the DRR can justify a low value. An answer-changing omitted question requires reassessment of each dependent coordinate under that same rule; it is not an extra coordinate or a compensable checklist item.
 
 Common calibration points:
 
@@ -248,7 +248,7 @@ The following are local conclusions for the exact checked DRR, required authorin
 | `splitDecisionRequired` | Several coupled questions need separate decision records or explicit convergence before the current result can be admissible. |
 | `holdForArchitectureDecision` | Content object, branch, neighbour boundary, selected locus, structural-view relation, missing-structure return condition, source-use relation, or publication split must be decided before adequacy can close. |
 
-The status rule is noncompensatory. A strong value on one coordinate cannot offset another required coordinate below its effective floor. An unresolved architecture blocker yields `holdForArchitectureDecision` regardless of the other values; a required split yields `splitDecisionRequired`; an easier or different use yields `newFrameRequired`. Otherwise any below-floor required coordinate yields `repairBeforeDrafting`. State the required-use source, effective floor, and floor source in either result form so another evaluator can reproduce the conclusion.
+The status rule is noncompensatory. A strong value on one coordinate cannot offset another required coordinate below its effective floor. An unresolved architecture blocker yields `holdForArchitectureDecision` regardless of the other values; a required split yields `splitDecisionRequired`; an easier or different use yields `newFrameRequired`. Otherwise any below-floor required coordinate yields `repairBeforeDrafting`. State the required-use source, effective floor, and floor source in either result form so another evaluator can reproduce the conclusion. A missing or unchecked basis does not establish a below-floor value. Complete the needed check before deriving a conclusion that depends on it; an unestablished required value cannot support `admissibleForDeclaredAuthoringUse`. Independently established architecture, split or below-floor findings remain usable.
 
 A result carrying `admissibleForDeclaredAuthoringUse` states the first drafting action, stop or return, and reopen condition. A non-ready result states the first repair, split boundary, or architecture question. Add a non-admissible reading only when an independent local ground makes it plausible and action-changing; any later gate or authorization uses a separately defined receiving relation.
 

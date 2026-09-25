@@ -6,12 +6,12 @@ section_id: "E.11.PUA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__008_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:7 — Conformance Checklist"
-line_start: 88424
-line_end: 88436
+line_start: 88774
+line_end: 88786
 dependencies:
   - "A.13"
   - "A.15"
@@ -43,7 +43,7 @@ keywords:
 | `PUA-2` | Direct inspection | Problem frame, Problem, Forces, Solution, Consequences, ordinary boundary, and stronger neighbor were inspected. |
 | `PUA-3` | Useful result before apparatus | Ordinary use distinguishes the result, honest interim entity, or blocker from nearby values and reaches a stop or return. Relative-object, exact predicate, pattern locator, basis, and flow position appear only when ambiguity or named reliance needs them. |
 | `PUA-4` | Reliance profile | Ordinary use remains conversational; every materialized support record names the later reliance that needs it. |
-| `PUA-5` | Honest closure | The use distinguishes a newly current result, a pre-existing entity with new grounding, and an interim entity while the expected result remains absent. A materialized closure cites the exact result assertion, direct pattern content, relative object when relevant, and category-correct basis. A.15.PROD appears only for a Work-attributed entity-inception claim. |
+| `PUA-5` | Honest closure | The use distinguishes a newly current result, a pre-existing entity with new grounding, and an interim entity while the expected result remains absent. A materialized closure cites the exact result assertion, direct pattern content, relative object when relevant, and category-correct basis. A.15.PROD appears only for a current production-work, Work-attributed inception or production-completion claim, with that branch's own basis. |
 | `PUA-6` | Work integrity | Every precise performer first has the A.13 core; `U.Work` then names an independently A.15.1-grounded occurrence and is never inferred from planning, setup, authorization, assignment, F.6 attribution, or another Work. Add F.6 only for a current exact assignment-bound attribution through the same obtaining A.13 assignment. A claim that the Work's actual changes first constituted another entity cites A.15.PROD and the work-to-change basis. |
 | `PUA-7` | Later use | The immediate continuation is understandable when current. A materialized realized-use finding cites the exact later object and basis; an intended-use finding asserts no obtaining relation. A genuine stop has no receiver or disposition finding. |
 | `PUA-8` | Return | A changed concern, basis, result, pattern, or use opens a named return instead of silent reinterpretation. |

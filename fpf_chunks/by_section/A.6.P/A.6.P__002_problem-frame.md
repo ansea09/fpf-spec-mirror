@@ -6,12 +6,12 @@ section_id: "A.6.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:1 — Problem frame"
-line_start: 17397
-line_end: 17418
+line_start: 17379
+line_end: 17400
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -48,7 +48,7 @@ Quoted, external, or ordinary source prose may remain as written. Use A.6.P only
 
 **First useful move.** Replace the broad phrase with one readable sentence that names the exact participants and the direct relation believed to obtain. Name the pattern that defines that relation's participants, obtaining condition, and identity rule. If either the participants or the relation remain genuinely ambiguous, keep a small working candidate note and resolve that ambiguity before adding a reusable declaration, assigning a designator, or choosing a representation.
 
-**First-minute result.** The draft `Bearing_B is linked to Pump_P` becomes `Bearing_B isInstalledPartOf Pump_P during Interval_T` after inspection identifies the physical part relation governed by `A.14` and its current interval. If no later maintenance claim or operation distinguishes this installation episode from another, the repair stops there. A `RelationSignature`, explicit occurrence reference, or graph representation is added only when a named later claim or operation needs it.
+**First-minute result.** The draft `Bearing_B is linked to Pump_P` becomes `Bearing_B is part of Pump_P during Interval_T` after inspection establishes the intended parthood claim under the applicable A.14 rule. The ordinary repair stops there. If a later maintenance claim must distinguish installation episodes, §5.1 returns the missing installed-part predicate and occurrence-identity rule; a `RelationSignature`, occurrence reference or graph representation cannot supply them.
 
 **What goes wrong if missed.** A lexical replacement can make the sentence sound technical while preserving the same ambiguity. At the opposite extreme, an engineer can turn every relation phrase into a record-shaped episteme and then confuse that episteme, a declaration, or an identifier with the relation that obtains. Both failures obscure what is true, which object changes, and which pattern defines or constrains the needed claim or operation.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UINDM"
-pattern_title: "Unified Indicatorization Mechanism (UINDM)"
+pattern_title: "Indicatorization (UINDM): Select Indicators Under a Declared Policy"
 section_id: "A.19.UINDM:End"
 section_title: "A.19.UINDM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__015_a-19-uindm-end.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
+  - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:End — A.19.UINDM:End"
-line_start: 35483
-line_end: 35484
+line_start: 35389
+line_end: 35390
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

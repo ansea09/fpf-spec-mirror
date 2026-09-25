@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.33"
-pattern_title: "Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
+pattern_title: "Assess Structural Information for Architecture Use"
 section_id: "C.33:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__007_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
+  - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:6 — Bias-Annotation"
-line_start: 74721
-line_end: 74730
+line_start: 74942
+line_end: 74951
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -39,13 +39,14 @@ dependencies:
   - "F.9"
   - "G.5"
 keywords:
-  - "captured selected structure"
-  - "carrier"
-  - "lost structure"
+  - "ADR"
+  - "captured structure"
+  - "diagram"
   - "missing structure"
-  - "missing-structure return"
   - "observer boundary"
-  - "selected structure"
+  - "partial description"
+  - "relation graph"
+  - "source return"
   - "structural information adequacy"
 ---
 

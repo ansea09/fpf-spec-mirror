@@ -6,12 +6,12 @@ section_id: "B.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__008_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:6 — Bias-Annotation"
-line_start: 40720
-line_end: 40729
+line_start: 40650
+line_end: 40659
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,7 +47,7 @@ keywords:
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
-| Emergence rhetoric | A gain, surprise, or synergy label declares a new whole. | Perform the ordinary existing-whole comparison before B.2. |
+| Emergence rhetoric | A gain, surprise, or synergy label declares a new whole. | Perform B.2's existing-whole comparison before declaring a new whole. |
 | Record as ontology | Trigger profiles, result fields, or checklist labels become U-kinds. | Keep the trigger profile, optional explanation result, and reidentification record as `U.Episteme` values; keep the ordinary comparison as an action. Let `E.24.UK` handle public-kind admission and A.1 recognize the candidate new whole. |
 | Math as MHT | Graph, RG-like, MSPD, benchmark, scaling, or morphism expression declares whole reidentification. | Use `C.29`; recover holon identity and existing-whole explanation first. |
 | Binary agency | Agency threshold crossing is treated as a root kind or binary status. | Use the direct characteristic-space and threshold patterns; use B.2 only when whole identity changes. |

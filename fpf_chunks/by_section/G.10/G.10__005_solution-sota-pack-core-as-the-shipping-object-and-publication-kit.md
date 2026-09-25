@@ -6,12 +6,12 @@ section_id: "G.10:4"
 section_title: "Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__005_solution-sota-pack-core-as-the-shipping-object-and-publication-kit.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:4 — Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
-line_start: 115232
-line_end: 115514
+line_start: 115576
+line_end: 115862
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -72,7 +72,7 @@ Effective obligations/pins/triggers are computed as **union(expand(sets), explic
   }
 
 * `RSCRTriggerSetIds` := { `GCoreTriggerSetId.RefreshOrchestration` }
-  *(payload pins: `PackId(UTS)`, `publicationScopeId`, `CNSpecRef.edition`, `CGSpecRef.edition`, `PlanItemRefs := SlotFillingsPlanItemRef[]`, `AuditPins`, `UTSRowId[]`, `PathId/PathSliceId`, crossing policy pins, `TelemetryPinIds`, relevant upstream artefact ids)*
+  *(payload pins: `PackId(UTS)`, `publicationScopeId`, `CNSpecRef.edition`, `CGSpecRef.edition`, `PlanItemRefs := ⟨WorkPlanRef, planLocalContentLocator⟩[]`, `AuditPins`, `UTSRowId[]`, `PathId/PathSliceId`, crossing policy pins, `TelemetryPinIds`, relevant upstream artefact ids)*
 
 * `DefaultsConsumed` := {
   `DefaultId.PortfolioMode`,
@@ -91,7 +91,7 @@ Effective obligations/pins/triggers are computed as **union(expand(sets), explic
   `publicationScopeId`,
   `contextSliceId?`,
 
-  `PlanItemRefs := SlotFillingsPlanItemRef[]?` *(WorkPlanning planned baseline refs)*,
+  `PlanItemRefs := ⟨WorkPlanRef, planLocalContentLocator⟩[]?` *(WorkPlanning planned baseline refs)*,
   `AuditPins` *(pack‑level pin bundle: edition pins (only on `…Ref.edition`), policy‑ids, UTS/Path pins; ids only)*,
 
   `UTSRowId[]`,
@@ -145,7 +145,7 @@ SoTA‑Pack(Core) :=
   PathSliceIds := PathSliceId[]?,
 
   // Planned baseline + audit pins (P2W-aware; ids only)
-  PlanItemRefs := SlotFillingsPlanItemRef[]?,
+  PlanItemRefs := ⟨WorkPlanRef, planLocalContentLocator⟩[]?,
   AuditPins := { id pins… },                 // editions only on `…Ref.edition`; includes policies, UTS/Path pins, crossing pins
 
   // Crossing visibility surface (per GateCrossing; ids only)
@@ -160,6 +160,8 @@ SoTA‑Pack(Core) :=
   Notes?
 ⟩
 ```
+
+`PlanItemRefs`, when present, resolve the exact U.WorkPlan episteme and locate the baseline content inside it. For A.15.3 content, the locator uses that WorkPlan's `planItemDesignator` and any needed `rowDesignator`; it gives the item or row no independent identity or edition. An ordinary A.15.2 baseline stays ordinary plan content when it reuses no declaration member. A changed plan must not silently replace the earlier reference carried by the shipped pack.
 
 #### G.10:4.2.1 - Portfolio roster (normative; pack-governed; governing-definition delegating)
 
@@ -195,8 +197,8 @@ PortfolioRoster@Context :=
   retentionIntent?,
 
   // Selector-facing roster + provenance hooks (ids only)
-  MethodFamilyIds := MethodFamilyId[]?,
-  GeneratorFamilyIds := GeneratorFamilyId[]?,
+  MethodFamilyRowRefs := MethodFamilyRowRef[]?,
+  GeneratorFamilyRowRefs := GeneratorFamilyRowRef[]?,
   ParityReportId?,
   SCRId[]?, DRRId[]?,
 
@@ -205,6 +207,8 @@ PortfolioRoster@Context :=
   Notes?
 ⟩
 ```
+
+The roster cites exact G.5 `MethodFamilyRowRef = <MethodFamilyId, rowEdition>` and `GeneratorFamilyRowRef = <GeneratorFamilyId, rowEdition>` values. A lineage id alone cannot replay the selected membership or grouping basis; each row ref resolves its immutable source edition. Shipping these references neither admits the members nor creates their grouping. Preserve the row's G.5 local or public registry-identity contract. A visible project-local row is not automatically a public registry entry; intentional public registration adds S1/S1′ naming and UTS duties. G.10's independently applicable pack-shipping requirements and E.24.PUB availability conditions still apply.
 
 *Presence rule:* `PortfolioRosterId` MAY be omitted only when the shipped pack is *inputs‑only*
 (e.g., shipping CHR/CAL/evidence without any selector‑consumable selected-set/shortlist output).
@@ -218,12 +222,12 @@ The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, 
 `G.10` prescribes a minimal, governing-definition delegating sequence for composing a shipped pack:
 
 1. **S‑1 — Gather & pin.** Collect upstream artefact ids and verify the **required pins** implied by the linkage manifest (edition pins, policy pins, UTS/Path pins).
-2. **S‑2 — Compose `SoTA‑Pack(Core)` + MOO disclosure.** Assemble the pack object and attach a **`MOOManifest`** that lists the referenced mechanisms and policies used, at their exact editions, to obtain the shipped outcomes (ids only; semantics stay with governing definitions).
+2. **S‑2 — Compose `SoTA‑Pack(Core)` + MOO disclosure.** Assemble the pack object and attach a **`MOOManifest`** that lists the referenced methods, mechanisms, and policies used, at their exact editions, to obtain the shipped outcomes (ids only; semantics stay with governing definitions).
 3. **S‑3 — Publish selection/parity roster (selector‑facing).** Except when the inputs-only presence-rule exception in §4.2.1 is used, produce a selector‑readable `PortfolioRosterId` with the parity/definition pins required for reproducibility; do not mandate formats.
 4. **S‑4 — Anchor and publish path citations.** Ensure A.10 anchors exist and publish/record `PathId/PathSliceId` citations required for downstream explainability (e.g., the `C.23` W2 `AdmissibilityLedger`) and maturity rung changes.
 5. **S‑5 — Expose CrossingBundle.** For each GateCrossing relevant to the shipped artefacts, expose the required `CrossingBundle` references (fail fast on missing or non‑conformant bundles when required).
 6. **S‑6 — Emit telemetry pins for refresh planning.** Whenever illumination increases or archive/OEE pin state changes, emit PathSlice‑keyed telemetry with policy‑id and the active `…Ref.edition` pins (and QD `EmitterPolicyRef`/`InsertionPolicyRef` when applicable).
-7. **S‑7 — Publish to UTS (twin labels).** Mint/refresh UTS Name Cards needed to cite the pack and shipped heads (Tech/Plain twins when required); cross‑Context identity travels only via Bridges with CL and loss notes.
+7. **S‑7 — Publish to UTS (twin labels).** Mint/refresh UTS Name Cards needed to cite the pack and shipped heads (Tech/Plain twins when required); a claimed cross-context semantic correspondence cites its F.9 relation, separate bounded-use claim and reliance. G.7 calibration and loss notes remain evidence for that use, not identity or permission.
 8. **S‑8 — Optional: ingest interop surface.** If `G.13` interop is in use, ingest/cite `InteropSurface@Context` as annotation-only notes, pinning external index editions; do not redefine interop semantics.
 
 #### G.10:4.4 - Interfaces & hooks (selector‑ and audit‑facing)
@@ -233,7 +237,7 @@ The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, 
 | **G.10‑1** | `Compose_SoTA_Pack`        | `G.*` outputs, ComparatorSet, Bridges, editions, SCR/DRR deltas     | `SoTA‑Pack(Core)` (UTS row + surfaces) + `AuditPins` (+ `MOOManifestId?`) (+ `PortfolioRosterId?`) |
 | **G.10‑2** | `Publish_UTS`              | `PackId(UTS)`, `UTSRowId[]`, deprecation/edition‑bump notes       | UTS rows/Name Cards for the pack and shipped heads (incl. twins when required) |
 | **G.10‑3** | `Expose_CrossingHooks`     | GateCrossings, lanes/planes/contexts                              | **CrossingBundle** (**E.18:CrossingBundle**) per GateCrossing; **fail** on missing/non‑conformant bundles |
-| **G.10‑4** | `Pack_MOO`                 | referenced mechanism/policy/edition ids                           | `MOOManifestId` (ids only; governing-definition delegating) |
+| **G.10‑4** | `Pack_MOO`                 | referenced method/mechanism/policy/edition ids                           | `MOOManifestId` (ids only; governing-definition delegating) |
 | **G.10‑5** | `Emit_TelemetryPins`       | Illumination/archive/OEE events                                   | PathSlice‑keyed telemetry: `policy‑id`, `…Ref.edition` (+ QD/OEE pins when applicable) |
 | **G.10‑6** | `Publish_PathCitations`    | A.10 anchors, PathIds                                             | PathId/PathSlice citations for the `C.23` W2 `AdmissibilityLedger` & rung changes |
 | **G.10‑7** | `Ingest_InteropSurface?`   | (optional) `G.13 InteropSurface@Context`                          | Annotated pack notes citing external‑index editions     |

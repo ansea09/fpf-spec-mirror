@@ -6,12 +6,12 @@ section_id: "E.5.2:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__010_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:9 — Relations"
-line_start: 81595
-line_end: 81603
+line_start: 81920
+line_end: 81928
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"
@@ -19,13 +19,6 @@ dependencies:
   - "C.37"
   - "E.5"
 keywords:
-  - "BPMN"
-  - "UML"
-  - "diagram"
-  - "notation"
-  - "semantics"
-  - "syntax"
-  - "tool-agnostic"
 ---
 
 ### E.5.2:9 - Relations

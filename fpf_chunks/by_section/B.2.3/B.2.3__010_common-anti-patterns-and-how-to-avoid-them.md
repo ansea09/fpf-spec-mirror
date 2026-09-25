@@ -6,12 +6,12 @@ section_id: "B.2.3:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 41441
-line_end: 41450
+line_start: 41371
+line_end: 41380
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,7 +40,7 @@ keywords:
 | --- | --- | --- |
 | Library as theory | A repository or reading list is treated as one episteme. | Recover one exact candidate and test A.1 plus the C.2.1 constitution relation; if either test fails, withhold episteme-result recognition. Keep any independently established collection claim without inferring that it is sufficient for the current use; report `unknown` when a required test cannot be evaluated. |
 | PDF as episteme | A PDF carrier or its publication form is used as the theory itself. | Use publication patterns for the PDF and keep B.2's `resultHolonRef` for the independently constituted episteme. |
-| Doctrine receives agency | "The standard enforces..." or "the theory decides..." | Recover the exact acting System through A.13, then let A.15.1 independently admit the dated Work and enacted Method. Add F.6 only when the receiving use expressly consumes precise assignment-bound attribution. Keep any system-role kind, evidence, or decision claim separate. |
+| Doctrine receives agency | "The standard enforces..." or "the theory decides..." | For a literal claim of dated enforcement or decision Work, recover its actual performer through A.13 and admit the Work independently under A.15.1; add F.6 only when the use consumes precise assignment-bound attribution. Otherwise use F.19 to retain ordinary guidance wording when its capable user and action are recoverable. |
 | Morphism as MHT | A view, translation, coarsening, or retargeting is called a new episteme whole. | Use A.6.2, A.6.3, A.6.4, or A.6.3.CSC unless B.2 whole reidentification is current. |
 | Synthesis as high trust | A new theory inherits trust because its sources were reliable. | Rebuild assurance for the result episteme through A.10, B.3, B.3.5, C.2.1, and source-use patterns. |
 

@@ -6,12 +6,12 @@ section_id: "E.18.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__013_relations.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:12 — Relations"
-line_start: 95793
-line_end: 95822
+line_start: 96193
+line_end: 96222
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -60,7 +60,7 @@ keywords:
 - `E.23` defines and tests repeated quality improvement only after the object version and evaluation are recoverable; P2W may carry a seed to that point but does not become the improvement method.
 - `G.11` defines and tests currentness, admitted-source decay, source-use relation change, edition change, and refresh when a changed source publication, source-use relation, or telemetry reopens the smallest affected P2W application.
 
-- `E.18` defines and tests selected `TransformationFlowStructure`, transfer annotations, flow valuation, `ConstraintValidity`, `GateFit`, gate profile, design tags, and run tags.
+- `E.18` defines and tests the selected `TransformationFlowStructure`, its internal transfer, flow valuation, positions, crossings and local state bindings. Apply `A.20` for a current internal constraint-validity claim and `A.21` for a current gate profile application, check mapping or gate decision; cite those separate results only when the P2W continuation uses them.
 - `C.22.2` defines and tests the accepted problem-side record and problem-side claims related to the carried distinction.
 - `A.6.P` supplies recovery and readable statement of each direct relation. `A.6.REL` defines and tests direct obtaining, occurrence individuation, and receiver-conditioned use of any reusable `RelationSignature`; P2W cites the occurrence, assertion or description returned there and copies none of that doctrine into ClaimContent. Use `A.6.RCD`, `E.24`, and `E.24.UK` for any later P2W relation-kind candidate and admission, while `A.6.0` declares a `RelationSignature` only after that settlement. F.8/F.18/F.17 open only when an external naming or publication use is current; the header's Tech/Plain pattern label and local note-field phrases create no NameCard, term row, U-kind, relation or MethodDescription.
 

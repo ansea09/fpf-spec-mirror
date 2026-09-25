@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.35"
-pattern_title: "Structural Synthesis and Discovery Adequacy"
+pattern_title: "Assess Generated or Discovered Results for Architecture Use"
 section_id: "C.35:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__003_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.35 — Structural Synthesis and Discovery Adequacy"
+  - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:2 — Problem"
-line_start: 75094
-line_end: 75101
+line_start: 75315
+line_end: 75322
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -48,11 +48,10 @@ keywords:
   - "DSM"
   - "LLM"
   - "NAS"
-  - "candidate admission"
-  - "described structure"
-  - "generated carrier"
-  - "produced carrier"
-  - "source return"
+  - "candidate input"
+  - "discovered result"
+  - "generated result"
+  - "modal architecture proposal"
   - "structural discovery"
   - "structural synthesis"
 ---

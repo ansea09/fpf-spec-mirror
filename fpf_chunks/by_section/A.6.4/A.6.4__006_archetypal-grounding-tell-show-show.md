@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.4"
-pattern_title: "EntityOfConcern retargeting"
+pattern_title: "EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
 section_id: "A.6.4:5"
 section_title: "Archetypal Grounding (Tell-Show-Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.4 — EntityOfConcern retargeting"
+  - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:5 — Archetypal Grounding (Tell-Show-Show)"
-line_start: 17292
-line_end: 17303
+line_start: 17274
+line_end: 17285
 dependencies:
   - "A.10"
   - "A.15"

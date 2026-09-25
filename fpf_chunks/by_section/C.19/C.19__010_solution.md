@@ -6,12 +6,12 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__010_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 56790
-line_end: 57043
+line_start: 56933
+line_end: 57186
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -187,7 +187,7 @@ The smallest useful `C.19` record usually states:
 - `currentTreatment = widen | keep_frontier | narrow_to_subset | sunset_line`
 - `changeTrigger = ...`
 - `nextQuestionPatternLocator? = ...` only when the question is no longer pool policy
-- one or more native direct-owner reference fields only when an already constituted result or claim supports the treatment; retain the field name, kind, identity, claim episteme when applicable, and subject-pattern locator supplied by that owner—for example the A.2.2 `capabilityInstanceRef` and its `capabilityStatementRef`; an information-gain or articulated-endpoint use keeps the ref name and kind defined by its own direct owner—rather than replacing them with one C.19 signal or cue
+- one or more native direct-owner reference fields only when an already constituted result or claim supports the treatment; retain the field name, kind, identity, claim episteme when applicable, and subject-pattern locator supplied by that owner—for example the A.2.2 `capabilityHolderRef` and `capabilityStatementRef`; an information-gain or articulated-endpoint use keeps the ref name and kind defined by its own direct owner—rather than replacing them with one C.19 signal or cue
 - `a10RelianceRef? = ...` only when the pool treatment actually relies on one evidence-bearing or source-bearing claim; the cited A.10 account keeps the exact relied-on claim, bounded pool-treatment use, evidence-provenance path, window, and `RelianceDisposition`
 - `competenceModelRef? = ...` only when it cites one exact model episteme used by the pool policy; that model is neither the capability, the owner-defined result, nor proof that the treatment may rely on either
 - `goalSpaceExpansionPolicyRef? = ...` only when one independently declared archive or curriculum expansion policy governs goal- or task-space growth
@@ -226,21 +226,21 @@ whyNotLocalChoice = three family regions remain live
 ```
 
 **An exact capability claim supports pool treatment.**
-An A.2.2 capability instance for `diagnostic_agent_v4` is qualified for task region `alpha`, while its current statement does not establish transfer into region `beta`. In this constructed case, a declared curriculum-expansion policy warrants keeping both regions live while beta's prospective contribution and retention burden remain acceptable. That policy does not establish transfer. Because the pool treatment actually relies on the capability statement, the record cites its exact A.10 reliance account:
+An A.2.2 statement about holder `diagnostic_agent_v4` supports its qualified ability in task region `alpha`; it does not establish transfer into region `beta`. In this constructed case, a declared curriculum-expansion policy warrants keeping both regions live while beta's prospective contribution and retention burden remain acceptable. That policy does not establish transfer. Because the pool treatment actually relies on the capability statement, the record cites its exact A.10 reliance account:
 
 ```text
 livePool = diagnosis_task_regions_{alpha,beta}
 governingLens = curriculum_expansion_policy_v3
 currentTreatment = keep_frontier
 changeTrigger = beta obtains qualified transfer support, its opportunity window closes, or its continuation burden changes
-capabilityInstanceRef = diagnostic_agent_capability_v4
+capabilityHolderRef = diagnostic_agent_v4
 capabilityStatementRef = capability_statement_CS-44
 a10RelianceRef = A10_CS-44_keep-frontier_W8
 goalSpaceExpansionPolicyRef = curriculum_expansion_policy_v3
 whyNotLocalChoice = both regions remain live; no individual task or probe is selected
 ```
 
-`capabilityInstanceRef` retains the A.2.2 `U.Capability` identity; `capabilityStatementRef` retains its governed episteme identity; and `a10RelianceRef` qualifies only the stated bounded reliance. None is renamed as a signal or cue, entered into the declared dominance set, or emitted as a `ChoiceResult`.
+`capabilityHolderRef` identifies the holder System; `capabilityStatementRef` identifies the C.2.1 episteme asserting that System's bounded ability; and `a10RelianceRef` qualifies only the stated bounded reliance. None is renamed as a signal or cue, entered into the declared dominance set, or emitted as a `ChoiceResult`.
 
 **The same missing beta qualification permits different continuation decisions.**
 
@@ -269,11 +269,11 @@ When one internal retained subset is already explicit and the next question is t
 
 ```text
 livePool = retained_subset_{option_B, option_C}
-governingLens = pool_policy_completed
+governingLens = selection_preparation_policy_v2
 currentTreatment = narrow_to_subset
-changeTrigger = retained subset is explicit; pool policy is complete
+changeTrigger = eligibility, comparison basis, or retention burden changes for option_B or option_C
 nextQuestionPatternLocator = G.5 because selector-facing result declaration is now current
-whyNotLocalChoice = pool governance is already complete
+whyNotLocalChoice = the next use needs declaration of the retained set, not a choice among its members
 ```
 
 #### C.19:4.3b - Cultural and style live pools

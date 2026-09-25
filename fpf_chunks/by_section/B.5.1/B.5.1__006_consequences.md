@@ -1,30 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.1"
-pattern_title: "Explore → Shape → Evidence → Operate"
+pattern_title: "Coordinate Development States: Explore → Shape → Evidence → Operate"
 section_id: "B.5.1:5"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__006_consequences.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.5.1 — Explore → Shape → Evidence → Operate"
+  - "B.5.1 — Coordinate Development States: Explore → Shape → Evidence → Operate"
   - "B.5.1:5 — Consequences"
-line_start: 46081
-line_end: 46088
+line_start: 46044
+line_end: 46051
 dependencies:
   - "B.3.3"
   - "B.4"
   - "B.5"
   - "B.5.2"
 keywords:
-  - "Evidence"
-  - "Explore"
-  - "Operate"
-  - "Shape"
-  - "development state cycle"
-  - "open-ended progression"
-  - "state machine"
 ---
 
 ### B.5.1:5 - **Consequences**

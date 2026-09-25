@@ -6,12 +6,12 @@ section_id: "B.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__006_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:4 — Solution"
-line_start: 41749
-line_end: 41814
+line_start: 41680
+line_end: 41750
 dependencies:
   - "A.1"
   - "A.10"
@@ -24,11 +24,13 @@ dependencies:
   - "A.3.3"
   - "A.3.4"
   - "A.6.M"
+  - "A.6.RCD"
   - "B.1"
   - "B.2"
   - "B.2.P"
   - "B.3"
   - "C.13"
+  - "C.2.1"
   - "C.27"
   - "C.28"
   - "C.29"
@@ -41,45 +43,50 @@ keywords:
 
 ### B.2.5:4 - Solution
 
-Model the current object as `SupervisorSubholonFeedbackRelation@Context`.
+State the feedback claim in one C.2.1 episteme about the named controller and supervised holons. A sufficient ordinary reading is: “For every drone in this set during the stated interval, controller C receives the stated observations and returns commands coupled to those observations under rule R.” Use A.6.RCD's compound-claim branch; the description does not require a new relation kind or one independently reidentifiable feedback occurrence.
+
+For a nonempty set H and each h in H, recover three propositions under their direct domain definitions:
+
+1. **Observation:** which state of h is observed or reported to the controller, through which obtaining observation, report, publication or source relation.
+2. **Return:** which influence from the controller reaches h, under the applicable command, constraint, objective, mode or Work predicate.
+3. **Coupling:** which rule applies to this observation and return, and which facts establish that this return depends on that observation under the rule.
+
+The compound claim is true exactly when all three propositions hold for every member of H under common applicability: the same named use, participants, scope and temporal qualification. This is ordinary logical conjunction of those propositions, not a combination of probability scores or assurance results. Recover each direct definition and its applicable edition when the claim relies on it. A local use needs no separately published conjunction rule.
+
+An optional note can retain the needed details:
 
 ```text
-SupervisorSubholonFeedbackRelation@Context:
-  supervisedHolonRefs: FinSet(U.HolonRef)
-  feedbackPolicyRef?
-  claimScopeRef?: U.ClaimScope
-  qualificationWindowRef?
-  supervisorSystemRoleKindRef?: U.KindRef resolving to one exact local system-role kind
+SupervisorSubholonFeedbackClaim@Context:  // claim-bearing episteme, not U.Relation
   supervisingActingSystemRef: U.EntityRef resolving to one admitted U.System
-  supervisorSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment
-  supervisedWorkOrTransformationRefs?
-  observationOrReportRefs: FinSet(ObservationRef | ReportRef | PublicationUnitRef | SourceUseRef)
-  influenceOrConstraintRefs: FinSet(InfluenceSignalRef | ConstraintRef | ObjectiveRef | ModeRef)
-  sharedMediumOrPublicationRefs?
-  holonBoundaryCrossingRelationRefs?
-  feedbackClosureCondition:
-  evidenceRefs?
-  admissibleUse:
-  nonAdmissibleUse:
-  strongerClaimPatternRefs?
+  supervisedHolonRefs: FinSet(U.HolonRef)  // nonempty
+  useAndTemporalQualification:
+  pairClaims:  // one for every supervised holon
+    supervisedHolonRef:
+    observationClaimAndBaseRelationRefs:
+    returnedInfluenceClaimAndBaseRelationRefs:
+    applicableCouplingRuleAndEdition:
+    couplingFacts:
+  supervisorSystemRoleKindRef?:
+  supervisorSystemRoleAssignmentRef?:
+  evidenceRefs?:
+  strongerClaimPatternRefs?:
 ```
 
-This relation is not a U-kind and not a mathematical loop lens. The record names the exact supervised holons, supervising acting system, feedback policy when one applies, signal paths, ClaimScope when needed, qualification window, and evidence when a later use relies on it. Evidence can support the claim but does not create the feedback relation. The kind and assignment fields are present only when the classification and the assignment occurrence with its declared species exist separately; the feedback relation creates neither.
+Observation and influence references keep their own kinds; a report episteme, a signal occurrence and a source-use relation are not interchangeable occupants of one relation position. Evidence supports the assertion under A.10; its adequacy and the obtaining of the base facts remain separate questions. A local system-role kind and assignment are added only when they independently obtain and affect this use.
 
-#### B.2.5:4.1 - Two-Sided Feedback Relation
+#### B.2.5:4.1 - Establish and qualify the conjunction
 
-A one-way command, publication, or report relation is not yet a supervisor-subholon feedback relation. Name both:
+Co-present telemetry and commands are insufficient. For each pair, apply the coupling rule to the actual observation and return. An unrelated broadcast fails that condition; one-way reporting fails the two-sided predicate. If the rule is missing, return the missing governor. If the rule exists but a needed observation or dependency fact is unavailable, return missing information. Neither absence of proof alone nor an empty supervised set supports the affirmative assertion. A negative claim needs the rule's non-obtaining test and facts that satisfy it.
 
-- the observation, report, signal, source, or publication side; and
-- the returned influence, constraint, objective, mode, or work-change side.
+Keep the base occurrences and their own extent and continuity rules. A communication break can make an interval-qualified feedback assertion fail without ending a supervisor assignment. Reconnection requires current observation, return and coupling facts. Apply a changed policy to the affected interval; adding a holon extends the asserted set only after its own pair is supported.
 
-If only one side is current, name and record that exact claim under the pattern that defines it.
+Reopen the dedicated relation-kind alternative only when a receiving use needs to identify a feedback occurrence independently across changes. That alternative must supply its obtaining, extent and continuity rules, including interruptions, under A.6.RCD and A.6.REL. A useful compound description can stop here.
 
 #### B.2.5:4.2 - Part-Whole Boundary
 
 A supervised holon may be part of a larger holon, but supervision and parthood are different relations. A controller, committee, platform-governance group, review board, or tool-mediated group can supervise when the exact acting entity is independently admitted as `U.System`; it may do so under an exact system-role assignment without being a physical part of the supervised holon. A method, policy, or review practice can structure the supervision work; it does not supervise by itself.
 
-Use `A.1` for holon recognition, `A.14` for the exact mereological claim, and `B.1` or `C.13` for the applicable construction account. Use B.2.5 only for the supervisor-subholon feedback relation.
+Use `A.1` for holon recognition, `A.14` for the exact mereological claim, and `B.1` or `C.13` for the applicable construction account. Use B.2.5 for the compound supervisor-subholon feedback claim.
 
 #### B.2.5:4.3 - Acting-System Boundary
 
@@ -89,7 +96,7 @@ For acting-side externalization, use `A.12`. For transformation, use `A.3.4`. Fo
 
 #### B.2.5:4.4 - Control-Structure View Boundary
 
-When the relation is drawn as planner, controller, observer, plant, and supervisor structure, B.2.5 names the relation, while `C.30.LCA` is the pattern for the control-structure view. A diagram or view does not establish the relation by appearance; recover the in-life relation and the description relation separately.
+When feedback is drawn as planner, controller, observer, plant and supervisor structure, B.2.5 states the compound claim and `C.30.LCA` governs the control-structure view. The view can cite both the assertion and the independently obtaining base relations. Its arrows alone establish neither their obtaining nor the coupling.
 
 #### B.2.5:4.5 - Neighboring Claim Boundary
 

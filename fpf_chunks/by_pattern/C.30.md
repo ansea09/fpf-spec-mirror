@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
-line_start: 66290
-line_end: 66997
+line_start: 66499
+line_end: 67206
 dependencies:
   - "A.1"
   - "A.10"
@@ -63,13 +63,13 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
+  - "ArchitectureClaim"
   - "ArchitectureOf@Context"
-  - "architecture claim"
-  - "architecture question card"
-  - "architecture-description boundary"
-  - "artifact-as-architecture guard"
-  - "candidate architecture use"
+  - "ArchitectureRelation"
+  - "actual and candidate architecture"
+  - "architecture question"
   - "grounded architecture"
+  - "next architecture move"
   - "selected structure"
 ---
 

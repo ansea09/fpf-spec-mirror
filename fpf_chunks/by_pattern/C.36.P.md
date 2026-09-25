@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "C.36.P"
-pattern_title: "Cultural-Evolution Wording-Use Precision Restoration"
+pattern_title: "Clarify Cultural-Evolution Wording for a Claim or Action"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.P.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
-line_start: 76884
-line_end: 77056
+  - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
+line_start: 77109
+line_end: 77281
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -55,7 +55,7 @@ dependencies:
 keywords:
 ---
 
-## C.36.P - Cultural-Evolution Wording-Use Precision Restoration
+## C.36.P - Clarify Cultural-Evolution Wording for a Claim or Action
 
 > **Tech-name:** `CulturalEvolutionWordingUsePrecisionRestoration`
 > **Plain-name:** cultural-evolution wording-use precision restoration
@@ -200,7 +200,7 @@ CulturalEvolutionWordingRecoveryLine:
 
 #### C.36.P:5.2 - "This Tradition Is An Attractor"
 
-If `attractor` is a loose metaphor for a stable recognizable style, use a term bridge and C.36 case. If the project claims basin structure, stable dynamics, or state-transition law, use `A.3.3`, `C.27`, and `C.29` before C.36 relies on the claim.
+If `attractor` is a loose metaphor for a stable recognizable style, state that local meaning and use C.36 for the cultural-evolution case. Use F.9 only when an actual relation between distinct source-local cells is current. If the project claims basin structure, stable dynamics, or state-transition law, use `A.3.3`, `C.27`, and `C.29` before C.36 relies on the claim.
 
 #### C.36.P:5.3 - "Technique As Developmental Machinery"
 

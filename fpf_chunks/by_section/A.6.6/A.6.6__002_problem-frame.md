@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
+pattern_title: "Base Declaration Discipline: Say Exactly What Something Depends On"
 section_id: "A.6.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline - Direct relation first; reusable declaration only when needed"
+  - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:1 — Problem frame"
-line_start: 21193
-line_end: 21222
+line_start: 21043
+line_end: 21072
 dependencies:
   - "A.10"
   - "A.14"

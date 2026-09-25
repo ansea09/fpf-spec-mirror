@@ -6,12 +6,12 @@ section_id: "A.6.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:4 — Solution"
-line_start: 15099
-line_end: 15205
+line_start: 15081
+line_end: 15187
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -119,15 +119,15 @@ If Y is made available, E.24.PUB separately identifies the publication occurrenc
 
 #### A.6.3:4.7 - Preserve composition and replay
 
-For fixed source epistemes, rules, reference semantics, correspondence dependencies, and configuration:
+The selected formal substrate supplies the identities, admitted compositions, and arrow equivalence. For fixed source epistemes, rules, reference semantics, correspondence dependencies, and configuration:
 
 - identity viewing preserves the same C.2.1 episteme;
-- composing `f : X -> Y` with `g : Y -> Z` gives the same licensed receiving claims as the declared composite, up to the stated equivalence;
-- deterministic viewings yield the same Y identity discriminators on replay;
+- composing `f : X -> Y` with `g : Y -> Z` gives the admitted composite `compose(g,f) : X -> Z` under A.6.2 P3;
+- if a separately declared construction operation is deterministic, replay with the same admitted inputs yields the same receiving C.2.1 identity discriminators;
 - random seeds, model editions, external service state, or timing that can change Y are explicit inputs to the work or declaration, not hidden meta;
-- applying an idempotent normalization twice yields the same receiving episteme up to the declared representation equivalence.
+- a normalization repeat claim identifies `n_X : X -> Y` and the next arrow `n_Y : Y -> Z`, establishes `Z = Y` under C.2.1, and witnesses `compose(n_Y,n_X) ≃ n_X` under the declared arrow equivalence. One `X -> Y` arrow is self-composable only when X = Y.
 
-If two paths differ in claims, EntityOfConcern, or effective reference scheme beyond the declared equivalence, they do not identify the same receiving episteme and the composition claim fails.
+A composition requires the exact middle episteme to match. A claim that two routes yield the same receiving episteme requires equality of all three C.2.1 identity discriminators; representation equivalence alone does not establish that identity. The repeat claim requires a fixture or proof under A.6.2 P4.
 
 #### A.6.3:4.8 - Stop at the lightest sufficient statement
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.ACS"
-pattern_title: "Architecture Characteristic Criteria Set for Improvement Cycles"
+pattern_title: "Architecture Characteristic Criteria Set"
 section_id: "C.32.ACS:8"
 section_title: "Common failures and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__009_common-failures-and-repairs.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
+  - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:8 — Common failures and repairs"
-line_start: 72255
-line_end: 72268
+line_start: 72474
+line_end: 72487
 dependencies:
   - "A.1.1"
   - "A.10"

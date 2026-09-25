@@ -6,12 +6,12 @@ section_id: "C.2.1:11"
 section_title: "Conformance Checklist  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__012_conformance-checklist-normative.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:11 — Conformance Checklist  (normative)"
-line_start: 47633
-line_end: 47650
+line_start: 47774
+line_end: 47791
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -61,7 +61,7 @@ keywords:
 5. **Empirical-grounding discipline.** `GroundingHolonSlot` occurs only inside `EpistemeEmpiricalGroundingRelationSignature`. Each occurrence names one exact nonempty covered claim subgraph and maps every empirical claim in it to the required current direct observation, intervention, measurement, or test relations involving the grounding holon. Unlisted claims receive no grounding from that occurrence. One occurrence is reidentified from the episteme, covered claim subgraph, grounding holon, and maximal continuous interval during which the complete coverage predicate is true; demonstrated coverage failure followed by restoration yields another occurrence. Evaluation counts in the empirical base only when its exact direct relation and use in the test are stated; otherwise evaluation and evidence support or challenge an assertion. Availability or loss of a report, store, or Work log alone neither makes nor unmakes grounding.
 6. **Edition discipline.** `EpistemeEditionRelation` has exactly the earlier and later epistemes as participants and is acyclic in that direction. Positive continuity requires exact source use, an applicable edition policy or rule, and preserved and deliberately changed claim, EntityOfConcern, and scheme features satisfying that rule. Fork, translation, retargeting, and independent reconstruction are explicit failure branches. Work, Method, provenance, and change facts supply case facts but no label makes continuity true.
 7. **View and neighboring-relation discipline.** C.2.1 identifies epistemes; E.17.0 alone tests the conformance of fixed E to fixed P and the resulting same-individual `U.View` membership. One named describing use may select one exact viewpoint P, but that selection creates no context value, selects no view, and remains separate from A.6.3 source-to-receiving construction. Several views remain a plurality. Recover a C.13 collection only when the use depends on that plurality as a collection, and an A.22 structure only when it depends on their organization. Cross-view claims use the pattern for their direct subject relation or return an exact blocker naming the participants, required predicate, use, and missing defining or constraining pattern. Use E.17 for view or publication form and E.24.PUB for publication occurrence, form, and carrier, not for view membership or correspondence.
-8. **Description boundary.** The EntityOfConcern and any Description episteme about it remain distinct, including self-description and episteme-about-episteme cases.
+8. **Description boundary.** Recover the EntityOfConcern and description episteme under their C.2.1 identities. Different constitution triples identify different epistemes. In permitted self-description, the EntityOfConcern designation resolves to that same episteme; self-reference supplies no assurance by itself.
 9. **Specification use.** Specification force is admitted only when the E.10.D2 conditions obtain: checkable claims and a named harness or validation relation. A selected viewpoint is preserved or updated only for the named describing use whose reliance depends on it. Naming and appearance do not grant specification force.
 10. **Agency, work-result, and identity-inception boundary.** Only systems perform authoring, evaluation, revision, publication, viewing, query, redrawing, and use work. `A.6.1` declares typed argument and result positions; neither a position nor its binding says when the bound entity first existed. When a current claim asks that question, the subject's direct inception pattern must define the predicate and identity rule, and the exact work and change facts must satisfy them. If no such governor exists, return one `missing-governor` blocker naming the entity, facts, required predicate, and receiving use. Otherwise do not open the inception boundary. No morphism, heading, representation, form, bare A.6.1 `result`, generic work result, or universal production relation supplies that fact.
 11. **Publication boundary.** Episteme, publication occurrence, publication form, view, and carrier keep separate identities. Plain `published episteme` names a contingent relation use, not another durable kind.

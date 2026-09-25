@@ -6,12 +6,12 @@ section_id: "B.2.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__003_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:1 — Problem Frame"
-line_start: 41723
-line_end: 41728
+line_start: 41654
+line_end: 41659
 dependencies:
   - "A.1"
   - "A.10"
@@ -24,11 +24,13 @@ dependencies:
   - "A.3.3"
   - "A.3.4"
   - "A.6.M"
+  - "A.6.RCD"
   - "B.1"
   - "B.2"
   - "B.2.P"
   - "B.3"
   - "C.13"
+  - "C.2.1"
   - "C.27"
   - "C.28"
   - "C.29"
@@ -41,7 +43,7 @@ keywords:
 
 ### B.2.5:1 - Problem Frame
 
-Supervisor-subholon feedback is a relation among supervised holons, a supervising acting system, observed or published state, and returned influence or constraint. A system-role kind or assignment may qualify the acting system but is not created by the feedback relation. The relation is not automatically parthood, a control-structure view, evidence, or a mathematical loop object.
+A supervisor-subholon feedback claim states observation or reporting, returned influence and their coupling for named participants in one use. It is a conjunction under A.6.RCD, expressed in a C.2.1 assertion. Each base relation retains its own participants, applicability and identity rule. A system-role kind or assignment may qualify the acting system when independently established.
 
-Use B.2.5 for the relation-level claim. It can sit inside a broader architecture description, control-structure view, MHT claim, work claim, or evidence claim, but treat those as separate claims under their applicable patterns.
+Use B.2.5 for this compound description. A broader architecture, MHT, Work or evidence account may use it while retaining the direct rules for those additional claims.
 

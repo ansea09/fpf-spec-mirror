@@ -6,12 +6,12 @@ section_id: "C.18:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__007_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:5 — Conformance Checklist"
-line_start: 56501
-line_end: 56519
+line_start: 56644
+line_end: 56662
 dependencies:
   - "A.15"
   - "A.19"
@@ -55,7 +55,7 @@ keywords:
 
 - `CC-C18-1` Descriptor, characteristic, distance, and family-coordinate refs are named before generation, archive update, or front publication.
 - `CC-C18-2` Archive and front returns are separate from a selected-set result unless one is explicitly declared from them through `G.5`.
-- `CC-C18-3` Telemetry remains telemetry unless a declared policy promotes it into the comparator, dominance set, or selected-set criteria and the governing record names both the intended archive/front use or value made worse by that promotion and the authority that admits the trade-off.
+- `CC-C18-3` Telemetry remains telemetry unless a declared policy promotes it into the comparator, dominance set, or selected-set criteria and the governing record names the affected intended archive/front uses or values, or the checked loci when none worsened, together with the authority that admits the promotion and any trade-off.
 - `CC-C18-4` Retained exploration value, stepping-stone use, lineage, and edition pins are recorded for archive use.
 - `CC-C18-5` Use C.30 family patterns before making an architecture move with a candidate.
 - `CC-C18-6` Use C.36 for cultural-evolution claims about variants, and term-bridge patterns when durable label or bridge work is current.

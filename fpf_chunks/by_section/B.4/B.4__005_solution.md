@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.4"
-pattern_title: "Canonical Evolution Loop"
+pattern_title: "Coordinate Repeated Adaptation (Canonical Evolution Loop)"
 section_id: "B.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__005_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "B.4 — Canonical Evolution Loop"
+  - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:4 — Solution"
-line_start: 42867
-line_end: 42923
+line_start: 42816
+line_end: 42874
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -22,13 +22,6 @@ dependencies:
   - "B.5"
   - "B.5.1"
 keywords:
-  - "DesignRunTag feedback"
-  - "drift repair"
-  - "evolution loop"
-  - "knowledge refinement"
-  - "method refinement"
-  - "observe-notice-stabilize-route"
-  - "open-ended evolution"
 ---
 
 ### B.4:4 - **Solution**
@@ -53,7 +46,9 @@ The subject does not observe, refine, or deploy itself by grammatical convenienc
 
 The performing System need not be external to the larger holon. For internal adaptation, apply the `A.12` reflexive split: identify the changed subsystem or part and the acting subsystem or part as exact, distinct participants, and establish their parthood in the containing holon independently. Use an external System when that is what the case actually has. For any particular dated `U.Work`, recover every performer's A.13 core and independently admit the occurrence under A.15.1; add F.6 afterward only when precise assignment-bound attribution is current. Name an assignment in the short B.4 account only when the receiving claim uses its identity. State authority, responsibility, permission, acceptance, or admission through its own direct predicate, actual participants, and applicability basis; neither a phase label nor Work supplies them.
 
-#### B.4:4.3 - Keep the four phases non-overlapping
+#### B.4:4.3 - Keep the four phase claims distinct
+
+These phases distinguish questions and results, not necessarily disjoint clock intervals. Operation and observation can overlap; state the actual Work occurrences and any result dependencies needed by the transition.
 
 | Phase | Current question | Output and boundary |
 | :--- | :--- | :--- |

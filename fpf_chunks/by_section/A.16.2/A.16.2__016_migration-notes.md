@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16.2"
-pattern_title: "Reopen / SketchBackoff / Respecify"
+pattern_title: "Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
 section_id: "A.16.2:15"
 section_title: "Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__016_migration-notes.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.16.2 — Reopen / SketchBackoff / Respecify"
+  - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:15 — Migration Notes"
-line_start: 31361
-line_end: 31368
+line_start: 31303
+line_end: 31310
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,5 +39,5 @@ keywords:
 Older language often talks about "going backwards" or "regressing". The preferred migration is to name whether the change is reopen, sketch-backoff, respecify, or retire, and which route, endpoint, publication, current-use, or actual relation claim changes.
 
 #### A.16.2:15.2 - Integration reminder
-When retreat affects governing patterns such as `A.6.P`, `A.6.A`, `C.16.Q`, or `A.15`, update the exact endpoint result, invitation, evaluation, Work hook, or current-use claim instead of leaving a stale downstream assertion.
+When retreat affects governing patterns such as `A.6.P`, `A.6.A`, `C.16.Q`, or `A.15`, update the affected subject result, recovered action claim or question, evaluation, Work hook, or current-use claim instead of leaving a stale downstream assertion.
 

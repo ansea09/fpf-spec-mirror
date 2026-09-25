@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.2"
-pattern_title: "Term Harvesting & Normalisation"
+pattern_title: "Source-Local Term Harvesting & Normalisation"
 section_id: "F.2:7"
 section_title: "Guard-rails (normative, lightweight)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__008_guard-rails-normative-lightweight.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.2 — Term Harvesting & Normalisation"
+  - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:7 — Guard-rails (normative, lightweight)"
-line_start: 102685
-line_end: 102695
+line_start: 103081
+line_end: 103091
 dependencies:
   - "A.11"
   - "A.7"

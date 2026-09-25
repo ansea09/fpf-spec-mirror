@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.17"
-pattern_title: "Canonical “Characteristic” (A.CHR‑NORM)"
+pattern_title: "Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
 section_id: "A.17:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__007_bias-annotation.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.17 — Canonical “Characteristic” (A.CHR‑NORM)"
+  - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:6 — Bias-Annotation"
-line_start: 31536
-line_end: 31539
+line_start: 31478
+line_end: 31481
 dependencies:
   - "A.17"
   - "A.18"

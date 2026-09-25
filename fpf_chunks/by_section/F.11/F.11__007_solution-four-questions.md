@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.11"
-pattern_title: "Method Quartet Harmonisation"
+pattern_title: "Distinguish Method, MethodDescription, Work and Outputs"
 section_id: "F.11:6"
 section_title: "Solution — four questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__007_solution-four-questions.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "F.11 — Method Quartet Harmonisation"
+  - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:6 — Solution — four questions"
-line_start: 105880
-line_end: 105901
+line_start: 106300
+line_end: 106321
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -53,7 +53,7 @@ Name the already identified episteme and the one admitted Method that is its exa
 
 #### F.11:6.3 - Which Work actually occurred?
 
-Name the dated Work, its relevant interval or situation, and the actual System that performed it. If a system-role claim matters, separately name the local system-role kind, the obtaining assignment, and the performed-Work attribution. Do not replace them with a behavioural “mask” or a `System-in-Role` pseudo-object.
+For every claimed actual performer, recover the A.13 core: the admitted System, local agential system-role kind and classification, obtaining assignment, and the scope, situation, window and evidence needed by the claim. A.15.1 then independently admits the dated Work. Use F.6 only when this account needs precise assignment-bound attribution through that same assignment; a missing attribution leaves the admitted Work intact. Do not replace these objects with a behavioural “mask” or a `System-in-Role` pseudo-object.
 
 #### F.11:6.4 - Which output matters, if any?
 

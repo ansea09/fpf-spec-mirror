@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.6.RSIG"
-pattern_title: "Recognition Signatures for Descriptions"
+pattern_title: "Recognition Signatures: Find the Defining Episteme for a Description"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.RSIG.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.6.RSIG — Recognition Signatures for Descriptions"
-line_start: 11733
-line_end: 12146
+  - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
+line_start: 11689
+line_end: 12102
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -19,7 +19,7 @@ dependencies:
 keywords:
 ---
 
-## A.6.RSIG - Recognition Signatures for Descriptions
+## A.6.RSIG - Recognition Signatures: Find the Defining Episteme for a Description
 
 > **Type:** Architectural pattern
 > **Status:** Stable

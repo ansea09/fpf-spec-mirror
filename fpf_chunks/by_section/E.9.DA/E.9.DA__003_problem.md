@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.9.DA"
-pattern_title: "DRR Decision-Adequacy Evaluation CharacteristicSpace"
+pattern_title: "Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
 section_id: "E.9.DA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__003_problem.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
+  - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:2 — Problem"
-line_start: 83244
-line_end: 83259
+line_start: 83563
+line_end: 83578
 dependencies:
   - "A.19.ECS"
   - "E.10"

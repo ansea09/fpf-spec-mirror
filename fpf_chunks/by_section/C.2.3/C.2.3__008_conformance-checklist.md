@@ -6,12 +6,12 @@ section_id: "C.2.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__008_conformance-checklist.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:7 — Conformance Checklist"
-line_start: 48911
-line_end: 48928
+line_start: 49052
+line_end: 49069
 dependencies:
   - "A.16"
   - "A.18"
@@ -43,11 +43,11 @@ keywords:
 - `CC-F-3` Higher `F` **SHALL** mean greater or equal strictness of expression, not greater truth, trust, or scope.
 - `CC-F-4` Contexts **MUST NOT** publish alternative "formality modes" or "tiers" as surrogates for `F`.
 - `CC-F-5` Local sub-anchors **SHALL** preserve the global ordering and the parent anchor meaning.
-- `CC-F-6` The episteme-level `F` of a composite episteme **SHALL** be bounded by the least-formal essential support on the relevant support path.
+- `CC-F-6` For a composite episteme assessed as one expressed claim or argument, its F **SHALL** be bounded by its least-formal essential content or inference on the declared compositional support path. Identify that assessed bearer and support relation. This expression-wide cap does not extend automatically to external evidence cited as warrant.
 - `CC-F-7` Implementations **MUST NOT** average `F` values numerically.
 - `CC-F-8` Changes in `G`, `R`, or `CL` **SHALL NOT** change `F` unless the expression form itself changes.
 - `CC-F-9` Cross-context transport **SHALL** preserve the attributed `F` when formal content is preserved. If the receiving rewrite changes claim content, EntityOfConcern, or the effective reference scheme under `C.2.1`, the result is a new episteme with its own `F`.
-- `CC-F-10` Translation loss, bridge loss, and plane crossings **SHALL** affect `R` rather than being hidden as `F` changes.
+- `CC-F-10` Translation loss, bridge loss and plane crossings **SHALL** retain their actual receiving-use limitations. Evaluate any assurance effect under its governing model; do not hide it as an F change when the expressed content is preserved.
 - `CC-F-11` Assigned `F` values **SHALL** be justifiable by observable content such as explicit predicates, executable semantics, or machine-checked proofs.
 - `CC-F-12` Declaring a tool or notation **SHALL NOT** by itself justify a higher `F` unless the content satisfies the target anchor semantics.
 - `CC-F-13` Status labels such as `Draft`, `Approved`, or `Published` **MUST NOT** substitute for `F`.

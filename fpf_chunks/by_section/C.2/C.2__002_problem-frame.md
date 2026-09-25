@@ -6,12 +6,12 @@ section_id: "C.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__002_problem-frame.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:1 — Problem Frame"
-line_start: 47025
-line_end: 47028
+line_start: 47166
+line_end: 47169
 dependencies:
   - "A.1"
   - "A.10"
@@ -26,11 +26,13 @@ dependencies:
   - "U.View"
 keywords:
   - "ClaimScope"
+  - "Congruence Level"
   - "F-G-R"
   - "Formality"
+  - "KD-CAL"
   - "Reliability"
   - "assurance"
-  - "epistemic"
+  - "epistemic holon composition"
   - "evidence"
   - "knowledge"
   - "provenance"

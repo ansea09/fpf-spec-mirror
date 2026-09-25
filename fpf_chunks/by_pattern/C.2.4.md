@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "C.2.4"
-pattern_title: "U.ArticulationExplicitness"
+pattern_title: "U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.4.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "C.2.4 — U.ArticulationExplicitness"
-line_start: 49380
-line_end: 49584
+  - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
+line_start: 49523
+line_end: 49727
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -32,14 +32,15 @@ dependencies:
   - "C.2.LS"
   - "C.2.P.DR"
 keywords:
+  - "AE0–AE5"
   - "articulation explicitness"
-  - "early repair readiness"
-  - "explicitness"
-  - "semantic shape"
-  - "under-articulated cue"
+  - "branch-appropriate expression"
+  - "receiving use"
+  - "semantic branch"
+  - "stable cue"
 ---
 
-## C.2.4 - `U.ArticulationExplicitness`
+## C.2.4 - `U.ArticulationExplicitness` — How Explicit Is an Episteme's Meaning for Its Use?
 
 > **Type:** Definitional (D)
 > **Status:** Stable

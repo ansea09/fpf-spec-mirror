@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
-pattern_title: "Declared-Substrate Interpretive View"
+pattern_title: "Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
 section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__010_solution.md"
-commit_sha: "4ddaf71557d4159e988cc61d2bd3088bfc1d2803"
+commit_sha: "3dae70bd0ef74188bc5ed0414e6630331457d07b"
 heading_path:
-  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View"
+  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4 — Solution"
-line_start: 33345
-line_end: 33582
+line_start: 33285
+line_end: 33517
 dependencies:
   - "A.0"
   - "A.19"
@@ -87,10 +87,10 @@ The minimum ordinary interpretive view declaration is therefore:
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.3 - Interpretive-view declaration laws (IV-0..IV-8)
 
 **IV-0 - View-law docking is explicit.**
-Every conforming interpretive view is one domain-specific use-site under existing `A.6.3` / `E.17.0` law. It does not introduce one autonomous new theory of views.
+An ordinary interpretive reading keeps its declared substrate recoverable. An asserted epistemic viewing follows `A.6.3`; an asserted `U.View` additionally satisfies `E.17.0` viewpoint conformance, as specified in §4.8.
 
 **IV-1 - The EntityOfConcern is preserved.**
-The interpretive view preserves the EntityOfConcern already carried by the base line. If the current prose would change that EntityOfConcern, the line is no longer one interpretive view over the same substrate.
+The interpretation continues to concern the declared substrate. In an A.6.3 epistemic viewing, the source and receiving epistemes preserve the same EntityOfConcern while their ClaimGraphs or ReferenceSchemes may differ. Changing that EntityOfConcern requires a separate retargeting account.
 
 **IV-2 - The base substrate remains the semantic center.**
 The interpretive view may foreground aspects of the base line, but it does not replace or repair the base substrate declaration. Substrate repair belongs back in `A.19.SOURCE-SET-SPACE-SUBSTRATE`.
@@ -175,14 +175,9 @@ If atlas form cannot state that composite interpretation view without invention,
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.8 - No autonomous local view law is introduced here
 
-Read the docking to `A.6.3` / `E.17.0` strictly:
+Start with the declared substrate and the inspection question. An ordinary interpretation can stop with a recoverable explanation. When the use claims an A.6.3 epistemic viewing, identify the source episteme `X` whose ClaimGraph describes that substrate and the receiving episteme `Y` produced by the stated projection or re-expression. Both retain the same EntityOfConcern; state the transformed ClaimGraph and any changed ReferenceScheme explicitly.
 
-- the interpretive view preserves the EntityOfConcern already carried by the base line;
-- it does not silently mint new intensional commitments about that same EntityOfConcern;
-- it does not replace one viewpoint bundle or one publication-view family with one new local invention;
-- and it does not collapse viewpoint, view, and publication face into one word.
-
-If a case would need a different EntityOfConcern, a different generic view law, or one new viewpoint family, this pattern is no longer the governing pattern.
+Qualify `Y` as an `E.17.0` `U.View` only when it independently conforms to the named `U.Viewpoint` for that concern. A return to A.6.3 alone does not establish viewpoint conformance. Keep the viewpoint, the view episteme and any E.17 publication face separate. A different EntityOfConcern requires the applicable retargeting account; changing or repairing the substrate returns to `A.19.SOURCE-SET-SPACE-SUBSTRATE`.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.9 - Qualifier refs stay substrate-side
 
