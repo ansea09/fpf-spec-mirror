@@ -6,7 +6,7 @@ section_id: "B.5.2.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__008_bias-annotation.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:6 — Bias-Annotation"

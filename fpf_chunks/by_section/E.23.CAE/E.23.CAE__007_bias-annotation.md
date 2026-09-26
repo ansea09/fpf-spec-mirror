@@ -6,12 +6,12 @@ section_id: "E.23.CAE:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__007_bias-annotation.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:6 — Bias-Annotation"
-line_start: 100324
-line_end: 100335
+line_start: 100348
+line_end: 100359
 dependencies:
   - "A.15.7"
   - "A.15.8"

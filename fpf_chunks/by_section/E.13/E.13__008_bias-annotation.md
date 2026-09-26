@@ -6,12 +6,12 @@ section_id: "E.13:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__008_bias-annotation.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:6 — Bias-Annotation"
-line_start: 89984
-line_end: 89987
+line_start: 90008
+line_end: 90011
 dependencies:
   - "A.10"
   - "A.21"

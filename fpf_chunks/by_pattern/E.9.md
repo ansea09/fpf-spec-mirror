@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.9.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
-line_start: 83188
-line_end: 83546
+line_start: 83212
+line_end: 83570
 dependencies:
   - "A.10"
   - "A.15.1"

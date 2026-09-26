@@ -6,12 +6,12 @@ section_id: "F.2:6"
 section_title: "Solution — three mental moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__007_solution-three-mental-moves.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:6 — Solution — three mental moves"
-line_start: 103061
-line_end: 103080
+line_start: 103085
+line_end: 103104
 dependencies:
   - "A.11"
   - "A.7"

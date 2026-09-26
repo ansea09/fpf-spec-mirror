@@ -6,12 +6,12 @@ section_id: "F.10:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__005_solution.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:4 — Solution"
-line_start: 105981
-line_end: 106131
+line_start: 106005
+line_end: 106155
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "G.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__010_forces.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:3 — Forces"
-line_start: 113144
-line_end: 113152
+line_start: 113168
+line_end: 113176
 dependencies:
   - "C.11"
   - "C.18"

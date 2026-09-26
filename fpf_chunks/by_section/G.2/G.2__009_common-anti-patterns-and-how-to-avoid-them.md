@@ -6,12 +6,12 @@ section_id: "G.2:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 111998
-line_end: 112019
+line_start: 112022
+line_end: 112043
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

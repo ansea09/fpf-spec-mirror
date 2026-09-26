@@ -6,12 +6,12 @@ section_id: "E.24.PUB:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__009_conformance-checklist.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:7 — Conformance Checklist"
-line_start: 101675
-line_end: 101689
+line_start: 101699
+line_end: 101713
 dependencies:
   - "A.6.3"
   - "A.6.REL"

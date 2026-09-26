@@ -6,12 +6,12 @@ section_id: "G.3:11"
 section_title: "SoTA‑Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__012_sota-echoing.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:11 — SoTA‑Echoing"
-line_start: 112518
-line_end: 112526
+line_start: 112542
+line_end: 112550
 dependencies:
   - "A.10"
   - "A.15.3"

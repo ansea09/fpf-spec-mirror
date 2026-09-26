@@ -6,12 +6,12 @@ section_id: "E.17:11.5"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__014_rationale.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:11.5 — Rationale"
-line_start: 92755
-line_end: 92758
+line_start: 92779
+line_end: 92782
 dependencies:
   - "A.10"
   - "A.15.4"

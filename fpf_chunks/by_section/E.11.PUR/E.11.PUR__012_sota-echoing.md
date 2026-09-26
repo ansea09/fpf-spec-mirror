@@ -6,12 +6,12 @@ section_id: "E.11.PUR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__012_sota-echoing.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:11 — SoTA-Echoing"
-line_start: 89148
-line_end: 89163
+line_start: 89172
+line_end: 89187
 dependencies:
   - "A.10"
   - "A.15"

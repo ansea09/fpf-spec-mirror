@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
 line_start: 82357
-line_end: 82779
+line_end: 82801
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -332,6 +332,28 @@ A **third didactic-content function** means enough didactic and operational cont
 - local mini-definitions or glossary material for recurring terms that would otherwise be recovered only from project context.
 
 Pattern density is therefore not “more metadata” and not “longer tag lists”. It is the presence of enough recognition, assurance, and, when needed, extra didactic material that a reader can understand the pattern, apply it lightly in ordinary cases, and recognise when a heavier review profile is required.
+
+##### E.8:4.2.1.1 - Provide enough explanation for the reader's use without requiring a complete reading
+
+Use this authoring move when the intended users differ in relevant preparation, when a complete account burdens a current application, or when a compact instruction leaves its selection, adaptation or combination unexplained. The useful result is a sufficient connected reading for the present use, with the fuller content and its actual suppliers still available for the uses the pattern promises.
+
+**Distinguish preparation from coldness and purpose.** Under `F.19`, a cold intended reader lacks the author's private context; that reader can be an expert. The plausible-reader test uses the knowledge and task the text reasonably presupposes. Under `C.2.8`, identify the useful structure to recover and the preparation, operations, help, access and effort budget that matter. Knowing the subject, knowing this framework's distinctions and knowing how to change a particular Method are different capabilities. A model name or broad professional qualification does not establish them.
+
+**Keep the full contribution and the present reading distinct.** Maintain the explanation needed for the declared uses in the pattern language and its genuine public suppliers. A body may rely on a common worked application or an already explained constituent Method when the contribution and usable return are clear. The reader need not load every such explanation for every use. A short problem–solution instruction can serve recall or a familiar application; its success does not establish that it supports learning, adaptation or combination. Canonical headings and additional words likewise do not establish sufficient content.
+
+Construct the reading from the work the reader needs to accomplish:
+
+1. **Keep the receiving question fixed.** Determine what the reader must recognize, infer, perform or change here. Use available evidence or explicit assumptions about relevant preparation. If a missing prerequisite changes the next explanation, expose it and provide the needed support or return. Do not silently raise the reader's preparation or narrow the requested work to make an inadequate explanation appear sufficient.
+2. **Carry the connected instruction.** Retain the operation with its necessary inputs, distinctions, conditions and use-changing reasons. Ordinary prior knowledge may supply a familiar notation or inference. The new synthesis, exceptional condition or relation being taught must be supplied by the publication or an identified available source, rather than invented by the reader. When several Methods work together, retain what connects their results and how constituent actions enact the encompassing work; independent reminder phrases do not explain that connection.
+3. **Choose what is needed now and what can be reached later.** Keep a meaningful inference together. An applicability condition that changes the current action belongs with that action even when its derivation is elsewhere. Give a direct return to the fuller explanation and state the situation that calls for it: an unfamiliar operation, changed premise, disputed ground, or proposed adaptation, for example. A reader who cannot recognize such a condition needs enough explanation or assistance to recognize it before relying on the compact instruction. One sufficient reading path needs no additional version.
+4. **Compare the actual use and burden.** Follow `C.2.8`, `E.12` and `F.19` for the appropriate recovery question and evidence. Keep the task, preparation, assistance and access conditions comparable; distinguish an expert walkthrough, an actual reading and an assisted retry. Include an affected changed case when the promised use includes adaptation. Consider navigation, source retrieval and reconstruction as well as the amount of text. Preserve a sufficient existing account when another form gives no worthwhile improvement.
+5. **Repair the missing contribution or the reading arrangement.** Supply an omitted relation, make a consequential condition visible, explain a prerequisite or improve access to an actual supplier. If the required content cannot be used reliably within the present budget, change the support, work decomposition, reader allocation or budget. Leave the original unmet use explicit until it is supported. A lower-cost answer to a different question does not satisfy it.
+
+**For human and AI readers.** Different readers may need different amounts of explanation for the same operation; the same reader may need more when adapting it. For an AI use, distinguish all available publication content from the material actually supplied or reachable during the invocation, including the tools needed to obtain it. A successful reconstruction qualifies that use under those conditions. It does not show that another model, another context budget or an unassisted human can do the same. A human-learning result does not by itself establish an AI context-management effect.
+
+**Authoring examples.** A portfolio-comparison pattern can keep its general Method concise while a directly named common application supplies the alternatives, complete small calculation and changed-condition cases. The shared application must actually contain that work. A reminder to reuse a previous evaluation instead needs the same-question and still-applicable-evidence conditions beside the instruction; leaving them only in a distant rationale permits an unsupported reuse. A reader altering a construction may need its invariant and why the composition preserves it, even when an experienced operator can execute the unchanged construction from a brief reminder. These are different reading needs, not reasons to publish a separate authoritative Method for each audience.
+
+Use existing sections, examples and direct references to organize these paths. `E.11` governs discovery; it does not replace the required explanation with an entry card. `E.14` keeps practical use and assurance connected; it does not defer a condition needed before action. `E.17.EFP` governs faithfulness when selecting or expressing an account: a faithful partial expression can serve a bounded use, while changed claims or a narrower use need their own explicit treatment. No fixed number of reading levels, parallel versions, characters or model-specific editions is required.
 
 #### E.8:4.2.2 - Package-form and neighboring-pattern reference discipline
 

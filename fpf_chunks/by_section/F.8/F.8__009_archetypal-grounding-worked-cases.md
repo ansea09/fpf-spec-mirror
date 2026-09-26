@@ -6,12 +6,12 @@ section_id: "F.8:7"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__009_archetypal-grounding-worked-cases.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:7 — Archetypal Grounding - worked cases"
-line_start: 104924
-line_end: 104972
+line_start: 104948
+line_end: 104996
 dependencies:
   - "A.11"
   - "A.15"

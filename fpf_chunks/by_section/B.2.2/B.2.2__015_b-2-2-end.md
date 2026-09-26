@@ -6,7 +6,7 @@ section_id: "B.2.2:End"
 section_title: "B.2.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__015_b-2-2-end.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
   - "B.2.2:End — B.2.2:End"

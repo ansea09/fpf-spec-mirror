@@ -6,12 +6,12 @@ section_id: "E.8:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__012_conformance-checklist.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:7 — Conformance Checklist"
-line_start: 82794
-line_end: 82838
+line_start: 82816
+line_end: 82861
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -92,6 +92,7 @@ Passing a Conformance Checklist supports the selected conformance claims, not a 
 | **CC-SG.17a (Problem-frame recognition signature and E.11 boundary).** | Authors **SHOULD** put the working situation, primary governed object or claim, first move, payoff, and ordinary non-use boundary in `Problem frame` rather than in a separate navigation block. Add entry-disambiguation cues only for an actual `E.11` discoverability problem; keep expanded cases in `I.2`. Local `Start here`, `First output`, or neighbouring-pattern blocks **SHOULD NOT** replace `Problem frame` and `Solution`. | Keeps recognition in the canonical pattern frame without turning it into a navigation catalogue. |
 | **CC-SG.17b (Epistemic precision repair preserves action guidance).** | A `C.2.P` repair **MUST** preserve the first admissible action-guiding move or name the exact neighbouring pattern that now carries it. Plain or didactic wording maps back to the governed Tech reading when it carries an FPF-governed claim or use boundary; otherwise engaging ordinary prose remains admissible. A type-correct rewrite that leaves the reader's move unrecoverable is still under-authored. | Prevents precision repair from making guidance inert. |
 | **CC-SG.17c (Action-changing expectations and return).** | Authors of method guidance **SHOULD** make relevant expectations, conditions and usable returns recoverable in `Solution`, including a way to retain or pursue a consequential concern not settled by listed checks. Adequate direct use may stop without extra inquiry; no generic monitoring section is required. | Connects method execution with its receiving use without treating conformance as comprehensive adequacy. |
+| **CC-SG.17d (Reader preparation and sufficient connected reading).** | Authors **MUST** preserve the content required for the pattern's declared uses in the publication and its actual available suppliers, while qualifying a compact reading by its intended use and preparation. A condition that changes the current action **MUST** be available before that action; a needed fuller explanation **MUST** have a usable return. Apply §4.2.1.1 without imposing full reading, a fixed length or parallel audience versions. | Separates sufficient content from the amount read on one occasion; a capable reader's invention cannot backfill a missing explanation. |
 | **CC-SG.18 (Precision before relaxation).** | Every changed FPF-governed natural span **MUST** pass the current `F.19` connected reading before a Plain, didactic, or coarsened rendering is accepted. If a head, qualifier, relation, or admissible-use boundary remains unresolved, the author **MUST** take the exact `E.10`, `E.10.ARCH`, or subject-pattern route and keep the recovered reading available. `E.8` adds no rival sentence algorithm. | Keeps simplified prose precise without duplicating the shared language method. |
 | **CC-SG.18a (Semio-Echoing auxiliary placement).** | `Semio-Echoing` or comparable material **MUST** remain auxiliary to the pattern's positive `EntityOfConcern`, first move, result, and boundary. Add it only for a grounded wording-use overread that changes the reader's action, route any unresolved claim to its exact subject pattern, and omit a generic counterreading catalogue or row-atomic conformance form. | Prevents a guard inventory from replacing constructive method guidance. |
 | **CC-SG.18b (Positive subject content and precision-restoration profile control).** | A conforming pattern's first substantive `Problem frame` and `Solution` content **MUST** state its positive `EntityOfConcern`, first useful move, practical delta, and action-changing boundary. Apply `F.19` as the common precise-language pass and cite a neighboring pattern only for its concrete contribution. Ordinary PatternID use remains ordinary. Keep current development, review, quality, and projection evidence outside practitioner prose; publish the subject's architecture and use-changing reasons under `E.8:4.2.3`. | Keeps precision restoration auxiliary to the pattern's own work. |

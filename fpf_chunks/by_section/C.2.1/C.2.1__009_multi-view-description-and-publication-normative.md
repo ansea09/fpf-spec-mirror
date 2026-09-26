@@ -6,7 +6,7 @@ section_id: "C.2.1:8"
 section_title: "Multi-view description and publication  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__009_multi-view-description-and-publication-normative.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:8 — Multi-view description and publication  (normative)"

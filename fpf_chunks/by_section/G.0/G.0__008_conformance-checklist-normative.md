@@ -6,12 +6,12 @@ section_id: "G.0:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__008_conformance-checklist-normative.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:7 — Conformance Checklist (normative)"
-line_start: 111066
-line_end: 111088
+line_start: 111090
+line_end: 111112
 dependencies:
   - "A.10"
   - "A.17"

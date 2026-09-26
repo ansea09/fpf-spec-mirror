@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.DSG.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
-line_start: 89521
-line_end: 89734
+line_start: 89545
+line_end: 89758
 dependencies:
   - "A.14"
   - "C.2.1"

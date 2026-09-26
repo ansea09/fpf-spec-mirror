@@ -6,12 +6,12 @@ section_id: "E.18.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__008_conformance-checklist.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:7 — Conformance Checklist"
-line_start: 96117
-line_end: 96143
+line_start: 96141
+line_end: 96167
 dependencies:
   - "A.15"
   - "A.15.PROD"

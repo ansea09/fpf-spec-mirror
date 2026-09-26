@@ -6,12 +6,12 @@ section_id: "G.Core:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__011_rationale.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:10 — Rationale"
-line_start: 110744
-line_end: 110747
+line_start: 110768
+line_end: 110771
 dependencies:
   - "A.15.3"
   - "A.19"

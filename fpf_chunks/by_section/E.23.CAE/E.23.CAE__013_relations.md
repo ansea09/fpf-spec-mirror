@@ -6,12 +6,12 @@ section_id: "E.23.CAE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__013_relations.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:12 — Relations"
-line_start: 100401
-line_end: 100416
+line_start: 100425
+line_end: 100440
 dependencies:
   - "A.15.7"
   - "A.15.8"

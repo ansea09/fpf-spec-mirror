@@ -6,12 +6,12 @@ section_id: "F.16:14"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__015_acceptance-tests.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:14 — Acceptance tests"
-line_start: 107998
-line_end: 108019
+line_start: 108022
+line_end: 108043
 dependencies:
   - "A.10"
   - "A.15"

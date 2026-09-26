@@ -6,12 +6,12 @@ section_id: "F.7:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__014_relations.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:13 — Relations"
-line_start: 104632
-line_end: 104647
+line_start: 104656
+line_end: 104671
 dependencies:
   - "A.6.9"
   - "B.3"

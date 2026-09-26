@@ -6,12 +6,12 @@ section_id: "E.14:End"
 section_title: "E.14:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__017_e-14-end.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:End — E.14:End"
-line_start: 90397
-line_end: 90398
+line_start: 90421
+line_end: 90422
 dependencies:
   - "B.3.5"
   - "C.13"

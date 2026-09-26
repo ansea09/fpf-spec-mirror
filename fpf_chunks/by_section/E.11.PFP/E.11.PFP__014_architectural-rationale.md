@@ -6,12 +6,12 @@ section_id: "E.11.PFP:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__014_architectural-rationale.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:10 — Architectural Rationale"
-line_start: 89492
-line_end: 89497
+line_start: 89516
+line_end: 89521
 dependencies:
   - "A.3.2"
   - "C.29"

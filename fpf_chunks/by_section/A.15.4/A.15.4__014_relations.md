@@ -6,7 +6,7 @@ section_id: "A.15.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__014_relations.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:9 — Relations"

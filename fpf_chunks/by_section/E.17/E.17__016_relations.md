@@ -6,12 +6,12 @@ section_id: "E.17:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__016_relations.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:13 — Relations"
-line_start: 92772
-line_end: 92781
+line_start: 92796
+line_end: 92805
 dependencies:
   - "A.10"
   - "A.15.4"

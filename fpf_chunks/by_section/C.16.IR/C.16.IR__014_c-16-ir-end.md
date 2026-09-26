@@ -6,7 +6,7 @@ section_id: "C.16.IR:End"
 section_title: "C.16.IR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__014_c-16-ir-end.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:End — C.16.IR:End"

@@ -6,12 +6,12 @@ section_id: "F.14:End"
 section_title: "F.14:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__018_f-14-end.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:End — F.14:End"
-line_start: 107319
-line_end: 107320
+line_start: 107343
+line_end: 107344
 dependencies:
   - "A.10"
   - "A.15.1"

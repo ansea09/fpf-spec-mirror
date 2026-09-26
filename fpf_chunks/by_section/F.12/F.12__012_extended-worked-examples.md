@@ -6,12 +6,12 @@ section_id: "F.12:11"
 section_title: "Extended worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__012_extended-worked-examples.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:11 — Extended worked examples"
-line_start: 106633
-line_end: 106650
+line_start: 106657
+line_end: 106674
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "F.15:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__003_problem-frame.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:2 — Problem frame"
-line_start: 107364
-line_end: 107377
+line_start: 107388
+line_end: 107401
 dependencies:
   - "A.1.1"
   - "A.10"

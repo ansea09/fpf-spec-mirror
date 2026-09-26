@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__003_problem.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:2 — Problem"
-line_start: 94743
-line_end: 94751
+line_start: 94767
+line_end: 94775
 dependencies:
   - "A.10"
   - "A.15"

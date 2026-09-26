@@ -6,12 +6,12 @@ section_id: "F.11:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__003_problem-frame.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:2 — Problem frame"
-line_start: 106259
-line_end: 106266
+line_start: 106283
+line_end: 106290
 dependencies:
   - "A.15"
   - "A.15.1"

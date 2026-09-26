@@ -6,12 +6,12 @@ section_id: "F.15:13.6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__016_bias-annotation.md"
-commit_sha: "a4048aafca7f550ddc5dc880c9b488e9c8401434"
+commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:13.6 — Bias-Annotation"
-line_start: 107703
-line_end: 107706
+line_start: 107727
+line_end: 107730
 dependencies:
   - "A.1.1"
   - "A.10"
