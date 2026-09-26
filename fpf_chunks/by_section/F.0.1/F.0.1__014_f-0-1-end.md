@@ -6,7 +6,7 @@ section_id: "F.0.1:End"
 section_title: "F.0.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__014_f-0-1-end.md"
-commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
+commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:End — F.0.1:End"

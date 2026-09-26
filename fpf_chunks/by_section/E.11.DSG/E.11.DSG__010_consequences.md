@@ -6,7 +6,7 @@ section_id: "E.11.DSG:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__010_consequences.md"
-commit_sha: "61a9542aa8479024cdd174c024079d2a6a15f16d"
+commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:9 — Consequences"
