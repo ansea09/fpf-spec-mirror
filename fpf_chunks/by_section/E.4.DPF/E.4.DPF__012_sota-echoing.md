@@ -6,12 +6,12 @@ section_id: "E.4.DPF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__012_sota-echoing.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:11 — SoTA-Echoing"
-line_start: 80615
-line_end: 80626
+line_start: 80860
+line_end: 80871
 dependencies:
   - "A.1.1"
   - "A.13"

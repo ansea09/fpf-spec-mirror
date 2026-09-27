@@ -6,12 +6,12 @@ section_id: "C.17:7"
 section_title: "Comparison, gates, and selection boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__009_comparison-gates-and-selection-boundary.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:7 — Comparison, gates, and selection boundary"
-line_start: 56243
-line_end: 56251
+line_start: 56250
+line_end: 56258
 dependencies:
   - "A.0"
   - "A.1.1"

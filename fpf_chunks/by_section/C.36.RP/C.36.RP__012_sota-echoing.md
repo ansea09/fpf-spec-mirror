@@ -6,12 +6,12 @@ section_id: "C.36.RP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__012_sota-echoing.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:11 — SoTA-Echoing"
-line_start: 77461
-line_end: 77480
+line_start: 77706
+line_end: 77725
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 10017
-line_end: 10027
+line_start: 10018
+line_end: 10028
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"

@@ -6,12 +6,12 @@ section_id: "C.28:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__014_relations.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:12 — Relations"
-line_start: 63869
-line_end: 63888
+line_start: 63883
+line_end: 63903
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,6 +51,7 @@ keywords:
 
 ### C.28:12 - Relations
 
+- **C.28.CM** constructs and challenges causal models when the mechanism relations or material alternatives are still missing; the returned model retains its assumptions and evidential limits.
 - **C.28.MR** derives an intervention consequence within a supplied causal model, with the replacement, retained conditions and solution needed by that query.
 
 - `C.16` keeps measurements and scales; `C.27` keeps temporal-claim adequacy.

@@ -6,12 +6,12 @@ section_id: "E.11.DSG:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__004_forces.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:3 — Forces"
-line_start: 89571
-line_end: 89582
+line_start: 89816
+line_end: 89827
 dependencies:
   - "A.14"
   - "C.2.1"

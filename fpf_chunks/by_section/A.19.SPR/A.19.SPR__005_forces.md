@@ -6,12 +6,12 @@ section_id: "A.19.SPR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__005_forces.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:3 — Forces"
-line_start: 32412
-line_end: 32420
+line_start: 32413
+line_end: 32421
 dependencies:
   - "A.10"
   - "A.16"

@@ -6,12 +6,12 @@ section_id: "C.28:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__006_solution.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:4 — Solution"
-line_start: 63256
-line_end: 63783
+line_start: 63267
+line_end: 63797
 dependencies:
   - "A.10"
   - "A.15"
@@ -427,6 +427,8 @@ The record states which interventions and queries the learned or abstracted vari
 
 #### C.28:4.7 - Graph and calculus names
 
+Use C.28.CM when the causal relations, material alternatives or observing process still need to be modeled. It supplies a model with explicit premises and a useful consequence or unresolved distinction. Use C.28.MR for a required intervention derivation in a supplied model. These contributions return to the support question here; constructing a graph does not establish its empirical adequacy.
+
 Use specialist names only when the result depends on them. For a counterfactual graphical-model derivation, use the conditions and calculus in [Correa and Bareinboim, 2025](https://proceedings.mlr.press/v267/correa25a.html) and cite the actual derivation used:
 
 
@@ -533,6 +535,7 @@ The last evaluation needs the natural proposal and its relation to outcomes; a f
 
 | Current issue | Use | C.28 contribution |
 | --- | --- | --- |
+| missing causal model or materially different mechanism account | `C.28.CM` | causal question and required support; returns explicit models with conditional consequences |
 | measurement or metric | `C.16` | causal support only when the measure is used causally |
 | temporal trend or rate | `C.27` | causal support only when time order is used as cause evidence |
 | evidence path and provenance | `A.10` | support-result and component refs |

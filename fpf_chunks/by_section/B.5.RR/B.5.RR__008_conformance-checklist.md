@@ -6,12 +6,12 @@ section_id: "B.5.RR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__008_conformance-checklist.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:7 — Conformance Checklist"
-line_start: 44896
-line_end: 44904
+line_start: 44897
+line_end: 44905
 dependencies:
   - "B.5"
   - "B.5.MPC.R"

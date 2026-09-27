@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__012_sota-echoing.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:11 — SoTA-Echoing"
-line_start: 8930
-line_end: 8940
+line_start: 8931
+line_end: 8941
 dependencies:
   - "A.10"
   - "A.13"

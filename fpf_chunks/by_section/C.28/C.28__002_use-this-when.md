@@ -6,12 +6,12 @@ section_id: "C.28:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__002_use-this-when.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:0 — Use This When"
-line_start: 63151
-line_end: 63230
+line_start: 63158
+line_end: 63241
 dependencies:
   - "A.10"
   - "A.15"
@@ -88,6 +88,8 @@ The first result is a supported statement with its limits and the next useful st
 4. Which live threat could overturn the conclusion: for example, confounding, time order, missing comparison cases, interference, measurement error or transfer to another population?
 5. What statement is supported under those conditions, and what further evidence or calculation would change it?
 
+When the causal question requires relations that have not yet been constructed, use C.28.CM to turn the subject account and material alternatives into explicit causal models. Return with their premises, conditional consequences or a precise missing relation. A sufficient support verdict or an adequate existing model can finish the present question without that construction.
+
 #### C.28:0.4 - First Output
 
 **Ordinary first result.** Suppose the available comparison says that self-selected teams using method A completed more tasks than teams not using it, while task difficulty and prior team capability were not controlled. Report the observed association; the claim that A caused the improvement remains unsupported by that comparison. The next useful question is whether a design or existing evidence can distinguish the method's effect from those rival explanations.
@@ -121,6 +123,8 @@ nextCausalUseAction =
   requestPerformedSamplingEvidence |
   requestTransportCheck |
   requestEvidenceDesign |
+  requestModelConstruction |
+
   sendFairnessUseToD5BiasAuditReport |
   sendParityUseToG9 |
   abstainDownstream

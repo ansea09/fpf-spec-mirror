@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.10.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
-line_start: 29414
-line_end: 29610
+line_start: 29415
+line_end: 29611
 dependencies:
   - "A.15"
   - "A.15.5"

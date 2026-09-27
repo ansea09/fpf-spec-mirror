@@ -6,12 +6,12 @@ section_id: "B.5.FM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__005_solution.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:4 — Solution"
-line_start: 44983
-line_end: 45062
+line_start: 44984
+line_end: 45065
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -73,6 +73,8 @@ Use the resulting answer directly or continue constructing the model it needs. A
 #### B.5.FM:4.3 - Build relations that can produce a consequence
 
 Use subject knowledge to propose how the selected participants interact or which operations are permitted. Explain how each proposed relation answers part of the question. A physical interaction law, a mathematical formation rule and an execution rule supply different kinds of premise.
+
+When the working question is causal and the proposed mechanisms still need to be expressed as comparable models, use C.28.CM to construct and challenge those models. Keep the outcome and time horizon comparable across the accounts, together with any intervention being considered. Make the variables, mechanisms, assumptions and material alternative influences explicit. Return each model with its useful consequence or the premise still needed to derive one; continue with inference and criticism in :4.4–4.5. An annotated sketch or ordinary explanation may suffice. Use a supplied or readily constructed model directly when it already supports the needed inference.
 
 Starting material can come from more than one source. A known model may need to be altered before it becomes a useful analogy. Recover the corresponding participants and relations, then examine the changes needed in the present situation. The construction can improve both the proposed model and the understanding of what it represents.
 

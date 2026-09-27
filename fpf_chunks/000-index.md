@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `7bba05916e6e8ad42f868ed3aad0a7644fe0c354`
+Commit SHA: `b9aa11c659ee3d48b7c16537bf4f5da5abb952d6`
 
 Chunking method: `pattern-aware`
 
-Patterns: `352`
+Patterns: `353`
 
 ## Patterns
 
@@ -210,6 +210,7 @@ Patterns: `352`
 - [C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change](by_pattern/C.27.md)
 - [C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness](by_pattern/C.27.TA.md)
 - [C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability](by_pattern/C.28.md)
+- [C.28.CM — Construct and Challenge a Causal Model](by_pattern/C.28.CM.md)
 - [C.28.MR — Derive an Intervention Consequence by Mechanism Replacement](by_pattern/C.28.MR.md)
 - [C.29 — Mathematical Lens Use](by_pattern/C.29.md)
 - [C.29.1 — Mathematical Result Transfer](by_pattern/C.29.1.md)

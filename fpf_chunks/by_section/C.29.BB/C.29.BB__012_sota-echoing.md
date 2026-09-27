@@ -6,12 +6,12 @@ section_id: "C.29.BB:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__012_sota-echoing.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:11 — SoTA-Echoing"
-line_start: 66473
-line_end: 66486
+line_start: 66718
+line_end: 66731
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"

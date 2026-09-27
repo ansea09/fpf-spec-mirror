@@ -6,12 +6,12 @@ section_id: "B.5.FM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__013_relations.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:12 — Relations"
-line_start: 45187
-line_end: 45195
+line_start: 45190
+line_end: 45199
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -27,6 +27,7 @@ keywords:
 ### B.5.FM:12 - Relations
 
 - **B.5** coordinates inquiry; **B.5.4** constructs a supplied concept's correspondence to a situation.
+- **C.28.CM** develops missing causal relations and alternatives, returning a conditional consequence or unresolved premise to the general model-building question.
 - **C.29** selects and uses a mathematical representation. **C.29.1, C.29.2 and C.29.3** supply transfer, computational formulation and realization.
 - **A.3.3**, **C.16** and **A.6.3.RT** supply state, measurement and expression construction.
 - **B.5.RC** and **B.5.RA** recover an available construction or argument. **B.5.RR** revises reasoning; **B.5.MPC.R** repairs a failed joint physical answer.

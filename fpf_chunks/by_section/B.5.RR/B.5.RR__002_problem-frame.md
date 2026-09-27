@@ -6,12 +6,12 @@ section_id: "B.5.RR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__002_problem-frame.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:1 — Problem frame"
-line_start: 44773
-line_end: 44782
+line_start: 44774
+line_end: 44783
 dependencies:
   - "B.5"
   - "B.5.MPC.R"

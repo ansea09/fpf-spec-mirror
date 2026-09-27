@@ -6,12 +6,12 @@ section_id: "C.40:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__012_sota-echoing.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:11 — SoTA-Echoing"
-line_start: 76871
-line_end: 76880
+line_start: 77116
+line_end: 77125
 dependencies:
   - "C.11"
   - "C.18"

@@ -6,12 +6,12 @@ section_id: "C.16.RM:End"
 section_title: "C.16.RM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__014_c-16-rm-end.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:End — C.16.RM:End"
-line_start: 54907
-line_end: 54908
+line_start: 54914
+line_end: 54915
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"

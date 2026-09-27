@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.13.md"
-commit_sha: "7bba05916e6e8ad42f868ed3aad0a7644fe0c354"
+commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
-line_start: 89874
-line_end: 90068
+line_start: 90119
+line_end: 90313
 dependencies:
   - "A.10"
   - "A.21"
