@@ -6,12 +6,12 @@ section_id: "E.9.DA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__013_relations.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:12 — Relations"
-line_start: 84238
-line_end: 84257
+line_start: 84843
+line_end: 84862
 dependencies:
   - "A.19.ECS"
   - "E.10"

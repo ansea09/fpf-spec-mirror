@@ -6,12 +6,12 @@ section_id: "A.21:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__001_intro.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:intro — Intro"
-line_start: 37109
-line_end: 37118
+line_start: 37111
+line_end: 37120
 dependencies:
   - "A.10"
   - "A.15.5"

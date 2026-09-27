@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.9.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
-line_start: 115253
-line_end: 115804
+line_start: 115862
+line_end: 116413
 dependencies:
   - "A.19"
   - "A.2.6"

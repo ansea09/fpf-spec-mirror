@@ -6,25 +6,32 @@ section_id: "E.4.PFAD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__006_archetypal-grounding.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:5 — Archetypal Grounding"
-line_start: 80121
-line_end: 80164
+line_start: 80657
+line_end: 80724
 dependencies:
   - "A.15.1"
   - "A.22"
   - "A.6.RCD"
   - "A.6.REL"
   - "B.1.5"
+  - "C.11.CRC"
+  - "C.11.DUA"
+  - "C.19.2"
+  - "C.2.8"
   - "C.30.AD"
   - "C.30.STRAT"
+  - "C.31"
   - "C.32.ADR"
   - "C.32.MWA"
   - "C.32.PAD"
   - "C.36"
+  - "E.11"
   - "E.11.DSG"
+  - "E.11.PFP"
   - "E.17"
   - "E.19"
   - "E.21"
@@ -35,6 +42,7 @@ dependencies:
   - "E.4.DPF"
   - "E.4.DPF.DA"
   - "E.4.PFR"
+  - "E.8"
   - "E.9"
   - "F.18"
   - "F.19"
@@ -86,4 +94,28 @@ These cases apply the same contribution comparison at a carrier- or count-shaped
 | One long-mantra Card keeps several recurring problem–move–result contributions, material relations, representative cross-use, a plausible field, and a refresh boundary in attention. | Treat the Card and mantra as evidence and run the same exact subtraction as for a larger carrier set. | Apply the unchanged field-scale test; the Card is one carrier for its evidence. |
 | A practitioner working in one professional role combines contributions from several current DPFs and FPF. | Recover the role meaning and the exact contributions. Every action, result, return, and refresh duty is carried, and no coherent independent remainder or distinct field promise survives. | Reuse the cross-DPF composition, with a role-centred view when needed; no new DPF is warranted. |
 | One composite Method or local procedure has several ordered steps for one recurring problem/result family. | Keep the Method, MethodDescription, carrier, Work, and listed steps distinct. The contribution remains one recurring problem/result family at Method scale. | Return the smallest exact non-framework result or stop; use the cheap exit when no later-used architecture consequence remains. |
+
+#### Same useful Method, different costs of access and learning
+
+A framework author must make a method for recurring case reviews available to a group. Participants must identify the case question, obtain reasons for proposed changes, and let the case author accept or reject those changes with reasons. The method's operative distinctions and conditions are already settled. The architecture question is how participants with different preparation can learn and keep using it.
+
+Alternative A puts a complete tutorial and the use instructions into one required reading route. Alternative B retains the complete method account for competent readers, supplies a beginner companion with practice and feedback, and exposes a short reminder for participants who already possess the capability. Both alternatives must achieve the same case-review result; B's shorter reminder alone would be an inadequate third alternative for beginners. Direct qualified facilitation and continuing with the existing method remain alternatives if their availability or cost changes the choice.
+
+For an illustrative cohort calculation, stipulate adequate results for A and B, 20 participants and 20 occasions per participant. All numbers below are assumed human minutes, not measured effects or a universal valuation of time.
+
+| Cost within this horizon | A: one required tutorial route | B: method, companion and reminder |
+| --- | ---: | ---: |
+| Shared authoring and maintenance | 600 | 1,800 |
+| Initial learning per participant | 90 | 120 |
+| Each recurring use per participant | 12 | 4 |
+| One change and recovery per participant | 45 | 15 |
+| Total for the cohort | 600 + 20 × (90 + 20 × 12 + 45) = 8,100 | 1,800 + 20 × (120 + 20 × 4 + 15) = 6,100 |
+
+B spends more on authoring and initial learning, but saves 2,000 minutes over this stipulated horizon. Its additional shared cost is 1,200 minutes and its per-participant saving is 160: it breaks even at 7.5 participants, so eight or more favor B on this cost alone. For five participants, A costs 2,475 and B 2,875; B then costs 400 more. Different performance, expected use or support availability can reverse either answer. The author first needs evidence about the recurring burden or likely audience, not another abstract declaration that reuse is desirable.
+
+Now a teaching example proves unsuitable for beginners. With B, revise that companion's example and the teaching result it supports; retain the unchanged operative method and expert reminder. If the rule for deciding which reasons warrant a revision changes, inspect all dependent forms. A common publication may still need a release, but unchanged subject content need not acquire a pedagogical exception. This change probe explains the selected boundary; separate file names alone would not.
+
+An AI that supplies a polished case answer has not thereby taught a participant to evaluate reasons. If independent human judgement is the promised result, add the needed practice and feedback and test it. If obtaining a competent case answer is the promised result, direct AI or human provision can instead be compared on that result and its costs.
+
+**Cheap exit.** A prepared participant repeatedly overlooks one already understood question, and an existing available checklist already prompts it at the right occasion. Keep that route unless a consequential defect appears. No new pattern, companion, audience survey or cost table is needed.
 

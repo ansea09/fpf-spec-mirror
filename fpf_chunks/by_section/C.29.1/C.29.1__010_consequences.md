@@ -6,12 +6,12 @@ section_id: "C.29.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__010_consequences.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:9 — Consequences"
-line_start: 65714
-line_end: 65723
+line_start: 65716
+line_end: 65725
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

@@ -6,12 +6,12 @@ section_id: "C.32.ACE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__013_relations.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:12 — Relations"
-line_start: 72988
-line_end: 72997
+line_start: 72990
+line_end: 72999
 dependencies:
   - "A.10"
   - "A.15.1"

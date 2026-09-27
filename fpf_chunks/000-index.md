@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `b9aa11c659ee3d48b7c16537bf4f5da5abb952d6`
+Commit SHA: `920e3141d19e3731fec55716e01b02e1561de4fd`
 
 Chunking method: `pattern-aware`
 
-Patterns: `353`
+Patterns: `355`
 
 ## Patterns
 
@@ -251,6 +251,7 @@ Patterns: `353`
 - [C.39.RO — Turn a Construction into a Reusable Operation](by_pattern/C.39.RO.md)
 - [C.40 — Develop Branching Search from Reusable Material](by_pattern/C.40.md)
 - [C.40.CD — Develop Problems and Ways of Solving Them Together](by_pattern/C.40.CD.md)
+- [C.40.CU — Develop a Useful and Reproducible Use of a Construct](by_pattern/C.40.CU.md)
 - [C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action](by_pattern/C.36.P.md)
 - [C.36.RP — Sustain and Renew Shared Ways of Working](by_pattern/C.36.RP.md)
 - [D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)](by_pattern/D.1.md)
@@ -263,6 +264,7 @@ Patterns: `353`
 - [E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)](by_pattern/E.2.DA.md)
 - [E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)](by_pattern/E.3.md)
 - [E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites](by_pattern/E.4.md)
+- [E.4.CM — Develop Composite Methods as Framework Contributions](by_pattern/E.4.CM.md)
 - [E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes](by_pattern/E.4.FPF.md)
 - [E.4.PFAD — Principle-Framework Architecture Decision](by_pattern/E.4.PFAD.md)
 - [E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish](by_pattern/E.4.DPF.md)

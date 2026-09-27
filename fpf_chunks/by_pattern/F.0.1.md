@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.0.1.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
-line_start: 102471
-line_end: 102721
+line_start: 103080
+line_end: 103330
 dependencies:
   - "E.10"
   - "E.10.D1"

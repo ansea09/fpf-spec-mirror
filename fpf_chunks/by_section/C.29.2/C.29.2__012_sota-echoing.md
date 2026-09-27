@@ -6,12 +6,12 @@ section_id: "C.29.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__012_sota-echoing.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:11 — SoTA-Echoing"
-line_start: 66130
-line_end: 66161
+line_start: 66132
+line_end: 66163
 dependencies:
   - "A.10"
   - "A.3.1"

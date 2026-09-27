@@ -6,12 +6,12 @@ section_id: "B.5.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__010_consequences.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
   - "B.5.4:9 — Consequences"
-line_start: 46930
-line_end: 46935
+line_start: 46932
+line_end: 46937
 dependencies:
   - "A.7.1"
   - "B.5"

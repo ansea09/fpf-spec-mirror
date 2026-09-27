@@ -6,25 +6,32 @@ section_id: "E.4.PFAD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__008_conformance-checklist.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:7 — Conformance Checklist"
-line_start: 80187
-line_end: 80207
+line_start: 80747
+line_end: 80769
 dependencies:
   - "A.15.1"
   - "A.22"
   - "A.6.RCD"
   - "A.6.REL"
   - "B.1.5"
+  - "C.11.CRC"
+  - "C.11.DUA"
+  - "C.19.2"
+  - "C.2.8"
   - "C.30.AD"
   - "C.30.STRAT"
+  - "C.31"
   - "C.32.ADR"
   - "C.32.MWA"
   - "C.32.PAD"
   - "C.36"
+  - "E.11"
   - "E.11.DSG"
+  - "E.11.PFP"
   - "E.17"
   - "E.19"
   - "E.21"
@@ -35,6 +42,7 @@ dependencies:
   - "E.4.DPF"
   - "E.4.DPF.DA"
   - "E.4.PFR"
+  - "E.8"
   - "E.9"
   - "F.18"
   - "F.19"
@@ -63,4 +71,6 @@ keywords:
 | CC-PFAD.8 Reopen condition | The DRR states what change in field boundary, framework architecture, evidence, or receiving use requires reconsideration. |
 | CC-PFAD.9 DPF Suite decision | A selected Suite answer states the ecosystem use, which product series may belong, Suite constitution, inclusion and removal rules, identity when product series change, source return, later-review and retirement conditions, exposure choice, alternatives, consequences, and reopen condition. It separately states edition-to-product belonging and whether a DPF Suite Reference product series has been constituted and included. A maintained-Suite or maintained-Reference claim separately states its supporting maintenance relation, refresh response, and evidence. Record belonging as collection membership; assert holonhood, constructive parthood, dependency, or compatibility only through its own complete predicate. |
 
+
+When audience access, whole cost or shared change can alter the architecture answer, apply :4.1.1: keep the promised result fixed, identify relevant preparation and support, compare an adequate available alternative, and expose the decisive cost or change dependency. This is a conditional substantive comparison, not a required numerical score.
 

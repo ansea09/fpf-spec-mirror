@@ -6,12 +6,12 @@ section_id: "E.4.DPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__005_solution.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:4 — Solution"
-line_start: 80296
-line_end: 80694
+line_start: 80865
+line_end: 81265
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -117,6 +117,8 @@ Before authoring a new edition, the `E.4.PFAD` architecture answer states:
 - what the sources and evidence support, including whether each load-bearing claim is actual, proposed, or still untested, and what must be realized or tested before a stronger claim is made; and
 - where each contribution goes: into the new edition, back to an existing FPF or DPF, into an LPF or another available result of its actual kind and supplying product, into direct source use, or into an explained decision to add no new maintained product now, together with the observation that would reopen the question.
 
+
+During source comparison, recover useful wholes and their consequential joins as well as constituent operations. Source-coverage evidence answers what the sources contributed; it does not by itself establish recurrence, audience need or worthwhile public inclusion. Carry a missing composite, a meaningful variant or an anticipated use as a contribution to compare, rather than removing it because its parts already exist or publishing every source construction. When audience preparation, the cost of learning and continued application, or a shared change boundary alters the framework answer, use E.4.PFAD:4.1.1. Its selected arrangement can include a method account for competent readers, pedagogical companions and short-use routes; E.8:4.2.1.1 keeps their content responsibilities distinct. An unwritten companion does not supply the learning it promises.
 
 Before placing a proposed narrower contribution, apply `E.8:4.1.3` to it and the broader available contribution in one recognizable situation. Keep or merge a warranted difference that changes the reader's action or result; omit or merge a true duplicate; repair or reject an unwarranted difference. If something else answers the question, distinguish an available result from a MethodDescription, direct-source evidence, and an unavailable result; state maintenance only when it changes that use. This decides one contribution, not whether the package covers its public promise.
 

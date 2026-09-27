@@ -6,25 +6,32 @@ section_id: "E.4.PFAD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__004_forces.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:3 — Forces"
-line_start: 80009
-line_end: 80021
+line_start: 80504
+line_end: 80519
 dependencies:
   - "A.15.1"
   - "A.22"
   - "A.6.RCD"
   - "A.6.REL"
   - "B.1.5"
+  - "C.11.CRC"
+  - "C.11.DUA"
+  - "C.19.2"
+  - "C.2.8"
   - "C.30.AD"
   - "C.30.STRAT"
+  - "C.31"
   - "C.32.ADR"
   - "C.32.MWA"
   - "C.32.PAD"
   - "C.36"
+  - "E.11"
   - "E.11.DSG"
+  - "E.11.PFP"
   - "E.17"
   - "E.19"
   - "E.21"
@@ -35,6 +42,7 @@ dependencies:
   - "E.4.DPF"
   - "E.4.DPF.DA"
   - "E.4.PFR"
+  - "E.8"
   - "E.9"
   - "F.18"
   - "F.19"
@@ -55,4 +63,7 @@ keywords:
 | Cheap exit | A suitable non-framework product, small access result, or existing-framework contribution may solve the immediate problem without a framework decision. |
 | Relation precision | Initial pattern relations may shape the architecture, but a row or schema does not make those relations obtain. |
 | Evolution | The answer needs a reopen condition without turning every refresh concern into a mandatory field. |
+| Attainable benefit | A useful method can remain unusable because its audience cannot find, understand, learn or enact it; more explanation can also burden an already prepared reader. |
+| Whole cost and distribution | Repeated use can repay learning and authoring, while costs, gains and the ability to pay can fall on different participants. |
+| Sharing and independence | Shared methods can reduce duplicate work while accumulating exceptions and propagating changes into otherwise independent uses. |
 

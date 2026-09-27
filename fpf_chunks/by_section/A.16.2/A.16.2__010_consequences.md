@@ -6,12 +6,12 @@ section_id: "A.16.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__010_consequences.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:9 — Consequences"
-line_start: 31255
-line_end: 31257
+line_start: 31257
+line_end: 31259
 dependencies:
   - "A.16"
   - "A.16.0"

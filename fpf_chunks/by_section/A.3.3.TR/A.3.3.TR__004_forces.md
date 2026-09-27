@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__004_forces.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:3 — Forces"
-line_start: 9854
-line_end: 9864
+line_start: 9856
+line_end: 9866
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"

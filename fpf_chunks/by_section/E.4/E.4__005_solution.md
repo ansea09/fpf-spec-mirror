@@ -6,12 +6,12 @@ section_id: "E.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__005_solution.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:4 — Solution"
-line_start: 79414
-line_end: 79574
+line_start: 79673
+line_end: 79835
 dependencies:
   - "C.33"
   - "C.34"
@@ -28,6 +28,7 @@ dependencies:
   - "E.21"
   - "E.23"
   - "E.24.PUB"
+  - "E.4.CM"
   - "E.4.DPF"
   - "E.4.DPF.DA"
   - "E.4.FPF"
@@ -55,6 +56,8 @@ Start with the smallest route that answers the current question:
 4. Open the complete ecosystem-architecture record only when the answer must persist as ecosystem architecture or later work must rely on the selected structures and relations.
 
 This route is ordinary guidance, not a new record or package. A direct pattern or honest stop is a complete first result when no durable ecosystem-architecture record is needed.
+
+When the difficulty is that individually available patterns do not yet give practitioners a usable whole, use E.4.CM to develop the composite Method contribution. It connects recurring composition difficulties, exact supplied remedies, public placement and a short entry. A new primitive operation or a new framework is not a prerequisite for that useful contribution.
 
 Create an ecosystem-architecture record only when that durable architecture or later reliance is current. Use these fields:
 ```text

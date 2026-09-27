@@ -6,12 +6,12 @@ section_id: "A.1.STM:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__015_relations.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
   - "A.1.STM:13 — Relations"
-line_start: 3346
-line_end: 3352
+line_start: 3348
+line_end: 3354
 dependencies:
   - "A.1"
   - "A.1.CSD"

@@ -6,12 +6,12 @@ section_id: "A.7.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__011_consequences.md"
-commit_sha: "b9aa11c659ee3d48b7c16537bf4f5da5abb952d6"
+commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:9 — Consequences"
-line_start: 23619
-line_end: 23622
+line_start: 23621
+line_end: 23624
 dependencies:
   - "A.10"
   - "A.7.1"
