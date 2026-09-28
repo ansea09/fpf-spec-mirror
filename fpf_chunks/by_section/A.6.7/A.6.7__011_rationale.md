@@ -6,12 +6,12 @@ section_id: "A.6.7:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__011_rationale.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:10 — Rationale"
-line_start: 21892
-line_end: 21902
+line_start: 22055
+line_end: 22065
 dependencies:
   - "A.21"
   - "A.6.1"

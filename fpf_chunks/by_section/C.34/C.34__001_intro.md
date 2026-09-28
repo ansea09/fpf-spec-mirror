@@ -6,12 +6,12 @@ section_id: "C.34:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__001_intro.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:intro — Intro"
-line_start: 75264
-line_end: 75269
+line_start: 75429
+line_end: 75434
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

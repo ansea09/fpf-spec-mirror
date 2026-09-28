@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.CM.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "E.4.CM — Develop Composite Methods as Framework Contributions"
-line_start: 79952
-line_end: 80185
+line_start: 80117
+line_end: 80350
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"

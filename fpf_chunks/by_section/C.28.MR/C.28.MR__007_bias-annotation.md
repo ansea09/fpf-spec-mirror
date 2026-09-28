@@ -6,12 +6,12 @@ section_id: "C.28.MR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__007_bias-annotation.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:6 — Bias-Annotation"
-line_start: 64274
-line_end: 64279
+line_start: 64439
+line_end: 64444
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"

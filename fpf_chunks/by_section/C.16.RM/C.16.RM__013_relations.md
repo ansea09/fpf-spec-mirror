@@ -6,12 +6,12 @@ section_id: "C.16.RM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__013_relations.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:12 — Relations"
-line_start: 54905
-line_end: 54915
+line_start: 55070
+line_end: 55080
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"

@@ -6,12 +6,12 @@ section_id: "C.33:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__011_rationale.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:10 — Rationale"
-line_start: 75236
-line_end: 75243
+line_start: 75401
+line_end: 75408
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

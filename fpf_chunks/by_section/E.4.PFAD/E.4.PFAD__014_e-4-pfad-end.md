@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:End"
 section_title: "E.4.PFAD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__014_e-4-pfad-end.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:End — E.4.PFAD:End"
-line_start: 80830
-line_end: 80831
+line_start: 80995
+line_end: 80996
 dependencies:
   - "A.15.1"
   - "A.22"

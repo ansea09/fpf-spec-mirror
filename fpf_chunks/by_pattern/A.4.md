@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.4.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
-line_start: 10940
-line_end: 11054
+line_start: 11103
+line_end: 11217
 dependencies:
   - "A.1"
   - "A.1.1"

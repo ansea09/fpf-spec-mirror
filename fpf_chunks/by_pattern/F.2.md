@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.2.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
-line_start: 103886
-line_end: 104094
+line_start: 104053
+line_end: 104261
 dependencies:
   - "A.11"
   - "A.7"

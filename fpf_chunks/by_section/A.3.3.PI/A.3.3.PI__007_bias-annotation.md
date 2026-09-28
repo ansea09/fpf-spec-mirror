@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__007_bias-annotation.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:6 — Bias-Annotation"
-line_start: 10244
-line_end: 10249
+line_start: 10407
+line_end: 10412
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"

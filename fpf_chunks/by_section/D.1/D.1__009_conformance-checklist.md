@@ -6,12 +6,12 @@ section_id: "D.1:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__009_conformance-checklist.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:5 — Conformance Checklist"
-line_start: 78101
-line_end: 78109
+line_start: 78266
+line_end: 78274
 dependencies:
   - "A.1"
   - "A.1.CSD"

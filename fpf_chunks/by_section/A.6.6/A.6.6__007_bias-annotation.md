@@ -6,12 +6,12 @@ section_id: "A.6.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__007_bias-annotation.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:6 — Bias-Annotation"
-line_start: 21347
-line_end: 21355
+line_start: 21510
+line_end: 21518
 dependencies:
   - "A.10"
   - "A.14"

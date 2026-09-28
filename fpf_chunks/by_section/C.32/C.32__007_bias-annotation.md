@@ -6,12 +6,12 @@ section_id: "C.32:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__007_bias-annotation.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:6 — Bias-Annotation"
-line_start: 71820
-line_end: 71831
+line_start: 71985
+line_end: 71996
 dependencies:
   - "A.10"
   - "A.15"

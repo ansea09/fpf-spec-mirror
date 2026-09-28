@@ -6,12 +6,12 @@ section_id: "E.4.FPF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__010_consequences.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:9 — Consequences"
-line_start: 80442
-line_end: 80447
+line_start: 80607
+line_end: 80612
 dependencies:
   - "C.33"
   - "C.34"

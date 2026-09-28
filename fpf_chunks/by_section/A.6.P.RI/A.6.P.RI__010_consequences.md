@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__010_consequences.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:9 — Consequences"
-line_start: 18093
-line_end: 18098
+line_start: 18256
+line_end: 18261
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

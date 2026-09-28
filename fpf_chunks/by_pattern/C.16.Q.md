@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.Q.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
-line_start: 55169
-line_end: 56017
+line_start: 55334
+line_end: 56182
 dependencies:
   - "A.10"
   - "A.16"

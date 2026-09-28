@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__010_consequences.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:9 — Consequences"
-line_start: 10031
-line_end: 10036
+line_start: 10194
+line_end: 10199
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"

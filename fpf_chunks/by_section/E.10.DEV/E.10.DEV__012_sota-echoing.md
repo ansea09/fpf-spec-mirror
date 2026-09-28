@@ -6,12 +6,12 @@ section_id: "E.10.DEV:11"
 section_title: "SoTA Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__012_sota-echoing.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:11 — SoTA Echoing"
-line_start: 87012
-line_end: 87033
+line_start: 87177
+line_end: 87198
 dependencies:
   - "A.15"
   - "A.2.2"

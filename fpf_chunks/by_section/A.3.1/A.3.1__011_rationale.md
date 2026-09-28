@@ -6,12 +6,12 @@ section_id: "A.3.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__011_rationale.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:10 — Rationale"
-line_start: 8713
-line_end: 8718
+line_start: 8876
+line_end: 8881
 dependencies:
   - "A.1"
   - "A.1.1"

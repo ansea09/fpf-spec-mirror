@@ -6,12 +6,12 @@ section_id: "C.37:6"
 section_title: "Bias-Annotation  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__007_bias-annotation-informative.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:6 — Bias-Annotation  (informative)"
-line_start: 76314
-line_end: 76323
+line_start: 76479
+line_end: 76488
 dependencies:
   - "A.10"
   - "A.2.4"

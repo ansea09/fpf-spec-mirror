@@ -6,12 +6,12 @@ section_id: "F.0.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__008_conformance-checklist.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "F.0.2 — Conceptual Synthesis across Source Ontologies"
   - "F.0.2:7 — Conformance Checklist"
-line_start: 103488
-line_end: 103500
+line_start: 103655
+line_end: 103667
 dependencies:
   - "A.2.4"
   - "C.2.1"

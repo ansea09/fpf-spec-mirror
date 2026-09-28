@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__012_rationale.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:10 — Rationale"
-line_start: 38224
-line_end: 38229
+line_start: 38389
+line_end: 38394
 dependencies:
   - "A.10"
   - "A.15"

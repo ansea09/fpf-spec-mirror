@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.4.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
-line_start: 4947
-line_end: 5228
+line_start: 5110
+line_end: 5391
 dependencies:
   - "A.10"
   - "A.2"

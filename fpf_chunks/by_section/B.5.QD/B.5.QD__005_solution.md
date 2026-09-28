@@ -6,12 +6,12 @@ section_id: "B.5.QD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__005_solution.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "B.5.QD — Develop a New Question from a Result or Construction"
   - "B.5.QD:4 — Solution"
-line_start: 45632
-line_end: 45707
+line_start: 45797
+line_end: 45872
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

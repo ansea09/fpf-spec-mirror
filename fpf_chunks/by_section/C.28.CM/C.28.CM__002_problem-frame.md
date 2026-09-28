@@ -6,12 +6,12 @@ section_id: "C.28.CM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__002_problem-frame.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:1 — Problem frame"
-line_start: 63914
-line_end: 63923
+line_start: 64079
+line_end: 64088
 dependencies:
   - "A.15.9"
   - "B.5.2"

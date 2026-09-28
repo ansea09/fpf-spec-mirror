@@ -6,12 +6,12 @@ section_id: "A.2.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__006_forces.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:3 — Forces"
-line_start: 7075
-line_end: 7085
+line_start: 7238
+line_end: 7248
 dependencies:
   - "A.10"
   - "A.15.1"

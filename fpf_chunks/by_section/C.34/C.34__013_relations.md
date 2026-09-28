@@ -6,12 +6,12 @@ section_id: "C.34:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__013_relations.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:12 — Relations"
-line_start: 75444
-line_end: 75450
+line_start: 75609
+line_end: 75615
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

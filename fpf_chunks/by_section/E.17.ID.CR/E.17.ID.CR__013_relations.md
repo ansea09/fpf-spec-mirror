@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__013_relations.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:12 — Relations"
-line_start: 94937
-line_end: 94944
+line_start: 95104
+line_end: 95111
 dependencies:
   - "A.15"
   - "A.15.2"

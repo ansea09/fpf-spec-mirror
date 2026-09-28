@@ -6,12 +6,12 @@ section_id: "B.5.TC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__010_consequences.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Working Question"
   - "B.5.TC:9 — Consequences"
-line_start: 45564
-line_end: 45569
+line_start: 45729
+line_end: 45734
 dependencies:
   - "B.5.RA"
   - "B.5.RR"

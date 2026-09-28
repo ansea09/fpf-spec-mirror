@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__013_sota-echoing.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:11 — SoTA-Echoing"
-line_start: 38230
-line_end: 38240
+line_start: 38395
+line_end: 38405
 dependencies:
   - "A.10"
   - "A.15"

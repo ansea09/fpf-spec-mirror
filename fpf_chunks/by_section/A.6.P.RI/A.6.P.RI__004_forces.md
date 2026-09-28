@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__004_forces.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:3 — Forces"
-line_start: 17958
-line_end: 17967
+line_start: 18121
+line_end: 18130
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

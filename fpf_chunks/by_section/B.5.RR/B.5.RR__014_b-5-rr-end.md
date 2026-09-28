@@ -6,12 +6,12 @@ section_id: "B.5.RR:End"
 section_title: "B.5.RR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__014_b-5-rr-end.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:End — B.5.RR:End"
-line_start: 44952
-line_end: 44953
+line_start: 45117
+line_end: 45118
 dependencies:
   - "B.5"
   - "B.5.MPC.R"

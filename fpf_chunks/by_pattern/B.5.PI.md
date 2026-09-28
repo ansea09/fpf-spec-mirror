@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.PI.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
-line_start: 46970
-line_end: 47168
+line_start: 47135
+line_end: 47333
 dependencies:
   - "A.15.11"
   - "A.16.1"

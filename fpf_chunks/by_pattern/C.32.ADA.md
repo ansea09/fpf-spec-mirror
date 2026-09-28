@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.ADA.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
-line_start: 74753
-line_end: 75054
+line_start: 74918
+line_end: 75219
 dependencies:
   - "A.1.1"
   - "A.10"

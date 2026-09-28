@@ -6,12 +6,12 @@ section_id: "B.5.4:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__013_relations.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
   - "B.5.4:12 — Relations"
-line_start: 46958
-line_end: 46967
+line_start: 47123
+line_end: 47132
 dependencies:
   - "A.7.1"
   - "B.5"

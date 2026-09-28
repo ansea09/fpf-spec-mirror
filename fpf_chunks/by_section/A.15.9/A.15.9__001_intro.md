@@ -6,12 +6,12 @@ section_id: "A.15.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__001_intro.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:intro — Intro"
-line_start: 29239
-line_end: 29244
+line_start: 29402
+line_end: 29407
 dependencies:
   - "A.10"
   - "A.13"

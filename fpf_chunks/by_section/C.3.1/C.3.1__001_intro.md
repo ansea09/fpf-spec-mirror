@@ -6,12 +6,12 @@ section_id: "C.3.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__001_intro.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:intro — Intro"
-line_start: 51041
-line_end: 51046
+line_start: 51206
+line_end: 51211
 dependencies:
   - "A.1"
   - "A.11"

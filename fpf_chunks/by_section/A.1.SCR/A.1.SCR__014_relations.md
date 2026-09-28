@@ -6,12 +6,12 @@ section_id: "A.1.SCR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__014_relations.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:12 — Relations"
-line_start: 2905
-line_end: 2914
+line_start: 3068
+line_end: 3077
 dependencies:
   - "A.1"
   - "A.1.CSD"

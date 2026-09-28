@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__012_sota-echoing.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:11 — SoTA-Echoing"
-line_start: 73681
-line_end: 73699
+line_start: 73846
+line_end: 73864
 dependencies:
   - "A.10"
   - "A.19.CPM"

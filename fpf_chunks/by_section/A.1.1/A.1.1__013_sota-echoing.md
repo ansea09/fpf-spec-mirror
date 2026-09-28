@@ -6,12 +6,12 @@ section_id: "A.1.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__013_sota-echoing.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:11 — SoTA-Echoing"
-line_start: 2619
-line_end: 2640
+line_start: 2782
+line_end: 2803
 dependencies:
   - "A.1"
   - "A.14"

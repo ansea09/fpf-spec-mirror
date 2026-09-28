@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.11.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
-line_start: 107113
-line_end: 107340
+line_start: 107280
+line_end: 107507
 dependencies:
   - "A.15"
   - "A.15.1"

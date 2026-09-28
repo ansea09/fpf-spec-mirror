@@ -6,12 +6,12 @@ section_id: "C.37:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__010_consequences.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:9 — Consequences"
-line_start: 76355
-line_end: 76360
+line_start: 76520
+line_end: 76525
 dependencies:
   - "A.10"
   - "A.2.4"

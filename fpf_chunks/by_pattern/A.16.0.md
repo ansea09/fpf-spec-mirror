@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.0.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
-line_start: 30587
-line_end: 30888
+line_start: 30750
+line_end: 31051
 dependencies:
   - "A.16"
   - "A.16.1"

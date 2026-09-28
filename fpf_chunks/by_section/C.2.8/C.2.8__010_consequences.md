@@ -6,12 +6,12 @@ section_id: "C.2.8:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__010_consequences.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.2.8 — U.ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:9 — Consequences"
-line_start: 50483
-line_end: 50492
+line_start: 50648
+line_end: 50657
 dependencies:
   - "A.17"
   - "A.18"

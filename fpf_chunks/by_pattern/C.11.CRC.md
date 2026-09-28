@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.CRC.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
-line_start: 53195
-line_end: 53399
+line_start: 53360
+line_end: 53564
 dependencies:
   - "A.1.CSD"
   - "A.10"

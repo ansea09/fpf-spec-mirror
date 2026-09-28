@@ -6,12 +6,12 @@ section_id: "A.6.2:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 14958
-line_end: 14966
+line_start: 15121
+line_end: 15129
 dependencies:
   - "A.6.0"
   - "A.6.1"

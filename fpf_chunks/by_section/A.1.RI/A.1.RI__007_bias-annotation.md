@@ -6,12 +6,12 @@ section_id: "A.1.RI:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__007_bias-annotation.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:6 — Bias-Annotation"
-line_start: 2153
-line_end: 2158
+line_start: 2316
+line_end: 2321
 dependencies:
   - "A.1"
   - "A.3.3.PI"

@@ -6,12 +6,12 @@ section_id: "B.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__012_rationale.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:10 — Rationale"
-line_start: 42147
-line_end: 42150
+line_start: 42312
+line_end: 42315
 dependencies:
   - "A.10"
   - "A.15.1"

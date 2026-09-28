@@ -6,12 +6,12 @@ section_id: "B.5.RR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__012_sota-echoing.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:11 — SoTA-Echoing"
-line_start: 44932
-line_end: 44943
+line_start: 45097
+line_end: 45108
 dependencies:
   - "B.5"
   - "B.5.MPC.R"

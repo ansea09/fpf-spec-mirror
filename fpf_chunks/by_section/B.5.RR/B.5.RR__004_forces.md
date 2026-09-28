@@ -6,12 +6,12 @@ section_id: "B.5.RR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__004_forces.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:3 — Forces"
-line_start: 44794
-line_end: 44802
+line_start: 44959
+line_end: 44967
 dependencies:
   - "B.5"
   - "B.5.MPC.R"

@@ -6,12 +6,12 @@ section_id: "A.2.3:10.1"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__015_consequences.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:10.1 — Consequences"
-line_start: 4908
-line_end: 4915
+line_start: 5071
+line_end: 5078
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.2.1:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__014_sota-echoing.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:12 — SoTA-Echoing"
-line_start: 4104
-line_end: 4111
+line_start: 4267
+line_end: 4274
 dependencies:
   - "A.1.1"
   - "A.15"

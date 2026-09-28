@@ -6,12 +6,12 @@ section_id: "A.3.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__006_archetypal-grounding.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:5 — Archetypal Grounding"
-line_start: 9137
-line_end: 9179
+line_start: 9300
+line_end: 9342
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__001_intro.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:intro — Intro"
-line_start: 16480
-line_end: 16485
+line_start: 16643
+line_end: 16648
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"

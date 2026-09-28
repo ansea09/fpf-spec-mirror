@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__008_conformance-checklist.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:7 — Conformance Checklist"
-line_start: 10009
-line_end: 10019
+line_start: 10172
+line_end: 10182
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"

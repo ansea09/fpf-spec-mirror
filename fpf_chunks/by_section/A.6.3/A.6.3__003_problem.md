@@ -6,12 +6,12 @@ section_id: "A.6.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__003_problem.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:2 — Problem"
-line_start: 15065
-line_end: 15072
+line_start: 15228
+line_end: 15235
 dependencies:
   - "A.13"
   - "A.15.1"

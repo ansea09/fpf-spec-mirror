@@ -6,12 +6,12 @@ section_id: "A.2.6:0.1"
 section_title: "Kind Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__002_kind-settlement.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:0.1 — Kind Settlement"
-line_start: 5585
-line_end: 5613
+line_start: 5748
+line_end: 5776
 dependencies:
   - "A.1.1"
   - "A.15.1"

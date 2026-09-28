@@ -6,12 +6,12 @@ section_id: "E.4.CM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__010_consequences.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "E.4.CM — Develop Composite Methods as Framework Contributions"
   - "E.4.CM:9 — Consequences"
-line_start: 80151
-line_end: 80156
+line_start: 80316
+line_end: 80321
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"

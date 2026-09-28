@@ -6,12 +6,12 @@ section_id: "E.23.CDI:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__004_forces.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:3 — Forces"
-line_start: 100877
-line_end: 100887
+line_start: 101044
+line_end: 101054
 dependencies:
   - "A.15.1"
   - "A.2.2"

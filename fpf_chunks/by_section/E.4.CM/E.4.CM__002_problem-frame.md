@@ -6,12 +6,12 @@ section_id: "E.4.CM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__002_problem-frame.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "E.4.CM — Develop Composite Methods as Framework Contributions"
   - "E.4.CM:1 — Problem frame"
-line_start: 79958
-line_end: 79969
+line_start: 80123
+line_end: 80134
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"

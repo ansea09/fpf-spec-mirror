@@ -6,12 +6,12 @@ section_id: "E.4.CM:End"
 section_title: "E.4.CM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__014_e-4-cm-end.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "E.4.CM — Develop Composite Methods as Framework Contributions"
   - "E.4.CM:End — E.4.CM:End"
-line_start: 80184
-line_end: 80185
+line_start: 80349
+line_end: 80350
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"

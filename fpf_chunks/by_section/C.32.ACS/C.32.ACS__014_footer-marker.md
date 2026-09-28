@@ -6,12 +6,12 @@ section_id: "C.32.ACS:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__014_footer-marker.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:13 — Footer marker"
-line_start: 72781
-line_end: 72784
+line_start: 72946
+line_end: 72949
 dependencies:
   - "A.1.1"
   - "A.10"

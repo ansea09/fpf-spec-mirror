@@ -6,12 +6,12 @@ section_id: "C.29.BB:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__013_relations.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:12 — Relations"
-line_start: 66734
-line_end: 66743
+line_start: 66899
+line_end: 66908
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"

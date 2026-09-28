@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__007_bias-annotation.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:6 — Bias-Annotation"
-line_start: 40126
-line_end: 40129
+line_start: 40291
+line_end: 40294
 dependencies:
   - "A.3.1"
   - "B.1.5"

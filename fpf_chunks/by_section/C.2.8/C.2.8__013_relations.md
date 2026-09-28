@@ -6,12 +6,12 @@ section_id: "C.2.8:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__013_relations.md"
-commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
+commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
 heading_path:
   - "C.2.8 — U.ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:12 — Relations"
-line_start: 50513
-line_end: 50523
+line_start: 50678
+line_end: 50688
 dependencies:
   - "A.17"
   - "A.18"
