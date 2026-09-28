@@ -6,7 +6,7 @@ section_id: "E.24.CD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__001_intro.md"
-commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
+commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:intro — Intro"

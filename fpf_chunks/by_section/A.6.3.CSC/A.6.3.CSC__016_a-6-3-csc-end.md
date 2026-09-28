@@ -6,7 +6,7 @@ section_id: "A.6.3.CSC:End"
 section_title: "A.6.3.CSC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__016_a-6-3-csc-end.md"
-commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
+commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:End — A.6.3.CSC:End"

@@ -6,7 +6,7 @@ section_id: "A.0:QF.2"
 section_title: "First public wording for shortlisted results"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__015_first-public-wording-for-shortlisted-results.md"
-commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
+commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.2 — First public wording for shortlisted results"

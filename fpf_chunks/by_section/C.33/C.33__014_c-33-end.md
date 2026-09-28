@@ -6,7 +6,7 @@ section_id: "C.33:End"
 section_title: "C.33:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__014_c-33-end.md"
-commit_sha: "920e3141d19e3731fec55716e01b02e1561de4fd"
+commit_sha: "8e503760f425c809fab3387f8517ca7df49cf59c"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:End — C.33:End"
