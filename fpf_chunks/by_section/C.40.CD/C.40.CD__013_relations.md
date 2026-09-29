@@ -6,7 +6,7 @@ section_id: "C.40.CD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__013_relations.md"
-commit_sha: "a8fc704270e4bef9d97953190a52d683db1d9e66"
+commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:12 — Relations"
